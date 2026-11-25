@@ -1,0 +1,4388 @@
+{
+  "kind": "story",
+  "id": "furusato-id-malin-1",
+  "titles": {
+    "vi": "Malin Kundang",
+    "en": "Malin Kundang",
+    "zh-Hans": "马林·昆当",
+    "zh-Hant": "馬林·昆當",
+    "ko": "말린 쿤당",
+    "tl": "Si Malin Kundang",
+    "ne": "मालिन कुन्दाङ",
+    "id": "Malin Kundang",
+    "pt": "Malin Kundang",
+    "my": "မာလင် ကွန်ဒန်",
+    "th": "มาลิน กุนดัง"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "cover": "/covers/furusato-id-malin-1.webp",
+  "free": false,
+  "standard": 2,
+  "series": {
+    "id": "furusato-id-malin",
+    "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "ID",
+  "lesson": {
+    "grammarPoints": [
+      {
+        "pattern": "〜にまつわる",
+        "example": 2,
+        "meaning": {
+          "vi": "Gắn với ~, liên quan đến ~ (chuyện kể, truyền thuyết).",
+          "en": "Connected with ~ (stories, legends).",
+          "zh-Hans": "与……有关的（故事、传说）。",
+          "zh-Hant": "與……有關的（故事、傳說）。",
+          "ko": "~에 얽힌 (이야기, 전설).",
+          "tl": "Kaugnay ng ~ (kuwento, alamat).",
+          "ne": "~ सँग जोडिएको (कथा, किंवदन्ती)।",
+          "id": "Berkaitan dengan ~ (kisah, legenda).",
+          "pt": "Ligado a ~ (histórias, lendas).",
+          "my": "~ နဲ့ ဆက်စပ်တဲ့ (ပုံပြင်၊ ဒဏ္ဍာရီ)။",
+          "th": "เกี่ยวกับ~ (เรื่องเล่า ตำนาน)"
+        }
+      },
+      {
+        "pattern": "〜ようとする",
+        "example": 27,
+        "meaning": {
+          "vi": "Định ~, cố ~ (sắp làm nhưng chưa xong).",
+          "en": "Try to ~; be about to ~.",
+          "zh-Hans": "想要……，正要……。",
+          "zh-Hant": "想要……，正要……。",
+          "ko": "~하려고 하다.",
+          "tl": "Sinusubukang ~; malapit nang ~.",
+          "ne": "~ गर्न खोज्नु।",
+          "id": "Mencoba ~; hendak ~.",
+          "pt": "Tentar ~; estar prestes a ~.",
+          "my": "~ ဖို့ ကြိုးစား၊ ~ တော့မယ်။",
+          "th": "พยายามจะ~; กำลังจะ~"
+        }
+      },
+      {
+        "pattern": "〜もせず",
+        "example": 34,
+        "meaning": {
+          "vi": "Ngay cả ~ cũng không (mà làm việc khác).",
+          "en": "Without even ~ing.",
+          "zh-Hans": "连……也不（就……）。",
+          "zh-Hant": "連……也不（就……）。",
+          "ko": "~하지도 않고.",
+          "tl": "Nang hindi man lang ~.",
+          "ne": "~ पनि नगरी।",
+          "id": "Tanpa ~ sekalipun.",
+          "pt": "Sem nem ~.",
+          "my": "~ တောင် မ~ဘဲ။",
+          "th": "โดยไม่แม้แต่จะ~"
+        }
+      },
+      {
+        "pattern": "〜ずにはいられない",
+        "example": 50,
+        "meaning": {
+          "vi": "Không thể không ~, không kìm được ~.",
+          "en": "Can't help ~ing.",
+          "zh-Hans": "不禁……，忍不住……。",
+          "zh-Hant": "不禁……，忍不住……。",
+          "ko": "~하지 않을 수 없다.",
+          "tl": "Hindi maiwasang ~.",
+          "ne": "~ नगरी रहन सकिँदैन।",
+          "id": "Tak bisa tidak ~.",
+          "pt": "Não consigo deixar de ~.",
+          "my": "မ~ဘဲ မနေနိုင်။",
+          "th": "อดที่จะ~ไม่ได้"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "ja": "マリンは、なぜ村を出た？",
+        "choices": [
+          "お金持ちになって、お母さんを楽にするため",
+          "お母さんとけんかしたため",
+          "結婚するため",
+          "魚をとるため"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Malin hứa sẽ giàu có để mẹ sống sung sướng.",
+          "en": "He promised to get rich and make his mother's life easy.",
+          "zh-Hans": "他想当有钱人，让妈妈过上好日子。",
+          "zh-Hant": "他想當有錢人，讓媽媽過上好日子。",
+          "ko": "부자가 되어 엄마를 편하게 해 주려고.",
+          "tl": "Para yumaman at gumaan ang buhay ng ina.",
+          "ne": "धनी भएर आमालाई सुखी बनाउन।",
+          "id": "Untuk kaya dan membahagiakan ibunya.",
+          "pt": "Para enriquecer e dar uma vida boa à mãe.",
+          "my": "ချမ်းသာပြီး အမေ့ကို သက်သာစေဖို့။",
+          "th": "เพื่อรวยแล้วให้แม่สบาย"
+        }
+      },
+      {
+        "ja": "マリンは、なぜ「ぼくの母親じゃない」と言った？",
+        "choices": [
+          "妻の前で、まずしい母がはずかしかったから",
+          "本当に母親ではなかったから",
+          "耳が聞こえなかったから",
+          "お母さんがおこっていたから"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Trước mặt vợ, Malin xấu hổ vì có mẹ nghèo.",
+          "en": "In front of his wife he was ashamed of his poor mother.",
+          "zh-Hans": "在妻子面前，他觉得穷母亲丢脸。",
+          "zh-Hant": "在妻子面前，他覺得窮母親丟臉。",
+          "ko": "아내 앞에서 가난한 어머니가 부끄러웠다.",
+          "tl": "Nahiya siya sa harap ng asawa.",
+          "ne": "श्रीमतीअगाडि लाज लाग्यो।",
+          "id": "Ia malu di depan istrinya.",
+          "pt": "Teve vergonha diante da esposa.",
+          "my": "ဇနီးရှေ့မှာ ရှက်လို့။",
+          "th": "อายต่อหน้าภรรยา"
+        }
+      },
+      {
+        "ja": "最後に、マリンはどうなった？",
+        "choices": [
+          "ひざをついた姿のまま、石になった",
+          "お母さんと村で暮らした",
+          "遠い国へにげた",
+          "鳥になった"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Anh hóa đá trong tư thế quỳ xin lỗi; tảng đá vẫn còn ở Air Manis.",
+          "en": "He turned to stone while kneeling; the rock is still at Air Manis.",
+          "zh-Hans": "他跪着变成了石头，至今还在艾尔马尼斯。",
+          "zh-Hant": "他跪著變成了石頭，至今還在艾爾馬尼斯。",
+          "ko": "무릎 꿇은 채 돌이 되었고, 지금도 남아 있다.",
+          "tl": "Naging bato siya habang nakaluhod.",
+          "ne": "घुँडा टेकेकै अवस्थामा ढुङ्गा बन्यो।",
+          "id": "Ia menjadi batu dalam posisi berlutut.",
+          "pt": "Virou pedra ajoelhado.",
+          "my": "ဒူးထောက်ရင်း ကျောက်ဖြစ်သွားတယ်။",
+          "th": "กลายเป็นหินในท่าคุกเข่า"
+        }
+      },
+      {
+        "ja": "「スズメとキツツキ」で、スズメがお米を食べられるようになったのは、なぜ？",
+        "choices": [
+          "仕事の服のまま、すぐにお母さんのもとへ行ったから",
+          "きれいにおけしょうをしたから",
+          "木をつついたから",
+          "お母さんにお米をあげたから"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Chim sẻ vội đến ngay với mẹ, không màng vẻ ngoài.",
+          "en": "The sparrow rushed to its mother right away, not caring about looks.",
+          "zh-Hans": "麻雀不顾外表，马上赶到妈妈身边。",
+          "zh-Hant": "麻雀不顧外表，馬上趕到媽媽身邊。",
+          "ko": "겉모습을 신경 쓰지 않고 곧장 어머니께 달려갔다.",
+          "tl": "Nagmadali agad ang maya sa ina.",
+          "ne": "भँगेरा रूपको वास्ता नगरी तुरुन्त गयो।",
+          "id": "Pipit langsung bergegas ke ibunya.",
+          "pt": "O pardal correu logo para a mãe.",
+          "my": "စာကလေးက ချက်ချင်း အမေ့ဆီ သွားလို့။",
+          "th": "นกกระจอกรีบไปหาแม่ทันที"
+        }
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "ja": "インドネシアのスマトラ島、パダンの町の近くに、エア・マニスという海岸があります。",
+      "furigana": [
+        {
+          "surface": "インドネシアのスマトラ",
+          "reading": ""
+        },
+        {
+          "surface": "島",
+          "reading": "とう"
+        },
+        {
+          "surface": "、パダンの",
+          "reading": ""
+        },
+        {
+          "surface": "町",
+          "reading": "まち"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "近",
+          "reading": "ちか"
+        },
+        {
+          "surface": "くに、エア・マニスという",
+          "reading": ""
+        },
+        {
+          "surface": "海岸",
+          "reading": "かいがん"
+        },
+        {
+          "surface": "があります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Indoneshia no Sumatoratou, Padan no machi no chikaku ni, Ea・manisu to iu kaigan ga arimasu.",
+      "translations": {
+        "vi": "Ở gần thành phố Padang trên đảo Sumatra, Indonesia, có một bờ biển tên là Air Manis.",
+        "en": "Near the city of Padang on Sumatra, Indonesia, there is a beach called Air Manis.",
+        "zh-Hans": "在印度尼西亚苏门答腊岛巴东市附近，有一个叫艾尔马尼斯的海岸。",
+        "zh-Hant": "在印度尼西亞蘇門答臘島巴東市附近，有一個叫艾爾馬尼斯的海岸。",
+        "ko": "인도네시아 수마트라섬 파당 근처에 아이르 마니스라는 해안이 있습니다.",
+        "tl": "Malapit sa lungsod ng Padang sa Sumatra, Indonesia, may dalampasigang tinatawag na Air Manis.",
+        "ne": "इन्डोनेसियाको सुमात्रा टापुको पादाङ सहर नजिक एयर मानिस भन्ने समुद्रतट छ।",
+        "id": "Di dekat kota Padang, Pulau Sumatra, Indonesia, ada pantai bernama Air Manis.",
+        "pt": "Perto da cidade de Padang, em Sumatra, Indonésia, há uma praia chamada Air Manis.",
+        "my": "အင်ဒိုနီးရှား ဆူမားထရားကျွန်း ပါဒန်မြို့ အနီးမှာ အဲယား မာနစ် ဆိုတဲ့ ကမ်းခြေ ရှိတယ်။",
+        "th": "ใกล้เมืองปาดังบนเกาะสุมาตรา อินโดนีเซีย มีชายหาดชื่อแอร์มานิส"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜という」: tên là ~. 海岸 = bờ biển.",
+        "en": "「〜という」 = called ~.",
+        "zh-Hans": "「〜という」＝叫做。",
+        "zh-Hant": "「〜という」＝叫做。",
+        "ko": "~라는.",
+        "tl": "tinatawag na.",
+        "ne": "भन्ने।",
+        "id": "bernama.",
+        "pt": "chamada.",
+        "my": "ဆိုတဲ့။",
+        "th": "ชื่อ"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=0.3,7.079",
+      "t": [
+        0.3,
+        7.079
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "その海岸には、人がひざをついて、ひれふしたような形の岩があります。",
+      "furigana": [
+        {
+          "surface": "その",
+          "reading": ""
+        },
+        {
+          "surface": "海岸",
+          "reading": "かいがん"
+        },
+        {
+          "surface": "には、",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "がひざをついて、ひれふしたような",
+          "reading": ""
+        },
+        {
+          "surface": "形",
+          "reading": "かたち"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "岩",
+          "reading": "いわ"
+        },
+        {
+          "surface": "があります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono kaigan ni wa, hito ga hiza o tsuite, hirefushita you na katachi no iwa ga arimasu.",
+      "translations": {
+        "vi": "Trên bờ biển ấy có một tảng đá hình như người đang quỳ gối, rạp mình xuống.",
+        "en": "On that beach is a rock shaped like a person kneeling and bowing down.",
+        "zh-Hans": "那个海岸上有一块形状像人跪着伏地的岩石。",
+        "zh-Hant": "那個海岸上有一塊形狀像人跪著伏地的岩石。",
+        "ko": "그 해안에는 사람이 무릎을 꿇고 엎드린 듯한 모양의 바위가 있습니다.",
+        "tl": "Sa dalampasigang iyon ay may batong hugis taong nakaluhod at nakayuko.",
+        "ne": "त्यो तटमा घुँडा टेकेर निहुरिएको मान्छे जस्तो आकारको चट्टान छ।",
+        "id": "Di pantai itu ada batu berbentuk orang yang berlutut dan bersujud.",
+        "pt": "Nessa praia há uma rocha em forma de pessoa ajoelhada e curvada.",
+        "my": "အဲဒီ ကမ်းခြေမှာ လူတစ်ယောက် ဒူးထောက်ပြီး ဝပ်တွားနေတဲ့ ပုံ ကျောက်တုံး ရှိတယ်။",
+        "th": "บนหาดนั้นมีหินรูปร่างเหมือนคนคุกเข่าก้มกราบ"
+      },
+      "vocab": [
+        {
+          "word": "岩",
+          "reading": "いわ",
+          "meanings": {
+            "vi": "tảng đá",
+            "en": "rock",
+            "zh-Hans": "岩石",
+            "zh-Hant": "岩石",
+            "ko": "바위",
+            "tl": "bato",
+            "ne": "चट्टान",
+            "id": "batu karang",
+            "pt": "rocha",
+            "my": "ကျောက်ဆောင်",
+            "th": "หิน"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「ひざをつく」: quỳ gối. 「ひれふす」: rạp mình. 「〜ような形」: hình như ~.",
+        "en": "「〜ような形」 = shaped like ~.",
+        "zh-Hans": "「〜ような形」＝像……的形状。",
+        "zh-Hant": "「〜ような形」＝像……的形狀。",
+        "ko": "~듯한 모양.",
+        "tl": "hugis.",
+        "ne": "जस्तो आकार।",
+        "id": "berbentuk.",
+        "pt": "em forma de.",
+        "my": "ပုံ။",
+        "th": "รูปร่างเหมือน"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=7.679,13.552",
+      "t": [
+        7.679,
+        13.552
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "今日は、その岩にまつわる、少し悲しいお話です。",
+      "furigana": [
+        {
+          "surface": "今日",
+          "reading": "きょう"
+        },
+        {
+          "surface": "は、その",
+          "reading": ""
+        },
+        {
+          "surface": "岩",
+          "reading": "いわ"
+        },
+        {
+          "surface": "にまつわる、",
+          "reading": ""
+        },
+        {
+          "surface": "少",
+          "reading": "すこ"
+        },
+        {
+          "surface": "し",
+          "reading": ""
+        },
+        {
+          "surface": "悲",
+          "reading": "かな"
+        },
+        {
+          "surface": "しいお",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kyou wa, sono iwa nimatsuwaru, sukoshi kanashii ohanashi desu.",
+      "translations": {
+        "vi": "Hôm nay là một câu chuyện hơi buồn gắn với tảng đá đó.",
+        "en": "Today's is a somewhat sad story about that rock.",
+        "zh-Hans": "今天讲的是和那块岩石有关的、有点悲伤的故事。",
+        "zh-Hant": "今天講的是和那塊岩石有關的、有點悲傷的故事。",
+        "ko": "오늘은 그 바위에 얽힌 조금 슬픈 이야기입니다.",
+        "tl": "Ngayon, isang medyo malungkot na kuwento tungkol sa batong iyon.",
+        "ne": "आज त्यो चट्टानसँग जोडिएको अलि दुःखद कथा।",
+        "id": "Hari ini kisah agak sedih tentang batu itu.",
+        "pt": "Hoje, uma história um pouco triste sobre essa rocha.",
+        "my": "ဒီနေ့က အဲဒီ ကျောက်တုံးနဲ့ ဆက်စပ်တဲ့ နည်းနည်း ဝမ်းနည်းစရာ ပုံပြင်ပါ။",
+        "th": "วันนี้เป็นเรื่องเศร้านิดๆ เกี่ยวกับหินก้อนนั้น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜にまつわる」: gắn với ~, liên quan ~.",
+        "en": "「〜にまつわる」 = connected with ~.",
+        "zh-Hans": "「〜にまつわる」＝与……有关的。",
+        "zh-Hant": "「〜にまつわる」＝與……有關的。",
+        "ko": "~에 얽힌.",
+        "tl": "tungkol sa.",
+        "ne": "सँग जोडिएको।",
+        "id": "tentang.",
+        "pt": "sobre.",
+        "my": "နဲ့ ဆက်စပ်။",
+        "th": "เกี่ยวกับ"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=14.152,18.678",
+      "t": [
+        14.152,
+        18.678
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "昔、この海辺の村に、マリン・クンダンという男の子が、お母さんと二人で暮らしていました。",
+      "furigana": [
+        {
+          "surface": "昔",
+          "reading": "むかし"
+        },
+        {
+          "surface": "、この",
+          "reading": ""
+        },
+        {
+          "surface": "海辺",
+          "reading": "うみべ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "に、マリン・クンダンという",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "が、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんと",
+          "reading": ""
+        },
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "暮",
+          "reading": "く"
+        },
+        {
+          "surface": "らしていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mukashi, kono umibe no mura ni, Marin・kundan to iu otokonoko ga, okaasan to futari de kurashiteimashita.",
+      "translations": {
+        "vi": "Ngày xưa, ở làng ven biển này, cậu bé Malin Kundang sống với mẹ, chỉ hai mẹ con.",
+        "en": "Long ago, in this seaside village, a boy named Malin Kundang lived alone with his mother.",
+        "zh-Hans": "从前，在这个海边村子里，一个叫马林·昆当的男孩和妈妈两个人生活。",
+        "zh-Hant": "從前，在這個海邊村子裡，一個叫馬林·昆當的男孩和媽媽兩個人生活。",
+        "ko": "옛날 이 바닷가 마을에 말린 쿤당이라는 소년이 엄마와 단둘이 살고 있었습니다.",
+        "tl": "Noong una, sa nayong ito sa tabing-dagat, nakatira si Malin Kundang kasama ang kanyang ina.",
+        "ne": "पहिले यो समुद्री गाउँमा मालिन कुन्दाङ नामको केटो आमासँग दुई जना मात्र बस्थ्यो।",
+        "id": "Dahulu, di desa pantai ini, Malin Kundang tinggal berdua dengan ibunya.",
+        "pt": "Antigamente, nesta aldeia à beira-mar, o menino Malin Kundang vivia só com a mãe.",
+        "my": "ရှေးတုန်းက ဒီ ပင်လယ်ကမ်းခြေ ရွာမှာ မာလင် ကွန်ဒန် ဆိုတဲ့ ကောင်လေးက အမေနဲ့ နှစ်ယောက်တည်း နေတယ်။",
+        "th": "กาลก่อน ในหมู่บ้านริมทะเลนี้ เด็กชายชื่อมาลิน กุนดังอยู่กับแม่สองคน"
+      },
+      "vocab": [
+        {
+          "word": "暮らす",
+          "reading": "くらす",
+          "meanings": {
+            "vi": "sống, sinh sống",
+            "en": "to live, to get by",
+            "zh-Hans": "生活，过日子",
+            "zh-Hant": "生活，過日子",
+            "ko": "살다, 생활하다",
+            "tl": "mamuhay",
+            "ne": "बस्नु, जीवन बिताउनु",
+            "id": "hidup, tinggal",
+            "pt": "viver, morar",
+            "my": "နေထိုင်သည်",
+            "th": "ใช้ชีวิต, อาศัยอยู่"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜と二人で」: chỉ hai người với ~. 海辺 = ven biển.",
+        "en": "「〜と二人で」 = just the two with ~.",
+        "zh-Hans": "「〜と二人で」＝和……两个人。",
+        "zh-Hant": "「〜と二人で」＝和……兩個人。",
+        "ko": "~와 단둘이.",
+        "tl": "kasama.",
+        "ne": "दुई जना मात्र।",
+        "id": "berdua.",
+        "pt": "só com.",
+        "my": "နှစ်ယောက်တည်း။",
+        "th": "สองคน"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=19.278,26.986",
+      "t": [
+        19.278,
+        26.986
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "家はとてもまずしく、お母さんは、毎日、朝から晩まで働いていました。",
+      "furigana": [
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "はとてもまずしく、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、",
+          "reading": ""
+        },
+        {
+          "surface": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "朝",
+          "reading": "あさ"
+        },
+        {
+          "surface": "から",
+          "reading": ""
+        },
+        {
+          "surface": "晩",
+          "reading": "ばん"
+        },
+        {
+          "surface": "まで",
+          "reading": ""
+        },
+        {
+          "surface": "働",
+          "reading": "はたら"
+        },
+        {
+          "surface": "いていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ie wa totemo mazushiku, okaasan wa, mainichi, asa kara ban made hataraiteimashita.",
+      "translations": {
+        "vi": "Nhà rất nghèo, ngày nào mẹ cũng làm việc từ sáng đến tối.",
+        "en": "They were very poor, and his mother worked from morning till night every day.",
+        "zh-Hans": "家里很穷，妈妈每天从早到晚干活。",
+        "zh-Hant": "家裡很窮，媽媽每天從早到晚幹活。",
+        "ko": "집은 무척 가난해서 엄마는 매일 아침부터 밤까지 일했습니다.",
+        "tl": "Napakahirap nila, at araw-araw nagtatrabaho ang ina mula umaga hanggang gabi.",
+        "ne": "घर धेरै गरिब थियो, आमा हरेक दिन बिहानदेखि बेलुकासम्म काम गर्थिन्।",
+        "id": "Rumahnya sangat miskin; ibu bekerja dari pagi sampai malam setiap hari.",
+        "pt": "Eram muito pobres; a mãe trabalhava de manhã à noite todos os dias.",
+        "my": "အိမ်က အရမ်း ဆင်းရဲပြီး အမေက နေ့တိုင်း မနက်ကနေ ညအထိ အလုပ်လုပ်တယ်။",
+        "th": "บ้านจนมาก แม่ทำงานตั้งแต่เช้าจรดค่ำทุกวัน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「まずしい」: nghèo. 「朝から晩まで」: từ sáng đến tối.",
+        "en": "「朝から晩まで」 = from morning till night.",
+        "zh-Hans": "「まずしい」＝贫穷。",
+        "zh-Hant": "「まずしい」＝貧窮。",
+        "ko": "가난하다.",
+        "tl": "mahirap.",
+        "ne": "गरिब।",
+        "id": "miskin.",
+        "pt": "pobre.",
+        "my": "ဆင်းရဲ။",
+        "th": "จน"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=27.586,33.623",
+      "t": [
+        27.586,
+        33.623
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "マリンは、元気で、かしこい子どもでした。",
+      "furigana": [
+        {
+          "surface": "マリンは、",
+          "reading": ""
+        },
+        {
+          "surface": "元気",
+          "reading": "げんき"
+        },
+        {
+          "surface": "で、かしこい",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どもでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Marin wa, genki de, kashikoi kodomo deshita.",
+      "translations": {
+        "vi": "Malin là một đứa trẻ khỏe mạnh và thông minh.",
+        "en": "Malin was a healthy, clever child.",
+        "zh-Hans": "马林是个健康又聪明的孩子。",
+        "zh-Hant": "馬林是個健康又聰明的孩子。",
+        "ko": "말린은 씩씩하고 영리한 아이였습니다.",
+        "tl": "Si Malin ay masigla at matalinong bata.",
+        "ne": "मालिन स्वस्थ र चलाख बच्चा थियो।",
+        "id": "Malin anak yang sehat dan pintar.",
+        "pt": "Malin era uma criança saudável e esperta.",
+        "my": "မာလင်က ကျန်းမာပြီး ဉာဏ်ကောင်းတဲ့ ကလေးပါ။",
+        "th": "มาลินเป็นเด็กแข็งแรงและฉลาด"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「かしこい」: thông minh.",
+        "en": "「かしこい」 = clever.",
+        "zh-Hans": "「かしこい」＝聪明。",
+        "zh-Hant": "「かしこい」＝聰明。",
+        "ko": "영리하다.",
+        "tl": "matalino.",
+        "ne": "चलाख।",
+        "id": "pintar.",
+        "pt": "esperto.",
+        "my": "ဉာဏ်ကောင်း။",
+        "th": "ฉลาด"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=34.223,37.645",
+      "t": [
+        34.223,
+        37.645
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「お母さん、ぼく、大きくなったら、お金持ちになって、お母さんを楽にしてあげるね。」",
+      "furigana": [
+        {
+          "surface": "「お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さん、ぼく、",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きくなったら、お",
+          "reading": ""
+        },
+        {
+          "surface": "金持",
+          "reading": "かねも"
+        },
+        {
+          "surface": "ちになって、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんを",
+          "reading": ""
+        },
+        {
+          "surface": "楽",
+          "reading": "らく"
+        },
+        {
+          "surface": "にしてあげるね。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Okaasan, boku, ookiku nattara, okanemochi ni natte, okaasan o raku ni shiteageru ne.”",
+      "translations": {
+        "vi": "\"Mẹ ơi, lớn lên con sẽ giàu có và cho mẹ sống sung sướng nhé.\"",
+        "en": "\"Mom, when I grow up, I'll get rich and make your life easy.\"",
+        "zh-Hans": "“妈妈，我长大了要当有钱人，让您过上轻松的日子。”",
+        "zh-Hant": "“媽媽，我長大了要當有錢人，讓您過上輕鬆的日子。”",
+        "ko": "\"엄마, 나 크면 부자가 돼서 엄마 편하게 해 줄게.\"",
+        "tl": "\"Nay, paglaki ko, yayaman ako at gagaan ang buhay mo.\"",
+        "ne": "\"आमा, म ठूलो भएपछि धनी भएर तपाईंलाई सुखी बनाउँछु।\"",
+        "id": "\"Bu, kalau besar nanti aku akan kaya dan membuat Ibu senang.\"",
+        "pt": "\"Mãe, quando eu crescer, vou ficar rico e te dar uma vida boa.\"",
+        "my": "\"အမေ၊ ကျွန်တော် ကြီးလာရင် ချမ်းသာပြီး အမေ့ကို သက်သာအောင် လုပ်ပေးမယ်။\"",
+        "th": "\"แม่ครับ โตขึ้นผมจะรวยแล้วให้แม่สบาย\""
+      },
+      "vocab": [
+        {
+          "word": "楽",
+          "reading": "らく",
+          "meanings": {
+            "vi": "nhàn, dễ chịu",
+            "en": "easy, comfortable",
+            "zh-Hans": "轻松",
+            "zh-Hant": "輕鬆",
+            "ko": "편하다",
+            "tl": "madali, maginhawa",
+            "ne": "सजिलो",
+            "id": "mudah, santai",
+            "pt": "fácil, confortável",
+            "my": "သက်သာ",
+            "th": "สบาย"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜てあげる」: làm ~ cho. 「楽にする」: làm cho nhàn.",
+        "en": "「〜てあげる」 = do for someone.",
+        "zh-Hans": "「〜てあげる」＝为……做。",
+        "zh-Hant": "「〜てあげる」＝為……做。",
+        "ko": "~해 주다.",
+        "tl": "para sa.",
+        "ne": "दिनु।",
+        "id": "untuk.",
+        "pt": "para.",
+        "my": "ပေး။",
+        "th": "ให้"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=38.545,44.78",
+      "t": [
+        38.545,
+        44.78
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「ありがとう、マリン。おまえが元気でいてくれれば、それだけで十分だよ。」",
+      "furigana": [
+        {
+          "surface": "「ありがとう、マリン。おまえが",
+          "reading": ""
+        },
+        {
+          "surface": "元気",
+          "reading": "げんき"
+        },
+        {
+          "surface": "でいてくれれば、それだけで",
+          "reading": ""
+        },
+        {
+          "surface": "十分",
+          "reading": "じゅうぶん"
+        },
+        {
+          "surface": "だよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Arigatou, Marin. Omae ga genki de itekurereba, sore dake de juubun da yo.”",
+      "translations": {
+        "vi": "\"Cảm ơn con, Malin. Chỉ cần con khỏe mạnh là mẹ đủ rồi.\"",
+        "en": "\"Thank you, Malin. As long as you're well, that's enough for me.\"",
+        "zh-Hans": "“谢谢你，马林。只要你健健康康的，就足够了。”",
+        "zh-Hant": "“謝謝你，馬林。只要你健健康康的，就足夠了。”",
+        "ko": "\"고마워, 말린. 네가 건강하기만 하면 그걸로 충분해.\"",
+        "tl": "\"Salamat, Malin. Basta malusog ka, sapat na iyon.\"",
+        "ne": "\"धन्यवाद मालिन। तिमी स्वस्थ भए त्यति नै पुग्छ।\"",
+        "id": "\"Terima kasih, Malin. Asal kau sehat, itu sudah cukup.\"",
+        "pt": "\"Obrigada, Malin. Se você estiver bem, já basta.\"",
+        "my": "\"ကျေးဇူးပဲ မာလင်။ သားလေး ကျန်းမာနေရင် အဲဒါပဲ လုံလောက်ပါပြီ။\"",
+        "th": "\"ขอบใจนะมาลิน แค่ลูกแข็งแรงก็พอแล้ว\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜てくれれば、それだけで」: chỉ cần ~ là. 十分 = đủ.",
+        "en": "「〜てくれれば」 = if only you ~.",
+        "zh-Hans": "「〜てくれれば」＝只要你……。",
+        "zh-Hant": "「〜てくれれば」＝只要你……。",
+        "ko": "~해 주면.",
+        "tl": "basta.",
+        "ne": "भए।",
+        "id": "asal.",
+        "pt": "se.",
+        "my": "ရင်။",
+        "th": "แค่"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=45.68,51.457",
+      "t": [
+        45.68,
+        51.457
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "ある日、港に、大きな商人の船がとまりました。",
+      "furigana": [
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "港",
+          "reading": "みなと"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きな",
+          "reading": ""
+        },
+        {
+          "surface": "商人",
+          "reading": "しょうにん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "船",
+          "reading": "ふね"
+        },
+        {
+          "surface": "がとまりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aru hi, minato ni, ookina shounin no fune ga tomarimashita.",
+      "translations": {
+        "vi": "Một hôm, một con thuyền buôn lớn ghé bến cảng.",
+        "en": "One day, a big merchant ship came into port.",
+        "zh-Hans": "有一天，一艘大商船停靠在港口。",
+        "zh-Hant": "有一天，一艘大商船停靠在港口。",
+        "ko": "어느 날 항구에 큰 상선이 정박했습니다.",
+        "tl": "Isang araw, dumaong sa daungan ang malaking barko ng mangangalakal.",
+        "ne": "एक दिन बन्दरगाहमा ठूलो व्यापारीको जहाज रोकियो।",
+        "id": "Suatu hari, kapal dagang besar berlabuh di pelabuhan.",
+        "pt": "Um dia, um grande navio mercante parou no porto.",
+        "my": "တစ်နေ့ ဆိပ်ကမ်းမှာ ကုန်သည် သင်္ဘောကြီး တစ်စင်း ဆိုက်တယ်။",
+        "th": "วันหนึ่ง เรือสินค้าลำใหญ่มาจอดที่ท่าเรือ"
+      },
+      "vocab": [
+        {
+          "word": "商人",
+          "reading": "しょうにん",
+          "meanings": {
+            "vi": "thương nhân",
+            "en": "merchant",
+            "zh-Hans": "商人",
+            "zh-Hant": "商人",
+            "ko": "상인",
+            "tl": "mangangalakal",
+            "ne": "व्यापारी",
+            "id": "pedagang",
+            "pt": "mercador",
+            "my": "ကုန်သည်",
+            "th": "พ่อค้า"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "港 = bến cảng. 商人 = thương nhân.",
+        "en": "港 = port. 商人 = merchant.",
+        "zh-Hans": "港＝港口。",
+        "zh-Hant": "港＝港口。",
+        "ko": "항구.",
+        "tl": "daungan.",
+        "ne": "बन्दरगाह।",
+        "id": "pelabuhan.",
+        "pt": "porto.",
+        "my": "ဆိပ်ကမ်း။",
+        "th": "ท่าเรือ"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=52.357,57.024",
+      "t": [
+        52.357,
+        57.024
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "マリンは、その船で働かせてもらい、遠い国へ行くことに決めました。",
+      "furigana": [
+        {
+          "surface": "マリンは、その",
+          "reading": ""
+        },
+        {
+          "surface": "船",
+          "reading": "ふね"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "働",
+          "reading": "はたら"
+        },
+        {
+          "surface": "かせてもらい、",
+          "reading": ""
+        },
+        {
+          "surface": "遠",
+          "reading": "とお"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "くことに",
+          "reading": ""
+        },
+        {
+          "surface": "決",
+          "reading": "き"
+        },
+        {
+          "surface": "めました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Marin wa, sono fune de hatarakasetemorai, tooi kuni e iku koto ni kimemashita.",
+      "translations": {
+        "vi": "Malin xin được làm việc trên con thuyền đó và quyết định đi đến một đất nước xa xôi.",
+        "en": "Malin got work on that ship and decided to go to a faraway land.",
+        "zh-Hans": "马林请求在那艘船上干活，决定去遥远的国家。",
+        "zh-Hant": "馬林請求在那艘船上幹活，決定去遙遠的國家。",
+        "ko": "말린은 그 배에서 일하게 해 달라고 해서 먼 나라로 가기로 했습니다.",
+        "tl": "Nakiusap si Malin na makapagtrabaho sa barko at nagpasyang pumunta sa malayong lupain.",
+        "ne": "मालिनले त्यो जहाजमा काम पायो र टाढाको देश जाने निधो गर्‍यो।",
+        "id": "Malin minta bekerja di kapal itu dan memutuskan pergi ke negeri jauh.",
+        "pt": "Malin conseguiu trabalho no navio e decidiu ir para uma terra distante.",
+        "my": "မာလင်က အဲဒီ သင်္ဘောမှာ အလုပ်လုပ်ခွင့် ရပြီး ဝေးတဲ့ နိုင်ငံကို သွားဖို့ ဆုံးဖြတ်တယ်။",
+        "th": "มาลินขอทำงานบนเรือลำนั้น และตัดสินใจไปเมืองไกล"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜させてもらう」: được cho phép ~. 「〜ことに決める」: quyết định ~.",
+        "en": "「〜させてもらう」 = be allowed to ~.",
+        "zh-Hans": "「〜ことに決める」＝决定……。",
+        "zh-Hant": "「〜ことに決める」＝決定……。",
+        "ko": "~하기로 하다.",
+        "tl": "nagpasya.",
+        "ne": "निधो।",
+        "id": "memutuskan.",
+        "pt": "decidir.",
+        "my": "ဆုံးဖြတ်။",
+        "th": "ตัดสินใจ"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=57.624,63.403",
+      "t": [
+        57.624,
+        63.403
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「マリン、どうしても行くのかい。」",
+      "furigana": [
+        {
+          "surface": "「マリン、どうしても",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "くのかい。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Marin, doushitemo iku no kai.”",
+      "translations": {
+        "vi": "\"Malin, con nhất định phải đi sao?\"",
+        "en": "\"Malin, must you really go?\"",
+        "zh-Hans": "“马林，你非走不可吗？”",
+        "zh-Hant": "“馬林，你非走不可嗎？”",
+        "ko": "\"말린, 꼭 가야 하니?\"",
+        "tl": "\"Malin, kailangan mo ba talagang umalis?\"",
+        "ne": "\"मालिन, जानै पर्छ र?\"",
+        "id": "\"Malin, kau harus pergi?\"",
+        "pt": "\"Malin, você precisa mesmo ir?\"",
+        "my": "\"မာလင်၊ မဖြစ်မနေ သွားမှာလား။\"",
+        "th": "\"มาลิน จะไปจริงๆ เหรอ\""
+      },
+      "vocab": [
+        {
+          "word": "どうしても",
+          "reading": "どうしても",
+          "meanings": {
+            "vi": "dù thế nào cũng (không)",
+            "en": "no matter what, simply (cannot)",
+            "zh-Hans": "无论如何也",
+            "zh-Hant": "無論如何也",
+            "ko": "아무리 해도",
+            "tl": "kahit anong gawin",
+            "ne": "जे गरे पनि",
+            "id": "bagaimanapun juga",
+            "pt": "de jeito nenhum, por mais que tente",
+            "my": "ဘယ်လိုမှ",
+            "th": "ยังไงก็"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「どうしても」: nhất định. 「〜のかい」: hỏi thân mật.",
+        "en": "「どうしても」 = no matter what.",
+        "zh-Hans": "「どうしても」＝无论如何。",
+        "zh-Hant": "「どうしても」＝無論如何。",
+        "ko": "꼭.",
+        "tl": "talaga.",
+        "ne": "जानै।",
+        "id": "harus.",
+        "pt": "mesmo.",
+        "my": "မဖြစ်မနေ။",
+        "th": "จริงๆ"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=64.303,66.695",
+      "t": [
+        64.303,
+        66.695
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「うん。きっと、りっぱになって帰ってくるよ。」",
+      "furigana": [
+        {
+          "surface": "「うん。きっと、りっぱになって",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ってくるよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Un. Kitto, rippa ni natte kaettekuru yo.”",
+      "translations": {
+        "vi": "\"Vâng. Con nhất định sẽ thành đạt rồi trở về.\"",
+        "en": "\"Yes. I'll surely come back a success.\"",
+        "zh-Hans": "“嗯。我一定会出人头地回来的。”",
+        "zh-Hant": "“嗯。我一定會出人頭地回來的。”",
+        "ko": "\"응. 꼭 훌륭해져서 돌아올게.\"",
+        "tl": "\"Opo. Babalik ako nang matagumpay.\"",
+        "ne": "\"हो। पक्का सफल भएर फर्कन्छु।\"",
+        "id": "\"Ya. Aku pasti pulang sebagai orang sukses.\"",
+        "pt": "\"Sim. Vou voltar bem-sucedido, com certeza.\"",
+        "my": "\"ဟုတ်။ သေချာပေါက် အောင်မြင်ပြီး ပြန်လာမယ်။\"",
+        "th": "\"ครับ ผมจะกลับมาอย่างคนสำเร็จแน่นอน\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「きっと」: chắc chắn. 「りっぱになる」: thành đạt.",
+        "en": "「きっと」 = surely.",
+        "zh-Hans": "「きっと」＝一定。",
+        "zh-Hant": "「きっと」＝一定。",
+        "ko": "꼭.",
+        "tl": "tiyak.",
+        "ne": "पक्का।",
+        "id": "pasti.",
+        "pt": "com certeza.",
+        "my": "သေချာပေါက်။",
+        "th": "แน่นอน"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=67.595,70.572",
+      "t": [
+        67.595,
+        70.572
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "お母さんは、なみだをこらえて、マリンを見送りました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、なみだをこらえて、マリンを",
+          "reading": ""
+        },
+        {
+          "surface": "見送",
+          "reading": "みおく"
+        },
+        {
+          "surface": "りました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Okaasan wa, nami da o koraete, Marin o miokurimashita.",
+      "translations": {
+        "vi": "Mẹ nén nước mắt tiễn Malin đi.",
+        "en": "Holding back tears, his mother saw Malin off.",
+        "zh-Hans": "妈妈忍着泪送走了马林。",
+        "zh-Hant": "媽媽忍著淚送走了馬林。",
+        "ko": "엄마는 눈물을 참으며 말린을 배웅했습니다.",
+        "tl": "Pinigil ng ina ang luha at inihatid si Malin.",
+        "ne": "आमाले आँसु थामेर मालिनलाई बिदा गरिन्।",
+        "id": "Ibu menahan air mata dan melepas kepergian Malin.",
+        "pt": "Segurando as lágrimas, a mãe se despediu de Malin.",
+        "my": "အမေက မျက်ရည်ကို ထိန်းပြီး မာလင်ကို လိုက်ပို့တယ်။",
+        "th": "แม่กลั้นน้ำตาส่งมาลินออกเดินทาง"
+      },
+      "vocab": [
+        {
+          "word": "見送る",
+          "reading": "みおくる",
+          "meanings": {
+            "vi": "tiễn",
+            "en": "see off",
+            "zh-Hans": "送行",
+            "zh-Hant": "送行",
+            "ko": "배웅하다",
+            "tl": "ihatid",
+            "ne": "बिदा गर्नु",
+            "id": "mengantar kepergian",
+            "pt": "despedir-se",
+            "my": "လိုက်ပို့",
+            "th": "ส่ง"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「なみだをこらえる」: nén nước mắt. 「見送る」: tiễn.",
+        "en": "「こらえる」 = hold back. 「見送る」 = see off.",
+        "zh-Hans": "「見送る」＝送行。",
+        "zh-Hant": "「見送る」＝送行。",
+        "ko": "배웅하다.",
+        "tl": "ihatid.",
+        "ne": "बिदा।",
+        "id": "melepas.",
+        "pt": "despedir-se.",
+        "my": "လိုက်ပို့။",
+        "th": "ส่ง"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=71.472,75.953",
+      "t": [
+        71.472,
+        75.953
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「体に気をつけるんだよ。お母さんのことを、わすれないでおくれ。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "体",
+          "reading": "からだ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "気",
+          "reading": "き"
+        },
+        {
+          "surface": "をつけるんだよ。お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんのことを、わすれないでおくれ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Karada ni ki o tsukeru n da yo. Okaasan no koto o, wasurenaide okure.”",
+      "translations": {
+        "vi": "\"Giữ gìn sức khỏe nhé. Đừng quên mẹ, con nhé.\"",
+        "en": "\"Take care of yourself. Please don't forget me.\"",
+        "zh-Hans": "“要保重身体。别忘了妈妈呀。”",
+        "zh-Hant": "“要保重身體。別忘了媽媽呀。”",
+        "ko": "\"몸 조심하렴. 엄마를 잊지 말아 다오.\"",
+        "tl": "\"Mag-ingat ka. Huwag mo akong kalimutan.\"",
+        "ne": "\"आफ्नो ख्याल राख। आमालाई नबिर्सनू है।\"",
+        "id": "\"Jaga kesehatan. Jangan lupakan Ibu, ya.\"",
+        "pt": "\"Cuide-se. Não se esqueça de mim.\"",
+        "my": "\"ကျန်းမာရေး ဂရုစိုက်နော်။ အမေ့ကို မမေ့ပါနဲ့။\"",
+        "th": "\"ดูแลตัวเองนะ อย่าลืมแม่นะลูก\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ないでおくれ」: đừng ~ nhé (người lớn nói).",
+        "en": "「〜ないでおくれ」 = please don't ~.",
+        "zh-Hans": "「〜ないでおくれ」＝别……啊。",
+        "zh-Hant": "「〜ないでおくれ」＝別……啊。",
+        "ko": "~하지 말아 다오.",
+        "tl": "huwag.",
+        "ne": "न~नू।",
+        "id": "jangan.",
+        "pt": "não.",
+        "my": "မ~ပါနဲ့။",
+        "th": "อย่า"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=76.853,82.279",
+      "t": [
+        76.853,
+        82.279
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "船が見えなくなっても、お母さんは、いつまでも、海を見つめていました。",
+      "furigana": [
+        {
+          "surface": "船",
+          "reading": "ふね"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "えなくなっても、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、いつまでも、",
+          "reading": ""
+        },
+        {
+          "surface": "海",
+          "reading": "うみ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "つめていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Fune ga mienaku natte mo, okaasan wa, itsu made mo, umi o mitsumeteimashita.",
+      "translations": {
+        "vi": "Dù con thuyền đã khuất, mẹ vẫn đứng nhìn biển mãi.",
+        "en": "Even after the ship disappeared, his mother kept gazing at the sea.",
+        "zh-Hans": "船已经看不见了，妈妈还一直望着大海。",
+        "zh-Hant": "船已經看不見了，媽媽還一直望著大海。",
+        "ko": "배가 보이지 않게 되어도 엄마는 언제까지나 바다를 바라보았습니다.",
+        "tl": "Kahit hindi na makita ang barko, matagal pa ring tumitig sa dagat ang ina.",
+        "ne": "जहाज नदेखिँदा पनि आमा धेरै बेर समुद्र हेरिरहिन्।",
+        "id": "Walau kapal sudah tak terlihat, ibu terus memandangi laut.",
+        "pt": "Mesmo depois que o navio sumiu, a mãe continuou olhando o mar.",
+        "my": "သင်္ဘော မမြင်ရတော့တဲ့အထိ အမေက ပင်လယ်ကို အကြာကြီး ငေးကြည့်နေတယ်။",
+        "th": "แม้เรือจะลับตาไปแล้ว แม่ก็ยังมองทะเลอยู่นาน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「見えなくなる」: khuất tầm mắt. 「見つめる」: nhìn chăm chú.",
+        "en": "「見つめる」 = gaze at.",
+        "zh-Hans": "「見つめる」＝凝视。",
+        "zh-Hant": "「見つめる」＝凝視。",
+        "ko": "바라보다.",
+        "tl": "tumitig.",
+        "ne": "हेरिरहनु।",
+        "id": "memandangi.",
+        "pt": "olhar.",
+        "my": "ငေးကြည့်။",
+        "th": "มอง"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=83.179,89.149",
+      "t": [
+        83.179,
+        89.149
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それから、何年もの時が過ぎました。",
+      "furigana": [
+        {
+          "surface": "それから、",
+          "reading": ""
+        },
+        {
+          "surface": "何年",
+          "reading": "なんねん"
+        },
+        {
+          "surface": "もの",
+          "reading": ""
+        },
+        {
+          "surface": "時",
+          "reading": "じ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "過",
+          "reading": "す"
+        },
+        {
+          "surface": "ぎました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sorekara, nannen monoji ga sugimashita.",
+      "translations": {
+        "vi": "Rồi nhiều năm trôi qua.",
+        "en": "Then many years passed.",
+        "zh-Hans": "之后，过了很多年。",
+        "zh-Hant": "之後，過了很多年。",
+        "ko": "그로부터 여러 해가 지났습니다.",
+        "tl": "Lumipas ang maraming taon.",
+        "ne": "त्यसपछि धेरै वर्ष बिते।",
+        "id": "Bertahun-tahun pun berlalu.",
+        "pt": "Então muitos anos se passaram.",
+        "my": "နောက်ပိုင်း နှစ်တွေ အများကြီး ကြာသွားတယ်။",
+        "th": "หลายปีผ่านไป"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「時が過ぎる」: thời gian trôi qua.",
+        "en": "「時が過ぎる」 = time passes.",
+        "zh-Hans": "「時が過ぎる」＝时光流逝。",
+        "zh-Hant": "「時が過ぎる」＝時光流逝。",
+        "ko": "시간이 지나다.",
+        "tl": "lumipas.",
+        "ne": "बित्नु।",
+        "id": "berlalu.",
+        "pt": "passar.",
+        "my": "ကြာ။",
+        "th": "ผ่านไป"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=89.749,92.746",
+      "t": [
+        89.749,
+        92.746
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "マリンは、船の上で、まじめに働きました。",
+      "furigana": [
+        {
+          "surface": "マリンは、",
+          "reading": ""
+        },
+        {
+          "surface": "船",
+          "reading": "ふね"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "で、まじめに",
+          "reading": ""
+        },
+        {
+          "surface": "働",
+          "reading": "はたら"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Marin wa, fune no ue de, majime ni hatarakimashita.",
+      "translations": {
+        "vi": "Trên thuyền, Malin làm việc rất chăm chỉ.",
+        "en": "On the ship, Malin worked hard.",
+        "zh-Hans": "马林在船上认真工作。",
+        "zh-Hant": "馬林在船上認真工作。",
+        "ko": "말린은 배 위에서 성실히 일했습니다.",
+        "tl": "Masipag na nagtrabaho si Malin sa barko.",
+        "ne": "जहाजमा मालिनले मिहिनेतसाथ काम गर्‍यो।",
+        "id": "Di kapal, Malin bekerja dengan rajin.",
+        "pt": "No navio, Malin trabalhou com dedicação.",
+        "my": "သင်္ဘောပေါ်မှာ မာလင်က ကြိုးစား အလုပ်လုပ်တယ်။",
+        "th": "บนเรือ มาลินทำงานอย่างขยัน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「まじめに」: nghiêm túc, chăm chỉ.",
+        "en": "「まじめに」 = earnestly.",
+        "zh-Hans": "「まじめに」＝认真地。",
+        "zh-Hant": "「まじめに」＝認真地。",
+        "ko": "성실히.",
+        "tl": "masipag.",
+        "ne": "मिहिनेत।",
+        "id": "rajin.",
+        "pt": "com dedicação.",
+        "my": "ကြိုးစား။",
+        "th": "ขยัน"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=93.346,97.215",
+      "t": [
+        93.346,
+        97.215
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "やがて、自分の船を持つ商人になり、たくさんのお金をかせぎました。",
+      "furigana": [
+        {
+          "surface": "やがて、",
+          "reading": ""
+        },
+        {
+          "surface": "自分",
+          "reading": "じぶん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "船",
+          "reading": "ふね"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "つ",
+          "reading": ""
+        },
+        {
+          "surface": "商人",
+          "reading": "しょうにん"
+        },
+        {
+          "surface": "になり、たくさんのお",
+          "reading": ""
+        },
+        {
+          "surface": "金",
+          "reading": "かね"
+        },
+        {
+          "surface": "をかせぎました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Yagate, jibun no fune o motsu shounin ni nari, takusan no okane o kasegimashita.",
+      "translations": {
+        "vi": "Dần dần, anh trở thành thương nhân có thuyền riêng và kiếm được rất nhiều tiền.",
+        "en": "In time, he became a merchant with his own ship and earned a lot of money.",
+        "zh-Hans": "后来，他成了拥有自己船只的商人，赚了很多钱。",
+        "zh-Hant": "後來，他成了擁有自己船隻的商人，賺了很多錢。",
+        "ko": "마침내 자기 배를 가진 상인이 되어 많은 돈을 벌었습니다.",
+        "tl": "Kalaunan, naging mangangalakal siyang may sariling barko at kumita nang malaki.",
+        "ne": "बिस्तारै आफ्नै जहाज भएको व्यापारी बन्यो र धेरै पैसा कमायो।",
+        "id": "Akhirnya ia menjadi saudagar dengan kapal sendiri dan menghasilkan banyak uang.",
+        "pt": "Com o tempo, virou um mercador com navio próprio e ganhou muito dinheiro.",
+        "my": "နောက်ဆုံးမှာ ကိုယ်ပိုင် သင်္ဘော ရှိတဲ့ ကုန်သည် ဖြစ်လာပြီး ပိုက်ဆံ အများကြီး ရှာနိုင်တယ်။",
+        "th": "ในที่สุดเขาก็เป็นพ่อค้าที่มีเรือของตัวเอง และหาเงินได้มากมาย"
+      },
+      "vocab": [
+        {
+          "word": "やがて",
+          "reading": "やがて",
+          "meanings": {
+            "vi": "chẳng bao lâu sau, rồi thì",
+            "en": "before long, eventually",
+            "zh-Hans": "不久，终于",
+            "zh-Hant": "不久，終於",
+            "ko": "머지않아, 이윽고",
+            "tl": "hindi nagtagal",
+            "ne": "केही समयपछि",
+            "id": "tak lama kemudian",
+            "pt": "logo, com o tempo",
+            "my": "မကြာမီ",
+            "th": "ไม่นานนัก, ในที่สุด"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「やがて」: rồi dần dần. 「かせぐ」: kiếm (tiền).",
+        "en": "「やがて」 = before long. 「かせぐ」 = earn.",
+        "zh-Hans": "「かせぐ」＝赚。",
+        "zh-Hant": "「かせぐ」＝賺。",
+        "ko": "벌다.",
+        "tl": "kumita.",
+        "ne": "कमाउनु।",
+        "id": "menghasilkan.",
+        "pt": "ganhar.",
+        "my": "ရှာ။",
+        "th": "หาเงิน"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=97.815,103.288",
+      "t": [
+        97.815,
+        103.288
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そして、お金持ちの家のむすめと、結婚しました。",
+      "furigana": [
+        {
+          "surface": "そして、お",
+          "reading": ""
+        },
+        {
+          "surface": "金持",
+          "reading": "かねも"
+        },
+        {
+          "surface": "ちの",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "のむすめと、",
+          "reading": ""
+        },
+        {
+          "surface": "結婚",
+          "reading": "けっこん"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite, okanemochi no ie no musu me to, kekkonshimashita.",
+      "translations": {
+        "vi": "Rồi anh cưới con gái một nhà giàu.",
+        "en": "And he married the daughter of a rich family.",
+        "zh-Hans": "然后，他娶了有钱人家的女儿。",
+        "zh-Hant": "然後，他娶了有錢人家的女兒。",
+        "ko": "그리고 부잣집 딸과 결혼했습니다.",
+        "tl": "At pinakasalan niya ang anak ng mayamang pamilya.",
+        "ne": "अनि धनी घरकी छोरीसँग बिहे गर्‍यो।",
+        "id": "Lalu ia menikahi putri orang kaya.",
+        "pt": "E se casou com a filha de uma família rica.",
+        "my": "ပြီးတော့ ချမ်းသာတဲ့ အိမ်က သမီးနဲ့ လက်ထပ်တယ်။",
+        "th": "แล้วเขาก็แต่งงานกับลูกสาวบ้านคนรวย"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜と結婚する」: kết hôn với ~.",
+        "en": "「〜と結婚する」 = marry ~.",
+        "zh-Hans": "「〜と結婚する」＝和……结婚。",
+        "zh-Hant": "「〜と結婚する」＝和……結婚。",
+        "ko": "~와 결혼하다.",
+        "tl": "pakasalan.",
+        "ne": "सँग बिहे।",
+        "id": "menikahi.",
+        "pt": "casar com.",
+        "my": "နဲ့ လက်ထပ်။",
+        "th": "แต่งงานกับ"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=103.888,108.063",
+      "t": [
+        103.888,
+        108.063
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "お母さんは、そのあいだ、毎日、海岸に出て、マリンの船が帰ってくるのを待っていました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、そのあいだ、",
+          "reading": ""
+        },
+        {
+          "surface": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "海岸",
+          "reading": "かいがん"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "て、マリンの",
+          "reading": ""
+        },
+        {
+          "surface": "船",
+          "reading": "ふね"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ってくるのを",
+          "reading": ""
+        },
+        {
+          "surface": "待",
+          "reading": "ま"
+        },
+        {
+          "surface": "っていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Okaasan wa, sono aida, mainichi, kaigan ni dete, Marin no fune ga kaettekuru no o matteimashita.",
+      "translations": {
+        "vi": "Suốt thời gian ấy, ngày nào mẹ cũng ra bờ biển chờ thuyền của Malin trở về.",
+        "en": "All that time, his mother went to the beach every day, waiting for Malin's ship to return.",
+        "zh-Hans": "这段时间里，妈妈每天都到海边，等马林的船回来。",
+        "zh-Hant": "這段時間裡，媽媽每天都到海邊，等馬林的船回來。",
+        "ko": "그동안 엄마는 매일 해안에 나가 말린의 배가 돌아오기를 기다렸습니다.",
+        "tl": "Sa buong panahong iyon, araw-araw pumupunta ang ina sa dalampasigan, naghihintay sa barko ni Malin.",
+        "ne": "त्यो बेलामा आमा हरेक दिन समुद्रतटमा गएर मालिनको जहाज पर्खन्थिन्।",
+        "id": "Selama itu, setiap hari ibu ke pantai menunggu kapal Malin pulang.",
+        "pt": "Todo esse tempo, a mãe ia à praia todos os dias esperar o navio de Malin.",
+        "my": "အဲဒီအတောအတွင်း အမေက နေ့တိုင်း ကမ်းခြေ ထွက်ပြီး မာလင့် သင်္ဘော ပြန်လာတာကို စောင့်တယ်။",
+        "th": "ระหว่างนั้น แม่ไปที่ชายหาดทุกวัน รอเรือของมาลินกลับมา"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「そのあいだ」: trong thời gian đó. 「〜のを待つ」: chờ ~.",
+        "en": "「そのあいだ」 = meanwhile.",
+        "zh-Hans": "「そのあいだ」＝在此期间。",
+        "zh-Hant": "「そのあいだ」＝在此期間。",
+        "ko": "그동안.",
+        "tl": "sa panahong iyon.",
+        "ne": "त्यो बेला।",
+        "id": "selama itu.",
+        "pt": "esse tempo.",
+        "my": "အတောအတွင်း။",
+        "th": "ระหว่างนั้น"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=108.663,115.761",
+      "t": [
+        108.663,
+        115.761
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "髪は白くなり、腰もまがってしまいましたが、待つことだけは、やめませんでした。",
+      "furigana": [
+        {
+          "surface": "髪",
+          "reading": "かみ"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "白",
+          "reading": "しろ"
+        },
+        {
+          "surface": "くなり、",
+          "reading": ""
+        },
+        {
+          "surface": "腰",
+          "reading": "こし"
+        },
+        {
+          "surface": "もまがってしまいましたが、",
+          "reading": ""
+        },
+        {
+          "surface": "待",
+          "reading": "ま"
+        },
+        {
+          "surface": "つことだけは、やめませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kami wa shiroku nari, koshi mo magatteshimaimashita ga, matsu koto dake wa, yamemasendeshita.",
+      "translations": {
+        "vi": "Tóc bà bạc trắng, lưng còng xuống, nhưng bà chưa bao giờ thôi chờ đợi.",
+        "en": "Her hair turned white and her back bent, but she never stopped waiting.",
+        "zh-Hans": "她的头发白了，腰也弯了，但从没停止等待。",
+        "zh-Hant": "她的頭髮白了，腰也彎了，但從沒停止等待。",
+        "ko": "머리는 하얘지고 허리도 굽었지만, 기다리는 것만은 그만두지 않았습니다.",
+        "tl": "Pumuti ang buhok at bumaluktot ang likod niya, pero hindi siya tumigil sa paghihintay.",
+        "ne": "कपाल फुल्यो, कम्मर कुप्रियो, तर पर्खन छोडिनन्।",
+        "id": "Rambutnya memutih dan punggungnya membungkuk, tapi ia tak berhenti menunggu.",
+        "pt": "O cabelo embranqueceu e as costas curvaram, mas ela nunca parou de esperar.",
+        "my": "ဆံပင် ဖြူလာပြီး ခါးလည်း ကုန်းသွားပေမဲ့ စောင့်တာကိုတော့ မရပ်ခဲ့ဘူး။",
+        "th": "ผมขาว หลังค่อม แต่ก็ไม่เคยเลิกรอ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜だけは」: riêng ~ thì. 「腰がまがる」: lưng còng.",
+        "en": "「〜だけは」 = at least ~ (she kept).",
+        "zh-Hans": "「〜だけは」＝唯独……。",
+        "zh-Hant": "「〜だけは」＝唯獨……。",
+        "ko": "~만은.",
+        "tl": "lang.",
+        "ne": "चाहिँ।",
+        "id": "saja.",
+        "pt": "só.",
+        "my": "ကိုတော့။",
+        "th": "เท่านั้น"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=116.361,122.886",
+      "t": [
+        116.361,
+        122.886
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ある日、村の港に、見たこともないほど大きくて、りっぱな船が入ってきました。",
+      "furigana": [
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "港",
+          "reading": "みなと"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "たこともないほど",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きくて、りっぱな",
+          "reading": ""
+        },
+        {
+          "surface": "船",
+          "reading": "ふね"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "はい"
+        },
+        {
+          "surface": "ってきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aru hi, mura no minato ni, mita koto mo nai hodo ookikute, rippa na fune ga haittekimashita.",
+      "translations": {
+        "vi": "Một hôm, một con thuyền to và lộng lẫy chưa từng thấy tiến vào bến cảng của làng.",
+        "en": "One day, a ship bigger and grander than anyone had ever seen sailed into the village port.",
+        "zh-Hans": "有一天，一艘前所未见的、又大又气派的船驶进了村里的港口。",
+        "zh-Hant": "有一天，一艘前所未見的、又大又氣派的船駛進了村裡的港口。",
+        "ko": "어느 날 마을 항구에 본 적도 없을 만큼 크고 멋진 배가 들어왔습니다.",
+        "tl": "Isang araw, pumasok sa daungan ang barkong napakalaki at napakaganda na hindi pa nila nakita.",
+        "ne": "एक दिन गाउँको बन्दरगाहमा कहिल्यै नदेखेको ठूलो र भव्य जहाज आयो।",
+        "id": "Suatu hari, kapal besar dan megah yang belum pernah terlihat masuk ke pelabuhan desa.",
+        "pt": "Um dia, entrou no porto um navio maior e mais luxuoso do que qualquer um já visto.",
+        "my": "တစ်နေ့ ရွာ ဆိပ်ကမ်းကို တစ်ခါမှ မမြင်ဖူးတဲ့ ကြီးမားခမ်းနားတဲ့ သင်္ဘော ဝင်လာတယ်။",
+        "th": "วันหนึ่ง เรือใหญ่โอ่อ่าที่ไม่เคยเห็นมาก่อนแล่นเข้าท่าเรือหมู่บ้าน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「見たこともないほど」: đến mức chưa từng thấy.",
+        "en": "「〜ほど」 = to the extent ~.",
+        "zh-Hans": "「〜ほど」＝到……的程度。",
+        "zh-Hant": "「〜ほど」＝到……的程度。",
+        "ko": "~만큼.",
+        "tl": "napaka.",
+        "ne": "जस्तो।",
+        "id": "belum pernah.",
+        "pt": "do que.",
+        "my": "လောက်။",
+        "th": "ไม่เคยเห็น"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=123.486,129.916",
+      "t": [
+        123.486,
+        129.916
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "船の上には、きれいな服を着た、若い男と女が立っていました。",
+      "furigana": [
+        {
+          "surface": "船",
+          "reading": "ふね"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "には、きれいな",
+          "reading": ""
+        },
+        {
+          "surface": "服",
+          "reading": "ふく"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "着",
+          "reading": "き"
+        },
+        {
+          "surface": "た、",
+          "reading": ""
+        },
+        {
+          "surface": "若",
+          "reading": "わか"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "女",
+          "reading": "おんな"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "立",
+          "reading": "た"
+        },
+        {
+          "surface": "っていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Fune no ue ni wa, kirei na fuku o kita, wakai otoko to onna ga tatteimashita.",
+      "translations": {
+        "vi": "Trên thuyền có một đôi nam nữ trẻ mặc quần áo đẹp đứng.",
+        "en": "On deck stood a young man and woman in fine clothes.",
+        "zh-Hans": "船上站着一对穿着漂亮衣服的年轻男女。",
+        "zh-Hant": "船上站著一對穿著漂亮衣服的年輕男女。",
+        "ko": "배 위에는 고운 옷을 입은 젊은 남녀가 서 있었습니다.",
+        "tl": "Sa barko ay nakatayo ang isang binata at dalagang magagara ang damit.",
+        "ne": "जहाजमा राम्रा लुगा लगाएका युवा पुरुष र महिला उभिएका थिए।",
+        "id": "Di atas kapal berdiri pria dan wanita muda berpakaian indah.",
+        "pt": "No convés estavam um jovem e uma jovem com roupas finas.",
+        "my": "သင်္ဘောပေါ်မှာ အဝတ်လှလှ ဝတ်ထားတဲ့ လူငယ် အမျိုးသား အမျိုးသမီး ရပ်နေတယ်။",
+        "th": "บนเรือมีหนุ่มสาวใส่เสื้อผ้าสวยงามยืนอยู่"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜を着た」: mặc ~.",
+        "en": "「〜を着た」 = wearing ~.",
+        "zh-Hans": "「〜を着た」＝穿着……的。",
+        "zh-Hant": "「〜を著た」＝穿著……的。",
+        "ko": "~을 입은.",
+        "tl": "suot.",
+        "ne": "लगाएका।",
+        "id": "berpakaian.",
+        "pt": "com roupas.",
+        "my": "ဝတ်ထားတဲ့။",
+        "th": "ใส่"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=130.516,136.34",
+      "t": [
+        130.516,
+        136.34
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "村の人が、お母さんのところへ走ってきました。",
+      "furigana": [
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "が、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんのところへ",
+          "reading": ""
+        },
+        {
+          "surface": "走",
+          "reading": "はし"
+        },
+        {
+          "surface": "ってきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mura no hito ga, okaasan no tokoro e hashittekimashita.",
+      "translations": {
+        "vi": "Người trong làng chạy đến chỗ bà mẹ.",
+        "en": "A villager came running to the mother.",
+        "zh-Hans": "村里人跑到妈妈那儿。",
+        "zh-Hant": "村裡人跑到媽媽那兒。",
+        "ko": "마을 사람이 엄마에게 달려왔습니다.",
+        "tl": "Tumakbo ang isang taganayon papunta sa ina.",
+        "ne": "गाउँले आमातिर दौडेर आयो।",
+        "id": "Warga desa berlari ke tempat sang ibu.",
+        "pt": "Um aldeão veio correndo até a mãe.",
+        "my": "ရွာသားက အမေ့ဆီ ပြေးလာတယ်။",
+        "th": "ชาวบ้านวิ่งมาหาแม่"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜のところへ」: đến chỗ ~.",
+        "en": "「〜のところへ」 = to where ~ is.",
+        "zh-Hans": "「〜のところへ」＝到……那里。",
+        "zh-Hant": "「〜のところへ」＝到……那裡。",
+        "ko": "~에게.",
+        "tl": "papunta sa.",
+        "ne": "तिर।",
+        "id": "ke tempat.",
+        "pt": "até.",
+        "my": "ဆီ။",
+        "th": "มาหา"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=136.94,140.674",
+      "t": [
+        136.94,
+        140.674
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「おばあさん、あれは、マリンだよ。マリンが帰ってきたんだよ。」",
+      "furigana": [
+        {
+          "surface": "「おばあさん、あれは、マリンだよ。マリンが",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ってきたんだよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Obaasan, are wa, Marin da yo. Marin ga kaettekita n da yo.”",
+      "translations": {
+        "vi": "\"Bà ơi, kia là Malin đấy. Malin về rồi đấy!\"",
+        "en": "\"Grandma, that's Malin! Malin has come back!\"",
+        "zh-Hans": "“老奶奶，那是马林啊！马林回来了！”",
+        "zh-Hant": "“老奶奶，那是馬林啊！馬林回來了！”",
+        "ko": "\"할머니, 저건 말린이에요. 말린이 돌아왔어요!\"",
+        "tl": "\"Lola, si Malin iyon! Bumalik na si Malin!\"",
+        "ne": "\"हजुरआमा, त्यो मालिन हो। मालिन फर्कियो!\"",
+        "id": "\"Nek, itu Malin! Malin sudah pulang!\"",
+        "pt": "\"Vovó, aquele é o Malin! O Malin voltou!\"",
+        "my": "\"အဖွား၊ အဲဒါ မာလင်ပဲ။ မာလင် ပြန်လာပြီ!\"",
+        "th": "\"ยาย นั่นมาลินนะ มาลินกลับมาแล้ว!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜んだよ」: nhấn mạnh, báo tin.",
+        "en": "「〜んだよ」 = emphatic news.",
+        "zh-Hans": "「〜んだよ」＝……了啊。",
+        "zh-Hant": "「〜んだよ」＝……了啊。",
+        "ko": "~어요.",
+        "tl": "na.",
+        "ne": "फर्कियो।",
+        "id": "sudah.",
+        "pt": "voltou.",
+        "my": "ပြီ။",
+        "th": "แล้ว"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=141.574,145.795",
+      "t": [
+        141.574,
+        145.795
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "お母さんは、足を引きずりながら、急いで港へ向かいました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、",
+          "reading": ""
+        },
+        {
+          "surface": "足",
+          "reading": "あし"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "引",
+          "reading": "ひ"
+        },
+        {
+          "surface": "きずりながら、",
+          "reading": ""
+        },
+        {
+          "surface": "急",
+          "reading": "いそ"
+        },
+        {
+          "surface": "いで",
+          "reading": ""
+        },
+        {
+          "surface": "港",
+          "reading": "みなと"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "向",
+          "reading": "む"
+        },
+        {
+          "surface": "かいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Okaasan wa, ashi o hikizurinagara, isoide minato e mukaimashita.",
+      "translations": {
+        "vi": "Bà mẹ lê đôi chân, vội vã đi ra bến cảng.",
+        "en": "Dragging her feet, the mother hurried to the port.",
+        "zh-Hans": "妈妈拖着脚，急忙赶往港口。",
+        "zh-Hant": "媽媽拖著腳，急忙趕往港口。",
+        "ko": "엄마는 다리를 끌며 서둘러 항구로 향했습니다.",
+        "tl": "Kinaladkad ng ina ang mga paa at nagmadali sa daungan.",
+        "ne": "आमा खुट्टा घिसार्दै हतार-हतार बन्दरगाहतिर गइन्।",
+        "id": "Sang ibu menyeret kakinya dan bergegas ke pelabuhan.",
+        "pt": "Arrastando os pés, a mãe correu ao porto.",
+        "my": "အမေက ခြေထောက်ကို ဆွဲပြီး ဆိပ်ကမ်းကို အမြန် သွားတယ်။",
+        "th": "แม่ลากเท้ารีบไปที่ท่าเรือ"
+      },
+      "vocab": [
+        {
+          "word": "引きずる",
+          "reading": "ひきずる",
+          "meanings": {
+            "vi": "lê, kéo lê",
+            "en": "drag",
+            "zh-Hans": "拖",
+            "zh-Hant": "拖",
+            "ko": "끌다",
+            "tl": "kaladkarin",
+            "ne": "घिसार्नु",
+            "id": "menyeret",
+            "pt": "arrastar",
+            "my": "ဆွဲ",
+            "th": "ลาก"
+          },
+          "level": "N1"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ながら」: vừa ~ vừa. 「引きずる」: lê.",
+        "en": "「引きずる」 = drag.",
+        "zh-Hans": "「引きずる」＝拖。",
+        "zh-Hant": "「引きずる」＝拖。",
+        "ko": "끌다.",
+        "tl": "kaladkarin.",
+        "ne": "घिसार्नु।",
+        "id": "menyeret.",
+        "pt": "arrastar.",
+        "my": "ဆွဲ။",
+        "th": "ลาก"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=146.695,151.977",
+      "t": [
+        146.695,
+        151.977
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「マリン、マリン。お母さんだよ。よく帰ってきたね。」",
+      "furigana": [
+        {
+          "surface": "「マリン、マリン。お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんだよ。よく",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ってきたね。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Marin, Marin. Okaasan da yo. Yoku kaettekita ne.”",
+      "translations": {
+        "vi": "\"Malin, Malin. Mẹ đây. Con về rồi đấy à.\"",
+        "en": "\"Malin, Malin! It's your mother. Welcome home!\"",
+        "zh-Hans": "“马林，马林。是妈妈呀。你终于回来了。”",
+        "zh-Hant": "“馬林，馬林。是媽媽呀。你終於回來了。”",
+        "ko": "\"말린, 말린. 엄마야. 잘 돌아왔구나.\"",
+        "tl": "\"Malin, Malin! Ako ang nanay mo. Mabuti at bumalik ka.\"",
+        "ne": "\"मालिन, मालिन। म आमा। राम्रै भयो फर्कियौ।\"",
+        "id": "\"Malin, Malin. Ini Ibu. Syukurlah kau pulang.\"",
+        "pt": "\"Malin, Malin! É a mamãe. Que bom que voltou.\"",
+        "my": "\"မာလင်၊ မာလင်။ အမေလေ။ ပြန်လာတာ ကောင်းလိုက်တာ။\"",
+        "th": "\"มาลิน มาลิน แม่เองนะ กลับมาได้ดีแล้ว\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「よく〜たね」: thật tốt vì đã ~.",
+        "en": "「よく〜たね」 = how good that you ~.",
+        "zh-Hans": "「よく〜たね」＝真好，你……了。",
+        "zh-Hant": "「よく〜たね」＝真好，你……了。",
+        "ko": "잘 ~했구나.",
+        "tl": "mabuti at.",
+        "ne": "राम्रै भयो।",
+        "id": "syukurlah.",
+        "pt": "que bom.",
+        "my": "ကောင်းလိုက်တာ။",
+        "th": "ดีแล้ว"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=152.877,157.548",
+      "t": [
+        152.877,
+        157.548
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "お母さんは、ぼろぼろの服のまま、マリンにだきつこうとしました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、ぼろぼろの",
+          "reading": ""
+        },
+        {
+          "surface": "服",
+          "reading": "ふく"
+        },
+        {
+          "surface": "のまま、マリンにだきつこうとしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Okaasan wa, boroboro no fuku no mama, Marin ni dakitsukou to shimashita.",
+      "translations": {
+        "vi": "Trong bộ quần áo rách rưới, bà định ôm chầm lấy Malin.",
+        "en": "In her tattered clothes, she tried to throw her arms around Malin.",
+        "zh-Hans": "她穿着破破烂烂的衣服，想要抱住马林。",
+        "zh-Hant": "她穿著破破爛爛的衣服，想要抱住馬林。",
+        "ko": "엄마는 누더기 옷차림 그대로 말린을 끌어안으려 했습니다.",
+        "tl": "Sa sira-sirang damit, sinubukan niyang yakapin si Malin.",
+        "ne": "च्यातिएको लुगामै उनले मालिनलाई अँगालो हाल्न खोजिन्।",
+        "id": "Dengan pakaian compang-camping, ia mencoba memeluk Malin.",
+        "pt": "Com roupas em farrapos, tentou abraçar Malin.",
+        "my": "စုတ်ပြတ်နေတဲ့ အဝတ်နဲ့ပဲ မာလင်ကို ဖက်ဖို့ ကြိုးစားတယ်။",
+        "th": "ในชุดขาดๆ แม่พยายามจะกอดมาลิน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「ぼろぼろ」: rách rưới. 「〜ようとする」: định ~.",
+        "en": "「〜ようとする」 = try to ~.",
+        "zh-Hans": "「〜ようとする」＝想要……。",
+        "zh-Hant": "「〜ようとする」＝想要……。",
+        "ko": "~하려 하다.",
+        "tl": "sinubukan.",
+        "ne": "खोज्नु।",
+        "id": "mencoba.",
+        "pt": "tentar.",
+        "my": "ကြိုးစား။",
+        "th": "พยายาม"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=158.448,163.729",
+      "t": [
+        158.448,
+        163.729
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "となりにいた妻が、おどろいて、マリンに聞きました。",
+      "furigana": [
+        {
+          "surface": "となりにいた",
+          "reading": ""
+        },
+        {
+          "surface": "妻",
+          "reading": "つま"
+        },
+        {
+          "surface": "が、おどろいて、マリンに",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tonari ni ita tsuma ga, odoroite, Marin ni kikimashita.",
+      "translations": {
+        "vi": "Người vợ đứng bên cạnh ngạc nhiên hỏi Malin.",
+        "en": "His wife beside him, startled, asked Malin.",
+        "zh-Hans": "站在旁边的妻子吃惊地问马林。",
+        "zh-Hant": "站在旁邊的妻子吃驚地問馬林。",
+        "ko": "옆에 있던 아내가 놀라서 말린에게 물었습니다.",
+        "tl": "Nagulat ang asawang katabi niya at nagtanong kay Malin.",
+        "ne": "छेउमा भएकी श्रीमतीले छक्क पर्दै मालिनलाई सोधिन्।",
+        "id": "Istrinya yang di samping terkejut dan bertanya pada Malin.",
+        "pt": "A esposa ao lado, surpresa, perguntou a Malin.",
+        "my": "ဘေးမှာ ရှိတဲ့ ဇနီးက အံ့သြပြီး မာလင်ကို မေးတယ်။",
+        "th": "ภรรยาที่ยืนข้างๆ ตกใจและถามมาลิน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「となり」: bên cạnh. 妻 = vợ.",
+        "en": "「となり」 = next to.",
+        "zh-Hans": "「となり」＝旁边。",
+        "zh-Hant": "「となり」＝旁邊。",
+        "ko": "옆.",
+        "tl": "katabi.",
+        "ne": "छेउ।",
+        "id": "samping.",
+        "pt": "ao lado.",
+        "my": "ဘေး။",
+        "th": "ข้างๆ"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=164.329,168.435",
+      "t": [
+        164.329,
+        168.435
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「あなた、このきたないおばあさんは、だれなの。」",
+      "furigana": [
+        {
+          "surface": "「あなた、このきたないおばあさんは、だれなの。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Anata, kono kitanai obaasan wa, dare na no.”",
+      "translations": {
+        "vi": "\"Anh ơi, bà già bẩn thỉu này là ai vậy?\"",
+        "en": "\"Dear, who is this filthy old woman?\"",
+        "zh-Hans": "“老公，这个脏兮兮的老太婆是谁？”",
+        "zh-Hant": "“老公，這個髒兮兮的老太婆是誰？”",
+        "ko": "\"여보, 이 지저분한 할머니는 누구예요?\"",
+        "tl": "\"Mahal, sino ang maruming matandang ito?\"",
+        "ne": "\"प्रिय, यो फोहोरी बूढी को हो?\"",
+        "id": "\"Sayang, siapa nenek kotor ini?\"",
+        "pt": "\"Querido, quem é essa velha suja?\"",
+        "my": "\"ရှင်၊ ဒီ ညစ်ပတ်တဲ့ အဘွားကြီးက ဘယ်သူလဲ။\"",
+        "th": "\"ที่รัก ยายสกปรกคนนี้เป็นใคร\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜なの」: hỏi (nữ). 「きたない」: bẩn.",
+        "en": "「きたない」 = dirty.",
+        "zh-Hans": "「きたない」＝脏。",
+        "zh-Hant": "「きたない」＝髒。",
+        "ko": "지저분하다.",
+        "tl": "marumi.",
+        "ne": "फोहोरी।",
+        "id": "kotor.",
+        "pt": "suja.",
+        "my": "ညစ်ပတ်။",
+        "th": "สกปรก"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=169.335,172.407",
+      "t": [
+        169.335,
+        172.407
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "マリンは、妻の前で、まずしい母親がいることが、はずかしくなりました。",
+      "furigana": [
+        {
+          "surface": "マリンは、",
+          "reading": ""
+        },
+        {
+          "surface": "妻",
+          "reading": "つま"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "で、まずしい",
+          "reading": ""
+        },
+        {
+          "surface": "母親",
+          "reading": "ははおや"
+        },
+        {
+          "surface": "がいることが、はずかしくなりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Marin wa, tsuma no mae de, mazushii hahaoya ga iru koto ga, hazukashiku narimashita.",
+      "translations": {
+        "vi": "Trước mặt vợ, Malin thấy xấu hổ vì có một người mẹ nghèo.",
+        "en": "In front of his wife, Malin felt ashamed to have a poor mother.",
+        "zh-Hans": "在妻子面前，马林觉得有个穷母亲很丢脸。",
+        "zh-Hant": "在妻子面前，馬林覺得有個窮母親很丟臉。",
+        "ko": "말린은 아내 앞에서 가난한 어머니가 있다는 것이 부끄러워졌습니다.",
+        "tl": "Sa harap ng asawa, nahiya si Malin na may mahirap siyang ina.",
+        "ne": "श्रीमतीअगाडि गरिब आमा हुनु मालिनलाई लाजको कुरा लाग्यो।",
+        "id": "Di depan istrinya, Malin malu punya ibu yang miskin.",
+        "pt": "Diante da esposa, Malin teve vergonha de ter uma mãe pobre.",
+        "my": "ဇနီးရှေ့မှာ ဆင်းရဲတဲ့ အမေ ရှိတာကို မာလင် ရှက်သွားတယ်။",
+        "th": "ต่อหน้าภรรยา มาลินอายที่มีแม่จน"
+      },
+      "vocab": [
+        {
+          "word": "母親",
+          "reading": "ははおや",
+          "meanings": {
+            "vi": "người mẹ",
+            "en": "mother",
+            "zh-Hans": "母亲",
+            "zh-Hant": "母親",
+            "ko": "어머니",
+            "tl": "ina",
+            "ne": "आमा",
+            "id": "ibu",
+            "pt": "mãe",
+            "my": "မိခင်",
+            "th": "แม่"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ことが、はずかしい」: xấu hổ vì ~.",
+        "en": "「はずかしい」 = ashamed.",
+        "zh-Hans": "「はずかしい」＝丢脸。",
+        "zh-Hant": "「はずかしい」＝丟臉。",
+        "ko": "부끄럽다.",
+        "tl": "nahiya.",
+        "ne": "लाज।",
+        "id": "malu.",
+        "pt": "vergonha.",
+        "my": "ရှက်။",
+        "th": "อาย"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=173.307,179.43",
+      "t": [
+        173.307,
+        179.43
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「知らない。こんな人は、ぼくの母親じゃない。あっちへ行け。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "知",
+          "reading": "し"
+        },
+        {
+          "surface": "らない。こんな",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "は、ぼくの",
+          "reading": ""
+        },
+        {
+          "surface": "母親",
+          "reading": "ははおや"
+        },
+        {
+          "surface": "じゃない。あっちへ",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "け。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Shiranai. Konna hito wa, boku no hahaoya ja nai. Atchi e ike.”",
+      "translations": {
+        "vi": "\"Tôi không biết. Người này không phải mẹ tôi. Đi chỗ khác!\"",
+        "en": "\"I don't know her. This woman is not my mother. Go away!\"",
+        "zh-Hans": "“我不认识。这个人不是我母亲。走开！”",
+        "zh-Hant": "“我不認識。這個人不是我母親。走開！”",
+        "ko": "\"몰라. 이런 사람은 내 어머니가 아니야. 저리 가!\"",
+        "tl": "\"Hindi ko siya kilala. Hindi ko siya ina. Umalis ka!\"",
+        "ne": "\"म चिन्दिनँ। यो मेरी आमा होइन। जाऊ यहाँबाट!\"",
+        "id": "\"Aku tak kenal. Orang ini bukan ibuku. Pergi sana!\"",
+        "pt": "\"Não conheço. Essa mulher não é minha mãe. Vá embora!\"",
+        "my": "\"မသိဘူး။ ဒီလူ ငါ့အမေ မဟုတ်ဘူး။ ဟိုဘက် သွား!\"",
+        "th": "\"ไม่รู้จัก คนนี้ไม่ใช่แม่ฉัน ไปให้พ้น!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜じゃない」: không phải ~. 「行け」: mệnh lệnh \"đi đi\".",
+        "en": "「行け」 = go! (command).",
+        "zh-Hans": "「行け」＝走开（命令）。",
+        "zh-Hant": "「行け」＝走開（命令）。",
+        "ko": "가!",
+        "tl": "umalis.",
+        "ne": "जाऊ।",
+        "id": "pergi.",
+        "pt": "vá.",
+        "my": "သွား။",
+        "th": "ไป"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=180.33,185.009",
+      "t": [
+        180.33,
+        185.009
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "そう言って、マリンは、お母さんを、つきとばしてしまいました。",
+      "furigana": [
+        {
+          "surface": "そう",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "って、マリンは、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんを、つきとばしてしまいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sou itte, Marin wa, okaasan o, tsukitobashiteshimaimashita.",
+      "translations": {
+        "vi": "Nói rồi, Malin xô ngã mẹ mình.",
+        "en": "With that, Malin shoved his mother away.",
+        "zh-Hans": "说完，马林把妈妈推倒了。",
+        "zh-Hant": "說完，馬林把媽媽推倒了。",
+        "ko": "그렇게 말하고 말린은 어머니를 밀쳐 버렸습니다.",
+        "tl": "Pagkasabi niyon, itinulak ni Malin ang kanyang ina.",
+        "ne": "यति भनेर मालिनले आमालाई धकेलिदियो।",
+        "id": "Sambil berkata begitu, Malin mendorong ibunya.",
+        "pt": "Dito isso, Malin empurrou a mãe.",
+        "my": "အဲဒီလို ပြောပြီး မာလင်က အမေ့ကို တွန်းလှဲလိုက်တယ်။",
+        "th": "พูดจบ มาลินก็ผลักแม่ล้ม"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「つきとばす」: xô ngã. 「〜てしまう」: (đáng tiếc) đã ~.",
+        "en": "「つきとばす」 = shove away.",
+        "zh-Hans": "「つきとばす」＝推倒。",
+        "zh-Hant": "「つきとばす」＝推倒。",
+        "ko": "밀치다.",
+        "tl": "itulak.",
+        "ne": "धकेल्नु।",
+        "id": "mendorong.",
+        "pt": "empurrar.",
+        "my": "တွန်း။",
+        "th": "ผลัก"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=185.909,190.545",
+      "t": [
+        185.909,
+        190.545
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「マリン、わたしだよ。おまえを、ずっと待っていたんだよ。」",
+      "furigana": [
+        {
+          "surface": "「マリン、わたしだよ。おまえを、ずっと",
+          "reading": ""
+        },
+        {
+          "surface": "待",
+          "reading": "ま"
+        },
+        {
+          "surface": "っていたんだよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Marin, watashi da yo. Omae o, zutto matteita n da yo.”",
+      "translations": {
+        "vi": "\"Malin, là mẹ đây mà. Mẹ đã chờ con suốt bao năm.\"",
+        "en": "\"Malin, it's me. I've been waiting for you all this time.\"",
+        "zh-Hans": "“马林，是我呀。我一直在等你啊。”",
+        "zh-Hant": "“馬林，是我呀。我一直在等你啊。”",
+        "ko": "\"말린, 나야. 너를 계속 기다렸단다.\"",
+        "tl": "\"Malin, ako ito. Matagal kitang hinintay.\"",
+        "ne": "\"मालिन, म हुँ। तिमीलाई सधैँ पर्खिरहेँ।\"",
+        "id": "\"Malin, ini aku. Aku terus menunggumu.\"",
+        "pt": "\"Malin, sou eu. Esperei por você todo esse tempo.\"",
+        "my": "\"မာလင်၊ အမေပါ။ သားကို တစ်ချိန်လုံး စောင့်နေခဲ့တာ။\"",
+        "th": "\"มาลิน แม่เองนะ แม่รอลูกมาตลอด\""
+      },
+      "vocab": [
+        {
+          "word": "ずっと",
+          "reading": "ずっと",
+          "meanings": {
+            "vi": "suốt, mãi",
+            "en": "all along, the whole time",
+            "zh-Hans": "一直",
+            "zh-Hant": "一直",
+            "ko": "계속",
+            "tl": "palagi, matagal",
+            "ne": "सधैँ",
+            "id": "terus-menerus",
+            "pt": "o tempo todo",
+            "my": "တောက်လျှောက်",
+            "th": "ตลอด"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「ずっと〜ていた」: đã ~ suốt.",
+        "en": "「ずっと」 = all along.",
+        "zh-Hans": "「ずっと」＝一直。",
+        "zh-Hant": "「ずっと」＝一直。",
+        "ko": "계속.",
+        "tl": "matagal.",
+        "ne": "सधैँ।",
+        "id": "terus.",
+        "pt": "todo esse tempo.",
+        "my": "တစ်ချိန်လုံး။",
+        "th": "ตลอด"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=191.445,196.027",
+      "t": [
+        191.445,
+        196.027
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "でも、マリンは、ふりかえりもせず、船を出すように命じました。",
+      "furigana": [
+        {
+          "surface": "でも、マリンは、ふりかえりもせず、",
+          "reading": ""
+        },
+        {
+          "surface": "船",
+          "reading": "ふね"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "すように",
+          "reading": ""
+        },
+        {
+          "surface": "命",
+          "reading": "めい"
+        },
+        {
+          "surface": "じました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, Marin wa, furikaeri mo sezu, fune o dasu you ni meiji mashita.",
+      "translations": {
+        "vi": "Nhưng Malin chẳng ngoảnh lại, ra lệnh cho thuyền nhổ neo.",
+        "en": "But Malin didn't even look back, and ordered the ship to set sail.",
+        "zh-Hans": "可是马林头也不回，命令开船。",
+        "zh-Hant": "可是馬林頭也不回，命令開船。",
+        "ko": "하지만 말린은 돌아보지도 않고 배를 띄우라고 명령했습니다.",
+        "tl": "Pero hindi man lang lumingon si Malin at iniutos na umalis ang barko.",
+        "ne": "तर मालिनले फर्केर पनि नहेरी जहाज चलाउन आदेश दियो।",
+        "id": "Tapi Malin tidak menoleh dan memerintahkan kapal berangkat.",
+        "pt": "Mas Malin nem olhou para trás e mandou o navio partir.",
+        "my": "ဒါပေမဲ့ မာလင်က လှည့်တောင် မကြည့်ဘဲ သင်္ဘော ထွက်ဖို့ အမိန့်ပေးတယ်။",
+        "th": "แต่มาลินไม่หันกลับมามอง แล้วสั่งให้ออกเรือ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜もせず」: ngay cả ~ cũng không. 「〜ように命じる」: ra lệnh ~.",
+        "en": "「〜もせず」 = without even ~.",
+        "zh-Hans": "「〜もせず」＝连……也不。",
+        "zh-Hant": "「〜もせず」＝連……也不。",
+        "ko": "~지도 않고.",
+        "tl": "hindi man lang.",
+        "ne": "पनि नगरी।",
+        "id": "tidak.",
+        "pt": "nem.",
+        "my": "တောင် မ~ဘဲ။",
+        "th": "ไม่แม้แต่"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=196.927,202.477",
+      "t": [
+        196.927,
+        202.477
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ひとり残されたお母さんは、海に向かって、手を合わせました。",
+      "furigana": [
+        {
+          "surface": "ひとり",
+          "reading": ""
+        },
+        {
+          "surface": "残",
+          "reading": "のこ"
+        },
+        {
+          "surface": "されたお",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、",
+          "reading": ""
+        },
+        {
+          "surface": "海",
+          "reading": "うみ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "向",
+          "reading": "む"
+        },
+        {
+          "surface": "かって、",
+          "reading": ""
+        },
+        {
+          "surface": "手",
+          "reading": "て"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "合",
+          "reading": "あ"
+        },
+        {
+          "surface": "わせました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hitori nokosareta okaasan wa, umi ni mukatte, teoawase mashita.",
+      "translations": {
+        "vi": "Bị bỏ lại một mình, bà mẹ hướng ra biển, chắp tay lại.",
+        "en": "Left all alone, the mother faced the sea and pressed her hands together.",
+        "zh-Hans": "被独自留下的妈妈面向大海，双手合十。",
+        "zh-Hant": "被獨自留下的媽媽面向大海，雙手合十。",
+        "ko": "홀로 남겨진 어머니는 바다를 향해 두 손을 모았습니다.",
+        "tl": "Naiwang mag-isa, humarap sa dagat ang ina at pinagdaop ang mga kamay.",
+        "ne": "एक्लै छोडिएकी आमाले समुद्रतिर फर्केर हात जोडिन्।",
+        "id": "Ditinggal sendiri, sang ibu menghadap laut dan menangkupkan tangan.",
+        "pt": "Deixada sozinha, a mãe virou-se para o mar e juntou as mãos.",
+        "my": "တစ်ယောက်တည်း ကျန်ခဲ့တဲ့ အမေက ပင်လယ်ဘက် လှည့်ပြီး လက်အုပ်ချီတယ်။",
+        "th": "แม่ที่ถูกทิ้งไว้คนเดียวหันหน้าไปทางทะเล แล้วพนมมือ"
+      },
+      "vocab": [
+        {
+          "word": "残す",
+          "reading": "のこす",
+          "meanings": {
+            "vi": "để lại, chừa lại",
+            "en": "to leave (behind), to save some",
+            "zh-Hans": "留下，剩下",
+            "zh-Hant": "留下，剩下",
+            "ko": "남기다",
+            "tl": "magtira",
+            "ne": "बाँकी राख्नु",
+            "id": "menyisakan",
+            "pt": "deixar, guardar",
+            "my": "ချန်ထားသည်",
+            "th": "เหลือไว้"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「手を合わせる」: chắp tay. Bị động 「残される」.",
+        "en": "「手を合わせる」 = press hands together (pray).",
+        "zh-Hans": "「手を合わせる」＝双手合十。",
+        "zh-Hant": "「手を合わせる」＝雙手合十。",
+        "ko": "두 손을 모으다.",
+        "tl": "pagdaupin.",
+        "ne": "हात जोड्नु।",
+        "id": "menangkupkan.",
+        "pt": "juntar as mãos.",
+        "my": "လက်အုပ်ချီ။",
+        "th": "พนมมือ"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=203.077,208.013",
+      "t": [
+        203.077,
+        208.013
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「神さま、もし、あれが本当にわたしの子なら、どうか、あの子に、ばつをおあたえください。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "神",
+          "reading": "かみ"
+        },
+        {
+          "surface": "さま、もし、あれが",
+          "reading": ""
+        },
+        {
+          "surface": "本当",
+          "reading": "ほんとう"
+        },
+        {
+          "surface": "にわたしの",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "なら、どうか、あの",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "に、ばつをおあたえください。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kamisama, moshi, are ga hontouni watashi no ko nara, dou ka, ano ko ni, batsu o oataekudasai.”",
+      "translations": {
+        "vi": "\"Lạy Trời, nếu đó thật là con tôi, xin hãy trừng phạt nó.\"",
+        "en": "\"O God, if that truly is my child, please punish him.\"",
+        "zh-Hans": "“老天爷，如果那真的是我的孩子，求您惩罚他吧。”",
+        "zh-Hant": "“老天爺，如果那真的是我的孩子，求您懲罰他吧。”",
+        "ko": "\"신이시여, 만약 저 아이가 정말 제 자식이라면 부디 벌을 내려 주세요.\"",
+        "tl": "\"Diyos ko, kung anak ko nga iyon, parusahan Ninyo siya.\"",
+        "ne": "\"हे भगवान्, यदि त्यो साँच्चै मेरो छोरा हो भने, कृपया उसलाई सजाय दिनुहोस्।\"",
+        "id": "\"Ya Tuhan, jika itu benar anakku, hukumlah dia.\"",
+        "pt": "\"Ó Deus, se aquele é mesmo meu filho, castigue-o, por favor.\"",
+        "my": "\"ဘုရားသခင်၊ အဲဒါ တကယ် ကျွန်မ သားဆိုရင် သူ့ကို အပြစ်ပေးပါ။\"",
+        "th": "\"พระเจ้า ถ้านั่นคือลูกของข้าจริง ได้โปรดลงโทษเขาด้วย\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「どうか〜ください」: xin hãy ~. ばつ = hình phạt.",
+        "en": "「どうか〜ください」 = I beg you, please ~.",
+        "zh-Hans": "「どうか」＝务必，请。",
+        "zh-Hant": "「どうか」＝務必，請。",
+        "ko": "부디.",
+        "tl": "pakiusap.",
+        "ne": "कृपया।",
+        "id": "tolong.",
+        "pt": "por favor.",
+        "my": "ပါ။",
+        "th": "ได้โปรด"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=208.913,217.032",
+      "t": [
+        208.913,
+        217.032
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "すると、晴れていた空が、急に暗くなり、はげしい風がふきはじめました。",
+      "furigana": [
+        {
+          "surface": "すると、",
+          "reading": ""
+        },
+        {
+          "surface": "晴",
+          "reading": "は"
+        },
+        {
+          "surface": "れていた",
+          "reading": ""
+        },
+        {
+          "surface": "空",
+          "reading": "そら"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "急",
+          "reading": "きゅう"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "暗",
+          "reading": "くら"
+        },
+        {
+          "surface": "くなり、はげしい",
+          "reading": ""
+        },
+        {
+          "surface": "風",
+          "reading": "かぜ"
+        },
+        {
+          "surface": "がふきはじめました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suruto, hareteita sora ga, kyuu ni kuraku nari, hageshii kaze ga fukihajimemashita.",
+      "translations": {
+        "vi": "Thế rồi bầu trời đang quang bỗng tối sầm, gió dữ bắt đầu thổi.",
+        "en": "Then the clear sky suddenly darkened, and a fierce wind began to blow.",
+        "zh-Hans": "于是，晴朗的天空突然变暗，刮起了狂风。",
+        "zh-Hant": "於是，晴朗的天空突然變暗，颳起了狂風。",
+        "ko": "그러자 맑던 하늘이 갑자기 어두워지고 거센 바람이 불기 시작했습니다.",
+        "tl": "Biglang dumilim ang maaliwalas na langit at umihip ang malakas na hangin.",
+        "ne": "अनि खुला आकाश अचानक अँध्यारो भयो, जोडले हावा चल्न थाल्यो।",
+        "id": "Lalu langit yang cerah tiba-tiba gelap, dan angin kencang mulai bertiup.",
+        "pt": "Então o céu limpo escureceu de repente e um vento forte começou a soprar.",
+        "my": "အဲဒီအခါ ကြည်လင်နေတဲ့ ကောင်းကင်က ရုတ်တရက် မှောင်လာပြီး လေပြင်း စတိုက်တယ်။",
+        "th": "แล้วฟ้าที่แจ่มใสก็มืดลงทันที ลมแรงเริ่มพัด"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「すると」: thế rồi. 「〜はじめる」: bắt đầu ~.",
+        "en": "「すると」 = thereupon.",
+        "zh-Hans": "「すると」＝于是。",
+        "zh-Hant": "「すると」＝於是。",
+        "ko": "그러자.",
+        "tl": "biglang.",
+        "ne": "अनि।",
+        "id": "lalu.",
+        "pt": "então.",
+        "my": "အဲဒီအခါ။",
+        "th": "แล้ว"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=217.932,224.138",
+      "t": [
+        217.932,
+        224.138
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "大きな波が、マリンの船を、木の葉のようにゆらしました。",
+      "furigana": [
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きな",
+          "reading": ""
+        },
+        {
+          "surface": "波",
+          "reading": "なみ"
+        },
+        {
+          "surface": "が、マリンの",
+          "reading": ""
+        },
+        {
+          "surface": "船",
+          "reading": "ふね"
+        },
+        {
+          "surface": "を、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "こ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "葉",
+          "reading": "は"
+        },
+        {
+          "surface": "のようにゆらしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ookina nami ga, Marin no fune o, konoha no you ni yurashimashita.",
+      "translations": {
+        "vi": "Sóng lớn làm con thuyền của Malin chao đảo như chiếc lá.",
+        "en": "Huge waves tossed Malin's ship like a leaf.",
+        "zh-Hans": "大浪把马林的船像树叶一样摇晃。",
+        "zh-Hant": "大浪把馬林的船像樹葉一樣搖晃。",
+        "ko": "큰 파도가 말린의 배를 나뭇잎처럼 흔들었습니다.",
+        "tl": "Pinaglaruan ng malalaking alon ang barko ni Malin na parang dahon.",
+        "ne": "ठूला छालले मालिनको जहाजलाई पातझैँ हल्लायो।",
+        "id": "Ombak besar mengguncang kapal Malin seperti daun.",
+        "pt": "Ondas enormes sacudiram o navio de Malin como uma folha.",
+        "my": "လှိုင်းကြီးတွေက မာလင့် သင်္ဘောကို သစ်ရွက်လို လှုပ်ယမ်းတယ်။",
+        "th": "คลื่นใหญ่โยกเรือของมาลินเหมือนใบไม้"
+      },
+      "vocab": [
+        {
+          "word": "波",
+          "reading": "なみ",
+          "meanings": {
+            "vi": "sóng",
+            "en": "wave",
+            "zh-Hans": "波浪",
+            "zh-Hant": "波浪",
+            "ko": "파도",
+            "tl": "alon",
+            "ne": "छाल",
+            "id": "ombak",
+            "pt": "onda",
+            "my": "လှိုင်း",
+            "th": "คลื่น"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜のように」: như ~. 「ゆらす」: làm lắc lư.",
+        "en": "「〜のように」 = like ~.",
+        "zh-Hans": "「〜のように」＝像……一样。",
+        "zh-Hant": "「〜のように」＝像……一樣。",
+        "ko": "~처럼.",
+        "tl": "parang.",
+        "ne": "झैँ।",
+        "id": "seperti.",
+        "pt": "como.",
+        "my": "လို။",
+        "th": "เหมือน"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=224.738,229.929",
+      "t": [
+        224.738,
+        229.929
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「お母さん、ゆるしてください。ぼくが悪かった。」",
+      "furigana": [
+        {
+          "surface": "「お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さん、ゆるしてください。ぼくが",
+          "reading": ""
+        },
+        {
+          "surface": "悪",
+          "reading": "わる"
+        },
+        {
+          "surface": "かった。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Okaasan, yurushitekudasai. Boku ga warukatta.”",
+      "translations": {
+        "vi": "\"Mẹ ơi, tha cho con. Con sai rồi.\"",
+        "en": "\"Mother, forgive me! I was wrong!\"",
+        "zh-Hans": "“妈妈，原谅我吧。是我错了。”",
+        "zh-Hant": "“媽媽，原諒我吧。是我錯了。”",
+        "ko": "\"어머니, 용서해 주세요. 제가 잘못했어요.\"",
+        "tl": "\"Inay, patawarin mo ako! Nagkamali ako!\"",
+        "ne": "\"आमा, माफ गर्नुहोस्। मेरो गल्ती भयो।\"",
+        "id": "\"Ibu, maafkan aku. Aku yang salah.\"",
+        "pt": "\"Mãe, me perdoe! Eu errei!\"",
+        "my": "\"အမေ၊ ခွင့်လွှတ်ပါ။ ကျွန်တော် မှားပါတယ်။\"",
+        "th": "\"แม่ ยกโทษให้ผมด้วย ผมผิดไปแล้ว\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「ゆるしてください」: xin tha thứ.",
+        "en": "「ゆるしてください」 = please forgive me.",
+        "zh-Hans": "「ゆるして」＝原谅。",
+        "zh-Hant": "「ゆるして」＝原諒。",
+        "ko": "용서해 주세요.",
+        "tl": "patawarin.",
+        "ne": "माफ।",
+        "id": "maafkan.",
+        "pt": "perdoe.",
+        "my": "ခွင့်လွှတ်။",
+        "th": "ยกโทษ"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=230.829,234.287",
+      "t": [
+        230.829,
+        234.287
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "でも、その声がとどく前に、船はこわれ、マリンは海岸に打ち上げられました。",
+      "furigana": [
+        {
+          "surface": "でも、その",
+          "reading": ""
+        },
+        {
+          "surface": "声",
+          "reading": "こえ"
+        },
+        {
+          "surface": "がとどく",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "船",
+          "reading": "ふね"
+        },
+        {
+          "surface": "はこわれ、マリンは",
+          "reading": ""
+        },
+        {
+          "surface": "海岸",
+          "reading": "かいがん"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "打",
+          "reading": "う"
+        },
+        {
+          "surface": "ち",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "あ"
+        },
+        {
+          "surface": "げられました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, sono koe ga todoku mae ni, fune wa koware, Marin wa kaigan ni uchiage raremashita.",
+      "translations": {
+        "vi": "Nhưng trước khi tiếng kêu ấy tới nơi, con thuyền đã vỡ tan và Malin bị sóng đánh dạt vào bờ.",
+        "en": "But before his cry could reach her, the ship broke apart and Malin was washed up on the shore.",
+        "zh-Hans": "可是在那声音传到之前，船就碎了，马林被冲上了海岸。",
+        "zh-Hant": "可是在那聲音傳到之前，船就碎了，馬林被衝上了海岸。",
+        "ko": "하지만 그 목소리가 닿기 전에 배는 부서지고 말린은 해안으로 떠밀려 왔습니다.",
+        "tl": "Pero bago umabot ang tinig, nawasak ang barko at inanod si Malin sa dalampasigan.",
+        "ne": "तर त्यो आवाज पुग्नुअघि नै जहाज टुक्रियो र मालिन किनारमा फालियो।",
+        "id": "Tapi sebelum suaranya sampai, kapal hancur dan Malin terdampar di pantai.",
+        "pt": "Mas antes que a voz chegasse, o navio se partiu e Malin foi jogado na praia.",
+        "my": "ဒါပေမဲ့ အဲဒီ အသံ မရောက်ခင်မှာ သင်္ဘော ပျက်ပြီး မာလင်က ကမ်းခြေပေါ် လှိုင်းရိုက်ခံရတယ်။",
+        "th": "แต่ก่อนเสียงนั้นจะไปถึง เรือก็แตก และมาลินถูกซัดขึ้นฝั่ง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜前に」: trước khi ~. Bị động 「打ち上げられる」: bị đánh dạt vào.",
+        "en": "「〜前に」 = before ~.",
+        "zh-Hans": "「〜前に」＝在……之前。",
+        "zh-Hant": "「〜前に」＝在……之前。",
+        "ko": "~기 전에.",
+        "tl": "bago.",
+        "ne": "अघि।",
+        "id": "sebelum.",
+        "pt": "antes que.",
+        "my": "မ~ခင်။",
+        "th": "ก่อน"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=235.187,242.597",
+      "t": [
+        235.187,
+        242.597
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そして、ひざをついて、あやまる姿のまま、少しずつ、石になってしまったのです。",
+      "furigana": [
+        {
+          "surface": "そして、ひざをついて、あやまる",
+          "reading": ""
+        },
+        {
+          "surface": "姿",
+          "reading": "すがた"
+        },
+        {
+          "surface": "のまま、",
+          "reading": ""
+        },
+        {
+          "surface": "少",
+          "reading": "すこ"
+        },
+        {
+          "surface": "しずつ、",
+          "reading": ""
+        },
+        {
+          "surface": "石",
+          "reading": "いし"
+        },
+        {
+          "surface": "になってしまったのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite, hiza o tsuite, ayamaru sugata no mama, sukoshi zutsu, ishi ni natteshimatta no desu.",
+      "translations": {
+        "vi": "Rồi trong tư thế quỳ gối xin lỗi, anh dần dần hóa thành đá.",
+        "en": "And there, kneeling in apology, he slowly turned to stone.",
+        "zh-Hans": "就这样，他保持着跪地道歉的姿势，一点点变成了石头。",
+        "zh-Hant": "就這樣，他保持著跪地道歉的姿勢，一點點變成了石頭。",
+        "ko": "그리고 무릎을 꿇고 사죄하는 모습 그대로 조금씩 돌이 되어 버렸습니다.",
+        "tl": "At sa anyong nakaluhod at humihingi ng tawad, unti-unti siyang naging bato.",
+        "ne": "अनि घुँडा टेकेर माफी माग्ने अवस्थामै ऊ बिस्तारै ढुङ्गा बन्यो।",
+        "id": "Dan dalam posisi berlutut meminta maaf, perlahan ia menjadi batu.",
+        "pt": "E, ajoelhado pedindo perdão, foi virando pedra aos poucos.",
+        "my": "ပြီးတော့ ဒူးထောက် တောင်းပန်နေတဲ့ ပုံစံအတိုင်း တဖြည်းဖြည်း ကျောက်ဖြစ်သွားတယ်။",
+        "th": "แล้วในท่าคุกเข่าขอโทษ เขาก็ค่อยๆ กลายเป็นหิน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜姿のまま」: giữ nguyên dáng ~. 「少しずつ」: dần dần.",
+        "en": "「〜のまま」 = remaining as ~.",
+        "zh-Hans": "「〜のまま」＝保持……。",
+        "zh-Hant": "「〜のまま」＝保持……。",
+        "ko": "~그대로.",
+        "tl": "sa anyong.",
+        "ne": "अवस्थामै।",
+        "id": "dalam posisi.",
+        "pt": "ainda.",
+        "my": "အတိုင်း။",
+        "th": "ในท่า"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=243.197,249.908",
+      "t": [
+        243.197,
+        249.908
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "今も、エア・マニスの海岸には、その石と、こわれた船のような形の岩が残っていて、多くの人がおとずれます。",
+      "furigana": [
+        {
+          "surface": "今",
+          "reading": "いま"
+        },
+        {
+          "surface": "も、エア・マニスの",
+          "reading": ""
+        },
+        {
+          "surface": "海岸",
+          "reading": "かいがん"
+        },
+        {
+          "surface": "には、その",
+          "reading": ""
+        },
+        {
+          "surface": "石",
+          "reading": "いし"
+        },
+        {
+          "surface": "と、こわれた",
+          "reading": ""
+        },
+        {
+          "surface": "船",
+          "reading": "ふね"
+        },
+        {
+          "surface": "のような",
+          "reading": ""
+        },
+        {
+          "surface": "形",
+          "reading": "かたち"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "岩",
+          "reading": "いわ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "残",
+          "reading": "のこ"
+        },
+        {
+          "surface": "っていて、",
+          "reading": ""
+        },
+        {
+          "surface": "多",
+          "reading": "おお"
+        },
+        {
+          "surface": "くの",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "がおとずれます。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ima mo, Ea・manisu no kaigan ni wa, sono ishi to, kowareta fune no you na katachi no iwa ga nokotteite, ooku no hito ga otozuremasu.",
+      "translations": {
+        "vi": "Đến nay, trên bờ biển Air Manis vẫn còn tảng đá ấy và những tảng đá hình như thuyền vỡ, rất nhiều người đến thăm.",
+        "en": "Even today, that stone and rocks shaped like a wrecked ship remain on Air Manis beach, and many people visit.",
+        "zh-Hans": "至今，艾尔马尼斯海岸上还留着那块石头和像破船一样的岩石，很多人前去参观。",
+        "zh-Hant": "至今，艾爾馬尼斯海岸上還留著那塊石頭和像破船一樣的岩石，很多人前去參觀。",
+        "ko": "지금도 아이르 마니스 해안에는 그 돌과 부서진 배 모양의 바위가 남아 있어 많은 사람이 찾습니다.",
+        "tl": "Hanggang ngayon, nasa Air Manis pa ang batong iyon at mga batong hugis-wasak na barko, at maraming bumibisita.",
+        "ne": "आज पनि एयर मानिस तटमा त्यो ढुङ्गा र टुटेको जहाज जस्तो चट्टान छ, धेरै मान्छे हेर्न जान्छन्।",
+        "id": "Sampai kini, batu itu dan batu berbentuk kapal pecah masih ada di Pantai Air Manis, dan banyak yang berkunjung.",
+        "pt": "Até hoje, essa pedra e rochas em forma de navio quebrado estão na praia de Air Manis, e muita gente visita.",
+        "my": "ဒီနေ့အထိ အဲယား မာနစ် ကမ်းခြေမှာ အဲဒီ ကျောက်နဲ့ ပျက်တဲ့ သင်္ဘောပုံ ကျောက်တွေ ကျန်နေပြီး လူအများ လာကြည့်ကြတယ်။",
+        "th": "ทุกวันนี้ ที่หาดแอร์มานิสยังมีหินก้อนนั้นและหินรูปเรือแตกอยู่ คนมากมายไปเยี่ยมชม"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「おとずれる」: đến thăm. 「〜ていて」: ~ và.",
+        "en": "「おとずれる」 = visit.",
+        "zh-Hans": "「おとずれる」＝造访。",
+        "zh-Hant": "「おとずれる」＝造訪。",
+        "ko": "찾다.",
+        "tl": "bumisita.",
+        "ne": "भ्रमण।",
+        "id": "berkunjung.",
+        "pt": "visitar.",
+        "my": "လာကြည့်။",
+        "th": "เยี่ยมชม"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=250.508,259.751",
+      "t": [
+        250.508,
+        259.751
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "インドネシアでは、この話は、「親を大切にしなさい」という教えとして、子どもたちに語られています。",
+      "furigana": [
+        {
+          "surface": "インドネシアでは、この",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "は、「",
+          "reading": ""
+        },
+        {
+          "surface": "親",
+          "reading": "おや"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "大切",
+          "reading": "たいせつ"
+        },
+        {
+          "surface": "にしなさい」という",
+          "reading": ""
+        },
+        {
+          "surface": "教",
+          "reading": "おし"
+        },
+        {
+          "surface": "えとして、",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どもたちに",
+          "reading": ""
+        },
+        {
+          "surface": "語",
+          "reading": "かた"
+        },
+        {
+          "surface": "られています。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Indoneshia de wa, kono hanashi wa, “Oya o taisetsu ni shinasai” to iu oshie to shite, kodomotachi ni katarareteimasu.",
+      "translations": {
+        "vi": "Ở Indonesia, câu chuyện này được kể cho trẻ em như một bài học: \"Hãy hiếu thảo với cha mẹ.\"",
+        "en": "In Indonesia, this story is told to children as a lesson: \"Honor your parents.\"",
+        "zh-Hans": "在印度尼西亚，这个故事作为“要孝敬父母”的教诲讲给孩子们听。",
+        "zh-Hant": "在印度尼西亞，這個故事作為“要孝敬父母”的教誨講給孩子們聽。",
+        "ko": "인도네시아에서 이 이야기는 '부모를 소중히 하라'는 가르침으로 아이들에게 전해집니다.",
+        "tl": "Sa Indonesia, ikinukuwento ito sa mga bata bilang aral: \"Igalang ang magulang.\"",
+        "ne": "इन्डोनेसियामा यो कथा \"आमाबुबालाई माया गर\" भन्ने शिक्षाका रूपमा बच्चालाई सुनाइन्छ।",
+        "id": "Di Indonesia, kisah ini diceritakan kepada anak-anak sebagai ajaran: \"Sayangi orang tuamu.\"",
+        "pt": "Na Indonésia, a história é contada às crianças como lição: \"Honre seus pais.\"",
+        "my": "အင်ဒိုနီးရှားမှာ ဒီပုံပြင်ကို \"မိဘကို တန်ဖိုးထားပါ\" ဆိုတဲ့ သင်ခန်းစာ အဖြစ် ကလေးတွေကို ပြောပြကြတယ်။",
+        "th": "ในอินโดนีเซีย เรื่องนี้ถูกเล่าให้เด็กฟังเป็นคำสอนว่า \"จงรักพ่อแม่\""
+      },
+      "vocab": [
+        {
+          "word": "教え",
+          "reading": "おしえ",
+          "meanings": {
+            "vi": "bài học, lời dạy",
+            "en": "teaching, lesson",
+            "zh-Hans": "教诲",
+            "zh-Hant": "教誨",
+            "ko": "가르침",
+            "tl": "aral",
+            "ne": "शिक्षा",
+            "id": "ajaran",
+            "pt": "ensinamento",
+            "my": "သင်ခန်းစာ",
+            "th": "คำสอน"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "語る",
+          "reading": "かたる",
+          "meanings": {
+            "vi": "kể, thuật lại",
+            "en": "tell, narrate",
+            "zh-Hans": "讲述",
+            "zh-Hant": "講述",
+            "ko": "이야기하다",
+            "tl": "isalaysay",
+            "ne": "भन्नु, सुनाउनु",
+            "id": "menceritakan",
+            "pt": "contar, narrar",
+            "my": "ပြောပြ",
+            "th": "เล่า"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜として」: như là ~. 「〜なさい」: hãy ~ (mệnh lệnh nhẹ).",
+        "en": "「〜として」 = as ~.",
+        "zh-Hans": "「〜として」＝作为。",
+        "zh-Hant": "「〜として」＝作為。",
+        "ko": "~으로.",
+        "tl": "bilang.",
+        "ne": "रूपमा।",
+        "id": "sebagai.",
+        "pt": "como.",
+        "my": "အဖြစ်။",
+        "th": "เป็น"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=260.351,268.238",
+      "t": [
+        260.351,
+        268.238
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "日本にも、親を大切にする心を教える昔話があります。「スズメとキツツキ」です。",
+      "furigana": [
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "にも、",
+          "reading": ""
+        },
+        {
+          "surface": "親",
+          "reading": "おや"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "大切",
+          "reading": "たいせつ"
+        },
+        {
+          "surface": "にする",
+          "reading": ""
+        },
+        {
+          "surface": "心",
+          "reading": "こころ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "教",
+          "reading": "おし"
+        },
+        {
+          "surface": "える",
+          "reading": ""
+        },
+        {
+          "surface": "昔話",
+          "reading": "むかしばなし"
+        },
+        {
+          "surface": "があります。「スズメとキツツキ」です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Nihon ni mo, oya o taisetsu ni suru kokoro o oshieru mukashibanashi ga arimasu. “Suzume to Kitsutsuki” desu.",
+      "translations": {
+        "vi": "Nhật Bản cũng có truyện cổ dạy lòng hiếu thảo: \"Chim sẻ và chim gõ kiến\".",
+        "en": "Japan also has a folk tale that teaches caring for parents: \"The Sparrow and the Woodpecker.\"",
+        "zh-Hans": "日本也有教人孝敬父母的民间故事：《麻雀和啄木鸟》。",
+        "zh-Hant": "日本也有教人孝敬父母的民間故事：《麻雀和啄木鳥》。",
+        "ko": "일본에도 부모를 소중히 하는 마음을 가르치는 옛이야기가 있습니다. '참새와 딱따구리'입니다.",
+        "tl": "May kuwento rin sa Japan na nagtuturo ng paggalang sa magulang: \"Ang Maya at ang Karpintero.\"",
+        "ne": "जापानमा पनि आमाबुबाको माया सिकाउने लोककथा छ: \"भँगेरा र काठफोर\"।",
+        "id": "Jepang juga punya dongeng tentang berbakti: \"Burung Pipit dan Burung Pelatuk\".",
+        "pt": "O Japão também tem um conto que ensina a cuidar dos pais: \"O Pardal e o Pica-pau\".",
+        "my": "ဂျပန်မှာလည်း မိဘကို တန်ဖိုးထားဖို့ သင်တဲ့ ပုံပြင် ရှိတယ်။ \"စာကလေးနဲ့ သစ်တောက်ငှက်\" ပါ။",
+        "th": "ญี่ปุ่นก็มีนิทานสอนให้รักพ่อแม่ คือ \"นกกระจอกกับนกหัวขวาน\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜を教える」: dạy ~.",
+        "en": "「〜を教える」 = teach ~.",
+        "zh-Hans": "「教える」＝教。",
+        "zh-Hant": "「教える」＝教。",
+        "ko": "가르치다.",
+        "tl": "nagtuturo.",
+        "ne": "सिकाउने।",
+        "id": "mengajarkan.",
+        "pt": "ensinar.",
+        "my": "သင်။",
+        "th": "สอน"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=268.838,276.586",
+      "t": [
+        268.838,
+        276.586
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "昔、スズメとキツツキは、お母さんが重い病気だという知らせを受けました。",
+      "furigana": [
+        {
+          "surface": "昔",
+          "reading": "むかし"
+        },
+        {
+          "surface": "、スズメとキツツキは、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんが",
+          "reading": ""
+        },
+        {
+          "surface": "重",
+          "reading": "おも"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "病気",
+          "reading": "びょうき"
+        },
+        {
+          "surface": "だという",
+          "reading": ""
+        },
+        {
+          "surface": "知",
+          "reading": "し"
+        },
+        {
+          "surface": "らせを",
+          "reading": ""
+        },
+        {
+          "surface": "受",
+          "reading": "う"
+        },
+        {
+          "surface": "けました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mukashi, Suzume to Kitsutsuki wa, okaasan ga omoi byouki da to iu shirase o ukemashita.",
+      "translations": {
+        "vi": "Ngày xưa, chim sẻ và chim gõ kiến nhận được tin mẹ ốm nặng.",
+        "en": "Long ago, the sparrow and the woodpecker got word that their mother was gravely ill.",
+        "zh-Hans": "从前，麻雀和啄木鸟得知妈妈病重的消息。",
+        "zh-Hant": "從前，麻雀和啄木鳥得知媽媽病重的訊息。",
+        "ko": "옛날에 참새와 딱따구리는 어머니가 위독하다는 소식을 들었습니다.",
+        "tl": "Noon, nabalitaan ng maya at karpintero na malubha ang sakit ng kanilang ina.",
+        "ne": "पहिले भँगेरा र काठफोरले आमा गम्भीर बिरामी भएको खबर पाए।",
+        "id": "Dahulu, pipit dan pelatuk menerima kabar ibunya sakit parah.",
+        "pt": "Antigamente, o pardal e o pica-pau souberam que a mãe estava muito doente.",
+        "my": "ရှေးတုန်းက စာကလေးနဲ့ သစ်တောက်ငှက်ဟာ အမေ ပြင်းပြင်းထန်ထန် ဖျားနေတဲ့ သတင်း ရတယ်။",
+        "th": "กาลก่อน นกกระจอกกับนกหัวขวานได้ข่าวว่าแม่ป่วยหนัก"
+      },
+      "vocab": [
+        {
+          "word": "知らせ",
+          "reading": "しらせ",
+          "meanings": {
+            "vi": "tin tức, thông báo",
+            "en": "news, notice",
+            "zh-Hans": "消息，通知",
+            "zh-Hant": "訊息，通知",
+            "ko": "소식, 알림",
+            "tl": "balita, abiso",
+            "ne": "खबर, सूचना",
+            "id": "kabar, pemberitahuan",
+            "pt": "notícia, aviso",
+            "my": "သတင်း၊ အကြောင်းကြားချက်",
+            "th": "ข่าว, การแจ้ง"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜という知らせ」: tin rằng ~. 「重い病気」: bệnh nặng.",
+        "en": "「知らせ」 = news.",
+        "zh-Hans": "「知らせ」＝消息。",
+        "zh-Hant": "「知らせ」＝訊息。",
+        "ko": "소식.",
+        "tl": "balita.",
+        "ne": "खबर।",
+        "id": "kabar.",
+        "pt": "notícia.",
+        "my": "သတင်း။",
+        "th": "ข่าว"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=277.186,283.443",
+      "t": [
+        277.186,
+        283.443
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "スズメは、仕事の服のまま、すぐに飛んでいき、お母さんの最期に間に合いました。",
+      "furigana": [
+        {
+          "surface": "スズメは、",
+          "reading": ""
+        },
+        {
+          "surface": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "服",
+          "reading": "ふく"
+        },
+        {
+          "surface": "のまま、すぐに",
+          "reading": ""
+        },
+        {
+          "surface": "飛",
+          "reading": "と"
+        },
+        {
+          "surface": "んでいき、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんの",
+          "reading": ""
+        },
+        {
+          "surface": "最期",
+          "reading": "さいご"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "間",
+          "reading": "ま"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "合",
+          "reading": "あ"
+        },
+        {
+          "surface": "いました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suzume wa, shigoto no fuku no mama, sugu ni tondeiki, okaasan no saigo ni mania imashita.",
+      "translations": {
+        "vi": "Chim sẻ cứ mặc nguyên đồ làm việc, bay đi ngay, kịp gặp mẹ lần cuối.",
+        "en": "The sparrow flew off at once in its work clothes and made it in time for its mother's last moments.",
+        "zh-Hans": "麻雀穿着干活的衣服马上飞去，赶上了妈妈临终。",
+        "zh-Hant": "麻雀穿著幹活的衣服馬上飛去，趕上了媽媽臨終。",
+        "ko": "참새는 일하던 옷차림 그대로 곧장 날아가 어머니의 임종을 지켰습니다.",
+        "tl": "Lumipad agad ang maya kahit nakasuot pa ng damit-trabaho, at umabot sa huling sandali ng ina.",
+        "ne": "भँगेरा कामको लुगामै तुरुन्त उड्यो र आमाको अन्तिम घडीमा भेट्यो।",
+        "id": "Pipit langsung terbang dengan baju kerjanya dan sempat menemui ibunya di saat terakhir.",
+        "pt": "O pardal voou na hora, com roupa de trabalho, e chegou a tempo dos últimos momentos da mãe.",
+        "my": "စာကလေးက အလုပ်လုပ်တဲ့ အဝတ်နဲ့ပဲ ချက်ချင်း ပျံသွားပြီး အမေ့ နောက်ဆုံးအချိန်ကို မီလိုက်တယ်။",
+        "th": "นกกระจอกบินไปทันทีทั้งชุดทำงาน และทันพบแม่ในวาระสุดท้าย"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「間に合う」: kịp. 最期 = phút lâm chung.",
+        "en": "「間に合う」 = be in time.",
+        "zh-Hans": "「間に合う」＝赶上。",
+        "zh-Hant": "「間に合う」＝趕上。",
+        "ko": "늦지 않다.",
+        "tl": "umabot.",
+        "ne": "भेट्नु।",
+        "id": "sempat.",
+        "pt": "chegar a tempo.",
+        "my": "မီ။",
+        "th": "ทัน"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=284.043,290.476",
+      "t": [
+        284.043,
+        290.476
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "キツツキは、きれいにおけしょうをしてから出かけたので、間に合いませんでした。",
+      "furigana": [
+        {
+          "surface": "キツツキは、きれいにおけしょうをしてから",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "かけたので、",
+          "reading": ""
+        },
+        {
+          "surface": "間",
+          "reading": "ま"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "合",
+          "reading": "あ"
+        },
+        {
+          "surface": "いませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kitsutsuki wa, kirei ni oke shou o shite kara dekaketa node, mania imasendeshita.",
+      "translations": {
+        "vi": "Chim gõ kiến trang điểm thật đẹp rồi mới đi, nên không kịp.",
+        "en": "The woodpecker put on makeup carefully before leaving, so it was too late.",
+        "zh-Hans": "啄木鸟仔细化好妆才出发，结果没赶上。",
+        "zh-Hant": "啄木鳥仔細化好妝才出發，結果沒趕上。",
+        "ko": "딱따구리는 곱게 화장을 하고 나서 떠났기 때문에 늦고 말았습니다.",
+        "tl": "Nagpaganda muna ang karpintero bago umalis, kaya hindi umabot.",
+        "ne": "काठफोरले राम्ररी सिँगारपटार गरेर मात्र निस्कियो, त्यसैले भेट्न सकेन।",
+        "id": "Pelatuk berdandan dulu sebelum berangkat, jadi terlambat.",
+        "pt": "O pica-pau se maquiou todo antes de sair e não chegou a tempo.",
+        "my": "သစ်တောက်ငှက်က လှလှပပ မိတ်ကပ်လိမ်းပြီးမှ ထွက်လို့ မမီခဲ့ဘူး။",
+        "th": "นกหัวขวานแต่งหน้าสวยก่อนแล้วค่อยออกไป จึงไม่ทัน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜てから」: sau khi ~ mới. 「〜ので」: vì ~.",
+        "en": "「〜てから」 = after ~ing.",
+        "zh-Hans": "「〜てから」＝……之后。",
+        "zh-Hant": "「〜てから」＝……之後。",
+        "ko": "~하고 나서.",
+        "tl": "muna bago.",
+        "ne": "पछि।",
+        "id": "dulu.",
+        "pt": "antes de.",
+        "my": "ပြီးမှ။",
+        "th": "ก่อนแล้วค่อย"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=291.076,296.235",
+      "t": [
+        291.076,
+        296.235
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それで、スズメは、人間と同じお米を食べられるようになり、キツツキは、木をつついて虫をさがすようになったそうです。",
+      "furigana": [
+        {
+          "surface": "それで、スズメは、",
+          "reading": ""
+        },
+        {
+          "surface": "人間",
+          "reading": "にんげん"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "同",
+          "reading": "おな"
+        },
+        {
+          "surface": "じお",
+          "reading": ""
+        },
+        {
+          "surface": "米",
+          "reading": "こめ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "食",
+          "reading": "た"
+        },
+        {
+          "surface": "べられるようになり、キツツキは、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "をつついて",
+          "reading": ""
+        },
+        {
+          "surface": "虫",
+          "reading": "むし"
+        },
+        {
+          "surface": "をさがすようになったそうです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sorede, Suzume wa, ningen to onaji okome o taberareru you ni nari, Kitsutsuki wa, ki o tsutsuite mushi o sagasu you ni natta sou desu.",
+      "translations": {
+        "vi": "Vì thế, nghe nói chim sẻ được ăn gạo như con người, còn chim gõ kiến phải gõ thân cây tìm sâu.",
+        "en": "So, they say, the sparrow got to eat rice like humans, while the woodpecker must peck at trees for bugs.",
+        "zh-Hans": "据说因此麻雀能和人一样吃米，而啄木鸟只能啄树找虫子。",
+        "zh-Hant": "據說因此麻雀能和人一樣吃米，而啄木鳥只能啄樹找蟲子。",
+        "ko": "그래서 참새는 사람과 같은 쌀을 먹게 되었고, 딱따구리는 나무를 쪼아 벌레를 찾게 되었다고 합니다.",
+        "tl": "Kaya raw nakakakain ng bigas ang maya tulad ng tao, at ang karpintero ay tumutuka sa puno para sa insekto.",
+        "ne": "त्यसैले भँगेराले मान्छेजस्तै चामल खान पायो, काठफोरले रुख ठोकेर कीरा खोज्नुपर्‍यो रे।",
+        "id": "Karena itu, konon pipit bisa makan beras seperti manusia, dan pelatuk harus mematuk pohon mencari serangga.",
+        "pt": "Por isso, dizem, o pardal come arroz como os humanos, e o pica-pau bica árvores atrás de bichos.",
+        "my": "ဒါကြောင့် စာကလေးက လူလို ဆန် စားခွင့်ရပြီး သစ်တောက်ငှက်က သစ်ပင်ကို ထိုးပြီး ပိုးကောင် ရှာရတယ်တဲ့။",
+        "th": "ว่ากันว่านกกระจอกจึงได้กินข้าวเหมือนคน ส่วนนกหัวขวานต้องเจาะต้นไม้หาแมลง"
+      },
+      "vocab": [
+        {
+          "word": "人間",
+          "reading": "にんげん",
+          "meanings": {
+            "vi": "con người",
+            "en": "human being",
+            "zh-Hans": "人类",
+            "zh-Hant": "人類",
+            "ko": "인간",
+            "tl": "tao",
+            "ne": "मानिस",
+            "id": "manusia",
+            "pt": "ser humano",
+            "my": "လူသား",
+            "th": "มนุษย์"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ようになる」: trở nên ~. 「〜そうです」: nghe nói.",
+        "en": "「〜ようになる」 = come to ~.",
+        "zh-Hans": "「〜ようになる」＝变得……。",
+        "zh-Hant": "「〜ようになる」＝變得……。",
+        "ko": "~게 되다.",
+        "tl": "naging.",
+        "ne": "पायो।",
+        "id": "menjadi.",
+        "pt": "passar a.",
+        "my": "ဖြစ်လာ။",
+        "th": "ได้"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=296.835,306.178",
+      "t": [
+        296.835,
+        306.178
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "見た目や、まわりの目より、親のもとへかけつける心が大切だ、という話です。",
+      "furigana": [
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "た",
+          "reading": ""
+        },
+        {
+          "surface": "目",
+          "reading": "め"
+        },
+        {
+          "surface": "や、まわりの",
+          "reading": ""
+        },
+        {
+          "surface": "目",
+          "reading": "め"
+        },
+        {
+          "surface": "より、",
+          "reading": ""
+        },
+        {
+          "surface": "親",
+          "reading": "おや"
+        },
+        {
+          "surface": "のもとへかけつける",
+          "reading": ""
+        },
+        {
+          "surface": "心",
+          "reading": "こころ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "大切",
+          "reading": "たいせつ"
+        },
+        {
+          "surface": "だ、という",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mitame ya, mawari no me yori, oya no moto e kaketsukeru kokoro ga taisetsu da, to iu hanashi desu.",
+      "translations": {
+        "vi": "Câu chuyện dạy rằng tấm lòng vội về bên cha mẹ quan trọng hơn vẻ bề ngoài hay ánh mắt người đời.",
+        "en": "The lesson: the heart that rushes to one's parents matters more than looks or what others think.",
+        "zh-Hans": "故事告诉我们：比起外表和别人的眼光，赶到父母身边的心更重要。",
+        "zh-Hant": "故事告訴我們：比起外表和別人的眼光，趕到父母身邊的心更重要。",
+        "ko": "겉모습이나 남의 눈보다 부모 곁으로 달려가는 마음이 중요하다는 이야기입니다.",
+        "tl": "Mas mahalaga ang pusong nagmamadali sa magulang kaysa itsura o sasabihin ng iba.",
+        "ne": "बाहिरी रूप वा अरूको नजरभन्दा आमाबुबाकहाँ दौडेर जाने मन महत्त्वपूर्ण छ भन्ने कथा।",
+        "id": "Hati yang bergegas ke orang tua lebih penting daripada penampilan atau pandangan orang.",
+        "pt": "O coração que corre para os pais importa mais que a aparência ou a opinião dos outros.",
+        "my": "အပြင်ပန်း ဒါမှမဟုတ် တခြားလူတွေ အမြင်ထက် မိဘဆီ အပြေးသွားတဲ့ စိတ်က ပိုအရေးကြီးတယ် ဆိုတဲ့ ပုံပြင်ပါ။",
+        "th": "ใจที่รีบไปหาพ่อแม่สำคัญกว่ารูปลักษณ์หรือสายตาคนอื่น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「まわりの目」: ánh mắt người xung quanh. 「かけつける」: vội chạy đến.",
+        "en": "「かけつける」 = rush to.",
+        "zh-Hans": "「かけつける」＝赶到。",
+        "zh-Hant": "「かけつける」＝趕到。",
+        "ko": "달려가다.",
+        "tl": "magmadali.",
+        "ne": "दौडेर जानु।",
+        "id": "bergegas.",
+        "pt": "correr para.",
+        "my": "အပြေးသွား။",
+        "th": "รีบไป"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=306.778,313.917",
+      "t": [
+        306.778,
+        313.917
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "マリンも、もし、あの時、恥ずかしいと思わずに、お母さんをだきしめていたら、と思わずにはいられませんね。",
+      "furigana": [
+        {
+          "surface": "マリンも、もし、あの",
+          "reading": ""
+        },
+        {
+          "surface": "時",
+          "reading": "とき"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "恥",
+          "reading": "は"
+        },
+        {
+          "surface": "ずかしいと",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "わずに、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんをだきしめていたら、と",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "わずにはいられませんね。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Marin mo, moshi, ano toki, hazukashii to omowazu ni, okaasan o dakishimeteitara, to omowazu ni hairaremasen ne.",
+      "translations": {
+        "vi": "Giá như lúc đó Malin không thấy xấu hổ mà ôm lấy mẹ... ta không khỏi nghĩ vậy.",
+        "en": "If only Malin had hugged his mother then instead of feeling ashamed... we can't help thinking that.",
+        "zh-Hans": "要是那时马林不觉得丢脸，抱住妈妈就好了……让人不禁这样想。",
+        "zh-Hant": "要是那時馬林不覺得丟臉，抱住媽媽就好了……讓人不禁這樣想。",
+        "ko": "만약 그때 말린이 부끄러워하지 않고 어머니를 껴안았더라면… 하고 생각하지 않을 수 없네요.",
+        "tl": "Kung niyakap lang sana ni Malin ang ina noon sa halip na mahiya... hindi natin maiwasang isipin iyon.",
+        "ne": "त्यो बेला मालिनले लाज नमानी आमालाई अँगालो हालेको भए... यस्तो सोच्न मन लाग्छ।",
+        "id": "Andai saat itu Malin tidak malu dan memeluk ibunya... kita tak bisa tidak berpikir begitu.",
+        "pt": "Se ao menos Malin tivesse abraçado a mãe sem vergonha... não dá para não pensar nisso.",
+        "my": "အဲဒီတုန်းက မာလင်က မရှက်ဘဲ အမေ့ကို ဖက်ခဲ့ရင်... လို့ မတွေးဘဲ မနေနိုင်ဘူးနော်။",
+        "th": "ถ้าตอนนั้นมาลินไม่อาย แล้วกอดแม่ไว้... อดคิดแบบนี้ไม่ได้เลยนะ"
+      },
+      "vocab": [
+        {
+          "word": "思わず",
+          "reading": "おもわず",
+          "meanings": {
+            "vi": "bất giác",
+            "en": "without thinking, involuntarily",
+            "zh-Hans": "不由得",
+            "zh-Hant": "不由得",
+            "ko": "무심코",
+            "tl": "hindi sinasadya",
+            "ne": "अनायासै",
+            "id": "tanpa sadar",
+            "pt": "sem querer",
+            "my": "မရည်ရွယ်ဘဲ",
+            "th": "โดยไม่รู้ตัว"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ずにはいられない」: không thể không ~. 「もし〜ていたら」: giá như ~.",
+        "en": "「〜ずにはいられない」 = can't help ~ing.",
+        "zh-Hans": "「〜ずにはいられない」＝不禁……。",
+        "zh-Hant": "「〜ずにはいられない」＝不禁……。",
+        "ko": "~하지 않을 수 없다.",
+        "tl": "hindi maiwasan.",
+        "ne": "नसोची रहन नसक्नु।",
+        "id": "tak bisa tidak.",
+        "pt": "não dá para não.",
+        "my": "မ~ဘဲ မနေနိုင်။",
+        "th": "อดไม่ได้"
+      },
+      "audio": "/audio/furusato-id-malin-1/chapter.mp3#t=314.517,323.783",
+      "t": [
+        314.517,
+        323.783
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    }
+  ],
+  "audioTrack": {
+    "src": "/audio/furusato-id-malin-1/chapter.mp3",
+    "durationSec": 324.84
+  }
+}

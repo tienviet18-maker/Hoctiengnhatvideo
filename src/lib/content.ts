@@ -565,6 +565,54 @@ import story452 from "../../content/stories/the-old-photograph.json";
 import story453 from "../../content/stories/the-language-of-silence.json";
 import story454 from "../../content/stories/when-an-era-changes.json";
 import story455 from "../../content/stories/the-japanese-garden.json";
+import s_furusatoVnTamcam1 from "../../content/stories/furusato-vn-tamcam-1.json";
+import s_furusatoVnTamcam2 from "../../content/stories/furusato-vn-tamcam-2.json";
+import s_furusatoVnTamcam3 from "../../content/stories/furusato-vn-tamcam-3.json";
+import s_furusatoVnSodua1 from "../../content/stories/furusato-vn-sodua-1.json";
+import s_furusatoVnGiong1 from "../../content/stories/furusato-vn-giong-1.json";
+import s_furusatoVnSontinh1 from "../../content/stories/furusato-vn-sontinh-1.json";
+import s_osakaHataraku01 from "../../content/stories/osaka-hataraku-01.json";
+import s_osakaHataraku02 from "../../content/stories/osaka-hataraku-02.json";
+import s_osakaHataraku03 from "../../content/stories/osaka-hataraku-03.json";
+import s_osakaHataraku04 from "../../content/stories/osaka-hataraku-04.json";
+import s_osakaHataraku05 from "../../content/stories/osaka-hataraku-05.json";
+import s_furusatoVnCaytre1 from "../../content/stories/furusato-vn-caytre-1.json";
+import s_furusatoVnMaiantiem1 from "../../content/stories/furusato-vn-maiantiem-1.json";
+import s_furusatoVnThachsanh1 from "../../content/stories/furusato-vn-thachsanh-1.json";
+import s_furusatoVnThachsanh2 from "../../content/stories/furusato-vn-thachsanh-2.json";
+import s_furusatoVnThachsanh3 from "../../content/stories/furusato-vn-thachsanh-3.json";
+import s_furusatoVnKhe1 from "../../content/stories/furusato-vn-khe-1.json";
+import s_furusatoVnHoguom1 from "../../content/stories/furusato-vn-hoguom-1.json";
+import s_furusatoVnRongtien1 from "../../content/stories/furusato-vn-rongtien-1.json";
+import s_furusatoVnChudongtu1 from "../../content/stories/furusato-vn-chudongtu-1.json";
+import s_furusatoVnTuthuc1 from "../../content/stories/furusato-vn-tuthuc-1.json";
+import s_furusatoVnTraucau1 from "../../content/stories/furusato-vn-traucau-1.json";
+import s_furusatoKrHeungbu1 from "../../content/stories/furusato-kr-heungbu-1.json";
+import s_furusatoKrSimcheong1 from "../../content/stories/furusato-kr-simcheong-1.json";
+import s_furusatoKrOnui1 from "../../content/stories/furusato-kr-onui-1.json";
+import s_furusatoKrKongjwi1 from "../../content/stories/furusato-kr-kongjwi-1.json";
+import s_furusatoCnNiulang1 from "../../content/stories/furusato-cn-niulang-1.json";
+import s_furusatoCnBaishe1 from "../../content/stories/furusato-cn-baishe-1.json";
+import s_furusatoCnChange1 from "../../content/stories/furusato-cn-change-1.json";
+import s_furusatoCnSaiyuki1 from "../../content/stories/furusato-cn-saiyuki-1.json";
+import s_furusatoCnSaiyuki2 from "../../content/stories/furusato-cn-saiyuki-2.json";
+import s_furusatoCnSaiyuki3 from "../../content/stories/furusato-cn-saiyuki-3.json";
+import s_furusatoPhMalakas1 from "../../content/stories/furusato-ph-malakas-1.json";
+import s_furusatoPhPinya1 from "../../content/stories/furusato-ph-pinya-1.json";
+import s_furusatoPhPagong1 from "../../content/stories/furusato-ph-pagong-1.json";
+import s_furusatoPhJuan1 from "../../content/stories/furusato-ph-juan-1.json";
+import s_furusatoIdMalin1 from "../../content/stories/furusato-id-malin-1.json";
+import s_furusatoIdTimun1 from "../../content/stories/furusato-id-timun-1.json";
+import s_furusatoIdBawang1 from "../../content/stories/furusato-id-bawang-1.json";
+import s_furusatoIdSangkuriang1 from "../../content/stories/furusato-id-sangkuriang-1.json";
+import s_furusatoIdKancil1 from "../../content/stories/furusato-id-kancil-1.json";
+import s_furusatoThSangthong1 from "../../content/stories/furusato-th-sangthong-1.json";
+import s_furusatoThAphai1 from "../../content/stories/furusato-th-aphai-1.json";
+import s_furusatoNpManjushri1 from "../../content/stories/furusato-np-manjushri-1.json";
+import s_furusatoNpIndra1 from "../../content/stories/furusato-np-indra-1.json";
+import s_furusatoVnBanhchung1 from "../../content/stories/furusato-vn-banhchung-1.json";
+import s_furusatoVnTaoquan1 from "../../content/stories/furusato-vn-taoquan-1.json";
+import s_furusatoVnCuoi1 from "../../content/stories/furusato-vn-cuoi-1.json";
 
 // --- kệ A/E văn học (chuẩn v2): import ---
 import v2AkaiRousokuToNingyo from "../../content/stories/akai-rousoku-to-ningyo.json";
@@ -1157,6 +1205,54 @@ export const STORIES: StoryContent[] = [
   story453 as unknown as StoryContent,
   story454 as unknown as StoryContent,
   story455 as unknown as StoryContent,
+  s_furusatoVnTamcam1 as unknown as StoryContent,
+  s_furusatoVnTamcam2 as unknown as StoryContent,
+  s_furusatoVnTamcam3 as unknown as StoryContent,
+  s_furusatoVnSodua1 as unknown as StoryContent,
+  s_furusatoVnGiong1 as unknown as StoryContent,
+  s_furusatoVnSontinh1 as unknown as StoryContent,
+  s_osakaHataraku01 as unknown as StoryContent,
+  s_osakaHataraku02 as unknown as StoryContent,
+  s_osakaHataraku03 as unknown as StoryContent,
+  s_osakaHataraku04 as unknown as StoryContent,
+  s_osakaHataraku05 as unknown as StoryContent,
+  s_furusatoVnCaytre1 as unknown as StoryContent,
+  s_furusatoVnMaiantiem1 as unknown as StoryContent,
+  s_furusatoVnThachsanh1 as unknown as StoryContent,
+  s_furusatoVnThachsanh2 as unknown as StoryContent,
+  s_furusatoVnThachsanh3 as unknown as StoryContent,
+  s_furusatoVnKhe1 as unknown as StoryContent,
+  s_furusatoVnHoguom1 as unknown as StoryContent,
+  s_furusatoVnRongtien1 as unknown as StoryContent,
+  s_furusatoVnChudongtu1 as unknown as StoryContent,
+  s_furusatoVnTuthuc1 as unknown as StoryContent,
+  s_furusatoVnTraucau1 as unknown as StoryContent,
+  s_furusatoKrHeungbu1 as unknown as StoryContent,
+  s_furusatoKrSimcheong1 as unknown as StoryContent,
+  s_furusatoKrOnui1 as unknown as StoryContent,
+  s_furusatoKrKongjwi1 as unknown as StoryContent,
+  s_furusatoCnNiulang1 as unknown as StoryContent,
+  s_furusatoCnBaishe1 as unknown as StoryContent,
+  s_furusatoCnChange1 as unknown as StoryContent,
+  s_furusatoCnSaiyuki1 as unknown as StoryContent,
+  s_furusatoCnSaiyuki2 as unknown as StoryContent,
+  s_furusatoCnSaiyuki3 as unknown as StoryContent,
+  s_furusatoPhMalakas1 as unknown as StoryContent,
+  s_furusatoPhPinya1 as unknown as StoryContent,
+  s_furusatoPhPagong1 as unknown as StoryContent,
+  s_furusatoPhJuan1 as unknown as StoryContent,
+  s_furusatoIdMalin1 as unknown as StoryContent,
+  s_furusatoIdTimun1 as unknown as StoryContent,
+  s_furusatoIdBawang1 as unknown as StoryContent,
+  s_furusatoIdSangkuriang1 as unknown as StoryContent,
+  s_furusatoIdKancil1 as unknown as StoryContent,
+  s_furusatoThSangthong1 as unknown as StoryContent,
+  s_furusatoThAphai1 as unknown as StoryContent,
+  s_furusatoNpManjushri1 as unknown as StoryContent,
+  s_furusatoNpIndra1 as unknown as StoryContent,
+  s_furusatoVnBanhchung1 as unknown as StoryContent,
+  s_furusatoVnTaoquan1 as unknown as StoryContent,
+  s_furusatoVnCuoi1 as unknown as StoryContent,
   // --- kệ A/E văn học (chuẩn v2) ---
   v2AkaiRousokuToNingyo as unknown as StoryContent,
   v2HanshichiOfumi1 as unknown as StoryContent,

@@ -1,0 +1,158 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜しか〜ない",
+   "example": 32,
+   "meaning": {
+    "vi": "chỉ ~ (thôi)",
+    "en": "only ~ (with a negative verb)",
+    "zh-Hans": "只……",
+    "ko": "~밖에 ~않다",
+    "tl": "~ lamang",
+    "ne": "~ मात्र",
+    "id": "hanya ~",
+    "pt": "só ~, apenas ~",
+    "my": "~ ပဲ (အငြင်းနဲ့)",
+    "th": "~ เท่านั้น"
+   }
+  },
+  {
+   "pattern": "〜てはいけない",
+   "example": 33,
+   "meaning": {
+    "vi": "không được ~",
+    "en": "must not ~",
+    "zh-Hans": "不可以……",
+    "ko": "~하면 안 된다",
+    "tl": "hindi puwedeng ~",
+    "ne": "~ गर्नु हुँदैन",
+    "id": "tidak boleh ~",
+    "pt": "não pode ~",
+    "my": "~ မလုပ်ရ",
+    "th": "ห้าม ~"
+   }
+  },
+  {
+   "pattern": "〜てしまう",
+   "example": 37,
+   "meaning": {
+    "vi": "lỡ ~, ~ mất (tiếc nuối)",
+    "en": "end up ~ (with regret)",
+    "zh-Hans": "不小心……了",
+    "ko": "~해 버리다",
+    "tl": "nauwi sa ~",
+    "ne": "~ गरिहाल्नु",
+    "id": "terlanjur ~",
+    "pt": "acabar ~",
+    "my": "~ မိသွား",
+    "th": "~ ไปเสียแล้ว"
+   }
+  },
+  {
+   "pattern": "〜によって",
+   "example": 57,
+   "meaning": {
+    "vi": "tùy theo ~",
+    "en": "depending on ~",
+    "zh-Hans": "根据……，因……而不同",
+    "ko": "~에 따라",
+    "tl": "depende sa ~",
+    "ne": "~ अनुसार",
+    "id": "tergantung ~",
+    "pt": "conforme ~",
+    "my": "~ အလိုက်",
+    "th": "ขึ้นอยู่กับ ~"
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "ja": "トラのお母さんは、何で子どもを助けましたか。",
+   "choices": [
+    "ふしぎな木の葉っぱ",
+    "川のきれいな水",
+    "おもち",
+    "おの"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Bằng lá của cây thần.",
+    "en": "With leaves of the magic tree.",
+    "zh-Hans": "用神奇树的叶子。",
+    "ko": "신기한 나무의 잎.",
+    "tl": "Sa dahon ng mahiwagang puno.",
+    "ne": "जादुई रुखको पातले।",
+    "id": "Dengan daun pohon ajaib.",
+    "pt": "Com folhas da árvore mágica.",
+    "my": "ထူးဆန်းတဲ့ သစ်ပင်ရဲ့ အရွက်နဲ့။",
+    "th": "ด้วยใบของต้นไม้วิเศษ"
+   }
+  },
+  {
+   "ja": "この木に、してはいけないことは何ですか。",
+   "choices": [
+    "きたない水をかけること",
+    "葉っぱを取ること",
+    "にわに植えること",
+    "月を見ること"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Tưới nước bẩn.",
+    "en": "Pouring dirty water on it.",
+    "zh-Hans": "浇脏水。",
+    "ko": "더러운 물을 붓는 것.",
+    "tl": "Buhusan ng maruming tubig.",
+    "ne": "फोहोर पानी हाल्नु।",
+    "id": "Menyiram air kotor.",
+    "pt": "Jogar água suja.",
+    "my": "ရေညစ် လောင်းတာ။",
+    "th": "รดน้ำสกปรก"
+   }
+  },
+  {
+   "ja": "クオイは、どうやって月へ行きましたか。",
+   "choices": [
+    "木の根っこに、おのを引っかけて",
+    "トラに乗って",
+    "コイに乗って",
+    "ランプを持って"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Móc rìu vào rễ cây đang bay.",
+    "en": "By hooking his axe on the flying tree's roots.",
+    "zh-Hans": "用斧头钩住飞走的树根。",
+    "ko": "나무뿌리에 도끼를 걸어서.",
+    "tl": "Isinabit ang palakol sa ugat ng puno.",
+    "ne": "रुखको जरामा बञ्चरो अड्काएर।",
+    "id": "Mengaitkan kapak ke akar pohon.",
+    "pt": "Prendendo o machado nas raízes.",
+    "my": "သစ်ပင်အမြစ်ကို ပုဆိန်နဲ့ ချိတ်ပြီး။",
+    "th": "เอาขวานเกี่ยวรากต้นไม้"
+   }
+  },
+  {
+   "ja": "日本の人には、月の黒いところが何に見えますか。",
+   "choices": [
+    "おもちをつくウサギ",
+    "木の下の男の人",
+    "かぐや姫",
+    "竜"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Con thỏ giã bánh mochi.",
+    "en": "A rabbit pounding mochi.",
+    "zh-Hans": "捣年糕的兔子。",
+    "ko": "떡을 찧는 토끼.",
+    "tl": "Kunehong nagbabayo ng mochi.",
+    "ne": "मोचि कुट्ने खरायो।",
+    "id": "Kelinci menumbuk mochi.",
+    "pt": "Um coelho socando mochi.",
+    "my": "မိုချိထောင်းတဲ့ ယုန်။",
+    "th": "กระต่ายตำโมจิ"
+   }
+  }
+ ]
+}

@@ -7491,6 +7491,1537 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "sentenceCount": 8
  },
  {
+  "id": "furusato-vn-tamcam-1",
+  "titles": {
+   "vi": "Tấm Cám (1): Con cá bống",
+   "en": "Tam and Cam (1): The Little Goby Fish",
+   "zh-Hans": "阿碎与阿糠（一）：小鰕虎鱼",
+   "zh-Hant": "阿碎與阿糠（一）：小鰕虎魚",
+   "ko": "땀과 깜 (1): 작은 망둥어",
+   "tl": "Tam at Cam (1): Ang Maliit na Isdang Goby",
+   "ne": "ताम र काम (१): सानो गोबी माछा",
+   "id": "Tam dan Cam (1): Ikan Gobi Kecil",
+   "pt": "Tam e Cam (1): O peixinho gobião",
+   "my": "တမ်နှင့် ကမ် (၁) - ဂိုဘီငါးလေး",
+   "th": "ตั๊มกับก๊าม (1): ปลาบู่ตัวน้อย"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 62,
+  "cover": "/covers/furusato-vn-tamcam-1.webp",
+  "series": {
+   "id": "furusato-vn-tamcam",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-tamcam-1/chapter.mp3",
+   "durationSec": 403.032
+  }
+ },
+ {
+  "id": "furusato-vn-tamcam-2",
+  "titles": {
+   "vi": "Tấm Cám (2): Chiếc giày thêu",
+   "en": "Tam and Cam (2): The Embroidered Shoe",
+   "zh-Hans": "阿碎与阿糠（二）：绣花鞋",
+   "zh-Hant": "阿碎與阿糠（二）：繡花鞋",
+   "ko": "땀과 깜 (2): 수놓은 신발",
+   "tl": "Tam at Cam (2): Ang Burdadong Sapatos",
+   "ne": "ताम र काम (२): बुट्टा भरिएको जुत्ता",
+   "id": "Tam dan Cam (2): Sepatu Bersulam",
+   "pt": "Tam e Cam (2): O sapato bordado",
+   "my": "တမ်နှင့် ကမ် (၂) - ပန်းထိုးဖိနပ်",
+   "th": "ตั๊มกับก๊าม (2): รองเท้าปักลาย"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/furusato-vn-tamcam-2.webp",
+  "series": {
+   "id": "furusato-vn-tamcam",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-tamcam-2/chapter.mp3",
+   "durationSec": 345.6
+  }
+ },
+ {
+  "id": "furusato-vn-tamcam-3",
+  "titles": {
+   "vi": "Tấm Cám (3): Quả thị thơm",
+   "en": "Tam and Cam (3): The Fragrant Fruit",
+   "zh-Hans": "阿碎与阿糠（三）：香柿果",
+   "zh-Hant": "阿碎與阿糠（三）：香柿果",
+   "ko": "땀과 깜 (3): 향기로운 열매",
+   "tl": "Tam at Cam (3): Ang Mabangong Prutas",
+   "ne": "ताम र काम (३): सुगन्धित फल",
+   "id": "Tam dan Cam (3): Buah yang Harum",
+   "pt": "Tam e Cam (3): O fruto perfumado",
+   "my": "တမ်နှင့် ကမ် (၃) - မွှေးကြိုင်သော အသီး",
+   "th": "ตั๊มกับก๊าม (3): ผลไม้หอม"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 65,
+  "cover": "/covers/furusato-vn-tamcam-3.webp",
+  "series": {
+   "id": "furusato-vn-tamcam",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-tamcam-3/chapter.mp3",
+   "durationSec": 378.816
+  }
+ },
+ {
+  "id": "furusato-vn-sodua-1",
+  "titles": {
+   "vi": "Sọ Dừa",
+   "en": "Coconut Head (So Dua)",
+   "zh-Hans": "椰子壳少年",
+   "zh-Hant": "椰子殼少年",
+   "ko": "야자 머리 소년 (서즈어)",
+   "tl": "Ang Batang Bao (So Dua)",
+   "ne": "नरिवल-टाउके केटो (सो जुआ)",
+   "id": "Si Kepala Kelapa (So Dua)",
+   "pt": "O Menino Coco (So Dua)",
+   "my": "အုန်းခွံခေါင်း (ဆော့ဇူအာ)",
+   "th": "เด็กกะลามะพร้าว (โส่ซวา)"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 57,
+  "cover": "/covers/furusato-vn-sodua-1.webp",
+  "series": {
+   "id": "furusato-vn-sodua",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-sodua-1/chapter.mp3",
+   "durationSec": 307.848
+  }
+ },
+ {
+  "id": "furusato-vn-giong-1",
+  "titles": {
+   "vi": "Thánh Gióng",
+   "en": "Saint Giong",
+   "zh-Hans": "扶董天王（圣乔）",
+   "zh-Hant": "扶董天王（聖喬）",
+   "ko": "타인 종 (철마 탄 소년 장수)",
+   "tl": "Santo Giong",
+   "ne": "सन्त जोङ",
+   "id": "Santo Giong",
+   "pt": "São Giong",
+   "my": "သန့်ဇုံ",
+   "th": "ถั่นห์โส่ง"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 55,
+  "cover": "/covers/furusato-vn-giong-1.webp",
+  "series": {
+   "id": "furusato-vn-giong",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-giong-1/chapter.mp3",
+   "durationSec": 285.936
+  }
+ },
+ {
+  "id": "furusato-vn-sontinh-1",
+  "titles": {
+   "vi": "Sơn Tinh Thủy Tinh",
+   "en": "The Mountain God and the Water God",
+   "zh-Hans": "山精与水精",
+   "zh-Hant": "山精與水精",
+   "ko": "산신과 수신 (선띤 투이띤)",
+   "tl": "Ang Diyos ng Bundok at ang Diyos ng Tubig",
+   "ne": "पहाडका देवता र पानीका देवता",
+   "id": "Dewa Gunung dan Dewa Air",
+   "pt": "O deus da montanha e o deus das águas",
+   "my": "တောင်နတ်နှင့် ရေနတ်",
+   "th": "เทพแห่งขุนเขากับเทพแห่งสายน้ำ"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 51,
+  "cover": "/covers/furusato-vn-sontinh-1.webp",
+  "series": {
+   "id": "furusato-vn-sontinh",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-sontinh-1/chapter.mp3",
+   "durationSec": 286.32
+  }
+ },
+ {
+  "id": "osaka-hataraku-01",
+  "titles": {
+   "vi": "Làm việc ở Osaka (1): Chào mừng đến Osaka",
+   "en": "Working in Osaka (1): Welcome to Osaka",
+   "zh-Hans": "在大阪工作（一）：欢迎来到大阪",
+   "zh-Hant": "在大阪工作（一）：歡迎來到大阪",
+   "ko": "오사카에서 일하다 (1): 어서 와, 오사카",
+   "tl": "Nagtatrabaho sa Osaka (1): Maligayang pagdating sa Osaka",
+   "ne": "ओसाकामा काम (१): ओसाकामा स्वागत छ",
+   "id": "Bekerja di Osaka (1): Selamat datang di Osaka",
+   "pt": "Trabalhando em Osaka (1): Bem-vindo a Osaka",
+   "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၁) - အိုဆာကာက ကြိုဆိုပါတယ်",
+   "th": "ทำงานที่โอซาก้า (1): ยินดีต้อนรับสู่โอซาก้า"
+  },
+  "level": "N3",
+  "topic": "life-in-japan",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 60,
+  "cover": "/covers/osaka-hataraku-01.webp",
+  "series": {
+   "id": "osaka-hataraku",
+   "index": 1
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/osaka-hataraku-01/chapter.mp3",
+   "durationSec": 338.376
+  }
+ },
+ {
+  "id": "osaka-hataraku-02",
+  "titles": {
+   "vi": "Làm việc ở Osaka (2): Ngày đầu đi làm",
+   "en": "Working in Osaka (2): First Day at Work",
+   "zh-Hans": "在大阪工作（二）：第一天上班",
+   "zh-Hant": "在大阪工作（二）：第一天上班",
+   "ko": "오사카에서 일하다 (2): 첫 출근",
+   "tl": "Nagtatrabaho sa Osaka (2): Unang Araw sa Trabaho",
+   "ne": "ओसाकामा काम (२): कामको पहिलो दिन",
+   "id": "Bekerja di Osaka (2): Hari Pertama Kerja",
+   "pt": "Trabalhando em Osaka (2): Primeiro dia de trabalho",
+   "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၂) - ပထမဆုံး အလုပ်ဆင်းရက်",
+   "th": "ทำงานที่โอซาก้า (2): วันแรกของการทำงาน"
+  },
+  "level": "N3",
+  "topic": "life-in-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/osaka-hataraku-02.webp",
+  "series": {
+   "id": "osaka-hataraku",
+   "index": 2
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/osaka-hataraku-02/chapter.mp3",
+   "durationSec": 311.544
+  }
+ },
+ {
+  "id": "osaka-hataraku-03",
+  "titles": {
+   "vi": "Làm việc ở Osaka (3): Người tiền nhiệm biến mất",
+   "en": "Working in Osaka (3): The Vanished Senior",
+   "zh-Hans": "在大阪工作（三）：消失的前辈",
+   "zh-Hant": "在大阪工作（三）：消失的前輩",
+   "ko": "오사카에서 일하다 (3): 사라진 선배",
+   "tl": "Nagtatrabaho sa Osaka (3): Ang Naglahong Senior",
+   "ne": "ओसाकामा काम (३): हराएका सिनियर",
+   "id": "Bekerja di Osaka (3): Senior yang Menghilang",
+   "pt": "Trabalhando em Osaka (3): O veterano desaparecido",
+   "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၃) - ပျောက်သွားတဲ့ အစ်ကိုကြီး",
+   "th": "ทำงานที่โอซาก้า (3): รุ่นพี่ที่หายตัวไป"
+  },
+  "level": "N3",
+  "topic": "life-in-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 57,
+  "cover": "/covers/osaka-hataraku-03.webp",
+  "series": {
+   "id": "osaka-hataraku",
+   "index": 3
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/osaka-hataraku-03/chapter.mp3",
+   "durationSec": 319.2
+  }
+ },
+ {
+  "id": "osaka-hataraku-04",
+  "titles": {
+   "vi": "Làm việc ở Osaka (4): Vụ túi rác",
+   "en": "Working in Osaka (4): The Garbage Day Incident",
+   "zh-Hans": "在大阪工作（四）：垃圾日事件",
+   "zh-Hant": "在大阪工作（四）：垃圾日事件",
+   "ko": "오사카에서 일하다 (4): 쓰레기 날의 사건",
+   "tl": "Nagtatrabaho sa Osaka (4): Ang Insidente sa Araw ng Basura",
+   "ne": "ओसाकामा काम (४): फोहोर दिनको घटना",
+   "id": "Bekerja di Osaka (4): Insiden Hari Sampah",
+   "pt": "Trabalhando em Osaka (4): O incidente do dia do lixo",
+   "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၄) - အမှိုက်နေ့ ဖြစ်ရပ်",
+   "th": "ทำงานที่โอซาก้า (4): เหตุการณ์วันทิ้งขยะ"
+  },
+  "level": "N3",
+  "topic": "life-in-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/osaka-hataraku-04.webp",
+  "series": {
+   "id": "osaka-hataraku",
+   "index": 4
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/osaka-hataraku-04/chapter.mp3",
+   "durationSec": 337.704
+  }
+ },
+ {
+  "id": "osaka-hataraku-05",
+  "titles": {
+   "vi": "Làm việc ở Osaka (5): Xưởng lúc nửa đêm",
+   "en": "Working in Osaka (5): The Factory at Night",
+   "zh-Hans": "在大阪工作（五）：夜晚的工厂",
+   "zh-Hant": "在大阪工作（五）：夜晚的工廠",
+   "ko": "오사카에서 일하다 (5): 밤의 공장",
+   "tl": "Nagtatrabaho sa Osaka (5): Ang Pabrika sa Gabi",
+   "ne": "ओसाकामा काम (५): रातको कारखाना",
+   "id": "Bekerja di Osaka (5): Pabrik di Malam Hari",
+   "pt": "Trabalhando em Osaka (5): A fábrica à noite",
+   "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၅) - ညဘက် စက်ရုံ",
+   "th": "ทำงานที่โอซาก้า (5): โรงงานยามค่ำคืน"
+  },
+  "level": "N3",
+  "topic": "life-in-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 57,
+  "cover": "/covers/osaka-hataraku-05.webp",
+  "series": {
+   "id": "osaka-hataraku",
+   "index": 5
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/osaka-hataraku-05/chapter.mp3",
+   "durationSec": 324.744
+  }
+ },
+ {
+  "id": "furusato-vn-caytre-1",
+  "titles": {
+   "vi": "Cây tre trăm đốt",
+   "en": "The Hundred-Knot Bamboo",
+   "zh-Hans": "百节竹",
+   "zh-Hant": "百節竹",
+   "ko": "백 마디 대나무",
+   "tl": "Ang Kawayang May Sandaang Buko",
+   "ne": "सय आँख्ला भएको बाँस",
+   "id": "Bambu Seratus Ruas",
+   "pt": "O bambu de cem nós",
+   "my": "အဆစ်တစ်ရာ ဝါးပင်",
+   "th": "ไผ่ร้อยปล้อง"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 63,
+  "cover": "/covers/furusato-vn-caytre-1.webp",
+  "series": {
+   "id": "furusato-vn-caytre",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-caytre-1/chapter.mp3",
+   "durationSec": 301.608
+  }
+ },
+ {
+  "id": "furusato-vn-maiantiem-1",
+  "titles": {
+   "vi": "Mai An Tiêm và quả dưa hấu",
+   "en": "Mai An Tiem and the Watermelon",
+   "zh-Hans": "梅安暹与西瓜",
+   "zh-Hant": "梅安暹與西瓜",
+   "ko": "마이 안 티엠과 수박",
+   "tl": "Si Mai An Tiem at ang Pakwan",
+   "ne": "माई आन तिएम र खरबुजा",
+   "id": "Mai An Tiem dan Semangka",
+   "pt": "Mai An Tiem e a melancia",
+   "my": "မိုင်အန်တီယမ်နဲ့ ဖရဲသီး",
+   "th": "ไม อาน เตียม กับแตงโม"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 59,
+  "cover": "/covers/furusato-vn-maiantiem-1.webp",
+  "series": {
+   "id": "furusato-vn-maiantiem",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-maiantiem-1/chapter.mp3",
+   "durationSec": 319.8
+  }
+ },
+ {
+  "id": "furusato-vn-thachsanh-1",
+  "titles": {
+   "vi": "Thạch Sanh (1): Chằn tinh trong miếu",
+   "en": "Thach Sanh (1): The Serpent in the Temple",
+   "zh-Hans": "石生（一）：古庙里的蛇妖",
+   "zh-Hant": "石生（一）：古廟裡的蛇妖",
+   "ko": "탁 사인 (1): 사당의 뱀 요괴",
+   "tl": "Thach Sanh (1): Ang Ahas sa Templo",
+   "ne": "थाक साइन (१): मन्दिरको सर्प राक्षस",
+   "id": "Thach Sanh (1): Siluman Ular di Kuil",
+   "pt": "Thach Sanh (1): A serpente do templo",
+   "my": "ထက်ဆိုင်း (၁) - ဘုရားကျောင်းက မြွေဘီလူး",
+   "th": "ทาจ ซาน (1): ปีศาจงูในศาลเจ้า"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/furusato-vn-thachsanh-1.webp",
+  "series": {
+   "id": "furusato-vn-thachsanh",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-thachsanh-1/chapter.mp3",
+   "durationSec": 343.776
+  }
+ },
+ {
+  "id": "furusato-vn-thachsanh-2",
+  "titles": {
+   "vi": "Thạch Sanh (2): Đại bàng và cây đàn thần",
+   "en": "Thach Sanh (2): The Eagle and the Magic Lute",
+   "zh-Hans": "石生（二）：巨鹰与神琴",
+   "zh-Hant": "石生（二）：巨鷹與神琴",
+   "ko": "탁 사인 (2): 큰 독수리와 신비한 거문고",
+   "tl": "Thach Sanh (2): Ang Agila at ang Mahiwagang Alpa",
+   "ne": "थाक साइन (२): चील र जादुई बाजा",
+   "id": "Thach Sanh (2): Elang dan Kecapi Ajaib",
+   "pt": "Thach Sanh (2): A águia e o alaúde mágico",
+   "my": "ထက်ဆိုင်း (၂) - လင်းယုန်နဲ့ စောင်းနတ်",
+   "th": "ทาจ ซาน (2): นกอินทรีกับพิณวิเศษ"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/furusato-vn-thachsanh-2.webp",
+  "series": {
+   "id": "furusato-vn-thachsanh",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-thachsanh-2/chapter.mp3",
+   "durationSec": 350.4
+  }
+ },
+ {
+  "id": "furusato-vn-thachsanh-3",
+  "titles": {
+   "vi": "Thạch Sanh (3): Tiếng đàn và niêu cơm thần",
+   "en": "Thach Sanh (3): The Lute's Song and the Magic Rice Pot",
+   "zh-Hans": "石生（三）：琴声与神奇饭锅",
+   "zh-Hant": "石生（三）：琴聲與神奇飯鍋",
+   "ko": "탁 사인 (3): 거문고 소리와 신비한 밥솥",
+   "tl": "Thach Sanh (3): Ang Awit ng Alpa at ang Mahiwagang Kaldero",
+   "ne": "थाक साइन (३): बाजाको धुन र जादुई भाँडो",
+   "id": "Thach Sanh (3): Lagu Kecapi dan Periuk Nasi Ajaib",
+   "pt": "Thach Sanh (3): O canto do alaúde e a panela mágica",
+   "my": "ထက်ဆိုင်း (၃) - စောင်းသံနဲ့ ထမင်းအိုးနတ်",
+   "th": "ทาจ ซาน (3): เสียงพิณกับหม้อข้าววิเศษ"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 56,
+  "cover": "/covers/furusato-vn-thachsanh-3.webp",
+  "series": {
+   "id": "furusato-vn-thachsanh",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-thachsanh-3/chapter.mp3",
+   "durationSec": 333.936
+  }
+ },
+ {
+  "id": "furusato-vn-khe-1",
+  "titles": {
+   "vi": "Ăn khế trả vàng",
+   "en": "Eat a Star Fruit, Pay in Gold",
+   "zh-Hans": "吃杨桃还金子",
+   "zh-Hant": "吃楊桃還金子",
+   "ko": "스타프루트를 먹고 금으로 갚다",
+   "tl": "Kumain ng Balimbing, Magbayad ng Ginto",
+   "ne": "कमरख खाएर सुन तिर्ने चरा",
+   "id": "Makan Belimbing, Bayar dengan Emas",
+   "pt": "Comer carambola, pagar em ouro",
+   "my": "စောင်းလျားသီး စားပြီး ရွှေနဲ့ ဆပ်",
+   "th": "กินมะเฟือง ตอบแทนด้วยทอง"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 56,
+  "cover": "/covers/furusato-vn-khe-1.webp",
+  "series": {
+   "id": "furusato-vn-khe",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-khe-1/chapter.mp3",
+   "durationSec": 326.904
+  }
+ },
+ {
+  "id": "furusato-vn-hoguom-1",
+  "titles": {
+   "vi": "Sự tích Hồ Gươm",
+   "en": "The Legend of the Lake of the Returned Sword",
+   "zh-Hans": "还剑湖的传说",
+   "zh-Hant": "還劍湖的傳說",
+   "ko": "환검호 전설",
+   "tl": "Ang Alamat ng Lawa ng Ibinalik na Espada",
+   "ne": "फर्काइएको तरवारको तालको कथा",
+   "id": "Legenda Danau Pedang yang Dikembalikan",
+   "pt": "A lenda do Lago da Espada Devolvida",
+   "my": "ဓားပြန်အပ်ကန် ဒဏ္ဍာရီ",
+   "th": "ตำนานทะเลสาบคืนดาบ"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 55,
+  "cover": "/covers/furusato-vn-hoguom-1.webp",
+  "series": {
+   "id": "furusato-vn-hoguom",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-hoguom-1/chapter.mp3",
+   "durationSec": 351.792
+  }
+ },
+ {
+  "id": "furusato-vn-rongtien-1",
+  "titles": {
+   "vi": "Con Rồng cháu Tiên",
+   "en": "Children of the Dragon, Grandchildren of the Fairy",
+   "zh-Hans": "龙子仙孙",
+   "zh-Hant": "龍子仙孫",
+   "ko": "용의 자손, 선녀의 후손",
+   "tl": "Mga Anak ng Dragon, Apo ng Diwata",
+   "ne": "ड्रागनका सन्तान, परीका नाति",
+   "id": "Anak Naga, Cucu Peri",
+   "pt": "Filhos do Dragão, Netos da Fada",
+   "my": "နဂါးသားနှင့် နတ်သမီးမြေး",
+   "th": "ลูกมังกร หลานนางฟ้า"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 56,
+  "cover": "/covers/furusato-vn-rongtien-1.webp",
+  "series": {
+   "id": "furusato-vn-rongtien",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-rongtien-1/chapter.mp3",
+   "durationSec": 350.136
+  }
+ },
+ {
+  "id": "furusato-vn-chudongtu-1",
+  "titles": {
+   "vi": "Chử Đồng Tử và Tiên Dung",
+   "en": "Chử Đồng Tử and Princess Tiên Dung",
+   "zh-Hans": "褚童子与仙容公主",
+   "zh-Hant": "褚童子與仙容公主",
+   "ko": "쯔동뜨와 띠엔중 공주",
+   "tl": "Si Chử Đồng Tử at si Prinsesa Tiên Dung",
+   "ne": "चु दोङ तु र राजकुमारी तिएन जुङ",
+   "id": "Chử Đồng Tử dan Putri Tiên Dung",
+   "pt": "Chử Đồng Tử e a princesa Tiên Dung",
+   "my": "ချူးဒုံတူနှင့် တီယန်ဇုံမင်းသမီး",
+   "th": "จื่อ ด่ง ตื่อ กับเจ้าหญิงเตียน ซุง"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/furusato-vn-chudongtu-1.webp",
+  "series": {
+   "id": "furusato-vn-chudongtu",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-chudongtu-1/chapter.mp3",
+   "durationSec": 379.824
+  }
+ },
+ {
+  "id": "furusato-vn-tuthuc-1",
+  "titles": {
+   "vi": "Từ Thức gặp tiên",
+   "en": "Từ Thức and the Fairy Realm",
+   "zh-Hans": "徐式遇仙",
+   "zh-Hant": "徐式遇仙",
+   "ko": "뜨특, 선녀를 만나다",
+   "tl": "Si Từ Thức at ang Kaharian ng mga Diwata",
+   "ne": "तु थुक र परीलोक",
+   "id": "Từ Thức Bertemu Peri",
+   "pt": "Từ Thức e o reino das fadas",
+   "my": "တူထုတ် နတ်ပြည်ရောက်",
+   "th": "ตื่อ ถึก พบนางฟ้า"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 56,
+  "cover": "/covers/furusato-vn-tuthuc-1.webp",
+  "series": {
+   "id": "furusato-vn-tuthuc",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-tuthuc-1/chapter.mp3",
+   "durationSec": 334.176
+  }
+ },
+ {
+  "id": "furusato-vn-traucau-1",
+  "titles": {
+   "vi": "Sự tích trầu cau",
+   "en": "The Legend of Betel and Areca",
+   "zh-Hans": "槟榔与蒌叶的传说",
+   "zh-Hant": "檳榔與蔞葉的傳說",
+   "ko": "빈랑과 구장 잎의 전설",
+   "tl": "Ang Alamat ng Hitso at Bunga",
+   "ne": "सुपारी र पानको कथा",
+   "id": "Legenda Sirih dan Pinang",
+   "pt": "A lenda do bétel e da areca",
+   "my": "ကွမ်းနဲ့ ကွမ်းသီး ဒဏ္ဍာရီ",
+   "th": "ตำนานหมากพลู"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 56,
+  "cover": "/covers/furusato-vn-traucau-1.webp",
+  "series": {
+   "id": "furusato-vn-traucau",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-traucau-1/chapter.mp3",
+   "durationSec": 351.552
+  }
+ },
+ {
+  "id": "furusato-kr-heungbu-1",
+  "titles": {
+   "vi": "Heungbu và Nolbu",
+   "en": "Heungbu and Nolbu",
+   "zh-Hans": "兴夫与孬夫",
+   "zh-Hant": "興夫與孬夫",
+   "ko": "흥부와 놀부",
+   "tl": "Si Heungbu at si Nolbu",
+   "ne": "हुङबु र नोल्बु",
+   "id": "Heungbu dan Nolbu",
+   "pt": "Heungbu e Nolbu",
+   "my": "ဟန်ဘူးနဲ့ နော်ဘူး",
+   "th": "ฮึงบูกับนลบู"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 54,
+  "cover": "/covers/furusato-kr-heungbu-1.webp",
+  "series": {
+   "id": "furusato-kr-heungbu",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "KR",
+  "audioTrack": {
+   "src": "/audio/furusato-kr-heungbu-1/chapter.mp3",
+   "durationSec": 351.504
+  }
+ },
+ {
+  "id": "furusato-kr-simcheong-1",
+  "titles": {
+   "vi": "Truyện Shim Cheong",
+   "en": "The Tale of Shim Cheong",
+   "zh-Hans": "沈清传",
+   "zh-Hant": "沈清傳",
+   "ko": "심청전",
+   "tl": "Ang Kuwento ni Shim Cheong",
+   "ne": "सिम छोङको कथा",
+   "id": "Kisah Shim Cheong",
+   "pt": "A história de Shim Cheong",
+   "my": "ရှင်ချောင်း ပုံပြင်",
+   "th": "เรื่องของชิมชอง"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 55,
+  "cover": "/covers/furusato-kr-simcheong-1.webp",
+  "series": {
+   "id": "furusato-kr-simcheong",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "KR",
+  "audioTrack": {
+   "src": "/audio/furusato-kr-simcheong-1/chapter.mp3",
+   "durationSec": 374.16
+  }
+ },
+ {
+  "id": "furusato-kr-onui-1",
+  "titles": {
+   "vi": "Hai anh em hóa thành Mặt Trời và Mặt Trăng",
+   "en": "The Siblings Who Became the Sun and Moon",
+   "zh-Hans": "变成太阳和月亮的兄妹",
+   "zh-Hant": "變成太陽和月亮的兄妹",
+   "ko": "해와 달이 된 오누이",
+   "tl": "Ang Magkapatid na Naging Araw at Buwan",
+   "ne": "सूर्य र चन्द्रमा बनेका दाजुबहिनी",
+   "id": "Kakak Beradik yang Menjadi Matahari dan Bulan",
+   "pt": "Os irmãos que viraram o Sol e a Lua",
+   "my": "နေနဲ့ လ ဖြစ်လာတဲ့ မောင်နှမ",
+   "th": "สองพี่น้องผู้กลายเป็นดวงอาทิตย์และดวงจันทร์"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/furusato-kr-onui-1.webp",
+  "series": {
+   "id": "furusato-kr-onui",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "KR",
+  "audioTrack": {
+   "src": "/audio/furusato-kr-onui-1/chapter.mp3",
+   "durationSec": 369.528
+  }
+ },
+ {
+  "id": "furusato-kr-kongjwi-1",
+  "titles": {
+   "vi": "Kongjwi và Patjwi",
+   "en": "Kongjwi and Patjwi",
+   "zh-Hans": "大豆姑娘和红豆姑娘",
+   "zh-Hant": "大豆姑娘和紅豆姑娘",
+   "ko": "콩쥐팥쥐",
+   "tl": "Si Kongjwi at si Patjwi",
+   "ne": "कोङ्ज्वी र पाट्ज्वी",
+   "id": "Kongjwi dan Patjwi",
+   "pt": "Kongjwi e Patjwi",
+   "my": "ကုန်ဂျွီနဲ့ ပတ်ဂျွီ",
+   "th": "คงจวีกับพัตจวี"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/furusato-kr-kongjwi-1.webp",
+  "series": {
+   "id": "furusato-kr-kongjwi",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "KR",
+  "audioTrack": {
+   "src": "/audio/furusato-kr-kongjwi-1/chapter.mp3",
+   "durationSec": 327.792
+  }
+ },
+ {
+  "id": "furusato-cn-niulang-1",
+  "titles": {
+   "vi": "Ngưu Lang Chức Nữ",
+   "en": "The Cowherd and the Weaver Girl",
+   "zh-Hans": "牛郎织女",
+   "zh-Hant": "牛郎織女",
+   "ko": "견우와 직녀",
+   "tl": "Ang Pastol at ang Manghahabi",
+   "ne": "गोठालो र जुलाहिनी",
+   "id": "Si Gembala dan Gadis Penenun",
+   "pt": "O vaqueiro e a tecelã",
+   "my": "နွားကျောင်းသားနဲ့ ယက်ကန်းသူ",
+   "th": "หนุ่มเลี้ยงวัวกับสาวทอผ้า"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 49,
+  "cover": "/covers/furusato-cn-niulang-1.webp",
+  "series": {
+   "id": "furusato-cn-niulang",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "CN",
+  "audioTrack": {
+   "src": "/audio/furusato-cn-niulang-1/chapter.mp3",
+   "durationSec": 345.456
+  }
+ },
+ {
+  "id": "furusato-cn-baishe-1",
+  "titles": {
+   "vi": "Bạch Xà truyện",
+   "en": "The Legend of the White Snake",
+   "zh-Hans": "白蛇传",
+   "zh-Hant": "白蛇傳",
+   "ko": "백사전",
+   "tl": "Ang Alamat ng Puting Ahas",
+   "ne": "सेतो सर्पको कथा",
+   "id": "Legenda Ular Putih",
+   "pt": "A lenda da Serpente Branca",
+   "my": "မြွေဖြူ ဒဏ္ဍာရီ",
+   "th": "ตำนานนางพญางูขาว"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/furusato-cn-baishe-1.webp",
+  "series": {
+   "id": "furusato-cn-baishe",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "CN",
+  "audioTrack": {
+   "src": "/audio/furusato-cn-baishe-1/chapter.mp3",
+   "durationSec": 349.104
+  }
+ },
+ {
+  "id": "furusato-cn-change-1",
+  "titles": {
+   "vi": "Hằng Nga bay lên cung trăng",
+   "en": "Chang'e Flies to the Moon",
+   "zh-Hans": "嫦娥奔月",
+   "zh-Hant": "嫦娥奔月",
+   "ko": "항아분월",
+   "tl": "Si Chang'e at ang Buwan",
+   "ne": "चाङ्ए चन्द्रमामा",
+   "id": "Chang'e Terbang ke Bulan",
+   "pt": "Chang'e voa para a Lua",
+   "my": "ချန်အာ လကို ပျံတက်ခြင်း",
+   "th": "ฉางเอ๋อเหาะขึ้นดวงจันทร์"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 44,
+  "cover": "/covers/furusato-cn-change-1.webp",
+  "series": {
+   "id": "furusato-cn-change",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "CN",
+  "audioTrack": {
+   "src": "/audio/furusato-cn-change-1/chapter.mp3",
+   "durationSec": 301.488
+  }
+ },
+ {
+  "id": "furusato-cn-saiyuki-1",
+  "titles": {
+   "vi": "Tây Du Ký (1): Con khỉ sinh ra từ đá",
+   "en": "Journey to the West (1): The Monkey Born from Stone",
+   "zh-Hans": "西游记（一）：石猴出世",
+   "zh-Hant": "西遊記（一）：石猴出世",
+   "ko": "서유기 (1): 돌에서 태어난 원숭이",
+   "tl": "Paglalakbay sa Kanluran (1): Ang Unggoy na Isinilang sa Bato",
+   "ne": "पश्चिमको यात्रा (१): ढुङ्गाबाट जन्मेको बाँदर",
+   "id": "Perjalanan ke Barat (1): Kera yang Lahir dari Batu",
+   "pt": "Jornada ao Oeste (1): O macaco nascido da pedra",
+   "my": "အနောက်ခရီး (၁): ကျောက်ကနေ မွေးလာတဲ့ မျောက်",
+   "th": "ไซอิ๋ว (1): ลิงที่เกิดจากหิน"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/furusato-cn-saiyuki-1.webp",
+  "series": {
+   "id": "furusato-cn-saiyuki",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "CN",
+  "audioTrack": {
+   "src": "/audio/furusato-cn-saiyuki-1/chapter.mp3",
+   "durationSec": 310.512
+  }
+ },
+ {
+  "id": "furusato-cn-saiyuki-2",
+  "titles": {
+   "vi": "Tây Du Ký (2): Đường Tăng và các đồ đệ",
+   "en": "Journey to the West (2): The Monk and His Companions",
+   "zh-Hans": "西游记（二）：唐僧收徒",
+   "zh-Hant": "西遊記（二）：唐僧收徒",
+   "ko": "서유기 (2): 삼장법사와 제자들",
+   "tl": "Paglalakbay sa Kanluran (2): Ang Monghe at ang mga Kasama",
+   "ne": "पश्चिमको यात्रा (२): भिक्षु र साथीहरू",
+   "id": "Perjalanan ke Barat (2): Sang Biksu dan Murid-muridnya",
+   "pt": "Jornada ao Oeste (2): O monge e seus companheiros",
+   "my": "အနောက်ခရီး (၂): ဘုန်းကြီးနဲ့ အဖော်များ",
+   "th": "ไซอิ๋ว (2): พระถังกับลูกศิษย์"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 46,
+  "cover": "/covers/furusato-cn-saiyuki-2.webp",
+  "series": {
+   "id": "furusato-cn-saiyuki",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "CN",
+  "audioTrack": {
+   "src": "/audio/furusato-cn-saiyuki-2/chapter.mp3",
+   "durationSec": 302.832
+  }
+ },
+ {
+  "id": "furusato-cn-saiyuki-3",
+  "titles": {
+   "vi": "Tây Du Ký (3): Hỏa Diệm Sơn và quạt Ba Tiêu",
+   "en": "Journey to the West (3): The Flaming Mountain and the Banana-Leaf Fan",
+   "zh-Hans": "西游记（三）：火焰山与芭蕉扇",
+   "zh-Hant": "西遊記（三）：火焰山與芭蕉扇",
+   "ko": "서유기 (3): 화염산과 파초선",
+   "tl": "Paglalakbay sa Kanluran (3): Ang Nagliliyab na Bundok at ang Pamaypay",
+   "ne": "पश्चिमको यात्रा (३): जल्ने पहाड र केरापाते पङ्खा",
+   "id": "Perjalanan ke Barat (3): Gunung Api dan Kipas Daun Pisang",
+   "pt": "Jornada ao Oeste (3): A Montanha Flamejante e o Leque de Bananeira",
+   "my": "အနောက်ခရီး (၃): မီးတောင်နဲ့ ငှက်ပျောရွက် ယပ်တောင်",
+   "th": "ไซอิ๋ว (3): ภูเขาเปลวเพลิงกับพัดใบตอง"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 43,
+  "cover": "/covers/furusato-cn-saiyuki-3.webp",
+  "series": {
+   "id": "furusato-cn-saiyuki",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "CN",
+  "audioTrack": {
+   "src": "/audio/furusato-cn-saiyuki-3/chapter.mp3",
+   "durationSec": 304.464
+  }
+ },
+ {
+  "id": "furusato-ph-malakas-1",
+  "titles": {
+   "vi": "Malakas và Maganda: người đầu tiên sinh ra từ ống tre",
+   "en": "Malakas and Maganda: The First People from the Bamboo",
+   "zh-Hans": "马拉卡斯与马甘达：竹子里诞生的第一对人",
+   "zh-Hant": "馬拉卡斯與馬甘達：竹子裡誕生的第一對人",
+   "ko": "말라카스와 마간다: 대나무에서 태어난 첫 사람",
+   "tl": "Si Malakas at si Maganda",
+   "ne": "मलाकास र मगान्दा: बाँसबाट जन्मेका पहिलो मानिस",
+   "id": "Malakas dan Maganda: Manusia Pertama dari Bambu",
+   "pt": "Malakas e Maganda: os primeiros humanos do bambu",
+   "my": "မလာကပ်စ်နဲ့ မဂန်ဒါ: ဝါးထဲက မွေးလာတဲ့ ပထမဆုံး လူသား",
+   "th": "มาลากัสกับมากันดา: มนุษย์คู่แรกจากกระบอกไม้ไผ่"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 51,
+  "cover": "/covers/furusato-ph-malakas-1.webp",
+  "series": {
+   "id": "furusato-ph-malakas",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "PH",
+  "audioTrack": {
+   "src": "/audio/furusato-ph-malakas-1/chapter.mp3",
+   "durationSec": 306.36
+  }
+ },
+ {
+  "id": "furusato-ph-pinya-1",
+  "titles": {
+   "vi": "Sự tích quả dứa",
+   "en": "The Legend of the Pineapple",
+   "zh-Hans": "菠萝的传说",
+   "zh-Hant": "菠蘿的傳說",
+   "ko": "파인애플의 전설",
+   "tl": "Alamat ng Pinya",
+   "ne": "भुइँकटहरको कथा",
+   "id": "Legenda Nanas",
+   "pt": "A lenda do abacaxi",
+   "my": "နာနတ်သီး ဒဏ္ဍာရီ",
+   "th": "ตำนานสับปะรด"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 50,
+  "cover": "/covers/furusato-ph-pinya-1.webp",
+  "series": {
+   "id": "furusato-ph-pinya",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "PH",
+  "audioTrack": {
+   "src": "/audio/furusato-ph-pinya-1/chapter.mp3",
+   "durationSec": 297.984
+  }
+ },
+ {
+  "id": "furusato-ph-pagong-1",
+  "titles": {
+   "vi": "Rùa và Khỉ",
+   "en": "The Turtle and the Monkey",
+   "zh-Hans": "乌龟和猴子",
+   "zh-Hant": "烏龜和猴子",
+   "ko": "거북이와 원숭이",
+   "tl": "Si Pagong at si Matsing",
+   "ne": "कछुवा र बाँदर",
+   "id": "Kura-kura dan Monyet",
+   "pt": "A tartaruga e o macaco",
+   "my": "လိပ်နဲ့ မျောက်",
+   "th": "เต่ากับลิง"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 50,
+  "cover": "/covers/furusato-ph-pagong-1.webp",
+  "series": {
+   "id": "furusato-ph-pagong",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "PH",
+  "audioTrack": {
+   "src": "/audio/furusato-ph-pagong-1/chapter.mp3",
+   "durationSec": 306.84
+  }
+ },
+ {
+  "id": "furusato-ph-juan-1",
+  "titles": {
+   "vi": "Juan Lười",
+   "en": "Lazy Juan",
+   "zh-Hans": "懒汉胡安",
+   "zh-Hant": "懶漢胡安",
+   "ko": "게으름뱅이 후안",
+   "tl": "Si Juan Tamad",
+   "ne": "अल्छी हुआन",
+   "id": "Juan si Pemalas",
+   "pt": "Juan, o Preguiçoso",
+   "my": "ပျင်းတဲ့ ဟွမ်",
+   "th": "ฮวนขี้เกียจ"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 53,
+  "cover": "/covers/furusato-ph-juan-1.webp",
+  "series": {
+   "id": "furusato-ph-juan",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "PH",
+  "audioTrack": {
+   "src": "/audio/furusato-ph-juan-1/chapter.mp3",
+   "durationSec": 305.664
+  }
+ },
+ {
+  "id": "furusato-id-malin-1",
+  "titles": {
+   "vi": "Malin Kundang",
+   "en": "Malin Kundang",
+   "zh-Hans": "马林·昆当",
+   "zh-Hant": "馬林·昆當",
+   "ko": "말린 쿤당",
+   "tl": "Si Malin Kundang",
+   "ne": "मालिन कुन्दाङ",
+   "id": "Malin Kundang",
+   "pt": "Malin Kundang",
+   "my": "မာလင် ကွန်ဒန်",
+   "th": "มาลิน กุนดัง"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 51,
+  "cover": "/covers/furusato-id-malin-1.webp",
+  "series": {
+   "id": "furusato-id-malin",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "ID",
+  "audioTrack": {
+   "src": "/audio/furusato-id-malin-1/chapter.mp3",
+   "durationSec": 324.84
+  }
+ },
+ {
+  "id": "furusato-id-timun-1",
+  "titles": {
+   "vi": "Timun Mas – Cô bé dưa chuột vàng",
+   "en": "Timun Mas, the Golden Cucumber",
+   "zh-Hans": "金黄瓜姑娘",
+   "zh-Hant": "金黃瓜姑娘",
+   "ko": "티문 마스, 황금 오이 소녀",
+   "tl": "Si Timun Mas",
+   "ne": "तिमुन मास: सुनौलो काँक्रो",
+   "id": "Timun Mas",
+   "pt": "Timun Mas, o pepino de ouro",
+   "my": "ရွှေသခွားသီး တီမွန်မာ့စ်",
+   "th": "ทิมุน มัส แตงทอง"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 50,
+  "cover": "/covers/furusato-id-timun-1.webp",
+  "series": {
+   "id": "furusato-id-timun",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "ID",
+  "audioTrack": {
+   "src": "/audio/furusato-id-timun-1/chapter.mp3",
+   "durationSec": 335.496
+  }
+ },
+ {
+  "id": "furusato-id-bawang-1",
+  "titles": {
+   "vi": "Hành Tím và Tỏi",
+   "en": "Bawang Merah and Bawang Putih",
+   "zh-Hans": "红葱头和大蒜",
+   "zh-Hant": "紅蔥頭和大蒜",
+   "ko": "샬롯과 마늘",
+   "tl": "Sina Bawang Merah at Bawang Putih",
+   "ne": "रातो प्याज र लसुन",
+   "id": "Bawang Merah Bawang Putih",
+   "pt": "Cebola Roxa e Alho",
+   "my": "ကြက်သွန်နီနဲ့ ကြက်သွန်ဖြူ",
+   "th": "หอมแดงกับกระเทียม"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/furusato-id-bawang-1.webp",
+  "series": {
+   "id": "furusato-id-bawang",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "ID",
+  "audioTrack": {
+   "src": "/audio/furusato-id-bawang-1/chapter.mp3",
+   "durationSec": 314.76
+  }
+ },
+ {
+  "id": "furusato-id-sangkuriang-1",
+  "titles": {
+   "vi": "Sangkuriang và ngọn núi thuyền úp",
+   "en": "Sangkuriang and the Upturned Boat",
+   "zh-Hans": "桑库里昂与翻船山",
+   "zh-Hant": "桑庫里昂與翻船山",
+   "ko": "상쿠리앙과 뒤집힌 배 산",
+   "tl": "Si Sangkuriang at ang Bundok na Bangkang Nakataob",
+   "ne": "साङकुरियाङ र घोप्टो डुङ्गे पहाड",
+   "id": "Sangkuriang dan Tangkuban Perahu",
+   "pt": "Sangkuriang e o Barco Virado",
+   "my": "ဆန်ကူရီယန်နဲ့ မှောက်နေတဲ့ လှေတောင်",
+   "th": "สังกูเรียงกับภูเขาเรือคว่ำ"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 49,
+  "cover": "/covers/furusato-id-sangkuriang-1.webp",
+  "series": {
+   "id": "furusato-id-sangkuriang",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "ID",
+  "audioTrack": {
+   "src": "/audio/furusato-id-sangkuriang-1/chapter.mp3",
+   "durationSec": 342.528
+  }
+ },
+ {
+  "id": "furusato-id-kancil-1",
+  "titles": {
+   "vi": "Chú hươu Kancil và đàn cá sấu",
+   "en": "Kancil and the Crocodiles",
+   "zh-Hans": "小鼷鹿和鳄鱼",
+   "zh-Hant": "小鼷鹿和鱷魚",
+   "ko": "칸칠과 악어들",
+   "tl": "Si Kancil at ang mga Buwaya",
+   "ne": "कान्चिल र गोहीहरू",
+   "id": "Kancil dan Buaya",
+   "pt": "Kancil e os crocodilos",
+   "my": "ခရီကန်ချီးလ်နဲ့ မိကျောင်းတွေ",
+   "th": "กระจงกับจระเข้"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 49,
+  "cover": "/covers/furusato-id-kancil-1.webp",
+  "series": {
+   "id": "furusato-id-kancil",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "ID",
+  "audioTrack": {
+   "src": "/audio/furusato-id-kancil-1/chapter.mp3",
+   "durationSec": 317.496
+  }
+ },
+ {
+  "id": "furusato-th-sangthong-1",
+  "titles": {
+   "vi": "Sang Thong – Chàng trai vỏ ốc vàng",
+   "en": "Sang Thong, the Golden Conch Prince",
+   "zh-Hans": "金螺王子桑通",
+   "zh-Hant": "金螺王子桑通",
+   "ko": "황금 소라 왕자 상통",
+   "tl": "Sang Thong, ang Prinsipe ng Gintong Kabibe",
+   "ne": "सुनौलो शंखका राजकुमार साङ थोङ",
+   "id": "Sang Thong, Pangeran Keong Emas",
+   "pt": "Sang Thong, o príncipe da concha de ouro",
+   "my": "ရွှေခရုခွံ မင်းသား ဆန်တောင်",
+   "th": "สังข์ทอง"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/furusato-th-sangthong-1.webp",
+  "series": {
+   "id": "furusato-th-sangthong",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "TH",
+  "audioTrack": {
+   "src": "/audio/furusato-th-sangthong-1/chapter.mp3",
+   "durationSec": 370.944
+  }
+ },
+ {
+  "id": "furusato-th-aphai-1",
+  "titles": {
+   "vi": "Phra Aphai Mani – Hoàng tử thổi sáo",
+   "en": "Phra Aphai Mani, the Flute Prince",
+   "zh-Hans": "吹笛王子帕阿派玛尼",
+   "zh-Hant": "吹笛王子帕阿派瑪尼",
+   "ko": "피리 왕자 프라 아파이 마니",
+   "tl": "Phra Aphai Mani, ang Prinsipe ng Plauta",
+   "ne": "बाँसुरीवाला राजकुमार फ्रा अफाइ मनी",
+   "id": "Phra Aphai Mani, Pangeran Seruling",
+   "pt": "Phra Aphai Mani, o príncipe da flauta",
+   "my": "ပုလွေမင်းသား ဖရာ အဖိုင်မဏိ",
+   "th": "พระอภัยมณี"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 50,
+  "cover": "/covers/furusato-th-aphai-1.webp",
+  "series": {
+   "id": "furusato-th-aphai",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "TH",
+  "audioTrack": {
+   "src": "/audio/furusato-th-aphai-1/chapter.mp3",
+   "durationSec": 334.32
+  }
+ },
+ {
+  "id": "furusato-np-manjushri-1",
+  "titles": {
+   "vi": "Đức Văn Thù và hồ Kathmandu",
+   "en": "Manjushri and the Lake of Kathmandu",
+   "zh-Hans": "文殊菩萨与加德满都湖",
+   "zh-Hant": "文殊菩薩與加德滿都湖",
+   "ko": "문수보살과 카트만두 호수",
+   "tl": "Si Manjushri at ang Lawa ng Kathmandu",
+   "ne": "मञ्जुश्री र काठमाडौंको दह",
+   "id": "Manjushri dan Danau Kathmandu",
+   "pt": "Manjushri e o lago de Katmandu",
+   "my": "မဉ္ဇူသီရိနဲ့ ကတ္တမန္ဒူ ရေကန်",
+   "th": "พระมัญชุศรีกับทะเลสาบกาฐมาณฑุ"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-np-manjushri-1.webp",
+  "series": {
+   "id": "furusato-np-manjushri",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "NP",
+  "audioTrack": {
+   "src": "/audio/furusato-np-manjushri-1/chapter.mp3",
+   "durationSec": 322.848
+  }
+ },
+ {
+  "id": "furusato-np-indra-1",
+  "titles": {
+   "vi": "Thần Indra bị trói ở Kathmandu",
+   "en": "Indra Tied Up in Kathmandu",
+   "zh-Hans": "被绑在加德满都的因陀罗",
+   "zh-Hant": "被綁在加德滿都的因陀羅",
+   "ko": "카트만두에 묶인 인드라",
+   "tl": "Si Indra na Iginapos sa Kathmandu",
+   "ne": "काठमाडौंमा बाँधिएका इन्द्र",
+   "id": "Indra yang Diikat di Kathmandu",
+   "pt": "Indra amarrado em Katmandu",
+   "my": "ကတ္တမန္ဒူမှာ ချည်နှောင်ခံရတဲ့ သိကြားမင်း",
+   "th": "พระอินทร์ถูกมัดที่กาฐมาณฑุ"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-np-indra-1.webp",
+  "series": {
+   "id": "furusato-np-indra",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "NP",
+  "audioTrack": {
+   "src": "/audio/furusato-np-indra-1/chapter.mp3",
+   "durationSec": 310.224
+  }
+ },
+ {
+  "id": "furusato-vn-banhchung-1",
+  "titles": {
+   "vi": "Sự tích bánh chưng bánh giầy",
+   "en": "The Legend of Bánh Chưng and Bánh Giầy",
+   "zh-Hans": "粽子与糍粑的传说",
+   "zh-Hant": "粽子與餈粑的傳說",
+   "ko": "반쯩과 반자이의 전설",
+   "tl": "Ang Alamat ng Bánh Chưng",
+   "ne": "बान्ह चुङ र बान्ह जाइको कथा",
+   "id": "Legenda Bánh Chưng dan Bánh Giầy",
+   "pt": "A lenda do bánh chưng e do bánh giầy",
+   "my": "ဘန်ချုန်နဲ့ ဘန်ဇိုင် ဒဏ္ဍာရီ",
+   "th": "ตำนานบั๋นจึงและบั๋นซาย"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 63,
+  "cover": "/covers/furusato-vn-banhchung-1.webp",
+  "series": {
+   "id": "furusato-vn-banhchung",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-banhchung-1/chapter.mp3",
+   "durationSec": 319.416
+  }
+ },
+ {
+  "id": "furusato-vn-taoquan-1",
+  "titles": {
+   "vi": "Sự tích Táo Quân",
+   "en": "The Kitchen Gods of Vietnam",
+   "zh-Hans": "灶君的传说",
+   "zh-Hant": "灶君的傳說",
+   "ko": "부엌신 '옹따오' 이야기",
+   "tl": "Ang Alamat ng mga Diyos ng Kusina",
+   "ne": "भान्साका देवताको कथा",
+   "id": "Legenda Dewa Dapur Vietnam",
+   "pt": "A lenda dos deuses da cozinha",
+   "my": "မီးဖိုချောင်နတ် ဒဏ္ဍာရီ",
+   "th": "ตำนานเทพเจ้าเตาไฟ"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 53,
+  "cover": "/covers/furusato-vn-taoquan-1.webp",
+  "series": {
+   "id": "furusato-vn-taoquan",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-taoquan-1/chapter.mp3",
+   "durationSec": 318
+  }
+ },
+ {
+  "id": "furusato-vn-cuoi-1",
+  "titles": {
+   "vi": "Sự tích chú Cuội cung trăng",
+   "en": "Cuội, the Man in the Moon",
+   "zh-Hans": "阿贵上月亮",
+   "zh-Hant": "阿貴上月亮",
+   "ko": "달에 간 꾸오이 아저씨",
+   "tl": "Si Cuội, ang Lalaki sa Buwan",
+   "ne": "चन्द्रमामा पुगेका कुओई",
+   "id": "Cuội, Lelaki di Bulan",
+   "pt": "Cuội, o homem da lua",
+   "my": "လထဲက ကွီဦးလေး",
+   "th": "กุ๋ยชายบนดวงจันทร์"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-cuoi-1.webp",
+  "series": {
+   "id": "furusato-vn-cuoi",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-cuoi-1/chapter.mp3",
+   "durationSec": 313.968
+  }
+ },
+ {
   "id": "akai-rousoku-to-ningyo",
   "titles": {
    "vi": "Cây nến đỏ và nàng tiên cá",

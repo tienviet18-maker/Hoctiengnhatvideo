@@ -86,6 +86,119 @@ bản quyền bản dịch. Các mục này xử lý ở Bước 0b–0c.
 | 20 | **Cao** | Rà bản quyền 66 truyện chuyển thể (`aozora-adapted`). Ở Nhật cả 66 đều hết bản quyền. Theo luật Mỹ (URAA), 5 tác phẩm của Dazai Osamu (mất 1948) in 1939–1947 còn bản quyền ở Mỹ đến 2035–2043: 走れメロス, 富嶽百景, 女生徒, 斜陽, ヴィヨンの妻. App bán toàn cầu nên đã gỡ 5 gói này. 61 gói còn lại: tác giả mất trước 1946, hoặc tác giả mất 1946–1967 nhưng tác phẩm in trước 1931 (Kōda Rohan, 五重塔 1891). Truyện của Hearn là tự kể lại bằng tiếng Nhật từ bản gốc tiếng Anh 1904, không dùng bản dịch hiện đại. Bản dịch 11 ngôn ngữ là bản tự dịch từ văn bản của mình. Chuẩn v2 mục 2 đã ghi rõ quy tắc URAA. | #7 |
 | 21 | **Cao** | Schema v2 thêm `audioTrack` (audio liền cho cả chương, để nghe khi tắt màn hình hoặc qua Bluetooth), `t` và `voice` cho từng câu, `lesson` (điểm ngữ pháp và câu hỏi), `shelf`, `origin`. QC chặn gói v2 thiếu các trường này. Chuẩn v2 thêm mục 6b–6d. | #8 |
 
+## Kệ D "Truyện quê hương" — lô 1: truyện Việt Nam (25/11/2026, nhánh `claude/furusato-osaka`)
+
+Truyện dân gian của nước người học, kể lại bằng tiếng Nhật bằng lời của mình (không chép tuyển tập hiện đại),
+mỗi tập kết bằng phần so sánh với một truyện Nhật tương tự. Chuẩn v2 đủ: audio liền `chapter.mp3`
+(Google TTS: Aoede kể chuyện, Neural2-B nữ / Neural2-C nam cho lời thoại, mỗi nhân vật giữ một giọng),
+mốc thời gian từng câu, dịch + giải thích 11 ngôn ngữ (tự dịch, tự rà), từ vựng gắn cấp theo `data/jlpt`,
+bài học 4 mẫu ngữ pháp + 4 câu hỏi, `shelf: hometown`, `origin: VN`, `series {id, index}`, bìa MiraiGo 文庫
+mỗi truyện một phông. **Muse lưu ý: các ID `furusato-*` do Claude cấp, đừng dùng lại.**
+
+| Gói | Cấp | Câu | Audio | So sánh với truyện Nhật | Commit |
+|---|---|---|---|---|---|
+| furusato-vn-tamcam-1 | N4 | 62 | 6,7 phút | — (tập mở đầu) | 509fc02, 6765121 |
+| furusato-vn-tamcam-2 | N4 | 58 | 5,8 phút | — | 6765121 |
+| furusato-vn-tamcam-3 | N4 | 65 | 6,3 phút | 米福粟福, Cinderella | 1cf1510 |
+| furusato-vn-sodua-1 | N4 | 57 | 5,1 phút | タニシ長者 | 5244530 |
+| furusato-vn-giong-1 | N3 | 55 | 4,8 phút | 三年寝太郎, 桃太郎 | dbdae05 |
+| furusato-vn-sontinh-1 | N3 | 51 | 4,8 phút | 山幸彦と海幸彦 (+ mẹo ハザードマップ) | 17361f8 |
+| furusato-vn-caytre-1 | N3 | 63 | 5,0 phút | 竹取物語 | 048c3e5 |
+| furusato-vn-maiantiem-1 | N3 | 59 | 5,3 phút | わらしべ長者 | 4060c21 |
+| furusato-vn-thachsanh-1 | N3 | 58 | 5,7 phút | ヤマタノオロチ | a3ba133 |
+| furusato-vn-thachsanh-2 | N3 | 58 | 5,8 phút | 浦島太郎 | a6e10b3 |
+| furusato-vn-thachsanh-3 | N3 | 56 | 5,6 phút | 天岩戸 | 455786a |
+| furusato-vn-khe-1 | N3 | 56 | 5,4 phút | 舌切り雀 | e7f8875 |
+| furusato-vn-hoguom-1 | N3 | 55 | 5,9 phút | 俵藤太 | 9cf5895 |
+| furusato-vn-rongtien-1 | N3 | 56 | 5,8 phút | 山幸彦と豊玉姫 | 49e08eb |
+| furusato-vn-chudongtu-1 | N3 | 58 | 6,3 phút | かぐや姫 | afd60bb |
+| furusato-vn-tuthuc-1 | N3 | 56 | 5,6 phút | 浦島太郎 | 6635cad |
+| furusato-vn-traucau-1 | N3 | 56 | 5,9 phút | 高砂・相生の松 | f4d0a60 |
+
+Công cụ mới trong `scripts/story-src/` (build, tts, register) và motif bìa mới trong `scripts/covers/cover.html`
+(bird, coconut, horse, mountainwave; lô 2 thêm bamboo, watermelon, snake, eagle, lute, starfruit, turtle, eggs,
+umbrella, peony, betel). **Đã đủ 17 truyện Việt Nam theo kế hoạch.** Khoá TTS chỉ đọc từ biến môi trường, không in, không ghi file.
+
+## Kệ D "Truyện quê hương" — lô 2: truyện Hàn Quốc (25/11/2026, nhánh `claude/furusato-osaka`)
+
+Cùng chuẩn với lô 1, `origin: KR`, nhãn bìa "Truyện cổ tích Hàn Quốc". Kể lại bằng lời của mình theo cốt truyện
+truyền thống public domain; 콩쥐팥쥐 lược phần kết bi thảm của một số dị bản cho hợp người học.
+
+| Gói | Tiêu đề | Câu | Audio | So sánh với truyện Nhật | Commit |
+|---|---|---|---|---|---|
+| furusato-kr-heungbu-1 | ツバメとひょうたん (흥부와 놀부) | 54 | 5,9 phút | 腰折れ雀 | 843de2f |
+| furusato-kr-simcheong-1 | はすの花の娘 (심청전) | 55 | 6,2 phút | 弟橘媛 | d0f8f02 |
+| furusato-kr-onui-1 | 太陽と月になった兄妹 (해와 달이 된 오누이) | 58 | 6,2 phút | 天道さん金の鎖 | d3c0744 |
+| furusato-kr-kongjwi-1 | 花のくつと黒い牛 (콩쥐팥쥐) | 48 | 5,5 phút | 米福粟福 | 78ed58f |
+
+Motif bìa mới: gourd, lotus, sunmoon, flowershoe. **Đã đủ 4 truyện Hàn Quốc theo kế hoạch.**
+
+## Kệ D "Truyện quê hương" — lô 3: truyện Trung Quốc (25/11/2026, nhánh `claude/furusato-osaka`)
+
+`origin: CN`, nhãn bìa "Truyện cổ tích Trung Quốc". Truyền thuyết dân gian (truyền khẩu, thư tịch cổ) và tiểu thuyết
+西游记 (thế kỷ 16) đều là public domain; Claude tự kể lại, không chép bản dịch hay tuyển tập hiện đại. 西游记 làm thành
+series 3 tập (`series.id = furusato-cn-saiyuki`), dùng chung font Reggae One; tập 2 nối với 嫦娥奔月 (Bát Giới bị đày
+vì ve vãn Hằng Nga — đúng nguyên tác).
+
+| Gói | Tiêu đề | Câu | Audio | So sánh với truyện Nhật | Commit |
+|---|---|---|---|---|---|
+| furusato-cn-niulang-1 | 牛飼いと織り姫 (牛郎织女) | 49 | 5,8 phút | 七夕, 羽衣伝説 | a8cf088 |
+| furusato-cn-baishe-1 | 白いヘビの恋 (白蛇传) | 52 | 5,8 phút | 雨月物語「蛇性の婬」 | b4adc97 |
+| furusato-cn-change-1 | 月へのぼった妻 (嫦娥奔月) | 44 | 5,0 phút | お月見, かぐや姫 | 8434e39 |
+| furusato-cn-saiyuki-1 | 石から生まれたサル (西游记 ①) | 48 | 5,2 phút | さるかに合戦 | 9e07780 |
+| furusato-cn-saiyuki-2 | 三蔵法師と仲間たち (西游记 ②) | 46 | 5,0 phút | 桃太郎, 沙悟浄＝カッパ | 1bc2e0e |
+| furusato-cn-saiyuki-3 | 火の山と大きな扇 (西游记 ③) | 43 | 5,1 phút | 天狗のうちわ | 77b6f4e |
+
+Motif bìa mới: milkyway, whitesnake, moonrabbit, stonemonkey, pilgrims, flamefan. **Đã đủ 6 truyện Trung Quốc theo kế hoạch.**
+
+## Kệ D "Truyện quê hương" — lô 4: truyện Philippines (25/11/2026, nhánh `claude/furusato-osaka`)
+
+| Gói | Tựa | Câu | Audio | So sánh với truyện Nhật | Commit |
+|---|---|---|---|---|---|
+| `furusato-ph-malakas-1` | 竹から生まれた二人 (Malakas at Maganda) | 51 | 5,1 phút | かぐや姫, 国生み | 6e0402a |
+| `furusato-ph-pinya-1` | 千の目をもつ実 (Alamat ng Pinya) | 50 | 5,0 phút | 言霊 (kiêng từ trong đám cưới), あまがえる | d765072 |
+| `furusato-ph-pagong-1` | カメとサルとバナナの木 (Si Pagong at si Matsing) | 50 | 5,1 phút | さるかに合戦 | 2d4c6d1 |
+| `furusato-ph-juan-1` | なまけ者のフアン (Juan Tamad) | 53 | 5,1 phút | ものぐさ太郎 | b13c7f2 |
+
+- Cả 4 gói N3, đạt chuẩn v2 (dịch + grammarNote 10 thứ tiếng, bài học 4 điểm ngữ pháp + 4 câu đố), nhãn xuất xứ PH, bìa 文庫 font riêng (Yomogi, Mochiy Pop P One, Potta One, Rampart One).
+- Juan Tamad có nhiều dị bản theo vùng; bài kể 3 mẩu phổ biến (cây ổi, bán cua, múc nước bằng giỏ) và nói rõ trong bài là truyện thay đổi theo đảo/làng.
+- Đã đủ 4 truyện Philippines.
+
+## Kệ D "Truyện quê hương" — lô 5: truyện Indonesia (25/11/2026, nhánh `claude/furusato-osaka`)
+
+| Gói | Tựa | Câu | Audio | So sánh với truyện Nhật | Commit |
+|---|---|---|---|---|---|
+| `furusato-id-malin-1` | 石になった息子 (Malin Kundang) | 51 | 5,4 phút | スズメとキツツキ | 09d4a45 |
+| `furusato-id-timun-1` | 金のキュウリの娘 (Timun Mas) | 50 | 5,6 phút | 三枚のお札, イザナギの逃走 (古事記) | 9f65190 |
+| `furusato-id-bawang-1` | 小さいカボチャ (Bawang Merah Bawang Putih) | 48 | 5,2 phút | 舌切り雀, 米福粟福 | 4a3b309 |
+| `furusato-id-sangkuriang-1` | ひっくり返った船の山 (Sangkuriang) | 49 | 5,7 phút | 男鹿の五社堂 999 bậc đá | 6c25fce |
+| `furusato-id-kancil-1` | ワニのはし (Kancil dan Buaya) | 49 | 5,3 phút | 因幡の白うさぎ (古事記) | 1ae6bf0 |
+
+- Cả 5 gói N3, đạt chuẩn v2, nhãn xuất xứ ID, bìa 文庫 font riêng (Train One, RocknRoll One, Stick, DotGothic16, Darumadrop One). Kể lại bằng lời của mình, không chép tuyển tập hiện đại.
+- Darumadrop One thiếu chữ 橋 và có khung chữ to, nên tựa bìa Kancil viết bằng kana 「ワニのはし」 (5 chữ) cho vừa cột.
+- Bài Kancil có ghi chú "ワニ" trong truyện cổ Nhật thường được hiểu là cá mập.
+- Đã đủ 5 truyện Indonesia.
+
+## Kệ F 「大阪で働く」 — tập 1–5 (25/11/2026, nhánh `claude/furusato-osaka`)
+
+Phim truyện nghe N3, 20 tập, sáng tác gốc (bible: `content/sources/osaka/series-bible.md`). Kịch tính trước,
+thông tin đời sống thật sau: mỗi tập lồng một thủ tục, nói qua miệng nhân vật hoặc 1–2 câu kể, kết bằng móc câu.
+大阪弁 chỉ ở lời キヨ/ラジュ/田中, luôn có giải thích chuẩn hoá trong grammarNote. Chuẩn v2 đủ: `chapter.mp3`,
+mốc `t`, dịch + giải thích 11 ngôn ngữ (tự dịch, tự rà), bài học 4 mẫu ngữ pháp + 3 câu hỏi, `shelf: life-series`,
+`series {id: osaka-hataraku, index}`. Cách đọc chung của kệ ở `content/sources/osaka/phrases.json`.
+**Muse lưu ý: các ID `osaka-hataraku-*` do Claude cấp, đừng dùng lại.**
+
+| Gói | Tiêu đề | Câu | Audio | Thông tin thật | Commit |
+|---|---|---|---|---|---|
+| osaka-hataraku-01 | ようこそ、大阪へ | 60 | 5,6 phút | 転入届 trong 14 ngày | e98e94b |
+| osaka-hataraku-02 | 初出勤 | 58 | 5,2 phút | 区役所: マイナンバー, bảo hiểm | 24e43b8 |
+| osaka-hataraku-03 | 消えた先輩 | 57 | 5,3 phút | thứ tự địa chỉ → SIM → ngân hàng, quy định 6 tháng, ゆうちょ | 927208e |
+| osaka-hataraku-04 | ゴミの日の事件 | 58 | 5,6 phút | phân loại rác, đổ buổi sáng, 粗大ごみ | 3bb4ecb |
+| osaka-hataraku-05 | 夜の工場 | 57 | 5,4 phút | 緊急地震速報, 避難所, túi khẩn cấp | a1fb25e |
+
+Tập 1 miễn phí, tập 2–5 `free: false`. `npm run verify` xanh trên bản clone sạch: 553 gói, 0 lỗi; chuẩn v2 11 gói đạt.
+
+Cập nhật 25/11 (sau lô 2 Truyện quê hương): `npm run verify` xanh trên bản clone sạch tại f4d0a60: 564 gói, 0 lỗi; chuẩn v2 22 gói đạt.
 ## Đợt 3 — Truyện chuẩn v2, kệ A (văn học Nhật) và E (văn học thế giới) (25/11/2026)
 
 Nhánh `claude/stories-batch1-v2`. Kệ A/E do luồng này cấp id; khối đăng ký riêng trong `src/lib/content.ts`
