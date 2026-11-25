@@ -14,10 +14,15 @@ export default function LessonPanel({
   story,
   vocab,
   onWord,
+  vip,
+  onUnlock,
 }: {
   story: StoryContent;
   vocab: VocabItem[];
   onWord: (v: VocabItem) => void;
+  /** Tài khoản thường chỉ thấy từ vựng; ngữ pháp và câu hỏi là phần VIP (ux-plan mục 6). */
+  vip: boolean;
+  onUnlock: () => void;
 }) {
   const { ui, lang } = useLang();
   const lesson = story.lesson;
@@ -71,7 +76,31 @@ export default function LessonPanel({
 
       {!lesson && <p style={{ fontSize: 13, color: "var(--muted)", marginTop: 18, lineHeight: 1.5 }}>{ui.reader.noLesson}</p>}
 
-      {lesson && lesson.grammarPoints.length > 0 && (
+      {lesson && !vip && (lesson.grammarPoints.length > 0 || quiz.length > 0) && (
+        <div style={{ background: "#14213D", color: "#fff", borderRadius: 14, padding: 16, marginTop: 22 }}>
+          <div style={{ fontSize: 15, fontWeight: 700 }}>
+            <span className="lock-badge" style={{ marginRight: 8 }}>VIP</span>
+            {ui.vip.lessonLocked}
+          </div>
+          {lesson.grammarPoints.length > 0 && (
+            <div lang="ja" className="jp" style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 12 }}>
+              {lesson.grammarPoints.map((g) => (
+                <span key={g.pattern} style={{ fontSize: 14, fontWeight: 700, border: "1px solid #33456A", borderRadius: 8, padding: "4px 10px" }}>{g.pattern}</span>
+              ))}
+            </div>
+          )}
+          {vip && quiz.length > 0 && (
+            <div style={{ fontSize: 13, color: "#c9d8ee", marginTop: 10 }}>
+              {ui.reader.quizTitle} · {quiz.length}
+            </div>
+          )}
+          <button type="button" className="btn-primary" onClick={onUnlock} style={{ marginTop: 14, background: "#F5C542", color: "#14213D" }}>
+            {ui.vip.unlock}
+          </button>
+        </div>
+      )}
+
+      {vip && lesson && lesson.grammarPoints.length > 0 && (
         <>
           <h2 style={{ fontSize: 17, fontWeight: 700, margin: "22px 0 10px" }}>
             {ui.reader.grammarTitle} · {lesson.grammarPoints.length}

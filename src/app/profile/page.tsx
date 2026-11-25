@@ -16,6 +16,9 @@ const chevron = (
   </svg>
 );
 
+/** Cờ VIP giả để kiểm thử phân quyền (ux-plan mục 6). Chỉ hiện ở bản dev hoặc khi build với NEXT_PUBLIC_DEV_TOOLS=1. */
+const DEV_TOOLS = process.env.NODE_ENV !== "production" || process.env.NEXT_PUBLIC_DEV_TOOLS === "1";
+
 export default function ProfilePage() {
   const { ui, lang, profile, updateProfile } = useLang();
   const router = useRouter();
@@ -108,6 +111,13 @@ export default function ProfilePage() {
           </a>
         )}
       </div>
+
+      {DEV_TOOLS && (
+        <label style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 18, fontSize: 13, fontWeight: 600 }}>
+          <input type="checkbox" checked={!!profile.vip} onChange={(e) => updateProfile({ vip: e.target.checked })} />
+          {ui.vip.devToggle}
+        </label>
+      )}
 
       <button type="button" onClick={resetAll} style={{ marginTop: 18, minHeight: 44, background: "none", border: "none", color: "var(--accent)", fontSize: 13, fontWeight: 600, cursor: "pointer", fontFamily: "inherit", padding: 0 }}>
         {pickText(RESET_LABEL, lang)}

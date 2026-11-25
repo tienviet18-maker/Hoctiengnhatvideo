@@ -12,6 +12,7 @@ import type { StoryContent, Translations, VocabItem } from "../../../lib/content
 import { pickText } from "../../../lib/i18n";
 import { PROGRESS_KEY, saveProgress, useLocalJson, type Progress } from "../../../lib/store";
 import * as player from "../../../lib/player";
+import { explainsLeft, spendExplain, storyFree } from "../../../lib/access";
 
 const FONT_SIZES = [16, 18, 21];
 const SPEEDS = [0.75, 0.9, 1, 1.25];
@@ -43,6 +44,10 @@ export default function ReaderClient({
   const [showRomaji, setShowRomaji] = useState(false);
   const [fontStep, setFontStep] = useState(1);
   const [openEx, setOpenEx] = useState<Record<number, boolean>>({});
+  // Tài khoản thường: 5 lượt giải thích mỗi ngày; câu nào hết lượt thì hiện lời mời VIP
+  const [exOut, setExOut] = useState<number | null>(null);
+  const [exLeft, setExLeft] = useState<number | null>(null);
+  const [paywall, setPaywall] = useState(false);
   const [popup, setPopup] = useState<VocabItem | null>(null);
   const [sleepStep, setSleepStep] = useState(0);
   const progress = useLocalJson(PROGRESS_KEY, EMPTY_PROGRESS);
@@ -55,7 +60,7 @@ export default function ReaderClient({
   const total = story.sentences.length;
   const track = story.audioTrack && story.sentences.every((s) => s.t) ? story.audioTrack : null;
   const duration = track ? track.durationSec : 0;
-  const locked = !story.free && !profile.vip;
+  const locked = !storyFree(story) && !profile.vip;
   const title = pickText(story.titles, lang);
 
   // Trạng thái của trình phát chỉ áp vào màn này khi đang nạp đúng chương này
@@ -209,7 +214,7 @@ export default function ReaderClient({
       </div>
 
       {tab === "lesson" ? (
-        <LessonPanel story={story} vocab={vocab} onWord={setPopup} />
+        <LessonPanel story={story} vocab={vocab} onWord={setPopup} vip={profile.vip} onUnlock={() => setPaywall(true)} />
       ) : (
         <>
           <div style={{ display: "flex", gap: 8, padding: "10px 20px 0", flexWrap: "wrap" }}>
@@ -284,6 +289,14 @@ export default function ReaderClient({
                           className="link-btn"
                           onClick={(e) => {
                             e.stopPropagation();
+                            if (!openEx[i]) {
+                              if (!spendExplain(`${story.id}:${i}`, profile.vip)) {
+                                setExOut(i);
+                                return;
+                              }
+                              if (!profile.vip) setExLeft(explainsLeft());
+                            }
+                            setExOut(null);
                             setOpenEx((o) => ({ ...o, [i]: !o[i] }));
                           }}
                         >
@@ -308,6 +321,17 @@ export default function ReaderClient({
                   {selected && openEx[i] && s.grammarNote && (
                     <div style={{ marginTop: 8, fontSize: 13.5, lineHeight: 1.55, background: "#fff", border: "1px solid #F2DFB5", borderRadius: 10, padding: "10px 12px" }}>
                       {pickText(s.grammarNote, lang)}
+                      {!profile.vip && exLeft !== null && (
+                        <div style={{ fontSize: 12, color: "var(--muted)", marginTop: 6 }}>{ui.vip.explainLeft.replace("{n}", String(exLeft))}</div>
+                      )}
+                    </div>
+                  )}
+                  {selected && exOut === i && (
+                    <div style={{ marginTop: 8, fontSize: 13.5, lineHeight: 1.5, background: "#14213D", color: "#fff", borderRadius: 10, padding: "10px 12px" }}>
+                      {ui.vip.explainOut}{" "}
+                      <button type="button" className="link-btn" style={{ color: "#F5C542", fontWeight: 700 }} onClick={(e) => { e.stopPropagation(); setPaywall(true); }}>
+                        {ui.vip.unlock}
+                      </button>
                     </div>
                   )}
                 </div>
@@ -324,6 +348,8 @@ export default function ReaderClient({
           </Link>
         </div>
       )}
+
+      {paywall && <Paywall onClose={() => setPaywall(false)} />}
 
       {popup && (
         <div style={{ position: "fixed", left: 16, right: 16, bottom: tab === "story" ? 196 : 16, maxWidth: 398, margin: "0 auto", zIndex: 50 }}>

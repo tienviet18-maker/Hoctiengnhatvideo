@@ -4,7 +4,6 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLang } from "../../components/LangProvider";
-import Paywall from "../../components/Paywall";
 import { VIDEO_INDEX, formatDuration } from "../../lib/catalog.generated";
 import { SERIES, seriesOf } from "../../lib/series";
 import { pickText } from "../../lib/i18n";
@@ -59,7 +58,6 @@ export default function VideoPage() {
   const [category, setCategory] = useState<VideoCategory | "all">("all");
   const [series, setSeries] = useState<string>("all");
   const queue = useLocalJson<string[]>(QUEUE_KEY, []);
-  const [paywall, setPaywall] = useState(false);
   const [link, setLink] = useState("");
   const custom = useLocalJson<CustomVideo[]>(CUSTOM_KEY, []);
   const progress = useLocalJson<Record<string, Progress>>(PROGRESS_KEY, {});
@@ -94,11 +92,8 @@ export default function VideoPage() {
     return { video, pct: Math.min(100, Math.round((p.pos / Math.max(1, p.total)) * 100)) };
   }, [progress]);
 
-  const openVideo = (id: string, free: boolean) => {
-    if (!free && !profile.vip) {
-      setPaywall(true);
-      return;
-    }
+  // Video VIP vẫn mở được: trang xem cho xem trước 2 câu phụ đề rồi mời VIP
+  const openVideo = (id: string) => {
     router.push(`/watch/${id}`);
   };
 
@@ -207,7 +202,7 @@ export default function VideoPage() {
             type="button"
             className="card"
             style={{ display: "flex", gap: 12, alignItems: "center", width: "100%", textAlign: "left", cursor: "pointer", fontFamily: "inherit" }}
-            onClick={() => openVideo(continueVideo.video.id, continueVideo.video.free)}
+            onClick={() => openVideo(continueVideo.video.id)}
           >
             <span className="thumb" style={{ width: 128, height: 76 }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -235,7 +230,7 @@ export default function VideoPage() {
       </h2>
       {filtered.map((v) => (
         <div key={v.id} style={{ position: "relative" }}>
-        <button type="button" onClick={() => openVideo(v.id, v.free)} style={rowStyle}>
+        <button type="button" onClick={() => openVideo(v.id)} style={rowStyle}>
           <span className="thumb" style={{ width: 112, height: 66 }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`} alt="" />
@@ -286,7 +281,6 @@ export default function VideoPage() {
         </Link>
       ))}
 
-      {paywall && <Paywall onClose={() => setPaywall(false)} />}
     </div>
   );
 }

@@ -12,6 +12,7 @@ import { pickText } from "../../../lib/i18n";
 import { logActivity, QUEUE_KEY, removeFromQueue, saveProgress, useLocalJson } from "../../../lib/store";
 import { VIDEO_INDEX, formatDuration } from "../../../lib/catalog.generated";
 import { clipWindow } from "../../../lib/clip";
+import { FREE_VIDEO_LINES } from "../../../lib/access";
 
 interface YTPlayer {
   getCurrentTime(): number;
@@ -49,7 +50,9 @@ export default function WatchClient({
 }) {
   const { ui, lang, profile } = useLang();
   const lines: TimedLine[] = useMemo(() => video?.lines ?? [], [video]);
-  const locked = !!video && !video.free && !profile.vip;
+  // Video VIP vẫn phát được; tài khoản thường thấy rõ FREE_VIDEO_LINES câu đầu (ux-plan mục 6).
+  // TODO(Firebase): máy chủ không gửi các câu sau cho tài khoản thường.
+  const preview = !!video && !video.free && !profile.vip;
   // Mở đúng đoạn học thay vì từ giây 0 (video tự thêm: cả video)
   const clip = useMemo(() => clipWindow(lines, video?.durationSec ?? 0), [lines, video]);
   const clipRef = useRef(clip);
@@ -67,6 +70,7 @@ export default function WatchClient({
   const [loopLine, setLoopLine] = useState(false);
   const [perLine, setPerLine] = useState(false);
   const [showRomaji, setShowRomaji] = useState(true);
+  const [paywall, setPaywall] = useState(false);
   const [showTrans, setShowTrans] = useState(true);
   const loopLineRef = useRef(false);
   const perLineRef = useRef(false);
@@ -264,21 +268,6 @@ export default function WatchClient({
     }
   };
 
-  if (locked) {
-    return (
-      <div style={{ background: "var(--stage)", minHeight: "100dvh", color: "#fff", padding: 20 }}>
-        <Link href="/video" style={{ color: "#fff", textDecoration: "none", fontSize: 20 }}>←</Link>
-        <div style={{ marginTop: 40 }}>
-          <span className="lock-badge">VIP</span>
-          <h1 style={{ fontSize: 19, fontWeight: 700, marginTop: 12, lineHeight: 1.45 }}>
-            {pickText(video!.titles, lang)}
-          </h1>
-        </div>
-        <Paywall onClose={() => history.back()} />
-      </div>
-    );
-  }
-
   const activeLine = lines[activeIdx];
   const dictLine = lines[dictIdx];
 
@@ -309,7 +298,7 @@ export default function WatchClient({
             <button
               key={m}
               type="button"
-              onClick={() => setMode(m)}
+              onClick={() => (preview && (m === "dictation" || m === "shadowing") ? setPaywall(true) : setMode(m))}
               style={{
                 flex: 1, textAlign: "center", fontSize: 13, fontWeight: 600, padding: "9px 0",
                 borderRadius: 10, cursor: "pointer", fontFamily: "inherit",
@@ -396,7 +385,7 @@ export default function WatchClient({
               {ui.player.nextLine} →
             </button>
           </div>
-          {lines.map((line, i) => (
+          {lines.map((line, i) => i >= FREE_VIDEO_LINES && preview ? null : (
             <div
               key={i}
               ref={(el) => {
@@ -420,6 +409,27 @@ export default function WatchClient({
               )}
             </div>
           ))}
+          {preview && lines.length > FREE_VIDEO_LINES && (
+            <div style={{ position: "relative", marginTop: 4 }}>
+              {/* Dòng giả làm mờ: không đưa chữ thật của câu VIP vào trang */}
+              <div aria-hidden style={{ filter: "blur(5px)", opacity: 0.55, userSelect: "none", pointerEvents: "none" }}>
+                {[0, 1, 2].map((k) => (
+                  <div key={k} style={{ padding: "10px 12px" }}>
+                    <div style={{ height: 18, width: `${88 - k * 14}%`, background: "#CBD5E1", borderRadius: 6 }} />
+                    <div style={{ height: 12, width: `${70 - k * 10}%`, background: "#64748B", borderRadius: 6, marginTop: 10 }} />
+                  </div>
+                ))}
+              </div>
+              <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 10, textAlign: "center" }}>
+                <span style={{ fontSize: 14, fontWeight: 700, color: "#fff" }}>
+                  {ui.vip.previewMore.replace("{n}", String(lines.length - FREE_VIDEO_LINES))}
+                </span>
+                <button type="button" onClick={() => setPaywall(true)} style={{ height: 44, padding: "0 22px", borderRadius: 10, border: 0, background: "#F5C542", color: "#14213D", fontWeight: 800, fontSize: 14, cursor: "pointer", fontFamily: "inherit" }}>
+                  {ui.vip.unlock}
+                </button>
+              </div>
+            </div>
+          )}
           <div style={{ fontSize: 11, color: "var(--muted)", textAlign: "center", padding: "6px 0 2px" }}>
             {ui.player.tapWordHint}
           </div>
@@ -547,6 +557,7 @@ export default function WatchClient({
           )}
         </div>
       )}
+      {paywall && <Paywall onClose={() => setPaywall(false)} />}
     </div>
   );
 }
