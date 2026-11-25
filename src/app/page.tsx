@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { useLang } from "../components/LangProvider";
 import Paywall from "../components/Paywall";
 import { VIDEO_INDEX, formatDuration } from "../lib/catalog.generated";
-import { PATHS } from "../lib/paths";
+import PathGrid from "../components/PathGrid";
 import { SERIES, seriesOf } from "../lib/series";
 import { pickText } from "../lib/i18n";
 import type { JlptLevel, VideoCategory } from "../lib/content-schema";
@@ -46,6 +46,11 @@ const rowStyle: React.CSSProperties = {
   color: "inherit",
   fontFamily: "inherit",
 };
+
+// Chỉ hiện chip của thể loại đang có video: chip rỗng (vd Anime khi chưa có gói) làm app trông dở dang.
+const CATEGORY_CHIPS = (["all", "conversation", "podcast", "anime", "song"] as const).filter(
+  (c) => c === "all" || VIDEO_INDEX.some((v) => v.category === c),
+);
 
 export default function HomePage() {
   const { ui, lang, profile, ready } = useLang();
@@ -188,7 +193,7 @@ export default function HomePage() {
       </div>
 
       <div style={{ display: "flex", gap: 8, marginTop: 8, overflowX: "auto", paddingBottom: 2 }}>
-        {(["all", "conversation", "podcast", "anime", "song"] as const).map((c) => (
+        {CATEGORY_CHIPS.map((c) => (
           <button key={c} type="button" className={`chip${category === c ? " on" : ""}`} onClick={() => setCategory(c)}>
             {c === "all" ? ui.categories.all : ui.categories[c]}
           </button>
@@ -223,32 +228,7 @@ export default function HomePage() {
 
       <h2 style={{ fontSize: 16, fontWeight: 700, margin: "20px 0 4px" }}>{ui.paths.title}</h2>
       <p style={{ fontSize: 12, color: "var(--muted)", lineHeight: 1.5 }}>{ui.paths.subtitle}</p>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginTop: 12 }}>
-        {PATHS.map((p) => {
-          const info = ui.paths[p.id];
-          const done = p.items.filter((id) => {
-            const pr = progress[id];
-            return pr && pr.total > 0 && pr.pos / pr.total >= 0.9;
-          }).length;
-          return (
-            <Link
-              key={p.id}
-              href={`/paths/${p.id}`}
-              className="card"
-              style={{ textDecoration: "none", color: "inherit", display: "block" }}
-            >
-              <span style={{ display: "block", fontSize: 14, fontWeight: 700, color: "var(--navy)", lineHeight: 1.3 }}>{info.name}</span>
-              <span style={{ display: "block", fontSize: 11, color: "var(--muted)", marginTop: 4, lineHeight: 1.45 }}>{info.desc}</span>
-              <span style={{ display: "block", fontSize: 11, fontWeight: 700, color: "var(--navy)", marginTop: 8 }}>
-                {done}/{p.items.length} {ui.paths.lessons}
-              </span>
-              <span className="progress-track" style={{ display: "block", marginTop: 5 }}>
-                <i style={{ width: `${(done / p.items.length) * 100}%` }} />
-              </span>
-            </Link>
-          );
-        })}
-      </div>
+      <PathGrid />
 
       {continueVideo && (
         <>
