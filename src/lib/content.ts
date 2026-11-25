@@ -566,6 +566,28 @@ import story453 from "../../content/stories/the-language-of-silence.json";
 import story454 from "../../content/stories/when-an-era-changes.json";
 import story455 from "../../content/stories/the-japanese-garden.json";
 
+// --- kệ A/E văn học (chuẩn v2): import ---
+import v2AkaiRousokuToNingyo from "../../content/stories/akai-rousoku-to-ningyo.json";
+import v2HanshichiOfumi1 from "../../content/stories/hanshichi-ofumi-1.json";
+import v2HanshichiOfumi2 from "../../content/stories/hanshichi-ofumi-2.json";
+import v2Jigokuhen1 from "../../content/stories/jigokuhen-1.json";
+import v2Jigokuhen2 from "../../content/stories/jigokuhen-2.json";
+import v2Budori1 from "../../content/stories/budori-1.json";
+import v2Budori2 from "../../content/stories/budori-2.json";
+import v2Budori3 from "../../content/stories/budori-3.json";
+import v2Budori4 from "../../content/stories/budori-4.json";
+import v2HanshichiYukidaruma1 from "../../content/stories/hanshichi-yukidaruma-1.json";
+import v2HanshichiYukidaruma2 from "../../content/stories/hanshichi-yukidaruma-2.json";
+import v2Botchan1 from "../../content/stories/botchan-1.json";
+import v2Botchan2 from "../../content/stories/botchan-2.json";
+import v2Botchan3 from "../../content/stories/botchan-3.json";
+import v2Botchan4 from "../../content/stories/botchan-4.json";
+import v2Botchan5 from "../../content/stories/botchan-5.json";
+import v2Botchan6 from "../../content/stories/botchan-6.json";
+import v2Madara1 from "../../content/stories/madara-1.json";
+import v2Madara2 from "../../content/stories/madara-2.json";
+// --- hết kệ A/E: import ---
+
 export const VIDEOS: VideoContent[] = [
   video1 as unknown as VideoContent,
   video2 as unknown as VideoContent,
@@ -1135,6 +1157,27 @@ export const STORIES: StoryContent[] = [
   story453 as unknown as StoryContent,
   story454 as unknown as StoryContent,
   story455 as unknown as StoryContent,
+  // --- kệ A/E văn học (chuẩn v2) ---
+  v2AkaiRousokuToNingyo as unknown as StoryContent,
+  v2HanshichiOfumi1 as unknown as StoryContent,
+  v2HanshichiOfumi2 as unknown as StoryContent,
+  v2Jigokuhen1 as unknown as StoryContent,
+  v2Jigokuhen2 as unknown as StoryContent,
+  v2Budori1 as unknown as StoryContent,
+  v2Budori2 as unknown as StoryContent,
+  v2Budori3 as unknown as StoryContent,
+  v2Budori4 as unknown as StoryContent,
+  v2HanshichiYukidaruma1 as unknown as StoryContent,
+  v2HanshichiYukidaruma2 as unknown as StoryContent,
+  v2Botchan1 as unknown as StoryContent,
+  v2Botchan2 as unknown as StoryContent,
+  v2Botchan3 as unknown as StoryContent,
+  v2Botchan4 as unknown as StoryContent,
+  v2Botchan5 as unknown as StoryContent,
+  v2Botchan6 as unknown as StoryContent,
+  v2Madara1 as unknown as StoryContent,
+  v2Madara2 as unknown as StoryContent,
+  // --- hết kệ A/E ---
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

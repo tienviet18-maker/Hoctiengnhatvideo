@@ -7489,6 +7489,591 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": false,
   "sentenceCount": 8
+ },
+ {
+  "id": "akai-rousoku-to-ningyo",
+  "titles": {
+   "vi": "Cây nến đỏ và nàng tiên cá",
+   "en": "The Red Candles and the Mermaid",
+   "zh-Hans": "红蜡烛与人鱼",
+   "zh-Hant": "紅蠟燭與人魚",
+   "ko": "빨간 양초와 인어",
+   "tl": "Ang Pulang Kandila at ang Sirena",
+   "ne": "रातो मैनबत्ती र जलपरी",
+   "id": "Lilin Merah dan Putri Duyung",
+   "pt": "As Velas Vermelhas e a Sereia",
+   "my": "အနီရောင် ဖယောင်းတိုင်နှင့် ရေသူမ",
+   "th": "เทียนสีแดงกับนางเงือก"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/akai-rousoku-to-ningyo.webp",
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/akai-rousoku-to-ningyo/chapter.mp3",
+   "durationSec": 388.18
+  }
+ },
+ {
+  "id": "hanshichi-ofumi-1",
+  "titles": {
+   "vi": "Hồ sơ Hanshichi: Hồn ma Ofumi (Phần 1)",
+   "en": "Hanshichi's Casebook: The Ghost of Ofumi (Part 1)",
+   "zh-Hans": "半七捕物帐：阿文之魂（上）",
+   "zh-Hant": "半七捕物帳：阿文之魂（上）",
+   "ko": "한시치 체포록: 오후미의 혼 (1)",
+   "tl": "Mga Kaso ni Hanshichi: Ang Kaluluwa ni Ofumi (Bahagi 1)",
+   "ne": "हान्सिचीका मुद्दा: ओफुमीको आत्मा (भाग १)",
+   "id": "Kasus Hanshichi: Arwah Ofumi (Bagian 1)",
+   "pt": "Os Casos de Hanshichi: A Alma de Ofumi (Parte 1)",
+   "my": "ဟန်ရှိချိ အမှုတွဲ: အိုဖူမိရဲ့ ဝိညာဉ် (အပိုင်း ၁)",
+   "th": "บันทึกคดีฮันชิจิ: วิญญาณของโอฟุมิ (ตอนที่ 1)"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 46,
+  "cover": "/covers/hanshichi-ofumi-1.webp",
+  "series": {
+   "id": "hanshichi-ofumi",
+   "index": 1
+  },
+  "shelf": "mystery",
+  "audioTrack": {
+   "src": "/audio/hanshichi-ofumi-1/chapter.mp3",
+   "durationSec": 288.96
+  }
+ },
+ {
+  "id": "hanshichi-ofumi-2",
+  "titles": {
+   "vi": "Hanshichi: Hồn ma Ofumi (2)",
+   "en": "Hanshichi: The Ghost of Ofumi (2)",
+   "zh-Hans": "半七捕物帐：阿文之魂（二）",
+   "zh-Hant": "半七捕物帳：阿文之魂（二）",
+   "ko": "한시치 체포록: 오후미의 혼 (2)",
+   "tl": "Hanshichi: Ang Multo ni Ofumi (2)",
+   "ne": "हान्सिची: ओफुमीको आत्मा (२)",
+   "id": "Hanshichi: Arwah Ofumi (2)",
+   "pt": "Hanshichi: O Fantasma de Ofumi (2)",
+   "my": "ဟန်ရှိချိ: အိုဖူမိရဲ့ ဝိညာဉ် (၂)",
+   "th": "ฮันชิจิ: วิญญาณโอฟุมิ (2)"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/hanshichi-ofumi-2.webp",
+  "series": {
+   "id": "hanshichi-ofumi",
+   "index": 2
+  },
+  "shelf": "mystery",
+  "audioTrack": {
+   "src": "/audio/hanshichi-ofumi-2/chapter.mp3",
+   "durationSec": 388.49
+  }
+ },
+ {
+  "id": "jigokuhen-1",
+  "titles": {
+   "vi": "Bức bình phong địa ngục (1)",
+   "en": "Hell Screen (1)",
+   "zh-Hans": "地狱变（一）",
+   "zh-Hant": "地獄變（一）",
+   "ko": "지옥변 (1)",
+   "tl": "Ang Tabing ng Impiyerno (1)",
+   "ne": "नरकको पर्दा (१)",
+   "id": "Layar Neraka (1)",
+   "pt": "O Biombo do Inferno (1)",
+   "my": "ငရဲပုံ ကာရံ (၁)",
+   "th": "ฉากกั้นนรก (1)"
+  },
+  "level": "N2",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 48,
+  "cover": "/covers/jigokuhen-1.webp",
+  "series": {
+   "id": "jigokuhen",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/jigokuhen-1/chapter.mp3",
+   "durationSec": 367.34
+  }
+ },
+ {
+  "id": "jigokuhen-2",
+  "titles": {
+   "vi": "Bức bình phong địa ngục (2)",
+   "en": "Hell Screen (2)",
+   "zh-Hans": "地狱变（二）",
+   "zh-Hant": "地獄變（二）",
+   "ko": "지옥변 (2)",
+   "tl": "Ang Tabing ng Impiyerno (2)",
+   "ne": "नरकको पर्दा (२)",
+   "id": "Layar Neraka (2)",
+   "pt": "O Biombo do Inferno (2)",
+   "my": "ငရဲပုံ ကာရံ (၂)",
+   "th": "ฉากกั้นนรก (2)"
+  },
+  "level": "N2",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/jigokuhen-2.webp",
+  "series": {
+   "id": "jigokuhen",
+   "index": 2
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/jigokuhen-2/chapter.mp3",
+   "durationSec": 348.34
+  }
+ },
+ {
+  "id": "budori-1",
+  "titles": {
+   "vi": "Cuộc đời Gusukō Budori (1)",
+   "en": "The Life of Gusuko Budori (1)",
+   "zh-Hans": "古斯柯·布德利传（一）",
+   "zh-Hant": "古斯柯·布德利傳（一）",
+   "ko": "구스코 부도리의 전기 (1)",
+   "tl": "Ang Buhay ni Gusuko Budori (1)",
+   "ne": "गुस्को बुदोरीको जीवनी (१)",
+   "id": "Riwayat Gusuko Budori (1)",
+   "pt": "A Vida de Gusuko Budori (1)",
+   "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၁)",
+   "th": "ชีวประวัติของกุสุโค บุโดริ (1)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 48,
+  "cover": "/covers/budori-1.webp",
+  "series": {
+   "id": "budori",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/budori-1/chapter.mp3",
+   "durationSec": 345.5
+  }
+ },
+ {
+  "id": "budori-2",
+  "titles": {
+   "vi": "Cuộc đời Gusukō Budori (2)",
+   "en": "The Life of Gusuko Budori (2)",
+   "zh-Hans": "古斯柯·布德利传（二）",
+   "zh-Hant": "古斯柯·布德利傳（二）",
+   "ko": "구스코 부도리의 전기 (2)",
+   "tl": "Ang Buhay ni Gusuko Budori (2)",
+   "ne": "गुस्को बुदोरीको जीवनी (२)",
+   "id": "Riwayat Gusuko Budori (2)",
+   "pt": "A Vida de Gusuko Budori (2)",
+   "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၂)",
+   "th": "ชีวประวัติของกุสุโค บุโดริ (2)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/budori-2.webp",
+  "series": {
+   "id": "budori",
+   "index": 2
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/budori-2/chapter.mp3",
+   "durationSec": 342.14
+  }
+ },
+ {
+  "id": "budori-3",
+  "titles": {
+   "vi": "Cuộc đời Gusukō Budori (3)",
+   "en": "The Life of Gusuko Budori (3)",
+   "zh-Hans": "古斯柯·布德利传（三）",
+   "zh-Hant": "古斯柯·布德利傳（三）",
+   "ko": "구스코 부도리의 전기 (3)",
+   "tl": "Ang Buhay ni Gusuko Budori (3)",
+   "ne": "गुस्को बुदोरीको जीवनी (३)",
+   "id": "Riwayat Gusuko Budori (3)",
+   "pt": "A Vida de Gusuko Budori (3)",
+   "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၃)",
+   "th": "ชีวประวัติของกุสุโค บุโดริ (3)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 47,
+  "cover": "/covers/budori-3.webp",
+  "series": {
+   "id": "budori",
+   "index": 3
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/budori-3/chapter.mp3",
+   "durationSec": 347.86
+  }
+ },
+ {
+  "id": "budori-4",
+  "titles": {
+   "vi": "Cuộc đời Gusukō Budori (4)",
+   "en": "The Life of Gusuko Budori (4)",
+   "zh-Hans": "古斯柯·布德利传（四）",
+   "zh-Hant": "古斯柯·布德利傳（四）",
+   "ko": "구스코 부도리의 전기 (4)",
+   "tl": "Ang Buhay ni Gusuko Budori (4)",
+   "ne": "गुस्को बुदोरीको जीवनी (४)",
+   "id": "Riwayat Gusuko Budori (4)",
+   "pt": "A Vida de Gusuko Budori (4)",
+   "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၄)",
+   "th": "ชีวประวัติของกุสุโค บุโดริ (4)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 50,
+  "cover": "/covers/budori-4.webp",
+  "series": {
+   "id": "budori",
+   "index": 4
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/budori-4/chapter.mp3",
+   "durationSec": 369.55
+  }
+ },
+ {
+  "id": "hanshichi-yukidaruma-1",
+  "titles": {
+   "vi": "Hanshichi: Người tuyết (1)",
+   "en": "Hanshichi: The Snowman (1)",
+   "zh-Hans": "半七捕物帐：雪人（一）",
+   "zh-Hant": "半七捕物帳：雪人（一）",
+   "ko": "한시치 체포록: 눈사람 (1)",
+   "tl": "Hanshichi: Ang Taong-Niyebe (1)",
+   "ne": "हान्सिची: हिउँको मान्छे (१)",
+   "id": "Hanshichi: Manusia Salju (1)",
+   "pt": "Hanshichi: O Boneco de Neve (1)",
+   "my": "ဟန်ရှိချိ: နှင်းလူရုပ် (၁)",
+   "th": "ฮันชิจิ: ตุ๊กตาหิมะ (1)"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 52,
+  "cover": "/covers/hanshichi-yukidaruma-1.webp",
+  "series": {
+   "id": "hanshichi-yukidaruma",
+   "index": 1
+  },
+  "shelf": "mystery",
+  "audioTrack": {
+   "src": "/audio/hanshichi-yukidaruma-1/chapter.mp3",
+   "durationSec": 368.69
+  }
+ },
+ {
+  "id": "hanshichi-yukidaruma-2",
+  "titles": {
+   "vi": "Hanshichi: Người tuyết (2)",
+   "en": "Hanshichi: The Snowman (2)",
+   "zh-Hans": "半七捕物帐：雪人（二）",
+   "zh-Hant": "半七捕物帳：雪人（二）",
+   "ko": "한시치 체포록: 눈사람 (2)",
+   "tl": "Hanshichi: Ang Taong-Niyebe (2)",
+   "ne": "हान्सिची: हिउँको मान्छे (२)",
+   "id": "Hanshichi: Manusia Salju (2)",
+   "pt": "Hanshichi: O Boneco de Neve (2)",
+   "my": "ဟန်ရှိချိ: နှင်းလူရုပ် (၂)",
+   "th": "ฮันชิจิ: ตุ๊กตาหิมะ (2)"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 55,
+  "cover": "/covers/hanshichi-yukidaruma-2.webp",
+  "series": {
+   "id": "hanshichi-yukidaruma",
+   "index": 2
+  },
+  "shelf": "mystery",
+  "audioTrack": {
+   "src": "/audio/hanshichi-yukidaruma-2/chapter.mp3",
+   "durationSec": 410.95
+  }
+ },
+ {
+  "id": "botchan-1",
+  "titles": {
+   "vi": "Botchan (1): Rời Tokyo",
+   "en": "Botchan (1): Leaving Tokyo",
+   "zh-Hans": "少爷（一）：离开东京",
+   "zh-Hant": "少爺（一）：離開東京",
+   "ko": "도련님 (1): 도쿄를 떠나기까지",
+   "tl": "Botchan (1): Pag-alis sa Tokyo",
+   "ne": "बोच्चान (१): टोकियो छोड्दा",
+   "id": "Botchan (1): Meninggalkan Tokyo",
+   "pt": "Botchan (1): Deixando Tóquio",
+   "my": "ဘော့ချန် (၁): တိုကျိုမှ ထွက်ခွာ",
+   "th": "บ็อตจัง (1): จากโตเกียว"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 52,
+  "cover": "/covers/botchan-1.webp",
+  "series": {
+   "id": "botchan",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/botchan-1/chapter.mp3",
+   "durationSec": 347.06
+  }
+ },
+ {
+  "id": "botchan-2",
+  "titles": {
+   "vi": "Botchan (2): Biệt danh và mì tempura",
+   "en": "Botchan (2): Nicknames and Tempura Soba",
+   "zh-Hans": "少爷（二）：绰号与天妇罗荞麦面",
+   "zh-Hant": "少爺（二）：綽號與天婦羅蕎麥麵",
+   "ko": "도련님 (2): 별명과 튀김 소바",
+   "tl": "Botchan (2): Mga Palayaw at Tempura Soba",
+   "ne": "बोच्चान (२): उपनाम र टेम्पुरा सोबा",
+   "id": "Botchan (2): Julukan dan Soba Tempura",
+   "pt": "Botchan (2): Apelidos e Soba de Tempurá",
+   "my": "ဘော့ချန် (၂): နာမည်ပြောင်နဲ့ တန်ပူရာဆိုဘာ",
+   "th": "บ็อตจัง (2): ฉายากับโซบะเทมปุระ"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/botchan-2.webp",
+  "series": {
+   "id": "botchan",
+   "index": 2
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/botchan-2/chapter.mp3",
+   "durationSec": 346.8
+  }
+ },
+ {
+  "id": "botchan-3",
+  "titles": {
+   "vi": "Botchan (3): Đêm trực và lũ châu chấu",
+   "en": "Botchan (3): Night Duty and the Grasshoppers",
+   "zh-Hans": "少爷（三）：值夜与蚱蜢",
+   "zh-Hant": "少爺（三）：值夜與蚱蜢",
+   "ko": "도련님 (3): 숙직과 메뚜기",
+   "tl": "Botchan (3): Gabing Bantay at mga Tipaklong",
+   "ne": "बोच्चान (३): रात्रि पालो र फट्याङ्ग्राहरू",
+   "id": "Botchan (3): Jaga Malam dan Belalang",
+   "pt": "Botchan (3): O Plantão Noturno e os Gafanhotos",
+   "my": "ဘော့ချန် (၃): ညစောင့်ခြင်းနဲ့ နှံကောင်များ",
+   "th": "บ็อตจัง (3): เวรกลางคืนกับตั๊กแตน"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/botchan-3.webp",
+  "series": {
+   "id": "botchan",
+   "index": 3
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/botchan-3/chapter.mp3",
+   "durationSec": 343.15
+  }
+ },
+ {
+  "id": "botchan-4",
+  "titles": {
+   "vi": "Botchan (4): Một sen năm rin và nàng Madonna",
+   "en": "Botchan (4): One and a Half Sen and Madonna",
+   "zh-Hans": "少爷（四）：一钱五厘与玛丹娜",
+   "zh-Hant": "少爺（四）：一錢五釐與瑪丹娜",
+   "ko": "도련님 (4): 1전 5리와 마돈나",
+   "tl": "Botchan (4): Isa't Kalahating Sen at si Madonna",
+   "ne": "बोच्चान (४): डेढ सेन र मडोना",
+   "id": "Botchan (4): Satu Setengah Sen dan Madonna",
+   "pt": "Botchan (4): Um Sen e Meio e Madonna",
+   "my": "ဘော့ချန် (၄): တစ်ဆင်ခွဲနဲ့ မဒေါ်နာ",
+   "th": "บ็อตจัง (4): หนึ่งเซ็นครึ่งกับมาดอนน่า"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/botchan-4.webp",
+  "series": {
+   "id": "botchan",
+   "index": 4
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/botchan-4/chapter.mp3",
+   "durationSec": 355.87
+  }
+ },
+ {
+  "id": "botchan-5",
+  "titles": {
+   "vi": "Botchan (5): Tiệc chia tay và trận ẩu đả lớn",
+   "en": "Botchan (5): The Farewell Party and the Big Brawl",
+   "zh-Hans": "少爷（五）：送别会与大斗殴",
+   "zh-Hant": "少爺（五）：送別會與大鬥毆",
+   "ko": "도련님 (5): 송별회와 큰 싸움",
+   "tl": "Botchan (5): Ang Despedida at ang Malaking Away",
+   "ne": "बोच्चान (५): बिदाइ भोज र ठूलो झगडा",
+   "id": "Botchan (5): Pesta Perpisahan dan Perkelahian Besar",
+   "pt": "Botchan (5): A Festa de Despedida e a Grande Briga",
+   "my": "ဘော့ချန် (၅): နှုတ်ဆက်ပွဲနဲ့ ရန်ပွဲကြီး",
+   "th": "บ็อตจัง (5): งานเลี้ยงส่งกับการตะลุมบอนครั้งใหญ่"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/botchan-5.webp",
+  "series": {
+   "id": "botchan",
+   "index": 5
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/botchan-5/chapter.mp3",
+   "durationSec": 325.94
+  }
+ },
+ {
+  "id": "botchan-6",
+  "titles": {
+   "vi": "Botchan (6 – hết): Trừng phạt kẻ gian và Kiyo đợi ở Tokyo",
+   "en": "Botchan (6, final): Justice Served and Kiyo Waiting in Tokyo",
+   "zh-Hans": "少爷（六·完）：天诛，与在东京等待的阿清",
+   "zh-Hant": "少爺（六·完）：天誅，與在東京等待的阿清",
+   "ko": "도련님 (6·완): 천벌, 그리고 도쿄에서 기다리는 기요",
+   "tl": "Botchan (6, wakas): Katarungan at si Kiyo na Naghihintay sa Tokyo",
+   "ne": "बोच्चान (६, अन्तिम): दण्ड र टोकियोमा पर्खिरहेकी कियो",
+   "id": "Botchan (6, tamat): Hukuman dan Kiyo yang Menanti di Tokyo",
+   "pt": "Botchan (6, final): Justiça Feita e Kiyo à Espera em Tóquio",
+   "my": "ဘော့ချန် (၆၊ ဇာတ်သိမ်း): ဒဏ်ပေးခြင်းနဲ့ တိုကျိုမှာ စောင့်နေတဲ့ ကီယို",
+   "th": "บ็อตจัง (6 จบ): ลงทัณฑ์คนชั่ว กับคิโยะที่รออยู่ในโตเกียว"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/botchan-6.webp",
+  "series": {
+   "id": "botchan",
+   "index": 6
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/botchan-6/chapter.mp3",
+   "durationSec": 330.46
+  }
+ },
+ {
+  "id": "madara-1",
+  "titles": {
+   "vi": "Dải băng lốm đốm (1): Vị khách run rẩy",
+   "en": "The Speckled Band (1): The Trembling Client",
+   "zh-Hans": "斑点带子案（一）：颤抖的委托人",
+   "zh-Hant": "花斑帶探案（一）：顫抖的委託人",
+   "ko": "얼룩 끈 (1): 떨고 있는 의뢰인",
+   "tl": "Ang Batik-batik na Laso (1): Ang Nanginginig na Kliyente",
+   "ne": "थोप्ले फित्ता (१): काँपिरहेकी ग्राहक",
+   "id": "Pita Berbintik (1): Klien yang Gemetar",
+   "pt": "A Faixa Malhada (1): A Cliente Trêmula",
+   "my": "အစက်ပြောက်ကြိုး (၁): တုန်နေတဲ့ အကူအညီတောင်းသူ",
+   "th": "แถบลายจุด (1): ผู้ว่าจ้างที่ตัวสั่น"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 52,
+  "cover": "/covers/madara-1.webp",
+  "series": {
+   "id": "madara",
+   "index": 1
+  },
+  "shelf": "world",
+  "audioTrack": {
+   "src": "/audio/madara-1/chapter.mp3",
+   "durationSec": 340.73
+  }
+ },
+ {
+  "id": "madara-2",
+  "titles": {
+   "vi": "Dải băng lốm đốm (2 – hết): Tiếng huýt sáo lúc nửa đêm",
+   "en": "The Speckled Band (2, final): The Midnight Whistle",
+   "zh-Hans": "斑点带子案（二·完）：午夜的口哨",
+   "zh-Hant": "花斑帶探案（二·完）：午夜的口哨",
+   "ko": "얼룩 끈 (2·완): 한밤중의 휘파람",
+   "tl": "Ang Batik-batik na Laso (2, wakas): Ang Sipol sa Hatinggabi",
+   "ne": "थोप्ले फित्ता (२, अन्तिम): मध्यरातको सिट्ठी",
+   "id": "Pita Berbintik (2, tamat): Siulan Tengah Malam",
+   "pt": "A Faixa Malhada (2, final): O Assobio da Meia-Noite",
+   "my": "အစက်ပြောက်ကြိုး (၂၊ ဇာတ်သိမ်း): သန်းခေါင်ယံ လေချွန်သံ",
+   "th": "แถบลายจุด (2 จบ): เสียงผิวปากยามเที่ยงคืน"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/madara-2.webp",
+  "series": {
+   "id": "madara",
+   "index": 2
+  },
+  "shelf": "world",
+  "audioTrack": {
+   "src": "/audio/madara-2/chapter.mp3",
+   "durationSec": 322.3
+  }
  }
 ];
 

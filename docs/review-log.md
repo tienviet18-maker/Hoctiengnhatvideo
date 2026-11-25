@@ -86,6 +86,43 @@ bản quyền bản dịch. Các mục này xử lý ở Bước 0b–0c.
 | 20 | **Cao** | Rà bản quyền 66 truyện chuyển thể (`aozora-adapted`). Ở Nhật cả 66 đều hết bản quyền. Theo luật Mỹ (URAA), 5 tác phẩm của Dazai Osamu (mất 1948) in 1939–1947 còn bản quyền ở Mỹ đến 2035–2043: 走れメロス, 富嶽百景, 女生徒, 斜陽, ヴィヨンの妻. App bán toàn cầu nên đã gỡ 5 gói này. 61 gói còn lại: tác giả mất trước 1946, hoặc tác giả mất 1946–1967 nhưng tác phẩm in trước 1931 (Kōda Rohan, 五重塔 1891). Truyện của Hearn là tự kể lại bằng tiếng Nhật từ bản gốc tiếng Anh 1904, không dùng bản dịch hiện đại. Bản dịch 11 ngôn ngữ là bản tự dịch từ văn bản của mình. Chuẩn v2 mục 2 đã ghi rõ quy tắc URAA. | #7 |
 | 21 | **Cao** | Schema v2 thêm `audioTrack` (audio liền cho cả chương, để nghe khi tắt màn hình hoặc qua Bluetooth), `t` và `voice` cho từng câu, `lesson` (điểm ngữ pháp và câu hỏi), `shelf`, `origin`. QC chặn gói v2 thiếu các trường này. Chuẩn v2 thêm mục 6b–6d. | #8 |
 
+## Đợt 3 — Truyện chuẩn v2, kệ A (văn học Nhật) và E (văn học thế giới) (25/11/2026)
+
+Nhánh `claude/stories-batch1-v2`. Kệ A/E do luồng này cấp id; khối đăng ký riêng trong `src/lib/content.ts`
+(giữa dấu `kệ A/E văn học (chuẩn v2)`) để không đụng các luồng khác. Muse: đừng cấp id cho các tác phẩm ở kệ A/E
+trong `/mnt/project-files/miraigo/content-plan/audio-tuyen-chon.md`.
+
+| Gói | Cấp | Câu | Audio | Ghi chú |
+|---|---|---|---|---|
+| akai-rousoku-to-ningyo | N3 | 61 | 6:28 | 小川未明 (in 1921). Thay một trong 5 truyện Dazai đã gỡ. |
+| hanshichi-ofumi-1 | N3 | 46 | 4:49 | 岡本綺堂 半七捕物帳「お文の魂」tập 1, miễn phí. |
+| hanshichi-ofumi-2 | N3 | 58 | 6:28 | Tập 2 (VIP). |
+| jigokuhen-1 | N2 | 48 | 6:07 | 芥川龍之介「地獄変」(1918) tập 1, miễn phí. Cảnh cưỡng ép chỉ gợi ý. |
+| jigokuhen-2 | N2 | 48 | 5:48 | Tập 2 (VIP). Cái chết nói bằng 「自ら命を絶つ」, giải thích câu 42 có số よりそいホットライン. |
+| budori-1 | N3 | 48 | 5:46 | 宮沢賢治「グスコーブドリの伝記」(1932) tập 1, miễn phí. Nạn đói, Neri bị bắt đi, xưởng tơ. |
+| budori-2 | N3 | 48 | 5:42 | Tập 2 (VIP). Ruộng bùn của Râu Đỏ, sách của Kūbō, hạn hán. |
+| budori-3 | N3 | 47 | 5:48 | Tập 3 (VIP). Đại bác sĩ Kūbō, Cục Núi lửa, cứu thị trấn Sanmutori. |
+| budori-4 | N3 | 50 | 6:10 | Tập 4 (VIP). Mưa phân bón, gặp lại Neri, đảo Karbonado; sự hy sinh kể gián tiếp như bản gốc. Commit `6c5ad20`. |
+| hanshichi-yukidaruma-1 | N3 | 52 | 6:09 | 岡本綺堂 半七捕物帳「雪達磨」(1919) tập 1, miễn phí. Người tuyết tan lộ thi thể, manh mối hạt cườm 南京玉. |
+| hanshichi-yukidaruma-2 | N3 | 55 | 6:51 | Tập 2 (VIP). Đường dây tiền giả; thân phận お政 kể kín đáo, án tử làm mềm thành 厳しく罰せられました. |
+| botchan-1 | N3 | 52 | 5:47 | 夏目漱石「坊っちゃん」(1906) series 6 tập, tập 1 miễn phí. Tuổi thơ, 清, rời Tokyo. Bản cũ `botchan` (N4, 12 câu) giữ nguyên cho người mới. |
+| botchan-2 | N3 | 52 | 5:47 | Tập 2 (VIP). Biệt danh các thầy, 天ぷらそば, 「湯の中で泳ぐべからず」; giải thích nối với Matsuyama và Dōgo Onsen ngày nay. Commit `3f4b33b`. |
+| botchan-3 | N3 | 52 | 5:43 | Tập 3 (VIP). Đêm trực, châu chấu trong nệm, đi câu với Áo đỏ; Botchan bắt đầu nghi Nhím núi. Commit `c51f1f6`. |
+| botchan-4 | N3 | 52 | 5:56 | Tập 4 (VIP). Một sen năm rin, cuộc họp hội đồng, chuyện Madonna, Botchan từ chối tăng lương. Thêm giọng bà cụ Hagino (Neural2-B +1). Commit `047546a`. |
+| botchan-5 | N3 | 52 | 5:26 | Tập 5 (VIP). Làm lành với Nhím núi, tiệc chia tay Bí cuối mùa, trận ẩu đả mừng chiến thắng, bài báo vu khống. Commit `ccbb22f`. |
+| botchan-6 | N3 | 52 | 5:30 | Tập 6, tập cuối (VIP). Botchan đòi từ chức cùng Nhím núi, 8 đêm rình ở Masuya, ném trứng và trừng phạt Áo đỏ, Nodaiko, về Tokyo sống với Kiyo; câu kết về mộ Kiyo ở chùa Yōgen-ji. Series 坊っちゃん đủ 6 tập. Commit `2fb335d`. |
+| madara-1 | N3 | 52 | 5:41 | Sherlock Holmes「まだらの紐」(Conan Doyle 1892, tự kể lại từ tiếng Anh) tập 1, miễn phí, kệ world. Helen Stoner, cái chết của Julia, tiếng huýt sáo, Roylott bẻ que cời. Commit `ba5df9a`. |
+| madara-2 | N3 | 52 | 5:22 | Tập 2, tập cuối (VIP). Dây chuông giả, lỗ thông gió, giường bắt chặt, đĩa sữa; đêm canh, tiếng xì, rắn đầm lầy là "dải băng lốm đốm". Series まだらの紐 đủ 2 tập. Cần đối chiếu câu chữ với nguyên tác khi Gutenberg mở lại. |
+
+Công cụ và sửa lỗi kèm theo:
+
+- `scripts/produce/` (build-story, tts, cover, register): dây chuyền một chương từ file nguồn tới JSON chuẩn v2, audio liền
+  `chapter.mp3` có mốc từng câu, bìa, đăng ký. Mô tả ở `docs/content-standard.md` mục 7b.
+- `scripts/lib/level.mjs`: thêm `vocabLevel`. Trước đây cấp từ vựng tra cả theo cách đọc nên từ có kanji trúng từ đồng âm
+  (怪談 かいだん bị nhận là 階段 N5). Nay chỉ tra cách đọc khi từ viết toàn kana; `qc-standard.mjs` dùng hàm mới.
+- Cách đọc từ vựng lấy theo dạng từ điển (雇う やとう, không phải やとっ).
+- Danh sách truyện hiện ảnh bìa nhỏ; trang đọc có nút "Chương tiếp theo" theo `series` (chuỗi mới đủ 11 ngôn ngữ).
+- Quy tắc bìa Việt đã duyệt ghi vào `docs/content-standard.md` mục 7.
 ## Kệ B Rakugo — lô 1 (25/11/2026)
 
 Nhánh `claude/shelf-rakugo-mukashi`, dựa trên PR #8. Ba gói chuẩn v2, đều N3 (cấp đo bằng kuromoji + danh sách JLPT, không gán tay):
