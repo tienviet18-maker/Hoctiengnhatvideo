@@ -232,10 +232,17 @@ từ vựng có cấp, bài học 4 ngữ pháp + 4 câu đố, audio đo trên 
 | furusato-vn-cuoi-1 「月のクオイ」 | N4 | 60 | 5.2 phút | 月のうさぎ, お月見, 竹取物語 | 5ed325b |
 | furusato-vn-coc-1 「天へ行くカエル」 | N3 | 59 | 5.5 phút | 桃太郎, 雨ごい | 5eb4364 |
 | furusato-vn-oc-1 「タニシの仙女」 | N3 | 60 | 5.3 phút | 鶴の恩返し, 田螺長者 | b262512 |
+| furusato-vn-neu-1 「鬼とテトの竹」 | N3 | 63 | 5.5 phút | 門松/年神さま, 節分 | 9023413 |
+| furusato-vn-tichchu-1 「鳥になったおばあさん」 | N4 | 60 | 5.3 phút | うばすて山 | 90b0120 |
+| furusato-vn-vusua-1 「お母さんの木」 | N4 | 60 | 5.6 phút | 安寿と厨子王, 親孝行したいときに親はなし | 17c3af7 |
+| furusato-vn-babe-1 「湖にしずんだ村」 | N4 | 60 | 5.5 phút | 蘇民将来 | 2fc5932 |
+| furusato-vn-mychau-1 「白い羽の道」 | N3 | 66 | 6.5 phút | お市の方 và túi đậu đỏ | 034146a |
 
 Ghi chú: Bánh chưng, Táo quân, Cóc kiện trời, Nàng tiên Ốc dự định N4 nhưng tỉ lệ từ khó vượt 15% nên
 chuyển N3 (kế hoạch cho phép N4–N3 với truyện VN). Nguồn Nepal đã kiểm chứng trước khi viết.
-Hai gói VN cuối (Cóc, Ốc) nằm ở nhánh `claude/furusato-vn-2` tạo từ main sau khi PR #19 đã gộp.
+Bảy gói VN cuối (Cóc, Ốc, Nêu, Tích Chu, Vú sữa, Ba Bể, Mỵ Châu) nằm ở nhánh `claude/furusato-vn-2` (PR #23) tạo từ main
+sau khi PR #19 đã gộp. Đủ 10 truyện VN mới theo lệnh 26/11; cân cấp hiện tại: N3 = 6 (Bánh chưng, Táo quân, Cóc, Ốc, Nêu,
+Mỵ Châu), N4 = 4 (Cuội, Tích Chu, Vú sữa, Ba Bể). Hồ Ba Bể theo bản SGK (gói tro + hai mảnh vỏ trấu), không phải hạt thóc.
 
 ## Kệ F 「大阪で働く」 — tập 1–5 (25/11/2026, nhánh `claude/furusato-osaka`)
 
