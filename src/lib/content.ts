@@ -645,6 +645,7 @@ import v2Botchan5 from "../../content/stories/botchan-5.json";
 import v2Botchan6 from "../../content/stories/botchan-6.json";
 import v2Madara1 from "../../content/stories/madara-1.json";
 import v2Madara2 from "../../content/stories/madara-2.json";
+import s_furusatoVnCoc1 from "../../content/stories/furusato-vn-coc-1.json";
 // --- hết kệ A/E: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1296,6 +1297,7 @@ export const STORIES: StoryContent[] = [
   v2Madara1 as unknown as StoryContent,
   v2Madara2 as unknown as StoryContent,
   // --- hết kệ A/E ---
+  s_furusatoVnCoc1 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
