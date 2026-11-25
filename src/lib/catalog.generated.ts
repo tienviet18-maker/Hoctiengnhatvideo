@@ -7167,6 +7167,32 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "botchan",
    "index": 2
   }
+ },
+ {
+  "id": "botchan-3",
+  "titles": {
+   "vi": "Botchan (3): Đêm trực và lũ châu chấu",
+   "en": "Botchan (3): Night Duty and the Grasshoppers",
+   "zh-Hans": "少爷（三）：值夜与蚱蜢",
+   "zh-Hant": "少爺（三）：值夜與蚱蜢",
+   "ko": "도련님 (3): 숙직과 메뚜기",
+   "tl": "Botchan (3): Gabing Bantay at mga Tipaklong",
+   "ne": "बोच्चान (३): रात्रि पालो र फट्याङ्ग्राहरू",
+   "id": "Botchan (3): Jaga Malam dan Belalang",
+   "pt": "Botchan (3): O Plantão Noturno e os Gafanhotos",
+   "my": "ဘော့ချန် (၃): ညစောင့်ခြင်းနဲ့ နှံကောင်များ",
+   "th": "บ็อตจัง (3): เวรกลางคืนกับตั๊กแตน"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/botchan-3.webp",
+  "series": {
+   "id": "botchan",
+   "index": 3
+  }
  }
 ];
 

@@ -106,7 +106,8 @@ trong `/mnt/project-files/miraigo/content-plan/audio-tuyen-chon.md`.
 | hanshichi-yukidaruma-1 | N3 | 52 | 6:09 | 岡本綺堂 半七捕物帳「雪達磨」(1919) tập 1, miễn phí. Người tuyết tan lộ thi thể, manh mối hạt cườm 南京玉. |
 | hanshichi-yukidaruma-2 | N3 | 55 | 6:51 | Tập 2 (VIP). Đường dây tiền giả; thân phận お政 kể kín đáo, án tử làm mềm thành 厳しく罰せられました. |
 | botchan-1 | N3 | 52 | 5:47 | 夏目漱石「坊っちゃん」(1906) series 6 tập, tập 1 miễn phí. Tuổi thơ, 清, rời Tokyo. Bản cũ `botchan` (N4, 12 câu) giữ nguyên cho người mới. |
-| botchan-2 | N3 | 52 | 5:47 | Tập 2 (VIP). Biệt danh các thầy, 天ぷらそば, 「湯の中で泳ぐべからず」; giải thích nối với Matsuyama và Dōgo Onsen ngày nay. |
+| botchan-2 | N3 | 52 | 5:47 | Tập 2 (VIP). Biệt danh các thầy, 天ぷらそば, 「湯の中で泳ぐべからず」; giải thích nối với Matsuyama và Dōgo Onsen ngày nay. Commit `3f4b33b`. |
+| botchan-3 | N3 | 52 | 5:43 | Tập 3 (VIP). Đêm trực, châu chấu trong nệm, đi câu với Áo đỏ; Botchan bắt đầu nghi Nhím núi. |
 
 Công cụ và sửa lỗi kèm theo:
 
