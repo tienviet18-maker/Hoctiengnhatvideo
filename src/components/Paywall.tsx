@@ -14,6 +14,19 @@ export const PLANS = [
 ] as const;
 type PlanKey = (typeof PLANS)[number]["key"];
 const MONTH_JPY = 900;
+
+/**
+ * Ưu đãi ra mắt (Việt chốt 25/11/2026): giảm 50% năm đầu của gói năm cho người mua
+ * trước hạn. Giá gạch là giá năm thật (¥7.800), nên đây là giá so sánh đúng luật
+ * (景品表示法). Trên iOS làm bằng Introductory Offer "pay up front" của App Store.
+ * Hết hạn: tự ẩn, paywall chỉ còn so sánh với giá tháng.
+ * TODO(Việt): chốt ngày kết thúc theo ngày ra mắt thật.
+ */
+export const LAUNCH_OFFER = {
+  plan: "yearly" as const,
+  firstPeriodJpy: 3900,
+  endsAt: "2027-03-31T23:59:59+09:00",
+};
 const yen = (n: number) => `¥${n.toLocaleString("ja-JP")}`;
 
 /**
@@ -23,6 +36,10 @@ const yen = (n: number) => `¥${n.toLocaleString("ja-JP")}`;
 export default function Paywall({ onClose }: { onClose: () => void }) {
   const { ui } = useLang();
   const [plan, setPlan] = useState<PlanKey>("yearly");
+  // Paywall chỉ mở sau thao tác của người dùng (không prerender), nên đọc giờ lúc mount
+  const [now] = useState(() => Date.now());
+  const offerOn = now < Date.parse(LAUNCH_OFFER.endsAt);
+  const offerEnd = new Date(LAUNCH_OFFER.endsAt).toLocaleDateString("ja-JP", { timeZone: "Asia/Tokyo" });
   return (
     <div
       style={{
@@ -86,25 +103,46 @@ export default function Paywall({ onClose }: { onClose: () => void }) {
               >
                 <span>
                   <span style={{ display: "block", fontWeight: 700, fontSize: 15 }}>{ui.paywall[p.key]}</span>
-                  {savePct > 0 && (
+                  {offerOn && p.key === LAUNCH_OFFER.plan && (
+                    <span style={{ display: "inline-block", fontSize: 11, fontWeight: 800, color: "#fff", background: "var(--accent)", borderRadius: 6, padding: "2px 7px", marginTop: 4 }}>
+                      {ui.paywall.launchOffer} −{Math.round((1 - LAUNCH_OFFER.firstPeriodJpy / p.priceJpy) * 100)}%
+                    </span>
+                  )}
+                  {savePct > 0 && !(offerOn && p.key === LAUNCH_OFFER.plan) && (
                     <span style={{ display: "block", fontSize: 12, fontWeight: 700, color: "var(--accent)", marginTop: 2 }}>
                       {ui.paywall.save.replace("{n}", String(savePct))}
                       {p.key === "yearly" ? ` · ${ui.paywall.bestValue}` : ""}
                     </span>
                   )}
                 </span>
-                <span style={{ marginLeft: "auto", textAlign: "right" }}>
-                  <span style={{ display: "block", fontWeight: 800, fontSize: 18, color: "var(--navy)" }}>{yen(p.priceJpy)}</span>
-                  {p.months > 1 && (
-                    <span style={{ display: "block", fontSize: 12, color: "var(--muted)" }}>
-                      ≈ {yen(perMonth)}{ui.paywall.perMonth}
+                {offerOn && p.key === LAUNCH_OFFER.plan ? (
+                  <span style={{ marginLeft: "auto", textAlign: "right" }}>
+                    <span style={{ display: "block", fontSize: 12, color: "var(--muted)", textDecoration: "line-through" }}>{yen(p.priceJpy)}</span>
+                    <span style={{ display: "block", fontWeight: 800, fontSize: 20, color: "var(--accent)" }}>{yen(LAUNCH_OFFER.firstPeriodJpy)}</span>
+                    <span style={{ display: "block", fontSize: 11.5, color: "var(--muted)" }}>
+                      {ui.paywall.firstYear} · ≈ {yen(Math.round(LAUNCH_OFFER.firstPeriodJpy / 12))}{ui.paywall.perMonth}
                     </span>
-                  )}
-                </span>
+                  </span>
+                ) : (
+                  <span style={{ marginLeft: "auto", textAlign: "right" }}>
+                    <span style={{ display: "block", fontWeight: 800, fontSize: 18, color: "var(--navy)" }}>{yen(p.priceJpy)}</span>
+                    {p.months > 1 && (
+                      <span style={{ display: "block", fontSize: 12, color: "var(--muted)" }}>
+                        ≈ {yen(perMonth)}{ui.paywall.perMonth}
+                      </span>
+                    )}
+                  </span>
+                )}
               </button>
             );
           })}
         </div>
+
+        {offerOn && (
+          <p style={{ fontSize: 12, color: "var(--muted)", marginTop: 10, lineHeight: 1.5 }}>
+            {ui.paywall.offerTerms.replace("{date}", offerEnd).replace("{price}", yen(PLANS[0].priceJpy))}
+          </p>
+        )}
 
         <button type="button" className="btn-primary" style={{ marginTop: 18 }} disabled>
           {ui.paywall.upgrade}
