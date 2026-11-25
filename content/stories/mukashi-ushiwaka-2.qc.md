@@ -14,6 +14,6 @@
 | U | Ushiwaka | `ja-JP-Neural2-C` rate=1.08 pitch=6 | 5 |
 | B | Benkei | `ja-JP-Neural2-C` rate=0.9 pitch=-9 | 11 |
 
-- **Bài học**: 4 điểm ngữ pháp (〜てばかりいないで, 〜より〜ほうが, 〜たまま, 〜ほど), 4 câu hỏi hiểu bài. Kệ: `folktale-jp`.
+- **Bài học**: 4 điểm ngữ pháp (〜てばかりいないで, 〜より〜ほうが, 〜と言われている, 〜でも（さえ）), 4 câu hỏi hiểu bài. Kệ: `folktale-jp`.
 - **Bản dịch + giải thích 11 ngôn ngữ**: Claude tự dịch từ tiếng Nhật và tự duyệt theo quy tắc của Việt (dịch ngược kiểm nghĩa,
   thuật ngữ đời sống Nhật nhất quán, tên giờ Edo và đơn vị tiền giữ nguyên kèm giải thích).

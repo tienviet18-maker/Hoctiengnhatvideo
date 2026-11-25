@@ -142,3 +142,24 @@ Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Sáu gói chuẩn v2, `sh
 - Glossary chung `content/sources/glossary-rakugo-mukashi.tsv` thêm khoảng 80 từ 11 ngôn ngữ.
 - `npm run verify` xanh trên bản clone sạch (commit 4a8afc0); QC toàn kho sau gói cuối: 557 gói, 0 lỗi, 15 gói chuẩn v2.
 - Còn lại kệ C: かぐや姫 (2–3 tập, Kiwi Maru), 酒呑童子 ×2 (RocknRoll One), 牛若丸と弁慶 ×2 (Yusei Magic).
+
+## Kệ C Truyện dân gian Nhật — lô 2 (25/11/2026)
+
+Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Bảy gói chuẩn v2, N3, `shelf: "folktale-jp"`. Với gói này, kệ C đủ 13 gói (6 truyện).
+
+| Gói | Commit | Câu | Audio liền | Bìa (font) | Bài học | Miễn phí |
+|---|---|---|---|---|---|---|
+| `mukashi-kaguya-1` かぐや姫 (一) | 46eec2a | 58 | 5,9 phút | Kiwi Maru | ほど, ばかり, てもらう, たいものだ + 4 câu hỏi | VIP |
+| `mukashi-kaguya-2` かぐや姫 (二) | d9e6d2f | 58 | 6,1 phút | Kiwi Maru | (さ)せる, まるで〜ようだ, ずに, ふりをする + 4 | VIP |
+| `mukashi-kaguya-3` かぐや姫 (三) | e1102e1 | 57 | 6,0 phút | Kiwi Maru | なければならない, はず, まま, ように命じる + 4 | VIP |
+| `mukashi-shuten-1` 酒呑童子 (一) | d1a9f78 | 59 | 6,0 phút | RocknRoll One | として, とおり, 使役受身, てはならない + 4 | có |
+| `mukashi-shuten-2` 酒呑童子 (二) | 464907f | 58 | 6,0 phút | RocknRoll One | てみせる, たことがない, というのに, のためなら + 4 | VIP |
+| `mukashi-ushiwaka-1` 牛若丸と弁慶 (一) | da51415 | 55 | 5,8 phút | Yusei Magic | ている場合ではない, の代わりに, さえ, てみたらどうですか + 4 | có |
+| `mukashi-ushiwaka-2` 牛若丸と弁慶 (二) | ae05bcb + bài học sửa | 55 | 5,9 phút | Yusei Magic | てばかりいないで, より〜ほうが, と言われている, でも + 4 | VIP |
+
+- Giọng: Aoede kể; nhân vật Neural2-C/B cố định mỗi người một giọng (Raikō, Kintoki, Tsuna, Shuten-dōji, quỷ gác cổng, thần linh, Tokiwa, Ushiwaka, Benkei, thiên cẩu, sứ giả cung trăng…), ghi trong `meta.json`.
+- Pháp lý: かぐや姫 dựa trên 竹取物語 (thế kỷ 9–10), 酒呑童子 dựa trên Otogizōshi/emaki thời Muromachi, 牛若丸と弁慶 dựa trên 義経記 (thời Muromachi). Tất cả public domain, lời kể do Claude tự viết; không dùng lời bài hát đồng dao 牛若丸 (dù đã hết bản quyền, để tránh tranh cãi).
+- 牛若丸と弁慶 tập 2 kết bằng các thành ngữ còn sống trong tiếng Nhật: 弁慶の立ち往生, 弁慶の泣き所, 内弁慶, 判官びいき (gắn "truyện cổ" với tiếng Nhật đời thường).
+- Đọc ép thêm: 都 (みやこ), 頼光 (らいこう), 酒呑童子, 神便鬼毒酒, 殿 (どの), 牛若, 源氏/平家, 判官 (ほうがん), 体中 (からだじゅう), 一本 (いっぽん), 角 (つの), 夜中 (よなか)… Từ bị tách sai chuyển vào `skipVocab` (綱, 殿, 助け, 教え, ちゃんと, 丸).
+- Bài học tập 2 牛若丸 đổi 2 điểm (たまま, ほど → と言われている, でも) để không trùng với các tập khác trong kệ.
+- Glossary chung thêm khoảng 130 từ 11 ngôn ngữ. QC toàn kho: 564 gói, 0 lỗi, 22 gói chuẩn v2.
