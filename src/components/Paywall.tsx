@@ -1,18 +1,28 @@
 "use client";
 
+import { useState } from "react";
 import { useLang } from "./LangProvider";
 
-const PRICE_MONTH_JPY = 550;
-const PRICE_YEAR_JPY = 4980;
+/**
+ * Giá VIP (Việt chốt 25/11/2026): 1 tháng ¥900, các gói dài rẻ hơn theo tháng.
+ * Chỉ sửa giá ở đây. % tiết kiệm tính thật từ giá 1 tháng, không dùng giá gạch giả.
+ */
+export const PLANS = [
+  { key: "yearly", months: 12, priceJpy: 7800 },
+  { key: "sixMonths", months: 6, priceJpy: 4400 },
+  { key: "monthly", months: 1, priceJpy: 900 },
+] as const;
+type PlanKey = (typeof PLANS)[number]["key"];
+const MONTH_JPY = 900;
 const yen = (n: number) => `¥${n.toLocaleString("ja-JP")}`;
 
 /**
- * Màn hình paywall kiểu Tadoku (mở khoá toàn bộ).
- * MVP chưa nối thanh toán — nút nâng cấp để dành, chỉ hiển thị gói và giá đích
- * của MiraiGo (CLAUDE.md mục 2): ¥550/tháng, ¥4.980/năm.
+ * Màn hình paywall (mở khoá toàn bộ). Chưa nối thanh toán thật: nút nâng cấp
+ * đang tắt cho tới đợt In-App Purchase / SePay (docs/ux-plan.md mục 6).
  */
 export default function Paywall({ onClose }: { onClose: () => void }) {
   const { ui } = useLang();
+  const [plan, setPlan] = useState<PlanKey>("yearly");
   return (
     <div
       style={{
@@ -55,40 +65,45 @@ export default function Paywall({ onClose }: { onClose: () => void }) {
           {ui.paywall.subtitle}
         </p>
 
-        <div
-          style={{
-            border: "2px solid var(--navy)",
-            borderRadius: 12,
-            padding: "14px 16px",
-            marginTop: 18,
-            display: "flex",
-            alignItems: "center",
-            gap: 10,
-          }}
-        >
-          <div>
-            <div style={{ fontWeight: 700, fontSize: 15 }}>{ui.paywall.yearly}</div>
-            <div style={{ fontSize: 12, color: "var(--muted)" }}>{ui.paywall.bestValue}</div>
-          </div>
-          <div style={{ marginLeft: "auto", textAlign: "right" }}>
-            <div style={{ fontWeight: 800, fontSize: 18, color: "var(--navy)" }}>{yen(PRICE_YEAR_JPY)}</div>
-            <div style={{ fontSize: 12, color: "var(--muted)" }}>≈ {yen(Math.round(PRICE_YEAR_JPY / 12))} / {ui.paywall.monthly}</div>
-          </div>
-        </div>
-
-        <div
-          style={{
-            border: "1px solid var(--border)",
-            borderRadius: 12,
-            padding: "14px 16px",
-            marginTop: 10,
-            display: "flex",
-            alignItems: "center",
-            gap: 10,
-          }}
-        >
-          <div style={{ fontWeight: 700, fontSize: 15 }}>{ui.paywall.monthly}</div>
-          <div style={{ marginLeft: "auto", fontWeight: 800, fontSize: 18 }}>{yen(PRICE_MONTH_JPY)}</div>
+        <div role="radiogroup" style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 18 }}>
+          {PLANS.map((p) => {
+            const on = plan === p.key;
+            const perMonth = Math.round(p.priceJpy / p.months);
+            const savePct = Math.round((1 - p.priceJpy / (MONTH_JPY * p.months)) * 100);
+            return (
+              <button
+                key={p.key}
+                type="button"
+                role="radio"
+                aria-checked={on}
+                onClick={() => setPlan(p.key)}
+                style={{
+                  border: on ? "2px solid var(--navy)" : "1px solid var(--border)",
+                  borderRadius: 12, padding: on ? "13px 15px" : "14px 16px", background: "#fff",
+                  display: "flex", alignItems: "center", gap: 10, cursor: "pointer", fontFamily: "inherit",
+                  color: "var(--text)", textAlign: "left", minHeight: 44,
+                }}
+              >
+                <span>
+                  <span style={{ display: "block", fontWeight: 700, fontSize: 15 }}>{ui.paywall[p.key]}</span>
+                  {savePct > 0 && (
+                    <span style={{ display: "block", fontSize: 12, fontWeight: 700, color: "var(--accent)", marginTop: 2 }}>
+                      {ui.paywall.save.replace("{n}", String(savePct))}
+                      {p.key === "yearly" ? ` · ${ui.paywall.bestValue}` : ""}
+                    </span>
+                  )}
+                </span>
+                <span style={{ marginLeft: "auto", textAlign: "right" }}>
+                  <span style={{ display: "block", fontWeight: 800, fontSize: 18, color: "var(--navy)" }}>{yen(p.priceJpy)}</span>
+                  {p.months > 1 && (
+                    <span style={{ display: "block", fontSize: 12, color: "var(--muted)" }}>
+                      ≈ {yen(perMonth)}{ui.paywall.perMonth}
+                    </span>
+                  )}
+                </span>
+              </button>
+            );
+          })}
         </div>
 
         <button type="button" className="btn-primary" style={{ marginTop: 18 }} disabled>

@@ -41,8 +41,8 @@ function fill(s: string, n: number) {
   return s.replace("{n}", String(n));
 }
 
-function todayKey() {
-  const d = new Date();
+function todayKey(ts: number) {
+  const d = new Date(ts);
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 
@@ -57,11 +57,16 @@ export default function HomePage() {
     if (ready && !profile.onboarded) router.replace("/onboarding");
   }, [ready, profile.onboarded, router]);
 
+  // Giờ hiện tại chỉ đọc sau khi mount (prerender không được dùng new Date()); 0 = chưa có.
+  const [now, setNow] = useState(0);
+  useEffect(() => {
+    const t = window.setTimeout(() => setNow(Date.now()), 0);
+    return () => window.clearTimeout(t);
+  }, []);
   // activity là phụ thuộc để streak tính lại khi có hoạt động mới
-  const streak = useMemo(() => (activity ? getStreak() : 0), [activity]);
-  const minutesToday = activity[todayKey()]?.minutes ?? 0;
-  const [now] = useState(() => Date.now());
-  const due = useMemo(() => deck.filter((c) => c.due <= now).length, [deck, now]);
+  const streak = useMemo(() => (now && activity ? getStreak() : 0), [activity, now]);
+  const minutesToday = now ? activity[todayKey(now)]?.minutes ?? 0 : 0;
+  const due = useMemo(() => (now ? deck.filter((c) => c.due <= now).length : 0), [deck, now]);
 
   const resume = useMemo(() => {
     const entries = Object.entries(progress).sort((a, b) => b[1].updatedAt - a[1].updatedAt);
@@ -81,7 +86,7 @@ export default function HomePage() {
   const newest = useMemo(() => STORY_INDEX.slice(-8).reverse(), []);
   const newVideos = useMemo(() => VIDEO_INDEX.slice(-6).reverse(), []);
 
-  const hour = new Date().getHours();
+  const hour = now ? new Date(now).getHours() : 12;
   const greet = hour < 11 ? ui.home.morning : hour < 18 ? ui.home.afternoon : ui.home.evening;
 
   return (

@@ -80,7 +80,7 @@ Thứ tự ưu tiên: A cùng với 6 màn hình, rồi đến B8, B9, B11, B13,
 - Chỉ VIP được tải về nghe offline. File lưu trong app, không xuất ra ngoài.
 - Bản iOS thanh toán bằng In-App Purchase của Apple (quy định 3.1.1). SePay chỉ dùng cho bản web.
 - Mọi bước dùng tiền thật đều phải hỏi Việt trước.
-- Giá: Việt sẽ đề xuất. Code hiện để giá đích ¥550/tháng và ¥4.980/năm ở một chỗ duy nhất (`Paywall.tsx`) để dễ đổi.
+- Giá (Việt chốt 25/11): 1 tháng ¥900; 6 tháng ¥4.400 (≈ ¥733/tháng, tiết kiệm 19%); 1 năm ¥7.800 (≈ ¥650/tháng, tiết kiệm 28%, rẻ hơn Tadoku ¥8.000/năm). Giá chỉ khai báo ở `PLANS` trong `Paywall.tsx`.
 
 ### Ranh giới miễn phí / VIP (đề xuất, chờ Việt duyệt)
 
