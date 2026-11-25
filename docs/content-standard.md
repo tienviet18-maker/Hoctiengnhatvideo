@@ -14,8 +14,11 @@ Học để **sống ở Nhật**, không phải luyện thi JLPT. N5–N1 chỉ
 ## 2. Pháp lý (chặn tuyệt đối)
 
 - Truyện: chỉ sáng tác gốc hoặc tác phẩm public domain. Ở Nhật: tác giả mất năm 1967 trở về trước
-  (thời hạn 70 năm từ 30/12/2018 không áp ngược). App bán toàn cầu nên kiểm thêm luật Mỹ (xuất bản
-  trước 1931 là an toàn). **Bản dịch** cũng phải hết bản quyền hoặc do mình tự dịch. Không dùng nhân vật/cốt truyện
+  (thời hạn 70 năm từ 30/12/2018 không áp ngược). App bán toàn cầu nên kiểm thêm luật Mỹ: xuất bản
+  trước 1931 là an toàn. Tác phẩm còn bản quyền ở Nhật vào ngày 1/1/1996 (tác giả mất từ 1946 trở đi)
+  được Mỹ khôi phục bản quyền 95 năm tính từ năm xuất bản (luật URAA), nên tác giả mất 1946–1967 thì
+  chỉ dùng tác phẩm in trước 1931. Ví dụ: Dazai Osamu (mất 1948), 走れメロス in 1940, còn bản quyền ở
+  Mỹ đến hết 2035. **Bản dịch** cũng phải hết bản quyền hoặc do mình tự dịch. Không dùng nhân vật/cốt truyện
   anime, manga, phim còn bản quyền. Không dùng sách của NPO 多言語多読 (CC BY-NC-ND).
 - Tin tức: tự viết từ sự kiện, thông tin công khai. Không chép hay dịch bài của NHK, Asahi hay báo khác.
 - Video: chỉ nhúng YouTube (cho phép nhúng, xem được ở Nhật), không lưu bản sao.
