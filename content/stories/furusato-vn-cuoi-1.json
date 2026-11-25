@@ -1,0 +1,4521 @@
+{
+  "kind": "story",
+  "id": "furusato-vn-cuoi-1",
+  "titles": {
+    "vi": "Sự tích chú Cuội cung trăng",
+    "en": "Cuội, the Man in the Moon",
+    "zh-Hans": "阿贵上月亮",
+    "zh-Hant": "阿貴上月亮",
+    "ko": "달에 간 꾸오이 아저씨",
+    "tl": "Si Cuội, ang Lalaki sa Buwan",
+    "ne": "चन्द्रमामा पुगेका कुओई",
+    "id": "Cuội, Lelaki di Bulan",
+    "pt": "Cuội, o homem da lua",
+    "my": "လထဲက ကွီဦးလေး",
+    "th": "กุ๋ยชายบนดวงจันทร์"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "cover": "/covers/furusato-vn-cuoi-1.webp",
+  "free": false,
+  "standard": 2,
+  "series": {
+    "id": "furusato-vn-cuoi",
+    "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "lesson": {
+    "grammarPoints": [
+      {
+        "pattern": "〜しか〜ない",
+        "example": 32,
+        "meaning": {
+          "vi": "chỉ ~ (thôi)",
+          "en": "only ~ (with a negative verb)",
+          "zh-Hans": "只……",
+          "zh-Hant": "只……",
+          "ko": "~밖에 ~않다",
+          "tl": "~ lamang",
+          "ne": "~ मात्र",
+          "id": "hanya ~",
+          "pt": "só ~, apenas ~",
+          "my": "~ ပဲ (အငြင်းနဲ့)",
+          "th": "~ เท่านั้น"
+        }
+      },
+      {
+        "pattern": "〜てはいけない",
+        "example": 33,
+        "meaning": {
+          "vi": "không được ~",
+          "en": "must not ~",
+          "zh-Hans": "不可以……",
+          "zh-Hant": "不可以……",
+          "ko": "~하면 안 된다",
+          "tl": "hindi puwedeng ~",
+          "ne": "~ गर्नु हुँदैन",
+          "id": "tidak boleh ~",
+          "pt": "não pode ~",
+          "my": "~ မလုပ်ရ",
+          "th": "ห้าม ~"
+        }
+      },
+      {
+        "pattern": "〜てしまう",
+        "example": 37,
+        "meaning": {
+          "vi": "lỡ ~, ~ mất (tiếc nuối)",
+          "en": "end up ~ (with regret)",
+          "zh-Hans": "不小心……了",
+          "zh-Hant": "不小心……了",
+          "ko": "~해 버리다",
+          "tl": "nauwi sa ~",
+          "ne": "~ गरिहाल्नु",
+          "id": "terlanjur ~",
+          "pt": "acabar ~",
+          "my": "~ မိသွား",
+          "th": "~ ไปเสียแล้ว"
+        }
+      },
+      {
+        "pattern": "〜によって",
+        "example": 57,
+        "meaning": {
+          "vi": "tùy theo ~",
+          "en": "depending on ~",
+          "zh-Hans": "根据……，因……而不同",
+          "zh-Hant": "根據……，因……而不同",
+          "ko": "~에 따라",
+          "tl": "depende sa ~",
+          "ne": "~ अनुसार",
+          "id": "tergantung ~",
+          "pt": "conforme ~",
+          "my": "~ အလိုက်",
+          "th": "ขึ้นอยู่กับ ~"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "ja": "トラのお母さんは、何で子どもを助けましたか。",
+        "choices": [
+          "ふしぎな木の葉っぱ",
+          "川のきれいな水",
+          "おもち",
+          "おの"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Bằng lá của cây thần.",
+          "en": "With leaves of the magic tree.",
+          "zh-Hans": "用神奇树的叶子。",
+          "zh-Hant": "用神奇樹的葉子。",
+          "ko": "신기한 나무의 잎.",
+          "tl": "Sa dahon ng mahiwagang puno.",
+          "ne": "जादुई रुखको पातले।",
+          "id": "Dengan daun pohon ajaib.",
+          "pt": "Com folhas da árvore mágica.",
+          "my": "ထူးဆန်းတဲ့ သစ်ပင်ရဲ့ အရွက်နဲ့။",
+          "th": "ด้วยใบของต้นไม้วิเศษ"
+        }
+      },
+      {
+        "ja": "この木に、してはいけないことは何ですか。",
+        "choices": [
+          "きたない水をかけること",
+          "葉っぱを取ること",
+          "にわに植えること",
+          "月を見ること"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Tưới nước bẩn.",
+          "en": "Pouring dirty water on it.",
+          "zh-Hans": "浇脏水。",
+          "zh-Hant": "澆髒水。",
+          "ko": "더러운 물을 붓는 것.",
+          "tl": "Buhusan ng maruming tubig.",
+          "ne": "फोहोर पानी हाल्नु।",
+          "id": "Menyiram air kotor.",
+          "pt": "Jogar água suja.",
+          "my": "ရေညစ် လောင်းတာ။",
+          "th": "รดน้ำสกปรก"
+        }
+      },
+      {
+        "ja": "クオイは、どうやって月へ行きましたか。",
+        "choices": [
+          "木の根っこに、おのを引っかけて",
+          "トラに乗って",
+          "コイに乗って",
+          "ランプを持って"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Móc rìu vào rễ cây đang bay.",
+          "en": "By hooking his axe on the flying tree's roots.",
+          "zh-Hans": "用斧头钩住飞走的树根。",
+          "zh-Hant": "用斧頭鉤住飛走的樹根。",
+          "ko": "나무뿌리에 도끼를 걸어서.",
+          "tl": "Isinabit ang palakol sa ugat ng puno.",
+          "ne": "रुखको जरामा बञ्चरो अड्काएर।",
+          "id": "Mengaitkan kapak ke akar pohon.",
+          "pt": "Prendendo o machado nas raízes.",
+          "my": "သစ်ပင်အမြစ်ကို ပုဆိန်နဲ့ ချိတ်ပြီး။",
+          "th": "เอาขวานเกี่ยวรากต้นไม้"
+        }
+      },
+      {
+        "ja": "日本の人には、月の黒いところが何に見えますか。",
+        "choices": [
+          "おもちをつくウサギ",
+          "木の下の男の人",
+          "かぐや姫",
+          "竜"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Con thỏ giã bánh mochi.",
+          "en": "A rabbit pounding mochi.",
+          "zh-Hans": "捣年糕的兔子。",
+          "zh-Hant": "搗年糕的兔子。",
+          "ko": "떡을 찧는 토끼.",
+          "tl": "Kunehong nagbabayo ng mochi.",
+          "ne": "मोचि कुट्ने खरायो।",
+          "id": "Kelinci menumbuk mochi.",
+          "pt": "Um coelho socando mochi.",
+          "my": "မိုချိထောင်းတဲ့ ယုန်။",
+          "th": "กระต่ายตำโมจิ"
+        }
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "ja": "ベトナムでは、秋のまんまるの月の夜に、「テトチュントゥー」というお祭りがあります。",
+      "furigana": [
+        {
+          "surface": "ベトナムでは、",
+          "reading": ""
+        },
+        {
+          "surface": "秋",
+          "reading": "あき"
+        },
+        {
+          "surface": "のまんまるの",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "に、「テトチュントゥー」というお",
+          "reading": ""
+        },
+        {
+          "surface": "祭",
+          "reading": "まつ"
+        },
+        {
+          "surface": "りがあります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Betonamu de wa, aki no manma ru no tsuki no yoru ni, “Tetochuntuu” to iu o matsuri ga arimasu.",
+      "translations": {
+        "vi": "Ở Việt Nam, vào đêm trăng tròn mùa thu, có lễ hội gọi là \"Tết Trung thu\".",
+        "en": "In Vietnam, on the night of the full autumn moon, there is a festival called \"Tết Trung Thu\".",
+        "zh-Hans": "在越南，秋天月圆之夜有个节日叫“中秋节”。",
+        "zh-Hant": "在越南，秋天月圓之夜有個節日叫“中秋節”。",
+        "ko": "베트남에서는 가을 보름달 밤에 '뗏쭝투'라는 축제가 있습니다.",
+        "tl": "Sa Vietnam, sa gabi ng kabilugan ng buwan sa taglagas, may pista na tinatawag na \"Tết Trung Thu\".",
+        "ne": "भियतनाममा शरद ऋतुको पूर्णिमाको रात \"तेत चुङ थु\" भन्ने चाड हुन्छ।",
+        "id": "Di Vietnam, pada malam bulan purnama musim gugur, ada festival bernama \"Tết Trung Thu\".",
+        "pt": "No Vietnã, na noite de lua cheia do outono, há uma festa chamada \"Tết Trung Thu\".",
+        "my": "ဗီယက်နမ်မှာ ဆောင်းဦးလပြည့်ညမှာ \"တက်ချုန်ထူ\" ဆိုတဲ့ ပွဲတော် ရှိတယ်။",
+        "th": "ที่เวียดนาม ในคืนพระจันทร์เต็มดวงฤดูใบไม้ร่วง มีเทศกาลชื่อ \"เต๊ดจุงทู\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜というお祭り」: lễ hội tên là ~. まんまる = tròn vành vạnh.",
+        "en": "「〜という」 = called ~; まんまる = perfectly round.",
+        "zh-Hans": "「叫……的节日」；まんまる＝圆圆的。",
+        "zh-Hant": "「叫……的節日」；まんまる＝圓圓的。",
+        "ko": "~という = ~라는; まんまる = 동그란.",
+        "tl": "tinatawag na; bilog na bilog.",
+        "ne": "भन्ने; गोलो।",
+        "id": "bernama; bulat penuh.",
+        "pt": "chamado; bem redondo.",
+        "my": "ဆိုတဲ့; ဝိုင်းဝိုင်း။",
+        "th": "ชื่อว่า; กลมโต"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=0.3,6.878",
+      "t": [
+        0.3,
+        6.878
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "子どもたちは、星の形のランプを持って、町を歩きます。",
+      "furigana": [
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どもたちは、",
+          "reading": ""
+        },
+        {
+          "surface": "星",
+          "reading": "ほし"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "形",
+          "reading": "かたち"
+        },
+        {
+          "surface": "のランプを",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "町",
+          "reading": "まち"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "歩",
+          "reading": "ある"
+        },
+        {
+          "surface": "きます。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kodomotachi wa, hoshi no katachi no ranpu o motte, machi o arukimasu.",
+      "translations": {
+        "vi": "Trẻ con cầm đèn ông sao đi khắp phố.",
+        "en": "Children walk through town carrying star-shaped lanterns.",
+        "zh-Hans": "孩子们提着星星形状的灯笼在街上走。",
+        "zh-Hant": "孩子們提著星星形狀的燈籠在街上走。",
+        "ko": "아이들은 별 모양 등을 들고 거리를 걷습니다.",
+        "tl": "Naglalakad sa bayan ang mga bata na may dalang parol na hugis-bituin.",
+        "ne": "बालबालिका तारा आकारको बत्ती लिएर सहरमा हिँड्छन्।",
+        "id": "Anak-anak berjalan keliling kota membawa lentera berbentuk bintang.",
+        "pt": "As crianças andam pela cidade com lanternas em forma de estrela.",
+        "my": "ကလေးတွေက ကြယ်ပုံ မီးအိမ်ကိုင်ပြီး မြို့ထဲ လျှောက်ကြတယ်။",
+        "th": "เด็ก ๆ ถือโคมรูปดาวเดินไปทั่วเมือง"
+      },
+      "vocab": [
+        {
+          "word": "ランプ",
+          "reading": "らんぷ",
+          "meanings": {
+            "vi": "đèn, lồng đèn",
+            "en": "lamp, lantern",
+            "zh-Hans": "灯",
+            "zh-Hant": "燈",
+            "ko": "램프, 등",
+            "tl": "lampara, parol",
+            "ne": "बत्ती",
+            "id": "lampu, lentera",
+            "pt": "lâmpada, lanterna",
+            "my": "မီးအိမ်",
+            "th": "โคมไฟ"
+          },
+          "level": "N1"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜を持って」: cầm ~ (rồi làm gì). 形 = hình dạng.",
+        "en": "「〜を持って」 = carrying ~; 形 = shape.",
+        "zh-Hans": "「拿着……」；形＝形状。",
+        "zh-Hant": "「拿著……」；形＝形狀。",
+        "ko": "~を持って = ~를 들고; 形 = 모양.",
+        "tl": "may dalang; hugis.",
+        "ne": "लिएर; आकार।",
+        "id": "membawa; bentuk.",
+        "pt": "levando; forma.",
+        "my": "ကိုင်ပြီး; ပုံ။",
+        "th": "ถือ; รูป"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=7.478,12.6",
+      "t": [
+        7.478,
+        12.6
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そして、月を見て、こう言います。",
+      "furigana": [
+        {
+          "surface": "そして、",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "て、こう",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "います。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite, tsuki o mite, kou iimasu.",
+      "translations": {
+        "vi": "Rồi các em nhìn trăng và nói thế này.",
+        "en": "Then they look at the moon and say this.",
+        "zh-Hans": "然后，他们看着月亮这样说。",
+        "zh-Hant": "然後，他們看著月亮這樣說。",
+        "ko": "그리고 달을 보며 이렇게 말합니다.",
+        "tl": "Saka titingin sila sa buwan at sasabihin ito.",
+        "ne": "अनि जुनतिर हेरेर यसो भन्छन्।",
+        "id": "Lalu mereka memandang bulan dan berkata begini.",
+        "pt": "Depois olham a lua e dizem assim.",
+        "my": "ပြီးတော့ လကို ကြည့်ပြီး ဒီလို ပြောကြတယ်။",
+        "th": "แล้วก็มองพระจันทร์และพูดว่าอย่างนี้"
+      },
+      "vocab": [
+        {
+          "word": "こう",
+          "reading": "こう",
+          "meanings": {
+            "vi": "như thế này",
+            "en": "like this",
+            "zh-Hans": "这样",
+            "zh-Hant": "這樣",
+            "ko": "이렇게",
+            "tl": "ganito",
+            "ne": "यसरी",
+            "id": "begini",
+            "pt": "assim",
+            "my": "ဒီလို",
+            "th": "อย่างนี้"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "こう = như thế này.",
+        "en": "こう = like this.",
+        "zh-Hans": "こう＝这样。",
+        "zh-Hant": "こう＝這樣。",
+        "ko": "こう = 이렇게.",
+        "tl": "ganito.",
+        "ne": "यसो।",
+        "id": "begini.",
+        "pt": "assim.",
+        "my": "ဒီလို။",
+        "th": "อย่างนี้"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=13.2,16.344",
+      "t": [
+        13.2,
+        16.344
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ほら、月の中に、クオイおじさんがいるよ。」",
+      "furigana": [
+        {
+          "surface": "「ほら、",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "に、クオイおじさんがいるよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Hora, tsuki no naka ni, Kuoi ojisan ga iru yo.”",
+      "translations": {
+        "vi": "\"Kìa, trong mặt trăng có chú Cuội đấy.\"",
+        "en": "\"Look, Uncle Cuội is in the moon.\"",
+        "zh-Hans": "“看，月亮里有阿贵叔叔哦。”",
+        "zh-Hant": "“看，月亮裡有阿貴叔叔哦。”",
+        "ko": "\"봐, 달 속에 꾸오이 아저씨가 있어.\"",
+        "tl": "\"Tingnan mo, nasa buwan si Tiyo Cuội.\"",
+        "ne": "\"हेर त, जूनभित्र कुओई काका छन्।\"",
+        "id": "\"Lihat, di bulan ada Paman Cuội.\"",
+        "pt": "\"Olha, o tio Cuội está na lua.\"",
+        "my": "\"ကြည့်၊ လထဲမှာ ကွီဦးလေး ရှိတယ်။\"",
+        "th": "\"ดูสิ ในดวงจันทร์มีลุงกุ๋ยอยู่นะ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ほら = kìa, xem này. 「〜よ」: nhấn mạnh thông tin.",
+        "en": "ほら = look!; 「〜よ」 = tells the listener something.",
+        "zh-Hans": "ほら＝你看；よ＝告诉对方。",
+        "zh-Hant": "ほら＝你看；よ＝告訴對方。",
+        "ko": "ほら = 봐; よ = 알려 줌.",
+        "tl": "tingnan mo.",
+        "ne": "हेर त।",
+        "id": "lihat.",
+        "pt": "olha.",
+        "my": "ကြည့်။",
+        "th": "ดูสิ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=16.944,20.24",
+      "t": [
+        16.944,
+        20.24
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ベトナムの人には、月の黒いところが、木の下にすわる男の人に見えるのです。",
+      "furigana": [
+        {
+          "surface": "ベトナムの",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "には、",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "黒",
+          "reading": "くろ"
+        },
+        {
+          "surface": "いところが、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "下",
+          "reading": "した"
+        },
+        {
+          "surface": "にすわる",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "えるのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Betonamu no hito ni wa, tsuki no kuroi tokoroga, ki no shita ni suwaru otoko no hito ni mieru no desu.",
+      "translations": {
+        "vi": "Với người Việt, vết đen trên mặt trăng trông như một người đàn ông ngồi dưới gốc cây.",
+        "en": "To Vietnamese people, the dark parts of the moon look like a man sitting under a tree.",
+        "zh-Hans": "在越南人眼里，月亮上的黑影像一个坐在树下的男人。",
+        "zh-Hant": "在越南人眼裡，月亮上的黑影像一個坐在樹下的男人。",
+        "ko": "베트남 사람에게는 달의 검은 부분이 나무 아래 앉은 남자로 보입니다.",
+        "tl": "Para sa mga Vietnamese, ang madilim na bahagi ng buwan ay mukhang lalaking nakaupo sa ilalim ng puno.",
+        "ne": "भियतनामीलाई जूनको कालो भाग रुखमुनि बसेको मानिसजस्तो देखिन्छ।",
+        "id": "Bagi orang Vietnam, bagian gelap bulan tampak seperti lelaki duduk di bawah pohon.",
+        "pt": "Para os vietnamitas, as partes escuras da lua parecem um homem sentado sob uma árvore.",
+        "my": "ဗီယက်နမ်လူတွေအတွက် လရဲ့ အမည်းကွက်က သစ်ပင်အောက်မှာ ထိုင်နေတဲ့ ယောက်ျားလို မြင်ရတယ်။",
+        "th": "สำหรับคนเวียดนาม รอยดำบนดวงจันทร์ดูเหมือนชายนั่งอยู่ใต้ต้นไม้"
+      },
+      "vocab": [
+        {
+          "word": "見える",
+          "reading": "みえる",
+          "meanings": {
+            "vi": "nhìn thấy được",
+            "en": "to be visible",
+            "zh-Hans": "看得见",
+            "zh-Hant": "看得見",
+            "ko": "보이다",
+            "tl": "makita",
+            "ne": "देखिनु",
+            "id": "terlihat",
+            "pt": "ser visto",
+            "my": "မြင်ရ",
+            "th": "มองเห็น"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜に見える」: trông như ~.",
+        "en": "「〜に見える」 = looks like ~.",
+        "zh-Hans": "「看起来像……」。",
+        "zh-Hant": "「看起來像……」。",
+        "ko": "~로 보이다.",
+        "tl": "mukhang.",
+        "ne": "जस्तो देखिन्छ।",
+        "id": "tampak seperti.",
+        "pt": "parecer.",
+        "my": "...လို မြင်ရ။",
+        "th": "ดูเหมือน"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=20.84,27.424",
+      "t": [
+        20.84,
+        27.424
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "クオイおじさんは、どうして月へ行ったのでしょう。",
+      "furigana": [
+        {
+          "surface": "クオイおじさんは、どうして",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "ったのでしょう。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kuoi ojisan wa, doushite tsuki e itta no deshou.",
+      "translations": {
+        "vi": "Vì sao chú Cuội lại lên cung trăng nhỉ?",
+        "en": "Why did Uncle Cuội go to the moon?",
+        "zh-Hans": "阿贵叔叔为什么会去月亮呢？",
+        "zh-Hant": "阿貴叔叔為什麼會去月亮呢？",
+        "ko": "꾸오이 아저씨는 왜 달에 갔을까요?",
+        "tl": "Bakit kaya napunta sa buwan si Tiyo Cuội?",
+        "ne": "कुओई काका किन जूनमा पुगे होलान्?",
+        "id": "Mengapa Paman Cuội pergi ke bulan?",
+        "pt": "Por que o tio Cuội foi para a lua?",
+        "my": "ကွီဦးလေး ဘာလို့ လကို ရောက်သွားတာလဲ။",
+        "th": "ทำไมลุงกุ๋ยถึงไปอยู่บนดวงจันทร์นะ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「どうして〜のでしょう」: vì sao ~ nhỉ?",
+        "en": "「どうして〜のでしょう」 = why ~, I wonder?",
+        "zh-Hans": "「为什么……呢？」",
+        "zh-Hant": "「為什麼……呢？」",
+        "ko": "왜 ~까요?",
+        "tl": "bakit kaya?",
+        "ne": "किन होला?",
+        "id": "mengapa ya?",
+        "pt": "por que será?",
+        "my": "ဘာလို့လဲ။",
+        "th": "ทำไมนะ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=28.024,31.468",
+      "t": [
+        28.024,
+        31.468
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "むかし、ある村に、クオイという若い男がいました。",
+      "furigana": [
+        {
+          "surface": "むかし、ある",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "に、クオイという",
+          "reading": ""
+        },
+        {
+          "surface": "若",
+          "reading": "わか"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "がいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mukashi, aru mura ni, Kuoi to iu wakai otoko ga imashita.",
+      "translations": {
+        "vi": "Ngày xưa, ở một làng nọ, có chàng trai trẻ tên là Cuội.",
+        "en": "Long ago, in a village, there was a young man named Cuội.",
+        "zh-Hans": "从前，某个村子里有个年轻人叫阿贵。",
+        "zh-Hant": "從前，某個村子裡有個年輕人叫阿貴。",
+        "ko": "옛날 어느 마을에 꾸오이라는 젊은이가 있었습니다.",
+        "tl": "Noong unang panahon, sa isang nayon, may binatang nagngangalang Cuội.",
+        "ne": "धेरै पहिले एउटा गाउँमा कुओई नामको युवक थियो।",
+        "id": "Dahulu, di sebuah desa, ada pemuda bernama Cuội.",
+        "pt": "Há muito tempo, numa aldeia, havia um jovem chamado Cuội.",
+        "my": "ရှေးတုန်းက ရွာတစ်ရွာမှာ ကွီ ဆိုတဲ့ လူငယ်တစ်ယောက် ရှိတယ်။",
+        "th": "กาลครั้งหนึ่ง ในหมู่บ้านแห่งหนึ่ง มีชายหนุ่มชื่อกุ๋ย"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "若い = trẻ. 「〜という」: tên là ~.",
+        "en": "若い = young; 「〜という」 = named ~.",
+        "zh-Hans": "若い＝年轻。",
+        "zh-Hant": "若い＝年輕。",
+        "ko": "若い = 젊다.",
+        "tl": "bata, binata.",
+        "ne": "जवान।",
+        "id": "muda.",
+        "pt": "jovem.",
+        "my": "ငယ်ရွယ်။",
+        "th": "หนุ่ม"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=32.068,36.955",
+      "t": [
+        32.068,
+        36.955
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "クオイは、毎日、山へ行って、木を切っていました。",
+      "furigana": [
+        {
+          "surface": "クオイは、",
+          "reading": ""
+        },
+        {
+          "surface": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "切",
+          "reading": "き"
+        },
+        {
+          "surface": "っていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kuoi wa, mainichi, yama e itte, ki o kitte imashita.",
+      "translations": {
+        "vi": "Ngày nào Cuội cũng lên núi đốn củi.",
+        "en": "Every day, Cuội went to the mountain to cut wood.",
+        "zh-Hans": "阿贵每天都上山砍柴。",
+        "zh-Hant": "阿貴每天都上山砍柴。",
+        "ko": "꾸오이는 매일 산에 가서 나무를 베었습니다.",
+        "tl": "Araw-araw, pumupunta si Cuội sa bundok para magputol ng kahoy.",
+        "ne": "कुओई हरेक दिन डाँडामा गएर काठ काट्थे।",
+        "id": "Setiap hari Cuội pergi ke gunung menebang kayu.",
+        "pt": "Todos os dias Cuội ia à montanha cortar lenha.",
+        "my": "ကွီက နေ့တိုင်း တောင်ပေါ်တက်ပြီး ထင်းခုတ်တယ်။",
+        "th": "กุ๋ยขึ้นเขาไปตัดไม้ทุกวัน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ていました」: thói quen trong quá khứ.",
+        "en": "「〜ていました」 = used to ~ (habit).",
+        "zh-Hans": "「……ていました」＝过去的习惯。",
+        "zh-Hant": "「……ていました」＝過去的習慣。",
+        "ko": "~ていました = ~하곤 했다.",
+        "tl": "dati.",
+        "ne": "गर्थे।",
+        "id": "biasa.",
+        "pt": "costumava.",
+        "my": "လေ့ရှိ။",
+        "th": "เคย...เป็นประจำ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=37.555,42.192",
+      "t": [
+        37.555,
+        42.192
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ある日、クオイは、山の中で、トラの子どもを見つけました。",
+      "furigana": [
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "、クオイは、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "で、トラの",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どもを",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "つけました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aru hi, Kuoi wa, yama no naka de, Tora no kodomo o mitsukemashita.",
+      "translations": {
+        "vi": "Một hôm, trong rừng núi, Cuội thấy mấy con hổ con.",
+        "en": "One day, in the mountains, Cuội found some tiger cubs.",
+        "zh-Hans": "有一天，阿贵在山里发现了小老虎。",
+        "zh-Hant": "有一天，阿貴在山裡發現了小老虎。",
+        "ko": "어느 날 꾸오이는 산속에서 새끼 호랑이를 발견했습니다.",
+        "tl": "Isang araw, sa bundok, nakakita si Cuội ng mga anak ng tigre.",
+        "ne": "एक दिन कुओईले डाँडामा बाघका बच्चा भेटे।",
+        "id": "Suatu hari, di gunung, Cuội menemukan anak-anak harimau.",
+        "pt": "Um dia, na montanha, Cuội encontrou filhotes de tigre.",
+        "my": "တစ်နေ့ ကွီက တောင်ထဲမှာ ကျားသားပေါက်တွေကို တွေ့တယ်။",
+        "th": "วันหนึ่ง กุ๋ยพบลูกเสือในป่าเขา"
+      },
+      "vocab": [
+        {
+          "word": "見つける",
+          "reading": "みつける",
+          "meanings": {
+            "vi": "tìm thấy",
+            "en": "to find",
+            "zh-Hans": "找到",
+            "zh-Hant": "找到",
+            "ko": "찾아내다",
+            "tl": "mahanap",
+            "ne": "भेट्टाउनु",
+            "id": "menemukan",
+            "pt": "encontrar",
+            "my": "တွေ့",
+            "th": "พบ"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "見つける = tìm thấy.",
+        "en": "見つける = to find.",
+        "zh-Hans": "見つける＝发现。",
+        "zh-Hant": "見つける＝發現。",
+        "ko": "見つける = 발견하다.",
+        "tl": "matagpuan.",
+        "ne": "भेट्नु।",
+        "id": "menemukan.",
+        "pt": "encontrar.",
+        "my": "တွေ့။",
+        "th": "พบ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=42.792,47.829",
+      "t": [
+        42.792,
+        47.829
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "子どものトラは、三びきいました。",
+      "furigana": [
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どものトラは、",
+          "reading": ""
+        },
+        {
+          "surface": "三",
+          "reading": "さん"
+        },
+        {
+          "surface": "びきいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kodomo no Tora wa, sanbiki imashita.",
+      "translations": {
+        "vi": "Có ba con hổ con.",
+        "en": "There were three cubs.",
+        "zh-Hans": "小老虎有三只。",
+        "zh-Hant": "小老虎有三隻。",
+        "ko": "새끼 호랑이는 세 마리였습니다.",
+        "tl": "Tatlo ang anak ng tigre.",
+        "ne": "बाघका बच्चा तीनवटा थिए।",
+        "id": "Ada tiga ekor anak harimau.",
+        "pt": "Eram três filhotes.",
+        "my": "ကျားပေါက်လေး သုံးကောင် ရှိတယ်။",
+        "th": "มีลูกเสือสามตัว"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ひき」: đếm con vật nhỏ. 三びき = 3 con.",
+        "en": "「〜ひき」 counts small animals.",
+        "zh-Hans": "「……ひき」＝（小动物）只。",
+        "zh-Hant": "「……ひき」＝（小動物）只。",
+        "ko": "~마리.",
+        "tl": "panbilang ng hayop.",
+        "ne": "जनावर गन्ने शब्द।",
+        "id": "ekor.",
+        "pt": "contador de animais.",
+        "my": "ကောင်။",
+        "th": "ตัว"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=48.429,51.054",
+      "t": [
+        48.429,
+        51.054
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "クオイは、おのを持って、トラの子どもに近づきました。",
+      "furigana": [
+        {
+          "surface": "クオイは、おのを",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "って、トラの",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どもに",
+          "reading": ""
+        },
+        {
+          "surface": "近",
+          "reading": "ちか"
+        },
+        {
+          "surface": "づきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kuoi wa, ono o motte, Tora no kodomo ni chikazukimashita.",
+      "translations": {
+        "vi": "Cuội cầm rìu, tiến lại gần hổ con.",
+        "en": "Holding his axe, Cuội approached the cubs.",
+        "zh-Hans": "阿贵拿着斧头，走近小老虎。",
+        "zh-Hant": "阿貴拿著斧頭，走近小老虎。",
+        "ko": "꾸오이는 도끼를 들고 새끼 호랑이에게 다가갔습니다.",
+        "tl": "Hawak ang palakol, lumapit si Cuội sa mga anak ng tigre.",
+        "ne": "कुओई बञ्चरो लिएर बाघका बच्चानजिक गए।",
+        "id": "Sambil memegang kapak, Cuội mendekati anak harimau.",
+        "pt": "Com o machado na mão, Cuội se aproximou dos filhotes.",
+        "my": "ကွီက ပုဆိန်ကိုင်ပြီး ကျားပေါက်လေးတွေဆီ ချဉ်းကပ်တယ်။",
+        "th": "กุ๋ยถือขวานเดินเข้าไปใกล้ลูกเสือ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "おの = cái rìu. 近づく = lại gần.",
+        "en": "おの = axe; 近づく = to approach.",
+        "zh-Hans": "おの＝斧头；近づく＝靠近。",
+        "zh-Hant": "おの＝斧頭；近づく＝靠近。",
+        "ko": "おの = 도끼; 近づく = 다가가다.",
+        "tl": "palakol; lumapit.",
+        "ne": "बञ्चरो; नजिक जानु।",
+        "id": "kapak; mendekati.",
+        "pt": "machado; aproximar-se.",
+        "my": "ပုဆိန်; ချဉ်းကပ်။",
+        "th": "ขวาน; เข้าใกล้"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=51.654,55.983",
+      "t": [
+        51.654,
+        55.983
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのとき、大きなお母さんトラが、帰ってくる音がしました。",
+      "furigana": [
+        {
+          "surface": "そのとき、",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きなお",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんトラが、",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ってくる",
+          "reading": ""
+        },
+        {
+          "surface": "音",
+          "reading": "おと"
+        },
+        {
+          "surface": "がしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono toki, ookina okaasan Tora ga, kaette kuru oto ga shimashita.",
+      "translations": {
+        "vi": "Đúng lúc đó, có tiếng hổ mẹ to lớn quay về.",
+        "en": "Just then, he heard the big mother tiger coming back.",
+        "zh-Hans": "就在那时，传来了大母老虎回来的声音。",
+        "zh-Hant": "就在那時，傳來了大母老虎回來的聲音。",
+        "ko": "그때 큰 엄마 호랑이가 돌아오는 소리가 났습니다.",
+        "tl": "Saka narinig niya ang malaking inang tigre na pabalik.",
+        "ne": "त्यत्तिकैमा ठूली आमा बाघ फर्किने आवाज आयो।",
+        "id": "Saat itu terdengar induk harimau besar pulang.",
+        "pt": "Nisso, ouviu-se a grande mãe tigre voltando.",
+        "my": "အဲဒီအချိန်မှာ ကျားမကြီး ပြန်လာတဲ့ အသံ ကြားရတယ်။",
+        "th": "ตอนนั้นเอง ได้ยินเสียงแม่เสือตัวใหญ่กลับมา"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜音がする」: nghe tiếng ~.",
+        "en": "「〜音がする」 = there is a sound of ~.",
+        "zh-Hans": "「传来……的声音」。",
+        "zh-Hant": "「傳來……的聲音」。",
+        "ko": "~소리가 나다.",
+        "tl": "may tunog.",
+        "ne": "आवाज आउनु।",
+        "id": "terdengar.",
+        "pt": "ouvir-se.",
+        "my": "အသံကြား။",
+        "th": "ได้ยินเสียง"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=56.583,61.929",
+      "t": [
+        56.583,
+        61.929
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「あぶない。かくれよう。」",
+      "furigana": [
+        {
+          "surface": "「あぶない。かくれよう。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Abunai. Kakureyou.”",
+      "translations": {
+        "vi": "\"Nguy rồi. Trốn thôi.\"",
+        "en": "\"Danger. Let's hide.\"",
+        "zh-Hans": "“危险，快躲起来。”",
+        "zh-Hant": "“危險，快躲起來。”",
+        "ko": "\"위험해. 숨자.\"",
+        "tl": "\"Delikado. Magtago tayo.\"",
+        "ne": "\"खतरा! लुकौं।\"",
+        "id": "\"Bahaya. Sembunyi.\"",
+        "pt": "\"Perigo. Vou me esconder.\"",
+        "my": "\"အန္တရာယ်ရှိတယ်။ ပုန်းမယ်။\"",
+        "th": "\"อันตราย ซ่อนก่อน\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜よう」: thể ý chí, \"nào ~ thôi\".",
+        "en": "「〜よう」 = volitional, \"let's ~\".",
+        "zh-Hans": "「……よう」＝意志形，……吧。",
+        "zh-Hant": "「……よう」＝意志形，……吧。",
+        "ko": "~よう = ~하자.",
+        "tl": "tayo na.",
+        "ne": "गरौं।",
+        "id": "ayo.",
+        "pt": "vamos.",
+        "my": "...မယ်။",
+        "th": "...กันเถอะ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=62.829,64.366",
+      "t": [
+        62.829,
+        64.366
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "クオイは、急いで、木の上にのぼりました。",
+      "furigana": [
+        {
+          "surface": "クオイは、",
+          "reading": ""
+        },
+        {
+          "surface": "急",
+          "reading": "いそ"
+        },
+        {
+          "surface": "いで、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "にのぼりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kuoi wa, isoide, ki no ue ni noborimashita.",
+      "translations": {
+        "vi": "Cuội vội vàng trèo lên cây.",
+        "en": "Cuội hurriedly climbed up a tree.",
+        "zh-Hans": "阿贵急忙爬到了树上。",
+        "zh-Hant": "阿貴急忙爬到了樹上。",
+        "ko": "꾸오이는 서둘러 나무 위로 올라갔습니다.",
+        "tl": "Nagmamadaling umakyat si Cuội sa puno.",
+        "ne": "कुओई हतार-हतार रुखमा चढे।",
+        "id": "Cuội buru-buru memanjat pohon.",
+        "pt": "Cuội subiu depressa numa árvore.",
+        "my": "ကွီက အမြန် သစ်ပင်ပေါ် တက်တယ်။",
+        "th": "กุ๋ยรีบปีนขึ้นต้นไม้"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "急いで = vội vàng. のぼる = trèo lên.",
+        "en": "急いで = hurriedly; のぼる = to climb.",
+        "zh-Hans": "急いで＝急忙；のぼる＝爬上。",
+        "zh-Hant": "急いで＝急忙；のぼる＝爬上。",
+        "ko": "急いで = 서둘러.",
+        "tl": "nagmamadali.",
+        "ne": "हतारमा।",
+        "id": "buru-buru.",
+        "pt": "depressa.",
+        "my": "အမြန်။",
+        "th": "รีบ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=65.266,68.713",
+      "t": [
+        65.266,
+        68.713
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "お母さんトラは、子どもたちが、動かないのを見ました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんトラは、",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どもたちが、",
+          "reading": ""
+        },
+        {
+          "surface": "動",
+          "reading": "うご"
+        },
+        {
+          "surface": "かないのを",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "ました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Okaasan Tora wa, kodomotachi ga, ugokanai no o mimashita.",
+      "translations": {
+        "vi": "Hổ mẹ thấy các con nằm im không động đậy.",
+        "en": "The mother tiger saw her cubs were not moving.",
+        "zh-Hans": "母老虎看到孩子们一动不动。",
+        "zh-Hant": "母老虎看到孩子們一動不動。",
+        "ko": "엄마 호랑이는 새끼들이 움직이지 않는 것을 보았습니다.",
+        "tl": "Nakita ng inang tigre na hindi gumagalaw ang mga anak.",
+        "ne": "आमा बाघले बच्चाहरू नचलेको देखिन्।",
+        "id": "Induk harimau melihat anak-anaknya tidak bergerak.",
+        "pt": "A mãe tigre viu que os filhotes não se mexiam.",
+        "my": "ကျားမက သားပေါက်တွေ မလှုပ်တာကို မြင်တယ်။",
+        "th": "แม่เสือเห็นว่าลูก ๆ ไม่ขยับ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜のを見る」: thấy việc ~.",
+        "en": "「〜のを見る」 = to see that ~.",
+        "zh-Hans": "「看到……」。",
+        "zh-Hant": "「看到……」。",
+        "ko": "~것을 보다.",
+        "tl": "makita na.",
+        "ne": "देख्नु।",
+        "id": "melihat bahwa.",
+        "pt": "ver que.",
+        "my": "...တာကို မြင်။",
+        "th": "เห็นว่า"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=69.313,73.671",
+      "t": [
+        69.313,
+        73.671
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "でも、お母さんトラは、少しも、あわてませんでした。",
+      "furigana": [
+        {
+          "surface": "でも、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんトラは、",
+          "reading": ""
+        },
+        {
+          "surface": "少",
+          "reading": "すこ"
+        },
+        {
+          "surface": "しも、あわてませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, okaasan Tora wa, sukoshi mo, awatemasendeshita.",
+      "translations": {
+        "vi": "Nhưng hổ mẹ không hề hoảng hốt.",
+        "en": "But the mother was not upset at all.",
+        "zh-Hans": "但母老虎一点也不慌。",
+        "zh-Hant": "但母老虎一點也不慌。",
+        "ko": "하지만 엄마는 조금도 당황하지 않았습니다.",
+        "tl": "Pero hindi man lang nataranta ang ina.",
+        "ne": "तर आमा अलिकति पनि आत्तिइनन्।",
+        "id": "Tapi induknya sama sekali tidak panik.",
+        "pt": "Mas a mãe não se assustou nem um pouco.",
+        "my": "ဒါပေမဲ့ ကျားမက နည်းနည်းမှ မပျာယာခတ်ဘူး။",
+        "th": "แต่แม่เสือไม่ตกใจเลยสักนิด"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「少しも〜ない」: không ~ chút nào. あわてる = hoảng.",
+        "en": "「少しも〜ない」 = not ~ at all; あわてる = to panic.",
+        "zh-Hans": "「一点也不……」；あわてる＝慌张。",
+        "zh-Hant": "「一點也不……」；あわてる＝慌張。",
+        "ko": "조금도 ~않다.",
+        "tl": "hindi man lang.",
+        "ne": "अलिकति पनि होइन।",
+        "id": "sama sekali tidak.",
+        "pt": "nem um pouco.",
+        "my": "နည်းနည်းမှ မ...။",
+        "th": "ไม่...เลยสักนิด"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=74.271,78.638",
+      "t": [
+        74.271,
+        78.638
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "お母さんトラは、近くの大きな木から、葉っぱを取ってきました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんトラは、",
+          "reading": ""
+        },
+        {
+          "surface": "近",
+          "reading": "ちか"
+        },
+        {
+          "surface": "くの",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きな",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "から、",
+          "reading": ""
+        },
+        {
+          "surface": "葉",
+          "reading": "は"
+        },
+        {
+          "surface": "っぱを",
+          "reading": ""
+        },
+        {
+          "surface": "取",
+          "reading": "と"
+        },
+        {
+          "surface": "ってきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Okaasan Tora wa, chikaku no ookina ki kara, happa o totte kimashita.",
+      "translations": {
+        "vi": "Hổ mẹ hái lá từ một cái cây lớn gần đó.",
+        "en": "The mother brought leaves from a big tree nearby.",
+        "zh-Hans": "母老虎从附近的大树上摘来了叶子。",
+        "zh-Hant": "母老虎從附近的大樹上摘來了葉子。",
+        "ko": "엄마는 근처 큰 나무에서 잎을 따 왔습니다.",
+        "tl": "Kumuha ang ina ng mga dahon mula sa malaking puno sa malapit.",
+        "ne": "आमाले नजिकैको ठूलो रुखबाट पात टिपेर ल्याइन्।",
+        "id": "Induk itu mengambil daun dari pohon besar di dekat situ.",
+        "pt": "A mãe trouxe folhas de uma grande árvore ali perto.",
+        "my": "ကျားမက အနီးက သစ်ပင်ကြီးကနေ အရွက်တွေ ခူးလာတယ်။",
+        "th": "แม่เสือไปเด็ดใบไม้จากต้นไม้ใหญ่ใกล้ ๆ มา"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜てくる」: đi ~ rồi quay lại. 葉っぱ = lá.",
+        "en": "「〜てくる」 = go and ~ (then come back); 葉っぱ = leaf.",
+        "zh-Hans": "「……てくる」＝去……回来；葉っぱ＝叶子。",
+        "zh-Hant": "「……てくる」＝去……回來；葉っぱ＝葉子。",
+        "ko": "~てくる = ~해 오다.",
+        "tl": "kumuha at bumalik; dahon.",
+        "ne": "गएर ल्याउनु; पात।",
+        "id": "pergi lalu kembali; daun.",
+        "pt": "ir buscar; folha.",
+        "my": "...လာ; အရွက်။",
+        "th": "ไป...มา; ใบไม้"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=79.238,83.949",
+      "t": [
+        79.238,
+        83.949
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そして、その葉っぱを、かんで、子どもたちの口に入れました。",
+      "furigana": [
+        {
+          "surface": "そして、その",
+          "reading": ""
+        },
+        {
+          "surface": "葉",
+          "reading": "は"
+        },
+        {
+          "surface": "っぱを、かんで、",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どもたちの",
+          "reading": ""
+        },
+        {
+          "surface": "口",
+          "reading": "くち"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "い"
+        },
+        {
+          "surface": "れました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite, sono happa o, kan de, kodomotachi no kuchi ni iremashita.",
+      "translations": {
+        "vi": "Rồi nó nhai lá ấy, nhét vào miệng các con.",
+        "en": "Then she chewed the leaves and put them in her cubs' mouths.",
+        "zh-Hans": "然后把叶子嚼碎，放进孩子们嘴里。",
+        "zh-Hant": "然後把葉子嚼碎，放進孩子們嘴裡。",
+        "ko": "그리고 그 잎을 씹어서 새끼들 입에 넣었습니다.",
+        "tl": "Saka niya nginuya ang dahon at isinubo sa mga anak.",
+        "ne": "अनि ती पात चपाएर बच्चाहरूको मुखमा हालिन्।",
+        "id": "Lalu ia mengunyah daun itu dan memasukkannya ke mulut anak-anaknya.",
+        "pt": "Depois mastigou as folhas e pôs na boca dos filhotes.",
+        "my": "ပြီးတော့ အရွက်ကို ဝါးပြီး သားပေါက်တွေရဲ့ ပါးစပ်ထဲ ထည့်ပေးတယ်။",
+        "th": "แล้วก็เคี้ยวใบไม้นั้นใส่ปากลูก ๆ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "かむ = nhai. 口に入れる = cho vào miệng.",
+        "en": "かむ = to chew; 口に入れる = to put in the mouth.",
+        "zh-Hans": "かむ＝嚼。",
+        "zh-Hant": "かむ＝嚼。",
+        "ko": "かむ = 씹다.",
+        "tl": "nguyain.",
+        "ne": "चपाउनु।",
+        "id": "mengunyah.",
+        "pt": "mastigar.",
+        "my": "ဝါး။",
+        "th": "เคี้ยว"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=84.549,89.79",
+      "t": [
+        84.549,
+        89.79
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "すると、子どもたちは、目をあけて、元気に起き上がったのです。",
+      "furigana": [
+        {
+          "surface": "すると、",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どもたちは、",
+          "reading": ""
+        },
+        {
+          "surface": "目",
+          "reading": "め"
+        },
+        {
+          "surface": "をあけて、",
+          "reading": ""
+        },
+        {
+          "surface": "元気",
+          "reading": "げんき"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "起",
+          "reading": "お"
+        },
+        {
+          "surface": "き",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "あ"
+        },
+        {
+          "surface": "がったのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suruto, kodomotachi wa, me o akete, genki ni okiagatta no desu.",
+      "translations": {
+        "vi": "Thế là lũ hổ con mở mắt, khỏe mạnh đứng dậy.",
+        "en": "Then the cubs opened their eyes and got up, full of life.",
+        "zh-Hans": "于是，小老虎们睁开眼睛，精神地站了起来。",
+        "zh-Hant": "於是，小老虎們睜開眼睛，精神地站了起來。",
+        "ko": "그러자 새끼들은 눈을 뜨고 힘차게 일어났습니다.",
+        "tl": "Saka dumilat ang mga anak at masiglang bumangon.",
+        "ne": "त्यसपछि बच्चाहरूले आँखा खोले र फुर्तिसाथ उठे।",
+        "id": "Maka anak-anak itu membuka mata dan bangun dengan segar.",
+        "pt": "Então os filhotes abriram os olhos e se levantaram cheios de vida.",
+        "my": "ဒီတော့ ကျားပေါက်တွေက မျက်လုံးဖွင့်ပြီး လန်းလန်းဆန်းဆန်း ထလာကြတယ်။",
+        "th": "แล้วลูกเสือก็ลืมตาลุกขึ้นอย่างกระปรี้กระเปร่า"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「すると」: thế là, liền. 起き上がる = ngồi/đứng dậy.",
+        "en": "「すると」 = and then; 起き上がる = to get up.",
+        "zh-Hans": "すると＝于是。",
+        "zh-Hant": "すると＝於是。",
+        "ko": "すると = 그러자.",
+        "tl": "saka.",
+        "ne": "त्यसपछि।",
+        "id": "maka.",
+        "pt": "então.",
+        "my": "ဒီတော့။",
+        "th": "แล้ว"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=90.39,95.792",
+      "t": [
+        90.39,
+        95.792
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「すごい。あれは、ふしぎな木だ。」",
+      "furigana": [
+        {
+          "surface": "「すごい。あれは、ふしぎな",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "だ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Sugoi. Are wa, fushigi na ki da.”",
+      "translations": {
+        "vi": "\"Tuyệt quá. Đó là cây thần.\"",
+        "en": "\"Amazing. That is a magic tree.\"",
+        "zh-Hans": "“太厉害了，那是一棵神奇的树。”",
+        "zh-Hant": "“太厲害了，那是一棵神奇的樹。”",
+        "ko": "\"대단해. 저건 신기한 나무야.\"",
+        "tl": "\"Ang galing. Mahiwagang puno iyon.\"",
+        "ne": "\"अचम्म! त्यो जादुई रुख हो।\"",
+        "id": "\"Hebat. Itu pohon ajaib.\"",
+        "pt": "\"Incrível. É uma árvore mágica.\"",
+        "my": "\"အံ့ဩစရာ။ အဲဒါ ထူးဆန်းတဲ့ သစ်ပင်ပဲ။\"",
+        "th": "\"สุดยอด นั่นคือต้นไม้วิเศษ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ふしぎ = kỳ lạ, thần kỳ.",
+        "en": "ふしぎ = mysterious, magic.",
+        "zh-Hans": "ふしぎ＝神奇。",
+        "zh-Hant": "ふしぎ＝神奇。",
+        "ko": "ふしぎ = 신기한.",
+        "tl": "mahiwaga.",
+        "ne": "अचम्मको।",
+        "id": "ajaib.",
+        "pt": "mágico.",
+        "my": "ထူးဆန်း။",
+        "th": "วิเศษ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=96.692,99.132",
+      "t": [
+        96.692,
+        99.132
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "トラの親子が行ってしまってから、クオイは、木から下りました。",
+      "furigana": [
+        {
+          "surface": "トラの",
+          "reading": ""
+        },
+        {
+          "surface": "親子",
+          "reading": "おやこ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "ってしまってから、クオイは、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "から",
+          "reading": ""
+        },
+        {
+          "surface": "下",
+          "reading": "お"
+        },
+        {
+          "surface": "りました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tora no oyako ga itte shimatte kara, Kuoi wa, ki kara orimashita.",
+      "translations": {
+        "vi": "Đợi mẹ con hổ đi rồi, Cuội mới trèo xuống.",
+        "en": "After the tigers had left, Cuội came down from the tree.",
+        "zh-Hans": "老虎母子走了以后，阿贵从树上下来了。",
+        "zh-Hant": "老虎母子走了以後，阿貴從樹上下來了。",
+        "ko": "호랑이 모자가 가 버린 뒤 꾸오이는 나무에서 내려왔습니다.",
+        "tl": "Nang makaalis ang mga tigre, bumaba si Cuội sa puno.",
+        "ne": "बाघ आमा-छोरा गएपछि कुओई रुखबाट झरे।",
+        "id": "Setelah harimau-harimau pergi, Cuội turun dari pohon.",
+        "pt": "Depois que os tigres foram embora, Cuội desceu da árvore.",
+        "my": "ကျားသားအမိ ထွက်သွားပြီးမှ ကွီက သစ်ပင်ပေါ်က ဆင်းတယ်။",
+        "th": "หลังเสือแม่ลูกไปแล้ว กุ๋ยจึงลงจากต้นไม้"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜てから」: sau khi ~. 親子 = mẹ con/cha con.",
+        "en": "「〜てから」 = after ~; 親子 = parent and child.",
+        "zh-Hans": "「……てから」＝……之后。",
+        "zh-Hant": "「……てから」＝……之後。",
+        "ko": "~てから = ~한 뒤.",
+        "tl": "pagkatapos.",
+        "ne": "पछि।",
+        "id": "setelah.",
+        "pt": "depois de.",
+        "my": "ပြီးမှ။",
+        "th": "หลังจาก"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=100.032,105.005",
+      "t": [
+        100.032,
+        105.005
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そして、その木を、根っこごと、ほり出しました。",
+      "furigana": [
+        {
+          "surface": "そして、その",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "を、",
+          "reading": ""
+        },
+        {
+          "surface": "根",
+          "reading": "ね"
+        },
+        {
+          "surface": "っこごと、ほり",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite, sono ki o, nekkogoto, horidashimashita.",
+      "translations": {
+        "vi": "Rồi anh đào cái cây lên, cả rễ.",
+        "en": "Then he dug up the tree, roots and all.",
+        "zh-Hans": "然后，他把那棵树连根挖了出来。",
+        "zh-Hant": "然後，他把那棵樹連根挖了出來。",
+        "ko": "그리고 그 나무를 뿌리째 파냈습니다.",
+        "tl": "Saka hinukay niya ang puno, pati ugat.",
+        "ne": "अनि त्यो रुख जरैसमेत खनेर निकाले।",
+        "id": "Lalu ia menggali pohon itu beserta akarnya.",
+        "pt": "Então ele arrancou a árvore com raiz e tudo.",
+        "my": "ပြီးတော့ အဲဒီသစ်ပင်ကို အမြစ်ပါ တူးထုတ်တယ်။",
+        "th": "แล้วก็ขุดต้นไม้นั้นขึ้นมาทั้งราก"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ごと」: cả ~ (luôn). 根っこ = rễ.",
+        "en": "「〜ごと」 = along with ~, ~ and all; 根っこ = root.",
+        "zh-Hans": "「……ごと」＝连……一起；根っこ＝根。",
+        "zh-Hant": "「……ごと」＝連……一起；根っこ＝根。",
+        "ko": "~째; 根っこ = 뿌리.",
+        "tl": "pati; ugat.",
+        "ne": "समेत; जरा।",
+        "id": "beserta; akar.",
+        "pt": "com ... e tudo; raiz.",
+        "my": "...ပါ; အမြစ်။",
+        "th": "ทั้ง; ราก"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=105.605,110.181",
+      "t": [
+        105.605,
+        110.181
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "クオイは、木を家に持って帰って、にわに植えました。",
+      "furigana": [
+        {
+          "surface": "クオイは、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "って",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "って、にわに",
+          "reading": ""
+        },
+        {
+          "surface": "植",
+          "reading": "う"
+        },
+        {
+          "surface": "えました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kuoi wa, ki o ie ni motte kaette, ni wani uemashita.",
+      "translations": {
+        "vi": "Cuội mang cây về, trồng ngoài vườn.",
+        "en": "Cuội took the tree home and planted it in his yard.",
+        "zh-Hans": "阿贵把树带回家，种在院子里。",
+        "zh-Hant": "阿貴把樹帶回家，種在院子裡。",
+        "ko": "꾸오이는 나무를 집에 가져가 마당에 심었습니다.",
+        "tl": "Iniuwi ni Cuội ang puno at itinanim sa bakuran.",
+        "ne": "कुओईले रुख घर लगेर आँगनमा रोपे।",
+        "id": "Cuội membawa pohon itu pulang dan menanamnya di halaman.",
+        "pt": "Cuội levou a árvore para casa e plantou no quintal.",
+        "my": "ကွီက သစ်ပင်ကို အိမ်ယူသွားပြီး ခြံထဲမှာ စိုက်တယ်။",
+        "th": "กุ๋ยนำต้นไม้กลับบ้านและปลูกไว้ในสวน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "植える = trồng. にわ = sân, vườn.",
+        "en": "植える = to plant; にわ = yard.",
+        "zh-Hans": "植える＝种；にわ＝院子。",
+        "zh-Hant": "植える＝種；にわ＝院子。",
+        "ko": "植える = 심다.",
+        "tl": "itanim.",
+        "ne": "रोप्नु।",
+        "id": "menanam.",
+        "pt": "plantar.",
+        "my": "စိုက်။",
+        "th": "ปลูก"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=110.781,114.98",
+      "t": [
+        110.781,
+        114.98
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それから、クオイは、その葉っぱで、病気の人を助けるようになりました。",
+      "furigana": [
+        {
+          "surface": "それから、クオイは、その",
+          "reading": ""
+        },
+        {
+          "surface": "葉",
+          "reading": "は"
+        },
+        {
+          "surface": "っぱで、",
+          "reading": ""
+        },
+        {
+          "surface": "病気",
+          "reading": "びょうき"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "助",
+          "reading": "たす"
+        },
+        {
+          "surface": "けるようになりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sorekara, Kuoi wa, sono happa de, byouki no hito o tasukeru you ni narimashita.",
+      "translations": {
+        "vi": "Từ đó, Cuội dùng lá cây cứu người bệnh.",
+        "en": "From then on, Cuội used its leaves to help sick people.",
+        "zh-Hans": "从那以后，阿贵用那些叶子救治病人。",
+        "zh-Hant": "從那以後，阿貴用那些葉子救治病人。",
+        "ko": "그때부터 꾸오이는 그 잎으로 아픈 사람을 돕게 되었습니다.",
+        "tl": "Mula noon, ginamit ni Cuội ang mga dahon para tulungan ang mga maysakit.",
+        "ne": "त्यसपछि कुओईले ती पातले बिरामीलाई मद्दत गर्न थाले।",
+        "id": "Sejak itu, Cuội memakai daunnya untuk menolong orang sakit.",
+        "pt": "Desde então, Cuội passou a usar as folhas para ajudar os doentes.",
+        "my": "အဲဒီကစပြီး ကွီက အရွက်တွေနဲ့ လူနာတွေကို ကူညီလာတယ်။",
+        "th": "ตั้งแต่นั้น กุ๋ยก็ใช้ใบไม้ช่วยคนป่วย"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ようになる」: dần trở nên ~, bắt đầu ~.",
+        "en": "「〜ようになる」 = come to ~, start to ~.",
+        "zh-Hans": "「……ようになる」＝变得……，开始……。",
+        "zh-Hant": "「……ようになる」＝變得……，開始……。",
+        "ko": "~게 되다.",
+        "tl": "nagsimulang.",
+        "ne": "गर्न थाल्नु।",
+        "id": "mulai.",
+        "pt": "passar a.",
+        "my": "...လာ။",
+        "th": "เริ่ม"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=115.58,122.16",
+      "t": [
+        115.58,
+        122.16
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "葉っぱを食べると、どんな病気も、すぐに治りました。",
+      "furigana": [
+        {
+          "surface": "葉",
+          "reading": "は"
+        },
+        {
+          "surface": "っぱを",
+          "reading": ""
+        },
+        {
+          "surface": "食",
+          "reading": "た"
+        },
+        {
+          "surface": "べると、どんな",
+          "reading": ""
+        },
+        {
+          "surface": "病気",
+          "reading": "びょうき"
+        },
+        {
+          "surface": "も、すぐに",
+          "reading": ""
+        },
+        {
+          "surface": "治",
+          "reading": "なお"
+        },
+        {
+          "surface": "りました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Happa o taberu to, donna byouki mo, sugu ni naorimashita.",
+      "translations": {
+        "vi": "Ăn lá ấy vào, bệnh gì cũng khỏi ngay.",
+        "en": "If you ate a leaf, any illness was cured at once.",
+        "zh-Hans": "吃了那叶子，什么病都马上好了。",
+        "zh-Hant": "吃了那葉子，什麼病都馬上好了。",
+        "ko": "잎을 먹으면 어떤 병도 금방 나았습니다.",
+        "tl": "Kapag kinain ang dahon, gumagaling agad ang anumang sakit.",
+        "ne": "पात खाएपछि जुनसुकै रोग पनि तुरुन्तै निको हुन्थ्यो।",
+        "id": "Kalau makan daunnya, penyakit apa pun langsung sembuh.",
+        "pt": "Comendo a folha, qualquer doença sarava na hora.",
+        "my": "အရွက်စားရင် ဘယ်ရောဂါမဆို ချက်ချင်း ပျောက်တယ်။",
+        "th": "กินใบไม้นั้นแล้ว โรคอะไรก็หายทันที"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜と」: hễ ~ thì. 「どんな〜も」: ~ nào cũng. 治る = khỏi bệnh.",
+        "en": "「〜と」 = whenever ~; 「どんな〜も」 = any ~; 治る = to be cured.",
+        "zh-Hans": "「どんな……も」＝什么……都；治る＝治好。",
+        "zh-Hant": "「どんな……も」＝什麼……都；治る＝治好。",
+        "ko": "どんな~も = 어떤 ~도.",
+        "tl": "anumang.",
+        "ne": "जुनसुकै।",
+        "id": "apa pun.",
+        "pt": "qualquer.",
+        "my": "ဘယ်...မဆို။",
+        "th": "...อะไรก็"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=122.76,127.113",
+      "t": [
+        122.76,
+        127.113
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "村の人たちは、クオイに、何度も「ありがとう」と言いました。",
+      "furigana": [
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "たちは、クオイに、",
+          "reading": ""
+        },
+        {
+          "surface": "何度",
+          "reading": "なんど"
+        },
+        {
+          "surface": "も「ありがとう」と",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "いました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mura no hitotachi wa, Kuoi ni, nando mo “Arigatou” to iimashita.",
+      "translations": {
+        "vi": "Người trong làng cảm ơn Cuội không biết bao nhiêu lần.",
+        "en": "The villagers said \"thank you\" to Cuội again and again.",
+        "zh-Hans": "村里的人一次又一次地向阿贵道谢。",
+        "zh-Hant": "村裡的人一次又一次地向阿貴道謝。",
+        "ko": "마을 사람들은 꾸오이에게 몇 번이고 '고마워요'라고 말했습니다.",
+        "tl": "Paulit-ulit na nagpasalamat ang mga taganayon kay Cuội.",
+        "ne": "गाउँलेहरूले कुओईलाई धेरैपटक \"धन्यवाद\" भने।",
+        "id": "Penduduk desa berkali-kali berterima kasih kepada Cuội.",
+        "pt": "Os aldeões agradeceram a Cuội muitas e muitas vezes.",
+        "my": "ရွာသားတွေက ကွီကို အကြိမ်ကြိမ် \"ကျေးဇူးပဲ\" လို့ ပြောကြတယ်။",
+        "th": "ชาวบ้านขอบคุณกุ๋ยครั้งแล้วครั้งเล่า"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「何度も」: nhiều lần. 「〜と言う」: nói rằng ~.",
+        "en": "「何度も」 = many times; 「〜と言う」 = to say ~.",
+        "zh-Hans": "何度も＝好几次。",
+        "zh-Hant": "何度も＝好幾次。",
+        "ko": "何度も = 몇 번이고.",
+        "tl": "paulit-ulit.",
+        "ne": "धेरैपटक।",
+        "id": "berkali-kali.",
+        "pt": "muitas vezes.",
+        "my": "အကြိမ်ကြိမ်။",
+        "th": "หลายครั้ง"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=127.713,132.656",
+      "t": [
+        127.713,
+        132.656
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ある日、村のお金持ちの娘が、川に落ちて、死んでしまいました。",
+      "furigana": [
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "のお",
+          "reading": ""
+        },
+        {
+          "surface": "金持",
+          "reading": "かねも"
+        },
+        {
+          "surface": "ちの",
+          "reading": ""
+        },
+        {
+          "surface": "娘",
+          "reading": "むすめ"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "川",
+          "reading": "かわ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "落",
+          "reading": "お"
+        },
+        {
+          "surface": "ちて、",
+          "reading": ""
+        },
+        {
+          "surface": "死",
+          "reading": "し"
+        },
+        {
+          "surface": "んでしまいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aru hi, mura no okanemochi no musume ga, kawa ni ochite, shinde shimaimashita.",
+      "translations": {
+        "vi": "Một hôm, con gái nhà giàu trong làng rơi xuống sông và chết.",
+        "en": "One day, the daughter of a rich family in the village fell into the river and died.",
+        "zh-Hans": "有一天，村里有钱人家的女儿掉进河里淹死了。",
+        "zh-Hant": "有一天，村裡有錢人家的女兒掉進河裡淹死了。",
+        "ko": "어느 날 마을 부잣집 딸이 강에 빠져 죽고 말았습니다.",
+        "tl": "Isang araw, nahulog sa ilog at namatay ang anak na babae ng mayaman sa nayon.",
+        "ne": "एक दिन गाउँको धनीकी छोरी खोलामा खसेर मरिन्।",
+        "id": "Suatu hari, putri orang kaya di desa jatuh ke sungai dan meninggal.",
+        "pt": "Um dia, a filha de um homem rico da aldeia caiu no rio e morreu.",
+        "my": "တစ်နေ့ ရွာက သူဌေးရဲ့ သမီးက မြစ်ထဲ ကျပြီး သေသွားတယ်။",
+        "th": "วันหนึ่ง ลูกสาวคนรวยในหมู่บ้านตกแม่น้ำเสียชีวิต"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "お金持ち = người giàu. 娘 = con gái.",
+        "en": "お金持ち = rich person; 娘 = daughter.",
+        "zh-Hans": "お金持ち＝有钱人；娘＝女儿。",
+        "zh-Hant": "お金持ち＝有錢人；娘＝女兒。",
+        "ko": "お金持ち = 부자; 娘 = 딸.",
+        "tl": "mayaman; anak na babae.",
+        "ne": "धनी; छोरी।",
+        "id": "orang kaya; putri.",
+        "pt": "rico; filha.",
+        "my": "သူဌေး; သမီး။",
+        "th": "คนรวย; ลูกสาว"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=133.256,139.133",
+      "t": [
+        133.256,
+        139.133
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "クオイは、葉っぱを使って、娘を生き返らせました。",
+      "furigana": [
+        {
+          "surface": "クオイは、",
+          "reading": ""
+        },
+        {
+          "surface": "葉",
+          "reading": "は"
+        },
+        {
+          "surface": "っぱを",
+          "reading": ""
+        },
+        {
+          "surface": "使",
+          "reading": "つか"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "娘",
+          "reading": "むすめ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "生",
+          "reading": "い"
+        },
+        {
+          "surface": "き",
+          "reading": ""
+        },
+        {
+          "surface": "返",
+          "reading": "かえ"
+        },
+        {
+          "surface": "らせました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kuoi wa, happa o tsukatte, musume o ikikaerasemashita.",
+      "translations": {
+        "vi": "Cuội dùng lá cây làm cô sống lại.",
+        "en": "Cuội used the leaves to bring her back to life.",
+        "zh-Hans": "阿贵用叶子让她活了过来。",
+        "zh-Hant": "阿貴用葉子讓她活了過來。",
+        "ko": "꾸오이는 잎을 써서 딸을 살려 냈습니다.",
+        "tl": "Ginamit ni Cuội ang dahon para buhayin siya.",
+        "ne": "कुओईले पात प्रयोग गरेर उनलाई ब्युँताए।",
+        "id": "Cuội memakai daun itu untuk menghidupkannya kembali.",
+        "pt": "Cuội usou as folhas para trazê-la de volta à vida.",
+        "my": "ကွီက အရွက်ကိုသုံးပြီး သူမကို အသက်ပြန်ရှင်စေတယ်။",
+        "th": "กุ๋ยใช้ใบไม้ทำให้เธอฟื้นคืนชีพ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "生き返らせる = làm cho sống lại (thể sai khiến).",
+        "en": "生き返らせる = to revive someone (causative).",
+        "zh-Hans": "生き返らせる＝使复活。",
+        "zh-Hant": "生き返らせる＝使復活。",
+        "ko": "살려 내다.",
+        "tl": "buhayin.",
+        "ne": "ब्युँताउनु।",
+        "id": "menghidupkan.",
+        "pt": "ressuscitar.",
+        "my": "အသက်ပြန်ရှင်စေ။",
+        "th": "ทำให้ฟื้น"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=139.733,144.128",
+      "t": [
+        139.733,
+        144.128
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ありがとう。娘を、あなたのお嫁さんにしてください。」",
+      "furigana": [
+        {
+          "surface": "「ありがとう。",
+          "reading": ""
+        },
+        {
+          "surface": "娘",
+          "reading": "むすめ"
+        },
+        {
+          "surface": "を、あなたのお",
+          "reading": ""
+        },
+        {
+          "surface": "嫁",
+          "reading": "よめ"
+        },
+        {
+          "surface": "さんにしてください。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Arigatou. Musume o, anata no oyomesan ni shitekudasai.”",
+      "translations": {
+        "vi": "\"Cảm ơn anh. Xin hãy lấy con gái tôi làm vợ.\"",
+        "en": "\"Thank you. Please take my daughter as your bride.\"",
+        "zh-Hans": "“谢谢你。请娶我女儿为妻吧。”",
+        "zh-Hant": "“謝謝你。請娶我女兒為妻吧。”",
+        "ko": "\"고맙네. 내 딸을 자네 아내로 맞아 주게.\"",
+        "tl": "\"Salamat. Pakasalan mo ang anak ko.\"",
+        "ne": "\"धन्यवाद। मेरी छोरीलाई तिम्री दुलही बनाऊ।\"",
+        "id": "\"Terima kasih. Jadikanlah putriku istrimu.\"",
+        "pt": "\"Obrigado. Por favor, case-se com minha filha.\"",
+        "my": "\"ကျေးဇူးပဲ။ ကျွန်တော့်သမီးကို ဇနီးအဖြစ် ယူပါ။\"",
+        "th": "\"ขอบคุณ ได้โปรดรับลูกสาวข้าเป็นภรรยาเถิด\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「AをBにする」: lấy A làm B. お嫁さん = cô dâu, vợ.",
+        "en": "「AをBにする」 = make A into B; お嫁さん = bride.",
+        "zh-Hans": "「把A当作B」；お嫁さん＝新娘，妻子。",
+        "zh-Hant": "「把A當作B」；お嫁さん＝新娘，妻子。",
+        "ko": "AをBにする = A를 B로 삼다.",
+        "tl": "gawing.",
+        "ne": "बनाउनु।",
+        "id": "menjadikan.",
+        "pt": "tornar.",
+        "my": "...အဖြစ်။",
+        "th": "ให้เป็น"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=145.028,149.241",
+      "t": [
+        145.028,
+        149.241
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "こうして、クオイは、その娘と結婚しました。",
+      "furigana": [
+        {
+          "surface": "こうして、クオイは、その",
+          "reading": ""
+        },
+        {
+          "surface": "娘",
+          "reading": "むすめ"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "結婚",
+          "reading": "けっこん"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Koushite, Kuoi wa, sono musume to kekkon shimashita.",
+      "translations": {
+        "vi": "Thế là Cuội cưới cô gái ấy.",
+        "en": "And so Cuội married her.",
+        "zh-Hans": "就这样，阿贵和那个姑娘结婚了。",
+        "zh-Hant": "就這樣，阿貴和那個姑娘結婚了。",
+        "ko": "이렇게 꾸오이는 그 딸과 결혼했습니다.",
+        "tl": "Kaya pinakasalan ni Cuội ang dalaga.",
+        "ne": "यसरी कुओईले ती छोरीसँग बिहे गरे।",
+        "id": "Begitulah Cuội menikahi gadis itu.",
+        "pt": "Assim, Cuội casou com ela.",
+        "my": "ဒီလိုနဲ့ ကွီက အဲဒီ မိန်းကလေးနဲ့ လက်ထပ်တယ်။",
+        "th": "ดังนั้น กุ๋ยจึงแต่งงานกับหญิงสาวคนนั้น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜と結婚する」: kết hôn với ~.",
+        "en": "「〜と結婚する」 = to marry ~.",
+        "zh-Hans": "「和……结婚」。",
+        "zh-Hant": "「和……結婚」。",
+        "ko": "~와 결혼하다.",
+        "tl": "pakasalan.",
+        "ne": "बिहे गर्नु।",
+        "id": "menikah dengan.",
+        "pt": "casar com.",
+        "my": "လက်ထပ်။",
+        "th": "แต่งงานกับ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=150.141,154.151",
+      "t": [
+        150.141,
+        154.151
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "二人は、しあわせにくらしました。",
+      "furigana": [
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "は、しあわせにくらしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Futari wa, shiawase ni kurashimashita.",
+      "translations": {
+        "vi": "Hai người sống hạnh phúc.",
+        "en": "The two lived happily.",
+        "zh-Hans": "两人过得很幸福。",
+        "zh-Hant": "兩人過得很幸福。",
+        "ko": "두 사람은 행복하게 살았습니다.",
+        "tl": "Masayang namuhay ang dalawa.",
+        "ne": "दुवै खुसीसाथ बसे।",
+        "id": "Mereka berdua hidup bahagia.",
+        "pt": "Os dois viveram felizes.",
+        "my": "နှစ်ယောက် ပျော်ပျော်ရွှင်ရွှင် နေကြတယ်။",
+        "th": "ทั้งสองอยู่กันอย่างมีความสุข"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「しあわせに」: một cách hạnh phúc. くらす = sống.",
+        "en": "「しあわせに」 = happily; くらす = to live.",
+        "zh-Hans": "しあわせに＝幸福地。",
+        "zh-Hant": "しあわせに＝幸福地。",
+        "ko": "행복하게.",
+        "tl": "masaya.",
+        "ne": "खुसीसाथ।",
+        "id": "bahagia.",
+        "pt": "felizes.",
+        "my": "ပျော်ရွှင်စွာ။",
+        "th": "อย่างมีความสุข"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=154.751,157.41",
+      "t": [
+        154.751,
+        157.41
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "でも、クオイには、一つ、心配なことがありました。",
+      "furigana": [
+        {
+          "surface": "でも、クオイには、",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "ひと"
+        },
+        {
+          "surface": "つ、",
+          "reading": ""
+        },
+        {
+          "surface": "心配",
+          "reading": "しんぱい"
+        },
+        {
+          "surface": "なことがありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, Kuoi ni wa, hitotsu, shinpai na koto ga arimashita.",
+      "translations": {
+        "vi": "Nhưng Cuội có một điều lo lắng.",
+        "en": "But Cuội had one worry.",
+        "zh-Hans": "但是，阿贵有一件担心的事。",
+        "zh-Hant": "但是，阿貴有一件擔心的事。",
+        "ko": "하지만 꾸오이에게는 걱정이 하나 있었습니다.",
+        "tl": "Pero may isang alalahanin si Cuội.",
+        "ne": "तर कुओईलाई एउटा चिन्ता थियो।",
+        "id": "Tapi Cuội punya satu kekhawatiran.",
+        "pt": "Mas Cuội tinha uma preocupação.",
+        "my": "ဒါပေမဲ့ ကွီမှာ စိုးရိမ်စရာ တစ်ခု ရှိတယ်။",
+        "th": "แต่กุ๋ยมีเรื่องกังวลอยู่อย่างหนึ่ง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜には〜がある」: ~ có ~. 心配 = lo lắng.",
+        "en": "「〜には〜がある」 = ~ has ~; 心配 = worry.",
+        "zh-Hans": "心配＝担心。",
+        "zh-Hant": "心配＝擔心。",
+        "ko": "心配 = 걱정.",
+        "tl": "alalahanin.",
+        "ne": "चिन्ता।",
+        "id": "khawatir.",
+        "pt": "preocupação.",
+        "my": "စိုးရိမ်။",
+        "th": "กังวล"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=158.01,162.505",
+      "t": [
+        158.01,
+        162.505
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "この木には、きれいな水しか、やってはいけないのです。",
+      "furigana": [
+        {
+          "surface": "この",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "には、きれいな",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "しか、やってはいけないのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kono ki ni wa, kirei na mizu shika, yatte wa ikenai no desu.",
+      "translations": {
+        "vi": "Cây này chỉ được tưới nước sạch thôi.",
+        "en": "This tree could only be given clean water.",
+        "zh-Hans": "这棵树只能浇干净的水。",
+        "zh-Hant": "這棵樹只能澆乾淨的水。",
+        "ko": "이 나무에는 깨끗한 물만 줘야 했습니다.",
+        "tl": "Malinis na tubig lang ang puwedeng ibigay sa punong ito.",
+        "ne": "यो रुखलाई सफा पानी मात्र दिनुपर्थ्यो।",
+        "id": "Pohon ini hanya boleh diberi air bersih.",
+        "pt": "Esta árvore só podia receber água limpa.",
+        "my": "ဒီသစ်ပင်ကို ရေသန့်ပဲ လောင်းရမယ်။",
+        "th": "ต้นไม้นี้รดได้แต่น้ำสะอาดเท่านั้น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜しか〜ない」: chỉ ~. 「〜てはいけない」: không được ~.",
+        "en": "「〜しか〜ない」 = only ~; 「〜てはいけない」 = must not ~.",
+        "zh-Hans": "「只……」；「不可以……」。",
+        "zh-Hant": "「只……」；「不可以……」。",
+        "ko": "~밖에 ~않다 = ~만; ~てはいけない = ~하면 안 된다.",
+        "tl": "lamang; hindi puwede.",
+        "ne": "मात्र; हुँदैन।",
+        "id": "hanya; tidak boleh.",
+        "pt": "só; não pode.",
+        "my": "...ပဲ; မ...ရ။",
+        "th": "เท่านั้น; ห้าม"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=163.105,167.456",
+      "t": [
+        163.105,
+        167.456
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「いいかい。この木には、ぜったいに、きたない水をかけてはいけないよ。」",
+      "furigana": [
+        {
+          "surface": "「いいかい。この",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "には、ぜったいに、きたない",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "をかけてはいけないよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Ii kai. Kono ki ni wa, zettaini, kitanai mizu o kakete wa ikenai yo.”",
+      "translations": {
+        "vi": "\"Nghe này. Tuyệt đối không được tưới nước bẩn vào cây này đâu.\"",
+        "en": "\"Listen. Never pour dirty water on this tree.\"",
+        "zh-Hans": "“听好了，千万不能给这棵树浇脏水。”",
+        "zh-Hant": "“聽好了，千萬不能給這棵樹澆髒水。”",
+        "ko": "\"잘 들어. 이 나무에는 절대 더러운 물을 부으면 안 돼.\"",
+        "tl": "\"Makinig ka. Huwag na huwag mong bubuhusan ng maruming tubig ang punong ito.\"",
+        "ne": "\"सुन है। यो रुखमा कहिल्यै फोहोर पानी नहाल्नू।\"",
+        "id": "\"Dengar. Jangan sekali-kali menyiram pohon ini dengan air kotor.\"",
+        "pt": "\"Escute. Nunca jogue água suja nesta árvore.\"",
+        "my": "\"နားထောင်။ ဒီသစ်ပင်ကို ရေညစ် လုံးဝ မလောင်းရဘူးနော်။\"",
+        "th": "\"ฟังนะ ห้ามรดน้ำสกปรกใส่ต้นไม้นี้เด็ดขาด\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「いいかい」: nghe này (nam, thân). ぜったいに = tuyệt đối.",
+        "en": "「いいかい」 = listen (casual, male); ぜったいに = absolutely.",
+        "zh-Hans": "いいかい＝听好；ぜったいに＝绝对。",
+        "zh-Hant": "いいかい＝聽好；ぜったいに＝絕對。",
+        "ko": "いいかい = 잘 들어; ぜったいに = 절대로.",
+        "tl": "makinig; kailanman.",
+        "ne": "सुन; कहिल्यै।",
+        "id": "dengar; sekali-kali.",
+        "pt": "escute; nunca.",
+        "my": "နားထောင်; လုံးဝ။",
+        "th": "ฟังนะ; เด็ดขาด"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=168.356,173.558",
+      "t": [
+        168.356,
+        173.558
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「はい、わかりました。」",
+      "furigana": [
+        {
+          "surface": "「はい、わかりました。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Hai, wakarimashita.”",
+      "translations": {
+        "vi": "\"Vâng, em hiểu rồi.\"",
+        "en": "\"Yes, I understand.\"",
+        "zh-Hans": "“好的，我知道了。”",
+        "zh-Hant": "“好的，我知道了。”",
+        "ko": "\"네, 알겠어요.\"",
+        "tl": "\"Opo, naintindihan ko.\"",
+        "ne": "\"हुन्छ, बुझेँ।\"",
+        "id": "\"Ya, aku mengerti.\"",
+        "pt": "\"Sim, entendi.\"",
+        "my": "\"ဟုတ်ကဲ့၊ နားလည်ပါပြီ။\"",
+        "th": "\"ค่ะ เข้าใจแล้ว\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「わかりました」: tôi hiểu rồi (lịch sự).",
+        "en": "「わかりました」 = I understand (polite).",
+        "zh-Hans": "「明白了」。",
+        "zh-Hant": "「明白了」。",
+        "ko": "알겠습니다.",
+        "tl": "naintindihan ko.",
+        "ne": "बुझेँ।",
+        "id": "mengerti.",
+        "pt": "entendi.",
+        "my": "နားလည်ပါပြီ။",
+        "th": "เข้าใจแล้ว"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=174.458,175.832",
+      "t": [
+        174.458,
+        175.832
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "クオイは、何度も、何度も、妻に言いました。",
+      "furigana": [
+        {
+          "surface": "クオイは、",
+          "reading": ""
+        },
+        {
+          "surface": "何度",
+          "reading": "なんど"
+        },
+        {
+          "surface": "も、",
+          "reading": ""
+        },
+        {
+          "surface": "何度",
+          "reading": "なんど"
+        },
+        {
+          "surface": "も、",
+          "reading": ""
+        },
+        {
+          "surface": "妻",
+          "reading": "つま"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "いました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kuoi wa, nando mo, nando mo, tsuma ni iimashita.",
+      "translations": {
+        "vi": "Cuội dặn vợ đi dặn lại nhiều lần.",
+        "en": "Cuội told his wife this again and again.",
+        "zh-Hans": "阿贵一遍又一遍地叮嘱妻子。",
+        "zh-Hant": "阿貴一遍又一遍地叮囑妻子。",
+        "ko": "꾸오이는 아내에게 몇 번이고 말했습니다.",
+        "tl": "Paulit-ulit itong sinabi ni Cuội sa asawa.",
+        "ne": "कुओईले श्रीमतीलाई धेरैपटक भने।",
+        "id": "Cuội berulang kali mengingatkan istrinya.",
+        "pt": "Cuội disse isso à esposa muitas e muitas vezes.",
+        "my": "ကွီက မိန်းမကို အကြိမ်ကြိမ် ပြောတယ်။",
+        "th": "กุ๋ยย้ำกับภรรยาครั้งแล้วครั้งเล่า"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「何度も、何度も」: lặp lại để nhấn mạnh \"rất nhiều lần\".",
+        "en": "「何度も、何度も」 = repeated for emphasis: over and over.",
+        "zh-Hans": "重复强调“一遍又一遍”。",
+        "zh-Hant": "重複強調“一遍又一遍”。",
+        "ko": "몇 번이고 거듭.",
+        "tl": "paulit-ulit.",
+        "ne": "धेरैपटक।",
+        "id": "berulang kali.",
+        "pt": "repetidamente.",
+        "my": "အကြိမ်ကြိမ်။",
+        "th": "ซ้ำแล้วซ้ำเล่า"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=176.732,180.938",
+      "t": [
+        176.732,
+        180.938
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ところが、妻は、とても、わすれっぽい人でした。",
+      "furigana": [
+        {
+          "surface": "ところが、",
+          "reading": ""
+        },
+        {
+          "surface": "妻",
+          "reading": "つま"
+        },
+        {
+          "surface": "は、とても、わすれっぽい",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "でした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tokoroga, tsuma wa, totemo, wasureppoi hito deshita.",
+      "translations": {
+        "vi": "Thế nhưng, vợ anh là người rất hay quên.",
+        "en": "However, his wife was very forgetful.",
+        "zh-Hans": "可是，妻子是个很健忘的人。",
+        "zh-Hant": "可是，妻子是個很健忘的人。",
+        "ko": "그런데 아내는 아주 건망증이 심한 사람이었습니다.",
+        "tl": "Ngunit napakamakakalimutin ng asawa niya.",
+        "ne": "तर श्रीमती निकै बिर्सने स्वभावकी थिइन्।",
+        "id": "Namun, istrinya sangat pelupa.",
+        "pt": "Porém, a esposa era muito esquecida.",
+        "my": "ဒါပေမဲ့ မိန်းမက အရမ်း မေ့တတ်တဲ့သူ ဖြစ်တယ်။",
+        "th": "แต่ภรรยาเป็นคนขี้ลืมมาก"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ところが = thế nhưng (trái mong đợi). 「〜っぽい」: hay ~, dễ ~.",
+        "en": "ところが = however (unexpectedly); 「〜っぽい」 = tends to ~.",
+        "zh-Hans": "ところが＝可是；っぽい＝容易……。",
+        "zh-Hant": "ところが＝可是；っぽい＝容易……。",
+        "ko": "ところが = 그런데; っぽい = ~하기 쉬운.",
+        "tl": "ngunit; madalas.",
+        "ne": "तर; स्वभाव।",
+        "id": "namun; mudah.",
+        "pt": "porém; tendência.",
+        "my": "ဒါပေမဲ့; ...တတ်။",
+        "th": "แต่; ขี้..."
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=181.538,186.033",
+      "t": [
+        181.538,
+        186.033
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ある日、クオイが山へ行っているとき、妻は、うっかり、木にきたない水をかけてしまいました。",
+      "furigana": [
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "、クオイが",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "っているとき、",
+          "reading": ""
+        },
+        {
+          "surface": "妻",
+          "reading": "つま"
+        },
+        {
+          "surface": "は、うっかり、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "にきたない",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "をかけてしまいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aru hi, Kuoi ga yama e itte iru toki, tsuma wa, ukkari, ki ni kitanai mizu o kaketeshimaimashita.",
+      "translations": {
+        "vi": "Một hôm, khi Cuội lên núi, vợ anh lỡ tưới nước bẩn vào cây.",
+        "en": "One day, while Cuội was on the mountain, his wife carelessly poured dirty water on the tree.",
+        "zh-Hans": "有一天，阿贵上山的时候，妻子不小心给树浇了脏水。",
+        "zh-Hant": "有一天，阿貴上山的時候，妻子不小心給樹澆了髒水。",
+        "ko": "어느 날 꾸오이가 산에 간 사이 아내는 깜빡하고 나무에 더러운 물을 붓고 말았습니다.",
+        "tl": "Isang araw, habang nasa bundok si Cuội, nabuhusan ng asawa ang puno ng maruming tubig nang hindi sinasadya.",
+        "ne": "एक दिन कुओई डाँडा गएका बेला श्रीमतीले भुलेर रुखमा फोहोर पानी हालिन्।",
+        "id": "Suatu hari, saat Cuội ke gunung, istrinya tak sengaja menyiram pohon dengan air kotor.",
+        "pt": "Um dia, enquanto Cuội estava na montanha, a esposa jogou sem querer água suja na árvore.",
+        "my": "တစ်နေ့ ကွီ တောင်ပေါ်သွားနေတုန်း မိန်းမက မတော်တဆ သစ်ပင်ကို ရေညစ် လောင်းမိတယ်။",
+        "th": "วันหนึ่งตอนกุ๋ยขึ้นเขา ภรรยาเผลอรดน้ำสกปรกใส่ต้นไม้"
+      },
+      "vocab": [
+        {
+          "word": "うっかり",
+          "reading": "うっかり",
+          "meanings": {
+            "vi": "lỡ, vô ý",
+            "en": "carelessly",
+            "zh-Hans": "不小心",
+            "zh-Hant": "不小心",
+            "ko": "깜빡",
+            "tl": "hindi sinasadya",
+            "ne": "भुलवश",
+            "id": "tanpa sengaja",
+            "pt": "sem querer",
+            "my": "မတော်တဆ",
+            "th": "เผลอ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "うっかり = lỡ, sơ ý. 「〜てしまう」: lỡ ~.",
+        "en": "うっかり = carelessly; 「〜てしまう」 = ended up ~.",
+        "zh-Hans": "うっかり＝不小心。",
+        "zh-Hant": "うっかり＝不小心。",
+        "ko": "うっかり = 깜빡.",
+        "tl": "hindi sinasadya.",
+        "ne": "भुलेर।",
+        "id": "tak sengaja.",
+        "pt": "sem querer.",
+        "my": "မတော်တဆ။",
+        "th": "เผลอ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=186.633,194.926",
+      "t": [
+        186.633,
+        194.926
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのとたん、木が、ぐらぐらと、ゆれ始めました。",
+      "furigana": [
+        {
+          "surface": "そのとたん、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "が、ぐらぐらと、ゆれ",
+          "reading": ""
+        },
+        {
+          "surface": "始",
+          "reading": "はじ"
+        },
+        {
+          "surface": "めました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono totan, ki ga, guragura to, yurehajimemashita.",
+      "translations": {
+        "vi": "Ngay lập tức, cái cây bắt đầu rung lắc.",
+        "en": "At that very moment, the tree began to shake.",
+        "zh-Hans": "就在那一刻，树开始摇晃起来。",
+        "zh-Hant": "就在那一刻，樹開始搖晃起來。",
+        "ko": "그 순간 나무가 흔들흔들 흔들리기 시작했습니다.",
+        "tl": "Sa sandaling iyon, nagsimulang umuga ang puno.",
+        "ne": "त्यही बेला रुख हल्लिन थाल्यो।",
+        "id": "Seketika, pohon itu mulai bergoyang.",
+        "pt": "Naquele instante, a árvore começou a balançar.",
+        "my": "ချက်ချင်းပဲ သစ်ပင်က ယိမ်းထိုးလာတယ်။",
+        "th": "ทันใดนั้น ต้นไม้ก็เริ่มโยกไปมา"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「そのとたん」: ngay lúc đó. 「〜始める」: bắt đầu ~.",
+        "en": "「そのとたん」 = the instant that; 「〜始める」 = start to ~.",
+        "zh-Hans": "そのとたん＝就在那时；始める＝开始。",
+        "zh-Hant": "そのとたん＝就在那時；始める＝開始。",
+        "ko": "그 순간; ~하기 시작하다.",
+        "tl": "sa sandaling iyon; magsimula.",
+        "ne": "त्यही बेला; थाल्नु।",
+        "id": "seketika; mulai.",
+        "pt": "naquele instante; começar.",
+        "my": "ချက်ချင်း; စ။",
+        "th": "ทันใดนั้น; เริ่ม"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=195.526,200.142",
+      "t": [
+        195.526,
+        200.142
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "根っこが、土から、ぬけて、木は、空へ、うき上がりました。",
+      "furigana": [
+        {
+          "surface": "根",
+          "reading": "ね"
+        },
+        {
+          "surface": "っこが、",
+          "reading": ""
+        },
+        {
+          "surface": "土",
+          "reading": "つち"
+        },
+        {
+          "surface": "から、ぬけて、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "空",
+          "reading": "そら"
+        },
+        {
+          "surface": "へ、うき",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "がりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Nekko ga, tsuchi kara, nukete, ki wa, sora e, uki ue garimashita.",
+      "translations": {
+        "vi": "Rễ bật khỏi đất, cây bay vút lên trời.",
+        "en": "The roots came out of the ground and the tree floated up into the sky.",
+        "zh-Hans": "树根从土里拔了出来，树飘向了天空。",
+        "zh-Hant": "樹根從土裡拔了出來，樹飄向了天空。",
+        "ko": "뿌리가 땅에서 빠지고 나무는 하늘로 떠올랐습니다.",
+        "tl": "Natanggal ang ugat sa lupa at lumutang ang puno papuntang langit.",
+        "ne": "जरा माटोबाट निस्क्यो र रुख आकाशतिर उड्यो।",
+        "id": "Akarnya tercabut dari tanah dan pohon itu melayang ke langit.",
+        "pt": "As raízes saíram da terra e a árvore subiu flutuando ao céu.",
+        "my": "အမြစ်တွေ မြေထဲက ကျွတ်ပြီး သစ်ပင်က ကောင်းကင်ကို ပျံတက်သွားတယ်။",
+        "th": "รากหลุดจากดิน ต้นไม้ลอยขึ้นสู่ท้องฟ้า"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ぬける = tuột ra. うき上がる = nổi lên, bay lên.",
+        "en": "ぬける = to come out; うき上がる = to float up.",
+        "zh-Hans": "ぬける＝脱出；うき上がる＝浮起。",
+        "zh-Hant": "ぬける＝脫出；うき上がる＝浮起。",
+        "ko": "ぬける = 빠지다; うき上がる = 떠오르다.",
+        "tl": "matanggal; lumutang.",
+        "ne": "निस्कनु; उड्नु।",
+        "id": "tercabut; melayang.",
+        "pt": "sair; flutuar.",
+        "my": "ကျွတ်; ပျံတက်။",
+        "th": "หลุด; ลอยขึ้น"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=200.742,206.542",
+      "t": [
+        200.742,
+        206.542
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ちょうど、そこへ、クオイが帰ってきました。",
+      "furigana": [
+        {
+          "surface": "ちょうど、そこへ、クオイが",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ってきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Choudo, soko e, Kuoi ga kaette kimashita.",
+      "translations": {
+        "vi": "Vừa đúng lúc ấy, Cuội về đến nhà.",
+        "en": "Just then, Cuội came home.",
+        "zh-Hans": "正好这时，阿贵回来了。",
+        "zh-Hant": "正好這時，阿貴回來了。",
+        "ko": "마침 그때 꾸오이가 돌아왔습니다.",
+        "tl": "Saktong dumating si Cuội.",
+        "ne": "ठीक त्यही बेला कुओई घर फर्के।",
+        "id": "Tepat saat itu, Cuội pulang.",
+        "pt": "Bem nessa hora, Cuội chegou em casa.",
+        "my": "အဲဒီအချိန် တိုက်ဆိုင်ပြီး ကွီ ပြန်ရောက်လာတယ်။",
+        "th": "พอดีกับที่กุ๋ยกลับมาถึง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「ちょうど、そこへ」: vừa đúng lúc đó.",
+        "en": "「ちょうど、そこへ」 = right at that moment.",
+        "zh-Hans": "「正好这时」。",
+        "zh-Hant": "「正好這時」。",
+        "ko": "마침 그때.",
+        "tl": "saktong.",
+        "ne": "ठीक त्यही बेला।",
+        "id": "tepat saat itu.",
+        "pt": "bem nessa hora.",
+        "my": "အဲဒီအချိန်တိုက်ဆိုင်။",
+        "th": "พอดี"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=207.142,210.432",
+      "t": [
+        207.142,
+        210.432
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「まて！行かないでくれ！」",
+      "furigana": [
+        {
+          "surface": "「まて！",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "かないでくれ！」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Mate! Ikanaidekure!”",
+      "translations": {
+        "vi": "\"Khoan đã! Đừng đi!\"",
+        "en": "\"Wait! Don't go!\"",
+        "zh-Hans": "“等等！别走！”",
+        "zh-Hant": "“等等！別走！”",
+        "ko": "\"기다려! 가지 마!\"",
+        "tl": "\"Sandali! Huwag kang umalis!\"",
+        "ne": "\"पख! नजाऊ!\"",
+        "id": "\"Tunggu! Jangan pergi!\"",
+        "pt": "\"Espere! Não vá!\"",
+        "my": "\"နေဦး! မသွားပါနဲ့!\"",
+        "th": "\"เดี๋ยว! อย่าไป!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ないでくれ」: đừng ~ (nam, mạnh). まて = khoan đã.",
+        "en": "「〜ないでくれ」 = don't ~ (blunt, male); まて = wait!",
+        "zh-Hans": "「別……」；まて＝等等。",
+        "zh-Hant": "「別……」；まて＝等等。",
+        "ko": "~ないでくれ = ~하지 마.",
+        "tl": "huwag.",
+        "ne": "नगर।",
+        "id": "jangan.",
+        "pt": "não.",
+        "my": "မ...ပါနဲ့။",
+        "th": "อย่า"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=211.332,212.909",
+      "t": [
+        211.332,
+        212.909
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "クオイは、走っていって、木の根っこに、おのを引っかけました。",
+      "furigana": [
+        {
+          "surface": "クオイは、",
+          "reading": ""
+        },
+        {
+          "surface": "走",
+          "reading": "はし"
+        },
+        {
+          "surface": "っていって、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "根",
+          "reading": "ね"
+        },
+        {
+          "surface": "っこに、おのを",
+          "reading": ""
+        },
+        {
+          "surface": "引",
+          "reading": "ひ"
+        },
+        {
+          "surface": "っかけました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kuoi wa, hashitte itte, ki no nekko ni, ono o hikkakemashita.",
+      "translations": {
+        "vi": "Cuội chạy lại, móc rìu vào rễ cây.",
+        "en": "Cuội ran over and hooked his axe onto the roots.",
+        "zh-Hans": "阿贵跑过去，用斧头钩住了树根。",
+        "zh-Hant": "阿貴跑過去，用斧頭鉤住了樹根。",
+        "ko": "꾸오이는 달려가 나무뿌리에 도끼를 걸었습니다.",
+        "tl": "Tumakbo si Cuội at isinabit ang palakol sa ugat ng puno.",
+        "ne": "कुओई दौडेर रुखको जरामा बञ्चरो अड्काए।",
+        "id": "Cuội berlari dan mengaitkan kapaknya ke akar pohon.",
+        "pt": "Cuội correu e prendeu o machado nas raízes.",
+        "my": "ကွီက ပြေးသွားပြီး သစ်ပင်အမြစ်ကို ပုဆိန်နဲ့ ချိတ်တယ်။",
+        "th": "กุ๋ยวิ่งไปเกี่ยวขวานไว้กับรากต้นไม้"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "引っかける = móc vào. 「〜ていく」: (chạy) đi tới.",
+        "en": "引っかける = to hook onto; 「〜ていく」 = go ~ing.",
+        "zh-Hans": "引っかける＝钩住。",
+        "zh-Hant": "引っかける＝鉤住。",
+        "ko": "引っかける = 걸다.",
+        "tl": "isabit.",
+        "ne": "अड्काउनु।",
+        "id": "mengaitkan.",
+        "pt": "prender.",
+        "my": "ချိတ်။",
+        "th": "เกี่ยว"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=213.809,219.533",
+      "t": [
+        213.809,
+        219.533
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "でも、木は、とまりません。",
+      "furigana": [
+        {
+          "surface": "でも、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "は、とまりません。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, ki wa, tomarimasen.",
+      "translations": {
+        "vi": "Nhưng cây không dừng lại.",
+        "en": "But the tree did not stop.",
+        "zh-Hans": "可是，树没有停下来。",
+        "zh-Hant": "可是，樹沒有停下來。",
+        "ko": "하지만 나무는 멈추지 않았습니다.",
+        "tl": "Pero hindi tumigil ang puno.",
+        "ne": "तर रुख रोकिएन।",
+        "id": "Tapi pohon itu tidak berhenti.",
+        "pt": "Mas a árvore não parou.",
+        "my": "ဒါပေမဲ့ သစ်ပင်က မရပ်ဘူး။",
+        "th": "แต่ต้นไม้ไม่หยุด"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "とまる = dừng lại. Thì hiện tại làm câu chuyện sống động.",
+        "en": "とまる = to stop; present tense adds vividness.",
+        "zh-Hans": "とまる＝停下。",
+        "zh-Hant": "とまる＝停下。",
+        "ko": "とまる = 멈추다.",
+        "tl": "tumigil.",
+        "ne": "रोकिनु।",
+        "id": "berhenti.",
+        "pt": "parar.",
+        "my": "ရပ်။",
+        "th": "หยุด"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=220.133,222.938",
+      "t": [
+        220.133,
+        222.938
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "木は、クオイといっしょに、どんどん高く、のぼっていきました。",
+      "furigana": [
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "は、クオイといっしょに、どんどん",
+          "reading": ""
+        },
+        {
+          "surface": "高",
+          "reading": "たか"
+        },
+        {
+          "surface": "く、のぼっていきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ki wa, Kuoi to issho ni, dondon takaku, nobotteikimashita.",
+      "translations": {
+        "vi": "Cây cùng Cuội cứ thế bay lên cao mãi.",
+        "en": "The tree, with Cuội, rose higher and higher.",
+        "zh-Hans": "树带着阿贵越升越高。",
+        "zh-Hant": "樹帶著阿貴越升越高。",
+        "ko": "나무는 꾸오이와 함께 점점 높이 올라갔습니다.",
+        "tl": "Pataas nang pataas ang puno kasama si Cuội.",
+        "ne": "रुख कुओईसँगै झन्-झन् माथि गयो।",
+        "id": "Pohon itu bersama Cuội naik makin tinggi.",
+        "pt": "A árvore, com Cuội, subiu cada vez mais alto.",
+        "my": "သစ်ပင်က ကွီနဲ့အတူ မြင့်သထက် မြင့်တက်သွားတယ်။",
+        "th": "ต้นไม้พากุ๋ยลอยสูงขึ้นเรื่อย ๆ"
+      },
+      "vocab": [
+        {
+          "word": "どんどん",
+          "reading": "どんどん",
+          "meanings": {
+            "vi": "ngày càng nhanh, vùn vụt",
+            "en": "steadily, rapidly",
+            "zh-Hans": "越来越、迅速地",
+            "zh-Hant": "越來越、迅速地",
+            "ko": "점점, 쑥쑥",
+            "tl": "mabilis at tuloy-tuloy",
+            "ne": "झन् झन्",
+            "id": "makin lama makin",
+            "pt": "cada vez mais",
+            "my": "တဖြည်းဖြည်းမြန်မြန်",
+            "th": "เรื่อย ๆ อย่างรวดเร็ว"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "どんどん = cứ thế, mãi. 「〜ていく」: (lên) dần.",
+        "en": "どんどん = steadily, more and more.",
+        "zh-Hans": "どんどん＝越来越。",
+        "zh-Hant": "どんどん＝越來越。",
+        "ko": "どんどん = 점점.",
+        "tl": "pataas nang pataas.",
+        "ne": "झन्-झन्।",
+        "id": "makin.",
+        "pt": "cada vez mais.",
+        "my": "...သထက်။",
+        "th": "เรื่อย ๆ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=223.538,228.582",
+      "t": [
+        223.538,
+        228.582
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そして、とうとう、月まで、とんでいってしまったのです。",
+      "furigana": [
+        {
+          "surface": "そして、とうとう、",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "まで、とんでいってしまったのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite, toutou, tsuki made, tondeitteshimatta no desu.",
+      "translations": {
+        "vi": "Và cuối cùng, bay tận lên cung trăng.",
+        "en": "And at last, it flew all the way to the moon.",
+        "zh-Hans": "最后，竟一直飞到了月亮上。",
+        "zh-Hant": "最後，竟一直飛到了月亮上。",
+        "ko": "그리고 마침내 달까지 날아가 버렸습니다.",
+        "tl": "At sa wakas, lumipad ito hanggang sa buwan.",
+        "ne": "अनि अन्ततः जूनसम्मै उडेर पुग्यो।",
+        "id": "Dan akhirnya terbang sampai ke bulan.",
+        "pt": "E por fim voou até a lua.",
+        "my": "နောက်ဆုံးတော့ လအထိ ပျံသွားတယ်။",
+        "th": "และในที่สุดก็ลอยไปถึงดวงจันทร์"
+      },
+      "vocab": [
+        {
+          "word": "とうとう",
+          "reading": "とうとう",
+          "meanings": {
+            "vi": "cuối cùng (thì)",
+            "en": "at last, finally",
+            "zh-Hans": "终于",
+            "zh-Hant": "終於",
+            "ko": "마침내",
+            "tl": "sa wakas",
+            "ne": "अन्ततः",
+            "id": "akhirnya",
+            "pt": "finalmente",
+            "my": "နောက်ဆုံးတော့",
+            "th": "ในที่สุด"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜まで」: đến tận ~. とうとう = cuối cùng.",
+        "en": "「〜まで」 = all the way to ~; とうとう = at last.",
+        "zh-Hans": "「到……」；とうとう＝终于。",
+        "zh-Hant": "「到……」；とうとう＝終於。",
+        "ko": "~까지; 마침내.",
+        "tl": "hanggang; sa wakas.",
+        "ne": "सम्म; अन्ततः।",
+        "id": "sampai; akhirnya.",
+        "pt": "até; por fim.",
+        "my": "အထိ; နောက်ဆုံး။",
+        "th": "ถึง; ในที่สุด"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=229.182,233.72",
+      "t": [
+        229.182,
+        233.72
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それから、クオイは、ずっと、月の上で、木の下にすわっています。",
+      "furigana": [
+        {
+          "surface": "それから、クオイは、ずっと、",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "で、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "下",
+          "reading": "した"
+        },
+        {
+          "surface": "にすわっています。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sorekara, Kuoi wa, zutto, tsuki no ue de, ki no shita ni suwatteimasu.",
+      "translations": {
+        "vi": "Từ đó, Cuội mãi ngồi dưới gốc cây trên cung trăng.",
+        "en": "Ever since, Cuội has been sitting under the tree on the moon.",
+        "zh-Hans": "从那以后，阿贵就一直坐在月亮上的树下。",
+        "zh-Hant": "從那以後，阿貴就一直坐在月亮上的樹下。",
+        "ko": "그 뒤로 꾸오이는 줄곧 달 위의 나무 아래 앉아 있습니다.",
+        "tl": "Mula noon, nakaupo na si Cuội sa ilalim ng puno sa buwan.",
+        "ne": "त्यसपछि कुओई सधैं जूनमा रुखमुनि बसिरहेका छन्।",
+        "id": "Sejak itu, Cuội terus duduk di bawah pohon di bulan.",
+        "pt": "Desde então, Cuội está sentado sob a árvore na lua.",
+        "my": "အဲဒီကစပြီး ကွီက လပေါ်က သစ်ပင်အောက်မှာ အမြဲ ထိုင်နေတယ်။",
+        "th": "ตั้งแต่นั้น กุ๋ยก็นั่งอยู่ใต้ต้นไม้บนดวงจันทร์ตลอดมา"
+      },
+      "vocab": [
+        {
+          "word": "ずっと",
+          "reading": "ずっと",
+          "meanings": {
+            "vi": "suốt, mãi",
+            "en": "all along, the whole time",
+            "zh-Hans": "一直",
+            "zh-Hant": "一直",
+            "ko": "계속",
+            "tl": "palagi, matagal",
+            "ne": "सधैँ",
+            "id": "terus-menerus",
+            "pt": "o tempo todo",
+            "my": "တောက်လျှောက်",
+            "th": "ตลอด"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "ずっと = suốt, mãi. 「〜ています」: trạng thái kéo dài.",
+        "en": "ずっと = all along; 「〜ています」 = ongoing state.",
+        "zh-Hans": "ずっと＝一直。",
+        "zh-Hant": "ずっと＝一直。",
+        "ko": "ずっと = 줄곧.",
+        "tl": "palagi.",
+        "ne": "सधैं।",
+        "id": "terus.",
+        "pt": "sempre.",
+        "my": "အမြဲ။",
+        "th": "ตลอด"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=234.32,240.368",
+      "t": [
+        234.32,
+        240.368
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "秋のまんまるの月の夜には、下の村を、さびしそうに見ているそうです。",
+      "furigana": [
+        {
+          "surface": "秋",
+          "reading": "あき"
+        },
+        {
+          "surface": "のまんまるの",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "には、",
+          "reading": ""
+        },
+        {
+          "surface": "下",
+          "reading": "した"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "を、さびしそうに",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "ているそうです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aki no manma ru no tsuki no yoru ni wa, shita no mura o, sabishisou ni mite iru sou desu.",
+      "translations": {
+        "vi": "Nghe nói vào đêm trăng tròn mùa thu, chú buồn bã nhìn xuống làng.",
+        "en": "It is said that on full-moon nights in autumn, he looks sadly down at his village.",
+        "zh-Hans": "据说秋天月圆之夜，他会寂寞地望着下面的村子。",
+        "zh-Hant": "據說秋天月圓之夜，他會寂寞地望著下面的村子。",
+        "ko": "가을 보름달 밤에는 아래 마을을 쓸쓸한 듯 바라본다고 합니다.",
+        "tl": "Sinasabing sa gabi ng kabilugan ng buwan sa taglagas, malungkot siyang tumitingin sa nayon sa ibaba.",
+        "ne": "शरदको पूर्णिमाको रात उनी उदास भएर तलको गाउँ हेर्छन् रे।",
+        "id": "Konon, pada malam purnama musim gugur, ia memandang desa di bawah dengan sedih.",
+        "pt": "Dizem que nas noites de lua cheia do outono ele olha triste para a aldeia lá embaixo.",
+        "my": "ဆောင်းဦးလပြည့်ညတွေမှာ အောက်က ရွာကို ဝမ်းနည်းစွာ ကြည့်နေတယ်လို့ ဆိုကြတယ်။",
+        "th": "ว่ากันว่าคืนพระจันทร์เต็มดวงฤดูใบไม้ร่วง เขาจะมองลงมาที่หมู่บ้านอย่างเหงา ๆ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜そうに」: trông có vẻ ~. 「〜そうです」: nghe nói ~.",
+        "en": "「〜そうに」 = looking ~; 「〜そうです」 = I hear that ~.",
+        "zh-Hans": "「……そうに」＝看起来……；「……そうです」＝听说。",
+        "zh-Hant": "「……そうに」＝看起來……；「……そうです」＝聽說。",
+        "ko": "~そうに = ~한 듯; ~そうです = ~라고 한다.",
+        "tl": "mukhang; sinasabing.",
+        "ne": "जस्तो; रे।",
+        "id": "tampak; konon.",
+        "pt": "parecendo; dizem.",
+        "my": "...ပုံ; ဆိုကြတယ်။",
+        "th": "ดู...; ว่ากันว่า"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=240.968,246.894",
+      "t": [
+        240.968,
+        246.894
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "だから、ベトナムの子どもたちは、ランプを持って、月のクオイに、あいさつするのです。",
+      "furigana": [
+        {
+          "surface": "だから、ベトナムの",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どもたちは、ランプを",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "のクオイに、あいさつするのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Dakara, Betonamu no kodomotachi wa, ranpu o motte, tsuki no Kuoi ni, aisatsusuru no desu.",
+      "translations": {
+        "vi": "Vì thế trẻ em Việt Nam cầm đèn, chào chú Cuội trên trăng.",
+        "en": "That is why Vietnamese children carry lanterns and greet Cuội on the moon.",
+        "zh-Hans": "所以，越南的孩子们提着灯，向月亮上的阿贵打招呼。",
+        "zh-Hant": "所以，越南的孩子們提著燈，向月亮上的阿貴打招呼。",
+        "ko": "그래서 베트남 아이들은 등을 들고 달의 꾸오이에게 인사합니다.",
+        "tl": "Kaya ang mga batang Vietnamese ay may dalang parol at bumabati kay Cuội sa buwan.",
+        "ne": "त्यसैले भियतनामी बालबालिका बत्ती लिएर जूनका कुओईलाई अभिवादन गर्छन्।",
+        "id": "Karena itu anak-anak Vietnam membawa lentera dan menyapa Cuội di bulan.",
+        "pt": "Por isso as crianças vietnamitas levam lanternas e cumprimentam Cuội na lua.",
+        "my": "ဒါကြောင့် ဗီယက်နမ်ကလေးတွေက မီးအိမ်ကိုင်ပြီး လပေါ်က ကွီကို နှုတ်ဆက်ကြတယ်။",
+        "th": "เพราะฉะนั้นเด็กเวียดนามจึงถือโคมทักทายกุ๋ยบนดวงจันทร์"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「だから〜のです」: vì vậy mà ~ (giải thích).",
+        "en": "「だから〜のです」 = that's why ~.",
+        "zh-Hans": "「所以……」。",
+        "zh-Hant": "「所以……」。",
+        "ko": "그래서 ~것입니다.",
+        "tl": "kaya.",
+        "ne": "त्यसैले।",
+        "id": "karena itu.",
+        "pt": "por isso.",
+        "my": "ဒါကြောင့်။",
+        "th": "เพราะฉะนั้น"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=247.494,254.969",
+      "t": [
+        247.494,
+        254.969
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "さて、日本の人は、月の中に、何を見るでしょうか。",
+      "furigana": [
+        {
+          "surface": "さて、",
+          "reading": ""
+        },
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "何",
+          "reading": "なに"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "るでしょうか。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sate, Nihon no hito wa, tsuki no naka ni, nani o mirudeshou ka.",
+      "translations": {
+        "vi": "Vậy người Nhật nhìn thấy gì trong mặt trăng?",
+        "en": "Now, what do Japanese people see in the moon?",
+        "zh-Hans": "那么，日本人在月亮里看到了什么呢？",
+        "zh-Hant": "那麼，日本人在月亮裡看到了什麼呢？",
+        "ko": "그럼 일본 사람은 달 속에서 무엇을 볼까요?",
+        "tl": "Ano naman ang nakikita ng mga Hapon sa buwan?",
+        "ne": "अब जापानीहरू जूनमा के देख्छन् होला?",
+        "id": "Nah, apa yang dilihat orang Jepang di bulan?",
+        "pt": "E os japoneses, o que veem na lua?",
+        "my": "ဒါဆို ဂျပန်လူတွေက လထဲမှာ ဘာမြင်ကြလဲ။",
+        "th": "แล้วคนญี่ปุ่นเห็นอะไรในดวงจันทร์"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜でしょうか」: ~ nhỉ? (hỏi người nghe).",
+        "en": "「〜でしょうか」 = I wonder ~? (asking the listener).",
+        "zh-Hans": "「……呢？」",
+        "zh-Hant": "「……呢？」",
+        "ko": "~까요?",
+        "tl": "kaya?",
+        "ne": "होला?",
+        "id": "ya?",
+        "pt": "será?",
+        "my": "လဲ။",
+        "th": "นะ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=255.569,260.239",
+      "t": [
+        255.569,
+        260.239
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "日本では、月の黒いところは、ウサギに見えると言われています。",
+      "furigana": [
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "では、",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "黒",
+          "reading": "くろ"
+        },
+        {
+          "surface": "いところは、ウサギに",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "えると",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "われています。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Nihon deha, tsuki no kuroi tokoro wa, usagi ni mieru to iwareteimasu.",
+      "translations": {
+        "vi": "Ở Nhật, người ta nói vết đen trên mặt trăng trông như con thỏ.",
+        "en": "In Japan, the dark parts of the moon are said to look like a rabbit.",
+        "zh-Hans": "在日本，人们说月亮上的黑影像一只兔子。",
+        "zh-Hant": "在日本，人們說月亮上的黑影像一隻兔子。",
+        "ko": "일본에서는 달의 검은 부분이 토끼로 보인다고 합니다.",
+        "tl": "Sa Japan, sinasabing mukhang kuneho ang madilim na bahagi ng buwan.",
+        "ne": "जापानमा जूनको कालो भाग खरायोजस्तो देखिन्छ भनिन्छ।",
+        "id": "Di Jepang, bagian gelap bulan dikatakan tampak seperti kelinci.",
+        "pt": "No Japão, dizem que as partes escuras da lua parecem um coelho.",
+        "my": "ဂျပန်မှာ လရဲ့ အမည်းကွက်က ယုန်လို မြင်ရတယ်လို့ ဆိုကြတယ်။",
+        "th": "ที่ญี่ปุ่น ว่ากันว่ารอยดำบนดวงจันทร์ดูเหมือนกระต่าย"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜と言われている」: người ta nói rằng ~.",
+        "en": "「〜と言われている」 = it is said that ~.",
+        "zh-Hans": "「据说……」。",
+        "zh-Hant": "「據說……」。",
+        "ko": "~라고 한다.",
+        "tl": "sinasabing.",
+        "ne": "भनिन्छ।",
+        "id": "dikatakan.",
+        "pt": "diz-se.",
+        "my": "ဆိုကြတယ်။",
+        "th": "ว่ากันว่า"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=260.839,266.066",
+      "t": [
+        260.839,
+        266.066
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ウサギが、おもちをついているのです。",
+      "furigana": [
+        {
+          "surface": "ウサギが、おもちをついているのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Usagi ga, omochi o tsuiteiru no desu.",
+      "translations": {
+        "vi": "Con thỏ đang giã bánh mochi.",
+        "en": "The rabbit is pounding mochi rice cakes.",
+        "zh-Hans": "兔子正在捣年糕。",
+        "zh-Hant": "兔子正在搗年糕。",
+        "ko": "토끼가 떡을 찧고 있는 것입니다.",
+        "tl": "Nagbabayo ng mochi ang kuneho.",
+        "ne": "खरायोले मोचि कुटिरहेको छ।",
+        "id": "Kelinci itu sedang menumbuk mochi.",
+        "pt": "O coelho está socando mochi.",
+        "my": "ယုန်က မိုချိမုန့် ထောင်းနေတယ်။",
+        "th": "กระต่ายกำลังตำโมจิ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "おもちをつく = giã bánh dày mochi.",
+        "en": "おもちをつく = to pound mochi.",
+        "zh-Hans": "おもちをつく＝捣年糕。",
+        "zh-Hant": "おもちをつく＝搗年糕。",
+        "ko": "떡을 찧다.",
+        "tl": "magbayo ng mochi.",
+        "ne": "मोचि कुट्नु।",
+        "id": "menumbuk mochi.",
+        "pt": "socar mochi.",
+        "my": "မိုချိထောင်း။",
+        "th": "ตำโมจิ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=266.666,269.559",
+      "t": [
+        266.666,
+        269.559
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "日本にも、秋に月を見る「お月見」があります。",
+      "furigana": [
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "にも、",
+          "reading": ""
+        },
+        {
+          "surface": "秋",
+          "reading": "あき"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "る「お",
+          "reading": ""
+        },
+        {
+          "surface": "月見",
+          "reading": "つきみ"
+        },
+        {
+          "surface": "」があります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Nihon ni mo, aki ni tsuki o miru “Otsukimi” ga arimasu.",
+      "translations": {
+        "vi": "Nhật cũng có tục \"Otsukimi\", ngắm trăng vào mùa thu.",
+        "en": "Japan also has \"Otsukimi\", moon viewing in autumn.",
+        "zh-Hans": "日本也有秋天赏月的“お月见”。",
+        "zh-Hant": "日本也有秋天賞月的“お月見”。",
+        "ko": "일본에도 가을에 달을 보는 '오쓰키미'가 있습니다.",
+        "tl": "May \"Otsukimi\" rin sa Japan, ang pagtingin sa buwan tuwing taglagas.",
+        "ne": "जापानमा पनि शरदमा जून हेर्ने \"ओत्सुकिमी\" छ।",
+        "id": "Jepang juga punya \"Otsukimi\", tradisi menikmati bulan di musim gugur.",
+        "pt": "O Japão também tem o \"Otsukimi\", a contemplação da lua no outono.",
+        "my": "ဂျပန်မှာလည်း ဆောင်းဦးမှာ လကြည့်တဲ့ \"အိုစုကိမိ\" ရှိတယ်။",
+        "th": "ญี่ปุ่นก็มี \"โอสึกิมิ\" การชมจันทร์ในฤดูใบไม้ร่วง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜にも」: ở ~ cũng. お月見 = ngắm trăng.",
+        "en": "「〜にも」 = in ~ too; お月見 = moon viewing.",
+        "zh-Hans": "「……也」；お月見＝赏月。",
+        "zh-Hant": "「……也」；お月見＝賞月。",
+        "ko": "~에도; お月見 = 달맞이.",
+        "tl": "din; pagtingin sa buwan.",
+        "ne": "पनि; जून हेर्ने।",
+        "id": "juga; menikmati bulan.",
+        "pt": "também; ver a lua.",
+        "my": "လည်း; လကြည့်။",
+        "th": "ก็; ชมจันทร์"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=270.159,274.196",
+      "t": [
+        270.159,
+        274.196
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "おだんごと、ススキをかざって、きれいな月を楽しみます。",
+      "furigana": [
+        {
+          "surface": "おだんごと、ススキをかざって、きれいな",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "楽",
+          "reading": "たの"
+        },
+        {
+          "surface": "しみます。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Oda ngoto, susuki o kazatte, kirei na tsuki o tanoshimimasu.",
+      "translations": {
+        "vi": "Người ta bày bánh dango và cỏ lau, rồi thưởng trăng đẹp.",
+        "en": "People set out dango dumplings and pampas grass and enjoy the beautiful moon.",
+        "zh-Hans": "摆上团子和芒草，欣赏美丽的月亮。",
+        "zh-Hant": "擺上糰子和芒草，欣賞美麗的月亮。",
+        "ko": "경단과 억새를 장식하고 아름다운 달을 즐깁니다.",
+        "tl": "Naglalagay ng dango at damong susuki, at tinatamasa ang magandang buwan.",
+        "ne": "दाङ्गो र काँस घाँस सजाएर सुन्दर जूनको आनन्द लिन्छन्।",
+        "id": "Mereka menghias dango dan rumput susuki, lalu menikmati bulan yang indah.",
+        "pt": "Enfeitam com dango e capim-dos-pampas e apreciam a lua bonita.",
+        "my": "ဒန်ဂိုမုန့်နဲ့ ကိုင်းပင်တွေ အလှဆင်ပြီး လှပတဲ့ လကို ခံစားကြတယ်။",
+        "th": "วางขนมดังโงะกับหญ้าซูซูกิ แล้วชมพระจันทร์ที่สวยงาม"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ススキ = cỏ lau Nhật. かざる = trang trí, bày.",
+        "en": "ススキ = pampas grass; かざる = to decorate.",
+        "zh-Hans": "ススキ＝芒草；かざる＝装饰。",
+        "zh-Hant": "ススキ＝芒草；かざる＝裝飾。",
+        "ko": "ススキ = 억새; かざる = 장식하다.",
+        "tl": "susuki; palamutihan.",
+        "ne": "काँस; सजाउनु।",
+        "id": "susuki; menghias.",
+        "pt": "capim; enfeitar.",
+        "my": "ကိုင်း; အလှဆင်။",
+        "th": "ซูซูกิ; ประดับ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=274.796,279.581",
+      "t": [
+        274.796,
+        279.581
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "また、日本の『竹取物語』では、かぐや姫が、月へ帰っていきます。",
+      "furigana": [
+        {
+          "surface": "また、",
+          "reading": ""
+        },
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "の『",
+          "reading": ""
+        },
+        {
+          "surface": "竹取物語",
+          "reading": "たけとりものがたり"
+        },
+        {
+          "surface": "』では、かぐや",
+          "reading": ""
+        },
+        {
+          "surface": "姫",
+          "reading": "ひめ"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "っていきます。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mata, Nihon no “Taketorimonogatari” de wa, kagu ya hime ga, tsuki e kaette ikimasu.",
+      "translations": {
+        "vi": "Còn trong \"Truyện ông lão đốn tre\" của Nhật, công chúa Kaguya trở về mặt trăng.",
+        "en": "And in Japan's \"Tale of the Bamboo Cutter\", Princess Kaguya returns to the moon.",
+        "zh-Hans": "另外，在日本的《竹取物语》里，辉夜姬回到了月亮上。",
+        "zh-Hant": "另外，在日本的《竹取物語》裡，輝夜姬回到了月亮上。",
+        "ko": "또 일본의 『다케토리 이야기』에서는 가구야 공주가 달로 돌아갑니다.",
+        "tl": "Sa \"Kuwento ng Mamumutol ng Kawayan\" ng Japan, bumalik sa buwan si Prinsesa Kaguya.",
+        "ne": "जापानको \"बाँस काट्नेको कथा\"मा राजकुमारी कागुया जूनमा फर्किन्छिन्।",
+        "id": "Dalam \"Kisah Pemotong Bambu\" Jepang, Putri Kaguya kembali ke bulan.",
+        "pt": "E no \"Conto do Cortador de Bambu\", a princesa Kaguya volta para a lua.",
+        "my": "ဂျပန်ရဲ့ \"ဝါးခုတ်သမားပုံပြင်\" မှာ မင်းသမီး ကာဂုယာက လဆီ ပြန်သွားတယ်။",
+        "th": "ในเรื่อง \"ตำนานคนตัดไผ่\" ของญี่ปุ่น เจ้าหญิงคางุยะกลับไปยังดวงจันทร์"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "また = ngoài ra. 「〜ていく」: (về) đi xa dần.",
+        "en": "また = also; 「〜ていく」 = goes away.",
+        "zh-Hans": "また＝另外。",
+        "zh-Hant": "また＝另外。",
+        "ko": "また = 또.",
+        "tl": "gayundin.",
+        "ne": "साथै।",
+        "id": "selain itu.",
+        "pt": "além disso.",
+        "my": "ပြီးတော့။",
+        "th": "นอกจากนี้"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=280.181,286.158",
+      "t": [
+        280.181,
+        286.158
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ベトナムでは、男の人が、月へ行きました。",
+      "furigana": [
+        {
+          "surface": "ベトナムでは、",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Betonamu de wa, otoko no hito ga, tsuki e ikimashita.",
+      "translations": {
+        "vi": "Ở Việt Nam, một người đàn ông lên cung trăng.",
+        "en": "In Vietnam, a man went to the moon.",
+        "zh-Hans": "在越南，去月亮的是个男人。",
+        "zh-Hant": "在越南，去月亮的是個男人。",
+        "ko": "베트남에서는 남자가 달에 갔습니다.",
+        "tl": "Sa Vietnam, isang lalaki ang napunta sa buwan.",
+        "ne": "भियतनाममा एक पुरुष जूनमा गए।",
+        "id": "Di Vietnam, seorang lelaki pergi ke bulan.",
+        "pt": "No Vietnã, foi um homem que foi para a lua.",
+        "my": "ဗီယက်နမ်မှာ ယောက်ျားတစ်ယောက်က လကို ရောက်သွားတယ်။",
+        "th": "ที่เวียดนาม ผู้ชายคนหนึ่งไปดวงจันทร์"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜では」: ở ~ thì (đối chiếu).",
+        "en": "「〜では」 = in ~ (contrast).",
+        "zh-Hans": "「在……」（对比）。",
+        "zh-Hant": "「在……」（對比）。",
+        "ko": "~에서는.",
+        "tl": "sa.",
+        "ne": "मा।",
+        "id": "di.",
+        "pt": "em.",
+        "my": "မှာ။",
+        "th": "ที่"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=286.758,290.567",
+      "t": [
+        286.758,
+        290.567
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "日本では、お姫さまが、月へ帰りました。",
+      "furigana": [
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "では、お",
+          "reading": ""
+        },
+        {
+          "surface": "姫",
+          "reading": "ひめ"
+        },
+        {
+          "surface": "さまが、",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "りました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Nihon deha, ohimesama ga, tsuki e kaerimashita.",
+      "translations": {
+        "vi": "Ở Nhật, một nàng công chúa trở về mặt trăng.",
+        "en": "In Japan, a princess returned to the moon.",
+        "zh-Hans": "在日本，回到月亮的是位公主。",
+        "zh-Hant": "在日本，回到月亮的是位公主。",
+        "ko": "일본에서는 공주가 달로 돌아갔습니다.",
+        "tl": "Sa Japan, isang prinsesa ang bumalik sa buwan.",
+        "ne": "जापानमा राजकुमारी जूनमा फर्किन्।",
+        "id": "Di Jepang, seorang putri kembali ke bulan.",
+        "pt": "No Japão, foi uma princesa que voltou para a lua.",
+        "my": "ဂျပန်မှာ မင်းသမီးက လဆီ ပြန်သွားတယ်။",
+        "th": "ที่ญี่ปุ่น เจ้าหญิงกลับไปดวงจันทร์"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "行く (đi) và 帰る (trở về): Kaguya vốn là người cung trăng.",
+        "en": "行く (go) vs 帰る (return): Kaguya came from the moon.",
+        "zh-Hans": "行く（去）和帰る（回）的区别。",
+        "zh-Hant": "行く（去）和帰る（回）的區別。",
+        "ko": "行く(가다)와 帰る(돌아가다).",
+        "tl": "pumunta vs bumalik.",
+        "ne": "जानु र फर्किनु।",
+        "id": "pergi vs kembali.",
+        "pt": "ir vs voltar.",
+        "my": "သွား နဲ့ ပြန်။",
+        "th": "ไป กับ กลับ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=291.167,295.066",
+      "t": [
+        291.167,
+        295.066
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "同じ月を見ても、国によって、見えるものが、ちがうのですね。",
+      "furigana": [
+        {
+          "surface": "同",
+          "reading": "おな"
+        },
+        {
+          "surface": "じ",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "ても、",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "によって、",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "えるものが、ちがうのですね。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Onaji tsuki o mite mo, kuni ni yotte, mieru mono ga, chigau no desu ne.",
+      "translations": {
+        "vi": "Cùng nhìn một mặt trăng mà mỗi nước lại thấy khác nhau nhỉ.",
+        "en": "Even looking at the same moon, what people see differs by country.",
+        "zh-Hans": "即使看同一个月亮，不同国家看到的东西也不一样呢。",
+        "zh-Hant": "即使看同一個月亮，不同國家看到的東西也不一樣呢。",
+        "ko": "같은 달을 봐도 나라에 따라 보이는 것이 다르네요.",
+        "tl": "Kahit iisang buwan, iba-iba ang nakikita depende sa bansa.",
+        "ne": "एउटै जून हेरे पनि देशअनुसार देखिने कुरा फरक रहेछ।",
+        "id": "Meski melihat bulan yang sama, yang terlihat berbeda menurut negara.",
+        "pt": "Mesmo olhando a mesma lua, o que se vê muda de país para país.",
+        "my": "လ တစ်စင်းတည်းကို ကြည့်ပေမဲ့ နိုင်ငံအလိုက် မြင်တာ မတူကြဘူးနော်။",
+        "th": "แม้มองดวงจันทร์ดวงเดียวกัน แต่ละประเทศก็เห็นต่างกันนะ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ても」: dù ~. 「〜によって」: tùy theo ~.",
+        "en": "「〜ても」 = even if ~; 「〜によって」 = depending on ~.",
+        "zh-Hans": "「即使……」；「根据……」。",
+        "zh-Hant": "「即使……」；「根據……」。",
+        "ko": "~해도; ~에 따라.",
+        "tl": "kahit; depende sa.",
+        "ne": "भए पनि; अनुसार।",
+        "id": "meski; menurut.",
+        "pt": "mesmo; conforme.",
+        "my": "...ပေမဲ့; အလိုက်။",
+        "th": "แม้; ตาม"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=295.666,301.827",
+      "t": [
+        295.666,
+        301.827
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "今夜、月が出たら、あなたも、見てみてください。",
+      "furigana": [
+        {
+          "surface": "今夜",
+          "reading": "こんや"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "つき"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "たら、あなたも、",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "てみてください。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kon'ya, tsuki ga detara, anata mo, mite mitekudasai.",
+      "translations": {
+        "vi": "Tối nay, nếu trăng lên, bạn cũng thử nhìn xem nhé.",
+        "en": "Tonight, if the moon comes out, try looking too.",
+        "zh-Hans": "今晚月亮出来的话，你也看看吧。",
+        "zh-Hant": "今晚月亮出來的話，你也看看吧。",
+        "ko": "오늘 밤 달이 뜨면 당신도 한번 보세요.",
+        "tl": "Mamayang gabi, kung lumabas ang buwan, subukan mo ring tumingin.",
+        "ne": "आज राति जून लागे तपाईं पनि हेरेर हेर्नुहोस्।",
+        "id": "Malam ini, kalau bulan muncul, cobalah lihat juga.",
+        "pt": "Hoje à noite, se a lua aparecer, experimente olhar também.",
+        "my": "ဒီည လထွက်ရင် သင်လည်း ကြည့်ကြည့်ပါ။",
+        "th": "คืนนี้ถ้าพระจันทร์ขึ้น ลองมองดูนะ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜たら」: nếu/khi ~. 「〜てみる」: thử ~.",
+        "en": "「〜たら」 = if/when ~; 「〜てみる」 = try ~ing.",
+        "zh-Hans": "「……たら」＝如果；「……てみる」＝试试。",
+        "zh-Hant": "「……たら」＝如果；「……てみる」＝試試。",
+        "ko": "~たら = ~하면; ~てみる = ~해 보다.",
+        "tl": "kung; subukan.",
+        "ne": "भने; हेर्नु।",
+        "id": "kalau; coba.",
+        "pt": "se; experimentar.",
+        "my": "ရင်; ...ကြည့်။",
+        "th": "ถ้า; ลอง"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=302.427,306.562",
+      "t": [
+        302.427,
+        306.562
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ウサギが見えますか。それとも、木の下のクオイおじさんが見えますか。",
+      "furigana": [
+        {
+          "surface": "ウサギが",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "えますか。それとも、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "下",
+          "reading": "した"
+        },
+        {
+          "surface": "のクオイおじさんが",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "えますか。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Usagi ga miemasu ka. Soretomo, ki no shita no Kuoi ojisan ga miemasu ka.",
+      "translations": {
+        "vi": "Bạn thấy con thỏ, hay thấy chú Cuội dưới gốc cây?",
+        "en": "Do you see a rabbit? Or Uncle Cuội under his tree?",
+        "zh-Hans": "你看到的是兔子，还是树下的阿贵叔叔？",
+        "zh-Hant": "你看到的是兔子，還是樹下的阿貴叔叔？",
+        "ko": "토끼가 보이나요? 아니면 나무 아래 꾸오이 아저씨가 보이나요?",
+        "tl": "Kuneho ba ang nakikita mo? O si Tiyo Cuội sa ilalim ng puno?",
+        "ne": "खरायो देख्नुहुन्छ? कि रुखमुनिका कुओई काका?",
+        "id": "Kamu lihat kelinci? Atau Paman Cuội di bawah pohon?",
+        "pt": "Você vê um coelho? Ou o tio Cuội debaixo da árvore?",
+        "my": "ယုန်ကို မြင်လား။ ဒါမှမဟုတ် သစ်ပင်အောက်က ကွီဦးလေးကို မြင်လား။",
+        "th": "เห็นกระต่ายไหม หรือเห็นลุงกุ๋ยใต้ต้นไม้"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "それとも = hay là (hỏi lựa chọn).",
+        "en": "それとも = or (in a choice question).",
+        "zh-Hans": "それとも＝还是。",
+        "zh-Hant": "それとも＝還是。",
+        "ko": "それとも = 아니면.",
+        "tl": "o.",
+        "ne": "कि।",
+        "id": "atau.",
+        "pt": "ou.",
+        "my": "ဒါမှမဟုတ်။",
+        "th": "หรือ"
+      },
+      "audio": "/audio/furusato-vn-cuoi-1/chapter.mp3#t=307.162,312.92",
+      "t": [
+        307.162,
+        312.92
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    }
+  ],
+  "audioTrack": {
+    "src": "/audio/furusato-vn-cuoi-1/chapter.mp3",
+    "durationSec": 313.968
+  }
+}
