@@ -209,8 +209,9 @@ const vocabOf = sents.map((s) => {
   for (const t of s.tokens) {
     if (t.forced || !CONTENT.has(t.pos) || SKIP.has(t.pos_detail_1)) continue;
     const word = t.basic;
-    const reading = kata2hira(t.pos === "動詞" || t.pos === "形容詞" ? (tokenizer.tokenize(word)[0]?.reading ?? t.reading) : t.reading);
+    let reading = kata2hira(t.pos === "動詞" || t.pos === "形容詞" ? (tokenizer.tokenize(word)[0]?.reading ?? t.reading) : t.reading);
     const lvl = wordLevel(word, reading);
+    if (/^[ァ-ヶー]+$/.test(word)) reading = word;
     if (!lvl || lvl > target || used.has(word)) continue;
     const stems = [word, word.slice(0, -1)];
     if (!stems.some((x) => x && (KANJI.test(x) || x.length >= 2) && s.ja.includes(x))) continue;
@@ -222,6 +223,7 @@ const vocabOf = sents.map((s) => {
   }
   return out;
 });
+if (!missingGloss.size && existsSync(join(dir, "missing-glossary.tsv"))) execFileSync("rm", [join(dir, "missing-glossary.tsv")]);
 if (missingGloss.size) {
   writeFileSync(join(dir, "missing-glossary.tsv"), [...missingGloss].join("\n") + "\n");
   errors.push(`${missingGloss.size} từ chưa có nghĩa trong content/sources/glossary-*.tsv (xem ${dir}/missing-glossary.tsv)`);

@@ -1,0 +1,50 @@
+{
+ "id": "rakugo-manju-kowai",
+ "level": "N3",
+ "topic": "rakugo",
+ "source": "original",
+ "free": false,
+ "legal": "tiết mục rakugo cổ điển thời Edo (dân gian, không có tác giả, không thuộc bản quyền của ai). Kịch bản do Claude tự viết lại bằng tiếng Nhật phân cấp, không chép bản ghi âm, sách hay kịch bản của nghệ sĩ nào.",
+ "voices": {
+  "N": {
+   "role": "người kể",
+   "voice": "Chirp3-HD-Aoede rate=0.9"
+  },
+  "H": {
+   "role": "Hachi (người khởi xướng)",
+   "voice": "Neural2-C rate=0.95 pitch=2"
+  },
+  "K": {
+   "role": "Kuma (anh to con)",
+   "voice": "Neural2-C rate=0.9 pitch=-4"
+  },
+  "M": {
+   "role": "Matsu (người 'sợ' bánh manjū)",
+   "voice": "Neural2-C rate=0.88 pitch=0"
+  }
+ },
+ "cover": {
+  "ja": "まんじゅうこわい",
+  "jsub": "古典落語",
+  "motif": "manju",
+  "font": "Dela Gothic One",
+  "shelf": "落語",
+  "title": "Manjū Kowai"
+ },
+ "titles": {
+  "vi": "Manjū Kowai — Tôi sợ bánh manjū",
+  "en": "Manjū Kowai — I'm Scared of Manjū",
+  "zh-Hans": "馒头好可怕",
+  "zh-Hant": "饅頭好可怕",
+  "ko": "만주가 무서워",
+  "tl": "Manjū Kowai — Takot Ako sa Manjū",
+  "ne": "मान्जु कोवाई — मलाई मान्जुको डर",
+  "id": "Manjū Kowai — Aku Takut Manjū",
+  "pt": "Manjū Kowai — Tenho medo de manjū",
+  "my": "မန်ဂျူ ကိုဝိုင်း — မန်ဂျူကို ကြောက်တယ်",
+  "th": "มันจูโควาอิ — กลัวขนมมันจู"
+ },
+ "skipVocab": [
+  "大"
+ ]
+}
