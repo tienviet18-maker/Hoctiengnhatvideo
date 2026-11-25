@@ -105,3 +105,5 @@ ruby rt { font-size: 0.52em; color: var(--navy); font-weight: 400; letter-spacin
 .drive-repeat { margin-top: 30px; background: var(--stage2); border-color: var(--stage-border); color: #eef3fa; font-size: 14px; padding: 10px 18px; }
 .drive-repeat.on { background: var(--accent); border-color: var(--accent); color: #fff; }
 .drive-next { margin-top: 22px; font-size: 13px; color: #9db2cc; text-align: center; line-height: 1.5; }
+.no-furi rt { visibility: hidden; }
+.link-btn { background: none; border: 0; padding: 4px 0; min-height: 32px; font: inherit; color: var(--navy); cursor: pointer; }
