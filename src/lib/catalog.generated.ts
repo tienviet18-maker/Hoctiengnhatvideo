@@ -2163,18 +2163,6 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "sentenceCount": 12
  },
  {
-  "id": "hashire-melos",
-  "titles": {
-   "en": "Run, Melos! (Dazai Osamu)",
-   "vi": "Chạy đi Melos (Dazai Osamu)"
-  },
-  "level": "N4",
-  "topic": "classics",
-  "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 13
- },
- {
   "id": "moving-house",
   "titles": {
    "en": "Moving House in Japan",
@@ -3351,18 +3339,6 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "sentenceCount": 10
  },
  {
-  "id": "joseito",
-  "titles": {
-   "en": "Schoolgirl — A Day in Her Diary (Dazai Osamu)",
-   "vi": "Một ngày của nữ sinh (Dazai Osamu)"
-  },
-  "level": "N4",
-  "topic": "classics",
-  "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
- },
- {
   "id": "at-the-bookstore",
   "titles": {
    "en": "At the Bookstore",
@@ -3493,18 +3469,6 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": false,
   "sentenceCount": 10
- },
- {
-  "id": "fugaku-hyakkei",
-  "titles": {
-   "en": "One Hundred Views of Mount Fuji (Dazai Osamu)",
-   "vi": "Trăm cảnh núi Phú Sĩ (Dazai Osamu)"
-  },
-  "level": "N4",
-  "topic": "classics",
-  "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
  },
  {
   "id": "zoo-with-kids",
@@ -4143,18 +4107,6 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "sentenceCount": 10
  },
  {
-  "id": "shayo",
-  "titles": {
-   "en": "Dazai Osamu's 'The Setting Sun'",
-   "vi": "『Nắng chiều』 của Dazai Osamu"
-  },
-  "level": "N4",
-  "topic": "classics",
-  "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
- },
- {
   "id": "playing-in-the-snow",
   "titles": {
    "en": "Playing in the Snow",
@@ -4189,18 +4141,6 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": false,
   "sentenceCount": 10
- },
- {
-  "id": "viyon-no-tsuma",
-  "titles": {
-   "en": "Dazai Osamu's 'Villon's Wife'",
-   "vi": "『Vợ của Villon』 của Dazai Osamu"
-  },
-  "level": "N4",
-  "topic": "classics",
-  "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
  },
  {
   "id": "autumn-leaves-walk",

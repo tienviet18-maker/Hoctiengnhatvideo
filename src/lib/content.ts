@@ -152,7 +152,6 @@ import story52 from "../../content/stories/visiting-a-shrine.json";
 import story53 from "../../content/stories/making-a-reservation.json";
 import story54 from "../../content/stories/asking-for-leave.json";
 import story55 from "../../content/stories/kasa-jizo.json";
-import story56 from "../../content/stories/hashire-melos.json";
 import story57 from "../../content/stories/moving-house.json";
 import story58 from "../../content/stories/buying-a-bicycle.json";
 import story59 from "../../content/stories/hagoromo.json";
@@ -251,7 +250,6 @@ import story151 from "../../content/stories/takekurabe.json";
 import story152 from "../../content/stories/renting-a-car.json";
 import story153 from "../../content/stories/akazukin.json";
 import story154 from "../../content/stories/at-the-vet.json";
-import story155 from "../../content/stories/joseito.json";
 import story156 from "../../content/stories/at-the-bookstore.json";
 import story157 from "../../content/stories/match-girl.json";
 import story158 from "../../content/stories/school-lunch.json";
@@ -263,7 +261,6 @@ import story163 from "../../content/stories/kokoro.json";
 import story164 from "../../content/stories/smartphone-payment.json";
 import story165 from "../../content/stories/ningyo-hime.json";
 import story166 from "../../content/stories/farmers-market.json";
-import story167 from "../../content/stories/fugaku-hyakkei.json";
 import story168 from "../../content/stories/zoo-with-kids.json";
 import story169 from "../../content/stories/bremen-musicians.json";
 import story170 from "../../content/stories/entrance-ceremony.json";
@@ -317,11 +314,9 @@ import story217 from "../../content/stories/kusamakura.json";
 import story218 from "../../content/stories/trip-to-the-beach.json";
 import story219 from "../../content/stories/the-emperors-new-clothes.json";
 import story220 from "../../content/stories/childrens-vaccinations.json";
-import story221 from "../../content/stories/shayo.json";
 import story222 from "../../content/stories/playing-in-the-snow.json";
 import story223 from "../../content/stories/the-lion-and-the-mouse.json";
 import story224 from "../../content/stories/bicycle-repair.json";
-import story225 from "../../content/stories/viyon-no-tsuma.json";
 import story226 from "../../content/stories/autumn-leaves-walk.json";
 import story227 from "../../content/stories/the-elves-and-the-shoemaker.json";
 import story228 from "../../content/stories/night-shift-life.json";
@@ -703,7 +698,6 @@ export const STORIES: StoryContent[] = [
   story53 as unknown as StoryContent,
   story54 as unknown as StoryContent,
   story55 as unknown as StoryContent,
-  story56 as unknown as StoryContent,
   story57 as unknown as StoryContent,
   story58 as unknown as StoryContent,
   story59 as unknown as StoryContent,
@@ -802,7 +796,6 @@ export const STORIES: StoryContent[] = [
   story152 as unknown as StoryContent,
   story153 as unknown as StoryContent,
   story154 as unknown as StoryContent,
-  story155 as unknown as StoryContent,
   story156 as unknown as StoryContent,
   story157 as unknown as StoryContent,
   story158 as unknown as StoryContent,
@@ -814,7 +807,6 @@ export const STORIES: StoryContent[] = [
   story164 as unknown as StoryContent,
   story165 as unknown as StoryContent,
   story166 as unknown as StoryContent,
-  story167 as unknown as StoryContent,
   story168 as unknown as StoryContent,
   story169 as unknown as StoryContent,
   story170 as unknown as StoryContent,
@@ -868,11 +860,9 @@ export const STORIES: StoryContent[] = [
   story218 as unknown as StoryContent,
   story219 as unknown as StoryContent,
   story220 as unknown as StoryContent,
-  story221 as unknown as StoryContent,
   story222 as unknown as StoryContent,
   story223 as unknown as StoryContent,
   story224 as unknown as StoryContent,
-  story225 as unknown as StoryContent,
   story226 as unknown as StoryContent,
   story227 as unknown as StoryContent,
   story228 as unknown as StoryContent,
