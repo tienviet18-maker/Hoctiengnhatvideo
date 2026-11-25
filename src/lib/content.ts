@@ -1,4 +1,7 @@
 import type { StoryContent, VideoContent } from "./content-schema";
+// --- kệ B/C Rakugo + cổ tích (chuẩn v2): import ---
+import bcRakugoTokiSoba from "../../content/stories/rakugo-toki-soba.json";
+// --- hết kệ B/C: import ---
 import video1 from "../../content/videos/teppei-genki-01.json";
 import video2 from "../../content/videos/teppei-study-how-long.json";
 import video3 from "../../content/videos/akane-directions.json";
@@ -643,6 +646,9 @@ export const VIDEOS: VideoContent[] = [
   video98 as unknown as VideoContent,
 ];
 export const STORIES: StoryContent[] = [
+  // --- kệ B/C Rakugo + cổ tích (chuẩn v2) ---
+  bcRakugoTokiSoba as unknown as StoryContent,
+  // --- hết kệ B/C ---
   story1 as unknown as StoryContent,
   story2 as unknown as StoryContent,
   story3 as unknown as StoryContent,
