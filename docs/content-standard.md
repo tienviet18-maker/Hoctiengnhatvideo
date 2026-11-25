@@ -66,8 +66,13 @@ dòng dài tối đa 12 giây (dài hơn thì tách câu). Mốc thời gian ph�
 
 ## 6. Audio
 
-- Truyện: mỗi câu một file, Google Cloud TTS giọng Nhật (Việt chốt 25/11), cùng một giọng cho cả bộ truyện.
-  Ghi giọng và tốc độ vào `.qc.md`.
+- Truyện: mỗi câu một file, Google Cloud TTS giọng Nhật (Việt chốt 25/11). Ba giọng, Việt chọn 25/11:
+  - `ja-JP-Chirp3-HD-Aoede`: giọng kể chuyện (lời dẫn, văn tự sự).
+  - `ja-JP-Neural2-B` (nữ) và `ja-JP-Neural2-C` (nam): giọng giao tiếp, dùng cho lời thoại của nhân vật
+    và cho bài hội thoại đời sống.
+  - Chọn giọng theo cốt truyện và theo từng đoạn. Mỗi nhân vật giữ một giọng xuyên suốt bộ truyện.
+- Ghi giọng của từng câu (hoặc quy tắc gán giọng) và tốc độ vào `.qc.md`. Mẫu nghe thử ở
+  `/mnt/project-files/miraigo/tts-samples/`.
 
 ## 7. Bìa và hình ảnh
 
