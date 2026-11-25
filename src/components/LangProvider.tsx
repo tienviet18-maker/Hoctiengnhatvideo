@@ -13,6 +13,7 @@ import type { LanguageCode } from "../lib/content-schema";
 import { UI, type UiStrings } from "../lib/i18n";
 import {
   loadProfile,
+  PROFILE_KEY,
   saveProfile,
   STORE_EVENT,
   type Profile,
@@ -37,19 +38,29 @@ const DEFAULT_PROFILE: Profile = {
 };
 
 let profileCache: Profile | null = null;
+let profileRaw: string | null = null;
 
+/**
+ * Snapshot hồ sơ có giữ nguyên tham chiếu khi chuỗi localStorage không đổi.
+ * Trước đây mỗi lần notifyStore() (vd. lưu tiến độ video 4 lần/giây) đều tạo
+ * object hồ sơ mới -> toàn bộ cây dùng useLang() render lại liên tục.
+ */
 function readProfileSnapshot(): Profile {
-  if (!profileCache) profileCache = loadProfile();
+  const raw = window.localStorage.getItem(PROFILE_KEY);
+  if (!profileCache || raw !== profileRaw) {
+    profileRaw = raw;
+    profileCache = loadProfile();
+  }
   return profileCache;
 }
 
 function subscribeProfile(cb: () => void) {
-  const handler = () => {
-    profileCache = null;
-    cb();
+  window.addEventListener(STORE_EVENT, cb);
+  window.addEventListener("storage", cb);
+  return () => {
+    window.removeEventListener(STORE_EVENT, cb);
+    window.removeEventListener("storage", cb);
   };
-  window.addEventListener(STORE_EVENT, handler);
-  return () => window.removeEventListener(STORE_EVENT, handler);
 }
 
 function subscribeNoop() {
@@ -77,7 +88,6 @@ export function LangProvider({ children }: { children: ReactNode }) {
 
   const updateProfile = useCallback((patch: Partial<Profile>) => {
     const next = { ...readProfileSnapshot(), ...patch };
-    profileCache = next;
     saveProfile(next);
   }, []);
 

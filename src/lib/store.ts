@@ -243,6 +243,9 @@ export function loadProgress(): Record<string, Progress> {
 export function saveProgress(id: string, pos: number, total: number): void {
   if (typeof window === "undefined") return;
   const all = loadProgress();
+  const prev = all[id];
+  // Bỏ qua ghi trùng (vd. video đang dừng) để không bắn sự kiện store vô ích
+  if (prev && prev.pos === pos && prev.total === total) return;
   all[id] = { pos, total, updatedAt: Date.now() };
   window.localStorage.setItem(PROGRESS_KEY, JSON.stringify(all));
   notifyStore();
