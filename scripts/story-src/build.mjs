@@ -175,7 +175,8 @@ for (const file of files) {
   const glossPath = join(shelfDir, "glossary.json");
   const gloss = existsSync(glossPath) ? JSON.parse(readFileSync(glossPath, "utf8")) : {};
   const ov = src.readings ?? {};
-  const multiOv = src.phrases ?? {};
+  const shelfPhrases = existsSync(join(shelfDir, "phrases.json")) ? JSON.parse(readFileSync(join(shelfDir, "phrases.json"), "utf8")) : {};
+  const multiOv = { ...shelfPhrases, ...(src.phrases ?? {}) };
   NAMES = new Set(src.names ?? []);
   const target = LEVEL_NUM[src.level];
   const usedVocab = new Set(src.skipVocab ?? []);
@@ -233,6 +234,12 @@ for (const file of files) {
     reg(s.grammarNote, `${src.id} câu ${i + 1} giải thích`);
     for (const v of s.vocab) reg(v.meanings, `${src.id} từ ${v.word}`);
   });
+  const lessonPath = file.replace(/\.src\.json$/, ".lesson.json");
+  const lesson = existsSync(lessonPath) ? JSON.parse(readFileSync(lessonPath, "utf8")) : null;
+  if (lesson) {
+    lesson.grammarPoints.forEach((g, i) => reg(g.meaning, `${src.id} ngữ pháp ${i + 1}`));
+    lesson.quiz.forEach((q, i) => reg(q.explain, `${src.id} câu hỏi ${i + 1}`));
+  }
   const hant = toHant(tasks.map((t) => t["zh-Hans"]));
   const order = (t, h) => Object.fromEntries(["vi", "en", "zh-Hans", "zh-Hant", "ko", "tl", "ne", "id", "pt", "my", "th"].map((l) => [l, l === "zh-Hant" ? (t["zh-Hant"] ?? h) : t[l]]));
   tasks.forEach((t, i) => { const o = order(t, hant[i]); for (const k of Object.keys(t)) delete t[k]; Object.assign(t, o); });
@@ -248,6 +255,9 @@ for (const file of files) {
     free: !!src.free,
     standard: 2,
     ...(src.series ? { series: src.series } : {}),
+    shelf: src.shelf,
+    ...(src.origin ? { origin: src.origin } : {}),
+    ...(lesson ? { lesson } : {}),
     sentences,
   };
   writeFileSync(join(root, "content/stories", `${src.id}.json`), JSON.stringify(out, null, 2) + "\n");
@@ -262,7 +272,7 @@ for (const file of files) {
     `- Furigana + romaji sinh bằng kuromoji qua \`scripts/story-src/build.mjs\`, cách đọc sửa tay: ${Object.entries({ ...ov, ...multiOv }).map(([a, b]) => `${a}=${b}`).join(", ") || "không"}. Đã đọc lại toàn bộ.`,
     `- Từ vựng: ${nVocab} từ, cấp lấy từ \`data/jlpt\` (chỉ từ đúng cấp hoặc khó hơn, không lặp trong tập). Nghĩa 11 ngôn ngữ ở \`${glossPath.replace(root, "")}\`.`,
     `- Dịch + giải thích: 10 ngôn ngữ dịch thẳng từ tiếng Nhật; zh-Hant chuyển từ zh-Hans bằng OpenCC (s2twp). Claude tự kiểm theo quy tắc của Việt: dịch ngược kiểm nghĩa, thuật ngữ nhất quán trong bộ.`,
-    `- Audio: Google Cloud TTS, mỗi câu một file, nối 0,4 giây lặng cuối câu. Giọng:`,
+    `- Audio: Google Cloud TTS, ghép thành một file liền public/audio/${src.id}/chapter.mp3 (mono 64 kbps, nghỉ 0,6 giây giữa câu, 0,9 giây khi đổi người nói), mốc từng câu đo theo mẫu PCM (\`scripts/story-src/tts.mjs\`). Giọng:`,
     ...castLines,
     `- Bìa: hệ bìa MiraiGo 文庫, phông ${src.cover?.font ?? "mặc định"}.`,
     "",

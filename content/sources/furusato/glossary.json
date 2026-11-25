@@ -1,36 +1,872 @@
 {
-  "暮らす": { "reading": "くらす", "meanings": { "vi": "sống, sinh sống", "en": "to live, to get by", "zh-Hans": "生活，过日子", "ko": "살다, 생활하다", "tl": "mamuhay", "ne": "बस्नु, जीवन बिताउनु", "id": "hidup, tinggal", "pt": "viver, morar", "my": "နေထိုင်သည်", "th": "ใช้ชีวิต, อาศัยอยู่" } },
-  "牛": { "reading": "うし", "meanings": { "vi": "con bò, con trâu", "en": "cow, ox", "zh-Hans": "牛", "ko": "소", "tl": "baka", "ne": "गाई, गोरु", "id": "sapi, kerbau", "pt": "vaca, boi", "my": "နွား", "th": "วัว" } },
-  "稲": { "reading": "いね", "meanings": { "vi": "cây lúa", "en": "rice plant", "zh-Hans": "稻子", "ko": "벼", "tl": "palay", "ne": "धानको बोट", "id": "padi", "pt": "arroz (planta)", "my": "စပါးပင်", "th": "ต้นข้าว" } },
-  "文句": { "reading": "もんく", "meanings": { "vi": "lời phàn nàn, càu nhàu", "en": "complaint, grumbling", "zh-Hans": "怨言，牢骚", "ko": "불평", "tl": "reklamo", "ne": "गुनासो", "id": "keluhan", "pt": "reclamação", "my": "ညည်းညူခြင်း", "th": "คำบ่น" } },
-  "黙る": { "reading": "だまる", "meanings": { "vi": "im lặng, không nói", "en": "to be silent, to say nothing", "zh-Hans": "沉默，不说话", "ko": "입을 다물다", "tl": "tumahimik", "ne": "चुप लाग्नु", "id": "diam, tidak berbicara", "pt": "ficar calado", "my": "နှုတ်ဆိတ်သည်", "th": "เงียบ, ไม่พูด" } },
-  "竹": { "reading": "たけ", "meanings": { "vi": "tre", "en": "bamboo", "zh-Hans": "竹子", "ko": "대나무", "tl": "kawayan", "ne": "बाँस", "id": "bambu", "pt": "bambu", "my": "ဝါး", "th": "ไม้ไผ่" } },
-  "布": { "reading": "ぬの", "meanings": { "vi": "vải", "en": "cloth, fabric", "zh-Hans": "布", "ko": "천, 옷감", "tl": "tela", "ne": "कपडा", "id": "kain", "pt": "tecido, pano", "my": "အထည်", "th": "ผ้า" } },
-  "泥": { "reading": "どろ", "meanings": { "vi": "bùn", "en": "mud", "zh-Hans": "泥", "ko": "진흙", "tl": "putik", "ne": "हिलो", "id": "lumpur", "pt": "lama", "my": "ရွှံ့", "th": "โคลน" } },
-  "空っぽ": { "reading": "からっぽ", "meanings": { "vi": "trống rỗng", "en": "empty", "zh-Hans": "空空的", "ko": "텅 빔", "tl": "walang laman", "ne": "रित्तो", "id": "kosong", "pt": "vazio", "my": "ဗလာ", "th": "ว่างเปล่า" } },
-  "端": { "reading": "はし", "meanings": { "vi": "mép, rìa, bờ", "en": "edge, end", "zh-Hans": "边，端", "ko": "가장자리, 끝", "tl": "gilid, dulo", "ne": "किनार", "id": "tepi, ujung", "pt": "beira, borda", "my": "အစွန်း", "th": "ขอบ, ริม" } },
-  "信じる": { "reading": "しんじる", "meanings": { "vi": "tin, tin tưởng", "en": "to believe, to trust", "zh-Hans": "相信", "ko": "믿다", "tl": "maniwala", "ne": "विश्वास गर्नु", "id": "percaya", "pt": "acreditar, confiar", "my": "ယုံကြည်သည်", "th": "เชื่อ" } },
-  "場": { "reading": "ば", "meanings": { "vi": "chỗ, nơi", "en": "place, spot", "zh-Hans": "场所，地方", "ko": "자리, 곳", "tl": "lugar", "ne": "ठाउँ", "id": "tempat", "pt": "lugar, local", "my": "နေရာ", "th": "ที่, สถานที่" } },
-  "老人": { "reading": "ろうじん", "meanings": { "vi": "ông lão, người già", "en": "old man, elderly person", "zh-Hans": "老人", "ko": "노인", "tl": "matanda", "ne": "वृद्ध मान्छे", "id": "orang tua, kakek", "pt": "idoso, velho", "my": "သက်ကြီးရွယ်အို", "th": "คนชรา" } },
-  "現れる": { "reading": "あらわれる", "meanings": { "vi": "hiện ra, xuất hiện", "en": "to appear", "zh-Hans": "出现", "ko": "나타나다", "tl": "lumitaw", "ne": "देखा पर्नु", "id": "muncul", "pt": "aparecer", "my": "ပေါ်လာသည်", "th": "ปรากฏตัว" } },
-  "助ける": { "reading": "たすける", "meanings": { "vi": "giúp đỡ, cứu", "en": "to help, to save", "zh-Hans": "帮助，救", "ko": "돕다, 구하다", "tl": "tumulong, iligtas", "ne": "मद्दत गर्नु, बचाउनु", "id": "menolong", "pt": "ajudar, salvar", "my": "ကူညီသည်၊ ကယ်တင်သည်", "th": "ช่วยเหลือ" } },
-  "仏": { "reading": "ほとけ", "meanings": { "vi": "Bụt, Phật", "en": "Buddha", "zh-Hans": "佛", "ko": "부처", "tl": "Buddha", "ne": "बुद्ध", "id": "Buddha", "pt": "Buda", "my": "ဘုရား", "th": "พระพุทธเจ้า" } },
-  "底": { "reading": "そこ", "meanings": { "vi": "đáy", "en": "bottom", "zh-Hans": "底，底部", "ko": "바닥", "tl": "ilalim", "ne": "पिँध", "id": "dasar", "pt": "fundo", "my": "အောက်ခြေ", "th": "ก้น, ข้างล่างสุด" } },
-  "井戸": { "reading": "いど", "meanings": { "vi": "cái giếng", "en": "well (water)", "zh-Hans": "井", "ko": "우물", "tl": "balon", "ne": "इनार", "id": "sumur", "pt": "poço", "my": "ရေတွင်း", "th": "บ่อน้ำ" } },
-  "飼う": { "reading": "かう", "meanings": { "vi": "nuôi (vật nuôi)", "en": "to keep (an animal)", "zh-Hans": "饲养", "ko": "기르다", "tl": "mag-alaga (ng hayop)", "ne": "पाल्नु", "id": "memelihara", "pt": "criar (animal)", "my": "မွေးမြူသည်", "th": "เลี้ยง (สัตว์)" } },
-  "金": { "reading": "きん", "meanings": { "vi": "vàng", "en": "gold", "zh-Hans": "金", "ko": "금", "tl": "ginto", "ne": "सुन", "id": "emas", "pt": "ouro", "my": "ရွှေ", "th": "ทอง" } },
-  "銀": { "reading": "ぎん", "meanings": { "vi": "bạc", "en": "silver", "zh-Hans": "银", "ko": "은", "tl": "pilak", "ne": "चाँदी", "id": "perak", "pt": "prata", "my": "ငွေ", "th": "เงิน (โลหะ)" } },
-  "残す": { "reading": "のこす", "meanings": { "vi": "để lại, chừa lại", "en": "to leave (behind), to save some", "zh-Hans": "留下，剩下", "ko": "남기다", "tl": "magtira", "ne": "बाँकी राख्नु", "id": "menyisakan", "pt": "deixar, guardar", "my": "ချန်ထားသည်", "th": "เหลือไว้" } },
-  "やがて": { "reading": "やがて", "meanings": { "vi": "chẳng bao lâu sau, rồi thì", "en": "before long, eventually", "zh-Hans": "不久，终于", "ko": "머지않아, 이윽고", "tl": "hindi nagtagal", "ne": "केही समयपछि", "id": "tak lama kemudian", "pt": "logo, com o tempo", "my": "မကြာမီ", "th": "ไม่นานนัก, ในที่สุด" } },
-  "こっそり": { "reading": "こっそり", "meanings": { "vi": "lén lút, len lén", "en": "secretly, stealthily", "zh-Hans": "悄悄地", "ko": "몰래", "tl": "palihim", "ne": "लुकेर", "id": "diam-diam", "pt": "às escondidas", "my": "တိတ်တဆိတ်", "th": "แอบ ๆ" } },
-  "隠れる": { "reading": "かくれる", "meanings": { "vi": "trốn, nấp", "en": "to hide", "zh-Hans": "躲藏", "ko": "숨다", "tl": "magtago", "ne": "लुक्नु", "id": "bersembunyi", "pt": "esconder-se", "my": "ပုန်းသည်", "th": "ซ่อนตัว" } },
-  "一言": { "reading": "ひとこと", "meanings": { "vi": "một lời, một chữ", "en": "a single word", "zh-Hans": "一句话", "ko": "한마디", "tl": "isang salita", "ne": "एक शब्द", "id": "sepatah kata", "pt": "uma palavra", "my": "စကားတစ်ခွန်း", "th": "คำเดียว" } },
-  "疑う": { "reading": "うたがう", "meanings": { "vi": "nghi ngờ", "en": "to doubt, to suspect", "zh-Hans": "怀疑", "ko": "의심하다", "tl": "magduda", "ne": "शंका गर्नु", "id": "curiga, meragukan", "pt": "duvidar, desconfiar", "my": "သံသယဝင်သည်", "th": "สงสัย, ระแวง" } },
-  "骨": { "reading": "ほね", "meanings": { "vi": "xương", "en": "bone", "zh-Hans": "骨头", "ko": "뼈", "tl": "buto", "ne": "हड्डी", "id": "tulang", "pt": "osso", "my": "အရိုး", "th": "กระดูก" } },
-  "きちんと": { "reading": "きちんと", "meanings": { "vi": "ngay ngắn, đầy đủ", "en": "neatly, properly", "zh-Hans": "整整齐齐，好好地", "ko": "제대로, 깔끔히", "tl": "maayos", "ne": "राम्ररी", "id": "dengan rapi, utuh", "pt": "direitinho, em ordem", "my": "သေသေသပ်သပ်", "th": "อย่างเรียบร้อย" } },
-  "分ける": { "reading": "わける", "meanings": { "vi": "chia, phân ra", "en": "to divide, to split", "zh-Hans": "分开，分配", "ko": "나누다", "tl": "hatiin", "ne": "बाँड्नु", "id": "membagi", "pt": "dividir, separar", "my": "ခွဲသည်", "th": "แบ่ง" } },
-  "まさか": { "reading": "まさか", "meanings": { "vi": "không ngờ, lẽ nào", "en": "never would have thought, surely not", "zh-Hans": "万万没想到，难道", "ko": "설마", "tl": "hindi inaasahan", "ne": "कसले सोचेको थियो र", "id": "tak disangka", "pt": "quem diria, não pode ser", "my": "မထင်မှတ်ဘဲ", "th": "ไม่น่าเชื่อ, ไม่คิดว่า" } },
-  "人生": { "reading": "じんせい", "meanings": { "vi": "cuộc đời", "en": "life (one's life)", "zh-Hans": "人生", "ko": "인생", "tl": "buhay", "ne": "जीवन", "id": "hidup, kehidupan", "pt": "vida", "my": "ဘဝ", "th": "ชีวิต" } },
-  "起こる": { "reading": "おこる", "meanings": { "vi": "xảy ra", "en": "to happen, to occur", "zh-Hans": "发生", "ko": "일어나다, 생기다", "tl": "mangyari", "ne": "हुनु, घट्नु", "id": "terjadi", "pt": "acontecer", "my": "ဖြစ်ပွားသည်", "th": "เกิดขึ้น" } },
-  "続き": { "reading": "つづき", "meanings": { "vi": "phần tiếp theo", "en": "continuation, what comes next", "zh-Hans": "后续，接下来", "ko": "다음 이야기, 계속", "tl": "karugtong", "ne": "बाँकी भाग", "id": "lanjutan", "pt": "continuação", "my": "အဆက်", "th": "ตอนต่อไป" } }
+ "暮らす": {
+  "reading": "くらす",
+  "meanings": {
+   "vi": "sống, sinh sống",
+   "en": "to live, to get by",
+   "zh-Hans": "生活，过日子",
+   "ko": "살다, 생활하다",
+   "tl": "mamuhay",
+   "ne": "बस्नु, जीवन बिताउनु",
+   "id": "hidup, tinggal",
+   "pt": "viver, morar",
+   "my": "နေထိုင်သည်",
+   "th": "ใช้ชีวิต, อาศัยอยู่"
+  }
+ },
+ "牛": {
+  "reading": "うし",
+  "meanings": {
+   "vi": "con bò, con trâu",
+   "en": "cow, ox",
+   "zh-Hans": "牛",
+   "ko": "소",
+   "tl": "baka",
+   "ne": "गाई, गोरु",
+   "id": "sapi, kerbau",
+   "pt": "vaca, boi",
+   "my": "နွား",
+   "th": "วัว"
+  }
+ },
+ "稲": {
+  "reading": "いね",
+  "meanings": {
+   "vi": "cây lúa",
+   "en": "rice plant",
+   "zh-Hans": "稻子",
+   "ko": "벼",
+   "tl": "palay",
+   "ne": "धानको बोट",
+   "id": "padi",
+   "pt": "arroz (planta)",
+   "my": "စပါးပင်",
+   "th": "ต้นข้าว"
+  }
+ },
+ "文句": {
+  "reading": "もんく",
+  "meanings": {
+   "vi": "lời phàn nàn, càu nhàu",
+   "en": "complaint, grumbling",
+   "zh-Hans": "怨言，牢骚",
+   "ko": "불평",
+   "tl": "reklamo",
+   "ne": "गुनासो",
+   "id": "keluhan",
+   "pt": "reclamação",
+   "my": "ညည်းညူခြင်း",
+   "th": "คำบ่น"
+  }
+ },
+ "黙る": {
+  "reading": "だまる",
+  "meanings": {
+   "vi": "im lặng, không nói",
+   "en": "to be silent, to say nothing",
+   "zh-Hans": "沉默，不说话",
+   "ko": "입을 다물다",
+   "tl": "tumahimik",
+   "ne": "चुप लाग्नु",
+   "id": "diam, tidak berbicara",
+   "pt": "ficar calado",
+   "my": "နှုတ်ဆိတ်သည်",
+   "th": "เงียบ, ไม่พูด"
+  }
+ },
+ "竹": {
+  "reading": "たけ",
+  "meanings": {
+   "vi": "tre",
+   "en": "bamboo",
+   "zh-Hans": "竹子",
+   "ko": "대나무",
+   "tl": "kawayan",
+   "ne": "बाँस",
+   "id": "bambu",
+   "pt": "bambu",
+   "my": "ဝါး",
+   "th": "ไม้ไผ่"
+  }
+ },
+ "布": {
+  "reading": "ぬの",
+  "meanings": {
+   "vi": "vải",
+   "en": "cloth, fabric",
+   "zh-Hans": "布",
+   "ko": "천, 옷감",
+   "tl": "tela",
+   "ne": "कपडा",
+   "id": "kain",
+   "pt": "tecido, pano",
+   "my": "အထည်",
+   "th": "ผ้า"
+  }
+ },
+ "泥": {
+  "reading": "どろ",
+  "meanings": {
+   "vi": "bùn",
+   "en": "mud",
+   "zh-Hans": "泥",
+   "ko": "진흙",
+   "tl": "putik",
+   "ne": "हिलो",
+   "id": "lumpur",
+   "pt": "lama",
+   "my": "ရွှံ့",
+   "th": "โคลน"
+  }
+ },
+ "空っぽ": {
+  "reading": "からっぽ",
+  "meanings": {
+   "vi": "trống rỗng",
+   "en": "empty",
+   "zh-Hans": "空空的",
+   "ko": "텅 빔",
+   "tl": "walang laman",
+   "ne": "रित्तो",
+   "id": "kosong",
+   "pt": "vazio",
+   "my": "ဗလာ",
+   "th": "ว่างเปล่า"
+  }
+ },
+ "端": {
+  "reading": "はし",
+  "meanings": {
+   "vi": "mép, rìa, bờ",
+   "en": "edge, end",
+   "zh-Hans": "边，端",
+   "ko": "가장자리, 끝",
+   "tl": "gilid, dulo",
+   "ne": "किनार",
+   "id": "tepi, ujung",
+   "pt": "beira, borda",
+   "my": "အစွန်း",
+   "th": "ขอบ, ริม"
+  }
+ },
+ "信じる": {
+  "reading": "しんじる",
+  "meanings": {
+   "vi": "tin, tin tưởng",
+   "en": "to believe, to trust",
+   "zh-Hans": "相信",
+   "ko": "믿다",
+   "tl": "maniwala",
+   "ne": "विश्वास गर्नु",
+   "id": "percaya",
+   "pt": "acreditar, confiar",
+   "my": "ယုံကြည်သည်",
+   "th": "เชื่อ"
+  }
+ },
+ "場": {
+  "reading": "ば",
+  "meanings": {
+   "vi": "chỗ, nơi",
+   "en": "place, spot",
+   "zh-Hans": "场所，地方",
+   "ko": "자리, 곳",
+   "tl": "lugar",
+   "ne": "ठाउँ",
+   "id": "tempat",
+   "pt": "lugar, local",
+   "my": "နေရာ",
+   "th": "ที่, สถานที่"
+  }
+ },
+ "老人": {
+  "reading": "ろうじん",
+  "meanings": {
+   "vi": "ông lão, người già",
+   "en": "old man, elderly person",
+   "zh-Hans": "老人",
+   "ko": "노인",
+   "tl": "matanda",
+   "ne": "वृद्ध मान्छे",
+   "id": "orang tua, kakek",
+   "pt": "idoso, velho",
+   "my": "သက်ကြီးရွယ်အို",
+   "th": "คนชรา"
+  }
+ },
+ "現れる": {
+  "reading": "あらわれる",
+  "meanings": {
+   "vi": "hiện ra, xuất hiện",
+   "en": "to appear",
+   "zh-Hans": "出现",
+   "ko": "나타나다",
+   "tl": "lumitaw",
+   "ne": "देखा पर्नु",
+   "id": "muncul",
+   "pt": "aparecer",
+   "my": "ပေါ်လာသည်",
+   "th": "ปรากฏตัว"
+  }
+ },
+ "助ける": {
+  "reading": "たすける",
+  "meanings": {
+   "vi": "giúp đỡ, cứu",
+   "en": "to help, to save",
+   "zh-Hans": "帮助，救",
+   "ko": "돕다, 구하다",
+   "tl": "tumulong, iligtas",
+   "ne": "मद्दत गर्नु, बचाउनु",
+   "id": "menolong",
+   "pt": "ajudar, salvar",
+   "my": "ကူညီသည်၊ ကယ်တင်သည်",
+   "th": "ช่วยเหลือ"
+  }
+ },
+ "仏": {
+  "reading": "ほとけ",
+  "meanings": {
+   "vi": "Bụt, Phật",
+   "en": "Buddha",
+   "zh-Hans": "佛",
+   "ko": "부처",
+   "tl": "Buddha",
+   "ne": "बुद्ध",
+   "id": "Buddha",
+   "pt": "Buda",
+   "my": "ဘုရား",
+   "th": "พระพุทธเจ้า"
+  }
+ },
+ "底": {
+  "reading": "そこ",
+  "meanings": {
+   "vi": "đáy",
+   "en": "bottom",
+   "zh-Hans": "底，底部",
+   "ko": "바닥",
+   "tl": "ilalim",
+   "ne": "पिँध",
+   "id": "dasar",
+   "pt": "fundo",
+   "my": "အောက်ခြေ",
+   "th": "ก้น, ข้างล่างสุด"
+  }
+ },
+ "井戸": {
+  "reading": "いど",
+  "meanings": {
+   "vi": "cái giếng",
+   "en": "well (water)",
+   "zh-Hans": "井",
+   "ko": "우물",
+   "tl": "balon",
+   "ne": "इनार",
+   "id": "sumur",
+   "pt": "poço",
+   "my": "ရေတွင်း",
+   "th": "บ่อน้ำ"
+  }
+ },
+ "飼う": {
+  "reading": "かう",
+  "meanings": {
+   "vi": "nuôi (vật nuôi)",
+   "en": "to keep (an animal)",
+   "zh-Hans": "饲养",
+   "ko": "기르다",
+   "tl": "mag-alaga (ng hayop)",
+   "ne": "पाल्नु",
+   "id": "memelihara",
+   "pt": "criar (animal)",
+   "my": "မွေးမြူသည်",
+   "th": "เลี้ยง (สัตว์)"
+  }
+ },
+ "金": {
+  "reading": "きん",
+  "meanings": {
+   "vi": "vàng",
+   "en": "gold",
+   "zh-Hans": "金",
+   "ko": "금",
+   "tl": "ginto",
+   "ne": "सुन",
+   "id": "emas",
+   "pt": "ouro",
+   "my": "ရွှေ",
+   "th": "ทอง"
+  }
+ },
+ "銀": {
+  "reading": "ぎん",
+  "meanings": {
+   "vi": "bạc",
+   "en": "silver",
+   "zh-Hans": "银",
+   "ko": "은",
+   "tl": "pilak",
+   "ne": "चाँदी",
+   "id": "perak",
+   "pt": "prata",
+   "my": "ငွေ",
+   "th": "เงิน (โลหะ)"
+  }
+ },
+ "残す": {
+  "reading": "のこす",
+  "meanings": {
+   "vi": "để lại, chừa lại",
+   "en": "to leave (behind), to save some",
+   "zh-Hans": "留下，剩下",
+   "ko": "남기다",
+   "tl": "magtira",
+   "ne": "बाँकी राख्नु",
+   "id": "menyisakan",
+   "pt": "deixar, guardar",
+   "my": "ချန်ထားသည်",
+   "th": "เหลือไว้"
+  }
+ },
+ "やがて": {
+  "reading": "やがて",
+  "meanings": {
+   "vi": "chẳng bao lâu sau, rồi thì",
+   "en": "before long, eventually",
+   "zh-Hans": "不久，终于",
+   "ko": "머지않아, 이윽고",
+   "tl": "hindi nagtagal",
+   "ne": "केही समयपछि",
+   "id": "tak lama kemudian",
+   "pt": "logo, com o tempo",
+   "my": "မကြာမီ",
+   "th": "ไม่นานนัก, ในที่สุด"
+  }
+ },
+ "こっそり": {
+  "reading": "こっそり",
+  "meanings": {
+   "vi": "lén lút, len lén",
+   "en": "secretly, stealthily",
+   "zh-Hans": "悄悄地",
+   "ko": "몰래",
+   "tl": "palihim",
+   "ne": "लुकेर",
+   "id": "diam-diam",
+   "pt": "às escondidas",
+   "my": "တိတ်တဆိတ်",
+   "th": "แอบ ๆ"
+  }
+ },
+ "隠れる": {
+  "reading": "かくれる",
+  "meanings": {
+   "vi": "trốn, nấp",
+   "en": "to hide",
+   "zh-Hans": "躲藏",
+   "ko": "숨다",
+   "tl": "magtago",
+   "ne": "लुक्नु",
+   "id": "bersembunyi",
+   "pt": "esconder-se",
+   "my": "ပုန်းသည်",
+   "th": "ซ่อนตัว"
+  }
+ },
+ "一言": {
+  "reading": "ひとこと",
+  "meanings": {
+   "vi": "một lời, một chữ",
+   "en": "a single word",
+   "zh-Hans": "一句话",
+   "ko": "한마디",
+   "tl": "isang salita",
+   "ne": "एक शब्द",
+   "id": "sepatah kata",
+   "pt": "uma palavra",
+   "my": "စကားတစ်ခွန်း",
+   "th": "คำเดียว"
+  }
+ },
+ "疑う": {
+  "reading": "うたがう",
+  "meanings": {
+   "vi": "nghi ngờ",
+   "en": "to doubt, to suspect",
+   "zh-Hans": "怀疑",
+   "ko": "의심하다",
+   "tl": "magduda",
+   "ne": "शंका गर्नु",
+   "id": "curiga, meragukan",
+   "pt": "duvidar, desconfiar",
+   "my": "သံသယဝင်သည်",
+   "th": "สงสัย, ระแวง"
+  }
+ },
+ "骨": {
+  "reading": "ほね",
+  "meanings": {
+   "vi": "xương",
+   "en": "bone",
+   "zh-Hans": "骨头",
+   "ko": "뼈",
+   "tl": "buto",
+   "ne": "हड्डी",
+   "id": "tulang",
+   "pt": "osso",
+   "my": "အရိုး",
+   "th": "กระดูก"
+  }
+ },
+ "きちんと": {
+  "reading": "きちんと",
+  "meanings": {
+   "vi": "ngay ngắn, đầy đủ",
+   "en": "neatly, properly",
+   "zh-Hans": "整整齐齐，好好地",
+   "ko": "제대로, 깔끔히",
+   "tl": "maayos",
+   "ne": "राम्ररी",
+   "id": "dengan rapi, utuh",
+   "pt": "direitinho, em ordem",
+   "my": "သေသေသပ်သပ်",
+   "th": "อย่างเรียบร้อย"
+  }
+ },
+ "分ける": {
+  "reading": "わける",
+  "meanings": {
+   "vi": "chia, phân ra",
+   "en": "to divide, to split",
+   "zh-Hans": "分开，分配",
+   "ko": "나누다",
+   "tl": "hatiin",
+   "ne": "बाँड्नु",
+   "id": "membagi",
+   "pt": "dividir, separar",
+   "my": "ခွဲသည်",
+   "th": "แบ่ง"
+  }
+ },
+ "まさか": {
+  "reading": "まさか",
+  "meanings": {
+   "vi": "không ngờ, lẽ nào",
+   "en": "never would have thought, surely not",
+   "zh-Hans": "万万没想到，难道",
+   "ko": "설마",
+   "tl": "hindi inaasahan",
+   "ne": "कसले सोचेको थियो र",
+   "id": "tak disangka",
+   "pt": "quem diria, não pode ser",
+   "my": "မထင်မှတ်ဘဲ",
+   "th": "ไม่น่าเชื่อ, ไม่คิดว่า"
+  }
+ },
+ "人生": {
+  "reading": "じんせい",
+  "meanings": {
+   "vi": "cuộc đời",
+   "en": "life (one's life)",
+   "zh-Hans": "人生",
+   "ko": "인생",
+   "tl": "buhay",
+   "ne": "जीवन",
+   "id": "hidup, kehidupan",
+   "pt": "vida",
+   "my": "ဘဝ",
+   "th": "ชีวิต"
+  }
+ },
+ "起こる": {
+  "reading": "おこる",
+  "meanings": {
+   "vi": "xảy ra",
+   "en": "to happen, to occur",
+   "zh-Hans": "发生",
+   "ko": "일어나다, 생기다",
+   "tl": "mangyari",
+   "ne": "हुनु, घट्नु",
+   "id": "terjadi",
+   "pt": "acontecer",
+   "my": "ဖြစ်ပွားသည်",
+   "th": "เกิดขึ้น"
+  }
+ },
+ "続き": {
+  "reading": "つづき",
+  "meanings": {
+   "vi": "phần tiếp theo",
+   "en": "continuation, what comes next",
+   "zh-Hans": "后续，接下来",
+   "ko": "다음 이야기, 계속",
+   "tl": "karugtong",
+   "ne": "बाँकी भाग",
+   "id": "lanjutan",
+   "pt": "continuação",
+   "my": "အဆက်",
+   "th": "ตอนต่อไป"
+  }
+ },
+ "知らせ": {
+  "reading": "しらせ",
+  "meanings": {
+   "vi": "tin tức, thông báo",
+   "en": "news, notice",
+   "zh-Hans": "消息，通知",
+   "ko": "소식, 알림",
+   "tl": "balita, abiso",
+   "ne": "खबर, सूचना",
+   "id": "kabar, pemberitahuan",
+   "pt": "notícia, aviso",
+   "my": "သတင်း၊ အကြောင်းကြားချက်",
+   "th": "ข่าว, การแจ้ง"
+  }
+ },
+ "届く": {
+  "reading": "とどく",
+  "meanings": {
+   "vi": "đến nơi, tới (thư, tin)",
+   "en": "to arrive, to reach",
+   "zh-Hans": "送到，到达",
+   "ko": "닿다, 도착하다",
+   "tl": "dumating, umabot",
+   "ne": "आइपुग्नु",
+   "id": "sampai, tiba",
+   "pt": "chegar (carta, notícia)",
+   "my": "ရောက်ရှိသည်",
+   "th": "มาถึง, ส่งถึง"
+  }
+ },
+ "王様": {
+  "reading": "おうさま",
+  "meanings": {
+   "vi": "nhà vua",
+   "en": "king",
+   "zh-Hans": "国王",
+   "ko": "임금님, 왕",
+   "tl": "hari",
+   "ne": "राजा",
+   "id": "raja",
+   "pt": "rei",
+   "my": "ဘုရင်",
+   "th": "พระราชา"
+  }
+ },
+ "豆": {
+  "reading": "まめ",
+  "meanings": {
+   "vi": "đậu",
+   "en": "bean",
+   "zh-Hans": "豆子",
+   "ko": "콩",
+   "tl": "bitsuwelas, munggo",
+   "ne": "दाल, केराउ",
+   "id": "kacang",
+   "pt": "feijão",
+   "my": "ပဲ",
+   "th": "ถั่ว"
+  }
+ },
+ "まぜる": {
+  "reading": "まぜる",
+  "meanings": {
+   "vi": "trộn lẫn",
+   "en": "to mix",
+   "zh-Hans": "混合，搅拌",
+   "ko": "섞다",
+   "tl": "paghaluin",
+   "ne": "मिसाउनु",
+   "id": "mencampur",
+   "pt": "misturar",
+   "my": "ရောသည်",
+   "th": "ผสม"
+  }
+ },
+ "さっさと": {
+  "reading": "さっさと",
+  "meanings": {
+   "vi": "nhanh gọn, vội vàng (bỏ đi)",
+   "en": "quickly, without hesitation",
+   "zh-Hans": "赶快，迅速地",
+   "ko": "재빨리, 서둘러",
+   "tl": "agad-agad",
+   "ne": "फटाफट",
+   "id": "cepat-cepat",
+   "pt": "rapidinho, sem demora",
+   "my": "မြန်မြန်ဆန်ဆန်",
+   "th": "อย่างรวดเร็ว"
+  }
+ },
+ "まざる": {
+  "reading": "まざる",
+  "meanings": {
+   "vi": "bị trộn lẫn",
+   "en": "to be mixed",
+   "zh-Hans": "混杂，掺杂",
+   "ko": "섞이다",
+   "tl": "maghalo",
+   "ne": "मिसिनु",
+   "id": "tercampur",
+   "pt": "misturar-se",
+   "my": "ရောနေသည်",
+   "th": "ปนกัน"
+  }
+ },
+ "こんなに": {
+  "reading": "こんなに",
+  "meanings": {
+   "vi": "nhiều/đến thế này",
+   "en": "this much, so",
+   "zh-Hans": "这么，如此",
+   "ko": "이렇게나",
+   "tl": "ganito karami",
+   "ne": "यति धेरै",
+   "id": "sebanyak ini",
+   "pt": "tanto assim",
+   "my": "ဒီလောက်",
+   "th": "ขนาดนี้"
+  }
+ },
+ "分かれる": {
+  "reading": "わかれる",
+  "meanings": {
+   "vi": "được tách ra, chia ra",
+   "en": "to be divided, to separate",
+   "zh-Hans": "分开，分成",
+   "ko": "나뉘다",
+   "tl": "mahati",
+   "ne": "छुट्टिनु",
+   "id": "terbagi, terpisah",
+   "pt": "separar-se, dividir-se",
+   "my": "ခွဲသွားသည်",
+   "th": "แยกออก"
+  }
+ },
+ "帯": {
+  "reading": "おび",
+  "meanings": {
+   "vi": "đai, thắt lưng vải",
+   "en": "sash, belt",
+   "zh-Hans": "腰带",
+   "ko": "띠, 허리띠",
+   "tl": "pamigkis",
+   "ne": "पटुका",
+   "id": "ikat pinggang kain",
+   "pt": "faixa, cinto",
+   "my": "ခါးစည်း",
+   "th": "ผ้าคาดเอว"
+  }
+ },
+ "馬": {
+  "reading": "うま",
+  "meanings": {
+   "vi": "con ngựa",
+   "en": "horse",
+   "zh-Hans": "马",
+   "ko": "말",
+   "tl": "kabayo",
+   "ne": "घोडा",
+   "id": "kuda",
+   "pt": "cavalo",
+   "my": "မြင်း",
+   "th": "ม้า"
+  }
+ },
+ "流れ": {
+  "reading": "ながれ",
+  "meanings": {
+   "vi": "dòng chảy",
+   "en": "current, flow",
+   "zh-Hans": "水流",
+   "ko": "흐름, 물살",
+   "tl": "agos",
+   "ne": "बहाव",
+   "id": "arus",
+   "pt": "correnteza",
+   "my": "စီးကြောင်း",
+   "th": "กระแสน้ำ"
+  }
+ },
+ "流す": {
+  "reading": "ながす",
+  "meanings": {
+   "vi": "làm trôi đi, cuốn trôi",
+   "en": "to wash away, to let flow",
+   "zh-Hans": "冲走，使流动",
+   "ko": "흘려보내다, 떠내려 보내다",
+   "tl": "tangayin",
+   "ne": "बगाउनु",
+   "id": "menghanyutkan",
+   "pt": "levar (pela correnteza)",
+   "my": "မျောပါစေသည်",
+   "th": "พัดพาไป"
+  }
+ },
+ "城": {
+  "reading": "しろ",
+  "meanings": {
+   "vi": "lâu đài, cung điện",
+   "en": "castle",
+   "zh-Hans": "城堡",
+   "ko": "성",
+   "tl": "kastilyo",
+   "ne": "दरबार, किल्ला",
+   "id": "istana, kastil",
+   "pt": "castelo",
+   "my": "ရဲတိုက်၊ နန်းတော်",
+   "th": "ปราสาท"
+  }
+ },
+ "じっと": {
+  "reading": "じっと",
+  "meanings": {
+   "vi": "(nhìn) chăm chú, đứng yên",
+   "en": "fixedly, intently, still",
+   "zh-Hans": "一动不动地，目不转睛地",
+   "ko": "가만히, 뚫어지게",
+   "tl": "titig na titig, hindi gumagalaw",
+   "ne": "एकटक, स्थिर भएर",
+   "id": "lekat-lekat, diam",
+   "pt": "fixamente, imóvel",
+   "my": "စိုက်ကြည့်၍၊ ငြိမ်ငြိမ်",
+   "th": "จ้องเขม็ง, นิ่ง ๆ"
+  }
+ },
+ "ぴったり": {
+  "reading": "ぴったり",
+  "meanings": {
+   "vi": "vừa khít, vừa vặn",
+   "en": "perfectly (fitting), exactly",
+   "zh-Hans": "正合适，恰好",
+   "ko": "꼭 맞게, 딱",
+   "tl": "saktong-sakto",
+   "ne": "ठ्याक्कै मिल्ने",
+   "id": "pas sekali",
+   "pt": "perfeitamente, sob medida",
+   "my": "ကွက်တိ",
+   "th": "พอดีเป๊ะ"
+  }
+ },
+ "広場": {
+  "reading": "ひろば",
+  "meanings": {
+   "vi": "quảng trường",
+   "en": "square, plaza",
+   "zh-Hans": "广场",
+   "ko": "광장",
+   "tl": "plasa",
+   "ne": "चोक, खुला मैदान",
+   "id": "alun-alun",
+   "pt": "praça",
+   "my": "ရင်ပြင်",
+   "th": "ลานกว้าง, จัตุรัส"
+  }
+ },
+ "列": {
+  "reading": "れつ",
+  "meanings": {
+   "vi": "hàng, hàng người",
+   "en": "line, queue",
+   "zh-Hans": "队列",
+   "ko": "줄, 열",
+   "tl": "pila",
+   "ne": "लाइन, पंक्ति",
+   "id": "antrean, barisan",
+   "pt": "fila",
+   "my": "တန်း",
+   "th": "แถว"
+  }
+ },
+ "次々": {
+  "reading": "つぎつぎ",
+  "meanings": {
+   "vi": "lần lượt, liên tiếp",
+   "en": "one after another",
+   "zh-Hans": "接二连三",
+   "ko": "잇달아, 차례차례",
+   "tl": "sunud-sunod",
+   "ne": "एकपछि अर्को",
+   "id": "satu per satu, berturut-turut",
+   "pt": "um após o outro",
+   "my": "တစ်ခုပြီးတစ်ခု",
+   "th": "ทีละคน, ต่อเนื่องกัน"
+  }
+ },
+ "どうしても": {
+  "reading": "どうしても",
+  "meanings": {
+   "vi": "dù thế nào cũng (không)",
+   "en": "no matter what, simply (cannot)",
+   "zh-Hans": "无论如何也",
+   "ko": "아무리 해도",
+   "tl": "kahit anong gawin",
+   "ne": "जे गरे पनि",
+   "id": "bagaimanapun juga",
+   "pt": "de jeito nenhum, por mais que tente",
+   "my": "ဘယ်လိုမှ",
+   "th": "ยังไงก็"
+  }
+ },
+ "いよいよ": {
+  "reading": "いよいよ",
+  "meanings": {
+   "vi": "cuối cùng thì, đã đến lúc",
+   "en": "at last, finally",
+   "zh-Hans": "终于，即将",
+   "ko": "드디어",
+   "tl": "sa wakas",
+   "ne": "अन्ततः, बल्ल",
+   "id": "akhirnya, tibalah saatnya",
+   "pt": "finalmente, enfim",
+   "my": "နောက်ဆုံးတော့",
+   "th": "ในที่สุด, ถึงเวลาแล้ว"
+  }
+ },
+ "取り出す": {
+  "reading": "とりだす",
+  "meanings": {
+   "vi": "lấy ra",
+   "en": "to take out",
+   "zh-Hans": "取出，拿出",
+   "ko": "꺼내다",
+   "tl": "ilabas",
+   "ne": "निकाल्नु",
+   "id": "mengeluarkan",
+   "pt": "tirar (de dentro)",
+   "my": "ထုတ်ယူသည်",
+   "th": "หยิบออกมา"
+  }
+ },
+ "真っ赤": {
+  "reading": "まっか",
+  "meanings": {
+   "vi": "đỏ rực, đỏ bừng",
+   "en": "bright red",
+   "zh-Hans": "通红",
+   "ko": "새빨감",
+   "tl": "pulang-pula",
+   "ne": "रातोपिरो",
+   "id": "merah padam",
+   "pt": "vermelho vivo",
+   "my": "နီရဲ",
+   "th": "แดงก่ำ"
+  }
+ },
+ "幸せ": {
+  "reading": "しあわせ",
+  "meanings": {
+   "vi": "hạnh phúc",
+   "en": "happiness, happy",
+   "zh-Hans": "幸福",
+   "ko": "행복",
+   "tl": "kaligayahan",
+   "ne": "खुसी, सुख",
+   "id": "bahagia",
+   "pt": "felicidade",
+   "my": "ပျော်ရွှင်မှု",
+   "th": "ความสุข"
+  }
+ }
 }
