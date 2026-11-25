@@ -10061,6 +10061,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-babe-1/chapter.mp3",
    "durationSec": 332.88
   }
+ },
+ {
+  "id": "furusato-vn-mychau-1",
+  "titles": {
+   "vi": "Mỵ Châu – Trọng Thủy",
+   "en": "Princess My Chau and Trong Thuy",
+   "zh-Hans": "媚珠与仲始",
+   "zh-Hant": "媚珠與仲始",
+   "ko": "미쩌우와 쫑투이",
+   "tl": "Si Prinsesa My Chau at si Trong Thuy",
+   "ne": "मी चाउ र चोङ थुइ",
+   "id": "Putri My Chau dan Trong Thuy",
+   "pt": "A princesa My Chau e Trong Thuy",
+   "my": "မီချောင်နဲ့ ချုံးသွေ့",
+   "th": "เจ้าหญิงหมีเจิวกับจ่องถวี"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 66,
+  "cover": "/covers/furusato-vn-mychau-1.webp",
+  "series": {
+   "id": "furusato-vn-mychau",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-mychau-1/chapter.mp3",
+   "durationSec": 392.232
+  }
  }
 ];
 
