@@ -13,7 +13,7 @@
 // Không cờ   : ghi content/stories/<id>.json (audio/cover được tạo riêng bằng tts.mjs, cover.mjs).
 import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { dirname, join, basename } from "node:path";
-import { loadTokenizer, measure, wordLevel } from "../lib/level.mjs";
+import { loadTokenizer, measure, wordLevel, vocabLevel } from "../lib/level.mjs";
 
 const root = new URL("../..", import.meta.url).pathname;
 export const LANGS = ["vi", "en", "zh-Hans", "zh-Hant", "ko", "tl", "ne", "id", "pt", "my", "th"];
@@ -207,6 +207,17 @@ export function loadI18n(dir, chap) {
   return out;
 }
 
+// Cách đọc của dạng từ điển: kuromoji chỉ cho cách đọc của dạng đã chia (雇っ → やとっ).
+// Bỏ phần đuôi kana khác nhau của dạng chia, nối đuôi của dạng từ điển (→ やとう).
+function baseReading(tok, word) {
+  const r = kata2hira(tok.reading);
+  if (tok.surface === word) return r;
+  let k = 0;
+  while (k < tok.surface.length && tok.surface[k] === word[k]) k++;
+  const cut = tok.surface.length - k;
+  return (cut ? r.slice(0, -cut) : r) + kata2hira(word.slice(k));
+}
+
 export async function build(file, { mode } = {}) {
   const dir = dirname(file);
   const chap = basename(file).replace(/\.ja\.txt$/, "");
@@ -247,8 +258,8 @@ export async function build(file, { mode } = {}) {
     if (!full(x.note)) errs.push(`câu ${i + 1}: note thiếu ${LANGS.filter((l) => !x.note?.[l]).join(",")}`);
     const vocab = (x.vocab ?? []).map((v) => {
       const tok = s.toks.find((t) => t.base === v.word || t.surface === v.word);
-      const reading = v.reading ?? (tok ? tok.reading : "");
-      const l = wordLevel(v.word, reading);
+      const reading = v.reading ?? (tok ? baseReading(tok, v.word) : "");
+      const l = vocabLevel(v.word, reading);
       const level = l ? LV[l] : v.level;
       if (!level) errs.push(`câu ${i + 1}: từ ${v.word} không có trong danh sách JLPT, cần "level" + lý do trong .qc.md`);
       if (!full(v.m)) errs.push(`câu ${i + 1}: nghĩa từ ${v.word} thiếu ngôn ngữ`);
