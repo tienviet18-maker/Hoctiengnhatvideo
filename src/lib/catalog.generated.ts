@@ -10125,6 +10125,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-kr-hokburi-1/chapter.mp3",
    "durationSec": 312.84
   }
+ },
+ {
+  "id": "furusato-id-toba-1",
+  "titles": {
+   "vi": "Sự tích hồ Toba",
+   "en": "The Legend of Lake Toba",
+   "zh-Hans": "多巴湖的传说",
+   "zh-Hant": "多巴湖的傳說",
+   "ko": "토바 호수 이야기",
+   "tl": "Ang Alamat ng Lawa ng Toba",
+   "ne": "तोबा तालको कथा",
+   "id": "Legenda Danau Toba",
+   "pt": "A lenda do lago Toba",
+   "my": "တိုဘာကန် ဒဏ္ဍာရီ",
+   "th": "ตำนานทะเลสาบโตบา"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-id-toba-1.webp",
+  "series": {
+   "id": "furusato-id-toba",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "ID",
+  "audioTrack": {
+   "src": "/audio/furusato-id-toba-1/chapter.mp3",
+   "durationSec": 337.8
+  }
  }
 ];
 
