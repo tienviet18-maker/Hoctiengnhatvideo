@@ -106,7 +106,8 @@ function analyse(raw) {
   for (const c of chunks) {
     text += c.text;
     if (c.reading) {
-      furigana.push({ surface: c.text, reading: c.reading });
+      // {かな|かな}: chỉ để ép tách từ đúng (kuromoji đọc sai へい, しっぽく) — không gắn furigana.
+      furigana.push({ surface: c.text, reading: KANJI.test(c.text) ? c.reading : "" });
       tokens.push({ surface: c.text, reading: c.reading, pos: "名詞", pos_detail_1: "固有名詞", basic: c.text, forced: true });
       continue;
     }
@@ -133,16 +134,19 @@ function romajiOf(tokens) {
       if (t.pos === "助詞" && run === "は") kana = "わ";
       if (t.pos === "助詞" && run === "へ") kana = "え";
       if (t.pos === "助詞" && run === "を") kana = "お";
+      // は cuối phó từ/liên từ/cảm thán (では, 本当は, こんにちは) đọc là wa.
+      if (["接続詞", "副詞", "感動詞"].includes(t.pos) && run.length > 1 && run.endsWith("は") && /[はハ]$/.test(kana ?? "")) kana = kana.slice(0, -1) + "わ";
       const glue = prev && (
-        (t.pos === "助動詞" && ["動詞", "形容詞", "助動詞"].includes(prev.pos)) ||
+        (t.pos === "助動詞" && ["動詞", "形容詞", "助動詞"].includes(prev.pos) && !(prev.surface === "で" && t.basic === "ござる")) ||
         (t.pos === "助詞" && t.pos_detail_1 === "接続助詞" && /^(て|で|ば)$/.test(run)) ||
         (t.pos === "動詞" && (t.pos_detail_1 === "非自立" || t.pos_detail_1 === "接尾") && prev.pos === "動詞" && false) ||
         t.pos_detail_1 === "接尾" ||
+        prev.pos === "接頭詞" ||
         (prev.pos === "動詞" && t.pos === "動詞" && prev.surface.endsWith("っ"))
       );
       const orphan = /^[ゃゅょャュョぁぃぅぇぉ]/.test(kana ?? "");
       if ((glue || orphan) && words.length && !words[words.length - 1].punct) words[words.length - 1].kana += kana;
-      else words.push({ kana });
+      else words.push({ kana, proper: !t.forced && t.pos_detail_1 === "固有名詞" && KANJI.test(run) });
       prev = t;
     }
   }
@@ -155,7 +159,8 @@ function romajiOf(tokens) {
       }
       continue;
     }
-    const r = kanaToRomaji(w.kana);
+    let r = kanaToRomaji(w.kana);
+    if (w.proper) r = r.charAt(0).toUpperCase() + r.slice(1); // tên riêng: Meguro, Edo
     if (out && !/[\s"(]$/.test(out)) out += " ";
     out += r;
   }
