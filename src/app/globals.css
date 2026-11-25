@@ -38,7 +38,7 @@ ruby rt { font-size: 0.52em; color: var(--navy); font-weight: 400; letter-spacin
 .on-dark ruby rt { color: #f0a49b; }
 
 .app-shell { max-width: 430px; margin: 0 auto; min-height: 100dvh; display: flex; flex-direction: column; position: relative; }
-.page { flex: 1; padding: 20px 20px 96px; }
+.page { flex: 1; padding: 20px 20px 160px; }
 .page-flush { flex: 1; padding-bottom: 24px; }
 
 .btn-primary {
@@ -105,3 +105,8 @@ ruby rt { font-size: 0.52em; color: var(--navy); font-weight: 400; letter-spacin
 .drive-repeat { margin-top: 30px; background: var(--stage2); border-color: var(--stage-border); color: #eef3fa; font-size: 14px; padding: 10px 18px; }
 .drive-repeat.on { background: var(--accent); border-color: var(--accent); color: #fff; }
 .drive-next { margin-top: 22px; font-size: 13px; color: #9db2cc; text-align: center; line-height: 1.5; }
+.no-furi rt { visibility: hidden; }
+.link-btn { background: none; border: 0; padding: 4px 0; min-height: 32px; font: inherit; color: var(--navy); cursor: pointer; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.spinner { animation: spin 0.9s linear infinite; }
+@media (prefers-reduced-motion: reduce) { .spinner { animation: none; } }

@@ -6,10 +6,13 @@ Gói có `"standard": 2` mà trượt bất kỳ tiêu chí nào thì `npm run v
 
 Báo cáo toàn kho: `npm run qc:report` → `docs/content-audit.md`.
 
-## 1. Định vị (không đổi)
+## 1. Định vị (Việt chốt lại 25/11/2026)
 
-Học để **sống ở Nhật**, không phải luyện thi JLPT. N5–N1 chỉ là nhãn độ khó. Mỗi bài trả lời câu hỏi
-"người nước ngoài ở Nhật dùng được gì từ bài này?".
+MiraiGo là app **giải trí bằng tiếng Nhật**: xem video, nghe và đọc truyện bằng tiếng Nhật, có giải thích và đúng
+cấp độ của từng người. Ai cũng dùng được lúc rảnh. Đây không phải app luyện thi JLPT; N5–N1 chỉ là nhãn độ khó.
+Slogan: **"Xem phim vui, nghe truyện hay. Tiếng Nhật trong tay, giỏi lên mỗi ngày."** (bản 11 ngôn ngữ nằm ở
+`onboarding.welcome` trong `src/i18n/locales/`). Mỗi bài trước hết phải **hay**: có cốt truyện, hài hoặc cuốn hút.
+Bài về đời sống ở Nhật vẫn là một kệ, nhưng không phải định vị chính.
 
 ## 2. Pháp lý (chặn tuyệt đối)
 
@@ -74,10 +77,69 @@ dòng dài tối đa 12 giây (dài hơn thì tách câu). Mốc thời gian ph�
 - Ghi giọng của từng câu (hoặc quy tắc gán giọng) và tốc độ vào `.qc.md`. Mẫu nghe thử ở
   `/mnt/project-files/miraigo/tts-samples/`.
 
+## 6b. Audio liền cho chương (bắt buộc với gói v2, Việt yêu cầu 25/11)
+
+Người dùng nghe qua Bluetooth hoặc tai nghe khi đã tắt màn hình, nên mỗi chương là **một file audio liền**,
+không phải mỗi câu một file (iOS có thể dừng giữa hai file khi máy khoá).
+
+- Tạo audio từng câu bằng Google TTS, rồi ghép thành `public/audio/<id>/chapter.mp3` (mp3 mono 64 kbps). Giữa
+  hai câu nghỉ 0,6 giây, khi đổi người nói thì nghỉ 0,9 giây. Không lưu file từng câu vào repo.
+- `audioTrack: { src: "/audio/<id>/chapter.mp3", durationSec }`. Mỗi câu có `t: [start, end]` (giây, đo bằng ffprobe
+  khi ghép), `voice` (một trong 3 giọng ở mục 6), và `audio: "<src>#t=<start>,<end>"` để trình đọc phát đúng câu.
+- QC kiểm: file tồn tại, mốc tăng dần, nằm trong thời lượng, `audio` khớp `t`, câu nào cũng có `voice`.
+
+## 6c. Bài học của chương (thẻ "Bài học")
+
+- `lesson.grammarPoints`: 2–4 mẫu ngữ pháp chính của chương. Mỗi mẫu có `pattern`, `meaning` đủ 11 ngôn ngữ, và
+  `example` là chỉ số của câu ví dụ trong chương.
+- `lesson.quiz`: 3–5 câu hỏi hiểu bài. Câu hỏi và các lựa chọn viết bằng tiếng Nhật đúng cấp, có ít nhất 3 lựa
+  chọn, `answer` là chỉ số đáp án đúng, `explain` đủ 11 ngôn ngữ.
+- Từ vựng vẫn ghi theo từng câu (mục 4). Thẻ Bài học tự gom từ vựng của cả chương, nên không cần ghi lại.
+
+## 6d. Kệ
+
+- `shelf`: literature | mystery | ghost | rakugo | folktale-jp | hometown | world | life-series | life.
+- Truyện quê hương: `shelf: "hometown"` và `origin` là mã nước gồm 2 chữ in hoa (VN, KR, CN, PH, ID, TH, NP, MM, BR).
+
 ## 7. Bìa và hình ảnh
 
 - Mỗi truyện hoặc bộ truyện có ảnh bìa ở `public/covers/<id>.webp`, tỉ lệ 3:4, tối thiểu 900×1200.
 - Một hệ hình ảnh thống nhất theo màu logo (navy, đỏ). Không tranh AI phong cách Ghibli.
+- **Kiểu bìa đã chốt (Việt duyệt 25/11): bìa chữ kiểu bunko**, là bìa chính thức, không phải bìa tạm. Nền navy,
+  một hình khối đơn giản (motif) màu đỏ/xanh, nhãn `MIRAIGO 文庫`, cấp độ, nhãn kệ và tên phiên âm Latin ở chân bìa.
+- **Tên tiếng Nhật là chữ chính**, viết dọc, lớn. Dòng phụ dọc nhỏ (`cover_jsub`) cho tên bộ và số tập (vd 半七捕物帳 一).
+- **Không có chữ tiếng Việt trên bìa** (app toàn cầu; bản dịch tên hiện ở thẻ truyện theo ngôn ngữ người dùng).
+- **Mỗi truyện một font theo thể loại** (toàn bộ là Google Fonts giấy phép OFL, dùng thương mại được):
+
+  | Thể loại (kệ) | Font |
+  | --- | --- |
+  | Văn học (literature, world) | Shippori Mincho B1, Zen Old Mincho, BIZ UDPMincho |
+  | Truyện ma (ghost) | Zen Antique, Yuji Syuku |
+  | Rakugo (rakugo) | Dela Gothic One, Reggae One |
+  | Cổ tích (folktale-jp, hometown) | Zen Maru Gothic, Kaisei Decol, Yusei Magic |
+  | Đời sống (life, life-series) | Klee One, M PLUS Rounded 1c |
+  | Trinh thám (mystery) | Zen Kaku Gothic New, Shippori Antique |
+
+  Các tập của cùng một bộ dùng cùng font và motif, chỉ đổi số tập ở dòng phụ.
+- **Truyện quê hương ghi rõ xuất xứ**: dòng phụ nói nguồn gốc bằng tiếng Nhật (vd 「ベトナムの昔話」) và nhãn kệ có
+  mã nước (vd `VN`), để người xem biết đây là cổ tích Việt Nam như Tấm Cám, không phải truyện Nhật.
+- Motif có sẵn: sun, wave, gate, city, mountain, candle, lantern, flame, field, rain. Motif mới thêm vào
+  `scripts/produce/cover.html`, giữ cùng bảng màu.
+
+## 7b. Công cụ sản xuất truyện (`scripts/produce/`)
+
+Nguồn soạn của mỗi bộ ở `content/sources/v2/<bộ>/`:
+
+- `<chương>.ja.txt`: phần đầu (id, level, series, index, topic, shelf, origin, source, free, readings, cover_*),
+  rồi mỗi dòng một câu, mỗi đoạn mở bằng `{vai}`.
+- `<chương>.i18n.N.txt`: tiêu đề, bản dịch (`T`), giải thích (`N`), từ vựng (`V`) cho từng câu `@số`, 11 ngôn ngữ.
+- `<chương>.lesson.txt`: điểm ngữ pháp (`G mẫu #câu: …`), câu hỏi (`Q câu | lựa chọn / … | đáp án`), giải thích (`X`).
+- `voices.json`: giọng, tốc độ, cao độ của từng vai, dùng chung cả bộ.
+
+Quy trình: `build-story.mjs --measure` (số đo, gợi ý từ) và `--readings` (soát furigana) → viết i18n và bài học →
+`tts.mjs` (audio liền `chapter.mp3` + `<chương>.timing.json`) → `build-story.mjs` (ghi `content/stories/<id>.json`)
+→ `cover.mjs` → `register.mjs <id>` (đăng ký vào khối kệ A/E trong `src/lib/content.ts`) → viết `.qc.md` →
+`npm run verify`. Khoá TTS chỉ đọc từ biến môi trường `GOOGLE_TTS_API_KEY`, không ghi ra đâu.
 
 ## 8. Không trùng
 

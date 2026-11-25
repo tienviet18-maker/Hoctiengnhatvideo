@@ -37,7 +37,7 @@ for (const dir of ["content/stories", "content/videos"]) {
     if (d.kind === "story") {
       d.sentences.forEach((s, i) => {
         checkSegments(d.id, i + 1, s.ja, s.furigana, s.romaji, s.translations, s.vocab);
-        if (!s.audio || !existsSync(join(root, "public", s.audio))) bad(d.id, `câu ${i + 1}: thiếu file audio`);
+        if (!s.audio || !existsSync(join(root, "public", s.audio.split("#")[0]))) bad(d.id, `câu ${i + 1}: thiếu file audio`);
       });
     } else {
       let prevEnd = 0;

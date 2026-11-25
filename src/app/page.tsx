@@ -4,319 +4,272 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLang } from "../components/LangProvider";
-import Paywall from "../components/Paywall";
-import { VIDEO_INDEX, formatDuration } from "../lib/catalog.generated";
-import PathGrid from "../components/PathGrid";
-import { SERIES, seriesOf } from "../lib/series";
+import StoryCover from "../components/StoryCover";
+import { STORY_INDEX, VIDEO_INDEX } from "../lib/catalog.generated";
 import { pickText } from "../lib/i18n";
-import type { JlptLevel, VideoCategory } from "../lib/content-schema";
+import { SERIES, seriesOf } from "../lib/series";
+import { recommendFirst } from "../lib/shelves";
 import {
-  addCustomVideo,
-  CUSTOM_KEY,
+  ACTIVITY_KEY,
+  DECK_KEY,
   PROGRESS_KEY,
-  QUEUE_KEY,
-  toggleQueue,
+  getStreak,
   useLocalJson,
-  type CustomVideo,
+  type DayActivity,
+  type DeckCard,
   type Progress,
 } from "../lib/store";
 
-const LEVELS: (JlptLevel | "all")[] = ["all", "N5", "N4", "N3", "N2", "N1"];
+const EMPTY_PROGRESS: Record<string, Progress> = {};
+const EMPTY_DECK: DeckCard[] = [];
+const EMPTY_ACTIVITY: Record<string, DayActivity> = {};
 
-function extractYoutubeId(raw: string): string | null {
-  const s = raw.trim();
-  if (/^[a-zA-Z0-9_-]{11}$/.test(s)) return s;
-  const m = s.match(
-    /(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/,
-  );
-  return m ? m[1] : null;
+/** Màu bìa nhỏ ổn định theo id (bìa chữ kiểu bunko, chưa có ảnh). */
+const COVER_TONES = [
+  ["#F3D9B5", "#5A2D0C"],
+  ["#20262E", "#F5C542"],
+  ["#3B3A4A", "#E8E2F2"],
+  ["#DCE6F2", "#1F3864"],
+  ["#EFE6D2", "#2B1D14"],
+  ["#E3EFE6", "#1E4D36"],
+] as const;
+function tone(id: string) {
+  let h = 0;
+  for (const ch of id) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return COVER_TONES[h % COVER_TONES.length];
 }
 
-const rowStyle: React.CSSProperties = {
-  display: "flex",
-  gap: 12,
-  alignItems: "center",
-  width: "100%",
-  textAlign: "left",
-  padding: "12px 0",
-  background: "none",
-  border: "none",
-  borderBottom: "1px solid var(--border)",
-  cursor: "pointer",
-  color: "inherit",
-  fontFamily: "inherit",
-};
+interface Featured {
+  kind: "story" | "video";
+  id: string;
+  title: string;
+  level: string;
+  img: string | null;
+}
 
-// Chỉ hiện chip của thể loại đang có video: chip rỗng (vd Anime khi chưa có gói) làm app trông dở dang.
-const CATEGORY_CHIPS = (["all", "conversation", "podcast", "anime", "song"] as const).filter(
-  (c) => c === "all" || VIDEO_INDEX.some((v) => v.category === c),
-);
+function fill(s: string, n: number) {
+  return s.replace("{n}", String(n));
+}
+
+function todayKey(ts: number) {
+  const d = new Date(ts);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
 
 export default function HomePage() {
   const { ui, lang, profile, ready } = useLang();
   const router = useRouter();
-  const [query, setQuery] = useState("");
-  const [level, setLevel] = useState<(typeof LEVELS)[number]>("all");
-  const [category, setCategory] = useState<VideoCategory | "all">("all");
-  const [series, setSeries] = useState<string>("all");
-  const queue = useLocalJson<string[]>(QUEUE_KEY, []);
-  const [paywall, setPaywall] = useState(false);
-  const [link, setLink] = useState("");
-  const custom = useLocalJson<CustomVideo[]>(CUSTOM_KEY, []);
-  const progress = useLocalJson<Record<string, Progress>>(PROGRESS_KEY, {});
+  const progress = useLocalJson(PROGRESS_KEY, EMPTY_PROGRESS);
+  const deck = useLocalJson(DECK_KEY, EMPTY_DECK);
+  const activity = useLocalJson(ACTIVITY_KEY, EMPTY_ACTIVITY);
 
   useEffect(() => {
     if (ready && !profile.onboarded) router.replace("/onboarding");
   }, [ready, profile.onboarded, router]);
 
-  const filtered = useMemo(
-    () =>
-      VIDEO_INDEX.filter((v) => {
-        if (level !== "all" && v.level !== level) return false;
-        if (category !== "all" && v.category !== category) return false;
-        if (series !== "all" && seriesOf(v.id) !== series) return false;
-        if (!query) return true;
-        const q = query.toLowerCase();
-        return (
-          pickText(v.titles, lang).toLowerCase().includes(q) ||
-          Object.values(v.titles).some((t) => t?.toLowerCase().includes(q))
-        );
-      }),
-    [level, category, series, query, lang],
-  );
+  // Giờ hiện tại chỉ đọc sau khi mount (prerender không được dùng new Date()); 0 = chưa có.
+  const [now, setNow] = useState(0);
+  useEffect(() => {
+    const t = window.setTimeout(() => setNow(Date.now()), 0);
+    return () => window.clearTimeout(t);
+  }, []);
+  // activity là phụ thuộc để streak tính lại khi có hoạt động mới
+  const streak = useMemo(() => (now && activity ? getStreak() : 0), [activity, now]);
+  const minutesToday = now ? activity[todayKey(now)]?.minutes ?? 0 : 0;
+  const due = useMemo(() => (now ? deck.filter((c) => c.due <= now).length : 0), [deck, now]);
 
-  const continueVideo = useMemo(() => {
-    const entries = Object.entries(progress)
-      .filter(([id]) => VIDEO_INDEX.some((v) => v.id === id))
-      .sort((a, b) => b[1].updatedAt - a[1].updatedAt);
-    if (!entries.length) return null;
-    const [id, p] = entries[0];
-    const video = VIDEO_INDEX.find((v) => v.id === id)!;
-    return { video, pct: Math.min(100, Math.round((p.pos / Math.max(1, p.total)) * 100)) };
-  }, [progress]);
-
-  const openVideo = (id: string, free: boolean) => {
-    if (!free && !profile.vip) {
-      setPaywall(true);
-      return;
+  const resume = useMemo(() => {
+    const entries = Object.entries(progress).sort((a, b) => b[1].updatedAt - a[1].updatedAt);
+    for (const [id, p] of entries) {
+      const pct = Math.min(100, Math.round((p.pos / Math.max(1, p.total)) * 100));
+      const story = STORY_INDEX.find((s) => s.id === id);
+      if (story) return { href: `/read/${id}`, title: pickText(story.titles, lang), meta: story.level, pct, id };
+      const video = VIDEO_INDEX.find((v) => v.id === id);
+      if (video) return { href: `/watch/${id}`, title: pickText(video.titles, lang), meta: video.level, pct, id };
     }
-    router.push(`/watch/${id}`);
-  };
+    const first = recommendFirst(profile.level, profile.interests);
+    return first
+      ? { href: `/read/${first.id}`, title: pickText(first.titles, lang), meta: first.level, pct: 0, id: first.id }
+      : null;
+  }, [progress, lang, profile.level, profile.interests]);
 
-  const submitLink = () => {
-    const id = extractYoutubeId(link);
-    if (!id) return;
-    addCustomVideo({ youtubeId: id, title: id, addedAt: Date.now() });
-    setLink("");
-    router.push(`/watch/custom-${id}`);
-  };
+  const newest = useMemo(() => STORY_INDEX.slice(-8).reverse(), []);
+  const newVideos = useMemo(() => VIDEO_INDEX.slice(-6).reverse(), []);
+  // "Đang hot": truyện chuẩn v2 mới nhất (có audio liền) + video mới nhất của từng kênh
+  const featured = useMemo((): Featured[] => {
+    const stories = STORY_INDEX.filter((s) => s.audioTrack).slice(-3).reverse()
+      .map((s): Featured => ({ kind: "story", id: s.id, title: pickText(s.titles, lang), level: s.level, img: null }));
+    const videos = SERIES.map((k) => [...VIDEO_INDEX].reverse().find((v) => seriesOf(v.id) === k.key)).filter((v) => !!v)
+      .map((v): Featured => ({ kind: "video", id: v.id, title: pickText(v.titles, lang), level: v.level, img: `https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg` }));
+    const out: Featured[] = [];
+    for (let i = 0; i < Math.max(stories.length, videos.length); i++) {
+      if (videos[i]) out.push(videos[i]);
+      if (stories[i]) out.push(stories[i]);
+    }
+    return out;
+  }, [lang]);
+
+  const hour = now ? new Date(now).getHours() : 12;
+  const greet = hour < 11 ? ui.home.morning : hour < 18 ? ui.home.afternoon : ui.home.evening;
 
   return (
     <div className="page">
       <header style={{ display: "flex", alignItems: "center", gap: 8 }}>
-        <span style={{ width: 10, height: 10, borderRadius: "50%", background: "var(--accent)" }} />
-        <h1 style={{ fontSize: 20, fontWeight: 800, color: "var(--navy)", letterSpacing: "-.02em" }}>
-          {ui.app.name}
-        </h1>
         <span
-          style={{
-            marginLeft: "auto",
-            fontSize: 11,
-            fontWeight: 700,
-            color: "var(--navy)",
-            background: "var(--muted-bg)",
-            border: "1px solid var(--border)",
-            padding: "4px 10px",
-            borderRadius: 999,
-          }}
+          aria-hidden
+          style={{ width: 28, height: 28, borderRadius: 8, background: "var(--navy)", display: "flex", alignItems: "center", justifyContent: "center" }}
         >
-          {profile.vip ? ui.profile.planVip : ui.common.free}
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="var(--accent)" /></svg>
         </span>
+        <span style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", color: "var(--navy)" }}>{ui.app.name}</span>
+        {streak > 0 && (
+          <span
+            style={{
+              marginLeft: "auto", display: "flex", alignItems: "center", gap: 6, padding: "6px 10px",
+              borderRadius: 999, background: "var(--card)", border: "1px solid var(--border)", fontSize: 13, fontWeight: 700,
+            }}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C2410C" strokeWidth="2" aria-hidden>
+              <path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-4-1-6 1-9z" />
+            </svg>
+            {fill(ui.home.streak, streak)}
+          </span>
+        )}
       </header>
 
-      <div
-        style={{
-          marginTop: 16,
-          display: "flex",
-          alignItems: "center",
-          gap: 8,
-          background: "var(--muted-bg)",
-          border: "1px solid var(--border)",
-          borderRadius: 12,
-          padding: "11px 14px",
-        }}
-      >
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" strokeWidth="2" strokeLinecap="round"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
-        <input
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder={ui.common.search}
-          style={{ border: "none", background: "transparent", outline: "none", fontSize: 14, width: "100%", fontFamily: "inherit" }}
-        />
-      </div>
+      <h1 style={{ fontSize: 22, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.25, marginTop: 14 }}>
+        {greet}
+        {profile.name ? `, ${profile.name}` : ""}
+      </h1>
+      <div style={{ fontSize: 12.5, color: "var(--muted)", marginTop: 2 }}>{fill(ui.home.todayMinutes, minutesToday)}</div>
 
-      <div style={{ display: "flex", gap: 14, marginTop: 16, overflowX: "auto", paddingBottom: 4 }}>
-        {SERIES.map((s) => {
-          const first = VIDEO_INDEX.find((v) => seriesOf(v.id) === s.key);
-          if (!first) return null;
-          const on = series === s.key;
-          return (
-            <button
-              key={s.key}
-              type="button"
-              onClick={() => setSeries(on ? "all" : s.key)}
-              style={{ background: "none", border: "none", cursor: "pointer", fontFamily: "inherit", textAlign: "center", flexShrink: 0, width: 76, padding: 0 }}
-            >
-              <span
-                style={{
-                  display: "block", width: 62, height: 62, margin: "0 auto", borderRadius: "50%", overflow: "hidden",
-                  border: on ? "3px solid var(--accent)" : "2px solid var(--border)",
-                }}
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={`https://i.ytimg.com/vi/${first.youtubeId}/hqdefault.jpg`} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+      <h2 style={{ fontSize: 17, fontWeight: 700, margin: "16px 0 10px" }}>{ui.home.hot}</h2>
+      <div style={{ display: "flex", gap: 12, overflowX: "auto", scrollSnapType: "x mandatory", margin: "0 -20px", padding: "0 20px 4px" }}>
+        {featured.map((f) => (
+          <Link
+            key={f.id}
+            href={f.kind === "video" ? `/watch/${f.id}` : `/read/${f.id}`}
+            style={{
+              position: "relative", width: "82%", maxWidth: 320, flexShrink: 0, height: 180, borderRadius: 16, overflow: "hidden",
+              scrollSnapAlign: "start", textDecoration: "none", color: "#fff",
+              background: f.img ? "#000" : tone(f.id)[0],
+            }}
+          >
+            {f.img ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={f.img} alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+            ) : (
+              <span lang="ja" aria-hidden style={{ position: "absolute", right: 18, top: 14, writingMode: "vertical-rl", fontFamily: "'Noto Serif JP', serif", fontWeight: 700, fontSize: 26, color: tone(f.id)[1], letterSpacing: ".1em" }}>
+                {f.title.slice(0, 8)}
               </span>
-              <span style={{ display: "block", fontSize: 11, fontWeight: on ? 800 : 600, color: on ? "var(--accent)" : "var(--navy)", marginTop: 6, lineHeight: 1.3 }}>
-                {ui.series[s.key as keyof typeof ui.series]}
+            )}
+            <span style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg, rgba(0,0,0,0) 35%, rgba(0,0,0,.75) 100%)" }} />
+            <span style={{ position: "absolute", left: 14, right: 14, bottom: 12 }}>
+              <span style={{ fontSize: 11, fontWeight: 700, background: "rgba(255,255,255,.2)", borderRadius: 6, padding: "2px 7px" }}>
+                {f.kind === "video" ? ui.tabs.video : ui.tabs.books} · {f.level}
               </span>
-            </button>
-          );
-        })}
-      </div>
-
-      <div style={{ display: "flex", gap: 8, marginTop: 14, overflowX: "auto", paddingBottom: 2 }}>
-        {LEVELS.map((l) => (
-          <button key={l} type="button" className={`chip${level === l ? " on" : ""}`} onClick={() => setLevel(l)}>
-            {l === "all" ? ui.common.allLevels : l}
-          </button>
+              <span style={{ display: "block", fontSize: 16, fontWeight: 700, lineHeight: 1.3, marginTop: 6 }}>{f.title}</span>
+            </span>
+          </Link>
         ))}
       </div>
 
-      <div style={{ display: "flex", gap: 8, marginTop: 8, overflowX: "auto", paddingBottom: 2 }}>
-        {CATEGORY_CHIPS.map((c) => (
-          <button key={c} type="button" className={`chip${category === c ? " on" : ""}`} onClick={() => setCategory(c)}>
-            {c === "all" ? ui.categories.all : ui.categories[c]}
-          </button>
-        ))}
-      </div>
+      {resume && (
+        <Link
+          href={resume.href}
+          style={{
+            marginTop: 18, background: "var(--navy)", borderRadius: 18, padding: 14, display: "flex", gap: 14,
+            alignItems: "center", textDecoration: "none", color: "#fff",
+          }}
+        >
+          <span
+            aria-hidden
+            style={{
+              width: 60, height: 80, flexShrink: 0, borderRadius: 6, background: tone(resume.id)[0], color: tone(resume.id)[1],
+              fontSize: 11, fontWeight: 800, padding: 6, display: "flex", alignItems: "flex-end", boxShadow: "0 2px 6px rgba(0,0,0,.25)",
+            }}
+          >
+            {resume.meta}
+          </span>
+          <span style={{ flex: 1, minWidth: 0 }}>
+            <span style={{ display: "block", fontSize: 11, fontWeight: 700, letterSpacing: ".08em", color: "#B9C8E4", textTransform: "uppercase" }}>
+              {resume.pct > 0 ? ui.home.continue : ui.home.startHere}
+            </span>
+            <span style={{ display: "block", fontSize: 16, fontWeight: 700, marginTop: 4, lineHeight: 1.3 }}>{resume.title}</span>
+            {resume.pct > 0 && (
+              <span style={{ display: "block", height: 4, borderRadius: 2, background: "rgba(255,255,255,.2)", marginTop: 10 }}>
+                <span style={{ display: "block", width: `${resume.pct}%`, height: 4, borderRadius: 2, background: "var(--accent)" }} />
+              </span>
+            )}
+          </span>
+          <span
+            aria-hidden
+            style={{ width: 48, height: 48, borderRadius: "50%", background: "#fff", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="var(--navy)" /></svg>
+          </span>
+        </Link>
+      )}
 
       <Link
-        href="/drive"
+        href="/library"
         className="card"
-        style={{
-          display: "flex", gap: 12, alignItems: "center", marginTop: 16,
-          textDecoration: "none", color: "inherit", background: "var(--navy)", borderColor: "var(--navy)",
-        }}
+        style={{ marginTop: 14, display: "flex", alignItems: "center", gap: 12, textDecoration: "none", color: "inherit" }}
       >
         <span
           aria-hidden
-          style={{
-            width: 44, height: 44, borderRadius: "50%", flexShrink: 0,
-            background: "#fff", color: "var(--navy)", display: "flex",
-            alignItems: "center", justifyContent: "center",
-          }}
+          style={{ width: 40, height: 40, borderRadius: 10, background: "#FDECEC", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}
         >
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-            <path d="M8 5.5v13l11-6.5z" />
-          </svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B91C2B" strokeWidth="2"><rect x="4" y="5" width="16" height="14" rx="2" /><path d="M8 10h8M8 14h5" /></svg>
         </span>
-        <span style={{ minWidth: 0, flex: 1 }}>
-          <span style={{ display: "block", fontSize: 15, fontWeight: 700, color: "#fff" }}>{ui.drive.title}</span>
-          <span style={{ display: "block", fontSize: 12, color: "#c9d8ee", marginTop: 2, lineHeight: 1.4 }}>{ui.drive.hint}</span>
+        <span style={{ flex: 1, minWidth: 0 }}>
+          <span style={{ display: "block", fontSize: 14, fontWeight: 700 }}>
+            {due > 0 ? fill(ui.home.reviewDue, due) : ui.home.reviewEmpty}
+          </span>
+          <span style={{ display: "block", fontSize: 12, color: "var(--muted)", marginTop: 2 }}>
+            {due > 0 ? ui.home.reviewDueHint : ui.home.reviewEmptyHint}
+          </span>
         </span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" strokeWidth="2" aria-hidden><path d="M9 6l6 6-6 6" /></svg>
       </Link>
 
-      <h2 style={{ fontSize: 16, fontWeight: 700, margin: "20px 0 4px" }}>{ui.paths.title}</h2>
-      <p style={{ fontSize: 12, color: "var(--muted)", lineHeight: 1.5 }}>{ui.paths.subtitle}</p>
-      <PathGrid />
-
-      {continueVideo && (
-        <>
-          <h2 style={{ fontSize: 16, fontWeight: 700, margin: "18px 0 12px" }}>{ui.common.continueWatching}</h2>
-          <button
-            type="button"
-            className="card"
-            style={{ display: "flex", gap: 12, alignItems: "center", width: "100%", textAlign: "left", cursor: "pointer", fontFamily: "inherit" }}
-            onClick={() => openVideo(continueVideo.video.id, continueVideo.video.free)}
-          >
-            <span className="thumb" style={{ width: 128, height: 76 }}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={`https://i.ytimg.com/vi/${continueVideo.video.youtubeId}/hqdefault.jpg`} alt="" />
-              <span className="dur">{formatDuration(continueVideo.video.clipEnd - continueVideo.video.clipStart)}</span>
-            </span>
-            <span style={{ minWidth: 0, flex: 1 }}>
-              <span style={{ display: "block", fontSize: 14, fontWeight: 600, lineHeight: 1.35 }}>
-                {pickText(continueVideo.video.titles, lang)}
-              </span>
-              <span className="progress-track" style={{ display: "block", marginTop: 10 }}>
-                <i style={{ width: `${continueVideo.pct}%` }} />
-              </span>
-              <span style={{ display: "flex", gap: 6, alignItems: "center", fontSize: 12, color: "var(--muted)", marginTop: 6 }}>
-                <span className="lvl">{continueVideo.video.level}</span>
-                {ui.categories[continueVideo.video.category]}
-              </span>
-            </span>
-          </button>
-        </>
-      )}
-
-      <h2 style={{ fontSize: 16, fontWeight: 700, margin: "18px 0 4px" }}>
-        {ui.tabs.video} <span style={{ fontSize: 13, fontWeight: 600, color: "var(--muted)" }}>· {filtered.length}</span>
-      </h2>
-      {filtered.map((v) => (
-        <div key={v.id} style={{ position: "relative" }}>
-        <button type="button" onClick={() => openVideo(v.id, v.free)} style={rowStyle}>
-          <span className="thumb" style={{ width: 112, height: 66 }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={`https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`} alt="" />
-            <span className="tag">{v.free ? <span className="free-badge">{ui.common.free}</span> : <span className="lock-badge">VIP</span>}</span>
-            <span className="dur">{formatDuration(v.clipEnd - v.clipStart)}</span>
-          </span>
-          <span style={{ minWidth: 0 }}>
-            <span style={{ display: "block", fontSize: 14, fontWeight: 600, lineHeight: 1.35 }}>{pickText(v.titles, lang)}</span>
-            <span style={{ display: "flex", gap: 6, alignItems: "center", fontSize: 12, color: "var(--muted)", marginTop: 4 }}>
-              <span className="lvl">{v.level}</span>
-              {ui.categories[v.category]}
-            </span>
-          </span>
-        </button>
-        <button
-          type="button"
-          aria-label={ui.queue.add}
-          title={ui.queue.add}
-          onClick={() => toggleQueue(v.id)}
-          style={{
-            position: "absolute", right: 8, bottom: 10, width: 30, height: 30, borderRadius: "50%",
-            border: "1px solid var(--border)", cursor: "pointer", fontFamily: "inherit",
-            fontSize: 15, fontWeight: 800, lineHeight: 1,
-            background: queue.includes(v.id) ? "var(--accent)" : "var(--card)",
-            color: queue.includes(v.id) ? "#fff" : "var(--navy)",
-          }}
-        >
-          {queue.includes(v.id) ? "✓" : "+"}
-        </button>
-        </div>
-      ))}
-
-      <h2 style={{ fontSize: 16, fontWeight: 700, margin: "20px 0 10px" }}>{ui.player.addOwnVideo}</h2>
-      <div style={{ display: "flex", gap: 8 }}>
-        <input className="input" value={link} onChange={(e) => setLink(e.target.value)} placeholder="youtube.com/watch?v=..." />
-        <button type="button" className="btn-primary" style={{ width: "auto", padding: "12px 18px" }} onClick={submitLink}>
-          +
-        </button>
+      <div style={{ marginTop: 22, display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
+        <h2 style={{ fontSize: 17, fontWeight: 700 }}>{ui.home.newOnShelf}</h2>
+        <Link href="/books" style={{ fontSize: 13, fontWeight: 600, color: "var(--navy)", textDecoration: "none" }}>{ui.common.seeAll}</Link>
       </div>
-      {custom.map((c) => (
-        <Link key={c.youtubeId} href={`/watch/custom-${c.youtubeId}`} style={{ ...rowStyle, textDecoration: "none" }}>
-          <span className="thumb" style={{ width: 112, height: 66 }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={`https://i.ytimg.com/vi/${c.youtubeId}/hqdefault.jpg`} alt="" />
-            <span className="tag"><span className="free-badge">{ui.player.autoSubtitles}</span></span>
-          </span>
-          <span style={{ fontSize: 14, fontWeight: 600 }}>{c.title}</span>
-        </Link>
-      ))}
+      <div style={{ display: "flex", gap: 10, marginTop: 10, overflowX: "auto", paddingBottom: 4 }}>
+        {newest.map((s) => (
+          <Link key={s.id} href={`/read/${s.id}`} style={{ width: 96, flexShrink: 0, textDecoration: "none", color: "inherit" }}>
+            <StoryCover story={s} title={pickText(s.titles, lang)} width={96} />
+          </Link>
+        ))}
+      </div>
 
-      {paywall && <Paywall onClose={() => setPaywall(false)} />}
+      <div style={{ marginTop: 22, display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
+        <h2 style={{ fontSize: 17, fontWeight: 700 }}>{ui.home.newVideos}</h2>
+        <Link href="/video" style={{ fontSize: 13, fontWeight: 600, color: "var(--navy)", textDecoration: "none" }}>{ui.common.seeAll}</Link>
+      </div>
+      <div style={{ display: "flex", gap: 10, marginTop: 10, overflowX: "auto", paddingBottom: 4 }}>
+        {newVideos.map((v) => (
+          <Link key={v.id} href={`/watch/${v.id}`} style={{ width: 168, flexShrink: 0, textDecoration: "none", color: "inherit" }}>
+            <span className="thumb" style={{ width: 168, height: 95, display: "block" }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={`https://i.ytimg.com/vi/${v.youtubeId}/mqdefault.jpg`} alt="" loading="lazy" />
+            </span>
+            <span style={{ fontSize: 13, fontWeight: 600, lineHeight: 1.35, marginTop: 6, overflow: "hidden", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" } as React.CSSProperties}>
+              {pickText(v.titles, lang)}
+            </span>
+          </Link>
+        ))}
+      </div>
+
+      <Link href="/paths" className="card" style={{ marginTop: 22, display: "flex", alignItems: "center", gap: 12, textDecoration: "none", color: "inherit" }}>
+        <span style={{ flex: 1, minWidth: 0 }}>
+          <span style={{ display: "block", fontSize: 15, fontWeight: 700 }}>{ui.paths.title}</span>
+          <span style={{ display: "block", fontSize: 12, color: "var(--muted)", marginTop: 2, lineHeight: 1.4 }}>{ui.paths.subtitle}</span>
+        </span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" strokeWidth="2" aria-hidden><path d="M9 6l6 6-6 6" /></svg>
+      </Link>
     </div>
   );
 }
