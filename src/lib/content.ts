@@ -542,6 +542,10 @@ import story453 from "../../content/stories/the-language-of-silence.json";
 import story454 from "../../content/stories/when-an-era-changes.json";
 import story455 from "../../content/stories/the-japanese-garden.json";
 
+// --- kệ A/E văn học (chuẩn v2): import ---
+import v2AkaiRousokuToNingyo from "../../content/stories/akai-rousoku-to-ningyo.json";
+// --- hết kệ A/E: import ---
+
 export const VIDEOS: VideoContent[] = [
   video1 as unknown as VideoContent,
   video2 as unknown as VideoContent,
@@ -1087,6 +1091,9 @@ export const STORIES: StoryContent[] = [
   story453 as unknown as StoryContent,
   story454 as unknown as StoryContent,
   story455 as unknown as StoryContent,
+  // --- kệ A/E văn học (chuẩn v2) ---
+  v2AkaiRousokuToNingyo as unknown as StoryContent,
+  // --- hết kệ A/E ---
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

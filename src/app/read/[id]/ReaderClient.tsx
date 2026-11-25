@@ -6,7 +6,7 @@ import { useLang } from "../../../components/LangProvider";
 import Furigana from "../../../components/Furigana";
 import WordPopup from "../../../components/WordPopup";
 import Paywall from "../../../components/Paywall";
-import type { StoryContent, VocabItem } from "../../../lib/content-schema";
+import type { StoryContent, Translations, VocabItem } from "../../../lib/content-schema";
 import { pickText } from "../../../lib/i18n";
 import {
   logActivity,
@@ -18,7 +18,13 @@ import {
 
 const FONT_SIZES = [16, 18, 21];
 
-export default function ReaderClient({ story }: { story: StoryContent }) {
+export default function ReaderClient({
+  story,
+  next,
+}: {
+  story: StoryContent;
+  next?: { id: string; titles: Translations };
+}) {
   const { ui, lang, profile } = useLang();
   const [openTr, setOpenTr] = useState<Record<number, boolean>>({});
   const [openEx, setOpenEx] = useState<Record<number, boolean>>({});
@@ -158,6 +164,11 @@ export default function ReaderClient({ story }: { story: StoryContent }) {
       )}
 
       <div style={{ padding: "16px 20px 24px" }}>
+        {next && (
+          <Link href={`/read/${next.id}`} className="btn-primary" style={{ textDecoration: "none", marginBottom: 10 }}>
+            {ui.reader.nextChapter} · {pickText(next.titles, lang)}
+          </Link>
+        )}
         <Link href="/books" className="btn-primary" style={{ textDecoration: "none" }}>
           {ui.common.back}
         </Link>

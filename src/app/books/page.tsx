@@ -61,7 +61,13 @@ export default function BooksPage() {
               border: "1px solid var(--border)", borderRadius: 16, padding: 0, overflow: "hidden", background: "#fff",
             }}
           >
-            <span style={{ display: "block", background: "var(--navy-dark)", color: "#fff", padding: "18px 18px 14px" }}>
+            <span style={{ display: "flex", gap: 14, background: "var(--navy-dark)", color: "#fff", padding: "18px 18px 14px" }}>
+              {s.cover && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={s.cover} alt="" width={72} height={96} loading="lazy"
+                  style={{ flex: "none", width: 72, height: 96, borderRadius: 6, objectFit: "cover", boxShadow: "0 2px 8px rgba(0,0,0,.25)" }} />
+              )}
+              <span style={{ display: "block", flex: 1, minWidth: 0 }}>
               <span style={{ display: "flex", gap: 8, alignItems: "center" }}>
                 <span className="lvl" style={{ background: "#fff" }}>{s.level}</span>
                 {s.free ? <span className="free-badge">{ui.common.free}</span> : <span className="lock-badge">VIP</span>}
@@ -71,6 +77,7 @@ export default function BooksPage() {
               </span>
               <span style={{ display: "block", fontSize: 18, fontWeight: 800, lineHeight: 1.35, marginTop: 10 }}>
                 {pickText(s.titles, lang)}
+              </span>
               </span>
             </span>
             <span style={{ display: "block", padding: "12px 18px 14px" }}>

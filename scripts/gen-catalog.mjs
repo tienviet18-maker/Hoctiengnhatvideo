@@ -59,6 +59,8 @@ const stories = storyIds.map((id) => {
   return {
     id: s.id, titles: s.titles, level: s.level, topic: s.topic,
     source: s.source, free: s.free, sentenceCount: s.sentences.length,
+    ...(typeof s.cover === "string" && s.cover.startsWith("/covers/") ? { cover: s.cover } : {}),
+    ...(s.series ? { series: s.series } : {}),
   };
 });
 
@@ -90,6 +92,10 @@ export interface StoryIndexItem {
   source: "original" | "aozora-adapted";
   free: boolean;
   sentenceCount: number;
+  /** Ảnh bìa chuẩn v2 (public/covers/<id>.webp); gói cũ chưa có */
+  cover?: string;
+  /** Truyện nhiều chương */
+  series?: { id: string; index: number };
 }
 
 export const VIDEO_INDEX: VideoIndexItem[] = ${JSON.stringify(videos, null, 1)};
