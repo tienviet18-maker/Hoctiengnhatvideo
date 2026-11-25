@@ -17,6 +17,12 @@ export const PLANS = [
 ] as const;
 type PlanKey = (typeof PLANS)[number]["key"];
 export const LAUNCH_ENDS_AT = "2027-03-31T23:59:59+09:00";
+
+/**
+ * Việt chốt 25/11/2026: bản web chạy giá ra mắt có gạch giá; bản iOS không gạch giá,
+ * bán đúng giá ra mắt và chỉ so với giá tháng. Bản iOS build với NEXT_PUBLIC_PLATFORM=ios.
+ */
+const IS_IOS_BUILD = process.env.NEXT_PUBLIC_PLATFORM === "ios";
 const yen = (n: number) => `¥${n.toLocaleString("ja-JP")}`;
 
 /**
@@ -33,7 +39,7 @@ export default function Paywall({ onClose }: { onClose: () => void }) {
     return () => window.clearTimeout(t);
   }, []);
   // Trước khi mount (now = 0) coi như đang trong đợt ra mắt để không nhảy giá
-  const offerOn = now === 0 || now < Date.parse(LAUNCH_ENDS_AT);
+  const offerOn = !IS_IOS_BUILD && (now === 0 || now < Date.parse(LAUNCH_ENDS_AT));
   const offerEnd = new Date(LAUNCH_ENDS_AT).toLocaleDateString("ja-JP", { timeZone: "Asia/Tokyo" });
   return (
     <div
@@ -85,8 +91,10 @@ export default function Paywall({ onClose }: { onClose: () => void }) {
         <div role="radiogroup" style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 18 }}>
           {PLANS.map((p) => {
             const on = plan === p.key;
-            const price = offerOn ? p.launchJpy : p.regularJpy;
-            const monthPrice = offerOn ? PLANS[2].launchJpy : PLANS[2].regularJpy;
+            // iOS: luôn bán giá ra mắt, không gạch. Web: giá ra mắt tới hạn, sau đó giá thường.
+            const useLaunch = IS_IOS_BUILD || offerOn;
+            const price = useLaunch ? p.launchJpy : p.regularJpy;
+            const monthPrice = useLaunch ? PLANS[2].launchJpy : PLANS[2].regularJpy;
             const perMonth = Math.round(price / p.months);
             const savePct = Math.round((1 - price / (monthPrice * p.months)) * 100);
             return (
