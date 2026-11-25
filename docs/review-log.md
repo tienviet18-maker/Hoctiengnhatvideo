@@ -85,3 +85,24 @@ bản quyền bản dịch. Các mục này xử lý ở Bước 0b–0c.
 | 19 | Thấp | Ẩn chip thể loại không có video nào (Anime đang 0 gói). Chip tự hiện lại khi có gói. | #6 |
 | 20 | **Cao** | Rà bản quyền 66 truyện chuyển thể (`aozora-adapted`). Ở Nhật cả 66 đều hết bản quyền. Theo luật Mỹ (URAA), 5 tác phẩm của Dazai Osamu (mất 1948) in 1939–1947 còn bản quyền ở Mỹ đến 2035–2043: 走れメロス, 富嶽百景, 女生徒, 斜陽, ヴィヨンの妻. App bán toàn cầu nên đã gỡ 5 gói này. 61 gói còn lại: tác giả mất trước 1946, hoặc tác giả mất 1946–1967 nhưng tác phẩm in trước 1931 (Kōda Rohan, 五重塔 1891). Truyện của Hearn là tự kể lại bằng tiếng Nhật từ bản gốc tiếng Anh 1904, không dùng bản dịch hiện đại. Bản dịch 11 ngôn ngữ là bản tự dịch từ văn bản của mình. Chuẩn v2 mục 2 đã ghi rõ quy tắc URAA. | #7 |
 | 21 | **Cao** | Schema v2 thêm `audioTrack` (audio liền cho cả chương, để nghe khi tắt màn hình hoặc qua Bluetooth), `t` và `voice` cho từng câu, `lesson` (điểm ngữ pháp và câu hỏi), `shelf`, `origin`. QC chặn gói v2 thiếu các trường này. Chuẩn v2 thêm mục 6b–6d. | #8 |
+
+## Kệ D "Truyện quê hương" — lô 1: truyện Việt Nam (25/11/2026, nhánh `claude/furusato-osaka`)
+
+Truyện dân gian của nước người học, kể lại bằng tiếng Nhật bằng lời của mình (không chép tuyển tập hiện đại),
+mỗi tập kết bằng phần so sánh với một truyện Nhật tương tự. Chuẩn v2 đủ: audio liền `chapter.mp3`
+(Google TTS: Aoede kể chuyện, Neural2-B nữ / Neural2-C nam cho lời thoại, mỗi nhân vật giữ một giọng),
+mốc thời gian từng câu, dịch + giải thích 11 ngôn ngữ (tự dịch, tự rà), từ vựng gắn cấp theo `data/jlpt`,
+bài học 4 mẫu ngữ pháp + 4 câu hỏi, `shelf: hometown`, `origin: VN`, `series {id, index}`, bìa MiraiGo 文庫
+mỗi truyện một phông. **Muse lưu ý: các ID `furusato-*` do Claude cấp, đừng dùng lại.**
+
+| Gói | Cấp | Câu | Audio | So sánh với truyện Nhật | Commit |
+|---|---|---|---|---|---|
+| furusato-vn-tamcam-1 | N4 | 62 | 6,7 phút | — (tập mở đầu) | 509fc02, 6765121 |
+| furusato-vn-tamcam-2 | N4 | 58 | 5,8 phút | — | 6765121 |
+| furusato-vn-tamcam-3 | N4 | 65 | 6,3 phút | 米福粟福, Cinderella | 1cf1510 |
+| furusato-vn-sodua-1 | N4 | 57 | 5,1 phút | タニシ長者 | 5244530 |
+| furusato-vn-giong-1 | N3 | 55 | 4,8 phút | 三年寝太郎, 桃太郎 | dbdae05 |
+| furusato-vn-sontinh-1 | N3 | 51 | 4,8 phút | 山幸彦と海幸彦 (+ mẹo ハザードマップ) | 17361f8 |
+
+Công cụ mới trong `scripts/story-src/` (build, tts, register) và motif bìa mới trong `scripts/covers/cover.html`
+(bird, coconut, horse, mountainwave). Khoá TTS chỉ đọc từ biến môi trường, không in, không ghi file.
