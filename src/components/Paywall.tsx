@@ -4,29 +4,19 @@ import { useEffect, useState } from "react";
 import { useLang } from "./LangProvider";
 
 /**
- * Giá VIP (Việt chốt 25/11/2026): 1 tháng ¥900, các gói dài rẻ hơn theo tháng.
- * Chỉ sửa giá ở đây. % tiết kiệm tính thật từ giá 1 tháng, không dùng giá gạch giả.
- */
-export const PLANS = [
-  { key: "yearly", months: 12, priceJpy: 7800 },
-  { key: "sixMonths", months: 6, priceJpy: 4400 },
-  { key: "monthly", months: 1, priceJpy: 900 },
-] as const;
-type PlanKey = (typeof PLANS)[number]["key"];
-const MONTH_JPY = 900;
-
-/**
- * Ưu đãi ra mắt (Việt chốt 25/11/2026): giảm 50% năm đầu của gói năm cho người mua
- * trước hạn. Giá gạch là giá năm thật (¥7.800), nên đây là giá so sánh đúng luật
- * (景品表示法). Trên iOS làm bằng Introductory Offer "pay up front" của App Store.
- * Hết hạn: tự ẩn, paywall chỉ còn so sánh với giá tháng.
+ * Giá VIP. Giá thường gấp đôi giá ra mắt; trong đợt ra mắt (tới LAUNCH_ENDS_AT) bán giá
+ * ra mắt và gạch giá thường. Hết hạn: người mua mới trả giá thường (giá tăng thật), nên giá
+ * gạch là giá thật, đúng 景品表示法 (so sánh với giá bán trong tương lai đã định sẵn).
+ * Người mua trong đợt ra mắt giữ giá ra mắt khi gia hạn. Chỉ sửa giá ở đây.
  * TODO(Việt): chốt ngày kết thúc theo ngày ra mắt thật.
  */
-export const LAUNCH_OFFER = {
-  plan: "yearly" as const,
-  firstPeriodJpy: 3900,
-  endsAt: "2027-03-31T23:59:59+09:00",
-};
+export const PLANS = [
+  { key: "yearly", months: 12, launchJpy: 7800, regularJpy: 15600 },
+  { key: "sixMonths", months: 6, launchJpy: 4400, regularJpy: 8800 },
+  { key: "monthly", months: 1, launchJpy: 900, regularJpy: 1800 },
+] as const;
+type PlanKey = (typeof PLANS)[number]["key"];
+export const LAUNCH_ENDS_AT = "2027-03-31T23:59:59+09:00";
 const yen = (n: number) => `¥${n.toLocaleString("ja-JP")}`;
 
 /**
@@ -42,8 +32,9 @@ export default function Paywall({ onClose }: { onClose: () => void }) {
     const t = window.setTimeout(() => setNow(Date.now()), 0);
     return () => window.clearTimeout(t);
   }, []);
-  const offerOn = now > 0 && now < Date.parse(LAUNCH_OFFER.endsAt);
-  const offerEnd = new Date(LAUNCH_OFFER.endsAt).toLocaleDateString("ja-JP", { timeZone: "Asia/Tokyo" });
+  // Trước khi mount (now = 0) coi như đang trong đợt ra mắt để không nhảy giá
+  const offerOn = now === 0 || now < Date.parse(LAUNCH_ENDS_AT);
+  const offerEnd = new Date(LAUNCH_ENDS_AT).toLocaleDateString("ja-JP", { timeZone: "Asia/Tokyo" });
   return (
     <div
       style={{
@@ -86,11 +77,18 @@ export default function Paywall({ onClose }: { onClose: () => void }) {
           {ui.paywall.subtitle}
         </p>
 
+        {offerOn && (
+          <div style={{ marginTop: 14, display: "inline-flex", alignItems: "center", gap: 8, background: "#FDECEC", color: "#B91C2B", borderRadius: 8, padding: "6px 10px", fontSize: 12.5, fontWeight: 700 }}>
+            {ui.paywall.launchOffer} −50% · {ui.paywall.until.replace("{date}", offerEnd)}
+          </div>
+        )}
         <div role="radiogroup" style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 18 }}>
           {PLANS.map((p) => {
             const on = plan === p.key;
-            const perMonth = Math.round(p.priceJpy / p.months);
-            const savePct = Math.round((1 - p.priceJpy / (MONTH_JPY * p.months)) * 100);
+            const price = offerOn ? p.launchJpy : p.regularJpy;
+            const monthPrice = offerOn ? PLANS[2].launchJpy : PLANS[2].regularJpy;
+            const perMonth = Math.round(price / p.months);
+            const savePct = Math.round((1 - price / (monthPrice * p.months)) * 100);
             return (
               <button
                 key={p.key}
@@ -107,36 +105,24 @@ export default function Paywall({ onClose }: { onClose: () => void }) {
               >
                 <span>
                   <span style={{ display: "block", fontWeight: 700, fontSize: 15 }}>{ui.paywall[p.key]}</span>
-                  {offerOn && p.key === LAUNCH_OFFER.plan && (
-                    <span style={{ display: "inline-block", fontSize: 11, fontWeight: 800, color: "#fff", background: "var(--accent)", borderRadius: 6, padding: "2px 7px", marginTop: 4 }}>
-                      {ui.paywall.launchOffer} −{Math.round((1 - LAUNCH_OFFER.firstPeriodJpy / p.priceJpy) * 100)}%
-                    </span>
-                  )}
-                  {savePct > 0 && !(offerOn && p.key === LAUNCH_OFFER.plan) && (
+                  {savePct > 0 && (
                     <span style={{ display: "block", fontSize: 12, fontWeight: 700, color: "var(--accent)", marginTop: 2 }}>
                       {ui.paywall.save.replace("{n}", String(savePct))}
                       {p.key === "yearly" ? ` · ${ui.paywall.bestValue}` : ""}
                     </span>
                   )}
                 </span>
-                {offerOn && p.key === LAUNCH_OFFER.plan ? (
-                  <span style={{ marginLeft: "auto", textAlign: "right" }}>
-                    <span style={{ display: "block", fontSize: 12, color: "var(--muted)", textDecoration: "line-through" }}>{yen(p.priceJpy)}</span>
-                    <span style={{ display: "block", fontWeight: 800, fontSize: 20, color: "var(--accent)" }}>{yen(LAUNCH_OFFER.firstPeriodJpy)}</span>
-                    <span style={{ display: "block", fontSize: 11.5, color: "var(--muted)" }}>
-                      {ui.paywall.firstYear} · ≈ {yen(Math.round(LAUNCH_OFFER.firstPeriodJpy / 12))}{ui.paywall.perMonth}
+                <span style={{ marginLeft: "auto", textAlign: "right" }}>
+                  {offerOn && (
+                    <span style={{ display: "block", fontSize: 12, color: "var(--muted)", textDecoration: "line-through" }}>{yen(p.regularJpy)}</span>
+                  )}
+                  <span style={{ display: "block", fontWeight: 800, fontSize: 18, color: offerOn ? "var(--accent)" : "var(--navy)" }}>{yen(price)}</span>
+                  {p.months > 1 && (
+                    <span style={{ display: "block", fontSize: 12, color: "var(--muted)" }}>
+                      ≈ {yen(perMonth)}{ui.paywall.perMonth}
                     </span>
-                  </span>
-                ) : (
-                  <span style={{ marginLeft: "auto", textAlign: "right" }}>
-                    <span style={{ display: "block", fontWeight: 800, fontSize: 18, color: "var(--navy)" }}>{yen(p.priceJpy)}</span>
-                    {p.months > 1 && (
-                      <span style={{ display: "block", fontSize: 12, color: "var(--muted)" }}>
-                        ≈ {yen(perMonth)}{ui.paywall.perMonth}
-                      </span>
-                    )}
-                  </span>
-                )}
+                  )}
+                </span>
               </button>
             );
           })}
@@ -144,7 +130,7 @@ export default function Paywall({ onClose }: { onClose: () => void }) {
 
         {offerOn && (
           <p style={{ fontSize: 12, color: "var(--muted)", marginTop: 10, lineHeight: 1.5 }}>
-            {ui.paywall.offerTerms.replace("{date}", offerEnd).replace("{price}", yen(PLANS[0].priceJpy))}
+            {ui.paywall.offerTerms.replace("{date}", offerEnd)}
           </p>
         )}
 

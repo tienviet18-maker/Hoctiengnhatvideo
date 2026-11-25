@@ -23,7 +23,7 @@ tại commit `235d6f5` (25/11/2026).
 - Khác biệt đã có: chế độ **nghe khi lái xe** (`/drive`), **lộ trình theo mục tiêu sống**
   (`/paths`: Mới sang Nhật / Đi làm / Gia đình / Giải trí & văn hoá), từ vựng gắn cấp độ
   của chính từ đó và chảy vào hệ ôn tập SRS.
-- Giá VIP (Việt chốt 25/11/2026): ¥900/1 tháng, ¥4.400/6 tháng, ¥7.800/1 năm. Giao diện 11 ngôn ngữ (`src/i18n/locales/`).
+- Giá VIP (Việt chốt 25/11/2026): giá ra mắt ¥900/1 tháng, ¥4.400/6 tháng, ¥7.800/1 năm; giá thường gấp đôi, áp dụng sau đợt ra mắt (`PLANS` trong `src/components/Paywall.tsx`). Giao diện 11 ngôn ngữ (`src/i18n/locales/`).
 - **Tên app ĐÃ CHỐT (Việt chốt 25/11/2026): MiraiGo** — Mirai （未来， tương lai) + Go （語，
   ngôn ngữ). Đã kiểm chứng không trùng app nào trên App Store/Google Play. Tên hiển thị
   store theo từng ngôn ngữ, luôn mở đầu bằng MiraiGo, tối đa 30 ký tự (phần mô tả dài
