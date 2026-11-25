@@ -85,3 +85,19 @@ bản quyền bản dịch. Các mục này xử lý ở Bước 0b–0c.
 | 19 | Thấp | Ẩn chip thể loại không có video nào (Anime đang 0 gói). Chip tự hiện lại khi có gói. | #6 |
 | 20 | **Cao** | Rà bản quyền 66 truyện chuyển thể (`aozora-adapted`). Ở Nhật cả 66 đều hết bản quyền. Theo luật Mỹ (URAA), 5 tác phẩm của Dazai Osamu (mất 1948) in 1939–1947 còn bản quyền ở Mỹ đến 2035–2043: 走れメロス, 富嶽百景, 女生徒, 斜陽, ヴィヨンの妻. App bán toàn cầu nên đã gỡ 5 gói này. 61 gói còn lại: tác giả mất trước 1946, hoặc tác giả mất 1946–1967 nhưng tác phẩm in trước 1931 (Kōda Rohan, 五重塔 1891). Truyện của Hearn là tự kể lại bằng tiếng Nhật từ bản gốc tiếng Anh 1904, không dùng bản dịch hiện đại. Bản dịch 11 ngôn ngữ là bản tự dịch từ văn bản của mình. Chuẩn v2 mục 2 đã ghi rõ quy tắc URAA. | #7 |
 | 21 | **Cao** | Schema v2 thêm `audioTrack` (audio liền cho cả chương, để nghe khi tắt màn hình hoặc qua Bluetooth), `t` và `voice` cho từng câu, `lesson` (điểm ngữ pháp và câu hỏi), `shelf`, `origin`. QC chặn gói v2 thiếu các trường này. Chuẩn v2 thêm mục 6b–6d. | #8 |
+
+## Kệ B Rakugo — lô 1 (25/11/2026)
+
+Nhánh `claude/shelf-rakugo-mukashi`, dựa trên PR #8. Ba gói chuẩn v2, đều N3 (cấp đo bằng kuromoji + danh sách JLPT, không gán tay):
+
+| Gói | Câu | Ký tự | Audio liền | Giọng | Bài học | Miễn phí |
+|---|---|---|---|---|---|---|
+| `rakugo-toki-soba` 時そば | 62 | 1.371 | 5,2 phút | Aoede kể; 3 vai Neural2-C khác cao độ/tốc độ; Neural2-B | ておく, ながら, すぎる, てしまう + 4 câu hỏi | có |
+| `rakugo-manju-kowai` まんじゅうこわい | 52 | 1.475 | 5,4 phút | Aoede kể; 3 vai Neural2-C | のに, だけで, てしまう, たくなる + 4 câu hỏi | VIP |
+| `rakugo-meguro-no-sanma` 目黒のさんま | 48 | 1.450 | 5,3 phút | Aoede kể; lãnh chúa, gia thần (Neural2-C); bà lão (Neural2-B) | うちに, ほど, に限る, たばかり + 4 câu hỏi | VIP |
+
+- Pháp lý: rakugo cổ điển là tiết mục dân gian thời Edo, không có tác giả. Kịch bản do Claude tự viết lại bằng tiếng Nhật phân cấp, không chép bản ghi âm hay sách của nghệ sĩ nào. Ghi chú pháp lý trong từng `content/stories/<id>.qc.md`.
+- Công cụ: `scripts/build-audio-pack.mjs` (bản thảo `content/sources/rakugo/<id>/` → JSON v2 + `chapter.mp3` + mốc `t` từng câu; khoá TTS chỉ đọc từ biến môi trường), `scripts/audio-shelf/cover.mjs` (bìa bunko dọc, mỗi truyện một font), `scripts/audio-shelf/register.mjs` (đăng ký ở ĐẦU mảng STORIES, giữa hai dấu `kệ B/C`, để không đụng khối của nhánh A/E ở cuối mảng).
+- Romaji: viết hoa tên riêng, tách `de gozaimasu`, は cuối phó từ đọc `wa`, ép tách từ cho chữ kana kuromoji đọc sai (へい, しっぽく).
+- Sửa kế hoạch: mục "饅頭" trong `audio-tuyen-chon.md` trùng với まんじゅうこわい, sẽ thay bằng 初天神 ở lô 2.
+- `npm run verify` xanh trên bản clone sạch tại commit đầu nhánh.
