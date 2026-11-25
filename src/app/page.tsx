@@ -8,6 +8,7 @@ import StoryCover from "../components/StoryCover";
 import { STORY_INDEX, VIDEO_INDEX } from "../lib/catalog.generated";
 import { pickText } from "../lib/i18n";
 import { SERIES, seriesOf } from "../lib/series";
+import { recommendFirst } from "../lib/shelves";
 import {
   ACTIVITY_KEY,
   DECK_KEY,
@@ -86,11 +87,11 @@ export default function HomePage() {
       const video = VIDEO_INDEX.find((v) => v.id === id);
       if (video) return { href: `/watch/${id}`, title: pickText(video.titles, lang), meta: video.level, pct, id };
     }
-    const first = STORY_INDEX.find((s) => s.free);
+    const first = recommendFirst(profile.level, profile.interests);
     return first
       ? { href: `/read/${first.id}`, title: pickText(first.titles, lang), meta: first.level, pct: 0, id: first.id }
       : null;
-  }, [progress, lang]);
+  }, [progress, lang, profile.level, profile.interests]);
 
   const newest = useMemo(() => STORY_INDEX.slice(-8).reverse(), []);
   const newVideos = useMemo(() => VIDEO_INDEX.slice(-6).reverse(), []);
