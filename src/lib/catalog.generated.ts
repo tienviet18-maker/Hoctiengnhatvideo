@@ -26,6 +26,10 @@ export interface StoryIndexItem {
   source: "original" | "aozora-adapted";
   free: boolean;
   sentenceCount: number;
+  /** Ảnh bìa chuẩn v2 (public/covers/<id>.webp); gói cũ chưa có */
+  cover?: string;
+  /** Truyện nhiều chương */
+  series?: { id: string; index: number };
 }
 
 export const VIDEO_INDEX: VideoIndexItem[] = [
@@ -6829,6 +6833,80 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": false,
   "sentenceCount": 8
+ },
+ {
+  "id": "akai-rousoku-to-ningyo",
+  "titles": {
+   "vi": "Cây nến đỏ và nàng tiên cá",
+   "en": "The Red Candles and the Mermaid",
+   "zh-Hans": "红蜡烛与人鱼",
+   "zh-Hant": "紅蠟燭與人魚",
+   "ko": "빨간 양초와 인어",
+   "tl": "Ang Pulang Kandila at ang Sirena",
+   "ne": "रातो मैनबत्ती र जलपरी",
+   "id": "Lilin Merah dan Putri Duyung",
+   "pt": "As Velas Vermelhas e a Sereia",
+   "my": "အနီရောင် ဖယောင်းတိုင်နှင့် ရေသူမ",
+   "th": "เทียนสีแดงกับนางเงือก"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/akai-rousoku-to-ningyo.webp"
+ },
+ {
+  "id": "hanshichi-ofumi-1",
+  "titles": {
+   "vi": "Hồ sơ Hanshichi: Hồn ma Ofumi (Phần 1)",
+   "en": "Hanshichi's Casebook: The Ghost of Ofumi (Part 1)",
+   "zh-Hans": "半七捕物帐：阿文之魂（上）",
+   "zh-Hant": "半七捕物帳：阿文之魂（上）",
+   "ko": "한시치 체포록: 오후미의 혼 (1)",
+   "tl": "Mga Kaso ni Hanshichi: Ang Kaluluwa ni Ofumi (Bahagi 1)",
+   "ne": "हान्सिचीका मुद्दा: ओफुमीको आत्मा (भाग १)",
+   "id": "Kasus Hanshichi: Arwah Ofumi (Bagian 1)",
+   "pt": "Os Casos de Hanshichi: A Alma de Ofumi (Parte 1)",
+   "my": "ဟန်ရှိချိ အမှုတွဲ: အိုဖူမိရဲ့ ဝိညာဉ် (အပိုင်း ၁)",
+   "th": "บันทึกคดีฮันชิจิ: วิญญาณของโอฟุมิ (ตอนที่ 1)"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 46,
+  "cover": "/covers/hanshichi-ofumi-1.webp",
+  "series": {
+   "id": "hanshichi-ofumi",
+   "index": 1
+  }
+ },
+ {
+  "id": "hanshichi-ofumi-2",
+  "titles": {
+   "vi": "Hanshichi: Hồn ma Ofumi (2)",
+   "en": "Hanshichi: The Ghost of Ofumi (2)",
+   "zh-Hans": "半七捕物帐：阿文之魂（二）",
+   "zh-Hant": "半七捕物帳：阿文之魂（二）",
+   "ko": "한시치 체포록: 오후미의 혼 (2)",
+   "tl": "Hanshichi: Ang Multo ni Ofumi (2)",
+   "ne": "हान्सिची: ओफुमीको आत्मा (२)",
+   "id": "Hanshichi: Arwah Ofumi (2)",
+   "pt": "Hanshichi: O Fantasma de Ofumi (2)",
+   "my": "ဟန်ရှိချိ: အိုဖူမိရဲ့ ဝိညာဉ် (၂)",
+   "th": "ฮันชิจิ: วิญญาณโอฟุมิ (2)"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/hanshichi-ofumi-2.webp",
+  "series": {
+   "id": "hanshichi-ofumi",
+   "index": 2
+  }
  }
 ];
 
