@@ -215,6 +215,28 @@ Motif bìa mới: milkyway, whitesnake, moonrabbit, stonemonkey, pilgrims, flame
 - Bài Kancil có ghi chú "ワニ" trong truyện cổ Nhật thường được hiểu là cá mập.
 - Đã đủ 5 truyện Indonesia.
 
+## Kệ D "Truyện quê hương" — lô 6–8: Thái Lan, Nepal, Việt Nam mới (25–26/11/2026)
+
+Theo lệnh của Việt (26/11): Osaka làm ít, đẩy mạnh truyện Việt Nam. Truyện cổ tích VN xếp N4–N3 xen kẽ;
+N2–N1 dành cho tiểu thuyết Việt Nam (đang chờ Việt chốt danh sách). Mọi gói theo chuẩn v2 (10 ngôn ngữ,
+từ vựng có cấp, bài học 4 ngữ pháp + 4 câu đố, audio đo trên chapter.mp3 thật).
+
+| Gói | Cấp | Câu | Audio | So sánh với truyện Nhật | Commit |
+|---|---|---|---|---|---|
+| furusato-th-sangthong-1 「金のほら貝」 | N3 | 52 | 6.2 phút | 鉢かづき姫, かぐや姫 | 95c547c |
+| furusato-th-aphai-1 「海をこえる笛」 | N3 | 50 | 5.6 phút | 浦島太郎, 牛若丸と弁慶 | 3514e27 |
+| furusato-np-manjushri-1 「湖だった町」 | N4 | 60 | 5.4 phút | truyền thuyết hồ cổ 甲府盆地 | 856f6e6 |
+| furusato-np-indra-1 「しばられた神さま」 | N4 | 60 | 5.2 phút | 羽衣, お盆 | 3f6724e |
+| furusato-vn-banhchung-1 「四角いおもち」 | N3 | 63 | 5.3 phút | 鏡もち, 鏡開き | 1b8e67f |
+| furusato-vn-taoquan-1 「台所の神さま」 | N3 | 53 | 5.3 phút | 荒神さま, 登竜門, こいのぼり | 5b5f47b |
+| furusato-vn-cuoi-1 「月のクオイ」 | N4 | 60 | 5.2 phút | 月のうさぎ, お月見, 竹取物語 | 5ed325b |
+| furusato-vn-coc-1 「天へ行くカエル」 | N3 | 59 | 5.5 phút | 桃太郎, 雨ごい | 5eb4364 |
+| furusato-vn-oc-1 「タニシの仙女」 | N3 | 60 | 5.3 phút | 鶴の恩返し, 田螺長者 | b262512 |
+
+Ghi chú: Bánh chưng, Táo quân, Cóc kiện trời, Nàng tiên Ốc dự định N4 nhưng tỉ lệ từ khó vượt 15% nên
+chuyển N3 (kế hoạch cho phép N4–N3 với truyện VN). Nguồn Nepal đã kiểm chứng trước khi viết.
+Hai gói VN cuối (Cóc, Ốc) nằm ở nhánh `claude/furusato-vn-2` tạo từ main sau khi PR #19 đã gộp.
+
 ## Kệ F 「大阪で働く」 — tập 1–5 (25/11/2026, nhánh `claude/furusato-osaka`)
 
 Phim truyện nghe N3, 20 tập, sáng tác gốc (bible: `content/sources/osaka/series-bible.md`). Kịch tính trước,
