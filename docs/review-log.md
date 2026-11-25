@@ -151,6 +151,19 @@ vì ve vãn Hằng Nga — đúng nguyên tác).
 
 Motif bìa mới: milkyway, whitesnake, moonrabbit, stonemonkey, pilgrims, flamefan. **Đã đủ 6 truyện Trung Quốc theo kế hoạch.**
 
+## Kệ D "Truyện quê hương" — lô 4: truyện Philippines (25/11/2026, nhánh `claude/furusato-osaka`)
+
+| Gói | Tựa | Câu | Audio | So sánh với truyện Nhật | Commit |
+|---|---|---|---|---|---|
+| `furusato-ph-malakas-1` | 竹から生まれた二人 (Malakas at Maganda) | 51 | 5,1 phút | かぐや姫, 国生み | 6e0402a |
+| `furusato-ph-pinya-1` | 千の目をもつ実 (Alamat ng Pinya) | 50 | 5,0 phút | 言霊 (kiêng từ trong đám cưới), あまがえる | d765072 |
+| `furusato-ph-pagong-1` | カメとサルとバナナの木 (Si Pagong at si Matsing) | 50 | 5,1 phút | さるかに合戦 | 2d4c6d1 |
+| `furusato-ph-juan-1` | なまけ者のフアン (Juan Tamad) | 53 | 5,1 phút | ものぐさ太郎 | b13c7f2 |
+
+- Cả 4 gói N3, đạt chuẩn v2 (dịch + grammarNote 10 thứ tiếng, bài học 4 điểm ngữ pháp + 4 câu đố), nhãn xuất xứ PH, bìa 文庫 font riêng (Yomogi, Mochiy Pop P One, Potta One, Rampart One).
+- Juan Tamad có nhiều dị bản theo vùng; bài kể 3 mẩu phổ biến (cây ổi, bán cua, múc nước bằng giỏ) và nói rõ trong bài là truyện thay đổi theo đảo/làng.
+- Đã đủ 4 truyện Philippines.
+
 ## Kệ F 「大阪で働く」 — tập 1–5 (25/11/2026, nhánh `claude/furusato-osaka`)
 
 Phim truyện nghe N3, 20 tập, sáng tác gốc (bible: `content/sources/osaka/series-bible.md`). Kịch tính trước,
