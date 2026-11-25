@@ -121,6 +121,17 @@ import video95 from "../../content/videos/yuta-feelings-happy-sad.json";
 import video96 from "../../content/videos/yuta-feelings-excited-scared.json";
 import video97 from "../../content/videos/akane-failure-challenge.json";
 import video98 from "../../content/videos/akane-failure-lesson.json";
+import video99 from "../../content/videos/peppa-pancake-batter.json";
+import video100 from "../../content/videos/peppa-pancake-flip.json";
+import video101 from "../../content/videos/teded-procrastination-cycle.json";
+import video102 from "../../content/videos/teded-procrastination-brain.json";
+import video103 from "../../content/videos/teded-habits-what.json";
+import video104 from "../../content/videos/teded-habits-dopamine.json";
+import video105 from "../../content/videos/teded-habits-routine.json";
+import video106 from "../../content/videos/teded-habits-change.json";
+import video107 from "../../content/videos/yuyu-learning-spanish.json";
+import video108 from "../../content/videos/yuyu-understand-first.json";
+import video109 from "../../content/videos/shun-moving-saitama.json";
 import story1 from "../../content/stories/baito-first-morning.json";
 import story2 from "../../content/stories/supermarket-first.json";
 import story3 from "../../content/stories/at-the-clinic.json";
@@ -735,6 +746,17 @@ export const VIDEOS: VideoContent[] = [
   video96 as unknown as VideoContent,
   video97 as unknown as VideoContent,
   video98 as unknown as VideoContent,
+  video99 as unknown as VideoContent,
+  video100 as unknown as VideoContent,
+  video101 as unknown as VideoContent,
+  video102 as unknown as VideoContent,
+  video103 as unknown as VideoContent,
+  video104 as unknown as VideoContent,
+  video105 as unknown as VideoContent,
+  video106 as unknown as VideoContent,
+  video107 as unknown as VideoContent,
+  video108 as unknown as VideoContent,
+  video109 as unknown as VideoContent,
 ];
 export const STORIES: StoryContent[] = [
   // --- kệ B/C Rakugo + cổ tích (chuẩn v2) ---

@@ -64,3 +64,10 @@ chứng tỏ họ cũng xử lý phụ đề trước từng mục như mình; h
 - Mọi video dài (Maruko 23 phút, phim, vlog) đều CẮT thành bài 1–3 phút theo mạch câu chuyện.
 - Một tập Maruko → ~6–8 bài thay vì 3. Số mục tăng nhanh, chi phí mỗi bài giảm.
 - Thư viện video hiển thị thêm hàng "kênh tròn" theo series/kênh nguồn như đối thủ.
+
+## Kiểm chứng từ iMac (IP nhà ở Nhật) — 25/11/2026 tối
+- yt-dlp mới + Node: KHÔNG bị 429. Chi tiết: `docs/review-log.md` đợt 3.
+- Nguồn 1 Maruko (`pbwKSQaJ7Hc`): **BỊ CHẶN TẠI NHẬT** → loại (khán giả chính ở Nhật).
+- Nguồn 2 Nippon Animation: toàn bộ video mới là 期間限定配信 → loại.
+- もったいないばあさん: ASR hỏng do nhạc → loại. まんが日本昔ばなし 公式: hoãn (giọng địa phương, cần nghe kiểm).
+- ĐÃ VÀO KHO: Peppa Pig 公式 (`peppa-*`), TED-Ed tiếng Nhật (`teded-*`).

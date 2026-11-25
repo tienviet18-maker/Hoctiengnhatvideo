@@ -6,7 +6,15 @@ export interface SeriesDef {
   key: string;
 }
 
-export const SERIES: SeriesDef[] = [{ key: "akane" }, { key: "teppei" }, { key: "yuta" }];
+export const SERIES: SeriesDef[] = [
+  { key: "akane" },
+  { key: "teppei" },
+  { key: "yuta" },
+  { key: "peppa" },
+  { key: "teded" },
+  { key: "yuyu" },
+  { key: "shun" },
+];
 
 export function seriesOf(videoId: string): string | null {
   const def = SERIES.find((s) => videoId.startsWith(`${s.key}-`));
