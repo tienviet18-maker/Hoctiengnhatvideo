@@ -7219,6 +7219,32 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "botchan",
    "index": 4
   }
+ },
+ {
+  "id": "botchan-5",
+  "titles": {
+   "vi": "Botchan (5): Tiệc chia tay và trận ẩu đả lớn",
+   "en": "Botchan (5): The Farewell Party and the Big Brawl",
+   "zh-Hans": "少爷（五）：送别会与大斗殴",
+   "zh-Hant": "少爺（五）：送別會與大鬥毆",
+   "ko": "도련님 (5): 송별회와 큰 싸움",
+   "tl": "Botchan (5): Ang Despedida at ang Malaking Away",
+   "ne": "बोच्चान (५): बिदाइ भोज र ठूलो झगडा",
+   "id": "Botchan (5): Pesta Perpisahan dan Perkelahian Besar",
+   "pt": "Botchan (5): A Festa de Despedida e a Grande Briga",
+   "my": "ဘော့ချန် (၅): နှုတ်ဆက်ပွဲနဲ့ ရန်ပွဲကြီး",
+   "th": "บ็อตจัง (5): งานเลี้ยงส่งกับการตะลุมบอนครั้งใหญ่"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/botchan-5.webp",
+  "series": {
+   "id": "botchan",
+   "index": 5
+  }
  }
 ];
 
