@@ -29,6 +29,8 @@ export default function Paywall({ onClose }: { onClose: () => void }) {
       <div
         style={{
           background: "#fff",
+          // Paywall cũng mở trên nền tối (trang video/lái xe): không thừa hưởng chữ trắng
+          color: "var(--text)",
           width: "100%",
           maxWidth: 430,
           borderRadius: "20px 20px 0 0",

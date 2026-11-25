@@ -11,6 +11,7 @@ import type { TimedLine, VideoContent, VocabItem } from "../../../lib/content-sc
 import { pickText } from "../../../lib/i18n";
 import { logActivity, QUEUE_KEY, removeFromQueue, saveProgress, useLocalJson } from "../../../lib/store";
 import { VIDEO_INDEX, formatDuration } from "../../../lib/catalog.generated";
+import { clipWindow } from "../../../lib/clip";
 
 interface YTPlayer {
   getCurrentTime(): number;
@@ -49,6 +50,12 @@ export default function WatchClient({
   const { ui, lang, profile } = useLang();
   const lines: TimedLine[] = useMemo(() => video?.lines ?? [], [video]);
   const locked = !!video && !video.free && !profile.vip;
+  // Mở đúng đoạn học thay vì từ giây 0 (video tự thêm: cả video)
+  const clip = useMemo(() => clipWindow(lines, video?.durationSec ?? 0), [lines, video]);
+  const clipRef = useRef(clip);
+  useEffect(() => {
+    clipRef.current = clip;
+  }, [clip]);
 
   const mountRef = useRef<HTMLDivElement>(null);
   const playerRef = useRef<YTPlayer | null>(null);
@@ -91,7 +98,10 @@ export default function WatchClient({
       if (cancelled || !mountRef.current || !window.YT) return;
       playerRef.current = new window.YT.Player(mountRef.current, {
         videoId: youtubeId,
-        playerVars: { rel: 0, playsinline: 1 },
+        playerVars:
+          clipRef.current.end > clipRef.current.start
+            ? { rel: 0, playsinline: 1, start: clipRef.current.start, end: clipRef.current.end }
+            : { rel: 0, playsinline: 1 },
         events: { onReady: () => setPlayerReady(true) },
       });
     };
@@ -153,7 +163,7 @@ export default function WatchClient({
       // Lưu tiến độ thưa (mỗi ~5 giây hoặc khi nhảy xa) thay vì 4 lần/giây
       if (video && Math.abs(t - lastSavedRef.current) >= 5) {
         lastSavedRef.current = t;
-        saveProgress(videoId, t, video.durationSec);
+        saveProgress(videoId, Math.max(0, t - clip.start), clip.end - clip.start);
       }
       if (!lines.length) return;
 
@@ -196,7 +206,7 @@ export default function WatchClient({
       }
     }, 250);
     return () => window.clearInterval(iv);
-  }, [playerReady, lines, mode, dictIdx, video, videoId, router]);
+  }, [playerReady, lines, mode, dictIdx, video, videoId, router, clip]);
 
   useEffect(() => {
     loopLineRef.current = loopLine;
@@ -441,7 +451,7 @@ export default function WatchClient({
                     {pickText(item.titles, lang)}
                   </span>
                   <span style={{ display: "block", fontSize: 12, color: "var(--muted)", marginTop: 2 }}>
-                    {item.level} · {formatDuration(item.durationSec)}
+                    {item.level} · {formatDuration(item.clipEnd - item.clipStart)}
                     {current ? ` · ${ui.queue.nowPlaying}` : ""}
                   </span>
                 </button>
