@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import type { Translations } from "./content-schema";
 
-/** Miền đích khi triển khai (CLAUDE.md mục 2). Đổi một chỗ này khi chốt tên/miền. */
-export const SITE_URL = "https://video.vimai.jp";
+/** Miền web đã chốt 25/11/2026 (CLAUDE.md mục 2). Đổi một chỗ này khi chốt tên/miền. */
+export const SITE_URL = "https://miraigo.vimai.jp";
 
 /**
  * Metadata cho trang chi tiết: tiêu đề riêng + canonical + Open Graph.

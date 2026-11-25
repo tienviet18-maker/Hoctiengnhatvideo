@@ -15,8 +15,8 @@ const bvp = Be_Vietnam_Pro({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "ViMai Video — Học tiếng Nhật qua video và truyện",
-    template: "%s · ViMai Video",
+    default: "MiraiGo: Học tiếng Nhật qua video và truyện",
+    template: "%s · MiraiGo",
   },
   description:
     "Học tiếng Nhật qua video YouTube và truyện phân cấp: phụ đề furigana, chép chính tả, shadowing, ôn từ vựng mỗi ngày.",

@@ -2,9 +2,14 @@
 
 import { useLang } from "./LangProvider";
 
+const PRICE_MONTH_JPY = 550;
+const PRICE_YEAR_JPY = 4980;
+const yen = (n: number) => `¥${n.toLocaleString("ja-JP")}`;
+
 /**
  * Màn hình paywall kiểu Tadoku (mở khoá toàn bộ).
- * MVP chưa nối thanh toán — nút nâng cấp để dành, chỉ hiển thị gói và giá ViMai.
+ * MVP chưa nối thanh toán — nút nâng cấp để dành, chỉ hiển thị gói và giá đích
+ * của MiraiGo (CLAUDE.md mục 2): ¥550/tháng, ¥4.980/năm.
  */
 export default function Paywall({ onClose }: { onClose: () => void }) {
   const { ui } = useLang();
@@ -60,12 +65,12 @@ export default function Paywall({ onClose }: { onClose: () => void }) {
           }}
         >
           <div>
-            <div style={{ fontWeight: 700, fontSize: 15 }}>{ui.paywall.monthly.replace(/^1/, "3")}</div>
+            <div style={{ fontWeight: 700, fontSize: 15 }}>{ui.paywall.yearly}</div>
             <div style={{ fontSize: 12, color: "var(--muted)" }}>{ui.paywall.bestValue}</div>
           </div>
           <div style={{ marginLeft: "auto", textAlign: "right" }}>
-            <div style={{ fontWeight: 800, fontSize: 18, color: "var(--navy)" }}>700.000đ</div>
-            <div style={{ fontSize: 12, color: "var(--muted)" }}>233.000đ / tháng</div>
+            <div style={{ fontWeight: 800, fontSize: 18, color: "var(--navy)" }}>{yen(PRICE_YEAR_JPY)}</div>
+            <div style={{ fontSize: 12, color: "var(--muted)" }}>≈ {yen(Math.round(PRICE_YEAR_JPY / 12))} / {ui.paywall.monthly}</div>
           </div>
         </div>
 
@@ -81,7 +86,7 @@ export default function Paywall({ onClose }: { onClose: () => void }) {
           }}
         >
           <div style={{ fontWeight: 700, fontSize: 15 }}>{ui.paywall.monthly}</div>
-          <div style={{ marginLeft: "auto", fontWeight: 800, fontSize: 18 }}>450.000đ</div>
+          <div style={{ marginLeft: "auto", fontWeight: 800, fontSize: 18 }}>{yen(PRICE_MONTH_JPY)}</div>
         </div>
 
         <button type="button" className="btn-primary" style={{ marginTop: 18 }} disabled>
