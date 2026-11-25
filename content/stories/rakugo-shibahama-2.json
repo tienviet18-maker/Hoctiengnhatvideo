@@ -1,0 +1,4938 @@
+{
+ "kind": "story",
+ "id": "rakugo-shibahama-2",
+ "titles": {
+  "vi": "Shibahama (Phần 2) — Đêm giao thừa",
+  "en": "Shibahama (Part 2) — New Year's Eve",
+  "zh-Hans": "芝浜（下）——除夕之夜",
+  "zh-Hant": "芝濱（下）——除夕之夜",
+  "ko": "시바하마 (하) — 섣달그믐 밤",
+  "tl": "Shibahama (Bahagi 2) — Bisperas ng Bagong Taon",
+  "ne": "शिबाहामा (भाग २) — वर्षको अन्तिम रात",
+  "id": "Shibahama (Bagian 2) — Malam Tahun Baru",
+  "pt": "Shibahama (Parte 2) — Véspera de Ano-Novo",
+  "my": "ရှီဘာဟာမ (အပိုင်း ၂) — နှစ်ကုန်ည",
+  "th": "ชิบะฮามะ (ตอนที่ 2) — คืนส่งท้ายปี"
+ },
+ "level": "N3",
+ "topic": "rakugo",
+ "source": "original",
+ "cover": "/covers/rakugo-shibahama-2.webp",
+ "free": false,
+ "standard": 2,
+ "shelf": "rakugo",
+ "series": {
+  "id": "rakugo-shibahama",
+  "index": 2
+ },
+ "audioTrack": {
+  "src": "/audio/rakugo-shibahama-2/chapter.mp3",
+  "durationSec": 303.24
+ },
+ "lesson": {
+  "grammarPoints": [
+   {
+    "pattern": "〜ほど",
+    "meaning": {
+     "vi": "Đến mức ~ (chỉ mức độ). Động từ/tính từ thể thường + ほど. Ví dụ: 雇えるほど (đến mức thuê được người), 泣きたいほどうれしい (vui đến mức muốn khóc). Câu 26 cũng có: 首が飛ぶほどの罪.",
+     "en": "To the extent that ~, so much that ~ (degree). Plain form + ほど. E.g. 雇えるほど (big enough to hire people), 泣きたいほどうれしい (so happy I could cry). Sentence 26 too: 首が飛ぶほどの罪.",
+     "zh-Hans": "到……的程度（表示程度）。简体形＋ほど。例：雇えるほど（到能雇人的程度）、泣きたいほどうれしい（高兴得想哭）。第26句也有：首が飛ぶほどの罪。",
+     "zh-Hant": "到……的程度（表示程度）。簡體形＋ほど。例：雇えるほど（到能雇人的程度）、泣きたいほどうれしい（高興得想哭）。第26句也有：首が飛ぶほどの罪。",
+     "ko": "~할 정도로 (정도). 보통형 + ほど. 예: 雇えるほど (사람을 고용할 수 있을 정도로), 泣きたいほどうれしい (울고 싶을 정도로 기쁘다). 26번 문장에도: 首が飛ぶほどの罪.",
+     "tl": "Hanggang sa punto na ~ (antas). Plain form + ほど. Hal.: 雇えるほど (sapat na laki para kumuha ng tauhan), 泣きたいほどうれしい (sobrang saya na gusto kong umiyak). Pati pangungusap 26: 首が飛ぶほどの罪.",
+     "ne": "~ हुने हदसम्म (मात्रा)। साधारण रूप + ほど। उदाहरण: 雇えるほど (मानिस राख्न सक्ने हदसम्म), 泣きたいほどうれしい (रुन मन लाग्ने गरी खुसी)। वाक्य २६ मा पनि: 首が飛ぶほどの罪।",
+     "id": "Sampai ~ (tingkat). Bentuk biasa + ほど. Contoh: 雇えるほど (sampai bisa mempekerjakan orang), 泣きたいほどうれしい (senang sampai ingin menangis). Kalimat 26 juga: 首が飛ぶほどの罪.",
+     "pt": "A ponto de ~ (grau). Forma simples + ほど. Ex.: 雇えるほど (a ponto de poder contratar gente), 泣きたいほどうれしい (tão feliz que dá vontade de chorar). Frase 26 também: 首が飛ぶほどの罪.",
+     "my": "~ လောက်အောင် (အတိုင်းအတာ)။ ရိုးရိုးပုံစံ + ほど။ ဥပမာ: 雇えるほど (လူငှားနိုင်လောက်အောင်), 泣きたいほどうれしい (ငိုချင်လောက်အောင် ဝမ်းသာ)။ ဝါကျ ၂၆ မှာလည်း: 首が飛ぶほどの罪။",
+     "th": "ถึงขนาดที่ ~ (บอกระดับ) รูปธรรมดา + ほど เช่น 雇えるほど (ถึงขนาดจ้างคนได้), 泣きたいほどうれしい (ดีใจจนอยากร้องไห้) ประโยค 26 ก็มี: 首が飛ぶほどの罪"
+    },
+    "example": 7
+   },
+   {
+    "pattern": "〜ながらも",
+    "meaning": {
+     "vi": "Tuy ~ nhưng vẫn ~ (nhượng bộ). Tính từ/danh từ/động từ ます-bỏ-ます + ながらも. Ví dụ: 小さいながらも自分の店 (cửa hàng tuy nhỏ nhưng là của mình), 狭いながらも楽しい我が家. Khác ながら \"vừa… vừa…\".",
+     "en": "Although ~, still ~ (concession). Adjective / noun / ます-stem + ながらも. E.g. 小さいながらも自分の店 (a shop of his own, small as it was), 狭いながらも楽しい我が家. Different from ながら \"while doing\".",
+     "zh-Hans": "虽然……但还是……（让步）。形容词／名词／ます形词干＋ながらも。例：小さいながらも自分の店（虽小却是自己的店）、狭いながらも楽しい我が家。与「一边……一边」的ながら不同。",
+     "zh-Hant": "雖然……但還是……（讓步）。形容詞／名詞／ます形語幹＋ながらも。例：小さいながらも自分の店（雖小卻是自己的店）、狭いながらも楽しい我が家。與「一邊……一邊」的ながら不同。",
+     "ko": "~면서도, ~지만 (양보). 형용사/명사/ます형 어간 + ながらも. 예: 小さいながらも自分の店 (작지만 자기 가게), 狭いながらも楽しい我が家. \"~하면서\"의 ながら와 다름.",
+     "tl": "Bagaman ~, gayunpaman ~ (konsesyon). Pang-uri / pangngalan / ます-stem + ながらも. Hal.: 小さいながらも自分の店 (sariling tindahan, kahit maliit), 狭いながらも楽しい我が家. Iba sa ながら na \"habang\".",
+     "ne": "~ भए पनि (स्वीकृति)। विशेषण/नाम/ます-मूल + ながらも। उदाहरण: 小さいながらも自分の店 (सानो भए पनि आफ्नै पसल), 狭いながらも楽しい我が家। \"गर्दै\" अर्थको ながら भन्दा फरक।",
+     "id": "Meskipun ~, tetap ~ (konsesif). Kata sifat / nomina / bentuk ます tanpa ます + ながらも. Contoh: 小さいながらも自分の店 (toko sendiri meski kecil), 狭いながらも楽しい我が家. Beda dengan ながら \"sambil\".",
+     "pt": "Embora ~, ainda assim ~ (concessão). Adjetivo / substantivo / radical ます + ながらも. Ex.: 小さいながらも自分の店 (uma loja própria, ainda que pequena), 狭いながらも楽しい我が家. Diferente de ながら \"enquanto\".",
+     "my": "~ ပေမဲ့ (လက်ခံခြင်း)။ နာမဝိသေသန/နာမ်/ます-ပင်စည် + ながらも။ ဥပမာ: 小さいながらも自分の店 (သေးပေမဲ့ ကိုယ်ပိုင်ဆိုင်), 狭いながらも楽しい我が家။ \"~ ရင်း\" အဓိပ္ပာယ် ながら နဲ့ မတူ။",
+     "th": "แม้จะ ~ แต่ก็ ~ (ยอมรับ) คุณศัพท์/คำนาม/รูป ます ตัด ます + ながらも เช่น 小さいながらも自分の店 (ร้านของตัวเองแม้จะเล็ก), 狭いながらも楽しい我が家 ต่างจาก ながら ที่แปลว่า \"ไปพลาง\""
+    },
+    "example": 9
+   },
+   {
+    "pattern": "〜ところだった",
+    "meaning": {
+     "vi": "Suýt nữa thì ~ (may mà không xảy ra). Động từ thể từ điển + ところだった. Ví dụ: 遅刻するところだった (suýt đến muộn). Hay đi với 〜ば/〜たら: 見つかれば…なくしてしまうところだった.",
+     "en": "Would have ~, came close to ~ (luckily it didn't happen). Dictionary form + ところだった. E.g. 遅刻するところだった (I was almost late). Often with 〜ば/〜たら: 見つかれば…なくしてしまうところだった.",
+     "zh-Hans": "差一点就……（幸好没发生）。动词辞书形＋ところだった。例：遅刻するところだった（差点迟到）。常与〜ば／〜たら连用：見つかれば…なくしてしまうところだった。",
+     "zh-Hant": "差一點就……（幸好沒發生）。動詞辭書形＋ところだった。例：遅刻するところだった（差點遲到）。常與〜ば／〜たら連用：見つかれば…なくしてしまうところだった。",
+     "ko": "하마터면 ~할 뻔했다 (다행히 안 일어남). 동사 사전형 + ところだった. 예: 遅刻するところだった (지각할 뻔했다). 〜ば/〜たら와 자주 씀: 見つかれば…なくしてしまうところだった.",
+     "tl": "Muntik nang ~ (buti na lang hindi nangyari). Dictionary form + ところだった. Hal.: 遅刻するところだった (muntik akong ma-late). Madalas kasama ng 〜ば/〜たら: 見つかれば…なくしてしまうところだった.",
+     "ne": "झन्डै ~ हुने थियो (भाग्यवश भएन)। धातु रूप + ところだった। उदाहरण: 遅刻するところだった (झन्डै ढिला भएको)। प्रायः 〜ば/〜たら सँग: 見つかれば…なくしてしまうところだった।",
+     "id": "Nyaris ~ (untung tidak terjadi). Bentuk kamus + ところだった. Contoh: 遅刻するところだった (nyaris terlambat). Sering dengan 〜ば/〜たら: 見つかれば…なくしてしまうところだった.",
+     "pt": "Por pouco ~, quase ~ (felizmente não aconteceu). Forma de dicionário + ところだった. Ex.: 遅刻するところだった (quase me atrasei). Muitas vezes com 〜ば/〜たら: 見つかれば…なくしてしまうところだった.",
+     "my": "~ လုနီးပါး ဖြစ်ခဲ့ (ကံကောင်းလို့ မဖြစ်)။ အဘိဓာန်ပုံစံ + ところだった။ ဥပမာ: 遅刻するところだった (နောက်ကျလုနီးပါး)။ 〜ば/〜たら နဲ့ မကြာခဏ: 見つかれば…なくしてしまうところだった။",
+     "th": "เกือบจะ ~ แล้ว (โชคดีที่ไม่เกิด) กริยารูปพจนานุกรม + ところだった เช่น 遅刻するところだった (เกือบสาย) มักใช้กับ 〜ば/〜たら: 見つかれば…なくしてしまうところだった"
+    },
+    "example": 27
+   },
+   {
+    "pattern": "〜てくれたから",
+    "meaning": {
+     "vi": "Vì (người khác) đã ~ cho mình (biết ơn). Động từ thể て + くれたから. Ví dụ: 友だちが手伝ってくれたから、早く終わった (nhờ bạn giúp nên xong sớm). くれる = người khác làm cho \"tôi\".",
+     "en": "Because (someone) did ~ for me (gratitude). て-form + くれたから. E.g. 友だちが手伝ってくれたから、早く終わった (my friend helped me, so I finished early). くれる = someone does it for \"me\".",
+     "zh-Hans": "因为（别人）为我做了……（感激）。て形＋くれたから。例：友だちが手伝ってくれたから、早く終わった（因为朋友帮我，很快就做完了）。くれる＝别人为\"我\"做。",
+     "zh-Hant": "因為（別人）為我做了……（感激）。て形＋くれたから。例：友だちが手伝ってくれたから、早く終わった（因為朋友幫我，很快就做完了）。くれる＝別人為「我」做。",
+     "ko": "(남이) 나를 위해 ~해 줬기 때문에 (감사). て형 + くれたから. 예: 友だちが手伝ってくれたから、早く終わった (친구가 도와줘서 빨리 끝났다). くれる = 남이 \"나\"에게 해 줌.",
+     "tl": "Dahil ~ ng (ibang tao) para sa akin (pasasalamat). て-form + くれたから. Hal.: 友だちが手伝ってくれたから、早く終わった (tinulungan ako ng kaibigan kaya natapos agad). くれる = ginawa ng iba para sa \"akin\".",
+     "ne": "(अरूले) मेरो लागि ~ गरिदिएकाले (कृतज्ञता)। て-रूप + くれたから। उदाहरण: 友だちが手伝ってくれたから、早く終わった (साथीले सघाइदिएकाले छिटो सकियो)। くれる = अरूले \"मेरो\" लागि गर्नु।",
+     "id": "Karena (orang lain) sudah ~ untuk saya (terima kasih). Bentuk て + くれたから. Contoh: 友だちが手伝ってくれたから、早く終わった (karena teman membantu, cepat selesai). くれる = orang lain melakukan untuk \"saya\".",
+     "pt": "Porque (alguém) fez ~ por mim (gratidão). Forma て + くれたから. Ex.: 友だちが手伝ってくれたから、早く終わった (como meu amigo me ajudou, terminei cedo). くれる = outra pessoa faz algo por \"mim\".",
+     "my": "(တခြားသူက) ကိုယ့်အတွက် ~ ပေးခဲ့လို့ (ကျေးဇူးတင်)။ て-ပုံစံ + くれたから။ ဥပမာ: 友だちが手伝ってくれたから、早く終わった (သူငယ်ချင်း ကူပေးလို့ မြန်မြန်ပြီးတယ်)။ くれる = တခြားသူက \"ကိုယ့်\" အတွက် လုပ်ပေး။",
+     "th": "เพราะ (คนอื่น) ~ ให้ฉัน (ขอบคุณ) กริยารูป て + くれたから เช่น 友だちが手伝ってくれたから、早く終わった (เพราะเพื่อนช่วยเลยเสร็จเร็ว) くれる = คนอื่นทำให้ \"ฉัน\""
+    },
+    "example": 38
+   }
+  ],
+  "quiz": [
+   {
+    "ja": "夢だと言ったのは、なぜですか。",
+    "choices": [
+     "女房が忘れたから",
+     "拾ったお金を使うと重い罪になるから",
+     "勝五郎が寝ぼけていたから"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Bà chủ nhà nói dùng tiền nhặt được là có tội nặng, nên hai người quyết định nộp tiền cho quan và nói với anh là giấc mơ.",
+     "en": "The landlord said using found money was a serious crime, so they handed it in and told him it was a dream.",
+     "zh-Hans": "房东说用捡到的钱是重罪，所以他们把钱交给官府，对他说是梦。",
+     "zh-Hant": "房東說用撿到的錢是重罪，所以他們把錢交給官府，對他說是夢。",
+     "ko": "집주인이 주운 돈을 쓰면 무거운 죄가 된다고 해서, 관청에 신고하고 그에게는 꿈이라고 했습니다.",
+     "tl": "Sinabi ng kasero na mabigat na krimen ang gamitin ang napulot na pera, kaya isinuko nila ito at sinabing panaginip lang.",
+     "ne": "घरधनीले भेटेको पैसा प्रयोग गर्नु ठूलो अपराध हो भनेकाले उनीहरूले कार्यालयमा बुझाए र उनलाई सपना भनिदिए।",
+     "id": "Pemilik rumah bilang memakai uang temuan adalah kejahatan berat, jadi mereka menyerahkannya dan bilang itu mimpi.",
+     "pt": "O senhorio disse que usar dinheiro achado era crime grave, então entregaram-no e disseram-lhe que era sonho.",
+     "my": "အိမ်ရှင်က ကောက်ရတဲ့ ပိုက်ဆံသုံးရင် ပြစ်မှုကြီးလို့ ပြောတာကြောင့် ရုံးကို အပ်ပြီး သူ့ကို အိပ်မက်လို့ ပြောခဲ့တယ်။",
+     "th": "เจ้าของบ้านบอกว่าใช้เงินที่เก็บได้เป็นความผิดร้ายแรง จึงนำไปมอบให้ทางการแล้วบอกเขาว่าเป็นความฝัน"
+    }
+   },
+   {
+    "ja": "三年目に、勝五郎は何ができましたか。",
+    "choices": [
+     "表通りに自分の店を持てた",
+     "新しい舟を買えた",
+     "江戸を出て旅をした"
+    ],
+    "answer": 0,
+    "explain": {
+     "vi": "Năm thứ ba, anh mở được cửa hàng riêng, tuy nhỏ, trên phố lớn.",
+     "en": "In the third year he opened his own shop, small as it was, on the main street.",
+     "zh-Hans": "第三年，他在大街上开了一家虽小却属于自己的店。",
+     "zh-Hant": "第三年，他在大街上開了一家雖小卻屬於自己的店。",
+     "ko": "3년째에 큰길에 작지만 자기 가게를 차렸습니다.",
+     "tl": "Sa ikatlong taon, nagkaroon siya ng sariling tindahan sa pangunahing kalye, kahit maliit.",
+     "ne": "तेस्रो वर्षमा उनले मूल सडकमा सानो भए पनि आफ्नै पसल खोले।",
+     "id": "Di tahun ketiga ia punya toko sendiri di jalan utama, meski kecil.",
+     "pt": "No terceiro ano ele abriu sua própria loja, pequena, na rua principal.",
+     "my": "တတိယနှစ်မှာ လမ်းမကြီးပေါ်မှာ သေးပေမဲ့ ကိုယ်ပိုင်ဆိုင် ဖွင့်နိုင်ခဲ့တယ်။",
+     "th": "ปีที่สามเขามีร้านของตัวเองบนถนนใหญ่ แม้จะเล็ก"
+    }
+   },
+   {
+    "ja": "女房は、なぜ一年たってもすぐに財布を見せなかったのですか。",
+    "choices": [
+     "お金を自分で使いたかったから",
+     "勝五郎がまた酒におぼれると心配したから",
+     "財布をなくしていたから"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Chị sợ nếu đưa ngay, anh sẽ lại chìm vào rượu, nên giữ im lặng đến đêm giao thừa.",
+     "en": "She feared he would sink back into drink if she showed it at once, so she kept quiet until New Year's Eve.",
+     "zh-Hans": "她担心马上拿出来他又会沉迷于酒，所以一直沉默到除夕。",
+     "zh-Hant": "她擔心馬上拿出來他又會沉迷於酒，所以一直沉默到除夕。",
+     "ko": "바로 보여주면 그가 다시 술에 빠질까 걱정되어 섣달그믐까지 말하지 않았습니다.",
+     "tl": "Natakot siyang babalik ito sa alak kung ipapakita agad, kaya nanahimik siya hanggang bisperas ng Bagong Taon.",
+     "ne": "तुरुन्तै देखाए उनी फेरि रक्सीमा डुब्छन् भनेर डराएकी थिइन्, त्यसैले नयाँ वर्षको अघिल्लो रातसम्म चुप बसिन्।",
+     "id": "Ia takut suaminya kembali tenggelam dalam minuman jika langsung ditunjukkan, jadi diam sampai malam tahun baru.",
+     "pt": "Ela temia que ele voltasse a afundar na bebida se mostrasse logo, então calou-se até a véspera de Ano-Novo.",
+     "my": "ချက်ချင်းပြရင် သူ အရက်ထဲ ပြန်နစ်မှာ စိုးလို့ နှစ်ကုန်ညအထိ နှုတ်ဆိတ်နေခဲ့တယ်။",
+     "th": "เธอกลัวว่าถ้าให้ดูทันที เขาจะกลับไปจมกับเหล้าอีก จึงเงียบไว้จนถึงคืนส่งท้ายปี"
+    }
+   },
+   {
+    "ja": "最後に、勝五郎はなぜ酒を飲まなかったのですか。",
+    "choices": [
+     "酒がまずかったから",
+     "体の具合が悪かったから",
+     "また夢になるといけないから"
+    ],
+    "answer": 2,
+    "explain": {
+     "vi": "Anh đặt chén xuống: \"Lỡ lại thành giấc mơ thì không được\" — sợ hạnh phúc hiện tại tan biến.",
+     "en": "He set the cup down: \"It'd be no good if it turned into a dream again\" — afraid his happiness would vanish.",
+     "zh-Hans": "他放下杯子：\"要是又变成梦就糟了\"——怕眼前的幸福消失。",
+     "zh-Hant": "他放下杯子：「要是又變成夢就糟了」——怕眼前的幸福消失。",
+     "ko": "그는 잔을 내려놓았습니다: \"또 꿈이 되면 안 되지\" — 지금의 행복이 사라질까 두려워서.",
+     "tl": "Ibinaba niya ang tasa: \"Masama kung maging panaginip ulit\" — takot na mawala ang kaligayahan.",
+     "ne": "उनले कप राखे: \"फेरि सपना भयो भने त राम्रो हुँदैन\" — अहिलेको खुसी हराउला भनेर डर।",
+     "id": "Ia meletakkan cangkir: \"Gawat kalau jadi mimpi lagi\" — takut kebahagiaannya lenyap.",
+     "pt": "Ele pousou o copo: \"Não seria bom se virasse sonho de novo\" — com medo de a felicidade sumir.",
+     "my": "သူက ခွက်ကို ချထားတယ်: \"နောက်တစ်ခါ အိပ်မက်ဖြစ်သွားရင် မကောင်းဘူး\" — လက်ရှိပျော်ရွှင်မှု ပျောက်မှာ ကြောက်လို့။",
+     "th": "เขาวางถ้วยลง: \"ถ้ากลายเป็นความฝันอีกก็แย่\" — กลัวว่าความสุขจะหายไป"
+    }
+   }
+  ]
+ },
+ "sentences": [
+  {
+   "ja": "前のお話で、魚屋の勝五郎は、酒をやめると決めました。",
+   "furigana": [
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "のお",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "魚屋",
+     "reading": "さかなや"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "勝五郎",
+     "reading": "かつごろう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "酒",
+     "reading": "さけ"
+    },
+    {
+     "surface": "をやめると",
+     "reading": ""
+    },
+    {
+     "surface": "決",
+     "reading": "き"
+    },
+    {
+     "surface": "めました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mae no ohanashi de, sakanaya no Katsugorou wa, sake o yameru to kimemashita.",
+   "translations": {
+    "vi": "Ở câu chuyện trước, anh bán cá Katsugorō đã quyết định bỏ rượu.",
+    "en": "In the last story, Katsugorō the fishmonger decided to quit drinking.",
+    "zh-Hans": "上一个故事里，鱼贩胜五郎决定戒酒。",
+    "zh-Hant": "上一個故事裡，魚販勝五郎決定戒酒。",
+    "ko": "앞 이야기에서 생선 장수 가쓰고로는 술을 끊기로 했습니다.",
+    "tl": "Sa nakaraang kuwento, nagpasya ang tindero ng isdang si Katsugorō na tumigil sa pag-inom.",
+    "ne": "अघिल्लो कथामा, माछा बेच्ने कात्सुगोरोले रक्सी छोड्ने निर्णय गरे।",
+    "id": "Di cerita sebelumnya, penjual ikan Katsugorō memutuskan berhenti minum.",
+    "pt": "Na história anterior, o peixeiro Katsugorō decidiu parar de beber.",
+    "my": "ယခင်ဇာတ်လမ်းမှာ ငါးရောင်းသူ ခါဆုဂိုရိုဟာ အရက်ဖြတ်ဖို့ ဆုံးဖြတ်ခဲ့တယ်။",
+    "th": "ในเรื่องที่แล้ว พ่อค้าปลาคัตสึโกโร่ตัดสินใจเลิกเหล้า"
+   },
+   "grammarNote": {
+    "vi": "前の: trước. 〜と決める: quyết định rằng ~.",
+    "en": "前の: previous. 〜と決める: decide that ~.",
+    "zh-Hans": "前の：上一个。〜と決める：决定……。",
+    "zh-Hant": "前の：上一個。〜と決める：決定……。",
+    "ko": "前の: 앞의. 〜と決める: ~하기로 정하다.",
+    "tl": "前の: nakaraan. 〜と決める: magpasya na ~.",
+    "ne": "前の: अघिल्लो। 〜と決める: ~ भन्ने निर्णय गर्नु।",
+    "id": "前の: sebelumnya. 〜と決める: memutuskan ~.",
+    "pt": "前の: anterior. 〜と決める: decidir ~.",
+    "my": "前の: ယခင်။ 〜と決める: ~ ဟု ဆုံးဖြတ်သည်။",
+    "th": "前の: ก่อนหน้า. 〜と決める: ตัดสินใจว่า ~"
+   },
+   "vocab": [
+    {
+     "word": "酒",
+     "reading": "さけ",
+     "level": "N3",
+     "meanings": {
+      "vi": "rượu (sake)",
+      "en": "sake, alcohol",
+      "zh-Hans": "酒",
+      "zh-Hant": "酒",
+      "ko": "술",
+      "tl": "alak, sake",
+      "ne": "रक्सी",
+      "id": "sake, minuman keras",
+      "pt": "saquê, bebida",
+      "my": "အရက်",
+      "th": "เหล้า"
+     }
+    }
+   ],
+   "t": [
+    0.3,
+    5.49
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=0.3,5.49"
+  },
+  {
+   "ja": "それから勝五郎は、雨の日も風の日も、一日も休まずに働きました。",
+   "furigana": [
+    {
+     "surface": "それから",
+     "reading": ""
+    },
+    {
+     "surface": "勝五郎",
+     "reading": "かつごろう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "雨",
+     "reading": "あめ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "風",
+     "reading": "かぜ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "も、",
+     "reading": ""
+    },
+    {
+     "surface": "一",
+     "reading": "いち"
+    },
+    {
+     "surface": "日",
+     "reading": "にち"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "休",
+     "reading": "やす"
+    },
+    {
+     "surface": "まずに",
+     "reading": ""
+    },
+    {
+     "surface": "働",
+     "reading": "はたら"
+    },
+    {
+     "surface": "きました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sorekara Katsugorou wa, ame no hi mo kaze no hi mo, ichinichi mo yasumazu ni hatarakimashita.",
+   "translations": {
+    "vi": "Từ đó, mưa cũng như gió, Katsugorō làm việc không nghỉ một ngày nào.",
+    "en": "From then on, through rain and wind, Katsugorō worked without taking a single day off.",
+    "zh-Hans": "从那以后，不管刮风下雨，胜五郎一天也没歇过。",
+    "zh-Hant": "從那以後，不管颳風下雨，勝五郎一天也沒歇過。",
+    "ko": "그 뒤로 가쓰고로는 비가 오나 바람이 부나 하루도 쉬지 않고 일했습니다.",
+    "tl": "Mula noon, umulan man o humangin, nagtrabaho si Katsugorō nang walang kahit isang araw na pahinga.",
+    "ne": "त्यसपछि, पानी परोस् कि हावा चलोस्, कात्सुगोरोले एक दिन पनि बिदा नलिई काम गरे।",
+    "id": "Sejak itu, hujan maupun angin, Katsugorō bekerja tanpa libur sehari pun.",
+    "pt": "Desde então, com chuva ou vento, Katsugorō trabalhou sem folgar um único dia.",
+    "my": "အဲဒီကစပြီး မိုးရွာရွာ လေတိုက်တိုက် ခါဆုဂိုရိုဟာ တစ်ရက်မှ မနားဘဲ အလုပ်လုပ်တယ်။",
+    "th": "ตั้งแต่นั้น ไม่ว่าฝนตกหรือลมแรง คัตสึโกโร่ก็ทำงานไม่หยุดเลยสักวัน"
+   },
+   "grammarNote": {
+    "vi": "〜も〜も: cả ~ lẫn ~. 一日も〜ずに: không ~ dù chỉ một ngày.",
+    "en": "〜も〜も: both ~ and ~. 一日も〜ずに: without ~ even one day.",
+    "zh-Hans": "〜も〜も：……也……也。一日も〜ずに：一天也不……。",
+    "zh-Hant": "〜も〜も：……也……也。一日も〜ずに：一天也不……。",
+    "ko": "〜も〜も: ~도 ~도. 一日も〜ずに: 하루도 ~하지 않고.",
+    "tl": "〜も〜も: ~ man o ~. 一日も〜ずに: nang walang kahit isang araw na ~.",
+    "ne": "〜も〜も: ~ होस् कि ~। 一日も〜ずに: एक दिन पनि ~ नगरी।",
+    "id": "〜も〜も: baik ~ maupun ~. 一日も〜ずに: tanpa ~ sehari pun.",
+    "pt": "〜も〜も: tanto ~ quanto ~. 一日も〜ずに: sem ~ nem um dia.",
+    "my": "〜も〜も: ~ ရော ~ ရော။ 一日も〜ずに: တစ်ရက်မှ မ ~ ဘဲ။",
+    "th": "〜も〜も: ทั้ง ~ ทั้ง ~. 一日も〜ずに: ไม่ ~ เลยสักวัน"
+   },
+   "vocab": [],
+   "t": [
+    6.09,
+    12.09
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=6.09,12.09"
+  },
+  {
+   "ja": "仲間に酒をすすめられても、勝五郎は首を横にふりました。",
+   "furigana": [
+    {
+     "surface": "仲間",
+     "reading": "なかま"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "酒",
+     "reading": "さけ"
+    },
+    {
+     "surface": "をすすめられても、",
+     "reading": ""
+    },
+    {
+     "surface": "勝五郎",
+     "reading": "かつごろう"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "首",
+     "reading": "くび"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "横",
+     "reading": "よこ"
+    },
+    {
+     "surface": "にふりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nakama ni sake o susumerarete mo, Katsugorou wa kubi o yoko ni furimashita.",
+   "translations": {
+    "vi": "Dù bạn bè có mời rượu, Katsugorō cũng lắc đầu.",
+    "en": "Even when friends offered him sake, Katsugorō shook his head.",
+    "zh-Hans": "就算伙伴们劝他喝酒，胜五郎也只是摇头。",
+    "zh-Hant": "就算夥伴們勸他喝酒，勝五郎也只是搖頭。",
+    "ko": "친구들이 술을 권해도 가쓰고로는 고개를 저었습니다.",
+    "tl": "Kahit alukin siya ng sake ng mga kaibigan, umiiling lang si Katsugorō.",
+    "ne": "साथीहरूले रक्सी खान कर गर्दा पनि कात्सुगोरोले टाउको हल्लाए।",
+    "id": "Walaupun teman-temannya menawarinya sake, Katsugorō menggeleng.",
+    "pt": "Mesmo quando os amigos lhe ofereciam saquê, Katsugorō balançava a cabeça.",
+    "my": "သူငယ်ချင်းတွေက အရက်တိုက်ပေမဲ့ ခါဆုဂိုရိုက ခေါင်းခါတယ်။",
+    "th": "แม้เพื่อนๆ จะชวนดื่มเหล้า คัตสึโกโร่ก็ส่ายหน้า"
+   },
+   "grammarNote": {
+    "vi": "すすめられる: được mời (bị động của すすめる). 〜ても: dù ~. 首を横にふる: lắc đầu (từ chối).",
+    "en": "すすめられる: be offered (passive of すすめる). 〜ても: even if ~. 首を横にふる: shake one's head (refuse).",
+    "zh-Hans": "すすめられる：被劝（すすめる的被动）。〜ても：即使……。首を横にふる：摇头（拒绝）。",
+    "zh-Hant": "すすめられる：被勸（すすめる的被動）。〜ても：即使……。首を横にふる：搖頭（拒絕）。",
+    "ko": "すすめられる: 권유받다 (すすめる의 수동). 〜ても: ~해도. 首を横にふる: 고개를 젓다 (거절).",
+    "tl": "すすめられる: alukin (passive ng すすめる). 〜ても: kahit ~. 首を横にふる: umiling (tumanggi).",
+    "ne": "すすめられる: कर गरिनु (すすめる को कर्मवाच्य)। 〜ても: ~ भए पनि। 首を横にふる: टाउको हल्लाउनु (अस्वीकार)।",
+    "id": "すすめられる: ditawari (pasif すすめる). 〜ても: walaupun ~. 首を横にふる: menggeleng (menolak).",
+    "pt": "すすめられる: ser oferecido (passiva de すすめる). 〜ても: mesmo que ~. 首を横にふる: balançar a cabeça (recusar).",
+    "my": "すすめられる: တိုက်ခံရ (すすめる ၏ ကံပုံစံ)။ 〜ても: ~ ပေမဲ့။ 首を横にふる: ခေါင်းခါ (ငြင်း)။",
+    "th": "すすめられる: ถูกชวน (รูปถูกกระทำของ すすめる). 〜ても: แม้ ~. 首を横にふる: ส่ายหน้า (ปฏิเสธ)"
+   },
+   "vocab": [
+    {
+     "word": "仲間",
+     "reading": "なかま",
+     "level": "N3",
+     "meanings": {
+      "vi": "bạn bè, đồng bọn",
+      "en": "friend, companion",
+      "zh-Hans": "伙伴",
+      "zh-Hant": "夥伴",
+      "ko": "동료, 친구",
+      "tl": "kasama, kaibigan",
+      "ne": "साथी",
+      "id": "teman",
+      "pt": "companheiro",
+      "my": "အပေါင်းအသင်း",
+      "th": "เพื่อนพ้อง"
+     }
+    },
+    {
+     "word": "すすめる",
+     "reading": "すすめる",
+     "level": "N3",
+     "meanings": {
+      "vi": "mời, khuyên",
+      "en": "to offer, recommend",
+      "zh-Hans": "劝，推荐",
+      "zh-Hant": "勸，推薦",
+      "ko": "권하다",
+      "tl": "mag-alok",
+      "ne": "सिफारिस गर्नु",
+      "id": "menawarkan",
+      "pt": "oferecer, recomendar",
+      "my": "တိုက်တွန်း",
+      "th": "แนะนำ, ชวน"
+     }
+    }
+   ],
+   "t": [
+    12.69,
+    17.38
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=12.69,17.38"
+  },
+  {
+   "ja": "すまねえ。酒は、もうやめたんだ。",
+   "furigana": [
+    {
+     "surface": "すまねえ。",
+     "reading": ""
+    },
+    {
+     "surface": "酒",
+     "reading": "さけ"
+    },
+    {
+     "surface": "は、もうやめたんだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sumanee. Sake wa, mou yameta n da.",
+   "translations": {
+    "vi": "Xin lỗi nhé. Tôi bỏ rượu rồi.",
+    "en": "Sorry. I've quit drinking.",
+    "zh-Hans": "对不住。酒，我已经戒了。",
+    "zh-Hant": "對不住。酒，我已經戒了。",
+    "ko": "미안하네. 술은 이제 끊었어.",
+    "tl": "Pasensya na. Tumigil na ako sa alak.",
+    "ne": "माफ गर। रक्सी त मैले छोडिसकेँ।",
+    "id": "Maaf. Aku sudah berhenti minum.",
+    "pt": "Desculpa. Eu parei de beber.",
+    "my": "တောင်းပန်ပါတယ်။ အရက်ကို ဖြတ်လိုက်ပြီ။",
+    "th": "ขอโทษนะ เหล้าน่ะ ข้าเลิกแล้ว"
+   },
+   "grammarNote": {
+    "vi": "すまねえ = すまない: xin lỗi (giọng Edo). 〜んだ: giải thích.",
+    "en": "すまねえ = すまない: sorry (Edo speech). 〜んだ: explaining.",
+    "zh-Hans": "すまねえ＝すまない：对不住（江户口语）。〜んだ：说明。",
+    "zh-Hant": "すまねえ＝すまない：對不住（江戶口語）。〜んだ：說明。",
+    "ko": "すまねえ = すまない: 미안하다 (에도 말투). 〜んだ: 설명.",
+    "tl": "すまねえ = すまない: pasensya (Edo). 〜んだ: pagpapaliwanag.",
+    "ne": "すまねえ = すまない: माफ गर (एदोको बोली)। 〜んだ: व्याख्या।",
+    "id": "すまねえ = すまない: maaf (logat Edo). 〜んだ: menjelaskan.",
+    "pt": "すまねえ = すまない: desculpa (fala de Edo). 〜んだ: explicação.",
+    "my": "すまねえ = すまない: တောင်းပန်ပါတယ် (အဲဒိုစကား)။ 〜んだ: ရှင်းပြ။",
+    "th": "すまねえ = すまない: ขอโทษ (ภาษาเอโดะ). 〜んだ: อธิบาย"
+   },
+   "vocab": [],
+   "t": [
+    18.28,
+    21.46
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=18.28,21.46"
+  },
+  {
+   "ja": "もともと魚を見る目は確かです。勝五郎の魚は新しくておいしいと、すぐに評判になりました。",
+   "furigana": [
+    {
+     "surface": "もともと",
+     "reading": ""
+    },
+    {
+     "surface": "魚",
+     "reading": "さかな"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "る",
+     "reading": ""
+    },
+    {
+     "surface": "目",
+     "reading": "め"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "確",
+     "reading": "たし"
+    },
+    {
+     "surface": "かです。",
+     "reading": ""
+    },
+    {
+     "surface": "勝五郎",
+     "reading": "かつごろう"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "魚",
+     "reading": "さかな"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "新",
+     "reading": "あたら"
+    },
+    {
+     "surface": "しくておいしいと、すぐに",
+     "reading": ""
+    },
+    {
+     "surface": "評判",
+     "reading": "ひょうばん"
+    },
+    {
+     "surface": "になりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Motomoto sakana o miru me wa tashika desu. Katsugorou no sakana wa atarashikute oishii to, sugu ni hyouban ni narimashita.",
+   "translations": {
+    "vi": "Con mắt chọn cá của anh vốn đã tinh. Cá của Katsugorō tươi ngon, chẳng mấy chốc đã nổi tiếng.",
+    "en": "He'd always had a sharp eye for fish. Word soon spread that Katsugorō's fish were fresh and tasty.",
+    "zh-Hans": "他本来就有看鱼的好眼光。胜五郎的鱼又新鲜又好吃，很快就出了名。",
+    "zh-Hant": "他本來就有看魚的好眼光。勝五郎的魚又新鮮又好吃，很快就出了名。",
+    "ko": "원래 생선 보는 눈은 확실했지요. 가쓰고로의 생선은 싱싱하고 맛있다고 금세 소문이 났습니다.",
+    "tl": "Talagang matalas ang mata niya sa isda. Kumalat agad na sariwa at masarap ang isda ni Katsugorō.",
+    "ne": "माछा चिन्ने आँखा त पहिल्यैदेखि पक्का थियो। कात्सुगोरोको माछा ताजा र मीठो भनेर छिट्टै नाम चल्यो।",
+    "id": "Matanya memang sejak dulu jeli soal ikan. Ikan Katsugorō segar dan enak, cepat jadi terkenal.",
+    "pt": "Ele sempre teve bom olho para peixe. Logo correu a fama de que o peixe de Katsugorō era fresco e gostoso.",
+    "my": "ငါးကြည့်တတ်တဲ့ မျက်စိက မူလကတည်းက သေချာတယ်။ ခါဆုဂိုရိုရဲ့ ငါးက လတ်ဆတ်ပြီး အရသာရှိတယ်လို့ မကြာခင် နာမည်ကြီးလာတယ်။",
+    "th": "สายตาดูปลาของเขาแม่นอยู่แล้ว ไม่นานปลาของคัตสึโกโร่ก็ขึ้นชื่อว่าสดและอร่อย"
+   },
+   "grammarNote": {
+    "vi": "もともと: vốn dĩ. 確か: chắc chắn, tinh tường. 評判になる: được đồn tốt, nổi tiếng.",
+    "en": "もともと: originally. 確か: reliable, sharp. 評判になる: become well spoken of.",
+    "zh-Hans": "もともと：本来。確か：可靠、准。評判になる：有口碑、出名。",
+    "zh-Hant": "もともと：本來。確か：可靠、準。評判になる：有口碑、出名。",
+    "ko": "もともと: 원래. 確か: 확실함. 評判になる: 평판이 나다, 소문나다.",
+    "tl": "もともと: talaga, mula pa noon. 確か: maaasahan. 評判になる: maging tanyag.",
+    "ne": "もともと: पहिल्यैदेखि। 確か: भरपर्दो। 評判になる: नाम चल्नु।",
+    "id": "もともと: sejak dulu. 確か: andal. 評判になる: jadi buah bibir.",
+    "pt": "もともと: desde sempre. 確か: certeiro. 評判になる: ganhar fama.",
+    "my": "もともと: မူလကတည်းက။ 確か: သေချာ။ 評判になる: နာမည်ကြီးလာ။",
+    "th": "もともと: แต่เดิม. 確か: แม่นยำ. 評判になる: ขึ้นชื่อ"
+   },
+   "vocab": [
+    {
+     "word": "もともと",
+     "reading": "もともと",
+     "level": "N2",
+     "meanings": {
+      "vi": "vốn dĩ, từ đầu",
+      "en": "originally, by nature",
+      "zh-Hans": "本来",
+      "zh-Hant": "本來",
+      "ko": "원래",
+      "tl": "talaga, mula pa noon",
+      "ne": "सुरुदेखि नै",
+      "id": "memang, dari awal",
+      "pt": "originalmente",
+      "my": "မူလကတည်းက",
+      "th": "แต่เดิม"
+     }
+    },
+    {
+     "word": "評判",
+     "reading": "ひょうばん",
+     "level": "N3",
+     "meanings": {
+      "vi": "tiếng tăm, lời khen",
+      "en": "reputation",
+      "zh-Hans": "名声，评价",
+      "zh-Hant": "名聲，評價",
+      "ko": "평판",
+      "tl": "reputasyon",
+      "ne": "ख्याति",
+      "id": "reputasi",
+      "pt": "reputação",
+      "my": "နာမည်",
+      "th": "ชื่อเสียง"
+     }
+    }
+   ],
+   "t": [
+    22.36,
+    30.55
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=22.36,30.55"
+  },
+  {
+   "ja": "お得意さんが一人増え、二人増え、借金も少しずつ返せるようになりました。",
+   "furigana": [
+    {
+     "surface": "お",
+     "reading": ""
+    },
+    {
+     "surface": "得意",
+     "reading": "とくい"
+    },
+    {
+     "surface": "さんが",
+     "reading": ""
+    },
+    {
+     "surface": "一",
+     "reading": "いち"
+    },
+    {
+     "surface": "人",
+     "reading": "にん"
+    },
+    {
+     "surface": "増",
+     "reading": "ふ"
+    },
+    {
+     "surface": "え、",
+     "reading": ""
+    },
+    {
+     "surface": "二",
+     "reading": "に"
+    },
+    {
+     "surface": "人",
+     "reading": "にん"
+    },
+    {
+     "surface": "増",
+     "reading": "ふ"
+    },
+    {
+     "surface": "え、",
+     "reading": ""
+    },
+    {
+     "surface": "借金",
+     "reading": "しゃっきん"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "少",
+     "reading": "すこ"
+    },
+    {
+     "surface": "しずつ",
+     "reading": ""
+    },
+    {
+     "surface": "返",
+     "reading": "かえ"
+    },
+    {
+     "surface": "せるようになりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Otokuisan ga ichinin fue, ninin fue, shakkin mo sukoshi zutsu kaeseru you ni narimashita.",
+   "translations": {
+    "vi": "Khách quen tăng thêm một, rồi hai người, và anh dần dần trả được nợ.",
+    "en": "One regular customer, then two, and little by little he began to pay off his debts.",
+    "zh-Hans": "老主顾一个、两个地多起来，欠的债也一点点还得上了。",
+    "zh-Hant": "老主顧一個、兩個地多起來，欠的債也一點點還得上了。",
+    "ko": "단골이 한 명 늘고, 두 명 늘고, 빚도 조금씩 갚을 수 있게 되었습니다.",
+    "tl": "Nadagdagan ng isa, ng dalawa ang mga suki, at unti-unti niyang nabayaran ang utang.",
+    "ne": "नियमित ग्राहक एक, दुई गर्दै बढे, र ऋण पनि बिस्तारै तिर्न थाले।",
+    "id": "Pelanggan tetap bertambah satu, lalu dua, dan utangnya mulai bisa dicicil sedikit demi sedikit.",
+    "pt": "Os fregueses fiéis aumentaram, um, dois, e aos poucos ele começou a pagar as dívidas.",
+    "my": "ဖောက်သည်ပုံသေ တစ်ယောက်၊ နှစ်ယောက် တိုးလာပြီး အကြွေးလည်း တဖြည်းဖြည်း ဆပ်နိုင်လာတယ်။",
+    "th": "ลูกค้าประจำเพิ่มขึ้นทีละคนสองคน และเขาก็เริ่มใช้หนี้ได้ทีละนิด"
+   },
+   "grammarNote": {
+    "vi": "お得意さん: khách quen. 〜ようになりました: trở nên ~ được.",
+    "en": "お得意さん: regular customer. 〜ようになりました: became able to ~.",
+    "zh-Hans": "お得意さん：老主顾。〜ようになりました：变得能……了。",
+    "zh-Hant": "お得意さん：老主顧。〜ようになりました：變得能……了。",
+    "ko": "お得意さん: 단골손님. 〜ようになりました: ~할 수 있게 되었다.",
+    "tl": "お得意さん: suki. 〜ようになりました: nakaya nang ~.",
+    "ne": "お得意さん: नियमित ग्राहक। 〜ようになりました: ~ सक्ने भए।",
+    "id": "お得意さん: pelanggan tetap. 〜ようになりました: jadi bisa ~.",
+    "pt": "お得意さん: freguês fiel. 〜ようになりました: passou a conseguir ~.",
+    "my": "お得意さん: ဖောက်သည်ပုံသေ။ 〜ようになりました: ~ နိုင်လာ။",
+    "th": "お得意さん: ลูกค้าประจำ. 〜ようになりました: เริ่ม ~ ได้"
+   },
+   "vocab": [
+    {
+     "word": "借金",
+     "reading": "しゃっきん",
+     "level": "N3",
+     "meanings": {
+      "vi": "món nợ",
+      "en": "debt",
+      "zh-Hans": "欠款，债",
+      "zh-Hant": "欠款，債",
+      "ko": "빚",
+      "tl": "utang",
+      "ne": "ऋण",
+      "id": "utang",
+      "pt": "dívida",
+      "my": "အကြွေး",
+      "th": "หนี้"
+     }
+    }
+   ],
+   "t": [
+    31.15,
+    37.75
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=31.15,37.75"
+  },
+  {
+   "ja": "一年たつと、借金はすっかりなくなりました。",
+   "furigana": [
+    {
+     "surface": "一",
+     "reading": "いち"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "たつと、",
+     "reading": ""
+    },
+    {
+     "surface": "借金",
+     "reading": "しゃっきん"
+    },
+    {
+     "surface": "はすっかりなくなりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ichinen tatsu to, shakkin wa sukkari nakunarimashita.",
+   "translations": {
+    "vi": "Sau một năm, nợ nần đã trả hết sạch.",
+    "en": "After one year, the debts were completely gone.",
+    "zh-Hans": "过了一年，债全部还清了。",
+    "zh-Hant": "過了一年，債全部還清了。",
+    "ko": "일 년이 지나자 빚은 완전히 없어졌습니다.",
+    "tl": "Pagkalipas ng isang taon, tuluyang nawala ang utang.",
+    "ne": "एक वर्ष बित्दा, ऋण पूरै सकियो।",
+    "id": "Setelah setahun, utangnya lunas sama sekali.",
+    "pt": "Passado um ano, as dívidas tinham sumido por completo.",
+    "my": "တစ်နှစ်ကြာတော့ အကြွေး အကုန်ကျေသွားတယ်။",
+    "th": "ผ่านไปหนึ่งปี หนี้ก็หมดเกลี้ยง"
+   },
+   "grammarNote": {
+    "vi": "〜と: sau khi ~ thì. すっかり: hoàn toàn.",
+    "en": "〜と: when ~. すっかり: completely.",
+    "zh-Hans": "〜と：……之后。すっかり：完全。",
+    "zh-Hant": "〜と：……之後。すっかり：完全。",
+    "ko": "〜と: ~하자. すっかり: 완전히.",
+    "tl": "〜と: pagkalipas ng ~. すっかり: tuluyan.",
+    "ne": "〜と: बित्दा। すっかり: पूरै।",
+    "id": "〜と: setelah ~. すっかり: sama sekali.",
+    "pt": "〜と: passado ~. すっかり: por completo.",
+    "my": "〜と: ~ တော့။ すっかり: အကုန်။",
+    "th": "〜と: พอ ~. すっかり: หมดสิ้น"
+   },
+   "vocab": [],
+   "t": [
+    38.35,
+    42.79
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=38.35,42.79"
+  },
+  {
+   "ja": "二年たつと、若い者を雇えるほど、商売が大きくなりました。",
+   "furigana": [
+    {
+     "surface": "二",
+     "reading": "に"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "たつと、",
+     "reading": ""
+    },
+    {
+     "surface": "若",
+     "reading": "わか"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "者",
+     "reading": "もの"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "雇",
+     "reading": "やと"
+    },
+    {
+     "surface": "えるほど、",
+     "reading": ""
+    },
+    {
+     "surface": "商売",
+     "reading": "しょうばい"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "きくなりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ninen tatsu to, wakai mono o yatoeru hodo, shoubai ga ookiku narimashita.",
+   "translations": {
+    "vi": "Sau hai năm, việc buôn bán lớn đến mức có thể thuê người làm.",
+    "en": "After two years, the business had grown enough to hire young workers.",
+    "zh-Hans": "过了两年，生意大到可以雇年轻伙计了。",
+    "zh-Hant": "過了兩年，生意大到可以僱年輕夥計了。",
+    "ko": "이 년이 지나자 젊은 일꾼을 고용할 만큼 장사가 커졌습니다.",
+    "tl": "Pagkalipas ng dalawang taon, lumaki ang negosyo hanggang makapag-upa siya ng mga batang trabahador.",
+    "ne": "दुई वर्ष बित्दा, युवा कामदार राख्न सक्ने गरी व्यापार बढ्यो।",
+    "id": "Setelah dua tahun, usahanya cukup besar untuk mempekerjakan anak muda.",
+    "pt": "Passados dois anos, o negócio tinha crescido a ponto de contratar rapazes.",
+    "my": "နှစ်နှစ်ကြာတော့ လူငယ်တွေကို ငှားနိုင်လောက်အောင် စီးပွား ကြီးလာတယ်။",
+    "th": "ผ่านไปสองปี กิจการก็ใหญ่ขึ้นจนจ้างคนหนุ่มมาช่วยได้"
+   },
+   "grammarNote": {
+    "vi": "雇える: thuê được (thể khả năng). 〜ほど: đến mức ~.",
+    "en": "雇える: can hire (potential). 〜ほど: enough to ~.",
+    "zh-Hans": "雇える：雇得起（可能形）。〜ほど：到……的程度。",
+    "zh-Hant": "雇える：僱得起（可能形）。〜ほど：到……的程度。",
+    "ko": "雇える: 고용할 수 있다 (가능형). 〜ほど: ~할 만큼.",
+    "tl": "雇える: makapag-upa (potensyal). 〜ほど: hanggang ~.",
+    "ne": "雇える: काममा राख्न सक्नु (सम्भाव्य)। 〜ほど: ~ हुने गरी।",
+    "id": "雇える: bisa mempekerjakan (potensial). 〜ほど: sampai ~.",
+    "pt": "雇える: poder contratar (potencial). 〜ほど: a ponto de ~.",
+    "my": "雇える: ငှားနိုင် (နိုင်ခြင်း)။ 〜ほど: ~ လောက်အောင်။",
+    "th": "雇える: จ้างได้ (รูปสามารถ). 〜ほど: จนถึงขั้น ~"
+   },
+   "vocab": [
+    {
+     "word": "商売",
+     "reading": "しょうばい",
+     "level": "N3",
+     "meanings": {
+      "vi": "việc buôn bán",
+      "en": "business, trade",
+      "zh-Hans": "买卖，生意",
+      "zh-Hant": "買賣，生意",
+      "ko": "장사",
+      "tl": "negosyo",
+      "ne": "व्यापार",
+      "id": "dagang, usaha",
+      "pt": "comércio, negócio",
+      "my": "ကုန်သွယ်ရေး, စီးပွား",
+      "th": "การค้าขาย"
+     }
+    }
+   ],
+   "t": [
+    43.39,
+    48.89
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=43.39,48.89"
+  },
+  {
+   "ja": "女房も、毎日店に出て、帳面をつけて手伝いました。",
+   "furigana": [
+    {
+     "surface": "女房",
+     "reading": "にょうぼう"
+    },
+    {
+     "surface": "も、",
+     "reading": ""
+    },
+    {
+     "surface": "毎日",
+     "reading": "まいにち"
+    },
+    {
+     "surface": "店",
+     "reading": "てん"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "で"
+    },
+    {
+     "surface": "て、",
+     "reading": ""
+    },
+    {
+     "surface": "帳面",
+     "reading": "ちょうめん"
+    },
+    {
+     "surface": "をつけて",
+     "reading": ""
+    },
+    {
+     "surface": "手伝",
+     "reading": "てつだ"
+    },
+    {
+     "surface": "いました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nyoubou mo, Mainichiten ni dete, choumen o tsukete tetsudaimashita.",
+   "translations": {
+    "vi": "Vợ anh ngày nào cũng ra tiệm, ghi sổ sách phụ giúp.",
+    "en": "His wife came to the shop every day too, keeping the accounts and helping out.",
+    "zh-Hans": "老婆也天天到店里，记账帮忙。",
+    "zh-Hant": "老婆也天天到店裡，記帳幫忙。",
+    "ko": "아내도 매일 가게에 나와 장부를 적으며 도왔습니다.",
+    "tl": "Tumutulong din araw-araw ang asawa niya sa tindahan, nagtatala sa kuwaderno.",
+    "ne": "श्रीमती पनि हरेक दिन पसलमा बसेर हिसाबकिताब लेख्दै सघाउँथिन्।",
+    "id": "Istrinya juga setiap hari ke toko, mencatat pembukuan dan membantu.",
+    "pt": "A esposa também ia à loja todo dia, cuidava das contas e ajudava.",
+    "my": "ဇနီးလည်း နေ့တိုင်း ဆိုင်ကို လာပြီး စာရင်းရေး ကူညီတယ်။",
+    "th": "ภรรยาก็มาช่วยที่ร้านทุกวัน คอยจดบัญชี"
+   },
+   "grammarNote": {
+    "vi": "帳面をつける: ghi sổ. 手伝う: giúp đỡ.",
+    "en": "帳面をつける: keep the books. 手伝う: help.",
+    "zh-Hans": "帳面をつける：记账。手伝う：帮忙。",
+    "zh-Hant": "帳面をつける：記帳。手伝う：幫忙。",
+    "ko": "帳面をつける: 장부를 쓰다. 手伝う: 돕다.",
+    "tl": "帳面をつける: magtala sa libro. 手伝う: tumulong.",
+    "ne": "帳面をつける: हिसाब लेख्नु। 手伝う: सघाउनु।",
+    "id": "帳面をつける: mencatat pembukuan. 手伝う: membantu.",
+    "pt": "帳面をつける: fazer a contabilidade. 手伝う: ajudar.",
+    "my": "帳面をつける: စာရင်းရေး။ 手伝う: ကူညီ။",
+    "th": "帳面をつける: จดบัญชี. 手伝う: ช่วย"
+   },
+   "vocab": [],
+   "t": [
+    49.49,
+    53.88
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=49.49,53.88"
+  },
+  {
+   "ja": "そして三年目には、表通りに、小さいながらも自分の店を持つことができたのです。",
+   "furigana": [
+    {
+     "surface": "そして",
+     "reading": ""
+    },
+    {
+     "surface": "三",
+     "reading": "さん"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "目",
+     "reading": "め"
+    },
+    {
+     "surface": "には、",
+     "reading": ""
+    },
+    {
+     "surface": "表通",
+     "reading": "おもてどお"
+    },
+    {
+     "surface": "りに、",
+     "reading": ""
+    },
+    {
+     "surface": "小",
+     "reading": "ちい"
+    },
+    {
+     "surface": "さいながらも",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "店",
+     "reading": "みせ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "持",
+     "reading": "も"
+    },
+    {
+     "surface": "つことができたのです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Soshite sannenme ni wa, omotedoori ni, chiisai nagara mo jibun no mise o motsu koto ga dekita no desu.",
+   "translations": {
+    "vi": "Và đến năm thứ ba, anh đã có được một cửa tiệm của riêng mình ở mặt phố, tuy nhỏ nhưng là của mình.",
+    "en": "And in the third year, he was able to open his own shop on the main street, small as it was.",
+    "zh-Hans": "到了第三年，他在大街上开了一家虽小却属于自己的店。",
+    "zh-Hant": "到了第三年，他在大街上開了一家雖小卻屬於自己的店。",
+    "ko": "그리고 삼 년째에는 큰길가에 작지만 자기 가게를 낼 수 있었습니다.",
+    "tl": "At sa ikatlong taon, nagkaroon siya ng sariling tindahan sa pangunahing kalye, maliit man.",
+    "ne": "अनि तेस्रो वर्षमा, मूल सडकमा सानो भए पनि आफ्नै पसल खोल्न सके।",
+    "id": "Dan di tahun ketiga, ia bisa punya toko sendiri di jalan utama, walau kecil.",
+    "pt": "E, no terceiro ano, ele conseguiu ter sua própria loja na rua principal, pequena mas sua.",
+    "my": "ပြီးတော့ တတိယနှစ်မှာ လမ်းမကြီးပေါ်မှာ သေးပေမဲ့ ကိုယ်ပိုင်ဆိုင် ဖွင့်နိုင်ခဲ့တယ်။",
+    "th": "และในปีที่สาม เขาก็มีร้านของตัวเองบนถนนใหญ่ แม้จะเล็กก็ตาม"
+   },
+   "grammarNote": {
+    "vi": "表通り: phố chính. 〜ながらも: tuy ~ nhưng. 〜ことができた: đã có thể ~.",
+    "en": "表通り: main street. 〜ながらも: although ~. 〜ことができた: was able to ~.",
+    "zh-Hans": "表通り：大街。〜ながらも：虽然……但。〜ことができた：能够……了。",
+    "zh-Hant": "表通り：大街。〜ながらも：雖然……但。〜ことができた：能夠……了。",
+    "ko": "表通り: 큰길. 〜ながらも: ~하지만. 〜ことができた: ~할 수 있었다.",
+    "tl": "表通り: pangunahing kalye. 〜ながらも: kahit ~. 〜ことができた: nakaya ~.",
+    "ne": "表通り: मूल सडक। 〜ながらも: ~ भए पनि। 〜ことができた: ~ सके।",
+    "id": "表通り: jalan utama. 〜ながらも: walaupun ~. 〜ことができた: bisa ~.",
+    "pt": "表通り: rua principal. 〜ながらも: embora ~. 〜ことができた: conseguiu ~.",
+    "my": "表通り: လမ်းမကြီး။ 〜ながらも: ~ ပေမဲ့။ 〜ことができた: ~ နိုင်ခဲ့။",
+    "th": "表通り: ถนนใหญ่. 〜ながらも: แม้จะ ~. 〜ことができた: สามารถ ~ ได้"
+   },
+   "vocab": [],
+   "t": [
+    54.48,
+    62.93
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=54.48,62.93"
+  },
+  {
+   "ja": "その年の大みそかの夜のことです。",
+   "furigana": [
+    {
+     "surface": "その",
+     "reading": ""
+    },
+    {
+     "surface": "年",
+     "reading": "とし"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "みそかの",
+     "reading": ""
+    },
+    {
+     "surface": "夜",
+     "reading": "よる"
+    },
+    {
+     "surface": "のことです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono toshi no oo miso ka no yoru no koto desu.",
+   "translations": {
+    "vi": "Đó là chuyện đêm giao thừa năm ấy.",
+    "en": "This is the story of New Year's Eve that year.",
+    "zh-Hans": "那是那一年除夕夜的事。",
+    "zh-Hant": "那是那一年除夕夜的事。",
+    "ko": "그해 섣달그믐 밤의 일입니다.",
+    "tl": "Ito ay kuwento ng bisperas ng Bagong Taon noong taong iyon.",
+    "ne": "यो त्यो वर्षको नयाँ वर्षको अघिल्लो रातको कुरा हो।",
+    "id": "Ini kisah malam tahun baru pada tahun itu.",
+    "pt": "Esta é a história da véspera de Ano-Novo daquele ano.",
+    "my": "ဒါက အဲဒီနှစ်ရဲ့ နှစ်ကုန်ည အကြောင်းပါ။",
+    "th": "นี่เป็นเรื่องในคืนส่งท้ายปีของปีนั้น"
+   },
+   "grammarNote": {
+    "vi": "大みそか: ngày cuối năm, đêm giao thừa. 〜のことです: là chuyện ~.",
+    "en": "大みそか: New Year's Eve. 〜のことです: it is about ~.",
+    "zh-Hans": "大みそか：除夕。〜のことです：是……的事。",
+    "zh-Hant": "大みそか：除夕。〜のことです：是……的事。",
+    "ko": "大みそか: 섣달그믐, 한 해의 마지막 날. 〜のことです: ~의 일이다.",
+    "tl": "大みそか: bisperas ng Bagong Taon. 〜のことです: tungkol ito sa ~.",
+    "ne": "大みそか: वर्षको अन्तिम दिन। 〜のことです: ~ को कुरा हो।",
+    "id": "大みそか: malam tahun baru. 〜のことです: ini tentang ~.",
+    "pt": "大みそか: véspera de Ano-Novo. 〜のことです: trata-se de ~.",
+    "my": "大みそか: နှစ်ကုန်ရက်။ 〜のことです: ~ အကြောင်း။",
+    "th": "大みそか: วันสิ้นปี. 〜のことです: เป็นเรื่องของ ~"
+   },
+   "vocab": [],
+   "t": [
+    63.53,
+    66.92
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=63.53,66.92"
+  },
+  {
+   "ja": "外では、除夜の鐘が鳴っていました。",
+   "furigana": [
+    {
+     "surface": "外",
+     "reading": "そと"
+    },
+    {
+     "surface": "では、",
+     "reading": ""
+    },
+    {
+     "surface": "除夜",
+     "reading": "じょや"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "鐘",
+     "reading": "かね"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "鳴",
+     "reading": "な"
+    },
+    {
+     "surface": "っていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Soto de wa, joya no kane ga natte imashita.",
+   "translations": {
+    "vi": "Bên ngoài, chuông chùa đêm giao thừa đang ngân.",
+    "en": "Outside, the temple bells of New Year's Eve were ringing.",
+    "zh-Hans": "外面，除夕的钟声正在响着。",
+    "zh-Hant": "外面，除夕的鐘聲正在響著。",
+    "ko": "밖에서는 제야의 종이 울리고 있었습니다.",
+    "tl": "Sa labas, tumutunog ang mga kampana ng bisperas ng Bagong Taon.",
+    "ne": "बाहिर, वर्षान्तको घण्टी बजिरहेको थियो।",
+    "id": "Di luar, lonceng malam tahun baru sedang berdentang.",
+    "pt": "Lá fora, tocavam os sinos da véspera de Ano-Novo.",
+    "my": "အပြင်မှာ နှစ်ကုန်ခေါင်းလောင်းသံ မြည်နေတယ်။",
+    "th": "ข้างนอก ระฆังส่งท้ายปีกำลังดังอยู่"
+   },
+   "grammarNote": {
+    "vi": "除夜の鐘: chuông giao thừa. 鳴る: kêu, vang.",
+    "en": "除夜の鐘: New Year's Eve bells. 鳴る: ring.",
+    "zh-Hans": "除夜の鐘：除夕钟。鳴る：响。",
+    "zh-Hant": "除夜の鐘：除夕鐘。鳴る：響。",
+    "ko": "除夜の鐘: 제야의 종. 鳴る: 울리다.",
+    "tl": "除夜の鐘: kampana ng bisperas. 鳴る: tumunog.",
+    "ne": "除夜の鐘: वर्षान्तको घण्टी। 鳴る: बज्नु।",
+    "id": "除夜の鐘: lonceng malam tahun baru. 鳴る: berbunyi.",
+    "pt": "除夜の鐘: sinos da passagem de ano. 鳴る: tocar.",
+    "my": "除夜の鐘: နှစ်ကုန်ခေါင်းလောင်း။ 鳴る: မြည်သည်။",
+    "th": "除夜の鐘: ระฆังส่งท้ายปี. 鳴る: ดัง"
+   },
+   "vocab": [],
+   "t": [
+    67.52,
+    70.46
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=67.52,70.46"
+  },
+  {
+   "ja": "除夜の鐘は、一年の最後の夜に、お寺で百八回つく鐘です。",
+   "furigana": [
+    {
+     "surface": "除夜",
+     "reading": "じょや"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "鐘",
+     "reading": "かね"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "一",
+     "reading": "いち"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "最後",
+     "reading": "さいご"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "夜",
+     "reading": "よる"
+    },
+    {
+     "surface": "に、お",
+     "reading": ""
+    },
+    {
+     "surface": "寺",
+     "reading": "てら"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "百",
+     "reading": "ひゃく"
+    },
+    {
+     "surface": "八",
+     "reading": "はち"
+    },
+    {
+     "surface": "回",
+     "reading": "かい"
+    },
+    {
+     "surface": "つく",
+     "reading": ""
+    },
+    {
+     "surface": "鐘",
+     "reading": "かね"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Joya no kane wa, ichinen no saigo no yoru ni, otera de hyaku hachikai tsuku kane desu.",
+   "translations": {
+    "vi": "Chuông giao thừa là chuông chùa đánh một trăm lẻ tám tiếng vào đêm cuối cùng của năm.",
+    "en": "The joya bell is rung one hundred and eight times at temples on the last night of the year.",
+    "zh-Hans": "除夕钟是一年最后一个夜晚，寺庙敲一百零八下的钟。",
+    "zh-Hant": "除夕鐘是一年最後一個夜晚，寺廟敲一百零八下的鐘。",
+    "ko": "제야의 종은 한 해의 마지막 밤에 절에서 백여덟 번 치는 종입니다.",
+    "tl": "Ang joya no kane ay kampanang pinapatunog nang isandaan at walong beses sa templo sa huling gabi ng taon.",
+    "ne": "जोया नो काने वर्षको अन्तिम रात मन्दिरमा एक सय आठ पटक बजाइने घण्टी हो।",
+    "id": "Joya no kane adalah lonceng kuil yang dibunyikan seratus delapan kali pada malam terakhir tahun.",
+    "pt": "O joya no kane é o sino que os templos tocam cento e oito vezes na última noite do ano.",
+    "my": "ဂျိုယာ နို ခါနဲ ဆိုတာ နှစ်ရဲ့ နောက်ဆုံးညမှာ ဘုရားကျောင်းက တစ်ရာ့ရှစ်ချက် ထိုးတဲ့ ခေါင်းလောင်း ဖြစ်တယ်။",
+    "th": "โจยะโนะคาเนะคือระฆังที่วัดตีหนึ่งร้อยแปดครั้งในคืนสุดท้ายของปี"
+   },
+   "grammarNote": {
+    "vi": "つく: đánh (chuông). Người Nhật tin 108 tiếng chuông xua đi 108 phiền não.",
+    "en": "つく: strike (a bell). The 108 strokes are said to drive away 108 earthly desires.",
+    "zh-Hans": "つく：敲（钟）。据说一百零八下能驱除一百零八种烦恼。",
+    "zh-Hant": "つく：敲（鐘）。據說一百零八下能驅除一百零八種煩惱。",
+    "ko": "つく: (종을) 치다. 108번의 종소리가 108가지 번뇌를 없앤다고 합니다.",
+    "tl": "つく: patunugin (kampana). Sinasabing pinapawi ng 108 tunog ang 108 makamundong pagnanasa.",
+    "ne": "つく: (घण्टी) बजाउनु। १०८ पटकले १०८ सांसारिक इच्छा हटाउँछ भनिन्छ।",
+    "id": "つく: membunyikan (lonceng). Konon 108 dentang mengusir 108 hawa nafsu duniawi.",
+    "pt": "つく: tocar (sino). Diz-se que as 108 badaladas afastam os 108 desejos mundanos.",
+    "my": "つく: (ခေါင်းလောင်း) ထိုး။ ၁၀၈ ချက်က လောဘ ၁၀၈ ပါးကို ဖယ်ရှားတယ်လို့ ယုံကြည်ကြ။",
+    "th": "つく: ตี (ระฆัง). เชื่อกันว่าเสียง 108 ครั้งขจัดกิเลส 108 ประการ"
+   },
+   "vocab": [
+    {
+     "word": "鐘",
+     "reading": "かね",
+     "level": "N3",
+     "meanings": {
+      "vi": "chuông lớn",
+      "en": "bell",
+      "zh-Hans": "钟",
+      "zh-Hant": "鐘",
+      "ko": "종",
+      "tl": "kampana",
+      "ne": "घण्टा",
+      "id": "lonceng",
+      "pt": "sino",
+      "my": "ခေါင်းလောင်း",
+      "th": "ระฆัง"
+     }
+    }
+   ],
+   "t": [
+    71.06,
+    77.06
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=71.06,77.06"
+  },
+  {
+   "ja": "いい音だなあ。今年も一年、無事に終わったな。",
+   "furigana": [
+    {
+     "surface": "いい",
+     "reading": ""
+    },
+    {
+     "surface": "音",
+     "reading": "おと"
+    },
+    {
+     "surface": "だなあ。",
+     "reading": ""
+    },
+    {
+     "surface": "今年",
+     "reading": "ことし"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "一",
+     "reading": "いち"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "無事",
+     "reading": "ぶじ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "終",
+     "reading": "お"
+    },
+    {
+     "surface": "わったな。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ii oto da naa. Kotoshi mo ichinen, buji ni owatta na.",
+   "translations": {
+    "vi": "Tiếng chuông hay quá. Năm nay cũng trôi qua bình an rồi.",
+    "en": "What a nice sound. Another year ended safely.",
+    "zh-Hans": "真好听啊。今年也平平安安地过去了。",
+    "zh-Hant": "真好聽啊。今年也平平安安地過去了。",
+    "ko": "좋은 소리구나. 올해도 한 해 무사히 끝났네.",
+    "tl": "Ang gandang tunog. Natapos na naman nang ligtas ang isang taon.",
+    "ne": "कस्तो राम्रो आवाज। यो वर्ष पनि सकुशल सकियो।",
+    "id": "Suaranya bagus, ya. Tahun ini pun berakhir dengan selamat.",
+    "pt": "Que som bonito. Mais um ano que terminou em paz.",
+    "my": "အသံ ကောင်းလိုက်တာ။ ဒီနှစ်လည်း ဘေးကင်းစွာ ပြီးသွားပြီ။",
+    "th": "เสียงเพราะจัง ปีนี้ก็ผ่านไปอย่างปลอดภัยอีกปี"
+   },
+   "grammarNote": {
+    "vi": "〜だなあ: cảm thán. 無事に: bình an.",
+    "en": "〜だなあ: exclamation. 無事に: safely, without trouble.",
+    "zh-Hans": "〜だなあ：感叹。無事に：平安。",
+    "zh-Hant": "〜だなあ：感嘆。無事に：平安。",
+    "ko": "〜だなあ: 감탄. 無事に: 무사히.",
+    "tl": "〜だなあ: padamdam. 無事に: nang ligtas.",
+    "ne": "〜だなあ: उद्गार। 無事に: सकुशल।",
+    "id": "〜だなあ: seruan. 無事に: dengan selamat.",
+    "pt": "〜だなあ: exclamação. 無事に: sem incidentes.",
+    "my": "〜だなあ: အာမေဍိတ်။ 無事に: ဘေးကင်းစွာ။",
+    "th": "〜だなあ: คำอุทาน. 無事に: อย่างปลอดภัย"
+   },
+   "vocab": [
+    {
+     "word": "無事",
+     "reading": "ぶじ",
+     "level": "N3",
+     "meanings": {
+      "vi": "bình an, suôn sẻ",
+      "en": "safe, without incident",
+      "zh-Hans": "平安",
+      "zh-Hant": "平安",
+      "ko": "무사",
+      "tl": "ligtas",
+      "ne": "सकुशल",
+      "id": "selamat",
+      "pt": "em segurança",
+      "my": "ဘေးကင်း",
+      "th": "ปลอดภัย"
+     }
+    }
+   ],
+   "t": [
+    77.96,
+    82.22
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=77.96,82.22"
+  },
+  {
+   "ja": "本当に。おまえさん、よくがんばったね。",
+   "furigana": [
+    {
+     "surface": "本当",
+     "reading": "ほんとう"
+    },
+    {
+     "surface": "に。おまえさん、よくがんばったね。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hontouni. Omaesan, yoku ganbatta ne.",
+   "translations": {
+    "vi": "Đúng vậy. Mình đã cố gắng nhiều lắm.",
+    "en": "It really did. You worked so hard.",
+    "zh-Hans": "是啊。当家的，你真是辛苦了。",
+    "zh-Hant": "是啊。當家的，你真是辛苦了。",
+    "ko": "정말이에요. 여보, 정말 애썼어요.",
+    "tl": "Totoo. Mahal, nagsikap ka talaga.",
+    "ne": "साँच्चै। तपाईंले धेरै मिहिनेत गर्नुभयो।",
+    "id": "Benar. Kamu sudah bekerja keras sekali.",
+    "pt": "É mesmo. Meu bem, você se esforçou muito.",
+    "my": "ဟုတ်တယ်။ ရှင် အရမ်း ကြိုးစားခဲ့တာပဲ။",
+    "th": "จริงด้วย พี่พยายามมากเลยนะ"
+   },
+   "grammarNote": {
+    "vi": "よくがんばったね: mình giỏi lắm, đã cố gắng nhiều.",
+    "en": "よくがんばったね: you really worked hard.",
+    "zh-Hans": "よくがんばったね：你真努力、辛苦了。",
+    "zh-Hant": "よくがんばったね：你真努力、辛苦了。",
+    "ko": "よくがんばったね: 정말 애썼다.",
+    "tl": "よくがんばったね: nagsikap ka talaga.",
+    "ne": "よくがんばったね: धेरै मिहिनेत गर्‍यौ।",
+    "id": "よくがんばったね: kamu hebat, sudah berjuang.",
+    "pt": "よくがんばったね: você se esforçou muito.",
+    "my": "よくがんばったね: အရမ်းကြိုးစားခဲ့။",
+    "th": "よくがんばったね: พยายามมากเลย"
+   },
+   "vocab": [],
+   "t": [
+    83.12,
+    86.91
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=83.12,86.91"
+  },
+  {
+   "ja": "おまえのおかげだよ。三年前のおれは、ひどかったからな。",
+   "furigana": [
+    {
+     "surface": "おまえのおかげだよ。",
+     "reading": ""
+    },
+    {
+     "surface": "三",
+     "reading": "さん"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "のおれは、ひどかったからな。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Omae no okage da yo. Sannen mae no ore wa, hidokatta kara na.",
+   "translations": {
+    "vi": "Là nhờ em cả đấy. Tôi của ba năm trước tệ hại lắm mà.",
+    "en": "It's all thanks to you. Me three years ago, I was awful.",
+    "zh-Hans": "都是托你的福。三年前的我，太不像话了。",
+    "zh-Hant": "都是託你的福。三年前的我，太不像話了。",
+    "ko": "다 당신 덕분이야. 삼 년 전의 나는 형편없었으니까.",
+    "tl": "Dahil iyon sa iyo. Ang sama ko noong tatlong taon na ang nakaraan.",
+    "ne": "सबै तिम्रै कृपाले हो। तीन वर्षअघिको म त निकै बिग्रेको थिएँ।",
+    "id": "Semua berkat kamu. Aku tiga tahun lalu parah sekali.",
+    "pt": "É tudo graças a você. Eu de três anos atrás era um horror.",
+    "my": "မင်းကျေးဇူးကြောင့်ပါ။ သုံးနှစ်အရင်က ငါက တော်တော်ဆိုးခဲ့တာကိုး။",
+    "th": "ก็เพราะเธอนั่นแหละ ข้าเมื่อสามปีก่อนแย่มาก"
+   },
+   "grammarNote": {
+    "vi": "〜のおかげ: nhờ ~. ひどい: tệ hại. 〜からな: vì ~ mà (nam, thân).",
+    "en": "〜のおかげ: thanks to ~. ひどい: terrible. 〜からな: since ~ (male, casual).",
+    "zh-Hans": "〜のおかげ：托……的福。ひどい：糟糕。〜からな：因为……嘛（男性口语）。",
+    "zh-Hant": "〜のおかげ：託……的福。ひどい：糟糕。〜からな：因為……嘛（男性口語）。",
+    "ko": "〜のおかげ: ~ 덕분. ひどい: 형편없다. 〜からな: ~니까 (남성, 친근).",
+    "tl": "〜のおかげ: dahil sa ~. ひどい: masama. 〜からな: kasi ~ (lalaki).",
+    "ne": "〜のおかげ: ~ को कृपाले। ひどい: बिग्रेको, नराम्रो। 〜からな: किनभने (पुरुष)।",
+    "id": "〜のおかげ: berkat ~. ひどい: parah. 〜からな: karena ~ (pria).",
+    "pt": "〜のおかげ: graças a ~. ひどい: terrível. 〜からな: porque ~ (masculino).",
+    "my": "〜のおかげ: ~ ကျေးဇူးကြောင့်။ ひどい: ဆိုးသော။ 〜からな: ~ လို့ (အမျိုးသား)။",
+    "th": "〜のおかげ: เพราะ ~ (ในทางดี). ひどい: แย่. 〜からな: เพราะ ~ นะ (ผู้ชาย)"
+   },
+   "vocab": [],
+   "t": [
+    87.81,
+    92.69
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=87.81,92.69"
+  },
+  {
+   "ja": "おまえさん、今日は、聞いてほしい話があるの。",
+   "furigana": [
+    {
+     "surface": "おまえさん、",
+     "reading": ""
+    },
+    {
+     "surface": "今日",
+     "reading": "きょう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "いてほしい",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "があるの。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Omaesan, kyou wa, kiite hoshii hanashi ga aru no.",
+   "translations": {
+    "vi": "Mình ơi, hôm nay em có chuyện muốn mình nghe.",
+    "en": "Dear, today there's something I want you to hear.",
+    "zh-Hans": "当家的，今天有件事想让你听听。",
+    "zh-Hant": "當家的，今天有件事想讓你聽聽。",
+    "ko": "여보, 오늘은 들려주고 싶은 이야기가 있어요.",
+    "tl": "Mahal, ngayon may gusto akong ikuwento sa iyo.",
+    "ne": "सुन्नुहोस्, आज तपाईंलाई सुनाउन चाहेको एउटा कुरा छ।",
+    "id": "Pak, hari ini ada cerita yang ingin kusampaikan.",
+    "pt": "Meu bem, hoje tem uma coisa que eu quero que você ouça.",
+    "my": "ရှင်၊ ဒီနေ့ နားထောင်စေချင်တဲ့ စကားတစ်ခု ရှိတယ်။",
+    "th": "พี่ วันนี้มีเรื่องอยากให้ฟังหน่อย"
+   },
+   "grammarNote": {
+    "vi": "〜てほしい: muốn (ai đó) ~. 〜の: đuôi câu nữ, nhẹ nhàng.",
+    "en": "〜てほしい: want (someone) to ~. 〜の: soft feminine ending.",
+    "zh-Hans": "〜てほしい：希望（别人）……。〜の：女性柔和语尾。",
+    "zh-Hant": "〜てほしい：希望（別人）……。〜の：女性柔和語尾。",
+    "ko": "〜てほしい: ~해 주길 바라다. 〜の: 여성의 부드러운 어미.",
+    "tl": "〜てほしい: gusto kong ~ mo. 〜の: malambing na pambabaeng hulapi.",
+    "ne": "〜てほしい: (अरूले) ~ होस् भन्ने चाहना। 〜の: नरम स्त्रीलिङ्गी अन्त्य।",
+    "id": "〜てほしい: ingin (orang lain) ~. 〜の: akhiran feminin lembut.",
+    "pt": "〜てほしい: querer que (alguém) ~. 〜の: final feminino suave.",
+    "my": "〜てほしい: (တခြားသူ) ~ စေချင်။ 〜の: အမျိုးသမီး နူးညံ့ အဆုံးသတ်။",
+    "th": "〜てほしい: อยากให้ (คนอื่น) ~. 〜の: คำลงท้ายผู้หญิงแบบนุ่มนวล"
+   },
+   "vocab": [],
+   "t": [
+    93.59,
+    98.08
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=93.59,98.08"
+  },
+  {
+   "ja": "女房は、奥から古い革の財布を持ってきました。",
+   "furigana": [
+    {
+     "surface": "女房",
+     "reading": "にょうぼう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "奥",
+     "reading": "おく"
+    },
+    {
+     "surface": "から",
+     "reading": ""
+    },
+    {
+     "surface": "古",
+     "reading": "ふる"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "革",
+     "reading": "かわ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "財布",
+     "reading": "さいふ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "持",
+     "reading": "も"
+    },
+    {
+     "surface": "ってきました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nyoubou wa, oku kara furui kawa no saifu o motte kimashita.",
+   "translations": {
+    "vi": "Người vợ mang từ trong nhà ra một chiếc ví da cũ.",
+    "en": "His wife brought an old leather wallet from the back room.",
+    "zh-Hans": "老婆从里屋拿出来一个旧皮钱包。",
+    "zh-Hant": "老婆從裡屋拿出來一個舊皮錢包。",
+    "ko": "아내는 안쪽에서 낡은 가죽 지갑을 들고 왔습니다.",
+    "tl": "Kinuha ng asawa mula sa loob ang isang lumang pitakang katad.",
+    "ne": "श्रीमतीले भित्रबाट पुरानो छालाको पर्स ल्याइन्।",
+    "id": "Istrinya membawa sebuah dompet kulit tua dari dalam rumah.",
+    "pt": "A esposa trouxe dos fundos da casa uma velha carteira de couro.",
+    "my": "ဇနီးက အထဲကနေ ဟောင်းနွမ်းတဲ့ သားရေပိုက်ဆံအိတ်ကို ယူလာတယ်။",
+    "th": "ภรรยาหยิบกระเป๋าเงินหนังเก่ามาจากข้างใน"
+   },
+   "grammarNote": {
+    "vi": "奥: phía trong nhà. 〜てきました: mang ~ ra.",
+    "en": "奥: the back of the house. 〜てきました: brought ~ out.",
+    "zh-Hans": "奥：里屋。〜てきました：拿出来。",
+    "zh-Hant": "奥：裡屋。〜てきました：拿出來。",
+    "ko": "奥: 집 안쪽. 〜てきました: 가지고 왔다.",
+    "tl": "奥: loob ng bahay. 〜てきました: kinuha at dinala.",
+    "ne": "奥: घरको भित्री भाग। 〜てきました: ल्याइन्।",
+    "id": "奥: bagian dalam rumah. 〜てきました: membawa keluar.",
+    "pt": "奥: fundos da casa. 〜てきました: trouxe.",
+    "my": "奥: အိမ်အတွင်းပိုင်း။ 〜てきました: ယူလာ။",
+    "th": "奥: ข้างในบ้าน. 〜てきました: นำออกมา"
+   },
+   "vocab": [
+    {
+     "word": "奥",
+     "reading": "おく",
+     "level": "N3",
+     "meanings": {
+      "vi": "bên trong, phía trong",
+      "en": "inner part, back",
+      "zh-Hans": "里面",
+      "zh-Hant": "裡面",
+      "ko": "안쪽",
+      "tl": "loob",
+      "ne": "भित्र",
+      "id": "bagian dalam",
+      "pt": "fundo, interior",
+      "my": "အတွင်း",
+      "th": "ข้างใน"
+     }
+    },
+    {
+     "word": "革",
+     "reading": "かわ",
+     "level": "N3",
+     "meanings": {
+      "vi": "da thuộc",
+      "en": "leather",
+      "zh-Hans": "皮革",
+      "zh-Hant": "皮革",
+      "ko": "가죽",
+      "tl": "katad",
+      "ne": "छाला",
+      "id": "kulit",
+      "pt": "couro",
+      "my": "သားရေ",
+      "th": "หนัง"
+     }
+    }
+   ],
+   "t": [
+    98.98,
+    102.62
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=98.98,102.62"
+  },
+  {
+   "ja": "……この財布は。どこかで見たことがあるような。",
+   "furigana": [
+    {
+     "surface": "……この",
+     "reading": ""
+    },
+    {
+     "surface": "財布",
+     "reading": "さいふ"
+    },
+    {
+     "surface": "は。どこかで",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "たことがあるような。",
+     "reading": ""
+    }
+   ],
+   "romaji": "... Kono saifu wa. Doko ka de mita koto ga aru you na.",
+   "translations": {
+    "vi": "…Cái ví này. Hình như đã thấy ở đâu rồi.",
+    "en": "…This wallet. I feel like I've seen it somewhere.",
+    "zh-Hans": "……这个钱包。好像在哪儿见过。",
+    "zh-Hant": "……這個錢包。好像在哪兒見過。",
+    "ko": "…이 지갑은. 어디서 본 적이 있는 것 같은데.",
+    "tl": "…Ang pitakang ito. Parang nakita ko na ito kung saan.",
+    "ne": "…यो पर्स। कतै देखेजस्तो लाग्छ।",
+    "id": "…Dompet ini. Sepertinya pernah kulihat entah di mana.",
+    "pt": "…Esta carteira. Parece que já a vi em algum lugar.",
+    "my": "…ဒီပိုက်ဆံအိတ်။ တစ်နေရာမှာ မြင်ဖူးသလိုပဲ။",
+    "th": "…กระเป๋าใบนี้ เหมือนเคยเห็นที่ไหนมาก่อน"
+   },
+   "grammarNote": {
+    "vi": "〜たことがある: đã từng ~. 〜ような: hình như (bỏ lửng).",
+    "en": "〜たことがある: have ~ed before. 〜ような: seems like (trailing off).",
+    "zh-Hans": "〜たことがある：曾经……过。〜ような：好像（话说一半）。",
+    "zh-Hant": "〜たことがある：曾經……過。〜ような：好像（話說一半）。",
+    "ko": "〜たことがある: ~한 적이 있다. 〜ような: ~인 것 같은 (말끝 흐림).",
+    "tl": "〜たことがある: nagawa na ~. 〜ような: parang (pabitin).",
+    "ne": "〜たことがある: ~ को अनुभव छ। 〜ような: जस्तो (अधुरो)।",
+    "id": "〜たことがある: pernah ~. 〜ような: sepertinya (menggantung).",
+    "pt": "〜たことがある: já ter ~. 〜ような: parece que (suspenso).",
+    "my": "〜たことがある: ~ ဖူး။ 〜ような: ~ သလို (စကားမဆုံး)။",
+    "th": "〜たことがある: เคย ~. 〜ような: เหมือนจะ (พูดค้าง)"
+   },
+   "vocab": [],
+   "t": [
+    103.52,
+    107.12
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=103.52,107.12"
+  },
+  {
+   "ja": "三年前、おまえさんが芝の浜で拾ってきた、あの財布だよ。",
+   "furigana": [
+    {
+     "surface": "三",
+     "reading": "さん"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "、おまえさんが",
+     "reading": ""
+    },
+    {
+     "surface": "芝",
+     "reading": "しば"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "浜",
+     "reading": "はま"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "拾",
+     "reading": "ひろ"
+    },
+    {
+     "surface": "ってきた、あの",
+     "reading": ""
+    },
+    {
+     "surface": "財布",
+     "reading": "さいふ"
+    },
+    {
+     "surface": "だよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sannen mae, omaesan ga Shiba no hama de hirotte kita, ano saifu da yo.",
+   "translations": {
+    "vi": "Đó là cái ví mình nhặt ở bờ biển Shiba ba năm trước đấy.",
+    "en": "It's the wallet you picked up on Shiba beach three years ago.",
+    "zh-Hans": "是三年前，你在芝的海滩捡回来的那个钱包啊。",
+    "zh-Hant": "是三年前，你在芝的海灘撿回來的那個錢包啊。",
+    "ko": "삼 년 전에 당신이 시바 바닷가에서 주워 온 그 지갑이에요.",
+    "tl": "Iyan ang pitakang napulot mo sa dalampasigan ng Shiba tatlong taon na ang nakaraan.",
+    "ne": "तीन वर्षअघि तपाईंले शिबाको किनारमा भेटेर ल्याएको त्यही पर्स हो।",
+    "id": "Ini dompet yang kamu pungut di pantai Shiba tiga tahun lalu.",
+    "pt": "É a carteira que você achou na praia de Shiba há três anos.",
+    "my": "သုံးနှစ်အရင်က ရှင် ရှီဘာကမ်းခြေမှာ ကောက်လာတဲ့ ပိုက်ဆံအိတ်လေ။",
+    "th": "ก็กระเป๋าที่พี่เก็บได้ที่ชายหาดชิบะเมื่อสามปีก่อนไงล่ะ"
+   },
+   "grammarNote": {
+    "vi": "〜てきた: nhặt rồi mang về. あの: cái ~ ấy (cả hai cùng biết).",
+    "en": "〜てきた: picked up and brought home. あの: that ~ (we both know).",
+    "zh-Hans": "〜てきた：捡回来。あの：那个（双方都知道的）。",
+    "zh-Hant": "〜てきた：撿回來。あの：那個（雙方都知道的）。",
+    "ko": "〜てきた: 주워 왔다. あの: 그 (서로 아는 것).",
+    "tl": "〜てきた: pinulot at iniuwi. あの: iyon (alam nating dalawa).",
+    "ne": "〜てきた: भेटेर ल्याएको। あの: त्यही (दुवैलाई थाहा भएको)।",
+    "id": "〜てきた: dipungut lalu dibawa pulang. あの: itu (yang kita tahu).",
+    "pt": "〜てきた: achou e trouxe para casa. あの: aquela (que ambos conhecem).",
+    "my": "〜てきた: ကောက်ယူလာ။ あの: အဲဒီ (နှစ်ဦးစလုံး သိ)။",
+    "th": "〜てきた: เก็บแล้วนำกลับมา. あの: ใบนั้น (ที่รู้กันอยู่)"
+   },
+   "vocab": [
+    {
+     "word": "浜",
+     "reading": "はま",
+     "level": "N1",
+     "meanings": {
+      "vi": "bãi biển",
+      "en": "beach, shore",
+      "zh-Hans": "海滩",
+      "zh-Hant": "海灘",
+      "ko": "바닷가",
+      "tl": "dalampasigan",
+      "ne": "समुद्र किनार",
+      "id": "pantai",
+      "pt": "praia",
+      "my": "ကမ်းခြေ",
+      "th": "ชายหาด"
+     }
+    }
+   ],
+   "t": [
+    108.02,
+    113.48
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=108.02,113.48"
+  },
+  {
+   "ja": "なんだって。あれは、夢じゃなかったのか！",
+   "furigana": [
+    {
+     "surface": "なんだって。あれは、",
+     "reading": ""
+    },
+    {
+     "surface": "夢",
+     "reading": "ゆめ"
+    },
+    {
+     "surface": "じゃなかったのか！",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nan datte. Are wa, yume ja nakatta no ka!",
+   "translations": {
+    "vi": "Cái gì? Vậy ra đó không phải là mơ sao!",
+    "en": "What? So that wasn't a dream!",
+    "zh-Hans": "什么？原来那不是梦啊！",
+    "zh-Hant": "什麼？原來那不是夢啊！",
+    "ko": "뭐라고? 그게 꿈이 아니었단 말이야!",
+    "tl": "Ano? Hindi pala iyon panaginip!",
+    "ne": "के रे? त्यो सपना थिएन र!",
+    "id": "Apa? Jadi itu bukan mimpi!",
+    "pt": "O quê? Então aquilo não foi sonho!",
+    "my": "ဘာ? အဲဒါ အိပ်မက် မဟုတ်ဘူးလား!",
+    "th": "อะไรนะ งั้นนั่นก็ไม่ใช่ความฝันน่ะสิ!"
+   },
+   "grammarNote": {
+    "vi": "なんだって: cái gì cơ. 〜じゃなかったのか: hóa ra không phải ~ sao.",
+    "en": "なんだって: what? 〜じゃなかったのか: so it wasn't ~?",
+    "zh-Hans": "なんだって：什么？〜じゃなかったのか：原来不是……吗。",
+    "zh-Hant": "なんだって：什麼？〜じゃなかったのか：原來不是……嗎。",
+    "ko": "なんだって: 뭐라고. 〜じゃなかったのか: ~이 아니었단 말인가.",
+    "tl": "なんだって: ano? 〜じゃなかったのか: hindi pala ~?",
+    "ne": "なんだって: के रे? 〜じゃなかったのか: ~ थिएन र?",
+    "id": "なんだって: apa? 〜じゃなかったのか: jadi bukan ~?",
+    "pt": "なんだって: o quê? 〜じゃなかったのか: então não foi ~?",
+    "my": "なんだって: ဘာ? 〜じゃなかったのか: ~ မဟုတ်ဘူးလား။",
+    "th": "なんだって: อะไรนะ. 〜じゃなかったのか: ที่แท้ก็ไม่ใช่ ~ หรอกหรือ"
+   },
+   "vocab": [],
+   "t": [
+    114.38,
+    117.79
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=114.38,117.79"
+  },
+  {
+   "ja": "勝五郎は、自分の目が信じられませんでした。",
+   "furigana": [
+    {
+     "surface": "勝五郎",
+     "reading": "かつごろう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "目",
+     "reading": "め"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "信",
+     "reading": "しん"
+    },
+    {
+     "surface": "じられませんでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Katsugorou wa, jibun no me ga shinjiraremasendeshita.",
+   "translations": {
+    "vi": "Katsugorō không tin nổi vào mắt mình.",
+    "en": "Katsugorō couldn't believe his eyes.",
+    "zh-Hans": "胜五郎简直不敢相信自己的眼睛。",
+    "zh-Hant": "勝五郎簡直不敢相信自己的眼睛。",
+    "ko": "가쓰고로는 자기 눈을 믿을 수가 없었습니다.",
+    "tl": "Hindi makapaniwala si Katsugorō sa sariling mata.",
+    "ne": "कात्सुगोरोलाई आफ्नै आँखामा विश्वास भएन।",
+    "id": "Katsugorō tak percaya pada matanya sendiri.",
+    "pt": "Katsugorō não acreditava nos próprios olhos.",
+    "my": "ခါဆုဂိုရိုဟာ ကိုယ့်မျက်စိကိုယ် မယုံနိုင်ဘူး။",
+    "th": "คัตสึโกโร่ไม่อยากเชื่อสายตาตัวเอง"
+   },
+   "grammarNote": {
+    "vi": "信じられない: không thể tin. 自分の目: mắt mình.",
+    "en": "信じられない: can't believe. 自分の目: one's own eyes.",
+    "zh-Hans": "信じられない：不敢相信。自分の目：自己的眼睛。",
+    "zh-Hant": "信じられない：不敢相信。自分の目：自己的眼睛。",
+    "ko": "信じられない: 믿을 수 없다. 自分の目: 자기 눈.",
+    "tl": "信じられない: hindi makapaniwala. 自分の目: sariling mata.",
+    "ne": "信じられない: विश्वास गर्न नसक्नु। 自分の目: आफ्नै आँखा।",
+    "id": "信じられない: tak bisa percaya. 自分の目: mata sendiri.",
+    "pt": "信じられない: não conseguir acreditar. 自分の目: os próprios olhos.",
+    "my": "信じられない: မယုံနိုင်။ 自分の目: ကိုယ့်မျက်စိ။",
+    "th": "信じられない: เชื่อไม่ได้. 自分の目: ตาของตัวเอง"
+   },
+   "vocab": [
+    {
+     "word": "信じる",
+     "reading": "しんじる",
+     "level": "N3",
+     "meanings": {
+      "vi": "tin",
+      "en": "to believe",
+      "zh-Hans": "相信",
+      "zh-Hant": "相信",
+      "ko": "믿다",
+      "tl": "maniwala",
+      "ne": "विश्वास गर्नु",
+      "id": "percaya",
+      "pt": "acreditar",
+      "my": "ယုံ",
+      "th": "เชื่อ"
+     }
+    }
+   ],
+   "t": [
+    118.69,
+    122.09
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=118.69,122.09"
+  },
+  {
+   "ja": "ごめんなさい。夢だと言ったのは、うそだったの。",
+   "furigana": [
+    {
+     "surface": "ごめんなさい。",
+     "reading": ""
+    },
+    {
+     "surface": "夢",
+     "reading": "ゆめ"
+    },
+    {
+     "surface": "だと",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "ったのは、うそだったの。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Gomennasai. Yume da to itta no wa, uso datta no.",
+   "translations": {
+    "vi": "Em xin lỗi. Nói là mơ là em nói dối đấy.",
+    "en": "I'm sorry. When I said it was a dream, that was a lie.",
+    "zh-Hans": "对不起。说是梦，那是骗你的。",
+    "zh-Hant": "對不起。說是夢，那是騙你的。",
+    "ko": "미안해요. 꿈이라고 한 건 거짓말이었어요.",
+    "tl": "Patawad. Kasinungalingan ang sinabi kong panaginip iyon.",
+    "ne": "माफ गर्नुहोस्। सपना भनेको त झूट थियो।",
+    "id": "Maaf. Aku bohong waktu bilang itu mimpi.",
+    "pt": "Desculpa. Quando eu disse que era sonho, era mentira.",
+    "my": "တောင်းပန်ပါတယ်။ အိပ်မက်လို့ ပြောတာ လိမ်တာပါ။",
+    "th": "ขอโทษนะ ที่บอกว่าเป็นความฝันน่ะ ฉันโกหก"
+   },
+   "grammarNote": {
+    "vi": "ごめんなさい: xin lỗi. うそ: lời nói dối.",
+    "en": "ごめんなさい: I'm sorry. うそ: a lie.",
+    "zh-Hans": "ごめんなさい：对不起。うそ：谎话。",
+    "zh-Hant": "ごめんなさい：對不起。うそ：謊話。",
+    "ko": "ごめんなさい: 미안해요. うそ: 거짓말.",
+    "tl": "ごめんなさい: patawad. うそ: kasinungalingan.",
+    "ne": "ごめんなさい: माफ गर्नुहोस्। うそ: झूट।",
+    "id": "ごめんなさい: maaf. うそ: bohong.",
+    "pt": "ごめんなさい: desculpa. うそ: mentira.",
+    "my": "ごめんなさい: တောင်းပန်ပါတယ်။ うそ: လိမ်ညာ။",
+    "th": "ごめんなさい: ขอโทษ. うそ: คำโกหก"
+   },
+   "vocab": [],
+   "t": [
+    122.99,
+    127.46
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=122.99,127.46"
+  },
+  {
+   "ja": "女房は、三年前の話を、ゆっくりと始めました。",
+   "furigana": [
+    {
+     "surface": "女房",
+     "reading": "にょうぼう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "三",
+     "reading": "さん"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "を、ゆっくりと",
+     "reading": ""
+    },
+    {
+     "surface": "始",
+     "reading": "はじ"
+    },
+    {
+     "surface": "めました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nyoubou wa, sannen mae no hanashi o, yukkuri to hajimemashita.",
+   "translations": {
+    "vi": "Người vợ chậm rãi kể lại chuyện ba năm trước.",
+    "en": "His wife slowly began telling the story of three years before.",
+    "zh-Hans": "老婆慢慢讲起了三年前的事。",
+    "zh-Hant": "老婆慢慢講起了三年前的事。",
+    "ko": "아내는 삼 년 전 이야기를 천천히 꺼내기 시작했습니다.",
+    "tl": "Dahan-dahang ikinuwento ng asawa ang nangyari tatlong taon na ang nakaraan.",
+    "ne": "श्रीमतीले तीन वर्षअघिको कुरा बिस्तारै सुनाउन थालिन्।",
+    "id": "Istrinya perlahan mulai bercerita tentang tiga tahun lalu.",
+    "pt": "A esposa começou, devagar, a contar o que aconteceu três anos antes.",
+    "my": "ဇနီးက သုံးနှစ်အရင်က အကြောင်းကို ဖြည်းဖြည်းချင်း ပြောပြတယ်။",
+    "th": "ภรรยาค่อยๆ เล่าเรื่องเมื่อสามปีก่อน"
+   },
+   "grammarNote": {
+    "vi": "ゆっくりと: chậm rãi. 始める: bắt đầu.",
+    "en": "ゆっくりと: slowly. 始める: begin.",
+    "zh-Hans": "ゆっくりと：慢慢地。始める：开始。",
+    "zh-Hant": "ゆっくりと：慢慢地。始める：開始。",
+    "ko": "ゆっくりと: 천천히. 始める: 시작하다.",
+    "tl": "ゆっくりと: dahan-dahan. 始める: magsimula.",
+    "ne": "ゆっくりと: बिस्तारै। 始める: सुरु गर्नु।",
+    "id": "ゆっくりと: perlahan. 始める: mulai.",
+    "pt": "ゆっくりと: devagar. 始める: começar.",
+    "my": "ゆっくりと: ဖြည်းဖြည်း။ 始める: စသည်။",
+    "th": "ゆっくりと: ช้าๆ. 始める: เริ่ม"
+   },
+   "vocab": [],
+   "t": [
+    128.36,
+    132.71
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=128.36,132.71"
+  },
+  {
+   "ja": "あの日、おまえさんが寝ている間に、わたしは大家さんのところへ相談に行ったんだよ。",
+   "furigana": [
+    {
+     "surface": "あの",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "、おまえさんが",
+     "reading": ""
+    },
+    {
+     "surface": "寝",
+     "reading": "ね"
+    },
+    {
+     "surface": "ている",
+     "reading": ""
+    },
+    {
+     "surface": "間",
+     "reading": "ま"
+    },
+    {
+     "surface": "に、わたしは",
+     "reading": ""
+    },
+    {
+     "surface": "大家",
+     "reading": "おおや"
+    },
+    {
+     "surface": "さんのところへ",
+     "reading": ""
+    },
+    {
+     "surface": "相談",
+     "reading": "そうだん"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "ったんだよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ano hi, omaesan ga nete iru ma ni, watashi wa ooyasan no tokoro e soudan ni itta n da yo.",
+   "translations": {
+    "vi": "Hôm đó, trong lúc mình ngủ, em đã đến hỏi ý ông chủ nhà.",
+    "en": "That day, while you were asleep, I went to the landlord for advice.",
+    "zh-Hans": "那天，趁你睡着的时候，我去找房东商量了。",
+    "zh-Hant": "那天，趁你睡著的時候，我去找房東商量了。",
+    "ko": "그날, 당신이 자는 동안 나는 집주인 어른께 의논하러 갔어요.",
+    "tl": "Noong araw na iyon, habang tulog ka, pumunta ako sa kasero para humingi ng payo.",
+    "ne": "त्यो दिन, तपाईं सुतिरहँदा म घरबेटीकहाँ सल्लाह लिन गएँ।",
+    "id": "Hari itu, saat kamu tidur, aku pergi minta nasihat pada pemilik rumah.",
+    "pt": "Naquele dia, enquanto você dormia, fui pedir conselho ao senhorio.",
+    "my": "အဲဒီနေ့က ရှင်အိပ်နေတုန်း ကျွန်မ အိမ်ရှင်ဆီ တိုင်ပင်ဖို့ သွားတယ်။",
+    "th": "วันนั้น ตอนที่พี่หลับอยู่ ฉันไปปรึกษาเจ้าของบ้าน"
+   },
+   "grammarNote": {
+    "vi": "〜間に: trong lúc ~. 大家さん: ông chủ nhà (thời Edo như người trông coi khu phố). 相談に行く: đi xin ý kiến.",
+    "en": "〜間に: while ~. 大家さん: landlord (in Edo, also a neighborhood overseer). 相談に行く: go for advice.",
+    "zh-Hans": "〜間に：在……期间。大家さん：房东（江户时也管街坊事务）。相談に行く：去商量。",
+    "zh-Hant": "〜間に：在……期間。大家さん：房東（江戶時也管街坊事務）。相談に行く：去商量。",
+    "ko": "〜間に: ~하는 동안. 大家さん: 집주인 (에도 시대엔 동네 관리자 역할도 함). 相談に行く: 의논하러 가다.",
+    "tl": "〜間に: habang ~. 大家さん: kasero (sa Edo, tagapangasiwa rin ng kapitbahayan). 相談に行く: humingi ng payo.",
+    "ne": "〜間に: ~ हुँदा। 大家さん: घरबेटी (एदोमा टोलको रेखदेख पनि गर्थे)। 相談に行く: सल्लाह लिन जानु।",
+    "id": "〜間に: saat ~. 大家さん: pemilik rumah (di Edo juga pengurus lingkungan). 相談に行く: pergi minta nasihat.",
+    "pt": "〜間に: enquanto ~. 大家さん: senhorio (em Edo, também cuidava do bairro). 相談に行く: ir pedir conselho.",
+    "my": "〜間に: ~ နေတုန်း။ 大家さん: အိမ်ရှင် (အဲဒိုမှာ ရပ်ကွက်ကိုလည်း စီမံ)။ 相談に行く: တိုင်ပင်ဖို့ သွား။",
+    "th": "〜間に: ระหว่างที่ ~. 大家さん: เจ้าของบ้านเช่า (สมัยเอโดะดูแลชุมชนด้วย). 相談に行く: ไปปรึกษา"
+   },
+   "vocab": [],
+   "t": [
+    133.61,
+    140.4
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=133.61,140.4"
+  },
+  {
+   "ja": "大家さんは言ったの。拾ったお金を使ったら、罪になる。昔なら首が飛ぶほどの、重い罪だよって。",
+   "furigana": [
+    {
+     "surface": "大家",
+     "reading": "おおや"
+    },
+    {
+     "surface": "さんは",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "ったの。",
+     "reading": ""
+    },
+    {
+     "surface": "拾",
+     "reading": "ひろ"
+    },
+    {
+     "surface": "ったお",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "かね"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "使",
+     "reading": "つか"
+    },
+    {
+     "surface": "ったら、",
+     "reading": ""
+    },
+    {
+     "surface": "罪",
+     "reading": "つみ"
+    },
+    {
+     "surface": "になる。",
+     "reading": ""
+    },
+    {
+     "surface": "昔",
+     "reading": "むかし"
+    },
+    {
+     "surface": "なら",
+     "reading": ""
+    },
+    {
+     "surface": "首",
+     "reading": "くび"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "飛",
+     "reading": "と"
+    },
+    {
+     "surface": "ぶほどの、",
+     "reading": ""
+    },
+    {
+     "surface": "重",
+     "reading": "おも"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "罪",
+     "reading": "つみ"
+    },
+    {
+     "surface": "だよって。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ooyasan wa itta no. Hirotta okane o tsukattara, tsumi ni naru. Mukashi nara kubi ga tobu hodo no, omoi tsumi da yo tte.",
+   "translations": {
+    "vi": "Ông chủ nhà bảo: tiêu tiền nhặt được là phạm tội. Ngày xưa đó là tội nặng đến mất đầu.",
+    "en": "The landlord said: if you spend money you found, it's a crime. In the old days it was a crime heavy enough to cost your head.",
+    "zh-Hans": "房东说：捡来的钱要是花了，就是犯罪。放在以前，那可是要掉脑袋的重罪。",
+    "zh-Hant": "房東說：撿來的錢要是花了，就是犯罪。放在以前，那可是要掉腦袋的重罪。",
+    "ko": "집주인 어른이 말씀하셨어요. 주운 돈을 쓰면 죄가 된다. 옛날 같으면 목이 날아갈 만큼 무거운 죄라고요.",
+    "tl": "Sabi ng kasero: krimen ang gastusin ang perang napulot. Noon, mabigat itong krimen na puwedeng ikaputol ng ulo.",
+    "ne": "घरबेटीले भन्नुभयो: भेटेको पैसा खर्च गरे अपराध हुन्छ। पहिले भए टाउको काटिने जत्तिकै ठूलो अपराध हो रे।",
+    "id": "Pemilik rumah bilang: kalau uang temuan dipakai, itu kejahatan. Dulu, kejahatan seberat itu bisa dihukum pancung.",
+    "pt": "O senhorio disse: gastar dinheiro achado é crime. Antigamente era crime tão grave que custava a cabeça.",
+    "my": "အိမ်ရှင်က ပြောတယ်: ကောက်ရတဲ့ ပိုက်ဆံ သုံးရင် ပြစ်မှု ဖြစ်တယ်။ အရင်ခေတ်ဆို ခေါင်းဖြတ်ခံရလောက်တဲ့ ပြစ်မှုကြီးတဲ့။",
+    "th": "เจ้าของบ้านบอกว่า ถ้าใช้เงินที่เก็บได้ก็เป็นความผิด สมัยก่อนเป็นความผิดหนักถึงขั้นหัวขาด"
+   },
+   "grammarNote": {
+    "vi": "〜たら: nếu ~. 罪になる: thành tội. 首が飛ぶ: bị chém đầu. 〜って: trích lời.",
+    "en": "〜たら: if ~. 罪になる: become a crime. 首が飛ぶ: be beheaded. 〜って: quoting.",
+    "zh-Hans": "〜たら：如果……。罪になる：构成犯罪。首が飛ぶ：掉脑袋。〜って：引用。",
+    "zh-Hant": "〜たら：如果……。罪になる：構成犯罪。首が飛ぶ：掉腦袋。〜って：引用。",
+    "ko": "〜たら: ~하면. 罪になる: 죄가 되다. 首が飛ぶ: 목이 날아가다. 〜って: 인용.",
+    "tl": "〜たら: kung ~. 罪になる: maging krimen. 首が飛ぶ: pugutan ng ulo. 〜って: pagsipi.",
+    "ne": "〜たら: ~ भए। 罪になる: अपराध हुनु। 首が飛ぶ: टाउको काटिनु। 〜って: उद्धरण।",
+    "id": "〜たら: kalau ~. 罪になる: menjadi kejahatan. 首が飛ぶ: dipancung. 〜って: kutipan.",
+    "pt": "〜たら: se ~. 罪になる: virar crime. 首が飛ぶ: ser decapitado. 〜って: citação.",
+    "my": "〜たら: ~ ရင်။ 罪になる: ပြစ်မှုဖြစ်။ 首が飛ぶ: ခေါင်းဖြတ်ခံရ။ 〜って: ကိုးကား။",
+    "th": "〜たら: ถ้า ~. 罪になる: เป็นความผิด. 首が飛ぶ: หัวขาด. 〜って: อ้างคำพูด"
+   },
+   "vocab": [
+    {
+     "word": "罪",
+     "reading": "つみ",
+     "level": "N3",
+     "meanings": {
+      "vi": "tội",
+      "en": "crime, sin",
+      "zh-Hans": "罪",
+      "zh-Hant": "罪",
+      "ko": "죄",
+      "tl": "krimen",
+      "ne": "अपराध",
+      "id": "kejahatan",
+      "pt": "crime",
+      "my": "ပြစ်မှု",
+      "th": "ความผิด"
+     }
+    }
+   ],
+   "t": [
+    141,
+    150.05
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=141,150.05"
+  },
+  {
+   "ja": "江戸時代、落とし物のお金を自分のものにするのは、とても重い罪でした。",
+   "furigana": [
+    {
+     "surface": "江戸",
+     "reading": "えど"
+    },
+    {
+     "surface": "時代",
+     "reading": "じだい"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "落",
+     "reading": "お"
+    },
+    {
+     "surface": "とし",
+     "reading": ""
+    },
+    {
+     "surface": "物",
+     "reading": "もの"
+    },
+    {
+     "surface": "のお",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "かね"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "のものにするのは、とても",
+     "reading": ""
+    },
+    {
+     "surface": "重",
+     "reading": "おも"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "罪",
+     "reading": "つみ"
+    },
+    {
+     "surface": "でした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Edo jidai, otoshimono no okane o jibun no mono ni suru no wa, totemo omoi tsumi deshita.",
+   "translations": {
+    "vi": "Thời Edo, lấy tiền rơi làm của mình là một tội rất nặng.",
+    "en": "In the Edo period, keeping found money for yourself was a very serious crime.",
+    "zh-Hans": "江户时代，把捡到的钱据为己有，是非常重的罪。",
+    "zh-Hant": "江戶時代，把撿到的錢據為己有，是非常重的罪。",
+    "ko": "에도 시대에 주운 돈을 자기 것으로 하는 것은 아주 무거운 죄였습니다.",
+    "tl": "Noong panahon ng Edo, napakabigat na krimen ang angkinin ang perang napulot.",
+    "ne": "एदो कालमा, भेटेको पैसा आफ्नो बनाउनु निकै ठूलो अपराध थियो।",
+    "id": "Di zaman Edo, mengambil uang temuan untuk diri sendiri adalah kejahatan yang sangat berat.",
+    "pt": "No período Edo, ficar com dinheiro achado era um crime gravíssimo.",
+    "my": "အဲဒိုခေတ်မှာ ကောက်ရတဲ့ ပိုက်ဆံကို ကိုယ့်ဟာ လုပ်တာ အလွန်ကြီးလေးတဲ့ ပြစ်မှုပါ။",
+    "th": "ในสมัยเอโดะ การเอาเงินที่เก็บได้มาเป็นของตัวเองเป็นความผิดร้ายแรงมาก"
+   },
+   "grammarNote": {
+    "vi": "落とし物: đồ đánh rơi. 自分のものにする: biến thành của mình.",
+    "en": "落とし物: lost property. 自分のものにする: make it one's own.",
+    "zh-Hans": "落とし物：失物。自分のものにする：据为己有。",
+    "zh-Hant": "落とし物：失物。自分のものにする：據為己有。",
+    "ko": "落とし物: 분실물. 自分のものにする: 자기 것으로 하다.",
+    "tl": "落とし物: nawawalang gamit. 自分のものにする: angkinin.",
+    "ne": "落とし物: हराएको सामान। 自分のものにする: आफ्नो बनाउनु।",
+    "id": "落とし物: barang hilang. 自分のものにする: menjadikan milik sendiri.",
+    "pt": "落とし物: objeto perdido. 自分のものにする: tomar para si.",
+    "my": "落とし物: ပျောက်ပစ္စည်း။ 自分のものにする: ကိုယ့်ဟာ လုပ်။",
+    "th": "落とし物: ของหาย. 自分のものにする: เอามาเป็นของตัวเอง"
+   },
+   "vocab": [
+    {
+     "word": "落とし物",
+     "reading": "おとしもの",
+     "level": "N2",
+     "meanings": {
+      "vi": "đồ đánh rơi",
+      "en": "lost item",
+      "zh-Hans": "失物",
+      "zh-Hant": "失物",
+      "ko": "분실물",
+      "tl": "nawawalang gamit",
+      "ne": "हराएको सामान",
+      "id": "barang hilang",
+      "pt": "objeto perdido",
+      "my": "ပျောက်ပစ္စည်း",
+      "th": "ของหาย"
+     }
+    }
+   ],
+   "t": [
+    150.95,
+    157.19
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=150.95,157.19"
+  },
+  {
+   "ja": "見つかれば、店も家も、すべてなくしてしまうところだったのです。",
+   "furigana": [
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "つかれば、",
+     "reading": ""
+    },
+    {
+     "surface": "店",
+     "reading": "みせ"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "も、すべてなくしてしまうところだったのです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mitsukareba, mise mo ie mo, subete nakushite shimau tokoro datta no desu.",
+   "translations": {
+    "vi": "Nếu bị phát hiện, có lẽ họ đã mất cả tiệm lẫn nhà.",
+    "en": "If they'd been found out, they could have lost both the shop and the house.",
+    "zh-Hans": "要是被发现了，店和家都会一起没了。",
+    "zh-Hant": "要是被發現了，店和家都會一起沒了。",
+    "ko": "들키면 가게도 집도 모두 잃을 뻔했던 것입니다.",
+    "tl": "Kung nahuli sila, muntik na nilang mawala ang tindahan at bahay.",
+    "ne": "पत्ता लागेको भए पसल र घर दुवै गुमाउने अवस्था आउँथ्यो।",
+    "id": "Kalau ketahuan, mereka bisa saja kehilangan toko dan rumah.",
+    "pt": "Se fossem descobertos, por pouco não perderiam a loja e a casa.",
+    "my": "ဖော်ထုတ်ခံရရင် ဆိုင်ရော အိမ်ရော ဆုံးရှုံးရမလို ဖြစ်ခဲ့မှာ။",
+    "th": "ถ้าถูกจับได้ คงเสียทั้งร้านทั้งบ้านไปหมดแล้ว"
+   },
+   "grammarNote": {
+    "vi": "見つかれば: nếu bị phát hiện. 〜ところだった: suýt nữa thì ~.",
+    "en": "見つかれば: if found out. 〜ところだった: nearly ~.",
+    "zh-Hans": "見つかれば：如果被发现。〜ところだった：差点就……。",
+    "zh-Hant": "見つかれば：如果被發現。〜ところだった：差點就……。",
+    "ko": "見つかれば: 들키면. 〜ところだった: ~할 뻔했다.",
+    "tl": "見つかれば: kung mahuli. 〜ところだった: muntik nang ~.",
+    "ne": "見つかれば: पत्ता लागे। 〜ところだった: झन्डै ~ भएको।",
+    "id": "見つかれば: kalau ketahuan. 〜ところだった: hampir saja ~.",
+    "pt": "見つかれば: se descoberto. 〜ところだった: por pouco não ~.",
+    "my": "見つかれば: ဖော်ထုတ်ခံရရင်။ 〜ところだった: ~ လုနီးပါး။",
+    "th": "見つかれば: ถ้าถูกพบ. 〜ところだった: เกือบจะ ~"
+   },
+   "vocab": [
+    {
+     "word": "すべて",
+     "reading": "すべて",
+     "level": "N3",
+     "meanings": {
+      "vi": "tất cả",
+      "en": "everything, all",
+      "zh-Hans": "全部",
+      "zh-Hant": "全部",
+      "ko": "모두",
+      "tl": "lahat",
+      "ne": "सबै",
+      "id": "semua",
+      "pt": "tudo",
+      "my": "အားလုံး",
+      "th": "ทั้งหมด"
+     }
+    }
+   ],
+   "t": [
+    157.79,
+    163.03
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=157.79,163.03"
+  },
+  {
+   "ja": "それで、大家さんと二人で、お金をお役所に届けたの。",
+   "furigana": [
+    {
+     "surface": "それで、",
+     "reading": ""
+    },
+    {
+     "surface": "大家",
+     "reading": "おおや"
+    },
+    {
+     "surface": "さんと",
+     "reading": ""
+    },
+    {
+     "surface": "二",
+     "reading": "に"
+    },
+    {
+     "surface": "人",
+     "reading": "にん"
+    },
+    {
+     "surface": "で、お",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "かね"
+    },
+    {
+     "surface": "をお",
+     "reading": ""
+    },
+    {
+     "surface": "役所",
+     "reading": "やくしょ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "届",
+     "reading": "とど"
+    },
+    {
+     "surface": "けたの。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sorede, ooya san to ninin de, okane o oyakusho ni todoketa no.",
+   "translations": {
+    "vi": "Vì thế, em và ông chủ nhà đã mang tiền nộp cho quan.",
+    "en": "So the landlord and I took the money to the magistrate's office.",
+    "zh-Hans": "所以，我和房东一起把钱交到了官府。",
+    "zh-Hant": "所以，我和房東一起把錢交到了官府。",
+    "ko": "그래서 집주인 어른과 둘이서 돈을 관청에 신고했어요.",
+    "tl": "Kaya dinala namin ng kasero ang pera sa tanggapan ng pamahalaan.",
+    "ne": "त्यसैले, घरबेटी र म मिलेर पैसा सरकारी कार्यालयमा बुझायौँ।",
+    "id": "Jadi aku dan pemilik rumah menyerahkan uang itu ke kantor pemerintah.",
+    "pt": "Então eu e o senhorio entregamos o dinheiro à repartição do governo.",
+    "my": "ဒါကြောင့် အိမ်ရှင်နဲ့ ကျွန်မ ပိုက်ဆံကို အစိုးရရုံးကို အပ်ခဲ့တယ်။",
+    "th": "ฉันกับเจ้าของบ้านเลยเอาเงินไปส่งที่ทางการ"
+   },
+   "grammarNote": {
+    "vi": "お役所: cơ quan nhà nước. 届ける: nộp, trình báo.",
+    "en": "お役所: government office. 届ける: hand in, report.",
+    "zh-Hans": "お役所：官府、政府机关。届ける：上交、报告。",
+    "zh-Hant": "お役所：官府、政府機關。屆ける：上交、報告。",
+    "ko": "お役所: 관청. 届ける: 신고하다, 갖다 내다.",
+    "tl": "お役所: tanggapan ng pamahalaan. 届ける: isuko, iulat.",
+    "ne": "お役所: सरकारी कार्यालय। 届ける: बुझाउनु, सूचना दिनु।",
+    "id": "お役所: kantor pemerintah. 届ける: menyerahkan, melapor.",
+    "pt": "お役所: repartição pública. 届ける: entregar, comunicar.",
+    "my": "お役所: အစိုးရရုံး။ 届ける: အပ်နှံ၊ သတင်းပို့။",
+    "th": "お役所: หน่วยงานราชการ. 届ける: นำไปส่ง แจ้ง"
+   },
+   "vocab": [
+    {
+     "word": "役所",
+     "reading": "やくしょ",
+     "level": "N2",
+     "meanings": {
+      "vi": "cơ quan nhà nước",
+      "en": "government office",
+      "zh-Hans": "政府机关",
+      "zh-Hant": "政府機關",
+      "ko": "관청",
+      "tl": "tanggapan ng gobyerno",
+      "ne": "सरकारी कार्यालय",
+      "id": "kantor pemerintah",
+      "pt": "repartição pública",
+      "my": "အစိုးရရုံး",
+      "th": "ที่ว่าการ"
+     }
+    }
+   ],
+   "t": [
+    163.93,
+    168.96
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=163.93,168.96"
+  },
+  {
+   "ja": "おまえさんには、夢だったことにしようって、二人で決めたんだよ。",
+   "furigana": [
+    {
+     "surface": "おまえさんには、",
+     "reading": ""
+    },
+    {
+     "surface": "夢",
+     "reading": "ゆめ"
+    },
+    {
+     "surface": "だったことにしようって、",
+     "reading": ""
+    },
+    {
+     "surface": "二",
+     "reading": "に"
+    },
+    {
+     "surface": "人",
+     "reading": "にん"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "決",
+     "reading": "き"
+    },
+    {
+     "surface": "めたんだよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Omaesan ni wa, yume datta koto ni shiyou tte, ninin de kimeta n da yo.",
+   "translations": {
+    "vi": "Hai người quyết định với mình thì cứ coi như đó là giấc mơ.",
+    "en": "We decided between us that, for you, it would be a dream.",
+    "zh-Hans": "我们俩商量好，在你面前就说是一场梦。",
+    "zh-Hant": "我們倆商量好，在你面前就說是一場夢。",
+    "ko": "당신한테는 꿈이었던 걸로 하자고 둘이서 정했어요.",
+    "tl": "Napagkasunduan naming dalawa na sa iyo, panaginip na lang iyon.",
+    "ne": "तपाईंलाई चाहिँ सपना थियो भनौँ भनेर हामी दुईले निधो गर्‍यौँ।",
+    "id": "Kami berdua sepakat, untukmu kita anggap itu mimpi.",
+    "pt": "Nós dois combinamos que, para você, seria um sonho.",
+    "my": "ရှင့်ကိုတော့ အိပ်မက်လို့ပဲ ထားလိုက်ကြစို့လို့ နှစ်ယောက် ဆုံးဖြတ်ခဲ့တယ်။",
+    "th": "เราสองคนตกลงกันว่า สำหรับพี่ ให้ถือว่าเป็นความฝัน"
+   },
+   "grammarNote": {
+    "vi": "〜ことにしよう: hãy coi như ~. 〜って: trích lời.",
+    "en": "〜ことにしよう: let's treat it as ~. 〜って: quoting.",
+    "zh-Hans": "〜ことにしよう：就当作……吧。〜って：引用。",
+    "zh-Hant": "〜ことにしよう：就當作……吧。〜って：引用。",
+    "ko": "〜ことにしよう: ~한 것으로 하자. 〜って: 인용.",
+    "tl": "〜ことにしよう: ituring nating ~. 〜って: pagsipi.",
+    "ne": "〜ことにしよう: ~ भनौँ। 〜って: उद्धरण।",
+    "id": "〜ことにしよう: mari anggap ~. 〜って: kutipan.",
+    "pt": "〜ことにしよう: vamos fazer de conta que ~. 〜って: citação.",
+    "my": "〜ことにしよう: ~ လို့ ထားကြစို့။ 〜って: ကိုးကား။",
+    "th": "〜ことにしよう: ถือว่า ~ เถอะ. 〜って: อ้างคำพูด"
+   },
+   "vocab": [],
+   "t": [
+    169.56,
+    175.14
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=169.56,175.14"
+  },
+  {
+   "ja": "一年たっても落とし主は出てこなくて、お金は、拾った人のものとして戻ってきたの。",
+   "furigana": [
+    {
+     "surface": "一",
+     "reading": "いち"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "たっても",
+     "reading": ""
+    },
+    {
+     "surface": "落",
+     "reading": "お"
+    },
+    {
+     "surface": "とし",
+     "reading": ""
+    },
+    {
+     "surface": "主",
+     "reading": "ぬし"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "で"
+    },
+    {
+     "surface": "てこなくて、お",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "かね"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "拾",
+     "reading": "ひろ"
+    },
+    {
+     "surface": "った",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "のものとして",
+     "reading": ""
+    },
+    {
+     "surface": "戻",
+     "reading": "もど"
+    },
+    {
+     "surface": "ってきたの。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ichinen tatte mo otoshinushi wa dete konakute, okane wa, hirotta hito no mono toshite modotte kita no.",
+   "translations": {
+    "vi": "Qua một năm mà không có người đánh rơi tìm đến, tiền được trả lại cho người nhặt.",
+    "en": "A year passed and no owner came forward, so the money came back to us as the finder's.",
+    "zh-Hans": "过了一年也没有失主来认领，钱就作为捡到人的东西还回来了。",
+    "zh-Hant": "過了一年也沒有失主來認領，錢就作為撿到人的東西還回來了。",
+    "ko": "일 년이 지나도 주인이 나타나지 않아서, 돈은 주운 사람의 것으로 돌아왔어요.",
+    "tl": "Lumipas ang isang taon at walang may-aring lumitaw, kaya ibinalik sa amin ang pera bilang sa nakapulot.",
+    "ne": "एक वर्ष बित्दा पनि धनी नआएकाले, पैसा भेट्नेकै भनेर फिर्ता आयो।",
+    "id": "Setahun berlalu dan pemiliknya tak muncul, jadi uang itu kembali sebagai milik penemunya.",
+    "pt": "Passou um ano e o dono não apareceu, então o dinheiro voltou para nós como de quem o achou.",
+    "my": "တစ်နှစ်ကြာတဲ့အထိ ပိုင်ရှင် ပေါ်မလာလို့ ပိုက်ဆံက ကောက်ရသူ ပိုင်အဖြစ် ပြန်ရောက်လာတယ်။",
+    "th": "ผ่านไปหนึ่งปีก็ไม่มีเจ้าของมารับ เงินจึงกลับมาเป็นของคนที่เก็บได้"
+   },
+   "grammarNote": {
+    "vi": "〜ても: dù ~. 落とし主: người đánh rơi. 〜として: với tư cách ~.",
+    "en": "〜ても: even after ~. 落とし主: the person who lost it. 〜として: as ~.",
+    "zh-Hans": "〜ても：即使……。落とし主：失主。〜として：作为……。",
+    "zh-Hant": "〜ても：即使……。落とし主：失主。〜として：作為……。",
+    "ko": "〜ても: ~해도. 落とし主: 잃어버린 사람. 〜として: ~로서.",
+    "tl": "〜ても: kahit ~. 落とし主: may-ari na nakawala. 〜として: bilang ~.",
+    "ne": "〜ても: ~ भए पनि। 落とし主: हराउने व्यक्ति। 〜として: ~ को रूपमा।",
+    "id": "〜ても: walaupun ~. 落とし主: pemilik barang hilang. 〜として: sebagai ~.",
+    "pt": "〜ても: mesmo depois de ~. 落とし主: dono do objeto perdido. 〜として: como ~.",
+    "my": "〜ても: ~ ပေမဲ့။ 落とし主: ပျောက်ဆုံးသူ။ 〜として: ~ အဖြစ်။",
+    "th": "〜ても: แม้ ~. 落とし主: เจ้าของของหาย. 〜として: ในฐานะ ~"
+   },
+   "vocab": [],
+   "t": [
+    175.74,
+    183.04
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=175.74,183.04"
+  },
+  {
+   "ja": "でも、すぐに見せたら、おまえさんがまた酒におぼれると思って……。今日まで黙っていたの。",
+   "furigana": [
+    {
+     "surface": "でも、すぐに",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "せたら、おまえさんがまた",
+     "reading": ""
+    },
+    {
+     "surface": "酒",
+     "reading": "さけ"
+    },
+    {
+     "surface": "におぼれると",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "って……。",
+     "reading": ""
+    },
+    {
+     "surface": "今日",
+     "reading": "きょう"
+    },
+    {
+     "surface": "まで",
+     "reading": ""
+    },
+    {
+     "surface": "黙",
+     "reading": "だま"
+    },
+    {
+     "surface": "っていたの。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Demo, sugu ni misetara, omaesan ga mata sake ni oboreru to omotte... Kyou made damatte ita no.",
+   "translations": {
+    "vi": "Nhưng em sợ nếu đưa ngay thì mình lại sa vào rượu… nên giữ im lặng đến hôm nay.",
+    "en": "But I was afraid that if I showed you right away, you'd drown in sake again… so I kept quiet until today.",
+    "zh-Hans": "可是我怕马上给你看，你又会沉迷喝酒……所以一直瞒到今天。",
+    "zh-Hant": "可是我怕馬上給你看，你又會沉迷喝酒……所以一直瞞到今天。",
+    "ko": "그런데 바로 보여 주면 당신이 또 술에 빠질까 봐… 오늘까지 말하지 않았어요.",
+    "tl": "Pero natakot akong kung ipakita ko agad, malulunod ka na naman sa alak… kaya nanahimik ako hanggang ngayon.",
+    "ne": "तर तुरुन्तै देखाए तपाईं फेरि रक्सीमा डुब्नुहुन्छ कि भन्ने डरले… आजसम्म चुप बसेँ।",
+    "id": "Tapi aku takut kalau langsung kutunjukkan, kamu akan tenggelam dalam sake lagi… jadi aku diam sampai hari ini.",
+    "pt": "Mas eu tive medo de que, se mostrasse logo, você voltasse a se afogar no saquê… por isso fiquei calada até hoje.",
+    "my": "ဒါပေမဲ့ ချက်ချင်း ပြလိုက်ရင် ရှင် အရက်ထဲ ပြန်နစ်မှာ စိုးလို့… ဒီနေ့အထိ နှုတ်ဆိတ်နေခဲ့တာ။",
+    "th": "แต่ฉันกลัวว่าถ้าให้ดูทันที พี่จะกลับไปจมกับเหล้าอีก… เลยเงียบมาจนถึงวันนี้"
+   },
+   "grammarNote": {
+    "vi": "〜たら: nếu ~. 酒におぼれる: đắm chìm trong rượu. 黙る: im lặng.",
+    "en": "〜たら: if ~. 酒におぼれる: drown in drink. 黙る: keep quiet.",
+    "zh-Hans": "〜たら：如果……。酒におぼれる：沉迷于酒。黙る：不说、瞒着。",
+    "zh-Hant": "〜たら：如果……。酒におぼれる：沉迷於酒。黙る：不說、瞞著。",
+    "ko": "〜たら: ~하면. 酒におぼれる: 술에 빠지다. 黙る: 입을 다물다.",
+    "tl": "〜たら: kung ~. 酒におぼれる: malunod sa alak. 黙る: manahimik.",
+    "ne": "〜たら: ~ भए। 酒におぼれる: रक्सीमा डुब्नु। 黙る: चुप बस्नु।",
+    "id": "〜たら: kalau ~. 酒におぼれる: tenggelam dalam sake. 黙る: diam.",
+    "pt": "〜たら: se ~. 酒におぼれる: afogar-se na bebida. 黙る: ficar calado.",
+    "my": "〜たら: ~ ရင်။ 酒におぼれる: အရက်ထဲ နစ်။ 黙る: နှုတ်ဆိတ်။",
+    "th": "〜たら: ถ้า ~. 酒におぼれる: จมอยู่กับเหล้า. 黙る: เงียบ"
+   },
+   "vocab": [
+    {
+     "word": "おぼれる",
+     "reading": "おぼれる",
+     "level": "N3",
+     "meanings": {
+      "vi": "chìm đắm, chết đuối",
+      "en": "to drown, be addicted",
+      "zh-Hans": "沉溺，溺水",
+      "zh-Hant": "沉溺，溺水",
+      "ko": "빠지다",
+      "tl": "malunod",
+      "ne": "डुब्नु",
+      "id": "tenggelam",
+      "pt": "afogar-se",
+      "my": "နစ်",
+      "th": "จมน้ำ, หมกมุ่น"
+     }
+    },
+    {
+     "word": "黙る",
+     "reading": "だまる",
+     "level": "N3",
+     "meanings": {
+      "vi": "im lặng",
+      "en": "to fall silent",
+      "zh-Hans": "沉默",
+      "zh-Hant": "沉默",
+      "ko": "입을 다물다",
+      "tl": "tumahimik",
+      "ne": "चुप लाग्नु",
+      "id": "diam",
+      "pt": "ficar calado",
+      "my": "နှုတ်ဆိတ်သည်",
+      "th": "เงียบ"
+     }
+    }
+   ],
+   "t": [
+    183.64,
+    191.43
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=183.64,191.43"
+  },
+  {
+   "ja": "うそをついて、本当にごめんなさい。怒るなら、たたいてもいいよ。",
+   "furigana": [
+    {
+     "surface": "うそをついて、",
+     "reading": ""
+    },
+    {
+     "surface": "本当",
+     "reading": "ほんとう"
+    },
+    {
+     "surface": "にごめんなさい。",
+     "reading": ""
+    },
+    {
+     "surface": "怒",
+     "reading": "おこ"
+    },
+    {
+     "surface": "るなら、たたいてもいいよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Uso o tsuite, hontouni gomennasai. Okorunara, tataite mo ii yo.",
+   "translations": {
+    "vi": "Em nói dối mình, thật sự xin lỗi. Nếu giận thì mình cứ đánh em.",
+    "en": "I'm truly sorry for lying to you. If you're angry, you can hit me.",
+    "zh-Hans": "骗了你，真对不起。你要是生气，打我也行。",
+    "zh-Hant": "騙了你，真對不起。你要是生氣，打我也行。",
+    "ko": "거짓말해서 정말 미안해요. 화가 나면 때려도 돼요.",
+    "tl": "Patawad talaga sa pagsisinungaling ko. Kung galit ka, puwede mo akong paluin.",
+    "ne": "झूट बोलेकोमा साँच्चै माफ गर्नुहोस्। रिसाउनुभयो भने पिटे पनि हुन्छ।",
+    "id": "Maaf sekali aku sudah berbohong. Kalau marah, pukul saja aku.",
+    "pt": "Desculpa mesmo por ter mentido. Se estiver bravo, pode me bater.",
+    "my": "လိမ်ခဲ့တာ တကယ် တောင်းပန်ပါတယ်။ စိတ်ဆိုးရင် ရိုက်လည်း ရပါတယ်။",
+    "th": "ขอโทษจริงๆ ที่โกหก ถ้าโกรธ จะตีฉันก็ได้"
+   },
+   "grammarNote": {
+    "vi": "うそをつく: nói dối. 〜なら: nếu ~. 〜てもいい: ~ cũng được.",
+    "en": "うそをつく: tell a lie. 〜なら: if ~. 〜てもいい: it's okay to ~.",
+    "zh-Hans": "うそをつく：说谎。〜なら：如果……。〜てもいい：……也可以。",
+    "zh-Hant": "うそをつく：說謊。〜なら：如果……。〜てもいい：……也可以。",
+    "ko": "うそをつく: 거짓말하다. 〜なら: ~라면. 〜てもいい: ~해도 된다.",
+    "tl": "うそをつく: magsinungaling. 〜なら: kung ~. 〜てもいい: puwedeng ~.",
+    "ne": "うそをつく: झूट बोल्नु। 〜なら: ~ भने। 〜てもいい: ~ भए पनि हुन्छ।",
+    "id": "うそをつく: berbohong. 〜なら: kalau ~. 〜てもいい: boleh ~.",
+    "pt": "うそをつく: mentir. 〜なら: se ~. 〜てもいい: pode ~.",
+    "my": "うそをつく: လိမ်သည်။ 〜なら: ~ ရင်။ 〜てもいい: ~ လည်း ရ။",
+    "th": "うそをつく: โกหก. 〜なら: ถ้า ~. 〜てもいい: ~ ก็ได้"
+   },
+   "vocab": [
+    {
+     "word": "たたく",
+     "reading": "たたく",
+     "level": "N3",
+     "meanings": {
+      "vi": "đánh, vỗ",
+      "en": "hit, tap",
+      "zh-Hans": "打，拍",
+      "zh-Hant": "打，拍",
+      "ko": "때리다, 두드리다",
+      "tl": "paluin, tapikin",
+      "ne": "हिर्काउनु",
+      "id": "memukul",
+      "pt": "bater",
+      "my": "ရိုက်သည်",
+      "th": "ตี"
+     }
+    }
+   ],
+   "t": [
+    192.03,
+    197.9
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=192.03,197.9"
+  },
+  {
+   "ja": "勝五郎は、しばらく黙って財布を見つめていました。",
+   "furigana": [
+    {
+     "surface": "勝五郎",
+     "reading": "かつごろう"
+    },
+    {
+     "surface": "は、しばらく",
+     "reading": ""
+    },
+    {
+     "surface": "黙",
+     "reading": "だま"
+    },
+    {
+     "surface": "って",
+     "reading": ""
+    },
+    {
+     "surface": "財布",
+     "reading": "さいふ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "つめていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Katsugorou wa, shibaraku damatte saifu o mitsumete imashita.",
+   "translations": {
+    "vi": "Katsugorō lặng im nhìn chiếc ví hồi lâu.",
+    "en": "Katsugorō stared at the wallet in silence for a while.",
+    "zh-Hans": "胜五郎默默地盯着钱包看了好一会儿。",
+    "zh-Hant": "勝五郎默默地盯著錢包看了好一會兒。",
+    "ko": "가쓰고로는 한동안 말없이 지갑을 바라보았습니다.",
+    "tl": "Tahimik na tinitigan ni Katsugorō ang pitaka nang matagal.",
+    "ne": "कात्सुगोरो केही बेर चुपचाप पर्स हेरिरहे।",
+    "id": "Katsugorō menatap dompet itu dalam diam cukup lama.",
+    "pt": "Katsugorō ficou um tempo olhando a carteira em silêncio.",
+    "my": "ခါဆုဂိုရိုဟာ ပိုက်ဆံအိတ်ကို တိတ်တဆိတ် ခဏကြာ စိုက်ကြည့်နေတယ်။",
+    "th": "คัตสึโกโร่จ้องกระเป๋าเงินเงียบๆ อยู่นาน"
+   },
+   "grammarNote": {
+    "vi": "黙って: lặng im. 見つめる: nhìn chăm chú.",
+    "en": "黙って: in silence. 見つめる: stare at.",
+    "zh-Hans": "黙って：默默地。見つめる：凝视。",
+    "zh-Hant": "黙って：默默地。見つめる：凝視。",
+    "ko": "黙って: 말없이. 見つめる: 바라보다, 응시하다.",
+    "tl": "黙って: tahimik. 見つめる: titigan.",
+    "ne": "黙って: चुपचाप। 見つめる: एकटक हेर्नु।",
+    "id": "黙って: dalam diam. 見つめる: menatap.",
+    "pt": "黙って: em silêncio. 見つめる: fitar.",
+    "my": "黙って: တိတ်တဆိတ်။ 見つめる: စိုက်ကြည့်။",
+    "th": "黙って: เงียบๆ. 見つめる: จ้องมอง"
+   },
+   "vocab": [
+    {
+     "word": "見つめる",
+     "reading": "みつめる",
+     "level": "N2",
+     "meanings": {
+      "vi": "nhìn chăm chú",
+      "en": "to gaze at",
+      "zh-Hans": "凝视",
+      "zh-Hant": "凝視",
+      "ko": "응시하다",
+      "tl": "tumitig",
+      "ne": "हेरिरहनु",
+      "id": "menatap",
+      "pt": "fitar",
+      "my": "စိုက်ကြည့်",
+      "th": "จ้องมอง"
+     }
+    }
+   ],
+   "t": [
+    198.8,
+    202.2
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=198.8,202.2"
+  },
+  {
+   "ja": "何を言うんだ。頭を上げてくれ。",
+   "furigana": [
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "うんだ。",
+     "reading": ""
+    },
+    {
+     "surface": "頭",
+     "reading": "あたま"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "上",
+     "reading": "あ"
+    },
+    {
+     "surface": "げてくれ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nani o iu n da. Atama o agete kure.",
+   "translations": {
+    "vi": "Em nói gì vậy. Ngẩng đầu lên đi.",
+    "en": "What are you saying? Lift your head.",
+    "zh-Hans": "你说什么呢。快把头抬起来。",
+    "zh-Hant": "你說什麼呢。快把頭抬起來。",
+    "ko": "무슨 소리야. 고개를 들어.",
+    "tl": "Ano'ng sinasabi mo? Iangat mo ang ulo mo.",
+    "ne": "के भनेकी? टाउको उठाऊ।",
+    "id": "Kamu bicara apa? Angkat kepalamu.",
+    "pt": "O que você está dizendo? Levante a cabeça.",
+    "my": "ဘာပြောတာလဲ။ ခေါင်းမော့ပါ။",
+    "th": "พูดอะไรของเธอ เงยหน้าขึ้นเถอะ"
+   },
+   "grammarNote": {
+    "vi": "頭を上げる: ngẩng đầu (thôi đừng cúi lạy xin lỗi). 〜てくれ: ~ đi (nhờ).",
+    "en": "頭を上げる: raise one's head (stop bowing in apology). 〜てくれ: please ~.",
+    "zh-Hans": "頭を上げる：抬起头（别再低头道歉）。〜てくれ：请……。",
+    "zh-Hant": "頭を上げる：抬起頭（別再低頭道歉）。〜てくれ：請……。",
+    "ko": "頭を上げる: 고개를 들다 (사과의 절을 그만하라). 〜てくれ: ~해 줘.",
+    "tl": "頭を上げる: iangat ang ulo (huwag nang yumuko sa paghingi ng tawad). 〜てくれ: pakiusap ~.",
+    "ne": "頭を上げる: टाउको उठाउनु (माफी मागेर झुक्न छोड)। 〜てくれ: ~ गर।",
+    "id": "頭を上げる: mengangkat kepala (berhenti membungkuk minta maaf). 〜てくれ: tolong ~.",
+    "pt": "頭を上げる: levantar a cabeça (parar de se curvar pedindo desculpas). 〜てくれ: por favor ~.",
+    "my": "頭を上げる: ခေါင်းမော့ (တောင်းပန် ဦးညွှတ်တာ ရပ်)။ 〜てくれ: ~ ပါ။",
+    "th": "頭を上げる: เงยหน้า (เลิกก้มขอโทษ). 〜てくれ: ช่วย ~"
+   },
+   "vocab": [],
+   "t": [
+    203.1,
+    206.38
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=203.1,206.38"
+  },
+  {
+   "ja": "謝らなきゃいけないのは、おれのほうだ。",
+   "furigana": [
+    {
+     "surface": "謝",
+     "reading": "あやま"
+    },
+    {
+     "surface": "らなきゃいけないのは、おれのほうだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ayamaranakya ikenai no wa, ore no hou da.",
+   "translations": {
+    "vi": "Người phải xin lỗi là tôi mới đúng.",
+    "en": "I'm the one who should apologize.",
+    "zh-Hans": "该道歉的是我才对。",
+    "zh-Hant": "該道歉的是我才對。",
+    "ko": "사과해야 할 사람은 나야.",
+    "tl": "Ako ang dapat humingi ng tawad.",
+    "ne": "माफी माग्नुपर्ने त म पो हुँ।",
+    "id": "Yang harus minta maaf itu aku.",
+    "pt": "Quem tem que pedir desculpas sou eu.",
+    "my": "တောင်းပန်ရမှာက ငါပါ။",
+    "th": "คนที่ต้องขอโทษคือข้าต่างหาก"
+   },
+   "grammarNote": {
+    "vi": "謝らなきゃ = 謝らなければ. 〜のほう: phía ~.",
+    "en": "謝らなきゃ = 謝らなければ. 〜のほう: the one, the side.",
+    "zh-Hans": "謝らなきゃ＝謝らなければ。〜のほう：……这一方。",
+    "zh-Hant": "謝らなきゃ＝謝らなければ。〜のほう：……這一方。",
+    "ko": "謝らなきゃ = 謝らなければ. 〜のほう: ~ 쪽.",
+    "tl": "謝らなきゃ = 謝らなければ. 〜のほう: ang panig ni ~.",
+    "ne": "謝らなきゃ = 謝らなければ। 〜のほう: ~ पक्ष।",
+    "id": "謝らなきゃ = 謝らなければ. 〜のほう: pihak ~.",
+    "pt": "謝らなきゃ = 謝らなければ. 〜のほう: o lado de ~.",
+    "my": "謝らなきゃ = 謝らなければ။ 〜のほう: ~ ဘက်။",
+    "th": "謝らなきゃ = 謝らなければ. 〜のほう: ฝ่าย ~"
+   },
+   "vocab": [],
+   "t": [
+    206.98,
+    210.13
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=206.98,210.13"
+  },
+  {
+   "ja": "もしあのとき、この金を使っていたら、おれは今ごろ、牢屋の中だ。",
+   "furigana": [
+    {
+     "surface": "もしあのとき、この",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "きん"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "使",
+     "reading": "つか"
+    },
+    {
+     "surface": "っていたら、おれは",
+     "reading": ""
+    },
+    {
+     "surface": "今",
+     "reading": "いま"
+    },
+    {
+     "surface": "ごろ、",
+     "reading": ""
+    },
+    {
+     "surface": "牢屋",
+     "reading": "ろうや"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "だ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Moshi ano toki, kono kin o tsukatte itara, ore wa imagoro, rouya no naka da.",
+   "translations": {
+    "vi": "Nếu lúc đó tôi tiêu số tiền này, giờ này tôi đã ở trong ngục rồi.",
+    "en": "If I had spent this money back then, I'd be in jail right now.",
+    "zh-Hans": "要是那时候花了这笔钱，我现在早就蹲大牢了。",
+    "zh-Hant": "要是那時候花了這筆錢，我現在早就蹲大牢了。",
+    "ko": "그때 이 돈을 썼더라면 나는 지금쯤 감옥에 있을 거야.",
+    "tl": "Kung ginastos ko ang perang ito noon, nasa kulungan na ako ngayon.",
+    "ne": "त्यतिबेला यो पैसा खर्च गरेको भए, म अहिले जेलमा हुन्थेँ।",
+    "id": "Kalau waktu itu aku memakai uang ini, sekarang aku pasti sudah di penjara.",
+    "pt": "Se eu tivesse gastado este dinheiro naquela época, agora estaria na cadeia.",
+    "my": "အဲဒီတုန်းက ဒီပိုက်ဆံကို သုံးခဲ့ရင် ငါ အခုလောက်ဆို ထောင်ထဲမှာ။",
+    "th": "ถ้าตอนนั้นข้าใช้เงินนี้ไป ป่านนี้ข้าคงอยู่ในคุกแล้ว"
+   },
+   "grammarNote": {
+    "vi": "もし〜ていたら: nếu đã ~. 今ごろ: vào lúc này. 牢屋: nhà tù.",
+    "en": "もし〜ていたら: if I had ~. 今ごろ: about now. 牢屋: jail.",
+    "zh-Hans": "もし〜ていたら：如果当时……。今ごろ：现在这会儿。牢屋：牢房。",
+    "zh-Hant": "もし〜ていたら：如果當時……。今ごろ：現在這會兒。牢屋：牢房。",
+    "ko": "もし〜ていたら: 만약 ~했더라면. 今ごろ: 지금쯤. 牢屋: 감옥.",
+    "tl": "もし〜ていたら: kung ~ ko sana. 今ごろ: ngayon. 牢屋: kulungan.",
+    "ne": "もし〜ていたら: यदि ~ गरेको भए। 今ごろ: अहिलेसम्म। 牢屋: जेल।",
+    "id": "もし〜ていたら: kalau saja ~. 今ごろ: sekarang ini. 牢屋: penjara.",
+    "pt": "もし〜ていたら: se tivesse ~. 今ごろ: a esta hora. 牢屋: cadeia.",
+    "my": "もし〜ていたら: ~ ခဲ့ရင်။ 今ごろ: အခုလောက်ဆို။ 牢屋: ထောင်။",
+    "th": "もし〜ていたら: ถ้าตอนนั้น ~. 今ごろ: ป่านนี้. 牢屋: คุก"
+   },
+   "vocab": [
+    {
+     "word": "金",
+     "reading": "きん",
+     "level": "N3",
+     "meanings": {
+      "vi": "tiền",
+      "en": "money",
+      "zh-Hans": "钱",
+      "zh-Hant": "錢",
+      "ko": "돈",
+      "tl": "pera",
+      "ne": "पैसा",
+      "id": "uang",
+      "pt": "dinheiro",
+      "my": "ငွေ",
+      "th": "เงิน"
+     }
+    }
+   ],
+   "t": [
+    210.73,
+    216.74
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=210.73,216.74"
+  },
+  {
+   "ja": "酒におぼれて、体もこわして、おまえにも苦労をかけていただろう。",
+   "furigana": [
+    {
+     "surface": "酒",
+     "reading": "さけ"
+    },
+    {
+     "surface": "におぼれて、",
+     "reading": ""
+    },
+    {
+     "surface": "体",
+     "reading": "からだ"
+    },
+    {
+     "surface": "もこわして、おまえにも",
+     "reading": ""
+    },
+    {
+     "surface": "苦労",
+     "reading": "くろう"
+    },
+    {
+     "surface": "をかけていただろう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sake ni oborete, karada mo kowashite, omae ni mo kurou o kakete itadarou.",
+   "translations": {
+    "vi": "Tôi sẽ đắm trong rượu, hỏng cả sức khỏe, và làm khổ em nữa.",
+    "en": "I'd have drowned in drink, ruined my health, and made your life hard too.",
+    "zh-Hans": "我会沉迷喝酒，把身体搞垮，也会让你吃苦。",
+    "zh-Hant": "我會沉迷喝酒，把身體搞垮，也會讓你吃苦。",
+    "ko": "술에 빠져서 몸도 망가지고 당신도 고생시켰겠지.",
+    "tl": "Malulunod ako sa alak, masisira ang katawan ko, at pahihirapan pa kita.",
+    "ne": "रक्सीमा डुबेर, शरीर बिगारेर, तिमीलाई पनि दुःख दिन्थेँ होला।",
+    "id": "Aku akan tenggelam dalam sake, merusak badan, dan menyusahkanmu juga.",
+    "pt": "Eu teria me afogado na bebida, acabado com a saúde e feito você sofrer também.",
+    "my": "အရက်ထဲ နစ်ပြီး ကျန်းမာရေးလည်း ပျက်၊ မင်းကိုလည်း ဒုက္ခပေးမိမှာပဲ။",
+    "th": "ข้าคงจมอยู่กับเหล้า เสียสุขภาพ แล้วก็ทำให้เธอลำบากด้วย"
+   },
+   "grammarNote": {
+    "vi": "体をこわす: hại sức khỏe. 苦労をかける: làm ai vất vả. 〜ただろう: có lẽ đã ~.",
+    "en": "体をこわす: ruin one's health. 苦労をかける: cause someone hardship. 〜ただろう: would probably have ~.",
+    "zh-Hans": "体をこわす：弄坏身体。苦労をかける：让人受累。〜ただろう：大概会……。",
+    "zh-Hant": "体をこわす：弄壞身體。苦労をかける：讓人受累。〜ただろう：大概會……。",
+    "ko": "体をこわす: 몸을 망가뜨리다. 苦労をかける: 고생시키다. 〜ただろう: ~했을 것이다.",
+    "tl": "体をこわす: masira ang kalusugan. 苦労をかける: pahirapan ang iba. 〜ただろう: malamang ~.",
+    "ne": "体をこわす: स्वास्थ्य बिगार्नु। 苦労をかける: दुःख दिनु। 〜ただろう: ~ होला।",
+    "id": "体をこわす: merusak kesehatan. 苦労をかける: menyusahkan orang. 〜ただろう: mungkin sudah ~.",
+    "pt": "体をこわす: arruinar a saúde. 苦労をかける: dar trabalho a alguém. 〜ただろう: provavelmente teria ~.",
+    "my": "体をこわす: ကျန်းမာရေးပျက်။ 苦労をかける: ဒုက္ခပေး။ 〜ただろう: ~ မှာပဲ။",
+    "th": "体をこわす: เสียสุขภาพ. 苦労をかける: ทำให้คนอื่นลำบาก. 〜ただろう: คงจะ ~"
+   },
+   "vocab": [
+    {
+     "word": "苦労",
+     "reading": "くろう",
+     "level": "N3",
+     "meanings": {
+      "vi": "vất vả, khổ cực",
+      "en": "hardship, trouble",
+      "zh-Hans": "辛苦",
+      "zh-Hant": "辛苦",
+      "ko": "고생",
+      "tl": "hirap",
+      "ne": "कष्ट",
+      "id": "susah payah",
+      "pt": "sofrimento",
+      "my": "ဒုက္ခ",
+      "th": "ความลำบาก"
+     }
+    }
+   ],
+   "t": [
+    217.34,
+    223.12
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=217.34,223.12"
+  },
+  {
+   "ja": "おまえがうそをついてくれたから、おれはまともな人間になれたんだ。ありがとう。",
+   "furigana": [
+    {
+     "surface": "おまえがうそをついてくれたから、おれはまともな",
+     "reading": ""
+    },
+    {
+     "surface": "人間",
+     "reading": "にんげん"
+    },
+    {
+     "surface": "になれたんだ。ありがとう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Omae ga uso o tsuite kureta kara, ore wa matomo na ningen ni nareta n da. Arigatou.",
+   "translations": {
+    "vi": "Nhờ em nói dối mà tôi mới thành người tử tế được. Cảm ơn em.",
+    "en": "Because you lied for me, I was able to become a decent man. Thank you.",
+    "zh-Hans": "多亏你骗了我，我才成了正经人。谢谢你。",
+    "zh-Hant": "多虧你騙了我，我才成了正經人。謝謝你。",
+    "ko": "당신이 거짓말을 해 준 덕분에 나는 제대로 된 사람이 될 수 있었어. 고마워.",
+    "tl": "Dahil nagsinungaling ka para sa akin, naging matinong tao ako. Salamat.",
+    "ne": "तिमीले झूट बोलिदिएकाले म असल मान्छे बन्न सकेँ। धन्यवाद।",
+    "id": "Karena kamu berbohong untukku, aku bisa jadi orang yang benar. Terima kasih.",
+    "pt": "Foi porque você mentiu por mim que eu consegui virar um homem decente. Obrigado.",
+    "my": "မင်း လိမ်ပေးခဲ့လို့ ငါ လူကောင်း ဖြစ်လာနိုင်တာ။ ကျေးဇူးပဲ။",
+    "th": "เพราะเธอโกหกให้ ข้าถึงได้กลายเป็นคนดีได้ ขอบใจนะ"
+   },
+   "grammarNote": {
+    "vi": "〜てくれたから: vì (em) đã ~ cho tôi. まともな: tử tế, đàng hoàng. 〜になれた: đã có thể trở thành ~.",
+    "en": "〜てくれたから: because you ~ for me. まともな: decent. 〜になれた: was able to become ~.",
+    "zh-Hans": "〜てくれたから：因为你为我……。まともな：正经的。〜になれた：能成为……。",
+    "zh-Hant": "〜てくれたから：因為你為我……。まともな：正經的。〜になれた：能成為……。",
+    "ko": "〜てくれたから: ~해 줬으니까. まともな: 제대로 된. 〜になれた: ~가 될 수 있었다.",
+    "tl": "〜てくれたから: dahil ~ mo para sa akin. まともな: matino. 〜になれた: naging ~.",
+    "ne": "〜てくれたから: तिमीले ~ दिएकाले। まともな: असल, ठीक। 〜になれた: ~ बन्न सकेँ।",
+    "id": "〜てくれたから: karena kamu ~ untukku. まともな: benar, layak. 〜になれた: bisa menjadi ~.",
+    "pt": "〜てくれたから: porque você ~ por mim. まともな: decente. 〜になれた: conseguiu tornar-se ~.",
+    "my": "〜てくれたから: ~ ပေးခဲ့လို့။ まともな: လူကောင်း၊ မှန်ကန်။ 〜になれた: ~ ဖြစ်နိုင်ခဲ့။",
+    "th": "〜てくれたから: เพราะเธอ ~ ให้. まともな: ดี ปกติ. 〜になれた: กลายเป็น ~ ได้"
+   },
+   "vocab": [
+    {
+     "word": "人間",
+     "reading": "にんげん",
+     "level": "N3",
+     "meanings": {
+      "vi": "con người",
+      "en": "human being",
+      "zh-Hans": "人",
+      "zh-Hant": "人",
+      "ko": "인간",
+      "tl": "tao",
+      "ne": "मानिस",
+      "id": "manusia",
+      "pt": "ser humano",
+      "my": "လူ",
+      "th": "มนุษย์"
+     }
+    }
+   ],
+   "t": [
+    223.72,
+    230.13
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=223.72,230.13"
+  },
+  {
+   "ja": "おまえさん……。",
+   "furigana": [
+    {
+     "surface": "おまえさん……。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Omaesan...",
+   "translations": {
+    "vi": "Mình ơi…",
+    "en": "Dear…",
+    "zh-Hans": "当家的……。",
+    "zh-Hant": "當家的……。",
+    "ko": "여보…",
+    "tl": "Mahal…",
+    "ne": "तपाईं…",
+    "id": "Pak…",
+    "pt": "Meu bem…",
+    "my": "ရှင်…",
+    "th": "พี่…"
+   },
+   "grammarNote": {
+    "vi": "Câu bỏ lửng thể hiện xúc động.",
+    "en": "Trailing off, overcome with feeling.",
+    "zh-Hans": "话说一半，情绪激动。",
+    "zh-Hant": "話說一半，情緒激動。",
+    "ko": "말끝을 흐리며 감정이 북받침.",
+    "tl": "Pabitin, puno ng damdamin.",
+    "ne": "अधुरो, भावुक।",
+    "id": "Menggantung, penuh perasaan.",
+    "pt": "Frase suspensa, cheia de emoção.",
+    "my": "စကားမဆုံး၊ ခံစားချက် ပြည့်။",
+    "th": "พูดค้าง เต็มไปด้วยความรู้สึก"
+   },
+   "vocab": [],
+   "t": [
+    231.03,
+    232.05
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=231.03,232.05"
+  },
+  {
+   "ja": "女房は、涙をふいて、にっこり笑いました。",
+   "furigana": [
+    {
+     "surface": "女房",
+     "reading": "にょうぼう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "涙",
+     "reading": "なみだ"
+    },
+    {
+     "surface": "をふいて、にっこり",
+     "reading": ""
+    },
+    {
+     "surface": "笑",
+     "reading": "わら"
+    },
+    {
+     "surface": "いました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nyoubou wa, namida o fuite, nikkori waraimashita.",
+   "translations": {
+    "vi": "Người vợ lau nước mắt, mỉm cười.",
+    "en": "His wife wiped her tears and smiled.",
+    "zh-Hans": "老婆擦干眼泪，微微一笑。",
+    "zh-Hant": "老婆擦乾眼淚，微微一笑。",
+    "ko": "아내는 눈물을 닦고 방긋 웃었습니다.",
+    "tl": "Pinunasan ng asawa ang luha at ngumiti.",
+    "ne": "श्रीमतीले आँसु पुछेर मुस्कुराइन्।",
+    "id": "Istrinya mengusap air mata dan tersenyum.",
+    "pt": "A esposa enxugou as lágrimas e sorriu.",
+    "my": "ဇနီးက မျက်ရည်သုတ်ပြီး ပြုံးလိုက်တယ်။",
+    "th": "ภรรยาเช็ดน้ำตาแล้วยิ้ม"
+   },
+   "grammarNote": {
+    "vi": "涙をふく: lau nước mắt. にっこり: mỉm cười.",
+    "en": "涙をふく: wipe tears. にっこり: smile.",
+    "zh-Hans": "涙をふく：擦眼泪。にっこり：微笑。",
+    "zh-Hant": "涙をふく：擦眼淚。にっこり：微笑。",
+    "ko": "涙をふく: 눈물을 닦다. にっこり: 방긋.",
+    "tl": "涙をふく: punasan ang luha. にっこり: ngumiti.",
+    "ne": "涙をふく: आँसु पुछ्नु। にっこり: मुस्कुराउनु।",
+    "id": "涙をふく: mengusap air mata. にっこり: tersenyum.",
+    "pt": "涙をふく: enxugar as lágrimas. にっこり: sorrir.",
+    "my": "涙をふく: မျက်ရည်သုတ်။ にっこり: ပြုံး။",
+    "th": "涙をふく: เช็ดน้ำตา. にっこり: ยิ้ม"
+   },
+   "vocab": [
+    {
+     "word": "涙",
+     "reading": "なみだ",
+     "level": "N3",
+     "meanings": {
+      "vi": "nước mắt",
+      "en": "tears",
+      "zh-Hans": "眼泪",
+      "zh-Hant": "眼淚",
+      "ko": "눈물",
+      "tl": "luha",
+      "ne": "आँसु",
+      "id": "air mata",
+      "pt": "lágrima",
+      "my": "မျက်ရည်",
+      "th": "น้ำตา"
+     }
+    },
+    {
+     "word": "にっこり",
+     "reading": "にっこり",
+     "level": "N3",
+     "meanings": {
+      "vi": "mỉm cười tươi",
+      "en": "with a big smile",
+      "zh-Hans": "笑眯眯",
+      "zh-Hant": "笑瞇瞇",
+      "ko": "생긋",
+      "tl": "nakangiti nang malapad",
+      "ne": "मुस्कुराउँदै",
+      "id": "tersenyum lebar",
+      "pt": "com um sorriso",
+      "my": "ပြုံးပြုံးလေး",
+      "th": "ยิ้มกว้าง"
+     }
+    }
+   ],
+   "t": [
+    232.95,
+    236.55
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=232.95,236.55"
+  },
+  {
+   "ja": "今日は大みそかだもの。お酒を用意してあるの。三年分、飲んでちょうだい。",
+   "furigana": [
+    {
+     "surface": "今日",
+     "reading": "きょう"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "みそかだもの。お",
+     "reading": ""
+    },
+    {
+     "surface": "酒",
+     "reading": "さけ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "用意",
+     "reading": "ようい"
+    },
+    {
+     "surface": "してあるの。",
+     "reading": ""
+    },
+    {
+     "surface": "三",
+     "reading": "さん"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "分",
+     "reading": "ぶん"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "飲",
+     "reading": "の"
+    },
+    {
+     "surface": "んでちょうだい。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kyou wa oo miso ka da mono. Osake o youi shite aru no. Sannenbun, nonde choudai.",
+   "translations": {
+    "vi": "Hôm nay là giao thừa mà. Em đã chuẩn bị rượu rồi. Mình uống bù cho ba năm đi.",
+    "en": "It's New Year's Eve, after all. I've got sake ready. Drink three years' worth.",
+    "zh-Hans": "今天是除夕嘛。我准备了酒。把三年的份都喝回来吧。",
+    "zh-Hant": "今天是除夕嘛。我準備了酒。把三年的份都喝回來吧。",
+    "ko": "오늘은 섣달그믐이잖아요. 술을 준비해 뒀어요. 삼 년 치 마셔요.",
+    "tl": "Bisperas ng Bagong Taon naman ngayon. Naghanda ako ng sake. Inumin mo ang para sa tatlong taon.",
+    "ne": "आज त वर्षको अन्तिम दिन हो नि। रक्सी तयार गरेकी छु। तीन वर्षको सबै पिउनुहोस्।",
+    "id": "Hari ini kan malam tahun baru. Aku sudah siapkan sake. Minumlah untuk tiga tahun.",
+    "pt": "Hoje é véspera de Ano-Novo, afinal. Já preparei saquê. Beba por três anos.",
+    "my": "ဒီနေ့ နှစ်ကုန်ရက်ပဲလေ။ အရက် ပြင်ထားတယ်။ သုံးနှစ်စာ သောက်ပါ။",
+    "th": "วันนี้วันสิ้นปีนี่นา ฉันเตรียมเหล้าไว้แล้ว ดื่มชดเชยสามปีเลยนะ"
+   },
+   "grammarNote": {
+    "vi": "〜だもの: vì là ~ mà (nữ, nũng). 用意してある: đã chuẩn bị sẵn. 〜てちょうだい: ~ đi nhé (nữ).",
+    "en": "〜だもの: after all (feminine, coaxing). 用意してある: has been prepared. 〜てちょうだい: please ~ (feminine).",
+    "zh-Hans": "〜だもの：因为是……嘛（女性撒娇）。用意してある：已经准备好。〜てちょうだい：请……（女性）。",
+    "zh-Hant": "〜だもの：因為是……嘛（女性撒嬌）。用意してある：已經準備好。〜てちょうだい：請……（女性）。",
+    "ko": "〜だもの: ~인걸요 (여성, 애교). 用意してある: 준비되어 있다. 〜てちょうだい: ~해 줘요 (여성).",
+    "tl": "〜だもの: kasi ~ naman (pambabae, malambing). 用意してある: nakahanda na. 〜てちょうだい: pakiusap ~ (pambabae).",
+    "ne": "〜だもの: ~ हो नि (स्त्रीलिङ्गी, माया)। 用意してある: तयार छ। 〜てちょうだい: ~ नि (स्त्रीलिङ्गी)।",
+    "id": "〜だもの: kan ~ (feminin, manja). 用意してある: sudah disiapkan. 〜てちょうだい: tolong ~ (feminin).",
+    "pt": "〜だもの: afinal é ~ (feminino, carinhoso). 用意してある: está preparado. 〜てちょうだい: por favor ~ (feminino).",
+    "my": "〜だもの: ~ ပဲလေ (အမျိုးသမီး၊ ချွဲ)။ 用意してある: ပြင်ထားပြီး။ 〜てちょうだい: ~ ပါ (အမျိုးသမီး)။",
+    "th": "〜だもの: ก็ ~ นี่นา (ผู้หญิง ออดอ้อน). 用意してある: เตรียมไว้แล้ว. 〜てちょうだい: ~ นะ (ผู้หญิง)"
+   },
+   "vocab": [
+    {
+     "word": "ちょうだい",
+     "reading": "ちょうだい",
+     "level": "N3",
+     "meanings": {
+      "vi": "cho tôi, làm ơn (thân mật)",
+      "en": "please (casual)",
+      "zh-Hans": "请给我",
+      "zh-Hant": "請給我",
+      "ko": "줘",
+      "tl": "pakiusap",
+      "ne": "दिनुहोस्",
+      "id": "tolong",
+      "pt": "por favor",
+      "my": "ပေးပါ",
+      "th": "ขอหน่อย"
+     }
+    }
+   ],
+   "t": [
+    237.45,
+    244.26
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=237.45,244.26"
+  },
+  {
+   "ja": "いいのかい。……三年ぶりの酒か。",
+   "furigana": [
+    {
+     "surface": "いいのかい。……",
+     "reading": ""
+    },
+    {
+     "surface": "三",
+     "reading": "さん"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "ぶりの",
+     "reading": ""
+    },
+    {
+     "surface": "酒",
+     "reading": "さけ"
+    },
+    {
+     "surface": "か。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ii no kai... Sannenburi no sake ka.",
+   "translations": {
+    "vi": "Được thật sao? …Rượu sau ba năm à.",
+    "en": "Is it really all right? …My first sake in three years.",
+    "zh-Hans": "真的可以吗？……三年没喝的酒啊。",
+    "zh-Hant": "真的可以嗎？……三年沒喝的酒啊。",
+    "ko": "괜찮은 거야? …삼 년 만의 술인가.",
+    "tl": "Talaga bang puwede? …Unang sake ko sa loob ng tatlong taon.",
+    "ne": "साँच्चै हुन्छ? …तीन वर्षपछिको रक्सी।",
+    "id": "Benar boleh? …Sake pertama setelah tiga tahun.",
+    "pt": "Pode mesmo? …Meu primeiro saquê em três anos.",
+    "my": "တကယ် ရလား။ …သုံးနှစ်ကြာပြီးမှ အရက်လား။",
+    "th": "ได้จริงเหรอ …เหล้าแรกในรอบสามปีสินะ"
+   },
+   "grammarNote": {
+    "vi": "〜ぶり: sau ~ (khoảng thời gian). 〜かい: hỏi lại.",
+    "en": "〜ぶり: for the first time in ~. 〜かい: asking back.",
+    "zh-Hans": "〜ぶり：隔了……。〜かい：反问。",
+    "zh-Hant": "〜ぶり：隔了……。〜かい：反問。",
+    "ko": "〜ぶり: ~ 만. 〜かい: 되묻기.",
+    "tl": "〜ぶり: unang beses matapos ang ~. 〜かい: pagtatanong pabalik.",
+    "ne": "〜ぶり: ~ पछि। 〜かい: फेरि सोध्नु।",
+    "id": "〜ぶり: pertama setelah ~. 〜かい: bertanya balik.",
+    "pt": "〜ぶり: pela primeira vez em ~. 〜かい: perguntando de volta.",
+    "my": "〜ぶり: ~ ကြာပြီးမှ။ 〜かい: ပြန်မေး။",
+    "th": "〜ぶり: ในรอบ ~. 〜かい: ถามย้ำ"
+   },
+   "vocab": [],
+   "t": [
+    245.16,
+    248.04
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=245.16,248.04"
+  },
+  {
+   "ja": "女房が、湯のみにお酒をなみなみとつぎました。",
+   "furigana": [
+    {
+     "surface": "女房",
+     "reading": "にょうぼう"
+    },
+    {
+     "surface": "が、",
+     "reading": ""
+    },
+    {
+     "surface": "湯",
+     "reading": "ゆ"
+    },
+    {
+     "surface": "のみにお",
+     "reading": ""
+    },
+    {
+     "surface": "酒",
+     "reading": "さけ"
+    },
+    {
+     "surface": "をなみなみとつぎました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nyoubou ga, yunomi ni osake o naminamito tsugimashita.",
+   "translations": {
+    "vi": "Người vợ rót rượu đầy tràn vào chiếc chén trà.",
+    "en": "His wife filled a teacup to the brim with sake.",
+    "zh-Hans": "老婆往茶杯里满满地斟上了酒。",
+    "zh-Hant": "老婆往茶杯裡滿滿地斟上了酒。",
+    "ko": "아내가 찻잔에 술을 찰랑찰랑 가득 따랐습니다.",
+    "tl": "Pinuno ng asawa hanggang labi ng sake ang tasa.",
+    "ne": "श्रीमतीले चिया कपमा रक्सी टनाटन भरिन्।",
+    "id": "Istrinya menuang sake ke cangkir teh sampai penuh.",
+    "pt": "A esposa encheu até a borda uma xícara de chá com saquê.",
+    "my": "ဇနီးက ရေနွေးကြမ်းခွက်ထဲ အရက်ကို ပြည့်လျှံအောင် ငှဲ့တယ်။",
+    "th": "ภรรยารินเหล้าใส่ถ้วยชาจนเต็มปริ่ม"
+   },
+   "grammarNote": {
+    "vi": "湯のみ: chén uống trà. なみなみと: đầy tràn. つぐ: rót.",
+    "en": "湯のみ: teacup. なみなみと: to the brim. つぐ: pour.",
+    "zh-Hans": "湯のみ：茶杯。なみなみと：满满地。つぐ：斟、倒。",
+    "zh-Hant": "湯のみ：茶杯。なみなみと：滿滿地。つぐ：斟、倒。",
+    "ko": "湯のみ: 찻잔. なみなみと: 가득. つぐ: 따르다.",
+    "tl": "湯のみ: tasa ng tsaa. なみなみと: hanggang labi. つぐ: magsalin.",
+    "ne": "湯のみ: चिया कप। なみなみと: टनाटन। つぐ: खन्याउनु।",
+    "id": "湯のみ: cangkir teh. なみなみと: penuh sampai bibir. つぐ: menuang.",
+    "pt": "湯のみ: xícara de chá. なみなみと: até a borda. つぐ: servir.",
+    "my": "湯のみ: ရေနွေးကြမ်းခွက်။ なみなみと: ပြည့်လျှံ။ つぐ: ငှဲ့။",
+    "th": "湯のみ: ถ้วยชา. なみなみと: เต็มปริ่ม. つぐ: ริน"
+   },
+   "vocab": [
+    {
+     "word": "湯のみ",
+     "reading": "ゆのみ",
+     "level": "N2",
+     "meanings": {
+      "vi": "chén uống trà",
+      "en": "teacup",
+      "zh-Hans": "茶杯",
+      "zh-Hant": "茶杯",
+      "ko": "찻잔",
+      "tl": "tasa ng tsaa",
+      "ne": "चिया कप",
+      "id": "cangkir teh",
+      "pt": "xícara de chá",
+      "my": "ရေနွေးကြမ်းခွက်",
+      "th": "ถ้วยชา"
+     }
+    }
+   ],
+   "t": [
+    248.94,
+    252.34
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=248.94,252.34"
+  },
+  {
+   "ja": "部屋の中に、酒のいい香りが広がりました。",
+   "furigana": [
+    {
+     "surface": "部屋",
+     "reading": "へや"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "酒",
+     "reading": "さけ"
+    },
+    {
+     "surface": "のいい",
+     "reading": ""
+    },
+    {
+     "surface": "香",
+     "reading": "かお"
+    },
+    {
+     "surface": "りが",
+     "reading": ""
+    },
+    {
+     "surface": "広",
+     "reading": "ひろ"
+    },
+    {
+     "surface": "がりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Heya no naka ni, sake no ii kaori ga hirogarimashita.",
+   "translations": {
+    "vi": "Mùi rượu thơm lan tỏa khắp phòng.",
+    "en": "The lovely smell of sake filled the room.",
+    "zh-Hans": "酒的香气在屋里弥漫开来。",
+    "zh-Hant": "酒的香氣在屋裡瀰漫開來。",
+    "ko": "방 안에 술의 좋은 향기가 퍼졌습니다.",
+    "tl": "Kumalat sa kuwarto ang mabangong amoy ng sake.",
+    "ne": "कोठाभरि रक्सीको मीठो बास्ना फैलियो।",
+    "id": "Aroma sake yang harum memenuhi ruangan.",
+    "pt": "O aroma gostoso do saquê se espalhou pela sala.",
+    "my": "အခန်းထဲမှာ အရက်ရဲ့ မွှေးတဲ့ ရနံ့ ပျံ့နှံ့သွားတယ်။",
+    "th": "กลิ่นหอมของเหล้าอบอวลไปทั่วห้อง"
+   },
+   "grammarNote": {
+    "vi": "香り: hương thơm. 広がる: lan ra.",
+    "en": "香り: aroma. 広がる: spread.",
+    "zh-Hans": "香り：香气。広がる：扩散。",
+    "zh-Hant": "香り：香氣。広がる：擴散。",
+    "ko": "香り: 향기. 広がる: 퍼지다.",
+    "tl": "香り: bango. 広がる: kumalat.",
+    "ne": "香り: बास्ना। 広がる: फैलिनु।",
+    "id": "香り: aroma. 広がる: menyebar.",
+    "pt": "香り: aroma. 広がる: espalhar-se.",
+    "my": "香り: ရနံ့။ 広がる: ပျံ့နှံ့။",
+    "th": "香り: กลิ่นหอม. 広がる: แผ่กระจาย"
+   },
+   "vocab": [
+    {
+     "word": "香り",
+     "reading": "かおり",
+     "level": "N3",
+     "meanings": {
+      "vi": "mùi thơm",
+      "en": "fragrance, aroma",
+      "zh-Hans": "香气",
+      "zh-Hant": "香氣",
+      "ko": "향기",
+      "tl": "bango",
+      "ne": "सुगन्ध",
+      "id": "aroma",
+      "pt": "aroma",
+      "my": "ရနံ့",
+      "th": "กลิ่นหอม"
+     }
+    },
+    {
+     "word": "広がる",
+     "reading": "ひろがる",
+     "level": "N3",
+     "meanings": {
+      "vi": "lan rộng",
+      "en": "to spread",
+      "zh-Hans": "扩散",
+      "zh-Hant": "擴散",
+      "ko": "퍼지다",
+      "tl": "kumalat",
+      "ne": "फैलनु",
+      "id": "menyebar",
+      "pt": "espalhar-se",
+      "my": "ပျံ့နှံ့",
+      "th": "แผ่กระจาย"
+     }
+    }
+   ],
+   "t": [
+    252.94,
+    256.78
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=252.94,256.78"
+  },
+  {
+   "ja": "勝五郎は、湯のみを口の近くまで持っていって、においをかぎました。",
+   "furigana": [
+    {
+     "surface": "勝五郎",
+     "reading": "かつごろう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "湯",
+     "reading": "ゆ"
+    },
+    {
+     "surface": "のみを",
+     "reading": ""
+    },
+    {
+     "surface": "口",
+     "reading": "くち"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "近",
+     "reading": "ちか"
+    },
+    {
+     "surface": "くまで",
+     "reading": ""
+    },
+    {
+     "surface": "持",
+     "reading": "も"
+    },
+    {
+     "surface": "っていって、においをかぎました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Katsugorou wa, yunomi o kuchi no chikaku made motte itte, nioi o kagimashita.",
+   "translations": {
+    "vi": "Katsugorō đưa chén lên gần miệng, ngửi mùi.",
+    "en": "Katsugorō brought the cup close to his mouth and smelled it.",
+    "zh-Hans": "胜五郎把茶杯端到嘴边，闻了闻味道。",
+    "zh-Hant": "勝五郎把茶杯端到嘴邊，聞了聞味道。",
+    "ko": "가쓰고로는 찻잔을 입 가까이 가져가서 냄새를 맡았습니다.",
+    "tl": "Inilapit ni Katsugorō ang tasa sa bibig at inamoy ito.",
+    "ne": "कात्सुगोरोले कप मुखनजिक लगेर बास्ना सुँघे।",
+    "id": "Katsugorō mendekatkan cangkir ke mulut dan menciumnya.",
+    "pt": "Katsugorō levou a xícara perto da boca e sentiu o cheiro.",
+    "my": "ခါဆုဂိုရိုက ခွက်ကို ပါးစပ်နားအထိ ယူပြီး အနံ့ခံတယ်။",
+    "th": "คัตสึโกโร่ยกถ้วยขึ้นมาใกล้ปาก แล้วดมกลิ่น"
+   },
+   "grammarNote": {
+    "vi": "〜まで持っていく: đưa đến ~. においをかぐ: ngửi mùi.",
+    "en": "〜まで持っていく: bring up to ~. においをかぐ: smell.",
+    "zh-Hans": "〜まで持っていく：拿到……。においをかぐ：闻味道。",
+    "zh-Hant": "〜まで持っていく：拿到……。においをかぐ：聞味道。",
+    "ko": "〜まで持っていく: ~까지 가져가다. においをかぐ: 냄새를 맡다.",
+    "tl": "〜まで持っていく: ilapit hanggang ~. においをかぐ: amuyin.",
+    "ne": "〜まで持っていく: ~ सम्म लानु। においをかぐ: सुँघ्नु।",
+    "id": "〜まで持っていく: mendekatkan sampai ~. においをかぐ: mencium bau.",
+    "pt": "〜まで持っていく: levar até ~. においをかぐ: cheirar.",
+    "my": "〜まで持っていく: ~ အထိ ယူ။ においをかぐ: အနံ့ခံ။",
+    "th": "〜まで持っていく: ยกไปถึง ~. においをかぐ: ดมกลิ่น"
+   },
+   "vocab": [],
+   "t": [
+    257.38,
+    262.93
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=257.38,262.93"
+  },
+  {
+   "ja": "ああ、いいにおいだ。",
+   "furigana": [
+    {
+     "surface": "ああ、いいにおいだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Aa, ii nioi da.",
+   "translations": {
+    "vi": "A, thơm quá.",
+    "en": "Ah, that smells good.",
+    "zh-Hans": "啊，真香啊。",
+    "zh-Hant": "啊，真香啊。",
+    "ko": "아, 좋은 냄새다.",
+    "tl": "Ah, ang bango.",
+    "ne": "आहा, कस्तो मीठो बास्ना।",
+    "id": "Ah, harumnya.",
+    "pt": "Ah, que cheiro bom.",
+    "my": "အား၊ မွှေးလိုက်တာ။",
+    "th": "อา หอมจริงๆ"
+   },
+   "grammarNote": {
+    "vi": "〜だ: khẳng định, cảm thán (nam).",
+    "en": "〜だ: assertive, exclamatory (male).",
+    "zh-Hans": "〜だ：断定、感叹（男性）。",
+    "zh-Hant": "〜だ：斷定、感嘆（男性）。",
+    "ko": "〜だ: 단정, 감탄 (남성).",
+    "tl": "〜だ: padamdam (lalaki).",
+    "ne": "〜だ: उद्गार (पुरुष)।",
+    "id": "〜だ: seruan (pria).",
+    "pt": "〜だ: exclamação (masculino).",
+    "my": "〜だ: အာမေဍိတ် (အမျိုးသား)။",
+    "th": "〜だ: อุทาน (ผู้ชาย)"
+   },
+   "vocab": [],
+   "t": [
+    263.83,
+    265.78
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=263.83,265.78"
+  },
+  {
+   "ja": "ところが、勝五郎は、飲む前に湯のみを置いてしまいました。",
+   "furigana": [
+    {
+     "surface": "ところが、",
+     "reading": ""
+    },
+    {
+     "surface": "勝五郎",
+     "reading": "かつごろう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "飲",
+     "reading": "の"
+    },
+    {
+     "surface": "む",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "湯",
+     "reading": "ゆ"
+    },
+    {
+     "surface": "のみを",
+     "reading": ""
+    },
+    {
+     "surface": "置",
+     "reading": "お"
+    },
+    {
+     "surface": "いてしまいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tokoroga, Katsugorou wa, nomu mae ni yunomi o oite shimaimashita.",
+   "translations": {
+    "vi": "Nhưng chưa uống, Katsugorō đã đặt chén xuống.",
+    "en": "But before drinking, Katsugorō put the cup down.",
+    "zh-Hans": "可是，胜五郎还没喝，就把茶杯放下了。",
+    "zh-Hant": "可是，勝五郎還沒喝，就把茶杯放下了。",
+    "ko": "그런데 가쓰고로는 마시기 전에 찻잔을 내려놓았습니다.",
+    "tl": "Pero bago uminom, ibinaba ni Katsugorō ang tasa.",
+    "ne": "तर कात्सुगोरोले पिउनुअघि नै कप राखिदिए।",
+    "id": "Tapi sebelum minum, Katsugorō meletakkan cangkirnya.",
+    "pt": "Mas, antes de beber, Katsugorō pousou a xícara.",
+    "my": "ဒါပေမဲ့ ခါဆုဂိုရိုဟာ မသောက်ခင် ခွက်ကို ချထားလိုက်တယ်။",
+    "th": "แต่คัตสึโกโร่กลับวางถ้วยลงก่อนจะดื่ม"
+   },
+   "grammarNote": {
+    "vi": "ところが: nhưng mà (bất ngờ). 〜前に: trước khi ~. 置く: đặt.",
+    "en": "ところが: but (unexpectedly). 〜前に: before ~. 置く: put down.",
+    "zh-Hans": "ところが：可是（出乎意料）。〜前に：在……之前。置く：放下。",
+    "zh-Hant": "ところが：可是（出乎意料）。〜前に：在……之前。置く：放下。",
+    "ko": "ところが: 그런데 (뜻밖에). 〜前に: ~하기 전에. 置く: 놓다.",
+    "tl": "ところが: pero (hindi inaasahan). 〜前に: bago ~. 置く: ilapag.",
+    "ne": "ところが: तर (अप्रत्याशित)। 〜前に: ~ अघि। 置く: राख्नु।",
+    "id": "ところが: tapi (tak terduga). 〜前に: sebelum ~. 置く: meletakkan.",
+    "pt": "ところが: porém (inesperado). 〜前に: antes de ~. 置く: pousar.",
+    "my": "ところが: ဒါပေမဲ့ (မထင်မှတ်)။ 〜前に: ~ ခင်။ 置く: ချထား။",
+    "th": "ところが: แต่ทว่า (ผิดคาด). 〜前に: ก่อน ~. 置く: วาง"
+   },
+   "vocab": [],
+   "t": [
+    266.68,
+    271.72
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=266.68,271.72"
+  },
+  {
+   "ja": "どうしたの。飲まないのかい。",
+   "furigana": [
+    {
+     "surface": "どうしたの。",
+     "reading": ""
+    },
+    {
+     "surface": "飲",
+     "reading": "の"
+    },
+    {
+     "surface": "まないのかい。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Dou shita no. Nomanai no kai.",
+   "translations": {
+    "vi": "Sao thế? Mình không uống à?",
+    "en": "What's wrong? Aren't you going to drink?",
+    "zh-Hans": "怎么了？你不喝吗？",
+    "zh-Hant": "怎麼了？你不喝嗎？",
+    "ko": "왜 그래요? 안 마셔요?",
+    "tl": "Bakit? Hindi ka iinom?",
+    "ne": "के भयो? पिउनुहुन्न?",
+    "id": "Kenapa? Tidak diminum?",
+    "pt": "O que foi? Não vai beber?",
+    "my": "ဘာဖြစ်လို့လဲ။ မသောက်ဘူးလား။",
+    "th": "เป็นอะไรไป ไม่ดื่มเหรอ"
+   },
+   "grammarNote": {
+    "vi": "どうしたの: sao vậy. 〜のかい: hỏi (kiểu cũ).",
+    "en": "どうしたの: what's wrong. 〜のかい: asking (old style).",
+    "zh-Hans": "どうしたの：怎么了。〜のかい：询问（旧式）。",
+    "zh-Hant": "どうしたの：怎麼了。〜のかい：詢問（舊式）。",
+    "ko": "どうしたの: 왜 그래. 〜のかい: 질문 (옛 말투).",
+    "tl": "どうしたの: bakit. 〜のかい: tanong (makaluma).",
+    "ne": "どうしたの: के भयो। 〜のかい: प्रश्न (पुरानो)।",
+    "id": "どうしたの: kenapa. 〜のかい: bertanya (gaya lama).",
+    "pt": "どうしたの: o que foi. 〜のかい: pergunta (antigo).",
+    "my": "どうしたの: ဘာဖြစ်လို့လဲ။ 〜のかい: မေး (ရှေး)။",
+    "th": "どうしたの: เป็นอะไรไป. 〜のかい: ถาม (แบบเก่า)"
+   },
+   "vocab": [],
+   "t": [
+    272.62,
+    275.11
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=272.62,275.11"
+  },
+  {
+   "ja": "いや、やめておこう。",
+   "furigana": [
+    {
+     "surface": "いや、やめておこう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Iya, yamete okou.",
+   "translations": {
+    "vi": "Thôi, để thôi.",
+    "en": "No, I'll leave it.",
+    "zh-Hans": "不，还是算了。",
+    "zh-Hant": "不，還是算了。",
+    "ko": "아니, 그만두자.",
+    "tl": "Hindi, huwag na lang.",
+    "ne": "होइन, छोडिदिन्छु।",
+    "id": "Tidak, tidak usah.",
+    "pt": "Não, melhor não.",
+    "my": "မဟုတ်ဘူး၊ မသောက်တော့ဘူး။",
+    "th": "ไม่ล่ะ เลิกดีกว่า"
+   },
+   "grammarNote": {
+    "vi": "やめておこう: thôi, không làm nữa (〜ておく: quyết định trước).",
+    "en": "やめておこう: I'll pass (〜ておく: decide in advance).",
+    "zh-Hans": "やめておこう：还是算了（〜ておく：事先决定）。",
+    "zh-Hant": "やめておこう：還是算了（〜ておく：事先決定）。",
+    "ko": "やめておこう: 그만두자 (〜ておく: 미리 정함).",
+    "tl": "やめておこう: huwag na lang (〜ておく: pagpapasya nang maaga).",
+    "ne": "やめておこう: छोडिदिन्छु (〜ておく: पहिल्यै निर्णय)।",
+    "id": "やめておこう: tidak usah saja (〜ておく: memutuskan lebih dulu).",
+    "pt": "やめておこう: melhor deixar (〜ておく: decidir de antemão).",
+    "my": "やめておこう: မလုပ်တော့ဘူး (〜ておく: ကြိုဆုံးဖြတ်)။",
+    "th": "やめておこう: ไม่เอาดีกว่า (〜ておく: ตัดสินไว้ก่อน)"
+   },
+   "vocab": [],
+   "t": [
+    276.01,
+    278
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=276.01,278"
+  },
+  {
+   "ja": "また夢になると、いけねえ。",
+   "furigana": [
+    {
+     "surface": "また",
+     "reading": ""
+    },
+    {
+     "surface": "夢",
+     "reading": "ゆめ"
+    },
+    {
+     "surface": "になると、いけねえ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mata yume ni naru to, ike nee.",
+   "translations": {
+    "vi": "Lỡ lại thành giấc mơ thì nguy.",
+    "en": "It'd be bad if it turned into a dream again.",
+    "zh-Hans": "要是又变成梦，可就糟了。",
+    "zh-Hant": "要是又變成夢，可就糟了。",
+    "ko": "또 꿈이 되면 안 되니까.",
+    "tl": "Baka maging panaginip na naman.",
+    "ne": "फेरि सपना भयो भने त गाह्रो हुन्छ।",
+    "id": "Nanti jadi mimpi lagi, gawat.",
+    "pt": "Vai que vira sonho de novo.",
+    "my": "နောက်တစ်ခါ အိပ်မက် ဖြစ်သွားရင် မကောင်းဘူး။",
+    "th": "เดี๋ยวจะกลายเป็นความฝันอีก ไม่ดีหรอก"
+   },
+   "grammarNote": {
+    "vi": "〜と、いけねえ = 〜と、いけない: nếu ~ thì không được. Câu chốt nổi tiếng: anh sợ hạnh phúc hiện tại lại hóa thành mơ.",
+    "en": "〜と、いけねえ = 〜と、いけない: it would be bad if ~. The famous punchline: he fears his happiness might turn out to be a dream.",
+    "zh-Hans": "〜と、いけねえ＝〜と、いけない：要是……就不好了。著名的结尾：他怕眼前的幸福又变成一场梦。",
+    "zh-Hant": "〜と、いけねえ＝〜と、いけない：要是……就不好了。著名的結尾：他怕眼前的幸福又變成一場夢。",
+    "ko": "〜と、いけねえ = 〜と、いけない: ~하면 안 된다. 유명한 오치: 지금의 행복이 또 꿈이 될까 두려운 것.",
+    "tl": "〜と、いけねえ = 〜と、いけない: masama kung ~. Ang sikat na punchline: takot siyang maging panaginip muli ang kaligayahan niya.",
+    "ne": "〜と、いけねえ = 〜と、いけない: ~ भए गाह्रो। प्रसिद्ध अन्त्य: उनलाई आफ्नो खुसी फेरि सपना बन्ला भन्ने डर छ।",
+    "id": "〜と、いけねえ = 〜と、いけない: gawat kalau ~. Punchline terkenal: ia takut kebahagiaannya kembali menjadi mimpi.",
+    "pt": "〜と、いけねえ = 〜と、いけない: seria ruim se ~. A famosa piada final: ele teme que a felicidade vire sonho outra vez.",
+    "my": "〜と、いけねえ = 〜と、いけない: ~ ရင် မကောင်း။ နာမည်ကြီး အဆုံးသတ်: လက်ရှိ ပျော်ရွှင်မှုက အိပ်မက်ပြန်ဖြစ်မှာ ကြောက်တာ။",
+    "th": "〜と、いけねえ = 〜と、いけない: ถ้า ~ ก็ไม่ดี. มุกปิดท้ายอันโด่งดัง: เขากลัวว่าความสุขตอนนี้จะกลายเป็นความฝันอีก"
+   },
+   "vocab": [],
+   "t": [
+    278.6,
+    281.16
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=278.6,281.16"
+  },
+  {
+   "ja": "女房は、うれしそうに笑いました。",
+   "furigana": [
+    {
+     "surface": "女房",
+     "reading": "にょうぼう"
+    },
+    {
+     "surface": "は、うれしそうに",
+     "reading": ""
+    },
+    {
+     "surface": "笑",
+     "reading": "わら"
+    },
+    {
+     "surface": "いました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nyoubou wa, ureshisou ni waraimashita.",
+   "translations": {
+    "vi": "Người vợ cười vui vẻ.",
+    "en": "His wife laughed happily.",
+    "zh-Hans": "老婆开心地笑了。",
+    "zh-Hant": "老婆開心地笑了。",
+    "ko": "아내는 기쁜 듯이 웃었습니다.",
+    "tl": "Masayang tumawa ang asawa.",
+    "ne": "श्रीमती खुसी हुँदै हाँसिन्।",
+    "id": "Istrinya tertawa gembira.",
+    "pt": "A esposa riu, feliz.",
+    "my": "ဇနီးက ဝမ်းသာစွာ ရယ်လိုက်တယ်။",
+    "th": "ภรรยาหัวเราะอย่างมีความสุข"
+   },
+   "grammarNote": {
+    "vi": "うれしそうに: một cách vui vẻ (〜そう: có vẻ).",
+    "en": "うれしそうに: happily (〜そう: looking ~).",
+    "zh-Hans": "うれしそうに：高兴地（〜そう：看起来……）。",
+    "zh-Hant": "うれしそうに：高興地（〜そう：看起來……）。",
+    "ko": "うれしそうに: 기쁜 듯이 (〜そう: ~해 보이다).",
+    "tl": "うれしそうに: masaya (〜そう: mukhang ~).",
+    "ne": "うれしそうに: खुसी हुँदै (〜そう: ~ जस्तो देखिने)।",
+    "id": "うれしそうに: dengan gembira (〜そう: tampak ~).",
+    "pt": "うれしそうに: com alegria (〜そう: parecer ~).",
+    "my": "うれしそうに: ဝမ်းသာစွာ (〜そう: ~ ပုံရ)။",
+    "th": "うれしそうに: อย่างดีใจ (〜そう: ดูเหมือน ~)"
+   },
+   "vocab": [],
+   "t": [
+    282.06,
+    284.7
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=282.06,284.7"
+  },
+  {
+   "ja": "これが、人情噺の名作「芝浜」の落ちです。",
+   "furigana": [
+    {
+     "surface": "これが、",
+     "reading": ""
+    },
+    {
+     "surface": "人情噺",
+     "reading": "にんじょうばなし"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "名作",
+     "reading": "めいさく"
+    },
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "芝浜",
+     "reading": "しばはま"
+    },
+    {
+     "surface": "」の",
+     "reading": ""
+    },
+    {
+     "surface": "落",
+     "reading": "お"
+    },
+    {
+     "surface": "ちです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kore ga, ninjoubanashi no meisaku \"Shibahama\" no ochi desu.",
+   "translations": {
+    "vi": "Đó là câu chốt của \"Shibahama\", kiệt tác trong thể loại ninjō-banashi (chuyện tình người).",
+    "en": "That is the punchline of \"Shibahama\", a masterpiece of ninjō-banashi, rakugo about human feeling.",
+    "zh-Hans": "这就是人情话名作《芝浜》的结尾包袱。",
+    "zh-Hant": "這就是人情話名作《芝浜》的結尾包袱。",
+    "ko": "이것이 닌조바나시(인정 이야기)의 명작 '시바하마'의 오치입니다.",
+    "tl": "Iyan ang punchline ng \"Shibahama\", obra maestra ng ninjō-banashi, ang rakugo tungkol sa damdamin ng tao.",
+    "ne": "यो मानवीय भावनाको राकुगो \"निन्जो-बानाशी\" को उत्कृष्ट कृति \"शिबाहामा\" को अन्त्य हो।",
+    "id": "Itulah punchline \"Shibahama\", mahakarya ninjō-banashi, rakugo tentang perasaan manusia.",
+    "pt": "Essa é a piada final de \"Shibahama\", obra-prima do ninjō-banashi, o rakugo sobre os sentimentos humanos.",
+    "my": "ဒါက လူ့စိတ်ခံစားမှုအကြောင်း ရာကုဂို \"နင်ဂျိုဘာနာရှိ\" ရဲ့ အကောင်းဆုံးလက်ရာ \"ရှီဘာဟာမ\" ရဲ့ အဆုံးသတ်ပါ။",
+    "th": "นี่คือมุกปิดท้ายของ \"ชิบะฮามะ\" ผลงานชิ้นเอกของนินโจบานาชิ ราคุโกะว่าด้วยน้ำใจคน"
+   },
+   "grammarNote": {
+    "vi": "人情噺: loại rakugo cảm động về tình người. 名作: kiệt tác.",
+    "en": "人情噺: moving rakugo about human kindness. 名作: masterpiece.",
+    "zh-Hans": "人情噺：讲人情的感人落语。名作：名作。",
+    "zh-Hant": "人情噺：講人情的感人落語。名作：名作。",
+    "ko": "人情噺: 인정을 그린 감동적인 라쿠고. 名作: 명작.",
+    "tl": "人情噺: nakakaantig na rakugo tungkol sa kabutihan ng tao. 名作: obra maestra.",
+    "ne": "人情噺: मानवीय करुणाको भावुक राकुगो। 名作: उत्कृष्ट कृति।",
+    "id": "人情噺: rakugo mengharukan tentang kebaikan manusia. 名作: mahakarya.",
+    "pt": "人情噺: rakugo comovente sobre a bondade humana. 名作: obra-prima.",
+    "my": "人情噺: လူ့ကြင်နာမှုအကြောင်း စိတ်ထိခိုက်ဖွယ် ရာကုဂို။ 名作: အကောင်းဆုံးလက်ရာ။",
+    "th": "人情噺: ราคุโกะซึ้งๆ เรื่องน้ำใจคน. 名作: ผลงานชิ้นเอก"
+   },
+   "vocab": [
+    {
+     "word": "名作",
+     "reading": "めいさく",
+     "level": "N2",
+     "meanings": {
+      "vi": "kiệt tác",
+      "en": "masterpiece",
+      "zh-Hans": "名作",
+      "zh-Hant": "名作",
+      "ko": "명작",
+      "tl": "obra maestra",
+      "ne": "उत्कृष्ट कृति",
+      "id": "karya agung",
+      "pt": "obra-prima",
+      "my": "အကောင်းဆုံးလက်ရာ",
+      "th": "ผลงานชิ้นเอก"
+     }
+    }
+   ],
+   "t": [
+    285.3,
+    288.49
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=285.3,288.49"
+  },
+  {
+   "ja": "大みそかにこの話を聞くのを楽しみにしている落語ファンも、たくさんいます。",
+   "furigana": [
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "みそかにこの",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "くのを",
+     "reading": ""
+    },
+    {
+     "surface": "楽",
+     "reading": "たの"
+    },
+    {
+     "surface": "しみにしている",
+     "reading": ""
+    },
+    {
+     "surface": "落語",
+     "reading": "らくご"
+    },
+    {
+     "surface": "ファンも、たくさんいます。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oo miso ka ni kono hanashi o kiku no o tanoshimi ni shite iru rakugo fan mo, takusan imasu.",
+   "translations": {
+    "vi": "Nhiều người mê rakugo háo hức chờ nghe chuyện này vào đêm giao thừa.",
+    "en": "Many rakugo fans look forward to hearing this story on New Year's Eve.",
+    "zh-Hans": "很多落语迷都期待着在除夕夜听这个故事。",
+    "zh-Hant": "很多落語迷都期待著在除夕夜聽這個故事。",
+    "ko": "섣달그믐에 이 이야기를 듣는 것을 기다리는 라쿠고 팬도 많습니다.",
+    "tl": "Maraming tagahanga ng rakugo ang nag-aabang na marinig ang kuwentong ito tuwing bisperas ng Bagong Taon.",
+    "ne": "वर्षको अन्तिम रात यो कथा सुन्न आतुर हुने राकुगो प्रेमीहरू धेरै छन्।",
+    "id": "Banyak penggemar rakugo menantikan cerita ini setiap malam tahun baru.",
+    "pt": "Muitos fãs de rakugo esperam ansiosos para ouvir esta história na véspera de Ano-Novo.",
+    "my": "နှစ်ကုန်ညမှာ ဒီဇာတ်လမ်းကို နားထောင်ဖို့ စောင့်မျှော်နေတဲ့ ရာကုဂို ပရိသတ်တွေ အများကြီးပဲ။",
+    "th": "แฟนราคุโกะจำนวนมากตั้งตารอฟังเรื่องนี้ในคืนสิ้นปี"
+   },
+   "grammarNote": {
+    "vi": "楽しみにする: mong chờ. 〜のを: việc ~.",
+    "en": "楽しみにする: look forward to. 〜のを: the act of ~.",
+    "zh-Hans": "楽しみにする：期待。〜のを：……这件事。",
+    "zh-Hant": "楽しみにする：期待。〜のを：……這件事。",
+    "ko": "楽しみにする: 기대하다. 〜のを: ~하는 것을.",
+    "tl": "楽しみにする: abangan. 〜のを: ang pag-~.",
+    "ne": "楽しみにする: आतुर भएर पर्खनु। 〜のを: ~ लाई।",
+    "id": "楽しみにする: menantikan. 〜のを: hal ~.",
+    "pt": "楽しみにする: aguardar com alegria. 〜のを: o ato de ~.",
+    "my": "楽しみにする: စောင့်မျှော်။ 〜のを: ~ ခြင်းကို။",
+    "th": "楽しみにする: ตั้งตารอ. 〜のを: การ ~"
+   },
+   "vocab": [
+    {
+     "word": "ファン",
+     "reading": "ファン",
+     "level": "N1",
+     "meanings": {
+      "vi": "người hâm mộ",
+      "en": "fan",
+      "zh-Hans": "粉丝",
+      "zh-Hant": "粉絲",
+      "ko": "팬",
+      "tl": "tagahanga",
+      "ne": "प्रशंसक",
+      "id": "penggemar",
+      "pt": "fã",
+      "my": "ပရိသတ်",
+      "th": "แฟน"
+     }
+    }
+   ],
+   "t": [
+    289.09,
+    294.99
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=289.09,294.99"
+  },
+  {
+   "ja": "次のお話は、お父さんとお祭りに出かけた、ちゃっかりした男の子の話です。",
+   "furigana": [
+    {
+     "surface": "次",
+     "reading": "つぎ"
+    },
+    {
+     "surface": "のお",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "は、お",
+     "reading": ""
+    },
+    {
+     "surface": "父",
+     "reading": "とう"
+    },
+    {
+     "surface": "さんとお",
+     "reading": ""
+    },
+    {
+     "surface": "祭",
+     "reading": "まつ"
+    },
+    {
+     "surface": "りに",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "で"
+    },
+    {
+     "surface": "かけた、ちゃっかりした",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "子",
+     "reading": "こ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tsugi no ohanashi wa, otousan to omatsuri ni dekaketa, chakkari shita otokonoko no hanashi desu.",
+   "translations": {
+    "vi": "Câu chuyện tiếp theo về một cậu bé láu lỉnh đi hội cùng bố.",
+    "en": "The next story is about a cheeky little boy who goes to a festival with his father.",
+    "zh-Hans": "下一个故事讲的是一个跟爸爸去庙会的机灵小男孩。",
+    "zh-Hant": "下一個故事講的是一個跟爸爸去廟會的機靈小男孩。",
+    "ko": "다음 이야기는 아빠와 축제에 간 약삭빠른 남자아이 이야기입니다.",
+    "tl": "Ang susunod na kuwento ay tungkol sa isang tusong batang lalaki na pumunta sa pista kasama ang tatay niya.",
+    "ne": "अर्को कथा बुबासँग मेलामा गएको एउटा चलाख केटाको हो।",
+    "id": "Cerita berikutnya tentang anak laki-laki cerdik yang pergi ke festival bersama ayahnya.",
+    "pt": "A próxima história é sobre um menino espertinho que vai a uma festa com o pai.",
+    "my": "နောက်ဇာတ်လမ်းက အဖေနဲ့ ပွဲတော်သွားတဲ့ လည်တဲ့ ယောကျ်ားလေး အကြောင်းပါ။",
+    "th": "เรื่องต่อไปเป็นเรื่องของเด็กชายเจ้าเล่ห์ที่ไปงานเทศกาลกับพ่อ"
+   },
+   "grammarNote": {
+    "vi": "ちゃっかり: láu lỉnh, khéo tranh phần lợi. お祭り: lễ hội.",
+    "en": "ちゃっかり: shrewd, cheeky. お祭り: festival.",
+    "zh-Hans": "ちゃっかり：机灵、会占便宜。お祭り：庙会、节日。",
+    "zh-Hant": "ちゃっかり：機靈、會占便宜。お祭り：廟會、節日。",
+    "ko": "ちゃっかり: 약삭빠름, 실속 챙김. お祭り: 축제.",
+    "tl": "ちゃっかり: tuso, marunong sumingit. お祭り: pista.",
+    "ne": "ちゃっかり: चलाख, फाइदा उठाउन सिपालु। お祭り: मेला, चाड।",
+    "id": "ちゃっかり: cerdik, pandai cari untung. お祭り: festival.",
+    "pt": "ちゃっかり: espertinho, que sabe tirar proveito. お祭り: festa, festival.",
+    "my": "ちゃっかり: လည်ပါး၊ အကျိုးရှာတတ်။ お祭り: ပွဲတော်။",
+    "th": "ちゃっかり: เจ้าเล่ห์ รู้จักหาประโยชน์. お祭り: งานเทศกาล"
+   },
+   "vocab": [
+    {
+     "word": "祭り",
+     "reading": "まつり",
+     "level": "N3",
+     "meanings": {
+      "vi": "lễ hội",
+      "en": "festival",
+      "zh-Hans": "节日，庙会",
+      "zh-Hant": "節慶，廟會",
+      "ko": "축제",
+      "tl": "pista",
+      "ne": "चाड, मेला",
+      "id": "festival",
+      "pt": "festival",
+      "my": "ပွဲတော်",
+      "th": "เทศกาล"
+     }
+    }
+   ],
+   "t": [
+    295.59,
+    302.18
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-shibahama-2/chapter.mp3#t=295.59,302.18"
+  }
+ ]
+}

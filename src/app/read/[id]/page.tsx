@@ -28,5 +28,8 @@ export default async function ReadPage({
   const { id } = await params;
   const story = getStory(id);
   if (!story) notFound();
-  return <ReaderClient story={story} />;
+  const next = story.series
+    ? STORIES.find((s) => s.series?.id === story.series!.id && s.series.index === story.series!.index + 1)
+    : undefined;
+  return <ReaderClient story={story} next={next ? { id: next.id, titles: next.titles } : undefined} />;
 }

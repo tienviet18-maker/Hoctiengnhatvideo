@@ -19,6 +19,13 @@ export function wordLevel(word, reading) {
   return JLPT[word] ?? (reading ? JLPT["kana:" + kata2hira(reading)] : undefined);
 }
 
+// Cấp của một mục từ vựng: tra theo chữ viết; chỉ tra theo cách đọc khi từ viết toàn kana.
+// (Tra cách đọc cho từ có kanji dễ trúng từ đồng âm: 怪談 かいだん ≠ 階段 N5.)
+export function vocabLevel(word, reading) {
+  if (JLPT[word]) return JLPT[word];
+  return reading && !/[\u3400-\u9fff々]/.test(word) ? JLPT["kana:" + kata2hira(reading)] : undefined;
+}
+
 export function loadTokenizer() {
   const dicPath = join(dirname(require.resolve("kuromoji")), "..", "dict");
   return new Promise((res, rej) => kuromoji.builder({ dicPath }).build((e, t) => (e ? rej(e) : res(t))));

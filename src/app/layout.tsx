@@ -5,6 +5,7 @@ import "./globals.css";
 import { SITE_URL } from "../lib/seo";
 import { LangProvider } from "../components/LangProvider";
 import TabBar from "../components/TabBar";
+import MiniPlayer from "../components/MiniPlayer";
 
 const bvp = Be_Vietnam_Pro({
   variable: "--font-bvp",
@@ -15,11 +16,11 @@ const bvp = Be_Vietnam_Pro({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "MiraiGo: Học tiếng Nhật qua video và truyện",
+    default: "MiraiGo: Xem phim vui, nghe truyện hay",
     template: "%s · MiraiGo",
   },
   description:
-    "Học tiếng Nhật qua video YouTube và truyện phân cấp: phụ đề furigana, chép chính tả, shadowing, ôn từ vựng mỗi ngày.",
+    "Xem video, nghe và đọc truyện tiếng Nhật có furigana, bản dịch, giải thích từng câu, đúng cấp độ của bạn. Tiếng Nhật trong tay, giỏi lên mỗi ngày.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div className="app-shell">
             {children}
             <Suspense fallback={null}>
+              <MiniPlayer />
               <TabBar />
             </Suspense>
           </div>

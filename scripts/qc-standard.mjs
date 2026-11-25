@@ -3,7 +3,7 @@
 // - Gói cũ (chưa nâng cấp) -> chỉ đếm và báo cáo; `--report` ghi chi tiết ra docs/content-audit.md.
 import { readdirSync, readFileSync, existsSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { loadTokenizer, measure, wordLevel, LEVEL_NUM } from "./lib/level.mjs";
+import { loadTokenizer, measure, vocabLevel, LEVEL_NUM } from "./lib/level.mjs";
 
 const root = new URL("..", import.meta.url).pathname;
 const LANGS = ["vi", "en", "zh-Hans", "zh-Hant", "ko", "tl", "ne", "id", "pt", "my", "th"];
@@ -44,7 +44,7 @@ function checkPack(d) {
     if (!fullLangs(s.translations)) missTr++;
     if (!fullLangs(s.grammarNote)) missNote++;
     for (const v of s.vocab ?? []) {
-      const l = wordLevel(v.word, v.reading);
+      const l = vocabLevel(v.word, v.reading);
       if (l && LEVEL_NUM[v.level] !== l) { badTag++; if (badTags.length < 3) badTags.push(`${v.word} ${v.level}→N${l}`); }
       if (!LANGS.every((x) => v.meanings?.[x]?.trim())) missTr++;
     }

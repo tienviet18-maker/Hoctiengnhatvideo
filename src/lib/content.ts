@@ -1,4 +1,28 @@
 import type { StoryContent, VideoContent } from "./content-schema";
+// --- kệ B/C Rakugo + cổ tích (chuẩn v2): import ---
+import bcRakugoTokiSoba from "../../content/stories/rakugo-toki-soba.json";
+import bcRakugoManjuKowai from "../../content/stories/rakugo-manju-kowai.json";
+import bcRakugoMeguroNoSanma from "../../content/stories/rakugo-meguro-no-sanma.json";
+import bcRakugoJugemu from "../../content/stories/rakugo-jugemu.json";
+import bcRakugoShibahama1 from "../../content/stories/rakugo-shibahama-1.json";
+import bcRakugoShibahama2 from "../../content/stories/rakugo-shibahama-2.json";
+import bcRakugoHatsuTenjin from "../../content/stories/rakugo-hatsu-tenjin.json";
+import bcRakugoKohome from "../../content/stories/rakugo-kohome.json";
+import bcRakugoSokotsuNagaya from "../../content/stories/rakugo-sokotsu-nagaya.json";
+import bcMukashiUrashima1 from "../../content/stories/mukashi-urashima-1.json";
+import bcMukashiUrashima2 from "../../content/stories/mukashi-urashima-2.json";
+import bcMukashiTsuru1 from "../../content/stories/mukashi-tsuru-1.json";
+import bcMukashiTsuru2 from "../../content/stories/mukashi-tsuru-2.json";
+import bcMukashiIssun1 from "../../content/stories/mukashi-issun-1.json";
+import bcMukashiIssun2 from "../../content/stories/mukashi-issun-2.json";
+import bcMukashiKaguya1 from "../../content/stories/mukashi-kaguya-1.json";
+import bcMukashiKaguya2 from "../../content/stories/mukashi-kaguya-2.json";
+import bcMukashiKaguya3 from "../../content/stories/mukashi-kaguya-3.json";
+import bcMukashiShuten1 from "../../content/stories/mukashi-shuten-1.json";
+import bcMukashiShuten2 from "../../content/stories/mukashi-shuten-2.json";
+import bcMukashiUshiwaka1 from "../../content/stories/mukashi-ushiwaka-1.json";
+import bcMukashiUshiwaka2 from "../../content/stories/mukashi-ushiwaka-2.json";
+// --- hết kệ B/C: import ---
 import video1 from "../../content/videos/teppei-genki-01.json";
 import video2 from "../../content/videos/teppei-study-how-long.json";
 import video3 from "../../content/videos/akane-directions.json";
@@ -590,6 +614,28 @@ import s_furusatoVnBanhchung1 from "../../content/stories/furusato-vn-banhchung-
 import s_furusatoVnTaoquan1 from "../../content/stories/furusato-vn-taoquan-1.json";
 import s_furusatoVnCuoi1 from "../../content/stories/furusato-vn-cuoi-1.json";
 
+// --- kệ A/E văn học (chuẩn v2): import ---
+import v2AkaiRousokuToNingyo from "../../content/stories/akai-rousoku-to-ningyo.json";
+import v2HanshichiOfumi1 from "../../content/stories/hanshichi-ofumi-1.json";
+import v2HanshichiOfumi2 from "../../content/stories/hanshichi-ofumi-2.json";
+import v2Jigokuhen1 from "../../content/stories/jigokuhen-1.json";
+import v2Jigokuhen2 from "../../content/stories/jigokuhen-2.json";
+import v2Budori1 from "../../content/stories/budori-1.json";
+import v2Budori2 from "../../content/stories/budori-2.json";
+import v2Budori3 from "../../content/stories/budori-3.json";
+import v2Budori4 from "../../content/stories/budori-4.json";
+import v2HanshichiYukidaruma1 from "../../content/stories/hanshichi-yukidaruma-1.json";
+import v2HanshichiYukidaruma2 from "../../content/stories/hanshichi-yukidaruma-2.json";
+import v2Botchan1 from "../../content/stories/botchan-1.json";
+import v2Botchan2 from "../../content/stories/botchan-2.json";
+import v2Botchan3 from "../../content/stories/botchan-3.json";
+import v2Botchan4 from "../../content/stories/botchan-4.json";
+import v2Botchan5 from "../../content/stories/botchan-5.json";
+import v2Botchan6 from "../../content/stories/botchan-6.json";
+import v2Madara1 from "../../content/stories/madara-1.json";
+import v2Madara2 from "../../content/stories/madara-2.json";
+// --- hết kệ A/E: import ---
+
 export const VIDEOS: VideoContent[] = [
   video1 as unknown as VideoContent,
   video2 as unknown as VideoContent,
@@ -691,6 +737,30 @@ export const VIDEOS: VideoContent[] = [
   video98 as unknown as VideoContent,
 ];
 export const STORIES: StoryContent[] = [
+  // --- kệ B/C Rakugo + cổ tích (chuẩn v2) ---
+  bcRakugoTokiSoba as unknown as StoryContent,
+  bcRakugoManjuKowai as unknown as StoryContent,
+  bcRakugoMeguroNoSanma as unknown as StoryContent,
+  bcRakugoJugemu as unknown as StoryContent,
+  bcRakugoShibahama1 as unknown as StoryContent,
+  bcRakugoShibahama2 as unknown as StoryContent,
+  bcRakugoHatsuTenjin as unknown as StoryContent,
+  bcRakugoKohome as unknown as StoryContent,
+  bcRakugoSokotsuNagaya as unknown as StoryContent,
+  bcMukashiUrashima1 as unknown as StoryContent,
+  bcMukashiUrashima2 as unknown as StoryContent,
+  bcMukashiTsuru1 as unknown as StoryContent,
+  bcMukashiTsuru2 as unknown as StoryContent,
+  bcMukashiIssun1 as unknown as StoryContent,
+  bcMukashiIssun2 as unknown as StoryContent,
+  bcMukashiKaguya1 as unknown as StoryContent,
+  bcMukashiKaguya2 as unknown as StoryContent,
+  bcMukashiKaguya3 as unknown as StoryContent,
+  bcMukashiShuten1 as unknown as StoryContent,
+  bcMukashiShuten2 as unknown as StoryContent,
+  bcMukashiUshiwaka1 as unknown as StoryContent,
+  bcMukashiUshiwaka2 as unknown as StoryContent,
+  // --- hết kệ B/C ---
   story1 as unknown as StoryContent,
   story2 as unknown as StoryContent,
   story3 as unknown as StoryContent,
@@ -1183,6 +1253,27 @@ export const STORIES: StoryContent[] = [
   s_furusatoVnBanhchung1 as unknown as StoryContent,
   s_furusatoVnTaoquan1 as unknown as StoryContent,
   s_furusatoVnCuoi1 as unknown as StoryContent,
+  // --- kệ A/E văn học (chuẩn v2) ---
+  v2AkaiRousokuToNingyo as unknown as StoryContent,
+  v2HanshichiOfumi1 as unknown as StoryContent,
+  v2HanshichiOfumi2 as unknown as StoryContent,
+  v2Jigokuhen1 as unknown as StoryContent,
+  v2Jigokuhen2 as unknown as StoryContent,
+  v2Budori1 as unknown as StoryContent,
+  v2Budori2 as unknown as StoryContent,
+  v2Budori3 as unknown as StoryContent,
+  v2Budori4 as unknown as StoryContent,
+  v2HanshichiYukidaruma1 as unknown as StoryContent,
+  v2HanshichiYukidaruma2 as unknown as StoryContent,
+  v2Botchan1 as unknown as StoryContent,
+  v2Botchan2 as unknown as StoryContent,
+  v2Botchan3 as unknown as StoryContent,
+  v2Botchan4 as unknown as StoryContent,
+  v2Botchan5 as unknown as StoryContent,
+  v2Botchan6 as unknown as StoryContent,
+  v2Madara1 as unknown as StoryContent,
+  v2Madara2 as unknown as StoryContent,
+  // --- hết kệ A/E ---
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

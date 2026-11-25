@@ -32,26 +32,26 @@ export default function TabBar() {
   const tabs = [
     {
       href: "/",
-      label: ui.tabs.video,
-      icon: "M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z M10 9.5l5 2.5-5 2.5z",
-      match: (p: string) => p === "/" || p.startsWith("/watch"),
+      label: ui.tabs.home,
+      icon: "M4 11l8-6 8 6v8a1 1 0 0 1-1 1h-4v-5h-6v5H5a1 1 0 0 1-1-1z",
+      match: (p: string) => p === "/" || p.startsWith("/paths"),
     },
     {
       href: "/books",
       label: ui.tabs.books,
-      icon: "M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z M4 19a2 2 0 0 1 2-2h13",
+      icon: "M4 5a2 2 0 0 1 2-2h5v18H6a2 2 0 0 1-2-2z M13 3h5a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5z",
       match: (p: string) => p.startsWith("/books") || p.startsWith("/read"),
     },
     {
-      href: "/news",
-      label: ui.tabs.news,
-      icon: "M4 6h16 M4 12h16 M4 18h10",
-      match: (p: string) => p.startsWith("/news"),
+      href: "/video",
+      label: ui.tabs.video,
+      icon: "M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z M10 9.5l5 2.5-5 2.5z",
+      match: (p: string) => p.startsWith("/video") || p.startsWith("/watch"),
     },
     {
       href: "/library",
       label: ui.tabs.library,
-      icon: "M5 4h14v16l-7-4-7 4z",
+      icon: "M4 6h13v14H4z M8 3h12v14",
       match: (p: string) => p.startsWith("/library"),
     },
     {
@@ -65,7 +65,7 @@ export default function TabBar() {
   return (
     <nav className="tabbar">
       {tabs.map((t) => (
-        <Link key={t.href} href={t.href} className={t.match(pathname) ? "on" : ""}>
+        <Link key={t.href} href={t.href} className={t.match(pathname) ? "on" : ""} aria-current={t.match(pathname) ? "page" : undefined}>
           <Icon d={t.icon} />
           {t.label}
           <span className="pip" />
