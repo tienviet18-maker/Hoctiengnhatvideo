@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLang } from "../components/LangProvider";
+import StoryCover from "../components/StoryCover";
 import { STORY_INDEX, VIDEO_INDEX } from "../lib/catalog.generated";
 import { pickText } from "../lib/i18n";
 import { SERIES, seriesOf } from "../lib/series";
@@ -236,24 +237,11 @@ export default function HomePage() {
         <Link href="/books" style={{ fontSize: 13, fontWeight: 600, color: "var(--navy)", textDecoration: "none" }}>{ui.common.seeAll}</Link>
       </div>
       <div style={{ display: "flex", gap: 10, marginTop: 10, overflowX: "auto", paddingBottom: 4 }}>
-        {newest.map((s) => {
-          const [bg, fg] = tone(s.id);
-          return (
-            <Link
-              key={s.id}
-              href={`/read/${s.id}`}
-              style={{
-                width: 96, height: 128, flexShrink: 0, borderRadius: 6, background: bg, color: fg, padding: 8,
-                display: "flex", flexDirection: "column", justifyContent: "space-between", textDecoration: "none",
-              }}
-            >
-              <span style={{ fontSize: 13, fontWeight: 800, lineHeight: 1.3, overflow: "hidden", display: "-webkit-box", WebkitLineClamp: 4, WebkitBoxOrient: "vertical" }}>
-                {pickText(s.titles, lang)}
-              </span>
-              <span style={{ fontSize: 10, fontWeight: 700 }}>{s.level}{s.free ? "" : " · VIP"}</span>
-            </Link>
-          );
-        })}
+        {newest.map((s) => (
+          <Link key={s.id} href={`/read/${s.id}`} style={{ width: 96, flexShrink: 0, textDecoration: "none", color: "inherit" }}>
+            <StoryCover story={s} title={pickText(s.titles, lang)} width={96} />
+          </Link>
+        ))}
       </div>
 
       <div style={{ marginTop: 22, display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
