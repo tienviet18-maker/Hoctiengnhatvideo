@@ -1,0 +1,5483 @@
+{
+  "kind": "story",
+  "id": "furusato-vn-hoguom-1",
+  "titles": {
+    "vi": "Sự tích Hồ Gươm",
+    "en": "The Legend of the Lake of the Returned Sword",
+    "zh-Hans": "还剑湖的传说",
+    "zh-Hant": "還劍湖的傳說",
+    "ko": "환검호 전설",
+    "tl": "Ang Alamat ng Lawa ng Ibinalik na Espada",
+    "ne": "फर्काइएको तरवारको तालको कथा",
+    "id": "Legenda Danau Pedang yang Dikembalikan",
+    "pt": "A lenda do Lago da Espada Devolvida",
+    "my": "ဓားပြန်အပ်ကန် ဒဏ္ဍာရီ",
+    "th": "ตำนานทะเลสาบคืนดาบ"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "cover": "/covers/furusato-vn-hoguom-1.webp",
+  "free": false,
+  "standard": 2,
+  "series": {
+    "id": "furusato-vn-hoguom",
+    "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "lesson": {
+    "grammarPoints": [
+      {
+        "pattern": "〜に〜される（受身）",
+        "example": 3,
+        "meaning": {
+          "vi": "Bị động: A bị/được B làm ~. Người làm đi với に. Đời sống: 先生にほめられました (tôi được thầy khen); 電車で足をふまれた (bị giẫm chân trên tàu).",
+          "en": "Passive: A is ~ed by B. The doer takes に. Daily life: 先生にほめられました (I was praised by the teacher); 電車で足をふまれた (someone stepped on my foot on the train).",
+          "zh-Hans": "被动：A被B……。施动者用に。生活中：先生にほめられました（被老师表扬了）；電車で足をふまれた（在电车上被踩了脚）。",
+          "zh-Hant": "被動：A被B……。施動者用に。生活中：先生にほめられました（被老師表揚了）；電車で足をふまれた（在電車上被踩了腳）。",
+          "ko": "수동: A가 B에게 ~당하다/받다. 행위자는 に. 생활: 先生にほめられました(선생님께 칭찬받았습니다); 電車で足をふまれた(전철에서 발을 밟혔다).",
+          "tl": "Balintiyak: ~ ni B si A. Gumagawa + に. Hal.: 先生にほめられました (pinuri ako ng guro).",
+          "ne": "कर्मवाच्य: A लाई B ले ~ गर्‍यो। गर्ने + に। उदाहरण: 先生にほめられました (शिक्षकले प्रशंसा गर्नुभयो)।",
+          "id": "Pasif: A di-~ oleh B. Pelaku + に. Contoh: 先生にほめられました (saya dipuji guru).",
+          "pt": "Passiva: A é ~ por B. Agente + に. Ex.: 先生にほめられました (fui elogiado pelo professor).",
+          "my": "ခံရ: A က B ရဲ့ ~ ခံရ။ လုပ်သူ + に။ ဥပမာ: 先生にほめられました (ဆရာ ချီးကျူးခံရတယ်)။",
+          "th": "กรรมวาจก: A ถูก B ~. ผู้กระทำ + に. ตัวอย่าง: 先生にほめられました (ได้รับคำชมจากครู)"
+        }
+      },
+      {
+        "pattern": "このままでは",
+        "example": 6,
+        "meaning": {
+          "vi": "Cứ đà này thì ~ (vế sau là kết quả xấu). Đời sống: このままでは、終電に間に合わない (cứ thế này thì lỡ chuyến tàu cuối).",
+          "en": "If things go on like this, ~ (bad outcome follows). Daily life: このままでは、終電に間に合わない (at this rate we'll miss the last train).",
+          "zh-Hans": "照这样下去……（后接不好的结果）。生活中：このままでは、終電に間に合わない（照这样下去赶不上末班车）。",
+          "zh-Hant": "照這樣下去……（後接不好的結果）。生活中：このままでは、終電に間に合わない（照這樣下去趕不上末班車）。",
+          "ko": "이대로라면 ~(나쁜 결과). 생활: このままでは、終電に間に合わない(이대로라면 막차를 놓친다).",
+          "tl": "Kung ganito, ~ (masamang resulta). Hal.: このままでは、終電に間に合わない (maiiwan tayo ng huling tren).",
+          "ne": "यस्तै रहे ~ (नराम्रो नतिजा)। उदाहरण: このままでは、終電に間に合わない (यसरी त अन्तिम रेल छुट्छ)।",
+          "id": "Kalau begini terus, ~ (hasil buruk). Contoh: このままでは、終電に間に合わない (bisa ketinggalan kereta terakhir).",
+          "pt": "Desse jeito, ~ (mau resultado). Ex.: このままでは、終電に間に合わない (vamos perder o último trem).",
+          "my": "ဒီအတိုင်းဆို ~ (မကောင်းတဲ့ရလဒ်)။ ဥပမာ: このままでは、終電に間に合わない (နောက်ဆုံးရထား မမီဘူး)။",
+          "th": "ถ้าเป็นแบบนี้ต่อไป ~ (ผลไม่ดี). ตัวอย่าง: このままでは、終電に間に合わない (แบบนี้ไม่ทันรถไฟเที่ยวสุดท้าย)"
+        }
+      },
+      {
+        "pattern": "AではなくB",
+        "example": 9,
+        "meaning": {
+          "vi": "Không phải A mà là B (sửa lại kỳ vọng). Văn nói: Aじゃなくて B. Đời sống: 今日は月曜ではなく、火曜です (hôm nay không phải thứ Hai mà là thứ Ba).",
+          "en": "Not A but B (correcting an expectation). Casual: Aじゃなくて B. Daily life: 今日は月曜ではなく、火曜です (today isn't Monday, it's Tuesday).",
+          "zh-Hans": "不是A而是B（纠正预期）。口语：Aじゃなくて B。生活中：今日は月曜ではなく、火曜です（今天不是周一，是周二）。",
+          "zh-Hant": "不是A而是B（糾正預期）。口語：Aじゃなくて B。生活中：今日は月曜ではなく、火曜です（今天不是週一，是週二）。",
+          "ko": "A가 아니라 B. 구어: Aじゃなくて B. 생활: 今日は月曜ではなく、火曜です(오늘은 월요일이 아니라 화요일입니다).",
+          "tl": "Hindi A kundi B. Kaswal: Aじゃなくて B. Hal.: 今日は月曜ではなく、火曜です (Martes ngayon, hindi Lunes).",
+          "ne": "A होइन B। अनौपचारिक: Aじゃなくて B। उदाहरण: 今日は月曜ではなく、火曜です (आज सोमबार होइन, मंगलबार हो)।",
+          "id": "Bukan A tapi B. Santai: Aじゃなくて B. Contoh: 今日は月曜ではなく、火曜です (hari ini bukan Senin, tapi Selasa).",
+          "pt": "Não A, mas B. Informal: Aじゃなくて B. Ex.: 今日は月曜ではなく、火曜です (hoje não é segunda, é terça).",
+          "my": "A မဟုတ်ဘဲ B။ ပြောဆို: Aじゃなくて B။ ဥပမာ: 今日は月曜ではなく、火曜です (ဒီနေ့ တနင်္လာ မဟုတ်ဘဲ အင်္ဂါ)။",
+          "th": "ไม่ใช่ A แต่เป็น B. ภาษาพูด: Aじゃなくて B. ตัวอย่าง: 今日は月曜ではなく、火曜です (วันนี้ไม่ใช่วันจันทร์ แต่เป็นวันอังคาร)"
+        }
+      },
+      {
+        "pattern": "〜ために（目的）",
+        "example": 39,
+        "meaning": {
+          "vi": "Để ~ (mục đích, chủ ngữ có ý chí). Thể từ điển / Danh từ + の + ために. Đời sống: 日本で働くために、日本語を勉強しています (tôi học tiếng Nhật để làm việc ở Nhật).",
+          "en": "In order to ~ (purpose with a willful subject). Dictionary form / Noun + の + ために. Daily life: 日本で働くために、日本語を勉強しています (I study Japanese to work in Japan).",
+          "zh-Hans": "为了……（有意志的目的）。辞书形/名词＋の＋ために。生活中：日本で働くために、日本語を勉強しています（为了在日本工作而学日语）。",
+          "zh-Hant": "為了……（有意志的目的）。辭書形/名詞＋の＋ために。生活中：日本で働くために、日本語を勉強しています（為了在日本工作而學日語）。",
+          "ko": "~하기 위해(의지적 목적). 사전형/명사+の+ために. 생활: 日本で働くために、日本語を勉強しています(일본에서 일하기 위해 일본어를 공부합니다).",
+          "tl": "Upang ~ (layunin). Hal.: 日本で働くために、日本語を勉強しています (nag-aaral ako ng Hapon para makapagtrabaho sa Japan).",
+          "ne": "~ का लागि (उद्देश्य)। उदाहरण: 日本で働くために、日本語を勉強しています (जापानमा काम गर्न जापानी पढ्दैछु)।",
+          "id": "Untuk ~ (tujuan). Contoh: 日本で働くために、日本語を勉強しています (saya belajar bahasa Jepang untuk bekerja di Jepang).",
+          "pt": "Para ~ (finalidade). Ex.: 日本で働くために、日本語を勉強しています (estudo japonês para trabalhar no Japão).",
+          "my": "~ ဖို့ (ရည်ရွယ်ချက်)။ ဥပမာ: 日本で働くために、日本語を勉強しています (ဂျပန်မှာ အလုပ်လုပ်ဖို့ ဂျပန်စာ လေ့လာနေတယ်)။",
+          "th": "เพื่อ ~ (จุดประสงค์). ตัวอย่าง: 日本で働くために、日本語を勉強しています (เรียนภาษาญี่ปุ่นเพื่อทำงานที่ญี่ปุ่น)"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "ja": "「ホアンキエム湖」は、日本語でどんな意味ですか。",
+        "choices": [
+          "亀がすむ湖",
+          "剣を返した湖",
+          "緑色の湖",
+          "王さまの湖"
+        ],
+        "answer": 1,
+        "explain": {
+          "vi": "Hoàn Kiếm = trả gươm.",
+          "en": "Hoàn Kiếm means 'returned sword.'",
+          "zh-Hans": "还剑＝归还了剑。",
+          "zh-Hant": "還劍＝歸還了劍。",
+          "ko": "호안끼엠=검을 돌려줌.",
+          "tl": "Hoàn Kiếm = ibinalik na espada.",
+          "ne": "होआन किएम = फर्काइएको तरवार।",
+          "id": "Hoàn Kiếm = pedang dikembalikan.",
+          "pt": "Hoàn Kiếm = espada devolvida.",
+          "my": "ဟွမ်ကီယမ် = ဓားပြန်အပ်။",
+          "th": "ฮว่านเกี๋ยม = คืนดาบ"
+        }
+      },
+      {
+        "ja": "レ・タンの網に、何が三回入りましたか。",
+        "choices": [
+          "大きな魚",
+          "金色の亀",
+          "剣の刃",
+          "剣のつか"
+        ],
+        "answer": 2,
+        "explain": {
+          "vi": "Lưỡi gươm khắc chữ \"Thuận Thiên\" mắc lưới ba lần.",
+          "en": "The blade inscribed 'Thuận Thiên' came up three times.",
+          "zh-Hans": "刻着“顺天”的剑刃三次进了网。",
+          "zh-Hant": "刻著“順天”的劍刃三次進了網。",
+          "ko": "'순천'이 새겨진 칼날이 세 번 걸렸습니다.",
+          "tl": "Tatlong beses nahuli ang talim.",
+          "ne": "धार तीन पटक जालमा पर्‍यो।",
+          "id": "Bilah pedang tiga kali masuk jaring.",
+          "pt": "A lâmina veio três vezes.",
+          "my": "ဓားသွားက သုံးကြိမ် ပိုက်ထဲ ပါလာတယ်။",
+          "th": "ใบดาบติดแหสามครั้ง"
+        }
+      },
+      {
+        "ja": "亀は、どうして剣を返してほしいと言いましたか。",
+        "choices": [
+          "亀がほしかったから",
+          "戦いが終わって、湖の神さまが貸したものだから",
+          "剣がこわれたから",
+          "王さまが悪い人だったから"
+        ],
+        "answer": 1,
+        "explain": {
+          "vi": "Gươm là thần hồ cho mượn để cứu nước; hết chiến tranh thì trả.",
+          "en": "It was lent to save the country; with the war over, it should go back.",
+          "zh-Hans": "剑是湖神为救国借的，战争结束就该还。",
+          "zh-Hant": "劍是湖神為救國借的，戰爭結束就該還。",
+          "ko": "나라를 구하려고 빌려준 것이니 전쟁이 끝나면 돌려줘야 합니다.",
+          "tl": "Ipinahiram ito para sa digmaan.",
+          "ne": "युद्धका लागि सापटी दिइएको थियो।",
+          "id": "Dipinjamkan untuk perang, kini harus kembali.",
+          "pt": "Foi emprestada para a guerra.",
+          "my": "စစ်အတွက် ငှားထားတာ။",
+          "th": "ให้ยืมเพื่อสงคราม จบแล้วต้องคืน"
+        }
+      },
+      {
+        "ja": "レ・ロイと俵藤太の話で、ちがうところは何ですか。",
+        "choices": [
+          "レ・ロイは借りた力を返した",
+          "俵藤太は湖に行かなかった",
+          "レ・ロイは亀に会わなかった",
+          "どちらも同じ"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Cả hai đều được thần hồ giúp, nhưng Lê Lợi trả lại sức mạnh khi xong việc.",
+          "en": "Both were helped by lake gods, but Lê Lợi gave the power back.",
+          "zh-Hans": "两人都得到湖神帮助，但黎利用完后归还了力量。",
+          "zh-Hant": "兩人都得到湖神幫助，但黎利用完後歸還了力量。",
+          "ko": "둘 다 호수 신의 도움을 받았지만 레 로이는 힘을 돌려주었습니다.",
+          "tl": "Ibinalik ni Lê Lợi ang lakas.",
+          "ne": "ले लोईले बल फर्काए।",
+          "id": "Lê Lợi mengembalikan kekuatan.",
+          "pt": "Lê Lợi devolveu o poder.",
+          "my": "လေလွိုင်က အားကို ပြန်အပ်တယ်။",
+          "th": "เล เหล่ยคืนพลังที่ยืมมา"
+        }
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "ja": "ベトナムの首都ハノイの真ん中に、緑色の水をたたえた、小さな湖があります。",
+      "furigana": [
+        {
+          "surface": "ベトナムの",
+          "reading": ""
+        },
+        {
+          "surface": "首",
+          "reading": "くび"
+        },
+        {
+          "surface": "都",
+          "reading": "みやこ"
+        },
+        {
+          "surface": "ハノイの",
+          "reading": ""
+        },
+        {
+          "surface": "真",
+          "reading": "ま"
+        },
+        {
+          "surface": "ん",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "緑色",
+          "reading": "みどりいろ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "をたたえた、",
+          "reading": ""
+        },
+        {
+          "surface": "小",
+          "reading": "ちい"
+        },
+        {
+          "surface": "さな",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "surface": "があります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Betonamu no kubi miyako Hanoi no mannaka ni, midoriiro no mizu o tataeta, chiisana mizuumi ga arimasu.",
+      "translations": {
+        "vi": "Giữa lòng Hà Nội, thủ đô Việt Nam, có một hồ nước nhỏ xanh biếc.",
+        "en": "In the heart of Hanoi, Vietnam's capital, lies a small lake brimming with green water.",
+        "zh-Hans": "在越南首都河内的正中央，有一个碧绿的小湖。",
+        "zh-Hant": "在越南首都河內的正中央，有一個碧綠的小湖。",
+        "ko": "베트남의 수도 하노이 한가운데에 초록 물이 가득한 작은 호수가 있습니다.",
+        "tl": "Sa gitna ng Hanoi, may maliit na lawang luntian.",
+        "ne": "भियतनामको राजधानी हनोईको बीचमा हरियो पानी भरिएको सानो ताल छ।",
+        "id": "Di tengah Hanoi, ibu kota Vietnam, ada danau kecil berair hijau.",
+        "pt": "No centro de Hanói há um pequeno lago de água verde.",
+        "my": "ဗီယက်နမ် မြို့တော် ဟနွိုင်းအလယ်မှာ ရေစိမ်းကန်လေး ရှိတယ်။",
+        "th": "ใจกลางฮานอย เมืองหลวงเวียดนาม มีทะเลสาบเล็กน้ำสีเขียว"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "首都 = thủ đô. 真ん中 = chính giữa. たたえる = đầy ắp (nước).",
+        "en": "首都 = capital. 真ん中 = center. たたえる = be brimming.",
+        "zh-Hans": "首都＝首都。真ん中＝正中央。",
+        "zh-Hant": "首都＝首都。真ん中＝正中央。",
+        "ko": "首都=수도.",
+        "tl": "kabisera.",
+        "ne": "राजधानी।",
+        "id": "ibu kota.",
+        "pt": "capital.",
+        "my": "မြို့တော်။",
+        "th": "เมืองหลวง"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=0.3,7.354",
+      "t": [
+        0.3,
+        7.354
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "名前はホアンキエム湖。日本語にすると、「剣を返した湖」という意味です。",
+      "furigana": [
+        {
+          "surface": "名前",
+          "reading": "なまえ"
+        },
+        {
+          "surface": "はホアンキエム",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "こ"
+        },
+        {
+          "surface": "。",
+          "reading": ""
+        },
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "語",
+          "reading": "かたり"
+        },
+        {
+          "surface": "にすると、「",
+          "reading": ""
+        },
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "返",
+          "reading": "かえ"
+        },
+        {
+          "surface": "した",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "surface": "」という",
+          "reading": ""
+        },
+        {
+          "surface": "意味",
+          "reading": "いみ"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Namae wa Hoankiemu Ko. Nihon katari ni suru to, “Ken o kaeshita mizuumi” to iu imi desu.",
+      "translations": {
+        "vi": "Tên hồ là Hoàn Kiếm. Dịch sang tiếng Nhật nghĩa là \"Hồ trả gươm\".",
+        "en": "It's called Hoàn Kiếm Lake. In Japanese it means \"the lake that returned the sword.\"",
+        "zh-Hans": "它叫还剑湖。翻成日语，意思是“归还了剑的湖”。",
+        "zh-Hant": "它叫還劍湖。翻成日語，意思是“歸還了劍的湖”。",
+        "ko": "이름은 호안끼엠 호수. 일본어로 하면 '검을 돌려준 호수'라는 뜻입니다.",
+        "tl": "Hoàn Kiếm ang pangalan: \"lawa ng ibinalik na espada.\"",
+        "ne": "नाम होआन किएम ताल, अर्थ \"तरवार फर्काइएको ताल\"।",
+        "id": "Namanya Danau Hoàn Kiếm, artinya \"danau pedang yang dikembalikan.\"",
+        "pt": "Chama-se Hoàn Kiếm: \"lago da espada devolvida\".",
+        "my": "နာမည်က ဟွမ်ကီယမ်ကန်၊ \"ဓားပြန်အပ်ကန်\" လို့ အဓိပ္ပာယ်ရတယ်။",
+        "th": "ชื่อทะเลสาบฮว่านเกี๋ยม แปลว่า \"ทะเลสาบคืนดาบ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜にすると」: nếu chuyển thành ~. 「〜という意味」: có nghĩa là ~.",
+        "en": "「〜にすると」 = when put into ~. 「〜という意味」 = means ~.",
+        "zh-Hans": "「〜という意味」＝意思是……。",
+        "zh-Hant": "「〜という意味」＝意思是……。",
+        "ko": "~라는 뜻.",
+        "tl": "ibig sabihin.",
+        "ne": "अर्थ।",
+        "id": "artinya.",
+        "pt": "significa.",
+        "my": "အဓိပ္ပာယ်။",
+        "th": "หมายความว่า"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=7.954,14.414",
+      "t": [
+        7.954,
+        14.414
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "今日は、この名前のもとになった、六百年ほど前のお話をしましょう。",
+      "furigana": [
+        {
+          "surface": "今日",
+          "reading": "きょう"
+        },
+        {
+          "surface": "は、この",
+          "reading": ""
+        },
+        {
+          "surface": "名前",
+          "reading": "なまえ"
+        },
+        {
+          "surface": "のもとになった、",
+          "reading": ""
+        },
+        {
+          "surface": "六百年",
+          "reading": "ろっぴゃくねん"
+        },
+        {
+          "surface": "ほど",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "のお",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "をしましょう。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kyou wa, kono namae no moto ni natta, roppyakunen hodo mae no ohanashi o shimashou.",
+      "translations": {
+        "vi": "Hôm nay, hãy cùng nghe câu chuyện khoảng sáu trăm năm trước, nguồn gốc của cái tên ấy.",
+        "en": "Today, let's hear the story from about 600 years ago behind that name.",
+        "zh-Hans": "今天，我们来讲讲这个名字的由来，大约六百年前的故事。",
+        "zh-Hant": "今天，我們來講講這個名字的由來，大約六百年前的故事。",
+        "ko": "오늘은 이 이름의 유래가 된 약 600년 전의 이야기를 해 봅시다.",
+        "tl": "Ngayon, pakinggan ang kuwento mula 600 taon na ang nakalipas.",
+        "ne": "आज त्यो नामको जड, करिब ६०० वर्ष पुरानो कथा सुनौँ।",
+        "id": "Hari ini, mari dengar kisah 600 tahun lalu di balik nama itu.",
+        "pt": "Hoje, a história de uns 600 anos atrás.",
+        "my": "ဒီနေ့ နှစ် ၆၀၀ လောက်က ပုံပြင်ကို ပြောမယ်။",
+        "th": "วันนี้มาฟังเรื่องเมื่อราว 600 ปีก่อนกัน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜のもとになる」: là nguồn gốc của ~. 「〜ほど」: khoảng ~.",
+        "en": "「〜のもとになる」 = be the origin of ~. 「〜ほど」 = about ~.",
+        "zh-Hans": "「〜のもとになる」＝成为……的由来。",
+        "zh-Hant": "「〜のもとになる」＝成為……的由來。",
+        "ko": "~의 유래가 되다.",
+        "tl": "pinagmulan ng ~.",
+        "ne": "~ को जड।",
+        "id": "asal-usul ~.",
+        "pt": "origem de ~.",
+        "my": "~ရဲ့ မူလ။",
+        "th": "ที่มาของ ~"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=15.014,20.715",
+      "t": [
+        15.014,
+        20.715
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのころ、ベトナムは北の大きな国の軍に支配されていました。",
+      "furigana": [
+        {
+          "surface": "そのころ、ベトナムは",
+          "reading": ""
+        },
+        {
+          "surface": "北",
+          "reading": "きた"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きな",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "軍",
+          "reading": "ぐん"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "支配",
+          "reading": "しはい"
+        },
+        {
+          "surface": "されていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono koro, Betonamu wa kita no ookina kuni no gun ni shihaisareteimashita.",
+      "translations": {
+        "vi": "Thời ấy, Việt Nam bị quân đội của nước lớn phương Bắc cai trị.",
+        "en": "At that time, Vietnam was ruled by the army of a big country to the north.",
+        "zh-Hans": "那时，越南被北方大国的军队统治着。",
+        "zh-Hant": "那時，越南被北方大國的軍隊統治著。",
+        "ko": "그 무렵 베트남은 북쪽 큰 나라의 군대에 지배당하고 있었습니다.",
+        "tl": "Noon, sinakop ang Vietnam ng hukbo ng malaking bansa sa hilaga.",
+        "ne": "त्यसबेला भियतनाम उत्तरको ठूलो देशको सेनाको शासनमा थियो।",
+        "id": "Saat itu Vietnam dikuasai pasukan negeri besar di utara.",
+        "pt": "Na época, o Vietnã era dominado por um exército do norte.",
+        "my": "အဲဒီတုန်းက ဗီယက်နမ်ကို မြောက်ဘက် နိုင်ငံကြီးရဲ့ စစ်တပ်က အုပ်စိုးတယ်။",
+        "th": "ตอนนั้น เวียดนามถูกกองทัพแคว้นใหญ่ทางเหนือปกครอง"
+      },
+      "vocab": [
+        {
+          "word": "軍",
+          "reading": "ぐん",
+          "meanings": {
+            "vi": "quân đội",
+            "en": "army",
+            "zh-Hans": "军队",
+            "zh-Hant": "軍隊",
+            "ko": "군대",
+            "tl": "hukbo",
+            "ne": "सेना",
+            "id": "pasukan",
+            "pt": "exército",
+            "my": "စစ်တပ်",
+            "th": "กองทัพ"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "支配",
+          "reading": "しはい",
+          "meanings": {
+            "vi": "cai trị, thống trị",
+            "en": "rule, control",
+            "zh-Hans": "统治",
+            "zh-Hant": "統治",
+            "ko": "지배",
+            "tl": "pamamahala",
+            "ne": "शासन",
+            "id": "menguasai",
+            "pt": "dominar",
+            "my": "အုပ်စိုး",
+            "th": "ปกครอง"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜に支配される」: bị ~ cai trị (bị động).",
+        "en": "「〜に支配される」 = be ruled by ~.",
+        "zh-Hans": "「〜に支配される」＝被……统治。",
+        "zh-Hant": "「〜に支配される」＝被……統治。",
+        "ko": "~에게 지배당하다.",
+        "tl": "pinamumunuan ng ~.",
+        "ne": "~ को शासनमा।",
+        "id": "dikuasai ~.",
+        "pt": "dominado por ~.",
+        "my": "~ အုပ်စိုးခံရ။",
+        "th": "ถูก ~ ปกครอง"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=21.315,26.681",
+      "t": [
+        21.315,
+        26.681
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "人々は重い税に苦しみ、家族を失った人もたくさんいました。",
+      "furigana": [
+        {
+          "surface": "人々",
+          "reading": "ひとびと"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "重",
+          "reading": "おも"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "税",
+          "reading": "ぜい"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "苦",
+          "reading": "くる"
+        },
+        {
+          "surface": "しみ、",
+          "reading": ""
+        },
+        {
+          "surface": "家族",
+          "reading": "かぞく"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "失",
+          "reading": "うしな"
+        },
+        {
+          "surface": "った",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "もたくさんいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hitobito wa omoi zei ni kurushimi, kazoku o ushinatta hito mo takusan imashita.",
+      "translations": {
+        "vi": "Người dân khổ sở vì thuế nặng, nhiều người mất cả gia đình.",
+        "en": "People suffered under heavy taxes, and many lost their families.",
+        "zh-Hans": "人们苦于沉重的赋税，很多人失去了家人。",
+        "zh-Hant": "人們苦於沉重的賦稅，很多人失去了家人。",
+        "ko": "사람들은 무거운 세금에 괴로워했고, 가족을 잃은 사람도 많았습니다.",
+        "tl": "Nagdusa ang mga tao sa mabigat na buwis.",
+        "ne": "भारी करले जनता पीडित थिए, धेरैले परिवार गुमाए।",
+        "id": "Rakyat menderita pajak berat, banyak kehilangan keluarga.",
+        "pt": "O povo sofria com impostos e muitos perderam a família.",
+        "my": "လူတွေ အခွန်လေးလို့ ဒုက္ခရောက်ပြီး မိသားစု ဆုံးရှုံးတဲ့သူ များတယ်။",
+        "th": "ผู้คนทุกข์เพราะภาษีหนัก หลายคนเสียครอบครัว"
+      },
+      "vocab": [
+        {
+          "word": "税",
+          "reading": "ぜい",
+          "meanings": {
+            "vi": "thuế",
+            "en": "tax",
+            "zh-Hans": "税",
+            "zh-Hant": "稅",
+            "ko": "세금",
+            "tl": "buwis",
+            "ne": "कर",
+            "id": "pajak",
+            "pt": "imposto",
+            "my": "အခွန်",
+            "th": "ภาษี"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "苦しむ",
+          "reading": "くるしむ",
+          "meanings": {
+            "vi": "khổ sở, đau khổ",
+            "en": "suffer",
+            "zh-Hans": "受苦",
+            "zh-Hant": "受苦",
+            "ko": "괴로워하다",
+            "tl": "magdusa",
+            "ne": "कष्ट भोग्नु",
+            "id": "menderita",
+            "pt": "sofrer",
+            "my": "ဒုက္ခခံ",
+            "th": "ทุกข์ทรมาน"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜に苦しむ」: khổ vì ~. 失う = mất.",
+        "en": "「〜に苦しむ」 = suffer from ~. 失う = lose.",
+        "zh-Hans": "「〜に苦しむ」＝苦于……。",
+        "zh-Hant": "「〜に苦しむ」＝苦於……。",
+        "ko": "~에 괴로워하다.",
+        "tl": "magdusa sa ~.",
+        "ne": "~ ले पीडित।",
+        "id": "menderita karena ~.",
+        "pt": "sofrer com ~.",
+        "my": "~ကြောင့် ဒုက္ခ။",
+        "th": "ทุกข์เพราะ ~"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=27.281,32.63",
+      "t": [
+        27.281,
+        32.63
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "タインホアという土地に、レ・ロイという男がいました。",
+      "furigana": [
+        {
+          "surface": "タインホアという",
+          "reading": ""
+        },
+        {
+          "surface": "土地",
+          "reading": "とち"
+        },
+        {
+          "surface": "に、レ・ロイという",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "がいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tainhoa to iu tochi ni, Re Roi to iu otoko ga imashita.",
+      "translations": {
+        "vi": "Ở vùng Thanh Hóa có một người tên là Lê Lợi.",
+        "en": "In the land of Thanh Hóa lived a man named Lê Lợi.",
+        "zh-Hans": "在清化这个地方，有个叫黎利的人。",
+        "zh-Hant": "在清化這個地方，有個叫黎利的人。",
+        "ko": "타인호아라는 곳에 레 로이라는 남자가 있었습니다.",
+        "tl": "Sa Thanh Hóa, may lalaking si Lê Lợi.",
+        "ne": "थान्ह होआमा ले लोई नामका मान्छे थिए।",
+        "id": "Di Thanh Hóa ada pria bernama Lê Lợi.",
+        "pt": "Em Thanh Hóa vivia Lê Lợi.",
+        "my": "သန်းဟွာမှာ လေလွိုင် ဆိုတဲ့ လူ ရှိတယ်။",
+        "th": "ที่แคว้นทัญฮว้า มีชายชื่อเล เหล่ย"
+      },
+      "vocab": [
+        {
+          "word": "土地",
+          "reading": "とち",
+          "meanings": {
+            "vi": "đất đai",
+            "en": "land",
+            "zh-Hans": "土地",
+            "zh-Hant": "土地",
+            "ko": "땅",
+            "tl": "lupa",
+            "ne": "जमिन",
+            "id": "tanah",
+            "pt": "terra, terreno",
+            "my": "မြေ",
+            "th": "ที่ดิน"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "土地 = vùng đất.",
+        "en": "土地 = land, region.",
+        "zh-Hans": "土地＝地方。",
+        "zh-Hant": "土地＝地方。",
+        "ko": "土地=고장.",
+        "tl": "lupain.",
+        "ne": "भूमि।",
+        "id": "daerah.",
+        "pt": "terra.",
+        "my": "မြေ။",
+        "th": "ดินแดน"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=33.23,37.274",
+      "t": [
+        33.23,
+        37.274
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「このままでは、国がなくなってしまう。わたしたちの手で、国を取りもどそう。」",
+      "furigana": [
+        {
+          "surface": "「このままでは、",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "がなくなってしまう。わたしたちの",
+          "reading": ""
+        },
+        {
+          "surface": "手",
+          "reading": "て"
+        },
+        {
+          "surface": "で、",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "取",
+          "reading": "と"
+        },
+        {
+          "surface": "りもどそう。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kono mama dewa, kuni ga nakunatteshimau. Watashitachi no te de, kuni o tori modosou.”",
+      "translations": {
+        "vi": "\"Cứ thế này thì nước mất mất. Chúng ta phải tự tay giành lại đất nước.\"",
+        "en": "\"At this rate, our country will be lost. Let's take it back with our own hands.\"",
+        "zh-Hans": "“这样下去，国家就要亡了。我们要亲手夺回国家。”",
+        "zh-Hant": "“這樣下去，國家就要亡了。我們要親手奪回國家。”",
+        "ko": "\"이대로라면 나라가 없어지고 말 거야. 우리 손으로 나라를 되찾자.\"",
+        "tl": "\"Kung ganito, mawawala ang bayan. Bawiin natin ito.\"",
+        "ne": "\"यस्तै रहे देश सकिन्छ। आफ्नै हातले देश फर्काऔँ।\"",
+        "id": "\"Kalau begini, negeri akan hilang. Mari rebut kembali.\"",
+        "pt": "\"Assim, perderemos o país. Vamos retomá-lo.\"",
+        "my": "\"ဒီအတိုင်းဆို တိုင်းပြည် ပျောက်မယ်။ ကိုယ့်လက်နဲ့ ပြန်ယူကြစို့။\"",
+        "th": "\"ถ้าเป็นแบบนี้ บ้านเมืองจะล่มสลาย เราต้องกอบกู้คืนด้วยมือเราเอง\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「このままでは」: cứ thế này thì. 取りもどす = giành lại.",
+        "en": "「このままでは」 = if things go on like this. 取りもどす = take back.",
+        "zh-Hans": "「このままでは」＝照这样下去。",
+        "zh-Hant": "「このままでは」＝照這樣下去。",
+        "ko": "이대로라면.",
+        "tl": "kung ganito.",
+        "ne": "यस्तै रहे।",
+        "id": "kalau begini.",
+        "pt": "assim.",
+        "my": "ဒီအတိုင်းဆို။",
+        "th": "ถ้าเป็นแบบนี้"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=38.174,44.102",
+      "t": [
+        38.174,
+        44.102
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "レ・ロイは仲間を集めて、戦いを始めました。でも、敵は強く、なかなか勝てませんでした。",
+      "furigana": [
+        {
+          "surface": "レ・ロイは",
+          "reading": ""
+        },
+        {
+          "surface": "仲間",
+          "reading": "なかま"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "集",
+          "reading": "あつ"
+        },
+        {
+          "surface": "めて、",
+          "reading": ""
+        },
+        {
+          "surface": "戦",
+          "reading": "たたか"
+        },
+        {
+          "surface": "いを",
+          "reading": ""
+        },
+        {
+          "surface": "始",
+          "reading": "はじ"
+        },
+        {
+          "surface": "めました。でも、",
+          "reading": ""
+        },
+        {
+          "surface": "敵",
+          "reading": "てき"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "強",
+          "reading": "つよ"
+        },
+        {
+          "surface": "く、なかなか",
+          "reading": ""
+        },
+        {
+          "surface": "勝",
+          "reading": "か"
+        },
+        {
+          "surface": "てませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Re Roi wa nakama o atsumete, tatakai o hajimemashita. Demo, teki wa tsuyoku, nakanaka katemasendeshita.",
+      "translations": {
+        "vi": "Lê Lợi tập hợp nghĩa quân, bắt đầu chiến đấu. Nhưng giặc mạnh, mãi không thắng được.",
+        "en": "He gathered allies and began to fight, but the enemy was strong and victory wouldn't come.",
+        "zh-Hans": "黎利召集伙伴，开始战斗。可是敌人很强，总也打不赢。",
+        "zh-Hant": "黎利召集夥伴，開始戰鬥。可是敵人很強，總也打不贏。",
+        "ko": "레 로이는 동료를 모아 싸움을 시작했습니다. 하지만 적은 강해 좀처럼 이기지 못했습니다.",
+        "tl": "Nagtipon siya ng kasama at lumaban, pero malakas ang kaaway.",
+        "ne": "उनले साथी जम्मा गरी लडाइँ सुरु गरे, तर शत्रु बलियो थियो।",
+        "id": "Ia mengumpulkan kawan dan berperang, tapi musuh kuat.",
+        "pt": "Reuniu aliados e lutou, mas o inimigo era forte.",
+        "my": "အပေါင်းအဖော် စုပြီး တိုက်တယ်၊ ဒါပေမဲ့ ရန်သူ အားကောင်းလို့ မနိုင်ဘူး။",
+        "th": "เขารวบรวมพวกพ้องเริ่มสู้ แต่ศัตรูแข็งแกร่ง ชนะได้ยาก"
+      },
+      "vocab": [
+        {
+          "word": "仲間",
+          "reading": "なかま",
+          "meanings": {
+            "vi": "bạn đồng hành, đồng đội",
+            "en": "companion, ally",
+            "zh-Hans": "伙伴",
+            "zh-Hant": "夥伴",
+            "ko": "동료",
+            "tl": "kasama",
+            "ne": "साथी",
+            "id": "kawan",
+            "pt": "companheiro",
+            "my": "အပေါင်းအဖော်",
+            "th": "พวกพ้อง"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "戦い",
+          "reading": "たたかい",
+          "meanings": {
+            "vi": "trận chiến",
+            "en": "battle",
+            "zh-Hans": "战斗",
+            "zh-Hant": "戰鬥",
+            "ko": "싸움, 전투",
+            "tl": "labanan",
+            "ne": "युद्ध",
+            "id": "pertempuran",
+            "pt": "batalha",
+            "my": "တိုက်ပွဲ",
+            "th": "การต่อสู้"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「なかなか〜ない」: mãi không ~. 敵 = kẻ thù.",
+        "en": "「なかなか〜ない」 = just can't ~. 敵 = enemy.",
+        "zh-Hans": "「なかなか〜ない」＝怎么也不……。",
+        "zh-Hant": "「なかなか〜ない」＝怎麼也不……。",
+        "ko": "좀처럼 ~않다.",
+        "tl": "hindi magawa-gawa.",
+        "ne": "सजिलै न।",
+        "id": "sulit ~.",
+        "pt": "não conseguir.",
+        "my": "မ~နိုင်။",
+        "th": "~ ได้ยาก"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=45.002,53.628",
+      "t": [
+        45.002,
+        53.628
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ある日、レ・タンという漁師が、川で網を投げていました。",
+      "furigana": [
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "、レ・タンという",
+          "reading": ""
+        },
+        {
+          "surface": "漁師",
+          "reading": "りょうし"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "川",
+          "reading": "かわ"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "網",
+          "reading": "あみ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "投",
+          "reading": "な"
+        },
+        {
+          "surface": "げていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aru hi, Re Tan to iu ryoushi ga, kawa de ami o nageteimashita.",
+      "translations": {
+        "vi": "Một hôm, người đánh cá tên Lê Thận quăng lưới ở sông.",
+        "en": "One day, a fisherman named Lê Thận was casting his net in a river.",
+        "zh-Hans": "有一天，一个叫黎慎的渔夫在河里撒网。",
+        "zh-Hant": "有一天，一個叫黎慎的漁夫在河裡撒網。",
+        "ko": "어느 날 레 탄이라는 어부가 강에서 그물을 던지고 있었습니다.",
+        "tl": "Isang araw, nanghuhuli si Lê Thận sa ilog.",
+        "ne": "एक दिन ले थान नामका माझीले खोलामा जाल हाल्दै थिए।",
+        "id": "Suatu hari, nelayan Lê Thận menebar jala di sungai.",
+        "pt": "Um pescador, Lê Thận, lançava a rede no rio.",
+        "my": "တစ်နေ့ တံငါ လေသန်က မြစ်မှာ ပိုက်ပစ်နေတယ်။",
+        "th": "วันหนึ่ง ชาวประมงชื่อเล ถั่นเหวี่ยงแหในแม่น้ำ"
+      },
+      "vocab": [
+        {
+          "word": "網",
+          "reading": "あみ",
+          "meanings": {
+            "vi": "cái lưới",
+            "en": "net",
+            "zh-Hans": "网",
+            "zh-Hant": "網",
+            "ko": "그물",
+            "tl": "lambat",
+            "ne": "जाल",
+            "id": "jaring",
+            "pt": "rede",
+            "my": "ပိုက်",
+            "th": "แห อวน"
+          },
+          "level": "N1"
+        },
+        {
+          "word": "漁師",
+          "reading": "りょうし",
+          "meanings": {
+            "vi": "ngư dân",
+            "en": "fisherman",
+            "zh-Hans": "渔夫",
+            "zh-Hant": "漁夫",
+            "ko": "어부",
+            "tl": "mangingisda",
+            "ne": "माझी",
+            "id": "nelayan",
+            "pt": "pescador",
+            "my": "တံငါ",
+            "th": "ชาวประมง"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "網を投げる = quăng lưới. 漁師 = ngư dân.",
+        "en": "網を投げる = cast a net.",
+        "zh-Hans": "網を投げる＝撒网。",
+        "zh-Hant": "網を投げる＝撒網。",
+        "ko": "그물을 던지다.",
+        "tl": "ihagis ang lambat.",
+        "ne": "जाल हान्नु।",
+        "id": "menebar jala.",
+        "pt": "lançar a rede.",
+        "my": "ပိုက်ပစ်။",
+        "th": "เหวี่ยงแห"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=54.229,58.813",
+      "t": [
+        54.229,
+        58.813
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "網を引き上げると、魚ではなく、重い鉄の棒のようなものが入っていました。",
+      "furigana": [
+        {
+          "surface": "網",
+          "reading": "あみ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "引",
+          "reading": "ひ"
+        },
+        {
+          "surface": "き",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "あ"
+        },
+        {
+          "surface": "げると、",
+          "reading": ""
+        },
+        {
+          "surface": "魚",
+          "reading": "さかな"
+        },
+        {
+          "surface": "ではなく、",
+          "reading": ""
+        },
+        {
+          "surface": "重",
+          "reading": "おも"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "鉄",
+          "reading": "てつ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "棒",
+          "reading": "ぼう"
+        },
+        {
+          "surface": "のようなものが",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "はい"
+        },
+        {
+          "surface": "っていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ami o hikiageru to, sakana dewa naku, omoi tetsu no bou no you na mono ga haitteimashita.",
+      "translations": {
+        "vi": "Kéo lưới lên, không phải cá mà là một vật nặng như thanh sắt.",
+        "en": "When he hauled it up, instead of fish there was something heavy like an iron bar.",
+        "zh-Hans": "拉起网来，里面不是鱼，而是像铁棒一样的重东西。",
+        "zh-Hant": "拉起網來，裡面不是魚，而是像鐵棒一樣的重東西。",
+        "ko": "그물을 끌어올리니 물고기가 아니라 무거운 쇠막대 같은 것이 들어 있었습니다.",
+        "tl": "Hindi isda kundi mabigat na bakal ang nahuli.",
+        "ne": "जाल तान्दा माछा होइन, फलामे डन्डीजस्तो गह्रौँ चीज थियो।",
+        "id": "Bukan ikan, tapi benda berat seperti batang besi.",
+        "pt": "Em vez de peixe, algo pesado como uma barra de ferro.",
+        "my": "ပိုက်ဆွဲတင်တော့ ငါး မဟုတ်ဘဲ သံချောင်းလို အလေးကြီး ပါလာတယ်။",
+        "th": "ดึงแหขึ้นมา ไม่ใช่ปลา แต่เป็นของหนักคล้ายแท่งเหล็ก"
+      },
+      "vocab": [
+        {
+          "word": "引き上げる",
+          "reading": "ひきあげる",
+          "meanings": {
+            "vi": "kéo lên",
+            "en": "pull up",
+            "zh-Hans": "拉上来",
+            "zh-Hant": "拉上來",
+            "ko": "끌어올리다",
+            "tl": "hilahin pataas",
+            "ne": "तान्नु",
+            "id": "menarik ke atas",
+            "pt": "puxar",
+            "my": "ဆွဲတင်",
+            "th": "ดึงขึ้น"
+          },
+          "level": "N1"
+        },
+        {
+          "word": "鉄",
+          "reading": "てつ",
+          "meanings": {
+            "vi": "sắt",
+            "en": "iron",
+            "zh-Hans": "铁",
+            "zh-Hant": "鐵",
+            "ko": "철",
+            "tl": "bakal",
+            "ne": "फलाम",
+            "id": "besi",
+            "pt": "ferro",
+            "my": "သံ",
+            "th": "เหล็ก"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「Aではなく、B」: không phải A mà là B. 「〜のようなもの」: thứ giống như ~.",
+        "en": "「AではなくB」 = not A but B.",
+        "zh-Hans": "「AではなくB」＝不是A而是B。",
+        "zh-Hant": "「AではなくB」＝不是A而是B。",
+        "ko": "A가 아니라 B.",
+        "tl": "hindi A kundi B.",
+        "ne": "A होइन B।",
+        "id": "bukan A tapi B.",
+        "pt": "não A, mas B.",
+        "my": "A မဟုတ်ဘဲ B။",
+        "th": "ไม่ใช่ A แต่เป็น B"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=59.413,65.422",
+      "t": [
+        59.413,
+        65.422
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「なんだ、これは。じゃまな鉄だな。」",
+      "furigana": [
+        {
+          "surface": "「なんだ、これは。じゃまな",
+          "reading": ""
+        },
+        {
+          "surface": "鉄",
+          "reading": "てつ"
+        },
+        {
+          "surface": "だな。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Nan da, kore wa. Jama na tetsu da na.”",
+      "translations": {
+        "vi": "\"Gì thế này. Cục sắt vướng víu.\"",
+        "en": "\"What's this? Useless iron.\"",
+        "zh-Hans": "“这是什么。碍事的铁块。”",
+        "zh-Hant": "“這是什麼。礙事的鐵塊。”",
+        "ko": "\"뭐야, 이건. 거추장스러운 쇠로군.\"",
+        "tl": "\"Ano ito? Bakal na sagabal.\"",
+        "ne": "\"यो के हो? बेकारको फलाम।\"",
+        "id": "\"Apa ini? Besi pengganggu.\"",
+        "pt": "\"O que é isto? Ferro inútil.\"",
+        "my": "\"ဒါ ဘာလဲ။ အနှောင့်အယှက် သံ။\"",
+        "th": "\"อะไรเนี่ย เหล็กเกะกะ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "じゃま = vướng víu, phiền.",
+        "en": "じゃま = in the way, nuisance.",
+        "zh-Hans": "じゃま＝碍事。",
+        "zh-Hant": "じゃま＝礙事。",
+        "ko": "じゃま=방해.",
+        "tl": "sagabal.",
+        "ne": "बाधा।",
+        "id": "pengganggu.",
+        "pt": "estorvo.",
+        "my": "အနှောင့်အယှက်။",
+        "th": "เกะกะ"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=66.322,69.014",
+      "t": [
+        66.322,
+        69.014
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "レ・タンはそれを川にすてて、別の場所でもう一度網を投げました。",
+      "furigana": [
+        {
+          "surface": "レ・タンはそれを",
+          "reading": ""
+        },
+        {
+          "surface": "川",
+          "reading": "かわ"
+        },
+        {
+          "surface": "にすてて、",
+          "reading": ""
+        },
+        {
+          "surface": "別",
+          "reading": "べつ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "場所",
+          "reading": "ばしょ"
+        },
+        {
+          "surface": "でもう",
+          "reading": ""
+        },
+        {
+          "surface": "一度",
+          "reading": "いちど"
+        },
+        {
+          "surface": "網",
+          "reading": "あみ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "投",
+          "reading": "な"
+        },
+        {
+          "surface": "げました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Re Tan wa sore o kawa ni sutete, betsu no basho de mou ichido ami o nagemashita.",
+      "translations": {
+        "vi": "Ông vứt nó xuống sông, rồi quăng lưới lần nữa ở chỗ khác.",
+        "en": "He threw it back and cast his net again somewhere else.",
+        "zh-Hans": "他把它扔回河里，在别处又撒了一次网。",
+        "zh-Hant": "他把它扔回河裡，在別處又撒了一次網。",
+        "ko": "레 탄은 그것을 강에 버리고 다른 곳에서 다시 그물을 던졌습니다.",
+        "tl": "Itinapon niya ito at naghagis sa ibang lugar.",
+        "ne": "त्यसलाई फ्याँकेर अर्को ठाउँमा फेरि जाल हाने।",
+        "id": "Ia membuangnya dan menebar jala di tempat lain.",
+        "pt": "Jogou-o fora e lançou a rede em outro lugar.",
+        "my": "မြစ်ထဲ ပြန်ပစ်ပြီး တခြားနေရာမှာ ပိုက်ထပ်ပစ်တယ်။",
+        "th": "เขาทิ้งมันลงน้ำ แล้วเหวี่ยงแหที่อื่นอีกครั้ง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "別の = khác. もう一度 = thêm một lần.",
+        "en": "別の = another. もう一度 = once more.",
+        "zh-Hans": "別の＝别的。もう一度＝再一次。",
+        "zh-Hant": "別の＝別的。もう一度＝再一次。",
+        "ko": "もう一度=한 번 더.",
+        "tl": "muli.",
+        "ne": "फेरि।",
+        "id": "sekali lagi.",
+        "pt": "de novo.",
+        "my": "ထပ်။",
+        "th": "อีกครั้ง"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=69.914,75.168",
+      "t": [
+        69.914,
+        75.168
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ところが、また同じ鉄の棒が、網に入っていたのです。",
+      "furigana": [
+        {
+          "surface": "ところが、また",
+          "reading": ""
+        },
+        {
+          "surface": "同",
+          "reading": "おな"
+        },
+        {
+          "surface": "じ",
+          "reading": ""
+        },
+        {
+          "surface": "鉄",
+          "reading": "てつ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "棒",
+          "reading": "ぼう"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "網",
+          "reading": "あみ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "はい"
+        },
+        {
+          "surface": "っていたのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tokoroga, mata onaji tetsu no bou ga, ami ni haitteita no desu.",
+      "translations": {
+        "vi": "Thế nhưng, thanh sắt ấy lại nằm trong lưới.",
+        "en": "But the same iron bar was in the net again.",
+        "zh-Hans": "可是，同样的铁棒又进了网里。",
+        "zh-Hant": "可是，同樣的鐵棒又進了網裡。",
+        "ko": "그런데 또 같은 쇠막대가 그물에 들어 있었습니다.",
+        "tl": "Pero naroon na naman ang bakal.",
+        "ne": "तर फेरि त्यही डन्डी जालमा थियो।",
+        "id": "Namun batang besi itu masuk lagi.",
+        "pt": "Mas a mesma barra estava na rede.",
+        "my": "ဒါပေမဲ့ အဲဒီ သံချောင်းပဲ ပိုက်ထဲ ထပ်ပါလာတယ်။",
+        "th": "แต่แท่งเหล็กเดิมก็ติดแหมาอีก"
+      },
+      "vocab": [
+        {
+          "word": "棒",
+          "reading": "ぼう",
+          "meanings": {
+            "vi": "cái gậy, thanh",
+            "en": "stick, rod",
+            "zh-Hans": "棒子",
+            "zh-Hant": "棒子",
+            "ko": "막대",
+            "tl": "patpat",
+            "ne": "लौरो",
+            "id": "batang",
+            "pt": "vara",
+            "my": "တုတ်",
+            "th": "แท่ง"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "ところが = thế mà. 「〜のです」: nhấn mạnh sự bất ngờ.",
+        "en": "ところが = however.",
+        "zh-Hans": "ところが＝然而。",
+        "zh-Hant": "ところが＝然而。",
+        "ko": "그런데.",
+        "tl": "pero.",
+        "ne": "तर।",
+        "id": "namun.",
+        "pt": "porém.",
+        "my": "ဒါပေမဲ့။",
+        "th": "แต่ทว่า"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=75.768,81.004",
+      "t": [
+        75.768,
+        81.004
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "三回目も、同じでした。レ・タンは、ふしぎに思って、それを明かりの下でよく見ました。",
+      "furigana": [
+        {
+          "surface": "三回目",
+          "reading": "さんかいめ"
+        },
+        {
+          "surface": "も、",
+          "reading": ""
+        },
+        {
+          "surface": "同",
+          "reading": "おな"
+        },
+        {
+          "surface": "じでした。レ・タンは、ふしぎに",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "って、それを",
+          "reading": ""
+        },
+        {
+          "surface": "明",
+          "reading": "あ"
+        },
+        {
+          "surface": "かりの",
+          "reading": ""
+        },
+        {
+          "surface": "下",
+          "reading": "した"
+        },
+        {
+          "surface": "でよく",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "ました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sankaime mo, onaji deshita. Re Tan wa, fushigi ni omotte, sore o akari no shita de yoku mimashita.",
+      "translations": {
+        "vi": "Lần thứ ba cũng vậy. Lấy làm lạ, ông đem ra soi dưới đèn.",
+        "en": "The third time too. Puzzled, he looked at it closely under a light.",
+        "zh-Hans": "第三次也一样。黎慎觉得奇怪，在灯下仔细看了看。",
+        "zh-Hant": "第三次也一樣。黎慎覺得奇怪，在燈下仔細看了看。",
+        "ko": "세 번째도 같았습니다. 이상하게 여긴 레 탄은 불빛 아래에서 잘 보았습니다.",
+        "tl": "Ganoon din sa ikatlo. Sinuri niya ito sa ilaw.",
+        "ne": "तेस्रो पटक पनि उस्तै। अचम्म मानेर बत्तीमुनि हेरे।",
+        "id": "Ketiga kalinya juga. Heran, ia melihatnya di bawah lampu.",
+        "pt": "Na terceira vez também. Intrigado, examinou-o à luz.",
+        "my": "တတိယအကြိမ်လည်း အတူတူ။ ထူးဆန်းလို့ မီးအောက်မှာ သေချာကြည့်တယ်။",
+        "th": "ครั้งที่สามก็เหมือนเดิม เขาสงสัยจึงส่องดูใต้แสงไฟ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜目」: lần thứ ~. 「ふしぎに思う」: lấy làm lạ.",
+        "en": "「〜目」 = the ~th. 「ふしぎに思う」 = find strange.",
+        "zh-Hans": "「〜目」＝第……次。",
+        "zh-Hant": "「〜目」＝第……次。",
+        "ko": "~번째.",
+        "tl": "ika-~.",
+        "ne": "~ औँ।",
+        "id": "ke-~.",
+        "pt": "~ª vez.",
+        "my": "~ကြိမ်မြောက်။",
+        "th": "ครั้งที่ ~"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=81.604,89.117",
+      "t": [
+        81.604,
+        89.117
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「これは、ただの鉄じゃない。剣の刃だ。」",
+      "furigana": [
+        {
+          "surface": "「これは、ただの",
+          "reading": ""
+        },
+        {
+          "surface": "鉄",
+          "reading": "てつ"
+        },
+        {
+          "surface": "じゃない。",
+          "reading": ""
+        },
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "刃",
+          "reading": "は"
+        },
+        {
+          "surface": "だ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kore wa, tada no tetsu ja nai. Ken no ha da.”",
+      "translations": {
+        "vi": "\"Đây không phải sắt thường. Là lưỡi gươm.\"",
+        "en": "\"This isn't ordinary iron. It's a sword blade.\"",
+        "zh-Hans": "“这不是普通的铁。是剑刃。”",
+        "zh-Hant": "“這不是普通的鐵。是劍刃。”",
+        "ko": "\"이건 그냥 쇠가 아니야. 칼날이다.\"",
+        "tl": "\"Hindi ito karaniwang bakal. Talim ng espada!\"",
+        "ne": "\"यो साधारण फलाम होइन, तरवारको धार हो।\"",
+        "id": "\"Ini bukan besi biasa. Ini bilah pedang.\"",
+        "pt": "\"Não é ferro comum. É uma lâmina de espada.\"",
+        "my": "\"ဒါ သာမန်သံ မဟုတ်ဘူး။ ဓားသွားပဲ။\"",
+        "th": "\"นี่ไม่ใช่เหล็กธรรมดา เป็นใบดาบ\""
+      },
+      "vocab": [
+        {
+          "word": "刃",
+          "reading": "は",
+          "meanings": {
+            "vi": "lưỡi (dao, kiếm)",
+            "en": "blade",
+            "zh-Hans": "刀刃",
+            "zh-Hant": "刀刃",
+            "ko": "칼날",
+            "tl": "talim",
+            "ne": "धार",
+            "id": "bilah",
+            "pt": "lâmina",
+            "my": "ဓားသွား",
+            "th": "ใบมีด"
+          },
+          "level": "N1"
+        },
+        {
+          "word": "ただ",
+          "reading": "ただ",
+          "meanings": {
+            "vi": "chỉ là, bình thường",
+            "en": "just, ordinary",
+            "zh-Hans": "只是、普通的",
+            "zh-Hant": "只是、普通的",
+            "ko": "그냥, 보통의",
+            "tl": "basta, karaniwan",
+            "ne": "मात्र, साधारण",
+            "id": "hanya, biasa",
+            "pt": "apenas, comum",
+            "my": "ရိုးရိုး",
+            "th": "แค่ ธรรมดา"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "ただの = bình thường, đơn thuần. 刃 = lưỡi. 「〜じゃない」: văn nói của ではない.",
+        "en": "ただの = ordinary. 刃 = blade.",
+        "zh-Hans": "ただの＝普通的。",
+        "zh-Hant": "ただの＝普通的。",
+        "ko": "ただの=그냥.",
+        "tl": "karaniwan.",
+        "ne": "साधारण।",
+        "id": "biasa.",
+        "pt": "comum.",
+        "my": "သာမန်။",
+        "th": "ธรรมดา"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=90.017,93.439",
+      "t": [
+        90.017,
+        93.439
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "刃には、「順天」という二つの字がきざまれていました。「天に従う」という意味です。",
+      "furigana": [
+        {
+          "surface": "刃",
+          "reading": "は"
+        },
+        {
+          "surface": "には、「",
+          "reading": ""
+        },
+        {
+          "surface": "順天",
+          "reading": "じゅんてん"
+        },
+        {
+          "surface": "」という",
+          "reading": ""
+        },
+        {
+          "surface": "二",
+          "reading": "ふた"
+        },
+        {
+          "surface": "つの",
+          "reading": ""
+        },
+        {
+          "surface": "字",
+          "reading": "じ"
+        },
+        {
+          "surface": "がきざまれていました。「",
+          "reading": ""
+        },
+        {
+          "surface": "天",
+          "reading": "てん"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "従",
+          "reading": "したが"
+        },
+        {
+          "surface": "う」という",
+          "reading": ""
+        },
+        {
+          "surface": "意味",
+          "reading": "いみ"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ha ni wa, “Junten” to iu futatsu no ji ga kizamareteimashita. “Ten ni shitagau” to iu imi desu.",
+      "translations": {
+        "vi": "Trên lưỡi gươm khắc hai chữ \"Thuận Thiên\", nghĩa là \"Thuận theo ý trời\".",
+        "en": "Two characters were carved on the blade: \"Thuận Thiên,\" meaning \"follow Heaven.\"",
+        "zh-Hans": "剑刃上刻着“顺天”两个字，意思是“顺从天意”。",
+        "zh-Hant": "劍刃上刻著“順天”兩個字，意思是“順從天意”。",
+        "ko": "칼날에는 '순천'이라는 두 글자가 새겨져 있었습니다. '하늘을 따른다'는 뜻입니다.",
+        "tl": "May nakaukit: \"Thuận Thiên,\" ibig sabihin \"sundin ang Langit.\"",
+        "ne": "धारमा \"थुआन थिएन\" लेखिएको थियो, अर्थ \"स्वर्गको इच्छा पालन\"।",
+        "id": "Terukir \"Thuận Thiên\": \"mengikuti Langit.\"",
+        "pt": "Gravado: \"Thuận Thiên\", \"seguir o Céu\".",
+        "my": "ဓားသွားမှာ \"ထွမ်ထီယန်\" (ကောင်းကင်အလိုကို လိုက်) ထွင်းထားတယ်။",
+        "th": "บนใบดาบสลักคำว่า \"ถ่วนเทียน\" แปลว่า \"ทำตามฟ้า\""
+      },
+      "vocab": [
+        {
+          "word": "天",
+          "reading": "てん",
+          "meanings": {
+            "vi": "trời",
+            "en": "heaven",
+            "zh-Hans": "天",
+            "zh-Hant": "天",
+            "ko": "하늘",
+            "tl": "langit",
+            "ne": "स्वर्ग",
+            "id": "langit",
+            "pt": "céu",
+            "my": "ကောင်းကင်",
+            "th": "สวรรค์"
+          },
+          "level": "N1"
+        },
+        {
+          "word": "従う",
+          "reading": "したがう",
+          "meanings": {
+            "vi": "tuân theo",
+            "en": "obey, follow",
+            "zh-Hans": "顺从",
+            "zh-Hant": "順從",
+            "ko": "따르다",
+            "tl": "sumunod",
+            "ne": "पालन गर्नु",
+            "id": "mengikuti",
+            "pt": "obedecer",
+            "my": "လိုက်နာ",
+            "th": "ปฏิบัติตาม"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜がきざまれる」: được khắc ~. 「Aに従う」: tuân theo A.",
+        "en": "「きざまれる」 = be engraved. 「Aに従う」 = obey A.",
+        "zh-Hans": "「きざまれる」＝被刻上。",
+        "zh-Hant": "「きざまれる」＝被刻上。",
+        "ko": "새겨지다.",
+        "tl": "nakaukit.",
+        "ne": "खोपिएको।",
+        "id": "terukir.",
+        "pt": "gravado.",
+        "my": "ထွင်းထား။",
+        "th": "สลัก"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=94.339,101.347",
+      "t": [
+        94.339,
+        101.347
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "レ・タンは、その刃を家に持って帰って、大切にしまっておきました。",
+      "furigana": [
+        {
+          "surface": "レ・タンは、その",
+          "reading": ""
+        },
+        {
+          "surface": "刃",
+          "reading": "は"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "って",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "大切",
+          "reading": "たいせつ"
+        },
+        {
+          "surface": "にしまっておきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Re Tan wa, sono ha o ie ni motte kaette, taisetsu ni shimatteokimashita.",
+      "translations": {
+        "vi": "Lê Thận mang lưỡi gươm về nhà, cất giữ cẩn thận.",
+        "en": "He took the blade home and kept it carefully.",
+        "zh-Hans": "黎慎把剑刃带回家，好好地收藏起来。",
+        "zh-Hant": "黎慎把劍刃帶回家，好好地收藏起來。",
+        "ko": "레 탄은 칼날을 집에 가져가 소중히 간직했습니다.",
+        "tl": "Iniuwi niya ito at itinago nang maingat.",
+        "ne": "उनले धार घर लगेर सुरक्षित राखे।",
+        "id": "Ia membawanya pulang dan menyimpannya.",
+        "pt": "Levou-a para casa e guardou-a.",
+        "my": "အိမ်ယူသွားပြီး ဂရုတစိုက် သိမ်းထားတယ်။",
+        "th": "เขานำใบดาบกลับบ้าน เก็บรักษาไว้"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ておく」: làm sẵn, cất sẵn. しまう = cất.",
+        "en": "「〜ておく」 = do in advance / keep. しまう = put away.",
+        "zh-Hans": "「〜ておく」＝事先……好。",
+        "zh-Hant": "「〜ておく」＝事先……好。",
+        "ko": "~해 두다.",
+        "tl": "itago.",
+        "ne": "राखिराख्नु।",
+        "id": "menyimpan.",
+        "pt": "guardar.",
+        "my": "သိမ်းထား။",
+        "th": "เก็บไว้"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=101.947,107.198",
+      "t": [
+        101.947,
+        107.198
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "しばらくして、レ・タンはレ・ロイの仲間になりました。",
+      "furigana": [
+        {
+          "surface": "しばらくして、レ・タンはレ・ロイの",
+          "reading": ""
+        },
+        {
+          "surface": "仲間",
+          "reading": "なかま"
+        },
+        {
+          "surface": "になりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shibaraku shite, Re Tan wa Re Roi no nakama ni narimashita.",
+      "translations": {
+        "vi": "Ít lâu sau, Lê Thận gia nhập nghĩa quân của Lê Lợi.",
+        "en": "Some time later, Lê Thận joined Lê Lợi's band.",
+        "zh-Hans": "过了一阵子，黎慎成了黎利的伙伴。",
+        "zh-Hant": "過了一陣子，黎慎成了黎利的夥伴。",
+        "ko": "얼마 후 레 탄은 레 로이의 동료가 되었습니다.",
+        "tl": "Kalaunan, sumama siya kay Lê Lợi.",
+        "ne": "केही समयपछि उनी ले लोईका साथी भए।",
+        "id": "Tak lama, ia bergabung dengan Lê Lợi.",
+        "pt": "Depois, juntou-se a Lê Lợi.",
+        "my": "မကြာခင် လေလွိုင်ရဲ့ အဖွဲ့ဝင် ဖြစ်လာတယ်။",
+        "th": "ต่อมาเขาก็เข้าร่วมกับเล เหล่ย"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "しばらくして = một thời gian sau. 「〜になる」: trở thành ~.",
+        "en": "しばらくして = after a while.",
+        "zh-Hans": "しばらくして＝过了一阵子。",
+        "zh-Hant": "しばらくして＝過了一陣子。",
+        "ko": "얼마 후.",
+        "tl": "kalaunan.",
+        "ne": "केही समयपछि।",
+        "id": "tak lama.",
+        "pt": "depois.",
+        "my": "မကြာခင်။",
+        "th": "ต่อมา"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=107.798,111.565",
+      "t": [
+        107.798,
+        111.565
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ある夜、レ・ロイが仲間といっしょに、レ・タンの家にとまりました。",
+      "furigana": [
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "、レ・ロイが",
+          "reading": ""
+        },
+        {
+          "surface": "仲間",
+          "reading": "なかま"
+        },
+        {
+          "surface": "といっしょに、レ・タンの",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "にとまりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aru yoru, Re Roi ga nakama to issho ni, Re Tan no ie ni tomarimashita.",
+      "translations": {
+        "vi": "Một đêm, Lê Lợi cùng anh em ghé nghỉ ở nhà Lê Thận.",
+        "en": "One night, Lê Lợi and his men stayed at Lê Thận's house.",
+        "zh-Hans": "一天夜里，黎利和伙伴们在黎慎家过夜。",
+        "zh-Hant": "一天夜裡，黎利和夥伴們在黎慎家過夜。",
+        "ko": "어느 밤 레 로이가 동료들과 레 탄의 집에 묵었습니다.",
+        "tl": "Isang gabi, nakitulog si Lê Lợi sa bahay ni Lê Thận.",
+        "ne": "एक रात ले लोई साथीसहित ले थानको घरमा बसे।",
+        "id": "Suatu malam, Lê Lợi menginap di rumah Lê Thận.",
+        "pt": "Certa noite, Lê Lợi pernoitou na casa de Lê Thận.",
+        "my": "တစ်ည လေလွိုင် လေသန်အိမ်မှာ ညအိပ်တယ်။",
+        "th": "คืนหนึ่ง เล เหล่ยพักค้างบ้านเล ถั่น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "とまる = nghỉ lại qua đêm.",
+        "en": "とまる = stay overnight.",
+        "zh-Hans": "とまる＝住宿。",
+        "zh-Hant": "とまる＝住宿。",
+        "ko": "묵다.",
+        "tl": "makitulog.",
+        "ne": "बास बस्नु।",
+        "id": "menginap.",
+        "pt": "pernoitar.",
+        "my": "ညအိပ်။",
+        "th": "ค้างคืน"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=112.165,117.365",
+      "t": [
+        112.165,
+        117.365
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "暗い部屋のすみで、何かがぼんやりと光っていました。",
+      "furigana": [
+        {
+          "surface": "暗",
+          "reading": "くら"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "部屋",
+          "reading": "へや"
+        },
+        {
+          "surface": "のすみで、",
+          "reading": ""
+        },
+        {
+          "surface": "何",
+          "reading": "なに"
+        },
+        {
+          "surface": "かがぼんやりと",
+          "reading": ""
+        },
+        {
+          "surface": "光",
+          "reading": "ひか"
+        },
+        {
+          "surface": "っていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kurai heya no sumi de, nani ka ga bon'yari to hikatteimashita.",
+      "translations": {
+        "vi": "Trong góc phòng tối, có gì đó phát sáng lờ mờ.",
+        "en": "In a corner of the dark room, something was glowing faintly.",
+        "zh-Hans": "黑暗房间的角落里，有什么东西在隐隐发光。",
+        "zh-Hant": "黑暗房間的角落裡，有什麼東西在隱隱發光。",
+        "ko": "어두운 방 구석에서 무언가가 어렴풋이 빛나고 있었습니다.",
+        "tl": "Sa sulok ng madilim na kuwarto, may malabong liwanag.",
+        "ne": "अँध्यारो कोठाको कुनामा केही धमिलो चम्किरहेको थियो।",
+        "id": "Di sudut kamar gelap, sesuatu bersinar samar.",
+        "pt": "Num canto escuro, algo brilhava fracamente.",
+        "my": "မှောင်တဲ့ အခန်းထောင့်မှာ တစ်ခုခု မှုန်မှုန် တောက်နေတယ်။",
+        "th": "ที่มุมห้องมืด มีบางอย่างเรืองแสงสลัว ๆ"
+      },
+      "vocab": [
+        {
+          "word": "ぼんやり",
+          "reading": "ぼんやり",
+          "meanings": {
+            "vi": "lờ mờ",
+            "en": "dimly, vaguely",
+            "zh-Hans": "模糊",
+            "zh-Hant": "模糊",
+            "ko": "어렴풋이",
+            "tl": "malabo",
+            "ne": "धमिलो",
+            "id": "samar",
+            "pt": "vagamente",
+            "my": "မှုန်မှုန်",
+            "th": "สลัว ๆ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "すみ = góc. ぼんやり = lờ mờ.",
+        "en": "すみ = corner. ぼんやり = faintly.",
+        "zh-Hans": "すみ＝角落。",
+        "zh-Hant": "すみ＝角落。",
+        "ko": "すみ=구석.",
+        "tl": "sulok.",
+        "ne": "कुना।",
+        "id": "sudut.",
+        "pt": "canto.",
+        "my": "ထောင့်။",
+        "th": "มุม"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=117.965,122.107",
+      "t": [
+        117.965,
+        122.107
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「あの光は、何だ。」",
+      "furigana": [
+        {
+          "surface": "「あの",
+          "reading": ""
+        },
+        {
+          "surface": "光",
+          "reading": "ひかり"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "何",
+          "reading": "なん"
+        },
+        {
+          "surface": "だ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Ano hikari wa, nanda.”",
+      "translations": {
+        "vi": "\"Ánh sáng kia là gì vậy?\"",
+        "en": "\"What is that light?\"",
+        "zh-Hans": "“那光是什么？”",
+        "zh-Hant": "“那光是什麼？”",
+        "ko": "\"저 빛은 뭐지?\"",
+        "tl": "\"Ano ang liwanag na iyon?\"",
+        "ne": "\"त्यो उज्यालो के हो?\"",
+        "id": "\"Cahaya apa itu?\"",
+        "pt": "\"Que luz é aquela?\"",
+        "my": "\"အဲဒီအလင်း ဘာလဲ။\"",
+        "th": "\"แสงนั่นคืออะไร\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「何だ」: là cái gì (văn nói nam).",
+        "en": "「何だ」 = what is it?",
+        "zh-Hans": "「何だ」＝是什么。",
+        "zh-Hant": "「何だ」＝是什麼。",
+        "ko": "뭐지.",
+        "tl": "ano iyon.",
+        "ne": "के हो।",
+        "id": "apa itu.",
+        "pt": "o que é.",
+        "my": "ဘာလဲ။",
+        "th": "อะไร"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=123.007,124.907",
+      "t": [
+        123.007,
+        124.907
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "それは、あの剣の刃でした。レ・ロイは手に取って、じっと見つめました。",
+      "furigana": [
+        {
+          "surface": "それは、あの",
+          "reading": ""
+        },
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "刃",
+          "reading": "は"
+        },
+        {
+          "surface": "でした。レ・ロイは",
+          "reading": ""
+        },
+        {
+          "surface": "手",
+          "reading": "て"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "取",
+          "reading": "と"
+        },
+        {
+          "surface": "って、じっと",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "つめました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sore wa, ano ken no ha deshita. Re Roi wa te ni totte, jitto mitsumemashita.",
+      "translations": {
+        "vi": "Đó chính là lưỡi gươm. Lê Lợi cầm lên, chăm chú nhìn.",
+        "en": "It was the sword blade. Lê Lợi picked it up and stared at it.",
+        "zh-Hans": "那正是那把剑刃。黎利拿在手里，目不转睛地看着。",
+        "zh-Hant": "那正是那把劍刃。黎利拿在手裡，目不轉睛地看著。",
+        "ko": "그것은 그 칼날이었습니다. 레 로이는 손에 들고 가만히 바라보았습니다.",
+        "tl": "Ang talim pala. Kinuha ni Lê Lợi at tinitigan.",
+        "ne": "त्यो त्यही धार थियो। ले लोईले उठाएर एकटक हेरे।",
+        "id": "Itu bilah pedang. Lê Lợi mengambil dan menatapnya.",
+        "pt": "Era a lâmina. Lê Lợi a pegou e fitou.",
+        "my": "အဲဒါ ဓားသွားပဲ။ လေလွိုင် ကိုင်ပြီး စိုက်ကြည့်တယ်။",
+        "th": "นั่นคือใบดาบ เล เหล่ยหยิบขึ้นมาจ้องดู"
+      },
+      "vocab": [
+        {
+          "word": "じっと",
+          "reading": "じっと",
+          "meanings": {
+            "vi": "(nhìn) chăm chú, đứng yên",
+            "en": "fixedly, intently, still",
+            "zh-Hans": "一动不动地，目不转睛地",
+            "zh-Hant": "一動不動地，目不轉睛地",
+            "ko": "가만히, 뚫어지게",
+            "tl": "titig na titig, hindi gumagalaw",
+            "ne": "एकटक, स्थिर भएर",
+            "id": "lekat-lekat, diam",
+            "pt": "fixamente, imóvel",
+            "my": "စိုက်ကြည့်၍၊ ငြိမ်ငြိမ်",
+            "th": "จ้องเขม็ง, นิ่ง ๆ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「手に取る」: cầm lên. じっと見つめる = nhìn chăm chú.",
+        "en": "「手に取る」 = pick up. じっと見つめる = gaze steadily.",
+        "zh-Hans": "「手に取る」＝拿在手里。",
+        "zh-Hant": "「手に取る」＝拿在手裡。",
+        "ko": "손에 들다.",
+        "tl": "hawakan.",
+        "ne": "हातमा लिनु।",
+        "id": "mengambil.",
+        "pt": "pegar.",
+        "my": "ကိုင်။",
+        "th": "หยิบ"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=125.807,132.214",
+      "t": [
+        125.807,
+        132.214
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ふしぎな刃だ。でも、持つところがないな。」",
+      "furigana": [
+        {
+          "surface": "「ふしぎな",
+          "reading": ""
+        },
+        {
+          "surface": "刃",
+          "reading": "は"
+        },
+        {
+          "surface": "だ。でも、",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "つところがないな。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Fushigi na ha da. Demo, motsu tokoro ga nai na.”",
+      "translations": {
+        "vi": "\"Lưỡi gươm kỳ lạ. Nhưng lại không có chuôi.\"",
+        "en": "\"A strange blade. But it has no hilt.\"",
+        "zh-Hans": "“奇怪的剑刃。可是没有剑柄啊。”",
+        "zh-Hant": "“奇怪的劍刃。可是沒有劍柄啊。”",
+        "ko": "\"신기한 칼날이군. 그런데 손잡이가 없네.\"",
+        "tl": "\"Kakaibang talim. Pero walang hawakan.\"",
+        "ne": "\"अनौठो धार। तर बिँड छैन।\"",
+        "id": "\"Bilah aneh. Tapi tak ada gagangnya.\"",
+        "pt": "\"Lâmina estranha. Mas não tem cabo.\"",
+        "my": "\"ထူးဆန်းတဲ့ ဓားသွား။ ဒါပေမဲ့ လက်ကိုင် မရှိဘူး။\"",
+        "th": "\"ใบดาบประหลาด แต่ไม่มีด้าม\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "持つところ = chỗ cầm (chuôi). 「〜な」: cảm thán (nam).",
+        "en": "持つところ = the part to hold (hilt).",
+        "zh-Hans": "持つところ＝握的地方。",
+        "zh-Hant": "持つところ＝握的地方。",
+        "ko": "손잡이.",
+        "tl": "hawakan.",
+        "ne": "बिँड।",
+        "id": "gagang.",
+        "pt": "cabo.",
+        "my": "လက်ကိုင်။",
+        "th": "ด้าม"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=133.114,136.418",
+      "t": [
+        133.114,
+        136.418
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "数日後、レ・ロイは敵に追われて、森の中へにげこみました。",
+      "furigana": [
+        {
+          "surface": "数日後",
+          "reading": "すうじつご"
+        },
+        {
+          "surface": "、レ・ロイは",
+          "reading": ""
+        },
+        {
+          "surface": "敵",
+          "reading": "てき"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "追",
+          "reading": "お"
+        },
+        {
+          "surface": "われて、",
+          "reading": ""
+        },
+        {
+          "surface": "森",
+          "reading": "もり"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "へにげこみました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suujitsugo, Re Roi wa teki ni owarete, mori no naka e nigekomimashita.",
+      "translations": {
+        "vi": "Vài ngày sau, Lê Lợi bị giặc đuổi, chạy vào rừng.",
+        "en": "A few days later, chased by the enemy, Lê Lợi fled into the forest.",
+        "zh-Hans": "几天后，黎利被敌人追赶，逃进了森林。",
+        "zh-Hant": "幾天後，黎利被敵人追趕，逃進了森林。",
+        "ko": "며칠 후 레 로이는 적에게 쫓겨 숲속으로 도망쳤습니다.",
+        "tl": "Pagkaraan, hinabol siya at tumakas sa gubat.",
+        "ne": "केही दिनपछि शत्रुले लखेट्दा उनी जंगलमा भागे।",
+        "id": "Beberapa hari kemudian, dikejar musuh, ia lari ke hutan.",
+        "pt": "Dias depois, perseguido, fugiu para a floresta.",
+        "my": "ရက်အနည်းငယ်အကြာ ရန်သူ လိုက်လို့ တောထဲ ပြေးဝင်တယ်။",
+        "th": "ไม่กี่วันต่อมา ถูกศัตรูไล่ เขาหนีเข้าป่า"
+      },
+      "vocab": [
+        {
+          "word": "敵",
+          "reading": "てき",
+          "meanings": {
+            "vi": "kẻ thù, giặc",
+            "en": "enemy",
+            "zh-Hans": "敌人",
+            "zh-Hant": "敵人",
+            "ko": "적",
+            "tl": "kaaway",
+            "ne": "शत्रु",
+            "id": "musuh",
+            "pt": "inimigo",
+            "my": "ရန်သူ",
+            "th": "ศัตรู"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "追う",
+          "reading": "おう",
+          "meanings": {
+            "vi": "đuổi theo",
+            "en": "chase",
+            "zh-Hans": "追",
+            "zh-Hant": "追",
+            "ko": "쫓다",
+            "tl": "habulin",
+            "ne": "पछ्याउनु",
+            "id": "mengejar",
+            "pt": "perseguir",
+            "my": "လိုက်",
+            "th": "ไล่ตาม"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜に追われる」: bị ~ đuổi. にげこむ = chạy trốn vào.",
+        "en": "「〜に追われる」 = be chased by ~. にげこむ = flee into.",
+        "zh-Hans": "「〜に追われる」＝被……追赶。",
+        "zh-Hant": "「〜に追われる」＝被……追趕。",
+        "ko": "~에게 쫓기다.",
+        "tl": "hinabol ng ~.",
+        "ne": "~ ले लखेट्नु।",
+        "id": "dikejar ~.",
+        "pt": "perseguido por ~.",
+        "my": "~ လိုက်ခံရ။",
+        "th": "ถูก ~ ไล่"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=137.318,142.89",
+      "t": [
+        137.318,
+        142.89
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "すると、大きなガジュマルの木の上で、何かが光っているのが見えました。",
+      "furigana": [
+        {
+          "surface": "すると、",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きなガジュマルの",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "で、",
+          "reading": ""
+        },
+        {
+          "surface": "何",
+          "reading": "なに"
+        },
+        {
+          "surface": "かが",
+          "reading": ""
+        },
+        {
+          "surface": "光",
+          "reading": "ひか"
+        },
+        {
+          "surface": "っているのが",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "えました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suruto, ookina gajumaru no ki no ue de, nani ka ga hikatteiru no ga miemashita.",
+      "translations": {
+        "vi": "Bỗng thấy trên ngọn cây đa lớn có vật gì lấp lánh.",
+        "en": "Then he saw something shining up in a big banyan tree.",
+        "zh-Hans": "这时，他看见大榕树上有东西在发光。",
+        "zh-Hant": "這時，他看見大榕樹上有東西在發光。",
+        "ko": "그러자 큰 반얀나무 위에서 무언가 빛나는 것이 보였습니다.",
+        "tl": "Nakita niya ang kumikislap sa puno ng balete.",
+        "ne": "ठूलो बरको रूखमाथि केही चम्किरहेको देखे।",
+        "id": "Ia melihat sesuatu berkilau di pohon beringin.",
+        "pt": "Viu algo brilhando numa figueira.",
+        "my": "ညောင်ပင်ကြီးပေါ်မှာ တစ်ခုခု တောက်နေတာ မြင်တယ်။",
+        "th": "เขาเห็นบางอย่างเรืองแสงบนต้นไทรใหญ่"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ているのが見える」: thấy (cảnh) đang ~.",
+        "en": "「〜ているのが見える」 = see something ~ing.",
+        "zh-Hans": "「〜のが見える」＝看见……。",
+        "zh-Hant": "「〜のが見える」＝看見……。",
+        "ko": "~하는 것이 보이다.",
+        "tl": "makitang ~.",
+        "ne": "~ देखिनु।",
+        "id": "terlihat ~.",
+        "pt": "ver ~.",
+        "my": "~တာ မြင်။",
+        "th": "เห็นว่า ~"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=143.49,149.437",
+      "t": [
+        143.49,
+        149.437
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "木に登ってみると、美しい宝石のついた、剣のつかがありました。",
+      "furigana": [
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "登",
+          "reading": "のぼ"
+        },
+        {
+          "surface": "ってみると、",
+          "reading": ""
+        },
+        {
+          "surface": "美",
+          "reading": "うつく"
+        },
+        {
+          "surface": "しい",
+          "reading": ""
+        },
+        {
+          "surface": "宝石",
+          "reading": "ほうせき"
+        },
+        {
+          "surface": "のついた、",
+          "reading": ""
+        },
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "のつかがありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ki ni nobottemiru to, utsukushii houseki no tsuita, ken no tsu ka ga arimashita.",
+      "translations": {
+        "vi": "Trèo lên xem, là chiếc chuôi gươm nạm ngọc tuyệt đẹp.",
+        "en": "Climbing up, he found a sword hilt set with beautiful jewels.",
+        "zh-Hans": "爬上去一看，是一个镶着美丽宝石的剑柄。",
+        "zh-Hant": "爬上去一看，是一個鑲著美麗寶石的劍柄。",
+        "ko": "나무에 올라 보니 아름다운 보석이 박힌 칼자루가 있었습니다.",
+        "tl": "Umakyat siya: may hawakan ng espadang may hiyas.",
+        "ne": "चढेर हेर्दा रत्न जडित तरवारको बिँड थियो।",
+        "id": "Ia memanjat: gagang pedang berhias permata.",
+        "pt": "Subindo, achou um cabo cravejado de joias.",
+        "my": "တက်ကြည့်တော့ ကျောက်မျက် စီထားတဲ့ ဓားလက်ကိုင် ရှိတယ်။",
+        "th": "ปีนขึ้นไปดู พบด้ามดาบประดับอัญมณีงดงาม"
+      },
+      "vocab": [
+        {
+          "word": "宝石",
+          "reading": "ほうせき",
+          "meanings": {
+            "vi": "đá quý",
+            "en": "jewel, gem",
+            "zh-Hans": "宝石",
+            "zh-Hant": "寶石",
+            "ko": "보석",
+            "tl": "hiyas",
+            "ne": "रत्न",
+            "id": "permata",
+            "pt": "joia",
+            "my": "ကျောက်မျက်",
+            "th": "อัญมณี"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜てみると」: thử ~ thì. つか = chuôi gươm. 「〜のついた」: có gắn ~.",
+        "en": "「〜てみると」 = upon ~ing. つか = hilt.",
+        "zh-Hans": "「〜てみると」＝……一看。つか＝剑柄。",
+        "zh-Hant": "「〜てみると」＝……一看。つか＝劍柄。",
+        "ko": "~해 보니.",
+        "tl": "nang ~.",
+        "ne": "~ दा।",
+        "id": "setelah ~.",
+        "pt": "ao ~.",
+        "my": "~ကြည့်တော့။",
+        "th": "พอ ~ ดู"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=150.037,155.632",
+      "t": [
+        150.037,
+        155.632
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「もしかして……。」",
+      "furigana": [
+        {
+          "surface": "「もしかして……。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Moshika shite.......”",
+      "translations": {
+        "vi": "\"Lẽ nào...\"",
+        "en": "\"Could it be...?\"",
+        "zh-Hans": "“难道……”",
+        "zh-Hant": "“難道……”",
+        "ko": "\"혹시….\"",
+        "tl": "\"Kaya kaya...?\"",
+        "ne": "\"कतै…?\"",
+        "id": "\"Jangan-jangan…\"",
+        "pt": "\"Será que…?\"",
+        "my": "\"ဖြစ်နိုင်လား…\"",
+        "th": "\"หรือว่า…\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "もしかして = lẽ nào, có khi nào.",
+        "en": "もしかして = could it be.",
+        "zh-Hans": "もしかして＝难道。",
+        "zh-Hant": "もしかして＝難道。",
+        "ko": "혹시.",
+        "tl": "baka.",
+        "ne": "कतै।",
+        "id": "jangan-jangan.",
+        "pt": "será que.",
+        "my": "ဖြစ်နိုင်လား။",
+        "th": "หรือว่า"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=156.532,157.4",
+      "t": [
+        156.532,
+        157.4
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "レ・ロイは急いで、つかを持ち帰り、あの刃と合わせてみました。",
+      "furigana": [
+        {
+          "surface": "レ・ロイは",
+          "reading": ""
+        },
+        {
+          "surface": "急",
+          "reading": "いそ"
+        },
+        {
+          "surface": "いで、つかを",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "ち",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "り、あの",
+          "reading": ""
+        },
+        {
+          "surface": "刃",
+          "reading": "は"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "合",
+          "reading": "あ"
+        },
+        {
+          "surface": "わせてみました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Re Roi wa isoide, tsu ka o mochikaeri, ano ha to awasetemimashita.",
+      "translations": {
+        "vi": "Lê Lợi vội mang chuôi về, thử lắp vào lưỡi gươm.",
+        "en": "He hurried back with the hilt and tried fitting it to the blade.",
+        "zh-Hans": "黎利急忙把剑柄带回来，和那剑刃合在一起试试。",
+        "zh-Hant": "黎利急忙把劍柄帶回來，和那劍刃合在一起試試。",
+        "ko": "레 로이는 서둘러 칼자루를 가져와 그 칼날과 맞춰 보았습니다.",
+        "tl": "Nagmadali siyang ikabit ito sa talim.",
+        "ne": "उनले हतारमा बिँड ल्याएर धारसँग जोडे।",
+        "id": "Ia bergegas mencocokkan gagang dengan bilah.",
+        "pt": "Correu e encaixou o cabo na lâmina.",
+        "my": "လက်ကိုင်ကို အမြန်ယူလာပြီး ဓားသွားနဲ့ တွဲကြည့်တယ်။",
+        "th": "เขารีบนำด้ามกลับมาลองประกอบกับใบดาบ"
+      },
+      "vocab": [
+        {
+          "word": "合わせる",
+          "reading": "あわせる",
+          "meanings": {
+            "vi": "hợp lại (力を合わせる = đồng lòng)",
+            "en": "to combine (力を合わせる = work together)",
+            "zh-Hans": "合起来",
+            "zh-Hant": "合起來",
+            "ko": "합치다",
+            "tl": "pagsamahin",
+            "ne": "मिलाउनु",
+            "id": "menyatukan",
+            "pt": "unir",
+            "my": "ပေါင်း",
+            "th": "รวม"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「AとBを合わせる」: ghép A với B. 「〜てみる」: thử ~.",
+        "en": "「AとBを合わせる」 = fit A and B together.",
+        "zh-Hans": "「合わせる」＝合在一起。",
+        "zh-Hant": "「合わせる」＝合在一起。",
+        "ko": "맞추다.",
+        "tl": "pagdugtungin.",
+        "ne": "जोड्नु।",
+        "id": "mencocokkan.",
+        "pt": "encaixar.",
+        "my": "တွဲ။",
+        "th": "ประกอบ"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=158.3,163.601",
+      "t": [
+        158.3,
+        163.601
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "すると、刃とつかは、まるで一つのものだったように、ぴったりと合いました。",
+      "furigana": [
+        {
+          "surface": "すると、",
+          "reading": ""
+        },
+        {
+          "surface": "刃",
+          "reading": "は"
+        },
+        {
+          "surface": "とつかは、まるで",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "ひと"
+        },
+        {
+          "surface": "つのものだったように、ぴったりと",
+          "reading": ""
+        },
+        {
+          "surface": "合",
+          "reading": "あ"
+        },
+        {
+          "surface": "いました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suruto, ha totsu ka wa, marude hitotsu no mono datta you ni, pittari to aimashita.",
+      "translations": {
+        "vi": "Thế là lưỡi và chuôi khớp vào nhau khít khao, như vốn là một.",
+        "en": "The blade and hilt fit perfectly, as if they had always been one.",
+        "zh-Hans": "于是，剑刃和剑柄严丝合缝，就像本来就是一体。",
+        "zh-Hant": "於是，劍刃和劍柄嚴絲合縫，就像本來就是一體。",
+        "ko": "그러자 칼날과 칼자루는 원래 하나였던 것처럼 꼭 맞았습니다.",
+        "tl": "Swak na swak, parang iisa talaga.",
+        "ne": "धार र बिँड पहिले देखि एउटै झैँ ठ्याक्कै मिले।",
+        "id": "Bilah dan gagang pas sekali, seolah satu.",
+        "pt": "Encaixaram perfeitamente, como se fossem um só.",
+        "my": "ဓားသွားနဲ့ လက်ကိုင် မူလကတည်းက တစ်ခုတည်းလို ကွက်တိ ဖြစ်သွားတယ်။",
+        "th": "ใบดาบกับด้ามประกบกันพอดี ราวกับเป็นชิ้นเดียว"
+      },
+      "vocab": [
+        {
+          "word": "まるで",
+          "reading": "まるで",
+          "meanings": {
+            "vi": "cứ như là",
+            "en": "just like",
+            "zh-Hans": "简直像",
+            "zh-Hant": "簡直像",
+            "ko": "마치",
+            "tl": "parang",
+            "ne": "जस्तो",
+            "id": "seolah",
+            "pt": "como se",
+            "my": "သလိုပဲ",
+            "th": "ราวกับ"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "ぴったり",
+          "reading": "ぴったり",
+          "meanings": {
+            "vi": "vừa khít, vừa vặn",
+            "en": "perfectly (fitting), exactly",
+            "zh-Hans": "正合适，恰好",
+            "zh-Hant": "正合適，恰好",
+            "ko": "꼭 맞게, 딱",
+            "tl": "saktong-sakto",
+            "ne": "ठ्याक्कै मिल्ने",
+            "id": "pas sekali",
+            "pt": "perfeitamente, sob medida",
+            "my": "ကွက်တိ",
+            "th": "พอดีเป๊ะ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「まるで〜ように」: cứ như là ~. ぴったり = khít, vừa khít.",
+        "en": "「まるで〜ように」 = just as if ~. ぴったり = perfectly.",
+        "zh-Hans": "「まるで〜ように」＝简直像……一样。",
+        "zh-Hant": "「まるで〜ように」＝簡直像……一樣。",
+        "ko": "마치 ~처럼.",
+        "tl": "parang ~.",
+        "ne": "जस्तै।",
+        "id": "seolah ~.",
+        "pt": "como se ~.",
+        "my": "သကဲ့သို့။",
+        "th": "ราวกับ"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=164.201,170.147",
+      "t": [
+        164.201,
+        170.147
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「天が、あなたにこの剣をくださったのです。どうか、国を救ってください。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "天",
+          "reading": "てん"
+        },
+        {
+          "surface": "が、あなたにこの",
+          "reading": ""
+        },
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "をくださったのです。どうか、",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "救",
+          "reading": "すく"
+        },
+        {
+          "surface": "ってください。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Ten ga, anata ni kono ken o kudasatta no desu. Dou ka, kuni o sukuttekudasai.”",
+      "translations": {
+        "vi": "\"Trời đã ban gươm này cho ngài. Xin ngài hãy cứu nước.\"",
+        "en": "\"Heaven has given you this sword. Please save our country.\"",
+        "zh-Hans": "“这是上天赐给您的剑。请您拯救国家吧。”",
+        "zh-Hant": "“這是上天賜給您的劍。請您拯救國家吧。”",
+        "ko": "\"하늘이 당신께 이 검을 주신 겁니다. 부디 나라를 구해 주세요.\"",
+        "tl": "\"Ibinigay ito ng Langit sa inyo. Iligtas ninyo ang bayan.\"",
+        "ne": "\"स्वर्गले तपाईंलाई यो तरवार दिएको हो। देश बचाउनुस्।\"",
+        "id": "\"Langit memberikan pedang ini. Selamatkanlah negeri.\"",
+        "pt": "\"O Céu lhe deu esta espada. Salve o país.\"",
+        "my": "\"ကောင်းကင်က ဒီဓားကို ပေးတာပါ။ တိုင်းပြည်ကို ကယ်ပါ။\"",
+        "th": "\"ฟ้าประทานดาบนี้แก่ท่าน โปรดกอบกู้บ้านเมือง\""
+      },
+      "vocab": [
+        {
+          "word": "救う",
+          "reading": "すくう",
+          "meanings": {
+            "vi": "cứu",
+            "en": "save, rescue",
+            "zh-Hans": "拯救",
+            "zh-Hant": "拯救",
+            "ko": "구하다",
+            "tl": "iligtas",
+            "ne": "बचाउनु",
+            "id": "menyelamatkan",
+            "pt": "salvar",
+            "my": "ကယ်တင်",
+            "th": "ช่วยชีวิต"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「くださる」: kính ngữ của くれる (ban cho). 「〜てください」: xin hãy ~.",
+        "en": "「くださる」 = honorific of くれる (bestow).",
+        "zh-Hans": "「くださる」＝くれる的尊敬语。",
+        "zh-Hant": "「くださる」＝くれる的尊敬語。",
+        "ko": "주시다.",
+        "tl": "ibinigay (magalang).",
+        "ne": "दिनुभयो।",
+        "id": "memberikan (hormat).",
+        "pt": "conceder.",
+        "my": "ပေးသနား။",
+        "th": "ประทาน"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=171.047,176.782",
+      "t": [
+        171.047,
+        176.782
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "それからのレ・ロイ軍は、まるで別の軍のように強くなりました。",
+      "furigana": [
+        {
+          "surface": "それからのレ・ロイ",
+          "reading": ""
+        },
+        {
+          "surface": "軍",
+          "reading": "ぐん"
+        },
+        {
+          "surface": "は、まるで",
+          "reading": ""
+        },
+        {
+          "surface": "別",
+          "reading": "べつ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "軍",
+          "reading": "ぐん"
+        },
+        {
+          "surface": "のように",
+          "reading": ""
+        },
+        {
+          "surface": "強",
+          "reading": "つよ"
+        },
+        {
+          "surface": "くなりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sore kara no Re Roi gun wa, marude betsu no gun no you ni tsuyoku narimashita.",
+      "translations": {
+        "vi": "Từ đó, quân của Lê Lợi mạnh lên như một đạo quân khác hẳn.",
+        "en": "From then on, Lê Lợi's army grew strong, as if it were a different army.",
+        "zh-Hans": "从那以后，黎利的军队像换了一支军队一样强大起来。",
+        "zh-Hant": "從那以後，黎利的軍隊像換了一支軍隊一樣強大起來。",
+        "ko": "그 후 레 로이 군은 마치 다른 군대처럼 강해졌습니다.",
+        "tl": "Mula noon, lumakas ang hukbo na parang iba na.",
+        "ne": "त्यसपछि ले लोईको सेना अर्कै सेनाझैँ बलियो भयो।",
+        "id": "Sejak itu pasukannya kuat seperti pasukan lain.",
+        "pt": "Desde então, o exército ficou forte como outro.",
+        "my": "အဲဒီကစပြီး တပ်က တခြားတပ်လို အားကောင်းလာတယ်။",
+        "th": "นับแต่นั้นกองทัพเขาแข็งแกร่งราวกับเป็นกองทัพใหม่"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「Aのように」: như A. 別の = khác.",
+        "en": "「Aのように」 = like A.",
+        "zh-Hans": "「Aのように」＝像A一样。",
+        "zh-Hant": "「Aのように」＝像A一樣。",
+        "ko": "A처럼.",
+        "tl": "parang A.",
+        "ne": "A जस्तै।",
+        "id": "seperti A.",
+        "pt": "como A.",
+        "my": "A လို။",
+        "th": "เหมือน A"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=177.682,182.64",
+      "t": [
+        177.682,
+        182.64
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "剣を持ったレ・ロイが先頭に立つと、仲間たちの心も一つになりました。",
+      "furigana": [
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "ったレ・ロイが",
+          "reading": ""
+        },
+        {
+          "surface": "先頭",
+          "reading": "せんとう"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "立",
+          "reading": "た"
+        },
+        {
+          "surface": "つと、",
+          "reading": ""
+        },
+        {
+          "surface": "仲間",
+          "reading": "なかま"
+        },
+        {
+          "surface": "たちの",
+          "reading": ""
+        },
+        {
+          "surface": "心",
+          "reading": "こころ"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "ひと"
+        },
+        {
+          "surface": "つになりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ken o motta Re Roi ga sentou ni tatsu to, nakamatachi no kokoro mo hitotsu ni narimashita.",
+      "translations": {
+        "vi": "Khi Lê Lợi cầm gươm đi đầu, lòng nghĩa quân cũng hợp làm một.",
+        "en": "When Lê Lợi led with the sword, his comrades' hearts became one.",
+        "zh-Hans": "拿着剑的黎利一站在前头，伙伴们的心也团结成一体。",
+        "zh-Hant": "拿著劍的黎利一站在前頭，夥伴們的心也團結成一體。",
+        "ko": "검을 든 레 로이가 선두에 서자 동료들의 마음도 하나가 되었습니다.",
+        "tl": "Nang manguna siya, nagkaisa ang puso ng lahat.",
+        "ne": "तरवार लिएर अघि उभिँदा साथीहरूको मन एक भयो।",
+        "id": "Saat ia memimpin, hati kawan-kawan bersatu.",
+        "pt": "Quando liderou com a espada, todos se uniram.",
+        "my": "ဓားကိုင်ပြီး ရှေ့ဆုံး ရပ်တော့ အဖော်တွေ စိတ်တစ်သားတည်း ဖြစ်တယ်။",
+        "th": "เมื่อเขาถือดาบนำหน้า ใจพวกพ้องก็เป็นหนึ่งเดียว"
+      },
+      "vocab": [
+        {
+          "word": "先頭",
+          "reading": "せんとう",
+          "meanings": {
+            "vi": "đi đầu",
+            "en": "the front, lead",
+            "zh-Hans": "前头",
+            "zh-Hant": "前頭",
+            "ko": "선두",
+            "tl": "unahan",
+            "ne": "अगाडि",
+            "id": "terdepan",
+            "pt": "frente",
+            "my": "ရှေ့ဆုံး",
+            "th": "หัวแถว"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜と、…」: khi ~ thì … 先頭に立つ = đứng đầu, dẫn đầu.",
+        "en": "先頭に立つ = take the lead.",
+        "zh-Hans": "先頭に立つ＝站在前头。",
+        "zh-Hant": "先頭に立つ＝站在前頭。",
+        "ko": "선두에 서다.",
+        "tl": "manguna.",
+        "ne": "अगुवाइ गर्नु।",
+        "id": "memimpin.",
+        "pt": "liderar.",
+        "my": "ရှေ့ဆောင်။",
+        "th": "นำหน้า"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=183.24,189.582",
+      "t": [
+        183.24,
+        189.582
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "十年の長い戦いのあと、レ・ロイたちは、ついに国を取りもどしました。",
+      "furigana": [
+        {
+          "surface": "十年",
+          "reading": "じゅうねん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "長",
+          "reading": "なが"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "戦",
+          "reading": "たたか"
+        },
+        {
+          "surface": "いのあと、レ・ロイたちは、ついに",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "取",
+          "reading": "と"
+        },
+        {
+          "surface": "りもどしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Juunen no nagai tatakai no ato, Re Roitachi wa, tsuini kuni o tori modoshimashita.",
+      "translations": {
+        "vi": "Sau mười năm chiến đấu ròng rã, Lê Lợi và nghĩa quân giành lại được đất nước.",
+        "en": "After ten long years of war, they finally took back the country.",
+        "zh-Hans": "经过十年漫长的战斗，黎利他们终于夺回了国家。",
+        "zh-Hant": "經過十年漫長的戰鬥，黎利他們終於奪回了國家。",
+        "ko": "10년의 긴 싸움 끝에 레 로이 일행은 마침내 나라를 되찾았습니다.",
+        "tl": "Pagkaraan ng sampung taon, nabawi nila ang bayan.",
+        "ne": "दस वर्षको लामो लडाइँपछि उनीहरूले देश फर्काए।",
+        "id": "Setelah sepuluh tahun, mereka merebut kembali negeri.",
+        "pt": "Após dez anos, retomaram o país.",
+        "my": "ဆယ်နှစ် ကြာ တိုက်ပြီးနောက် တိုင်းပြည်ကို ပြန်ရတယ်။",
+        "th": "หลังสู้รบยาวนานสิบปี พวกเขากอบกู้บ้านเมืองได้"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜のあと」: sau ~. 「〜たち」: nhóm ~.",
+        "en": "「〜のあと」 = after ~.",
+        "zh-Hans": "「〜のあと」＝……之后。",
+        "zh-Hant": "「〜のあと」＝……之後。",
+        "ko": "~ 후.",
+        "tl": "pagkatapos ng ~.",
+        "ne": "~ पछि।",
+        "id": "setelah ~.",
+        "pt": "após ~.",
+        "my": "~ ပြီးနောက်။",
+        "th": "หลัง ~"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=190.182,195.845",
+      "t": [
+        190.182,
+        195.845
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "レ・ロイは王になり、人々は平和な暮らしをはじめました。",
+      "furigana": [
+        {
+          "surface": "レ・ロイは",
+          "reading": ""
+        },
+        {
+          "surface": "王",
+          "reading": "おう"
+        },
+        {
+          "surface": "になり、",
+          "reading": ""
+        },
+        {
+          "surface": "人々",
+          "reading": "ひとびと"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "平和",
+          "reading": "へいわ"
+        },
+        {
+          "surface": "な",
+          "reading": ""
+        },
+        {
+          "surface": "暮",
+          "reading": "く"
+        },
+        {
+          "surface": "らしをはじめました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Re Roi wa ou ni nari, hitobito wa heiwa na kurashi o hajimemashita.",
+      "translations": {
+        "vi": "Lê Lợi lên ngôi vua, nhân dân bắt đầu cuộc sống thái bình.",
+        "en": "Lê Lợi became king, and the people began a peaceful life.",
+        "zh-Hans": "黎利当了国王，人们开始了和平的生活。",
+        "zh-Hant": "黎利當了國王，人們開始了和平的生活。",
+        "ko": "레 로이는 왕이 되고 사람들은 평화로운 생활을 시작했습니다.",
+        "tl": "Naging hari si Lê Lợi at namuhay nang payapa ang mga tao.",
+        "ne": "ले लोई राजा भए र जनता शान्तिमा बाँच्न थाले।",
+        "id": "Lê Lợi menjadi raja, rakyat hidup damai.",
+        "pt": "Lê Lợi virou rei e o povo viveu em paz.",
+        "my": "လေလွိုင် ဘုရင်ဖြစ်ပြီး လူတွေ ငြိမ်းချမ်းစွာ နေကြတယ်။",
+        "th": "เล เหล่ยขึ้นเป็นกษัตริย์ ประชาชนอยู่อย่างสงบสุข"
+      },
+      "vocab": [
+        {
+          "word": "王",
+          "reading": "おう",
+          "meanings": {
+            "vi": "vua",
+            "en": "king",
+            "zh-Hans": "王",
+            "zh-Hant": "王",
+            "ko": "왕",
+            "tl": "hari",
+            "ne": "राजा",
+            "id": "raja",
+            "pt": "rei",
+            "my": "ဘုရင်",
+            "th": "กษัตริย์"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "平和",
+          "reading": "へいわ",
+          "meanings": {
+            "vi": "hòa bình",
+            "en": "peace",
+            "zh-Hans": "和平",
+            "zh-Hant": "和平",
+            "ko": "평화",
+            "tl": "kapayapaan",
+            "ne": "शान्ति",
+            "id": "damai",
+            "pt": "paz",
+            "my": "ငြိမ်းချမ်းရေး",
+            "th": "สันติภาพ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜になり、」: trở thành ~ rồi (thể liên dụng). 平和 = hòa bình.",
+        "en": "「〜になり、」 = became ~ and …",
+        "zh-Hans": "「〜になり」＝成为……然后。",
+        "zh-Hant": "「〜になり」＝成為……然後。",
+        "ko": "~이 되고.",
+        "tl": "naging ~ at.",
+        "ne": "~ भएर।",
+        "id": "menjadi ~ lalu.",
+        "pt": "tornou-se ~ e.",
+        "my": "~ဖြစ်ပြီး။",
+        "th": "เป็น ~ แล้ว"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=196.445,201.215",
+      "t": [
+        196.445,
+        201.215
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それから一年ほどたった、ある春の日のことです。",
+      "furigana": [
+        {
+          "surface": "それから",
+          "reading": ""
+        },
+        {
+          "surface": "一年",
+          "reading": "いちねん"
+        },
+        {
+          "surface": "ほどたった、ある",
+          "reading": ""
+        },
+        {
+          "surface": "春",
+          "reading": "はる"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "のことです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sorekara ichinen hodo tatta, aru haru no hi no koto desu.",
+      "translations": {
+        "vi": "Đó là một ngày xuân, khoảng một năm sau.",
+        "en": "It was a spring day, about a year later.",
+        "zh-Hans": "那是大约一年后的一个春日。",
+        "zh-Hant": "那是大約一年後的一個春日。",
+        "ko": "그로부터 1년쯤 지난 어느 봄날의 일입니다.",
+        "tl": "Isang araw ng tagsibol, makalipas ang isang taon.",
+        "ne": "करिब एक वर्षपछि, वसन्तको एक दिन।",
+        "id": "Suatu hari musim semi, setahun kemudian.",
+        "pt": "Um dia de primavera, um ano depois.",
+        "my": "တစ်နှစ်လောက်ကြာပြီး နွေဦးနေ့တစ်နေ့။",
+        "th": "วันหนึ่งในฤดูใบไม้ผลิ ราวหนึ่งปีต่อมา"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ほどたった」: khoảng ~ trôi qua. 「〜のことです」: đó là chuyện ~ (dẫn chuyện).",
+        "en": "「〜ほどたった」 = about ~ later.",
+        "zh-Hans": "「〜ほどたった」＝过了大约……。",
+        "zh-Hant": "「〜ほどたった」＝過了大約……。",
+        "ko": "~쯤 지난.",
+        "tl": "makalipas ang ~.",
+        "ne": "~ जति बितेपछि।",
+        "id": "sekitar ~ kemudian.",
+        "pt": "cerca de ~ depois.",
+        "my": "~လောက် ကြာပြီး။",
+        "th": "ผ่านไปราว ~"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=201.815,206.131",
+      "t": [
+        201.815,
+        206.131
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "レ・ロイ王は、都の湖で、舟に乗って、のんびりと景色を楽しんでいました。",
+      "furigana": [
+        {
+          "surface": "レ・ロイ",
+          "reading": ""
+        },
+        {
+          "surface": "王",
+          "reading": "おう"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "都",
+          "reading": "みやこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "surface": "で、",
+          "reading": ""
+        },
+        {
+          "surface": "舟",
+          "reading": "ふね"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "乗",
+          "reading": "の"
+        },
+        {
+          "surface": "って、のんびりと",
+          "reading": ""
+        },
+        {
+          "surface": "景色",
+          "reading": "けしき"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "楽",
+          "reading": "たの"
+        },
+        {
+          "surface": "しんでいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Re Roi ou wa, miyako no mizuumi de, fune ni notte, nonbiri to keshiki o tanoshindeimashita.",
+      "translations": {
+        "vi": "Vua Lê Lợi ngồi thuyền trên hồ ở kinh đô, thong thả ngắm cảnh.",
+        "en": "King Lê Lợi was boating on the capital's lake, leisurely enjoying the view.",
+        "zh-Hans": "黎利王在都城的湖上乘船，悠闲地欣赏风景。",
+        "zh-Hant": "黎利王在都城的湖上乘船，悠閒地欣賞風景。",
+        "ko": "레 로이 왕은 도읍의 호수에서 배를 타고 느긋하게 경치를 즐기고 있었습니다.",
+        "tl": "Namamangka ang hari sa lawa, nag-eenjoy sa tanawin.",
+        "ne": "राजा राजधानीको तालमा डुंगामा आरामसँग दृश्य हेर्दै थिए।",
+        "id": "Raja berperahu di danau ibu kota, menikmati pemandangan.",
+        "pt": "O rei passeava de barco no lago, apreciando a vista.",
+        "my": "ဘုရင်က မြို့တော်ကန်မှာ လှေစီးပြီး အေးအေးဆေးဆေး ရှုခင်း ကြည့်နေတယ်။",
+        "th": "กษัตริย์ล่องเรือในทะเลสาบเมืองหลวง ชมทิวทัศน์สบาย ๆ"
+      },
+      "vocab": [
+        {
+          "word": "のんびり",
+          "reading": "のんびり",
+          "meanings": {
+            "vi": "thong thả",
+            "en": "leisurely",
+            "zh-Hans": "悠闲",
+            "zh-Hant": "悠閒",
+            "ko": "느긋하게",
+            "tl": "relaks",
+            "ne": "आरामसँग",
+            "id": "santai",
+            "pt": "tranquilo",
+            "my": "အေးအေးဆေးဆေး",
+            "th": "สบาย ๆ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "のんびり = thong thả. 景色 = phong cảnh. 舟 = thuyền nhỏ.",
+        "en": "のんびり = leisurely. 景色 = scenery.",
+        "zh-Hans": "のんびり＝悠闲。景色＝风景。",
+        "zh-Hant": "のんびり＝悠閒。景色＝風景。",
+        "ko": "のんびり=느긋하게.",
+        "tl": "relaks.",
+        "ne": "आरामसँग।",
+        "id": "santai.",
+        "pt": "tranquilo.",
+        "my": "အေးဆေး။",
+        "th": "สบาย ๆ"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=206.731,213.886",
+      "t": [
+        206.731,
+        213.886
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのとき、湖の水がゆらゆらとゆれて、大きな金色の亀が顔を出しました。",
+      "furigana": [
+        {
+          "surface": "そのとき、",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "がゆらゆらとゆれて、",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きな",
+          "reading": ""
+        },
+        {
+          "surface": "金色",
+          "reading": "きんいろ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "亀",
+          "reading": "かめ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "顔",
+          "reading": "かお"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono toki, mizuumi no mizu ga yurayura to yurete, ookina kin'iro no kame ga kao o dashimashita.",
+      "translations": {
+        "vi": "Lúc ấy, mặt hồ dập dềnh, một con rùa vàng lớn ngoi lên.",
+        "en": "Then the water rippled, and a big golden turtle raised its head.",
+        "zh-Hans": "这时，湖水荡漾，一只巨大的金龟探出了头。",
+        "zh-Hant": "這時，湖水盪漾，一隻巨大的金龜探出了頭。",
+        "ko": "그때 호수 물이 출렁이더니 커다란 금빛 거북이 얼굴을 내밀었습니다.",
+        "tl": "Umalon ang tubig at lumitaw ang gintong pagong.",
+        "ne": "तालको पानी हल्लियो र ठूलो सुनौलो कछुवाले टाउको निकाल्यो।",
+        "id": "Air beriak, kura-kura emas besar muncul.",
+        "pt": "A água ondulou e uma grande tartaruga dourada surgiu.",
+        "my": "ကန်ရေ လှုပ်ပြီး ရွှေလိပ်ကြီး ခေါင်းပြူလာတယ်။",
+        "th": "น้ำในทะเลสาบกระเพื่อม เต่าทองตัวใหญ่โผล่หัวขึ้นมา"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ゆらゆら = dập dềnh. 顔を出す = ló mặt ra. 亀 = rùa.",
+        "en": "ゆらゆら = rippling. 顔を出す = show one's face. 亀 = turtle.",
+        "zh-Hans": "ゆらゆら＝荡漾。亀＝龟。",
+        "zh-Hant": "ゆらゆら＝盪漾。亀＝龜。",
+        "ko": "亀=거북.",
+        "tl": "pagong.",
+        "ne": "कछुवा।",
+        "id": "kura-kura.",
+        "pt": "tartaruga.",
+        "my": "လိပ်။",
+        "th": "เต่า"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=214.486,221.941",
+      "t": [
+        214.486,
+        221.941
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "亀は、舟のすぐそばまで泳いできて、ゆっくりと言いました。",
+      "furigana": [
+        {
+          "surface": "亀",
+          "reading": "かめ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "舟",
+          "reading": "ふね"
+        },
+        {
+          "surface": "のすぐそばまで",
+          "reading": ""
+        },
+        {
+          "surface": "泳",
+          "reading": "およ"
+        },
+        {
+          "surface": "いできて、ゆっくりと",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "いました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kame wa, fune no sugu soba made oyoidekite, yukkuri to iimashita.",
+      "translations": {
+        "vi": "Rùa bơi đến sát mạn thuyền, chậm rãi nói.",
+        "en": "The turtle swam right up to the boat and spoke slowly.",
+        "zh-Hans": "金龟游到船边，慢慢地说。",
+        "zh-Hant": "金龜游到船邊，慢慢地說。",
+        "ko": "거북은 배 바로 옆까지 헤엄쳐 와서 천천히 말했습니다.",
+        "tl": "Lumangoy ito sa tabi ng bangka at dahan-dahang nagsalita.",
+        "ne": "कछुवा डुंगाछेउ आएर बिस्तारै बोल्यो।",
+        "id": "Kura-kura berenang ke dekat perahu dan berkata pelan.",
+        "pt": "Nadou até o barco e falou devagar.",
+        "my": "လှေနား ကူးလာပြီး ဖြည်းဖြည်း ပြောတယ်။",
+        "th": "เต่าว่ายมาถึงข้างเรือ แล้วพูดช้า ๆ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜まで泳いでくる」: bơi đến tận ~.",
+        "en": "「〜まで泳いでくる」 = swim up to ~.",
+        "zh-Hans": "「〜まで泳いでくる」＝游到……。",
+        "zh-Hant": "「〜まで泳いでくる」＝游到……。",
+        "ko": "~까지 헤엄쳐 오다.",
+        "tl": "lumangoy hanggang ~.",
+        "ne": "~ सम्म पौडेर आउनु।",
+        "id": "berenang sampai ~.",
+        "pt": "nadar até ~.",
+        "my": "~ အထိ ကူးလာ။",
+        "th": "ว่ายมาถึง ~"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=222.541,227.514",
+      "t": [
+        222.541,
+        227.514
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「王さま。戦いは、もう終わりました。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "王",
+          "reading": "おう"
+        },
+        {
+          "surface": "さま。",
+          "reading": ""
+        },
+        {
+          "surface": "戦",
+          "reading": "たたか"
+        },
+        {
+          "surface": "いは、もう",
+          "reading": ""
+        },
+        {
+          "surface": "終",
+          "reading": "お"
+        },
+        {
+          "surface": "わりました。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Ousama. Tatakai wa, mou owarimashita.”",
+      "translations": {
+        "vi": "\"Tâu bệ hạ. Chiến tranh đã kết thúc rồi.\"",
+        "en": "\"Your Majesty. The war is over.\"",
+        "zh-Hans": "“陛下。战争已经结束了。”",
+        "zh-Hant": "“陛下。戰爭已經結束了。”",
+        "ko": "\"왕이시여. 싸움은 이제 끝났습니다.\"",
+        "tl": "\"Mahal na hari, tapos na ang digmaan.\"",
+        "ne": "\"महाराज, युद्ध सकियो।\"",
+        "id": "\"Baginda, perang telah usai.\"",
+        "pt": "\"Majestade, a guerra acabou.\"",
+        "my": "\"အရှင်မင်းကြီး၊ စစ်ပွဲ ပြီးပါပြီ။\"",
+        "th": "\"ฝ่าบาท สงครามจบแล้ว\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "もう = đã ~ rồi. 「〜ました」: đã ~.",
+        "en": "もう = already.",
+        "zh-Hans": "もう＝已经。",
+        "zh-Hant": "もう＝已經。",
+        "ko": "もう=이제.",
+        "tl": "tapos na.",
+        "ne": "सकियो।",
+        "id": "sudah.",
+        "pt": "já.",
+        "my": "ပြီ။",
+        "th": "แล้ว"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=228.414,231.929",
+      "t": [
+        228.414,
+        231.929
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「その剣は、湖の神さまが、国を救うためにお貸ししたものです。どうか、お返しください。」",
+      "furigana": [
+        {
+          "surface": "「その",
+          "reading": ""
+        },
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "神",
+          "reading": "かみ"
+        },
+        {
+          "surface": "さまが、",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "救",
+          "reading": "すく"
+        },
+        {
+          "surface": "うためにお",
+          "reading": ""
+        },
+        {
+          "surface": "貸",
+          "reading": "か"
+        },
+        {
+          "surface": "ししたものです。どうか、お",
+          "reading": ""
+        },
+        {
+          "surface": "返",
+          "reading": "かえ"
+        },
+        {
+          "surface": "しください。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Sono ken wa, mizuumi no kamisama ga, kuni o sukuu tame ni okashi shita mono desu. Dou ka, okaeshi kudasai.”",
+      "translations": {
+        "vi": "\"Thanh gươm ấy là thần hồ cho mượn để cứu nước. Xin bệ hạ hãy trả lại.\"",
+        "en": "\"That sword was lent by the lake's god to save the land. Please return it.\"",
+        "zh-Hans": "“那把剑是湖神为了救国借给您的。请归还吧。”",
+        "zh-Hant": "“那把劍是湖神為了救國借給您的。請歸還吧。”",
+        "ko": "\"그 검은 호수의 신께서 나라를 구하기 위해 빌려드린 것입니다. 부디 돌려주십시오.\"",
+        "tl": "\"Ipinahiram iyan ng diyos ng lawa. Ibalik na po ninyo.\"",
+        "ne": "\"त्यो तरवार देश बचाउन तालका देवताले सापटी दिएका हुन्। फर्काइदिनुस्।\"",
+        "id": "\"Pedang itu dipinjamkan dewa danau. Kembalikanlah.\"",
+        "pt": "\"A espada foi emprestada pelo deus do lago. Devolva-a.\"",
+        "my": "\"အဲဒီဓားက ကန်နတ်က တိုင်းပြည်ကယ်ဖို့ ငှားထားတာ။ ပြန်အပ်ပါ။\"",
+        "th": "\"ดาบนั้นเทพแห่งทะเลสาบให้ยืมเพื่อกอบกู้บ้านเมือง โปรดคืนเถิด\""
+      },
+      "vocab": [
+        {
+          "word": "貸し",
+          "reading": "かし",
+          "meanings": {
+            "vi": "cho mượn",
+            "en": "lending",
+            "zh-Hans": "借出",
+            "zh-Hant": "借出",
+            "ko": "빌려줌",
+            "tl": "pagpapahiram",
+            "ne": "सापटी दिनु",
+            "id": "meminjamkan",
+            "pt": "emprestar",
+            "my": "ငှားပေးခြင်း",
+            "th": "ให้ยืม"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ために」: để ~. 「お〜する」: khiêm nhường ngữ (お貸しする). 「お〜ください」: tôn kính ngữ (お返しください).",
+        "en": "「〜ために」 = in order to ~. お貸しする (humble), お返しください (honorific).",
+        "zh-Hans": "「〜ために」＝为了。谦让语/尊敬语。",
+        "zh-Hant": "「〜ために」＝為了。謙讓語/尊敬語。",
+        "ko": "~위해. 겸양/존경.",
+        "tl": "upang ~.",
+        "ne": "~ लागि।",
+        "id": "untuk ~.",
+        "pt": "para ~.",
+        "my": "~ဖို့။",
+        "th": "เพื่อ ~"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=232.529,241.692",
+      "t": [
+        232.529,
+        241.692
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "レ・ロイ王は、腰の剣を見つめました。その剣とともに、十年戦ってきたのです。",
+      "furigana": [
+        {
+          "surface": "レ・ロイ",
+          "reading": ""
+        },
+        {
+          "surface": "王",
+          "reading": "おう"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "腰",
+          "reading": "こし"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "つめました。その",
+          "reading": ""
+        },
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "とともに、",
+          "reading": ""
+        },
+        {
+          "surface": "十年",
+          "reading": "じゅうねん"
+        },
+        {
+          "surface": "戦",
+          "reading": "たたか"
+        },
+        {
+          "surface": "ってきたのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Re Roi ou wa, koshi no ken o mitsumemashita. Sono ken totomoni, juunen tatakattekita no desu.",
+      "translations": {
+        "vi": "Vua Lê Lợi nhìn thanh gươm bên hông. Ông đã chiến đấu cùng nó suốt mười năm.",
+        "en": "The king looked at the sword at his waist. He had fought with it for ten years.",
+        "zh-Hans": "黎利王看着腰间的剑。他和这把剑一起战斗了十年。",
+        "zh-Hant": "黎利王看著腰間的劍。他和這把劍一起戰鬥了十年。",
+        "ko": "레 로이 왕은 허리의 검을 바라보았습니다. 그 검과 함께 10년을 싸워 온 것입니다.",
+        "tl": "Tinitigan niya ang espada; sampung taon silang magkasama.",
+        "ne": "राजाले कम्मरको तरवार हेरे। दस वर्ष सँगै लडेका थिए।",
+        "id": "Raja menatap pedang di pinggangnya; sepuluh tahun bersama.",
+        "pt": "Olhou a espada na cintura; lutaram juntos dez anos.",
+        "my": "ခါးက ဓားကို ကြည့်တယ်။ ဆယ်နှစ်လုံး အတူ တိုက်ခဲ့တာ။",
+        "th": "กษัตริย์มองดาบที่เอว เขาสู้มาด้วยกันสิบปี"
+      },
+      "vocab": [
+        {
+          "word": "腰",
+          "reading": "こし",
+          "meanings": {
+            "vi": "thắt lưng, hông",
+            "en": "waist, hip",
+            "zh-Hans": "腰",
+            "zh-Hant": "腰",
+            "ko": "허리",
+            "tl": "baywang",
+            "ne": "कम्मर",
+            "id": "pinggang",
+            "pt": "cintura",
+            "my": "ခါး",
+            "th": "เอว"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "戦う",
+          "reading": "たたかう",
+          "meanings": {
+            "vi": "chiến đấu",
+            "en": "to fight",
+            "zh-Hans": "战斗",
+            "zh-Hant": "戰鬥",
+            "ko": "싸우다",
+            "tl": "lumaban",
+            "ne": "लड्नु",
+            "id": "bertempur",
+            "pt": "lutar",
+            "my": "တိုက်သည်",
+            "th": "ต่อสู้"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「Aとともに」: cùng với A. 「〜てきた」: đã ~ suốt (đến nay).",
+        "en": "「Aとともに」 = together with A. 「〜てきた」 = have been ~ing.",
+        "zh-Hans": "「Aとともに」＝和A一起。",
+        "zh-Hant": "「Aとともに」＝和A一起。",
+        "ko": "A와 함께.",
+        "tl": "kasama ang A.",
+        "ne": "A सँगै।",
+        "id": "bersama A.",
+        "pt": "junto com A.",
+        "my": "A နဲ့အတူ။",
+        "th": "ร่วมกับ A"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=242.592,250.992",
+      "t": [
+        242.592,
+        250.992
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "でも、王は静かにうなずきました。",
+      "furigana": [
+        {
+          "surface": "でも、",
+          "reading": ""
+        },
+        {
+          "surface": "王",
+          "reading": "おう"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "静",
+          "reading": "しず"
+        },
+        {
+          "surface": "かにうなずきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, ou wa shizuka ni unazukimashita.",
+      "translations": {
+        "vi": "Nhưng nhà vua lặng lẽ gật đầu.",
+        "en": "But the king quietly nodded.",
+        "zh-Hans": "但是，国王静静地点了点头。",
+        "zh-Hant": "但是，國王靜靜地點了點頭。",
+        "ko": "하지만 왕은 조용히 고개를 끄덕였습니다.",
+        "tl": "Pero tahimik na tumango ang hari.",
+        "ne": "तर राजाले शान्तसँग टाउको हल्लाए।",
+        "id": "Namun raja mengangguk tenang.",
+        "pt": "Mas o rei assentiu em silêncio.",
+        "my": "ဒါပေမဲ့ ဘုရင်က ငြိမ်ငြိမ် ခေါင်းညိတ်တယ်။",
+        "th": "แต่กษัตริย์พยักหน้าอย่างสงบ"
+      },
+      "vocab": [
+        {
+          "word": "うなずく",
+          "reading": "うなずく",
+          "meanings": {
+            "vi": "gật đầu",
+            "en": "nod",
+            "zh-Hans": "点头",
+            "zh-Hant": "點頭",
+            "ko": "끄덕이다",
+            "tl": "tumango",
+            "ne": "टाउको हल्लाउनु",
+            "id": "mengangguk",
+            "pt": "acenar",
+            "my": "ခေါင်းညိတ်",
+            "th": "พยักหน้า"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "うなずく = gật đầu.",
+        "en": "うなずく = nod.",
+        "zh-Hans": "うなずく＝点头。",
+        "zh-Hant": "うなずく＝點頭。",
+        "ko": "うなずく=끄덕이다.",
+        "tl": "tumango.",
+        "ne": "टाउको हल्लाउनु।",
+        "id": "mengangguk.",
+        "pt": "assentir.",
+        "my": "ခေါင်းညိတ်။",
+        "th": "พยักหน้า"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=251.592,254.749",
+      "t": [
+        251.592,
+        254.749
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「そうだな。もう、剣はいらない。これからは、平和を守る時代だ。」",
+      "furigana": [
+        {
+          "surface": "「そうだな。もう、",
+          "reading": ""
+        },
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "はいらない。これからは、",
+          "reading": ""
+        },
+        {
+          "surface": "平和",
+          "reading": "へいわ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "守",
+          "reading": "まも"
+        },
+        {
+          "surface": "る",
+          "reading": ""
+        },
+        {
+          "surface": "時代",
+          "reading": "じだい"
+        },
+        {
+          "surface": "だ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Sou da na. Mou, ken wa iranai. Korekara wa, heiwa o mamoru jidai da.”",
+      "translations": {
+        "vi": "\"Phải rồi. Không cần gươm nữa. Từ nay là thời giữ gìn hòa bình.\"",
+        "en": "\"You're right. I no longer need the sword. Now is the age of keeping the peace.\"",
+        "zh-Hans": "“是啊。已经不需要剑了。今后是守护和平的时代。”",
+        "zh-Hant": "“是啊。已經不需要劍了。今後是守護和平的時代。”",
+        "ko": "\"그렇구나. 이제 검은 필요 없다. 앞으로는 평화를 지키는 시대다.\"",
+        "tl": "\"Tama. Hindi ko na kailangan. Panahon na ng pag-iingat sa kapayapaan.\"",
+        "ne": "\"हो। अब तरवार चाहिँदैन। अबको समय शान्ति जोगाउने हो।\"",
+        "id": "\"Benar. Tak perlu pedang lagi. Kini masa menjaga damai.\"",
+        "pt": "\"É verdade. Não preciso mais dela. É tempo de guardar a paz.\"",
+        "my": "\"ဟုတ်တယ်။ ဓား မလိုတော့ဘူး။ အခုကစပြီး ငြိမ်းချမ်းရေး ကာကွယ်တဲ့ ခေတ်။\"",
+        "th": "\"จริงสินะ ไม่ต้องใช้ดาบแล้ว ต่อจากนี้คือยุครักษาสันติ\""
+      },
+      "vocab": [
+        {
+          "word": "守る",
+          "reading": "まもる",
+          "meanings": {
+            "vi": "bảo vệ",
+            "en": "to protect",
+            "zh-Hans": "保护",
+            "zh-Hant": "保護",
+            "ko": "지키다",
+            "tl": "ipagtanggol",
+            "ne": "रक्षा गर्नु",
+            "id": "melindungi",
+            "pt": "proteger",
+            "my": "ကာကွယ်သည်",
+            "th": "ปกป้อง"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「もう〜ない」: không còn ~ nữa. 時代 = thời đại.",
+        "en": "「もう〜ない」 = no longer ~. 時代 = era.",
+        "zh-Hans": "「もう〜ない」＝已经不……了。",
+        "zh-Hant": "「もう〜ない」＝已經不……了。",
+        "ko": "이제 ~없다.",
+        "tl": "hindi na.",
+        "ne": "अब ~ न।",
+        "id": "tak lagi.",
+        "pt": "não mais.",
+        "my": "မ~တော့။",
+        "th": "ไม่ ~ แล้ว"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=255.649,261.218",
+      "t": [
+        255.649,
+        261.218
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "王が剣をさし出すと、亀は口でそれをくわえて、静かに水の底へしずんでいきました。",
+      "furigana": [
+        {
+          "surface": "王",
+          "reading": "おう"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "をさし",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "すと、",
+          "reading": ""
+        },
+        {
+          "surface": "亀",
+          "reading": "かめ"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "口",
+          "reading": "くち"
+        },
+        {
+          "surface": "でそれをくわえて、",
+          "reading": ""
+        },
+        {
+          "surface": "静",
+          "reading": "しず"
+        },
+        {
+          "surface": "かに",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "底",
+          "reading": "そこ"
+        },
+        {
+          "surface": "へしずんでいきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ou ga ken o sashidasu to, kame wa kuchi de sore o kuwaete, shizuka ni mizu no soko e shizundeikimashita.",
+      "translations": {
+        "vi": "Vua đưa gươm ra, rùa ngậm lấy rồi lặng lẽ lặn xuống đáy hồ.",
+        "en": "When he held out the sword, the turtle took it in its mouth and quietly sank.",
+        "zh-Hans": "国王一递出剑，金龟就用嘴叼住，静静地沉入水底。",
+        "zh-Hant": "國王一遞出劍，金龜就用嘴叼住，靜靜地沉入水底。",
+        "ko": "왕이 검을 내밀자 거북은 입에 물고 조용히 물 밑으로 가라앉았습니다.",
+        "tl": "Kinagat ito ng pagong at tahimik na lumubog.",
+        "ne": "राजाले तरवार दिँदा कछुवाले मुखमा च्यापेर तल डुब्यो।",
+        "id": "Kura-kura menggigitnya lalu tenggelam pelan.",
+        "pt": "A tartaruga a pegou com a boca e afundou.",
+        "my": "ဓားကို ကမ်းတော့ လိပ်က ပါးစပ်နဲ့ ချီပြီး ကန်အောက် ငုပ်သွားတယ်။",
+        "th": "เต่าคาบดาบแล้วจมลงสู่ก้นทะเลสาบอย่างเงียบ ๆ"
+      },
+      "vocab": [
+        {
+          "word": "底",
+          "reading": "そこ",
+          "meanings": {
+            "vi": "đáy",
+            "en": "bottom",
+            "zh-Hans": "底，底部",
+            "zh-Hant": "底，底部",
+            "ko": "바닥",
+            "tl": "ilalim",
+            "ne": "पिँध",
+            "id": "dasar",
+            "pt": "fundo",
+            "my": "အောက်ခြေ",
+            "th": "ก้น, ข้างล่างสุด"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "さし出す = đưa ra. くわえる = ngậm. しずむ = chìm xuống.",
+        "en": "さし出す = hold out. くわえる = hold in the mouth. しずむ = sink.",
+        "zh-Hans": "くわえる＝叼。しずむ＝沉。",
+        "zh-Hant": "くわえる＝叼。しずむ＝沉。",
+        "ko": "くわえる=물다.",
+        "tl": "kagatin.",
+        "ne": "च्याप्नु।",
+        "id": "menggigit.",
+        "pt": "abocanhar.",
+        "my": "ချီ။",
+        "th": "คาบ"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=262.118,269.911",
+      "t": [
+        262.118,
+        269.911
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "湖の上には、剣の光が、しばらくきらきらと残っていたそうです。",
+      "furigana": [
+        {
+          "surface": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "には、",
+          "reading": ""
+        },
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "光",
+          "reading": "ひかり"
+        },
+        {
+          "surface": "が、しばらくきらきらと",
+          "reading": ""
+        },
+        {
+          "surface": "残",
+          "reading": "のこ"
+        },
+        {
+          "surface": "っていたそうです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mizuumi no ue ni wa, ken no hikari ga, shibaraku kirakira to nokotteita sou desu.",
+      "translations": {
+        "vi": "Nghe nói ánh gươm còn lấp lánh trên mặt hồ một lúc lâu.",
+        "en": "It is said the sword's light shimmered on the lake for a while.",
+        "zh-Hans": "据说，剑光在湖面上闪闪发亮了好一会儿。",
+        "zh-Hant": "據說，劍光在湖面上閃閃發亮了好一會兒。",
+        "ko": "호수 위에는 검의 빛이 한동안 반짝반짝 남아 있었다고 합니다.",
+        "tl": "Kumislap pa raw ang liwanag nang matagal.",
+        "ne": "तालमाथि तरवारको उज्यालो केही बेर चम्कियो रे।",
+        "id": "Konon cahaya pedang berkilau di danau beberapa saat.",
+        "pt": "Dizem que o brilho ficou um tempo no lago.",
+        "my": "ဓားအလင်း ခဏ တလက်လက် ကျန်နေတယ်တဲ့။",
+        "th": "ว่ากันว่าแสงดาบยังระยิบบนทะเลสาบอยู่ครู่หนึ่ง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜そうです」: nghe nói ~.",
+        "en": "「〜そうです」 = it is said ~.",
+        "zh-Hans": "「〜そうです」＝据说。",
+        "zh-Hant": "「〜そうです」＝據說。",
+        "ko": "~다고 합니다.",
+        "tl": "daw.",
+        "ne": "रे।",
+        "id": "konon.",
+        "pt": "dizem.",
+        "my": "တဲ့။",
+        "th": "ว่ากันว่า"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=270.511,276.169",
+      "t": [
+        270.511,
+        276.169
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それから、人々はこの湖を「剣を返した湖」、ホアンキエム湖と呼ぶようになりました。",
+      "furigana": [
+        {
+          "surface": "それから、",
+          "reading": ""
+        },
+        {
+          "surface": "人々",
+          "reading": "ひとびと"
+        },
+        {
+          "surface": "はこの",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "surface": "を「",
+          "reading": ""
+        },
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "返",
+          "reading": "かえ"
+        },
+        {
+          "surface": "した",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "surface": "」、ホアンキエム",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "こ"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "呼",
+          "reading": "よ"
+        },
+        {
+          "surface": "ぶようになりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sorekara, hitobito wa kono mizuumi o “Ken o kaeshita mizuumi”, Hoankiemu Ko to yobu you ni narimashita.",
+      "translations": {
+        "vi": "Từ đó, người ta gọi hồ này là \"Hồ trả gươm\" — Hồ Hoàn Kiếm.",
+        "en": "From then on, people called it \"the lake that returned the sword\": Hoàn Kiếm Lake.",
+        "zh-Hans": "从那以后，人们把这个湖叫做“还剑湖”。",
+        "zh-Hant": "從那以後，人們把這個湖叫做“還劍湖”。",
+        "ko": "그 후 사람들은 이 호수를 '검을 돌려준 호수', 호안끼엠 호수라 부르게 되었습니다.",
+        "tl": "Mula noon, tinawag itong Lawa ng Hoàn Kiếm.",
+        "ne": "त्यसपछि मान्छेले यसलाई होआन किएम ताल भन्न थाले।",
+        "id": "Sejak itu disebut Danau Hoàn Kiếm.",
+        "pt": "Desde então chamam-no Lago Hoàn Kiếm.",
+        "my": "အဲဒီကစပြီး ဟွမ်ကီယမ်ကန်လို့ ခေါ်လာကြတယ်။",
+        "th": "นับแต่นั้น ผู้คนเรียกว่าทะเลสาบฮว่านเกี๋ยม"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「AをBと呼ぶ」: gọi A là B. 「〜ようになる」: dần trở nên ~.",
+        "en": "「AをBと呼ぶ」 = call A B.",
+        "zh-Hans": "「AをBと呼ぶ」＝把A叫做B。",
+        "zh-Hant": "「AをBと呼ぶ」＝把A叫做B。",
+        "ko": "A를 B라고 부르다.",
+        "tl": "tawagin ang A na B.",
+        "ne": "A लाई B भन्नु।",
+        "id": "menyebut A sebagai B.",
+        "pt": "chamar A de B.",
+        "my": "A ကို B လို့ ခေါ်။",
+        "th": "เรียก A ว่า B"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=276.769,284.857",
+      "t": [
+        276.769,
+        284.857
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "今でも湖の真ん中には、小さな塔が立っていて、ハノイの人々に愛されています。",
+      "furigana": [
+        {
+          "surface": "今",
+          "reading": "いま"
+        },
+        {
+          "surface": "でも",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "真",
+          "reading": "ま"
+        },
+        {
+          "surface": "ん",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "には、",
+          "reading": ""
+        },
+        {
+          "surface": "小",
+          "reading": "ちい"
+        },
+        {
+          "surface": "さな",
+          "reading": ""
+        },
+        {
+          "surface": "塔",
+          "reading": "とう"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "立",
+          "reading": "た"
+        },
+        {
+          "surface": "っていて、ハノイの",
+          "reading": ""
+        },
+        {
+          "surface": "人々",
+          "reading": "ひとびと"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "愛",
+          "reading": "あい"
+        },
+        {
+          "surface": "されています。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ima demo mizuumi no mannaka ni wa, chiisana tou ga tatteite, Hanoi no hitobito ni aisareteimasu.",
+      "translations": {
+        "vi": "Ngày nay giữa hồ vẫn còn một ngọn tháp nhỏ, được người Hà Nội yêu mến.",
+        "en": "Even today a small tower stands in the middle, loved by the people of Hanoi.",
+        "zh-Hans": "至今湖中央还立着一座小塔，深受河内人喜爱。",
+        "zh-Hant": "至今湖中央還立著一座小塔，深受河內人喜愛。",
+        "ko": "지금도 호수 한가운데에는 작은 탑이 서 있어 하노이 사람들의 사랑을 받고 있습니다.",
+        "tl": "May maliit na tore pa rin sa gitna, mahal ng mga taga-Hanoi.",
+        "ne": "आज पनि बीचमा सानो धरहरा छ, हनोईवासीले माया गर्छन्।",
+        "id": "Kini masih ada menara kecil di tengahnya, dicintai warga Hanoi.",
+        "pt": "Ainda hoje há uma torrezinha no meio, amada pelos hanoienses.",
+        "my": "အခုထိ ကန်အလယ်မှာ မျှော်စင်လေး ရှိပြီး ဟနွိုင်းသားတွေ ချစ်ကြတယ်။",
+        "th": "ทุกวันนี้ กลางทะเลสาบยังมีหอคอยเล็ก เป็นที่รักของชาวฮานอย"
+      },
+      "vocab": [
+        {
+          "word": "塔",
+          "reading": "とう",
+          "meanings": {
+            "vi": "tháp",
+            "en": "tower",
+            "zh-Hans": "塔",
+            "zh-Hant": "塔",
+            "ko": "탑",
+            "tl": "tore",
+            "ne": "धरहरा",
+            "id": "menara",
+            "pt": "torre",
+            "my": "မျှော်စင်",
+            "th": "หอคอย"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "塔 = tháp (Tháp Rùa). 「〜に愛される」: được ~ yêu mến.",
+        "en": "塔 = tower (Turtle Tower).",
+        "zh-Hans": "塔＝塔（龟塔）。",
+        "zh-Hant": "塔＝塔（龜塔）。",
+        "ko": "塔=탑.",
+        "tl": "tore.",
+        "ne": "धरहरा।",
+        "id": "menara.",
+        "pt": "torre.",
+        "my": "မျှော်စင်။",
+        "th": "หอคอย"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=285.457,292.43",
+      "t": [
+        285.457,
+        292.43
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "日本にも、湖の神さまが英雄に宝をくれる話があります。それは「俵藤太」の話です。",
+      "furigana": [
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "にも、",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "神",
+          "reading": "かみ"
+        },
+        {
+          "surface": "さまが",
+          "reading": ""
+        },
+        {
+          "surface": "英雄",
+          "reading": "えいゆう"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "宝",
+          "reading": "たから"
+        },
+        {
+          "surface": "をくれる",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "があります。それは「",
+          "reading": ""
+        },
+        {
+          "surface": "俵藤太",
+          "reading": "たわらのとうた"
+        },
+        {
+          "surface": "」の",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Nihon ni mo, mizuumi no kamisama ga eiyuu ni takara o kureru hanashi ga arimasu. Sore wa “Tawaranotouta” no hanashi desu.",
+      "translations": {
+        "vi": "Nhật Bản cũng có chuyện thần hồ trao báu vật cho anh hùng: \"Tawara Tōda\".",
+        "en": "Japan has a tale of a lake god giving treasure to a hero: \"Tawara Tōda.\"",
+        "zh-Hans": "日本也有湖神赐宝给英雄的故事，那就是《俵藤太》。",
+        "zh-Hant": "日本也有湖神賜寶給英雄的故事，那就是《俵藤太》。",
+        "ko": "일본에도 호수의 신이 영웅에게 보물을 주는 이야기가 있습니다. '다와라노 도타' 이야기입니다.",
+        "tl": "May kuwento rin sa Japan: \"Tawara Tōda.\"",
+        "ne": "जापानमा पनि तालका देवताले वीरलाई खजाना दिने कथा छ: \"तावारा तोउदा\"।",
+        "id": "Jepang juga punya: \"Tawara Tōda.\"",
+        "pt": "O Japão tem: \"Tawara Tōda\".",
+        "my": "ဂျပန်မှာလည်း ကန်နတ်က သူရဲကောင်းကို ရတနာ ပေးတဲ့ ပုံပြင် ရှိတယ်။ \"တဝါရ တိုးတ\"။",
+        "th": "ญี่ปุ่นก็มีเรื่องเทพทะเลสาบมอบสมบัติแก่วีรบุรุษ คือ \"ทาวาระ โทดะ\""
+      },
+      "vocab": [
+        {
+          "word": "英雄",
+          "reading": "えいゆう",
+          "meanings": {
+            "vi": "anh hùng",
+            "en": "hero",
+            "zh-Hans": "英雄",
+            "zh-Hant": "英雄",
+            "ko": "영웅",
+            "tl": "bayani",
+            "ne": "वीर",
+            "id": "pahlawan",
+            "pt": "herói",
+            "my": "သူရဲကောင်း",
+            "th": "วีรบุรุษ"
+          },
+          "level": "N1"
+        },
+        {
+          "word": "宝",
+          "reading": "たから",
+          "meanings": {
+            "vi": "báu vật",
+            "en": "treasure",
+            "zh-Hans": "宝贝",
+            "zh-Hant": "寶貝",
+            "ko": "보물",
+            "tl": "kayamanan",
+            "ne": "खजाना",
+            "id": "harta",
+            "pt": "tesouro",
+            "my": "ရတနာ",
+            "th": "สมบัติ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "英雄 = anh hùng. 宝 = báu vật.",
+        "en": "英雄 = hero. 宝 = treasure.",
+        "zh-Hans": "英雄＝英雄。",
+        "zh-Hant": "英雄＝英雄。",
+        "ko": "英雄=영웅.",
+        "tl": "bayani.",
+        "ne": "वीर।",
+        "id": "pahlawan.",
+        "pt": "herói.",
+        "my": "သူရဲကောင်း။",
+        "th": "วีรบุรุษ"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=293.03,302.167",
+      "t": [
+        293.03,
+        302.167
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "琵琶湖の竜神にたのまれて、俵藤太は、山をまくほど大きなムカデを弓でたおしました。",
+      "furigana": [
+        {
+          "surface": "琵琶湖",
+          "reading": "びわこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "竜神",
+          "reading": "りゅうじん"
+        },
+        {
+          "surface": "にたのまれて、",
+          "reading": ""
+        },
+        {
+          "surface": "俵藤太",
+          "reading": "たわらのとうた"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "をまくほど",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きなムカデを",
+          "reading": ""
+        },
+        {
+          "surface": "弓",
+          "reading": "ゆみ"
+        },
+        {
+          "surface": "でたおしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Biwako no ryuujin ni tanomarete, Tawaranotouta wa, yama o maku hodo ookina mukade o yumi de taoshimashita.",
+      "translations": {
+        "vi": "Được Long thần hồ Biwa nhờ, Tawara Tōda dùng cung bắn chết con rết khổng lồ to đến mức quấn quanh cả ngọn núi.",
+        "en": "Asked by the dragon god of Lake Biwa, Tōda shot a centipede big enough to coil around a mountain.",
+        "zh-Hans": "受琵琶湖龙神之托，俵藤太用弓射死了大得能缠住一座山的蜈蚣。",
+        "zh-Hant": "受琵琶湖龍神之託，俵藤太用弓射死了大得能纏住一座山的蜈蚣。",
+        "ko": "비와호의 용신에게 부탁받아 도타는 산을 휘감을 만큼 큰 지네를 활로 쓰러뜨렸습니다.",
+        "tl": "Pinana niya ang alupihang kayang pumulupot sa bundok.",
+        "ne": "बिवा तालका नागदेवताको अनुरोधमा उनले पहाड बेर्ने ठूलो खजुरो मारे।",
+        "id": "Atas permintaan dewa naga Danau Biwa, ia memanah lipan raksasa.",
+        "pt": "A pedido do deus-dragão do Lago Biwa, flechou uma centopeia gigante.",
+        "my": "ဘီဝကန် နဂါးနတ် တောင်းဆိုလို့ တောင်ကို ပတ်နိုင်တဲ့ ကင်းခြေများကြီးကို လေးနဲ့ ပစ်သတ်တယ်။",
+        "th": "ตามคำขอของเทพมังกรทะเลสาบบิวะ เขายิงตะขาบยักษ์ที่พันรอบภูเขาได้"
+      },
+      "vocab": [
+        {
+          "word": "弓",
+          "reading": "ゆみ",
+          "meanings": {
+            "vi": "cây cung",
+            "en": "bow (weapon)",
+            "zh-Hans": "弓",
+            "zh-Hant": "弓",
+            "ko": "활",
+            "tl": "pana",
+            "ne": "धनु",
+            "id": "busur",
+            "pt": "arco",
+            "my": "လေး",
+            "th": "ธนู"
+          },
+          "level": "N1"
+        },
+        {
+          "word": "まく",
+          "reading": "まく",
+          "meanings": {
+            "vi": "quấn, cuộn quanh",
+            "en": "coil around",
+            "zh-Hans": "缠绕",
+            "zh-Hant": "纏繞",
+            "ko": "감다",
+            "tl": "pumulupot",
+            "ne": "बेर्नु",
+            "id": "melilit",
+            "pt": "enrolar",
+            "my": "ပတ်",
+            "th": "พัน"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜にたのまれる」: được ~ nhờ. 「〜ほど」: đến mức ~. ムカデ = con rết.",
+        "en": "「〜にたのまれる」 = be asked by ~. 「〜ほど」 = so ~ that. ムカデ = centipede.",
+        "zh-Hans": "「〜ほど」＝到……程度。ムカデ＝蜈蚣。",
+        "zh-Hant": "「〜ほど」＝到……程度。ムカデ＝蜈蚣。",
+        "ko": "「〜ほど」=~만큼.",
+        "tl": "alupihan.",
+        "ne": "खजुरो।",
+        "id": "lipan.",
+        "pt": "centopeia.",
+        "my": "ကင်းခြေများ။",
+        "th": "ตะขาบ"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=302.767,309.971",
+      "t": [
+        302.767,
+        309.971
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのお礼に、竜神は、いくら使ってもなくならない米の俵などをくれました。",
+      "furigana": [
+        {
+          "surface": "そのお",
+          "reading": ""
+        },
+        {
+          "surface": "礼",
+          "reading": "れい"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "竜神",
+          "reading": "りゅうじん"
+        },
+        {
+          "surface": "は、いくら",
+          "reading": ""
+        },
+        {
+          "surface": "使",
+          "reading": "つか"
+        },
+        {
+          "surface": "ってもなくならない",
+          "reading": ""
+        },
+        {
+          "surface": "米",
+          "reading": "こめ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "俵",
+          "reading": "たわら"
+        },
+        {
+          "surface": "などをくれました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono orei ni, ryuujin wa, ikura tsukatte mo nakunaranai kome no tawara nado o kuremashita.",
+      "translations": {
+        "vi": "Để tạ ơn, Long thần tặng nhiều thứ, như bao gạo dùng mãi không hết.",
+        "en": "In thanks, the dragon god gave gifts such as a bale of rice that never ran out.",
+        "zh-Hans": "作为谢礼，龙神送了怎么用都用不完的米袋等宝物。",
+        "zh-Hant": "作為謝禮，龍神送了怎麼用都用不完的米袋等寶物。",
+        "ko": "그 답례로 용신은 아무리 써도 줄지 않는 쌀가마니 등을 주었습니다.",
+        "tl": "Bilang pasasalamat, binigyan siya ng sako ng bigas na hindi nauubos.",
+        "ne": "धन्यवादस्वरूप कहिल्यै नसकिने चामलको बोरा दिए।",
+        "id": "Sebagai terima kasih, ia diberi karung beras yang tak pernah habis.",
+        "pt": "Em agradecimento, ganhou um saco de arroz inesgotável.",
+        "my": "ကျေးဇူးတင်လို့ ဘယ်လောက်သုံးသုံး မကုန်တဲ့ ဆန်အိတ် ပေးတယ်။",
+        "th": "เทพมังกรตอบแทนด้วยกระสอบข้าวที่ใช้ไม่มีวันหมด"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「いくら〜ても」: dù ~ bao nhiêu. 俵 = bao (rơm đựng gạo). 「〜など」: v.v.",
+        "en": "「いくら〜ても」 = no matter how much ~. 俵 = straw bale.",
+        "zh-Hans": "「いくら〜ても」＝无论怎么……。",
+        "zh-Hant": "「いくら〜ても」＝無論怎麼……。",
+        "ko": "아무리 ~해도.",
+        "tl": "kahit gaano.",
+        "ne": "जति ~ पनि।",
+        "id": "berapa pun ~.",
+        "pt": "por mais que ~.",
+        "my": "ဘယ်လောက်~~။",
+        "th": "ไม่ว่าจะ ~ เท่าไร"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=310.571,317.127",
+      "t": [
+        310.571,
+        317.127
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "二つの話の湖の神さまは、どちらも、困っている人に力を貸してくれました。",
+      "furigana": [
+        {
+          "surface": "二",
+          "reading": "ふた"
+        },
+        {
+          "surface": "つの",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "神",
+          "reading": "かみ"
+        },
+        {
+          "surface": "さまは、どちらも、",
+          "reading": ""
+        },
+        {
+          "surface": "困",
+          "reading": "こま"
+        },
+        {
+          "surface": "っている",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "力",
+          "reading": "ちから"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "貸",
+          "reading": "か"
+        },
+        {
+          "surface": "してくれました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Futatsu no hanashi no mizuumi no kamisama wa, dochira mo, komatteiru hito ni chikara o kashitekuremashita.",
+      "translations": {
+        "vi": "Thần hồ trong cả hai chuyện đều cho người đang khốn khó mượn sức mạnh.",
+        "en": "In both tales, the lake gods lent their power to people in need.",
+        "zh-Hans": "两个故事里的湖神，都把力量借给了有困难的人。",
+        "zh-Hant": "兩個故事裡的湖神，都把力量借給了有困難的人。",
+        "ko": "두 이야기의 호수 신은 모두 어려운 사람에게 힘을 빌려주었습니다.",
+        "tl": "Sa dalawang kuwento, nagpahiram ng lakas ang diyos ng lawa.",
+        "ne": "दुवै कथामा तालका देवताले दुःखीलाई बल सापटी दिए।",
+        "id": "Di kedua kisah, dewa danau meminjamkan kekuatan.",
+        "pt": "Nas duas histórias, os deuses emprestaram força.",
+        "my": "ပုံပြင်နှစ်ခုလုံးမှာ ကန်နတ်က ဒုက္ခရောက်သူကို အားငှားတယ်။",
+        "th": "ทั้งสองเรื่อง เทพทะเลสาบให้ยืมพลังแก่ผู้เดือดร้อน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「どちらも」: cả hai đều. 力を貸す = cho mượn sức.",
+        "en": "「どちらも」 = both. 力を貸す = lend strength.",
+        "zh-Hans": "「どちらも」＝两者都。",
+        "zh-Hant": "「どちらも」＝兩者都。",
+        "ko": "둘 다.",
+        "tl": "pareho.",
+        "ne": "दुवै।",
+        "id": "keduanya.",
+        "pt": "ambos.",
+        "my": "နှစ်ခုလုံး။",
+        "th": "ทั้งสอง"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=317.727,324.882",
+      "t": [
+        317.727,
+        324.882
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ちがうのは、レ・ロイが、借りた力をきちんと返したことです。",
+      "furigana": [
+        {
+          "surface": "ちがうのは、レ・ロイが、",
+          "reading": ""
+        },
+        {
+          "surface": "借",
+          "reading": "か"
+        },
+        {
+          "surface": "りた",
+          "reading": ""
+        },
+        {
+          "surface": "力",
+          "reading": "ちから"
+        },
+        {
+          "surface": "をきちんと",
+          "reading": ""
+        },
+        {
+          "surface": "返",
+          "reading": "かえ"
+        },
+        {
+          "surface": "したことです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Chigau no wa, Re Roi ga, karita chikara o kichinto kaeshita koto desu.",
+      "translations": {
+        "vi": "Điểm khác là Lê Lợi đã trả lại đàng hoàng sức mạnh mình mượn.",
+        "en": "The difference is that Lê Lợi properly returned the power he borrowed.",
+        "zh-Hans": "不同的是，黎利好好地归还了借来的力量。",
+        "zh-Hant": "不同的是，黎利好好地歸還了借來的力量。",
+        "ko": "다른 점은 레 로이가 빌린 힘을 제대로 돌려주었다는 것입니다.",
+        "tl": "Ang kaibahan: ibinalik ni Lê Lợi ang hiniram.",
+        "ne": "फरक यत्ति, ले लोईले सापटी लिएको बल राम्ररी फर्काए।",
+        "id": "Bedanya, Lê Lợi mengembalikan yang dipinjam.",
+        "pt": "A diferença: Lê Lợi devolveu o que pegou.",
+        "my": "ကွာတာက လေလွိုင်က ငှားထားတဲ့ အားကို သေချာ ပြန်အပ်တာ။",
+        "th": "ที่ต่างคือเล เหล่ยคืนพลังที่ยืมมาอย่างเรียบร้อย"
+      },
+      "vocab": [
+        {
+          "word": "きちんと",
+          "reading": "きちんと",
+          "meanings": {
+            "vi": "ngay ngắn, đầy đủ",
+            "en": "neatly, properly",
+            "zh-Hans": "整整齐齐，好好地",
+            "zh-Hant": "整整齊齊，好好地",
+            "ko": "제대로, 깔끔히",
+            "tl": "maayos",
+            "ne": "राम्ररी",
+            "id": "dengan rapi, utuh",
+            "pt": "direitinho, em ordem",
+            "my": "သေသေသပ်သပ်",
+            "th": "อย่างเรียบร้อย"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「ちがうのは、〜ことです」: điểm khác là ~. 借りる = mượn. きちんと = đàng hoàng.",
+        "en": "「ちがうのは、〜ことです」 = the difference is that ~. 借りる = borrow.",
+        "zh-Hans": "「ちがうのは〜」＝不同的是……。",
+        "zh-Hant": "「ちがうのは〜」＝不同的是……。",
+        "ko": "다른 점은 ~.",
+        "tl": "ang kaibahan ay ~.",
+        "ne": "फरक ~।",
+        "id": "bedanya ~.",
+        "pt": "a diferença é ~.",
+        "my": "ကွာတာက ~။",
+        "th": "ที่ต่างคือ ~"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=325.482,330.463",
+      "t": [
+        325.482,
+        330.463
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "強い力は、使い終わったら返す。ホアンキエム湖の静かな水は、今もそのことを教えてくれます。",
+      "furigana": [
+        {
+          "surface": "強",
+          "reading": "つよ"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "力",
+          "reading": "ちから"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "使",
+          "reading": "つか"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "終",
+          "reading": "お"
+        },
+        {
+          "surface": "わったら",
+          "reading": ""
+        },
+        {
+          "surface": "返",
+          "reading": "かえ"
+        },
+        {
+          "surface": "す。ホアンキエム",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "こ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "静",
+          "reading": "しず"
+        },
+        {
+          "surface": "かな",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "今",
+          "reading": "いま"
+        },
+        {
+          "surface": "もそのことを",
+          "reading": ""
+        },
+        {
+          "surface": "教",
+          "reading": "おし"
+        },
+        {
+          "surface": "えてくれます。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tsuyoi chikara wa, tsukaiowattara kaesu. Hoankiemu Ko no shizuka na mizu wa, ima mo sono koto o oshietekuremasu.",
+      "translations": {
+        "vi": "Sức mạnh lớn, dùng xong thì trả. Mặt hồ Hoàn Kiếm lặng lẽ đến nay vẫn dạy ta điều đó.",
+        "en": "Great power: return it when you're done. Hoàn Kiếm's calm water still teaches us this.",
+        "zh-Hans": "强大的力量，用完了就要归还。还剑湖平静的湖水至今仍在告诉我们这一点。",
+        "zh-Hant": "強大的力量，用完了就要歸還。還劍湖平靜的湖水至今仍在告訴我們這一點。",
+        "ko": "강한 힘은 다 쓰면 돌려준다. 호안끼엠 호수의 고요한 물은 지금도 그것을 가르쳐 줍니다.",
+        "tl": "Ibalik ang malaking lakas pag tapos na. Itinuturo pa rin ito ng lawa.",
+        "ne": "ठूलो बल प्रयोग सकेपछि फर्काउनु। तालको शान्त पानीले अझै सिकाउँछ।",
+        "id": "Kekuatan besar dikembalikan setelah dipakai. Danau itu masih mengajarkannya.",
+        "pt": "Grande poder: devolva-o ao terminar. O lago ainda ensina.",
+        "my": "အားကြီးတဲ့ စွမ်းအားကို သုံးပြီးရင် ပြန်အပ်။ ကန်ရေက အခုထိ သင်ပေးတယ်။",
+        "th": "พลังยิ่งใหญ่ ใช้เสร็จแล้วก็คืน น้ำทะเลสาบยังสอนเราเช่นนั้น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「使い終わる」: dùng xong. 「〜たら」: khi ~ xong thì.",
+        "en": "「使い終わる」 = finish using.",
+        "zh-Hans": "「使い終わる」＝用完。",
+        "zh-Hant": "「使い終わる」＝用完。",
+        "ko": "다 쓰다.",
+        "tl": "matapos gamitin.",
+        "ne": "प्रयोग सक्नु।",
+        "id": "selesai memakai.",
+        "pt": "terminar de usar.",
+        "my": "သုံးပြီး။",
+        "th": "ใช้เสร็จ"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=331.063,339.681",
+      "t": [
+        331.063,
+        339.681
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ハノイへ行ったら、湖のほとりで、金色の亀をさがしてみてください。",
+      "furigana": [
+        {
+          "surface": "ハノイへ",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "ったら、",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "surface": "のほとりで、",
+          "reading": ""
+        },
+        {
+          "surface": "金色",
+          "reading": "きんいろ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "亀",
+          "reading": "かめ"
+        },
+        {
+          "surface": "をさがしてみてください。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hanoi e ittara, mizuumi no hotori de, kin'iro no kame o sagashitemitekudasai.",
+      "translations": {
+        "vi": "Nếu có dịp đến Hà Nội, hãy thử tìm chú rùa vàng bên bờ hồ nhé.",
+        "en": "If you go to Hanoi, try looking for the golden turtle by the lake.",
+        "zh-Hans": "如果去河内，请在湖边找找金龟吧。",
+        "zh-Hant": "如果去河內，請在湖邊找找金龜吧。",
+        "ko": "하노이에 가면 호숫가에서 금빛 거북을 찾아보세요.",
+        "tl": "Kung pupunta sa Hanoi, hanapin ang gintong pagong.",
+        "ne": "हनोई गए तालको किनारमा सुनौलो कछुवा खोज्नुहोस्।",
+        "id": "Kalau ke Hanoi, cari kura-kura emas di tepi danau.",
+        "pt": "Se for a Hanói, procure a tartaruga dourada.",
+        "my": "ဟနွိုင်း ရောက်ရင် ကန်ဘေးမှာ ရွှေလိပ်ကို ရှာကြည့်ပါ။",
+        "th": "ถ้าไปฮานอย ลองหาเต่าทองริมทะเลสาบดูนะ"
+      },
+      "vocab": [
+        {
+          "word": "ほとり",
+          "reading": "ほとり",
+          "meanings": {
+            "vi": "bờ (hồ, sông)",
+            "en": "shore, bank",
+            "zh-Hans": "岸边",
+            "zh-Hant": "岸邊",
+            "ko": "물가",
+            "tl": "pampang",
+            "ne": "किनार",
+            "id": "tepi",
+            "pt": "margem",
+            "my": "ကမ်း",
+            "th": "ริมฝั่ง"
+          },
+          "level": "N1"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜たら」: khi ~. 「〜てみてください」: hãy thử ~. ほとり = bờ.",
+        "en": "「〜てみてください」 = please try ~. ほとり = shore.",
+        "zh-Hans": "「〜てみてください」＝请试试……。",
+        "zh-Hant": "「〜てみてください」＝請試試……。",
+        "ko": "~해 보세요.",
+        "tl": "subukan ~.",
+        "ne": "~ हेर्नुहोस्।",
+        "id": "cobalah ~.",
+        "pt": "experimente ~.",
+        "my": "~ကြည့်ပါ။",
+        "th": "ลอง ~ ดู"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=340.281,345.827",
+      "t": [
+        340.281,
+        345.827
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "これで「剣を返した湖」のお話は、おしまいです。",
+      "furigana": [
+        {
+          "surface": "これで「",
+          "reading": ""
+        },
+        {
+          "surface": "剣",
+          "reading": "けん"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "返",
+          "reading": "かえ"
+        },
+        {
+          "surface": "した",
+          "reading": ""
+        },
+        {
+          "surface": "湖",
+          "reading": "みずうみ"
+        },
+        {
+          "surface": "」のお",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "は、おしまいです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kore de “Ken o kaeshita mizuumi” no ohanashi wa, oshimai desu.",
+      "translations": {
+        "vi": "Câu chuyện \"Hồ trả gươm\" đến đây là hết.",
+        "en": "This is the end of \"The Lake That Returned the Sword.\"",
+        "zh-Hans": "《还剑湖》的故事到此结束。",
+        "zh-Hant": "《還劍湖》的故事到此結束。",
+        "ko": "이것으로 '검을 돌려준 호수' 이야기는 끝입니다.",
+        "tl": "Dito nagtatapos ang kuwento.",
+        "ne": "कथा यहीँ सकियो।",
+        "id": "Sekian kisahnya.",
+        "pt": "Fim da história.",
+        "my": "ပုံပြင် ဒီမှာ ပြီးပါပြီ။",
+        "th": "เรื่องนี้จบเพียงเท่านี้"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "おしまい = hết.",
+        "en": "おしまい = the end.",
+        "zh-Hans": "おしまい＝结束。",
+        "zh-Hant": "おしまい＝結束。",
+        "ko": "おしまい=끝.",
+        "tl": "wakas.",
+        "ne": "अन्त्य।",
+        "id": "tamat.",
+        "pt": "fim.",
+        "my": "ပြီး။",
+        "th": "จบ"
+      },
+      "audio": "/audio/furusato-vn-hoguom-1/chapter.mp3#t=346.427,350.734",
+      "t": [
+        346.427,
+        350.734
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    }
+  ],
+  "audioTrack": {
+    "src": "/audio/furusato-vn-hoguom-1/chapter.mp3",
+    "durationSec": 351.792
+  }
+}
