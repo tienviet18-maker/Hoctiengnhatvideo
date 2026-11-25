@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLang } from "../../components/LangProvider";
 import Paywall from "../../components/Paywall";
@@ -39,6 +40,20 @@ export default function BooksPage() {
           {ui.tabs.books}
         </h1>
       </header>
+
+      <Link
+        href="/drive"
+        className="card"
+        style={{ display: "flex", gap: 12, alignItems: "center", marginTop: 16, textDecoration: "none", background: "var(--navy)", borderColor: "var(--navy)" }}
+      >
+        <span aria-hidden style={{ width: 44, height: 44, borderRadius: "50%", flexShrink: 0, background: "#fff", color: "var(--navy)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z" /></svg>
+        </span>
+        <span style={{ minWidth: 0, flex: 1 }}>
+          <span style={{ display: "block", fontSize: 15, fontWeight: 700, color: "#fff" }}>{ui.drive.title}</span>
+          <span style={{ display: "block", fontSize: 12, color: "#c9d8ee", marginTop: 2, lineHeight: 1.4 }}>{ui.drive.hint}</span>
+        </span>
+      </Link>
 
       <div style={{ display: "flex", gap: 8, marginTop: 16, overflowX: "auto", paddingBottom: 2 }}>
         {LEVELS.map((l) => (

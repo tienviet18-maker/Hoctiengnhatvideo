@@ -267,7 +267,7 @@ export default function WatchClient({
   if (locked) {
     return (
       <div style={{ background: "var(--stage)", minHeight: "100dvh", color: "#fff", padding: 20 }}>
-        <Link href="/" style={{ color: "#fff", textDecoration: "none", fontSize: 20 }}>←</Link>
+        <Link href="/video" style={{ color: "#fff", textDecoration: "none", fontSize: 20 }}>←</Link>
         <div style={{ marginTop: 40 }}>
           <span className="lock-badge">VIP</span>
           <h1 style={{ fontSize: 19, fontWeight: 700, marginTop: 12, lineHeight: 1.45 }}>
@@ -285,7 +285,7 @@ export default function WatchClient({
   return (
     <div className="on-dark" style={{ background: "var(--stage)", minHeight: "100dvh", color: "var(--text)", display: "flex", flexDirection: "column" }}>
       <div style={{ display: "flex", alignItems: "center", gap: 12, padding: "14px 16px 8px", color: "#F1F5F9" }}>
-        <Link href="/" style={{ color: "#F1F5F9", textDecoration: "none", fontSize: 20, lineHeight: 1 }}>←</Link>
+        <Link href="/video" style={{ color: "#F1F5F9", textDecoration: "none", fontSize: 20, lineHeight: 1 }}>←</Link>
         <span style={{ fontSize: 14, fontWeight: 600, flex: 1, minWidth: 0, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
           {video ? pickText(video.titles, lang) : youtubeId}
         </span>
