@@ -5,7 +5,7 @@
 - **Số đo cấp độ** (kuromoji + danh sách JLPT): 1450 ký tự, 48 câu, câu TB 30.2 ký tự,
   từ vượt cấp 9.1%, từ đạt cấp 27.7%.
 - **Từ vựng**: 34 từ, cấp lấy đúng theo danh sách JLPT, chỉ chọn từ đúng cấp bài hoặc khó hơn.
-- **Audio**: một file liền `public/audio/rakugo-meguro-no-sanma/chapter.mp3`, 5.3 phút (mono 64 kbps; nghỉ 0,6 giây giữa câu,
+- **Audio**: một file liền `public/audio/rakugo-meguro-no-sanma/chapter.mp3`, 5.2 phút (mono 64 kbps; nghỉ 0,6 giây giữa câu,
   0,9 giây khi đổi người nói). Google Cloud TTS, tốc độ ghi theo từng vai, chuẩn hoá âm lượng -18 LUFS. Mỗi nhân vật giữ một giọng:
 
 | Mã | Vai | Giọng | Số câu |

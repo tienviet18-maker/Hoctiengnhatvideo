@@ -95,7 +95,7 @@ function mergeKana(segs) {
 function analyse(raw) {
   const chunks = [];
   const re = /\{([^|}]+)\|([^}]+)\}/g;
-  let last = 0, m, text = "";
+  let last = 0, m, text = "", say = ""; // say: câu đưa cho TTS, phần {漢字|よみ} thay bằng cách đọc đã ép
   while ((m = re.exec(raw))) {
     if (m.index > last) chunks.push({ text: raw.slice(last, m.index) });
     chunks.push({ text: m[1], reading: m[2] });
@@ -111,6 +111,7 @@ function analyse(raw) {
       tokens.push({ surface: c.text, reading: c.reading, pos: "名詞", pos_detail_1: "固有名詞", basic: c.text, forced: true });
       continue;
     }
+    say += c.text;
     for (const t of tokenizer.tokenize(c.text)) {
       const reading = t.reading && t.reading !== "*" ? t.reading : KANJI.test(t.surface_form) ? "" : t.surface_form;
       if (KANJI.test(t.surface_form) && !reading) errors.push(`không có cách đọc cho "${t.surface_form}" trong: ${raw} → thêm {よみ}`);
@@ -118,9 +119,11 @@ function analyse(raw) {
       tokens.push({ surface: t.surface_form, reading, pos: t.pos, pos_detail_1: t.pos_detail_1, basic: t.basic_form !== "*" ? t.basic_form : t.surface_form, conj: t.conjugated_type });
     }
   }
-  return { ja: text, furigana: mergeKana(furigana), tokens };
+  return { ja: text, say, furigana: mergeKana(furigana), tokens };
 }
 
+// meta.names: chữ ép đọc {…|…} là tên riêng → viết hoa trong romaji (Kumagorō, Jugemu).
+const NAMES = new Set(meta.names ?? []);
 function romajiOf(tokens) {
   // Gom token thành "từ" (động từ + trợ động từ + て… dính liền), rồi mới chuyển kana → romaji,
   // để っ ở cuối token (かかっ|た) vẫn nhân đôi phụ âm đúng.
@@ -146,7 +149,7 @@ function romajiOf(tokens) {
       );
       const orphan = /^[ゃゅょャュョぁぃぅぇぉ]/.test(kana ?? "");
       if ((glue || orphan) && words.length && !words[words.length - 1].punct) words[words.length - 1].kana += kana;
-      else words.push({ kana, proper: !t.forced && t.pos_detail_1 === "固有名詞" && KANJI.test(run) });
+      else words.push({ kana, proper: t.forced ? NAMES.has(t.surface) : t.pos_detail_1 === "固有名詞" && KANJI.test(run) });
       prev = t;
     }
   }
@@ -271,10 +274,35 @@ async function tts(text, v) {
       body: JSON.stringify(body),
     });
     if (r.ok) return Buffer.from((await r.json()).audioContent, "base64");
-    if (r.status < 500 && r.status !== 429) throw new Error(`TTS ${r.status}`);
+    if (r.status < 500 && r.status !== 429) throw new Error(`TTS ${r.status}: ${(await r.text()).slice(0, 300)} — câu: ${text.slice(0, 40)}`);
     await new Promise((res) => setTimeout(res, 2000 * (a + 1)));
   }
   throw new Error("TTS lỗi sau 4 lần thử");
+}
+// Câu quá dài (tên Jugemu…) Google TTS từ chối: cắt ở dấu 、 thành đoạn ≤ 60 ký tự, đọc từng đoạn rồi nối, nghỉ 0,12 giây.
+async function ttsLong(text, v, h) {
+  if (text.length <= 60) return tts(text, v);
+  const chunks = [];
+  for (const piece of text.split(/(?<=、)/)) {
+    if (chunks.length && (chunks[chunks.length - 1] + piece).length <= 60) chunks[chunks.length - 1] += piece;
+    else chunks.push(piece);
+  }
+  const files = [];
+  for (const [k, c] of chunks.entries()) {
+    const f = join(CACHE, `${h}.part${k}.wav`);
+    writeFileSync(f, await tts(c, v));
+    if (k) files.push(join(CACHE, "silence-0.12.wav"));
+    files.push(f);
+  }
+  const gap = join(CACHE, "silence-0.12.wav");
+  if (!existsSync(gap)) execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "0.12", "-c:a", "pcm_s16le", gap]);
+  const list = join(CACHE, `${h}.parts.txt`);
+  writeFileSync(list, files.map((f) => `file '${f}'`).join("\n") + "\n");
+  const out = join(CACHE, `${h}.joined.wav`);
+  execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", list, "-ar", "24000", "-ac", "1", "-c:a", "pcm_s16le", out]);
+  const buf = readFileSync(out);
+  for (const f of [...files.filter((f) => f !== gap), list, out]) execFileSync("rm", ["-f", f]);
+  return buf;
 }
 // Đọc cho tai: bỏ ngoặc kép (TTS đôi khi ngắt lạ), giữ nguyên chữ.
 const spoken = (ja) => ja.replace(/[「」『』]/g, "");
@@ -291,11 +319,11 @@ if (!NO_AUDIO && !errors.length) {
     for (let job = queue.shift(); job; job = queue.shift()) {
       const { s, i } = job;
       const v = meta.voices[s.speaker].voice;
-      const h = createHash("sha1").update("v3|" + v + "|" + spoken(s.ja)).digest("hex").slice(0, 16);
+      const h = createHash("sha1").update("v3|" + v + "|" + spoken(s.say)).digest("hex").slice(0, 16);
       const norm = join(CACHE, h + ".wav");
       if (!existsSync(norm)) {
         const raw = join(CACHE, h + ".raw.wav");
-        writeFileSync(raw, await tts(spoken(s.ja), v));
+        writeFileSync(raw, await ttsLong(spoken(s.say), v, h));
         execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", raw, "-af", "loudnorm=I=-18:TP=-2:LRA=11", "-ar", "24000", "-ac", "1", "-c:a", "pcm_s16le", norm]);
         execFileSync("rm", [raw]);
       }
