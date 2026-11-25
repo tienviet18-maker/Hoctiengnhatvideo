@@ -10029,6 +10029,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-vusua-1/chapter.mp3",
    "durationSec": 336.672
   }
+ },
+ {
+  "id": "furusato-vn-babe-1",
+  "titles": {
+   "vi": "Sự tích hồ Ba Bể",
+   "en": "The Legend of Ba Be Lake",
+   "zh-Hans": "巴贝湖的传说",
+   "zh-Hant": "巴貝湖的傳說",
+   "ko": "바베 호수 이야기",
+   "tl": "Ang Alamat ng Lawa ng Ba Be",
+   "ne": "बा बे तालको कथा",
+   "id": "Legenda Danau Ba Be",
+   "pt": "A lenda do lago Ba Be",
+   "my": "ဘာဘေး ကန် ဒဏ္ဍာရီ",
+   "th": "ตำนานทะเลสาบบาเบ"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-babe-1.webp",
+  "series": {
+   "id": "furusato-vn-babe",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-babe-1/chapter.mp3",
+   "durationSec": 332.88
+  }
  }
 ];
 
