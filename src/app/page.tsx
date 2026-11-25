@@ -262,7 +262,7 @@ export default function HomePage() {
             <span className="thumb" style={{ width: 128, height: 76 }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={`https://i.ytimg.com/vi/${continueVideo.video.youtubeId}/hqdefault.jpg`} alt="" />
-              <span className="dur">{formatDuration(continueVideo.video.durationSec)}</span>
+              <span className="dur">{formatDuration(continueVideo.video.clipEnd - continueVideo.video.clipStart)}</span>
             </span>
             <span style={{ minWidth: 0, flex: 1 }}>
               <span style={{ display: "block", fontSize: 14, fontWeight: 600, lineHeight: 1.35 }}>
@@ -290,7 +290,7 @@ export default function HomePage() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`} alt="" />
             <span className="tag">{v.free ? <span className="free-badge">{ui.common.free}</span> : <span className="lock-badge">VIP</span>}</span>
-            <span className="dur">{formatDuration(v.durationSec)}</span>
+            <span className="dur">{formatDuration(v.clipEnd - v.clipStart)}</span>
           </span>
           <span style={{ minWidth: 0 }}>
             <span style={{ display: "block", fontSize: 14, fontWeight: 600, lineHeight: 1.35 }}>{pickText(v.titles, lang)}</span>

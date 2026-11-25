@@ -13,6 +13,9 @@ export interface VideoIndexItem {
   durationSec: number;
   free: boolean;
   lineCount: number;
+  /** Đoạn học (giây) trong video YouTube: trình phát mở đúng đoạn này */
+  clipStart: number;
+  clipEnd: number;
 }
 
 export interface StoryIndexItem {
@@ -37,7 +40,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 235,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 23,
+  "clipEnd": 71
  },
  {
   "id": "teppei-study-how-long",
@@ -50,7 +55,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 235,
   "free": true,
-  "lineCount": 5
+  "lineCount": 5,
+  "clipStart": 41,
+  "clipEnd": 100
  },
  {
   "id": "akane-directions",
@@ -63,7 +70,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 785,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 80,
+  "clipEnd": 177
  },
  {
   "id": "teppei-what-time",
@@ -76,7 +85,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 229,
   "free": true,
-  "lineCount": 5
+  "lineCount": 5,
+  "clipStart": 71,
+  "clipEnd": 116
  },
  {
   "id": "akane-self-intro",
@@ -89,7 +100,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 252,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 19,
+  "clipEnd": 113
  },
  {
   "id": "teppei-cold-gym",
@@ -102,7 +115,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 290,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 14,
+  "clipEnd": 73
  },
  {
   "id": "teppei-slept-well",
@@ -115,7 +130,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 301,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 8,
+  "clipEnd": 72
  },
  {
   "id": "teppei-cinema-tickets",
@@ -128,7 +145,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 404,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 19,
+  "clipEnd": 140
  },
  {
   "id": "teppei-cinema-day",
@@ -141,7 +160,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 425,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 9,
+  "clipEnd": 233
  },
  {
   "id": "teppei-dont-worry",
@@ -154,7 +175,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 241,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 37,
+  "clipEnd": 188
  },
  {
   "id": "teppei-hotel-japanese",
@@ -167,7 +190,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 320,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 28,
+  "clipEnd": 168
  },
  {
   "id": "teppei-restaurant-japanese",
@@ -180,7 +205,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 561,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 99,
+  "clipEnd": 268
  },
  {
   "id": "teppei-supermarket-japanese",
@@ -193,7 +220,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 582,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 118,
+  "clipEnd": 320
  },
  {
   "id": "teppei-no-progress-feeling",
@@ -206,7 +235,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 313,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 66,
+  "clipEnd": 267
  },
  {
   "id": "teppei-making-study-time",
@@ -219,7 +250,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 320,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 49,
+  "clipEnd": 318
  },
  {
   "id": "teppei-keeping-motivation",
@@ -232,7 +265,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 271,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 17,
+  "clipEnd": 250
  },
  {
   "id": "teppei-speaking-confidence",
@@ -245,7 +280,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 294,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 82,
+  "clipEnd": 275
  },
  {
   "id": "teppei-vocabulary-memory",
@@ -258,7 +295,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 342,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 32,
+  "clipEnd": 231
  },
  {
   "id": "teppei-listening-tests",
@@ -271,7 +310,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 276,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 52,
+  "clipEnd": 244
  },
  {
   "id": "teppei-grammar-balance",
@@ -284,7 +325,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 196,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 26,
+  "clipEnd": 186
  },
  {
   "id": "teppei-keigo-polite",
@@ -297,7 +340,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 281,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 26,
+  "clipEnd": 245
  },
  {
   "id": "teppei-pronunciation-pitch",
@@ -310,7 +355,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 379,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 66,
+  "clipEnd": 229
  },
  {
   "id": "teppei-one-method",
@@ -323,7 +370,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 240,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 18,
+  "clipEnd": 240
  },
  {
   "id": "teppei-speaking-styles",
@@ -336,7 +385,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 405,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 48,
+  "clipEnd": 198
  },
  {
   "id": "akane-cafe-order",
@@ -349,7 +400,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 657,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 327,
+  "clipEnd": 374
  },
  {
   "id": "akane-yakiniku-order",
@@ -362,7 +415,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 823,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 171,
+  "clipEnd": 212
  },
  {
   "id": "akane-hotel-checkin",
@@ -375,7 +430,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 715,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 43,
+  "clipEnd": 114
  },
  {
   "id": "akane-museum-tickets",
@@ -388,7 +445,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 924,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 72,
+  "clipEnd": 188
  },
  {
   "id": "akane-sweets-expiry",
@@ -401,7 +460,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 753,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 249,
+  "clipEnd": 314
  },
  {
   "id": "akane-interview-weakness",
@@ -414,7 +475,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 719,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 269,
+  "clipEnd": 532
  },
  {
   "id": "akane-coffee-order",
@@ -427,7 +490,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 743,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 41,
+  "clipEnd": 111
  },
  {
   "id": "akane-changing-jobs",
@@ -440,7 +505,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 621,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 87,
+  "clipEnd": 456
  },
  {
   "id": "akane-dictation-n3",
@@ -453,7 +520,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 830,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 669,
+  "clipEnd": 748
  },
  {
   "id": "akane-book-words",
@@ -466,7 +535,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 717,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 94,
+  "clipEnd": 404
  },
  {
   "id": "akane-phone-reservation",
@@ -479,7 +550,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 934,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 37,
+  "clipEnd": 78
  },
  {
   "id": "akane-bakery",
@@ -492,7 +565,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 700,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 259,
+  "clipEnd": 356
  },
  {
   "id": "akane-souvenir-shopping",
@@ -505,7 +580,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 825,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 73,
+  "clipEnd": 697
  },
  {
   "id": "akane-restaurant-lunch",
@@ -518,7 +595,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 799,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 128,
+  "clipEnd": 225
  },
  {
   "id": "akane-burger-order",
@@ -531,7 +610,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 733,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 104,
+  "clipEnd": 257
  },
  {
   "id": "akane-grammar-koshita",
@@ -544,7 +625,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 715,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 153,
+  "clipEnd": 334
  },
  {
   "id": "akane-grammar-zaru",
@@ -557,7 +640,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 715,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 398,
+  "clipEnd": 487
  },
  {
   "id": "akane-shibuya-cafe",
@@ -570,7 +655,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 691,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 125,
+  "clipEnd": 178
  },
  {
   "id": "akane-cafe-phrases",
@@ -583,7 +670,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 1190,
   "free": true,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 27,
+  "clipEnd": 171
  },
  {
   "id": "akane-grammar-shoganai",
@@ -596,7 +685,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 863,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 206,
+  "clipEnd": 329
  },
  {
   "id": "akane-grammar-tabini",
@@ -609,7 +700,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 863,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 497,
+  "clipEnd": 677
  },
  {
   "id": "akane-cafe-phrases-2",
@@ -622,7 +715,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 1190,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 186,
+  "clipEnd": 310
  },
  {
   "id": "akane-cafe-phrases-3",
@@ -635,7 +730,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 1190,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 626,
+  "clipEnd": 698
  },
  {
   "id": "akane-cafe-phrases-4",
@@ -648,7 +745,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 1190,
   "free": false,
-  "lineCount": 8
+  "lineCount": 8,
+  "clipStart": 714,
+  "clipEnd": 901
  },
  {
   "id": "akane-cafe-dictation",
@@ -661,7 +760,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 1190,
   "free": false,
-  "lineCount": 9
+  "lineCount": 9,
+  "clipStart": 1001,
+  "clipEnd": 1190
  },
  {
   "id": "akane-dictation-n2",
@@ -674,7 +775,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 830,
   "free": false,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 650,
+  "clipEnd": 731
  },
  {
   "id": "akane-hotel-room",
@@ -687,7 +790,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 715,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 333,
+  "clipEnd": 461
  },
  {
   "id": "akane-museum-tour",
@@ -700,7 +805,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 924,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 302,
+  "clipEnd": 565
  },
  {
   "id": "akane-yakiniku-grilling",
@@ -713,7 +820,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 823,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 299,
+  "clipEnd": 702
  },
  {
   "id": "akane-museum-cafe",
@@ -726,7 +835,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 924,
   "free": false,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 778,
+  "clipEnd": 817
  },
  {
   "id": "akane-cafe-visit",
@@ -739,7 +850,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 934,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 422,
+  "clipEnd": 628
  },
  {
   "id": "akane-cafe-change-order",
@@ -752,7 +865,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 934,
   "free": false,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 636,
+  "clipEnd": 702
  },
  {
   "id": "akane-coffee-brewing",
@@ -765,7 +880,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 743,
   "free": false,
-  "lineCount": 5
+  "lineCount": 5,
+  "clipStart": 411,
+  "clipEnd": 526
  },
  {
   "id": "akane-sweets-payment",
@@ -778,7 +895,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 753,
   "free": false,
-  "lineCount": 5
+  "lineCount": 5,
+  "clipStart": 380,
+  "clipEnd": 488
  },
  {
   "id": "akane-interview-questions",
@@ -791,7 +910,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 719,
   "free": false,
-  "lineCount": 6
+  "lineCount": 6,
+  "clipStart": 109,
+  "clipEnd": 246
  },
  {
   "id": "akane-job-hopping",
@@ -804,7 +925,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 621,
   "free": false,
-  "lineCount": 5
+  "lineCount": 5,
+  "clipStart": 452,
+  "clipEnd": 526
  },
  {
   "id": "akane-grammar-mettani",
@@ -817,7 +940,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 601,
   "free": false,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 73,
+  "clipEnd": 146
  },
  {
   "id": "akane-grammar-naradewa",
@@ -830,7 +955,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 601,
   "free": false,
-  "lineCount": 5
+  "lineCount": 5,
+  "clipStart": 258,
+  "clipEnd": 420
  },
  {
   "id": "akane-mistakes-i-adjectives",
@@ -843,7 +970,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 777,
   "free": false,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 33,
+  "clipEnd": 147
  },
  {
   "id": "akane-mistakes-tagaru",
@@ -856,7 +985,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 777,
   "free": false,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 477,
+  "clipEnd": 520
  },
  {
   "id": "akane-mistakes-oishisou",
@@ -869,7 +1000,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 777,
   "free": false,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 605,
+  "clipEnd": 713
  },
  {
   "id": "akane-mistakes-time-words",
@@ -882,7 +1015,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 777,
   "free": true,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 150,
+  "clipEnd": 201
  },
  {
   "id": "akane-mistakes-tabenai",
@@ -895,7 +1030,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 777,
   "free": false,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 519,
+  "clipEnd": 609
  },
  {
   "id": "akane-vocab-read-aloud",
@@ -908,7 +1045,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 736,
   "free": false,
-  "lineCount": 2
+  "lineCount": 2,
+  "clipStart": 83,
+  "clipEnd": 118
  },
  {
   "id": "akane-vocab-diary",
@@ -921,7 +1060,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 736,
   "free": false,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 136,
+  "clipEnd": 602
  },
  {
   "id": "akane-vocab-name-things",
@@ -934,7 +1075,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 736,
   "free": false,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 600,
+  "clipEnd": 662
  },
  {
   "id": "akane-goals-concrete",
@@ -947,7 +1090,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 670,
   "free": false,
-  "lineCount": 5
+  "lineCount": 5,
+  "clipStart": 34,
+  "clipEnd": 212
  },
  {
   "id": "akane-goals-keep-going",
@@ -960,7 +1105,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 670,
   "free": false,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 461,
+  "clipEnd": 558
  },
  {
   "id": "akane-cafe-diary-order",
@@ -973,7 +1120,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 749,
   "free": true,
-  "lineCount": 8
+  "lineCount": 8,
+  "clipStart": 42,
+  "clipEnd": 91
  },
  {
   "id": "akane-diary-job-stories",
@@ -986,7 +1135,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 749,
   "free": false,
-  "lineCount": 2
+  "lineCount": 2,
+  "clipStart": 221,
+  "clipEnd": 245
  },
  {
   "id": "yuta-morning-alarm",
@@ -999,7 +1150,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 402,
   "free": true,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 37,
+  "clipEnd": 131
  },
  {
   "id": "yuta-morning-breakfast",
@@ -1012,7 +1165,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 402,
   "free": true,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 130,
+  "clipEnd": 243
  },
  {
   "id": "yuta-morning-teeth-face",
@@ -1025,7 +1180,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 402,
   "free": true,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 241,
+  "clipEnd": 304
  },
  {
   "id": "yuta-morning-get-dressed",
@@ -1038,7 +1195,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 402,
   "free": true,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 307,
+  "clipEnd": 381
  },
  {
   "id": "yuta-konbini-night",
@@ -1051,7 +1210,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 415,
   "free": true,
-  "lineCount": 5
+  "lineCount": 5,
+  "clipStart": 2,
+  "clipEnd": 139
  },
  {
   "id": "yuta-konbini-24h",
@@ -1064,7 +1225,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 415,
   "free": true,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 249,
+  "clipEnd": 306
  },
  {
   "id": "yuta-weather-sun-rain",
@@ -1077,7 +1240,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 559,
   "free": true,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 33,
+  "clipEnd": 219
  },
  {
   "id": "yuta-weather-snow-thunder",
@@ -1090,7 +1255,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 559,
   "free": true,
-  "lineCount": 4
+  "lineCount": 4,
+  "clipStart": 330,
+  "clipEnd": 518
  },
  {
   "id": "yuta-clothes-wearing",
@@ -1103,7 +1270,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 490,
   "free": true,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 15,
+  "clipEnd": 123
  },
  {
   "id": "yuta-clothes-buying",
@@ -1116,7 +1285,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 490,
   "free": true,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 293,
+  "clipEnd": 403
  },
  {
   "id": "yuta-books-reading",
@@ -1129,7 +1300,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 427,
   "free": true,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 18,
+  "clipEnd": 128
  },
  {
   "id": "yuta-books-library",
@@ -1142,7 +1315,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 427,
   "free": true,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 186,
+  "clipEnd": 394
  },
  {
   "id": "yuta-cup-water",
@@ -1155,7 +1330,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 357,
   "free": true,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 16,
+  "clipEnd": 117
  },
  {
   "id": "yuta-cup-washing",
@@ -1168,7 +1345,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 357,
   "free": true,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 227,
+  "clipEnd": 322
  },
  {
   "id": "yuta-outside-river",
@@ -1181,7 +1360,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 421,
   "free": true,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 32,
+  "clipEnd": 126
  },
  {
   "id": "yuta-outside-actions",
@@ -1194,7 +1375,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 421,
   "free": true,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 126,
+  "clipEnd": 357
  },
  {
   "id": "yuta-kore-are",
@@ -1207,7 +1390,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 470,
   "free": true,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 17,
+  "clipEnd": 185
  },
  {
   "id": "yuta-kocchi-mukou",
@@ -1220,7 +1405,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 470,
   "free": true,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 250,
+  "clipEnd": 410
  },
  {
   "id": "yuta-bicycle-ride",
@@ -1233,7 +1420,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 481,
   "free": true,
-  "lineCount": 2
+  "lineCount": 2,
+  "clipStart": 24,
+  "clipEnd": 168
  },
  {
   "id": "yuta-bicycle-parts",
@@ -1246,7 +1435,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 481,
   "free": true,
-  "lineCount": 3
+  "lineCount": 3,
+  "clipStart": 172,
+  "clipEnd": 399
  },
  {
   "id": "yuta-feelings-happy-sad",
@@ -1259,7 +1450,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 402,
   "free": true,
-  "lineCount": 2
+  "lineCount": 2,
+  "clipStart": 55,
+  "clipEnd": 200
  },
  {
   "id": "yuta-feelings-excited-scared",
@@ -1272,7 +1465,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "podcast",
   "durationSec": 402,
   "free": true,
-  "lineCount": 2
+  "lineCount": 2,
+  "clipStart": 215,
+  "clipEnd": 355
  },
  {
   "id": "akane-failure-challenge",
@@ -1285,7 +1480,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 689,
   "free": false,
-  "lineCount": 2
+  "lineCount": 2,
+  "clipStart": 196,
+  "clipEnd": 299
  },
  {
   "id": "akane-failure-lesson",
@@ -1298,7 +1495,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "conversation",
   "durationSec": 689,
   "free": false,
-  "lineCount": 2
+  "lineCount": 2,
+  "clipStart": 312,
+  "clipEnd": 445
  }
 ];
 

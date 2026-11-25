@@ -48,6 +48,9 @@ const videos = videoIds.map((id) => {
     id: v.id, youtubeId: v.youtubeId, titles: v.titles, level: v.level,
     category: v.category, durationSec: v.durationSec, free: v.free,
     lineCount: v.lines.length,
+    // Đoạn học trong video (cùng công thức với src/lib/clip.ts)
+    clipStart: v.lines.length ? Math.max(0, Math.floor(v.lines[0].start - 2)) : 0,
+    clipEnd: v.lines.length ? Math.min(v.durationSec, Math.ceil(v.lines[v.lines.length - 1].end + 1.5)) : v.durationSec,
   };
 });
 
@@ -74,6 +77,9 @@ export interface VideoIndexItem {
   durationSec: number;
   free: boolean;
   lineCount: number;
+  /** Đoạn học (giây) trong video YouTube: trình phát mở đúng đoạn này */
+  clipStart: number;
+  clipEnd: number;
 }
 
 export interface StoryIndexItem {
