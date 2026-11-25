@@ -64,6 +64,28 @@ function checkPack(d) {
     if (out(m.avgSentence, r.avgSentence)) p.push(`câu trung bình ${m.avgSentence.toFixed(1)} ký tự (chuẩn ${r.avgSentence[0]}–${r.avgSentence[1]})`);
     if (r.harderMax !== undefined && m.harder > r.harderMax) p.push(`quá khó: ${(m.harder * 100).toFixed(0)}% từ vượt cấp (tối đa ${r.harderMax * 100}%)`);
     if (r.atLevelMin !== undefined && m.atLevel < r.atLevelMin) p.push(`quá dễ: ${(m.atLevel * 100).toFixed(0)}% từ đạt cấp (tối thiểu ${r.atLevelMin * 100}%)`);
+    const tr = d.audioTrack;
+    if (!tr?.src || !existsSync(join(root, "public", tr.src))) p.push("chưa có audio liền cho chương (audioTrack, public/audio/…)");
+    else {
+      let bad = 0, prev = 0;
+      for (const s of items) {
+        const t = s.t;
+        if (!Array.isArray(t) || !(t[0] >= prev - 0.05) || !(t[1] > t[0]) || t[1] > tr.durationSec + 0.5 || s.audio !== `${tr.src}#t=${t[0]},${t[1]}`) bad++;
+        else prev = t[1];
+      }
+      if (bad) p.push(`${bad} câu thiếu hoặc sai mốc thời gian t trong audioTrack`);
+    }
+    const VOICES = ["ja-JP-Chirp3-HD-Aoede", "ja-JP-Neural2-B", "ja-JP-Neural2-C"];
+    const noVoice = items.filter((s) => !VOICES.includes(s.voice)).length;
+    if (noVoice) p.push(`${noVoice} câu chưa ghi giọng đọc (voice)`);
+    const L = d.lesson;
+    const gp = L?.grammarPoints ?? [], qz = L?.quiz ?? [];
+    if (gp.length < 2 || gp.length > 4) p.push(`bài học có ${gp.length} điểm ngữ pháp (chuẩn 2–4)`);
+    if (gp.some((g) => !fullLangs(g.meaning) || !(g.example >= 0 && g.example < items.length))) p.push("điểm ngữ pháp thiếu nghĩa 11 ngôn ngữ hoặc câu ví dụ sai");
+    if (qz.length < 3 || qz.length > 5) p.push(`bài học có ${qz.length} câu hỏi (chuẩn 3–5)`);
+    if (qz.some((q) => !q.ja || q.choices?.length < 3 || !(q.answer >= 0 && q.answer < q.choices.length) || !fullLangs(q.explain))) p.push("câu hỏi thiếu lựa chọn (≥3), đáp án hoặc giải thích 11 ngôn ngữ");
+    if (!d.shelf) p.push("chưa gắn kệ (shelf)");
+    if (d.shelf === "hometown" && !/^[A-Z]{2}$/.test(d.origin ?? "")) p.push("truyện quê hương chưa ghi mã nước (origin)");
     if (!d.cover || !d.cover.startsWith("/covers/") || !existsSync(join(root, "public", d.cover))) p.push("chưa có ảnh bìa (public/covers/…)");
   } else {
     const L = d.lines;
