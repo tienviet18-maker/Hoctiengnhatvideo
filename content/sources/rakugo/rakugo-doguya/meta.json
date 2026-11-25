@@ -1,0 +1,22 @@
+{
+ "id": "rakugo-doguya",
+ "level": "N3",
+ "topic": "rakugo",
+ "source": "original",
+ "free": false,
+ "legal": "tiết mục rakugo cổ điển thời Edo, không rõ tác giả, đã hết bản quyền. Kịch bản do Claude tự viết lại bằng tiếng Nhật phân cấp, không chép bản ghi âm, sách hay kịch bản của nghệ sĩ nào.",
+ "voices": {
+  "N": {"role": "người kể", "voice": "Chirp3-HD-Aoede rate=0.9"},
+  "U": {"role": "người chú", "voice": "Neural2-C rate=0.92 pitch=-6"},
+  "Y": {"role": "chàng Yotarō", "voice": "Neural2-C rate=0.94 pitch=4"},
+  "A": {"role": "bác thợ mộc", "voice": "Neural2-C rate=1.08 pitch=-2"},
+  "B": {"role": "bà cụ sang trọng", "voice": "Neural2-B rate=0.92 pitch=-2"},
+  "R": {"role": "ông samurai", "voice": "Neural2-C rate=0.85 pitch=-11"},
+  "F": {"role": "ông khách say rượu", "voice": "Neural2-C rate=1.05 pitch=5"}
+ },
+ "names": ["与太郎"],
+ "skipVocab": ["掛け"],
+ "cover": {"ja": "道具屋", "jsub": "古典落語", "motif": "nagaya", "font": "Shippori Antique", "shelf": "落語", "title": "Dōguya"},
+ "titles": {"vi":"Dōguya — Anh chàng bán đồ cũ thật thà quá mức","en":"Dōguya — The Too-Honest Junk Seller","zh-Hans":"道具屋——过分老实的旧货摊主","zh-Hant":"道具屋——過分老實的舊貨攤主","ko":"도구야 — 너무 정직한 고물 장수","tl":"Dōguya — Ang Sobrang Tapat na Tindero","ne":"दोगुया — धेरै इमानदार पुराना सामान बेच्ने","id":"Dōguya — Penjual Barang Bekas yang Terlalu Jujur","pt":"Dōguya — O vendedor de tralhas honesto demais","my":"ဒိုဂုယ — ရိုးလွန်းတဲ့ ပစ္စည်းဟောင်းရောင်းသူ","th":"โดกุยะ — พ่อค้าของเก่าผู้ซื่อเกินไป"},
+ "shelf": "rakugo"
+}
