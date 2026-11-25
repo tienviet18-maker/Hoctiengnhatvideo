@@ -7063,6 +7063,58 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "budori",
    "index": 4
   }
+ },
+ {
+  "id": "hanshichi-yukidaruma-1",
+  "titles": {
+   "vi": "Hanshichi: Người tuyết (1)",
+   "en": "Hanshichi: The Snowman (1)",
+   "zh-Hans": "半七捕物帐：雪人（一）",
+   "zh-Hant": "半七捕物帳：雪人（一）",
+   "ko": "한시치 체포록: 눈사람 (1)",
+   "tl": "Hanshichi: Ang Taong-Niyebe (1)",
+   "ne": "हान्सिची: हिउँको मान्छे (१)",
+   "id": "Hanshichi: Manusia Salju (1)",
+   "pt": "Hanshichi: O Boneco de Neve (1)",
+   "my": "ဟန်ရှိချိ: နှင်းလူရုပ် (၁)",
+   "th": "ฮันชิจิ: ตุ๊กตาหิมะ (1)"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 52,
+  "cover": "/covers/hanshichi-yukidaruma-1.webp",
+  "series": {
+   "id": "hanshichi-yukidaruma",
+   "index": 1
+  }
+ },
+ {
+  "id": "hanshichi-yukidaruma-2",
+  "titles": {
+   "vi": "Hanshichi: Người tuyết (2)",
+   "en": "Hanshichi: The Snowman (2)",
+   "zh-Hans": "半七捕物帐：雪人（二）",
+   "zh-Hant": "半七捕物帳：雪人（二）",
+   "ko": "한시치 체포록: 눈사람 (2)",
+   "tl": "Hanshichi: Ang Taong-Niyebe (2)",
+   "ne": "हान्सिची: हिउँको मान्छे (२)",
+   "id": "Hanshichi: Manusia Salju (2)",
+   "pt": "Hanshichi: O Boneco de Neve (2)",
+   "my": "ဟန်ရှိချိ: နှင်းလူရုပ် (၂)",
+   "th": "ฮันชิจิ: ตุ๊กตาหิมะ (2)"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 55,
+  "cover": "/covers/hanshichi-yukidaruma-2.webp",
+  "series": {
+   "id": "hanshichi-yukidaruma",
+   "index": 2
+  }
  }
 ];
 

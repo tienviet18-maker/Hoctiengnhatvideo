@@ -102,7 +102,9 @@ trong `/mnt/project-files/miraigo/content-plan/audio-tuyen-chon.md`.
 | budori-1 | N3 | 48 | 5:46 | 宮沢賢治「グスコーブドリの伝記」(1932) tập 1, miễn phí. Nạn đói, Neri bị bắt đi, xưởng tơ. |
 | budori-2 | N3 | 48 | 5:42 | Tập 2 (VIP). Ruộng bùn của Râu Đỏ, sách của Kūbō, hạn hán. |
 | budori-3 | N3 | 47 | 5:48 | Tập 3 (VIP). Đại bác sĩ Kūbō, Cục Núi lửa, cứu thị trấn Sanmutori. |
-| budori-4 | N3 | 50 | 6:10 | Tập 4 (VIP). Mưa phân bón, gặp lại Neri, đảo Karbonado; sự hy sinh kể gián tiếp như bản gốc. |
+| budori-4 | N3 | 50 | 6:10 | Tập 4 (VIP). Mưa phân bón, gặp lại Neri, đảo Karbonado; sự hy sinh kể gián tiếp như bản gốc. Commit `6c5ad20`. |
+| hanshichi-yukidaruma-1 | N3 | 52 | 6:09 | 岡本綺堂 半七捕物帳「雪達磨」(1919) tập 1, miễn phí. Người tuyết tan lộ thi thể, manh mối hạt cườm 南京玉. |
+| hanshichi-yukidaruma-2 | N3 | 55 | 6:51 | Tập 2 (VIP). Đường dây tiền giả; thân phận お政 kể kín đáo, án tử làm mềm thành 厳しく罰せられました. |
 
 Công cụ và sửa lỗi kèm theo:
 
