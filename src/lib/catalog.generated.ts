@@ -7297,6 +7297,32 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "madara",
    "index": 1
   }
+ },
+ {
+  "id": "madara-2",
+  "titles": {
+   "vi": "Dải băng lốm đốm (2 – hết): Tiếng huýt sáo lúc nửa đêm",
+   "en": "The Speckled Band (2, final): The Midnight Whistle",
+   "zh-Hans": "斑点带子案（二·完）：午夜的口哨",
+   "zh-Hant": "花斑帶探案（二·完）：午夜的口哨",
+   "ko": "얼룩 끈 (2·완): 한밤중의 휘파람",
+   "tl": "Ang Batik-batik na Laso (2, wakas): Ang Sipol sa Hatinggabi",
+   "ne": "थोप्ले फित्ता (२, अन्तिम): मध्यरातको सिट्ठी",
+   "id": "Pita Berbintik (2, tamat): Siulan Tengah Malam",
+   "pt": "A Faixa Malhada (2, final): O Assobio da Meia-Noite",
+   "my": "အစက်ပြောက်ကြိုး (၂၊ ဇာတ်သိမ်း): သန်းခေါင်ယံ လေချွန်သံ",
+   "th": "แถบลายจุด (2 จบ): เสียงผิวปากยามเที่ยงคืน"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/madara-2.webp",
+  "series": {
+   "id": "madara",
+   "index": 2
+  }
  }
 ];
 

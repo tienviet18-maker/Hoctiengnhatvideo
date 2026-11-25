@@ -111,7 +111,8 @@ trong `/mnt/project-files/miraigo/content-plan/audio-tuyen-chon.md`.
 | botchan-4 | N3 | 52 | 5:56 | Tập 4 (VIP). Một sen năm rin, cuộc họp hội đồng, chuyện Madonna, Botchan từ chối tăng lương. Thêm giọng bà cụ Hagino (Neural2-B +1). Commit `047546a`. |
 | botchan-5 | N3 | 52 | 5:26 | Tập 5 (VIP). Làm lành với Nhím núi, tiệc chia tay Bí cuối mùa, trận ẩu đả mừng chiến thắng, bài báo vu khống. Commit `ccbb22f`. |
 | botchan-6 | N3 | 52 | 5:30 | Tập 6, tập cuối (VIP). Botchan đòi từ chức cùng Nhím núi, 8 đêm rình ở Masuya, ném trứng và trừng phạt Áo đỏ, Nodaiko, về Tokyo sống với Kiyo; câu kết về mộ Kiyo ở chùa Yōgen-ji. Series 坊っちゃん đủ 6 tập. Commit `2fb335d`. |
-| madara-1 | N3 | 52 | 5:41 | Sherlock Holmes「まだらの紐」(Conan Doyle 1892, tự kể lại từ tiếng Anh) tập 1, miễn phí, kệ world. Helen Stoner, cái chết của Julia, tiếng huýt sáo, Roylott bẻ que cời. |
+| madara-1 | N3 | 52 | 5:41 | Sherlock Holmes「まだらの紐」(Conan Doyle 1892, tự kể lại từ tiếng Anh) tập 1, miễn phí, kệ world. Helen Stoner, cái chết của Julia, tiếng huýt sáo, Roylott bẻ que cời. Commit `ba5df9a`. |
+| madara-2 | N3 | 52 | 5:22 | Tập 2, tập cuối (VIP). Dây chuông giả, lỗ thông gió, giường bắt chặt, đĩa sữa; đêm canh, tiếng xì, rắn đầm lầy là "dải băng lốm đốm". Series まだらの紐 đủ 2 tập. Cần đối chiếu câu chữ với nguyên tác khi Gutenberg mở lại. |
 
 Công cụ và sửa lỗi kèm theo:
 
