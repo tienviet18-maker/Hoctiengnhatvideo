@@ -45,6 +45,8 @@ export default function StoryCover({
           <span style={{ display: "-webkit-box", WebkitLineClamp: 5, WebkitBoxOrient: "vertical", overflow: "hidden" }}>{title}</span>
         </span>
       )}
+      {/* Bìa ảnh v2 đã in sẵn cấp độ và nguồn gốc: chỉ bìa chữ mới cần nhãn */}
+      {!story.cover && (
       <span style={{ position: "absolute", left: 6, bottom: pct > 0 ? 9 : 6, display: "flex", gap: 4 }}>
         <span style={{ fontSize: 10, fontWeight: 800, background: "rgba(255,255,255,.92)", color: "#14213D", borderRadius: 5, padding: "1px 5px" }}>{story.level}</span>
         {story.origin && (
@@ -53,6 +55,7 @@ export default function StoryCover({
           </span>
         )}
       </span>
+      )}
       {!story.free && (
         <span style={{ position: "absolute", right: 6, top: 6, fontSize: 9, fontWeight: 800, background: "#14213D", color: "#F5C542", borderRadius: 5, padding: "2px 5px" }}>VIP</span>
       )}
