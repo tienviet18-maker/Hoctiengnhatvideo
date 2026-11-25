@@ -35,10 +35,12 @@ export default function OnboardingPage() {
   const [when, setWhen] = useState<string[]>([]);
   const [paywall, setPaywall] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  // Đang hoàn tất: không để effect "đã onboard thì về trang chủ" đè lên điều hướng của finish()
+  const finishingRef = useRef(false);
   const o = ui.onboarding;
 
   useEffect(() => {
-    if (ready && profile.onboarded) router.replace("/");
+    if (ready && profile.onboarded && !finishingRef.current) router.replace("/");
   }, [ready, profile.onboarded, router]);
 
   // Bước dựng kế hoạch: chờ ngắn cho cảm giác "đang chọn riêng cho bạn"
@@ -77,6 +79,7 @@ export default function OnboardingPage() {
     updateProfile({ name: name.trim(), onboarded: true, level, interests, dailyMinutes: goal, listenWhen: when });
 
   const finish = () => {
+    finishingRef.current = true;
     save();
     router.replace(firstStory ? `/read/${firstStory.id}` : "/");
   };
