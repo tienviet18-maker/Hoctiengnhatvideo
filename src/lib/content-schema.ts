@@ -75,6 +75,8 @@ export interface VideoContent {
   lines: TimedLine[];
   teaser: TeaserPackage;
   free: boolean;
+  /** 2 = đã đạt chuẩn nội dung v2 (docs/content-standard.md); thiếu = gói cũ */
+  standard?: 2;
 }
 
 export interface StorySentence extends Sentence {
@@ -95,6 +97,10 @@ export interface StoryContent {
   cover: string;
   sentences: StorySentence[];
   free: boolean;
+  /** 2 = đã đạt chuẩn nội dung v2 (docs/content-standard.md); thiếu = gói cũ */
+  standard?: 2;
+  /** Truyện nhiều chương: id bộ truyện và số chương (từ 1) */
+  series?: { id: string; index: number };
 }
 
 export type ContentItem = VideoContent | StoryContent;
