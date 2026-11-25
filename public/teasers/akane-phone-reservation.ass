@@ -1,0 +1,26 @@
+[Script Info]
+Title: Teaser 39.65-76.0 of WkOvU4teCmo
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,60,1
+Style: VI,Arial,34,&H00FFF2B2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.78,JP,,0,0,0,,お電話ありがとうございます。NONです。
+Dialogue: 1,0:00:00.00,0:00:04.78,VI,,0,0,0,,'Cảm ơn quý khách đã gọi điện. Đây là quán NON ạ.'
+Dialogue: 0,0:00:04.78,0:00:07.84,JP,,0,0,0,,すみません、予約をお願いしたいんですが。
+Dialogue: 1,0:00:04.78,0:00:07.84,VI,,0,0,0,,Xin lỗi, tôi muốn đặt bàn ạ.
+Dialogue: 0,0:00:07.84,0:00:11.38,JP,,0,0,0,,かしこまりました。何名様でしょうか。1人です。
+Dialogue: 1,0:00:07.84,0:00:11.38,VI,,0,0,0,,'Vâng ạ. Quý khách đi mấy người ạ?' — 'Một người.'
+Dialogue: 0,0:00:14.68,0:00:19.77,JP,,0,0,0,,はい、10月3日金曜日の11時からでお願いします。
+Dialogue: 1,0:00:14.68,0:00:19.77,VI,,0,0,0,,Vâng, cho tôi từ 11 giờ thứ Sáu, ngày 3 tháng 10 ạ.
+Dialogue: 0,0:00:21.78,0:00:25.74,JP,,0,0,0,,お名前をちょうだいしてもよろしいでしょうか。はい、田中です。
+Dialogue: 1,0:00:21.78,0:00:25.74,VI,,0,0,0,,'Cho tôi xin tên quý khách được không ạ?' — 'Vâng, tôi là Tanaka.'
+Dialogue: 0,0:00:28.17,0:00:36.35,JP,,0,0,0,,確認させていただきます。10月3日の金曜日の11時から1名様で、田中様でお間違いないでしょうか。
+Dialogue: 1,0:00:28.17,0:00:36.35,VI,,0,0,0,,'Cho tôi xác nhận lại ạ: 11 giờ thứ Sáu ngày 3 tháng 10, 1 người, tên Tanaka — đúng không ạ?'

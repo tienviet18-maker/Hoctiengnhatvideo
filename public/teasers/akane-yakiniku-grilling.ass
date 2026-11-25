@@ -1,0 +1,26 @@
+[Script Info]
+Title: Teaser 301.54-700.14 of akane-yakiniku-grilling
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,60,1
+Style: VI,Arial,34,&H00FFF2B2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.75,JP,,0,0,0,,じゃあ、焼肉を焼きます。じゃあ、レバーから焼いていきます。
+Dialogue: 1,0:00:00.00,0:00:10.75,VI,,0,0,0,,'Nào, nướng thịt thôi. Nướng từ món gan trước nhé.'
+Dialogue: 0,0:00:26.33,0:00:41.35,JP,,0,0,0,,これはタンです。これはハラミです。ちょっと分厚いので、よく焼いた方がいいと思います。
+Dialogue: 1,0:00:26.33,0:00:41.35,VI,,0,0,0,,'Đây là lưỡi bò. Đây là thịt harami. Hơi dày nên nướng kỹ một chút thì hơn.'
+Dialogue: 0,0:00:41.35,0:00:51.42,JP,,0,0,0,,じゃあ、自分の好きなタイミングでひっくり返してください。焼くのにこだわる人もいるので、自分でやりましょう。
+Dialogue: 1,0:00:41.35,0:00:51.42,VI,,0,0,0,,'Cứ lật thịt theo nhịp mình thích nhé. Có người rất kỹ tính chuyện nướng, nên tự tay làm là tốt nhất.'
+Dialogue: 0,0:01:05.66,0:01:18.34,JP,,0,0,0,,あぶりのすき焼きサーロインと、あとコムタンスープを注文したいと思います。
+Dialogue: 1,0:01:05.66,0:01:18.34,VI,,0,0,0,,'Tôi gọi thêm món thăn bò sukiyaki nướng sơ, và một phần súp komutan (súp đuôi bò).'
+Dialogue: 0,0:05:03.52,0:05:20.76,JP,,0,0,0,,これはスープ用のお椀とレンゲです。スープ、いただきます。優しい味。卵とニラが入っています。
+Dialogue: 1,0:05:03.52,0:05:20.76,VI,,0,0,0,,Đây là bát và muỗng chuyên dùng ăn súp. Mời cả nhà ăn súp. Vị dịu nhẹ. Trong súp có trứng và hẹ.
+Dialogue: 0,0:06:26.79,0:06:38.60,JP,,0,0,0,,食べ終わったので、火をお店の人に消してもらいたいと思います。この時は「火を止めてください」とか「火を止めてもらえますか」と言えばいいです。
+Dialogue: 1,0:06:26.79,0:06:38.60,VI,,0,0,0,,Ăn xong rồi, tôi muốn nhờ nhân viên tắt bếp. Lúc này cứ nói 'làm ơn tắt bếp giúp tôi' là được.

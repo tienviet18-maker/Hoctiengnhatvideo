@@ -1,0 +1,22 @@
+[Script Info]
+Title: Teaser 35.64-217.45 of yuta-weather-sun-rain
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,60,1
+Style: VI,Arial,34,&H00FFF2B2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:14.72,JP,,0,0,0,,まずは晴れです。晴れは雲がなくて、いい天気です。
+Dialogue: 1,0:00:00.00,0:00:14.72,VI,,0,0,0,,Đầu tiên là nắng. Nắng là khi không có mây, thời tiết đẹp.
+Dialogue: 0,0:00:36.14,0:00:57.05,JP,,0,0,0,,晴れの日は空が青くて、とてもきれいです。あと、晴れの日は夕日がとてもきれいです。
+Dialogue: 1,0:00:36.14,0:00:57.05,VI,,0,0,0,,Ngày nắng, bầu trời xanh và rất đẹp. Hoàng hôn ngày nắng cũng rất đẹp.
+Dialogue: 0,0:01:27.61,0:01:48.58,JP,,0,0,0,,雨の日には傘がないと濡れてしまいます。雨の日に傘は大切です。
+Dialogue: 1,0:01:27.61,0:01:48.58,VI,,0,0,0,,Ngày mưa mà không có ô thì sẽ bị ướt. Ngày mưa, ô rất quan trọng.
+Dialogue: 0,0:02:28.16,0:03:01.81,JP,,0,0,0,,日本では春と夏の間にたくさん雨が降ります。この季節のことを梅雨といいます。日本では梅雨が終わると夏になります。
+Dialogue: 1,0:02:28.16,0:03:01.81,VI,,0,0,0,,Ở Nhật, giữa xuân và hạ mưa rất nhiều. Mùa đó gọi là 'tsuyu' — mùa mưa. Hết mùa mưa là vào hạ.

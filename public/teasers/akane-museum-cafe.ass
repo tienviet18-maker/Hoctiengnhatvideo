@@ -1,0 +1,22 @@
+[Script Info]
+Title: Teaser 780.52-815.18 of akane-museum-cafe
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,60,1
+Style: VI,Arial,34,&H00FFF2B2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:06.14,JP,,0,0,0,,注文お願いします。おさつきなこでお願いします。
+Dialogue: 1,0:00:00.00,0:00:06.14,VI,,0,0,0,,'Cho tôi gọi món. Cho tôi món khoai lang kinako.'
+Dialogue: 0,0:00:06.14,0:00:13.89,JP,,0,0,0,,少々お時間いただくんですが、よろしいですか？どのくらいかかりますか？5分以上かかってしまう。そうなんですね。申し訳ございません。大丈夫です。
+Dialogue: 1,0:00:06.14,0:00:13.89,VI,,0,0,0,,'Món này cần chút thời gian chuẩn bị, có được không ạ?' — 'Khoảng bao lâu?' — 'Hơn 5 phút.' — 'Vậy à. Xin lỗi quý khách.' — 'Không sao đâu.'
+Dialogue: 0,0:00:16.66,0:00:25.09,JP,,0,0,0,,じゃあ、このお芋のブランマンジェでお願いします。ありがとうございます。ブランマンジェ1点の会計、450円でございます。
+Dialogue: 1,0:00:16.66,0:00:25.09,VI,,0,0,0,,'Vậy cho tôi món blancmange khoai lang này. Cảm ơn.' — 'Một phần blancmange, hóa đơn là 450 yên ạ.'
+Dialogue: 0,0:00:25.09,0:00:34.66,JP,,0,0,0,,クレジットカードでお願いします。ありがとうございます。ご用意できましたら、35番でお呼びします。
+Dialogue: 1,0:00:25.09,0:00:34.66,VI,,0,0,0,,'Cho tôi trả bằng thẻ tín dụng.' — 'Cảm ơn quý khách. Khi món sẵn sàng, chúng tôi sẽ gọi số 35.'

@@ -1,0 +1,22 @@
+[Script Info]
+Title: Teaser 35.36-145.27 of akane-mistakes-i-adjectives
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,60,1
+Style: VI,Arial,34,&H00FFF2B2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.57,JP,,0,0,0,,このコーヒーは安いおいしい。これはどこが間違っていますか？
+Dialogue: 1,0:00:00.00,0:00:03.57,VI,,0,0,0,,Cà phê này rẻ ngon. Câu này sai ở đâu?
+Dialogue: 0,0:00:20.07,0:00:28.42,JP,,0,0,0,,「い」を「くて」に直します。このコーヒーは安くておいしい。
+Dialogue: 1,0:00:20.07,0:00:28.42,VI,,0,0,0,,Ta sửa 'i' thành 'kute': Cà phê này rẻ và ngon.
+Dialogue: 0,0:01:01.38,0:01:09.64,JP,,0,0,0,,難しすぎるです。このように「くて」になったり、「い」がいらなかったりすることがあるので
+Dialogue: 1,0:01:01.38,0:01:09.64,VI,,0,0,0,,Đáp án đúng là 'khó quá' (bỏ い）. Như vậy, có lúc 'い' biến thành 'くて', có lúc phải bỏ hẳn 'い'.
+Dialogue: 0,0:01:35.39,0:01:49.91,JP,,0,0,0,,このパソコンはそんなに高くないになります。ないの時は「くない」ですね。「安くない」「おいしくない」「高くない」、このようになります。
+Dialogue: 1,0:01:35.39,0:01:49.91,VI,,0,0,0,,Câu đúng là: 'Máy tính này không đắt lắm.' Khi phủ định thì dùng 'くない': không rẻ, không ngon, không đắt — như vậy đó.

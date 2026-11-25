@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mockup UX/UI — ViMai Video (G1)</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  body{font-family:"Be Vietnam Pro",sans-serif;background:#E8EDF3;color:#1A202C;margin:0;padding:32px 20px}
+  h1{font-size:22px;color:#123A6F}
+  p{color:#475569;max-width:760px;line-height:1.6}
+  .grid{display:flex;gap:20px;flex-wrap:wrap;margin-top:20px}
+  figure{margin:0}
+  figcaption{font-weight:700;margin-bottom:8px;color:#123A6F}
+  iframe{width:390px;height:844px;border:none;border-radius:24px;background:#fff;box-shadow:0 8px 32px rgba(18,58,111,.18)}
+  table{border-collapse:collapse;margin-top:12px;background:#fff;border-radius:12px;overflow:hidden}
+  th,td{border:1px solid #E2E8F0;padding:8px 12px;font-size:14px;text-align:left}
+  th{background:#123A6F;color:#fff}
+</style>
+</head>
+<body>
+  <h1>ViMai Video — Mockup UX/UI (Giai đoạn G1)</h1>
+  <p>4 màn hình chính dựng bằng đúng design tokens của dự án: navy #123A6F phẳng, trắng/xám trung tính, 1 màu nhấn đỏ #E03E2D chỉ cho trạng thái phát/chọn, font Be Vietnam Pro, icon nét Lucide, thang khoảng cách 4/8px. Không gradient, không kính mờ, không emoji làm icon. Nội dung là nội dung mẫu thật (video cửa hàng tiện lợi N5, truyện đi làm thêm N5).</p>
+  <table>
+    <tr><th>Quyết định bố cục</th><th>Lấy từ app tham chiếu</th></tr>
+    <tr><td>Thư viện dạng danh sách thumbnail + mục "Đang xem dở"</td><td>YouTube mobile / Tadoku</td></tr>
+    <tr><td>Màn hình xem nền tối kiểu rạp, phụ đề 3 lớp dưới video</td><td>Tadoku / Language Reactor</td></tr>
+    <tr><td>Thanh tab dưới 5 mục</td><td>Tadoku + app ViMai hiện tại</td></tr>
+    <tr><td>Màn đọc truyện từng câu, nút Dịch / Giải thích / Nghe</td><td>Tadoku (tab Sách)</td></tr>
+    <tr><td>Chấm điểm câu trong chép chính tả bằng vòng chấm tiến độ</td><td>Duolingo</td></tr>
+  </table>
+  <div class="grid">
+    <figure><figcaption>1 · Thư viện video</figcaption><iframe src="01-library.html"></iframe></figure>
+    <figure><figcaption>2 · Màn hình xem + phụ đề</figcaption><iframe src="02-player.html"></iframe></figure>
+    <figure><figcaption>3 · Chép chính tả</figcaption><iframe src="03-dictation.html"></iframe></figure>
+    <figure><figcaption>4 · Đọc truyện</figcaption><iframe src="04-reader.html"></iframe></figure>
+  </div>
+</body>
+</html>

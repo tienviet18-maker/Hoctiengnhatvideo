@@ -1,0 +1,22 @@
+[Script Info]
+Title: Teaser 638.53-699.8 of akane-cafe-change-order
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,60,1
+Style: VI,Arial,34,&H00FFF2B2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:13.72,JP,,0,0,0,,私、もしかしたら間違えてホットを注文してしまったかもしれません。本当はアイスが飲みたいので、ちょっとお店の人に確認したいと思います。
+Dialogue: 1,0:00:00.00,0:00:13.72,VI,,0,0,0,,Có lẽ tôi đã lỡ gọi nhầm đồ nóng. Thật ra tôi muốn uống đá, nên tôi sẽ hỏi lại nhân viên cho chắc.
+Dialogue: 0,0:00:17.09,0:00:25.42,JP,,0,0,0,,すみません、私さっきホット注文しましたか？そうですね、ご注文ホットでいただいております。すみません、アイスに変更してもらえますか？はい、かしこまりました。
+Dialogue: 1,0:00:17.09,0:00:25.42,VI,,0,0,0,,'Xin lỗi, lúc nãy tôi gọi đồ nóng phải không?' — 'Vâng, đơn của quý khách là đồ nóng ạ.' — 'Xin lỗi, đổi sang đá giúp tôi được không?' — 'Vâng, được ạ.'
+Dialogue: 0,0:00:30.75,0:00:37.77,JP,,0,0,0,,こうやって、もし注文してすぐ変更したかったら、「すみません、〜に変更してもらえますか」とか「〜に変更できますか」と聞けば大丈夫です。
+Dialogue: 1,0:00:30.75,0:00:37.77,VI,,0,0,0,,Như vậy đó — nếu vừa gọi xong mà muốn đổi ngay, cứ hỏi 'xin lỗi, đổi sang ~ giúp tôi được không?' là ổn.
+Dialogue: 0,0:00:55.78,0:01:01.27,JP,,0,0,0,,お待たせいたしました。アイスのカフェラテでございます。ありがとうございます。
+Dialogue: 1,0:00:55.78,0:01:01.27,VI,,0,0,0,,'Xin lỗi đã để quý khách chờ. Latte đá của quý khách đây ạ.' — 'Cảm ơn.'

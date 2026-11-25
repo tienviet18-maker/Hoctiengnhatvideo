@@ -1,0 +1,20 @@
+[Script Info]
+Title: Teaser 18.2-114.98 of yuta-cup-water
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,60,1
+Style: VI,Arial,34,&H00FFF2B2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:29.00,JP,,0,0,0,,これは、コップです。これは水です。コップに水を入れる。コップの水を飲む。
+Dialogue: 1,0:00:00.00,0:00:29.00,VI,,0,0,0,,Đây là cái cốc. Đây là nước. Rót nước vào cốc. Uống nước trong cốc.
+Dialogue: 0,0:00:45.54,0:01:07.14,JP,,0,0,0,,コップを持って歩いて、つまずく。つまずいて、水をこぼす。
+Dialogue: 1,0:00:45.54,0:01:07.14,VI,,0,0,0,,Cầm cốc đi, rồi vấp. Vấp và làm đổ nước.
+Dialogue: 0,0:01:15.18,0:01:36.78,JP,,0,0,0,,ガラスのコップは、落とすとわれます。危ないです。
+Dialogue: 1,0:01:15.18,0:01:36.78,VI,,0,0,0,,Cốc thủy tinh rơi là vỡ. Nguy hiểm đấy.

@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #123a6f;
+  --navy-dark: #0c2a52;
+  --accent: #e03e2d;
+  --bg: #ffffff;
+  --muted-bg: #f5f7fa;
+  --border: #e2e8f0;
+  --text: #1a202c;
+  --muted: #64748b;
+  --stage: #0b1220;
+  --stage2: #131e33;
+  --stage-border: #24334d;
+  --ok: #2f9e6e;
+}
+
+html { color-scheme: light; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-bvp), "Noto Sans JP", "Noto Sans", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Font stacks theo ngôn ngữ giao diện */
+:root[data-lang="ne"] body { font-family: var(--font-bvp), "Noto Sans Devanagari", "Noto Sans JP", sans-serif; }
+:root[data-lang="my"] body { font-family: var(--font-bvp), "Noto Sans Myanmar", "Pyidaungsu", sans-serif; }
+:root[data-lang="th"] body { font-family: var(--font-bvp), "Noto Sans Thai", sans-serif; }
+:root[data-lang="zh-Hans"] body { font-family: var(--font-bvp), "Noto Sans SC", "PingFang SC", sans-serif; }
+:root[data-lang="zh-Hant"] body { font-family: var(--font-bvp), "Noto Sans TC", "PingFang TC", sans-serif; }
+:root[data-lang="ko"] body { font-family: var(--font-bvp), "Noto Sans KR", sans-serif; }
+
+.jp { font-family: "Noto Sans JP", var(--font-bvp), sans-serif; }
+
+ruby rt { font-size: 0.52em; color: var(--navy); font-weight: 400; letter-spacing: 0.02em; }
+.on-dark ruby rt { color: #f0a49b; }
+
+.app-shell { max-width: 430px; margin: 0 auto; min-height: 100dvh; display: flex; flex-direction: column; position: relative; }
+.page { flex: 1; padding: 20px 20px 96px; }
+.page-flush { flex: 1; padding-bottom: 24px; }
+
+.btn-primary {
+  display: block; width: 100%; text-align: center; background: var(--navy); color: #fff;
+  font-weight: 700; font-size: 15px; padding: 14px 16px; border-radius: 12px; border: none; cursor: pointer;
+}
+.btn-primary:active { background: var(--navy-dark); }
+.btn-ghost {
+  display: block; width: 100%; text-align: center; background: #fff; color: var(--navy);
+  font-weight: 600; font-size: 14px; padding: 12px 16px; border-radius: 12px; border: 1px solid var(--border); cursor: pointer;
+}
+.chip {
+  font-size: 13px; font-weight: 600; padding: 7px 14px; border-radius: 999px;
+  border: 1px solid var(--border); color: var(--muted); background: #fff; cursor: pointer; white-space: nowrap;
+}
+.chip.on { background: var(--navy); border-color: var(--navy); color: #fff; }
+.card { border: 1px solid var(--border); border-radius: 12px; padding: 12px; background: #fff; }
+.lvl { font-size: 11px; font-weight: 700; color: var(--navy); background: #eaf0f8; padding: 2px 7px; border-radius: 6px; }
+.free-badge { font-size: 10px; font-weight: 700; background: #fff; color: var(--navy); padding: 2px 6px; border-radius: 6px; }
+.lock-badge { font-size: 10px; font-weight: 700; background: var(--accent); color: #fff; padding: 2px 6px; border-radius: 6px; }
+
+.word-btn { background: none; border: none; padding: 0; margin: 0; font: inherit; color: inherit; cursor: pointer; border-bottom: 1.5px dotted var(--navy); }
+.on-dark .word-btn { border-bottom-color: #8fb0d8; }
+
+.tabbar {
+  position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); width: 100%; max-width: 430px;
+  display: flex; background: #fff; border-top: 1px solid var(--border); padding: 8px 4px calc(10px + env(safe-area-inset-bottom)); z-index: 40;
+}
+.tabbar a { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 11px; font-weight: 600; color: var(--muted); text-decoration: none; }
+.tabbar a.on { color: var(--navy); }
+.tabbar a .pip { width: 5px; height: 5px; border-radius: 50%; background: transparent; }
+.tabbar a.on .pip { background: var(--accent); }
+
+.input {
+  width: 100%; border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px;
+  font-size: 15px; font-family: inherit; background: #fff; color: var(--text);
+}
+.input:focus { outline: 2px solid var(--navy); outline-offset: -1px; }
+
+.thumb {
+  position: relative; flex: none; border-radius: 8px; background: var(--navy-dark); color: #fff;
+  display: flex; align-items: center; justify-content: center; overflow: hidden;
+}
+.thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.thumb .dur { position: absolute; right: 6px; bottom: 6px; font-size: 11px; font-weight: 600; background: rgba(0,0,0,.55); padding: 2px 6px; border-radius: 6px; z-index: 2; }
+.thumb .tag { position: absolute; left: 6px; top: 6px; z-index: 2; }
+.progress-track { height: 5px; border-radius: 99px; background: var(--border); overflow: hidden; }
+.progress-track i { display: block; height: 100%; border-radius: 99px; background: var(--accent); }
+
+/* ---------- Chế độ nghe khi lái xe ---------- */
+.drive-stage { flex: 1; display: flex; flex-direction: column; align-items: center; padding: 20px 24px 40px; background: var(--stage); color: #eef3fa; min-height: 100dvh; }
+.drive-top { width: 100%; display: flex; align-items: center; justify-content: space-between; }
+.drive-back { color: #eef3fa; display: flex; padding: 6px; margin-left: -6px; }
+.drive-title { font-size: 21px; font-weight: 800; line-height: 1.35; text-align: center; margin-top: 26px; letter-spacing: -.01em; }
+.drive-count { font-size: 13px; color: #9db2cc; margin-top: 8px; font-weight: 600; }
+.drive-sentence { font-size: 24px; line-height: 1.6; text-align: center; margin-top: 30px; min-height: 120px; display: flex; align-items: center; }
+.drive-progress { width: 100%; margin-top: 10px; background: var(--stage-border); }
+.drive-controls { display: flex; align-items: center; gap: 26px; margin-top: 34px; }
+.drive-btn { border: none; cursor: pointer; color: #fff; display: flex; align-items: center; justify-content: center; border-radius: 50%; font-family: inherit; }
+.drive-btn.main { width: 104px; height: 104px; background: var(--accent); }
+.drive-btn.main:active { filter: brightness(1.15); }
+.drive-btn.side { width: 72px; height: 72px; background: var(--stage2); border: 1px solid var(--stage-border); }
+.drive-btn.side:active { background: var(--stage-border); }
+.drive-repeat { margin-top: 30px; background: var(--stage2); border-color: var(--stage-border); color: #eef3fa; font-size: 14px; padding: 10px 18px; }
+.drive-repeat.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.drive-next { margin-top: 22px; font-size: 13px; color: #9db2cc; text-align: center; line-height: 1.5; }

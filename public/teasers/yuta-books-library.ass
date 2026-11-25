@@ -1,0 +1,20 @@
+[Script Info]
+Title: Teaser 188.22-392.03 of yuta-books-library
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,60,1
+Style: VI,Arial,34,&H00FFF2B2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:31.75,JP,,0,0,0,,本は、本屋さんで買うことができます。本屋さんには、たくさんの本があります。
+Dialogue: 1,0:00:00.00,0:00:31.75,VI,,0,0,0,,Sách thì mua được ở hiệu sách. Hiệu sách có rất nhiều sách.
+Dialogue: 0,0:01:05.74,0:01:47.52,JP,,0,0,0,,本は図書館でかりることができます。図書館では、無料で本をかりることができます。
+Dialogue: 1,0:01:05.74,0:01:47.52,VI,,0,0,0,,Sách thì mượn được ở thư viện. Ở thư viện, mượn sách miễn phí.
+Dialogue: 0,0:02:58.34,0:03:23.81,JP,,0,0,0,,本を数えるときは、冊を使います。1冊、2冊、3冊、4冊、5冊。
+Dialogue: 1,0:02:58.34,0:03:23.81,VI,,0,0,0,,Khi đếm sách, dùng lượng từ 'satsu': 1 quyển, 2 quyển, 3 quyển, 4 quyển, 5 quyển.

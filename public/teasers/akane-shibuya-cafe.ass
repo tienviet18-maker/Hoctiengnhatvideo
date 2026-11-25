@@ -1,0 +1,26 @@
+[Script Info]
+Title: Teaser 127.63-175.68 of akane-shibuya-cafe
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,60,1
+Style: VI,Arial,34,&H00FFF2B2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.90,JP,,0,0,0,,こんにちは。ココアとカヌレ、お願いします。
+Dialogue: 1,0:00:00.00,0:00:05.90,VI,,0,0,0,,'Chào bạn. Cho tôi ca cao và bánh canelé.'
+Dialogue: 0,0:00:07.37,0:00:13.23,JP,,0,0,0,,ココアはホットとアイスどちらにされますか。アイスでお願いします。アイスですね。
+Dialogue: 1,0:00:07.37,0:00:13.23,VI,,0,0,0,,'Ca cao dùng nóng hay đá ạ?' — 'Cho tôi đá.' — 'Đá, vâng ạ.'
+Dialogue: 0,0:00:15.83,0:00:20.63,JP,,0,0,0,,アイスのココアとカヌレですね。830円でございます。
+Dialogue: 1,0:00:15.83,0:00:20.63,VI,,0,0,0,,'Ca cao đá và bánh canelé đúng không ạ. Tổng cộng 830 yên ạ.'
+Dialogue: 0,0:00:20.63,0:00:26.57,JP,,0,0,0,,クレジットカード使えますか。現金かハチペイのみになっております。わかりました。
+Dialogue: 1,0:00:20.63,0:00:26.57,VI,,0,0,0,,'Dùng thẻ tín dụng được không ạ?' — 'Quán chỉ nhận tiền mặt hoặc Hachi Pay thôi ạ.' — 'Tôi hiểu rồi.'
+Dialogue: 0,0:00:26.57,0:00:36.02,JP,,0,0,0,,じゃあ現金でお願いします。いくらでしたっけ。830円ですね。
+Dialogue: 1,0:00:26.57,0:00:36.02,VI,,0,0,0,,'Vậy cho tôi trả tiền mặt. Hết bao nhiêu ấy nhỉ?' — '830 yên ạ.'
+Dialogue: 0,0:00:37.78,0:00:48.05,JP,,0,0,0,,じゃあ1000円でお願いします。170円のお返しですね。レシートご入り用ですか。お願いします。
+Dialogue: 1,0:00:37.78,0:00:48.05,VI,,0,0,0,,'Vậy tôi đưa 1.000 yên.' — 'Tiền thối của anh là 170 yên ạ. Anh có cần hóa đơn không?' — 'Cho tôi xin.'

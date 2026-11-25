@@ -1,0 +1,30 @@
+[Script Info]
+Title: Teaser 44.7-88.72 of akane-cafe-diary-order
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,60,1
+Style: VI,Arial,34,&H00FFF2B2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.84,JP,,0,0,0,,すみません、カフェラテ…
+Dialogue: 1,0:00:00.00,0:00:02.84,VI,,0,0,0,,Xin lỗi, cho tôi một cafe latte...
+Dialogue: 0,0:00:02.84,0:00:05.09,JP,,0,0,0,,カフェラテはホットとアイスあります。
+Dialogue: 1,0:00:02.84,0:00:05.09,VI,,0,0,0,,Cafe latte có loại nóng và loại đá ạ.
+Dialogue: 0,0:00:05.09,0:00:06.82,JP,,0,0,0,,ホットでお願いします。
+Dialogue: 1,0:00:05.09,0:00:06.82,VI,,0,0,0,,Cho tôi loại nóng.
+Dialogue: 0,0:00:14.44,0:00:17.87,JP,,0,0,0,,シュガーとココナッツとフィグ、イチジクですね。
+Dialogue: 1,0:00:14.44,0:00:17.87,VI,,0,0,0,,Có vị đường, dừa và fig — tức quả sung ạ.
+Dialogue: 0,0:00:22.77,0:00:25.73,JP,,0,0,0,,じゃあこれでお願いします。
+Dialogue: 1,0:00:22.77,0:00:25.73,VI,,0,0,0,,Vậy cho tôi cái này.
+Dialogue: 0,0:00:33.99,0:00:35.94,JP,,0,0,0,,お支払いはどうされますか？
+Dialogue: 1,0:00:33.99,0:00:35.94,VI,,0,0,0,,Quý khách thanh toán thế nào ạ?
+Dialogue: 0,0:00:35.94,0:00:38.03,JP,,0,0,0,,クレジットカード使えますか？
+Dialogue: 1,0:00:35.94,0:00:38.03,VI,,0,0,0,,Dùng thẻ tín dụng được không?
+Dialogue: 0,0:00:40.11,0:00:44.02,JP,,0,0,0,,ではクレジット差し込みかタッチお願いします。
+Dialogue: 1,0:00:40.11,0:00:44.02,VI,,0,0,0,,Vậy xin quý khách cắm thẻ hoặc chạm thẻ.

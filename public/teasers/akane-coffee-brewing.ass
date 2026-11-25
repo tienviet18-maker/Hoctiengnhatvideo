@@ -1,0 +1,24 @@
+[Script Info]
+Title: Teaser 413.83-524.24 of akane-coffee-brewing
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,60,1
+Style: VI,Arial,34,&H00FFF2B2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:08.29,JP,,0,0,0,,じゃあ今からいれていきます。軽く振って、下にならしてもらって、上にかぶせるように入れていきます。
+Dialogue: 1,0:00:00.00,0:00:08.29,VI,,0,0,0,,'Giờ tôi pha nhé. Lắc nhẹ, dàn đều xuống dưới, rồi đặt phin giấy phủ lên trên.'
+Dialogue: 0,0:00:14.64,0:00:27.98,JP,,0,0,0,,お湯の温度は90度ぐらいで、もし測れたらお願いします。まずは粉全体にお湯をかけていきます。20秒くらいちょっと待ってあげましょう。
+Dialogue: 1,0:00:14.64,0:00:27.98,VI,,0,0,0,,'Nhiệt độ nước khoảng 90 độ, đo giúp tôi nếu được. Trước tiên rót nước lên toàn bộ bột. Chờ khoảng 20 giây nhé.'
+Dialogue: 0,0:00:35.00,0:00:48.98,JP,,0,0,0,,あとは2、3回に分けて、合計で160gお湯を注いでいくというような流れです。
+Dialogue: 1,0:00:35.00,0:00:48.98,VI,,0,0,0,,'Sau đó chia làm hai, ba lần, rót tổng cộng 160g nước — quy trình là như vậy.'
+Dialogue: 0,0:00:56.83,0:01:08.93,JP,,0,0,0,,なるべくお湯のいれ方を丁寧にすればするほど、味がやわらかくきれいになるので、やさしくゆっくり入れてあげると、その味も優しくなります。
+Dialogue: 1,0:00:56.83,0:01:08.93,VI,,0,0,0,,'Càng rót nước cẩn thận, vị càng mềm và trong; rót nhẹ nhàng, chậm rãi thì hương vị cũng dịu lại.'
+Dialogue: 0,0:01:29.25,0:01:50.41,JP,,0,0,0,,最後、もう一投して160gまで注いでいったら完成ですね。だいたいトータルで2分ぐらいですかね。本当だ、2分だ！すごい。
+Dialogue: 1,0:01:29.25,0:01:50.41,VI,,0,0,0,,'Cuối cùng rót thêm một lần tới 160g là xong. Tổng cộng khoảng hai phút nhỉ.' — 'Đúng hai phút thật! Tuyệt quá.'

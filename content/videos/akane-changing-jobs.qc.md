@@ -1,0 +1,4 @@
+# QC — akane-changing-jobs (YtfYw1FWO_g)
+
+- Nguồn: video phỏng vấn chuyên gia hỗ trợ chuyển việc (Suzuki, SThree) của あかね的日本語教室 (whitelist), phụ đề tiếng Nhật của kênh — phần 1 của series tiếng Nhật công việc, cặp với akane-interview-weakness (phần phỏng vấn). 6 dòng: quy trình chuyển việc qua agent (tư vấn → ứng tuyển → xét hồ sơ), số vòng phỏng vấn 1–3, thời gian 4–6 tuần, và lời khuyên chốt: ở Nhật, nhảy việc liên tục bị đánh giá xấu. Số liệu là kinh nghiệm của một công ty hỗ trợ chuyển việc thật, trình bày như lời chuyên gia trong video — không phải thống kê chính thức, người học nghe như tham khảo thực tế.
+- Kiểm: thời gian đơn điệu không chồng lấn, dòng cuối ≤ durationSec (621); furigana ghép == câu gốc; từ vựng xuất hiện trong câu gắn kèm. Mốc thời gian theo ranh giới phụ đề — nghe kiểm ở vòng duyệt cuối.

@@ -1,0 +1,24 @@
+[Script Info]
+Title: Teaser 382.97-486.46 of akane-sweets-payment
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,60,1
+Style: VI,Arial,34,&H00FFF2B2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:11.05,JP,,0,0,0,,では会計をします。すみません、お願いします。これは持ち帰りで、これは食べていきます。はい、承知いたしました。
+Dialogue: 1,0:00:00.00,0:00:11.05,VI,,0,0,0,,'Giờ tính tiền nhé. Xin lỗi, cho tôi thanh toán. Cái này mang về, cái này ăn tại đây.' — 'Vâng, đã rõ ạ.'
+Dialogue: 0,0:00:13.22,0:00:24.80,JP,,0,0,0,,あと飲み物もいいですか？カフェラテのアイス、Mサイズでお願いします。はい、承知しました。カフェラテMサイズ、アイスですね。
+Dialogue: 1,0:00:13.22,0:00:24.80,VI,,0,0,0,,'Cho tôi gọi thêm đồ uống nữa. Một latte đá, cỡ M.' — 'Vâng, đã rõ. Latte đá cỡ M, đúng không ạ.'
+Dialogue: 0,0:00:30.62,0:00:42.45,JP,,0,0,0,,合計4点で3240円でございます。クレジットカード使えますか？はい、使えます。こちらにタッチか差し込みになるんですけども。はい、タッチで。
+Dialogue: 1,0:00:30.62,0:00:42.45,VI,,0,0,0,,'Tổng cộng 4 món là 3.240 yên ạ.' — 'Dùng thẻ tín dụng được không?' — 'Được ạ. Máy này chạm hoặc cắm thẻ…' — 'Chạm nhé.'
+Dialogue: 0,0:01:10.05,0:01:17.50,JP,,0,0,0,,お先に、お持ち帰り用です。ちなみにこちらの袋はいくらですか？30円でおつけできます。30円だそうです。
+Dialogue: 1,0:01:10.05,0:01:17.50,VI,,0,0,0,,'Phần mang về của quý khách đây ạ.' — 'À, túi này bao nhiêu tiền?' — 'Thêm 30 yên ạ.' — 'Nghe nói là 30 yên.'
+Dialogue: 0,0:01:25.48,0:01:43.49,JP,,0,0,0,,現金が使えなくて…カードかPayPayか…クレジットカードでいいですか。じゃあ現金は使えなくて、キャッシュレス。わかりました。こちらは現金は使えないそうなので、クレジットカードとか他の支払い方法になります。
+Dialogue: 1,0:01:25.48,0:01:43.49,VI,,0,0,0,,'Ở đây không dùng tiền mặt được… thẻ hoặc PayPay… thẻ tín dụng được không ạ?' — 'Vậy là không dùng tiền mặt, chỉ không tiền mặt thôi.' — 'Hiểu rồi. Nghe nói quán này không nhận tiền mặt, nên phải dùng thẻ tín dụng hoặc cách trả khác.'

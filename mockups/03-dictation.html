@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mockup 3 — Chép chính tả · ViMai Video</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#123A6F; --accent:#E03E2D; --stage:#0B1220; --stage2:#131E33;
+    --border:#24334D; --text:#F1F5F9; --muted:#94A3B8; --ok:#2F9E6E;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#E8EDF3;font-family:"Be Vietnam Pro","Noto Sans JP",sans-serif;padding:24px 0}
+  .phone{width:390px;min-height:844px;background:var(--stage);margin:0 auto;border-radius:24px;overflow:hidden;box-shadow:0 8px 32px rgba(11,18,32,.4);display:flex;flex-direction:column;color:var(--text)}
+  .jp{font-family:"Noto Sans JP","Be Vietnam Pro",sans-serif}
+  .topbar{display:flex;align-items:center;gap:12px;padding:16px 16px 10px}
+  .topbar .ttl{font-size:14px;font-weight:600}
+  .topbar .cnt{margin-left:auto;font-size:12px;font-weight:700;color:var(--muted)}
+  .stage{margin:4px 16px 0;aspect-ratio:16/7;background:#000;border-radius:12px;position:relative;display:flex;align-items:center;justify-content:center}
+  .stage .play{width:48px;height:48px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;color:#fff}
+  .stage .bar{position:absolute;left:10px;right:10px;bottom:10px;height:4px;border-radius:99px;background:rgba(255,255,255,.25)}
+  .stage .bar i{display:block;width:38%;height:100%;border-radius:99px;background:var(--accent)}
+  .modes{display:flex;gap:8px;padding:16px 16px 4px}
+  .mode{flex:1;text-align:center;font-size:13px;font-weight:600;padding:9px 0;border-radius:10px;border:1px solid var(--border);color:var(--muted)}
+  .mode.on{background:var(--navy);border-color:var(--navy);color:#fff}
+  .panel{flex:1;padding:14px 16px}
+  .dots{display:flex;gap:6px;margin-bottom:16px}
+  .dots i{width:22px;height:5px;border-radius:99px;background:var(--stage2);border:1px solid var(--border)}
+  .dots i.done{background:var(--ok);border-color:var(--ok)}
+  .dots i.now{background:var(--accent);border-color:var(--accent)}
+  .listen{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .listen .big{width:52px;height:52px;border-radius:50%;background:#fff;color:var(--stage);display:flex;align-items:center;justify-content:center}
+  .listen .slow{font-size:12px;font-weight:700;border:1px solid var(--border);color:#CBD5E1;padding:7px 12px;border-radius:999px}
+  .listen .tr{margin-left:auto;font-size:13px;color:var(--muted)}
+  .input{background:var(--stage2);border:1.5px solid var(--navy);border-radius:12px;padding:14px;font-size:17px;min-height:76px;line-height:1.6}
+  .input .caret{color:var(--accent);font-weight:700}
+  .feedback{margin-top:14px;background:rgba(47,158,110,.14);border:1px solid var(--ok);border-radius:12px;padding:12px 14px}
+  .feedback .h{font-size:14px;font-weight:700;color:#7BD8AE}
+  .feedback .a{font-size:16px;margin-top:5px;line-height:2}
+  .feedback .v{font-size:13px;color:var(--muted);margin-top:2px}
+  ruby rt{font-size:10px;color:#F0A49B}
+  .actions{display:flex;gap:10px;padding:0 16px 18px}
+  .btn{flex:1;text-align:center;font-size:15px;font-weight:700;padding:14px 0;border-radius:12px}
+  .btn.ghost{border:1px solid var(--border);color:#CBD5E1}
+  .btn.main{background:var(--navy);color:#fff}
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="topbar">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m14 6-6 6 6 6"/></svg>
+    <span class="ttl">Mua đồ ở cửa hàng tiện lợi</span>
+    <span class="cnt">Câu 3 / 12</span>
+  </div>
+  <div class="stage">
+    <span class="play"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+    <span class="bar"><i></i></span>
+  </div>
+  <div class="modes">
+    <span class="mode">Phụ đề</span><span class="mode on">Chép chính tả</span><span class="mode">Shadowing</span>
+  </div>
+  <div class="panel">
+    <div class="dots"><i class="done"></i><i class="done"></i><i class="now"></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="listen">
+      <span class="big"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M11 5 6 9H3v6h3l5 4z" fill="currentColor" stroke="none"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></span>
+      <span class="slow">Nghe chậm 0.75×</span>
+      <span class="tr">Nghe câu rồi gõ lại</span>
+    </div>
+    <div class="input jp">はい、みぎがわの たなに あります<span class="caret">|</span></div>
+    <div class="feedback">
+      <div class="h">Đúng rồi! Chỉ khác cách viết một chút:</div>
+      <div class="a jp">はい、<ruby>右側<rt>みぎがわ</rt></ruby>の<ruby>棚<rt>たな</rt></ruby>にあります。</div>
+      <div class="v">Vâng, ở kệ phía bên phải ạ.</div>
+    </div>
+  </div>
+  <div class="actions">
+    <span class="btn ghost">Nghe lại</span>
+    <span class="btn main">Câu tiếp theo</span>
+  </div>
+</div>
+</body>
+</html>

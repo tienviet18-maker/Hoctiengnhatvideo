@@ -1,0 +1,32 @@
+[Script Info]
+Title: Teaser 1003.42-1190.16 of akane-cafe-dictation
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: JP,Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,60,1
+Style: VI,Arial,34,&H00FFF2B2,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,24,24,24,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:05.25,JP,,0,0,0,,いらっしゃいませ。何名様ですか。
+Dialogue: 1,0:00:00.00,0:00:05.25,VI,,0,0,0,,'Xin chào quý khách. Quý khách đi mấy người ạ?'
+Dialogue: 0,0:00:23.12,0:00:27.65,JP,,0,0,0,,予約した鈴木です。
+Dialogue: 1,0:00:23.12,0:00:27.65,VI,,0,0,0,,'Tôi là Suzuki, đã đặt bàn trước.'
+Dialogue: 0,0:00:27.65,0:00:34.31,JP,,0,0,0,,かしこまりました。空いているお好きなお席にどうぞ。
+Dialogue: 1,0:00:27.65,0:00:34.31,VI,,0,0,0,,'Vâng, tôi rõ rồi ạ. Xin mời quý khách ngồi vào ghế trống nào mình thích.'
+Dialogue: 0,0:00:39.08,0:00:47.27,JP,,0,0,0,,ご注文がお決まりになりましたら、こちらのベルでお呼びください。
+Dialogue: 1,0:00:39.08,0:00:47.27,VI,,0,0,0,,'Khi đã chọn món xong, xin bấm chuông này gọi nhân viên.'
+Dialogue: 0,0:00:54.18,0:01:07.17,JP,,0,0,0,,すみません、注文お願いします。アイスコーヒーとサーモンのクリームパスタでお願いします。
+Dialogue: 1,0:00:54.18,0:01:07.17,VI,,0,0,0,,'Xin lỗi, cho tôi gọi món. Cho tôi cà phê đá và mì Ý kem cá hồi.'
+Dialogue: 0,0:02:20.85,0:02:31.17,JP,,0,0,0,,ご注文の品はすべてお揃いですか？チョコレートケーキがまだ来ていません。
+Dialogue: 1,0:02:20.85,0:02:31.17,VI,,0,0,0,,'Món của quý khách đã ra đủ chưa ạ?' — 'Bánh sô-cô-la của tôi chưa ra.'
+Dialogue: 0,0:02:31.17,0:02:40.13,JP,,0,0,0,,お会計の際、こちらの伝票をレジまでお持ちください。お会計お願いします。
+Dialogue: 1,0:02:31.17,0:02:40.13,VI,,0,0,0,,'Khi thanh toán, mang phiếu này ra quầy thu ngân giúp tôi.' — 'Cho tôi thanh toán.'
+Dialogue: 0,0:02:45.96,0:02:59.72,JP,,0,0,0,,クレジットカードでお願いします。タッチか差し込みをお願いします。
+Dialogue: 1,0:02:45.96,0:02:59.72,VI,,0,0,0,,'Cho tôi trả bằng thẻ tín dụng.' — 'Chạm thẻ hoặc tra thẻ vào giúp tôi ạ.'
+Dialogue: 0,0:02:59.72,0:03:06.74,JP,,0,0,0,,ごちそうさまでした。またのお越しをお待ちしております。
+Dialogue: 1,0:02:59.72,0:03:06.74,VI,,0,0,0,,'Cảm ơn vì bữa ăn ngon.' — 'Rất mong quý khách ghé lại lần sau.'
