@@ -4527,18 +4527,6 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "sentenceCount": 9
  },
  {
-  "id": "the-health-checkup",
-  "titles": {
-   "en": "The Annual Health Checkup",
-   "vi": "Buổi khám sức khỏe định kỳ"
-  },
-  "level": "N4",
-  "topic": "daily-life-japan",
-  "source": "original",
-  "free": false,
-  "sentenceCount": 10
- },
- {
   "id": "the-dog-and-its-reflection",
   "titles": {
    "en": "The Dog and Its Reflection",
@@ -4575,18 +4563,6 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "sentenceCount": 9
  },
  {
-  "id": "hashire-merosu",
-  "titles": {
-   "en": "Dazai Osamu's 'Run, Melos!'",
-   "vi": "『Chạy đi Melos』 của Dazai Osamu"
-  },
-  "level": "N4",
-  "topic": "classics",
-  "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 10
- },
- {
   "id": "the-milkmaid",
   "titles": {
    "en": "The Milkmaid",
@@ -4597,18 +4573,6 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10
- },
- {
-  "id": "taketori-monogatari",
-  "titles": {
-   "en": "The Tale of the Bamboo Cutter (Kaguya)",
-   "vi": "Nàng tiên trong ống tre (Kaguya)"
-  },
-  "level": "N4",
-  "topic": "folktale",
-  "source": "original",
-  "free": false,
-  "sentenceCount": 11
  },
  {
   "id": "the-first-bonus",
@@ -4657,18 +4621,6 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10
- },
- {
-  "id": "the-snow-day",
-  "titles": {
-   "en": "The Snow Day",
-   "vi": "Ngày tuyết rơi"
-  },
-  "level": "N5",
-  "topic": "daily-life-japan",
-  "source": "original",
-  "free": true,
-  "sentenceCount": 9
  },
  {
   "id": "the-moving-registration",
@@ -4980,18 +4932,6 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
- },
- {
-  "id": "the-hair-salon",
-  "titles": {
-   "en": "The Hair Salon",
-   "vi": "Tiệm làm tóc"
-  },
-  "level": "N5",
-  "topic": "daily-life-japan",
-  "source": "original",
-  "free": true,
   "sentenceCount": 8
  },
  {

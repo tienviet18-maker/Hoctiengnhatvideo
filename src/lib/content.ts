@@ -349,18 +349,14 @@ import story249 from "../../content/stories/jusan-ya.json";
 import story250 from "../../content/stories/the-star-money.json";
 import story251 from "../../content/stories/the-crow-and-the-pitcher.json";
 import story252 from "../../content/stories/the-fox-and-the-grapes.json";
-import story254 from "../../content/stories/the-health-checkup.json";
 import story255 from "../../content/stories/the-dog-and-its-reflection.json";
 import story256 from "../../content/stories/the-first-payday.json";
 import story257 from "../../content/stories/the-lost-wallet.json";
-import story258 from "../../content/stories/hashire-merosu.json";
 import story259 from "../../content/stories/the-milkmaid.json";
-import story260 from "../../content/stories/taketori-monogatari.json";
 import story261 from "../../content/stories/the-first-bonus.json";
 import story262 from "../../content/stories/the-pension-notice.json";
 import story263 from "../../content/stories/the-year-end-adjustment.json";
 import story264 from "../../content/stories/kasako-jizo.json";
-import story265 from "../../content/stories/the-snow-day.json";
 import story266 from "../../content/stories/the-moving-registration.json";
 import story267 from "../../content/stories/the-japanese-class.json";
 import story268 from "../../content/stories/yodaka-no-hoshi.json";
@@ -387,7 +383,6 @@ import story288 from "../../content/stories/the-company-cafeteria.json";
 import story289 from "../../content/stories/the-town-mouse.json";
 import story290 from "../../content/stories/the-atm.json";
 import story291 from "../../content/stories/the-dentist.json";
-import story292 from "../../content/stories/the-hair-salon.json";
 import story293 from "../../content/stories/the-shepherd-boy.json";
 import story294 from "../../content/stories/the-glasses-shop.json";
 import story295 from "../../content/stories/mai-chan-ep01-hello.json";
@@ -905,18 +900,14 @@ export const STORIES: StoryContent[] = [
   story250 as unknown as StoryContent,
   story251 as unknown as StoryContent,
   story252 as unknown as StoryContent,
-  story254 as unknown as StoryContent,
   story255 as unknown as StoryContent,
   story256 as unknown as StoryContent,
   story257 as unknown as StoryContent,
-  story258 as unknown as StoryContent,
   story259 as unknown as StoryContent,
-  story260 as unknown as StoryContent,
   story261 as unknown as StoryContent,
   story262 as unknown as StoryContent,
   story263 as unknown as StoryContent,
   story264 as unknown as StoryContent,
-  story265 as unknown as StoryContent,
   story266 as unknown as StoryContent,
   story267 as unknown as StoryContent,
   story268 as unknown as StoryContent,
@@ -943,7 +934,6 @@ export const STORIES: StoryContent[] = [
   story289 as unknown as StoryContent,
   story290 as unknown as StoryContent,
   story291 as unknown as StoryContent,
-  story292 as unknown as StoryContent,
   story293 as unknown as StoryContent,
   story294 as unknown as StoryContent,
   story295 as unknown as StoryContent,
