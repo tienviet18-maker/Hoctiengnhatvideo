@@ -47,6 +47,14 @@ export interface Profile {
   name: string;
   onboarded: boolean;
   vip: boolean;
+  /** Onboarding: cấp bắt đầu (tự chọn + nghe thử) */
+  level?: JlptLevel;
+  /** Onboarding: thể loại yêu thích (khoá kệ truyện / video) */
+  interests?: string[];
+  /** Onboarding: mục tiêu phút mỗi ngày */
+  dailyMinutes?: number;
+  /** Onboarding: lúc hay nghe (đi tàu, lái xe...) */
+  listenWhen?: string[];
 }
 
 export const PROFILE_KEY = "vimai-video:profile:v1";

@@ -10,21 +10,10 @@ import { STORY_INDEX, type StoryIndexItem } from "../../lib/catalog.generated";
 import { pickText } from "../../lib/i18n";
 import type { JlptLevel } from "../../lib/content-schema";
 import { PROGRESS_KEY, useLocalJson, type Progress } from "../../lib/store";
+import { SHELF_ORDER, shelfOf, type ShelfKey } from "../../lib/shelves";
 
 const LEVELS: (JlptLevel | "all")[] = ["all", "N5", "N4", "N3", "N2", "N1"];
 const EMPTY_PROGRESS: Record<string, Progress> = {};
-
-/** Thứ tự kệ trong tab Truyện (docs/ux-plan.md mục 2.2). folktale = cổ tích/ngụ ngôn của gói cũ. */
-const SHELF_ORDER = ["rakugo", "mystery", "ghost", "literature", "folktale-jp", "hometown", "world", "life-series", "folktale", "life"] as const;
-type ShelfKey = (typeof SHELF_ORDER)[number];
-
-/** Gói v2 có shelf; gói cũ suy ra từ topic/source. */
-function shelfOf(s: StoryIndexItem): ShelfKey {
-  if (s.shelf) return s.shelf;
-  if (s.topic === "classics") return "literature";
-  if (s.topic === "folktale") return "folktale";
-  return "life";
-}
 
 /** Một bộ truyện nhiều chương chỉ hiện chương đầu trên kệ (hoặc chương đang nghe dở). */
 function collapseSeries(list: StoryIndexItem[], progress: Record<string, Progress>): StoryIndexItem[] {
