@@ -1,0 +1,4624 @@
+{
+  "kind": "story",
+  "id": "furusato-vn-sontinh-1",
+  "titles": {
+    "vi": "Sơn Tinh Thủy Tinh",
+    "en": "The Mountain God and the Water God",
+    "zh-Hans": "山精与水精",
+    "zh-Hant": "山精與水精",
+    "ko": "산신과 수신 (선띤 투이띤)",
+    "tl": "Ang Diyos ng Bundok at ang Diyos ng Tubig",
+    "ne": "पहाडका देवता र पानीका देवता",
+    "id": "Dewa Gunung dan Dewa Air",
+    "pt": "O deus da montanha e o deus das águas",
+    "my": "တောင်နတ်နှင့် ရေနတ်",
+    "th": "เทพแห่งขุนเขากับเทพแห่งสายน้ำ"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "cover": "/covers/furusato-vn-sontinh-1.webp",
+  "free": false,
+  "standard": 2,
+  "series": {
+    "id": "furusato-vn-sontinh",
+    "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "lesson": {
+    "grammarPoints": [
+      {
+        "pattern": "〜ことにする",
+        "example": 2,
+        "meaning": {
+          "vi": "Tự mình quyết định làm ~ (khác 〜ことになる là do người khác hay hoàn cảnh quyết định). Đời sống: 来月から自転車で通うことにしました (tôi quyết định từ tháng sau đi làm bằng xe đạp).",
+          "en": "Decide (by oneself) to ~ (vs 〜ことになる, decided by others or circumstances). Daily life: 来月から自転車で通うことにしました (I've decided to cycle to work from next month).",
+          "zh-Hans": "自己决定做……（〜ことになる则是别人或情况决定的）。生活中：来月から自転車で通うことにしました（我决定下个月开始骑自行车上班）。",
+          "zh-Hant": "自己決定做……（〜ことになる則是別人或情況決定的）。生活中：來月から自転車で通うことにしました（我決定下個月開始騎腳踏車上班）。",
+          "ko": "스스로 ~하기로 결정하다(〜ことになる는 남이나 상황이 결정). 생활: 来月から自転車で通うことにしました(다음 달부터 자전거로 다니기로 했습니다).",
+          "tl": "Magpasya (sarili) na ~ (iba sa 〜ことになる na itinakda ng iba). Hal.: 来月から自転車で通うことにしました (nagpasya akong magbisikleta papasok simula sa susunod na buwan).",
+          "ne": "आफैँ ~ गर्ने निर्णय (〜ことになる अरू वा परिस्थितिले तय)। दैनिक: 来月から自転車で通うことにしました (अर्को महिनादेखि साइकलमा जाने निर्णय गरेँ)।",
+          "id": "Memutuskan sendiri untuk ~ (beda dengan 〜ことになる yang ditentukan pihak lain). Mis.: 来月から自転車で通うことにしました (saya memutuskan naik sepeda mulai bulan depan).",
+          "pt": "Decidir (por si) ~ (diferente de 〜ことになる, decidido por outros). Ex.: 来月から自転車で通うことにしました (decidi ir de bicicleta a partir do mês que vem).",
+          "my": "ကိုယ်တိုင် ~ ဖို့ ဆုံးဖြတ်သည် (〜ことになる က အခြားသူ/အခြေအနေက ဆုံးဖြတ်)။ ဥပမာ: 来月から自転車で通うことにしました။",
+          "th": "ตัดสินใจเองว่าจะ ~ (ต่างจาก 〜ことになる ที่ผู้อื่นหรือสถานการณ์กำหนด) เช่น 来月から自転車で通うことにしました (ตัดสินใจว่าเดือนหน้าจะปั่นจักรยานไปทำงาน)"
+        }
+      },
+      {
+        "pattern": "〜ようとする",
+        "example": 29,
+        "meaning": {
+          "vi": "Định làm ~, sắp ~ (hành động bắt đầu nhưng chưa thành). Đời sống: 電車に乗ろうとしたら、ドアが閉まった (vừa định lên tàu thì cửa đóng).",
+          "en": "Try to / be about to ~ (an action started but not completed). Daily life: 電車に乗ろうとしたら、ドアが閉まった (just as I tried to board the train, the doors closed).",
+          "zh-Hans": "想要……、正要……（开始但未完成）。生活中：電車に乗ろうとしたら、ドアが閉まった（正要上电车，门就关了）。",
+          "zh-Hant": "想要……、正要……（開始但未完成）。生活中：電車に乗ろうとしたら、ドアが閉まった（正要上電車，門就關了）。",
+          "ko": "~하려고 하다(시작했지만 이루지 못함). 생활: 電車に乗ろうとしたら、ドアが閉まった(전철을 타려고 했더니 문이 닫혔다).",
+          "tl": "Tangkaing ~ / malapit nang ~ (nasimulan pero hindi natapos). Hal.: 電車に乗ろうとしたら、ドアが閉まった (sasakay na sana ako sa tren pero sumara ang pinto).",
+          "ne": "~ गर्न खोज्नु (सुरु भयो तर पूरा भएन)। दैनिक: 電車に乗ろうとしたら、ドアが閉まった (रेल चढ्न खोज्दा ढोका बन्द भयो)।",
+          "id": "Berusaha / hendak ~ (dimulai tapi belum terwujud). Mis.: 電車に乗ろうとしたら、ドアが閉まった (saat hendak naik kereta, pintunya tertutup).",
+          "pt": "Tentar / estar prestes a ~ (iniciado, não concluído). Ex.: 電車に乗ろうとしたら、ドアが閉まった (quando ia entrar no trem, a porta fechou).",
+          "my": "~ ဖို့ ကြိုးစားသည် (စပေမယ့် မပြီး)။ ဥပမာ: 電車に乗ろうとしたら、ドアが閉まった (ရထားစီးမယ် လုပ်တော့ တံခါးပိတ်သွားတယ်)။",
+          "th": "พยายามจะ / กำลังจะ ~ (เริ่มแต่ยังไม่สำเร็จ) เช่น 電車に乗ろうとしたら、ドアが閉まった (กำลังจะขึ้นรถไฟ ประตูก็ปิด)"
+        }
+      },
+      {
+        "pattern": "どんなに〜ても",
+        "example": 36,
+        "meaning": {
+          "vi": "Dù ~ đến mức nào đi nữa (kết quả vẫn không đổi). Đời sống: どんなに忙しくても、朝ご飯は食べます (dù bận đến mấy tôi vẫn ăn sáng).",
+          "en": "No matter how ~ (the result doesn't change). Daily life: どんなに忙しくても、朝ご飯は食べます (however busy I am, I eat breakfast).",
+          "zh-Hans": "无论多么……也（结果不变）。生活中：どんなに忙しくても、朝ご飯は食べます（再忙也吃早饭）。",
+          "zh-Hant": "無論多麼……也（結果不變）。生活中：どんなに忙しくても、朝ご飯は食べます（再忙也吃早飯）。",
+          "ko": "아무리 ~해도(결과는 그대로). 생활: どんなに忙しくても、朝ご飯は食べます(아무리 바빠도 아침은 먹습니다).",
+          "tl": "Gaano man ~ (hindi nagbabago ang resulta). Hal.: どんなに忙しくても、朝ご飯は食べます (gaano man ako kaabala, nag-aalmusal ako).",
+          "ne": "जति ~ भए पनि (नतिजा उस्तै)। दैनिक: どんなに忙しくても、朝ご飯は食べます (जति व्यस्त भए पनि बिहानको खाना खान्छु)।",
+          "id": "Seberapa pun ~ (hasilnya tetap). Mis.: どんなに忙しくても、朝ご飯は食べます (sesibuk apa pun, saya tetap sarapan).",
+          "pt": "Por mais ~ que seja (o resultado não muda). Ex.: どんなに忙しくても、朝ご飯は食べます (por mais ocupado que eu esteja, tomo café da manhã).",
+          "my": "ဘယ်လောက်ပဲ ~ ပါစေ (ရလဒ်မပြောင်း)။ ဥပမာ: どんなに忙しくても、朝ご飯は食べます။",
+          "th": "ไม่ว่าจะ ~ แค่ไหน (ผลไม่เปลี่ยน) เช่น どんなに忙しくても、朝ご飯は食べます (ยุ่งแค่ไหนก็กินข้าวเช้า)"
+        }
+      },
+      {
+        "pattern": "〜ておくと安心",
+        "example": 49,
+        "meaning": {
+          "vi": "Làm sẵn ~ trước thì yên tâm. Rất hay dùng khi chuẩn bị phòng thiên tai: 水と食べ物を三日分用意しておくと安心です (chuẩn bị sẵn nước và đồ ăn cho ba ngày thì yên tâm).",
+          "en": "Doing ~ in advance gives peace of mind. Very common for disaster prep: 水と食べ物を三日分用意しておくと安心です (it's reassuring to have three days of water and food ready).",
+          "zh-Hans": "事先……就放心了。防灾准备中很常用：水と食べ物を三日分用意しておくと安心です（备好三天的水和食物就放心了）。",
+          "zh-Hant": "事先……就放心了。防災準備中很常用：水と食べ物を三日分用意しておくと安心です（備好三天的水和食物就放心了）。",
+          "ko": "미리 ~해 두면 안심. 재해 대비에 자주: 水と食べ物を三日分用意しておくと安心です(물과 음식을 사흘 치 준비해 두면 안심입니다).",
+          "tl": "Panatag kung ~ nang maaga. Karaniwan sa paghahanda sa sakuna: 水と食べ物を三日分用意しておくと安心です (panatag kung may nakahandang tubig at pagkain para sa tatlong araw).",
+          "ne": "पहिले नै ~ गरे ढुक्क। विपद् तयारीमा: 水と食べ物を三日分用意しておくと安心です (तीन दिनको पानी र खाना तयार राखे ढुक्क)।",
+          "id": "Kalau ~ sebelumnya, jadi tenang. Sering untuk persiapan bencana: 水と食べ物を三日分用意しておくと安心です (menyiapkan air dan makanan tiga hari membuat tenang).",
+          "pt": "Fazer ~ antes dá tranquilidade. Comum na prevenção de desastres: 水と食べ物を三日分用意しておくと安心です (ter água e comida para três dias tranquiliza).",
+          "my": "ကြို ~ ထားရင် စိတ်ချရ။ ဘေးအန္တရာယ်ကြိုတင်ပြင်ဆင်မှု: 水と食べ物を三日分用意しておくと安心です။",
+          "th": "~ ไว้ก่อนจะอุ่นใจ ใช้บ่อยกับการเตรียมรับภัยพิบัติ: 水と食べ物を三日分用意しておくと安心です (เตรียมน้ำและอาหารไว้สามวันจะอุ่นใจ)"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "ja": "王様が出した条件は、どんなものでしたか。",
+        "choices": [
+          "先におくり物を持ってきた方が、姫と結婚できる",
+          "力が強い方が、姫と結婚できる",
+          "姫が選んだ方が、姫と結婚できる"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Nhà vua phán: ai mang sính lễ đến trước sẽ được cưới công chúa.",
+          "en": "The King declared that whoever brought the gifts first could marry the princess.",
+          "zh-Hans": "国王说：谁先送来聘礼，谁就能娶公主。",
+          "zh-Hant": "國王說：誰先送來聘禮，誰就能娶公主。",
+          "ko": "임금님은 먼저 예물을 가져오는 쪽이 공주와 결혼할 수 있다고 했습니다.",
+          "tl": "Sabi ng Hari: kung sino ang unang magdala ng regalo, siya ang makakapagpakasal sa prinsesa.",
+          "ne": "राजाले भने: जसले पहिले उपहार ल्याउँछ, उसैले राजकुमारीसँग बिहे गर्न पाउँछ।",
+          "id": "Raja berkata: siapa yang lebih dulu membawa hadiah boleh menikahi sang putri.",
+          "pt": "O rei disse: quem trouxesse os presentes primeiro casaria com a princesa.",
+          "my": "ဘုရင်က လက်ဆောင်ကို အရင်ယူလာသူက မင်းသမီးနဲ့ လက်ထပ်ရမယ်လို့ ပြောသည်။",
+          "th": "พระราชาตรัสว่า ใครนำของหมั้นมาก่อนจะได้แต่งงานกับเจ้าหญิง"
+        }
+      },
+      {
+        "ja": "ソンティンが先に着けたのは、どうしてですか。",
+        "choices": [
+          "馬がとても速かったから",
+          "おくり物がどれも山で見つかるものだったから",
+          "トゥイティンが道をまちがえたから"
+        ],
+        "answer": 1,
+        "explain": {
+          "vi": "Voi chín ngà, gà chín cựa, ngựa chín hồng mao đều là sản vật của núi, nên Sơn Tinh sắm đủ ngay trong đêm.",
+          "en": "The tusked elephant, spurred rooster and maned horse all came from the mountains, so Son Tinh gathered them overnight.",
+          "zh-Hans": "象、鸡、马都是山里的东西，所以山精一夜之间就备齐了。",
+          "zh-Hant": "象、雞、馬都是山裡的東西，所以山精一夜之間就備齊了。",
+          "ko": "코끼리, 닭, 말 모두 산에서 나는 것이어서 선띤은 밤사이에 모두 갖추었습니다.",
+          "tl": "Galing sa bundok ang lahat ng hiniling, kaya natipon ito ni Son Tinh sa isang gabi.",
+          "ne": "हात्ती, भाले, घोडा सबै पहाडमा पाइने भएकाले सोन तिनले रातभरमै जुटाए।",
+          "id": "Gajah, ayam jago, dan kuda semuanya berasal dari gunung, jadi Son Tinh mengumpulkannya semalam.",
+          "pt": "Elefante, galo e cavalo vinham todos das montanhas, então Son Tinh os reuniu numa noite.",
+          "my": "ဆင်၊ ကြက်၊ မြင်း အားလုံး တောင်ထွက်ပစ္စည်းဖြစ်လို့ ဆွန်တင်က တစ်ညတည်းနဲ့ စုံအောင် ရှာနိုင်ခဲ့သည်။",
+          "th": "ช้าง ไก่ และม้าล้วนเป็นของจากภูเขา เซินติญจึงหามาได้ครบในคืนเดียว"
+        }
+      },
+      {
+        "ja": "水が上がると、ソンティンはどうしましたか。",
+        "choices": [
+          "姫を連れてにげた",
+          "山をさらに高くした",
+          "トゥイティンにあやまった"
+        ],
+        "answer": 1,
+        "explain": {
+          "vi": "Nước dâng bao nhiêu, Sơn Tinh làm núi cao bấy nhiêu, nên nước không bao giờ tới đỉnh.",
+          "en": "However high the water rose, Son Tinh raised the mountain as much, so it never reached the top.",
+          "zh-Hans": "水涨多高，山精就把山升多高，水始终到不了山顶。",
+          "zh-Hant": "水漲多高，山精就把山升多高，水始終到不了山頂。",
+          "ko": "물이 오르는 만큼 선띤은 산을 높였기 때문에 물은 끝내 꼭대기에 닿지 못했습니다.",
+          "tl": "Gaano man kataas ang tubig, ganoon din itinaas ni Son Tinh ang bundok.",
+          "ne": "पानी जति बढ्यो, सोन तिनले पहाड त्यति नै अग्लो बनाए।",
+          "id": "Setinggi air naik, setinggi itu Son Tinh meninggikan gunung.",
+          "pt": "Quanto mais a água subia, mais Son Tinh erguia a montanha.",
+          "my": "ရေ ဘယ်လောက်တက်တက် ဆွန်တင်က တောင်ကို အဲဒီလောက် မြှင့်ခဲ့သည်။",
+          "th": "น้ำขึ้นเท่าไร เซินติญก็ยกภูเขาให้สูงเท่านั้น"
+        }
+      },
+      {
+        "ja": "このお話は、ベトナムの何を説明していますか。",
+        "choices": [
+          "毎年の雨の季節と洪水",
+          "お正月にもちを食べる理由",
+          "山に動物が多い理由"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Truyện giải thích lũ lụt mùa mưa hằng năm ở miền Bắc: đó là lúc Thủy Tinh lại dâng nước đánh Sơn Tinh.",
+          "en": "The tale explains the yearly rainy-season floods in the north: it's Thuy Tinh attacking Son Tinh again.",
+          "zh-Hans": "故事解释了越南北部每年雨季的洪水：那是水精又来攻打山精。",
+          "zh-Hant": "故事解釋了越南北部每年雨季的洪水：那是水精又來攻打山精。",
+          "ko": "이 이야기는 북부의 해마다 오는 장마철 홍수를 설명합니다. 투이띤이 다시 싸움을 거는 때입니다.",
+          "tl": "Ipinapaliwanag nito ang baha tuwing tag-ulan sa hilaga: muling sumasalakay si Thuy Tinh.",
+          "ne": "कथाले उत्तरको हरेक वर्षको वर्षायामको बाढी बुझाउँछ: थुई तिन फेरि आक्रमण गरेको।",
+          "id": "Kisah ini menjelaskan banjir musim hujan tahunan di utara: Thuy Tinh menyerang lagi.",
+          "pt": "O conto explica as enchentes anuais do norte: é Thuy Tinh atacando de novo.",
+          "my": "ဒီပုံပြင်က မြောက်ပိုင်းရဲ့ နှစ်စဉ် မိုးရာသီရေကြီးမှုကို ရှင်းပြသည်: သွေတင် ပြန်တိုက်တာပါ။",
+          "th": "นิทานอธิบายน้ำท่วมฤดูฝนทุกปีทางเหนือ: คือถุ่ยติญกลับมาโจมตีอีก"
+        }
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "ja": "むかしむかし、ベトナムのフン王の時代のお話です。",
+      "furigana": [
+        {
+          "surface": "むかしむかし、ベトナムのフン",
+          "reading": ""
+        },
+        {
+          "surface": "王",
+          "reading": "おう"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "時代",
+          "reading": "じだい"
+        },
+        {
+          "surface": "のお",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mukashi mukashi, Betonamu no Fun Ou no jidai no ohanashi desu.",
+      "translations": {
+        "vi": "Ngày xửa ngày xưa, đây là câu chuyện vào thời các Vua Hùng của Việt Nam.",
+        "en": "Once upon a time, this is a story from the age of Vietnam's Hung Kings.",
+        "zh-Hans": "很久很久以前，这是越南雄王时代的故事。",
+        "zh-Hant": "很久很久以前，這是越南雄王時代的故事。",
+        "ko": "옛날 옛적, 베트남 훙왕 시대의 이야기입니다.",
+        "tl": "Noong unang panahon, kuwento ito mula sa panahon ng mga Haring Hung ng Vietnam.",
+        "ne": "धेरै धेरै पहिले, भियतनामका हुङ राजाहरूको युगको कथा हो।",
+        "id": "Dahulu kala, inilah kisah dari zaman Raja Hung di Vietnam.",
+        "pt": "Era uma vez, uma história da era dos Reis Hung do Vietnã.",
+        "my": "ရှေးရှေးတုန်းက ဗီယက်နမ် ဟွန်ဘုရင်တို့ခေတ်က ပုံပြင်ပါ။",
+        "th": "นานมาแล้ว นี่คือเรื่องในยุคกษัตริย์หุ่งของเวียดนาม"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「Aの時代」: thời đại A. 「〜のお話です」: là chuyện về ~.",
+        "en": "「Aの時代」 = the era of A. 「〜のお話です」 = it's a story of ~.",
+        "zh-Hans": "「Aの時代」＝A的时代。「〜のお話です」＝是……的故事。",
+        "zh-Hant": "「Aの時代」＝A的時代。「〜のお話です」＝是……的故事。",
+        "ko": "「Aの時代」=A의 시대. 「〜のお話です」=~의 이야기입니다.",
+        "tl": "「Aの時代」 = panahon ni A. 「〜のお話です」 = kuwento ng ~.",
+        "ne": "「Aの時代」 = A को युग। 「〜のお話です」 = ~ को कथा हो।",
+        "id": "「Aの時代」 = zaman A. 「〜のお話です」 = kisah tentang ~.",
+        "pt": "「Aの時代」 = a era de A. 「〜のお話です」 = é uma história de ~.",
+        "my": "「Aの時代」 = A ခေတ်။ 「〜のお話です」 = ~ ပုံပြင်ပါ။",
+        "th": "「Aの時代」 = ยุค A 「〜のお話です」 = เป็นเรื่องของ ~"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=0.3,4.545",
+      "t": [
+        0.3,
+        4.545
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "王様には、ミーヌオンという美しい姫がいました。",
+      "furigana": [
+        {
+          "surface": "王様",
+          "reading": "おうさま"
+        },
+        {
+          "surface": "には、ミーヌオンという",
+          "reading": ""
+        },
+        {
+          "surface": "美",
+          "reading": "うつく"
+        },
+        {
+          "surface": "しい",
+          "reading": ""
+        },
+        {
+          "surface": "姫",
+          "reading": "ひめ"
+        },
+        {
+          "surface": "がいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ousama ni wa, Miinuon to iu utsukushii hime ga imashita.",
+      "translations": {
+        "vi": "Nhà vua có một nàng công chúa xinh đẹp tên là Mị Nương.",
+        "en": "The King had a beautiful daughter named My Nuong.",
+        "zh-Hans": "国王有一位美丽的公主，名叫媚娘。",
+        "zh-Hant": "國王有一位美麗的公主，名叫媚娘。",
+        "ko": "임금님에게는 미느엉이라는 아름다운 공주가 있었습니다.",
+        "tl": "May magandang prinsesa ang Hari na nagngangalang My Nuong.",
+        "ne": "राजाकी मि नुओङ नामकी सुन्दर राजकुमारी थिइन्।",
+        "id": "Raja punya putri cantik bernama My Nuong.",
+        "pt": "O rei tinha uma linda princesa chamada My Nuong.",
+        "my": "ဘုရင်မှာ မီနွမ် ဆိုတဲ့ လှပတဲ့ မင်းသမီးတစ်ပါး ရှိပါတယ်။",
+        "th": "พระราชามีเจ้าหญิงงดงามนามว่ามิเนือง"
+      },
+      "vocab": [
+        {
+          "word": "王様",
+          "reading": "おうさま",
+          "meanings": {
+            "vi": "nhà vua",
+            "en": "king",
+            "zh-Hans": "国王",
+            "zh-Hant": "國王",
+            "ko": "임금님, 왕",
+            "tl": "hari",
+            "ne": "राजा",
+            "id": "raja",
+            "pt": "rei",
+            "my": "ဘုရင်",
+            "th": "พระราชา"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「Aには〜がいる」: A có ~ (người). 「AというB」: B tên là A. 姫 = công chúa.",
+        "en": "「Aには〜がいる」 = A has ~ (a person). 「AというB」 = a B named A. 姫 = princess.",
+        "zh-Hans": "「Aには〜がいる」＝A有……（人）。「AというB」＝名叫A的B。姫＝公主。",
+        "zh-Hant": "「Aには〜がいる」＝A有……（人）。「AというB」＝名叫A的B。姫＝公主。",
+        "ko": "「Aには〜がいる」=A에게는 ~가 있다. 「AというB」=A라는 B. 姫=공주.",
+        "tl": "「Aには〜がいる」 = may ~ si A. 「AというB」 = B na nagngangalang A. 姫 = prinsesa.",
+        "ne": "「Aには〜がいる」 = A का ~ छन्। 「AというB」 = A नामको B। 姫 = राजकुमारी।",
+        "id": "「Aには〜がいる」 = A punya ~. 「AというB」 = B bernama A. 姫 = putri.",
+        "pt": "「Aには〜がいる」 = A tem ~. 「AというB」 = um B chamado A. 姫 = princesa.",
+        "my": "「Aには〜がいる」 = A မှာ ~ ရှိသည်။ 「AというB」 = A ဆိုတဲ့ B။ 姫 = မင်းသမီး။",
+        "th": "「Aには〜がいる」 = A มี ~ 「AというB」 = B ที่ชื่อ A 姫 = เจ้าหญิง"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=5.145,9.171",
+      "t": [
+        5.145,
+        9.171
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "姫が大きくなると、王様は姫にふさわしい夫を探すことにしました。",
+      "furigana": [
+        {
+          "surface": "姫",
+          "reading": "ひめ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きくなると、",
+          "reading": ""
+        },
+        {
+          "surface": "王様",
+          "reading": "おうさま"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "姫",
+          "reading": "ひめ"
+        },
+        {
+          "surface": "にふさわしい",
+          "reading": ""
+        },
+        {
+          "surface": "夫",
+          "reading": "おっと"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "探",
+          "reading": "さが"
+        },
+        {
+          "surface": "すことにしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hime ga ookiku naru to, ousama wa hime ni fusawashii otto o sagasu koto ni shimashita.",
+      "translations": {
+        "vi": "Khi công chúa đến tuổi trưởng thành, nhà vua quyết định tìm cho nàng một người chồng xứng đáng.",
+        "en": "When the princess grew up, the King decided to look for a husband worthy of her.",
+        "zh-Hans": "公主长大后，国王决定为她寻找一位相配的丈夫。",
+        "zh-Hant": "公主長大後，國王決定為她尋找一位相配的丈夫。",
+        "ko": "공주가 자라자 임금님은 공주에게 어울리는 남편을 찾기로 했습니다.",
+        "tl": "Nang lumaki ang prinsesa, nagpasya ang Hari na humanap ng karapat-dapat na asawa para sa kanya.",
+        "ne": "राजकुमारी ठूली भएपछि राजाले उनको योग्य पति खोज्ने निर्णय गरे।",
+        "id": "Setelah sang putri dewasa, Raja memutuskan mencarikan suami yang pantas.",
+        "pt": "Quando a princesa cresceu, o rei decidiu procurar um marido à altura dela.",
+        "my": "မင်းသမီး အရွယ်ရောက်လာတော့ ဘုရင်က သူနဲ့ ထိုက်တန်တဲ့ ခင်ပွန်းကို ရှာဖို့ ဆုံးဖြတ်ပါတယ်။",
+        "th": "เมื่อเจ้าหญิงเติบโตขึ้น พระราชาจึงตัดสินพระทัยหาสามีที่คู่ควรให้"
+      },
+      "vocab": [
+        {
+          "word": "ふさわしい",
+          "reading": "ふさわしい",
+          "meanings": {
+            "vi": "xứng đáng, phù hợp",
+            "en": "suitable, worthy",
+            "zh-Hans": "相称的、合适的",
+            "zh-Hant": "相稱的、合適的",
+            "ko": "어울리는",
+            "tl": "nararapat",
+            "ne": "योग्य",
+            "id": "pantas",
+            "pt": "adequado, digno",
+            "my": "သင့်လျော်သော",
+            "th": "เหมาะสม"
+          },
+          "level": "N1"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ことにする」: quyết định ~ (tự mình chọn), khác 〜ことになる. 「Aにふさわしい」: xứng với A.",
+        "en": "「〜ことにする」 = decide to ~ (one's own choice), vs 〜ことになる. 「Aにふさわしい」 = worthy of A.",
+        "zh-Hans": "「〜ことにする」＝决定……（自己决定），对比〜ことになる。「Aにふさわしい」＝与A相称。",
+        "zh-Hant": "「〜ことにする」＝決定……（自己決定），對比〜ことになる。「Aにふさわしい」＝與A相稱。",
+        "ko": "「〜ことにする」=~하기로 하다(스스로 결정), 〜ことになる와 비교. 「Aにふさわしい」=A에게 어울리는.",
+        "tl": "「〜ことにする」 = magpasyang ~ (sariling pili). 「Aにふさわしい」 = karapat-dapat kay A.",
+        "ne": "「〜ことにする」 = ~ गर्ने निर्णय गर्नु (आफ्नै)। 「Aにふさわしい」 = A का लागि योग्य।",
+        "id": "「〜ことにする」 = memutuskan ~ (pilihan sendiri). 「Aにふさわしい」 = pantas untuk A.",
+        "pt": "「〜ことにする」 = decidir ~ (por conta própria). 「Aにふさわしい」 = digno de A.",
+        "my": "「〜ことにする」 = ~ ဖို့ ဆုံးဖြတ်သည် (ကိုယ်တိုင်)။ 「Aにふさわしい」 = A နဲ့ ထိုက်တန်သော။",
+        "th": "「〜ことにする」 = ตัดสินใจ ~ (เลือกเอง) 「Aにふさわしい」 = คู่ควรกับ A"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=9.771,15.874",
+      "t": [
+        9.771,
+        15.874
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "すると、ある日、二人の若者がお城にやってきました。",
+      "furigana": [
+        {
+          "surface": "すると、ある",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "若者",
+          "reading": "わかもの"
+        },
+        {
+          "surface": "がお",
+          "reading": ""
+        },
+        {
+          "surface": "城",
+          "reading": "しろ"
+        },
+        {
+          "surface": "にやってきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suruto, aru hi, futari no wakamono ga oshiro ni yattekimashita.",
+      "translations": {
+        "vi": "Thế rồi một hôm, có hai chàng trai đến hoàng cung.",
+        "en": "Then one day, two young men came to the castle.",
+        "zh-Hans": "于是有一天，两位年轻人来到了王宫。",
+        "zh-Hant": "於是有一天，兩位年輕人來到了王宮。",
+        "ko": "그러자 어느 날, 두 젊은이가 성에 찾아왔습니다.",
+        "tl": "Isang araw, dalawang binata ang dumating sa palasyo.",
+        "ne": "अनि एक दिन दुई युवक दरबारमा आए।",
+        "id": "Lalu suatu hari, dua pemuda datang ke istana.",
+        "pt": "Então, um dia, dois rapazes chegaram ao castelo.",
+        "my": "အဲဒီနောက် တစ်နေ့မှာ လူငယ်နှစ်ယောက် နန်းတော်ကို ရောက်လာပါတယ်။",
+        "th": "แล้ววันหนึ่ง ชายหนุ่มสองคนก็มาถึงวัง"
+      },
+      "vocab": [
+        {
+          "word": "城",
+          "reading": "しろ",
+          "meanings": {
+            "vi": "lâu đài, cung điện",
+            "en": "castle",
+            "zh-Hans": "城堡",
+            "zh-Hant": "城堡",
+            "ko": "성",
+            "tl": "kastilyo",
+            "ne": "दरबार, किल्ला",
+            "id": "istana, kastil",
+            "pt": "castelo",
+            "my": "ရဲတိုက်၊ နန်းတော်",
+            "th": "ปราสาท"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "やってくる = tìm đến, kéo đến (có cảm giác \"xuất hiện\"). 二人の若者 = hai chàng trai.",
+        "en": "やってくる = to show up, arrive. 二人の若者 = two young men.",
+        "zh-Hans": "やってくる＝来到（有“出现”之感）。二人の若者＝两个年轻人。",
+        "zh-Hant": "やってくる＝來到（有“出現”之感）。二人の若者＝兩個年輕人。",
+        "ko": "やってくる=찾아오다. 二人の若者=두 젊은이.",
+        "tl": "やってくる = dumating, sumulpot. 二人の若者 = dalawang binata.",
+        "ne": "やってくる = आइपुग्नु। 二人の若者 = दुई युवक।",
+        "id": "やってくる = datang, muncul. 二人の若者 = dua pemuda.",
+        "pt": "やってくる = aparecer, chegar. 二人の若者 = dois rapazes.",
+        "my": "やってくる = ရောက်လာသည်။ 二人の若者 = လူငယ်နှစ်ယောက်။",
+        "th": "やってくる = มาถึง โผล่มา 二人の若者 = ชายหนุ่มสองคน"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=16.474,21.272",
+      "t": [
+        16.474,
+        21.272
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "一人は、山の神のソンティンです。",
+      "furigana": [
+        {
+          "surface": "一人",
+          "reading": "ひとり"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "神",
+          "reading": "かみ"
+        },
+        {
+          "surface": "のソンティンです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hitori wa, yama no kami no Sontin desu.",
+      "translations": {
+        "vi": "Một người là Sơn Tinh, thần núi.",
+        "en": "One was Son Tinh, the god of the mountains.",
+        "zh-Hans": "一位是山神——山精。",
+        "zh-Hant": "一位是山神——山精。",
+        "ko": "한 사람은 산의 신 선띤입니다.",
+        "tl": "Ang isa ay si Son Tinh, ang diyos ng bundok.",
+        "ne": "एक जना पहाडका देवता सोन तिन थिए।",
+        "id": "Yang satu adalah Son Tinh, dewa gunung.",
+        "pt": "Um era Son Tinh, o deus das montanhas.",
+        "my": "တစ်ယောက်က တောင်နတ် ဆွန်တင် ပါ။",
+        "th": "คนหนึ่งคือเซินติญ เทพแห่งขุนเขา"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「一人は〜、もう一人は〜」: một người là ~, người kia là ~. 「AのB」: B là A (山の神のソンティン = Sơn Tinh, vị thần núi).",
+        "en": "「一人は〜、もう一人は〜」 = one is ~, the other ~. 「AのB」 here = B, who is A (the mountain god Son Tinh).",
+        "zh-Hans": "「一人は〜、もう一人は〜」＝一个是……，另一个是……。「AのB」＝作为A的B。",
+        "zh-Hant": "「一人は〜、もう一人は〜」＝一個是……，另一個是……。「AのB」＝作為A的B。",
+        "ko": "「一人は〜、もう一人は〜」=한 사람은 ~, 또 한 사람은 ~. 「AのB」=A인 B.",
+        "tl": "「一人は〜、もう一人は〜」 = ang isa ay ~, ang isa pa ay ~. 「AのB」 = si B na isang A.",
+        "ne": "「一人は〜、もう一人は〜」 = एक जना ~, अर्को ~। 「AのB」 = A भएका B।",
+        "id": "「一人は〜、もう一人は〜」 = yang satu ~, yang lain ~. 「AのB」 = B yang merupakan A.",
+        "pt": "「一人は〜、もう一人は〜」 = um é ~, o outro ~. 「AのB」 = B, que é A.",
+        "my": "「一人は〜、もう一人は〜」 = တစ်ယောက်က ~၊ နောက်တစ်ယောက်က ~။ 「AのB」 = A ဖြစ်သော B။",
+        "th": "「一人は〜、もう一人は〜」 = คนหนึ่งคือ ~ อีกคนคือ ~ 「AのB」 = B ผู้เป็น A"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=21.872,24.639",
+      "t": [
+        21.872,
+        24.639
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ソンティンが手をふると、平らな土地から山や丘が次々に生まれました。",
+      "furigana": [
+        {
+          "surface": "ソンティンが",
+          "reading": ""
+        },
+        {
+          "surface": "手",
+          "reading": "て"
+        },
+        {
+          "surface": "をふると、",
+          "reading": ""
+        },
+        {
+          "surface": "平",
+          "reading": "たい"
+        },
+        {
+          "surface": "らな",
+          "reading": ""
+        },
+        {
+          "surface": "土地",
+          "reading": "とち"
+        },
+        {
+          "surface": "から",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "や",
+          "reading": ""
+        },
+        {
+          "surface": "丘",
+          "reading": "おか"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "次々",
+          "reading": "つぎつぎ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "生",
+          "reading": "う"
+        },
+        {
+          "surface": "まれました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sontin ga te o furu to, taira na tochi kara yama ya oka ga tsugitsugi ni umaremashita.",
+      "translations": {
+        "vi": "Sơn Tinh vẫy tay một cái, từ đất bằng mọc lên hết núi này đến đồi khác.",
+        "en": "When Son Tinh waved his hand, mountains and hills rose one after another from the flat land.",
+        "zh-Hans": "山精一挥手，平地上就接连冒出了山和丘陵。",
+        "zh-Hant": "山精一揮手，平地上就接連冒出了山和丘陵。",
+        "ko": "선띤이 손을 흔들면 평평한 땅에서 산과 언덕이 잇따라 생겨났습니다.",
+        "tl": "Kapag kumaway si Son Tinh, sunud-sunod na sumusulpot ang bundok at burol mula sa patag na lupa.",
+        "ne": "सोन तिनले हात हल्लाउँदा समतल जमिनबाट एकपछि अर्को पहाड र डाँडा निस्किए।",
+        "id": "Ketika Son Tinh melambaikan tangan, gunung dan bukit muncul satu demi satu dari tanah datar.",
+        "pt": "Quando Son Tinh acenava, montanhas e colinas surgiam uma após outra da terra plana.",
+        "my": "ဆွန်တင်က လက်ယမ်းလိုက်ရင် မြေပြန့်ကနေ တောင်နဲ့ ကုန်းတွေ တစ်ခုပြီးတစ်ခု ပေါ်လာပါတယ်။",
+        "th": "เมื่อเซินติญโบกมือ ภูเขาและเนินก็ผุดขึ้นจากที่ราบทีละลูก"
+      },
+      "vocab": [
+        {
+          "word": "平ら",
+          "reading": "たいら",
+          "meanings": {
+            "vi": "bằng phẳng",
+            "en": "flat",
+            "zh-Hans": "平坦",
+            "zh-Hant": "平坦",
+            "ko": "평평함",
+            "tl": "patag",
+            "ne": "समतल",
+            "id": "datar",
+            "pt": "plano",
+            "my": "ပြန့်ပြူး",
+            "th": "ราบเรียบ"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "土地",
+          "reading": "とち",
+          "meanings": {
+            "vi": "đất đai",
+            "en": "land",
+            "zh-Hans": "土地",
+            "zh-Hant": "土地",
+            "ko": "땅",
+            "tl": "lupa",
+            "ne": "जमिन",
+            "id": "tanah",
+            "pt": "terra, terreno",
+            "my": "မြေ",
+            "th": "ที่ดิน"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜と、…」: hễ ~ là … (kết quả tự nhiên). 平らな = bằng phẳng (な-tính từ). 次々に = liên tiếp.",
+        "en": "「〜と、…」 = whenever ~, … (natural result). 平らな = flat (na-adj). 次々に = one after another.",
+        "zh-Hans": "「〜と、…」＝一……就……。平らな＝平坦的。次々に＝接连。",
+        "zh-Hant": "「〜と、…」＝一……就……。平らな＝平坦的。次々に＝接連。",
+        "ko": "「〜と、…」=~하면 …. 平らな=평평한. 次々に=잇따라.",
+        "tl": "「〜と、…」 = kapag ~, …. 平らな = patag. 次々に = sunud-sunod.",
+        "ne": "「〜と、…」 = ~ गर्दा …। 平らな = समतल। 次々に = एकपछि अर्को।",
+        "id": "「〜と、…」 = bila ~, …. 平らな = datar. 次々に = satu demi satu.",
+        "pt": "「〜と、…」 = quando ~, …. 平らな = plano. 次々に = um após outro.",
+        "my": "「〜と、…」 = ~ ရင် …။ 平らな = ပြန့်ပြူးသော။ 次々に = တစ်ခုပြီးတစ်ခု။",
+        "th": "「〜と、…」 = เมื่อ ~ ก็ … 平らな = ราบเรียบ 次々に = ทีละอย่าง"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=25.239,31.448",
+      "t": [
+        25.239,
+        31.448
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "もう一人は、水の神のトゥイティンです。",
+      "furigana": [
+        {
+          "surface": "もう",
+          "reading": ""
+        },
+        {
+          "surface": "一人",
+          "reading": "ひとり"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "神",
+          "reading": "かみ"
+        },
+        {
+          "surface": "のトゥイティンです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mou hitori wa, mizu no kami no Tuitin desu.",
+      "translations": {
+        "vi": "Người kia là Thủy Tinh, thần nước.",
+        "en": "The other was Thuy Tinh, the god of water.",
+        "zh-Hans": "另一位是水神——水精。",
+        "zh-Hant": "另一位是水神——水精。",
+        "ko": "또 한 사람은 물의 신 투이띤입니다.",
+        "tl": "Ang isa pa ay si Thuy Tinh, ang diyos ng tubig.",
+        "ne": "अर्का पानीका देवता थुई तिन थिए।",
+        "id": "Yang lain adalah Thuy Tinh, dewa air.",
+        "pt": "O outro era Thuy Tinh, o deus das águas.",
+        "my": "နောက်တစ်ယောက်က ရေနတ် သွေတင် ပါ။",
+        "th": "อีกคนคือถุ่ยติญ เทพแห่งสายน้ำ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "もう一人 = người còn lại, thêm một người.",
+        "en": "もう一人 = the other person, one more person.",
+        "zh-Hans": "もう一人＝另一个人。",
+        "zh-Hant": "もう一人＝另一個人。",
+        "ko": "もう一人=또 한 사람.",
+        "tl": "もう一人 = ang isa pa.",
+        "ne": "もう一人 = अर्को एक जना।",
+        "id": "もう一人 = seorang lagi.",
+        "pt": "もう一人 = o outro.",
+        "my": "もう一人 = နောက်တစ်ယောက်။",
+        "th": "もう一人 = อีกคนหนึ่ง"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=32.048,35.282",
+      "t": [
+        32.048,
+        35.282
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "トゥイティンが声を上げると、風がふき、雨がざあざあと降り始めました。",
+      "furigana": [
+        {
+          "surface": "トゥイティンが",
+          "reading": ""
+        },
+        {
+          "surface": "声",
+          "reading": "こえ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "あ"
+        },
+        {
+          "surface": "げると、",
+          "reading": ""
+        },
+        {
+          "surface": "風",
+          "reading": "かぜ"
+        },
+        {
+          "surface": "がふき、",
+          "reading": ""
+        },
+        {
+          "surface": "雨",
+          "reading": "あめ"
+        },
+        {
+          "surface": "がざあざあと",
+          "reading": ""
+        },
+        {
+          "surface": "降",
+          "reading": "ふ"
+        },
+        {
+          "surface": "り",
+          "reading": ""
+        },
+        {
+          "surface": "始",
+          "reading": "はじ"
+        },
+        {
+          "surface": "めました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tuitin ga koe o ageru to, kaze ga fuki, ame ga zaazaato furihajimemashita.",
+      "translations": {
+        "vi": "Thủy Tinh hô một tiếng, gió liền nổi lên, mưa bắt đầu trút xuống ào ào.",
+        "en": "When Thuy Tinh raised his voice, the wind blew and rain began pouring down.",
+        "zh-Hans": "水精一声大喊，就刮起了风，哗哗地下起了雨。",
+        "zh-Hant": "水精一聲大喊，就颳起了風，嘩嘩地下起了雨。",
+        "ko": "투이띤이 소리를 지르면 바람이 불고 비가 쏴쏴 내리기 시작했습니다.",
+        "tl": "Kapag sumigaw si Thuy Tinh, humahangin at bumubuhos ang ulan.",
+        "ne": "थुई तिनले आवाज निकाल्दा हावा चल्यो र झमझम पानी पर्न थाल्यो।",
+        "id": "Ketika Thuy Tinh berseru, angin bertiup dan hujan turun deras.",
+        "pt": "Quando Thuy Tinh erguia a voz, o vento soprava e a chuva começava a despencar.",
+        "my": "သွေတင်က အော်လိုက်ရင် လေတိုက်ပြီး မိုးက သဲသဲမဲမဲ ရွာလာပါတယ်။",
+        "th": "เมื่อถุ่ยติญเปล่งเสียง ลมก็พัด ฝนก็เริ่มตกซู่ ๆ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "声を上げる = cất tiếng, hô to. ざあざあ = (mưa) ào ào. ふき、 (liên dụng): nối hai hành động.",
+        "en": "声を上げる = to raise one's voice. ざあざあ = (rain) pouring. ふき、 links two actions.",
+        "zh-Hans": "声を上げる＝大声喊。ざあざあ＝哗哗（雨声）。ふき、连接动作。",
+        "zh-Hant": "聲を上げる＝大聲喊。ざあざあ＝嘩嘩（雨聲）。ふき、連線動作。",
+        "ko": "声を上げる=소리를 지르다. ざあざあ=쏴쏴. ふき、로 동작 연결.",
+        "tl": "声を上げる = sumigaw. ざあざあ = buhos ng ulan. ふき、 nag-uugnay.",
+        "ne": "声を上げる = आवाज निकाल्नु। ざあざあ = झमझम। ふき、 जोड्छ।",
+        "id": "声を上げる = berseru. ざあざあ = deras (hujan). ふき、 menyambung.",
+        "pt": "声を上げる = erguer a voz. ざあざあ = chuva forte. ふき、 liga ações.",
+        "my": "声を上げる = အော်သည်။ ざあざあ = သဲသဲမဲမဲ။ ふき、 ဆက်သည်။",
+        "th": "声を上げる = เปล่งเสียง ざあざあ = (ฝน) ซู่ ๆ ふき、 เชื่อมการกระทำ"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=35.882,41.549",
+      "t": [
+        35.882,
+        41.549
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "どちらの若者も力が強く、王様はどちらを選べばいいか、わかりませんでした。",
+      "furigana": [
+        {
+          "surface": "どちらの",
+          "reading": ""
+        },
+        {
+          "surface": "若者",
+          "reading": "わかもの"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "力",
+          "reading": "ちから"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "強",
+          "reading": "つよ"
+        },
+        {
+          "surface": "く、",
+          "reading": ""
+        },
+        {
+          "surface": "王様",
+          "reading": "おうさま"
+        },
+        {
+          "surface": "はどちらを",
+          "reading": ""
+        },
+        {
+          "surface": "選",
+          "reading": "えら"
+        },
+        {
+          "surface": "べばいいか、わかりませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Dochira no wakamono mo chikara ga tsuyoku, ousama wa dochira o erabebaii ka, wakarimasendeshita.",
+      "translations": {
+        "vi": "Chàng trai nào cũng tài giỏi, nhà vua không biết nên chọn ai.",
+        "en": "Both young men were powerful, and the King didn't know which one to choose.",
+        "zh-Hans": "两位年轻人都力量强大，国王不知道该选哪一位。",
+        "zh-Hant": "兩位年輕人都力量強大，國王不知道該選哪一位。",
+        "ko": "두 젊은이 모두 힘이 세서, 임금님은 누구를 골라야 할지 몰랐습니다.",
+        "tl": "Parehong malakas ang dalawa, kaya hindi alam ng Hari kung sino ang pipiliin.",
+        "ne": "दुवै युवक बलिया थिए, राजालाई कसलाई छान्ने थाहा भएन।",
+        "id": "Kedua pemuda itu sama kuatnya, Raja tak tahu harus memilih siapa.",
+        "pt": "Os dois eram fortes, e o rei não sabia qual escolher.",
+        "my": "လူငယ်နှစ်ယောက်လုံး အားကောင်းလို့ ဘုရင်က ဘယ်သူ့ကို ရွေးရမှန်း မသိပါဘူး။",
+        "th": "ชายหนุ่มทั้งสองแข็งแกร่ง พระราชาไม่รู้ว่าควรเลือกใคร"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ばいいか、わからない」: không biết nên ~ thế nào. 「どちらの〜も」: cả hai ~ đều.",
+        "en": "「〜ばいいか、わからない」 = not know what one should ~. 「どちらの〜も」 = both ~.",
+        "zh-Hans": "「〜ばいいか、わからない」＝不知道该……。「どちらの〜も」＝两个……都。",
+        "zh-Hant": "「〜ばいいか、わからない」＝不知道該……。「どちらの〜も」＝兩個……都。",
+        "ko": "「〜ばいいか、わからない」=어떻게 ~해야 할지 모르다. 「どちらの〜も」=어느 ~도.",
+        "tl": "「〜ばいいか、わからない」 = hindi alam kung ano ang dapat ~. 「どちらの〜も」 = parehong ~.",
+        "ne": "「〜ばいいか、わからない」 = के ~ गर्ने थाहा नहुनु। 「どちらの〜も」 = दुवै ~।",
+        "id": "「〜ばいいか、わからない」 = tidak tahu harus ~. 「どちらの〜も」 = kedua ~.",
+        "pt": "「〜ばいいか、わからない」 = não saber o que ~. 「どちらの〜も」 = ambos ~.",
+        "my": "「〜ばいいか、わからない」 = ဘယ်လို ~ ရမလဲ မသိ။ 「どちらの〜も」 = နှစ်ခုလုံး ~။",
+        "th": "「〜ばいいか、わからない」 = ไม่รู้ว่าควร ~ 「どちらの〜も」 = ทั้งสอง ~"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=42.149,49.065",
+      "t": [
+        42.149,
+        49.065
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「困ったな。どちらもりっぱな若者だ。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "困",
+          "reading": "こま"
+        },
+        {
+          "surface": "ったな。どちらもりっぱな",
+          "reading": ""
+        },
+        {
+          "surface": "若者",
+          "reading": "わかもの"
+        },
+        {
+          "surface": "だ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Komatta na. Dochira mo rippa na wakamono da.”",
+      "translations": {
+        "vi": "\"Khó xử thật. Chàng nào cũng là bậc anh tài.\"",
+        "en": "\"What a dilemma. Both are fine young men.\"",
+        "zh-Hans": "“真为难啊。两个都是出色的年轻人。”",
+        "zh-Hant": "“真為難啊。兩個都是出色的年輕人。”",
+        "ko": "\"난처하구나. 둘 다 훌륭한 젊은이로다.\"",
+        "tl": "\"Mahirap ito. Parehong mahusay na binata.\"",
+        "ne": "\"अप्ठ्यारो पर्‍यो। दुवै असल युवक हुन्।\"",
+        "id": "\"Sulit sekali. Keduanya pemuda yang hebat.\"",
+        "pt": "\"Que dilema. Os dois são ótimos rapazes.\"",
+        "my": "\"ခက်တော့ခက်ပြီ။ နှစ်ယောက်လုံး ထူးချွန်တဲ့ လူငယ်တွေပဲ။\"",
+        "th": "\"ลำบากใจจริง ทั้งสองล้วนเป็นชายหนุ่มที่ยอดเยี่ยม\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「困ったな」: khó xử quá (tự nói một mình). 「どちらも」: cả hai đều.",
+        "en": "「困ったな」 = what a fix (talking to oneself). 「どちらも」 = both.",
+        "zh-Hans": "「困ったな」＝真为难（自言自语）。「どちらも」＝两个都。",
+        "zh-Hant": "「困ったな」＝真為難（自言自語）。「どちらも」＝兩個都。",
+        "ko": "「困ったな」=난처하네(혼잣말). 「どちらも」=둘 다.",
+        "tl": "「困ったな」 = naku, mahirap (sa sarili). 「どちらも」 = pareho.",
+        "ne": "「困ったな」 = अप्ठ्यारो (आफैँसँग)। 「どちらも」 = दुवै।",
+        "id": "「困ったな」 = waduh, sulit (bicara sendiri). 「どちらも」 = keduanya.",
+        "pt": "「困ったな」 = que enrascada (para si). 「どちらも」 = ambos.",
+        "my": "「困ったな」 = ခက်ပြီ (ကိုယ့်ဘာသာ)။ 「どちらも」 = နှစ်ခုလုံး။",
+        "th": "「困ったな」 = ลำบากใจจัง (พูดกับตัวเอง) 「どちらも」 = ทั้งสอง"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=49.965,53.034",
+      "t": [
+        49.965,
+        53.034
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "そこで王様は、一つの条件を出しました。",
+      "furigana": [
+        {
+          "surface": "そこで",
+          "reading": ""
+        },
+        {
+          "surface": "王様",
+          "reading": "おうさま"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "ひと"
+        },
+        {
+          "surface": "つの",
+          "reading": ""
+        },
+        {
+          "surface": "条件",
+          "reading": "じょうけん"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sokode ousama wa, hitotsu no jouken o dashimashita.",
+      "translations": {
+        "vi": "Thế là nhà vua đưa ra một điều kiện.",
+        "en": "So the King set a condition.",
+        "zh-Hans": "于是，国王提出了一个条件。",
+        "zh-Hant": "於是，國王提出了一個條件。",
+        "ko": "그래서 임금님은 한 가지 조건을 내걸었습니다.",
+        "tl": "Kaya nagbigay ang Hari ng isang kondisyon.",
+        "ne": "त्यसैले राजाले एउटा सर्त राखे।",
+        "id": "Maka Raja mengajukan satu syarat.",
+        "pt": "Então o rei impôs uma condição.",
+        "my": "ဒါကြောင့် ဘုရင်က စည်းကမ်းတစ်ခု ထုတ်ပါတယ်။",
+        "th": "พระราชาจึงตั้งเงื่อนไขขึ้นมาข้อหนึ่ง"
+      },
+      "vocab": [
+        {
+          "word": "条件",
+          "reading": "じょうけん",
+          "meanings": {
+            "vi": "điều kiện",
+            "en": "condition",
+            "zh-Hans": "条件",
+            "zh-Hant": "條件",
+            "ko": "조건",
+            "tl": "kondisyon",
+            "ne": "सर्त",
+            "id": "syarat",
+            "pt": "condição",
+            "my": "အခြေအနေ, စည်းကမ်း",
+            "th": "เงื่อนไข"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「そこで」: vì vậy, thế là (hành động giải quyết vấn đề). 条件を出す = đưa ra điều kiện.",
+        "en": "「そこで」 = so (an action to solve the problem). 条件を出す = to set a condition.",
+        "zh-Hans": "「そこで」＝于是（为解决问题采取行动）。条件を出す＝提出条件。",
+        "zh-Hant": "「そこで」＝於是（為解決問題採取行動）。條件を出す＝提出條件。",
+        "ko": "「そこで」=그래서(해결 행동). 条件を出す=조건을 내걸다.",
+        "tl": "「そこで」 = kaya (hakbang para lutasin). 条件を出す = magbigay ng kondisyon.",
+        "ne": "「そこで」 = त्यसैले (समाधानको कदम)। 条件を出す = सर्त राख्नु।",
+        "id": "「そこで」 = maka (tindakan penyelesaian). 条件を出す = mengajukan syarat.",
+        "pt": "「そこで」 = então (ação para resolver). 条件を出す = impor condição.",
+        "my": "「そこで」 = ဒါကြောင့် (ဖြေရှင်းရန်)။ 条件を出す = စည်းကမ်းထုတ်သည်။",
+        "th": "「そこで」 = จึง (ลงมือแก้ปัญหา) 条件を出す = ตั้งเงื่อนไข"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=53.934,57.677",
+      "t": [
+        53.934,
+        57.677
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「明日の朝、先に結婚のおくり物を持ってきた方に、姫をあげよう。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "明日",
+          "reading": "あした"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "朝",
+          "reading": "あさ"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "先",
+          "reading": "さき"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "結婚",
+          "reading": "けっこん"
+        },
+        {
+          "surface": "のおくり",
+          "reading": ""
+        },
+        {
+          "surface": "物",
+          "reading": "もの"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "ってきた",
+          "reading": ""
+        },
+        {
+          "surface": "方",
+          "reading": "ほう"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "姫",
+          "reading": "ひめ"
+        },
+        {
+          "surface": "をあげよう。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Ashita no asa, saki ni kekkon no okurimono o mottekita hou ni, hime o ageyou.”",
+      "translations": {
+        "vi": "\"Sáng mai, ai mang sính lễ đến trước, ta sẽ gả công chúa cho người ấy.\"",
+        "en": "\"Tomorrow morning, whoever brings the wedding gifts first shall have the princess.\"",
+        "zh-Hans": "“明天早上，谁先送来聘礼，我就把公主嫁给谁。”",
+        "zh-Hant": "“明天早上，誰先送來聘禮，我就把公主嫁給誰。”",
+        "ko": "\"내일 아침, 먼저 결혼 예물을 가져오는 쪽에 공주를 주겠다.\"",
+        "tl": "\"Bukas ng umaga, kung sino ang unang magdala ng regalo sa kasal, siya ang makakakuha sa prinsesa.\"",
+        "ne": "\"भोलि बिहान जसले पहिले विवाहको उपहार ल्याउँछ, उसैलाई राजकुमारी दिनेछु।\"",
+        "id": "\"Besok pagi, siapa yang lebih dulu membawa hadiah pernikahan, dialah yang mendapat sang putri.\"",
+        "pt": "\"Amanhã de manhã, quem trouxer primeiro os presentes de casamento ficará com a princesa.\"",
+        "my": "\"မနက်ဖြန် မနက် လက်ထပ်လက်ဆောင်ကို အရင်ယူလာတဲ့သူကို မင်းသမီး ပေးမယ်။\"",
+        "th": "\"พรุ่งนี้เช้า ใครนำของหมั้นมาก่อน ข้าจะยกเจ้าหญิงให้ผู้นั้น\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜た方に」: cho bên nào đã ~. あげよう = thể ý chí: ta sẽ cho. 先に = trước.",
+        "en": "「〜た方に」 = to whichever one ~. あげよう = volitional: I will give. 先に = first.",
+        "zh-Hans": "「〜た方に」＝给……的那一方。あげよう＝意志形：就给。先に＝先。",
+        "zh-Hant": "「〜た方に」＝給……的那一方。あげよう＝意志形：就給。先に＝先。",
+        "ko": "「〜た方に」=~한 쪽에. あげよう=주겠다. 先に=먼저.",
+        "tl": "「〜た方に」 = sa sinumang ~. あげよう = ibibigay ko. 先に = una.",
+        "ne": "「〜た方に」 = ~ गर्ने पक्षलाई। あげよう = दिनेछु। 先に = पहिले।",
+        "id": "「〜た方に」 = kepada pihak yang ~. あげよう = akan kuberikan. 先に = lebih dulu.",
+        "pt": "「〜た方に」 = a quem ~. あげよう = darei. 先に = primeiro.",
+        "my": "「〜た方に」 = ~ တဲ့ဘက်ကို။ あげよう = ပေးမယ်။ 先に = အရင်။",
+        "th": "「〜た方に」 = ให้ฝ่ายที่ ~ あげよう = จะให้ 先に = ก่อน"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=58.577,64.403",
+      "t": [
+        58.577,
+        64.403
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「おくり物は、もち米のおもちを百個、それに牙が九本あるゾウ。」",
+      "furigana": [
+        {
+          "surface": "「おくり",
+          "reading": ""
+        },
+        {
+          "surface": "物",
+          "reading": "もの"
+        },
+        {
+          "surface": "は、もち",
+          "reading": ""
+        },
+        {
+          "surface": "米",
+          "reading": "ごめ"
+        },
+        {
+          "surface": "のおもちを",
+          "reading": ""
+        },
+        {
+          "surface": "百個",
+          "reading": "ひゃっこ"
+        },
+        {
+          "surface": "、それに",
+          "reading": ""
+        },
+        {
+          "surface": "牙",
+          "reading": "きば"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "九本",
+          "reading": "きゅうほん"
+        },
+        {
+          "surface": "あるゾウ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Okurimono wa, mochigome no omochi o hyakko, soreni kiba ga kyuuhon aru zou.”",
+      "translations": {
+        "vi": "\"Sính lễ gồm một trăm chiếc bánh nếp, cùng voi chín ngà.\"",
+        "en": "\"The gifts: a hundred sticky rice cakes, and an elephant with nine tusks.\"",
+        "zh-Hans": "“聘礼是一百个糯米糕，还有一头九根象牙的大象。”",
+        "zh-Hant": "“聘禮是一百個糯米糕，還有一頭九根象牙的大象。”",
+        "ko": "\"예물은 찹쌀떡 백 개, 그리고 상아가 아홉 개인 코끼리다.\"",
+        "tl": "\"Ang regalo: isandaang malagkit na kakanin, at elepanteng may siyam na pangil.\"",
+        "ne": "\"उपहार: सयवटा टाँसिने चामलका रोटी, र नौवटा दाँत भएको हात्ती।\"",
+        "id": "\"Hadiahnya: seratus kue ketan, dan gajah bergading sembilan.\"",
+        "pt": "\"Os presentes: cem bolos de arroz glutinoso e um elefante de nove presas.\"",
+        "my": "\"လက်ဆောင်က ကောက်ညှင်းမုန့် တစ်ရာနဲ့ အစွယ်ကိုးချောင်းပါတဲ့ ဆင်။\"",
+        "th": "\"ของหมั้นคือขนมข้าวเหนียวร้อยชิ้น และช้างงาเก้ากิ่ง\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "Đếm: 〜個 cho đồ vật nhỏ (百個 = 100 cái), 〜本 cho vật dài (牙が九本 = chín cái ngà).",
+        "en": "Counters: 〜個 for small items (百個 = 100), 〜本 for long things (九本 = nine tusks).",
+        "zh-Hans": "量词：〜個用于小东西（百個＝一百个），〜本用于细长物（九本）。",
+        "zh-Hant": "量詞：〜個用於小東西（百個＝一百個），〜本用於細長物（九本）。",
+        "ko": "조수사: 〜個는 작은 물건(百個=백 개), 〜本은 긴 것(九本=아홉 개).",
+        "tl": "Pambilang: 〜個 sa maliliit na bagay, 〜本 sa mahahaba.",
+        "ne": "गन्ने शब्द: 〜個 साना वस्तु, 〜本 लामा वस्तु।",
+        "id": "Penghitung: 〜個 untuk benda kecil, 〜本 untuk benda panjang.",
+        "pt": "Contadores: 〜個 para coisas pequenas, 〜本 para objetos longos.",
+        "my": "ရေတွက်ပုံ: 〜個 အရာငယ်၊ 〜本 ရှည်လျားသောအရာ။",
+        "th": "ลักษณนาม: 〜個 ของชิ้นเล็ก 〜本 ของยาว"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=65.003,70.624",
+      "t": [
+        65.003,
+        70.624
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「けづめが九本あるニワトリと、赤いたてがみが九本ある馬もだ。」",
+      "furigana": [
+        {
+          "surface": "「けづめが",
+          "reading": ""
+        },
+        {
+          "surface": "九本",
+          "reading": "きゅうほん"
+        },
+        {
+          "surface": "あるニワトリと、",
+          "reading": ""
+        },
+        {
+          "surface": "赤",
+          "reading": "あか"
+        },
+        {
+          "surface": "いたてがみが",
+          "reading": ""
+        },
+        {
+          "surface": "九本",
+          "reading": "きゅうほん"
+        },
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "馬",
+          "reading": "うま"
+        },
+        {
+          "surface": "もだ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kezume ga kyuuhon aru niwatori to, akai tategami ga kyuuhon aru uma mo da.”",
+      "translations": {
+        "vi": "\"Thêm gà chín cựa và ngựa chín hồng mao nữa.\"",
+        "en": "\"Also a rooster with nine spurs, and a horse with nine red manes.\"",
+        "zh-Hans": "“还有九只距的鸡和九缕红鬃的马。”",
+        "zh-Hant": "“還有九隻距的雞和九縷紅鬃的馬。”",
+        "ko": "\"며느리발톱이 아홉 개인 닭과 붉은 갈기가 아홉 가닥인 말도 가져오너라.\"",
+        "tl": "\"Pati tandang na may siyam na tari at kabayong may siyam na pulang kiling.\"",
+        "ne": "\"नौवटा खुट्टाका काँडा भएको भाले र नौवटा रातो जगर भएको घोडा पनि।\"",
+        "id": "\"Juga ayam jago bertaji sembilan dan kuda bersurai merah sembilan.\"",
+        "pt": "\"E também um galo de nove esporões e um cavalo de nove crinas vermelhas.\"",
+        "my": "\"ခြေချွန်းကိုးချောင်းပါတဲ့ ကြက်နဲ့ အနီရောင်လည်ဆံကိုးချောင်းပါတဲ့ မြင်းလည်း ပါရမယ်။\"",
+        "th": "\"ไก่เดือยเก้าเดือย และม้าแผงคอแดงเก้าเส้นด้วย\""
+      },
+      "vocab": [
+        {
+          "word": "馬",
+          "reading": "うま",
+          "meanings": {
+            "vi": "con ngựa",
+            "en": "horse",
+            "zh-Hans": "马",
+            "zh-Hant": "馬",
+            "ko": "말",
+            "tl": "kabayo",
+            "ne": "घोडा",
+            "id": "kuda",
+            "pt": "cavalo",
+            "my": "မြင်း",
+            "th": "ม้า"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「Aもだ」: A nữa (thêm vào danh sách). Đây là sính lễ nổi tiếng trong truyện gốc: voi chín ngà, gà chín cựa, ngựa chín hồng mao.",
+        "en": "「Aもだ」 = A too (adding to a list). These are the famous gifts of the original: nine-tusked elephant, nine-spurred rooster, nine-maned horse.",
+        "zh-Hans": "「Aもだ」＝A也要（追加）。这是原故事中著名的聘礼。",
+        "zh-Hant": "「Aもだ」＝A也要（追加）。這是原故事中著名的聘禮。",
+        "ko": "「Aもだ」=A도다(목록 추가). 원작의 유명한 예물입니다.",
+        "tl": "「Aもだ」 = pati A. Ito ang tanyag na regalo sa orihinal na kuwento.",
+        "ne": "「Aもだ」 = A पनि। मूल कथाका प्रसिद्ध उपहार।",
+        "id": "「Aもだ」 = juga A. Inilah hadiah terkenal dalam kisah aslinya.",
+        "pt": "「Aもだ」 = A também. São os famosos presentes do conto original.",
+        "my": "「Aもだ」 = A လည်း။ မူရင်းပုံပြင်ထဲက နာမည်ကြီးလက်ဆောင်များ။",
+        "th": "「Aもだ」 = A ด้วย นี่คือของหมั้นอันโด่งดังในนิทานต้นฉบับ"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=71.224,76.371",
+      "t": [
+        71.224,
+        76.371
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "どれも、山で見つかるものばかりでした。",
+      "furigana": [
+        {
+          "surface": "どれも、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "つかるものばかりでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Dore mo, yama de mitsukaru mono bakari deshita.",
+      "translations": {
+        "vi": "Tất cả đều là những thứ chỉ tìm thấy ở trên núi.",
+        "en": "Every one of them could only be found in the mountains.",
+        "zh-Hans": "这些全都是山里才找得到的东西。",
+        "zh-Hant": "這些全都是山裡才找得到的東西。",
+        "ko": "모두 산에서 찾을 수 있는 것들뿐이었습니다.",
+        "tl": "Lahat ng iyon ay sa bundok lang matatagpuan.",
+        "ne": "ती सबै पहाडमा मात्र पाइने कुरा थिए।",
+        "id": "Semuanya hanya bisa ditemukan di gunung.",
+        "pt": "Tudo isso só se encontrava nas montanhas.",
+        "my": "အားလုံးက တောင်ပေါ်မှာပဲ တွေ့နိုင်တဲ့ ပစ္စည်းတွေ ဖြစ်ပါတယ်။",
+        "th": "ทั้งหมดล้วนเป็นของที่หาได้บนภูเขาเท่านั้น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「どれも」: cái nào cũng. 「Aばかり」: toàn là A. 見つかる = được tìm thấy (tự động từ).",
+        "en": "「どれも」 = every one. 「Aばかり」 = all A. 見つかる = to be found (intransitive).",
+        "zh-Hans": "「どれも」＝每一个都。「Aばかり」＝全是A。見つかる＝找得到（自动词）。",
+        "zh-Hant": "「どれも」＝每一個都。「Aばかり」＝全是A。見つかる＝找得到（自動詞）。",
+        "ko": "「どれも」=어느 것이나. 「Aばかり」=A뿐. 見つかる=발견되다.",
+        "tl": "「どれも」 = lahat. 「Aばかり」 = puro A. 見つかる = matagpuan.",
+        "ne": "「どれも」 = सबै। 「Aばかり」 = A मात्र। 見つかる = भेटिनु।",
+        "id": "「どれも」 = semuanya. 「Aばかり」 = semua A. 見つかる = ditemukan.",
+        "pt": "「どれも」 = todos. 「Aばかり」 = só A. 見つかる = ser encontrado.",
+        "my": "「どれも」 = အားလုံး။ 「Aばかり」 = A ချည်း။ 見つかる = တွေ့ရသည်။",
+        "th": "「どれも」 = ทุกอย่าง 「Aばかり」 = ล้วนแต่ A 見つかる = หาพบ"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=77.271,80.532",
+      "t": [
+        77.271,
+        80.532
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ソンティンは、急いで山へ帰りました。",
+      "furigana": [
+        {
+          "surface": "ソンティンは、",
+          "reading": ""
+        },
+        {
+          "surface": "急",
+          "reading": "いそ"
+        },
+        {
+          "surface": "いで",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "りました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sontin wa, isoide yama e kaerimashita.",
+      "translations": {
+        "vi": "Sơn Tinh vội vàng trở về núi.",
+        "en": "Son Tinh hurried back to his mountains.",
+        "zh-Hans": "山精急忙回到山里。",
+        "zh-Hant": "山精急忙回到山裡。",
+        "ko": "선띤은 서둘러 산으로 돌아갔습니다.",
+        "tl": "Nagmadaling bumalik si Son Tinh sa bundok.",
+        "ne": "सोन तिन हतारमा पहाड फर्के।",
+        "id": "Son Tinh bergegas pulang ke gunung.",
+        "pt": "Son Tinh voltou depressa às montanhas.",
+        "my": "ဆွန်တင်က အလျင်အမြန် တောင်ပေါ် ပြန်သွားပါတယ်။",
+        "th": "เซินติญรีบกลับขึ้นภูเขา"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "急いで = vội vàng. 「Aへ帰る」: trở về A.",
+        "en": "急いで = in a hurry. 「Aへ帰る」 = return to A.",
+        "zh-Hans": "急いで＝急忙。「Aへ帰る」＝回到A。",
+        "zh-Hant": "急いで＝急忙。「Aへ帰る」＝回到A。",
+        "ko": "急いで=서둘러. 「Aへ帰る」=A로 돌아가다.",
+        "tl": "急いで = nagmamadali. 「Aへ帰る」 = bumalik sa A.",
+        "ne": "急いで = हतारमा। 「Aへ帰る」 = A फर्कनु।",
+        "id": "急いで = bergegas. 「Aへ帰る」 = pulang ke A.",
+        "pt": "急いで = depressa. 「Aへ帰る」 = voltar para A.",
+        "my": "急いで = အလျင်အမြန်။ 「Aへ帰る」 = A ကို ပြန်သည်။",
+        "th": "急いで = อย่างรีบร้อน 「Aへ帰る」 = กลับไป A"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=81.132,84.141",
+      "t": [
+        81.132,
+        84.141
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そして、夜のうちに、言われた物を全部そろえたのです。",
+      "furigana": [
+        {
+          "surface": "そして、",
+          "reading": ""
+        },
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "のうちに、",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "われた",
+          "reading": ""
+        },
+        {
+          "surface": "物",
+          "reading": "もの"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "全部",
+          "reading": "ぜんぶ"
+        },
+        {
+          "surface": "そろえたのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite, yoru no uchi ni, iwareta mono o zenbu soroeta no desu.",
+      "translations": {
+        "vi": "Và ngay trong đêm, chàng đã sắm đủ tất cả lễ vật được yêu cầu.",
+        "en": "And that very night, he gathered every one of the gifts that had been asked for.",
+        "zh-Hans": "他连夜就把要求的东西全部备齐了。",
+        "zh-Hant": "他連夜就把要求的東西全部備齊了。",
+        "ko": "그리고 밤사이에 요구받은 물건을 모두 갖추었습니다.",
+        "tl": "At nang gabi ring iyon, natipon niya ang lahat ng hiniling.",
+        "ne": "अनि रातभरमै माग गरिएका सबै कुरा जुटाए।",
+        "id": "Malam itu juga, ia mengumpulkan semua yang diminta.",
+        "pt": "E, naquela mesma noite, reuniu tudo o que fora pedido.",
+        "my": "ပြီးတော့ ညတွင်းချင်းမှာပဲ တောင်းထားတဲ့ ပစ္စည်းအားလုံးကို စုံအောင် စုဆောင်းခဲ့ပါတယ်။",
+        "th": "และภายในคืนนั้นเอง เขาก็หาของที่ถูกขอมาได้ครบทุกอย่าง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜のうちに」: ngay trong lúc ~ (trước khi hết). そろえる = sắm đủ, gom đủ bộ.",
+        "en": "「〜のうちに」 = within ~ (before it ends). そろえる = to gather a complete set.",
+        "zh-Hans": "「〜のうちに」＝趁……（结束前）。そろえる＝备齐。",
+        "zh-Hant": "「〜のうちに」＝趁……（結束前）。そろえる＝備齊。",
+        "ko": "「〜のうちに」=~ 사이에. そろえる=갖추다.",
+        "tl": "「〜のうちに」 = sa loob ng ~. そろえる = kumpletuhin.",
+        "ne": "「〜のうちに」 = ~ भित्रै। そろえる = जुटाउनु।",
+        "id": "「〜のうちに」 = selama masih ~. そろえる = melengkapi.",
+        "pt": "「〜のうちに」 = ainda durante ~. そろえる = completar.",
+        "my": "「〜のうちに」 = ~ အတွင်းမှာပဲ။ そろえる = စုံအောင်လုပ်သည်။",
+        "th": "「〜のうちに」 = ภายใน ~ そろえる = จัดให้ครบ"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=84.741,89.656",
+      "t": [
+        84.741,
+        89.656
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "次の朝早く、ソンティンはおくり物を持って、お城の門の前に立っていました。",
+      "furigana": [
+        {
+          "surface": "次",
+          "reading": "つぎ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "朝",
+          "reading": "あさ"
+        },
+        {
+          "surface": "早",
+          "reading": "はや"
+        },
+        {
+          "surface": "く、ソンティンはおくり",
+          "reading": ""
+        },
+        {
+          "surface": "物",
+          "reading": "もの"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "って、お",
+          "reading": ""
+        },
+        {
+          "surface": "城",
+          "reading": "しろ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "門",
+          "reading": "もん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "立",
+          "reading": "た"
+        },
+        {
+          "surface": "っていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tsugi no asa hayaku, Sontin wa okurimono o motte, oshiro no mon no mae ni tatteimashita.",
+      "translations": {
+        "vi": "Sáng sớm hôm sau, Sơn Tinh đã mang lễ vật đứng chờ trước cổng thành.",
+        "en": "Early the next morning, Son Tinh stood at the castle gate with the gifts.",
+        "zh-Hans": "第二天一早，山精就带着聘礼站在了王宫门前。",
+        "zh-Hant": "第二天一早，山精就帶著聘禮站在了王宮門前。",
+        "ko": "다음 날 아침 일찍 선띤은 예물을 가지고 성문 앞에 서 있었습니다.",
+        "tl": "Kinaumagahan, nakatayo na si Son Tinh sa tarangkahan ng palasyo dala ang mga regalo.",
+        "ne": "भोलिपल्ट बिहानै सोन तिन उपहार लिएर दरबारको ढोकामा उभिइरहेका थिए।",
+        "id": "Pagi-pagi keesokan harinya, Son Tinh sudah berdiri di gerbang istana membawa hadiah.",
+        "pt": "Bem cedo no dia seguinte, Son Tinh já estava no portão do castelo com os presentes.",
+        "my": "နောက်တစ်နေ့ မနက်စောစောမှာ ဆွန်တင်က လက်ဆောင်တွေ ယူပြီး နန်းတော်တံခါးရှေ့မှာ ရပ်နေပါပြီ။",
+        "th": "เช้าตรู่วันรุ่งขึ้น เซินติญก็ยืนรออยู่หน้าประตูวังพร้อมของหมั้น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ていました」: (lúc đó) đã đang ~ rồi. 朝早く = sáng sớm. 門 = cổng.",
+        "en": "「〜ていました」 = was already ~ing (at that time). 朝早く = early in the morning. 門 = gate.",
+        "zh-Hans": "「〜ていました」＝（那时）已经在……。朝早く＝一大早。門＝大门。",
+        "zh-Hant": "「〜ていました」＝（那時）已經在……。朝早く＝一大早。門＝大門。",
+        "ko": "「〜ていました」=(그때) 이미 ~하고 있었다. 朝早く=아침 일찍. 門=문.",
+        "tl": "「〜ていました」 = (noon) ay ~ na. 朝早く = maagang umaga. 門 = tarangkahan.",
+        "ne": "「〜ていました」 = (त्यस बेला) ~ गरिरहेका थिए। 朝早く = बिहानै। 門 = मूल ढोका।",
+        "id": "「〜ていました」 = (saat itu) sudah ~. 朝早く = pagi-pagi. 門 = gerbang.",
+        "pt": "「〜ていました」 = (naquele momento) já estava ~. 朝早く = bem cedo. 門 = portão.",
+        "my": "「〜ていました」 = (အဲဒီတုန်း) ~ နေပြီ။ 朝早く = မနက်စောစော။ 門 = တံခါးမကြီး။",
+        "th": "「〜ていました」 = (ตอนนั้น) กำลัง ~ อยู่แล้ว 朝早く = เช้าตรู่ 門 = ประตูใหญ่"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=90.256,96.191",
+      "t": [
+        90.256,
+        96.191
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「約束どおり、姫はソンティンのお嫁さんだ。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "約束",
+          "reading": "やくそく"
+        },
+        {
+          "surface": "どおり、",
+          "reading": ""
+        },
+        {
+          "surface": "姫",
+          "reading": "ひめ"
+        },
+        {
+          "surface": "はソンティンのお",
+          "reading": ""
+        },
+        {
+          "surface": "嫁",
+          "reading": "よめ"
+        },
+        {
+          "surface": "さんだ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Yakusokudoori, hime wa Sontin no oyomesan da.”",
+      "translations": {
+        "vi": "\"Đúng như lời hứa, công chúa sẽ là vợ của Sơn Tinh.\"",
+        "en": "\"As promised, the princess shall be Son Tinh's bride.\"",
+        "zh-Hans": "“按照约定，公主就是山精的新娘了。”",
+        "zh-Hant": "“按照約定，公主就是山精的新娘了。”",
+        "ko": "\"약속대로 공주는 선띤의 신부다.\"",
+        "tl": "\"Gaya ng ipinangako, ang prinsesa ay magiging nobya ni Son Tinh.\"",
+        "ne": "\"वाचाअनुसार राजकुमारी सोन तिनकी दुलही हुन्।\"",
+        "id": "\"Sesuai janji, sang putri menjadi pengantin Son Tinh.\"",
+        "pt": "\"Como prometido, a princesa será a noiva de Son Tinh.\"",
+        "my": "\"ကတိအတိုင်း မင်းသမီးက ဆွန်တင်ရဲ့ သတို့သမီးပဲ။\"",
+        "th": "\"ตามสัญญา เจ้าหญิงจะเป็นเจ้าสาวของเซินติญ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「Aどおり」: đúng như A (約束どおり = đúng như lời hứa; 予定どおり = đúng kế hoạch). お嫁さん = cô dâu, vợ.",
+        "en": "「Aどおり」 = just as A (約束どおり = as promised; 予定どおり = as planned). お嫁さん = bride.",
+        "zh-Hans": "「Aどおり」＝按照A（約束どおり、予定どおり）。お嫁さん＝新娘。",
+        "zh-Hant": "「Aどおり」＝按照A（約束どおり、予定どおり）。お嫁さん＝新娘。",
+        "ko": "「Aどおり」=A대로(約束どおり, 予定どおり). お嫁さん=신부.",
+        "tl": "「Aどおり」 = ayon sa A (約束どおり, 予定どおり). お嫁さん = nobya.",
+        "ne": "「Aどおり」 = A अनुसार (約束どおり, 予定どおり)। お嫁さん = दुलही।",
+        "id": "「Aどおり」 = sesuai A (約束どおり, 予定どおり). お嫁さん = pengantin.",
+        "pt": "「Aどおり」 = conforme A (約束どおり, 予定どおり). お嫁さん = noiva.",
+        "my": "「Aどおり」 = A အတိုင်း (約束どおり, 予定どおり)။ お嫁さん = သတို့သမီး။",
+        "th": "「Aどおり」 = ตาม A (約束どおり, 予定どおり) お嫁さん = เจ้าสาว"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=97.091,100.638",
+      "t": [
+        97.091,
+        100.638
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "ソンティンは姫を連れて、自分の山へ帰っていきました。",
+      "furigana": [
+        {
+          "surface": "ソンティンは",
+          "reading": ""
+        },
+        {
+          "surface": "姫",
+          "reading": "ひめ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "連",
+          "reading": "つ"
+        },
+        {
+          "surface": "れて、",
+          "reading": ""
+        },
+        {
+          "surface": "自分",
+          "reading": "じぶん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "っていきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sontin wa hime o tsurete, jibun no yama e kaetteikimashita.",
+      "translations": {
+        "vi": "Sơn Tinh rước công chúa về núi của mình.",
+        "en": "Son Tinh took the princess home to his mountains.",
+        "zh-Hans": "山精带着公主回到了自己的山里。",
+        "zh-Hant": "山精帶著公主回到了自己的山裡。",
+        "ko": "선띤은 공주를 데리고 자기 산으로 돌아갔습니다.",
+        "tl": "Isinama ni Son Tinh ang prinsesa pauwi sa kanyang bundok.",
+        "ne": "सोन तिन राजकुमारीलाई लिएर आफ्नो पहाड फर्के।",
+        "id": "Son Tinh membawa sang putri pulang ke gunungnya.",
+        "pt": "Son Tinh levou a princesa para suas montanhas.",
+        "my": "ဆွန်တင်က မင်းသမီးကို ခေါ်ပြီး ကိုယ့်တောင်ကို ပြန်သွားပါတယ်။",
+        "th": "เซินติญพาเจ้าหญิงกลับไปยังภูเขาของตน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「Aを連れて」: dẫn theo A. 帰っていく = trở về (rời xa nơi người kể).",
+        "en": "「Aを連れて」 = taking A along. 帰っていく = go back (away from the scene).",
+        "zh-Hans": "「Aを連れて」＝带着A。帰っていく＝回去。",
+        "zh-Hant": "「Aを連れて」＝帶著A。帰っていく＝回去。",
+        "ko": "「Aを連れて」=A를 데리고. 帰っていく=돌아가다.",
+        "tl": "「Aを連れて」 = kasama si A. 帰っていく = umuwi palayo.",
+        "ne": "「Aを連れて」 = A लाई लिएर। 帰っていく = फर्केर जानु।",
+        "id": "「Aを連れて」 = membawa A. 帰っていく = pulang pergi.",
+        "pt": "「Aを連れて」 = levando A. 帰っていく = ir embora.",
+        "my": "「Aを連れて」 = A ကို ခေါ်ပြီး။ 帰っていく = ပြန်သွားသည်။",
+        "th": "「Aを連れて」 = พา A ไป 帰っていく = กลับไป"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=101.538,105.943",
+      "t": [
+        101.538,
+        105.943
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "姫は、ソンティンのやさしい目を見て、少し安心しました。",
+      "furigana": [
+        {
+          "surface": "姫",
+          "reading": "ひめ"
+        },
+        {
+          "surface": "は、ソンティンのやさしい",
+          "reading": ""
+        },
+        {
+          "surface": "目",
+          "reading": "め"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "て、",
+          "reading": ""
+        },
+        {
+          "surface": "少",
+          "reading": "すこ"
+        },
+        {
+          "surface": "し",
+          "reading": ""
+        },
+        {
+          "surface": "安心",
+          "reading": "あんしん"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hime wa, Sontin no yasashii me o mite, sukoshi anshinshimashita.",
+      "translations": {
+        "vi": "Nhìn đôi mắt hiền từ của Sơn Tinh, công chúa thấy yên lòng phần nào.",
+        "en": "Seeing Son Tinh's kind eyes, the princess felt a little relieved.",
+        "zh-Hans": "看到山精温柔的眼睛，公主稍稍安心了。",
+        "zh-Hant": "看到山精溫柔的眼睛，公主稍稍安心了。",
+        "ko": "공주는 선띤의 다정한 눈을 보고 조금 안심했습니다.",
+        "tl": "Nang makita ang mabait na mga mata ni Son Tinh, medyo napanatag ang prinsesa.",
+        "ne": "सोन तिनका कोमल आँखा देखेर राजकुमारी अलि ढुक्क भइन्।",
+        "id": "Melihat mata Son Tinh yang lembut, sang putri merasa sedikit tenang.",
+        "pt": "Ao ver os olhos gentis de Son Tinh, a princesa ficou um pouco aliviada.",
+        "my": "ဆွန်တင်ရဲ့ နူးညံ့တဲ့ မျက်လုံးကို မြင်တော့ မင်းသမီးက နည်းနည်း စိတ်အေးသွားပါတယ်။",
+        "th": "เมื่อเห็นดวงตาอ่อนโยนของเซินติญ เจ้าหญิงก็สบายใจขึ้นเล็กน้อย"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "安心する = yên tâm. 少し = một chút. 「〜を見て」: nhìn thấy ~ rồi (nguyên nhân).",
+        "en": "安心する = to feel relieved. 少し = a little. 「〜を見て」 = seeing ~ (as the cause).",
+        "zh-Hans": "安心する＝放心。少し＝稍微。「〜を見て」＝看到……（原因）。",
+        "zh-Hant": "安心する＝放心。少し＝稍微。「〜を見て」＝看到……（原因）。",
+        "ko": "安心する=안심하다. 少し=조금. 「〜を見て」=~을 보고.",
+        "tl": "安心する = mapanatag. 少し = kaunti. 「〜を見て」 = nang makita ang ~.",
+        "ne": "安心する = ढुक्क हुनु। 少し = अलिकति। 「〜を見て」 = ~ देखेर।",
+        "id": "安心する = merasa tenang. 少し = sedikit. 「〜を見て」 = melihat ~.",
+        "pt": "安心する = ficar aliviado. 少し = um pouco. 「〜を見て」 = ao ver ~.",
+        "my": "安心する = စိတ်အေးသည်။ 少し = နည်းနည်း။ 「〜を見て」 = ~ ကို မြင်ပြီး။",
+        "th": "安心する = สบายใจ 少し = เล็กน้อย 「〜を見て」 = เมื่อเห็น ~"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=106.543,111.312",
+      "t": [
+        106.543,
+        111.312
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "しばらくして、トゥイティンがやっとお城に着きました。",
+      "furigana": [
+        {
+          "surface": "しばらくして、トゥイティンがやっとお",
+          "reading": ""
+        },
+        {
+          "surface": "城",
+          "reading": "しろ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "着",
+          "reading": "つ"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shibaraku shite, Tuitin ga yatto oshiro ni tsukimashita.",
+      "translations": {
+        "vi": "Một lúc sau, Thủy Tinh mới đến được hoàng cung.",
+        "en": "A while later, Thuy Tinh finally reached the castle.",
+        "zh-Hans": "过了一会儿，水精才终于赶到王宫。",
+        "zh-Hant": "過了一會兒，水精才終於趕到王宮。",
+        "ko": "얼마 뒤 투이띤이 겨우 성에 도착했습니다.",
+        "tl": "Makalipas ang ilang sandali, saka pa lang dumating si Thuy Tinh sa palasyo.",
+        "ne": "केही बेरपछि बल्ल थुई तिन दरबार आइपुगे।",
+        "id": "Beberapa saat kemudian, barulah Thuy Tinh tiba di istana.",
+        "pt": "Pouco depois, Thuy Tinh enfim chegou ao castelo.",
+        "my": "ခဏကြာမှ သွေတင်က နန်းတော်ကို ရောက်လာပါတယ်။",
+        "th": "ผ่านไปสักพัก ถุ่ยติญจึงมาถึงวัง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「やっと」: mãi mới (đến muộn). 「Aに着く」: đến A.",
+        "en": "「やっと」 = at long last (arriving late). 「Aに着く」 = to arrive at A.",
+        "zh-Hans": "「やっと」＝好不容易才（来晚了）。「Aに着く」＝到达A。",
+        "zh-Hant": "「やっと」＝好不容易才（來晚了）。「Aに著く」＝到達A。",
+        "ko": "「やっと」=겨우(늦게). 「Aに着く」=A에 도착하다.",
+        "tl": "「やっと」 = saka lang (huli). 「Aに着く」 = makarating sa A.",
+        "ne": "「やっと」 = बल्ल (ढिलो)। 「Aに着く」 = A मा पुग्नु।",
+        "id": "「やっと」 = barulah (terlambat). 「Aに着く」 = tiba di A.",
+        "pt": "「やっと」 = enfim (atrasado). 「Aに着く」 = chegar a A.",
+        "my": "「やっと」 = ကြာမှ (နောက်ကျ)။ 「Aに着く」 = A ကို ရောက်သည်။",
+        "th": "「やっと」 = จึงจะ (มาช้า) 「Aに着く」 = ถึง A"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=111.912,115.67",
+      "t": [
+        111.912,
+        115.67
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「なに、もう姫は行ってしまったというのか。」",
+      "furigana": [
+        {
+          "surface": "「なに、もう",
+          "reading": ""
+        },
+        {
+          "surface": "姫",
+          "reading": "ひめ"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "ってしまったというのか。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Nani, mou hime wa itteshimatta to iu no ka.”",
+      "translations": {
+        "vi": "\"Cái gì? Ngươi nói công chúa đã đi rồi sao?\"",
+        "en": "\"What? You mean the princess has already gone?\"",
+        "zh-Hans": "“什么？你是说公主已经走了吗？”",
+        "zh-Hant": "“什麼？你是說公主已經走了嗎？”",
+        "ko": "\"뭐라고? 벌써 공주가 가 버렸단 말이냐?\"",
+        "tl": "\"Ano? Umalis na raw ang prinsesa?\"",
+        "ne": "\"के? राजकुमारी गइसकिन् भन्छौ?\"",
+        "id": "\"Apa? Sang putri sudah pergi?\"",
+        "pt": "\"O quê? A princesa já foi embora?\"",
+        "my": "\"ဘာ၊ မင်းသမီး သွားပြီဆိုတာလား။\"",
+        "th": "\"อะไรนะ เจ้าหญิงไปแล้วอย่างนั้นหรือ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜というのか」: ý ngươi là ~ à? (ngạc nhiên, tức giận). 行ってしまう = đã đi mất.",
+        "en": "「〜というのか」 = are you saying ~?! (surprise, anger). 行ってしまう = to have gone away.",
+        "zh-Hans": "「〜というのか」＝你是说……吗？（惊讶、愤怒）。行ってしまう＝走掉了。",
+        "zh-Hant": "「〜というのか」＝你是說……嗎？（驚訝、憤怒）。行ってしまう＝走掉了。",
+        "ko": "「〜というのか」=~란 말이냐(놀람, 분노). 行ってしまう=가 버리다.",
+        "tl": "「〜というのか」 = sinasabi mo bang ~?! 行ってしまう = nakaalis na.",
+        "ne": "「〜というのか」 = ~ भन्छौ? (अचम्म, रिस)। 行ってしまう = गइहाल्नु।",
+        "id": "「〜というのか」 = maksudmu ~?! 行ってしまう = sudah pergi.",
+        "pt": "「〜というのか」 = está dizendo que ~?! 行ってしまう = ter ido embora.",
+        "my": "「〜というのか」 = ~ ဆိုတာလား (အံ့သြ၊ ဒေါသ)။ 行ってしまう = သွားနှင့်ပြီ။",
+        "th": "「〜というのか」 = จะบอกว่า ~ หรือ (ตกใจ โกรธ) 行ってしまう = ไปเสียแล้ว"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=116.57,119.375",
+      "t": [
+        116.57,
+        119.375
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "トゥイティンは、くやしくて、くやしくて、たまりませんでした。",
+      "furigana": [
+        {
+          "surface": "トゥイティンは、くやしくて、くやしくて、たまりませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tuitin wa, kuyashikute, kuyashikute, tamarimasendeshita.",
+      "translations": {
+        "vi": "Thủy Tinh tức giận vô cùng, không sao chịu nổi.",
+        "en": "Thuy Tinh was so bitter he could hardly bear it.",
+        "zh-Hans": "水精懊恼得不得了。",
+        "zh-Hant": "水精懊惱得不得了。",
+        "ko": "투이띤은 분하고 분해서 견딜 수가 없었습니다.",
+        "tl": "Galit na galit si Thuy Tinh at hindi niya ito matiis.",
+        "ne": "थुई तिनलाई असह्य रिस उठ्यो।",
+        "id": "Thuy Tinh sangat kesal hingga tak tertahankan.",
+        "pt": "Thuy Tinh ficou tão furioso que não aguentava.",
+        "my": "သွေတင်က နာကျည်းလွန်းလို့ မခံနိုင်ပါဘူး။",
+        "th": "ถุ่ยติญเจ็บใจจนทนไม่ไหว"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜てたまらない」: ~ đến mức không chịu nổi. Lặp くやしくて hai lần để nhấn mạnh.",
+        "en": "「〜てたまらない」 = so ~ one can't stand it. Repeating くやしくて adds emphasis.",
+        "zh-Hans": "「〜てたまらない」＝……得受不了。重复くやしくて表示强调。",
+        "zh-Hant": "「〜てたまらない」＝……得受不了。重複くやしくて表示強調。",
+        "ko": "「〜てたまらない」=~해서 견딜 수 없다. くやしくて 반복은 강조.",
+        "tl": "「〜てたまらない」 = sobrang ~ na hindi matiis. Inulit ang くやしくて para sa diin.",
+        "ne": "「〜てたまらない」 = ~ ले सहनै नसकिने। くやしくて दोहोर्‍याउँदा जोड।",
+        "id": "「〜てたまらない」 = sangat ~ sampai tak tahan. Pengulangan くやしくて untuk penegasan.",
+        "pt": "「〜てたまらない」 = tão ~ que não se aguenta. Repetir くやしくて reforça.",
+        "my": "「〜てたまらない」 = ~ လွန်းလို့ မခံနိုင်။ くやしくて ထပ်ပြော = အလေးပေး။",
+        "th": "「〜てたまらない」 = ~ จนทนไม่ได้ ซ้ำ くやしくて เพื่อเน้น"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=120.275,124.903",
+      "t": [
+        120.275,
+        124.903
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「よし、それなら力ずくで取り返してやる。」",
+      "furigana": [
+        {
+          "surface": "「よし、それなら",
+          "reading": ""
+        },
+        {
+          "surface": "力",
+          "reading": "ちから"
+        },
+        {
+          "surface": "ずくで",
+          "reading": ""
+        },
+        {
+          "surface": "取",
+          "reading": "と"
+        },
+        {
+          "surface": "り",
+          "reading": ""
+        },
+        {
+          "surface": "返",
+          "reading": "かえ"
+        },
+        {
+          "surface": "してやる。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Yoshi, sorenara chikarazuku de torikaeshiteyaru.”",
+      "translations": {
+        "vi": "\"Được, nếu vậy ta sẽ dùng sức mạnh cướp lại.\"",
+        "en": "\"Very well, then I'll take her back by force!\"",
+        "zh-Hans": "“好，那我就用武力把她抢回来！”",
+        "zh-Hant": "“好，那我就用武力把她搶回來！”",
+        "ko": "\"좋다, 그렇다면 힘으로 되찾아 주마.\"",
+        "tl": "\"Sige, kung gayon, babawiin ko siya sa lakas!\"",
+        "ne": "\"ठिक छ, त्यसो भए बलपूर्वक फिर्ता लिन्छु।\"",
+        "id": "\"Baik, kalau begitu akan kurebut kembali dengan paksa!\"",
+        "pt": "\"Pois bem, então vou tomá-la de volta à força!\"",
+        "my": "\"ကောင်းပြီ၊ ဒါဆိုရင် အင်အားနဲ့ ပြန်လုယူမယ်။\"",
+        "th": "\"ดีล่ะ ถ้าอย่างนั้นข้าจะใช้กำลังชิงกลับมา\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "力ずくで = bằng vũ lực. 〜てやる = ta sẽ ~ cho xem (giọng thách thức). 取り返す = lấy lại.",
+        "en": "力ずくで = by force. 〜てやる = I'll ~ (defiant tone). 取り返す = to take back.",
+        "zh-Hans": "力ずくで＝用武力。〜てやる＝我偏要……（挑衅）。取り返す＝夺回。",
+        "zh-Hant": "力ずくで＝用武力。〜てやる＝我偏要……（挑釁）。取り返す＝奪回。",
+        "ko": "力ずくで=힘으로. 〜てやる=~해 주마(도전적). 取り返す=되찾다.",
+        "tl": "力ずくで = sa dahas. 〜てやる = ~ ko talaga (paghahamon). 取り返す = bawiin.",
+        "ne": "力ずくで = बलपूर्वक। 〜てやる = ~ गरिदिन्छु (चुनौती)। 取り返す = फिर्ता लिनु।",
+        "id": "力ずくで = dengan paksa. 〜てやる = akan kulakukan (menantang). 取り返す = merebut kembali.",
+        "pt": "力ずくで = à força. 〜てやる = vou ~ (desafio). 取り返す = retomar.",
+        "my": "力ずくで = အင်အားနဲ့။ 〜てやる = ~ ပစ်မယ် (စိန်ခေါ်)။ 取り返す = ပြန်ယူသည်။",
+        "th": "力ずくで = ด้วยกำลัง 〜てやる = จะ ~ ให้ดู (ท้าทาย) 取り返す = ชิงกลับ"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=125.803,128.774",
+      "t": [
+        125.803,
+        128.774
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "トゥイティンは、雨の神と風の神を呼び集めました。",
+      "furigana": [
+        {
+          "surface": "トゥイティンは、",
+          "reading": ""
+        },
+        {
+          "surface": "雨",
+          "reading": "あめ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "神",
+          "reading": "かみ"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "風",
+          "reading": "かぜ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "神",
+          "reading": "かみ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "呼",
+          "reading": "よ"
+        },
+        {
+          "surface": "び",
+          "reading": ""
+        },
+        {
+          "surface": "集",
+          "reading": "あつ"
+        },
+        {
+          "surface": "めました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tuitin wa, ame no kami to kaze no kami o yobi atsumemashita.",
+      "translations": {
+        "vi": "Thủy Tinh gọi thần mưa và thần gió tụ hội lại.",
+        "en": "Thuy Tinh called together the god of rain and the god of wind.",
+        "zh-Hans": "水精召集了雨神和风神。",
+        "zh-Hant": "水精召集了雨神和風神。",
+        "ko": "투이띤은 비의 신과 바람의 신을 불러 모았습니다.",
+        "tl": "Tinipon ni Thuy Tinh ang diyos ng ulan at diyos ng hangin.",
+        "ne": "थुई तिनले वर्षाका देवता र हावाका देवतालाई बोलाएर जम्मा गरे।",
+        "id": "Thuy Tinh mengumpulkan dewa hujan dan dewa angin.",
+        "pt": "Thuy Tinh reuniu o deus da chuva e o deus do vento.",
+        "my": "သွေတင်က မိုးနတ်နဲ့ လေနတ်ကို ခေါ်ပြီး စုရုံးပါတယ်။",
+        "th": "ถุ่ยติญเรียกเทพแห่งฝนและเทพแห่งลมมารวมตัวกัน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "呼び集める = gọi tụ lại (呼ぶ gọi + 集める tập hợp: động từ ghép).",
+        "en": "呼び集める = to call together (呼ぶ call + 集める gather: compound verb).",
+        "zh-Hans": "呼び集める＝召集（呼ぶ＋集める，复合动词）。",
+        "zh-Hant": "呼び集める＝召集（呼ぶ＋集める，複合動詞）。",
+        "ko": "呼び集める=불러 모으다(복합동사).",
+        "tl": "呼び集める = tipunin sa pagtawag (tambalang pandiwa).",
+        "ne": "呼び集める = बोलाएर जम्मा गर्नु (संयुक्त क्रिया)।",
+        "id": "呼び集める = memanggil berkumpul (kata kerja majemuk).",
+        "pt": "呼び集める = convocar (verbo composto).",
+        "my": "呼び集める = ခေါ်စုသည် (ပေါင်းစပ်ကြိယာ)။",
+        "th": "呼び集める = เรียกมารวมกัน (กริยาประสม)"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=129.674,133.686",
+      "t": [
+        129.674,
+        133.686
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "海のエビやカニ、魚たちも、兵隊になってついてきました。",
+      "furigana": [
+        {
+          "surface": "海",
+          "reading": "うみ"
+        },
+        {
+          "surface": "のエビやカニ、",
+          "reading": ""
+        },
+        {
+          "surface": "魚",
+          "reading": "さかな"
+        },
+        {
+          "surface": "たちも、",
+          "reading": ""
+        },
+        {
+          "surface": "兵隊",
+          "reading": "へいたい"
+        },
+        {
+          "surface": "になってついてきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Umi no ebi ya kani, sakanatachi mo, heitai ni natte tsuitekimashita.",
+      "translations": {
+        "vi": "Tôm, cua và cá dưới biển cũng hóa thành binh lính theo sau.",
+        "en": "Shrimp, crabs and fish from the sea also followed as soldiers.",
+        "zh-Hans": "海里的虾、蟹和鱼也化作士兵跟了过来。",
+        "zh-Hant": "海里的蝦、蟹和魚也化作士兵跟了過來。",
+        "ko": "바다의 새우와 게, 물고기들도 병사가 되어 따라왔습니다.",
+        "tl": "Pati hipon, alimango at isda sa dagat ay sumunod bilang mga sundalo.",
+        "ne": "समुद्रका झिंगे, गंगटा र माछा पनि सिपाही बनेर पछ्याए।",
+        "id": "Udang, kepiting, dan ikan laut juga ikut menjadi prajurit.",
+        "pt": "Camarões, caranguejos e peixes do mar também o seguiram como soldados.",
+        "my": "ပင်လယ်ထဲက ပုစွန်၊ ကဏန်းနဲ့ ငါးတွေလည်း စစ်သားဖြစ်ပြီး လိုက်လာပါတယ်။",
+        "th": "กุ้ง ปู และปลาในทะเลก็กลายเป็นทหารตามมาด้วย"
+      },
+      "vocab": [
+        {
+          "word": "兵隊",
+          "reading": "へいたい",
+          "meanings": {
+            "vi": "binh lính",
+            "en": "soldiers",
+            "zh-Hans": "士兵",
+            "zh-Hant": "士兵",
+            "ko": "병사",
+            "tl": "sundalo",
+            "ne": "सिपाही",
+            "id": "tentara",
+            "pt": "soldados",
+            "my": "စစ်သား",
+            "th": "ทหาร"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「Aになって」: trở thành A rồi. 「〜たち」: số nhiều (cho người, động vật). ついてくる = đi theo.",
+        "en": "「Aになって」 = becoming A. 「〜たち」 = plural (people, animals). ついてくる = to follow along.",
+        "zh-Hans": "「Aになって」＝变成A。「〜たち」＝复数。ついてくる＝跟来。",
+        "zh-Hant": "「Aになって」＝變成A。「〜たち」＝複數。ついてくる＝跟來。",
+        "ko": "「Aになって」=A가 되어. 「〜たち」=복수. ついてくる=따라오다.",
+        "tl": "「Aになって」 = naging A. 「〜たち」 = maramihan. ついてくる = sumunod.",
+        "ne": "「Aになって」 = A बनेर। 「〜たち」 = बहुवचन। ついてくる = पछ्याउनु।",
+        "id": "「Aになって」 = menjadi A. 「〜たち」 = jamak. ついてくる = ikut.",
+        "pt": "「Aになって」 = tornando-se A. 「〜たち」 = plural. ついてくる = seguir.",
+        "my": "「Aになって」 = A ဖြစ်ပြီး။ 「〜たち」 = အများကိန်း။ ついてくる = လိုက်လာသည်။",
+        "th": "「Aになって」 = กลายเป็น A 「〜たち」 = พหูพจน์ ついてくる = ตามมา"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=134.286,139.041",
+      "t": [
+        134.286,
+        139.041
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "空は真っ暗になり、雷が鳴り、大雨が何日も続きました。",
+      "furigana": [
+        {
+          "surface": "空",
+          "reading": "そら"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "真",
+          "reading": "ま"
+        },
+        {
+          "surface": "っ",
+          "reading": ""
+        },
+        {
+          "surface": "暗",
+          "reading": "くら"
+        },
+        {
+          "surface": "になり、",
+          "reading": ""
+        },
+        {
+          "surface": "雷",
+          "reading": "かみなり"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "鳴",
+          "reading": "な"
+        },
+        {
+          "surface": "り、",
+          "reading": ""
+        },
+        {
+          "surface": "大雨",
+          "reading": "おおあめ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "何",
+          "reading": "なん"
+        },
+        {
+          "surface": "日",
+          "reading": "にち"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "続",
+          "reading": "つづ"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sora wa makkura ni nari, kaminari ga nari, ooame ga nannichi mo tsuzukimashita.",
+      "translations": {
+        "vi": "Trời tối sầm, sấm rền vang, mưa lớn kéo dài nhiều ngày liền.",
+        "en": "The sky went pitch dark, thunder roared, and heavy rain went on for days.",
+        "zh-Hans": "天空一片漆黑，雷声轰鸣，大雨连下了好多天。",
+        "zh-Hant": "天空一片漆黑，雷聲轟鳴，大雨連下了好多天。",
+        "ko": "하늘이 새까매지고 천둥이 치며 큰비가 며칠이나 이어졌습니다.",
+        "tl": "Dumilim ang langit, kumulog, at ilang araw na bumuhos ang malakas na ulan.",
+        "ne": "आकाश कालो निस्पट्ट भयो, गड्याङगुडुङ भयो, धेरै दिनसम्म ठूलो पानी पर्‍यो।",
+        "id": "Langit gelap gulita, guntur menggelegar, hujan lebat berlangsung berhari-hari.",
+        "pt": "O céu ficou escuro como breu, trovejou e a chuva forte durou dias.",
+        "my": "ကောင်းကင်က မှောင်မိုက်သွားပြီး မိုးကြိုးပစ်၊ မိုးသည်းထန်စွာ ရက်ပေါင်းများစွာ ရွာပါတယ်။",
+        "th": "ท้องฟ้ามืดมิด ฟ้าร้องคำราม ฝนตกหนักติดต่อกันหลายวัน"
+      },
+      "vocab": [
+        {
+          "word": "真っ暗",
+          "reading": "まっくら",
+          "meanings": {
+            "vi": "tối đen",
+            "en": "pitch dark",
+            "zh-Hans": "漆黑",
+            "zh-Hant": "漆黑",
+            "ko": "캄캄함",
+            "tl": "madilim na madilim",
+            "ne": "चकमन्न अँध्यारो",
+            "id": "gelap gulita",
+            "pt": "escuridão total",
+            "my": "မှောင်မည်း",
+            "th": "มืดสนิท"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "真っ暗 = tối om. 雷が鳴る = sấm rền. 「何日も」: nhiều ngày liền (何+đơn vị+も = rất nhiều).",
+        "en": "真っ暗 = pitch dark. 雷が鳴る = thunder rumbles. 「何日も」 = for many days (何+counter+も = lots).",
+        "zh-Hans": "真っ暗＝漆黑。雷が鳴る＝打雷。「何日も」＝好多天。",
+        "zh-Hant": "真っ暗＝漆黑。雷が鳴る＝打雷。「何日も」＝好多天。",
+        "ko": "真っ暗=새까맘. 雷が鳴る=천둥이 치다. 「何日も」=며칠이나.",
+        "tl": "真っ暗 = napakadilim. 雷が鳴る = kumulog. 「何日も」 = ilang araw.",
+        "ne": "真っ暗 = निस्पट्ट अँध्यारो। 雷が鳴る = गड्याङगुडुङ हुनु। 「何日も」 = धेरै दिन।",
+        "id": "真っ暗 = gelap gulita. 雷が鳴る = guntur. 「何日も」 = berhari-hari.",
+        "pt": "真っ暗 = breu. 雷が鳴る = trovejar. 「何日も」 = por vários dias.",
+        "my": "真っ暗 = မှောင်မိုက်။ 雷が鳴る = မိုးကြိုးပစ်သည်။ 「何日も」 = ရက်ပေါင်းများစွာ။",
+        "th": "真っ暗 = มืดสนิท 雷が鳴る = ฟ้าร้อง 「何日も」 = หลายวัน"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=139.641,145.838",
+      "t": [
+        139.641,
+        145.838
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "川の水はどんどん増えて、田んぼも村も水の中にしずんでいきました。",
+      "furigana": [
+        {
+          "surface": "川",
+          "reading": "かわ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "はどんどん",
+          "reading": ""
+        },
+        {
+          "surface": "増",
+          "reading": "ふ"
+        },
+        {
+          "surface": "えて、",
+          "reading": ""
+        },
+        {
+          "surface": "田",
+          "reading": "た"
+        },
+        {
+          "surface": "んぼも",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "にしずんでいきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kawa no mizu wa dondon fuete, tanbo mo mura mo mizu no naka ni shizundeikimashita.",
+      "translations": {
+        "vi": "Nước sông dâng lên mỗi lúc một cao, ruộng đồng và làng mạc chìm dần trong nước.",
+        "en": "The rivers rose higher and higher, and fields and villages sank beneath the water.",
+        "zh-Hans": "河水不断上涨，田地和村庄都渐渐沉入了水中。",
+        "zh-Hant": "河水不斷上漲，田地和村莊都漸漸沉入了水中。",
+        "ko": "강물이 점점 불어나 논과 마을이 물속으로 잠겨 갔습니다.",
+        "tl": "Patuloy na tumaas ang ilog, at lumubog sa tubig ang mga bukid at nayon.",
+        "ne": "खोलाको पानी बढ्दै गयो, खेत र गाउँ पानीमुनि डुब्दै गए।",
+        "id": "Air sungai terus naik, sawah dan desa tenggelam dalam air.",
+        "pt": "Os rios subiam cada vez mais, e campos e aldeias foram afundando.",
+        "my": "မြစ်ရေက တဖြည်းဖြည်း မြင့်တက်လာပြီး လယ်ကွင်းနဲ့ ရွာတွေ ရေထဲ နစ်မြုပ်သွားပါတယ်။",
+        "th": "น้ำในแม่น้ำเพิ่มสูงขึ้นเรื่อย ๆ ทุ่งนาและหมู่บ้านค่อย ๆ จมอยู่ใต้น้ำ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「どんどん」: mỗi lúc một nhiều. 「〜ていく」: (thay đổi) dần dần tiến tới. しずむ = chìm.",
+        "en": "「どんどん」 = more and more. 「〜ていく」 = (a change) progressing. しずむ = to sink.",
+        "zh-Hans": "「どんどん」＝不断地。「〜ていく」＝（变化）逐渐进行。しずむ＝沉。",
+        "zh-Hant": "「どんどん」＝不斷地。「〜ていく」＝（變化）逐漸進行。しずむ＝沉。",
+        "ko": "「どんどん」=점점. 「〜ていく」=~해 가다. しずむ=가라앉다.",
+        "tl": "「どんどん」 = lalo't lalo. 「〜ていく」 = unti-unting ~. しずむ = lumubog.",
+        "ne": "「どんどん」 = झन्झन्। 「〜ていく」 = क्रमशः ~ हुँदै जानु। しずむ = डुब्नु।",
+        "id": "「どんどん」 = makin lama makin. 「〜ていく」 = semakin ~. しずむ = tenggelam.",
+        "pt": "「どんどん」 = cada vez mais. 「〜ていく」 = ir ~ (mudança). しずむ = afundar.",
+        "my": "「どんどん」 = တဖြည်းဖြည်း များလာ။ 「〜ていく」 = ~ လာသည်။ しずむ = နစ်သည်။",
+        "th": "「どんどん」 = เรื่อย ๆ 「〜ていく」 = ค่อย ๆ ~ ไป しずむ = จม"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=146.438,152.645",
+      "t": [
+        146.438,
+        152.645
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "水は山のふもとまで上がってきて、ソンティンの山をのみこもうとしました。",
+      "furigana": [
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "のふもとまで",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "あ"
+        },
+        {
+          "surface": "がってきて、ソンティンの",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "をのみこもうとしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mizu wa yama no fumoto made agattekite, Sontin no yama o nomikomou to shimashita.",
+      "translations": {
+        "vi": "Nước dâng đến tận chân núi, định nuốt chửng ngọn núi của Sơn Tinh.",
+        "en": "The water climbed to the foot of the mountains and tried to swallow Son Tinh's mountain.",
+        "zh-Hans": "水涨到了山脚下，想要吞没山精的山。",
+        "zh-Hant": "水漲到了山腳下，想要吞沒山精的山。",
+        "ko": "물은 산기슭까지 차올라 선띤의 산을 삼키려 했습니다.",
+        "tl": "Umabot ang tubig sa paanan ng bundok at tinangkang lamunin ang bundok ni Son Tinh.",
+        "ne": "पानी पहाडको फेदसम्म आइपुग्यो र सोन तिनको पहाड निल्न खोज्यो।",
+        "id": "Air naik sampai kaki gunung dan berusaha menelan gunung Son Tinh.",
+        "pt": "A água chegou ao pé das montanhas e tentou engolir a montanha de Son Tinh.",
+        "my": "ရေက တောင်ခြေအထိ တက်လာပြီး ဆွန်တင်ရဲ့ တောင်ကို မျိုချဖို့ ကြိုးစားပါတယ်။",
+        "th": "น้ำขึ้นมาถึงตีนเขา และพยายามจะกลืนภูเขาของเซินติญ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ようとする」: cố, định làm ~ (sắp làm nhưng chưa thành). ふもと = chân núi. のみこむ = nuốt chửng.",
+        "en": "「〜ようとする」 = try / be about to ~ (not yet done). ふもと = foot of a mountain. のみこむ = to swallow up.",
+        "zh-Hans": "「〜ようとする」＝想要……（尚未实现）。ふもと＝山脚。のみこむ＝吞没。",
+        "zh-Hant": "「〜ようとする」＝想要……（尚未實現）。ふもと＝山腳。のみこむ＝吞沒。",
+        "ko": "「〜ようとする」=~하려고 하다. ふもと=산기슭. のみこむ=삼키다.",
+        "tl": "「〜ようとする」 = tangkaing ~. ふもと = paanan ng bundok. のみこむ = lamunin.",
+        "ne": "「〜ようとする」 = ~ गर्न खोज्नु। ふもと = फेद। のみこむ = निल्नु।",
+        "id": "「〜ようとする」 = berusaha ~. ふもと = kaki gunung. のみこむ = menelan.",
+        "pt": "「〜ようとする」 = tentar ~. ふもと = sopé. のみこむ = engolir.",
+        "my": "「〜ようとする」 = ~ ဖို့ ကြိုးစားသည်။ ふもと = တောင်ခြေ။ のみこむ = မျိုချသည်။",
+        "th": "「〜ようとする」 = พยายามจะ ~ ふもと = ตีนเขา のみこむ = กลืน"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=153.245,158.971",
+      "t": [
+        153.245,
+        158.971
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「姫、心配はいらない。わたしにまかせなさい。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "姫",
+          "reading": "ひめ"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "心配",
+          "reading": "しんぱい"
+        },
+        {
+          "surface": "はいらない。わたしにまかせなさい。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Hime, shinpai wa iranai. Watashi ni makasenasai.”",
+      "translations": {
+        "vi": "\"Công chúa, đừng lo. Cứ để ta lo liệu.\"",
+        "en": "\"Princess, don't worry. Leave it to me.\"",
+        "zh-Hans": "“公主，不用担心。交给我吧。”",
+        "zh-Hant": "“公主，不用擔心。交給我吧。”",
+        "ko": "\"공주, 걱정할 것 없소. 내게 맡기시오.\"",
+        "tl": "\"Prinsesa, huwag kang mag-alala. Ipaubaya mo sa akin.\"",
+        "ne": "\"राजकुमारी, चिन्ता नगर। मलाई छोडिदेऊ।\"",
+        "id": "\"Putri, jangan khawatir. Serahkan padaku.\"",
+        "pt": "\"Princesa, não se preocupe. Deixe comigo.\"",
+        "my": "\"မင်းသမီး၊ စိတ်မပူပါနဲ့။ ကျွန်ုပ်ကို လွှဲထားပါ။\"",
+        "th": "\"เจ้าหญิง ไม่ต้องห่วง ปล่อยให้ข้าจัดการเอง\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜はいらない」: không cần ~. 「Aにまかせなさい」: hãy giao cho A. 〜なさい = mệnh lệnh nhẹ nhàng.",
+        "en": "「〜はいらない」 = no need for ~. 「Aにまかせなさい」 = leave it to A. 〜なさい = gentle command.",
+        "zh-Hans": "「〜はいらない」＝不需要……。「Aにまかせなさい」＝交给A吧。〜なさい＝温和的命令。",
+        "zh-Hant": "「〜はいらない」＝不需要……。「Aにまかせなさい」＝交給A吧。〜なさい＝溫和的命令。",
+        "ko": "「〜はいらない」=~은 필요 없다. 「Aにまかせなさい」=A에게 맡겨라.",
+        "tl": "「〜はいらない」 = hindi kailangan ang ~. 「Aにまかせなさい」 = ipaubaya kay A.",
+        "ne": "「〜はいらない」 = ~ चाहिँदैन। 「Aにまかせなさい」 = A लाई छोड।",
+        "id": "「〜はいらない」 = tidak perlu ~. 「Aにまかせなさい」 = serahkan pada A.",
+        "pt": "「〜はいらない」 = não precisa de ~. 「Aにまかせなさい」 = deixe com A.",
+        "my": "「〜はいらない」 = ~ မလိုဘူး။ 「Aにまかせなさい」 = A ကို လွှဲပါ။",
+        "th": "「〜はいらない」 = ไม่ต้อง ~ 「Aにまかせなさい」 = ปล่อยให้ A จัดการ"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=159.871,163.669",
+      "t": [
+        159.871,
+        163.669
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "ソンティンは手をふって、山をさらに高くしました。",
+      "furigana": [
+        {
+          "surface": "ソンティンは",
+          "reading": ""
+        },
+        {
+          "surface": "手",
+          "reading": "て"
+        },
+        {
+          "surface": "をふって、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "をさらに",
+          "reading": ""
+        },
+        {
+          "surface": "高",
+          "reading": "たか"
+        },
+        {
+          "surface": "くしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sontin wa te o futte, yama o sarani takaku shimashita.",
+      "translations": {
+        "vi": "Sơn Tinh vẫy tay, khiến núi càng cao thêm nữa.",
+        "en": "Son Tinh waved his hand and made the mountains even higher.",
+        "zh-Hans": "山精挥了挥手，让山变得更高了。",
+        "zh-Hant": "山精揮了揮手，讓山變得更高了。",
+        "ko": "선띤은 손을 흔들어 산을 더욱 높게 만들었습니다.",
+        "tl": "Kumaway si Son Tinh at lalong pinataas ang bundok.",
+        "ne": "सोन तिनले हात हल्लाएर पहाडलाई अझ अग्लो बनाए।",
+        "id": "Son Tinh melambaikan tangan dan membuat gunung makin tinggi.",
+        "pt": "Son Tinh acenou e deixou as montanhas ainda mais altas.",
+        "my": "ဆွန်တင်က လက်ယမ်းပြီး တောင်ကို ပိုမြင့်အောင် လုပ်လိုက်ပါတယ်။",
+        "th": "เซินติญโบกมือ ทำให้ภูเขาสูงยิ่งขึ้นไปอีก"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「Aを〜くする」: làm cho A trở nên ~ (高い → 高くする). さらに = hơn nữa.",
+        "en": "「Aを〜くする」 = make A ~ (高い → 高くする). さらに = even more.",
+        "zh-Hans": "「Aを〜くする」＝使A变得……。さらに＝更加。",
+        "zh-Hant": "「Aを〜くする」＝使A變得……。さらに＝更加。",
+        "ko": "「Aを〜くする」=A를 ~게 하다. さらに=더욱.",
+        "tl": "「Aを〜くする」 = gawing ~ ang A. さらに = lalo pa.",
+        "ne": "「Aを〜くする」 = A लाई ~ बनाउनु। さらに = अझ।",
+        "id": "「Aを〜くする」 = membuat A jadi ~. さらに = lebih lagi.",
+        "pt": "「Aを〜くする」 = tornar A ~. さらに = ainda mais.",
+        "my": "「Aを〜くする」 = A ကို ~ အောင်လုပ်။ さらに = ပို၍။",
+        "th": "「Aを〜くする」 = ทำให้ A ~ さらに = ยิ่งขึ้น"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=164.569,169.244",
+      "t": [
+        164.569,
+        169.244
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "山の動物たちも石を投げて、水の兵隊を追い返しました。",
+      "furigana": [
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "動物",
+          "reading": "どうぶつ"
+        },
+        {
+          "surface": "たちも",
+          "reading": ""
+        },
+        {
+          "surface": "石",
+          "reading": "いし"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "投",
+          "reading": "な"
+        },
+        {
+          "surface": "げて、",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "兵隊",
+          "reading": "へいたい"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "追",
+          "reading": "お"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "返",
+          "reading": "かえ"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Yama no doubutsutachi mo ishi o nagete, mizu no heitai o oikaeshimashita.",
+      "translations": {
+        "vi": "Muông thú trên núi cũng ném đá, đẩy lùi đội quân nước.",
+        "en": "The mountain animals threw stones too, driving back the water soldiers.",
+        "zh-Hans": "山里的动物们也扔石头，把水兵赶了回去。",
+        "zh-Hant": "山裡的動物們也扔石頭，把水兵趕了回去。",
+        "ko": "산짐승들도 돌을 던져 물의 병사들을 쫓아냈습니다.",
+        "tl": "Nagbato rin ang mga hayop sa bundok at itinaboy ang mga sundalo ng tubig.",
+        "ne": "पहाडका जनावरहरूले पनि ढुङ्गा हानेर पानीका सिपाहीलाई धपाए।",
+        "id": "Hewan-hewan gunung juga melempar batu, mengusir prajurit air.",
+        "pt": "Os animais da montanha também atiravam pedras, rechaçando os soldados da água.",
+        "my": "တောင်ပေါ်က တိရစ္ဆာန်တွေလည်း ကျောက်ခဲပစ်ပြီး ရေစစ်သားတွေကို ပြန်မောင်းထုတ်ပါတယ်။",
+        "th": "สัตว์บนภูเขาก็ขว้างหินขับไล่ทหารน้ำกลับไป"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "追い返す = đuổi về, đẩy lùi (追う đuổi + 返す trả về). 投げる = ném.",
+        "en": "追い返す = to drive back (追う chase + 返す return). 投げる = to throw.",
+        "zh-Hans": "追い返す＝赶回去。投げる＝扔。",
+        "zh-Hant": "追い返す＝趕回去。投げる＝扔。",
+        "ko": "追い返す=쫓아 보내다. 投げる=던지다.",
+        "tl": "追い返す = itaboy pabalik. 投げる = ibato.",
+        "ne": "追い返す = धपाउनु। 投げる = हान्नु।",
+        "id": "追い返す = mengusir kembali. 投げる = melempar.",
+        "pt": "追い返す = rechaçar. 投げる = atirar.",
+        "my": "追い返す = ပြန်မောင်းထုတ်သည်။ 投げる = ပစ်သည်။",
+        "th": "追い返す = ขับไล่กลับ 投げる = ขว้าง"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=169.844,175.026",
+      "t": [
+        169.844,
+        175.026
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "水が一メートル上がれば、山も一メートル高くなります。",
+      "furigana": [
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "いち"
+        },
+        {
+          "surface": "メートル",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "あ"
+        },
+        {
+          "surface": "がれば、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "いち"
+        },
+        {
+          "surface": "メートル",
+          "reading": ""
+        },
+        {
+          "surface": "高",
+          "reading": "たか"
+        },
+        {
+          "surface": "くなります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mizu ga ichimeetoru agareba, yama mo ichimeetoru takaku narimasu.",
+      "translations": {
+        "vi": "Nước dâng lên một mét, núi cũng cao thêm một mét.",
+        "en": "If the water rose one meter, the mountain grew one meter too.",
+        "zh-Hans": "水涨一米，山也高一米。",
+        "zh-Hant": "水漲一米，山也高一米。",
+        "ko": "물이 1미터 오르면 산도 1미터 높아집니다.",
+        "tl": "Kapag tumaas ng isang metro ang tubig, tumataas din ng isang metro ang bundok.",
+        "ne": "पानी एक मिटर बढ्यो भने पहाड पनि एक मिटर अग्लो हुन्छ।",
+        "id": "Jika air naik satu meter, gunung pun naik satu meter.",
+        "pt": "Se a água subia um metro, a montanha subia um metro também.",
+        "my": "ရေက တစ်မီတာ တက်ရင် တောင်လည်း တစ်မီတာ မြင့်လာပါတယ်။",
+        "th": "ถ้าน้ำสูงขึ้นหนึ่งเมตร ภูเขาก็สูงขึ้นหนึ่งเมตร"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ば、…も」: nếu ~ thì … cũng (song song). Câu ca dao: \"Nước dâng cao bao nhiêu, núi cao bấy nhiêu\".",
+        "en": "「〜ば、…も」 = if ~, then … too (parallel). The Vietnamese saying: \"however high the water rises, the mountain rises as much\".",
+        "zh-Hans": "「〜ば、…も」＝如果……，……也……（并列）。越南俗语：“水涨多高，山就长多高”。",
+        "zh-Hant": "「〜ば、…も」＝如果……，……也……（並列）。越南俗語：“水漲多高，山就長多高”。",
+        "ko": "「〜ば、…も」=~하면 …도. 베트남 속담 \"물이 오르는 만큼 산도 높아진다\".",
+        "tl": "「〜ば、…も」 = kung ~, … rin. Kasabihang Vietnamese: kung gaano kataas ang tubig, ganoon din ang bundok.",
+        "ne": "「〜ば、…も」 = ~ भने … पनि। भियतनामी उखान: पानी जति बढ्छ, पहाड पनि त्यति।",
+        "id": "「〜ば、…も」 = jika ~, … pun. Pepatah Vietnam: setinggi air naik, setinggi itu gunung naik.",
+        "pt": "「〜ば、…も」 = se ~, … também. Ditado vietnamita: quanto a água sobe, tanto a montanha sobe.",
+        "my": "「〜ば、…も」 = ~ ရင် … လည်း။ ဗီယက်နမ်စကားပုံ: ရေ ဘယ်လောက်တက် တောင် အဲဒီလောက်မြင့်။",
+        "th": "「〜ば、…も」 = ถ้า ~ … ก็ ภาษิตเวียดนาม: น้ำขึ้นเท่าไร ภูเขาก็สูงเท่านั้น"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=175.626,180.134",
+      "t": [
+        175.626,
+        180.134
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "水が十メートル上がれば、山は十メートル高くなりました。",
+      "furigana": [
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "十",
+          "reading": "じゅう"
+        },
+        {
+          "surface": "メートル",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "あ"
+        },
+        {
+          "surface": "がれば、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "十",
+          "reading": "じゅう"
+        },
+        {
+          "surface": "メートル",
+          "reading": ""
+        },
+        {
+          "surface": "高",
+          "reading": "たか"
+        },
+        {
+          "surface": "くなりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mizu ga juumeetoru agareba, yama wa juumeetoru takaku narimashita.",
+      "translations": {
+        "vi": "Nước dâng lên mười mét, núi lại cao thêm mười mét.",
+        "en": "If the water rose ten meters, the mountain rose ten meters.",
+        "zh-Hans": "水涨十米，山就高十米。",
+        "zh-Hant": "水漲十米，山就高十米。",
+        "ko": "물이 10미터 오르면 산은 10미터 높아졌습니다.",
+        "tl": "Kapag tumaas ng sampung metro ang tubig, tumaas ng sampung metro ang bundok.",
+        "ne": "पानी दस मिटर बढ्दा पहाड दस मिटर अग्लो भयो।",
+        "id": "Jika air naik sepuluh meter, gunung naik sepuluh meter.",
+        "pt": "Se a água subia dez metros, a montanha subia dez metros.",
+        "my": "ရေက ဆယ်မီတာ တက်ရင် တောင်က ဆယ်မီတာ မြင့်လာပါတယ်။",
+        "th": "ถ้าน้ำสูงขึ้นสิบเมตร ภูเขาก็สูงขึ้นสิบเมตร"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "Lặp cấu trúc 「〜ば、…」 tạo nhịp điệu kể chuyện. 十メートル = mười mét.",
+        "en": "Repeating 「〜ば、…」 gives the story rhythm. 十メートル = ten meters.",
+        "zh-Hans": "重复「〜ば、…」营造叙事节奏。十メートル＝十米。",
+        "zh-Hant": "重複「〜ば、…」營造敘事節奏。十メートル＝十米。",
+        "ko": "「〜ば、…」 반복으로 이야기 리듬. 十メートル=10미터.",
+        "tl": "Inuulit ang 「〜ば、…」 para sa ritmo. 十メートル = sampung metro.",
+        "ne": "「〜ば、…」 दोहोर्‍याउँदा लय। 十メートル = दस मिटर।",
+        "id": "Pengulangan 「〜ば、…」 memberi ritme. 十メートル = sepuluh meter.",
+        "pt": "Repetir 「〜ば、…」 dá ritmo. 十メートル = dez metros.",
+        "my": "「〜ば、…」 ထပ်ခြင်းက စည်းချက်ပေး။ 十メートル = ဆယ်မီတာ။",
+        "th": "ซ้ำ 「〜ば、…」 สร้างจังหวะ 十メートル = สิบเมตร"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=180.734,185.164",
+      "t": [
+        180.734,
+        185.164
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "二人の戦いは、何か月も続きました。",
+      "furigana": [
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "戦",
+          "reading": "たたか"
+        },
+        {
+          "surface": "いは、",
+          "reading": ""
+        },
+        {
+          "surface": "何",
+          "reading": "なん"
+        },
+        {
+          "surface": "か",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "げつ"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "続",
+          "reading": "つづ"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Futari no tatakai wa, nankagetsu mo tsuzukimashita.",
+      "translations": {
+        "vi": "Trận chiến của hai người kéo dài nhiều tháng trời.",
+        "en": "Their battle went on for months.",
+        "zh-Hans": "两人的战斗持续了好几个月。",
+        "zh-Hant": "兩人的戰鬥持續了好幾個月。",
+        "ko": "두 사람의 싸움은 몇 달이나 계속되었습니다.",
+        "tl": "Ilang buwan na nagpatuloy ang kanilang labanan.",
+        "ne": "दुई जनाको युद्ध धेरै महिनासम्म चल्यो।",
+        "id": "Pertarungan mereka berlangsung berbulan-bulan.",
+        "pt": "A batalha dos dois durou meses.",
+        "my": "နှစ်ယောက်ရဲ့ တိုက်ပွဲက လပေါင်းများစွာ ကြာပါတယ်။",
+        "th": "การต่อสู้ของทั้งสองดำเนินไปหลายเดือน"
+      },
+      "vocab": [
+        {
+          "word": "戦い",
+          "reading": "たたかい",
+          "meanings": {
+            "vi": "trận chiến",
+            "en": "battle",
+            "zh-Hans": "战斗",
+            "zh-Hant": "戰鬥",
+            "ko": "싸움, 전투",
+            "tl": "labanan",
+            "ne": "युद्ध",
+            "id": "pertempuran",
+            "pt": "batalha",
+            "my": "တိုက်ပွဲ",
+            "th": "การต่อสู้"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「何か月も」: nhiều tháng liền. 戦い = trận chiến. 続く = kéo dài (tự động từ).",
+        "en": "「何か月も」 = for many months. 戦い = battle. 続く = to continue (intransitive).",
+        "zh-Hans": "「何か月も」＝好几个月。戦い＝战斗。続く＝持续。",
+        "zh-Hant": "「何か月も」＝好幾個月。戦い＝戰鬥。続く＝持續。",
+        "ko": "「何か月も」=몇 달이나. 戦い=싸움. 続く=계속되다.",
+        "tl": "「何か月も」 = ilang buwan. 戦い = labanan. 続く = magpatuloy.",
+        "ne": "「何か月も」 = धेरै महिना। 戦い = युद्ध। 続く = चल्नु।",
+        "id": "「何か月も」 = berbulan-bulan. 戦い = pertarungan. 続く = berlanjut.",
+        "pt": "「何か月も」 = por meses. 戦い = batalha. 続く = continuar.",
+        "my": "「何か月も」 = လပေါင်းများစွာ။ 戦い = တိုက်ပွဲ။ 続く = ဆက်သည်။",
+        "th": "「何か月も」 = หลายเดือน 戦い = การต่อสู้ 続く = ดำเนินต่อ"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=185.764,189.252",
+      "t": [
+        185.764,
+        189.252
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "けれども、どんなに水を増やしても、山の頂上までは届きません。",
+      "furigana": [
+        {
+          "surface": "けれども、どんなに",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "増",
+          "reading": "ふ"
+        },
+        {
+          "surface": "やしても、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "頂上",
+          "reading": "ちょうじょう"
+        },
+        {
+          "surface": "までは",
+          "reading": ""
+        },
+        {
+          "surface": "届",
+          "reading": "とど"
+        },
+        {
+          "surface": "きません。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Keredomo, donnani mizu o fuyashite mo, yama no choujou made wa todokimasen.",
+      "translations": {
+        "vi": "Nhưng dù dâng nước đến đâu, nước cũng không thể chạm tới đỉnh núi.",
+        "en": "But no matter how much water he raised, it never reached the mountaintop.",
+        "zh-Hans": "但是，无论怎么涨水，都到不了山顶。",
+        "zh-Hant": "但是，無論怎麼漲水，都到不了山頂。",
+        "ko": "그러나 아무리 물을 불려도 산꼭대기까지는 닿지 않았습니다.",
+        "tl": "Pero gaano man karami ang tubig, hindi ito umabot sa tuktok ng bundok.",
+        "ne": "तर जति पानी बढाए पनि पहाडको टुप्पोसम्म पुगेन।",
+        "id": "Namun, sebanyak apa pun air ditambah, tak sampai ke puncak gunung.",
+        "pt": "Mas, por mais que aumentasse a água, ela não chegava ao topo.",
+        "my": "ဒါပေမဲ့ ရေကို ဘယ်လောက်ပဲ တိုးတိုး တောင်ထိပ်ကို မရောက်ပါဘူး။",
+        "th": "แต่ไม่ว่าจะเพิ่มน้ำเท่าไร ก็ไปไม่ถึงยอดเขา"
+      },
+      "vocab": [
+        {
+          "word": "どんなに",
+          "reading": "どんなに",
+          "meanings": {
+            "vi": "dù thế nào, bao nhiêu",
+            "en": "however much",
+            "zh-Hans": "无论多么",
+            "zh-Hant": "無論多麼",
+            "ko": "아무리",
+            "tl": "gaano man",
+            "ne": "जति नै",
+            "id": "betapapun",
+            "pt": "por mais que",
+            "my": "ဘယ်လောက်ပဲ",
+            "th": "ไม่ว่าจะแค่ไหน"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "増やす",
+          "reading": "ふやす",
+          "meanings": {
+            "vi": "làm tăng",
+            "en": "to increase (something)",
+            "zh-Hans": "增加",
+            "zh-Hant": "增加",
+            "ko": "늘리다",
+            "tl": "dagdagan",
+            "ne": "बढाउनु",
+            "id": "menambah",
+            "pt": "aumentar",
+            "my": "တိုးသည်",
+            "th": "เพิ่ม"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「どんなに〜ても」: dù ~ đến mấy cũng. 頂上 = đỉnh. 届く = với tới.",
+        "en": "「どんなに〜ても」 = no matter how ~. 頂上 = summit. 届く = to reach.",
+        "zh-Hans": "「どんなに〜ても」＝无论怎么……也。頂上＝顶峰。届く＝够到。",
+        "zh-Hant": "「どんなに〜ても」＝無論怎麼……也。頂上＝頂峰。屆く＝夠到。",
+        "ko": "「どんなに〜ても」=아무리 ~해도. 頂上=정상. 届く=닿다.",
+        "tl": "「どんなに〜ても」 = gaano man ~. 頂上 = tuktok. 届く = umabot.",
+        "ne": "「どんなに〜ても」 = जति ~ पनि। 頂上 = टुप्पो। 届く = पुग्नु।",
+        "id": "「どんなに〜ても」 = sebanyak apa pun ~. 頂上 = puncak. 届く = sampai.",
+        "pt": "「どんなに〜ても」 = por mais que ~. 頂上 = topo. 届く = alcançar.",
+        "my": "「どんなに〜ても」 = ဘယ်လောက်ပဲ ~ ပါစေ။ 頂上 = ထိပ်။ 届く = ရောက်သည်။",
+        "th": "「どんなに〜ても」 = ไม่ว่าจะ ~ แค่ไหน 頂上 = ยอด 届く = ถึง"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=189.852,195.274",
+      "t": [
+        189.852,
+        195.274
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "とうとうトゥイティンは力をなくして、水を引いていきました。",
+      "furigana": [
+        {
+          "surface": "とうとうトゥイティンは",
+          "reading": ""
+        },
+        {
+          "surface": "力",
+          "reading": "ちから"
+        },
+        {
+          "surface": "をなくして、",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "引",
+          "reading": "ひ"
+        },
+        {
+          "surface": "いていきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Toutou Tuitin wa chikara o nakushite, mizu o hiiteikimashita.",
+      "translations": {
+        "vi": "Cuối cùng Thủy Tinh kiệt sức, đành rút nước về.",
+        "en": "At last Thuy Tinh ran out of strength and pulled the water back.",
+        "zh-Hans": "最后，水精筋疲力尽，只好退了水。",
+        "zh-Hant": "最後，水精筋疲力盡，只好退了水。",
+        "ko": "마침내 투이띤은 힘이 다해 물을 거두어 갔습니다.",
+        "tl": "Sa wakas, naubos ang lakas ni Thuy Tinh at binawi ang tubig.",
+        "ne": "अन्ततः थुई तिनको बल सकियो र पानी फर्काए।",
+        "id": "Akhirnya Thuy Tinh kehabisan tenaga dan menarik airnya.",
+        "pt": "Por fim, Thuy Tinh perdeu as forças e recolheu as águas.",
+        "my": "နောက်ဆုံးမှာ သွေတင်က အားကုန်ပြီး ရေကို ပြန်ဆုတ်သွားပါတယ်။",
+        "th": "ในที่สุดถุ่ยติญก็หมดแรง และถอนน้ำกลับไป"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「とうとう」: rốt cuộc (sau thời gian dài). 力をなくす = mất sức. 水を引く = rút nước.",
+        "en": "「とうとう」 = finally (after a long time). 力をなくす = to lose strength. 水を引く = to draw back water.",
+        "zh-Hans": "「とうとう」＝终于（经过很久）。力をなくす＝失去力气。水を引く＝退水。",
+        "zh-Hant": "「とうとう」＝終於（經過很久）。力をなくす＝失去力氣。水を引く＝退水。",
+        "ko": "「とうとう」=마침내. 力をなくす=힘을 잃다. 水を引く=물을 빼다.",
+        "tl": "「とうとう」 = sa wakas. 力をなくす = maubusan ng lakas. 水を引く = bawiin ang tubig.",
+        "ne": "「とうとう」 = अन्ततः। 力をなくす = बल गुमाउनु। 水を引く = पानी फर्काउनु।",
+        "id": "「とうとう」 = akhirnya. 力をなくす = kehabisan tenaga. 水を引く = menarik air.",
+        "pt": "「とうとう」 = por fim. 力をなくす = perder as forças. 水を引く = recolher a água.",
+        "my": "「とうとう」 = နောက်ဆုံးမှာ။ 力をなくす = အားကုန်သည်။ 水を引く = ရေဆုတ်သည်။",
+        "th": "「とうとう」 = ในที่สุด 力をなくす = หมดแรง 水を引く = ถอนน้ำ"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=195.874,200.734",
+      "t": [
+        195.874,
+        200.734
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "でも、トゥイティンは、このことをずっと忘れませんでした。",
+      "furigana": [
+        {
+          "surface": "でも、トゥイティンは、このことをずっと",
+          "reading": ""
+        },
+        {
+          "surface": "忘",
+          "reading": "わす"
+        },
+        {
+          "surface": "れませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, Tuitin wa, kono koto o zutto wasuremasendeshita.",
+      "translations": {
+        "vi": "Nhưng Thủy Tinh không bao giờ quên chuyện này.",
+        "en": "But Thuy Tinh never forgot what had happened.",
+        "zh-Hans": "但是，水精一直没有忘记这件事。",
+        "zh-Hant": "但是，水精一直沒有忘記這件事。",
+        "ko": "하지만 투이띤은 이 일을 결코 잊지 않았습니다.",
+        "tl": "Pero hindi kailanman nakalimutan ni Thuy Tinh ang nangyari.",
+        "ne": "तर थुई तिनले यो कुरा कहिल्यै बिर्सेनन्।",
+        "id": "Tetapi Thuy Tinh tak pernah melupakan hal ini.",
+        "pt": "Mas Thuy Tinh nunca esqueceu aquilo.",
+        "my": "ဒါပေမဲ့ သွေတင်က ဒီအကြောင်းကို ဘယ်တော့မှ မမေ့ပါဘူး။",
+        "th": "แต่ถุ่ยติญไม่เคยลืมเรื่องนี้เลย"
+      },
+      "vocab": [
+        {
+          "word": "ずっと",
+          "reading": "ずっと",
+          "meanings": {
+            "vi": "suốt, mãi",
+            "en": "all along, the whole time",
+            "zh-Hans": "一直",
+            "zh-Hant": "一直",
+            "ko": "계속",
+            "tl": "palagi, matagal",
+            "ne": "सधैँ",
+            "id": "terus-menerus",
+            "pt": "o tempo todo",
+            "my": "တောက်လျှောက်",
+            "th": "ตลอด"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「ずっと〜ない」: mãi mãi không ~. このこと = chuyện này.",
+        "en": "「ずっと〜ない」 = never ~ (all along). このこと = this matter.",
+        "zh-Hans": "「ずっと〜ない」＝一直没有……。このこと＝这件事。",
+        "zh-Hant": "「ずっと〜ない」＝一直沒有……。このこと＝這件事。",
+        "ko": "「ずっと〜ない」=계속 ~ 않다. このこと=이 일.",
+        "tl": "「ずっと〜ない」 = hindi kailanman ~. このこと = bagay na ito.",
+        "ne": "「ずっと〜ない」 = कहिल्यै ~ नगर्नु। このこと = यो कुरा।",
+        "id": "「ずっと〜ない」 = tak pernah ~. このこと = hal ini.",
+        "pt": "「ずっと〜ない」 = nunca ~. このこと = isso.",
+        "my": "「ずっと〜ない」 = ဘယ်တော့မှ မ ~။ このこと = ဒီအကြောင်း။",
+        "th": "「ずっと〜ない」 = ไม่เคย ~ เลย このこと = เรื่องนี้"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=201.334,205.703",
+      "t": [
+        201.334,
+        205.703
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それから毎年、雨の季節になると、トゥイティンはまた戦いをしかけてくるのです。",
+      "furigana": [
+        {
+          "surface": "それから",
+          "reading": ""
+        },
+        {
+          "surface": "毎年",
+          "reading": "まいとし"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "雨",
+          "reading": "あめ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "季節",
+          "reading": "きせつ"
+        },
+        {
+          "surface": "になると、トゥイティンはまた",
+          "reading": ""
+        },
+        {
+          "surface": "戦",
+          "reading": "たたか"
+        },
+        {
+          "surface": "いをしかけてくるのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sorekara maitoshi, ame no kisetsu ni naru to, Tuitin wa mata tatakai o shikaketekuru no desu.",
+      "translations": {
+        "vi": "Từ đó, cứ đến mùa mưa hằng năm, Thủy Tinh lại dâng nước đánh Sơn Tinh.",
+        "en": "Since then, every year when the rainy season comes, Thuy Tinh attacks again.",
+        "zh-Hans": "从那以后，每年到了雨季，水精都会再次发起进攻。",
+        "zh-Hant": "從那以後，每年到了雨季，水精都會再次發起進攻。",
+        "ko": "그 뒤로 해마다 장마철이 되면 투이띤은 또 싸움을 걸어옵니다.",
+        "tl": "Mula noon, tuwing tag-ulan taun-taon, muling sumasalakay si Thuy Tinh.",
+        "ne": "त्यसपछि हरेक वर्ष वर्षायाम आउँदा थुई तिनले फेरि आक्रमण गर्छन्।",
+        "id": "Sejak itu, setiap musim hujan, Thuy Tinh menyerang lagi.",
+        "pt": "Desde então, todo ano, na estação das chuvas, Thuy Tinh ataca outra vez.",
+        "my": "အဲဒီကစပြီး နှစ်စဉ် မိုးရာသီရောက်ရင် သွေတင်က တိုက်ခိုက်ပြန်ပါတယ်။",
+        "th": "นับแต่นั้น ทุกปีเมื่อถึงฤดูฝน ถุ่ยติญก็จะกลับมาท้ารบอีก"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜になると」: hễ đến ~ là (lặp lại hằng năm). しかける = khơi mào. 「〜のです」: giải thích nguồn gốc.",
+        "en": "「〜になると」 = whenever ~ comes (yearly). しかける = to start (a fight). 「〜のです」 = explaining an origin.",
+        "zh-Hans": "「〜になると」＝每当到了……。しかける＝挑起。「〜のです」＝说明缘由。",
+        "zh-Hant": "「〜になると」＝每當到了……。しかける＝挑起。「〜のです」＝說明緣由。",
+        "ko": "「〜になると」=~이 되면. しかける=걸다. 「〜のです」=유래 설명.",
+        "tl": "「〜になると」 = tuwing ~. しかける = simulan (away). 「〜のです」 = nagpapaliwanag.",
+        "ne": "「〜になると」 = ~ आउँदा। しかける = सुरु गर्नु। 「〜のです」 = कारण बताउनु।",
+        "id": "「〜になると」 = setiap ~. しかける = memulai (serangan). 「〜のです」 = menjelaskan asal.",
+        "pt": "「〜になると」 = sempre que chega ~. しかける = iniciar (luta). 「〜のです」 = explica a origem.",
+        "my": "「〜になると」 = ~ ရောက်ရင်။ しかける = စတင်သည်။ 「〜のです」 = အကြောင်းရင်း ရှင်းပြ။",
+        "th": "「〜になると」 = เมื่อถึง ~ しかける = เปิดฉาก 「〜のです」 = อธิบายที่มา"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=206.303,213.169",
+      "t": [
+        206.303,
+        213.169
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ベトナムの北の方では、昔から夏になると大雨と洪水がやってきます。",
+      "furigana": [
+        {
+          "surface": "ベトナムの",
+          "reading": ""
+        },
+        {
+          "surface": "北",
+          "reading": "きた"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "方",
+          "reading": "ほう"
+        },
+        {
+          "surface": "では、",
+          "reading": ""
+        },
+        {
+          "surface": "昔",
+          "reading": "むかし"
+        },
+        {
+          "surface": "から",
+          "reading": ""
+        },
+        {
+          "surface": "夏",
+          "reading": "なつ"
+        },
+        {
+          "surface": "になると",
+          "reading": ""
+        },
+        {
+          "surface": "大雨",
+          "reading": "おおあめ"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "洪水",
+          "reading": "こうずい"
+        },
+        {
+          "surface": "がやってきます。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Betonamu no kita no hou deha, mukashi kara natsu ni naru to ooame to kouzui ga yattekimasu.",
+      "translations": {
+        "vi": "Ở miền Bắc Việt Nam, từ xưa cứ đến mùa hè là có mưa lớn và lũ lụt.",
+        "en": "In northern Vietnam, heavy rains and floods have come every summer since long ago.",
+        "zh-Hans": "在越南北部，自古以来一到夏天就会有大雨和洪水。",
+        "zh-Hant": "在越南北部，自古以來一到夏天就會有大雨和洪水。",
+        "ko": "베트남 북부에서는 옛날부터 여름이 되면 큰비와 홍수가 찾아옵니다.",
+        "tl": "Sa hilagang Vietnam, mula noon pa, dumarating ang malakas na ulan at baha tuwing tag-init.",
+        "ne": "भियतनामको उत्तरतिर पहिलेदेखि नै गर्मीमा ठूलो पानी र बाढी आउँछ।",
+        "id": "Di Vietnam utara, sejak dulu hujan lebat dan banjir datang setiap musim panas.",
+        "pt": "No norte do Vietnã, desde sempre chegam chuvas fortes e enchentes no verão.",
+        "my": "ဗီယက်နမ် မြောက်ပိုင်းမှာ ရှေးကတည်းက နွေရောက်ရင် မိုးသည်းပြီး ရေကြီးပါတယ်။",
+        "th": "ทางเหนือของเวียดนาม ตั้งแต่โบราณ พอถึงฤดูร้อนก็จะมีฝนตกหนักและน้ำท่วม"
+      },
+      "vocab": [
+        {
+          "word": "洪水",
+          "reading": "こうずい",
+          "meanings": {
+            "vi": "lũ lụt",
+            "en": "flood",
+            "zh-Hans": "洪水",
+            "zh-Hant": "洪水",
+            "ko": "홍수",
+            "tl": "baha",
+            "ne": "बाढी",
+            "id": "banjir",
+            "pt": "enchente",
+            "my": "ရေကြီးမှု",
+            "th": "น้ำท่วม"
+          },
+          "level": "N1"
+        }
+      ],
+      "grammarNote": {
+        "vi": "北の方 = phía bắc. 昔から = từ xưa. 洪水 = lũ lụt.",
+        "en": "北の方 = the north. 昔から = since long ago. 洪水 = flood.",
+        "zh-Hans": "北の方＝北方。昔から＝自古以来。洪水＝洪水。",
+        "zh-Hant": "北の方＝北方。昔から＝自古以來。洪水＝洪水。",
+        "ko": "北の方=북쪽. 昔から=옛날부터. 洪水=홍수.",
+        "tl": "北の方 = hilaga. 昔から = mula noon pa. 洪水 = baha.",
+        "ne": "北の方 = उत्तरतिर। 昔から = पहिलेदेखि। 洪水 = बाढी।",
+        "id": "北の方 = utara. 昔から = sejak dulu. 洪水 = banjir.",
+        "pt": "北の方 = norte. 昔から = desde antigamente. 洪水 = enchente.",
+        "my": "北の方 = မြောက်ဘက်။ 昔から = ရှေးကတည်းက။ 洪水 = ရေကြီးခြင်း။",
+        "th": "北の方 = ทางเหนือ 昔から = ตั้งแต่โบราณ 洪水 = น้ำท่วม"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=213.769,220.032",
+      "t": [
+        213.769,
+        220.032
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "昔の人は、それをソンティンとトゥイティンの戦いだと考えました。",
+      "furigana": [
+        {
+          "surface": "昔",
+          "reading": "むかし"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "は、それをソンティンとトゥイティンの",
+          "reading": ""
+        },
+        {
+          "surface": "戦",
+          "reading": "たたか"
+        },
+        {
+          "surface": "いだと",
+          "reading": ""
+        },
+        {
+          "surface": "考",
+          "reading": "かんが"
+        },
+        {
+          "surface": "えました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mukashi no hito wa, sore o Sontin to Tuitin no tatakai da to kangaemashita.",
+      "translations": {
+        "vi": "Người xưa cho rằng đó chính là trận chiến giữa Sơn Tinh và Thủy Tinh.",
+        "en": "People long ago believed it was the battle between Son Tinh and Thuy Tinh.",
+        "zh-Hans": "古人认为，那就是山精和水精的战斗。",
+        "zh-Hant": "古人認為，那就是山精和水精的戰鬥。",
+        "ko": "옛사람들은 그것을 선띤과 투이띤의 싸움이라고 생각했습니다.",
+        "tl": "Inakala ng mga tao noon na iyon ang labanan nina Son Tinh at Thuy Tinh.",
+        "ne": "पुराना मानिसहरूले त्यसलाई सोन तिन र थुई तिनको युद्ध ठाने।",
+        "id": "Orang dahulu menganggapnya sebagai pertarungan Son Tinh dan Thuy Tinh.",
+        "pt": "Os antigos achavam que era a batalha entre Son Tinh e Thuy Tinh.",
+        "my": "ရှေးလူတွေက အဲဒါကို ဆွန်တင်နဲ့ သွေတင်ရဲ့ တိုက်ပွဲလို့ ယူဆခဲ့ကြပါတယ်။",
+        "th": "คนโบราณเชื่อว่านั่นคือการต่อสู้ระหว่างเซินติญกับถุ่ยติญ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「AをBだと考える」: cho rằng A là B. 昔の人 = người xưa.",
+        "en": "「AをBだと考える」 = to regard A as B. 昔の人 = people of old.",
+        "zh-Hans": "「AをBだと考える」＝认为A是B。昔の人＝古人。",
+        "zh-Hant": "「AをBだと考える」＝認為A是B。昔の人＝古人。",
+        "ko": "「AをBだと考える」=A를 B라고 생각하다. 昔の人=옛사람.",
+        "tl": "「AをBだと考える」 = ituring na B ang A. 昔の人 = mga tao noon.",
+        "ne": "「AをBだと考える」 = A लाई B ठान्नु। 昔の人 = पुराना मानिस।",
+        "id": "「AをBだと考える」 = menganggap A sebagai B. 昔の人 = orang dahulu.",
+        "pt": "「AをBだと考える」 = considerar A como B. 昔の人 = os antigos.",
+        "my": "「AをBだと考える」 = A ကို B လို့ ယူဆသည်။ 昔の人 = ရှေးလူ။",
+        "th": "「AをBだと考える」 = ถือว่า A คือ B 昔の人 = คนโบราณ"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=220.632,225.813",
+      "t": [
+        220.632,
+        225.813
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そして、山のように強い心で、毎年の水害に立ち向かってきたのです。",
+      "furigana": [
+        {
+          "surface": "そして、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "のように",
+          "reading": ""
+        },
+        {
+          "surface": "強",
+          "reading": "つよ"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "心",
+          "reading": "こころ"
+        },
+        {
+          "surface": "で、",
+          "reading": ""
+        },
+        {
+          "surface": "毎年",
+          "reading": "まいとし"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "水害",
+          "reading": "すいがい"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "立",
+          "reading": "た"
+        },
+        {
+          "surface": "ち",
+          "reading": ""
+        },
+        {
+          "surface": "向",
+          "reading": "む"
+        },
+        {
+          "surface": "かってきたのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite, yama no you ni tsuyoi kokoro de, maitoshi no suigai ni tachimukattekita no desu.",
+      "translations": {
+        "vi": "Và họ đã đối mặt với lũ lụt hằng năm bằng tấm lòng vững chãi như núi.",
+        "en": "And with hearts as strong as mountains, they have faced the floods every year.",
+        "zh-Hans": "他们以山一般坚强的心，年年对抗着水灾。",
+        "zh-Hant": "他們以山一般堅強的心，年年對抗著水災。",
+        "ko": "그리고 산처럼 강한 마음으로 해마다 수해에 맞서 왔습니다.",
+        "tl": "At sa pusong kasintatag ng bundok, hinarap nila ang baha taun-taon.",
+        "ne": "अनि पहाडजस्तै बलियो मनले हरेक वर्ष बाढीको सामना गर्दै आए।",
+        "id": "Dan dengan hati sekuat gunung, mereka menghadapi banjir setiap tahun.",
+        "pt": "E, com corações fortes como montanhas, enfrentaram as enchentes todo ano.",
+        "my": "ပြီးတော့ တောင်လို ခိုင်မာတဲ့ စိတ်နဲ့ နှစ်စဉ် ရေဘေးကို ရင်ဆိုင်ခဲ့ကြပါတယ်။",
+        "th": "และพวกเขาก็เผชิญอุทกภัยทุกปีด้วยใจที่แข็งแกร่งดั่งภูเขา"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「Aのように」: giống như A. 立ち向かう = đương đầu. 「〜てきた」: đã ~ suốt từ trước đến nay.",
+        "en": "「Aのように」 = like A. 立ち向かう = to stand up to. 「〜てきた」 = have been ~ing up to now.",
+        "zh-Hans": "「Aのように」＝像A一样。立ち向かう＝面对、对抗。「〜てきた」＝一直……过来。",
+        "zh-Hant": "「Aのように」＝像A一樣。立ち向かう＝面對、對抗。「〜てきた」＝一直……過來。",
+        "ko": "「Aのように」=A처럼. 立ち向かう=맞서다. 「〜てきた」=~해 왔다.",
+        "tl": "「Aのように」 = tulad ng A. 立ち向かう = harapin. 「〜てきた」 = ~ hanggang ngayon.",
+        "ne": "「Aのように」 = A जस्तै। 立ち向かう = सामना गर्नु। 「〜てきた」 = ~ गर्दै आएको।",
+        "id": "「Aのように」 = seperti A. 立ち向かう = menghadapi. 「〜てきた」 = telah ~ sampai kini.",
+        "pt": "「Aのように」 = como A. 立ち向かう = enfrentar. 「〜てきた」 = vir ~ até hoje.",
+        "my": "「Aのように」 = A လို။ 立ち向かう = ရင်ဆိုင်သည်။ 「〜てきた」 = ~ ခဲ့သည် (ယခုထိ)။",
+        "th": "「Aのように」 = เหมือน A 立ち向かう = เผชิญหน้า 「〜てきた」 = ~ มาตลอด"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=226.413,232.728",
+      "t": [
+        226.413,
+        232.728
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "日本にも、山と海の二人が出てくる「山幸彦と海幸彦」という神話があります。",
+      "furigana": [
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "にも、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "海",
+          "reading": "うみ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "てくる「",
+          "reading": ""
+        },
+        {
+          "surface": "山幸彦",
+          "reading": "やまさちひこ"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "海幸彦",
+          "reading": "うみさちひこ"
+        },
+        {
+          "surface": "」という",
+          "reading": ""
+        },
+        {
+          "surface": "神話",
+          "reading": "しんわ"
+        },
+        {
+          "surface": "があります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Nihon ni mo, yama to umi no futari ga detekuru “Yamasachihiko to Umisachihiko” to iu shinwa ga arimasu.",
+      "translations": {
+        "vi": "Nhật Bản cũng có thần thoại về hai anh em núi và biển, tên là \"Yamasachihiko và Umisachihiko\".",
+        "en": "Japan also has a myth with two brothers of mountain and sea: \"Yamasachihiko and Umisachihiko\".",
+        "zh-Hans": "日本也有山与海两兄弟登场的神话，叫做《山幸彦与海幸彦》。",
+        "zh-Hant": "日本也有山與海兩兄弟登場的神話，叫做《山幸彥與海幸彥》。",
+        "ko": "일본에도 산과 바다의 두 사람이 나오는 '야마사치히코와 우미사치히코'라는 신화가 있습니다.",
+        "tl": "May mito rin sa Japan tungkol sa dalawa ng bundok at dagat: \"Yamasachihiko at Umisachihiko\".",
+        "ne": "जापानमा पनि पहाड र समुद्रका दुई जना आउने \"यामासाचिहिको र उमिसाचिहिको\" भन्ने मिथक छ।",
+        "id": "Jepang juga punya mitos dua orang gunung dan laut: \"Yamasachihiko dan Umisachihiko\".",
+        "pt": "O Japão também tem um mito com dois irmãos da montanha e do mar: \"Yamasachihiko e Umisachihiko\".",
+        "my": "ဂျပန်မှာလည်း တောင်နဲ့ ပင်လယ်က နှစ်ယောက်ပါတဲ့ \"ယာမာဆချိဟိကို နဲ့ ဥမိဆချိဟိကို\" ဆိုတဲ့ ဒဏ္ဍာရီ ရှိပါတယ်။",
+        "th": "ญี่ปุ่นก็มีตำนานที่มีสองคนแห่งภูเขาและทะเล ชื่อ \"ยามะซาจิฮิโกะกับอุมิซาจิฮิโกะ\""
+      },
+      "vocab": [
+        {
+          "word": "神話",
+          "reading": "しんわ",
+          "meanings": {
+            "vi": "thần thoại",
+            "en": "myth",
+            "zh-Hans": "神话",
+            "zh-Hant": "神話",
+            "ko": "신화",
+            "tl": "mito",
+            "ne": "पौराणिक कथा",
+            "id": "mitos",
+            "pt": "mito",
+            "my": "ဒဏ္ဍာရီ",
+            "th": "ตำนานเทพ"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「Aにも〜がある」: A cũng có ~. 出てくる = xuất hiện (trong truyện). 神話 = thần thoại.",
+        "en": "「Aにも〜がある」 = A also has ~. 出てくる = to appear (in a story). 神話 = myth.",
+        "zh-Hans": "「Aにも〜がある」＝A也有……。出てくる＝出场。神話＝神话。",
+        "zh-Hant": "「Aにも〜がある」＝A也有……。出てくる＝出場。神話＝神話。",
+        "ko": "「Aにも〜がある」=A에도 ~이 있다. 出てくる=나오다. 神話=신화.",
+        "tl": "「Aにも〜がある」 = mayroon din sa A. 出てくる = lumitaw. 神話 = mito.",
+        "ne": "「Aにも〜がある」 = A मा पनि ~ छ। 出てくる = देखा पर्नु। 神話 = मिथक।",
+        "id": "「Aにも〜がある」 = di A juga ada ~. 出てくる = muncul. 神話 = mitos.",
+        "pt": "「Aにも〜がある」 = A também tem ~. 出てくる = aparecer. 神話 = mito.",
+        "my": "「Aにも〜がある」 = A မှာလည်း ~ ရှိ။ 出てくる = ပေါ်လာသည်။ 神話 = ဒဏ္ဍာရီ။",
+        "th": "「Aにも〜がある」 = A ก็มี ~ 出てくる = ปรากฏ 神話 = ตำนาน"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=233.328,240.662",
+      "t": [
+        233.328,
+        240.662
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "山で狩りをする弟と、海で魚をとる兄のお話です。",
+      "furigana": [
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "狩",
+          "reading": "か"
+        },
+        {
+          "surface": "りをする",
+          "reading": ""
+        },
+        {
+          "surface": "弟",
+          "reading": "おとうと"
+        },
+        {
+          "surface": "と、",
+          "reading": ""
+        },
+        {
+          "surface": "海",
+          "reading": "うみ"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "魚",
+          "reading": "さかな"
+        },
+        {
+          "surface": "をとる",
+          "reading": ""
+        },
+        {
+          "surface": "兄",
+          "reading": "あに"
+        },
+        {
+          "surface": "のお",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Yama de kari o suru otouto to, umi de sakana o toru ani no ohanashi desu.",
+      "translations": {
+        "vi": "Đó là chuyện về người em săn bắn trên núi và người anh đánh cá ngoài biển.",
+        "en": "It's the story of a younger brother who hunts in the mountains and an older brother who fishes at sea.",
+        "zh-Hans": "讲的是在山里打猎的弟弟和在海里捕鱼的哥哥。",
+        "zh-Hant": "講的是在山裡打獵的弟弟和在海里捕魚的哥哥。",
+        "ko": "산에서 사냥하는 동생과 바다에서 물고기를 잡는 형의 이야기입니다.",
+        "tl": "Kuwento ito ng nakababatang kapatid na nangangaso sa bundok at nakatatandang nangingisda sa dagat.",
+        "ne": "पहाडमा सिकार गर्ने भाइ र समुद्रमा माछा मार्ने दाजुको कथा हो।",
+        "id": "Ini kisah adik yang berburu di gunung dan kakak yang menangkap ikan di laut.",
+        "pt": "É a história do irmão mais novo que caça nas montanhas e do mais velho que pesca no mar.",
+        "my": "တောင်ပေါ်မှာ အမဲလိုက်တဲ့ ညီနဲ့ ပင်လယ်မှာ ငါးဖမ်းတဲ့ အစ်ကိုရဲ့ ပုံပြင်ပါ။",
+        "th": "เป็นเรื่องของน้องชายที่ล่าสัตว์บนภูเขา กับพี่ชายที่จับปลาในทะเล"
+      },
+      "vocab": [
+        {
+          "word": "狩り",
+          "reading": "かり",
+          "meanings": {
+            "vi": "săn bắn",
+            "en": "hunting",
+            "zh-Hans": "打猎",
+            "zh-Hant": "打獵",
+            "ko": "사냥",
+            "tl": "pangangaso",
+            "ne": "सिकार",
+            "id": "berburu",
+            "pt": "caça",
+            "my": "အမဲလိုက်",
+            "th": "การล่าสัตว์"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "Mệnh đề bổ nghĩa: 「山で狩りをする弟」 = người em săn trên núi. 狩り = săn bắn.",
+        "en": "Relative clause: 「山で狩りをする弟」 = the younger brother who hunts in the mountains. 狩り = hunting.",
+        "zh-Hans": "定语从句：「山で狩りをする弟」＝在山里打猎的弟弟。狩り＝打猎。",
+        "zh-Hant": "定語從句：「山で狩りをする弟」＝在山裡打獵的弟弟。狩り＝打獵。",
+        "ko": "관형절: 「山で狩りをする弟」=산에서 사냥하는 동생. 狩り=사냥.",
+        "tl": "Sugnay: 「山で狩りをする弟」 = kapatid na nangangaso sa bundok. 狩り = pangangaso.",
+        "ne": "विशेषण उपवाक्य: 「山で狩りをする弟」 = पहाडमा सिकार गर्ने भाइ। 狩り = सिकार।",
+        "id": "Klausa relatif: 「山で狩りをする弟」 = adik yang berburu di gunung. 狩り = berburu.",
+        "pt": "Oração relativa: 「山で狩りをする弟」 = o irmão que caça na montanha. 狩り = caça.",
+        "my": "နာမဝိသေသနအပိုဒ်: 「山で狩りをする弟」 = တောင်ပေါ်မှာ အမဲလိုက်တဲ့ ညီ။ 狩り = အမဲလိုက်ခြင်း။",
+        "th": "อนุประโยค: 「山で狩りをする弟」 = น้องที่ล่าสัตว์บนภูเขา 狩り = การล่าสัตว์"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=241.262,246.506",
+      "t": [
+        241.262,
+        246.506
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "弟は海の神様から、潮を満ちさせる玉と、引かせる玉をもらいました。",
+      "furigana": [
+        {
+          "surface": "弟",
+          "reading": "おとうと"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "海",
+          "reading": "うみ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "神様",
+          "reading": "かみさま"
+        },
+        {
+          "surface": "から、",
+          "reading": ""
+        },
+        {
+          "surface": "潮",
+          "reading": "しお"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "満",
+          "reading": "み"
+        },
+        {
+          "surface": "ちさせる",
+          "reading": ""
+        },
+        {
+          "surface": "玉",
+          "reading": "たま"
+        },
+        {
+          "surface": "と、",
+          "reading": ""
+        },
+        {
+          "surface": "引",
+          "reading": "ひ"
+        },
+        {
+          "surface": "かせる",
+          "reading": ""
+        },
+        {
+          "surface": "玉",
+          "reading": "たま"
+        },
+        {
+          "surface": "をもらいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Otouto wa umi no kamisama kara, shio o michisaseru tama to, hikaseru tama o moraimashita.",
+      "translations": {
+        "vi": "Người em được thần biển tặng viên ngọc làm thủy triều dâng và viên ngọc làm thủy triều rút.",
+        "en": "The younger brother received from the sea god a jewel that makes the tide rise and one that makes it fall.",
+        "zh-Hans": "弟弟从海神那里得到了让潮水上涨的宝珠和让潮水退去的宝珠。",
+        "zh-Hant": "弟弟從海神那裡得到了讓潮水上漲的寶珠和讓潮水退去的寶珠。",
+        "ko": "동생은 바다의 신에게서 밀물을 부르는 구슬과 썰물을 부르는 구슬을 받았습니다.",
+        "tl": "Tumanggap ang nakababatang kapatid mula sa diyos ng dagat ng hiyas na nagpapataas at nagpapababa ng tubig.",
+        "ne": "भाइले समुद्रका देवताबाट ज्वार चढाउने र झार्ने मणि पाए।",
+        "id": "Sang adik menerima dari dewa laut permata yang membuat pasang naik dan surut.",
+        "pt": "O mais novo recebeu do deus do mar uma joia que faz a maré subir e outra que a faz baixar.",
+        "my": "ညီက ပင်လယ်နတ်ဆီက ဒီရေတက်စေတဲ့ ပုလဲနဲ့ ဒီရေကျစေတဲ့ ပုလဲကို ရပါတယ်။",
+        "th": "น้องชายได้รับลูกแก้วที่ทำให้น้ำขึ้น และลูกแก้วที่ทำให้น้ำลงจากเทพแห่งทะเล"
+      },
+      "vocab": [
+        {
+          "word": "神様",
+          "reading": "かみさま",
+          "meanings": {
+            "vi": "thần linh, ông trời",
+            "en": "god (respectful)",
+            "zh-Hans": "神明",
+            "zh-Hant": "神明",
+            "ko": "신, 하느님",
+            "tl": "Diyos",
+            "ne": "भगवान्",
+            "id": "Tuhan, dewa",
+            "pt": "Deus, divindade",
+            "my": "ဘုရား, နတ်",
+            "th": "พระเจ้า เทพเจ้า"
+          },
+          "level": "N2"
+        },
+        {
+          "word": "満ちる",
+          "reading": "みちる",
+          "meanings": {
+            "vi": "dâng đầy (thủy triều)",
+            "en": "to rise, be full (tide)",
+            "zh-Hans": "涨满（潮水）",
+            "zh-Hant": "漲滿（潮水）",
+            "ko": "차오르다",
+            "tl": "tumaas (tubig)",
+            "ne": "भरिनु",
+            "id": "pasang, penuh",
+            "pt": "encher (maré)",
+            "my": "ပြည့်သည်",
+            "th": "เต็ม (น้ำขึ้น)"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "Thể sai khiến: 満ちさせる = làm cho (triều) dâng, 引かせる = làm cho rút. 潮 = thủy triều. 「AからBをもらう」: nhận B từ A.",
+        "en": "Causative: 満ちさせる = make (the tide) rise, 引かせる = make it ebb. 潮 = tide. 「AからBをもらう」 = receive B from A.",
+        "zh-Hans": "使役：満ちさせる＝使涨，引かせる＝使退。潮＝潮水。「AからBをもらう」＝从A得到B。",
+        "zh-Hant": "使役：満ちさせる＝使漲，引かせる＝使退。潮＝潮水。「AからBをもらう」＝從A得到B。",
+        "ko": "사역: 満ちさせる=차게 하다, 引かせる=빠지게 하다. 潮=조수. 「AからBをもらう」=A에게서 B를 받다.",
+        "tl": "Causative: 満ちさせる = pataasin, 引かせる = pababain. 潮 = taog. 「AからBをもらう」 = tumanggap ng B kay A.",
+        "ne": "प्रेरणार्थक: 満ちさせる = चढाउनु, 引かせる = झार्नु। 潮 = ज्वारभाटा। 「AからBをもらう」 = A बाट B पाउनु।",
+        "id": "Kausatif: 満ちさせる = membuat pasang, 引かせる = membuat surut. 潮 = pasang surut. 「AからBをもらう」 = menerima B dari A.",
+        "pt": "Causativo: 満ちさせる = fazer subir, 引かせる = fazer baixar. 潮 = maré. 「AからBをもらう」 = receber B de A.",
+        "my": "စေခိုင်းပုံ: 満ちさせる = တက်စေ၊ 引かせる = ကျစေ။ 潮 = ဒီရေ။ 「AからBをもらう」 = A ဆီက B ရ။",
+        "th": "รูปให้กระทำ: 満ちさせる = ทำให้ขึ้น 引かせる = ทำให้ลง 潮 = น้ำขึ้นน้ำลง 「AからBをもらう」 = ได้ B จาก A"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=247.106,253.803",
+      "t": [
+        247.106,
+        253.803
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "その玉で海の水をあやつって、意地悪な兄に勝ったと言われています。",
+      "furigana": [
+        {
+          "surface": "その",
+          "reading": ""
+        },
+        {
+          "surface": "玉",
+          "reading": "たま"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "海",
+          "reading": "うみ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "をあやつって、",
+          "reading": ""
+        },
+        {
+          "surface": "意地悪",
+          "reading": "いじわる"
+        },
+        {
+          "surface": "な",
+          "reading": ""
+        },
+        {
+          "surface": "兄",
+          "reading": "あに"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "勝",
+          "reading": "か"
+        },
+        {
+          "surface": "ったと",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "われています。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono tama de umi no mizu o ayatsutte, ijiwaru na ani ni katta to iwareteimasu.",
+      "translations": {
+        "vi": "Người ta kể rằng người em đã dùng ngọc để điều khiển nước biển và thắng người anh xấu bụng.",
+        "en": "It is said he used the jewels to control the sea and defeated his mean older brother.",
+        "zh-Hans": "据说他用宝珠操纵海水，战胜了心眼坏的哥哥。",
+        "zh-Hant": "據說他用寶珠操縱海水，戰勝了心眼壞的哥哥。",
+        "ko": "그 구슬로 바닷물을 다스려 심술궂은 형을 이겼다고 합니다.",
+        "tl": "Sinasabing ginamit niya ang mga hiyas para kontrolin ang dagat at natalo ang masamang kapatid.",
+        "ne": "ती मणिले समुद्रको पानी नियन्त्रण गरेर दुष्ट दाजुलाई जितेको भनिन्छ।",
+        "id": "Konon dengan permata itu ia mengendalikan air laut dan mengalahkan kakaknya yang jahat.",
+        "pt": "Dizem que usou as joias para controlar o mar e venceu o irmão malvado.",
+        "my": "အဲဒီပုလဲနဲ့ ပင်လယ်ရေကို ထိန်းပြီး စိတ်ဆိုးတဲ့ အစ်ကိုကို နိုင်ခဲ့တယ်လို့ ဆိုကြပါတယ်။",
+        "th": "ว่ากันว่าเขาใช้ลูกแก้วนั้นควบคุมน้ำทะเล และเอาชนะพี่ชายใจร้ายได้"
+      },
+      "vocab": [
+        {
+          "word": "玉",
+          "reading": "たま",
+          "meanings": {
+            "vi": "viên ngọc, viên tròn",
+            "en": "jewel, ball",
+            "zh-Hans": "玉、珠",
+            "zh-Hant": "玉、珠",
+            "ko": "구슬",
+            "tl": "hiyas, bola",
+            "ne": "मणि, गोलो",
+            "id": "permata, bola",
+            "pt": "joia, bola",
+            "my": "ပုလဲ, အလုံး",
+            "th": "ลูกแก้ว"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "意地悪",
+          "reading": "いじわる",
+          "meanings": {
+            "vi": "xấu bụng, hay chơi xấu",
+            "en": "mean, spiteful",
+            "zh-Hans": "心眼坏",
+            "zh-Hant": "心眼壞",
+            "ko": "심술궂음",
+            "tl": "masama ang ugali",
+            "ne": "दुष्ट स्वभाव",
+            "id": "jahat, usil",
+            "pt": "maldoso",
+            "my": "စိတ်ဆိုးဝါးသော",
+            "th": "ใจร้าย"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜と言われています」: người ta nói rằng ~ (truyền thuyết). あやつる = điều khiển. 意地悪 = xấu bụng.",
+        "en": "「〜と言われています」 = it is said that ~ (legend). あやつる = to control. 意地悪 = mean.",
+        "zh-Hans": "「〜と言われています」＝据说……。あやつる＝操纵。意地悪＝心眼坏。",
+        "zh-Hant": "「〜と言われています」＝據說……。あやつる＝操縱。意地悪＝心眼壞。",
+        "ko": "「〜と言われています」=~라고 합니다. あやつる=다루다. 意地悪=심술궂음.",
+        "tl": "「〜と言われています」 = sinasabing ~. あやつる = kontrolin. 意地悪 = masama ang ugali.",
+        "ne": "「〜と言われています」 = ~ भनिन्छ। あやつる = नियन्त्रण गर्नु। 意地悪 = दुष्ट।",
+        "id": "「〜と言われています」 = konon ~. あやつる = mengendalikan. 意地悪 = jahat.",
+        "pt": "「〜と言われています」 = dizem que ~. あやつる = controlar. 意地悪 = malvado.",
+        "my": "「〜と言われています」 = ~ လို့ ဆိုကြသည်။ あやつる = ထိန်းချုပ်သည်။ 意地悪 = စိတ်ဆိုး။",
+        "th": "「〜と言われています」 = ว่ากันว่า ~ あやつる = ควบคุม 意地悪 = ใจร้าย"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=254.403,260.656",
+      "t": [
+        254.403,
+        260.656
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "山と水がぶつかるお話は、ベトナムにも日本にもあるのですね。",
+      "furigana": [
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "がぶつかるお",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "は、ベトナムにも",
+          "reading": ""
+        },
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "にもあるのですね。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Yama to mizu ga butsukaru ohanashi wa, Betonamu ni mo Nihon ni mo aru no desu ne.",
+      "translations": {
+        "vi": "Chuyện núi và nước đối đầu nhau, Việt Nam có mà Nhật Bản cũng có nhỉ.",
+        "en": "So stories of mountains clashing with water exist in both Vietnam and Japan.",
+        "zh-Hans": "山与水相争的故事，越南有，日本也有呢。",
+        "zh-Hant": "山與水相爭的故事，越南有，日本也有呢。",
+        "ko": "산과 물이 맞부딪치는 이야기는 베트남에도 일본에도 있네요.",
+        "tl": "Kaya pala, may kuwento ng bundok laban sa tubig sa Vietnam at sa Japan.",
+        "ne": "पहाड र पानी जुध्ने कथा भियतनाम र जापान दुवैमा रहेछ।",
+        "id": "Kisah gunung melawan air ternyata ada di Vietnam dan juga Jepang.",
+        "pt": "Histórias de montanha contra água existem no Vietnã e no Japão, não é?",
+        "my": "တောင်နဲ့ ရေ တိုက်ကြတဲ့ ပုံပြင်က ဗီယက်နမ်မှာရော ဂျပန်မှာရော ရှိတာပဲနော်။",
+        "th": "เรื่องภูเขาปะทะสายน้ำ มีทั้งในเวียดนามและญี่ปุ่นนะ"
+      },
+      "vocab": [
+        {
+          "word": "ぶつかる",
+          "reading": "ぶつかる",
+          "meanings": {
+            "vi": "va chạm, đối đầu",
+            "en": "to collide, clash",
+            "zh-Hans": "碰撞",
+            "zh-Hant": "碰撞",
+            "ko": "부딪치다",
+            "tl": "magbanggaan",
+            "ne": "ठोक्किनु",
+            "id": "bertabrakan",
+            "pt": "chocar-se",
+            "my": "တိုက်မိသည်",
+            "th": "ชนกัน"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「AにもBにも」: cả ở A lẫn ở B. 「〜のですね」: nhận ra và chia sẻ với người nghe. ぶつかる = va chạm, đối đầu.",
+        "en": "「AにもBにも」 = in both A and B. 「〜のですね」 = sharing a realization. ぶつかる = to clash.",
+        "zh-Hans": "「AにもBにも」＝A和B都。「〜のですね」＝与听者分享发现。ぶつかる＝冲突。",
+        "zh-Hant": "「AにもBにも」＝A和B都。「〜のですね」＝與聽者分享發現。ぶつかる＝衝突。",
+        "ko": "「AにもBにも」=A에도 B에도. 「〜のですね」=깨달음 공유. ぶつかる=부딪치다.",
+        "tl": "「AにもBにも」 = sa A at sa B. 「〜のですね」 = pagbabahagi ng napagtanto. ぶつかる = magbanggaan.",
+        "ne": "「AにもBにも」 = A र B दुवैमा। 「〜のですね」 = थाहा पाएको कुरा बाँड्नु। ぶつかる = जुध्नु।",
+        "id": "「AにもBにも」 = di A maupun B. 「〜のですね」 = berbagi kesadaran. ぶつかる = berbenturan.",
+        "pt": "「AにもBにも」 = tanto em A quanto em B. 「〜のですね」 = partilhar uma descoberta. ぶつかる = colidir.",
+        "my": "「AにもBにも」 = A မှာရော B မှာရော။ 「〜のですね」 = သိလာတာ မျှဝေ။ ぶつかる = တိုက်သည်။",
+        "th": "「AにもBにも」 = ทั้งใน A และ B 「〜のですね」 = แบ่งปันสิ่งที่เพิ่งรู้ ぶつかる = ปะทะ"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=261.256,266.542",
+      "t": [
+        261.256,
+        266.542
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "どちらの国も、山が多く、雨が多いからかもしれません。",
+      "furigana": [
+        {
+          "surface": "どちらの",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "も、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "多",
+          "reading": "おお"
+        },
+        {
+          "surface": "く、",
+          "reading": ""
+        },
+        {
+          "surface": "雨",
+          "reading": "あめ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "多",
+          "reading": "おお"
+        },
+        {
+          "surface": "いからかもしれません。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Dochira no kuni mo, yama ga ooku, ame ga ooi kara kamo shiremasen.",
+      "translations": {
+        "vi": "Có lẽ vì cả hai nước đều nhiều núi và mưa nhiều.",
+        "en": "Perhaps because both countries have many mountains and lots of rain.",
+        "zh-Hans": "也许是因为两个国家都多山、多雨吧。",
+        "zh-Hant": "也許是因為兩個國家都多山、多雨吧。",
+        "ko": "두 나라 모두 산이 많고 비가 많기 때문일지도 모릅니다.",
+        "tl": "Marahil dahil parehong maraming bundok at ulan ang dalawang bansa.",
+        "ne": "सायद दुवै देशमा पहाड र पानी धेरै भएकाले होला।",
+        "id": "Mungkin karena kedua negara sama-sama banyak gunung dan hujan.",
+        "pt": "Talvez porque os dois países têm muitas montanhas e muita chuva.",
+        "my": "နိုင်ငံနှစ်ခုလုံး တောင်များပြီး မိုးများလို့ ဖြစ်မလား မသိဘူး။",
+        "th": "อาจเป็นเพราะทั้งสองประเทศมีภูเขามากและฝนชุก"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜からかもしれません」: có lẽ là vì ~. 「Aが多く、」: liên dụng của 多い, nối câu.",
+        "en": "「〜からかもしれません」 = perhaps because ~. 「Aが多く、」 = connective form of 多い.",
+        "zh-Hans": "「〜からかもしれません」＝也许是因为……。「Aが多く、」＝多い的连用形。",
+        "zh-Hant": "「〜からかもしれません」＝也許是因為……。「Aが多く、」＝多い的連用形。",
+        "ko": "「〜からかもしれません」=~ 때문일지도 모릅니다. 多く、=多い의 연용형.",
+        "tl": "「〜からかもしれません」 = marahil dahil ~. 多く、 = pang-ugnay na anyo ng 多い.",
+        "ne": "「〜からかもしれません」 = सायद ~ ले होला। 多く、 = 多い को जोड्ने रूप।",
+        "id": "「〜からかもしれません」 = mungkin karena ~. 多く、 = bentuk sambung 多い.",
+        "pt": "「〜からかもしれません」 = talvez porque ~. 多く、 = forma conectiva de 多い.",
+        "my": "「〜からかもしれません」 = ~ လို့ ဖြစ်နိုင်သည်။ 多く、 = 多い ဆက်ပုံ။",
+        "th": "「〜からかもしれません」 = อาจเป็นเพราะ ~ 多く、 = รูปเชื่อมของ 多い"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=267.142,272.15",
+      "t": [
+        267.142,
+        272.15
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "日本で暮らすなら、台風や大雨の季節には、町のハザードマップを見ておくと安心です。",
+      "furigana": [
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "暮",
+          "reading": "く"
+        },
+        {
+          "surface": "らすなら、",
+          "reading": ""
+        },
+        {
+          "surface": "台風",
+          "reading": "たいふう"
+        },
+        {
+          "surface": "や",
+          "reading": ""
+        },
+        {
+          "surface": "大雨",
+          "reading": "おおあめ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "季節",
+          "reading": "きせつ"
+        },
+        {
+          "surface": "には、",
+          "reading": ""
+        },
+        {
+          "surface": "町",
+          "reading": "まち"
+        },
+        {
+          "surface": "のハザードマップを",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "ておくと",
+          "reading": ""
+        },
+        {
+          "surface": "安心",
+          "reading": "あんしん"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Nihon de kurasunara, taifuu ya ooame no kisetsu ni wa, machi no hazaado mappu o miteoku to anshin desu.",
+      "translations": {
+        "vi": "Nếu sống ở Nhật, vào mùa bão và mưa lớn, xem trước bản đồ cảnh báo thiên tai (hazard map) của địa phương sẽ yên tâm hơn.",
+        "en": "If you live in Japan, checking your town's hazard map before typhoon and heavy-rain season gives you peace of mind.",
+        "zh-Hans": "如果在日本生活，台风和暴雨季节前先看看当地的灾害地图（ハザードマップ），会更安心。",
+        "zh-Hant": "如果在日本生活，颱風和暴雨季節前先看看當地的災害地圖（ハザードマップ），會更安心。",
+        "ko": "일본에서 산다면 태풍과 큰비 철에는 동네 해저드 맵을 미리 봐 두면 안심입니다.",
+        "tl": "Kung nakatira ka sa Japan, mas panatag kung titingnan mo muna ang hazard map ng bayan sa panahon ng bagyo at malakas na ulan.",
+        "ne": "जापानमा बस्नुहुन्छ भने आँधी र ठूलो पानीको मौसममा नगरको ह्याजार्ड म्याप पहिले हेर्नुभयो भने ढुक्क हुन्छ।",
+        "id": "Kalau tinggal di Jepang, melihat peta bahaya (hazard map) kota sebelum musim topan dan hujan lebat membuat lebih tenang.",
+        "pt": "Se você mora no Japão, consultar antes o mapa de riscos (hazard map) da cidade na época de tufões e chuvas dá mais tranquilidade.",
+        "my": "ဂျပန်မှာ နေမယ်ဆိုရင် တိုင်ဖွန်းနဲ့ မိုးသည်းရာသီမှာ မြို့ရဲ့ ဘေးအန္တရာယ်မြေပုံ (hazard map) ကို ကြိုကြည့်ထားရင် စိတ်ချရပါတယ်။",
+        "th": "ถ้าอยู่ญี่ปุ่น ช่วงฤดูไต้ฝุ่นและฝนตกหนัก ดูแผนที่ภัยพิบัติ (hazard map) ของเมืองไว้ก่อนจะอุ่นใจ"
+      },
+      "vocab": [
+        {
+          "word": "暮らす",
+          "reading": "くらす",
+          "meanings": {
+            "vi": "sống, sinh sống",
+            "en": "to live, to get by",
+            "zh-Hans": "生活，过日子",
+            "zh-Hant": "生活，過日子",
+            "ko": "살다, 생활하다",
+            "tl": "mamuhay",
+            "ne": "बस्नु, जीवन बिताउनु",
+            "id": "hidup, tinggal",
+            "pt": "viver, morar",
+            "my": "နေထိုင်သည်",
+            "th": "ใช้ชีวิต, อาศัยอยู่"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜なら」: nếu (giả định tình huống). 「〜ておくと安心」: làm sẵn ~ thì yên tâm. ハザードマップ do thành phố phát, có ở tòa thị chính và trên mạng.",
+        "en": "「〜なら」 = if (assumed situation). 「〜ておくと安心」 = doing ~ in advance brings peace of mind. Hazard maps are issued by your city, at city hall and online.",
+        "zh-Hans": "「〜なら」＝如果（假定情况）。「〜ておくと安心」＝事先……就放心。灾害地图由市政府发放，市役所和网上都有。",
+        "zh-Hant": "「〜なら」＝如果（假定情況）。「〜ておくと安心」＝事先……就放心。災害地圖由市政府發放，市役所和網上都有。",
+        "ko": "「〜なら」=~라면. 「〜ておくと安心」=미리 ~해 두면 안심. 해저드 맵은 시청과 인터넷에서.",
+        "tl": "「〜なら」 = kung (sitwasyon). 「〜ておくと安心」 = panatag kung ~ nang maaga. Galing sa city hall at online ang hazard map.",
+        "ne": "「〜なら」 = ~ भने। 「〜ておくと安心」 = पहिले नै ~ गरे ढुक्क। ह्याजार्ड म्याप नगरपालिका र अनलाइनमा।",
+        "id": "「〜なら」 = kalau. 「〜ておくと安心」 = ~ lebih dulu agar tenang. Peta bahaya dari balai kota dan daring.",
+        "pt": "「〜なら」 = se. 「〜ておくと安心」 = fazer ~ antes tranquiliza. O mapa vem da prefeitura e está online.",
+        "my": "「〜なら」 = ~ ဆိုရင်။ 「〜ておくと安心」 = ကြို ~ ထားရင် စိတ်ချရ။ မြေပုံကို မြို့တော်ခန်းမနဲ့ အွန်လိုင်းမှာ ရ။",
+        "th": "「〜なら」 = ถ้า 「〜ておくと安心」 = ~ ไว้ก่อนจะอุ่นใจ แผนที่ภัยพิบัติมีที่ศาลาว่าการและออนไลน์"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=272.75,280.281",
+      "t": [
+        272.75,
+        280.281
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "これで「ソンティンとトゥイティン」のお話は、おしまいです。",
+      "furigana": [
+        {
+          "surface": "これで「ソンティンとトゥイティン」のお",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "は、おしまいです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kore de “Sontin to Tuitin” no ohanashi wa, oshimai desu.",
+      "translations": {
+        "vi": "Câu chuyện \"Sơn Tinh, Thủy Tinh\" đến đây là hết.",
+        "en": "And so ends the tale of \"Son Tinh and Thuy Tinh\".",
+        "zh-Hans": "《山精与水精》的故事到这里就结束了。",
+        "zh-Hant": "《山精與水精》的故事到這裡就結束了。",
+        "ko": "이것으로 '선띤과 투이띤' 이야기는 끝입니다.",
+        "tl": "Dito nagtatapos ang kuwento ng \"Son Tinh at Thuy Tinh\".",
+        "ne": "यहीँ \"सोन तिन र थुई तिन\" को कथा सकियो।",
+        "id": "Demikianlah kisah \"Son Tinh dan Thuy Tinh\".",
+        "pt": "E assim termina a história de \"Son Tinh e Thuy Tinh\".",
+        "my": "ဒါနဲ့ \"ဆွန်တင်နဲ့ သွေတင်\" ပုံပြင် ပြီးပါပြီ။",
+        "th": "เรื่อง \"เซินติญกับถุ่ยติญ\" ก็จบลงเพียงเท่านี้"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「これで〜はおしまいです」: câu kết truyện quen thuộc. おしまい = kết thúc.",
+        "en": "「これで〜はおしまいです」 = classic story ending. おしまい = the end.",
+        "zh-Hans": "「これで〜はおしまいです」＝常用结尾。おしまい＝结束。",
+        "zh-Hant": "「これで〜はおしまいです」＝常用結尾。おしまい＝結束。",
+        "ko": "「これで〜はおしまいです」=이야기 끝맺음. おしまい=끝.",
+        "tl": "「これで〜はおしまいです」 = karaniwang pangwakas. おしまい = katapusan.",
+        "ne": "「これで〜はおしまいです」 = कथा टुंग्याउने वाक्य। おしまい = अन्त्य।",
+        "id": "「これで〜はおしまいです」 = penutup cerita. おしまい = tamat.",
+        "pt": "「これで〜はおしまいです」 = final clássico. おしまい = fim.",
+        "my": "「これで〜はおしまいです」 = ပုံပြင်အဆုံးသတ်။ おしまい = ပြီးဆုံး။",
+        "th": "「これで〜はおしまいです」 = ประโยคปิดนิทาน おしまい = จบ"
+      },
+      "audio": "/audio/furusato-vn-sontinh-1/chapter.mp3#t=280.881,285.272",
+      "t": [
+        280.881,
+        285.272
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    }
+  ],
+  "audioTrack": {
+    "src": "/audio/furusato-vn-sontinh-1/chapter.mp3",
+    "durationSec": 286.32
+  }
+}
