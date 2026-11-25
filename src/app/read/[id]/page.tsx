@@ -1,9 +1,23 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { detailMetadata } from "../../../lib/seo";
 import ReaderClient from "./ReaderClient";
 import { getStory, STORIES } from "../../../lib/content";
 
 export function generateStaticParams() {
   return STORIES.map((s) => ({ id: s.id }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const story = getStory(id);
+  if (!story) return {};
+  return detailMetadata({
+    path: `/read/${id}`,
+    titles: story.titles,
+    level: story.level,
+    description: `Truyện tiếng Nhật ${story.level}: ${story.sentences[0]?.ja ?? ""} — furigana, bản dịch, giải thích và audio từng câu.`,
+  });
 }
 
 export default async function ReadPage({

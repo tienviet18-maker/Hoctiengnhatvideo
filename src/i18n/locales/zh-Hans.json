@@ -1,151 +1,160 @@
 {
   "app": {
-    "name": "ViMai Video",
-    "tagline": "Learn Japanese through videos and stories"
+    "name": "MiraiGo",
+    "tagline": "通过视频和故事学日语"
   },
   "categories": {
-    "anime": "Anime",
-    "conversation": "Conversation",
-    "podcast": "Podcast",
-    "song": "Songs",
-    "all": "All"
+    "anime": "动漫",
+    "conversation": "会话",
+    "podcast": "播客",
+    "song": "歌曲",
+    "all": "全部"
   },
   "common": {
-    "allLevels": "All levels",
-    "back": "Back",
-    "continueReading": "Continue reading",
-    "continueWatching": "Continue watching",
-    "done": "Done",
-    "free": "Free",
-    "minutes": "min",
-    "next": "Next",
-    "save": "Save",
-    "saved": "Saved",
-    "search": "Search",
-    "seeAll": "See all",
-    "vip": "VIP"
+    "allLevels": "全部级别",
+    "back": "返回",
+    "continueReading": "继续阅读",
+    "continueWatching": "继续观看",
+    "done": "完成",
+    "free": "免费",
+    "minutes": "分钟",
+    "next": "下一个",
+    "save": "保存",
+    "saved": "已保存",
+    "search": "搜索",
+    "seeAll": "查看全部",
+    "vip": "VIP",
+    "sentences": "句"
   },
   "dictation": {
-    "check": "Check",
-    "correct": "Correct!",
-    "incorrect": "Not quite — listen again and retry",
-    "placeholder": "Listen and type the Japanese sentence..."
+    "check": "检查",
+    "correct": "正确！",
+    "incorrect": "还不对——再听一遍试试",
+    "placeholder": "听后输入日语句子……"
   },
   "library": {
-    "days": "days",
-    "dueCards": "cards due",
-    "goalMinutes": "Time studied",
-    "goalStories": "stories",
-    "goalVideos": "videos",
-    "noDueCards": "No cards due. Watch a video or read a story to save new words!",
-    "reviewToday": "Review today",
-    "savedWords": "Saved words",
-    "streak": "Day streak",
-    "todayGoal": "Today's goal"
+    "days": "天",
+    "dueCards": "张卡片待复习",
+    "goalMinutes": "学习时间",
+    "goalStories": "篇故事",
+    "goalVideos": "个视频",
+    "noDueCards": "暂无待复习的卡片。看视频或读故事来保存新单词吧！",
+    "reviewToday": "今日复习",
+    "savedWords": "已保存的单词",
+    "streak": "连续学习",
+    "todayGoal": "今日目标",
+    "again": "没记住",
+    "good": "记住了",
+    "showMeaning": "查看意思"
   },
   "news": {
-    "comingSoon": "Coming soon"
+    "comingSoon": "即将推出"
   },
   "onboarding": {
-    "askName": "What should we call you?",
-    "askPain": "What is hardest for you when speaking Japanese?",
-    "chooseLanguage": "Choose your language",
-    "namePlaceholder": "Your name",
-    "painPronunciation": "Worried about pronunciation",
-    "painShy": "Too shy, afraid of mistakes",
-    "painWords": "Can't find the words",
-    "start": "Start learning",
-    "welcome": "Learn Japanese from real videos and stories, a little every day"
+    "askName": "我们该怎么称呼你？",
+    "askPain": "说日语时，你觉得最难的是什么？",
+    "chooseLanguage": "选择你的语言",
+    "namePlaceholder": "你的名字",
+    "painPronunciation": "担心发音不准",
+    "painShy": "害羞，怕说错",
+    "painWords": "想不出该用的词",
+    "start": "开始学习",
+    "welcome": "通过真实的视频和故事学日语，每天进步一点"
   },
   "paywall": {
-    "bestValue": "Best value",
-    "later": "Later",
-    "monthly": "1 month",
-    "subtitle": "Every video, every story, dictation, shadowing and unlimited word review",
-    "title": "Unlock all of ViMai Video",
-    "upgrade": "Upgrade now",
-    "yearly": "1 year"
+    "bestValue": "最划算",
+    "later": "以后再说",
+    "monthly": "1个月",
+    "subtitle": "所有视频、所有故事、听写、跟读和无限制单词复习",
+    "title": "解锁 MiraiGo 全部内容",
+    "upgrade": "立即升级",
+    "yearly": "1年"
   },
   "player": {
-    "addOwnVideo": "Add your own YouTube video",
-    "autoSubtitles": "Auto subtitles",
-    "modeDictation": "Dictation",
-    "modeShadowing": "Shadowing",
-    "modeSubtitles": "Subtitles",
-    "romaji": "Romaji",
-    "tapWordHint": "Tap a word to see its meaning",
-    "translation": "Translation",
-    "loopLine": "Loop line",
-    "perLine": "Line by line",
-    "prevLine": "Previous line",
-    "nextLine": "Next line",
-    "modeQueue": "Queue"
+    "addOwnVideo": "添加你自己的 YouTube 视频",
+    "autoSubtitles": "自动字幕",
+    "modeDictation": "听写",
+    "modeShadowing": "跟读",
+    "modeSubtitles": "字幕",
+    "romaji": "罗马字",
+    "tapWordHint": "点击单词查看意思",
+    "translation": "翻译",
+    "loopLine": "单句循环",
+    "perLine": "逐句播放",
+    "prevLine": "上一句",
+    "nextLine": "下一句",
+    "modeQueue": "播放队列",
+    "record": "录音",
+    "stop": "停止",
+    "customNotice": "这是你自己添加的视频——自动字幕正在准备中。资料库中的视频都配有经过完整审核的字幕。"
   },
   "profile": {
-    "account": "Account",
-    "language": "Language",
-    "plan": "Current plan",
-    "planFree": "Free",
+    "account": "账户",
+    "language": "语言",
+    "plan": "当前套餐",
+    "planFree": "免费",
     "planVip": "VIP"
   },
   "reader": {
-    "chapter": "Chapter",
-    "explain": "Explain",
-    "fontSize": "Font size",
-    "listen": "Listen",
-    "progress": "Read",
-    "translate": "Translate"
+    "chapter": "章",
+    "explain": "讲解",
+    "fontSize": "字号",
+    "listen": "听",
+    "progress": "已读",
+    "translate": "翻译",
+    "sourceOriginal": "原创故事",
+    "sourceAozora": "青空文库"
   },
   "tabs": {
-    "books": "Books",
-    "library": "Library",
-    "news": "News",
-    "profile": "Profile",
-    "video": "Video"
+    "books": "书籍",
+    "library": "学习库",
+    "news": "新闻",
+    "profile": "我的",
+    "video": "视频"
   },
   "wordPopup": {
-    "meaning": "Meaning",
-    "reading": "Reading",
-    "saveToDeck": "Save to deck"
+    "meaning": "意思",
+    "reading": "读音",
+    "saveToDeck": "加入卡片组"
   },
   "drive": {
-    "title": "Drive listening",
-    "hint": "Continuous playback, big buttons — no need to look at the screen",
-    "sentence": "Sentence",
-    "repeat": "Repeat sentence",
-    "nextStory": "Next story",
-    "finished": "End of story"
+    "title": "开车听",
+    "hint": "连续播放，大按钮——无需看屏幕",
+    "sentence": "句",
+    "repeat": "重复本句",
+    "nextStory": "下一篇",
+    "finished": "本篇结束"
   },
   "paths": {
-    "title": "Learning paths",
-    "subtitle": "Learn by life goal — step by step, no wandering the library",
-    "lessons": "lessons",
-    "done": "Done",
+    "title": "学习路线",
+    "subtitle": "按生活目标学习——一步一步来，不在资料库里迷路",
+    "lessons": "课",
+    "done": "已完成",
     "newcomer": {
-      "name": "New in Japan",
-      "desc": "Settle in: shopping, trains, paperwork, housing, banking"
+      "name": "初到日本",
+      "desc": "安顿生活：购物、交通、手续、住房、银行"
     },
     "work": {
-      "name": "Working life",
-      "desc": "From your first shift to promotion: meetings, overtime, job change, your own shop"
+      "name": "职场生活",
+      "desc": "从第一天上班到升职：开会、加班、跳槽、开自己的店"
     },
     "family": {
-      "name": "Family",
-      "desc": "Raising kids in Japan: school, hospital, welcoming your parents"
+      "name": "家庭",
+      "desc": "在日本养育孩子：学校、医院、接父母来探亲"
     },
     "enjoy": {
-      "name": "Fun & culture",
-      "desc": "Watch videos, read great stories, and understand Japanese culture deeply"
+      "name": "娱乐与文化",
+      "desc": "看视频、读好故事，深入了解日本文化"
     }
   },
   "queue": {
-    "empty": "No videos in your queue yet. Tap + in the library to add some.",
-    "add": "Add to queue",
-    "nowPlaying": "Now playing"
+    "empty": "播放队列里还没有视频。在资料库点 + 添加。",
+    "add": "加入播放队列",
+    "nowPlaying": "正在播放"
   },
   "series": {
-    "akane": "Akane · Real conversation",
-    "teppei": "Teppei · Podcast",
-    "yuta": "Yuta · Easy Japanese"
+    "akane": "Akane · 真实会话",
+    "teppei": "Teppei · 播客",
+    "yuta": "Yuta · 简单日语"
   }
 }

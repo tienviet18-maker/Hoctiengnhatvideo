@@ -1,151 +1,160 @@
 {
   "app": {
-    "name": "ViMai Video",
-    "tagline": "Learn Japanese through videos and stories"
+    "name": "MiraiGo",
+    "tagline": "영상과 이야기로 배우는 일본어"
   },
   "categories": {
-    "anime": "Anime",
-    "conversation": "Conversation",
-    "podcast": "Podcast",
-    "song": "Songs",
-    "all": "All"
+    "anime": "애니메이션",
+    "conversation": "회화",
+    "podcast": "팟캐스트",
+    "song": "노래",
+    "all": "전체"
   },
   "common": {
-    "allLevels": "All levels",
-    "back": "Back",
-    "continueReading": "Continue reading",
-    "continueWatching": "Continue watching",
-    "done": "Done",
-    "free": "Free",
-    "minutes": "min",
-    "next": "Next",
-    "save": "Save",
-    "saved": "Saved",
-    "search": "Search",
-    "seeAll": "See all",
-    "vip": "VIP"
+    "allLevels": "모든 레벨",
+    "back": "뒤로",
+    "continueReading": "이어 읽기",
+    "continueWatching": "이어 보기",
+    "done": "완료",
+    "free": "무료",
+    "minutes": "분",
+    "next": "다음",
+    "save": "저장",
+    "saved": "저장됨",
+    "search": "검색",
+    "seeAll": "모두 보기",
+    "vip": "VIP",
+    "sentences": "문장"
   },
   "dictation": {
-    "check": "Check",
-    "correct": "Correct!",
-    "incorrect": "Not quite — listen again and retry",
-    "placeholder": "Listen and type the Japanese sentence..."
+    "check": "확인",
+    "correct": "정답!",
+    "incorrect": "아직 아니에요 — 다시 듣고 도전해 보세요",
+    "placeholder": "듣고 일본어 문장을 입력하세요..."
   },
   "library": {
-    "days": "days",
-    "dueCards": "cards due",
-    "goalMinutes": "Time studied",
-    "goalStories": "stories",
-    "goalVideos": "videos",
-    "noDueCards": "No cards due. Watch a video or read a story to save new words!",
-    "reviewToday": "Review today",
-    "savedWords": "Saved words",
-    "streak": "Day streak",
-    "todayGoal": "Today's goal"
+    "days": "일",
+    "dueCards": "장 복습 예정",
+    "goalMinutes": "학습 시간",
+    "goalStories": "이야기",
+    "goalVideos": "영상",
+    "noDueCards": "복습할 카드가 없어요. 영상을 보거나 이야기를 읽고 새 단어를 저장해 보세요!",
+    "reviewToday": "오늘의 복습",
+    "savedWords": "저장한 단어",
+    "streak": "연속 학습",
+    "todayGoal": "오늘의 목표",
+    "again": "모르겠어요",
+    "good": "외웠어요",
+    "showMeaning": "뜻 보기"
   },
   "news": {
-    "comingSoon": "Coming soon"
+    "comingSoon": "준비 중"
   },
   "onboarding": {
-    "askName": "What should we call you?",
-    "askPain": "What is hardest for you when speaking Japanese?",
-    "chooseLanguage": "Choose your language",
-    "namePlaceholder": "Your name",
-    "painPronunciation": "Worried about pronunciation",
-    "painShy": "Too shy, afraid of mistakes",
-    "painWords": "Can't find the words",
-    "start": "Start learning",
-    "welcome": "Learn Japanese from real videos and stories, a little every day"
+    "askName": "어떻게 불러 드릴까요?",
+    "askPain": "일본어로 말할 때 가장 어려운 점은 무엇인가요?",
+    "chooseLanguage": "언어를 선택하세요",
+    "namePlaceholder": "이름",
+    "painPronunciation": "발음이 걱정돼요",
+    "painShy": "부끄럽고 틀릴까 봐 무서워요",
+    "painWords": "할 말이 떠오르지 않아요",
+    "start": "학습 시작",
+    "welcome": "진짜 영상과 이야기로 매일 조금씩 일본어를 배워요"
   },
   "paywall": {
-    "bestValue": "Best value",
-    "later": "Later",
-    "monthly": "1 month",
-    "subtitle": "Every video, every story, dictation, shadowing and unlimited word review",
-    "title": "Unlock all of ViMai Video",
-    "upgrade": "Upgrade now",
-    "yearly": "1 year"
+    "bestValue": "가장 저렴",
+    "later": "나중에",
+    "monthly": "1개월",
+    "subtitle": "모든 영상, 모든 이야기, 받아쓰기, 섀도잉, 무제한 단어 복습",
+    "title": "MiraiGo 전체 잠금 해제",
+    "upgrade": "지금 업그레이드",
+    "yearly": "1년"
   },
   "player": {
-    "addOwnVideo": "Add your own YouTube video",
-    "autoSubtitles": "Auto subtitles",
-    "modeDictation": "Dictation",
-    "modeShadowing": "Shadowing",
-    "modeSubtitles": "Subtitles",
-    "romaji": "Romaji",
-    "tapWordHint": "Tap a word to see its meaning",
-    "translation": "Translation",
-    "loopLine": "Loop line",
-    "perLine": "Line by line",
-    "prevLine": "Previous line",
-    "nextLine": "Next line",
-    "modeQueue": "Queue"
+    "addOwnVideo": "내 YouTube 영상 추가",
+    "autoSubtitles": "자동 자막",
+    "modeDictation": "받아쓰기",
+    "modeShadowing": "섀도잉",
+    "modeSubtitles": "자막",
+    "romaji": "로마자",
+    "tapWordHint": "단어를 누르면 뜻이 나와요",
+    "translation": "번역",
+    "loopLine": "문장 반복",
+    "perLine": "한 문장씩",
+    "prevLine": "이전 문장",
+    "nextLine": "다음 문장",
+    "modeQueue": "재생 목록",
+    "record": "녹음",
+    "stop": "정지",
+    "customNotice": "직접 추가한 영상입니다. 자동 자막을 준비하고 있습니다. 라이브러리의 영상은 모두 검수된 자막이 있습니다."
   },
   "profile": {
-    "account": "Account",
-    "language": "Language",
-    "plan": "Current plan",
-    "planFree": "Free",
+    "account": "계정",
+    "language": "언어",
+    "plan": "현재 요금제",
+    "planFree": "무료",
     "planVip": "VIP"
   },
   "reader": {
-    "chapter": "Chapter",
-    "explain": "Explain",
-    "fontSize": "Font size",
-    "listen": "Listen",
-    "progress": "Read",
-    "translate": "Translate"
+    "chapter": "장",
+    "explain": "설명",
+    "fontSize": "글자 크기",
+    "listen": "듣기",
+    "progress": "읽음",
+    "translate": "번역",
+    "sourceOriginal": "오리지널 이야기",
+    "sourceAozora": "아오조라 문고"
   },
   "tabs": {
-    "books": "Books",
-    "library": "Library",
-    "news": "News",
-    "profile": "Profile",
-    "video": "Video"
+    "books": "책",
+    "library": "라이브러리",
+    "news": "뉴스",
+    "profile": "프로필",
+    "video": "영상"
   },
   "wordPopup": {
-    "meaning": "Meaning",
-    "reading": "Reading",
-    "saveToDeck": "Save to deck"
+    "meaning": "뜻",
+    "reading": "읽는 법",
+    "saveToDeck": "카드에 저장"
   },
   "drive": {
-    "title": "Drive listening",
-    "hint": "Continuous playback, big buttons — no need to look at the screen",
-    "sentence": "Sentence",
-    "repeat": "Repeat sentence",
-    "nextStory": "Next story",
-    "finished": "End of story"
+    "title": "운전하며 듣기",
+    "hint": "연속 재생, 큰 버튼 — 화면을 볼 필요 없어요",
+    "sentence": "문장",
+    "repeat": "문장 반복",
+    "nextStory": "다음 이야기",
+    "finished": "이야기 끝"
   },
   "paths": {
-    "title": "Learning paths",
-    "subtitle": "Learn by life goal — step by step, no wandering the library",
-    "lessons": "lessons",
-    "done": "Done",
+    "title": "학습 경로",
+    "subtitle": "생활 목표별 학습 — 라이브러리에서 헤매지 않고 한 걸음씩",
+    "lessons": "강",
+    "done": "완료",
     "newcomer": {
-      "name": "New in Japan",
-      "desc": "Settle in: shopping, trains, paperwork, housing, banking"
+      "name": "일본에 막 온 사람",
+      "desc": "정착하기: 장보기, 교통, 서류, 집, 은행"
     },
     "work": {
-      "name": "Working life",
-      "desc": "From your first shift to promotion: meetings, overtime, job change, your own shop"
+      "name": "직장 생활",
+      "desc": "첫 출근부터 승진까지: 회의, 야근, 이직, 내 가게"
     },
     "family": {
-      "name": "Family",
-      "desc": "Raising kids in Japan: school, hospital, welcoming your parents"
+      "name": "가족",
+      "desc": "일본에서 아이 키우기: 학교, 병원, 부모님 초대"
     },
     "enjoy": {
-      "name": "Fun & culture",
-      "desc": "Watch videos, read great stories, and understand Japanese culture deeply"
+      "name": "즐거움 & 문화",
+      "desc": "영상을 보고 좋은 이야기를 읽으며 일본 문화를 깊이 이해해요"
     }
   },
   "queue": {
-    "empty": "No videos in your queue yet. Tap + in the library to add some.",
-    "add": "Add to queue",
-    "nowPlaying": "Now playing"
+    "empty": "재생 목록에 영상이 없어요. 라이브러리에서 +를 눌러 추가하세요.",
+    "add": "재생 목록에 추가",
+    "nowPlaying": "재생 중"
   },
   "series": {
-    "akane": "Akane · Real conversation",
-    "teppei": "Teppei · Podcast",
-    "yuta": "Yuta · Easy Japanese"
+    "akane": "Akane · 실전 회화",
+    "teppei": "Teppei · 팟캐스트",
+    "yuta": "Yuta · 쉬운 일본어"
   }
 }

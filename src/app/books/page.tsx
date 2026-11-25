@@ -66,7 +66,7 @@ export default function BooksPage() {
                 <span className="lvl" style={{ background: "#fff" }}>{s.level}</span>
                 {s.free ? <span className="free-badge">{ui.common.free}</span> : <span className="lock-badge">VIP</span>}
                 <span style={{ marginLeft: "auto", fontSize: 12, color: "#B9CDE8" }}>
-                  {s.sentenceCount} {lang === "vi" ? "câu" : "sentences"}
+                  {s.sentenceCount} {ui.common.sentences}
                 </span>
               </span>
               <span style={{ display: "block", fontSize: 18, fontWeight: 800, lineHeight: 1.35, marginTop: 10 }}>

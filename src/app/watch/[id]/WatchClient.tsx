@@ -33,11 +33,6 @@ declare global {
 
 type Mode = "subtitles" | "dictation" | "shadowing" | "queue";
 
-const CUSTOM_NOTICE = {
-  vi: "Video bạn tự thêm — phụ đề tự động đang được chuẩn bị. Các video trong thư viện ViMai có phụ đề đã rà soát đầy đủ.",
-  en: "A video you added — auto subtitles are being prepared. Videos in the ViMai library have fully reviewed subtitles.",
-};
-
 function normalize(s: string): string {
   return s.replace(/[\s。、！？・「」『』.,!?…ー―]/g, "").toLowerCase();
 }
@@ -69,6 +64,8 @@ export default function WatchClient({
   const loopLineRef = useRef(false);
   const perLineRef = useRef(false);
   const pausedLineRef = useRef(-1);
+  const activeIdxRef = useRef(0);
+  const lastSavedRef = useRef(-10);
   const router = useRouter();
   const queue = useLocalJson<string[]>(QUEUE_KEY, []);
   const queueRef = useRef<string[]>([]);
@@ -126,6 +123,7 @@ export default function WatchClient({
   const seekPlay = useCallback((sec: number) => {
     const p = playerRef.current;
     if (!p) return;
+    pausedLineRef.current = -1;
     p.seekTo(sec, true);
     p.playVideo();
   }, []);
@@ -137,39 +135,68 @@ export default function WatchClient({
       const p = playerRef.current;
       if (!p) return;
       const t = p.getCurrentTime();
-      if (p.getPlayerState() === 0 && video && !endedRef.current) {
+      const state = p.getPlayerState();
+      if (state === 0 && video && !endedRef.current) {
         endedRef.current = true;
         const q = queueRef.current;
         const qi = q.indexOf(video.id);
         if (qi >= 0 && q[qi + 1]) router.push(`/watch/${q[qi + 1]}`);
       }
-      if (p.getPlayerState() === 1) {
+      if (state === 1) {
+        endedRef.current = false;
         playSecondsRef.current += 0.25;
         if (playSecondsRef.current >= 60) {
           playSecondsRef.current = 0;
           logActivity({ minutes: 1 });
         }
       }
-      if (!lines.length) return;
-      let idx = lines.findIndex((l) => t >= l.start && t < l.end);
-      if (idx === -1) {
-        idx = t < lines[0].start ? 0 : lines.length - 1;
+      // Lưu tiến độ thưa (mỗi ~5 giây hoặc khi nhảy xa) thay vì 4 lần/giây
+      if (video && Math.abs(t - lastSavedRef.current) >= 5) {
+        lastSavedRef.current = t;
+        saveProgress(videoId, t, video.durationSec);
       }
-      setActiveIdx((prev) => (prev === idx ? prev : idx));
-      if (video) saveProgress(videoId, t, video.durationSec);
-      if (mode === "dictation" && lines[dictIdx] && t >= lines[dictIdx].end) p.pauseVideo();
-      if (mode === "shadowing" && lines[idx] && t >= lines[idx].end) p.pauseVideo();
-      if (mode === "subtitles" && lines[idx] && t >= lines[idx].end) {
-        if (loopLineRef.current) {
-          p.seekTo(lines[idx].start, true);
-        } else if (perLineRef.current && pausedLineRef.current !== idx) {
-          pausedLineRef.current = idx;
+      if (!lines.length) return;
+
+      // Câu "đang giữ" vừa chạy qua điểm kết thúc (cửa sổ 1 giây, tránh bắt nhầm khi tua xa)
+      const held = activeIdxRef.current;
+      const heldLine = lines[held];
+      const justEnded = !!heldLine && t >= heldLine.end && t < heldLine.end + 1;
+      if (justEnded && state === 1) {
+        if (mode === "subtitles" && loopLineRef.current) {
+          p.seekTo(heldLine.start, true);
+          return;
+        }
+        if ((mode === "shadowing" || (mode === "subtitles" && perLineRef.current)) && pausedLineRef.current !== held) {
+          pausedLineRef.current = held;
+          p.pauseVideo();
+          return;
+        }
+      }
+      if (mode === "dictation") {
+        const dl = lines[dictIdx];
+        if (dl && state === 1 && t >= dl.end && t < dl.end + 1 && pausedLineRef.current !== -2 - dictIdx) {
+          pausedLineRef.current = -2 - dictIdx;
           p.pauseVideo();
         }
       }
+
+      // Câu hiện tại = câu cuối cùng đã bắt đầu (khoảng lặng giữa hai câu vẫn giữ câu trước,
+      // trước đây rơi về câu CUỐI video và cuộn danh sách xuống đáy)
+      let idx = 0;
+      for (let i = lines.length - 1; i >= 0; i--) {
+        if (t >= lines[i].start) {
+          idx = i;
+          break;
+        }
+      }
+      if (idx !== activeIdxRef.current) {
+        activeIdxRef.current = idx;
+        if (pausedLineRef.current >= 0 && pausedLineRef.current !== idx) pausedLineRef.current = -1;
+        setActiveIdx(idx);
+      }
     }, 250);
     return () => window.clearInterval(iv);
-  }, [playerReady, lines, mode, dictIdx, video, videoId]);
+  }, [playerReady, lines, mode, dictIdx, video, videoId, router]);
 
   useEffect(() => {
     loopLineRef.current = loopLine;
@@ -334,7 +361,7 @@ export default function WatchClient({
         <div style={{ margin: "16px", background: "var(--stage2)", border: "1px solid var(--stage-border)", borderRadius: 12, padding: 16 }}>
           <span className="lvl">{ui.player.autoSubtitles}</span>
           <p style={{ color: "#CBD5E1", fontSize: 14, lineHeight: 1.6, marginTop: 10 }}>
-            {pickText(CUSTOM_NOTICE, lang)}
+            {ui.player.customNotice}
           </p>
         </div>
       )}
@@ -388,7 +415,7 @@ export default function WatchClient({
           </div>
           {popup && (
             <div style={{ position: "sticky", bottom: 8 }}>
-              <WordPopup vocab={popup} sourceId={video.id} onClose={() => setPopup(null)} dark />
+              <WordPopup key={`${popup.word}|${popup.reading}`} vocab={popup} sourceId={video.id} onClose={() => setPopup(null)} dark />
             </div>
           )}
         </div>
@@ -434,7 +461,7 @@ export default function WatchClient({
 
       {video && mode === "dictation" && dictLine && (
         <div style={{ flex: 1, padding: "14px 16px 18px", color: "#F1F5F9" }}>
-          <div style={{ display: "flex", gap: 6, marginBottom: 16 }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 16 }}>
             {lines.map((_, i) => (
               <span key={i} style={{ width: 22, height: 5, borderRadius: 99, background: i < dictIdx ? "var(--ok)" : i === dictIdx ? "var(--accent)" : "var(--stage2)", border: "1px solid var(--stage-border)" }} />
             ))}
@@ -466,7 +493,7 @@ export default function WatchClient({
           )}
           {popup && (
             <div style={{ marginTop: 12 }}>
-              <WordPopup vocab={popup} sourceId={video.id} onClose={() => setPopup(null)} dark />
+              <WordPopup key={`${popup.word}|${popup.reading}`} vocab={popup} sourceId={video.id} onClose={() => setPopup(null)} dark />
             </div>
           )}
           <div style={{ display: "flex", gap: 10, marginTop: 16 }}>
@@ -494,7 +521,7 @@ export default function WatchClient({
           <div style={{ fontSize: 14, color: "#A8B6C8", marginTop: 8 }}>{pickText(activeLine.translations, lang)}</div>
           {popup && (
             <div style={{ marginTop: 12 }}>
-              <WordPopup vocab={popup} sourceId={video.id} onClose={() => setPopup(null)} dark />
+              <WordPopup key={`${popup.word}|${popup.reading}`} vocab={popup} sourceId={video.id} onClose={() => setPopup(null)} dark />
             </div>
           )}
           <div style={{ display: "flex", gap: 10, marginTop: 18 }}>
@@ -502,7 +529,7 @@ export default function WatchClient({
               ▶ {ui.reader.listen}
             </button>
             <button type="button" onClick={toggleRecord} style={{ flex: 1, padding: "13px 0", borderRadius: 12, border: "none", background: recording ? "var(--accent)" : "var(--navy)", color: "#fff", fontWeight: 700, fontSize: 14, cursor: "pointer", fontFamily: "inherit" }}>
-              {recording ? "■" : "●"} {lang === "vi" ? (recording ? "Dừng" : "Ghi âm") : recording ? "Stop" : "Record"}
+              {recording ? "■" : "●"} {recording ? ui.player.stop : ui.player.record}
             </button>
           </div>
           {recordUrl && (

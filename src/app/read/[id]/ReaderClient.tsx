@@ -40,7 +40,7 @@ export default function ReaderClient({ story }: { story: StoryContent }) {
   }
 
   const total = story.sentences.length;
-  const pct = Math.round((seen / total) * 100);
+  const pct = total ? Math.min(100, Math.round((seen / total) * 100)) : 0;
 
   const markSeen = (idx: number) => {
     const next = Math.max(seen, idx + 1);
@@ -87,7 +87,7 @@ export default function ReaderClient({ story }: { story: StoryContent }) {
 
       <div style={{ margin: "16px 20px 0", borderRadius: 16, background: "var(--navy-dark)", color: "#fff", padding: "20px" }}>
         <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: ".08em", color: "#B9CDE8" }}>
-          {story.level} · {story.source === "original" ? (lang === "vi" ? "Truyện tự viết" : "Original story") : "Aozora Bunko"}
+          {story.level} · {story.source === "original" ? ui.reader.sourceOriginal : ui.reader.sourceAozora}
         </div>
         <h1 style={{ fontSize: 21, fontWeight: 800, lineHeight: 1.35, marginTop: 8 }}>
           {pickText(story.titles, lang)}
@@ -153,7 +153,7 @@ export default function ReaderClient({ story }: { story: StoryContent }) {
 
       {popup && (
         <div style={{ position: "fixed", left: 16, right: 16, bottom: 16, maxWidth: 398, margin: "0 auto", zIndex: 50 }}>
-          <WordPopup vocab={popup} sourceId={story.id} onClose={() => setPopup(null)} />
+          <WordPopup key={`${popup.word}|${popup.reading}`} vocab={popup} sourceId={story.id} onClose={() => setPopup(null)} />
         </div>
       )}
 

@@ -145,20 +145,20 @@ export default function LibraryPage() {
               <div style={{ fontSize: 16, marginTop: 12 }}>{pickText(current.meanings, lang)}</div>
               <div style={{ display: "flex", gap: 10, marginTop: 16 }}>
                 <button type="button" onClick={() => grade("again")} style={{ flex: 1, padding: "12px 0", borderRadius: 10, border: "1px solid var(--accent)", background: "#fff", color: "var(--accent)", fontWeight: 700, cursor: "pointer", fontFamily: "inherit" }}>
-                  {lang === "vi" ? "Chưa nhớ" : "Again"}
+                  {ui.library.again}
                 </button>
                 <button type="button" onClick={() => grade("good")} style={{ flex: 1, padding: "12px 0", borderRadius: 10, border: "none", background: "var(--navy)", color: "#fff", fontWeight: 700, cursor: "pointer", fontFamily: "inherit" }}>
-                  {lang === "vi" ? "Đã nhớ" : "Good"}
+                  {ui.library.good}
                 </button>
               </div>
             </>
           ) : (
             <button type="button" className="btn-primary" style={{ marginTop: 16 }} onClick={() => setFlipped(true)}>
-              {lang === "vi" ? "Xem nghĩa" : "Show meaning"}
+              {ui.library.showMeaning}
             </button>
           )}
           <div style={{ fontSize: 12, color: "var(--muted)", marginTop: 12, textAlign: "center" }}>
-            {gradedIds.length + 1} / {dueTotal}
+            {gradedIds.length + 1} / {gradedIds.length + queue.length}
           </div>
         </div>
       ) : (
