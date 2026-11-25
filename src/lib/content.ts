@@ -17,6 +17,7 @@ import bcMukashiIssun1 from "../../content/stories/mukashi-issun-1.json";
 import bcMukashiIssun2 from "../../content/stories/mukashi-issun-2.json";
 import bcMukashiKaguya1 from "../../content/stories/mukashi-kaguya-1.json";
 import bcMukashiKaguya2 from "../../content/stories/mukashi-kaguya-2.json";
+import bcMukashiKaguya3 from "../../content/stories/mukashi-kaguya-3.json";
 // --- hết kệ B/C: import ---
 import video1 from "../../content/videos/teppei-genki-01.json";
 import video2 from "../../content/videos/teppei-study-how-long.json";
@@ -680,6 +681,7 @@ export const STORIES: StoryContent[] = [
   bcMukashiIssun2 as unknown as StoryContent,
   bcMukashiKaguya1 as unknown as StoryContent,
   bcMukashiKaguya2 as unknown as StoryContent,
+  bcMukashiKaguya3 as unknown as StoryContent,
   // --- hết kệ B/C ---
   story1 as unknown as StoryContent,
   story2 as unknown as StoryContent,
