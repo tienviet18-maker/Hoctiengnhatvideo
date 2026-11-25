@@ -119,6 +119,20 @@ Công cụ mới trong `scripts/story-src/` (build, tts, register) và motif bì
 (bird, coconut, horse, mountainwave; lô 2 thêm bamboo, watermelon, snake, eagle, lute, starfruit, turtle, eggs,
 umbrella, peony, betel). **Đã đủ 17 truyện Việt Nam theo kế hoạch.** Khoá TTS chỉ đọc từ biến môi trường, không in, không ghi file.
 
+## Kệ D "Truyện quê hương" — lô 2: truyện Hàn Quốc (25/11/2026, nhánh `claude/furusato-osaka`)
+
+Cùng chuẩn với lô 1, `origin: KR`, nhãn bìa "Truyện cổ tích Hàn Quốc". Kể lại bằng lời của mình theo cốt truyện
+truyền thống public domain; 콩쥐팥쥐 lược phần kết bi thảm của một số dị bản cho hợp người học.
+
+| Gói | Tiêu đề | Câu | Audio | So sánh với truyện Nhật | Commit |
+|---|---|---|---|---|---|
+| furusato-kr-heungbu-1 | ツバメとひょうたん (흥부와 놀부) | 54 | 5,9 phút | 腰折れ雀 | 843de2f |
+| furusato-kr-simcheong-1 | はすの花の娘 (심청전) | 55 | 6,2 phút | 弟橘媛 | d0f8f02 |
+| furusato-kr-onui-1 | 太陽と月になった兄妹 (해와 달이 된 오누이) | 58 | 6,2 phút | 天道さん金の鎖 | d3c0744 |
+| furusato-kr-kongjwi-1 | 花のくつと黒い牛 (콩쥐팥쥐) | 48 | 5,5 phút | 米福粟福 | 78ed58f |
+
+Motif bìa mới: gourd, lotus, sunmoon, flowershoe. **Đã đủ 4 truyện Hàn Quốc theo kế hoạch.**
+
 ## Kệ F 「大阪で働く」 — tập 1–5 (25/11/2026, nhánh `claude/furusato-osaka`)
 
 Phim truyện nghe N3, 20 tập, sáng tác gốc (bible: `content/sources/osaka/series-bible.md`). Kịch tính trước,
