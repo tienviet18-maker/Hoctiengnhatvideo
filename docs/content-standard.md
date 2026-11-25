@@ -6,10 +6,13 @@ Gói có `"standard": 2` mà trượt bất kỳ tiêu chí nào thì `npm run v
 
 Báo cáo toàn kho: `npm run qc:report` → `docs/content-audit.md`.
 
-## 1. Định vị (không đổi)
+## 1. Định vị (Việt chốt lại 25/11/2026)
 
-Học để **sống ở Nhật**, không phải luyện thi JLPT. N5–N1 chỉ là nhãn độ khó. Mỗi bài trả lời câu hỏi
-"người nước ngoài ở Nhật dùng được gì từ bài này?".
+MiraiGo là app **giải trí bằng tiếng Nhật**: xem video, nghe và đọc truyện bằng tiếng Nhật, có giải thích và đúng
+cấp độ của từng người. Ai cũng dùng được lúc rảnh. Đây không phải app luyện thi JLPT; N5–N1 chỉ là nhãn độ khó.
+Slogan: **"Xem phim vui, nghe truyện hay. Tiếng Nhật trong tay, giỏi lên mỗi ngày."** (bản 11 ngôn ngữ nằm ở
+`onboarding.welcome` trong `src/i18n/locales/`). Mỗi bài trước hết phải **hay**: có cốt truyện, hài hoặc cuốn hút.
+Bài về đời sống ở Nhật vẫn là một kệ, nhưng không phải định vị chính.
 
 ## 2. Pháp lý (chặn tuyệt đối)
 
