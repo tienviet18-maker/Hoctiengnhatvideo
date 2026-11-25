@@ -6907,6 +6907,58 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "hanshichi-ofumi",
    "index": 2
   }
+ },
+ {
+  "id": "jigokuhen-1",
+  "titles": {
+   "vi": "Bức bình phong địa ngục (1)",
+   "en": "Hell Screen (1)",
+   "zh-Hans": "地狱变（一）",
+   "zh-Hant": "地獄變（一）",
+   "ko": "지옥변 (1)",
+   "tl": "Ang Tabing ng Impiyerno (1)",
+   "ne": "नरकको पर्दा (१)",
+   "id": "Layar Neraka (1)",
+   "pt": "O Biombo do Inferno (1)",
+   "my": "ငရဲပုံ ကာရံ (၁)",
+   "th": "ฉากกั้นนรก (1)"
+  },
+  "level": "N2",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 48,
+  "cover": "/covers/jigokuhen-1.webp",
+  "series": {
+   "id": "jigokuhen",
+   "index": 1
+  }
+ },
+ {
+  "id": "jigokuhen-2",
+  "titles": {
+   "vi": "Bức bình phong địa ngục (2)",
+   "en": "Hell Screen (2)",
+   "zh-Hans": "地狱变（二）",
+   "zh-Hant": "地獄變（二）",
+   "ko": "지옥변 (2)",
+   "tl": "Ang Tabing ng Impiyerno (2)",
+   "ne": "नरकको पर्दा (२)",
+   "id": "Layar Neraka (2)",
+   "pt": "O Biombo do Inferno (2)",
+   "my": "ငရဲပုံ ကာရံ (၂)",
+   "th": "ฉากกั้นนรก (2)"
+  },
+  "level": "N2",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/jigokuhen-2.webp",
+  "series": {
+   "id": "jigokuhen",
+   "index": 2
+  }
  }
 ];
 

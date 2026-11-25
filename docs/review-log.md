@@ -97,6 +97,8 @@ trong `/mnt/project-files/miraigo/content-plan/audio-tuyen-chon.md`.
 | akai-rousoku-to-ningyo | N3 | 61 | 6:28 | 小川未明 (in 1921). Thay một trong 5 truyện Dazai đã gỡ. |
 | hanshichi-ofumi-1 | N3 | 46 | 4:49 | 岡本綺堂 半七捕物帳「お文の魂」tập 1, miễn phí. |
 | hanshichi-ofumi-2 | N3 | 58 | 6:28 | Tập 2 (VIP). |
+| jigokuhen-1 | N2 | 48 | 6:07 | 芥川龍之介「地獄変」(1918) tập 1, miễn phí. Cảnh cưỡng ép chỉ gợi ý. |
+| jigokuhen-2 | N2 | 48 | 5:48 | Tập 2 (VIP). Cái chết nói bằng 「自ら命を絶つ」, giải thích câu 42 có số よりそいホットライン. |
 
 Công cụ và sửa lỗi kèm theo:
 

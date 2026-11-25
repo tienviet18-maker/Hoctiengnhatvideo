@@ -546,6 +546,8 @@ import story455 from "../../content/stories/the-japanese-garden.json";
 import v2AkaiRousokuToNingyo from "../../content/stories/akai-rousoku-to-ningyo.json";
 import v2HanshichiOfumi1 from "../../content/stories/hanshichi-ofumi-1.json";
 import v2HanshichiOfumi2 from "../../content/stories/hanshichi-ofumi-2.json";
+import v2Jigokuhen1 from "../../content/stories/jigokuhen-1.json";
+import v2Jigokuhen2 from "../../content/stories/jigokuhen-2.json";
 // --- hết kệ A/E: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1097,6 +1099,8 @@ export const STORIES: StoryContent[] = [
   v2AkaiRousokuToNingyo as unknown as StoryContent,
   v2HanshichiOfumi1 as unknown as StoryContent,
   v2HanshichiOfumi2 as unknown as StoryContent,
+  v2Jigokuhen1 as unknown as StoryContent,
+  v2Jigokuhen2 as unknown as StoryContent,
   // --- hết kệ A/E ---
 ];
 
