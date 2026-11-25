@@ -85,3 +85,25 @@ bản quyền bản dịch. Các mục này xử lý ở Bước 0b–0c.
 | 19 | Thấp | Ẩn chip thể loại không có video nào (Anime đang 0 gói). Chip tự hiện lại khi có gói. | #6 |
 | 20 | **Cao** | Rà bản quyền 66 truyện chuyển thể (`aozora-adapted`). Ở Nhật cả 66 đều hết bản quyền. Theo luật Mỹ (URAA), 5 tác phẩm của Dazai Osamu (mất 1948) in 1939–1947 còn bản quyền ở Mỹ đến 2035–2043: 走れメロス, 富嶽百景, 女生徒, 斜陽, ヴィヨンの妻. App bán toàn cầu nên đã gỡ 5 gói này. 61 gói còn lại: tác giả mất trước 1946, hoặc tác giả mất 1946–1967 nhưng tác phẩm in trước 1931 (Kōda Rohan, 五重塔 1891). Truyện của Hearn là tự kể lại bằng tiếng Nhật từ bản gốc tiếng Anh 1904, không dùng bản dịch hiện đại. Bản dịch 11 ngôn ngữ là bản tự dịch từ văn bản của mình. Chuẩn v2 mục 2 đã ghi rõ quy tắc URAA. | #7 |
 | 21 | **Cao** | Schema v2 thêm `audioTrack` (audio liền cho cả chương, để nghe khi tắt màn hình hoặc qua Bluetooth), `t` và `voice` cho từng câu, `lesson` (điểm ngữ pháp và câu hỏi), `shelf`, `origin`. QC chặn gói v2 thiếu các trường này. Chuẩn v2 thêm mục 6b–6d. | #8 |
+
+## Đợt 3 — Truyện chuẩn v2, kệ A (văn học Nhật) và E (văn học thế giới) (25/11/2026)
+
+Nhánh `claude/stories-batch1-v2`. Kệ A/E do luồng này cấp id; khối đăng ký riêng trong `src/lib/content.ts`
+(giữa dấu `kệ A/E văn học (chuẩn v2)`) để không đụng các luồng khác. Muse: đừng cấp id cho các tác phẩm ở kệ A/E
+trong `/mnt/project-files/miraigo/content-plan/audio-tuyen-chon.md`.
+
+| Gói | Cấp | Câu | Audio | Ghi chú |
+|---|---|---|---|---|
+| akai-rousoku-to-ningyo | N3 | 61 | 6:28 | 小川未明 (in 1921). Thay một trong 5 truyện Dazai đã gỡ. |
+| hanshichi-ofumi-1 | N3 | 46 | 4:49 | 岡本綺堂 半七捕物帳「お文の魂」tập 1, miễn phí. |
+| hanshichi-ofumi-2 | N3 | 58 | 6:28 | Tập 2 (VIP). |
+
+Công cụ và sửa lỗi kèm theo:
+
+- `scripts/produce/` (build-story, tts, cover, register): dây chuyền một chương từ file nguồn tới JSON chuẩn v2, audio liền
+  `chapter.mp3` có mốc từng câu, bìa, đăng ký. Mô tả ở `docs/content-standard.md` mục 7b.
+- `scripts/lib/level.mjs`: thêm `vocabLevel`. Trước đây cấp từ vựng tra cả theo cách đọc nên từ có kanji trúng từ đồng âm
+  (怪談 かいだん bị nhận là 階段 N5). Nay chỉ tra cách đọc khi từ viết toàn kana; `qc-standard.mjs` dùng hàm mới.
+- Cách đọc từ vựng lấy theo dạng từ điển (雇う やとう, không phải やとっ).
+- Danh sách truyện hiện ảnh bìa nhỏ; trang đọc có nút "Chương tiếp theo" theo `series` (chuỗi mới đủ 11 ngôn ngữ).
+- Quy tắc bìa Việt đã duyệt ghi vào `docs/content-standard.md` mục 7.

@@ -102,6 +102,41 @@ không phải mỗi câu một file (iOS có thể dừng giữa hai file khi m�
 
 - Mỗi truyện hoặc bộ truyện có ảnh bìa ở `public/covers/<id>.webp`, tỉ lệ 3:4, tối thiểu 900×1200.
 - Một hệ hình ảnh thống nhất theo màu logo (navy, đỏ). Không tranh AI phong cách Ghibli.
+- **Kiểu bìa đã chốt (Việt duyệt 25/11): bìa chữ kiểu bunko**, là bìa chính thức, không phải bìa tạm. Nền navy,
+  một hình khối đơn giản (motif) màu đỏ/xanh, nhãn `MIRAIGO 文庫`, cấp độ, nhãn kệ và tên phiên âm Latin ở chân bìa.
+- **Tên tiếng Nhật là chữ chính**, viết dọc, lớn. Dòng phụ dọc nhỏ (`cover_jsub`) cho tên bộ và số tập (vd 半七捕物帳 一).
+- **Không có chữ tiếng Việt trên bìa** (app toàn cầu; bản dịch tên hiện ở thẻ truyện theo ngôn ngữ người dùng).
+- **Mỗi truyện một font theo thể loại** (toàn bộ là Google Fonts giấy phép OFL, dùng thương mại được):
+
+  | Thể loại (kệ) | Font |
+  | --- | --- |
+  | Văn học (literature, world) | Shippori Mincho B1, Zen Old Mincho, BIZ UDPMincho |
+  | Truyện ma (ghost) | Zen Antique, Yuji Syuku |
+  | Rakugo (rakugo) | Dela Gothic One, Reggae One |
+  | Cổ tích (folktale-jp, hometown) | Zen Maru Gothic, Kaisei Decol, Yusei Magic |
+  | Đời sống (life, life-series) | Klee One, M PLUS Rounded 1c |
+  | Trinh thám (mystery) | Zen Kaku Gothic New, Shippori Antique |
+
+  Các tập của cùng một bộ dùng cùng font và motif, chỉ đổi số tập ở dòng phụ.
+- **Truyện quê hương ghi rõ xuất xứ**: dòng phụ nói nguồn gốc bằng tiếng Nhật (vd 「ベトナムの昔話」) và nhãn kệ có
+  mã nước (vd `VN`), để người xem biết đây là cổ tích Việt Nam như Tấm Cám, không phải truyện Nhật.
+- Motif có sẵn: sun, wave, gate, city, mountain, candle, lantern, flame, field, rain. Motif mới thêm vào
+  `scripts/produce/cover.html`, giữ cùng bảng màu.
+
+## 7b. Công cụ sản xuất truyện (`scripts/produce/`)
+
+Nguồn soạn của mỗi bộ ở `content/sources/v2/<bộ>/`:
+
+- `<chương>.ja.txt`: phần đầu (id, level, series, index, topic, shelf, origin, source, free, readings, cover_*),
+  rồi mỗi dòng một câu, mỗi đoạn mở bằng `{vai}`.
+- `<chương>.i18n.N.txt`: tiêu đề, bản dịch (`T`), giải thích (`N`), từ vựng (`V`) cho từng câu `@số`, 11 ngôn ngữ.
+- `<chương>.lesson.txt`: điểm ngữ pháp (`G mẫu #câu: …`), câu hỏi (`Q câu | lựa chọn / … | đáp án`), giải thích (`X`).
+- `voices.json`: giọng, tốc độ, cao độ của từng vai, dùng chung cả bộ.
+
+Quy trình: `build-story.mjs --measure` (số đo, gợi ý từ) và `--readings` (soát furigana) → viết i18n và bài học →
+`tts.mjs` (audio liền `chapter.mp3` + `<chương>.timing.json`) → `build-story.mjs` (ghi `content/stories/<id>.json`)
+→ `cover.mjs` → `register.mjs <id>` (đăng ký vào khối kệ A/E trong `src/lib/content.ts`) → viết `.qc.md` →
+`npm run verify`. Khoá TTS chỉ đọc từ biến môi trường `GOOGLE_TTS_API_KEY`, không ghi ra đâu.
 
 ## 8. Không trùng
 
