@@ -6959,6 +6959,110 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "jigokuhen",
    "index": 2
   }
+ },
+ {
+  "id": "budori-1",
+  "titles": {
+   "vi": "Cuộc đời Gusukō Budori (1)",
+   "en": "The Life of Gusuko Budori (1)",
+   "zh-Hans": "古斯柯·布德利传（一）",
+   "zh-Hant": "古斯柯·布德利傳（一）",
+   "ko": "구스코 부도리의 전기 (1)",
+   "tl": "Ang Buhay ni Gusuko Budori (1)",
+   "ne": "गुस्को बुदोरीको जीवनी (१)",
+   "id": "Riwayat Gusuko Budori (1)",
+   "pt": "A Vida de Gusuko Budori (1)",
+   "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၁)",
+   "th": "ชีวประวัติของกุสุโค บุโดริ (1)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 48,
+  "cover": "/covers/budori-1.webp",
+  "series": {
+   "id": "budori",
+   "index": 1
+  }
+ },
+ {
+  "id": "budori-2",
+  "titles": {
+   "vi": "Cuộc đời Gusukō Budori (2)",
+   "en": "The Life of Gusuko Budori (2)",
+   "zh-Hans": "古斯柯·布德利传（二）",
+   "zh-Hant": "古斯柯·布德利傳（二）",
+   "ko": "구스코 부도리의 전기 (2)",
+   "tl": "Ang Buhay ni Gusuko Budori (2)",
+   "ne": "गुस्को बुदोरीको जीवनी (२)",
+   "id": "Riwayat Gusuko Budori (2)",
+   "pt": "A Vida de Gusuko Budori (2)",
+   "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၂)",
+   "th": "ชีวประวัติของกุสุโค บุโดริ (2)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/budori-2.webp",
+  "series": {
+   "id": "budori",
+   "index": 2
+  }
+ },
+ {
+  "id": "budori-3",
+  "titles": {
+   "vi": "Cuộc đời Gusukō Budori (3)",
+   "en": "The Life of Gusuko Budori (3)",
+   "zh-Hans": "古斯柯·布德利传（三）",
+   "zh-Hant": "古斯柯·布德利傳（三）",
+   "ko": "구스코 부도리의 전기 (3)",
+   "tl": "Ang Buhay ni Gusuko Budori (3)",
+   "ne": "गुस्को बुदोरीको जीवनी (३)",
+   "id": "Riwayat Gusuko Budori (3)",
+   "pt": "A Vida de Gusuko Budori (3)",
+   "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၃)",
+   "th": "ชีวประวัติของกุสุโค บุโดริ (3)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 47,
+  "cover": "/covers/budori-3.webp",
+  "series": {
+   "id": "budori",
+   "index": 3
+  }
+ },
+ {
+  "id": "budori-4",
+  "titles": {
+   "vi": "Cuộc đời Gusukō Budori (4)",
+   "en": "The Life of Gusuko Budori (4)",
+   "zh-Hans": "古斯柯·布德利传（四）",
+   "zh-Hant": "古斯柯·布德利傳（四）",
+   "ko": "구스코 부도리의 전기 (4)",
+   "tl": "Ang Buhay ni Gusuko Budori (4)",
+   "ne": "गुस्को बुदोरीको जीवनी (४)",
+   "id": "Riwayat Gusuko Budori (4)",
+   "pt": "A Vida de Gusuko Budori (4)",
+   "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၄)",
+   "th": "ชีวประวัติของกุสุโค บุโดริ (4)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 50,
+  "cover": "/covers/budori-4.webp",
+  "series": {
+   "id": "budori",
+   "index": 4
+  }
  }
 ];
 

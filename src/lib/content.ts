@@ -548,6 +548,10 @@ import v2HanshichiOfumi1 from "../../content/stories/hanshichi-ofumi-1.json";
 import v2HanshichiOfumi2 from "../../content/stories/hanshichi-ofumi-2.json";
 import v2Jigokuhen1 from "../../content/stories/jigokuhen-1.json";
 import v2Jigokuhen2 from "../../content/stories/jigokuhen-2.json";
+import v2Budori1 from "../../content/stories/budori-1.json";
+import v2Budori2 from "../../content/stories/budori-2.json";
+import v2Budori3 from "../../content/stories/budori-3.json";
+import v2Budori4 from "../../content/stories/budori-4.json";
 // --- hết kệ A/E: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1101,6 +1105,10 @@ export const STORIES: StoryContent[] = [
   v2HanshichiOfumi2 as unknown as StoryContent,
   v2Jigokuhen1 as unknown as StoryContent,
   v2Jigokuhen2 as unknown as StoryContent,
+  v2Budori1 as unknown as StoryContent,
+  v2Budori2 as unknown as StoryContent,
+  v2Budori3 as unknown as StoryContent,
+  v2Budori4 as unknown as StoryContent,
   // --- hết kệ A/E ---
 ];
 
