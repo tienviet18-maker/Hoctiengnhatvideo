@@ -4,9 +4,9 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLang } from "../components/LangProvider";
-import PathGrid from "../components/PathGrid";
 import { STORY_INDEX, VIDEO_INDEX } from "../lib/catalog.generated";
 import { pickText } from "../lib/i18n";
+import { SERIES, seriesOf } from "../lib/series";
 import {
   ACTIVITY_KEY,
   DECK_KEY,
@@ -35,6 +35,14 @@ function tone(id: string) {
   let h = 0;
   for (const ch of id) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
   return COVER_TONES[h % COVER_TONES.length];
+}
+
+interface Featured {
+  kind: "story" | "video";
+  id: string;
+  title: string;
+  level: string;
+  img: string | null;
 }
 
 function fill(s: string, n: number) {
@@ -85,6 +93,19 @@ export default function HomePage() {
 
   const newest = useMemo(() => STORY_INDEX.slice(-8).reverse(), []);
   const newVideos = useMemo(() => VIDEO_INDEX.slice(-6).reverse(), []);
+  // "Đang hot": truyện chuẩn v2 mới nhất (có audio liền) + video mới nhất của từng kênh
+  const featured = useMemo((): Featured[] => {
+    const stories = STORY_INDEX.filter((s) => s.audioTrack).slice(-3).reverse()
+      .map((s): Featured => ({ kind: "story", id: s.id, title: pickText(s.titles, lang), level: s.level, img: null }));
+    const videos = SERIES.map((k) => [...VIDEO_INDEX].reverse().find((v) => seriesOf(v.id) === k.key)).filter((v) => !!v)
+      .map((v): Featured => ({ kind: "video", id: v.id, title: pickText(v.titles, lang), level: v.level, img: `https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg` }));
+    const out: Featured[] = [];
+    for (let i = 0; i < Math.max(stories.length, videos.length); i++) {
+      if (videos[i]) out.push(videos[i]);
+      if (stories[i]) out.push(stories[i]);
+    }
+    return out;
+  }, [lang]);
 
   const hour = now ? new Date(now).getHours() : 12;
   const greet = hour < 11 ? ui.home.morning : hour < 18 ? ui.home.afternoon : ui.home.evening;
@@ -114,19 +135,48 @@ export default function HomePage() {
         )}
       </header>
 
-      <div style={{ marginTop: 16 }}>
-        <div style={{ fontSize: 13, color: "var(--muted)" }}>{fill(ui.home.todayMinutes, minutesToday)}</div>
-        <h1 style={{ fontSize: 24, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.25, marginTop: 4 }}>
-          {greet}
-          {profile.name ? `, ${profile.name}` : ""}
-        </h1>
+      <h1 style={{ fontSize: 22, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.25, marginTop: 14 }}>
+        {greet}
+        {profile.name ? `, ${profile.name}` : ""}
+      </h1>
+      <div style={{ fontSize: 12.5, color: "var(--muted)", marginTop: 2 }}>{fill(ui.home.todayMinutes, minutesToday)}</div>
+
+      <h2 style={{ fontSize: 17, fontWeight: 700, margin: "16px 0 10px" }}>{ui.home.hot}</h2>
+      <div style={{ display: "flex", gap: 12, overflowX: "auto", scrollSnapType: "x mandatory", margin: "0 -20px", padding: "0 20px 4px" }}>
+        {featured.map((f) => (
+          <Link
+            key={f.id}
+            href={f.kind === "video" ? `/watch/${f.id}` : `/read/${f.id}`}
+            style={{
+              position: "relative", width: "82%", maxWidth: 320, flexShrink: 0, height: 180, borderRadius: 16, overflow: "hidden",
+              scrollSnapAlign: "start", textDecoration: "none", color: "#fff",
+              background: f.img ? "#000" : tone(f.id)[0],
+            }}
+          >
+            {f.img ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={f.img} alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+            ) : (
+              <span lang="ja" aria-hidden style={{ position: "absolute", right: 18, top: 14, writingMode: "vertical-rl", fontFamily: "'Noto Serif JP', serif", fontWeight: 700, fontSize: 26, color: tone(f.id)[1], letterSpacing: ".1em" }}>
+                {f.title.slice(0, 8)}
+              </span>
+            )}
+            <span style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg, rgba(0,0,0,0) 35%, rgba(0,0,0,.75) 100%)" }} />
+            <span style={{ position: "absolute", left: 14, right: 14, bottom: 12 }}>
+              <span style={{ fontSize: 11, fontWeight: 700, background: "rgba(255,255,255,.2)", borderRadius: 6, padding: "2px 7px" }}>
+                {f.kind === "video" ? ui.tabs.video : ui.tabs.books} · {f.level}
+              </span>
+              <span style={{ display: "block", fontSize: 16, fontWeight: 700, lineHeight: 1.3, marginTop: 6 }}>{f.title}</span>
+            </span>
+          </Link>
+        ))}
       </div>
 
       {resume && (
         <Link
           href={resume.href}
           style={{
-            marginTop: 16, background: "var(--navy)", borderRadius: 18, padding: 14, display: "flex", gap: 14,
+            marginTop: 18, background: "var(--navy)", borderRadius: 18, padding: 14, display: "flex", gap: 14,
             alignItems: "center", textDecoration: "none", color: "#fff",
           }}
         >
@@ -224,9 +274,13 @@ export default function HomePage() {
         ))}
       </div>
 
-      <h2 style={{ fontSize: 17, fontWeight: 700, margin: "22px 0 4px" }}>{ui.paths.title}</h2>
-      <p style={{ fontSize: 12, color: "var(--muted)", lineHeight: 1.5 }}>{ui.paths.subtitle}</p>
-      <PathGrid />
+      <Link href="/paths" className="card" style={{ marginTop: 22, display: "flex", alignItems: "center", gap: 12, textDecoration: "none", color: "inherit" }}>
+        <span style={{ flex: 1, minWidth: 0 }}>
+          <span style={{ display: "block", fontSize: 15, fontWeight: 700 }}>{ui.paths.title}</span>
+          <span style={{ display: "block", fontSize: 12, color: "var(--muted)", marginTop: 2, lineHeight: 1.4 }}>{ui.paths.subtitle}</span>
+        </span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" strokeWidth="2" aria-hidden><path d="M9 6l6 6-6 6" /></svg>
+      </Link>
     </div>
   );
 }
