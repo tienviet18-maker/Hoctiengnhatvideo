@@ -84,3 +84,19 @@ bản quyền bản dịch. Các mục này xử lý ở Bước 0b–0c.
 | 18 | Trung bình | Trang `/paths` trả 404 mặc định tiếng Anh (chỉ có `/paths/[id]`). Thêm trang danh sách lộ trình; tách lưới lộ trình thành `src/components/PathGrid.tsx` dùng chung với trang chủ. | #6 |
 | 19 | Thấp | Ẩn chip thể loại không có video nào (Anime đang 0 gói). Chip tự hiện lại khi có gói. | #6 |
 | 20 | **Cao** | Rà bản quyền 66 truyện chuyển thể (`aozora-adapted`). Ở Nhật cả 66 đều hết bản quyền. Theo luật Mỹ (URAA), 5 tác phẩm của Dazai Osamu (mất 1948) in 1939–1947 còn bản quyền ở Mỹ đến 2035–2043: 走れメロス, 富嶽百景, 女生徒, 斜陽, ヴィヨンの妻. App bán toàn cầu nên đã gỡ 5 gói này. 61 gói còn lại: tác giả mất trước 1946, hoặc tác giả mất 1946–1967 nhưng tác phẩm in trước 1931 (Kōda Rohan, 五重塔 1891). Truyện của Hearn là tự kể lại bằng tiếng Nhật từ bản gốc tiếng Anh 1904, không dùng bản dịch hiện đại. Bản dịch 11 ngôn ngữ là bản tự dịch từ văn bản của mình. Chuẩn v2 mục 2 đã ghi rõ quy tắc URAA. | #7 |
+
+## Đợt 3 — Gỡ YouTube 429 + 4 gói video chuẩn v2 đầu tiên (25/11/2026, nhánh `claude/video-peppa-teded`)
+
+**429 đã gỡ được từ iMac**: yt-dlp bản độc lập mới nhất (2026.11.23, `~/ytsub-test/yt-dlp`) + Node làm JS runtime
+(`--js-runtimes node`, không cần Deno). Tải phụ đề từ IP nhà ở Nhật: 0 lần bị 429 trong ~20 lượt gọi (giãn 4–6 giây/lượt).
+Bản yt-dlp cũ chạy Python 3.9 trên máy là nguyên nhân phụ; client `ios` hiện chỉ trả ảnh, client mặc định + `web_embedded` tải được phụ đề.
+
+| # | Mức | Việc | PR |
+|---|---|---|---|
+| 21 | **Cao** | Kiểm chứng nguồn trong `content/anime-queue.md` từ IP Nhật. **Maruko #129 `pbwKSQaJ7Hc` bị CHẶN tại Nhật** ("not available in your country", danh sách vùng không có JP) → loại cả kênh re-upload này. **Nippon Animation**: 30 video mới nhất đều là 「期間限定配信」 → loại theo quy tắc không xây kho trên link hết hạn. **もったいないばあさん** (Kodansha): ASR hỏng vì nhạc/hát → loại. **まんが日本昔ばなし 公式**: có phụ đề tự động, cho nhúng, nhưng giọng địa phương + tên riêng ASR không chắc (助け?, 大ガ/大鴨) → hoãn, cần người nghe kiểm. | PR này |
+| 22 | **Cao** | Hai kênh mới vào kho, mỗi kênh kiểm 2 video mẫu (phụ đề `ja`, cho nhúng, xem được tại Nhật): **Peppa Pig 公式** (`peppa-*`, dòng A, N4) và **TED-Ed tiếng Nhật 「好奇心を持ち続けよう」** (`teded-*`, dòng B, N2–N1). Lưu ý TED-Ed: phụ đề người đăng là bản dịch kịch bản tiếng Anh, KHÔNG khớp lời lồng tiếng — phải dùng phụ đề tự động `ja-orig`. | PR này |
+| 23 | **Cao** | 4 gói đầu tiên đạt `standard: 2` của toàn kho video: `peppa-pancake-batter` (69s, 17 dòng), `peppa-pancake-flip` (54s, 14 dòng), `teded-procrastination-cycle` (47s, 9 dòng, N2), `teded-procrastination-brain` (77s, 11 dòng, N1). Đủ 11 ngôn ngữ cho tiêu đề/câu/từ, `grammarNote` 11 ngôn ngữ mọi câu, từ vựng cấp theo `data/jlpt/`, teaser `.ass`. Đăng ký `video99–102` trong `src/lib/content.ts`, thêm kệ `peppa`/`teded` vào `src/lib/series.ts` + nhãn 11 ngôn ngữ. Chi tiết sửa ASR từng gói trong `.qc.md`. | PR này |
+| 24 | Trung bình | **Còn mở**: mốc thời gian 4 gói lấy từ ASR + nội suy (±0,5–1,5 giây), CHƯA nghe kiểm bằng tai như chuẩn v2 mục 3 yêu cầu. Cần một lượt nghe kiểm trên app trước khi coi là chính thức. | — |
+
+**Cho Muse — tránh trùng**: đã dùng `G0wHgMKJRSU` (Peppa パンケーキ, 26–153s) và `cSIX6prPwRk` (TED-Ed 先延ばし, 8–132s).
+Phần còn lại của `cSIX6prPwRk` (132–343s) chưa dựng. ID `video99–video102` đã cấp.

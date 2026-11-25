@@ -1498,6 +1498,102 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "lineCount": 2,
   "clipStart": 312,
   "clipEnd": 445
+ },
+ {
+  "id": "peppa-pancake-batter",
+  "youtubeId": "G0wHgMKJRSU",
+  "titles": {
+   "vi": "Peppa Pig: Cùng mẹ làm bột bánh kếp",
+   "en": "Peppa Pig: Making pancake batter with Mummy",
+   "zh-Hans": "小猪佩奇：和妈妈一起调松饼面糊",
+   "zh-Hant": "粉紅豬小妹：和媽媽一起調鬆餅麵糊",
+   "ko": "페파 피그: 엄마와 팬케이크 반죽 만들기",
+   "tl": "Peppa Pig: Paggawa ng masa ng pancake kasama si Mummy",
+   "ne": "पेपा पिग: मम्मीसँग प्यानकेकको घोल बनाउँदै",
+   "id": "Peppa Pig: Membuat adonan panekuk bersama Mama",
+   "pt": "Peppa Pig: Fazendo massa de panqueca com a Mamãe",
+   "my": "ပက်ပါပစ်ဂ်- မေမေနဲ့ ပန်ကိတ်မုန့်ညက် လုပ်ခြင်း",
+   "th": "เป๊ปป้าพิก: ทำแป้งแพนเค้กกับแม่"
+  },
+  "level": "N4",
+  "category": "anime",
+  "durationSec": 307,
+  "free": false,
+  "lineCount": 17,
+  "clipStart": 24,
+  "clipEnd": 97
+ },
+ {
+  "id": "peppa-pancake-flip",
+  "youtubeId": "G0wHgMKJRSU",
+  "titles": {
+   "vi": "Peppa Pig: Lật bánh kếp",
+   "en": "Peppa Pig: Flipping pancakes",
+   "zh-Hans": "小猪佩奇：翻松饼",
+   "zh-Hant": "粉紅豬小妹：翻鬆餅",
+   "ko": "페파 피그: 팬케이크 뒤집기",
+   "tl": "Peppa Pig: Pagbabaligtad ng pancake",
+   "ne": "पेपा पिग: प्यानकेक पल्टाउँदै",
+   "id": "Peppa Pig: Membalik panekuk",
+   "pt": "Peppa Pig: Virando panquecas",
+   "my": "ပက်ပါပစ်ဂ်- ပန်ကိတ် လှန်ခြင်း",
+   "th": "เป๊ปป้าพิก: พลิกแพนเค้ก"
+  },
+  "level": "N4",
+  "category": "anime",
+  "durationSec": 307,
+  "free": false,
+  "lineCount": 14,
+  "clipStart": 96,
+  "clipEnd": 155
+ },
+ {
+  "id": "teded-procrastination-cycle",
+  "youtubeId": "cSIX6prPwRk",
+  "titles": {
+   "vi": "TED-Ed: Vòng lặp trì hoãn",
+   "en": "TED-Ed: The procrastination cycle",
+   "zh-Hans": "TED-Ed：拖延的循环",
+   "zh-Hant": "TED-Ed：拖延的循環",
+   "ko": "TED-Ed: 미루기의 악순환",
+   "tl": "TED-Ed: Ang siklo ng pagpapaliban",
+   "ne": "TED-Ed: टार्ने बानीको चक्र",
+   "id": "TED-Ed: Siklus menunda-nunda",
+   "pt": "TED-Ed: O ciclo da procrastinação",
+   "my": "TED-Ed- ဆွဲဆန့်ခြင်း သံသရာ",
+   "th": "TED-Ed: วงจรการผัดวันประกันพรุ่ง"
+  },
+  "level": "N2",
+  "category": "podcast",
+  "durationSec": 343,
+  "free": false,
+  "lineCount": 9,
+  "clipStart": 5,
+  "clipEnd": 57
+ },
+ {
+  "id": "teded-procrastination-brain",
+  "youtubeId": "cSIX6prPwRk",
+  "titles": {
+   "vi": "TED-Ed: Vì sao não khiến ta trì hoãn",
+   "en": "TED-Ed: Why your brain makes you procrastinate",
+   "zh-Hans": "TED-Ed：大脑为什么让我们拖延",
+   "zh-Hant": "TED-Ed：大腦為什麼讓我們拖延",
+   "ko": "TED-Ed: 뇌는 왜 우리를 미루게 할까",
+   "tl": "TED-Ed: Bakit ka pinagpapaliban ng utak mo",
+   "ne": "TED-Ed: मस्तिष्कले किन टार्न लगाउँछ",
+   "id": "TED-Ed: Mengapa otak membuat kita menunda",
+   "pt": "TED-Ed: Por que o cérebro nos faz procrastinar",
+   "my": "TED-Ed- ဦးနှောက်က ဘာလို့ ဆွဲဆန့်စေတာလဲ",
+   "th": "TED-Ed: ทำไมสมองทำให้เราผัดวันประกันพรุ่ง"
+  },
+  "level": "N1",
+  "category": "podcast",
+  "durationSec": 343,
+  "free": false,
+  "lineCount": 11,
+  "clipStart": 53,
+  "clipEnd": 134
  }
 ];
 
