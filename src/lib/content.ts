@@ -572,6 +572,7 @@ import s_furusatoCnBaishe1 from "../../content/stories/furusato-cn-baishe-1.json
 import s_furusatoCnChange1 from "../../content/stories/furusato-cn-change-1.json";
 import s_furusatoCnSaiyuki1 from "../../content/stories/furusato-cn-saiyuki-1.json";
 import s_furusatoCnSaiyuki2 from "../../content/stories/furusato-cn-saiyuki-2.json";
+import s_furusatoCnSaiyuki3 from "../../content/stories/furusato-cn-saiyuki-3.json";
 
 export const VIDEOS: VideoContent[] = [
   video1 as unknown as VideoContent,
@@ -1149,6 +1150,7 @@ export const STORIES: StoryContent[] = [
   s_furusatoCnChange1 as unknown as StoryContent,
   s_furusatoCnSaiyuki1 as unknown as StoryContent,
   s_furusatoCnSaiyuki2 as unknown as StoryContent,
+  s_furusatoCnSaiyuki3 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
