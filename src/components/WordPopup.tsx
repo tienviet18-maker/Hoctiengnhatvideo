@@ -3,8 +3,10 @@
 import { useState } from "react";
 import type { VocabItem } from "../lib/content-schema";
 import { pickText } from "../lib/i18n";
-import { addToDeck } from "../lib/store";
+import { addToDeck, DECK_KEY, useLocalJson, type DeckCard } from "../lib/store";
 import { useLang } from "./LangProvider";
+
+const EMPTY_DECK: DeckCard[] = [];
 
 export default function WordPopup({
   vocab,
@@ -18,7 +20,10 @@ export default function WordPopup({
   dark?: boolean;
 }) {
   const { ui, lang } = useLang();
-  const [saved, setSaved] = useState(false);
+  const deck = useLocalJson<DeckCard[]>(DECK_KEY, EMPTY_DECK);
+  const [justSaved, setJustSaved] = useState(false);
+  // Hiện "Đã lưu" cả khi từ đã có sẵn trong bộ thẻ (trước đây luôn hiện nút Lưu)
+  const saved = justSaved || deck.some((c) => c.word === vocab.word && c.reading === vocab.reading);
 
   return (
     <div
@@ -65,7 +70,7 @@ export default function WordPopup({
         disabled={saved}
         onClick={() => {
           addToDeck(vocab, sourceId);
-          setSaved(true);
+          setJustSaved(true);
         }}
         style={{
           marginTop: 10,
