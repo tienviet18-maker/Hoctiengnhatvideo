@@ -1,0 +1,5128 @@
+{
+  "kind": "story",
+  "id": "furusato-vn-tuthuc-1",
+  "titles": {
+    "vi": "Từ Thức gặp tiên",
+    "en": "Từ Thức and the Fairy Realm",
+    "zh-Hans": "徐式遇仙",
+    "zh-Hant": "徐式遇仙",
+    "ko": "뜨특, 선녀를 만나다",
+    "tl": "Si Từ Thức at ang Kaharian ng mga Diwata",
+    "ne": "तु थुक र परीलोक",
+    "id": "Từ Thức Bertemu Peri",
+    "pt": "Từ Thức e o reino das fadas",
+    "my": "တူထုတ် နတ်ပြည်ရောက်",
+    "th": "ตื่อ ถึก พบนางฟ้า"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "cover": "/covers/furusato-vn-tuthuc-1.webp",
+  "free": false,
+  "standard": 2,
+  "series": {
+    "id": "furusato-vn-tuthuc",
+    "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "lesson": {
+    "grammarPoints": [
+      {
+        "pattern": "〜まで",
+        "example": 6,
+        "meaning": {
+          "vi": "Cho đến khi ~ (hành động vế sau kéo dài liên tục đến thời điểm đó). Đời sống: 雨がやむまで、ここで待ちましょう (chờ ở đây đến khi tạnh mưa). Phân biệt: 〜までに = trước hạn ~.",
+          "en": "Until ~ (the main action continues up to that point). Daily life: 雨がやむまで、ここで待ちましょう (let's wait here until the rain stops). Compare: 〜までに = by (a deadline).",
+          "zh-Hans": "直到……（后项动作持续到那时）。生活中：雨がやむまで、ここで待ちましょう（在这儿等到雨停吧）。区别：〜までに＝在……之前。",
+          "zh-Hant": "直到……（後項動作持續到那時）。生活中：雨がやむまで、ここで待ちましょう（在這兒等到雨停吧）。區別：〜までに＝在……之前。",
+          "ko": "~할 때까지(뒤 동작이 계속됨). 생활: 雨がやむまで、ここで待ちましょう(비가 그칠 때까지 여기서 기다립시다). 〜までに=~까지(기한).",
+          "tl": "Hanggang ~. Hal.: 雨がやむまで、ここで待ちましょう (maghintay tayo rito hanggang tumila ang ulan). 〜までに = bago ang takdang oras.",
+          "ne": "~ सम्म। उदाहरण: 雨がやむまで、ここで待ちましょう (पानी नरोकिँदासम्म यहीँ पर्खौँ)। 〜までに = समयसीमाभित्र।",
+          "id": "Sampai ~. Contoh: 雨がやむまで、ここで待ちましょう (mari tunggu di sini sampai hujan reda). 〜までに = paling lambat.",
+          "pt": "Até ~. Ex.: 雨がやむまで、ここで待ちましょう (vamos esperar aqui até a chuva parar). 〜までに = até (prazo).",
+          "my": "~ အထိ။ ဥပမာ: 雨がやむまで、ここで待ちましょう (မိုးတိတ်တဲ့အထိ ဒီမှာ စောင့်ရအောင်)။ 〜までに = နောက်ဆုံးထား။",
+          "th": "จนกว่า ~. ตัวอย่าง: 雨がやむまで、ここで待ちましょう (รอที่นี่จนกว่าฝนจะหยุด). 〜までに = ภายใน (กำหนด)"
+        }
+      },
+      {
+        "pattern": "〜たまま",
+        "example": 43,
+        "meaning": {
+          "vi": "Cứ để nguyên trạng thái ~ (lẽ ra phải thay đổi nhưng không). Đời sống: 電気をつけたまま、寝てしまった (để nguyên đèn mà ngủ quên); 靴をはいたまま、入らないでください (đừng đi nguyên giày vào).",
+          "en": "Leaving things as they are after ~ (when you'd expect a change). Daily life: 電気をつけたまま、寝てしまった (I fell asleep with the light on); 靴をはいたまま、入らないでください (please don't come in with your shoes on).",
+          "zh-Hans": "保持……的状态（本该改变却没变）。生活中：電気をつけたまま、寝てしまった（开着灯就睡着了）；靴をはいたまま、入らないでください（请不要穿着鞋进来）。",
+          "zh-Hant": "保持……的狀態（本該改變卻沒變）。生活中：電気をつけたまま、寢てしまった（開著燈就睡著了）；靴をはいたまま、入らないでください（請不要穿著鞋進來）。",
+          "ko": "~한 채로. 생활: 電気をつけたまま、寝てしまった(불을 켠 채로 잠들어 버렸다); 靴をはいたまま、入らないでください(신발을 신은 채 들어오지 마세요).",
+          "tl": "Nang nananatiling ~. Hal.: 靴をはいたまま、入らないでください (huwag pumasok nang nakasapatos).",
+          "ne": "~ कै अवस्थामा। उदाहरण: 靴をはいたまま、入らないでください (जुत्ता लगाएरै नपस्नुहोस्)।",
+          "id": "Dalam keadaan tetap ~. Contoh: 靴をはいたまま、入らないでください (jangan masuk dengan sepatu tetap dipakai).",
+          "pt": "Deixando como está após ~. Ex.: 靴をはいたまま、入らないでください (não entre de sapatos).",
+          "my": "~ ထားလျက်။ ဥပမာ: 靴をはいたまま、入らないでください (ဖိနပ်စီးလျက် မဝင်ပါနဲ့)။",
+          "th": "ทั้งที่ยัง ~ อยู่. ตัวอย่าง: 靴をはいたまま、入らないでください (อย่าใส่รองเท้าเข้ามา)"
+        }
+      },
+      {
+        "pattern": "〜（よ）うとする",
+        "example": 48,
+        "meaning": {
+          "vi": "Cố gắng / định ~ (thường thể quá khứ ngụ ý không thành). Thể ý chí + とする. Đời sống: 電車に乗ろうとしたら、ドアが閉まった (vừa định lên tàu thì cửa đóng).",
+          "en": "Try to / be about to ~ (past tense often implies it failed). Volitional + とする. Daily life: 電車に乗ろうとしたら、ドアが閉まった (just as I tried to get on, the doors closed).",
+          "zh-Hans": "想要……／正要……（过去式常暗示没成功）。意志形＋とする。生活中：電車に乗ろうとしたら、ドアが閉まった（正要上车，门关了）。",
+          "zh-Hant": "想要……／正要……（過去式常暗示沒成功）。意志形＋とする。生活中：電車に乗ろうとしたら、ドアが閉まった（正要上車，門關了）。",
+          "ko": "~하려고 하다(과거형은 실패를 암시). 의지형+とする. 생활: 電車に乗ろうとしたら、ドアが閉まった(전철을 타려고 했더니 문이 닫혔다).",
+          "tl": "Subukang ~. Hal.: 電車に乗ろうとしたら、ドアが閉まった (sasakay na sana ako, nagsara ang pinto).",
+          "ne": "~ गर्न खोज्नु। उदाहरण: 電車に乗ろうとしたら、ドアが閉まった (रेल चढ्न खोज्दा ढोका बन्द भयो)।",
+          "id": "Mencoba/hendak ~. Contoh: 電車に乗ろうとしたら、ドアが閉まった (saat hendak naik kereta, pintu tertutup).",
+          "pt": "Tentar ~. Ex.: 電車に乗ろうとしたら、ドアが閉まった (quando ia entrar no trem, a porta fechou).",
+          "my": "~ ဖို့ ကြိုးစား။ ဥပမာ: 電車に乗ろうとしたら、ドアが閉まった (ရထားစီးမလို့လုပ်တော့ တံခါး ပိတ်သွားတယ်)။",
+          "th": "พยายาม/กำลังจะ ~. ตัวอย่าง: 電車に乗ろうとしたら、ドアが閉まった (กำลังจะขึ้นรถไฟ ประตูก็ปิด)"
+        }
+      },
+      {
+        "pattern": "二度と〜ない",
+        "example": 50,
+        "meaning": {
+          "vi": "Không bao giờ ~ nữa (nhấn mạnh mạnh mẽ). Đời sống: あの店には、二度と行かない (sẽ không bao giờ đến quán đó nữa).",
+          "en": "Never ~ again (strong). Daily life: あの店には、二度と行かない (I'll never go to that shop again).",
+          "zh-Hans": "再也不……（语气强烈）。生活中：あの店には、二度と行かない（再也不去那家店了）。",
+          "zh-Hant": "再也不……（語氣強烈）。生活中：あの店には、二度と行かない（再也不去那家店了）。",
+          "ko": "두 번 다시 ~하지 않다. 생활: あの店には、二度と行かない(그 가게에는 두 번 다시 안 간다).",
+          "tl": "Hindi na muling ~ kailanman. Hal.: あの店には、二度と行かない (hindi na ako babalik sa tindahang iyon).",
+          "ne": "फेरि कहिल्यै ~ नगर्नु। उदाहरण: あの店には、二度と行かない (त्यो पसलमा फेरि कहिल्यै जान्नँ)।",
+          "id": "Tidak akan pernah ~ lagi. Contoh: あの店には、二度と行かない (aku tak akan ke toko itu lagi).",
+          "pt": "Nunca mais ~. Ex.: あの店には、二度と行かない (nunca mais vou àquela loja).",
+          "my": "ဘယ်တော့မှ ထပ်မ~။ ဥပမာ: あの店には、二度と行かない (အဲဒီဆိုင်ကို ဘယ်တော့မှ ထပ်မသွားဘူး)။",
+          "th": "ไม่ ~ อีกเลย. ตัวอย่าง: あの店には、二度と行かない (จะไม่ไปร้านนั้นอีกเลย)"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "ja": "トゥ・トゥックは、花を折った少女のために、何をしましたか。",
+        "choices": [
+          "お寺の人とけんかした",
+          "上着でお金をはらった",
+          "新しい花を買った",
+          "少女を家に送った"
+        ],
+        "answer": 1,
+        "explain": {
+          "vi": "Chàng cởi áo gấm để đền tiền hoa.",
+          "en": "He paid for the flower with his coat.",
+          "zh-Hans": "他用外衣赔了花钱。",
+          "zh-Hant": "他用外衣賠了花錢。",
+          "ko": "겉옷으로 꽃값을 치렀습니다.",
+          "tl": "Ibinayad niya ang balabal.",
+          "ne": "कोटले पैसा तिरे।",
+          "id": "Ia membayar dengan jubahnya.",
+          "pt": "Pagou com o casaco.",
+          "my": "အင်္ကျီနဲ့ ပန်းဖိုး ပေးတယ်။",
+          "th": "เขาจ่ายด้วยเสื้อคลุม"
+        }
+      },
+      {
+        "ja": "ザン・フオンは、本当はだれでしたか。",
+        "choices": [
+          "お寺の人の娘",
+          "仙女",
+          "王さまの娘",
+          "村の少女"
+        ],
+        "answer": 1,
+        "explain": {
+          "vi": "Nàng là tiên xuống trần ngắm hoa.",
+          "en": "She was a fairy who came down to see flowers.",
+          "zh-Hans": "她是下凡赏花的仙女。",
+          "zh-Hant": "她是下凡賞花的仙女。",
+          "ko": "꽃을 보러 내려온 선녀였습니다.",
+          "tl": "Isang diwata.",
+          "ne": "परी थिइन्।",
+          "id": "Ia seorang peri.",
+          "pt": "Era uma fada.",
+          "my": "နတ်သမီး ဖြစ်တယ်။",
+          "th": "นางเป็นนางฟ้า"
+        }
+      },
+      {
+        "ja": "仙女の国の一年は、人の世界では何年でしたか。",
+        "choices": [
+          "一年",
+          "十年",
+          "百年",
+          "三百年"
+        ],
+        "answer": 3,
+        "explain": {
+          "vi": "Một năm ở xứ tiên = ba trăm năm ở trần gian.",
+          "en": "One fairy year = 300 human years.",
+          "zh-Hans": "仙境一年＝人间三百年。",
+          "zh-Hant": "仙境一年＝人間三百年。",
+          "ko": "선녀 나라 1년=인간 세상 300년.",
+          "tl": "300 taon.",
+          "ne": "३०० वर्ष।",
+          "id": "300 tahun.",
+          "pt": "300 anos.",
+          "my": "နှစ် ၃၀၀။",
+          "th": "300 ปี"
+        }
+      },
+      {
+        "ja": "浦島太郎と、ちがうところは何ですか。",
+        "choices": [
+          "トゥ・トゥックは亀を助けた",
+          "トゥ・トゥックは、花を折った少女を助けた",
+          "浦島太郎は帰らなかった",
+          "どちらも同じ"
+        ],
+        "answer": 1,
+        "explain": {
+          "vi": "Urashima cứu rùa, Từ Thức cứu cô gái bẻ hoa.",
+          "en": "Urashima saved a turtle; Từ Thức saved a girl.",
+          "zh-Hans": "浦岛救了乌龟，徐式救了少女。",
+          "zh-Hant": "浦島救了烏龜，徐式救了少女。",
+          "ko": "우라시마는 거북, 뜨특은 소녀를 도왔습니다.",
+          "tl": "Pagong laban sa dalagita.",
+          "ne": "कछुवा र किशोरी।",
+          "id": "Kura-kura vs gadis.",
+          "pt": "Tartaruga vs. moça.",
+          "my": "လိပ်နဲ့ မိန်းကလေး။",
+          "th": "เต่ากับเด็กสาว"
+        }
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "ja": "昔、ベトナムに、トゥ・トゥックという若い役人がいました。",
+      "furigana": [
+        {
+          "surface": "昔",
+          "reading": "むかし"
+        },
+        {
+          "surface": "、ベトナムに、トゥ・トゥックという",
+          "reading": ""
+        },
+        {
+          "surface": "若",
+          "reading": "わか"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "役人",
+          "reading": "やくにん"
+        },
+        {
+          "surface": "がいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mukashi, Betonamu ni, Tu Tukku to iu wakai yakunin ga imashita.",
+      "translations": {
+        "vi": "Ngày xưa, ở Việt Nam có một viên quan trẻ tên là Từ Thức.",
+        "en": "Long ago in Vietnam, there was a young official named Từ Thức.",
+        "zh-Hans": "从前，越南有一位年轻的官员，名叫徐式。",
+        "zh-Hant": "從前，越南有一位年輕的官員，名叫徐式。",
+        "ko": "옛날 베트남에 뜨특이라는 젊은 관리가 있었습니다.",
+        "tl": "Noong una, sa Vietnam, may batang opisyal na nagngangalang Từ Thức.",
+        "ne": "पहिले भियतनाममा तु थुक नामका एक युवा अधिकारी थिए।",
+        "id": "Dahulu di Vietnam, ada seorang pejabat muda bernama Từ Thức.",
+        "pt": "Antigamente, no Vietnã, havia um jovem funcionário chamado Từ Thức.",
+        "my": "ရှေးတုန်းက ဗီယက်နမ်မှာ တူထုတ် ဆိုတဲ့ အရာရှိငယ် ရှိတယ်။",
+        "th": "กาลครั้งหนึ่งในเวียดนาม มีขุนนางหนุ่มชื่อตื่อ ถึก"
+      },
+      "vocab": [
+        {
+          "word": "役人",
+          "reading": "やくにん",
+          "meanings": {
+            "vi": "quan lại, viên chức",
+            "en": "official",
+            "zh-Hans": "官差，官员",
+            "zh-Hant": "官差，官員",
+            "ko": "관리",
+            "tl": "opisyal",
+            "ne": "अधिकारी",
+            "id": "pejabat",
+            "pt": "oficial",
+            "my": "အရာရှိ",
+            "th": "เจ้าหน้าที่"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "役人 = quan chức, viên chức. 「〜という」: tên là ~.",
+        "en": "役人 = official. 「〜という」 = named ~.",
+        "zh-Hans": "役人＝官员。",
+        "zh-Hant": "役人＝官員。",
+        "ko": "관리.",
+        "tl": "opisyal.",
+        "ne": "अधिकारी।",
+        "id": "pejabat.",
+        "pt": "funcionário.",
+        "my": "အရာရှိ။",
+        "th": "ขุนนาง"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=0.3,5.508",
+      "t": [
+        0.3,
+        5.508
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "彼は、まじめな人でしたが、本当は、詩を書いたり、旅をしたりするのが好きでした。",
+      "furigana": [
+        {
+          "surface": "彼",
+          "reading": "かれ"
+        },
+        {
+          "surface": "は、まじめな",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "でしたが、",
+          "reading": ""
+        },
+        {
+          "surface": "本当",
+          "reading": "ほんとう"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "詩",
+          "reading": "し"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "書",
+          "reading": "か"
+        },
+        {
+          "surface": "いたり、",
+          "reading": ""
+        },
+        {
+          "surface": "旅",
+          "reading": "たび"
+        },
+        {
+          "surface": "をしたりするのが",
+          "reading": ""
+        },
+        {
+          "surface": "好",
+          "reading": "す"
+        },
+        {
+          "surface": "きでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kare wa, majime na hito deshita ga, hontouha, shi o kaitari, tabi o shitari suru no ga suki deshita.",
+      "translations": {
+        "vi": "Chàng là người nghiêm túc, nhưng thật ra chàng thích làm thơ và đi du ngoạn.",
+        "en": "He was a serious man, but in truth he loved writing poems and traveling.",
+        "zh-Hans": "他为人认真，但其实喜欢写诗、旅行。",
+        "zh-Hant": "他為人認真，但其實喜歡寫詩、旅行。",
+        "ko": "그는 성실한 사람이었지만, 사실은 시를 쓰거나 여행하는 것을 좋아했습니다.",
+        "tl": "Seryoso siyang tao, pero ang totoo, mahilig siyang sumulat ng tula at maglakbay.",
+        "ne": "उनी गम्भीर मान्छे थिए, तर वास्तवमा कविता लेख्न र यात्रा गर्न मन पराउँथे।",
+        "id": "Ia orang serius, tapi sebenarnya suka menulis puisi dan bepergian.",
+        "pt": "Era sério, mas na verdade gostava de escrever poemas e viajar.",
+        "my": "သူက လေးနက်တဲ့လူ ဖြစ်ပေမဲ့ တကယ်တော့ ကဗျာရေးတာ၊ ခရီးသွားတာ ကြိုက်တယ်။",
+        "th": "เขาเป็นคนจริงจัง แต่ที่จริงชอบแต่งกลอนและเดินทาง"
+      },
+      "vocab": [
+        {
+          "word": "詩",
+          "reading": "し",
+          "meanings": {
+            "vi": "thơ",
+            "en": "poem",
+            "zh-Hans": "诗",
+            "zh-Hant": "詩",
+            "ko": "시",
+            "tl": "tula",
+            "ne": "कविता",
+            "id": "puisi",
+            "pt": "poema",
+            "my": "ကဗျာ",
+            "th": "บทกวี"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "旅",
+          "reading": "たび",
+          "meanings": {
+            "vi": "chuyến đi, du hành",
+            "en": "journey",
+            "zh-Hans": "旅行",
+            "zh-Hant": "旅行",
+            "ko": "여행",
+            "tl": "paglalakbay",
+            "ne": "यात्रा",
+            "id": "perjalanan",
+            "pt": "viagem",
+            "my": "ခရီး",
+            "th": "การเดินทาง"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜たり〜たりするのが好き」: thích làm những việc như ~. 「本当は」: thật ra.",
+        "en": "「〜たり〜たりするのが好き」 = like doing things like ~. 「本当は」 = actually.",
+        "zh-Hans": "「本当は」＝其实。",
+        "zh-Hant": "「本當は」＝其實。",
+        "ko": "사실은.",
+        "tl": "ang totoo.",
+        "ne": "वास्तवमा।",
+        "id": "sebenarnya.",
+        "pt": "na verdade.",
+        "my": "တကယ်တော့။",
+        "th": "ที่จริง"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=6.108,13.246",
+      "t": [
+        6.108,
+        13.246
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ある春、町のお寺で、ぼたんの花のお祭りがありました。",
+      "furigana": [
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "春",
+          "reading": "はる"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "町",
+          "reading": "まち"
+        },
+        {
+          "surface": "のお",
+          "reading": ""
+        },
+        {
+          "surface": "寺",
+          "reading": "てら"
+        },
+        {
+          "surface": "で、ぼたんの",
+          "reading": ""
+        },
+        {
+          "surface": "花",
+          "reading": "はな"
+        },
+        {
+          "surface": "のお",
+          "reading": ""
+        },
+        {
+          "surface": "祭",
+          "reading": "まつ"
+        },
+        {
+          "surface": "りがありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aru haru, machi no otera de, bo tan no hana no omatsuri ga arimashita.",
+      "translations": {
+        "vi": "Một mùa xuân, ở ngôi chùa trong phố có hội hoa mẫu đơn.",
+        "en": "One spring, a peony festival was held at a temple in town.",
+        "zh-Hans": "一年春天，镇上的寺庙举办牡丹花节。",
+        "zh-Hant": "一年春天，鎮上的寺廟舉辦牡丹花節。",
+        "ko": "어느 봄, 마을 절에서 모란꽃 축제가 열렸습니다.",
+        "tl": "Isang tagsibol, may pista ng peony sa templo ng bayan.",
+        "ne": "एक वसन्तमा सहरको मन्दिरमा पियोनी फूलको पर्व भयो।",
+        "id": "Suatu musim semi, ada festival bunga peoni di kuil kota.",
+        "pt": "Numa primavera, houve uma festa das peônias no templo da cidade.",
+        "my": "နွေဦးတစ်ခုမှာ မြို့ထဲက ဘုရားကျောင်းမှာ ပီယိုနီပန်းပွဲ ရှိတယ်။",
+        "th": "ฤดูใบไม้ผลิหนึ่ง วัดในเมืองจัดเทศกาลดอกโบตั๋น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ぼたん = hoa mẫu đơn. お寺 = chùa.",
+        "en": "ぼたん = peony. お寺 = temple.",
+        "zh-Hans": "ぼたん＝牡丹。",
+        "zh-Hant": "ぼたん＝牡丹。",
+        "ko": "모란.",
+        "tl": "peony.",
+        "ne": "पियोनी।",
+        "id": "peoni.",
+        "pt": "peônia.",
+        "my": "ပီယိုနီ။",
+        "th": "โบตั๋น"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=13.846,18.828",
+      "t": [
+        13.846,
+        18.828
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "お寺の庭には、めずらしい白いぼたんが、一本だけ咲いていました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "寺",
+          "reading": "てら"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "庭",
+          "reading": "にわ"
+        },
+        {
+          "surface": "には、めずらしい",
+          "reading": ""
+        },
+        {
+          "surface": "白",
+          "reading": "しろ"
+        },
+        {
+          "surface": "いぼたんが、",
+          "reading": ""
+        },
+        {
+          "surface": "一本",
+          "reading": "いっぽん"
+        },
+        {
+          "surface": "だけ",
+          "reading": ""
+        },
+        {
+          "surface": "咲",
+          "reading": "さ"
+        },
+        {
+          "surface": "いていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Otera no niwa ni wa, mezurashii shiro ibota n ga, ippon dake saiteimashita.",
+      "translations": {
+        "vi": "Trong sân chùa, chỉ có một cây mẫu đơn trắng quý hiếm đang nở.",
+        "en": "In the temple garden, a single rare white peony was blooming.",
+        "zh-Hans": "寺院的庭院里，只开着一株珍贵的白牡丹。",
+        "zh-Hant": "寺院的庭院裡，只開著一株珍貴的白牡丹。",
+        "ko": "절 마당에는 희귀한 흰 모란이 단 한 그루 피어 있었습니다.",
+        "tl": "Sa hardin ng templo, iisang bihirang puting peony ang namumulaklak.",
+        "ne": "मन्दिरको बगैँचामा दुर्लभ सेतो पियोनी एउटा मात्र फुलेको थियो।",
+        "id": "Di halaman kuil, hanya ada satu peoni putih langka yang mekar.",
+        "pt": "No jardim do templo florescia uma única peônia branca rara.",
+        "my": "ဘုရားကျောင်းဝင်းထဲမှာ ရှားပါးတဲ့ ပီယိုနီဖြူ တစ်ပင်ပဲ ပွင့်နေတယ်။",
+        "th": "ในลานวัด มีโบตั๋นขาวหายากบานอยู่ต้นเดียว"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「めずらしい」: hiếm có. 「一本だけ」: chỉ một cây.",
+        "en": "「めずらしい」 = rare. 「一本だけ」 = just one.",
+        "zh-Hans": "「めずらしい」＝稀有。",
+        "zh-Hant": "「めずらしい」＝稀有。",
+        "ko": "희귀하다.",
+        "tl": "bihira.",
+        "ne": "दुर्लभ।",
+        "id": "langka.",
+        "pt": "raro.",
+        "my": "ရှားပါး။",
+        "th": "หายาก"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=19.428,25.339",
+      "t": [
+        19.428,
+        25.339
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "その時、一人の美しい少女が、そっとその花の枝に手をのばしました。",
+      "furigana": [
+        {
+          "surface": "その",
+          "reading": ""
+        },
+        {
+          "surface": "時",
+          "reading": "とき"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "一人",
+          "reading": "ひとり"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "美",
+          "reading": "うつく"
+        },
+        {
+          "surface": "しい",
+          "reading": ""
+        },
+        {
+          "surface": "少女",
+          "reading": "しょうじょ"
+        },
+        {
+          "surface": "が、そっとその",
+          "reading": ""
+        },
+        {
+          "surface": "花",
+          "reading": "はな"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "枝",
+          "reading": "えだ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "手",
+          "reading": "て"
+        },
+        {
+          "surface": "をのばしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono toki, hitori no utsukushii shoujo ga, sotto sono hana no eda ni te o nobashimashita.",
+      "translations": {
+        "vi": "Lúc ấy, một thiếu nữ xinh đẹp khẽ đưa tay về phía cành hoa.",
+        "en": "Just then, a beautiful girl gently reached out to the flower's branch.",
+        "zh-Hans": "这时，一位美丽的少女轻轻地把手伸向那花枝。",
+        "zh-Hant": "這時，一位美麗的少女輕輕地把手伸向那花枝。",
+        "ko": "그때 아름다운 소녀가 살며시 그 꽃가지에 손을 뻗었습니다.",
+        "tl": "Noon, marahang inabot ng isang magandang dalagita ang sanga ng bulaklak.",
+        "ne": "त्यस बेला एक सुन्दर किशोरीले बिस्तारै त्यो फूलको हाँगातिर हात बढाइन्।",
+        "id": "Saat itu, seorang gadis cantik perlahan menjulurkan tangan ke dahan bunga itu.",
+        "pt": "Nesse momento, uma bela moça estendeu a mão devagar para o galho.",
+        "my": "အဲဒီအချိန် မိန်းကလေးချောလေး တစ်ယောက်က ပန်းကိုင်းဆီ လက်ကို ဖြည်းဖြည်း လှမ်းတယ်။",
+        "th": "ตอนนั้น เด็กสาวงามคนหนึ่งค่อยๆ ยื่นมือไปที่กิ่งดอกไม้"
+      },
+      "vocab": [
+        {
+          "word": "少女",
+          "reading": "しょうじょ",
+          "meanings": {
+            "vi": "thiếu nữ, cô gái",
+            "en": "young girl",
+            "zh-Hans": "少女",
+            "zh-Hant": "少女",
+            "ko": "소녀",
+            "tl": "dalagita",
+            "ne": "किशोरी",
+            "id": "gadis",
+            "pt": "moça",
+            "my": "မိန်းကလေး",
+            "th": "เด็กสาว"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "そっと",
+          "reading": "そっと",
+          "meanings": {
+            "vi": "nhẹ nhàng, khẽ",
+            "en": "softly, quietly",
+            "zh-Hans": "轻轻地",
+            "zh-Hant": "輕輕地",
+            "ko": "살짝",
+            "tl": "marahan",
+            "ne": "बिस्तारै",
+            "id": "diam-diam, pelan",
+            "pt": "de mansinho",
+            "my": "တိတ်တဆိတ်",
+            "th": "เบา ๆ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「そっと」: khẽ khàng. 「手をのばす」: đưa tay ra. 枝 = cành.",
+        "en": "「そっと」 = gently. 「手をのばす」 = reach out. 枝 = branch.",
+        "zh-Hans": "「そっと」＝轻轻地。",
+        "zh-Hant": "「そっと」＝輕輕地。",
+        "ko": "살며시.",
+        "tl": "marahan.",
+        "ne": "बिस्तारै।",
+        "id": "perlahan.",
+        "pt": "devagar.",
+        "my": "ဖြည်းဖြည်း။",
+        "th": "ค่อยๆ"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=25.939,32.484",
+      "t": [
+        25.939,
+        32.484
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ところが、枝はぽきっと折れてしまったのです。",
+      "furigana": [
+        {
+          "surface": "ところが、",
+          "reading": ""
+        },
+        {
+          "surface": "枝",
+          "reading": "えだ"
+        },
+        {
+          "surface": "はぽきっと",
+          "reading": ""
+        },
+        {
+          "surface": "折",
+          "reading": "お"
+        },
+        {
+          "surface": "れてしまったのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tokoroga, eda wa po kitto oreteshimatta no desu.",
+      "translations": {
+        "vi": "Nào ngờ, cành hoa gãy \"rắc\" một tiếng.",
+        "en": "But the branch snapped with a crack.",
+        "zh-Hans": "没想到，花枝“啪”地一声折断了。",
+        "zh-Hant": "沒想到，花枝“啪”地一聲折斷了。",
+        "ko": "그런데 가지가 뚝 부러지고 말았습니다.",
+        "tl": "Pero naputol ang sanga nang may lagutok.",
+        "ne": "तर हाँगा \"चट्\" गरेर भाँचियो।",
+        "id": "Ternyata dahan itu patah, \"krek.\"",
+        "pt": "Mas o galho se quebrou com um estalo.",
+        "my": "ဒါပေမဲ့ ကိုင်းက \"ဂျောက်\" ဆို ကျိုးသွားတယ်။",
+        "th": "แต่กิ่งกลับหัก \"เป๊าะ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「ぽきっと」: (tượng thanh) rắc. 「〜てしまう」: lỡ ~ mất.",
+        "en": "「ぽきっと」 = snap (onomatopoeia). 「〜てしまう」 = accidentally ~.",
+        "zh-Hans": "「ぽきっと」＝咔嚓（拟声）。",
+        "zh-Hant": "「ぽきっと」＝咔嚓（擬聲）。",
+        "ko": "뚝(의성어).",
+        "tl": "lagutok.",
+        "ne": "चट्।",
+        "id": "krek.",
+        "pt": "estalo.",
+        "my": "ဂျောက်။",
+        "th": "เป๊าะ"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=33.084,36.808",
+      "t": [
+        33.084,
+        36.808
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「大切な花を折ったな。お金をはらうまで、ここから帰さないぞ。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "大切",
+          "reading": "たいせつ"
+        },
+        {
+          "surface": "な",
+          "reading": ""
+        },
+        {
+          "surface": "花",
+          "reading": "はな"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "折",
+          "reading": "お"
+        },
+        {
+          "surface": "ったな。お",
+          "reading": ""
+        },
+        {
+          "surface": "金",
+          "reading": "かね"
+        },
+        {
+          "surface": "をはらうまで、ここから",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "き"
+        },
+        {
+          "surface": "さないぞ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Taisetsu na hana o otta na. Okane o harau made, koko kara kisanai zo.”",
+      "translations": {
+        "vi": "\"Cô đã bẻ gãy hoa quý! Chưa trả tiền thì không được về đâu.\"",
+        "en": "\"You broke a precious flower! You're not leaving until you pay.\"",
+        "zh-Hans": "“你折断了珍贵的花！不赔钱就别想走。”",
+        "zh-Hant": "“你折斷了珍貴的花！不賠錢就別想走。”",
+        "ko": "\"귀한 꽃을 꺾었구나. 돈을 낼 때까지 여기서 못 보낸다.\"",
+        "tl": "\"Binali mo ang mahalagang bulaklak! Hindi ka aalis hangga't hindi ka nagbabayad.\"",
+        "ne": "\"बहुमूल्य फूल भाँचिस्! पैसा नतिरेसम्म जान दिन्नँ।\"",
+        "id": "\"Kau mematahkan bunga berharga! Tak boleh pulang sebelum bayar.\"",
+        "pt": "\"Você quebrou uma flor preciosa! Não sai daqui até pagar.\"",
+        "my": "\"အဖိုးတန်ပန်းကို ချိုးလိုက်တယ်နော်။ ပိုက်ဆံမပေးမချင်း မပြန်ရဘူး။\"",
+        "th": "\"เจ้าหักดอกไม้ล้ำค่า! ไม่จ่ายเงินห้ามกลับ\""
+      },
+      "vocab": [
+        {
+          "word": "帰す",
+          "reading": "かえす",
+          "meanings": {
+            "vi": "cho về",
+            "en": "let (someone) go home",
+            "zh-Hans": "让…回去",
+            "zh-Hant": "讓…回去",
+            "ko": "돌려보내다",
+            "tl": "pauwiin",
+            "ne": "फर्काउनु",
+            "id": "memulangkan",
+            "pt": "deixar ir",
+            "my": "ပြန်လွှတ်",
+            "th": "ให้กลับ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜まで」: cho đến khi ~. 「帰さない」: không cho về. 「〜ぞ」: (nam, đe dọa).",
+        "en": "「〜まで」 = until ~. 「帰さない」 = won't let go home.",
+        "zh-Hans": "「〜まで」＝直到……。",
+        "zh-Hant": "「〜まで」＝直到……。",
+        "ko": "~할 때까지.",
+        "tl": "hangga't.",
+        "ne": "नगरेसम्म।",
+        "id": "sampai.",
+        "pt": "até.",
+        "my": "မချင်း။",
+        "th": "จนกว่า"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=37.708,42.677",
+      "t": [
+        37.708,
+        42.677
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "少女はお金を持っていなくて、顔を赤くして、下を向いていました。",
+      "furigana": [
+        {
+          "surface": "少女",
+          "reading": "しょうじょ"
+        },
+        {
+          "surface": "はお",
+          "reading": ""
+        },
+        {
+          "surface": "金",
+          "reading": "かね"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "っていなくて、",
+          "reading": ""
+        },
+        {
+          "surface": "顔",
+          "reading": "かお"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "赤",
+          "reading": "あか"
+        },
+        {
+          "surface": "くして、",
+          "reading": ""
+        },
+        {
+          "surface": "下",
+          "reading": "した"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "向",
+          "reading": "む"
+        },
+        {
+          "surface": "いていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shoujo wa okane o motteinakute, kao o akaku shite, shita o muiteimashita.",
+      "translations": {
+        "vi": "Cô gái không có tiền, đỏ mặt cúi đầu.",
+        "en": "The girl had no money; her face turned red and she looked down.",
+        "zh-Hans": "少女没有钱，红着脸低下了头。",
+        "zh-Hant": "少女沒有錢，紅著臉低下了頭。",
+        "ko": "소녀는 돈이 없어서 얼굴을 붉히고 고개를 숙이고 있었습니다.",
+        "tl": "Walang pera ang dalagita; namula siya at yumuko.",
+        "ne": "किशोरीसँग पैसा थिएन, अनुहार रातो पारेर तल हेरिरहिन्।",
+        "id": "Gadis itu tak punya uang, wajahnya memerah dan menunduk.",
+        "pt": "A moça não tinha dinheiro; corou e baixou o olhar.",
+        "my": "မိန်းကလေးမှာ ပိုက်ဆံမရှိလို့ မျက်နှာနီပြီး ခေါင်းငုံ့နေတယ်။",
+        "th": "เด็กสาวไม่มีเงิน หน้าแดงก้มหน้าอยู่"
+      },
+      "vocab": [
+        {
+          "word": "向く",
+          "reading": "むく",
+          "meanings": {
+            "vi": "quay về phía, hướng",
+            "en": "face, turn toward",
+            "zh-Hans": "朝向",
+            "zh-Hant": "朝向",
+            "ko": "향하다",
+            "tl": "humarap",
+            "ne": "फर्कनु",
+            "id": "menghadap",
+            "pt": "voltar-se",
+            "my": "လှည့်",
+            "th": "หัน"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「顔を赤くする」: đỏ mặt. 「下を向く」: cúi xuống.",
+        "en": "「顔を赤くする」 = blush. 「下を向く」 = look down.",
+        "zh-Hans": "「下を向く」＝低头。",
+        "zh-Hant": "「下を向く」＝低頭。",
+        "ko": "고개를 숙이다.",
+        "tl": "yumuko.",
+        "ne": "तल हेर्नु।",
+        "id": "menunduk.",
+        "pt": "baixar o olhar.",
+        "my": "ခေါင်းငုံ့။",
+        "th": "ก้มหน้า"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=43.577,49.075",
+      "t": [
+        43.577,
+        49.075
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それを見たトゥ・トゥックは、着ていた立派な上着をぬぎました。",
+      "furigana": [
+        {
+          "surface": "それを",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "たトゥ・トゥックは、",
+          "reading": ""
+        },
+        {
+          "surface": "着",
+          "reading": "き"
+        },
+        {
+          "surface": "ていた",
+          "reading": ""
+        },
+        {
+          "surface": "立派",
+          "reading": "りっぱ"
+        },
+        {
+          "surface": "な",
+          "reading": ""
+        },
+        {
+          "surface": "上着",
+          "reading": "うわぎ"
+        },
+        {
+          "surface": "をぬぎました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sore o mita Tu Tukku wa, kiteita rippa na uwagi o nugimashita.",
+      "translations": {
+        "vi": "Thấy vậy, Từ Thức cởi chiếc áo gấm sang trọng đang mặc.",
+        "en": "Seeing this, Từ Thức took off the fine coat he was wearing.",
+        "zh-Hans": "徐式见状，脱下了身上华贵的外衣。",
+        "zh-Hant": "徐式見狀，脫下了身上華貴的外衣。",
+        "ko": "그것을 본 뜨특은 입고 있던 훌륭한 겉옷을 벗었습니다.",
+        "tl": "Nang makita ito, hinubad ni Từ Thức ang magarang balabal na suot niya.",
+        "ne": "यो देखेर तु थुकले लगाएको राम्रो कोट फुकाले।",
+        "id": "Melihat itu, Từ Thức melepas jubah bagus yang dipakainya.",
+        "pt": "Vendo isso, Từ Thức tirou o belo casaco que usava.",
+        "my": "ဒါမြင်တော့ တူထုတ်က ဝတ်ထားတဲ့ ခမ်းနားတဲ့ အပေါ်အင်္ကျီကို ချွတ်တယ်။",
+        "th": "ตื่อ ถึกเห็นดังนั้นจึงถอดเสื้อคลุมงามที่สวมอยู่"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「着ていた上着」: chiếc áo khoác đang mặc. 「ぬぐ」: cởi.",
+        "en": "「ぬぐ」 = take off. 上着 = coat.",
+        "zh-Hans": "「ぬぐ」＝脱。",
+        "zh-Hant": "「ぬぐ」＝脫。",
+        "ko": "벗다.",
+        "tl": "hubarin.",
+        "ne": "फुकाल्नु।",
+        "id": "melepas.",
+        "pt": "tirar.",
+        "my": "ချွတ်။",
+        "th": "ถอด"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=49.675,54.353",
+      "t": [
+        49.675,
+        54.353
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「この上着で、花のお金をはらいましょう。どうか、この人を許してあげてください。」",
+      "furigana": [
+        {
+          "surface": "「この",
+          "reading": ""
+        },
+        {
+          "surface": "上着",
+          "reading": "うわぎ"
+        },
+        {
+          "surface": "で、",
+          "reading": ""
+        },
+        {
+          "surface": "花",
+          "reading": "はな"
+        },
+        {
+          "surface": "のお",
+          "reading": ""
+        },
+        {
+          "surface": "金",
+          "reading": "かね"
+        },
+        {
+          "surface": "をはらいましょう。どうか、この",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "許",
+          "reading": "ゆる"
+        },
+        {
+          "surface": "してあげてください。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kono uwagi de, hana no okane o haraimashou. Dou ka, kono hito o yurushiteagetekudasai.”",
+      "translations": {
+        "vi": "\"Tôi xin dùng chiếc áo này trả tiền hoa. Xin hãy tha cho cô ấy.\"",
+        "en": "\"Let me pay for the flower with this coat. Please, forgive her.\"",
+        "zh-Hans": "“就用这件外衣赔花钱吧。请原谅她吧。”",
+        "zh-Hant": "“就用這件外衣賠花錢吧。請原諒她吧。”",
+        "ko": "\"이 겉옷으로 꽃값을 치르겠습니다. 부디 이 사람을 용서해 주십시오.\"",
+        "tl": "\"Ibabayad ko ang balabal na ito para sa bulaklak. Patawarin na ninyo siya.\"",
+        "ne": "\"यो कोटले फूलको पैसा तिर्छु। कृपया उनलाई माफ गरिदिनुहोस्।\"",
+        "id": "\"Saya bayar bunga itu dengan jubah ini. Tolong maafkan dia.\"",
+        "pt": "\"Pago a flor com este casaco. Por favor, perdoem-na.\"",
+        "my": "\"ဒီအင်္ကျီနဲ့ ပန်းဖိုး ပေးပါ့မယ်။ သူ့ကို ခွင့်လွှတ်ပေးပါ။\"",
+        "th": "\"ข้าขอใช้เสื้อนี้จ่ายค่าดอกไม้ ได้โปรดให้อภัยนางเถิด\""
+      },
+      "vocab": [
+        {
+          "word": "許す",
+          "reading": "ゆるす",
+          "meanings": {
+            "vi": "tha thứ",
+            "en": "forgive",
+            "zh-Hans": "原谅",
+            "zh-Hant": "原諒",
+            "ko": "용서하다",
+            "tl": "patawarin",
+            "ne": "माफ गर्नु",
+            "id": "memaafkan",
+            "pt": "perdoar",
+            "my": "ခွင့်လွှတ်",
+            "th": "ให้อภัย"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜で」: bằng ~. 「〜てあげてください」: xin hãy ~ cho người ấy.",
+        "en": "「〜で」 = with/by ~. 「〜てあげてください」 = please do ~ for them.",
+        "zh-Hans": "「〜てあげて」＝为他人做……。",
+        "zh-Hant": "「〜てあげて」＝為他人做……。",
+        "ko": "~해 주세요.",
+        "tl": "para sa kanya.",
+        "ne": "गरिदिनुहोस्।",
+        "id": "untuknya.",
+        "pt": "por ela.",
+        "my": "ပေးပါ။",
+        "th": "ให้เขา"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=55.253,61.522",
+      "t": [
+        55.253,
+        61.522
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "少女は、小さな声でお礼を言うと、人の中に消えてしまいました。",
+      "furigana": [
+        {
+          "surface": "少女",
+          "reading": "しょうじょ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "小",
+          "reading": "ちい"
+        },
+        {
+          "surface": "さな",
+          "reading": ""
+        },
+        {
+          "surface": "声",
+          "reading": "こえ"
+        },
+        {
+          "surface": "でお",
+          "reading": ""
+        },
+        {
+          "surface": "礼",
+          "reading": "れい"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "うと、",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "消",
+          "reading": "き"
+        },
+        {
+          "surface": "えてしまいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shoujo wa, chiisana koe de orei o iu to, hito no naka ni kieteshimaimashita.",
+      "translations": {
+        "vi": "Cô gái nói lời cảm ơn khe khẽ rồi biến mất vào đám đông.",
+        "en": "The girl thanked him softly and vanished into the crowd.",
+        "zh-Hans": "少女小声道了谢，便消失在人群中。",
+        "zh-Hant": "少女小聲道了謝，便消失在人群中。",
+        "ko": "소녀는 작은 목소리로 고맙다고 말하고는 사람들 속으로 사라졌습니다.",
+        "tl": "Mahinang nagpasalamat ang dalagita at nawala sa karamihan.",
+        "ne": "किशोरीले सानो स्वरमा धन्यवाद भनिन् र भीडमा हराइन्।",
+        "id": "Gadis itu berterima kasih pelan lalu menghilang di keramaian.",
+        "pt": "A moça agradeceu baixinho e sumiu na multidão.",
+        "my": "မိန်းကလေးက တိုးတိုးလေး ကျေးဇူးတင်ပြီး လူအုပ်ထဲ ပျောက်သွားတယ်။",
+        "th": "เด็กสาวขอบคุณเบาๆ แล้วหายไปในฝูงชน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「お礼を言う」: nói lời cảm ơn. 「〜と」: vừa ~ thì. 消える = biến mất.",
+        "en": "「お礼を言う」 = say thanks. 消える = vanish.",
+        "zh-Hans": "「お礼を言う」＝道谢。",
+        "zh-Hant": "「お禮を言う」＝道謝。",
+        "ko": "감사 인사하다.",
+        "tl": "magpasalamat.",
+        "ne": "धन्यवाद दिनु।",
+        "id": "berterima kasih.",
+        "pt": "agradecer.",
+        "my": "ကျေးဇူးတင်။",
+        "th": "ขอบคุณ"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=62.422,68.224",
+      "t": [
+        62.422,
+        68.224
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それから数年後、トゥ・トゥックは役人の仕事をやめました。",
+      "furigana": [
+        {
+          "surface": "それから",
+          "reading": ""
+        },
+        {
+          "surface": "数年後",
+          "reading": "すうねんご"
+        },
+        {
+          "surface": "、トゥ・トゥックは",
+          "reading": ""
+        },
+        {
+          "surface": "役人",
+          "reading": "やくにん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "surface": "をやめました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sorekara suunengo, Tu Tukku wa yakunin no shigoto o yamemashita.",
+      "translations": {
+        "vi": "Vài năm sau, Từ Thức từ quan.",
+        "en": "A few years later, Từ Thức quit his post.",
+        "zh-Hans": "几年后，徐式辞去了官职。",
+        "zh-Hant": "幾年後，徐式辭去了官職。",
+        "ko": "몇 년 후 뜨특은 관리 일을 그만두었습니다.",
+        "tl": "Pagkaraan ng ilang taon, nagbitiw si Từ Thức sa tungkulin.",
+        "ne": "केही वर्षपछि तु थुकले जागिर छाडे।",
+        "id": "Beberapa tahun kemudian, Từ Thức berhenti dari jabatannya.",
+        "pt": "Alguns anos depois, Từ Thức deixou o cargo.",
+        "my": "နှစ်အနည်းငယ်အကြာ တူထုတ်က အရာရှိအလုပ်ကို နုတ်ထွက်တယ်။",
+        "th": "ไม่กี่ปีต่อมา ตื่อ ถึกลาออกจากราชการ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "数年後 (すうねんご) = vài năm sau. 「〜をやめる」: bỏ ~.",
+        "en": "数年後 = several years later.",
+        "zh-Hans": "数年後＝几年后。",
+        "zh-Hant": "數年後＝幾年後。",
+        "ko": "몇 년 후.",
+        "tl": "ilang taon pagkaraan.",
+        "ne": "केही वर्षपछि।",
+        "id": "beberapa tahun kemudian.",
+        "pt": "anos depois.",
+        "my": "နှစ်အနည်းငယ်အကြာ။",
+        "th": "ไม่กี่ปีต่อมา"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=68.824,73.381",
+      "t": [
+        68.824,
+        73.381
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「人に命令する仕事より、山や海を見て、詩を書きたい。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "命令",
+          "reading": "めいれい"
+        },
+        {
+          "surface": "する",
+          "reading": ""
+        },
+        {
+          "surface": "仕事",
+          "reading": "しごと"
+        },
+        {
+          "surface": "より、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "や",
+          "reading": ""
+        },
+        {
+          "surface": "海",
+          "reading": "うみ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "て、",
+          "reading": ""
+        },
+        {
+          "surface": "詩",
+          "reading": "し"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "書",
+          "reading": "か"
+        },
+        {
+          "surface": "きたい。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Hito ni meireisuru shigoto yori, yama ya umi o mite, shi o kakitai.”",
+      "translations": {
+        "vi": "\"Thay vì làm nghề ra lệnh cho người khác, ta muốn ngắm núi biển và làm thơ.\"",
+        "en": "\"Rather than a job giving orders to people, I want to look at mountains and seas and write poems.\"",
+        "zh-Hans": "“与其做命令别人的工作，我更想看山看海、写诗。”",
+        "zh-Hant": "“與其做命令別人的工作，我更想看山看海、寫詩。”",
+        "ko": "\"남에게 명령하는 일보다 산과 바다를 보며 시를 쓰고 싶다.\"",
+        "tl": "\"Sa halip na trabahong nag-uutos, gusto kong tumingin sa bundok at dagat at sumulat ng tula.\"",
+        "ne": "\"अरूलाई आदेश दिने कामभन्दा पहाड र समुद्र हेरेर कविता लेख्न चाहन्छु।\"",
+        "id": "\"Daripada pekerjaan memerintah orang, aku ingin melihat gunung dan laut lalu menulis puisi.\"",
+        "pt": "\"Em vez de um trabalho de dar ordens, quero ver montanhas e mares e escrever poemas.\"",
+        "my": "\"လူကို အမိန့်ပေးတဲ့အလုပ်ထက် တောင်နဲ့ပင်လယ်ကို ကြည့်ပြီး ကဗျာ ရေးချင်တယ်။\"",
+        "th": "\"แทนที่จะทำงานสั่งคน ข้าอยากดูภูเขาทะเลแล้วแต่งกลอน\""
+      },
+      "vocab": [
+        {
+          "word": "命令",
+          "reading": "めいれい",
+          "meanings": {
+            "vi": "mệnh lệnh",
+            "en": "order, command",
+            "zh-Hans": "命令",
+            "zh-Hant": "命令",
+            "ko": "명령",
+            "tl": "utos",
+            "ne": "आदेश",
+            "id": "perintah",
+            "pt": "ordem",
+            "my": "အမိန့်",
+            "th": "คำสั่ง"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「AよりB」: B hơn A. 命令する = ra lệnh.",
+        "en": "「AよりB」 = B rather than A. 命令する = give orders.",
+        "zh-Hans": "「AよりB」＝比起A更B。",
+        "zh-Hant": "「AよりB」＝比起A更B。",
+        "ko": "A보다 B.",
+        "tl": "kaysa.",
+        "ne": "भन्दा।",
+        "id": "daripada.",
+        "pt": "em vez de.",
+        "my": "ထက်။",
+        "th": "แทนที่จะ"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=74.281,78.847",
+      "t": [
+        74.281,
+        78.847
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "彼は、琴と酒と本だけを持って、一人で旅に出ました。",
+      "furigana": [
+        {
+          "surface": "彼",
+          "reading": "かれ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "琴",
+          "reading": "こと"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "酒",
+          "reading": "さけ"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "本",
+          "reading": "ほん"
+        },
+        {
+          "surface": "だけを",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "一人",
+          "reading": "ひとり"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "旅",
+          "reading": "たび"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "ました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kare wa, koto to sake to hon dake o motte, hitori de tabi ni demashita.",
+      "translations": {
+        "vi": "Chàng chỉ mang theo đàn, rượu và sách, một mình lên đường.",
+        "en": "Taking only his koto, wine, and books, he set out alone.",
+        "zh-Hans": "他只带着琴、酒和书，一个人踏上了旅途。",
+        "zh-Hant": "他只帶著琴、酒和書，一個人踏上了旅途。",
+        "ko": "그는 거문고와 술과 책만 가지고 홀로 여행을 떠났습니다.",
+        "tl": "Dala lamang ang kanyang alpa, alak at aklat, mag-isa siyang naglakbay.",
+        "ne": "उनी बाजा, रक्सी र किताब मात्र लिएर एक्लै यात्रामा निस्के।",
+        "id": "Hanya membawa kecapi, arak, dan buku, ia berangkat sendirian.",
+        "pt": "Levando só a cítara, vinho e livros, partiu sozinho.",
+        "my": "စောင်း၊ အရက်နဲ့ စာအုပ်ပဲ ယူပြီး တစ်ယောက်တည်း ခရီးထွက်တယ်။",
+        "th": "เขานำเพียงพิณ สุรา และหนังสือ ออกเดินทางลำพัง"
+      },
+      "vocab": [
+        {
+          "word": "酒",
+          "reading": "さけ",
+          "meanings": {
+            "vi": "rượu",
+            "en": "alcohol, sake",
+            "zh-Hans": "酒",
+            "zh-Hant": "酒",
+            "ko": "술",
+            "tl": "alak",
+            "ne": "रक्सी",
+            "id": "minuman keras, sake",
+            "pt": "bebida alcoólica, saquê",
+            "my": "အရက်",
+            "th": "เหล้า"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜だけ」: chỉ ~. 「旅に出る」: lên đường du hành. 琴 (こと) = đàn.",
+        "en": "「〜だけ」 = only ~. 「旅に出る」 = set out on a journey.",
+        "zh-Hans": "「旅に出る」＝去旅行。",
+        "zh-Hant": "「旅に出る」＝去旅行。",
+        "ko": "여행을 떠나다.",
+        "tl": "maglakbay.",
+        "ne": "यात्रामा निस्कनु।",
+        "id": "berangkat.",
+        "pt": "partir.",
+        "my": "ခရီးထွက်။",
+        "th": "ออกเดินทาง"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=79.747,84.769",
+      "t": [
+        79.747,
+        84.769
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ある日、海の近くの、高い岩の山に着きました。",
+      "furigana": [
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "海",
+          "reading": "うみ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "近",
+          "reading": "ちか"
+        },
+        {
+          "surface": "くの、",
+          "reading": ""
+        },
+        {
+          "surface": "高",
+          "reading": "たか"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "岩",
+          "reading": "いわ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "着",
+          "reading": "つ"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aru hi, umi no chikaku no, takai iwa no yama ni tsukimashita.",
+      "translations": {
+        "vi": "Một ngày, chàng đến một ngọn núi đá cao gần biển.",
+        "en": "One day, he reached a tall rocky mountain near the sea.",
+        "zh-Hans": "有一天，他来到海边一座高高的石山。",
+        "zh-Hant": "有一天，他來到海邊一座高高的石山。",
+        "ko": "어느 날 바다 가까이에 있는 높은 바위산에 도착했습니다.",
+        "tl": "Isang araw, dumating siya sa mataas na bundok na bato malapit sa dagat.",
+        "ne": "एक दिन उनी समुद्रनजिकको अग्लो चट्टाने पहाडमा पुगे।",
+        "id": "Suatu hari, ia tiba di gunung batu tinggi dekat laut.",
+        "pt": "Um dia, chegou a uma alta montanha rochosa perto do mar.",
+        "my": "တစ်နေ့ ပင်လယ်နားက ကျောက်တောင်မြင့်ကို ရောက်တယ်။",
+        "th": "วันหนึ่ง เขามาถึงภูเขาหินสูงใกล้ทะเล"
+      },
+      "vocab": [
+        {
+          "word": "岩",
+          "reading": "いわ",
+          "meanings": {
+            "vi": "tảng đá",
+            "en": "rock",
+            "zh-Hans": "岩石",
+            "zh-Hant": "岩石",
+            "ko": "바위",
+            "tl": "bato",
+            "ne": "चट्टान",
+            "id": "batu karang",
+            "pt": "rocha",
+            "my": "ကျောက်ဆောင်",
+            "th": "หิน"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "岩 = đá tảng. 「〜に着く」: đến ~.",
+        "en": "岩 = rock. 「〜に着く」 = arrive at ~.",
+        "zh-Hans": "岩＝岩石。",
+        "zh-Hant": "巖＝岩石。",
+        "ko": "바위.",
+        "tl": "bato.",
+        "ne": "चट्टान।",
+        "id": "batu.",
+        "pt": "rocha.",
+        "my": "ကျောက်။",
+        "th": "หิน"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=85.369,89.873",
+      "t": [
+        85.369,
+        89.873
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "岩の間に、見たことのない、小さな穴が開いていました。",
+      "furigana": [
+        {
+          "surface": "岩",
+          "reading": "いわ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "間",
+          "reading": "あいだ"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "たことのない、",
+          "reading": ""
+        },
+        {
+          "surface": "小",
+          "reading": "ちい"
+        },
+        {
+          "surface": "さな",
+          "reading": ""
+        },
+        {
+          "surface": "穴",
+          "reading": "あな"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "開",
+          "reading": "ひら"
+        },
+        {
+          "surface": "いていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Iwa no aida ni, mita koto no nai, chiisana ana ga hiraiteimashita.",
+      "translations": {
+        "vi": "Giữa các tảng đá có một cái hang nhỏ mà chàng chưa từng thấy.",
+        "en": "Between the rocks was a small opening he had never seen before.",
+        "zh-Hans": "岩石之间，有一个从没见过的小洞。",
+        "zh-Hant": "岩石之間，有一個從沒見過的小洞。",
+        "ko": "바위 사이에 처음 보는 작은 구멍이 나 있었습니다.",
+        "tl": "Sa pagitan ng mga bato, may maliit na butas na noon lang niya nakita.",
+        "ne": "चट्टानबीच पहिले कहिल्यै नदेखेको सानो प्वाल थियो।",
+        "id": "Di antara batu ada lubang kecil yang belum pernah ia lihat.",
+        "pt": "Entre as rochas havia uma pequena abertura nunca vista.",
+        "my": "ကျောက်တွေကြားမှာ တစ်ခါမှ မမြင်ဖူးတဲ့ အပေါက်လေး ရှိတယ်။",
+        "th": "ระหว่างโขดหินมีรูเล็กๆ ที่ไม่เคยเห็นมาก่อน"
+      },
+      "vocab": [
+        {
+          "word": "穴",
+          "reading": "あな",
+          "meanings": {
+            "vi": "cái hố, hang",
+            "en": "hole, pit",
+            "zh-Hans": "洞",
+            "zh-Hant": "洞",
+            "ko": "구멍",
+            "tl": "butas",
+            "ne": "प्वाल",
+            "id": "lubang",
+            "pt": "buraco",
+            "my": "တွင်း",
+            "th": "หลุม"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「見たことのない」: chưa từng thấy. 穴 = cái lỗ, hang. 「穴が開く」: có lỗ.",
+        "en": "「見たことのない」 = never seen before. 穴 = hole.",
+        "zh-Hans": "「Vたことのない」＝从未……过的。",
+        "zh-Hant": "「Vたことのない」＝從未……過的。",
+        "ko": "~한 적 없는.",
+        "tl": "hindi pa nakikita.",
+        "ne": "नदेखेको।",
+        "id": "belum pernah.",
+        "pt": "nunca visto.",
+        "my": "မမြင်ဖူး။",
+        "th": "ไม่เคยเห็น"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=90.473,95.623",
+      "t": [
+        90.473,
+        95.623
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「不思議だな。中から、花のにおいがする。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "不思議",
+          "reading": "ふしぎ"
+        },
+        {
+          "surface": "だな。",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "から、",
+          "reading": ""
+        },
+        {
+          "surface": "花",
+          "reading": "はな"
+        },
+        {
+          "surface": "のにおいがする。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Fushigi da na. Naka kara, hana no nioi ga suru.”",
+      "translations": {
+        "vi": "\"Lạ thật. Từ bên trong có mùi hương hoa.\"",
+        "en": "\"How strange. I smell flowers coming from inside.\"",
+        "zh-Hans": "“真奇怪。里面飘出花香。”",
+        "zh-Hant": "“真奇怪。裡面飄出花香。”",
+        "ko": "\"이상하네. 안에서 꽃향기가 난다.\"",
+        "tl": "\"Kakaiba. May amoy ng bulaklak mula sa loob.\"",
+        "ne": "\"अचम्म! भित्रबाट फूलको बास्ना आउँछ।\"",
+        "id": "\"Aneh. Dari dalam tercium bau bunga.\"",
+        "pt": "\"Que estranho. Sinto cheiro de flores lá dentro.\"",
+        "my": "\"ထူးဆန်းလိုက်တာ။ အထဲကနေ ပန်းနံ့ ရတယ်။\"",
+        "th": "\"แปลกจริง มีกลิ่นดอกไม้ลอยมาจากข้างใน\""
+      },
+      "vocab": [
+        {
+          "word": "不思議",
+          "reading": "ふしぎ",
+          "meanings": {
+            "vi": "kỳ lạ, thần kỳ",
+            "en": "mysterious",
+            "zh-Hans": "不可思议",
+            "zh-Hant": "不可思議",
+            "ko": "신기하다",
+            "tl": "mahiwaga",
+            "ne": "अचम्मको",
+            "id": "ajaib",
+            "pt": "misterioso",
+            "my": "ထူးဆန်း",
+            "th": "แปลกประหลาด"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「においがする」: có mùi. 「〜だな」: (nam, tự nói).",
+        "en": "「においがする」 = there's a smell.",
+        "zh-Hans": "「においがする」＝有……的气味。",
+        "zh-Hant": "「においがする」＝有……的氣味。",
+        "ko": "냄새가 나다.",
+        "tl": "may amoy.",
+        "ne": "गन्ध आउनु।",
+        "id": "tercium.",
+        "pt": "sentir cheiro.",
+        "my": "အနံ့ရ။",
+        "th": "มีกลิ่น"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=96.523,99.627",
+      "t": [
+        96.523,
+        99.627
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "穴に入って、暗い道を進んでいくと、急に目の前が明るくなりました。",
+      "furigana": [
+        {
+          "surface": "穴",
+          "reading": "あな"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "はい"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "暗",
+          "reading": "くら"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "道",
+          "reading": "みち"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "進",
+          "reading": "すす"
+        },
+        {
+          "surface": "んでいくと、",
+          "reading": ""
+        },
+        {
+          "surface": "急",
+          "reading": "きゅう"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "目",
+          "reading": "め"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "明",
+          "reading": "あか"
+        },
+        {
+          "surface": "るくなりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ana ni haitte, kurai michi o susundeiku to, kyuu ni me no mae ga akaruku narimashita.",
+      "translations": {
+        "vi": "Chàng chui vào hang, đi theo lối tối, bỗng nhiên trước mắt sáng bừng.",
+        "en": "He entered and followed the dark path, and suddenly everything before him grew bright.",
+        "zh-Hans": "他进洞沿着黑暗的路往前走，眼前忽然一亮。",
+        "zh-Hant": "他進洞沿著黑暗的路往前走，眼前忽然一亮。",
+        "ko": "구멍으로 들어가 어두운 길을 나아가니 갑자기 눈앞이 밝아졌습니다.",
+        "tl": "Pumasok siya at sinundan ang madilim na daan, at biglang lumiwanag sa harap niya.",
+        "ne": "प्वालभित्र पसेर अँध्यारो बाटो हिँड्दा अचानक अगाडि उज्यालो भयो।",
+        "id": "Ia masuk dan menyusuri jalan gelap, tiba-tiba di depannya menjadi terang.",
+        "pt": "Entrou, seguiu o caminho escuro e, de repente, tudo ficou claro.",
+        "my": "အပေါက်ထဲဝင်ပြီး မှောင်တဲ့လမ်းအတိုင်း သွားတော့ ရုတ်တရက် ရှေ့မှာ လင်းလာတယ်။",
+        "th": "เข้าไปตามทางมืด จู่ๆ ข้างหน้าก็สว่างจ้า"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ていくと」: đi ~ thì. 「目の前」: trước mắt. 「急に」: đột nhiên.",
+        "en": "「〜ていくと」 = as one goes on ~. 「目の前」 = before one's eyes.",
+        "zh-Hans": "「急に」＝突然。",
+        "zh-Hant": "「急に」＝突然。",
+        "ko": "갑자기.",
+        "tl": "bigla.",
+        "ne": "अचानक।",
+        "id": "tiba-tiba.",
+        "pt": "de repente.",
+        "my": "ရုတ်တရက်။",
+        "th": "จู่ๆ"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=100.527,106.914",
+      "t": [
+        100.527,
+        106.914
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そこには、金色の門があり、まわりには、見たこともない花がたくさん咲いていました。",
+      "furigana": [
+        {
+          "surface": "そこには、",
+          "reading": ""
+        },
+        {
+          "surface": "金色",
+          "reading": "きんいろ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "門",
+          "reading": "もん"
+        },
+        {
+          "surface": "があり、まわりには、",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "たこともない",
+          "reading": ""
+        },
+        {
+          "surface": "花",
+          "reading": "はな"
+        },
+        {
+          "surface": "がたくさん",
+          "reading": ""
+        },
+        {
+          "surface": "咲",
+          "reading": "さ"
+        },
+        {
+          "surface": "いていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soko ni wa, kin'iro no mon ga ari, mawari ni wa, mita koto mo nai hana ga takusan saiteimashita.",
+      "translations": {
+        "vi": "Nơi đó có một cánh cổng vàng, xung quanh nở đầy những loài hoa chưa từng thấy.",
+        "en": "There stood a golden gate, surrounded by countless flowers he had never seen.",
+        "zh-Hans": "那里有一座金色的大门，周围开满了从未见过的花。",
+        "zh-Hant": "那裡有一座金色的大門，周圍開滿了從未見過的花。",
+        "ko": "거기에는 금빛 문이 있고, 주위에는 처음 보는 꽃이 가득 피어 있었습니다.",
+        "tl": "May gintong tarangkahan doon, at napapaligiran ng maraming bulaklak na noon lang niya nakita.",
+        "ne": "त्यहाँ सुनौलो ढोका थियो, वरिपरि कहिल्यै नदेखेका फूल फुलेका थिए।",
+        "id": "Di sana ada gerbang emas, dikelilingi bunga-bunga yang belum pernah dilihat.",
+        "pt": "Ali havia um portão dourado, cercado de flores nunca vistas.",
+        "my": "အဲဒီမှာ ရွှေရောင်တံခါး ရှိပြီး ပတ်လည်မှာ မမြင်ဖူးတဲ့ ပန်းတွေ အများကြီး ပွင့်နေတယ်။",
+        "th": "ที่นั่นมีประตูทอง รอบๆ มีดอกไม้ที่ไม่เคยเห็นบานเต็มไปหมด"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜があり、〜」: có ~, và (nối câu văn viết). まわり = xung quanh.",
+        "en": "「〜があり」 = there is ~, and (written linking).",
+        "zh-Hans": "「まわり」＝周围。",
+        "zh-Hant": "「まわり」＝周圍。",
+        "ko": "주위.",
+        "tl": "paligid.",
+        "ne": "वरिपरि।",
+        "id": "sekeliling.",
+        "pt": "ao redor.",
+        "my": "ပတ်လည်။",
+        "th": "รอบๆ"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=107.514,114.842",
+      "t": [
+        107.514,
+        114.842
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "門の中から、やさしそうな女の人が出てきました。",
+      "furigana": [
+        {
+          "surface": "門",
+          "reading": "もん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "から、やさしそうな",
+          "reading": ""
+        },
+        {
+          "surface": "女",
+          "reading": "おんな"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "てきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mon no naka kara, yasashisou na onna no hito ga detekimashita.",
+      "translations": {
+        "vi": "Từ trong cổng, một người phụ nữ hiền từ bước ra.",
+        "en": "A kind-looking woman came out from within the gate.",
+        "zh-Hans": "从门里走出一位慈祥的女子。",
+        "zh-Hant": "從門裡走出一位慈祥的女子。",
+        "ko": "문 안에서 상냥해 보이는 여인이 나왔습니다.",
+        "tl": "Mula sa loob, lumabas ang isang mabait na babae.",
+        "ne": "ढोकाभित्रबाट दयालु देखिने एक महिला निस्किइन्।",
+        "id": "Dari dalam gerbang keluar seorang wanita yang tampak ramah.",
+        "pt": "Do portão saiu uma mulher de aparência bondosa.",
+        "my": "တံခါးထဲကနေ သဘောကောင်းပုံရတဲ့ အမျိုးသမီး ထွက်လာတယ်။",
+        "th": "หญิงท่าทางใจดีเดินออกมาจากประตู"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「やさしそうな」: trông hiền hậu (〜そう: trông có vẻ).",
+        "en": "「やさしそうな」 = kind-looking (〜そう = looks ~).",
+        "zh-Hans": "「〜そう」＝看起来……。",
+        "zh-Hant": "「〜そう」＝看起來……。",
+        "ko": "~해 보이는.",
+        "tl": "mukhang.",
+        "ne": "देखिने।",
+        "id": "tampak.",
+        "pt": "parece.",
+        "my": "ပုံရ။",
+        "th": "ดูเหมือน"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=115.442,119.579",
+      "t": [
+        115.442,
+        119.579
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ようこそ。あなたが来るのを、ずっと待っていましたよ。」",
+      "furigana": [
+        {
+          "surface": "「ようこそ。あなたが",
+          "reading": ""
+        },
+        {
+          "surface": "来",
+          "reading": "く"
+        },
+        {
+          "surface": "るのを、ずっと",
+          "reading": ""
+        },
+        {
+          "surface": "待",
+          "reading": "ま"
+        },
+        {
+          "surface": "っていましたよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Youkoso. Anata ga kuru no o, zutto matteimashita yo.”",
+      "translations": {
+        "vi": "\"Chào mừng. Chúng ta đã chờ chàng đến từ lâu lắm rồi.\"",
+        "en": "\"Welcome. We have been waiting for you to come for a long time.\"",
+        "zh-Hans": "“欢迎。我们一直在等你来。”",
+        "zh-Hant": "“歡迎。我們一直在等你來。”",
+        "ko": "\"어서 오세요. 당신이 오기를 계속 기다리고 있었어요.\"",
+        "tl": "\"Maligayang pagdating. Matagal ka na naming hinihintay.\"",
+        "ne": "\"स्वागत छ। तिमी आउने कुरा कुरिरहेका थियौँ।\"",
+        "id": "\"Selamat datang. Kami sudah lama menunggu kedatanganmu.\"",
+        "pt": "\"Bem-vindo. Esperávamos sua vinda há muito tempo.\"",
+        "my": "\"ကြိုဆိုပါတယ်။ ရှင်လာမှာကို တောက်လျှောက် စောင့်နေတာပါ။\"",
+        "th": "\"ยินดีต้อนรับ เรารอท่านมาตลอด\""
+      },
+      "vocab": [
+        {
+          "word": "ずっと",
+          "reading": "ずっと",
+          "meanings": {
+            "vi": "suốt, mãi",
+            "en": "all along, the whole time",
+            "zh-Hans": "一直",
+            "zh-Hant": "一直",
+            "ko": "계속",
+            "tl": "palagi, matagal",
+            "ne": "सधैँ",
+            "id": "terus-menerus",
+            "pt": "o tempo todo",
+            "my": "တောက်လျှောက်",
+            "th": "ตลอด"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜のを待つ」: chờ việc ~. 「ずっと」: suốt.",
+        "en": "「〜のを待つ」 = wait for ~ to happen. 「ずっと」 = all along.",
+        "zh-Hans": "「〜のを待つ」＝等……。",
+        "zh-Hant": "「〜のを待つ」＝等……。",
+        "ko": "~하기를 기다리다.",
+        "tl": "hintayin.",
+        "ne": "पर्खनु।",
+        "id": "menunggu.",
+        "pt": "esperar.",
+        "my": "စောင့်။",
+        "th": "รอ"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=120.479,124.519",
+      "t": [
+        120.479,
+        124.519
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「ここは、人の世界ではありません。仙女たちが住む国です。」",
+      "furigana": [
+        {
+          "surface": "「ここは、",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "世界",
+          "reading": "せかい"
+        },
+        {
+          "surface": "ではありません。",
+          "reading": ""
+        },
+        {
+          "surface": "仙女",
+          "reading": "せんにょ"
+        },
+        {
+          "surface": "たちが",
+          "reading": ""
+        },
+        {
+          "surface": "住",
+          "reading": "す"
+        },
+        {
+          "surface": "む",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "です。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Koko wa, hito no sekai de wa arimasen. Sennyotachi ga sumu kuni desu.”",
+      "translations": {
+        "vi": "\"Đây không phải cõi người. Đây là xứ sở của các nàng tiên.\"",
+        "en": "\"This is not the human world. It is the land where fairies live.\"",
+        "zh-Hans": "“这里不是人间，是仙女们住的国度。”",
+        "zh-Hant": "“這裡不是人間，是仙女們住的國度。”",
+        "ko": "\"이곳은 사람의 세상이 아닙니다. 선녀들이 사는 나라예요.\"",
+        "tl": "\"Hindi ito mundo ng tao. Ito ang lupain ng mga diwata.\"",
+        "ne": "\"यो मानिसको संसार होइन। परीहरू बस्ने देश हो।\"",
+        "id": "\"Ini bukan dunia manusia. Ini negeri tempat para peri tinggal.\"",
+        "pt": "\"Aqui não é o mundo dos humanos. É a terra das fadas.\"",
+        "my": "\"ဒါ လူ့ကမ္ဘာ မဟုတ်ဘူး။ နတ်သမီးတွေ နေတဲ့ ပြည်ပါ။\"",
+        "th": "\"ที่นี่ไม่ใช่โลกมนุษย์ แต่เป็นแดนที่นางฟ้าอาศัย\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ではありません」: không phải ~. 「〜が住む国」: đất nước nơi ~ sống.",
+        "en": "「〜ではありません」 = is not ~.",
+        "zh-Hans": "「〜ではありません」＝不是……。",
+        "zh-Hant": "「〜ではありません」＝不是……。",
+        "ko": "~이 아닙니다.",
+        "tl": "hindi.",
+        "ne": "होइन।",
+        "id": "bukan.",
+        "pt": "não é.",
+        "my": "မဟုတ်။",
+        "th": "ไม่ใช่"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=125.119,130.287",
+      "t": [
+        125.119,
+        130.287
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "そして、奥から、一人の少女が出てきました。",
+      "furigana": [
+        {
+          "surface": "そして、",
+          "reading": ""
+        },
+        {
+          "surface": "奥",
+          "reading": "おく"
+        },
+        {
+          "surface": "から、",
+          "reading": ""
+        },
+        {
+          "surface": "一人",
+          "reading": "ひとり"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "少女",
+          "reading": "しょうじょ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "てきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite, oku kara, hitori no shoujo ga detekimashita.",
+      "translations": {
+        "vi": "Rồi từ phía trong, một thiếu nữ bước ra.",
+        "en": "Then a young girl came out from the back.",
+        "zh-Hans": "然后，从里面走出一位少女。",
+        "zh-Hant": "然後，從裡面走出一位少女。",
+        "ko": "그리고 안쪽에서 한 소녀가 나왔습니다.",
+        "tl": "At mula sa loob, lumabas ang isang dalagita.",
+        "ne": "अनि भित्रबाट एक किशोरी निस्किइन्।",
+        "id": "Lalu dari dalam keluar seorang gadis.",
+        "pt": "Então, do fundo, saiu uma moça.",
+        "my": "ပြီးတော့ အတွင်းဘက်ကနေ မိန်းကလေးတစ်ယောက် ထွက်လာတယ်။",
+        "th": "แล้วเด็กสาวคนหนึ่งก็ออกมาจากข้างใน"
+      },
+      "vocab": [
+        {
+          "word": "奥",
+          "reading": "おく",
+          "meanings": {
+            "vi": "phía trong, buồng trong",
+            "en": "the inner part, back room",
+            "zh-Hans": "里面",
+            "zh-Hant": "裡面",
+            "ko": "안쪽",
+            "tl": "loob, likod na silid",
+            "ne": "भित्रपट्टि",
+            "id": "bagian dalam",
+            "pt": "fundo, interior",
+            "my": "အတွင်းဘက်",
+            "th": "ด้านใน"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "奥 = phía trong cùng.",
+        "en": "奥 = the inner part.",
+        "zh-Hans": "奥＝里面。",
+        "zh-Hant": "奧＝裡面。",
+        "ko": "안쪽.",
+        "tl": "loob.",
+        "ne": "भित्र।",
+        "id": "dalam.",
+        "pt": "fundo.",
+        "my": "အတွင်း။",
+        "th": "ข้างใน"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=131.187,135.073",
+      "t": [
+        131.187,
+        135.073
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それは、あの春の日、ぼたんの枝を折った少女だったのです。",
+      "furigana": [
+        {
+          "surface": "それは、あの",
+          "reading": ""
+        },
+        {
+          "surface": "春",
+          "reading": "はる"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "、ぼたんの",
+          "reading": ""
+        },
+        {
+          "surface": "枝",
+          "reading": "えだ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "折",
+          "reading": "お"
+        },
+        {
+          "surface": "った",
+          "reading": ""
+        },
+        {
+          "surface": "少女",
+          "reading": "しょうじょ"
+        },
+        {
+          "surface": "だったのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sore wa, ano haru no hi, bo tan no eda o otta shoujo datta no desu.",
+      "translations": {
+        "vi": "Đó chính là cô gái đã bẻ cành mẫu đơn hôm mùa xuân năm ấy.",
+        "en": "It was the very girl who had broken the peony branch that spring day.",
+        "zh-Hans": "她正是那年春天折断牡丹花枝的少女。",
+        "zh-Hant": "她正是那年春天折斷牡丹花枝的少女。",
+        "ko": "그것은 그 봄날 모란 가지를 꺾은 소녀였던 것입니다.",
+        "tl": "Siya pala ang dalagitang bumali ng sanga ng peony noong araw na iyon.",
+        "ne": "उनी त्यही वसन्त दिन पियोनी हाँगा भाँच्ने किशोरी थिइन्।",
+        "id": "Ia adalah gadis yang mematahkan dahan peoni pada hari musim semi itu.",
+        "pt": "Era a moça que quebrara o galho de peônia naquele dia de primavera.",
+        "my": "အဲဒါ အဲဒီနွေဦးနေ့က ပီယိုနီကိုင်း ချိုးခဲ့တဲ့ မိန်းကလေးပဲ။",
+        "th": "นางคือเด็กสาวที่หักกิ่งโบตั๋นในวันฤดูใบไม้ผลินั้น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「あの〜」: ~ ấy (cả hai đều biết). 「〜だったのです」: hóa ra là ~.",
+        "en": "「あの〜」 = that ~ (shared memory). 「〜だったのです」 = it turned out to be ~.",
+        "zh-Hans": "「あの」＝那个（共知）。",
+        "zh-Hant": "「あの」＝那個（共知）。",
+        "ko": "그(서로 아는).",
+        "tl": "iyon.",
+        "ne": "त्यो।",
+        "id": "itu.",
+        "pt": "aquele.",
+        "my": "အဲဒီ။",
+        "th": "นั้น"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=135.673,140.571",
+      "t": [
+        135.673,
+        140.571
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「あの時は、助けていただいて、本当にありがとうございました。」",
+      "furigana": [
+        {
+          "surface": "「あの",
+          "reading": ""
+        },
+        {
+          "surface": "時",
+          "reading": "とき"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "助",
+          "reading": "たす"
+        },
+        {
+          "surface": "けていただいて、",
+          "reading": ""
+        },
+        {
+          "surface": "本当",
+          "reading": "ほんとう"
+        },
+        {
+          "surface": "にありがとうございました。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Ano toki wa, tasuketeitadaite, hontouni arigatou gozaimashita.”",
+      "translations": {
+        "vi": "\"Lần ấy được chàng cứu giúp, thiếp thật lòng cảm ơn.\"",
+        "en": "\"Thank you so much for helping me that time.\"",
+        "zh-Hans": "“那时承蒙您相救，真是太感谢了。”",
+        "zh-Hant": "“那時承蒙您相救，真是太感謝了。”",
+        "ko": "\"그때 도와주셔서 정말 감사했습니다.\"",
+        "tl": "\"Maraming salamat sa pagtulong ninyo noon.\"",
+        "ne": "\"त्यस बेला मद्दत गर्नुभएकोमा साँच्चै धन्यवाद।\"",
+        "id": "\"Terima kasih banyak telah menolongku waktu itu.\"",
+        "pt": "\"Muito obrigada por me ajudar daquela vez.\"",
+        "my": "\"အဲဒီတုန်းက ကူညီပေးခဲ့လို့ တကယ် ကျေးဇူးတင်ပါတယ်။\"",
+        "th": "\"ขอบคุณมากที่ช่วยข้าในครั้งนั้น\""
+      },
+      "vocab": [
+        {
+          "word": "助ける",
+          "reading": "たすける",
+          "meanings": {
+            "vi": "giúp đỡ, cứu",
+            "en": "to help, to save",
+            "zh-Hans": "帮助，救",
+            "zh-Hant": "幫助，救",
+            "ko": "돕다, 구하다",
+            "tl": "tumulong, iligtas",
+            "ne": "मद्दत गर्नु, बचाउनु",
+            "id": "menolong",
+            "pt": "ajudar, salvar",
+            "my": "ကူညီသည်၊ ကယ်တင်သည်",
+            "th": "ช่วยเหลือ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ていただいて、ありがとうございました」: cảm ơn vì đã ~ cho tôi (rất lịch sự).",
+        "en": "「〜ていただいて」 = (humble) for having ~ for me.",
+        "zh-Hans": "「〜ていただく」＝承蒙……。",
+        "zh-Hant": "「〜ていただく」＝承蒙……。",
+        "ko": "~해 주셔서.",
+        "tl": "sa pag-~ ninyo.",
+        "ne": "गरिदिनुभएकोमा।",
+        "id": "telah ~.",
+        "pt": "por ter ~.",
+        "my": "ပေးလို့။",
+        "th": "ที่ได้~ให้"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=141.471,146.092",
+      "t": [
+        141.471,
+        146.092
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「わたしはザン・フオンといいます。花を見に、人の世界へ遊びに行っていたのです。」",
+      "furigana": [
+        {
+          "surface": "「わたしはザン・フオンといいます。",
+          "reading": ""
+        },
+        {
+          "surface": "花",
+          "reading": "はな"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "世界",
+          "reading": "せかい"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "遊",
+          "reading": "あそ"
+        },
+        {
+          "surface": "びに",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "っていたのです。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Watashi wa Zan Fuon to iimasu. Hana o mi ni, hito no sekai e asobi ni itteita no desu.”",
+      "translations": {
+        "vi": "\"Thiếp tên là Giáng Hương. Thiếp xuống cõi người chơi, để ngắm hoa.\"",
+        "en": "\"My name is Giáng Hương. I had gone down to the human world to see the flowers.\"",
+        "zh-Hans": "“我叫绛香。我是去人间赏花游玩的。”",
+        "zh-Hant": "“我叫絳香。我是去人間賞花遊玩的。”",
+        "ko": "\"저는 장흐엉이라고 해요. 꽃을 보러 사람의 세상에 놀러 갔던 거예요.\"",
+        "tl": "\"Ako si Giáng Hương. Bumaba ako sa mundo ng tao para tumingin ng bulaklak.\"",
+        "ne": "\"मेरो नाम जाङ हुओङ। फूल हेर्न मानिसको संसारमा घुम्न गएकी थिएँ।\"",
+        "id": "\"Namaku Giáng Hương. Aku turun ke dunia manusia untuk melihat bunga.\"",
+        "pt": "\"Chamo-me Giáng Hương. Tinha ido ao mundo humano ver as flores.\"",
+        "my": "\"ကျွန်မနာမည် ဇန်းဟွမ်ပါ။ ပန်းကြည့်ဖို့ လူ့ကမ္ဘာကို လည်ပတ်ခဲ့တာပါ။\"",
+        "th": "\"ข้าชื่อซาง เฮือง ข้าลงไปเที่ยวโลกมนุษย์เพื่อชมดอกไม้\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜といいます」: tên là ~. 「Vます＋に行く」: đi để V.",
+        "en": "「〜といいます」 = my name is ~. 「V-stem＋に行く」 = go to V.",
+        "zh-Hans": "「〜といいます」＝我叫……。",
+        "zh-Hant": "「〜といいます」＝我叫……。",
+        "ko": "~라고 합니다.",
+        "tl": "ako si.",
+        "ne": "मेरो नाम।",
+        "id": "namaku.",
+        "pt": "chamo-me.",
+        "my": "နာမည်။",
+        "th": "ชื่อ"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=146.692,152.864",
+      "t": [
+        146.692,
+        152.864
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「この子は、あなたのやさしさを、ずっと忘れられなかったのですよ。」",
+      "furigana": [
+        {
+          "surface": "「この",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、あなたのやさしさを、ずっと",
+          "reading": ""
+        },
+        {
+          "surface": "忘",
+          "reading": "わす"
+        },
+        {
+          "surface": "れられなかったのですよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kono ko wa, anata no yasashisa o, zutto wasurerarenakatta no desu yo.”",
+      "translations": {
+        "vi": "\"Con bé này chưa bao giờ quên được lòng tốt của chàng.\"",
+        "en": "\"This child has never been able to forget your kindness.\"",
+        "zh-Hans": "“这孩子一直忘不了你的善良。”",
+        "zh-Hant": "“這孩子一直忘不了你的善良。”",
+        "ko": "\"이 아이는 당신의 다정함을 줄곧 잊지 못했답니다.\"",
+        "tl": "\"Hindi kailanman nalimutan ng batang ito ang kabaitan mo.\"",
+        "ne": "\"यो छोरीले तिम्रो दयालुपन कहिल्यै बिर्सन सकिन।\"",
+        "id": "\"Anak ini tak pernah bisa melupakan kebaikanmu.\"",
+        "pt": "\"Esta menina nunca conseguiu esquecer sua bondade.\"",
+        "my": "\"ဒီကလေးက ရှင့်ရဲ့ ကြင်နာမှုကို တောက်လျှောက် မမေ့နိုင်ခဲ့ဘူး။\"",
+        "th": "\"ลูกคนนี้ไม่เคยลืมความใจดีของท่านเลย\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「忘れられない」: không thể quên (thể khả năng). やさしさ = lòng tốt (い→さ).",
+        "en": "「忘れられない」 = can't forget. やさしさ = kindness (adj.→noun).",
+        "zh-Hans": "「〜さ」＝形容词名词化。",
+        "zh-Hant": "「〜さ」＝形容詞名詞化。",
+        "ko": "형용사의 명사화.",
+        "tl": "pangngalan.",
+        "ne": "नाम।",
+        "id": "kata benda.",
+        "pt": "substantivo.",
+        "my": "နာမ်။",
+        "th": "คำนาม"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=153.764,158.939",
+      "t": [
+        153.764,
+        158.939
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "こうして、トゥ・トゥックとザン・フオンは、結婚することになりました。",
+      "furigana": [
+        {
+          "surface": "こうして、トゥ・トゥックとザン・フオンは、",
+          "reading": ""
+        },
+        {
+          "surface": "結婚",
+          "reading": "けっこん"
+        },
+        {
+          "surface": "することになりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Koushite, Tu Tukku to Zan Fuon wa, kekkonsuru koto ni narimashita.",
+      "translations": {
+        "vi": "Thế là Từ Thức và Giáng Hương nên duyên vợ chồng.",
+        "en": "And so, Từ Thức and Giáng Hương were to be married.",
+        "zh-Hans": "就这样，徐式和绛香结为夫妻。",
+        "zh-Hant": "就這樣，徐式和絳香結為夫妻。",
+        "ko": "이렇게 뜨특과 장흐엉은 결혼하게 되었습니다.",
+        "tl": "Kaya ikinasal sina Từ Thức at Giáng Hương.",
+        "ne": "यसरी तु थुक र जाङ हुओङको बिहे हुने भयो।",
+        "id": "Maka Từ Thức dan Giáng Hương pun menikah.",
+        "pt": "Assim, Từ Thức e Giáng Hương se casaram.",
+        "my": "ဒီလိုနဲ့ တူထုတ်နဲ့ ဇန်းဟွမ် လက်ထပ်ဖို့ ဖြစ်လာတယ်။",
+        "th": "แล้วตื่อ ถึกกับซาง เฮืองก็ได้แต่งงานกัน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ことになる」: (việc) được quyết định là ~.",
+        "en": "「〜ことになる」 = it comes about that ~.",
+        "zh-Hans": "「〜ことになる」＝决定……。",
+        "zh-Hant": "「〜ことになる」＝決定……。",
+        "ko": "~하게 되다.",
+        "tl": "naging.",
+        "ne": "हुने भयो।",
+        "id": "jadi.",
+        "pt": "ficou decidido.",
+        "my": "ဖြစ်လာ။",
+        "th": "ได้"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=159.839,164.426",
+      "t": [
+        159.839,
+        164.426
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "仙女の国の毎日は、夢のようでした。",
+      "furigana": [
+        {
+          "surface": "仙女",
+          "reading": "せんにょ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "夢",
+          "reading": "ゆめ"
+        },
+        {
+          "surface": "のようでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sennyo no kuni no mainichi wa, yume no you deshita.",
+      "translations": {
+        "vi": "Mỗi ngày ở xứ tiên đều như một giấc mơ.",
+        "en": "Every day in the fairy land was like a dream.",
+        "zh-Hans": "仙境的每一天都像梦一样。",
+        "zh-Hant": "仙境的每一天都像夢一樣。",
+        "ko": "선녀 나라의 하루하루는 꿈만 같았습니다.",
+        "tl": "Parang panaginip ang bawat araw sa lupain ng mga diwata.",
+        "ne": "परीलोकको हरेक दिन सपनाजस्तो थियो।",
+        "id": "Setiap hari di negeri peri bagaikan mimpi.",
+        "pt": "Cada dia no reino das fadas era como um sonho.",
+        "my": "နတ်ပြည်က နေ့တိုင်းဟာ အိပ်မက်လိုပဲ။",
+        "th": "ทุกวันในแดนนางฟ้าเหมือนความฝัน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜のようだ」: giống như ~.",
+        "en": "「〜のようだ」 = like ~.",
+        "zh-Hans": "「〜のようだ」＝像……一样。",
+        "zh-Hant": "「〜のようだ」＝像……一樣。",
+        "ko": "~ 같다.",
+        "tl": "parang.",
+        "ne": "जस्तो।",
+        "id": "bagaikan.",
+        "pt": "como.",
+        "my": "လို။",
+        "th": "เหมือน"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=165.026,168.459",
+      "t": [
+        165.026,
+        168.459
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "花はいつも咲いていて、音楽が聞こえ、だれも年をとりませんでした。",
+      "furigana": [
+        {
+          "surface": "花",
+          "reading": "はな"
+        },
+        {
+          "surface": "はいつも",
+          "reading": ""
+        },
+        {
+          "surface": "咲",
+          "reading": "さ"
+        },
+        {
+          "surface": "いていて、",
+          "reading": ""
+        },
+        {
+          "surface": "音楽",
+          "reading": "おんがく"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "こえ、だれも",
+          "reading": ""
+        },
+        {
+          "surface": "年",
+          "reading": "とし"
+        },
+        {
+          "surface": "をとりませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hana wa itsumo saiteite, ongaku ga kikoe, dare mo toshi o torimasendeshita.",
+      "translations": {
+        "vi": "Hoa lúc nào cũng nở, tiếng nhạc vang lên, và không ai già đi.",
+        "en": "Flowers always bloomed, music could be heard, and no one grew old.",
+        "zh-Hans": "花一直开着，音乐声声，谁也不会变老。",
+        "zh-Hant": "花一直開著，音樂聲聲，誰也不會變老。",
+        "ko": "꽃은 늘 피어 있고, 음악이 들리고, 아무도 나이를 먹지 않았습니다.",
+        "tl": "Laging may bulaklak, may musika, at walang tumatanda.",
+        "ne": "फूल सधैं फुलेका, सङ्गीत सुनिन्थ्यो, कोही बूढो हुँदैनथ्यो।",
+        "id": "Bunga selalu mekar, musik terdengar, dan tak ada yang menua.",
+        "pt": "As flores sempre abriam, ouvia-se música e ninguém envelhecia.",
+        "my": "ပန်းတွေ အမြဲပွင့်၊ ဂီတသံ ကြားရပြီး ဘယ်သူမှ အိုမလာဘူး။",
+        "th": "ดอกไม้บานตลอด ได้ยินเสียงดนตรี และไม่มีใครแก่"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「聞こえる」: nghe thấy (tự nhiên). 「年をとる」: già đi.",
+        "en": "「聞こえる」 = be audible. 「年をとる」 = grow old.",
+        "zh-Hans": "「年をとる」＝上年纪。",
+        "zh-Hant": "「年をとる」＝上年紀。",
+        "ko": "나이를 먹다.",
+        "tl": "tumanda.",
+        "ne": "बूढो हुनु।",
+        "id": "menua.",
+        "pt": "envelhecer.",
+        "my": "အို။",
+        "th": "แก่"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=169.059,174.754",
+      "t": [
+        169.059,
+        174.754
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "けれども、一年ほどたったころ、トゥ・トゥックは、ときどき遠くを見るようになりました。",
+      "furigana": [
+        {
+          "surface": "けれども、",
+          "reading": ""
+        },
+        {
+          "surface": "一年",
+          "reading": "いちねん"
+        },
+        {
+          "surface": "ほどたったころ、トゥ・トゥックは、ときどき",
+          "reading": ""
+        },
+        {
+          "surface": "遠",
+          "reading": "とお"
+        },
+        {
+          "surface": "くを",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "るようになりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Keredomo, ichinen hodo tatta koro, Tu Tukku wa, tokidoki tooku o miru you ni narimashita.",
+      "translations": {
+        "vi": "Thế nhưng, khoảng một năm sau, Từ Thức thỉnh thoảng lại nhìn về nơi xa xăm.",
+        "en": "But after about a year, Từ Thức began to gaze into the distance now and then.",
+        "zh-Hans": "可是，过了大约一年，徐式时常望着远方发呆。",
+        "zh-Hant": "可是，過了大約一年，徐式時常望著遠方發呆。",
+        "ko": "그러나 1년쯤 지났을 무렵, 뜨특은 가끔 먼 곳을 바라보게 되었습니다.",
+        "tl": "Ngunit makalipas ang mga isang taon, paminsan-minsang tumatanaw sa malayo si Từ Thức.",
+        "ne": "तर करिब एक वर्षपछि तु थुक कहिलेकाहीँ टाढा हेर्न थाले।",
+        "id": "Namun, setelah kira-kira setahun, Từ Thức sesekali menatap ke kejauhan.",
+        "pt": "Mas, depois de um ano, Từ Thức passou a olhar ao longe de vez em quando.",
+        "my": "ဒါပေမဲ့ တစ်နှစ်လောက်ကြာတော့ တူထုတ်က တခါတလေ အဝေးကို ငေးကြည့်လာတယ်။",
+        "th": "แต่ราวหนึ่งปีผ่านไป ตื่อ ถึกเริ่มมองไปไกลๆ บ่อยครั้ง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ほど」: khoảng ~. 「〜ようになる」: trở nên ~ (thói quen mới).",
+        "en": "「〜ほど」 = about ~. 「〜ようになる」 = come to ~.",
+        "zh-Hans": "「〜ようになる」＝变得……。",
+        "zh-Hant": "「〜ようになる」＝變得……。",
+        "ko": "~하게 되다.",
+        "tl": "naging.",
+        "ne": "थाल्नु।",
+        "id": "mulai.",
+        "pt": "passar a.",
+        "my": "လာ။",
+        "th": "เริ่ม"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=175.354,182.267",
+      "t": [
+        175.354,
+        182.267
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「あなた、どうしたのですか。毎日、悲しそうな顔をしていますね。」",
+      "furigana": [
+        {
+          "surface": "「あなた、どうしたのですか。",
+          "reading": ""
+        },
+        {
+          "surface": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "悲",
+          "reading": "かな"
+        },
+        {
+          "surface": "しそうな",
+          "reading": ""
+        },
+        {
+          "surface": "顔",
+          "reading": "かお"
+        },
+        {
+          "surface": "をしていますね。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Anata, dou shita no desu ka. Mainichi, kanashisou na kao o shiteimasu ne.”",
+      "translations": {
+        "vi": "\"Chàng sao vậy? Ngày nào trông chàng cũng buồn.\"",
+        "en": "\"What's wrong, dear? You look sad every day.\"",
+        "zh-Hans": "“夫君，你怎么了？每天都一副难过的样子。”",
+        "zh-Hant": "“夫君，你怎麼了？每天都一副難過的樣子。”",
+        "ko": "\"여보, 왜 그래요? 매일 슬픈 얼굴을 하고 있네요.\"",
+        "tl": "\"Mahal, ano'ng nangyari? Araw-araw kang malungkot.\"",
+        "ne": "\"प्रिय, के भयो? हरेक दिन उदास देखिन्छौ।\"",
+        "id": "\"Suamiku, ada apa? Setiap hari wajahmu sedih.\"",
+        "pt": "\"Querido, o que houve? Você parece triste todo dia.\"",
+        "my": "\"ရှင်၊ ဘာဖြစ်တာလဲ။ နေ့တိုင်း ဝမ်းနည်းတဲ့ မျက်နှာ ဖြစ်နေတယ်။\"",
+        "th": "\"ท่านเป็นอะไรไป ทุกวันดูเศร้า\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「悲しそうな」: trông buồn bã. 「顔をする」: mang vẻ mặt ~.",
+        "en": "「悲しそうな」 = sad-looking. 「顔をする」 = wear a ~ face.",
+        "zh-Hans": "「〜そうな顔」＝……的表情。",
+        "zh-Hant": "「〜そうな顔」＝……的表情。",
+        "ko": "~한 얼굴.",
+        "tl": "mukhang.",
+        "ne": "देखिने अनुहार।",
+        "id": "wajah ~.",
+        "pt": "cara de ~.",
+        "my": "မျက်နှာ။",
+        "th": "หน้า~"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=183.167,188.484",
+      "t": [
+        183.167,
+        188.484
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「ふるさとの村や、家族のことを思い出すんだ。一度でいいから、帰ってみたい。」",
+      "furigana": [
+        {
+          "surface": "「ふるさとの",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "や、",
+          "reading": ""
+        },
+        {
+          "surface": "家族",
+          "reading": "かぞく"
+        },
+        {
+          "surface": "のことを",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "すんだ。",
+          "reading": ""
+        },
+        {
+          "surface": "一度",
+          "reading": "いちど"
+        },
+        {
+          "surface": "でいいから、",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ってみたい。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Furusato no mura ya, kazoku no koto o omoidasu n da. Ichido de ii kara, kaettemitai.”",
+      "translations": {
+        "vi": "\"Ta nhớ làng quê và gia đình. Chỉ một lần thôi cũng được, ta muốn về thăm.\"",
+        "en": "\"I keep remembering my home village and family. Even just once, I want to go back.\"",
+        "zh-Hans": "“我想起故乡和家人。哪怕一次也好，我想回去看看。”",
+        "zh-Hant": "“我想起故鄉和家人。哪怕一次也好，我想回去看看。”",
+        "ko": "\"고향 마을과 가족 생각이 나. 한 번이라도 좋으니 돌아가 보고 싶어.\"",
+        "tl": "\"Naaalala ko ang aking nayon at pamilya. Kahit minsan lang, gusto kong umuwi.\"",
+        "ne": "\"गाउँ र परिवारको याद आउँछ। एक पटक भए पनि फर्केर हेर्न चाहन्छु।\"",
+        "id": "\"Aku teringat kampung dan keluarga. Sekali saja, aku ingin pulang.\"",
+        "pt": "\"Lembro da minha aldeia e família. Nem que seja uma vez, quero voltar.\"",
+        "my": "\"ဇာတိရွာနဲ့ မိသားစုကို သတိရတယ်။ တစ်ခါလောက်ပဲ ဖြစ်ဖြစ် ပြန်ကြည့်ချင်တယ်။\"",
+        "th": "\"ข้าคิดถึงหมู่บ้านและครอบครัว แค่ครั้งเดียวก็ได้ อยากกลับไปดู\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ふるさと = quê hương. 「〜でいいから」: chỉ ~ thôi cũng được. 「〜てみたい」: muốn thử ~.",
+        "en": "ふるさと = hometown. 「〜でいいから」 = even just ~ is fine.",
+        "zh-Hans": "「〜でいいから」＝哪怕……也好。",
+        "zh-Hant": "「〜でいいから」＝哪怕……也好。",
+        "ko": "~라도 좋으니.",
+        "tl": "kahit ~ lang.",
+        "ne": "भए पनि।",
+        "id": "~ saja.",
+        "pt": "nem que seja.",
+        "my": "ဖြစ်ဖြစ်။",
+        "th": "ก็ได้"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=189.384,195.902",
+      "t": [
+        189.384,
+        195.902
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「帰ったら、きっと、後でつらい思いをしますよ。それでも行きますか。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ったら、きっと、",
+          "reading": ""
+        },
+        {
+          "surface": "後",
+          "reading": "あと"
+        },
+        {
+          "surface": "でつらい",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "いをしますよ。それでも",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "きますか。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kaettara, kitto, atode tsurai omoi o shimasu yo. Soredemo ikimasu ka.”",
+      "translations": {
+        "vi": "\"Nếu về, chắc chắn sau này chàng sẽ đau khổ. Chàng vẫn muốn đi sao?\"",
+        "en": "\"If you go back, you'll surely suffer later. Will you still go?\"",
+        "zh-Hans": "“回去以后，你一定会难过的。即使这样你也要去吗？”",
+        "zh-Hant": "“回去以後，你一定會難過的。即使這樣你也要去嗎？”",
+        "ko": "\"돌아가면 분명 나중에 괴로울 거예요. 그래도 가겠어요?\"",
+        "tl": "\"Kapag umuwi ka, tiyak na masasaktan ka pagkatapos. Aalis ka pa rin?\"",
+        "ne": "\"फर्कियौ भने पछि पक्कै दुःख पाउँछौ। तैपनि जान्छौ?\"",
+        "id": "\"Kalau pulang, nanti kau pasti menderita. Masih mau pergi?\"",
+        "pt": "\"Se voltar, com certeza vai sofrer depois. Ainda assim vai?\"",
+        "my": "\"ပြန်ရင် နောက်မှ ခံစားရမှာ သေချာတယ်။ ဒါတောင် သွားမလား။\"",
+        "th": "\"ถ้ากลับไป ภายหลังท่านต้องทุกข์แน่ ยังจะไปอีกหรือ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「つらい思いをする」: chịu đau khổ. 「それでも」: dù vậy vẫn.",
+        "en": "「つらい思いをする」 = go through pain. 「それでも」 = even so.",
+        "zh-Hans": "「それでも」＝即使那样。",
+        "zh-Hant": "「それでも」＝即使那樣。",
+        "ko": "그래도.",
+        "tl": "gayunman.",
+        "ne": "तैपनि।",
+        "id": "meski begitu.",
+        "pt": "ainda assim.",
+        "my": "ဒါတောင်။",
+        "th": "ถึงอย่างนั้น"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=196.802,202.552",
+      "t": [
+        196.802,
+        202.552
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「心配しないで。少し様子を見たら、すぐに戻ってくるよ。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "心配",
+          "reading": "しんぱい"
+        },
+        {
+          "surface": "しないで。",
+          "reading": ""
+        },
+        {
+          "surface": "少",
+          "reading": "すこ"
+        },
+        {
+          "surface": "し",
+          "reading": ""
+        },
+        {
+          "surface": "様子",
+          "reading": "ようす"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "たら、すぐに",
+          "reading": ""
+        },
+        {
+          "surface": "戻",
+          "reading": "もど"
+        },
+        {
+          "surface": "ってくるよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Shinpaishinaide. Sukoshi yousu o mitara, sugu ni modottekuru yo.”",
+      "translations": {
+        "vi": "\"Đừng lo. Xem tình hình một chút rồi ta sẽ quay về ngay.\"",
+        "en": "\"Don't worry. I'll just see how things are and come right back.\"",
+        "zh-Hans": "“别担心。看看情况我就马上回来。”",
+        "zh-Hant": "“別擔心。看看情況我就馬上回來。”",
+        "ko": "\"걱정 마. 잠깐 사정만 보고 바로 돌아올게.\"",
+        "tl": "\"Huwag kang mag-alala. Titingnan ko lang ang kalagayan at babalik agad.\"",
+        "ne": "\"चिन्ता नगर। अलिकति हेरेर तुरुन्तै फर्किन्छु।\"",
+        "id": "\"Jangan khawatir. Aku hanya melihat keadaan lalu segera kembali.\"",
+        "pt": "\"Não se preocupe. Só vejo como estão e volto logo.\"",
+        "my": "\"မပူပါနဲ့။ အခြေအနေ နည်းနည်းကြည့်ပြီး ချက်ချင်း ပြန်လာမယ်။\"",
+        "th": "\"อย่ากังวล ดูสภาพนิดหน่อยแล้วจะรีบกลับมา\""
+      },
+      "vocab": [
+        {
+          "word": "様子",
+          "reading": "ようす",
+          "meanings": {
+            "vi": "tình hình, dáng vẻ",
+            "en": "state, appearance",
+            "zh-Hans": "样子，情况",
+            "zh-Hant": "樣子，情況",
+            "ko": "모습, 상황",
+            "tl": "kalagayan",
+            "ne": "हालत",
+            "id": "keadaan",
+            "pt": "situação",
+            "my": "အခြေအနေ",
+            "th": "สภาพ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ないで」: đừng ~. 様子 = tình hình. 「〜たら、すぐに」: ~ xong là ngay.",
+        "en": "「〜ないで」 = don't ~. 様子 = how things are.",
+        "zh-Hans": "「様子」＝情况。",
+        "zh-Hant": "「様子」＝情況。",
+        "ko": "상황.",
+        "tl": "kalagayan.",
+        "ne": "हालत।",
+        "id": "keadaan.",
+        "pt": "situação.",
+        "my": "အခြေအနေ။",
+        "th": "สภาพ"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=203.452,207.997",
+      "t": [
+        203.452,
+        207.997
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "ザン・フオンは、なみだを流しながら、一通の手紙をわたしました。",
+      "furigana": [
+        {
+          "surface": "ザン・フオンは、なみだを",
+          "reading": ""
+        },
+        {
+          "surface": "流",
+          "reading": "なが"
+        },
+        {
+          "surface": "しながら、",
+          "reading": ""
+        },
+        {
+          "surface": "一通",
+          "reading": "いっつう"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "手紙",
+          "reading": "てがみ"
+        },
+        {
+          "surface": "をわたしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Zan Fuon wa, nami da o nagashinagara, ittsuu no tegami o watashimashita.",
+      "translations": {
+        "vi": "Giáng Hương vừa khóc vừa trao cho chàng một bức thư.",
+        "en": "Weeping, Giáng Hương handed him a letter.",
+        "zh-Hans": "绛香流着泪递给他一封信。",
+        "zh-Hant": "絳香流著淚遞給他一封信。",
+        "ko": "장흐엉은 눈물을 흘리며 편지 한 통을 건넸습니다.",
+        "tl": "Lumuluhang iniabot ni Giáng Hương ang isang liham.",
+        "ne": "जाङ हुओङले आँसु झार्दै एउटा चिठी दिइन्।",
+        "id": "Sambil menangis, Giáng Hương menyerahkan sepucuk surat.",
+        "pt": "Chorando, Giáng Hương lhe entregou uma carta.",
+        "my": "ဇန်းဟွမ်က မျက်ရည်ကျရင်း စာတစ်စောင် ပေးတယ်။",
+        "th": "ซาง เฮืองร้องไห้พลางยื่นจดหมายหนึ่งฉบับให้"
+      },
+      "vocab": [
+        {
+          "word": "流す",
+          "reading": "ながす",
+          "meanings": {
+            "vi": "làm trôi đi, cuốn trôi",
+            "en": "to wash away, to let flow",
+            "zh-Hans": "冲走，使流动",
+            "zh-Hant": "沖走，使流動",
+            "ko": "흘려보내다, 떠내려 보내다",
+            "tl": "tangayin",
+            "ne": "बगाउनु",
+            "id": "menghanyutkan",
+            "pt": "levar (pela correnteza)",
+            "my": "မျောပါစေသည်",
+            "th": "พัดพาไป"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「一通」: một bức (đơn vị đếm thư). 「わたす」: trao.",
+        "en": "「一通」 = one (letter counter). 「わたす」 = hand over.",
+        "zh-Hans": "「〜通」＝封（信的量词）。",
+        "zh-Hant": "「〜通」＝封（信的量詞）。",
+        "ko": "~통.",
+        "tl": "pambilang ng liham.",
+        "ne": "गन्ती।",
+        "id": "sepucuk.",
+        "pt": "contador.",
+        "my": "စောင်။",
+        "th": "ฉบับ"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=208.897,214.274",
+      "t": [
+        208.897,
+        214.274
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「この手紙は、村に着いてから開けてください。」",
+      "furigana": [
+        {
+          "surface": "「この",
+          "reading": ""
+        },
+        {
+          "surface": "手紙",
+          "reading": "てがみ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "着",
+          "reading": "つ"
+        },
+        {
+          "surface": "いてから",
+          "reading": ""
+        },
+        {
+          "surface": "開",
+          "reading": "あ"
+        },
+        {
+          "surface": "けてください。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kono tegami wa, mura ni tsuite kara aketekudasai.”",
+      "translations": {
+        "vi": "\"Bức thư này, xin chàng chỉ mở sau khi về đến làng.\"",
+        "en": "\"Please open this letter only after you reach the village.\"",
+        "zh-Hans": "“这封信，请到了村子以后再打开。”",
+        "zh-Hant": "“這封信，請到了村子以後再開啟。”",
+        "ko": "\"이 편지는 마을에 도착한 다음에 열어 주세요.\"",
+        "tl": "\"Buksan mo lang ang liham pagdating mo sa nayon.\"",
+        "ne": "\"यो चिठी गाउँ पुगेपछि मात्र खोल।\"",
+        "id": "\"Bukalah surat ini setelah tiba di desa.\"",
+        "pt": "\"Abra esta carta só depois de chegar à aldeia.\"",
+        "my": "\"ဒီစာကို ရွာရောက်ပြီးမှ ဖွင့်ပါ။\"",
+        "th": "\"จดหมายนี้ ขอให้เปิดหลังถึงหมู่บ้านแล้ว\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜てから」: sau khi ~ (mới).",
+        "en": "「〜てから」 = after ~ing.",
+        "zh-Hans": "「〜てから」＝……之后。",
+        "zh-Hant": "「〜てから」＝……之後。",
+        "ko": "~한 다음에.",
+        "tl": "pagkatapos.",
+        "ne": "पछि।",
+        "id": "setelah.",
+        "pt": "depois de.",
+        "my": "ပြီးမှ။",
+        "th": "หลังจาก"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=215.174,218.468",
+      "t": [
+        215.174,
+        218.468
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "トゥ・トゥックは、雲の車に乗って、ふるさとの村へ帰りました。",
+      "furigana": [
+        {
+          "surface": "トゥ・トゥックは、",
+          "reading": ""
+        },
+        {
+          "surface": "雲",
+          "reading": "くも"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "車",
+          "reading": "くるま"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "乗",
+          "reading": "の"
+        },
+        {
+          "surface": "って、ふるさとの",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "りました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tu Tukku wa, kumo no kuruma ni notte, furusato no mura e kaerimashita.",
+      "translations": {
+        "vi": "Từ Thức cưỡi xe mây trở về làng quê.",
+        "en": "Từ Thức rode a carriage of clouds back to his home village.",
+        "zh-Hans": "徐式乘着云车回到了故乡。",
+        "zh-Hant": "徐式乘著雲車回到了故鄉。",
+        "ko": "뜨특은 구름 수레를 타고 고향 마을로 돌아갔습니다.",
+        "tl": "Sumakay si Từ Thức sa karwaheng ulap pauwi sa nayon.",
+        "ne": "तु थुक बादलको रथमा चढेर गाउँ फर्किए।",
+        "id": "Từ Thức menaiki kereta awan pulang ke kampungnya.",
+        "pt": "Từ Thức voltou à aldeia numa carruagem de nuvens.",
+        "my": "တူထုတ်က တိမ်ရထားစီးပြီး ဇာတိရွာကို ပြန်တယ်။",
+        "th": "ตื่อ ถึกขึ้นรถเมฆกลับหมู่บ้าน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜に乗る」: cưỡi/lên ~.",
+        "en": "「〜に乗る」 = ride ~.",
+        "zh-Hans": "「〜に乗る」＝乘坐……。",
+        "zh-Hant": "「〜に乗る」＝乘坐……。",
+        "ko": "~을 타다.",
+        "tl": "sumakay.",
+        "ne": "चढ्नु।",
+        "id": "menaiki.",
+        "pt": "andar de.",
+        "my": "စီး။",
+        "th": "ขี่"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=219.368,224.476",
+      "t": [
+        219.368,
+        224.476
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ところが、村の様子は、すっかり変わっていました。",
+      "furigana": [
+        {
+          "surface": "ところが、",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "様子",
+          "reading": "ようす"
+        },
+        {
+          "surface": "は、すっかり",
+          "reading": ""
+        },
+        {
+          "surface": "変",
+          "reading": "か"
+        },
+        {
+          "surface": "わっていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tokoroga, mura no yousu wa, sukkari kawatteimashita.",
+      "translations": {
+        "vi": "Thế nhưng, cảnh làng đã thay đổi hoàn toàn.",
+        "en": "But the village had changed completely.",
+        "zh-Hans": "可是，村子的样子完全变了。",
+        "zh-Hant": "可是，村子的樣子完全變了。",
+        "ko": "그런데 마을의 모습은 완전히 바뀌어 있었습니다.",
+        "tl": "Ngunit lubusang nagbago ang nayon.",
+        "ne": "तर गाउँ पूरै फेरिएको थियो।",
+        "id": "Namun, desa itu sudah berubah sama sekali.",
+        "pt": "Mas a aldeia tinha mudado completamente.",
+        "my": "ဒါပေမဲ့ ရွာရဲ့ အခြေအနေက လုံးဝ ပြောင်းနေပြီ။",
+        "th": "แต่หมู่บ้านเปลี่ยนไปหมดแล้ว"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「すっかり」: hoàn toàn. 「変わっていました」: đã thay đổi (trạng thái).",
+        "en": "「すっかり」 = completely.",
+        "zh-Hans": "「すっかり」＝完全。",
+        "zh-Hant": "「すっかり」＝完全。",
+        "ko": "완전히.",
+        "tl": "lubos.",
+        "ne": "पूरै।",
+        "id": "sama sekali.",
+        "pt": "completamente.",
+        "my": "လုံးဝ။",
+        "th": "หมด"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=225.076,229.175",
+      "t": [
+        225.076,
+        229.175
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "家も道も、知らないものばかりで、知っている顔は一人もいません。",
+      "furigana": [
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "道",
+          "reading": "みち"
+        },
+        {
+          "surface": "も、",
+          "reading": ""
+        },
+        {
+          "surface": "知",
+          "reading": "し"
+        },
+        {
+          "surface": "らないものばかりで、",
+          "reading": ""
+        },
+        {
+          "surface": "知",
+          "reading": "し"
+        },
+        {
+          "surface": "っている",
+          "reading": ""
+        },
+        {
+          "surface": "顔",
+          "reading": "かお"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "一人",
+          "reading": "ひとり"
+        },
+        {
+          "surface": "もいません。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ie mo michi mo, shiranai mono bakari de, shitteiru kao wa hitori mo imasen.",
+      "translations": {
+        "vi": "Nhà cửa, đường sá đều lạ lẫm, không có lấy một gương mặt quen.",
+        "en": "The houses and roads were all unfamiliar, and there wasn't a single face he knew.",
+        "zh-Hans": "房子和道路全都陌生，一个熟悉的面孔也没有。",
+        "zh-Hant": "房子和道路全都陌生，一個熟悉的面孔也沒有。",
+        "ko": "집도 길도 모르는 것뿐이고, 아는 얼굴은 하나도 없습니다.",
+        "tl": "Hindi kilala ang mga bahay at daan, at walang isang pamilyar na mukha.",
+        "ne": "घर र बाटो सबै अपरिचित, चिनेको अनुहार एउटा पनि छैन।",
+        "id": "Rumah dan jalan semuanya asing, tak ada satu wajah pun yang dikenal.",
+        "pt": "Casas e ruas desconhecidas, nenhum rosto conhecido.",
+        "my": "အိမ်ရော လမ်းရော မသိတာချည်းပဲ၊ သိတဲ့မျက်နှာ တစ်ယောက်မှ မရှိဘူး။",
+        "th": "บ้านและถนนล้วนไม่รู้จัก ไม่มีหน้าคุ้นเคยสักคน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「AもBも」: cả A lẫn B. 「〜ばかり」: toàn ~. 「一人もいない」: không có lấy một người.",
+        "en": "「〜ばかり」 = nothing but ~. 「一人もいない」 = not a single person.",
+        "zh-Hans": "「一人も〜ない」＝一个人也没有。",
+        "zh-Hant": "「一人も〜ない」＝一個人也沒有。",
+        "ko": "한 명도 없다.",
+        "tl": "walang isa man.",
+        "ne": "एक जना पनि छैन।",
+        "id": "tak seorang pun.",
+        "pt": "nem uma pessoa.",
+        "my": "တစ်ယောက်မှ မရှိ။",
+        "th": "ไม่มีสักคน"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=229.775,235.198",
+      "t": [
+        229.775,
+        235.198
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "トゥ・トゥックは、道で会ったおじいさんに聞きました。",
+      "furigana": [
+        {
+          "surface": "トゥ・トゥックは、",
+          "reading": ""
+        },
+        {
+          "surface": "道",
+          "reading": "みち"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "会",
+          "reading": "あ"
+        },
+        {
+          "surface": "ったおじいさんに",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tu Tukku wa, michi de atta ojiisan ni kikimashita.",
+      "translations": {
+        "vi": "Từ Thức hỏi một ông lão gặp trên đường.",
+        "en": "Từ Thức asked an old man he met on the road.",
+        "zh-Hans": "徐式问路上遇到的一位老人。",
+        "zh-Hant": "徐式問路上遇到的一位老人。",
+        "ko": "뜨특은 길에서 만난 할아버지에게 물었습니다.",
+        "tl": "Nagtanong si Từ Thức sa isang matandang lalaki sa daan.",
+        "ne": "तु थुकले बाटोमा भेटेका एक बूढालाई सोधे।",
+        "id": "Từ Thức bertanya pada kakek yang ditemui di jalan.",
+        "pt": "Từ Thức perguntou a um velho que encontrou na rua.",
+        "my": "တူထုတ်က လမ်းမှာတွေ့တဲ့ အဘိုးအိုကို မေးတယ်။",
+        "th": "ตื่อ ถึกถามชายชราที่พบระหว่างทาง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜に聞く」: hỏi ~. 「道で会った」: gặp trên đường.",
+        "en": "「〜に聞く」 = ask ~.",
+        "zh-Hans": "「〜に聞く」＝问……。",
+        "zh-Hant": "「〜に聞く」＝問……。",
+        "ko": "~에게 묻다.",
+        "tl": "magtanong kay.",
+        "ne": "सोध्नु।",
+        "id": "bertanya pada.",
+        "pt": "perguntar a.",
+        "my": "မေး။",
+        "th": "ถาม"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=235.798,239.385",
+      "t": [
+        235.798,
+        239.385
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「すみません。トゥ・トゥックという人の家を知りませんか。」",
+      "furigana": [
+        {
+          "surface": "「すみません。トゥ・トゥックという",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "知",
+          "reading": "し"
+        },
+        {
+          "surface": "りませんか。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Sumimasen. Tu Tukku to iu hito no ie o shirimasen ka.”",
+      "translations": {
+        "vi": "\"Xin lỗi. Cụ có biết nhà của người tên là Từ Thức không?\"",
+        "en": "\"Excuse me. Do you know the house of a man called Từ Thức?\"",
+        "zh-Hans": "“打扰一下。您知道一个叫徐式的人的家吗？”",
+        "zh-Hant": "“打擾一下。您知道一個叫徐式的人的家嗎？”",
+        "ko": "\"실례합니다. 뜨특이라는 사람의 집을 아십니까?\"",
+        "tl": "\"Paumanhin po. Alam po ba ninyo ang bahay ni Từ Thức?\"",
+        "ne": "\"माफ गर्नुहोस्। तु थुक भन्ने मान्छेको घर थाहा छ?\"",
+        "id": "\"Permisi. Apakah Bapak tahu rumah orang bernama Từ Thức?\"",
+        "pt": "\"Com licença. Sabe onde fica a casa de um tal Từ Thức?\"",
+        "my": "\"ခွင့်ပြုပါ။ တူထုတ် ဆိုတဲ့ လူရဲ့ အိမ်ကို သိလား။\"",
+        "th": "\"ขอโทษครับ ท่านรู้จักบ้านของคนชื่อตื่อ ถึกไหม\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜を知りませんか」: có biết ~ không? (hỏi lịch sự).",
+        "en": "「〜を知りませんか」 = do you happen to know ~?",
+        "zh-Hans": "「〜を知りませんか」＝您知道……吗。",
+        "zh-Hant": "「〜を知りませんか」＝您知道……嗎。",
+        "ko": "~를 아십니까?",
+        "tl": "alam ba ninyo.",
+        "ne": "थाहा छ?",
+        "id": "apakah tahu.",
+        "pt": "sabe.",
+        "my": "သိလား။",
+        "th": "รู้จักไหม"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=240.285,243.722",
+      "t": [
+        240.285,
+        243.722
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「トゥ・トゥック。ああ、わたしのおじいさんのおじいさんから聞いた話ですね。」",
+      "furigana": [
+        {
+          "surface": "「トゥ・トゥック。ああ、わたしのおじいさんのおじいさんから",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "いた",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "ですね。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Tu Tukku. Aa, watashi no ojiisan no ojiisan kara kiita hanashi desu ne.”",
+      "translations": {
+        "vi": "\"Từ Thức à? À, đó là chuyện tôi nghe từ ông của ông tôi kể lại.\"",
+        "en": "\"Từ Thức? Ah, that's a story I heard from my grandfather's grandfather.\"",
+        "zh-Hans": "“徐式？啊，那是我爷爷的爷爷讲过的故事吧。”",
+        "zh-Hant": "“徐式？啊，那是我爺爺的爺爺講過的故事吧。”",
+        "ko": "\"뜨특이라. 아, 우리 할아버지의 할아버지께 들은 이야기로군요.\"",
+        "tl": "\"Từ Thức? Ah, kuwento iyon mula sa lolo ng lolo ko.\"",
+        "ne": "\"तु थुक? ओहो, यो त मेरो हजुरबुबाको हजुरबुबाबाट सुनेको कथा हो।\"",
+        "id": "\"Từ Thức? Ah, itu cerita dari kakek buyutku.\"",
+        "pt": "\"Từ Thức? Ah, é uma história que ouvi do avô do meu avô.\"",
+        "my": "\"တူထုတ်လား။ အော်၊ ကျွန်တော့် အဘိုးရဲ့ အဘိုးဆီက ကြားခဲ့တဲ့ ပုံပြင်ပဲ။\"",
+        "th": "\"ตื่อ ถึกหรือ อ้อ เป็นเรื่องที่ได้ยินจากปู่ของปู่ข้า\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜から聞いた話」: chuyện nghe từ ~.",
+        "en": "「〜から聞いた話」 = a story heard from ~.",
+        "zh-Hans": "「〜から聞いた」＝从……听来的。",
+        "zh-Hant": "「〜から聞いた」＝從……聽來的。",
+        "ko": "~에게 들은.",
+        "tl": "narinig mula kay.",
+        "ne": "बाट सुनेको।",
+        "id": "dengar dari.",
+        "pt": "ouvi de.",
+        "my": "ဆီက ကြား။",
+        "th": "ได้ยินจาก"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=244.622,250.068",
+      "t": [
+        244.622,
+        250.068
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「昔、山に入ったまま、帰ってこなかった役人がいたそうです。もう、三百年も前のことですよ。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "昔",
+          "reading": "むかし"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "はい"
+        },
+        {
+          "surface": "ったまま、",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ってこなかった",
+          "reading": ""
+        },
+        {
+          "surface": "役人",
+          "reading": "やくにん"
+        },
+        {
+          "surface": "がいたそうです。もう、",
+          "reading": ""
+        },
+        {
+          "surface": "三百年",
+          "reading": "さんびゃくねん"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "のことですよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Mukashi, yama ni haitta mama, kaettekonakatta yakunin ga ita sou desu. Mou, sanbyakunen mo mae no koto desu yo.”",
+      "translations": {
+        "vi": "\"Nghe nói xưa kia có một viên quan vào núi rồi không bao giờ trở về. Đã ba trăm năm rồi đấy.\"",
+        "en": "\"They say long ago an official went into the mountains and never came back. That was three hundred years ago.\"",
+        "zh-Hans": "“听说从前有个官员进了山就再没回来。那已经是三百年前的事了。”",
+        "zh-Hant": "“聽說從前有個官員進了山就再沒回來。那已經是三百年前的事了。”",
+        "ko": "\"옛날에 산에 들어간 채 돌아오지 않은 관리가 있었다고 해요. 벌써 삼백 년이나 전 일이지요.\"",
+        "tl": "\"Noong una raw, may opisyal na pumasok sa bundok at hindi na bumalik. Tatlong daang taon na ang nakalipas.\"",
+        "ne": "\"पहिले पहाड पसेर कहिल्यै नफर्केका एक अधिकारी थिए रे। तीन सय वर्ष अघिको कुरा हो।\"",
+        "id": "\"Konon dulu ada pejabat yang masuk gunung dan tak pernah kembali. Itu sudah tiga ratus tahun lalu.\"",
+        "pt": "\"Dizem que um funcionário entrou nas montanhas e nunca voltou. Faz trezentos anos.\"",
+        "my": "\"ရှေးတုန်းက တောင်ထဲဝင်သွားပြီး ပြန်မလာတော့တဲ့ အရာရှိ ရှိခဲ့တယ်တဲ့။ နှစ်သုံးရာ ရှိပြီ။\"",
+        "th": "\"ว่ากันว่าแต่ก่อนมีขุนนางเข้าป่าไปแล้วไม่กลับมา นั่นเป็นเรื่องสามร้อยปีก่อนแล้ว\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜たまま」: cứ thế ~ (không thay đổi). 「〜そうです」: nghe nói ~. 「〜も」: những ~ (nhấn mạnh số lớn).",
+        "en": "「〜たまま」 = having ~ and staying so. 「〜そうです」 = I hear that ~. 「〜も」 = as many as ~.",
+        "zh-Hans": "「〜そうです」＝听说……。",
+        "zh-Hant": "「〜そうです」＝聽說……。",
+        "ko": "~라고 한다.",
+        "tl": "raw.",
+        "ne": "रे।",
+        "id": "konon.",
+        "pt": "dizem.",
+        "my": "တဲ့။",
+        "th": "ว่ากันว่า"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=250.668,260.247",
+      "t": [
+        250.668,
+        260.247
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "トゥ・トゥックは、何も言えなくなりました。",
+      "furigana": [
+        {
+          "surface": "トゥ・トゥックは、",
+          "reading": ""
+        },
+        {
+          "surface": "何",
+          "reading": "なに"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "えなくなりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tu Tukku wa, nani mo ienaku narimashita.",
+      "translations": {
+        "vi": "Từ Thức không nói nên lời.",
+        "en": "Từ Thức could not say a word.",
+        "zh-Hans": "徐式说不出话来。",
+        "zh-Hant": "徐式說不出話來。",
+        "ko": "뜨특은 아무 말도 할 수 없게 되었습니다.",
+        "tl": "Hindi nakapagsalita si Từ Thức.",
+        "ne": "तु थुक केही बोल्न सकेनन्।",
+        "id": "Từ Thức tak bisa berkata apa-apa.",
+        "pt": "Từ Thức ficou sem palavras.",
+        "my": "တူထုတ် ဘာမှ မပြောနိုင်တော့ဘူး။",
+        "th": "ตื่อ ถึกพูดอะไรไม่ออก"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「言えなくなる」: trở nên không nói được.",
+        "en": "「言えなくなる」 = become unable to say.",
+        "zh-Hans": "「〜なくなる」＝变得不能……。",
+        "zh-Hant": "「〜なくなる」＝變得不能……。",
+        "ko": "~할 수 없게 되다.",
+        "tl": "hindi na.",
+        "ne": "सकेनन्।",
+        "id": "tak bisa lagi.",
+        "pt": "não conseguir.",
+        "my": "မ~နိုင်တော့။",
+        "th": "ไม่ได้อีก"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=261.147,264.061",
+      "t": [
+        261.147,
+        264.061
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "仙女の国の一年は、人の世界では、三百年だったのです。",
+      "furigana": [
+        {
+          "surface": "仙女",
+          "reading": "せんにょ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "一年",
+          "reading": "いちねん"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "世界",
+          "reading": "せかい"
+        },
+        {
+          "surface": "では、",
+          "reading": ""
+        },
+        {
+          "surface": "三百年",
+          "reading": "さんびゃくねん"
+        },
+        {
+          "surface": "だったのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sennyo no kuni no ichinen wa, hito no sekai de wa, sanbyakunen datta no desu.",
+      "translations": {
+        "vi": "Một năm ở xứ tiên bằng ba trăm năm ở cõi người.",
+        "en": "One year in the fairy land had been three hundred years in the human world.",
+        "zh-Hans": "仙境的一年，在人间竟是三百年。",
+        "zh-Hant": "仙境的一年，在人間竟是三百年。",
+        "ko": "선녀 나라의 1년은 사람의 세상에서는 300년이었던 것입니다.",
+        "tl": "Ang isang taon sa diwata ay tatlong daang taon sa mundo ng tao.",
+        "ne": "परीलोकको एक वर्ष मानिसको संसारमा तीन सय वर्ष थियो।",
+        "id": "Setahun di negeri peri adalah tiga ratus tahun di dunia manusia.",
+        "pt": "Um ano no reino das fadas eram trezentos anos no mundo humano.",
+        "my": "နတ်ပြည်က တစ်နှစ်ဟာ လူ့ကမ္ဘာမှာ နှစ်သုံးရာ ဖြစ်နေခဲ့တာ။",
+        "th": "หนึ่งปีในแดนนางฟ้าคือสามร้อยปีในโลกมนุษย์"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「Aは、Bでは、C」: A, ở B thì là C. 「〜だったのです」: hóa ra là.",
+        "en": "「〜だったのです」 = it turned out ~.",
+        "zh-Hans": "「〜だったのです」＝原来是……。",
+        "zh-Hant": "「〜だったのです」＝原來是……。",
+        "ko": "~였던 것이다.",
+        "tl": "pala.",
+        "ne": "रहेछ।",
+        "id": "ternyata.",
+        "pt": "afinal.",
+        "my": "ဖြစ်နေတာ။",
+        "th": "ที่แท้"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=264.661,270.136",
+      "t": [
+        264.661,
+        270.136
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "彼は、急いで手紙を開けました。",
+      "furigana": [
+        {
+          "surface": "彼",
+          "reading": "かれ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "急",
+          "reading": "いそ"
+        },
+        {
+          "surface": "いで",
+          "reading": ""
+        },
+        {
+          "surface": "手紙",
+          "reading": "てがみ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "開",
+          "reading": "あ"
+        },
+        {
+          "surface": "けました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kare wa, isoide tegami o akemashita.",
+      "translations": {
+        "vi": "Chàng vội vàng mở thư ra.",
+        "en": "He hurriedly opened the letter.",
+        "zh-Hans": "他急忙打开了信。",
+        "zh-Hant": "他急忙開啟了信。",
+        "ko": "그는 서둘러 편지를 열었습니다.",
+        "tl": "Nagmadali niyang binuksan ang liham.",
+        "ne": "उनले हतारमा चिठी खोले।",
+        "id": "Ia buru-buru membuka surat.",
+        "pt": "Ele abriu a carta às pressas.",
+        "my": "သူ အလျင်အမြန် စာကို ဖွင့်တယ်။",
+        "th": "เขารีบเปิดจดหมาย"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「急いで」: vội vàng.",
+        "en": "「急いで」 = hurriedly.",
+        "zh-Hans": "「急いで」＝急忙。",
+        "zh-Hant": "「急いで」＝急忙。",
+        "ko": "서둘러.",
+        "tl": "nagmamadali.",
+        "ne": "हतारमा।",
+        "id": "buru-buru.",
+        "pt": "às pressas.",
+        "my": "အလျင်အမြန်။",
+        "th": "รีบ"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=270.736,273.612",
+      "t": [
+        270.736,
+        273.612
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そこには、「わたしたちの縁は、これで終わりです」と書いてありました。",
+      "furigana": [
+        {
+          "surface": "そこには、「わたしたちの",
+          "reading": ""
+        },
+        {
+          "surface": "縁",
+          "reading": "えん"
+        },
+        {
+          "surface": "は、これで",
+          "reading": ""
+        },
+        {
+          "surface": "終",
+          "reading": "お"
+        },
+        {
+          "surface": "わりです」と",
+          "reading": ""
+        },
+        {
+          "surface": "書",
+          "reading": "か"
+        },
+        {
+          "surface": "いてありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soko ni wa, “Watashitachi no en wa, kore de owaridesu” to kaitearimashita.",
+      "translations": {
+        "vi": "Trong thư viết: \"Duyên phận của chúng ta đến đây là hết.\"",
+        "en": "It said: \"Our bond ends here.\"",
+        "zh-Hans": "信上写着：“我们的缘分到此为止了。”",
+        "zh-Hant": "信上寫著：“我們的緣分到此為止了。”",
+        "ko": "거기에는 '우리의 인연은 이것으로 끝입니다'라고 쓰여 있었습니다.",
+        "tl": "Nakasulat doon: \"Dito na nagtatapos ang ating tadhana.\"",
+        "ne": "त्यहाँ लेखिएको थियो: \"हाम्रो नाता यहीँ सकियो।\"",
+        "id": "Tertulis: \"Jodoh kita berakhir di sini.\"",
+        "pt": "Estava escrito: \"Nosso laço termina aqui.\"",
+        "my": "အဲဒီမှာ \"ငါတို့ရဲ့ ရေစက်က ဒီမှာ ဆုံးပြီ\" လို့ ရေးထားတယ်။",
+        "th": "ในนั้นเขียนว่า \"วาสนาของเราสิ้นสุดเพียงเท่านี้\""
+      },
+      "vocab": [
+        {
+          "word": "縁",
+          "reading": "えん",
+          "meanings": {
+            "vi": "duyên",
+            "en": "fate, bond",
+            "zh-Hans": "缘分",
+            "zh-Hant": "緣分",
+            "ko": "인연",
+            "tl": "tadhana",
+            "ne": "नाता",
+            "id": "jodoh",
+            "pt": "destino",
+            "my": "ရေစက်",
+            "th": "วาสนา"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜と書いてある」: có viết là ~ (trạng thái). 「これで」: đến đây, với việc này.",
+        "en": "「〜と書いてある」 = it is written that ~.",
+        "zh-Hans": "「〜と書いてある」＝写着……。",
+        "zh-Hant": "「〜と書いてある」＝寫著……。",
+        "ko": "~라고 쓰여 있다.",
+        "tl": "nakasulat.",
+        "ne": "लेखिएको।",
+        "id": "tertulis.",
+        "pt": "estava escrito.",
+        "my": "ရေးထား။",
+        "th": "เขียนว่า"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=274.212,279.155",
+      "t": [
+        274.212,
+        279.155
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "トゥ・トゥックは、もう一度、仙女の国へ帰ろうとしました。",
+      "furigana": [
+        {
+          "surface": "トゥ・トゥックは、もう",
+          "reading": ""
+        },
+        {
+          "surface": "一度",
+          "reading": "いちど"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "仙女",
+          "reading": "せんにょ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ろうとしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tu Tukku wa, mou ichido, sennyo no kuni e kaerou to shimashita.",
+      "translations": {
+        "vi": "Từ Thức định quay lại xứ tiên một lần nữa.",
+        "en": "Từ Thức tried to go back to the fairy land once more.",
+        "zh-Hans": "徐式想再回仙境一次。",
+        "zh-Hant": "徐式想再回仙境一次。",
+        "ko": "뜨특은 다시 한번 선녀 나라로 돌아가려고 했습니다.",
+        "tl": "Sinubukan ni Từ Thức na bumalik muli sa lupain ng mga diwata.",
+        "ne": "तु थुकले फेरि परीलोक फर्कन खोजे।",
+        "id": "Từ Thức mencoba kembali ke negeri peri sekali lagi.",
+        "pt": "Từ Thức tentou voltar ao reino das fadas mais uma vez.",
+        "my": "တူထုတ်က နတ်ပြည်ကို နောက်တစ်ခါ ပြန်ဖို့ ကြိုးစားတယ်။",
+        "th": "ตื่อ ถึกพยายามกลับแดนนางฟ้าอีกครั้ง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ようとする」: cố gắng/định ~. 「もう一度」: một lần nữa.",
+        "en": "「〜ようとする」 = try to ~. 「もう一度」 = once more.",
+        "zh-Hans": "「〜ようとする」＝想要……。",
+        "zh-Hant": "「〜ようとする」＝想要……。",
+        "ko": "~하려고 하다.",
+        "tl": "subukan.",
+        "ne": "खोज्नु।",
+        "id": "mencoba.",
+        "pt": "tentar.",
+        "my": "ကြိုးစား။",
+        "th": "พยายาม"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=279.755,284.375",
+      "t": [
+        279.755,
+        284.375
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "でも、雲の車は、もうどこにもありませんでした。",
+      "furigana": [
+        {
+          "surface": "でも、",
+          "reading": ""
+        },
+        {
+          "surface": "雲",
+          "reading": "くも"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "車",
+          "reading": "くるま"
+        },
+        {
+          "surface": "は、もうどこにもありませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, kumo no kuruma wa, mou doko ni mo arimasendeshita.",
+      "translations": {
+        "vi": "Nhưng chiếc xe mây đã chẳng còn ở đâu nữa.",
+        "en": "But the cloud carriage was nowhere to be found.",
+        "zh-Hans": "但是，云车已经哪儿都找不到了。",
+        "zh-Hant": "但是，雲車已經哪兒都找不到了。",
+        "ko": "하지만 구름 수레는 이제 어디에도 없었습니다.",
+        "tl": "Pero wala na kahit saan ang karwaheng ulap.",
+        "ne": "तर बादलको रथ कतै थिएन।",
+        "id": "Tetapi kereta awan sudah tak ada di mana pun.",
+        "pt": "Mas a carruagem de nuvens não estava em lugar algum.",
+        "my": "ဒါပေမဲ့ တိမ်ရထားက ဘယ်မှာမှ မရှိတော့ဘူး။",
+        "th": "แต่รถเมฆไม่อยู่ที่ใดอีกแล้ว"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「どこにも〜ない」: không ở đâu cả.",
+        "en": "「どこにも〜ない」 = nowhere.",
+        "zh-Hans": "「どこにも〜ない」＝哪儿都没有。",
+        "zh-Hant": "「どこにも〜ない」＝哪兒都沒有。",
+        "ko": "어디에도 없다.",
+        "tl": "wala kahit saan.",
+        "ne": "कतै छैन।",
+        "id": "tak di mana pun.",
+        "pt": "em lugar nenhum.",
+        "my": "ဘယ်မှာမှ မရှိ။",
+        "th": "ไม่มีที่ใด"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=284.975,289.375",
+      "t": [
+        284.975,
+        289.375
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "その後、彼は一人で山へ入っていき、二度と姿を見せなかったそうです。",
+      "furigana": [
+        {
+          "surface": "その",
+          "reading": ""
+        },
+        {
+          "surface": "後",
+          "reading": "ご"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "彼",
+          "reading": "かれ"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "一人",
+          "reading": "ひとり"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "はい"
+        },
+        {
+          "surface": "っていき、",
+          "reading": ""
+        },
+        {
+          "surface": "二度",
+          "reading": "にど"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "姿",
+          "reading": "すがた"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "せなかったそうです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sonogo, kare wa hitori de yama e haitteiki, nidoto sugata o misenakatta sou desu.",
+      "translations": {
+        "vi": "Nghe nói sau đó, chàng một mình đi vào núi và không bao giờ xuất hiện nữa.",
+        "en": "It is said he then went alone into the mountains and was never seen again.",
+        "zh-Hans": "据说后来他独自进了山，再也没有出现过。",
+        "zh-Hant": "據說後來他獨自進了山，再也沒有出現過。",
+        "ko": "그 후 그는 홀로 산에 들어가 다시는 모습을 보이지 않았다고 합니다.",
+        "tl": "Sinasabing pumasok siyang mag-isa sa bundok at hindi na muling nakita.",
+        "ne": "त्यसपछि उनी एक्लै पहाड पसे र फेरि कहिल्यै देखिएनन् रे।",
+        "id": "Konon setelah itu ia masuk gunung sendirian dan tak pernah terlihat lagi.",
+        "pt": "Dizem que ele foi sozinho para as montanhas e nunca mais foi visto.",
+        "my": "နောက်ပိုင်း သူ တစ်ယောက်တည်း တောင်ထဲ ဝင်သွားပြီး ဘယ်တော့မှ ပြန်မပေါ်တော့ဘူးတဲ့။",
+        "th": "ว่ากันว่าหลังจากนั้น เขาเข้าป่าไปลำพัง และไม่ปรากฏตัวอีกเลย"
+      },
+      "vocab": [
+        {
+          "word": "姿",
+          "reading": "すがた",
+          "meanings": {
+            "vi": "dáng, hình bóng",
+            "en": "figure, appearance",
+            "zh-Hans": "身影",
+            "zh-Hant": "身影",
+            "ko": "모습",
+            "tl": "anyo, pigura",
+            "ne": "रूप, आकृति",
+            "id": "sosok",
+            "pt": "figura",
+            "my": "ပုံသဏ္ဌာန်",
+            "th": "รูปร่าง"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「二度と〜ない」: không bao giờ ~ nữa. 「姿を見せる」: xuất hiện.",
+        "en": "「二度と〜ない」 = never again. 「姿を見せる」 = show oneself.",
+        "zh-Hans": "「二度と〜ない」＝再也不……。",
+        "zh-Hant": "「二度と〜ない」＝再也不……。",
+        "ko": "다시는 ~않다.",
+        "tl": "hindi na muli.",
+        "ne": "फेरि कहिल्यै।",
+        "id": "tak pernah lagi.",
+        "pt": "nunca mais.",
+        "my": "ဘယ်တော့မှ။",
+        "th": "ไม่อีกเลย"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=289.975,296.513",
+      "t": [
+        289.975,
+        296.513
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "このお話を聞いて、日本の浦島太郎を思い出した人も多いでしょう。",
+      "furigana": [
+        {
+          "surface": "このお",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "いて、",
+          "reading": ""
+        },
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "浦島太郎",
+          "reading": "うらしまたろう"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "した",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "多",
+          "reading": "おお"
+        },
+        {
+          "surface": "いでしょう。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kono ohanashi o kiite, Nihon no Urashimatarou o omoidashita hito mo ooideshou.",
+      "translations": {
+        "vi": "Nghe chuyện này, hẳn nhiều người nhớ đến Urashima Taro của Nhật Bản.",
+        "en": "Hearing this story, many of you probably thought of Japan's Urashima Taro.",
+        "zh-Hans": "听了这个故事，很多人大概会想起日本的浦岛太郎吧。",
+        "zh-Hant": "聽了這個故事，很多人大概會想起日本的浦島太郎吧。",
+        "ko": "이 이야기를 듣고 일본의 우라시마 타로를 떠올린 사람도 많겠지요.",
+        "tl": "Marami sigurong nakaalala kay Urashima Taro ng Japan.",
+        "ne": "यो कथा सुनेर धेरैलाई जापानको उराशिमा तारो सम्झना भयो होला।",
+        "id": "Mendengar kisah ini, banyak yang mungkin teringat Urashima Taro dari Jepang.",
+        "pt": "Muitos devem ter lembrado de Urashima Taro, do Japão.",
+        "my": "ဒီပုံပြင်ကြားတော့ ဂျပန်က ဥရရှီးမား တာရိုးကို သတိရတဲ့သူ များမှာပဲ။",
+        "th": "ฟังเรื่องนี้แล้ว หลายคนคงนึกถึงอุราชิมะ ทาโร่ของญี่ปุ่น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜でしょう」: có lẽ ~. 「思い出す」: nhớ ra.",
+        "en": "「〜でしょう」 = probably ~. 「思い出す」 = recall.",
+        "zh-Hans": "「〜でしょう」＝大概……吧。",
+        "zh-Hant": "「〜でしょう」＝大概……吧。",
+        "ko": "~겠지요.",
+        "tl": "siguro.",
+        "ne": "होला।",
+        "id": "mungkin.",
+        "pt": "provavelmente.",
+        "my": "မှာပဲ။",
+        "th": "คง"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=297.113,302.898",
+      "t": [
+        297.113,
+        302.898
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "浦島太郎も、竜宮城ですてきな時間をすごして、帰ったら、何百年もたっていました。",
+      "furigana": [
+        {
+          "surface": "浦島太郎",
+          "reading": "うらしまたろう"
+        },
+        {
+          "surface": "も、",
+          "reading": ""
+        },
+        {
+          "surface": "竜宮城",
+          "reading": "りゅうぐうじょう"
+        },
+        {
+          "surface": "ですてきな",
+          "reading": ""
+        },
+        {
+          "surface": "時間",
+          "reading": "じかん"
+        },
+        {
+          "surface": "をすごして、",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ったら、",
+          "reading": ""
+        },
+        {
+          "surface": "何百年",
+          "reading": "なんびゃくねん"
+        },
+        {
+          "surface": "もたっていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Urashimatarou mo, Ryuuguujou de suteki na jikan o sugoshite, kaettara, nanbyakunen mo tatteimashita.",
+      "translations": {
+        "vi": "Urashima Taro cũng sống những ngày tuyệt vời ở Long cung, khi trở về thì đã mấy trăm năm trôi qua.",
+        "en": "Urashima Taro, too, spent a wonderful time in the Dragon Palace, and when he returned, hundreds of years had passed.",
+        "zh-Hans": "浦岛太郎也在龙宫度过美好时光，回来时已过了几百年。",
+        "zh-Hant": "浦島太郎也在龍宮度過美好時光，回來時已過了幾百年。",
+        "ko": "우라시마 타로도 용궁에서 멋진 시간을 보내고, 돌아오니 몇백 년이나 지나 있었습니다.",
+        "tl": "Si Urashima Taro rin ay nagpalipas ng masayang panahon sa Palasyo ng Dragon, at pagbalik niya, daan-daang taon na ang nakalipas.",
+        "ne": "उराशिमा तारोले पनि ड्रागन दरबारमा राम्रो समय बिताए, फर्कंदा सयौँ वर्ष बितिसकेका थिए।",
+        "id": "Urashima Taro juga menikmati waktu indah di Istana Naga, dan saat pulang ratusan tahun telah berlalu.",
+        "pt": "Urashima Taro também passou dias maravilhosos no Palácio do Dragão e, ao voltar, centenas de anos haviam passado.",
+        "my": "ဥရရှီးမား တာရိုးလည်း နဂါးနန်းမှာ ပျော်စရာ အချိန်ကုန်ပြီး ပြန်လာတော့ နှစ်ရာချီ ကြာသွားပြီ။",
+        "th": "อุราชิมะ ทาโร่ก็ใช้เวลาแสนสุขในวังมังกร พอกลับมาก็ผ่านไปหลายร้อยปี"
+      },
+      "vocab": [
+        {
+          "word": "すてき",
+          "reading": "すてき",
+          "meanings": {
+            "vi": "tuyệt vời, đẹp",
+            "en": "lovely",
+            "zh-Hans": "美好",
+            "zh-Hant": "美好",
+            "ko": "멋진",
+            "tl": "kaakit-akit",
+            "ne": "सुन्दर",
+            "id": "indah",
+            "pt": "encantador",
+            "my": "လှပ",
+            "th": "วิเศษ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜も」: cũng. 「すごす」: trải qua (thời gian). 「何百年も」: tới mấy trăm năm.",
+        "en": "「すごす」 = spend (time). 「何百年も」 = hundreds of years.",
+        "zh-Hans": "「すごす」＝度过。",
+        "zh-Hant": "「すごす」＝度過。",
+        "ko": "보내다.",
+        "tl": "magpalipas.",
+        "ne": "बिताउनु।",
+        "id": "menghabiskan.",
+        "pt": "passar.",
+        "my": "ကုန်ဆုံး။",
+        "th": "ใช้เวลา"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=303.498,311.212",
+      "t": [
+        303.498,
+        311.212
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そして、二人とも、もらった物を開けたことで、もう元の場所には戻れなくなりました。",
+      "furigana": [
+        {
+          "surface": "そして、",
+          "reading": ""
+        },
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "とも、もらった",
+          "reading": ""
+        },
+        {
+          "surface": "物",
+          "reading": "もの"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "開",
+          "reading": "あ"
+        },
+        {
+          "surface": "けたことで、もう",
+          "reading": ""
+        },
+        {
+          "surface": "元",
+          "reading": "もと"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "場所",
+          "reading": "ばしょ"
+        },
+        {
+          "surface": "には",
+          "reading": ""
+        },
+        {
+          "surface": "戻",
+          "reading": "もど"
+        },
+        {
+          "surface": "れなくなりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite, futari tomo, moratta mono o aketa koto de, mou moto no basho ni wa modorenaku narimashita.",
+      "translations": {
+        "vi": "Và cả hai, vì đã mở món đồ được tặng, nên không thể quay về chốn cũ nữa.",
+        "en": "And both of them, by opening what they had been given, could never return to where they had been.",
+        "zh-Hans": "而且，两人都因为打开了收到的东西，再也回不去原来的地方。",
+        "zh-Hant": "而且，兩人都因為開啟了收到的東西，再也回不去原來的地方。",
+        "ko": "그리고 두 사람 모두 받은 물건을 열었기 때문에 더 이상 원래 자리로 돌아갈 수 없게 되었습니다.",
+        "tl": "At pareho silang hindi na nakabalik dahil binuksan nila ang bagay na ibinigay sa kanila.",
+        "ne": "अनि दुवैले पाएको कुरा खोलेकाले फेरि पुरानो ठाउँमा फर्कन सकेनन्।",
+        "id": "Dan keduanya, karena membuka pemberian itu, tak bisa lagi kembali ke tempat semula.",
+        "pt": "E ambos, por abrirem o que receberam, não puderam voltar ao lugar de antes.",
+        "my": "နှစ်ယောက်လုံး ရလာတဲ့ပစ္စည်းကို ဖွင့်လိုက်လို့ မူလနေရာကို ပြန်မရောက်နိုင်တော့ဘူး။",
+        "th": "และทั้งสองก็เพราะเปิดของที่ได้รับ จึงกลับไปที่เดิมไม่ได้อีก"
+      },
+      "vocab": [
+        {
+          "word": "元",
+          "reading": "もと",
+          "meanings": {
+            "vi": "như cũ, ban đầu",
+            "en": "original state",
+            "zh-Hans": "原样",
+            "zh-Hant": "原樣",
+            "ko": "원래",
+            "tl": "dati",
+            "ne": "पहिलेको",
+            "id": "semula",
+            "pt": "original",
+            "my": "မူလ",
+            "th": "สภาพเดิม"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ことで」: do việc ~. 「戻れなくなる」: không thể quay lại nữa. 元 = ban đầu.",
+        "en": "「〜ことで」 = by ~ing. 「戻れなくなる」 = become unable to return.",
+        "zh-Hans": "「〜ことで」＝由于……。",
+        "zh-Hant": "「〜ことで」＝由於……。",
+        "ko": "~함으로써.",
+        "tl": "dahil sa.",
+        "ne": "गरेकाले।",
+        "id": "karena.",
+        "pt": "por.",
+        "my": "လို့။",
+        "th": "เพราะ"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=311.812,318.592",
+      "t": [
+        311.812,
+        318.592
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ちがうのは、浦島太郎は亀を助け、トゥ・トゥックは、花を折った少女を助けたことです。",
+      "furigana": [
+        {
+          "surface": "ちがうのは、",
+          "reading": ""
+        },
+        {
+          "surface": "浦島太郎",
+          "reading": "うらしまたろう"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "亀",
+          "reading": "かめ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "助",
+          "reading": "たす"
+        },
+        {
+          "surface": "け、トゥ・トゥックは、",
+          "reading": ""
+        },
+        {
+          "surface": "花",
+          "reading": "はな"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "折",
+          "reading": "お"
+        },
+        {
+          "surface": "った",
+          "reading": ""
+        },
+        {
+          "surface": "少女",
+          "reading": "しょうじょ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "助",
+          "reading": "たす"
+        },
+        {
+          "surface": "けたことです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Chigau no wa, Urashimatarou wa kame o tasuke, Tu Tukku wa, hana o otta shoujo o tasuketa koto desu.",
+      "translations": {
+        "vi": "Điểm khác là, Urashima cứu con rùa, còn Từ Thức cứu cô gái bẻ hoa.",
+        "en": "The difference: Urashima saved a turtle, while Từ Thức saved a girl who broke a flower.",
+        "zh-Hans": "不同的是，浦岛太郎救了乌龟，徐式救了折花的少女。",
+        "zh-Hant": "不同的是，浦島太郎救了烏龜，徐式救了折花的少女。",
+        "ko": "다른 점은 우라시마 타로는 거북을, 뜨특은 꽃을 꺾은 소녀를 도왔다는 것입니다.",
+        "tl": "Ang kaibahan: pagong ang iniligtas ni Urashima, at dalagita naman ang kay Từ Thức.",
+        "ne": "फरक के भने उराशिमाले कछुवा, तु थुकले फूल भाँच्ने किशोरी बचाए।",
+        "id": "Bedanya, Urashima menolong kura-kura, Từ Thức menolong gadis yang mematahkan bunga.",
+        "pt": "A diferença: Urashima salvou uma tartaruga; Từ Thức, uma moça que quebrou uma flor.",
+        "my": "ကွာခြားတာက ဥရရှီးမားက လိပ်ကို၊ တူထုတ်က ပန်းချိုးတဲ့ မိန်းကလေးကို ကူညီခဲ့တာပါ။",
+        "th": "ที่ต่างคือ อุราชิมะช่วยเต่า ส่วนตื่อ ถึกช่วยเด็กสาวที่หักดอกไม้"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「ちがうのは、〜ことです」: điểm khác là ~. 「Aは〜、Bは〜」: đối chiếu.",
+        "en": "「ちがうのは、〜ことです」 = what differs is ~.",
+        "zh-Hans": "「ちがうのは」＝不同的是。",
+        "zh-Hant": "「ちがうのは」＝不同的是。",
+        "ko": "다른 점은.",
+        "tl": "ang kaibahan.",
+        "ne": "फरक।",
+        "id": "bedanya.",
+        "pt": "a diferença.",
+        "my": "ကွာခြားတာ။",
+        "th": "ที่ต่างคือ"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=319.192,326.692",
+      "t": [
+        319.192,
+        326.692
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "海の向こうの二つの国に、こんなによく似た話があるのは、不思議ですね。",
+      "furigana": [
+        {
+          "surface": "海",
+          "reading": "うみ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "向",
+          "reading": "む"
+        },
+        {
+          "surface": "こうの",
+          "reading": ""
+        },
+        {
+          "surface": "二",
+          "reading": "ふた"
+        },
+        {
+          "surface": "つの",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "に、こんなによく",
+          "reading": ""
+        },
+        {
+          "surface": "似",
+          "reading": "に"
+        },
+        {
+          "surface": "た",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "があるのは、",
+          "reading": ""
+        },
+        {
+          "surface": "不思議",
+          "reading": "ふしぎ"
+        },
+        {
+          "surface": "ですね。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Umi no mukou no futatsu no kuni ni, konnani yoku nita hanashi ga aru no wa, fushigi desu ne.",
+      "translations": {
+        "vi": "Thật kỳ lạ khi ở hai đất nước cách nhau bởi biển cả lại có những câu chuyện giống nhau đến thế, nhỉ.",
+        "en": "Isn't it amazing that two countries across the sea have such similar stories?",
+        "zh-Hans": "隔海相望的两个国家，竟有如此相似的故事，真是不可思议呢。",
+        "zh-Hant": "隔海相望的兩個國家，竟有如此相似的故事，真是不可思議呢。",
+        "ko": "바다 건너 두 나라에 이렇게 닮은 이야기가 있다니 신기하지요.",
+        "tl": "Nakakamangha na may ganito kahawig na kuwento ang dalawang bansang magkalayo sa dagat.",
+        "ne": "समुद्रपारिका दुई देशमा यति मिल्दो कथा हुनु अचम्मको कुरा, होइन?",
+        "id": "Ajaib, ya, dua negeri di seberang laut punya kisah semirip ini.",
+        "pt": "Não é curioso que dois países separados pelo mar tenham histórias tão parecidas?",
+        "my": "ပင်လယ်တစ်ဖက်စီက နိုင်ငံနှစ်ခုမှာ ဒီလောက်တူတဲ့ ပုံပြင် ရှိတာ ထူးဆန်းတယ်နော်။",
+        "th": "สองประเทศที่อยู่คนละฟากทะเลมีเรื่องคล้ายกันขนาดนี้ น่าแปลกใจนะ"
+      },
+      "vocab": [
+        {
+          "word": "こんなに",
+          "reading": "こんなに",
+          "meanings": {
+            "vi": "nhiều/đến thế này",
+            "en": "this much, so",
+            "zh-Hans": "这么，如此",
+            "zh-Hant": "這麼，如此",
+            "ko": "이렇게나",
+            "tl": "ganito karami",
+            "ne": "यति धेरै",
+            "id": "sebanyak ini",
+            "pt": "tanto assim",
+            "my": "ဒီလောက်",
+            "th": "ขนาดนี้"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜のは、〜ですね」: việc ~ thì ~ nhỉ (danh từ hóa bằng の). 「こんなに」: đến thế này.",
+        "en": "「〜のは」 nominalizes a clause. 「こんなに」 = this much.",
+        "zh-Hans": "「〜のは」＝……这件事。",
+        "zh-Hant": "「〜のは」＝……這件事。",
+        "ko": "~하는 것은.",
+        "tl": "ang ~.",
+        "ne": "हुनु।",
+        "id": "bahwa.",
+        "pt": "o fato de.",
+        "my": "တာ။",
+        "th": "การที่"
+      },
+      "audio": "/audio/furusato-vn-tuthuc-1/chapter.mp3#t=327.292,333.126",
+      "t": [
+        327.292,
+        333.126
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    }
+  ],
+  "audioTrack": {
+    "src": "/audio/furusato-vn-tuthuc-1/chapter.mp3",
+    "durationSec": 334.176
+  }
+}
