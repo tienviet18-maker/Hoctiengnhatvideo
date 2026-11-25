@@ -1525,9 +1525,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "anime",
   "durationSec": 307,
   "free": false,
-  "lineCount": 17,
-  "clipStart": 24,
-  "clipEnd": 97
+  "lineCount": 19,
+  "clipStart": 23,
+  "clipEnd": 105
  },
  {
   "id": "peppa-pancake-flip",
@@ -1549,9 +1549,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "anime",
   "durationSec": 307,
   "free": false,
-  "lineCount": 14,
-  "clipStart": 96,
-  "clipEnd": 155
+  "lineCount": 21,
+  "clipStart": 110,
+  "clipEnd": 199
  },
  {
   "id": "teded-procrastination-cycle",
@@ -1575,7 +1575,7 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "free": false,
   "lineCount": 9,
   "clipStart": 5,
-  "clipEnd": 57
+  "clipEnd": 56
  },
  {
   "id": "teded-procrastination-brain",
@@ -1598,7 +1598,7 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "durationSec": 343,
   "free": false,
   "lineCount": 11,
-  "clipStart": 53,
+  "clipStart": 51,
   "clipEnd": 134
  },
  {
@@ -1623,7 +1623,7 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "free": false,
   "lineCount": 11,
   "clipStart": 5,
-  "clipEnd": 69
+  "clipEnd": 68
  },
  {
   "id": "teded-habits-dopamine",
@@ -1646,7 +1646,7 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "durationSec": 300,
   "free": false,
   "lineCount": 11,
-  "clipStart": 64,
+  "clipStart": 65,
   "clipEnd": 145
  },
  {
@@ -1719,7 +1719,7 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "free": false,
   "lineCount": 12,
   "clipStart": 0,
-  "clipEnd": 74
+  "clipEnd": 75
  },
  {
   "id": "yuyu-understand-first",
@@ -1743,7 +1743,7 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "free": false,
   "lineCount": 9,
   "clipStart": 70,
-  "clipEnd": 138
+  "clipEnd": 137
  },
  {
   "id": "shun-moving-saitama",
@@ -1766,8 +1766,8 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "durationSec": 2038,
   "free": false,
   "lineCount": 11,
-  "clipStart": 70,
-  "clipEnd": 130
+  "clipStart": 69,
+  "clipEnd": 129
  }
 ];
 
