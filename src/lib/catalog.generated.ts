@@ -9965,6 +9965,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-neu-1/chapter.mp3",
    "durationSec": 332.232
   }
+ },
+ {
+  "id": "furusato-vn-tichchu-1",
+  "titles": {
+   "vi": "Sự tích Tích Chu",
+   "en": "Tích Chu and the Grandmother Bird",
+   "zh-Hans": "积珠与奶奶鸟",
+   "zh-Hant": "積珠與奶奶鳥",
+   "ko": "띡쭈와 할머니 새",
+   "tl": "Si Tích Chu at ang Lolang Ibon",
+   "ne": "तिक चु र हजुरआमा चरी",
+   "id": "Tích Chu dan Nenek Burung",
+   "pt": "Tích Chu e a avó pássaro",
+   "my": "တစ်ချူး နဲ့ ငှက်ဖြစ်သွားတဲ့ အဘွား",
+   "th": "ติ๊กจูกับคุณยายนก"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-tichchu-1.webp",
+  "series": {
+   "id": "furusato-vn-tichchu",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-tichchu-1/chapter.mp3",
+   "durationSec": 315.24
+  }
  }
 ];
 
