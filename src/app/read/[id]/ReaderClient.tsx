@@ -96,13 +96,10 @@ export default function ReaderClient({
   }, [item, story.id]);
 
   // Trình phát tự sang chương sau khi đang ở màn này: đi theo sang chương đó
-  const followId = ps.started && ps.item && ps.item.id !== story.id && ps.playing ? ps.item.id : null;
-  const prevItemRef = useRef<string | null>(null);
+  const followId = ps.advancedFrom === story.id && ps.item ? ps.item.id : null;
   useEffect(() => {
-    const was = prevItemRef.current;
-    prevItemRef.current = ps.item?.id ?? null;
-    if (followId && was === story.id) router.replace(`/read/${followId}`);
-  }, [followId, ps.item?.id, story.id, router]);
+    if (followId) router.replace(`/read/${followId}`);
+  }, [followId, router]);
 
   const playFrom = (i: number, only = false) => {
     ensureLoaded();

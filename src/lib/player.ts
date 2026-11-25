@@ -39,6 +39,8 @@ export interface PlayerState {
   time: number;
   rate: number;
   sleep: SleepMode;
+  /** Chương vừa phát xong trước khi tự chuyển (màn đọc của chương đó đi theo sang chương mới) */
+  advancedFrom: string | null;
 }
 
 const INITIAL: PlayerState = {
@@ -50,6 +52,7 @@ const INITIAL: PlayerState = {
   time: 0,
   rate: 1,
   sleep: "off",
+  advancedFrom: null,
 };
 
 let state: PlayerState = INITIAL;
@@ -184,6 +187,7 @@ function advance(): boolean {
     idx: 0,
     time: 0,
     finished: false,
+    advancedFrom: item.id,
   };
   audio.src = meta.audioTrack.src;
   void audio.play();
@@ -204,7 +208,7 @@ export function load(item: PlayerItem): void {
   audio?.pause();
   stopAt = null;
   single = false;
-  set({ item, idx: 0, started: false, playing: false, finished: false, time: 0 });
+  set({ item, idx: 0, started: false, playing: false, finished: false, time: 0, advancedFrom: null });
 }
 
 /** Phát từ câu i. only = chỉ phát một câu rồi dừng ("Nghe lại câu"). */
