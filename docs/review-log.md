@@ -121,3 +121,24 @@ Cùng nhánh và PR #10. Sáu gói chuẩn v2; kệ B đủ 9 gói (8 tiết m�
 - Công cụ: TTS câu dài hơn 60 ký tự được tách ở 、 rồi nối (giới hạn Neural2); audio đọc theo cách đọc ép `{漢字|よみ}` nên không còn đọc sai (蒸す, 行き倒れ, 抱く…); romaji thêm luật ghép お-tiền tố, 接続詞/副詞 は→wa.
 - zh-Hant viết tay, kiểm bằng phép mã hoá Big5 cho phần dịch (bắt chữ giản thể sót: 俩, 嘞, 凑, 连…); chữ Hán Nhật trong ghi chú ngữ pháp giữ nguyên dạng Nhật.
 - Cấp N4 kiểm theo luật N4 (≤60 câu, TB câu ≤26 ký tự, từ khó ≤15%); hai gói N4 đã gộp/bớt câu để đạt luật mà vẫn ≥5 phút.
+
+## Kệ C Truyện dân gian Nhật — lô 1 (25/11/2026)
+
+Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Sáu gói chuẩn v2, `shelf: "folktale-jp"`, id `mukashi-<tên>-<tập>`, mỗi truyện là một series hai tập. Gói ngắn cũ của Muse (`urashima-taro`, `tsuru-no-ongaeshi`, `issun-boshi`…) giữ nguyên; đây là bản dài nghe liền.
+
+| Gói | Cấp | Câu | Audio liền | Bìa (font) | Bài học | Miễn phí |
+|---|---|---|---|---|---|---|
+| `mukashi-urashima-1` 浦島太郎 (上) | N3 | 59 | 5,7 phút | Shippori Mincho B1 | たり〜たり, てはいけない, ていただく, にちがいない + 4 câu hỏi | có |
+| `mukashi-urashima-2` 浦島太郎 (下) | N3 | 58 | 5,0 phút | Shippori Mincho B1 | ても, はずだ, たまま, てしまう + 4 | VIP |
+| `mukashi-tsuru-1` 鶴の恩返し (上) | N3 | 59 | 5,7 phút | Klee One | てあげる, (さ)せてください, ようになる, ことにする + 4 | VIP |
+| `mukashi-tsuru-2` 鶴の恩返し (下) | N3 | 57 | 5,4 phút | Klee One | のに, ずつ, たら, たびに + 4 | VIP |
+| `mukashi-issun-1` 一寸法師 (上) | N3 | 58 | 5,4 phút | Potta One | しか〜ない, ないように, ために, ことになる + 4 | VIP |
+| `mukashi-issun-2` 一寸法師 (下) | N3 | 60 | 5,1 phút | Potta One | みたいに, ながら, (よ)うとする, ば + 4 | VIP |
+
+- Giọng: Chirp3-HD-Aoede kể; mỗi nhân vật một giọng cố định Neural2-C (nam) hoặc Neural2-B (nữ) với cao độ/tốc độ riêng (ông lão, bà lão, cô gái, công chúa, quan đại thần, hai con quỷ…), ghi trong `meta.json` từng gói.
+- Pháp lý: cả ba truyện là cổ tích dân gian không tác giả (浦島太郎 có từ thời Nara; 一寸法師 trong Otogizōshi thời Muromachi; 鶴の恩返し truyền miệng từ thời Edo trở về trước). Bản kể do Claude tự viết. 鶴の恩返し tránh hẳn vở kịch 夕鶴 (Kinoshita Junji, còn bản quyền): không dùng tên つう, 与ひょう hay tình tiết riêng của vở.
+- Đọc ép `{漢字|よみ}` cho các chỗ kuromoji đọc sai: 竜宮城 (bị tách thành 竜+宮城みやぎ), 山道 (やまみち), 宝物 (たからもの), 一本/一羽/一晩/三日三晩, 和尚, 呉服屋, 二人/一人.
+- Bài học chọn để không trùng điểm ngữ pháp giữa các tập trong cùng kệ (trừ ことになる/ことにする được đặt cạnh nhau có chủ đích để so sánh).
+- Glossary chung `content/sources/glossary-rakugo-mukashi.tsv` thêm khoảng 80 từ 11 ngôn ngữ.
+- `npm run verify` xanh trên bản clone sạch (commit 4a8afc0); QC toàn kho sau gói cuối: 557 gói, 0 lỗi, 15 gói chuẩn v2.
+- Còn lại kệ C: かぐや姫 (2–3 tập, Kiwi Maru), 酒呑童子 ×2 (RocknRoll One), 牛若丸と弁慶 ×2 (Yusei Magic).
