@@ -109,7 +109,8 @@ trong `/mnt/project-files/miraigo/content-plan/audio-tuyen-chon.md`.
 | botchan-2 | N3 | 52 | 5:47 | Tập 2 (VIP). Biệt danh các thầy, 天ぷらそば, 「湯の中で泳ぐべからず」; giải thích nối với Matsuyama và Dōgo Onsen ngày nay. Commit `3f4b33b`. |
 | botchan-3 | N3 | 52 | 5:43 | Tập 3 (VIP). Đêm trực, châu chấu trong nệm, đi câu với Áo đỏ; Botchan bắt đầu nghi Nhím núi. Commit `c51f1f6`. |
 | botchan-4 | N3 | 52 | 5:56 | Tập 4 (VIP). Một sen năm rin, cuộc họp hội đồng, chuyện Madonna, Botchan từ chối tăng lương. Thêm giọng bà cụ Hagino (Neural2-B +1). Commit `047546a`. |
-| botchan-5 | N3 | 52 | 5:26 | Tập 5 (VIP). Làm lành với Nhím núi, tiệc chia tay Bí cuối mùa, trận ẩu đả mừng chiến thắng, bài báo vu khống. |
+| botchan-5 | N3 | 52 | 5:26 | Tập 5 (VIP). Làm lành với Nhím núi, tiệc chia tay Bí cuối mùa, trận ẩu đả mừng chiến thắng, bài báo vu khống. Commit `ccbb22f`. |
+| botchan-6 | N3 | 52 | 5:30 | Tập 6, tập cuối (VIP). Botchan đòi từ chức cùng Nhím núi, 8 đêm rình ở Masuya, ném trứng và trừng phạt Áo đỏ, Nodaiko, về Tokyo sống với Kiyo; câu kết về mộ Kiyo ở chùa Yōgen-ji. Series 坊っちゃん đủ 6 tập. |
 
 Công cụ và sửa lỗi kèm theo:
 

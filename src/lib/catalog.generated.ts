@@ -7245,6 +7245,32 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "botchan",
    "index": 5
   }
+ },
+ {
+  "id": "botchan-6",
+  "titles": {
+   "vi": "Botchan (6 – hết): Trừng phạt kẻ gian và Kiyo đợi ở Tokyo",
+   "en": "Botchan (6, final): Justice Served and Kiyo Waiting in Tokyo",
+   "zh-Hans": "少爷（六·完）：天诛，与在东京等待的阿清",
+   "zh-Hant": "少爺（六·完）：天誅，與在東京等待的阿清",
+   "ko": "도련님 (6·완): 천벌, 그리고 도쿄에서 기다리는 기요",
+   "tl": "Botchan (6, wakas): Katarungan at si Kiyo na Naghihintay sa Tokyo",
+   "ne": "बोच्चान (६, अन्तिम): दण्ड र टोकियोमा पर्खिरहेकी कियो",
+   "id": "Botchan (6, tamat): Hukuman dan Kiyo yang Menanti di Tokyo",
+   "pt": "Botchan (6, final): Justiça Feita e Kiyo à Espera em Tóquio",
+   "my": "ဘော့ချန် (၆၊ ဇာတ်သိမ်း): ဒဏ်ပေးခြင်းနဲ့ တိုကျိုမှာ စောင့်နေတဲ့ ကီယို",
+   "th": "บ็อตจัง (6 จบ): ลงทัณฑ์คนชั่ว กับคิโยะที่รออยู่ในโตเกียว"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/botchan-6.webp",
+  "series": {
+   "id": "botchan",
+   "index": 6
+  }
  }
 ];
 
