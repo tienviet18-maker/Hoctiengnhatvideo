@@ -3,7 +3,7 @@
 Ứng dụng web học tiếng Nhật theo phương pháp đa đọc/nghe hiểu (comprehensible input):
 xem video YouTube có phụ đề đã kiểm chứng, đọc truyện ngắn có furigana + audio từng câu,
 chép chính tả, nói đuổi (shadowing) và ôn từ vựng theo SRS. 11 ngôn ngữ giao diện,
-giá VIP ¥550/tháng hoặc ¥4.980/năm.
+giá VIP ¥900/1 tháng, ¥4.400/6 tháng, ¥7.800/1 năm.
 
 ## Công nghệ
 
