@@ -168,15 +168,17 @@ function romajiOf(toks) {
  *   N  giải thích (grammarNote) 11 ngôn ngữ
  *   V  từ[=cách đọc][@N2]: nghĩa 11 ngôn ngữ      (@cấp chỉ dùng khi từ không có trong danh sách JLPT)
  */
+function split11Of(s, where) {
+  const a = s.split("|").map((x) => x.trim());
+  if (a.length !== LANGS.length) throw new Error(`${where}: có ${a.length} ô, cần ${LANGS.length}`);
+  return Object.fromEntries(LANGS.map((l, i) => [l, a[i]]));
+}
+
 export function loadI18n(dir, chap) {
   const files = readdirSync(dir).filter((f) => f === `${chap}.i18n.txt` || new RegExp(`^${chap}\\.i18n\\.\\d+\\.txt$`).test(f))
     .sort((a, b) => (Number(a.split(".").at(-2)) || 0) - (Number(b.split(".").at(-2)) || 0));
   if (!files.length) throw new Error(`${chap}: chưa có file i18n`);
-  const split11 = (s, where) => {
-    const a = s.split("|").map((x) => x.trim());
-    if (a.length !== LANGS.length) throw new Error(`${chap} ${where}: có ${a.length} ô, cần ${LANGS.length}`);
-    return Object.fromEntries(LANGS.map((l, i) => [l, a[i]]));
-  };
+  const split11 = (x, where) => split11Of(x, `${chap} ${where}`);
   const out = { titles: null, sentences: [] };
   let cur = null;
   for (const f of files) for (const raw of readFileSync(join(dir, f), "utf8").split("\n")) {
@@ -218,6 +220,40 @@ function baseReading(tok, word) {
   return (cut ? r.slice(0, -cut) : r) + kata2hira(word.slice(k));
 }
 
+/**
+ * Bài học của chương (chuẩn v2 mục 6c), file <chương>.lesson.txt:
+ *   G 〜ことにする #26: nghĩa 11 ngôn ngữ (vi|en|…)      (#số câu ví dụ, đếm từ 1 như @ trong i18n)
+ *   Q câu hỏi tiếng Nhật | lựa chọn 1 / lựa chọn 2 / lựa chọn 3 | số thứ tự đáp án đúng (từ 1)
+ *   X giải thích đáp án 11 ngôn ngữ
+ */
+function loadLesson(dir, chap, nSent, errs) {
+  const f = join(dir, `${chap}.lesson.txt`);
+  if (!existsSync(f)) { errs.push(`chưa có ${chap}.lesson.txt`); return undefined; }
+  const lesson = { grammarPoints: [], quiz: [] };
+  for (const raw of readFileSync(f, "utf8").split("\n")) {
+    const line = raw.trim();
+    if (!line || line.startsWith("#")) continue;
+    const tag = line.slice(0, 2), body = line.slice(2).trim();
+    if (tag === "G ") {
+      const i = body.indexOf(":");
+      const mm = body.slice(0, i).trim().match(/^(.+?)\s+#(\d+)$/);
+      if (!mm) throw new Error(`${chap}.lesson: dòng G sai: ${line}`);
+      const example = Number(mm[2]) - 1;
+      if (example < 0 || example >= nSent) errs.push(`lesson: câu ví dụ #${mm[2]} không có`);
+      lesson.grammarPoints.push({ pattern: mm[1], meaning: split11Of(body.slice(i + 1), `${chap}.lesson G ${mm[1]}`), example });
+    } else if (tag === "Q ") {
+      const [ja, ch, ans] = body.split("|").map((x) => x.trim());
+      const choices = ch.split(" / ").map((x) => x.trim());
+      const answer = Number(ans) - 1;
+      if (!(answer >= 0 && answer < choices.length)) errs.push(`lesson: đáp án sai ở câu hỏi ${ja}`);
+      lesson.quiz.push({ ja, choices, answer });
+    } else if (tag === "X ") {
+      lesson.quiz.at(-1).explain = split11Of(body, `${chap}.lesson X ${lesson.quiz.length}`);
+    } else throw new Error(`${chap}.lesson: dòng không hiểu: ${line}`);
+  }
+  return lesson;
+}
+
 export async function build(file, { mode } = {}) {
   const dir = dirname(file);
   const chap = basename(file).replace(/\.ja\.txt$/, "");
@@ -250,6 +286,9 @@ export async function build(file, { mode } = {}) {
   if (i18n.sentences.length !== sents.length)
     throw new Error(`${chap}: ${sents.length} câu tiếng Nhật nhưng i18n có ${i18n.sentences.length}`);
   const errs = [];
+  const tf = join(dir, `${chap}.timing.json`);
+  const timing = existsSync(tf) ? JSON.parse(readFileSync(tf, "utf8")) : null;
+  if (timing && timing.t.length !== sents.length) errs.push(`timing có ${timing.t.length} câu, khác ${sents.length}: chạy lại tts.mjs`);
   const full = (o) => LANGS.every((l) => typeof o?.[l] === "string" && o[l].trim());
   if (!full(i18n.titles)) errs.push("titles thiếu ngôn ngữ");
   const sentences = sents.map((s, i) => {
@@ -272,9 +311,13 @@ export async function build(file, { mode } = {}) {
       translations: x.tr,
       grammarNote: x.note,
       vocab,
-      audio: `/audio/${meta.id}/${String(i + 1).padStart(3, "0")}.mp3`,
+      audio: timing ? `${timing.src}#t=${timing.t[i][0]},${timing.t[i][1]}` : "",
+      ...(timing ? { t: timing.t[i], voice: timing.voice[i] } : {}),
     };
   });
+  if (!timing) errs.push(`chưa có ${chap}.timing.json: chạy scripts/produce/tts.mjs trước`);
+  const lesson = loadLesson(dir, chap, sents.length, errs);
+  if (!meta.shelf) errs.push("thiếu shelf trong phần đầu file");
   if (errs.length) { console.error(errs.join("\n")); process.exit(1); }
   const out = {
     kind: "story",
@@ -288,6 +331,10 @@ export async function build(file, { mode } = {}) {
     standard: 2,
     ...(meta.series ? { series: { id: meta.series, index: Number(meta.index) } } : {}),
     ...(meta.author ? { author: meta.author } : {}),
+    shelf: meta.shelf,
+    ...(meta.origin ? { origin: meta.origin } : {}),
+    ...(timing ? { audioTrack: { src: timing.src, durationSec: timing.durationSec } } : {}),
+    lesson,
     sentences,
   };
   writeFileSync(join(root, "content/stories", `${meta.id}.json`), JSON.stringify(out, null, 1) + "\n");
