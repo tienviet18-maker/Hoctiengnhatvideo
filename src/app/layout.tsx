@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import { Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
+import { SITE_URL } from "../lib/seo";
 import { LangProvider } from "../components/LangProvider";
 import TabBar from "../components/TabBar";
 
@@ -12,7 +13,11 @@ const bvp = Be_Vietnam_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "ViMai Video — Học tiếng Nhật qua video và truyện",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "ViMai Video — Học tiếng Nhật qua video và truyện",
+    template: "%s · ViMai Video",
+  },
   description:
     "Học tiếng Nhật qua video YouTube và truyện phân cấp: phụ đề furigana, chép chính tả, shadowing, ôn từ vựng mỗi ngày.",
 };
