@@ -106,3 +106,22 @@ mỗi truyện một phông. **Muse lưu ý: các ID `furusato-*` do Claude cấ
 
 Công cụ mới trong `scripts/story-src/` (build, tts, register) và motif bìa mới trong `scripts/covers/cover.html`
 (bird, coconut, horse, mountainwave). Khoá TTS chỉ đọc từ biến môi trường, không in, không ghi file.
+
+## Kệ F 「大阪で働く」 — tập 1–5 (25/11/2026, nhánh `claude/furusato-osaka`)
+
+Phim truyện nghe N3, 20 tập, sáng tác gốc (bible: `content/sources/osaka/series-bible.md`). Kịch tính trước,
+thông tin đời sống thật sau: mỗi tập lồng một thủ tục, nói qua miệng nhân vật hoặc 1–2 câu kể, kết bằng móc câu.
+大阪弁 chỉ ở lời キヨ/ラジュ/田中, luôn có giải thích chuẩn hoá trong grammarNote. Chuẩn v2 đủ: `chapter.mp3`,
+mốc `t`, dịch + giải thích 11 ngôn ngữ (tự dịch, tự rà), bài học 4 mẫu ngữ pháp + 3 câu hỏi, `shelf: life-series`,
+`series {id: osaka-hataraku, index}`. Cách đọc chung của kệ ở `content/sources/osaka/phrases.json`.
+**Muse lưu ý: các ID `osaka-hataraku-*` do Claude cấp, đừng dùng lại.**
+
+| Gói | Tiêu đề | Câu | Audio | Thông tin thật | Commit |
+|---|---|---|---|---|---|
+| osaka-hataraku-01 | ようこそ、大阪へ | 60 | 5,6 phút | 転入届 trong 14 ngày | e98e94b |
+| osaka-hataraku-02 | 初出勤 | 58 | 5,2 phút | 区役所: マイナンバー, bảo hiểm | 24e43b8 |
+| osaka-hataraku-03 | 消えた先輩 | 57 | 5,3 phút | thứ tự địa chỉ → SIM → ngân hàng, quy định 6 tháng, ゆうちょ | 927208e |
+| osaka-hataraku-04 | ゴミの日の事件 | 58 | 5,6 phút | phân loại rác, đổ buổi sáng, 粗大ごみ | 3bb4ecb |
+| osaka-hataraku-05 | 夜の工場 | 57 | 5,4 phút | 緊急地震速報, 避難所, túi khẩn cấp | a1fb25e |
+
+Tập 1 miễn phí, tập 2–5 `free: false`. `npm run verify` xanh trên bản clone sạch: 553 gói, 0 lỗi; chuẩn v2 11 gói đạt.
