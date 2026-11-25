@@ -10093,6 +10093,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-mychau-1/chapter.mp3",
    "durationSec": 392.232
   }
+ },
+ {
+  "id": "furusato-kr-hokburi-1",
+  "titles": {
+   "vi": "Ông lão có cái bướu",
+   "en": "The Old Man with the Lump",
+   "zh-Hans": "长瘤的老爷爷",
+   "zh-Hant": "長瘤的老爺爺",
+   "ko": "혹부리 영감",
+   "tl": "Ang Matandang may Bukol",
+   "ne": "गाँठो भएका बूढा",
+   "id": "Kakek Berbenjol",
+   "pt": "O velho do caroço",
+   "my": "အကျိတ်ပါတဲ့ အဘိုးအို",
+   "th": "ตาเฒ่าคอพอก"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-kr-hokburi-1.webp",
+  "series": {
+   "id": "furusato-kr-hokburi",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "KR",
+  "audioTrack": {
+   "src": "/audio/furusato-kr-hokburi-1/chapter.mp3",
+   "durationSec": 312.84
+  }
  }
 ];
 

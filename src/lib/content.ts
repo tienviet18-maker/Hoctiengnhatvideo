@@ -652,6 +652,7 @@ import s_furusatoVnTichchu1 from "../../content/stories/furusato-vn-tichchu-1.js
 import s_furusatoVnVusua1 from "../../content/stories/furusato-vn-vusua-1.json";
 import s_furusatoVnBabe1 from "../../content/stories/furusato-vn-babe-1.json";
 import s_furusatoVnMychau1 from "../../content/stories/furusato-vn-mychau-1.json";
+import s_furusatoKrHokburi1 from "../../content/stories/furusato-kr-hokburi-1.json";
 // --- hết kệ A/E: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1310,6 +1311,7 @@ export const STORIES: StoryContent[] = [
   s_furusatoVnVusua1 as unknown as StoryContent,
   s_furusatoVnBabe1 as unknown as StoryContent,
   s_furusatoVnMychau1 as unknown as StoryContent,
+  s_furusatoKrHokburi1 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
