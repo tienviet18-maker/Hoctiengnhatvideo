@@ -1,0 +1,19 @@
+{
+ "id": "rakugo-inu-no-me",
+ "level": "N3",
+ "topic": "rakugo",
+ "source": "original",
+ "free": false,
+ "legal": "tiết mục rakugo cổ điển thời Edo, không rõ tác giả, đã hết bản quyền. Kịch bản do Claude tự viết lại bằng tiếng Nhật phân cấp, không chép bản ghi âm, sách hay kịch bản của nghệ sĩ nào.",
+ "voices": {
+  "N": {"role": "người kể", "voice": "Chirp3-HD-Aoede rate=0.9"},
+  "G": {"role": "bác thợ mộc Gen", "voice": "Neural2-C rate=1.04 pitch=-2"},
+  "D": {"role": "ông thầy thuốc lập dị", "voice": "Neural2-C rate=0.9 pitch=-7"},
+  "S": {"role": "cậu học trò của thầy thuốc", "voice": "Neural2-C rate=1.12 pitch=6"}
+ },
+ "names": ["源"],
+ "skipVocab": ["うわる"],
+ "cover": {"ja": "犬の目", "jsub": "古典落語", "motif": "lantern", "font": "Stick", "shelf": "落語", "title": "Inu no Me"},
+ "titles": {"vi":"Inu no Me — Đôi mắt chó","en":"Inu no Me — The Dog's Eyes","zh-Hans":"狗眼——换了一双狗眼睛","zh-Hant":"狗眼——換了一雙狗眼睛","ko":"이누노메 — 개의 눈","tl":"Inu no Me — Ang Mata ng Aso","ne":"इनु नो मे — कुकुरको आँखा","id":"Inu no Me — Mata Anjing","pt":"Inu no Me — Os olhos do cachorro","my":"အိနုနိုမဲ — ခွေးမျက်လုံး","th":"อินุโนะเมะ — ดวงตาสุนัข"},
+ "shelf": "rakugo"
+}

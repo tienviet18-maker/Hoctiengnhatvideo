@@ -27,6 +27,7 @@ import bcRakugoShinigami2 from "../../content/stories/rakugo-shinigami-2.json";
 import bcRakugoTenshiki from "../../content/stories/rakugo-tenshiki.json";
 import bcRakugoHirabayashi from "../../content/stories/rakugo-hirabayashi.json";
 import bcRakugoDoguya from "../../content/stories/rakugo-doguya.json";
+import bcRakugoInuNoMe from "../../content/stories/rakugo-inu-no-me.json";
 // --- hết kệ B/C: import ---
 import video1 from "../../content/videos/teppei-genki-01.json";
 import video2 from "../../content/videos/teppei-study-how-long.json";
@@ -792,6 +793,7 @@ export const STORIES: StoryContent[] = [
   bcRakugoTenshiki as unknown as StoryContent,
   bcRakugoHirabayashi as unknown as StoryContent,
   bcRakugoDoguya as unknown as StoryContent,
+  bcRakugoInuNoMe as unknown as StoryContent,
   // --- hết kệ B/C ---
   story1 as unknown as StoryContent,
   story2 as unknown as StoryContent,
