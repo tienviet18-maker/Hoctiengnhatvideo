@@ -1898,7 +1898,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "rakugo",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 58,
   "cover": "/covers/rakugo-shibahama-1.webp",
   "series": {
@@ -2103,7 +2103,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "folktale",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 59,
   "cover": "/covers/mukashi-tsuru-1.webp",
   "series": {
@@ -2165,7 +2165,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "folktale",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 58,
   "cover": "/covers/mukashi-issun-1.webp",
   "series": {
@@ -2227,7 +2227,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "folktale",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 58,
   "cover": "/covers/mukashi-kaguya-1.webp",
   "series": {
@@ -7868,7 +7868,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 57,
   "cover": "/covers/furusato-vn-sodua-1.webp",
   "series": {
@@ -7900,7 +7900,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 55,
   "cover": "/covers/furusato-vn-giong-1.webp",
   "series": {
@@ -7932,7 +7932,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 51,
   "cover": "/covers/furusato-vn-sontinh-1.webp",
   "series": {
@@ -8119,7 +8119,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 63,
   "cover": "/covers/furusato-vn-caytre-1.webp",
   "series": {
@@ -8151,7 +8151,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 59,
   "cover": "/covers/furusato-vn-maiantiem-1.webp",
   "series": {
@@ -8183,7 +8183,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 58,
   "cover": "/covers/furusato-vn-thachsanh-1.webp",
   "series": {
@@ -8279,7 +8279,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 56,
   "cover": "/covers/furusato-vn-khe-1.webp",
   "series": {
@@ -8311,7 +8311,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 55,
   "cover": "/covers/furusato-vn-hoguom-1.webp",
   "series": {
@@ -8343,7 +8343,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 56,
   "cover": "/covers/furusato-vn-rongtien-1.webp",
   "series": {
@@ -8375,7 +8375,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 58,
   "cover": "/covers/furusato-vn-chudongtu-1.webp",
   "series": {
@@ -8407,7 +8407,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 56,
   "cover": "/covers/furusato-vn-tuthuc-1.webp",
   "series": {
@@ -8439,7 +8439,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 56,
   "cover": "/covers/furusato-vn-traucau-1.webp",
   "series": {
@@ -8471,7 +8471,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 54,
   "cover": "/covers/furusato-kr-heungbu-1.webp",
   "series": {
@@ -8503,7 +8503,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 55,
   "cover": "/covers/furusato-kr-simcheong-1.webp",
   "series": {
@@ -8535,7 +8535,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 58,
   "cover": "/covers/furusato-kr-onui-1.webp",
   "series": {
@@ -8567,7 +8567,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 48,
   "cover": "/covers/furusato-kr-kongjwi-1.webp",
   "series": {
@@ -8599,7 +8599,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 49,
   "cover": "/covers/furusato-cn-niulang-1.webp",
   "series": {
@@ -8631,7 +8631,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 52,
   "cover": "/covers/furusato-cn-baishe-1.webp",
   "series": {
@@ -8663,7 +8663,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 44,
   "cover": "/covers/furusato-cn-change-1.webp",
   "series": {
@@ -8695,7 +8695,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 48,
   "cover": "/covers/furusato-cn-saiyuki-1.webp",
   "series": {
@@ -8791,7 +8791,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 51,
   "cover": "/covers/furusato-ph-malakas-1.webp",
   "series": {
@@ -8823,7 +8823,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 50,
   "cover": "/covers/furusato-ph-pinya-1.webp",
   "series": {
@@ -8855,7 +8855,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 50,
   "cover": "/covers/furusato-ph-pagong-1.webp",
   "series": {
@@ -8887,7 +8887,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 53,
   "cover": "/covers/furusato-ph-juan-1.webp",
   "series": {
@@ -8919,7 +8919,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 51,
   "cover": "/covers/furusato-id-malin-1.webp",
   "series": {
@@ -8951,7 +8951,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 50,
   "cover": "/covers/furusato-id-timun-1.webp",
   "series": {
@@ -8983,7 +8983,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 48,
   "cover": "/covers/furusato-id-bawang-1.webp",
   "series": {
@@ -9015,7 +9015,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 49,
   "cover": "/covers/furusato-id-sangkuriang-1.webp",
   "series": {
@@ -9047,7 +9047,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 49,
   "cover": "/covers/furusato-id-kancil-1.webp",
   "series": {
@@ -9079,7 +9079,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 52,
   "cover": "/covers/furusato-th-sangthong-1.webp",
   "series": {
@@ -9111,7 +9111,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 50,
   "cover": "/covers/furusato-th-aphai-1.webp",
   "series": {
@@ -9143,7 +9143,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-np-manjushri-1.webp",
   "series": {
@@ -9175,7 +9175,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-np-indra-1.webp",
   "series": {
@@ -9207,7 +9207,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 63,
   "cover": "/covers/furusato-vn-banhchung-1.webp",
   "series": {
@@ -9239,7 +9239,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 53,
   "cover": "/covers/furusato-vn-taoquan-1.webp",
   "series": {
@@ -9271,7 +9271,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-vn-cuoi-1.webp",
   "series": {
