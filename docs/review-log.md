@@ -133,6 +133,24 @@ truyền thống public domain; 콩쥐팥쥐 lược phần kết bi thảm củ
 
 Motif bìa mới: gourd, lotus, sunmoon, flowershoe. **Đã đủ 4 truyện Hàn Quốc theo kế hoạch.**
 
+## Kệ D "Truyện quê hương" — lô 3: truyện Trung Quốc (25/11/2026, nhánh `claude/furusato-osaka`)
+
+`origin: CN`, nhãn bìa "Truyện cổ tích Trung Quốc". Truyền thuyết dân gian (truyền khẩu, thư tịch cổ) và tiểu thuyết
+西游记 (thế kỷ 16) đều là public domain; Claude tự kể lại, không chép bản dịch hay tuyển tập hiện đại. 西游记 làm thành
+series 3 tập (`series.id = furusato-cn-saiyuki`), dùng chung font Reggae One; tập 2 nối với 嫦娥奔月 (Bát Giới bị đày
+vì ve vãn Hằng Nga — đúng nguyên tác).
+
+| Gói | Tiêu đề | Câu | Audio | So sánh với truyện Nhật | Commit |
+|---|---|---|---|---|---|
+| furusato-cn-niulang-1 | 牛飼いと織り姫 (牛郎织女) | 49 | 5,8 phút | 七夕, 羽衣伝説 | a8cf088 |
+| furusato-cn-baishe-1 | 白いヘビの恋 (白蛇传) | 52 | 5,8 phút | 雨月物語「蛇性の婬」 | b4adc97 |
+| furusato-cn-change-1 | 月へのぼった妻 (嫦娥奔月) | 44 | 5,0 phút | お月見, かぐや姫 | 8434e39 |
+| furusato-cn-saiyuki-1 | 石から生まれたサル (西游记 ①) | 48 | 5,2 phút | さるかに合戦 | 9e07780 |
+| furusato-cn-saiyuki-2 | 三蔵法師と仲間たち (西游记 ②) | 46 | 5,0 phút | 桃太郎, 沙悟浄＝カッパ | 1bc2e0e |
+| furusato-cn-saiyuki-3 | 火の山と大きな扇 (西游记 ③) | 43 | 5,1 phút | 天狗のうちわ | 77b6f4e |
+
+Motif bìa mới: milkyway, whitesnake, moonrabbit, stonemonkey, pilgrims, flamefan. **Đã đủ 6 truyện Trung Quốc theo kế hoạch.**
+
 ## Kệ F 「大阪で働く」 — tập 1–5 (25/11/2026, nhánh `claude/furusato-osaka`)
 
 Phim truyện nghe N3, 20 tập, sáng tác gốc (bible: `content/sources/osaka/series-bible.md`). Kịch tính trước,
