@@ -74,6 +74,30 @@ dòng dài tối đa 12 giây (dài hơn thì tách câu). Mốc thời gian ph�
 - Ghi giọng của từng câu (hoặc quy tắc gán giọng) và tốc độ vào `.qc.md`. Mẫu nghe thử ở
   `/mnt/project-files/miraigo/tts-samples/`.
 
+## 6b. Audio liền cho chương (bắt buộc với gói v2, Việt yêu cầu 25/11)
+
+Người dùng nghe qua Bluetooth hoặc tai nghe khi đã tắt màn hình, nên mỗi chương là **một file audio liền**,
+không phải mỗi câu một file (iOS có thể dừng giữa hai file khi máy khoá).
+
+- Tạo audio từng câu bằng Google TTS, rồi ghép thành `public/audio/<id>/chapter.mp3` (mp3 mono 64 kbps). Giữa
+  hai câu nghỉ 0,6 giây, khi đổi người nói thì nghỉ 0,9 giây. Không lưu file từng câu vào repo.
+- `audioTrack: { src: "/audio/<id>/chapter.mp3", durationSec }`. Mỗi câu có `t: [start, end]` (giây, đo bằng ffprobe
+  khi ghép), `voice` (một trong 3 giọng ở mục 6), và `audio: "<src>#t=<start>,<end>"` để trình đọc phát đúng câu.
+- QC kiểm: file tồn tại, mốc tăng dần, nằm trong thời lượng, `audio` khớp `t`, câu nào cũng có `voice`.
+
+## 6c. Bài học của chương (thẻ "Bài học")
+
+- `lesson.grammarPoints`: 2–4 mẫu ngữ pháp chính của chương. Mỗi mẫu có `pattern`, `meaning` đủ 11 ngôn ngữ, và
+  `example` là chỉ số của câu ví dụ trong chương.
+- `lesson.quiz`: 3–5 câu hỏi hiểu bài. Câu hỏi và các lựa chọn viết bằng tiếng Nhật đúng cấp, có ít nhất 3 lựa
+  chọn, `answer` là chỉ số đáp án đúng, `explain` đủ 11 ngôn ngữ.
+- Từ vựng vẫn ghi theo từng câu (mục 4). Thẻ Bài học tự gom từ vựng của cả chương, nên không cần ghi lại.
+
+## 6d. Kệ
+
+- `shelf`: literature | mystery | ghost | rakugo | folktale-jp | hometown | world | life-series | life.
+- Truyện quê hương: `shelf: "hometown"` và `origin` là mã nước gồm 2 chữ in hoa (VN, KR, CN, PH, ID, TH, NP, MM, BR).
+
 ## 7. Bìa và hình ảnh
 
 - Mỗi truyện hoặc bộ truyện có ảnh bìa ở `public/covers/<id>.webp`, tỉ lệ 3:4, tối thiểu 900×1200.
