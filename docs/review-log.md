@@ -164,6 +164,21 @@ Motif bìa mới: milkyway, whitesnake, moonrabbit, stonemonkey, pilgrims, flame
 - Juan Tamad có nhiều dị bản theo vùng; bài kể 3 mẩu phổ biến (cây ổi, bán cua, múc nước bằng giỏ) và nói rõ trong bài là truyện thay đổi theo đảo/làng.
 - Đã đủ 4 truyện Philippines.
 
+## Kệ D "Truyện quê hương" — lô 5: truyện Indonesia (25/11/2026, nhánh `claude/furusato-osaka`)
+
+| Gói | Tựa | Câu | Audio | So sánh với truyện Nhật | Commit |
+|---|---|---|---|---|---|
+| `furusato-id-malin-1` | 石になった息子 (Malin Kundang) | 51 | 5,4 phút | スズメとキツツキ | 09d4a45 |
+| `furusato-id-timun-1` | 金のキュウリの娘 (Timun Mas) | 50 | 5,6 phút | 三枚のお札, イザナギの逃走 (古事記) | 9f65190 |
+| `furusato-id-bawang-1` | 小さいカボチャ (Bawang Merah Bawang Putih) | 48 | 5,2 phút | 舌切り雀, 米福粟福 | 4a3b309 |
+| `furusato-id-sangkuriang-1` | ひっくり返った船の山 (Sangkuriang) | 49 | 5,7 phút | 男鹿の五社堂 999 bậc đá | 6c25fce |
+| `furusato-id-kancil-1` | ワニのはし (Kancil dan Buaya) | 49 | 5,3 phút | 因幡の白うさぎ (古事記) | 1ae6bf0 |
+
+- Cả 5 gói N3, đạt chuẩn v2, nhãn xuất xứ ID, bìa 文庫 font riêng (Train One, RocknRoll One, Stick, DotGothic16, Darumadrop One). Kể lại bằng lời của mình, không chép tuyển tập hiện đại.
+- Darumadrop One thiếu chữ 橋 và có khung chữ to, nên tựa bìa Kancil viết bằng kana 「ワニのはし」 (5 chữ) cho vừa cột.
+- Bài Kancil có ghi chú "ワニ" trong truyện cổ Nhật thường được hiểu là cá mập.
+- Đã đủ 5 truyện Indonesia.
+
 ## Kệ F 「大阪で働く」 — tập 1–5 (25/11/2026, nhánh `claude/furusato-osaka`)
 
 Phim truyện nghe N3, 20 tập, sáng tác gốc (bible: `content/sources/osaka/series-bible.md`). Kịch tính trước,
