@@ -545,6 +545,7 @@ import story455 from "../../content/stories/the-japanese-garden.json";
 // --- kệ A/E văn học (chuẩn v2): import ---
 import v2AkaiRousokuToNingyo from "../../content/stories/akai-rousoku-to-ningyo.json";
 import v2HanshichiOfumi1 from "../../content/stories/hanshichi-ofumi-1.json";
+import v2HanshichiOfumi2 from "../../content/stories/hanshichi-ofumi-2.json";
 // --- hết kệ A/E: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1095,6 +1096,7 @@ export const STORIES: StoryContent[] = [
   // --- kệ A/E văn học (chuẩn v2) ---
   v2AkaiRousokuToNingyo as unknown as StoryContent,
   v2HanshichiOfumi1 as unknown as StoryContent,
+  v2HanshichiOfumi2 as unknown as StoryContent,
   // --- hết kệ A/E ---
 ];
 
