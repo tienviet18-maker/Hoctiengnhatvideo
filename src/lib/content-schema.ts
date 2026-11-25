@@ -80,8 +80,48 @@ export interface VideoContent {
 }
 
 export interface StorySentence extends Sentence {
-  /** Đường dẫn file âm thanh đọc câu, ví dụ /audio/<storyId>/001.mp3 */
+  /**
+   * Âm thanh của câu. Gói cũ: một file mỗi câu (/audio/<storyId>/001.mp3).
+   * Gói v2: đoạn trong audio liền của chương, dạng media fragment
+   * `${audioTrack.src}#t=<start>,<end>` (trùng với t), nên trình đọc hiện tại vẫn phát đúng câu.
+   */
   audio: string;
+  /** Gói v2: [giây bắt đầu, giây kết thúc] của câu trong audioTrack của chương */
+  t?: [number, number];
+  /** Gói v2: giọng đọc câu này (ghi theo docs/content-standard.md mục 6) */
+  voice?: "ja-JP-Chirp3-HD-Aoede" | "ja-JP-Neural2-B" | "ja-JP-Neural2-C";
+}
+
+/** Một file audio liền cho cả chương: phát liền mạch khi tắt màn hình / Bluetooth. */
+export interface AudioTrack {
+  /** Ví dụ /audio/<storyId>/chapter.mp3 */
+  src: string;
+  durationSec: number;
+}
+
+/** Điểm ngữ pháp chính của chương (thẻ "Bài học"). */
+export interface GrammarPoint {
+  /** Mẫu ngữ pháp, ví dụ "〜てしまう" */
+  pattern: string;
+  /** Nghĩa và cách dùng, 11 ngôn ngữ */
+  meaning: Translations;
+  /** Chỉ số câu ví dụ trong sentences (từ 0) */
+  example: number;
+}
+
+/** Câu hỏi hiểu bài sau chương. Câu hỏi và lựa chọn bằng tiếng Nhật đúng cấp. */
+export interface QuizQuestion {
+  ja: string;
+  choices: string[];
+  /** Chỉ số lựa chọn đúng (từ 0) */
+  answer: number;
+  /** Giải thích đáp án, 11 ngôn ngữ */
+  explain: Translations;
+}
+
+export interface Lesson {
+  grammarPoints: GrammarPoint[];
+  quiz: QuizQuestion[];
 }
 
 export interface StoryContent {
@@ -101,6 +141,14 @@ export interface StoryContent {
   standard?: 2;
   /** Truyện nhiều chương: id bộ truyện và số chương (từ 1) */
   series?: { id: string; index: number };
+  /** Gói v2: audio liền của chương; mỗi câu có t = [start, end] trong file này */
+  audioTrack?: AudioTrack;
+  /** Gói v2: thẻ Bài học (2–4 điểm ngữ pháp, 3–5 câu hỏi) */
+  lesson?: Lesson;
+  /** Kệ hiển thị trong tab Truyện */
+  shelf?: "literature" | "mystery" | "ghost" | "rakugo" | "folktale-jp" | "hometown" | "world" | "life-series" | "life";
+  /** Truyện quê hương: mã nước ISO 3166 (VN, KR, CN, PH, ID, TH, NP, MM, BR) */
+  origin?: string;
 }
 
 export type ContentItem = VideoContent | StoryContent;
