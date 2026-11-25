@@ -1690,6 +1690,78 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "lineCount": 12,
   "clipStart": 190,
   "clipEnd": 274
+ },
+ {
+  "id": "yuyu-learning-spanish",
+  "youtubeId": "C9VabhxOPbA",
+  "titles": {
+   "vi": "YUYU Podcast: Mình học nói tiếng Tây Ban Nha thế nào",
+   "en": "YUYU Podcast: How I learned to speak Spanish",
+   "zh-Hans": "YUYU播客：我是怎样学会说西班牙语的",
+   "zh-Hant": "YUYU Podcast：我是怎樣學會說西班牙語的",
+   "ko": "YUYU 팟캐스트: 제가 스페인어를 하게 된 방법",
+   "tl": "YUYU Podcast: Paano ako natutong mag-Espanyol",
+   "ne": "YUYU पोडकास्ट: मैले स्पेनिस बोल्न कसरी सिकेँ",
+   "id": "YUYU Podcast: Cara saya belajar bicara bahasa Spanyol",
+   "pt": "YUYU Podcast: Como aprendi a falar espanhol",
+   "my": "YUYU Podcast- ကျွန်တော် စပိန်စကား ဘယ်လို ပြောတတ်လာလဲ",
+   "th": "YUYU Podcast: ผมหัดพูดภาษาสเปนได้อย่างไร"
+  },
+  "level": "N3",
+  "category": "podcast",
+  "durationSec": 1033,
+  "free": false,
+  "lineCount": 12,
+  "clipStart": 0,
+  "clipEnd": 74
+ },
+ {
+  "id": "yuyu-understand-first",
+  "youtubeId": "C9VabhxOPbA",
+  "titles": {
+   "vi": "YUYU Podcast: Tiếng Nhật hiểu được phải nhiều hơn tiếng Nhật dùng được",
+   "en": "YUYU Podcast: Understand more Japanese than you can use",
+   "zh-Hans": "YUYU播客：能听懂的日语要比能用的多",
+   "zh-Hant": "YUYU Podcast：能聽懂的日語要比能用的多",
+   "ko": "YUYU 팟캐스트: 아는 일본어가 쓰는 일본어보다 많아야 한다",
+   "tl": "YUYU Podcast: Mas marami dapat ang naiintindihan kaysa nagagamit",
+   "ne": "YUYU पोडकास्ट: बुझ्ने जापानी प्रयोग गर्ने भन्दा बढी",
+   "id": "YUYU Podcast: Pahami lebih banyak daripada yang bisa dipakai",
+   "pt": "YUYU Podcast: Entenda mais japonês do que consegue usar",
+   "my": "YUYU Podcast- နားလည်တဲ့ ဂျပန်စကားက သုံးနိုင်တာထက် များရမယ်",
+   "th": "YUYU Podcast: ภาษาญี่ปุ่นที่เข้าใจต้องมากกว่าที่ใช้ได้"
+  },
+  "level": "N3",
+  "category": "podcast",
+  "durationSec": 1033,
+  "free": false,
+  "lineCount": 9,
+  "clipStart": 70,
+  "clipEnd": 138
+ },
+ {
+  "id": "shun-moving-saitama",
+  "youtubeId": "gnOOLxtSPLs",
+  "titles": {
+   "vi": "Japanese with Shun: Chuyển nhà từ Pháp về Saitama",
+   "en": "Japanese with Shun: Moving from France to Saitama",
+   "zh-Hans": "Japanese with Shun：从法国搬到埼玉",
+   "zh-Hant": "Japanese with Shun：從法國搬到埼玉",
+   "ko": "Japanese with Shun: 프랑스에서 사이타마로 이사",
+   "tl": "Japanese with Shun: Paglipat mula France papuntang Saitama",
+   "ne": "Japanese with Shun: फ्रान्सबाट साइतामा सर्दै",
+   "id": "Japanese with Shun: Pindah dari Prancis ke Saitama",
+   "pt": "Japanese with Shun: Mudança da França para Saitama",
+   "my": "Japanese with Shun- ပြင်သစ်ကနေ ဆိုင်တာမားကို ပြောင်းခြင်း",
+   "th": "Japanese with Shun: ย้ายจากฝรั่งเศสมาไซตามะ"
+  },
+  "level": "N3",
+  "category": "conversation",
+  "durationSec": 2038,
+  "free": false,
+  "lineCount": 11,
+  "clipStart": 70,
+  "clipEnd": 130
  }
 ];
 

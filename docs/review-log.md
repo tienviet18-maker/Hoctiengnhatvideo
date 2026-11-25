@@ -110,3 +110,13 @@ Phần còn lại của `cSIX6prPwRk` (132–343s) chưa dựng. ID `video99–v
 | 27 | Trung bình | **Còn mở**: mốc thời gian vẫn là ASR + nội suy, chưa nghe kiểm. Phương án căn tự động bằng Whisper cần tải tạm âm thanh YouTube — đang chờ Việt quyết. | — |
 
 **Cho Muse — tránh trùng**: đã dùng `cS8oEgJ9CXU` (7–272s). ID `video103–video106` đã cấp.
+
+## Đợt 5 — 2 kênh mới: YUYU Podcast + Japanese with Shun (26/11/2026, nhánh `claude/video-yuyu-shun`, xếp trên PR #17)
+
+| # | Mức | Việc | PR |
+|---|---|---|---|
+| 28 | **Cao** | Kênh mới `yuyu` (YUYUの日本語Podcast, dòng B, N3) và `shun` (Japanese with Shun, hội thoại N3–N2). Cả hai cho nhúng, xem được tại Nhật, có phụ đề tự động `ja`. Thêm vào `src/lib/series.ts` + nhãn 11 ngôn ngữ. | PR này |
+| 29 | **Cao** | 3 gói `standard: 2`: `yuyu-learning-spanish` (72s), `yuyu-understand-first` (63s), `shun-moving-saitama` (56s), đều N3. Đăng ký `video107–109`. | PR này |
+| 30 | Trung bình | Hội thoại 2 người (Shun) có ASR chen tiếng đệm của người nghe — mỗi clip phải tách tay, chậm hơn TED-Ed. Podcast một người (YUYU) sạch, không dấu câu. | — |
+
+**Cho Muse — tránh trùng**: đã dùng `C9VabhxOPbA` (0–136s), `gnOOLxtSPLs` (72–128s). ID `video107–video109` đã cấp.

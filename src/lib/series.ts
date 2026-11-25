@@ -12,6 +12,8 @@ export const SERIES: SeriesDef[] = [
   { key: "yuta" },
   { key: "peppa" },
   { key: "teded" },
+  { key: "yuyu" },
+  { key: "shun" },
 ];
 
 export function seriesOf(videoId: string): string | null {
