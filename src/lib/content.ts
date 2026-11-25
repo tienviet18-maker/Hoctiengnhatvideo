@@ -1,4 +1,28 @@
 import type { StoryContent, VideoContent } from "./content-schema";
+// --- kệ B/C Rakugo + cổ tích (chuẩn v2): import ---
+import bcRakugoTokiSoba from "../../content/stories/rakugo-toki-soba.json";
+import bcRakugoManjuKowai from "../../content/stories/rakugo-manju-kowai.json";
+import bcRakugoMeguroNoSanma from "../../content/stories/rakugo-meguro-no-sanma.json";
+import bcRakugoJugemu from "../../content/stories/rakugo-jugemu.json";
+import bcRakugoShibahama1 from "../../content/stories/rakugo-shibahama-1.json";
+import bcRakugoShibahama2 from "../../content/stories/rakugo-shibahama-2.json";
+import bcRakugoHatsuTenjin from "../../content/stories/rakugo-hatsu-tenjin.json";
+import bcRakugoKohome from "../../content/stories/rakugo-kohome.json";
+import bcRakugoSokotsuNagaya from "../../content/stories/rakugo-sokotsu-nagaya.json";
+import bcMukashiUrashima1 from "../../content/stories/mukashi-urashima-1.json";
+import bcMukashiUrashima2 from "../../content/stories/mukashi-urashima-2.json";
+import bcMukashiTsuru1 from "../../content/stories/mukashi-tsuru-1.json";
+import bcMukashiTsuru2 from "../../content/stories/mukashi-tsuru-2.json";
+import bcMukashiIssun1 from "../../content/stories/mukashi-issun-1.json";
+import bcMukashiIssun2 from "../../content/stories/mukashi-issun-2.json";
+import bcMukashiKaguya1 from "../../content/stories/mukashi-kaguya-1.json";
+import bcMukashiKaguya2 from "../../content/stories/mukashi-kaguya-2.json";
+import bcMukashiKaguya3 from "../../content/stories/mukashi-kaguya-3.json";
+import bcMukashiShuten1 from "../../content/stories/mukashi-shuten-1.json";
+import bcMukashiShuten2 from "../../content/stories/mukashi-shuten-2.json";
+import bcMukashiUshiwaka1 from "../../content/stories/mukashi-ushiwaka-1.json";
+import bcMukashiUshiwaka2 from "../../content/stories/mukashi-ushiwaka-2.json";
+// --- hết kệ B/C: import ---
 import video1 from "../../content/videos/teppei-genki-01.json";
 import video2 from "../../content/videos/teppei-study-how-long.json";
 import video3 from "../../content/videos/akane-directions.json";
@@ -643,6 +667,30 @@ export const VIDEOS: VideoContent[] = [
   video98 as unknown as VideoContent,
 ];
 export const STORIES: StoryContent[] = [
+  // --- kệ B/C Rakugo + cổ tích (chuẩn v2) ---
+  bcRakugoTokiSoba as unknown as StoryContent,
+  bcRakugoManjuKowai as unknown as StoryContent,
+  bcRakugoMeguroNoSanma as unknown as StoryContent,
+  bcRakugoJugemu as unknown as StoryContent,
+  bcRakugoShibahama1 as unknown as StoryContent,
+  bcRakugoShibahama2 as unknown as StoryContent,
+  bcRakugoHatsuTenjin as unknown as StoryContent,
+  bcRakugoKohome as unknown as StoryContent,
+  bcRakugoSokotsuNagaya as unknown as StoryContent,
+  bcMukashiUrashima1 as unknown as StoryContent,
+  bcMukashiUrashima2 as unknown as StoryContent,
+  bcMukashiTsuru1 as unknown as StoryContent,
+  bcMukashiTsuru2 as unknown as StoryContent,
+  bcMukashiIssun1 as unknown as StoryContent,
+  bcMukashiIssun2 as unknown as StoryContent,
+  bcMukashiKaguya1 as unknown as StoryContent,
+  bcMukashiKaguya2 as unknown as StoryContent,
+  bcMukashiKaguya3 as unknown as StoryContent,
+  bcMukashiShuten1 as unknown as StoryContent,
+  bcMukashiShuten2 as unknown as StoryContent,
+  bcMukashiUshiwaka1 as unknown as StoryContent,
+  bcMukashiUshiwaka2 as unknown as StoryContent,
+  // --- hết kệ B/C ---
   story1 as unknown as StoryContent,
   story2 as unknown as StoryContent,
   story3 as unknown as StoryContent,

@@ -85,6 +85,84 @@ bản quyền bản dịch. Các mục này xử lý ở Bước 0b–0c.
 | 19 | Thấp | Ẩn chip thể loại không có video nào (Anime đang 0 gói). Chip tự hiện lại khi có gói. | #6 |
 | 20 | **Cao** | Rà bản quyền 66 truyện chuyển thể (`aozora-adapted`). Ở Nhật cả 66 đều hết bản quyền. Theo luật Mỹ (URAA), 5 tác phẩm của Dazai Osamu (mất 1948) in 1939–1947 còn bản quyền ở Mỹ đến 2035–2043: 走れメロス, 富嶽百景, 女生徒, 斜陽, ヴィヨンの妻. App bán toàn cầu nên đã gỡ 5 gói này. 61 gói còn lại: tác giả mất trước 1946, hoặc tác giả mất 1946–1967 nhưng tác phẩm in trước 1931 (Kōda Rohan, 五重塔 1891). Truyện của Hearn là tự kể lại bằng tiếng Nhật từ bản gốc tiếng Anh 1904, không dùng bản dịch hiện đại. Bản dịch 11 ngôn ngữ là bản tự dịch từ văn bản của mình. Chuẩn v2 mục 2 đã ghi rõ quy tắc URAA. | #7 |
 | 21 | **Cao** | Schema v2 thêm `audioTrack` (audio liền cho cả chương, để nghe khi tắt màn hình hoặc qua Bluetooth), `t` và `voice` cho từng câu, `lesson` (điểm ngữ pháp và câu hỏi), `shelf`, `origin`. QC chặn gói v2 thiếu các trường này. Chuẩn v2 thêm mục 6b–6d. | #8 |
+
+## Kệ B Rakugo — lô 1 (25/11/2026)
+
+Nhánh `claude/shelf-rakugo-mukashi`, dựa trên PR #8. Ba gói chuẩn v2, đều N3 (cấp đo bằng kuromoji + danh sách JLPT, không gán tay):
+
+| Gói | Câu | Ký tự | Audio liền | Giọng | Bài học | Miễn phí |
+|---|---|---|---|---|---|---|
+| `rakugo-toki-soba` 時そば | 62 | 1.371 | 5,2 phút | Aoede kể; 3 vai Neural2-C khác cao độ/tốc độ; Neural2-B | ておく, ながら, すぎる, てしまう + 4 câu hỏi | có |
+| `rakugo-manju-kowai` まんじゅうこわい | 52 | 1.475 | 5,4 phút | Aoede kể; 3 vai Neural2-C | のに, だけで, てしまう, たくなる + 4 câu hỏi | VIP |
+| `rakugo-meguro-no-sanma` 目黒のさんま | 48 | 1.450 | 5,3 phút | Aoede kể; lãnh chúa, gia thần (Neural2-C); bà lão (Neural2-B) | うちに, ほど, に限る, たばかり + 4 câu hỏi | VIP |
+
+- Pháp lý: rakugo cổ điển là tiết mục dân gian thời Edo, không có tác giả. Kịch bản do Claude tự viết lại bằng tiếng Nhật phân cấp, không chép bản ghi âm hay sách của nghệ sĩ nào. Ghi chú pháp lý trong từng `content/stories/<id>.qc.md`.
+- Công cụ: `scripts/build-audio-pack.mjs` (bản thảo `content/sources/rakugo/<id>/` → JSON v2 + `chapter.mp3` + mốc `t` từng câu; khoá TTS chỉ đọc từ biến môi trường), `scripts/audio-shelf/cover.mjs` (bìa bunko dọc, mỗi truyện một font), `scripts/audio-shelf/register.mjs` (đăng ký ở ĐẦU mảng STORIES, giữa hai dấu `kệ B/C`, để không đụng khối của nhánh A/E ở cuối mảng).
+- Romaji: viết hoa tên riêng, tách `de gozaimasu`, は cuối phó từ đọc `wa`, ép tách từ cho chữ kana kuromoji đọc sai (へい, しっぽく).
+- Sửa kế hoạch: mục "饅頭" trong `audio-tuyen-chon.md` trùng với まんじゅうこわい, sẽ thay bằng 初天神 ở lô 2.
+- `npm run verify` xanh trên bản clone sạch tại commit đầu nhánh.
+
+## Kệ B Rakugo — lô 2 (25/11/2026)
+
+Cùng nhánh và PR #10. Sáu gói chuẩn v2; kệ B đủ 9 gói (8 tiết mục, 芝浜 hai tập):
+
+| Gói | Cấp | Câu | Ký tự | Audio liền | Vai (một giọng cố định mỗi vai) | Bài học |
+|---|---|---|---|---|---|---|
+| `rakugo-jugemu` 寿限無 | N3 | 55 | 1.894 | 5,7 phút | Aoede kể; bố, sư (Neural2-C), mẹ, bé Kin (Neural2-B) | てたまらない, ければ〜ほど, ているうちに, てほしい + 4 câu hỏi |
+| `rakugo-shibahama-1` 芝浜 (上) | N3 | 58 | 1.492 | 5,3 phút | Aoede; Katsugorō, bạn nhậu (Neural2-C); vợ (Neural2-B) | ことにする, そうになる, どころじゃない, ようになる + 4 |
+| `rakugo-shibahama-2` 芝浜 (下) | N3 | 55 | 1.409 | 5,1 phút | như tập 1 | ほど, ながらも, ところだった, てくれたから + 4 |
+| `rakugo-hatsu-tenjin` 初天神 | N4 | 60 | 1.538 | 5,1 phút | Aoede; bố, người bán kẹo, người bán dango (Neural2-C); con, mẹ, người bán diều (Neural2-B) | (よ)うとする, すぎる, ないでください, んじゃなかった + 4 |
+| `rakugo-kohome` 子ほめ | N4 | 60 | 1.520 | 5,1 phút | Aoede; Hachigorō, cụ Goinkyo, bantō, Take (Neural2-C, cao độ/tốc độ khác nhau) | そうですね, ばいい, たばかり, にしては + 4 |
+| `rakugo-sokotsu-nagaya` 粗忽長屋 | N3 | 56 | 1.526 | 5,2 phút | Aoede; Hachigorō, Kumagorō, viên quan (Neural2-C) | はずがない, ている場合じゃない, ような気がする, わけがない + 4 |
+
+- Series: 芝浜 dùng `series: {id: "rakugo-shibahama", index: 1|2}`, mỗi tập một bìa riêng.
+- Pháp lý: 寿限無, 初天神, 子ほめ, 粗忽長屋 là tiết mục dân gian thời Edo; 芝浜 là nhân tình噺 cuối Edo–đầu Meiji (tương truyền của Sanyūtei Enchō, mất 1900), theo thuyết nào cũng đã hết bản quyền. Kịch bản tự viết lại, không chép bản ghi hay sách của nghệ sĩ nào.
+- 初天神 thay mục "饅頭" bị trùng trong kế hoạch. Câu cuối mỗi gói dẫn sang gói kế; 粗忽長屋 dẫn sang kệ C (浦島太郎).
+- Công cụ: TTS câu dài hơn 60 ký tự được tách ở 、 rồi nối (giới hạn Neural2); audio đọc theo cách đọc ép `{漢字|よみ}` nên không còn đọc sai (蒸す, 行き倒れ, 抱く…); romaji thêm luật ghép お-tiền tố, 接続詞/副詞 は→wa.
+- zh-Hant viết tay, kiểm bằng phép mã hoá Big5 cho phần dịch (bắt chữ giản thể sót: 俩, 嘞, 凑, 连…); chữ Hán Nhật trong ghi chú ngữ pháp giữ nguyên dạng Nhật.
+- Cấp N4 kiểm theo luật N4 (≤60 câu, TB câu ≤26 ký tự, từ khó ≤15%); hai gói N4 đã gộp/bớt câu để đạt luật mà vẫn ≥5 phút.
+
+## Kệ C Truyện dân gian Nhật — lô 1 (25/11/2026)
+
+Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Sáu gói chuẩn v2, `shelf: "folktale-jp"`, id `mukashi-<tên>-<tập>`, mỗi truyện là một series hai tập. Gói ngắn cũ của Muse (`urashima-taro`, `tsuru-no-ongaeshi`, `issun-boshi`…) giữ nguyên; đây là bản dài nghe liền.
+
+| Gói | Cấp | Câu | Audio liền | Bìa (font) | Bài học | Miễn phí |
+|---|---|---|---|---|---|---|
+| `mukashi-urashima-1` 浦島太郎 (上) | N3 | 59 | 5,7 phút | Shippori Mincho B1 | たり〜たり, てはいけない, ていただく, にちがいない + 4 câu hỏi | có |
+| `mukashi-urashima-2` 浦島太郎 (下) | N3 | 58 | 5,0 phút | Shippori Mincho B1 | ても, はずだ, たまま, てしまう + 4 | VIP |
+| `mukashi-tsuru-1` 鶴の恩返し (上) | N3 | 59 | 5,7 phút | Klee One | てあげる, (さ)せてください, ようになる, ことにする + 4 | VIP |
+| `mukashi-tsuru-2` 鶴の恩返し (下) | N3 | 57 | 5,4 phút | Klee One | のに, ずつ, たら, たびに + 4 | VIP |
+| `mukashi-issun-1` 一寸法師 (上) | N3 | 58 | 5,4 phút | Potta One | しか〜ない, ないように, ために, ことになる + 4 | VIP |
+| `mukashi-issun-2` 一寸法師 (下) | N3 | 60 | 5,1 phút | Potta One | みたいに, ながら, (よ)うとする, ば + 4 | VIP |
+
+- Giọng: Chirp3-HD-Aoede kể; mỗi nhân vật một giọng cố định Neural2-C (nam) hoặc Neural2-B (nữ) với cao độ/tốc độ riêng (ông lão, bà lão, cô gái, công chúa, quan đại thần, hai con quỷ…), ghi trong `meta.json` từng gói.
+- Pháp lý: cả ba truyện là cổ tích dân gian không tác giả (浦島太郎 có từ thời Nara; 一寸法師 trong Otogizōshi thời Muromachi; 鶴の恩返し truyền miệng từ thời Edo trở về trước). Bản kể do Claude tự viết. 鶴の恩返し tránh hẳn vở kịch 夕鶴 (Kinoshita Junji, còn bản quyền): không dùng tên つう, 与ひょう hay tình tiết riêng của vở.
+- Đọc ép `{漢字|よみ}` cho các chỗ kuromoji đọc sai: 竜宮城 (bị tách thành 竜+宮城みやぎ), 山道 (やまみち), 宝物 (たからもの), 一本/一羽/一晩/三日三晩, 和尚, 呉服屋, 二人/一人.
+- Bài học chọn để không trùng điểm ngữ pháp giữa các tập trong cùng kệ (trừ ことになる/ことにする được đặt cạnh nhau có chủ đích để so sánh).
+- Glossary chung `content/sources/glossary-rakugo-mukashi.tsv` thêm khoảng 80 từ 11 ngôn ngữ.
+- `npm run verify` xanh trên bản clone sạch (commit 4a8afc0); QC toàn kho sau gói cuối: 557 gói, 0 lỗi, 15 gói chuẩn v2.
+- Còn lại kệ C: かぐや姫 (2–3 tập, Kiwi Maru), 酒呑童子 ×2 (RocknRoll One), 牛若丸と弁慶 ×2 (Yusei Magic).
+
+## Kệ C Truyện dân gian Nhật — lô 2 (25/11/2026)
+
+Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Bảy gói chuẩn v2, N3, `shelf: "folktale-jp"`. Với gói này, kệ C đủ 13 gói (6 truyện).
+
+| Gói | Commit | Câu | Audio liền | Bìa (font) | Bài học | Miễn phí |
+|---|---|---|---|---|---|---|
+| `mukashi-kaguya-1` かぐや姫 (一) | 46eec2a | 58 | 5,9 phút | Kiwi Maru | ほど, ばかり, てもらう, たいものだ + 4 câu hỏi | VIP |
+| `mukashi-kaguya-2` かぐや姫 (二) | d9e6d2f | 58 | 6,1 phút | Kiwi Maru | (さ)せる, まるで〜ようだ, ずに, ふりをする + 4 | VIP |
+| `mukashi-kaguya-3` かぐや姫 (三) | e1102e1 | 57 | 6,0 phút | Kiwi Maru | なければならない, はず, まま, ように命じる + 4 | VIP |
+| `mukashi-shuten-1` 酒呑童子 (一) | d1a9f78 | 59 | 6,0 phút | RocknRoll One | として, とおり, 使役受身, てはならない + 4 | có |
+| `mukashi-shuten-2` 酒呑童子 (二) | 464907f | 58 | 6,0 phút | RocknRoll One | てみせる, たことがない, というのに, のためなら + 4 | VIP |
+| `mukashi-ushiwaka-1` 牛若丸と弁慶 (一) | da51415 | 55 | 5,8 phút | Yusei Magic | ている場合ではない, の代わりに, さえ, てみたらどうですか + 4 | có |
+| `mukashi-ushiwaka-2` 牛若丸と弁慶 (二) | ae05bcb + bài học sửa | 55 | 5,9 phút | Yusei Magic | てばかりいないで, より〜ほうが, と言われている, でも + 4 | VIP |
+
+- Giọng: Aoede kể; nhân vật Neural2-C/B cố định mỗi người một giọng (Raikō, Kintoki, Tsuna, Shuten-dōji, quỷ gác cổng, thần linh, Tokiwa, Ushiwaka, Benkei, thiên cẩu, sứ giả cung trăng…), ghi trong `meta.json`.
+- Pháp lý: かぐや姫 dựa trên 竹取物語 (thế kỷ 9–10), 酒呑童子 dựa trên Otogizōshi/emaki thời Muromachi, 牛若丸と弁慶 dựa trên 義経記 (thời Muromachi). Tất cả public domain, lời kể do Claude tự viết; không dùng lời bài hát đồng dao 牛若丸 (dù đã hết bản quyền, để tránh tranh cãi).
+- 牛若丸と弁慶 tập 2 kết bằng các thành ngữ còn sống trong tiếng Nhật: 弁慶の立ち往生, 弁慶の泣き所, 内弁慶, 判官びいき (gắn "truyện cổ" với tiếng Nhật đời thường).
+- Đọc ép thêm: 都 (みやこ), 頼光 (らいこう), 酒呑童子, 神便鬼毒酒, 殿 (どの), 牛若, 源氏/平家, 判官 (ほうがん), 体中 (からだじゅう), 一本 (いっぽん), 角 (つの), 夜中 (よなか)… Từ bị tách sai chuyển vào `skipVocab` (綱, 殿, 助け, 教え, ちゃんと, 丸).
+- Bài học tập 2 牛若丸 đổi 2 điểm (たまま, ほど → と言われている, でも) để không trùng với các tập khác trong kệ.
+- Glossary chung thêm khoảng 130 từ 11 ngôn ngữ. QC toàn kho: 564 gói, 0 lỗi, 22 gói chuẩn v2.
 | 22 | Cao | Định vị mới do Việt chốt 25/11: app giải trí bằng tiếng Nhật, không còn là "học để sống ở Nhật". Slogan mới bằng 11 ngôn ngữ, đặt ở tagline, câu chào onboarding và metadata trang. Cập nhật CLAUDE.md mục 2 và chuẩn v2 mục 1. | #9 |
 | 23 | Kế hoạch | Thêm `docs/ux-plan.md`: kế hoạch UX v2 Việt đã duyệt (6 màn hình, nhóm A bắt buộc trước khi lên store, nhóm B để vượt Tadoku, cách xin đánh giá) và kế hoạch VIP (mục 6; bảng miễn phí/VIP là đề xuất, chờ Việt duyệt). | ux-v2 |
 | 24 | UX | Khung 5 tab theo `docs/ux-plan.md`: Trang chủ · Truyện · Video · Ôn tập · Tôi. Thêm Trang chủ mới (nghe/xem tiếp, số từ đến hạn ôn, truyện mới, video mới, lộ trình). Danh sách video chuyển sang `/video`. Bỏ tab Tin tức. Thẻ "Nghe khi lái xe" chuyển sang tab Truyện. Tab Tôi có lối vào Lộ trình, mục hệ sinh thái ViMai (ViCare, ViMai Menkyo, ViBJT·ViJPT) và dòng bản quyền ViMai. Nút đánh giá chỉ hiện khi đã có `APP_STORE_ID` (`src/lib/vimai.ts`). Thẻ app ViMai chưa có link vì chưa có link store chính thức. Chuỗi mới có đủ 11 ngôn ngữ. | ux-shell |

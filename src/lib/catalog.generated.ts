@@ -1509,6 +1509,660 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
 
 export const STORY_INDEX: StoryIndexItem[] = [
  {
+  "id": "rakugo-toki-soba",
+  "titles": {
+   "vi": "Toki Soba — Bát mì soba và cách đếm giờ",
+   "en": "Toki Soba — The Soba and the Hour",
+   "zh-Hans": "时荞麦——荞麦面与时辰",
+   "zh-Hant": "時蕎麥——蕎麥麵與時辰",
+   "ko": "도키소바 — 소바와 시각",
+   "tl": "Toki Soba — Ang Soba at ang Oras",
+   "ne": "तोकी सोबा — सोबा र समय",
+   "id": "Toki Soba — Soba dan Jam",
+   "pt": "Toki Soba — O soba e a hora",
+   "my": "တိုကီ ဆိုဘာ — ဆိုဘာနဲ့ အချိန်",
+   "th": "โทคิโซบะ — โซบะกับยามเวลา"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 63,
+  "cover": "/covers/rakugo-toki-soba.webp",
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-toki-soba/chapter.mp3",
+   "durationSec": 304.87
+  }
+ },
+ {
+  "id": "rakugo-manju-kowai",
+  "titles": {
+   "vi": "Manjū Kowai — Tôi sợ bánh manjū",
+   "en": "Manjū Kowai — I'm Scared of Manjū",
+   "zh-Hans": "馒头好可怕",
+   "zh-Hant": "饅頭好可怕",
+   "ko": "만주가 무서워",
+   "tl": "Manjū Kowai — Takot Ako sa Manjū",
+   "ne": "मान्जु कोवाई — मलाई मान्जुको डर",
+   "id": "Manjū Kowai — Aku Takut Manjū",
+   "pt": "Manjū Kowai — Tenho medo de manjū",
+   "my": "မန်ဂျူ ကိုဝိုင်း — မန်ဂျူကို ကြောက်တယ်",
+   "th": "มันจูโควาอิ — กลัวขนมมันจู"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/rakugo-manju-kowai.webp",
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-manju-kowai/chapter.mp3",
+   "durationSec": 318.58
+  }
+ },
+ {
+  "id": "rakugo-meguro-no-sanma",
+  "titles": {
+   "vi": "Meguro no Sanma — Cá thu đao thì phải Meguro",
+   "en": "Meguro no Sanma — Saury Is Best from Meguro",
+   "zh-Hans": "目黑的秋刀鱼——秋刀鱼还得是目黑的",
+   "zh-Hant": "目黑的秋刀魚——秋刀魚還得是目黑的",
+   "ko": "메구로의 꽁치 — 꽁치는 메구로가 최고",
+   "tl": "Meguro no Sanma — Saury, Pinakamainam sa Meguro",
+   "ne": "मेगुरोको सान्मा — सान्मा त मेगुरोकै",
+   "id": "Meguro no Sanma — Sanma Paling Enak dari Meguro",
+   "pt": "Meguro no Sanma — Sanma bom é o de Meguro",
+   "my": "မဂူရိုရဲ့ ဆန်မ — ဆန်မဆို မဂူရိုမှ",
+   "th": "ซันมะแห่งเมกุโระ — ซันมะต้องเมกุโระ"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/rakugo-meguro-no-sanma.webp",
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-meguro-no-sanma/chapter.mp3",
+   "durationSec": 312.34
+  }
+ },
+ {
+  "id": "rakugo-jugemu",
+  "titles": {
+   "vi": "Jugemu — Cái tên dài nhất Nhật Bản",
+   "en": "Jugemu — The Longest Name in Japan",
+   "zh-Hans": "寿限无——日本最长的名字",
+   "zh-Hant": "壽限無——日本最長的名字",
+   "ko": "주게무 — 일본에서 가장 긴 이름",
+   "tl": "Jugemu — Ang Pinakamahabang Pangalan sa Japan",
+   "ne": "जुगेमु — जापानको सबैभन्दा लामो नाम",
+   "id": "Jugemu — Nama Terpanjang di Jepang",
+   "pt": "Jugemu — O nome mais comprido do Japão",
+   "my": "ဂျုဂဲမု — ဂျပန်ရဲ့ အရှည်ဆုံး နာမည်",
+   "th": "จุเงมุ — ชื่อที่ยาวที่สุดในญี่ปุ่น"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 55,
+  "cover": "/covers/rakugo-jugemu.webp",
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-jugemu/chapter.mp3",
+   "durationSec": 339.72
+  }
+ },
+ {
+  "id": "rakugo-shibahama-1",
+  "titles": {
+   "vi": "Shibahama (Phần 1) — Chiếc ví trên bờ biển",
+   "en": "Shibahama (Part 1) — The Wallet on the Beach",
+   "zh-Hans": "芝浜（上）——海边的钱包",
+   "zh-Hant": "芝濱（上）——海邊的錢包",
+   "ko": "시바하마 (상) — 바닷가의 지갑",
+   "tl": "Shibahama (Bahagi 1) — Ang Pitaka sa Dalampasigan",
+   "ne": "शिबाहामा (भाग १) — समुद्र किनारको पर्स",
+   "id": "Shibahama (Bagian 1) — Dompet di Pantai",
+   "pt": "Shibahama (Parte 1) — A carteira na praia",
+   "my": "ရှီဘာဟာမ (အပိုင်း ၁) — ကမ်းခြေက ပိုက်ဆံအိတ်",
+   "th": "ชิบะฮามะ (ตอนที่ 1) — กระเป๋าเงินบนชายหาด"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/rakugo-shibahama-1.webp",
+  "series": {
+   "id": "rakugo-shibahama",
+   "index": 1
+  },
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-shibahama-1/chapter.mp3",
+   "durationSec": 319.61
+  }
+ },
+ {
+  "id": "rakugo-shibahama-2",
+  "titles": {
+   "vi": "Shibahama (Phần 2) — Đêm giao thừa",
+   "en": "Shibahama (Part 2) — New Year's Eve",
+   "zh-Hans": "芝浜（下）——除夕之夜",
+   "zh-Hant": "芝濱（下）——除夕之夜",
+   "ko": "시바하마 (하) — 섣달그믐 밤",
+   "tl": "Shibahama (Bahagi 2) — Bisperas ng Bagong Taon",
+   "ne": "शिबाहामा (भाग २) — वर्षको अन्तिम रात",
+   "id": "Shibahama (Bagian 2) — Malam Tahun Baru",
+   "pt": "Shibahama (Parte 2) — Véspera de Ano-Novo",
+   "my": "ရှီဘာဟာမ (အပိုင်း ၂) — နှစ်ကုန်ည",
+   "th": "ชิบะฮามะ (ตอนที่ 2) — คืนส่งท้ายปี"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 55,
+  "cover": "/covers/rakugo-shibahama-2.webp",
+  "series": {
+   "id": "rakugo-shibahama",
+   "index": 2
+  },
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-shibahama-2/chapter.mp3",
+   "durationSec": 303.24
+  }
+ },
+ {
+  "id": "rakugo-hatsu-tenjin",
+  "titles": {
+   "vi": "Hatsu Tenjin — Bố con đi hội đầu năm",
+   "en": "Hatsu Tenjin — Father and Son at the Festival",
+   "zh-Hans": "初天神——父子逛庙会",
+   "zh-Hant": "初天神——父子逛廟會",
+   "ko": "하쓰텐진 — 아빠와 아들의 축제 나들이",
+   "tl": "Hatsu Tenjin — Mag-ama sa Pista",
+   "ne": "हात्सु तेन्जिन — चाडमा बाबुछोरा",
+   "id": "Hatsu Tenjin — Ayah dan Anak di Festival",
+   "pt": "Hatsu Tenjin — Pai e filho na festa",
+   "my": "ဟာဆု တန်ဂျင် — ပွဲတော်သွားတဲ့ သားအဖ",
+   "th": "ฮัตสึเท็นจิน — พ่อลูกเที่ยวงานวัด"
+  },
+  "level": "N4",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/rakugo-hatsu-tenjin.webp",
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-hatsu-tenjin/chapter.mp3",
+   "durationSec": 306.72
+  }
+ },
+ {
+  "id": "rakugo-kohome",
+  "titles": {
+   "vi": "Kohome — Khen con nhà người ta",
+   "en": "Kohome — Praising the Baby",
+   "zh-Hans": "夸孩子",
+   "zh-Hant": "誇孩子",
+   "ko": "고호메 — 아기 칭찬하기",
+   "tl": "Kohome — Pagpuri sa Sanggol",
+   "ne": "कोहोमे — बच्चाको प्रशंसा",
+   "id": "Kohome — Memuji Bayi",
+   "pt": "Kohome — Elogiando o bebê",
+   "my": "ကိုဟိုမဲ — ကလေးကို ချီးမွမ်းခြင်း",
+   "th": "โคโฮเมะ — ชมเด็ก"
+  },
+  "level": "N4",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/rakugo-kohome.webp",
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-kohome/chapter.mp3",
+   "durationSec": 308.83
+  }
+ },
+ {
+  "id": "rakugo-sokotsu-nagaya",
+  "titles": {
+   "vi": "Sokotsu Nagaya — Anh chàng đi nhận xác mình",
+   "en": "Sokotsu Nagaya — The Man Who Claimed His Own Body",
+   "zh-Hans": "粗忽长屋——去领自己尸体的人",
+   "zh-Hant": "粗忽長屋——去領自己屍體的人",
+   "ko": "소코쓰 나가야 — 자기 시체를 거두러 간 남자",
+   "tl": "Sokotsu Nagaya — Ang Lalaking Kumuha ng Sariling Bangkay",
+   "ne": "सोकोत्सु नागाया — आफ्नै लास लिन गएको मान्छे",
+   "id": "Sokotsu Nagaya — Pria yang Mengambil Jenazahnya Sendiri",
+   "pt": "Sokotsu Nagaya — O homem que buscou o próprio corpo",
+   "my": "ဆိုကိုဆု နာဂါယ — ကိုယ့်အလောင်း ကိုယ်သွားယူတဲ့ လူ",
+   "th": "โซโคทสึ นางายะ — ชายผู้ไปรับศพตัวเอง"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 56,
+  "cover": "/covers/rakugo-sokotsu-nagaya.webp",
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-sokotsu-nagaya/chapter.mp3",
+   "durationSec": 314.02
+  }
+ },
+ {
+  "id": "mukashi-urashima-1",
+  "titles": {
+   "vi": "Urashima Tarō (phần 1) — Chàng ngư dân và cung điện dưới biển",
+   "en": "Urashima Tarō I — The Fisherman and the Palace under the Sea",
+   "zh-Hans": "浦岛太郎（上）——渔夫与海底龙宫",
+   "zh-Hant": "浦島太郎（上）——漁夫與海底龍宮",
+   "ko": "우라시마 타로 (상) — 어부와 바닷속 용궁",
+   "tl": "Urashima Tarō I — Ang Mangingisda at ang Palasyo sa Ilalim ng Dagat",
+   "ne": "उराशिमा तारो (भाग १) — माझी र समुद्रमुनिको दरबार",
+   "id": "Urashima Tarō I — Nelayan dan Istana di Dasar Laut",
+   "pt": "Urashima Tarō I — O Pescador e o Palácio no Fundo do Mar",
+   "my": "ဥရာရှီးမ တာရို (၁) — တံငါနဲ့ ပင်လယ်အောက် နန်းတော်",
+   "th": "อุราชิมะ ทาโร่ ตอนที่ 1 — ชาวประมงกับวังใต้ทะเล"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 59,
+  "cover": "/covers/mukashi-urashima-1.webp",
+  "series": {
+   "id": "mukashi-urashima",
+   "index": 1
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-urashima-1/chapter.mp3",
+   "durationSec": 342.77
+  }
+ },
+ {
+  "id": "mukashi-urashima-2",
+  "titles": {
+   "vi": "Urashima Tarō (phần 2) — Chiếc hộp không được mở",
+   "en": "Urashima Tarō II — The Box He Must Never Open",
+   "zh-Hans": "浦岛太郎（下）——不能打开的玉手箱",
+   "zh-Hant": "浦島太郎（下）——不能打開的玉手箱",
+   "ko": "우라시마 타로 (하) — 열면 안 되는 상자",
+   "tl": "Urashima Tarō II — Ang Kahong Hindi Dapat Buksan",
+   "ne": "उराशिमा तारो (भाग २) — खोल्न नहुने बाकस",
+   "id": "Urashima Tarō II — Kotak yang Tak Boleh Dibuka",
+   "pt": "Urashima Tarō II — A Caixa que Nunca Deve Ser Aberta",
+   "my": "ဥရာရှီးမ တာရို (၂) — မဖွင့်ရတဲ့ သေတ္တာ",
+   "th": "อุราชิมะ ทาโร่ ตอนที่ 2 — กล่องที่ห้ามเปิด"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/mukashi-urashima-2.webp",
+  "series": {
+   "id": "mukashi-urashima",
+   "index": 2
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-urashima-2/chapter.mp3",
+   "durationSec": 302.88
+  }
+ },
+ {
+  "id": "mukashi-tsuru-1",
+  "titles": {
+   "vi": "Hạc đền ơn (phần 1) — Cô gái giữa đêm tuyết",
+   "en": "The Crane's Gift I — The Girl in the Snowy Night",
+   "zh-Hans": "仙鹤报恩（上）——雪夜来的姑娘",
+   "zh-Hant": "仙鶴報恩（上）——雪夜來的姑娘",
+   "ko": "학의 보은 (상) — 눈 내리는 밤의 아가씨",
+   "tl": "Ang Ganti ng Tagak I — Ang Dalaga sa Gabing Maniyebe",
+   "ne": "सारसको गुन (भाग १) — हिउँ परेको रातकी युवती",
+   "id": "Balas Budi Bangau I — Gadis di Malam Bersalju",
+   "pt": "A Gratidão do Grou I — A Moça da Noite de Neve",
+   "my": "ကြိုးကြာရဲ့ ကျေးဇူးဆပ်ခြင်း (၁) — နှင်းကျတဲ့ညက မိန်းကလေး",
+   "th": "นกกระเรียนตอบแทนบุญคุณ ตอนที่ 1 — หญิงสาวในคืนหิมะตก"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 59,
+  "cover": "/covers/mukashi-tsuru-1.webp",
+  "series": {
+   "id": "mukashi-tsuru",
+   "index": 1
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-tsuru-1/chapter.mp3",
+   "durationSec": 340.56
+  }
+ },
+ {
+  "id": "mukashi-tsuru-2",
+  "titles": {
+   "vi": "Hạc đền ơn (phần 2) — Căn phòng không được nhìn",
+   "en": "The Crane's Gift II — The Room No One May See",
+   "zh-Hans": "仙鹤报恩（下）——不能偷看的房间",
+   "zh-Hant": "仙鶴報恩（下）——不能偷看的房間",
+   "ko": "학의 보은 (하) — 들여다보면 안 되는 방",
+   "tl": "Ang Ganti ng Tagak II — Ang Silid na Bawal Silipin",
+   "ne": "सारसको गुन (भाग २) — चियाउन नहुने कोठा",
+   "id": "Balas Budi Bangau II — Kamar yang Tak Boleh Diintip",
+   "pt": "A Gratidão do Grou II — O Quarto Proibido",
+   "my": "ကြိုးကြာရဲ့ ကျေးဇူးဆပ်ခြင်း (၂) — မချောင်းရတဲ့ အခန်း",
+   "th": "นกกระเรียนตอบแทนบุญคุณ ตอนที่ 2 — ห้องที่ห้ามแอบมอง"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 57,
+  "cover": "/covers/mukashi-tsuru-2.webp",
+  "series": {
+   "id": "mukashi-tsuru",
+   "index": 2
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-tsuru-2/chapter.mp3",
+   "durationSec": 321.91
+  }
+ },
+ {
+  "id": "mukashi-issun-1",
+  "titles": {
+   "vi": "Chú bé tí hon (phần 1) — Con thuyền bát gỗ lên kinh",
+   "en": "Issun-bōshi I — A Bowl Boat to the Capital",
+   "zh-Hans": "一寸法师（上）——乘木碗船去京城",
+   "zh-Hant": "一寸法師（上）——乘木碗船去京城",
+   "ko": "잇슨보시 (상) — 그릇 배를 타고 도읍으로",
+   "tl": "Issun-bōshi I — Sa Bangkang Mangkok Patungong Kabisera",
+   "ne": "इस्सुनबोशी (भाग १) — कचौराको डुङ्गामा राजधानीतिर",
+   "id": "Issun-bōshi I — Perahu Mangkuk ke Ibu Kota",
+   "pt": "Issun-bōshi I — Num Barco de Tigela até a Capital",
+   "my": "အစ်ဆွန်ဘိုရှိ (၁) — ပန်းကန်လုံးလှေနဲ့ မြို့တော်ဆီ",
+   "th": "อิซซุนโบชิ ตอนที่ 1 — ล่องเรือชามไปเมืองหลวง"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/mukashi-issun-1.webp",
+  "series": {
+   "id": "mukashi-issun",
+   "index": 1
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-issun-1/chapter.mp3",
+   "durationSec": 322.44
+  }
+ },
+ {
+  "id": "mukashi-issun-2",
+  "titles": {
+   "vi": "Chú bé tí hon (phần 2) — Búa thần của lũ quỷ",
+   "en": "Issun-bōshi II — The Ogres' Magic Mallet",
+   "zh-Hans": "一寸法师（下）——鬼的万宝槌",
+   "zh-Hant": "一寸法師（下）——鬼的萬寶槌",
+   "ko": "잇슨보시 (하) — 도깨비의 요술 방망이",
+   "tl": "Issun-bōshi II — Ang Mahiwagang Maso ng mga Oni",
+   "ne": "इस्सुनबोशी (भाग २) — राक्षसको जादुई मुङ्ग्रो",
+   "id": "Issun-bōshi II — Palu Ajaib Para Oni",
+   "pt": "Issun-bōshi II — O Martelo Mágico dos Ogros",
+   "my": "အစ်ဆွန်ဘိုရှိ (၂) — ဘီလူးတွေရဲ့ မှော်တူ",
+   "th": "อิซซุนโบชิ ตอนที่ 2 — ค้อนวิเศษของยักษ์"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/mukashi-issun-2.webp",
+  "series": {
+   "id": "mukashi-issun",
+   "index": 2
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-issun-2/chapter.mp3",
+   "durationSec": 306.29
+  }
+ },
+ {
+  "id": "mukashi-kaguya-1",
+  "titles": {
+   "vi": "Công chúa Kaguya (phần 1) — Cô bé trong ống tre",
+   "en": "Princess Kaguya I — The Girl in the Bamboo",
+   "zh-Hans": "辉夜姬（一）——竹子里的女孩",
+   "zh-Hant": "輝夜姬（一）——竹子裡的女孩",
+   "ko": "가구야 공주 (1) — 대나무 속의 소녀",
+   "tl": "Prinsesa Kaguya I — Ang Batang Babae sa Kawayan",
+   "ne": "राजकुमारी कागुया (भाग १) — बाँसभित्रकी केटी",
+   "id": "Putri Kaguya I — Gadis di Dalam Bambu",
+   "pt": "Princesa Kaguya I — A Menina do Bambu",
+   "my": "ကာဂုယာ မင်းသမီး (၁) — ဝါးထဲက ကလေးမလေး",
+   "th": "เจ้าหญิงคางุยะ ตอนที่ 1 — เด็กหญิงในกระบอกไผ่"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/mukashi-kaguya-1.webp",
+  "series": {
+   "id": "mukashi-kaguya",
+   "index": 1
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-kaguya-1/chapter.mp3",
+   "durationSec": 352.94
+  }
+ },
+ {
+  "id": "mukashi-kaguya-2",
+  "titles": {
+   "vi": "Công chúa Kaguya (phần 2) — Năm báu vật không tưởng",
+   "en": "Princess Kaguya II — Five Impossible Treasures",
+   "zh-Hans": "辉夜姬（二）——五件不可能的宝物",
+   "zh-Hant": "輝夜姬（二）——五件不可能的寶物",
+   "ko": "가구야 공주 (2) — 불가능한 다섯 보물",
+   "tl": "Prinsesa Kaguya II — Limang Imposibleng Kayamanan",
+   "ne": "राजकुमारी कागुया (भाग २) — पाँच असम्भव खजाना",
+   "id": "Putri Kaguya II — Lima Harta yang Mustahil",
+   "pt": "Princesa Kaguya II — Cinco Tesouros Impossíveis",
+   "my": "ကာဂုယာ မင်းသမီး (၂) — မဖြစ်နိုင်တဲ့ ရတနာငါးပါး",
+   "th": "เจ้าหญิงคางุยะ ตอนที่ 2 — สมบัติห้าอย่างที่เป็นไปไม่ได้"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/mukashi-kaguya-2.webp",
+  "series": {
+   "id": "mukashi-kaguya",
+   "index": 2
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-kaguya-2/chapter.mp3",
+   "durationSec": 365.9
+  }
+ },
+ {
+  "id": "mukashi-kaguya-3",
+  "titles": {
+   "vi": "Công chúa Kaguya (phần 3) — Trở về cung trăng",
+   "en": "Princess Kaguya III — Return to the Moon",
+   "zh-Hans": "辉夜姬（三）——回到月宫",
+   "zh-Hant": "輝夜姬（三）——回到月宮",
+   "ko": "가구야 공주 (3) — 달나라로 돌아가다",
+   "tl": "Prinsesa Kaguya III — Pagbabalik sa Buwan",
+   "ne": "राजकुमारी कागुया (भाग ३) — जूनमा फिर्ती",
+   "id": "Putri Kaguya III — Kembali ke Bulan",
+   "pt": "Princesa Kaguya III — O Retorno à Lua",
+   "my": "ကာဂုယာ မင်းသမီး (၃) — လပြည်သို့ ပြန်ခြင်း",
+   "th": "เจ้าหญิงคางุยะ ตอนที่ 3 — คืนสู่ดวงจันทร์"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 57,
+  "cover": "/covers/mukashi-kaguya-3.webp",
+  "series": {
+   "id": "mukashi-kaguya",
+   "index": 3
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-kaguya-3/chapter.mp3",
+   "durationSec": 362.62
+  }
+ },
+ {
+  "id": "mukashi-shuten-1",
+  "titles": {
+   "vi": "Shuten-dōji (phần 1) — Lên núi Ōe diệt quỷ",
+   "en": "Shuten-dōji I — Up Mount Ōe",
+   "zh-Hans": "酒吞童子（一）——登上大江山",
+   "zh-Hant": "酒吞童子（一）——登上大江山",
+   "ko": "슈텐도지 (1) — 오에산으로",
+   "tl": "Shuten-dōji I — Pag-akyat sa Bundok Ōe",
+   "ne": "शुतेन-दोजी (भाग १) — ओए पहाडतर्फ",
+   "id": "Shuten-dōji I — Mendaki Gunung Ōe",
+   "pt": "Shuten-dōji I — Rumo ao Monte Ōe",
+   "my": "ရှုတဲန်ဒိုဂျီ (၁) — အိုအဲတောင်သို့",
+   "th": "ชูเท็นโดจิ ตอนที่ 1 — มุ่งสู่ภูเขาโอเอะ"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 59,
+  "cover": "/covers/mukashi-shuten-1.webp",
+  "series": {
+   "id": "mukashi-shuten",
+   "index": 1
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-shuten-1/chapter.mp3",
+   "durationSec": 357.07
+  }
+ },
+ {
+  "id": "mukashi-shuten-2",
+  "titles": {
+   "vi": "Shuten-dōji (phần 2) — Yến tiệc trong thành quỷ",
+   "en": "Shuten-dōji II — The Feast in the Oni Castle",
+   "zh-Hans": "酒吞童子（二）——鬼城的宴会",
+   "zh-Hant": "酒吞童子（二）——鬼城的宴會",
+   "ko": "슈텐도지 (2) — 귀신 성의 잔치",
+   "tl": "Shuten-dōji II — Ang Piging sa Kastilyo ng Oni",
+   "ne": "शुतेन-दोजी (भाग २) — राक्षसको किल्लामा भोज",
+   "id": "Shuten-dōji II — Pesta di Kastel Oni",
+   "pt": "Shuten-dōji II — O Banquete no Castelo do Oni",
+   "my": "ရှုတဲန်ဒိုဂျီ (၂) — ဘီလူးရဲတိုက်ထဲက စားသောက်ပွဲ",
+   "th": "ชูเท็นโดจิ ตอนที่ 2 — งานเลี้ยงในปราสาทยักษ์"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/mukashi-shuten-2.webp",
+  "series": {
+   "id": "mukashi-shuten",
+   "index": 2
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-shuten-2/chapter.mp3",
+   "durationSec": 358.8
+  }
+ },
+ {
+  "id": "mukashi-ushiwaka-1",
+  "titles": {
+   "vi": "Ushiwaka và Benkei (phần 1) — Núi Kurama và gã tăng nghìn thanh kiếm",
+   "en": "Ushiwaka and Benkei I — Mount Kurama and the Thousand Swords",
+   "zh-Hans": "牛若丸与弁庆（一）——鞍马山与千把刀",
+   "zh-Hant": "牛若丸與弁慶（一）——鞍馬山與千把刀",
+   "ko": "우시와카마루와 벤케이 (1) — 구라마산과 천 자루의 칼",
+   "tl": "Ushiwaka at Benkei I — Bundok Kurama at ang Sanlibong Espada",
+   "ne": "उशिवाका र बेन्केई (भाग १) — कुरामा पहाड र हजार तरवार",
+   "id": "Ushiwaka dan Benkei I — Gunung Kurama dan Seribu Pedang",
+   "pt": "Ushiwaka e Benkei I — O Monte Kurama e as Mil Espadas",
+   "my": "ဥရှိဝါကာနဲ့ ဘဲန်ကေး (၁) — ကူရာမတောင်နဲ့ ဓားတစ်ထောင်",
+   "th": "อุชิวากะกับเบ็งเค ตอนที่ 1 — ภูเขาคุรามะกับดาบพันเล่ม"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 55,
+  "cover": "/covers/mukashi-ushiwaka-1.webp",
+  "series": {
+   "id": "mukashi-ushiwaka",
+   "index": 1
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-ushiwaka-1/chapter.mp3",
+   "durationSec": 350.26
+  }
+ },
+ {
+  "id": "mukashi-ushiwaka-2",
+  "titles": {
+   "vi": "Ushiwaka và Benkei (phần 2) — Trận đấu trên cầu Gojō",
+   "en": "Ushiwaka and Benkei II — The Duel on Gojō Bridge",
+   "zh-Hans": "牛若丸与弁庆（下）——五条大桥之战",
+   "zh-Hant": "牛若丸與弁慶（下）——五條大橋之戰",
+   "ko": "우시와카와 벤케이 (2) — 고조 대교의 결투",
+   "tl": "Ushiwaka at Benkei II — Ang Tunggalian sa Tulay ng Gojō",
+   "ne": "उसिवाका र बेनकेइ (भाग २) — गोजो पुलको द्वन्द्व",
+   "id": "Ushiwaka dan Benkei II — Duel di Jembatan Gojō",
+   "pt": "Ushiwaka e Benkei II — O Duelo na Ponte Gojō",
+   "my": "ဥရှိဝါကာနဲ့ ဘန်ကေး (၂) — ဂိုဂျိုတံတားပေါ်က ဓားသမားပွဲ",
+   "th": "อุชิวากะกับเบงเค ภาค 2 — ดวลบนสะพานโกโจ"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 55,
+  "cover": "/covers/mukashi-ushiwaka-2.webp",
+  "series": {
+   "id": "mukashi-ushiwaka",
+   "index": 2
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-ushiwaka-2/chapter.mp3",
+   "durationSec": 354.1
+  }
+ },
+ {
   "id": "baito-first-morning",
   "titles": {
    "en": "First Morning at the Part-Time Job",
