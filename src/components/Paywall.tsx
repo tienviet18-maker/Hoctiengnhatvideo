@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useLang } from "./LangProvider";
 
 /**
@@ -36,9 +36,13 @@ const yen = (n: number) => `¥${n.toLocaleString("ja-JP")}`;
 export default function Paywall({ onClose }: { onClose: () => void }) {
   const { ui } = useLang();
   const [plan, setPlan] = useState<PlanKey>("yearly");
-  // Paywall chỉ mở sau thao tác của người dùng (không prerender), nên đọc giờ lúc mount
-  const [now] = useState(() => Date.now());
-  const offerOn = now < Date.parse(LAUNCH_OFFER.endsAt);
+  // Paywall có thể được prerender (trang truyện/video VIP): chỉ đọc giờ sau khi mount
+  const [now, setNow] = useState(0);
+  useEffect(() => {
+    const t = window.setTimeout(() => setNow(Date.now()), 0);
+    return () => window.clearTimeout(t);
+  }, []);
+  const offerOn = now > 0 && now < Date.parse(LAUNCH_OFFER.endsAt);
   const offerEnd = new Date(LAUNCH_OFFER.endsAt).toLocaleDateString("ja-JP", { timeZone: "Asia/Tokyo" });
   return (
     <div
