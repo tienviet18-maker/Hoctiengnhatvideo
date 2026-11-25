@@ -7115,6 +7115,58 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "hanshichi-yukidaruma",
    "index": 2
   }
+ },
+ {
+  "id": "botchan-1",
+  "titles": {
+   "vi": "Botchan (1): Rời Tokyo",
+   "en": "Botchan (1): Leaving Tokyo",
+   "zh-Hans": "少爷（一）：离开东京",
+   "zh-Hant": "少爺（一）：離開東京",
+   "ko": "도련님 (1): 도쿄를 떠나기까지",
+   "tl": "Botchan (1): Pag-alis sa Tokyo",
+   "ne": "बोच्चान (१): टोकियो छोड्दा",
+   "id": "Botchan (1): Meninggalkan Tokyo",
+   "pt": "Botchan (1): Deixando Tóquio",
+   "my": "ဘော့ချန် (၁): တိုကျိုမှ ထွက်ခွာ",
+   "th": "บ็อตจัง (1): จากโตเกียว"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 52,
+  "cover": "/covers/botchan-1.webp",
+  "series": {
+   "id": "botchan",
+   "index": 1
+  }
+ },
+ {
+  "id": "botchan-2",
+  "titles": {
+   "vi": "Botchan (2): Biệt danh và mì tempura",
+   "en": "Botchan (2): Nicknames and Tempura Soba",
+   "zh-Hans": "少爷（二）：绰号与天妇罗荞麦面",
+   "zh-Hant": "少爺（二）：綽號與天婦羅蕎麥麵",
+   "ko": "도련님 (2): 별명과 튀김 소바",
+   "tl": "Botchan (2): Mga Palayaw at Tempura Soba",
+   "ne": "बोच्चान (२): उपनाम र टेम्पुरा सोबा",
+   "id": "Botchan (2): Julukan dan Soba Tempura",
+   "pt": "Botchan (2): Apelidos e Soba de Tempurá",
+   "my": "ဘော့ချန် (၂): နာမည်ပြောင်နဲ့ တန်ပူရာဆိုဘာ",
+   "th": "บ็อตจัง (2): ฉายากับโซบะเทมปุระ"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/botchan-2.webp",
+  "series": {
+   "id": "botchan",
+   "index": 2
+  }
  }
 ];
 
