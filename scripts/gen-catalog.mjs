@@ -59,6 +59,7 @@ const stories = storyIds.map((id) => {
   return {
     id: s.id, titles: s.titles, level: s.level, topic: s.topic,
     source: s.source, free: s.free, sentenceCount: s.sentences.length,
+    ...(typeof s.cover === "string" && s.cover.startsWith("/covers/") ? { cover: s.cover } : {}),
     ...(s.series ? { series: s.series } : {}),
     ...(s.shelf ? { shelf: s.shelf } : {}),
     ...(s.origin ? { origin: s.origin } : {}),
@@ -95,6 +96,8 @@ export interface StoryIndexItem {
   source: "original" | "aozora-adapted";
   free: boolean;
   sentenceCount: number;
+  /** Ảnh bìa chuẩn v2 (public/covers/<id>.webp); gói cũ chưa có */
+  cover?: string;
   series?: { id: string; index: number };
   shelf?: StoryContent["shelf"];
   origin?: string;

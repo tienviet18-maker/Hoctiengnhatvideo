@@ -23,6 +23,8 @@ export interface PlayerItem {
   /** Thời điểm từng câu (gói v2) hoặc file từng câu (gói cũ). Rỗng = chưa biết (vừa tự chuyển chương). */
   segs: Segment[];
   total: number;
+  /** Ảnh bìa (public/covers/...) cho màn hình khoá; thiếu thì dùng ảnh MiraiGo */
+  cover?: string;
 }
 
 /** off = không hẹn; "end" = dừng khi hết chương; số = mốc thời gian (ms) sẽ dừng */
@@ -94,7 +96,9 @@ function updateMediaSession() {
     title: state.item.title,
     artist: "MiraiGo",
     album: state.item.level,
-    artwork: [{ src: "/media-artwork.png", sizes: "512x512", type: "image/png" }],
+    artwork: state.item.cover
+      ? [{ src: state.item.cover, sizes: "600x800" }]
+      : [{ src: "/media-artwork.png", sizes: "512x512", type: "image/png" }],
   });
 }
 
@@ -176,7 +180,7 @@ function advance(): boolean {
   const title = meta.titles.vi ?? meta.titles.en ?? meta.id;
   state = {
     ...state,
-    item: { id: meta.id, title, level: meta.level, track: meta.audioTrack, segs: [], total: meta.sentenceCount },
+    item: { id: meta.id, title, level: meta.level, track: meta.audioTrack, segs: [], total: meta.sentenceCount, cover: meta.cover },
     idx: 0,
     time: 0,
     finished: false,

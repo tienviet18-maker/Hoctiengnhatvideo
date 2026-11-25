@@ -8,7 +8,7 @@ import Furigana from "../../../components/Furigana";
 import WordPopup from "../../../components/WordPopup";
 import Paywall from "../../../components/Paywall";
 import LessonPanel from "./LessonPanel";
-import type { StoryContent, VocabItem } from "../../../lib/content-schema";
+import type { StoryContent, Translations, VocabItem } from "../../../lib/content-schema";
 import { pickText } from "../../../lib/i18n";
 import { PROGRESS_KEY, saveProgress, useLocalJson, type Progress } from "../../../lib/store";
 import * as player from "../../../lib/player";
@@ -28,7 +28,13 @@ function fmt(sec: number) {
  * Đọc và nghe chung một màn (docs/ux-plan.md mục 2.4). Audio chạy trong trình phát dùng
  * chung (src/lib/player.ts) nên vẫn phát khi rời màn này, tắt màn hình, và tự sang chương sau.
  */
-export default function ReaderClient({ story }: { story: StoryContent }) {
+export default function ReaderClient({
+  story,
+  next,
+}: {
+  story: StoryContent;
+  next?: { id: string; titles: Translations };
+}) {
   const { ui, lang, profile } = useLang();
   const router = useRouter();
   const [tab, setTab] = useState<"story" | "lesson">("story");
@@ -77,8 +83,9 @@ export default function ReaderClient({ story }: { story: StoryContent }) {
       track,
       segs: story.sentences.map((s) => ({ audio: s.audio, t: s.t })),
       total,
+      cover: story.cover?.startsWith("/covers/") ? story.cover : undefined,
     }),
-    [story.id, title, story.level, track, story.sentences, total],
+    [story.id, title, story.level, track, story.sentences, total, story.cover],
   );
   const ensureLoaded = () => {
     if (player.getState().item?.id !== story.id) player.load(item);
@@ -311,6 +318,14 @@ export default function ReaderClient({ story }: { story: StoryContent }) {
             })}
           </div>
         </>
+      )}
+
+      {tab === "story" && next && (
+        <div style={{ padding: "16px 20px 0" }}>
+          <Link href={`/read/${next.id}`} className="btn-primary" style={{ textDecoration: "none" }}>
+            {ui.reader.nextChapter} · {pickText(next.titles, lang)}
+          </Link>
+        </div>
       )}
 
       {popup && (

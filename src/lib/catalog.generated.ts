@@ -26,6 +26,8 @@ export interface StoryIndexItem {
   source: "original" | "aozora-adapted";
   free: boolean;
   sentenceCount: number;
+  /** Ảnh bìa chuẩn v2 (public/covers/<id>.webp); gói cũ chưa có */
+  cover?: string;
   series?: { id: string; index: number };
   shelf?: StoryContent["shelf"];
   origin?: string;
