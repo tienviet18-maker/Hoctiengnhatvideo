@@ -89,7 +89,7 @@ export default function LessonPanel({
               ))}
             </div>
           )}
-          {vip && quiz.length > 0 && (
+          {quiz.length > 0 && (
             <div style={{ fontSize: 13, color: "#c9d8ee", marginTop: 10 }}>
               {ui.reader.quizTitle} · {quiz.length}
             </div>
@@ -123,7 +123,7 @@ export default function LessonPanel({
         </>
       )}
 
-      {quiz.length > 0 && (
+      {vip && quiz.length > 0 && (
         <>
           <h2 style={{ fontSize: 17, fontWeight: 700, margin: "22px 0 10px" }}>
             {ui.reader.quizTitle} · {Math.min(q + 1, quiz.length)}/{quiz.length}
