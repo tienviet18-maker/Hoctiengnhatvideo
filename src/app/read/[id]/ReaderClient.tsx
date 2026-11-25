@@ -1,24 +1,22 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useLang } from "../../../components/LangProvider";
 import Furigana from "../../../components/Furigana";
 import WordPopup from "../../../components/WordPopup";
 import Paywall from "../../../components/Paywall";
 import LessonPanel from "./LessonPanel";
-import type { StoryContent, VocabItem } from "../../../lib/content-schema";
+import type { StoryContent, Translations, VocabItem } from "../../../lib/content-schema";
 import { pickText } from "../../../lib/i18n";
-import {
-  logActivity,
-  PROGRESS_KEY,
-  saveProgress,
-  useLocalJson,
-  type Progress,
-} from "../../../lib/store";
+import { PROGRESS_KEY, saveProgress, useLocalJson, type Progress } from "../../../lib/store";
+import * as player from "../../../lib/player";
 
 const FONT_SIZES = [16, 18, 21];
 const SPEEDS = [0.75, 0.9, 1, 1.25];
+/** Hẹn giờ tắt: tắt → 15 → 30 → 60 phút → hết chương → tắt */
+const SLEEP_STEPS: ("off" | "end" | number)[] = ["off", 15, 30, 60, "end"];
 const EMPTY_PROGRESS: Record<string, Progress> = {};
 
 function fmt(sec: number) {
@@ -27,13 +25,18 @@ function fmt(sec: number) {
 }
 
 /**
- * Đọc và nghe chung một màn (docs/ux-plan.md mục 2.4).
- * - Gói v2 có audioTrack: một file liền cho cả chương, câu đang đọc lấy theo `t`.
- * - Gói cũ: mỗi câu một file, phát nối tiếp từng câu.
- * Cả hai đều phát liên tục khi tắt màn hình (một thẻ <audio>, Media Session).
+ * Đọc và nghe chung một màn (docs/ux-plan.md mục 2.4). Audio chạy trong trình phát dùng
+ * chung (src/lib/player.ts) nên vẫn phát khi rời màn này, tắt màn hình, và tự sang chương sau.
  */
-export default function ReaderClient({ story }: { story: StoryContent }) {
+export default function ReaderClient({
+  story,
+  next,
+}: {
+  story: StoryContent;
+  next?: { id: string; titles: Translations };
+}) {
   const { ui, lang, profile } = useLang();
+  const router = useRouter();
   const [tab, setTab] = useState<"story" | "lesson">("story");
   const [showFuri, setShowFuri] = useState(true);
   const [showTr, setShowTr] = useState(false);
@@ -41,29 +44,29 @@ export default function ReaderClient({ story }: { story: StoryContent }) {
   const [fontStep, setFontStep] = useState(1);
   const [openEx, setOpenEx] = useState<Record<number, boolean>>({});
   const [popup, setPopup] = useState<VocabItem | null>(null);
-  const [idx, setIdx] = useState(0);
-  const [started, setStarted] = useState(false);
-  const [playing, setPlaying] = useState(false);
-  const [finished, setFinished] = useState(false);
-  const [speedStep, setSpeedStep] = useState(2);
-  const [time, setTime] = useState(0);
+  const [sleepStep, setSleepStep] = useState(0);
   const progress = useLocalJson(PROGRESS_KEY, EMPTY_PROGRESS);
   const seen = progress[story.id]?.pos ?? 0;
+  const ps = useSyncExternalStore(player.subscribe, player.getState, player.getServerState);
 
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-  const idxRef = useRef(0);
-  const stopAtRef = useRef<number | null>(null);
-  const singleRef = useRef(false);
   const wordTapRef = useRef(false);
-  const loggedRef = useRef(false);
   const rowRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   const total = story.sentences.length;
   const track = story.audioTrack && story.sentences.every((s) => s.t) ? story.audioTrack : null;
-  const duration = track
-    ? track.durationSec
-    : 0;
+  const duration = track ? track.durationSec : 0;
   const locked = !story.free && !profile.vip;
+  const title = pickText(story.titles, lang);
+
+  // Trạng thái của trình phát chỉ áp vào màn này khi đang nạp đúng chương này
+  const mine = ps.item?.id === story.id;
+  const resumeIdx = seen > 0 && seen < total ? seen : 0;
+  const idx = mine && ps.started ? ps.idx : resumeIdx;
+  const started = mine && ps.started;
+  const playing = mine && ps.playing;
+  const finished = mine && ps.finished;
+  const time = mine ? ps.time : 0;
+  const speedStep = Math.max(0, SPEEDS.indexOf(ps.rate));
 
   const vocab = useMemo(() => {
     const map = new Map<string, VocabItem>();
@@ -71,145 +74,59 @@ export default function ReaderClient({ story }: { story: StoryContent }) {
     return [...map.values()];
   }, [story.sentences]);
 
-  const markSeen = useCallback(
-    (i: number) => {
-      const next = Math.max(seen, i + 1);
-      if (next !== seen) saveProgress(story.id, next, total);
-      if (next >= total && !loggedRef.current) {
-        loggedRef.current = true;
-        logActivity({ stories: 1, minutes: Math.max(2, Math.round((duration || total * 4) / 60)) });
-      }
-    },
-    [seen, story.id, total, duration],
+  // Nạp chương vào trình phát (không cắt audio của chương khác cho tới khi bấm phát)
+  const item = useMemo<player.PlayerItem>(
+    () => ({
+      id: story.id,
+      title,
+      level: story.level,
+      track,
+      segs: story.sentences.map((s) => ({ audio: s.audio, t: s.t })),
+      total,
+      cover: story.cover?.startsWith("/covers/") ? story.cover : undefined,
+    }),
+    [story.id, title, story.level, track, story.sentences, total, story.cover],
   );
-
-  const getAudio = useCallback(() => {
-    if (!audioRef.current) {
-      const a = new Audio();
-      a.preload = "auto";
-      audioRef.current = a;
-    }
-    return audioRef.current;
-  }, []);
-
-  const setActive = useCallback((i: number) => {
-    idxRef.current = i;
-    setIdx(i);
-  }, []);
-
-  /** Phát từ câu i. single = chỉ phát một câu rồi dừng (nút "Nghe lại câu"). */
-  const playFrom = useCallback(
-    (i: number, single = false) => {
-      const a = getAudio();
-      a.playbackRate = SPEEDS[speedStep];
-      setActive(i);
-      setStarted(true);
-      setFinished(false);
-      singleRef.current = single;
-      const s = story.sentences[i];
-      if (track && s.t) {
-        if (!a.src.endsWith(track.src)) a.src = track.src;
-        a.currentTime = s.t[0];
-        stopAtRef.current = single ? s.t[1] : null;
-      } else {
-        a.src = s.audio;
-      }
-      void a.play().then(
-        () => setPlaying(true),
-        () => setPlaying(false),
-      );
-    },
-    [getAudio, setActive, speedStep, story.sentences, track],
-  );
-
-  const pause = useCallback(() => {
-    audioRef.current?.pause();
-    setPlaying(false);
-  }, []);
-
-  const resumeIdx = seen > 0 && seen < total ? seen : 0;
-
-  const toggle = useCallback(() => {
-    if (playing) return pause();
-    const a = audioRef.current;
-    if (started && a && a.src && !finished) {
-      singleRef.current = false;
-      stopAtRef.current = null;
-      void a.play().then(() => setPlaying(true), () => setPlaying(false));
-    } else {
-      playFrom(started && !finished ? idxRef.current : resumeIdx);
-    }
-  }, [playing, pause, started, finished, playFrom, resumeIdx]);
-
-  const goPrev = useCallback(() => playFrom(Math.max(0, idxRef.current - 1)), [playFrom]);
-  const goNext = useCallback(() => playFrom(Math.min(total - 1, idxRef.current + 1)), [playFrom, total]);
-
-  // Sự kiện audio: cập nhật câu đang đọc, dừng sau một câu, phát nối câu ở gói cũ.
+  const ensureLoaded = () => {
+    if (player.getState().item?.id !== story.id) player.load(item);
+  };
+  // Chương vừa tự chuyển tới (trình phát đã phát) mà nay mở màn đọc: bổ sung thời điểm từng câu
   useEffect(() => {
-    const a = getAudio();
-    const onTime = () => {
-      setTime(a.currentTime);
-      if (track) {
-        const t = a.currentTime;
-        if (stopAtRef.current !== null && t >= stopAtRef.current) {
-          stopAtRef.current = null;
-          a.pause();
-          setPlaying(false);
-          return;
-        }
-        let i = idxRef.current;
-        while (i + 1 < total && t >= story.sentences[i + 1].t![0]) i++;
-        while (i > 0 && t < story.sentences[i].t![0]) i--;
-        if (i !== idxRef.current) {
-          markSeen(idxRef.current);
-          setActive(i);
-        }
-      }
-    };
-    const onEnded = () => {
-      const i = idxRef.current;
-      markSeen(i);
-      if (!track && !singleRef.current && i + 1 < total) {
-        setActive(i + 1);
-        a.src = story.sentences[i + 1].audio;
-        void a.play();
-        return;
-      }
-      setPlaying(false);
-      if (track || i + 1 >= total) setFinished(!singleRef.current || i + 1 >= total);
-    };
-    const onPause = () => setPlaying(false);
-    const onPlay = () => setPlaying(true);
-    a.addEventListener("timeupdate", onTime);
-    a.addEventListener("ended", onEnded);
-    a.addEventListener("pause", onPause);
-    a.addEventListener("play", onPlay);
-    return () => {
-      a.removeEventListener("timeupdate", onTime);
-      a.removeEventListener("ended", onEnded);
-      a.removeEventListener("pause", onPause);
-      a.removeEventListener("play", onPlay);
-    };
-  }, [getAudio, track, total, story.sentences, markSeen, setActive]);
+    if (player.getState().item?.id === story.id) player.load(item);
+  }, [item, story.id]);
 
-  // Dừng audio khi rời trang
-  useEffect(() => () => audioRef.current?.pause(), []);
-
-  // Tốc độ
+  // Trình phát tự sang chương sau khi đang ở màn này: đi theo sang chương đó
+  const followId = ps.advancedFrom === story.id && ps.item ? ps.item.id : null;
   useEffect(() => {
-    if (audioRef.current) audioRef.current.playbackRate = SPEEDS[speedStep];
-  }, [speedStep]);
+    if (followId) router.replace(`/read/${followId}`);
+  }, [followId, router]);
 
-  // Media Session: màn hình khoá, tai nghe, nút trên vô lăng
-  const title = pickText(story.titles, lang);
-  useEffect(() => {
-    if (typeof navigator === "undefined" || !("mediaSession" in navigator)) return;
-    navigator.mediaSession.metadata = new MediaMetadata({ title, artist: "MiraiGo", album: story.level });
-    navigator.mediaSession.setActionHandler("play", toggle);
-    navigator.mediaSession.setActionHandler("pause", pause);
-    navigator.mediaSession.setActionHandler("previoustrack", goPrev);
-    navigator.mediaSession.setActionHandler("nexttrack", goNext);
-  }, [title, story.level, toggle, pause, goPrev, goNext]);
+  const playFrom = (i: number, only = false) => {
+    ensureLoaded();
+    player.playFrom(i, only);
+  };
+  const toggle = () => {
+    ensureLoaded();
+    player.toggle(resumeIdx);
+  };
+  const goPrev = () => playFrom(Math.max(0, idx - 1));
+  const goNext = () => playFrom(Math.min(total - 1, idx + 1));
+  const markSeen = (i: number) => {
+    const next = Math.max(seen, i + 1);
+    if (next !== seen) saveProgress(story.id, next, total);
+  };
+  const cycleSleep = () => {
+    const n = (sleepStep + 1) % SLEEP_STEPS.length;
+    setSleepStep(n);
+    const m = SLEEP_STEPS[n];
+    player.setSleep(typeof m === "number" ? Date.now() + m * 60_000 : m);
+  };
+  const sleepLabel = (() => {
+    const m = SLEEP_STEPS[sleepStep];
+    if (m === "off" || ps.sleep === "off") return ui.reader.sleep;
+    if (m === "end") return ui.reader.sleepEnd;
+    return `${m}′`;
+  })();
 
   // Tự cuộn tới câu đang đọc khi đang phát
   useEffect(() => {
@@ -238,7 +155,7 @@ export default function ReaderClient({ story }: { story: StoryContent }) {
     }
     markSeen(i);
     if (playing) playFrom(i);
-    else setActive(i);
+    else if (mine) player.select(i);
   };
 
   const chipStyle = (on: boolean): React.CSSProperties => ({
@@ -400,6 +317,14 @@ export default function ReaderClient({ story }: { story: StoryContent }) {
         </>
       )}
 
+      {tab === "story" && next && (
+        <div style={{ padding: "16px 20px 0" }}>
+          <Link href={`/read/${next.id}`} className="btn-primary" style={{ textDecoration: "none" }}>
+            {ui.reader.nextChapter} · {pickText(next.titles, lang)}
+          </Link>
+        </div>
+      )}
+
       {popup && (
         <div style={{ position: "fixed", left: 16, right: 16, bottom: tab === "story" ? 196 : 16, maxWidth: 398, margin: "0 auto", zIndex: 50 }}>
           <WordPopup key={`${popup.word}|${popup.reading}`} vocab={popup} sourceId={story.id} onClose={() => setPopup(null)} />
@@ -437,7 +362,7 @@ export default function ReaderClient({ story }: { story: StoryContent }) {
             <button
               type="button"
               aria-label={ui.reader.speed}
-              onClick={() => setSpeedStep((s) => (s + 1) % SPEEDS.length)}
+              onClick={() => player.setRate(SPEEDS[(speedStep + 1) % SPEEDS.length])}
               style={{ width: 56, height: 44, borderRadius: 10, border: "1px solid #33456A", background: "transparent", color: "#fff", fontFamily: "inherit", fontWeight: 600, fontSize: 13, cursor: "pointer" }}
             >
               {SPEEDS[speedStep]}×
@@ -460,7 +385,15 @@ export default function ReaderClient({ story }: { story: StoryContent }) {
             <button type="button" aria-label={ui.reader.next} onClick={goNext} style={ctrlBtn}>
               <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M16 6h2v12h-2zM4 6v12l10.5-6z" /></svg>
             </button>
-            <span style={{ width: 56 }} aria-hidden />
+            <button
+              type="button"
+              aria-label={ui.reader.sleep}
+              onClick={cycleSleep}
+              style={{ width: 56, height: 44, borderRadius: 10, border: "1px solid #33456A", background: ps.sleep !== "off" ? "#33456A" : "transparent", color: "#fff", fontFamily: "inherit", fontWeight: 600, fontSize: 11, cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", gap: 3 }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" /></svg>
+              {ps.sleep !== "off" ? sleepLabel : ""}
+            </button>
           </div>
           <div style={{ fontSize: 11, color: "#9FB0CF", textAlign: "center", marginTop: 6 }}>{ui.reader.bgHint}</div>
         </div>

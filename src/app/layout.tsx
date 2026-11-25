@@ -5,6 +5,7 @@ import "./globals.css";
 import { SITE_URL } from "../lib/seo";
 import { LangProvider } from "../components/LangProvider";
 import TabBar from "../components/TabBar";
+import MiniPlayer from "../components/MiniPlayer";
 
 const bvp = Be_Vietnam_Pro({
   variable: "--font-bvp",
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div className="app-shell">
             {children}
             <Suspense fallback={null}>
+              <MiniPlayer />
               <TabBar />
             </Suspense>
           </div>
