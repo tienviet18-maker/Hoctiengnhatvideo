@@ -359,3 +359,13 @@ Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Bảy gói chuẩn v2, N3
 | 29 | UX | Tab Truyện chia theo kệ (Rakugo, Trinh thám, Truyện ma, Văn học Nhật, Cổ tích Nhật Bản, Truyện quê hương, Văn học thế giới, Series đời sống, Cổ tích và ngụ ngôn, Đời sống ở Nhật). Gói v2 dùng `shelf`; gói cũ suy ra từ `topic`. Mỗi kệ cuộn ngang, có "Xem tất cả" dạng lưới. Bộ nhiều chương chỉ hiện một bìa (chương đang nghe dở hoặc chương 1). Dùng ảnh bìa v2 nếu có, nếu không thì dùng bìa chữ màu theo id, kèm nhãn cấp, cờ nước gốc, VIP và tiến độ. Trang chủ dùng cùng component bìa. | ux-shelves |
 | 30 | UX | Onboarding mới học từ Tadoku nhưng làm kỹ hơn, gồm 8 bước: chào và chọn ngôn ngữ, sở thích (chọn nhiều), tự đánh giá cấp N5–N1, nghe thử 3 câu thật (N5/N4/N3) để xếp cấp, mục tiêu phút mỗi ngày và lúc hay nghe, tên, màn "đang dựng kế hoạch", rồi kế hoạch riêng với truyện miễn phí đầu tiên. Ưu đãi VIP chỉ là nút phụ, không chặn. Hồ sơ lưu thêm level, interests, dailyMinutes, listenWhen. Sửa lỗi bấm "Nghe truyện đầu tiên" lại bị đưa về trang chủ (effect redirect đè điều hướng). | ux-onboarding |
 | 31 | UX | Dùng câu trả lời onboarding. Tab Truyện mặc định lọc theo cấp đã xếp (người dùng vẫn đổi tay được) và đưa các kệ khớp sở thích lên đầu. Thẻ "Bắt đầu từ đây" ở Trang chủ gợi ý cùng truyện như màn kế hoạch (hàm chung `recommendFirst` trong `src/lib/shelves.ts`). | ux-personal |
+
+## Đợt 6 — Căn mốc thời gian 11 clip bằng Whisper (26/11/2026, nhánh `claude/video-whisper-align`)
+
+Việt duyệt 26/11: tải tạm âm thanh YouTube để căn mốc, căn xong xoá. Cách làm: `~/ytsub-test/whisper-env` (faster-whisper 1.2.1, model `small`, CPU int8), `tools/walign.py` khớp chữ Whisper với câu của gói theo từng ký tự, lấy mốc từ dấu thời gian từng từ. Không dùng câu gợi ý (prompt) vì làm Whisper ảo giác ở đầu đoạn. Âm thanh tải về `~/ytsub-test/audio-tmp/` và đã xoá sau khi căn.
+
+| # | Mức | Việc | PR |
+|---|---|---|---|
+| 31 | **Cao** | Căn lại mốc 11 gói video chuẩn v2. Mốc cũ (phụ đề tự động + nội suy) lệch trung bình 0,24–1,16 giây, tối đa 3,4 giây (`teded-procrastination-cycle`). Tỉ lệ khớp chữ 0,77–0,95; 3/121 câu Whisper không khớp đủ nên giữ mốc cũ (ghi trong `.qc.md`). Teaser `.ass` sinh lại theo mốc mới. | PR này |
+| 32 | Trung bình | Sau khi căn, `peppa-pancake-flip` lộ khoảng nhạc 9 giây (vượt luật 8 giây) → chuyển 2 câu đầu sang `peppa-pancake-batter`, nối thêm 9 câu 156–197s cho `peppa-pancake-flip` (84 giây, 21 dòng). | PR này |
+| 33 | Thấp | Whisper nghe câu bị bỏ ở 51,9s là 「イライラなんかしてないよ」 (ASR cũ ghi 「やん」). Vẫn chưa thêm lại vì hai nguồn chưa trùng nhau. | — |

@@ -5,7 +5,7 @@
 - **Nguồn phụ đề — lưu ý quan trọng**: video có phụ đề người đăng (`ja`, dịch giả TED) NHƯNG đó là bản dịch kịch bản tiếng Anh, KHÔNG khớp lời lồng tiếng (ví dụ phụ đề 「どの作業を待たせてよいか決めることが必要」, lời nói 「どれを後回しにするかの判断が必要」). Vì vậy câu chữ lấy theo phụ đề TỰ ĐỘNG `ja-orig` (khớp tiếng nói), phụ đề người đăng chỉ dùng để đối chiếu kanji.
 - **Điểm lọc**: phụ đề 3 + cấp độ 2 + đoạn học được 2 + thời lượng 1 + đúng ô kho (dòng B, N2) 1 = 9/10.
 - **Lỗi ASR đã sửa**: 先ばし/先伸ばし/先延伸ばし → 先延ばし; 予定を伸ばすこと先延伸ばしに… → 予定を延ばすことと先延ばしに…; thêm dấu phẩy; 「スマホのチェックを始め。お気に入りの…」 nối thành một câu (liên dụng 始め、).
-- **Mốc thời gian**: ASR cuộn ~3 giây/sự kiện, nội suy theo ký tự (tối đa 4,5 ký tự/giây). Đối chiếu với mốc của phụ đề người đăng: lệch 0,3–1,5 giây. **Chưa nghe kiểm bằng tai.**
+- **Mốc thời gian (căn lại 26/11/2026 bằng Whisper)**: tải tạm âm thanh YouTube về iMac, faster-whisper `small` lấy mốc từng từ, khớp chữ với câu của gói (tỉ lệ khớp 0,92), rồi XOÁ file âm thanh. Mốc cũ từ phụ đề tự động lệch trung bình 1,16 giây, tối đa 3,4 giây so với Whisper.
 - **Cấp độ**: N2 (văn tường thuật, 〜てきた、〜べきでした、〜ばいいじゃない、〜こそ).
 - **Từ vựng**: 2 từ. 「先延ばし」 KHÔNG có trong danh sách JLPT mở — tự gắn N2 vì là từ chủ đề của bài, gặp ở công sở Nhật; 「サイクル」 N1 theo danh sách. Các từ N3 (提出, 期限, 確認…) không chọn vì dưới cấp bài.
 - **Teaser**: 14.71–55.11 (40,4 giây).
