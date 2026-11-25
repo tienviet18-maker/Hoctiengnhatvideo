@@ -1,0 +1,5171 @@
+{
+ "kind": "story",
+ "id": "rakugo-sokotsu-nagaya",
+ "titles": {
+  "vi": "Sokotsu Nagaya — Anh chàng đi nhận xác mình",
+  "en": "Sokotsu Nagaya — The Man Who Claimed His Own Body",
+  "zh-Hans": "粗忽长屋——去领自己尸体的人",
+  "zh-Hant": "粗忽長屋——去領自己屍體的人",
+  "ko": "소코쓰 나가야 — 자기 시체를 거두러 간 남자",
+  "tl": "Sokotsu Nagaya — Ang Lalaking Kumuha ng Sariling Bangkay",
+  "ne": "सोकोत्सु नागाया — आफ्नै लास लिन गएको मान्छे",
+  "id": "Sokotsu Nagaya — Pria yang Mengambil Jenazahnya Sendiri",
+  "pt": "Sokotsu Nagaya — O homem que buscou o próprio corpo",
+  "my": "ဆိုကိုဆု နာဂါယ — ကိုယ့်အလောင်း ကိုယ်သွားယူတဲ့ လူ",
+  "th": "โซโคทสึ นางายะ — ชายผู้ไปรับศพตัวเอง"
+ },
+ "level": "N3",
+ "topic": "rakugo",
+ "source": "original",
+ "cover": "/covers/rakugo-sokotsu-nagaya.webp",
+ "free": false,
+ "standard": 2,
+ "shelf": "rakugo",
+ "audioTrack": {
+  "src": "/audio/rakugo-sokotsu-nagaya/chapter.mp3",
+  "durationSec": 314.02
+ },
+ "lesson": {
+  "grammarPoints": [
+   {
+    "pattern": "〜はずがない",
+    "meaning": {
+     "vi": "Không thể nào ~ (người nói chắc chắn dựa trên lý lẽ). Thể thường + はずがない. Ví dụ: 彼が知らないはずがない (anh ấy không thể nào không biết). Ngược lại: 〜はずだ = chắc chắn là ~.",
+     "en": "There's no way ~, it can't be that ~ (sure, based on reasoning). Plain form + はずがない. E.g. 彼が知らないはずがない (there's no way he doesn't know). Opposite: 〜はずだ = it should be ~.",
+     "zh-Hans": "不可能……（说话人根据道理确信）。简体形＋はずがない。例：彼が知らないはずがない（他不可能不知道）。相反：〜はずだ＝应该是～。",
+     "zh-Hant": "不可能……（說話人根據道理確信）。簡體形＋はずがない。例：彼が知らないはずがない（他不可能不知道）。相反：〜はずだ＝應該是～。",
+     "ko": "~할 리가 없다 (논리적으로 확신). 보통형 + はずがない. 예: 彼が知らないはずがない (그가 모를 리가 없다). 반대: 〜はずだ = 분명 ~일 것이다.",
+     "tl": "Imposibleng ~ (sigurado batay sa katwiran). Plain form + はずがない. Hal.: 彼が知らないはずがない (imposibleng hindi niya alam). Kabaligtaran: 〜はずだ = dapat ~.",
+     "ne": "~ हुने कुरै छैन (तर्कका आधारमा पक्का)। साधारण रूप + はずがない। उदाहरण: 彼が知らないはずがない (उसलाई थाहा नहुने कुरै छैन)। उल्टो: 〜はずだ = पक्कै ~ हुनुपर्छ।",
+     "id": "Tidak mungkin ~ (yakin berdasarkan nalar). Bentuk biasa + はずがない. Contoh: 彼が知らないはずがない (tidak mungkin dia tidak tahu). Kebalikannya: 〜はずだ = seharusnya ~.",
+     "pt": "Não tem como ~, é impossível que ~ (certeza por raciocínio). Forma simples + はずがない. Ex.: 彼が知らないはずがない (não tem como ele não saber). Oposto: 〜はずだ = deve ser ~.",
+     "my": "~ စရာ မရှိ (အကြောင်းပြချက်နဲ့ သေချာ)။ ရိုးရိုးပုံစံ + はずがない။ ဥပမာ: 彼が知らないはずがない (သူ မသိစရာ မရှိဘူး)။ ဆန့်ကျင်: 〜はずだ = ~ ဖြစ်ရမယ်။",
+     "th": "ไม่มีทางที่จะ ~ (มั่นใจตามเหตุผล) รูปธรรมดา + はずがない เช่น 彼が知らないはずがない (เขาไม่มีทางไม่รู้) ตรงข้าม: 〜はずだ = น่าจะ ~ แน่"
+    },
+    "example": 15
+   },
+   {
+    "pattern": "〜ている場合じゃない",
+    "meaning": {
+     "vi": "Không phải lúc ~ (có việc gấp hơn). Động từ thể ている + 場合じゃない. Ví dụ: 寝ている場合じゃない (không phải lúc ngủ). Dạng lịch sự: 〜ている場合ではありません.",
+     "en": "This is no time to be ~ (something more urgent is going on). ている-form + 場合じゃない. E.g. 寝ている場合じゃない (this is no time to sleep). Polite: 〜ている場合ではありません.",
+     "zh-Hans": "现在不是……的时候（有更紧急的事）。ている形＋場合じゃない。例：寝ている場合じゃない（现在不是睡觉的时候）。礼貌形：〜ている場合ではありません。",
+     "zh-Hant": "現在不是……的時候（有更緊急的事）。ている形＋場合じゃない。例：寝ている場合じゃない（現在不是睡覺的時候）。禮貌形：〜ている場合ではありません。",
+     "ko": "~하고 있을 때가 아니다 (더 급한 일이 있음). ている형 + 場合じゃない. 예: 寝ている場合じゃない (자고 있을 때가 아니다). 정중형: 〜ている場合ではありません.",
+     "tl": "Hindi ito oras para ~ (may mas apurahang bagay). ている-form + 場合じゃない. Hal.: 寝ている場合じゃない (hindi ito oras para matulog). Magalang: 〜ている場合ではありません.",
+     "ne": "~ गर्ने बेला होइन (अझ जरुरी कुरा छ)। ている-रूप + 場合じゃない। उदाहरण: 寝ている場合じゃない (सुत्ने बेला होइन)। शिष्ट रूप: 〜ている場合ではありません।",
+     "id": "Bukan waktunya ~ (ada yang lebih mendesak). Bentuk ている + 場合じゃない. Contoh: 寝ている場合じゃない (bukan waktunya tidur). Sopan: 〜ている場合ではありません.",
+     "pt": "Não é hora de ficar ~ (há algo mais urgente). Forma ている + 場合じゃない. Ex.: 寝ている場合じゃない (não é hora de dormir). Educado: 〜ている場合ではありません.",
+     "my": "~ နေရမယ့် အချိန် မဟုတ် (ပိုအရေးကြီးတာ ရှိ)။ ている-ပုံစံ + 場合じゃない။ ဥပမာ: 寝ている場合じゃない (အိပ်နေရမယ့် အချိန် မဟုတ်ဘူး)။ ယဉ်ကျေးပုံစံ: 〜ている場合ではありません။",
+     "th": "ไม่ใช่เวลามา ~ (มีเรื่องด่วนกว่า) รูป ている + 場合じゃない เช่น 寝ている場合じゃない (ไม่ใช่เวลามานอน) แบบสุภาพ: 〜ている場合ではありません"
+    },
+    "example": 24
+   },
+   {
+    "pattern": "〜ような気がする",
+    "meaning": {
+     "vi": "Có cảm giác như ~ (cảm nhận, không chắc chắn). Thể thường + ような気がする. Ví dụ: どこかで会ったような気がする (hình như đã gặp ở đâu đó). Phủ định: 〜ような気がしない.",
+     "en": "I feel like ~, I have a feeling that ~ (uncertain impression). Plain form + ような気がする. E.g. どこかで会ったような気がする (I feel like we've met somewhere). Negative: 〜ような気がしない.",
+     "zh-Hans": "总觉得……、好像……（不确定的感觉）。简体形＋ような気がする。例：どこかで会ったような気がする（总觉得在哪里见过）。否定：〜ような気がしない。",
+     "zh-Hant": "總覺得……、好像……（不確定的感覺）。簡體形＋ような気がする。例：どこかで会ったような気がする（總覺得在哪裡見過）。否定：〜ような気がしない。",
+     "ko": "~인 것 같은 기분이 든다 (확실치 않은 느낌). 보통형 + ような気がする. 예: どこかで会ったような気がする (어디선가 만난 것 같다). 부정: 〜ような気がしない.",
+     "tl": "Pakiramdam ko ay ~ (hindi tiyak na impresyon). Plain form + ような気がする. Hal.: どこかで会ったような気がする (parang nagkita na tayo kung saan). Negatibo: 〜ような気がしない.",
+     "ne": "~ जस्तो लाग्छ (पक्का नभएको अनुभूति)। साधारण रूप + ような気がする। उदाहरण: どこかで会ったような気がする (कतै भेटेजस्तो लाग्छ)। नकारात्मक: 〜ような気がしない।",
+     "id": "Rasanya ~ (kesan yang tidak pasti). Bentuk biasa + ような気がする. Contoh: どこかで会ったような気がする (rasanya pernah bertemu di suatu tempat). Negatif: 〜ような気がしない.",
+     "pt": "Tenho a impressão de que ~ (sensação incerta). Forma simples + ような気がする. Ex.: どこかで会ったような気がする (tenho a impressão de que já nos vimos). Negativo: 〜ような気がしない.",
+     "my": "~ သလို ခံစားရ (မသေချာတဲ့ ခံစားချက်)။ ရိုးရိုးပုံစံ + ような気がする။ ဥပမာ: どこかで会ったような気がする (တစ်နေရာမှာ တွေ့ဖူးသလိုပဲ)။ အငြင်း: 〜ような気がしない။",
+     "th": "รู้สึกเหมือน ~ (ความรู้สึกที่ไม่แน่ใจ) รูปธรรมดา + ような気がする เช่น どこかで会ったような気がする (รู้สึกเหมือนเคยเจอที่ไหน) ปฏิเสธ: 〜ような気がしない"
+    },
+    "example": 29
+   },
+   {
+    "pattern": "〜わけがない",
+    "meaning": {
+     "vi": "Làm gì có chuyện ~ (phủ định mạnh, dựa trên lẽ thường). Thể thường + わけがない. Ví dụ: そんなことができるわけがない (làm gì có chuyện làm được việc như thế). Gần nghĩa với はずがない nhưng mạnh hơn.",
+     "en": "There's no way ~, it's absurd that ~ (strong denial from common sense). Plain form + わけがない. E.g. そんなことができるわけがない (there's no way anyone can do that). Similar to はずがない but stronger.",
+     "zh-Hans": "怎么可能……（根据常理强烈否定）。简体形＋わけがない。例：そんなことができるわけがない（怎么可能做得到那种事）。与はずがない相近，但语气更强。",
+     "zh-Hant": "怎麼可能……（根據常理強烈否定）。簡體形＋わけがない。例：そんなことができるわけがない（怎麼可能做得到那種事）。與はずがない相近，但語氣更強。",
+     "ko": "~할 리가 없다 (상식에 근거한 강한 부정). 보통형 + わけがない. 예: そんなことができるわけがない (그런 일을 할 수 있을 리가 없다). はずがない와 비슷하지만 더 강함.",
+     "tl": "Imposibleng ~ talaga (matinding pagtanggi ayon sa sentido komun). Plain form + わけがない. Hal.: そんなことができるわけがない (imposibleng magawa 'yan). Kahawig ng はずがない pero mas matindi.",
+     "ne": "~ हुने कुरै हुँदैन (सामान्य बुद्धिले कडा अस्वीकार)। साधारण रूप + わけがない। उदाहरण: そんなことができるわけがない (त्यस्तो गर्न सकिने कुरै हुँदैन)। はずがない जस्तै तर अझ कडा।",
+     "id": "Mana mungkin ~ (penyangkalan kuat menurut akal sehat). Bentuk biasa + わけがない. Contoh: そんなことができるわけがない (mana mungkin bisa melakukan hal itu). Mirip はずがない tapi lebih kuat.",
+     "pt": "Não tem cabimento ~, é impossível ~ (negação forte pelo bom senso). Forma simples + わけがない. Ex.: そんなことができるわけがない (não tem como fazer uma coisa dessas). Parecido com はずがない, porém mais forte.",
+     "my": "~ လို့ ဘယ်ရမလဲ (သာမန်အသိနဲ့ ပြင်းပြင်း ငြင်း)။ ရိုးရိုးပုံစံ + わけがない။ ဥပမာ: そんなことができるわけがない (အဲဒါမျိုး လုပ်နိုင်ဖို့ ဘယ်ရမလဲ)။ はずがない နဲ့ ဆင်တူပေမဲ့ ပိုပြင်း။",
+     "th": "ไม่มีทางที่ ~ แน่นอน (ปฏิเสธหนักแน่นตามสามัญสำนึก) รูปธรรมดา + わけがない เช่น そんなことができるわけがない (ไม่มีทางทำแบบนั้นได้) คล้าย はずがない แต่หนักกว่า"
+    },
+    "example": 41
+   }
+  ],
+  "quiz": [
+   {
+    "ja": "八五郎は、死んでいた男を誰だと思いましたか。",
+    "choices": [
+     "長屋の大家さん",
+     "友だちの熊五郎",
+     "浅草のお坊さん"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Anh tin chắc người chết là bạn mình, Kumagorō.",
+     "en": "He was convinced the dead man was his friend Kumagorō.",
+     "zh-Hans": "他认定死者是他的朋友熊五郎。",
+     "zh-Hant": "他認定死者是他的朋友熊五郎。",
+     "ko": "그는 죽은 사람이 친구 구마고로라고 굳게 믿었습니다.",
+     "tl": "Kumbinsido siyang ang patay ay ang kaibigan niyang si Kumagorō.",
+     "ne": "उसले मरेको मान्छे आफ्नो साथी कुमागोरो हो भनेर पक्का ठान्यो।",
+     "id": "Ia yakin orang mati itu adalah temannya, Kumagorō.",
+     "pt": "Ele se convenceu de que o morto era seu amigo Kumagorō.",
+     "my": "သေသူက သူငယ်ချင်း ကုမဂိုရို လို့ သူ စွဲစွဲမြဲမြဲ ယုံတယ်။",
+     "th": "เขาปักใจเชื่อว่าคนตายคือคุมะโกโร่เพื่อนของเขา"
+    }
+   },
+   {
+    "ja": "役人が「けさ会えるはずがない」と言ったのは、なぜですか。",
+    "choices": [
+     "男はゆうべからそこに倒れていたから",
+     "熊五郎が旅に出ていたから",
+     "八五郎がうそをついたから"
+    ],
+    "answer": 0,
+    "explain": {
+     "vi": "Người chết đã nằm đó từ đêm qua, nên sáng nay không thể gặp được.",
+     "en": "The man had been lying there since last night, so no one could have met him this morning.",
+     "zh-Hans": "那人从昨晚就倒在那里，所以今天早上不可能见到他。",
+     "zh-Hant": "那人從昨晚就倒在那裡，所以今天早上不可能見到他。",
+     "ko": "그 남자는 어젯밤부터 거기 쓰러져 있었으니 오늘 아침에 만날 수 없었습니다.",
+     "tl": "Mula kagabi nakahandusay na roon ang lalaki, kaya imposibleng nakita siya kaninang umaga.",
+     "ne": "त्यो मान्छे हिजो रातिदेखि त्यहीँ लडिरहेको थियो, त्यसैले आज बिहान भेट्न सम्भव थिएन।",
+     "id": "Pria itu sudah tergeletak di sana sejak semalam, jadi tak mungkin bertemu pagi tadi.",
+     "pt": "O homem estava caído ali desde a noite anterior, então ninguém poderia tê-lo visto de manhã.",
+     "my": "အဲဒီလူက မနေ့ညကတည်းက အဲဒီမှာ လဲနေတာမို့ ဒီမနက် တွေ့နိုင်စရာ မရှိဘူး။",
+     "th": "ผู้ชายคนนั้นล้มอยู่ตรงนั้นตั้งแต่เมื่อคืน เมื่อเช้าจึงไม่มีทางเจอได้"
+    }
+   },
+   {
+    "ja": "熊五郎は、なぜ自分が死んだと信じてしまいましたか。",
+    "choices": [
+     "役人に言われたから",
+     "体が冷たかったから",
+     "ゆうべのことを覚えていなくて、八五郎の話を信じたから"
+    ],
+    "answer": 2,
+    "explain": {
+     "vi": "Anh không nhớ gì về đêm qua, nên tin luôn lời Hachigorō.",
+     "en": "He couldn't remember last night, so he simply believed Hachigorō.",
+     "zh-Hans": "他不记得昨晚的事，就相信了八五郎的话。",
+     "zh-Hant": "他不記得昨晚的事，就相信了八五郎的話。",
+     "ko": "어젯밤 일을 기억하지 못해서 하치고로의 말을 그대로 믿었습니다.",
+     "tl": "Hindi niya maalala ang nangyari kagabi, kaya naniwala na lang siya kay Hachigorō.",
+     "ne": "उसलाई हिजो रातिको कुरा याद थिएन, त्यसैले हाचिगोरोको कुरा पत्यायो।",
+     "id": "Ia tidak ingat kejadian semalam, jadi langsung percaya pada Hachigorō.",
+     "pt": "Ele não lembrava da noite anterior, então acreditou em Hachigorō.",
+     "my": "မနေ့ညက အကြောင်း မမှတ်မိလို့ ဟချိဂိုရို ပြောတာကို ယုံလိုက်တယ်။",
+     "th": "เขาจำเรื่องเมื่อคืนไม่ได้ จึงเชื่อคำของฮาจิโกโร่ไปเลย"
+    }
+   },
+   {
+    "ja": "この話のおちで、熊五郎は何がわからなくなりましたか。",
+    "choices": [
+     "長屋への帰り道",
+     "抱いている自分が誰なのか",
+     "死んだ男の名前"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Nếu người được ôm là mình, thì người đang ôm là ai?",
+     "en": "If the one being held is him, then who is the one holding?",
+     "zh-Hans": "如果被抱着的是自己，那抱着他的又是谁？",
+     "zh-Hant": "如果被抱著的是自己，那抱著他的又是誰？",
+     "ko": "안겨 있는 게 자기라면, 안고 있는 자기는 누구인가?",
+     "tl": "Kung siya ang binubuhat, sino naman ang bumubuhat?",
+     "ne": "अँगालोमा परेको आफू हो भने, अँगालो हाल्ने को हो?",
+     "id": "Kalau yang dipeluk adalah dirinya, lalu siapa yang memeluk?",
+     "pt": "Se quem está sendo abraçado é ele, quem é que está abraçando?",
+     "my": "ပွေ့ခံရတာက ကိုယ်ဆိုရင် ပွေ့နေတဲ့သူက ဘယ်သူလဲ။",
+     "th": "ถ้าคนที่ถูกกอดคือตัวเขา แล้วคนที่กอดอยู่คือใคร"
+    }
+   }
+  ]
+ },
+ "sentences": [
+  {
+   "ja": "「粗忽」というのは、とてもそそっかしくて、早とちりをすることです。",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "粗忽",
+     "reading": "そこつ"
+    },
+    {
+     "surface": "」というのは、とてもそそっかしくて、",
+     "reading": ""
+    },
+    {
+     "surface": "早",
+     "reading": "はや"
+    },
+    {
+     "surface": "とちりをすることです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "\"sokotsu\" toiu no wa, totemo sosokkashikute, hayatochiri o suru koto desu.",
+   "translations": {
+    "vi": "\"Sokotsu\" nghĩa là rất hấp tấp, vội kết luận khi chưa hiểu rõ.",
+    "en": "\"Sokotsu\" means being very careless and jumping to conclusions.",
+    "zh-Hans": "\"粗忽\"指的是非常冒失，话没听清就妄下结论。",
+    "zh-Hant": "\"粗忽\"指的是非常冒失，話沒聽清就妄下結論。",
+    "ko": "\"소코쓰\"란 매우 덜렁대서 제대로 알아보지 않고 지레짐작하는 것을 말합니다.",
+    "tl": "Ang \"sokotsu\" ay ang pagiging sobrang pabaya at padalos-dalos sa paghuhusga.",
+    "ne": "\"सोकोत्सु\" भनेको धेरै लापरबाह भएर हतारमा निष्कर्ष निकाल्नु हो।",
+    "id": "\"Sokotsu\" artinya sangat ceroboh dan terburu-buru menyimpulkan.",
+    "pt": "\"Sokotsu\" quer dizer ser muito desatento e tirar conclusões precipitadas.",
+    "my": "\"ဆိုကိုဆု\" ဆိုတာ အရမ်း ပေါ့ဆပြီး သေချာမသိဘဲ အလျင်စလို ကောက်ချက်ချတာ ဖြစ်တယ်။",
+    "th": "\"โซโคทสึ\" หมายถึงซุ่มซ่ามมาก และด่วนสรุปโดยไม่ฟังให้ดี"
+   },
+   "grammarNote": {
+    "vi": "そそっかしい: hấp tấp, đoảng. 早とちり: hiểu vội, kết luận vội. 〜というのは〜ことです: ~ nghĩa là ~.",
+    "en": "そそっかしい: careless, hasty. 早とちり: jumping to conclusions. 〜というのは〜ことです: ~ means ~.",
+    "zh-Hans": "そそっかしい：冒失、粗心。早とちり：误解、妄下结论。〜というのは〜ことです：所谓～就是～。",
+    "zh-Hant": "そそっかしい：冒失、粗心。早とちり：誤解、妄下結論。〜というのは〜ことです：所謂～就是～。",
+    "ko": "そそっかしい: 덜렁대다. 早とちり: 지레짐작. 〜というのは〜ことです: ~란 ~을 말한다.",
+    "tl": "そそっかしい: pabaya, padalos-dalos. 早とちり: madaliang paghuhusga. 〜というのは〜ことです: ang ~ ay ~.",
+    "ne": "そそっかしい: लापरबाह, हतारिलो। 早とちり: हतारको निष्कर्ष। 〜というのは〜ことです: ~ भनेको ~ हो।",
+    "id": "そそっかしい: ceroboh. 早とちり: buru-buru menyimpulkan. 〜というのは〜ことです: ~ artinya ~.",
+    "pt": "そそっかしい: desatento, afobado. 早とちり: conclusão precipitada. 〜というのは〜ことです: ~ quer dizer ~.",
+    "my": "そそっかしい: ပေါ့ဆ၊ လောတတ်။ 早とちり: အလျင်စလို ကောက်ချက်ချ။ 〜というのは〜ことです: ~ ဆိုတာ ~ ပါ။",
+    "th": "そそっかしい: ซุ่มซ่าม ใจร้อน 早とちり: ด่วนสรุป 〜というのは〜ことです: ~ หมายถึง ~"
+   },
+   "vocab": [
+    {
+     "word": "そそっかしい",
+     "reading": "そそっかしい",
+     "level": "N2",
+     "meanings": {
+      "vi": "hấp tấp, đoảng",
+      "en": "careless, hasty",
+      "zh-Hans": "冒失",
+      "zh-Hant": "冒失",
+      "ko": "덜렁대다",
+      "tl": "pabaya, padalos-dalos",
+      "ne": "लापरबाह",
+      "id": "ceroboh",
+      "pt": "desatento",
+      "my": "ပေါ့ဆ",
+      "th": "ซุ่มซ่าม"
+     }
+    }
+   ],
+   "t": [
+    0.3,
+    5.14
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=0.3,5.14"
+  },
+  {
+   "ja": "今日は、江戸の長屋に住む、二人の粗忽者の話です。",
+   "furigana": [
+    {
+     "surface": "今日",
+     "reading": "きょう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "江戸",
+     "reading": "えど"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "長屋",
+     "reading": "ながや"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "住",
+     "reading": "す"
+    },
+    {
+     "surface": "む、",
+     "reading": ""
+    },
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "粗忽者",
+     "reading": "そこつもの"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kyou wa, Edo no nagaya ni sumu, futari no sokotsumono no hanashi desu.",
+   "translations": {
+    "vi": "Hôm nay là chuyện về hai anh chàng hấp tấp sống trong một dãy nhà nagaya ở Edo.",
+    "en": "Today's story is about two scatterbrains living in a nagaya row house in Edo.",
+    "zh-Hans": "今天讲的是住在江户长屋里的两个冒失鬼的故事。",
+    "zh-Hant": "今天講的是住在江戶長屋裡的兩個冒失鬼的故事。",
+    "ko": "오늘은 에도의 나가야에 사는 두 덜렁이 이야기입니다.",
+    "tl": "Ang kuwento ngayon ay tungkol sa dalawang padalos-dalos na nakatira sa isang nagaya sa Edo.",
+    "ne": "आजको कथा एदोको नागायामा बस्ने दुई लापरबाह मान्छेको हो।",
+    "id": "Hari ini ceritanya tentang dua orang ceroboh yang tinggal di nagaya di Edo.",
+    "pt": "Hoje a história é de dois desmiolados que moravam num nagaya em Edo.",
+    "my": "ဒီနေ့က အဲဒိုမြို့ နာဂါယ မှာနေတဲ့ ပေါ့ဆသူ နှစ်ယောက်ရဲ့ ဇာတ်လမ်းပါ။",
+    "th": "วันนี้เป็นเรื่องของคนซุ่มซ่ามสองคนที่อยู่ในนางายะในเมืองเอโดะ"
+   },
+   "grammarNote": {
+    "vi": "長屋: nhà dãy (dãy nhà chung vách của dân nghèo Edo). 粗忽者: người hấp tấp.",
+    "en": "長屋: row house (shared-wall housing of Edo commoners). 粗忽者: scatterbrain.",
+    "zh-Hans": "長屋：长屋（江户平民共用墙壁的连排房）。粗忽者：冒失鬼。",
+    "zh-Hant": "長屋：長屋（江戶平民共用牆壁的連排房）。粗忽者：冒失鬼。",
+    "ko": "長屋: 나가야 (벽을 맞댄 에도 서민의 연립 주택). 粗忽者: 덜렁이.",
+    "tl": "長屋: nagaya (magkakadikit na bahay ng karaniwang tao sa Edo). 粗忽者: taong padalos-dalos.",
+    "ne": "長屋: नागाया (एदोका साधारण मानिसका जोडिएका घर)। 粗忽者: लापरबाह मान्छे।",
+    "id": "長屋: nagaya (rumah petak berdinding sambung rakyat Edo). 粗忽者: orang ceroboh.",
+    "pt": "長屋: nagaya (casas geminadas dos plebeus de Edo). 粗忽者: desmiolado.",
+    "my": "長屋: နာဂါယ (အဲဒိုခေတ် သာမန်လူတွေရဲ့ နံရံချင်းကပ် တန်းလျားအိမ်)။ 粗忽者: ပေါ့ဆသူ။",
+    "th": "長屋: นางายะ (บ้านแถวผนังติดกันของชาวบ้านเอโดะ) 粗忽者: คนซุ่มซ่าม"
+   },
+   "vocab": [],
+   "t": [
+    5.74,
+    9.94
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=5.74,9.94"
+  },
+  {
+   "ja": "八五郎と熊五郎は、同じ長屋に住む、仲のいい友だちでした。",
+   "furigana": [
+    {
+     "surface": "八五郎",
+     "reading": "はちごろう"
+    },
+    {
+     "surface": "と",
+     "reading": ""
+    },
+    {
+     "surface": "熊五郎",
+     "reading": "くまごろう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "同",
+     "reading": "おな"
+    },
+    {
+     "surface": "じ",
+     "reading": ""
+    },
+    {
+     "surface": "長屋",
+     "reading": "ながや"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "住",
+     "reading": "す"
+    },
+    {
+     "surface": "む、",
+     "reading": ""
+    },
+    {
+     "surface": "仲",
+     "reading": "なか"
+    },
+    {
+     "surface": "のいい",
+     "reading": ""
+    },
+    {
+     "surface": "友",
+     "reading": "とも"
+    },
+    {
+     "surface": "だちでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hachigorou to Kumagorou wa, onaji nagaya ni sumu, naka no ii tomodachi deshita.",
+   "translations": {
+    "vi": "Hachigorō và Kumagorō là hai người bạn thân sống cùng một dãy nhà.",
+    "en": "Hachigorō and Kumagorō were good friends living in the same row house.",
+    "zh-Hans": "八五郎和熊五郎是住在同一排长屋里的好朋友。",
+    "zh-Hant": "八五郎和熊五郎是住在同一排長屋裡的好朋友。",
+    "ko": "하치고로와 구마고로는 같은 나가야에 사는 사이좋은 친구였습니다.",
+    "tl": "Sina Hachigorō at Kumagorō ay magkaibigang nakatira sa iisang nagaya.",
+    "ne": "हाचिगोरो र कुमागोरो एउटै नागायामा बस्ने मिल्ने साथी थिए।",
+    "id": "Hachigorō dan Kumagorō adalah sahabat yang tinggal di nagaya yang sama.",
+    "pt": "Hachigorō e Kumagorō eram bons amigos que moravam no mesmo nagaya.",
+    "my": "ဟချိဂိုရိုနဲ့ ကုမဂိုရိုဟာ နာဂါယ တစ်ခုတည်းမှာ နေတဲ့ ခင်မင်တဲ့ သူငယ်ချင်းတွေပါ။",
+    "th": "ฮาจิโกโร่กับคุมะโกโร่เป็นเพื่อนสนิทที่อยู่นางายะเดียวกัน"
+   },
+   "grammarNote": {
+    "vi": "仲のいい: thân thiết. 同じ: cùng.",
+    "en": "仲のいい: close, on good terms. 同じ: same.",
+    "zh-Hans": "仲のいい：关系好。同じ：同一个。",
+    "zh-Hant": "仲のいい：關系好。同じ：同一個。",
+    "ko": "仲のいい: 사이좋은. 同じ: 같은.",
+    "tl": "仲のいい: malapit sa isa't isa. 同じ: pareho.",
+    "ne": "仲のいい: मिल्ने। 同じ: एउटै।",
+    "id": "仲のいい: akrab. 同じ: sama.",
+    "pt": "仲のいい: amigos próximos. 同じ: mesmo.",
+    "my": "仲のいい: ခင်မင်။ 同じ: တူညီ။",
+    "th": "仲のいい: สนิทกัน 同じ: เดียวกัน"
+   },
+   "vocab": [
+    {
+     "word": "仲",
+     "reading": "なか",
+     "level": "N3",
+     "meanings": {
+      "vi": "quan hệ (thân, sơ)",
+      "en": "relationship",
+      "zh-Hans": "关系",
+      "zh-Hant": "關係",
+      "ko": "사이",
+      "tl": "samahan",
+      "ne": "सम्बन्ध",
+      "id": "hubungan",
+      "pt": "relação",
+      "my": "ဆက်ဆံရေး",
+      "th": "ความสัมพันธ์"
+     }
+    }
+   ],
+   "t": [
+    10.54,
+    14.93
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=10.54,14.93"
+  },
+  {
+   "ja": "二人とも、人の話を最後まで聞かずに、すぐ思いこんでしまう性格です。",
+   "furigana": [
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "とも、",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "最後",
+     "reading": "さいご"
+    },
+    {
+     "surface": "まで",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "かずに、すぐ",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "いこんでしまう",
+     "reading": ""
+    },
+    {
+     "surface": "性格",
+     "reading": "せいかく"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Futari tomo, hito no hanashi o saigo made kikazu ni, sugu omoikonde shimau seikaku desu.",
+   "translations": {
+    "vi": "Cả hai đều có tính chưa nghe người khác nói hết đã tin ngay vào điều mình nghĩ.",
+    "en": "Both had a habit of not listening to people to the end and quickly believing whatever they assumed.",
+    "zh-Hans": "两个人都是不把别人的话听完，就马上认定自己想法的性格。",
+    "zh-Hant": "兩個人都是不把別人的話聽完，就馬上認定自己想法的性格。",
+    "ko": "두 사람 다 남의 말을 끝까지 듣지 않고 바로 지레 믿어 버리는 성격입니다.",
+    "tl": "Pareho silang hindi nakikinig hanggang dulo at agad naniniwala sa sariling akala.",
+    "ne": "दुवैको बानी अरूको कुरा पूरा नसुनी आफूले सोचेकै कुरा तुरुन्तै पत्याउने थियो।",
+    "id": "Keduanya punya sifat tidak mendengar omongan orang sampai habis dan langsung yakin pada dugaannya sendiri.",
+    "pt": "Os dois tinham o costume de não ouvir os outros até o fim e logo acreditar no que imaginavam.",
+    "my": "နှစ်ယောက်စလုံး တခြားသူ ပြောတာ အဆုံးထိ နားမထောင်ဘဲ ကိုယ်ထင်တာကို ချက်ချင်း ယုံတတ်တဲ့ စရိုက်ရှိတယ်။",
+    "th": "ทั้งคู่มีนิสัยไม่ฟังคนอื่นพูดให้จบ แล้วเชื่อสิ่งที่ตัวเองคิดไปทันที"
+   },
+   "grammarNote": {
+    "vi": "〜ずに: mà không ~. 思いこむ: đinh ninh, tin chắc. 性格: tính cách.",
+    "en": "〜ずに: without ~. 思いこむ: be convinced, assume. 性格: personality.",
+    "zh-Hans": "〜ずに：不～就。思いこむ：认定、深信。性格：性格。",
+    "zh-Hant": "〜ずに：不～就。思いこむ：認定、深信。性格：性格。",
+    "ko": "〜ずに: ~하지 않고. 思いこむ: 굳게 믿다. 性格: 성격.",
+    "tl": "〜ずに: nang hindi ~. 思いこむ: kumbinsihin ang sarili. 性格: ugali.",
+    "ne": "〜ずに: नगरी। 思いこむ: पक्का ठान्नु। 性格: स्वभाव।",
+    "id": "〜ずに: tanpa ~. 思いこむ: yakin sendiri. 性格: sifat.",
+    "pt": "〜ずに: sem ~. 思いこむ: convencer-se. 性格: temperamento.",
+    "my": "〜ずに: မ ~ ဘဲ။ 思いこむ: စွဲစွဲမြဲမြဲ ယုံ။ 性格: စရိုက်။",
+    "th": "〜ずに: โดยไม่ ~ 思いこむ: ปักใจเชื่อ 性格: นิสัย"
+   },
+   "vocab": [
+    {
+     "word": "思いこむ",
+     "reading": "おもいこむ",
+     "level": "N2",
+     "meanings": {
+      "vi": "đinh ninh, tin chắc",
+      "en": "to be convinced, assume",
+      "zh-Hans": "认定",
+      "zh-Hant": "認定",
+      "ko": "굳게 믿다",
+      "tl": "kumbinsihin ang sarili",
+      "ne": "पक्का ठान्नु",
+      "id": "yakin sendiri",
+      "pt": "convencer-se",
+      "my": "စွဲစွဲမြဲမြဲ ယုံ",
+      "th": "ปักใจเชื่อ"
+     }
+    },
+    {
+     "word": "性格",
+     "reading": "せいかく",
+     "level": "N3",
+     "meanings": {
+      "vi": "tính cách",
+      "en": "personality",
+      "zh-Hans": "性格",
+      "zh-Hant": "性格",
+      "ko": "성격",
+      "tl": "ugali",
+      "ne": "स्वभाव",
+      "id": "sifat",
+      "pt": "temperamento",
+      "my": "စရိုက်",
+      "th": "นิสัย"
+     }
+    }
+   ],
+   "t": [
+    15.53,
+    21.53
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=15.53,21.53"
+  },
+  {
+   "ja": "ある朝、八五郎は、浅草の観音様へお参りに出かけました。",
+   "furigana": [
+    {
+     "surface": "ある",
+     "reading": ""
+    },
+    {
+     "surface": "朝",
+     "reading": "あさ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "八五郎",
+     "reading": "はちごろう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "浅草",
+     "reading": "あさくさ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "観音",
+     "reading": "かんのん"
+    },
+    {
+     "surface": "様",
+     "reading": "さま"
+    },
+    {
+     "surface": "へお",
+     "reading": ""
+    },
+    {
+     "surface": "参",
+     "reading": "まい"
+    },
+    {
+     "surface": "りに",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "で"
+    },
+    {
+     "surface": "かけました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Aru asa, Hachigorou wa, Asakusa no kannonsama e omairi ni dekakemashita.",
+   "translations": {
+    "vi": "Một buổi sáng, Hachigorō đi lễ đền Kannon ở Asakusa.",
+    "en": "One morning, Hachigorō went to pray at the Kannon temple in Asakusa.",
+    "zh-Hans": "一天早上，八五郎去浅草的观音寺参拜。",
+    "zh-Hant": "一天早上，八五郎去淺草的觀音寺參拜。",
+    "ko": "어느 날 아침, 하치고로는 아사쿠사의 관음님께 참배하러 갔습니다.",
+    "tl": "Isang umaga, nagdasal si Hachigorō sa templo ni Kannon sa Asakusa.",
+    "ne": "एक बिहान हाचिगोरो आसाकुसाको कान्नोन मन्दिरमा पूजा गर्न गयो।",
+    "id": "Suatu pagi, Hachigorō pergi berdoa ke kuil Kannon di Asakusa.",
+    "pt": "Certa manhã, Hachigorō foi rezar no templo de Kannon, em Asakusa.",
+    "my": "တစ်မနက်မှာ ဟချိဂိုရိုဟာ အာဆာကုဆာက ကွမ်ယင် ဘုရားကျောင်းကို ဘုရားဖူးသွားတယ်။",
+    "th": "เช้าวันหนึ่ง ฮาจิโกโร่ไปไหว้พระโพธิสัตว์กวนอิมที่อาซากุสะ"
+   },
+   "grammarNote": {
+    "vi": "観音様: Phật bà Quan Âm (chùa Sensō-ji). お参り: đi lễ.",
+    "en": "観音様: Kannon, goddess of mercy (Sensō-ji). お参り: a visit to pray.",
+    "zh-Hans": "観音様：观音菩萨（浅草寺）。お参り：参拜。",
+    "zh-Hant": "観音様：觀音菩薩（淺草寺）。お参り：參拜。",
+    "ko": "観音様: 관음보살 (센소지). お参り: 참배.",
+    "tl": "観音様: si Kannon, diyosa ng awa (Sensō-ji). お参り: pagdalaw para magdasal.",
+    "ne": "観音様: कान्नोन (दयाकी देवी, सेन्सोजी)। お参り: पूजा गर्न जानु।",
+    "id": "観音様: Dewi Kannon (Sensō-ji). お参り: berkunjung untuk berdoa.",
+    "pt": "観音様: Kannon, deusa da misericórdia (Sensō-ji). お参り: visita para rezar.",
+    "my": "観音様: ကွမ်ယင်မယ်တော် (ဆန်ဆိုဂျိ)။ お参り: ဘုရားဖူး။",
+    "th": "観音様: พระโพธิสัตว์กวนอิม (วัดเซนโซจิ) お参り: ไปไหว้"
+   },
+   "vocab": [
+    {
+     "word": "お参り",
+     "reading": "おまいり",
+     "level": "N2",
+     "meanings": {
+      "vi": "đi lễ (đền, chùa)",
+      "en": "visit to pray",
+      "zh-Hans": "参拜",
+      "zh-Hant": "參拜",
+      "ko": "참배",
+      "tl": "pagdalaw para magdasal",
+      "ne": "पूजा गर्न जानु",
+      "id": "berdoa ke kuil",
+      "pt": "visita para rezar",
+      "my": "ဘုရားဖူး",
+      "th": "ไปไหว้"
+     }
+    }
+   ],
+   "t": [
+    22.13,
+    27.02
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=22.13,27.02"
+  },
+  {
+   "ja": "その帰り道、お寺の門の前に、人がたくさん集まっていました。",
+   "furigana": [
+    {
+     "surface": "その",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "り",
+     "reading": ""
+    },
+    {
+     "surface": "道",
+     "reading": "みち"
+    },
+    {
+     "surface": "、お",
+     "reading": ""
+    },
+    {
+     "surface": "寺",
+     "reading": "てら"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "門",
+     "reading": "もん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "がたくさん",
+     "reading": ""
+    },
+    {
+     "surface": "集",
+     "reading": "あつ"
+    },
+    {
+     "surface": "まっていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono kaerimichi, otera no mon no mae ni, hito ga takusan atsumatte imashita.",
+   "translations": {
+    "vi": "Trên đường về, trước cổng chùa có rất đông người tụ tập.",
+    "en": "On the way back, a crowd had gathered in front of the temple gate.",
+    "zh-Hans": "回来的路上，寺门前聚集了很多人。",
+    "zh-Hant": "回來的路上，寺門前聚集了很多人。",
+    "ko": "돌아오는 길에 절 문 앞에 사람들이 잔뜩 모여 있었습니다.",
+    "tl": "Pauwi, maraming tao ang nagkukumpulan sa harap ng tarangkahan ng templo.",
+    "ne": "फर्कने बाटोमा मन्दिरको ढोकाअगाडि धेरै मानिस जम्मा भएका थिए।",
+    "id": "Dalam perjalanan pulang, banyak orang berkerumun di depan gerbang kuil.",
+    "pt": "Na volta, havia muita gente reunida diante do portão do templo.",
+    "my": "ပြန်လမ်းမှာ ဘုရားကျောင်း တံခါးရှေ့မှာ လူတွေ အများကြီး စုနေကြတယ်။",
+    "th": "ขากลับ มีคนมามุงกันเต็มหน้าประตูวัด"
+   },
+   "grammarNote": {
+    "vi": "帰り道: đường về. 門: cổng. 集まる: tụ tập.",
+    "en": "帰り道: the way back. 門: gate. 集まる: gather.",
+    "zh-Hans": "帰り道：归途。門：门。集まる：聚集。",
+    "zh-Hant": "帰り道：歸途。門：門。集まる：聚集。",
+    "ko": "帰り道: 돌아오는 길. 門: 문. 集まる: 모이다.",
+    "tl": "帰り道: daan pauwi. 門: tarangkahan. 集まる: magkumpulan.",
+    "ne": "帰り道: फर्कने बाटो। 門: ढोका। 集まる: जम्मा हुनु।",
+    "id": "帰り道: jalan pulang. 門: gerbang. 集まる: berkumpul.",
+    "pt": "帰り道: caminho de volta. 門: portão. 集まる: reunir-se.",
+    "my": "帰り道: ပြန်လမ်း။ 門: တံခါးဝ။ 集まる: စု။",
+    "th": "帰り道: ทางกลับ 門: ประตู 集まる: มารวมกัน"
+   },
+   "vocab": [],
+   "t": [
+    27.62,
+    33.47
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=27.62,33.47"
+  },
+  {
+   "ja": "おや、何だろう。ちょっと、すみません。前に行かせてください。",
+   "furigana": [
+    {
+     "surface": "おや、",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "だろう。ちょっと、すみません。",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "かせてください。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oya, nani darou. Chotto, sumimasen. Mae ni ikasete kudasai.",
+   "translations": {
+    "vi": "Ơ, cái gì thế nhỉ. Xin lỗi, cho tôi lên trước với.",
+    "en": "Oh, what's this? Excuse me, let me through to the front.",
+    "zh-Hans": "咦，怎么了？不好意思，让我到前面去。",
+    "zh-Hant": "咦，怎麼了？不好意思，讓我到前面去。",
+    "ko": "어, 뭐지? 잠깐 실례합니다. 앞으로 좀 가게 해 주세요.",
+    "tl": "Uy, ano kaya 'yan? Pasensya na, padaanin n'yo ako sa harap.",
+    "ne": "अरे, के होला? माफ गर्नुहोस्, मलाई अगाडि जान दिनुहोस्।",
+    "id": "Lho, ada apa ini? Permisi, biarkan saya ke depan.",
+    "pt": "Ué, o que é isso? Com licença, me deixem passar para a frente.",
+    "my": "ဟင်၊ ဘာဖြစ်တာလဲ။ ခွင့်ပြုပါ၊ ရှေ့ကို သွားပါရစေ။",
+    "th": "เอ๊ะ อะไรน่ะ ขอโทษครับ ขอผมไปข้างหน้าหน่อย"
+   },
+   "grammarNote": {
+    "vi": "〜させてください: xin cho tôi ~ (thể sai khiến + xin).",
+    "en": "〜させてください: please let me ~ (causative + request).",
+    "zh-Hans": "〜させてください：请让我～（使役＋请求）。",
+    "zh-Hant": "〜させてください：請讓我～（使役＋請求）。",
+    "ko": "〜させてください: ~하게 해 주세요 (사역 + 부탁).",
+    "tl": "〜させてください: pakiusap, payagan akong ~ (kawsatibo + pakiusap).",
+    "ne": "〜させてください: मलाई ~ गर्न दिनुहोस् (प्रेरणार्थक + अनुरोध)।",
+    "id": "〜させてください: tolong biarkan saya ~ (kausatif + permohonan).",
+    "pt": "〜させてください: por favor, deixe-me ~ (causativo + pedido).",
+    "my": "〜させてください: ~ ခွင့်ပြုပါ (ပြုစေ + တောင်းဆို)။",
+    "th": "〜させてください: ขอให้ผมได้ ~ (รูปให้ทำ + ขอร้อง)"
+   },
+   "vocab": [],
+   "t": [
+    34.37,
+    39.02
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=34.37,39.02"
+  },
+  {
+   "ja": "人の間を通って一番前に出ると、地面に男が一人、布をかけられて横になっていました。",
+   "furigana": [
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "間",
+     "reading": "ま"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "通",
+     "reading": "とお"
+    },
+    {
+     "surface": "って",
+     "reading": ""
+    },
+    {
+     "surface": "一番",
+     "reading": "いちばん"
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "で"
+    },
+    {
+     "surface": "ると、",
+     "reading": ""
+    },
+    {
+     "surface": "地面",
+     "reading": "じめん"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "一人",
+     "reading": "ひとり"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "布",
+     "reading": "ぬの"
+    },
+    {
+     "surface": "をかけられて",
+     "reading": ""
+    },
+    {
+     "surface": "横",
+     "reading": "よこ"
+    },
+    {
+     "surface": "になっていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hito no ma o tootte ichiban mae ni deru to, jimen ni otoko ga hitori, nuno o kakerarete yoko ni natte imashita.",
+   "translations": {
+    "vi": "Len qua đám đông lên hàng đầu, anh thấy một người đàn ông nằm trên đất, bị phủ một tấm vải.",
+    "en": "Pushing through to the very front, he saw a man lying on the ground, covered with a cloth.",
+    "zh-Hans": "他从人群中挤到最前面，看见地上躺着一个男人，身上盖着一块布。",
+    "zh-Hant": "他從人群中擠到最前面，看見地上躺著一個男人，身上蓋著一塊布。",
+    "ko": "사람들 사이를 지나 맨 앞으로 나가 보니, 땅 위에 남자 한 명이 천을 덮은 채 누워 있었습니다.",
+    "tl": "Nang makarating sa pinakaharap, may lalaking nakahiga sa lupa na tinakpan ng tela.",
+    "ne": "भीड छिचोलेर सबैभन्दा अगाडि पुग्दा, भुइँमा कपडाले छोपिएको एउटा मान्छे लडिरहेको थियो।",
+    "id": "Setelah menyelinap ke paling depan, ia melihat seorang pria terbaring di tanah, ditutupi kain.",
+    "pt": "Ao chegar bem na frente, viu um homem deitado no chão, coberto por um pano.",
+    "my": "လူကြားထဲက တိုးပြီး ရှေ့ဆုံးရောက်တော့ မြေပေါ်မှာ အဝတ်အုပ်ထားတဲ့ ယောကျ်ားတစ်ယောက် လှဲနေတယ်။",
+    "th": "พอแหวกคนไปถึงแถวหน้าสุด ก็เห็นผู้ชายคนหนึ่งนอนอยู่บนพื้น มีผ้าคลุมไว้"
+   },
+   "grammarNote": {
+    "vi": "〜と: thì (phát hiện). かけられて: bị phủ (bị động). 横になる: nằm.",
+    "en": "〜と: when ~ (discovery). かけられて: covered (passive). 横になる: lie down.",
+    "zh-Hans": "〜と：一～就（发现）。かけられて：被盖着（被动）。横になる：躺。",
+    "zh-Hant": "〜と：一～就（發現）。かけられて：被蓋著（被動）。横になる：躺。",
+    "ko": "〜と: ~하니 (발견). かけられて: 덮인 (수동). 横になる: 눕다.",
+    "tl": "〜と: nang ~ (pagkatuklas). かけられて: tinakpan (passive). 横になる: humiga.",
+    "ne": "〜と: ~ गर्दा (पत्ता)। かけられて: छोपिएको (कर्मवाच्य)। 横になる: लड्नु, पल्टनु।",
+    "id": "〜と: saat ~ (menemukan). かけられて: ditutupi (pasif). 横になる: berbaring.",
+    "pt": "〜と: ao ~ (descoberta). かけられて: coberto (passiva). 横になる: deitar-se.",
+    "my": "〜と: ~ တော့ (တွေ့)။ かけられて: အုပ်ခံထား (ကံ)။ 横になる: လှဲ။",
+    "th": "〜と: พอ ~ (พบ) かけられて: ถูกคลุม (ถูกกระทำ) 横になる: นอน"
+   },
+   "vocab": [
+    {
+     "word": "地面",
+     "reading": "じめん",
+     "level": "N2",
+     "meanings": {
+      "vi": "mặt đất",
+      "en": "ground",
+      "zh-Hans": "地面",
+      "zh-Hant": "地面",
+      "ko": "땅바닥",
+      "tl": "lupa",
+      "ne": "भुइँ",
+      "id": "tanah",
+      "pt": "chão",
+      "my": "မြေပြင်",
+      "th": "พื้นดิน"
+     }
+    },
+    {
+     "word": "布",
+     "reading": "ぬの",
+     "level": "N3",
+     "meanings": {
+      "vi": "vải",
+      "en": "cloth",
+      "zh-Hans": "布",
+      "zh-Hant": "布",
+      "ko": "천",
+      "tl": "tela",
+      "ne": "कपडा",
+      "id": "kain",
+      "pt": "pano",
+      "my": "အဝတ်စ",
+      "th": "ผ้า"
+     }
+    }
+   ],
+   "t": [
+    39.92,
+    47.32
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=39.92,47.32"
+  },
+  {
+   "ja": "おい、勝手に近寄るな。ゆうべ、ここで行き倒れた男だ。",
+   "furigana": [
+    {
+     "surface": "おい、",
+     "reading": ""
+    },
+    {
+     "surface": "勝手",
+     "reading": "かって"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "近寄",
+     "reading": "ちかよ"
+    },
+    {
+     "surface": "るな。ゆうべ、ここで",
+     "reading": ""
+    },
+    {
+     "surface": "行き倒れた",
+     "reading": "いきだおれた"
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "だ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oi, katte ni chikayoru na. Yuube, koko de ikidaoreta otoko da.",
+   "translations": {
+    "vi": "Này, đừng tự tiện lại gần. Đây là người chết đường đêm qua.",
+    "en": "Hey, don't come close without permission. This man collapsed and died here last night.",
+    "zh-Hans": "喂，别随便靠近。这是昨晚倒在这里死掉的人。",
+    "zh-Hant": "喂，別隨便靠近。這是昨晚倒在這裡死掉的人。",
+    "ko": "이봐, 함부로 다가오지 마. 어젯밤 여기서 쓰러져 죽은 사람이다.",
+    "tl": "Hoy, huwag kang basta lalapit. Ito 'yung lalaking bumagsak at namatay dito kagabi.",
+    "ne": "ए, मनपरी नजिक नआइज। यो हिजो राति यहीँ लडेर मरेको मान्छे हो।",
+    "id": "Hei, jangan sembarangan mendekat. Ini orang yang jatuh dan mati di sini semalam.",
+    "pt": "Ei, não chegue perto sem permissão. Este homem caiu e morreu aqui ontem à noite.",
+    "my": "ဟေ့၊ စိတ်ထင်တိုင်း မကပ်နဲ့။ ဒါ မနေ့ညက ဒီမှာ လဲသေတဲ့ လူပဲ။",
+    "th": "นี่ อย่าเข้ามาใกล้ตามใจชอบ นี่คือคนที่ล้มตายตรงนี้เมื่อคืน"
+   },
+   "grammarNote": {
+    "vi": "勝手に: tự tiện. 近寄るな: đừng lại gần (cấm). 行き倒れる: gục chết ngoài đường.",
+    "en": "勝手に: without permission. 近寄るな: don't come near. 行き倒れる: collapse and die by the road.",
+    "zh-Hans": "勝手に：随便。近寄るな：别靠近（禁止）。行き倒れる：倒毙路边。",
+    "zh-Hant": "勝手に：隨便。近寄るな：別靠近（禁止）。行き倒れる：倒斃路邊。",
+    "ko": "勝手に: 함부로. 近寄るな: 다가오지 마 (금지). 行き倒れる: 길에서 쓰러져 죽다.",
+    "tl": "勝手に: basta-basta. 近寄るな: huwag lumapit. 行き倒れる: bumagsak at mamatay sa daan.",
+    "ne": "勝手に: मनपरी। 近寄るな: नजिक नआइज (निषेध)। 行き倒れる: बाटोमा लडेर मर्नु।",
+    "id": "勝手に: sembarangan. 近寄るな: jangan mendekat. 行き倒れる: jatuh dan mati di jalan.",
+    "pt": "勝手に: sem permissão. 近寄るな: não se aproxime. 行き倒れる: cair morto na rua.",
+    "my": "勝手に: စိတ်ထင်တိုင်း။ 近寄るな: မကပ်နဲ့ (တား)။ 行き倒れる: လမ်းဘေး လဲသေ။",
+    "th": "勝手に: ตามใจชอบ 近寄るな: อย่าเข้าใกล้ (ห้าม) 行き倒れる: ล้มตายข้างทาง"
+   },
+   "vocab": [
+    {
+     "word": "勝手",
+     "reading": "かって",
+     "level": "N1",
+     "meanings": {
+      "vi": "tự tiện",
+      "en": "selfish, as one pleases",
+      "zh-Hans": "随便",
+      "zh-Hant": "隨便",
+      "ko": "멋대로",
+      "tl": "basta-basta",
+      "ne": "मनपरी",
+      "id": "sembarangan",
+      "pt": "à vontade, sem permissão",
+      "my": "စိတ်ထင်တိုင်း",
+      "th": "ตามใจชอบ"
+     }
+    },
+    {
+     "word": "近寄る",
+     "reading": "ちかよる",
+     "level": "N2",
+     "meanings": {
+      "vi": "lại gần",
+      "en": "to approach",
+      "zh-Hans": "靠近",
+      "zh-Hant": "靠近",
+      "ko": "다가가다",
+      "tl": "lumapit",
+      "ne": "नजिक जानु",
+      "id": "mendekat",
+      "pt": "aproximar-se",
+      "my": "ချဉ်းကပ်",
+      "th": "เข้าใกล้"
+     }
+    }
+   ],
+   "t": [
+    48.22,
+    53.05
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=48.22,53.05"
+  },
+  {
+   "ja": "「行き倒れ」というのは、道で倒れて、そのまま死んでしまった人のことです。",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "行き倒れ",
+     "reading": "いきだおれ"
+    },
+    {
+     "surface": "」というのは、",
+     "reading": ""
+    },
+    {
+     "surface": "道",
+     "reading": "みち"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "倒",
+     "reading": "たお"
+    },
+    {
+     "surface": "れて、そのまま",
+     "reading": ""
+    },
+    {
+     "surface": "死",
+     "reading": "し"
+    },
+    {
+     "surface": "んでしまった",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "のことです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "\"ikidaore\" toiu no wa, michi de taorete, sonomama shinde shimatta hito no koto desu.",
+   "translations": {
+    "vi": "\"Ikidaore\" là người ngã gục trên đường rồi chết luôn ở đó.",
+    "en": "An \"ikidaore\" is someone who collapses on the road and dies right there.",
+    "zh-Hans": "\"行倒\"指的是在路上倒下、就那样死去的人。",
+    "zh-Hant": "\"行倒\"指的是在路上倒下、就那樣死去的人。",
+    "ko": "\"이키다오레\"란 길에서 쓰러져 그대로 죽어 버린 사람을 말합니다.",
+    "tl": "Ang \"ikidaore\" ay taong bumagsak sa daan at doon na mismo namatay.",
+    "ne": "\"इकिदाओरे\" भनेको बाटोमा लडेर त्यहीँ मरेको मान्छे हो।",
+    "id": "\"Ikidaore\" artinya orang yang jatuh di jalan lalu meninggal begitu saja di sana.",
+    "pt": "\"Ikidaore\" é quem cai na rua e morre ali mesmo.",
+    "my": "\"အိကိဒါအိုရဲ\" ဆိုတာ လမ်းမှာ လဲပြီး အဲဒီမှာပဲ သေသွားတဲ့ လူကို ခေါ်တယ်။",
+    "th": "\"อิคิดาโอเระ\" หมายถึงคนที่ล้มลงกลางทาง แล้วตายไปตรงนั้นเลย"
+   },
+   "grammarNote": {
+    "vi": "そのまま: cứ thế. 〜てしまった: mất rồi.",
+    "en": "そのまま: just like that. 〜てしまった: ended up ~.",
+    "zh-Hans": "そのまま：就那样。〜てしまった：～了。",
+    "zh-Hant": "そのまま：就那樣。〜てしまった：～了。",
+    "ko": "そのまま: 그대로. 〜てしまった: ~해 버렸다.",
+    "tl": "そのまま: doon na mismo. 〜てしまった: nangyari na.",
+    "ne": "そのまま: त्यहीँ। 〜てしまった: ~ भइहाल्यो।",
+    "id": "そのまま: begitu saja. 〜てしまった: telanjur ~.",
+    "pt": "そのまま: ali mesmo. 〜てしまった: acabou ~.",
+    "my": "そのまま: အဲဒီအတိုင်း။ 〜てしまった: ~ သွားပြီ။",
+    "th": "そのまま: ตรงนั้นเลย 〜てしまった: ~ ไปเสียแล้ว"
+   },
+   "vocab": [
+    {
+     "word": "そのまま",
+     "reading": "そのまま",
+     "level": "N3",
+     "meanings": {
+      "vi": "cứ để nguyên như thế",
+      "en": "as it is",
+      "zh-Hans": "原样",
+      "zh-Hant": "原樣",
+      "ko": "그대로",
+      "tl": "kung ano ito",
+      "ne": "जस्ताको तस्तै",
+      "id": "apa adanya",
+      "pt": "do jeito que está",
+      "my": "ဒီအတိုင်း",
+      "th": "ทั้งอย่างนั้น"
+     }
+    }
+   ],
+   "t": [
+    53.95,
+    59.54
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=53.95,59.54"
+  },
+  {
+   "ja": "どこの誰だか、まだわからないんだ。お前、知っている顔じゃないか。",
+   "furigana": [
+    {
+     "surface": "どこの",
+     "reading": ""
+    },
+    {
+     "surface": "誰",
+     "reading": "だれ"
+    },
+    {
+     "surface": "だか、まだわからないんだ。お",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "っている",
+     "reading": ""
+    },
+    {
+     "surface": "顔",
+     "reading": "かお"
+    },
+    {
+     "surface": "じゃないか。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Doko no dare da ka, mada wakaranai n da. Omae, shitte iru kao ja nai ka.",
+   "translations": {
+    "vi": "Vẫn chưa biết là ai, ở đâu. Anh có quen mặt này không?",
+    "en": "We don't know who he is or where he's from yet. Isn't it a face you know?",
+    "zh-Hans": "还不知道是哪里的什么人。你认不认识这张脸？",
+    "zh-Hant": "還不知道是哪裡的什麼人。你認不認識這張臉？",
+    "ko": "어디 사는 누군지 아직 모른다. 너 아는 얼굴 아니냐?",
+    "tl": "Hindi pa namin alam kung sino siya at taga-saan. Kilala mo ba ang mukhang ito?",
+    "ne": "ऊ को हो, कहाँको हो, अझै थाहा छैन। तँलाई चिनेको अनुहार होइन?",
+    "id": "Belum tahu dia siapa dan dari mana. Kamu kenal wajah ini?",
+    "pt": "Ainda não sabemos quem é nem de onde. Você conhece este rosto?",
+    "my": "ဘယ်က ဘယ်သူမှန်း မသိရသေးဘူး။ မင်း သိတဲ့ မျက်နှာ မဟုတ်လား။",
+    "th": "ยังไม่รู้ว่าเป็นใครมาจากไหน แกรู้จักหน้านี้ไหม"
+   },
+   "grammarNote": {
+    "vi": "どこの誰だか: là ai ở đâu. 〜じゃないか: chẳng phải ~ sao.",
+    "en": "どこの誰だか: who and from where. 〜じゃないか: isn't it ~?",
+    "zh-Hans": "どこの誰だか：是哪里的谁。〜じゃないか：不是～吗。",
+    "zh-Hant": "どこの誰だか：是哪裡的誰。〜じゃないか：不是～嗎。",
+    "ko": "どこの誰だか: 어디 누구인지. 〜じゃないか: ~ 아니냐.",
+    "tl": "どこの誰だか: kung sino at taga-saan. 〜じゃないか: hindi ba ~?",
+    "ne": "どこの誰だか: कहाँको को हो। 〜じゃないか: होइन र?",
+    "id": "どこの誰だか: siapa dan dari mana. 〜じゃないか: bukankah ~?",
+    "pt": "どこの誰だか: quem e de onde. 〜じゃないか: não é ~?",
+    "my": "どこの誰だか: ဘယ်က ဘယ်သူ။ 〜じゃないか: မဟုတ်လား။",
+    "th": "どこの誰だか: เป็นใครมาจากไหน 〜じゃないか: ไม่ใช่เหรอ"
+   },
+   "vocab": [],
+   "t": [
+    60.44,
+    66.67
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=60.44,66.67"
+  },
+  {
+   "ja": "八五郎は、布をめくって、男の顔をじっと見ました。",
+   "furigana": [
+    {
+     "surface": "八五郎",
+     "reading": "はちごろう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "布",
+     "reading": "ぬの"
+    },
+    {
+     "surface": "をめくって、",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "顔",
+     "reading": "かお"
+    },
+    {
+     "surface": "をじっと",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "ました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hachigorou wa, nuno o mekutte, otoko no kao o jitto mimashita.",
+   "translations": {
+    "vi": "Hachigorō lật tấm vải lên, nhìn chằm chằm vào mặt người đàn ông.",
+    "en": "Hachigorō lifted the cloth and stared at the man's face.",
+    "zh-Hans": "八五郎掀开布，盯着男人的脸看。",
+    "zh-Hant": "八五郎掀開布，盯著男人的臉看。",
+    "ko": "하치고로는 천을 들추고 남자의 얼굴을 뚫어지게 보았습니다.",
+    "tl": "Inangat ni Hachigorō ang tela at tinitigan ang mukha ng lalaki.",
+    "ne": "हाचिगोरोले कपडा उठाएर मान्छेको अनुहार एकटक हेर्‍यो।",
+    "id": "Hachigorō menyingkap kain dan menatap wajah pria itu lekat-lekat.",
+    "pt": "Hachigorō levantou o pano e fitou o rosto do homem.",
+    "my": "ဟချိဂိုရိုဟာ အဝတ်ကို လှန်ပြီး ယောကျ်ားရဲ့ မျက်နှာကို စိုက်ကြည့်တယ်။",
+    "th": "ฮาจิโกโร่เปิดผ้าขึ้น แล้วจ้องหน้าผู้ชายคนนั้น"
+   },
+   "grammarNote": {
+    "vi": "めくる: lật lên. じっと: chằm chằm.",
+    "en": "めくる: lift, turn over. じっと: intently.",
+    "zh-Hans": "めくる：掀开。じっと：目不转睛地。",
+    "zh-Hant": "めくる：掀開。じっと：目不轉睛地。",
+    "ko": "めくる: 들추다. じっと: 뚫어지게.",
+    "tl": "めくる: angatin. じっと: titig na titig.",
+    "ne": "めくる: उठाउनु। じっと: एकटक।",
+    "id": "めくる: menyingkap. じっと: lekat-lekat.",
+    "pt": "めくる: levantar. じっと: fixamente.",
+    "my": "めくる: လှန်။ じっと: စိုက်။",
+    "th": "めくる: เปิดขึ้น じっと: จ้อง"
+   },
+   "vocab": [
+    {
+     "word": "めくる",
+     "reading": "めくる",
+     "level": "N3",
+     "meanings": {
+      "vi": "lật lên",
+      "en": "to turn over, lift",
+      "zh-Hans": "掀开",
+      "zh-Hant": "掀開",
+      "ko": "들추다",
+      "tl": "angatin",
+      "ne": "उठाउनु, पल्टाउनु",
+      "id": "menyingkap",
+      "pt": "levantar, virar",
+      "my": "လှန်",
+      "th": "เปิด, พลิก"
+     }
+    },
+    {
+     "word": "じっと",
+     "reading": "じっと",
+     "level": "N3",
+     "meanings": {
+      "vi": "chăm chú, bất động",
+      "en": "intently, still",
+      "zh-Hans": "一动不动地，目不转睛",
+      "zh-Hant": "一動不動地，目不轉睛",
+      "ko": "가만히, 뚫어지게",
+      "tl": "nang matiim, hindi gumagalaw",
+      "ne": "एकटक, चुपचाप",
+      "id": "lekat-lekat, diam",
+      "pt": "fixamente, quieto",
+      "my": "စိုက်၍, ငြိမ်ငြိမ်",
+      "th": "นิ่ง ๆ, จ้อง"
+     }
+    }
+   ],
+   "t": [
+    67.57,
+    72.52
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=67.57,72.52"
+  },
+  {
+   "ja": "あっ！これは熊だ！同じ長屋に住んでいる熊五郎ですよ！",
+   "furigana": [
+    {
+     "surface": "あっ！これは",
+     "reading": ""
+    },
+    {
+     "surface": "熊",
+     "reading": "くま"
+    },
+    {
+     "surface": "だ！",
+     "reading": ""
+    },
+    {
+     "surface": "同",
+     "reading": "おな"
+    },
+    {
+     "surface": "じ",
+     "reading": ""
+    },
+    {
+     "surface": "長屋",
+     "reading": "ながや"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "住",
+     "reading": "す"
+    },
+    {
+     "surface": "んでいる",
+     "reading": ""
+    },
+    {
+     "surface": "熊五郎",
+     "reading": "くまごろう"
+    },
+    {
+     "surface": "ですよ！",
+     "reading": ""
+    }
+   ],
+   "romaji": "A! Kore wa Kuma da! Onaji nagaya ni sunde iru Kumagorou desu yo!",
+   "translations": {
+    "vi": "Á! Đây là Kuma! Kumagorō sống cùng dãy nhà với tôi đấy!",
+    "en": "Ah! It's Kuma! Kumagorō, who lives in my row house!",
+    "zh-Hans": "啊！这是阿熊！是跟我住同一排长屋的熊五郎！",
+    "zh-Hant": "啊！這是阿熊！是跟我住同一排長屋的熊五郎！",
+    "ko": "앗! 이건 구마야! 같은 나가야에 사는 구마고로예요!",
+    "tl": "Ay! Si Kuma ito! Si Kumagorō na kasama ko sa nagaya!",
+    "ne": "आ! यो त कुमा हो! मसँगै नागायामा बस्ने कुमागोरो!",
+    "id": "Ah! Ini Kuma! Kumagorō, yang tinggal di nagaya yang sama dengan saya!",
+    "pt": "Ah! É o Kuma! O Kumagorō, que mora no meu nagaya!",
+    "my": "အား! ဒါ ကုမပဲ! ကျွန်တော်နဲ့ နာဂါယတစ်ခုတည်း နေတဲ့ ကုမဂိုရိုပဲ!",
+    "th": "อ๊ะ! นี่มันคุมะ! คุมะโกโร่ที่อยู่นางายะเดียวกับผมนี่!"
+   },
+   "grammarNote": {
+    "vi": "あっ: á. 住んでいる: đang sống.",
+    "en": "あっ: ah! 住んでいる: lives.",
+    "zh-Hans": "あっ：啊。住んでいる：住着。",
+    "zh-Hant": "あっ：啊。住んでいる：住著。",
+    "ko": "あっ: 앗. 住んでいる: 살고 있다.",
+    "tl": "あっ: ay! 住んでいる: nakatira.",
+    "ne": "あっ: आ! 住んでいる: बस्ने।",
+    "id": "あっ: ah! 住んでいる: tinggal.",
+    "pt": "あっ: ah! 住んでいる: mora.",
+    "my": "あっ: အား။ 住んでいる: နေထိုင်။",
+    "th": "あっ: อ๊ะ 住んでいる: อาศัยอยู่"
+   },
+   "vocab": [],
+   "t": [
+    73.42,
+    76.66
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=73.42,76.66"
+  },
+  {
+   "ja": "そうか、知り合いか。それは助かる。",
+   "furigana": [
+    {
+     "surface": "そうか、",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "り",
+     "reading": ""
+    },
+    {
+     "surface": "合",
+     "reading": "あ"
+    },
+    {
+     "surface": "いか。それは",
+     "reading": ""
+    },
+    {
+     "surface": "助",
+     "reading": "たす"
+    },
+    {
+     "surface": "かる。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sou ka, shiriai ka. Sore wa tasukaru.",
+   "translations": {
+    "vi": "Thế à, người quen à. Thế thì đỡ quá.",
+    "en": "I see, you know him. That's a big help.",
+    "zh-Hans": "是吗，你认识啊。那可帮大忙了。",
+    "zh-Hant": "是嗎，你認識啊。那可幫大忙了。",
+    "ko": "그래, 아는 사람이냐. 그거 다행이다.",
+    "tl": "Ganoon ba, kakilala mo pala. Malaking tulong 'yan.",
+    "ne": "ए, चिनेको रहेछ। ठूलो सहयोग भयो।",
+    "id": "Begitu, kenalanmu. Syukurlah, sangat membantu.",
+    "pt": "Ah, é conhecido seu. Isso ajuda muito.",
+    "my": "ဟုတ်လား၊ သိတဲ့သူလား။ အကူအညီ အများကြီးပဲ။",
+    "th": "งั้นเหรอ รู้จักกันนี่ ดีเลย ช่วยได้มาก"
+   },
+   "grammarNote": {
+    "vi": "知り合い: người quen. 助かる: được giúp, đỡ quá.",
+    "en": "知り合い: acquaintance. 助かる: be a help.",
+    "zh-Hans": "知り合い：熟人。助かる：得救、帮大忙。",
+    "zh-Hant": "知り合い：熟人。助かる：得救、幫大忙。",
+    "ko": "知り合い: 아는 사람. 助かる: 도움이 되다, 다행이다.",
+    "tl": "知り合い: kakilala. 助かる: makatulong.",
+    "ne": "知り合い: चिनेको मान्छे। 助かる: सहयोग हुनु।",
+    "id": "知り合い: kenalan. 助かる: terbantu.",
+    "pt": "知り合い: conhecido. 助かる: ajudar.",
+    "my": "知り合い: အသိ။ 助かる: အကူအညီရ။",
+    "th": "知り合い: คนรู้จัก 助かる: ช่วยได้มาก"
+   },
+   "vocab": [
+    {
+     "word": "知り合い",
+     "reading": "しりあい",
+     "level": "N2",
+     "meanings": {
+      "vi": "người quen",
+      "en": "acquaintance",
+      "zh-Hans": "熟人",
+      "zh-Hant": "熟人",
+      "ko": "아는 사람",
+      "tl": "kakilala",
+      "ne": "चिनेको मान्छे",
+      "id": "kenalan",
+      "pt": "conhecido",
+      "my": "အသိ",
+      "th": "คนรู้จัก"
+     }
+    },
+    {
+     "word": "助かる",
+     "reading": "たすかる",
+     "level": "N3",
+     "meanings": {
+      "vi": "được cứu, đỡ quá",
+      "en": "to be saved, helped",
+      "zh-Hans": "得救，帮大忙",
+      "zh-Hant": "得救，幫大忙",
+      "ko": "살다, 도움이 되다",
+      "tl": "maligtas, makatulong",
+      "ne": "बच्नु, सहयोग हुनु",
+      "id": "tertolong",
+      "pt": "ser salvo, ajudar",
+      "my": "ကယ်တင်ခံရ, အကူအညီရ",
+      "th": "รอด, ช่วยได้มาก"
+     }
+    }
+   ],
+   "t": [
+    77.56,
+    81.13
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=77.56,81.13"
+  },
+  {
+   "ja": "かわいそうに。けさ会ったときも、元気がなかったんですよ。",
+   "furigana": [
+    {
+     "surface": "かわいそうに。けさ",
+     "reading": ""
+    },
+    {
+     "surface": "会",
+     "reading": "あ"
+    },
+    {
+     "surface": "ったときも、",
+     "reading": ""
+    },
+    {
+     "surface": "元気",
+     "reading": "げんき"
+    },
+    {
+     "surface": "がなかったんですよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kawaisou ni. Kesa atta toki mo, genki ga nakatta n desu yo.",
+   "translations": {
+    "vi": "Tội nghiệp. Sáng nay gặp nó cũng thấy không được khỏe.",
+    "en": "Poor guy. When I saw him this morning, he wasn't looking well either.",
+    "zh-Hans": "真可怜。今天早上见到他时，他也没什么精神。",
+    "zh-Hant": "真可憐。今天早上見到他時，他也沒什麼精神。",
+    "ko": "불쌍하게도. 오늘 아침에 만났을 때도 기운이 없었다니까요.",
+    "tl": "Kawawa naman. Kaninang umaga nang magkita kami, mukha na siyang matamlay.",
+    "ne": "बिचरा। आज बिहान भेट्दा पनि ऊ थकित देखिन्थ्यो।",
+    "id": "Kasihan. Pagi tadi waktu ketemu juga dia kelihatan lesu.",
+    "pt": "Coitado. Hoje de manhã, quando o vi, ele já estava abatido.",
+    "my": "သနားစရာ။ ဒီမနက် တွေ့တုန်းကလည်း သူ အားအင်မရှိဘူး။",
+    "th": "น่าสงสาร เมื่อเช้าเจอกันก็ดูไม่ค่อยมีแรง"
+   },
+   "grammarNote": {
+    "vi": "かわいそうに: tội nghiệp. 元気がない: không khỏe, mệt.",
+    "en": "かわいそうに: poor thing. 元気がない: not well, low.",
+    "zh-Hans": "かわいそうに：真可怜。元気がない：没精神。",
+    "zh-Hant": "かわいそうに：真可憐。元気がない：沒精神。",
+    "ko": "かわいそうに: 불쌍하게도. 元気がない: 기운이 없다.",
+    "tl": "かわいそうに: kawawa. 元気がない: matamlay.",
+    "ne": "かわいそうに: बिचरा। 元気がない: थकित, सुस्त।",
+    "id": "かわいそうに: kasihan. 元気がない: lesu.",
+    "pt": "かわいそうに: coitado. 元気がない: abatido.",
+    "my": "かわいそうに: သနားစရာ။ 元気がない: အားအင်မရှိ။",
+    "th": "かわいそうに: น่าสงสาร 元気がない: ไม่มีแรง"
+   },
+   "vocab": [
+    {
+     "word": "かわいそう",
+     "reading": "かわいそう",
+     "level": "N3",
+     "meanings": {
+      "vi": "tội nghiệp",
+      "en": "poor, pitiful",
+      "zh-Hans": "可怜",
+      "zh-Hant": "可憐",
+      "ko": "불쌍하다",
+      "tl": "kawawa",
+      "ne": "बिचरा",
+      "id": "kasihan",
+      "pt": "coitado",
+      "my": "သနားစရာ",
+      "th": "น่าสงสาร"
+     }
+    }
+   ],
+   "t": [
+    82.03,
+    86.19
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=82.03,86.19"
+  },
+  {
+   "ja": "待て待て。この男は、ゆうべからここに倒れていたんだぞ。けさ会えるはずがない。",
+   "furigana": [
+    {
+     "surface": "待",
+     "reading": "ま"
+    },
+    {
+     "surface": "て",
+     "reading": ""
+    },
+    {
+     "surface": "待",
+     "reading": "ま"
+    },
+    {
+     "surface": "て。この",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "は、ゆうべからここに",
+     "reading": ""
+    },
+    {
+     "surface": "倒",
+     "reading": "たお"
+    },
+    {
+     "surface": "れていたんだぞ。けさ",
+     "reading": ""
+    },
+    {
+     "surface": "会",
+     "reading": "あ"
+    },
+    {
+     "surface": "えるはずがない。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mate mate. Kono otoko wa, yuube kara koko ni taorete ita n da zo. Kesa aeru hazu ga nai.",
+   "translations": {
+    "vi": "Khoan khoan. Người này nằm đây từ đêm qua rồi. Không thể nào sáng nay anh gặp được.",
+    "en": "Wait, wait. This man's been lying here since last night. You can't have seen him this morning.",
+    "zh-Hans": "等等等等。这个人从昨晚就倒在这里了。你今天早上不可能见到他。",
+    "zh-Hant": "等等等等。這個人從昨晚就倒在這裡了。你今天早上不可能見到他。",
+    "ko": "잠깐, 잠깐. 이 남자는 어젯밤부터 여기 쓰러져 있었다고. 오늘 아침에 만났을 리가 없어.",
+    "tl": "Teka, teka. Nakahandusay na ang lalaking ito rito mula kagabi. Imposibleng nagkita kayo kaninang umaga.",
+    "ne": "पर्ख, पर्ख। यो मान्छे हिजो रातिदेखि यहीँ लडिरहेको छ। आज बिहान भेट्ने कुरै छैन।",
+    "id": "Tunggu, tunggu. Pria ini sudah tergeletak di sini sejak semalam. Tidak mungkin kamu ketemu dia pagi tadi.",
+    "pt": "Calma, calma. Este homem está caído aqui desde ontem à noite. Não tem como você o ter visto hoje de manhã.",
+    "my": "နေဦး၊ နေဦး။ ဒီလူက မနေ့ညကတည်းက ဒီမှာ လဲနေတာ။ ဒီမနက် တွေ့နိုင်စရာ မရှိဘူး။",
+    "th": "เดี๋ยวๆ ผู้ชายคนนี้ล้มอยู่ตรงนี้ตั้งแต่เมื่อคืนแล้วนะ เมื่อเช้าแกจะเจอได้ยังไง"
+   },
+   "grammarNote": {
+    "vi": "〜はずがない: không thể nào ~. 〜んだぞ: nhấn mạnh.",
+    "en": "〜はずがない: there's no way ~. 〜んだぞ: emphasis.",
+    "zh-Hans": "〜はずがない：不可能～。〜んだぞ：强调。",
+    "zh-Hant": "〜はずがない：不可能～。〜んだぞ：強調。",
+    "ko": "〜はずがない: ~할 리가 없다. 〜んだぞ: 강조.",
+    "tl": "〜はずがない: imposibleng ~. 〜んだぞ: diin.",
+    "ne": "〜はずがない: ~ हुने कुरै छैन। 〜んだぞ: जोड।",
+    "id": "〜はずがない: tidak mungkin ~. 〜んだぞ: penegas.",
+    "pt": "〜はずがない: não tem como ~. 〜んだぞ: ênfase.",
+    "my": "〜はずがない: ~ စရာ မရှိ။ 〜んだぞ: အလေးပေး။",
+    "th": "〜はずがない: เป็นไปไม่ได้ที่จะ ~ 〜んだぞ: เน้น"
+   },
+   "vocab": [],
+   "t": [
+    87.09,
+    94.87
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=87.09,94.87"
+  },
+  {
+   "ja": "いや、たしかに会いました。本人も、ぐあいが悪いと言っていました。",
+   "furigana": [
+    {
+     "surface": "いや、たしかに",
+     "reading": ""
+    },
+    {
+     "surface": "会",
+     "reading": "あ"
+    },
+    {
+     "surface": "いました。",
+     "reading": ""
+    },
+    {
+     "surface": "本人",
+     "reading": "ほんにん"
+    },
+    {
+     "surface": "も、ぐあいが",
+     "reading": ""
+    },
+    {
+     "surface": "悪",
+     "reading": "わる"
+    },
+    {
+     "surface": "いと",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "っていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Iya, tashikani aimashita. Honnin mo, guaiga warui to itte imashita.",
+   "translations": {
+    "vi": "Không, tôi gặp thật mà. Chính nó cũng nói là thấy trong người không khỏe.",
+    "en": "No, I really did see him. He himself said he felt unwell.",
+    "zh-Hans": "不，我确实见到了。他本人也说身体不舒服。",
+    "zh-Hant": "不，我確實見到了。他本人也說身體不舒服。",
+    "ko": "아뇨, 분명히 만났어요. 본인도 몸이 안 좋다고 했고요.",
+    "tl": "Hindi, nagkita talaga kami. Sabi pa niya mismo, masama ang pakiramdam niya.",
+    "ne": "होइन, साँच्चै भेटेँ। उसले आफैँ पनि सन्चो छैन भन्थ्यो।",
+    "id": "Tidak, saya benar-benar ketemu. Dia sendiri bilang badannya tidak enak.",
+    "pt": "Não, eu vi sim. Ele mesmo disse que não estava se sentindo bem.",
+    "my": "မဟုတ်ဘူး၊ တကယ်တွေ့တယ်။ သူကိုယ်တိုင်လည်း နေမကောင်းဘူးလို့ ပြောတယ်။",
+    "th": "ไม่ครับ เจอจริงๆ ตัวเขาเองก็บอกว่าไม่ค่อยสบาย"
+   },
+   "grammarNote": {
+    "vi": "たしかに: chắc chắn. 本人: chính người đó. ぐあいが悪い: không khỏe.",
+    "en": "たしかに: definitely. 本人: the person himself. ぐあいが悪い: feel unwell.",
+    "zh-Hans": "たしかに：确实。本人：本人。ぐあいが悪い：不舒服。",
+    "zh-Hant": "たしかに：確實。本人：本人。ぐあいが悪い：不舒服。",
+    "ko": "たしかに: 분명히. 本人: 본인. ぐあいが悪い: 몸이 안 좋다.",
+    "tl": "たしかに: talaga. 本人: siya mismo. ぐあいが悪い: masama ang pakiramdam.",
+    "ne": "たしかに: साँच्चै। 本人: स्वयं। ぐあいが悪い: सन्चो नहुनु।",
+    "id": "たしかに: benar-benar. 本人: orangnya sendiri. ぐあいが悪い: tidak enak badan.",
+    "pt": "たしかに: com certeza. 本人: ele mesmo. ぐあいが悪い: sentir-se mal.",
+    "my": "たしかに: တကယ်။ 本人: ကိုယ်တိုင်။ ぐあいが悪い: နေမကောင်း။",
+    "th": "たしかに: จริงๆ 本人: ตัวเขาเอง ぐあいが悪い: ไม่สบาย"
+   },
+   "vocab": [
+    {
+     "word": "本人",
+     "reading": "ほんにん",
+     "level": "N3",
+     "meanings": {
+      "vi": "chính người đó",
+      "en": "the person himself",
+      "zh-Hans": "本人",
+      "zh-Hant": "本人",
+      "ko": "본인",
+      "tl": "siya mismo",
+      "ne": "स्वयं",
+      "id": "orangnya sendiri",
+      "pt": "a própria pessoa",
+      "my": "ကိုယ်တိုင်",
+      "th": "ตัวเขาเอง"
+     }
+    }
+   ],
+   "t": [
+    95.77,
+    100.78
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=95.77,100.78"
+  },
+  {
+   "ja": "本人が？それなら、この男は熊五郎じゃないだろう。",
+   "furigana": [
+    {
+     "surface": "本人",
+     "reading": "ほんにん"
+    },
+    {
+     "surface": "が？それなら、この",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "熊五郎",
+     "reading": "くまごろう"
+    },
+    {
+     "surface": "じゃないだろう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Honnin ga? Sorenara, kono otoko wa Kumagorou ja naidarou.",
+   "translations": {
+    "vi": "Chính anh ta nói? Thế thì người này đâu phải Kumagorō.",
+    "en": "He himself? Then this man isn't Kumagorō, is he?",
+    "zh-Hans": "他本人？那这个人就不是熊五郎吧。",
+    "zh-Hant": "他本人？那這個人就不是熊五郎吧。",
+    "ko": "본인이? 그럼 이 남자는 구마고로가 아니겠지.",
+    "tl": "Siya mismo? E di hindi si Kumagorō ang lalaking ito.",
+    "ne": "आफैँले? त्यसो भए यो मान्छे कुमागोरो होइन होला।",
+    "id": "Dia sendiri? Kalau begitu, pria ini bukan Kumagorō, kan.",
+    "pt": "Ele mesmo? Então este homem não é o Kumagorō, certo?",
+    "my": "သူကိုယ်တိုင်? ဒါဆို ဒီလူက ကုမဂိုရို မဟုတ်လောက်ဘူး။",
+    "th": "ตัวเขาเองเหรอ งั้นผู้ชายคนนี้ก็ไม่ใช่คุมะโกโร่สิ"
+   },
+   "grammarNote": {
+    "vi": "それなら: thế thì. 〜じゃないだろう: chắc không phải ~.",
+    "en": "それなら: then. 〜じゃないだろう: surely not ~.",
+    "zh-Hans": "それなら：那么。〜じゃないだろう：不是～吧。",
+    "zh-Hant": "それなら：那麼。〜じゃないだろう：不是～吧。",
+    "ko": "それなら: 그럼. 〜じゃないだろう: ~가 아니겠지.",
+    "tl": "それなら: kung ganoon. 〜じゃないだろう: siguradong hindi ~.",
+    "ne": "それなら: त्यसो भए। 〜じゃないだろう: होइन होला।",
+    "id": "それなら: kalau begitu. 〜じゃないだろう: pasti bukan ~.",
+    "pt": "それなら: então. 〜じゃないだろう: com certeza não é ~.",
+    "my": "それなら: ဒါဆို။ 〜じゃないだろう: မဟုတ်လောက်။",
+    "th": "それなら: งั้น 〜じゃないだろう: คงไม่ใช่ ~"
+   },
+   "vocab": [],
+   "t": [
+    101.68,
+    105.98
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=101.68,105.98"
+  },
+  {
+   "ja": "いいえ、熊はそそっかしいから、死んだのに気がつかないで、家に帰ったんですよ。",
+   "furigana": [
+    {
+     "surface": "いいえ、",
+     "reading": ""
+    },
+    {
+     "surface": "熊",
+     "reading": "くま"
+    },
+    {
+     "surface": "はそそっかしいから、",
+     "reading": ""
+    },
+    {
+     "surface": "死",
+     "reading": "し"
+    },
+    {
+     "surface": "んだのに",
+     "reading": ""
+    },
+    {
+     "surface": "気",
+     "reading": "き"
+    },
+    {
+     "surface": "がつかないで、",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "ったんですよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Iie, Kuma wa sosokkashii kara, shinda noni ki ga tsukanaide, ie ni kaetta n desu yo.",
+   "translations": {
+    "vi": "Không, Kuma nó hấp tấp nên chết rồi mà không biết, cứ thế đi về nhà đấy.",
+    "en": "No, Kuma's so careless he died without noticing and went home.",
+    "zh-Hans": "不，阿熊太冒失了，自己死了都没发觉，就回家去了。",
+    "zh-Hant": "不，阿熊太冒失了，自己死了都沒發覺，就回家去了。",
+    "ko": "아니에요, 구마는 덜렁이라서 죽은 줄도 모르고 집에 돌아간 거예요.",
+    "tl": "Hindi po, padalos-dalos kasi si Kuma, kaya namatay siya nang hindi namamalayan at umuwi na lang.",
+    "ne": "होइन, कुमा लापरबाह भएकाले मरेको पनि थाहा नपाई घर फर्केको हो।",
+    "id": "Bukan, Kuma itu ceroboh, jadi sudah mati pun tidak sadar, lalu pulang ke rumah.",
+    "pt": "Não, o Kuma é tão desatento que morreu sem perceber e voltou para casa.",
+    "my": "မဟုတ်ဘူး၊ ကုမက ပေါ့ဆလို့ သေပြီးမှန်း မသိဘဲ အိမ်ပြန်သွားတာပါ။",
+    "th": "ไม่ครับ คุมะมันซุ่มซ่าม เลยตายแล้วก็ไม่รู้ตัว แล้วกลับบ้านไป"
+   },
+   "grammarNote": {
+    "vi": "〜のに: dù ~. 気がつかない: không nhận ra. 〜ないで: mà không ~.",
+    "en": "〜のに: even though ~. 気がつかない: not notice. 〜ないで: without ~.",
+    "zh-Hans": "〜のに：明明～却。気がつかない：没发觉。〜ないで：没有～就。",
+    "zh-Hant": "〜のに：明明～卻。気がつかない：沒發覺。〜ないで：沒有～就。",
+    "ko": "〜のに: ~인데도. 気がつかない: 알아채지 못하다. 〜ないで: ~하지 않고.",
+    "tl": "〜のに: kahit ~. 気がつかない: hindi mapansin. 〜ないで: nang hindi ~.",
+    "ne": "〜のに: भए पनि। 気がつかない: थाहा नपाउनु। 〜ないで: नगरी।",
+    "id": "〜のに: padahal ~. 気がつかない: tidak sadar. 〜ないで: tanpa ~.",
+    "pt": "〜のに: embora ~. 気がつかない: não perceber. 〜ないで: sem ~.",
+    "my": "〜のに: ~ ပေမဲ့။ 気がつかない: သတိမထား။ 〜ないで: မ ~ ဘဲ။",
+    "th": "〜のに: ทั้งที่ ~ 気がつかない: ไม่รู้ตัว 〜ないで: โดยไม่ ~"
+   },
+   "vocab": [],
+   "t": [
+    106.88,
+    112.43
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=106.88,112.43"
+  },
+  {
+   "ja": "役人は、あきれてしまって、何も言えなくなりました。",
+   "furigana": [
+    {
+     "surface": "役人",
+     "reading": "やくにん"
+    },
+    {
+     "surface": "は、あきれてしまって、",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "えなくなりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Yakunin wa, akirete shimatte, nani mo ienaku narimashita.",
+   "translations": {
+    "vi": "Viên quan sững sờ, không nói được gì nữa.",
+    "en": "The official was so dumbfounded he couldn't say a word.",
+    "zh-Hans": "官差目瞪口呆，什么也说不出来了。",
+    "zh-Hant": "官差目瞪口呆，什麼也說不出來了。",
+    "ko": "관리는 어이가 없어서 아무 말도 못 하게 되었습니다.",
+    "tl": "Natulala ang opisyal at wala nang masabi.",
+    "ne": "अधिकारी छक्क परेर केही बोल्नै सकेनन्।",
+    "id": "Petugas itu tercengang dan tidak bisa berkata apa-apa lagi.",
+    "pt": "O oficial ficou tão pasmo que não conseguiu dizer nada.",
+    "my": "အရာရှိဟာ အံ့အားသင့်ပြီး ဘာမှ မပြောနိုင်တော့ဘူး။",
+    "th": "เจ้าหน้าที่อึ้งจนพูดอะไรไม่ออก"
+   },
+   "grammarNote": {
+    "vi": "あきれる: sững sờ, cạn lời. 〜てしまう: mất. 言えなくなる: không nói được nữa.",
+    "en": "あきれる: be dumbfounded. 言えなくなる: become unable to say.",
+    "zh-Hans": "あきれる：目瞪口呆。言えなくなる：说不出话。",
+    "zh-Hant": "あきれる：目瞪口呆。言えなくなる：說不出話。",
+    "ko": "あきれる: 어이없다. 言えなくなる: 말을 못 하게 되다.",
+    "tl": "あきれる: matulala. 言えなくなる: hindi na makapagsalita.",
+    "ne": "あきれる: छक्क पर्नु। 言えなくなる: बोल्न नसक्नु।",
+    "id": "あきれる: tercengang. 言えなくなる: tak bisa berkata lagi.",
+    "pt": "あきれる: ficar pasmo. 言えなくなる: ficar sem fala.",
+    "my": "あきれる: အံ့အားသင့်။ 言えなくなる: မပြောနိုင်တော့။",
+    "th": "あきれる: อึ้ง เอือม 言えなくなる: พูดไม่ออก"
+   },
+   "vocab": [
+    {
+     "word": "役人",
+     "reading": "やくにん",
+     "level": "N2",
+     "meanings": {
+      "vi": "quan chức",
+      "en": "official",
+      "zh-Hans": "官差",
+      "zh-Hant": "官差",
+      "ko": "관리",
+      "tl": "opisyal",
+      "ne": "अधिकारी",
+      "id": "petugas",
+      "pt": "oficial",
+      "my": "အရာရှိ",
+      "th": "เจ้าหน้าที่"
+     }
+    },
+    {
+     "word": "あきれる",
+     "reading": "あきれる",
+     "level": "N2",
+     "meanings": {
+      "vi": "sững sờ, cạn lời",
+      "en": "to be dumbfounded",
+      "zh-Hans": "目瞪口呆",
+      "zh-Hant": "目瞪口呆",
+      "ko": "어이없다",
+      "tl": "matulala",
+      "ne": "छक्क पर्नु",
+      "id": "tercengang",
+      "pt": "ficar pasmo",
+      "my": "အံ့အားသင့်",
+      "th": "อึ้ง, เอือม"
+     }
+    }
+   ],
+   "t": [
+    113.33,
+    118.03
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=113.33,118.03"
+  },
+  {
+   "ja": "よし、本人を連れてきます。本人に、死体を引き取らせますから。",
+   "furigana": [
+    {
+     "surface": "よし、",
+     "reading": ""
+    },
+    {
+     "surface": "本人",
+     "reading": "ほんにん"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "連",
+     "reading": "つ"
+    },
+    {
+     "surface": "れてきます。",
+     "reading": ""
+    },
+    {
+     "surface": "本人",
+     "reading": "ほんにん"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "死体",
+     "reading": "したい"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "引",
+     "reading": "ひ"
+    },
+    {
+     "surface": "き",
+     "reading": ""
+    },
+    {
+     "surface": "取",
+     "reading": "と"
+    },
+    {
+     "surface": "らせますから。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Yoshi, honnin o tsurete kimasu. Honnin ni, shitai o hikitorasemasu kara.",
+   "translations": {
+    "vi": "Được, tôi sẽ dẫn chính nó đến. Để nó tự nhận xác về.",
+    "en": "Right, I'll bring the man himself. I'll have him collect the body.",
+    "zh-Hans": "好，我把他本人带来。让他本人来领尸体。",
+    "zh-Hant": "好，我把他本人帶來。讓他本人來領屍體。",
+    "ko": "좋아, 본인을 데려올게요. 본인한테 시체를 거두게 할 테니까요.",
+    "tl": "Sige, isasama ko siya mismo. Siya na ang kukuha ng bangkay.",
+    "ne": "ल, म उसैलाई ल्याउँछु। उसैलाई लास लैजान लगाउँछु।",
+    "id": "Baik, saya bawa orangnya sendiri ke sini. Biar dia yang mengambil jenazahnya.",
+    "pt": "Certo, vou trazer ele mesmo. Vou fazer ele recolher o corpo.",
+    "my": "ကောင်းပြီ၊ သူကိုယ်တိုင်ကို ခေါ်လာမယ်။ သူ့ကိုပဲ အလောင်း လာယူခိုင်းမယ်။",
+    "th": "ได้ ผมจะพาตัวเขามาเอง ให้ตัวเขามารับศพไป"
+   },
+   "grammarNote": {
+    "vi": "連れてくる: dẫn đến. 引き取らせる: bắt/để (ai) nhận về (sai khiến).",
+    "en": "連れてくる: bring along. 引き取らせる: have (someone) collect (causative).",
+    "zh-Hans": "連れてくる：带来。引き取らせる：让～领回（使役）。",
+    "zh-Hant": "連れてくる：帶來。引き取らせる：讓～領回（使役）。",
+    "ko": "連れてくる: 데려오다. 引き取らせる: 거두게 하다 (사역).",
+    "tl": "連れてくる: isama papunta. 引き取らせる: ipakuha sa (kawsatibo).",
+    "ne": "連れてくる: ल्याउनु। 引き取らせる: लैजान लगाउनु (प्रेरणार्थक)।",
+    "id": "連れてくる: membawa ke sini. 引き取らせる: menyuruh mengambil (kausatif).",
+    "pt": "連れてくる: trazer. 引き取らせる: fazer recolher (causativo).",
+    "my": "連れてくる: ခေါ်လာ။ 引き取らせる: ယူခိုင်း (ပြုစေ)။",
+    "th": "連れてくる: พามา 引き取らせる: ให้มารับไป (รูปให้ทำ)"
+   },
+   "vocab": [
+    {
+     "word": "死体",
+     "reading": "したい",
+     "level": "N2",
+     "meanings": {
+      "vi": "xác chết",
+      "en": "dead body",
+      "zh-Hans": "尸体",
+      "zh-Hant": "屍體",
+      "ko": "시체",
+      "tl": "bangkay",
+      "ne": "लास",
+      "id": "jenazah",
+      "pt": "cadáver",
+      "my": "အလောင်း",
+      "th": "ศพ"
+     }
+    },
+    {
+     "word": "引き取る",
+     "reading": "ひきとる",
+     "level": "N1",
+     "meanings": {
+      "vi": "nhận về",
+      "en": "to take back, claim",
+      "zh-Hans": "领回",
+      "zh-Hant": "領回",
+      "ko": "거두다, 인수하다",
+      "tl": "kunin",
+      "ne": "लैजानु",
+      "id": "mengambil",
+      "pt": "buscar, recolher",
+      "my": "လက်ခံယူ",
+      "th": "รับไป"
+     }
+    }
+   ],
+   "t": [
+    118.93,
+    123.8
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=118.93,123.8"
+  },
+  {
+   "ja": "本人に？おい、ちょっと待て！",
+   "furigana": [
+    {
+     "surface": "本人",
+     "reading": "ほんにん"
+    },
+    {
+     "surface": "に？おい、ちょっと",
+     "reading": ""
+    },
+    {
+     "surface": "待",
+     "reading": "ま"
+    },
+    {
+     "surface": "て！",
+     "reading": ""
+    }
+   ],
+   "romaji": "Honnin ni? Oi, chotto mate!",
+   "translations": {
+    "vi": "Để chính anh ta? Này, khoan đã!",
+    "en": "The man himself? Hey, wait a minute!",
+    "zh-Hans": "让他本人？喂，等一下！",
+    "zh-Hant": "讓他本人？喂，等一下！",
+    "ko": "본인한테? 어이, 잠깐 기다려!",
+    "tl": "Siya mismo? Hoy, teka muna!",
+    "ne": "उसैलाई? ए, पर्ख त!",
+    "id": "Orangnya sendiri? Hei, tunggu dulu!",
+    "pt": "Ele mesmo? Ei, espere aí!",
+    "my": "သူကိုယ်တိုင်? ဟေ့၊ နေဦး!",
+    "th": "ให้ตัวเขาเองเหรอ เฮ้ย เดี๋ยวก่อน!"
+   },
+   "grammarNote": {
+    "vi": "おい: này. ちょっと待て: khoan đã (mệnh lệnh).",
+    "en": "おい: hey. ちょっと待て: wait (command).",
+    "zh-Hans": "おい：喂。ちょっと待て：等一下（命令）。",
+    "zh-Hant": "おい：喂。ちょっと待て：等一下（命令）。",
+    "ko": "おい: 어이. ちょっと待て: 잠깐 기다려 (명령).",
+    "tl": "おい: hoy. ちょっと待て: teka (utos).",
+    "ne": "おい: ए। ちょっと待て: पर्ख (आदेश)।",
+    "id": "おい: hei. ちょっと待て: tunggu (perintah).",
+    "pt": "おい: ei. ちょっと待て: espere (ordem).",
+    "my": "おい: ဟေ့။ ちょっと待て: နေဦး (အမိန့်)။",
+    "th": "おい: เฮ้ย ちょっと待て: เดี๋ยวก่อน (สั่ง)"
+   },
+   "vocab": [],
+   "t": [
+    124.7,
+    127.5
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=124.7,127.5"
+  },
+  {
+   "ja": "八五郎は、役人の言うことも聞かずに、長屋へ走って帰りました。",
+   "furigana": [
+    {
+     "surface": "八五郎",
+     "reading": "はちごろう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "役人",
+     "reading": "やくにん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "うことも",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "かずに、",
+     "reading": ""
+    },
+    {
+     "surface": "長屋",
+     "reading": "ながや"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "走",
+     "reading": "はし"
+    },
+    {
+     "surface": "って",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "りました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hachigorou wa, yakunin no iu koto mo kikazu ni, nagaya e hashitte kaerimashita.",
+   "translations": {
+    "vi": "Hachigorō chẳng nghe lời quan, chạy một mạch về dãy nhà.",
+    "en": "Without listening to the official, Hachigorō ran back to the row house.",
+    "zh-Hans": "八五郎不听官差的话，一路跑回了长屋。",
+    "zh-Hant": "八五郎不聽官差的話，一路跑回了長屋。",
+    "ko": "하치고로는 관리의 말도 듣지 않고 나가야로 달려 돌아갔습니다.",
+    "tl": "Hindi pinakinggan ni Hachigorō ang opisyal at tumakbo pauwi sa nagaya.",
+    "ne": "अधिकारीको कुरै नसुनी हाचिगोरो दौडँदै नागाया फर्क्यो।",
+    "id": "Tanpa mendengarkan petugas, Hachigorō berlari pulang ke nagaya.",
+    "pt": "Sem dar ouvidos ao oficial, Hachigorō voltou correndo ao nagaya.",
+    "my": "ဟချိဂိုရိုဟာ အရာရှိ ပြောတာ နားမထောင်ဘဲ နာဂါယကို ပြေးပြန်သွားတယ်။",
+    "th": "ฮาจิโกโร่ไม่ฟังเจ้าหน้าที่ วิ่งกลับนางายะไป"
+   },
+   "grammarNote": {
+    "vi": "〜ずに: mà không ~. 走って帰る: chạy về.",
+    "en": "〜ずに: without ~. 走って帰る: run back.",
+    "zh-Hans": "〜ずに：不～就。走って帰る：跑回去。",
+    "zh-Hant": "〜ずに：不～就。走って帰る：跑回去。",
+    "ko": "〜ずに: ~하지 않고. 走って帰る: 달려서 돌아가다.",
+    "tl": "〜ずに: nang hindi ~. 走って帰る: tumakbo pauwi.",
+    "ne": "〜ずに: नगरी। 走って帰る: दौडँदै फर्कनु।",
+    "id": "〜ずに: tanpa ~. 走って帰る: berlari pulang.",
+    "pt": "〜ずに: sem ~. 走って帰る: voltar correndo.",
+    "my": "〜ずに: မ ~ ဘဲ။ 走って帰る: ပြေးပြန်။",
+    "th": "〜ずに: โดยไม่ ~ 走って帰る: วิ่งกลับ"
+   },
+   "vocab": [],
+   "t": [
+    128.4,
+    133.85
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=128.4,133.85"
+  },
+  {
+   "ja": "長屋では、熊五郎が、のんきに朝ご飯を食べていました。",
+   "furigana": [
+    {
+     "surface": "長屋",
+     "reading": "ながや"
+    },
+    {
+     "surface": "では、",
+     "reading": ""
+    },
+    {
+     "surface": "熊五郎",
+     "reading": "くまごろう"
+    },
+    {
+     "surface": "が、のんきに",
+     "reading": ""
+    },
+    {
+     "surface": "朝",
+     "reading": "あさ"
+    },
+    {
+     "surface": "ご",
+     "reading": ""
+    },
+    {
+     "surface": "飯",
+     "reading": "はん"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "食",
+     "reading": "た"
+    },
+    {
+     "surface": "べていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nagaya de wa, Kumagorou ga, nonki ni asa gohan o tabete imashita.",
+   "translations": {
+    "vi": "Ở dãy nhà, Kumagorō đang thong thả ăn sáng.",
+    "en": "At the row house, Kumagorō was calmly eating breakfast.",
+    "zh-Hans": "长屋里，熊五郎正悠闲地吃着早饭。",
+    "zh-Hant": "長屋裡，熊五郎正悠閒地吃著早飯。",
+    "ko": "나가야에서는 구마고로가 태평하게 아침밥을 먹고 있었습니다.",
+    "tl": "Sa nagaya, kampanteng nag-aalmusal si Kumagorō.",
+    "ne": "नागायामा कुमागोरो निश्चिन्त भएर बिहानको खाना खाँदै थियो।",
+    "id": "Di nagaya, Kumagorō sedang santai sarapan.",
+    "pt": "No nagaya, Kumagorō tomava o café da manhã com toda a calma.",
+    "my": "နာဂါယမှာ ကုမဂိုရိုဟာ ဘာမှမသိ အေးဆေးစွာ မနက်စာ စားနေတယ်။",
+    "th": "ที่นางายะ คุมะโกโร่กำลังกินข้าวเช้าอย่างสบายใจ"
+   },
+   "grammarNote": {
+    "vi": "のんきに: thong thả, vô tư.",
+    "en": "のんきに: carefree, calmly.",
+    "zh-Hans": "のんきに：悠闲地、无忧无虑地。",
+    "zh-Hant": "のんきに：悠閒地、無憂無慮地。",
+    "ko": "のんきに: 태평하게.",
+    "tl": "のんきに: kampante, walang alala.",
+    "ne": "のんきに: निश्चिन्त भएर।",
+    "id": "のんきに: santai, tanpa beban.",
+    "pt": "のんきに: despreocupado.",
+    "my": "のんきに: အေးဆေးစွာ။",
+    "th": "のんきに: อย่างสบายใจ ไม่รู้ร้อนรู้หนาว"
+   },
+   "vocab": [
+    {
+     "word": "のんき",
+     "reading": "のんき",
+     "level": "N2",
+     "meanings": {
+      "vi": "vô tư, thong thả",
+      "en": "carefree",
+      "zh-Hans": "悠闲",
+      "zh-Hant": "悠閒",
+      "ko": "태평",
+      "tl": "kampante",
+      "ne": "निश्चिन्त",
+      "id": "santai",
+      "pt": "despreocupado",
+      "my": "ဘာမှမပူ",
+      "th": "สบายใจ"
+     }
+    }
+   ],
+   "t": [
+    134.45,
+    139.04
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=134.45,139.04"
+  },
+  {
+   "ja": "おい、熊！ご飯なんか食べている場合じゃないぞ！",
+   "furigana": [
+    {
+     "surface": "おい、",
+     "reading": ""
+    },
+    {
+     "surface": "熊",
+     "reading": "くま"
+    },
+    {
+     "surface": "！ご",
+     "reading": ""
+    },
+    {
+     "surface": "飯",
+     "reading": "はん"
+    },
+    {
+     "surface": "なんか",
+     "reading": ""
+    },
+    {
+     "surface": "食",
+     "reading": "た"
+    },
+    {
+     "surface": "べている",
+     "reading": ""
+    },
+    {
+     "surface": "場合",
+     "reading": "ばあい"
+    },
+    {
+     "surface": "じゃないぞ！",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oi, Kuma! Gohan nanka tabete iru baai ja nai zo!",
+   "translations": {
+    "vi": "Này Kuma! Không phải lúc ăn cơm đâu!",
+    "en": "Hey, Kuma! This is no time to be eating!",
+    "zh-Hans": "喂，阿熊！现在不是吃饭的时候！",
+    "zh-Hant": "喂，阿熊！現在不是吃飯的時候！",
+    "ko": "어이, 구마! 밥 같은 거 먹고 있을 때가 아니야!",
+    "tl": "Hoy, Kuma! Hindi ito oras ng pagkain!",
+    "ne": "ए कुमा! खाना खाने बेला होइन यो!",
+    "id": "Hei, Kuma! Ini bukan waktunya makan!",
+    "pt": "Ei, Kuma! Não é hora de ficar comendo!",
+    "my": "ဟေ့ ကုမ! ထမင်းစားနေရမယ့် အချိန် မဟုတ်ဘူး!",
+    "th": "เฮ้ย คุมะ! ไม่ใช่เวลามากินข้าวนะ!"
+   },
+   "grammarNote": {
+    "vi": "〜なんか: cái thứ ~. 〜ている場合じゃない: không phải lúc ~.",
+    "en": "〜なんか: the likes of ~. 〜ている場合じゃない: this is no time to ~.",
+    "zh-Hans": "〜なんか：～之类。〜ている場合じゃない：不是～的时候。",
+    "zh-Hant": "〜なんか：～之類。〜ている場合じゃない：不是～的時候。",
+    "ko": "〜なんか: ~ 같은 것. 〜ている場合じゃない: ~할 때가 아니다.",
+    "tl": "〜なんか: ang ~ na 'yan. 〜ている場合じゃない: hindi ito oras para ~.",
+    "ne": "〜なんか: ~ जस्तो कुरा। 〜ている場合じゃない: ~ गर्ने बेला होइन।",
+    "id": "〜なんか: segala ~. 〜ている場合じゃない: bukan waktunya ~.",
+    "pt": "〜なんか: coisa como ~. 〜ている場合じゃない: não é hora de ~.",
+    "my": "〜なんか: ~ ဆိုတာ။ 〜ている場合じゃない: ~ နေရမယ့် အချိန် မဟုတ်။",
+    "th": "〜なんか: ไอ้ ~ 〜ている場合じゃない: ไม่ใช่เวลามา ~"
+   },
+   "vocab": [],
+   "t": [
+    139.94,
+    142.96
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=139.94,142.96"
+  },
+  {
+   "ja": "なんだ、八か。朝からそんなにあわてて、どうしたんだい。",
+   "furigana": [
+    {
+     "surface": "なんだ、",
+     "reading": ""
+    },
+    {
+     "surface": "八",
+     "reading": "はち"
+    },
+    {
+     "surface": "か。",
+     "reading": ""
+    },
+    {
+     "surface": "朝",
+     "reading": "あさ"
+    },
+    {
+     "surface": "からそんなにあわてて、どうしたんだい。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nan da, Hachi ka. Asa kara sonnani awatete, dou shita n dai.",
+   "translations": {
+    "vi": "Gì thế, Hachi à. Sáng ra đã cuống lên thế, có chuyện gì?",
+    "en": "Oh, it's you, Hachi. What's got you so flustered this early?",
+    "zh-Hans": "怎么了，阿八。一大早慌慌张张的，出什么事了？",
+    "zh-Hant": "怎麼了，阿八。一大早慌慌張張的，出什麼事了？",
+    "ko": "뭐야, 하치냐. 아침부터 그렇게 허둥대고, 무슨 일이야?",
+    "tl": "O, ikaw pala, Hachi. Ang aga-aga, bakit ka natataranta?",
+    "ne": "ए, हाचि पो। बिहानै यति हतारिएर, के भयो?",
+    "id": "Oh, Hachi rupanya. Pagi-pagi sudah panik begitu, ada apa?",
+    "pt": "Ué, é você, Hachi. Tão afobado logo cedo, o que houve?",
+    "my": "ဘာလဲ၊ ဟချိလား။ မနက်စောစော ဒီလောက် ကမန်းကတန်း ဘာဖြစ်လို့လဲ။",
+    "th": "อ้าว ฮาจิเหรอ เช้าๆ ลนลานขนาดนั้น เป็นอะไรไป"
+   },
+   "grammarNote": {
+    "vi": "あわてる: cuống quýt. どうしたんだい: có chuyện gì thế.",
+    "en": "あわてる: be flustered. どうしたんだい: what's the matter?",
+    "zh-Hans": "あわてる：慌张。どうしたんだい：怎么了。",
+    "zh-Hant": "あわてる：慌張。どうしたんだい：怎麼了。",
+    "ko": "あわてる: 허둥대다. どうしたんだい: 무슨 일이야.",
+    "tl": "あわてる: mataranta. どうしたんだい: anong nangyari?",
+    "ne": "あわてる: हतारिनु। どうしたんだい: के भयो।",
+    "id": "あわてる: panik. どうしたんだい: ada apa.",
+    "pt": "あわてる: afobar-se. どうしたんだい: o que houve?",
+    "my": "あわてる: ကမန်းကတန်း။ どうしたんだい: ဘာဖြစ်လို့လဲ။",
+    "th": "あわてる: ลนลาน どうしたんだい: เป็นอะไรไป"
+   },
+   "vocab": [
+    {
+     "word": "あわてる",
+     "reading": "あわてる",
+     "level": "N3",
+     "meanings": {
+      "vi": "cuống quýt",
+      "en": "to panic, be flustered",
+      "zh-Hans": "慌张",
+      "zh-Hant": "慌張",
+      "ko": "허둥대다",
+      "tl": "mataranta",
+      "ne": "हतारिनु",
+      "id": "panik",
+      "pt": "afobar-se",
+      "my": "ကမန်းကတန်းဖြစ်",
+      "th": "ลนลาน"
+     }
+    }
+   ],
+   "t": [
+    143.86,
+    148.28
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=143.86,148.28"
+  },
+  {
+   "ja": "落ち着いて聞けよ。お前は、ゆうべ浅草で死んだんだ。",
+   "furigana": [
+    {
+     "surface": "落",
+     "reading": "お"
+    },
+    {
+     "surface": "ち",
+     "reading": ""
+    },
+    {
+     "surface": "着",
+     "reading": "つ"
+    },
+    {
+     "surface": "いて",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "けよ。お",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "は、ゆうべ",
+     "reading": ""
+    },
+    {
+     "surface": "浅草",
+     "reading": "あさくさ"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "死",
+     "reading": "し"
+    },
+    {
+     "surface": "んだんだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ochitsuite kike yo. Omae wa, yuube Asakusa de shinda n da.",
+   "translations": {
+    "vi": "Bình tĩnh mà nghe này. Mày chết ở Asakusa đêm qua rồi.",
+    "en": "Calm down and listen. You died in Asakusa last night.",
+    "zh-Hans": "冷静下来听我说。你昨晚在浅草死了。",
+    "zh-Hant": "冷靜下來聽我說。你昨晚在淺草死了。",
+    "ko": "진정하고 들어. 너는 어젯밤 아사쿠사에서 죽었어.",
+    "tl": "Kumalma ka at makinig. Namatay ka sa Asakusa kagabi.",
+    "ne": "शान्त भएर सुन्। तँ हिजो राति आसाकुसामा मरिस्।",
+    "id": "Tenang dan dengarkan. Kamu mati di Asakusa semalam.",
+    "pt": "Calma e escute. Você morreu em Asakusa ontem à noite.",
+    "my": "စိတ်အေးအေးထားပြီး နားထောင်။ မင်း မနေ့ညက အာဆာကုဆာမှာ သေသွားပြီ။",
+    "th": "ใจเย็นๆ แล้วฟังนะ แกตายที่อาซากุสะเมื่อคืนแล้ว"
+   },
+   "grammarNote": {
+    "vi": "落ち着く: bình tĩnh. 〜んだ: giải thích, khẳng định.",
+    "en": "落ち着く: calm down. 〜んだ: explanation, assertion.",
+    "zh-Hans": "落ち着く：冷静。〜んだ：说明、断定。",
+    "zh-Hant": "落ち着く：冷靜。〜んだ：說明、斷定。",
+    "ko": "落ち着く: 진정하다. 〜んだ: 설명, 단정.",
+    "tl": "落ち着く: kumalma. 〜んだ: paliwanag, paggigiit.",
+    "ne": "落ち着く: शान्त हुनु। 〜んだ: व्याख्या, दाबी।",
+    "id": "落ち着く: tenang. 〜んだ: penjelasan, penegasan.",
+    "pt": "落ち着く: acalmar-se. 〜んだ: explicação, afirmação.",
+    "my": "落ち着く: စိတ်အေး။ 〜んだ: ရှင်းပြ၊ အခိုင်အမာ။",
+    "th": "落ち着く: ใจเย็น 〜んだ: อธิบาย ยืนยัน"
+   },
+   "vocab": [
+    {
+     "word": "落ち着く",
+     "reading": "おちつく",
+     "level": "N2",
+     "meanings": {
+      "vi": "bình tĩnh",
+      "en": "to calm down",
+      "zh-Hans": "冷静",
+      "zh-Hant": "冷靜",
+      "ko": "진정하다",
+      "tl": "kumalma",
+      "ne": "शान्त हुनु",
+      "id": "tenang",
+      "pt": "acalmar-se",
+      "my": "စိတ်အေး",
+      "th": "ใจเย็น"
+     }
+    }
+   ],
+   "t": [
+    149.18,
+    153.17
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=149.18,153.17"
+  },
+  {
+   "ja": "えっ、おれが？死んだ？",
+   "furigana": [
+    {
+     "surface": "えっ、おれが？",
+     "reading": ""
+    },
+    {
+     "surface": "死",
+     "reading": "し"
+    },
+    {
+     "surface": "んだ？",
+     "reading": ""
+    }
+   ],
+   "romaji": "E, ore ga? Shinda?",
+   "translations": {
+    "vi": "Hả, tao á? Chết rồi á?",
+    "en": "Huh, me? Dead?",
+    "zh-Hans": "啊，我？死了？",
+    "zh-Hant": "啊，我？死了？",
+    "ko": "엇, 내가? 죽었다고?",
+    "tl": "Ha, ako? Patay?",
+    "ne": "ए, म? मरेँ?",
+    "id": "Eh, aku? Mati?",
+    "pt": "Hã, eu? Morri?",
+    "my": "ဟင်၊ ငါလား။ သေပြီလား။",
+    "th": "เอ๊ะ ข้าเหรอ ตายแล้วเหรอ"
+   },
+   "grammarNote": {
+    "vi": "えっ: hả.",
+    "en": "えっ: huh?",
+    "zh-Hans": "えっ：啊？",
+    "zh-Hant": "えっ：啊？",
+    "ko": "えっ: 엇.",
+    "tl": "えっ: ha?",
+    "ne": "えっ: ए?",
+    "id": "えっ: eh?",
+    "pt": "えっ: hã?",
+    "my": "えっ: ဟင်။",
+    "th": "えっ: เอ๊ะ"
+   },
+   "vocab": [],
+   "t": [
+    154.07,
+    156.38
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=154.07,156.38"
+  },
+  {
+   "ja": "そうだ。お寺の門の前で倒れて、今もそこに寝ているんだ。",
+   "furigana": [
+    {
+     "surface": "そうだ。お",
+     "reading": ""
+    },
+    {
+     "surface": "寺",
+     "reading": "てら"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "門",
+     "reading": "もん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "倒",
+     "reading": "たお"
+    },
+    {
+     "surface": "れて、",
+     "reading": ""
+    },
+    {
+     "surface": "今",
+     "reading": "いま"
+    },
+    {
+     "surface": "もそこに",
+     "reading": ""
+    },
+    {
+     "surface": "寝",
+     "reading": "ね"
+    },
+    {
+     "surface": "ているんだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sou da. Otera no mon no mae de taorete, ima mo soko ni nete iru n da.",
+   "translations": {
+    "vi": "Đúng. Mày ngã gục trước cổng chùa, giờ vẫn nằm ở đó.",
+    "en": "That's right. You collapsed in front of the temple gate, and you're still lying there now.",
+    "zh-Hans": "对。你倒在寺门前，现在还躺在那儿呢。",
+    "zh-Hant": "對。你倒在寺門前，現在還躺在那兒呢。",
+    "ko": "그래. 절 문 앞에서 쓰러져서 지금도 거기 누워 있다고.",
+    "tl": "Oo. Bumagsak ka sa harap ng tarangkahan ng templo, at nakahiga ka pa roon hanggang ngayon.",
+    "ne": "हो। तँ मन्दिरको ढोकाअगाडि लडिस्, अहिले पनि त्यहीँ पल्टिरहेको छस्।",
+    "id": "Ya. Kamu jatuh di depan gerbang kuil, dan sekarang masih terbaring di sana.",
+    "pt": "Isso. Você caiu diante do portão do templo e ainda está deitado lá.",
+    "my": "ဟုတ်တယ်။ ဘုရားကျောင်း တံခါးရှေ့မှာ လဲပြီး အခုထိ အဲဒီမှာ လှဲနေတယ်။",
+    "th": "ใช่ แกล้มอยู่หน้าประตูวัด ตอนนี้ก็ยังนอนอยู่ตรงนั้น"
+   },
+   "grammarNote": {
+    "vi": "倒れる: ngã gục. 今も: bây giờ vẫn.",
+    "en": "倒れる: collapse. 今も: even now.",
+    "zh-Hans": "倒れる：倒下。今も：现在还。",
+    "zh-Hant": "倒れる：倒下。今も：現在還。",
+    "ko": "倒れる: 쓰러지다. 今も: 지금도.",
+    "tl": "倒れる: bumagsak. 今も: hanggang ngayon.",
+    "ne": "倒れる: लड्नु। 今も: अहिले पनि।",
+    "id": "倒れる: jatuh. 今も: sampai sekarang.",
+    "pt": "倒れる: cair. 今も: até agora.",
+    "my": "倒れる: လဲ။ 今も: အခုထိ။",
+    "th": "倒れる: ล้ม 今も: ตอนนี้ก็ยัง"
+   },
+   "vocab": [],
+   "t": [
+    157.28,
+    161.84
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=157.28,161.84"
+  },
+  {
+   "ja": "でも、おれは、死んだような気がしないけどなあ。",
+   "furigana": [
+    {
+     "surface": "でも、おれは、",
+     "reading": ""
+    },
+    {
+     "surface": "死",
+     "reading": "し"
+    },
+    {
+     "surface": "んだような",
+     "reading": ""
+    },
+    {
+     "surface": "気",
+     "reading": "き"
+    },
+    {
+     "surface": "がしないけどなあ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Demo, ore wa, shinda you na ki ga shinai kedo naa.",
+   "translations": {
+    "vi": "Nhưng tao chẳng thấy mình có vẻ gì là đã chết cả.",
+    "en": "But I don't feel like I died, though.",
+    "zh-Hans": "可是，我不觉得自己死了啊。",
+    "zh-Hant": "可是，我不覺得自己死了啊。",
+    "ko": "그런데 나는 죽은 것 같은 기분이 안 드는데.",
+    "tl": "Pero parang hindi ko naman pakiramdam na namatay ako.",
+    "ne": "तर मलाई त मरेजस्तो लाग्दैन नि।",
+    "id": "Tapi aku tidak merasa seperti sudah mati, sih.",
+    "pt": "Mas eu não sinto que morri, não.",
+    "my": "ဒါပေမဲ့ ငါ သေသွားသလို မခံစားရဘူးနော်။",
+    "th": "แต่ข้าไม่รู้สึกเหมือนตายเลยนะ"
+   },
+   "grammarNote": {
+    "vi": "〜ような気がしない: không có cảm giác như ~. 〜けど: nhưng.",
+    "en": "〜ような気がしない: don't feel as if ~. 〜けど: but.",
+    "zh-Hans": "〜ような気がしない：不觉得像～。〜けど：可是。",
+    "zh-Hant": "〜ような気がしない：不覺得像～。〜けど：可是。",
+    "ko": "〜ような気がしない: ~같은 기분이 안 든다. 〜けど: ~는데.",
+    "tl": "〜ような気がしない: hindi pakiramdam na ~. 〜けど: pero.",
+    "ne": "〜ような気がしない: ~ जस्तो लाग्दैन। 〜けど: तर।",
+    "id": "〜ような気がしない: tidak merasa seperti ~. 〜けど: tapi.",
+    "pt": "〜ような気がしない: não ter a sensação de ~. 〜けど: mas.",
+    "my": "〜ような気がしない: ~ သလို မခံစားရ။ 〜けど: ပေမဲ့။",
+    "th": "〜ような気がしない: ไม่รู้สึกเหมือน ~ 〜けど: แต่"
+   },
+   "vocab": [],
+   "t": [
+    162.74,
+    167.09
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=162.74,167.09"
+  },
+  {
+   "ja": "それが、お前のそそっかしいところだ。死んでも気がつかないんだから。",
+   "furigana": [
+    {
+     "surface": "それが、お",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "のそそっかしいところだ。",
+     "reading": ""
+    },
+    {
+     "surface": "死",
+     "reading": "し"
+    },
+    {
+     "surface": "んでも",
+     "reading": ""
+    },
+    {
+     "surface": "気",
+     "reading": "き"
+    },
+    {
+     "surface": "がつかないんだから。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sore ga, omae no sosokkashii tokoro da. Shinde mo kigatsukanai n da kara.",
+   "translations": {
+    "vi": "Đấy chính là cái tính hấp tấp của mày. Chết rồi mà cũng không biết.",
+    "en": "That's exactly how careless you are. You die and don't even notice.",
+    "zh-Hans": "这就是你冒失的地方。死了都发觉不了。",
+    "zh-Hant": "這就是你冒失的地方。死了都發覺不了。",
+    "ko": "그게 네가 덜렁대는 점이야. 죽어도 모르잖아.",
+    "tl": "'Yan mismo ang pagiging padalos-dalos mo. Namatay ka na, hindi mo pa napansin.",
+    "ne": "त्यही त तेरो लापरबाही हो। मरेको पनि थाहा पाउँदैनस्।",
+    "id": "Itulah cerobohnya kamu. Sudah mati pun tidak sadar.",
+    "pt": "Esse é o seu jeito desatento. Morre e nem percebe.",
+    "my": "အဲဒါပဲ မင်းရဲ့ ပေါ့ဆတဲ့ အချက်။ သေတာတောင် မသိဘူး။",
+    "th": "นั่นแหละความซุ่มซ่ามของแก ตายแล้วยังไม่รู้ตัว"
+   },
+   "grammarNote": {
+    "vi": "〜ところ: điểm, nét (tính cách). 〜ても: dù ~.",
+    "en": "〜ところ: trait, side. 〜ても: even if ~.",
+    "zh-Hans": "〜ところ：地方、特点。〜ても：即使～。",
+    "zh-Hant": "〜ところ：地方、特點。〜ても：即使～。",
+    "ko": "〜ところ: 점, 면. 〜ても: ~해도.",
+    "tl": "〜ところ: ugali, katangian. 〜ても: kahit ~.",
+    "ne": "〜ところ: बानी, पक्ष। 〜ても: ~ भए पनि।",
+    "id": "〜ところ: sisi, sifat. 〜ても: meskipun ~.",
+    "pt": "〜ところ: jeito, traço. 〜ても: mesmo que ~.",
+    "my": "〜ところ: အချက်၊ စရိုက်။ 〜ても: ~ တောင်။",
+    "th": "〜ところ: ตรงที่ นิสัย 〜ても: ถึงจะ ~"
+   },
+   "vocab": [],
+   "t": [
+    167.99,
+    172.83
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=167.99,172.83"
+  },
+  {
+   "ja": "ゆうべ、どこで何をしていたか、覚えているか。",
+   "furigana": [
+    {
+     "surface": "ゆうべ、どこで",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "をしていたか、",
+     "reading": ""
+    },
+    {
+     "surface": "覚",
+     "reading": "おぼ"
+    },
+    {
+     "surface": "えているか。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Yuube, doko de nani o shite ita ka, oboete iru ka.",
+   "translations": {
+    "vi": "Đêm qua mày ở đâu, làm gì, có nhớ không?",
+    "en": "Do you remember where you were last night and what you did?",
+    "zh-Hans": "昨晚你在哪儿干了什么，还记得吗？",
+    "zh-Hant": "昨晚你在哪兒幹了什麼，還記得嗎？",
+    "ko": "어젯밤 어디서 뭘 했는지 기억나?",
+    "tl": "Naaalala mo ba kung nasaan ka at anong ginawa mo kagabi?",
+    "ne": "हिजो राति कहाँ थिइस्, के गरिस्, सम्झन्छस्?",
+    "id": "Kamu ingat semalam di mana dan berbuat apa?",
+    "pt": "Lembra onde estava e o que fez ontem à noite?",
+    "my": "မနေ့ည ဘယ်မှာ ဘာလုပ်နေလဲ မှတ်မိလား။",
+    "th": "เมื่อคืนแกอยู่ที่ไหน ทำอะไร จำได้ไหม"
+   },
+   "grammarNote": {
+    "vi": "覚えている: nhớ.",
+    "en": "覚えている: remember.",
+    "zh-Hans": "覚えている：记得。",
+    "zh-Hant": "覚えている：記得。",
+    "ko": "覚えている: 기억하다.",
+    "tl": "覚えている: maalala.",
+    "ne": "覚えている: सम्झनु।",
+    "id": "覚えている: ingat.",
+    "pt": "覚えている: lembrar.",
+    "my": "覚えている: မှတ်မိ။",
+    "th": "覚えている: จำได้"
+   },
+   "vocab": [],
+   "t": [
+    173.43,
+    177.2
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=173.43,177.2"
+  },
+  {
+   "ja": "ゆうべは……酒を飲んで、どうやって帰ったか、まったく覚えていない。",
+   "furigana": [
+    {
+     "surface": "ゆうべは……",
+     "reading": ""
+    },
+    {
+     "surface": "酒",
+     "reading": "さけ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "飲",
+     "reading": "の"
+    },
+    {
+     "surface": "んで、どうやって",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "ったか、まったく",
+     "reading": ""
+    },
+    {
+     "surface": "覚",
+     "reading": "おぼ"
+    },
+    {
+     "surface": "えていない。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Yuube wa... Sake o nonde, dou yatte kaetta ka, mattaku oboete inai.",
+   "translations": {
+    "vi": "Đêm qua… tao uống rượu, về nhà bằng cách nào thì hoàn toàn không nhớ.",
+    "en": "Last night… I was drinking, and I have no idea how I got home.",
+    "zh-Hans": "昨晚……喝了酒，怎么回来的，一点也不记得了。",
+    "zh-Hant": "昨晚……喝了酒，怎麼回來的，一點也不記得了。",
+    "ko": "어젯밤엔……술을 마시고, 어떻게 돌아왔는지 전혀 기억이 안 나.",
+    "tl": "Kagabi… uminom ako ng alak, at hindi ko na talaga maalala kung paano ako nakauwi.",
+    "ne": "हिजो राति… रक्सी खाएँ, कसरी फर्किएँ भन्ने पटक्कै सम्झना छैन।",
+    "id": "Semalam… aku minum sake, dan sama sekali tidak ingat bagaimana pulangnya.",
+    "pt": "Ontem à noite… bebi saquê e não lembro de jeito nenhum como voltei.",
+    "my": "မနေ့ည… အရက်သောက်ပြီး ဘယ်လို ပြန်လာလဲ လုံးဝ မမှတ်မိဘူး။",
+    "th": "เมื่อคืน… ดื่มเหล้า แล้วกลับมายังไงก็จำไม่ได้เลย"
+   },
+   "grammarNote": {
+    "vi": "どうやって: bằng cách nào. まったく〜ない: hoàn toàn không ~.",
+    "en": "どうやって: how. まったく〜ない: not at all.",
+    "zh-Hans": "どうやって：怎么。まったく〜ない：完全不～。",
+    "zh-Hant": "どうやって：怎麼。まったく〜ない：完全不～。",
+    "ko": "どうやって: 어떻게. まったく〜ない: 전혀 ~않다.",
+    "tl": "どうやって: paano. まったく〜ない: hindi talaga.",
+    "ne": "どうやって: कसरी। まったく〜ない: पटक्कै छैन।",
+    "id": "どうやって: bagaimana. まったく〜ない: sama sekali tidak ~.",
+    "pt": "どうやって: como. まったく〜ない: de jeito nenhum.",
+    "my": "どうやって: ဘယ်လို။ まったく〜ない: လုံးဝ မ ~။",
+    "th": "どうやって: ยังไง まったく〜ない: ไม่ ~ เลย"
+   },
+   "vocab": [
+    {
+     "word": "酒",
+     "reading": "さけ",
+     "level": "N3",
+     "meanings": {
+      "vi": "rượu (sake)",
+      "en": "sake, alcohol",
+      "zh-Hans": "酒",
+      "zh-Hant": "酒",
+      "ko": "술",
+      "tl": "alak, sake",
+      "ne": "रक्सी",
+      "id": "sake, minuman keras",
+      "pt": "saquê, bebida",
+      "my": "အရက်",
+      "th": "เหล้า"
+     }
+    },
+    {
+     "word": "まったく",
+     "reading": "まったく",
+     "level": "N3",
+     "meanings": {
+      "vi": "hoàn toàn",
+      "en": "completely, at all",
+      "zh-Hans": "完全",
+      "zh-Hant": "完全",
+      "ko": "전혀",
+      "tl": "talaga, ganap",
+      "ne": "पटक्कै",
+      "id": "sama sekali",
+      "pt": "totalmente",
+      "my": "လုံးဝ",
+      "th": "เลย, โดยสิ้นเชิง"
+     }
+    }
+   ],
+   "t": [
+    178.1,
+    184.25
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=178.1,184.25"
+  },
+  {
+   "ja": "ほらみろ。やっぱり、その帰りに死んだんだよ。",
+   "furigana": [
+    {
+     "surface": "ほらみろ。やっぱり、その",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "りに",
+     "reading": ""
+    },
+    {
+     "surface": "死",
+     "reading": "し"
+    },
+    {
+     "surface": "んだんだよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hora miro. Yappari, sono kaeri ni shinda n da yo.",
+   "translations": {
+    "vi": "Thấy chưa. Đúng là chết trên đường về rồi.",
+    "en": "See? You must have died on your way home.",
+    "zh-Hans": "你看吧。果然是在回来的路上死了。",
+    "zh-Hant": "你看吧。果然是在回來的路上死了。",
+    "ko": "거봐. 역시 그 돌아오는 길에 죽은 거야.",
+    "tl": "O, kita mo na. Malamang namatay ka habang pauwi.",
+    "ne": "हेर्! पक्का फर्कने बाटोमै मरिस्।",
+    "id": "Nah, kan. Pasti kamu mati di jalan pulang itu.",
+    "pt": "Viu só? Você morreu foi no caminho de volta.",
+    "my": "တွေ့လား။ အဲဒီ ပြန်လမ်းမှာ သေသွားတာ သေချာတယ်။",
+    "th": "เห็นไหม ต้องตายตอนขากลับแน่ๆ"
+   },
+   "grammarNote": {
+    "vi": "ほらみろ: thấy chưa. やっぱり: quả nhiên.",
+    "en": "ほらみろ: see? やっぱり: just as I thought.",
+    "zh-Hans": "ほらみろ：你看吧。やっぱり：果然。",
+    "zh-Hant": "ほらみろ：你看吧。やっぱり：果然。",
+    "ko": "ほらみろ: 거봐. やっぱり: 역시.",
+    "tl": "ほらみろ: kita mo na. やっぱり: sabi ko na.",
+    "ne": "ほらみろ: हेर्। やっぱり: पक्का।",
+    "id": "ほらみろ: nah, kan. やっぱり: sudah kuduga.",
+    "pt": "ほらみろ: viu só? やっぱり: bem que eu achava.",
+    "my": "ほらみろ: တွေ့လား။ やっぱり: ထင်တဲ့အတိုင်း။",
+    "th": "ほらみろ: เห็นไหม やっぱり: นั่นไง แน่ๆ"
+   },
+   "vocab": [],
+   "t": [
+    185.15,
+    188.49
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=185.15,188.49"
+  },
+  {
+   "ja": "そう言われると、そんな気もしてきた。けさは、体がだるかったし……。",
+   "furigana": [
+    {
+     "surface": "そう",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "われると、そんな",
+     "reading": ""
+    },
+    {
+     "surface": "気",
+     "reading": "き"
+    },
+    {
+     "surface": "もしてきた。けさは、",
+     "reading": ""
+    },
+    {
+     "surface": "体",
+     "reading": "からだ"
+    },
+    {
+     "surface": "がだるかったし……。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sou iwareru to, sonna ki mo shite kita. Kesa wa, karada ga darukatta shi...",
+   "translations": {
+    "vi": "Nghe mày nói vậy, tao cũng thấy hình như thế thật. Sáng nay người cứ uể oải…",
+    "en": "Now that you say so, I'm starting to feel that way too. I did feel sluggish this morning…",
+    "zh-Hans": "被你这么一说，我也觉得好像是。今天早上身子发沉……",
+    "zh-Hant": "被你這麼一說，我也覺得好像是。今天早上身子發沉……",
+    "ko": "그렇게 말하니까 그런 것 같기도 하네. 오늘 아침엔 몸이 나른했고…….",
+    "tl": "Ngayong sinabi mo, parang ganoon nga. Matamlay nga ang katawan ko kaninang umaga…",
+    "ne": "तैँले यसो भनेपछि त मलाई पनि त्यस्तै लाग्न थाल्यो। आज बिहान जिउ गलेको थियो…",
+    "id": "Kalau dibilang begitu, rasanya memang begitu. Pagi tadi badanku lemas…",
+    "pt": "Falando assim, até parece mesmo. Hoje de manhã eu estava moído…",
+    "my": "အဲဒီလို ပြောတော့ ငါလည်း အဲဒီလို ထင်လာပြီ။ ဒီမနက် ကိုယ်ခန္ဓာ နုံးနေတယ်…",
+    "th": "พอแกพูดอย่างนั้น ข้าก็ชักรู้สึกอย่างนั้นแฮะ เมื่อเช้าตัวก็หนักๆ อยู่…"
+   },
+   "grammarNote": {
+    "vi": "そう言われると: bị nói thế thì. そんな気がしてくる: bắt đầu thấy như vậy. だるい: uể oải.",
+    "en": "そう言われると: when you put it that way. そんな気がしてくる: start to feel so. だるい: sluggish.",
+    "zh-Hans": "そう言われると：被这么一说。そんな気がしてくる：开始觉得是那样。だるい：发沉、无力。",
+    "zh-Hant": "そう言われると：被這麼一說。そんな気がしてくる：開始覺得是那樣。だるい：發沉、無力。",
+    "ko": "そう言われると: 그렇게 말하니. そんな気がしてくる: 그런 기분이 들기 시작하다. だるい: 나른하다.",
+    "tl": "そう言われると: ngayong sinabi mo. そんな気がしてくる: nagsimulang maramdaman. だるい: matamlay.",
+    "ne": "そう言われると: यसो भनेपछि। そんな気がしてくる: त्यस्तो लाग्न थाल्नु। だるい: जिउ गल्नु।",
+    "id": "そう言われると: kalau dibilang begitu. そんな気がしてくる: mulai merasa begitu. だるい: lemas.",
+    "pt": "そう言われると: dito assim. そんな気がしてくる: começar a achar isso. だるい: moído, sem energia.",
+    "my": "そう言われると: အဲဒီလိုပြောတော့။ そんな気がしてくる: အဲဒီလို ထင်လာ။ だるい: နုံး။",
+    "th": "そう言われると: พอถูกพูดอย่างนั้น そんな気がしてくる: ชักรู้สึกอย่างนั้น だるい: เพลีย"
+   },
+   "vocab": [
+    {
+     "word": "だるい",
+     "reading": "だるい",
+     "level": "N1",
+     "meanings": {
+      "vi": "uể oải",
+      "en": "sluggish, tired",
+      "zh-Hans": "乏力",
+      "zh-Hant": "乏力",
+      "ko": "나른하다",
+      "tl": "matamlay",
+      "ne": "गलेको",
+      "id": "lemas",
+      "pt": "moído",
+      "my": "နုံး",
+      "th": "เพลีย"
+     }
+    }
+   ],
+   "t": [
+    189.39,
+    195.38
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=189.39,195.38"
+  },
+  {
+   "ja": "そうだろう。さあ、自分の死体を引き取りに行こう。",
+   "furigana": [
+    {
+     "surface": "そうだろう。さあ、",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "死体",
+     "reading": "したい"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "引",
+     "reading": "ひ"
+    },
+    {
+     "surface": "き",
+     "reading": ""
+    },
+    {
+     "surface": "取",
+     "reading": "と"
+    },
+    {
+     "surface": "りに",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "こう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sou darou. Saa, jibun no shitai o hikitori ni ikou.",
+   "translations": {
+    "vi": "Đúng không. Nào, đi nhận xác mình về thôi.",
+    "en": "Right? Come on, let's go collect your body.",
+    "zh-Hans": "对吧。走，去领你自己的尸体。",
+    "zh-Hant": "對吧。走，去領你自己的屍體。",
+    "ko": "그렇지? 자, 네 시체를 거두러 가자.",
+    "tl": "'Di ba? Tara, kunin na natin ang bangkay mo.",
+    "ne": "हो नि। ल, आफ्नो लास लिन जाऔँ।",
+    "id": "Benar, kan. Ayo, kita ambil jenazahmu sendiri.",
+    "pt": "Não é? Vamos, vamos buscar o seu corpo.",
+    "my": "ဟုတ်တယ်မလား။ ကဲ၊ ကိုယ့်အလောင်း သွားယူကြစို့။",
+    "th": "ใช่ไหมล่ะ ไป ไปรับศพตัวเองกัน"
+   },
+   "grammarNote": {
+    "vi": "引き取りに行く: đi để nhận về.",
+    "en": "引き取りに行く: go to collect.",
+    "zh-Hans": "引き取りに行く：去领回。",
+    "zh-Hant": "引き取りに行く：去領回。",
+    "ko": "引き取りに行く: 거두러 가다.",
+    "tl": "引き取りに行く: pumunta para kunin.",
+    "ne": "引き取りに行く: लिन जानु।",
+    "id": "引き取りに行く: pergi mengambil.",
+    "pt": "引き取りに行く: ir buscar.",
+    "my": "引き取りに行く: သွားယူ။",
+    "th": "引き取りに行く: ไปรับ"
+   },
+   "vocab": [],
+   "t": [
+    196.28,
+    200.24
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=196.28,200.24"
+  },
+  {
+   "ja": "自分の死体を、自分で引き取るのかい。なんだか、気が進まないなあ。",
+   "furigana": [
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "死体",
+     "reading": "したい"
+    },
+    {
+     "surface": "を、",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "引",
+     "reading": "ひ"
+    },
+    {
+     "surface": "き",
+     "reading": ""
+    },
+    {
+     "surface": "取",
+     "reading": "と"
+    },
+    {
+     "surface": "るのかい。なんだか、",
+     "reading": ""
+    },
+    {
+     "surface": "気",
+     "reading": "き"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "進",
+     "reading": "すす"
+    },
+    {
+     "surface": "まないなあ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Jibun no shitai o, jibun de hikitoru no kai. Nandaka, ki ga susumanai naa.",
+   "translations": {
+    "vi": "Tự mình đi nhận xác mình à? Sao thấy không muốn đi lắm.",
+    "en": "I collect my own body myself? Somehow I'm not keen on it.",
+    "zh-Hans": "自己去领自己的尸体？总觉得不太想去啊。",
+    "zh-Hant": "自己去領自己的屍體？總覺得不太想去啊。",
+    "ko": "내 시체를 내가 거두는 거야? 왠지 내키지 않는데.",
+    "tl": "Ako mismo ang kukuha ng sarili kong bangkay? Parang ayoko.",
+    "ne": "आफ्नै लास आफैँ लिन जाने? किन हो, मन लागेन।",
+    "id": "Aku sendiri yang mengambil jenazahku sendiri? Entah kenapa aku enggan.",
+    "pt": "Eu mesmo vou buscar o meu próprio corpo? Sei lá, não estou com vontade.",
+    "my": "ကိုယ့်အလောင်းကို ကိုယ်တိုင် သွားယူရမှာလား။ ဘာရယ်မသိ၊ စိတ်မပါဘူး။",
+    "th": "ไปรับศพตัวเองด้วยตัวเองเหรอ ไม่รู้สิ ไม่ค่อยอยากไปเลย"
+   },
+   "grammarNote": {
+    "vi": "なんだか: không hiểu sao. 気が進まない: không muốn làm.",
+    "en": "なんだか: somehow. 気が進まない: not feel like it.",
+    "zh-Hans": "なんだか：总觉得。気が進まない：不想做。",
+    "zh-Hant": "なんだか：總覺得。気が進まない：不想做。",
+    "ko": "なんだか: 왠지. 気が進まない: 내키지 않다.",
+    "tl": "なんだか: parang. 気が進まない: ayaw gawin.",
+    "ne": "なんだか: किन हो। 気が進まない: मन नलाग्नु।",
+    "id": "なんだか: entah kenapa. 気が進まない: enggan.",
+    "pt": "なんだか: sei lá. 気が進まない: não ter vontade.",
+    "my": "なんだか: ဘာရယ်မသိ။ 気が進まない: စိတ်မပါ။",
+    "th": "なんだか: ไม่รู้สิ 気が進まない: ไม่อยากทำ"
+   },
+   "vocab": [
+    {
+     "word": "なんだか",
+     "reading": "なんだか",
+     "level": "N1",
+     "meanings": {
+      "vi": "không hiểu sao",
+      "en": "somehow",
+      "zh-Hans": "总觉得",
+      "zh-Hant": "總覺得",
+      "ko": "왠지",
+      "tl": "parang",
+      "ne": "किन हो",
+      "id": "entah kenapa",
+      "pt": "sei lá",
+      "my": "ဘာရယ်မသိ",
+      "th": "ไม่รู้สิ"
+     }
+    }
+   ],
+   "t": [
+    201.14,
+    207.21
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=201.14,207.21"
+  },
+  {
+   "ja": "ほかに誰が行くんだ。お前の体なんだから。",
+   "furigana": [
+    {
+     "surface": "ほかに",
+     "reading": ""
+    },
+    {
+     "surface": "誰",
+     "reading": "だれ"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "くんだ。お",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "体",
+     "reading": "からだ"
+    },
+    {
+     "surface": "なんだから。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hoka ni dare ga iku n da. Omae no karada na n da kara.",
+   "translations": {
+    "vi": "Thế thì ai đi chứ. Thân xác của mày cơ mà.",
+    "en": "Who else would go? It's your body.",
+    "zh-Hans": "那还有谁去？是你的身体嘛。",
+    "zh-Hant": "那還有誰去？是你的身體嘛。",
+    "ko": "그럼 누가 가냐. 네 몸이잖아.",
+    "tl": "Sino pa ba ang pupunta? Katawan mo 'yan.",
+    "ne": "अरू को जान्छ त? तेरै जिउ हो नि।",
+    "id": "Lalu siapa lagi yang pergi? Itu badanmu.",
+    "pt": "E quem mais iria? O corpo é seu.",
+    "my": "တခြား ဘယ်သူ သွားမှာလဲ။ မင်းရဲ့ ခန္ဓာကိုယ် ပဲလေ။",
+    "th": "แล้วใครจะไปล่ะ ก็ตัวแกนี่นา"
+   },
+   "grammarNote": {
+    "vi": "ほかに: ngoài ra. 〜なんだから: vì là ~ cơ mà.",
+    "en": "ほかに: else. 〜なんだから: since it's ~.",
+    "zh-Hans": "ほかに：另外。〜なんだから：因为是～嘛。",
+    "zh-Hant": "ほかに：另外。〜なんだから：因為是～嘛。",
+    "ko": "ほかに: 그 밖에. 〜なんだから: ~니까.",
+    "tl": "ほかに: iba pa. 〜なんだから: dahil ~ naman.",
+    "ne": "ほかに: अरू। 〜なんだから: ~ नै भएकाले।",
+    "id": "ほかに: selain itu. 〜なんだから: karena itu ~.",
+    "pt": "ほかに: mais. 〜なんだから: já que é ~.",
+    "my": "ほかに: တခြား။ 〜なんだから: ~ ပဲလေ။",
+    "th": "ほかに: นอกจากนี้ 〜なんだから: ก็ ~ นี่นา"
+   },
+   "vocab": [],
+   "t": [
+    208.11,
+    211.47
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=208.11,211.47"
+  },
+  {
+   "ja": "こうして二人は、浅草へ急ぎました。",
+   "furigana": [
+    {
+     "surface": "こうして",
+     "reading": ""
+    },
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "浅草",
+     "reading": "あさくさ"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "急",
+     "reading": "いそ"
+    },
+    {
+     "surface": "ぎました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Koushite futari wa, Asakusa e isogimashita.",
+   "translations": {
+    "vi": "Thế là hai người vội vã đến Asakusa.",
+    "en": "And so the two hurried to Asakusa.",
+    "zh-Hans": "就这样，两个人急忙赶往浅草。",
+    "zh-Hant": "就這樣，兩個人急忙趕往淺草。",
+    "ko": "이렇게 해서 두 사람은 아사쿠사로 서둘러 갔습니다.",
+    "tl": "Kaya nagmadali ang dalawa papuntang Asakusa.",
+    "ne": "यसरी दुवै जना हतार-हतार आसाकुसा गए।",
+    "id": "Begitulah, keduanya bergegas ke Asakusa.",
+    "pt": "E assim os dois correram para Asakusa.",
+    "my": "ဒီလိုနဲ့ နှစ်ယောက်သား အာဆာကုဆာကို အမြန် သွားကြတယ်။",
+    "th": "แล้วทั้งสองก็รีบไปอาซากุสะ"
+   },
+   "grammarNote": {
+    "vi": "こうして: thế là. 急ぐ: vội.",
+    "en": "こうして: and so. 急ぐ: hurry.",
+    "zh-Hans": "こうして：就这样。急ぐ：赶紧。",
+    "zh-Hant": "こうして：就這樣。急ぐ：趕緊。",
+    "ko": "こうして: 이렇게 해서. 急ぐ: 서두르다.",
+    "tl": "こうして: kaya. 急ぐ: magmadali.",
+    "ne": "こうして: यसरी। 急ぐ: हतार गर्नु।",
+    "id": "こうして: begitulah. 急ぐ: bergegas.",
+    "pt": "こうして: e assim. 急ぐ: apressar-se.",
+    "my": "こうして: ဒီလိုနဲ့။ 急ぐ: အမြန်။",
+    "th": "こうして: แล้วก็ 急ぐ: รีบ"
+   },
+   "vocab": [],
+   "t": [
+    212.37,
+    215.57
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=212.37,215.57"
+  },
+  {
+   "ja": "また来たのか。……で、その後ろの男は誰だ。",
+   "furigana": [
+    {
+     "surface": "また",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "き"
+    },
+    {
+     "surface": "たのか。……で、その",
+     "reading": ""
+    },
+    {
+     "surface": "後",
+     "reading": "うし"
+    },
+    {
+     "surface": "ろの",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "誰",
+     "reading": "だれ"
+    },
+    {
+     "surface": "だ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mata kita no ka... De, sono ushiro no otoko wa dare da.",
+   "translations": {
+    "vi": "Lại đến đấy à. …Thế người đằng sau là ai?",
+    "en": "You again? …So who's the man behind you?",
+    "zh-Hans": "又来了？……那后面那个人是谁？",
+    "zh-Hant": "又來了？……那後面那個人是誰？",
+    "ko": "또 왔냐. ……그래서 뒤에 있는 남자는 누구냐.",
+    "tl": "Bumalik ka na naman? …E sino 'yang lalaki sa likod mo?",
+    "ne": "फेरि आइस्? …अनि पछाडिको मान्छे को हो?",
+    "id": "Datang lagi? …Lalu, pria di belakangmu itu siapa?",
+    "pt": "Você de novo? …E quem é o homem atrás de você?",
+    "my": "ပြန်လာပြန်ပြီလား။ …နောက်က လူက ဘယ်သူလဲ။",
+    "th": "มาอีกแล้วเหรอ …แล้วผู้ชายข้างหลังนั่นใคร"
+   },
+   "grammarNote": {
+    "vi": "また: lại. 後ろ: phía sau.",
+    "en": "また: again. 後ろ: behind.",
+    "zh-Hans": "また：又。後ろ：后面。",
+    "zh-Hant": "また：又。後ろ：後面。",
+    "ko": "また: 또. 後ろ: 뒤.",
+    "tl": "また: na naman. 後ろ: likod.",
+    "ne": "また: फेरि। 後ろ: पछाडि।",
+    "id": "また: lagi. 後ろ: belakang.",
+    "pt": "また: de novo. 後ろ: atrás.",
+    "my": "また: ပြန်။ 後ろ: နောက်။",
+    "th": "また: อีก 後ろ: ข้างหลัง"
+   },
+   "vocab": [],
+   "t": [
+    216.47,
+    221.39
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=216.47,221.39"
+  },
+  {
+   "ja": "これが本人の熊五郎です。自分の死体を引き取りに来ました。",
+   "furigana": [
+    {
+     "surface": "これが",
+     "reading": ""
+    },
+    {
+     "surface": "本人",
+     "reading": "ほんにん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "熊五郎",
+     "reading": "くまごろう"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "死体",
+     "reading": "したい"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "引",
+     "reading": "ひ"
+    },
+    {
+     "surface": "き",
+     "reading": ""
+    },
+    {
+     "surface": "取",
+     "reading": "と"
+    },
+    {
+     "surface": "りに",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "き"
+    },
+    {
+     "surface": "ました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kore ga honnin no Kumagorou desu. Jibun no shitai o hikitori ni kimashita.",
+   "translations": {
+    "vi": "Đây là chính Kumagorō. Nó đến để nhận xác mình về.",
+    "en": "This is Kumagorō himself. He's come to collect his own body.",
+    "zh-Hans": "这就是熊五郎本人。他来领自己的尸体。",
+    "zh-Hant": "這就是熊五郎本人。他來領自己的屍體。",
+    "ko": "이쪽이 본인 구마고로예요. 자기 시체를 거두러 왔어요.",
+    "tl": "Ito po si Kumagorō mismo. Narito siya para kunin ang sarili niyang bangkay.",
+    "ne": "यो स्वयं कुमागोरो हो। आफ्नो लास लिन आएको।",
+    "id": "Ini Kumagorō sendiri. Dia datang untuk mengambil jenazahnya sendiri.",
+    "pt": "Este é o próprio Kumagorō. Ele veio buscar o próprio corpo.",
+    "my": "ဒါ ကုမဂိုရို ကိုယ်တိုင်ပါ။ ကိုယ့်အလောင်း လာယူတာပါ။",
+    "th": "นี่คือคุมะโกโร่ตัวจริงครับ มารับศพตัวเองไป"
+   },
+   "grammarNote": {
+    "vi": "本人の: chính ~. 〜に来ました: đến để ~.",
+    "en": "本人の: ~ himself. 〜に来ました: came to ~.",
+    "zh-Hans": "本人の：～本人。〜に来ました：来～。",
+    "zh-Hant": "本人の：～本人。〜に来ました：來～。",
+    "ko": "本人の: 본인인. 〜に来ました: ~하러 왔다.",
+    "tl": "本人の: mismong ~. 〜に来ました: dumating para ~.",
+    "ne": "本人の: स्वयं ~। 〜に来ました: ~ गर्न आयो।",
+    "id": "本人の: ~ sendiri. 〜に来ました: datang untuk ~.",
+    "pt": "本人の: o próprio ~. 〜に来ました: veio ~.",
+    "my": "本人の: ~ ကိုယ်တိုင်။ 〜に来ました: ~ ဖို့ လာ။",
+    "th": "本人の: ตัวจริงของ ~ 〜に来ました: มาเพื่อ ~"
+   },
+   "vocab": [],
+   "t": [
+    222.29,
+    226.22
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=222.29,226.22"
+  },
+  {
+   "ja": "何を言っているんだ。生きている人間が、自分の死体を引き取れるわけがない。",
+   "furigana": [
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "っているんだ。",
+     "reading": ""
+    },
+    {
+     "surface": "生",
+     "reading": "い"
+    },
+    {
+     "surface": "きている",
+     "reading": ""
+    },
+    {
+     "surface": "人間",
+     "reading": "にんげん"
+    },
+    {
+     "surface": "が、",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "死体",
+     "reading": "したい"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "引",
+     "reading": "ひ"
+    },
+    {
+     "surface": "き",
+     "reading": ""
+    },
+    {
+     "surface": "取",
+     "reading": "と"
+    },
+    {
+     "surface": "れるわけがない。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nani o itte iru n da. Ikite iru ningen ga, jibun no shitai o hikitoreru wake ga nai.",
+   "translations": {
+    "vi": "Nói cái gì thế. Người đang sống thì làm sao nhận xác mình được.",
+    "en": "What are you talking about? There's no way a living man can collect his own body.",
+    "zh-Hans": "你在说什么？活人怎么可能领自己的尸体。",
+    "zh-Hant": "你在說什麼？活人怎麼可能領自己的屍體。",
+    "ko": "무슨 소리냐. 살아 있는 사람이 자기 시체를 거둘 수 있을 리가 없지.",
+    "tl": "Anong sinasabi mo? Imposibleng makuha ng buhay na tao ang sarili niyang bangkay.",
+    "ne": "के भन्दैछस्? जिउँदो मान्छेले आफ्नो लास लिन सक्ने कुरै हुँदैन।",
+    "id": "Bicara apa kamu? Mana mungkin orang hidup mengambil jenazahnya sendiri.",
+    "pt": "O que está dizendo? Não tem como um homem vivo buscar o próprio corpo.",
+    "my": "ဘာတွေ ပြောနေတာလဲ။ အသက်ရှင်နေတဲ့ လူက ကိုယ့်အလောင်း ယူလို့ ဘယ်ရမလဲ။",
+    "th": "พูดอะไรของแก คนเป็นๆ จะมารับศพตัวเองได้ยังไง"
+   },
+   "grammarNote": {
+    "vi": "〜わけがない: làm gì có chuyện ~. 生きている: đang sống.",
+    "en": "〜わけがない: there's no way ~. 生きている: living.",
+    "zh-Hans": "〜わけがない：不可能～。生きている：活着。",
+    "zh-Hant": "〜わけがない：不可能～。生きている：活著。",
+    "ko": "〜わけがない: ~할 리가 없다. 生きている: 살아 있다.",
+    "tl": "〜わけがない: imposibleng ~. 生きている: buhay.",
+    "ne": "〜わけがない: ~ हुने कुरै हुँदैन। 生きている: जिउँदो।",
+    "id": "〜わけがない: mana mungkin ~. 生きている: hidup.",
+    "pt": "〜わけがない: não tem como ~. 生きている: vivo.",
+    "my": "〜わけがない: ~ လို့ ဘယ်ရမလဲ။ 生きている: အသက်ရှင်။",
+    "th": "〜わけがない: ไม่มีทาง ~ 生きている: มีชีวิต"
+   },
+   "vocab": [
+    {
+     "word": "人間",
+     "reading": "にんげん",
+     "level": "N3",
+     "meanings": {
+      "vi": "con người",
+      "en": "human being",
+      "zh-Hans": "人",
+      "zh-Hant": "人",
+      "ko": "인간",
+      "tl": "tao",
+      "ne": "मानिस",
+      "id": "manusia",
+      "pt": "ser humano",
+      "my": "လူ",
+      "th": "มนุษย์"
+     }
+    }
+   ],
+   "t": [
+    227.12,
+    234.21
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=227.12,234.21"
+  },
+  {
+   "ja": "しかし、熊五郎は、もう役人の話を聞いていませんでした。",
+   "furigana": [
+    {
+     "surface": "しかし、",
+     "reading": ""
+    },
+    {
+     "surface": "熊五郎",
+     "reading": "くまごろう"
+    },
+    {
+     "surface": "は、もう",
+     "reading": ""
+    },
+    {
+     "surface": "役人",
+     "reading": "やくにん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "いていませんでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shikashi, Kumagorou wa, mou yakunin no hanashi o kiite imasendeshita.",
+   "translations": {
+    "vi": "Nhưng Kumagorō đã chẳng còn nghe quan nói gì nữa.",
+    "en": "But Kumagorō was no longer listening to the official.",
+    "zh-Hans": "可是，熊五郎已经不听官差的话了。",
+    "zh-Hant": "可是，熊五郎已經不聽官差的話了。",
+    "ko": "하지만 구마고로는 이미 관리의 말을 듣고 있지 않았습니다.",
+    "tl": "Pero hindi na nakikinig si Kumagorō sa opisyal.",
+    "ne": "तर कुमागोरोले अब अधिकारीको कुरा सुनिरहेको थिएन।",
+    "id": "Tetapi Kumagorō sudah tidak mendengarkan petugas lagi.",
+    "pt": "Mas Kumagorō já não ouvia o oficial.",
+    "my": "ဒါပေမဲ့ ကုမဂိုရိုဟာ အရာရှိ ပြောတာကို နားမထောင်တော့ဘူး။",
+    "th": "แต่คุมะโกโร่ไม่ได้ฟังเจ้าหน้าที่แล้ว"
+   },
+   "grammarNote": {
+    "vi": "しかし: nhưng. もう〜ていない: không còn ~ nữa.",
+    "en": "しかし: but. もう〜ていない: no longer ~.",
+    "zh-Hans": "しかし：可是。もう〜ていない：已经不～了。",
+    "zh-Hant": "しかし：可是。もう〜ていない：已經不～了。",
+    "ko": "しかし: 하지만. もう〜ていない: 이미 ~하지 않다.",
+    "tl": "しかし: pero. もう〜ていない: hindi na ~.",
+    "ne": "しかし: तर। もう〜ていない: अब ~ छैन।",
+    "id": "しかし: tetapi. もう〜ていない: sudah tidak ~ lagi.",
+    "pt": "しかし: mas. もう〜ていない: já não ~.",
+    "my": "しかし: ဒါပေမဲ့။ もう〜ていない: မ ~ တော့။",
+    "th": "しかし: แต่ もう〜ていない: ไม่ ~ แล้ว"
+   },
+   "vocab": [],
+   "t": [
+    235.11,
+    239.7
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=235.11,239.7"
+  },
+  {
+   "ja": "熊五郎は布をめくって、死んだ男の顔をのぞきこみました。",
+   "furigana": [
+    {
+     "surface": "熊五郎",
+     "reading": "くまごろう"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "布",
+     "reading": "ぬの"
+    },
+    {
+     "surface": "をめくって、",
+     "reading": ""
+    },
+    {
+     "surface": "死",
+     "reading": "し"
+    },
+    {
+     "surface": "んだ",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "顔",
+     "reading": "かお"
+    },
+    {
+     "surface": "をのぞきこみました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kumagorou wa nuno o mekutte, shinda otoko no kao o nozokikomimashita.",
+   "translations": {
+    "vi": "Kumagorō lật tấm vải, cúi sát nhìn mặt người chết.",
+    "en": "Kumagorō lifted the cloth and peered closely at the dead man's face.",
+    "zh-Hans": "熊五郎掀开布，凑近去看死者的脸。",
+    "zh-Hant": "熊五郎掀開布，湊近去看死者的臉。",
+    "ko": "구마고로는 천을 들추고 죽은 남자의 얼굴을 들여다보았습니다.",
+    "tl": "Inangat ni Kumagorō ang tela at sinilip nang malapitan ang mukha ng patay.",
+    "ne": "कुमागोरोले कपडा उठाएर मरेको मान्छेको अनुहार नजिकबाट चिहायो।",
+    "id": "Kumagorō menyingkap kain dan mengintip dekat-dekat wajah orang mati itu.",
+    "pt": "Kumagorō levantou o pano e espiou de perto o rosto do morto.",
+    "my": "ကုမဂိုရိုဟာ အဝတ်ကို လှန်ပြီး သေသူရဲ့ မျက်နှာကို ကပ်ကြည့်တယ်။",
+    "th": "คุมะโกโร่เปิดผ้า แล้วชะโงกดูหน้าคนตายใกล้ๆ"
+   },
+   "grammarNote": {
+    "vi": "のぞきこむ: cúi nhìn sát vào.",
+    "en": "のぞきこむ: peer into.",
+    "zh-Hans": "のぞきこむ：凑近看。",
+    "zh-Hant": "のぞきこむ：湊近看。",
+    "ko": "のぞきこむ: 들여다보다.",
+    "tl": "のぞきこむ: silipin nang malapitan.",
+    "ne": "のぞきこむ: नजिकबाट चिहाउनु।",
+    "id": "のぞきこむ: mengintip dekat-dekat.",
+    "pt": "のぞきこむ: espiar de perto.",
+    "my": "のぞきこむ: ကပ်ကြည့်။",
+    "th": "のぞきこむ: ชะโงกดูใกล้ๆ"
+   },
+   "vocab": [],
+   "t": [
+    240.3,
+    245.35
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=240.3,245.35"
+  },
+  {
+   "ja": "……ああ、本当だ。これは、おれだ。",
+   "furigana": [
+    {
+     "surface": "……ああ、",
+     "reading": ""
+    },
+    {
+     "surface": "本当",
+     "reading": "ほんとう"
+    },
+    {
+     "surface": "だ。これは、おれだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "... Aa, hontou da. Kore wa, ore da.",
+   "translations": {
+    "vi": "…À, đúng thật. Đây là tao.",
+    "en": "…Ah, it's true. This is me.",
+    "zh-Hans": "……啊，真的。这是我。",
+    "zh-Hant": "……啊，真的。這是我。",
+    "ko": "……아, 정말이네. 이건 나야.",
+    "tl": "…Ah, totoo nga. Ako ito.",
+    "ne": "…आ, साँच्चै। यो त म हुँ।",
+    "id": "…Ah, benar. Ini aku.",
+    "pt": "…Ah, é verdade. Sou eu.",
+    "my": "…အာ၊ တကယ်ပဲ။ ဒါ ငါပဲ။",
+    "th": "…อา จริงด้วย นี่คือข้าเอง"
+   },
+   "grammarNote": {
+    "vi": "本当だ: đúng thật.",
+    "en": "本当だ: it's true.",
+    "zh-Hans": "本当だ：真的。",
+    "zh-Hant": "本当だ：真的。",
+    "ko": "本当だ: 정말이다.",
+    "tl": "本当だ: totoo nga.",
+    "ne": "本当だ: साँच्चै।",
+    "id": "本当だ: benar.",
+    "pt": "本当だ: é verdade.",
+    "my": "本当だ: တကယ်ပဲ။",
+    "th": "本当だ: จริงด้วย"
+   },
+   "vocab": [],
+   "t": [
+    246.25,
+    249.47
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=246.25,249.47"
+  },
+  {
+   "ja": "なんて情けない顔をしているんだ。ゆうべの酒が、よくなかったんだなあ。",
+   "furigana": [
+    {
+     "surface": "なんて",
+     "reading": ""
+    },
+    {
+     "surface": "情",
+     "reading": "なさ"
+    },
+    {
+     "surface": "けない",
+     "reading": ""
+    },
+    {
+     "surface": "顔",
+     "reading": "かお"
+    },
+    {
+     "surface": "をしているんだ。ゆうべの",
+     "reading": ""
+    },
+    {
+     "surface": "酒",
+     "reading": "さけ"
+    },
+    {
+     "surface": "が、よくなかったんだなあ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nante nasakenai kao o shite iru n da. Yuube no sake ga, yokunakatta n da naa.",
+   "translations": {
+    "vi": "Mặt mũi thảm hại quá. Rượu đêm qua đúng là không tốt rồi.",
+    "en": "What a pitiful face I've got. Last night's sake was a bad idea.",
+    "zh-Hans": "我这脸怎么这么窝囊。昨晚的酒真不该喝啊。",
+    "zh-Hant": "我這臉怎麼這麼窩囊。昨晚的酒真不該喝啊。",
+    "ko": "얼마나 한심한 얼굴을 하고 있는 거야. 어젯밤 술이 안 좋았구나.",
+    "tl": "Ang kaawa-awa ng mukha ko. Masama talaga ang alak kagabi.",
+    "ne": "कस्तो दयनीय अनुहार लगाएको। हिजो रातिको रक्सी राम्रो भएन।",
+    "id": "Wajahku menyedihkan sekali. Sake semalam memang tidak baik.",
+    "pt": "Que cara mais lamentável a minha. O saquê de ontem não me fez bem.",
+    "my": "ဘယ်လောက် စိတ်ပျက်စရာ မျက်နှာလဲ။ မနေ့ညက အရက် မကောင်းခဲ့ဘူး။",
+    "th": "หน้าตาน่าสมเพชจริงๆ เหล้าเมื่อคืนไม่ดีเลยนะ"
+   },
+   "grammarNote": {
+    "vi": "なんて〜: sao mà ~ thế. 情けない: thảm hại. 〜んだなあ: cảm thán.",
+    "en": "なんて〜: what a ~. 情けない: pitiful. 〜んだなあ: exclamation.",
+    "zh-Hans": "なんて〜：多么～。情けない：窝囊、可怜。〜んだなあ：感叹。",
+    "zh-Hant": "なんて〜：多麼～。情けない：窩囊、可憐。〜んだなあ：感嘆。",
+    "ko": "なんて〜: 얼마나 ~. 情けない: 한심하다. 〜んだなあ: 감탄.",
+    "tl": "なんて〜: ang ~ naman. 情けない: kaawa-awa. 〜んだなあ: padamdam.",
+    "ne": "なんて〜: कस्तो ~। 情けない: दयनीय। 〜んだなあ: विस्मय।",
+    "id": "なんて〜: betapa ~. 情けない: menyedihkan. 〜んだなあ: seruan.",
+    "pt": "なんて〜: que ~. 情けない: lamentável. 〜んだなあ: exclamação.",
+    "my": "なんて〜: ဘယ်လောက် ~။ 情けない: စိတ်ပျက်စရာ။ 〜んだなあ: အာမေဍိတ်။",
+    "th": "なんて〜: ช่าง ~ จริง 情けない: น่าสมเพช 〜んだなあ: อุทาน"
+   },
+   "vocab": [
+    {
+     "word": "情けない",
+     "reading": "なさけない",
+     "level": "N1",
+     "meanings": {
+      "vi": "thảm hại, đáng xấu hổ",
+      "en": "pathetic, shameful",
+      "zh-Hans": "没出息，可耻",
+      "zh-Hant": "沒出息，可恥",
+      "ko": "한심하다",
+      "tl": "kahiya-hiya",
+      "ne": "लाजमर्दो",
+      "id": "memalukan, payah",
+      "pt": "patético",
+      "my": "ရှက်စရာ, အားမရစရာ",
+      "th": "น่าสมเพช"
+     }
+    }
+   ],
+   "t": [
+    250.07,
+    256
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=250.07,256"
+  },
+  {
+   "ja": "熊五郎は、泣きながら、死んだ男を抱き起こしました。",
+   "furigana": [
+    {
+     "surface": "熊五郎",
+     "reading": "くまごろう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "泣",
+     "reading": "な"
+    },
+    {
+     "surface": "きながら、",
+     "reading": ""
+    },
+    {
+     "surface": "死",
+     "reading": "し"
+    },
+    {
+     "surface": "んだ",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "抱き起こしました",
+     "reading": "だきおこしました"
+    },
+    {
+     "surface": "。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kumagorou wa, naki nagara, shinda otoko o dakiokoshimashita.",
+   "translations": {
+    "vi": "Kumagorō vừa khóc vừa đỡ người chết ngồi dậy.",
+    "en": "Weeping, Kumagorō lifted the dead man up in his arms.",
+    "zh-Hans": "熊五郎一边哭，一边把死者抱了起来。",
+    "zh-Hant": "熊五郎一邊哭，一邊把死者抱了起來。",
+    "ko": "구마고로는 울면서 죽은 남자를 안아 일으켰습니다.",
+    "tl": "Umiiyak na binuhat ni Kumagorō paupo ang patay na lalaki.",
+    "ne": "कुमागोरोले रुँदै मरेको मान्छेलाई अँगालोमा उठायो।",
+    "id": "Sambil menangis, Kumagorō mengangkat dan memeluk orang mati itu.",
+    "pt": "Chorando, Kumagorō ergueu o morto nos braços.",
+    "my": "ကုမဂိုရိုဟာ ငိုရင်း သေသူကို ပွေ့ထူလိုက်တယ်။",
+    "th": "คุมะโกโร่ร้องไห้ไปพลาง อุ้มคนตายขึ้นมากอด"
+   },
+   "grammarNote": {
+    "vi": "〜ながら: vừa ~ vừa. 抱き起こす: đỡ dậy, ôm dậy.",
+    "en": "〜ながら: while ~. 抱き起こす: lift up in one's arms.",
+    "zh-Hans": "〜ながら：一边～一边。抱き起こす：抱起来。",
+    "zh-Hant": "〜ながら：一邊～一邊。抱き起こす：抱起來。",
+    "ko": "〜ながら: ~하면서. 抱き起こす: 안아 일으키다.",
+    "tl": "〜ながら: habang ~. 抱き起こす: buhatin paupo.",
+    "ne": "〜ながら: ~ गर्दै। 抱き起こす: अँगालोमा उठाउनु।",
+    "id": "〜ながら: sambil ~. 抱き起こす: mengangkat sambil memeluk.",
+    "pt": "〜ながら: enquanto ~. 抱き起こす: erguer nos braços.",
+    "my": "〜ながら: ~ ရင်း။ 抱き起こす: ပွေ့ထူ။",
+    "th": "〜ながら: ไปพลาง ~ 抱き起こす: อุ้มขึ้น"
+   },
+   "vocab": [],
+   "t": [
+    256.9,
+    259.95
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=256.9,259.95"
+  },
+  {
+   "ja": "おれよ、すまなかった。こんな所で、一人で寒かっただろう。",
+   "furigana": [
+    {
+     "surface": "おれよ、すまなかった。こんな",
+     "reading": ""
+    },
+    {
+     "surface": "所",
+     "reading": "ところ"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "一人",
+     "reading": "ひとり"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "寒",
+     "reading": "さむ"
+    },
+    {
+     "surface": "かっただろう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ore yo, sumanakatta. Konna tokoro de, hitori de samukattadarou.",
+   "translations": {
+    "vi": "Tao ơi, xin lỗi nhé. Một mình ở chỗ thế này chắc lạnh lắm.",
+    "en": "Oh me, I'm sorry. You must have been cold, all alone in a place like this.",
+    "zh-Hans": "我呀，对不起。一个人在这种地方，一定很冷吧。",
+    "zh-Hant": "我呀，對不起。一個人在這種地方，一定很冷吧。",
+    "ko": "나야, 미안했어. 이런 데서 혼자 추웠지.",
+    "tl": "Ako, patawad. Siguradong nilamig ka, mag-isa sa ganitong lugar.",
+    "ne": "ए म, माफ गर। यस्तो ठाउँमा एक्लै जाडो भयो होला।",
+    "id": "Aku, maafkan aku. Pasti dingin sendirian di tempat seperti ini.",
+    "pt": "Ah, eu, me perdoe. Deve ter passado frio, sozinho num lugar destes.",
+    "my": "ငါရေ၊ တောင်းပန်တယ်။ ဒီလိုနေရာမှာ တစ်ယောက်တည်း ချမ်းခဲ့မှာပဲ။",
+    "th": "ข้าเอ๋ย ขอโทษนะ อยู่คนเดียวในที่แบบนี้ คงหนาวแย่"
+   },
+   "grammarNote": {
+    "vi": "すまなかった: xin lỗi. 〜ただろう: chắc là đã ~.",
+    "en": "すまなかった: I'm sorry. 〜ただろう: must have ~.",
+    "zh-Hans": "すまなかった：对不起。〜ただろう：一定～了吧。",
+    "zh-Hant": "すまなかった：對不起。〜ただろう：一定～了吧。",
+    "ko": "すまなかった: 미안했다. 〜ただろう: ~했겠지.",
+    "tl": "すまなかった: patawad. 〜ただろう: siguradong ~.",
+    "ne": "すまなかった: माफ गर। 〜ただろう: ~ भयो होला।",
+    "id": "すまなかった: maaf. 〜ただろう: pasti ~.",
+    "pt": "すまなかった: me perdoe. 〜ただろう: deve ter ~.",
+    "my": "すまなかった: တောင်းပန်တယ်။ 〜ただろう: ~ ခဲ့မှာပဲ။",
+    "th": "すまなかった: ขอโทษ 〜ただろう: คง ~"
+   },
+   "vocab": [],
+   "t": [
+    260.85,
+    265.81
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=260.85,265.81"
+  },
+  {
+   "ja": "さあ、熊、早く連れて帰ろう。",
+   "furigana": [
+    {
+     "surface": "さあ、",
+     "reading": ""
+    },
+    {
+     "surface": "熊",
+     "reading": "くま"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "早",
+     "reading": "はや"
+    },
+    {
+     "surface": "く",
+     "reading": ""
+    },
+    {
+     "surface": "連",
+     "reading": "つ"
+    },
+    {
+     "surface": "れて",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "ろう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Saa, Kuma, hayaku tsurete kaerou.",
+   "translations": {
+    "vi": "Nào Kuma, mau đưa về thôi.",
+    "en": "Come on, Kuma, let's take him home quickly.",
+    "zh-Hans": "来，阿熊，快带回去吧。",
+    "zh-Hant": "來，阿熊，快帶回去吧。",
+    "ko": "자, 구마, 빨리 데리고 돌아가자.",
+    "tl": "Tara, Kuma, iuwi na natin agad.",
+    "ne": "ल कुमा, छिटो घर लैजाऔँ।",
+    "id": "Ayo, Kuma, cepat kita bawa pulang.",
+    "pt": "Vamos, Kuma, levemos logo ele para casa.",
+    "my": "ကဲ ကုမ၊ မြန်မြန် ခေါ်ပြန်ကြစို့။",
+    "th": "ไป คุมะ รีบพากลับบ้านกันเถอะ"
+   },
+   "grammarNote": {
+    "vi": "連れて帰る: đưa về.",
+    "en": "連れて帰る: take home.",
+    "zh-Hans": "連れて帰る：带回去。",
+    "zh-Hant": "連れて帰る：帶回去。",
+    "ko": "連れて帰る: 데리고 돌아가다.",
+    "tl": "連れて帰る: iuwi.",
+    "ne": "連れて帰る: घर लैजानु।",
+    "id": "連れて帰る: bawa pulang.",
+    "pt": "連れて帰る: levar para casa.",
+    "my": "連れて帰る: ခေါ်ပြန်။",
+    "th": "連れて帰る: พากลับ"
+   },
+   "vocab": [],
+   "t": [
+    266.71,
+    269
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=266.71,269"
+  },
+  {
+   "ja": "そのとき、熊五郎は、ふと首をかしげました。",
+   "furigana": [
+    {
+     "surface": "そのとき、",
+     "reading": ""
+    },
+    {
+     "surface": "熊五郎",
+     "reading": "くまごろう"
+    },
+    {
+     "surface": "は、ふと",
+     "reading": ""
+    },
+    {
+     "surface": "首",
+     "reading": "くび"
+    },
+    {
+     "surface": "をかしげました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono toki, Kumagorou wa, futo kubi o kashigemashita.",
+   "translations": {
+    "vi": "Đúng lúc đó, Kumagorō bỗng nghiêng đầu.",
+    "en": "Just then, Kumagorō suddenly tilted his head.",
+    "zh-Hans": "这时，熊五郎忽然歪着头想。",
+    "zh-Hant": "這時，熊五郎忽然歪著頭想。",
+    "ko": "그때 구마고로가 문득 고개를 갸웃했습니다.",
+    "tl": "Noon din, biglang ikiniling ni Kumagorō ang ulo.",
+    "ne": "त्यहीबेला कुमागोरोले अचानक टाउको झुकायो।",
+    "id": "Saat itu, Kumagorō tiba-tiba memiringkan kepala.",
+    "pt": "Nessa hora, Kumagorō de repente inclinou a cabeça.",
+    "my": "အဲဒီအချိန်မှာ ကုမဂိုရိုဟာ ရုတ်တရက် ခေါင်းစောင်းလိုက်တယ်။",
+    "th": "ตอนนั้นเอง คุมะโกโร่ก็เอียงคอขึ้นมา"
+   },
+   "grammarNote": {
+    "vi": "ふと: bỗng. 首をかしげる: nghiêng đầu (thắc mắc).",
+    "en": "ふと: suddenly. 首をかしげる: tilt one's head (puzzled).",
+    "zh-Hans": "ふと：忽然。首をかしげる：歪头（疑惑）。",
+    "zh-Hant": "ふと：忽然。首をかしげる：歪頭（疑惑）。",
+    "ko": "ふと: 문득. 首をかしげる: 고개를 갸웃하다.",
+    "tl": "ふと: bigla. 首をかしげる: ikiling ang ulo (nagtataka).",
+    "ne": "ふと: अचानक। 首をかしげる: टाउको झुकाउनु (अचम्म)।",
+    "id": "ふと: tiba-tiba. 首をかしげる: memiringkan kepala (heran).",
+    "pt": "ふと: de repente. 首をかしげる: inclinar a cabeça (intrigado).",
+    "my": "ふと: ရုတ်တရက်။ 首をかしげる: ခေါင်းစောင်း (နားမလည်)။",
+    "th": "ふと: ทันใด 首をかしげる: เอียงคอ (สงสัย)"
+   },
+   "vocab": [],
+   "t": [
+    269.9,
+    273.69
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=269.9,273.69"
+  },
+  {
+   "ja": "なあ、八。一つだけ、わからないことがあるんだ。",
+   "furigana": [
+    {
+     "surface": "なあ、",
+     "reading": ""
+    },
+    {
+     "surface": "八",
+     "reading": "はち"
+    },
+    {
+     "surface": "。",
+     "reading": ""
+    },
+    {
+     "surface": "一",
+     "reading": "ひと"
+    },
+    {
+     "surface": "つだけ、わからないことがあるんだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Naa, Hachi. Hitotsu dake, wakaranai koto ga aru n da.",
+   "translations": {
+    "vi": "Này Hachi. Có một chuyện tao không hiểu.",
+    "en": "Hey, Hachi. There's just one thing I don't get.",
+    "zh-Hans": "喂，阿八。有一件事我搞不懂。",
+    "zh-Hant": "喂，阿八。有一件事我搞不懂。",
+    "ko": "있잖아, 하치. 하나만 모르겠는 게 있어.",
+    "tl": "Uy, Hachi. May isang bagay lang akong hindi maintindihan.",
+    "ne": "ए हाचि, एउटा कुरा बुझिनँ।",
+    "id": "Hei, Hachi. Ada satu hal yang tidak kumengerti.",
+    "pt": "Escuta, Hachi. Tem só uma coisa que eu não entendo.",
+    "my": "ဟေ့ ဟချိ။ နားမလည်တာ တစ်ခုပဲ ရှိတယ်။",
+    "th": "นี่ ฮาจิ มีเรื่องหนึ่งที่ข้าไม่เข้าใจ"
+   },
+   "grammarNote": {
+    "vi": "〜だけ: chỉ ~. 〜んだ: giải thích.",
+    "en": "〜だけ: only. 〜んだ: explanation.",
+    "zh-Hans": "〜だけ：只。〜んだ：说明。",
+    "zh-Hant": "〜だけ：只。〜んだ：說明。",
+    "ko": "〜だけ: ~만. 〜んだ: 설명.",
+    "tl": "〜だけ: lang. 〜んだ: paliwanag.",
+    "ne": "〜だけ: मात्र। 〜んだ: व्याख्या।",
+    "id": "〜だけ: hanya. 〜んだ: penjelasan.",
+    "pt": "〜だけ: só. 〜んだ: explicação.",
+    "my": "〜だけ: ~ ပဲ။ 〜んだ: ရှင်းပြ။",
+    "th": "〜だけ: แค่ 〜んだ: อธิบาย"
+   },
+   "vocab": [],
+   "t": [
+    274.59,
+    278.44
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=274.59,278.44"
+  },
+  {
+   "ja": "何だい。",
+   "furigana": [
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "だい。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nani dai.",
+   "translations": {
+    "vi": "Chuyện gì?",
+    "en": "What is it?",
+    "zh-Hans": "什么事？",
+    "zh-Hant": "什麼事？",
+    "ko": "뭔데?",
+    "tl": "Ano 'yon?",
+    "ne": "के रे?",
+    "id": "Apa?",
+    "pt": "O quê?",
+    "my": "ဘာလဲ။",
+    "th": "อะไรล่ะ"
+   },
+   "grammarNote": {
+    "vi": "何だい: gì thế.",
+    "en": "何だい: what is it?",
+    "zh-Hans": "何だい：什么事。",
+    "zh-Hant": "何だい：什麼事。",
+    "ko": "何だい: 뭔데.",
+    "tl": "何だい: ano 'yon?",
+    "ne": "何だい: के रे?",
+    "id": "何だい: apa?",
+    "pt": "何だい: o quê?",
+    "my": "何だい: ဘာလဲ။",
+    "th": "何だい: อะไรล่ะ"
+   },
+   "vocab": [],
+   "t": [
+    279.34,
+    280.07
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=279.34,280.07"
+  },
+  {
+   "ja": "抱かれているのは、たしかにおれだ。でも、抱いているおれは、いったい誰なんだろう。",
+   "furigana": [
+    {
+     "surface": "抱かれて",
+     "reading": "だかれて"
+    },
+    {
+     "surface": "いるのは、たしかにおれだ。でも、",
+     "reading": ""
+    },
+    {
+     "surface": "抱いて",
+     "reading": "だいて"
+    },
+    {
+     "surface": "いるおれは、いったい",
+     "reading": ""
+    },
+    {
+     "surface": "誰",
+     "reading": "だれ"
+    },
+    {
+     "surface": "なんだろう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Dakarete iru no wa, tashikani ore da. Demo, daite iru ore wa, ittai dare na n darou.",
+   "translations": {
+    "vi": "Người được ôm thì chắc chắn là tao. Nhưng thằng tao đang ôm đây rốt cuộc là ai nhỉ?",
+    "en": "The one being held is definitely me. But then who on earth is the me holding him?",
+    "zh-Hans": "被抱着的确实是我。可是，抱着他的我，到底是谁呢？",
+    "zh-Hant": "被抱著的確實是我。可是，抱著他的我，到底是誰呢？",
+    "ko": "안겨 있는 건 분명 나야. 그런데 안고 있는 나는 도대체 누구지?",
+    "tl": "Ang buhat-buhat ay ako talaga. Pero sino naman kaya ang ako na bumubuhat?",
+    "ne": "अँगालोमा भएको त पक्कै म हुँ। तर अँगालो हाल्ने म चाहिँ आखिर को हुँ?",
+    "id": "Yang dipeluk ini jelas aku. Tapi aku yang memeluk ini sebenarnya siapa, ya?",
+    "pt": "O que está sendo abraçado sou eu, com certeza. Mas então quem diabos é o eu que está abraçando?",
+    "my": "ပွေ့ခံရတာက ငါ သေချာတယ်။ ဒါပေမဲ့ ပွေ့နေတဲ့ ငါက တကယ်တော့ ဘယ်သူလဲ။",
+    "th": "คนที่ถูกกอดอยู่น่ะ ข้าแน่ๆ แต่ข้าที่กอดอยู่นี่ มันเป็นใครกันแน่"
+   },
+   "grammarNote": {
+    "vi": "抱かれている: đang được ôm (bị động). いったい: rốt cuộc. 〜なんだろう: là ~ nhỉ.",
+    "en": "抱かれている: being held (passive). いったい: on earth. 〜なんだろう: I wonder.",
+    "zh-Hans": "抱かれている：被抱着（被动）。いったい：到底。〜なんだろう：是～呢。",
+    "zh-Hant": "抱かれている：被抱著（被動）。いったい：到底。〜なんだろう：是～呢。",
+    "ko": "抱かれている: 안겨 있다 (수동). いったい: 도대체. 〜なんだろう: ~일까.",
+    "tl": "抱かれている: binubuhat (passive). いったい: kaya naman. 〜なんだろう: sino kaya.",
+    "ne": "抱かれている: अँगालोमा परेको (कर्मवाच्य)। いったい: आखिर। 〜なんだろう: को होला।",
+    "id": "抱かれている: sedang dipeluk (pasif). いったい: sebenarnya. 〜なんだろう: siapa, ya.",
+    "pt": "抱かれている: ser abraçado (passiva). いったい: diabos, afinal. 〜なんだろう: será.",
+    "my": "抱かれている: ပွေ့ခံရ (ကံ)။ いったい: တကယ်တော့။ 〜なんだろう: ဘယ်သူလဲ။",
+    "th": "抱かれている: ถูกกอดอยู่ (ถูกกระทำ) いったい: กันแน่ 〜なんだろう: เป็นใครนะ"
+   },
+   "vocab": [
+    {
+     "word": "いったい",
+     "reading": "いったい",
+     "level": "N3",
+     "meanings": {
+      "vi": "rốt cuộc, không biết",
+      "en": "on earth, what in the world",
+      "zh-Hans": "到底",
+      "zh-Hant": "到底",
+      "ko": "도대체",
+      "tl": "ano ba talaga",
+      "ne": "आखिर",
+      "id": "sebenarnya",
+      "pt": "afinal",
+      "my": "တကယ်တမ်း",
+      "th": "กันแน่"
+     }
+    }
+   ],
+   "t": [
+    280.97,
+    287.31
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=280.97,287.31"
+  },
+  {
+   "ja": "自分が誰なのかまで、人の話を信じてしまう。これが、落語の名作「粗忽長屋」のおちです。",
+   "furigana": [
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "誰",
+     "reading": "だれ"
+    },
+    {
+     "surface": "なのかまで、",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "信",
+     "reading": "しん"
+    },
+    {
+     "surface": "じてしまう。これが、",
+     "reading": ""
+    },
+    {
+     "surface": "落語",
+     "reading": "らくご"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "名作",
+     "reading": "めいさく"
+    },
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "粗忽長屋",
+     "reading": "そこつながや"
+    },
+    {
+     "surface": "」のおちです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Jibun ga dare na no ka made, hito no hanashi o shinjite shimau. Kore ga, rakugo no meisaku \"sokotsunagaya\" no ochi desu.",
+   "translations": {
+    "vi": "Đến cả mình là ai cũng tin theo lời người khác. Đó là \"ochi\" của tác phẩm rakugo nổi tiếng \"Sokotsu Nagaya\".",
+    "en": "Believing others even about who you are. That's the \"ochi\" of the rakugo classic \"Sokotsu Nagaya\".",
+    "zh-Hans": "连自己是谁都听信别人的话。这就是落语名作《粗忽长屋》的笑点（ochi）。",
+    "zh-Hant": "連自己是誰都聽信別人的話。這就是落語名作《粗忽長屋》的笑點（ochi）。",
+    "ko": "자기가 누구인지까지 남의 말을 믿어 버린다. 이것이 라쿠고 명작 \"소코쓰 나가야\"의 오치입니다.",
+    "tl": "Pati kung sino ka ay paniniwalaan mo sa sabi ng iba. Ito ang \"ochi\" ng klasikong rakugo na \"Sokotsu Nagaya\".",
+    "ne": "आफू को हो भन्ने कुरासम्म अरूको कुरा पत्याउँछ। यो राकुगोको प्रसिद्ध कृति \"सोकोत्सु नागाया\" को \"ओचि\" हो।",
+    "id": "Sampai siapa dirinya pun ia percaya pada kata orang lain. Inilah \"ochi\" karya agung rakugo \"Sokotsu Nagaya\".",
+    "pt": "Até sobre quem ele é, acredita no que os outros dizem. Este é o \"ochi\" do clássico do rakugo \"Sokotsu Nagaya\".",
+    "my": "ကိုယ်ဘယ်သူလဲ ဆိုတာတောင် တခြားသူ ပြောတာ ယုံလိုက်တယ်။ ဒါက ရာကုဂို နာမည်ကြီးလက်ရာ \"ဆိုကိုဆု နာဂါယ\" ရဲ့ \"အိုချိ\" ပါ။",
+    "th": "แม้แต่ว่าตัวเองเป็นใคร ก็ยังเชื่อตามที่คนอื่นพูด นี่คือ \"โอจิ\" ของราคุโกะชื่อดัง \"โซโคทสึ นางายะ\""
+   },
+   "grammarNote": {
+    "vi": "〜まで: đến cả ~. 信じてしまう: lỡ tin. 名作: danh tác.",
+    "en": "〜まで: even ~. 信じてしまう: end up believing. 名作: masterpiece.",
+    "zh-Hans": "〜まで：连～都。信じてしまう：听信。名作：名作。",
+    "zh-Hant": "〜まで：連～都。信じてしまう：聽信。名作：名作。",
+    "ko": "〜まで: ~까지. 信じてしまう: 믿어 버리다. 名作: 명작.",
+    "tl": "〜まで: pati ~. 信じてしまう: mapaniwala. 名作: obra maestra.",
+    "ne": "〜まで: ~ सम्म। 信じてしまう: पत्याइहाल्नु। 名作: उत्कृष्ट कृति।",
+    "id": "〜まで: sampai ~ pun. 信じてしまう: telanjur percaya. 名作: karya agung.",
+    "pt": "〜まで: até ~. 信じてしまう: acabar acreditando. 名作: obra-prima.",
+    "my": "〜まで: ~ တောင်။ 信じてしまう: ယုံလိုက်။ 名作: နာမည်ကြီးလက်ရာ။",
+    "th": "〜まで: แม้แต่ ~ 信じてしまう: ดันเชื่อ 名作: ผลงานชิ้นเอก"
+   },
+   "vocab": [
+    {
+     "word": "信じる",
+     "reading": "しんじる",
+     "level": "N3",
+     "meanings": {
+      "vi": "tin",
+      "en": "to believe",
+      "zh-Hans": "相信",
+      "zh-Hant": "相信",
+      "ko": "믿다",
+      "tl": "maniwala",
+      "ne": "विश्वास गर्नु",
+      "id": "percaya",
+      "pt": "acreditar",
+      "my": "ယုံ",
+      "th": "เชื่อ"
+     }
+    },
+    {
+     "word": "名作",
+     "reading": "めいさく",
+     "level": "N2",
+     "meanings": {
+      "vi": "kiệt tác",
+      "en": "masterpiece",
+      "zh-Hans": "名作",
+      "zh-Hant": "名作",
+      "ko": "명작",
+      "tl": "obra maestra",
+      "ne": "उत्कृष्ट कृति",
+      "id": "karya agung",
+      "pt": "obra-prima",
+      "my": "အကောင်းဆုံးလက်ရာ",
+      "th": "ผลงานชิ้นเอก"
+     }
+    }
+   ],
+   "t": [
+    288.21,
+    295.41
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=288.21,295.41"
+  },
+  {
+   "ja": "笑い話ですが、人の言うことを確かめずに信じるのは、怖いことかもしれませんね。",
+   "furigana": [
+    {
+     "surface": "笑",
+     "reading": "わら"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "ばなし"
+    },
+    {
+     "surface": "ですが、",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "うことを",
+     "reading": ""
+    },
+    {
+     "surface": "確",
+     "reading": "たし"
+    },
+    {
+     "surface": "かめずに",
+     "reading": ""
+    },
+    {
+     "surface": "信",
+     "reading": "しん"
+    },
+    {
+     "surface": "じるのは、",
+     "reading": ""
+    },
+    {
+     "surface": "怖",
+     "reading": "こわ"
+    },
+    {
+     "surface": "いことかもしれませんね。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Waraibanashi desu ga, hito no iu koto o tashikamezu ni shinjiru no wa, kowai koto kamo shiremasen ne.",
+   "translations": {
+    "vi": "Dù là truyện cười, nhưng tin lời người khác mà không kiểm chứng có lẽ là điều đáng sợ.",
+    "en": "It's a funny story, but believing what people say without checking may be a scary thing.",
+    "zh-Hans": "虽然是笑话，但不加确认就相信别人的话，或许是件可怕的事。",
+    "zh-Hant": "雖然是笑話，但不加確認就相信別人的話，或許是件可怕的事。",
+    "ko": "우스운 이야기지만, 확인하지 않고 남의 말을 믿는 건 무서운 일일지도 모릅니다.",
+    "tl": "Nakakatawang kuwento ito, pero baka nakakatakot ang maniwala sa sabi ng iba nang hindi sinusuri.",
+    "ne": "हाँसोको कथा हो, तर जाँच नगरी अरूको कुरा पत्याउनु डरलाग्दो कुरा होला।",
+    "id": "Cerita lucu, tapi percaya kata orang tanpa memeriksa mungkin hal yang menakutkan.",
+    "pt": "É uma história engraçada, mas acreditar nos outros sem verificar talvez seja algo assustador.",
+    "my": "ရယ်စရာ ဇာတ်လမ်းပေမဲ့ မစစ်ဆေးဘဲ တခြားသူ စကားကို ယုံတာ ကြောက်စရာ ဖြစ်နိုင်တယ်နော်။",
+    "th": "เป็นเรื่องตลก แต่การเชื่อคำคนอื่นโดยไม่ตรวจสอบ อาจเป็นเรื่องน่ากลัวก็ได้นะ"
+   },
+   "grammarNote": {
+    "vi": "確かめる: kiểm chứng. 〜ずに: mà không ~. 〜かもしれません: có lẽ.",
+    "en": "確かめる: check, confirm. 〜ずに: without ~. 〜かもしれません: may be.",
+    "zh-Hans": "確かめる：确认。〜ずに：不～就。〜かもしれません：或许。",
+    "zh-Hant": "確かめる：確認。〜ずに：不～就。〜かもしれません：或許。",
+    "ko": "確かめる: 확인하다. 〜ずに: ~하지 않고. 〜かもしれません: ~일지도 모른다.",
+    "tl": "確かめる: suriin. 〜ずに: nang hindi ~. 〜かもしれません: baka.",
+    "ne": "確かめる: जाँच्नु। 〜ずに: नगरी। 〜かもしれません: होला।",
+    "id": "確かめる: memeriksa. 〜ずに: tanpa ~. 〜かもしれません: mungkin.",
+    "pt": "確かめる: verificar. 〜ずに: sem ~. 〜かもしれません: talvez.",
+    "my": "確かめる: စစ်ဆေး။ 〜ずに: မ ~ ဘဲ။ 〜かもしれません: ဖြစ်နိုင်။",
+    "th": "確かめる: ตรวจสอบ 〜ずに: โดยไม่ ~ 〜かもしれません: อาจจะ"
+   },
+   "vocab": [
+    {
+     "word": "確かめる",
+     "reading": "たしかめる",
+     "level": "N3",
+     "meanings": {
+      "vi": "kiểm chứng",
+      "en": "to confirm, check",
+      "zh-Hans": "确认",
+      "zh-Hant": "確認",
+      "ko": "확인하다",
+      "tl": "suriin",
+      "ne": "जाँच्नु",
+      "id": "memeriksa",
+      "pt": "verificar",
+      "my": "စစ်ဆေး",
+      "th": "ตรวจสอบ"
+     }
+    }
+   ],
+   "t": [
+    296.01,
+    302.55
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=296.01,302.55"
+  },
+  {
+   "ja": "次のお話は、日本の昔話です。カメを助けて、海の底の竜宮城へ行った若者の話です。",
+   "furigana": [
+    {
+     "surface": "次",
+     "reading": "つぎ"
+    },
+    {
+     "surface": "のお",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "日本",
+     "reading": "にっぽん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "昔話",
+     "reading": "むかしばなし"
+    },
+    {
+     "surface": "です。カメを",
+     "reading": ""
+    },
+    {
+     "surface": "助",
+     "reading": "たす"
+    },
+    {
+     "surface": "けて、",
+     "reading": ""
+    },
+    {
+     "surface": "海",
+     "reading": "うみ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "底",
+     "reading": "そこ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "竜",
+     "reading": "りゅう"
+    },
+    {
+     "surface": "宮城",
+     "reading": "みやぎ"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "った",
+     "reading": ""
+    },
+    {
+     "surface": "若者",
+     "reading": "わかもの"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tsugi no ohanashi wa, Nippon no mukashibanashi desu. Kame o tasukete, umi no soko no ryuu Miyagi e itta wakamono no hanashi desu.",
+   "translations": {
+    "vi": "Truyện tiếp theo là cổ tích Nhật Bản: chàng trai cứu con rùa rồi xuống cung điện Ryūgū dưới đáy biển.",
+    "en": "The next story is a Japanese folk tale: a young man who saves a turtle and goes to the Dragon Palace at the bottom of the sea.",
+    "zh-Hans": "下一个故事是日本民间故事：一个救了乌龟、到海底龙宫去的年轻人。",
+    "zh-Hant": "下一個故事是日本民間故事：一個救了烏龜、到海底龍宮去的年輕人。",
+    "ko": "다음 이야기는 일본 옛날이야기입니다. 거북을 구해 주고 바닷속 용궁에 간 젊은이의 이야기입니다.",
+    "tl": "Ang susunod ay kuwentong-bayan ng Japan: ang binatang nagligtas ng pagong at pumunta sa Palasyo ng Dragon sa ilalim ng dagat.",
+    "ne": "अर्को कथा जापानी लोककथा हो: कछुवा बचाएर समुद्रमुनिको ड्र्यागन दरबार पुगेको युवकको।",
+    "id": "Cerita berikutnya adalah dongeng Jepang: pemuda yang menolong kura-kura lalu pergi ke Istana Naga di dasar laut.",
+    "pt": "A próxima história é um conto popular japonês: o jovem que salvou uma tartaruga e foi ao Palácio do Dragão no fundo do mar.",
+    "my": "နောက်ဇာတ်လမ်းက ဂျပန် ရိုးရာပုံပြင်ပါ: လိပ်ကို ကယ်ပြီး ပင်လယ်အောက်က နဂါးနန်းတော်ကို ရောက်သွားတဲ့ လူငယ် အကြောင်း။",
+    "th": "เรื่องต่อไปเป็นนิทานญี่ปุ่น: ชายหนุ่มที่ช่วยเต่า แล้วได้ไปวังมังกรใต้ทะเล"
+   },
+   "grammarNote": {
+    "vi": "昔話: truyện cổ tích. 助ける: cứu. 竜宮城: cung điện Long Vương.",
+    "en": "昔話: folk tale. 助ける: save. 竜宮城: Dragon Palace.",
+    "zh-Hans": "昔話：民间故事。助ける：救。竜宮城：龙宫。",
+    "zh-Hant": "昔話：民間故事。助ける：救。竜宮城：龍宮。",
+    "ko": "昔話: 옛날이야기. 助ける: 구하다. 竜宮城: 용궁.",
+    "tl": "昔話: kuwentong-bayan. 助ける: iligtas. 竜宮城: Palasyo ng Dragon.",
+    "ne": "昔話: लोककथा। 助ける: बचाउनु। 竜宮城: ड्र्यागन दरबार।",
+    "id": "昔話: dongeng. 助ける: menolong. 竜宮城: Istana Naga.",
+    "pt": "昔話: conto popular. 助ける: salvar. 竜宮城: Palácio do Dragão.",
+    "my": "昔話: ရိုးရာပုံပြင်။ 助ける: ကယ်။ 竜宮城: နဂါးနန်းတော်။",
+    "th": "昔話: นิทานพื้นบ้าน 助ける: ช่วย 竜宮城: วังมังกร"
+   },
+   "vocab": [
+    {
+     "word": "助ける",
+     "reading": "たすける",
+     "level": "N3",
+     "meanings": {
+      "vi": "cứu, giúp",
+      "en": "to save, help",
+      "zh-Hans": "救，帮助",
+      "zh-Hant": "救，幫助",
+      "ko": "구하다, 돕다",
+      "tl": "iligtas, tulungan",
+      "ne": "बचाउनु",
+      "id": "menolong",
+      "pt": "salvar, ajudar",
+      "my": "ကယ်",
+      "th": "ช่วย"
+     }
+    },
+    {
+     "word": "底",
+     "reading": "そこ",
+     "level": "N3",
+     "meanings": {
+      "vi": "đáy",
+      "en": "bottom",
+      "zh-Hans": "底",
+      "zh-Hant": "底",
+      "ko": "바닥",
+      "tl": "ilalim",
+      "ne": "पीँध",
+      "id": "dasar",
+      "pt": "fundo",
+      "my": "အောက်ခြေ",
+      "th": "ก้น"
+     }
+    }
+   ],
+   "t": [
+    303.15,
+    312.94
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-sokotsu-nagaya/chapter.mp3#t=303.15,312.94"
+  }
+ ]
+}

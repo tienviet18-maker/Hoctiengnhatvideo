@@ -101,3 +101,23 @@ Nhánh `claude/shelf-rakugo-mukashi`, dựa trên PR #8. Ba gói chuẩn v2, đ�
 - Romaji: viết hoa tên riêng, tách `de gozaimasu`, は cuối phó từ đọc `wa`, ép tách từ cho chữ kana kuromoji đọc sai (へい, しっぽく).
 - Sửa kế hoạch: mục "饅頭" trong `audio-tuyen-chon.md` trùng với まんじゅうこわい, sẽ thay bằng 初天神 ở lô 2.
 - `npm run verify` xanh trên bản clone sạch tại commit đầu nhánh.
+
+## Kệ B Rakugo — lô 2 (25/11/2026)
+
+Cùng nhánh và PR #10. Sáu gói chuẩn v2; kệ B đủ 9 gói (8 tiết mục, 芝浜 hai tập):
+
+| Gói | Cấp | Câu | Ký tự | Audio liền | Vai (một giọng cố định mỗi vai) | Bài học |
+|---|---|---|---|---|---|---|
+| `rakugo-jugemu` 寿限無 | N3 | 55 | 1.894 | 5,7 phút | Aoede kể; bố, sư (Neural2-C), mẹ, bé Kin (Neural2-B) | てたまらない, ければ〜ほど, ているうちに, てほしい + 4 câu hỏi |
+| `rakugo-shibahama-1` 芝浜 (上) | N3 | 58 | 1.492 | 5,3 phút | Aoede; Katsugorō, bạn nhậu (Neural2-C); vợ (Neural2-B) | ことにする, そうになる, どころじゃない, ようになる + 4 |
+| `rakugo-shibahama-2` 芝浜 (下) | N3 | 55 | 1.409 | 5,1 phút | như tập 1 | ほど, ながらも, ところだった, てくれたから + 4 |
+| `rakugo-hatsu-tenjin` 初天神 | N4 | 60 | 1.538 | 5,1 phút | Aoede; bố, người bán kẹo, người bán dango (Neural2-C); con, mẹ, người bán diều (Neural2-B) | (よ)うとする, すぎる, ないでください, んじゃなかった + 4 |
+| `rakugo-kohome` 子ほめ | N4 | 60 | 1.520 | 5,1 phút | Aoede; Hachigorō, cụ Goinkyo, bantō, Take (Neural2-C, cao độ/tốc độ khác nhau) | そうですね, ばいい, たばかり, にしては + 4 |
+| `rakugo-sokotsu-nagaya` 粗忽長屋 | N3 | 56 | 1.526 | 5,2 phút | Aoede; Hachigorō, Kumagorō, viên quan (Neural2-C) | はずがない, ている場合じゃない, ような気がする, わけがない + 4 |
+
+- Series: 芝浜 dùng `series: {id: "rakugo-shibahama", index: 1|2}`, mỗi tập một bìa riêng.
+- Pháp lý: 寿限無, 初天神, 子ほめ, 粗忽長屋 là tiết mục dân gian thời Edo; 芝浜 là nhân tình噺 cuối Edo–đầu Meiji (tương truyền của Sanyūtei Enchō, mất 1900), theo thuyết nào cũng đã hết bản quyền. Kịch bản tự viết lại, không chép bản ghi hay sách của nghệ sĩ nào.
+- 初天神 thay mục "饅頭" bị trùng trong kế hoạch. Câu cuối mỗi gói dẫn sang gói kế; 粗忽長屋 dẫn sang kệ C (浦島太郎).
+- Công cụ: TTS câu dài hơn 60 ký tự được tách ở 、 rồi nối (giới hạn Neural2); audio đọc theo cách đọc ép `{漢字|よみ}` nên không còn đọc sai (蒸す, 行き倒れ, 抱く…); romaji thêm luật ghép お-tiền tố, 接続詞/副詞 は→wa.
+- zh-Hant viết tay, kiểm bằng phép mã hoá Big5 cho phần dịch (bắt chữ giản thể sót: 俩, 嘞, 凑, 连…); chữ Hán Nhật trong ghi chú ngữ pháp giữ nguyên dạng Nhật.
+- Cấp N4 kiểm theo luật N4 (≤60 câu, TB câu ≤26 ký tự, từ khó ≤15%); hai gói N4 đã gộp/bớt câu để đạt luật mà vẫn ≥5 phút.
