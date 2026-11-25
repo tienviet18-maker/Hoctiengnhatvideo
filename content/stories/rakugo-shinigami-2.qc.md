@@ -2,10 +2,10 @@
 
 - **Nguồn và pháp lý**: tiết mục rakugo cổ điển do Sanyūtei Enchō (mất 1900) phỏng theo truyện cổ phương Tây (Godfather Death, sưu tập Grimm 1812); cả hai đều đã hết bản quyền. Kịch bản do Claude tự viết lại bằng tiếng Nhật phân cấp, không chép bản ghi âm, sách hay kịch bản của nghệ sĩ nào.
 - **Bản thảo**: `content/sources/rakugo/rakugo-shinigami-2/` (ja.txt + 11 file bản dịch/giải thích). Dựng bằng `node scripts/build-audio-pack.mjs content/sources/rakugo/rakugo-shinigami-2`.
-- **Số đo cấp độ** (kuromoji + danh sách JLPT): 1616 ký tự, 60 câu, câu TB 26.9 ký tự,
-  từ vượt cấp 12.1%, từ đạt cấp 32.1%.
-- **Từ vựng**: 45 từ, cấp lấy đúng theo danh sách JLPT, chỉ chọn từ đúng cấp bài hoặc khó hơn.
-- **Audio**: một file liền `public/audio/rakugo-shinigami-2/chapter.mp3`, 5.9 phút (mono 64 kbps; nghỉ 0,6 giây giữa câu,
+- **Số đo cấp độ** (kuromoji + danh sách JLPT): 1620 ký tự, 60 câu, câu TB 27.0 ký tự,
+  từ vượt cấp 10.3%, từ đạt cấp 30.9%.
+- **Từ vựng**: 42 từ, cấp lấy đúng theo danh sách JLPT, chỉ chọn từ đúng cấp bài hoặc khó hơn.
+- **Audio**: một file liền `public/audio/rakugo-shinigami-2/chapter.mp3`, 6.0 phút (mono 64 kbps; nghỉ 0,6 giây giữa câu,
   0,9 giây khi đổi người nói). Google Cloud TTS, tốc độ ghi theo từng vai, chuẩn hoá âm lượng -18 LUFS. Mỗi nhân vật giữ một giọng:
 
 | Mã | Vai | Giọng | Số câu |
