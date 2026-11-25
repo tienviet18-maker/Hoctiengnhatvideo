@@ -103,9 +103,21 @@ mỗi truyện một phông. **Muse lưu ý: các ID `furusato-*` do Claude cấ
 | furusato-vn-sodua-1 | N4 | 57 | 5,1 phút | タニシ長者 | 5244530 |
 | furusato-vn-giong-1 | N3 | 55 | 4,8 phút | 三年寝太郎, 桃太郎 | dbdae05 |
 | furusato-vn-sontinh-1 | N3 | 51 | 4,8 phút | 山幸彦と海幸彦 (+ mẹo ハザードマップ) | 17361f8 |
+| furusato-vn-caytre-1 | N3 | 63 | 5,0 phút | 竹取物語 | 048c3e5 |
+| furusato-vn-maiantiem-1 | N3 | 59 | 5,3 phút | わらしべ長者 | 4060c21 |
+| furusato-vn-thachsanh-1 | N3 | 58 | 5,7 phút | ヤマタノオロチ | a3ba133 |
+| furusato-vn-thachsanh-2 | N3 | 58 | 5,8 phút | 浦島太郎 | a6e10b3 |
+| furusato-vn-thachsanh-3 | N3 | 56 | 5,6 phút | 天岩戸 | 455786a |
+| furusato-vn-khe-1 | N3 | 56 | 5,4 phút | 舌切り雀 | e7f8875 |
+| furusato-vn-hoguom-1 | N3 | 55 | 5,9 phút | 俵藤太 | 9cf5895 |
+| furusato-vn-rongtien-1 | N3 | 56 | 5,8 phút | 山幸彦と豊玉姫 | 49e08eb |
+| furusato-vn-chudongtu-1 | N3 | 58 | 6,3 phút | かぐや姫 | afd60bb |
+| furusato-vn-tuthuc-1 | N3 | 56 | 5,6 phút | 浦島太郎 | 6635cad |
+| furusato-vn-traucau-1 | N3 | 56 | 5,9 phút | 高砂・相生の松 | f4d0a60 |
 
 Công cụ mới trong `scripts/story-src/` (build, tts, register) và motif bìa mới trong `scripts/covers/cover.html`
-(bird, coconut, horse, mountainwave). Khoá TTS chỉ đọc từ biến môi trường, không in, không ghi file.
+(bird, coconut, horse, mountainwave; lô 2 thêm bamboo, watermelon, snake, eagle, lute, starfruit, turtle, eggs,
+umbrella, peony, betel). **Đã đủ 17 truyện Việt Nam theo kế hoạch.** Khoá TTS chỉ đọc từ biến môi trường, không in, không ghi file.
 
 ## Kệ F 「大阪で働く」 — tập 1–5 (25/11/2026, nhánh `claude/furusato-osaka`)
 
@@ -125,3 +137,5 @@ mốc `t`, dịch + giải thích 11 ngôn ngữ (tự dịch, tự rà), bài h
 | osaka-hataraku-05 | 夜の工場 | 57 | 5,4 phút | 緊急地震速報, 避難所, túi khẩn cấp | a1fb25e |
 
 Tập 1 miễn phí, tập 2–5 `free: false`. `npm run verify` xanh trên bản clone sạch: 553 gói, 0 lỗi; chuẩn v2 11 gói đạt.
+
+Cập nhật 25/11 (sau lô 2 Truyện quê hương): `npm run verify` xanh trên bản clone sạch tại f4d0a60: 564 gói, 0 lỗi; chuẩn v2 22 gói đạt.
