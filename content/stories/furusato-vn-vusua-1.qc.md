@@ -1,0 +1,12 @@
+# QC — furusato-vn-vusua-1
+
+- Nguồn: Truyện cổ tích Việt Nam 「Sự tích cây vú sữa」 (cậu bé ham chơi bỏ nhà đi, mẹ mòn mỏi chờ rồi mất, hóa thành cây; con trở về, cây ra quả có dòng sữa trắng, lá mặt trên xanh mặt dưới đỏ như mắt mẹ khóc), truyền khẩu, public domain. Claude tự kể lại bằng tiếng Nhật. Phần so sánh: 『安寿と厨子王』 (説経節 / 山椒大夫, public domain) và tục ngữ 「親孝行したいときに親はなし」.
+- Chuẩn v2, cấp N4: 1550 ký tự, 60 câu, câu TB 25.8 ký tự, harder 11.0%, atLevel 21.1%.
+- Furigana + romaji sinh bằng kuromoji qua `scripts/story-src/build.mjs`, cách đọc sửa tay: 一人=ひとり, 二人=ふたり, お米=おこめ, 大喜び=おおよろこび, 一匹=いっぴき, 仏様=ほとけさま, 継母=ままはは, 一日中=いちにちじゅう, つぼ=つぼ, お姉さん=おねえさん, 水の上=みず の うえ, でいっぱい=で いっぱい, 家中=いえじゅう, 国中=くにじゅう, 今日中=きょうじゅう, 一粒=ひとつぶ, 一足=いっそく, 片方=かたほう, 家来=けらい, 都=みやこ, お妃=おきさき, 小魚=こざかな, 一つかみ=ひとつかみ, 白いひげ=しろい ひげ, 日本=にほん, 南=みなみ, 色=いろ, 中=なか, 白くて=しろくて, 水=みず, 入って=はいって, 語=ご, お母さん=おかあさん, 意味=いみ, 名前=なまえ, 村=むら, 男の子=おとこのこ, 遊ぶ=あそぶ, 大好き=だいすき, 外=そと, 日=ひ, 遊び=あそび, 言う=いう, 聞かない=きかない, 家=いえ, 言って=いって, 出て=でて, 夜=よる, 待ちました=まちました, 寒くない=さむくない, 帰って=かえって, 次=つぎ, 門=もん, 前=まえ, 立って=たって, 一か月=いっかげつ, 一年=いちねん, 毎日=まいにち, 泣いて=ないて, 病気=びょうき, 死んで=しんで, 最後=さいご, 遠い=とおい, 町=まち, お金=おかね, 食べる=たべる, 友だち=ともだち, 寒い=さむい, 道=みち, 食べたい=たべたい, 帰る=かえる, 長い=ながい, 歩いて=あるいて, 着きました=つきました, 台所=だいどころ, 声=こえ, 聞こえません=きこえません, 大きな=おおきな, 木=き, 下=した, 上げて=あげて, 泣きました=なきました, 会いたい=あいたい, 起きました=おきました, 枝=えだ, 小さな=ちいさな, 花=はな, 実=み, 一つ=ひとつ, 手=て, 落ちて=おちて, 食べて=たべて, 味=あじ, 葉っぱ=はっぱ, 見る=みる, 表=おもて, 緑=みどり, 赤く=あかく, 目=め, 赤かった=あかかった, 待って=まって, 風=かぜ, 大切=たいせつ, 育てました=そだてました, 人=ひと, 子ども=こども, 待つ=まつ, 話=はなし, 安寿と厨子王=あんじゅとずしおう, 厨子王=ずしおう, 古い=ふるい, 悪い=わるい, 島=しま, 歌=うた, 何年=なんねん, 大人=おとな, 見つけた=みつけた, 親孝行=おやこうこう, 親=おや, 言葉=ことば, 思った=おもった, お店=おみせ, 見たら=みたら, 思い出して=おもいだして, 泣き=なき. Đã đọc lại toàn bộ.
+- Từ vựng: 10 từ, cấp lấy từ `data/jlpt` (chỉ từ đúng cấp hoặc khó hơn, không lặp trong tập). Nghĩa 11 ngôn ngữ ở `content/sources/furusato/glossary.json`.
+- Dịch + giải thích: 10 ngôn ngữ dịch thẳng từ tiếng Nhật; zh-Hant chuyển từ zh-Hans bằng OpenCC (s2twp). Claude tự kiểm theo quy tắc của Việt: dịch ngược kiểm nghĩa, thuật ngữ nhất quán trong bộ.
+- Audio: Google Cloud TTS, ghép thành một file liền public/audio/furusato-vn-vusua-1/chapter.mp3 (mono 64 kbps, nghỉ 0,6 giây giữa câu, 0,9 giây khi đổi người nói), mốc từng câu đo theo mẫu PCM (`scripts/story-src/tts.mjs`). Giọng:
+  - Người kể: `ja-JP-Chirp3-HD-Aoede`, tốc độ 0.86 (51 câu)
+  - お母さん: `ja-JP-Neural2-B`, tốc độ 0.92, cao độ -1 (2 câu)
+  - 男の子: `ja-JP-Neural2-C`, tốc độ 1, cao độ 4 (7 câu)
+- Bìa: hệ bìa MiraiGo 文庫, phông M PLUS 1p.

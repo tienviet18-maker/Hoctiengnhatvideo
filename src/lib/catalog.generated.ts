@@ -9997,6 +9997,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-tichchu-1/chapter.mp3",
    "durationSec": 315.24
   }
+ },
+ {
+  "id": "furusato-vn-vusua-1",
+  "titles": {
+   "vi": "Sự tích cây vú sữa",
+   "en": "The Milk Fruit Tree",
+   "zh-Hans": "牛奶果树的传说",
+   "zh-Hant": "牛奶果樹的傳說",
+   "ko": "젖 열매 나무 이야기",
+   "tl": "Ang Alamat ng Punong Kaimito",
+   "ne": "दूधे फलको रूखको कथा",
+   "id": "Legenda Pohon Sawo Ijo",
+   "pt": "A lenda da árvore de fruta-do-leite",
+   "my": "နို့သီးပင် ဒဏ္ဍာရီ",
+   "th": "ตำนานต้นสตาร์แอปเปิล"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-vusua-1.webp",
+  "series": {
+   "id": "furusato-vn-vusua",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-vusua-1/chapter.mp3",
+   "durationSec": 336.672
+  }
  }
 ];
 
