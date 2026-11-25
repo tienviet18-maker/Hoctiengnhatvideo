@@ -15,10 +15,11 @@ tại commit `235d6f5` (25/11/2026).
 
 ## 2. App này là gì
 
-- App học tiếng Nhật qua **video + truyện đọc**, cho người nước ngoài SỐNG ở Nhật.
-- Định vị cốt lõi: **không phải app luyện thi JLPT** (không đề thi, không lộ trình thi).
-  Mục tiêu là nghe hiểu và sống được bằng tiếng Nhật thật: xem phim, đọc truyện,
-  nghe khi lái xe. Cấp độ N5–N1 chỉ là nhãn độ khó.
+- **Định vị (Việt chốt lại 25/11/2026): app giải trí bằng tiếng Nhật.** Xem video, nghe và đọc
+  truyện tiếng Nhật có giải thích, đúng cấp độ từng người, ai cũng dùng lúc rảnh. KHÔNG phải app luyện
+  thi JLPT; N5–N1 chỉ là nhãn độ khó. Bỏ hẳn câu "học để sống ở Nhật".
+- Slogan: **"Xem phim vui, nghe truyện hay. Tiếng Nhật trong tay, giỏi lên mỗi ngày."** (11 ngôn ngữ
+  ở `onboarding.welcome` trong `src/i18n/locales/`).
 - Khác biệt đã có: chế độ **nghe khi lái xe** (`/drive`), **lộ trình theo mục tiêu sống**
   (`/paths`: Mới sang Nhật / Đi làm / Gia đình / Giải trí & văn hoá), từ vựng gắn cấp độ
   của chính từ đó và chảy vào hệ ôn tập SRS.
