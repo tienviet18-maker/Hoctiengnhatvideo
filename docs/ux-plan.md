@@ -80,7 +80,7 @@ Thứ tự ưu tiên: A cùng với 6 màn hình, rồi đến B8, B9, B11, B13,
 - Chỉ VIP được tải về nghe offline. File lưu trong app, không xuất ra ngoài.
 - Bản iOS thanh toán bằng In-App Purchase của Apple (quy định 3.1.1). SePay chỉ dùng cho bản web.
 - Mọi bước dùng tiền thật đều phải hỏi Việt trước.
-- Giá: Việt sẽ đề xuất. Code hiện để giá đích ¥550/tháng và ¥4.980/năm ở một chỗ duy nhất (`Paywall.tsx`) để dễ đổi.
+- Giá (Việt chốt 25/11): giá ra mắt ¥900/1 tháng, ¥4.400/6 tháng, ¥7.800/1 năm, gạch giá thường gấp đôi (¥1.800 / ¥8.800 / ¥15.600) tới `LAUNCH_ENDS_AT`. Hết hạn thì người mua mới trả giá thường, người mua trong đợt ra mắt giữ giá cũ khi gia hạn. Bản web dùng cách này. Bản iOS (build với `NEXT_PUBLIC_PLATFORM=ios`) không gạch giá, bán ¥900 / ¥4.400 / ¥7.800 và chỉ so với giá tháng (Việt chốt 25/11). Giá chỉ khai báo ở `PLANS` trong `Paywall.tsx`.
 
 ### Ranh giới miễn phí / VIP (đề xuất, chờ Việt duyệt)
 

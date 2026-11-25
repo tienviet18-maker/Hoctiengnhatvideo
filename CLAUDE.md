@@ -23,7 +23,7 @@ tại commit `235d6f5` (25/11/2026).
 - Khác biệt đã có: chế độ **nghe khi lái xe** (`/drive`), **lộ trình theo mục tiêu sống**
   (`/paths`: Mới sang Nhật / Đi làm / Gia đình / Giải trí & văn hoá), từ vựng gắn cấp độ
   của chính từ đó và chảy vào hệ ôn tập SRS.
-- Giá đích: ¥550/tháng, ¥4.980/năm. Giao diện 11 ngôn ngữ (`src/i18n/locales/`).
+- Giá VIP (Việt chốt 25/11/2026): giá ra mắt ¥900/1 tháng, ¥4.400/6 tháng, ¥7.800/1 năm; giá thường gấp đôi, áp dụng sau đợt ra mắt (`PLANS` trong `src/components/Paywall.tsx`). Giao diện 11 ngôn ngữ (`src/i18n/locales/`).
 - **Tên app ĐÃ CHỐT (Việt chốt 25/11/2026): MiraiGo** — Mirai （未来， tương lai) + Go （語，
   ngôn ngữ). Đã kiểm chứng không trùng app nào trên App Store/Google Play. Tên hiển thị
   store theo từng ngôn ngữ, luôn mở đầu bằng MiraiGo, tối đa 30 ký tự (phần mô tả dài
@@ -65,7 +65,7 @@ tại commit `235d6f5` (25/11/2026).
    (kho audio đang ~5.000 file; khi audio chạm ~10.000 file thì chuyển sang R2 — đã ghi
    trong engineering-standard).
 4. QA: metadata/SEO từng trang, i18n đủ 11 ngôn ngữ cho mọi chuỗi mới, kiểm tra paywall
-   hiển thị đúng giá đích của app này (¥550/¥4.980 — trong app có thể còn sót giá của
+   hiển thị đúng giá VIP của app này (¥900/¥4.400/¥7.800 — trong app có thể còn sót giá của
    hệ ViMai 450k/700k, hãy rà và báo cáo, đừng tự đổi khi chưa có tên app chính thức).
 5. Ghi mọi phát hiện + việc đã sửa vào `docs/review-log.md` (tạo mới) để Muse và Việt theo dõi.
 
