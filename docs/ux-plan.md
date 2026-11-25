@@ -68,3 +68,42 @@ Thứ tự ưu tiên: A cùng với 6 màn hình, rồi đến B8, B9, B11, B13,
   tự bấm nên không bị giới hạn số lần.
 - Không reset điểm đánh giá khi ra phiên bản mới. Trả lời mọi đánh giá.
 - Android: dùng Play In-App Review API theo cùng nguyên tắc.
+
+## 6. VIP
+
+### Đã chốt
+
+- Video VIP vẫn phát được. Phụ đề chỉ hiện rõ 2 câu đầu; từ câu thứ 3 bị làm mờ, kèm nút "Mở khoá VIP".
+  Việc che câu phải làm ở phía máy chủ: máy chủ không gửi nội dung câu thứ 3 trở đi cho tài khoản thường.
+  Chỉ làm mờ bằng CSS thì người dùng xem mã nguồn vẫn đọc được.
+- Không có dùng thử 7 ngày. Không giảm giá giả, không đồng hồ đếm ngược.
+- Chỉ VIP được tải về nghe offline. File lưu trong app, không xuất ra ngoài.
+- Bản iOS thanh toán bằng In-App Purchase của Apple (quy định 3.1.1). SePay chỉ dùng cho bản web.
+- Mọi bước dùng tiền thật đều phải hỏi Việt trước.
+- Giá: Việt sẽ đề xuất. Code hiện để giá đích ¥550/tháng và ¥4.980/năm ở một chỗ duy nhất (`Paywall.tsx`) để dễ đổi.
+
+### Ranh giới miễn phí / VIP (đề xuất, chờ Việt duyệt)
+
+| | Miễn phí | VIP |
+|---|---|---|
+| Truyện | Chương 1 của mọi bộ truyện, cùng toàn bộ truyện ngắn N5 | Mọi chương. Nghe liên tục, tự chuyển sang chương sau |
+| Video | Gói gắn nhãn miễn phí: đủ phụ đề. Gói VIP: 2 câu đầu | Đủ phụ đề mọi video, chép chính tả, shadowing |
+| Bài học | Từ vựng của chương | Thêm ngữ pháp và câu hỏi kiểm tra |
+| Thẻ ôn | Tối đa 100 thẻ | Không giới hạn, kèm audio câu gốc |
+| Offline | Không | Tải về theo chương hoặc theo bộ |
+| Giải thích câu | 5 lần mỗi ngày | Không giới hạn |
+
+### Màn hình paywall
+
+- Mở khi chạm vào nội dung VIP, chạm nút tải về, hoặc từ tab Tôi. Không bao giờ chắn ngay khi mở app.
+- Nội dung: liệt kê VIP mở khoá thêm gì (đúng theo bảng trên). Hai gói tháng và năm, gói năm hiện giá quy ra mỗi tháng.
+  Có Khôi phục giao dịch, ghi rõ gia hạn tự động và cách huỷ, có link Điều khoản và Chính sách.
+- Mua xong thì mở ngay đúng nội dung người dùng vừa chạm, không đưa về Trang chủ.
+- Trạng thái VIP lưu ở máy chủ (Firebase). Kiểm tra lại hoá đơn khi mở app; máy khách chỉ giữ bản sao để dùng khi offline.
+
+### Thứ tự làm
+
+1. Phân quyền miễn phí / VIP ở phía máy khách theo bảng trên, có cờ VIP giả để kiểm thử. Làm ngay cùng các màn UX.
+2. Paywall mới theo thiết kế ở trên. Làm ngay.
+3. Che câu và phân quyền ở máy chủ. Làm khi có Firebase.
+4. Nối In-App Purchase (iOS) và SePay (web). Làm khi Việt duyệt bước dùng tiền thật.
