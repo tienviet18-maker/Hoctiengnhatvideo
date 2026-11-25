@@ -7,6 +7,7 @@ import { useLang } from "../../../components/LangProvider";
 import Paywall from "../../../components/Paywall";
 import { pickText } from "../../../lib/i18n";
 import { logActivity } from "../../../lib/store";
+import { stop as stopStoryPlayer } from "../../../lib/player";
 import type { JlptLevel, Translations } from "../../../lib/content-schema";
 
 interface DriveSentence {
@@ -159,6 +160,9 @@ export default function DriveClient({
     navigator.mediaSession.setActionHandler("previoustrack", goPrev);
     navigator.mediaSession.setActionHandler("nexttrack", goNext);
   }, [title, story.level, ui.drive.title, idx, playFrom, goPrev, goNext]);
+
+  // Chế độ lái xe có audio riêng: tắt trình phát truyện để không phát chồng
+  useEffect(() => stopStoryPlayer(), []);
 
   // Dừng audio khi rời trang
   useEffect(
