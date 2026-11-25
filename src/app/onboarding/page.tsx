@@ -7,9 +7,8 @@ import Paywall from "../../components/Paywall";
 import StoryCover from "../../components/StoryCover";
 import { LANGUAGE_CODES, LANGUAGE_NAMES, pickText } from "../../lib/i18n";
 import type { JlptLevel } from "../../lib/content-schema";
-import { STORY_INDEX } from "../../lib/catalog.generated";
 import { PLACEMENT } from "../../lib/placement";
-import { INTEREST_SHELVES, shelfOf } from "../../lib/shelves";
+import { recommendFirst } from "../../lib/shelves";
 
 /**
  * Onboarding (docs/ux-plan.md A1), học cách Tadoku hỏi nhiều để cá nhân hoá, nhưng
@@ -66,14 +65,7 @@ export default function OnboardingPage() {
     return lv;
   }, [heard, selfLevel]);
 
-  const firstStory = useMemo(() => {
-    const shelves = new Set(interests.flatMap((k) => INTEREST_SHELVES[k] ?? []));
-    const free = STORY_INDEX.filter((s) => s.free && (!s.series || s.series.index === 1));
-    const atLevel = free.filter((s) => s.level === level);
-    const score = (s: (typeof STORY_INDEX)[number]) => (shelves.has(shelfOf(s)) ? 2 : 0) + (s.audioTrack ? 1 : 0);
-    const pool = atLevel.length ? atLevel : free;
-    return [...pool].sort((a, b) => score(b) - score(a))[0] ?? null;
-  }, [interests, level]);
+  const firstStory = useMemo(() => recommendFirst(level, interests), [interests, level]);
 
   const save = () =>
     updateProfile({ name: name.trim(), onboarded: true, level, interests, dailyMinutes: goal, listenWhen: when });

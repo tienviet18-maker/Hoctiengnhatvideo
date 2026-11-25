@@ -10,7 +10,7 @@ import { STORY_INDEX, type StoryIndexItem } from "../../lib/catalog.generated";
 import { pickText } from "../../lib/i18n";
 import type { JlptLevel } from "../../lib/content-schema";
 import { PROGRESS_KEY, useLocalJson, type Progress } from "../../lib/store";
-import { SHELF_ORDER, shelfOf, type ShelfKey } from "../../lib/shelves";
+import { INTEREST_SHELVES, SHELF_ORDER, shelfOf, type ShelfKey } from "../../lib/shelves";
 
 const LEVELS: (JlptLevel | "all")[] = ["all", "N5", "N4", "N3", "N2", "N1"];
 const EMPTY_PROGRESS: Record<string, Progress> = {};
@@ -41,7 +41,10 @@ function collapseSeries(list: StoryIndexItem[], progress: Record<string, Progres
 export default function BooksPage() {
   const { ui, lang, profile } = useLang();
   const router = useRouter();
-  const [level, setLevel] = useState<(typeof LEVELS)[number]>("all");
+  // null = chưa chọn tay: dùng cấp đã xếp ở onboarding
+  const [picked, setPicked] = useState<(typeof LEVELS)[number] | null>(null);
+  const level = picked ?? profile.level ?? "all";
+  const setLevel = setPicked;
   const [open, setOpen] = useState<ShelfKey | null>(null);
   const [paywall, setPaywall] = useState(false);
   const progress = useLocalJson(PROGRESS_KEY, EMPTY_PROGRESS);
@@ -54,8 +57,11 @@ export default function BooksPage() {
       if (!by.has(k)) by.set(k, []);
       by.get(k)!.push(s);
     }
-    return SHELF_ORDER.filter((k) => by.has(k)).map((k) => ({ key: k, items: collapseSeries(by.get(k)!, progress) }));
-  }, [level, progress]);
+    // Kệ khớp sở thích đã chọn ở onboarding lên đầu, còn lại giữ thứ tự chuẩn
+    const liked = new Set((profile.interests ?? []).flatMap((i) => INTEREST_SHELVES[i] ?? []));
+    const order = [...SHELF_ORDER.filter((k) => liked.has(k)), ...SHELF_ORDER.filter((k) => !liked.has(k))];
+    return order.filter((k) => by.has(k)).map((k) => ({ key: k, items: collapseSeries(by.get(k)!, progress) }));
+  }, [level, progress, profile.interests]);
 
   const pctOf = (id: string) => {
     const p = progress[id];
