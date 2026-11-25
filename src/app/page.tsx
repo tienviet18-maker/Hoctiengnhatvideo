@@ -37,6 +37,14 @@ function tone(id: string) {
   return COVER_TONES[h % COVER_TONES.length];
 }
 
+interface Featured {
+  kind: "story" | "video";
+  id: string;
+  title: string;
+  level: string;
+  img: string | null;
+}
+
 function fill(s: string, n: number) {
   return s.replace("{n}", String(n));
 }
@@ -86,12 +94,12 @@ export default function HomePage() {
   const newest = useMemo(() => STORY_INDEX.slice(-8).reverse(), []);
   const newVideos = useMemo(() => VIDEO_INDEX.slice(-6).reverse(), []);
   // "Đang hot": truyện chuẩn v2 mới nhất (có audio liền) + video mới nhất của từng kênh
-  const featured = useMemo(() => {
+  const featured = useMemo((): Featured[] => {
     const stories = STORY_INDEX.filter((s) => s.audioTrack).slice(-3).reverse()
-      .map((s) => ({ kind: "story" as const, id: s.id, title: pickText(s.titles, lang), level: s.level, img: null as string | null }));
+      .map((s): Featured => ({ kind: "story", id: s.id, title: pickText(s.titles, lang), level: s.level, img: null }));
     const videos = SERIES.map((k) => [...VIDEO_INDEX].reverse().find((v) => seriesOf(v.id) === k.key)).filter((v) => !!v)
-      .map((v) => ({ kind: "video" as const, id: v.id, title: pickText(v.titles, lang), level: v.level, img: `https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg` }));
-    const out: typeof stories = [];
+      .map((v): Featured => ({ kind: "video", id: v.id, title: pickText(v.titles, lang), level: v.level, img: `https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg` }));
+    const out: Featured[] = [];
     for (let i = 0; i < Math.max(stories.length, videos.length); i++) {
       if (videos[i]) out.push(videos[i]);
       if (stories[i]) out.push(stories[i]);
