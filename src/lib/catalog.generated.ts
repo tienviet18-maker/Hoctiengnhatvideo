@@ -1594,6 +1594,102 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "lineCount": 11,
   "clipStart": 53,
   "clipEnd": 134
+ },
+ {
+  "id": "teded-habits-what",
+  "youtubeId": "cS8oEgJ9CXU",
+  "titles": {
+   "vi": "TED-Ed: Thói quen là gì?",
+   "en": "TED-Ed: What is a habit?",
+   "zh-Hans": "TED-Ed：什么是习惯？",
+   "zh-Hant": "TED-Ed：什麼是習慣？",
+   "ko": "TED-Ed: 습관이란 무엇일까?",
+   "tl": "TED-Ed: Ano ang ugali?",
+   "ne": "TED-Ed: बानी भनेको के हो?",
+   "id": "TED-Ed: Apa itu kebiasaan?",
+   "pt": "TED-Ed: O que é um hábito?",
+   "my": "TED-Ed- အလေ့အထ ဆိုတာ ဘာလဲ",
+   "th": "TED-Ed: นิสัยคืออะไร"
+  },
+  "level": "N2",
+  "category": "podcast",
+  "durationSec": 300,
+  "free": false,
+  "lineCount": 11,
+  "clipStart": 5,
+  "clipEnd": 69
+ },
+ {
+  "id": "teded-habits-dopamine",
+  "youtubeId": "cS8oEgJ9CXU",
+  "titles": {
+   "vi": "TED-Ed: Não và dopamine tạo ra thói quen thế nào",
+   "en": "TED-Ed: How the brain and dopamine build habits",
+   "zh-Hans": "TED-Ed：大脑和多巴胺如何养成习惯",
+   "zh-Hant": "TED-Ed：大腦和多巴胺如何養成習慣",
+   "ko": "TED-Ed: 뇌와 도파민이 습관을 만드는 방법",
+   "tl": "TED-Ed: Paano bumubuo ng ugali ang utak at dopamine",
+   "ne": "TED-Ed: मस्तिष्क र डोपामिनले बानी कसरी बनाउँछन्",
+   "id": "TED-Ed: Bagaimana otak dan dopamin membentuk kebiasaan",
+   "pt": "TED-Ed: Como o cérebro e a dopamina criam hábitos",
+   "my": "TED-Ed- ဦးနှောက်နဲ့ ဒိုပါမင်းက အလေ့အထကို ဘယ်လို တည်ဆောက်လဲ",
+   "th": "TED-Ed: สมองและโดพามีนสร้างนิสัยอย่างไร"
+  },
+  "level": "N1",
+  "category": "podcast",
+  "durationSec": 300,
+  "free": false,
+  "lineCount": 11,
+  "clipStart": 64,
+  "clipEnd": 145
+ },
+ {
+  "id": "teded-habits-routine",
+  "youtubeId": "cS8oEgJ9CXU",
+  "titles": {
+   "vi": "TED-Ed: Thói quen và nếp sinh hoạt mỗi ngày",
+   "en": "TED-Ed: Habits and your daily routine",
+   "zh-Hans": "TED-Ed：习惯与日常例行事务",
+   "zh-Hant": "TED-Ed：習慣與日常例行事務",
+   "ko": "TED-Ed: 습관과 일상 루틴",
+   "tl": "TED-Ed: Ugali at araw-araw na gawain",
+   "ne": "TED-Ed: बानी र दैनिक दिनचर्या",
+   "id": "TED-Ed: Kebiasaan dan rutinitas harian",
+   "pt": "TED-Ed: Hábitos e rotina diária",
+   "my": "TED-Ed- အလေ့အထနဲ့ နေ့စဉ် လုပ်ရိုးလုပ်စဉ်",
+   "th": "TED-Ed: นิสัยกับกิจวัตรประจำวัน"
+  },
+  "level": "N2",
+  "category": "podcast",
+  "durationSec": 300,
+  "free": false,
+  "lineCount": 10,
+  "clipStart": 141,
+  "clipEnd": 194
+ },
+ {
+  "id": "teded-habits-change",
+  "youtubeId": "cS8oEgJ9CXU",
+  "titles": {
+   "vi": "TED-Ed: Cách bỏ thói quen xấu",
+   "en": "TED-Ed: How to break a bad habit",
+   "zh-Hans": "TED-Ed：如何改掉坏习惯",
+   "zh-Hant": "TED-Ed：如何改掉壞習慣",
+   "ko": "TED-Ed: 나쁜 버릇 고치는 법",
+   "tl": "TED-Ed: Paano itigil ang masamang ugali",
+   "ne": "TED-Ed: नराम्रो बानी कसरी छोड्ने",
+   "id": "TED-Ed: Cara menghentikan kebiasaan buruk",
+   "pt": "TED-Ed: Como largar um mau hábito",
+   "my": "TED-Ed- အကျင့်ဆိုး ဘယ်လို ဖြတ်မလဲ",
+   "th": "TED-Ed: วิธีเลิกนิสัยไม่ดี"
+  },
+  "level": "N2",
+  "category": "podcast",
+  "durationSec": 300,
+  "free": false,
+  "lineCount": 12,
+  "clipStart": 190,
+  "clipEnd": 274
  }
 ];
 

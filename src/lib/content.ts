@@ -101,6 +101,10 @@ import video99 from "../../content/videos/peppa-pancake-batter.json";
 import video100 from "../../content/videos/peppa-pancake-flip.json";
 import video101 from "../../content/videos/teded-procrastination-cycle.json";
 import video102 from "../../content/videos/teded-procrastination-brain.json";
+import video103 from "../../content/videos/teded-habits-what.json";
+import video104 from "../../content/videos/teded-habits-dopamine.json";
+import video105 from "../../content/videos/teded-habits-routine.json";
+import video106 from "../../content/videos/teded-habits-change.json";
 import story1 from "../../content/stories/baito-first-morning.json";
 import story2 from "../../content/stories/supermarket-first.json";
 import story3 from "../../content/stories/at-the-clinic.json";
@@ -649,6 +653,10 @@ export const VIDEOS: VideoContent[] = [
   video100 as unknown as VideoContent,
   video101 as unknown as VideoContent,
   video102 as unknown as VideoContent,
+  video103 as unknown as VideoContent,
+  video104 as unknown as VideoContent,
+  video105 as unknown as VideoContent,
+  video106 as unknown as VideoContent,
 ];
 export const STORIES: StoryContent[] = [
   story1 as unknown as StoryContent,

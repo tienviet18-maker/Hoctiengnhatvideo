@@ -100,3 +100,13 @@ Bản yt-dlp cũ chạy Python 3.9 trên máy là nguyên nhân phụ; client `i
 
 **Cho Muse — tránh trùng**: đã dùng `G0wHgMKJRSU` (Peppa パンケーキ, 26–153s) và `cSIX6prPwRk` (TED-Ed 先延ばし, 8–132s).
 Phần còn lại của `cSIX6prPwRk` (132–343s) chưa dựng. ID `video99–video102` đã cấp.
+
+## Đợt 4 — Thêm 4 clip TED-Ed chuẩn v2 (26/11/2026, nhánh `claude/video-teded-habits`, xếp trên PR #15)
+
+| # | Mức | Việc | PR |
+|---|---|---|---|
+| 25 | **Cao** | 4 gói `standard: 2` từ bài TED-Ed 「悪い癖をやめるのが大変な理由」 (`cS8oEgJ9CXU`, dùng 7,5–272s): `teded-habits-what` (N2, 59s), `teded-habits-dopamine` (N1, 77s), `teded-habits-routine` (N2, 49s), `teded-habits-change` (N2, 80s). Đăng ký `video103–106`. Chi tiết sửa ASR trong `.qc.md`. | PR này |
+| 26 | Trung bình | Kênh TED-Ed tiếng Nhật có 40+ bài lồng tiếng 4–6 phút, đều cho nhúng — nguồn N2–N1 dồi dào cho các đợt sau (danh sách 40 bài mới nhất đã kiểm). Bài `-2ntpAhMb3s` (ミスコミュニケーション) có đoạn ASR gộp 25 giây vào một sự kiện → mốc kém, để sau. | — |
+| 27 | Trung bình | **Còn mở**: mốc thời gian vẫn là ASR + nội suy, chưa nghe kiểm. Phương án căn tự động bằng Whisper cần tải tạm âm thanh YouTube — đang chờ Việt quyết. | — |
+
+**Cho Muse — tránh trùng**: đã dùng `cS8oEgJ9CXU` (7–272s). ID `video103–video106` đã cấp.
