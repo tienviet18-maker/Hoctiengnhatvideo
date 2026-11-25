@@ -9869,6 +9869,102 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/madara-2/chapter.mp3",
    "durationSec": 322.3
   }
+ },
+ {
+  "id": "furusato-vn-coc-1",
+  "titles": {
+   "vi": "Cóc kiện trời",
+   "en": "The Toad Who Sued Heaven",
+   "zh-Hans": "蛤蟆告天状",
+   "zh-Hant": "蛤蟆告天狀",
+   "ko": "하늘을 고소한 두꺼비",
+   "tl": "Ang Palakang Nagreklamo sa Langit",
+   "ne": "आकाशसँग उजुरी गर्ने भ्यागुतो",
+   "id": "Katak Menggugat Langit",
+   "pt": "O sapo que processou o céu",
+   "my": "မိုးနတ်ကို တိုင်တဲ့ ဖား",
+   "th": "คางคกฟ้องฟ้า"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 59,
+  "cover": "/covers/furusato-vn-coc-1.webp",
+  "series": {
+   "id": "furusato-vn-coc",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-coc-1/chapter.mp3",
+   "durationSec": 327.288
+  }
+ },
+ {
+  "id": "furusato-vn-oc-1",
+  "titles": {
+   "vi": "Nàng tiên Ốc",
+   "en": "The Snail Fairy",
+   "zh-Hans": "田螺仙女",
+   "zh-Hant": "田螺仙女",
+   "ko": "우렁이 선녀",
+   "tl": "Ang Diwata ng Kuhol",
+   "ne": "शंखेकीरीकी परी",
+   "id": "Bidadari Keong Emas",
+   "pt": "A fada do caracol",
+   "my": "ခရုနတ်သမီး",
+   "th": "นางฟ้าหอยทาก"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-oc-1.webp",
+  "series": {
+   "id": "furusato-vn-oc",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-oc-1/chapter.mp3",
+   "durationSec": 319.56
+  }
+ },
+ {
+  "id": "furusato-vn-neu-1",
+  "titles": {
+   "vi": "Sự tích cây nêu ngày Tết",
+   "en": "Why Vietnamese Raise a Bamboo Pole at Tết",
+   "zh-Hans": "春节竹竿的传说",
+   "zh-Hant": "春節竹竿的傳說",
+   "ko": "설날 대나무 장대 이야기",
+   "tl": "Ang Alamat ng Kawayan sa Tết",
+   "ne": "तेतको बाँसको कथा",
+   "id": "Legenda Tiang Bambu Tết",
+   "pt": "A lenda do bambu do Tết",
+   "my": "တက်ပွဲ ဝါးတိုင် ဒဏ္ဍာရီ",
+   "th": "ตำนานเสาไม้ไผ่วันเต๊ด"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 63,
+  "cover": "/covers/furusato-vn-neu-1.webp",
+  "series": {
+   "id": "furusato-vn-neu",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-neu-1/chapter.mp3",
+   "durationSec": 332.232
+  }
  }
 ];
 
