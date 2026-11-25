@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLang } from "../../../components/LangProvider";
+import Paywall from "../../../components/Paywall";
 import { pickText } from "../../../lib/i18n";
 import { logActivity } from "../../../lib/store";
 import type { JlptLevel, Translations } from "../../../lib/content-schema";
@@ -17,17 +18,28 @@ interface DriveStory {
   id: string;
   titles: Translations;
   level: JlptLevel;
+  free: boolean;
   sentences: DriveSentence[];
 }
 
+/**
+ * Dùng chung MỘT phần tử audio cho mọi bài trong chế độ lái xe: khi tự chuyển
+ * sang truyện kế tiếp, iOS Safari chỉ cho phát tiếp trên phần tử đã được người
+ * dùng "mở khoá" bằng thao tác chạm — tạo Audio mới ở mỗi trang dễ bị chặn tự phát.
+ */
+let sharedAudio: HTMLAudioElement | null = null;
+
 export default function DriveClient({
   story,
-  next,
+  next: nextRaw,
 }: {
   story: DriveStory;
-  next: { id: string; titles: Translations } | null;
+  next: { id: string; titles: Translations; free: boolean } | null;
 }) {
-  const { ui, lang } = useLang();
+  const { ui, lang, profile } = useLang();
+  const locked = !story.free && !profile.vip;
+  // Không tự chuyển sang truyện VIP khi chưa có VIP (sẽ chỉ gặp màn paywall giữa lúc lái xe)
+  const next = nextRaw && (nextRaw.free || profile.vip) ? nextRaw : null;
   const router = useRouter();
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const loggedRef = useRef(false);
@@ -39,7 +51,10 @@ export default function DriveClient({
   const title = pickText(story.titles, lang);
 
   const getAudio = () => {
-    if (!audioRef.current) audioRef.current = new Audio();
+    if (!audioRef.current) {
+      if (!sharedAudio) sharedAudio = new Audio();
+      audioRef.current = sharedAudio;
+    }
     return audioRef.current;
   };
 
@@ -94,7 +109,7 @@ export default function DriveClient({
   useEffect(() => {
     if (sessionStorage.getItem("vimai-drive-autoplay") === "1") {
       sessionStorage.removeItem("vimai-drive-autoplay");
-      playFrom(0);
+      if (!locked) playFrom(0);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -152,6 +167,20 @@ export default function DriveClient({
     },
     [],
   );
+
+  // Chặn truy cập thẳng URL /drive/<id> của truyện VIP (danh sách /drive đã chặn, URL thì chưa)
+  if (locked) {
+    return (
+      <div className="drive-stage">
+        <div className="drive-top">
+          <Link href="/drive" className="drive-back" aria-label={ui.common.back}>←</Link>
+          <span className="lvl">{story.level}</span>
+        </div>
+        <h1 className="drive-title">{title}</h1>
+        <Paywall onClose={() => history.back()} />
+      </div>
+    );
+  }
 
   return (
     <div className="drive-stage">
