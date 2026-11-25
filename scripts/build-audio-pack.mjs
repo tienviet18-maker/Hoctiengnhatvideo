@@ -15,6 +15,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 
 import { join, basename, dirname } from "node:path";
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
+import { tmpdir } from "node:os";
 import { loadTokenizer, measure, wordLevel, LEVEL_NUM } from "./lib/level.mjs";
 
 const root = new URL("..", import.meta.url).pathname;
@@ -244,10 +245,12 @@ if (JA_ONLY) {
   process.exit(real.length ? 1 : 0);
 }
 
-// ---------- audio ----------
+// ---------- audio: một file liền cho cả chương (chuẩn v2 mục 6b) ----------
+// Từng câu: Google TTS (WAV) → chuẩn hoá âm lượng -18 LUFS, lưu cache ngoài repo. Ghép: nghỉ 0,6 giây giữa hai câu,
+// 0,9 giây khi đổi người nói, 0,3 giây đầu file. Mốc t của từng câu đo bằng ffprobe trên từng đoạn khi ghép.
 const audioDir = join(root, "public/audio", meta.id);
-const lockPath = join(dir, "audio.lock.json");
-const lock = existsSync(lockPath) ? JSON.parse(readFileSync(lockPath, "utf8")) : {};
+const CACHE = process.env.MIRAIGO_TTS_CACHE ?? join(tmpdir(), "miraigo-tts-cache-bc");
+mkdirSync(CACHE, { recursive: true });
 async function tts(text, v) {
   const [name, ...opts] = v.split(" ");
   const cfg = Object.fromEntries(opts.map((o) => o.split("=")).map(([k, x]) => [k, Number(x)]));
@@ -270,38 +273,92 @@ async function tts(text, v) {
 }
 // Đọc cho tai: bỏ ngoặc kép (TTS đôi khi ngắt lạ), giữ nguyên chữ.
 const spoken = (ja) => ja.replace(/[「」『』]/g, "");
+const probe = (f) => Number(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).toString());
+const voiceName = (code) => "ja-JP-" + meta.voices[code].voice.split(" ")[0];
 
 let totalSec = 0;
+const times = [];
 if (!NO_AUDIO && !errors.length) {
   mkdirSync(audioDir, { recursive: true });
+  const parts = new Array(sents.length);
   const queue = sents.map((s, i) => ({ s, i }));
   const work = async () => {
     for (let job = queue.shift(); job; job = queue.shift()) {
       const { s, i } = job;
-      const file = join(audioDir, String(i + 1).padStart(3, "0") + ".mp3");
       const v = meta.voices[s.speaker].voice;
-      const h = createHash("sha1").update("v2|" + v + "|" + spoken(s.ja)).digest("hex").slice(0, 12);
-      if (lock[i + 1] !== h || !existsSync(file)) {
-        // WAV → chuẩn hoá âm lượng (giọng Chirp và Neural2 to nhỏ khác nhau) → mp3 mono 64 kbps, đệm 0,25 giây cuối câu.
-        const wav = file.replace(/\.mp3$/, ".wav");
-        writeFileSync(wav, await tts(spoken(s.ja), v));
-        execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", wav, "-af", "loudnorm=I=-18:TP=-2:LRA=11,apad=pad_dur=0.25", "-ar", "24000", "-ac", "1", "-b:a", "64k", file]);
-        execFileSync("rm", [wav]);
-        lock[i + 1] = h;
+      const h = createHash("sha1").update("v3|" + v + "|" + spoken(s.ja)).digest("hex").slice(0, 16);
+      const norm = join(CACHE, h + ".wav");
+      if (!existsSync(norm)) {
+        const raw = join(CACHE, h + ".raw.wav");
+        writeFileSync(raw, await tts(spoken(s.ja), v));
+        execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", raw, "-af", "loudnorm=I=-18:TP=-2:LRA=11", "-ar", "24000", "-ac", "1", "-c:a", "pcm_s16le", norm]);
+        execFileSync("rm", [raw]);
       }
+      parts[i] = norm;
     }
   };
   await Promise.all([work(), work(), work(), work()]);
-  for (const k of Object.keys(lock)) if (Number(k) > sents.length) delete lock[k];
-  writeFileSync(lockPath, JSON.stringify(lock, null, 1) + "\n");
-  for (let i = 0; i < sents.length; i++) {
-    const file = join(audioDir, String(i + 1).padStart(3, "0") + ".mp3");
-    totalSec += Number(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", file]).toString());
+  const sil = (sec) => {
+    const f = join(CACHE, `silence-${sec}.wav`);
+    if (!existsSync(f)) execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", String(sec), "-c:a", "pcm_s16le", f]);
+    return f;
+  };
+  const list = [`file '${sil(0.3)}'`];
+  let cur = 0.3;
+  sents.forEach((s, i) => {
+    if (i) { const g = s.speaker === sents[i - 1].speaker ? 0.6 : 0.9; list.push(`file '${sil(g)}'`); cur += g; }
+    const d = probe(parts[i]);
+    times.push([Math.round(cur * 100) / 100, Math.round((cur + d) * 100) / 100]);
+    list.push(`file '${parts[i]}'`);
+    cur += d;
+  });
+  list.push(`file '${sil(1.0)}'`);
+  const listFile = join(CACHE, `${meta.id}.concat.txt`);
+  writeFileSync(listFile, list.join("\n") + "\n");
+  // Bỏ file audio từng câu của bản dựng cũ (chuẩn v2 mục 6b: không lưu file từng câu).
+  for (const f of readdirSync(audioDir)) if (f !== "chapter.mp3") execFileSync("rm", [join(audioDir, f)]);
+  execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", listFile, "-ar", "24000", "-ac", "1", "-b:a", "64k", join(audioDir, "chapter.mp3")]);
+  totalSec = probe(join(audioDir, "chapter.mp3"));
+  console.log(`  audio: chapter.mp3 dài ${(totalSec / 60).toFixed(1)} phút`);
+  if (totalSec < 300 || totalSec > 720) errors.push(`tập dài ${(totalSec / 60).toFixed(1)} phút, chuẩn kệ nghe là 5–12 phút`);
+}
+
+// ---------- bài học (chuẩn v2 mục 6c): lesson.txt ----------
+// "G <mẫu> | <số câu ví dụ, từ 1>" rồi 11 dòng "lang: nghĩa".
+// "Q <câu hỏi> | <lựa chọn 1> / <lựa chọn 2> / … | <số đáp án đúng, từ 1>" rồi 11 dòng "lang: giải thích".
+const lesson = { grammarPoints: [], quiz: [] };
+if (!JA_ONLY) {
+  const lp = join(dir, "lesson.txt");
+  if (!existsSync(lp)) errors.push("thiếu lesson.txt");
+  else {
+    let curItem = null;
+    for (const row of readFileSync(lp, "utf8").split("\n")) {
+      if (!row.trim() || row.startsWith("#")) continue;
+      if (row.startsWith("G ")) {
+        const [pat, ex] = row.slice(2).split("|").map((x) => x.trim());
+        curItem = { pattern: pat, meaning: {}, example: Number(ex) - 1 };
+        lesson.grammarPoints.push(curItem);
+      } else if (row.startsWith("Q ")) {
+        const [q, ch, ans] = row.slice(2).split("|").map((x) => x.trim());
+        curItem = { ja: q, choices: ch.split(" / ").map((x) => x.trim()), answer: Number(ans) - 1, explain: {} };
+        lesson.quiz.push(curItem);
+      } else {
+        const m2 = row.match(/^([a-zA-Z-]+):\s*(.+)$/);
+        if (!m2 || !curItem) { errors.push(`lesson.txt: dòng lạ: ${row}`); continue; }
+        (curItem.meaning ?? curItem.explain)[m2[1]] = m2[2].trim();
+      }
+    }
+    for (const g of lesson.grammarPoints) {
+      if (!LANGS.every((l) => g.meaning[l])) errors.push(`bài học: ${g.pattern} thiếu nghĩa 11 ngôn ngữ`);
+      if (!(g.example >= 0 && g.example < sents.length) || !sents[g.example].ja.includes(g.pattern.replace(/^〜/, "").split(/[〜・／/（(]/)[0].slice(0, 2))) errors.push(`bài học: câu ví dụ ${g.example + 1} không chứa mẫu ${g.pattern}`);
+    }
+    for (const q of lesson.quiz) {
+      if (!LANGS.every((l) => q.explain[l])) errors.push(`bài học: câu hỏi "${q.ja}" thiếu giải thích 11 ngôn ngữ`);
+      if (q.choices.length < 3 || !(q.answer >= 0 && q.answer < q.choices.length)) errors.push(`bài học: câu hỏi "${q.ja}" sai lựa chọn/đáp án`);
+    }
+    if (lesson.grammarPoints.length < 2 || lesson.grammarPoints.length > 4) errors.push("bài học cần 2–4 điểm ngữ pháp");
+    if (lesson.quiz.length < 3 || lesson.quiz.length > 5) errors.push("bài học cần 3–5 câu hỏi");
   }
-  // Mỗi file đã có 0,25 giây lặng cuối câu; trình đọc nghỉ thêm ~0,4 giây giữa các câu.
-  const est = totalSec + sents.length * 0.4;
-  console.log(`  audio: ${(totalSec / 60).toFixed(1)} phút tiếng nói, ước ${(est / 60).toFixed(1)} phút khi nghe liền`);
-  if (est < 300 || est > 720) errors.push(`tập dài ${(est / 60).toFixed(1)} phút, chuẩn kệ nghe là 5–12 phút`);
 }
 
 if (errors.length) {
@@ -320,7 +377,10 @@ const pack = {
   cover: `/covers/${meta.coverId ?? meta.id}.webp`,
   free: meta.free,
   standard: 2,
+  shelf: meta.shelf,
   ...(meta.series ? { series: meta.series } : {}),
+  audioTrack: { src: `/audio/${meta.id}/chapter.mp3`, durationSec: Math.round(totalSec * 100) / 100 },
+  lesson,
   sentences: sents.map((s, i) => ({
     ja: s.ja,
     furigana: s.furigana,
@@ -328,7 +388,9 @@ const pack = {
     translations: Object.fromEntries(LANGS.map((l) => [l, tr[l][i].t])),
     grammarNote: Object.fromEntries(LANGS.map((l) => [l, tr[l][i].n])),
     vocab: vocabOf[i],
-    audio: `/audio/${meta.id}/${String(i + 1).padStart(3, "0")}.mp3`,
+    t: times[i],
+    voice: voiceName(s.speaker),
+    audio: `/audio/${meta.id}/chapter.mp3#t=${times[i]?.[0]},${times[i]?.[1]}`,
   })),
 };
 for (const [i, s] of pack.sentences.entries()) for (const l of LANGS) {
@@ -349,13 +411,14 @@ writeFileSync(join(root, "content/stories", `${meta.id}.qc.md`), `# QC — ${met
 - **Số đo cấp độ** (kuromoji + danh sách JLPT): ${m.chars} ký tự, ${m.sentences} câu, câu TB ${m.avgSentence.toFixed(1)} ký tự,
   từ vượt cấp ${(m.harder * 100).toFixed(1)}%, từ đạt cấp ${(m.atLevel * 100).toFixed(1)}%.
 - **Từ vựng**: ${vocabOf.flat().length} từ, cấp lấy đúng theo danh sách JLPT, chỉ chọn từ đúng cấp bài hoặc khó hơn.
-- **Audio**: ${sents.length} file, ${(totalSec / 60).toFixed(1)} phút tiếng nói (khoảng ${((totalSec + sents.length * 0.4) / 60).toFixed(1)} phút nghe liền).
-  Google Cloud TTS, tốc độ ghi theo từng vai, chuẩn hoá âm lượng -18 LUFS. Mỗi nhân vật giữ một giọng:
+- **Audio**: một file liền \`public/audio/${meta.id}/chapter.mp3\`, ${(totalSec / 60).toFixed(1)} phút (mono 64 kbps; nghỉ 0,6 giây giữa câu,
+  0,9 giây khi đổi người nói). Google Cloud TTS, tốc độ ghi theo từng vai, chuẩn hoá âm lượng -18 LUFS. Mỗi nhân vật giữ một giọng:
 
 | Mã | Vai | Giọng | Số câu |
 | --- | --- | --- | --- |
 ${voiceRows}
 
+- **Bài học**: ${lesson.grammarPoints.length} điểm ngữ pháp (${lesson.grammarPoints.map((g) => g.pattern).join(", ")}), ${lesson.quiz.length} câu hỏi hiểu bài. Kệ: \`${meta.shelf}\`.
 - **Bản dịch + giải thích 11 ngôn ngữ**: Claude tự dịch từ tiếng Nhật và tự duyệt theo quy tắc của Việt (dịch ngược kiểm nghĩa,
   thuật ngữ đời sống Nhật nhất quán, tên giờ Edo và đơn vị tiền giữ nguyên kèm giải thích).
 `);

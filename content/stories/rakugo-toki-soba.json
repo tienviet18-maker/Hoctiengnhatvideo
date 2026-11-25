@@ -20,6 +20,173 @@
  "cover": "/covers/rakugo-toki-soba.webp",
  "free": true,
  "standard": 2,
+ "shelf": "rakugo",
+ "audioTrack": {
+  "src": "/audio/rakugo-toki-soba/chapter.mp3",
+  "durationSec": 311.93
+ },
+ "lesson": {
+  "grammarPoints": [
+   {
+    "pattern": "〜ておく",
+    "meaning": {
+     "vi": "Làm sẵn, làm trước để chuẩn bị cho sau này. Ví dụ: 予約しておく (đặt chỗ trước), 覚えておく (nhớ sẵn).",
+     "en": "Do something in advance, in preparation. E.g. 予約しておく (book ahead), 覚えておく (keep in mind).",
+     "zh-Hans": "事先做好，为以后做准备。例：予約しておく（提前预约）、覚えておく（先记住）。",
+     "zh-Hant": "事先做好，為之後做準備。例：予約しておく（提前預約）、覚えておく（先記住）。",
+     "ko": "미리 해 두다(준비). 예: 予約しておく(미리 예약해 두다), 覚えておく(기억해 두다).",
+     "tl": "Gawin nang maaga bilang paghahanda. Hal.: 予約しておく (magpareserba nang maaga), 覚えておく (tandaan).",
+     "ne": "पछिका लागि पहिल्यै गरिराख्नु। उदाहरण: 予約しておく (पहिल्यै बुक गर्नु), 覚えておく (सम्झेर राख्नु)।",
+     "id": "Melakukan sesuatu lebih dulu sebagai persiapan. Contoh: 予約しておく (memesan lebih dulu), 覚えておく (mengingat).",
+     "pt": "Fazer algo de antemão, como preparação. Ex.: 予約しておく (reservar antes), 覚えておく (guardar na memória).",
+     "my": "နောက်အတွက် ကြိုလုပ်ထားခြင်း။ ဥပမာ: 予約しておく (ကြိုဘွတ်ကင်), 覚えておく (မှတ်ထား)။",
+     "th": "ทำไว้ล่วงหน้าเพื่อเตรียมพร้อม เช่น 予約しておく (จองไว้ก่อน), 覚えておく (จำไว้)"
+    },
+    "example": 4
+   },
+   {
+    "pattern": "〜ながら",
+    "meaning": {
+     "vi": "Vừa làm A vừa làm B (cùng một người). Động từ thể ます bỏ ます + ながら. Ví dụ: 音楽を聞きながら勉強する.",
+     "en": "Doing A while doing B (same person). Verb ます-stem + ながら. E.g. 音楽を聞きながら勉強する.",
+     "zh-Hans": "一边做A一边做B（同一个人）。动词ます形词干＋ながら。例：音楽を聞きながら勉強する。",
+     "zh-Hant": "一邊做A一邊做B（同一個人）。動詞ます形語幹＋ながら。例：音楽を聞きながら勉強する。",
+     "ko": "A하면서 B하다(같은 사람). 동사 ます형 어간 + ながら. 예: 音楽を聞きながら勉強する.",
+     "tl": "Ginagawa ang A habang ginagawa ang B (iisang tao). ます-stem + ながら. Hal.: 音楽を聞きながら勉強する.",
+     "ne": "A गर्दै B गर्नु (एउटै व्यक्ति)। ます-मूल + ながら। उदाहरण: 音楽を聞きながら勉強する।",
+     "id": "Melakukan A sambil B (orang yang sama). Bentuk ます tanpa ます + ながら. Contoh: 音楽を聞きながら勉強する.",
+     "pt": "Fazer A enquanto faz B (mesma pessoa). Radical ます + ながら. Ex.: 音楽を聞きながら勉強する.",
+     "my": "A လုပ်ရင်း B လုပ်ခြင်း (လူတစ်ယောက်တည်း)။ ます-ပင်စည် + ながら။ ဥပမာ: 音楽を聞きながら勉強する။",
+     "th": "ทำ A ไปพลาง B ไปพลาง (คนเดียวกัน) กริยารูป ます ตัด ます + ながら เช่น 音楽を聞きながら勉強する"
+    },
+    "example": 25
+   },
+   {
+    "pattern": "〜すぎる",
+    "meaning": {
+     "vi": "Quá mức, làm quá. Động từ thể ます bỏ ます / tính từ bỏ い + すぎる. Ví dụ: 食べすぎた, 高すぎる.",
+     "en": "Too much, overdo. Verb ます-stem / adjective minus い + すぎる. E.g. 食べすぎた (ate too much), 高すぎる (too expensive).",
+     "zh-Hans": "过度、太～。动词ます形词干／形容词去い＋すぎる。例：食べすぎた（吃太多了）、高すぎる（太贵）。",
+     "zh-Hant": "過度、太～。動詞ます形語幹／形容詞去い＋すぎる。例：食べすぎた（吃太多了）、高すぎる（太貴）。",
+     "ko": "너무 ~하다, 지나치다. 동사 ます형 어간/형용사 い 탈락 + すぎる. 예: 食べすぎた, 高すぎる.",
+     "tl": "Sobra, labis. ます-stem / adjective na walang い + すぎる. Hal.: 食べすぎた (sobrang kumain), 高すぎる (sobrang mahal).",
+     "ne": "धेरै, हद नाघेर। ます-मूल / い हटाएको विशेषण + すぎる। उदाहरण: 食べすぎた, 高すぎる।",
+     "id": "Terlalu, berlebihan. Bentuk ます tanpa ます / adjektiva tanpa い + すぎる. Contoh: 食べすぎた, 高すぎる.",
+     "pt": "Demais, exagerar. Radical ます / adjetivo sem い + すぎる. Ex.: 食べすぎた (comi demais), 高すぎる (caro demais).",
+     "my": "လွန်ကဲခြင်း။ ます-ပင်စည် / い ဖြုတ်ထားသော နာမဝိသေသန + すぎる။ ဥပမာ: 食べすぎた, 高すぎる။",
+     "th": "มากเกินไป กริยารูป ます ตัด ます / คุณศัพท์ตัด い + すぎる เช่น 食べすぎた (กินมากไป), 高すぎる (แพงเกินไป)"
+    },
+    "example": 59
+   },
+   {
+    "pattern": "〜てしまう",
+    "meaning": {
+     "vi": "Lỡ làm (tiếc nuối), hoặc làm xong hẳn. Nói thân mật: 〜ちゃう. Ví dụ: 財布を忘れてしまった.",
+     "en": "Did something regrettable, or did it completely. Casual: 〜ちゃう. E.g. 財布を忘れてしまった (I forgot my wallet).",
+     "zh-Hans": "不小心做了（遗憾），或彻底做完。口语：〜ちゃう。例：財布を忘れてしまった（把钱包忘了）。",
+     "zh-Hant": "不小心做了（遺憾），或徹底做完。口語：〜ちゃう。例：財布を忘れてしまった（把錢包忘了）。",
+     "ko": "~해 버리다(아쉬움) 또는 완전히 끝내다. 구어: 〜ちゃう. 예: 財布を忘れてしまった.",
+     "tl": "Nagawa ang pinagsisisihan, o tuluyang natapos. Kaswal: 〜ちゃう. Hal.: 財布を忘れてしまった (naiwan ko ang pitaka).",
+     "ne": "पछुतो लाग्ने काम गरिहाल्नु, वा पूरै सक्नु। बोलीचालीमा: 〜ちゃう। उदाहरण: 財布を忘れてしまった।",
+     "id": "Terlanjur melakukan (menyesal), atau selesai tuntas. Lisan: 〜ちゃう. Contoh: 財布を忘れてしまった (dompetku ketinggalan).",
+     "pt": "Fazer algo lamentável, ou terminar por completo. Informal: 〜ちゃう. Ex.: 財布を忘れてしまった (esqueci a carteira).",
+     "my": "နောင်တရစရာ လုပ်မိခြင်း သို့မဟုတ် အပြီးလုပ်ခြင်း။ အပြော: 〜ちゃう။ ဥပမာ: 財布を忘れてしまった။",
+     "th": "เผลอทำไปแล้ว (เสียดาย) หรือทำเสร็จสิ้น ภาษาพูด: 〜ちゃう เช่น 財布を忘れてしまった (ลืมกระเป๋าเงินไปแล้ว)"
+    },
+    "example": 58
+   }
+  ],
+  "quiz": [
+   {
+    "ja": "江戸時代の「九つ」は、今の何時ごろですか。",
+    "choices": [
+     "夜の十時ごろ",
+     "夜中の十二時ごろ",
+     "朝の九時ごろ"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Người kể nói: khoảng 10 giờ tối là \"Yotsu\", khoảng 12 giờ đêm là \"Kokonotsu\".",
+     "en": "The narrator says around 10 p.m. was \"Yotsu\" and around midnight was \"Kokonotsu\".",
+     "zh-Hans": "讲述人说：晚上十点左右叫“四つ”，半夜十二点左右叫“九つ”。",
+     "zh-Hant": "講述人說：晚上十點左右叫「四つ」，半夜十二點左右叫「九つ」。",
+     "ko": "화자는 밤 10시쯤이 '요쓰', 한밤중 12시쯤이 '고코노쓰'라고 했습니다.",
+     "tl": "Sinabi ng nagkukuwento: bandang alas-diyes ay \"Yotsu\", bandang hatinggabi ay \"Kokonotsu\".",
+     "ne": "कथावाचकका अनुसार राति दस बजेतिर \"योत्सु\", मध्यराति बाह्र बजेतिर \"कोकोनोत्सु\"।",
+     "id": "Pencerita bilang sekitar jam 10 malam \"Yotsu\" dan sekitar tengah malam \"Kokonotsu\".",
+     "pt": "O narrador diz que por volta das 22h era \"Yotsu\" e por volta da meia-noite, \"Kokonotsu\".",
+     "my": "ပြောသူအရ ည ၁၀ နာရီလောက် \"ယော့ဆု\"၊ သန်းခေါင် ၁၂ နာရီလောက် \"ကိုကိုနော့ဆု\"။",
+     "th": "ผู้เล่าบอกว่าราวสี่ทุ่มคือ \"โยสึ\" และราวเที่ยงคืนคือ \"โคโคโนสึ\""
+    }
+   },
+   {
+    "ja": "最初の男は、そば屋に何文払いましたか。",
+    "choices": [
+     "十六文",
+     "十五文",
+     "十七文"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Anh ta đếm đến tám, hỏi giờ, rồi đếm tiếp từ \"mười\" nên bỏ mất số chín: chỉ trả 15 mon.",
+     "en": "He counted to eight, asked the time, then went on from \"ten\", skipping nine: he paid only 15 mon.",
+     "zh-Hans": "他数到八，问时辰，再从“十”接着数，跳过了九，只付了十五文。",
+     "zh-Hant": "他數到八，問時辰，再從「十」接著數，跳過了九，只付了十五文。",
+     "ko": "여덟까지 세고 시각을 물은 뒤 '열'부터 세어 아홉을 건너뛰었으니 15문만 냈습니다.",
+     "tl": "Bumilang siya hanggang walo, nagtanong ng oras, at nagpatuloy sa \"sampu\": 15 mon lang ang ibinayad.",
+     "ne": "उसले आठसम्म गन्यो, समय सोध्यो, अनि \"दस\" बाट गन्यो: नौ छुट्यो, त्यसैले १५ मोन मात्र तिर्‍यो।",
+     "id": "Ia menghitung sampai delapan, bertanya jam, lalu lanjut dari \"sepuluh\": hanya membayar 15 mon.",
+     "pt": "Ele contou até oito, perguntou a hora e seguiu do \"dez\", pulando o nove: pagou só 15 mon.",
+     "my": "ရှစ်အထိ ရေပြီး အချိန်မေး၊ \"ဆယ်\" က ဆက်ရေလို့ ကိုး ကျော်သွားတယ်: ၁၅ မွန်ပဲ ပေးတယ်။",
+     "th": "เขานับถึงแปด ถามเวลา แล้วนับต่อจาก \"สิบ\" ข้ามเก้าไป จึงจ่ายแค่ 15 มง"
+    }
+   },
+   {
+    "ja": "与太郎が損をしたのは、なぜですか。",
+    "choices": [
+     "そばがまずかったから",
+     "早く出かけすぎたから",
+     "お金を落としたから"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Đi quá sớm nên lúc đó mới là giờ \"Bốn\"; Yotarō đếm tiếp từ năm và trả dư bốn mon.",
+     "en": "He went out too early, so it was only the \"Fourth Hour\"; he continued from five and overpaid by four mon.",
+     "zh-Hans": "他出门太早，当时才“四刻”，于是从五接着数，多付了四文。",
+     "zh-Hant": "他出門太早，當時才「四刻」，於是從五接著數，多付了四文。",
+     "ko": "너무 일찍 나가서 아직 '넷' 시각이었고, 다섯부터 세어 4문을 더 냈습니다.",
+     "tl": "Masyado siyang maagang lumabas kaya \"ikaapat na oras\" pa lang; nagpatuloy siya sa lima at sumobra ng apat na mon.",
+     "ne": "धेरै चाँडै निस्केकाले \"चार\" को प्रहर मात्र थियो; पाँचबाट गनेर चार मोन बढी तिर्‍यो।",
+     "id": "Ia keluar terlalu awal, baru jam \"Empat\"; ia lanjut dari lima dan membayar lebih empat mon.",
+     "pt": "Saiu cedo demais, ainda era a \"Hora Quatro\"; continuou do cinco e pagou quatro mon a mais.",
+     "my": "စောလွန်းလို့ \"လေး\" ချက်ပဲ ရှိသေးတယ်၊ ငါးကနေ ဆက်ရေလို့ လေးမွန် ပိုပေးတယ်။",
+     "th": "เขาออกมาเร็วเกินไป ตอนนั้นยังเป็น \"ยามสี่\" เลยนับต่อจากห้า จ่ายเกินไปสี่มง"
+    }
+   },
+   {
+    "ja": "二軒目のそば屋のちくわは、どうでしたか。",
+    "choices": [
+     "とても厚かった",
+     "入っていなかった",
+     "とても薄かった"
+    ],
+    "answer": 2,
+    "explain": {
+     "vi": "Chikuwa có, ở đáy bát, nhưng mỏng đến mức nhìn xuyên qua được.",
+     "en": "There was chikuwa at the bottom of the bowl, but it was so thin he could see through it.",
+     "zh-Hans": "竹轮在碗底，但薄得能透过去看到对面。",
+     "zh-Hant": "竹輪在碗底，但薄到可以透過去看到對面。",
+     "ko": "지쿠와는 그릇 바닥에 있었지만 너머가 비칠 만큼 얇았습니다.",
+     "tl": "May chikuwa sa ilalim ng mangkok, pero sobrang nipis na tagusan ang tingin.",
+     "ne": "चिकुवा कचौराको पीँधमा थियो, तर यति पातलो कि आरपार देखिन्थ्यो।",
+     "id": "Chikuwa ada di dasar mangkuk, tapi tipis sampai tembus pandang.",
+     "pt": "Havia chikuwa no fundo da tigela, mas tão fino que dava para ver através.",
+     "my": "ချိကုဝ ပန်းကန်အောက်ခြေမှာ ရှိတယ်၊ ဒါပေမဲ့ ဖောက်မြင်ရလောက်အောင် ပါးတယ်။",
+     "th": "ชิคุวะอยู่ก้นชาม แต่บางจนมองทะลุได้"
+    }
+   }
+  ]
+ },
  "sentences": [
   {
    "ja": "江戸時代の夜には、そば屋が屋台を担いで、町を売り歩いていました。",
@@ -140,7 +307,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/001.mp3"
+   "t": [
+    0.3,
+    6.59
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=0.3,6.59"
   },
   {
    "ja": "今で言えば、夜遅くまで開いているラーメンの屋台のようなものです。",
@@ -218,7 +390,12 @@
     "th": "今で言えば: \"ถ้าพูดแบบสมัยนี้\" 〜のようなものです: \"เป็นสิ่งที่คล้าย ~\" ใช้เปรียบเทียบให้เห็นภาพ"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/002.mp3"
+   "t": [
+    7.19,
+    12.99
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=7.19,12.99"
   },
   {
    "ja": "それから、江戸時代は、今と時間の数え方が違いました。",
@@ -327,7 +504,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/003.mp3"
+   "t": [
+    13.59,
+    19.78
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=13.59,19.78"
   },
   {
    "ja": "夜の十時ごろを「四つ」、夜中の十二時ごろを「九つ」と呼んだのです。",
@@ -429,7 +611,12 @@
     "th": "AをBと呼ぶ: \"เรียก A ว่า B\" 〜のです ให้ข้อมูลเบื้องหลัง 四つ และ 九つ เป็นชื่อเวลาสมัยเอโดะ ไม่ใช่การนับเลขทั่วไป"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/004.mp3"
+   "t": [
+    20.38,
+    26.18
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=20.38,26.18"
   },
   {
    "ja": "これを覚えておくと、今日のお話がもっと面白くなります。",
@@ -499,7 +686,12 @@
     "th": "覚えておく: \"จำไว้ (เพื่อใช้ภายหลัง)\" 〜ておく = ทำไว้ล่วงหน้า 〜と: \"ถ้า ~ ก็\""
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/005.mp3"
+   "t": [
+    26.78,
+    31.77
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=26.78,31.77"
   },
   {
    "ja": "寒い冬の夜、一人の男が、通りかかったそば屋に声をかけました。",
@@ -616,7 +808,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/006.mp3"
+   "t": [
+    32.37,
+    38.27
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=32.37,38.27"
   },
   {
    "ja": "おい、そば屋さん。何ができるんだい？",
@@ -670,7 +867,12 @@
     "th": "〜んだい เป็นการถามแบบกันเองของผู้ชายเอโดะ ปัจจุบันถามสุภาพว่า 何がありますか"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/007.mp3"
+   "t": [
+    39.17,
+    42.46
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=39.17,42.46"
   },
   {
    "ja": "へい、花巻と、しっぽくでございます。",
@@ -716,7 +918,12 @@
     "th": "へい: \"ขอรับ\" ของพ่อค้าสมัยก่อน 〜でございます: รูปสุภาพมากของ です ยังได้ยินในโรงแรมและห้างสรรพสินค้า"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/008.mp3"
+   "t": [
+    43.36,
+    46.98
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=43.36,46.98"
   },
   {
    "ja": "じゃあ、しっぽくを一つ。熱くしてくれ。",
@@ -770,7 +977,12 @@
     "th": "熱くする: \"ทำให้ร้อน\" คุณศัพท์ い ตัด い + く + する = ทำให้เป็น ~ 〜てくれ เป็นการขอแบบกันเองของผู้ชาย"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/009.mp3"
+   "t": [
+    47.88,
+    51.5
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=47.88,51.5"
   },
   {
    "ja": "おっ、いい看板だね。的に矢が当たっている絵か。",
@@ -903,7 +1115,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/010.mp3"
+   "t": [
+    52.1,
+    56.49
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=52.1,56.49"
   },
   {
    "ja": "「当たり屋」っていうのかい。縁起がいいねえ。",
@@ -976,7 +1193,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/011.mp3"
+   "t": [
+    57.09,
+    60.36
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=57.09,60.36"
   },
   {
    "ja": "へい、ありがとうございます。",
@@ -1014,7 +1236,12 @@
     "th": "ありがとうございます เป็นคำขอบคุณสุภาพมาตรฐาน พ่อค้าดีใจที่ได้รับคำชม"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/012.mp3"
+   "t": [
+    61.26,
+    63.6
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=61.26,63.6"
   },
   {
    "ja": "今夜は冷えるねえ。こういう夜は、熱いそばが一番だ。",
@@ -1088,7 +1315,12 @@
     "th": "冷える: \"เย็นลง หนาวเข้ากระดูก\" 〜が一番だ: \"~ ดีที่สุด\" ねえ ลากเสียงยาวแสดงความรู้สึก"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/013.mp3"
+   "t": [
+    64.5,
+    69.55
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=64.5,69.55"
   },
   {
    "ja": "へい、お待ちどおさま。",
@@ -1134,7 +1366,12 @@
     "th": "お待ちどおさま: พูดตอนยกอาหารมาเสิร์ฟ ปัจจุบันร้านอาหารมักพูดว่า お待たせしました"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/014.mp3"
+   "t": [
+    70.45,
+    72.61
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=70.45,72.61"
   },
   {
    "ja": "おっ、早いね。江戸っ子は、待たされるのが大嫌いなんだ。",
@@ -1212,7 +1449,12 @@
     "th": "待たされる: รูปถูกให้ทำ \"ถูกให้รอ\" 江戸っ子: คนเอโดะแท้ ขึ้นชื่อว่าใจร้อนและทำอะไรฉับไว"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/015.mp3"
+   "t": [
+    73.51,
+    78.64
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=73.51,78.64"
   },
   {
    "ja": "箸は割り箸か。まだ誰も使っていない箸は、気持ちがいいね。",
@@ -1302,7 +1544,12 @@
     "th": "割り箸: ตะเกียบไม้ใช้ครั้งเดียวแบบหักแยก 気持ちがいい: \"รู้สึกดี สบาย\" ใช้กับความสะอาด ลมเย็น ออนเซ็น"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/016.mp3"
+   "t": [
+    79.24,
+    84.97
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=79.24,84.97"
   },
   {
    "ja": "どんぶりもいいねえ。きれいな模様だ。",
@@ -1385,7 +1632,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/017.mp3"
+   "t": [
+    85.57,
+    88.72
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=85.57,88.72"
   },
   {
    "ja": "男は、熱いつゆを一口飲みました。",
@@ -1447,7 +1699,12 @@
     "th": "つゆ: น้ำซุปของโซบะหรืออุด้ง 一口: \"หนึ่งคำ หนึ่งอึก\" ซุปก็ใช้ 飲む"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/018.mp3"
+   "t": [
+    89.62,
+    93.01
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=89.62,93.01"
   },
   {
    "ja": "うん、いいだしだ。かつおぶしをけちっていないね。",
@@ -1485,7 +1742,12 @@
     "th": "だし: น้ำซุปพื้นฐานของอาหารญี่ปุ่น けちる: \"งก ประหยัดเกินไป\" 〜ていないね เป็นคำชมว่า \"ไม่งกเลย\""
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/019.mp3"
+   "t": [
+    93.91,
+    98.03
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=93.91,98.03"
   },
   {
    "ja": "そばも細くて、腰がある。それに、このちくわ。",
@@ -1558,7 +1820,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/020.mp3"
+   "t": [
+    98.63,
+    102.95
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=98.63,102.95"
   },
   {
    "ja": "こんなに厚く切ってあるのかい。うれしいねえ。",
@@ -1631,7 +1898,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/021.mp3"
+   "t": [
+    103.55,
+    107.12
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=103.55,107.12"
   },
   {
    "ja": "へい、うちは厚く切るのが自慢でして。",
@@ -1712,7 +1984,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/022.mp3"
+   "t": [
+    108.02,
+    111.51
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=108.02,111.51"
   },
   {
    "ja": "男はあっという間に食べ終わって、聞きました。",
@@ -1786,7 +2063,12 @@
     "th": "あっという間に: \"ในพริบตา\" 食べ終わる: กินเสร็จ กริยาตัดท้าย + 終わる = ทำเสร็จ"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/023.mp3"
+   "t": [
+    112.41,
+    116
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=112.41,116"
   },
   {
    "ja": "ごちそうさま。いくらだい？",
@@ -1824,7 +2106,12 @@
     "th": "ごちそうさま: พูดหลังกินเสร็จ ในญี่ปุ่นพูดตอนจ่ายเงินที่ร้านด้วย いくら: \"เท่าไหร่\""
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/024.mp3"
+   "t": [
+    116.9,
+    119.2
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=116.9,119.2"
   },
   {
    "ja": "十六文でございます。",
@@ -1866,7 +2153,12 @@
     "th": "文 (มง): หน่วยเหรียญสมัยเอโดะ โซบะชามละสิบหกมงเป็นราคาที่ขึ้นชื่อในสมัยนั้น"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/025.mp3"
+   "t": [
+    120.1,
+    122.32
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=120.1,122.32"
   },
   {
    "ja": "細かいお金しかないんだ。手を出してくれ。数えながら渡すよ。",
@@ -1948,7 +2240,12 @@
     "th": "細かいお金: \"เงินย่อย\" (ปัจจุบันก็ใช้ 細かいのありますか) 〜しかない: \"มีแต่ ~\" 〜ながら: ไปพลาง ~ ไปพลาง"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/026.mp3"
+   "t": [
+    123.22,
+    128.8
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=123.22,128.8"
   },
   {
    "ja": "ひい、ふう、みい、よお、いつ、むう、なな、やあ。",
@@ -1986,7 +2283,12 @@
     "th": "การนับแบบโบราณของญี่ปุ่น: ひい, ふう, みい… (เหมือน ひとつ, ふたつ, みっつ) นี่คือช่วงสำคัญ ฟังให้ดี"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/027.mp3"
+   "t": [
+    129.4,
+    135.57
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=129.4,135.57"
   },
   {
    "ja": "今、何時だい？",
@@ -2036,7 +2338,12 @@
     "th": "何時 (なんどき): วิธีถามเวลาสมัยเอโดะ ปัจจุบันพูดว่า 今、何時ですか (なんじ)"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/028.mp3"
+   "t": [
+    136.17,
+    138.1
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=136.17,138.1"
   },
   {
    "ja": "へい、九つで。",
@@ -2082,7 +2389,12 @@
     "th": "九つで: ย่อมาจาก 九つでございます พ่อค้าตอบเวลา แต่คำว่า \"เก้า\" กลับกลายเป็นตัวเลขที่นับ"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/029.mp3"
+   "t": [
+    139,
+    140.9
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=139,140.9"
   },
   {
    "ja": "とお、じゅういち、じゅうに、じゅうさん、じゅうし、じゅうご、じゅうろく。ごちそうさん。",
@@ -2120,7 +2432,12 @@
     "th": "เขานับต่อจาก \"สิบ\" ข้ามเก้าไป จึงจ่ายแค่สิบห้ามง ごちそうさん เป็นรูปกันเองของ ごちそうさま"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/030.mp3"
+   "t": [
+    141.8,
+    149.7
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=141.8,149.7"
   },
   {
    "ja": "男は、さっさと帰っていきました。",
@@ -2189,7 +2506,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/031.mp3"
+   "t": [
+    150.6,
+    153.29
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=150.6,153.29"
   },
   {
    "ja": "この様子を、陰からじっと見ていた男がいました。与太郎です。",
@@ -2322,7 +2644,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/032.mp3"
+   "t": [
+    153.89,
+    160.09
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=153.89,160.09"
   },
   {
    "ja": "変だなあ。あの人、そばをずいぶんほめていたな。お金の数え方も変だった。",
@@ -2404,7 +2731,12 @@
     "th": "ずいぶん: \"มากทีเดียว\" 〜ていたな: พูดกับตัวเองขณะนึกย้อน 変だ: \"แปลก\""
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/033.mp3"
+   "t": [
+    160.99,
+    167.58
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=160.99,167.58"
   },
   {
    "ja": "与太郎は指を折って、もう一度数えてみました。",
@@ -2474,7 +2806,12 @@
     "th": "指を折る: \"พับนิ้ว\" นับเลข เป็นท่านับแบบญี่ปุ่น (เริ่มจากนิ้วโป้ง) 〜てみる: ลองทำ"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/034.mp3"
+   "t": [
+    168.48,
+    172.57
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=168.48,172.57"
   },
   {
    "ja": "やあ、九つ、とお……あれ？",
@@ -2520,7 +2857,12 @@
     "th": "あれ？: คำอุทานเมื่อสังเกตเห็นสิ่งแปลก ๆ ใช้บ่อยมากในชีวิตประจำวัน"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/035.mp3"
+   "t": [
+    173.47,
+    176.5
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=173.47,176.5"
   },
   {
    "ja": "九つのところで時を聞いたから、一文少なく払ったんだ！",
@@ -2598,7 +2940,12 @@
     "th": "〜たから: \"เพราะ (ได้) ~\" 少なく払う: \"จ่ายน้อยลง\" คุณศัพท์ い เปลี่ยนเป็นกริยาวิเศษณ์ด้วย 〜く"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/036.mp3"
+   "t": [
+    177.1,
+    182.08
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=177.1,182.08"
   },
   {
    "ja": "うまいなあ。よし、おれもやってみよう。",
@@ -2636,7 +2983,12 @@
     "th": "うまい: \"เก่ง ฉลาด\" (แปลว่า \"อร่อย\" ได้ด้วย) 〜てみよう: รูปตั้งใจของ 〜てみる"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/037.mp3"
+   "t": [
+    182.68,
+    185.93
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=182.68,185.93"
   },
   {
    "ja": "次の日、与太郎は細かいお金を用意して、早めに家を出ました。",
@@ -2742,7 +3094,12 @@
     "th": "用意する: \"เตรียม\" 早めに: \"ค่อนข้างเร็ว\" 〜め ต่อท้ายคุณศัพท์: ค่อนข้าง ~ (多め, 少なめ)"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/038.mp3"
+   "t": [
+    186.83,
+    192.27
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=186.83,192.27"
   },
   {
    "ja": "一日中そのことばかり考えていて、夜まで待ちきれなかったのです。",
@@ -2808,7 +3165,12 @@
     "th": "一日中: \"ทั้งวัน\" 〜ばかり: \"แต่ ~\" 待ちきれない: \"รอไม่ไหว\" 〜のです อธิบายเหตุผล"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/039.mp3"
+   "t": [
+    192.87,
+    198.51
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=192.87,198.51"
   },
   {
    "ja": "しばらく歩くと、別のそば屋の屋台が見えました。",
@@ -2886,7 +3248,12 @@
     "th": "しばらく: \"สักพัก\" 〜と: \"พอ ~ ก็ (เห็น)\" 見える: \"มองเห็น\""
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/040.mp3"
+   "t": [
+    199.11,
+    203.51
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=199.11,203.51"
   },
   {
    "ja": "おーい、そば屋さん。しっぽくを一つ。",
@@ -2940,7 +3307,12 @@
     "th": "おーい: เรียกจากที่ไกล โยทาโร่เลียนแบบชายเมื่อวานทุกอย่าง"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/041.mp3"
+   "t": [
+    204.41,
+    207.59
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=204.41,207.59"
   },
   {
    "ja": "はいはい、ちょっと待ってね。",
@@ -2986,7 +3358,12 @@
     "th": "はいはい พูดสองครั้งฟังดูขอไปที 〜てね: ขอร้องแบบนุ่มนวลเป็นกันเอง"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/042.mp3"
+   "t": [
+    208.49,
+    210.79
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=208.49,210.79"
   },
   {
    "ja": "いい看板だね……あれ、看板がないや。",
@@ -3040,7 +3417,12 @@
     "th": "や ท้ายประโยค: อุทานเบา ๆ กับตัวเอง แผนชมเริ่มพังแล้ว"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/043.mp3"
+   "t": [
+    211.69,
+    215.12
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=211.69,215.12"
   },
   {
    "ja": "昨日、強い風で飛んでいっちゃったのよ。",
@@ -3106,7 +3488,12 @@
     "th": "飛んでいっちゃった = 飛んでいってしまった: \"ปลิวไปซะแล้ว\" (เสียดาย) 〜ちゃう เป็นภาษาพูดของ 〜てしまう"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/044.mp3"
+   "t": [
+    216.02,
+    219.91
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=216.02,219.91"
   },
   {
    "ja": "そうかい。じゃあ箸は……おや、この箸、先が割れているよ。",
@@ -3176,7 +3563,12 @@
     "th": "割れている: \"แตกอยู่\" (สภาพ) おや: ประหลาดใจเล็กน้อย"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/045.mp3"
+   "t": [
+    220.81,
+    225.85
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=220.81,225.85"
   },
   {
    "ja": "洗って何度も使っているからね。",
@@ -3238,7 +3630,12 @@
     "th": "何度も: \"หลายครั้ง\" ตะเกียบใช้แล้ว ตรงข้ามกับตะเกียบใหม่เมื่อวาน"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/046.mp3"
+   "t": [
+    226.75,
+    229.47
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=226.75,229.47"
   },
   {
    "ja": "どんぶりは……ふちが欠けているなあ。",
@@ -3303,7 +3700,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/047.mp3"
+   "t": [
+    230.37,
+    233.11
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=230.37,233.11"
   },
   {
    "ja": "古いけど、まだ使えるわよ。はい、お待たせ。",
@@ -3361,7 +3763,12 @@
     "th": "使える: รูปสามารถของ 使う \"ใช้ได้\" お待たせ ย่อมาจาก お待たせしました"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/048.mp3"
+   "t": [
+    234.01,
+    238.38
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=234.01,238.38"
   },
   {
    "ja": "与太郎は、つゆを一口飲みました。",
@@ -3415,7 +3822,12 @@
     "th": "ประโยคนี้ทำซ้ำฉากเมื่อวานให้ผู้ฟังเปรียบเทียบ"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/049.mp3"
+   "t": [
+    239.28,
+    242.77
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=239.28,242.77"
   },
   {
    "ja": "うわ、しょっぱい！お湯を足してくれ。",
@@ -3469,7 +3881,12 @@
     "th": "しょっぱい: \"เค็ม\" (คันไซพูดว่า からい ด้วย) お湯: \"น้ำร้อน\" 足す: \"เติม\""
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/050.mp3"
+   "t": [
+    243.67,
+    246.52
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=243.67,246.52"
   },
   {
    "ja": "そばも太くて、ぶよぶよだ。ちくわは……あれ、入っていないぞ。",
@@ -3523,7 +3940,12 @@
     "th": "ぶよぶよ: คำเลียนลักษณะ \"เละ นิ่มเปื่อย\" ภาษาญี่ปุ่นมีคำแบบนี้เยอะมาก"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/051.mp3"
+   "t": [
+    247.12,
+    252.44
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=247.12,252.44"
   },
   {
    "ja": "よく見て。どんぶりの底にあるでしょう。",
@@ -3596,7 +4018,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/052.mp3"
+   "t": [
+    253.34,
+    256.83
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=253.34,256.83"
   },
   {
    "ja": "薄いなあ。ちくわの向こうが透けて見えるよ。",
@@ -3662,7 +4089,12 @@
     "th": "透けて見える: \"มองทะลุเห็น\" 向こう: \"อีกฝั่ง\" มุกเกินจริงแบบราคุโกะ"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/053.mp3"
+   "t": [
+    257.73,
+    261.11
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=257.73,261.11"
   },
   {
    "ja": "与太郎は、半分も食べられませんでした。でも、大事なのはここからです。",
@@ -3728,7 +4160,12 @@
     "th": "半分も〜ない: \"แม้แต่ครึ่งก็ไม่\" 大事なのは: \"สิ่งสำคัญคือ\""
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/054.mp3"
+   "t": [
+    262.01,
+    269.01
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=262.01,269.01"
   },
   {
    "ja": "いくらだい？細かいお金なんだ。手を出してくれ。",
@@ -3798,7 +4235,12 @@
     "th": "โยทาโร่พูดซ้ำคำพูดของชายเมื่อวานทุกคำ"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/055.mp3"
+   "t": [
+    269.91,
+    274.24
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=269.91,274.24"
   },
   {
    "ja": "ひい、ふう、みい、よお、いつ、むう、なな、やあ。今、何時だい？",
@@ -3852,7 +4294,12 @@
     "th": "คำถามเดียวกัน แต่คราวนี้ยังหัวค่ำอยู่"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/056.mp3"
+   "t": [
+    274.84,
+    282.7
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=274.84,282.7"
   },
   {
    "ja": "四つよ。",
@@ -3894,7 +4341,12 @@
     "th": "四つ: ราวสี่ทุ่ม เพราะออกมาเร็วเกินไป จึงยังไม่ถึง \"เก้า\""
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/057.mp3"
+   "t": [
+    283.6,
+    284.56
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=283.6,284.56"
   },
   {
    "ja": "いつ、むう、なな、やあ……。",
@@ -3932,7 +4384,12 @@
     "th": "โยทาโร่นับต่อจาก \"ห้า\" หลังเลขสี่ นี่คือมุกปิดท้าย (โอจิ) ของเรื่อง"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/058.mp3"
+   "t": [
+    285.46,
+    288.35
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=285.46,288.35"
   },
   {
    "ja": "与太郎は、四文も多く払ってしまいました。",
@@ -3998,7 +4455,12 @@
     "th": "〜も เน้นว่าจำนวนมาก (\"ตั้งสี่มง\") 〜てしまいました: ทำสิ่งที่น่าเสียดายไปแล้ว"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/059.mp3"
+   "t": [
+    289.25,
+    292.7
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=289.25,292.7"
   },
   {
    "ja": "早く出かけすぎたせいで、まずいそばに、お金を余計に払ったのです。",
@@ -4091,7 +4553,12 @@
      }
     }
    ],
-   "audio": "/audio/rakugo-toki-soba/060.mp3"
+   "t": [
+    293.3,
+    299.44
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=293.3,299.44"
   },
   {
    "ja": "江戸の人たちが大笑いした落語、「時そば」でした。",
@@ -4165,7 +4632,12 @@
     "th": "落語 (ราคุโกะ): ศิลปะการเล่าเรื่องตลกของคนคนเดียวที่นั่งเล่า มีมาตั้งแต่สมัยเอโดะ ยังแสดงที่ 寄席 (โยเสะ) จนถึงปัจจุบัน"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/061.mp3"
+   "t": [
+    300.04,
+    303.64
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=300.04,303.64"
   },
   {
    "ja": "次のお話は、怖いものを言い合う若者たちと、まんじゅうの話です。",
@@ -4255,7 +4727,12 @@
     "th": "言い合う: \"ผลัดกันพูด\" 〜合う = ทำซึ่งกันและกัน (話し合う, 助け合う)"
    },
    "vocab": [],
-   "audio": "/audio/rakugo-toki-soba/062.mp3"
+   "t": [
+    304.24,
+    310.88
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-toki-soba/chapter.mp3#t=304.24,310.88"
   }
  ]
 }

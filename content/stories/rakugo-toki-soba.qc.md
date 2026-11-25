@@ -5,8 +5,8 @@
 - **Số đo cấp độ** (kuromoji + danh sách JLPT): 1371 ký tự, 62 câu, câu TB 22.1 ký tự,
   từ vượt cấp 5.7%, từ đạt cấp 22.2%.
 - **Từ vựng**: 19 từ, cấp lấy đúng theo danh sách JLPT, chỉ chọn từ đúng cấp bài hoặc khó hơn.
-- **Audio**: 62 file, 4.7 phút tiếng nói (khoảng 5.1 phút nghe liền).
-  Google Cloud TTS, tốc độ ghi theo từng vai, chuẩn hoá âm lượng -18 LUFS. Mỗi nhân vật giữ một giọng:
+- **Audio**: một file liền `public/audio/rakugo-toki-soba/chapter.mp3`, 5.2 phút (mono 64 kbps; nghỉ 0,6 giây giữa câu,
+  0,9 giây khi đổi người nói). Google Cloud TTS, tốc độ ghi theo từng vai, chuẩn hoá âm lượng -18 LUFS. Mỗi nhân vật giữ một giọng:
 
 | Mã | Vai | Giọng | Số câu |
 | --- | --- | --- | --- |
@@ -16,5 +16,6 @@
 | Y | Yotarō | `ja-JP-Neural2-C` rate=0.95 pitch=3 | 14 |
 | O | bà bán mì sạp thứ hai | `ja-JP-Neural2-B` rate=0.92 pitch=-1 | 6 |
 
+- **Bài học**: 4 điểm ngữ pháp (〜ておく, 〜ながら, 〜すぎる, 〜てしまう), 4 câu hỏi hiểu bài. Kệ: `rakugo`.
 - **Bản dịch + giải thích 11 ngôn ngữ**: Claude tự dịch từ tiếng Nhật và tự duyệt theo quy tắc của Việt (dịch ngược kiểm nghĩa,
   thuật ngữ đời sống Nhật nhất quán, tên giờ Edo và đơn vị tiền giữ nguyên kèm giải thích).
