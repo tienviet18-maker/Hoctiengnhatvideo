@@ -23,11 +23,15 @@ tại commit `235d6f5` (25/11/2026).
   (`/paths`: Mới sang Nhật / Đi làm / Gia đình / Giải trí & văn hoá), từ vựng gắn cấp độ
   của chính từ đó và chảy vào hệ ôn tập SRS.
 - Giá đích: ¥550/tháng, ¥4.980/năm. Giao diện 11 ngôn ngữ (`src/i18n/locales/`).
-- Tên app CHƯA chốt (Việt đang cho Gemini đề xuất — đừng tự đặt tên, đừng đổi định danh app).
-  Tên đã LOẠI kèm lý do: Maemuki (trùng EdTech Singapore); **Mirai** (loại 25/11/2026 —
-  trùng trực diện "Mirai Japanese" của Mirai Language Systems, app học tiếng Nhật
+- **Tên app ĐÃ CHỐT (Việt chốt 25/11/2026): MiraiGo** — Mirai （未来， tương lai) + Go （語，
+  ngôn ngữ). Đã kiểm chứng không trùng app nào trên App Store/Google Play. Tên hiển thị
+  store theo từng ngôn ngữ, luôn mở đầu bằng MiraiGo, tối đa 30 ký tự (phần mô tả dài
+  đưa vào dòng phụ đề): VI "MiraiGo: Học tiếng Nhật", EN "MiraiGo: Learn Japanese",
+  JP "MiraiGo：動画で学ぶ日本語". Logo do Việt tự thiết kế.
+  Tên đã LOẠI kèm lý do: Maemuki (trùng EdTech Singapore); Mirai và Miraii (loại 25/11/2026 —
+  trùng/phát âm trùng "Mirai Japanese" của Mirai Language Systems, app học tiếng Nhật
   subscription có mặt trên cả App Store lẫn Google Play từ 2016).
-- Domain đích khi deploy: `video.vimai.jp` (chưa nối).
+- Domain web ĐÃ CHỐT: **miraigo.vimai.jp** (Việt chốt 25/11/2026; chưa nối — thuộc đợt deploy).
 
 ## 3. Trạng thái hiện tại (đã kiểm chứng)
 
