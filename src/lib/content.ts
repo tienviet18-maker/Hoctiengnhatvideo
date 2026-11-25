@@ -566,6 +566,7 @@ import s_furusatoVnTraucau1 from "../../content/stories/furusato-vn-traucau-1.js
 import s_furusatoKrHeungbu1 from "../../content/stories/furusato-kr-heungbu-1.json";
 import s_furusatoKrSimcheong1 from "../../content/stories/furusato-kr-simcheong-1.json";
 import s_furusatoKrOnui1 from "../../content/stories/furusato-kr-onui-1.json";
+import s_furusatoKrKongjwi1 from "../../content/stories/furusato-kr-kongjwi-1.json";
 
 export const VIDEOS: VideoContent[] = [
   video1 as unknown as VideoContent,
@@ -1137,6 +1138,7 @@ export const STORIES: StoryContent[] = [
   s_furusatoKrHeungbu1 as unknown as StoryContent,
   s_furusatoKrSimcheong1 as unknown as StoryContent,
   s_furusatoKrOnui1 as unknown as StoryContent,
+  s_furusatoKrKongjwi1 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
