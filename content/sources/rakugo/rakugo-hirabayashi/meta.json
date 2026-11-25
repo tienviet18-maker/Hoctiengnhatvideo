@@ -1,0 +1,24 @@
+{
+ "id": "rakugo-hirabayashi",
+ "level": "N3",
+ "topic": "rakugo",
+ "source": "original",
+ "free": false,
+ "legal": "tiết mục rakugo cổ điển thời Edo, không rõ tác giả, đã hết bản quyền. Kịch bản do Claude tự viết lại bằng tiếng Nhật phân cấp, không chép bản ghi âm, sách hay kịch bản của nghệ sĩ nào.",
+ "voices": {
+  "N": {"role": "người kể", "voice": "Chirp3-HD-Aoede rate=0.9"},
+  "M": {"role": "ông chủ tiệm", "voice": "Neural2-C rate=0.9 pitch=-4"},
+  "S": {"role": "chú bé học việc Sadakichi", "voice": "Neural2-C rate=1.12 pitch=9"},
+  "A": {"role": "ông cụ cầm sách", "voice": "Neural2-C rate=0.82 pitch=-8"},
+  "B": {"role": "bà bán rau", "voice": "Neural2-B rate=1.05 pitch=1"},
+  "K": {"role": "đứa trẻ trường làng", "voice": "Neural2-B rate=1.15 pitch=10"},
+  "R": {"role": "ông samurai", "voice": "Neural2-C rate=0.85 pitch=-12"},
+  "E": {"role": "người phụ nữ trong phố", "voice": "Neural2-B rate=0.98 pitch=-3"},
+  "D": {"role": "ông Hirabayashi", "voice": "Neural2-C rate=1.0 pitch=-1"}
+ },
+ "names": ["定吉", "平林", "ひらりん", "たいらばやし", "とっきっき", "もくもく", "林"],
+ "skipVocab": ["はやす","おくる","届け"],
+ "cover": {"ja": "平林", "jsub": "古典落語", "motif": "scroll", "font": "Yomogi", "shelf": "落語", "title": "Hirabayashi"},
+ "titles": {"vi":"Hirabayashi — Một cái tên, bốn cách đọc","en":"Hirabayashi — One Name, Four Readings","zh-Hans":"平林——一个名字四种读法","zh-Hant":"平林——一個名字四種讀法","ko":"히라바야시 — 이름 하나, 읽는 법 넷","tl":"Hirabayashi — Isang Pangalan, Apat na Basa","ne":"हिराबायाशी — एउटा नाम, चार पढाइ","id":"Hirabayashi — Satu Nama, Empat Bacaan","pt":"Hirabayashi — Um nome, quatro leituras","my":"ဟိရာဘာယာရှိ — နာမည်တစ်ခု ဖတ်နည်းလေးမျိုး","th":"ฮิราบายาชิ — ชื่อเดียว อ่านได้สี่แบบ"},
+ "shelf": "rakugo"
+}
