@@ -7271,6 +7271,32 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "botchan",
    "index": 6
   }
+ },
+ {
+  "id": "madara-1",
+  "titles": {
+   "vi": "Dải băng lốm đốm (1): Vị khách run rẩy",
+   "en": "The Speckled Band (1): The Trembling Client",
+   "zh-Hans": "斑点带子案（一）：颤抖的委托人",
+   "zh-Hant": "花斑帶探案（一）：顫抖的委託人",
+   "ko": "얼룩 끈 (1): 떨고 있는 의뢰인",
+   "tl": "Ang Batik-batik na Laso (1): Ang Nanginginig na Kliyente",
+   "ne": "थोप्ले फित्ता (१): काँपिरहेकी ग्राहक",
+   "id": "Pita Berbintik (1): Klien yang Gemetar",
+   "pt": "A Faixa Malhada (1): A Cliente Trêmula",
+   "my": "အစက်ပြောက်ကြိုး (၁): တုန်နေတဲ့ အကူအညီတောင်းသူ",
+   "th": "แถบลายจุด (1): ผู้ว่าจ้างที่ตัวสั่น"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 52,
+  "cover": "/covers/madara-1.webp",
+  "series": {
+   "id": "madara",
+   "index": 1
+  }
  }
 ];
 
