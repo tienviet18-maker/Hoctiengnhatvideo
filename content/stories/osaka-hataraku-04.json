@@ -1,0 +1,5345 @@
+{
+  "kind": "story",
+  "id": "osaka-hataraku-04",
+  "titles": {
+    "vi": "Làm việc ở Osaka (4): Vụ túi rác",
+    "en": "Working in Osaka (4): The Garbage Day Incident",
+    "zh-Hans": "在大阪工作（四）：垃圾日事件",
+    "zh-Hant": "在大阪工作（四）：垃圾日事件",
+    "ko": "오사카에서 일하다 (4): 쓰레기 날의 사건",
+    "tl": "Nagtatrabaho sa Osaka (4): Ang Insidente sa Araw ng Basura",
+    "ne": "ओसाकामा काम (४): फोहोर दिनको घटना",
+    "id": "Bekerja di Osaka (4): Insiden Hari Sampah",
+    "pt": "Trabalhando em Osaka (4): O incidente do dia do lixo",
+    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၄) - အမှိုက်နေ့ ဖြစ်ရပ်",
+    "th": "ทำงานที่โอซาก้า (4): เหตุการณ์วันทิ้งขยะ"
+  },
+  "level": "N3",
+  "topic": "life-in-japan",
+  "source": "original",
+  "cover": "/covers/osaka-hataraku-04.webp",
+  "free": false,
+  "standard": 2,
+  "series": {
+    "id": "osaka-hataraku",
+    "index": 4
+  },
+  "shelf": "life-series",
+  "lesson": {
+    "grammarPoints": [
+      {
+        "pattern": "〜てある",
+        "example": 0,
+        "meaning": {
+          "vi": "Trạng thái còn lại sau khi ai đó đã làm ~ (có chủ ý). Tha động từ thể て + ある; vật làm chủ ngữ với が. Đời sống: ドアにメモがはってある (có tờ ghi chú dán trên cửa).",
+          "en": "A state left after someone did ~ on purpose. Transitive て-form + ある; the object becomes the subject with が. Daily life: ドアにメモがはってある (there's a note stuck on the door).",
+          "zh-Hans": "某人有意做了……后留下的状态。他动词て形＋ある，物作主语用が。生活中：ドアにメモがはってある（门上贴着便条）。",
+          "zh-Hant": "某人有意做了……後留下的狀態。他動詞て形＋ある，物作主語用が。生活中：ドアにメモがはってある（門上貼著便條）。",
+          "ko": "누군가 의도적으로 ~해 둔 결과 상태. 타동사 て형+ある, 사물이 が 주어. 생활: ドアにメモがはってある(문에 메모가 붙어 있다).",
+          "tl": "Kalagayang naiwan matapos sadyang gawin ang ~. Transitive て-form + ある. Hal.: ドアにメモがはってある (may nakadikit na memo sa pinto).",
+          "ne": "कसैले जानीजानी ~ गरेपछि रहेको अवस्था। सकर्मक て रूप + ある। उदाहरण: ドアにメモがはってある (ढोकामा नोट टाँसिएको छ)।",
+          "id": "Keadaan setelah seseorang sengaja ~. Kata kerja transitif bentuk て + ある. Contoh: ドアにメモがはってある (ada memo tertempel di pintu).",
+          "pt": "Estado que fica depois que alguém fez ~ de propósito. Verbo transitivo em て + ある. Ex.: ドアにメモがはってある (há um bilhete colado na porta).",
+          "my": "တစ်ယောက်ယောက် ရည်ရွယ်ပြီး ~ ထားတဲ့ အခြေအနေ။ သကမ္မ て + ある။ ဥပမာ: ドアにメモがはってある (တံခါးမှာ မှတ်စု ကပ်ထားတယ်)။",
+          "th": "สภาพที่เหลืออยู่หลังมีคนตั้งใจทำ ~ กริยามีกรรมรูป て + ある ตัวอย่าง: ドアにメモがはってある (มีโน้ตติดอยู่ที่ประตู)"
+        }
+      },
+      {
+        "pattern": "Aによって",
+        "example": 16,
+        "meaning": {
+          "vi": "Tùy theo A mà khác nhau. Hay đi với ちがう, 変わる. Khác Aによっては (chỉ một số trường hợp, tập 3). Đời sống: 季節によって、電気代がちがう (tiền điện khác nhau tùy mùa).",
+          "en": "Varies depending on A. Often with ちがう, 変わる. Unlike Aによっては (only some cases, episode 3). Daily life: 季節によって、電気代がちがう (the power bill varies by season).",
+          "zh-Hans": "因A而不同。常与ちがう、変わる连用。不同于Aによっては（只是部分情况，第3集）。生活中：季節によって、電気代がちがう（电费因季节而不同）。",
+          "zh-Hant": "因A而不同。常與ちがう、変わる連用。不同於Aによっては（只是部分情況，第3集）。生活中：季節によって、電気代がちがう（電費因季節而不同）。",
+          "ko": "A에 따라 다르다. ちがう, 変わる와 자주 씀. Aによっては(일부만, 3화)와 다름. 생활: 季節によって、電気代がちがう(계절에 따라 전기료가 다르다).",
+          "tl": "Nag-iiba depende sa A. Kadalasang may ちがう, 変わる. Iba sa Aによっては (ilan lang, ep. 3). Hal.: 季節によって、電気代がちがう (iba ang singil sa kuryente bawat panahon).",
+          "ne": "A अनुसार फरक हुनु। प्रायः ちがう, 変わる सँग। Aによっては (केही अवस्था, भाग ३) भन्दा फरक। उदाहरण: 季節によって、電気代がちがう (मौसमअनुसार बिजुली बिल फरक)।",
+          "id": "Berbeda tergantung A. Sering dengan ちがう, 変わる. Beda dengan Aによっては (sebagian, ep. 3). Contoh: 季節によって、電気代がちがう (tagihan listrik beda tiap musim).",
+          "pt": "Varia conforme A. Muito com ちがう, 変わる. Diferente de Aによっては (só alguns casos, ep. 3). Ex.: 季節によって、電気代がちがう (a conta de luz varia com a estação).",
+          "my": "A ပေါ်မူတည်ပြီး ကွာ။ ちがう, 変わる နဲ့ တွဲ။ Aによっては (တချို့၊ အပိုင်း ၃) နဲ့ မတူ။ ဥပမာ: 季節によって、電気代がちがう (ရာသီအလိုက် မီးဖိုး ကွာ)။",
+          "th": "ต่างกันไปตาม A มักใช้กับ ちがう 変わる ต่างจาก Aによっては (เฉพาะบางกรณี ตอนที่ 3) ตัวอย่าง: 季節によって、電気代がちがう (ค่าไฟต่างกันตามฤดู)"
+        }
+      },
+      {
+        "pattern": "〜までに",
+        "example": 18,
+        "meaning": {
+          "vi": "Trước (hạn) ~, chậm nhất là ~: hành động xảy ra một lần trước mốc. Khác 〜まで (liên tục cho đến ~). Đời sống: 金曜日までに書類を出してください (hãy nộp giấy tờ trước thứ Sáu).",
+          "en": "By (a deadline) ~: a one-time action before that point. Unlike 〜まで (continuously until ~). Daily life: 金曜日までに書類を出してください (please submit the documents by Friday).",
+          "zh-Hans": "在……之前（期限），动作在期限前完成一次。不同于〜まで（一直到……）。生活中：金曜日までに書類を出してください（请在周五前交文件）。",
+          "zh-Hant": "在……之前（期限），動作在期限前完成一次。不同於〜まで（一直到……）。生活中：金曜日までに書類を出してください（請在週五前交檔案）。",
+          "ko": "~까지(기한): 그 전에 한 번 하는 동작. 〜まで(~까지 계속)와 다름. 생활: 金曜日までに書類を出してください(금요일까지 서류를 내 주세요).",
+          "tl": "Bago ang (deadline) ~. Iba sa 〜まで (tuloy-tuloy hanggang ~). Hal.: 金曜日までに書類を出してください (ipasa ang dokumento bago mag-Biyernes).",
+          "ne": "~ भित्र (समयसीमा)। 〜まで (~ सम्म लगातार) भन्दा फरक। उदाहरण: 金曜日までに書類を出してください (शुक्रबारभित्र कागजात बुझाउनुहोस्)।",
+          "id": "Paling lambat ~ (tenggat). Beda dengan 〜まで (terus sampai ~). Contoh: 金曜日までに書類を出してください (serahkan dokumen paling lambat Jumat).",
+          "pt": "Até (prazo) ~: ação única antes desse ponto. Diferente de 〜まで (continuamente até ~). Ex.: 金曜日までに書類を出してください (entregue os documentos até sexta).",
+          "my": "~ မတိုင်ခင် (နောက်ဆုံးရက်)။ 〜まで (~ အထိ ဆက်တိုက်) နဲ့ မတူ။ ဥပမာ: 金曜日までに書類を出してください (သောကြာမတိုင်ခင် စာရွက် တင်ပါ)။",
+          "th": "ภายใน ~ (กำหนดเวลา) ต่างจาก 〜まで (ต่อเนื่องจนถึง ~) ตัวอย่าง: 金曜日までに書類を出してください (กรุณาส่งเอกสารภายในวันศุกร์)"
+        }
+      },
+      {
+        "pattern": "〜のは、Aだ",
+        "example": 43,
+        "meaning": {
+          "vi": "Câu nhấn mạnh: người/cái ~ chính là A. Biến mệnh đề thành danh từ bằng の rồi đưa thông tin mới (A) ra cuối. Đời sống: 鍵を忘れたのは、わたしです (người quên chìa khóa là tôi).",
+          "en": "Cleft sentence: the one who ~ is A. Turn the clause into a noun with の and put the new info (A) at the end. Daily life: 鍵を忘れたのは、わたしです (I'm the one who forgot the key).",
+          "zh-Hans": "强调句：……的是A。用の把从句名词化，把新信息A放在句末。生活中：鍵を忘れたのは、わたしです（忘带钥匙的是我）。",
+          "zh-Hant": "強調句：……的是A。用の把從句名詞化，把新資訊A放在句末。生活中：鍵を忘れたのは、わたしです（忘帶鑰匙的是我）。",
+          "ko": "강조 구문: ~한 것은 A다. の로 명사화하고 새 정보 A를 끝에. 생활: 鍵を忘れたのは、わたしです(열쇠를 잊은 건 저예요).",
+          "tl": "Pangungusap na pagdiin: ang ~ ay si A. Hal.: 鍵を忘れたのは、わたしです (ako ang nakalimot ng susi).",
+          "ne": "जोड दिने वाक्य: ~ गर्ने चाहिँ A हो। उदाहरण: 鍵を忘れたのは、わたしです (साँचो बिर्सने म नै हुँ)।",
+          "id": "Kalimat penegas: yang ~ adalah A. Contoh: 鍵を忘れたのは、わたしです (yang lupa kunci itu saya).",
+          "pt": "Frase clivada: quem ~ é A. Ex.: 鍵を忘れたのは、わたしです (quem esqueceu a chave fui eu).",
+          "my": "အလေးပေးဝါကျ: ~ တာက A ပဲ။ ဥပမာ: 鍵を忘れたのは、わたしです (သော့ မေ့ခဲ့တာ ကျွန်တော်ပါ)။",
+          "th": "ประโยคเน้น: คนที่ ~ คือ A ตัวอย่าง: 鍵を忘れたのは、わたしです (คนที่ลืมกุญแจคือฉันเอง)"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "ja": "ペットボトルを出すとき、何を取りますか。",
+        "choices": [
+          "キャップとラベル",
+          "中の水だけ",
+          "何も取らない"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Bà Kiyo dặn phải bỏ nắp và nhãn của chai PET.",
+          "en": "Kiyo says to take off the cap and label.",
+          "zh-Hans": "阿清奶奶说要把瓶盖和标签去掉。",
+          "zh-Hant": "阿清奶奶說要把瓶蓋和標籤去掉。",
+          "ko": "기요 씨는 뚜껑과 라벨을 떼라고 했습니다.",
+          "tl": "Sabi ni Kiyo, tanggalin ang takip at label.",
+          "ne": "कियोले बिर्को र लेबल निकाल्न भनिन्।",
+          "id": "Bu Kiyo bilang tutup dan label harus dilepas.",
+          "pt": "Kiyo diz para tirar a tampa e o rótulo.",
+          "my": "ကီယိုက အဖုံးနဲ့ တံဆိပ် ခွာရမယ်လို့ ပြောတယ်။",
+          "th": "คุณคิโยะบอกให้แกะฝากับฉลากออก"
+        }
+      },
+      {
+        "ja": "青いごみ袋は、だれのものでしたか。",
+        "choices": [
+          "ミンのもの",
+          "田中さんのもの",
+          "会社の人が物置に置いていったもの"
+        ],
+        "answer": 2,
+        "explain": {
+          "vi": "Đó là túi rác người của công ty để lại trong kho sau khi dọn phòng anh Hải; bà Kiyo đem đổ nhầm ngày.",
+          "en": "It was left in the storeroom by the company man who cleared Hai's room; Kiyo put it out on the wrong day.",
+          "zh-Hans": "那是公司的人收拾海哥房间后留在储物间的，阿清奶奶扔错了日子。",
+          "zh-Hant": "那是公司的人收拾海哥房間後留在儲物間的，阿清奶奶扔錯了日子。",
+          "ko": "하이의 방을 치운 회사 사람이 창고에 둔 것으로, 기요 씨가 날을 잘못 내놓았습니다.",
+          "tl": "Iniwan ito ng taga-kompanya sa bodega; maling araw itong inilabas ni Kiyo.",
+          "ne": "हाईको कोठा सफा गर्ने कम्पनीको मान्छेले भण्डारमा छोडेको; कियोले गलत दिन फालिन्।",
+          "id": "Ditinggal orang perusahaan di gudang; Bu Kiyo membuangnya di hari yang salah.",
+          "pt": "Foi deixado no depósito pelo homem da empresa; Kiyo o pôs no dia errado.",
+          "my": "ကုမ္ပဏီကလူ ပစ္စည်းခန်းထဲ ထားခဲ့တာ၊ ကီယိုက နေ့မှား ပစ်မိတယ်။",
+          "th": "คนจากบริษัททิ้งไว้ในห้องเก็บของ คุณคิโยะเอาไปทิ้งผิดวัน"
+        }
+      },
+      {
+        "ja": "つなげた紙のうらに、ハイさんは何と書いていましたか。",
+        "choices": [
+          "岩田さんに気をつけて",
+          "本当の記録は、工場の二階の……",
+          "八月にベトナムへ帰る"
+        ],
+        "answer": 1,
+        "explain": {
+          "vi": "Anh Hải viết: \"Hồ sơ thật ở tầng hai của xưởng...\", phần còn lại bị xé mất.",
+          "en": "Hai wrote \"The real record is on the second floor of the factory...\", and the rest was torn off.",
+          "zh-Hans": "海哥写着“真正的记录在工厂二楼的……”，后面被撕掉了。",
+          "zh-Hant": "海哥寫著“真正的記錄在工廠二樓的……”，後面被撕掉了。",
+          "ko": "하이는 '진짜 기록은 공장 2층의……'라고 썼고 나머지는 찢겨 있었습니다.",
+          "tl": "Isinulat ni Hai: \"Ang tunay na rekord ay nasa ikalawang palapag...\" at napunit ang kasunod.",
+          "ne": "हाईले \"साँचो अभिलेख कारखानाको दोस्रो तलाको...\" लेखेका थिए, बाँकी च्यातिएको।",
+          "id": "Hai menulis \"Catatan asli ada di lantai dua pabrik...\", sisanya sobek.",
+          "pt": "Hai escreveu \"O registro verdadeiro está no segundo andar...\", e o resto foi rasgado.",
+          "my": "ဟိုင်က \"အစစ်အမှန် မှတ်တမ်းက စက်ရုံ နှစ်ထပ်ရဲ့...\" လို့ ရေးထားပြီး ကျန်တာ ဆုတ်ထားတယ်။",
+          "th": "ไห่เขียนว่า \"บันทึกจริงอยู่ที่ชั้นสองของโรงงาน...\" ที่เหลือถูกฉีก"
+        }
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "ja": "月曜日の朝、ミンがドアを開けると、足もとに青いごみ袋が一つ置いてありました。",
+      "furigana": [
+        {
+          "surface": "月曜日",
+          "reading": "げつようび"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "朝",
+          "reading": "あさ"
+        },
+        {
+          "surface": "、ミンがドアを",
+          "reading": ""
+        },
+        {
+          "surface": "開",
+          "reading": "あ"
+        },
+        {
+          "surface": "けると、",
+          "reading": ""
+        },
+        {
+          "surface": "足",
+          "reading": "あし"
+        },
+        {
+          "surface": "もとに",
+          "reading": ""
+        },
+        {
+          "surface": "青",
+          "reading": "あお"
+        },
+        {
+          "surface": "いごみ",
+          "reading": ""
+        },
+        {
+          "surface": "袋",
+          "reading": "ぶくろ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "ひと"
+        },
+        {
+          "surface": "つ",
+          "reading": ""
+        },
+        {
+          "surface": "置",
+          "reading": "お"
+        },
+        {
+          "surface": "いてありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Getsuyoubi no asa, Min ga doa o akeru to, ashimoto ni aoi gomibukuro ga hitotsu oitearimashita.",
+      "translations": {
+        "vi": "Sáng thứ Hai, khi Minh mở cửa, dưới chân có một túi rác màu xanh đặt sẵn.",
+        "en": "On Monday morning, when Minh opened the door, a blue garbage bag was sitting at his feet.",
+        "zh-Hans": "星期一早上，阿明一开门，脚边放着一个蓝色垃圾袋。",
+        "zh-Hant": "星期一早上，阿明一開門，腳邊放著一個藍色垃圾袋。",
+        "ko": "월요일 아침, 민이 문을 열자 발밑에 파란 쓰레기봉투가 하나 놓여 있었습니다.",
+        "tl": "Lunes ng umaga, pagbukas ni Minh ng pinto, may asul na supot ng basura sa paanan niya.",
+        "ne": "सोमबार बिहान मिन्हले ढोका खोल्दा खुट्टानजिकै नीलो फोहोरको झोला राखिएको थियो।",
+        "id": "Senin pagi, saat Minh membuka pintu, ada kantong sampah biru di kakinya.",
+        "pt": "Segunda de manhã, ao abrir a porta, Minh viu um saco de lixo azul aos seus pés.",
+        "my": "တနင်္လာနေ့ မနက် မင်း တံခါးဖွင့်တော့ ခြေရင်းမှာ အပြာရောင် အမှိုက်အိတ်တစ်လုံး ချထားပါတယ်။",
+        "th": "เช้าวันจันทร์ พอมิญเปิดประตู ก็มีถุงขยะสีน้ำเงินวางอยู่ที่เท้า"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜てある」: (ai đó) đã ~ sẵn, trạng thái còn lại. 足もと = dưới chân.",
+        "en": "「〜てある」 = has been ~ (by someone), a remaining state. 足もと = at one's feet.",
+        "zh-Hans": "「〜てある」＝（有人）……着，表示状态。足もと＝脚边。",
+        "zh-Hant": "「〜てある」＝（有人）……著，表示狀態。足もと＝腳邊。",
+        "ko": "「〜てある」=~해져 있다. 足もと=발밑.",
+        "tl": "「〜てある」 = nakalagay na. 足もと = paanan.",
+        "ne": "「〜てある」 = ~ राखिएको। 足もと = खुट्टानजिक।",
+        "id": "「〜てある」 = sudah di-~. 足もと = di kaki.",
+        "pt": "「〜てある」 = estar ~ (deixado). 足もと = aos pés.",
+        "my": "「〜てある」 = ~ ထားတယ်။ 足もと = ခြေရင်း။",
+        "th": "「〜てある」 = ~ ไว้แล้ว 足もと = ที่เท้า"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=0.3,8.399",
+      "t": [
+        0.3,
+        8.399
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "袋には黄色いシールがはってあって、「収集できません」と書いてあります。",
+      "furigana": [
+        {
+          "surface": "袋",
+          "reading": "ふくろ"
+        },
+        {
+          "surface": "には",
+          "reading": ""
+        },
+        {
+          "surface": "黄色",
+          "reading": "きいろ"
+        },
+        {
+          "surface": "いシールがはってあって、「",
+          "reading": ""
+        },
+        {
+          "surface": "収集",
+          "reading": "しゅうしゅう"
+        },
+        {
+          "surface": "できません」と",
+          "reading": ""
+        },
+        {
+          "surface": "書",
+          "reading": "か"
+        },
+        {
+          "surface": "いてあります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Fukuro ni wa kiiroi shiiru ga hatteatte, “Shuushuu dekimasen” to kaitearimasu.",
+      "translations": {
+        "vi": "Trên túi dán một miếng dán màu vàng, ghi \"Không thể thu gom\".",
+        "en": "A yellow sticker on the bag read \"Cannot be collected.\"",
+        "zh-Hans": "袋上贴着黄色贴纸，写着“无法收集”。",
+        "zh-Hant": "袋上貼著黃色貼紙，寫著“無法收集”。",
+        "ko": "봉투에는 노란 스티커가 붙어 있고 '수거할 수 없습니다'라고 적혀 있었습니다.",
+        "tl": "May dilaw na sticker sa supot: \"Hindi makokolekta.\"",
+        "ne": "झोलामा पहेँलो स्टिकर टाँसिएको थियो, \"सङ्कलन गर्न सकिँदैन\" लेखिएको।",
+        "id": "Di kantong ada stiker kuning bertuliskan \"Tidak dapat diangkut.\"",
+        "pt": "No saco havia um adesivo amarelo: \"Não pode ser coletado.\"",
+        "my": "အိတ်ပေါ်မှာ အဝါရောင်စတစ်ကာ ကပ်ထားပြီး \"သိမ်းလို့ မရပါ\" လို့ ရေးထားပါတယ်။",
+        "th": "บนถุงติดสติกเกอร์สีเหลือง เขียนว่า \"เก็บไม่ได้\""
+      },
+      "vocab": [
+        {
+          "word": "収集",
+          "reading": "しゅうしゅう",
+          "meanings": {
+            "vi": "thu gom",
+            "en": "collection",
+            "zh-Hans": "收集",
+            "zh-Hant": "收集",
+            "ko": "수거",
+            "tl": "pangongolekta",
+            "ne": "सङ्कलन",
+            "id": "pengumpulan",
+            "pt": "coleta",
+            "my": "စုဆောင်းခြင်း",
+            "th": "การเก็บ"
+          },
+          "level": "N1"
+        },
+        {
+          "word": "袋",
+          "reading": "ふくろ",
+          "meanings": {
+            "vi": "túi",
+            "en": "bag",
+            "zh-Hans": "袋子",
+            "zh-Hant": "袋子",
+            "ko": "봉투",
+            "tl": "supot",
+            "ne": "झोला",
+            "id": "kantong",
+            "pt": "saco",
+            "my": "အိတ်",
+            "th": "ถุง"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "Thực tế: rác đổ sai quy định thường bị dán giấy cảnh báo và để lại. はる = dán.",
+        "en": "In real life, wrongly sorted garbage often gets a warning sticker and is left behind. はる = stick.",
+        "zh-Hans": "实际上，分类错误的垃圾常被贴上警告贴纸留下。はる＝贴。",
+        "zh-Hant": "實際上，分類錯誤的垃圾常被貼上警告貼紙留下。はる＝貼。",
+        "ko": "실제로 잘못 버린 쓰레기는 경고 스티커가 붙어 남겨집니다.",
+        "tl": "Sa totoo, iniiwan ang maling basura na may babala.",
+        "ne": "वास्तवमा गलत फोहोरमा चेतावनी टाँसेर छोडिन्छ।",
+        "id": "Nyatanya, sampah salah pilah ditempeli stiker lalu ditinggal.",
+        "pt": "Na vida real, lixo errado fica com adesivo de aviso.",
+        "my": "တကယ်တော့ မှားပစ်တဲ့ အမှိုက်ကို သတိပေးစတစ်ကာ ကပ်ပြီး ထားခဲ့တယ်။",
+        "th": "ในชีวิตจริง ขยะที่ทิ้งผิดมักถูกติดสติกเกอร์เตือนแล้วทิ้งไว้"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=8.999,14.662",
+      "t": [
+        8.999,
+        14.662
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのとき、下の階から、年をとった男の人が階段を上がってきました。",
+      "furigana": [
+        {
+          "surface": "そのとき、",
+          "reading": ""
+        },
+        {
+          "surface": "下",
+          "reading": "した"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "階",
+          "reading": "かい"
+        },
+        {
+          "surface": "から、",
+          "reading": ""
+        },
+        {
+          "surface": "年",
+          "reading": "とし"
+        },
+        {
+          "surface": "をとった",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "階段",
+          "reading": "かいだん"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "あ"
+        },
+        {
+          "surface": "がってきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono toki, shita no kai kara, toshi o totta otoko no hito ga kaidan o agattekimashita.",
+      "translations": {
+        "vi": "Đúng lúc đó, một ông lão từ tầng dưới đi lên cầu thang.",
+        "en": "Just then, an old man came up the stairs from the floor below.",
+        "zh-Hans": "这时，一位老大爷从楼下走上楼梯。",
+        "zh-Hant": "這時，一位老大爺從樓下走上樓梯。",
+        "ko": "그때 아래층에서 나이 든 남자가 계단을 올라왔습니다.",
+        "tl": "Noon din, may matandang lalaking umakyat mula sa ibaba.",
+        "ne": "त्यही बेला तल्लो तलाबाट एक बूढा मान्छे भर्‍याङ चढेर आए।",
+        "id": "Saat itu, seorang pria tua naik tangga dari lantai bawah.",
+        "pt": "Nesse momento, um senhor idoso subiu a escada do andar de baixo.",
+        "my": "အဲဒီအချိန် အောက်ထပ်က အသက်ကြီးတဲ့ ယောကျ်ားတစ်ယောက် လှေကားတက်လာပါတယ်။",
+        "th": "ตอนนั้นเอง ชายชราคนหนึ่งเดินขึ้นบันไดมาจากชั้นล่าง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "年をとる = già đi. 「〜てくる」: đi về phía người kể.",
+        "en": "年をとる = grow old. 「〜てくる」 = toward the viewpoint.",
+        "zh-Hans": "年をとる＝上年纪。「〜てくる」＝朝说话人方向。",
+        "zh-Hant": "年をとる＝上年紀。「〜てくる」＝朝說話人方向。",
+        "ko": "年をとる=나이 들다.",
+        "tl": "年をとる = tumanda.",
+        "ne": "年をとる = बूढो हुनु।",
+        "id": "年をとる = menua.",
+        "pt": "年をとる = envelhecer.",
+        "my": "年をとる = အသက်ကြီး။",
+        "th": "年をとる = แก่"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=15.262,21.387",
+      "t": [
+        15.262,
+        21.387
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「あんたやな、このごみを出したんは。」",
+      "furigana": [
+        {
+          "surface": "「あんたやな、このごみを",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "したんは。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Anta ya na, kono gomi o dashita n wa.”",
+      "translations": {
+        "vi": "\"Là cậu chứ ai, đứa vứt đống rác này.\"",
+        "en": "\"It was you, wasn't it, who put out this garbage.\"",
+        "zh-Hans": "“就是你吧，扔这袋垃圾的。”",
+        "zh-Hant": "“就是你吧，扔這袋垃圾的。”",
+        "ko": "\"너지, 이 쓰레기 내놓은 거.\"",
+        "tl": "\"Ikaw 'yon, 'no, ang nagtapon nito.\"",
+        "ne": "\"तिमी नै हौ, यो फोहोर फाल्ने।\"",
+        "id": "\"Kamu, kan, yang buang sampah ini.\"",
+        "pt": "\"Foi você que pôs este lixo pra fora, né?\"",
+        "my": "\"မင်းပဲ မဟုတ်လား၊ ဒီအမှိုက် ပစ်တာ။\"",
+        "th": "\"เธอใช่ไหม ที่เอาขยะนี่ไปทิ้ง\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "Osaka: 〜やな = 〜だな. Đảo ngữ: あんたやな、〜は (nhấn mạnh \"là cậu\").",
+        "en": "Osaka: 〜やな = 〜だな. Inversion stresses \"it's you.\"",
+        "zh-Hans": "大阪话：〜やな＝〜だな。倒装强调“就是你”。",
+        "zh-Hant": "大阪話：〜やな＝〜だな。倒裝強調“就是你”。",
+        "ko": "오사카: 〜やな=〜だな. 도치로 강조.",
+        "tl": "Osaka: 〜やな = 〜だな. Baliktad para diin.",
+        "ne": "ओसाका: 〜やな = 〜だな। उल्टो क्रमले जोड।",
+        "id": "Osaka: 〜やな = 〜だな. Inversi untuk penekanan.",
+        "pt": "Osaka: 〜やな = 〜だな. Inversão para ênfase.",
+        "my": "အိုဆာကာ: 〜やな = 〜だな။ ပြောင်းပြန်ဖြင့် အလေးပေး။",
+        "th": "โอซาก้า: 〜やな = 〜だな สลับคำเพื่อเน้น"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=22.287,24.851",
+      "t": [
+        22.287,
+        24.851
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「おはようございます。いいえ、これはわたしのごみではありません。」",
+      "furigana": [
+        {
+          "surface": "「おはようございます。いいえ、これはわたしのごみではありません。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Ohayou gozaimasu. Iie, kore wa watashi no gomi dewa arimasen.”",
+      "translations": {
+        "vi": "\"Chào bác ạ. Không, đây không phải rác của cháu.\"",
+        "en": "\"Good morning. No, this isn't my garbage.\"",
+        "zh-Hans": "“早上好。不，这不是我的垃圾。”",
+        "zh-Hant": "“早上好。不，這不是我的垃圾。”",
+        "ko": "\"안녕하세요. 아니요, 이건 제 쓰레기가 아니에요.\"",
+        "tl": "\"Magandang umaga po. Hindi po, hindi ko ito basura.\"",
+        "ne": "\"नमस्ते। होइन, यो मेरो फोहोर होइन।\"",
+        "id": "\"Selamat pagi. Bukan, ini bukan sampah saya.\"",
+        "pt": "\"Bom dia. Não, este lixo não é meu.\"",
+        "my": "\"မင်္ဂလာပါ။ မဟုတ်ပါဘူး၊ ဒါ ကျွန်တော့် အမှိုက် မဟုတ်ပါ။\"",
+        "th": "\"สวัสดีครับ ไม่ใช่ครับ นี่ไม่ใช่ขยะของผม\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「Aではありません」: không phải A (lịch sự).",
+        "en": "「Aではありません」 = is not A (polite).",
+        "zh-Hans": "「Aではありません」＝不是A（礼貌）。",
+        "zh-Hant": "「Aではありません」＝不是A（禮貌）。",
+        "ko": "「Aではありません」=A가 아닙니다.",
+        "tl": "「Aではありません」 = hindi A.",
+        "ne": "「Aではありません」 = A होइन।",
+        "id": "「Aではありません」 = bukan A.",
+        "pt": "「Aではありません」 = não é A.",
+        "my": "「Aではありません」 = A မဟုတ်ပါ။",
+        "th": "「Aではありません」 = ไม่ใช่ A"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=25.751,29.941",
+      "t": [
+        25.751,
+        29.941
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「うそ言いなさんな。この袋、あんたの部屋の前の人がよう使ってたやつや。」",
+      "furigana": [
+        {
+          "surface": "「うそ",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "いなさんな。この",
+          "reading": ""
+        },
+        {
+          "surface": "袋",
+          "reading": "ふくろ"
+        },
+        {
+          "surface": "、あんたの",
+          "reading": ""
+        },
+        {
+          "surface": "部屋",
+          "reading": "へや"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "がよう",
+          "reading": ""
+        },
+        {
+          "surface": "使",
+          "reading": "つか"
+        },
+        {
+          "surface": "ってたやつや。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Uso iinasan na. Kono fukuro, anta no heya no mae no hito ga you tsukatteta yatsu ya.”",
+      "translations": {
+        "vi": "\"Đừng có nói dối. Cái túi này là loại người ở phòng cậu trước đây hay dùng.\"",
+        "en": "\"Don't lie. This is the kind of bag the guy before you always used.\"",
+        "zh-Hans": "“别撒谎。这袋子就是你房间之前那个人常用的。”",
+        "zh-Hant": "“別撒謊。這袋子就是你房間之前那個人常用的。”",
+        "ko": "\"거짓말 마. 이 봉투, 네 방 전 사람이 자주 쓰던 거야.\"",
+        "tl": "\"Huwag kang magsinungaling. Ganitong supot ang gamit ng dating nasa kuwarto mo.\"",
+        "ne": "\"झूट नबोल। यो झोला तिम्रो कोठाको अघिल्लो मान्छेले धेरै चलाउने खालको हो।\"",
+        "id": "\"Jangan bohong. Kantong ini yang sering dipakai penghuni kamarmu sebelumnya.\"",
+        "pt": "\"Não minta. Este saco é do tipo que o morador anterior do seu quarto usava.\"",
+        "my": "\"လိမ်မနေနဲ့။ ဒီအိတ်က မင်းအခန်းက အရင်လူ ခဏခဏ သုံးတဲ့ဟာ။\"",
+        "th": "\"อย่าโกหก ถุงนี้คนที่อยู่ห้องเธอก่อนหน้าใช้บ่อย\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "Osaka: 言いなさんな = 言うな (đừng nói), よう = よく, 〜やつや = 〜ものだ.",
+        "en": "Osaka: 言いなさんな = 言うな, よう = よく, 〜やつや = 〜ものだ.",
+        "zh-Hans": "大阪话：言いなさんな＝别说，よう＝よく，〜やつや＝……的东西。",
+        "zh-Hant": "大阪話：言いなさんな＝別說，よう＝よく，〜やつや＝……的東西。",
+        "ko": "오사카: 言いなさんな=말하지 마, よう=よく.",
+        "tl": "Osaka: 言いなさんな = huwag sabihin, よう = よく.",
+        "ne": "ओसाका: 言いなさんな = नभन, よう = よく।",
+        "id": "Osaka: 言いなさんな = jangan bilang, よう = よく.",
+        "pt": "Osaka: 言いなさんな = não diga, よう = よく.",
+        "my": "အိုဆာကာ: 言いなさんな = မပြောနဲ့၊ よう = よく။",
+        "th": "โอซาก้า: 言いなさんな = อย่าพูด よう = よく"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=30.841,36.526",
+      "t": [
+        30.841,
+        36.526
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「今日は燃えるごみの日やない。缶も紙も、全部まぜて出したらあかんのや。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "今日",
+          "reading": "きょう"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "燃",
+          "reading": "も"
+        },
+        {
+          "surface": "えるごみの",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "やない。",
+          "reading": ""
+        },
+        {
+          "surface": "缶",
+          "reading": "かん"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "紙",
+          "reading": "かみ"
+        },
+        {
+          "surface": "も、",
+          "reading": ""
+        },
+        {
+          "surface": "全部",
+          "reading": "ぜんぶ"
+        },
+        {
+          "surface": "まぜて",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "したらあかんのや。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kyou wa moeru gomi no hi ya nai. Kan mo kami mo, zenbu mazete dashitara akan no ya.”",
+      "translations": {
+        "vi": "\"Hôm nay không phải ngày rác cháy được. Lon với giấy mà trộn hết vào một túi là không được đâu.\"",
+        "en": "\"Today isn't burnable garbage day. You can't mix cans and paper all together.\"",
+        "zh-Hans": "“今天不是可燃垃圾日。罐子和纸全混在一起扔可不行。”",
+        "zh-Hant": "“今天不是可燃垃圾日。罐子和紙全混在一起扔可不行。”",
+        "ko": "\"오늘은 타는 쓰레기 날이 아니야. 캔이랑 종이를 다 섞어서 내면 안 돼.\"",
+        "tl": "\"Hindi ngayon ang araw ng nasusunog. Bawal paghaluin ang lata at papel.\"",
+        "ne": "\"आज जल्ने फोहोरको दिन होइन। टिन र कागज सबै मिसाएर फाल्न हुँदैन।\"",
+        "id": "\"Hari ini bukan hari sampah bakar. Kaleng dan kertas tak boleh dicampur.\"",
+        "pt": "\"Hoje não é dia de lixo queimável. Não pode misturar latas e papel.\"",
+        "my": "\"ဒီနေ့ မီးလောင်အမှိုက်နေ့ မဟုတ်ဘူး။ သံဘူးနဲ့ စက္ကူ ရောပစ်လို့ မရဘူး။\"",
+        "th": "\"วันนี้ไม่ใช่วันขยะเผาได้ กระป๋องกับกระดาษ ผสมรวมกันทิ้งไม่ได้นะ\""
+      },
+      "vocab": [
+        {
+          "word": "まぜる",
+          "reading": "まぜる",
+          "meanings": {
+            "vi": "trộn lẫn",
+            "en": "to mix",
+            "zh-Hans": "混合",
+            "zh-Hant": "混合",
+            "ko": "섞다",
+            "tl": "maghalo",
+            "ne": "मिसाउनु",
+            "id": "mencampur",
+            "pt": "misturar",
+            "my": "ရောစပ်",
+            "th": "ผสม"
+          },
+          "level": "N2"
+        },
+        {
+          "word": "燃える",
+          "reading": "もえる",
+          "meanings": {
+            "vi": "cháy",
+            "en": "to burn",
+            "zh-Hans": "燃烧",
+            "zh-Hant": "燃燒",
+            "ko": "타다",
+            "tl": "masunog",
+            "ne": "जल्नु",
+            "id": "terbakar",
+            "pt": "queimar",
+            "my": "လောင်",
+            "th": "ไหม้"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "燃えるごみ = rác cháy được. Osaka: 〜やない = 〜じゃない, あかん = だめ. 「〜たらあかん」 = không được ~.",
+        "en": "燃えるごみ = burnable garbage. Osaka: 〜やない = 〜じゃない, あかん = だめ. 「〜たらあかん」 = must not ~.",
+        "zh-Hans": "燃えるごみ＝可燃垃圾。大阪话：〜やない＝〜じゃない，あかん＝不行。",
+        "zh-Hant": "燃えるごみ＝可燃垃圾。大阪話：〜やない＝〜じゃない，あかん＝不行。",
+        "ko": "燃えるごみ=타는 쓰레기. あかん=안 돼.",
+        "tl": "燃えるごみ = nasusunog. あかん = bawal.",
+        "ne": "燃えるごみ = जल्ने फोहोर। あかん = हुँदैन।",
+        "id": "燃えるごみ = sampah bakar. あかん = tidak boleh.",
+        "pt": "燃えるごみ = lixo queimável. あかん = não pode.",
+        "my": "燃えるごみ = မီးလောင်အမှိုက်။ あかん = မရ။",
+        "th": "燃えるごみ = ขยะเผาได้ あかん = ไม่ได้"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=37.126,42.928",
+      "t": [
+        37.126,
+        42.928
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "男の人は一階に住む田中さんで、このアパートに三十年住んでいるそうです。",
+      "furigana": [
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "一階",
+          "reading": "いっかい"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "住",
+          "reading": "す"
+        },
+        {
+          "surface": "む",
+          "reading": ""
+        },
+        {
+          "surface": "田中",
+          "reading": "たなか"
+        },
+        {
+          "surface": "さんで、このアパートに",
+          "reading": ""
+        },
+        {
+          "surface": "三十年",
+          "reading": "さんじゅうねん"
+        },
+        {
+          "surface": "住",
+          "reading": "す"
+        },
+        {
+          "surface": "んでいるそうです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Otoko no hito wa ikkai ni sumu Tanakasan de, kono apaato ni sanjuu nen sundeiru sou desu.",
+      "translations": {
+        "vi": "Ông là bác Tanaka ở tầng một, nghe nói đã sống ở căn hộ này ba mươi năm.",
+        "en": "He was Mr. Tanaka from the first floor, who had apparently lived here thirty years.",
+        "zh-Hans": "他是住一楼的田中先生，据说在这栋公寓住了三十年。",
+        "zh-Hant": "他是住一樓的田中先生，據說在這棟公寓住了三十年。",
+        "ko": "그 남자는 1층에 사는 다나카 씨로, 이 아파트에 30년 살았다고 합니다.",
+        "tl": "Siya si G. Tanaka sa unang palapag, tatlumpung taon na raw dito.",
+        "ne": "उनी भुइँतलामा बस्ने तानाका थिए, यहाँ तीस वर्ष बसेका रे।",
+        "id": "Dia Pak Tanaka dari lantai satu, katanya sudah tiga puluh tahun di sini.",
+        "pt": "Era o sr. Tanaka, do térreo, que morava ali havia trinta anos.",
+        "my": "သူက တစ်ထပ်မှာ နေတဲ့ တာနာကာ ဖြစ်ပြီး ဒီတိုက်ခန်းမှာ နှစ်သုံးဆယ် နေခဲ့တယ်တဲ့။",
+        "th": "เขาคือคุณทานากะชั้นหนึ่ง ได้ยินว่าอยู่อพาร์ตเมนต์นี้มาสามสิบปี"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜そうです」: nghe nói ~. 「Aで、B」: là A, và B. 一階 đọc là いっかい.",
+        "en": "「〜そうです」 = I hear ~. 「Aで、B」 = is A, and B. 一階 = いっかい.",
+        "zh-Hans": "「〜そうです」＝听说。「Aで、B」＝是A，而且B。",
+        "zh-Hant": "「〜そうです」＝聽說。「Aで、B」＝是A，而且B。",
+        "ko": "「〜そうです」=~라고 한다.",
+        "tl": "「〜そうです」 = daw.",
+        "ne": "「〜そうです」 = रे।",
+        "id": "「〜そうです」 = katanya.",
+        "pt": "「〜そうです」 = dizem.",
+        "my": "「〜そうです」 = တဲ့။",
+        "th": "「〜そうです」 = ได้ยินว่า"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=43.828,50.122",
+      "t": [
+        43.828,
+        50.122
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "田中さんは強い声でそう言うと、自分の部屋に戻っていきました。",
+      "furigana": [
+        {
+          "surface": "田中",
+          "reading": "たなか"
+        },
+        {
+          "surface": "さんは",
+          "reading": ""
+        },
+        {
+          "surface": "強",
+          "reading": "つよ"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "声",
+          "reading": "こえ"
+        },
+        {
+          "surface": "でそう",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "うと、",
+          "reading": ""
+        },
+        {
+          "surface": "自分",
+          "reading": "じぶん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "部屋",
+          "reading": "へや"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "戻",
+          "reading": "もど"
+        },
+        {
+          "surface": "っていきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tanakasan wa tsuyoi koe de sou iu to, jibun no heya ni modotteikimashita.",
+      "translations": {
+        "vi": "Nói xong bằng giọng gay gắt, bác Tanaka quay về phòng mình.",
+        "en": "Having said that in a sharp voice, Mr. Tanaka went back to his room.",
+        "zh-Hans": "田中先生大声说完，就回自己房间去了。",
+        "zh-Hant": "田中先生大聲說完，就回自己房間去了。",
+        "ko": "다나카 씨는 센 목소리로 그렇게 말하고 자기 방으로 돌아갔습니다.",
+        "tl": "Matapos magsalita nang malakas, bumalik si Tanaka sa kuwarto niya.",
+        "ne": "कडा स्वरमा यति भनेर तानाका आफ्नो कोठा फर्के।",
+        "id": "Setelah berkata keras, Pak Tanaka kembali ke kamarnya.",
+        "pt": "Dito isso em tom duro, o sr. Tanaka voltou ao quarto.",
+        "my": "တာနာကာက အသံပြင်းပြင်းနဲ့ ပြောပြီး သူ့အခန်းကို ပြန်သွားပါတယ်။",
+        "th": "คุณทานากะพูดเสียงแข็งแล้วก็กลับห้องไป"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜と、…」: vừa ~ xong là …. 「〜ていく」: đi xa khỏi người kể.",
+        "en": "「〜と、…」 = upon ~, …. 「〜ていく」 = away from the viewpoint.",
+        "zh-Hans": "「〜と、…」＝一……就。「〜ていく」＝离开说话人。",
+        "zh-Hant": "「〜と、…」＝一……就。「〜ていく」＝離開說話人。",
+        "ko": "「〜ていく」=~해 가다.",
+        "tl": "「〜ていく」 = palayo.",
+        "ne": "「〜ていく」 = टाढा जानु।",
+        "id": "「〜ていく」 = menjauh.",
+        "pt": "「〜ていく」 = afastar-se.",
+        "my": "「〜ていく」 = ထွက်သွား။",
+        "th": "「〜ていく」 = จากไป"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=50.722,56.075",
+      "t": [
+        50.722,
+        56.075
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ミンはため息をついて、一階のキヨさんの部屋のドアをたたきました。",
+      "furigana": [
+        {
+          "surface": "ミンはため",
+          "reading": ""
+        },
+        {
+          "surface": "息",
+          "reading": "いき"
+        },
+        {
+          "surface": "をついて、",
+          "reading": ""
+        },
+        {
+          "surface": "一階",
+          "reading": "いっかい"
+        },
+        {
+          "surface": "のキヨさんの",
+          "reading": ""
+        },
+        {
+          "surface": "部屋",
+          "reading": "へや"
+        },
+        {
+          "surface": "のドアをたたきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Min wa tameiki o tsuite, ikkai no Kiyosan no heya no doa o tatakimashita.",
+      "translations": {
+        "vi": "Minh thở dài, gõ cửa phòng bà Kiyo ở tầng một.",
+        "en": "Minh sighed and knocked on Kiyo's door on the first floor.",
+        "zh-Hans": "阿明叹了口气，敲了敲一楼阿清奶奶的门。",
+        "zh-Hant": "阿明嘆了口氣，敲了敲一樓阿清奶奶的門。",
+        "ko": "민은 한숨을 쉬고 1층 기요 씨 방문을 두드렸습니다.",
+        "tl": "Napabuntong-hininga si Minh at kumatok kay Kiyo sa unang palapag.",
+        "ne": "मिन्हले सुस्केरा हाले र भुइँतलाको कियोको ढोका ढकढक्याए।",
+        "id": "Minh menghela napas dan mengetuk pintu Bu Kiyo di lantai satu.",
+        "pt": "Minh suspirou e bateu à porta de Kiyo, no térreo.",
+        "my": "မင်းက သက်ပြင်းချပြီး တစ်ထပ်က ကီယိုရဲ့ တံခါးကို ခေါက်ပါတယ်။",
+        "th": "มิญถอนหายใจ แล้วเคาะประตูห้องคุณคิโยะที่ชั้นหนึ่ง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ため息をつく = thở dài. たたく = gõ.",
+        "en": "ため息をつく = sigh. たたく = knock.",
+        "zh-Hans": "ため息をつく＝叹气。たたく＝敲。",
+        "zh-Hant": "ため息をつく＝嘆氣。たたく＝敲。",
+        "ko": "ため息をつく=한숨 쉬다.",
+        "tl": "ため息をつく = bumuntong-hininga.",
+        "ne": "ため息をつく = सुस्केरा हाल्नु।",
+        "id": "ため息をつく = menghela napas.",
+        "pt": "ため息をつく = suspirar.",
+        "my": "ため息をつく = သက်ပြင်းချ။",
+        "th": "ため息をつく = ถอนหายใจ"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=56.675,61.871",
+      "t": [
+        56.675,
+        61.871
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「田中さん、また怒ってたんか。あの人、ごみのことになると、うるさいんや。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "田中",
+          "reading": "たなか"
+        },
+        {
+          "surface": "さん、また",
+          "reading": ""
+        },
+        {
+          "surface": "怒",
+          "reading": "おこ"
+        },
+        {
+          "surface": "ってたんか。あの",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "、ごみのことになると、うるさいんや。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Tanakasan, mata okotteta n ka. Ano hito, gomi no koto ni naru to, urusai n ya.”",
+      "translations": {
+        "vi": "\"Ông Tanaka lại nổi giận à. Ông ấy hễ cứ chuyện rác là khó tính lắm.\"",
+        "en": "\"Tanaka got angry again? Whenever it's about garbage, he's a stickler.\"",
+        "zh-Hans": "“田中又发火了？那人一说到垃圾就特别啰嗦。”",
+        "zh-Hant": "“田中又發火了？那人一說到垃圾就特別囉嗦。”",
+        "ko": "\"다나카 씨 또 화냈어? 그 사람, 쓰레기 얘기만 나오면 깐깐해.\"",
+        "tl": "\"Nagalit na naman si Tanaka? Basta basura, napakahigpit niya.\"",
+        "ne": "\"तानाका फेरि रिसाए? फोहोरको कुरा आउनेबित्तिकै कडा हुन्छन्।\"",
+        "id": "\"Tanaka marah lagi? Kalau soal sampah, dia cerewet.\"",
+        "pt": "\"O Tanaka ficou bravo de novo? Com lixo ele é chato.\"",
+        "my": "\"တာနာကာ ထပ်ဒေါသထွက်ပြန်ပြီလား။ အမှိုက်ကိစ္စဆို ဂျီးများတယ်။\"",
+        "th": "\"ทานากะโกรธอีกแล้วเหรอ เรื่องขยะทีไรจู้จี้ทุกที\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「Aのことになると」: hễ đụng đến chuyện A là. うるさい ở đây = khó tính, cầu kỳ. Osaka: 〜んか, 〜んや.",
+        "en": "「Aのことになると」 = whenever it comes to A. うるさい here = fussy.",
+        "zh-Hans": "「Aのことになると」＝一涉及A就。うるさい＝挑剔。",
+        "zh-Hant": "「Aのことになると」＝一涉及A就。うるさい＝挑剔。",
+        "ko": "「Aのことになると」=A 이야기만 나오면. うるさい=깐깐하다.",
+        "tl": "「Aのことになると」 = basta tungkol sa A.",
+        "ne": "「Aのことになると」 = A को कुरा आउँदा।",
+        "id": "「Aのことになると」 = kalau soal A.",
+        "pt": "「Aのことになると」 = quando se trata de A.",
+        "my": "「Aのことになると」 = A ကိစ္စဆိုရင်။",
+        "th": "「Aのことになると」 = พอเป็นเรื่อง A"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=62.771,69.313",
+      "t": [
+        62.771,
+        69.313
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「でもな、ごみの出し方は、日本で暮らすなら、ほんまに大事やで。」",
+      "furigana": [
+        {
+          "surface": "「でもな、ごみの",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "し",
+          "reading": ""
+        },
+        {
+          "surface": "方",
+          "reading": "かた"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "暮",
+          "reading": "く"
+        },
+        {
+          "surface": "らすなら、ほんまに",
+          "reading": ""
+        },
+        {
+          "surface": "大事",
+          "reading": "だいじ"
+        },
+        {
+          "surface": "やで。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Demo na, gomi no dashikata wa, nihon de kurasunara, honma ni daiji ya de.”",
+      "translations": {
+        "vi": "\"Nhưng mà này, cách đổ rác ấy, nếu sống ở Nhật thì thật sự quan trọng đấy.\"",
+        "en": "\"But listen, if you live in Japan, how you put out garbage really matters.\"",
+        "zh-Hans": "“不过啊，在日本生活的话，扔垃圾的方法真的很重要。”",
+        "zh-Hant": "“不過啊，在日本生活的話，扔垃圾的方法真的很重要。”",
+        "ko": "\"그래도 일본에서 살려면 쓰레기 버리는 법은 정말 중요해.\"",
+        "tl": "\"Pero kung titira ka sa Japan, mahalaga talaga ang tamang pagtatapon.\"",
+        "ne": "\"तर जापानमा बस्ने हो भने फोहोर फाल्ने तरिका साँच्चै महत्त्वपूर्ण छ।\"",
+        "id": "\"Tapi kalau tinggal di Jepang, cara buang sampah itu sangat penting.\"",
+        "pt": "\"Mas, morando no Japão, o jeito de jogar o lixo é muito importante.\"",
+        "my": "\"ဒါပေမဲ့ ဂျပန်မှာ နေမယ်ဆို အမှိုက်ပစ်နည်းက တကယ်အရေးကြီးတယ်။\"",
+        "th": "\"แต่ถ้าอยู่ญี่ปุ่น วิธีทิ้งขยะสำคัญมากจริง ๆ นะ\""
+      },
+      "vocab": [
+        {
+          "word": "暮らす",
+          "reading": "くらす",
+          "meanings": {
+            "vi": "sinh sống",
+            "en": "to live",
+            "zh-Hans": "生活",
+            "zh-Hant": "生活",
+            "ko": "살다",
+            "tl": "manirahan",
+            "ne": "बस्नु",
+            "id": "tinggal",
+            "pt": "viver",
+            "my": "နေထိုင်",
+            "th": "ใช้ชีวิต"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "出し方 = cách đổ (〜方 = cách ~). Osaka: ほんま = 本当, 〜やで = 〜だよ.",
+        "en": "出し方 = how to put out (〜方 = way of ~). Osaka: ほんま = 本当.",
+        "zh-Hans": "出し方＝扔法（〜方＝方法）。大阪话：ほんま＝本当。",
+        "zh-Hant": "出し方＝扔法（〜方＝方法）。大阪話：ほんま＝本當。",
+        "ko": "〜方=~하는 법. ほんま=정말.",
+        "tl": "〜方 = paraan ng ~. ほんま = talaga.",
+        "ne": "〜方 = ~ गर्ने तरिका। ほんま = साँच्चै।",
+        "id": "〜方 = cara ~. ほんま = sungguh.",
+        "pt": "〜方 = jeito de ~. ほんま = de verdade.",
+        "my": "〜方 = ~ နည်း။ ほんま = တကယ်။",
+        "th": "〜方 = วิธี ~ ほんま = จริง ๆ"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=69.913,75.717",
+      "t": [
+        69.913,
+        75.717
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "キヨさんは、ごみ置き場のかべにはってある大きな表を指さしました。",
+      "furigana": [
+        {
+          "surface": "キヨさんは、ごみ",
+          "reading": ""
+        },
+        {
+          "surface": "置",
+          "reading": "お"
+        },
+        {
+          "surface": "き",
+          "reading": ""
+        },
+        {
+          "surface": "場",
+          "reading": "ば"
+        },
+        {
+          "surface": "のかべにはってある",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きな",
+          "reading": ""
+        },
+        {
+          "surface": "表",
+          "reading": "ひょう"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "指",
+          "reading": "ゆび"
+        },
+        {
+          "surface": "さしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kiyosan wa, gomi okiba no kabe ni hattearu ookina hyou o yubisashimashita.",
+      "translations": {
+        "vi": "Bà Kiyo chỉ vào tấm bảng lớn dán trên tường chỗ để rác.",
+        "en": "Kiyo pointed at the big chart on the wall of the garbage spot.",
+        "zh-Hans": "阿清奶奶指着垃圾站墙上贴的大表格。",
+        "zh-Hant": "阿清奶奶指著垃圾站牆上貼的大表格。",
+        "ko": "기요 씨는 쓰레기장 벽에 붙은 큰 표를 가리켰습니다.",
+        "tl": "Itinuro ni Kiyo ang malaking talaan sa pader ng tapunan.",
+        "ne": "कियोले फोहोर राख्ने ठाउँको भित्तामा टाँसिएको ठूलो तालिका देखाइन्।",
+        "id": "Bu Kiyo menunjuk tabel besar di dinding tempat sampah.",
+        "pt": "Kiyo apontou a tabela grande na parede do depósito de lixo.",
+        "my": "ကီယိုက အမှိုက်ပုံးနေရာ နံရံပေါ်က ဇယားကြီးကို လက်ညှိုးထိုးပြပါတယ်။",
+        "th": "คุณคิโยะชี้ไปที่ตารางใหญ่บนผนังที่ทิ้งขยะ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ごみ置き場 = chỗ tập kết rác của khu. 表 = bảng. 指さす = chỉ tay.",
+        "en": "ごみ置き場 = garbage collection point. 表 = chart. 指さす = point at.",
+        "zh-Hans": "ごみ置き場＝垃圾站。表＝表格。指さす＝用手指。",
+        "zh-Hant": "ごみ置き場＝垃圾站。表＝表格。指さす＝用手指。",
+        "ko": "ごみ置き場=쓰레기장. 表=표.",
+        "tl": "ごみ置き場 = tapunan. 表 = talaan.",
+        "ne": "ごみ置き場 = फोहोर ठाउँ। 表 = तालिका।",
+        "id": "ごみ置き場 = tempat sampah. 表 = tabel.",
+        "pt": "ごみ置き場 = ponto de lixo. 表 = tabela.",
+        "my": "ごみ置き場 = အမှိုက်စုနေရာ။ 表 = ဇယား။",
+        "th": "ごみ置き場 = จุดทิ้งขยะ 表 = ตาราง"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=76.617,82.457",
+      "t": [
+        76.617,
+        82.457
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「燃えるごみは週に二回。プラスチックは週に一回や。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "燃",
+          "reading": "も"
+        },
+        {
+          "surface": "えるごみは",
+          "reading": ""
+        },
+        {
+          "surface": "週",
+          "reading": "しゅう"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "二",
+          "reading": "に"
+        },
+        {
+          "surface": "回",
+          "reading": "かい"
+        },
+        {
+          "surface": "。プラスチックは",
+          "reading": ""
+        },
+        {
+          "surface": "週",
+          "reading": "しゅう"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "いち"
+        },
+        {
+          "surface": "回",
+          "reading": "かい"
+        },
+        {
+          "surface": "や。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Moeru gomi wa shuu ni nikai. Purasuchikku wa shuu ni ichikai ya.”",
+      "translations": {
+        "vi": "\"Rác cháy được thì một tuần hai lần. Nhựa thì một tuần một lần.\"",
+        "en": "\"Burnable garbage twice a week. Plastic once a week.\"",
+        "zh-Hans": "“可燃垃圾一周两次。塑料一周一次。”",
+        "zh-Hant": "“可燃垃圾一週兩次。塑膠一週一次。”",
+        "ko": "\"타는 쓰레기는 일주일에 두 번. 플라스틱은 일주일에 한 번이야.\"",
+        "tl": "\"Nasusunog, dalawang beses kada linggo. Plastik, isang beses.\"",
+        "ne": "\"जल्ने फोहोर हप्तामा दुई पटक। प्लास्टिक हप्तामा एक पटक।\"",
+        "id": "\"Sampah bakar seminggu dua kali. Plastik seminggu sekali.\"",
+        "pt": "\"Lixo queimável, duas vezes por semana. Plástico, uma vez.\"",
+        "my": "\"မီးလောင်အမှိုက်က တစ်ပတ် နှစ်ခါ။ ပလတ်စတစ်က တစ်ပတ် တစ်ခါ။\"",
+        "th": "\"ขยะเผาได้สัปดาห์ละสองครั้ง พลาสติกสัปดาห์ละครั้ง\""
+      },
+      "vocab": [
+        {
+          "word": "週",
+          "reading": "しゅう",
+          "meanings": {
+            "vi": "tuần",
+            "en": "week",
+            "zh-Hans": "周",
+            "zh-Hant": "周",
+            "ko": "주",
+            "tl": "linggo",
+            "ne": "हप्ता",
+            "id": "minggu",
+            "pt": "semana",
+            "my": "ရက်သတ္တပတ်",
+            "th": "สัปดาห์"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "プラスチック",
+          "reading": "ぷらすちっく",
+          "meanings": {
+            "vi": "nhựa",
+            "en": "plastic",
+            "zh-Hans": "塑料",
+            "zh-Hant": "塑膠",
+            "ko": "플라스틱",
+            "tl": "plastik",
+            "ne": "प्लास्टिक",
+            "id": "plastik",
+            "pt": "plástico",
+            "my": "ပလတ်စတစ်",
+            "th": "พลาสติก"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「週にA回」: một tuần A lần. Đây là ví dụ; mỗi nơi một lịch khác.",
+        "en": "「週にA回」 = A times a week. This is an example; schedules vary.",
+        "zh-Hans": "「週にA回」＝一周A次。这只是例子，各地不同。",
+        "zh-Hant": "「週にA回」＝一週A次。這只是例子，各地不同。",
+        "ko": "「週にA回」=일주일에 A번. 지역마다 다름.",
+        "tl": "「週にA回」 = A beses kada linggo. Iba-iba bawat lugar.",
+        "ne": "「週にA回」 = हप्तामा A पटक। ठाउँअनुसार फरक।",
+        "id": "「週にA回」 = seminggu A kali. Tiap daerah beda.",
+        "pt": "「週にA回」 = A vezes por semana. Varia por região.",
+        "my": "「週にA回」 = တစ်ပတ် A ခါ။ နေရာအလိုက် ကွာ။",
+        "th": "「週にA回」 = สัปดาห์ละ A ครั้ง แต่ละที่ต่างกัน"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=83.357,88.346",
+      "t": [
+        83.357,
+        88.346
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「缶とびんとペットボトルは、別の日。ペットボトルはキャップとラベルを取るんやで。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "缶",
+          "reading": "かん"
+        },
+        {
+          "surface": "とびんとペットボトルは、",
+          "reading": ""
+        },
+        {
+          "surface": "別",
+          "reading": "べつ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "。ペットボトルはキャップとラベルを",
+          "reading": ""
+        },
+        {
+          "surface": "取",
+          "reading": "と"
+        },
+        {
+          "surface": "るんやで。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kan to bin to pettobotoru wa, betsu no hi. Pettobotoru wa kyappu to raberu o toru n ya de.”",
+      "translations": {
+        "vi": "\"Lon, chai thủy tinh, chai nhựa PET thì ngày khác. Chai PET phải bỏ nắp và nhãn đấy.\"",
+        "en": "\"Cans, glass bottles and PET bottles go on another day. Take the caps and labels off PET bottles.\"",
+        "zh-Hans": "“罐子、玻璃瓶和塑料瓶是另一天。塑料瓶要把盖子和标签去掉哦。”",
+        "zh-Hant": "“罐子、玻璃瓶和塑膠瓶是另一天。塑膠瓶要把蓋子和標籤去掉哦。”",
+        "ko": "\"캔, 병, 페트병은 다른 날. 페트병은 뚜껑이랑 라벨을 떼는 거야.\"",
+        "tl": "\"Lata, bote at PET ay ibang araw. Tanggalin ang takip at label ng PET.\"",
+        "ne": "\"टिन, सिसाको बोतल र प्लास्टिक बोतल अर्को दिन। प्लास्टिक बोतलको बिर्को र लेबल निकाल्नुपर्छ।\"",
+        "id": "\"Kaleng, botol kaca, dan botol PET hari lain. Tutup dan label PET dilepas, ya.\"",
+        "pt": "\"Latas, vidros e garrafas PET em outro dia. Tire a tampa e o rótulo da PET.\"",
+        "my": "\"သံဘူး၊ ဖန်ပုလင်း၊ PET ပုလင်းက တခြားနေ့။ PET ပုလင်းက အဖုံးနဲ့ တံဆိပ် ခွာရတယ်။\"",
+        "th": "\"กระป๋อง ขวดแก้ว ขวดเพ็ทเป็นอีกวัน ขวดเพ็ทต้องแกะฝากับฉลากออกนะ\""
+      },
+      "vocab": [
+        {
+          "word": "缶",
+          "reading": "かん",
+          "meanings": {
+            "vi": "lon",
+            "en": "can",
+            "zh-Hans": "罐",
+            "zh-Hant": "罐",
+            "ko": "캔",
+            "tl": "lata",
+            "ne": "टिन",
+            "id": "kaleng",
+            "pt": "lata",
+            "my": "သံဘူး",
+            "th": "กระป๋อง"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "ラベル",
+          "reading": "らべる",
+          "meanings": {
+            "vi": "nhãn",
+            "en": "label",
+            "zh-Hans": "标签",
+            "zh-Hant": "標籤",
+            "ko": "라벨",
+            "tl": "etiketa",
+            "ne": "लेबल",
+            "id": "label",
+            "pt": "rótulo",
+            "my": "တံဆိပ်",
+            "th": "ฉลาก"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜んやで」 (Osaka) = 〜んだよ: dặn dò. Thực tế: nắp và nhãn chai PET thường bỏ vào rác nhựa.",
+        "en": "「〜んやで」 = 〜んだよ: advice. In reality PET caps and labels usually go in plastic.",
+        "zh-Hans": "「〜んやで」＝〜んだよ：叮嘱。实际上瓶盖和标签通常算塑料垃圾。",
+        "zh-Hant": "「〜んやで」＝〜んだよ：叮囑。實際上瓶蓋和標籤通常算塑膠垃圾。",
+        "ko": "「〜んやで」=〜んだよ. 뚜껑과 라벨은 보통 플라스틱으로.",
+        "tl": "「〜んやで」 = 〜んだよ. Karaniwang plastik ang takip at label.",
+        "ne": "「〜んやで」 = 〜んだよ। बिर्को र लेबल प्रायः प्लास्टिकमा।",
+        "id": "「〜んやで」 = 〜んだよ. Tutup dan label biasanya ke plastik.",
+        "pt": "「〜んやで」 = 〜んだよ. Tampa e rótulo vão no plástico.",
+        "my": "「〜んやで」 = 〜んだよ။ အဖုံးနဲ့တံဆိပ်က ပလတ်စတစ်ထဲ။",
+        "th": "「〜んやで」 = 〜んだよ ฝาและฉลากมักทิ้งรวมพลาสติก"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=88.946,95.749",
+      "t": [
+        88.946,
+        95.749
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「古い新聞や段ボールは、ひもでしばって、紙の日に出すんや。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "古",
+          "reading": "ふる"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "新聞",
+          "reading": "しんぶん"
+        },
+        {
+          "surface": "や",
+          "reading": ""
+        },
+        {
+          "surface": "段",
+          "reading": "だん"
+        },
+        {
+          "surface": "ボールは、ひもでしばって、",
+          "reading": ""
+        },
+        {
+          "surface": "紙",
+          "reading": "かみ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "すんや。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Furui shinbun ya danbooru wa, himo de shibatte, kami no hi ni dasu n ya.”",
+      "translations": {
+        "vi": "\"Báo cũ với thùng các-tông thì buộc bằng dây, đổ vào ngày rác giấy.\"",
+        "en": "\"Old newspapers and cardboard: tie them with string and put them out on paper day.\"",
+        "zh-Hans": "“旧报纸和纸箱用绳子捆好，在纸类回收日扔。”",
+        "zh-Hant": "“舊報紙和紙箱用繩子捆好，在紙類回收日扔。”",
+        "ko": "\"헌 신문이나 박스는 끈으로 묶어서 종이 날에 내는 거야.\"",
+        "tl": "\"Ang lumang dyaryo at karton, talian at ilabas sa araw ng papel.\"",
+        "ne": "\"पुराना पत्रिका र कार्टुन डोरीले बाँधेर कागजको दिन फाल्ने।\"",
+        "id": "\"Koran bekas dan kardus diikat tali, dibuang di hari kertas.\"",
+        "pt": "\"Jornal velho e papelão: amarre com barbante e ponha no dia do papel.\"",
+        "my": "\"သတင်းစာဟောင်းနဲ့ ကတ်ထူပုံးကို ကြိုးနဲ့ချည်ပြီး စက္ကူနေ့မှာ ပစ်ရတယ်။\"",
+        "th": "\"หนังสือพิมพ์เก่ากับกล่องกระดาษ มัดด้วยเชือกแล้วทิ้งวันกระดาษ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "段ボール = thùng các-tông. しばる = buộc. 「〜て、〜」: làm lần lượt.",
+        "en": "段ボール = cardboard. しばる = tie.",
+        "zh-Hans": "段ボール＝纸箱。しばる＝捆。",
+        "zh-Hant": "段ボール＝紙箱。しばる＝捆。",
+        "ko": "段ボール=골판지. しばる=묶다.",
+        "tl": "段ボール = karton. しばる = talian.",
+        "ne": "段ボール = कार्टुन। しばる = बाँध्नु।",
+        "id": "段ボール = kardus. しばる = mengikat.",
+        "pt": "段ボール = papelão. しばる = amarrar.",
+        "my": "段ボール = ကတ်ထူ။ しばる = ချည်။",
+        "th": "段ボール = กล่องกระดาษ しばる = มัด"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=96.349,101.85",
+      "t": [
+        96.349,
+        101.85
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "出す日や分け方は、町によってかなりちがいます。",
+      "furigana": [
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "す",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "や",
+          "reading": ""
+        },
+        {
+          "surface": "分",
+          "reading": "わ"
+        },
+        {
+          "surface": "け",
+          "reading": ""
+        },
+        {
+          "surface": "方",
+          "reading": "かた"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "町",
+          "reading": "まち"
+        },
+        {
+          "surface": "によってかなりちがいます。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Dasu hi ya wakekata wa, machi ni yotte kanari chigaimasu.",
+      "translations": {
+        "vi": "Ngày đổ và cách phân loại khác nhau khá nhiều tùy địa phương.",
+        "en": "Collection days and sorting rules vary quite a lot by town.",
+        "zh-Hans": "扔的日子和分类方法，各地相差很大。",
+        "zh-Hant": "扔的日子和分類方法，各地相差很大。",
+        "ko": "버리는 날과 분류법은 지역마다 꽤 다릅니다.",
+        "tl": "Iba-iba ang araw at paraan ng pag-uuri bawat bayan.",
+        "ne": "फाल्ने दिन र छुट्याउने तरिका ठाउँअनुसार निकै फरक हुन्छ।",
+        "id": "Hari dan cara memilah sangat berbeda tiap daerah.",
+        "pt": "Os dias e as regras variam bastante de cidade para cidade.",
+        "my": "ပစ်ရမယ့်နေ့နဲ့ ခွဲနည်းက မြို့အလိုက် တော်တော် ကွာပါတယ်။",
+        "th": "วันทิ้งและวิธีแยกต่างกันมากตามแต่ละเมือง"
+      },
+      "vocab": [
+        {
+          "word": "分ける",
+          "reading": "わける",
+          "meanings": {
+            "vi": "phân loại, chia",
+            "en": "to separate",
+            "zh-Hans": "分开",
+            "zh-Hant": "分開",
+            "ko": "나누다",
+            "tl": "paghiwalayin",
+            "ne": "छुट्याउनु",
+            "id": "memisahkan",
+            "pt": "separar",
+            "my": "ခွဲ",
+            "th": "แยก"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "かなり",
+          "reading": "かなり",
+          "meanings": {
+            "vi": "khá, tương đối",
+            "en": "quite",
+            "zh-Hans": "相当",
+            "zh-Hant": "相當",
+            "ko": "꽤",
+            "tl": "medyo",
+            "ne": "निकै",
+            "id": "cukup",
+            "pt": "bastante",
+            "my": "တော်တော်",
+            "th": "ค่อนข้าง"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「Aによって〜」: tùy A mà ~. 分け方 = cách phân loại.",
+        "en": "「Aによって〜」 = ~ depending on A. 分け方 = way of sorting.",
+        "zh-Hans": "「Aによって〜」＝因A而……。分け方＝分类方法。",
+        "zh-Hant": "「Aによって〜」＝因A而……。分け方＝分類方法。",
+        "ko": "「Aによって」=A에 따라.",
+        "tl": "「Aによって」 = depende sa A.",
+        "ne": "「Aによって」 = A अनुसार।",
+        "id": "「Aによって」 = tergantung A.",
+        "pt": "「Aによって」 = conforme A.",
+        "my": "「Aによって」 = A အလိုက်။",
+        "th": "「Aによって」 = ขึ้นกับ A"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=102.75,106.804",
+      "t": [
+        102.75,
+        106.804
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "引っ越したら、まず区役所やアパートの大家さんに、ごみの表をもらうといいでしょう。",
+      "furigana": [
+        {
+          "surface": "引",
+          "reading": "ひ"
+        },
+        {
+          "surface": "っ",
+          "reading": ""
+        },
+        {
+          "surface": "越",
+          "reading": "こ"
+        },
+        {
+          "surface": "したら、まず",
+          "reading": ""
+        },
+        {
+          "surface": "区役所",
+          "reading": "くやくしょ"
+        },
+        {
+          "surface": "やアパートの",
+          "reading": ""
+        },
+        {
+          "surface": "大家",
+          "reading": "おおや"
+        },
+        {
+          "surface": "さんに、ごみの",
+          "reading": ""
+        },
+        {
+          "surface": "表",
+          "reading": "ひょう"
+        },
+        {
+          "surface": "をもらうといいでしょう。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hikkoshitara, mazu kuyakusho ya apaato no ooyasan ni, gomi no hyou o morau to iideshou.",
+      "translations": {
+        "vi": "Khi mới chuyển đến, trước hết bạn nên xin bảng lịch rác ở văn phòng quận hoặc chủ nhà.",
+        "en": "When you move, first get a garbage chart from the ward office or your landlord.",
+        "zh-Hans": "搬家后，最好先向区役所或房东要一份垃圾分类表。",
+        "zh-Hant": "搬家後，最好先向區役所或房東要一份垃圾分類表。",
+        "ko": "이사하면 먼저 구청이나 집주인에게 쓰레기 표를 받는 게 좋습니다.",
+        "tl": "Paglipat, kumuha muna ng talaan ng basura sa ward office o sa may-ari.",
+        "ne": "सर्नेबित्तिकै वडा कार्यालय वा घरधनीबाट फोहोरको तालिका लिनु राम्रो।",
+        "id": "Setelah pindah, mintalah dulu tabel sampah di kantor kelurahan atau pemilik.",
+        "pt": "Ao se mudar, peça a tabela de lixo na prefeitura do bairro ou ao proprietário.",
+        "my": "အိမ်ပြောင်းရင် ရပ်ကွက်ရုံး ဒါမှမဟုတ် အိမ်ရှင်ဆီက အမှိုက်ဇယား အရင်တောင်းတာ ကောင်းတယ်။",
+        "th": "ย้ายมาแล้ว ควรขอตารางขยะจากสำนักงานเขตหรือเจ้าของห้องก่อน"
+      },
+      "vocab": [
+        {
+          "word": "大家",
+          "reading": "おおや",
+          "meanings": {
+            "vi": "chủ nhà (cho thuê)",
+            "en": "landlord, landlady",
+            "zh-Hans": "房东",
+            "zh-Hant": "房東",
+            "ko": "집주인",
+            "tl": "may-ari ng paupahan",
+            "ne": "घरबेटी",
+            "id": "pemilik kos",
+            "pt": "senhorio",
+            "my": "အိမ်ရှင်",
+            "th": "เจ้าของห้องเช่า"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜といいでしょう」: nên ~ (lời khuyên). 大家さん = chủ nhà. Nhiều nơi còn có ứng dụng lịch rác.",
+        "en": "「〜といいでしょう」 = it's a good idea to ~. 大家さん = landlord. Many towns have garbage apps.",
+        "zh-Hans": "「〜といいでしょう」＝最好……。大家さん＝房东。很多地方有垃圾日历App。",
+        "zh-Hant": "「〜といいでしょう」＝最好……。大家さん＝房東。很多地方有垃圾日曆App。",
+        "ko": "「〜といいでしょう」=~하면 좋겠죠.",
+        "tl": "「〜といいでしょう」 = mainam na ~.",
+        "ne": "「〜といいでしょう」 = ~ गर्नु राम्रो।",
+        "id": "「〜といいでしょう」 = sebaiknya ~.",
+        "pt": "「〜といいでしょう」 = é bom ~.",
+        "my": "「〜といいでしょう」 = ~ ရင် ကောင်းမယ်။",
+        "th": "「〜といいでしょう」 = ควร ~"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=107.404,114.627",
+      "t": [
+        107.404,
+        114.627
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「それから、前の晩に出したらあかん。朝、決まった時間までに出すんや。」",
+      "furigana": [
+        {
+          "surface": "「それから、",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "晩",
+          "reading": "ばん"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "したらあかん。",
+          "reading": ""
+        },
+        {
+          "surface": "朝",
+          "reading": "あさ"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "決",
+          "reading": "き"
+        },
+        {
+          "surface": "まった",
+          "reading": ""
+        },
+        {
+          "surface": "時間",
+          "reading": "じかん"
+        },
+        {
+          "surface": "までに",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "すんや。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Sorekara, mae no ban ni dashitara akan. Asa, kimatta jikan made ni dasu n ya.”",
+      "translations": {
+        "vi": "\"Còn nữa, không được đổ từ tối hôm trước. Phải đổ vào buổi sáng, trước giờ quy định.\"",
+        "en": "\"And don't put it out the night before. Put it out in the morning, by the set time.\"",
+        "zh-Hans": "“还有，不能前一天晚上扔。要早上在规定时间前扔。”",
+        "zh-Hant": "“還有，不能前一天晚上扔。要早上在規定時間前扔。”",
+        "ko": "\"그리고 전날 밤에 내면 안 돼. 아침에 정해진 시간까지 내는 거야.\"",
+        "tl": "\"At huwag ilabas sa gabi bago. Sa umaga, bago ang takdang oras.\"",
+        "ne": "\"अनि अघिल्लो राति फाल्न हुँदैन। बिहान तोकिएको समयभित्र फाल्ने।\"",
+        "id": "\"Lalu jangan buang malam sebelumnya. Pagi hari, sebelum jam yang ditentukan.\"",
+        "pt": "\"E não ponha na noite anterior. De manhã, até o horário marcado.\"",
+        "my": "\"ပြီးတော့ အရင်ညမှာ ပစ်လို့ မရဘူး။ မနက် သတ်မှတ်ချိန်မတိုင်ခင် ပစ်ရတယ်။\"",
+        "th": "\"แล้วก็ห้ามทิ้งตั้งแต่คืนก่อน ต้องทิ้งตอนเช้าก่อนเวลาที่กำหนด\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "決まった = đã quy định. 「〜までに」: trước (hạn) ~. Thường là trước 8 giờ sáng.",
+        "en": "決まった = set, fixed. 「〜までに」 = by (deadline). Often by 8 a.m.",
+        "zh-Hans": "決まった＝规定的。「〜までに」＝在……之前。通常早上8点前。",
+        "zh-Hant": "決まった＝規定的。「〜までに」＝在……之前。通常早上8點前。",
+        "ko": "「〜までに」=~까지. 보통 아침 8시.",
+        "tl": "「〜までに」 = bago mag-~. Karaniwang 8 a.m.",
+        "ne": "「〜までに」 = ~ भित्र। प्रायः बिहान ८ बजे।",
+        "id": "「〜までに」 = paling lambat ~. Biasanya jam 8 pagi.",
+        "pt": "「〜までに」 = até ~. Geralmente 8h.",
+        "my": "「〜までに」 = ~ မတိုင်ခင်။ မနက် ၈ နာရီ။",
+        "th": "「〜までに」 = ภายใน ~ มักก่อน 8 โมงเช้า"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=115.527,121.594",
+      "t": [
+        115.527,
+        121.594
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「カラスが袋を破って、道がごみだらけになるからな。」",
+      "furigana": [
+        {
+          "surface": "「カラスが",
+          "reading": ""
+        },
+        {
+          "surface": "袋",
+          "reading": "ふくろ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "破",
+          "reading": "やぶ"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "道",
+          "reading": "みち"
+        },
+        {
+          "surface": "がごみだらけになるからな。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Karasu ga fukuro o yabutte, michi ga gomidarake ni naru kara na.”",
+      "translations": {
+        "vi": "\"Vì quạ sẽ xé túi, làm đường đầy rác.\"",
+        "en": "\"Because crows tear the bags and the street ends up covered in garbage.\"",
+        "zh-Hans": "“因为乌鸦会把袋子啄破，弄得满街都是垃圾。”",
+        "zh-Hant": "“因為烏鴉會把袋子啄破，弄得滿街都是垃圾。”",
+        "ko": "\"까마귀가 봉투를 찢어서 길이 쓰레기투성이가 되니까.\"",
+        "tl": "\"Kasi pupunitin ng uwak ang supot at kakalat ang basura.\"",
+        "ne": "\"किनकि कागले झोला च्यातेर बाटोभरि फोहोर बनाउँछ।\"",
+        "id": "\"Karena gagak merobek kantong dan jalan jadi penuh sampah.\"",
+        "pt": "\"Porque os corvos rasgam os sacos e a rua fica cheia de lixo.\"",
+        "my": "\"ကျီးကန်းတွေက အိတ်ကို ဆွဲဖြဲပြီး လမ်းပေါ် အမှိုက်တွေ ပြန့်ကုန်လို့။\"",
+        "th": "\"เพราะอีกาจะจิกถุงขาด ถนนจะเต็มไปด้วยขยะ\""
+      },
+      "vocab": [
+        {
+          "word": "破る",
+          "reading": "やぶる",
+          "meanings": {
+            "vi": "xé, làm rách",
+            "en": "to tear",
+            "zh-Hans": "撕破",
+            "zh-Hant": "撕破",
+            "ko": "찢다",
+            "tl": "punitin",
+            "ne": "च्यात्नु",
+            "id": "merobek",
+            "pt": "rasgar",
+            "my": "ဆုတ်",
+            "th": "ฉีก"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「Aだらけ」: đầy A (thường xấu). 「〜からな」: vì ~ đấy.",
+        "en": "「Aだらけ」 = full of A (negative). 「〜からな」 = because ~.",
+        "zh-Hans": "「Aだらけ」＝满是A（贬义）。",
+        "zh-Hant": "「Aだらけ」＝滿是A（貶義）。",
+        "ko": "「Aだらけ」=A투성이.",
+        "tl": "「Aだらけ」 = puno ng A.",
+        "ne": "「Aだらけ」 = A ले भरिएको।",
+        "id": "「Aだらけ」 = penuh A.",
+        "pt": "「Aだらけ」 = cheio de A.",
+        "my": "「Aだらけ」 = A တွေ ပြည့်။",
+        "th": "「Aだらけ」 = เต็มไปด้วย A"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=122.194,126.553",
+      "t": [
+        122.194,
+        126.553
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「では、大きい家具を捨てたいときは、どうすればいいですか。」",
+      "furigana": [
+        {
+          "surface": "「では、",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きい",
+          "reading": ""
+        },
+        {
+          "surface": "家具",
+          "reading": "かぐ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "捨",
+          "reading": "す"
+        },
+        {
+          "surface": "てたいときは、どうすればいいですか。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Dewa, ookii kagu o sutetai toki wa, dou surebaiidesu ka.”",
+      "translations": {
+        "vi": "\"Vậy khi muốn vứt đồ nội thất lớn thì phải làm thế nào ạ?\"",
+        "en": "\"Then what should I do when I want to throw away big furniture?\"",
+        "zh-Hans": "“那想扔大件家具的时候，该怎么办呢？”",
+        "zh-Hant": "“那想扔大件傢俱的時候，該怎麼辦呢？”",
+        "ko": "\"그럼 큰 가구를 버리고 싶을 땐 어떻게 하면 돼요?\"",
+        "tl": "\"Paano naman kung itatapon ang malaking muwebles?\"",
+        "ne": "\"त्यसो भए ठूलो फर्निचर फाल्न परे के गर्ने?\"",
+        "id": "\"Lalu kalau mau buang perabot besar, bagaimana?\"",
+        "pt": "\"E quando eu quiser jogar fora um móvel grande?\"",
+        "my": "\"ဒါဆို ပရိဘောဂကြီးတွေ ပစ်ချင်ရင် ဘယ်လိုလုပ်ရမလဲ။\"",
+        "th": "\"แล้วถ้าอยากทิ้งเฟอร์นิเจอร์ใหญ่ ต้องทำยังไงครับ\""
+      },
+      "vocab": [
+        {
+          "word": "家具",
+          "reading": "かぐ",
+          "meanings": {
+            "vi": "đồ nội thất",
+            "en": "furniture",
+            "zh-Hans": "家具",
+            "zh-Hant": "傢俱",
+            "ko": "가구",
+            "tl": "muwebles",
+            "ne": "फर्निचर",
+            "id": "perabot",
+            "pt": "móveis",
+            "my": "ပရိဘောဂ",
+            "th": "เฟอร์นิเจอร์"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ばいいですか」: nên ~ thế nào. 「〜たいとき」: khi muốn ~.",
+        "en": "「〜ばいいですか」 = what should I ~? 「〜たいとき」 = when you want to ~.",
+        "zh-Hans": "「〜ばいいですか」＝该怎么……。",
+        "zh-Hant": "「〜ばいいですか」＝該怎麼……。",
+        "ko": "「〜ばいいですか」=~하면 돼요?",
+        "tl": "「〜ばいいですか」 = paano ~?",
+        "ne": "「〜ばいいですか」 = के गर्ने?",
+        "id": "「〜ばいいですか」 = sebaiknya bagaimana?",
+        "pt": "「〜ばいいですか」 = como devo ~?",
+        "my": "「〜ばいいですか」 = ဘယ်လို ~ ရမလဲ။",
+        "th": "「〜ばいいですか」 = ควร ~ ยังไง"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=127.453,131.706",
+      "t": [
+        127.453,
+        131.706
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「それは粗大ごみや。電話かネットで申し込んで、お金を払わなあかんで。」",
+      "furigana": [
+        {
+          "surface": "「それは",
+          "reading": ""
+        },
+        {
+          "surface": "粗大",
+          "reading": "そだい"
+        },
+        {
+          "surface": "ごみや。",
+          "reading": ""
+        },
+        {
+          "surface": "電話",
+          "reading": "でんわ"
+        },
+        {
+          "surface": "かネットで",
+          "reading": ""
+        },
+        {
+          "surface": "申",
+          "reading": "もう"
+        },
+        {
+          "surface": "し",
+          "reading": ""
+        },
+        {
+          "surface": "込",
+          "reading": "こ"
+        },
+        {
+          "surface": "んで、お",
+          "reading": ""
+        },
+        {
+          "surface": "金",
+          "reading": "かね"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "払",
+          "reading": "はら"
+        },
+        {
+          "surface": "わなあかんで。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Sore wa sodaigomi ya. Denwa ka netto de moushikonde, okane o harawana akan de.”",
+      "translations": {
+        "vi": "\"Đó là rác cồng kềnh. Phải đăng ký qua điện thoại hoặc mạng, rồi trả tiền đấy.\"",
+        "en": "\"That's oversized garbage. You have to apply by phone or online and pay a fee.\"",
+        "zh-Hans": "“那是大件垃圾。得打电话或上网申请，还要付钱。”",
+        "zh-Hant": "“那是大件垃圾。得打電話或上網申請，還要付錢。”",
+        "ko": "\"그건 대형 쓰레기야. 전화나 인터넷으로 신청하고 돈을 내야 해.\"",
+        "tl": "\"Sodai-gomi 'yan. Mag-apply sa telepono o online at magbayad.\"",
+        "ne": "\"त्यो ठूलो फोहोर हो। फोन वा इन्टरनेटबाट आवेदन दिएर पैसा तिर्नुपर्छ।\"",
+        "id": "\"Itu sampah besar. Harus daftar lewat telepon atau internet dan bayar.\"",
+        "pt": "\"Isso é lixo volumoso. Tem que agendar por telefone ou internet e pagar.\"",
+        "my": "\"အဲဒါ အမှိုက်ကြီး။ ဖုန်း ဒါမှမဟုတ် အင်တာနက်နဲ့ လျှောက်ပြီး ပိုက်ဆံ ပေးရတယ်။\"",
+        "th": "\"นั่นขยะชิ้นใหญ่ ต้องสมัครทางโทรศัพท์หรือเน็ต แล้วจ่ายเงิน\""
+      },
+      "vocab": [
+        {
+          "word": "申し込む",
+          "reading": "もうしこむ",
+          "meanings": {
+            "vi": "đăng ký",
+            "en": "to apply",
+            "zh-Hans": "申请",
+            "zh-Hant": "申請",
+            "ko": "신청하다",
+            "tl": "mag-apply",
+            "ne": "आवेदन दिनु",
+            "id": "mendaftar",
+            "pt": "solicitar",
+            "my": "လျှောက်",
+            "th": "สมัคร"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "粗大ごみ = rác cồng kềnh, có phí. Osaka: 払わなあかん = 払わなければならない.",
+        "en": "粗大ごみ = oversized garbage (fee). Osaka: 払わなあかん = must pay.",
+        "zh-Hans": "粗大ごみ＝大件垃圾（收费）。大阪话：払わなあかん＝必须付。",
+        "zh-Hant": "粗大ごみ＝大件垃圾（收費）。大阪話：払わなあかん＝必須付。",
+        "ko": "粗大ごみ=대형 폐기물. 〜なあかん=~해야 한다.",
+        "tl": "粗大ごみ = malaking basura. 〜なあかん = kailangan.",
+        "ne": "粗大ごみ = ठूलो फोहोर। 〜なあかん = पर्छ।",
+        "id": "粗大ごみ = sampah besar. 〜なあかん = harus.",
+        "pt": "粗大ごみ = lixo volumoso. 〜なあかん = tem que.",
+        "my": "粗大ごみ = အမှိုက်ကြီး။ 〜なあかん = ရမယ်။",
+        "th": "粗大ごみ = ขยะชิ้นใหญ่ 〜なあかん = ต้อง"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=132.606,139.062",
+      "t": [
+        132.606,
+        139.062
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "ミンは忘れないように、携帯で表の写真をとりました。",
+      "furigana": [
+        {
+          "surface": "ミンは",
+          "reading": ""
+        },
+        {
+          "surface": "忘",
+          "reading": "わす"
+        },
+        {
+          "surface": "れないように、",
+          "reading": ""
+        },
+        {
+          "surface": "携帯",
+          "reading": "けいたい"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "表",
+          "reading": "ひょう"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "写真",
+          "reading": "しゃしん"
+        },
+        {
+          "surface": "をとりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Min wa wasurenai you ni, keitai de hyou no shashin o torimashita.",
+      "translations": {
+        "vi": "Để không quên, Minh chụp ảnh tấm bảng bằng điện thoại.",
+        "en": "So he wouldn't forget, Minh took a photo of the chart with his phone.",
+        "zh-Hans": "为了不忘记，阿明用手机拍下了表格。",
+        "zh-Hant": "為了不忘記，阿明用手機拍下了表格。",
+        "ko": "민은 잊지 않도록 휴대폰으로 표 사진을 찍었습니다.",
+        "tl": "Para hindi makalimutan, kinunan ni Minh ng litrato ang talaan.",
+        "ne": "नबिर्सियोस् भनेर मिन्हले मोबाइलले तालिकाको फोटो खिचे।",
+        "id": "Agar tidak lupa, Minh memotret tabel dengan ponsel.",
+        "pt": "Para não esquecer, Minh fotografou a tabela com o celular.",
+        "my": "မမေ့အောင် မင်းက ဖုန်းနဲ့ ဇယားကို ဓာတ်ပုံရိုက်ထားပါတယ်။",
+        "th": "เพื่อไม่ให้ลืม มิญถ่ายรูปตารางด้วยมือถือ"
+      },
+      "vocab": [
+        {
+          "word": "携帯",
+          "reading": "けいたい",
+          "meanings": {
+            "vi": "điện thoại di động",
+            "en": "mobile phone",
+            "zh-Hans": "手机",
+            "zh-Hant": "手機",
+            "ko": "휴대폰",
+            "tl": "cellphone",
+            "ne": "मोबाइल",
+            "id": "ponsel",
+            "pt": "celular",
+            "my": "မိုဘိုင်းဖုန်း",
+            "th": "มือถือ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ないように」: để không ~. 写真をとる = chụp ảnh.",
+        "en": "「〜ないように」 = so as not to ~. 写真をとる = take a photo.",
+        "zh-Hans": "「〜ないように」＝为了不……。",
+        "zh-Hant": "「〜ないように」＝為了不……。",
+        "ko": "「〜ないように」=~하지 않도록.",
+        "tl": "「〜ないように」 = para hindi ~.",
+        "ne": "「〜ないように」 = ~ नहोस् भनेर।",
+        "id": "「〜ないように」 = agar tidak ~.",
+        "pt": "「〜ないように」 = para não ~.",
+        "my": "「〜ないように」 = မ ~ အောင်။",
+        "th": "「〜ないように」 = เพื่อไม่ให้ ~"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=139.962,144.681",
+      "t": [
+        139.962,
+        144.681
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「キヨさん、でも、この袋は本当にわたしのものではないんです。」",
+      "furigana": [
+        {
+          "surface": "「キヨさん、でも、この",
+          "reading": ""
+        },
+        {
+          "surface": "袋",
+          "reading": "ふくろ"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "本当",
+          "reading": "ほんとう"
+        },
+        {
+          "surface": "にわたしのものではないんです。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kiyosan, demo, kono fukuro wa hontouni watashi no mono dewa nai n desu.”",
+      "translations": {
+        "vi": "\"Bà Kiyo, nhưng mà cái túi này thật sự không phải của cháu đâu ạ.\"",
+        "en": "\"But Kiyo, this bag really isn't mine.\"",
+        "zh-Hans": "“阿清奶奶，可这个袋子真的不是我的。”",
+        "zh-Hant": "“阿清奶奶，可這個袋子真的不是我的。”",
+        "ko": "\"기요 씨, 그래도 이 봉투는 정말 제 게 아니에요.\"",
+        "tl": "\"Kiyo, pero talagang hindi akin ang supot na ito.\"",
+        "ne": "\"कियोजी, तर यो झोला साँच्चै मेरो होइन।\"",
+        "id": "\"Bu Kiyo, tapi kantong ini benar-benar bukan milik saya.\"",
+        "pt": "\"Dona Kiyo, mas este saco realmente não é meu.\"",
+        "my": "\"ကီယို၊ ဒါပေမဲ့ ဒီအိတ်က တကယ် ကျွန်တော့်ဟာ မဟုတ်ပါဘူး။\"",
+        "th": "\"คุณคิโยะ แต่ถุงนี้ไม่ใช่ของผมจริง ๆ นะครับ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「Aのものではないんです」: không phải đồ của A (giải thích, khẳng định).",
+        "en": "「Aのものではないんです」 = it's not A's (insisting).",
+        "zh-Hans": "「Aのものではないんです」＝不是A的（强调说明）。",
+        "zh-Hant": "「Aのものではないんです」＝不是A的（強調說明）。",
+        "ko": "「〜んです」=강조 설명.",
+        "tl": "「〜んです」 = pagdiin.",
+        "ne": "「〜んです」 = जोड दिएर भन्नु।",
+        "id": "「〜んです」 = menegaskan.",
+        "pt": "「〜んです」 = insistir.",
+        "my": "「〜んです」 = အလေးပေး ရှင်းပြ။",
+        "th": "「〜んです」 = ยืนยันอธิบาย"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=145.581,150.212",
+      "t": [
+        145.581,
+        150.212
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "キヨさんは袋を見ると、急に「あっ」と小さな声を出しました。",
+      "furigana": [
+        {
+          "surface": "キヨさんは",
+          "reading": ""
+        },
+        {
+          "surface": "袋",
+          "reading": "ふくろ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "ると、",
+          "reading": ""
+        },
+        {
+          "surface": "急",
+          "reading": "きゅう"
+        },
+        {
+          "surface": "に「あっ」と",
+          "reading": ""
+        },
+        {
+          "surface": "小",
+          "reading": "ちい"
+        },
+        {
+          "surface": "さな",
+          "reading": ""
+        },
+        {
+          "surface": "声",
+          "reading": "こえ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kiyosan wa fukuro o miru to, kyuu ni “A” to chiisana koe o dashimashita.",
+      "translations": {
+        "vi": "Bà Kiyo nhìn cái túi rồi bỗng khẽ kêu \"Á\".",
+        "en": "Kiyo looked at the bag and suddenly let out a small \"Oh!\"",
+        "zh-Hans": "阿清奶奶一看袋子，突然小声“啊”了一下。",
+        "zh-Hant": "阿清奶奶一看袋子，突然小聲“啊”了一下。",
+        "ko": "기요 씨는 봉투를 보더니 갑자기 작게 \"앗\" 하고 소리를 냈습니다.",
+        "tl": "Tumingin si Kiyo sa supot at biglang napa-\"Ay!\"",
+        "ne": "कियोले झोला हेर्नेबित्तिकै अचानक सानो स्वरमा \"आ\" भनिन्।",
+        "id": "Bu Kiyo melihat kantong lalu tiba-tiba berseru pelan, \"Ah.\"",
+        "pt": "Kiyo olhou o saco e de repente soltou um \"Ah!\" baixinho.",
+        "my": "ကီယိုက အိတ်ကို ကြည့်ပြီး ရုတ်တရက် \"အာ\" လို့ အသံသေးသေး ထွက်လာပါတယ်။",
+        "th": "คุณคิโยะมองถุงแล้วจู่ ๆ ก็ร้อง \"อ๊ะ\" เบา ๆ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "急に = đột nhiên. 声を出す = thốt lên.",
+        "en": "急に = suddenly. 声を出す = let out a voice.",
+        "zh-Hans": "急に＝突然。声を出す＝出声。",
+        "zh-Hant": "急に＝突然。聲を出す＝出聲。",
+        "ko": "急に=갑자기.",
+        "tl": "急に = bigla.",
+        "ne": "急に = अचानक।",
+        "id": "急に = tiba-tiba.",
+        "pt": "急に = de repente.",
+        "my": "急に = ရုတ်တရက်။",
+        "th": "急に = ทันใดนั้น"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=151.112,156.368",
+      "t": [
+        151.112,
+        156.368
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「これ、うちが出したやつや。物置に、ずっと置いてあった袋なんよ。」",
+      "furigana": [
+        {
+          "surface": "「これ、うちが",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "したやつや。",
+          "reading": ""
+        },
+        {
+          "surface": "物置",
+          "reading": "ものおき"
+        },
+        {
+          "surface": "に、ずっと",
+          "reading": ""
+        },
+        {
+          "surface": "置",
+          "reading": "お"
+        },
+        {
+          "surface": "いてあった",
+          "reading": ""
+        },
+        {
+          "surface": "袋",
+          "reading": "ふくろ"
+        },
+        {
+          "surface": "なんよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kore, uchi ga dashita yatsu ya. Monooki ni, zutto oiteatta fukuro na n yo.”",
+      "translations": {
+        "vi": "\"Cái này là bà đổ ra đấy. Là túi để mãi trong kho từ hồi đó.\"",
+        "en": "\"I put this out. It's a bag that had been sitting in the storeroom all this time.\"",
+        "zh-Hans": "“这是我扔的。是一直放在储物间的袋子。”",
+        "zh-Hant": "“這是我扔的。是一直放在儲物間的袋子。”",
+        "ko": "\"이거 내가 내놓은 거야. 창고에 계속 두었던 봉투야.\"",
+        "tl": "\"Ako ang nagtapon niyan. Matagal na 'yang nasa bodega.\"",
+        "ne": "\"यो त मैले फालेको हो। भण्डारमा धेरै दिनदेखि राखिएको झोला।\"",
+        "id": "\"Ini saya yang buang. Kantong yang lama disimpan di gudang.\"",
+        "pt": "\"Fui eu que pus pra fora. É um saco que estava no depósito há tempos.\"",
+        "my": "\"ဒါ အဒေါ် ပစ်ထားတာ။ ပစ္စည်းခန်းထဲမှာ ကြာကြာ ထားခဲ့တဲ့အိတ်။\"",
+        "th": "\"อันนี้ป้าเอาไปทิ้งเอง เป็นถุงที่วางไว้ในห้องเก็บของมาตลอด\""
+      },
+      "vocab": [
+        {
+          "word": "物置",
+          "reading": "ものおき",
+          "meanings": {
+            "vi": "kho chứa đồ",
+            "en": "storeroom",
+            "zh-Hans": "储物间",
+            "zh-Hant": "儲物間",
+            "ko": "창고",
+            "tl": "bodega",
+            "ne": "भण्डार",
+            "id": "gudang",
+            "pt": "depósito",
+            "my": "ပစ္စည်းခန်း",
+            "th": "ห้องเก็บของ"
+          },
+          "level": "N2"
+        },
+        {
+          "word": "ずっと",
+          "reading": "ずっと",
+          "meanings": {
+            "vi": "suốt, mãi",
+            "en": "the whole time",
+            "zh-Hans": "一直",
+            "zh-Hant": "一直",
+            "ko": "계속",
+            "tl": "palagi",
+            "ne": "लगातार",
+            "id": "terus",
+            "pt": "o tempo todo",
+            "my": "တောက်လျှောက်",
+            "th": "ตลอด"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "Osaka: うち = tôi (nữ, Kansai). 〜なんよ = 〜なのよ. 「〜てあった」: đã được để sẵn.",
+        "en": "Osaka: うち = I (female, Kansai). 〜なんよ = 〜なのよ.",
+        "zh-Hans": "大阪话：うち＝我（女性）。〜なんよ＝〜なのよ。",
+        "zh-Hant": "大阪話：うち＝我（女性）。〜なんよ＝〜なのよ。",
+        "ko": "오사카: うち=나(여성).",
+        "tl": "Osaka: うち = ako (babae).",
+        "ne": "ओसाका: うち = म (महिला)।",
+        "id": "Osaka: うち = saya (wanita).",
+        "pt": "Osaka: うち = eu (feminino).",
+        "my": "အိုဆာကာ: うち = ကျွန်မ။",
+        "th": "โอซาก้า: うち = ฉัน (ผู้หญิง)"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=157.268,163.037",
+      "t": [
+        157.268,
+        163.037
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「ハイくんが出ていった次の日にな、会社の人が部屋を片付けに来たんや。」",
+      "furigana": [
+        {
+          "surface": "「ハイくんが",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "ていった",
+          "reading": ""
+        },
+        {
+          "surface": "次",
+          "reading": "つぎ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "にな、",
+          "reading": ""
+        },
+        {
+          "surface": "会社",
+          "reading": "かいしゃ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "部屋",
+          "reading": "へや"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "片付",
+          "reading": "かたづ"
+        },
+        {
+          "surface": "けに",
+          "reading": ""
+        },
+        {
+          "surface": "来",
+          "reading": "き"
+        },
+        {
+          "surface": "たんや。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Haikun ga deteitta tsugi no hi ni na, kaisha no hito ga heya o katazuke ni kita n ya.”",
+      "translations": {
+        "vi": "\"Hôm sau ngày thằng Hải bỏ đi ấy, có người của công ty đến dọn phòng.\"",
+        "en": "\"The day after Hai left, someone from the company came to clear out the room.\"",
+        "zh-Hans": "“小海走后的第二天，公司的人来收拾房间了。”",
+        "zh-Hant": "“小海走後的第二天，公司的人來收拾房間了。”",
+        "ko": "\"하이가 나간 다음 날, 회사 사람이 방을 치우러 왔어.\"",
+        "tl": "\"Kinabukasan pag-alis ni Hai, may taga-kompanyang naglinis ng kuwarto.\"",
+        "ne": "\"हाई गएको भोलिपल्ट कम्पनीको मान्छे कोठा सफा गर्न आयो।\"",
+        "id": "\"Sehari setelah Hai pergi, orang perusahaan datang membereskan kamar.\"",
+        "pt": "\"No dia seguinte à saída do Hai, alguém da empresa veio arrumar o quarto.\"",
+        "my": "\"ဟိုင် ထွက်သွားတဲ့ နောက်တစ်နေ့ ကုမ္ပဏီက လူတစ်ယောက် အခန်း လာရှင်းတယ်။\"",
+        "th": "\"วันถัดจากที่ไห่ออกไป มีคนจากบริษัทมาเก็บห้อง\""
+      },
+      "vocab": [
+        {
+          "word": "片付け",
+          "reading": "かたづけ",
+          "meanings": {
+            "vi": "dọn dẹp",
+            "en": "tidying up",
+            "zh-Hans": "收拾",
+            "zh-Hant": "收拾",
+            "ko": "정리",
+            "tl": "pagliligpit",
+            "ne": "सफाइ",
+            "id": "beres-beres",
+            "pt": "arrumação",
+            "my": "သိမ်းဆည်း",
+            "th": "เก็บกวาด"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜に来る」: đến để ~ (片付けに来る = đến dọn). 次の日 = hôm sau.",
+        "en": "「〜に来る」 = come to ~. 次の日 = the next day.",
+        "zh-Hans": "「〜に来る」＝来……。次の日＝第二天。",
+        "zh-Hant": "「〜に來る」＝來……。次の日＝第二天。",
+        "ko": "「〜に来る」=~하러 오다.",
+        "tl": "「〜に来る」 = pumunta para ~.",
+        "ne": "「〜に来る」 = ~ गर्न आउनु।",
+        "id": "「〜に来る」 = datang untuk ~.",
+        "pt": "「〜に来る」 = vir ~.",
+        "my": "「〜に来る」 = ~ ဖို့ လာ။",
+        "th": "「〜に来る」 = มาเพื่อ ~"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=163.637,169.473",
+      "t": [
+        163.637,
+        169.473
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「そのとき、ごみを三つ、物置に置いていったんよ。」",
+      "furigana": [
+        {
+          "surface": "「そのとき、ごみを",
+          "reading": ""
+        },
+        {
+          "surface": "三",
+          "reading": "みっ"
+        },
+        {
+          "surface": "つ、",
+          "reading": ""
+        },
+        {
+          "surface": "物置",
+          "reading": "ものおき"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "置",
+          "reading": "お"
+        },
+        {
+          "surface": "いていったんよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Sono toki, gomi o mittsu, monooki ni oite ittan yo.”",
+      "translations": {
+        "vi": "\"Lúc đó, người ta để lại ba túi rác trong kho.\"",
+        "en": "\"At that time, he left three bags of garbage in the storeroom.\"",
+        "zh-Hans": "“那时候，他在储物间留下了三袋垃圾。”",
+        "zh-Hant": "“那時候，他在儲物間留下了三袋垃圾。”",
+        "ko": "\"그때 쓰레기 세 봉지를 창고에 두고 갔어.\"",
+        "tl": "\"Noon, nag-iwan siya ng tatlong supot sa bodega.\"",
+        "ne": "\"त्यस बेला फोहोरका तीन झोला भण्डारमा छोडेर गयो।\"",
+        "id": "\"Waktu itu, dia meninggalkan tiga kantong sampah di gudang.\"",
+        "pt": "\"Naquela vez, ele deixou três sacos de lixo no depósito.\"",
+        "my": "\"အဲဒီတုန်းက အမှိုက်အိတ် သုံးလုံးကို ပစ္စည်းခန်းထဲ ထားခဲ့တယ်။\"",
+        "th": "\"ตอนนั้นเขาทิ้งขยะไว้สามถุงในห้องเก็บของ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ていった」: làm ~ rồi đi. 三つ = ba cái.",
+        "en": "「〜ていった」 = did ~ and left. 三つ = three.",
+        "zh-Hans": "「〜ていった」＝……了就走。三つ＝三个。",
+        "zh-Hant": "「〜ていった」＝……了就走。三つ＝三個。",
+        "ko": "「〜ていった」=~하고 갔다.",
+        "tl": "「〜ていった」 = ~ saka umalis.",
+        "ne": "「〜ていった」 = ~ गरेर गयो।",
+        "id": "「〜ていった」 = ~ lalu pergi.",
+        "pt": "「〜ていった」 = ~ e partiu.",
+        "my": "「〜ていった」 = ~ ပြီး သွား။",
+        "th": "「〜ていった」 = ~ แล้วก็ไป"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=170.073,174.631",
+      "t": [
+        170.073,
+        174.631
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「会社の人……。それは、どんな人でしたか。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "会社",
+          "reading": "かいしゃ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "……。それは、どんな",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "でしたか。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kaisha no hito....... Sore wa, donna hito deshita ka.”",
+      "translations": {
+        "vi": "\"Người của công ty... Người đó trông thế nào ạ?\"",
+        "en": "\"Someone from the company... What was he like?\"",
+        "zh-Hans": "“公司的人……那是什么样的人？”",
+        "zh-Hant": "“公司的人……那是什麼樣的人？”",
+        "ko": "\"회사 사람……. 어떤 사람이었어요?\"",
+        "tl": "\"Taga-kompanya... Anong klaseng tao siya?\"",
+        "ne": "\"कम्पनीको मान्छे... कस्तो थियो?\"",
+        "id": "\"Orang perusahaan... Orangnya seperti apa?\"",
+        "pt": "\"Alguém da empresa... Como ele era?\"",
+        "my": "\"ကုမ္ပဏီက လူ... ဘယ်လိုလူမျိုးလဲ။\"",
+        "th": "\"คนจากบริษัท... เป็นคนแบบไหนครับ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「どんな人でしたか」: người như thế nào (quá khứ).",
+        "en": "「どんな人でしたか」 = what kind of person was he?",
+        "zh-Hans": "「どんな人でしたか」＝是什么样的人。",
+        "zh-Hant": "「どんな人でしたか」＝是什麼樣的人。",
+        "ko": "어떤 사람이었어요?",
+        "tl": "Anong klaseng tao?",
+        "ne": "कस्तो मान्छे थियो?",
+        "id": "Orang seperti apa?",
+        "pt": "Que tipo de pessoa?",
+        "my": "ဘယ်လိုလူလဲ။",
+        "th": "คนแบบไหน"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=175.531,178.619",
+      "t": [
+        175.531,
+        178.619
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「背の高い男の人や。名前は聞いてへん。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "背",
+          "reading": "せ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "高",
+          "reading": "たか"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "や。",
+          "reading": ""
+        },
+        {
+          "surface": "名前",
+          "reading": "なまえ"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "いてへん。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Se no takai otoko no hito ya. Namae wa kiitehen.”",
+      "translations": {
+        "vi": "\"Một người đàn ông cao. Bà không hỏi tên.\"",
+        "en": "\"A tall man. I didn't ask his name.\"",
+        "zh-Hans": "“一个高个子男人。我没问名字。”",
+        "zh-Hant": "“一個高個子男人。我沒問名字。”",
+        "ko": "\"키 큰 남자야. 이름은 안 물어봤어.\"",
+        "tl": "\"Matangkad na lalaki. Hindi ko tinanong ang pangalan.\"",
+        "ne": "\"अग्लो पुरुष। नाम सोधिनँ।\"",
+        "id": "\"Pria tinggi. Saya tidak tanya namanya.\"",
+        "pt": "\"Um homem alto. Não perguntei o nome.\"",
+        "my": "\"အရပ်မြင့်တဲ့ ယောကျ်ား။ နာမည် မမေးခဲ့ဘူး။\"",
+        "th": "\"ผู้ชายตัวสูง ป้าไม่ได้ถามชื่อ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "背が高い = cao. Osaka: 聞いてへん = 聞いていない.",
+        "en": "背が高い = tall. Osaka: 聞いてへん = 聞いていない.",
+        "zh-Hans": "背が高い＝个子高。大阪话：聞いてへん＝没问。",
+        "zh-Hant": "背が高い＝個子高。大阪話：聞いてへん＝沒問。",
+        "ko": "背が高い=키가 크다.",
+        "tl": "背が高い = matangkad.",
+        "ne": "背が高い = अग्लो।",
+        "id": "背が高い = tinggi.",
+        "pt": "背が高い = alto.",
+        "my": "背が高い = အရပ်မြင့်။",
+        "th": "背が高い = ตัวสูง"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=179.519,183.748",
+      "t": [
+        179.519,
+        183.748
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "ミンの頭に、黒い車の運転席にいた岩田さんの顔がうかびました。",
+      "furigana": [
+        {
+          "surface": "ミンの",
+          "reading": ""
+        },
+        {
+          "surface": "頭",
+          "reading": "あたま"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "黒",
+          "reading": "くろ"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "車",
+          "reading": "くるま"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "運転席",
+          "reading": "うんてんせき"
+        },
+        {
+          "surface": "にいた",
+          "reading": ""
+        },
+        {
+          "surface": "岩田",
+          "reading": "いわた"
+        },
+        {
+          "surface": "さんの",
+          "reading": ""
+        },
+        {
+          "surface": "顔",
+          "reading": "かお"
+        },
+        {
+          "surface": "がうかびました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Min no atama ni, kuroi kuruma no untenseki ni ita Iwatasan no kao ga ukabimashita.",
+      "translations": {
+        "vi": "Trong đầu Minh hiện lên gương mặt anh Iwata ngồi ở ghế lái chiếc xe đen.",
+        "en": "Iwata's face in the driver's seat of the black car flashed into Minh's mind.",
+        "zh-Hans": "阿明脑海里浮现出黑车驾驶座上岩田的脸。",
+        "zh-Hant": "阿明腦海裡浮現出黑車駕駛座上巖田的臉。",
+        "ko": "민의 머릿속에 검은 차 운전석에 있던 이와타 씨의 얼굴이 떠올랐습니다.",
+        "tl": "Pumasok sa isip ni Minh ang mukha ni Iwata sa itim na kotse.",
+        "ne": "मिन्हको दिमागमा कालो गाडीको चालक सिटमा बसेका इवाताको अनुहार आयो।",
+        "id": "Wajah Iwata di kursi pengemudi mobil hitam terlintas di benak Minh.",
+        "pt": "Veio à mente de Minh o rosto de Iwata no banco do carro preto.",
+        "my": "မင်းရဲ့ ခေါင်းထဲ ကားအနက်ရဲ့ ယာဉ်မောင်းခုံက အီဝါတာ မျက်နှာ ပေါ်လာပါတယ်။",
+        "th": "ในหัวมิญนึกถึงหน้าอิวาตะที่นั่งขับรถสีดำ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「Aに顔がうかぶ」: gương mặt hiện lên trong A.",
+        "en": "「Aに顔がうかぶ」 = a face comes to A (mind).",
+        "zh-Hans": "「Aに顔がうかぶ」＝脑海浮现面孔。",
+        "zh-Hant": "「Aに顔がうかぶ」＝腦海浮現面孔。",
+        "ko": "떠오르다.",
+        "tl": "sumagi sa isip.",
+        "ne": "सम्झनामा आउनु।",
+        "id": "terlintas.",
+        "pt": "vir à mente.",
+        "my": "ပေါ်လာ။",
+        "th": "นึกถึง"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=184.648,190.734",
+      "t": [
+        184.648,
+        190.734
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「キヨさん、このごみ、わたしが分けて、正しい日に出してもいいですか。」",
+      "furigana": [
+        {
+          "surface": "「キヨさん、このごみ、わたしが",
+          "reading": ""
+        },
+        {
+          "surface": "分",
+          "reading": "わ"
+        },
+        {
+          "surface": "けて、",
+          "reading": ""
+        },
+        {
+          "surface": "正",
+          "reading": "ただ"
+        },
+        {
+          "surface": "しい",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "してもいいですか。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kiyosan, kono gomi, watashi ga wakete, tadashii hi ni dashite moiidesu ka.”",
+      "translations": {
+        "vi": "\"Bà Kiyo, để cháu phân loại rác này rồi đổ đúng ngày được không ạ?\"",
+        "en": "\"Kiyo, may I sort this garbage and put it out on the right day?\"",
+        "zh-Hans": "“阿清奶奶，这些垃圾我来分类，在正确的日子扔，可以吗？”",
+        "zh-Hant": "“阿清奶奶，這些垃圾我來分類，在正確的日子扔，可以嗎？”",
+        "ko": "\"기요 씨, 이 쓰레기 제가 분류해서 맞는 날에 내도 될까요?\"",
+        "tl": "\"Kiyo, puwede bang ako ang mag-uri at magtapon sa tamang araw?\"",
+        "ne": "\"कियोजी, यो फोहोर म छुट्याएर सही दिन फाल्दिऊँ?\"",
+        "id": "\"Bu Kiyo, boleh saya pilah sampah ini dan buang di hari yang benar?\"",
+        "pt": "\"Dona Kiyo, posso separar este lixo e pôr no dia certo?\"",
+        "my": "\"ကီယို၊ ဒီအမှိုက်ကို ကျွန်တော် ခွဲပြီး မှန်တဲ့နေ့ ပစ်လို့ရမလား။\"",
+        "th": "\"คุณคิโยะ ขยะนี่ให้ผมแยกแล้วทิ้งให้ถูกวันได้ไหมครับ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜てもいいですか」: xin phép ~.",
+        "en": "「〜てもいいですか」 = may I ~?",
+        "zh-Hans": "「〜てもいいですか」＝可以……吗。",
+        "zh-Hant": "「〜てもいいですか」＝可以……嗎。",
+        "ko": "「〜てもいいですか」=~해도 돼요?",
+        "tl": "「〜てもいいですか」 = puwede bang ~?",
+        "ne": "「〜てもいいですか」 = ~ गर्दा हुन्छ?",
+        "id": "「〜てもいいですか」 = boleh ~?",
+        "pt": "「〜てもいいですか」 = posso ~?",
+        "my": "「〜てもいいですか」 = ~ လို့ရမလား။",
+        "th": "「〜てもいいですか」 = ~ ได้ไหม"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=191.634,196.652",
+      "t": [
+        191.634,
+        196.652
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「ええよ。ほんま助かるわ。うち、腰が痛くてなあ。」",
+      "furigana": [
+        {
+          "surface": "「ええよ。ほんま",
+          "reading": ""
+        },
+        {
+          "surface": "助",
+          "reading": "たす"
+        },
+        {
+          "surface": "かるわ。うち、",
+          "reading": ""
+        },
+        {
+          "surface": "腰",
+          "reading": "こし"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "痛",
+          "reading": "いた"
+        },
+        {
+          "surface": "くてなあ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Ee yo. Honma tasukaru wa. Uchi, koshi ga itakute naa.”",
+      "translations": {
+        "vi": "\"Được chứ. Đỡ cho bà quá. Bà đau lưng lắm.\"",
+        "en": "\"Sure. That's a real help. My back hurts, you see.\"",
+        "zh-Hans": "“好啊。真是帮大忙了。我腰疼得很。”",
+        "zh-Hant": "“好啊。真是幫大忙了。我腰疼得很。”",
+        "ko": "\"좋지. 정말 도움 되네. 내가 허리가 아파서.\"",
+        "tl": "\"Sige. Malaking tulong. Masakit kasi ang likod ko.\"",
+        "ne": "\"हुन्छ। साँच्चै सहयोग भयो। मेरो कम्मर दुख्छ।\"",
+        "id": "\"Boleh. Sangat membantu. Pinggang saya sakit.\"",
+        "pt": "\"Pode. Ajuda muito. Minhas costas doem.\"",
+        "my": "\"ရတယ်။ တကယ် အကူအညီပဲ။ ခါးနာနေလို့။\"",
+        "th": "\"ได้สิ ช่วยได้มากเลย ป้าปวดเอวน่ะ\""
+      },
+      "vocab": [
+        {
+          "word": "助かる",
+          "reading": "たすかる",
+          "meanings": {
+            "vi": "được giúp, đỡ quá",
+            "en": "to be a help",
+            "zh-Hans": "帮大忙",
+            "zh-Hant": "幫大忙",
+            "ko": "도움이 되다",
+            "tl": "malaking tulong",
+            "ne": "सहयोग हुनु",
+            "id": "tertolong",
+            "pt": "ajudar muito",
+            "my": "အကူအညီရ",
+            "th": "ช่วยได้มาก"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "腰",
+          "reading": "こし",
+          "meanings": {
+            "vi": "lưng (thắt lưng)",
+            "en": "lower back",
+            "zh-Hans": "腰",
+            "zh-Hant": "腰",
+            "ko": "허리",
+            "tl": "baywang",
+            "ne": "कम्मर",
+            "id": "pinggang",
+            "pt": "lombar",
+            "my": "ခါး",
+            "th": "เอว"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "Osaka: ええ = いい, 〜わ (cả nam lẫn nữ, nhẹ nhàng). 助かる = được giúp, đỡ quá.",
+        "en": "Osaka: ええ = いい. 助かる = that helps.",
+        "zh-Hans": "大阪话：ええ＝いい。助かる＝帮大忙。",
+        "zh-Hant": "大阪話：ええ＝いい。助かる＝幫大忙。",
+        "ko": "오사카: ええ=いい. 助かる=도움 되다.",
+        "tl": "Osaka: ええ = いい.",
+        "ne": "ओसाका: ええ = いい।",
+        "id": "Osaka: ええ = いい.",
+        "pt": "Osaka: ええ = いい.",
+        "my": "အိုဆာကာ: ええ = いい။",
+        "th": "โอซาก้า: ええ = いい"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=197.552,202.17",
+      "t": [
+        197.552,
+        202.17
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "部屋に戻ると、ミンは床に新聞を広げて、袋の中のものを出しました。",
+      "furigana": [
+        {
+          "surface": "部屋",
+          "reading": "へや"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "戻",
+          "reading": "もど"
+        },
+        {
+          "surface": "ると、ミンは",
+          "reading": ""
+        },
+        {
+          "surface": "床",
+          "reading": "ゆか"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "新聞",
+          "reading": "しんぶん"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "広",
+          "reading": "ひろ"
+        },
+        {
+          "surface": "げて、",
+          "reading": ""
+        },
+        {
+          "surface": "袋",
+          "reading": "ふくろ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "のものを",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Heya ni modoru to, Min wa yuka ni shinbun o hirogete, fukuro no naka no mono o dashimashita.",
+      "translations": {
+        "vi": "Về phòng, Minh trải báo ra sàn rồi đổ đồ trong túi ra.",
+        "en": "Back in his room, Minh spread newspaper on the floor and emptied the bag.",
+        "zh-Hans": "回到房间，阿明在地上铺开报纸，把袋子里的东西倒了出来。",
+        "zh-Hant": "回到房間，阿明在地上鋪開報紙，把袋子裡的東西倒了出來。",
+        "ko": "방에 돌아온 민은 바닥에 신문을 펴고 봉투 속 물건을 꺼냈습니다.",
+        "tl": "Pagbalik sa kuwarto, naglatag si Minh ng dyaryo sa sahig at inilabas ang laman.",
+        "ne": "कोठामा फर्केर मिन्हले भुइँमा पत्रिका फिँजाए र झोलाभित्रको सामान निकाले।",
+        "id": "Di kamar, Minh membentangkan koran di lantai dan mengeluarkan isi kantong.",
+        "pt": "No quarto, Minh abriu jornal no chão e esvaziou o saco.",
+        "my": "အခန်းပြန်ရောက်တော့ မင်းက ကြမ်းပြင်မှာ သတင်းစာ ဖြန့်ပြီး အိတ်ထဲက ပစ္စည်းတွေ ထုတ်ပါတယ်။",
+        "th": "กลับถึงห้อง มิญกางหนังสือพิมพ์บนพื้น แล้วเทของในถุงออกมา"
+      },
+      "vocab": [
+        {
+          "word": "床",
+          "reading": "ゆか",
+          "meanings": {
+            "vi": "sàn nhà",
+            "en": "floor",
+            "zh-Hans": "地板",
+            "zh-Hant": "地板",
+            "ko": "바닥",
+            "tl": "sahig",
+            "ne": "भुइँ",
+            "id": "lantai",
+            "pt": "chão",
+            "my": "ကြမ်းပြင်",
+            "th": "พื้น"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "広げる",
+          "reading": "ひろげる",
+          "meanings": {
+            "vi": "trải ra, mở rộng",
+            "en": "to spread out",
+            "zh-Hans": "摊开",
+            "zh-Hant": "攤開",
+            "ko": "펼치다",
+            "tl": "ilatag",
+            "ne": "फैलाउनु",
+            "id": "membentangkan",
+            "pt": "estender",
+            "my": "ဖြန့်",
+            "th": "กาง"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "広げる = trải ra. 「〜ると、…」: khi ~ thì ….",
+        "en": "広げる = spread out. 「〜ると、…」 = when ~, ….",
+        "zh-Hans": "広げる＝铺开。",
+        "zh-Hant": "広げる＝鋪開。",
+        "ko": "広げる=펴다.",
+        "tl": "広げる = ilatag.",
+        "ne": "広げる = फिँजाउनु।",
+        "id": "広げる = membentangkan.",
+        "pt": "広げる = estender.",
+        "my": "広げる = ဖြန့်။",
+        "th": "広げる = กาง"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=203.07,209.196",
+      "t": [
+        203.07,
+        209.196
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "空き缶、古い雑誌、こわれた傘、そして、細かくやぶられた紙がたくさん出てきました。",
+      "furigana": [
+        {
+          "surface": "空",
+          "reading": "あ"
+        },
+        {
+          "surface": "き",
+          "reading": ""
+        },
+        {
+          "surface": "缶",
+          "reading": "かん"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "古",
+          "reading": "ふる"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "雑誌",
+          "reading": "ざっし"
+        },
+        {
+          "surface": "、こわれた",
+          "reading": ""
+        },
+        {
+          "surface": "傘",
+          "reading": "かさ"
+        },
+        {
+          "surface": "、そして、",
+          "reading": ""
+        },
+        {
+          "surface": "細",
+          "reading": "こま"
+        },
+        {
+          "surface": "かくやぶられた",
+          "reading": ""
+        },
+        {
+          "surface": "紙",
+          "reading": "かみ"
+        },
+        {
+          "surface": "がたくさん",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "てきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Akikan, furui zasshi, kowareta kasa, soshite, komakaku yaburareta kami ga takusan detekimashita.",
+      "translations": {
+        "vi": "Lon rỗng, tạp chí cũ, cái ô hỏng, và rất nhiều mẩu giấy bị xé vụn.",
+        "en": "Empty cans, old magazines, a broken umbrella, and lots of paper torn into tiny pieces came out.",
+        "zh-Hans": "空罐、旧杂志、坏伞，还有很多被撕碎的纸。",
+        "zh-Hant": "空罐、舊雜誌、壞傘，還有很多被撕碎的紙。",
+        "ko": "빈 캔, 오래된 잡지, 망가진 우산, 그리고 잘게 찢긴 종이가 잔뜩 나왔습니다.",
+        "tl": "Lumabas ang mga lata, lumang magasin, sirang payong, at maraming pinunit na papel.",
+        "ne": "खाली टिन, पुराना पत्रिका, बिग्रेको छाता, र टुक्रा-टुक्रा च्यातिएका धेरै कागज निस्किए।",
+        "id": "Kaleng kosong, majalah lama, payung rusak, dan banyak kertas sobekan kecil keluar.",
+        "pt": "Saíram latas vazias, revistas velhas, um guarda-chuva quebrado e muitos papéis rasgados em pedacinhos.",
+        "my": "သံဘူးခွံ၊ မဂ္ဂဇင်းဟောင်း၊ ပျက်နေတဲ့ ထီး၊ ပြီးတော့ အစိတ်စိတ် ဆုတ်ထားတဲ့ စက္ကူအများကြီး ထွက်လာပါတယ်။",
+        "th": "กระป๋องเปล่า นิตยสารเก่า ร่มพัง และกระดาษที่ถูกฉีกเป็นชิ้นเล็ก ๆ จำนวนมาก"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "やぶられた = bị xé (bị động của やぶる). 細かく = vụn, nhỏ.",
+        "en": "やぶられた = torn (passive). 細かく = finely.",
+        "zh-Hans": "やぶられた＝被撕（被动）。細かく＝细碎。",
+        "zh-Hant": "やぶられた＝被撕（被動）。細かく＝細碎。",
+        "ko": "やぶられた=찢긴.",
+        "tl": "やぶられた = pinunit.",
+        "ne": "やぶられた = च्यातिएको।",
+        "id": "やぶられた = disobek.",
+        "pt": "やぶられた = rasgado.",
+        "my": "やぶられた = ဆုတ်ခံရ။",
+        "th": "やぶられた = ถูกฉีก"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=209.796,218.107",
+      "t": [
+        209.796,
+        218.107
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "紙には、どれも小さな数字と、森田製作所のマークが印刷されていました。",
+      "furigana": [
+        {
+          "surface": "紙",
+          "reading": "かみ"
+        },
+        {
+          "surface": "には、どれも",
+          "reading": ""
+        },
+        {
+          "surface": "小",
+          "reading": "ちい"
+        },
+        {
+          "surface": "さな",
+          "reading": ""
+        },
+        {
+          "surface": "数字",
+          "reading": "すうじ"
+        },
+        {
+          "surface": "と、",
+          "reading": ""
+        },
+        {
+          "surface": "森田",
+          "reading": "もりた"
+        },
+        {
+          "surface": "製作所",
+          "reading": "せいさくしょ"
+        },
+        {
+          "surface": "のマークが",
+          "reading": ""
+        },
+        {
+          "surface": "印刷",
+          "reading": "いんさつ"
+        },
+        {
+          "surface": "されていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kami ni wa, dore mo chiisana suuji to, Morita seisakusho no maaku ga insatsusareteimashita.",
+      "translations": {
+        "vi": "Mẩu nào cũng có những con số nhỏ và logo của xưởng Morita được in lên.",
+        "en": "Every piece had small numbers and the Morita Works logo printed on it.",
+        "zh-Hans": "每张纸上都印着小小的数字和森田制作所的标志。",
+        "zh-Hant": "每張紙上都印著小小的數字和森田製作所的標誌。",
+        "ko": "종이마다 작은 숫자와 모리타 제작소 마크가 인쇄되어 있었습니다.",
+        "tl": "Bawat piraso ay may maliliit na numero at logo ng Morita Works.",
+        "ne": "हरेक कागजमा साना अङ्क र मोरिता कारखानाको चिन्ह छापिएको थियो।",
+        "id": "Setiap kertas tercetak angka kecil dan logo Pabrik Morita.",
+        "pt": "Cada pedaço tinha números pequenos e o logo da Morita impressos.",
+        "my": "စက္ကူတိုင်းမှာ ဂဏန်းသေးသေးတွေနဲ့ မိုရီတာ စက်ရုံ တံဆိပ် ပုံနှိပ်ထားပါတယ်။",
+        "th": "ทุกชิ้นพิมพ์ตัวเลขเล็ก ๆ และโลโก้โรงงานโมริตะ"
+      },
+      "vocab": [
+        {
+          "word": "マーク",
+          "reading": "まーく",
+          "meanings": {
+            "vi": "biểu tượng",
+            "en": "logo, mark",
+            "zh-Hans": "标志",
+            "zh-Hant": "標誌",
+            "ko": "마크",
+            "tl": "marka",
+            "ne": "चिन्ह",
+            "id": "logo",
+            "pt": "marca",
+            "my": "အမှတ်တံဆိပ်",
+            "th": "เครื่องหมาย"
+          },
+          "level": "N1"
+        },
+        {
+          "word": "数字",
+          "reading": "すうじ",
+          "meanings": {
+            "vi": "con số",
+            "en": "numbers, figures",
+            "zh-Hans": "数字",
+            "zh-Hant": "數字",
+            "ko": "숫자",
+            "tl": "numero",
+            "ne": "अङ्क",
+            "id": "angka",
+            "pt": "números",
+            "my": "ကိန်းဂဏန်း",
+            "th": "ตัวเลข"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "どれも = cái nào cũng. 「〜されている」: được ~ (bị động, trạng thái).",
+        "en": "どれも = every one. 「〜されている」 = is ~ed (state).",
+        "zh-Hans": "どれも＝每个都。",
+        "zh-Hant": "どれも＝每個都。",
+        "ko": "どれも=어느 것이나.",
+        "tl": "どれも = bawat isa.",
+        "ne": "どれも = हरेक।",
+        "id": "どれも = semuanya.",
+        "pt": "どれも = todos.",
+        "my": "どれも = အားလုံး။",
+        "th": "どれも = ทุกชิ้น"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=218.707,225.213",
+      "t": [
+        218.707,
+        225.213
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ミンは一枚一枚ならべて、セロハンテープでつなげていきました。",
+      "furigana": [
+        {
+          "surface": "ミンは",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "いち"
+        },
+        {
+          "surface": "枚",
+          "reading": "まい"
+        },
+        {
+          "surface": "一",
+          "reading": "いち"
+        },
+        {
+          "surface": "枚",
+          "reading": "まい"
+        },
+        {
+          "surface": "ならべて、セロハンテープでつなげていきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Min wa ichimai ichimai narabete, serohan teepu de tsunageteikimashita.",
+      "translations": {
+        "vi": "Minh xếp từng mảnh một, dùng băng dính nối chúng lại.",
+        "en": "Minh laid them out one by one and joined them with tape.",
+        "zh-Hans": "阿明一张一张地摆好，用透明胶带拼起来。",
+        "zh-Hant": "阿明一張一張地擺好，用透明膠帶拼起來。",
+        "ko": "민은 한 장 한 장 늘어놓고 셀로판테이프로 이어 붙였습니다.",
+        "tl": "Isa-isang inayos ni Minh at pinagdugtong ng tape.",
+        "ne": "मिन्हले एक-एक गरी मिलाएर टेपले जोडे।",
+        "id": "Minh menyusunnya satu per satu dan menyambung dengan selotip.",
+        "pt": "Minh foi colocando um por um e juntando com fita adesiva.",
+        "my": "မင်းက တစ်ရွက်ချင်း စီပြီး တိပ်နဲ့ ဆက်ပါတယ်။",
+        "th": "มิญเรียงทีละชิ้น แล้วต่อกันด้วยเทปใส"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "一枚一枚 = từng tờ một. 「〜ていく」: dần dần ~.",
+        "en": "一枚一枚 = one sheet at a time. 「〜ていく」 = gradually ~.",
+        "zh-Hans": "一枚一枚＝一张一张。「〜ていく」＝逐渐。",
+        "zh-Hant": "一枚一枚＝一張一張。「〜ていく」＝逐漸。",
+        "ko": "一枚一枚=한 장 한 장.",
+        "tl": "一枚一枚 = isa-isa.",
+        "ne": "一枚一枚 = एक-एक।",
+        "id": "一枚一枚 = satu per satu.",
+        "pt": "一枚一枚 = um a um.",
+        "my": "一枚一枚 = တစ်ရွက်ချင်း။",
+        "th": "一枚一枚 = ทีละแผ่น"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=225.813,231.009",
+      "t": [
+        225.813,
+        231.009
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "一時間ほどして、それは一枚の書類になりました。",
+      "furigana": [
+        {
+          "surface": "一",
+          "reading": "いち"
+        },
+        {
+          "surface": "時間",
+          "reading": "じかん"
+        },
+        {
+          "surface": "ほどして、それは",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "いち"
+        },
+        {
+          "surface": "枚",
+          "reading": "まい"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "書類",
+          "reading": "しょるい"
+        },
+        {
+          "surface": "になりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ichijikan hodo shite, sore wa ichimai no shorui ni narimashita.",
+      "translations": {
+        "vi": "Khoảng một tiếng sau, chúng trở thành một tờ tài liệu.",
+        "en": "About an hour later, they had become a single document.",
+        "zh-Hans": "大约一个小时后，拼成了一份文件。",
+        "zh-Hant": "大約一個小時後，拼成了一份檔案。",
+        "ko": "한 시간쯤 지나자 그것은 한 장의 서류가 되었습니다.",
+        "tl": "Makalipas ang isang oras, naging isang dokumento ito.",
+        "ne": "करिब एक घण्टापछि त्यो एउटा कागजात बन्यो।",
+        "id": "Sekitar satu jam kemudian, jadilah satu dokumen.",
+        "pt": "Cerca de uma hora depois, virou um documento.",
+        "my": "တစ်နာရီလောက်ကြာတော့ စာရွက်စာတမ်း တစ်ရွက် ဖြစ်လာပါတယ်။",
+        "th": "ราวหนึ่งชั่วโมงต่อมา ก็กลายเป็นเอกสารหนึ่งแผ่น"
+      },
+      "vocab": [
+        {
+          "word": "書類",
+          "reading": "しょるい",
+          "meanings": {
+            "vi": "giấy tờ",
+            "en": "document",
+            "zh-Hans": "文件",
+            "zh-Hant": "檔案",
+            "ko": "서류",
+            "tl": "dokumento",
+            "ne": "कागजात",
+            "id": "dokumen",
+            "pt": "documento",
+            "my": "စာရွက်စာတမ်း",
+            "th": "เอกสาร"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ほどして」: sau khoảng ~. 「Aになる」: trở thành A.",
+        "en": "「〜ほどして」 = after about ~. 「Aになる」 = become A.",
+        "zh-Hans": "「〜ほどして」＝大约……后。",
+        "zh-Hant": "「〜ほどして」＝大約……後。",
+        "ko": "「〜ほどして」=~쯤 지나.",
+        "tl": "「〜ほどして」 = makalipas ang mga ~.",
+        "ne": "「〜ほどして」 = करिब ~ पछि।",
+        "id": "「〜ほどして」 = sekitar ~ kemudian.",
+        "pt": "「〜ほどして」 = cerca de ~ depois.",
+        "my": "「〜ほどして」 = ~ လောက်ကြာ။",
+        "th": "「〜ほどして」 = ราว ~ ต่อมา"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=231.609,236.276",
+      "t": [
+        231.609,
+        236.276
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "いちばん上には、「八月　検査記録」と書いてあります。",
+      "furigana": [
+        {
+          "surface": "いちばん",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "には、「",
+          "reading": ""
+        },
+        {
+          "surface": "八月",
+          "reading": "はちがつ"
+        },
+        {
+          "surface": "　",
+          "reading": ""
+        },
+        {
+          "surface": "検査",
+          "reading": "けんさ"
+        },
+        {
+          "surface": "記録",
+          "reading": "きろく"
+        },
+        {
+          "surface": "」と",
+          "reading": ""
+        },
+        {
+          "surface": "書",
+          "reading": "か"
+        },
+        {
+          "surface": "いてあります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ichiban ue ni wa, “Hachigatsu kensa kiroku” to kaitearimasu.",
+      "translations": {
+        "vi": "Trên cùng ghi \"Tháng Tám — Hồ sơ kiểm tra\".",
+        "en": "At the very top it said \"August: Inspection Record.\"",
+        "zh-Hans": "最上面写着“八月　检查记录”。",
+        "zh-Hant": "最上面寫著“八月　檢查記錄”。",
+        "ko": "맨 위에는 '8월 검사 기록'이라고 적혀 있었습니다.",
+        "tl": "Sa pinakaitaas: \"Agosto — Rekord ng Inspeksyon.\"",
+        "ne": "सबैभन्दा माथि \"अगस्ट — जाँच अभिलेख\" लेखिएको थियो।",
+        "id": "Di paling atas tertulis \"Agustus — Catatan Inspeksi\".",
+        "pt": "No topo: \"Agosto — Registro de inspeção\".",
+        "my": "အပေါ်ဆုံးမှာ \"ဩဂုတ် — စစ်ဆေးမှတ်တမ်း\" လို့ ရေးထားပါတယ်။",
+        "th": "บนสุดเขียนว่า \"สิงหาคม — บันทึกการตรวจสอบ\""
+      },
+      "vocab": [
+        {
+          "word": "検査",
+          "reading": "けんさ",
+          "meanings": {
+            "vi": "kiểm tra",
+            "en": "inspection",
+            "zh-Hans": "检查",
+            "zh-Hant": "檢查",
+            "ko": "검사",
+            "tl": "inspeksyon",
+            "ne": "जाँच",
+            "id": "pemeriksaan",
+            "pt": "inspeção",
+            "my": "စစ်ဆေးခြင်း",
+            "th": "การตรวจสอบ"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "記録",
+          "reading": "きろく",
+          "meanings": {
+            "vi": "ghi chép, hồ sơ",
+            "en": "record",
+            "zh-Hans": "记录",
+            "zh-Hant": "記錄",
+            "ko": "기록",
+            "tl": "rekord",
+            "ne": "अभिलेख",
+            "id": "catatan",
+            "pt": "registro",
+            "my": "မှတ်တမ်း",
+            "th": "บันทึก"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "いちばん上 = trên cùng. 検査記録 = hồ sơ kiểm tra (khác 報告書 = báo cáo).",
+        "en": "いちばん上 = very top. 検査記録 = inspection record (raw data, unlike 報告書 report).",
+        "zh-Hans": "いちばん上＝最上面。検査記録＝检查记录（原始数据）。",
+        "zh-Hant": "いちばん上＝最上面。検査記録＝檢查記錄（原始資料）。",
+        "ko": "検査記録=검사 기록.",
+        "tl": "検査記録 = rekord ng inspeksyon.",
+        "ne": "検査記録 = जाँच अभिलेख।",
+        "id": "検査記録 = catatan inspeksi.",
+        "pt": "検査記録 = registro de inspeção.",
+        "my": "検査記録 = စစ်ဆေးမှတ်တမ်း။",
+        "th": "検査記録 = บันทึกการตรวจ"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=236.876,240.906",
+      "t": [
+        236.876,
+        240.906
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "下の欄には、「検査担当　ファム・ハイ」というサインがありました。",
+      "furigana": [
+        {
+          "surface": "下",
+          "reading": "した"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "欄",
+          "reading": "らん"
+        },
+        {
+          "surface": "には、「",
+          "reading": ""
+        },
+        {
+          "surface": "検査",
+          "reading": "けんさ"
+        },
+        {
+          "surface": "担当",
+          "reading": "たんとう"
+        },
+        {
+          "surface": "　ファム・ハイ」というサインがありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shita no ran ni wa, “Kensa tantou Famu Hai” to iu sain ga arimashita.",
+      "translations": {
+        "vi": "Ở ô bên dưới có chữ ký \"Người kiểm tra: Phạm Hải\".",
+        "en": "In the box below was the signature \"Inspector: Pham Hai.\"",
+        "zh-Hans": "下面一栏有签名：“检查负责人　范海”。",
+        "zh-Hant": "下面一欄有簽名：“檢查負責人　範海”。",
+        "ko": "아래 칸에는 '검사 담당 팜 하이'라는 서명이 있었습니다.",
+        "tl": "Sa ibabang kahon: \"Inspektor: Pham Hai.\"",
+        "ne": "तलको कोठामा \"जाँच जिम्मेवार: फाम हाई\" भन्ने हस्ताक्षर थियो।",
+        "id": "Di kolom bawah ada tanda tangan \"Petugas inspeksi: Pham Hai\".",
+        "pt": "No campo de baixo havia a assinatura \"Inspetor: Pham Hai\".",
+        "my": "အောက်ကွက်မှာ \"စစ်ဆေးသူ ဖမ်ဟိုင်\" ဆိုတဲ့ လက်မှတ် ရှိပါတယ်။",
+        "th": "ช่องด้านล่างมีลายเซ็น \"ผู้ตรวจ ฝ่าม ไห่\""
+      },
+      "vocab": [
+        {
+          "word": "欄",
+          "reading": "らん",
+          "meanings": {
+            "vi": "ô, cột (trên giấy tờ)",
+            "en": "field, column",
+            "zh-Hans": "栏",
+            "zh-Hant": "欄",
+            "ko": "칸",
+            "tl": "hanay",
+            "ne": "कोठा",
+            "id": "kolom",
+            "pt": "campo",
+            "my": "ကွက်",
+            "th": "ช่อง"
+          },
+          "level": "N2"
+        },
+        {
+          "word": "担当",
+          "reading": "たんとう",
+          "meanings": {
+            "vi": "phụ trách",
+            "en": "in charge of",
+            "zh-Hans": "负责",
+            "zh-Hant": "負責",
+            "ko": "담당",
+            "tl": "namamahala",
+            "ne": "जिम्मेवार",
+            "id": "penanggung jawab",
+            "pt": "responsável",
+            "my": "တာဝန်ခံ",
+            "th": "ผู้รับผิดชอบ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "担当 = người phụ trách. 「AというB」: B ghi là A.",
+        "en": "担当 = person in charge. 「AというB」 = a B saying A.",
+        "zh-Hans": "担当＝负责人。",
+        "zh-Hant": "擔當＝負責人。",
+        "ko": "担当=담당.",
+        "tl": "担当 = namamahala.",
+        "ne": "担当 = जिम्मेवार।",
+        "id": "担当 = petugas.",
+        "pt": "担当 = responsável.",
+        "my": "担当 = တာဝန်ခံ။",
+        "th": "担当 = ผู้รับผิดชอบ"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=241.506,246.15",
+      "t": [
+        241.506,
+        246.15
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そして、「三・八パーセント」という数字の上に、赤いペンで線が引いてありました。",
+      "furigana": [
+        {
+          "surface": "そして、「",
+          "reading": ""
+        },
+        {
+          "surface": "三・八",
+          "reading": "さんてんはち"
+        },
+        {
+          "surface": "パーセント」という",
+          "reading": ""
+        },
+        {
+          "surface": "数字",
+          "reading": "すうじ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "赤",
+          "reading": "あか"
+        },
+        {
+          "surface": "いペンで",
+          "reading": ""
+        },
+        {
+          "surface": "線",
+          "reading": "せん"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "引",
+          "reading": "ひ"
+        },
+        {
+          "surface": "いてありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite, “Santenhachi paasento” to iu suuji no ue ni, akai pen de sen ga hiitearimashita.",
+      "translations": {
+        "vi": "Và con số \"3,8 phần trăm\" bị gạch một đường bằng bút đỏ.",
+        "en": "And the figure \"3.8 percent\" had a line drawn through it in red pen.",
+        "zh-Hans": "而“百分之三点八”这个数字上，用红笔画了一道线。",
+        "zh-Hant": "而“百分之三點八”這個數字上，用紅筆畫了一道線。",
+        "ko": "그리고 '3.8퍼센트'라는 숫자 위에 빨간 펜으로 줄이 그어져 있었습니다.",
+        "tl": "At ang \"3.8 porsiyento\" ay ginuhitan ng pulang pen.",
+        "ne": "अनि \"३.८ प्रतिशत\" अङ्कमाथि रातो कलमले धर्का कोरिएको थियो।",
+        "id": "Dan angka \"3,8 persen\" dicoret dengan pena merah.",
+        "pt": "E o número \"3,8 por cento\" estava riscado de caneta vermelha.",
+        "my": "ပြီးတော့ \"၃.၈ ရာခိုင်နှုန်း\" ဆိုတဲ့ ဂဏန်းပေါ်မှာ ဘောပင်နီနဲ့ မျဉ်းဆွဲထားပါတယ်။",
+        "th": "และตัวเลข \"3.8 เปอร์เซ็นต์\" ถูกขีดฆ่าด้วยปากกาแดง"
+      },
+      "vocab": [
+        {
+          "word": "パーセント",
+          "reading": "ぱーせんと",
+          "meanings": {
+            "vi": "phần trăm",
+            "en": "percent",
+            "zh-Hans": "百分之",
+            "zh-Hant": "百分之",
+            "ko": "퍼센트",
+            "tl": "porsiyento",
+            "ne": "प्रतिशत",
+            "id": "persen",
+            "pt": "por cento",
+            "my": "ရာခိုင်နှုန်း",
+            "th": "เปอร์เซ็นต์"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "線を引く = gạch, kẻ đường. 三・八 đọc là さんてんはち (3,8). 「〜てあった」: (ai đó) đã ~.",
+        "en": "線を引く = draw a line. 三・八 = さんてんはち (3.8).",
+        "zh-Hans": "線を引く＝画线。三・八读さんてんはち。",
+        "zh-Hant": "線を引く＝畫線。三・八讀さんてんはち。",
+        "ko": "線を引く=줄을 긋다. 三・八=さんてんはち.",
+        "tl": "線を引く = guhitan.",
+        "ne": "線を引く = धर्का कोर्नु।",
+        "id": "線を引く = mencoret.",
+        "pt": "線を引く = riscar.",
+        "my": "線を引く = မျဉ်းဆွဲ။",
+        "th": "線を引く = ขีดเส้น"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=246.75,253.822",
+      "t": [
+        246.75,
+        253.822
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "その横には、同じ赤いペンで「〇・二に直せ」と書いてあります。",
+      "furigana": [
+        {
+          "surface": "その",
+          "reading": ""
+        },
+        {
+          "surface": "横",
+          "reading": "よこ"
+        },
+        {
+          "surface": "には、",
+          "reading": ""
+        },
+        {
+          "surface": "同",
+          "reading": "おな"
+        },
+        {
+          "surface": "じ",
+          "reading": ""
+        },
+        {
+          "surface": "赤",
+          "reading": "あか"
+        },
+        {
+          "surface": "いペンで「",
+          "reading": ""
+        },
+        {
+          "surface": "〇・二",
+          "reading": "れいてんに"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "直",
+          "reading": "なお"
+        },
+        {
+          "surface": "せ」と",
+          "reading": ""
+        },
+        {
+          "surface": "書",
+          "reading": "か"
+        },
+        {
+          "surface": "いてあります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono yoko ni wa, onaji akai pen de “Reitenni ni naose” to kaitearimasu.",
+      "translations": {
+        "vi": "Bên cạnh, cũng bằng bút đỏ ấy, có dòng chữ \"Sửa thành 0,2\".",
+        "en": "Next to it, in the same red pen, was written \"Change it to 0.2.\"",
+        "zh-Hans": "旁边用同一支红笔写着“改成〇·二”。",
+        "zh-Hant": "旁邊用同一支紅筆寫著“改成〇·二”。",
+        "ko": "옆에는 같은 빨간 펜으로 '0.2로 고쳐라'라고 적혀 있었습니다.",
+        "tl": "Sa tabi, sa parehong pulang pen: \"Gawing 0.2.\"",
+        "ne": "छेउमा उही रातो कलमले \"०.२ बनाऊ\" लेखिएको थियो।",
+        "id": "Di sebelahnya, dengan pena merah yang sama: \"Ubah jadi 0,2\".",
+        "pt": "Ao lado, com a mesma caneta: \"Mude para 0,2\".",
+        "my": "ဘေးမှာ ဘောပင်နီ အတူတူနဲ့ \"၀.၂ လို့ ပြင်\" လို့ ရေးထားပါတယ်။",
+        "th": "ข้าง ๆ เขียนด้วยปากกาแดงเดียวกันว่า \"แก้เป็น 0.2\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "直せ = thể mệnh lệnh của 直す (sửa!), giọng ra lệnh cấp trên.",
+        "en": "直せ = imperative of 直す (fix it!), a boss's order.",
+        "zh-Hans": "直せ＝直す的命令形（改！），上级命令口吻。",
+        "zh-Hant": "直せ＝直す的命令形（改！），上級命令口吻。",
+        "ko": "直せ=直す의 명령형.",
+        "tl": "直せ = utos na anyo.",
+        "ne": "直せ = आदेश रूप।",
+        "id": "直せ = bentuk perintah.",
+        "pt": "直せ = imperativo.",
+        "my": "直せ = အမိန့်ပုံစံ။",
+        "th": "直せ = รูปคำสั่ง"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=254.422,259.984",
+      "t": [
+        254.422,
+        259.984
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "赤い字の最後には、小さく「岩田」と名前がありました。",
+      "furigana": [
+        {
+          "surface": "赤",
+          "reading": "あか"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "字",
+          "reading": "じ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "最後",
+          "reading": "さいご"
+        },
+        {
+          "surface": "には、",
+          "reading": ""
+        },
+        {
+          "surface": "小",
+          "reading": "ちい"
+        },
+        {
+          "surface": "さく「",
+          "reading": ""
+        },
+        {
+          "surface": "岩田",
+          "reading": "いわた"
+        },
+        {
+          "surface": "」と",
+          "reading": ""
+        },
+        {
+          "surface": "名前",
+          "reading": "なまえ"
+        },
+        {
+          "surface": "がありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Akai ji no saigo ni wa, chiisaku “Iwata” to namae ga arimashita.",
+      "translations": {
+        "vi": "Cuối dòng chữ đỏ có ký tên nhỏ: \"Iwata\".",
+        "en": "At the end of the red writing was a small name: \"Iwata.\"",
+        "zh-Hans": "红字最后，小小地写着名字“岩田”。",
+        "zh-Hant": "紅字最後，小小地寫著名字“巖田”。",
+        "ko": "빨간 글씨 끝에는 작게 '이와타'라는 이름이 있었습니다.",
+        "tl": "Sa dulo ng pulang sulat, maliit na pangalan: \"Iwata.\"",
+        "ne": "रातो अक्षरको अन्त्यमा सानो \"इवाता\" नाम थियो।",
+        "id": "Di akhir tulisan merah ada nama kecil: \"Iwata\".",
+        "pt": "No fim da letra vermelha, um nome pequeno: \"Iwata\".",
+        "my": "စာနီရဲ့ အဆုံးမှာ \"အီဝါတာ\" ဆိုတဲ့ နာမည်သေးသေး ရှိပါတယ်။",
+        "th": "ท้ายตัวหนังสือแดงมีชื่อเล็ก ๆ ว่า \"อิวาตะ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "字 = chữ viết tay. 小さく = nhỏ (trạng từ).",
+        "en": "字 = handwriting. 小さく = small (adverb).",
+        "zh-Hans": "字＝字迹。小さく＝小小地。",
+        "zh-Hant": "字＝字跡。小さく＝小小地。",
+        "ko": "字=글씨.",
+        "tl": "字 = sulat.",
+        "ne": "字 = अक्षर।",
+        "id": "字 = tulisan.",
+        "pt": "字 = letra.",
+        "my": "字 = စာ။",
+        "th": "字 = ตัวหนังสือ"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=260.584,264.955",
+      "t": [
+        260.584,
+        264.955
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「やっぱり、数字を変えたのは、岩田さんだったんだ。」",
+      "furigana": [
+        {
+          "surface": "「やっぱり、",
+          "reading": ""
+        },
+        {
+          "surface": "数字",
+          "reading": "すうじ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "変",
+          "reading": "か"
+        },
+        {
+          "surface": "えたのは、",
+          "reading": ""
+        },
+        {
+          "surface": "岩田",
+          "reading": "いわた"
+        },
+        {
+          "surface": "さんだったんだ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Yappari, suuji o kaeta no wa, Iwatasan datta n da.”",
+      "translations": {
+        "vi": "\"Quả nhiên, người sửa số liệu là anh Iwata.\"",
+        "en": "\"So it was Iwata who changed the numbers after all.\"",
+        "zh-Hans": "“果然，改数字的是岩田。”",
+        "zh-Hant": "“果然，改數字的是巖田。”",
+        "ko": "\"역시 숫자를 바꾼 건 이와타 씨였어.\"",
+        "tl": "\"Sabi ko na, si Iwata ang nagbago ng numero.\"",
+        "ne": "\"हो रहेछ, अङ्क फेर्ने इवाता नै रहेछन्।\"",
+        "id": "\"Ternyata, yang mengubah angka itu Iwata.\"",
+        "pt": "\"Então foi o Iwata que mudou os números.\"",
+        "my": "\"ထင်တဲ့အတိုင်းပဲ၊ ဂဏန်း ပြောင်းတာ အီဝါတာ ပဲ။\"",
+        "th": "\"นึกแล้วเชียว คนที่แก้ตัวเลขคืออิวาตะ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "やっぱり = quả nhiên. 「〜のは、Aだった」: người ~ chính là A. 〜んだ: tự nói, phát hiện.",
+        "en": "やっぱり = as I thought. 「〜のは、Aだった」 = the one who ~ was A.",
+        "zh-Hans": "やっぱり＝果然。「〜のは、Aだった」＝……的是A。",
+        "zh-Hant": "やっぱり＝果然。「〜のは、Aだった」＝……的是A。",
+        "ko": "やっぱり=역시.",
+        "tl": "やっぱり = sabi ko na.",
+        "ne": "やっぱり = हो रहेछ।",
+        "id": "やっぱり = ternyata.",
+        "pt": "やっぱり = afinal.",
+        "my": "やっぱり = ထင်တဲ့အတိုင်း။",
+        "th": "やっぱり = นึกแล้ว"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=265.855,269.748",
+      "t": [
+        265.855,
+        269.748
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "ミンの手は、少しふるえていました。",
+      "furigana": [
+        {
+          "surface": "ミンの",
+          "reading": ""
+        },
+        {
+          "surface": "手",
+          "reading": "て"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "少",
+          "reading": "すこ"
+        },
+        {
+          "surface": "しふるえていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Min no te wa, sukoshi furueteimashita.",
+      "translations": {
+        "vi": "Tay Minh hơi run.",
+        "en": "Minh's hands were trembling a little.",
+        "zh-Hans": "阿明的手微微发抖。",
+        "zh-Hant": "阿明的手微微發抖。",
+        "ko": "민의 손이 조금 떨리고 있었습니다.",
+        "tl": "Bahagyang nanginginig ang kamay ni Minh.",
+        "ne": "मिन्हका हात अलिकति काँपिरहेका थिए।",
+        "id": "Tangan Minh sedikit gemetar.",
+        "pt": "As mãos de Minh tremiam um pouco.",
+        "my": "မင်းရဲ့ လက်တွေ နည်းနည်း တုန်နေပါတယ်။",
+        "th": "มือของมิญสั่นเล็กน้อย"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ふるえる = run. 「〜ていました」: đang ~ (trạng thái).",
+        "en": "ふるえる = tremble.",
+        "zh-Hans": "ふるえる＝发抖。",
+        "zh-Hant": "ふるえる＝發抖。",
+        "ko": "ふるえる=떨리다.",
+        "tl": "ふるえる = manginig.",
+        "ne": "ふるえる = काँप्नु।",
+        "id": "ふるえる = gemetar.",
+        "pt": "ふるえる = tremer.",
+        "my": "ふるえる = တုန်။",
+        "th": "ふるえる = สั่น"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=270.648,273.549",
+      "t": [
+        270.648,
+        273.549
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ハイさんのノートに書いてあったことは、本当だったのです。",
+      "furigana": [
+        {
+          "surface": "ハイさんのノートに",
+          "reading": ""
+        },
+        {
+          "surface": "書",
+          "reading": "か"
+        },
+        {
+          "surface": "いてあったことは、",
+          "reading": ""
+        },
+        {
+          "surface": "本当",
+          "reading": "ほんとう"
+        },
+        {
+          "surface": "だったのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Haisan no nooto ni kaiteatta koto wa, hontou datta no desu.",
+      "translations": {
+        "vi": "Những gì viết trong sổ của anh Hải là sự thật.",
+        "en": "What was written in Hai's notebook was true.",
+        "zh-Hans": "海哥本子里写的，都是真的。",
+        "zh-Hant": "海哥本子裡寫的，都是真的。",
+        "ko": "하이 씨의 노트에 적힌 건 사실이었던 것입니다.",
+        "tl": "Totoo ang nakasulat sa kuwaderno ni Hai.",
+        "ne": "हाईको कापीमा लेखिएको कुरा सत्य रहेछ।",
+        "id": "Yang tertulis di buku Hai ternyata benar.",
+        "pt": "O que estava no caderno do Hai era verdade.",
+        "my": "ဟိုင်ရဲ့ စာအုပ်ထဲ ရေးထားတာတွေ အမှန်ပဲ။",
+        "th": "สิ่งที่เขียนในสมุดของไห่เป็นความจริง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜のです」: kết luận, giải thích (văn kể).",
+        "en": "「〜のです」 = conclusion in narration.",
+        "zh-Hans": "「〜のです」＝叙述中的结论。",
+        "zh-Hant": "「〜のです」＝敘述中的結論。",
+        "ko": "「〜のです」=결론.",
+        "tl": "「〜のです」 = konklusyon.",
+        "ne": "「〜のです」 = निष्कर्ष।",
+        "id": "「〜のです」 = kesimpulan.",
+        "pt": "「〜のです」 = conclusão.",
+        "my": "「〜のです」 = နိဂုံး။",
+        "th": "「〜のです」 = สรุป"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=274.149,278.184",
+      "t": [
+        274.149,
+        278.184
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "これを社長やあかりさんに見せれば、会社を助けられるかもしれません。",
+      "furigana": [
+        {
+          "surface": "これを",
+          "reading": ""
+        },
+        {
+          "surface": "社長",
+          "reading": "しゃちょう"
+        },
+        {
+          "surface": "やあかりさんに",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "せれば、",
+          "reading": ""
+        },
+        {
+          "surface": "会社",
+          "reading": "かいしゃ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "助",
+          "reading": "たす"
+        },
+        {
+          "surface": "けられるかもしれません。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kore o shachou ya akarisan ni misereba, kaisha o tasukerareru kamo shiremasen.",
+      "translations": {
+        "vi": "Nếu cho giám đốc và chị Akari xem cái này, có lẽ sẽ cứu được công ty.",
+        "en": "If he showed this to the president and Akari, he might be able to save the company.",
+        "zh-Hans": "如果把这个给社长和明里看，也许能救公司。",
+        "zh-Hant": "如果把這個給社長和明裡看，也許能救公司。",
+        "ko": "이걸 사장님과 아카리 씨에게 보여 주면 회사를 구할 수 있을지도 모릅니다.",
+        "tl": "Kung ipapakita ito sa presidente at kay Akari, baka mailigtas ang kompanya.",
+        "ne": "यो अध्यक्ष र अकारीलाई देखाए कम्पनी बचाउन सकिन्छ होला।",
+        "id": "Kalau ini ditunjukkan ke direktur dan Akari, mungkin perusahaan bisa diselamatkan.",
+        "pt": "Se mostrasse isso ao presidente e a Akari, talvez salvasse a empresa.",
+        "my": "ဒါကို ဥက္ကဋ္ဌနဲ့ အာကာရီ ကို ပြရင် ကုမ္ပဏီကို ကယ်နိုင်ကောင်း ကယ်နိုင်မယ်။",
+        "th": "ถ้าเอาสิ่งนี้ให้ประธานกับอาคาริดู อาจช่วยบริษัทได้"
+      },
+      "vocab": [
+        {
+          "word": "助ける",
+          "reading": "たすける",
+          "meanings": {
+            "vi": "cứu, giúp",
+            "en": "to save, help",
+            "zh-Hans": "帮助",
+            "zh-Hant": "幫助",
+            "ko": "돕다",
+            "tl": "tumulong",
+            "ne": "बचाउनु",
+            "id": "menolong",
+            "pt": "salvar",
+            "my": "ကယ်",
+            "th": "ช่วย"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ば」: nếu ~. 「〜られるかもしれない」: có lẽ ~ được.",
+        "en": "「〜ば」 = if ~. 「〜られるかもしれない」 = might be able to ~.",
+        "zh-Hans": "「〜ば」＝如果。「〜かもしれない」＝也许。",
+        "zh-Hant": "「〜ば」＝如果。「〜かもしれない」＝也許。",
+        "ko": "「〜かもしれない」=~지도 모른다.",
+        "tl": "「〜かもしれない」 = baka.",
+        "ne": "「〜かもしれない」 = होला।",
+        "id": "「〜かもしれない」 = mungkin.",
+        "pt": "「〜かもしれない」 = talvez.",
+        "my": "「〜かもしれない」 = ~ မယ် ထင်။",
+        "th": "「〜かもしれない」 = อาจจะ"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=278.784,283.877",
+      "t": [
+        278.784,
+        283.877
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "でも、ミンはすぐに考え直しました。",
+      "furigana": [
+        {
+          "surface": "でも、ミンはすぐに",
+          "reading": ""
+        },
+        {
+          "surface": "考",
+          "reading": "かんが"
+        },
+        {
+          "surface": "え",
+          "reading": ""
+        },
+        {
+          "surface": "直",
+          "reading": "なお"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, Min wa sugu ni kangaenaoshimashita.",
+      "translations": {
+        "vi": "Nhưng Minh lập tức nghĩ lại.",
+        "en": "But Minh quickly reconsidered.",
+        "zh-Hans": "但阿明马上又重新想了想。",
+        "zh-Hant": "但阿明馬上又重新想了想。",
+        "ko": "하지만 민은 곧 다시 생각했습니다.",
+        "tl": "Pero agad nag-isip muli si Minh.",
+        "ne": "तर मिन्हले तुरुन्तै फेरि सोचे।",
+        "id": "Namun Minh segera berpikir ulang.",
+        "pt": "Mas Minh logo repensou.",
+        "my": "ဒါပေမဲ့ မင်းက ချက်ချင်း ပြန်စဉ်းစားပါတယ်။",
+        "th": "แต่มิญก็คิดใหม่ทันที"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "考え直す = nghĩ lại (〜直す = làm lại ~).",
+        "en": "考え直す = reconsider (〜直す = redo ~).",
+        "zh-Hans": "考え直す＝重新考虑（〜直す＝重新）。",
+        "zh-Hant": "考え直す＝重新考慮（〜直す＝重新）。",
+        "ko": "〜直す=다시 ~하다.",
+        "tl": "〜直す = ulitin.",
+        "ne": "〜直す = फेरि ~।",
+        "id": "〜直す = ~ ulang.",
+        "pt": "〜直す = re-~.",
+        "my": "〜直す = ပြန် ~။",
+        "th": "〜直す = ~ ใหม่"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=284.477,287.688",
+      "t": [
+        284.477,
+        287.688
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「これはコピーだ。岩田さんは、印刷し直しただけだと言うだろう。」",
+      "furigana": [
+        {
+          "surface": "「これはコピーだ。",
+          "reading": ""
+        },
+        {
+          "surface": "岩田",
+          "reading": "いわた"
+        },
+        {
+          "surface": "さんは、",
+          "reading": ""
+        },
+        {
+          "surface": "印刷",
+          "reading": "いんさつ"
+        },
+        {
+          "surface": "し",
+          "reading": ""
+        },
+        {
+          "surface": "直",
+          "reading": "なお"
+        },
+        {
+          "surface": "しただけだと",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "うだろう。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kore wa kopii da. Iwatasan wa, insatsushinaoshita dake da to iudarou.”",
+      "translations": {
+        "vi": "\"Đây là bản sao. Anh Iwata sẽ bảo chỉ là in lại thôi.\"",
+        "en": "\"This is a copy. Iwata will just say he reprinted it.\"",
+        "zh-Hans": "“这是复印件。岩田会说只是重新打印了而已。”",
+        "zh-Hant": "“這是影印件。巖田會說只是重新列印了而已。”",
+        "ko": "\"이건 복사본이야. 이와타 씨는 다시 인쇄했을 뿐이라고 하겠지.\"",
+        "tl": "\"Kopya lang ito. Sasabihin ni Iwata na nag-print lang siya ulit.\"",
+        "ne": "\"यो प्रतिलिपि हो। इवाताले फेरि छापेको मात्र भन्लान्।\"",
+        "id": "\"Ini salinan. Iwata pasti bilang cuma mencetak ulang.\"",
+        "pt": "\"Isto é uma cópia. O Iwata vai dizer que só reimprimiu.\"",
+        "my": "\"ဒါ မိတ္တူ။ အီဝါတာက ပြန်ပုံနှိပ်တာပဲလို့ ပြောမှာပဲ။\"",
+        "th": "\"นี่เป็นสำเนา อิวาตะคงบอกว่าแค่พิมพ์ใหม่\""
+      },
+      "vocab": [
+        {
+          "word": "印刷",
+          "reading": "いんさつ",
+          "meanings": {
+            "vi": "in ấn",
+            "en": "printing",
+            "zh-Hans": "印刷",
+            "zh-Hant": "印刷",
+            "ko": "인쇄",
+            "tl": "pag-print",
+            "ne": "छपाइ",
+            "id": "cetak",
+            "pt": "impressão",
+            "my": "ပုံနှိပ်",
+            "th": "พิมพ์"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ただけだ」: chỉ ~ thôi. 「〜だろう」: chắc là ~ (đoán, thể thường).",
+        "en": "「〜ただけだ」 = merely ~. 「〜だろう」 = probably ~.",
+        "zh-Hans": "「〜ただけだ」＝只是……而已。「〜だろう」＝大概。",
+        "zh-Hant": "「〜ただけだ」＝只是……而已。「〜だろう」＝大概。",
+        "ko": "「〜ただけだ」=~했을 뿐.",
+        "tl": "「〜ただけだ」 = lang.",
+        "ne": "「〜ただけだ」 = मात्र।",
+        "id": "「〜ただけだ」 = cuma.",
+        "pt": "「〜ただけだ」 = apenas.",
+        "my": "「〜ただけだ」 = ပဲ။",
+        "th": "「〜ただけだ」 = แค่"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=288.588,293.515",
+      "t": [
+        288.588,
+        293.515
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "本当に必要なのは、工場にある元のデータでした。",
+      "furigana": [
+        {
+          "surface": "本当",
+          "reading": "ほんとう"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "必要",
+          "reading": "ひつよう"
+        },
+        {
+          "surface": "なのは、",
+          "reading": ""
+        },
+        {
+          "surface": "工場",
+          "reading": "こうじょう"
+        },
+        {
+          "surface": "にある",
+          "reading": ""
+        },
+        {
+          "surface": "元",
+          "reading": "もと"
+        },
+        {
+          "surface": "のデータでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hontouni hitsuyou na no wa, koujou ni aru moto no deeta deshita.",
+      "translations": {
+        "vi": "Thứ thật sự cần là dữ liệu gốc ở xưởng.",
+        "en": "What he really needed was the original data at the factory.",
+        "zh-Hans": "真正需要的，是工厂里的原始数据。",
+        "zh-Hant": "真正需要的，是工廠裡的原始資料。",
+        "ko": "정말 필요한 건 공장에 있는 원래 데이터였습니다.",
+        "tl": "Ang talagang kailangan ay ang orihinal na datos sa pabrika.",
+        "ne": "साँच्चै चाहिने कुरा कारखानामा भएको मूल डाटा थियो।",
+        "id": "Yang benar-benar dibutuhkan adalah data asli di pabrik.",
+        "pt": "O que ele precisava de verdade eram os dados originais da fábrica.",
+        "my": "တကယ်လိုတာက စက်ရုံမှာရှိတဲ့ မူလဒေတာ ပါ။",
+        "th": "สิ่งที่ต้องการจริง ๆ คือข้อมูลต้นฉบับที่โรงงาน"
+      },
+      "vocab": [
+        {
+          "word": "元",
+          "reading": "もと",
+          "meanings": {
+            "vi": "gốc, ban đầu",
+            "en": "original",
+            "zh-Hans": "原本",
+            "zh-Hant": "原本",
+            "ko": "원래",
+            "tl": "orihinal",
+            "ne": "मूल",
+            "id": "asli",
+            "pt": "original",
+            "my": "မူလ",
+            "th": "ต้นฉบับ"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "データ",
+          "reading": "でーた",
+          "meanings": {
+            "vi": "dữ liệu",
+            "en": "data",
+            "zh-Hans": "数据",
+            "zh-Hant": "資料",
+            "ko": "데이터",
+            "tl": "datos",
+            "ne": "डाटा",
+            "id": "data",
+            "pt": "dados",
+            "my": "ဒေတာ",
+            "th": "ข้อมูล"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜のは、Aでした」: cái ~ là A. 元のデータ = dữ liệu gốc.",
+        "en": "「〜のは、Aでした」 = what ~ was A. 元のデータ = original data.",
+        "zh-Hans": "「〜のは、Aでした」＝……的是A。",
+        "zh-Hant": "「〜のは、Aでした」＝……的是A。",
+        "ko": "元=원래.",
+        "tl": "元 = orihinal.",
+        "ne": "元 = मूल।",
+        "id": "元 = asli.",
+        "pt": "元 = original.",
+        "my": "元 = မူလ။",
+        "th": "元 = ต้นฉบับ"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=294.415,298.761",
+      "t": [
+        294.415,
+        298.761
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのとき、つなげた紙のうらに、もう一つの字があるのに気がつきました。",
+      "furigana": [
+        {
+          "surface": "そのとき、つなげた",
+          "reading": ""
+        },
+        {
+          "surface": "紙",
+          "reading": "かみ"
+        },
+        {
+          "surface": "のうらに、もう",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "ひと"
+        },
+        {
+          "surface": "つの",
+          "reading": ""
+        },
+        {
+          "surface": "字",
+          "reading": "じ"
+        },
+        {
+          "surface": "があるのに",
+          "reading": ""
+        },
+        {
+          "surface": "気",
+          "reading": "き"
+        },
+        {
+          "surface": "がつきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono toki, tsunageta kami no ura ni, mou hitotsu no ji ga aru no ni kigatsukimashita.",
+      "translations": {
+        "vi": "Đúng lúc ấy, Minh nhận ra mặt sau tờ giấy đã nối có thêm một dòng chữ khác.",
+        "en": "Just then, he noticed more writing on the back of the taped-together paper.",
+        "zh-Hans": "就在这时，他发现拼好的纸背面还有一行字。",
+        "zh-Hant": "就在這時，他發現拼好的紙背面還有一行字。",
+        "ko": "그때 이어 붙인 종이 뒷면에 또 다른 글씨가 있는 것을 알아차렸습니다.",
+        "tl": "Noon, napansin niyang may sulat pa sa likod ng papel.",
+        "ne": "त्यही बेला जोडेको कागजको पछाडि अर्को लेखाइ भएको थाहा पाए।",
+        "id": "Saat itu, dia sadar ada tulisan lain di balik kertas yang disambung.",
+        "pt": "Nesse momento, notou outra escrita no verso do papel.",
+        "my": "အဲဒီအချိန် ဆက်ထားတဲ့ စက္ကူနောက်ကျောမှာ နောက်ထပ်စာ ရှိနေတာ သတိထားမိပါတယ်။",
+        "th": "ตอนนั้นเอง เขาสังเกตว่าด้านหลังกระดาษที่ต่อไว้มีตัวหนังสืออีก"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "うら = mặt sau. 「〜のに気がつく」: nhận ra rằng ~.",
+        "en": "うら = back side. 「〜のに気がつく」 = notice that ~.",
+        "zh-Hans": "うら＝背面。「〜のに気がつく」＝注意到……。",
+        "zh-Hant": "うら＝背面。「〜のに気がつく」＝注意到……。",
+        "ko": "うら=뒷면.",
+        "tl": "うら = likod.",
+        "ne": "うら = पछाडि।",
+        "id": "うら = balik.",
+        "pt": "うら = verso.",
+        "my": "うら = နောက်ကျော။",
+        "th": "うら = ด้านหลัง"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=299.361,305.065",
+      "t": [
+        299.361,
+        305.065
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それは、ノートと同じ、ハイさんの字でした。",
+      "furigana": [
+        {
+          "surface": "それは、ノートと",
+          "reading": ""
+        },
+        {
+          "surface": "同",
+          "reading": "おな"
+        },
+        {
+          "surface": "じ、ハイさんの",
+          "reading": ""
+        },
+        {
+          "surface": "字",
+          "reading": "じ"
+        },
+        {
+          "surface": "でした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sore wa, nooto to onaji, Haisan no ji deshita.",
+      "translations": {
+        "vi": "Đó là chữ của anh Hải, giống hệt trong cuốn sổ.",
+        "en": "It was Hai's handwriting, the same as in the notebook.",
+        "zh-Hans": "那是海哥的字，和本子上的一样。",
+        "zh-Hant": "那是海哥的字，和本子上的一樣。",
+        "ko": "그것은 노트와 같은 하이 씨의 글씨였습니다.",
+        "tl": "Sulat iyon ni Hai, katulad ng sa kuwaderno.",
+        "ne": "त्यो कापीकै जस्तो हाईको अक्षर थियो।",
+        "id": "Itu tulisan Hai, sama seperti di buku.",
+        "pt": "Era a letra do Hai, igual à do caderno.",
+        "my": "အဲဒါ စာအုပ်ထဲကလိုပဲ ဟိုင်ရဲ့ လက်ရေး ပါ။",
+        "th": "นั่นคือลายมือไห่ เหมือนในสมุด"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「Aと同じ」: giống A.",
+        "en": "「Aと同じ」 = same as A.",
+        "zh-Hans": "「Aと同じ」＝和A一样。",
+        "zh-Hant": "「Aと同じ」＝和A一樣。",
+        "ko": "「Aと同じ」=A와 같은.",
+        "tl": "「Aと同じ」 = katulad ng A.",
+        "ne": "「Aと同じ」 = A जस्तै।",
+        "id": "「Aと同じ」 = sama dengan A.",
+        "pt": "「Aと同じ」 = igual a A.",
+        "my": "「Aと同じ」 = A နဲ့ တူ။",
+        "th": "「Aと同じ」 = เหมือน A"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=305.665,309.308",
+      "t": [
+        305.665,
+        309.308
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「本当の記録は、工場の二階の……」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "本当",
+          "reading": "ほんとう"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "記録",
+          "reading": "きろく"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "工場",
+          "reading": "こうじょう"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "二",
+          "reading": "に"
+        },
+        {
+          "surface": "階",
+          "reading": "かい"
+        },
+        {
+          "surface": "の……」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Hontou no kiroku wa, koujou no nikai no......”",
+      "translations": {
+        "vi": "\"Hồ sơ thật ở tầng hai của xưởng...\"",
+        "en": "\"The real record is on the second floor of the factory...\"",
+        "zh-Hans": "“真正的记录在工厂二楼的……”",
+        "zh-Hant": "“真正的記錄在工廠二樓的……”",
+        "ko": "\"진짜 기록은 공장 2층의……\"",
+        "tl": "\"Ang tunay na rekord ay nasa ikalawang palapag ng pabrika...\"",
+        "ne": "\"साँचो अभिलेख कारखानाको दोस्रो तलाको...\"",
+        "id": "\"Catatan asli ada di lantai dua pabrik...\"",
+        "pt": "\"O registro verdadeiro está no segundo andar da fábrica...\"",
+        "my": "\"အစစ်အမှန် မှတ်တမ်းက စက်ရုံ နှစ်ထပ်ရဲ့...\"",
+        "th": "\"บันทึกจริงอยู่ที่ชั้นสองของโรงงาน...\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "Câu bị đứt giữa chừng: 「Aは、Bの……」. 二階 = tầng hai.",
+        "en": "A sentence cut off: 「Aは、Bの……」. 二階 = second floor.",
+        "zh-Hans": "句子中断。二階＝二楼。",
+        "zh-Hant": "句子中斷。二階＝二樓。",
+        "ko": "문장이 끊김. 二階=2층.",
+        "tl": "Putol na pangungusap.",
+        "ne": "अधुरो वाक्य।",
+        "id": "Kalimat terputus.",
+        "pt": "Frase cortada.",
+        "my": "ဝါကျ ပြတ်။",
+        "th": "ประโยคขาด"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=309.908,313.005",
+      "t": [
+        309.908,
+        313.005
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "でも、その先は、やぶられてなくなっていました。",
+      "furigana": [
+        {
+          "surface": "でも、その",
+          "reading": ""
+        },
+        {
+          "surface": "先",
+          "reading": "さき"
+        },
+        {
+          "surface": "は、やぶられてなくなっていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, sono saki wa, yaburarete nakunatteimashita.",
+      "translations": {
+        "vi": "Nhưng phần tiếp theo đã bị xé mất.",
+        "en": "But the rest had been torn away.",
+        "zh-Hans": "可是后面的部分被撕掉了。",
+        "zh-Hant": "可是後面的部分被撕掉了。",
+        "ko": "하지만 그 뒤는 찢겨 나가 없었습니다.",
+        "tl": "Pero napunit na ang kasunod.",
+        "ne": "तर त्यसपछिको भाग च्यातिएर हराएको थियो।",
+        "id": "Tapi lanjutannya sudah sobek dan hilang.",
+        "pt": "Mas o resto tinha sido arrancado.",
+        "my": "ဒါပေမဲ့ ဆက်ရမယ့်အပိုင်း ဆုတ်ပြီး ပျောက်နေပါတယ်။",
+        "th": "แต่ส่วนที่เหลือถูกฉีกหายไป"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "その先 = phần tiếp theo. 「〜られて、なくなる」: bị ~ nên mất.",
+        "en": "その先 = what follows. 「〜られて、なくなる」 = was ~ed and gone.",
+        "zh-Hans": "その先＝后面。",
+        "zh-Hant": "その先＝後面。",
+        "ko": "その先=그 뒤.",
+        "tl": "その先 = kasunod.",
+        "ne": "その先 = त्यसपछि।",
+        "id": "その先 = lanjutan.",
+        "pt": "その先 = o resto.",
+        "my": "その先 = နောက်ဆက်။",
+        "th": "その先 = ส่วนต่อ"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=313.605,317.494",
+      "t": [
+        313.605,
+        317.494
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ミンはもう一度、袋の中を全部探しました。",
+      "furigana": [
+        {
+          "surface": "ミンはもう",
+          "reading": ""
+        },
+        {
+          "surface": "一度",
+          "reading": "いちど"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "袋",
+          "reading": "ふくろ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "全部",
+          "reading": "ぜんぶ"
+        },
+        {
+          "surface": "探",
+          "reading": "さが"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Min wa mouichido, fukuro no naka o zenbu sagashimashita.",
+      "translations": {
+        "vi": "Minh lục lại toàn bộ túi rác một lần nữa.",
+        "en": "Minh searched the whole bag once more.",
+        "zh-Hans": "阿明又把袋子里全翻了一遍。",
+        "zh-Hant": "阿明又把袋子裡全翻了一遍。",
+        "ko": "민은 다시 한번 봉투 안을 샅샅이 찾았습니다.",
+        "tl": "Hinalughog muli ni Minh ang buong supot.",
+        "ne": "मिन्हले फेरि एक पटक झोलाभरि खोजे।",
+        "id": "Minh mencari sekali lagi di seluruh kantong.",
+        "pt": "Minh revirou o saco inteiro mais uma vez.",
+        "my": "မင်းက အိတ်ထဲ တစ်ခါ ထပ်ရှာပါတယ်။",
+        "th": "มิญค้นในถุงทั้งหมดอีกครั้ง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "もう一度 = một lần nữa. 探す = tìm.",
+        "en": "もう一度 = once more. 探す = search.",
+        "zh-Hans": "もう一度＝再一次。探す＝找。",
+        "zh-Hant": "もう一度＝再一次。探す＝找。",
+        "ko": "探す=찾다.",
+        "tl": "探す = hanapin.",
+        "ne": "探す = खोज्नु।",
+        "id": "探す = mencari.",
+        "pt": "探す = procurar.",
+        "my": "探す = ရှာ။",
+        "th": "探す = ค้นหา"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=318.094,321.98",
+      "t": [
+        318.094,
+        321.98
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "けれども、最後の一枚は、どこにもありませんでした。",
+      "furigana": [
+        {
+          "surface": "けれども、",
+          "reading": ""
+        },
+        {
+          "surface": "最後",
+          "reading": "さいご"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "いち"
+        },
+        {
+          "surface": "枚",
+          "reading": "まい"
+        },
+        {
+          "surface": "は、どこにもありませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Keredomo, saigo no ichimai wa, doko ni mo arimasendeshita.",
+      "translations": {
+        "vi": "Nhưng mảnh cuối cùng không có ở đâu cả.",
+        "en": "But the last piece was nowhere to be found.",
+        "zh-Hans": "可是最后一张哪里都没有。",
+        "zh-Hant": "可是最後一張哪裡都沒有。",
+        "ko": "하지만 마지막 한 장은 어디에도 없었습니다.",
+        "tl": "Pero wala kahit saan ang huling piraso.",
+        "ne": "तर अन्तिम टुक्रा कतै भेटिएन।",
+        "id": "Namun potongan terakhir tidak ada di mana pun.",
+        "pt": "Mas o último pedaço não estava em lugar nenhum.",
+        "my": "ဒါပေမဲ့ နောက်ဆုံးတစ်ရွက်က ဘယ်မှာမှ မရှိပါဘူး။",
+        "th": "แต่ชิ้นสุดท้ายไม่มีที่ไหนเลย"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「どこにも〜ない」: không ở đâu cả.",
+        "en": "「どこにも〜ない」 = nowhere.",
+        "zh-Hans": "「どこにも〜ない」＝哪里都没有。",
+        "zh-Hant": "「どこにも〜ない」＝哪裡都沒有。",
+        "ko": "어디에도 없다.",
+        "tl": "wala kahit saan.",
+        "ne": "कतै छैन।",
+        "id": "tidak di mana pun.",
+        "pt": "em lugar nenhum.",
+        "my": "ဘယ်မှာမှ မရှိ။",
+        "th": "ไม่มีที่ไหนเลย"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=322.58,326.88",
+      "t": [
+        322.58,
+        326.88
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「工場の二階……。夜なら、だれもいない。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "工場",
+          "reading": "こうじょう"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "二",
+          "reading": "に"
+        },
+        {
+          "surface": "階",
+          "reading": "かい"
+        },
+        {
+          "surface": "……。",
+          "reading": ""
+        },
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "なら、だれもいない。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Koujou no nikai....... Yoru nara, dare mo inai.”",
+      "translations": {
+        "vi": "\"Tầng hai của xưởng... Ban đêm thì không có ai.\"",
+        "en": "\"The factory's second floor... At night, no one's there.\"",
+        "zh-Hans": "“工厂二楼……晚上的话，没有人。”",
+        "zh-Hant": "“工廠二樓……晚上的話，沒有人。”",
+        "ko": "\"공장 2층……. 밤이라면 아무도 없어.\"",
+        "tl": "\"Ikalawang palapag ng pabrika... Sa gabi, walang tao.\"",
+        "ne": "\"कारखानाको दोस्रो तला... राति त कोही हुँदैन।\"",
+        "id": "\"Lantai dua pabrik... Kalau malam, tak ada orang.\"",
+        "pt": "\"O segundo andar da fábrica... À noite não tem ninguém.\"",
+        "my": "\"စက်ရုံ နှစ်ထပ်... ညဆို ဘယ်သူမှ မရှိဘူး။\"",
+        "th": "\"ชั้นสองของโรงงาน... ถ้าเป็นกลางคืนก็ไม่มีใคร\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「Aなら」: nếu là A thì. だれも〜ない = không ai.",
+        "en": "「Aなら」 = if it's A. だれも〜ない = nobody.",
+        "zh-Hans": "「Aなら」＝如果是A。だれも〜ない＝谁都不。",
+        "zh-Hant": "「Aなら」＝如果是A。だれも〜ない＝誰都不。",
+        "ko": "「Aなら」=A라면.",
+        "tl": "「Aなら」 = kung A.",
+        "ne": "「Aなら」 = A भए।",
+        "id": "「Aなら」 = kalau A.",
+        "pt": "「Aなら」 = se for A.",
+        "my": "「Aなら」 = A ဆိုရင်။",
+        "th": "「Aなら」 = ถ้าเป็น A"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=327.78,330.927",
+      "t": [
+        327.78,
+        330.927
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "窓の外では、カラスが一羽、低い声で鳴いていました。",
+      "furigana": [
+        {
+          "surface": "窓",
+          "reading": "まど"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "外",
+          "reading": "そと"
+        },
+        {
+          "surface": "では、カラスが",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "いち"
+        },
+        {
+          "surface": "羽",
+          "reading": "わ"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "低",
+          "reading": "ひく"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "声",
+          "reading": "こえ"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "鳴",
+          "reading": "な"
+        },
+        {
+          "surface": "いていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mado no soto dewa, karasu ga ichiwa, hikui koe de naiteimashita.",
+      "translations": {
+        "vi": "Ngoài cửa sổ, một con quạ đang kêu giọng trầm.",
+        "en": "Outside the window, a crow was cawing in a low voice.",
+        "zh-Hans": "窗外，一只乌鸦低声叫着。",
+        "zh-Hant": "窗外，一隻烏鴉低聲叫著。",
+        "ko": "창밖에서 까마귀 한 마리가 낮은 소리로 울고 있었습니다.",
+        "tl": "Sa labas ng bintana, may uwak na mababang umuuwak.",
+        "ne": "झ्यालबाहिर एउटा काग गहिरो स्वरमा कराइरहेको थियो।",
+        "id": "Di luar jendela, seekor gagak berkoak dengan suara rendah.",
+        "pt": "Lá fora, um corvo grasnava baixo.",
+        "my": "ပြတင်းပေါက်အပြင်မှာ ကျီးကန်းတစ်ကောင် အသံနိမ့်နိမ့်နဲ့ အော်နေပါတယ်။",
+        "th": "นอกหน้าต่าง อีกาตัวหนึ่งร้องเสียงต่ำ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "一羽 = một con (đếm chim). 鳴く = (chim, thú) kêu.",
+        "en": "一羽 = one (counter for birds). 鳴く = (animal) cry.",
+        "zh-Hans": "一羽＝一只（鸟）。鳴く＝鸣叫。",
+        "zh-Hant": "一羽＝一隻（鳥）。鳴く＝鳴叫。",
+        "ko": "羽=마리(새). 鳴く=울다.",
+        "tl": "羽 = bilang ng ibon.",
+        "ne": "羽 = चरा गन्ने।",
+        "id": "羽 = ekor (burung).",
+        "pt": "羽 = contador de aves.",
+        "my": "羽 = ငှက်ရေတွက်။",
+        "th": "羽 = ตัว (นก)"
+      },
+      "audio": "/audio/osaka-hataraku-04/chapter.mp3#t=331.827,336.649",
+      "t": [
+        331.827,
+        336.649
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    }
+  ],
+  "audioTrack": {
+    "src": "/audio/osaka-hataraku-04/chapter.mp3",
+    "durationSec": 337.704
+  }
+}
