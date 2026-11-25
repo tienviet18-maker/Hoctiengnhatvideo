@@ -7193,6 +7193,32 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "botchan",
    "index": 3
   }
+ },
+ {
+  "id": "botchan-4",
+  "titles": {
+   "vi": "Botchan (4): Một sen năm rin và nàng Madonna",
+   "en": "Botchan (4): One and a Half Sen and Madonna",
+   "zh-Hans": "少爷（四）：一钱五厘与玛丹娜",
+   "zh-Hant": "少爺（四）：一錢五釐與瑪丹娜",
+   "ko": "도련님 (4): 1전 5리와 마돈나",
+   "tl": "Botchan (4): Isa't Kalahating Sen at si Madonna",
+   "ne": "बोच्चान (४): डेढ सेन र मडोना",
+   "id": "Botchan (4): Satu Setengah Sen dan Madonna",
+   "pt": "Botchan (4): Um Sen e Meio e Madonna",
+   "my": "ဘော့ချန် (၄): တစ်ဆင်ခွဲနဲ့ မဒေါ်နာ",
+   "th": "บ็อตจัง (4): หนึ่งเซ็นครึ่งกับมาดอนน่า"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/botchan-4.webp",
+  "series": {
+   "id": "botchan",
+   "index": 4
+  }
  }
 ];
 

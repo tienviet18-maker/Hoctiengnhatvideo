@@ -557,6 +557,7 @@ import v2HanshichiYukidaruma2 from "../../content/stories/hanshichi-yukidaruma-2
 import v2Botchan1 from "../../content/stories/botchan-1.json";
 import v2Botchan2 from "../../content/stories/botchan-2.json";
 import v2Botchan3 from "../../content/stories/botchan-3.json";
+import v2Botchan4 from "../../content/stories/botchan-4.json";
 // --- hết kệ A/E: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1119,6 +1120,7 @@ export const STORIES: StoryContent[] = [
   v2Botchan1 as unknown as StoryContent,
   v2Botchan2 as unknown as StoryContent,
   v2Botchan3 as unknown as StoryContent,
+  v2Botchan4 as unknown as StoryContent,
   // --- hết kệ A/E ---
 ];
 
