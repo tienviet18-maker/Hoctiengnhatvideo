@@ -544,6 +544,7 @@ import story455 from "../../content/stories/the-japanese-garden.json";
 import s_furusatoVnTamcam1 from "../../content/stories/furusato-vn-tamcam-1.json";
 import s_furusatoVnTamcam2 from "../../content/stories/furusato-vn-tamcam-2.json";
 import s_furusatoVnTamcam3 from "../../content/stories/furusato-vn-tamcam-3.json";
+import s_furusatoVnSodua1 from "../../content/stories/furusato-vn-sodua-1.json";
 
 export const VIDEOS: VideoContent[] = [
   video1 as unknown as VideoContent,
@@ -1093,6 +1094,7 @@ export const STORIES: StoryContent[] = [
   s_furusatoVnTamcam1 as unknown as StoryContent,
   s_furusatoVnTamcam2 as unknown as StoryContent,
   s_furusatoVnTamcam3 as unknown as StoryContent,
+  s_furusatoVnSodua1 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
