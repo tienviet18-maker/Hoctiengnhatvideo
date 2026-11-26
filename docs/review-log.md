@@ -707,3 +707,12 @@ Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse
 - Việc tiếp: sản xuất thật nhiều truyện v2 (truyện cổ thế giới, triết lý sống public domain, truyện Việt, văn học Nhật làm lại bản dài),
   rồi thay dần gói cũ.
 - `npm run verify` xanh.
+
+## Kệ truyện cổ thế giới: Lọ Lem, Bạch Tuyết bản dài N4 — 27/11/2026
+- 4 truyện v2 mới trên kệ `world` (id tiền tố `world-`, thread truyện cổ thế giới cấp):
+  - `world-cinderella-1` (miễn phí), `world-cinderella-2` (VIP): Lọ Lem theo Perrault 1697.
+  - `world-shirayuki-1` (miễn phí), `world-shirayuki-2` (VIP): Bạch Tuyết theo Grimm 1857. Kết đôi giày sắt nung được làm nhẹ đi: hoàng hậu bỏ trốn.
+- Mỗi truyện 50–56 câu, audio liền 1 file (Aoede kể, thoại Neural2-B/C đổi cao độ theo vai), bài học 4 điểm ngữ pháp + 4 câu hỏi, 10 ngôn ngữ (+ zh-Hant tự sinh), furigana mọi chữ Hán, bìa 文庫 riêng (giày thủy tinh, gương, táo).
+- Gói cũ ~10 câu `cinderella`, `snow-white` ẩn và trỏ sang bản mới qua `content/hidden-stories.json`.
+- Công cụ mới: `scripts/story-src/tr-txt.mjs` (viết bản dịch dạng khối văn bản thay JSON), `scripts/story-src/gloss-add.mjs` (thêm từ vào glossary kệ).
+- Muse/thread khác: chưa có Sinhala cho 4 truyện này; id `world-` do thread truyện cổ thế giới cấp, đừng dùng trùng.

@@ -701,6 +701,10 @@ import s_furusatoVnHoangle3 from "../../content/stories/furusato-vn-hoangle-3.js
 import s_furusatoVnThachlam1 from "../../content/stories/furusato-vn-thachlam-1.json";
 import s_furusatoVnThachlam2 from "../../content/stories/furusato-vn-thachlam-2.json";
 import s_furusatoVnThachlam3 from "../../content/stories/furusato-vn-thachlam-3.json";
+import s_worldCinderella1 from "../../content/stories/world-cinderella-1.json";
+import s_worldCinderella2 from "../../content/stories/world-cinderella-2.json";
+import s_worldShirayuki1 from "../../content/stories/world-shirayuki-1.json";
+import s_worldShirayuki2 from "../../content/stories/world-shirayuki-2.json";
 // --- hết kệ A/E: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1408,6 +1412,10 @@ export const STORIES: StoryContent[] = [
   s_furusatoVnThachlam1 as unknown as StoryContent,
   s_furusatoVnThachlam2 as unknown as StoryContent,
   s_furusatoVnThachlam3 as unknown as StoryContent,
+  s_worldCinderella1 as unknown as StoryContent,
+  s_worldCinderella2 as unknown as StoryContent,
+  s_worldShirayuki1 as unknown as StoryContent,
+  s_worldShirayuki2 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

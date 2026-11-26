@@ -1,0 +1,50 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜てもいいですか",
+   "example": 18,
+   "meaning": { "vi": "~ có được không? (xin phép)", "en": "may I ~? (asking permission)", "zh-Hans": "可以……吗？（请求许可）", "ko": "~해도 됩니까? (허락 구하기)", "tl": "puwede bang ~? (paghingi ng pahintulot)", "ne": "~ गर्न पाउँछु? (अनुमति माग्दा)", "id": "bolehkah ~? (minta izin)", "pt": "posso ~? (pedir permissão)", "my": "~ လို့ရမလား (ခွင့်တောင်းခြင်း)", "th": "~ ได้ไหม (ขออนุญาต)" }
+  },
+  {
+   "pattern": "〜だらけ",
+   "example": 10,
+   "meaning": { "vi": "đầy ~, toàn là ~ (thứ không hay)", "en": "covered in ~, full of ~ (something unpleasant)", "zh-Hans": "满是……（不好的东西）", "ko": "~투성이", "tl": "puno ng ~ (hindi kaaya-aya)", "ne": "~ ले भरिएको (नराम्रो कुरा)", "id": "penuh ~ (hal tak menyenangkan)", "pt": "cheio de ~, coberto de ~ (algo ruim)", "my": "~ တွေချည်း (မကောင်းတာ)", "th": "เต็มไปด้วย ~ (สิ่งไม่ดี)" }
+  },
+  {
+   "pattern": "〜てしまう",
+   "example": 43,
+   "meaning": { "vi": "lỡ ~ mất, ~ mất rồi", "en": "end up ~, ~ completely (often with regret)", "zh-Hans": "……了（不小心、遗憾）", "ko": "~해 버리다", "tl": "hindi sinasadyang ~, natapos ang ~", "ne": "~ गरिहाल्नु (पछुतो)", "id": "terlanjur ~, sudah ~", "pt": "acabar ~ (sem querer)", "my": "~ လိုက်မိသည်", "th": "เผลอ ~ ไป, ~ เสียแล้ว" }
+  },
+  {
+   "pattern": "〜なくちゃ",
+   "example": 46,
+   "meaning": { "vi": "phải ~ (văn nói của 〜なければならない)", "en": "must ~ (casual form of 〜なければならない)", "zh-Hans": "必须……（〜なければならない的口语）", "ko": "~해야 해 (구어체)", "tl": "kailangang ~ (pakaswal na anyo)", "ne": "~ नै पर्छ (बोलचालको रूप)", "id": "harus ~ (bentuk lisan)", "pt": "tenho que ~ (forma coloquial)", "my": "~ ရမယ် (အပြောစကား)", "th": "ต้อง ~ (ภาษาพูด)" }
+  }
+ ],
+ "quiz": [
+  {
+   "ja": "女の子は、どうして「シンデレラ」と呼ばれましたか。",
+   "choices": ["いつも灰で汚れていたから", "ガラスの靴をはいていたから", "お城に住んでいたから", "歌が上手だったから"],
+   "answer": 0,
+   "explain": { "vi": "Cô ngủ trên tro nên lúc nào cũng lấm lem tro.", "en": "She slept on the ashes, so she was always dirty with ash.", "zh-Hans": "她睡在灰上，总是满身灰。", "ko": "재 위에서 자서 늘 재투성이였기 때문이다.", "tl": "Natutulog siya sa abo kaya laging marumi.", "ne": "खरानीमाथि सुत्ने भएकाले सधैं फोहोर हुन्थिन्।", "id": "Ia tidur di atas abu sehingga selalu kotor.", "pt": "Dormia nas cinzas e vivia suja.", "my": "ပြာပေါ်မှာ အိပ်လို့ အမြဲ ပြာပေနေတယ်။", "th": "เธอนอนบนขี้เถ้าจึงเปื้อนอยู่เสมอ" }
+  },
+  {
+   "ja": "かぼちゃは、何になりましたか。",
+   "choices": ["白い馬", "金の馬車", "ドレス", "ガラスの靴"],
+   "answer": 1,
+   "explain": { "vi": "Bà tiên biến quả bí thành cỗ xe vàng.", "en": "The fairy turned the pumpkin into a golden carriage.", "zh-Hans": "仙女把南瓜变成了金马车。", "ko": "요정이 호박을 황금 마차로 바꿨다.", "tl": "Ginawang gintong karwahe ang kalabasa.", "ne": "फर्सीलाई सुनको बग्गी बनाइयो।", "id": "Labu diubah menjadi kereta emas.", "pt": "A abóbora virou uma carruagem de ouro.", "my": "ဖရုံသီးကို ရွှေမြင်းရထား ပြောင်းပေးတယ်။", "th": "ฟักทองกลายเป็นรถม้าทองคำ" }
+  },
+  {
+   "ja": "魔法は、何時に消えますか。",
+   "choices": ["夜の九時", "夜の十時", "夜の十二時", "朝の六時"],
+   "answer": 2,
+   "explain": { "vi": "Phép thuật tan lúc mười hai giờ đêm.", "en": "The magic ends at midnight.", "zh-Hans": "魔法在夜里十二点消失。", "ko": "마법은 밤 열두 시에 사라진다.", "tl": "Nawawala ang mahika sa hatinggabi.", "ne": "जादु राति बाह्र बजे हराउँछ।", "id": "Sihir hilang tengah malam.", "pt": "A mágica acaba à meia-noite.", "my": "မှော်က ည ၁၂ နာရီမှာ ပျောက်တယ်။", "th": "เวทมนตร์หายตอนเที่ยงคืน" }
+  },
+  {
+   "ja": "シンデレラは、階段に何を落としましたか。",
+   "choices": ["手紙", "かぼちゃ", "つえ", "ガラスの靴の片方"],
+   "answer": 3,
+   "explain": { "vi": "Cô đánh rơi một chiếc giày thủy tinh.", "en": "She dropped one of her glass slippers.", "zh-Hans": "她掉了一只玻璃鞋。", "ko": "유리 구두 한 짝을 떨어뜨렸다.", "tl": "Nahulog niya ang isang sapatos na kristal.", "ne": "उनले सिसाको एउटा जुत्ता खसालिन्।", "id": "Ia menjatuhkan sebelah sepatu kaca.", "pt": "Deixou cair um sapatinho de cristal.", "my": "ဖန်ဖိနပ် တစ်ဖက် ပြုတ်ကျခဲ့တယ်။", "th": "เธอทำรองเท้าแก้วหล่นข้างหนึ่ง" }
+  }
+ ]
+}
