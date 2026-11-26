@@ -119,12 +119,12 @@
       {
         "ja": "マイちゃんは、走るのが速いですか。",
         "choices": [
-          "あまり速くない",
           "とても速い",
           "いちばん速い",
+          "あまり速くない",
           "走らない"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": {
           "vi": "Bé chạy không nhanh lắm.",
           "en": "She isn't a very fast runner.",
@@ -164,20 +164,6 @@
         "choicesFurigana": [
           [
             {
-              "surface": "あまり",
-              "reading": ""
-            },
-            {
-              "surface": "速",
-              "reading": "はや"
-            },
-            {
-              "surface": "くない",
-              "reading": ""
-            }
-          ],
-          [
-            {
               "surface": "とても",
               "reading": ""
             },
@@ -201,6 +187,20 @@
             },
             {
               "surface": "い",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "あまり",
+              "reading": ""
+            },
+            {
+              "surface": "速",
+              "reading": "はや"
+            },
+            {
+              "surface": "くない",
               "reading": ""
             }
           ],
@@ -299,12 +299,12 @@
       {
         "ja": "マイちゃんは、何番でゴールしましたか。",
         "choices": [
-          "いちばん最後",
           "いちばん",
           "まん中",
-          "ゴールしなかった"
+          "ゴールしなかった",
+          "いちばん最後"
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": {
           "vi": "Bé về đích cuối cùng nhưng vẫn được vỗ tay.",
           "en": "She came last but still got applause.",
@@ -342,16 +342,6 @@
             {
               "surface": "いちばん",
               "reading": ""
-            },
-            {
-              "surface": "最後",
-              "reading": "さいご"
-            }
-          ],
-          [
-            {
-              "surface": "いちばん",
-              "reading": ""
             }
           ],
           [
@@ -369,18 +359,28 @@
               "surface": "ゴールしなかった",
               "reading": ""
             }
+          ],
+          [
+            {
+              "surface": "いちばん",
+              "reading": ""
+            },
+            {
+              "surface": "最後",
+              "reading": "さいご"
+            }
           ]
         ]
       },
       {
         "ja": "お父さんは、なぜ写真を消しませんでしたか。",
         "choices": [
-          "家族の宝物だから",
           "カメラがこわれたから",
+          "家族の宝物だから",
           "マイちゃんが好きと言ったから",
           "消し方がわからないから"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": {
           "vi": "Bố nói đó là báu vật của cả nhà.",
           "en": "Dad said it's a family treasure.",
@@ -428,6 +428,12 @@
         "choicesFurigana": [
           [
             {
+              "surface": "カメラがこわれたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
               "surface": "家族",
               "reading": "かぞく"
             },
@@ -441,12 +447,6 @@
             },
             {
               "surface": "だから",
-              "reading": ""
-            }
-          ],
-          [
-            {
-              "surface": "カメラがこわれたから",
               "reading": ""
             }
           ],

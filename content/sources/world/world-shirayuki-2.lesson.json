@@ -1,0 +1,30 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜てしまう",
+   "example": 5,
+   "meaning": { "vi": "lỡ ~, ~ mất rồi (việc đáng tiếc)", "en": "end up ~ing, go and ~ (with regret)", "zh-Hans": "……了（不小心、遗憾）", "ko": "~해 버리다 (아쉬움)", "tl": "nagawa na (may pagsisisi)", "ne": "~ गरिहाल्नु (पछुतो)", "id": "terlanjur ~ (menyesal)", "pt": "acabar ~ (com pesar)", "my": "~ မိသွား (နောင်တ)", "th": "เผลอ ~ ไปเสียแล้ว" }
+  },
+  {
+   "pattern": "〜そう（な）",
+   "example": 3,
+   "meaning": { "vi": "trông có vẻ ~ (đoán qua vẻ ngoài)", "en": "looks ~ (judging by appearance)", "zh-Hans": "看起来……", "ko": "~해 보이는", "tl": "mukhang ~", "ne": "~ देखिने", "id": "tampak ~", "pt": "parece ~ (pela aparência)", "my": "~ ပုံရ", "th": "ดู ~ (จากลักษณะภายนอก)" }
+  },
+  {
+   "pattern": "何を〜ても",
+   "example": 39,
+   "meaning": { "vi": "dù làm gì đi nữa cũng ~", "en": "no matter what one ~", "zh-Hans": "无论做什么都……", "ko": "무엇을 ~해도", "tl": "anuman ang ~", "ne": "जे ~ पनि", "id": "apa pun yang ~, tetap", "pt": "o que quer que ~", "my": "ဘာ ~ ~", "th": "ไม่ว่าจะ ~ อะไรก็" }
+  },
+  {
+   "pattern": "〜そうになる",
+   "example": 48,
+   "meaning": { "vi": "suýt nữa thì ~", "en": "nearly ~, almost ~", "zh-Hans": "差点……", "ko": "~할 뻔하다", "tl": "muntik nang ~", "ne": "~ लाग्नु (झन्डै)", "id": "hampir ~", "pt": "quase ~", "my": "~ လုနီးပါး", "th": "เกือบจะ ~" }
+  }
+ ],
+ "quiz": [
+  { "ja": "お妃様は、一回目に何を売りに来ましたか。", "choices": ["くし", "ひも", "りんご", "ドレス"], "answer": 1, "explain": { "vi": "Lần đầu bà mang dây buộc (ひも) đến.", "en": "The first time she brought laces (ひも).", "zh-Hans": "第一次她带来了带子（ひも）。", "ko": "처음에는 끈(ひも)을 가져왔다.", "tl": "Sa unang beses, tali (ひも) ang dala niya.", "ne": "पहिलोपटक उनले फित्ता (ひも) ल्याइन्।", "id": "Pertama kali ia membawa tali (ひも).", "pt": "Na primeira vez ela trouxe cordões (ひも).", "my": "ပထမအကြိမ် ကြိုး (ひも) ယူလာတယ်။", "th": "ครั้งแรกนางนำเชือก (ひも) มา" } },
+  { "ja": "りんごの毒は、どこに入っていましたか。", "choices": ["白いほうだけ", "赤いほうだけ", "全部", "たねの中"], "answer": 1, "explain": { "vi": "Chỉ nửa màu đỏ có độc, nên hoàng hậu ăn nửa trắng mà không sao.", "en": "Only the red half was poisoned, so the queen could eat the white half.", "zh-Hans": "只有红色的一半有毒，所以王后吃白色的一半没事。", "ko": "빨간 쪽에만 독이 있어서 왕비는 하얀 쪽을 먹을 수 있었다.", "tl": "Ang pulang bahagi lang ang may lason, kaya nakain ng reyna ang puti.", "ne": "रातो भागमा मात्र विष थियो, त्यसैले रानीले सेतो भाग खाइन्।", "id": "Hanya bagian merah yang beracun, jadi ratu bisa makan bagian putih.", "pt": "Só o lado vermelho tinha veneno, por isso a rainha comeu o branco.", "my": "အနီဘက်မှာပဲ အဆိပ်ပါလို့ မိဖုရား အဖြူဘက်ကို စားနိုင်တယ်။", "th": "มีพิษแค่ด้านสีแดง พระราชินีจึงกินด้านขาวได้" } },
+  { "ja": "小人たちは、なぜガラスのひつぎを作りましたか。", "choices": ["お金がなかったから", "王子様に言われたから", "いつでも白雪姫の顔が見られるように", "白雪姫が好きな色だから"], "answer": 2, "explain": { "vi": "Để lúc nào cũng nhìn thấy gương mặt Bạch Tuyết.", "en": "So they could always see Snow White's face.", "zh-Hans": "为了随时都能看到白雪公主的脸。", "ko": "언제든 백설공주의 얼굴을 볼 수 있도록.", "tl": "Para makita nila palagi ang mukha ni Snow White.", "ne": "स्नो ह्वाइटको अनुहार सधैँ देख्न सकियोस् भनेर।", "id": "Agar wajah Putri Salju selalu bisa dilihat.", "pt": "Para poderem sempre ver o rosto de Branca de Neve.", "my": "နှင်းဖြူရဲ့ မျက်နှာကို အမြဲ မြင်ရအောင်။", "th": "เพื่อให้มองเห็นหน้าสโนว์ไวท์ได้ตลอด" } },
+  { "ja": "白雪姫は、どうして目をさましましたか。", "choices": ["王子様が歌ったから", "小人がくしをぬいたから", "のどのりんごが口から出たから", "鏡が答えたから"], "answer": 2, "explain": { "vi": "Người hầu suýt ngã, miếng táo mắc trong cổ bật ra.", "en": "A servant stumbled and the apple piece popped out of her throat.", "zh-Hans": "仆人差点摔倒，卡在喉咙的苹果吐了出来。", "ko": "시종이 넘어질 뻔해서 목에 걸린 사과가 튀어나왔다.", "tl": "Muntik madapa ang tauhan at lumabas ang mansanas sa lalamunan.", "ne": "सेवक लड्न लाग्दा घाँटीको स्याउ निस्कियो।", "id": "Pelayan hampir jatuh dan potongan apel terlontar dari tenggorokan.", "pt": "Um criado tropeçou e o pedaço de maçã saiu da garganta.", "my": "အစေခံ လဲလုနီးပါးဖြစ်တော့ လည်ချောင်းက ပန်းသီး ထွက်လာတယ်။", "th": "คนรับใช้เกือบล้ม ชิ้นแอปเปิลที่ติดคอจึงหลุดออกมา" } }
+ ]
+}

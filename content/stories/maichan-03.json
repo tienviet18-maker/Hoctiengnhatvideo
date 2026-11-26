@@ -105,12 +105,12 @@
       {
         "ja": "ビンくんは、マイちゃんの歯を何みたいと言いましたか。",
         "choices": [
-          "ブランコ",
           "ボール",
           "ネズミ",
+          "ブランコ",
           "屋根"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": {
           "vi": "Bin nói răng chị như cái xích đu.",
           "en": "Bin said it was like a swing.",
@@ -158,12 +158,6 @@
         "choicesFurigana": [
           [
             {
-              "surface": "ブランコ",
-              "reading": ""
-            }
-          ],
-          [
-            {
               "surface": "ボール",
               "reading": ""
             }
@@ -171,6 +165,12 @@
           [
             {
               "surface": "ネズミ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ブランコ",
               "reading": ""
             }
           ],
@@ -285,12 +285,12 @@
       {
         "ja": "日本では、下の歯をどこに投げますか。",
         "choices": [
-          "屋根",
           "家の下",
           "川",
-          "ゴミ箱"
+          "ゴミ箱",
+          "屋根"
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": {
           "vi": "Răng dưới ném lên mái, răng trên ném xuống gầm nhà.",
           "en": "Lower teeth onto the roof; upper ones under the house.",
@@ -342,12 +342,6 @@
         "choicesFurigana": [
           [
             {
-              "surface": "屋根",
-              "reading": "やね"
-            }
-          ],
-          [
-            {
               "surface": "家",
               "reading": "いえ"
             },
@@ -375,18 +369,24 @@
               "surface": "箱",
               "reading": "ばこ"
             }
+          ],
+          [
+            {
+              "surface": "屋根",
+              "reading": "やね"
+            }
           ]
         ]
       },
       {
         "ja": "ベトナムでは、だれにお願いしますか。",
         "choices": [
-          "ネズミ",
           "ねこ",
+          "ネズミ",
           "先生",
           "おばあさん"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": {
           "vi": "Trẻ em Việt xin chuột cho răng chắc.",
           "en": "Vietnamese kids ask a mouse.",
@@ -418,13 +418,13 @@
         "choicesFurigana": [
           [
             {
-              "surface": "ネズミ",
+              "surface": "ねこ",
               "reading": ""
             }
           ],
           [
             {
-              "surface": "ねこ",
+              "surface": "ネズミ",
               "reading": ""
             }
           ],

@@ -252,7 +252,7 @@ for (const file of files) {
     titles: src.titles,
     level: src.level,
     topic: src.topic,
-    source: "original",
+    source: src.source ?? "original",
     cover: `/covers/${src.id}.webp`,
     free: !!src.free,
     standard: 2,

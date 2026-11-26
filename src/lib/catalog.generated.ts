@@ -5000,7 +5000,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/cinderella.webp"
+  "cover": "/covers/cinderella.webp",
+  "hidden": true,
+  "replacedBy": "world-cinderella-1"
  },
  {
   "id": "kotatsu-winter",
@@ -5352,7 +5354,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/snow-white.webp"
+  "cover": "/covers/snow-white.webp",
+  "hidden": true,
+  "replacedBy": "world-shirayuki-1"
  },
  {
   "id": "first-allowance",
@@ -6661,7 +6665,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep03-shared-umbrella.webp"
+  "cover": "/covers/mai-chan-ep03-shared-umbrella.webp",
+  "hidden": true,
+  "replacedBy": "maichan-06"
  },
  {
   "id": "mai-chan-ep04-onigiri",
@@ -6674,7 +6680,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep04-onigiri.webp"
+  "cover": "/covers/mai-chan-ep04-onigiri.webp",
+  "hidden": true,
+  "replacedBy": "maichan-05"
  },
  {
   "id": "mai-chan-ep05-sports-day",
@@ -6742,7 +6750,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep08-sick-mom.webp"
+  "cover": "/covers/mai-chan-ep08-sick-mom.webp",
+  "hidden": true,
+  "replacedBy": "maichan-07"
  },
  {
   "id": "the-shinkansen-trip",
@@ -6835,7 +6845,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep11-tomatoes.webp"
+  "cover": "/covers/mai-chan-ep11-tomatoes.webp",
+  "hidden": true,
+  "replacedBy": "maichan-08"
  },
  {
   "id": "mai-chan-ep12-calling-grandma",
@@ -6888,7 +6900,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep13-rainy-day.webp"
+  "cover": "/covers/mai-chan-ep13-rainy-day.webp",
+  "hidden": true,
+  "replacedBy": "maichan-06"
  },
  {
   "id": "mai-chan-ep14-cooking-curry",
@@ -6941,7 +6955,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep15-lost-cat.webp"
+  "cover": "/covers/mai-chan-ep15-lost-cat.webp",
+  "hidden": true,
+  "replacedBy": "maichan-09"
  },
  {
   "id": "mai-chan-ep16-dad-cooks-pho",
@@ -6993,7 +7009,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep17-snow-day.webp"
+  "cover": "/covers/mai-chan-ep17-snow-day.webp",
+  "hidden": true,
+  "replacedBy": "maichan-10"
  },
  {
   "id": "mai-chan-ep18-new-year-card",
@@ -11669,6 +11687,192 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "maichan-05",
+  "titles": {
+   "vi": "Mai-chan (5): Cơm nắm lăn lông lốc",
+   "en": "Mai-chan (5): The Rolling Rice Ball",
+   "zh-Hans": "小麦（5）：骨碌碌滚的饭团",
+   "zh-Hant": "小麥（5）：骨碌碌滾的飯糰",
+   "ko": "마이짱 (5): 데굴데굴 주먹밥",
+   "tl": "Mai-chan (5): Ang Gumugulong na Onigiri",
+   "ne": "माई-चान (५): गुडुल्किने ओनिगिरी",
+   "id": "Mai-chan (5): Onigiri yang Menggelinding",
+   "pt": "Mai-chan (5): O Bolinho de Arroz que Rolou",
+   "my": "မိုင်ချန် (၅): လှိမ့်သွားတဲ့ ထမင်းလုံး",
+   "th": "ไมจัง (5): ข้าวปั้นกลิ้งหลุน ๆ"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-05.webp",
+  "series": {
+   "id": "maichan",
+   "index": 5
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-05/chapter.mp3",
+   "durationSec": 157.056
+  }
+ },
+ {
+  "id": "maichan-06",
+  "titles": {
+   "vi": "Mai-chan (6): Chung một chiếc ô",
+   "en": "Mai-chan (6): Sharing an Umbrella",
+   "zh-Hans": "小麦（6）：共撑一把伞",
+   "zh-Hant": "小麥（6）：共撐一把傘",
+   "ko": "마이짱 (6): 우산 하나를 같이",
+   "tl": "Mai-chan (6): Iisang Payong",
+   "ne": "माई-चान (६): एउटै छाता",
+   "id": "Mai-chan (6): Satu Payung Berdua",
+   "pt": "Mai-chan (6): Um Guarda-chuva para Duas",
+   "my": "မိုင်ချန် (၆): ထီးတစ်လက်တည်း",
+   "th": "ไมจัง (6): ร่มคันเดียวกัน"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-06.webp",
+  "series": {
+   "id": "maichan",
+   "index": 6
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-06/chapter.mp3",
+   "durationSec": 146.352
+  }
+ },
+ {
+  "id": "maichan-07",
+  "titles": {
+   "vi": "Mai-chan (7): Hôm nay con làm mẹ",
+   "en": "Mai-chan (7): I'll Be Mom Today",
+   "zh-Hans": "小麦（7）：今天我来当妈妈",
+   "zh-Hant": "小麥（7）：今天我來當媽媽",
+   "ko": "마이짱 (7): 오늘은 내가 엄마",
+   "tl": "Mai-chan (7): Ako Muna ang Nanay Ngayon",
+   "ne": "माई-चान (७): आज म आमा",
+   "id": "Mai-chan (7): Hari Ini Aku Jadi Ibu",
+   "pt": "Mai-chan (7): Hoje Eu Sou a Mãe",
+   "my": "မိုင်ချန် (၇): ဒီနေ့ သမီးက အမေ",
+   "th": "ไมจัง (7): วันนี้หนูเป็นแม่เอง"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-07.webp",
+  "series": {
+   "id": "maichan",
+   "index": 7
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-07/chapter.mp3",
+   "durationSec": 156.216
+  }
+ },
+ {
+  "id": "maichan-08",
+  "titles": {
+   "vi": "Mai-chan (8): Quả cà chua đầu tiên",
+   "en": "Mai-chan (8): The First Tomato",
+   "zh-Hans": "小麦（8）：第一颗番茄",
+   "zh-Hant": "小麥（8）：第一顆番茄",
+   "ko": "마이짱 (8): 첫 번째 토마토",
+   "tl": "Mai-chan (8): Ang Unang Kamatis",
+   "ne": "माई-चान (८): पहिलो गोलभेडा",
+   "id": "Mai-chan (8): Tomat Pertama",
+   "pt": "Mai-chan (8): O Primeiro Tomate",
+   "my": "မိုင်ချန် (၈): ပထမဆုံး ခရမ်းချဉ်သီး",
+   "th": "ไมจัง (8): มะเขือเทศลูกแรก"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 38,
+  "cover": "/covers/maichan-08.webp",
+  "series": {
+   "id": "maichan",
+   "index": 8
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-08/chapter.mp3",
+   "durationSec": 148.728
+  }
+ },
+ {
+  "id": "maichan-09",
+  "titles": {
+   "vi": "Mai-chan (9): Mèo Tama đi đâu rồi?",
+   "en": "Mai-chan (9): Where Is Tama?",
+   "zh-Hans": "小麦（9）：小玉去哪儿了？",
+   "zh-Hant": "小麥（9）：小玉去哪兒了？",
+   "ko": "마이짱 (9): 타마는 어디에?",
+   "tl": "Mai-chan (9): Nasaan si Tama?",
+   "ne": "माई-चान (९): टामा कहाँ गई?",
+   "id": "Mai-chan (9): Di Mana Tama?",
+   "pt": "Mai-chan (9): Cadê a Tama?",
+   "my": "မိုင်ချန် (၉): တာမ ဘယ်ရောက်သွားလဲ",
+   "th": "ไมจัง (9): ทามะไปไหน"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-09.webp",
+  "series": {
+   "id": "maichan",
+   "index": 9
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-09/chapter.mp3",
+   "durationSec": 148.896
+  }
+ },
+ {
+  "id": "maichan-10",
+  "titles": {
+   "vi": "Mai-chan (10): Tuyết đầu tiên",
+   "en": "Mai-chan (10): The First Snow",
+   "zh-Hans": "小麦（10）：第一场雪",
+   "zh-Hant": "小麥（10）：第一場雪",
+   "ko": "마이짱 (10): 처음 보는 눈",
+   "tl": "Mai-chan (10): Ang Unang Niyebe",
+   "ne": "माई-चान (१०): पहिलो हिउँ",
+   "id": "Mai-chan (10): Salju Pertama",
+   "pt": "Mai-chan (10): A Primeira Neve",
+   "my": "မိုင်ချန် (၁၀): ပထမဆုံး နှင်း",
+   "th": "ไมจัง (10): หิมะแรก"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 39,
+  "cover": "/covers/maichan-10.webp",
+  "series": {
+   "id": "maichan",
+   "index": 10
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-10/chapter.mp3",
+   "durationSec": 151.968
+  }
+ },
+ {
   "id": "furusato-vn-kieu-1",
   "titles": {
    "vi": "Truyện Kiều (1): Tiết Thanh minh",
@@ -12082,6 +12286,258 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/furusato-vn-thachlam-3/chapter.mp3",
    "durationSec": 424.608
+  }
+ },
+ {
+  "id": "world-cinderella-1",
+  "titles": {
+   "vi": "Lọ Lem (1): Đôi giày thủy tinh",
+   "en": "Cinderella (1): The Glass Slipper",
+   "zh-Hans": "灰姑娘（1）：玻璃鞋",
+   "zh-Hant": "灰姑娘（1）：玻璃鞋",
+   "ko": "신데렐라 (1): 유리 구두",
+   "tl": "Cinderella (1): Ang Sapatos na Kristal",
+   "ne": "सिन्ड्रेला (१): सिसाको जुत्ता",
+   "id": "Cinderella (1): Sepatu Kaca",
+   "pt": "Cinderela (1): O Sapatinho de Cristal",
+   "my": "စင်ဒရဲလား (၁): ဖန်ဖိနပ်",
+   "th": "ซินเดอเรลล่า (1): รองเท้าแก้ว"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 52,
+  "cover": "/covers/world-cinderella-1.webp",
+  "series": {
+   "id": "world-cinderella",
+   "index": 1
+  },
+  "shelf": "world",
+  "origin": "FR",
+  "audioTrack": {
+   "src": "/audio/world-cinderella-1/chapter.mp3",
+   "durationSec": 241.704
+  }
+ },
+ {
+  "id": "world-cinderella-2",
+  "titles": {
+   "vi": "Lọ Lem (2 – hết): Chiếc giày vừa khít",
+   "en": "Cinderella (2, end): The Perfect Fit",
+   "zh-Hans": "灰姑娘（2·完）：刚刚合脚",
+   "zh-Hant": "灰姑娘（2·完）：剛剛合腳",
+   "ko": "신데렐라 (2·끝): 꼭 맞는 구두",
+   "tl": "Cinderella (2, wakas): Saktong-sakto",
+   "ne": "सिन्ड्रेला (२, अन्तिम): ठ्याक्कै मिलेको जुत्ता",
+   "id": "Cinderella (2, tamat): Pas Sekali",
+   "pt": "Cinderela (2, fim): O Sapatinho Perfeito",
+   "my": "စင်ဒရဲလား (၂၊ ဇာတ်သိမ်း): အံကိုက်ဖိနပ်",
+   "th": "ซินเดอเรลล่า (2 จบ): รองเท้าที่พอดีเป๊ะ"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/world-cinderella-2.webp",
+  "series": {
+   "id": "world-cinderella",
+   "index": 2
+  },
+  "shelf": "world",
+  "origin": "FR",
+  "audioTrack": {
+   "src": "/audio/world-cinderella-2/chapter.mp3",
+   "durationSec": 220.728
+  }
+ },
+ {
+  "id": "world-shirayuki-1",
+  "titles": {
+   "vi": "Bạch Tuyết (1): Chiếc gương thần",
+   "en": "Snow White (1): The Magic Mirror",
+   "zh-Hans": "白雪公主（1）：魔镜",
+   "zh-Hant": "白雪公主（1）：魔鏡",
+   "ko": "백설공주 (1): 마법 거울",
+   "tl": "Snow White (1): Ang Mahiwagang Salamin",
+   "ne": "स्नो ह्वाइट (१): जादुई ऐना",
+   "id": "Putri Salju (1): Cermin Ajaib",
+   "pt": "Branca de Neve (1): O Espelho Mágico",
+   "my": "နှင်းဖြူ (၁): မှော်မှန်",
+   "th": "สโนว์ไวท์ (1): กระจกวิเศษ"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 52,
+  "cover": "/covers/world-shirayuki-1.webp",
+  "series": {
+   "id": "world-shirayuki",
+   "index": 1
+  },
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-shirayuki-1/chapter.mp3",
+   "durationSec": 256.752
+  }
+ },
+ {
+  "id": "world-shirayuki-2",
+  "titles": {
+   "vi": "Bạch Tuyết (2 – hết): Quả táo độc",
+   "en": "Snow White (2, end): The Poisoned Apple",
+   "zh-Hans": "白雪公主（2·完）：毒苹果",
+   "zh-Hant": "白雪公主（2·完）：毒蘋果",
+   "ko": "백설공주 (2·끝): 독사과",
+   "tl": "Snow White (2, wakas): Ang Lasong Mansanas",
+   "ne": "स्नो ह्वाइट (२, अन्तिम): विषालु स्याउ",
+   "id": "Putri Salju (2, tamat): Apel Beracun",
+   "pt": "Branca de Neve (2, fim): A Maçã Envenenada",
+   "my": "နှင်းဖြူ (၂၊ ဇာတ်သိမ်း): အဆိပ်ပန်းသီး",
+   "th": "สโนว์ไวท์ (2 จบ): แอปเปิลอาบยาพิษ"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 56,
+  "cover": "/covers/world-shirayuki-2.webp",
+  "series": {
+   "id": "world-shirayuki",
+   "index": 2
+  },
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-shirayuki-2/chapter.mp3",
+   "durationSec": 295.608
+  }
+ },
+ {
+  "id": "life-epictetus-1",
+  "titles": {
+   "vi": "Triết gia nô lệ – Epictetus (1)",
+   "en": "The Slave Philosopher – Epictetus (1)",
+   "zh-Hans": "奴隶哲学家——爱比克泰德（一）",
+   "zh-Hant": "奴隸哲學家——愛比克泰德（一）",
+   "ko": "노예 철학자 에픽테토스 (1)",
+   "tl": "Ang Pilosopong Alipin – Epictetus (1)",
+   "ne": "दास दार्शनिक – एपिक्टेटस (१)",
+   "id": "Filsuf Budak – Epiktetos (1)",
+   "pt": "O Filósofo Escravo – Epicteto (1)",
+   "my": "ကျွန်ဒဿနပညာရှင် – အက်ပစ်တီးတပ်စ် (၁)",
+   "th": "นักปรัชญาทาส – เอพิคทีตัส (1)"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 45,
+  "cover": "/covers/life-epictetus-1.webp",
+  "series": {
+   "id": "life-epictetus",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-epictetus-1/chapter.mp3",
+   "durationSec": 239.93
+  }
+ },
+ {
+  "id": "life-epictetus-2",
+  "titles": {
+   "vi": "Triết gia nô lệ – Epictetus (2)",
+   "en": "The Slave Philosopher – Epictetus (2)",
+   "zh-Hans": "奴隶哲学家——爱比克泰德（二）",
+   "zh-Hant": "奴隸哲學家——愛比克泰德（二）",
+   "ko": "노예 철학자 에픽테토스 (2)",
+   "tl": "Ang Pilosopong Alipin – Epictetus (2)",
+   "ne": "दास दार्शनिक – एपिक्टेटस (२)",
+   "id": "Filsuf Budak – Epiktetos (2)",
+   "pt": "O Filósofo Escravo – Epicteto (2)",
+   "my": "ကျွန်ဒဿနပညာရှင် – အက်ပစ်တီးတပ်စ် (၂)",
+   "th": "นักปรัชญาทาส – เอพิคทีตัส (2)"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 45,
+  "cover": "/covers/life-epictetus-2.webp",
+  "series": {
+   "id": "life-epictetus",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-epictetus-2/chapter.mp3",
+   "durationSec": 250.82
+  }
+ },
+ {
+  "id": "life-roshi-1",
+  "titles": {
+   "vi": "Như nước – Lão Tử",
+   "en": "Like Water – Laozi",
+   "zh-Hans": "如水——老子",
+   "zh-Hant": "如水——老子",
+   "ko": "물처럼 – 노자",
+   "tl": "Gaya ng Tubig – Laozi",
+   "ne": "पानीजस्तै – लाओत्से",
+   "id": "Seperti Air – Laozi",
+   "pt": "Como a Água – Lao-Tsé",
+   "my": "ရေကဲ့သို့ – လောက်ဇူ",
+   "th": "ดั่งสายน้ำ – เล่าจื๊อ"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 44,
+  "cover": "/covers/life-roshi-1.webp",
+  "series": {
+   "id": "life-roshi",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-roshi-1/chapter.mp3",
+   "durationSec": 250.3
+  }
+ },
+ {
+  "id": "life-ikari-1",
+  "titles": {
+   "vi": "Lá thư giận dữ",
+   "en": "The Angry Letter",
+   "zh-Hans": "愤怒的信",
+   "zh-Hant": "憤怒的信",
+   "ko": "화가 난 편지",
+   "tl": "Ang Liham ng Galit",
+   "ne": "रिसको चिठी",
+   "id": "Surat Kemarahan",
+   "pt": "A Carta da Raiva",
+   "my": "ဒေါသစာ",
+   "th": "จดหมายแห่งความโกรธ"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 49,
+  "cover": "/covers/life-ikari-1.webp",
+  "series": {
+   "id": "life-ikari",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-ikari-1/chapter.mp3",
+   "durationSec": 223.3
   }
  }
 ];

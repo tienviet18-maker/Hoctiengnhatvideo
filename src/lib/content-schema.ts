@@ -152,7 +152,7 @@ export interface StoryContent {
   /** Gói v2: thẻ Bài học (2–4 điểm ngữ pháp, 3–5 câu hỏi) */
   lesson?: Lesson;
   /** Kệ hiển thị trong tab Truyện */
-  shelf?: "literature" | "mystery" | "ghost" | "rakugo" | "folktale-jp" | "hometown" | "world" | "life-series" | "life";
+  shelf?: "literature" | "mystery" | "ghost" | "rakugo" | "folktale-jp" | "hometown" | "world" | "life-series" | "life" | "wisdom";
   /** Truyện quê hương: mã nước ISO 3166 (VN, KR, CN, PH, ID, TH, NP, MM, BR) */
   origin?: string;
 }

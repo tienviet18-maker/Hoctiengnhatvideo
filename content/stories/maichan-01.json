@@ -105,12 +105,12 @@
       {
         "ja": "マイちゃんは、どこに住んでいますか。",
         "choices": [
-          "大阪",
           "東京",
           "ベトナム",
+          "大阪",
           "京都"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": {
           "vi": "Bé từ Việt Nam sang, giờ sống ở Osaka.",
           "en": "She came from Vietnam and lives in Osaka.",
@@ -142,12 +142,6 @@
         "choicesFurigana": [
           [
             {
-              "surface": "大阪",
-              "reading": "おおさか"
-            }
-          ],
-          [
-            {
               "surface": "東京",
               "reading": "とうきょう"
             }
@@ -156,6 +150,12 @@
             {
               "surface": "ベトナム",
               "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "大阪",
+              "reading": "おおさか"
             }
           ],
           [
@@ -257,12 +257,12 @@
       {
         "ja": "宿題をわすれたマイちゃんに、先生は何と言いましたか。",
         "choices": [
-          "ほんとうのことが言えて、えらい",
           "家に帰りなさい",
           "もうわすれないで",
-          "ゆきちゃんに見せてもらって"
+          "ゆきちゃんに見せてもらって",
+          "ほんとうのことが言えて、えらい"
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": {
           "vi": "Cô khen Mai đã nói thật, và dặn mai mang đến.",
           "en": "She praised Mai for telling the truth.",
@@ -314,20 +314,6 @@
         "choicesFurigana": [
           [
             {
-              "surface": "ほんとうのことが",
-              "reading": ""
-            },
-            {
-              "surface": "言",
-              "reading": "い"
-            },
-            {
-              "surface": "えて、えらい",
-              "reading": ""
-            }
-          ],
-          [
-            {
               "surface": "家",
               "reading": "いえ"
             },
@@ -363,18 +349,32 @@
               "surface": "せてもらって",
               "reading": ""
             }
+          ],
+          [
+            {
+              "surface": "ほんとうのことが",
+              "reading": ""
+            },
+            {
+              "surface": "言",
+              "reading": "い"
+            },
+            {
+              "surface": "えて、えらい",
+              "reading": ""
+            }
           ]
         ]
       },
       {
         "ja": "宿題の紙に、何がありましたか。",
         "choices": [
-          "ビンくんがかいたマイちゃんの絵",
           "先生のサイン",
+          "ビンくんがかいたマイちゃんの絵",
           "ゆきちゃんの手紙",
           "何もなかった"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": {
           "vi": "Bin vẽ chị Mai bằng bút sáp lên tờ bài tập.",
           "en": "Bin drew Mai in crayon on the sheet.",
@@ -418,22 +418,22 @@
         "choicesFurigana": [
           [
             {
-              "surface": "ビンくんがかいたマイちゃんの",
-              "reading": ""
-            },
-            {
-              "surface": "絵",
-              "reading": "え"
-            }
-          ],
-          [
-            {
               "surface": "先生",
               "reading": "せんせい"
             },
             {
               "surface": "のサイン",
               "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ビンくんがかいたマイちゃんの",
+              "reading": ""
+            },
+            {
+              "surface": "絵",
+              "reading": "え"
             }
           ],
           [
