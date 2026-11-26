@@ -871,6 +871,13 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 12: truyện quê hương các nước — 27/11/2026 (nhánh `claude/si-stories-13`)
+
+- Đã dịch 31 gói furusato không phải Việt Nam: Brazil (curupira, iara, saci), Trung Quốc (baishe, change, niulang, saiyuki-1/2/3), Indonesia (bawang, kancil, malin, sangkuriang, timun, toba), Hàn (heungbu, hokburi, kongjwi, onui, simcheong), Myanmar (kyaiktiyo, mahagiri), Nepal (indra, manjushri), Philippines (juan, magayon, malakas, pagong, pinya), Thái (aphai, sangthong).
+- Lời kể khẩu ngữ như các gói world-/furusato trước. Thuật ngữ Phật giáo theo cách người Sri Lanka quen dùng: බුදුරජාණන් වහන්සේ, බෝසතාණන් වහන්සේ (Manjushri), චෛත්‍යය, පාරිජාත, ඉන්ද්‍ර දෙවියා. Dokkaebi để phiên âm දොක්කේබි; oni dịch ඔනි යක්ෂයා; yamanba dịch "කඳු යක්ෂණිය".
+- Câu Q dạng điền chỗ trống (kongjwi, onui, simcheong, malakas, pinya) chỉ dịch phần giải thích, giữ nguyên mẫu ngữ pháp tiếng Nhật.
+- Sau đợt này: 160 gói có si. Còn lại các gói furusato-vn (~33) cho đợt sau.
+
 ## Tiếng Sinhala đợt 11: truyện thế giới đợt 6 — 27/11/2026 (nhánh `claude/si-stories-12`)
 
 - Đã dịch 5 gói từ PR #88: world-vasilisa-1/2, world-saru-wani, world-pinocchio-1/2.
