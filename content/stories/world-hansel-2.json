@@ -30,7 +30,7 @@
     "grammarPoints": [
       {
         "pattern": "〜しかない",
-        "example": 9,
+        "example": 10,
         "meaning": {
           "vi": "chỉ còn cách ~, đành phải ~",
           "en": "have no choice but to ~",
@@ -47,7 +47,7 @@
       },
       {
         "pattern": "〜かどうか",
-        "example": 13,
+        "example": 14,
         "meaning": {
           "vi": "có ~ hay không",
           "en": "whether or not ~",
@@ -64,7 +64,7 @@
       },
       {
         "pattern": "〜ても、〜ても",
-        "example": 17,
+        "example": 18,
         "meaning": {
           "vi": "dù ~ hay ~ thì cũng",
           "en": "whether ~ or ~, either way",
@@ -81,7 +81,7 @@
       },
       {
         "pattern": "〜つもりだ",
-        "example": 23,
+        "example": 24,
         "meaning": {
           "vi": "định ~, có ý ~",
           "en": "intend to ~",
@@ -490,14 +490,14 @@
   },
   "sentences": [
     {
-      "ja": "家には、ミルクやパンケーキ、りんごやくるみが、たくさん用意してありました。",
+      "ja": "家には、ミルクやパンケーキ、りんごやくるみが用意してありました。",
       "furigana": [
         {
           "surface": "家",
           "reading": "いえ"
         },
         {
-          "surface": "には、ミルクやパンケーキ、りんごやくるみが、たくさん",
+          "surface": "には、ミルクやパンケーキ、りんごやくるみが",
           "reading": ""
         },
         {
@@ -509,7 +509,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Ie ni wa, miruku ya pankeeki, ringo ya kurumi ga, takusan youishitearimashita.",
+      "romaji": "Ie ni wa, miruku ya pankeeki, ringo ya kurumi ga youishitearimashita.",
       "translations": {
         "vi": "Trong nhà đã bày sẵn rất nhiều sữa, bánh kếp, táo và hạt óc chó.",
         "en": "In the house, milk, pancakes, apples and walnuts had been laid out.",
@@ -574,10 +574,10 @@
         "my": "〜てある = ~ ထားပြီး။",
         "th": "〜てある = ~ ไว้แล้ว"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=0.3,6.974",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=0.3,5.813",
       "t": [
         0.3,
-        6.974
+        5.813
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -680,18 +680,22 @@
         "my": "〜終わる = ~ ပြီး။",
         "th": "〜終わる = ~ เสร็จ"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=7.574,13.266",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=6.413,12.104",
       "t": [
-        7.574,
-        13.266
+        6.413,
+        12.104
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "ヘンゼルとグレーテルは、夢の中にいるような気持ちで眠りました。",
+      "ja": "二人は、夢の中にいるような気持ちで眠りました。",
       "furigana": [
         {
-          "surface": "ヘンゼルとグレーテルは、",
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "は、",
           "reading": ""
         },
         {
@@ -727,7 +731,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Henzeru to gureeteru wa, yume no nakani iru you na kimochi de nemurimashita.",
+      "romaji": "Futari wa, yume no nakani iru you na kimochi de nemurimashita.",
       "translations": {
         "vi": "Hansel và Gretel ngủ với cảm giác như đang ở trong mơ.",
         "en": "Hansel and Gretel slept feeling as if they were in a dream.",
@@ -792,10 +796,10 @@
         "my": "〜ような = ~ သလို။",
         "th": "〜ような = เหมือน ~"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=13.865,18.734",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=12.704,16.98",
       "t": [
-        13.865,
-        18.734
+        12.704,
+        16.98
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -851,15 +855,15 @@
         "my": "魔女 = စုန်းမ။",
         "th": "魔女 = แม่มด"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=19.334,24.016",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=17.58,22.262",
       "t": [
-        19.334,
-        24.016
+        17.58,
+        22.262
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "魔女は、子どもをおかしの家でさそって、つかまえて食べてしまうのでした。",
+      "ja": "魔女は、子どもをおかしの家でさそって、食べてしまうのでした。",
       "furigana": [
         {
           "surface": "魔女",
@@ -882,7 +886,7 @@
           "reading": "いえ"
         },
         {
-          "surface": "でさそって、つかまえて",
+          "surface": "でさそって、",
           "reading": ""
         },
         {
@@ -894,7 +898,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Majo wa, kodomo o okashi no ie de sasotte, tsukamaete tabeteshimau no deshita.",
+      "romaji": "Majo wa, kodomo o okashi no ie de sasotte, tabeteshimau no deshita.",
       "translations": {
         "vi": "Mụ dùng ngôi nhà bánh kẹo để dụ trẻ con, bắt lấy rồi ăn thịt.",
         "en": "She lured children with the house of sweets, caught them and ate them.",
@@ -922,15 +926,15 @@
         "my": "さそう = ဆွဲဆောင်။",
         "th": "さそう = ล่อ"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=24.616,30.21",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=22.862,27.764",
       "t": [
-        24.616,
-        30.21
+        22.862,
+        27.764
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "次の朝早く、魔女はまだ寝ているヘンゼルをつかんで、小さな小屋に入れました。",
+      "ja": "次の朝早く、魔女は寝ているヘンゼルをつかんで、小屋に入れました。",
       "furigana": [
         {
           "surface": "次",
@@ -957,7 +961,7 @@
           "reading": "まじょ"
         },
         {
-          "surface": "はまだ",
+          "surface": "は",
           "reading": ""
         },
         {
@@ -966,14 +970,6 @@
         },
         {
           "surface": "ているヘンゼルをつかんで、",
-          "reading": ""
-        },
-        {
-          "surface": "小",
-          "reading": "ちい"
-        },
-        {
-          "surface": "さな",
           "reading": ""
         },
         {
@@ -993,7 +989,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Tsugi no asa hayaku, majo wa mada neteiru henzeru o tsukande, chiisana koya ni iremashita.",
+      "romaji": "Tsugi no asa hayaku, majo wa neteiru henzeru o tsukande, koya ni iremashita.",
       "translations": {
         "vi": "Sáng sớm hôm sau, mụ túm lấy Hansel đang ngủ, nhốt vào một cái chuồng nhỏ.",
         "en": "Early the next morning, she grabbed the sleeping Hansel and put him in a small shed.",
@@ -1021,10 +1017,10 @@
         "my": "小屋 = တဲလေး။",
         "th": "小屋 = เพิง, กระท่อมเล็ก"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=30.81,38.335",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=28.364,34.256",
       "t": [
-        30.81,
-        38.335
+        28.364,
+        34.256
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -1064,15 +1060,74 @@
         "my": "かぎをかける = သော့ခတ်။",
         "th": "かぎをかける = ล็อก"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=38.935,42.325",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=34.856,38.246",
       "t": [
-        38.935,
-        42.325
+        34.856,
+        38.246
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "「起きな、なまけ者。水をくんで、兄さんにおいしいものを作っておやり。」",
+      "ja": "「出して！ここから出して！」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "して！ここから",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "して！」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Dashite! Koko kara dashite!”",
+      "translations": {
+        "vi": "\"Thả tôi ra! Cho tôi ra khỏi đây!\"",
+        "en": "\"Let me out! Let me out of here!\"",
+        "zh-Hans": "\"放我出去！让我出去！\"",
+        "zh-Hant": "\"放我出去！讓我出去！\"",
+        "ko": "\"꺼내 줘! 여기서 꺼내 줘!\"",
+        "tl": "\"Palabasin mo ako! Palabasin mo ako rito!\"",
+        "ne": "\"मलाई निकाल! यहाँबाट निकाल!\"",
+        "id": "\"Keluarkan aku! Keluarkan aku dari sini!\"",
+        "pt": "\"Me tire daqui! Me deixe sair!\"",
+        "my": "\"ထုတ်ပေး! ဒီကနေ ထုတ်ပေး!\"",
+        "th": "\"ปล่อยฉันออกไป! ปล่อยฉันออกไปจากที่นี่!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "出して = cho ra, thả ra.",
+        "en": "出して = let (me) out.",
+        "zh-Hans": "出して＝放出去。",
+        "zh-Hant": "出して＝放出去。",
+        "ko": "出して = 꺼내 줘.",
+        "tl": "出して = palabasin.",
+        "ne": "出して = निकाल।",
+        "id": "出して = keluarkan.",
+        "pt": "出して = deixe sair.",
+        "my": "出して = ထုတ်ပေး။",
+        "th": "出して = ปล่อยออกไป"
+      },
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=39.146,40.792",
+      "t": [
+        39.146,
+        40.792
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「起きな、なまけ者。水をくんで、兄さんにごちそうを作っておやり。」",
       "furigana": [
         {
           "surface": "「",
@@ -1107,7 +1162,7 @@
           "reading": "にい"
         },
         {
-          "surface": "さんにおいしいものを",
+          "surface": "さんにごちそうを",
           "reading": ""
         },
         {
@@ -1119,7 +1174,7 @@
           "reading": ""
         }
       ],
-      "romaji": "“Oki na, namakemono. Mizu o kunde, niisan ni oishii mono o tsukutte oyari.”",
+      "romaji": "“Oki na, namakemono. Mizu o kunde, niisan ni gochisou o tsukutte oyari.”",
       "translations": {
         "vi": "\"Dậy đi, đồ lười. Đi xách nước, nấu món ngon cho anh mày ăn.\"",
         "en": "\"Get up, lazybones. Fetch water and cook something good for your brother.\"",
@@ -1133,7 +1188,26 @@
         "my": "\"ထ၊ ပျင်းတဲ့ကောင်မ။ ရေခပ်ပြီး အစ်ကိုအတွက် စားကောင်းတာ ချက်ပေး။\"",
         "th": "\"ตื่น เจ้าขี้เกียจ ไปตักน้ำแล้วทำของอร่อยให้พี่เจ้ากิน\""
       },
-      "vocab": [],
+      "vocab": [
+        {
+          "word": "ごちそう",
+          "reading": "ごちそう",
+          "meanings": {
+            "vi": "món ngon, cỗ",
+            "en": "feast, treat",
+            "zh-Hans": "美食，佳肴",
+            "zh-Hant": "美食，佳餚",
+            "ko": "진수성찬",
+            "tl": "handaan",
+            "ne": "मिठो भोजन",
+            "id": "hidangan lezat",
+            "pt": "banquete",
+            "my": "ဟင်းကောင်း",
+            "th": "อาหารเลิศรส"
+          },
+          "level": "N4"
+        }
+      ],
       "grammarNote": {
         "vi": "〜ておやり = làm ~ cho (giọng ra lệnh).",
         "en": "〜ておやり = do ~ for him (command).",
@@ -1147,10 +1221,10 @@
         "my": "〜ておやり = ~ ပေး (အမိန့်)။",
         "th": "〜ておやり = ทำ ~ ให้ (สั่ง)"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=43.225,49.843",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=41.692,47.988",
       "t": [
-        43.225,
-        49.843
+        41.692,
+        47.988
       ],
       "voice": "ja-JP-Neural2-B"
     },
@@ -1251,26 +1325,18 @@
         "my": "〜たら = ~ ရင်။",
         "th": "〜たら = พอ ~"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=50.443,53.824",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=48.588,51.969",
       "t": [
-        50.443,
-        53.824
+        48.588,
+        51.969
       ],
       "voice": "ja-JP-Neural2-B"
     },
     {
-      "ja": "グレーテルは大声で泣きましたが、言われた通りにするしかありませんでした。",
+      "ja": "グレーテルは泣きましたが、言われた通りにするしかありませんでした。",
       "furigana": [
         {
           "surface": "グレーテルは",
-          "reading": ""
-        },
-        {
-          "surface": "大声",
-          "reading": "おおごえ"
-        },
-        {
-          "surface": "で",
           "reading": ""
         },
         {
@@ -1298,7 +1364,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Gureeteru wa oogoe de nakimashita ga, iwareta toori ni suru shika arimasendeshita.",
+      "romaji": "Gureeteru wa nakimashita ga, iwareta toori ni suru shika arimasendeshita.",
       "translations": {
         "vi": "Gretel khóc òa, nhưng chỉ còn cách làm theo lời mụ.",
         "en": "Gretel cried loudly, but she had no choice but to do as she was told.",
@@ -1345,15 +1411,15 @@
         "my": "〜しかない = ~ ရုံသာ။",
         "th": "〜しかない = ทำได้แค่ ~"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=54.724,60.455",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=52.869,57.94",
       "t": [
-        54.724,
-        60.455
+        52.869,
+        57.94
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "ヘンゼルには毎日ごちそうが出て、グレーテルにはかにのからしかもらえませんでした。",
+      "ja": "ヘンゼルには毎日ごちそう、グレーテルにはかにのからだけでした。",
       "furigana": [
         {
           "surface": "ヘンゼルには",
@@ -1364,19 +1430,11 @@
           "reading": "まいにち"
         },
         {
-          "surface": "ごちそうが",
-          "reading": ""
-        },
-        {
-          "surface": "出",
-          "reading": "で"
-        },
-        {
-          "surface": "て、グレーテルにはかにのからしかもらえませんでした。",
+          "surface": "ごちそう、グレーテルにはかにのからだけでした。",
           "reading": ""
         }
       ],
-      "romaji": "Henzeru ni wa mainichi gochisou ga dete, gureeteru ni wa kani no kara shika moraemasendeshita.",
+      "romaji": "Henzeru ni wa mainichi gochisou, gureeteru ni wa kani no kara dake deshita.",
       "translations": {
         "vi": "Hansel ngày nào cũng được ăn cỗ, còn Gretel chỉ được vỏ cua.",
         "en": "Hansel got a feast every day, while Gretel got nothing but crab shells.",
@@ -1390,26 +1448,7 @@
         "my": "ဟန်ဆယ်က နေ့တိုင်း ဟင်းကောင်းရပြီး ဂရက်တယ်ကတော့ ဂဏန်းခွံပဲ ရတယ်။",
         "th": "ฮันเซลได้กินอาหารดี ๆ ทุกวัน ส่วนเกรเทลได้แค่กระดองปู"
       },
-      "vocab": [
-        {
-          "word": "ごちそう",
-          "reading": "ごちそう",
-          "meanings": {
-            "vi": "món ngon, cỗ",
-            "en": "feast, treat",
-            "zh-Hans": "美食，佳肴",
-            "zh-Hant": "美食，佳餚",
-            "ko": "진수성찬",
-            "tl": "handaan",
-            "ne": "मिठो भोजन",
-            "id": "hidangan lezat",
-            "pt": "banquete",
-            "my": "ဟင်းကောင်း",
-            "th": "อาหารเลิศรส"
-          },
-          "level": "N4"
-        }
-      ],
+      "vocab": [],
       "grammarNote": {
         "vi": "〜しか〜ない = chỉ ~ thôi.",
         "en": "〜しか〜ない = nothing but ~.",
@@ -1423,15 +1462,15 @@
         "my": "〜しか〜ない = ~ ပဲ။",
         "th": "〜しか〜ない = แค่ ~"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=61.055,68.184",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=58.54,63.652",
       "t": [
-        61.055,
-        68.184
+        58.54,
+        63.652
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "魔女は目がとても悪くて、遠くのものがよく見えませんでした。",
+      "ja": "魔女は目が悪くて、よく見えませんでした。",
       "furigana": [
         {
           "surface": "魔女",
@@ -1446,7 +1485,7 @@
           "reading": "め"
         },
         {
-          "surface": "がとても",
+          "surface": "が",
           "reading": ""
         },
         {
@@ -1454,15 +1493,7 @@
           "reading": "わる"
         },
         {
-          "surface": "くて、",
-          "reading": ""
-        },
-        {
-          "surface": "遠",
-          "reading": "とお"
-        },
-        {
-          "surface": "くのものがよく",
+          "surface": "くて、よく",
           "reading": ""
         },
         {
@@ -1474,7 +1505,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Majo wa me ga totemo warukute, tooku no mono ga yoku miemasendeshita.",
+      "romaji": "Majo wa me ga warukute, yoku miemasendeshita.",
       "translations": {
         "vi": "Mắt mụ phù thủy rất kém, không nhìn rõ vật ở xa.",
         "en": "The witch had very poor eyes and couldn't see far.",
@@ -1489,24 +1520,6 @@
         "th": "แม่มดสายตาแย่มาก มองของไกล ๆ ไม่ค่อยเห็น"
       },
       "vocab": [
-        {
-          "word": "遠く",
-          "reading": "とおく",
-          "meanings": {
-            "vi": "nơi xa",
-            "en": "far away",
-            "zh-Hans": "远处",
-            "zh-Hant": "遠處",
-            "ko": "먼 곳",
-            "tl": "malayo",
-            "ne": "टाढा",
-            "id": "jauh",
-            "pt": "longe",
-            "my": "အဝေး",
-            "th": "ที่ไกล"
-          },
-          "level": "N4"
-        },
         {
           "word": "見える",
           "reading": "みえる",
@@ -1539,10 +1552,10 @@
         "my": "目が悪い = မျက်စိမှုန်။",
         "th": "目が悪い = สายตาไม่ดี"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=68.784,73.777",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=64.252,67.736",
       "t": [
-        68.784,
-        73.777
+        64.252,
+        67.736
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -1626,10 +1639,10 @@
         "my": "毎朝 = မနက်တိုင်း။",
         "th": "毎朝 = ทุกเช้า"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=74.377,77.899",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=68.336,71.858",
       "t": [
-        74.377,
-        77.899
+        68.336,
+        71.858
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -1712,10 +1725,10 @@
         "my": "〜かどうか = ~ လား မလား။",
         "th": "〜かどうか = ว่า ~ หรือไม่"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=78.799,84.536",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=72.758,78.495",
       "t": [
-        78.799,
-        84.536
+        72.758,
+        78.495
       ],
       "voice": "ja-JP-Neural2-B"
     },
@@ -1783,10 +1796,10 @@
         "my": "〜のかわりに = ~ အစား။",
         "th": "〜のかわりに = แทน ~"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=85.436,90.093",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=79.395,84.052",
       "t": [
-        85.436,
-        90.093
+        79.395,
+        84.052
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -1845,10 +1858,10 @@
         "my": "〜のかい = (ရှေးဟန် မေးခွန်း)။",
         "th": "〜のかい = (คำถามแบบคนแก่)"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=90.993,94.091",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=84.952,88.05",
       "t": [
-        90.993,
-        94.091
+        84.952,
+        88.05
       ],
       "voice": "ja-JP-Neural2-B"
     },
@@ -1896,10 +1909,10 @@
         "my": "すぎる = ကုန်ဆုံး။",
         "th": "すぎる = ผ่านไป"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=94.991,98.167",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=88.95,92.126",
       "t": [
-        94.991,
-        98.167
+        88.95,
+        92.126
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -1967,10 +1980,10 @@
         "my": "〜ても〜ても = ~ ဖြစ်ဖြစ် ~ ဖြစ်ဖြစ်။",
         "th": "〜ても〜ても = ไม่ว่าจะ ~ หรือ ~"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=99.067,104.478",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=93.026,98.437",
       "t": [
-        99.067,
-        104.478
+        93.026,
+        98.437
       ],
       "voice": "ja-JP-Neural2-B"
     },
@@ -2053,10 +2066,10 @@
         "my": "ぽろぽろ = တတွတ်တွတ်။",
         "th": "ぽろぽろ = น้ำตาไหลพราก"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=105.378,109.72",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=99.337,103.68",
       "t": [
-        105.378,
-        109.72
+        99.337,
+        103.68
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -2139,10 +2152,10 @@
         "my": "〜たほうがよかった = ~ တာ ပိုကောင်းမယ်။",
         "th": "〜たほうがよかった = ~ เสียยังดีกว่า"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=110.62,113.915",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=104.58,107.875",
       "t": [
-        110.62,
-        113.915
+        104.58,
+        107.875
       ],
       "voice": "ja-JP-Neural2-B"
     },
@@ -2235,22 +2248,22 @@
         "my": "むだ = အလကား။",
         "th": "むだ = ไร้ประโยชน์"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=114.815,119.112",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=108.775,113.071",
       "t": [
-        114.815,
-        119.112
+        108.775,
+        113.071
       ],
       "voice": "ja-JP-Neural2-B"
     },
     {
-      "ja": "魔女は、もう火がごうごうと燃えているかまどの前に、グレーテルを連れて行きました。",
+      "ja": "魔女は、火がごうごうと燃えているかまどの前へ、グレーテルを連れて行きました。",
       "furigana": [
         {
           "surface": "魔女",
           "reading": "まじょ"
         },
         {
-          "surface": "は、もう",
+          "surface": "は、",
           "reading": ""
         },
         {
@@ -2274,7 +2287,7 @@
           "reading": "まえ"
         },
         {
-          "surface": "に、グレーテルを",
+          "surface": "へ、グレーテルを",
           "reading": ""
         },
         {
@@ -2294,7 +2307,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Majo wa, mou hi ga gougouto moeteiru kamado no mae ni, gureeteru o tsureteikimashita.",
+      "romaji": "Majo wa, hi ga gougouto moeteiru kamado no mae e, gureeteru o tsureteikimashita.",
       "translations": {
         "vi": "Mụ dẫn Gretel tới trước lò nướng, lửa bên trong đang cháy phừng phừng.",
         "en": "The witch led Gretel to the oven, where the fire was already roaring.",
@@ -2359,10 +2372,10 @@
         "my": "ごうごう = တဟုန်းဟုန်း။",
         "th": "ごうごう = โหม"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=120.012,126.973",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=113.971,120.705",
       "t": [
-        120.012,
-        126.973
+        113.971,
+        120.705
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -2426,15 +2439,15 @@
         "my": "〜ておいで = ~ ပြီး ပြန်လာ။",
         "th": "〜ておいで = ไป ~ มา"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=127.873,132.649",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=121.605,126.381",
       "t": [
-        127.873,
-        132.649
+        121.605,
+        126.381
       ],
       "voice": "ja-JP-Neural2-B"
     },
     {
-      "ja": "グレーテルは、魔女が自分をかまどに入れて焼くつもりだと気がつきました。",
+      "ja": "グレーテルは、魔女が自分を焼くつもりだと気がつきました。",
       "furigana": [
         {
           "surface": "グレーテルは、",
@@ -2453,15 +2466,7 @@
           "reading": "じぶん"
         },
         {
-          "surface": "をかまどに",
-          "reading": ""
-        },
-        {
-          "surface": "入",
-          "reading": "い"
-        },
-        {
-          "surface": "れて",
+          "surface": "を",
           "reading": ""
         },
         {
@@ -2481,7 +2486,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Gureeteru wa, majo ga jibun o kamado ni irete yaku tsumori da to kigatsukimashita.",
+      "romaji": "Gureeteru wa, majo ga jibun o yaku tsumori da to kigatsukimashita.",
       "translations": {
         "vi": "Gretel nhận ra mụ định nhét mình vào lò mà nướng.",
         "en": "Gretel realized the witch meant to put her in the oven and bake her.",
@@ -2509,10 +2514,10 @@
         "my": "〜つもり = ~ မယ့် အကြံ။",
         "th": "〜つもり = ตั้งใจจะ ~"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=133.549,139.948",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=127.281,131.836",
       "t": [
-        133.549,
-        139.948
+        127.281,
+        131.836
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -2560,15 +2565,15 @@
         "my": "〜のか = (သွယ်ဝိုက် မေးခွန်း)။",
         "th": "〜のか = (คำถามซ้อน)"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=140.848,143.998",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=132.736,135.887",
       "t": [
-        140.848,
-        143.998
+        132.736,
+        135.887
       ],
       "voice": "ja-JP-Neural2-B"
     },
     {
-      "ja": "「ばかな子だね。入り口は大きいんだ。ほら、わたしだって入ることができるよ。」",
+      "ja": "「ばかな子だね。入り口は大きいんだ。ほら、わたしだって入ることができる。」",
       "furigana": [
         {
           "surface": "「ばかな",
@@ -2611,11 +2616,11 @@
           "reading": "はい"
         },
         {
-          "surface": "ることができるよ。」",
+          "surface": "ることができる。」",
           "reading": ""
         }
       ],
-      "romaji": "“Baka na ko da ne. Iriguchi wa ookii n da. Hora, watashi datte hairu koto ga dekiru yo.”",
+      "romaji": "“Baka na ko da ne. Iriguchi wa ookii n da. Hora, watashi datte hairu koto ga dekiru.”",
       "translations": {
         "vi": "\"Con bé ngốc. Miệng lò rộng lắm. Xem này, đến ta cũng chui vào được.\"",
         "en": "\"Silly girl. The opening is big. Look, even I can get in.\"",
@@ -2643,10 +2648,10 @@
         "my": "〜だって = ~ တောင်။",
         "th": "〜だって = ขนาด ~ ยัง"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=144.898,151.803",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=136.787,143.546",
       "t": [
-        144.898,
-        151.803
+        136.787,
+        143.546
       ],
       "voice": "ja-JP-Neural2-B"
     },
@@ -2722,15 +2727,15 @@
         "my": "〜てみせる = ~ ပြ။",
         "th": "〜てみせる = ทำ ~ ให้ดู"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=152.703,157.395",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=144.446,149.138",
       "t": [
-        152.703,
-        157.395
+        144.446,
+        149.138
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "その時、グレーテルは力いっぱい魔女の背中をおしました。",
+      "ja": "その時、グレーテルは力いっぱい魔女をおしました。",
       "furigana": [
         {
           "surface": "その",
@@ -2757,19 +2762,11 @@
           "reading": "まじょ"
         },
         {
-          "surface": "の",
-          "reading": ""
-        },
-        {
-          "surface": "背中",
-          "reading": "せなか"
-        },
-        {
           "surface": "をおしました。",
           "reading": ""
         }
       ],
-      "romaji": "Sono toki, gureeteru wa chikaraippai majo no senaka o oshimashita.",
+      "romaji": "Sono toki, gureeteru wa chikaraippai majo o oshimashita.",
       "translations": {
         "vi": "Ngay lúc đó, Gretel dồn hết sức đẩy vào lưng mụ.",
         "en": "At that moment, Gretel pushed the witch's back with all her might.",
@@ -2797,10 +2794,10 @@
         "my": "力いっぱい = အားကုန်။",
         "th": "力いっぱい = สุดแรง"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=157.995,163.147",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=149.738,154.004",
       "t": [
-        157.995,
-        163.147
+        149.738,
+        154.004
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -2867,30 +2864,22 @@
         "my": "重い = လေး။",
         "th": "重い = หนัก"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=163.747,168.035",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=154.604,158.892",
       "t": [
-        163.747,
-        168.035
+        154.604,
+        158.892
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "魔女はおそろしい声でさけびましたが、グレーテルはふり返らずに走りました。",
+      "ja": "魔女はさけびましたが、グレーテルはふり返らずに走りました。",
       "furigana": [
         {
           "surface": "魔女",
           "reading": "まじょ"
         },
         {
-          "surface": "はおそろしい",
-          "reading": ""
-        },
-        {
-          "surface": "声",
-          "reading": "こえ"
-        },
-        {
-          "surface": "でさけびましたが、グレーテルはふり",
+          "surface": "はさけびましたが、グレーテルはふり",
           "reading": ""
         },
         {
@@ -2910,19 +2899,19 @@
           "reading": ""
         }
       ],
-      "romaji": "Majo wa osoroshii koe de sakebimashita ga, gureeteru wa furi kaerazu ni hashirimashita.",
+      "romaji": "Majo wa sakebimashita ga, gureeteru wa furi kaerazu ni hashirimashita.",
       "translations": {
-        "vi": "Mụ thét lên ghê rợn, nhưng Gretel chạy đi không ngoảnh lại.",
-        "en": "The witch screamed horribly, but Gretel ran without looking back.",
-        "zh-Hans": "巫婆发出可怕的尖叫，可格莱特头也不回地跑了。",
-        "zh-Hant": "巫婆發出可怕的尖叫，可格萊特頭也不回地跑了。",
-        "ko": "마녀는 무서운 소리로 비명을 질렀지만, 그레텔은 뒤돌아보지 않고 달렸습니다.",
-        "tl": "Sumigaw nang nakakatakot ang bruha, pero tumakbo si Gretel nang hindi lumilingon.",
-        "ne": "बोक्सी डरलाग्दो स्वरले चिच्याइन्, तर ग्रेटेल पछाडि नफर्की दौडिन्।",
-        "id": "Penyihir menjerit mengerikan, tapi Gretel berlari tanpa menoleh.",
-        "pt": "A bruxa gritou horrivelmente, mas Maria correu sem olhar para trás.",
-        "my": "စုန်းမ ကြောက်စရာအသံနဲ့ အော်ပေမဲ့ ဂရက်တယ်က နောက်မလှည့်ဘဲ ပြေးတယ်။",
-        "th": "แม่มดกรีดร้องน่ากลัว แต่เกรเทลวิ่งไปโดยไม่หันกลับ"
+        "vi": "Mụ thét lên, nhưng Gretel chạy đi không ngoảnh lại.",
+        "en": "The witch screamed, but Gretel ran without looking back.",
+        "zh-Hans": "巫婆尖叫起来，可格莱特头也不回地跑了。",
+        "zh-Hant": "巫婆尖叫起來，可格萊特頭也不回地跑了。",
+        "ko": "마녀는 비명을 질렀지만, 그레텔은 뒤돌아보지 않고 달렸습니다.",
+        "tl": "Sumigaw ang bruha, pero tumakbo si Gretel nang hindi lumilingon.",
+        "ne": "बोक्सी चिच्याइन्, तर ग्रेटेल पछाडि नफर्की दौडिन्।",
+        "id": "Penyihir menjerit, tapi Gretel berlari tanpa menoleh.",
+        "pt": "A bruxa gritou, mas Maria correu sem olhar para trás.",
+        "my": "စုန်းမ အော်ပေမဲ့ ဂရက်တယ်က နောက်မလှည့်ဘဲ ပြေးတယ်။",
+        "th": "แม่มดกรีดร้อง แต่เกรเทลวิ่งไปโดยไม่หันกลับ"
       },
       "vocab": [],
       "grammarNote": {
@@ -2938,10 +2927,10 @@
         "my": "〜ずに = မ~ ဘဲ။",
         "th": "〜ずに = โดยไม่ ~"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=168.635,175.036",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=159.492,164.497",
       "t": [
-        168.635,
-        175.036
+        159.492,
+        164.497
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -3005,12 +2994,55 @@
         "my": "もう〜ない = မ~ တော့။",
         "th": "もう〜ない = ไม่ ~ แล้ว"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=175.936,179.911",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=165.397,169.372",
       "t": [
-        175.936,
-        179.911
+        165.397,
+        169.372
       ],
       "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「グレーテル！ありがとう！」",
+      "furigana": [
+        {
+          "surface": "「グレーテル！ありがとう！」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Gureeteru! Arigatou!”",
+      "translations": {
+        "vi": "\"Gretel! Cảm ơn em!\"",
+        "en": "\"Gretel! Thank you!\"",
+        "zh-Hans": "\"格莱特！谢谢你！\"",
+        "zh-Hant": "\"格萊特！謝謝你！\"",
+        "ko": "\"그레텔! 고마워!\"",
+        "tl": "\"Gretel! Salamat!\"",
+        "ne": "\"ग्रेटेल! धन्यवाद!\"",
+        "id": "\"Gretel! Terima kasih!\"",
+        "pt": "\"Maria! Obrigado!\"",
+        "my": "\"ဂရက်တယ်! ကျေးဇူးပဲ!\"",
+        "th": "\"เกรเทล! ขอบใจนะ!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ありがとう = cảm ơn.",
+        "en": "ありがとう = thank you.",
+        "zh-Hans": "ありがとう＝谢谢。",
+        "zh-Hant": "ありがとう＝謝謝。",
+        "ko": "ありがとう = 고마워.",
+        "tl": "ありがとう = salamat.",
+        "ne": "ありがとう = धन्यवाद।",
+        "id": "ありがとう = terima kasih.",
+        "pt": "ありがとう = obrigado.",
+        "my": "ありがとう = ကျေးဇူးပဲ။",
+        "th": "ありがとう = ขอบใจ"
+      },
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=170.272,171.921",
+      "t": [
+        170.272,
+        171.921
+      ],
+      "voice": "ja-JP-Neural2-C"
     },
     {
       "ja": "グレーテルは小屋のかぎを開けて、ヘンゼルを外に出しました。",
@@ -3080,10 +3112,10 @@
         "my": "出す = ထုတ်။",
         "th": "出す = ปล่อยออก"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=180.811,185.929",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=172.821,177.939",
       "t": [
-        180.811,
-        185.929
+        172.821,
+        177.939
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -3170,34 +3202,22 @@
         "my": "だき合う = ဖက်။",
         "th": "だき合う = กอดกัน"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=186.529,190.963",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=178.539,182.972",
       "t": [
-        186.529,
-        190.963
+        178.539,
+        182.972
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "もう何もこわくないので、二人は魔女の家の中を見て回りました。",
+      "ja": "二人は、魔女の家の中を見て回りました。",
       "furigana": [
-        {
-          "surface": "もう",
-          "reading": ""
-        },
-        {
-          "surface": "何",
-          "reading": "なに"
-        },
-        {
-          "surface": "もこわくないので、",
-          "reading": ""
-        },
         {
           "surface": "二人",
           "reading": "ふたり"
         },
         {
-          "surface": "は",
+          "surface": "は、",
           "reading": ""
         },
         {
@@ -3241,19 +3261,19 @@
           "reading": ""
         }
       ],
-      "romaji": "Mou nani mo kowakunai node, futari wa majo no ie no naka o mitemawarimashita.",
+      "romaji": "Futari wa, majo no ie no naka o mitemawarimashita.",
       "translations": {
-        "vi": "Chẳng còn gì phải sợ, hai anh em đi xem khắp nhà mụ phù thủy.",
-        "en": "With nothing left to fear, they looked all around the witch's house.",
-        "zh-Hans": "已经没什么好怕的了，两人在巫婆家里到处看。",
-        "zh-Hant": "已經沒什麼好怕的了，兩人在巫婆家裡到處看。",
-        "ko": "이제 아무것도 무섭지 않아서 두 사람은 마녀의 집 안을 둘러보았습니다.",
-        "tl": "Wala nang kinatatakutan, nilibot nila ang bahay ng bruha.",
-        "ne": "अब केही डर नभएकाले दुवैले बोक्सीको घर घुमेर हेरे।",
-        "id": "Karena tak ada lagi yang ditakuti, mereka melihat-lihat rumah penyihir.",
-        "pt": "Sem mais nada a temer, os dois percorreram a casa da bruxa.",
-        "my": "ဘာမှ မကြောက်ရတော့လို့ နှစ်ယောက်သား စုန်းမအိမ်ထဲ လှည့်ကြည့်ကြတယ်။",
-        "th": "ไม่มีอะไรน่ากลัวแล้ว ทั้งสองจึงเดินดูทั่วบ้านแม่มด"
+        "vi": "Hai anh em đi xem khắp nhà mụ phù thủy.",
+        "en": "The two looked all around the witch's house.",
+        "zh-Hans": "两人在巫婆家里到处看。",
+        "zh-Hant": "兩人在巫婆家裡到處看。",
+        "ko": "두 사람은 마녀의 집 안을 둘러보았습니다.",
+        "tl": "Nilibot ng dalawa ang bahay ng bruha.",
+        "ne": "दुवैले बोक्सीको घर घुमेर हेरे।",
+        "id": "Keduanya melihat-lihat rumah penyihir.",
+        "pt": "Os dois percorreram a casa da bruxa.",
+        "my": "နှစ်ယောက်သား စုန်းမအိမ်ထဲ လှည့်ကြည့်ကြတယ်။",
+        "th": "ทั้งสองเดินดูทั่วบ้านแม่มด"
       },
       "vocab": [],
       "grammarNote": {
@@ -3269,20 +3289,16 @@
         "my": "見て回る = လှည့်ကြည့်။",
         "th": "見て回る = เดินดูรอบ ๆ"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=191.563,197.857",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=183.572,187.293",
       "t": [
-        191.563,
-        197.857
+        183.572,
+        187.293
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "すると、部屋のすみに、宝石がいっぱい入った箱がありました。",
+      "ja": "部屋のすみに、宝石がいっぱいの箱がありました。",
       "furigana": [
-        {
-          "surface": "すると、",
-          "reading": ""
-        },
         {
           "surface": "部屋",
           "reading": "へや"
@@ -3296,15 +3312,7 @@
           "reading": "ほうせき"
         },
         {
-          "surface": "がいっぱい",
-          "reading": ""
-        },
-        {
-          "surface": "入",
-          "reading": "はい"
-        },
-        {
-          "surface": "った",
+          "surface": "がいっぱいの",
           "reading": ""
         },
         {
@@ -3316,7 +3324,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Suruto, heya no sumi ni, houseki ga ippai haitta hako ga arimashita.",
+      "romaji": "Heya no sumi ni, houseki ga ippai no hako ga arimashita.",
       "translations": {
         "vi": "Thì ở góc phòng có một chiếc hộp đầy châu báu.",
         "en": "In a corner of the room was a box full of jewels.",
@@ -3363,10 +3371,10 @@
         "my": "宝石 = ကျောက်မျက်။",
         "th": "宝石 = อัญมณี"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=198.457,203.487",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=187.893,192.139",
       "t": [
-        198.457,
-        203.487
+        187.893,
+        192.139
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -3414,10 +3422,10 @@
         "my": "〜より = ~ ထက်။",
         "th": "〜より = กว่า ~"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=204.387,206.44",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=193.039,195.093",
       "t": [
-        204.387,
-        206.44
+        193.039,
+        195.093
       ],
       "voice": "ja-JP-Neural2-C"
     },
@@ -3484,10 +3492,10 @@
         "my": "つめる = ထည့်။",
         "th": "つめる = ยัดใส่"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=207.34,213.529",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=195.993,202.182",
       "t": [
-        207.34,
-        213.529
+        195.993,
+        202.182
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -3551,18 +3559,22 @@
         "my": "〜よう = ~ ရအောင်။",
         "th": "〜よう = ~ กันเถอะ"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=214.429,216.625",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=203.082,205.277",
       "t": [
-        214.429,
-        216.625
+        203.082,
+        205.277
       ],
       "voice": "ja-JP-Neural2-C"
     },
     {
-      "ja": "しばらく歩くと、大きな川に出ましたが、橋も船もありません。",
+      "ja": "少し歩くと、大きな川に出ましたが、橋も船もありません。",
       "furigana": [
         {
-          "surface": "しばらく",
+          "surface": "少",
+          "reading": "すこ"
+        },
+        {
+          "surface": "し",
           "reading": ""
         },
         {
@@ -3614,7 +3626,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Shibaraku aruku to, ookina kawa ni demashita ga, hashi mo fune mo arimasen.",
+      "romaji": "Sukoshi aruku to, ookina kawa ni demashita ga, hashi mo fune mo arimasen.",
       "translations": {
         "vi": "Đi được một lúc thì gặp một con sông lớn, nhưng không có cầu cũng chẳng có thuyền.",
         "en": "After walking a while, they came to a big river, but there was no bridge and no boat.",
@@ -3628,26 +3640,7 @@
         "my": "ခဏလျှောက်ပြီးတော့ မြစ်ကြီးတစ်စင်း ရောက်ပေမဲ့ တံတားလည်း မရှိ လှေလည်း မရှိဘူး။",
         "th": "เดินไปสักพักก็มาถึงแม่น้ำใหญ่ แต่ไม่มีทั้งสะพานและเรือ"
       },
-      "vocab": [
-        {
-          "word": "しばらく",
-          "reading": "しばらく",
-          "meanings": {
-            "vi": "một thời gian, một lúc",
-            "en": "for a while",
-            "zh-Hans": "一会儿、一段时间",
-            "zh-Hant": "一會兒、一段時間",
-            "ko": "잠시, 한동안",
-            "tl": "sandali",
-            "ne": "केही समय",
-            "id": "sebentar, beberapa lama",
-            "pt": "por um tempo",
-            "my": "ခဏ",
-            "th": "สักพัก"
-          },
-          "level": "N4"
-        }
-      ],
+      "vocab": [],
       "grammarNote": {
         "vi": "〜も〜も = cả ~ lẫn ~.",
         "en": "〜も〜も = neither ~ nor ~.",
@@ -3661,10 +3654,10 @@
         "my": "〜も〜も = ~ လည်း ~ လည်း။",
         "th": "〜も〜も = ทั้ง ~ และ ~"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=217.525,223.275",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=206.177,211.556",
       "t": [
-        217.525,
-        223.275
+        206.177,
+        211.556
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -3728,10 +3721,10 @@
         "my": "〜てみよう = ~ ကြည့်ရအောင်။",
         "th": "〜てみよう = ลอง ~ ดู"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=224.175,228.018",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=212.456,216.299",
       "t": [
-        224.175,
-        228.018
+        212.456,
+        216.299
       ],
       "voice": "ja-JP-Neural2-B"
     },
@@ -3806,26 +3799,26 @@
         "my": "乗せる = တင်ပေး။",
         "th": "乗せる = ให้ขึ้นขี่"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=228.618,232.714",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=216.899,220.995",
       "t": [
-        228.618,
-        232.714
+        216.899,
+        220.995
       ],
       "voice": "ja-JP-Neural2-B"
     },
     {
-      "ja": "アヒルはやってきて、まずヘンゼルを、次にグレーテルを、向こう岸まで運んでくれました。",
+      "ja": "アヒルは、ヘンゼルとグレーテルを一人ずつ向こう岸まで運んでくれました。",
       "furigana": [
         {
-          "surface": "アヒルはやってきて、まずヘンゼルを、",
+          "surface": "アヒルは、ヘンゼルとグレーテルを",
           "reading": ""
         },
         {
-          "surface": "次",
-          "reading": "つぎ"
+          "surface": "一人",
+          "reading": "ひとり"
         },
         {
-          "surface": "にグレーテルを、",
+          "surface": "ずつ",
           "reading": ""
         },
         {
@@ -3853,7 +3846,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Ahiru wa yattekite, mazu henzeru o, tsugini gureeteru o, mukougishi made hakondekuremashita.",
+      "romaji": "Ahiru wa, henzeru to gureeteru o hitori zutsu mukougishi made hakondekuremashita.",
       "translations": {
         "vi": "Vịt bơi đến, đưa Hansel rồi đến Gretel sang bờ bên kia.",
         "en": "The duck came and carried first Hansel, then Gretel, to the other bank.",
@@ -3881,18 +3874,18 @@
         "my": "向こう岸 = ဟိုဘက်ကမ်း။",
         "th": "向こう岸 = ฝั่งตรงข้าม"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=233.614,240.724",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=221.895,227.671",
       "t": [
-        233.614,
-        240.724
+        221.895,
+        227.671
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "そこからしばらく歩くと、森がだんだん見たことのある森になってきました。",
+      "ja": "しばらく歩くと、だんだん知っている森になってきました。",
       "furigana": [
         {
-          "surface": "そこからしばらく",
+          "surface": "しばらく",
           "reading": ""
         },
         {
@@ -3900,23 +3893,15 @@
           "reading": "ある"
         },
         {
-          "surface": "くと、",
+          "surface": "くと、だんだん",
           "reading": ""
         },
         {
-          "surface": "森",
-          "reading": "もり"
+          "surface": "知",
+          "reading": "し"
         },
         {
-          "surface": "がだんだん",
-          "reading": ""
-        },
-        {
-          "surface": "見",
-          "reading": "み"
-        },
-        {
-          "surface": "たことのある",
+          "surface": "っている",
           "reading": ""
         },
         {
@@ -3928,7 +3913,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Soko kara shibaraku aruku to, mori ga dandan mita koto no aru mori ni nattekimashita.",
+      "romaji": "Shibaraku aruku to, dandan shitteiru mori ni nattekimashita.",
       "translations": {
         "vi": "Đi tiếp một lúc, khu rừng dần dần trở nên quen thuộc.",
         "en": "Walking on a while, the forest gradually began to look familiar.",
@@ -3942,7 +3927,26 @@
         "my": "အဲဒီကနေ ခဏလျှောက်တော့ တောက တဖြည်းဖြည်း မြင်ဖူးတဲ့ တောလို ဖြစ်လာတယ်။",
         "th": "เดินต่อไปสักพัก ป่าก็ค่อย ๆ กลายเป็นป่าที่คุ้นตา"
       },
-      "vocab": [],
+      "vocab": [
+        {
+          "word": "しばらく",
+          "reading": "しばらく",
+          "meanings": {
+            "vi": "một thời gian, một lúc",
+            "en": "for a while",
+            "zh-Hans": "一会儿、一段时间",
+            "zh-Hant": "一會兒、一段時間",
+            "ko": "잠시, 한동안",
+            "tl": "sandali",
+            "ne": "केही समय",
+            "id": "sebentar, beberapa lama",
+            "pt": "por um tempo",
+            "my": "ခဏ",
+            "th": "สักพัก"
+          },
+          "level": "N4"
+        }
+      ],
       "grammarNote": {
         "vi": "だんだん = dần dần.",
         "en": "だんだん = gradually.",
@@ -3956,15 +3960,15 @@
         "my": "だんだん = တဖြည်းဖြည်း။",
         "th": "だんだん = ค่อย ๆ"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=241.324,247.39",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=228.271,232.78",
       "t": [
-        241.324,
-        247.39
+        228.271,
+        232.78
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "そして、遠くに、なつかしい自分の家が見えてきました。",
+      "ja": "そして、遠くになつかしい家が見えてきました。",
       "furigana": [
         {
           "surface": "そして、",
@@ -3975,15 +3979,7 @@
           "reading": "とお"
         },
         {
-          "surface": "くに、なつかしい",
-          "reading": ""
-        },
-        {
-          "surface": "自分",
-          "reading": "じぶん"
-        },
-        {
-          "surface": "の",
+          "surface": "くになつかしい",
           "reading": ""
         },
         {
@@ -4003,7 +3999,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Soshite, tooku ni, natsukashii jibun no ie ga mietekimashita.",
+      "romaji": "Soshite, tooku ni natsukashii ie ga mietekimashita.",
       "translations": {
         "vi": "Rồi từ xa, ngôi nhà thân thương của hai anh em hiện ra.",
         "en": "And in the distance, their dear old home came into view.",
@@ -4017,7 +4013,26 @@
         "my": "ပြီးတော့ အဝေးမှာ လွမ်းစရာ ကိုယ့်အိမ်လေးကို မြင်လာရတယ်။",
         "th": "แล้วไกล ๆ ก็มองเห็นบ้านของตัวเองที่คิดถึง"
       },
-      "vocab": [],
+      "vocab": [
+        {
+          "word": "遠く",
+          "reading": "とおく",
+          "meanings": {
+            "vi": "nơi xa",
+            "en": "far away",
+            "zh-Hans": "远处",
+            "zh-Hant": "遠處",
+            "ko": "먼 곳",
+            "tl": "malayo",
+            "ne": "टाढा",
+            "id": "jauh",
+            "pt": "longe",
+            "my": "အဝေး",
+            "th": "ที่ไกล"
+          },
+          "level": "N4"
+        }
+      ],
       "grammarNote": {
         "vi": "なつかしい = thân thương, nhớ nhung.",
         "en": "なつかしい = dear, nostalgic.",
@@ -4031,15 +4046,15 @@
         "my": "なつかしい = လွမ်းစရာ။",
         "th": "なつかしい = คิดถึง"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=247.99,252.76",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=233.38,236.951",
       "t": [
-        247.99,
-        252.76
+        233.38,
+        236.951
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "二人は走り出して、家にとびこみ、お父さんの首にだきつきました。",
+      "ja": "二人は家にとびこんで、お父さんにだきつきました。",
       "furigana": [
         {
           "surface": "二人",
@@ -4050,27 +4065,11 @@
           "reading": ""
         },
         {
-          "surface": "走",
-          "reading": "はし"
-        },
-        {
-          "surface": "り",
-          "reading": ""
-        },
-        {
-          "surface": "出",
-          "reading": "だ"
-        },
-        {
-          "surface": "して、",
-          "reading": ""
-        },
-        {
           "surface": "家",
           "reading": "いえ"
         },
         {
-          "surface": "にとびこみ、お",
+          "surface": "にとびこんで、お",
           "reading": ""
         },
         {
@@ -4078,52 +4077,25 @@
           "reading": "とう"
         },
         {
-          "surface": "さんの",
-          "reading": ""
-        },
-        {
-          "surface": "首",
-          "reading": "くび"
-        },
-        {
-          "surface": "にだきつきました。",
+          "surface": "さんにだきつきました。",
           "reading": ""
         }
       ],
-      "romaji": "Futari wa hashiridashite, ie ni tobikomi, otousan no kubi ni dakitsukimashita.",
+      "romaji": "Futari wa ie ni tobikonde, otousan ni dakitsukimashita.",
       "translations": {
-        "vi": "Hai anh em chạy ào vào nhà, ôm chầm lấy cổ bố.",
-        "en": "The two ran, burst into the house and threw their arms around their father's neck.",
-        "zh-Hans": "两人跑起来，冲进家门，搂住了爸爸的脖子。",
-        "zh-Hant": "兩人跑起來，衝進家門，摟住了爸爸的脖子。",
-        "ko": "두 사람은 달려가 집에 뛰어들어 아버지의 목에 매달렸습니다.",
-        "tl": "Tumakbo ang dalawa, pumasok sa bahay at niyakap ang leeg ng ama.",
-        "ne": "दुवै दौडेर घरभित्र पसे र बुबाको घाँटीमा झुन्डिए।",
-        "id": "Keduanya berlari masuk rumah dan memeluk leher ayah mereka.",
-        "pt": "Os dois correram, entraram em casa e se atiraram ao pescoço do pai.",
-        "my": "နှစ်ယောက်သား ပြေးပြီး အိမ်ထဲ ဝင်သွားကာ အဖေ့လည်ပင်းကို ဖက်ကြတယ်။",
-        "th": "ทั้งสองวิ่งพรวดเข้าบ้าน กอดคอพ่อไว้แน่น"
+        "vi": "Hai anh em chạy ào vào nhà, ôm chầm lấy bố.",
+        "en": "The two burst into the house and threw their arms around their father.",
+        "zh-Hans": "两人冲进家门，扑上去抱住了爸爸。",
+        "zh-Hant": "兩人衝進家門，撲上去抱住了爸爸。",
+        "ko": "두 사람은 집에 뛰어들어 아버지에게 안겼습니다.",
+        "tl": "Pumasok ang dalawa sa bahay at niyakap ang ama.",
+        "ne": "दुवै घरभित्र पसेर बुबालाई अँगालो हाले।",
+        "id": "Keduanya masuk rumah dan memeluk ayah mereka.",
+        "pt": "Os dois entraram correndo e se atiraram nos braços do pai.",
+        "my": "နှစ်ယောက်သား အိမ်ထဲ ပြေးဝင်ပြီး အဖေ့ကို ဖက်ကြတယ်။",
+        "th": "ทั้งสองวิ่งพรวดเข้าบ้าน โผกอดพ่อไว้แน่น"
       },
-      "vocab": [
-        {
-          "word": "首",
-          "reading": "くび",
-          "meanings": {
-            "vi": "cổ",
-            "en": "neck",
-            "zh-Hans": "脖子",
-            "zh-Hant": "脖子",
-            "ko": "목",
-            "tl": "leeg",
-            "ne": "घाँटी",
-            "id": "leher",
-            "pt": "pescoço",
-            "my": "လည်ပင်း",
-            "th": "คอ"
-          },
-          "level": "N4"
-        }
-      ],
+      "vocab": [],
       "grammarNote": {
         "vi": "だきつく = ôm chầm.",
         "en": "だきつく = to cling, hug.",
@@ -4137,15 +4109,15 @@
         "my": "だきつく = ဖက်တွယ်။",
         "th": "だきつく = โผกอด"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=253.36,259.142",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=237.551,242.152",
       "t": [
-        253.36,
-        259.142
+        237.551,
+        242.152
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "お父さんは、子どもたちを森に置いてきてから、一日も楽しい日がありませんでした。",
+      "ja": "お父さんは、子どもたちを置いてきてから、一日も楽しい日がありませんでした。",
       "furigana": [
         {
           "surface": "お",
@@ -4165,14 +4137,6 @@
         },
         {
           "surface": "どもたちを",
-          "reading": ""
-        },
-        {
-          "surface": "森",
-          "reading": "もり"
-        },
-        {
-          "surface": "に",
           "reading": ""
         },
         {
@@ -4208,7 +4172,7 @@
           "reading": ""
         }
       ],
-      "romaji": "Otousan wa, kodomotachi o mori ni oitekite kara, ichinichi mo tanoshii hi ga arimasendeshita.",
+      "romaji": "Otousan wa, kodomotachi o oitekite kara, ichinichi mo tanoshii hi ga arimasendeshita.",
       "translations": {
         "vi": "Từ khi bỏ con trong rừng, người cha chưa có lấy một ngày vui.",
         "en": "Since leaving the children in the forest, the father hadn't had a single happy day.",
@@ -4236,10 +4200,10 @@
         "my": "一日も〜ない = တစ်ရက်မှ မ~။",
         "th": "一日も〜ない = ไม่มีสักวัน"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=259.742,266.694",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=242.752,249.427",
       "t": [
-        259.742,
-        266.694
+        242.752,
+        249.427
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -4299,10 +4263,10 @@
         "my": "もう〜いない = မရှိတော့။",
         "th": "もう〜いない = ไม่อยู่แล้ว"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=267.294,271.466",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=250.027,254.199",
       "t": [
-        267.294,
-        271.466
+        250.027,
+        254.199
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -4358,10 +4322,10 @@
         "my": "二度と〜ない = နောက်ဘယ်တော့မှ မ~။",
         "th": "二度と〜ない = จะไม่ ~ อีก"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=272.366,276.66",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=255.099,259.393",
       "t": [
-        272.366,
-        276.66
+        255.099,
+        259.393
       ],
       "voice": "ja-JP-Neural2-C"
     },
@@ -4425,10 +4389,10 @@
         "my": "部屋中 = အခန်းအနှံ့။",
         "th": "部屋中 = ทั่วห้อง"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=277.56,281.704",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=260.293,264.436",
       "t": [
-        277.56,
-        281.704
+        260.293,
+        264.436
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -4492,10 +4456,10 @@
         "my": "〜ては〜 = ~ ပြီး ~။",
         "th": "〜ては〜 = ~ แล้ว ~ อีก"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=282.304,287.786",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=265.036,270.519",
       "t": [
-        282.304,
-        287.786
+        265.036,
+        270.519
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -4588,10 +4552,10 @@
         "my": "すっかり = လုံးဝ။",
         "th": "すっかり = ทั้งหมด"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=288.386,292.815",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=271.119,275.547",
       "t": [
-        288.386,
-        292.815
+        271.119,
+        275.547
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
@@ -4655,18 +4619,18 @@
         "my": "一緒に = အတူ။",
         "th": "一緒に = ด้วยกัน"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=293.415,298.029",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=276.147,280.762",
       "t": [
-        293.415,
-        298.029
+        276.147,
+        280.762
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     },
     {
-      "ja": "わたしのお話はこれでおしまい。ほら、ネズミが走っていきますよ。",
+      "ja": "お話はこれでおしまい。ほら、ネズミが走っていくよ。",
       "furigana": [
         {
-          "surface": "わたしのお",
+          "surface": "お",
           "reading": ""
         },
         {
@@ -4682,11 +4646,11 @@
           "reading": "はし"
         },
         {
-          "surface": "っていきますよ。",
+          "surface": "っていくよ。",
           "reading": ""
         }
       ],
-      "romaji": "Watashi no ohanashi wa kore de oshimai. Hora, nezumi ga hashitteikimasu yo.",
+      "romaji": "Ohanashi wa kore de oshimai. Hora, nezumi ga hashitteiku yo.",
       "translations": {
         "vi": "Chuyện của tôi đến đây là hết. Kìa, có con chuột vừa chạy qua kìa.",
         "en": "My story is done. Look, there runs a mouse.",
@@ -4714,16 +4678,16 @@
         "my": "おしまい = ပြီးဆုံး။",
         "th": "おしまい = จบ"
       },
-      "audio": "/audio/world-hansel-2/chapter.mp3#t=298.629,304.515",
+      "audio": "/audio/world-hansel-2/chapter.mp3#t=281.362,286.565",
       "t": [
-        298.629,
-        304.515
+        281.362,
+        286.565
       ],
       "voice": "ja-JP-Chirp3-HD-Aoede"
     }
   ],
   "audioTrack": {
     "src": "/audio/world-hansel-2/chapter.mp3",
-    "durationSec": 305.568
+    "durationSec": 287.616
   }
 }

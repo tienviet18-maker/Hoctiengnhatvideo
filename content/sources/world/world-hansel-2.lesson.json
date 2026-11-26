@@ -2,29 +2,157 @@
  "grammarPoints": [
   {
    "pattern": "〜しかない",
-   "example": 9,
-   "meaning": { "vi": "chỉ còn cách ~, đành phải ~", "en": "have no choice but to ~", "zh-Hans": "只能……", "ko": "~할 수밖에 없다", "tl": "walang magawa kundi ~", "ne": "~ बाहेक उपाय छैन", "id": "tidak ada pilihan selain ~", "pt": "não ter outra saída senão ~", "my": "~ ရုံသာ ရှိ", "th": "ทำได้แค่ ~" }
+   "example": 10,
+   "meaning": {
+    "vi": "chỉ còn cách ~, đành phải ~",
+    "en": "have no choice but to ~",
+    "zh-Hans": "只能……",
+    "ko": "~할 수밖에 없다",
+    "tl": "walang magawa kundi ~",
+    "ne": "~ बाहेक उपाय छैन",
+    "id": "tidak ada pilihan selain ~",
+    "pt": "não ter outra saída senão ~",
+    "my": "~ ရုံသာ ရှိ",
+    "th": "ทำได้แค่ ~"
+   }
   },
   {
    "pattern": "〜かどうか",
-   "example": 13,
-   "meaning": { "vi": "có ~ hay không", "en": "whether or not ~", "zh-Hans": "是否……", "ko": "~인지 아닌지", "tl": "kung ~ o hindi", "ne": "~ कि होइन", "id": "apakah ~ atau tidak", "pt": "se ~ ou não", "my": "~ လား မလား", "th": "ว่า ~ หรือไม่" }
+   "example": 14,
+   "meaning": {
+    "vi": "có ~ hay không",
+    "en": "whether or not ~",
+    "zh-Hans": "是否……",
+    "ko": "~인지 아닌지",
+    "tl": "kung ~ o hindi",
+    "ne": "~ कि होइन",
+    "id": "apakah ~ atau tidak",
+    "pt": "se ~ ou não",
+    "my": "~ လား မလား",
+    "th": "ว่า ~ หรือไม่"
+   }
   },
   {
    "pattern": "〜ても、〜ても",
-   "example": 17,
-   "meaning": { "vi": "dù ~ hay ~ thì cũng", "en": "whether ~ or ~, either way", "zh-Hans": "不管……还是……", "ko": "~든 ~든", "tl": "~ man o ~", "ne": "~ होस् या ~", "id": "entah ~ atau ~", "pt": "seja ~ ou ~", "my": "~ ဖြစ်ဖြစ် ~ ဖြစ်ဖြစ်", "th": "ไม่ว่าจะ ~ หรือ ~" }
+   "example": 18,
+   "meaning": {
+    "vi": "dù ~ hay ~ thì cũng",
+    "en": "whether ~ or ~, either way",
+    "zh-Hans": "不管……还是……",
+    "ko": "~든 ~든",
+    "tl": "~ man o ~",
+    "ne": "~ होस् या ~",
+    "id": "entah ~ atau ~",
+    "pt": "seja ~ ou ~",
+    "my": "~ ဖြစ်ဖြစ် ~ ဖြစ်ဖြစ်",
+    "th": "ไม่ว่าจะ ~ หรือ ~"
+   }
   },
   {
    "pattern": "〜つもりだ",
-   "example": 23,
-   "meaning": { "vi": "định ~, có ý ~", "en": "intend to ~", "zh-Hans": "打算……", "ko": "~할 생각이다", "tl": "balak ~", "ne": "~ ने विचार छ", "id": "berniat ~", "pt": "pretender ~", "my": "~ မယ့် အကြံ", "th": "ตั้งใจจะ ~" }
+   "example": 24,
+   "meaning": {
+    "vi": "định ~, có ý ~",
+    "en": "intend to ~",
+    "zh-Hans": "打算……",
+    "ko": "~할 생각이다",
+    "tl": "balak ~",
+    "ne": "~ ने विचार छ",
+    "id": "berniat ~",
+    "pt": "pretender ~",
+    "my": "~ မယ့် အကြံ",
+    "th": "ตั้งใจจะ ~"
+   }
   }
  ],
  "quiz": [
-  { "ja": "ヘンゼルは、指のかわりに何を出しましたか。", "choices": ["パン", "小石", "細いほね", "かぎ"], "answer": 2, "explain": { "vi": "Cậu chìa khúc xương mảnh để mụ phù thủy mắt kém tưởng cậu vẫn gầy.", "en": "He held out a thin bone so the half-blind witch thought he was still thin.", "zh-Hans": "他伸出细骨头，让眼神不好的巫婆以为他还很瘦。", "ko": "가는 뼈를 내밀어 눈이 나쁜 마녀가 아직 말랐다고 생각하게 했다.", "tl": "Manipis na buto, para isipin ng bruhang malabo ang mata na payat pa siya.", "ne": "पातलो हड्डी, ताकि कमजोर आँखाकी बोक्सीले ऊ दुब्लै छ भन्ठानोस्।", "id": "Tulang kecil, agar penyihir yang rabun mengira ia masih kurus.", "pt": "Um ossinho, para a bruxa de vista fraca achar que ele continuava magro.", "my": "အရိုးသေးလေး၊ မျက်စိမှုန်တဲ့ စုန်းမက ပိန်နေတုန်းလို့ ထင်အောင်။", "th": "กระดูกเล็ก ๆ เพื่อให้แม่มดสายตาไม่ดีคิดว่าเขายังผอม" } },
-  { "ja": "グレーテルは、どうやって魔女に勝ちましたか。", "choices": ["魔女をかまどにおした", "魔女に水をかけた", "魔女から逃げた", "アヒルを呼んだ"], "answer": 0, "explain": { "vi": "Khi mụ thò đầu vào lò, Gretel đẩy mụ vào và khóa cửa.", "en": "When the witch put her head in the oven, Gretel pushed her in and locked the door.", "zh-Hans": "巫婆把头伸进炉子时，格莱特把她推进去锁上门。", "ko": "마녀가 화덕에 머리를 넣었을 때 그레텔이 밀어 넣고 문을 잠갔다.", "tl": "Nang ipasok ng bruha ang ulo sa pugon, itinulak siya ni Gretel at ikinandado.", "ne": "बोक्सीले भट्टीमा टाउको छिराउँदा ग्रेटेलले धकेलेर ताल्चा लगाइन्।", "id": "Saat penyihir memasukkan kepala ke tungku, Gretel mendorongnya dan mengunci pintu.", "pt": "Quando a bruxa pôs a cabeça no forno, Maria a empurrou e trancou a porta.", "my": "စုန်းမ မီးဖိုထဲ ခေါင်းထည့်တုန်း ဂရက်တယ်က တွန်းပြီး သော့ခတ်လိုက်တယ်။", "th": "ตอนแม่มดยื่นหัวเข้าเตา เกรเทลผลักเข้าไปแล้วล็อกประตู" } },
-  { "ja": "二人は、どうやって大きな川をわたりましたか。", "choices": ["橋をわたった", "船に乗った", "白いアヒルに乗った", "泳いだ"], "answer": 2, "explain": { "vi": "Vịt trắng chở từng người sang bờ bên kia.", "en": "A white duck carried them across one at a time.", "zh-Hans": "白鸭子一个一个地把他们送到对岸。", "ko": "하얀 오리가 한 명씩 건네주었다.", "tl": "Isa-isa silang isinakay ng puting pato.", "ne": "सेतो हाँसले एक एक गरी पारि पुर्यायो।", "id": "Bebek putih membawa mereka satu per satu.", "pt": "Uma pata branca os levou, um de cada vez.", "my": "ဘဲဖြူလေးက တစ်ယောက်ချင်း သယ်ပေးတယ်။", "th": "เป็ดขาวพาข้ามทีละคน" } },
-  { "ja": "家に帰ったとき、だれがいませんでしたか。", "choices": ["お父さん", "新しいお母さん", "白いねこ", "アヒル"], "answer": 1, "explain": { "vi": "Bà mẹ kế không còn ở nhà nữa.", "en": "The stepmother was no longer there.", "zh-Hans": "继母已经不在了。", "ko": "새엄마가 이제 없었다.", "tl": "Wala na ang madrasta.", "ne": "सौतेनी आमा थिइनन्।", "id": "Ibu tiri sudah tidak ada.", "pt": "A madrasta não estava mais lá.", "my": "မိထွေး မရှိတော့ဘူး။", "th": "แม่เลี้ยงไม่อยู่แล้ว" } }
+  {
+   "ja": "ヘンゼルは、指のかわりに何を出しましたか。",
+   "choices": [
+    "パン",
+    "小石",
+    "細いほね",
+    "かぎ"
+   ],
+   "answer": 2,
+   "explain": {
+    "vi": "Cậu chìa khúc xương mảnh để mụ phù thủy mắt kém tưởng cậu vẫn gầy.",
+    "en": "He held out a thin bone so the half-blind witch thought he was still thin.",
+    "zh-Hans": "他伸出细骨头，让眼神不好的巫婆以为他还很瘦。",
+    "ko": "가는 뼈를 내밀어 눈이 나쁜 마녀가 아직 말랐다고 생각하게 했다.",
+    "tl": "Manipis na buto, para isipin ng bruhang malabo ang mata na payat pa siya.",
+    "ne": "पातलो हड्डी, ताकि कमजोर आँखाकी बोक्सीले ऊ दुब्लै छ भन्ठानोस्।",
+    "id": "Tulang kecil, agar penyihir yang rabun mengira ia masih kurus.",
+    "pt": "Um ossinho, para a bruxa de vista fraca achar que ele continuava magro.",
+    "my": "အရိုးသေးလေး၊ မျက်စိမှုန်တဲ့ စုန်းမက ပိန်နေတုန်းလို့ ထင်အောင်။",
+    "th": "กระดูกเล็ก ๆ เพื่อให้แม่มดสายตาไม่ดีคิดว่าเขายังผอม"
+   }
+  },
+  {
+   "ja": "グレーテルは、どうやって魔女に勝ちましたか。",
+   "choices": [
+    "魔女をかまどにおした",
+    "魔女に水をかけた",
+    "魔女から逃げた",
+    "アヒルを呼んだ"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Khi mụ thò đầu vào lò, Gretel đẩy mụ vào và khóa cửa.",
+    "en": "When the witch put her head in the oven, Gretel pushed her in and locked the door.",
+    "zh-Hans": "巫婆把头伸进炉子时，格莱特把她推进去锁上门。",
+    "ko": "마녀가 화덕에 머리를 넣었을 때 그레텔이 밀어 넣고 문을 잠갔다.",
+    "tl": "Nang ipasok ng bruha ang ulo sa pugon, itinulak siya ni Gretel at ikinandado.",
+    "ne": "बोक्सीले भट्टीमा टाउको छिराउँदा ग्रेटेलले धकेलेर ताल्चा लगाइन्।",
+    "id": "Saat penyihir memasukkan kepala ke tungku, Gretel mendorongnya dan mengunci pintu.",
+    "pt": "Quando a bruxa pôs a cabeça no forno, Maria a empurrou e trancou a porta.",
+    "my": "စုန်းမ မီးဖိုထဲ ခေါင်းထည့်တုန်း ဂရက်တယ်က တွန်းပြီး သော့ခတ်လိုက်တယ်။",
+    "th": "ตอนแม่มดยื่นหัวเข้าเตา เกรเทลผลักเข้าไปแล้วล็อกประตู"
+   }
+  },
+  {
+   "ja": "二人は、どうやって大きな川をわたりましたか。",
+   "choices": [
+    "橋をわたった",
+    "船に乗った",
+    "白いアヒルに乗った",
+    "泳いだ"
+   ],
+   "answer": 2,
+   "explain": {
+    "vi": "Vịt trắng chở từng người sang bờ bên kia.",
+    "en": "A white duck carried them across one at a time.",
+    "zh-Hans": "白鸭子一个一个地把他们送到对岸。",
+    "ko": "하얀 오리가 한 명씩 건네주었다.",
+    "tl": "Isa-isa silang isinakay ng puting pato.",
+    "ne": "सेतो हाँसले एक एक गरी पारि पुर्यायो।",
+    "id": "Bebek putih membawa mereka satu per satu.",
+    "pt": "Uma pata branca os levou, um de cada vez.",
+    "my": "ဘဲဖြူလေးက တစ်ယောက်ချင်း သယ်ပေးတယ်။",
+    "th": "เป็ดขาวพาข้ามทีละคน"
+   }
+  },
+  {
+   "ja": "家に帰ったとき、だれがいませんでしたか。",
+   "choices": [
+    "お父さん",
+    "新しいお母さん",
+    "白いねこ",
+    "アヒル"
+   ],
+   "answer": 1,
+   "explain": {
+    "vi": "Bà mẹ kế không còn ở nhà nữa.",
+    "en": "The stepmother was no longer there.",
+    "zh-Hans": "继母已经不在了。",
+    "ko": "새엄마가 이제 없었다.",
+    "tl": "Wala na ang madrasta.",
+    "ne": "सौतेनी आमा थिइनन्।",
+    "id": "Ibu tiri sudah tidak ada.",
+    "pt": "A madrasta não estava mais lá.",
+    "my": "မိထွေး မရှိတော့ဘူး။",
+    "th": "แม่เลี้ยงไม่อยู่แล้ว"
+   }
+  }
  ]
 }
