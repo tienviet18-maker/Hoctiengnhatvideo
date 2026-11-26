@@ -864,6 +864,13 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 9: truyện thế giới đợt 5 — 27/11/2026 (nhánh `claude/si-stories-10`)
+
+- Đã dịch 6 gói từ PR #84: world-alibaba-1/2, world-bijo-1/2, world-yukinojoo-1/2.
+- Văn phong khớp các gói world- trước (lời kể khẩu ngữ, lời thoại giữ ngoặc kép). Tên: අලිබාබා, කාසිම්, මොර්ජියානා; බෙල්, මෘගයා; කායි, ගර්ඩා, හිම රැජින. "Vừng ơi mở ra" dịch là "අරින්න, තලපු!".
+- world-bijo-2 T4 dịch theo câu mới 「ベル、今夜も聞くよ。わたしの妻になってくれないか。」.
+- Sau đợt này: 109 gói có si.
+
 ## Tiếng Sinhala đợt 8: Rakugo trọn bộ — 27/11/2026 (nhánh `claude/si-stories-9`)
 
 - Đã dịch 14 gói: rakugo-doguya, hatsu-tenjin, hirabayashi, inu-no-me, jugemu, kinmeichiku, kohome, manju-kowai, meguro-no-sanma, shibahama-1/2, shinigami-2, sokotsu-nagaya, tenshiki (kệ Rakugo giờ đủ si cả 16 gói).
