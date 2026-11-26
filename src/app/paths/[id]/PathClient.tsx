@@ -110,7 +110,7 @@ export default function PathClient({ pathId }: { pathId: string }) {
                 </span>
               </span>
               <span className="lvl">{it.level}</span>
-              {it.free ? <span className="free-badge">{ui.common.free}</span> : <span className="lock-badge">{ui.common.vip}</span>}
+              {it.free && <span className="free-badge">{ui.common.free}</span>}
             </button>
           );
         })}
