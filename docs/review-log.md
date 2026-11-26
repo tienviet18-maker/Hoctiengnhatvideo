@@ -636,3 +636,15 @@ Thêm truyện N1 để bù kệ N1 sau khi ẩn bài luận cũ. Thạch Lam m�
 - atLevel N1 của tập 3 ban đầu chỉ 3,4%, đã nâng lên 5,4% bằng từ N1 tự nhiên (郷愁, 素朴, 趣, 名残, 傍ら, 惜しむ).
 - Sửa romaji bằng `phrases`: ガーはね → "wa ne", じんわり, 取るに足りない, もう少し, タンさん.
 - Kệ N1 hiện có 6 gói v2 (Hoàng Lê ×3, Thạch Lam ×3).
+
+## Đăng nhập, VIP theo tài khoản, chặn VIP ở máy chủ, deploy Cloudflare — 26/11/2026
+
+Việt giao đấu nối Firebase, Cloudflare và SePay, học theo ViBJT. Bài học từ ViBJT: VIP phải gắn với **tài khoản** chứ không với máy, để người mua VIP trên web cài bản iOS rồi đăng nhập vẫn giữ VIP.
+
+- **Firebase** project `miraigo-vimai` (gói Spark miễn phí, cùng tài khoản với ViBJT). Đăng nhập Google + email/mật khẩu, Apple để bản iOS. Firestore Tokyo, rules ở `firestore.rules` (chỉ chủ tài khoản đọc/ghi `users/{uid}/progress/main`). Cấu hình web công khai ở `src/lib/firebase-config.ts`.
+- **Đăng nhập tuỳ chọn** (`src/lib/account.ts`, `AccountSheet`, `AccountCard` ở tab Tôi): SDK Firebase nạp động nên trang danh sách không nặng thêm. Cảnh báo khi mở trong Facebook/Zalo (chặn đăng nhập Google). Có nút **Xoá tài khoản** (yêu cầu của Apple). `/__/auth/*` chạy trên chính tên miền app như ViBJT.
+- **Đồng bộ tiến độ** (`src/lib/cloud-sync.ts`, `src/lib/sync-merge.ts` + `tests/sync-merge.test.ts`): hồ sơ, thẻ ôn, hoạt động, tiến độ bài, video tự thêm. Gộp không mất dữ liệu; nén gzip để vừa 1 MiB của Firestore.
+- **VIP web** dùng hệ VIP chung trên vimai.jp (vimai-ecosystem `docs/WEB_VIP.md`): chuyển khoản VietQR, SePay báo vimai.jp, VIP ghi vào D1 `vimai-cms` theo uid. Giá Việt chốt 26/11: 159.000đ / 749.000đ / 1.299.000đ (1/6/12 tháng), gạch giá gấp đôi tới hết đợt ra mắt. Không tự gia hạn; mua thêm thì cộng nối hạn. Màn cảm ơn `VipWelcome` khi tiền về. Bản iOS giữ giá yên (IAP, chưa nối).
+- **Chặn VIP ở máy chủ** (ux-plan mục 6): `src/lib/gate.ts` cắt phần VIP khỏi trang tĩnh (video VIP chỉ còn 2 câu đầu, chương VIP không còn câu nào). `scripts/gen-locked.mjs` (postbuild) ghi phần VIP vào `out/_locked/` và tự kiểm không trang nào lộ câu VIP. Worker `worker/index.ts` chặn `/_locked/*`, chỉ trả nội dung qua `/api/content/<kind>/<id>` khi ID token hợp lệ và tài khoản có VIP còn hạn. Đã thử bằng `wrangler dev`: `/_locked` 404, không token 401. `tests/worker.test.ts`.
+- **Deploy**: Next `output: "export"` (bỏ `cacheComponents`/`partialPrefetching`, không chạy được ở chế độ export) + Workers Static Assets, `wrangler.toml`, tên miền `miraigo.vimai.jp`. Video tự thêm đổi từ `/watch/custom-<id>` sang `/watch/custom?v=<id>` (trang tĩnh không có id động). Cách deploy ở `docs/deploy.md`.
+- Còn lại: audio của chương VIP vẫn là file tĩnh công khai (chỉ chữ được chặn); ngữ pháp/câu hỏi của chương miễn phí vẫn chặn phía máy khách. Đưa audio VIP qua Worker khi chuyển audio sang R2.

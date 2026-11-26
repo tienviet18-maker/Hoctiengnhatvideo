@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLang } from "../../components/LangProvider";
 import Paywall from "../../components/Paywall";
+import AccountCard from "../../components/AccountCard";
 import { LANGUAGE_CODES, LANGUAGE_NAMES, pickText } from "../../lib/i18n";
 import { VIMAI_APPS, writeReviewUrl } from "../../lib/vimai";
 
@@ -53,6 +54,8 @@ export default function ProfilePage() {
           <div style={{ fontSize: 13, color: "var(--muted)" }}>{profile.vip ? ui.profile.planVip : ui.profile.planFree}</div>
         </div>
       </div>
+
+      <AccountCard onRenew={() => setPaywall(true)} />
 
       {!profile.vip && (
         <button
