@@ -798,3 +798,7 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 
 - Đã dịch: mukashi-momotaro-2, mukashi-urashima-2, world-akazukin, world-hansel-1, world-hansel-2.
 - **Lỗi nguồn (chưa sửa, vùng glossary):** từ はさみ trong `world-akazukin` (câu 37, nghĩa là cái kéo) đang mang nghĩa glossary "pincer (はさみうち: attack from both sides)". Bản si ghi "කතුර (kéo), අඬුව (càng)". Nên sửa nghĩa en trong glossary thành "scissors".
+
+## Kệ truyện cổ thế giới: Nhạc sĩ thành Bremen — 27/11/2026
+- `world-bremen` (N5, miễn phí, 42 câu) theo Grimm 1857; gói cũ `bremen-musicians` ẩn, trỏ sang bản mới. Bìa motif `bremen`.
+- Sửa glossary kệ world: はさみ = cái kéo (trước bị gán nghĩa はさみうち), thread Sinhala báo.

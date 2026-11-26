@@ -2072,7 +2072,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Urashima Tarō II — Kotak yang Tak Boleh Dibuka",
    "pt": "Urashima Tarō II — A Caixa que Nunca Deve Ser Aberta",
    "my": "ဥရာရှီးမ တာရို (၂) — မဖွင့်ရတဲ့ သေတ္တာ",
-   "th": "อุราชิมะ ทาโร่ ตอนที่ 2 — กล่องที่ห้ามเปิด"
+   "th": "อุราชิมะ ทาโร่ ตอนที่ 2 — กล่องที่ห้ามเปิด",
+   "si": "උරෂිමා තාරෝ II — කවදාවත් අරින්න එපා කියූ පෙට්ටිය"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2676,7 +2677,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Momotarō II — Pertempuran di Onigashima",
    "pt": "Momotarō II — A batalha da Ilha dos Oni",
    "my": "မိုမိုတာရို (၂) — အိုနီဂါရှီမာ တိုက်ပွဲ",
-   "th": "โมโมทาโร่ ตอนที่ 2 — ศึกเกาะโอนิงาชิมะ"
+   "th": "โมโมทาโร่ ตอนที่ 2 — ศึกเกาะโอนิงาชิมะ",
+   "si": "මොමොතාරෝ II — ඔනිගාෂිමා සටන"
   },
   "level": "N3",
   "topic": "folktale",
@@ -5107,7 +5109,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/bremen-musicians.webp"
+  "cover": "/covers/bremen-musicians.webp",
+  "hidden": true,
+  "replacedBy": "world-bremen"
  },
  {
   "id": "entrance-ceremony",
@@ -12529,7 +12533,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hansel dan Gretel (1): Rumah Kue",
    "pt": "João e Maria (1): A Casa de Doces",
    "my": "ဟန်ဆယ်နဲ့ ဂရက်တယ် (၁): မုန့်အိမ်လေး",
-   "th": "ฮันเซลกับเกรเทล (1): บ้านขนมหวาน"
+   "th": "ฮันเซลกับเกรเทล (1): บ้านขนมหวาน",
+   "si": "හැන්සල් සහ ග්‍රෙටල් (1): රසකැවිලි ගෙදර"
   },
   "level": "N4",
   "topic": "world-tales",
@@ -12561,7 +12566,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hansel dan Gretel (2, tamat): Penyihir dan Tungku",
    "pt": "João e Maria (2, fim): A Bruxa e o Forno",
    "my": "ဟန်ဆယ်နဲ့ ဂရက်တယ် (၂၊ ဇာတ်သိမ်း): စုန်းမနဲ့ မီးဖို",
-   "th": "ฮันเซลกับเกรเทล (2 จบ): แม่มดกับเตาอบ"
+   "th": "ฮันเซลกับเกรเทล (2 จบ): แม่มดกับเตาอบ",
+   "si": "හැන්සල් සහ ග්‍රෙටල් (2, අවසානය): මායාකාරිය සහ උදුන"
   },
   "level": "N4",
   "topic": "world-tales",
@@ -12593,7 +12599,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Si Tudung Merah",
    "pt": "Chapeuzinho Vermelho",
    "my": "ဦးထုပ်နီလေး",
-   "th": "หนูน้อยหมวกแดง"
+   "th": "หนูน้อยหมวกแดง",
+   "si": "පුංචි රතු තොප්පි"
   },
   "level": "N5",
   "topic": "world-tales",
@@ -12730,6 +12737,34 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/life-ikari-1/chapter.mp3",
    "durationSec": 223.3
+  }
+ },
+ {
+  "id": "world-bremen",
+  "titles": {
+   "vi": "Những nhạc sĩ thành Bremen",
+   "en": "The Town Musicians of Bremen",
+   "zh-Hans": "不来梅的城市乐手",
+   "zh-Hant": "不來梅的城市樂手",
+   "ko": "브레멘 음악대",
+   "tl": "Ang mga Musikero ng Bremen",
+   "ne": "ब्रेमेनका सङ्गीतकारहरू",
+   "id": "Para Musisi Kota Bremen",
+   "pt": "Os Músicos de Bremen",
+   "my": "ဘရီမန်မြို့က ဂီတသမားများ",
+   "th": "นักดนตรีแห่งเมืองเบรเมน"
+  },
+  "level": "N5",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 42,
+  "cover": "/covers/world-bremen.webp",
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-bremen/chapter.mp3",
+   "durationSec": 182.04
   }
  },
  {
