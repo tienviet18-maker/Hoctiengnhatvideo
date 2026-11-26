@@ -11520,6 +11520,102 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-quynh-3/chapter.mp3",
    "durationSec": 316.08
   }
+ },
+ {
+  "id": "furusato-vn-hoangle-1",
+  "titles": {
+   "vi": "Hoàng Lê nhất thống chí (1): Quang Trung lên ngôi",
+   "en": "The Unification of the Le (1): Quang Trung Takes the Throne",
+   "zh-Hans": "皇黎一统志（1）：光中登基",
+   "zh-Hant": "皇黎一統志（1）：光中登基",
+   "ko": "황려일통지 (1): 광중 황제의 즉위",
+   "tl": "Hoang Le Nhat Thong Chi (1): Ang Pagluklok kay Quang Trung",
+   "ne": "होआङ ले न्यात थोङ ची (१): क्वाङ चुङको राज्याभिषेक",
+   "id": "Hoang Le Nhat Thong Chi (1): Quang Trung Naik Takhta",
+   "pt": "Hoang Le Nhat Thong Chi (1): Quang Trung Sobe ao Trono",
+   "my": "ဟွမ်လေ ညတ်ထုံချီ (၁): ကွမ်ချုန် နန်းတက်ခြင်း",
+   "th": "ฮหว่างเลเญิดท้งจี (1): กวางจุงขึ้นครองราชย์"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-hoangle-1.webp",
+  "series": {
+   "id": "furusato-vn-hoangle",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-hoangle-1/chapter.mp3",
+   "durationSec": 430.08
+  }
+ },
+ {
+  "id": "furusato-vn-hoangle-2",
+  "titles": {
+   "vi": "Hoàng Lê nhất thống chí (2): Ăn Tết sớm, phá đồn Hà Hồi",
+   "en": "The Unification of the Le (2): An Early New Year and the Fort at Ha Hoi",
+   "zh-Hans": "皇黎一统志（2）：提前过年，攻破河回",
+   "zh-Hant": "皇黎一統志（2）：提前過年，攻破河回",
+   "ko": "황려일통지 (2): 앞당긴 설날과 하호이 요새",
+   "tl": "Hoang Le Nhat Thong Chi (2): Maagang Bagong Taon at ang Kuta ng Ha Hoi",
+   "ne": "होआङ ले न्यात थोङ ची (२): छिटो नयाँ वर्ष र हा होइको किल्ला",
+   "id": "Hoang Le Nhat Thong Chi (2): Tahun Baru Lebih Awal dan Benteng Ha Hoi",
+   "pt": "Hoang Le Nhat Thong Chi (2): Ano-Novo Antecipado e o Forte de Ha Hoi",
+   "my": "ဟွမ်လေ ညတ်ထုံချီ (၂): နှစ်သစ်ကို စောစော ကျင်းပခြင်းနဲ့ ဟာဟွိုင်ခံတပ်",
+   "th": "ฮหว่างเลเญิดท้งจี (2): ฉลองปีใหม่ล่วงหน้าและป้อมฮาโห่ย"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-hoangle-2.webp",
+  "series": {
+   "id": "furusato-vn-hoangle",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-hoangle-2/chapter.mp3",
+   "durationSec": 421.728
+  }
+ },
+ {
+  "id": "furusato-vn-hoangle-3",
+  "titles": {
+   "vi": "Hoàng Lê nhất thống chí (3): Đại phá Ngọc Hồi – Đống Đa",
+   "en": "The Unification of the Le (3): Victory at Ngoc Hoi and Dong Da",
+   "zh-Hans": "皇黎一统志（3）：大破玉回、栋多",
+   "zh-Hant": "皇黎一統志（3）：大破玉回、棟多",
+   "ko": "황려일통지 (3): 응옥호이·동다의 대승",
+   "tl": "Hoang Le Nhat Thong Chi (3): Tagumpay sa Ngoc Hoi at Dong Da",
+   "ne": "होआङ ले न्यात थोङ ची (३): ङोक होइ–दोङ दाको विजय",
+   "id": "Hoang Le Nhat Thong Chi (3): Kemenangan di Ngoc Hoi dan Dong Da",
+   "pt": "A Unificação dos Le (3): Vitória em Ngoc Hoi e Dong Da",
+   "my": "ဟွမ်လေ ညတ်ထုံချီ (၃) - ငေါက်ဟွိုင်–ဒုံဒါ အောင်ပွဲ",
+   "th": "ฮหว่างเล้ญ้าททงจี๋ (3): ชัยชนะที่หง็อกโห่ย–ด่งด่า"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 64,
+  "cover": "/covers/furusato-vn-hoangle-3.webp",
+  "series": {
+   "id": "furusato-vn-hoangle",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-hoangle-3/chapter.mp3",
+   "durationSec": 439.248
+  }
  }
 ];
 
