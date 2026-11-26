@@ -3509,7 +3509,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 13,
-  "cover": "/covers/kumo-no-ito.webp"
+  "cover": "/covers/kumo-no-ito.webp",
+  "hidden": true,
+  "replacedBy": "kumonoito-1"
  },
  {
   "id": "chumon-no-oi-ryoriten",
@@ -12030,6 +12032,37 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/tebukuro-2/chapter.mp3",
    "durationSec": 272.352
+  }
+ },
+ {
+  "id": "kumonoito-1",
+  "titles": {
+   "vi": "Sợi tơ nhện",
+   "en": "The Spider's Thread",
+   "zh-Hans": "蜘蛛之丝",
+   "zh-Hant": "蜘蛛之絲",
+   "ko": "거미줄",
+   "tl": "Ang Sinulid ng Gagamba",
+   "ne": "माकुराको धागो",
+   "id": "Benang Laba-laba",
+   "pt": "O Fio da Aranha",
+   "my": "ပင့်ကူမျှင်",
+   "th": "ใยแมงมุม"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 59,
+  "cover": "/covers/kumonoito-1.webp",
+  "series": {
+   "id": "kumonoito",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/kumonoito-1/chapter.mp3",
+   "durationSec": 319.92
   }
  },
  {
