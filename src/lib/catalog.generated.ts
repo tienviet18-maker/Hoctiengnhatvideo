@@ -11584,6 +11584,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-hoangle-2/chapter.mp3",
    "durationSec": 421.728
   }
+ },
+ {
+  "id": "furusato-vn-hoangle-3",
+  "titles": {
+   "vi": "Hoàng Lê nhất thống chí (3): Đại phá Ngọc Hồi – Đống Đa",
+   "en": "The Unification of the Le (3): Victory at Ngoc Hoi and Dong Da",
+   "zh-Hans": "皇黎一统志（3）：大破玉回、栋多",
+   "zh-Hant": "皇黎一統志（3）：大破玉回、棟多",
+   "ko": "황려일통지 (3): 응옥호이·동다의 대승",
+   "tl": "Hoang Le Nhat Thong Chi (3): Tagumpay sa Ngoc Hoi at Dong Da",
+   "ne": "होआङ ले न्यात थोङ ची (३): ङोक होइ–दोङ दाको विजय",
+   "id": "Hoang Le Nhat Thong Chi (3): Kemenangan di Ngoc Hoi dan Dong Da",
+   "pt": "A Unificação dos Le (3): Vitória em Ngoc Hoi e Dong Da",
+   "my": "ဟွမ်လေ ညတ်ထုံချီ (၃) - ငေါက်ဟွိုင်–ဒုံဒါ အောင်ပွဲ",
+   "th": "ฮหว่างเล้ญ้าททงจี๋ (3): ชัยชนะที่หง็อกโห่ย–ด่งด่า"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 64,
+  "cover": "/covers/furusato-vn-hoangle-3.webp",
+  "series": {
+   "id": "furusato-vn-hoangle",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-hoangle-3/chapter.mp3",
+   "durationSec": 439.248
+  }
  }
 ];
 
