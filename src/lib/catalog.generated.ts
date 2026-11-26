@@ -11296,6 +11296,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/maichan-04/chapter.mp3",
    "durationSec": 155.136
   }
+ },
+ {
+  "id": "furusato-vn-kieu-1",
+  "titles": {
+   "vi": "Truyện Kiều (1): Tiết Thanh minh",
+   "en": "The Tale of Kieu (1): The Day of Qingming",
+   "zh-Hans": "金云翘传（1）：清明之日",
+   "zh-Hant": "金雲翹傳（1）：清明之日",
+   "ko": "쭈옌 끼에우 (1): 청명절",
+   "tl": "Ang Kuwento ni Kieu (1): Araw ng Thanh Minh",
+   "ne": "किएउको कथा (१): थान मिन्हको दिन",
+   "id": "Kisah Kieu (1): Hari Ceng Beng",
+   "pt": "A História de Kieu (1): O Dia de Qingming",
+   "my": "ကီအဲဝ်ဇာတ်လမ်း (၁): ချင်မင်နေ့",
+   "th": "เรื่องของเกี่ยว (1): วันเช็งเม้ง"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 57,
+  "cover": "/covers/furusato-vn-kieu-1.webp",
+  "series": {
+   "id": "furusato-vn-kieu",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-kieu-1/chapter.mp3",
+   "durationSec": 341.04
+  }
  }
 ];
 

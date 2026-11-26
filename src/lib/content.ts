@@ -688,6 +688,7 @@ import s_maichan01 from "../../content/stories/maichan-01.json";
 import s_maichan02 from "../../content/stories/maichan-02.json";
 import s_maichan03 from "../../content/stories/maichan-03.json";
 import s_maichan04 from "../../content/stories/maichan-04.json";
+import s_furusatoVnKieu1 from "../../content/stories/furusato-vn-kieu-1.json";
 // --- hết kệ A/E: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1382,6 +1383,7 @@ export const STORIES: StoryContent[] = [
   s_maichan02 as unknown as StoryContent,
   s_maichan03 as unknown as StoryContent,
   s_maichan04 as unknown as StoryContent,
+  s_furusatoVnKieu1 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
