@@ -793,3 +793,8 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Bìa mới: nhà bánh kẹo, lò nướng, cô bé mũ đỏ (motif `candyhouse`, `oven`, `redhood` trong `scripts/covers/cover.html`).
 - `scripts/story-src/build.mjs`: romaji こんにちは → konnichiwa, こんばんは → konbanwa (trước đây ra "konnichiha"). Chỉ ảnh hưởng truyện dựng lại sau này.
 - Glossary kệ `world` thêm ~50 từ cơ bản N5/N4 để truyện N5 có đủ nghĩa từ vựng.
+
+## Tiếng Sinhala đợt 2b: 5 gói — 27/11/2026 (nhánh `claude/si-stories-3`)
+
+- Đã dịch: mukashi-momotaro-2, mukashi-urashima-2, world-akazukin, world-hansel-1, world-hansel-2.
+- **Lỗi nguồn (chưa sửa, vùng glossary):** từ はさみ trong `world-akazukin` (câu 37, nghĩa là cái kéo) đang mang nghĩa glossary "pincer (はさみうち: attack from both sides)". Bản si ghi "කතුර (kéo), අඬුව (càng)". Nên sửa nghĩa en trong glossary thành "scissors".
