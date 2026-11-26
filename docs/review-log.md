@@ -871,6 +871,12 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 15: kệ Ma – trinh thám — 27/11/2026 (nhánh `claude/si-stories-16`)
+
+- Thêm 8 sidecar `content/translations/si/`: `mystery-mujina-1`, `mystery-hoichi-1`, `mystery-hoichi-2`, `mystery-akagami-1`, `mystery-akagami-2`, `mystery-nisen-1`, `mystery-nisen-2`, `mystery-nisen-3`. Việt duyệt làm tiếp phần kệ của luồng khác (27/11).
+- Chỉ thêm file sidecar, không sửa JSON gốc. Ví dụ đời sống trong P được dịch đầy đủ; số câu trong Q giữ nguyên như bản tiếng Anh.
+- `apply.mjs` báo 0 lỗi cho từng gói. Còn lại 22 gói kệ Triết lý sống (đợt 16).
+
 ## Tiếng Sinhala đợt 14: truyện quê hương (phần 2 + 5 gói PR #94) — 27/11/2026 (nhánh `claude/si-stories-15`)
 
 - Thêm 19 sidecar `content/translations/si/`: phần còn lại kệ Việt Nam (Số Đỏ 1–4, Sọ Dừa, Sơn Tinh Thủy Tinh, Táo Quân, Thạch Sanh 1–3, Tích Chu, Trầu Cau, Từ Thức, Vú Sữa) và 5 gói mới từ PR #94 (`furusato-vn-laohac`, `furusato-vn-vongphu-1`, `furusato-vn-tranglon-1`, `furusato-cn-liangzhu-1`, `furusato-kr-tokki-1`).
