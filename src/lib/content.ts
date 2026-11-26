@@ -697,6 +697,9 @@ import s_maichan09 from "../../content/stories/maichan-09.json";
 import s_maichan10 from "../../content/stories/maichan-10.json";
 import s_gongitsune1 from "../../content/stories/gongitsune-1.json";
 import s_gongitsune2 from "../../content/stories/gongitsune-2.json";
+import s_tebukuro1 from "../../content/stories/tebukuro-1.json";
+import s_tebukuro2 from "../../content/stories/tebukuro-2.json";
+import s_kumonoito1 from "../../content/stories/kumonoito-1.json";
 // --- hết làm lại: import ---
 import s_furusatoVnKieu1 from "../../content/stories/furusato-vn-kieu-1.json";
 import s_furusatoVnKieu2 from "../../content/stories/furusato-vn-kieu-2.json";
@@ -734,6 +737,8 @@ import v2MysteryMujina1 from "../../content/stories/mystery-mujina-1.json";
 import s_worldNingyo1 from "../../content/stories/world-ningyo-1.json";
 import s_worldNingyo2 from "../../content/stories/world-ningyo-2.json";
 import s_worldJack from "../../content/stories/world-jack.json";
+import v2MysteryAkagami1 from "../../content/stories/mystery-akagami-1.json";
+import v2MysteryAkagami2 from "../../content/stories/mystery-akagami-2.json";
 // --- hết kệ ma & trinh thám: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1437,6 +1442,9 @@ export const STORIES: StoryContent[] = [
   s_maichan10 as unknown as StoryContent,
   s_gongitsune1 as unknown as StoryContent,
   s_gongitsune2 as unknown as StoryContent,
+  s_tebukuro1 as unknown as StoryContent,
+  s_tebukuro2 as unknown as StoryContent,
+  s_kumonoito1 as unknown as StoryContent,
   // --- hết làm lại ---
   s_furusatoVnKieu1 as unknown as StoryContent,
   s_furusatoVnKieu2 as unknown as StoryContent,
@@ -1469,6 +1477,8 @@ export const STORIES: StoryContent[] = [
   v2MysteryHoichi1 as unknown as StoryContent,
   v2MysteryHoichi2 as unknown as StoryContent,
   v2MysteryMujina1 as unknown as StoryContent,
+  v2MysteryAkagami1 as unknown as StoryContent,
+  v2MysteryAkagami2 as unknown as StoryContent,
   // --- hết kệ ma & trinh thám ---
   s_worldNingyo1 as unknown as StoryContent,
   s_worldNingyo2 as unknown as StoryContent,

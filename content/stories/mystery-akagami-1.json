@@ -1,0 +1,6202 @@
+{
+ "kind": "story",
+ "id": "mystery-akagami-1",
+ "titles": {
+  "vi": "Hội Tóc Đỏ (1): Công việc kỳ quặc",
+  "en": "The Red-Headed League (1): A Strange Job",
+  "zh-Hans": "红发会（一）：奇怪的工作",
+  "zh-Hant": "紅髮會（一）：奇怪的工作",
+  "ko": "빨간 머리 연맹 (1): 이상한 일자리",
+  "tl": "Ang Samahan ng mga Pulang Buhok (1): Kakaibang Trabaho",
+  "ne": "रातो कपाल संघ (१): अनौठो काम",
+  "id": "Liga Rambut Merah (1): Pekerjaan Aneh",
+  "pt": "A Liga dos Cabeças-Vermelhas (1): Um Emprego Estranho",
+  "my": "ဆံပင်နီ အသင်း (၁): ထူးဆန်းသော အလုပ်",
+  "th": "สมาคมผมแดง (1): งานประหลาด"
+ },
+ "level": "N3",
+ "topic": "classic-mystery",
+ "source": "original",
+ "cover": "/covers/mystery-akagami-1.webp",
+ "free": true,
+ "standard": 2,
+ "series": {
+  "id": "mystery-akagami",
+  "index": 1
+ },
+ "shelf": "mystery",
+ "audioTrack": {
+  "src": "/audio/mystery-akagami-1/chapter.mp3",
+  "durationSec": 366.91
+ },
+ "lesson": {
+  "grammarPoints": [
+   {
+    "pattern": "〜のに",
+    "meaning": {
+     "vi": "Vậy mà…, thế mà… (kết quả trái với điều người nói chờ đợi, thường kèm bất mãn hoặc ngạc nhiên). Thể thường + のに (danh từ / tính từ な + な + のに). Đời sống: 「よく働くのに、給料が安い」, 「約束したのに、来なかった」, 「日曜日なのに、会社に行く」.",
+     "en": "Even though…, and yet… (the result goes against what you expected, often with surprise or complaint). Plain form + のに (noun / な-adj + な + のに). Daily life: よく働くのに、給料が安い, 約束したのに、来なかった, 日曜日なのに、会社に行く.",
+     "zh-Hans": "明明……却……（结果与预期相反，常带不满或惊讶）。普通形＋のに（名词/な形容词＋な＋のに）。生活：「よく働くのに、給料が安い」「約束したのに、来なかった」「日曜日なのに、会社に行く」。",
+     "zh-Hant": "明明……卻……（結果與預期相反，常帶不滿或驚訝）。普通形＋のに（名詞/な形容詞＋な＋のに）。生活：「よく働くのに、給料が安い」「約束したのに、來なかった」「日曜日なのに、會社に行く」。",
+     "ko": "…는데도(예상과 반대, 불만·놀람). 보통형 + のに(명사/な형용사 + な). 생활: 「約束したのに、来なかった」「日曜日なのに、会社に行く」.",
+     "tl": "Kahit…, pero… (salungat sa inaasahan, may pagkagulat o reklamo). Plain form + のに (pangngalan + な). Halimbawa: 約束したのに、来なかった, 日曜日なのに、会社に行く.",
+     "ne": "… भए पनि (अपेक्षाविपरीत, गुनासो/आश्चर्य)। साधारण रूप + のに (नाम + な)। उदाहरण: 約束したのに、来なかった।",
+     "id": "Padahal… (bertentangan dengan harapan, kesal atau heran). Bentuk biasa + のに (nomina + な). Contoh: 約束したのに、来なかった, 日曜日なのに、会社に行く.",
+     "pt": "Apesar de…, e mesmo assim… (contrário ao esperado, com surpresa ou queixa). Forma simples + のに (substantivo + な). Ex.: 約束したのに、来なかった.",
+     "my": "… ပေမယ့် (မျှော်လင့်ချက်နှင့် ဆန့်ကျင်)။ ရိုးရိုးပုံ + のに။ ဥပမာ: 約束したのに、来なかった။",
+     "th": "ทั้งที่… (ผลตรงข้ามกับที่คาด มักแฝงความไม่พอใจ) รูปธรรมดา + のに (คำนาม + な) ตัวอย่าง: 約束したのに、来なかった"
+    },
+    "example": 12
+   },
+   {
+    "pattern": "AほどBは〜ない",
+    "meaning": {
+     "vi": "Không có B nào … bằng A (A là nhất). Danh từ + ほど + phủ định. Cũng dùng để so sánh hai thứ: 「今年は去年ほど暑くない」 = năm nay không nóng bằng năm ngoái. Đời sống: 「母ほど料理が上手な人はいない」, 「この店ほど安い店はない」.",
+     "en": "No B is as … as A (A is the most). Noun + ほど + negative. Also compares two things: 今年は去年ほど暑くない = \"this year isn't as hot as last\". Daily life: 母ほど料理が上手な人はいない, この店ほど安い店はない.",
+     "zh-Hans": "没有B像A那样……（A最……）。名词＋ほど＋否定。也用于比较两者：「今年は去年ほど暑くない」＝今年不如去年热。生活：「母ほど料理が上手な人はいない」「この店ほど安い店はない」。",
+     "zh-Hant": "沒有B像A那樣……（A最……）。名詞＋ほど＋否定。也用於比較兩者：「今年は去年ほど暑くない」＝今年不如去年熱。生活：「母ほど料理が上手な人はいない」「この店ほど安い店はない」。",
+     "ko": "A만큼 …한 B는 없다(A가 최고). 명사 + ほど + 부정. 비교: 「今年は去年ほど暑くない」. 생활: 「母ほど料理が上手な人はいない」.",
+     "tl": "Walang B na kasing… ng A. Pangngalan + ほど + negatibo. Paghahambing: 今年は去年ほど暑くない. Halimbawa: 母ほど料理が上手な人はいない.",
+     "ne": "A जत्तिको … B छैन। नाम + ほど + नकारात्मक। तुलना: 今年は去年ほど暑くない। उदाहरण: 母ほど料理が上手な人はいない।",
+     "id": "Tidak ada B yang se… A. Nomina + ほど + negatif. Perbandingan: 今年は去年ほど暑くない. Contoh: 母ほど料理が上手な人はいない.",
+     "pt": "Nenhum B é tão … quanto A. Substantivo + ほど + negativo. Comparação: 今年は去年ほど暑くない. Ex.: 母ほど料理が上手な人はいない.",
+     "my": "A လောက် … သော B မရှိ။ နာမ် + ほど + အငြင်း။ ဥပမာ: 母ほど料理が上手な人はいない။",
+     "th": "ไม่มี B ที่…เท่า A นาม + ほど + ปฏิเสธ เปรียบเทียบ: 今年は去年ほど暑くない ตัวอย่าง: 母ほど料理が上手な人はいない"
+    },
+    "example": 17
+   },
+   {
+    "pattern": "Vてはいけない",
+    "meaning": {
+     "vi": "Không được V (cấm). Thể て + はいけない. Lịch sự: Vてはいけません. Văn nói: Vちゃだめ. Đời sống: 「ここでたばこを吸ってはいけません」, 「テスト中は話してはいけない」, 「一歩も外へ出てはいけない」.",
+     "en": "Must not V (prohibition). て-form + はいけない. Polite: Vてはいけません. Casual: Vちゃだめ. Daily life: ここでたばこを吸ってはいけません, テスト中は話してはいけない.",
+     "zh-Hans": "不许V（禁止）。て形＋はいけない。礼貌：Vてはいけません。口语：Vちゃだめ。生活：「ここでたばこを吸ってはいけません」「テスト中は話してはいけない」。",
+     "zh-Hant": "不許V（禁止）。て形＋はいけない。禮貌：Vてはいけません。口語：Vちゃだめ。生活：「ここでたばこを吸ってはいけません」「テスト中は話してはいけない」。",
+     "ko": "V하면 안 된다(금지). て형 + はいけない. 정중: Vてはいけません. 구어: Vちゃだめ. 생활: 「ここでたばこを吸ってはいけません」.",
+     "tl": "Bawal V. て-form + はいけない. Magalang: Vてはいけません. Halimbawa: ここでたばこを吸ってはいけません.",
+     "ne": "V गर्नु हुँदैन (निषेध)। て रूप + はいけない। नम्र: Vてはいけません। उदाहरण: ここでたばこを吸ってはいけません।",
+     "id": "Tidak boleh V. Bentuk て + はいけない. Sopan: Vてはいけません. Contoh: ここでたばこを吸ってはいけません.",
+     "pt": "Não se pode V (proibição). Forma て + はいけない. Polido: Vてはいけません. Ex.: ここでたばこを吸ってはいけません.",
+     "my": "V မရ (တားမြစ်)။ て ပုံ + はいけない။ ဥပမာ: ここでたばこを吸ってはいけません။",
+     "th": "ห้าม V รูป て + はいけない สุภาพ: Vてはいけません ตัวอย่าง: ここでたばこを吸ってはいけません"
+    },
+    "example": 30
+   }
+  ],
+  "quiz": [
+   {
+    "ja": "ウィルソン氏の仕事は何ですか。",
+    "choices": [
+     "写真屋",
+     "質屋",
+     "弁護士"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Câu 11: ông Wilson có một tiệm cầm đồ nhỏ ở London.",
+     "en": "Sentence 11: Mr. Wilson runs a small pawnshop in London.",
+     "zh-Hans": "第11句：威尔逊先生在伦敦开了一家小当铺。",
+     "zh-Hant": "第11句：威爾遜先生在倫敦開了一家小當鋪。",
+     "ko": "11번: 윌슨 씨는 런던에서 작은 전당포를 합니다.",
+     "tl": "Pangungusap 11: may maliit na sanglaan si G. Wilson sa London.",
+     "ne": "वाक्य ११: विल्सनको लन्डनमा सानो धितो पसल छ।",
+     "id": "Kalimat 11: Tuan Wilson punya rumah gadai kecil di London.",
+     "pt": "Frase 11: o Sr. Wilson tem uma pequena casa de penhores em Londres.",
+     "my": "ဝါကျ ၁၁: လန်ဒန်တွင် အပေါင်ဆိုင် သေးသေး ဖွင့်ထားသည်။",
+     "th": "ประโยค 11: คุณวิลสันเปิดโรงรับจำนำเล็ก ๆ ในลอนดอน"
+    },
+    "jaFurigana": [
+     {
+      "surface": "ウィルソン",
+      "reading": ""
+     },
+     {
+      "surface": "氏",
+      "reading": "し"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "仕事",
+      "reading": "しごと"
+     },
+     {
+      "surface": "は",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "ですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "写真",
+       "reading": "しゃしん"
+      },
+      {
+       "surface": "屋",
+       "reading": "や"
+      }
+     ],
+     [
+      {
+       "surface": "質屋",
+       "reading": "しちや"
+      }
+     ],
+     [
+      {
+       "surface": "弁護士",
+       "reading": "べんごし"
+      }
+     ]
+    ]
+   },
+   {
+    "ja": "赤毛組合の仕事は、どんな仕事でしたか。",
+    "choices": [
+     "店で品物を売ること",
+     "百科事典を書き写すこと",
+     "写真をとること"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Câu 30: công việc là chép lại bách khoa toàn thư — một việc vô nghĩa.",
+     "en": "Sentence 30: the job was copying out the encyclopedia — pointless work.",
+     "zh-Hans": "第30句：工作是抄写百科全书——毫无意义。",
+     "zh-Hant": "第30句：工作是抄寫百科全書——毫無意義。",
+     "ko": "30번: 백과사전을 베껴 쓰는 무의미한 일.",
+     "tl": "Pangungusap 30: kopyahin ang ensiklopedya — walang saysay.",
+     "ne": "वाक्य ३०: विश्वकोश सार्ने — अर्थहीन काम।",
+     "id": "Kalimat 30: menyalin ensiklopedia — kerja tak berguna.",
+     "pt": "Frase 30: copiar a enciclopédia — trabalho sem sentido.",
+     "my": "ဝါကျ ၃၀: စွယ်စုံကျမ်း ကူးရေးခြင်း — အဓိပ္ပာယ်မဲ့ အလုပ်။",
+     "th": "ประโยค 30: คัดลอกสารานุกรม — งานไร้ประโยชน์"
+    },
+    "jaFurigana": [
+     {
+      "surface": "赤毛",
+      "reading": "あかげ"
+     },
+     {
+      "surface": "組合",
+      "reading": "くみあい"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "仕事",
+      "reading": "しごと"
+     },
+     {
+      "surface": "は、どんな",
+      "reading": ""
+     },
+     {
+      "surface": "仕事",
+      "reading": "しごと"
+     },
+     {
+      "surface": "でしたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "店",
+       "reading": "みせ"
+      },
+      {
+       "surface": "で",
+       "reading": ""
+      },
+      {
+       "surface": "品物",
+       "reading": "しなもの"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "売",
+       "reading": "う"
+      },
+      {
+       "surface": "ること",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "百科事典",
+       "reading": "ひゃっかじてん"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "書",
+       "reading": "か"
+      },
+      {
+       "surface": "き",
+       "reading": ""
+      },
+      {
+       "surface": "写",
+       "reading": "うつ"
+      },
+      {
+       "surface": "すこと",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "写真",
+       "reading": "しゃしん"
+      },
+      {
+       "surface": "をとること",
+       "reading": ""
+      }
+     ]
+    ]
+   },
+   {
+    "ja": "仕事のただ一つの決まりは何でしたか。",
+    "choices": [
+     "毎日新聞を読むこと",
+     "仕事の間、事務所から出ないこと",
+     "赤いぼうしをかぶること"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Câu 31: không được bước ra khỏi văn phòng dù một bước — để ông Wilson vắng mặt ở tiệm.",
+     "en": "Sentence 31: not one step outside the office — to keep Mr. Wilson away from his shop.",
+     "zh-Hans": "第31句：一步也不许离开事务所——好让威尔逊先生不在店里。",
+     "zh-Hant": "第31句：一步也不許離開事務所——好讓威爾遜先生不在店裡。",
+     "ko": "31번: 사무소에서 한 발짝도 나가지 말 것 — 윌슨 씨를 가게에서 떼어 놓기 위해.",
+     "tl": "Pangungusap 31: huwag lumabas ng opisina — para wala si G. Wilson sa tindahan.",
+     "ne": "वाक्य ३१: कार्यालयबाट बाहिर ननिस्कनु — विल्सनलाई पसलबाट टाढा राख्न।",
+     "id": "Kalimat 31: tidak boleh keluar kantor — agar Tuan Wilson jauh dari tokonya.",
+     "pt": "Frase 31: não sair do escritório — para manter o Sr. Wilson longe da loja.",
+     "my": "ဝါကျ ၃၁: ရုံးမှ မထွက်ရ — ဆိုင်မှ ဝေးအောင်။",
+     "th": "ประโยค 31: ห้ามออกจากสำนักงาน — เพื่อให้คุณวิลสันไม่อยู่ที่ร้าน"
+    },
+    "jaFurigana": [
+     {
+      "surface": "仕事",
+      "reading": "しごと"
+     },
+     {
+      "surface": "のただ",
+      "reading": ""
+     },
+     {
+      "surface": "一",
+      "reading": "ひと"
+     },
+     {
+      "surface": "つの",
+      "reading": ""
+     },
+     {
+      "surface": "決",
+      "reading": "き"
+     },
+     {
+      "surface": "まりは",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "でしたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "毎日",
+       "reading": "まいにち"
+      },
+      {
+       "surface": "新聞",
+       "reading": "しんぶん"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "読",
+       "reading": "よ"
+      },
+      {
+       "surface": "むこと",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "仕事",
+       "reading": "しごと"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "間",
+       "reading": "ま"
+      },
+      {
+       "surface": "、",
+       "reading": ""
+      },
+      {
+       "surface": "事務所",
+       "reading": "じむしょ"
+      },
+      {
+       "surface": "から",
+       "reading": ""
+      },
+      {
+       "surface": "出",
+       "reading": "で"
+      },
+      {
+       "surface": "ないこと",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "赤",
+       "reading": "あか"
+      },
+      {
+       "surface": "いぼうしをかぶること",
+       "reading": ""
+      }
+     ]
+    ]
+   },
+   {
+    "ja": "ホームズがウィルソン氏に、くわしく聞いたのはだれのことですか。",
+    "choices": [
+     "大家",
+     "ロス",
+     "店員のスポールディング"
+    ],
+    "answer": 2,
+    "explain": {
+     "vi": "Câu 48–50: Holmes hỏi kỹ về Spaulding (tuổi, vết trên trán, lỗ tai) — cậu nhân viên chính là manh mối.",
+     "en": "Sentences 48–50: Holmes asks closely about Spaulding (age, forehead mark, pierced ears) — the assistant is the key.",
+     "zh-Hans": "第48–50句：福尔摩斯仔细问了斯波尔丁（年龄、额头疤痕、耳洞）——店员才是关键。",
+     "zh-Hant": "第48–50句：福爾摩斯仔細問了斯波爾丁（年齡、額頭疤痕、耳洞）——店員才是關鍵。",
+     "ko": "48–50번: 홈스는 스폴딩(나이, 이마 자국, 귀 구멍)을 자세히 묻습니다 — 점원이 열쇠.",
+     "tl": "Pangungusap 48–50: masusing tinanong ni Holmes ang tungkol kay Spaulding.",
+     "ne": "वाक्य ४८–५०: होम्सले स्पाल्डिङबारे विस्तृत सोधे — कर्मचारी नै साँचो।",
+     "id": "Kalimat 48–50: Holmes bertanya rinci tentang Spaulding — pegawai itulah kuncinya.",
+     "pt": "Frases 48–50: Holmes pergunta em detalhe sobre Spaulding — o ajudante é a chave.",
+     "my": "ဝါကျ ၄၈–၅၀: ဟုမ်းသည် စပေါ့ဒင်းအကြောင်း အသေးစိတ် မေးသည်။",
+     "th": "ประโยค 48–50: โฮมส์ถามละเอียดเรื่องสปอลดิง — ลูกจ้างคือกุญแจ"
+    },
+    "jaFurigana": [
+     {
+      "surface": "ホームズがウィルソン",
+      "reading": ""
+     },
+     {
+      "surface": "氏",
+      "reading": "し"
+     },
+     {
+      "surface": "に、くわしく",
+      "reading": ""
+     },
+     {
+      "surface": "聞",
+      "reading": "き"
+     },
+     {
+      "surface": "いたのはだれのことですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "大家",
+       "reading": "おおや"
+      }
+     ],
+     [
+      {
+       "surface": "ロス",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "店員",
+       "reading": "てんいん"
+      },
+      {
+       "surface": "のスポールディング",
+       "reading": ""
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ "sentences": [
+  {
+   "ja": "一八九〇年の秋、わたしは友人のシャーロック・ホームズの家をたずねた。",
+   "furigana": [
+    {
+     "surface": "一八九〇年",
+     "reading": "せんはっぴゃくきゅうじゅうねん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "秋",
+     "reading": "あき"
+    },
+    {
+     "surface": "、わたしは",
+     "reading": ""
+    },
+    {
+     "surface": "友人",
+     "reading": "ゆうじん"
+    },
+    {
+     "surface": "のシャーロック・ホームズの",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "をたずねた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Senhappyakukyuujuunen no aki, watashi wa yuujin no shaarokku hoomuzu no ie o tazuneta.",
+   "translations": {
+    "vi": "Mùa thu năm 1890, tôi đến thăm nhà người bạn Sherlock Holmes.",
+    "en": "In the autumn of 1890, I called on my friend Sherlock Holmes.",
+    "zh-Hans": "1890年秋天，我去拜访了朋友夏洛克·福尔摩斯。",
+    "zh-Hant": "1890年秋天，我去拜訪了朋友夏洛克·福爾摩斯。",
+    "ko": "1890년 가을, 나는 친구 셜록 홈스의 집을 찾아갔다.",
+    "tl": "Noong taglagas ng 1890, dinalaw ko ang kaibigan kong si Sherlock Holmes.",
+    "ne": "सन् १८९० को शरद् ऋतुमा म साथी शर्लक होम्सको घर गएँ।",
+    "id": "Pada musim gugur 1890, aku mengunjungi rumah temanku Sherlock Holmes.",
+    "pt": "No outono de 1890, fui visitar meu amigo Sherlock Holmes.",
+    "my": "၁၈၉၀ ပြည့်နှစ် ဆောင်းဦးတွင် ကျွန်ုပ်သည် မိတ်ဆွေ ရှားလော့ဟုမ်း၏ အိမ်သို့ သွားလည်သည်။",
+    "th": "ฤดูใบไม้ร่วงปี 1890 ผมไปเยี่ยมบ้านเพื่อน เชอร์ล็อก โฮมส์"
+   },
+   "grammarNote": {
+    "vi": "Người kể là bác sĩ Watson. Văn kể dùng thể thường 「〜た」 (không です/ます), kiểu tiểu thuyết. 「たずねる」 (訪ねる) = đến thăm.",
+    "en": "The narrator is Dr. Watson. The narration uses plain 〜た form (no です/ます), as in novels. たずねる (訪ねる) = \"visit\".",
+    "zh-Hans": "叙述者是华生医生。叙述用简体「〜た」（不用です/ます），是小说文体。「たずねる」＝拜访。",
+    "zh-Hant": "敘述者是華生醫生。敘述用簡體「〜た」（不用です/ます），是小說文體。「たずねる」＝拜訪。",
+    "ko": "화자는 왓슨 박사. 소설체로 「〜た」 보통형. 「たずねる」= 방문하다.",
+    "tl": "Si Dr. Watson ang tagapagsalaysay. Plain form 〜た gaya ng nobela. たずねる = \"dumalaw\".",
+    "ne": "कथावाचक डा. वाटसन हुन्। उपन्यासजस्तै साधारण 〜た रूप। 「たずねる」= भेट्न जानु।",
+    "id": "Narator adalah Dr. Watson. Gaya novel dengan bentuk biasa 〜た. たずねる = \"mengunjungi\".",
+    "pt": "O narrador é o Dr. Watson. Estilo de romance, forma simples 〜た. たずねる = \"visitar\".",
+    "my": "ဇာတ်ကြောင်းပြောသူမှာ ဒေါက်တာ ဝပ်ဆင်။ ဝတ္ထုပုံစံ 〜た။ 「たずねる」= အလည်သွား။",
+    "th": "ผู้เล่าคือหมอวัตสัน ใช้รูปธรรมดา 〜た แบบนิยาย 「たずねる」= ไปเยี่ยม"
+   },
+   "vocab": [
+    {
+     "word": "友人",
+     "reading": "ゆうじん",
+     "meanings": {
+      "vi": "bạn bè",
+      "en": "friend",
+      "zh-Hans": "朋友",
+      "zh-Hant": "朋友",
+      "ko": "친구",
+      "tl": "kaibigan",
+      "ne": "साथी",
+      "id": "teman",
+      "pt": "amigo",
+      "my": "မိတ်ဆွေ",
+      "th": "เพื่อน"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "たずねる",
+     "reading": "たずねる",
+     "meanings": {
+      "vi": "đến thăm",
+      "en": "to visit",
+      "zh-Hans": "拜访",
+      "zh-Hant": "拜訪",
+      "ko": "방문하다",
+      "tl": "dumalaw",
+      "ne": "भेट्न जानु",
+      "id": "mengunjungi",
+      "pt": "visitar",
+      "my": "အလည်သွား",
+      "th": "ไปเยี่ยม"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=0.3,6.84",
+   "t": [
+    0.3,
+    6.84
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ホームズの居間には、太った年配の男が座っていた。",
+   "furigana": [
+    {
+     "surface": "ホームズの",
+     "reading": ""
+    },
+    {
+     "surface": "居間",
+     "reading": "いま"
+    },
+    {
+     "surface": "には、",
+     "reading": ""
+    },
+    {
+     "surface": "太",
+     "reading": "ふと"
+    },
+    {
+     "surface": "った",
+     "reading": ""
+    },
+    {
+     "surface": "年配",
+     "reading": "ねんぱい"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "座",
+     "reading": "すわ"
+    },
+    {
+     "surface": "っていた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hoomuzu no ima ni wa, futotta nenpai no otoko ga suwatte ita.",
+   "translations": {
+    "vi": "Trong phòng khách của Holmes có một người đàn ông béo, đứng tuổi đang ngồi.",
+    "en": "In Holmes's sitting room sat a stout, elderly man.",
+    "zh-Hans": "福尔摩斯的客厅里，坐着一个胖胖的上了年纪的男人。",
+    "zh-Hant": "福爾摩斯的客廳裡，坐著一個胖胖的上了年紀的男人。",
+    "ko": "홈스의 거실에는 뚱뚱한 중년 남자가 앉아 있었다.",
+    "tl": "Sa sala ni Holmes ay nakaupo ang isang matabang lalaking may edad.",
+    "ne": "होम्सको बैठक कोठामा एक मोटो, उमेर पुगेको मानिस बसेका थिए।",
+    "id": "Di ruang duduk Holmes duduk seorang pria gemuk yang sudah berumur.",
+    "pt": "Na sala de Holmes estava sentado um homem gordo e idoso.",
+    "my": "ဟုမ်း၏ ဧည့်ခန်းတွင် ဝဝ အသက်ကြီးကြီး လူတစ်ဦး ထိုင်နေသည်။",
+    "th": "ในห้องนั่งเล่นของโฮมส์ มีชายอ้วนวัยกลางคนนั่งอยู่"
+   },
+   "grammarNote": {
+    "vi": "「太った〜」 = (người) béo — dùng thể た để bổ nghĩa cho danh từ chỉ trạng thái. 「年配」 = đứng tuổi (lịch sự hơn 年寄り).",
+    "en": "太った〜 = \"fat…\" — the た form describes a state before a noun. 年配 = \"elderly\" (more polite than 年寄り).",
+    "zh-Hans": "「太った〜」＝胖的（た形修饰名词表状态）。「年配」＝上了年纪（比年寄り礼貌）。",
+    "zh-Hant": "「太った〜」＝胖的（た形修飾名詞表狀態）。「年配」＝上了年紀（比年寄り禮貌）。",
+    "ko": "「太った〜」= 뚱뚱한(た형이 상태 수식). 「年配」= 중년·연배.",
+    "tl": "太った〜 = \"mataba\". 年配 = \"may edad\" (magalang).",
+    "ne": "「太った〜」= मोटो। 「年配」= उमेर पुगेको (नम्र)।",
+    "id": "太った〜 = \"gemuk\". 年配 = \"berumur\" (sopan).",
+    "pt": "太った〜 = \"gordo\". 年配 = \"idoso\" (polido).",
+    "my": "「太った〜」= ဝသော။ 「年配」= အသက်ကြီး (ယဉ်ကျေး)။",
+    "th": "「太った〜」= อ้วน 「年配」= สูงวัย (สุภาพ)"
+   },
+   "vocab": [
+    {
+     "word": "居間",
+     "reading": "いま",
+     "meanings": {
+      "vi": "phòng khách",
+      "en": "sitting room",
+      "zh-Hans": "客厅",
+      "zh-Hant": "客廳",
+      "ko": "거실",
+      "tl": "sala",
+      "ne": "बैठक कोठा",
+      "id": "ruang duduk",
+      "pt": "sala",
+      "my": "ဧည့်ခန်း",
+      "th": "ห้องนั่งเล่น"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "年配",
+     "reading": "ねんぱい",
+     "meanings": {
+      "vi": "đứng tuổi",
+      "en": "elderly",
+      "zh-Hans": "上了年纪",
+      "zh-Hant": "上了年紀",
+      "ko": "연배, 중년",
+      "tl": "may edad",
+      "ne": "उमेर पुगेको",
+      "id": "berumur",
+      "pt": "idoso",
+      "my": "အသက်ကြီး",
+      "th": "สูงวัย"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=7.44,12.24",
+   "t": [
+    7.44,
+    12.24
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "その男の髪は、火が燃えているような、まっ赤な色だった。",
+   "furigana": [
+    {
+     "surface": "その",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "髪",
+     "reading": "かみ"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "火",
+     "reading": "ひ"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "燃",
+     "reading": "も"
+    },
+    {
+     "surface": "えているような、まっ",
+     "reading": ""
+    },
+    {
+     "surface": "赤",
+     "reading": "あか"
+    },
+    {
+     "surface": "な",
+     "reading": ""
+    },
+    {
+     "surface": "色",
+     "reading": "いろ"
+    },
+    {
+     "surface": "だった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono otoko no kami wa, hi ga moete iru youna, ma aaka na iro datta.",
+   "translations": {
+    "vi": "Tóc ông ta đỏ rực như lửa đang cháy.",
+    "en": "His hair was a fiery red, like a burning flame.",
+    "zh-Hans": "那人的头发红得像燃烧的火焰。",
+    "zh-Hant": "那人的頭髮紅得像燃燒的火焰。",
+    "ko": "그 남자의 머리카락은 불타는 듯한 새빨간 색이었다.",
+    "tl": "Ang buhok niya ay pulang-pula na parang nagliliyab na apoy.",
+    "ne": "उनको कपाल बलिरहेको आगोजस्तै रातोपिरो थियो।",
+    "id": "Rambutnya merah menyala seperti api yang berkobar.",
+    "pt": "O cabelo dele era vermelho como fogo ardente.",
+    "my": "သူ၏ ဆံပင်သည် မီးလောင်နေသကဲ့သို့ နီရဲနေသည်။",
+    "th": "ผมของชายคนนั้นแดงจัดราวกับเปลวไฟ"
+   },
+   "grammarNote": {
+    "vi": "「〜ような」 = giống như… (so sánh, bổ nghĩa danh từ). 「まっ赤」 = đỏ rực (真っ + 赤).",
+    "en": "〜ような = \"like…\" (a comparison before a noun). まっ赤 = \"bright red\" (真っ + 赤).",
+    "zh-Hans": "「〜ような」＝像……一样的。「まっ赤」＝通红。",
+    "zh-Hant": "「〜ような」＝像……一樣的。「まっ赤」＝通紅。",
+    "ko": "「〜ような」= …같은. 「まっ赤」= 새빨강.",
+    "tl": "〜ような = \"parang…\". まっ赤 = \"pulang-pula\".",
+    "ne": "「〜ような」= … जस्तो। 「まっ赤」= रातोपिरो।",
+    "id": "〜ような = \"seperti…\". まっ赤 = \"merah menyala\".",
+    "pt": "〜ような = \"como…\". まっ赤 = \"vermelho vivo\".",
+    "my": "「〜ような」= … ကဲ့သို့။ 「まっ赤」= နီရဲ။",
+    "th": "「〜ような」= เหมือน… 「まっ赤」= แดงจัด"
+   },
+   "vocab": [
+    {
+     "word": "髪",
+     "reading": "かみ",
+     "meanings": {
+      "vi": "tóc",
+      "en": "hair",
+      "zh-Hans": "头发",
+      "zh-Hant": "頭髮",
+      "ko": "머리카락",
+      "tl": "buhok",
+      "ne": "कपाल",
+      "id": "rambut",
+      "pt": "cabelo",
+      "my": "ဆံပင်",
+      "th": "ผม"
+     },
+     "level": "N4"
+    },
+    {
+     "word": "まっ赤",
+     "reading": "まっか",
+     "meanings": {
+      "vi": "đỏ rực",
+      "en": "bright red",
+      "zh-Hans": "通红",
+      "zh-Hant": "通紅",
+      "ko": "새빨간",
+      "tl": "pulang-pula",
+      "ne": "रातोपिरो",
+      "id": "merah menyala",
+      "pt": "vermelho vivo",
+      "my": "နီရဲ",
+      "th": "แดงจัด"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=12.84,18.33",
+   "t": [
+    12.84,
+    18.33
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「ワトソン君、ちょうどいいところに来てくれた。こちらはウィルソンさん。おもしろい話を持って来てくださったんだ。」",
+   "furigana": [
+    {
+     "surface": "「ワトソン",
+     "reading": ""
+    },
+    {
+     "surface": "君",
+     "reading": "くん"
+    },
+    {
+     "surface": "、ちょうどいいところに",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "き"
+    },
+    {
+     "surface": "てくれた。こちらはウィルソンさん。おもしろい",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "持",
+     "reading": "も"
+    },
+    {
+     "surface": "って",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "き"
+    },
+    {
+     "surface": "てくださったんだ。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Watosonkun, choudo ii tokoro ni kite kureta. Kochira wa uirusonsan. Omoshiroi hanashi o motte kite kudasatta n da.”",
+   "translations": {
+    "vi": "\"Watson, anh đến đúng lúc lắm. Đây là ông Wilson. Ông ấy mang đến một câu chuyện thú vị.\"",
+    "en": "\"Watson, you've come at just the right time. This is Mr. Wilson. He has brought us an interesting story.\"",
+    "zh-Hans": "\"华生，你来得正好。这位是威尔逊先生，他带来了一个有趣的故事。\"",
+    "zh-Hant": "\"華生，你來得正好。這位是威爾遜先生，他帶來了一個有趣的故事。\"",
+    "ko": "\"왓슨, 마침 잘 왔네. 이쪽은 윌슨 씨. 재미있는 이야기를 가지고 오셨네.\"",
+    "tl": "\"Watson, tamang-tama ang dating mo. Ito si G. Wilson. May dala siyang kawili-wiling kuwento.\"",
+    "ne": "\"वाटसन, ठीक समयमा आयौ। यिनी विल्सन। रोचक कुरा लिएर आउनुभएको छ।\"",
+    "id": "\"Watson, kau datang tepat waktu. Ini Tuan Wilson. Beliau membawa cerita menarik.\"",
+    "pt": "\"Watson, chegou na hora certa. Este é o Sr. Wilson. Ele nos trouxe uma história interessante.\"",
+    "my": "\"ဝပ်ဆင်၊ အချိန်ကိုက် ရောက်လာတယ်။ ဒါက မစ္စတာ ဝီလ်ဆင်။ စိတ်ဝင်စားစရာ ဇာတ်လမ်း ယူလာတယ်။\"",
+    "th": "\"วัตสัน มาถูกจังหวะพอดี นี่คือคุณวิลสัน เขานำเรื่องน่าสนใจมาเล่า\""
+   },
+   "grammarNote": {
+    "vi": "「ちょうどいいところに」 = đúng lúc. 「Vてくれた」 = (bạn) đã làm V cho tôi. 「Vてくださった」 = kính ngữ của てくれた (người kia ở vị trí cao hơn).",
+    "en": "ちょうどいいところに = \"at just the right time\". Vてくれた = \"did V for me\". Vてくださった is the honorific of てくれた.",
+    "zh-Hans": "「ちょうどいいところに」＝正是时候。「Vてくれた」＝为我做了V。「Vてくださった」＝てくれた的尊敬语。",
+    "zh-Hant": "「ちょうどいいところに」＝正是時候。「Vてくれた」＝為我做了V。「Vてくださった」＝てくれた的尊敬語。",
+    "ko": "「ちょうどいいところに」= 마침 잘. 「Vてくれた」= …해 주었다. 「Vてくださった」= 존경어.",
+    "tl": "ちょうどいいところに = \"tamang-tama\". Vてくださった = magalang na てくれた.",
+    "ne": "「ちょうどいいところに」= ठीक समयमा। 「Vてくださった」= आदरार्थी।",
+    "id": "ちょうどいいところに = \"tepat waktu\". Vてくださった = bentuk hormat.",
+    "pt": "ちょうどいいところに = \"na hora certa\". Vてくださった = honorífico.",
+    "my": "「ちょうどいいところに」= အချိန်ကိုက်။",
+    "th": "「ちょうどいいところに」= ถูกจังหวะพอดี 「Vてくださった」= รูปยกย่อง"
+   },
+   "vocab": [],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=19.23,26.97",
+   "t": [
+    19.23,
+    26.97
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "ホームズは、男の体をじっと見てから、静かに言った。",
+   "furigana": [
+    {
+     "surface": "ホームズは、",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "体",
+     "reading": "からだ"
+    },
+    {
+     "surface": "をじっと",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "てから、",
+     "reading": ""
+    },
+    {
+     "surface": "静",
+     "reading": "しず"
+    },
+    {
+     "surface": "かに",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "った。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hoomuzu wa, otoko no karada o jitto mite kara, shizuka ni itta.",
+   "translations": {
+    "vi": "Holmes chăm chú nhìn cơ thể người đàn ông, rồi điềm tĩnh nói.",
+    "en": "Holmes studied the man closely, then spoke quietly.",
+    "zh-Hans": "福尔摩斯仔细打量了那个人一番，然后平静地说。",
+    "zh-Hant": "福爾摩斯仔細打量了那個人一番，然後平靜地說。",
+    "ko": "홈스는 남자의 몸을 찬찬히 살펴본 뒤 조용히 말했다.",
+    "tl": "Masusing tiningnan ni Holmes ang lalaki, saka tahimik na nagsalita.",
+    "ne": "होम्सले मानिसलाई ध्यानपूर्वक हेरे, अनि शान्तसँग भने।",
+    "id": "Holmes mengamati pria itu dengan saksama, lalu berkata tenang.",
+    "pt": "Holmes observou o homem atentamente e depois falou com calma.",
+    "my": "ဟုမ်းသည် ထိုလူ၏ ခန္ဓာကိုယ်ကို စေ့စေ့ကြည့်ပြီး တိတ်ဆိတ်စွာ ပြောသည်။",
+    "th": "โฮมส์จ้องมองชายคนนั้นอย่างพินิจ แล้วพูดอย่างสงบ"
+   },
+   "grammarNote": {
+    "vi": "「じっと見る」 = nhìn chăm chú. 「Vてから」 = sau khi V (thứ tự rõ ràng).",
+    "en": "じっと見る = \"stare, look closely\". Vてから = \"after V-ing\" (clear order).",
+    "zh-Hans": "「じっと見る」＝盯着看。「Vてから」＝V之后。",
+    "zh-Hant": "「じっと見る」＝盯著看。「Vてから」＝V之後。",
+    "ko": "「じっと見る」= 찬찬히 보다. 「Vてから」= V한 뒤.",
+    "tl": "じっと見る = \"tingnan nang masusi\". Vてから = \"pagkatapos V\".",
+    "ne": "「じっと見る」= ध्यान दिएर हेर्नु। 「Vてから」= V गरेपछि।",
+    "id": "じっと見る = \"mengamati\". Vてから = \"setelah V\".",
+    "pt": "じっと見る = \"observar\". Vてから = \"depois de V\".",
+    "my": "「じっと見る」= စေ့စေ့ကြည့်။ 「Vてから」= V ပြီးနောက်။",
+    "th": "「じっと見る」= จ้องมอง 「Vてから」= หลังจาก V"
+   },
+   "vocab": [],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=27.87,33.01",
+   "t": [
+    27.87,
+    33.01
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「あなたは昔、手を使う仕事をしていましたね。それから、最近たくさん字を書いた。それ以外のことは、わかりません。」",
+   "furigana": [
+    {
+     "surface": "「あなたは",
+     "reading": ""
+    },
+    {
+     "surface": "昔",
+     "reading": "むかし"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "手",
+     "reading": "て"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "使",
+     "reading": "つか"
+    },
+    {
+     "surface": "う",
+     "reading": ""
+    },
+    {
+     "surface": "仕事",
+     "reading": "しごと"
+    },
+    {
+     "surface": "をしていましたね。それから、",
+     "reading": ""
+    },
+    {
+     "surface": "最近",
+     "reading": "さいきん"
+    },
+    {
+     "surface": "たくさん",
+     "reading": ""
+    },
+    {
+     "surface": "字",
+     "reading": "じ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "書",
+     "reading": "か"
+    },
+    {
+     "surface": "いた。それ",
+     "reading": ""
+    },
+    {
+     "surface": "以外",
+     "reading": "いがい"
+    },
+    {
+     "surface": "のことは、わかりません。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Anata wa mukashi, te o tsukau shigoto o shite imashita ne. Sorekara, saikin takusan ji o kaita. Sore igai no koto wa, wakarimasen.”",
+   "translations": {
+    "vi": "\"Trước đây ông từng làm công việc chân tay, phải không. Và gần đây ông đã viết rất nhiều chữ. Ngoài ra thì tôi không biết gì cả.\"",
+    "en": "\"You once did manual work. And recently you have done a great deal of writing. Beyond that, I can tell nothing.\"",
+    "zh-Hans": "\"您以前做过体力活吧。还有，最近写了很多字。除此之外，我就不知道了。\"",
+    "zh-Hant": "\"您以前做過體力活吧。還有，最近寫了很多字。除此之外，我就不知道了。\"",
+    "ko": "\"당신은 예전에 손을 쓰는 일을 하셨군요. 그리고 최근에 글씨를 많이 쓰셨고요. 그 밖에는 모르겠습니다.\"",
+    "tl": "\"Dati kayong nagtrabaho gamit ang kamay. At kamakailan ay marami kayong isinulat. Bukod doon, wala na akong alam.\"",
+    "ne": "\"तपाईंले पहिले हातको काम गर्नुभएको थियो। अनि हालै धेरै लेख्नुभयो। त्यसबाहेक म केही जान्दिनँ।\"",
+    "id": "\"Dulu Anda bekerja dengan tangan. Lalu belakangan Anda banyak menulis. Selain itu, saya tidak tahu.\"",
+    "pt": "\"O senhor já fez trabalho braçal. E ultimamente escreveu muito. Fora isso, não sei de nada.\"",
+    "my": "\"ခင်ဗျား အရင်က လက်နဲ့ လုပ်ရတဲ့ အလုပ် လုပ်ခဲ့တယ် မဟုတ်လား။ ပြီးတော့ မကြာသေးခင်က စာ အများကြီး ရေးခဲ့တယ်။ ဒါ့အပြင် မသိဘူး။\"",
+    "th": "\"คุณเคยทำงานใช้แรงมาก่อนใช่ไหม แล้วช่วงนี้ก็เขียนหนังสือมาก นอกจากนั้นผมไม่ทราบ\""
+   },
+   "grammarNote": {
+    "vi": "「〜ね」 cuối câu = xác nhận điều mình đoán. 「それ以外」 = ngoài ra. Câu \"không biết gì khác\" là kiểu khiêm tốn mỉa mai của Holmes.",
+    "en": "Final 〜ね confirms a guess. それ以外 = \"other than that\". \"I know nothing else\" is Holmes's ironic modesty.",
+    "zh-Hans": "句末「〜ね」＝确认自己的推测。「それ以外」＝除此之外。\"其他就不知道了\"是福尔摩斯式的反讽谦虚。",
+    "zh-Hant": "句末「〜ね」＝確認自己的推測。「それ以外」＝除此之外。\"其他就不知道了\"是福爾摩斯式的反諷謙虛。",
+    "ko": "「〜ね」= 추측 확인. 「それ以外」= 그 밖. 홈스식 반어적 겸손.",
+    "tl": "〜ね = pagkumpirma. それ以外 = \"bukod doon\".",
+    "ne": "「〜ね」= अनुमान पुष्टि। 「それ以外」= त्यसबाहेक।",
+    "id": "〜ね = konfirmasi. それ以外 = \"selain itu\".",
+    "pt": "〜ね = confirmação. それ以外 = \"fora isso\".",
+    "my": "「〜ね」= အတည်ပြု။ 「それ以外」= ဒါ့အပြင်။",
+    "th": "「〜ね」= ยืนยันการคาดเดา 「それ以外」= นอกจากนั้น"
+   },
+   "vocab": [
+    {
+     "word": "最近",
+     "reading": "さいきん",
+     "meanings": {
+      "vi": "gần đây",
+      "en": "recently",
+      "zh-Hans": "最近",
+      "zh-Hant": "最近",
+      "ko": "최근",
+      "tl": "kamakailan",
+      "ne": "हालै",
+      "id": "belakangan",
+      "pt": "ultimamente",
+      "my": "မကြာသေးမီ",
+      "th": "ช่วงนี้"
+     },
+     "level": "N4"
+    },
+    {
+     "word": "以外",
+     "reading": "いがい",
+     "meanings": {
+      "vi": "ngoài ra",
+      "en": "other than",
+      "zh-Hans": "以外",
+      "zh-Hant": "以外",
+      "ko": "이외",
+      "tl": "bukod sa",
+      "ne": "बाहेक",
+      "id": "selain",
+      "pt": "além de",
+      "my": "အပြင်",
+      "th": "นอกจาก"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=33.91,43.15",
+   "t": [
+    33.91,
+    43.15
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「ど、どうしてわかったんですか！」",
+   "furigana": [
+    {
+     "surface": "「ど、どうしてわかったんですか！」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Do, doushite wakatta n desu ka!”",
+   "translations": {
+    "vi": "\"S… sao ông biết được?!\"",
+    "en": "\"H-how did you know?!\"",
+    "zh-Hans": "\"您、您怎么知道的！\"",
+    "zh-Hant": "\"您、您怎麼知道的！\"",
+    "ko": "\"어, 어떻게 아셨습니까!\"",
+    "tl": "\"P-paano ninyo nalaman?!\"",
+    "ne": "\"क… कसरी थाहा पाउनुभयो?!\"",
+    "id": "\"Ba… bagaimana Anda tahu?!\"",
+    "pt": "\"C-como soube?!\"",
+    "my": "\"ဘ… ဘယ်လို သိတာလဲ!\"",
+    "th": "\"ร… รู้ได้อย่างไรครับ!\""
+   },
+   "grammarNote": {
+    "vi": "「どうして〜んですか」 = sao lại… (ngạc nhiên, muốn giải thích). Lặp âm 「ど、どうして」 = lắp bắp vì sốc.",
+    "en": "どうして〜んですか = \"how come…?\" (surprised, asking for explanation). ど、どうして = stammering in shock.",
+    "zh-Hans": "「どうして〜んですか」＝怎么会……（惊讶、求解释）。「ど、どうして」＝惊得结巴。",
+    "zh-Hant": "「どうして〜んですか」＝怎麼會……（驚訝、求解釋）。「ど、どうして」＝驚得結巴。",
+    "ko": "「どうして〜んですか」= 어떻게 …? 놀라서 더듬음.",
+    "tl": "どうして〜んですか = \"paano…?\".",
+    "ne": "「どうして〜んですか」= कसरी …?",
+    "id": "どうして〜んですか = \"bagaimana…?\".",
+    "pt": "どうして〜んですか = \"como…?\".",
+    "my": "「どうして〜んですか」= ဘယ်လို …လဲ။",
+    "th": "「どうして〜んですか」= ทำไม…ล่ะ"
+   },
+   "vocab": [],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=44.05,46.51",
+   "t": [
+    44.05,
+    46.51
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「右手が左手より大きい。それに、右のそでがてかてかで、左のひじに、机でこすれたあとがありますから。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "右手",
+     "reading": "みぎて"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "左手",
+     "reading": "ひだりて"
+    },
+    {
+     "surface": "より",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "きい。それに、",
+     "reading": ""
+    },
+    {
+     "surface": "右",
+     "reading": "みぎ"
+    },
+    {
+     "surface": "のそでがてかてかで、",
+     "reading": ""
+    },
+    {
+     "surface": "左",
+     "reading": "ひだり"
+    },
+    {
+     "surface": "のひじに、",
+     "reading": ""
+    },
+    {
+     "surface": "机",
+     "reading": "つくえ"
+    },
+    {
+     "surface": "でこすれたあとがありますから。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Migite ga hidarite yori ookii. Soreni, migi no sode ga tekatekade, hidari no hiji ni, tsukue de kosureta ato ga arimasu kara.”",
+   "translations": {
+    "vi": "\"Tay phải lớn hơn tay trái. Hơn nữa, tay áo phải bóng loáng, còn khuỷu tay trái có vết cọ vào bàn.\"",
+    "en": "\"Your right hand is bigger than your left. And your right sleeve is shiny, and your left elbow is worn where it rubs the desk.\"",
+    "zh-Hans": "\"右手比左手大。而且右袖子磨得发亮，左胳膊肘上有在桌上蹭过的痕迹。\"",
+    "zh-Hant": "\"右手比左手大。而且右袖子磨得發亮，左胳膊肘上有在桌上蹭過的痕跡。\"",
+    "ko": "\"오른손이 왼손보다 큽니다. 게다가 오른쪽 소매가 반들반들하고, 왼쪽 팔꿈치에 책상에 쓸린 자국이 있으니까요.\"",
+    "tl": "\"Mas malaki ang kanang kamay kaysa kaliwa. At makintab ang kanang manggas, at may gasgas sa kaliwang siko mula sa mesa.\"",
+    "ne": "\"दायाँ हात देब्रेभन्दा ठूलो छ। अनि दायाँ बाहुला चिल्लो छ, देब्रे कुहिनोमा टेबलमा घसिएको दाग छ।\"",
+    "id": "\"Tangan kanan lebih besar dari kiri. Lagi pula, lengan baju kanan mengilap, dan siku kiri ada bekas tergesek meja.\"",
+    "pt": "\"A mão direita é maior que a esquerda. E a manga direita está lustrosa, e o cotovelo esquerdo gasto de roçar na mesa.\"",
+    "my": "\"ညာလက်က ဘယ်လက်ထက် ကြီးတယ်။ ပြီးတော့ ညာလက်စွပ်က ပြောင်နေပြီး ဘယ်တံတောင်ဆစ်မှာ စားပွဲနဲ့ ပွတ်တဲ့ အရာ ရှိလို့ပါ။\"",
+    "th": "\"มือขวาใหญ่กว่ามือซ้าย แล้วแขนเสื้อขวาก็มันวาว ส่วนข้อศอกซ้ายมีรอยถูกับโต๊ะ\""
+   },
+   "grammarNote": {
+    "vi": "「AはBより〜」 = A … hơn B (so sánh). 「てかてか」 = bóng loáng (vì cọ nhiều). 「あと」 = vết, dấu.",
+    "en": "AはBより〜 = \"A is more … than B\". てかてか = \"shiny\" (from rubbing). あと = \"mark, trace\".",
+    "zh-Hans": "「AはBより〜」＝A比B……。「てかてか」＝发亮（磨的）。「あと」＝痕迹。",
+    "zh-Hant": "「AはBより〜」＝A比B……。「てかてか」＝發亮（磨的）。「あと」＝痕跡。",
+    "ko": "「AはBより〜」= A가 B보다 …. 「てかてか」= 반들반들. 「あと」= 자국.",
+    "tl": "AはBより〜 = \"mas … ang A kaysa B\". てかてか = \"makintab\". あと = \"marka\".",
+    "ne": "「AはBより〜」= A B भन्दा …। 「てかてか」= चिल्लो। 「あと」= दाग।",
+    "id": "AはBより〜 = \"A lebih … dari B\". てかてか = \"mengilap\". あと = \"bekas\".",
+    "pt": "AはBより〜 = \"A mais … que B\". てかてか = \"lustroso\". あと = \"marca\".",
+    "my": "「AはBより〜」= A က B ထက် …။ 「あと」= အမှတ်အသား။",
+    "th": "「AはBより〜」= A …กว่า B 「てかてか」= มันวาว 「あと」= รอย"
+   },
+   "vocab": [
+    {
+     "word": "そで",
+     "reading": "そで",
+     "meanings": {
+      "vi": "tay áo",
+      "en": "sleeve",
+      "zh-Hans": "袖子",
+      "zh-Hant": "袖子",
+      "ko": "소매",
+      "tl": "manggas",
+      "ne": "बाहुला",
+      "id": "lengan baju",
+      "pt": "manga",
+      "my": "လက်စွပ်",
+      "th": "แขนเสื้อ"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "ひじ",
+     "reading": "ひじ",
+     "meanings": {
+      "vi": "khuỷu tay",
+      "en": "elbow",
+      "zh-Hans": "胳膊肘",
+      "zh-Hant": "胳膊肘",
+      "ko": "팔꿈치",
+      "tl": "siko",
+      "ne": "कुहिनो",
+      "id": "siku",
+      "pt": "cotovelo",
+      "my": "တံတောင်ဆစ်",
+      "th": "ข้อศอก"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "てかてか",
+     "reading": "てかてか",
+     "meanings": {
+      "vi": "bóng loáng",
+      "en": "shiny",
+      "zh-Hans": "发亮",
+      "zh-Hant": "發亮",
+      "ko": "반들반들",
+      "tl": "makintab",
+      "ne": "चिल्लो",
+      "id": "mengilap",
+      "pt": "lustroso",
+      "my": "ပြောင်",
+      "th": "มันวาว"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=47.41,56.12",
+   "t": [
+    47.41,
+    56.12
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「なあんだ。聞いてしまえば、簡単なことですな。」",
+   "furigana": [
+    {
+     "surface": "「なあんだ。",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "いてしまえば、",
+     "reading": ""
+    },
+    {
+     "surface": "簡単",
+     "reading": "かんたん"
+    },
+    {
+     "surface": "なことですな。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Naanda. Kiite shimaeba, kantanna koto desu na.”",
+   "translations": {
+    "vi": "\"Ôi dào. Nghe rồi thì thấy cũng đơn giản nhỉ.\"",
+    "en": "\"Well now! Once you hear it, it's quite simple.\"",
+    "zh-Hans": "\"嗨，原来如此。听了之后就觉得很简单嘛。\"",
+    "zh-Hant": "\"嗨，原來如此。聽了之後就覺得很簡單嘛。\"",
+    "ko": "\"뭐야. 듣고 나니 간단한 일이군요.\"",
+    "tl": "\"Ay, iyon lang pala. Kapag narinig mo na, simple lang.\"",
+    "ne": "\"ओहो। सुनेपछि त सजिलो रहेछ।\"",
+    "id": "\"Oh, begitu. Kalau sudah didengar, ternyata sederhana.\"",
+    "pt": "\"Ora essa! Depois de ouvir, é bem simples.\"",
+    "my": "\"ဪ ဒါပဲလား။ ကြားပြီးရင် ရိုးရိုးလေးပဲ။\"",
+    "th": "\"อ้าว แค่นั้นเอง ฟังแล้วก็ง่าย ๆ นะ\""
+   },
+   "grammarNote": {
+    "vi": "「なあんだ」 = ôi dào, hóa ra (thất vọng vì điều tưởng ghê gớm lại đơn giản). 「Vてしまえば」 = một khi đã V xong thì…. 「〜な」 cuối câu = giọng ông già, tự nói.",
+    "en": "なあんだ = \"oh, is that all\" (letdown). Vてしまえば = \"once you've V-ed\". Final 〜な = an old man's musing tone.",
+    "zh-Hans": "「なあんだ」＝嗨，原来如此（失望）。「Vてしまえば」＝一旦V了就……。句末「〜な」＝老人自言自语的口吻。",
+    "zh-Hant": "「なあんだ」＝嗨，原來如此（失望）。「Vてしまえば」＝一旦V了就……。句末「〜な」＝老人自言自語的口吻。",
+    "ko": "「なあんだ」= 뭐야(실망). 「Vてしまえば」= 일단 V하면. 「〜な」= 노인 말투.",
+    "tl": "なあんだ = \"iyon lang pala\". Vてしまえば = \"kapag V na\".",
+    "ne": "「なあんだ」= ओहो, यत्ति। 「Vてしまえば」= V गरिसकेपछि।",
+    "id": "なあんだ = \"oh, cuma itu\". Vてしまえば = \"begitu sudah V\".",
+    "pt": "なあんだ = \"ah, só isso\". Vてしまえば = \"uma vez V\".",
+    "my": "「なあんだ」= ဒါပဲလား။",
+    "th": "「なあんだ」= อ้าว แค่นั้นเอง 「Vてしまえば」= พอ V แล้ว"
+   },
+   "vocab": [
+    {
+     "word": "簡単",
+     "reading": "かんたん",
+     "meanings": {
+      "vi": "đơn giản",
+      "en": "simple",
+      "zh-Hans": "简单",
+      "zh-Hant": "簡單",
+      "ko": "간단",
+      "tl": "simple",
+      "ne": "सजिलो",
+      "id": "sederhana",
+      "pt": "simples",
+      "my": "ရိုးရှင်း",
+      "th": "ง่าย"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=57.02,61.18",
+   "t": [
+    57.02,
+    61.18
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "ウィルソン氏は笑って、ポケットから古い新聞を取り出した。",
+   "furigana": [
+    {
+     "surface": "ウィルソン",
+     "reading": ""
+    },
+    {
+     "surface": "氏",
+     "reading": "し"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "笑",
+     "reading": "わら"
+    },
+    {
+     "surface": "って、ポケットから",
+     "reading": ""
+    },
+    {
+     "surface": "古",
+     "reading": "ふる"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "新聞",
+     "reading": "しんぶん"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "取",
+     "reading": "と"
+    },
+    {
+     "surface": "り",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "だ"
+    },
+    {
+     "surface": "した。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Uirusonshi wa waratte, poketto kara furui shinbun o toridashita.",
+   "translations": {
+    "vi": "Ông Wilson bật cười, rồi rút từ trong túi ra một tờ báo cũ.",
+    "en": "Mr. Wilson laughed and took an old newspaper from his pocket.",
+    "zh-Hans": "威尔逊先生笑了笑，从口袋里掏出一张旧报纸。",
+    "zh-Hant": "威爾遜先生笑了笑，從口袋裡掏出一張舊報紙。",
+    "ko": "윌슨 씨는 웃으며 주머니에서 낡은 신문을 꺼냈다.",
+    "tl": "Tumawa si G. Wilson at naglabas ng lumang diyaryo mula sa bulsa.",
+    "ne": "विल्सन हाँसे र खल्तीबाट पुरानो पत्रिका निकाले।",
+    "id": "Tuan Wilson tertawa dan mengeluarkan koran lama dari saku.",
+    "pt": "O Sr. Wilson riu e tirou do bolso um jornal velho.",
+    "my": "မစ္စတာ ဝီလ်ဆင် ရယ်ပြီး အိတ်ကပ်ထဲမှ သတင်းစာဟောင်း တစ်စောင် ထုတ်လိုက်သည်။",
+    "th": "คุณวิลสันหัวเราะ แล้วหยิบหนังสือพิมพ์เก่าออกมาจากกระเป๋า"
+   },
+   "grammarNote": {
+    "vi": "「〜氏」 = ông… (cách gọi trang trọng trong văn viết). 「取り出す」 = lấy ra.",
+    "en": "〜氏 = \"Mr. …\" (formal, in writing). 取り出す = \"take out\".",
+    "zh-Hans": "「〜氏」＝……先生（书面正式）。「取り出す」＝取出。",
+    "zh-Hant": "「〜氏」＝……先生（書面正式）。「取り出す」＝取出。",
+    "ko": "「〜氏」= …씨(문어). 「取り出す」= 꺼내다.",
+    "tl": "〜氏 = \"G. …\" (pormal). 取り出す = \"ilabas\".",
+    "ne": "「〜氏」= श्री …। 「取り出す」= निकाल्नु।",
+    "id": "〜氏 = \"Tuan …\". 取り出す = \"mengeluarkan\".",
+    "pt": "〜氏 = \"Sr. …\". 取り出す = \"tirar\".",
+    "my": "「〜氏」= မစ္စတာ …။ 「取り出す」= ထုတ်။",
+    "th": "「〜氏」= คุณ… (ทางการ) 「取り出す」= หยิบออกมา"
+   },
+   "vocab": [
+    {
+     "word": "取り出す",
+     "reading": "とりだす",
+     "meanings": {
+      "vi": "lấy ra",
+      "en": "to take out",
+      "zh-Hans": "取出",
+      "zh-Hant": "取出",
+      "ko": "꺼내다",
+      "tl": "ilabas",
+      "ne": "निकाल्नु",
+      "id": "mengeluarkan",
+      "pt": "tirar",
+      "my": "ထုတ်",
+      "th": "หยิบออก"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=62.08,67.12",
+   "t": [
+    62.08,
+    67.12
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「わたしはロンドンで、小さな質屋をやっております。」",
+   "furigana": [
+    {
+     "surface": "「わたしはロンドンで、",
+     "reading": ""
+    },
+    {
+     "surface": "小",
+     "reading": "ちい"
+    },
+    {
+     "surface": "さな",
+     "reading": ""
+    },
+    {
+     "surface": "質屋",
+     "reading": "しちや"
+    },
+    {
+     "surface": "をやっております。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Watashi wa rondon de, chiisana shichiya o yatte orimasu.”",
+   "translations": {
+    "vi": "\"Tôi có một tiệm cầm đồ nhỏ ở London.\"",
+    "en": "\"I run a small pawnshop in London.\"",
+    "zh-Hans": "\"我在伦敦开了一家小当铺。\"",
+    "zh-Hant": "\"我在倫敦開了一家小當鋪。\"",
+    "ko": "\"저는 런던에서 작은 전당포를 하고 있습니다.\"",
+    "tl": "\"May maliit akong sanglaan sa London.\"",
+    "ne": "\"म लन्डनमा सानो धितो पसल चलाउँछु।\"",
+    "id": "\"Saya punya rumah gadai kecil di London.\"",
+    "pt": "\"Tenho uma pequena casa de penhores em Londres.\"",
+    "my": "\"ကျွန်တော် လန်ဒန်မှာ အပေါင်ဆိုင် သေးသေးလေး ဖွင့်ထားပါတယ်။\"",
+    "th": "\"ผมเปิดโรงรับจำนำเล็ก ๆ อยู่ในลอนดอนครับ\""
+   },
+   "grammarNote": {
+    "vi": "「やっております」 = khiêm nhường ngữ của やっています (おる = いる khiêm tốn). 質屋 = tiệm cầm đồ.",
+    "en": "やっております is the humble form of やっています (おる = humble いる). 質屋 = \"pawnshop\".",
+    "zh-Hans": "「やっております」＝やっています的谦让语（おる＝いる的谦让）。质屋＝当铺。",
+    "zh-Hant": "「やっております」＝やっています的謙讓語（おる＝いる的謙讓）。質屋＝當鋪。",
+    "ko": "「やっております」= 겸양어(おる = いる). 質屋 = 전당포.",
+    "tl": "やっております = mapagpakumbabang anyo. 質屋 = \"sanglaan\".",
+    "ne": "「やっております」= विनम्र रूप। 質屋 = धितो पसल।",
+    "id": "やっております = bentuk rendah hati. 質屋 = \"rumah gadai\".",
+    "pt": "やっております = forma humilde. 質屋 = \"casa de penhores\".",
+    "my": "「やっております」= နှိမ့်ချပုံ။ 質屋 = အပေါင်ဆိုင်။",
+    "th": "「やっております」= รูปถ่อมตน 質屋 = โรงรับจำนำ"
+   },
+   "vocab": [
+    {
+     "word": "質屋",
+     "reading": "しちや",
+     "meanings": {
+      "vi": "tiệm cầm đồ",
+      "en": "pawnshop",
+      "zh-Hans": "当铺",
+      "zh-Hant": "當鋪",
+      "ko": "전당포",
+      "tl": "sanglaan",
+      "ne": "धितो पसल",
+      "id": "rumah gadai",
+      "pt": "casa de penhores",
+      "my": "အပေါင်ဆိုင်",
+      "th": "โรงรับจำนำ"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=68.02,72.59",
+   "t": [
+    68.02,
+    72.59
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「店員が一人おりましてね。スポールディングという若い男です。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "店員",
+     "reading": "てんいん"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "一人",
+     "reading": "ひとり"
+    },
+    {
+     "surface": "おりましてね。スポールディングという",
+     "reading": ""
+    },
+    {
+     "surface": "若",
+     "reading": "わか"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "です。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Ten'in ga hitori orimashite ne. Supoorudeingu to iu wakai otoko desu.”",
+   "translations": {
+    "vi": "\"Tôi có một cậu nhân viên. Một chàng trai trẻ tên là Spaulding.\"",
+    "en": "\"I have one assistant. A young man named Spaulding.\"",
+    "zh-Hans": "\"我有一个店员，是个叫斯波尔丁的年轻人。\"",
+    "zh-Hant": "\"我有一個店員，是個叫斯波爾丁的年輕人。\"",
+    "ko": "\"점원이 한 명 있습니다. 스폴딩이라는 젊은 남자지요.\"",
+    "tl": "\"May isa akong katulong. Isang binatang nagngangalang Spaulding.\"",
+    "ne": "\"मसँग एक कर्मचारी छ। स्पाल्डिङ नाम गरेको जवान।\"",
+    "id": "\"Saya punya satu pegawai. Pemuda bernama Spaulding.\"",
+    "pt": "\"Tenho um ajudante. Um rapaz chamado Spaulding.\"",
+    "my": "\"ဝန်ထမ်း တစ်ယောက် ရှိပါတယ်။ စပေါ့ဒင်း ဆိုတဲ့ လူငယ်ပါ။\"",
+    "th": "\"ผมมีลูกจ้างคนหนึ่ง เป็นชายหนุ่มชื่อสปอลดิงครับ\""
+   },
+   "grammarNote": {
+    "vi": "「おりまして」 = khiêm nhường của いて. 「〜ね」 giữa câu = giọng kể chuyện thân mật.",
+    "en": "おりまして = humble of いて. Mid-sentence 〜ね = a chatty storytelling tone.",
+    "zh-Hans": "「おりまして」＝いて的谦让语。句中「〜ね」＝闲聊口吻。",
+    "zh-Hant": "「おりまして」＝いて的謙讓語。句中「〜ね」＝閒聊口吻。",
+    "ko": "「おりまして」= いて의 겸양. 「〜ね」= 이야기하는 말투.",
+    "tl": "おりまして = mapagpakumbabang いて.",
+    "ne": "「おりまして」= いて को विनम्र रूप।",
+    "id": "おりまして = rendah hati dari いて.",
+    "pt": "おりまして = humilde de いて.",
+    "my": "「おりまして」= いて ၏ နှိမ့်ချပုံ။",
+    "th": "「おりまして」= รูปถ่อมตนของ いて"
+   },
+   "vocab": [
+    {
+     "word": "店員",
+     "reading": "てんいん",
+     "meanings": {
+      "vi": "nhân viên cửa hàng",
+      "en": "shop assistant",
+      "zh-Hans": "店员",
+      "zh-Hant": "店員",
+      "ko": "점원",
+      "tl": "katulong sa tindahan",
+      "ne": "पसले कर्मचारी",
+      "id": "pegawai toko",
+      "pt": "ajudante, balconista",
+      "my": "ဆိုင်ဝန်ထမ်း",
+      "th": "พนักงานร้าน"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=73.19,78.54",
+   "t": [
+    73.19,
+    78.54
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「よく働くのに、ふつうの給料の半分でいいと言うんです。」",
+   "furigana": [
+    {
+     "surface": "「よく",
+     "reading": ""
+    },
+    {
+     "surface": "働",
+     "reading": "はたら"
+    },
+    {
+     "surface": "くのに、ふつうの",
+     "reading": ""
+    },
+    {
+     "surface": "給料",
+     "reading": "きゅうりょう"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "半分",
+     "reading": "はんぶん"
+    },
+    {
+     "surface": "でいいと",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "うんです。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Yoku hataraku noni, futsuu no kyuuryou no hanbunde ii to iu n desu.”",
+   "translations": {
+    "vi": "\"Cậu ta làm việc chăm chỉ, vậy mà chỉ đòi nửa lương bình thường.\"",
+    "en": "\"He works hard, yet says half the usual wage is enough.\"",
+    "zh-Hans": "\"他干活很卖力，却说只要一般工资的一半就行。\"",
+    "zh-Hant": "\"他幹活很賣力，卻說只要一般工資的一半就行。\"",
+    "ko": "\"일을 잘하는데도 보통 월급의 절반이면 된다고 하더군요.\"",
+    "tl": "\"Masipag siya, pero sinasabing sapat na ang kalahati ng karaniwang sahod.\"",
+    "ne": "\"ऊ मेहनती छ, तर सामान्य तलबको आधा भए पुग्छ भन्छ।\"",
+    "id": "\"Ia rajin bekerja, tapi bilang cukup separuh gaji biasa.\"",
+    "pt": "\"Trabalha bem, e mesmo assim diz que metade do salário normal basta.\"",
+    "my": "\"အလုပ်ကြိုးစားပေမယ့် ပုံမှန်လစာရဲ့ တစ်ဝက်နဲ့ ရတယ်လို့ ပြောတယ်။\"",
+    "th": "\"เขาทำงานขยัน แต่กลับบอกว่าเงินเดือนครึ่งเดียวก็พอ\""
+   },
+   "grammarNote": {
+    "vi": "「〜のに」 = vậy mà (trái với lẽ thường). 「〜でいい」 = … là đủ, cũng được. Chi tiết đáng ngờ đầu tiên!",
+    "en": "〜のに = \"and yet\" (contrary to the norm). 〜でいい = \"… is fine/enough\". The first suspicious detail!",
+    "zh-Hans": "「〜のに」＝却（与常理相反）。「〜でいい」＝……就行。第一个可疑之处！",
+    "zh-Hant": "「〜のに」＝卻（與常理相反）。「〜でいい」＝……就行。第一個可疑之處！",
+    "ko": "「〜のに」= …는데도. 「〜でいい」= …이면 된다. 첫 번째 수상한 점!",
+    "tl": "〜のに = \"pero\". 〜でいい = \"sapat na…\". Unang kahina-hinalang detalye!",
+    "ne": "「〜のに」= तर पनि। 「〜でいい」= … भए पुग्छ। पहिलो शङ्कास्पद कुरा!",
+    "id": "〜のに = \"padahal\". 〜でいい = \"… sudah cukup\". Detail mencurigakan pertama!",
+    "pt": "〜のに = \"e mesmo assim\". 〜でいい = \"… basta\". Primeiro detalhe suspeito!",
+    "my": "「〜のに」= … ပေမယ့်။ 「〜でいい」= … နဲ့ ရတယ်။ ပထမ သံသယ!",
+    "th": "「〜のに」= ทั้งที่… 「〜でいい」= …ก็พอ จุดน่าสงสัยแรก!"
+   },
+   "vocab": [
+    {
+     "word": "給料",
+     "reading": "きゅうりょう",
+     "meanings": {
+      "vi": "lương",
+      "en": "wages, salary",
+      "zh-Hans": "工资",
+      "zh-Hant": "工資",
+      "ko": "월급",
+      "tl": "sahod",
+      "ne": "तलब",
+      "id": "gaji",
+      "pt": "salário",
+      "my": "လစာ",
+      "th": "เงินเดือน"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "半分",
+     "reading": "はんぶん",
+     "meanings": {
+      "vi": "một nửa",
+      "en": "half",
+      "zh-Hans": "一半",
+      "zh-Hant": "一半",
+      "ko": "절반",
+      "tl": "kalahati",
+      "ne": "आधा",
+      "id": "separuh",
+      "pt": "metade",
+      "my": "တစ်ဝက်",
+      "th": "ครึ่งหนึ่ง"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=79.14,84.73",
+   "t": [
+    79.14,
+    84.73
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「ただ、写真が大好きで、ひまがあると地下室にこもっているのが、困ったところでして。」",
+   "furigana": [
+    {
+     "surface": "「ただ、",
+     "reading": ""
+    },
+    {
+     "surface": "写真",
+     "reading": "しゃしん"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "大好",
+     "reading": "だいす"
+    },
+    {
+     "surface": "きで、ひまがあると",
+     "reading": ""
+    },
+    {
+     "surface": "地下室",
+     "reading": "ちかしつ"
+    },
+    {
+     "surface": "にこもっているのが、",
+     "reading": ""
+    },
+    {
+     "surface": "困",
+     "reading": "こま"
+    },
+    {
+     "surface": "ったところでして。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Tada, shashin ga daisukide, hima ga aru to chikashitsu ni komotte iru no ga, komatta tokoro deshite.”",
+   "translations": {
+    "vi": "\"Có điều, cậu ta mê chụp ảnh, hễ rảnh là chui xuống tầng hầm, đó là cái tôi hơi phiền.\"",
+    "en": "\"The only trouble is, he loves photography and whenever he has free time he shuts himself up in the cellar.\"",
+    "zh-Hans": "\"只是他特别喜欢拍照，一有空就钻进地下室，这一点让人头疼。\"",
+    "zh-Hant": "\"只是他特別喜歡拍照，一有空就鑽進地下室，這一點讓人頭疼。\"",
+    "ko": "\"다만 사진을 무척 좋아해서, 틈만 나면 지하실에 틀어박히는 게 곤란한 점이지요.\"",
+    "tl": "\"Ang problema lang, mahilig siya sa potograpiya at tuwing may oras ay nagkukulong sa silong.\"",
+    "ne": "\"तर उसलाई फोटो खिच्न मन पर्छ, फुर्सद हुनेबित्तिकै तहखानामा पस्छ, त्यही समस्या हो।\"",
+    "id": "\"Hanya saja, ia suka fotografi, dan setiap ada waktu luang ia mengurung diri di ruang bawah tanah.\"",
+    "pt": "\"Só que adora fotografia e, sempre que tem tempo, se tranca no porão.\"",
+    "my": "\"ဒါပေမဲ့ ဓာတ်ပုံ အရမ်း ဝါသနာပါပြီး အားရင် မြေအောက်ခန်းထဲ ဝင်နေတာက ဒုက္ခပဲ။\"",
+    "th": "\"แต่เขาชอบถ่ายรูปมาก ว่างเมื่อไหร่ก็ไปขลุกอยู่ในห้องใต้ดิน นั่นแหละที่น่าปวดหัว\""
+   },
+   "grammarNote": {
+    "vi": "「ただ」 = có điều, chỉ là. 「こもる」 = giam mình trong phòng. 「〜でして」 = cách nói lịch sự, bỏ lửng cuối câu. Tầng hầm — hãy nhớ chi tiết này!",
+    "en": "ただ = \"only, the thing is\". こもる = \"shut oneself in\". 〜でして = polite trailing-off ending. The cellar — remember this!",
+    "zh-Hans": "「ただ」＝只是。「こもる」＝闷在屋里。「〜でして」＝礼貌地留半句。地下室——记住这个细节！",
+    "zh-Hant": "「ただ」＝只是。「こもる」＝悶在屋裡。「〜でして」＝禮貌地留半句。地下室——記住這個細節！",
+    "ko": "「ただ」= 다만. 「こもる」= 틀어박히다. 지하실 — 기억하세요!",
+    "tl": "ただ = \"lamang\". こもる = \"magkulong\". Tandaan ang silong!",
+    "ne": "「ただ」= तर। 「こもる」= भित्रै बस्नु। तहखाना — याद राख्नुहोस्!",
+    "id": "ただ = \"hanya saja\". こもる = \"mengurung diri\". Ingat ruang bawah tanah ini!",
+    "pt": "ただ = \"só que\". こもる = \"trancar-se\". Lembre-se do porão!",
+    "my": "「ただ」= ဒါပေမဲ့။ 「こもる」= ပိတ်နေ။ မြေအောက်ခန်း — မှတ်ထား!",
+    "th": "「ただ」= แต่ว่า 「こもる」= ขลุกตัว จำห้องใต้ดินไว้!"
+   },
+   "vocab": [
+    {
+     "word": "地下室",
+     "reading": "ちかしつ",
+     "meanings": {
+      "vi": "tầng hầm",
+      "en": "cellar, basement",
+      "zh-Hans": "地下室",
+      "zh-Hant": "地下室",
+      "ko": "지하실",
+      "tl": "silong",
+      "ne": "तहखाना",
+      "id": "ruang bawah tanah",
+      "pt": "porão",
+      "my": "မြေအောက်ခန်း",
+      "th": "ห้องใต้ดิน"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "こもる",
+     "reading": "こもる",
+     "meanings": {
+      "vi": "giam mình",
+      "en": "to shut oneself in",
+      "zh-Hans": "闷在屋里",
+      "zh-Hant": "悶在屋裡",
+      "ko": "틀어박히다",
+      "tl": "magkulong",
+      "ne": "भित्रै बस्नु",
+      "id": "mengurung diri",
+      "pt": "trancar-se",
+      "my": "ပိတ်နေ",
+      "th": "ขลุกตัว"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=85.33,92.87",
+   "t": [
+    85.33,
+    92.87
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "八週間前、そのスポールディングが、この新聞を持って店に入ってきたという。",
+   "furigana": [
+    {
+     "surface": "八週間",
+     "reading": "はっしゅうかん"
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "、そのスポールディングが、この",
+     "reading": ""
+    },
+    {
+     "surface": "新聞",
+     "reading": "しんぶん"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "持",
+     "reading": "も"
+    },
+    {
+     "surface": "って",
+     "reading": ""
+    },
+    {
+     "surface": "店",
+     "reading": "みせ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "入",
+     "reading": "はい"
+    },
+    {
+     "surface": "ってきたという。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hasshuukan mae, sono supoorudeingu ga, kono shinbun o motte mise ni haitte kita to iu.",
+   "translations": {
+    "vi": "Ông kể rằng tám tuần trước, chính Spaulding đã cầm tờ báo này vào tiệm.",
+    "en": "Eight weeks ago, he said, Spaulding came into the shop with this very newspaper.",
+    "zh-Hans": "据他说，八周前，那个斯波尔丁拿着这份报纸走进了店里。",
+    "zh-Hant": "據他說，八週前，那個斯波爾丁拿著這份報紙走進了店裡。",
+    "ko": "8주 전, 그 스폴딩이 이 신문을 들고 가게에 들어왔다고 한다.",
+    "tl": "Walong linggo na ang nakararaan, pumasok daw si Spaulding sa tindahan dala ang diyaryong ito.",
+    "ne": "उनका अनुसार आठ हप्ताअघि स्पाल्डिङ यही पत्रिका लिएर पसलमा पसेको थियो।",
+    "id": "Katanya, delapan minggu lalu Spaulding masuk toko membawa koran ini.",
+    "pt": "Há oito semanas, contou, Spaulding entrou na loja com este jornal.",
+    "my": "လွန်ခဲ့သော ရှစ်ပတ်က စပေါ့ဒင်းသည် ဤသတင်းစာကို ကိုင်ပြီး ဆိုင်ထဲ ဝင်လာခဲ့သည်ဟု ဆိုသည်။",
+    "th": "เขาเล่าว่า แปดสัปดาห์ก่อน สปอลดิงถือหนังสือพิมพ์ฉบับนี้เข้ามาในร้าน"
+   },
+   "grammarNote": {
+    "vi": "「〜という」 cuối câu = nghe nói, kể rằng (truyền đạt lời người khác). 「八週間」 = tám tuần.",
+    "en": "Final 〜という = \"he said that…\" (reporting). 八週間 = \"eight weeks\".",
+    "zh-Hans": "句末「〜という」＝据说（转述）。「八週間」＝八周。",
+    "zh-Hant": "句末「〜という」＝據說（轉述）。「八週間」＝八週。",
+    "ko": "문말 「〜という」= …라고 한다(전달). 「八週間」= 8주.",
+    "tl": "〜という = \"daw\". 八週間 = \"walong linggo\".",
+    "ne": "「〜という」= रे (भनाइ)। 「八週間」= आठ हप्ता।",
+    "id": "〜という = \"katanya\". 八週間 = \"delapan minggu\".",
+    "pt": "〜という = \"segundo ele\". 八週間 = \"oito semanas\".",
+    "my": "「〜という」= ဟု ဆိုသည်။",
+    "th": "「〜という」= ว่ากันว่า 「八週間」= แปดสัปดาห์"
+   },
+   "vocab": [
+    {
+     "word": "週間",
+     "reading": "しゅうかん",
+     "meanings": {
+      "vi": "… tuần",
+      "en": "… weeks",
+      "zh-Hans": "……周",
+      "zh-Hant": "……周",
+      "ko": "…주간",
+      "tl": "… linggo",
+      "ne": "… हप्ता",
+      "id": "… minggu",
+      "pt": "… semanas",
+      "my": "… ပတ်",
+      "th": "… สัปดาห์"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=93.77,100.56",
+   "t": [
+    93.77,
+    100.56
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "そこには、こんな広告がのっていた。",
+   "furigana": [
+    {
+     "surface": "そこには、こんな",
+     "reading": ""
+    },
+    {
+     "surface": "広告",
+     "reading": "こうこく"
+    },
+    {
+     "surface": "がのっていた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Soko ni wa, konna koukoku ga notte ita.",
+   "translations": {
+    "vi": "Trong đó có đăng mẩu quảng cáo như thế này.",
+    "en": "In it appeared an advertisement like this.",
+    "zh-Hans": "上面登着这样一则广告。",
+    "zh-Hant": "上面登著這樣一則廣告。",
+    "ko": "거기에는 이런 광고가 실려 있었다.",
+    "tl": "Nakalathala roon ang ganitong patalastas.",
+    "ne": "त्यसमा यस्तो विज्ञापन छापिएको थियो।",
+    "id": "Di situ terpasang iklan seperti ini.",
+    "pt": "Nele havia um anúncio assim.",
+    "my": "ထိုတွင် ဤသို့သော ကြော်ငြာ ပါရှိသည်။",
+    "th": "ในนั้นมีโฆษณาแบบนี้ลงอยู่"
+   },
+   "grammarNote": {
+    "vi": "「のる」 (載る) = được đăng (báo, tạp chí). 「こんな」 = như thế này (sắp giới thiệu).",
+    "en": "のる (載る) = \"appear (in print)\". こんな = \"like this\" (about to be shown).",
+    "zh-Hans": "「のる」（載る）＝登载。「こんな」＝这样的（即将介绍）。",
+    "zh-Hant": "「のる」（載る）＝登載。「こんな」＝這樣的（即將介紹）。",
+    "ko": "「のる」= 실리다. 「こんな」= 이런.",
+    "tl": "のる = \"malathala\". こんな = \"ganito\".",
+    "ne": "「のる」= छापिनु। 「こんな」= यस्तो।",
+    "id": "のる = \"dimuat\". こんな = \"seperti ini\".",
+    "pt": "のる = \"ser publicado\". こんな = \"assim\".",
+    "my": "「のる」= ပါ (သတင်းစာ)။",
+    "th": "「のる」= ลง (หนังสือพิมพ์) 「こんな」= แบบนี้"
+   },
+   "vocab": [
+    {
+     "word": "広告",
+     "reading": "こうこく",
+     "meanings": {
+      "vi": "quảng cáo",
+      "en": "advertisement",
+      "zh-Hans": "广告",
+      "zh-Hant": "廣告",
+      "ko": "광고",
+      "tl": "patalastas",
+      "ne": "विज्ञापन",
+      "id": "iklan",
+      "pt": "anúncio",
+      "my": "ကြော်ငြာ",
+      "th": "โฆษณา"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=101.16,104.55",
+   "t": [
+    101.16,
+    104.55
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「赤毛組合に、空きが一つあります。赤い髪の男性なら、週四ポンドで、かんたんな仕事をしていただけます。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "赤毛",
+     "reading": "あかげ"
+    },
+    {
+     "surface": "組合",
+     "reading": "くみあい"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "空",
+     "reading": "あ"
+    },
+    {
+     "surface": "きが",
+     "reading": ""
+    },
+    {
+     "surface": "一",
+     "reading": "ひと"
+    },
+    {
+     "surface": "つあります。",
+     "reading": ""
+    },
+    {
+     "surface": "赤",
+     "reading": "あか"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "髪",
+     "reading": "かみ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "男性",
+     "reading": "だんせい"
+    },
+    {
+     "surface": "なら、",
+     "reading": ""
+    },
+    {
+     "surface": "週",
+     "reading": "しゅう"
+    },
+    {
+     "surface": "四",
+     "reading": "よん"
+    },
+    {
+     "surface": "ポンドで、かんたんな",
+     "reading": ""
+    },
+    {
+     "surface": "仕事",
+     "reading": "しごと"
+    },
+    {
+     "surface": "をしていただけます。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Akage kumiai ni, aki ga hitotsu arimasu. Akai kami no danseinara, shuu yonpondo de, kanta nna shigoto o shite itadakemasu.”",
+   "translations": {
+    "vi": "\"Hội Tóc Đỏ còn trống một chỗ. Nam giới tóc đỏ có thể làm một việc đơn giản với lương bốn bảng mỗi tuần.\"",
+    "en": "\"There is a vacancy in the Red-Headed League. Any red-haired man may do simple work for four pounds a week.\"",
+    "zh-Hans": "\"红发会有一个空缺。红头发的男性，每周四英镑，做简单的工作。\"",
+    "zh-Hant": "\"紅髮會有一個空缺。紅頭髮的男性，每週四英鎊，做簡單的工作。\"",
+    "ko": "\"빨간 머리 연맹에 자리가 하나 비어 있습니다. 머리가 빨간 남성이면 주 4파운드로 간단한 일을 하실 수 있습니다.\"",
+    "tl": "\"May isang bakanteng puwesto sa Samahan ng mga Pulang Buhok. Ang lalaking pula ang buhok ay maaaring gumawa ng simpleng trabaho sa halagang apat na libra kada linggo.\"",
+    "ne": "\"रातो कपाल संघमा एउटा पद खाली छ। रातो कपाल भएका पुरुषले हप्ताको चार पाउन्डमा सजिलो काम गर्न सक्नुहुन्छ।\"",
+    "id": "\"Liga Rambut Merah membuka satu lowongan. Pria berambut merah bisa mengerjakan tugas mudah dengan empat pound per minggu.\"",
+    "pt": "\"Há uma vaga na Liga dos Cabeças-Vermelhas. Qualquer homem ruivo pode fazer um trabalho simples por quatro libras por semana.\"",
+    "my": "\"ဆံပင်နီ အသင်းတွင် နေရာလွတ် တစ်ခု ရှိသည်။ ဆံပင်နီသော အမျိုးသားဖြစ်လျှင် တစ်ပတ် လေးပေါင်ဖြင့် လွယ်ကူသော အလုပ် လုပ်နိုင်သည်။\"",
+    "th": "\"สมาคมผมแดงมีตำแหน่งว่างหนึ่งตำแหน่ง ชายผมแดงทำงานง่าย ๆ ได้ค่าจ้างสัปดาห์ละสี่ปอนด์\""
+   },
+   "grammarNote": {
+    "vi": "「空き」 = chỗ trống. 「〜なら」 = nếu là…. 「Vていただけます」 = (quý vị) có thể V — khiêm nhường, văn quảng cáo lịch sự. 4 bảng/tuần thời đó là số tiền lớn.",
+    "en": "空き = \"vacancy\". 〜なら = \"if (you are)…\". Vていただけます = \"you may V\" — humble, polite ad style. £4 a week was a lot of money then.",
+    "zh-Hans": "「空き」＝空缺。「〜なら」＝如果是……。「Vていただけます」＝您可以V（谦让、广告礼貌语）。当时每周4英镑是一大笔钱。",
+    "zh-Hant": "「空き」＝空缺。「〜なら」＝如果是……。「Vていただけます」＝您可以V（謙讓、廣告禮貌語）。當時每週4英鎊是一大筆錢。",
+    "ko": "「空き」= 빈자리. 「〜なら」= …라면. 「Vていただけます」= 정중한 광고 문체.",
+    "tl": "空き = \"bakante\". Vていただけます = magalang na anyo sa patalastas.",
+    "ne": "「空き」= खाली पद। 「Vていただけます」= नम्र विज्ञापन शैली।",
+    "id": "空き = \"lowongan\". Vていただけます = gaya iklan sopan.",
+    "pt": "空き = \"vaga\". Vていただけます = estilo polido de anúncio.",
+    "my": "「空き」= နေရာလွတ်။",
+    "th": "「空き」= ตำแหน่งว่าง 「Vていただけます」= สำนวนโฆษณาสุภาพ"
+   },
+   "vocab": [
+    {
+     "word": "空き",
+     "reading": "あき",
+     "meanings": {
+      "vi": "chỗ trống",
+      "en": "vacancy",
+      "zh-Hans": "空缺",
+      "zh-Hant": "空缺",
+      "ko": "빈자리",
+      "tl": "bakante",
+      "ne": "खाली पद",
+      "id": "lowongan",
+      "pt": "vaga",
+      "my": "နေရာလွတ်",
+      "th": "ตำแหน่งว่าง"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "男性",
+     "reading": "だんせい",
+     "meanings": {
+      "vi": "nam giới",
+      "en": "man, male",
+      "zh-Hans": "男性",
+      "zh-Hant": "男性",
+      "ko": "남성",
+      "tl": "lalaki",
+      "ne": "पुरुष",
+      "id": "pria",
+      "pt": "homem",
+      "my": "အမျိုးသား",
+      "th": "ผู้ชาย"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=105.45,115.52",
+   "t": [
+    105.45,
+    115.52
+   ],
+   "voice": "ja-JP-Neural2-B"
+  },
+  {
+   "ja": "「だんな様、この仕事にぴったりですよ。だんな様ほど赤い髪の人は、なかなかいません。」",
+   "furigana": [
+    {
+     "surface": "「だんな",
+     "reading": ""
+    },
+    {
+     "surface": "様",
+     "reading": "さま"
+    },
+    {
+     "surface": "、この",
+     "reading": ""
+    },
+    {
+     "surface": "仕事",
+     "reading": "しごと"
+    },
+    {
+     "surface": "にぴったりですよ。だんな",
+     "reading": ""
+    },
+    {
+     "surface": "様",
+     "reading": "さま"
+    },
+    {
+     "surface": "ほど",
+     "reading": ""
+    },
+    {
+     "surface": "赤",
+     "reading": "あか"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "髪",
+     "reading": "かみ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "は、なかなかいません。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Dannasama, kono shigoto ni pittari desu yo. Dannasama hodo akai kami no hito wa, nakanaka imasen.”",
+   "translations": {
+    "vi": "\"Thưa ông chủ, việc này hợp với ông quá. Tóc đỏ như ông thì hiếm lắm.\"",
+    "en": "\"Sir, this job is perfect for you. You hardly ever see anyone with hair as red as yours.\"",
+    "zh-Hans": "\"老板，这份工作再适合您不过了。像您这么红的头发，可不多见。\"",
+    "zh-Hant": "\"老闆，這份工作再適合您不過了。像您這麼紅的頭髮，可不多見。\"",
+    "ko": "\"사장님, 이 일에 딱 맞으세요. 사장님만큼 머리가 빨간 사람은 좀처럼 없어요.\"",
+    "tl": "\"Amo, bagay na bagay sa inyo ito. Bihira ang kasing-pula ng buhok ninyo.\"",
+    "ne": "\"मालिक, यो काम तपाईंलाई ठ्याक्कै मिल्छ। तपाईंजस्तो रातो कपाल भएको विरलै भेटिन्छ।\"",
+    "id": "\"Tuan, pekerjaan ini cocok sekali untuk Anda. Jarang ada orang yang rambutnya semerah Anda.\"",
+    "pt": "\"Patrão, este trabalho é perfeito para o senhor. Quase ninguém tem o cabelo tão vermelho.\"",
+    "my": "\"သခင်၊ ဒီအလုပ်က ခင်ဗျားနဲ့ အံကိုက်ပဲ။ ခင်ဗျားလောက် ဆံပင်နီတဲ့သူ ရှားတယ်။\"",
+    "th": "\"นายครับ งานนี้เหมาะกับนายมากเลย คนผมแดงเท่านายหายากนะครับ\""
+   },
+   "grammarNote": {
+    "vi": "「だんな様」 = ông chủ (người làm gọi chủ). 「ぴったり」 = vừa khít, rất hợp. 「AほどBは〜ない」 = không có B nào … bằng A.",
+    "en": "だんな様 = \"master\" (servant to employer). ぴったり = \"a perfect fit\". AほどBは〜ない = \"no B is as … as A\".",
+    "zh-Hans": "「だんな様」＝老板（雇员称雇主）。「ぴったり」＝正合适。「AほどBは〜ない」＝没有B像A那样……。",
+    "zh-Hant": "「だんな様」＝老闆（僱員稱僱主）。「ぴったり」＝正合適。「AほどBは〜ない」＝沒有B像A那樣……。",
+    "ko": "「だんな様」= 주인어른. 「ぴったり」= 딱. 「AほどBは〜ない」= A만큼 …한 B는 없다.",
+    "tl": "だんな様 = \"amo\". ぴったり = \"bagay na bagay\". AほどBは〜ない = \"walang B na kasing… ng A\".",
+    "ne": "「だんな様」= मालिक। 「ぴったり」= ठ्याक्कै मिल्ने। 「AほどBは〜ない」= A जत्तिको B छैन।",
+    "id": "だんな様 = \"tuan\". ぴったり = \"pas sekali\". AほどBは〜ない = \"tak ada B se… A\".",
+    "pt": "だんな様 = \"patrão\". ぴったり = \"perfeito\". AほどBは〜ない = \"nenhum B tão … quanto A\".",
+    "my": "「だんな様」= သခင်။ 「ぴったり」= အံကိုက်။",
+    "th": "「だんな様」= นาย 「ぴったり」= เหมาะเป๊ะ 「AほどBは〜ない」= ไม่มี B ที่…เท่า A"
+   },
+   "vocab": [
+    {
+     "word": "ぴったり",
+     "reading": "ぴったり",
+     "meanings": {
+      "vi": "vừa khít, rất hợp",
+      "en": "perfect fit",
+      "zh-Hans": "正合适",
+      "zh-Hant": "正合適",
+      "ko": "딱 맞음",
+      "tl": "bagay na bagay",
+      "ne": "ठ्याक्कै मिल्ने",
+      "id": "pas sekali",
+      "pt": "perfeito",
+      "my": "အံကိုက်",
+      "th": "เหมาะเป๊ะ"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=116.42,123.14",
+   "t": [
+    116.42,
+    123.14
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "週四ポンドは、ウィルソン氏にとって、とても大きなお金だった。",
+   "furigana": [
+    {
+     "surface": "週",
+     "reading": "しゅう"
+    },
+    {
+     "surface": "四",
+     "reading": "よん"
+    },
+    {
+     "surface": "ポンドは、ウィルソン",
+     "reading": ""
+    },
+    {
+     "surface": "氏",
+     "reading": "し"
+    },
+    {
+     "surface": "にとって、とても",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "きなお",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "かね"
+    },
+    {
+     "surface": "だった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shuu yonpondo wa, uirusonshi nitotte, totemo ookina okane datta.",
+   "translations": {
+    "vi": "Bốn bảng một tuần là khoản tiền rất lớn đối với ông Wilson.",
+    "en": "Four pounds a week was a great deal of money to Mr. Wilson.",
+    "zh-Hans": "每周四英镑，对威尔逊先生来说是很大一笔钱。",
+    "zh-Hant": "每週四英鎊，對威爾遜先生來說是很大一筆錢。",
+    "ko": "주 4파운드는 윌슨 씨에게 아주 큰돈이었다.",
+    "tl": "Malaking halaga para kay G. Wilson ang apat na libra kada linggo.",
+    "ne": "हप्ताको चार पाउन्ड विल्सनका लागि ठूलो रकम थियो।",
+    "id": "Empat pound seminggu adalah uang yang sangat besar bagi Tuan Wilson.",
+    "pt": "Quatro libras por semana era muito dinheiro para o Sr. Wilson.",
+    "my": "တစ်ပတ် လေးပေါင်ဆိုတာ မစ္စတာ ဝီလ်ဆင်အတွက် အလွန် များသော ငွေ ဖြစ်သည်။",
+    "th": "สัปดาห์ละสี่ปอนด์เป็นเงินก้อนใหญ่มากสำหรับคุณวิลสัน"
+   },
+   "grammarNote": {
+    "vi": "「〜にとって」 = đối với… (quan điểm, giá trị với ai).",
+    "en": "〜にとって = \"for…, to…\" (from someone's point of view).",
+    "zh-Hans": "「〜にとって」＝对……来说。",
+    "zh-Hant": "「〜にとって」＝對……來說。",
+    "ko": "「〜にとって」= …에게 있어.",
+    "tl": "〜にとって = \"para kay…\".",
+    "ne": "「〜にとって」= … का लागि।",
+    "id": "〜にとって = \"bagi…\".",
+    "pt": "〜にとって = \"para…\".",
+    "my": "「〜にとって」= … အတွက်။",
+    "th": "「〜にとって」= สำหรับ…"
+   },
+   "vocab": [],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=124.04,129.78",
+   "t": [
+    124.04,
+    129.78
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "次の日、二人は広告に書いてあった事務所へ行った。",
+   "furigana": [
+    {
+     "surface": "次",
+     "reading": "つぎ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "広告",
+     "reading": "こうこく"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "書",
+     "reading": "か"
+    },
+    {
+     "surface": "いてあった",
+     "reading": ""
+    },
+    {
+     "surface": "事務所",
+     "reading": "じむしょ"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "った。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tsugi no hi, futari wa koukoku ni kaite atta jimusho e itta.",
+   "translations": {
+    "vi": "Ngày hôm sau, hai người đến văn phòng ghi trong quảng cáo.",
+    "en": "The next day, the two went to the office named in the advertisement.",
+    "zh-Hans": "第二天，两人去了广告上写的事务所。",
+    "zh-Hant": "第二天，兩人去了廣告上寫的事務所。",
+    "ko": "다음 날, 두 사람은 광고에 적혀 있던 사무소로 갔다.",
+    "tl": "Kinabukasan, nagpunta ang dalawa sa opisinang nakasulat sa patalastas.",
+    "ne": "भोलिपल्ट दुवैजना विज्ञापनमा लेखिएको कार्यालयमा गए।",
+    "id": "Keesokan harinya, keduanya pergi ke kantor yang tertulis di iklan.",
+    "pt": "No dia seguinte, os dois foram ao escritório indicado no anúncio.",
+    "my": "နောက်တစ်နေ့တွင် နှစ်ယောက်သား ကြော်ငြာတွင် ရေးထားသော ရုံးသို့ သွားကြသည်။",
+    "th": "วันรุ่งขึ้น ทั้งสองไปที่สำนักงานที่เขียนไว้ในโฆษณา"
+   },
+   "grammarNote": {
+    "vi": "「Vてある」 = (cái gì đó) đã được V sẵn, kết quả còn đó (書いてある = có ghi).",
+    "en": "Vてある = \"has been V-ed\" and the result remains (書いてある = \"is written\").",
+    "zh-Hans": "「Vてある」＝（某物）已被V着，结果保留（書いてある＝写着）。",
+    "zh-Hant": "「Vてある」＝（某物）已被V著，結果保留（書いてある＝寫著）。",
+    "ko": "「Vてある」= …되어 있다(書いてある = 적혀 있다).",
+    "tl": "Vてある = \"nakasulat\" (resulta).",
+    "ne": "「Vてある」= V गरिएको छ (書いてある = लेखिएको)।",
+    "id": "Vてある = \"sudah di-V\" (書いてある = tertulis).",
+    "pt": "Vてある = \"estar V-do\" (書いてある = escrito).",
+    "my": "「Vてある」= V ထားသည် (書いてある = ရေးထားသည်)။",
+    "th": "「Vてある」= ถูก V ไว้ (書いてある = เขียนไว้)"
+   },
+   "vocab": [
+    {
+     "word": "事務所",
+     "reading": "じむしょ",
+     "meanings": {
+      "vi": "văn phòng",
+      "en": "office",
+      "zh-Hans": "事务所",
+      "zh-Hant": "事務所",
+      "ko": "사무소",
+      "tl": "opisina",
+      "ne": "कार्यालय",
+      "id": "kantor",
+      "pt": "escritório",
+      "my": "ရုံး",
+      "th": "สำนักงาน"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=130.38,135.68",
+   "t": [
+    130.38,
+    135.68
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "通りには、赤い髪の男たちが何百人も集まっていた。",
+   "furigana": [
+    {
+     "surface": "通",
+     "reading": "とお"
+    },
+    {
+     "surface": "りには、",
+     "reading": ""
+    },
+    {
+     "surface": "赤",
+     "reading": "あか"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "髪",
+     "reading": "かみ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "たちが",
+     "reading": ""
+    },
+    {
+     "surface": "何百人",
+     "reading": "なんびゃくにん"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "集",
+     "reading": "あつ"
+    },
+    {
+     "surface": "まっていた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Toori ni wa, akai kami no otokotachi ga nanbyakunin mo atsumatte ita.",
+   "translations": {
+    "vi": "Ngoài đường, hàng trăm người đàn ông tóc đỏ đã tụ tập.",
+    "en": "In the street, hundreds of red-haired men had gathered.",
+    "zh-Hans": "街上聚集了好几百个红头发的男人。",
+    "zh-Hant": "街上聚集了好幾百個紅頭髮的男人。",
+    "ko": "거리에는 머리가 빨간 남자들이 수백 명이나 모여 있었다.",
+    "tl": "Sa kalye, daan-daang lalaking pula ang buhok ang nagtipon.",
+    "ne": "सडकमा सयौं रातो कपाल भएका पुरुष जम्मा भएका थिए।",
+    "id": "Di jalan, ratusan pria berambut merah telah berkumpul.",
+    "pt": "Na rua, centenas de homens ruivos tinham se reunido.",
+    "my": "လမ်းပေါ်တွင် ဆံပင်နီ အမျိုးသား ရာနှင့်ချီ စုရုံးနေကြသည်။",
+    "th": "บนถนนมีชายผมแดงหลายร้อยคนมารวมตัวกัน"
+   },
+   "grammarNote": {
+    "vi": "「何百人も」 = đến hàng trăm người (何 + số + も = nhấn mạnh số lượng lớn).",
+    "en": "何百人も = \"hundreds of people\" (何 + number + も stresses a large amount).",
+    "zh-Hans": "「何百人も」＝好几百人（何＋数量＋も强调多）。",
+    "zh-Hant": "「何百人も」＝好幾百人（何＋數量＋も強調多）。",
+    "ko": "「何百人も」= 수백 명이나.",
+    "tl": "何百人も = \"daan-daan\".",
+    "ne": "「何百人も」= सयौं जना।",
+    "id": "何百人も = \"ratusan orang\".",
+    "pt": "何百人も = \"centenas\".",
+    "my": "「何百人も」= ရာနှင့်ချီ။",
+    "th": "「何百人も」= หลายร้อยคน"
+   },
+   "vocab": [
+    {
+     "word": "集まる",
+     "reading": "あつまる",
+     "meanings": {
+      "vi": "tụ tập",
+      "en": "to gather",
+      "zh-Hans": "聚集",
+      "zh-Hant": "聚集",
+      "ko": "모이다",
+      "tl": "magtipon",
+      "ne": "जम्मा हुनु",
+      "id": "berkumpul",
+      "pt": "reunir-se",
+      "my": "စုရုံး",
+      "th": "รวมตัว"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=136.28,142.02",
+   "t": [
+    136.28,
+    142.02
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "オレンジ色、レンガ色、きつね色。でも、ウィルソン氏ほどあざやかな赤は、一人もいなかった。",
+   "furigana": [
+    {
+     "surface": "オレンジ",
+     "reading": ""
+    },
+    {
+     "surface": "色",
+     "reading": "いろ"
+    },
+    {
+     "surface": "、レンガ",
+     "reading": ""
+    },
+    {
+     "surface": "色",
+     "reading": "いろ"
+    },
+    {
+     "surface": "、きつね",
+     "reading": ""
+    },
+    {
+     "surface": "色",
+     "reading": "いろ"
+    },
+    {
+     "surface": "。でも、ウィルソン",
+     "reading": ""
+    },
+    {
+     "surface": "氏",
+     "reading": "し"
+    },
+    {
+     "surface": "ほどあざやかな",
+     "reading": ""
+    },
+    {
+     "surface": "赤",
+     "reading": "あか"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "一人",
+     "reading": "ひとり"
+    },
+    {
+     "surface": "もいなかった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Orenji iro, renga iro, kitsune iro. Demo, uirusonshi hodo azayakana aka wa, hitori mo inakatta.",
+   "translations": {
+    "vi": "Màu cam, màu gạch, màu nâu cáo. Nhưng không ai có màu đỏ tươi như ông Wilson.",
+    "en": "Orange, brick, fox-brown. But not one had a red as vivid as Mr. Wilson's.",
+    "zh-Hans": "橙色、砖红色、狐狸色。但没有一个人像威尔逊先生那样红得鲜艳。",
+    "zh-Hant": "橙色、磚紅色、狐狸色。但沒有一個人像威爾遜先生那樣紅得鮮豔。",
+    "ko": "오렌지색, 벽돌색, 여우색. 하지만 윌슨 씨만큼 선명한 빨강은 한 명도 없었다.",
+    "tl": "Kahel, kulay-ladrilyo, kulay-soro. Ngunit walang kasing-tingkad ng pula ni G. Wilson.",
+    "ne": "सुन्तला रङ, इँटा रङ, स्याल रङ। तर विल्सनजस्तो चम्किलो रातो कोही थिएन।",
+    "id": "Jingga, warna bata, cokelat rubah. Tapi tak seorang pun semerah Tuan Wilson.",
+    "pt": "Laranja, cor de tijolo, castanho-raposa. Mas nenhum tinha um vermelho tão vivo quanto o do Sr. Wilson.",
+    "my": "လိမ္မော်ရောင်၊ အုတ်ရောင်၊ မြေခွေးရောင်။ ဒါပေမဲ့ မစ္စတာ ဝီလ်ဆင်လောက် တောက်ပသော အနီရောင် တစ်ယောက်မှ မရှိ။",
+    "th": "สีส้ม สีอิฐ สีน้ำตาลจิ้งจอก แต่ไม่มีใครแดงสดเท่าคุณวิลสันเลย"
+   },
+   "grammarNote": {
+    "vi": "「〜色」 = màu…. 「あざやか」 = tươi, rực rỡ. 「一人も〜ない」 = không một ai.",
+    "en": "〜色 = \"… color\". あざやか = \"vivid\". 一人も〜ない = \"not a single person\".",
+    "zh-Hans": "「〜色」＝……色。「あざやか」＝鲜艳。「一人も〜ない」＝一个人也没有。",
+    "zh-Hant": "「〜色」＝……色。「あざやか」＝鮮豔。「一人も〜ない」＝一個人也沒有。",
+    "ko": "「〜色」= …색. 「あざやか」= 선명하다. 「一人も〜ない」= 한 명도 없다.",
+    "tl": "〜色 = \"kulay…\". あざやか = \"matingkad\".",
+    "ne": "「〜色」= … रङ। 「あざやか」= चम्किलो।",
+    "id": "〜色 = \"warna…\". あざやか = \"cerah\".",
+    "pt": "〜色 = \"cor de…\". あざやか = \"vivo\".",
+    "my": "「〜色」= … ရောင်။ 「あざやか」= တောက်ပ။",
+    "th": "「〜色」= สี… 「あざやか」= สดใส"
+   },
+   "vocab": [
+    {
+     "word": "あざやか",
+     "reading": "あざやか",
+     "meanings": {
+      "vi": "tươi, rực rỡ",
+      "en": "vivid",
+      "zh-Hans": "鲜艳",
+      "zh-Hant": "鮮豔",
+      "ko": "선명하다",
+      "tl": "matingkad",
+      "ne": "चम्किलो",
+      "id": "cerah",
+      "pt": "vivo",
+      "my": "တောက်ပ",
+      "th": "สดใส"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=142.62,152.42",
+   "t": [
+    142.62,
+    152.42
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "事務所には、ウィルソン氏よりもっと赤い髪の、ロスという男が座っていた。",
+   "furigana": [
+    {
+     "surface": "事務所",
+     "reading": "じむしょ"
+    },
+    {
+     "surface": "には、ウィルソン",
+     "reading": ""
+    },
+    {
+     "surface": "氏",
+     "reading": "し"
+    },
+    {
+     "surface": "よりもっと",
+     "reading": ""
+    },
+    {
+     "surface": "赤",
+     "reading": "あか"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "髪",
+     "reading": "かみ"
+    },
+    {
+     "surface": "の、ロスという",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "座",
+     "reading": "すわ"
+    },
+    {
+     "surface": "っていた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Jimusho ni wa, uirusonshi yori motto akai kami no, rosu to iu otoko ga suwatte ita.",
+   "translations": {
+    "vi": "Trong văn phòng có một người đàn ông tên Ross, tóc còn đỏ hơn cả ông Wilson, đang ngồi.",
+    "en": "In the office sat a man named Ross, with hair even redder than Mr. Wilson's.",
+    "zh-Hans": "事务所里坐着一个叫罗斯的男人，头发比威尔逊先生还要红。",
+    "zh-Hant": "事務所裡坐著一個叫羅斯的男人，頭髮比威爾遜先生還要紅。",
+    "ko": "사무소에는 윌슨 씨보다 더 빨간 머리의 로스라는 남자가 앉아 있었다.",
+    "tl": "Sa opisina ay nakaupo ang lalaking si Ross, mas pula pa ang buhok kaysa kay G. Wilson.",
+    "ne": "कार्यालयमा विल्सनभन्दा पनि रातो कपाल भएका रस भन्ने मानिस बसेका थिए।",
+    "id": "Di kantor duduk pria bernama Ross, rambutnya lebih merah dari Tuan Wilson.",
+    "pt": "No escritório estava sentado um homem chamado Ross, de cabelo ainda mais vermelho.",
+    "my": "ရုံးထဲတွင် မစ္စတာ ဝီလ်ဆင်ထက် ဆံပင်ပိုနီသော ရော့စ် ဆိုသူ ထိုင်နေသည်။",
+    "th": "ในสำนักงานมีชายชื่อรอสนั่งอยู่ ผมแดงกว่าคุณวิลสันเสียอีก"
+   },
+   "grammarNote": {
+    "vi": "「Aよりもっと〜」 = còn … hơn cả A.",
+    "en": "Aよりもっと〜 = \"even more … than A\".",
+    "zh-Hans": "「Aよりもっと〜」＝比A还要……。",
+    "zh-Hant": "「Aよりもっと〜」＝比A還要……。",
+    "ko": "「Aよりもっと〜」= A보다 더 ….",
+    "tl": "Aよりもっと〜 = \"mas … pa kaysa A\".",
+    "ne": "「Aよりもっと〜」= A भन्दा पनि बढी …।",
+    "id": "Aよりもっと〜 = \"lebih … lagi dari A\".",
+    "pt": "Aよりもっと〜 = \"ainda mais … que A\".",
+    "my": "「Aよりもっと〜」= A ထက် ပို …။",
+    "th": "「Aよりもっと〜」= …กว่า A เสียอีก"
+   },
+   "vocab": [],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=153.02,159.61",
+   "t": [
+    153.02,
+    159.61
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「すばらしい！これほど完全な赤い髪は、見たことがありません。」",
+   "furigana": [
+    {
+     "surface": "「すばらしい！これほど",
+     "reading": ""
+    },
+    {
+     "surface": "完全",
+     "reading": "かんぜん"
+    },
+    {
+     "surface": "な",
+     "reading": ""
+    },
+    {
+     "surface": "赤",
+     "reading": "あか"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "髪",
+     "reading": "かみ"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "たことがありません。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Subarashii! Kore hodo kanzenna akai kami wa, mita koto ga arimasen.”",
+   "translations": {
+    "vi": "\"Tuyệt vời! Tôi chưa từng thấy mái tóc đỏ nào hoàn hảo đến thế.\"",
+    "en": "\"Splendid! I have never seen such perfect red hair.\"",
+    "zh-Hans": "\"太棒了！我从没见过这么完美的红发。\"",
+    "zh-Hant": "\"太棒了！我從沒見過這麼完美的紅髮。\"",
+    "ko": "\"훌륭하군요! 이렇게 완벽한 빨간 머리는 본 적이 없습니다.\"",
+    "tl": "\"Kahanga-hanga! Hindi pa ako nakakita ng ganito kaperpektong pulang buhok.\"",
+    "ne": "\"उत्कृष्ट! यति पूर्ण रातो कपाल मैले कहिल्यै देखेको छैन।\"",
+    "id": "\"Luar biasa! Saya belum pernah melihat rambut merah sesempurna ini.\"",
+    "pt": "\"Esplêndido! Nunca vi um cabelo vermelho tão perfeito.\"",
+    "my": "\"အံ့ဩစရာ! ဒီလောက် ပြည့်စုံတဲ့ ဆံပင်နီ တစ်ခါမှ မမြင်ဖူးဘူး။\"",
+    "th": "\"ยอดเยี่ยม! ไม่เคยเห็นผมแดงที่สมบูรณ์แบบขนาดนี้มาก่อน\""
+   },
+   "grammarNote": {
+    "vi": "「Vたことがない」 = chưa từng V. 「これほど」 = đến mức này.",
+    "en": "Vたことがない = \"have never V-ed\". これほど = \"this much\".",
+    "zh-Hans": "「Vたことがない」＝从来没V过。「これほど」＝这么。",
+    "zh-Hant": "「Vたことがない」＝從來沒V過。「これほど」＝這麼。",
+    "ko": "「Vたことがない」= V한 적이 없다. 「これほど」= 이렇게.",
+    "tl": "Vたことがない = \"hindi pa kailanman V\".",
+    "ne": "「Vたことがない」= कहिल्यै V गरेको छैन।",
+    "id": "Vたことがない = \"belum pernah V\".",
+    "pt": "Vたことがない = \"nunca V\".",
+    "my": "「Vたことがない」= မ V ဖူး။",
+    "th": "「Vたことがない」= ไม่เคย V"
+   },
+   "vocab": [
+    {
+     "word": "完全",
+     "reading": "かんぜん",
+     "meanings": {
+      "vi": "hoàn toàn, hoàn hảo",
+      "en": "perfect, complete",
+      "zh-Hans": "完全",
+      "zh-Hant": "完全",
+      "ko": "완전",
+      "tl": "perpekto",
+      "ne": "पूर्ण",
+      "id": "sempurna",
+      "pt": "perfeito",
+      "my": "ပြည့်စုံ",
+      "th": "สมบูรณ์"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=160.51,165.7",
+   "t": [
+    160.51,
+    165.7
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "ロスは、いきなりウィルソン氏の髪を両手でつかんで、強く引っぱった。",
+   "furigana": [
+    {
+     "surface": "ロスは、いきなりウィルソン",
+     "reading": ""
+    },
+    {
+     "surface": "氏",
+     "reading": "し"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "髪",
+     "reading": "かみ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "両手",
+     "reading": "りょうて"
+    },
+    {
+     "surface": "でつかんで、",
+     "reading": ""
+    },
+    {
+     "surface": "強",
+     "reading": "つよ"
+    },
+    {
+     "surface": "く",
+     "reading": ""
+    },
+    {
+     "surface": "引",
+     "reading": "ひ"
+    },
+    {
+     "surface": "っぱった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Rosu wa, ikinari uirusonshi no kami o ryoute de tsukande, tsuyoku hippatta.",
+   "translations": {
+    "vi": "Ross bất ngờ túm tóc ông Wilson bằng hai tay và giật mạnh.",
+    "en": "Ross suddenly seized Mr. Wilson's hair with both hands and tugged hard.",
+    "zh-Hans": "罗斯突然用双手抓住威尔逊先生的头发，使劲一拉。",
+    "zh-Hant": "羅斯突然用雙手抓住威爾遜先生的頭髮，使勁一拉。",
+    "ko": "로스는 갑자기 윌슨 씨의 머리를 두 손으로 움켜쥐고 세게 잡아당겼다.",
+    "tl": "Biglang hinawakan ni Ross ng dalawang kamay ang buhok ni G. Wilson at hinila nang malakas.",
+    "ne": "रसले अचानक दुवै हातले विल्सनको कपाल समाते र जोडले ताने।",
+    "id": "Ross tiba-tiba mencengkeram rambut Tuan Wilson dengan kedua tangan dan menariknya kuat.",
+    "pt": "Ross de repente agarrou o cabelo do Sr. Wilson com as duas mãos e puxou com força.",
+    "my": "ရော့စ်သည် ရုတ်တရက် မစ္စတာ ဝီလ်ဆင်၏ ဆံပင်ကို လက်နှစ်ဖက်ဖြင့် ဆုပ်ကိုင်ကာ အားဖြင့် ဆွဲလိုက်သည်။",
+    "th": "รอสจับผมคุณวิลสันด้วยสองมือ แล้วดึงอย่างแรงทันที"
+   },
+   "grammarNote": {
+    "vi": "「いきなり」 = đột nhiên, chẳng báo trước. 「引っぱる」 = kéo, giật.",
+    "en": "いきなり = \"all of a sudden, without warning\". 引っぱる = \"pull, tug\".",
+    "zh-Hans": "「いきなり」＝突然。「引っぱる」＝拉，扯。",
+    "zh-Hant": "「いきなり」＝突然。「引っぱる」＝拉，扯。",
+    "ko": "「いきなり」= 갑자기. 「引っぱる」= 잡아당기다.",
+    "tl": "いきなり = \"bigla\". 引っぱる = \"hilahin\".",
+    "ne": "「いきなり」= अचानक। 「引っぱる」= तान्नु।",
+    "id": "いきなり = \"tiba-tiba\". 引っぱる = \"menarik\".",
+    "pt": "いきなり = \"de repente\". 引っぱる = \"puxar\".",
+    "my": "「いきなり」= ရုတ်တရက်။ 「引っぱる」= ဆွဲ။",
+    "th": "「いきなり」= ทันทีทันใด 「引っぱる」= ดึง"
+   },
+   "vocab": [
+    {
+     "word": "いきなり",
+     "reading": "いきなり",
+     "meanings": {
+      "vi": "đột nhiên",
+      "en": "suddenly",
+      "zh-Hans": "突然",
+      "zh-Hant": "突然",
+      "ko": "갑자기",
+      "tl": "bigla",
+      "ne": "अचानक",
+      "id": "tiba-tiba",
+      "pt": "de repente",
+      "my": "ရုတ်တရက်",
+      "th": "ทันใด"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "引っぱる",
+     "reading": "ひっぱる",
+     "meanings": {
+      "vi": "kéo, giật",
+      "en": "to pull",
+      "zh-Hans": "拉",
+      "zh-Hant": "拉",
+      "ko": "잡아당기다",
+      "tl": "hilahin",
+      "ne": "तान्नु",
+      "id": "menarik",
+      "pt": "puxar",
+      "my": "ဆွဲ",
+      "th": "ดึง"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=166.6,172.54",
+   "t": [
+    166.6,
+    172.54
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「いたたた！何をするんですか！」",
+   "furigana": [
+    {
+     "surface": "「いたたた！",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "をするんですか！」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Ita tata! Nani o suru n desu ka!”",
+   "translations": {
+    "vi": "\"Á á á! Ông làm gì thế!\"",
+    "en": "\"Ow-ow-ow! What are you doing!\"",
+    "zh-Hans": "\"哎哟哟！你干什么！\"",
+    "zh-Hant": "\"哎喲喲！你幹什麼！\"",
+    "ko": "\"아야야! 뭐 하는 겁니까!\"",
+    "tl": "\"Aray-aray! Ano'ng ginagawa mo!\"",
+    "ne": "\"आइया! के गर्दै हुनुहुन्छ!\"",
+    "id": "\"Aduh-aduh! Apa yang Anda lakukan!\"",
+    "pt": "\"Ai-ai-ai! O que está fazendo!\"",
+    "my": "\"အား နာတယ်! ဘာလုပ်တာလဲ!\"",
+    "th": "\"โอ๊ยยย! ทำอะไรน่ะ!\""
+   },
+   "grammarNote": {
+    "vi": "「いたたた」 = á, đau quá (từ いたい). Người Nhật hay kêu thế khi bị đau đột ngột.",
+    "en": "いたたた = \"ouch\" (from いたい) — what Japanese say at sudden pain.",
+    "zh-Hans": "「いたたた」＝哎哟（来自いたい），日本人突然疼时常这样叫。",
+    "zh-Hant": "「いたたた」＝哎喲（來自いたい），日本人突然疼時常這樣叫。",
+    "ko": "「いたたた」= 아야야(いたい에서).",
+    "tl": "いたたた = \"aray\" (mula sa いたい).",
+    "ne": "「いたたた」= आइया (いたい बाट)।",
+    "id": "いたたた = \"aduh\" (dari いたい).",
+    "pt": "いたたた = \"ai\" (de いたい).",
+    "my": "「いたたた」= နာတယ် (いたい မှ)။",
+    "th": "「いたたた」= โอ๊ย (จาก いたい)"
+   },
+   "vocab": [],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=173.44,175.9",
+   "t": [
+    173.44,
+    175.9
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「失礼。かつらではないか、確かめたのです。前に、だまされたことがありましてね。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "失礼",
+     "reading": "しつれい"
+    },
+    {
+     "surface": "。かつらではないか、",
+     "reading": ""
+    },
+    {
+     "surface": "確",
+     "reading": "たし"
+    },
+    {
+     "surface": "かめたのです。",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "に、だまされたことがありましてね。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Shitsurei. Katsura de wanai ka, tashikameta no desu. Mae ni, damasareta koto ga arimashite ne.”",
+   "translations": {
+    "vi": "\"Xin lỗi. Tôi kiểm tra xem có phải tóc giả không. Trước đây tôi từng bị lừa.\"",
+    "en": "\"Pardon me. I was checking it wasn't a wig. I've been fooled before.\"",
+    "zh-Hans": "\"失礼了。我是确认一下是不是假发。以前被骗过。\"",
+    "zh-Hant": "\"失禮了。我是確認一下是不是假髮。以前被騙過。\"",
+    "ko": "\"실례했습니다. 가발이 아닌지 확인한 겁니다. 전에 속은 적이 있어서요.\"",
+    "tl": "\"Paumanhin. Sinuri ko lang kung peluka. Naloko na ako dati.\"",
+    "ne": "\"माफ गर्नुहोस्। नक्कली कपाल त होइन भनेर जाँचेको। पहिले ठगिएको थिएँ।\"",
+    "id": "\"Maaf. Saya memastikan ini bukan wig. Dulu saya pernah tertipu.\"",
+    "pt": "\"Desculpe. Verifiquei se não era peruca. Já fui enganado antes.\"",
+    "my": "\"ခွင့်လွှတ်ပါ။ ဆံပင်တု ဟုတ်မဟုတ် စစ်ကြည့်တာပါ။ အရင်က လှည့်စားခံဖူးလို့ပါ။\"",
+    "th": "\"ขออภัย ผมตรวจดูว่าเป็นวิกหรือเปล่า เคยถูกหลอกมาก่อน\""
+   },
+   "grammarNote": {
+    "vi": "「〜ではないか、確かめる」 = kiểm tra xem có phải… hay không. 「だまされる」 = bị lừa (bị động của だます). Người Nhật cũng hay nói 「失礼」 thay cho すみません khi làm phiền.",
+    "en": "〜ではないか、確かめる = \"check whether it isn't…\". だまされる = \"be fooled\" (passive of だます). 失礼 is also used like すみません.",
+    "zh-Hans": "「〜ではないか、確かめる」＝确认是不是……。「だまされる」＝被骗（だます的被动）。「失礼」也常代替すみません。",
+    "zh-Hant": "「〜ではないか、確かめる」＝確認是不是……。「だまされる」＝被騙（だます的被動）。「失禮」也常代替すみません。",
+    "ko": "「〜ではないか、確かめる」= …가 아닌지 확인하다. 「だまされる」= 속다.",
+    "tl": "〜ではないか、確かめる = \"suriin kung…\". だまされる = \"maloko\".",
+    "ne": "「〜ではないか、確かめる」= … त होइन भनी जाँच्नु। 「だまされる」= ठगिनु।",
+    "id": "〜ではないか、確かめる = \"memastikan apakah…\". だまされる = \"tertipu\".",
+    "pt": "〜ではないか、確かめる = \"verificar se não é…\". だまされる = \"ser enganado\".",
+    "my": "「だまされる」= လှည့်စားခံရ။",
+    "th": "「〜ではないか、確かめる」= ตรวจดูว่าใช่…หรือไม่ 「だまされる」= ถูกหลอก"
+   },
+   "vocab": [
+    {
+     "word": "かつら",
+     "reading": "かつら",
+     "meanings": {
+      "vi": "tóc giả",
+      "en": "wig",
+      "zh-Hans": "假发",
+      "zh-Hant": "假髮",
+      "ko": "가발",
+      "tl": "peluka",
+      "ne": "नक्कली कपाल",
+      "id": "wig",
+      "pt": "peruca",
+      "my": "ဆံပင်တု",
+      "th": "วิก"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "だます",
+     "reading": "だます",
+     "meanings": {
+      "vi": "lừa",
+      "en": "to deceive",
+      "zh-Hans": "欺骗",
+      "zh-Hant": "欺騙",
+      "ko": "속이다",
+      "tl": "lokohin",
+      "ne": "ठग्नु",
+      "id": "menipu",
+      "pt": "enganar",
+      "my": "လှည့်စား",
+      "th": "หลอก"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=176.8,183.79",
+   "t": [
+    176.8,
+    183.79
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「合格です。仕事は、毎日十時から二時まで、この事務所でしていただきます。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "合格",
+     "reading": "ごうかく"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    },
+    {
+     "surface": "仕事",
+     "reading": "しごと"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "毎日",
+     "reading": "まいにち"
+    },
+    {
+     "surface": "十時",
+     "reading": "じゅうじ"
+    },
+    {
+     "surface": "から",
+     "reading": ""
+    },
+    {
+     "surface": "二時",
+     "reading": "にじ"
+    },
+    {
+     "surface": "まで、この",
+     "reading": ""
+    },
+    {
+     "surface": "事務所",
+     "reading": "じむしょ"
+    },
+    {
+     "surface": "でしていただきます。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Goukaku desu. Shigoto wa, mainichi juuji kara niji made, kono jimusho deshite itadakimasu.”",
+   "translations": {
+    "vi": "\"Ông đạt rồi. Mỗi ngày ông sẽ làm việc ở văn phòng này từ 10 giờ đến 2 giờ.\"",
+    "en": "\"You're accepted. You will work in this office every day from ten to two.\"",
+    "zh-Hans": "\"您合格了。工作是每天十点到两点，在这间事务所做。\"",
+    "zh-Hant": "\"您合格了。工作是每天十點到兩點，在這間事務所做。\"",
+    "ko": "\"합격입니다. 일은 매일 10시부터 2시까지 이 사무소에서 해 주시면 됩니다.\"",
+    "tl": "\"Tanggap ka na. Magtatrabaho ka rito araw-araw mula alas-diyes hanggang alas-dos.\"",
+    "ne": "\"तपाईं उत्तीर्ण हुनुभयो। हरेक दिन १० देखि २ बजेसम्म यही कार्यालयमा काम गर्नुहुनेछ।\"",
+    "id": "\"Anda diterima. Anda bekerja di kantor ini setiap hari dari pukul sepuluh sampai dua.\"",
+    "pt": "\"Está aprovado. Trabalhará neste escritório todos os dias, das dez às duas.\"",
+    "my": "\"အောင်ပါပြီ။ နေ့တိုင်း ၁၀ နာရီမှ ၂ နာရီအထိ ဒီရုံးမှာ အလုပ်လုပ်ရပါမယ်။\"",
+    "th": "\"ผ่านครับ ทำงานทุกวันตั้งแต่สิบโมงถึงบ่ายสองโมงที่สำนักงานนี้\""
+   },
+   "grammarNote": {
+    "vi": "「AからBまで」 = từ A đến B. 「Vていただきます」 = (xin) ông làm V — cách giao việc lịch sự.",
+    "en": "AからBまで = \"from A to B\". Vていただきます = \"we will have you V\" — a polite way to assign work.",
+    "zh-Hans": "「AからBまで」＝从A到B。「Vていただきます」＝请您V（礼貌地分派工作）。",
+    "zh-Hant": "「AからBまで」＝從A到B。「Vていただきます」＝請您V（禮貌地分派工作）。",
+    "ko": "「AからBまで」= A부터 B까지. 「Vていただきます」= …해 주시게 됩니다.",
+    "tl": "AからBまで = \"mula A hanggang B\". Vていただきます = magalang na pag-uutos.",
+    "ne": "「AからBまで」= A देखि B सम्म। 「Vていただきます」= नम्र रूपमा काम दिनु।",
+    "id": "AからBまで = \"dari A sampai B\". Vていただきます = cara sopan memberi tugas.",
+    "pt": "AからBまで = \"de A até B\". Vていただきます = forma polida de designar.",
+    "my": "「AからBまで」= A မှ B အထိ။",
+    "th": "「AからBまで」= ตั้งแต่ A ถึง B 「Vていただきます」= ขอให้ท่าน V"
+   },
+   "vocab": [
+    {
+     "word": "合格",
+     "reading": "ごうかく",
+     "meanings": {
+      "vi": "đỗ, đạt",
+      "en": "passing, acceptance",
+      "zh-Hans": "合格",
+      "zh-Hant": "合格",
+      "ko": "합격",
+      "tl": "pasado, tanggap",
+      "ne": "उत्तीर्ण",
+      "id": "lulus, diterima",
+      "pt": "aprovado",
+      "my": "အောင်",
+      "th": "ผ่าน"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=184.39,190.94",
+   "t": [
+    184.39,
+    190.94
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「どんな仕事でしょうか。」",
+   "furigana": [
+    {
+     "surface": "「どんな",
+     "reading": ""
+    },
+    {
+     "surface": "仕事",
+     "reading": "しごと"
+    },
+    {
+     "surface": "でしょうか。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Donna shigoto deshou ka.”",
+   "translations": {
+    "vi": "\"Là việc gì vậy ạ?\"",
+    "en": "\"What sort of work would it be?\"",
+    "zh-Hans": "\"是什么样的工作呢？\"",
+    "zh-Hant": "\"是什麼樣的工作呢？\"",
+    "ko": "\"어떤 일입니까?\"",
+    "tl": "\"Anong klaseng trabaho po?\"",
+    "ne": "\"कस्तो काम हो?\"",
+    "id": "\"Pekerjaan seperti apa?\"",
+    "pt": "\"Que tipo de trabalho seria?\"",
+    "my": "\"ဘယ်လို အလုပ်လဲ ခင်ဗျ။\"",
+    "th": "\"เป็นงานแบบไหนครับ\""
+   },
+   "grammarNote": {
+    "vi": "「どんな〜」 = … như thế nào, loại gì. 「〜でしょうか」 = hỏi lịch sự.",
+    "en": "どんな〜 = \"what kind of…\". 〜でしょうか = a polite question.",
+    "zh-Hans": "「どんな〜」＝什么样的。「〜でしょうか」＝礼貌提问。",
+    "zh-Hant": "「どんな〜」＝什麼樣的。「〜でしょうか」＝禮貌提問。",
+    "ko": "「どんな〜」= 어떤. 「〜でしょうか」= 정중한 질문.",
+    "tl": "どんな〜 = \"anong klase\". 〜でしょうか = magalang na tanong.",
+    "ne": "「どんな〜」= कस्तो।",
+    "id": "どんな〜 = \"seperti apa\".",
+    "pt": "どんな〜 = \"que tipo de\".",
+    "my": "「どんな〜」= ဘယ်လို။",
+    "th": "「どんな〜」= แบบไหน"
+   },
+   "vocab": [],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=191.84,193.64",
+   "t": [
+    191.84,
+    193.64
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「百科事典を、最初のページから書き写すことです。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "百科事典",
+     "reading": "ひゃっかじてん"
+    },
+    {
+     "surface": "を、",
+     "reading": ""
+    },
+    {
+     "surface": "最初",
+     "reading": "さいしょ"
+    },
+    {
+     "surface": "のページから",
+     "reading": ""
+    },
+    {
+     "surface": "書",
+     "reading": "か"
+    },
+    {
+     "surface": "き",
+     "reading": ""
+    },
+    {
+     "surface": "写",
+     "reading": "うつ"
+    },
+    {
+     "surface": "すことです。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Hyakkajiten o, saisho no peeji kara kakiutsusu koto desu.”",
+   "translations": {
+    "vi": "\"Là chép lại bộ bách khoa toàn thư, bắt đầu từ trang đầu tiên.\"",
+    "en": "\"Copying out the Encyclopaedia, starting from the first page.\"",
+    "zh-Hans": "\"就是从第一页开始抄写百科全书。\"",
+    "zh-Hant": "\"就是從第一頁開始抄寫百科全書。\"",
+    "ko": "\"백과사전을 첫 페이지부터 베껴 쓰는 일입니다.\"",
+    "tl": "\"Kopyahin ang ensiklopedya mula sa unang pahina.\"",
+    "ne": "\"विश्वकोशलाई पहिलो पानादेखि सार्नु।\"",
+    "id": "\"Menyalin ensiklopedia mulai dari halaman pertama.\"",
+    "pt": "\"Copiar a Enciclopédia, a partir da primeira página.\"",
+    "my": "\"စွယ်စုံကျမ်းကို ပထမ စာမျက်နှာကနေ ကူးရေးရမှာပါ။\"",
+    "th": "\"คัดลอกสารานุกรมตั้งแต่หน้าแรกครับ\""
+   },
+   "grammarNote": {
+    "vi": "「書き写す」 = chép lại (書く + 写す). 「Vことです」 = (công việc) là việc V. Công việc vô nghĩa — rõ ràng có gì đó mờ ám!",
+    "en": "書き写す = \"copy out\" (書く + 写す). Vことです = \"it is V-ing\". Pointless work — clearly something fishy!",
+    "zh-Hans": "「書き写す」＝抄写。「Vことです」＝就是做V这件事。毫无意义的工作——显然有猫腻！",
+    "zh-Hant": "「書き寫す」＝抄寫。「Vことです」＝就是做V這件事。毫無意義的工作——顯然有貓膩！",
+    "ko": "「書き写す」= 베껴 쓰다. 「Vことです」= V하는 것입니다. 무의미한 일 — 수상하다!",
+    "tl": "書き写す = \"kopyahin\". Walang saysay na trabaho — kahina-hinala!",
+    "ne": "「書き写す」= सारेर लेख्नु। अर्थहीन काम — शङ्कास्पद!",
+    "id": "書き写す = \"menyalin\". Kerja tak berguna — mencurigakan!",
+    "pt": "書き写す = \"copiar\". Trabalho sem sentido — suspeito!",
+    "my": "「書き写す」= ကူးရေး။ အဓိပ္ပာယ်မဲ့ အလုပ် — သံသယဖြစ်စရာ!",
+    "th": "「書き写す」= คัดลอก งานไร้ประโยชน์ — มีพิรุธแน่!"
+   },
+   "vocab": [
+    {
+     "word": "百科事典",
+     "reading": "ひゃっかじてん",
+     "meanings": {
+      "vi": "bách khoa toàn thư",
+      "en": "encyclopedia",
+      "zh-Hans": "百科全书",
+      "zh-Hant": "百科全書",
+      "ko": "백과사전",
+      "tl": "ensiklopedya",
+      "ne": "विश्वकोश",
+      "id": "ensiklopedia",
+      "pt": "enciclopédia",
+      "my": "စွယ်စုံကျမ်း",
+      "th": "สารานุกรม"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "書き写す",
+     "reading": "かきうつす",
+     "meanings": {
+      "vi": "chép lại",
+      "en": "to copy out",
+      "zh-Hans": "抄写",
+      "zh-Hant": "抄寫",
+      "ko": "베껴 쓰다",
+      "tl": "kopyahin",
+      "ne": "सारेर लेख्नु",
+      "id": "menyalin",
+      "pt": "copiar",
+      "my": "ကူးရေး",
+      "th": "คัดลอก"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=194.54,198.63",
+   "t": [
+    194.54,
+    198.63
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「ただし、一つだけ決まりがあります。仕事の間は、一歩も事務所から出てはいけません。」",
+   "furigana": [
+    {
+     "surface": "「ただし、",
+     "reading": ""
+    },
+    {
+     "surface": "一",
+     "reading": "ひと"
+    },
+    {
+     "surface": "つだけ",
+     "reading": ""
+    },
+    {
+     "surface": "決",
+     "reading": "き"
+    },
+    {
+     "surface": "まりがあります。",
+     "reading": ""
+    },
+    {
+     "surface": "仕事",
+     "reading": "しごと"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "間",
+     "reading": "あいだ"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "一歩",
+     "reading": "いっぽ"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "事務所",
+     "reading": "じむしょ"
+    },
+    {
+     "surface": "から",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "で"
+    },
+    {
+     "surface": "てはいけません。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Tadashi, hitotsu dake kimari ga arimasu. Shigoto no aida wa, ippo mo jimusho kara dete wa ikemasen.”",
+   "translations": {
+    "vi": "\"Tuy nhiên, có đúng một quy định. Trong giờ làm việc, ông không được bước ra khỏi văn phòng dù chỉ một bước.\"",
+    "en": "\"There is just one rule, however. During working hours, you must not take a single step outside the office.\"",
+    "zh-Hans": "\"不过，只有一条规定。工作期间，一步也不许离开事务所。\"",
+    "zh-Hant": "\"不過，只有一條規定。工作期間，一步也不許離開事務所。\"",
+    "ko": "\"다만 규칙이 하나 있습니다. 일하는 동안에는 사무소에서 한 발짝도 나가면 안 됩니다.\"",
+    "tl": "\"Ngunit may isang patakaran. Habang nagtatrabaho, hindi ka maaaring lumabas ng opisina kahit isang hakbang.\"",
+    "ne": "\"तर एउटा नियम छ। कामको समयमा कार्यालयबाट एक पाइला पनि बाहिर जानु हुँदैन।\"",
+    "id": "\"Namun ada satu aturan. Selama bekerja, Anda tidak boleh keluar kantor selangkah pun.\"",
+    "pt": "\"Porém, há uma única regra. Durante o trabalho, não pode dar um passo fora do escritório.\"",
+    "my": "\"ဒါပေမဲ့ စည်းကမ်း တစ်ခု ရှိတယ်။ အလုပ်ချိန်အတွင်း ရုံးကနေ ခြေတစ်လှမ်းမှ ထွက်လို့ မရဘူး။\"",
+    "th": "\"แต่มีกฎอยู่ข้อเดียว ระหว่างทำงาน ห้ามออกจากสำนักงานแม้แต่ก้าวเดียว\""
+   },
+   "grammarNote": {
+    "vi": "「〜の間」 = trong lúc…. 「一歩も〜ない」 = không… dù một bước. Đây là chìa khóa của vụ án!",
+    "en": "〜の間 = \"during…\". 一歩も〜ない = \"not even one step\". This is the key to the case!",
+    "zh-Hans": "「〜の間」＝……期间。「一歩も〜ない」＝一步也不……。这是案件的关键！",
+    "zh-Hant": "「〜の間」＝……期間。「一歩も〜ない」＝一步也不……。這是案件的關鍵！",
+    "ko": "「〜の間」= …동안. 「一歩も〜ない」= 한 발짝도 …않다. 사건의 열쇠!",
+    "tl": "〜の間 = \"habang…\". 一歩も〜ない = \"kahit isang hakbang\". Susi ng kaso!",
+    "ne": "「〜の間」= … को बेला। 「一歩も〜ない」= एक पाइला पनि …न। मुद्दाको साँचो!",
+    "id": "〜の間 = \"selama…\". 一歩も〜ない = \"selangkah pun tidak\". Kunci kasus!",
+    "pt": "〜の間 = \"durante…\". 一歩も〜ない = \"nem um passo\". A chave do caso!",
+    "my": "「〜の間」= … အတွင်း။ 「一歩も〜ない」= ခြေတစ်လှမ်းမှ မ…။ အမှု၏ သော့!",
+    "th": "「〜の間」= ระหว่าง… 「一歩も〜ない」= แม้แต่ก้าวเดียวก็ไม่ กุญแจของคดี!"
+   },
+   "vocab": [
+    {
+     "word": "決まり",
+     "reading": "きまり",
+     "meanings": {
+      "vi": "quy định",
+      "en": "rule",
+      "zh-Hans": "规定",
+      "zh-Hant": "規定",
+      "ko": "규칙",
+      "tl": "patakaran",
+      "ne": "नियम",
+      "id": "aturan",
+      "pt": "regra",
+      "my": "စည်းကမ်း",
+      "th": "กฎ"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "一歩",
+     "reading": "いっぽ",
+     "meanings": {
+      "vi": "một bước",
+      "en": "one step",
+      "zh-Hans": "一步",
+      "zh-Hant": "一步",
+      "ko": "한 걸음",
+      "tl": "isang hakbang",
+      "ne": "एक पाइला",
+      "id": "selangkah",
+      "pt": "um passo",
+      "my": "ခြေတစ်လှမ်း",
+      "th": "ก้าวเดียว"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=199.23,206.52",
+   "t": [
+    199.23,
+    206.52
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「一度でも外へ出たら、その時点で、仕事はなくなります。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "一度",
+     "reading": "いちど"
+    },
+    {
+     "surface": "でも",
+     "reading": ""
+    },
+    {
+     "surface": "外",
+     "reading": "そと"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "で"
+    },
+    {
+     "surface": "たら、その",
+     "reading": ""
+    },
+    {
+     "surface": "時点",
+     "reading": "じてん"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "仕事",
+     "reading": "しごと"
+    },
+    {
+     "surface": "はなくなります。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Ichido demo soto e detara, sono jiten de, shigoto wa nakunarimasu.”",
+   "translations": {
+    "vi": "\"Chỉ cần ra ngoài một lần thôi, ngay lúc đó ông sẽ mất việc.\"",
+    "en": "\"If you go out even once, you lose the position at that moment.\"",
+    "zh-Hans": "\"哪怕出去一次，当时就会失去这份工作。\"",
+    "zh-Hant": "\"哪怕出去一次，當時就會失去這份工作。\"",
+    "ko": "\"한 번이라도 밖에 나가면 그 시점에서 일은 없어집니다.\"",
+    "tl": "\"Kahit minsan lang lumabas, mawawala agad ang trabaho mo.\"",
+    "ne": "\"एक पटक मात्र बाहिर गए पनि त्यही बेला जागिर जान्छ।\"",
+    "id": "\"Sekali saja keluar, saat itu juga pekerjaan hilang.\"",
+    "pt": "\"Se sair uma vez que seja, perde o emprego na hora.\"",
+    "my": "\"တစ်ခါပဲ အပြင်ထွက်ရင်တောင် အဲဒီအချိန်မှာ အလုပ် ပြုတ်မယ်။\"",
+    "th": "\"ถ้าออกไปข้างนอกแม้แต่ครั้งเดียว ก็จะหมดงานทันที\""
+   },
+   "grammarNote": {
+    "vi": "「Vたら」 = nếu V. 「時点」 = thời điểm. 「なくなる」 = mất đi, không còn.",
+    "en": "Vたら = \"if V\". 時点 = \"point in time\". なくなる = \"be lost, disappear\".",
+    "zh-Hans": "「Vたら」＝如果V。「時点」＝时间点。「なくなる」＝没了。",
+    "zh-Hant": "「Vたら」＝如果V。「時點」＝時間點。「なくなる」＝沒了。",
+    "ko": "「Vたら」= V하면. 「時点」= 시점. 「なくなる」= 없어지다.",
+    "tl": "Vたら = \"kung V\". 時点 = \"sandali\". なくなる = \"mawala\".",
+    "ne": "「Vたら」= V भयो भने। 「時点」= समय बिन्दु। 「なくなる」= गुम्नु।",
+    "id": "Vたら = \"jika V\". 時点 = \"saat\". なくなる = \"hilang\".",
+    "pt": "Vたら = \"se V\". 時点 = \"momento\". なくなる = \"perder-se\".",
+    "my": "「Vたら」= V ရင်။ 「時点」= အချိန်။ 「なくなる」= ပျောက်။",
+    "th": "「Vたら」= ถ้า V 「時点」= ขณะ 「なくなる」= หมดไป"
+   },
+   "vocab": [
+    {
+     "word": "時点",
+     "reading": "じてん",
+     "meanings": {
+      "vi": "thời điểm",
+      "en": "point in time",
+      "zh-Hans": "时间点",
+      "zh-Hant": "時間點",
+      "ko": "시점",
+      "tl": "sandali",
+      "ne": "समय बिन्दु",
+      "id": "saat",
+      "pt": "momento",
+      "my": "အချိန်ကာလ",
+      "th": "ณ ขณะ"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=207.12,211.86",
+   "t": [
+    207.12,
+    211.86
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "質屋の仕事は、午前中はひまだった。店はスポールディングに任せればいい。",
+   "furigana": [
+    {
+     "surface": "質屋",
+     "reading": "しちや"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "仕事",
+     "reading": "しごと"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "午前",
+     "reading": "ごぜん"
+    },
+    {
+     "surface": "中",
+     "reading": "ちゅう"
+    },
+    {
+     "surface": "はひまだった。",
+     "reading": ""
+    },
+    {
+     "surface": "店",
+     "reading": "みせ"
+    },
+    {
+     "surface": "はスポールディングに",
+     "reading": ""
+    },
+    {
+     "surface": "任",
+     "reading": "まか"
+    },
+    {
+     "surface": "せればいい。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shichiya no shigoto wa, gozenchuu wa hima datta. Mise wa supoorudeingu ni makasereba ii.",
+   "translations": {
+    "vi": "Buổi sáng tiệm cầm đồ vốn vắng khách. Tiệm cứ giao cho Spaulding là được.",
+    "en": "The pawnshop was quiet in the mornings anyway. He could leave the shop to Spaulding.",
+    "zh-Hans": "当铺上午本来就清闲，店交给斯波尔丁就行了。",
+    "zh-Hant": "當鋪上午本來就清閒，店交給斯波爾丁就行了。",
+    "ko": "전당포 일은 오전에는 한가했다. 가게는 스폴딩에게 맡기면 된다.",
+    "tl": "Tahimik naman ang sanglaan tuwing umaga. Maaaring iwan kay Spaulding ang tindahan.",
+    "ne": "धितो पसल बिहान फुर्सदिलो हुन्थ्यो। पसल स्पाल्डिङलाई जिम्मा दिए हुन्थ्यो।",
+    "id": "Rumah gadai memang sepi di pagi hari. Toko bisa diserahkan pada Spaulding.",
+    "pt": "A loja de penhores era tranquila pela manhã. Podia deixá-la com Spaulding.",
+    "my": "အပေါင်ဆိုင် အလုပ်က နံနက်ပိုင်း အားတယ်။ ဆိုင်ကို စပေါ့ဒင်း လက်ထဲ အပ်ထားရင် ရတယ်။",
+    "th": "งานโรงรับจำนำช่วงเช้าว่างอยู่แล้ว ร้านก็ฝากสปอลดิงไว้ได้"
+   },
+   "grammarNote": {
+    "vi": "「〜中」 (ちゅう) = trong suốt (午前中 = cả buổi sáng). 「ひま」 = rảnh. 「Vばいい」 = cứ V là được.",
+    "en": "〜中 (ちゅう) = \"throughout\" (午前中 = all morning). ひま = \"free, not busy\". Vばいい = \"just V and it's fine\".",
+    "zh-Hans": "「〜中」＝整个……期间（午前中＝整个上午）。「ひま」＝闲。「Vばいい」＝V就行。",
+    "zh-Hant": "「〜中」＝整個……期間（午前中＝整個上午）。「ひま」＝閒。「Vばいい」＝V就行。",
+    "ko": "「午前中」= 오전 중. 「ひま」= 한가함. 「Vばいい」= V하면 된다.",
+    "tl": "午前中 = \"buong umaga\". ひま = \"walang ginagawa\". Vばいい = \"V na lang\".",
+    "ne": "「午前中」= बिहानभरि। 「ひま」= फुर्सद। 「Vばいい」= V गरे हुन्छ।",
+    "id": "午前中 = \"sepanjang pagi\". ひま = \"senggang\". Vばいい = \"cukup V\".",
+    "pt": "午前中 = \"durante a manhã\". ひま = \"livre\". Vばいい = \"basta V\".",
+    "my": "「午前中」= နံနက်ပိုင်း။ 「ひま」= အား။ 「Vばいい」= V ရင် ရပြီ။",
+    "th": "「午前中」= ช่วงเช้า 「ひま」= ว่าง 「Vばいい」= แค่ V ก็พอ"
+   },
+   "vocab": [
+    {
+     "word": "午前",
+     "reading": "ごぜん",
+     "meanings": {
+      "vi": "buổi sáng",
+      "en": "morning, a.m.",
+      "zh-Hans": "上午",
+      "zh-Hant": "上午",
+      "ko": "오전",
+      "tl": "umaga",
+      "ne": "बिहान",
+      "id": "pagi",
+      "pt": "manhã",
+      "my": "နံနက်",
+      "th": "ช่วงเช้า"
+     },
+     "level": "N5"
+    },
+    {
+     "word": "ひま",
+     "reading": "ひま",
+     "meanings": {
+      "vi": "rảnh rỗi",
+      "en": "free time, not busy",
+      "zh-Hans": "闲",
+      "zh-Hant": "閒",
+      "ko": "한가함",
+      "tl": "libreng oras",
+      "ne": "फुर्सद",
+      "id": "senggang",
+      "pt": "tempo livre",
+      "my": "အား",
+      "th": "ว่าง"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=212.76,220.06",
+   "t": [
+    212.76,
+    220.06
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ウィルソン氏は、喜んでこの仕事を引き受けた。",
+   "furigana": [
+    {
+     "surface": "ウィルソン",
+     "reading": ""
+    },
+    {
+     "surface": "氏",
+     "reading": "し"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "喜",
+     "reading": "よろこ"
+    },
+    {
+     "surface": "んでこの",
+     "reading": ""
+    },
+    {
+     "surface": "仕事",
+     "reading": "しごと"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "引",
+     "reading": "ひ"
+    },
+    {
+     "surface": "き",
+     "reading": ""
+    },
+    {
+     "surface": "受",
+     "reading": "う"
+    },
+    {
+     "surface": "けた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Uirusonshi wa, yorokonde kono shigoto o hikiuketa.",
+   "translations": {
+    "vi": "Ông Wilson vui vẻ nhận lời làm công việc này.",
+    "en": "Mr. Wilson gladly accepted the job.",
+    "zh-Hans": "威尔逊先生高兴地接下了这份工作。",
+    "zh-Hant": "威爾遜先生高興地接下了這份工作。",
+    "ko": "윌슨 씨는 기꺼이 이 일을 맡았다.",
+    "tl": "Masayang tinanggap ni G. Wilson ang trabaho.",
+    "ne": "विल्सनले खुसीसाथ यो काम स्वीकारे।",
+    "id": "Tuan Wilson dengan senang hati menerima pekerjaan ini.",
+    "pt": "O Sr. Wilson aceitou o trabalho com prazer.",
+    "my": "မစ္စတာ ဝီလ်ဆင် ဝမ်းသာစွာ ဤအလုပ်ကို လက်ခံသည်။",
+    "th": "คุณวิลสันรับงานนี้อย่างยินดี"
+   },
+   "grammarNote": {
+    "vi": "「喜んで」 = vui vẻ, sẵn lòng (cũng là câu trả lời \"Rất sẵn lòng!\"). 「引き受ける」 = nhận lời (làm việc gì).",
+    "en": "喜んで = \"gladly\" (also a reply: \"With pleasure!\"). 引き受ける = \"take on (a task)\".",
+    "zh-Hans": "「喜んで」＝高兴地（也作回答\"乐意！\"）。「引き受ける」＝接受（任务）。",
+    "zh-Hant": "「喜んで」＝高興地（也作回答\"樂意！\"）。「引き受ける」＝接受（任務）。",
+    "ko": "「喜んで」= 기꺼이. 「引き受ける」= 맡다.",
+    "tl": "喜んで = \"masaya, buong-puso\". 引き受ける = \"tanggapin\".",
+    "ne": "「喜んで」= खुसीसाथ। 「引き受ける」= स्वीकार्नु।",
+    "id": "喜んで = \"dengan senang hati\". 引き受ける = \"menerima\".",
+    "pt": "喜んで = \"com prazer\". 引き受ける = \"aceitar\".",
+    "my": "「喜んで」= ဝမ်းသာစွာ။ 「引き受ける」= လက်ခံ။",
+    "th": "「喜んで」= ด้วยความยินดี 「引き受ける」= รับ (งาน)"
+   },
+   "vocab": [
+    {
+     "word": "引き受ける",
+     "reading": "ひきうける",
+     "meanings": {
+      "vi": "nhận lời làm",
+      "en": "to take on",
+      "zh-Hans": "接受",
+      "zh-Hant": "接受",
+      "ko": "맡다",
+      "tl": "tanggapin",
+      "ne": "स्वीकार्नु",
+      "id": "menerima (tugas)",
+      "pt": "aceitar",
+      "my": "လက်ခံ",
+      "th": "รับไว้"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=220.66,224.85",
+   "t": [
+    220.66,
+    224.85
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "次の日から、ウィルソン氏は毎朝インクとペンを持って、事務所へ通った。",
+   "furigana": [
+    {
+     "surface": "次",
+     "reading": "つぎ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "から、ウィルソン",
+     "reading": ""
+    },
+    {
+     "surface": "氏",
+     "reading": "し"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "毎朝",
+     "reading": "まいあさ"
+    },
+    {
+     "surface": "インクとペンを",
+     "reading": ""
+    },
+    {
+     "surface": "持",
+     "reading": "も"
+    },
+    {
+     "surface": "って、",
+     "reading": ""
+    },
+    {
+     "surface": "事務所",
+     "reading": "じむしょ"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "通",
+     "reading": "とお"
+    },
+    {
+     "surface": "った。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tsugi no hi kara, uirusonshi wa maiasa inku to pen o motte, jimusho e tootta.",
+   "translations": {
+    "vi": "Từ hôm sau, mỗi sáng ông Wilson mang mực và bút đến văn phòng.",
+    "en": "From the next day on, every morning Mr. Wilson took ink and a pen to the office.",
+    "zh-Hans": "从第二天起，威尔逊先生每天早上带着墨水和笔去事务所。",
+    "zh-Hant": "從第二天起，威爾遜先生每天早上帶著墨水和筆去事務所。",
+    "ko": "다음 날부터 윌슨 씨는 매일 아침 잉크와 펜을 들고 사무소에 다녔다.",
+    "tl": "Mula kinabukasan, tuwing umaga ay nagdadala si G. Wilson ng tinta at pluma sa opisina.",
+    "ne": "भोलिपल्टदेखि विल्सन हरेक बिहान मसी र कलम लिएर कार्यालय जान थाले।",
+    "id": "Sejak hari berikutnya, setiap pagi Tuan Wilson membawa tinta dan pena ke kantor.",
+    "pt": "A partir do dia seguinte, todas as manhãs o Sr. Wilson levava tinta e caneta ao escritório.",
+    "my": "နောက်နေ့မှစ၍ မစ္စတာ ဝီလ်ဆင်သည် နံနက်တိုင်း မင်နှင့် ကလောင်ကို ယူကာ ရုံးသို့ သွားသည်။",
+    "th": "ตั้งแต่วันรุ่งขึ้น ทุกเช้าคุณวิลสันถือหมึกและปากกาไปสำนักงาน"
+   },
+   "grammarNote": {
+    "vi": "「次の日から」 = từ hôm sau trở đi. 「通う」 = đi đi về về đều đặn (đi làm, đi học).",
+    "en": "次の日から = \"from the next day on\". 通う = \"go regularly, commute\".",
+    "zh-Hans": "「次の日から」＝从第二天起。「通う」＝定期往返（上班、上学）。",
+    "zh-Hant": "「次の日から」＝從第二天起。「通う」＝定期往返（上班、上學）。",
+    "ko": "「次の日から」= 다음 날부터. 「通う」= 다니다.",
+    "tl": "次の日から = \"mula kinabukasan\". 通う = \"pumapasok nang regular\".",
+    "ne": "「次の日から」= भोलिपल्टदेखि। 「通う」= नियमित जानु।",
+    "id": "次の日から = \"sejak hari berikutnya\". 通う = \"pergi rutin\".",
+    "pt": "次の日から = \"a partir do dia seguinte\". 通う = \"frequentar\".",
+    "my": "「通う」= ပုံမှန် သွား။",
+    "th": "「次の日から」= ตั้งแต่วันรุ่งขึ้น 「通う」= ไปเป็นประจำ"
+   },
+   "vocab": [
+    {
+     "word": "通う",
+     "reading": "かよう",
+     "meanings": {
+      "vi": "đi lại đều đặn",
+      "en": "to commute, attend",
+      "zh-Hans": "往返，上（班/学）",
+      "zh-Hant": "往返，上（班/學）",
+      "ko": "다니다",
+      "tl": "pumasok nang regular",
+      "ne": "नियमित जानु",
+      "id": "pergi rutin",
+      "pt": "frequentar",
+      "my": "ပုံမှန်သွား",
+      "th": "ไปเป็นประจำ"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=225.45,232.25",
+   "t": [
+    225.45,
+    232.25
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ロスは、時々様子を見に来るだけだった。",
+   "furigana": [
+    {
+     "surface": "ロスは、",
+     "reading": ""
+    },
+    {
+     "surface": "時々",
+     "reading": "ときどき"
+    },
+    {
+     "surface": "様子",
+     "reading": "ようす"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "く"
+    },
+    {
+     "surface": "るだけだった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Rosu wa, tokidoki yousu o mi ni kuru dake datta.",
+   "translations": {
+    "vi": "Ross thỉnh thoảng chỉ ghé qua xem tình hình.",
+    "en": "Ross only dropped in now and then to see how things were going.",
+    "zh-Hans": "罗斯只是偶尔来看看情况。",
+    "zh-Hant": "羅斯只是偶爾來看看情況。",
+    "ko": "로스는 가끔 상황을 보러 올 뿐이었다.",
+    "tl": "Paminsan-minsan lang dumadaan si Ross para tingnan ang kalagayan.",
+    "ne": "रस कहिलेकाहीँ अवस्था हेर्न मात्र आउँथे।",
+    "id": "Ross hanya sesekali datang untuk melihat keadaan.",
+    "pt": "Ross só aparecia de vez em quando para ver como iam as coisas.",
+    "my": "ရော့စ်သည် ရံဖန်ရံခါ အခြေအနေ ကြည့်ရန်သာ လာသည်။",
+    "th": "รอสแค่แวะมาดูความเรียบร้อยเป็นครั้งคราว"
+   },
+   "grammarNote": {
+    "vi": "「Vに来る」 = đến để V (mục đích). 「〜だけ」 = chỉ…. 「様子」 = tình hình, dáng vẻ.",
+    "en": "Vに来る = \"come to V\" (purpose). 〜だけ = \"only\". 様子 = \"state of things\".",
+    "zh-Hans": "「Vに来る」＝来做V（目的）。「〜だけ」＝只。「様子」＝情况。",
+    "zh-Hant": "「Vに來る」＝來做V（目的）。「〜だけ」＝只。「様子」＝情況。",
+    "ko": "「Vに来る」= V하러 오다. 「〜だけ」= …뿐. 「様子」= 상황.",
+    "tl": "Vに来る = \"pumunta para V\". 〜だけ = \"lamang\". 様子 = \"kalagayan\".",
+    "ne": "「Vに来る」= V गर्न आउनु। 「〜だけ」= मात्र। 「様子」= अवस्था।",
+    "id": "Vに来る = \"datang untuk V\". 〜だけ = \"hanya\". 様子 = \"keadaan\".",
+    "pt": "Vに来る = \"vir para V\". 〜だけ = \"só\". 様子 = \"situação\".",
+    "my": "「Vに来る」= V ရန် လာ။ 「様子」= အခြေအနေ။",
+    "th": "「Vに来る」= มาเพื่อ V 「〜だけ」= เท่านั้น 「様子」= สภาพ"
+   },
+   "vocab": [
+    {
+     "word": "時々",
+     "reading": "ときどき",
+     "meanings": {
+      "vi": "thỉnh thoảng",
+      "en": "sometimes",
+      "zh-Hans": "有时",
+      "zh-Hant": "有時",
+      "ko": "가끔",
+      "tl": "paminsan-minsan",
+      "ne": "कहिलेकाहीँ",
+      "id": "kadang-kadang",
+      "pt": "às vezes",
+      "my": "ရံဖန်ရံခါ",
+      "th": "บางครั้ง"
+     },
+     "level": "N5"
+    },
+    {
+     "word": "様子",
+     "reading": "ようす",
+     "meanings": {
+      "vi": "tình hình, dáng vẻ",
+      "en": "state, appearance",
+      "zh-Hans": "情况",
+      "zh-Hant": "情況",
+      "ko": "상황, 모습",
+      "tl": "kalagayan",
+      "ne": "अवस्था",
+      "id": "keadaan",
+      "pt": "situação",
+      "my": "အခြေအနေ",
+      "th": "สภาพ"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=232.85,236.69",
+   "t": [
+    232.85,
+    236.69
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "土曜日になると、約束どおり四ポンドの金貨が机の上に置かれた。",
+   "furigana": [
+    {
+     "surface": "土曜日",
+     "reading": "どようび"
+    },
+    {
+     "surface": "になると、",
+     "reading": ""
+    },
+    {
+     "surface": "約束",
+     "reading": "やくそく"
+    },
+    {
+     "surface": "どおり",
+     "reading": ""
+    },
+    {
+     "surface": "四",
+     "reading": "よん"
+    },
+    {
+     "surface": "ポンドの",
+     "reading": ""
+    },
+    {
+     "surface": "金貨",
+     "reading": "きんか"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "机",
+     "reading": "つくえ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "上",
+     "reading": "うえ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "置",
+     "reading": "お"
+    },
+    {
+     "surface": "かれた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Doyoubi ni naru to, yakusokudoori yonpondo no kinka ga tsukue no ue ni okareta.",
+   "translations": {
+    "vi": "Đến thứ Bảy, đúng như đã hứa, bốn đồng bảng vàng được đặt trên bàn.",
+    "en": "On Saturdays, as promised, four gold sovereigns were placed on the desk.",
+    "zh-Hans": "一到星期六，四英镑金币就按约定放在了桌上。",
+    "zh-Hant": "一到星期六，四英鎊金幣就按約定放在了桌上。",
+    "ko": "토요일이 되면 약속대로 4파운드 금화가 책상 위에 놓였다.",
+    "tl": "Tuwing Sabado, gaya ng ipinangako, inilalagay sa mesa ang apat na gintong libra.",
+    "ne": "शनिबार भएपछि वाचाअनुसार चार पाउन्डको सुनको सिक्का टेबलमा राखिन्थ्यो।",
+    "id": "Setiap Sabtu, sesuai janji, empat pound koin emas diletakkan di meja.",
+    "pt": "Aos sábados, como prometido, quatro libras em ouro eram postas na mesa.",
+    "my": "စနေနေ့ ရောက်လျှင် ကတိအတိုင်း လေးပေါင် ရွှေဒင်္ဂါး စားပွဲပေါ်တွင် ချထားသည်။",
+    "th": "พอถึงวันเสาร์ เหรียญทองสี่ปอนด์ก็ถูกวางบนโต๊ะตามสัญญา"
+   },
+   "grammarNote": {
+    "vi": "「〜になると」 = hễ đến…. 「〜どおり」 = đúng như… (約束どおり = đúng như đã hứa). 「置かれた」 = bị động của 置く.",
+    "en": "〜になると = \"whenever it became…\". 〜どおり = \"just as…\" (約束どおり = \"as promised\"). 置かれた = passive of 置く.",
+    "zh-Hans": "「〜になると」＝一到……。「〜どおり」＝按照……（約束どおり＝按约定）。「置かれた」＝置く的被动。",
+    "zh-Hant": "「〜になると」＝一到……。「〜どおり」＝按照……（約束どおり＝按約定）。「置かれた」＝置く的被動。",
+    "ko": "「〜になると」= …이 되면. 「〜どおり」= …대로. 「置かれた」= 놓였다.",
+    "tl": "〜になると = \"kapag…\". 〜どおり = \"ayon sa…\". 置かれた = passive ng 置く.",
+    "ne": "「〜になると」= … भएपछि। 「〜どおり」= … अनुसार। 「置かれた」= राखियो।",
+    "id": "〜になると = \"setiap kali…\". 〜どおり = \"sesuai…\". 置かれた = pasif 置く.",
+    "pt": "〜になると = \"quando chegava…\". 〜どおり = \"conforme…\". 置かれた = passiva de 置く.",
+    "my": "「〜どおり」= … အတိုင်း။ 「置かれた」= ချထား ခံရ။",
+    "th": "「〜になると」= พอถึง… 「〜どおり」= ตาม… 「置かれた」= ถูกวาง"
+   },
+   "vocab": [
+    {
+     "word": "約束",
+     "reading": "やくそく",
+     "meanings": {
+      "vi": "lời hứa",
+      "en": "promise",
+      "zh-Hans": "约定",
+      "zh-Hant": "約定",
+      "ko": "약속",
+      "tl": "pangako",
+      "ne": "वाचा",
+      "id": "janji",
+      "pt": "promessa",
+      "my": "ကတိ",
+      "th": "สัญญา"
+     },
+     "level": "N4"
+    },
+    {
+     "word": "どおり",
+     "reading": "どおり",
+     "meanings": {
+      "vi": "đúng như",
+      "en": "as, in accordance with",
+      "zh-Hans": "按照",
+      "zh-Hant": "按照",
+      "ko": "대로",
+      "tl": "ayon sa",
+      "ne": "अनुसार",
+      "id": "sesuai",
+      "pt": "conforme",
+      "my": "အတိုင်း",
+      "th": "ตาม"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "金貨",
+     "reading": "きんか",
+     "meanings": {
+      "vi": "đồng tiền vàng",
+      "en": "gold coin",
+      "zh-Hans": "金币",
+      "zh-Hant": "金幣",
+      "ko": "금화",
+      "tl": "gintong barya",
+      "ne": "सुनको सिक्का",
+      "id": "koin emas",
+      "pt": "moeda de ouro",
+      "my": "ရွှေဒင်္ဂါး",
+      "th": "เหรียญทอง"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=237.29,243.13",
+   "t": [
+    237.29,
+    243.13
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "こうして、八週間が過ぎた。百科事典は「A」の部分が、もうすぐ終わるところだった。",
+   "furigana": [
+    {
+     "surface": "こうして、",
+     "reading": ""
+    },
+    {
+     "surface": "八週間",
+     "reading": "はっしゅうかん"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "過",
+     "reading": "す"
+    },
+    {
+     "surface": "ぎた。",
+     "reading": ""
+    },
+    {
+     "surface": "百科事典",
+     "reading": "ひゃっかじてん"
+    },
+    {
+     "surface": "は「A」の",
+     "reading": ""
+    },
+    {
+     "surface": "部分",
+     "reading": "ぶぶん"
+    },
+    {
+     "surface": "が、もうすぐ",
+     "reading": ""
+    },
+    {
+     "surface": "終",
+     "reading": "お"
+    },
+    {
+     "surface": "わるところだった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Koushite, hasshuukan ga sugita. Hyakkajiten wa “A” no bubun ga, mousugu owaru tokoro datta.",
+   "translations": {
+    "vi": "Cứ thế, tám tuần trôi qua. Phần chữ \"A\" trong bách khoa toàn thư sắp chép xong.",
+    "en": "And so eight weeks passed. He was nearly through the \"A\" section of the encyclopedia.",
+    "zh-Hans": "就这样，八周过去了。百科全书的\"A\"部分眼看就要抄完了。",
+    "zh-Hant": "就這樣，八週過去了。百科全書的\"A\"部分眼看就要抄完了。",
+    "ko": "이렇게 8주가 지났다. 백과사전은 'A' 부분이 곧 끝나려던 참이었다.",
+    "tl": "Kaya lumipas ang walong linggo. Malapit nang matapos ang bahaging \"A\" ng ensiklopedya.",
+    "ne": "यसरी आठ हप्ता बिते। विश्वकोशको \"A\" भाग सकिनै लागेको थियो।",
+    "id": "Begitulah delapan minggu berlalu. Bagian \"A\" ensiklopedia hampir selesai.",
+    "pt": "Assim passaram oito semanas. A parte \"A\" da enciclopédia estava quase no fim.",
+    "my": "ဤသို့ဖြင့် ရှစ်ပတ် ကုန်ဆုံးသွားသည်။ စွယ်စုံကျမ်း၏ \"A\" အပိုင်း ပြီးခါနီးပြီ။",
+    "th": "แล้วแปดสัปดาห์ก็ผ่านไป สารานุกรมหมวด \"A\" ใกล้จะคัดเสร็จแล้ว"
+   },
+   "grammarNote": {
+    "vi": "「こうして」 = cứ thế, như vậy (tổng kết). 「Vるところだった」 = sắp sửa V (ngay lúc ấy).",
+    "en": "こうして = \"and so\" (summing up). Vるところだった = \"was just about to V\".",
+    "zh-Hans": "「こうして」＝就这样。「Vるところだった」＝正要V。",
+    "zh-Hant": "「こうして」＝就這樣。「Vるところだった」＝正要V。",
+    "ko": "「こうして」= 이렇게. 「Vるところだった」= 막 V하려던 참이었다.",
+    "tl": "こうして = \"kaya\". Vるところだった = \"malapit nang V\".",
+    "ne": "「こうして」= यसरी। 「Vるところだった」= V गर्न लागेको थियो।",
+    "id": "こうして = \"begitulah\". Vるところだった = \"hampir V\".",
+    "pt": "こうして = \"assim\". Vるところだった = \"estava prestes a V\".",
+    "my": "「こうして」= ဤသို့ဖြင့်။ 「Vるところだった」= V ခါနီး။",
+    "th": "「こうして」= แล้วก็ 「Vるところだった」= กำลังจะ V"
+   },
+   "vocab": [
+    {
+     "word": "過ぎる",
+     "reading": "すぎる",
+     "meanings": {
+      "vi": "trôi qua",
+      "en": "to pass (time)",
+      "zh-Hans": "过去",
+      "zh-Hant": "過去",
+      "ko": "지나다",
+      "tl": "lumipas",
+      "ne": "बित्नु",
+      "id": "berlalu",
+      "pt": "passar",
+      "my": "ကုန်ဆုံး",
+      "th": "ผ่านไป"
+     },
+     "level": "N4"
+    },
+    {
+     "word": "部分",
+     "reading": "ぶぶん",
+     "meanings": {
+      "vi": "phần",
+      "en": "part",
+      "zh-Hans": "部分",
+      "zh-Hant": "部分",
+      "ko": "부분",
+      "tl": "bahagi",
+      "ne": "भाग",
+      "id": "bagian",
+      "pt": "parte",
+      "my": "အပိုင်း",
+      "th": "ส่วน"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=243.73,251.28",
+   "t": [
+    243.73,
+    251.28
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ところが、今朝のことだ。いつものように事務所へ行くと、ドアにかぎがかかっていた。",
+   "furigana": [
+    {
+     "surface": "ところが、",
+     "reading": ""
+    },
+    {
+     "surface": "今朝",
+     "reading": "けさ"
+    },
+    {
+     "surface": "のことだ。いつものように",
+     "reading": ""
+    },
+    {
+     "surface": "事務所",
+     "reading": "じむしょ"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "くと、ドアにかぎがかかっていた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tokoroga, kesa no koto da. Itsumo no you ni jimusho e iku to, doa ni kagi ga kakatte ita.",
+   "translations": {
+    "vi": "Thế nhưng, chuyện xảy ra sáng nay. Như mọi khi ông đến văn phòng thì cửa đã khóa.",
+    "en": "But this morning, when he went to the office as usual, the door was locked.",
+    "zh-Hans": "可是，就在今天早上。他像往常一样去事务所，门却锁着。",
+    "zh-Hant": "可是，就在今天早上。他像往常一樣去事務所，門卻鎖著。",
+    "ko": "그런데 오늘 아침의 일이다. 평소처럼 사무소에 가니 문이 잠겨 있었다.",
+    "tl": "Ngunit kaninang umaga, pagdating niya sa opisina gaya ng dati, nakakandado ang pinto.",
+    "ne": "तर आज बिहान, सधैंझैं कार्यालय जाँदा ढोकामा ताल्चा लागेको थियो।",
+    "id": "Namun, pagi ini, saat ia pergi ke kantor seperti biasa, pintunya terkunci.",
+    "pt": "Mas hoje de manhã, quando foi ao escritório como sempre, a porta estava trancada.",
+    "my": "သို့သော် ဒီနေ့မနက်က ထုံးစံအတိုင်း ရုံးသို့ သွားရာ တံခါး သော့ခတ်ထားသည်။",
+    "th": "แต่เช้านี้ เมื่อไปสำนักงานเหมือนทุกวัน ประตูกลับล็อกอยู่"
+   },
+   "grammarNote": {
+    "vi": "「ところが」 = thế nhưng (kết quả bất ngờ). 「いつものように」 = như mọi khi. 「かぎがかかる」 = bị khóa.",
+    "en": "ところが = \"but, however\" (an unexpected turn). いつものように = \"as usual\". かぎがかかる = \"be locked\".",
+    "zh-Hans": "「ところが」＝可是（出乎意料）。「いつものように」＝像往常一样。「かぎがかかる」＝上锁。",
+    "zh-Hant": "「ところが」＝可是（出乎意料）。「いつものように」＝像往常一樣。「かぎがかかる」＝上鎖。",
+    "ko": "「ところが」= 그런데. 「いつものように」= 평소처럼. 「かぎがかかる」= 잠기다.",
+    "tl": "ところが = \"ngunit\". いつものように = \"gaya ng dati\". かぎがかかる = \"nakakandado\".",
+    "ne": "「ところが」= तर। 「いつものように」= सधैंझैं। 「かぎがかかる」= ताल्चा लाग्नु।",
+    "id": "ところが = \"namun\". いつものように = \"seperti biasa\". かぎがかかる = \"terkunci\".",
+    "pt": "ところが = \"porém\". いつものように = \"como sempre\". かぎがかかる = \"estar trancado\".",
+    "my": "「ところが」= သို့သော်။ 「かぎがかかる」= သော့ခတ်ထား။",
+    "th": "「ところが」= แต่กลับ 「いつものように」= เหมือนทุกวัน 「かぎがかかる」= ล็อก"
+   },
+   "vocab": [
+    {
+     "word": "ところが",
+     "reading": "ところが",
+     "meanings": {
+      "vi": "thế nhưng",
+      "en": "however, but",
+      "zh-Hans": "可是",
+      "zh-Hant": "可是",
+      "ko": "그런데",
+      "tl": "ngunit",
+      "ne": "तर",
+      "id": "namun",
+      "pt": "porém",
+      "my": "သို့သော်",
+      "th": "แต่ทว่า"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "かぎ",
+     "reading": "かぎ",
+     "meanings": {
+      "vi": "chìa khóa, ổ khóa",
+      "en": "key, lock",
+      "zh-Hans": "钥匙，锁",
+      "zh-Hant": "鑰匙，鎖",
+      "ko": "열쇠",
+      "tl": "susi",
+      "ne": "ताल्चा, साँचो",
+      "id": "kunci",
+      "pt": "chave",
+      "my": "သော့",
+      "th": "กุญแจ"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=251.88,258.47",
+   "t": [
+    251.88,
+    258.47
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "そして、ドアに一枚の紙がはってあった。",
+   "furigana": [
+    {
+     "surface": "そして、ドアに",
+     "reading": ""
+    },
+    {
+     "surface": "一",
+     "reading": "いち"
+    },
+    {
+     "surface": "枚",
+     "reading": "まい"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "紙",
+     "reading": "かみ"
+    },
+    {
+     "surface": "がはってあった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Soshite, doa ni ichimai no kami ga hatte atta.",
+   "translations": {
+    "vi": "Và trên cửa có dán một tờ giấy.",
+    "en": "And a sheet of paper was pinned to the door.",
+    "zh-Hans": "门上还贴着一张纸。",
+    "zh-Hant": "門上還貼著一張紙。",
+    "ko": "그리고 문에 종이 한 장이 붙어 있었다.",
+    "tl": "At may nakadikit na isang papel sa pinto.",
+    "ne": "अनि ढोकामा एउटा कागज टाँसिएको थियो।",
+    "id": "Lalu di pintu tertempel selembar kertas.",
+    "pt": "E havia uma folha de papel presa na porta.",
+    "my": "ပြီးတော့ တံခါးပေါ်တွင် စက္ကူ တစ်ရွက် ကပ်ထားသည်။",
+    "th": "แล้วที่ประตูก็มีกระดาษแผ่นหนึ่งแปะอยู่"
+   },
+   "grammarNote": {
+    "vi": "「一枚」 = một tờ (đếm vật mỏng, phẳng bằng 〜枚). 「はってある」 = đã được dán sẵn (Vてある).",
+    "en": "一枚 = \"one sheet\" (〜枚 counts flat things). はってある = \"had been pasted\" (Vてある).",
+    "zh-Hans": "「一枚」＝一张（〜枚数扁平物）。「はってある」＝贴着（Vてある）。",
+    "zh-Hant": "「一枚」＝一張（〜枚數扁平物）。「はってある」＝貼著（Vてある）。",
+    "ko": "「一枚」= 한 장. 「はってある」= 붙어 있다.",
+    "tl": "一枚 = \"isang piraso\". はってある = \"nakadikit\".",
+    "ne": "「一枚」= एउटा पाना। 「はってある」= टाँसिएको।",
+    "id": "一枚 = \"selembar\". はってある = \"tertempel\".",
+    "pt": "一枚 = \"uma folha\". はってある = \"estava colado\".",
+    "my": "「一枚」= တစ်ရွက်။ 「はってある」= ကပ်ထား။",
+    "th": "「一枚」= หนึ่งแผ่น 「はってある」= แปะไว้"
+   },
+   "vocab": [
+    {
+     "word": "はって",
+     "reading": "",
+     "meanings": {
+      "vi": "dán",
+      "en": "to stick, paste",
+      "zh-Hans": "贴",
+      "zh-Hant": "貼",
+      "ko": "붙이다",
+      "tl": "idikit",
+      "ne": "टाँस्नु",
+      "id": "menempel",
+      "pt": "colar",
+      "my": "ကပ်",
+      "th": "แปะ"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=259.07,263.32",
+   "t": [
+    259.07,
+    263.32
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「赤毛組合は、解散しました。一八九〇年十月九日。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "赤毛",
+     "reading": "あかげ"
+    },
+    {
+     "surface": "組合",
+     "reading": "くみあい"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "解散",
+     "reading": "かいさん"
+    },
+    {
+     "surface": "しました。",
+     "reading": ""
+    },
+    {
+     "surface": "一八九〇年",
+     "reading": "せんはっぴゃくきゅうじゅうねん"
+    },
+    {
+     "surface": "十月九日",
+     "reading": "じゅうがつここのか"
+    },
+    {
+     "surface": "。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Akage kumiai wa, kaisan shimashita. Senhappyakukyuujuunen juugatsukokonoka.”",
+   "translations": {
+    "vi": "\"Hội Tóc Đỏ đã giải tán. Ngày 9 tháng 10 năm 1890.\"",
+    "en": "\"THE RED-HEADED LEAGUE IS DISSOLVED. October 9, 1890.\"",
+    "zh-Hans": "\"红发会已解散。1890年10月9日。\"",
+    "zh-Hant": "\"紅髮會已解散。1890年10月9日。\"",
+    "ko": "\"빨간 머리 연맹은 해산되었습니다. 1890년 10월 9일.\"",
+    "tl": "\"NABUWAG NA ANG SAMAHAN NG MGA PULANG BUHOK. Oktubre 9, 1890.\"",
+    "ne": "\"रातो कपाल संघ विघटन भयो। अक्टोबर ९, १८९०।\"",
+    "id": "\"LIGA RAMBUT MERAH TELAH DIBUBARKAN. 9 Oktober 1890.\"",
+    "pt": "\"A LIGA DOS CABEÇAS-VERMELHAS ESTÁ DISSOLVIDA. 9 de outubro de 1890.\"",
+    "my": "\"ဆံပင်နီ အသင်း ဖျက်သိမ်းပြီ။ ၁၈၉၀ အောက်တိုဘာ ၉။\"",
+    "th": "\"สมาคมผมแดงยุบแล้ว 9 ตุลาคม 1890\""
+   },
+   "grammarNote": {
+    "vi": "「解散」 = giải tán. Ngày tháng tiếng Nhật: năm → tháng → ngày. 「九日」 đọc là ここのか (ngày mùng 9).",
+    "en": "解散 = \"dissolution\". Japanese dates go year → month → day. 九日 is read ここのか (\"the 9th\").",
+    "zh-Hans": "「解散」＝解散。日语日期：年→月→日。「九日」读ここのか。",
+    "zh-Hant": "「解散」＝解散。日語日期：年→月→日。「九日」讀ここのか。",
+    "ko": "「解散」= 해산. 날짜: 년→월→일. 「九日」= ここのか.",
+    "tl": "解散 = \"pagbuwag\". Petsa: taon → buwan → araw. 九日 = ここのか.",
+    "ne": "「解散」= विघटन। मिति: वर्ष → महिना → दिन। 九日 = ここのか।",
+    "id": "解散 = \"bubar\". Tanggal: tahun → bulan → hari. 九日 = ここのか.",
+    "pt": "解散 = \"dissolução\". Data: ano → mês → dia. 九日 = ここのか.",
+    "my": "「解散」= ဖျက်သိမ်း။ ရက်စွဲ: နှစ် → လ → ရက်။",
+    "th": "「解散」= ยุบ วันที่: ปี → เดือน → วัน 九日 = ここのか"
+   },
+   "vocab": [
+    {
+     "word": "解散",
+     "reading": "かいさん",
+     "meanings": {
+      "vi": "giải tán",
+      "en": "dissolution",
+      "zh-Hans": "解散",
+      "zh-Hant": "解散",
+      "ko": "해산",
+      "tl": "pagbuwag",
+      "ne": "विघटन",
+      "id": "pembubaran",
+      "pt": "dissolução",
+      "my": "ဖျက်သိမ်း",
+      "th": "ยุบ"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=264.22,270.92",
+   "t": [
+    264.22,
+    270.92
+   ],
+   "voice": "ja-JP-Neural2-B"
+  },
+  {
+   "ja": "ホームズとわたしは、その紙を見て、思わず大声で笑ってしまった。",
+   "furigana": [
+    {
+     "surface": "ホームズとわたしは、その",
+     "reading": ""
+    },
+    {
+     "surface": "紙",
+     "reading": "かみ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "て、",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "わず",
+     "reading": ""
+    },
+    {
+     "surface": "大声",
+     "reading": "おおごえ"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "笑",
+     "reading": "わら"
+    },
+    {
+     "surface": "ってしまった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hoomuzu to watashi wa, sono kami o mite, omowazu oogoe de waratte shimatta.",
+   "translations": {
+    "vi": "Holmes và tôi nhìn tờ giấy, rồi bất giác phá lên cười.",
+    "en": "Holmes and I looked at the paper and couldn't help bursting out laughing.",
+    "zh-Hans": "福尔摩斯和我看了那张纸，忍不住大笑起来。",
+    "zh-Hant": "福爾摩斯和我看了那張紙，忍不住大笑起來。",
+    "ko": "홈스와 나는 그 종이를 보고 그만 큰 소리로 웃고 말았다.",
+    "tl": "Tiningnan namin ni Holmes ang papel at hindi napigilang humalakhak.",
+    "ne": "होम्स र मैले त्यो कागज हेर्यौं र नचाहँदै ठूलो स्वरले हाँस्यौं।",
+    "id": "Holmes dan aku melihat kertas itu dan tanpa sadar tertawa keras.",
+    "pt": "Holmes e eu olhamos o papel e não contivemos uma gargalhada.",
+    "my": "ဟုမ်းနှင့် ကျွန်ုပ်သည် ထိုစက္ကူကို ကြည့်ပြီး မရည်ရွယ်ဘဲ အသံကျယ်ကျယ် ရယ်မိကြသည်။",
+    "th": "โฮมส์กับผมดูกระดาษแผ่นนั้น แล้วอดหัวเราะเสียงดังไม่ได้"
+   },
+   "grammarNote": {
+    "vi": "「思わず」 = bất giác, không kìm được. 「Vてしまった」 = lỡ V mất (làm điều không nên).",
+    "en": "思わず = \"involuntarily, can't help it\". Vてしまった = \"ended up V-ing\" (something one shouldn't).",
+    "zh-Hans": "「思わず」＝不由得。「Vてしまった」＝不小心V了。",
+    "zh-Hant": "「思わず」＝不由得。「Vてしまった」＝不小心V了。",
+    "ko": "「思わず」= 그만, 엉겁결에. 「Vてしまった」= …해 버렸다.",
+    "tl": "思わず = \"di sinasadya\". Vてしまった = \"napa-V\".",
+    "ne": "「思わず」= नचाहँदै। 「Vてしまった」= V गरिहालियो।",
+    "id": "思わず = \"tanpa sadar\". Vてしまった = \"terlanjur V\".",
+    "pt": "思わず = \"sem querer\". Vてしまった = \"acabar V\".",
+    "my": "「思わず」= မရည်ရွယ်ဘဲ။ 「Vてしまった」= V မိ။",
+    "th": "「思わず」= อดไม่ได้ 「Vてしまった」= เผลอ V ไป"
+   },
+   "vocab": [
+    {
+     "word": "思わず",
+     "reading": "おもわず",
+     "meanings": {
+      "vi": "bất giác",
+      "en": "involuntarily",
+      "zh-Hans": "不由得",
+      "zh-Hant": "不由得",
+      "ko": "엉겁결에",
+      "tl": "di sinasadya",
+      "ne": "नचाहँदै",
+      "id": "tanpa sadar",
+      "pt": "sem querer",
+      "my": "မရည်ရွယ်ဘဲ",
+      "th": "โดยไม่ตั้งใจ"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "大声",
+     "reading": "おおごえ",
+     "meanings": {
+      "vi": "tiếng to",
+      "en": "loud voice",
+      "zh-Hans": "大声",
+      "zh-Hant": "大聲",
+      "ko": "큰 소리",
+      "tl": "malakas na boses",
+      "ne": "ठूलो स्वर",
+      "id": "suara keras",
+      "pt": "voz alta",
+      "my": "အသံကျယ်",
+      "th": "เสียงดัง"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=271.82,278.26",
+   "t": [
+    271.82,
+    278.26
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「笑いごとじゃありませんよ！わたしは本気で困っているんです。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "笑",
+     "reading": "わら"
+    },
+    {
+     "surface": "いごとじゃありませんよ！わたしは",
+     "reading": ""
+    },
+    {
+     "surface": "本気",
+     "reading": "ほんき"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "困",
+     "reading": "こま"
+    },
+    {
+     "surface": "っているんです。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Waraigoto jaarimasen yo! Watashi wa honki de komatte iru n desu.”",
+   "translations": {
+    "vi": "\"Không phải chuyện đáng cười đâu! Tôi đang khổ thật sự đấy.\"",
+    "en": "\"It's no laughing matter! I'm in real trouble.\"",
+    "zh-Hans": "\"这可不是闹着玩的！我是真的很为难。\"",
+    "zh-Hant": "\"這可不是鬧著玩的！我是真的很為難。\"",
+    "ko": "\"웃을 일이 아닙니다! 저는 정말로 곤란하다고요.\"",
+    "tl": "\"Hindi ito biro! Talagang nahihirapan ako.\"",
+    "ne": "\"हाँस्ने कुरा होइन! म साँच्चै समस्यामा छु।\"",
+    "id": "\"Ini bukan bahan tertawaan! Saya benar-benar susah.\"",
+    "pt": "\"Não tem graça nenhuma! Estou mesmo em apuros.\"",
+    "my": "\"ရယ်စရာ မဟုတ်ဘူး! ကျွန်တော် တကယ် ဒုက္ခရောက်နေတာ။\"",
+    "th": "\"ไม่ใช่เรื่องน่าขำนะ! ผมเดือดร้อนจริง ๆ\""
+   },
+   "grammarNote": {
+    "vi": "「笑いごと」 = chuyện đáng cười (〜ごと = chuyện). 「本気で」 = thật lòng, nghiêm túc.",
+    "en": "笑いごと = \"laughing matter\" (〜ごと = matter). 本気で = \"seriously, for real\".",
+    "zh-Hans": "「笑いごと」＝可笑的事。「本気で」＝真的，认真地。",
+    "zh-Hant": "「笑いごと」＝可笑的事。「本気で」＝真的，認真地。",
+    "ko": "「笑いごと」= 웃을 일. 「本気で」= 진심으로.",
+    "tl": "笑いごと = \"biro\". 本気で = \"talaga\".",
+    "ne": "「笑いごと」= हाँसोको कुरा। 「本気で」= साँच्चै।",
+    "id": "笑いごと = \"bahan tertawaan\". 本気で = \"sungguh-sungguh\".",
+    "pt": "笑いごと = \"piada\". 本気で = \"a sério\".",
+    "my": "「本気で」= တကယ်။",
+    "th": "「笑いごと」= เรื่องน่าขำ 「本気で」= จริงจัง"
+   },
+   "vocab": [
+    {
+     "word": "本気",
+     "reading": "ほんき",
+     "meanings": {
+      "vi": "nghiêm túc, thật lòng",
+      "en": "seriousness",
+      "zh-Hans": "认真",
+      "zh-Hant": "認真",
+      "ko": "진심",
+      "tl": "seryoso",
+      "ne": "गम्भीर",
+      "id": "sungguh-sungguh",
+      "pt": "a sério",
+      "my": "တကယ်",
+      "th": "จริงจัง"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=279.16,283.85",
+   "t": [
+    279.16,
+    283.85
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「失礼しました。でも、これはとてもおもしろい事件です。それから、どうしましたか。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "失礼",
+     "reading": "しつれい"
+    },
+    {
+     "surface": "しました。でも、これはとてもおもしろい",
+     "reading": ""
+    },
+    {
+     "surface": "事件",
+     "reading": "じけん"
+    },
+    {
+     "surface": "です。それから、どうしましたか。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Shitsurei shimashita. Demo, kore wa totemo omoshiroi jiken desu. Sorekara, dou shimashita ka.”",
+   "translations": {
+    "vi": "\"Xin lỗi ông. Nhưng đây là một vụ án rất thú vị. Rồi sau đó ông làm gì?\"",
+    "en": "\"Forgive me. But this is a most interesting case. And then what did you do?\"",
+    "zh-Hans": "\"失礼了。不过，这是个非常有趣的案子。后来您怎么做了？\"",
+    "zh-Hant": "\"失禮了。不過，這是個非常有趣的案子。後來您怎麼做了？\"",
+    "ko": "\"실례했습니다. 하지만 이건 아주 흥미로운 사건입니다. 그래서 어떻게 하셨습니까?\"",
+    "tl": "\"Paumanhin. Pero napakakawili-wiling kaso nito. Ano ang ginawa ninyo pagkatapos?\"",
+    "ne": "\"माफ गर्नुहोस्। तर यो निकै रोचक मुद्दा हो। त्यसपछि के गर्नुभयो?\"",
+    "id": "\"Maaf. Tapi ini kasus yang sangat menarik. Lalu apa yang Anda lakukan?\"",
+    "pt": "\"Perdão. Mas é um caso muito interessante. E depois, o que fez?\"",
+    "my": "\"ခွင့်လွှတ်ပါ။ ဒါပေမဲ့ ဒါက စိတ်ဝင်စားစရာ အမှုပဲ။ ပြီးတော့ ဘာလုပ်ခဲ့လဲ။\"",
+    "th": "\"ขออภัยครับ แต่นี่เป็นคดีที่น่าสนใจมาก แล้วคุณทำอย่างไรต่อ\""
+   },
+   "grammarNote": {
+    "vi": "「事件」 = vụ việc, vụ án. 「それから」 = sau đó, rồi thì.",
+    "en": "事件 = \"case, incident\". それから = \"and then\".",
+    "zh-Hans": "「事件」＝案件。「それから」＝然后。",
+    "zh-Hant": "「事件」＝案件。「それから」＝然後。",
+    "ko": "「事件」= 사건. 「それから」= 그리고 나서.",
+    "tl": "事件 = \"kaso\". それから = \"pagkatapos\".",
+    "ne": "「事件」= मुद्दा, घटना। 「それから」= त्यसपछि।",
+    "id": "事件 = \"kasus\". それから = \"lalu\".",
+    "pt": "事件 = \"caso\". それから = \"e depois\".",
+    "my": "「事件」= အမှု။ 「それから」= ပြီးတော့။",
+    "th": "「事件」= คดี 「それから」= แล้วต่อมา"
+   },
+   "vocab": [
+    {
+     "word": "事件",
+     "reading": "じけん",
+     "meanings": {
+      "vi": "vụ án, sự kiện",
+      "en": "case, incident",
+      "zh-Hans": "案件",
+      "zh-Hant": "案件",
+      "ko": "사건",
+      "tl": "kaso",
+      "ne": "मुद्दा",
+      "id": "kasus",
+      "pt": "caso",
+      "my": "အမှု",
+      "th": "คดี"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=284.75,290.96",
+   "t": [
+    284.75,
+    290.96
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「大家に聞いてみましたが、赤毛組合なんて、聞いたこともないと言うんです。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "大家",
+     "reading": "おおや"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "いてみましたが、",
+     "reading": ""
+    },
+    {
+     "surface": "赤毛",
+     "reading": "あかげ"
+    },
+    {
+     "surface": "組合",
+     "reading": "くみあい"
+    },
+    {
+     "surface": "なんて、",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "いたこともないと",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "うんです。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Ooya ni kiite mimashita ga, akage kumiai nante, kiita koto mo nai to iu n desu.”",
+   "translations": {
+    "vi": "\"Tôi hỏi chủ nhà thì ông ta bảo chưa từng nghe đến cái gọi là Hội Tóc Đỏ.\"",
+    "en": "\"I asked the landlord, but he said he'd never even heard of a Red-Headed League.\"",
+    "zh-Hans": "\"我问了房东，他说根本没听说过什么红发会。\"",
+    "zh-Hant": "\"我問了房東，他說根本沒聽說過什麼紅髮會。\"",
+    "ko": "\"집주인에게 물어봤지만 빨간 머리 연맹 같은 건 들어 본 적도 없다고 하더군요.\"",
+    "tl": "\"Tinanong ko ang may-ari, pero hindi pa raw niya narinig ang Samahan ng mga Pulang Buhok.\"",
+    "ne": "\"घरधनीलाई सोधें, तर रातो कपाल संघबारे कहिल्यै सुनेको छैन भने।\"",
+    "id": "\"Saya tanya pemilik gedung, katanya belum pernah mendengar Liga Rambut Merah.\"",
+    "pt": "\"Perguntei ao senhorio, mas ele disse que nunca ouviu falar de tal Liga.\"",
+    "my": "\"အိမ်ရှင်ကို မေးကြည့်တော့ ဆံပင်နီ အသင်းဆိုတာ မကြားဖူးဘူးတဲ့။\"",
+    "th": "\"ผมถามเจ้าของตึก เขาบอกว่าไม่เคยได้ยินชื่อสมาคมผมแดงเลย\""
+   },
+   "grammarNote": {
+    "vi": "「Vてみる」 = thử V. 「〜なんて」 = cái gọi là… (coi nhẹ, ngạc nhiên). 「聞いたこともない」 = ngay cả nghe cũng chưa từng.",
+    "en": "Vてみる = \"try V-ing\". 〜なんて = \"such a thing as…\" (dismissive). 聞いたこともない = \"never even heard of\".",
+    "zh-Hans": "「Vてみる」＝试着V。「〜なんて」＝什么……（轻视）。「聞いたこともない」＝听都没听过。",
+    "zh-Hant": "「Vてみる」＝試著V。「〜なんて」＝什麼……（輕視）。「聞いたこともない」＝聽都沒聽過。",
+    "ko": "「Vてみる」= V해 보다. 「〜なんて」= … 따위. 「聞いたこともない」= 들어 본 적도 없다.",
+    "tl": "Vてみる = \"subukang V\". 〜なんて = \"ganoong…\". 聞いたこともない = \"hindi pa narinig\".",
+    "ne": "「Vてみる」= V गरेर हेर्नु। 「〜なんて」= भन्ने …। 「聞いたこともない」= सुनेको पनि छैन।",
+    "id": "Vてみる = \"mencoba V\". 〜なんて = \"yang namanya…\". 聞いたこともない = \"tak pernah dengar\".",
+    "pt": "Vてみる = \"tentar V\". 〜なんて = \"essa tal…\". 聞いたこともない = \"nunca ouviu\".",
+    "my": "「Vてみる」= V ကြည့်။ 「聞いたこともない」= မကြားဖူး။",
+    "th": "「Vてみる」= ลอง V 「〜なんて」= สิ่งที่เรียกว่า… 「聞いたこともない」= ไม่เคยได้ยินเลย"
+   },
+   "vocab": [
+    {
+     "word": "大家",
+     "reading": "おおや",
+     "meanings": {
+      "vi": "chủ nhà (cho thuê)",
+      "en": "landlord",
+      "zh-Hans": "房东",
+      "zh-Hant": "房東",
+      "ko": "집주인",
+      "tl": "may-ari ng paupahan",
+      "ne": "घरधनी",
+      "id": "pemilik kontrakan",
+      "pt": "senhorio",
+      "my": "အိမ်ရှင်",
+      "th": "เจ้าของห้องเช่า"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=291.86,298.2",
+   "t": [
+    291.86,
+    298.2
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「ロスという男も知らない。あの部屋を借りていたのは、ある弁護士だと言うだけでした。」",
+   "furigana": [
+    {
+     "surface": "「ロスという",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "らない。あの",
+     "reading": ""
+    },
+    {
+     "surface": "部屋",
+     "reading": "へや"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "借",
+     "reading": "か"
+    },
+    {
+     "surface": "りていたのは、ある",
+     "reading": ""
+    },
+    {
+     "surface": "弁護士",
+     "reading": "べんごし"
+    },
+    {
+     "surface": "だと",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "うだけでした。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Rosu to iu otoko mo shiranai. Ano heya o karite ita no wa, aru bengoshi da to iu dake deshita.”",
+   "translations": {
+    "vi": "\"Ông ta cũng không biết người tên Ross. Chỉ nói rằng người thuê căn phòng đó là một luật sư.\"",
+    "en": "\"He didn't know any Ross either. He only said the room had been rented by a lawyer.\"",
+    "zh-Hans": "\"他也不认识叫罗斯的人，只说租那间屋子的是一个律师。\"",
+    "zh-Hant": "\"他也不認識叫羅斯的人，只說租那間屋子的是一個律師。\"",
+    "ko": "\"로스라는 남자도 모른답니다. 그 방을 빌린 건 어떤 변호사라고만 하더군요.\"",
+    "tl": "\"Hindi rin niya kilala si Ross. Sinabi lang na isang abogado ang umupa sa silid.\"",
+    "ne": "\"रसलाई पनि चिन्दैनथे। त्यो कोठा एक वकिलले भाडामा लिएको थियो भन्ने मात्र भने।\"",
+    "id": "\"Ia juga tak kenal Ross. Hanya bilang yang menyewa ruangan itu seorang pengacara.\"",
+    "pt": "\"Também não conhecia nenhum Ross. Só disse que quem alugava a sala era um advogado.\"",
+    "my": "\"ရော့စ် ဆိုတဲ့ လူကိုလည်း မသိဘူး။ အဲဒီ အခန်းကို ငှားထားတာ ရှေ့နေ တစ်ယောက်လို့ပဲ ပြောတယ်။\"",
+    "th": "\"เขาไม่รู้จักคนชื่อรอสด้วย บอกแค่ว่าคนที่เช่าห้องนั้นเป็นทนายความคนหนึ่ง\""
+   },
+   "grammarNote": {
+    "vi": "「ある〜」 = một … nào đó (không nói rõ). 「〜と言うだけ」 = chỉ nói rằng….",
+    "en": "ある〜 = \"a certain…\". 〜と言うだけ = \"only said that…\".",
+    "zh-Hans": "「ある〜」＝某个……。「〜と言うだけ」＝只说……。",
+    "zh-Hant": "「ある〜」＝某個……。「〜と言うだけ」＝只說……。",
+    "ko": "「ある〜」= 어떤. 「〜と言うだけ」= …라고만 하다.",
+    "tl": "ある〜 = \"isang…\". 〜と言うだけ = \"sinabi lang na…\".",
+    "ne": "「ある〜」= कुनै …। 「〜と言うだけ」= … भन्ने मात्र।",
+    "id": "ある〜 = \"seorang…\". 〜と言うだけ = \"hanya bilang…\".",
+    "pt": "ある〜 = \"um certo…\". 〜と言うだけ = \"só disse que…\".",
+    "my": "「ある〜」= … တစ်ယောက်။",
+    "th": "「ある〜」= …คนหนึ่ง 「〜と言うだけ」= บอกแค่ว่า…"
+   },
+   "vocab": [
+    {
+     "word": "借りる",
+     "reading": "かりる",
+     "meanings": {
+      "vi": "thuê, mượn",
+      "en": "to rent, borrow",
+      "zh-Hans": "租，借",
+      "zh-Hant": "租，借",
+      "ko": "빌리다",
+      "tl": "umupa, humiram",
+      "ne": "भाडामा लिनु",
+      "id": "menyewa",
+      "pt": "alugar",
+      "my": "ငှား",
+      "th": "เช่า, ยืม"
+     },
+     "level": "N5"
+    },
+    {
+     "word": "弁護士",
+     "reading": "べんごし",
+     "meanings": {
+      "vi": "luật sư",
+      "en": "lawyer",
+      "zh-Hans": "律师",
+      "zh-Hant": "律師",
+      "ko": "변호사",
+      "tl": "abogado",
+      "ne": "वकिल",
+      "id": "pengacara",
+      "pt": "advogado",
+      "my": "ရှေ့နေ",
+      "th": "ทนายความ"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=298.8,306.22",
+   "t": [
+    298.8,
+    306.22
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「教えてもらった住所へ行ってみたら、そこは、ひざの関節を作る工場でしたよ。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "教",
+     "reading": "おし"
+    },
+    {
+     "surface": "えてもらった",
+     "reading": ""
+    },
+    {
+     "surface": "住所",
+     "reading": "じゅうしょ"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "ってみたら、そこは、ひざの",
+     "reading": ""
+    },
+    {
+     "surface": "関節",
+     "reading": "かんせつ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "作",
+     "reading": "つく"
+    },
+    {
+     "surface": "る",
+     "reading": ""
+    },
+    {
+     "surface": "工場",
+     "reading": "こうじょう"
+    },
+    {
+     "surface": "でしたよ。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Oshiete moratta juusho e itte mitara, soko wa, hiza no kansetsu o tsukuru koujou deshita yo.”",
+   "translations": {
+    "vi": "\"Tôi thử đến địa chỉ được cho thì hóa ra đó là xưởng làm khớp gối giả!\"",
+    "en": "\"I went to the address he gave me, and it turned out to be a factory making artificial knee-caps!\"",
+    "zh-Hans": "\"我按给的地址找过去，那里竟是一家做膝关节的工厂！\"",
+    "zh-Hant": "\"我按給的地址找過去，那裡竟是一家做膝關節的工廠！\"",
+    "ko": "\"알려 준 주소로 가 봤더니 그곳은 무릎 관절을 만드는 공장이었어요!\"",
+    "tl": "\"Pinuntahan ko ang address na ibinigay, pabrika pala iyon ng artipisyal na tuhod!\"",
+    "ne": "\"दिइएको ठेगानामा गएँ, त्यो त घुँडाको जोर्नी बनाउने कारखाना रहेछ!\"",
+    "id": "\"Saya datangi alamat yang diberikan, ternyata itu pabrik sendi lutut!\"",
+    "pt": "\"Fui ao endereço que me deram, e era uma fábrica de joelheiras artificiais!\"",
+    "my": "\"ပေးတဲ့ လိပ်စာကို သွားကြည့်တော့ ဒူးဆစ် လုပ်တဲ့ စက်ရုံ ဖြစ်နေတယ်!\"",
+    "th": "\"ผมไปตามที่อยู่ที่ได้มา ปรากฏว่าเป็นโรงงานทำข้อเข่าเทียม!\""
+   },
+   "grammarNote": {
+    "vi": "「Vてみたら」 = thử V thì (phát hiện ra). 「Vてもらった」 = được người khác làm V cho. Chi tiết hài hước có thật trong nguyên tác.",
+    "en": "Vてみたら = \"when I tried V-ing, (I found)\". Vてもらった = \"had someone V for me\". This comic detail is in the original.",
+    "zh-Hans": "「Vてみたら」＝试着V，结果发现。「Vてもらった」＝请人为我V。这个滑稽细节出自原著。",
+    "zh-Hant": "「Vてみたら」＝試著V，結果發現。「Vてもらった」＝請人為我V。這個滑稽細節出自原著。",
+    "ko": "「Vてみたら」= V해 봤더니. 「Vてもらった」= …해 받았다. 원작의 우스운 디테일.",
+    "tl": "Vてみたら = \"nang subukan ko, …pala\". Nasa orihinal ang nakakatawang detalyeng ito.",
+    "ne": "「Vてみたら」= V गरेर हेर्दा। मौलिक कथाकै हास्यपूर्ण विवरण।",
+    "id": "Vてみたら = \"setelah dicoba, ternyata\". Detail lucu dari karya asli.",
+    "pt": "Vてみたら = \"ao tentar, descobri\". Detalhe cômico do original.",
+    "my": "「Vてみたら」= V ကြည့်တော့။",
+    "th": "「Vてみたら」= ลอง V แล้วปรากฏว่า รายละเอียดตลกนี้มาจากต้นฉบับ"
+   },
+   "vocab": [
+    {
+     "word": "住所",
+     "reading": "じゅうしょ",
+     "meanings": {
+      "vi": "địa chỉ",
+      "en": "address",
+      "zh-Hans": "地址",
+      "zh-Hant": "地址",
+      "ko": "주소",
+      "tl": "address",
+      "ne": "ठेगाना",
+      "id": "alamat",
+      "pt": "endereço",
+      "my": "လိပ်စာ",
+      "th": "ที่อยู่"
+     },
+     "level": "N4"
+    },
+    {
+     "word": "関節",
+     "reading": "かんせつ",
+     "meanings": {
+      "vi": "khớp",
+      "en": "joint",
+      "zh-Hans": "关节",
+      "zh-Hant": "關節",
+      "ko": "관절",
+      "tl": "kasukasuan",
+      "ne": "जोर्नी",
+      "id": "sendi",
+      "pt": "articulação",
+      "my": "အဆစ်",
+      "th": "ข้อต่อ"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "工場",
+     "reading": "こうじょう",
+     "meanings": {
+      "vi": "nhà máy",
+      "en": "factory",
+      "zh-Hans": "工厂",
+      "zh-Hant": "工廠",
+      "ko": "공장",
+      "tl": "pabrika",
+      "ne": "कारखाना",
+      "id": "pabrik",
+      "pt": "fábrica",
+      "my": "စက်ရုံ",
+      "th": "โรงงาน"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=306.82,313.93",
+   "t": [
+    306.82,
+    313.93
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「ウィルソンさん、その店員について、もう少し教えてください。年は？顔に何か特徴は？」",
+   "furigana": [
+    {
+     "surface": "「ウィルソンさん、その",
+     "reading": ""
+    },
+    {
+     "surface": "店員",
+     "reading": "てんいん"
+    },
+    {
+     "surface": "について、もう",
+     "reading": ""
+    },
+    {
+     "surface": "少",
+     "reading": "すこ"
+    },
+    {
+     "surface": "し",
+     "reading": ""
+    },
+    {
+     "surface": "教",
+     "reading": "おし"
+    },
+    {
+     "surface": "えてください。",
+     "reading": ""
+    },
+    {
+     "surface": "年",
+     "reading": "とし"
+    },
+    {
+     "surface": "は？",
+     "reading": ""
+    },
+    {
+     "surface": "顔",
+     "reading": "かお"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "か",
+     "reading": ""
+    },
+    {
+     "surface": "特徴",
+     "reading": "とくちょう"
+    },
+    {
+     "surface": "は？」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Uirusonsan, sono ten'in nitsuite, mousukoshi oshiete kudasai. Toshi wa? Kao ni nanika tokuchou wa?”",
+   "translations": {
+    "vi": "\"Ông Wilson, xin kể thêm chút nữa về cậu nhân viên ấy. Tuổi? Mặt có đặc điểm gì không?\"",
+    "en": "\"Mr. Wilson, tell me a little more about that assistant. His age? Any features on his face?\"",
+    "zh-Hans": "\"威尔逊先生，请再多讲讲那个店员。多大年纪？脸上有什么特征吗？\"",
+    "zh-Hant": "\"威爾遜先生，請再多講講那個店員。多大年紀？臉上有什麼特徵嗎？\"",
+    "ko": "\"윌슨 씨, 그 점원에 대해 조금 더 알려 주세요. 나이는? 얼굴에 특징은?\"",
+    "tl": "\"G. Wilson, ikuwento pa ninyo ang tungkol sa katulong. Edad? May palatandaan ba sa mukha?\"",
+    "ne": "\"विल्सनजी, त्यो कर्मचारीबारे अझ भन्नुहोस्। उमेर? अनुहारमा कुनै विशेषता?\"",
+    "id": "\"Tuan Wilson, ceritakan lagi tentang pegawai itu. Umurnya? Ada ciri di wajahnya?\"",
+    "pt": "\"Sr. Wilson, fale-me mais desse ajudante. Idade? Algum traço no rosto?\"",
+    "my": "\"မစ္စတာ ဝီလ်ဆင်၊ အဲဒီ ဝန်ထမ်းအကြောင်း နည်းနည်း ထပ်ပြောပါ။ အသက်? မျက်နှာမှာ ထူးခြားချက်?\"",
+    "th": "\"คุณวิลสัน เล่าเรื่องลูกจ้างคนนั้นอีกหน่อยครับ อายุเท่าไร หน้ามีจุดเด่นอะไรไหม\""
+   },
+   "grammarNote": {
+    "vi": "「〜について」 = về…. 「もう少し」 = thêm một chút. 「特徴」 = đặc điểm. Holmes bỏ qua chủ nhà, quay sang hỏi Spaulding — vì sao nhỉ?",
+    "en": "〜について = \"about…\". もう少し = \"a little more\". 特徴 = \"feature\". Holmes skips the landlord and asks about Spaulding — why?",
+    "zh-Hans": "「〜について」＝关于。「もう少し」＝再稍微。「特徴」＝特征。福尔摩斯转而问店员——为什么？",
+    "zh-Hant": "「〜について」＝關於。「もう少し」＝再稍微。「特徴」＝特徵。福爾摩斯轉而問店員——為什麼？",
+    "ko": "「〜について」= …에 대해. 「特徴」= 특징. 홈스는 왜 점원을 묻는 걸까?",
+    "tl": "〜について = \"tungkol sa\". 特徴 = \"palatandaan\". Bakit si Spaulding ang tinanong?",
+    "ne": "「〜について」= … बारे। 「特徴」= विशेषता। होम्सले किन कर्मचारीबारे सोधे?",
+    "id": "〜について = \"tentang\". 特徴 = \"ciri\". Mengapa Holmes bertanya soal pegawai?",
+    "pt": "〜について = \"sobre\". 特徴 = \"traço\". Por que Holmes pergunta pelo ajudante?",
+    "my": "「〜について」= … အကြောင်း။ 「特徴」= ထူးခြားချက်။",
+    "th": "「〜について」= เกี่ยวกับ 「特徴」= ลักษณะเด่น ทำไมโฮมส์ถามถึงลูกจ้าง?"
+   },
+   "vocab": [
+    {
+     "word": "特徴",
+     "reading": "とくちょう",
+     "meanings": {
+      "vi": "đặc điểm",
+      "en": "feature",
+      "zh-Hans": "特征",
+      "zh-Hant": "特徵",
+      "ko": "특징",
+      "tl": "palatandaan",
+      "ne": "विशेषता",
+      "id": "ciri",
+      "pt": "traço",
+      "my": "ထူးခြားချက်",
+      "th": "ลักษณะเด่น"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=314.83,322.27",
+   "t": [
+    314.83,
+    322.27
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「三十ぐらいで、動きがすばやい男です。額に、薬品で焼けたような白いあとがあります。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "三",
+     "reading": "さん"
+    },
+    {
+     "surface": "十",
+     "reading": "じゅう"
+    },
+    {
+     "surface": "ぐらいで、",
+     "reading": ""
+    },
+    {
+     "surface": "動",
+     "reading": "うご"
+    },
+    {
+     "surface": "きがすばやい",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    },
+    {
+     "surface": "額",
+     "reading": "ひたい"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "薬品",
+     "reading": "やくひん"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "焼",
+     "reading": "や"
+    },
+    {
+     "surface": "けたような",
+     "reading": ""
+    },
+    {
+     "surface": "白",
+     "reading": "しろ"
+    },
+    {
+     "surface": "いあとがあります。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“San juu guraide, ugoki ga subayai otoko desu. Hitai ni, yakuhin de yaketa youna shiroi ato ga arimasu.”",
+   "translations": {
+    "vi": "\"Khoảng ba mươi, là người nhanh nhẹn. Trên trán có vết trắng như bị hóa chất làm bỏng.\"",
+    "en": "\"About thirty, quick in his movements. He has a white mark on his forehead, like a burn from chemicals.\"",
+    "zh-Hans": "\"三十岁左右，动作很敏捷。额头上有一块像是被药品烧伤的白色疤痕。\"",
+    "zh-Hant": "\"三十歲左右，動作很敏捷。額頭上有一塊像是被藥品燒傷的白色疤痕。\"",
+    "ko": "\"서른 살쯤에 동작이 재빠른 남자입니다. 이마에 약품에 덴 듯한 흰 자국이 있어요.\"",
+    "tl": "\"Mga tatlumpu, mabilis kumilos. May puting marka sa noo na parang paso ng kemikal.\"",
+    "ne": "\"तीस वर्षजति, चुस्त मानिस। निधारमा रसायनले पोलेजस्तो सेतो दाग छ।\"",
+    "id": "\"Sekitar tiga puluh, gerakannya gesit. Di dahinya ada bekas putih seperti luka bakar bahan kimia.\"",
+    "pt": "\"Uns trinta anos, ágil. Tem na testa uma marca branca, como queimadura de produto químico.\"",
+    "my": "\"အသက် သုံးဆယ်လောက်၊ လှုပ်ရှားမှု မြန်တယ်။ နဖူးမှာ ဓာတုပစ္စည်း လောင်ထားသလို အဖြူရောင် အမာရွတ် ရှိတယ်။\"",
+    "th": "\"ราวสามสิบ คล่องแคล่ว ที่หน้าผากมีรอยขาวเหมือนถูกสารเคมีลวก\""
+   },
+   "grammarNote": {
+    "vi": "「〜ぐらい」 = khoảng…. 「すばやい」 = nhanh nhẹn. 「〜ような」 = như là…. Hãy nhớ vết trên trán!",
+    "en": "〜ぐらい = \"about…\". すばやい = \"quick, nimble\". 〜ような = \"like…\". Remember the mark on the forehead!",
+    "zh-Hans": "「〜ぐらい」＝大约。「すばやい」＝敏捷。「〜ような」＝像……的。记住额头上的痕迹！",
+    "zh-Hant": "「〜ぐらい」＝大約。「すばやい」＝敏捷。「〜ような」＝像……的。記住額頭上的痕跡！",
+    "ko": "「〜ぐらい」= …쯤. 「すばやい」= 재빠르다. 이마의 자국을 기억하세요!",
+    "tl": "〜ぐらい = \"mga…\". すばやい = \"maliksi\". Tandaan ang marka sa noo!",
+    "ne": "「〜ぐらい」= जति। 「すばやい」= चुस्त। निधारको दाग याद राख्नुहोस्!",
+    "id": "〜ぐらい = \"sekitar\". すばやい = \"gesit\". Ingat bekas di dahi!",
+    "pt": "〜ぐらい = \"uns\". すばやい = \"ágil\". Lembre-se da marca na testa!",
+    "my": "「〜ぐらい」= လောက်။ 「すばやい」= မြန်။ နဖူးက အမာရွတ်ကို မှတ်ထား!",
+    "th": "「〜ぐらい」= ราว ๆ 「すばやい」= คล่องแคล่ว จำรอยที่หน้าผากไว้!"
+   },
+   "vocab": [
+    {
+     "word": "すばやい",
+     "reading": "すばやい",
+     "meanings": {
+      "vi": "nhanh nhẹn",
+      "en": "quick, nimble",
+      "zh-Hans": "敏捷",
+      "zh-Hant": "敏捷",
+      "ko": "재빠르다",
+      "tl": "maliksi",
+      "ne": "चुस्त",
+      "id": "gesit",
+      "pt": "ágil",
+      "my": "မြန်ဆန်",
+      "th": "คล่องแคล่ว"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "額",
+     "reading": "ひたい",
+     "meanings": {
+      "vi": "trán",
+      "en": "forehead",
+      "zh-Hans": "额头",
+      "zh-Hant": "額頭",
+      "ko": "이마",
+      "tl": "noo",
+      "ne": "निधार",
+      "id": "dahi",
+      "pt": "testa",
+      "my": "နဖူး",
+      "th": "หน้าผาก"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "薬品",
+     "reading": "やくひん",
+     "meanings": {
+      "vi": "hóa chất, thuốc",
+      "en": "chemicals",
+      "zh-Hans": "药品",
+      "zh-Hant": "藥品",
+      "ko": "약품",
+      "tl": "kemikal",
+      "ne": "रसायन",
+      "id": "bahan kimia",
+      "pt": "produto químico",
+      "my": "ဓာတုပစ္စည်း",
+      "th": "สารเคมี"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=323.17,331.63",
+   "t": [
+    323.17,
+    331.63
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「耳に、イヤリングの穴はありませんか。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "耳",
+     "reading": "みみ"
+    },
+    {
+     "surface": "に、イヤリングの",
+     "reading": ""
+    },
+    {
+     "surface": "穴",
+     "reading": "あな"
+    },
+    {
+     "surface": "はありませんか。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Mimi ni, iyaringu no ana wa arimasen ka.”",
+   "translations": {
+    "vi": "\"Trên tai cậu ta có lỗ xỏ khuyên không?\"",
+    "en": "\"Are his ears pierced for earrings?\"",
+    "zh-Hans": "\"他耳朵上有没有耳环的洞？\"",
+    "zh-Hant": "\"他耳朵上有沒有耳環的洞？\"",
+    "ko": "\"귀에 귀고리 구멍이 있지 않습니까?\"",
+    "tl": "\"May butas ba ng hikaw ang tainga niya?\"",
+    "ne": "\"उसको कानमा मुन्द्रीको प्वाल छैन?\"",
+    "id": "\"Apakah telinganya berlubang untuk anting?\"",
+    "pt": "\"Ele tem furos de brinco nas orelhas?\"",
+    "my": "\"သူ့ နားမှာ နားကပ်ပေါက် မရှိဘူးလား။\"",
+    "th": "\"หูของเขามีรูเจาะต่างหูไหม\""
+   },
+   "grammarNote": {
+    "vi": "「〜はありませんか」 = có… không? (hỏi phủ định — người hỏi đã đoán là có). Holmes đang kiểm tra một giả thuyết.",
+    "en": "〜はありませんか = \"isn't there…?\" (a negative question — the asker expects yes). Holmes is testing a theory.",
+    "zh-Hans": "「〜はありませんか」＝没有……吗？（否定疑问，提问者预料有）。福尔摩斯在验证推测。",
+    "zh-Hant": "「〜はありませんか」＝沒有……嗎？（否定疑問，提問者預料有）。福爾摩斯在驗證推測。",
+    "ko": "「〜はありませんか」= …있지 않습니까(있다고 짐작). 홈스는 가설을 확인 중.",
+    "tl": "〜はありませんか = \"wala bang…?\" (inaasahang mayroon). Sinusubok ni Holmes ang hinala.",
+    "ne": "「〜はありませんか」= … छैन? (छ भन्ने अनुमान)। होम्स अनुमान जाँच्दैछन्।",
+    "id": "〜はありませんか = \"tidak adakah…?\" (menduga ada). Holmes menguji dugaan.",
+    "pt": "〜はありませんか = \"não tem…?\" (espera que sim). Holmes testa uma hipótese.",
+    "my": "「〜はありませんか」= … မရှိဘူးလား။ ဟုမ်း ယူဆချက် စစ်နေ။",
+    "th": "「〜はありませんか」= ไม่มี…หรือ (คาดว่ามี) โฮมส์กำลังทดสอบสมมติฐาน"
+   },
+   "vocab": [
+    {
+     "word": "耳",
+     "reading": "みみ",
+     "meanings": {
+      "vi": "tai",
+      "en": "ear",
+      "zh-Hans": "耳朵",
+      "zh-Hant": "耳朵",
+      "ko": "귀",
+      "tl": "tainga",
+      "ne": "कान",
+      "id": "telinga",
+      "pt": "orelha",
+      "my": "နား",
+      "th": "หู"
+     },
+     "level": "N5"
+    },
+    {
+     "word": "穴",
+     "reading": "あな",
+     "meanings": {
+      "vi": "lỗ",
+      "en": "hole",
+      "zh-Hans": "洞",
+      "zh-Hant": "洞",
+      "ko": "구멍",
+      "tl": "butas",
+      "ne": "प्वाल",
+      "id": "lubang",
+      "pt": "furo",
+      "my": "အပေါက်",
+      "th": "รู"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=332.53,335.58",
+   "t": [
+    332.53,
+    335.58
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「ええ、あります。子どものころに開けたと言っていました。」",
+   "furigana": [
+    {
+     "surface": "「ええ、あります。",
+     "reading": ""
+    },
+    {
+     "surface": "子",
+     "reading": "こ"
+    },
+    {
+     "surface": "どものころに",
+     "reading": ""
+    },
+    {
+     "surface": "開",
+     "reading": "あ"
+    },
+    {
+     "surface": "けたと",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "っていました。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Ee, arimasu. Kodomo no koro ni aketa to itte imashita.”",
+   "translations": {
+    "vi": "\"Vâng, có ạ. Cậu ta bảo xỏ từ hồi còn nhỏ.\"",
+    "en": "\"Yes, he has. He said he had them done as a boy.\"",
+    "zh-Hans": "\"嗯，有的。他说是小时候打的。\"",
+    "zh-Hant": "\"嗯，有的。他說是小時候打的。\"",
+    "ko": "\"네, 있습니다. 어릴 때 뚫었다고 하더군요.\"",
+    "tl": "\"Opo, mayroon. Sabi niya ay binutas noong bata pa siya.\"",
+    "ne": "\"हो, छ। सानोमा छेडेको भनेको थियो।\"",
+    "id": "\"Ya, ada. Katanya dilubangi waktu kecil.\"",
+    "pt": "\"Sim, tem. Disse que furou quando era criança.\"",
+    "my": "\"ဟုတ်ကဲ့၊ ရှိတယ်။ ငယ်ငယ်က ဖောက်ထားတာလို့ ပြောတယ်။\"",
+    "th": "\"ครับ มีครับ เขาบอกว่าเจาะตั้งแต่เด็ก\""
+   },
+   "grammarNote": {
+    "vi": "「〜のころ」 = hồi…, thời…. 「開ける」 = mở, ở đây là xỏ (lỗ).",
+    "en": "〜のころ = \"when…, back in…\". 開ける = \"open\", here \"pierce\".",
+    "zh-Hans": "「〜のころ」＝……的时候。「開ける」＝打开，这里指打（耳洞）。",
+    "zh-Hant": "「〜のころ」＝……的時候。「開ける」＝開啟，這裡指打（耳洞）。",
+    "ko": "「〜のころ」= …시절. 「開ける」= 뚫다.",
+    "tl": "〜のころ = \"noong…\". 開ける = \"butasin\".",
+    "ne": "「〜のころ」= … को बेला। 「開ける」= छेड्नु।",
+    "id": "〜のころ = \"waktu…\". 開ける = \"melubangi\".",
+    "pt": "〜のころ = \"quando…\". 開ける = \"furar\".",
+    "my": "「〜のころ」= … တုန်းက။",
+    "th": "「〜のころ」= ตอน… 「開ける」= เจาะ"
+   },
+   "vocab": [],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=336.48,341.1",
+   "t": [
+    336.48,
+    341.1
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "ホームズの目が、きらりと光った。",
+   "furigana": [
+    {
+     "surface": "ホームズの",
+     "reading": ""
+    },
+    {
+     "surface": "目",
+     "reading": "め"
+    },
+    {
+     "surface": "が、きらりと",
+     "reading": ""
+    },
+    {
+     "surface": "光",
+     "reading": "ひか"
+    },
+    {
+     "surface": "った。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hoomuzu no me ga, kirari to hikatta.",
+   "translations": {
+    "vi": "Mắt Holmes ánh lên một tia sáng.",
+    "en": "Holmes's eyes flashed.",
+    "zh-Hans": "福尔摩斯的眼睛一亮。",
+    "zh-Hant": "福爾摩斯的眼睛一亮。",
+    "ko": "홈스의 눈이 번뜩였다.",
+    "tl": "Kumislap ang mga mata ni Holmes.",
+    "ne": "होम्सका आँखा चम्किए।",
+    "id": "Mata Holmes berkilat.",
+    "pt": "Os olhos de Holmes brilharam.",
+    "my": "ဟုမ်း၏ မျက်လုံး လက်ခနဲ တောက်သွားသည်။",
+    "th": "ดวงตาของโฮมส์เป็นประกายวาบ"
+   },
+   "grammarNote": {
+    "vi": "「きらりと」 = lóe lên, lấp lánh (từ tượng hình). 「光る」 = phát sáng.",
+    "en": "きらりと = \"with a flash\" (mimetic word). 光る = \"shine\".",
+    "zh-Hans": "「きらりと」＝一闪（拟态词）。「光る」＝发光。",
+    "zh-Hant": "「きらりと」＝一閃（擬態詞）。「光る」＝發光。",
+    "ko": "「きらりと」= 번쩍(의태어). 「光る」= 빛나다.",
+    "tl": "きらりと = \"kislap\". 光る = \"kumislap\".",
+    "ne": "「きらりと」= चम्किलो। 「光る」= चम्किनु।",
+    "id": "きらりと = \"berkilat\". 光る = \"bersinar\".",
+    "pt": "きらりと = \"num lampejo\". 光る = \"brilhar\".",
+    "my": "「きらりと」= လက်ခနဲ။",
+    "th": "「きらりと」= วาบ 「光る」= เป็นประกาย"
+   },
+   "vocab": [
+    {
+     "word": "光る",
+     "reading": "ひかる",
+     "meanings": {
+      "vi": "phát sáng",
+      "en": "to shine",
+      "zh-Hans": "发光",
+      "zh-Hant": "發光",
+      "ko": "빛나다",
+      "tl": "kumislap",
+      "ne": "चम्किनु",
+      "id": "bersinar",
+      "pt": "brilhar",
+      "my": "တောက်ပ",
+      "th": "ส่องแสง"
+     },
+     "level": "N4"
+    },
+    {
+     "word": "きらり",
+     "reading": "きらり",
+     "meanings": {
+      "vi": "lóe sáng",
+      "en": "with a flash",
+      "zh-Hans": "一闪",
+      "zh-Hant": "一閃",
+      "ko": "번쩍",
+      "tl": "kislap",
+      "ne": "चम्क",
+      "id": "berkilat",
+      "pt": "lampejo",
+      "my": "လက်ခနဲ",
+      "th": "วาบ"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=342,345.19",
+   "t": [
+    342,
+    345.19
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「よくわかりました。土曜日までには、お答えできると思います。」",
+   "furigana": [
+    {
+     "surface": "「よくわかりました。",
+     "reading": ""
+    },
+    {
+     "surface": "土曜日",
+     "reading": "どようび"
+    },
+    {
+     "surface": "までには、お",
+     "reading": ""
+    },
+    {
+     "surface": "答",
+     "reading": "こた"
+    },
+    {
+     "surface": "えできると",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "います。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Yoku wakarimashita. Doyoubi made ni wa, okotae dekiru to omoimasu.”",
+   "translations": {
+    "vi": "\"Tôi hiểu rồi. Đến thứ Bảy, chắc tôi có thể trả lời ông.\"",
+    "en": "\"I understand perfectly. I expect to have an answer for you by Saturday.\"",
+    "zh-Hans": "\"我明白了。星期六之前，应该能给您答复。\"",
+    "zh-Hant": "\"我明白了。星期六之前，應該能給您答覆。\"",
+    "ko": "\"잘 알겠습니다. 토요일까지는 답을 드릴 수 있을 겁니다.\"",
+    "tl": "\"Naiintindihan ko na. Pagsapit ng Sabado, may sagot na ako sa inyo.\"",
+    "ne": "\"बुझें। शनिबारसम्म जवाफ दिन सक्छु होला।\"",
+    "id": "\"Saya paham. Sebelum Sabtu, saya kira bisa memberi jawaban.\"",
+    "pt": "\"Entendi bem. Até sábado espero ter uma resposta.\"",
+    "my": "\"နားလည်ပါပြီ။ စနေနေ့မတိုင်မီ အဖြေ ပေးနိုင်မယ် ထင်ပါတယ်။\"",
+    "th": "\"เข้าใจแล้วครับ ภายในวันเสาร์ ผมคิดว่าจะให้คำตอบได้\""
+   },
+   "grammarNote": {
+    "vi": "「〜までに」 = trước (hạn) … (khác まで = cho đến…). 「お答えできる」 = khiêm nhường của 答えられる.",
+    "en": "〜までに = \"by (a deadline)\" (unlike まで = \"until\"). お答えできる = humble form of 答えられる.",
+    "zh-Hans": "「〜までに」＝在……之前（期限）。「お答えできる」＝谦让语。",
+    "zh-Hant": "「〜までに」＝在……之前（期限）。「お答えできる」＝謙讓語。",
+    "ko": "「〜までに」= …까지(기한). 「お答えできる」= 겸양.",
+    "tl": "〜までに = \"bago sumapit ang…\". お答えできる = mapagpakumbabang anyo.",
+    "ne": "「〜までに」= … सम्ममा (अवधि)। 「お答えできる」= विनम्र।",
+    "id": "〜までに = \"paling lambat…\". お答えできる = bentuk rendah hati.",
+    "pt": "〜までに = \"até (prazo)\". お答えできる = forma humilde.",
+    "my": "「〜までに」= … မတိုင်မီ။",
+    "th": "「〜までに」= ภายใน… 「お答えできる」= รูปถ่อมตน"
+   },
+   "vocab": [],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=346.09,350.88",
+   "t": [
+    346.09,
+    350.88
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "ウィルソン氏が帰ると、ホームズはパイプに火をつけ、いすに深く座った。",
+   "furigana": [
+    {
+     "surface": "ウィルソン",
+     "reading": ""
+    },
+    {
+     "surface": "氏",
+     "reading": "し"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "ると、ホームズはパイプに",
+     "reading": ""
+    },
+    {
+     "surface": "火",
+     "reading": "ひ"
+    },
+    {
+     "surface": "をつけ、いすに",
+     "reading": ""
+    },
+    {
+     "surface": "深",
+     "reading": "ふか"
+    },
+    {
+     "surface": "く",
+     "reading": ""
+    },
+    {
+     "surface": "座",
+     "reading": "すわ"
+    },
+    {
+     "surface": "った。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Uirusonshi ga kaeru to, hoomuzu wa paipu ni hi o tsuke, isu ni fukaku suwatta.",
+   "translations": {
+    "vi": "Khi ông Wilson về, Holmes châm tẩu thuốc và ngồi lún sâu vào ghế.",
+    "en": "When Mr. Wilson had gone, Holmes lit his pipe and sank deep into his chair.",
+    "zh-Hans": "威尔逊先生一走，福尔摩斯就点上烟斗，深深地坐进椅子里。",
+    "zh-Hant": "威爾遜先生一走，福爾摩斯就點上菸斗，深深地坐進椅子裡。",
+    "ko": "윌슨 씨가 돌아가자 홈스는 파이프에 불을 붙이고 의자에 깊숙이 앉았다.",
+    "tl": "Nang umalis si G. Wilson, sinindihan ni Holmes ang pipa at umupo nang malalim sa silya.",
+    "ne": "विल्सन गएपछि होम्सले पाइप सल्काए र कुर्सीमा गहिरिएर बसे।",
+    "id": "Setelah Tuan Wilson pulang, Holmes menyalakan pipa dan duduk dalam-dalam di kursi.",
+    "pt": "Quando o Sr. Wilson saiu, Holmes acendeu o cachimbo e afundou na poltrona.",
+    "my": "မစ္စတာ ဝီလ်ဆင် ပြန်သွားသောအခါ ဟုမ်းသည် ဆေးတံကို မီးညှိကာ ကုလားထိုင်တွင် နစ်နစ် ထိုင်လိုက်သည်။",
+    "th": "พอคุณวิลสันกลับไป โฮมส์ก็จุดไปป์ แล้วนั่งจมลงในเก้าอี้"
+   },
+   "grammarNote": {
+    "vi": "「Vると、〜」 = khi V thì (việc tiếp theo). 「火をつける」 = châm lửa. 「Vて、〜」 → ở văn viết dùng dạng liên dụng 「つけ、」.",
+    "en": "Vると、〜 = \"when V, then…\". 火をつける = \"light\". In writing, the stem つけ、 replaces つけて.",
+    "zh-Hans": "「Vると、〜」＝一……就。「火をつける」＝点火。书面语用连用形「つけ、」。",
+    "zh-Hant": "「Vると、〜」＝一……就。「火をつける」＝點火。書面語用連用形「つけ、」。",
+    "ko": "「Vると」= …하자. 「火をつける」= 불을 붙이다. 문어에서 「つけ、」.",
+    "tl": "Vると = \"nang…\". 火をつける = \"sindihan\".",
+    "ne": "「Vると」= … भएपछि। 「火をつける」= सल्काउनु।",
+    "id": "Vると = \"setelah…\". 火をつける = \"menyalakan\".",
+    "pt": "Vると = \"quando…\". 火をつける = \"acender\".",
+    "my": "「火をつける」= မီးညှိ။",
+    "th": "「Vると」= พอ… 「火をつける」= จุดไฟ"
+   },
+   "vocab": [
+    {
+     "word": "深い",
+     "reading": "ふかい",
+     "meanings": {
+      "vi": "sâu",
+      "en": "deep",
+      "zh-Hans": "深",
+      "zh-Hant": "深",
+      "ko": "깊다",
+      "tl": "malalim",
+      "ne": "गहिरो",
+      "id": "dalam",
+      "pt": "fundo",
+      "my": "နက်",
+      "th": "ลึก"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=351.78,357.97",
+   "t": [
+    351.78,
+    357.97
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「ワトソン君、これはパイプ三服分の問題だ。五十分ほど、話しかけないでくれたまえ。」",
+   "furigana": [
+    {
+     "surface": "「ワトソン",
+     "reading": ""
+    },
+    {
+     "surface": "君",
+     "reading": "くん"
+    },
+    {
+     "surface": "、これはパイプ",
+     "reading": ""
+    },
+    {
+     "surface": "三服",
+     "reading": "さんぷく"
+    },
+    {
+     "surface": "分",
+     "reading": "ぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "問題",
+     "reading": "もんだい"
+    },
+    {
+     "surface": "だ。",
+     "reading": ""
+    },
+    {
+     "surface": "五十分",
+     "reading": "ごじゅっぷん"
+    },
+    {
+     "surface": "ほど、",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はな"
+    },
+    {
+     "surface": "しかけないでくれたまえ。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Watosonkun, kore wa paipu sanpukubun no mondai da. Gojuppun hodo, hanashikakenaide kureta ma e.”",
+   "translations": {
+    "vi": "\"Watson này, đây là bài toán ba tẩu thuốc. Năm mươi phút, xin đừng nói chuyện với tôi.\"",
+    "en": "\"Watson, it is quite a three-pipe problem. I beg you won't speak to me for fifty minutes.\"",
+    "zh-Hans": "\"华生，这是个三斗烟的问题。五十分钟左右，请别跟我说话。\"",
+    "zh-Hant": "\"華生，這是個三鬥煙的問題。五十分鐘左右，請別跟我說話。\"",
+    "ko": "\"왓슨, 이건 파이프 세 대짜리 문제라네. 50분쯤 말 걸지 말아 주게.\"",
+    "tl": "\"Watson, problemang tatlong pipa ito. Huwag mo akong kausapin nang mga limampung minuto.\"",
+    "ne": "\"वाटसन, यो तीन पाइपको समस्या हो। पचास मिनेटजति मसँग नबोल है।\"",
+    "id": "\"Watson, ini masalah tiga pipa. Tolong jangan ajak aku bicara sekitar lima puluh menit.\"",
+    "pt": "\"Watson, é um problema de três cachimbos. Peço que não me fale por uns cinquenta minutos.\"",
+    "my": "\"ဝပ်ဆင်၊ ဒါက ဆေးတံ သုံးခါ ဖွာရမယ့် ပြဿနာပဲ။ မိနစ် ငါးဆယ်လောက် စကား မပြောပါနဲ့။\"",
+    "th": "\"วัตสัน นี่เป็นปัญหาขนาดสามไปป์ ห้าสิบนาทีอย่าคุยกับผมนะ\""
+   },
+   "grammarNote": {
+    "vi": "Câu nổi tiếng của Holmes (\"a three-pipe problem\"). 「〜服」 = đếm lần hút thuốc. 「Vないでくれたまえ」 = xin đừng V — giọng quý ông kiểu cũ (たまえ = mệnh lệnh nhẹ, trịch thượng thân mật).",
+    "en": "Holmes's famous line (\"a three-pipe problem\"). 〜服 counts puffs/pipes. Vないでくれたまえ = \"please don't V\" — an old-fashioned gentleman's tone (たまえ = a mild, superior-friendly command).",
+    "zh-Hans": "福尔摩斯的名句。「〜服」＝数抽烟次数。「Vないでくれたまえ」＝请别V——老派绅士口吻。",
+    "zh-Hant": "福爾摩斯的名句。「〜服」＝數抽菸次數。「Vないでくれたまえ」＝請別V——老派紳士口吻。",
+    "ko": "홈스의 명대사. 「〜服」= 담배 횟수. 「Vないでくれたまえ」= …하지 말아 주게(옛 신사 말투).",
+    "tl": "Kilalang linya ni Holmes. 〜服 = bilang ng hithit. Vないでくれたまえ = \"huwag mong V\" (lumang tono).",
+    "ne": "होम्सको प्रसिद्ध वाक्य। 〜服 = धूमपान गन्ती। Vないでくれたまえ = पुरानो भद्र शैली।",
+    "id": "Kalimat terkenal Holmes. 〜服 = hitungan isapan. Vないでくれたまえ = gaya pria kuno.",
+    "pt": "Frase famosa de Holmes. 〜服 = conta cachimbadas. Vないでくれたまえ = tom de cavalheiro antigo.",
+    "my": "ဟုမ်း၏ နာမည်ကြီး စကား။ 〜服 = ဖွာအကြိမ်။",
+    "th": "ประโยคดังของโฮมส์ 〜服 = นับครั้งสูบ 「Vないでくれたまえ」= สำนวนสุภาพบุรุษแบบเก่า"
+   },
+   "vocab": [
+    {
+     "word": "問題",
+     "reading": "もんだい",
+     "meanings": {
+      "vi": "vấn đề, bài toán",
+      "en": "problem",
+      "zh-Hans": "问题",
+      "zh-Hant": "問題",
+      "ko": "문제",
+      "tl": "problema",
+      "ne": "समस्या",
+      "id": "masalah",
+      "pt": "problema",
+      "my": "ပြဿနာ",
+      "th": "ปัญหา"
+     },
+     "level": "N5"
+    },
+    {
+     "word": "話しかける",
+     "reading": "はなしかける",
+     "meanings": {
+      "vi": "bắt chuyện",
+      "en": "to speak to",
+      "zh-Hans": "搭话",
+      "zh-Hant": "搭話",
+      "ko": "말을 걸다",
+      "tl": "kausapin",
+      "ne": "बोल्नु",
+      "id": "mengajak bicara",
+      "pt": "dirigir a palavra",
+      "my": "စကားပြော",
+      "th": "ชวนคุย"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/mystery-akagami-1/chapter.mp3#t=358.87,366.25",
+   "t": [
+    358.87,
+    366.25
+   ],
+   "voice": "ja-JP-Neural2-C"
+  }
+ ]
+}
