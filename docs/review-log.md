@@ -572,6 +572,22 @@ Quy tắc: chữ kanji hiển thị ở bất kỳ đâu trong app đều phải
 - Dựng lại bộ thẻ: thêm `public/decks/grammar-N3.json` (7 bộ, 1.548 thẻ). Mọi câu ví dụ có furigana (0 kanji trần).
 - Còn lại: Ngữ pháp N2 (194) và N1 (143).
 
+## Trạng Quỳnh — series N4, 3 tập (Việt yêu cầu 26/11, "bé rất thích nghe")
+
+Series `furusato-vn-quynh`, kệ truyện quê hương (VN), N4, kể lại bằng tiếng Nhật dễ cho thiếu nhi từ giai thoại dân gian về Nguyễn Quỳnh (1677–1748), thuộc phạm vi công cộng.
+
+| Tập | id | Tựa | Audio | Nội dung |
+|---|---|---|---|---|
+| 1 (miễn phí) | furusato-vn-quynh-1 | 石の芽の料理 | 5.1 phút | Lừa thầy đồ ra khỏi phòng; chúa Trịnh ăn "mầm đá", hũ tương "Đại phong" (大風) |
+| 2 | furusato-vn-quynh-2 | 殿様のねこ | 5.1 phút | Dạy mèo quý của chúa chỉ ăn cơm, thắng phép thử hai bát |
+| 3 | furusato-vn-quynh-3 | 十ぴきの竜 | 5.3 phút | Mười ngón tay vẽ mười con giun = 地竜 (địa long); câu đố gốc/ngọn khúc gỗ |
+
+- Chỉnh cho thiếu nhi: tập 2 không đánh mèo (Quỳnh lấy tay che bát), kết bằng việc Quỳnh trả mèo và xin chúa chia cá gạo cho trẻ nghèo. Bản gốc Quỳnh giữ luôn mèo; sourceNote ghi rõ chỗ đổi.
+- Chơi chữ "Đại phong → lọ tương" không dịch được sang tiếng Nhật; phần giải thích tiếng Việt nói rõ. Ở tập 3, 地竜 là tên thật của giun đất trong sách thuốc, nên trò chơi chữ đứng được trong tiếng Nhật.
+- Mỗi tập: dịch và giải thích 10 ngôn ngữ, bài học 4 ngữ pháp + 4 câu hỏi (có furigana), bìa 文庫 font Mochiy Pop P One, motif mới `quynh1`–`quynh3`.
+- Giọng: Aoede dẫn truyện; Quỳnh Neural2-C (p+3); chúa C (p-3); thầy đồ C (p-6); sứ thần C (rate 0.92, p-9). QC chuẩn v2 chỉ nhận Aoede/Neural2-B/Neural2-C, nên không dùng Neural2-D.
+- Dừng ở 3 tập để tránh gán nhầm giai thoại không chắc là của Trạng Quỳnh. Tập 3 kết bằng "tạm kết, còn nhiều chuyện nữa", nên có thể làm thêm nếu cần.
+
 ## Thẻ ôn từ ViBJT — lô 7 (Ngữ pháp N2) — 26/11/2026
 
 - Dịch 194 thẻ ngữ pháp N2 (nghĩa mẫu câu + câu ví dụ) sang 9 ngôn ngữ còn thiếu: `content/sources/decks/src/grammar-n2-1..3.txt` → `tr/*.jsonl`.

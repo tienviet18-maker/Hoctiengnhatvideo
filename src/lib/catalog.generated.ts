@@ -11424,6 +11424,102 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-kieu-4/chapter.mp3",
    "durationSec": 386.52
   }
+ },
+ {
+  "id": "furusato-vn-quynh-1",
+  "titles": {
+   "vi": "Trạng Quỳnh (1): Món mầm đá",
+   "en": "Trang Quynh (1): Stone Sprouts",
+   "zh-Hans": "状元琼（1）：石头芽",
+   "zh-Hant": "狀元瓊（1）：石頭芽",
+   "ko": "짱 뀐 (1): 돌 새싹 요리",
+   "tl": "Trang Quynh (1): Usbong ng Bato",
+   "ne": "ट्राङ क्विन (१): ढुङ्गाको टुसा",
+   "id": "Trang Quynh (1): Tunas Batu",
+   "pt": "Trang Quynh (1): Brotos de Pedra",
+   "my": "ချန်းကွင် (၁): ကျောက်ညှောက်ဟင်း",
+   "th": "จ่างกวิ่ญ (1): หน่อหิน"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-quynh-1.webp",
+  "series": {
+   "id": "furusato-vn-quynh",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-quynh-1/chapter.mp3",
+   "durationSec": 305.616
+  }
+ },
+ {
+  "id": "furusato-vn-quynh-2",
+  "titles": {
+   "vi": "Trạng Quỳnh (2): Con mèo của chúa",
+   "en": "Trang Quynh (2): The Lord's Cat",
+   "zh-Hans": "状元琼（2）：主公的猫",
+   "zh-Hant": "狀元瓊（2）：主公的貓",
+   "ko": "짱 뀐 (2): 영주의 고양이",
+   "tl": "Trang Quynh (2): Ang Pusa ng Panginoon",
+   "ne": "ट्राङ क्विन (२): राजाको बिरालो",
+   "id": "Trang Quynh (2): Kucing Sang Tuan",
+   "pt": "Trang Quynh (2): O Gato do Senhor",
+   "my": "ချန်းကွင် (၂): မင်းရဲ့ကြောင်",
+   "th": "จ่างกวิ่ญ (2): แมวของเจ้านาย"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-quynh-2.webp",
+  "series": {
+   "id": "furusato-vn-quynh",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-quynh-2/chapter.mp3",
+   "durationSec": 305.664
+  }
+ },
+ {
+  "id": "furusato-vn-quynh-3",
+  "titles": {
+   "vi": "Trạng Quỳnh (3): Vẽ rồng thi với sứ Tàu",
+   "en": "Trang Quynh (3): The Dragon-Drawing Contest",
+   "zh-Hans": "状元琼（3）：与使者比画龙",
+   "zh-Hant": "狀元瓊（3）：與使者比畫龍",
+   "ko": "짱 뀐 (3): 사신과 용 그리기 대결",
+   "tl": "Trang Quynh (3): Paligsahan sa Pagguhit ng Dragon",
+   "ne": "ट्राङ क्विन (३): ड्र्यागन चित्र प्रतियोगिता",
+   "id": "Trang Quynh (3): Lomba Melukis Naga",
+   "pt": "Trang Quynh (3): O Duelo do Dragão",
+   "my": "ချန်းကွင် (၃): နဂါးပုံဆွဲပြိုင်ပွဲ",
+   "th": "จ่างกวิ่ญ (3): ประชันวาดมังกร"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-quynh-3.webp",
+  "series": {
+   "id": "furusato-vn-quynh",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-quynh-3/chapter.mp3",
+   "durationSec": 316.08
+  }
  }
 ];
 
