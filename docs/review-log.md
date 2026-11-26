@@ -679,3 +679,20 @@ Việt giao đấu nối Firebase, Cloudflare và SePay, học theo ViBJT. Bài 
   mở đăng nhập trước, xong thì sang bước chuyển khoản; tab Tôi hiện tên/email tài khoản thay cho chữ "MiraiGo".
 - Phần video (phụ đề YouTube che hình, tua ra ngoài đoạn cắt) chuyển cho luồng video.
 - `npm run verify` xanh.
+
+## Truyện: bìa cho mọi gói, bỏ nhãn VIP trên bìa, cân lại free/VIP — 26/11/2026
+
+Việt xem bản web và đánh giá "chưa đạt": nhiều sách chưa có bìa, truyện VIP bấm vào là bắt mua, nội dung mỏng.
+Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse chỉ ~10 câu, chỉ có vi/en, không bìa; N4 chỉ 3/264 truyện miễn phí.
+
+- **Bìa cho cả 347 gói cũ** (`scripts/covers/render-old.mjs`, dữ liệu `content/sources/old-covers/covers.tsv`): kiểu 文庫 đã duyệt,
+  tựa Nhật dọc, một ấn tròn đỏ mang chữ Hán gợi truyện (羅生門 → 門, ごんぎつね → 狐), hoa văn nền đổi theo id, phông đổi theo truyện
+  (26 phông; Mai-chan dùng 6 phông tròn kèm hình Mai). Motif mới `mon`/`monmai` trong `scripts/covers/cover.html`; tựa Nhật dài
+  (10–14 chữ) có cỡ chữ nhỏ hơn. Trường `cover` của gói đổi từ mô tả ảnh sang `/covers/<id>.webp`. Nay 492/492 truyện có bìa.
+- **Bỏ nhãn VIP trên bìa** (`StoryCover`) theo ý Việt: truyện nào cũng mở được, đọc và nghe thử 3 câu rồi mới hiện lời mời VIP.
+  Lộ trình (`PathClient`) cũng mở trang đọc thay vì bật màn mua ngay.
+- **Free/VIP**: gói cũ ngắn (~10 câu) chuyển hết sang miễn phí, vì không đáng thu tiền. VIP chỉ còn các gói chuẩn v2 (30–60 câu,
+  audio liền, bài học, 11 ngôn ngữ), tập 1 mỗi bộ vẫn miễn phí. N4: 204/208 miễn phí, N3 69/119, N2 3/10, N1 2/6.
+- Việc tiếp: sản xuất thật nhiều truyện v2 (truyện cổ thế giới, triết lý sống public domain, truyện Việt, văn học Nhật làm lại bản dài),
+  rồi thay dần gói cũ.
+- `npm run verify` xanh.

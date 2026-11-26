@@ -2930,7 +2930,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/baito-first-morning.webp"
  },
  {
   "id": "supermarket-first",
@@ -2942,7 +2943,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/supermarket-first.webp"
  },
  {
   "id": "at-the-clinic",
@@ -2953,8 +2955,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/at-the-clinic.webp"
  },
  {
   "id": "train-to-school",
@@ -2966,7 +2969,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/train-to-school.webp"
  },
  {
   "id": "renting-a-room",
@@ -2977,8 +2981,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/renting-a-room.webp"
  },
  {
   "id": "yumejuya-night1",
@@ -2989,8 +2994,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 13
+  "free": true,
+  "sentenceCount": 13,
+  "cover": "/covers/yumejuya-night1.webp"
  },
  {
   "id": "momotaro",
@@ -3099,8 +3105,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-bank.webp"
  },
  {
   "id": "baito-interview",
@@ -3112,7 +3119,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/baito-interview.webp"
  },
  {
   "id": "shita-kiri-suzume",
@@ -3137,8 +3145,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 14
+  "free": true,
+  "sentenceCount": 14,
+  "cover": "/covers/saru-kani-gassen.webp"
  },
  {
   "id": "bunbuku-chagama",
@@ -3150,7 +3159,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 12
+  "sentenceCount": 12,
+  "cover": "/covers/bunbuku-chagama.webp"
  },
  {
   "id": "yumejuya-night2",
@@ -3161,8 +3171,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 13
+  "free": true,
+  "sentenceCount": 13,
+  "cover": "/covers/yumejuya-night2.webp"
  },
  {
   "id": "yumejuya-night3",
@@ -3173,8 +3184,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 13
+  "free": true,
+  "sentenceCount": 13,
+  "cover": "/covers/yumejuya-night3.webp"
  },
  {
   "id": "nezumi-no-yomeiri",
@@ -3186,7 +3198,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 12
+  "sentenceCount": 12,
+  "cover": "/covers/nezumi-no-yomeiri.webp"
  },
  {
   "id": "kachi-kachi-yama",
@@ -3197,8 +3210,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 13
+  "free": true,
+  "sentenceCount": 13,
+  "cover": "/covers/kachi-kachi-yama.webp"
  },
  {
   "id": "yumejuya-night4",
@@ -3209,8 +3223,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 13
+  "free": true,
+  "sentenceCount": 13,
+  "cover": "/covers/yumejuya-night4.webp"
  },
  {
   "id": "at-city-hall",
@@ -3221,8 +3236,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/at-city-hall.webp"
  },
  {
   "id": "at-the-post-office",
@@ -3234,7 +3250,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-post-office.webp"
  },
  {
   "id": "at-the-barber",
@@ -3246,7 +3263,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-barber.webp"
  },
  {
   "id": "yumejuya-night5",
@@ -3257,8 +3275,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 15
+  "free": true,
+  "sentenceCount": 15,
+  "cover": "/covers/yumejuya-night5.webp"
  },
  {
   "id": "yumejuya-night6",
@@ -3269,8 +3288,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 13
+  "free": true,
+  "sentenceCount": 13,
+  "cover": "/covers/yumejuya-night6.webp"
  },
  {
   "id": "omusubi-kororin",
@@ -3282,7 +3302,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 13
+  "sentenceCount": 13,
+  "cover": "/covers/omusubi-kororin.webp"
  },
  {
   "id": "kobutori-jiisan",
@@ -3293,8 +3314,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 13
+  "free": true,
+  "sentenceCount": 13,
+  "cover": "/covers/kobutori-jiisan.webp"
  },
  {
   "id": "yumejuya-night7",
@@ -3305,8 +3327,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 15
+  "free": true,
+  "sentenceCount": 15,
+  "cover": "/covers/yumejuya-night7.webp"
  },
  {
   "id": "yumejuya-night8",
@@ -3317,8 +3340,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 14
+  "free": true,
+  "sentenceCount": 14,
+  "cover": "/covers/yumejuya-night8.webp"
  },
  {
   "id": "at-the-pharmacy",
@@ -3329,8 +3353,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-pharmacy.webp"
  },
  {
   "id": "taking-out-garbage",
@@ -3342,7 +3367,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/taking-out-garbage.webp"
  },
  {
   "id": "yumejuya-night9",
@@ -3353,8 +3379,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 14
+  "free": true,
+  "sentenceCount": 14,
+  "cover": "/covers/yumejuya-night9.webp"
  },
  {
   "id": "yumejuya-night10",
@@ -3365,8 +3392,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 15
+  "free": true,
+  "sentenceCount": 15,
+  "cover": "/covers/yumejuya-night10.webp"
  },
  {
   "id": "at-the-convenience-store",
@@ -3378,7 +3406,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-convenience-store.webp"
  },
  {
   "id": "calling-the-landlord",
@@ -3389,8 +3418,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/calling-the-landlord.webp"
  },
  {
   "id": "warashibe-choja",
@@ -3401,8 +3431,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 14
+  "free": true,
+  "sentenceCount": 14,
+  "cover": "/covers/warashibe-choja.webp"
  },
  {
   "id": "yuki-onna",
@@ -3428,7 +3459,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/shopping-for-clothes.webp"
  },
  {
   "id": "at-the-dentist",
@@ -3439,8 +3471,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-dentist.webp"
  },
  {
   "id": "nezumi-no-sumo",
@@ -3452,7 +3485,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 12
+  "sentenceCount": 12,
+  "cover": "/covers/nezumi-no-sumo.webp"
  },
  {
   "id": "kumo-no-ito",
@@ -3463,8 +3497,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 13
+  "free": true,
+  "sentenceCount": 13,
+  "cover": "/covers/kumo-no-ito.webp"
  },
  {
   "id": "chumon-no-oi-ryoriten",
@@ -3475,8 +3510,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 14
+  "free": true,
+  "sentenceCount": 14,
+  "cover": "/covers/chumon-no-oi-ryoriten.webp"
  },
  {
   "id": "sending-a-parcel",
@@ -3487,8 +3523,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/sending-a-parcel.webp"
  },
  {
   "id": "san-nen-netaro",
@@ -3499,8 +3536,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 13
+  "free": true,
+  "sentenceCount": 13,
+  "cover": "/covers/san-nen-netaro.webp"
  },
  {
   "id": "riding-the-bus",
@@ -3512,7 +3550,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/riding-the-bus.webp"
  },
  {
   "id": "taking-a-taxi",
@@ -3524,7 +3563,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/taking-a-taxi.webp"
  },
  {
   "id": "getting-a-phone",
@@ -3535,8 +3575,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/getting-a-phone.webp"
  },
  {
   "id": "rashomon",
@@ -3547,8 +3588,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 13
+  "free": true,
+  "sentenceCount": 13,
+  "cover": "/covers/rashomon.webp"
  },
  {
   "id": "visiting-a-shrine",
@@ -3560,7 +3602,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/visiting-a-shrine.webp"
  },
  {
   "id": "making-a-reservation",
@@ -3571,8 +3614,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/making-a-reservation.webp"
  },
  {
   "id": "asking-for-leave",
@@ -3583,8 +3627,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/asking-for-leave.webp"
  },
  {
   "id": "kasa-jizo",
@@ -3609,8 +3654,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/moving-house.webp"
  },
  {
   "id": "buying-a-bicycle",
@@ -3622,7 +3668,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/buying-a-bicycle.webp"
  },
  {
   "id": "hagoromo",
@@ -3633,8 +3680,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/hagoromo.webp"
  },
  {
   "id": "ame-nimo-makezu",
@@ -3645,8 +3693,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/ame-nimo-makezu.webp"
  },
  {
   "id": "hanami-picnic",
@@ -3658,7 +3707,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/hanami-picnic.webp"
  },
  {
   "id": "first-day-at-work",
@@ -3669,8 +3719,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/first-day-at-work.webp"
  },
  {
   "id": "frog-in-the-well",
@@ -3682,7 +3733,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/frog-in-the-well.webp"
  },
  {
   "id": "at-the-airport",
@@ -3693,8 +3745,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/at-the-airport.webp"
  },
  {
   "id": "lost-wallet",
@@ -3705,8 +3758,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/lost-wallet.webp"
  },
  {
   "id": "earthquake-safety",
@@ -3717,8 +3771,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/earthquake-safety.webp"
  },
  {
   "id": "tanabata-story",
@@ -3730,7 +3785,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/tanabata-story.webp"
  },
  {
   "id": "at-the-library",
@@ -3742,7 +3798,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-library.webp"
  },
  {
   "id": "toshishun",
@@ -3753,8 +3810,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 12
+  "free": true,
+  "sentenceCount": 12,
+  "cover": "/covers/toshishun.webp"
  },
  {
   "id": "hana-the-nose",
@@ -3765,8 +3823,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/hana-the-nose.webp"
  },
  {
   "id": "sanmai-no-ofuda",
@@ -3777,8 +3836,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/sanmai-no-ofuda.webp"
  },
  {
   "id": "at-the-laundromat",
@@ -3790,7 +3850,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-laundromat.webp"
  },
  {
   "id": "cooking-dinner",
@@ -3802,7 +3863,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/cooking-dinner.webp"
  },
  {
   "id": "sero-hiki-no-goshu",
@@ -3813,8 +3875,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 12
+  "free": true,
+  "sentenceCount": 12,
+  "cover": "/covers/sero-hiki-no-goshu.webp"
  },
  {
   "id": "yamanashi",
@@ -3825,8 +3888,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/yamanashi.webp"
  },
  {
   "id": "at-the-onsen",
@@ -3837,8 +3901,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/at-the-onsen.webp"
  },
  {
   "id": "kamotori-gonbei",
@@ -3850,7 +3915,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/kamotori-gonbei.webp"
  },
  {
   "id": "visiting-a-friend",
@@ -3862,7 +3928,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/visiting-a-friend.webp"
  },
  {
   "id": "donguri-to-yamaneko",
@@ -3873,8 +3940,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 12
+  "free": true,
+  "sentenceCount": 12,
+  "cover": "/covers/donguri-to-yamaneko.webp"
  },
  {
   "id": "typhoon-day",
@@ -3885,8 +3953,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/typhoon-day.webp"
  },
  {
   "id": "first-snow",
@@ -3898,7 +3967,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/first-snow.webp"
  },
  {
   "id": "benkei-ushiwakamaru",
@@ -3923,8 +3993,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 12
+  "free": true,
+  "sentenceCount": 12,
+  "cover": "/covers/torokko.webp"
  },
  {
   "id": "at-the-gym",
@@ -3936,7 +4007,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-gym.webp"
  },
  {
   "id": "obon-holiday",
@@ -3947,8 +4019,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/obon-holiday.webp"
  },
  {
   "id": "esugata-nyobo",
@@ -3959,8 +4032,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/esugata-nyobo.webp"
  },
  {
   "id": "mikan",
@@ -3971,8 +4045,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/mikan.webp"
  },
  {
   "id": "riding-the-shinkansen",
@@ -3983,8 +4058,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/riding-the-shinkansen.webp"
  },
  {
   "id": "new-year-in-japan",
@@ -3995,8 +4071,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/new-year-in-japan.webp"
  },
  {
   "id": "ubasute-yama",
@@ -4007,8 +4084,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/ubasute-yama.webp"
  },
  {
   "id": "gongitsune",
@@ -4019,8 +4097,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 13
+  "free": true,
+  "sentenceCount": 13,
+  "cover": "/covers/gongitsune.webp"
  },
  {
   "id": "summer-festival",
@@ -4032,7 +4111,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/summer-festival.webp"
  },
  {
   "id": "camping-trip",
@@ -4043,8 +4123,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/camping-trip.webp"
  },
  {
   "id": "zashiki-warashi",
@@ -4055,8 +4136,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/zashiki-warashi.webp"
  },
  {
   "id": "tebukuro-o-kai-ni",
@@ -4067,8 +4149,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 12
+  "free": true,
+  "sentenceCount": 12,
+  "cover": "/covers/tebukuro-o-kai-ni.webp"
  },
  {
   "id": "my-number-card",
@@ -4079,8 +4162,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/my-number-card.webp"
  },
  {
   "id": "at-the-hairdresser",
@@ -4105,8 +4189,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/wakagaeri-no-mizu.webp"
  },
  {
   "id": "dendenmushi-no-kanashimi",
@@ -4117,8 +4202,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/dendenmushi-no-kanashimi.webp"
  },
  {
   "id": "converting-a-license",
@@ -4129,8 +4215,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/converting-a-license.webp"
  },
  {
   "id": "trip-to-kyoto",
@@ -4142,7 +4229,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/trip-to-kyoto.webp"
  },
  {
   "id": "golden-axe",
@@ -4154,7 +4242,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/golden-axe.webp"
  },
  {
   "id": "imogayu",
@@ -4165,8 +4254,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/imogayu.webp"
  },
  {
   "id": "health-checkup",
@@ -4177,8 +4267,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/health-checkup.webp"
  },
  {
   "id": "yoro-no-taki",
@@ -4190,7 +4281,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/yoro-no-taki.webp"
  },
  {
   "id": "parents-visiting-japan",
@@ -4201,8 +4293,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/parents-visiting-japan.webp"
  },
  {
   "id": "remon-kajii",
@@ -4213,8 +4306,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/remon-kajii.webp"
  },
  {
   "id": "using-an-atm",
@@ -4226,7 +4320,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/using-an-atm.webp"
  },
  {
   "id": "tengu-no-kakuremino",
@@ -4237,8 +4332,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/tengu-no-kakuremino.webp"
  },
  {
   "id": "trip-to-okinawa",
@@ -4250,7 +4346,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/trip-to-okinawa.webp"
  },
  {
   "id": "ojiisan-no-lamp",
@@ -4261,8 +4358,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 12
+  "free": true,
+  "sentenceCount": 12,
+  "cover": "/covers/ojiisan-no-lamp.webp"
  },
  {
   "id": "buying-a-train-pass",
@@ -4274,7 +4372,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/buying-a-train-pass.webp"
  },
  {
   "id": "shuten-doji",
@@ -4299,8 +4398,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/company-drinking-party.webp"
  },
  {
   "id": "sangetsuki",
@@ -4311,8 +4411,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 12
+  "free": true,
+  "sentenceCount": 12,
+  "cover": "/covers/sangetsuki.webp"
  },
  {
   "id": "three-little-pigs",
@@ -4324,7 +4425,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/three-little-pigs.webp"
  },
  {
   "id": "japanese-language-class",
@@ -4336,7 +4438,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/japanese-language-class.webp"
  },
  {
   "id": "trip-to-hokkaido",
@@ -4348,7 +4451,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/trip-to-hokkaido.webp"
  },
  {
   "id": "yabu-no-naka",
@@ -4359,8 +4463,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/yabu-no-naka.webp"
  },
  {
   "id": "going-to-the-movies",
@@ -4372,7 +4477,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/going-to-the-movies.webp"
  },
  {
   "id": "kitsune-no-yomeiri",
@@ -4384,7 +4490,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 9
+  "sentenceCount": 9,
+  "cover": "/covers/kitsune-no-yomeiri.webp"
  },
  {
   "id": "sending-money-home",
@@ -4395,8 +4502,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/sending-money-home.webp"
  },
  {
   "id": "i-am-a-cat",
@@ -4407,8 +4515,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/i-am-a-cat.webp"
  },
  {
   "id": "bicycle-rules-in-japan",
@@ -4419,8 +4528,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/bicycle-rules-in-japan.webp"
  },
  {
   "id": "daiku-to-oniroku",
@@ -4431,8 +4541,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/daiku-to-oniroku.webp"
  },
  {
   "id": "christmas-in-japan",
@@ -4444,7 +4555,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/christmas-in-japan.webp"
  },
  {
   "id": "ginga-tetsudo-no-yoru",
@@ -4455,8 +4567,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 12
+  "free": true,
+  "sentenceCount": 12,
+  "cover": "/covers/ginga-tetsudo-no-yoru.webp"
  },
  {
   "id": "finding-a-part-time-job",
@@ -4467,8 +4580,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/finding-a-part-time-job.webp"
  },
  {
   "id": "tengu-no-uchiwa",
@@ -4480,7 +4594,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/tengu-no-uchiwa.webp"
  },
  {
   "id": "making-a-bento",
@@ -4492,7 +4607,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/making-a-bento.webp"
  },
  {
   "id": "takasebune",
@@ -4503,8 +4619,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/takasebune.webp"
  },
  {
   "id": "opening-a-bank-account",
@@ -4530,7 +4647,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/kikimimi-zukin.webp"
  },
  {
   "id": "at-the-electronics-store",
@@ -4542,7 +4660,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-electronics-store.webp"
  },
  {
   "id": "botchan",
@@ -4568,7 +4687,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/neighborhood-cleanup.webp"
  },
  {
   "id": "binbogami",
@@ -4580,7 +4700,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/binbogami.webp"
  },
  {
   "id": "driving-school",
@@ -4591,8 +4712,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/driving-school.webp"
  },
  {
   "id": "musashino",
@@ -4603,8 +4725,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/musashino.webp"
  },
  {
   "id": "school-sports-day",
@@ -4616,7 +4739,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/school-sports-day.webp"
  },
  {
   "id": "miminashi-hoichi",
@@ -4627,8 +4751,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/miminashi-hoichi.webp"
  },
  {
   "id": "school-visit-day",
@@ -4639,8 +4764,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/school-visit-day.webp"
  },
  {
   "id": "kaze-no-matasaburo",
@@ -4651,8 +4777,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/kaze-no-matasaburo.webp"
  },
  {
   "id": "getting-glasses",
@@ -4664,7 +4791,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/getting-glasses.webp"
  },
  {
   "id": "setsubun",
@@ -4676,7 +4804,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/setsubun.webp"
  },
  {
   "id": "buying-a-used-car",
@@ -4687,8 +4816,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/buying-a-used-car.webp"
  },
  {
   "id": "kappa",
@@ -4699,8 +4829,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 12
+  "free": true,
+  "sentenceCount": 12,
+  "cover": "/covers/kappa.webp"
  },
  {
   "id": "using-courier-delivery",
@@ -4712,7 +4843,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/using-courier-delivery.webp"
  },
  {
   "id": "usagi-to-kame",
@@ -4724,7 +4856,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/usagi-to-kame.webp"
  },
  {
   "id": "apartment-living-rules",
@@ -4735,8 +4868,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/apartment-living-rules.webp"
  },
  {
   "id": "takekurabe",
@@ -4747,8 +4881,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/takekurabe.webp"
  },
  {
   "id": "renting-a-car",
@@ -4760,7 +4895,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/renting-a-car.webp"
  },
  {
   "id": "akazukin",
@@ -4772,7 +4908,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/akazukin.webp"
  },
  {
   "id": "at-the-vet",
@@ -4783,8 +4920,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-vet.webp"
  },
  {
   "id": "at-the-bookstore",
@@ -4796,7 +4934,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-bookstore.webp"
  },
  {
   "id": "match-girl",
@@ -4808,7 +4947,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/match-girl.webp"
  },
  {
   "id": "school-lunch",
@@ -4819,8 +4959,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/school-lunch.webp"
  },
  {
   "id": "maihime",
@@ -4831,8 +4972,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 12
+  "free": true,
+  "sentenceCount": 12,
+  "cover": "/covers/maihime.webp"
  },
  {
   "id": "birthday-party",
@@ -4844,7 +4986,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/birthday-party.webp"
  },
  {
   "id": "cinderella",
@@ -4856,7 +4999,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/cinderella.webp"
  },
  {
   "id": "kotatsu-winter",
@@ -4867,8 +5011,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/kotatsu-winter.webp"
  },
  {
   "id": "kokoro",
@@ -4879,8 +5024,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 12
+  "free": true,
+  "sentenceCount": 12,
+  "cover": "/covers/kokoro.webp"
  },
  {
   "id": "smartphone-payment",
@@ -4892,7 +5038,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/smartphone-payment.webp"
  },
  {
   "id": "ningyo-hime",
@@ -4904,7 +5051,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/ningyo-hime.webp"
  },
  {
   "id": "farmers-market",
@@ -4915,8 +5063,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/farmers-market.webp"
  },
  {
   "id": "zoo-with-kids",
@@ -4928,7 +5077,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/zoo-with-kids.webp"
  },
  {
   "id": "bremen-musicians",
@@ -4940,7 +5090,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/bremen-musicians.webp"
  },
  {
   "id": "entrance-ceremony",
@@ -4951,8 +5102,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/entrance-ceremony.webp"
  },
  {
   "id": "sanshiro",
@@ -4963,8 +5115,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 12
+  "free": true,
+  "sentenceCount": 12,
+  "cover": "/covers/sanshiro.webp"
  },
  {
   "id": "at-the-gas-station",
@@ -4976,7 +5129,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-gas-station.webp"
  },
  {
   "id": "thumbelina",
@@ -4988,7 +5142,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/thumbelina.webp"
  },
  {
   "id": "kids-swimming-school",
@@ -4999,8 +5154,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/kids-swimming-school.webp"
  },
  {
   "id": "sansho-dayu",
@@ -5026,7 +5182,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-flower-shop.webp"
  },
  {
   "id": "hansel-and-gretel",
@@ -5038,7 +5195,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/hansel-and-gretel.webp"
  },
  {
   "id": "piano-lessons",
@@ -5049,8 +5207,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/piano-lessons.webp"
  },
  {
   "id": "goju-no-to",
@@ -5061,8 +5220,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 12
+  "free": true,
+  "sentenceCount": 12,
+  "cover": "/covers/goju-no-to.webp"
  },
  {
   "id": "hundred-yen-shop",
@@ -5074,7 +5234,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/hundred-yen-shop.webp"
  },
  {
   "id": "puss-in-boots",
@@ -5086,7 +5247,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/puss-in-boots.webp"
  },
  {
   "id": "balcony-garden",
@@ -5097,8 +5259,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/balcony-garden.webp"
  },
  {
   "id": "shiki-haiku",
@@ -5123,7 +5286,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/bicycle-practice.webp"
  },
  {
   "id": "jack-and-the-beanstalk",
@@ -5135,7 +5299,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/jack-and-the-beanstalk.webp"
  },
  {
   "id": "radio-taiso",
@@ -5146,8 +5311,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/radio-taiso.webp"
  },
  {
   "id": "yosano-akiko",
@@ -5172,7 +5338,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/preparing-nengajo.webp"
  },
  {
   "id": "snow-white",
@@ -5184,7 +5351,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/snow-white.webp"
  },
  {
   "id": "first-allowance",
@@ -5195,8 +5363,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/first-allowance.webp"
  },
  {
   "id": "kitahara-hakushu",
@@ -5221,7 +5390,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/buying-a-birthday-cake.webp"
  },
  {
   "id": "alice-in-wonderland",
@@ -5233,7 +5403,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/alice-in-wonderland.webp"
  },
  {
   "id": "first-lost-tooth",
@@ -5244,8 +5415,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/first-lost-tooth.webp"
  },
  {
   "id": "hagiwara-sakutaro",
@@ -5270,7 +5442,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/lost-and-found.webp"
  },
  {
   "id": "the-frog-prince",
@@ -5282,7 +5455,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-frog-prince.webp"
  },
  {
   "id": "attending-a-wedding",
@@ -5293,8 +5467,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/attending-a-wedding.webp"
  },
  {
   "id": "ikkyu-san",
@@ -5306,7 +5481,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/ikkyu-san.webp"
  },
  {
   "id": "at-the-aquarium",
@@ -5318,7 +5494,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-aquarium.webp"
  },
  {
   "id": "shimazaki-toson",
@@ -5342,8 +5519,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/attending-a-funeral.webp"
  },
  {
   "id": "the-ugly-duckling",
@@ -5355,7 +5533,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-ugly-duckling.webp"
  },
  {
   "id": "neighborhood-association",
@@ -5366,8 +5545,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/neighborhood-association.webp"
  },
  {
   "id": "izumi-kyoka",
@@ -5392,7 +5572,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/school-field-trip.webp"
  },
  {
   "id": "pinocchio",
@@ -5404,7 +5585,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/pinocchio.webp"
  },
  {
   "id": "getting-a-credit-card",
@@ -5415,8 +5597,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/getting-a-credit-card.webp"
  },
  {
   "id": "arishima-takeo",
@@ -5441,7 +5624,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/at-the-park.webp"
  },
  {
   "id": "the-boy-who-cried-wolf",
@@ -5453,7 +5637,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-boy-who-cried-wolf.webp"
  },
  {
   "id": "disaster-kit",
@@ -5464,8 +5649,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/disaster-kit.webp"
  },
  {
   "id": "hakai",
@@ -5490,7 +5676,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-rainy-day.webp"
  },
  {
   "id": "the-ant-and-the-grasshopper",
@@ -5502,7 +5689,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-ant-and-the-grasshopper.webp"
  },
  {
   "id": "getting-internet",
@@ -5513,8 +5701,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/getting-internet.webp"
  },
  {
   "id": "kusamakura",
@@ -5539,7 +5728,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/trip-to-the-beach.webp"
  },
  {
   "id": "the-emperors-new-clothes",
@@ -5551,7 +5741,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-emperors-new-clothes.webp"
  },
  {
   "id": "childrens-vaccinations",
@@ -5562,8 +5753,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/childrens-vaccinations.webp"
  },
  {
   "id": "playing-in-the-snow",
@@ -5575,7 +5767,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/playing-in-the-snow.webp"
  },
  {
   "id": "the-lion-and-the-mouse",
@@ -5587,7 +5780,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-lion-and-the-mouse.webp"
  },
  {
   "id": "bicycle-repair",
@@ -5598,8 +5792,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/bicycle-repair.webp"
  },
  {
   "id": "autumn-leaves-walk",
@@ -5611,7 +5806,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/autumn-leaves-walk.webp"
  },
  {
   "id": "the-elves-and-the-shoemaker",
@@ -5623,7 +5819,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-elves-and-the-shoemaker.webp"
  },
  {
   "id": "night-shift-life",
@@ -5634,8 +5831,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/night-shift-life.webp"
  },
  {
   "id": "porano-no-hiroba",
@@ -5660,7 +5858,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-neighborhood-cat.webp"
  },
  {
   "id": "the-golden-goose",
@@ -5672,7 +5871,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-golden-goose.webp"
  },
  {
   "id": "company-trip",
@@ -5683,8 +5883,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/company-trip.webp"
  },
  {
   "id": "sorekara",
@@ -5709,7 +5910,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-thousand-cranes.webp"
  },
  {
   "id": "the-town-mouse-and-the-country-mouse",
@@ -5721,7 +5923,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-town-mouse-and-the-country-mouse.webp"
  },
  {
   "id": "company-dormitory",
@@ -5732,8 +5935,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/company-dormitory.webp"
  },
  {
   "id": "mon-the-gate",
@@ -5758,7 +5962,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-typhoon-day.webp"
  },
  {
   "id": "the-north-wind-and-the-sun",
@@ -5770,7 +5975,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-north-wind-and-the-sun.webp"
  },
  {
   "id": "the-fire-drill",
@@ -5781,8 +5987,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/the-fire-drill.webp"
  },
  {
   "id": "mujina",
@@ -5793,8 +6000,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 11
+  "free": true,
+  "sentenceCount": 11,
+  "cover": "/covers/mujina.webp"
  },
  {
   "id": "the-letter-from-far-away",
@@ -5806,7 +6014,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-letter-from-far-away.webp"
  },
  {
   "id": "the-goose-with-the-golden-eggs",
@@ -5818,7 +6027,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-goose-with-the-golden-eggs.webp"
  },
  {
   "id": "the-morning-meeting",
@@ -5829,8 +6039,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/the-morning-meeting.webp"
  },
  {
   "id": "gan-the-wild-geese",
@@ -5855,7 +6066,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-fisherman-and-the-magic-fish.webp"
  },
  {
   "id": "the-wolf-and-the-crane",
@@ -5867,7 +6079,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-wolf-and-the-crane.webp"
  },
  {
   "id": "the-business-trip",
@@ -5878,8 +6091,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/the-business-trip.webp"
  },
  {
   "id": "jusan-ya",
@@ -5904,7 +6118,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-star-money.webp"
  },
  {
   "id": "the-crow-and-the-pitcher",
@@ -5916,7 +6131,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 9
+  "sentenceCount": 9,
+  "cover": "/covers/the-crow-and-the-pitcher.webp"
  },
  {
   "id": "the-fox-and-the-grapes",
@@ -5928,7 +6144,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 9
+  "sentenceCount": 9,
+  "cover": "/covers/the-fox-and-the-grapes.webp"
  },
  {
   "id": "the-dog-and-its-reflection",
@@ -5940,7 +6157,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 9
+  "sentenceCount": 9,
+  "cover": "/covers/the-dog-and-its-reflection.webp"
  },
  {
   "id": "the-first-payday",
@@ -5951,8 +6169,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 9
+  "free": true,
+  "sentenceCount": 9,
+  "cover": "/covers/the-first-payday.webp"
  },
  {
   "id": "the-lost-wallet",
@@ -5964,7 +6183,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 9
+  "sentenceCount": 9,
+  "cover": "/covers/the-lost-wallet.webp"
  },
  {
   "id": "the-milkmaid",
@@ -5976,7 +6196,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "cover": "/covers/the-milkmaid.webp"
  },
  {
   "id": "the-first-bonus",
@@ -5987,8 +6208,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 9
+  "free": true,
+  "sentenceCount": 9,
+  "cover": "/covers/the-first-bonus.webp"
  },
  {
   "id": "the-pension-notice",
@@ -5999,8 +6221,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-pension-notice.webp"
  },
  {
   "id": "the-year-end-adjustment",
@@ -6011,8 +6234,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-year-end-adjustment.webp"
  },
  {
   "id": "kasako-jizo",
@@ -6037,8 +6261,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-moving-registration.webp"
  },
  {
   "id": "the-japanese-class",
@@ -6063,8 +6288,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "aozora-adapted",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/yodaka-no-hoshi.webp"
  },
  {
   "id": "tanabata",
@@ -6090,7 +6316,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/the-two-goats.webp"
  },
  {
   "id": "the-bear-and-the-bees",
@@ -6102,7 +6329,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/the-bear-and-the-bees.webp"
  },
  {
   "id": "the-license-renewal",
@@ -6113,8 +6341,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 9
+  "free": true,
+  "sentenceCount": 9,
+  "cover": "/covers/the-license-renewal.webp"
  },
  {
   "id": "the-happy-prince",
@@ -6125,8 +6354,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/the-happy-prince.webp"
  },
  {
   "id": "the-fox-and-the-lion",
@@ -6138,7 +6368,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "cover": "/covers/the-fox-and-the-lion.webp"
  },
  {
   "id": "the-selfish-giant",
@@ -6149,8 +6380,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/the-selfish-giant.webp"
  },
  {
   "id": "the-nightingale-and-the-rose",
@@ -6161,8 +6393,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "classics",
   "source": "original",
-  "free": false,
-  "sentenceCount": 10
+  "free": true,
+  "sentenceCount": 10,
+  "cover": "/covers/the-nightingale-and-the-rose.webp"
  },
  {
   "id": "the-commuter-pass",
@@ -6173,8 +6406,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-commuter-pass.webp"
  },
  {
   "id": "the-health-insurance-card",
@@ -6186,7 +6420,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/the-health-insurance-card.webp"
  },
  {
   "id": "the-bicycle-registration",
@@ -6197,8 +6432,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-bicycle-registration.webp"
  },
  {
   "id": "the-golden-axe",
@@ -6224,7 +6460,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/the-point-card.webp"
  },
  {
   "id": "the-garbage-sorting",
@@ -6235,8 +6472,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-garbage-sorting.webp"
  },
  {
   "id": "the-ant-and-the-dove",
@@ -6248,7 +6486,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/the-ant-and-the-dove.webp"
  },
  {
   "id": "the-residence-tax",
@@ -6259,8 +6498,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-residence-tax.webp"
  },
  {
   "id": "the-tale-of-genji",
@@ -6285,7 +6525,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/the-fox-and-the-stork.webp"
  },
  {
   "id": "the-wolf-in-sheeps-clothing",
@@ -6297,7 +6538,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/the-wolf-in-sheeps-clothing.webp"
  },
  {
   "id": "the-company-cafeteria",
@@ -6309,7 +6551,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/the-company-cafeteria.webp"
  },
  {
   "id": "the-town-mouse",
@@ -6334,8 +6577,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-atm.webp"
  },
  {
   "id": "the-dentist",
@@ -6375,7 +6619,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "cover": "/covers/the-glasses-shop.webp"
  },
  {
   "id": "mai-chan-ep01-hello",
@@ -6414,8 +6659,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep03-shared-umbrella.webp"
  },
  {
   "id": "mai-chan-ep04-onigiri",
@@ -6426,8 +6672,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep04-onigiri.webp"
  },
  {
   "id": "mai-chan-ep05-sports-day",
@@ -6466,8 +6713,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-library-card.webp"
  },
  {
   "id": "mai-chan-ep07-birthday",
@@ -6492,8 +6740,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep08-sick-mom.webp"
  },
  {
   "id": "the-shinkansen-trip",
@@ -6519,7 +6768,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 7
+  "sentenceCount": 7,
+  "cover": "/covers/the-little-red-hen.webp"
  },
  {
   "id": "mai-chan-ep09-autumn-leaves",
@@ -6531,7 +6781,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep09-autumn-leaves.webp"
  },
  {
   "id": "mai-chan-ep10-new-friend",
@@ -6542,8 +6793,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep10-new-friend.webp"
  },
  {
   "id": "the-driving-school",
@@ -6554,8 +6806,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-driving-school.webp"
  },
  {
   "id": "the-three-little-pigs",
@@ -6581,7 +6834,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep11-tomatoes.webp"
  },
  {
   "id": "mai-chan-ep12-calling-grandma",
@@ -6592,8 +6846,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep12-calling-grandma.webp"
  },
  {
   "id": "rapunzel",
@@ -6604,8 +6859,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/rapunzel.webp"
  },
  {
   "id": "the-bicycle-puncture",
@@ -6631,7 +6887,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep13-rainy-day.webp"
  },
  {
   "id": "mai-chan-ep14-cooking-curry",
@@ -6642,8 +6899,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep14-cooking-curry.webp"
  },
  {
   "id": "sleeping-beauty",
@@ -6654,8 +6912,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/sleeping-beauty.webp"
  },
  {
   "id": "the-post-office",
@@ -6681,7 +6940,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep15-lost-cat.webp"
  },
  {
   "id": "mai-chan-ep16-dad-cooks-pho",
@@ -6692,8 +6952,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep16-dad-cooks-pho.webp"
  },
  {
   "id": "the-train-etiquette",
@@ -6704,8 +6965,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-train-etiquette.webp"
  },
  {
   "id": "rumpelstiltskin",
@@ -6716,8 +6978,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/rumpelstiltskin.webp"
  },
  {
   "id": "mai-chan-ep17-snow-day",
@@ -6729,7 +6992,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep17-snow-day.webp"
  },
  {
   "id": "mai-chan-ep18-new-year-card",
@@ -6740,8 +7004,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep18-new-year-card.webp"
  },
  {
   "id": "the-onsen-trip",
@@ -6780,7 +7045,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep19-christmas.webp"
  },
  {
   "id": "mai-chan-ep20-year-end-clean",
@@ -6791,8 +7057,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep20-year-end-clean.webp"
  },
  {
   "id": "the-year-end-party",
@@ -6803,8 +7070,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-year-end-party.webp"
  },
  {
   "id": "peter-pan",
@@ -6829,7 +7097,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep21-zoo.webp"
  },
  {
   "id": "mai-chan-ep22-baking-cookies",
@@ -6840,8 +7109,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep22-baking-cookies.webp"
  },
  {
   "id": "the-moving-day",
@@ -6852,8 +7122,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-moving-day.webp"
  },
  {
   "id": "don-quixote",
@@ -6878,7 +7149,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep23-tulip-bulbs.webp"
  },
  {
   "id": "mai-chan-ep24-mochi-pounding",
@@ -6889,8 +7161,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep24-mochi-pounding.webp"
  },
  {
   "id": "the-lost-umbrella",
@@ -6929,7 +7202,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep25-fire-drill.webp"
  },
  {
   "id": "mai-chan-ep26-picture-diary",
@@ -6940,8 +7214,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep26-picture-diary.webp"
  },
  {
   "id": "the-shoe-repair",
@@ -6952,8 +7227,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-shoe-repair.webp"
  },
  {
   "id": "robinson-crusoe",
@@ -6978,7 +7254,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep27-helping-neighbor.webp"
  },
  {
   "id": "mai-chan-ep28-cooking-rice",
@@ -6989,8 +7266,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep28-cooking-rice.webp"
  },
  {
   "id": "the-locked-out",
@@ -7001,8 +7279,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-locked-out.webp"
  },
  {
   "id": "anne-of-green-gables",
@@ -7027,7 +7306,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep29-ice-skating.webp"
  },
  {
   "id": "mai-chan-ep30-letter-to-santa",
@@ -7038,8 +7318,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep30-letter-to-santa.webp"
  },
  {
   "id": "the-laundromat",
@@ -7050,8 +7331,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-laundromat.webp"
  },
  {
   "id": "the-little-mermaid",
@@ -7077,7 +7359,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep31-new-year-shrine.webp"
  },
  {
   "id": "mai-chan-ep32-setsubun",
@@ -7088,8 +7371,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep32-setsubun.webp"
  },
  {
   "id": "the-wrong-train",
@@ -7100,8 +7384,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-wrong-train.webp"
  },
  {
   "id": "a-christmas-carol",
@@ -7126,7 +7411,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep33-valentine.webp"
  },
  {
   "id": "mai-chan-ep34-hinamatsuri",
@@ -7137,8 +7423,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep34-hinamatsuri.webp"
  },
  {
   "id": "the-recycle-shop",
@@ -7149,8 +7436,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-recycle-shop.webp"
  },
  {
   "id": "the-snow-queen",
@@ -7161,8 +7449,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "folktale",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-snow-queen.webp"
  },
  {
   "id": "mai-chan-ep35-white-day",
@@ -7174,7 +7463,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep35-white-day.webp"
  },
  {
   "id": "mai-chan-ep36-hanami-picnic",
@@ -7185,8 +7475,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep36-hanami-picnic.webp"
  },
  {
   "id": "the-blood-donation",
@@ -7197,8 +7488,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-blood-donation.webp"
  },
  {
   "id": "around-the-world-in-80-days",
@@ -7223,7 +7515,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep37-graduation-day.webp"
  },
  {
   "id": "mai-chan-ep38-new-school-year",
@@ -7234,8 +7527,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep38-new-school-year.webp"
  },
  {
   "id": "the-sim-card",
@@ -7246,8 +7540,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-sim-card.webp"
  },
  {
   "id": "treasure-island",
@@ -7272,7 +7567,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep39-childrens-day.webp"
  },
  {
   "id": "mai-chan-ep40-mothers-day",
@@ -7283,8 +7579,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep40-mothers-day.webp"
  },
  {
   "id": "the-water-leak",
@@ -7295,8 +7592,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-water-leak.webp"
  },
  {
   "id": "tom-sawyer",
@@ -7321,7 +7619,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep41-fathers-day.webp"
  },
  {
   "id": "mai-chan-ep42-rainy-season",
@@ -7332,8 +7631,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep42-rainy-season.webp"
  },
  {
   "id": "the-noisy-neighbor",
@@ -7344,8 +7644,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-noisy-neighbor.webp"
  },
  {
   "id": "the-jungle-book",
@@ -7370,7 +7671,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep43-tanabata.webp"
  },
  {
   "id": "mai-chan-ep44-summer-festival",
@@ -7381,8 +7683,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep44-summer-festival.webp"
  },
  {
   "id": "the-aircon-cleaning",
@@ -7393,8 +7696,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-aircon-cleaning.webp"
  },
  {
   "id": "the-prince-and-the-pauper",
@@ -7419,7 +7723,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep45-pool-day.webp"
  },
  {
   "id": "mai-chan-ep46-obon",
@@ -7430,8 +7735,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep46-obon.webp"
  },
  {
   "id": "the-secret-garden",
@@ -7456,7 +7762,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep47-summer-homework.webp"
  },
  {
   "id": "mai-chan-ep48-sea-trip",
@@ -7467,8 +7774,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep48-sea-trip.webp"
  },
  {
   "id": "a-little-princess",
@@ -7493,7 +7801,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep49-moon-viewing.webp"
  },
  {
   "id": "mai-chan-ep50-future-dream",
@@ -7504,8 +7813,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep50-future-dream.webp"
  },
  {
   "id": "the-emergency-bag",
@@ -7516,8 +7826,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-emergency-bag.webp"
  },
  {
   "id": "oliver-twist",
@@ -7542,7 +7853,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep51-sweet-potato.webp"
  },
  {
   "id": "mai-chan-ep52-culture-festival",
@@ -7553,8 +7865,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep52-culture-festival.webp"
  },
  {
   "id": "the-package-redelivery",
@@ -7565,8 +7878,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-package-redelivery.webp"
  },
  {
   "id": "jane-eyre",
@@ -7591,7 +7905,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep53-planetarium.webp"
  },
  {
   "id": "mai-chan-ep54-grandma-visits",
@@ -7602,8 +7917,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep54-grandma-visits.webp"
  },
  {
   "id": "the-hanko-seal",
@@ -7614,8 +7930,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-hanko-seal.webp"
  },
  {
   "id": "wuthering-heights",
@@ -7640,7 +7957,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep55-school-lunch.webp"
  },
  {
   "id": "mai-chan-ep56-class-pet",
@@ -7651,8 +7969,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep56-class-pet.webp"
  },
  {
   "id": "the-pharmacy",
@@ -7663,8 +7982,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-pharmacy.webp"
  },
  {
   "id": "pride-and-prejudice",
@@ -7689,7 +8009,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep57-piano-recital.webp"
  },
  {
   "id": "mai-chan-ep58-time-capsule",
@@ -7700,8 +8021,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep58-time-capsule.webp"
  },
  {
   "id": "the-100-yen-shop",
@@ -7712,8 +8034,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-100-yen-shop.webp"
  },
  {
   "id": "the-count-of-monte-cristo",
@@ -7738,7 +8061,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep59-endurance-run.webp"
  },
  {
   "id": "mai-chan-ep60-randoseru",
@@ -7749,8 +8073,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep60-randoseru.webp"
  },
  {
   "id": "the-tax-return",
@@ -7761,8 +8086,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-tax-return.webp"
  },
  {
   "id": "the-three-musketeers",
@@ -7787,7 +8113,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep61-kite-flying.webp"
  },
  {
   "id": "mai-chan-ep62-yuki-birthday",
@@ -7798,8 +8125,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep62-yuki-birthday.webp"
  },
  {
   "id": "the-gym-membership",
@@ -7810,8 +8138,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-gym-membership.webp"
  },
  {
   "id": "les-miserables",
@@ -7836,7 +8165,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep63-baking-bread.webp"
  },
  {
   "id": "mai-chan-ep64-lost-in-supermarket",
@@ -7847,8 +8177,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep64-lost-in-supermarket.webp"
  },
  {
   "id": "the-english-class",
@@ -7859,8 +8190,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-english-class.webp"
  },
  {
   "id": "great-expectations",
@@ -7885,7 +8217,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep65-cooking-dinner.webp"
  },
  {
   "id": "mai-chan-ep66-factory-tour",
@@ -7896,8 +8229,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/mai-chan-ep66-factory-tour.webp"
  },
  {
   "id": "the-part-time-job",
@@ -7908,8 +8242,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 6
+  "free": true,
+  "sentenceCount": 6,
+  "cover": "/covers/the-part-time-job.webp"
  },
  {
   "id": "the-picture-of-dorian-gray",
@@ -7934,7 +8269,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/the-overtime-night.webp"
  },
  {
   "id": "the-apartment-contract",
@@ -7945,8 +8281,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-apartment-contract.webp"
  },
  {
   "id": "the-hospital-stay",
@@ -7957,8 +8294,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-hospital-stay.webp"
  },
  {
   "id": "the-letter-never-sent",
@@ -7969,8 +8307,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "classics",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-letter-never-sent.webp"
  },
  {
   "id": "the-job-change",
@@ -8085,8 +8424,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-driving-license.webp"
  },
  {
   "id": "the-school-sports-day",
@@ -8097,8 +8437,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-school-sports-day.webp"
  },
  {
   "id": "the-night-shift",
@@ -8109,8 +8450,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-night-shift.webp"
  },
  {
   "id": "the-reunion",
@@ -8122,7 +8464,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/the-reunion.webp"
  },
  {
   "id": "the-promotion",
@@ -8237,8 +8580,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-bicycle-rules.webp"
  },
  {
   "id": "the-parents-visit",
@@ -8249,8 +8593,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-parents-visit.webp"
  },
  {
   "id": "the-first-snow",
@@ -8262,7 +8607,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "cover": "/covers/the-first-snow.webp"
  },
  {
   "id": "the-neighborhood-association",
@@ -8273,8 +8619,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "daily-life-japan",
   "source": "original",
-  "free": false,
-  "sentenceCount": 8
+  "free": true,
+  "sentenceCount": 8,
+  "cover": "/covers/the-neighborhood-association.webp"
  },
  {
   "id": "the-result-postcard",
