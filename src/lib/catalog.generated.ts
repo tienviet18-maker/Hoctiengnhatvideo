@@ -4026,7 +4026,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 12,
-  "cover": "/covers/torokko.webp"
+  "cover": "/covers/torokko.webp",
+  "hidden": true,
+  "replacedBy": "torokko-1"
  },
  {
   "id": "at-the-gym",
@@ -4078,7 +4080,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 11,
-  "cover": "/covers/mikan.webp"
+  "cover": "/covers/mikan.webp",
+  "hidden": true,
+  "replacedBy": "mikan-1"
  },
  {
   "id": "riding-the-shinkansen",
@@ -9068,7 +9072,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (3): Senior yang Menghilang",
    "pt": "Trabalhando em Osaka (3): O veterano desaparecido",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၃) - ပျောက်သွားတဲ့ အစ်ကိုကြီး",
-   "th": "ทำงานที่โอซาก้า (3): รุ่นพี่ที่หายตัวไป"
+   "th": "ทำงานที่โอซาก้า (3): รุ่นพี่ที่หายตัวไป",
+   "si": "ඔසාකාහි වැඩ කිරීම (3): අතුරුදන් වූ සේවා ජ්‍යෙෂ්ඨයා"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -9099,7 +9104,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (4): Insiden Hari Sampah",
    "pt": "Trabalhando em Osaka (4): O incidente do dia do lixo",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၄) - အမှိုက်နေ့ ဖြစ်ရပ်",
-   "th": "ทำงานที่โอซาก้า (4): เหตุการณ์วันทิ้งขยะ"
+   "th": "ทำงานที่โอซาก้า (4): เหตุการณ์วันทิ้งขยะ",
+   "si": "ඔසාකාහි වැඩ කිරීම (4): කුණු දවසේ සිද්ධිය"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -9130,7 +9136,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (5): Pabrik di Malam Hari",
    "pt": "Trabalhando em Osaka (5): A fábrica à noite",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၅) - ညဘက် စက်ရုံ",
-   "th": "ทำงานที่โอซาก้า (5): โรงงานยามค่ำคืน"
+   "th": "ทำงานที่โอซาก้า (5): โรงงานยามค่ำคืน",
+   "si": "ඔසාකාහි වැඩ කිරීම (5): රාත්‍රියේ කර්මාන්තශාලාව"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -11429,7 +11436,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (6): Rahasia Akari",
    "pt": "Trabalhando em Osaka (6): O segredo de Akari",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၆) - အာကာရီရဲ့ လျှို့ဝှက်ချက်",
-   "th": "ทำงานที่โอซาก้า (6): ความลับของอาคาริ"
+   "th": "ทำงานที่โอซาก้า (6): ความลับของอาคาริ",
+   "si": "ඔසාකාහි වැඩ කිරීම (6): අකාරිගේ රහස"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -11460,7 +11468,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (7): Direktur Tumbang",
    "pt": "Trabalhando em Osaka (7): O presidente desmaia",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၇) - ဥက္ကဋ္ဌ လဲကျသွားပြီ",
-   "th": "ทำงานที่โอซาก้า (7): ท่านประธานล้มลง"
+   "th": "ทำงานที่โอซาก้า (7): ท่านประธานล้มลง",
+   "si": "ඔසාකාහි වැඩ කිරීම (7): සභාපති ඇද වැටෙයි"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -11491,7 +11500,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (8, tamat): Aku Pulang, Osaka",
    "pt": "Trabalhando em Osaka (8, final): Cheguei, Osaka",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၈၊ ဇာတ်သိမ်း) - အိုဆာကာ၊ ပြန်ရောက်ပြီ",
-   "th": "ทำงานที่โอซาก้า (8 ตอนจบ): กลับมาแล้วนะ โอซาก้า"
+   "th": "ทำงานที่โอซาก้า (8 ตอนจบ): กลับมาแล้วนะ โอซาก้า",
+   "si": "ඔසාකාහි වැඩ කිරීම (8, අවසානය): ඔසාකා, මම ආවා"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -12241,6 +12251,68 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/toshishun-2/chapter.mp3",
    "durationSec": 364.584
+  }
+ },
+ {
+  "id": "torokko-1",
+  "titles": {
+   "vi": "Chiếc xe goòng",
+   "en": "The Trolley",
+   "zh-Hans": "小矿车",
+   "zh-Hant": "小礦車",
+   "ko": "토롯코 (광차)",
+   "tl": "Ang Trolley",
+   "ne": "ट्रली",
+   "id": "Lori",
+   "pt": "O Vagonete",
+   "my": "ထော်လီ လှည်း",
+   "th": "รถลากราง"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 70,
+  "cover": "/covers/torokko-1.webp",
+  "series": {
+   "id": "torokko",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/torokko-1/chapter.mp3",
+   "durationSec": 402.984
+  }
+ },
+ {
+  "id": "mikan-1",
+  "titles": {
+   "vi": "Những quả quýt",
+   "en": "Tangerines",
+   "zh-Hans": "橘子",
+   "zh-Hant": "橘子",
+   "ko": "귤",
+   "tl": "Mga Dalandan",
+   "ne": "सुन्तला",
+   "id": "Jeruk Mandarin",
+   "pt": "Tangerinas",
+   "my": "လိမ္မော်သီးများ",
+   "th": "ส้ม"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 61,
+  "cover": "/covers/mikan-1.webp",
+  "series": {
+   "id": "mikan",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/mikan-1/chapter.mp3",
+   "durationSec": 427.776
   }
  },
  {
