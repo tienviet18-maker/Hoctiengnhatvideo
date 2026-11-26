@@ -937,3 +937,18 @@ Lô này thêm 4 chương chuẩn v2, cả 4 đều miễn phí vì là tập 1 
 - `mikan-1`: 61 câu, 2.137 ký tự, harder 8,6%, audio 7,1 phút. Ngôi kể thứ nhất, chỉ một giọng Aoede. Giữ toa hạng hai và vé hạng ba, đường hầm, khói đen, ba cậu bé ở đường ngang và cảnh quýt rơi.
 - Bìa: motif `torokko` (goòng lao dốc giữa vườn quýt, biển phía xa) và `mikan` (cô bé ném quýt qua cửa sổ tàu về phía ba cậu bé). Font Zen Kaku Gothic Antique và Zen Old Mincho.
 - Ẩn gói cũ `torokko` → `torokko-1`, `mikan` → `mikan-1`. `npm run verify` xanh.
+## Kệ "Triết lý sống" (wisdom), lô 3 — 27/11/2026
+
+Lô này thêm 4 chương chuẩn v2, cả 4 đều miễn phí vì là tập 1 của từng bộ. Lần đầu kệ có một chương N2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-seneca-1` | N2 | Seneca, *Bàn về sự ngắn ngủi của đời người*, viết dưới dạng thư gửi bạn Paulinus | 5:17 |
+| `life-allen-1` | N3 | James Allen, *As a Man Thinketh* (『原因と結果の法則』): tâm hồn là khu vườn | 4:19 |
+| `life-smiles-1` | N4 | Samuel Smiles, *Self-Help*: thợ gốm Palissy đốt cả bàn ghế để nung chiếc đĩa trắng | 3:36 |
+| `life-gakumon-1` | N3 | 福沢諭吉『学問のすゝめ』, kể qua chuyện cô bé Misaki tìm thấy tờ 10.000 yên cũ của bà | 4:21 |
+
+- Cả 4 tác phẩm gốc đều thuộc phạm vi công cộng. Phần hội thoại và khung truyện là sáng tác của ViMai. Câu trích được dịch lại bằng tiếng Nhật dễ hiểu, riêng câu mở đầu của 福沢 giữ nguyên văn.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 12 chương: 1 chương N2 (seneca-1), 7 chương N3 và 4 chương N4.
+- `npm run verify` xanh.
