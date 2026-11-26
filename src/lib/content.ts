@@ -706,6 +706,7 @@ import s_worldCinderella2 from "../../content/stories/world-cinderella-2.json";
 import s_worldShirayuki1 from "../../content/stories/world-shirayuki-1.json";
 import s_worldShirayuki2 from "../../content/stories/world-shirayuki-2.json";
 import s_worldHansel1 from "../../content/stories/world-hansel-1.json";
+import s_worldHansel2 from "../../content/stories/world-hansel-2.json";
 // --- hết kệ A/E: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1418,6 +1419,7 @@ export const STORIES: StoryContent[] = [
   s_worldShirayuki1 as unknown as StoryContent,
   s_worldShirayuki2 as unknown as StoryContent,
   s_worldHansel1 as unknown as StoryContent,
+  s_worldHansel2 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
