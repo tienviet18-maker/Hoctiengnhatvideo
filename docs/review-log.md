@@ -820,6 +820,13 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Cả bốn viết nhắm N4 nhưng từ khoá (宝石, 魔法使い, 侯爵…) vượt ngưỡng từ khó, nên xếp N3 (harder 3–9%).
 - build.mjs: thêm ROMAJI_FIX cho じつは, あっという間, 本当は, ラプンツェル. Bìa: motif mới `pussboots`, `tower`, `lamp`, `palace`. Glossary world thêm 息子, 侯爵, 馬車, 粉屋, 働き, はめる, ワイン…
 
+## Kệ truyện cổ thế giới đợt 5: Ali Baba, Người đẹp và quái vật, Bà chúa tuyết (mỗi truyện 2 tập) — 27/11/2026
+- `world-alibaba-1` (miễn phí, 47 câu) và `world-alibaba-2` (VIP, 48 câu), N3, series `world-alibaba`, theo Nghìn lẻ một đêm (không gắn cờ). Chưa có gói Ali Baba cũ.
+- `world-bijo-1` (miễn phí, 56 câu) và `world-bijo-2` (VIP, 49 câu), N3, series `world-bijo`, theo bản Beaumont 1756 (cờ FR). Bản nháp N4 vượt ngưỡng từ khó (野獣 tính là từ khó, harder 18–20%) nên xếp N3. Chưa có gói cũ.
+- `world-yukinojoo-1` (miễn phí, 47 câu) và `world-yukinojoo-2` (VIP, 48 câu), N3, series `world-yukinojoo`, Andersen 1844 (cờ DK). Gói cũ `the-snow-queen` (8 câu) ẩn, trỏ sang tập 1.
+- Bìa: motif mới `sesame`, `jars`, `rose`, `rosebloom`, `snowsled`, `icepalace`. Glossary world thêm くっつく, チョーク, 積む, 泊める, 注ぐ, がっかり, みっともない, こぼす.
+- Romaji: sửa qua `phrases` (アリババ, かけら, なみだ, 塀…) và viết lại các câu bị đọc "hai".
+
 ## Văn học Nhật v2: 手袋を買いに 2 tập (N4), thay gói cũ — 27/11/2026
 
 - Nhánh `claude/bungaku-v2-batch2`. `tebukuro-1` (55 câu, 1.360 ký tự, harder 7,0%, audio 4,4 phút) và `tebukuro-2` (54 câu, 1.390 ký tự, harder 12,0%, audio 4,5 phút).
