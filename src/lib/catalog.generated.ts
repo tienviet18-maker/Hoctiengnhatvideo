@@ -11518,7 +11518,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "origin": "VN",
   "audioTrack": {
    "src": "/audio/furusato-vn-quynh-3/chapter.mp3",
-   "durationSec": 311.592
+   "durationSec": 316.08
   }
  }
 ];
