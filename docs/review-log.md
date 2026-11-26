@@ -556,3 +556,18 @@ Nguyễn Du (1766–1820), thuộc phạm vi công cộng. Claude tự kể lạ
 - Mỗi tập có: dịch và giải thích 10 ngôn ngữ (trích câu thơ gốc ở những đoạn nổi tiếng), bài học 4 ngữ pháp + 4 câu hỏi (đã có furigana), bìa 文庫 font Kaisei HarunoUmi, motif `kieu1`–`kieu4`.
 - Giọng đọc: Aoede cho người dẫn truyện; Neural2-B/C cho từng nhân vật, chỉnh pitch riêng.
 - Bìa: tựa tiếng Nhật 4 chữ làm dòng phụ dọc chồng lên tranh. Vì vậy tựa đặt từ 5 chữ trở lên.
+
+## Furigana cho mọi chữ kanji (Việt nhắc 26/11)
+
+Quy tắc: chữ kanji hiển thị ở bất kỳ đâu trong app đều phải có furigana.
+- Rà dữ liệu: phụ đề video (610 câu) và câu truyện (11.571 câu) đã đủ furigana, 0 kanji trần.
+- Thẻ ôn (bộ ViBJT): build-decks sinh furigana bằng kuromoji (`scripts/lib/furigana.mjs`) cho câu ví dụ (`ex.f`), từ chính (`wf`), bảng kính ngữ (`kmf`), dạng ngữ pháp (`formf`); báo số chuỗi còn kanji trần (hiện 0). Thẻ người dùng đã lưu trước đó tự được bổ sung khi mở tab Ôn tập (`refreshPremadeCards`, giữ tiến độ).
+- Từ tự lưu và popup tra từ: từ hiện dạng ruby (`src/lib/furigana.ts` alignWord).
+- Chế độ lái xe: câu hiện bằng furigana của truyện.
+- Tab Bài học: đã xử lý ở PR #39 (furigana nằm trong dữ liệu truyện). Câu nghe thử onboarding: `scripts/gen-placement-furigana.mjs` (prebuild/predev) lấy đúng furigana của câu truyện gốc.
+
+## Thẻ ôn từ ViBJT — lô 6 (Ngữ pháp N3) — 26/11/2026
+
+- Dịch 120 thẻ ngữ pháp N3 (nghĩa mẫu câu + câu ví dụ) sang 9 ngôn ngữ còn thiếu (zh-Hans, zh-Hant, ko, tl, ne, id, pt, my, th): `content/sources/decks/src/grammar-n3-1.txt`, `grammar-n3-2.txt` → `tr/*.jsonl`.
+- Dựng lại bộ thẻ: thêm `public/decks/grammar-N3.json` (7 bộ, 1.548 thẻ). Mọi câu ví dụ có furigana (0 kanji trần).
+- Còn lại: Ngữ pháp N2 (194) và N1 (143).

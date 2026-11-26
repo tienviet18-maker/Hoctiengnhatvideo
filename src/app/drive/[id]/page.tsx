@@ -47,7 +47,7 @@ export default async function DrivePlayPage({
         titles: story.titles,
         level: story.level,
         free: storyFree(story),
-        sentences: story.sentences.map((s) => ({ ja: s.ja, audio: s.audio })),
+        sentences: story.sentences.map((s) => ({ ja: s.ja, furigana: s.furigana, audio: s.audio })),
       }}
       next={nextStory ? { id: nextStory.id, titles: nextStory.titles, free: storyFree(nextStory) } : null}
     />
