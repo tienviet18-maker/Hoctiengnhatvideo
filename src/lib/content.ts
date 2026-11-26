@@ -753,6 +753,8 @@ import v2LifeMarcus2 from "../../content/stories/life-marcus-2.json";
 import v2LifeIkari3 from "../../content/stories/life-ikari-3.json";
 import v2LifeAllen2 from "../../content/stories/life-allen-2.json";
 import v2LifeSeneca3 from "../../content/stories/life-seneca-3.json";
+import v2LifeSmiles3 from "../../content/stories/life-smiles-3.json";
+import v2LifeYukkuri3 from "../../content/stories/life-yukkuri-3.json";
 // --- hết kệ W: import ---
 // --- kệ ma & trinh thám (chuẩn v2): import ---
 import v2MysteryHoichi1 from "../../content/stories/mystery-hoichi-1.json";
@@ -1542,6 +1544,8 @@ export const STORIES: StoryContent[] = [
   v2LifeIkari3 as unknown as StoryContent,
   v2LifeAllen2 as unknown as StoryContent,
   v2LifeSeneca3 as unknown as StoryContent,
+  v2LifeSmiles3 as unknown as StoryContent,
+  v2LifeYukkuri3 as unknown as StoryContent,
   // --- hết kệ W ---
   s_worldBremen as unknown as StoryContent,
   // --- kệ ma & trinh thám (chuẩn v2) ---

@@ -13752,6 +13752,68 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "life-smiles-3",
+  "titles": {
+   "vi": "Cậu học sinh lớp một 18 tuổi",
+   "en": "The Eighteen-Year-Old First Grader",
+   "zh-Hans": "十八岁的一年级生",
+   "zh-Hant": "十八歲的一年級生",
+   "ko": "열여덟 살의 1학년",
+   "tl": "Ang Unang Baitang na Labing-walong Taong Gulang",
+   "ne": "अठार वर्षको पहिलो कक्षाको विद्यार्थी",
+   "id": "Murid Kelas Satu Berusia 18 Tahun",
+   "pt": "O Aluno de Primeiro Ano com 18 Anos",
+   "my": "အသက် ၁၈ နှစ်ရှိ ပထမတန်းကျောင်းသား",
+   "th": "นักเรียน ป.1 วัย 18 ปี"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 41,
+  "cover": "/covers/life-smiles-3.webp",
+  "series": {
+   "id": "life-smiles",
+   "index": 3
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-smiles-3/chapter.mp3",
+   "durationSec": 208.46
+  }
+ },
+ {
+  "id": "life-yukkuri-3",
+  "titles": {
+   "vi": "Cái cây bên cạnh",
+   "en": "The Tree Next Door",
+   "zh-Hans": "旁边的树",
+   "zh-Hant": "旁邊的樹",
+   "ko": "옆의 나무",
+   "tl": "Ang Punong Katabi",
+   "ne": "छेउको रूख",
+   "id": "Pohon di Sebelah",
+   "pt": "A Árvore ao Lado",
+   "my": "ဘေးက သစ်ပင်",
+   "th": "ต้นไม้ข้าง ๆ"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 38,
+  "cover": "/covers/life-yukkuri-3.webp",
+  "series": {
+   "id": "life-yukkuri",
+   "index": 3
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-yukkuri-3/chapter.mp3",
+   "durationSec": 194.59
+  }
+ },
+ {
   "id": "mystery-hoichi-1",
   "titles": {
    "vi": "Hōichi không tai (1): Vị khách lúc nửa đêm",
