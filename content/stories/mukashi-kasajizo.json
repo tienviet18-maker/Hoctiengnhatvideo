@@ -1,0 +1,5053 @@
+{
+ "kind": "story",
+ "id": "mukashi-kasajizo",
+ "titles": {
+  "vi": "Sáu tượng Jizō đội nón — Món quà đêm giao thừa",
+  "en": "The Six Jizō and the Straw Hats",
+  "zh-Hans": "戴斗笠的地藏菩萨",
+  "zh-Hant": "戴斗笠的地藏菩薩",
+  "ko": "삿갓 쓴 지장보살",
+  "tl": "Ang Anim na Jizō at ang mga Sombrero",
+  "ne": "टोपी लगाएका छ जिजो",
+  "id": "Enam Jizō dan Topi Jerami",
+  "pt": "Os Seis Jizō e os Chapéus de Palha",
+  "my": "ခမောက်ဆောင်းထားတဲ့ ဂျိဇိုရုပ်ခြောက်ပါး",
+  "th": "พระจิโซหกองค์กับหมวกฟาง"
+ },
+ "level": "N3",
+ "topic": "folktale",
+ "source": "original",
+ "cover": "/covers/mukashi-kasajizo.webp",
+ "free": false,
+ "standard": 2,
+ "shelf": "folktale-jp",
+ "audioTrack": {
+  "src": "/audio/mukashi-kasajizo/chapter.mp3",
+  "durationSec": 371.88
+ },
+ "lesson": {
+  "grammarPoints": [
+   {
+    "pattern": "せっかく〜のに",
+    "meaning": {
+     "vi": "Đã mất công / hiếm hoi mới có ~ vậy mà (tiếc nuối vì điều đáng quý không được trọn vẹn). せっかく + danh từ + なのに / động từ thể thường + のに. Ví dụ: せっかくのお正月なのに、さびしい (Tết nhất hiếm hoi vậy mà buồn tẻ). せっかく作ったのに、だれも食べなかった (đã mất công nấu vậy mà không ai ăn).",
+     "en": "It's a special ~ / I went to the trouble of ~, and yet (regret that something precious is wasted). せっかく + noun + なのに / plain verb + のに. E.g. せっかくのお正月なのに、さびしい (it's New Year, of all times, and yet it's dreary). せっかく作ったのに、だれも食べなかった (I went to the trouble of cooking, and nobody ate).",
+     "zh-Hans": "难得～却～、好不容易～却～（可惜珍贵的事没有圆满）。せっかく＋名词＋なのに／动词简体＋のに。例：せっかくのお正月なのに、さびしい（难得过年，却很冷清）。せっかく作ったのに、だれも食べなかった（好不容易做好了，却没人吃）。",
+     "zh-Hant": "難得～卻～、好不容易～卻～（可惜珍貴的事沒有圓滿）。せっかく＋名詞＋なのに／動詞簡體＋のに。例：せっかくのお正月なのに、さびしい（難得過年，卻很冷清）。せっかく作ったのに、だれも食べなかった（好不容易做好了，卻沒人吃）。",
+     "ko": "모처럼 ~인데 (소중한 것이 헛되어 아쉬움). せっかく + 명사 + なのに / 동사 보통형 + のに. 예: せっかくのお正月なのに、さびしい (모처럼 설날인데 쓸쓸하다). せっかく作ったのに、だれも食べなかった (모처럼 만들었는데 아무도 먹지 않았다).",
+     "tl": "Espesyal pa naman ang ~ / pinaghirapan ko pa naman ang ~, pero (panghihinayang). せっかく + pangngalan + なのに / plain na pandiwa + のに. Hal. せっかくのお正月なのに、さびしい (Bagong Taon pa naman, pero malungkot). せっかく作ったのに、だれも食べなかった (pinaghirapan ko pang lutuin, pero walang kumain).",
+     "ne": "विशेष ~ नै भए पनि / मिहिनेत गरेर ~ गरे पनि (बहुमूल्य कुरा खेर जाँदाको पछुतो)। せっかく + नाम + なのに / क्रियाको साधारण रूप + のに। उदाहरण: せっかくのお正月なのに、さびしい (नयाँ वर्ष नै परेको बेला पनि सुनसान)। せっかく作ったのに、だれも食べなかった (मिहिनेतले पकाएँ, तर कसैले खाएन)।",
+     "id": "Padahal ~ yang istimewa / sudah susah payah ~, tapi (menyayangkan). せっかく + kata benda + なのに / kata kerja bentuk biasa + のに. Contoh: せっかくのお正月なのに、さびしい (padahal Tahun Baru, tapi sepi). せっかく作ったのに、だれも食べなかった (sudah susah payah masak, tapi tak ada yang makan).",
+     "pt": "Logo num ~ especial / dei-me ao trabalho de ~, e no entanto (pena por algo precioso se perder). せっかく + substantivo + なのに / verbo forma simples + のに. Ex.: せっかくのお正月なのに、さびしい (logo no Ano-Novo, e que tristeza). せっかく作ったのに、だれも食べなかった (dei-me ao trabalho de cozinhar e ninguém comeu).",
+     "my": "ရခဲတဲ့ ~ ပေမယ့် / ပင်ပင်ပန်းပန်း ~ ပေမယ့် (တန်ဖိုးရှိတာ အလဟဿဖြစ်လို့ နှမြော)။ せっかく + နာမ် + なのに / ကြိယာ ရိုးရိုးပုံစံ + のに။ ဥပမာ: せっかくのお正月なのに、さびしい (ရခဲတဲ့ နှစ်သစ်ကူးပေမယ့် ခြောက်ကပ်တယ်)။ せっかく作ったのに、だれも食べなかった (ပင်ပင်ပန်းပန်း ချက်ထားပေမယ့် ဘယ်သူမှ မစားဘူး)။",
+     "th": "อุตส่าห์ ~ ทั้งที แต่ (เสียดายที่สิ่งมีค่าไม่สมบูรณ์) せっかく + คำนาม + なのに / คำกริยารูปธรรมดา + のに ตัวอย่าง: せっかくのお正月なのに、さびしい (อุตส่าห์เป็นปีใหม่ทั้งที แต่เหงา) せっかく作ったのに、だれも食べなかった (อุตส่าห์ทำแล้ว แต่ไม่มีใครกิน)"
+    },
+    "example": 4
+   },
+   {
+    "pattern": "〜なんて",
+    "meaning": {
+     "vi": "Cái chuyện ~ / như ~ (nói về điều gì với giọng coi nhẹ, ngạc nhiên hoặc phủ định). Danh từ / thể thường + なんて. Ví dụ: 大みそかに笠を買う人なんて、いない (làm gì có ai mua nón vào giao thừa). 雪の中で寝るなんて、危ない (ngủ giữa tuyết thì nguy hiểm lắm).",
+     "en": "The likes of ~, something like ~ (dismissive, surprised or negative tone). Noun / plain form + なんて. E.g. 大みそかに笠を買う人なんて、いない (nobody buys hats on New Year's Eve). 雪の中で寝るなんて、危ない (sleeping in the snow is dangerous).",
+     "zh-Hans": "～什么的、竟然～（带轻视、惊讶或否定的语气）。名词／简体＋なんて。例：大みそかに笠を買う人なんて、いない（除夕哪有人买斗笠）。雪の中で寝るなんて、危ない（在雪里睡觉，太危险了）。",
+     "zh-Hant": "～什麼的、竟然～（帶輕視、驚訝或否定的語氣）。名詞／簡體＋なんて。例：大みそかに笠を買う人なんて、いない（除夕哪有人買斗笠）。雪の中で寝るなんて、危ない（在雪裡睡覺，太危險了）。",
+     "ko": "~같은 것, ~하다니 (가볍게 보거나 놀람·부정의 어조). 명사 / 보통형 + なんて. 예: 大みそかに笠を買う人なんて、いない (섣달그믐에 삿갓 사는 사람 따위 없다). 雪の中で寝るなんて、危ない (눈 속에서 자다니 위험하다).",
+     "tl": "Ang ganoong ~ (may pagmamaliit, gulat o pagtanggi). Pangngalan / plain form + なんて. Hal. 大みそかに笠を買う人なんて、いない (walang bumibili ng sombrero sa bisperas ng Bagong Taon). 雪の中で寝るなんて、危ない (ang matulog sa niyebe, delikado).",
+     "ne": "~ जस्तो कुरा (हेलचेक्र्याइँ, अचम्म वा अस्वीकारको भाव)। नाम / साधारण रूप + なんて। उदाहरण: 大みそかに笠を買う人なんて、いない (नयाँ वर्षको अघिल्लो रात टोपी किन्ने मान्छे कोही हुँदैन)। 雪の中で寝るなんて、危ない (हिउँमा सुत्नु त खतरनाक हो)।",
+     "id": "Yang namanya ~ (nada meremehkan, heran, atau menyangkal). Kata benda / bentuk biasa + なんて. Contoh: 大みそかに笠を買う人なんて、いない (mana ada orang beli topi di malam Tahun Baru). 雪の中で寝るなんて、危ない (tidur di tengah salju itu berbahaya).",
+     "pt": "Coisa como ~ (tom de desdém, surpresa ou negação). Substantivo / forma simples + なんて. Ex.: 大みそかに笠を買う人なんて、いない (ninguém compra chapéu na véspera de Ano-Novo). 雪の中で寝るなんて、危ない (dormir na neve é perigoso).",
+     "my": "~ ဆိုတာမျိုး (အထင်သေး၊ အံ့ဩ သို့မဟုတ် ငြင်းဆိုသံ)။ နာမ် / ရိုးရိုးပုံစံ + なんて။ ဥပမာ: 大みそかに笠を買う人なんて、いない (နှစ်ကုန်ညမှာ ခမောက်ဝယ်တဲ့လူ မရှိဘူး)။ 雪の中で寝るなんて、危ない (နှင်းထဲမှာ အိပ်တာ အန္တရာယ်များတယ်)။",
+     "th": "อะไรอย่าง ~ (น้ำเสียงดูแคลน ประหลาดใจ หรือปฏิเสธ) คำนาม / รูปธรรมดา + なんて ตัวอย่าง: 大みそかに笠を買う人なんて、いない (คนที่จะซื้อหมวกคืนส่งท้ายปีเก่าน่ะไม่มีหรอก) 雪の中で寝るなんて、危ない (นอนกลางหิมะอันตรายนะ)"
+    },
+    "example": 12
+   },
+   {
+    "pattern": "〜しかない",
+    "meaning": {
+     "vi": "Chỉ còn cách ~ (không có lựa chọn nào khác). Động từ thể từ điển + しかない. Ví dụ: 今日は、もう帰るしかない (hôm nay chỉ còn cách về thôi). バスがないから、歩くしかない (không có xe buýt nên chỉ còn cách đi bộ).",
+     "en": "Have no choice but to ~. Dictionary form + しかない. E.g. 今日は、もう帰るしかない (there's nothing to do but go home today). バスがないから、歩くしかない (there's no bus, so we have no choice but to walk).",
+     "zh-Hans": "只好～、只能～（别无选择）。动词辞书形＋しかない。例：今日は、もう帰るしかない（今天只好回去了）。バスがないから、歩くしかない（没有公交车，只能走路）。",
+     "zh-Hant": "只好～、只能～（別無選擇）。動詞辭書形＋しかない。例：今日は、もう帰るしかない（今天只好回去了）。バスがないから、歩くしかない（沒有公車，只能走路）。",
+     "ko": "~할 수밖에 없다 (다른 선택지가 없음). 동사 사전형 + しかない. 예: 今日は、もう帰るしかない (오늘은 돌아갈 수밖에 없다). バスがないから、歩くしかない (버스가 없으니 걸을 수밖에 없다).",
+     "tl": "Wala nang ibang paraan kundi ~. Dictionary form + しかない. Hal. 今日は、もう帰るしかない (wala nang ibang paraan ngayon kundi umuwi). バスがないから、歩くしかない (walang bus, kaya maglalakad na lang).",
+     "ne": "~ बाहेक उपाय छैन। शब्दकोश रूप + しかない। उदाहरण: 今日は、もう帰るしかない (आज त फर्कनुबाहेक उपाय छैन)। バスがないから、歩くしかない (बस छैन, हिँड्नुबाहेक उपाय छैन)।",
+     "id": "Tak ada pilihan selain ~. Bentuk kamus + しかない. Contoh: 今日は、もう帰るしかない (hari ini tak ada pilihan selain pulang). バスがないから、歩くしかない (tak ada bus, jadi terpaksa jalan kaki).",
+     "pt": "Não ter outro jeito senão ~. Forma de dicionário + しかない. Ex.: 今日は、もう帰るしかない (hoje só me resta voltar). バスがないから、歩くしかない (não há ônibus, então só resta andar).",
+     "my": "~ ရုံသာ ရှိတော့တယ် (တခြားရွေးချယ်စရာ မရှိ)။ အဘိဓာန်ပုံစံ + しかない။ ဥပမာ: 今日は、もう帰るしかない (ဒီနေ့တော့ ပြန်ရုံပဲ ရှိတော့တယ်)။ バスがないから、歩くしかない (ဘတ်စ်ကား မရှိလို့ လမ်းလျှောက်ရုံပဲ ရှိတယ်)။",
+     "th": "ทำได้แค่ ~ (ไม่มีทางเลือกอื่น) รูปพจนานุกรม + しかない ตัวอย่าง: 今日は、もう帰るしかない (วันนี้ทำได้แค่กลับบ้าน) バスがないから、歩くしかない (ไม่มีรถเมล์ เลยต้องเดินอย่างเดียว)"
+    },
+    "example": 16
+   },
+   {
+    "pattern": "かえって",
+    "meaning": {
+     "vi": "Ngược lại, trái lại (kết quả trái với điều người ta nghĩ). かえって + mệnh đề. Ví dụ: おもちはないのに、心はかえってあたたかだった (không có bánh mochi mà lòng lại thấy ấm áp hơn). 急いだら、かえって遅くなった (vội vàng thì trái lại còn chậm hơn).",
+     "en": "On the contrary, rather, all the more (the result is the opposite of what you'd expect). かえって + clause. E.g. おもちはないのに、心はかえってあたたかだった (they had no rice cakes, yet their hearts felt warmer instead). 急いだら、かえって遅くなった (I hurried, and ended up even later).",
+     "zh-Hans": "反而～（结果与预想相反）。かえって＋句子。例：おもちはないのに、心はかえってあたたかだった（虽然没有年糕，心里反而很温暖）。急いだら、かえって遅くなった（一着急，反而更晚了）。",
+     "zh-Hant": "反而～（結果與預想相反）。かえって＋句子。例：おもちはないのに、心はかえってあたたかだった（雖然沒有年糕，心裡反而很溫暖）。急いだら、かえって遅くなった（一著急，反而更晚了）。",
+     "ko": "오히려 (예상과 반대의 결과). かえって + 문장. 예: おもちはないのに、心はかえってあたたかだった (떡은 없는데 마음은 오히려 따뜻했다). 急いだら、かえって遅くなった (서둘렀더니 오히려 늦어졌다).",
+     "tl": "Sa halip, bagkus (kabaligtaran ng inaasahan ang resulta). かえって + sugnay. Hal. おもちはないのに、心はかえってあたたかだった (walang mochi, pero sa halip ay mainit ang puso). 急いだら、かえって遅くなった (nagmadali ako, pero lalo pa akong nahuli).",
+     "ne": "उल्टै (अपेक्षाभन्दा उल्टो परिणाम)। かえって + वाक्य। उदाहरण: おもちはないのに、心はかえってあたたかだった (मोचि नभए पनि मन उल्टै न्यानो थियो)। 急いだら、かえって遅くなった (हतार गर्दा उल्टै ढिलो भयो)।",
+     "id": "Justru, malah (hasilnya berlawanan dengan dugaan). かえって + klausa. Contoh: おもちはないのに、心はかえってあたたかだった (tak ada mochi, tapi hati justru terasa hangat). 急いだら、かえって遅くなった (karena terburu-buru, malah jadi terlambat).",
+     "pt": "Pelo contrário, até mais (o resultado é o oposto do esperado). かえって + oração. Ex.: おもちはないのに、心はかえってあたたかだった (não havia mochi, mas o coração, pelo contrário, estava quentinho). 急いだら、かえって遅くなった (apressei-me e acabei atrasando ainda mais).",
+     "my": "ပြောင်းပြန် (မျှော်လင့်ထားတာနဲ့ ဆန့်ကျင်ဘက်ရလဒ်)။ かえって + ဝါကျ။ ဥပမာ: おもちはないのに、心はかえってあたたかだった (မိုချိ မရှိပေမယ့် စိတ်က ပြောင်းပြန် နွေးထွေးတယ်)။ 急いだら、かえって遅くなった (အလောတကြီးလုပ်တော့ ပြောင်းပြန် ပိုနောက်ကျသွားတယ်)။",
+     "th": "กลับ ~ เสียอีก (ผลตรงข้ามกับที่คาด) かえって + อนุประโยค ตัวอย่าง: おもちはないのに、心はかえってあたたかだった (ไม่มีโมจิ แต่ใจกลับอบอุ่นเสียอีก) 急いだら、かえって遅くなった (รีบแล้วกลับช้ากว่าเดิมเสียอีก)"
+    },
+    "example": 38
+   }
+  ],
+  "quiz": [
+   {
+    "ja": "笠は、なぜ売れませんでしたか。",
+    "choices": [
+     "笠が高すぎたから",
+     "大みそかに笠を買う人がいなかったから",
+     "町に人がいなかったから"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Vì sao nón không bán được?",
+     "en": "Why didn't the hats sell?",
+     "zh-Hans": "斗笠为什么没卖出去？",
+     "zh-Hant": "斗笠為什麼沒賣出去？",
+     "ko": "삿갓은 왜 팔리지 않았습니까?",
+     "tl": "Bakit hindi nabenta ang mga sombrero?",
+     "ne": "टोपी किन बिकेनन्?",
+     "id": "Mengapa topinya tidak laku?",
+     "pt": "Por que os chapéus não foram vendidos?",
+     "my": "ခမောက်တွေ ဘာကြောင့် မရောင်းရတာလဲ။",
+     "th": "ทำไมหมวกจึงขายไม่ได้"
+    }
+   },
+   {
+    "ja": "六つ目のお地蔵さまには、何をかぶせましたか。",
+    "choices": [
+     "新しい笠",
+     "自分の手ぬぐい",
+     "何もかぶせなかった"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Ông lão đội gì cho pho tượng Jizō thứ sáu?",
+     "en": "What did the old man put on the sixth Jizō?",
+     "zh-Hans": "老爷爷给第六尊地藏菩萨戴了什么？",
+     "zh-Hant": "老爺爺給第六尊地藏菩薩戴了什麼？",
+     "ko": "여섯 번째 지장보살에게는 무엇을 씌웠습니까?",
+     "tl": "Ano ang isinuot ng lolo sa ikaanim na Jizō?",
+     "ne": "छैटौँ जिजोलाई के लगाइदिए?",
+     "id": "Apa yang dipakaikan kakek pada Jizō keenam?",
+     "pt": "O que o velhinho pôs no sexto Jizō?",
+     "my": "ဆဋ္ဌမမြောက် ဂျိဇိုကို ဘာဆောင်းပေးခဲ့သလဲ။",
+     "th": "ตาสวมอะไรให้พระจิโซองค์ที่หก"
+    }
+   },
+   {
+    "ja": "話を聞いたおばあさんは、どう言いましたか。",
+    "choices": [
+     "おじいさんをしかった",
+     "いいことをしたとほめた",
+     "笠を返してもらおうと言った"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Nghe chuyện xong, bà lão đã nói gì?",
+     "en": "What did the old woman say after hearing the story?",
+     "zh-Hans": "老奶奶听了这件事，是怎么说的？",
+     "zh-Hant": "老奶奶聽了這件事，是怎麼說的？",
+     "ko": "이야기를 들은 할머니는 뭐라고 했습니까?",
+     "tl": "Ano ang sinabi ng lola matapos marinig ang kuwento?",
+     "ne": "कुरा सुनेपछि बज्यैले के भनिन्?",
+     "id": "Apa kata nenek setelah mendengar ceritanya?",
+     "pt": "O que a velhinha disse ao ouvir a história?",
+     "my": "အကြောင်းကြားပြီး အဘွားက ဘာပြောခဲ့သလဲ။",
+     "th": "เมื่อฟังเรื่องแล้ว ยายพูดว่าอย่างไร"
+    }
+   },
+   {
+    "ja": "夜、家の前には何がありましたか。",
+    "choices": [
+     "お米やおもちや小判などのお礼",
+     "たくさんの雪だるま",
+     "五つの笠"
+    ],
+    "answer": 0,
+    "explain": {
+     "vi": "Đêm đó, trước cửa nhà có gì?",
+     "en": "What was in front of the house that night?",
+     "zh-Hans": "夜里，家门前有什么？",
+     "zh-Hant": "夜裡，家門前有什麼？",
+     "ko": "밤에 집 앞에는 무엇이 있었습니까?",
+     "tl": "Ano ang nasa harap ng bahay noong gabing iyon?",
+     "ne": "राति घरअगाडि के थियो?",
+     "id": "Apa yang ada di depan rumah malam itu?",
+     "pt": "O que havia diante da casa naquela noite?",
+     "my": "ညမှာ အိမ်ရှေ့မှာ ဘာတွေ ရှိခဲ့သလဲ။",
+     "th": "คืนนั้น หน้าบ้านมีอะไรอยู่"
+    }
+   }
+  ]
+ },
+ "sentences": [
+  {
+   "ja": "昔々、雪の深い山の村に、まずしいおじいさんとおばあさんが住んでいました。",
+   "furigana": [
+    {
+     "surface": "昔",
+     "reading": "むかし"
+    },
+    {
+     "surface": "々",
+     "reading": "々"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "雪",
+     "reading": "ゆき"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "深",
+     "reading": "ふか"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "山",
+     "reading": "やま"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "村",
+     "reading": "むら"
+    },
+    {
+     "surface": "に、まずしいおじいさんとおばあさんが",
+     "reading": ""
+    },
+    {
+     "surface": "住",
+     "reading": "す"
+    },
+    {
+     "surface": "んでいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mukashi 々, yuki no fukai yama no mura ni, mazushii ojiisan to obaasan ga sunde imashita.",
+   "translations": {
+    "vi": "Ngày xửa ngày xưa, ở một ngôi làng trên núi tuyết dày, có hai ông bà lão nghèo sinh sống.",
+    "en": "Long, long ago, in a mountain village deep in snow, there lived a poor old man and old woman.",
+    "zh-Hans": "很久很久以前，在一个积雪很深的山村里，住着一对贫穷的老爷爷和老奶奶。",
+    "zh-Hant": "很久很久以前，在一個積雪很深的山村裡，住著一對貧窮的老爺爺和老奶奶。",
+    "ko": "옛날 옛적, 눈이 깊이 쌓이는 산골 마을에 가난한 할아버지와 할머니가 살고 있었습니다.",
+    "tl": "Noong unang panahon, sa isang nayon sa bundok na makapal ang niyebe, may nakatirang mahirap na lolo at lola.",
+    "ne": "धेरै पहिले, बाक्लो हिउँ पर्ने एउटा पहाडी गाउँमा एक गरिब बाजे र बज्यै बस्थे।",
+    "id": "Dahulu kala, di sebuah desa pegunungan yang bersalju tebal, tinggallah seorang kakek dan nenek yang miskin.",
+    "pt": "Há muito tempo, numa aldeia nas montanhas coberta de neve funda, vivia um velhinho pobre com a sua velhinha.",
+    "my": "ဟိုးရှေးရှေးတုန်းက နှင်းထူထူကျတဲ့ တောင်ပေါ်ရွာလေးတစ်ရွာမှာ ဆင်းရဲတဲ့ အဘိုးအိုနဲ့ အဘွားအို နေထိုင်ကြတယ်။",
+    "th": "กาลครั้งหนึ่งนานมาแล้ว ในหมู่บ้านบนภูเขาที่หิมะตกหนา มีตายายผู้ยากจนอาศัยอยู่"
+   },
+   "grammarNote": {
+    "vi": "まずしい: nghèo. 深い: sâu, dày.",
+    "en": "まずしい: poor. 深い: deep.",
+    "zh-Hans": "まずしい: 贫穷. 深い: 深.",
+    "zh-Hant": "まずしい: 貧窮. 深い: 深.",
+    "ko": "まずしい: 가난하다. 深い: 깊다.",
+    "tl": "まずしい: mahirap. 深い: malalim, makapal.",
+    "ne": "まずしい: गरिब. 深い: गहिरो, बाक्लो.",
+    "id": "まずしい: miskin. 深い: dalam, tebal.",
+    "pt": "まずしい: pobre. 深い: fundo.",
+    "my": "まずしい: ဆင်းရဲသည်. 深い: နက်သည်၊ ထူသည်.",
+    "th": "まずしい: ยากจน. 深い: ลึก, หนา."
+   },
+   "vocab": [
+    {
+     "word": "まずしい",
+     "reading": "まずしい",
+     "level": "N3",
+     "meanings": {
+      "vi": "nghèo",
+      "en": "poor",
+      "zh-Hans": "贫穷",
+      "zh-Hant": "貧窮",
+      "ko": "가난하다",
+      "tl": "mahirap",
+      "ne": "गरिब",
+      "id": "miskin",
+      "pt": "pobre",
+      "my": "ဆင်းရဲသည်",
+      "th": "ยากจน"
+     }
+    }
+   ],
+   "t": [
+    0.3,
+    7.49
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=0.3,7.49"
+  },
+  {
+   "ja": "二人はまじめに働いていましたが、暮らしはいつも楽ではありませんでした。",
+   "furigana": [
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "はまじめに",
+     "reading": ""
+    },
+    {
+     "surface": "働",
+     "reading": "はたら"
+    },
+    {
+     "surface": "いていましたが、",
+     "reading": ""
+    },
+    {
+     "surface": "暮",
+     "reading": "く"
+    },
+    {
+     "surface": "らしはいつも",
+     "reading": ""
+    },
+    {
+     "surface": "楽",
+     "reading": "らく"
+    },
+    {
+     "surface": "ではありませんでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Futari wa majime ni hataraite imashita ga, kurashi wa itsumo raku de wa arimasendeshita.",
+   "translations": {
+    "vi": "Hai ông bà làm lụng chăm chỉ, nhưng cuộc sống lúc nào cũng chẳng dễ dàng.",
+    "en": "The two worked hard, but life was never easy for them.",
+    "zh-Hans": "两人勤勤恳恳地干活，可日子总是过得不轻松。",
+    "zh-Hant": "兩人勤勤懇懇地幹活，可日子總是過得不輕松。",
+    "ko": "두 사람은 성실하게 일했지만, 살림은 늘 넉넉하지 않았습니다.",
+    "tl": "Masipag silang dalawa, pero hindi kailanman naging madali ang buhay nila.",
+    "ne": "दुवैजना मिहिनेतसाथ काम गर्थे, तर जीवन कहिल्यै सजिलो थिएन।",
+    "id": "Keduanya bekerja keras, tetapi hidup mereka tak pernah mudah.",
+    "pt": "Os dois trabalhavam com afinco, mas a vida nunca era fácil.",
+    "my": "နှစ်ယောက်စလုံး ကြိုးကြိုးစားစား အလုပ်လုပ်ကြပေမယ့် ဘဝက ဘယ်တော့မှ မလွယ်ခဲ့ဘူး။",
+    "th": "ทั้งสองทำงานอย่างขยันขันแข็ง แต่ชีวิตก็ไม่เคยสบายเลย"
+   },
+   "grammarNote": {
+    "vi": "まじめ: chăm chỉ, nghiêm túc. 暮らし: cuộc sống. 楽: dễ dàng, thoải mái.",
+    "en": "まじめ: hard-working, earnest. 暮らし: living, life. 楽: easy, comfortable.",
+    "zh-Hans": "まじめ: 认真、勤恳. 暮らし: 生活. 楽: 轻松.",
+    "zh-Hant": "まじめ: 認真、勤懇. 暮らし: 生活. 楽: 輕松.",
+    "ko": "まじめ: 성실함. 暮らし: 살림, 생활. 楽: 편함, 넉넉함.",
+    "tl": "まじめ: masipag, seryoso. 暮らし: pamumuhay. 楽: madali, maginhawa.",
+    "ne": "まじめ: मिहिनेती. 暮らし: जीवनयापन. 楽: सजिलो.",
+    "id": "まじめ: rajin, sungguh-sungguh. 暮らし: kehidupan. 楽: mudah, nyaman.",
+    "pt": "まじめ: dedicado, sério. 暮らし: vida, sustento. 楽: fácil, confortável.",
+    "my": "まじめ: ကြိုးစားသော. 暮らし: လူနေမှုဘဝ. 楽: သက်သာ.",
+    "th": "まじめ: ขยัน, จริงจัง. 暮らし: ความเป็นอยู่. 楽: สบาย."
+   },
+   "vocab": [
+    {
+     "word": "暮らし",
+     "reading": "くらし",
+     "level": "N3",
+     "meanings": {
+      "vi": "cuộc sống",
+      "en": "living, life",
+      "zh-Hans": "生活",
+      "zh-Hant": "生活",
+      "ko": "생활",
+      "tl": "pamumuhay",
+      "ne": "जीवन",
+      "id": "kehidupan",
+      "pt": "vida",
+      "my": "နေထိုင်မှု",
+      "th": "ความเป็นอยู่"
+     }
+    },
+    {
+     "word": "楽",
+     "reading": "らく",
+     "level": "N3",
+     "meanings": {
+      "vi": "sung sướng, nhàn",
+      "en": "easy, comfortable",
+      "zh-Hans": "轻松",
+      "zh-Hant": "輕鬆",
+      "ko": "편함",
+      "tl": "maginhawa",
+      "ne": "सुख, सजिलो",
+      "id": "enak, mudah",
+      "pt": "fácil, confortável",
+      "my": "သက်သာ",
+      "th": "สบาย"
+     }
+    }
+   ],
+   "t": [
+    8.09,
+    13.29
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=8.09,13.29"
+  },
+  {
+   "ja": "ある年の大みそか、家には、お正月のおもちを買うお金が、少しもありませんでした。",
+   "furigana": [
+    {
+     "surface": "ある",
+     "reading": ""
+    },
+    {
+     "surface": "年",
+     "reading": "とし"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "みそか、",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "には、お",
+     "reading": ""
+    },
+    {
+     "surface": "正月",
+     "reading": "しょうがつ"
+    },
+    {
+     "surface": "のおもちを",
+     "reading": ""
+    },
+    {
+     "surface": "買",
+     "reading": "か"
+    },
+    {
+     "surface": "うお",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "かね"
+    },
+    {
+     "surface": "が、",
+     "reading": ""
+    },
+    {
+     "surface": "少",
+     "reading": "すこ"
+    },
+    {
+     "surface": "しもありませんでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Aru toshi no oomisoka, ie ni wa, oshougatsu no omochi o kau okane ga, sukoshi mo arimasendeshita.",
+   "translations": {
+    "vi": "Đêm giao thừa năm ấy, trong nhà không còn chút tiền nào để mua bánh mochi ngày Tết.",
+    "en": "One New Year's Eve, there was not a single coin in the house to buy rice cakes for the New Year.",
+    "zh-Hans": "有一年的除夕，家里连一点买过年年糕的钱都没有。",
+    "zh-Hant": "有一年的除夕，家裡連一點買過年年糕的錢都沒有。",
+    "ko": "어느 해 섣달그믐, 집에는 설날 떡을 살 돈이 한 푼도 없었습니다.",
+    "tl": "Isang bisperas ng Bagong Taon, wala ni isang barya sa bahay para pambili ng mochi para sa Bagong Taon.",
+    "ne": "एक वर्षको नयाँ वर्षको अघिल्लो रात, घरमा नयाँ वर्षको मोचि किन्ने एक पैसा पनि थिएन।",
+    "id": "Pada suatu malam Tahun Baru, di rumah tak ada sepeser pun uang untuk membeli mochi Tahun Baru.",
+    "pt": "Numa véspera de Ano-Novo, não havia em casa nem uma moeda para comprar mochi para o Ano-Novo.",
+    "my": "တစ်နှစ်ရဲ့ နှစ်ကုန်ညမှာ အိမ်မှာ နှစ်သစ်မိုချိ ဝယ်ဖို့ ပိုက်ဆံ တစ်ပြားမှ မရှိဘူး။",
+    "th": "คืนส่งท้ายปีเก่าปีหนึ่ง ในบ้านไม่มีเงินสักแดงเดียวที่จะซื้อโมจิฉลองปีใหม่"
+   },
+   "grammarNote": {
+    "vi": "大みそか: đêm giao thừa (31/12). お正月: Tết. 少しも〜ない: không chút nào.",
+    "en": "大みそか: New Year's Eve. お正月: New Year. 少しも〜ない: not at all.",
+    "zh-Hans": "大みそか: 除夕. お正月: 新年. 少しも〜ない: 一点也不.",
+    "zh-Hant": "大みそか: 除夕. お正月: 新年. 少しも〜ない: 一點也不.",
+    "ko": "大みそか: 섣달그믐. お正月: 설날. 少しも〜ない: 조금도 ~없다.",
+    "tl": "大みそか: bisperas ng Bagong Taon. お正月: Bagong Taon. 少しも〜ない: wala ni kaunti.",
+    "ne": "大みそか: नयाँ वर्षको अघिल्लो रात. お正月: नयाँ वर्ष. 少しも〜ない: अलिकति पनि छैन.",
+    "id": "大みそか: malam Tahun Baru. お正月: Tahun Baru. 少しも〜ない: sama sekali tidak.",
+    "pt": "大みそか: véspera de Ano-Novo. お正月: Ano-Novo. 少しも〜ない: nem um pouco.",
+    "my": "大みそか: နှစ်ကုန်ည. お正月: နှစ်သစ်ကူး. 少しも〜ない: နည်းနည်းမှ မ.",
+    "th": "大みそか: คืนส่งท้ายปีเก่า. お正月: ปีใหม่. 少しも〜ない: ไม่ ~ เลยสักนิด."
+   },
+   "vocab": [],
+   "t": [
+    13.89,
+    21.23
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=13.89,21.23"
+  },
+  {
+   "ja": "ばあさんや、明日はお正月だというのに、おもちひとつないなあ。",
+   "furigana": [
+    {
+     "surface": "ばあさんや、",
+     "reading": ""
+    },
+    {
+     "surface": "明日",
+     "reading": "あした"
+    },
+    {
+     "surface": "はお",
+     "reading": ""
+    },
+    {
+     "surface": "正月",
+     "reading": "しょうがつ"
+    },
+    {
+     "surface": "だというのに、おもちひとつないなあ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Baasan ya, ashita wa oshougatsu da to iu noni, omochi hitotsu nai naa.",
+   "translations": {
+    "vi": "Bà nó ơi, mai là Tết rồi mà đến một cái bánh mochi cũng không có.",
+    "en": "Grandma, tomorrow is New Year's Day, and yet we don't have even one rice cake.",
+    "zh-Hans": "老伴儿啊，明天就过年了，可连一块年糕都没有啊。",
+    "zh-Hant": "老伴兒啊，明天就過年了，可連一塊年糕都沒有啊。",
+    "ko": "할멈, 내일이 설날인데 떡 하나 없구려.",
+    "tl": "Lola, Bagong Taon na bukas, pero wala man lang tayong kahit isang mochi.",
+    "ne": "ए बूढी, भोलि नयाँ वर्ष हो, तर एउटा मोचि पनि छैन।",
+    "id": "Nek, besok sudah Tahun Baru, tapi satu mochi pun kita tak punya.",
+    "pt": "Velha, amanhã é Ano-Novo e não temos nem um único mochi.",
+    "my": "အဘွားရေ၊ မနက်ဖြန် နှစ်သစ်ကူးပြီ၊ ဒါပေမဲ့ မိုချိ တစ်လုံးတောင် မရှိဘူး။",
+    "th": "ยายเอ๊ย พรุ่งนี้ก็ปีใหม่แล้ว แต่โมจิสักก้อนก็ไม่มีเลย"
+   },
+   "grammarNote": {
+    "vi": "〜というのに: vậy mà, thế mà. ばあさん: bà nó (cách ông lão gọi vợ).",
+    "en": "〜というのに: even though. ばあさん: old woman (husband addressing wife).",
+    "zh-Hans": "〜というのに: 明明～却. ばあさん: 老伴儿（老爷爷称呼妻子）.",
+    "zh-Hant": "〜というのに: 明明～卻. ばあさん: 老伴兒（老爺爺稱呼妻子）.",
+    "ko": "〜というのに: ~인데도. ばあさん: 할멈 (남편이 아내를 부름).",
+    "tl": "〜というのに: kahit na, gayong. ばあさん: Lola (tawag ng asawang lalaki).",
+    "ne": "〜というのに: ~ भए पनि. ばあさん: बूढी (श्रीमानले श्रीमतीलाई).",
+    "id": "〜というのに: padahal. ばあさん: Nek (suami memanggil istri).",
+    "pt": "〜というのに: embora, e no entanto. ばあさん: velha (o marido chamando a esposa).",
+    "my": "〜というのに: ~ ပေမယ့်. ばあさん: အဘွား (ခင်ပွန်းက ဇနီးကိုခေါ်).",
+    "th": "〜というのに: ทั้งที่ ~ แท้ ๆ. ばあさん: ยายเอ๊ย (สามีเรียกภรรยา)."
+   },
+   "vocab": [],
+   "t": [
+    22.13,
+    28.26
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=22.13,28.26"
+  },
+  {
+   "ja": "せっかくのお正月なのに、さびしいですねえ。",
+   "furigana": [
+    {
+     "surface": "せっかくのお",
+     "reading": ""
+    },
+    {
+     "surface": "正月",
+     "reading": "しょうがつ"
+    },
+    {
+     "surface": "なのに、さびしいですねえ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sekkaku no oshougatsu na noni, sabishiidesu nee.",
+   "translations": {
+    "vi": "Tết nhất đã đến mà buồn tẻ quá ông nhỉ.",
+    "en": "It's New Year, of all times, and it's so dreary.",
+    "zh-Hans": "难得过年，却这么冷清啊。",
+    "zh-Hant": "難得過年，卻這麼冷清啊。",
+    "ko": "모처럼 설날인데 쓸쓸하네요.",
+    "tl": "Bagong Taon pa naman, ang lungkot naman.",
+    "ne": "नयाँ वर्ष नै परेको बेला, कति सुनसान।",
+    "id": "Padahal Tahun Baru, tapi sepi sekali, ya.",
+    "pt": "Logo no Ano-Novo, e que tristeza.",
+    "my": "ရခဲတဲ့ နှစ်သစ်ကူးပေမယ့် ခြောက်ကပ်လိုက်တာနော်။",
+    "th": "อุตส่าห์เป็นปีใหม่ทั้งที แต่เหงาจังเลยนะ"
+   },
+   "grammarNote": {
+    "vi": "せっかく〜のに: đã mất công/hiếm có ~ vậy mà. さびしい: buồn, quạnh quẽ.",
+    "en": "せっかく〜のに: it's a special ~, and yet. さびしい: lonely, dreary.",
+    "zh-Hans": "せっかく〜のに: 难得～却. さびしい: 冷清、寂寞.",
+    "zh-Hant": "せっかく〜のに: 難得～卻. さびしい: 冷清、寂寞.",
+    "ko": "せっかく〜のに: 모처럼 ~인데. さびしい: 쓸쓸하다.",
+    "tl": "せっかく〜のに: espesyal pa naman ang ~, pero. さびしい: malungkot.",
+    "ne": "せっかく〜のに: विशेष ~ नै हुँदा पनि. さびしい: सुनसान, एक्लो.",
+    "id": "せっかく〜のに: padahal ~ yang istimewa, tapi. さびしい: sepi.",
+    "pt": "せっかく〜のに: logo num(a) ~ especial, e no entanto. さびしい: triste, solitário.",
+    "my": "せっかく〜のに: ရခဲတဲ့ ~ ပေမယ့်. さびしい: ခြောက်ကပ်၊ အထီးကျန်.",
+    "th": "せっかく〜のに: อุตส่าห์ ~ ทั้งที แต่. さびしい: เหงา."
+   },
+   "vocab": [
+    {
+     "word": "せっかく",
+     "reading": "せっかく",
+     "level": "N2",
+     "meanings": {
+      "vi": "đã mất công, nhân dịp hiếm có",
+      "en": "since one has the chance; with much effort",
+      "zh-Hans": "难得，特意",
+      "zh-Hant": "難得，特意",
+      "ko": "모처럼, 기왕",
+      "tl": "tutal may pagkakataon",
+      "ne": "मौका छँदैछ, मिहिनेत गरेर",
+      "id": "mumpung, susah payah",
+      "pt": "já que, com tanto esforço",
+      "my": "အခွင့်ရတုန်း",
+      "th": "อุตส่าห์, ไหนๆ ก็"
+     }
+    }
+   ],
+   "t": [
+    29.16,
+    32.95
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=29.16,32.95"
+  },
+  {
+   "ja": "そうだ、おじいさん。わたしが作った笠を、町へ売りに行ってはどうでしょう。",
+   "furigana": [
+    {
+     "surface": "そうだ、おじいさん。わたしが",
+     "reading": ""
+    },
+    {
+     "surface": "作",
+     "reading": "つく"
+    },
+    {
+     "surface": "った",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "を、",
+     "reading": ""
+    },
+    {
+     "surface": "町",
+     "reading": "まち"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "売",
+     "reading": "う"
+    },
+    {
+     "surface": "りに",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "ってはどうでしょう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sou da, ojiisan. Watashi ga tsukutta kasa o, machi e uri ni itte wa dou deshou.",
+   "translations": {
+    "vi": "À phải rồi, ông ơi. Ông mang mấy cái nón tôi đan ra phố bán thử xem sao.",
+    "en": "Oh, I know, dear. Why not take the hats I made into town to sell?",
+    "zh-Hans": "对了，老头子，把我编的斗笠拿到镇上去卖卖看怎么样？",
+    "zh-Hant": "對了，老頭子，把我編的斗笠拿到鎮上去賣賣看怎麼樣？",
+    "ko": "그래요, 영감. 제가 만든 삿갓을 마을 장에 팔러 가 보면 어떨까요?",
+    "tl": "Ah, alam ko na. Bakit hindi mo dalhin sa bayan ang mga sombrerong ginawa ko para ibenta?",
+    "ne": "हो त, बूढा। मैले बुनेका टोपीहरू सहरमा बेच्न लैजाऊ न।",
+    "id": "Oh, ya, Kek. Bagaimana kalau topi buatanku dibawa ke kota untuk dijual?",
+    "pt": "Ah, já sei. Que tal levar os chapéus que fiz para vender na cidade?",
+    "my": "ဟုတ်ပြီ အဘိုး။ ကျွန်မ ရက်ထားတဲ့ ခမောက်တွေကို မြို့မှာ ရောင်းကြည့်ရင် ဘယ်လိုလဲ။",
+    "th": "จริงสิ ตา เอาหมวกที่ฉันสานไปขายในเมืองดูไหม"
+   },
+   "grammarNote": {
+    "vi": "笠: nón (đội đầu). 〜てはどうでしょう: ~ thử xem sao.",
+    "en": "笠: woven hat. 〜てはどうでしょう: how about ~.",
+    "zh-Hans": "笠: 斗笠. 〜てはどうでしょう: ～怎么样.",
+    "zh-Hant": "笠: 斗笠. 〜てはどうでしょう: ～怎麼樣.",
+    "ko": "笠: 삿갓. 〜てはどうでしょう: ~하면 어떨까요.",
+    "tl": "笠: sombrerong hinabi. 〜てはどうでしょう: bakit hindi ~.",
+    "ne": "笠: बुनेको टोपी. 〜てはどうでしょう: ~ गरे कसो होला.",
+    "id": "笠: topi anyaman. 〜てはどうでしょう: bagaimana kalau ~.",
+    "pt": "笠: chapéu de palha. 〜てはどうでしょう: que tal ~.",
+    "my": "笠: ခမောက်. 〜てはどうでしょう: ~ ရင် ဘယ်လိုလဲ.",
+    "th": "笠: หมวกสาน. 〜てはどうでしょう: ลอง ~ ดูไหม."
+   },
+   "vocab": [],
+   "t": [
+    33.55,
+    40.78
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=33.55,40.78"
+  },
+  {
+   "ja": "おばあさんは、秋のあいだに、すげという草で、笠を五つ編んでおいたのです。",
+   "furigana": [
+    {
+     "surface": "おばあさんは、",
+     "reading": ""
+    },
+    {
+     "surface": "秋",
+     "reading": "あき"
+    },
+    {
+     "surface": "のあいだに、すげという",
+     "reading": ""
+    },
+    {
+     "surface": "草",
+     "reading": "くさ"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "五",
+     "reading": "いつ"
+    },
+    {
+     "surface": "つ",
+     "reading": ""
+    },
+    {
+     "surface": "編",
+     "reading": "あ"
+    },
+    {
+     "surface": "んでおいたのです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Obaasan wa, aki no aida ni, suge toiu kusa de, kasa o itsutsu ande oita no desu.",
+   "translations": {
+    "vi": "Suốt mùa thu, bà lão đã đan sẵn năm chiếc nón bằng một loại cỏ tên là cỏ suge.",
+    "en": "During the autumn, the old woman had woven five hats from a grass called suge.",
+    "zh-Hans": "秋天里，老奶奶用一种叫\"菅草\"的草，事先编好了五顶斗笠。",
+    "zh-Hant": "秋天裡，老奶奶用一種叫「菅草」的草，事先編好了五頂斗笠。",
+    "ko": "할머니는 가을 동안 '스게'라는 풀로 삿갓 다섯 개를 미리 엮어 두었던 것입니다.",
+    "tl": "Noong taglagas, nakahabi na ang lola ng limang sombrero mula sa damong tinatawag na suge.",
+    "ne": "शरद ऋतुभरि बज्यैले \"सुगे\" नामको घाँसबाट पाँचवटा टोपी बुनेर राखेकी थिइन्।",
+    "id": "Selama musim gugur, nenek sudah menganyam lima topi dari rumput bernama suge.",
+    "pt": "Durante o outono, a velhinha tinha tecido cinco chapéus com uma erva chamada suge.",
+    "my": "ဆောင်းဦးတစ်လျှောက် အဘွားဟာ \"ဆုဂဲ\" လို့ခေါ်တဲ့ မြက်နဲ့ ခမောက်ငါးလုံး ရက်ထားပြီးသားပါ။",
+    "th": "ตลอดฤดูใบไม้ร่วง ยายได้สานหมวกเตรียมไว้ห้าใบจากหญ้าที่ชื่อว่า \"สุเงะ\""
+   },
+   "grammarNote": {
+    "vi": "すげ: cỏ suge (cói). 編む: đan. 〜ておく: làm sẵn.",
+    "en": "すげ: sedge grass. 編む: weave. 〜ておく: do in advance.",
+    "zh-Hans": "すげ: 菅草. 編む: 编. 〜ておく: 事先做好.",
+    "zh-Hant": "すげ: 菅草. 編む: 編. 〜ておく: 事先做好.",
+    "ko": "すげ: 사초 풀. 編む: 엮다. 〜ておく: 미리 ~해 두다.",
+    "tl": "すげ: damong suge (sedge). 編む: humabi. 〜ておく: gawin nang maaga.",
+    "ne": "すげ: सुगे घाँस. 編む: बुन्नु. 〜ておく: पहिल्यै गरेर राख्नु.",
+    "id": "すげ: rumput suge (teki). 編む: menganyam. 〜ておく: menyiapkan lebih dulu.",
+    "pt": "すげ: junça (suge). 編む: tecer. 〜ておく: fazer de antemão.",
+    "my": "すげ: ဆုဂဲမြက်. 編む: ရက်သည်. 〜ておく: ကြိုလုပ်ထားသည်.",
+    "th": "すげ: หญ้าสุเงะ (กก). 編む: สาน. 〜ておく: ทำเตรียมไว้."
+   },
+   "vocab": [
+    {
+     "word": "編む",
+     "reading": "あむ",
+     "level": "N2",
+     "meanings": {
+      "vi": "đan, bện",
+      "en": "to weave, to knit",
+      "zh-Hans": "编织",
+      "zh-Hant": "編織",
+      "ko": "엮다, 뜨다",
+      "tl": "humabi",
+      "ne": "बुन्नु",
+      "id": "menganyam",
+      "pt": "tecer",
+      "my": "ရက်သည်",
+      "th": "สาน, ถัก"
+     }
+    }
+   ],
+   "t": [
+    41.68,
+    48.72
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=41.68,48.72"
+  },
+  {
+   "ja": "それはいい。笠を売って、おもちを買ってこよう。",
+   "furigana": [
+    {
+     "surface": "それはいい。",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "売",
+     "reading": "う"
+    },
+    {
+     "surface": "って、おもちを",
+     "reading": ""
+    },
+    {
+     "surface": "買",
+     "reading": "か"
+    },
+    {
+     "surface": "ってこよう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sore wa ii. Kasa o utte, omochi o katte koyou.",
+   "translations": {
+    "vi": "Hay đấy. Bán nón rồi mua bánh mochi về.",
+    "en": "That's a fine idea. I'll sell the hats and bring back some rice cakes.",
+    "zh-Hans": "好主意。卖了斗笠，买年糕回来吧。",
+    "zh-Hant": "好主意。賣了斗笠，買年糕回來吧。",
+    "ko": "그거 좋구려. 삿갓을 팔아서 떡을 사 오겠소.",
+    "tl": "Magandang ideya iyan. Ibebenta ko ang mga sombrero at bibili ng mochi.",
+    "ne": "राम्रो कुरा। टोपी बेचेर मोचि किनेर ल्याउँछु।",
+    "id": "Ide bagus. Aku jual topinya, lalu pulang membawa mochi.",
+    "pt": "Boa ideia. Vendo os chapéus e trago mochi.",
+    "my": "ကောင်းတယ်။ ခမောက်ရောင်းပြီး မိုချိ ဝယ်လာမယ်။",
+    "th": "ดีเลย ตาจะไปขายหมวกแล้วซื้อโมจิกลับมา"
+   },
+   "grammarNote": {
+    "vi": "〜てこよう: đi ~ rồi về.",
+    "en": "〜てこよう: go and ~ (and come back).",
+    "zh-Hans": "〜てこよう: 去～回来.",
+    "zh-Hant": "〜てこよう: 去～回來.",
+    "ko": "〜てこよう: ~하고 오자.",
+    "tl": "〜てこよう: pumunta at ~ (saka bumalik).",
+    "ne": "〜てこよう: गएर ~ ल्याउँछु.",
+    "id": "〜てこよう: pergi ~ lalu kembali.",
+    "pt": "〜てこよう: ir ~ e voltar.",
+    "my": "〜てこよう: ~ ပြီး ပြန်လာမယ်.",
+    "th": "〜てこよう: ไป ~ แล้วกลับมา."
+   },
+   "vocab": [],
+   "t": [
+    49.62,
+    54.2
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=49.62,54.2"
+  },
+  {
+   "ja": "おじいさんは、五つの笠をせなかにしょって、雪の道を町へ出かけました。",
+   "furigana": [
+    {
+     "surface": "おじいさんは、",
+     "reading": ""
+    },
+    {
+     "surface": "五",
+     "reading": "いつ"
+    },
+    {
+     "surface": "つの",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "をせなかにしょって、",
+     "reading": ""
+    },
+    {
+     "surface": "雪",
+     "reading": "ゆき"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "道",
+     "reading": "みち"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "町",
+     "reading": "まち"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "で"
+    },
+    {
+     "surface": "かけました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ojiisan wa, itsutsu no kasa o se naka ni shotte, yuki no michi o machi e dekakemashita.",
+   "translations": {
+    "vi": "Ông lão đeo năm chiếc nón sau lưng, lên đường tuyết ra phố.",
+    "en": "The old man carried the five hats on his back and set off along the snowy road to town.",
+    "zh-Hans": "老爷爷把五顶斗笠背在背上，踏着雪路往镇上去了。",
+    "zh-Hant": "老爺爺把五頂斗笠背在背上，踏著雪路往鎮上去了。",
+    "ko": "할아버지는 삿갓 다섯 개를 등에 지고, 눈길을 따라 장으로 나섰습니다.",
+    "tl": "Pinasan ng lolo sa likod ang limang sombrero at naglakad sa daang may niyebe papuntang bayan.",
+    "ne": "बाजेले पाँचवटा टोपी ढाडमा बोकेर हिउँको बाटो हुँदै सहरतिर लागे।",
+    "id": "Kakek memanggul lima topi di punggungnya dan berangkat ke kota lewat jalan bersalju.",
+    "pt": "O velhinho pôs os cinco chapéus às costas e partiu pela estrada nevada rumo à cidade.",
+    "my": "အဘိုးဟာ ခမောက်ငါးလုံးကို ကျောပေါ်ပိုးပြီး နှင်းလမ်းအတိုင်း မြို့ကို ထွက်သွားတယ်။",
+    "th": "ตาแบกหมวกห้าใบไว้บนหลัง แล้วออกเดินบนทางหิมะไปยังเมือง"
+   },
+   "grammarNote": {
+    "vi": "しょう: đeo trên lưng. せなか: lưng.",
+    "en": "しょう: carry on the back. せなか: back.",
+    "zh-Hans": "しょう: 背. せなか: 背.",
+    "zh-Hant": "しょう: 背. せなか: 背.",
+    "ko": "しょう: 등에 지다. せなか: 등.",
+    "tl": "しょう: pasanin sa likod. せなか: likod.",
+    "ne": "しょう: ढाडमा बोक्नु. せなか: ढाड.",
+    "id": "しょう: memanggul di punggung. せなか: punggung.",
+    "pt": "しょう: carregar nas costas. せなか: costas.",
+    "my": "しょう: ကျောပိုးသည်. せなか: ကျော.",
+    "th": "しょう: แบกบนหลัง. せなか: หลัง."
+   },
+   "vocab": [],
+   "t": [
+    55.1,
+    61.25
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=55.1,61.25"
+  },
+  {
+   "ja": "町は、お正月の買い物をする人たちで、にぎわっていました。",
+   "furigana": [
+    {
+     "surface": "町",
+     "reading": "まち"
+    },
+    {
+     "surface": "は、お",
+     "reading": ""
+    },
+    {
+     "surface": "正月",
+     "reading": "しょうがつ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "買",
+     "reading": "か"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "物",
+     "reading": "もの"
+    },
+    {
+     "surface": "をする",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "たちで、にぎわっていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Machi wa, oshougatsu no kaimono o suru hitotachi de, nigiwatte imashita.",
+   "translations": {
+    "vi": "Phố xá nhộn nhịp người đi sắm Tết.",
+    "en": "The town was bustling with people doing their New Year shopping.",
+    "zh-Hans": "镇上挤满了置办年货的人，热闹非凡。",
+    "zh-Hant": "鎮上擠滿了置辦年貨的人，熱鬧非凡。",
+    "ko": "장터는 설 장을 보는 사람들로 북적였습니다.",
+    "tl": "Masigla ang bayan, puno ng mga taong namimili para sa Bagong Taon.",
+    "ne": "सहर नयाँ वर्षको किनमेल गर्ने मानिसले भरिएर चहलपहल थियो।",
+    "id": "Kota ramai dengan orang yang berbelanja untuk Tahun Baru.",
+    "pt": "A cidade estava animada, cheia de gente fazendo compras de Ano-Novo.",
+    "my": "မြို့ဟာ နှစ်သစ်ဈေးဝယ်တဲ့လူတွေနဲ့ စည်ကားနေတယ်။",
+    "th": "ในเมืองคึกคักไปด้วยผู้คนที่มาจับจ่ายซื้อของปีใหม่"
+   },
+   "grammarNote": {
+    "vi": "にぎわう: nhộn nhịp, đông vui. 買い物: mua sắm.",
+    "en": "にぎわう: be lively, bustling. 買い物: shopping.",
+    "zh-Hans": "にぎわう: 热闹. 買い物: 买东西.",
+    "zh-Hant": "にぎわう: 熱鬧. 買い物: 買東西.",
+    "ko": "にぎわう: 북적이다. 買い物: 장보기.",
+    "tl": "にぎわう: maging masigla, mataong. 買い物: pamimili.",
+    "ne": "にぎわう: चहलपहल हुनु. 買い物: किनमेल.",
+    "id": "にぎわう: ramai. 買い物: belanja.",
+    "pt": "にぎわう: estar animado, movimentado. 買い物: compras.",
+    "my": "にぎわう: စည်ကားသည်. 買い物: ဈေးဝယ်ခြင်း.",
+    "th": "にぎわう: คึกคัก. 買い物: ซื้อของ."
+   },
+   "vocab": [
+    {
+     "word": "にぎわう",
+     "reading": "にぎわう",
+     "level": "N1",
+     "meanings": {
+      "vi": "nhộn nhịp, đông vui",
+      "en": "to be lively, to bustle",
+      "zh-Hans": "热闹",
+      "zh-Hant": "熱鬧",
+      "ko": "북적이다",
+      "tl": "maging masigla",
+      "ne": "चहलपहल हुनु",
+      "id": "ramai",
+      "pt": "estar movimentado",
+      "my": "စည်ကားသည်",
+      "th": "คึกคัก"
+     }
+    }
+   ],
+   "t": [
+    61.85,
+    66.89
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=61.85,66.89"
+  },
+  {
+   "ja": "笠はいらんかね。あたたかい笠はいらんかね。",
+   "furigana": [
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "はいらんかね。あたたかい",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "はいらんかね。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kasa wa iran ka ne. Atatakai kasa wa iran ka ne.",
+   "translations": {
+    "vi": "Ai mua nón không? Nón ấm đây, ai mua không?",
+    "en": "Hats! Who wants a hat? Nice warm hats!",
+    "zh-Hans": "要斗笠吗？暖和的斗笠要不要？",
+    "zh-Hant": "要斗笠嗎？暖和的斗笠要不要？",
+    "ko": "삿갓 사시오. 따뜻한 삿갓 사시오.",
+    "tl": "Sombrero! Sino'ng gustong bumili? Maiinit na sombrero!",
+    "ne": "टोपी लिने कोही? न्यानो टोपी लिने कोही?",
+    "id": "Topi! Ada yang mau topi? Topi hangat!",
+    "pt": "Chapéus! Quem quer chapéu? Chapéus quentinhos!",
+    "my": "ခမောက် ဝယ်ကြမလား။ နွေးနွေး ခမောက် ဝယ်ကြမလား။",
+    "th": "หมวกจ้า ใครจะซื้อหมวกบ้าง หมวกอุ่น ๆ จ้า"
+   },
+   "grammarNote": {
+    "vi": "〜はいらんかね: có cần ~ không (lời rao).",
+    "en": "〜はいらんかね: anyone want ~? (street cry).",
+    "zh-Hans": "〜はいらんかね: 要不要～（叫卖）.",
+    "zh-Hant": "〜はいらんかね: 要不要～（叫賣）.",
+    "ko": "〜はいらんかね: ~필요하지 않소 (외치는 말).",
+    "tl": "〜はいらんかね: may gusto bang ~? (sigaw ng tindero).",
+    "ne": "〜はいらんかね: ~ चाहिन्छ कि (बेच्दा कराउने).",
+    "id": "〜はいらんかね: ada yang mau ~? (seruan penjual).",
+    "pt": "〜はいらんかね: alguém quer ~? (pregão).",
+    "my": "〜はいらんかね: ~ ဝယ်မလား (ဈေးအော်သံ).",
+    "th": "〜はいらんかね: เอา ~ ไหม (คำร้องขายของ)."
+   },
+   "vocab": [],
+   "t": [
+    67.79,
+    71.88
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=67.79,71.88"
+  },
+  {
+   "ja": "おじいさんは、大きな声で呼びましたが、だれも足を止めてくれません。",
+   "furigana": [
+    {
+     "surface": "おじいさんは、",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "きな",
+     "reading": ""
+    },
+    {
+     "surface": "声",
+     "reading": "こえ"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "呼",
+     "reading": "よ"
+    },
+    {
+     "surface": "びましたが、だれも",
+     "reading": ""
+    },
+    {
+     "surface": "足",
+     "reading": "あし"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "止",
+     "reading": "と"
+    },
+    {
+     "surface": "めてくれません。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ojiisan wa, ookina koe de yobimashita ga, dare mo ashi o tomete kuremasen.",
+   "translations": {
+    "vi": "Ông lão rao to, nhưng chẳng ai dừng chân.",
+    "en": "The old man called out loudly, but no one stopped.",
+    "zh-Hans": "老爷爷大声吆喝，可谁也不停下脚步。",
+    "zh-Hant": "老爺爺大聲吆喝，可誰也不停下腳步。",
+    "ko": "할아버지는 큰 소리로 외쳤지만, 아무도 걸음을 멈추지 않았습니다.",
+    "tl": "Malakas na tumawag ang lolo, pero walang tumigil.",
+    "ne": "बाजेले ठूलो स्वरमा कराए, तर कोही पनि रोकिएन।",
+    "id": "Kakek berseru keras, tetapi tak seorang pun berhenti.",
+    "pt": "O velhinho chamou bem alto, mas ninguém parou.",
+    "my": "အဘိုးက အသံကျယ်ကျယ်နဲ့ အော်ပေမယ့် ဘယ်သူမှ ခြေလှမ်းမရပ်ဘူး။",
+    "th": "ตาร้องเรียกเสียงดัง แต่ไม่มีใครหยุดเดินเลย"
+   },
+   "grammarNote": {
+    "vi": "呼ぶ: gọi, rao. 足を止める: dừng chân.",
+    "en": "呼ぶ: call out. 足を止める: stop walking.",
+    "zh-Hans": "呼ぶ: 吆喝. 足を止める: 停下脚步.",
+    "zh-Hant": "呼ぶ: 吆喝. 足を止める: 停下腳步.",
+    "ko": "呼ぶ: 외치다. 足を止める: 걸음을 멈추다.",
+    "tl": "呼ぶ: tumawag. 足を止める: tumigil sa paglalakad.",
+    "ne": "呼ぶ: कराउनु. 足を止める: रोकिनु.",
+    "id": "呼ぶ: berseru. 足を止める: berhenti melangkah.",
+    "pt": "呼ぶ: chamar, apregoar. 足を止める: parar.",
+    "my": "呼ぶ: အော်ခေါ်သည်. 足を止める: ခြေလှမ်းရပ်သည်.",
+    "th": "呼ぶ: ร้องเรียก. 足を止める: หยุดเดิน."
+   },
+   "vocab": [],
+   "t": [
+    72.78,
+    78.82
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=72.78,78.82"
+  },
+  {
+   "ja": "おじいさん、大みそかに笠を買う人なんて、いないよ。",
+   "furigana": [
+    {
+     "surface": "おじいさん、",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "みそかに",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "買",
+     "reading": "か"
+    },
+    {
+     "surface": "う",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "なんて、いないよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ojiisan, oomisoka ni kasa o kau hito nante, inai yo.",
+   "translations": {
+    "vi": "Ông ơi, giao thừa thì làm gì có ai mua nón chứ.",
+    "en": "Old man, nobody buys hats on New Year's Eve.",
+    "zh-Hans": "老爷爷，除夕哪有人买斗笠呀。",
+    "zh-Hant": "老爺爺，除夕哪有人買斗笠呀。",
+    "ko": "할아버지, 섣달그믐에 삿갓 사는 사람이 어디 있어요.",
+    "tl": "Lolo, walang bumibili ng sombrero sa bisperas ng Bagong Taon.",
+    "ne": "बाजे, नयाँ वर्षको अघिल्लो रात टोपी किन्ने मान्छे कहाँ हुन्छ र।",
+    "id": "Kek, mana ada orang beli topi di malam Tahun Baru.",
+    "pt": "Senhor, ninguém compra chapéu na véspera de Ano-Novo.",
+    "my": "အဘိုး၊ နှစ်ကုန်ညမှာ ခမောက်ဝယ်တဲ့လူ ဘယ်ရှိမလဲ။",
+    "th": "คุณตา คืนส่งท้ายปีเก่าใครเขาจะมาซื้อหมวกกันล่ะ"
+   },
+   "grammarNote": {
+    "vi": "〜なんて: cái chuyện ~ (coi nhẹ, bất ngờ).",
+    "en": "〜なんて: the likes of ~ (dismissive, surprise).",
+    "zh-Hans": "〜なんて: ～什么的（轻视、意外）.",
+    "zh-Hant": "〜なんて: ～什麼的（輕視、意外）.",
+    "ko": "〜なんて: ~같은 것 (가볍게 봄, 놀람).",
+    "tl": "〜なんて: ang ganoong ~ (pagmamaliit, gulat).",
+    "ne": "〜なんて: ~ जस्तो कुरा (हेलचेक्र्याइँ, अचम्म).",
+    "id": "〜なんて: yang namanya ~ (meremehkan, heran).",
+    "pt": "〜なんて: coisa como ~ (desdém, surpresa).",
+    "my": "〜なんて: ~ ဆိုတာမျိုး (အထင်သေး၊ အံ့ဩ).",
+    "th": "〜なんて: อะไรอย่าง ~ (ดูแคลน, ประหลาดใจ)."
+   },
+   "vocab": [],
+   "t": [
+    79.72,
+    83.87
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=79.72,83.87"
+  },
+  {
+   "ja": "みんな、おもちやお魚を買うのでいそがしいんだ。",
+   "furigana": [
+    {
+     "surface": "みんな、おもちやお",
+     "reading": ""
+    },
+    {
+     "surface": "魚",
+     "reading": "さかな"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "買",
+     "reading": "か"
+    },
+    {
+     "surface": "うのでいそがしいんだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Minna, omochi ya osakana o kau node isogashii n da.",
+   "translations": {
+    "vi": "Ai cũng bận mua bánh mochi với cá cả rồi.",
+    "en": "Everyone's busy buying rice cakes and fish.",
+    "zh-Hans": "大家都忙着买年糕和鱼呢。",
+    "zh-Hant": "大家都忙著買年糕和魚呢。",
+    "ko": "다들 떡이랑 생선 사느라 바쁘다고요.",
+    "tl": "Abala ang lahat sa pagbili ng mochi at isda.",
+    "ne": "सबैजना मोचि र माछा किन्न व्यस्त छन्।",
+    "id": "Semua sibuk beli mochi dan ikan.",
+    "pt": "Todo mundo está ocupado comprando mochi e peixe.",
+    "my": "လူတိုင်း မိုချိနဲ့ ငါးဝယ်ဖို့ အလုပ်ရှုပ်နေကြတယ်။",
+    "th": "ทุกคนยุ่งกับการซื้อโมจิกับปลากันทั้งนั้น"
+   },
+   "grammarNote": {
+    "vi": "いそがしい: bận rộn.",
+    "en": "いそがしい: busy.",
+    "zh-Hans": "いそがしい: 忙.",
+    "zh-Hant": "いそがしい: 忙.",
+    "ko": "いそがしい: 바쁘다.",
+    "tl": "いそがしい: abala.",
+    "ne": "いそがしい: व्यस्त.",
+    "id": "いそがしい: sibuk.",
+    "pt": "いそがしい: ocupado.",
+    "my": "いそがしい: အလုပ်ရှုပ်.",
+    "th": "いそがしい: ยุ่ง."
+   },
+   "vocab": [],
+   "t": [
+    84.47,
+    88.27
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=84.47,88.27"
+  },
+  {
+   "ja": "そうか。それもそうだなあ。",
+   "furigana": [
+    {
+     "surface": "そうか。それもそうだなあ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sou ka. Sore mo sou da naa.",
+   "translations": {
+    "vi": "Vậy à. Cũng phải thôi.",
+    "en": "I see. I suppose that's true.",
+    "zh-Hans": "是吗。说得也是啊。",
+    "zh-Hant": "是嗎。說得也是啊。",
+    "ko": "그런가. 그 말도 맞구려.",
+    "tl": "Ganoon ba. Sabagay, tama ka.",
+    "ne": "हो र? त्यो पनि ठीकै हो।",
+    "id": "Begitu, ya. Benar juga.",
+    "pt": "É mesmo. Tem razão.",
+    "my": "ဟုတ်လား။ ဒါလည်း ဟုတ်တာပဲ။",
+    "th": "อย่างนั้นหรือ ก็จริงของเขานะ"
+   },
+   "grammarNote": {
+    "vi": "それもそうだ: cũng phải.",
+    "en": "それもそうだ: that's true too.",
+    "zh-Hans": "それもそうだ: 说得也是.",
+    "zh-Hant": "それもそうだ: 說得也是.",
+    "ko": "それもそうだ: 그 말도 맞다.",
+    "tl": "それもそうだ: tama rin naman.",
+    "ne": "それもそうだ: त्यो पनि ठीक.",
+    "id": "それもそうだ: benar juga.",
+    "pt": "それもそうだ: isso também é verdade.",
+    "my": "それもそうだ: ဒါလည်း ဟုတ်တယ်.",
+    "th": "それもそうだ: ก็จริง."
+   },
+   "vocab": [],
+   "t": [
+    89.17,
+    91.81
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=89.17,91.81"
+  },
+  {
+   "ja": "日がかたむいても、笠はひとつも売れませんでした。",
+   "furigana": [
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "がかたむいても、",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "はひとつも",
+     "reading": ""
+    },
+    {
+     "surface": "売",
+     "reading": "う"
+    },
+    {
+     "surface": "れませんでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hi ga katamuite mo, kasa wa hitotsu mo uremasendeshita.",
+   "translations": {
+    "vi": "Mặt trời đã ngả về tây mà chẳng bán được chiếc nón nào.",
+    "en": "Even as the sun sank low, not a single hat was sold.",
+    "zh-Hans": "太阳都偏西了，斗笠一顶也没卖出去。",
+    "zh-Hant": "太陽都偏西了，斗笠一頂也沒賣出去。",
+    "ko": "해가 기울어도 삿갓은 하나도 팔리지 않았습니다.",
+    "tl": "Kahit papalubog na ang araw, wala ni isang sombrerong nabenta.",
+    "ne": "घाम ढल्किँदासम्म पनि एउटा टोपी बिकेन।",
+    "id": "Sampai matahari condong ke barat pun, tak satu topi terjual.",
+    "pt": "Mesmo com o sol já baixo, nem um chapéu foi vendido.",
+    "my": "နေစောင်းသွားတဲ့အထိ ခမောက် တစ်လုံးမှ မရောင်းရဘူး။",
+    "th": "แม้ตะวันจะคล้อยต่ำแล้ว หมวกก็ขายไม่ได้สักใบ"
+   },
+   "grammarNote": {
+    "vi": "日がかたむく: mặt trời ngả bóng. 売れる: bán được.",
+    "en": "日がかたむく: the sun sinks. 売れる: sell, be sold.",
+    "zh-Hans": "日がかたむく: 太阳偏西. 売れる: 卖得出去.",
+    "zh-Hant": "日がかたむく: 太陽偏西. 売れる: 賣得出去.",
+    "ko": "日がかたむく: 해가 기울다. 売れる: 팔리다.",
+    "tl": "日がかたむく: lumubog ang araw. 売れる: mabenta.",
+    "ne": "日がかたむく: घाम ढल्किनु. 売れる: बिक्नु.",
+    "id": "日がかたむく: matahari condong. 売れる: laku.",
+    "pt": "日がかたむく: o sol baixar. 売れる: vender-se.",
+    "my": "日がかたむく: နေစောင်းသည်. 売れる: ရောင်းရသည်.",
+    "th": "日がかたむく: ตะวันคล้อย. 売れる: ขายได้."
+   },
+   "vocab": [
+    {
+     "word": "かたむく",
+     "reading": "かたむく",
+     "level": "N2",
+     "meanings": {
+      "vi": "nghiêng, ngả (mặt trời)",
+      "en": "to tilt, to sink (sun)",
+      "zh-Hans": "倾斜、偏西",
+      "zh-Hant": "傾斜、偏西",
+      "ko": "기울다",
+      "tl": "tumagilid, lumubog",
+      "ne": "ढल्किनु",
+      "id": "condong",
+      "pt": "inclinar-se",
+      "my": "စောင်းသည်",
+      "th": "เอียง, คล้อย"
+     }
+    },
+    {
+     "word": "売れる",
+     "reading": "うれる",
+     "level": "N3",
+     "meanings": {
+      "vi": "bán chạy, bán được",
+      "en": "to sell, be sold",
+      "zh-Hans": "卖出去",
+      "zh-Hant": "賣出去",
+      "ko": "팔리다",
+      "tl": "mabenta",
+      "ne": "बिक्नु",
+      "id": "laku",
+      "pt": "vender-se",
+      "my": "ရောင်းရ",
+      "th": "ขายได้"
+     }
+    }
+   ],
+   "t": [
+    92.71,
+    96.85
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=92.71,96.85"
+  },
+  {
+   "ja": "しかたがない。今日は、もう帰るしかないな。",
+   "furigana": [
+    {
+     "surface": "しかたがない。",
+     "reading": ""
+    },
+    {
+     "surface": "今日",
+     "reading": "きょう"
+    },
+    {
+     "surface": "は、もう",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "るしかないな。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shikata ga nai. Kyou wa, mou kaeru shika nai na.",
+   "translations": {
+    "vi": "Đành vậy. Hôm nay chỉ còn cách về thôi.",
+    "en": "It can't be helped. There's nothing to do but go home today.",
+    "zh-Hans": "没办法。今天只好回家了。",
+    "zh-Hant": "沒辦法。今天只好回家了。",
+    "ko": "어쩔 수 없지. 오늘은 그냥 돌아갈 수밖에 없겠군.",
+    "tl": "Wala nang magagawa. Wala nang ibang paraan ngayon kundi umuwi.",
+    "ne": "के गर्ने। आज त घर फर्कनुबाहेक उपाय छैन।",
+    "id": "Apa boleh buat. Hari ini tak ada pilihan selain pulang.",
+    "pt": "Não tem jeito. Hoje só me resta voltar para casa.",
+    "my": "မတတ်နိုင်ဘူး။ ဒီနေ့တော့ ပြန်ရုံပဲ ရှိတော့တယ်။",
+    "th": "ช่วยไม่ได้ วันนี้คงต้องกลับบ้านอย่างเดียว"
+   },
+   "grammarNote": {
+    "vi": "しかたがない: đành chịu. 〜しかない: chỉ còn cách ~.",
+    "en": "しかたがない: it can't be helped. 〜しかない: have no choice but ~.",
+    "zh-Hans": "しかたがない: 没办法. 〜しかない: 只好～.",
+    "zh-Hant": "しかたがない: 沒辦法. 〜しかない: 只好～.",
+    "ko": "しかたがない: 어쩔 수 없다. 〜しかない: ~할 수밖에 없다.",
+    "tl": "しかたがない: wala nang magagawa. 〜しかない: wala nang ibang paraan kundi ~.",
+    "ne": "しかたがない: के गर्ने. 〜しかない: ~ बाहेक उपाय छैन.",
+    "id": "しかたがない: apa boleh buat. 〜しかない: tak ada pilihan selain ~.",
+    "pt": "しかたがない: não tem jeito. 〜しかない: só resta ~.",
+    "my": "しかたがない: မတတ်နိုင်. 〜しかない: ~ ရုံသာ ရှိတော့တယ်.",
+    "th": "しかたがない: ช่วยไม่ได้. 〜しかない: ทำได้แค่ ~."
+   },
+   "vocab": [],
+   "t": [
+    97.75,
+    101.87
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=97.75,101.87"
+  },
+  {
+   "ja": "おじいさんは、重い足をひきずって、村への道を帰りはじめました。",
+   "furigana": [
+    {
+     "surface": "おじいさんは、",
+     "reading": ""
+    },
+    {
+     "surface": "重",
+     "reading": "おも"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "足",
+     "reading": "あし"
+    },
+    {
+     "surface": "をひきずって、",
+     "reading": ""
+    },
+    {
+     "surface": "村",
+     "reading": "むら"
+    },
+    {
+     "surface": "への",
+     "reading": ""
+    },
+    {
+     "surface": "道",
+     "reading": "みち"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "りはじめました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ojiisan wa, omoi ashi o hikizutte, mura e no michi o kaeri hajimemashita.",
+   "translations": {
+    "vi": "Ông lão lê đôi chân nặng nề, bắt đầu về làng.",
+    "en": "Dragging his heavy feet, the old man started back toward the village.",
+    "zh-Hans": "老爷爷拖着沉重的脚步，开始往村里走。",
+    "zh-Hant": "老爺爺拖著沉重的腳步，開始往村裡走。",
+    "ko": "할아버지는 무거운 발을 끌며 마을로 돌아가기 시작했습니다.",
+    "tl": "Kinaladkad ng lolo ang mabibigat niyang paa at nagsimulang umuwi sa nayon.",
+    "ne": "बाजे गह्रौँ खुट्टा घिसार्दै गाउँतिर फर्कन थाले।",
+    "id": "Sambil menyeret kakinya yang berat, kakek mulai pulang ke desa.",
+    "pt": "Arrastando os pés pesados, o velhinho começou a voltar para a aldeia.",
+    "my": "အဘိုးဟာ လေးလံတဲ့ခြေထောက်ကို ဆွဲပြီး ရွာဘက်ကို ပြန်လျှောက်လာတယ်။",
+    "th": "ตาลากเท้าที่หนักอึ้ง เริ่มเดินกลับหมู่บ้าน"
+   },
+   "grammarNote": {
+    "vi": "ひきずる: lê, kéo lê. 〜はじめる: bắt đầu ~.",
+    "en": "ひきずる: drag. 〜はじめる: begin ~.",
+    "zh-Hans": "ひきずる: 拖. 〜はじめる: 开始～.",
+    "zh-Hant": "ひきずる: 拖. 〜はじめる: 開始～.",
+    "ko": "ひきずる: 끌다. 〜はじめる: ~하기 시작하다.",
+    "tl": "ひきずる: kaladkarin. 〜はじめる: magsimulang ~.",
+    "ne": "ひきずる: घिसार्नु. 〜はじめる: ~ थाल्नु.",
+    "id": "ひきずる: menyeret. 〜はじめる: mulai ~.",
+    "pt": "ひきずる: arrastar. 〜はじめる: começar a ~.",
+    "my": "ひきずる: ဆွဲသည်. 〜はじめる: ~ စသည်.",
+    "th": "ひきずる: ลาก. 〜はじめる: เริ่ม ~."
+   },
+   "vocab": [
+    {
+     "word": "ひきずる",
+     "reading": "ひきずる",
+     "level": "N1",
+     "meanings": {
+      "vi": "kéo lê",
+      "en": "to drag",
+      "zh-Hans": "拖",
+      "zh-Hant": "拖",
+      "ko": "끌다",
+      "tl": "kaladkarin",
+      "ne": "घिसार्नु",
+      "id": "menyeret",
+      "pt": "arrastar",
+      "my": "ဆွဲသည်",
+      "th": "ลาก"
+     }
+    }
+   ],
+   "t": [
+    102.77,
+    109.42
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=102.77,109.42"
+  },
+  {
+   "ja": "そのうちに、空から、雪がどんどん降ってきました。",
+   "furigana": [
+    {
+     "surface": "そのうちに、",
+     "reading": ""
+    },
+    {
+     "surface": "空",
+     "reading": "そら"
+    },
+    {
+     "surface": "から、",
+     "reading": ""
+    },
+    {
+     "surface": "雪",
+     "reading": "ゆき"
+    },
+    {
+     "surface": "がどんどん",
+     "reading": ""
+    },
+    {
+     "surface": "降",
+     "reading": "ふ"
+    },
+    {
+     "surface": "ってきました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono uchi ni, sora kara, yuki ga dondon futte kimashita.",
+   "translations": {
+    "vi": "Một lúc sau, tuyết từ trên trời rơi ngày một dày.",
+    "en": "Before long, snow began falling heavily from the sky.",
+    "zh-Hans": "不一会儿，天上的雪越下越大。",
+    "zh-Hant": "不一會兒，天上的雪越下越大。",
+    "ko": "그러는 사이에 하늘에서 눈이 펑펑 쏟아지기 시작했습니다.",
+    "tl": "Hindi nagtagal, bumuhos nang bumuhos ang niyebe mula sa langit.",
+    "ne": "केही बेरमै आकाशबाट हिउँ झन्-झन् धेरै पर्न थाल्यो।",
+    "id": "Tak lama kemudian, salju turun makin lebat dari langit.",
+    "pt": "Pouco depois, a neve começou a cair cada vez mais forte.",
+    "my": "မကြာခင်မှာ ကောင်းကင်က နှင်းတွေ ပိုပိုပြီး ကျလာတယ်။",
+    "th": "ไม่นานนัก หิมะก็ตกลงมาจากฟ้าหนักขึ้นเรื่อย ๆ"
+   },
+   "grammarNote": {
+    "vi": "そのうちに: một lúc sau. どんどん: dồn dập, ngày càng.",
+    "en": "そのうちに: before long. どんどん: more and more.",
+    "zh-Hans": "そのうちに: 不一会儿. どんどん: 不断地.",
+    "zh-Hant": "そのうちに: 不一會兒. どんどん: 不斷地.",
+    "ko": "そのうちに: 그러는 사이에. どんどん: 자꾸, 펑펑.",
+    "tl": "そのうちに: hindi nagtagal. どんどん: nang paparami.",
+    "ne": "そのうちに: केही बेरमै. どんどん: झन्-झन्.",
+    "id": "そのうちに: tak lama kemudian. どんどん: makin lama makin.",
+    "pt": "そのうちに: pouco depois. どんどん: cada vez mais.",
+    "my": "そのうちに: မကြာခင်. どんどん: ပိုပို.",
+    "th": "そのうちに: ไม่นานนัก. どんどん: เรื่อย ๆ, มากขึ้น."
+   },
+   "vocab": [],
+   "t": [
+    110.02,
+    114.81
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=110.02,114.81"
+  },
+  {
+   "ja": "風も強くなって、前がよく見えないほどでした。",
+   "furigana": [
+    {
+     "surface": "風",
+     "reading": "かぜ"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "強",
+     "reading": "つよ"
+    },
+    {
+     "surface": "くなって、",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "がよく",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "えないほどでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kaze mo tsuyoku natte, mae ga yoku mienai hodo deshita.",
+   "translations": {
+    "vi": "Gió cũng mạnh lên, đến mức không nhìn rõ phía trước.",
+    "en": "The wind grew strong too, so much that he could hardly see ahead.",
+    "zh-Hans": "风也大了起来，大到前面都看不清楚。",
+    "zh-Hant": "風也大了起來，大到前面都看不清楚。",
+    "ko": "바람도 세져서 앞이 잘 보이지 않을 정도였습니다.",
+    "tl": "Lumakas din ang hangin, hanggang halos hindi na niya makita ang daan sa harap.",
+    "ne": "हावा पनि चर्को भयो, अगाडि राम्ररी नदेखिने गरी।",
+    "id": "Angin pun makin kencang, sampai jalan di depan hampir tak terlihat.",
+    "pt": "O vento também ficou forte, a ponto de mal se ver o caminho à frente.",
+    "my": "လေလည်း ပြင်းလာပြီး ရှေ့ကို ကောင်းကောင်း မမြင်ရလောက်အောင် ဖြစ်လာတယ်။",
+    "th": "ลมก็แรงขึ้น จนแทบมองไม่เห็นทางข้างหน้า"
+   },
+   "grammarNote": {
+    "vi": "〜ほど: đến mức ~.",
+    "en": "〜ほど: so much that ~.",
+    "zh-Hans": "〜ほど: 到～的程度.",
+    "zh-Hant": "〜ほど: 到～的程度.",
+    "ko": "〜ほど: ~정도.",
+    "tl": "〜ほど: hanggang sa ~.",
+    "ne": "〜ほど: ~ हुने गरी.",
+    "id": "〜ほど: sampai ~.",
+    "pt": "〜ほど: a ponto de ~.",
+    "my": "〜ほど: ~ လောက်အောင်.",
+    "th": "〜ほど: จน ~."
+   },
+   "vocab": [],
+   "t": [
+    115.41,
+    119.3
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=115.41,119.3"
+  },
+  {
+   "ja": "村の入り口の野原まで来ると、道ばたに、お地蔵さまが六つ、ならんで立っていました。",
+   "furigana": [
+    {
+     "surface": "村",
+     "reading": "むら"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "入",
+     "reading": "い"
+    },
+    {
+     "surface": "り",
+     "reading": ""
+    },
+    {
+     "surface": "口",
+     "reading": "くち"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "野原",
+     "reading": "のはら"
+    },
+    {
+     "surface": "まで",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "く"
+    },
+    {
+     "surface": "ると、",
+     "reading": ""
+    },
+    {
+     "surface": "道",
+     "reading": "みち"
+    },
+    {
+     "surface": "ばたに、お",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "さまが",
+     "reading": ""
+    },
+    {
+     "surface": "六",
+     "reading": "むっ"
+    },
+    {
+     "surface": "つ、ならんで",
+     "reading": ""
+    },
+    {
+     "surface": "立",
+     "reading": "た"
+    },
+    {
+     "surface": "っていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mura no irikuchi no nohara made kuru to, michibata ni, ojizousama ga muttsu, narande tatte imashita.",
+   "translations": {
+    "vi": "Đến bãi cỏ đầu làng, bên vệ đường có sáu pho tượng Jizō đứng thành hàng.",
+    "en": "When he reached the field at the village entrance, six Jizō statues stood in a row by the road.",
+    "zh-Hans": "走到村口的原野时，只见路边并排站着六尊地藏菩萨。",
+    "zh-Hant": "走到村口的原野時，只見路邊並排站著六尊地藏菩薩。",
+    "ko": "마을 어귀 들판에 이르자, 길가에 지장보살 석상 여섯이 나란히 서 있었습니다.",
+    "tl": "Pagdating sa parang sa bungad ng nayon, may anim na estatwa ni Jizō na nakahanay sa tabi ng daan.",
+    "ne": "गाउँको प्रवेशद्वारको चौरमा पुग्दा, बाटोछेउ छवटा जिजो मूर्ति लहरै उभिएका थिए।",
+    "id": "Sesampai di padang rumput di pintu masuk desa, ada enam patung Jizō berdiri berjajar di tepi jalan.",
+    "pt": "Ao chegar ao campo na entrada da aldeia, viu seis estátuas de Jizō enfileiradas à beira da estrada.",
+    "my": "ရွာဝင်ပေါက်က ကွင်းပြင်ကို ရောက်တော့ လမ်းဘေးမှာ ဂျိဇိုရုပ်ခြောက်ပါး တန်းစီရပ်နေတယ်။",
+    "th": "เมื่อมาถึงทุ่งหญ้าปากทางเข้าหมู่บ้าน ก็เห็นรูปปั้นพระจิโซหกองค์ยืนเรียงกันอยู่ข้างทาง"
+   },
+   "grammarNote": {
+    "vi": "お地蔵さま: tượng Bồ Tát Địa Tạng (Jizō). 道ばた: vệ đường. 野原: bãi cỏ.",
+    "en": "お地蔵さま: Jizō (guardian Buddhist statue). 道ばた: roadside. 野原: field.",
+    "zh-Hans": "お地蔵さま: 地藏菩萨（石像）. 道ばた: 路边. 野原: 原野.",
+    "zh-Hant": "お地蔵さま: 地藏菩薩（石像）. 道ばた: 路邊. 野原: 原野.",
+    "ko": "お地蔵さま: 지장보살 석상. 道ばた: 길가. 野原: 들판.",
+    "tl": "お地蔵さま: Jizō (estatwang Budista na tagapagbantay). 道ばた: tabi ng daan. 野原: parang.",
+    "ne": "お地蔵さま: जिजो (रक्षक बौद्ध मूर्ति). 道ばた: बाटोछेउ. 野原: चौर.",
+    "id": "お地蔵さま: Jizō (patung Buddha pelindung). 道ばた: tepi jalan. 野原: padang rumput.",
+    "pt": "お地蔵さま: Jizō (estátua budista protetora). 道ばた: beira da estrada. 野原: campo.",
+    "my": "お地蔵さま: ဂျိဇို (စောင့်ရှောက်သော ဗုဒ္ဓရုပ်ထု). 道ばた: လမ်းဘေး. 野原: ကွင်းပြင်.",
+    "th": "お地蔵さま: พระจิโซ (รูปปั้นพระโพธิสัตว์). 道ばた: ข้างทาง. 野原: ทุ่งหญ้า."
+   },
+   "vocab": [],
+   "t": [
+    119.9,
+    127.25
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=119.9,127.25"
+  },
+  {
+   "ja": "お地蔵さまの頭にも肩にも、雪がたくさん積もっていました。",
+   "furigana": [
+    {
+     "surface": "お",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "さまの",
+     "reading": ""
+    },
+    {
+     "surface": "頭",
+     "reading": "あたま"
+    },
+    {
+     "surface": "にも",
+     "reading": ""
+    },
+    {
+     "surface": "肩",
+     "reading": "かた"
+    },
+    {
+     "surface": "にも、",
+     "reading": ""
+    },
+    {
+     "surface": "雪",
+     "reading": "ゆき"
+    },
+    {
+     "surface": "がたくさん",
+     "reading": ""
+    },
+    {
+     "surface": "積",
+     "reading": "つ"
+    },
+    {
+     "surface": "もっていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ojizousama no atama ni mo kata ni mo, yuki ga takusan tsumotte imashita.",
+   "translations": {
+    "vi": "Trên đầu và vai các tượng Jizō, tuyết phủ rất dày.",
+    "en": "Snow was piled high on the Jizō statues' heads and shoulders.",
+    "zh-Hans": "地藏菩萨的头上、肩上都积了厚厚的雪。",
+    "zh-Hant": "地藏菩薩的頭上、肩上都積了厚厚的雪。",
+    "ko": "지장보살의 머리와 어깨에도 눈이 수북이 쌓여 있었습니다.",
+    "tl": "Makapal ang niyebe sa ulo at balikat ng mga Jizō.",
+    "ne": "जिजोका टाउको र काँधमा बाक्लो हिउँ थुप्रिएको थियो।",
+    "id": "Salju menumpuk tebal di kepala dan bahu patung-patung Jizō.",
+    "pt": "Havia muita neve acumulada na cabeça e nos ombros dos Jizō.",
+    "my": "ဂျိဇိုရုပ်တွေရဲ့ ခေါင်းနဲ့ ပခုံးပေါ်မှာ နှင်းတွေ ထူထူ ပုံနေတယ်။",
+    "th": "หิมะกองหนาอยู่บนศีรษะและบ่าของพระจิโซ"
+   },
+   "grammarNote": {
+    "vi": "肩: vai. 積もる: phủ, chất (tuyết).",
+    "en": "肩: shoulder. 積もる: pile up.",
+    "zh-Hans": "肩: 肩膀. 積もる: 积.",
+    "zh-Hant": "肩: 肩膀. 積もる: 積.",
+    "ko": "肩: 어깨. 積もる: 쌓이다.",
+    "tl": "肩: balikat. 積もる: maipon.",
+    "ne": "肩: काँध. 積もる: थुप्रिनु.",
+    "id": "肩: bahu. 積もる: menumpuk.",
+    "pt": "肩: ombro. 積もる: acumular-se.",
+    "my": "肩: ပခုံး. 積もる: ပုံသည်.",
+    "th": "肩: บ่า. 積もる: กองสะสม."
+   },
+   "vocab": [
+    {
+     "word": "肩",
+     "reading": "かた",
+     "level": "N3",
+     "meanings": {
+      "vi": "vai",
+      "en": "shoulder",
+      "zh-Hans": "肩膀",
+      "zh-Hant": "肩膀",
+      "ko": "어깨",
+      "tl": "balikat",
+      "ne": "काँध",
+      "id": "bahu",
+      "pt": "ombro",
+      "my": "ပခုံး",
+      "th": "ไหล่"
+     }
+    },
+    {
+     "word": "積もる",
+     "reading": "つもる",
+     "level": "N3",
+     "meanings": {
+      "vi": "(tuyết) phủ dày, chất đống",
+      "en": "to pile up (snow)",
+      "zh-Hans": "堆积",
+      "zh-Hant": "堆積",
+      "ko": "쌓이다",
+      "tl": "maipon",
+      "ne": "थुप्रिनु",
+      "id": "menumpuk",
+      "pt": "acumular",
+      "my": "ပုံသည်",
+      "th": "ทับถม"
+     }
+    }
+   ],
+   "t": [
+    127.85,
+    133.84
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=127.85,133.84"
+  },
+  {
+   "ja": "おお、お地蔵さま。こんな雪の中で、さぞ寒いことでしょう。",
+   "furigana": [
+    {
+     "surface": "おお、お",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "さま。こんな",
+     "reading": ""
+    },
+    {
+     "surface": "雪",
+     "reading": "ゆき"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "で、さぞ",
+     "reading": ""
+    },
+    {
+     "surface": "寒",
+     "reading": "さむ"
+    },
+    {
+     "surface": "いことでしょう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oo, ojizousama. Konna yuki no naka de, sazo samui koto deshou.",
+   "translations": {
+    "vi": "Ôi, các ngài Jizō. Giữa trời tuyết thế này, chắc lạnh lắm.",
+    "en": "Oh, dear Jizō. In this snow, you must be so cold.",
+    "zh-Hans": "哎呀，地藏菩萨。在这么大的雪里，您一定很冷吧。",
+    "zh-Hant": "哎呀，地藏菩薩。在這麼大的雪裡，您一定很冷吧。",
+    "ko": "오오, 지장보살님. 이런 눈 속에서 얼마나 추우실까요.",
+    "tl": "Naku, mga Jizō. Sa ganitong niyebe, siguradong ginaw na ginaw kayo.",
+    "ne": "ओहो, जिजो देवता। यस्तो हिउँमा पक्कै धेरै जाडो भएको होला।",
+    "id": "Oh, Jizō yang mulia. Di tengah salju begini, pasti dingin sekali.",
+    "pt": "Oh, senhores Jizō. Nesta neve, devem estar com tanto frio.",
+    "my": "အို၊ ဂျိဇိုဘုရား။ ဒီလိုနှင်းထဲမှာ အရမ်းချမ်းနေမှာပဲ။",
+    "th": "โอ้ พระจิโซ ท่ามกลางหิมะแบบนี้ คงหนาวมากเลยนะ"
+   },
+   "grammarNote": {
+    "vi": "さぞ〜でしょう: hẳn là ~ lắm.",
+    "en": "さぞ〜でしょう: surely must be ~.",
+    "zh-Hans": "さぞ〜でしょう: 想必很～吧.",
+    "zh-Hant": "さぞ〜でしょう: 想必很～吧.",
+    "ko": "さぞ〜でしょう: 필시 ~하겠지요.",
+    "tl": "さぞ〜でしょう: siguradong ~.",
+    "ne": "さぞ〜でしょう: पक्कै ~ होला.",
+    "id": "さぞ〜でしょう: pasti ~ sekali.",
+    "pt": "さぞ〜でしょう: certamente ~.",
+    "my": "さぞ〜でしょう: သေချာပေါက် ~ မှာပဲ.",
+    "th": "さぞ〜でしょう: คงจะ ~ มากทีเดียว."
+   },
+   "vocab": [],
+   "t": [
+    134.74,
+    140.58
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=134.74,140.58"
+  },
+  {
+   "ja": "おじいさんは、お地蔵さまの頭の雪を、ひとつひとつ、ていねいにはらってあげました。",
+   "furigana": [
+    {
+     "surface": "おじいさんは、お",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "さまの",
+     "reading": ""
+    },
+    {
+     "surface": "頭",
+     "reading": "あたま"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "雪",
+     "reading": "ゆき"
+    },
+    {
+     "surface": "を、ひとつひとつ、ていねいにはらってあげました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ojiisan wa, ojizousama no atama no yuki o, hitotsuhitotsu, teinei ni haratte agemashita.",
+   "translations": {
+    "vi": "Ông lão cẩn thận phủi tuyết trên đầu từng pho tượng một.",
+    "en": "The old man carefully brushed the snow off each statue's head, one by one.",
+    "zh-Hans": "老爷爷一尊一尊地，仔细地为地藏菩萨拂去头上的雪。",
+    "zh-Hant": "老爺爺一尊一尊地，仔細地為地藏菩薩拂去頭上的雪。",
+    "ko": "할아버지는 지장보살 머리의 눈을 하나하나 정성껏 털어 드렸습니다.",
+    "tl": "Maingat na pinagpag ng lolo ang niyebe sa ulo ng bawat Jizō, isa-isa.",
+    "ne": "बाजेले एक-एक गरी जिजोका टाउकाको हिउँ होसियारीसाथ झारिदिए।",
+    "id": "Dengan hati-hati kakek menepis salju di kepala tiap patung, satu per satu.",
+    "pt": "O velhinho tirou com cuidado a neve da cabeça de cada estátua, uma por uma.",
+    "my": "အဘိုးဟာ ဂျိဇိုရုပ်တစ်ပါးချင်းရဲ့ ခေါင်းပေါ်က နှင်းကို သေသေချာချာ ခါပေးတယ်။",
+    "th": "ตาค่อย ๆ ปัดหิมะบนศีรษะพระจิโซทีละองค์อย่างตั้งใจ"
+   },
+   "grammarNote": {
+    "vi": "ていねい: cẩn thận. はらう: phủi.",
+    "en": "ていねい: careful. はらう: brush off.",
+    "zh-Hans": "ていねい: 仔细. はらう: 拂去.",
+    "zh-Hant": "ていねい: 仔細. はらう: 拂去.",
+    "ko": "ていねい: 정성껏. はらう: 털다.",
+    "tl": "ていねい: maingat. はらう: pagpagin.",
+    "ne": "ていねい: होसियारीसाथ. はらう: झार्नु.",
+    "id": "ていねい: hati-hati. はらう: menepis.",
+    "pt": "ていねい: cuidadoso. はらう: sacudir, tirar.",
+    "my": "ていねい: သေသေချာချာ. はらう: ခါသည်.",
+    "th": "ていねい: ตั้งใจ, ประณีต. はらう: ปัด."
+   },
+   "vocab": [],
+   "t": [
+    141.48,
+    148.93
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=141.48,148.93"
+  },
+  {
+   "ja": "そうだ。この笠を、かぶっていただこう。",
+   "furigana": [
+    {
+     "surface": "そうだ。この",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "を、かぶっていただこう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sou da. Kono kasa o, kabutte itadakou.",
+   "translations": {
+    "vi": "Phải rồi. Xin các ngài đội mấy chiếc nón này.",
+    "en": "I know. Please wear these hats.",
+    "zh-Hans": "对了，请您戴上这斗笠吧。",
+    "zh-Hant": "對了，請您戴上這斗笠吧。",
+    "ko": "그렇지. 이 삿갓을 써 주십시오.",
+    "tl": "Alam ko na. Pakisuot po ninyo ang mga sombrerong ito.",
+    "ne": "हो त। यी टोपी लगाइदिनुहोस्।",
+    "id": "Oh, ya. Silakan pakai topi-topi ini.",
+    "pt": "Já sei. Por favor, usem estes chapéus.",
+    "my": "ဟုတ်ပြီ။ ဒီခမောက်တွေကို ဆောင်းပေးပါရစေ။",
+    "th": "จริงสิ ขอให้ท่านสวมหมวกเหล่านี้เถิด"
+   },
+   "grammarNote": {
+    "vi": "〜ていただく: xin được (người trên) ~.",
+    "en": "〜ていただく: humbly have (someone) ~.",
+    "zh-Hans": "〜ていただく: 请您～.",
+    "zh-Hant": "〜ていただく: 請您～.",
+    "ko": "〜ていただく: (윗사람이) ~해 주시다.",
+    "tl": "〜ていただく: hilingin nang magalang na ~.",
+    "ne": "〜ていただく: (ठूलालाई) ~ गरिदिन अनुरोध.",
+    "id": "〜ていただく: mohon berkenan ~.",
+    "pt": "〜ていただく: pedir humildemente que ~.",
+    "my": "〜ていただく: ~ ပေးပါရစေ (ယဉ်ကျေး).",
+    "th": "〜ていただく: ขอให้ (ผู้สูงกว่า) ~."
+   },
+   "vocab": [],
+   "t": [
+    149.83,
+    153.52
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=149.83,153.52"
+  },
+  {
+   "ja": "おじいさんは、売れなかった笠を、お地蔵さまに、ひとつずつかぶせていきました。",
+   "furigana": [
+    {
+     "surface": "おじいさんは、",
+     "reading": ""
+    },
+    {
+     "surface": "売",
+     "reading": "う"
+    },
+    {
+     "surface": "れなかった",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "を、お",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "さまに、ひとつずつかぶせていきました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ojiisan wa, urenakatta kasa o, ojizousama ni, hitotsu zutsu kabusete ikimashita.",
+   "translations": {
+    "vi": "Ông lão lần lượt đội những chiếc nón không bán được lên từng pho tượng.",
+    "en": "One by one, the old man put the unsold hats on the Jizō statues.",
+    "zh-Hans": "老爷爷把没卖掉的斗笠，一顶一顶地给地藏菩萨戴上。",
+    "zh-Hant": "老爺爺把沒賣掉的斗笠，一頂一頂地給地藏菩薩戴上。",
+    "ko": "할아버지는 팔지 못한 삿갓을 지장보살에게 하나씩 씌워 드렸습니다.",
+    "tl": "Isa-isang isinuot ng lolo ang mga hindi nabentang sombrero sa mga Jizō.",
+    "ne": "बाजेले नबिकेका टोपीहरू जिजोलाई एक-एक गरी लगाइदिए।",
+    "id": "Kakek memakaikan topi yang tak laku itu pada patung Jizō satu per satu.",
+    "pt": "Um por um, o velhinho pôs os chapéus não vendidos nas estátuas de Jizō.",
+    "my": "အဘိုးဟာ မရောင်းရတဲ့ ခမောက်တွေကို ဂျိဇိုရုပ်တွေကို တစ်လုံးချင်း ဆောင်းပေးတယ်။",
+    "th": "ตานำหมวกที่ขายไม่ออกสวมให้พระจิโซทีละองค์"
+   },
+   "grammarNote": {
+    "vi": "かぶせる: đội cho. 〜ずつ: mỗi ~ một.",
+    "en": "かぶせる: put on (someone's head). 〜ずつ: one at a time.",
+    "zh-Hans": "かぶせる: 给～戴上. 〜ずつ: 各～、逐一.",
+    "zh-Hant": "かぶせる: 給～戴上. 〜ずつ: 各～、逐一.",
+    "ko": "かぶせる: 씌우다. 〜ずつ: ~씩.",
+    "tl": "かぶせる: isuot (sa ulo ng iba). 〜ずつ: isa-isa.",
+    "ne": "かぶせる: लगाइदिनु. 〜ずつ: एक-एक गरी.",
+    "id": "かぶせる: memakaikan. 〜ずつ: satu per satu.",
+    "pt": "かぶせる: pôr na cabeça de alguém. 〜ずつ: um a um.",
+    "my": "かぶせる: ဆောင်းပေးသည်. 〜ずつ: တစ်ခုချင်း.",
+    "th": "かぶせる: สวมให้. 〜ずつ: ทีละ ~."
+   },
+   "vocab": [
+    {
+     "word": "かぶせる",
+     "reading": "かぶせる",
+     "level": "N2",
+     "meanings": {
+      "vi": "chụp lên, đổ (tội) cho",
+      "en": "to cover with; pin (blame) on",
+      "zh-Hans": "盖上；嫁祸",
+      "zh-Hant": "蓋上；嫁禍",
+      "ko": "씌우다",
+      "tl": "takpan; ibintang",
+      "ne": "ओढाउनु; दोष लगाउनु",
+      "id": "menutupi; melimpahkan (kesalahan)",
+      "pt": "cobrir; atribuir (culpa)",
+      "my": "အုပ်; အပြစ်ပုံချ",
+      "th": "ครอบ; ป้ายความผิด"
+     }
+    }
+   ],
+   "t": [
+    154.42,
+    161.32
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=154.42,161.32"
+  },
+  {
+   "ja": "ところが、笠は五つしかありません。六つ目のお地蔵さまの分が、足りないのです。",
+   "furigana": [
+    {
+     "surface": "ところが、",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "五",
+     "reading": "いつ"
+    },
+    {
+     "surface": "つしかありません。",
+     "reading": ""
+    },
+    {
+     "surface": "六",
+     "reading": "むっ"
+    },
+    {
+     "surface": "つ",
+     "reading": ""
+    },
+    {
+     "surface": "目",
+     "reading": "め"
+    },
+    {
+     "surface": "のお",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "さまの",
+     "reading": ""
+    },
+    {
+     "surface": "分",
+     "reading": "ぶん"
+    },
+    {
+     "surface": "が、",
+     "reading": ""
+    },
+    {
+     "surface": "足",
+     "reading": "た"
+    },
+    {
+     "surface": "りないのです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tokoroga, kasa wa itsutsu shika arimasen. Muttsume no ojizousama no bun ga, tarinai no desu.",
+   "translations": {
+    "vi": "Nhưng chỉ có năm chiếc nón. Còn thiếu phần cho pho tượng thứ sáu.",
+    "en": "But there were only five hats. There wasn't one for the sixth Jizō.",
+    "zh-Hans": "可是斗笠只有五顶，第六尊地藏菩萨的那份不够了。",
+    "zh-Hant": "可是斗笠只有五頂，第六尊地藏菩薩的那份不夠了。",
+    "ko": "그런데 삿갓은 다섯 개뿐이었습니다. 여섯 번째 지장보살 몫이 모자랐던 것입니다.",
+    "tl": "Pero lima lang ang sombrero. Kulang ng isa para sa ikaanim na Jizō.",
+    "ne": "तर टोपी पाँचवटा मात्र थिए। छैटौँ जिजोको भाग पुगेन।",
+    "id": "Namun topinya hanya lima. Untuk Jizō keenam tidak cukup.",
+    "pt": "Mas só havia cinco chapéus. Faltava o do sexto Jizō.",
+    "my": "ဒါပေမဲ့ ခမောက်က ငါးလုံးပဲ ရှိတယ်။ ဆဋ္ဌမမြောက် ဂျိဇိုအတွက် မလောက်ဘူး။",
+    "th": "แต่หมวกมีแค่ห้าใบ ของพระจิโซองค์ที่หกขาดไปหนึ่ง"
+   },
+   "grammarNote": {
+    "vi": "〜しか〜ない: chỉ có ~. 分: phần. 足りない: thiếu.",
+    "en": "〜しか〜ない: only ~. 分: share, portion. 足りない: not enough.",
+    "zh-Hans": "〜しか〜ない: 只有～. 分: 份. 足りない: 不够.",
+    "zh-Hant": "〜しか〜ない: 只有～. 分: 份. 足りない: 不夠.",
+    "ko": "〜しか〜ない: ~밖에 없다. 分: 몫. 足りない: 모자라다.",
+    "tl": "〜しか〜ない: ~ lang. 分: bahagi, para sa. 足りない: kulang.",
+    "ne": "〜しか〜ない: ~ मात्र. 分: भाग. 足りない: नपुग्नु.",
+    "id": "〜しか〜ない: hanya ~. 分: bagian. 足りない: kurang.",
+    "pt": "〜しか〜ない: só ~. 分: parte, porção. 足りない: faltar.",
+    "my": "〜しか〜ない: ~ ပဲရှိ. 分: အတွက်ဝေစု. 足りない: မလောက်.",
+    "th": "〜しか〜ない: มีแค่ ~. 分: ส่วน. 足りない: ไม่พอ."
+   },
+   "vocab": [
+    {
+     "word": "分",
+     "reading": "ぶん",
+     "level": "N3",
+     "meanings": {
+      "vi": "phần",
+      "en": "share, portion",
+      "zh-Hans": "份",
+      "zh-Hant": "份",
+      "ko": "몫",
+      "tl": "bahagi",
+      "ne": "भाग",
+      "id": "bagian",
+      "pt": "parte, porção",
+      "my": "ဝေစု",
+      "th": "ส่วน"
+     }
+    }
+   ],
+   "t": [
+    161.92,
+    169.66
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=161.92,169.66"
+  },
+  {
+   "ja": "困ったなあ。これでは、お一人だけ寒いままだ。",
+   "furigana": [
+    {
+     "surface": "困",
+     "reading": "こま"
+    },
+    {
+     "surface": "ったなあ。これでは、お",
+     "reading": ""
+    },
+    {
+     "surface": "一人",
+     "reading": "ひとり"
+    },
+    {
+     "surface": "だけ",
+     "reading": ""
+    },
+    {
+     "surface": "寒",
+     "reading": "さむ"
+    },
+    {
+     "surface": "いままだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Komatta naa. Kore de wa, o hitori dake samui mama da.",
+   "translations": {
+    "vi": "Khổ quá. Thế này thì chỉ một ngài cứ phải chịu lạnh.",
+    "en": "Oh dear. This way, one of them will stay cold.",
+    "zh-Hans": "这可怎么办。这样只有一位还得一直挨冻。",
+    "zh-Hant": "這可怎麼辦。這樣只有一位還得一直挨凍。",
+    "ko": "큰일이구려. 이래서는 한 분만 계속 추우시겠네.",
+    "tl": "Ay, problema. Kung ganito, isa ang mananatiling giniginaw.",
+    "ne": "के गर्ने। यसरी त एकजना जाडैमा रहिरहनुहुन्छ।",
+    "id": "Aduh. Kalau begini, satu Jizō tetap kedinginan.",
+    "pt": "Que pena. Assim, um deles vai continuar com frio.",
+    "my": "ဒုက္ခပဲ။ ဒီလိုဆို တစ်ပါးတည်း ချမ်းနေရဦးမယ်။",
+    "th": "แย่จริง แบบนี้องค์หนึ่งก็ต้องหนาวต่อไป"
+   },
+   "grammarNote": {
+    "vi": "〜まま: cứ để nguyên ~.",
+    "en": "〜まま: remaining as is.",
+    "zh-Hans": "〜まま: 保持～的状态.",
+    "zh-Hant": "〜まま: 保持～的狀態.",
+    "ko": "〜まま: ~한 채로.",
+    "tl": "〜まま: mananatiling ~.",
+    "ne": "〜まま: त्यस्तै अवस्थामा.",
+    "id": "〜まま: tetap ~.",
+    "pt": "〜まま: continuar ~.",
+    "my": "〜まま: ~ အတိုင်း.",
+    "th": "〜まま: ในสภาพเดิม."
+   },
+   "vocab": [],
+   "t": [
+    170.56,
+    174.65
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=170.56,174.65"
+  },
+  {
+   "ja": "おじいさんは、自分の頭の手ぬぐいをはずして、六つ目のお地蔵さまにかぶせました。",
+   "furigana": [
+    {
+     "surface": "おじいさんは、",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "頭",
+     "reading": "あたま"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "手",
+     "reading": "て"
+    },
+    {
+     "surface": "ぬぐいをはずして、",
+     "reading": ""
+    },
+    {
+     "surface": "六",
+     "reading": "むっ"
+    },
+    {
+     "surface": "つ",
+     "reading": ""
+    },
+    {
+     "surface": "目",
+     "reading": "め"
+    },
+    {
+     "surface": "のお",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "さまにかぶせました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ojiisan wa, jibun no atama no tenugui o hazushite, muttsume no ojizousama ni kabusemashita.",
+   "translations": {
+    "vi": "Ông lão tháo chiếc khăn tenugui trên đầu mình, đội cho pho tượng thứ sáu.",
+    "en": "The old man took the hand towel off his own head and put it on the sixth Jizō.",
+    "zh-Hans": "老爷爷解下自己头上的手巾，给第六尊地藏菩萨戴上。",
+    "zh-Hant": "老爺爺解下自己頭上的手巾，給第六尊地藏菩薩戴上。",
+    "ko": "할아버지는 자기 머리에 두른 수건을 풀어 여섯 번째 지장보살에게 씌워 드렸습니다.",
+    "tl": "Inalis ng lolo ang tenugui sa sarili niyang ulo at isinuot ito sa ikaanim na Jizō.",
+    "ne": "बाजेले आफ्नो टाउकोको तेनुगुइ फुकालेर छैटौँ जिजोलाई लगाइदिए।",
+    "id": "Kakek melepas tenugui dari kepalanya sendiri dan memakaikannya pada Jizō keenam.",
+    "pt": "O velhinho tirou o pano tenugui da própria cabeça e pôs no sexto Jizō.",
+    "my": "အဘိုးဟာ ကိုယ့်ခေါင်းပေါ်က တဲနုဂုအိ ပုဝါကို ချွတ်ပြီး ဆဋ္ဌမမြောက် ဂျိဇိုကို ဆောင်းပေးတယ်။",
+    "th": "ตาถอดผ้าเทะนุงุอิบนศีรษะของตัวเอง แล้วสวมให้พระจิโซองค์ที่หก"
+   },
+   "grammarNote": {
+    "vi": "手ぬぐい: khăn tenugui. はずす: tháo ra.",
+    "en": "手ぬぐい: tenugui, cloth hand towel. はずす: take off.",
+    "zh-Hans": "手ぬぐい: 手巾. はずす: 解下.",
+    "zh-Hant": "手ぬぐい: 手巾. はずす: 解下.",
+    "ko": "手ぬぐい: 수건 (데누구이). はずす: 풀다, 벗다.",
+    "tl": "手ぬぐい: tenugui, telang pamunas. はずす: alisin.",
+    "ne": "手ぬぐい: तेनुगुइ, हात पुछ्ने कपडा. はずす: फुकाल्नु.",
+    "id": "手ぬぐい: tenugui, kain lap tangan. はずす: melepas.",
+    "pt": "手ぬぐい: tenugui, pano de mão. はずす: tirar.",
+    "my": "手ぬぐい: တဲနုဂုအိ (လက်သုတ်ပုဝါ). はずす: ချွတ်သည်.",
+    "th": "手ぬぐい: ผ้าเทะนุงุอิ (ผ้าเช็ดมือ). はずす: ถอด."
+   },
+   "vocab": [
+    {
+     "word": "手ぬぐい",
+     "reading": "てぬぐい",
+     "level": "N2",
+     "meanings": {
+      "vi": "khăn tenugui",
+      "en": "tenugui, cotton hand towel",
+      "zh-Hans": "手巾",
+      "zh-Hant": "手巾",
+      "ko": "수건 (데누구이)",
+      "tl": "tenugui, telang pamunas",
+      "ne": "तेनुगुइ, हात पुछ्ने कपडा",
+      "id": "tenugui, kain lap",
+      "pt": "tenugui, pano de mão",
+      "my": "လက်သုတ်ပုဝါ",
+      "th": "ผ้าเทะนุงุอิ"
+     }
+    },
+    {
+     "word": "はずす",
+     "reading": "はずす",
+     "level": "N3",
+     "meanings": {
+      "vi": "gỡ ra, tháo ra",
+      "en": "to remove, undo",
+      "zh-Hans": "解开，取下",
+      "zh-Hant": "解開，取下",
+      "ko": "떼다, 풀다",
+      "tl": "tanggalin",
+      "ne": "फुकाल्नु",
+      "id": "melepaskan",
+      "pt": "tirar, soltar",
+      "my": "ဖြုတ်သည်",
+      "th": "ปลด, ถอด"
+     }
+    }
+   ],
+   "t": [
+    175.55,
+    182.4
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=175.55,182.4"
+  },
+  {
+   "ja": "古い手ぬぐいで、申しわけありません。これで、がまんしてください。",
+   "furigana": [
+    {
+     "surface": "古",
+     "reading": "ふる"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "手",
+     "reading": "て"
+    },
+    {
+     "surface": "ぬぐいで、",
+     "reading": ""
+    },
+    {
+     "surface": "申",
+     "reading": "もう"
+    },
+    {
+     "surface": "しわけありません。これで、がまんしてください。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Furui tenugui de, moushiwake arimasen. Kore de, gaman shite kudasai.",
+   "translations": {
+    "vi": "Khăn cũ thế này, con thật có lỗi. Xin ngài tạm chịu cho.",
+    "en": "I'm sorry it's just an old towel. Please make do with this.",
+    "zh-Hans": "只是条旧手巾，真对不起。请您将就一下吧。",
+    "zh-Hant": "只是條舊手巾，真對不起。請您將就一下吧。",
+    "ko": "낡은 수건이라 죄송합니다. 이것으로 참아 주십시오.",
+    "tl": "Paumanhin po at lumang tela lang ito. Pagtiyagaan na po ninyo.",
+    "ne": "पुरानो कपडा मात्र भएकोमा माफ गर्नुहोस्। यसैले चित्त बुझाउनुहोस्।",
+    "id": "Maaf, hanya kain tua. Mohon bersabar dengan ini.",
+    "pt": "Desculpe ser só um pano velho. Contente-se com isto, por favor.",
+    "my": "ပုဝါဟောင်းလေးမို့ တောင်းပန်ပါတယ်။ ဒါလေးနဲ့ပဲ သည်းခံပေးပါ။",
+    "th": "ขออภัยที่เป็นแค่ผ้าเก่า ๆ ทนใช้ไปก่อนนะขอรับ"
+   },
+   "grammarNote": {
+    "vi": "申しわけありません: thật có lỗi. がまん: chịu đựng.",
+    "en": "申しわけありません: I'm terribly sorry. がまん: putting up with.",
+    "zh-Hans": "申しわけありません: 非常抱歉. がまん: 忍耐、将就.",
+    "zh-Hant": "申しわけありません: 非常抱歉. がまん: 忍耐、將就.",
+    "ko": "申しわけありません: 죄송합니다. がまん: 참음.",
+    "tl": "申しわけありません: paumanhin po. がまん: pagtitiis.",
+    "ne": "申しわけありません: माफ गर्नुहोस्. がまん: सहनु.",
+    "id": "申しわけありません: mohon maaf. がまん: bersabar.",
+    "pt": "申しわけありません: mil desculpas. がまん: aguentar, conformar-se.",
+    "my": "申しわけありません: တောင်းပန်ပါတယ်. がまん: သည်းခံ.",
+    "th": "申しわけありません: ขออภัยอย่างยิ่ง. がまん: อดทน."
+   },
+   "vocab": [
+    {
+     "word": "申しわけ",
+     "reading": "もうしわけ",
+     "level": "N3",
+     "meanings": {
+      "vi": "lời xin lỗi, sự có lỗi",
+      "en": "excuse, apology",
+      "zh-Hans": "歉意、辩解",
+      "zh-Hant": "歉意、辯解",
+      "ko": "변명, 미안함",
+      "tl": "paumanhin",
+      "ne": "माफी",
+      "id": "permintaan maaf",
+      "pt": "desculpa",
+      "my": "တောင်းပန်ခြင်း",
+      "th": "ข้อแก้ตัว, ขออภัย"
+     }
+    },
+    {
+     "word": "がまん",
+     "reading": "がまん",
+     "level": "N3",
+     "meanings": {
+      "vi": "sự chịu đựng",
+      "en": "endurance, patience",
+      "zh-Hans": "忍耐",
+      "zh-Hant": "忍耐",
+      "ko": "참음",
+      "tl": "pagtitiis",
+      "ne": "सहनशीलता",
+      "id": "kesabaran, menahan diri",
+      "pt": "paciência, aguentar",
+      "my": "သည်းခံမှု",
+      "th": "ความอดทน"
+     }
+    }
+   ],
+   "t": [
+    183.3,
+    188.93
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=183.3,188.93"
+  },
+  {
+   "ja": "そして、手を合わせてから、雪の中を家へ帰りました。",
+   "furigana": [
+    {
+     "surface": "そして、",
+     "reading": ""
+    },
+    {
+     "surface": "手",
+     "reading": "て"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "合",
+     "reading": "あ"
+    },
+    {
+     "surface": "わせてから、",
+     "reading": ""
+    },
+    {
+     "surface": "雪",
+     "reading": "ゆき"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "りました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Soshite, te o awasete kara, yuki no naka o ie e kaerimashita.",
+   "translations": {
+    "vi": "Rồi ông chắp tay khấn, rồi đi trong tuyết về nhà.",
+    "en": "Then he put his hands together in prayer and walked home through the snow.",
+    "zh-Hans": "然后他双手合十拜了拜，冒着雪回家去了。",
+    "zh-Hant": "然後他雙手合十拜了拜，冒著雪回家去了。",
+    "ko": "그리고 두 손을 모아 절한 뒤, 눈 속을 걸어 집으로 돌아갔습니다.",
+    "tl": "Pagkatapos ay pinagdaop niya ang mga palad sa panalangin at naglakad pauwi sa niyebe.",
+    "ne": "अनि दुवै हात जोडेर ढोगे, र हिउँमै हिँडेर घर फर्के।",
+    "id": "Lalu ia menangkupkan kedua tangan untuk berdoa, dan pulang menembus salju.",
+    "pt": "Depois, juntou as mãos em oração e voltou para casa pela neve.",
+    "my": "ပြီးတော့ လက်အုပ်ချီပြီး နှင်းထဲ လမ်းလျှောက်ကာ အိမ်ပြန်လာတယ်။",
+    "th": "จากนั้นตาก็พนมมือไหว้ แล้วเดินฝ่าหิมะกลับบ้าน"
+   },
+   "grammarNote": {
+    "vi": "手を合わせる: chắp tay.",
+    "en": "手を合わせる: press palms together.",
+    "zh-Hans": "手を合わせる: 双手合十.",
+    "zh-Hant": "手を合わせる: 雙手合十.",
+    "ko": "手を合わせる: 두 손을 모으다.",
+    "tl": "手を合わせる: pagdaupin ang palad.",
+    "ne": "手を合わせる: हात जोड्नु.",
+    "id": "手を合わせる: menangkupkan tangan.",
+    "pt": "手を合わせる: juntar as mãos.",
+    "my": "手を合わせる: လက်အုပ်ချီသည်.",
+    "th": "手を合わせる: พนมมือ."
+   },
+   "vocab": [
+    {
+     "word": "合わせる",
+     "reading": "あわせる",
+     "level": "N3",
+     "meanings": {
+      "vi": "khớp theo, hợp lại",
+      "en": "to match, put together",
+      "zh-Hans": "配合，合在一起",
+      "zh-Hant": "配合，合在一起",
+      "ko": "맞추다",
+      "tl": "itugma",
+      "ne": "मिलाउनु",
+      "id": "menyesuaikan",
+      "pt": "ajustar, juntar",
+      "my": "ညှိသည်",
+      "th": "ทำให้เข้ากัน"
+     }
+    }
+   ],
+   "t": [
+    189.83,
+    195.12
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=189.83,195.12"
+  },
+  {
+   "ja": "おかえりなさい。まあ、頭が雪で真っ白ですよ。",
+   "furigana": [
+    {
+     "surface": "おかえりなさい。まあ、",
+     "reading": ""
+    },
+    {
+     "surface": "頭",
+     "reading": "あたま"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "雪",
+     "reading": "ゆき"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "真",
+     "reading": "ま"
+    },
+    {
+     "surface": "っ",
+     "reading": ""
+    },
+    {
+     "surface": "白",
+     "reading": "しろ"
+    },
+    {
+     "surface": "ですよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Okaerinasai. Maa, atama ga yuki de masshiro desu yo.",
+   "translations": {
+    "vi": "Ông về rồi đấy à. Trời ơi, đầu ông trắng xóa tuyết kìa.",
+    "en": "Welcome home. Goodness, your head is all white with snow.",
+    "zh-Hans": "你回来啦。哎呀，头上都被雪盖白了。",
+    "zh-Hant": "你回來啦。哎呀，頭上都被雪蓋白了。",
+    "ko": "어서 오세요. 어머나, 머리가 눈으로 새하얘요.",
+    "tl": "Maligayang pagbabalik. Naku, puting-puti ang ulo mo sa niyebe.",
+    "ne": "आइपुग्नुभयो? अहो, टाउको हिउँले सेताम्मे भएछ।",
+    "id": "Selamat datang. Astaga, kepalamu putih tertutup salju.",
+    "pt": "Bem-vindo de volta. Nossa, sua cabeça está toda branca de neve.",
+    "my": "ပြန်ရောက်ပြီလား။ အမယ်လေး၊ ခေါင်းက နှင်းတွေနဲ့ ဖွေးဖွေးဖြူနေပြီ။",
+    "th": "กลับมาแล้วหรือ ตายจริง หัวขาวโพลนไปด้วยหิมะเลย"
+   },
+   "grammarNote": {
+    "vi": "真っ白: trắng xóa.",
+    "en": "真っ白: pure white.",
+    "zh-Hans": "真っ白: 雪白.",
+    "zh-Hant": "真っ白: 雪白.",
+    "ko": "真っ白: 새하얗다.",
+    "tl": "真っ白: puting-puti.",
+    "ne": "真っ白: सेताम्मे.",
+    "id": "真っ白: putih bersih.",
+    "pt": "真っ白: branquinho.",
+    "my": "真っ白: ဖွေးဖွေးဖြူ.",
+    "th": "真っ白: ขาวโพลน."
+   },
+   "vocab": [
+    {
+     "word": "真っ白",
+     "reading": "まっしろ",
+     "level": "N2",
+     "meanings": {
+      "vi": "trắng toát",
+      "en": "pure white",
+      "zh-Hans": "雪白",
+      "zh-Hant": "雪白",
+      "ko": "새하얗다",
+      "tl": "puting-puti",
+      "ne": "पूरै सेतो",
+      "id": "putih bersih",
+      "pt": "branquíssimo",
+      "my": "ဖြူဖွေး",
+      "th": "ขาวโพลน"
+     }
+    }
+   ],
+   "t": [
+    196.02,
+    200.68
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=196.02,200.68"
+  },
+  {
+   "ja": "ばあさん、すまない。笠はひとつも売れなかったよ。",
+   "furigana": [
+    {
+     "surface": "ばあさん、すまない。",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "はひとつも",
+     "reading": ""
+    },
+    {
+     "surface": "売",
+     "reading": "う"
+    },
+    {
+     "surface": "れなかったよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Baasan, sumanai. Kasa wa hitotsu mo urenakatta yo.",
+   "translations": {
+    "vi": "Bà nó ơi, xin lỗi bà. Chẳng bán được chiếc nón nào cả.",
+    "en": "I'm sorry, Grandma. I couldn't sell a single hat.",
+    "zh-Hans": "老伴儿，对不住。斗笠一顶也没卖掉。",
+    "zh-Hant": "老伴兒，對不住。斗笠一頂也沒賣掉。",
+    "ko": "할멈, 미안하오. 삿갓은 하나도 못 팔았소.",
+    "tl": "Lola, pasensya na. Wala akong naibentang kahit isang sombrero.",
+    "ne": "बूढी, माफ गर। एउटा पनि टोपी बिकेन।",
+    "id": "Nek, maaf. Tak satu topi pun terjual.",
+    "pt": "Desculpe, velha. Não vendi nem um chapéu.",
+    "my": "အဘွား၊ တောင်းပန်ပါတယ်။ ခမောက် တစ်လုံးမှ မရောင်းရဘူး။",
+    "th": "ยาย ขอโทษนะ หมวกขายไม่ได้สักใบเลย"
+   },
+   "grammarNote": {
+    "vi": "すまない: xin lỗi (thân mật).",
+    "en": "すまない: sorry (casual).",
+    "zh-Hans": "すまない: 对不住.",
+    "zh-Hant": "すまない: 對不住.",
+    "ko": "すまない: 미안하다.",
+    "tl": "すまない: pasensya na.",
+    "ne": "すまない: माफ गर.",
+    "id": "すまない: maaf.",
+    "pt": "すまない: desculpe.",
+    "my": "すまない: တောင်းပန်ပါတယ်.",
+    "th": "すまない: ขอโทษ."
+   },
+   "vocab": [],
+   "t": [
+    201.58,
+    206.06
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=201.58,206.06"
+  },
+  {
+   "ja": "おじいさんは、お地蔵さまに笠をかぶせてきたことを話しました。",
+   "furigana": [
+    {
+     "surface": "おじいさんは、お",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "さまに",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "をかぶせてきたことを",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はな"
+    },
+    {
+     "surface": "しました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ojiisan wa, ojizousama ni kasa o kabusete kita koto o hanashimashita.",
+   "translations": {
+    "vi": "Ông lão kể chuyện mình đã đội nón cho các tượng Jizō.",
+    "en": "The old man told her how he had put the hats on the Jizō statues.",
+    "zh-Hans": "老爷爷讲了给地藏菩萨戴斗笠的事。",
+    "zh-Hant": "老爺爺講了給地藏菩薩戴斗笠的事。",
+    "ko": "할아버지는 지장보살에게 삿갓을 씌워 드리고 온 이야기를 했습니다.",
+    "tl": "Ikinuwento ng lolo kung paano niya isinuot ang mga sombrero sa mga Jizō.",
+    "ne": "बाजेले जिजोलाई टोपी लगाइदिएर आएको कुरा सुनाए।",
+    "id": "Kakek menceritakan bahwa ia memakaikan topi pada patung-patung Jizō.",
+    "pt": "O velhinho contou que tinha posto os chapéus nos Jizō.",
+    "my": "အဘိုးဟာ ဂျိဇိုရုပ်တွေကို ခမောက်ဆောင်းပေးခဲ့တဲ့အကြောင်း ပြောပြတယ်။",
+    "th": "ตาเล่าเรื่องที่เอาหมวกไปสวมให้พระจิโซ"
+   },
+   "grammarNote": {
+    "vi": "〜てくる: làm ~ rồi về.",
+    "en": "〜てくる: do ~ (before coming back).",
+    "zh-Hans": "〜てくる: 做了～再回来.",
+    "zh-Hant": "〜てくる: 做了～再回來.",
+    "ko": "〜てくる: ~하고 오다.",
+    "tl": "〜てくる: gawin ang ~ bago bumalik.",
+    "ne": "〜てくる: ~ गरेर आउनु.",
+    "id": "〜てくる: melakukan ~ sebelum pulang.",
+    "pt": "〜てくる: fazer ~ antes de voltar.",
+    "my": "〜てくる: ~ ပြီး ပြန်လာသည်.",
+    "th": "〜てくる: ทำ ~ แล้วกลับมา."
+   },
+   "vocab": [],
+   "t": [
+    206.96,
+    212.3
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=206.96,212.3"
+  },
+  {
+   "ja": "おもちのかわりに、何も持って帰れなかった。",
+   "furigana": [
+    {
+     "surface": "おもちのかわりに、",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "持",
+     "reading": "も"
+    },
+    {
+     "surface": "って",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "れなかった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Omochi no kawari ni, nani mo motte kaerenakatta.",
+   "translations": {
+    "vi": "Thay vì bánh mochi, tôi chẳng mang được gì về cả.",
+    "en": "Instead of rice cakes, I've brought nothing home.",
+    "zh-Hans": "没带回年糕，什么也没带回来。",
+    "zh-Hant": "沒帶回年糕，什麼也沒帶回來。",
+    "ko": "떡 대신 아무것도 가져오지 못했소.",
+    "tl": "Sa halip na mochi, wala akong naiuwing kahit ano.",
+    "ne": "मोचिको सट्टा केही पनि ल्याउन सकिनँ।",
+    "id": "Bukannya mochi, aku tak membawa pulang apa-apa.",
+    "pt": "Em vez de mochi, não trouxe nada.",
+    "my": "မိုချိအစား ဘာမှ ယူမလာနိုင်ခဲ့ဘူး။",
+    "th": "แทนที่จะได้โมจิ กลับไม่ได้อะไรติดมือมาเลย"
+   },
+   "grammarNote": {
+    "vi": "〜のかわりに: thay vì ~.",
+    "en": "〜のかわりに: instead of ~.",
+    "zh-Hans": "〜のかわりに: 代替～.",
+    "zh-Hant": "〜のかわりに: 代替～.",
+    "ko": "〜のかわりに: ~대신.",
+    "tl": "〜のかわりに: sa halip na ~.",
+    "ne": "〜のかわりに: ~ को सट्टा.",
+    "id": "〜のかわりに: alih-alih ~.",
+    "pt": "〜のかわりに: em vez de ~.",
+    "my": "〜のかわりに: ~ အစား.",
+    "th": "〜のかわりに: แทนที่จะ ~."
+   },
+   "vocab": [],
+   "t": [
+    213.2,
+    217.51
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=213.2,217.51"
+  },
+  {
+   "ja": "いいえ、おじいさん。それは、いいことをしましたねえ。",
+   "furigana": [
+    {
+     "surface": "いいえ、おじいさん。それは、いいことをしましたねえ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Iie, ojiisan. Sore wa, ii koto o shimashita nee.",
+   "translations": {
+    "vi": "Không đâu ông. Ông đã làm một việc tốt đấy.",
+    "en": "No, dear. That was a good thing you did.",
+    "zh-Hans": "不，老头子。你做了件好事啊。",
+    "zh-Hant": "不，老頭子。你做了件好事啊。",
+    "ko": "아니에요, 영감. 좋은 일을 하셨네요.",
+    "tl": "Hindi, Lolo. Mabuting bagay ang ginawa mo.",
+    "ne": "होइन बूढा। तिमीले असल काम गर्यौ।",
+    "id": "Tidak, Kek. Itu perbuatan yang baik.",
+    "pt": "Não, querido. Você fez uma boa ação.",
+    "my": "မဟုတ်ပါဘူး အဘိုး။ ကောင်းတဲ့အလုပ် လုပ်ခဲ့တာပါ။",
+    "th": "ไม่หรอกตา ตาทำเรื่องดีแล้วล่ะ"
+   },
+   "grammarNote": {
+    "vi": "いいこと: việc tốt.",
+    "en": "いいこと: a good deed.",
+    "zh-Hans": "いいこと: 好事.",
+    "zh-Hant": "いいこと: 好事.",
+    "ko": "いいこと: 좋은 일.",
+    "tl": "いいこと: mabuting gawa.",
+    "ne": "いいこと: असल काम.",
+    "id": "いいこと: perbuatan baik.",
+    "pt": "いいこと: boa ação.",
+    "my": "いいこと: ကောင်းမှု.",
+    "th": "いいこと: เรื่องดี."
+   },
+   "vocab": [],
+   "t": [
+    218.41,
+    223.17
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=218.41,223.17"
+  },
+  {
+   "ja": "おもちがなくても、お地蔵さまが寒くないなら、そのほうがうれしいですよ。",
+   "furigana": [
+    {
+     "surface": "おもちがなくても、お",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "さまが",
+     "reading": ""
+    },
+    {
+     "surface": "寒",
+     "reading": "さむ"
+    },
+    {
+     "surface": "くないなら、そのほうがうれしいですよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Omochi ga nakute mo, ojizousama ga samukunainara, sono hou ga ureshiidesu yo.",
+   "translations": {
+    "vi": "Dù không có bánh mochi, nhưng các ngài Jizō không bị lạnh thì tôi vui hơn ông ạ.",
+    "en": "Even without rice cakes, I'm happier knowing the Jizō aren't cold.",
+    "zh-Hans": "就算没有年糕，只要地藏菩萨不冷，我就更高兴了。",
+    "zh-Hant": "就算沒有年糕，只要地藏菩薩不冷，我就更高興了。",
+    "ko": "떡이 없어도 지장보살님이 춥지 않으시다면, 그게 더 기뻐요.",
+    "tl": "Kahit walang mochi, mas masaya ako kung hindi giniginaw ang mga Jizō.",
+    "ne": "मोचि नभए पनि जिजोलाई जाडो लाग्दैन भने मलाई त्यही बढी खुसी लाग्छ।",
+    "id": "Walau tak ada mochi, aku lebih senang kalau Jizō tidak kedinginan.",
+    "pt": "Mesmo sem mochi, fico mais feliz se os Jizō não estão com frio.",
+    "my": "မိုချိ မရှိရင်တောင် ဂျိဇိုဘုရားတွေ မချမ်းဘူးဆိုရင် ကျွန်မ ပိုဝမ်းသာပါတယ်။",
+    "th": "ถึงไม่มีโมจิ แต่ถ้าพระจิโซไม่หนาว ยายก็ดีใจกว่า"
+   },
+   "grammarNote": {
+    "vi": "〜ても: dù ~. そのほうが: như thế thì hơn.",
+    "en": "〜ても: even if ~. そのほうが: that way is better.",
+    "zh-Hans": "〜ても: 即使～. そのほうが: 那样更好.",
+    "zh-Hant": "〜ても: 即使～. そのほうが: 那樣更好.",
+    "ko": "〜ても: ~해도. そのほうが: 그편이.",
+    "tl": "〜ても: kahit ~. そのほうが: mas mabuti ganoon.",
+    "ne": "〜ても: ~ भए पनि. そのほうが: त्यो नै राम्रो.",
+    "id": "〜ても: walaupun ~. そのほうが: lebih baik begitu.",
+    "pt": "〜ても: mesmo que ~. そのほうが: assim é melhor.",
+    "my": "〜ても: ~ ရင်တောင်. そのほうが: အဲဒါက ပိုကောင်း.",
+    "th": "〜ても: ถึงแม้ ~. そのほうが: แบบนั้นดีกว่า."
+   },
+   "vocab": [],
+   "t": [
+    223.77,
+    230.43
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=223.77,230.43"
+  },
+  {
+   "ja": "二人は、お湯を飲んで体をあたため、早くねることにしました。",
+   "furigana": [
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "は、お",
+     "reading": ""
+    },
+    {
+     "surface": "湯",
+     "reading": "ゆ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "飲",
+     "reading": "の"
+    },
+    {
+     "surface": "んで",
+     "reading": ""
+    },
+    {
+     "surface": "体",
+     "reading": "からだ"
+    },
+    {
+     "surface": "をあたため、",
+     "reading": ""
+    },
+    {
+     "surface": "早",
+     "reading": "はや"
+    },
+    {
+     "surface": "くねることにしました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Futari wa, oyu o nonde karada o atatame, hayaku neru koto ni shimashita.",
+   "translations": {
+    "vi": "Hai ông bà uống chút nước nóng cho ấm người, rồi quyết định đi ngủ sớm.",
+    "en": "The two drank some hot water to warm up and decided to go to bed early.",
+    "zh-Hans": "两人喝了点热水暖暖身子，决定早点睡觉。",
+    "zh-Hant": "兩人喝了點熱水暖暖身子，決定早點睡覺。",
+    "ko": "두 사람은 따뜻한 물을 마셔 몸을 녹이고, 일찍 자기로 했습니다.",
+    "tl": "Uminom ng mainit na tubig ang dalawa para mainitan ang katawan, at nagpasyang matulog nang maaga.",
+    "ne": "दुवैले तातोपानी पिएर शरीर न्यानो पारे, र छिट्टै सुत्ने निर्णय गरे।",
+    "id": "Keduanya minum air hangat untuk menghangatkan badan, lalu memutuskan tidur lebih awal.",
+    "pt": "Os dois beberam água quente para se aquecer e resolveram dormir cedo.",
+    "my": "နှစ်ယောက်စလုံး ရေနွေးသောက်ပြီး ကိုယ်ကို နွေးအောင်လုပ်ကာ စောစော အိပ်ဖို့ ဆုံးဖြတ်လိုက်တယ်။",
+    "th": "ทั้งสองดื่มน้ำร้อนให้ร่างกายอุ่น แล้วตัดสินใจเข้านอนแต่หัวค่ำ"
+   },
+   "grammarNote": {
+    "vi": "お湯: nước nóng. あたためる: làm ấm. 〜ことにする: quyết định ~.",
+    "en": "お湯: hot water. あたためる: warm up. 〜ことにする: decide to ~.",
+    "zh-Hans": "お湯: 热水. あたためる: 使暖和. 〜ことにする: 决定～.",
+    "zh-Hant": "お湯: 熱水. あたためる: 使暖和. 〜ことにする: 決定～.",
+    "ko": "お湯: 따뜻한 물. あたためる: 데우다, 녹이다. 〜ことにする: ~하기로 하다.",
+    "tl": "お湯: mainit na tubig. あたためる: painitin. 〜ことにする: magpasyang ~.",
+    "ne": "お湯: तातोपानी. あたためる: न्यानो पार्नु. 〜ことにする: ~ गर्ने निर्णय गर्नु.",
+    "id": "お湯: air hangat. あたためる: menghangatkan. 〜ことにする: memutuskan ~.",
+    "pt": "お湯: água quente. あたためる: aquecer. 〜ことにする: decidir ~.",
+    "my": "お湯: ရေနွေး. あたためる: နွေးစေသည်. 〜ことにする: ~ ဖို့ ဆုံးဖြတ်သည်.",
+    "th": "お湯: น้ำร้อน. あたためる: ทำให้อุ่น. 〜ことにする: ตัดสินใจ ~."
+   },
+   "vocab": [
+    {
+     "word": "あたためる",
+     "reading": "あたためる",
+     "level": "N3",
+     "meanings": {
+      "vi": "làm ấm, hâm nóng",
+      "en": "to warm up",
+      "zh-Hans": "使暖和、加热",
+      "zh-Hant": "使暖和、加熱",
+      "ko": "데우다",
+      "tl": "painitin",
+      "ne": "न्यानो पार्नु",
+      "id": "menghangatkan",
+      "pt": "aquecer",
+      "my": "နွေးစေသည်",
+      "th": "ทำให้อุ่น"
+     }
+    }
+   ],
+   "t": [
+    231.33,
+    235.98
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=231.33,235.98"
+  },
+  {
+   "ja": "おもちのないお正月なんて、と思いながらも、二人の心は、かえってあたたかでした。",
+   "furigana": [
+    {
+     "surface": "おもちのないお",
+     "reading": ""
+    },
+    {
+     "surface": "正月",
+     "reading": "しょうがつ"
+    },
+    {
+     "surface": "なんて、と",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "いながらも、",
+     "reading": ""
+    },
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "心",
+     "reading": "こころ"
+    },
+    {
+     "surface": "は、かえってあたたかでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Omochi no nai oshougatsu nante, to omoi nagara mo, futari no kokoro wa, kaette atatakadeshita.",
+   "translations": {
+    "vi": "Dù nghĩ \"Tết gì mà không có bánh mochi\", lòng hai ông bà lại thấy ấm áp hơn.",
+    "en": "Though they thought, \"A New Year without rice cakes...\", their hearts felt warm all the same, even more so.",
+    "zh-Hans": "虽然心想\"没有年糕的新年啊\"，两人的心里反而暖洋洋的。",
+    "zh-Hant": "雖然心想「沒有年糕的新年啊」，兩人的心裡反而暖洋洋的。",
+    "ko": "떡 없는 설날이라니 싶으면서도, 두 사람의 마음은 오히려 따뜻했습니다.",
+    "tl": "Kahit naisip nilang \"Bagong Taon na walang mochi...\", sa halip ay mainit ang kanilang mga puso.",
+    "ne": "\"मोचि नभएको नयाँ वर्ष\" भनेर सोचे पनि, दुवैको मन उल्टै न्यानो थियो।",
+    "id": "Walau terpikir \"Tahun Baru tanpa mochi...\", hati keduanya justru terasa hangat.",
+    "pt": "Embora pensassem \"um Ano-Novo sem mochi...\", seus corações, pelo contrário, estavam quentinhos.",
+    "my": "\"မိုချိမရှိတဲ့ နှစ်သစ်ကူး\" လို့ တွေးမိပေမယ့် နှစ်ယောက်ရဲ့ စိတ်ထဲမှာတော့ ပြောင်းပြန် နွေးထွေးနေတယ်။",
+    "th": "แม้จะคิดว่า \"ปีใหม่ที่ไม่มีโมจิ...\" แต่ใจของทั้งสองกลับอบอุ่นเสียอีก"
+   },
+   "grammarNote": {
+    "vi": "〜ながらも: dù ~. かえって: ngược lại, trái lại.",
+    "en": "〜ながらも: although ~. かえって: on the contrary, rather.",
+    "zh-Hans": "〜ながらも: 虽然～. かえって: 反而.",
+    "zh-Hant": "〜ながらも: 雖然～. かえって: 反而.",
+    "ko": "〜ながらも: ~하면서도. かえって: 오히려.",
+    "tl": "〜ながらも: kahit ~. かえって: sa halip, bagkus.",
+    "ne": "〜ながらも: ~ भए पनि. かえって: उल्टै.",
+    "id": "〜ながらも: walaupun ~. かえって: justru, malah.",
+    "pt": "〜ながらも: embora ~. かえって: pelo contrário.",
+    "my": "〜ながらも: ~ ပေမယ့်. かえって: ပြောင်းပြန်.",
+    "th": "〜ながらも: แม้ ~. かえって: กลับ ~ เสียอีก."
+   },
+   "vocab": [
+    {
+     "word": "かえって",
+     "reading": "かえって",
+     "level": "N2",
+     "meanings": {
+      "vi": "ngược lại, trái lại",
+      "en": "on the contrary, rather",
+      "zh-Hans": "反而",
+      "zh-Hant": "反而",
+      "ko": "오히려",
+      "tl": "sa halip, bagkus",
+      "ne": "उल्टै",
+      "id": "justru, malah",
+      "pt": "pelo contrário",
+      "my": "ပြောင်းပြန်",
+      "th": "กลับ ~ เสียอีก"
+     }
+    }
+   ],
+   "t": [
+    236.58,
+    243.77
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=236.58,243.77"
+  },
+  {
+   "ja": "その夜おそく、外から、ざくざくと雪をふむ音が聞こえてきました。",
+   "furigana": [
+    {
+     "surface": "その",
+     "reading": ""
+    },
+    {
+     "surface": "夜",
+     "reading": "よる"
+    },
+    {
+     "surface": "おそく、",
+     "reading": ""
+    },
+    {
+     "surface": "外",
+     "reading": "そと"
+    },
+    {
+     "surface": "から、ざくざくと",
+     "reading": ""
+    },
+    {
+     "surface": "雪",
+     "reading": "ゆき"
+    },
+    {
+     "surface": "をふむ",
+     "reading": ""
+    },
+    {
+     "surface": "音",
+     "reading": "おと"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "こえてきました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono yoru osoku, soto kara, zakuzaku to yuki o fumu oto ga kikoete kimashita.",
+   "translations": {
+    "vi": "Khuya đêm ấy, từ bên ngoài vọng vào tiếng bước chân lạo xạo trên tuyết.",
+    "en": "Late that night, they heard the crunch, crunch of footsteps in the snow outside.",
+    "zh-Hans": "那天深夜，外面传来了沙沙的踩雪声。",
+    "zh-Hant": "那天深夜，外面傳來了沙沙的踩雪聲。",
+    "ko": "그날 밤늦게, 밖에서 뽀드득뽀드득 눈 밟는 소리가 들려왔습니다.",
+    "tl": "Hatinggabi noon, narinig nila mula sa labas ang lagutok ng mga yabag sa niyebe.",
+    "ne": "त्यो राति अबेर, बाहिरबाट हिउँ कुल्चिने खसखस आवाज सुनियो।",
+    "id": "Larut malam itu, dari luar terdengar bunyi kresek-kresek langkah di atas salju.",
+    "pt": "Tarde da noite, ouviu-se lá fora o ranger de passos na neve.",
+    "my": "အဲဒီညနက်မှာ အပြင်က နှင်းနင်းတဲ့ ခြေသံ ချွတ်ချွတ် ကြားလာတယ်။",
+    "th": "ดึกคืนนั้น มีเสียงฝีเท้าเหยียบหิมะดังกรอบแกรบมาจากข้างนอก"
+   },
+   "grammarNote": {
+    "vi": "ざくざく: lạo xạo. ふむ: giẫm.",
+    "en": "ざくざく: crunching. ふむ: step on.",
+    "zh-Hans": "ざくざく: 沙沙（踩雪声）. ふむ: 踩.",
+    "zh-Hant": "ざくざく: 沙沙（踩雪聲）. ふむ: 踩.",
+    "ko": "ざくざく: 뽀드득뽀드득. ふむ: 밟다.",
+    "tl": "ざくざく: lagutok. ふむ: tapakan.",
+    "ne": "ざくざく: खसखस. ふむ: कुल्चनु.",
+    "id": "ざくざく: kresek-kresek. ふむ: menginjak.",
+    "pt": "ざくざく: rangido (na neve). ふむ: pisar.",
+    "my": "ざくざく: ချွတ်ချွတ်. ふむ: နင်းသည်.",
+    "th": "ざくざく: กรอบแกรบ. ふむ: เหยียบ."
+   },
+   "vocab": [],
+   "t": [
+    244.37,
+    250.81
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=244.37,250.81"
+  },
+  {
+   "ja": "おじいさんの家はどこだ。笠をくれた、やさしいおじいさんの家はどこだ。",
+   "furigana": [
+    {
+     "surface": "おじいさんの",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "はどこだ。",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "をくれた、やさしいおじいさんの",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "はどこだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ojiisan no ie wa doko da. Kasa o kureta, yasashii ojiisan no ie wa doko da.",
+   "translations": {
+    "vi": "Nhà ông lão ở đâu? Nhà ông lão tốt bụng đã cho chúng ta nón ở đâu?",
+    "en": "Where is the old man's house? Where is the kind old man who gave us hats?",
+    "zh-Hans": "老爷爷的家在哪儿？送我们斗笠的好心老爷爷的家在哪儿？",
+    "zh-Hant": "老爺爺的家在哪兒？送我們斗笠的好心老爺爺的家在哪兒？",
+    "ko": "할아버지 집은 어디냐. 삿갓을 준 다정한 할아버지 집은 어디냐.",
+    "tl": "Nasaan ang bahay ng lolo? Nasaan ang bahay ng mabait na lolong nagbigay sa amin ng sombrero?",
+    "ne": "बाजेको घर कहाँ हो? हामीलाई टोपी दिने दयालु बाजेको घर कहाँ हो?",
+    "id": "Di mana rumah si kakek? Di mana rumah kakek baik hati yang memberi kami topi?",
+    "pt": "Onde fica a casa do velhinho? Onde fica a casa do velhinho bondoso que nos deu chapéus?",
+    "my": "အဘိုးရဲ့အိမ် ဘယ်မှာလဲ။ ငါတို့ကို ခမောက်ပေးတဲ့ သဘောကောင်းတဲ့ အဘိုးရဲ့အိမ် ဘယ်မှာလဲ။",
+    "th": "บ้านของตาอยู่ที่ไหน บ้านของตาใจดีที่ให้หมวกพวกเราอยู่ที่ไหน"
+   },
+   "grammarNote": {
+    "vi": "やさしい: tốt bụng.",
+    "en": "やさしい: kind.",
+    "zh-Hans": "やさしい: 好心、温柔.",
+    "zh-Hant": "やさしい: 好心、溫柔.",
+    "ko": "やさしい: 다정하다.",
+    "tl": "やさしい: mabait.",
+    "ne": "やさしい: दयालु.",
+    "id": "やさしい: baik hati.",
+    "pt": "やさしい: bondoso.",
+    "my": "やさしい: သဘောကောင်း.",
+    "th": "やさしい: ใจดี."
+   },
+   "vocab": [],
+   "t": [
+    251.71,
+    258.99
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=251.71,258.99"
+  },
+  {
+   "ja": "声は、だんだん近づいてきて、家の前で止まりました。",
+   "furigana": [
+    {
+     "surface": "声",
+     "reading": "こえ"
+    },
+    {
+     "surface": "は、だんだん",
+     "reading": ""
+    },
+    {
+     "surface": "近",
+     "reading": "ちか"
+    },
+    {
+     "surface": "づいてきて、",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "止",
+     "reading": "と"
+    },
+    {
+     "surface": "まりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Koe wa, dandan chikazuite kite, ie no mae de tomarimashita.",
+   "translations": {
+    "vi": "Tiếng nói gần dần, rồi dừng lại trước cửa nhà.",
+    "en": "The voices came closer and closer and stopped in front of the house.",
+    "zh-Hans": "声音越来越近，在家门前停了下来。",
+    "zh-Hant": "聲音越來越近，在家門前停了下來。",
+    "ko": "목소리는 점점 가까워지더니, 집 앞에서 멈췄습니다.",
+    "tl": "Palapit nang palapit ang mga tinig, at huminto sa harap ng bahay.",
+    "ne": "आवाज बिस्तारै नजिकिँदै आयो र घरअगाडि रोकियो।",
+    "id": "Suara itu makin lama makin dekat, lalu berhenti di depan rumah.",
+    "pt": "As vozes foram chegando cada vez mais perto e pararam diante da casa.",
+    "my": "အသံဟာ တဖြည်းဖြည်း နီးလာပြီး အိမ်ရှေ့မှာ ရပ်သွားတယ်။",
+    "th": "เสียงนั้นใกล้เข้ามาเรื่อย ๆ แล้วหยุดลงที่หน้าบ้าน"
+   },
+   "grammarNote": {
+    "vi": "だんだん: dần dần. 近づく: đến gần.",
+    "en": "だんだん: gradually. 近づく: approach.",
+    "zh-Hans": "だんだん: 渐渐. 近づく: 靠近.",
+    "zh-Hant": "だんだん: 漸漸. 近づく: 靠近.",
+    "ko": "だんだん: 점점. 近づく: 가까워지다.",
+    "tl": "だんだん: unti-unti. 近づく: lumapit.",
+    "ne": "だんだん: बिस्तारै. 近づく: नजिकिनु.",
+    "id": "だんだん: makin lama. 近づく: mendekat.",
+    "pt": "だんだん: pouco a pouco. 近づく: aproximar-se.",
+    "my": "だんだん: တဖြည်းဖြည်း. 近づく: နီးလာသည်.",
+    "th": "だんだん: ค่อย ๆ. 近づく: ใกล้เข้ามา."
+   },
+   "vocab": [],
+   "t": [
+    259.89,
+    264.44
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=259.89,264.44"
+  },
+  {
+   "ja": "どすん、と何か重いものを置く音がしました。",
+   "furigana": [
+    {
+     "surface": "どすん、と",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "か",
+     "reading": ""
+    },
+    {
+     "surface": "重",
+     "reading": "おも"
+    },
+    {
+     "surface": "いものを",
+     "reading": ""
+    },
+    {
+     "surface": "置",
+     "reading": "お"
+    },
+    {
+     "surface": "く",
+     "reading": ""
+    },
+    {
+     "surface": "音",
+     "reading": "おと"
+    },
+    {
+     "surface": "がしました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Dosu n, to nani ka omoi mono o oku oto ga shimashita.",
+   "translations": {
+    "vi": "Có tiếng \"uỵch\" như đặt xuống vật gì nặng lắm.",
+    "en": "There was a thud, as if something heavy had been set down.",
+    "zh-Hans": "\"咚\"的一声，好像放下了什么重东西。",
+    "zh-Hant": "「咚」的一聲，好像放下了什麼重東西。",
+    "ko": "쿵, 하고 무언가 무거운 것을 내려놓는 소리가 났습니다.",
+    "tl": "May kalabog, na para bang may ibinabang mabigat.",
+    "ne": "धप्प, केही गह्रौँ चीज राखेको आवाज आयो।",
+    "id": "Terdengar bunyi gedebuk, seperti ada benda berat yang diletakkan.",
+    "pt": "Ouviu-se um baque, como se pusessem algo pesado no chão.",
+    "my": "ဒုန်း ဆိုပြီး လေးလံတဲ့အရာတစ်ခုခုကို ချထားတဲ့အသံ ကြားရတယ်။",
+    "th": "มีเสียงตึง เหมือนวางของหนัก ๆ ลง"
+   },
+   "grammarNote": {
+    "vi": "どすん: uỵch. 置く: đặt.",
+    "en": "どすん: thud. 置く: put down.",
+    "zh-Hans": "どすん: 咚. 置く: 放.",
+    "zh-Hant": "どすん: 咚. 置く: 放.",
+    "ko": "どすん: 쿵. 置く: 놓다.",
+    "tl": "どすん: kalabog. 置く: ilapag.",
+    "ne": "どすん: धप्प. 置く: राख्नु.",
+    "id": "どすん: gedebuk. 置く: meletakkan.",
+    "pt": "どすん: baque. 置く: pôr.",
+    "my": "どすん: ဒုန်း. 置く: ချထားသည်.",
+    "th": "どすん: ตึง. 置く: วาง."
+   },
+   "vocab": [],
+   "t": [
+    265.04,
+    269.58
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=265.04,269.58"
+  },
+  {
+   "ja": "おじいさん、今の音は、何でしょう。",
+   "furigana": [
+    {
+     "surface": "おじいさん、",
+     "reading": ""
+    },
+    {
+     "surface": "今",
+     "reading": "いま"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "音",
+     "reading": "おと"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "でしょう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ojiisan, ima no oto wa, nani deshou.",
+   "translations": {
+    "vi": "Ông ơi, tiếng gì vậy?",
+    "en": "Dear, what was that sound just now?",
+    "zh-Hans": "老头子，刚才是什么声音？",
+    "zh-Hant": "老頭子，剛才是什麼聲音？",
+    "ko": "영감, 방금 그 소리는 뭘까요?",
+    "tl": "Lolo, ano kaya ang tunog na iyon?",
+    "ne": "बूढा, अहिलेको त्यो आवाज के होला?",
+    "id": "Kek, suara apa barusan itu?",
+    "pt": "Querido, que barulho foi esse agora?",
+    "my": "အဘိုး၊ ခုနက အသံက ဘာလဲမသိဘူး။",
+    "th": "ตา เมื่อกี้เสียงอะไรน่ะ"
+   },
+   "grammarNote": {
+    "vi": "今の: vừa rồi.",
+    "en": "今の: just now.",
+    "zh-Hans": "今の: 刚才的.",
+    "zh-Hant": "今の: 剛才的.",
+    "ko": "今の: 방금의.",
+    "tl": "今の: kanina lang.",
+    "ne": "今の: अहिलेको.",
+    "id": "今の: barusan.",
+    "pt": "今の: de agora há pouco.",
+    "my": "今の: ခုနက.",
+    "th": "今の: เมื่อกี้."
+   },
+   "vocab": [],
+   "t": [
+    270.48,
+    274.07
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=270.48,274.07"
+  },
+  {
+   "ja": "さあ。こんな夜中に、だれだろう。",
+   "furigana": [
+    {
+     "surface": "さあ。こんな",
+     "reading": ""
+    },
+    {
+     "surface": "夜中",
+     "reading": "よなか"
+    },
+    {
+     "surface": "に、だれだろう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Saa. Konna yonaka ni, dare darou.",
+   "translations": {
+    "vi": "Ai biết. Nửa đêm thế này, không biết là ai.",
+    "en": "Who knows. Who could it be in the middle of the night?",
+    "zh-Hans": "谁知道呢。这么半夜，会是谁呢？",
+    "zh-Hant": "誰知道呢。這麼半夜，會是誰呢？",
+    "ko": "글쎄. 이 한밤중에 누구일까.",
+    "tl": "Ewan ko. Sino kaya iyon sa ganitong hatinggabi?",
+    "ne": "खोइ। यति मध्यरातमा को होला?",
+    "id": "Entahlah. Siapa ya, tengah malam begini?",
+    "pt": "Sei lá. Quem será, a esta hora da noite?",
+    "my": "ဘယ်သိမလဲ။ ဒီလောက် ညသန်းခေါင်ကြီး ဘယ်သူပါလိမ့်။",
+    "th": "ไม่รู้สิ ดึกดื่นป่านนี้ ใครกันนะ"
+   },
+   "grammarNote": {
+    "vi": "さあ: ai biết (lưỡng lự). 夜中: nửa đêm.",
+    "en": "さあ: well, who knows. 夜中: middle of the night.",
+    "zh-Hans": "さあ: 谁知道. 夜中: 半夜.",
+    "zh-Hant": "さあ: 誰知道. 夜中: 半夜.",
+    "ko": "さあ: 글쎄. 夜中: 한밤중.",
+    "tl": "さあ: ewan. 夜中: hatinggabi.",
+    "ne": "さあ: खोइ. 夜中: मध्यरात.",
+    "id": "さあ: entahlah. 夜中: tengah malam.",
+    "pt": "さあ: sei lá. 夜中: meio da noite.",
+    "my": "さあ: ဘယ်သိမလဲ. 夜中: ညသန်းခေါင်.",
+    "th": "さあ: ไม่รู้สิ. 夜中: ดึกดื่น."
+   },
+   "vocab": [],
+   "t": [
+    274.97,
+    277.82
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=274.97,277.82"
+  },
+  {
+   "ja": "二人がそっと戸を開けてみると、家の前に、大きな俵が山のように積んでありました。",
+   "furigana": [
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "がそっと",
+     "reading": ""
+    },
+    {
+     "surface": "戸",
+     "reading": "と"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "開",
+     "reading": "あ"
+    },
+    {
+     "surface": "けてみると、",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "きな",
+     "reading": ""
+    },
+    {
+     "surface": "俵",
+     "reading": "たわら"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "山",
+     "reading": "やま"
+    },
+    {
+     "surface": "のように",
+     "reading": ""
+    },
+    {
+     "surface": "積",
+     "reading": "つ"
+    },
+    {
+     "surface": "んでありました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Futari ga sotto to o akete miru to, ie no mae ni, ookina tawara ga yama no you ni tsunde arimashita.",
+   "translations": {
+    "vi": "Hai ông bà khẽ mở cửa ra xem, thì thấy trước nhà chất cao như núi những bao rơm lớn.",
+    "en": "When the two quietly opened the door, they found big straw bales piled like a mountain in front of the house.",
+    "zh-Hans": "两人轻轻打开门一看，门前堆着像山一样高的大草袋。",
+    "zh-Hant": "兩人輕輕打開門一看，門前堆著像山一樣高的大草袋。",
+    "ko": "두 사람이 살며시 문을 열어 보니, 집 앞에 커다란 섬이 산더미처럼 쌓여 있었습니다.",
+    "tl": "Nang dahan-dahang buksan ng dalawa ang pinto, may malalaking sako ng dayami na nakatambak na parang bundok sa harap ng bahay.",
+    "ne": "दुवैले बिस्तारै ढोका खोलेर हेर्दा, घरअगाडि पहाडजस्तै परालका ठूला बोरा थुपारिएका थिए।",
+    "id": "Ketika keduanya membuka pintu pelan-pelan, di depan rumah ada karung jerami besar bertumpuk seperti gunung.",
+    "pt": "Quando os dois abriram a porta devagarinho, havia grandes fardos de palha empilhados como uma montanha diante da casa.",
+    "my": "နှစ်ယောက်စလုံး တံခါးကို ဖြည်းဖြည်းလေး ဖွင့်ကြည့်တော့ အိမ်ရှေ့မှာ ကောက်ရိုးအိတ်ကြီးတွေ တောင်လို ပုံထားတယ်။",
+    "th": "เมื่อทั้งสองค่อย ๆ เปิดประตูดู ก็พบกระสอบฟางใหญ่กองสูงราวภูเขาอยู่หน้าบ้าน"
+   },
+   "grammarNote": {
+    "vi": "そっと: khẽ. 俵: bao rơm (đựng gạo). 〜てある: đã được ~ (trạng thái).",
+    "en": "そっと: quietly. 俵: straw bale. 〜てある: has been ~ (state).",
+    "zh-Hans": "そっと: 轻轻地. 俵: 草袋（装米）. 〜てある: 放着～（状态）.",
+    "zh-Hant": "そっと: 輕輕地. 俵: 草袋（裝米）. 〜てある: 放著～（狀態）.",
+    "ko": "そっと: 살며시. 俵: 섬 (짚으로 엮은 쌀자루). 〜てある: ~되어 있다.",
+    "tl": "そっと: dahan-dahan. 俵: sakong dayami. 〜てある: nakahanda nang ~.",
+    "ne": "そっと: बिस्तारै. 俵: परालको बोरा. 〜てある: ~ गरिएको (अवस्था).",
+    "id": "そっと: pelan-pelan. 俵: karung jerami. 〜てある: sudah ~ (keadaan).",
+    "pt": "そっと: devagarinho. 俵: fardo de palha. 〜てある: estar ~ (estado).",
+    "my": "そっと: ဖြည်းဖြည်းလေး. 俵: ကောက်ရိုးအိတ်. 〜てある: ~ ထားပြီး (အခြေအနေ).",
+    "th": "そっと: ค่อย ๆ. 俵: กระสอบฟาง. 〜てある: ถูก ~ ไว้ (สภาพ)."
+   },
+   "vocab": [
+    {
+     "word": "そっと",
+     "reading": "そっと",
+     "level": "N3",
+     "meanings": {
+      "vi": "nhẹ nhàng, lặng lẽ",
+      "en": "quietly, gently",
+      "zh-Hans": "悄悄地",
+      "zh-Hant": "悄悄地",
+      "ko": "살며시",
+      "tl": "tahimik",
+      "ne": "चुपचाप",
+      "id": "diam-diam",
+      "pt": "em silêncio",
+      "my": "တိတ်တိတ်လေး",
+      "th": "เบาๆ เงียบๆ"
+     }
+    },
+    {
+     "word": "積む",
+     "reading": "つむ",
+     "level": "N3",
+     "meanings": {
+      "vi": "chất, chồng lên",
+      "en": "to load, pile up",
+      "zh-Hans": "装载，堆积",
+      "zh-Hant": "裝載，堆積",
+      "ko": "싣다, 쌓다",
+      "tl": "isakay, isalansan",
+      "ne": "लाद्नु, थुपार्नु",
+      "id": "memuat, menumpuk",
+      "pt": "carregar, empilhar",
+      "my": "တင်သည်၊ စုပုံသည်",
+      "th": "บรรทุก, กองซ้อน"
+     }
+    }
+   ],
+   "t": [
+    278.72,
+    285.92
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=278.72,285.92"
+  },
+  {
+   "ja": "お米の俵、おもち、お魚、野菜、そして、小判の入った箱まで、ありました。",
+   "furigana": [
+    {
+     "surface": "お",
+     "reading": ""
+    },
+    {
+     "surface": "米",
+     "reading": "こめ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "俵",
+     "reading": "たわら"
+    },
+    {
+     "surface": "、おもち、お",
+     "reading": ""
+    },
+    {
+     "surface": "魚",
+     "reading": "さかな"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "野菜",
+     "reading": "やさい"
+    },
+    {
+     "surface": "、そして、",
+     "reading": ""
+    },
+    {
+     "surface": "小判",
+     "reading": "こばん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "入",
+     "reading": "はい"
+    },
+    {
+     "surface": "った",
+     "reading": ""
+    },
+    {
+     "surface": "箱",
+     "reading": "はこ"
+    },
+    {
+     "surface": "まで、ありました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "O kome no tawara, omochi, osakana, yasai, soshite, koban no haitta hako made, arimashita.",
+   "translations": {
+    "vi": "Có bao gạo, bánh mochi, cá, rau, và cả một hộp đựng tiền vàng koban.",
+    "en": "There were bales of rice, rice cakes, fish, vegetables, and even a box full of gold koban coins.",
+    "zh-Hans": "有米袋、年糕、鱼、蔬菜，甚至还有装着小判金币的箱子。",
+    "zh-Hant": "有米袋、年糕、魚、蔬菜，甚至還有裝著小判金幣的箱子。",
+    "ko": "쌀섬, 떡, 생선, 채소, 그리고 고반 금화가 든 상자까지 있었습니다.",
+    "tl": "May sako ng bigas, mochi, isda, gulay, at maging isang kahong puno ng gintong barya na koban.",
+    "ne": "चामलका बोरा, मोचि, माछा, तरकारी, र कोबान सुनका सिक्का भरिएको बाकससमेत थियो।",
+    "id": "Ada karung beras, mochi, ikan, sayuran, bahkan sebuah kotak berisi koin emas koban.",
+    "pt": "Havia fardos de arroz, mochi, peixe, legumes e até uma caixa cheia de moedas de ouro koban.",
+    "my": "ဆန်အိတ်၊ မိုချိ၊ ငါး၊ ဟင်းသီးဟင်းရွက်၊ ပြီးတော့ ကိုဘန်ရွှေဒင်္ဂါးထည့်ထားတဲ့ သေတ္တာအထိ ရှိတယ်။",
+    "th": "มีกระสอบข้าว โมจิ ปลา ผัก และแม้แต่กล่องใส่เหรียญทองโคบัง"
+   },
+   "grammarNote": {
+    "vi": "小判: tiền vàng koban. 〜まで: đến cả ~.",
+    "en": "小判: koban gold coin. 〜まで: even ~.",
+    "zh-Hans": "小判: 小判金币. 〜まで: 甚至～.",
+    "zh-Hant": "小判: 小判金幣. 〜まで: 甚至～.",
+    "ko": "小判: 고반 (옛 금화). 〜まで: ~까지.",
+    "tl": "小判: koban, gintong barya. 〜まで: maging ~.",
+    "ne": "小判: कोबान, सुनको सिक्का. 〜まで: ~ समेत.",
+    "id": "小判: koban, koin emas. 〜まで: bahkan ~.",
+    "pt": "小判: koban, moeda de ouro. 〜まで: até ~.",
+    "my": "小判: ကိုဘန် (ရွှေဒင်္ဂါး). 〜まで: ~ အထိ.",
+    "th": "小判: เหรียญทองโคบัง. 〜まで: แม้แต่ ~."
+   },
+   "vocab": [],
+   "t": [
+    286.52,
+    294.56
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=286.52,294.56"
+  },
+  {
+   "ja": "まあ、まあ。これは、いったい。",
+   "furigana": [
+    {
+     "surface": "まあ、まあ。これは、いったい。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Maa, maa. Kore wa, ittai.",
+   "translations": {
+    "vi": "Trời đất ơi. Thế này là thế nào.",
+    "en": "My, my. What on earth is this?",
+    "zh-Hans": "哎呀呀，这到底是怎么回事。",
+    "zh-Hant": "哎呀呀，這到底是怎麼回事。",
+    "ko": "어머, 어머. 이게 대체 무슨 일이에요.",
+    "tl": "Naku, naku. Ano ba ito?",
+    "ne": "अहो, अहो। यो के हो?",
+    "id": "Astaga, astaga. Apa gerangan ini?",
+    "pt": "Minha nossa. O que é isto, afinal?",
+    "my": "အမယ်လေး အမယ်လေး။ ဒါ ဘာတွေလဲ။",
+    "th": "ตายแล้ว ตายแล้ว นี่มันอะไรกันแน่"
+   },
+   "grammarNote": {
+    "vi": "いったい: rốt cuộc, thế nào.",
+    "en": "いったい: what on earth.",
+    "zh-Hans": "いったい: 到底.",
+    "zh-Hant": "いったい: 到底.",
+    "ko": "いったい: 대체.",
+    "tl": "いったい: ano ba talaga.",
+    "ne": "いったい: आखिर के.",
+    "id": "いったい: gerangan.",
+    "pt": "いったい: afinal.",
+    "my": "いったい: တကယ်ပဲ ဘာ.",
+    "th": "いったい: กันแน่."
+   },
+   "vocab": [
+    {
+     "word": "いったい",
+     "reading": "いったい",
+     "level": "N3",
+     "meanings": {
+      "vi": "rốt cuộc, không biết",
+      "en": "on earth, what in the world",
+      "zh-Hans": "到底",
+      "zh-Hant": "到底",
+      "ko": "도대체",
+      "tl": "ano ba talaga",
+      "ne": "आखिर",
+      "id": "sebenarnya",
+      "pt": "afinal",
+      "my": "တကယ်တမ်း",
+      "th": "กันแน่"
+     }
+    }
+   ],
+   "t": [
+    295.46,
+    298.58
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=295.46,298.58"
+  },
+  {
+   "ja": "遠くを見ると、雪の中を、笠をかぶったお地蔵さまたちが、帰っていくところでした。",
+   "furigana": [
+    {
+     "surface": "遠",
+     "reading": "とお"
+    },
+    {
+     "surface": "くを",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "ると、",
+     "reading": ""
+    },
+    {
+     "surface": "雪",
+     "reading": "ゆき"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "を、",
+     "reading": ""
+    },
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "をかぶったお",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "さまたちが、",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "っていくところでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tooku o miru to, yuki no naka o, kasa o kabutta ojizousamatachi ga, kaette iku tokoro deshita.",
+   "translations": {
+    "vi": "Nhìn ra xa, thấy các tượng Jizō đội nón đang đi về trong tuyết.",
+    "en": "Looking into the distance, they saw the Jizō in their hats walking away through the snow.",
+    "zh-Hans": "往远处一看，戴着斗笠的地藏菩萨们正在雪中往回走。",
+    "zh-Hant": "往遠處一看，戴著斗笠的地藏菩薩們正在雪中往回走。",
+    "ko": "멀리 바라보니, 삿갓을 쓴 지장보살들이 눈 속을 걸어 돌아가는 중이었습니다.",
+    "tl": "Pagtingin nila sa malayo, nakita nilang pauwi na sa niyebe ang mga Jizō na may suot na sombrero.",
+    "ne": "टाढा हेर्दा, टोपी लगाएका जिजोहरू हिउँमा फर्किँदै थिए।",
+    "id": "Ketika memandang ke kejauhan, tampak para Jizō bertopi sedang berjalan pulang di tengah salju.",
+    "pt": "Olhando ao longe, viram os Jizō de chapéu indo embora pela neve.",
+    "my": "အဝေးကို ကြည့်လိုက်တော့ ခမောက်ဆောင်းထားတဲ့ ဂျိဇိုရုပ်တွေ နှင်းထဲ ပြန်သွားနေကြတာ တွေ့ရတယ်။",
+    "th": "เมื่อมองไปไกล ๆ ก็เห็นพระจิโซที่สวมหมวกกำลังเดินกลับไปท่ามกลางหิมะ"
+   },
+   "grammarNote": {
+    "vi": "〜ところだ: đang lúc ~.",
+    "en": "〜ところだ: be just in the middle of ~.",
+    "zh-Hans": "〜ところだ: 正在～.",
+    "zh-Hant": "〜ところだ: 正在～.",
+    "ko": "〜ところだ: 마침 ~하는 중이다.",
+    "tl": "〜ところだ: nasa kalagitnaan ng ~.",
+    "ne": "〜ところだ: ~ गर्दै गरेको.",
+    "id": "〜ところだ: sedang ~.",
+    "pt": "〜ところだ: estar justamente ~.",
+    "my": "〜ところだ: ~ နေတုန်း.",
+    "th": "〜ところだ: กำลัง ~ อยู่พอดี."
+   },
+   "vocab": [],
+   "t": [
+    299.48,
+    306.42
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=299.48,306.42"
+  },
+  {
+   "ja": "いちばん後ろのお地蔵さまは、あの古い手ぬぐいをかぶっていました。",
+   "furigana": [
+    {
+     "surface": "いちばん",
+     "reading": ""
+    },
+    {
+     "surface": "後",
+     "reading": "うし"
+    },
+    {
+     "surface": "ろのお",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "さまは、あの",
+     "reading": ""
+    },
+    {
+     "surface": "古",
+     "reading": "ふる"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "手",
+     "reading": "て"
+    },
+    {
+     "surface": "ぬぐいをかぶっていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ichiban ushiro no ojizousama wa, ano furui tenugui o kabutte imashita.",
+   "translations": {
+    "vi": "Pho tượng đi cuối cùng đội chiếc khăn tenugui cũ ấy.",
+    "en": "The last Jizō of all was wearing that old hand towel.",
+    "zh-Hans": "走在最后的那尊地藏菩萨，戴着那条旧手巾。",
+    "zh-Hant": "走在最後的那尊地藏菩薩，戴著那條舊手巾。",
+    "ko": "맨 뒤의 지장보살은 그 낡은 수건을 쓰고 있었습니다.",
+    "tl": "Ang Jizō sa pinakahuli ay suot ang lumang tenugui.",
+    "ne": "सबैभन्दा पछाडिका जिजोले त्यही पुरानो तेनुगुइ लगाएका थिए।",
+    "id": "Jizō paling belakang memakai tenugui tua itu.",
+    "pt": "O último Jizō de todos usava aquele pano velho.",
+    "my": "နောက်ဆုံးက ဂျိဇိုရုပ်ဟာ အဲဒီ ပုဝါဟောင်းကို ဆောင်းထားတယ်။",
+    "th": "พระจิโซองค์สุดท้ายสวมผ้าเทะนุงุอิผืนเก่านั้นอยู่"
+   },
+   "grammarNote": {
+    "vi": "いちばん後ろ: sau cùng.",
+    "en": "いちばん後ろ: the very back.",
+    "zh-Hans": "いちばん後ろ: 最后面.",
+    "zh-Hant": "いちばん後ろ: 最後面.",
+    "ko": "いちばん後ろ: 맨 뒤.",
+    "tl": "いちばん後ろ: pinakahuli.",
+    "ne": "いちばん後ろ: सबैभन्दा पछाडि.",
+    "id": "いちばん後ろ: paling belakang.",
+    "pt": "いちばん後ろ: o último.",
+    "my": "いちばん後ろ: နောက်ဆုံး.",
+    "th": "いちばん後ろ: หลังสุด."
+   },
+   "vocab": [],
+   "t": [
+    307.02,
+    313.02
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=307.02,313.02"
+  },
+  {
+   "ja": "お地蔵さまが、お礼に来てくださったのだ。",
+   "furigana": [
+    {
+     "surface": "お",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "さまが、お",
+     "reading": ""
+    },
+    {
+     "surface": "礼",
+     "reading": "れい"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "き"
+    },
+    {
+     "surface": "てくださったのだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ojizousama ga, orei ni kite kudasatta no da.",
+   "translations": {
+    "vi": "Các ngài Jizō đã đến để tạ ơn ta đấy.",
+    "en": "The Jizō came to thank us.",
+    "zh-Hans": "是地藏菩萨来答谢我们了。",
+    "zh-Hant": "是地藏菩薩來答謝我們了。",
+    "ko": "지장보살님이 답례하러 와 주신 거구려.",
+    "tl": "Dumating ang mga Jizō para magpasalamat sa atin.",
+    "ne": "जिजो देवता हामीलाई धन्यवाद दिन आउनुभएको रहेछ।",
+    "id": "Para Jizō datang untuk berterima kasih kepada kita.",
+    "pt": "Os Jizō vieram nos agradecer.",
+    "my": "ဂျိဇိုဘုရားတွေ ကျေးဇူးဆပ်ဖို့ ကြွလာကြတာပဲ။",
+    "th": "พระจิโซมาตอบแทนน้ำใจพวกเรานี่เอง"
+   },
+   "grammarNote": {
+    "vi": "お礼: tạ ơn. 〜てくださる: (người trên) ~ cho mình.",
+    "en": "お礼: thanks. 〜てくださる: (someone) kindly ~ for us.",
+    "zh-Hans": "お礼: 答谢. 〜てくださる: （对方）为我们～.",
+    "zh-Hant": "お礼: 答謝. 〜てくださる: （對方）為我們～.",
+    "ko": "お礼: 답례. 〜てくださる: ~해 주시다.",
+    "tl": "お礼: pasasalamat. 〜てくださる: (sila) ay ~ para sa atin.",
+    "ne": "お礼: धन्यवाद, गुन तिर्नु. 〜てくださる: (उहाँले) ~ गरिदिनु.",
+    "id": "お礼: terima kasih, balas budi. 〜てくださる: berkenan ~ untuk kita.",
+    "pt": "お礼: agradecimento. 〜てくださる: ter a bondade de ~.",
+    "my": "お礼: ကျေးဇူးဆပ်ခြင်း. 〜てくださる: (သူတို့က) ~ ပေးသည်.",
+    "th": "お礼: การตอบแทน, ขอบคุณ. 〜てくださる: (ท่าน) กรุณา ~ ให้."
+   },
+   "vocab": [],
+   "t": [
+    313.92,
+    318.13
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=313.92,318.13"
+  },
+  {
+   "ja": "おじいさんとおばあさんは、雪の中に座って、深く頭を下げました。",
+   "furigana": [
+    {
+     "surface": "おじいさんとおばあさんは、",
+     "reading": ""
+    },
+    {
+     "surface": "雪",
+     "reading": "ゆき"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "座",
+     "reading": "すわ"
+    },
+    {
+     "surface": "って、",
+     "reading": ""
+    },
+    {
+     "surface": "深",
+     "reading": "ふか"
+    },
+    {
+     "surface": "く",
+     "reading": ""
+    },
+    {
+     "surface": "頭",
+     "reading": "あたま"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "下",
+     "reading": "さ"
+    },
+    {
+     "surface": "げました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ojiisan to obaasan wa, yuki no naka ni suwatte, fukaku atama o sagemashita.",
+   "translations": {
+    "vi": "Ông bà lão ngồi xuống giữa tuyết, cúi đầu thật sâu.",
+    "en": "The old man and woman knelt in the snow and bowed deeply.",
+    "zh-Hans": "老爷爷和老奶奶跪坐在雪地里，深深地低下了头。",
+    "zh-Hant": "老爺爺和老奶奶跪坐在雪地裡，深深地低下了頭。",
+    "ko": "할아버지와 할머니는 눈 속에 앉아 깊이 고개를 숙였습니다.",
+    "tl": "Lumuhod sa niyebe ang lolo at lola at yumuko nang malalim.",
+    "ne": "बाजे र बज्यै हिउँमा बसेर गहिरोसँग शिर झुकाए।",
+    "id": "Kakek dan nenek duduk di salju dan membungkuk dalam-dalam.",
+    "pt": "O velhinho e a velhinha sentaram-se na neve e fizeram uma vênia profunda.",
+    "my": "အဘိုးနဲ့ အဘွားဟာ နှင်းထဲမှာ ထိုင်ပြီး ခေါင်းကို နက်နက်ညွှတ်လိုက်တယ်။",
+    "th": "ตายายนั่งลงบนหิมะ แล้วก้มศีรษะลงอย่างนอบน้อม"
+   },
+   "grammarNote": {
+    "vi": "頭を下げる: cúi đầu.",
+    "en": "頭を下げる: bow.",
+    "zh-Hans": "頭を下げる: 低头鞠躬.",
+    "zh-Hant": "頭を下げる: 低頭鞠躬.",
+    "ko": "頭を下げる: 고개를 숙이다.",
+    "tl": "頭を下げる: yumuko.",
+    "ne": "頭を下げる: शिर झुकाउनु.",
+    "id": "頭を下げる: membungkuk.",
+    "pt": "頭を下げる: fazer vênia.",
+    "my": "頭を下げる: ခေါင်းညွှတ်သည်.",
+    "th": "頭を下げる: ก้มศีรษะ."
+   },
+   "vocab": [],
+   "t": [
+    319.03,
+    325.42
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=319.03,325.42"
+  },
+  {
+   "ja": "ありがとうございます。ありがとうございます。",
+   "furigana": [
+    {
+     "surface": "ありがとうございます。ありがとうございます。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Arigatou gozaimasu. Arigatou gozaimasu.",
+   "translations": {
+    "vi": "Xin cảm tạ các ngài. Xin cảm tạ các ngài.",
+    "en": "Thank you. Thank you so much.",
+    "zh-Hans": "谢谢您们。谢谢您们。",
+    "zh-Hant": "謝謝您們。謝謝您們。",
+    "ko": "고맙습니다. 고맙습니다.",
+    "tl": "Salamat po. Maraming salamat po.",
+    "ne": "धन्यवाद। धेरै धेरै धन्यवाद।",
+    "id": "Terima kasih. Terima kasih banyak.",
+    "pt": "Obrigado. Muito obrigado.",
+    "my": "ကျေးဇူးတင်ပါတယ်။ ကျေးဇူးအများကြီး တင်ပါတယ်။",
+    "th": "ขอบพระคุณ ขอบพระคุณมาก"
+   },
+   "grammarNote": {
+    "vi": "ありがとうございます: xin cảm ơn.",
+    "en": "ありがとうございます: thank you.",
+    "zh-Hans": "ありがとうございます: 谢谢.",
+    "zh-Hant": "ありがとうございます: 謝謝.",
+    "ko": "ありがとうございます: 고맙습니다.",
+    "tl": "ありがとうございます: salamat po.",
+    "ne": "ありがとうございます: धन्यवाद.",
+    "id": "ありがとうございます: terima kasih.",
+    "pt": "ありがとうございます: muito obrigado.",
+    "my": "ありがとうございます: ကျေးဇူးတင်ပါတယ်.",
+    "th": "ありがとうございます: ขอบคุณ."
+   },
+   "vocab": [],
+   "t": [
+    326.32,
+    329.4
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=326.32,329.4"
+  },
+  {
+   "ja": "次の朝、二人は、おもちを焼いて、とても楽しいお正月をむかえました。",
+   "furigana": [
+    {
+     "surface": "次",
+     "reading": "つぎ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "朝",
+     "reading": "あさ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "は、おもちを",
+     "reading": ""
+    },
+    {
+     "surface": "焼",
+     "reading": "や"
+    },
+    {
+     "surface": "いて、とても",
+     "reading": ""
+    },
+    {
+     "surface": "楽",
+     "reading": "たの"
+    },
+    {
+     "surface": "しいお",
+     "reading": ""
+    },
+    {
+     "surface": "正月",
+     "reading": "しょうがつ"
+    },
+    {
+     "surface": "をむかえました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tsugi no asa, futari wa, omochi o yaite, totemo tanoshii oshougatsu o mukaemashita.",
+   "translations": {
+    "vi": "Sáng hôm sau, hai ông bà nướng bánh mochi, đón một cái Tết thật vui vẻ.",
+    "en": "The next morning, the two grilled rice cakes and welcomed a very happy New Year.",
+    "zh-Hans": "第二天早上，两人烤了年糕，过了一个非常快乐的新年。",
+    "zh-Hant": "第二天早上，兩人烤了年糕，過了一個非常快樂的新年。",
+    "ko": "다음 날 아침, 두 사람은 떡을 구워 아주 즐거운 설날을 맞았습니다.",
+    "tl": "Kinaumagahan, nag-ihaw ng mochi ang dalawa at sinalubong ang isang napakasayang Bagong Taon.",
+    "ne": "भोलिपल्ट बिहान, दुवैले मोचि पोलेर एकदमै रमाइलो नयाँ वर्ष मनाए।",
+    "id": "Keesokan paginya, keduanya memanggang mochi dan menyambut Tahun Baru yang sangat menyenangkan.",
+    "pt": "Na manhã seguinte, os dois assaram mochi e receberam um Ano-Novo muito feliz.",
+    "my": "နောက်တစ်နေ့မနက် နှစ်ယောက်စလုံး မိုချိကင်ပြီး အရမ်းပျော်စရာကောင်းတဲ့ နှစ်သစ်ကို ကြိုဆိုကြတယ်။",
+    "th": "เช้าวันรุ่งขึ้น ทั้งสองปิ้งโมจิ และได้ต้อนรับปีใหม่อย่างมีความสุขที่สุด"
+   },
+   "grammarNote": {
+    "vi": "焼く: nướng. むかえる: đón.",
+    "en": "焼く: grill. むかえる: welcome.",
+    "zh-Hans": "焼く: 烤. むかえる: 迎接.",
+    "zh-Hant": "焼く: 烤. むかえる: 迎接.",
+    "ko": "焼く: 굽다. むかえる: 맞이하다.",
+    "tl": "焼く: ihawin. むかえる: salubungin.",
+    "ne": "焼く: पोल्नु. むかえる: स्वागत गर्नु.",
+    "id": "焼く: memanggang. むかえる: menyambut.",
+    "pt": "焼く: assar. むかえる: receber.",
+    "my": "焼く: ကင်သည်. むかえる: ကြိုဆိုသည်.",
+    "th": "焼く: ปิ้ง. むかえる: ต้อนรับ."
+   },
+   "vocab": [],
+   "t": [
+    330.3,
+    335.9
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=330.3,335.9"
+  },
+  {
+   "ja": "そして、村のまずしい人たちにも、お米やおもちを分けてあげました。",
+   "furigana": [
+    {
+     "surface": "そして、",
+     "reading": ""
+    },
+    {
+     "surface": "村",
+     "reading": "むら"
+    },
+    {
+     "surface": "のまずしい",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "たちにも、お",
+     "reading": ""
+    },
+    {
+     "surface": "米",
+     "reading": "こめ"
+    },
+    {
+     "surface": "やおもちを",
+     "reading": ""
+    },
+    {
+     "surface": "分",
+     "reading": "わ"
+    },
+    {
+     "surface": "けてあげました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Soshite, mura no mazushii hitotachi ni mo, o kome ya omochi o wakete agemashita.",
+   "translations": {
+    "vi": "Rồi ông bà còn chia gạo và bánh mochi cho những người nghèo trong làng.",
+    "en": "And they shared rice and rice cakes with the poor people of the village, too.",
+    "zh-Hans": "他们还把米和年糕分给了村里的穷人。",
+    "zh-Hant": "他們還把米和年糕分給了村裡的窮人。",
+    "ko": "그리고 마을의 가난한 사람들에게도 쌀과 떡을 나누어 주었습니다.",
+    "tl": "At namahagi rin sila ng bigas at mochi sa mahihirap sa nayon.",
+    "ne": "अनि गाउँका गरिबहरूलाई पनि चामल र मोचि बाँडिदिए।",
+    "id": "Mereka juga membagikan beras dan mochi kepada orang-orang miskin di desa.",
+    "pt": "E também repartiram arroz e mochi com os pobres da aldeia.",
+    "my": "ပြီးတော့ ရွာထဲက ဆင်းရဲသူတွေကိုလည်း ဆန်နဲ့ မိုချိ ခွဲဝေပေးကြတယ်။",
+    "th": "แล้วยังแบ่งข้าวและโมจิให้คนยากจนในหมู่บ้านด้วย"
+   },
+   "grammarNote": {
+    "vi": "分ける: chia. 〜てあげる: làm ~ cho người khác.",
+    "en": "分ける: share. 〜てあげる: do ~ for others.",
+    "zh-Hans": "分ける: 分. 〜てあげる: 为别人～.",
+    "zh-Hant": "分ける: 分. 〜てあげる: 為別人～.",
+    "ko": "分ける: 나누다. 〜てあげる: ~해 주다.",
+    "tl": "分ける: ibahagi. 〜てあげる: gawin ang ~ para sa iba.",
+    "ne": "分ける: बाँड्नु. 〜てあげる: अरूका लागि ~ गरिदिनु.",
+    "id": "分ける: membagi. 〜てあげる: melakukan ~ untuk orang lain.",
+    "pt": "分ける: repartir. 〜てあげる: fazer ~ para os outros.",
+    "my": "分ける: ခွဲဝေသည်. 〜てあげる: သူတစ်ပါးအတွက် ~ ပေးသည်.",
+    "th": "分ける: แบ่ง. 〜てあげる: ทำ ~ ให้ผู้อื่น."
+   },
+   "vocab": [
+    {
+     "word": "分ける",
+     "reading": "わける",
+     "level": "N3",
+     "meanings": {
+      "vi": "chia, phân",
+      "en": "to divide, to share",
+      "zh-Hans": "分；分给",
+      "zh-Hant": "分；分給",
+      "ko": "나누다",
+      "tl": "hatiin",
+      "ne": "बाँड्नु",
+      "id": "membagi",
+      "pt": "dividir",
+      "my": "ခွဲဝေ",
+      "th": "แบ่ง"
+     }
+    }
+   ],
+   "t": [
+    336.5,
+    341.59
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=336.5,341.59"
+  },
+  {
+   "ja": "それからも、おじいさんは、お地蔵さまの前を通るたびに、手を合わせました。",
+   "furigana": [
+    {
+     "surface": "それからも、おじいさんは、お",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "さまの",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "通",
+     "reading": "とお"
+    },
+    {
+     "surface": "るたびに、",
+     "reading": ""
+    },
+    {
+     "surface": "手",
+     "reading": "て"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "合",
+     "reading": "あ"
+    },
+    {
+     "surface": "わせました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sore kara mo, ojiisan wa, ojizousama no mae o tooru tabi ni, te o awasemashita.",
+   "translations": {
+    "vi": "Từ đó về sau, mỗi lần đi qua trước các tượng Jizō, ông lão đều chắp tay.",
+    "en": "After that, every time the old man passed the Jizō, he put his hands together.",
+    "zh-Hans": "从那以后，老爷爷每次经过地藏菩萨跟前，都会双手合十。",
+    "zh-Hant": "從那以後，老爺爺每次經過地藏菩薩跟前，都會雙手合十。",
+    "ko": "그 후로도 할아버지는 지장보살 앞을 지날 때마다 두 손을 모았습니다.",
+    "tl": "Mula noon, tuwing dumaraan ang lolo sa harap ng mga Jizō, pinagdadaop niya ang mga palad.",
+    "ne": "त्यसपछि पनि बाजे जिजोअगाडि हिँड्दा हरेकपटक हात जोड्थे।",
+    "id": "Sejak itu, setiap kali lewat di depan para Jizō, kakek selalu menangkupkan tangan.",
+    "pt": "Desde então, sempre que passava diante dos Jizō, o velhinho juntava as mãos.",
+    "my": "အဲဒီနောက်ပိုင်းလည်း အဘိုးဟာ ဂျိဇိုရုပ်တွေရှေ့က ဖြတ်သွားတိုင်း လက်အုပ်ချီတယ်။",
+    "th": "ตั้งแต่นั้นมา ทุกครั้งที่เดินผ่านหน้าพระจิโซ ตาก็จะพนมมือไหว้"
+   },
+   "grammarNote": {
+    "vi": "〜たびに: mỗi lần ~.",
+    "en": "〜たびに: every time ~.",
+    "zh-Hans": "〜たびに: 每次～.",
+    "zh-Hant": "〜たびに: 每次～.",
+    "ko": "〜たびに: ~할 때마다.",
+    "tl": "〜たびに: tuwing ~.",
+    "ne": "〜たびに: हरेकपटक ~.",
+    "id": "〜たびに: setiap kali ~.",
+    "pt": "〜たびに: sempre que ~.",
+    "my": "〜たびに: ~ တိုင်း.",
+    "th": "〜たびに: ทุกครั้งที่ ~."
+   },
+   "vocab": [],
+   "t": [
+    342.19,
+    349.38
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=342.19,349.38"
+  },
+  {
+   "ja": "雪が降れば、頭の雪をはらい、夏には、冷たい水をそなえました。",
+   "furigana": [
+    {
+     "surface": "雪",
+     "reading": "ゆき"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "降",
+     "reading": "ふ"
+    },
+    {
+     "surface": "れば、",
+     "reading": ""
+    },
+    {
+     "surface": "頭",
+     "reading": "あたま"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "雪",
+     "reading": "ゆき"
+    },
+    {
+     "surface": "をはらい、",
+     "reading": ""
+    },
+    {
+     "surface": "夏",
+     "reading": "なつ"
+    },
+    {
+     "surface": "には、",
+     "reading": ""
+    },
+    {
+     "surface": "冷",
+     "reading": "つめ"
+    },
+    {
+     "surface": "たい",
+     "reading": ""
+    },
+    {
+     "surface": "水",
+     "reading": "みず"
+    },
+    {
+     "surface": "をそなえました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Yuki ga fureba, atama no yuki o harai, natsu ni wa, tsumetai mizu o sonaemashita.",
+   "translations": {
+    "vi": "Hễ tuyết rơi là ông phủi tuyết trên đầu tượng, mùa hè thì dâng nước mát.",
+    "en": "When it snowed, he brushed the snow off their heads, and in summer he offered them cool water.",
+    "zh-Hans": "下雪时就拂去它们头上的雪，夏天就供上清凉的水。",
+    "zh-Hant": "下雪時就拂去它們頭上的雪，夏天就供上清涼的水。",
+    "ko": "눈이 오면 머리의 눈을 털어 드리고, 여름에는 시원한 물을 올렸습니다.",
+    "tl": "Kapag umuulan ng niyebe, pinapagpag niya ang niyebe sa ulo nila, at tuwing tag-init nag-aalay siya ng malamig na tubig.",
+    "ne": "हिउँ परे टाउकाको हिउँ झार्थे, गर्मीमा चिसो पानी चढाउँथे।",
+    "id": "Kalau salju turun, ia menepis salju di kepala mereka, dan di musim panas ia mempersembahkan air sejuk.",
+    "pt": "Quando nevava, tirava a neve da cabeça deles; no verão, oferecia-lhes água fresca.",
+    "my": "နှင်းကျရင် ခေါင်းပေါ်က နှင်းကို ခါပေးပြီး နွေရာသီမှာ ရေအေးကို ကပ်လှူတယ်။",
+    "th": "เมื่อหิมะตก ตาก็ปัดหิมะบนศีรษะ พอฤดูร้อนก็ถวายน้ำเย็น"
+   },
+   "grammarNote": {
+    "vi": "〜ば: hễ ~. そなえる: dâng cúng.",
+    "en": "〜ば: when ~. そなえる: make an offering.",
+    "zh-Hans": "〜ば: 一～就. そなえる: 供奉.",
+    "zh-Hant": "〜ば: 一～就. そなえる: 供奉.",
+    "ko": "〜ば: ~하면. そなえる: 바치다, 올리다.",
+    "tl": "〜ば: kapag ~. そなえる: mag-alay.",
+    "ne": "〜ば: ~ भए. そなえる: चढाउनु.",
+    "id": "〜ば: kalau ~. そなえる: mempersembahkan.",
+    "pt": "〜ば: quando ~. そなえる: oferecer.",
+    "my": "〜ば: ~ ရင်. そなえる: ကပ်လှူသည်.",
+    "th": "〜ば: เมื่อ ~. そなえる: ถวาย."
+   },
+   "vocab": [
+    {
+     "word": "そなえる",
+     "reading": "そなえる",
+     "level": "N3",
+     "meanings": {
+      "vi": "dâng cúng",
+      "en": "to make an offering",
+      "zh-Hans": "供奉",
+      "zh-Hant": "供奉",
+      "ko": "바치다, 올리다",
+      "tl": "mag-alay",
+      "ne": "चढाउनु",
+      "id": "mempersembahkan",
+      "pt": "oferecer",
+      "my": "ကပ်လှူသည်",
+      "th": "ถวาย"
+     }
+    }
+   ],
+   "t": [
+    349.98,
+    356.33
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=349.98,356.33"
+  },
+  {
+   "ja": "笠地蔵のお話は、今も、冬になると、日本の子どもたちに読まれています。",
+   "furigana": [
+    {
+     "surface": "笠",
+     "reading": "かさ"
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "のお",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "今",
+     "reading": "いま"
+    },
+    {
+     "surface": "も、",
+     "reading": ""
+    },
+    {
+     "surface": "冬",
+     "reading": "ふゆ"
+    },
+    {
+     "surface": "になると、",
+     "reading": ""
+    },
+    {
+     "surface": "日本",
+     "reading": "にほん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "子",
+     "reading": "こ"
+    },
+    {
+     "surface": "どもたちに",
+     "reading": ""
+    },
+    {
+     "surface": "読",
+     "reading": "よ"
+    },
+    {
+     "surface": "まれています。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kasa jizou no ohanashi wa, ima mo, fuyu ni naru to, nihon no kodomotachi ni yomarete imasu.",
+   "translations": {
+    "vi": "Đến nay, mỗi khi đông về, chuyện Kasa Jizō vẫn được trẻ em Nhật đọc.",
+    "en": "Even today, when winter comes, the story of Kasa Jizō is read by children in Japan.",
+    "zh-Hans": "直到今天，每到冬天，日本的孩子们还在读笠地藏的故事。",
+    "zh-Hant": "直到今天，每到冬天，日本的孩子們還在讀笠地藏的故事。",
+    "ko": "삿갓 지장 이야기는 지금도 겨울이 되면 일본 아이들이 읽고 있습니다.",
+    "tl": "Hanggang ngayon, tuwing taglamig, binabasa pa rin ng mga batang Hapon ang kuwento ng Kasa Jizō.",
+    "ne": "आज पनि, जाडो आउँदा जापानका बालबालिकाले कासा जिजोको कथा पढ्छन्।",
+    "id": "Sampai sekarang, setiap musim dingin tiba, kisah Kasa Jizō masih dibaca anak-anak Jepang.",
+    "pt": "Ainda hoje, quando chega o inverno, a história de Kasa Jizō é lida pelas crianças do Japão.",
+    "my": "အခုထိ ဆောင်းရာသီရောက်တိုင်း ဂျပန်ကလေးတွေဟာ ကာဆ ဂျိဇို ပုံပြင်ကို ဖတ်နေကြဆဲပါ။",
+    "th": "จนถึงทุกวันนี้ เมื่อถึงฤดูหนาว เด็ก ๆ ญี่ปุ่นก็ยังอ่านนิทานพระจิโซสวมหมวก"
+   },
+   "grammarNote": {
+    "vi": "〜と: hễ ~ là. 読まれる: được đọc.",
+    "en": "〜と: whenever ~. 読まれる: be read.",
+    "zh-Hans": "〜と: 一到～就. 読まれる: 被读.",
+    "zh-Hant": "〜と: 一到～就. 読まれる: 被讀.",
+    "ko": "〜と: ~하면. 読まれる: 읽히다.",
+    "tl": "〜と: tuwing ~. 読まれる: basahin.",
+    "ne": "〜と: ~ हुँदा. 読まれる: पढिनु.",
+    "id": "〜と: setiap ~. 読まれる: dibaca.",
+    "pt": "〜と: quando ~. 読まれる: ser lido.",
+    "my": "〜と: ~ တိုင်း. 読まれる: ဖတ်ခံရသည်.",
+    "th": "〜と: เมื่อ ~. 読まれる: ถูกอ่าน."
+   },
+   "vocab": [],
+   "t": [
+    356.93,
+    363.82
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=356.93,363.82"
+  },
+  {
+   "ja": "自分がまずしくても、人にやさしくできる心こそ、いちばんの宝物なのかもしれません。",
+   "furigana": [
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "がまずしくても、",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "にやさしくできる",
+     "reading": ""
+    },
+    {
+     "surface": "心",
+     "reading": "こころ"
+    },
+    {
+     "surface": "こそ、いちばんの",
+     "reading": ""
+    },
+    {
+     "surface": "宝物",
+     "reading": "たからもの"
+    },
+    {
+     "surface": "なのかもしれません。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Jibun ga mazushikute mo, hito ni yasashiku dekiru kokoro koso, ichiban no takaramono na no kamo shiremasen.",
+   "translations": {
+    "vi": "Dù bản thân nghèo vẫn đối tốt với người khác, có lẽ tấm lòng ấy mới là báu vật quý nhất.",
+    "en": "Being kind to others even when you are poor yourself: perhaps that heart is the greatest treasure of all.",
+    "zh-Hans": "即使自己贫穷，也能善待别人，这样的心或许才是最珍贵的宝物。",
+    "zh-Hant": "即使自己貧窮，也能善待別人，這樣的心或許才是最珍貴的寶物。",
+    "ko": "자신이 가난해도 남에게 다정할 수 있는 마음이야말로, 가장 큰 보물일지도 모릅니다.",
+    "tl": "Ang pusong kayang maging mabait sa iba kahit mahirap ka mismo: marahil iyon ang pinakamahalagang kayamanan.",
+    "ne": "आफू गरिब भए पनि अरूप्रति दयालु हुन सक्ने मन नै सायद सबैभन्दा ठूलो खजाना हो।",
+    "id": "Hati yang tetap baik kepada orang lain walau diri sendiri miskin: mungkin itulah harta yang paling berharga.",
+    "pt": "Um coração capaz de ser gentil com os outros mesmo sendo pobre: talvez seja esse o maior tesouro de todos.",
+    "my": "ကိုယ်တိုင် ဆင်းရဲနေပေမယ့် သူတစ်ပါးကို ကြင်နာနိုင်တဲ့ စိတ်နှလုံးက အဖိုးတန်ဆုံး ရတနာ ဖြစ်ကောင်းဖြစ်မယ်။",
+    "th": "ใจที่ยังเมตตาผู้อื่นได้แม้ตัวเองจะยากจน บางทีนั่นแหละคือสมบัติล้ำค่าที่สุด"
+   },
+   "grammarNote": {
+    "vi": "〜こそ: chính ~ mới. 〜かもしれない: có lẽ.",
+    "en": "〜こそ: precisely ~. 〜かもしれない: perhaps.",
+    "zh-Hans": "〜こそ: 正是～才. 〜かもしれない: 或许.",
+    "zh-Hant": "〜こそ: 正是～才. 〜かもしれない: 或許.",
+    "ko": "〜こそ: ~야말로. 〜かもしれない: ~일지도 모른다.",
+    "tl": "〜こそ: iyon mismo ang ~. 〜かもしれない: marahil.",
+    "ne": "〜こそ: ~ नै. 〜かもしれない: सायद.",
+    "id": "〜こそ: justru itulah ~. 〜かもしれない: mungkin.",
+    "pt": "〜こそ: justamente ~. 〜かもしれない: talvez.",
+    "my": "〜こそ: ~ ပဲ. 〜かもしれない: ဖြစ်ကောင်းဖြစ်မယ်.",
+    "th": "〜こそ: นั่นแหละคือ ~. 〜かもしれない: บางที."
+   },
+   "vocab": [],
+   "t": [
+    364.42,
+    370.82
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-kasajizo/chapter.mp3#t=364.42,370.82"
+  }
+ ]
+}

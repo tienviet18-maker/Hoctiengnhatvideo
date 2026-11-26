@@ -1,0 +1,4737 @@
+{
+ "kind": "story",
+ "id": "rakugo-tenshiki",
+ "titles": {
+  "vi": "Tenshiki — Hòa thượng giả vờ biết tuốt",
+  "en": "Tenshiki — The Priest Who Pretended to Know",
+  "zh-Hans": "转失气——不懂装懂的和尚",
+  "zh-Hant": "轉失氣——不懂裝懂的和尚",
+  "ko": "덴시키 — 아는 척한 스님",
+  "tl": "Tenshiki — Ang Paring Nagkunwaring Alam",
+  "ne": "तेन्शिकी — जान्ने बहाना गर्ने पुजारी",
+  "id": "Tenshiki — Biksu yang Sok Tahu",
+  "pt": "Tenshiki — O monge que fingia saber",
+  "my": "တန်ရှိကိ — သိချင်ယောင်ဆောင်တဲ့ ဘုန်းကြီး",
+  "th": "เท็นชิกิ — หลวงพ่อจอมทำเป็นรู้"
+ },
+ "level": "N3",
+ "topic": "rakugo",
+ "source": "original",
+ "cover": "/covers/rakugo-tenshiki.webp",
+ "free": false,
+ "standard": 2,
+ "shelf": "rakugo",
+ "audioTrack": {
+  "src": "/audio/rakugo-tenshiki/chapter.mp3",
+  "durationSec": 311.86
+ },
+ "lesson": {
+  "grammarPoints": [
+   {
+    "pattern": "〜とは言わない",
+    "meaning": {
+     "vi": "Không chịu nói là ~ (dù sự thật là vậy). Câu trích + とは言わない; nhấn mạnh hơn với 決して. Ví dụ: 「知らない」とは決して言わない (tuyệt đối không nói \"không biết\"). 彼は「ごめん」とは言わない (anh ta không chịu nói \"xin lỗi\").",
+     "en": "Won't say ~ (even if it's true). Quote + とは言わない; stronger with 決して. E.g. 「知らない」とは決して言わない (he'd never say \"I don't know\"). 彼は「ごめん」とは言わない (he won't say \"sorry\").",
+     "zh-Hans": "不肯说～（即使事实如此）。引语＋とは言わない；加決して语气更强。例：「知らない」とは決して言わない（绝不说“不知道”）。彼は「ごめん」とは言わない（他不肯说“对不起”）。",
+     "zh-Hant": "不肯說～（即使事實如此）。引語＋とは言わない；加決して語氣更強。例：「知らない」とは決して言わない（絕不說「不知道」）。彼は「ごめん」とは言わない（他不肯說「對不起」）。",
+     "ko": "~라고는 말하지 않는다 (사실이 그래도). 인용 + とは言わない; 決して를 붙이면 더 강함. 예: 「知らない」とは決して言わない (절대 '모른다'고는 하지 않는다). 彼は「ごめん」とは言わない (그는 '미안해'라고는 안 한다).",
+     "tl": "Hindi sasabihing ~ (kahit totoo). Sipi + とは言わない; mas matindi kapag may 決して. Hal. 「知らない」とは決して言わない (hindi kailanman sasabihing \"hindi ko alam\"). 彼は「ごめん」とは言わない (hindi siya nagsasabi ng \"sorry\").",
+     "ne": "~ भनेर भन्दैन (सत्य भए पनि)। उद्धरण + とは言わない; 決して ले जोड बढ्छ। उदाहरण: 「知らない」とは決して言わない (\"थाहा छैन\" कहिल्यै भन्दैन)। 彼は「ごめん」とは言わない (ऊ \"माफ गर\" भन्दैन)।",
+     "id": "Tidak mau bilang ~ (walau benar). Kutipan + とは言わない; lebih kuat dengan 決して. Contoh: 「知らない」とは決して言わない (tak pernah bilang \"tidak tahu\"). 彼は「ごめん」とは言わない (dia tak mau bilang \"maaf\").",
+     "pt": "Não dizer ~ (mesmo sendo verdade). Citação + とは言わない; mais forte com 決して. Ex.: 「知らない」とは決して言わない (jamais diz \"não sei\"). 彼は「ごめん」とは言わない (ele não diz \"desculpa\").",
+     "my": "~ လို့ မပြောဘူး (အမှန်ဖြစ်ရင်တောင်)။ ကိုးကား + とは言わない၊ 決して ထည့်ရင် ပိုပြင်း။ ဥပမာ: 「知らない」とは決して言わない (\"မသိဘူး\" လို့ ဘယ်တော့မှ မပြော)။ 彼は「ごめん」とは言わない (သူ \"ဆောရီး\" လို့ မပြောဘူး)။",
+     "th": "ไม่ยอมพูดว่า ~ (แม้จะเป็นความจริง) คำพูดที่ยกมา + とは言わない ใส่ 決して จะหนักแน่นขึ้น ตัวอย่าง: 「知らない」とは決して言わない (ไม่เคยพูดว่า \"ไม่รู้\" เด็ดขาด) 彼は「ごめん」とは言わない (เขาไม่ยอมพูดว่า \"ขอโทษ\")"
+    },
+    "example": 1
+   },
+   {
+    "pattern": "〜くせに",
+    "meaning": {
+     "vi": "Dù ~ mà lại (trách móc, chê bai). Thể thường + くせに (danh từ + のくせに). Ví dụ: 知らないくせに、知っているふりをした (không biết mà lại giả vờ biết). 子どものくせに生意気だ (trẻ con mà hỗn).",
+     "en": "Even though ~ (with criticism). Plain form + くせに (noun + のくせに). E.g. 知らないくせに、知っているふりをした (he didn't know, yet pretended to). 子どものくせに生意気だ (cheeky, for a kid).",
+     "zh-Hans": "明明～却（带责备）。简体＋くせに（名词＋のくせに）。例：知らないくせに、知っているふりをした（明明不知道却装作知道）。子どものくせに生意気だ（小孩子家还这么狂）。",
+     "zh-Hant": "明明～卻（帶責備）。簡體＋くせに（名詞＋のくせに）。例：知らないくせに、知っているふりをした（明明不知道卻裝作知道）。子どものくせに生意気だ（小孩子家還這麼狂）。",
+     "ko": "~하면서, ~주제에 (비난). 보통형 + くせに (명사 + のくせに). 예: 知らないくせに、知っているふりをした (모르면서 아는 척했다). 子どものくせに生意気だ (어린애 주제에 건방지다).",
+     "tl": "Kahit ~ (may pamumuna). Plain form + くせに (pangngalan + のくせに). Hal. 知らないくせに、知っているふりをした (hindi alam pero nagkunwaring alam). 子どものくせに生意気だ (bata pa lang pero bastos na).",
+     "ne": "~ तापनि (आलोचना सहित)। सामान्य रूप + くせに (नाम + のくせに)। उदाहरण: 知らないくせに、知っているふりをした (थाहा नभए तापनि थाहा भएको बहाना गर्‍यो)। 子どものくせに生意気だ (केटाकेटी भए तापनि ढिट)।",
+     "id": "Padahal ~ (bernada mencela). Bentuk biasa + くせに (nomina + のくせに). Contoh: 知らないくせに、知っているふりをした (padahal tak tahu, malah pura-pura tahu). 子どものくせに生意気だ (masih anak-anak tapi kurang ajar).",
+     "pt": "Mesmo ~ (com crítica). Forma simples + くせに (substantivo + のくせに). Ex.: 知らないくせに、知っているふりをした (sem saber, fingiu que sabia). 子どものくせに生意気だ (atrevido, sendo só uma criança).",
+     "my": "~ ရဲ့သားနဲ့ (အပြစ်တင်)။ ရိုးရိုးပုံစံ + くせに (နာမ် + のくせに)။ ဥပမာ: 知らないくせに、知っているふりをした (မသိရဲ့သားနဲ့ သိချင်ယောင်ဆောင်တယ်)။ 子どものくせに生意気だ (ကလေးရဲ့သားနဲ့ ရိုင်းတယ်)။",
+     "th": "ทั้งที่ ~ (ตำหนิ) รูปธรรมดา + くせに (คำนาม + のくせに) ตัวอย่าง: 知らないくせに、知っているふりをした (ทั้งที่ไม่รู้ก็ทำเป็นรู้) 子どものくせに生意気だ (เป็นเด็กแท้ ๆ แต่อวดดี)"
+    },
+    "example": 31
+   },
+   {
+    "pattern": "〜こそ",
+    "meaning": {
+     "vi": "Chính ~ mới (nhấn mạnh, đảo vai). Danh từ + こそ. Ví dụ: お前こそ、分かったのか (chính con mới phải nói, con hiểu chưa). こちらこそ、よろしく (chính tôi mới phải nhờ anh).",
+     "en": "You/it, for your part (emphasis, turning it around). Noun + こそ. E.g. お前こそ、分かったのか (and what about you — did you find out?). こちらこそ、よろしく (the pleasure is mine).",
+     "zh-Hans": "正是～，倒是～（强调、反过来）。名词＋こそ。例：お前こそ、分かったのか（倒是你，弄明白了吗）。こちらこそ、よろしく（我才要请您多关照）。",
+     "zh-Hant": "正是～，倒是～（強調、反過來）。名詞＋こそ。例：お前こそ、分かったのか（倒是你，弄明白了嗎）。こちらこそ、よろしく（我才要請您多關照）。",
+     "ko": "~야말로 (강조, 되받기). 명사 + こそ. 예: お前こそ、分かったのか (너야말로 알아냈느냐). こちらこそ、よろしく (저야말로 잘 부탁드립니다).",
+     "tl": "Ikaw naman / ito mismo (pagdiin, pagbaligtad). Pangngalan + こそ. Hal. お前こそ、分かったのか (ikaw naman, nalaman mo ba?). こちらこそ、よろしく (ako rin, ikinagagalak ko).",
+     "ne": "~ नै त, बरु ~ (जोड, उल्टाएर भन्ने)। नाम + こそ। उदाहरण: お前こそ、分かったのか (बरु तँलाई थाहा भयो?)। こちらこそ、よろしく (म पनि त्यसै भन्छु)।",
+     "id": "Justru ~ (penekanan, membalik). Nomina + こそ. Contoh: お前こそ、分かったのか (justru kau, sudah tahu belum?). こちらこそ、よろしく (saya juga, senang berkenalan).",
+     "pt": "E você? / é que ~ (ênfase, devolvendo). Substantivo + こそ. Ex.: お前こそ、分かったのか (e você, descobriu?). こちらこそ、よろしく (o prazer é meu).",
+     "my": "~ ကရော၊ ~ ကမှ (အလေးပေး၊ ပြန်လှည့်)။ နာမ် + こそ။ ဥပမာ: お前こそ、分かったのか (မင်းကရော သိခဲ့ပြီလား)။ こちらこそ、よろしく (ကျွန်တော်ကမှ ကျေးဇူးပြုပါ)။",
+     "th": "~ ต่างหาก (เน้น, ย้อนกลับ) คำนาม + こそ ตัวอย่าง: お前こそ、分かったのか (เจ้าต่างหาก รู้แล้วรึยัง) こちらこそ、よろしく (ผมต่างหากที่ต้องฝากตัว)"
+    },
+    "example": 37
+   },
+   {
+    "pattern": "あまり〜ので",
+    "meaning": {
+     "vi": "Vì quá ~ nên (kết quả). あまり + tính từ/động từ + ので (hoặc から). Ví dụ: あまり古いので、もう音もにおいもしません (cũ quá nên chẳng còn tiếng, chẳng còn mùi). あまり暑いので、窓を開けた (nóng quá nên mở cửa sổ).",
+     "en": "It's so ~ that (result). あまり + adjective/verb + ので (or から). E.g. あまり古いので、もう音もにおいもしません (it's so old it no longer makes a sound or smell). あまり暑いので、窓を開けた (it was so hot that I opened the window).",
+     "zh-Hans": "因为太～所以（结果）。あまり＋形容词／动词＋ので（或から）。例：あまり古いので、もう音もにおいもしません（因为太老了，既没声音也没味道了）。あまり暑いので、窓を開けた（太热了，就开了窗）。",
+     "zh-Hant": "因為太～所以（結果）。あまり＋形容詞／動詞＋ので（或から）。例：あまり古いので、もう音もにおいもしません（因為太老了，既沒聲音也沒味道了）。あまり暑いので、窓を開けた（太熱了，就開了窗）。",
+     "ko": "너무 ~해서 (결과). あまり + 형용사/동사 + ので(또는 から). 예: あまり古いので、もう音もにおいもしません (너무 오래돼서 소리도 냄새도 안 납니다). あまり暑いので、窓を開けた (너무 더워서 창문을 열었다).",
+     "tl": "Sa sobrang ~ kaya (resulta). あまり + pang-uri/pandiwa + ので (o から). Hal. あまり古いので、もう音もにおいもしません (sa sobrang luma, wala nang tunog ni amoy). あまり暑いので、窓を開けた (sa sobrang init, binuksan ko ang bintana).",
+     "ne": "धेरै ~ भएकाले (परिणाम)। あまり + विशेषण/क्रिया + ので (वा から)। उदाहरण: あまり古いので、もう音もにおいもしません (धेरै पुरानो भएकाले अब न आवाज न गन्ध)। あまり暑いので、窓を開けた (धेरै गर्मी भएकाले झ्याल खोलेँ)।",
+     "id": "Saking ~ sehingga (akibat). あまり + adjektiva/verba + ので (atau から). Contoh: あまり古いので、もう音もにおいもしません (saking tuanya, tak bersuara dan tak berbau lagi). あまり暑いので、窓を開けた (saking panasnya, aku membuka jendela).",
+     "pt": "Tão ~ que (resultado). あまり + adjetivo/verbo + ので (ou から). Ex.: あまり古いので、もう音もにおいもしません (é tão antigo que não faz barulho nem tem cheiro). あまり暑いので、窓を開けた (estava tão quente que abri a janela).",
+     "my": "အရမ်း ~ လို့ (ရလဒ်)။ あまり + နာမဝိသေသန/ကြိယာ + ので (သို့ から)။ ဥပမာ: あまり古いので、もう音もにおいもしません (အရမ်းဟောင်းလို့ အသံလည်း မထွက် အနံ့လည်း မရှိ)။ あまり暑いので、窓を開けた (အရမ်းပူလို့ ပြတင်းပေါက် ဖွင့်လိုက်တယ်)။",
+     "th": "~ มากจน (ผลลัพธ์) あまり + คุณศัพท์/กริยา + ので (หรือ から) ตัวอย่าง: あまり古いので、もう音もにおいもしません (เก่ามากจนไม่มีเสียงไม่มีกลิ่นแล้ว) あまり暑いので、窓を開けた (ร้อนมากจนต้องเปิดหน้าต่าง)"
+    },
+    "example": 57
+   }
+  ],
+  "quiz": [
+   {
+    "ja": "和尚さんは、どうして「転失気はない」と答えましたか。",
+    "choices": [
+     "本当になかったから",
+     "知らないと言うのがはずかしかったから",
+     "医者がきらいだったから"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Vì ông thấy nói \"không biết\" thì xấu hổ (câu 7–8).",
+     "en": "Because he felt it was embarrassing to say he didn't know (sentences 7–8).",
+     "zh-Hans": "因为他觉得说不知道很丢脸（第7–8句）。",
+     "zh-Hant": "因為他覺得說不知道很丟臉（第7–8句）。",
+     "ko": "모른다고 하는 게 창피했기 때문에 (7–8문).",
+     "tl": "Dahil nahiya siyang sabihing hindi niya alam (pangungusap 7–8).",
+     "ne": "थाहा छैन भन्न लाज लागेकाले (वाक्य ७–८)।",
+     "id": "Karena malu bilang tidak tahu (kalimat 7–8).",
+     "pt": "Porque teve vergonha de dizer que não sabia (frases 7–8).",
+     "my": "မသိဘူးလို့ ပြောရမှာ ရှက်လို့ (စာကြောင်း ၇–၈)။",
+     "th": "เพราะอายที่จะบอกว่าไม่รู้ (ประโยค 7–8)"
+    }
+   },
+   {
+    "ja": "本当の「転失気」の意味は何ですか。",
+    "choices": [
+     "盃",
+     "みそ汁",
+     "おなら"
+    ],
+    "answer": 2,
+    "explain": {
+     "vi": "Đánh rắm (câu 29).",
+     "en": "A fart (sentence 29).",
+     "zh-Hans": "放屁（第29句）。",
+     "zh-Hant": "放屁（第29句）。",
+     "ko": "방귀 (29문).",
+     "tl": "Utot (pangungusap 29).",
+     "ne": "पाद (वाक्य २९)।",
+     "id": "Kentut (kalimat 29).",
+     "pt": "Pum (frase 29).",
+     "my": "လေလည်ခြင်း (စာကြောင်း ၂၉)။",
+     "th": "ตด (ประโยค 29)"
+    }
+   },
+   {
+    "ja": "珍念は、和尚さんに「転失気」は何だと教えましたか。",
+    "choices": [
+     "お酒を飲む盃",
+     "古い本",
+     "薬の名前"
+    ],
+    "answer": 0,
+    "explain": {
+     "vi": "Chén uống rượu sake (câu 39).",
+     "en": "A cup for drinking sake (sentence 39).",
+     "zh-Hans": "喝酒用的酒杯（第39句）。",
+     "zh-Hant": "喝酒用的酒杯（第39句）。",
+     "ko": "술 마시는 잔 (39문).",
+     "tl": "Tasa na iniinuman ng sake (pangungusap 39).",
+     "ne": "साके पिउने कचौरा (वाक्य ३९)।",
+     "id": "Cawan untuk minum sake (kalimat 39).",
+     "pt": "Um copinho para beber saquê (frase 39).",
+     "my": "ဆာကေး သောက်တဲ့ ခွက် (စာကြောင်း ၃၉)။",
+     "th": "จอกดื่มสาเก (ประโยค 39)"
+    }
+   },
+   {
+    "ja": "この話が教えてくれることは何ですか。",
+    "choices": [
+     "知らないことは、知らないと言うほうがいい",
+     "おならは、がまんしたほうがいい",
+     "古い物は、大切にしたほうがいい"
+    ],
+    "answer": 0,
+    "explain": {
+     "vi": "Không biết thì nên nói là không biết (câu 59–60).",
+     "en": "It's better to say you don't know when you don't (sentences 59–60).",
+     "zh-Hans": "不知道就应该说不知道（第59–60句）。",
+     "zh-Hant": "不知道就應該說不知道（第59–60句）。",
+     "ko": "모르는 건 모른다고 말하는 게 좋다 (59–60문).",
+     "tl": "Mas mabuting sabihing hindi mo alam kapag hindi mo alam (pangungusap 59–60).",
+     "ne": "थाहा नभएको कुरा थाहा छैन भन्नु राम्रो (वाक्य ५९–६०)।",
+     "id": "Lebih baik bilang tidak tahu kalau memang tidak tahu (kalimat 59–60).",
+     "pt": "É melhor dizer que não sabe quando não sabe (frases 59–60).",
+     "my": "မသိတာကို မသိဘူးလို့ ပြောတာ ကောင်းတယ် (စာကြောင်း ၅၉–၆၀)။",
+     "th": "ไม่รู้ก็ควรบอกว่าไม่รู้ (ประโยค 59–60)"
+    }
+   }
+  ]
+ },
+ "sentences": [
+  {
+   "ja": "昔、ある山の上の小さなお寺に、自分のことを、たいへんな物知りだと思っている和尚さんがいました。",
+   "furigana": [
+    {
+     "surface": "昔",
+     "reading": "むかし"
+    },
+    {
+     "surface": "、ある",
+     "reading": ""
+    },
+    {
+     "surface": "山",
+     "reading": "やま"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "上",
+     "reading": "うえ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "小",
+     "reading": "ちい"
+    },
+    {
+     "surface": "さなお",
+     "reading": ""
+    },
+    {
+     "surface": "寺",
+     "reading": "てら"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "のことを、たいへんな",
+     "reading": ""
+    },
+    {
+     "surface": "物知",
+     "reading": "ものし"
+    },
+    {
+     "surface": "りだと",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "っている",
+     "reading": ""
+    },
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さんがいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mukashi, aru Yamanoue no chiisana otera ni, jibun no koto o, taihen na monoshiri da to omotte iru oshousan ga imashita.",
+   "translations": {
+    "vi": "Ngày xưa, ở một ngôi chùa nhỏ trên núi, có một vị hòa thượng tự cho mình là người hiểu biết rất rộng.",
+    "en": "Long ago, at a small temple on top of a mountain, there was a head priest who thought he knew a great deal.",
+    "zh-Hans": "从前，在山顶一座小寺庙里，有一位自认为非常博学的住持。",
+    "zh-Hant": "從前，在山頂一座小寺廟裡，有一位自認為非常博學的住持。",
+    "ko": "옛날, 어느 산 위의 작은 절에 자기가 대단한 박식가라고 여기는 주지 스님이 있었습니다.",
+    "tl": "Noong unang panahon, sa isang maliit na templo sa tuktok ng bundok, may isang punong pari na akala niya ay napakarami niyang alam.",
+    "ne": "उहिले, एउटा पहाडको टुप्पोको सानो मन्दिरमा, आफूलाई निकै ज्ञानी ठान्ने एक मुख्य पुजारी थिए।",
+    "id": "Dahulu kala, di sebuah kuil kecil di puncak gunung, ada seorang kepala biksu yang merasa dirinya sangat berpengetahuan.",
+    "pt": "Há muito tempo, num pequeno templo no alto de uma montanha, havia um monge superior que se achava muito sábio.",
+    "my": "ရှေးတုန်းက တောင်ထိပ်ပေါ်က ဘုန်းကြီးကျောင်းလေးတစ်ကျောင်းမှာ ကိုယ့်ကိုယ်ကို အရမ်း အသိပညာကြွယ်တယ်လို့ ထင်နေတဲ့ ဆရာတော် တစ်ပါး ရှိတယ်။",
+    "th": "นานมาแล้ว ที่วัดเล็ก ๆ บนยอดเขา มีหลวงพ่อเจ้าอาวาสรูปหนึ่งที่คิดว่าตัวเองรอบรู้มาก"
+   },
+   "grammarNote": {
+    "vi": "物知り: người hiểu biết rộng. 〜と思っている: tự cho là ~. 和尚: hòa thượng.",
+    "en": "物知り: knowledgeable person. 〜と思っている: think of oneself as ~. 和尚: head priest.",
+    "zh-Hans": "物知り: 博学的人。〜と思っている: 自认为~。和尚: 住持，和尚。",
+    "zh-Hant": "物知り: 博學的人。〜と思っている: 自認為~。和尚: 住持，和尚。",
+    "ko": "物知り: 박식한 사람. 〜と思っている: ~라고 여기다. 和尚: 주지 스님.",
+    "tl": "物知り: maalam. 〜と思っている: akala ~. 和尚: punong pari.",
+    "ne": "物知り: ज्ञानी। 〜と思っている: ठान्नु। 和尚: मुख्य पुजारी।",
+    "id": "物知り: orang berpengetahuan. 〜と思っている: merasa ~. 和尚: kepala biksu.",
+    "pt": "物知り: sabichão. 〜と思っている: achar-se ~. 和尚: monge superior.",
+    "my": "物知り: အသိပညာကြွယ်သူ။ 〜と思っている: ~ လို့ ထင်နေ။ 和尚: ဆရာတော်။",
+    "th": "物知り: ผู้รอบรู้. 〜と思っている: คิดว่า~. 和尚: หลวงพ่อเจ้าอาวาส."
+   },
+   "vocab": [],
+   "t": [
+    0.3,
+    9.34
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=0.3,9.34"
+  },
+  {
+   "ja": "知らないことがあっても、「知らない」とは決して言わない人でした。",
+   "furigana": [
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "らないことがあっても、「",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "らない」とは",
+     "reading": ""
+    },
+    {
+     "surface": "決",
+     "reading": "けっ"
+    },
+    {
+     "surface": "して",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "わない",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "でした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shiranai koto ga atte mo, \"shiranai\" to wa kesshite iwanai hito deshita.",
+   "translations": {
+    "vi": "Dù có chuyện không biết, ông cũng tuyệt đối không bao giờ nói \"không biết\".",
+    "en": "Even when there was something he didn't know, he would never say \"I don't know.\"",
+    "zh-Hans": "即使有不知道的事，他也绝不说“不知道”。",
+    "zh-Hant": "即使有不知道的事，他也絕不說“不知道”。",
+    "ko": "모르는 게 있어도 '모른다'는 말은 절대 하지 않는 사람이었습니다.",
+    "tl": "Kahit may hindi siya alam, hindi niya kailanman sinasabing \"hindi ko alam\".",
+    "ne": "थाहा नभएको कुरा भए पनि उनी \"थाहा छैन\" कहिल्यै भन्दैनथे।",
+    "id": "Meski ada yang tidak ia ketahui, ia tidak pernah sekali pun berkata \"tidak tahu\".",
+    "pt": "Mesmo quando não sabia algo, jamais dizia \"não sei\".",
+    "my": "မသိတာ ရှိရင်တောင် \"မသိဘူး\" လို့ ဘယ်တော့မှ မပြောတဲ့သူ ဖြစ်တယ်။",
+    "th": "ต่อให้มีเรื่องที่ไม่รู้ ท่านก็ไม่เคยพูดว่า \"ไม่รู้\" เด็ดขาด"
+   },
+   "grammarNote": {
+    "vi": "〜ても: dù ~. 決して〜ない: tuyệt đối không ~.",
+    "en": "〜ても: even if. 決して〜ない: never.",
+    "zh-Hans": "〜ても: 即使~。決して〜ない: 绝不~。",
+    "zh-Hant": "〜ても: 即使~。決して〜ない: 絕不~。",
+    "ko": "〜ても: ~해도. 決して〜ない: 절대 ~않다.",
+    "tl": "〜ても: kahit ~. 決して〜ない: hindi kailanman.",
+    "ne": "〜ても: भए पनि। 決して〜ない: कहिल्यै ~ नगर्नु।",
+    "id": "〜ても: meskipun ~. 決して〜ない: tidak pernah sekali pun.",
+    "pt": "〜ても: mesmo que. 決して〜ない: jamais.",
+    "my": "〜ても: ~ ရင်တောင်။ 決して〜ない: ဘယ်တော့မှ မ~။",
+    "th": "〜ても: ต่อให้~. 決して〜ない: ไม่~เด็ดขาด."
+   },
+   "vocab": [],
+   "t": [
+    9.94,
+    14.74
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=9.94,14.74"
+  },
+  {
+   "ja": "ある日、和尚さんは、おなかの調子が悪くなって、お医者さんに来てもらいました。",
+   "furigana": [
+    {
+     "surface": "ある",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さんは、おなかの",
+     "reading": ""
+    },
+    {
+     "surface": "調子",
+     "reading": "ちょうし"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "悪",
+     "reading": "わる"
+    },
+    {
+     "surface": "くなって、お",
+     "reading": ""
+    },
+    {
+     "surface": "医者",
+     "reading": "いしゃ"
+    },
+    {
+     "surface": "さんに",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "き"
+    },
+    {
+     "surface": "てもらいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Aru hi, oshousan wa, onaka no choushi ga waruku natte, oishasan ni kite moraimashita.",
+   "translations": {
+    "vi": "Một hôm, hòa thượng bị đau bụng nên mời thầy thuốc đến.",
+    "en": "One day, the priest's stomach was upset, so he had the doctor come.",
+    "zh-Hans": "有一天，住持肚子不舒服，请医生来看病。",
+    "zh-Hant": "有一天，住持肚子不舒服，請醫生來看病。",
+    "ko": "어느 날, 스님은 배탈이 나서 의원을 불렀습니다.",
+    "tl": "Isang araw, sumama ang tiyan ng pari kaya ipinatawag niya ang doktor.",
+    "ne": "एक दिन, पुजारीको पेट गडबड भयो र उनले वैद्य बोलाए।",
+    "id": "Suatu hari, perut sang biksu terasa tidak enak, jadi ia memanggil tabib.",
+    "pt": "Um dia, o monge ficou com dor de barriga e chamou o médico.",
+    "my": "တစ်နေ့ ဆရာတော် ဗိုက်နာလာလို့ ဆေးဆရာကို ပင့်ခဲ့တယ်။",
+    "th": "วันหนึ่ง หลวงพ่อปวดท้อง จึงให้หมอมาตรวจ"
+   },
+   "grammarNote": {
+    "vi": "調子が悪い: không khỏe. 〜てもらう: được (ai) ~ cho.",
+    "en": "調子が悪い: feel unwell. 〜てもらう: have someone ~.",
+    "zh-Hans": "調子が悪い: 不舒服。〜てもらう: 请人~。",
+    "zh-Hant": "調子が悪い: 不舒服。〜てもらう: 請人~。",
+    "ko": "調子が悪い: 상태가 안 좋다. 〜てもらう: ~해 받다.",
+    "tl": "調子が悪い: masama ang pakiramdam. 〜てもらう: magpa-~.",
+    "ne": "調子が悪い: ठिक नहुनु। 〜てもらう: ~ गराउनु।",
+    "id": "調子が悪い: tidak enak badan. 〜てもらう: minta di~.",
+    "pt": "調子が悪い: não estar bem. 〜てもらう: pedir que alguém ~.",
+    "my": "調子が悪い: နေမကောင်း။ 〜てもらう: ~ ခိုင်း၊ ပင့်။",
+    "th": "調子が悪い: ไม่สบาย. 〜てもらう: ให้(ใคร)~ให้."
+   },
+   "vocab": [
+    {
+     "word": "調子",
+     "reading": "ちょうし",
+     "level": "N3",
+     "meanings": {
+      "vi": "tình trạng, phong độ",
+      "en": "condition, shape",
+      "zh-Hans": "状态",
+      "zh-Hant": "狀態",
+      "ko": "상태, 컨디션",
+      "tl": "kondisyon",
+      "ne": "अवस्था",
+      "id": "kondisi",
+      "pt": "estado, forma",
+      "my": "အခြေအနေ",
+      "th": "สภาพ, อาการ"
+     }
+    }
+   ],
+   "t": [
+    15.34,
+    21.88
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=15.34,21.88"
+  },
+  {
+   "ja": "和尚さん、ところで、転失気は、ありますかな。",
+   "furigana": [
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さん、ところで、",
+     "reading": ""
+    },
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "は、ありますかな。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oshousan, tokorode, Tenshiki wa, arimasu ka na.",
+   "translations": {
+    "vi": "Hòa thượng này, tiện thể cho hỏi, ngài có \"tenshiki\" không?",
+    "en": "Priest, by the way, do you have any \"tenshiki\"?",
+    "zh-Hans": "住持，顺便问一下，您有“转失气”吗？",
+    "zh-Hant": "住持，順便問一下，您有“轉失氣”嗎？",
+    "ko": "스님, 그런데 '덴시키'는 있으신가요?",
+    "tl": "Padre, siyanga pala, mayroon ba kayong \"tenshiki\"?",
+    "ne": "पुजारी ज्यू, अनि, \"तेन्शिकी\" छ कि?",
+    "id": "Biksu, omong-omong, apakah Anda punya \"tenshiki\"?",
+    "pt": "Monge, a propósito, o senhor tem \"tenshiki\"?",
+    "my": "ဆရာတော်၊ ဒါနဲ့ \"တန်ရှိကိ\" ရှိပါသလား။",
+    "th": "หลวงพ่อ ว่าแต่ มี \"เท็นชิกิ\" ไหมครับ"
+   },
+   "grammarNote": {
+    "vi": "ところで: tiện thể. 〜かな: ~ nhỉ (người lớn tuổi).",
+    "en": "ところで: by the way. 〜かな: (old-fashioned question).",
+    "zh-Hans": "ところで: 顺便问一下。〜かな: ~吧（老派口吻）。",
+    "zh-Hant": "ところで: 順便問一下。〜かな: ~吧（老派口吻）。",
+    "ko": "ところで: 그런데. 〜かな: ~인가(예스러운 말투).",
+    "tl": "ところで: siyanga pala. 〜かな: (lumang paraan ng tanong).",
+    "ne": "ところで: अनि। 〜かな: ~ कि (पुरानो शैली)।",
+    "id": "ところで: omong-omong. 〜かな: (gaya tanya kuno).",
+    "pt": "ところで: a propósito. 〜かな: (pergunta antiquada).",
+    "my": "ところで: ဒါနဲ့။ 〜かな: ~ သလား (ရှေးဟန်)။",
+    "th": "ところで: ว่าแต่. 〜かな: ~ไหม (สำนวนเก่า)."
+   },
+   "vocab": [],
+   "t": [
+    22.78,
+    26.69
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=22.78,26.69"
+  },
+  {
+   "ja": "て、てんしき、ですか。",
+   "furigana": [
+    {
+     "surface": "て、てんしき、ですか。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Te, ten shiki, desu ka.",
+   "translations": {
+    "vi": "T-tenshiki ư?",
+    "en": "T-tenshiki?",
+    "zh-Hans": "转、转失气吗？",
+    "zh-Hant": "轉、轉失氣嗎？",
+    "ko": "더, 덴시키 말입니까?",
+    "tl": "T-tenshiki po?",
+    "ne": "ते… तेन्शिकी?",
+    "id": "T-tenshiki?",
+    "pt": "T-tenshiki?",
+    "my": "တ… တန်ရှိကိ ဟုတ်လား။",
+    "th": "เท… เท็นชิกิ หรือ"
+   },
+   "grammarNote": {
+    "vi": "(lúng túng)",
+    "en": "(flustered)",
+    "zh-Hans": "（慌张）",
+    "zh-Hant": "（慌張）",
+    "ko": "(당황)",
+    "tl": "(nataranta)",
+    "ne": "(अलमल)",
+    "id": "(gugup)",
+    "pt": "(atrapalhado)",
+    "my": "(ကြောင်သွား)",
+    "th": "(ลนลาน)"
+   },
+   "vocab": [],
+   "t": [
+    27.59,
+    29.98
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=27.59,29.98"
+  },
+  {
+   "ja": "和尚さんは、そんな言葉を聞いたことがありませんでした。",
+   "furigana": [
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さんは、そんな",
+     "reading": ""
+    },
+    {
+     "surface": "言葉",
+     "reading": "ことば"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "いたことがありませんでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oshousan wa, sonna kotoba o kiita koto ga arimasendeshita.",
+   "translations": {
+    "vi": "Hòa thượng chưa từng nghe thấy từ đó bao giờ.",
+    "en": "The priest had never heard that word before.",
+    "zh-Hans": "住持从来没听过这个词。",
+    "zh-Hant": "住持從來沒聽過這個詞。",
+    "ko": "스님은 그런 말을 들어 본 적이 없었습니다.",
+    "tl": "Hindi pa kailanman narinig ng pari ang salitang iyon.",
+    "ne": "पुजारीले त्यो शब्द कहिल्यै सुनेका थिएनन्।",
+    "id": "Sang biksu belum pernah mendengar kata itu.",
+    "pt": "O monge nunca tinha ouvido aquela palavra.",
+    "my": "ဆရာတော်က အဲဒီ စကားလုံးကို တစ်ခါမှ မကြားဖူးဘူး။",
+    "th": "หลวงพ่อไม่เคยได้ยินคำนี้มาก่อนเลย"
+   },
+   "grammarNote": {
+    "vi": "〜たことがない: chưa từng ~.",
+    "en": "〜たことがない: have never ~.",
+    "zh-Hans": "〜たことがない: 从没~过。",
+    "zh-Hant": "〜たことがない: 從沒~過。",
+    "ko": "〜たことがない: ~한 적이 없다.",
+    "tl": "〜たことがない: hindi pa kailanman ~.",
+    "ne": "〜たことがない: कहिल्यै ~ नभएको।",
+    "id": "〜たことがない: belum pernah ~.",
+    "pt": "〜たことがない: nunca ter ~.",
+    "my": "〜たことがない: တစ်ခါမှ မ~ ဖူး။",
+    "th": "〜たことがない: ไม่เคย~."
+   },
+   "vocab": [],
+   "t": [
+    30.88,
+    34.87
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=30.88,34.87"
+  },
+  {
+   "ja": "けれども、知らないと言うのは、はずかしいと思いました。",
+   "furigana": [
+    {
+     "surface": "けれども、",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "らないと",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "うのは、はずかしいと",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "いました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Keredomo, shiranai to iu no wa, hazukashii to omoimashita.",
+   "translations": {
+    "vi": "Nhưng ông nghĩ nói là không biết thì xấu hổ lắm.",
+    "en": "But he thought it would be embarrassing to say he didn't know.",
+    "zh-Hans": "可是他觉得说不知道很丢脸。",
+    "zh-Hant": "可是他覺得說不知道很丟臉。",
+    "ko": "하지만 모른다고 하는 건 창피하다고 생각했습니다.",
+    "tl": "Pero naisip niyang nakakahiyang sabihing hindi niya alam.",
+    "ne": "तर थाहा छैन भन्नु लाजको कुरा हो भन्ने उनलाई लाग्यो।",
+    "id": "Tapi ia merasa malu kalau bilang tidak tahu.",
+    "pt": "Mas achou que seria vergonhoso dizer que não sabia.",
+    "my": "ဒါပေမဲ့ မသိဘူးလို့ ပြောရင် ရှက်စရာ ဖြစ်မယ်လို့ ထင်တယ်။",
+    "th": "แต่ท่านคิดว่าถ้าบอกว่าไม่รู้ก็น่าอาย"
+   },
+   "grammarNote": {
+    "vi": "はずかしい: xấu hổ.",
+    "en": "はずかしい: embarrassing.",
+    "zh-Hans": "はずかしい: 丢脸。",
+    "zh-Hant": "はずかしい: 丟臉。",
+    "ko": "はずかしい: 창피하다.",
+    "tl": "はずかしい: nakakahiya.",
+    "ne": "はずかしい: लाज लाग्दो।",
+    "id": "はずかしい: malu.",
+    "pt": "はずかしい: vergonhoso.",
+    "my": "はずかしい: ရှက်စရာ။",
+    "th": "はずかしい: น่าอาย."
+   },
+   "vocab": [],
+   "t": [
+    35.47,
+    39.72
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=35.47,39.72"
+  },
+  {
+   "ja": "ええ、ええ、転失気ですね。それが、今は、ないのです。",
+   "furigana": [
+    {
+     "surface": "ええ、ええ、",
+     "reading": ""
+    },
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "ですね。それが、",
+     "reading": ""
+    },
+    {
+     "surface": "今",
+     "reading": "いま"
+    },
+    {
+     "surface": "は、ないのです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ee, ee, Tenshiki desu ne. Sore ga, ima wa, nai no desu.",
+   "translations": {
+    "vi": "À vâng, vâng, tenshiki chứ gì. Cái đó thì hiện giờ không có.",
+    "en": "Yes, yes, tenshiki. As it happens, we have none at the moment.",
+    "zh-Hans": "啊，是是，转失气嘛。那个呀，现在没有。",
+    "zh-Hant": "啊，是是，轉失氣嘛。那個呀，現在沒有。",
+    "ko": "아, 네네, 덴시키 말이죠. 그게 지금은 없습니다.",
+    "tl": "Ah, oo, oo, tenshiki. Iyon nga, wala kami ngayon.",
+    "ne": "अँ, हो हो, तेन्शिकी। त्यो त अहिले छैन।",
+    "id": "Oh, ya, ya, tenshiki. Itu, sekarang sedang tidak ada.",
+    "pt": "Ah, sim, sim, tenshiki. Pois é, no momento não temos.",
+    "my": "အော်၊ ဟုတ်ကဲ့ ဟုတ်ကဲ့၊ တန်ရှိကိပေါ့။ အဲဒါ အခု မရှိဘူး။",
+    "th": "อ้อ ใช่ ๆ เท็นชิกิ ตอนนี้ไม่มีน่ะ"
+   },
+   "grammarNote": {
+    "vi": "〜のです: (giải thích).",
+    "en": "〜のです: (explaining).",
+    "zh-Hans": "〜のです: （说明语气）。",
+    "zh-Hant": "〜のです: （說明語氣）。",
+    "ko": "〜のです: (설명).",
+    "tl": "〜のです: (pagpapaliwanag).",
+    "ne": "〜のです: (व्याख्या)।",
+    "id": "〜のです: (menjelaskan).",
+    "pt": "〜のです: (explicação).",
+    "my": "〜のです: (ရှင်းပြ)။",
+    "th": "〜のです: (อธิบาย)."
+   },
+   "vocab": [],
+   "t": [
+    40.62,
+    45.82
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=40.62,45.82"
+  },
+  {
+   "ja": "ほう、ないですか。では、薬を出しておきましょう。",
+   "furigana": [
+    {
+     "surface": "ほう、ないですか。では、",
+     "reading": ""
+    },
+    {
+     "surface": "薬",
+     "reading": "くすり"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "だ"
+    },
+    {
+     "surface": "しておきましょう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hou, naidesu ka. Dewa, kusuri o dashite okimashou.",
+   "translations": {
+    "vi": "Ồ, không có à. Vậy tôi kê thuốc nhé.",
+    "en": "Oh, none? Then I'll prescribe some medicine.",
+    "zh-Hans": "哦，没有啊。那我先开点药吧。",
+    "zh-Hant": "哦，沒有啊。那我先開點藥吧。",
+    "ko": "호오, 없으십니까. 그럼 약을 지어 두겠습니다.",
+    "tl": "O, wala ba? Kung gayon, magrereseta ako ng gamot.",
+    "ne": "ए, छैन? उसो भए म औषधि दिन्छु।",
+    "id": "Oh, tidak ada? Kalau begitu, saya berikan obat saja.",
+    "pt": "Ah, não tem? Então vou receitar um remédio.",
+    "my": "ဟုတ်လား၊ မရှိဘူးလား။ ဒါဆို ဆေး ပေးထားခဲ့မယ်။",
+    "th": "อ้าว ไม่มีหรือครับ งั้นผมจ่ายยาไว้ให้นะ"
+   },
+   "grammarNote": {
+    "vi": "〜ておきましょう: tôi sẽ ~ sẵn.",
+    "en": "〜ておきましょう: I'll ~ (in advance).",
+    "zh-Hans": "〜ておきましょう: 先~吧。",
+    "zh-Hant": "〜ておきましょう: 先~吧。",
+    "ko": "〜ておきましょう: ~해 두겠습니다.",
+    "tl": "〜ておきましょう: ~ ko na.",
+    "ne": "〜ておきましょう: ~ दिन्छु।",
+    "id": "〜ておきましょう: akan saya ~ dulu.",
+    "pt": "〜ておきましょう: vou deixar ~.",
+    "my": "〜ておきましょう: ~ ထားမယ်။",
+    "th": "〜ておきましょう: จะ~ไว้ให้."
+   },
+   "vocab": [],
+   "t": [
+    46.72,
+    51.36
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=46.72,51.36"
+  },
+  {
+   "ja": "お医者さんが帰ると、和尚さんは、すぐに小僧の珍念を呼びました。",
+   "furigana": [
+    {
+     "surface": "お",
+     "reading": ""
+    },
+    {
+     "surface": "医者",
+     "reading": "いしゃ"
+    },
+    {
+     "surface": "さんが",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "ると、",
+     "reading": ""
+    },
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さんは、すぐに",
+     "reading": ""
+    },
+    {
+     "surface": "小僧",
+     "reading": "こぞう"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "珍念",
+     "reading": "ちんねん"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "呼",
+     "reading": "よ"
+    },
+    {
+     "surface": "びました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oishasan ga kaeru to, oshousan wa, sugu ni kozou no Chinnen o yobimashita.",
+   "translations": {
+    "vi": "Thầy thuốc về rồi, hòa thượng liền gọi chú tiểu Chinnen.",
+    "en": "When the doctor left, the priest at once called his young apprentice, Chinnen.",
+    "zh-Hans": "医生一走，住持马上叫来小和尚珍念。",
+    "zh-Hant": "醫生一走，住持馬上叫來小和尚珍念。",
+    "ko": "의원이 돌아가자 스님은 곧바로 동자승 친넨을 불렀습니다.",
+    "tl": "Pag-alis ng doktor, agad tinawag ng pari ang batang monghe na si Chinnen.",
+    "ne": "वैद्य फर्केपछि पुजारीले तुरुन्तै सानो भिक्षु चिन्नेनलाई बोलाए।",
+    "id": "Begitu tabib pulang, biksu segera memanggil biksu cilik Chinnen.",
+    "pt": "Assim que o médico foi embora, o monge chamou o jovem aprendiz Chinnen.",
+    "my": "ဆေးဆရာ ပြန်သွားတော့ ဆရာတော်က ကိုရင်လေး ချင်နန်ကို ချက်ချင်း ခေါ်တယ်။",
+    "th": "พอหมอกลับไป หลวงพ่อก็เรียกเณรน้อยจินเน็งมาทันที"
+   },
+   "grammarNote": {
+    "vi": "小僧: chú tiểu. 呼ぶ: gọi.",
+    "en": "小僧: young apprentice monk. 呼ぶ: call.",
+    "zh-Hans": "小僧: 小和尚。呼ぶ: 叫。",
+    "zh-Hant": "小僧: 小和尚。呼ぶ: 叫。",
+    "ko": "小僧: 동자승. 呼ぶ: 부르다.",
+    "tl": "小僧: batang monghe. 呼ぶ: tawagin.",
+    "ne": "小僧: सानो भिक्षु। 呼ぶ: बोलाउनु।",
+    "id": "小僧: biksu cilik. 呼ぶ: memanggil.",
+    "pt": "小僧: aprendiz de monge. 呼ぶ: chamar.",
+    "my": "小僧: ကိုရင်လေး။ 呼ぶ: ခေါ်။",
+    "th": "小僧: เณรน้อย. 呼ぶ: เรียก."
+   },
+   "vocab": [],
+   "t": [
+    52.26,
+    57.9
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=52.26,57.9"
+  },
+  {
+   "ja": "珍念や。ちょっと町へ行って、転失気を借りてきなさい。",
+   "furigana": [
+    {
+     "surface": "珍念",
+     "reading": "ちんねん"
+    },
+    {
+     "surface": "や。ちょっと",
+     "reading": ""
+    },
+    {
+     "surface": "町",
+     "reading": "まち"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "って、",
+     "reading": ""
+    },
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "借",
+     "reading": "か"
+    },
+    {
+     "surface": "りてきなさい。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Chinnen ya. Chotto machi e itte, Tenshiki o karite ki nasai.",
+   "translations": {
+    "vi": "Chinnen à. Xuống phố một chút, mượn tenshiki về đây.",
+    "en": "Chinnen. Go down to town and borrow some tenshiki.",
+    "zh-Hans": "珍念啊。去镇上一趟，借点转失气回来。",
+    "zh-Hant": "珍念啊。去鎮上一趟，借點轉失氣回來。",
+    "ko": "친넨아. 잠깐 마을에 가서 덴시키를 빌려 오너라.",
+    "tl": "Chinnen. Bumaba ka sa bayan at manghiram ng tenshiki.",
+    "ne": "चिन्नेन। एकछिन बजार गएर तेन्शिकी सापट ल्याऊ।",
+    "id": "Chinnen. Pergilah ke kota sebentar dan pinjam tenshiki.",
+    "pt": "Chinnen. Vá até a cidade e peça emprestado um pouco de tenshiki.",
+    "my": "ချင်နန်ရေ။ မြို့ထဲ ခဏသွားပြီး တန်ရှိကိ ငှားခဲ့။",
+    "th": "จินเน็งเอ๋ย ลงไปในเมืองหน่อย ไปยืมเท็นชิกิมา"
+   },
+   "grammarNote": {
+    "vi": "〜てきなさい: đi ~ về đây.",
+    "en": "〜てきなさい: go and ~ (and come back).",
+    "zh-Hans": "〜てきなさい: 去~回来。",
+    "zh-Hant": "〜てきなさい: 去~回來。",
+    "ko": "〜てきなさい: ~해 오너라.",
+    "tl": "〜てきなさい: pumunta ka at ~.",
+    "ne": "〜てきなさい: गएर ~ ल्याऊ।",
+    "id": "〜てきなさい: pergi ~ lalu kembali.",
+    "pt": "〜てきなさい: vá ~ e volte.",
+    "my": "〜てきなさい: သွားပြီး ~ ခဲ့။",
+    "th": "〜てきなさい: ไป~มา."
+   },
+   "vocab": [],
+   "t": [
+    58.8,
+    62.61
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=58.8,62.61"
+  },
+  {
+   "ja": "てんしき、って、何ですか。",
+   "furigana": [
+    {
+     "surface": "てんしき、って、",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "ですか。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ten shiki, tte, nani desu ka.",
+   "translations": {
+    "vi": "Tenshiki là cái gì ạ?",
+    "en": "What's tenshiki?",
+    "zh-Hans": "转失气是什么呀？",
+    "zh-Hant": "轉失氣是什麼呀？",
+    "ko": "덴시키가 뭐예요?",
+    "tl": "Ano po ang tenshiki?",
+    "ne": "तेन्शिकी भनेको के हो?",
+    "id": "Tenshiki itu apa?",
+    "pt": "O que é tenshiki?",
+    "my": "တန်ရှိကိ ဆိုတာ ဘာလဲ ဘုရား။",
+    "th": "เท็นชิกิคืออะไรครับ"
+   },
+   "grammarNote": {
+    "vi": "〜って: (cái) gọi là ~.",
+    "en": "〜って: (called) ~.",
+    "zh-Hans": "〜って: 所谓~。",
+    "zh-Hant": "〜って: 所謂~。",
+    "ko": "〜って: ~라는 게.",
+    "tl": "〜って: ang tinatawag na ~.",
+    "ne": "〜って: ~ भनेको।",
+    "id": "〜って: yang namanya ~.",
+    "pt": "〜って: isso de ~.",
+    "my": "〜って: ~ ဆိုတာ။",
+    "th": "〜って: ที่เรียกว่า~."
+   },
+   "vocab": [],
+   "t": [
+    63.51,
+    65.62
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=63.51,65.62"
+  },
+  {
+   "ja": "お前は、そんなことも知らないのか。行けば分かる。早く行きなさい。",
+   "furigana": [
+    {
+     "surface": "お",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "は、そんなことも",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "らないのか。",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "けば",
+     "reading": ""
+    },
+    {
+     "surface": "分",
+     "reading": "わ"
+    },
+    {
+     "surface": "かる。",
+     "reading": ""
+    },
+    {
+     "surface": "早",
+     "reading": "はや"
+    },
+    {
+     "surface": "く",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "きなさい。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Omae wa, sonna koto mo shiranai no ka. Ikeba wakaru. Hayaku iki nasai.",
+   "translations": {
+    "vi": "Con mà đến chuyện đó cũng không biết sao? Đi rồi khắc biết. Đi nhanh lên.",
+    "en": "You don't even know that? You'll see when you get there. Hurry along.",
+    "zh-Hans": "你连这个都不知道吗？去了就知道了。快去吧。",
+    "zh-Hant": "你連這個都不知道嗎？去了就知道了。快去吧。",
+    "ko": "너는 그것도 모르느냐. 가 보면 안다. 어서 가거라.",
+    "tl": "Hindi mo pa iyon alam? Malalaman mo pagdating mo roon. Bilisan mo.",
+    "ne": "तँलाई त्यति पनि थाहा छैन? गएपछि थाहा हुन्छ। छिटो जा।",
+    "id": "Kau tidak tahu itu juga? Nanti kalau sudah pergi, kau akan tahu. Cepat pergi.",
+    "pt": "Você não sabe nem isso? Quando chegar lá, vai entender. Vá logo.",
+    "my": "မင်း ဒါလောက်တောင် မသိဘူးလား။ သွားရင် သိလိမ့်မယ်။ မြန်မြန်သွား။",
+    "th": "เรื่องแค่นี้เจ้าก็ไม่รู้หรือ ไปแล้วก็รู้เอง รีบไปเถอะ"
+   },
+   "grammarNote": {
+    "vi": "〜も知らないのか: đến ~ cũng không biết sao. 〜ば分かる: ~ thì sẽ biết.",
+    "en": "〜も知らないのか: you don't even know ~? 〜ば分かる: if you ~, you'll understand.",
+    "zh-Hans": "〜も知らないのか: 连~都不知道吗。〜ば分かる: ~就知道了。",
+    "zh-Hant": "〜も知らないのか: 連~都不知道嗎。〜ば分かる: ~就知道了。",
+    "ko": "〜も知らないのか: ~도 모르느냐. 〜ば分かる: ~하면 안다.",
+    "tl": "〜も知らないのか: hindi mo pa alam ~? 〜ば分かる: malalaman kapag ~.",
+    "ne": "〜も知らないのか: ~ पनि थाहा छैन? 〜ば分かる: ~ पछि थाहा हुन्छ।",
+    "id": "〜も知らないのか: ~ pun tak tahu? 〜ば分かる: kalau ~ nanti tahu.",
+    "pt": "〜も知らないのか: não sabe nem ~? 〜ば分かる: se ~, entende.",
+    "my": "〜も知らないのか: ~ တောင် မသိဘူးလား။ 〜ば分かる: ~ ရင် သိမယ်။",
+    "th": "〜も知らないのか: แค่~ก็ไม่รู้หรือ. 〜ば分かる: ~แล้วก็รู้."
+   },
+   "vocab": [],
+   "t": [
+    66.52,
+    72.51
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=66.52,72.51"
+  },
+  {
+   "ja": "珍念は、首をかしげながら、長い石段を下りて、ふもとの町へ向かいました。",
+   "furigana": [
+    {
+     "surface": "珍念",
+     "reading": "ちんねん"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "首",
+     "reading": "くび"
+    },
+    {
+     "surface": "をかしげながら、",
+     "reading": ""
+    },
+    {
+     "surface": "長",
+     "reading": "なが"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "石段",
+     "reading": "いしだん"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "下",
+     "reading": "お"
+    },
+    {
+     "surface": "りて、ふもとの",
+     "reading": ""
+    },
+    {
+     "surface": "町",
+     "reading": "まち"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "向",
+     "reading": "む"
+    },
+    {
+     "surface": "かいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Chinnen wa, kubi o kashige nagara, nagai ishidan o orite, fumoto no machi e mukaimashita.",
+   "translations": {
+    "vi": "Chinnen vừa nghiêng đầu thắc mắc, vừa đi xuống bậc đá dài, hướng về thị trấn dưới chân núi.",
+    "en": "Tilting his head in puzzlement, Chinnen went down the long stone steps toward the town at the foot of the mountain.",
+    "zh-Hans": "珍念歪着头，走下长长的石阶，往山脚下的镇子去了。",
+    "zh-Hant": "珍念歪著頭，走下長長的石階，往山腳下的鎮子去了。",
+    "ko": "친넨은 고개를 갸웃거리며 긴 돌계단을 내려가 산기슭 마을로 향했습니다.",
+    "tl": "Habang nagtataka, bumaba si Chinnen sa mahabang hagdang bato papunta sa bayan sa paanan ng bundok.",
+    "ne": "चिन्नेन टाउको कन्याउँदै लामो ढुंगे सिँढी झरेर पहाडको फेदको बजारतिर लागे।",
+    "id": "Sambil memiringkan kepala kebingungan, Chinnen menuruni tangga batu panjang menuju kota di kaki gunung.",
+    "pt": "Coçando a cabeça, Chinnen desceu a longa escadaria de pedra em direção à cidade ao pé da montanha.",
+    "my": "ချင်နန်က ခေါင်းစောင်းပြီး တွေးရင်း ကျောက်လှေကား ရှည်ကြီးကို ဆင်းပြီး တောင်ခြေက မြို့ဆီ ဦးတည်သွားတယ်။",
+    "th": "จินเน็งเอียงคอสงสัย เดินลงบันไดหินยาวไปยังเมืองที่ตีนเขา"
+   },
+   "grammarNote": {
+    "vi": "首をかしげる: nghiêng đầu (thắc mắc). 石段: bậc đá. ふもと: chân núi.",
+    "en": "首をかしげる: tilt one's head. 石段: stone steps. ふもと: foot of a mountain.",
+    "zh-Hans": "首をかしげる: 歪头（纳闷）。石段: 石阶。ふもと: 山脚。",
+    "zh-Hant": "首をかしげる: 歪頭（納悶）。石段: 石階。ふもと: 山腳。",
+    "ko": "首をかしげる: 고개를 갸웃하다. 石段: 돌계단. ふもと: 산기슭.",
+    "tl": "首をかしげる: magtaka (ikiling ang ulo). 石段: hagdang bato. ふもと: paanan ng bundok.",
+    "ne": "首をかしげる: अचम्ममा टाउको ढल्काउनु। 石段: ढुंगे सिँढी। ふもと: फेद।",
+    "id": "首をかしげる: memiringkan kepala (bingung). 石段: tangga batu. ふもと: kaki gunung.",
+    "pt": "首をかしげる: inclinar a cabeça (intrigado). 石段: escadaria de pedra. ふもと: pé da montanha.",
+    "my": "首をかしげる: ခေါင်းစောင်း (ဒွိဟ)။ 石段: ကျောက်လှေကား။ ふもと: တောင်ခြေ။",
+    "th": "首をかしげる: เอียงคอสงสัย. 石段: บันไดหิน. ふもと: ตีนเขา."
+   },
+   "vocab": [
+    {
+     "word": "ふもと",
+     "reading": "ふもと",
+     "level": "N2",
+     "meanings": {
+      "vi": "chân núi",
+      "en": "foot of a mountain",
+      "zh-Hans": "山脚",
+      "zh-Hant": "山腳",
+      "ko": "산기슭",
+      "tl": "paanan ng bundok",
+      "ne": "फेदी",
+      "id": "kaki gunung",
+      "pt": "sopé",
+      "my": "တောင်ခြေ",
+      "th": "เชิงเขา"
+     }
+    }
+   ],
+   "t": [
+    73.41,
+    80
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=73.41,80"
+  },
+  {
+   "ja": "まず、花屋に行って、聞いてみました。",
+   "furigana": [
+    {
+     "surface": "まず、",
+     "reading": ""
+    },
+    {
+     "surface": "花屋",
+     "reading": "はなや"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "って、",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "いてみました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mazu, hanaya ni itte, kiite mimashita.",
+   "translations": {
+    "vi": "Đầu tiên, chú đến tiệm hoa hỏi thử.",
+    "en": "First, he went to the flower shop to ask.",
+    "zh-Hans": "他先到花店去问了问。",
+    "zh-Hant": "他先到花店去問了問。",
+    "ko": "먼저 꽃집에 가서 물어보았습니다.",
+    "tl": "Una, nagtanong siya sa tindahan ng bulaklak.",
+    "ne": "पहिले उनले फूल पसलमा सोधे।",
+    "id": "Pertama, ia bertanya ke toko bunga.",
+    "pt": "Primeiro, foi perguntar na floricultura.",
+    "my": "ပထမဆုံး ပန်းဆိုင်ကို သွားမေးကြည့်တယ်။",
+    "th": "อย่างแรก ไปถามที่ร้านดอกไม้"
+   },
+   "grammarNote": {
+    "vi": "〜てみる: thử ~.",
+    "en": "〜てみる: try ~.",
+    "zh-Hans": "〜てみる: 试着~。",
+    "zh-Hant": "〜てみる: 試著~。",
+    "ko": "〜てみる: ~해 보다.",
+    "tl": "〜てみる: subukang ~.",
+    "ne": "〜てみる: ~ हेर्नु।",
+    "id": "〜てみる: mencoba ~.",
+    "pt": "〜てみる: tentar ~.",
+    "my": "〜てみる: ~ ကြည့်။",
+    "th": "〜てみる: ลอง~."
+   },
+   "vocab": [],
+   "t": [
+    80.6,
+    83.75
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=80.6,83.75"
+  },
+  {
+   "ja": "すみません。転失気を貸してください。",
+   "furigana": [
+    {
+     "surface": "すみません。",
+     "reading": ""
+    },
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "貸",
+     "reading": "か"
+    },
+    {
+     "surface": "してください。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sumimasen. Tenshiki o kashite kudasai.",
+   "translations": {
+    "vi": "Xin lỗi, cho con mượn tenshiki ạ.",
+    "en": "Excuse me. Please lend me some tenshiki.",
+    "zh-Hans": "对不起，请借我点转失气。",
+    "zh-Hant": "對不起，請借我點轉失氣。",
+    "ko": "실례합니다. 덴시키를 빌려주세요.",
+    "tl": "Mawalang-galang po. Pahiram po ng tenshiki.",
+    "ne": "माफ गर्नुहोस्। तेन्शिकी सापट दिनुहोस् न।",
+    "id": "Permisi. Tolong pinjami saya tenshiki.",
+    "pt": "Com licença. Pode me emprestar tenshiki?",
+    "my": "တောင်းပန်ပါတယ်။ တန်ရှိကိ ငှားပေးပါ။",
+    "th": "ขอโทษครับ ขอยืมเท็นชิกิหน่อยครับ"
+   },
+   "grammarNote": {
+    "vi": "貸す: cho mượn.",
+    "en": "貸す: lend.",
+    "zh-Hans": "貸す: 借给。",
+    "zh-Hant": "貸す: 借給。",
+    "ko": "貸す: 빌려주다.",
+    "tl": "貸す: magpahiram.",
+    "ne": "貸す: सापट दिनु।",
+    "id": "貸す: meminjami.",
+    "pt": "貸す: emprestar.",
+    "my": "貸す: ငှားပေး။",
+    "th": "貸す: ให้ยืม."
+   },
+   "vocab": [],
+   "t": [
+    84.65,
+    86.42
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=84.65,86.42"
+  },
+  {
+   "ja": "てんしき。ああ、あれね。あいにく、ゆうべ全部売れてしまったのよ。",
+   "furigana": [
+    {
+     "surface": "てんしき。ああ、あれね。あいにく、ゆうべ",
+     "reading": ""
+    },
+    {
+     "surface": "全部",
+     "reading": "ぜんぶ"
+    },
+    {
+     "surface": "売",
+     "reading": "う"
+    },
+    {
+     "surface": "れてしまったのよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tenshi ki. Aa, are ne. Ainiku, yuube zenbu urete shimatta no yo.",
+   "translations": {
+    "vi": "Tenshiki à. À, cái đó hả. Tiếc quá, tối qua bán hết sạch rồi.",
+    "en": "Tenshiki? Oh, that. Unfortunately, it all sold out last night.",
+    "zh-Hans": "转失气？啊，那个呀。真不巧，昨晚全卖光了。",
+    "zh-Hant": "轉失氣？啊，那個呀。真不巧，昨晚全賣光了。",
+    "ko": "덴시키? 아, 그거. 공교롭게도 어젯밤에 다 팔려 버렸어.",
+    "tl": "Tenshiki? Ah, iyon ba. Sayang, naubos lahat kagabi.",
+    "ne": "तेन्शिकी? ए, त्यो। दुःखको कुरा, हिजो राति सबै बिक्यो।",
+    "id": "Tenshiki? Oh, itu ya. Sayang sekali, semalam sudah habis terjual.",
+    "pt": "Tenshiki? Ah, aquilo. Que pena, vendeu tudo ontem à noite.",
+    "my": "တန်ရှိကိ? အော်၊ အဲဒါလား။ ကံမကောင်းစွာ မနေ့ညက အကုန် ရောင်းထွက်သွားပြီ။",
+    "th": "เท็นชิกิเหรอ อ้อ อันนั้นน่ะ เสียดายจัง เมื่อคืนขายหมดแล้ว"
+   },
+   "grammarNote": {
+    "vi": "あいにく: tiếc là. 売れる: bán được. 〜てしまう: mất rồi.",
+    "en": "あいにく: unfortunately. 売れる: sell. 〜てしまう: (all) ended up ~.",
+    "zh-Hans": "あいにく: 不巧。売れる: 卖掉。〜てしまう: ~光了。",
+    "zh-Hant": "あいにく: 不巧。売れる: 賣掉。〜てしまう: ~光了。",
+    "ko": "あいにく: 공교롭게도. 売れる: 팔리다. 〜てしまう: ~해 버리다.",
+    "tl": "あいにく: sayang. 売れる: mabenta. 〜てしまう: naubos na.",
+    "ne": "あいにく: दुःखको कुरा। 売れる: बिक्नु। 〜てしまう: ~ इहाल्यो।",
+    "id": "あいにく: sayang sekali. 売れる: terjual. 〜てしまう: sudah (habis).",
+    "pt": "あいにく: que pena. 売れる: vender-se. 〜てしまう: acabar (tudo).",
+    "my": "あいにく: ကံမကောင်းစွာ။ 売れる: ရောင်းထွက်။ 〜てしまう: ~ သွားပြီ။",
+    "th": "あいにく: เสียดาย. 売れる: ขายได้. 〜てしまう: ~หมดแล้ว."
+   },
+   "vocab": [
+    {
+     "word": "あいにく",
+     "reading": "あいにく",
+     "level": "N3",
+     "meanings": {
+      "vi": "tiếc là, không may",
+      "en": "unfortunately",
+      "zh-Hans": "不巧",
+      "zh-Hant": "不巧",
+      "ko": "공교롭게도",
+      "tl": "sa kasamaang-palad",
+      "ne": "दुर्भाग्यवश",
+      "id": "sayangnya",
+      "pt": "infelizmente",
+      "my": "ကံမကောင်းစွာ",
+      "th": "น่าเสียดายที่"
+     }
+    },
+    {
+     "word": "売れる",
+     "reading": "うれる",
+     "level": "N3",
+     "meanings": {
+      "vi": "bán chạy, bán được",
+      "en": "to sell, be sold",
+      "zh-Hans": "卖出去",
+      "zh-Hant": "賣出去",
+      "ko": "팔리다",
+      "tl": "mabenta",
+      "ne": "बिक्नु",
+      "id": "laku",
+      "pt": "vender-se",
+      "my": "ရောင်းရ",
+      "th": "ขายได้"
+     }
+    }
+   ],
+   "t": [
+    87.32,
+    92.16
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=87.32,92.16"
+  },
+  {
+   "ja": "次に、古道具屋に行ってみました。",
+   "furigana": [
+    {
+     "surface": "次",
+     "reading": "つぎ"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "古道具",
+     "reading": "ふるどうぐ"
+    },
+    {
+     "surface": "屋",
+     "reading": "や"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "ってみました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tsugini, furudouguya ni itte mimashita.",
+   "translations": {
+    "vi": "Tiếp theo, chú đến tiệm đồ cũ.",
+    "en": "Next, he tried the secondhand shop.",
+    "zh-Hans": "接着，他又去了旧货店。",
+    "zh-Hant": "接著，他又去了舊貨店。",
+    "ko": "다음에는 고물상에 가 보았습니다.",
+    "tl": "Sunod, pumunta siya sa tindahan ng lumang gamit.",
+    "ne": "त्यसपछि पुरानो सामान पसलमा गए।",
+    "id": "Berikutnya, ia mencoba toko barang bekas.",
+    "pt": "Depois, tentou o brechó.",
+    "my": "နောက်တစ်ခါ ပစ္စည်းဟောင်းဆိုင်ကို သွားကြည့်တယ်။",
+    "th": "ต่อมา ไปที่ร้านของเก่า"
+   },
+   "grammarNote": {
+    "vi": "古道具屋: tiệm đồ cũ.",
+    "en": "古道具屋: secondhand shop.",
+    "zh-Hans": "古道具屋: 旧货店。",
+    "zh-Hant": "古道具屋: 舊貨店。",
+    "ko": "古道具屋: 고물상.",
+    "tl": "古道具屋: tindahan ng lumang gamit.",
+    "ne": "古道具屋: पुरानो सामान पसल।",
+    "id": "古道具屋: toko barang bekas.",
+    "pt": "古道具屋: brechó, loja de usados.",
+    "my": "古道具屋: ပစ္စည်းဟောင်းဆိုင်။",
+    "th": "古道具屋: ร้านของเก่า."
+   },
+   "vocab": [],
+   "t": [
+    93.06,
+    96.86
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=93.06,96.86"
+  },
+  {
+   "ja": "転失気かい。うちにも一つあったんだが、ついこの間、人に貸してしまってなあ。",
+   "furigana": [
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "かい。うちにも",
+     "reading": ""
+    },
+    {
+     "surface": "一",
+     "reading": "ひと"
+    },
+    {
+     "surface": "つあったんだが、ついこの",
+     "reading": ""
+    },
+    {
+     "surface": "間",
+     "reading": "あいだ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "貸",
+     "reading": "か"
+    },
+    {
+     "surface": "してしまってなあ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tenshiki kai. Uchi ni mo hitotsu atta n da ga, tsui kono aida, hito ni kashite shimatte naa.",
+   "translations": {
+    "vi": "Tenshiki à? Nhà tôi cũng có một cái đấy, nhưng mới hôm nọ cho người ta mượn mất rồi.",
+    "en": "Tenshiki, eh? We had one too, but I just lent it to someone the other day.",
+    "zh-Hans": "转失气吗？我们家也有一个，可前几天刚借给别人了。",
+    "zh-Hant": "轉失氣嗎？我們家也有一個，可前幾天剛借給別人了。",
+    "ko": "덴시키 말이냐? 우리 집에도 하나 있었는데 바로 얼마 전에 남한테 빌려줘 버렸지 뭐냐.",
+    "tl": "Tenshiki ba? May isa rin kami, pero ipinahiram ko lang sa iba noong isang araw.",
+    "ne": "तेन्शिकी? हाम्रोमा पनि एउटा थियो, तर भर्खरै अर्कोलाई सापट दिइहालेँ।",
+    "id": "Tenshiki? Kami juga punya satu, tapi baru beberapa hari lalu dipinjamkan ke orang.",
+    "pt": "Tenshiki, é? Nós também tínhamos um, mas emprestei para alguém outro dia mesmo.",
+    "my": "တန်ရှိကိလား။ ငါတို့ဆိုင်မှာလည်း တစ်ခု ရှိခဲ့တယ်၊ ဒါပေမဲ့ မကြာသေးခင်ကပဲ သူများကို ငှားလိုက်ရတယ်။",
+    "th": "เท็นชิกิเหรอ ที่ร้านก็เคยมีอยู่อันหนึ่ง แต่เพิ่งให้คนอื่นยืมไปเมื่อวันก่อน"
+   },
+   "grammarNote": {
+    "vi": "ついこの間: mới hôm nọ. 〜てしまって: lỡ ~ mất.",
+    "en": "ついこの間: just the other day. 〜てしまって: went and ~.",
+    "zh-Hans": "ついこの間: 前几天。〜てしまって: ~掉了。",
+    "zh-Hant": "ついこの間: 前幾天。〜てしまって: ~掉了。",
+    "ko": "ついこの間: 바로 얼마 전. 〜てしまって: ~해 버려서.",
+    "tl": "ついこの間: noong isang araw lang. 〜てしまって: nagawa ko nang ~.",
+    "ne": "ついこの間: भर्खरै। 〜てしまって: ~ इहालेँ।",
+    "id": "ついこの間: baru beberapa hari lalu. 〜てしまって: terlanjur ~.",
+    "pt": "ついこの間: outro dia mesmo. 〜てしまって: acabei ~.",
+    "my": "ついこの間: မကြာသေးခင်က။ 〜てしまって: ~ လိုက်ရ။",
+    "th": "ついこの間: เมื่อวันก่อน. 〜てしまって: ~ไปเสียแล้ว."
+   },
+   "vocab": [],
+   "t": [
+    97.76,
+    103.16
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=97.76,103.16"
+  },
+  {
+   "ja": "その次は、豆腐屋です。",
+   "furigana": [
+    {
+     "surface": "その",
+     "reading": ""
+    },
+    {
+     "surface": "次",
+     "reading": "つぎ"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "豆腐",
+     "reading": "とうふ"
+    },
+    {
+     "surface": "屋",
+     "reading": "や"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono tsugi wa, toufuya desu.",
+   "translations": {
+    "vi": "Kế đó là tiệm đậu phụ.",
+    "en": "After that came the tofu shop.",
+    "zh-Hans": "再下来是豆腐店。",
+    "zh-Hant": "再下來是豆腐店。",
+    "ko": "그다음은 두부 가게입니다.",
+    "tl": "Sumunod ang tindahan ng tokwa.",
+    "ne": "त्यसपछि तोफु पसल।",
+    "id": "Lalu toko tahu.",
+    "pt": "Em seguida, a loja de tofu.",
+    "my": "ပြီးတော့ တို့ဖူးဆိုင်။",
+    "th": "ถัดมาคือร้านเต้าหู้"
+   },
+   "grammarNote": {
+    "vi": "豆腐屋: tiệm đậu phụ.",
+    "en": "豆腐屋: tofu shop.",
+    "zh-Hans": "豆腐屋: 豆腐店。",
+    "zh-Hant": "豆腐屋: 豆腐店。",
+    "ko": "豆腐屋: 두부 가게.",
+    "tl": "豆腐屋: tindahan ng tokwa.",
+    "ne": "豆腐屋: तोफु पसल।",
+    "id": "豆腐屋: toko tahu.",
+    "pt": "豆腐屋: loja de tofu.",
+    "my": "豆腐屋: တို့ဖူးဆိုင်။",
+    "th": "豆腐屋: ร้านเต้าหู้."
+   },
+   "vocab": [],
+   "t": [
+    104.06,
+    106.7
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=104.06,106.7"
+  },
+  {
+   "ja": "転失気か。あれは、みそ汁に入れると、うまいんだよなあ。でも、今日は切らしてるんだ。",
+   "furigana": [
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "か。あれは、みそ",
+     "reading": ""
+    },
+    {
+     "surface": "汁",
+     "reading": "じる"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "入",
+     "reading": "い"
+    },
+    {
+     "surface": "れると、うまいんだよなあ。でも、",
+     "reading": ""
+    },
+    {
+     "surface": "今日",
+     "reading": "きょう"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "切",
+     "reading": "き"
+    },
+    {
+     "surface": "らしてるんだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tenshiki ka. Are wa, misojiru ni ireru to, umai n da yo naa. Demo, kyou wa kirashi teru n da.",
+   "translations": {
+    "vi": "Tenshiki à. Thứ đó mà thả vào súp miso thì ngon phải biết. Nhưng hôm nay hết hàng rồi.",
+    "en": "Tenshiki? That stuff's delicious in miso soup. But I'm all out today.",
+    "zh-Hans": "转失气啊。那东西放进味噌汤里可好吃了。不过今天卖完了。",
+    "zh-Hant": "轉失氣啊。那東西放進味噌湯裡可好吃了。不過今天賣完了。",
+    "ko": "덴시키 말이지. 그건 된장국에 넣으면 맛있거든. 근데 오늘은 다 떨어졌어.",
+    "tl": "Tenshiki ba. Masarap iyon kapag inilagay sa miso soup. Pero ubos na ngayong araw.",
+    "ne": "तेन्शिकी? त्यो त मिसो सुपमा हाल्दा कस्तो मीठो हुन्छ। तर आज सकियो।",
+    "id": "Tenshiki ya. Itu enak sekali kalau dimasukkan ke sup miso. Tapi hari ini lagi habis.",
+    "pt": "Tenshiki, é? Fica uma delícia na sopa de missô. Mas hoje acabou.",
+    "my": "တန်ရှိကိလား။ အဲဒါ မီဆိုဟင်းချိုထဲ ထည့်ရင် အရမ်းကောင်းတာ။ ဒါပေမဲ့ ဒီနေ့ ကုန်နေတယ်။",
+    "th": "เท็นชิกิเหรอ ของนั่นใส่ซุปมิโซะแล้วอร่อยนักแหละ แต่วันนี้หมดพอดี"
+   },
+   "grammarNote": {
+    "vi": "みそ汁: súp miso. 切らす: hết (hàng).",
+    "en": "みそ汁: miso soup. 切らす: run out of.",
+    "zh-Hans": "みそ汁: 味噌汤。切らす: 用完，断货。",
+    "zh-Hant": "みそ汁: 味噌湯。切らす: 用完，斷貨。",
+    "ko": "みそ汁: 된장국. 切らす: 다 떨어지다.",
+    "tl": "みそ汁: miso soup. 切らす: maubusan.",
+    "ne": "みそ汁: मिसो सुप। 切らす: सकिनु।",
+    "id": "みそ汁: sup miso. 切らす: kehabisan.",
+    "pt": "みそ汁: sopa de missô. 切らす: ficar sem.",
+    "my": "みそ汁: မီဆိုဟင်းချို။ 切らす: ကုန်။",
+    "th": "みそ汁: ซุปมิโซะ. 切らす: หมด."
+   },
+   "vocab": [],
+   "t": [
+    107.6,
+    113.72
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=107.6,113.72"
+  },
+  {
+   "ja": "みそ汁に入れるものなんですか。",
+   "furigana": [
+    {
+     "surface": "みそ",
+     "reading": ""
+    },
+    {
+     "surface": "汁",
+     "reading": "じる"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "入",
+     "reading": "い"
+    },
+    {
+     "surface": "れるものなんですか。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Misojiru ni ireru mono na n desu ka.",
+   "translations": {
+    "vi": "Thứ đó để thả vào súp miso ạ?",
+    "en": "You put it in miso soup?",
+    "zh-Hans": "那是放进味噌汤里的东西吗？",
+    "zh-Hant": "那是放進味噌湯裡的東西嗎？",
+    "ko": "된장국에 넣는 거예요?",
+    "tl": "Inilalagay po ba iyon sa miso soup?",
+    "ne": "त्यो मिसो सुपमा हाल्ने कुरा हो र?",
+    "id": "Itu dimasukkan ke sup miso?",
+    "pt": "Isso vai na sopa de missô?",
+    "my": "အဲဒါ မီဆိုဟင်းချိုထဲ ထည့်တဲ့ ပစ္စည်းလား။",
+    "th": "ของนั่นใช้ใส่ซุปมิโซะเหรอครับ"
+   },
+   "grammarNote": {
+    "vi": "〜ものなんですか: là thứ để ~ ạ?",
+    "en": "〜ものなんですか: is it something you ~?",
+    "zh-Hans": "〜ものなんですか: 是~的东西吗。",
+    "zh-Hant": "〜ものなんですか: 是~的東西嗎。",
+    "ko": "〜ものなんですか: ~하는 거예요?",
+    "tl": "〜ものなんですか: iyon ba ay ~?",
+    "ne": "〜ものなんですか: ~ ने कुरा हो र?",
+    "id": "〜ものなんですか: apa itu untuk di~?",
+    "pt": "〜ものなんですか: é coisa que se ~?",
+    "my": "〜ものなんですか: ~ တဲ့ ပစ္စည်းလား။",
+    "th": "〜ものなんですか: เป็นของที่~เหรอ."
+   },
+   "vocab": [],
+   "t": [
+    114.62,
+    116.77
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=114.62,116.77"
+  },
+  {
+   "ja": "ま、まあ、そういう家もあるってことさ。",
+   "furigana": [
+    {
+     "surface": "ま、まあ、そういう",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "もあるってことさ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ma, maa, souiu ie mo aru tte koto sa.",
+   "translations": {
+    "vi": "À, ừ, thì có nhà làm vậy đấy.",
+    "en": "W-well, let's just say some households do.",
+    "zh-Hans": "嗯、嗯，就是说也有人家这么做啦。",
+    "zh-Hant": "嗯、嗯，就是說也有人家這麼做啦。",
+    "ko": "뭐, 뭐어, 그런 집도 있다는 얘기지.",
+    "tl": "E-eh, sabihin na lang nating may mga bahay na ganoon.",
+    "ne": "अँ… हो, त्यस्तो गर्ने घर पनि छन् भनेको नि।",
+    "id": "Y-yah, pokoknya ada juga rumah yang begitu.",
+    "pt": "B-bem, digamos que tem casa que faz assim.",
+    "my": "အ… အင်း၊ အဲဒီလို လုပ်တဲ့ အိမ်လည်း ရှိတယ်လို့ ပြောတာပါ။",
+    "th": "อ… เอ่อ ก็มีบางบ้านที่ทำแบบนั้นแหละ"
+   },
+   "grammarNote": {
+    "vi": "〜ってことさ: ý là ~ thôi.",
+    "en": "〜ってことさ: that's what it is.",
+    "zh-Hans": "〜ってことさ: 就是说~嘛。",
+    "zh-Hant": "〜ってことさ: 就是說~嘛。",
+    "ko": "〜ってことさ: ~라는 얘기지.",
+    "tl": "〜ってことさ: ibig sabihin ~.",
+    "ne": "〜ってことさ: ~ भनेको नि।",
+    "id": "〜ってことさ: pokoknya ~.",
+    "pt": "〜ってことさ: digamos que ~.",
+    "my": "〜ってことさ: ~ လို့ ပြောတာပါ။",
+    "th": "〜ってことさ: ก็คือ~แหละ."
+   },
+   "vocab": [],
+   "t": [
+    117.67,
+    121.04
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=117.67,121.04"
+  },
+  {
+   "ja": "町の人たちも、みんな、知らないとは言わないのです。",
+   "furigana": [
+    {
+     "surface": "町",
+     "reading": "まち"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "たちも、みんな、",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "らないとは",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "わないのです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Machi no hitotachi mo, minna, shiranai to wa iwanai no desu.",
+   "translations": {
+    "vi": "Người trong phố cũng vậy, không ai chịu nói là \"không biết\".",
+    "en": "Nobody in town would admit they didn't know, either.",
+    "zh-Hans": "镇上的人也一样，谁都不肯说“不知道”。",
+    "zh-Hant": "鎮上的人也一樣，誰都不肯說“不知道”。",
+    "ko": "마을 사람들도 모두 모른다고는 하지 않는 것입니다.",
+    "tl": "Maging ang mga taga-bayan, walang umaming hindi nila alam.",
+    "ne": "बजारका मान्छे पनि कसैले \"थाहा छैन\" भनेनन्।",
+    "id": "Orang-orang kota pun tak ada yang mau bilang \"tidak tahu\".",
+    "pt": "O pessoal da cidade também não admitia que não sabia.",
+    "my": "မြို့က လူတွေလည်း \"မသိဘူး\" လို့ ဘယ်သူမှ မပြောကြဘူး။",
+    "th": "คนในเมืองก็ไม่มีใครยอมพูดว่า \"ไม่รู้\""
+   },
+   "grammarNote": {
+    "vi": "〜とは言わない: không nói là ~.",
+    "en": "〜とは言わない: won't say ~.",
+    "zh-Hans": "〜とは言わない: 不说~。",
+    "zh-Hant": "〜とは言わない: 不說~。",
+    "ko": "〜とは言わない: ~라고는 하지 않다.",
+    "tl": "〜とは言わない: hindi sinasabing ~.",
+    "ne": "〜とは言わない: ~ भनेर नभन्नु।",
+    "id": "〜とは言わない: tak bilang ~.",
+    "pt": "〜とは言わない: não dizer ~.",
+    "my": "〜とは言わない: ~ လို့ မပြော။",
+    "th": "〜とは言わない: ไม่พูดว่า~."
+   },
+   "vocab": [],
+   "t": [
+    121.94,
+    126.53
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=121.94,126.53"
+  },
+  {
+   "ja": "おかしいなあ。だれに聞いても、だれも持っていない。",
+   "furigana": [
+    {
+     "surface": "おかしいなあ。だれに",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "いても、だれも",
+     "reading": ""
+    },
+    {
+     "surface": "持",
+     "reading": "も"
+    },
+    {
+     "surface": "っていない。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Okashii naa. Dare ni kiite mo, dare mo motte inai.",
+   "translations": {
+    "vi": "Lạ nhỉ. Hỏi ai cũng chẳng ai có.",
+    "en": "How strange. No matter who I ask, nobody has any.",
+    "zh-Hans": "奇怪啊。问谁都没有。",
+    "zh-Hant": "奇怪啊。問誰都沒有。",
+    "ko": "이상하네. 누구한테 물어도 아무도 안 갖고 있어.",
+    "tl": "Ang weird. Kahit sino ang tanungin ko, walang may mayroon.",
+    "ne": "अचम्म। जसलाई सोधे पनि कसैसँग छैन।",
+    "id": "Aneh. Tanya siapa pun, tak ada yang punya.",
+    "pt": "Que estranho. Pergunto para todo mundo e ninguém tem.",
+    "my": "ထူးဆန်းလိုက်တာ။ ဘယ်သူ့ကို မေးမေး ဘယ်သူမှ မရှိဘူး။",
+    "th": "แปลกจัง ถามใครก็ไม่มีใครมี"
+   },
+   "grammarNote": {
+    "vi": "〜ても: dù ~.",
+    "en": "〜ても: no matter ~.",
+    "zh-Hans": "〜ても: 不管~。",
+    "zh-Hant": "〜ても: 不管~。",
+    "ko": "〜ても: ~해도.",
+    "tl": "〜ても: kahit ~.",
+    "ne": "〜ても: जसलाई ~ पनि।",
+    "id": "〜ても: siapa pun ~.",
+    "pt": "〜ても: por mais que ~.",
+    "my": "〜ても: ~ ~။",
+    "th": "〜ても: ไม่ว่า~."
+   },
+   "vocab": [],
+   "t": [
+    127.43,
+    131.23
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=127.43,131.23"
+  },
+  {
+   "ja": "困った珍念は、薬をもらいに、お医者さんの家へ行きました。",
+   "furigana": [
+    {
+     "surface": "困",
+     "reading": "こま"
+    },
+    {
+     "surface": "った",
+     "reading": ""
+    },
+    {
+     "surface": "珍念",
+     "reading": "ちんねん"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "薬",
+     "reading": "くすり"
+    },
+    {
+     "surface": "をもらいに、お",
+     "reading": ""
+    },
+    {
+     "surface": "医者",
+     "reading": "いしゃ"
+    },
+    {
+     "surface": "さんの",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "きました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Komatta Chinnen wa, kusuri o morai ni, oishasan no ie e ikimashita.",
+   "translations": {
+    "vi": "Bí quá, Chinnen đến nhà thầy thuốc để lấy thuốc.",
+    "en": "At a loss, Chinnen went to the doctor's house to pick up the medicine.",
+    "zh-Hans": "珍念没办法，就去医生家拿药。",
+    "zh-Hant": "珍念沒辦法，就去醫生家拿藥。",
+    "ko": "난처해진 친넨은 약을 받으러 의원 댁에 갔습니다.",
+    "tl": "Nalilito, pumunta si Chinnen sa bahay ng doktor para kunin ang gamot.",
+    "ne": "अप्ठ्यारोमा परेका चिन्नेन औषधि लिन वैद्यको घर गए।",
+    "id": "Kebingungan, Chinnen pergi ke rumah tabib untuk mengambil obat.",
+    "pt": "Sem saber o que fazer, Chinnen foi à casa do médico buscar o remédio.",
+    "my": "အကြံအိုက်နေတဲ့ ချင်နန်က ဆေးယူဖို့ ဆေးဆရာ့အိမ်ကို သွားတယ်။",
+    "th": "จินเน็งจนปัญญา จึงไปบ้านหมอเพื่อรับยา"
+   },
+   "grammarNote": {
+    "vi": "困る: bí, khó xử.",
+    "en": "困る: be at a loss.",
+    "zh-Hans": "困る: 为难。",
+    "zh-Hant": "困る: 為難。",
+    "ko": "困る: 난처하다.",
+    "tl": "困る: malito, mahirapan.",
+    "ne": "困る: अप्ठ्यारोमा पर्नु।",
+    "id": "困る: bingung, kesulitan.",
+    "pt": "困る: ficar sem saída.",
+    "my": "困る: အကြံအိုက်။",
+    "th": "困る: จนปัญญา."
+   },
+   "vocab": [],
+   "t": [
+    132.13,
+    136.78
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=132.13,136.78"
+  },
+  {
+   "ja": "先生、転失気って、いったい何ですか。",
+   "furigana": [
+    {
+     "surface": "先生",
+     "reading": "せんせい"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "って、いったい",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "ですか。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sensei, Tenshiki tte, ittai nani desu ka.",
+   "translations": {
+    "vi": "Thưa thầy, tenshiki rốt cuộc là cái gì ạ?",
+    "en": "Doctor, what on earth is tenshiki?",
+    "zh-Hans": "大夫，转失气到底是什么呀？",
+    "zh-Hant": "大夫，轉失氣到底是什麼呀？",
+    "ko": "선생님, 덴시키가 대체 뭐예요?",
+    "tl": "Doktor, ano po ba talaga ang tenshiki?",
+    "ne": "वैद्य ज्यू, तेन्शिकी भनेको आखिर के हो?",
+    "id": "Tuan Tabib, sebenarnya tenshiki itu apa?",
+    "pt": "Doutor, afinal, o que é tenshiki?",
+    "my": "ဆရာ၊ တန်ရှိကိ ဆိုတာ တကယ်တော့ ဘာလဲ။",
+    "th": "คุณหมอ เท็นชิกิมันคืออะไรกันแน่ครับ"
+   },
+   "grammarNote": {
+    "vi": "いったい: rốt cuộc.",
+    "en": "いったい: on earth.",
+    "zh-Hans": "いったい: 到底。",
+    "zh-Hant": "いったい: 到底。",
+    "ko": "いったい: 대체.",
+    "tl": "いったい: ba talaga.",
+    "ne": "いったい: आखिर।",
+    "id": "いったい: sebenarnya.",
+    "pt": "いったい: afinal.",
+    "my": "いったい: တကယ်တော့။",
+    "th": "いったい: กันแน่."
+   },
+   "vocab": [
+    {
+     "word": "いったい",
+     "reading": "いったい",
+     "level": "N3",
+     "meanings": {
+      "vi": "rốt cuộc, không biết",
+      "en": "on earth, what in the world",
+      "zh-Hans": "到底",
+      "zh-Hant": "到底",
+      "ko": "도대체",
+      "tl": "ano ba talaga",
+      "ne": "आखिर",
+      "id": "sebenarnya",
+      "pt": "afinal",
+      "my": "တကယ်တမ်း",
+      "th": "กันแน่"
+     }
+    }
+   ],
+   "t": [
+    137.68,
+    140.25
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=137.68,140.25"
+  },
+  {
+   "ja": "転失気というのは、中国の古い医学の本に出てくる言葉でね。",
+   "furigana": [
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "というのは、",
+     "reading": ""
+    },
+    {
+     "surface": "中国",
+     "reading": "ちゅうごく"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "古",
+     "reading": "ふる"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "医学",
+     "reading": "いがく"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "本",
+     "reading": "ほん"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "で"
+    },
+    {
+     "surface": "てくる",
+     "reading": ""
+    },
+    {
+     "surface": "言葉",
+     "reading": "ことば"
+    },
+    {
+     "surface": "でね。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tenshiki toiu no wa, Chuugoku no furui igaku no hon ni dete kuru kotoba de ne.",
+   "translations": {
+    "vi": "Tenshiki là một từ có trong sách y học cổ của Trung Quốc.",
+    "en": "Tenshiki is a word that appears in old Chinese medical books.",
+    "zh-Hans": "转失气是中国古代医书里出现的一个词。",
+    "zh-Hant": "轉失氣是中國古代醫書裡出現的一個詞。",
+    "ko": "덴시키라는 건 중국의 옛 의학책에 나오는 말이란다.",
+    "tl": "Ang tenshiki ay salitang makikita sa mga lumang aklat ng medisina ng Tsina.",
+    "ne": "तेन्शिकी भनेको चीनका पुराना चिकित्सा ग्रन्थमा आउने शब्द हो।",
+    "id": "Tenshiki itu kata yang muncul di buku kedokteran kuno dari Tiongkok.",
+    "pt": "Tenshiki é uma palavra que aparece em antigos livros de medicina da China.",
+    "my": "တန်ရှိကိ ဆိုတာ တရုတ်ရဲ့ ရှေးဟောင်း ဆေးကျမ်းထဲမှာ ပါတဲ့ စကားလုံးပါ။",
+    "th": "เท็นชิกิเป็นคำที่อยู่ในตำราแพทย์โบราณของจีน"
+   },
+   "grammarNote": {
+    "vi": "医学: y học. 出てくる: xuất hiện.",
+    "en": "医学: medicine (study). 出てくる: appear.",
+    "zh-Hans": "医学: 医学。出てくる: 出现。",
+    "zh-Hant": "医学: 醫學。出てくる: 出現。",
+    "ko": "医学: 의학. 出てくる: 나오다.",
+    "tl": "医学: medisina. 出てくる: lumitaw.",
+    "ne": "医学: चिकित्सा शास्त्र। 出てくる: आउनु।",
+    "id": "医学: ilmu kedokteran. 出てくる: muncul.",
+    "pt": "医学: medicina. 出てくる: aparecer.",
+    "my": "医学: ဆေးပညာ။ 出てくる: ပါ၊ ပေါ်။",
+    "th": "医学: การแพทย์. 出てくる: ปรากฏ."
+   },
+   "vocab": [],
+   "t": [
+    141.15,
+    146.24
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=141.15,146.24"
+  },
+  {
+   "ja": "おならのことだよ。",
+   "furigana": [
+    {
+     "surface": "おならのことだよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Onara no koto da yo.",
+   "translations": {
+    "vi": "Nghĩa là \"đánh rắm\" đấy.",
+    "en": "It means a fart.",
+    "zh-Hans": "就是放屁的意思。",
+    "zh-Hant": "就是放屁的意思。",
+    "ko": "방귀를 말하는 거야.",
+    "tl": "Ibig sabihin nito ay utot.",
+    "ne": "यसको अर्थ पाद हो।",
+    "id": "Artinya kentut.",
+    "pt": "Quer dizer pum.",
+    "my": "လေလည်တာကို ဆိုလိုတာပေါ့။",
+    "th": "แปลว่าตดน่ะ"
+   },
+   "grammarNote": {
+    "vi": "おなら: cái rắm.",
+    "en": "おなら: fart.",
+    "zh-Hans": "おなら: 屁。",
+    "zh-Hant": "おなら: 屁。",
+    "ko": "おなら: 방귀.",
+    "tl": "おなら: utot.",
+    "ne": "おなら: पाद।",
+    "id": "おなら: kentut.",
+    "pt": "おなら: pum.",
+    "my": "おなら: လေလည်ခြင်း။",
+    "th": "おなら: ตด."
+   },
+   "vocab": [],
+   "t": [
+    146.84,
+    148.29
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=146.84,148.29"
+  },
+  {
+   "ja": "お、おなら。",
+   "furigana": [
+    {
+     "surface": "お、おなら。",
+     "reading": ""
+    }
+   ],
+   "romaji": "O, onara.",
+   "translations": {
+    "vi": "Đ-đánh rắm ạ?",
+    "en": "A-a fart?",
+    "zh-Hans": "放、放屁？",
+    "zh-Hant": "放、放屁？",
+    "ko": "바, 방귀요?",
+    "tl": "U-utot po?",
+    "ne": "पा… पाद?",
+    "id": "K-kentut?",
+    "pt": "P-pum?",
+    "my": "လေ… လေလည်တာလား။",
+    "th": "ต… ตดเหรอครับ"
+   },
+   "grammarNote": {
+    "vi": "(ngạc nhiên)",
+    "en": "(surprised)",
+    "zh-Hans": "（吃惊）",
+    "zh-Hant": "（吃驚）",
+    "ko": "(놀람)",
+    "tl": "(nagulat)",
+    "ne": "(अचम्म)",
+    "id": "(kaget)",
+    "pt": "(surpreso)",
+    "my": "(အံ့ဩ)",
+    "th": "(ตกใจ)"
+   },
+   "vocab": [],
+   "t": [
+    149.19,
+    150.13
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=149.19,150.13"
+  },
+  {
+   "ja": "珍念は、思わずふき出しそうになりました。",
+   "furigana": [
+    {
+     "surface": "珍念",
+     "reading": "ちんねん"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "わずふき",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "だ"
+    },
+    {
+     "surface": "しそうになりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Chinnen wa, omowazu fuki dashisou ni narimashita.",
+   "translations": {
+    "vi": "Chinnen suýt nữa thì bật cười.",
+    "en": "Chinnen nearly burst out laughing.",
+    "zh-Hans": "珍念差点笑出声来。",
+    "zh-Hant": "珍念差點笑出聲來。",
+    "ko": "친넨은 하마터면 웃음을 터뜨릴 뻔했습니다.",
+    "tl": "Muntik nang matawa nang malakas si Chinnen.",
+    "ne": "चिन्नेन झन्डै खितखित हाँसिहाले।",
+    "id": "Chinnen hampir saja tertawa terbahak.",
+    "pt": "Chinnen quase caiu na gargalhada.",
+    "my": "ချင်နန်က ရယ်မိတော့မလို ဖြစ်သွားတယ်။",
+    "th": "จินเน็งเกือบหลุดหัวเราะออกมา"
+   },
+   "grammarNote": {
+    "vi": "思わず: bất giác. ふき出す: phì cười. 〜そうになる: suýt ~.",
+    "en": "思わず: in spite of oneself. ふき出す: burst out laughing. 〜そうになる: nearly ~.",
+    "zh-Hans": "思わず: 不由得。ふき出す: 笑出声。〜そうになる: 差点~。",
+    "zh-Hant": "思わず: 不由得。ふき出す: 笑出聲。〜そうになる: 差點~。",
+    "ko": "思わず: 저도 모르게. ふき出す: 웃음이 터지다. 〜そうになる: ~할 뻔하다.",
+    "tl": "思わず: hindi sinasadya. ふき出す: mapatawa. 〜そうになる: muntik nang ~.",
+    "ne": "思わず: नचाहँदै। ふき出す: हाँसो फुट्नु। 〜そうになる: झन्डै ~।",
+    "id": "思わず: tanpa sadar. ふき出す: tertawa menyembur. 〜そうになる: hampir ~.",
+    "pt": "思わず: sem querer. ふき出す: cair na risada. 〜そうになる: quase ~.",
+    "my": "思わず: မရည်ရွယ်ဘဲ။ ふき出す: ရယ်မိ။ 〜そうになる: ~ တော့မလို။",
+    "th": "思わず: เผลอ. ふき出す: หลุดหัวเราะ. 〜そうになる: เกือบจะ~."
+   },
+   "vocab": [
+    {
+     "word": "思わず",
+     "reading": "おもわず",
+     "level": "N3",
+     "meanings": {
+      "vi": "bất giác, buột miệng",
+      "en": "without meaning to",
+      "zh-Hans": "不由得，不禁",
+      "zh-Hant": "不由得，不禁",
+      "ko": "나도 모르게",
+      "tl": "hindi sinasadya",
+      "ne": "नचाहेरै",
+      "id": "tanpa sadar",
+      "pt": "sem querer",
+      "my": "မရည်ရွယ်ဘဲ",
+      "th": "โดยไม่ตั้งใจ, เผลอ"
+     }
+    }
+   ],
+   "t": [
+    151.03,
+    153.52
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=151.03,153.52"
+  },
+  {
+   "ja": "そうか。和尚さんは、知らないくせに、知っているふりをしたんだな。",
+   "furigana": [
+    {
+     "surface": "そうか。",
+     "reading": ""
+    },
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さんは、",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "らないくせに、",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "っているふりをしたんだな。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sou ka. Oshousan wa, shiranai kuse ni, shitte iru furi o shita n da na.",
+   "translations": {
+    "vi": "Ra vậy. Hòa thượng không biết mà cứ giả vờ biết.",
+    "en": "I see. The priest didn't know, but pretended he did.",
+    "zh-Hans": "原来如此。住持明明不知道，却装作知道。",
+    "zh-Hant": "原來如此。住持明明不知道，卻裝作知道。",
+    "ko": "그렇구나. 스님은 모르면서 아는 척을 하신 거구나.",
+    "tl": "Ganoon pala. Hindi alam ng pari pero nagkunwari siyang alam niya.",
+    "ne": "ए, त्यसो पो। पुजारीलाई थाहा थिएन, तर थाहा भएको बहाना गरे।",
+    "id": "Oh begitu. Biksu tidak tahu, tapi pura-pura tahu.",
+    "pt": "Entendi. O monge não sabia, mas fingiu que sabia.",
+    "my": "ဟုတ်ပြီ။ ဆရာတော်က မသိဘဲနဲ့ သိချင်ယောင် ဆောင်ခဲ့တာပဲ။",
+    "th": "อ๋อ หลวงพ่อไม่รู้แต่ทำเป็นรู้นี่เอง"
+   },
+   "grammarNote": {
+    "vi": "〜くせに: dù ~ mà lại. 〜ふりをする: giả vờ ~.",
+    "en": "〜くせに: even though. 〜ふりをする: pretend to ~.",
+    "zh-Hans": "〜くせに: 明明~却。〜ふりをする: 装作~。",
+    "zh-Hant": "〜くせに: 明明~卻。〜ふりをする: 裝作~。",
+    "ko": "〜くせに: ~하면서. 〜ふりをする: ~척하다.",
+    "tl": "〜くせに: kahit ~. 〜ふりをする: magkunwari.",
+    "ne": "〜くせに: ~ तापनि। 〜ふりをする: बहाना गर्नु।",
+    "id": "〜くせに: padahal ~. 〜ふりをする: pura-pura ~.",
+    "pt": "〜くせに: mesmo sem ~. 〜ふりをする: fingir ~.",
+    "my": "〜くせに: ~ ဘဲနဲ့။ 〜ふりをする: ~ ယောင်ဆောင်။",
+    "th": "〜くせに: ทั้งที่~. 〜ふりをする: ทำเป็น~."
+   },
+   "vocab": [],
+   "t": [
+    154.42,
+    159.3
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=154.42,159.3"
+  },
+  {
+   "ja": "帰り道、珍念は、ちょっといたずらをしようと思いつきました。",
+   "furigana": [
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "り",
+     "reading": ""
+    },
+    {
+     "surface": "道",
+     "reading": "みち"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "珍念",
+     "reading": "ちんねん"
+    },
+    {
+     "surface": "は、ちょっといたずらをしようと",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "いつきました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kaerimichi, Chinnen wa, chotto itazura o shiyou to omoitsukimashita.",
+   "translations": {
+    "vi": "Trên đường về, Chinnen nảy ra ý định trêu một chút.",
+    "en": "On the way back, Chinnen thought up a little prank.",
+    "zh-Hans": "回去的路上，珍念想到要搞个小恶作剧。",
+    "zh-Hant": "回去的路上，珍念想到要搞個小惡作劇。",
+    "ko": "돌아오는 길에 친넨은 장난을 좀 쳐야겠다는 생각이 떠올랐습니다.",
+    "tl": "Pauwi, naisip ni Chinnen na magbiro nang kaunti.",
+    "ne": "फर्कने बाटोमा चिन्नेनलाई अलिकति जिस्क्याउने विचार आयो।",
+    "id": "Di jalan pulang, Chinnen terpikir untuk sedikit iseng.",
+    "pt": "No caminho de volta, Chinnen teve a ideia de pregar uma pequena peça.",
+    "my": "ပြန်လမ်းမှာ ချင်နန်က နည်းနည်း စချင်တဲ့ အကြံ ရလာတယ်။",
+    "th": "ระหว่างทางกลับ จินเน็งคิดจะแกล้งสักหน่อย"
+   },
+   "grammarNote": {
+    "vi": "いたずら: trò nghịch. 〜(よ)うと思いつく: nảy ra ý định ~.",
+    "en": "いたずら: prank. 〜(よ)うと思いつく: come up with the idea of ~.",
+    "zh-Hans": "いたずら: 恶作剧。〜(よ)うと思いつく: 想到要~。",
+    "zh-Hant": "いたずら: 惡作劇。〜(よ)うと思いつく: 想到要~。",
+    "ko": "いたずら: 장난. 〜(よ)うと思いつく: ~하려고 생각해 내다.",
+    "tl": "いたずら: biro, kalokohan. 〜(よ)うと思いつく: maisipang ~.",
+    "ne": "いたずら: ठट्टा, उट्पट्याङ। 〜(よ)うと思いつく: ~ ने विचार आउनु।",
+    "id": "いたずら: keisengan. 〜(よ)うと思いつく: terpikir untuk ~.",
+    "pt": "いたずら: travessura. 〜(よ)うと思いつく: ter a ideia de ~.",
+    "my": "いたずら: စနောက်ခြင်း။ 〜(よ)うと思いつく: ~ ဖို့ အကြံရ။",
+    "th": "いたずら: แกล้ง. 〜(よ)うと思いつく: คิดจะ~."
+   },
+   "vocab": [
+    {
+     "word": "いたずら",
+     "reading": "いたずら",
+     "level": "N3",
+     "meanings": {
+      "vi": "trò nghịch ngợm",
+      "en": "mischief, prank",
+      "zh-Hans": "恶作剧",
+      "zh-Hant": "惡作劇",
+      "ko": "장난",
+      "tl": "kalokohan",
+      "ne": "चकचके काम",
+      "id": "kenakalan",
+      "pt": "travessura",
+      "my": "ဆော့ကစားမှု",
+      "th": "ความซน"
+     }
+    },
+    {
+     "word": "思いつく",
+     "reading": "おもいつく",
+     "level": "N3",
+     "meanings": {
+      "vi": "nghĩ ra",
+      "en": "to come up with",
+      "zh-Hans": "想到",
+      "zh-Hant": "想到",
+      "ko": "떠올리다",
+      "tl": "makaisip",
+      "ne": "सुझ्नु",
+      "id": "mendapat ide",
+      "pt": "ter uma ideia",
+      "my": "အကြံရ",
+      "th": "คิดออก"
+     }
+    }
+   ],
+   "t": [
+    160.2,
+    165.4
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=160.2,165.4"
+  },
+  {
+   "ja": "おお、珍念。転失気は、借りてこられたか。",
+   "furigana": [
+    {
+     "surface": "おお、",
+     "reading": ""
+    },
+    {
+     "surface": "珍念",
+     "reading": "ちんねん"
+    },
+    {
+     "surface": "。",
+     "reading": ""
+    },
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "借",
+     "reading": "か"
+    },
+    {
+     "surface": "りてこられたか。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oo, Chinnen. Tenshiki wa, karite korareta ka.",
+   "translations": {
+    "vi": "Ồ, Chinnen. Mượn được tenshiki chưa?",
+    "en": "Ah, Chinnen. Were you able to borrow the tenshiki?",
+    "zh-Hans": "哦，珍念。转失气借来了吗？",
+    "zh-Hant": "哦，珍念。轉失氣借來了嗎？",
+    "ko": "오, 친넨. 덴시키는 빌려 왔느냐?",
+    "tl": "O, Chinnen. Nakahiram ka ba ng tenshiki?",
+    "ne": "ए, चिन्नेन। तेन्शिकी सापट ल्याउन सक्यौ?",
+    "id": "Oh, Chinnen. Berhasil meminjam tenshiki?",
+    "pt": "Ah, Chinnen. Conseguiu pegar o tenshiki emprestado?",
+    "my": "အော်၊ ချင်နန်။ တန်ရှိကိ ငှားခဲ့နိုင်ရဲ့လား။",
+    "th": "อ้อ จินเน็ง ยืมเท็นชิกิมาได้หรือเปล่า"
+   },
+   "grammarNote": {
+    "vi": "〜てこられた: (có) ~ về được không.",
+    "en": "〜てこられた: were able to ~ and come back.",
+    "zh-Hans": "〜てこられた: 能~回来吗。",
+    "zh-Hant": "〜てこられた: 能~回來嗎。",
+    "ko": "〜てこられた: ~해 올 수 있었느냐.",
+    "tl": "〜てこられた: nakaya mong ~.",
+    "ne": "〜てこられた: ~ ल्याउन सक्यौ।",
+    "id": "〜てこられた: berhasil ~ dan kembali.",
+    "pt": "〜てこられた: conseguiu ~.",
+    "my": "〜てこられた: ~ ခဲ့နိုင်ရဲ့လား။",
+    "th": "〜てこられた: ~มาได้ไหม."
+   },
+   "vocab": [],
+   "t": [
+    166.3,
+    169.09
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=166.3,169.09"
+  },
+  {
+   "ja": "和尚さん、町では、どこにもありませんでした。",
+   "furigana": [
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さん、",
+     "reading": ""
+    },
+    {
+     "surface": "町",
+     "reading": "まち"
+    },
+    {
+     "surface": "では、どこにもありませんでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oshousan, machi de wa, doko ni mo arimasendeshita.",
+   "translations": {
+    "vi": "Thưa hòa thượng, trong phố chẳng đâu có cả.",
+    "en": "Priest, there wasn't any anywhere in town.",
+    "zh-Hans": "住持，镇上哪儿都没有。",
+    "zh-Hant": "住持，鎮上哪兒都沒有。",
+    "ko": "스님, 마을 어디에도 없었어요.",
+    "tl": "Padre, wala po kahit saan sa bayan.",
+    "ne": "पुजारी ज्यू, बजारमा कतै पनि थिएन।",
+    "id": "Biksu, di kota tidak ada di mana pun.",
+    "pt": "Monge, não tinha em lugar nenhum da cidade.",
+    "my": "ဆရာတော်၊ မြို့ထဲမှာ ဘယ်နေရာမှ မရှိဘူး ဘုရား။",
+    "th": "หลวงพ่อ ในเมืองไม่มีที่ไหนเลยครับ"
+   },
+   "grammarNote": {
+    "vi": "どこにも〜ない: không đâu có.",
+    "en": "どこにも〜ない: not anywhere.",
+    "zh-Hans": "どこにも〜ない: 哪儿都没有。",
+    "zh-Hant": "どこにも〜ない: 哪兒都沒有。",
+    "ko": "どこにも〜ない: 어디에도 없다.",
+    "tl": "どこにも〜ない: wala kahit saan.",
+    "ne": "どこにも〜ない: कतै पनि छैन।",
+    "id": "どこにも〜ない: tidak di mana pun.",
+    "pt": "どこにも〜ない: em lugar nenhum.",
+    "my": "どこにも〜ない: ဘယ်နေရာမှ မရှိ။",
+    "th": "どこにも〜ない: ไม่มีที่ไหนเลย."
+   },
+   "vocab": [],
+   "t": [
+    169.99,
+    173.49
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=169.99,173.49"
+  },
+  {
+   "ja": "そうだろう。あれは、めったにないものだからな。",
+   "furigana": [
+    {
+     "surface": "そうだろう。あれは、めったにないものだからな。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sou darou. Are wa, mettani nai mono da kara na.",
+   "translations": {
+    "vi": "Phải rồi. Thứ đó hiếm lắm mà.",
+    "en": "Of course. It's a rare thing, after all.",
+    "zh-Hans": "那当然了。那可是很少见的东西啊。",
+    "zh-Hant": "那當然了。那可是很少見的東西啊。",
+    "ko": "그렇겠지. 그건 좀처럼 없는 물건이니까.",
+    "tl": "Siyempre. Bihirang bagay iyon kasi.",
+    "ne": "हो त नि। त्यो दुर्लभ चीज हो।",
+    "id": "Tentu saja. Itu barang langka, sih.",
+    "pt": "Claro. É uma coisa rara, afinal.",
+    "my": "ဒီလိုပဲ ဖြစ်မှာပေါ့။ အဲဒါက ရှားပါးတဲ့ ပစ္စည်းကိုး။",
+    "th": "นั่นสิ ของแบบนั้นหายากนี่นา"
+   },
+   "grammarNote": {
+    "vi": "めったにない: hiếm có.",
+    "en": "めったにない: rare.",
+    "zh-Hans": "めったにない: 很少见。",
+    "zh-Hant": "めったにない: 很少見。",
+    "ko": "めったにない: 좀처럼 없다.",
+    "tl": "めったにない: bihira.",
+    "ne": "めったにない: दुर्लभ।",
+    "id": "めったにない: langka.",
+    "pt": "めったにない: raro.",
+    "my": "めったにない: ရှားပါး။",
+    "th": "めったにない: หายาก."
+   },
+   "vocab": [
+    {
+     "word": "めったに",
+     "reading": "めったに",
+     "level": "N3",
+     "meanings": {
+      "vi": "hiếm khi",
+      "en": "rarely",
+      "zh-Hans": "很少",
+      "zh-Hant": "很少",
+      "ko": "좀처럼",
+      "tl": "bihira",
+      "ne": "विरलै",
+      "id": "jarang",
+      "pt": "raramente",
+      "my": "ရှားရှားပါးပါး",
+      "th": "แทบจะไม่"
+     }
+    }
+   ],
+   "t": [
+    174.39,
+    178.53
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=174.39,178.53"
+  },
+  {
+   "ja": "ところで和尚さん、転失気って、何のことか、ご存じですよね。",
+   "furigana": [
+    {
+     "surface": "ところで",
+     "reading": ""
+    },
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さん、",
+     "reading": ""
+    },
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "って、",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "のことか、ご",
+     "reading": ""
+    },
+    {
+     "surface": "存",
+     "reading": "ぞん"
+    },
+    {
+     "surface": "じですよね。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tokorode oshousan, Tenshiki tte, nani no koto ka, gozonji desu yo ne.",
+   "translations": {
+    "vi": "Mà thưa hòa thượng, tenshiki là gì thì chắc ngài biết rồi nhỉ?",
+    "en": "By the way, Priest, you do know what tenshiki is, don't you?",
+    "zh-Hans": "对了住持，转失气是什么，您一定知道吧？",
+    "zh-Hant": "對了住持，轉失氣是什麼，您一定知道吧？",
+    "ko": "그런데 스님, 덴시키가 뭔지는 물론 아시죠?",
+    "tl": "Siyanga pala, Padre, alam naman ninyo kung ano ang tenshiki, hindi po ba?",
+    "ne": "अनि पुजारी ज्यू, तेन्शिकी के हो, तपाईंलाई त थाहा छ नि?",
+    "id": "Omong-omong, Biksu, Anda tentu tahu tenshiki itu apa, kan?",
+    "pt": "A propósito, Monge, o senhor sabe o que é tenshiki, não sabe?",
+    "my": "ဒါနဲ့ ဆရာတော်၊ တန်ရှိကိ ဆိုတာ ဘာလဲဆိုတာ အရှင်ဘုရား သိတော်မူမှာပဲနော်။",
+    "th": "ว่าแต่หลวงพ่อ เท็นชิกิคืออะไร ท่านต้องรู้อยู่แล้วใช่ไหมครับ"
+   },
+   "grammarNote": {
+    "vi": "ご存じ: biết (kính ngữ).",
+    "en": "ご存じ: know (honorific).",
+    "zh-Hans": "ご存じ: 知道（尊敬语）。",
+    "zh-Hant": "ご存じ: 知道（尊敬語）。",
+    "ko": "ご存じ: 아시다.",
+    "tl": "ご存じ: alam (magalang).",
+    "ne": "ご存じ: थाहा हुनु (आदरार्थी)।",
+    "id": "ご存じ: tahu (hormat).",
+    "pt": "ご存じ: saber (honorífico).",
+    "my": "ご存じ: သိတော်မူ။",
+    "th": "ご存じ: ทราบ (ยกย่อง)."
+   },
+   "vocab": [],
+   "t": [
+    179.43,
+    183.81
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=179.43,183.81"
+  },
+  {
+   "ja": "も、もちろんだ。お前こそ、分かったのか。言ってみなさい。",
+   "furigana": [
+    {
+     "surface": "も、もちろんだ。お",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "こそ、",
+     "reading": ""
+    },
+    {
+     "surface": "分",
+     "reading": "わ"
+    },
+    {
+     "surface": "かったのか。",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "ってみなさい。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mo, mochiron da. Omae koso, wakatta no ka. Itte mi nasai.",
+   "translations": {
+    "vi": "T-tất nhiên. Con mới phải nói, con hiểu chưa? Nói thử xem.",
+    "en": "O-of course. More to the point, did you find out? Tell me.",
+    "zh-Hans": "当、当然。倒是你，弄明白了吗？说说看。",
+    "zh-Hant": "當、當然。倒是你，弄明白了嗎？說說看。",
+    "ko": "무, 물론이지. 너야말로 알아냈느냐? 말해 보거라.",
+    "tl": "S-siyempre. Ikaw, nalaman mo ba? Sabihin mo nga.",
+    "ne": "प… पक्कै नि। बरु तँलाई थाहा भयो? भन् त।",
+    "id": "T-tentu saja. Justru kau, sudah tahu belum? Coba katakan.",
+    "pt": "C-claro. E você, descobriu? Diga.",
+    "my": "သ… သိတာပေါ့။ မင်းကရော သိခဲ့ပြီလား။ ပြောကြည့်စမ်း။",
+    "th": "แ… แน่นอน เจ้าต่างหาก รู้แล้วรึยัง ลองพูดมาซิ"
+   },
+   "grammarNote": {
+    "vi": "〜こそ: chính ~ mới. 〜てみなさい: thử ~ xem.",
+    "en": "〜こそ: (you) for your part. 〜てみなさい: try ~.",
+    "zh-Hans": "〜こそ: 倒是~。〜てみなさい: ~看看。",
+    "zh-Hant": "〜こそ: 倒是~。〜てみなさい: ~看看。",
+    "ko": "〜こそ: ~야말로. 〜てみなさい: ~해 보거라.",
+    "tl": "〜こそ: ikaw naman. 〜てみなさい: subukan mong ~.",
+    "ne": "〜こそ: बरु ~। 〜てみなさい: ~ त।",
+    "id": "〜こそ: justru ~. 〜てみなさい: coba ~.",
+    "pt": "〜こそ: e você. 〜てみなさい: experimente ~.",
+    "my": "〜こそ: မင်းကရော။ 〜てみなさい: ~ ကြည့်စမ်း။",
+    "th": "〜こそ: ~ต่างหาก. 〜てみなさい: ลอง~ดู."
+   },
+   "vocab": [],
+   "t": [
+    184.71,
+    190
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=184.71,190"
+  },
+  {
+   "ja": "はい。転失気というのは、お酒を飲む盃のことだそうです。",
+   "furigana": [
+    {
+     "surface": "はい。",
+     "reading": ""
+    },
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "というのは、お",
+     "reading": ""
+    },
+    {
+     "surface": "酒",
+     "reading": "さけ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "飲",
+     "reading": "の"
+    },
+    {
+     "surface": "む",
+     "reading": ""
+    },
+    {
+     "surface": "盃",
+     "reading": "さかずき"
+    },
+    {
+     "surface": "のことだそうです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hai. Tenshiki toiu no wa, osake o nomu sakazuki no koto da sou desu.",
+   "translations": {
+    "vi": "Dạ. Nghe nói tenshiki là cái chén uống rượu sake ạ.",
+    "en": "Yes. They say tenshiki means a cup for drinking sake.",
+    "zh-Hans": "是。听说转失气就是喝酒用的酒杯。",
+    "zh-Hant": "是。聽說轉失氣就是喝酒用的酒杯。",
+    "ko": "네. 덴시키란 술 마시는 잔을 말한대요.",
+    "tl": "Opo. Ang tenshiki raw po ay tasa na iniinuman ng sake.",
+    "ne": "हजुर। तेन्शिकी भनेको साके पिउने कचौरा रे।",
+    "id": "Ya. Katanya tenshiki itu cawan untuk minum sake.",
+    "pt": "Sim. Dizem que tenshiki é o copinho de beber saquê.",
+    "my": "တင်ပါ့။ တန်ရှိကိ ဆိုတာ ဆာကေး သောက်တဲ့ ခွက်လေး ဖြစ်တယ်တဲ့ ဘုရား။",
+    "th": "ครับ ได้ยินว่าเท็นชิกิคือจอกดื่มเหล้าสาเกครับ"
+   },
+   "grammarNote": {
+    "vi": "盃: chén rượu. 〜そうです: nghe nói.",
+    "en": "盃: sake cup. 〜そうです: I hear.",
+    "zh-Hans": "盃: 酒杯。〜そうです: 听说。",
+    "zh-Hant": "盃: 酒杯。〜そうです: 聽說。",
+    "ko": "盃: 술잔. 〜そうです: ~래요.",
+    "tl": "盃: tasa ng sake. 〜そうです: raw.",
+    "ne": "盃: साके पिउने कचौरा। 〜そうです: रे।",
+    "id": "盃: cawan sake. 〜そうです: katanya.",
+    "pt": "盃: copinho de saquê. 〜そうです: dizem que.",
+    "my": "盃: ဆာကေးခွက်။ 〜そうです: တဲ့။",
+    "th": "盃: จอกสาเก. 〜そうです: ได้ยินว่า."
+   },
+   "vocab": [
+    {
+     "word": "酒",
+     "reading": "さけ",
+     "level": "N3",
+     "meanings": {
+      "vi": "rượu (sake)",
+      "en": "sake, alcohol",
+      "zh-Hans": "酒",
+      "zh-Hant": "酒",
+      "ko": "술",
+      "tl": "alak, sake",
+      "ne": "रक्सी",
+      "id": "sake, minuman keras",
+      "pt": "saquê, bebida",
+      "my": "အရက်",
+      "th": "เหล้า"
+     }
+    },
+    {
+     "word": "盃",
+     "reading": "さかずき",
+     "level": "N1",
+     "meanings": {
+      "vi": "chén rượu",
+      "en": "sake cup",
+      "zh-Hans": "酒杯",
+      "zh-Hant": "酒杯",
+      "ko": "술잔",
+      "tl": "tasa ng sake",
+      "ne": "मद्यको कचौरा",
+      "id": "cawan sake",
+      "pt": "copinho de saquê",
+      "my": "ဆာကေးခွက်",
+      "th": "จอกสาเก"
+     }
+    }
+   ],
+   "t": [
+    190.9,
+    195.02
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=190.9,195.02"
+  },
+  {
+   "ja": "そう、そう。盃のことだ。よく分かったな。",
+   "furigana": [
+    {
+     "surface": "そう、そう。",
+     "reading": ""
+    },
+    {
+     "surface": "盃",
+     "reading": "さかずき"
+    },
+    {
+     "surface": "のことだ。よく",
+     "reading": ""
+    },
+    {
+     "surface": "分",
+     "reading": "わ"
+    },
+    {
+     "surface": "かったな。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sou, sou. Sakazuki no koto da. Yoku wakatta na.",
+   "translations": {
+    "vi": "Đúng, đúng. Là chén rượu. Con hiểu giỏi lắm.",
+    "en": "Yes, yes. A sake cup. Well understood.",
+    "zh-Hans": "对，对。就是酒杯。你懂得不错嘛。",
+    "zh-Hant": "對，對。就是酒杯。你懂得不錯嘛。",
+    "ko": "그래, 그래. 술잔이지. 잘 알아 왔구나.",
+    "tl": "Oo, oo. Tasa ng sake. Magaling at naintindihan mo.",
+    "ne": "हो, हो। कचौरा नै हो। राम्रोसँग बुझिस्।",
+    "id": "Ya, ya. Cawan sake. Pintar kau.",
+    "pt": "Isso, isso. Copinho de saquê. Muito bem.",
+    "my": "ဟုတ်တယ်၊ ဟုတ်တယ်။ ခွက်လေးပဲ။ သိခဲ့တာ တော်တယ်။",
+    "th": "ใช่ ๆ จอกเหล้านั่นแหละ เจ้ารู้ดีนี่"
+   },
+   "grammarNote": {
+    "vi": "よく: giỏi, tốt.",
+    "en": "よく: well.",
+    "zh-Hans": "よく: 很好地。",
+    "zh-Hant": "よく: 很好地。",
+    "ko": "よく: 잘.",
+    "tl": "よく: mabuti.",
+    "ne": "よく: राम्रोसँग।",
+    "id": "よく: dengan baik.",
+    "pt": "よく: bem.",
+    "my": "よく: ကောင်းကောင်း။",
+    "th": "よく: ดี."
+   },
+   "vocab": [],
+   "t": [
+    195.92,
+    200.3
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=195.92,200.3"
+  },
+  {
+   "ja": "和尚さんは、すっかり信じこんでしまいました。",
+   "furigana": [
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さんは、すっかり",
+     "reading": ""
+    },
+    {
+     "surface": "信",
+     "reading": "しん"
+    },
+    {
+     "surface": "じこんでしまいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oshousan wa, sukkari shinji konde shimaimashita.",
+   "translations": {
+    "vi": "Hòa thượng tin sái cổ.",
+    "en": "The priest believed it completely.",
+    "zh-Hans": "住持完全信以为真了。",
+    "zh-Hant": "住持完全信以為真了。",
+    "ko": "스님은 완전히 믿어 버렸습니다.",
+    "tl": "Lubusang naniwala ang pari.",
+    "ne": "पुजारीले पूरै पत्याए।",
+    "id": "Sang biksu percaya sepenuhnya.",
+    "pt": "O monge acreditou completamente.",
+    "my": "ဆရာတော်က လုံးဝ ယုံသွားတယ်။",
+    "th": "หลวงพ่อเชื่อสนิทใจ"
+   },
+   "grammarNote": {
+    "vi": "信じこむ: tin chắc. すっかり: hoàn toàn.",
+    "en": "信じこむ: firmly believe. すっかり: completely.",
+    "zh-Hans": "信じこむ: 深信。すっかり: 完全。",
+    "zh-Hant": "信じこむ: 深信。すっかり: 完全。",
+    "ko": "信じこむ: 굳게 믿다. すっかり: 완전히.",
+    "tl": "信じこむ: lubos na maniwala. すっかり: lubusan.",
+    "ne": "信じこむ: पूरै पत्याउनु। すっかり: पूरै।",
+    "id": "信じこむ: percaya penuh. すっかり: sepenuhnya.",
+    "pt": "信じこむ: acreditar piamente. すっかり: completamente.",
+    "my": "信じこむ: လုံးဝ ယုံ။ すっかり: လုံးဝ။",
+    "th": "信じこむ: เชื่อสนิท. すっかり: หมดใจ."
+   },
+   "vocab": [
+    {
+     "word": "信じる",
+     "reading": "しんじる",
+     "level": "N3",
+     "meanings": {
+      "vi": "tin",
+      "en": "to believe",
+      "zh-Hans": "相信",
+      "zh-Hant": "相信",
+      "ko": "믿다",
+      "tl": "maniwala",
+      "ne": "विश्वास गर्नु",
+      "id": "percaya",
+      "pt": "acreditar",
+      "my": "ယုံ",
+      "th": "เชื่อ"
+     }
+    }
+   ],
+   "t": [
+    201.2,
+    205.04
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=201.2,205.04"
+  },
+  {
+   "ja": "それから数日たって、和尚さんの様子を見に、またお医者さんがやってきました。",
+   "furigana": [
+    {
+     "surface": "それから",
+     "reading": ""
+    },
+    {
+     "surface": "数",
+     "reading": "すう"
+    },
+    {
+     "surface": "日",
+     "reading": "にち"
+    },
+    {
+     "surface": "たって、",
+     "reading": ""
+    },
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さんの",
+     "reading": ""
+    },
+    {
+     "surface": "様子",
+     "reading": "ようす"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "に、またお",
+     "reading": ""
+    },
+    {
+     "surface": "医者",
+     "reading": "いしゃ"
+    },
+    {
+     "surface": "さんがやってきました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sorekara suunichi tatte, oshousan no yousu o mi ni, mata oishasan ga yattekimashita.",
+   "translations": {
+    "vi": "Vài ngày sau, thầy thuốc lại đến xem tình hình hòa thượng.",
+    "en": "A few days later, the doctor came again to see how the priest was doing.",
+    "zh-Hans": "过了几天，医生又来看住持的情况了。",
+    "zh-Hant": "過了幾天，醫生又來看住持的情況了。",
+    "ko": "며칠 뒤, 스님의 상태를 보러 의원이 또 찾아왔습니다.",
+    "tl": "Pagkalipas ng ilang araw, dumalaw ulit ang doktor para tingnan ang lagay ng pari.",
+    "ne": "केही दिनपछि, पुजारीको हालखबर हेर्न वैद्य फेरि आए।",
+    "id": "Beberapa hari kemudian, tabib datang lagi untuk melihat keadaan biksu.",
+    "pt": "Alguns dias depois, o médico voltou para ver como o monge estava.",
+    "my": "ရက်အနည်းငယ် ကြာတော့ ဆရာတော့်အခြေအနေ ကြည့်ဖို့ ဆေးဆရာ ထပ်ရောက်လာတယ်။",
+    "th": "ผ่านไปไม่กี่วัน หมอก็มาดูอาการหลวงพ่ออีก"
+   },
+   "grammarNote": {
+    "vi": "数日: vài ngày. 様子を見る: xem tình hình.",
+    "en": "数日: a few days. 様子を見る: check on.",
+    "zh-Hans": "数日: 几天。様子を見る: 看情况。",
+    "zh-Hant": "数日: 幾天。様子を見る: 看情況。",
+    "ko": "数日: 며칠. 様子を見る: 상태를 보다.",
+    "tl": "数日: ilang araw. 様子を見る: tingnan ang lagay.",
+    "ne": "数日: केही दिन। 様子を見る: हालखबर हेर्नु।",
+    "id": "数日: beberapa hari. 様子を見る: melihat keadaan.",
+    "pt": "数日: alguns dias. 様子を見る: ver como está.",
+    "my": "数日: ရက်အနည်းငယ်။ 様子を見る: အခြေအနေကြည့်။",
+    "th": "数日: ไม่กี่วัน. 様子を見る: ดูอาการ."
+   },
+   "vocab": [
+    {
+     "word": "様子",
+     "reading": "ようす",
+     "level": "N3",
+     "meanings": {
+      "vi": "dáng vẻ, tình hình",
+      "en": "appearance, situation",
+      "zh-Hans": "样子，情况",
+      "zh-Hant": "樣子，情況",
+      "ko": "모습, 상황",
+      "tl": "itsura, kalagayan",
+      "ne": "अवस्था, दृश्य",
+      "id": "keadaan, gelagat",
+      "pt": "aspecto, situação",
+      "my": "အခြေအနေ, ပုံ",
+      "th": "ท่าทาง, สภาพ"
+     }
+    }
+   ],
+   "t": [
+    205.64,
+    212.14
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=205.64,212.14"
+  },
+  {
+   "ja": "和尚さん、具合はいかがですかな。転失気は、ありましたか。",
+   "furigana": [
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さん、",
+     "reading": ""
+    },
+    {
+     "surface": "具合",
+     "reading": "ぐあい"
+    },
+    {
+     "surface": "はいかがですかな。",
+     "reading": ""
+    },
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "は、ありましたか。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oshousan, guai wa ikaga desu ka na. Tenshiki wa, arimashita ka.",
+   "translations": {
+    "vi": "Hòa thượng thấy trong người thế nào? Có tenshiki chưa?",
+    "en": "Priest, how are you feeling? Did you find any tenshiki?",
+    "zh-Hans": "住持，身体怎么样了？转失气有了吗？",
+    "zh-Hant": "住持，身體怎麼樣了？轉失氣有了嗎？",
+    "ko": "스님, 몸은 좀 어떠십니까? 덴시키는 있으셨습니까?",
+    "tl": "Padre, kumusta ang pakiramdam ninyo? May tenshiki na ba?",
+    "ne": "पुजारी ज्यू, स्वास्थ्य कस्तो छ? तेन्शिकी भेटियो?",
+    "id": "Biksu, bagaimana keadaan Anda? Sudah ada tenshiki?",
+    "pt": "Monge, como está se sentindo? Encontrou tenshiki?",
+    "my": "ဆရာတော်၊ နေကောင်းရဲ့လား။ တန်ရှိကိ ရှိသွားပြီလား။",
+    "th": "หลวงพ่อ อาการเป็นอย่างไรบ้างครับ มีเท็นชิกิแล้วหรือยัง"
+   },
+   "grammarNote": {
+    "vi": "具合: tình trạng sức khỏe. いかが: thế nào.",
+    "en": "具合: condition. いかが: how.",
+    "zh-Hans": "具合: 身体状况。いかが: 怎么样。",
+    "zh-Hant": "具合: 身體狀況。いかが: 怎麼樣。",
+    "ko": "具合: 몸 상태. いかが: 어떠하다.",
+    "tl": "具合: lagay. いかが: kumusta.",
+    "ne": "具合: स्वास्थ्य। いかが: कस्तो।",
+    "id": "具合: keadaan (kesehatan). いかが: bagaimana.",
+    "pt": "具合: estado de saúde. いかが: como.",
+    "my": "具合: ကျန်းမာရေး အခြေအနေ။ いかが: ဘယ်လိုလဲ။",
+    "th": "具合: อาการ. いかが: อย่างไร."
+   },
+   "vocab": [],
+   "t": [
+    213.04,
+    217.43
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=213.04,217.43"
+  },
+  {
+   "ja": "はい、先生。実は、ありました。",
+   "furigana": [
+    {
+     "surface": "はい、",
+     "reading": ""
+    },
+    {
+     "surface": "先生",
+     "reading": "せんせい"
+    },
+    {
+     "surface": "。",
+     "reading": ""
+    },
+    {
+     "surface": "実",
+     "reading": "じつ"
+    },
+    {
+     "surface": "は、ありました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hai, sensei. Jitsuwa, arimashita.",
+   "translations": {
+    "vi": "Dạ, thưa thầy. Thật ra là có rồi.",
+    "en": "Yes, Doctor. As a matter of fact, we did.",
+    "zh-Hans": "是的，大夫。其实有了。",
+    "zh-Hant": "是的，大夫。其實有了。",
+    "ko": "예, 선생님. 실은 있었습니다.",
+    "tl": "Opo, Doktor. Ang totoo, mayroon na.",
+    "ne": "हजुर, वैद्य ज्यू। साँच्चै भन्दा, भेटियो।",
+    "id": "Ya, Tuan Tabib. Sebenarnya sudah ada.",
+    "pt": "Sim, doutor. Na verdade, encontramos.",
+    "my": "ဟုတ်ကဲ့ ဆရာ။ တကယ်တော့ ရှိသွားပါပြီ။",
+    "th": "มีแล้ว คุณหมอ ความจริงคือมีแล้ว"
+   },
+   "grammarNote": {
+    "vi": "実は: thật ra.",
+    "en": "実は: actually.",
+    "zh-Hans": "実は: 其实。",
+    "zh-Hant": "実は: 其實。",
+    "ko": "実は: 실은.",
+    "tl": "実は: ang totoo.",
+    "ne": "実は: साँच्चै भन्दा।",
+    "id": "実は: sebenarnya.",
+    "pt": "実は: na verdade.",
+    "my": "実は: တကယ်တော့။",
+    "th": "実は: ความจริงคือ."
+   },
+   "vocab": [],
+   "t": [
+    218.33,
+    221.74
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=218.33,221.74"
+  },
+  {
+   "ja": "珍念、あの転失気を持ってきなさい。",
+   "furigana": [
+    {
+     "surface": "珍念",
+     "reading": "ちんねん"
+    },
+    {
+     "surface": "、あの",
+     "reading": ""
+    },
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "持",
+     "reading": "も"
+    },
+    {
+     "surface": "ってきなさい。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Chinnen, ano Tenshiki o motte ki nasai.",
+   "translations": {
+    "vi": "Chinnen, mang cái tenshiki ấy ra đây.",
+    "en": "Chinnen, bring that tenshiki here.",
+    "zh-Hans": "珍念，把那个转失气拿来。",
+    "zh-Hant": "珍念，把那個轉失氣拿來。",
+    "ko": "친넨아, 그 덴시키를 가져오너라.",
+    "tl": "Chinnen, dalhin mo rito ang tenshiki.",
+    "ne": "चिन्नेन, त्यो तेन्शिकी ल्याऊ।",
+    "id": "Chinnen, bawa tenshiki itu kemari.",
+    "pt": "Chinnen, traga aquele tenshiki.",
+    "my": "ချင်နန်၊ အဲဒီ တန်ရှိကိကို ယူခဲ့။",
+    "th": "จินเน็ง เอาเท็นชิกินั่นมานี่"
+   },
+   "grammarNote": {
+    "vi": "持ってくる: mang đến.",
+    "en": "持ってくる: bring.",
+    "zh-Hans": "持ってくる: 拿来。",
+    "zh-Hant": "持ってくる: 拿來。",
+    "ko": "持ってくる: 가져오다.",
+    "tl": "持ってくる: dalhin.",
+    "ne": "持ってくる: ल्याउनु।",
+    "id": "持ってくる: membawa.",
+    "pt": "持ってくる: trazer.",
+    "my": "持ってくる: ယူခဲ့။",
+    "th": "持ってくる: เอามา."
+   },
+   "vocab": [],
+   "t": [
+    222.34,
+    224.28
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=222.34,224.28"
+  },
+  {
+   "ja": "珍念は、笑いをこらえながら、桐の箱を運んできました。",
+   "furigana": [
+    {
+     "surface": "珍念",
+     "reading": "ちんねん"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "笑",
+     "reading": "わら"
+    },
+    {
+     "surface": "いをこらえながら、",
+     "reading": ""
+    },
+    {
+     "surface": "桐",
+     "reading": "きり"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "箱",
+     "reading": "はこ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "運",
+     "reading": "はこ"
+    },
+    {
+     "surface": "んできました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Chinnen wa, warai o korae nagara, kiri no hako o hakonde kimashita.",
+   "translations": {
+    "vi": "Chinnen cố nhịn cười, bưng ra một chiếc hộp gỗ ngô đồng.",
+    "en": "Holding back his laughter, Chinnen carried in a paulownia-wood box.",
+    "zh-Hans": "珍念忍着笑，捧来一个桐木箱子。",
+    "zh-Hant": "珍念忍著笑，捧來一個桐木箱子。",
+    "ko": "친넨은 웃음을 참으며 오동나무 상자를 들고 왔습니다.",
+    "tl": "Pinipigilan ang tawa, binitbit ni Chinnen ang isang kahong gawa sa kahoy na paulownia.",
+    "ne": "चिन्नेनले हाँसो थाम्दै किरी काठको बाकस बोकेर ल्याए।",
+    "id": "Sambil menahan tawa, Chinnen membawa sebuah kotak kayu paulownia.",
+    "pt": "Segurando o riso, Chinnen trouxe uma caixa de madeira de paulównia.",
+    "my": "ချင်နန်က ရယ်ချင်တာကို ထိန်းရင်း ကီရီ သစ်သားသေတ္တာကို သယ်လာတယ်။",
+    "th": "จินเน็งกลั้นหัวเราะ ยกกล่องไม้คิริมาให้"
+   },
+   "grammarNote": {
+    "vi": "こらえる: nhịn. 桐: gỗ ngô đồng (paulownia).",
+    "en": "こらえる: hold back. 桐: paulownia.",
+    "zh-Hans": "こらえる: 忍住。桐: 桐木。",
+    "zh-Hant": "こらえる: 忍住。桐: 桐木。",
+    "ko": "こらえる: 참다. 桐: 오동나무.",
+    "tl": "こらえる: pigilan. 桐: paulownia.",
+    "ne": "こらえる: थाम्नु। 桐: किरी (पाउलोनिया) काठ।",
+    "id": "こらえる: menahan. 桐: kayu paulownia.",
+    "pt": "こらえる: segurar. 桐: paulównia.",
+    "my": "こらえる: ထိန်း။ 桐: ကီရီ (ပေါလိုနီယာ) သစ်။",
+    "th": "こらえる: กลั้น. 桐: ไม้คิริ (พอโลเนีย)."
+   },
+   "vocab": [
+    {
+     "word": "笑い",
+     "reading": "わらい",
+     "level": "N3",
+     "meanings": {
+      "vi": "tiếng cười",
+      "en": "laughter",
+      "zh-Hans": "笑声",
+      "zh-Hant": "笑聲",
+      "ko": "웃음",
+      "tl": "tawa",
+      "ne": "हाँसो",
+      "id": "tawa",
+      "pt": "riso",
+      "my": "ရယ်မောခြင်း",
+      "th": "เสียงหัวเราะ"
+     }
+    },
+    {
+     "word": "こらえる",
+     "reading": "こらえる",
+     "level": "N2",
+     "meanings": {
+      "vi": "nhịn, kìm nén",
+      "en": "to hold back, endure",
+      "zh-Hans": "忍住",
+      "zh-Hant": "忍住",
+      "ko": "참다",
+      "tl": "pigilan",
+      "ne": "थाम्नु",
+      "id": "menahan",
+      "pt": "segurar, conter",
+      "my": "ထိန်းချုပ်",
+      "th": "อดกลั้น"
+     }
+    },
+    {
+     "word": "桐",
+     "reading": "きり",
+     "level": "N3",
+     "meanings": {
+      "vi": "gỗ ngô đồng",
+      "en": "paulownia wood",
+      "zh-Hans": "桐木",
+      "zh-Hant": "桐木",
+      "ko": "오동나무",
+      "tl": "kahoy na paulownia",
+      "ne": "पाउलोनिया काठ",
+      "id": "kayu paulownia",
+      "pt": "paulównia",
+      "my": "ပေါလိုနီယာသစ်",
+      "th": "ไม้เพาโลเนีย"
+     }
+    }
+   ],
+   "t": [
+    225.18,
+    229.57
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=225.18,229.57"
+  },
+  {
+   "ja": "和尚さんは、もったいぶって、ふたを開けました。",
+   "furigana": [
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さんは、もったいぶって、ふたを",
+     "reading": ""
+    },
+    {
+     "surface": "開",
+     "reading": "あ"
+    },
+    {
+     "surface": "けました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oshousan wa, mottaibutte, futa o akemashita.",
+   "translations": {
+    "vi": "Hòa thượng làm ra vẻ trịnh trọng, mở nắp ra.",
+    "en": "With great ceremony, the priest opened the lid.",
+    "zh-Hans": "住持煞有介事地打开了盖子。",
+    "zh-Hant": "住持煞有介事地打開了蓋子。",
+    "ko": "스님은 거드름을 피우며 뚜껑을 열었습니다.",
+    "tl": "Buong seremonyang binuksan ng pari ang takip.",
+    "ne": "पुजारीले ठूलो रवाफका साथ बिर्को खोले।",
+    "id": "Dengan gaya penting, biksu membuka tutupnya.",
+    "pt": "Todo cerimonioso, o monge abriu a tampa.",
+    "my": "ဆရာတော်က ဟန်ပါပါနဲ့ အဖုံးကို ဖွင့်လိုက်တယ်။",
+    "th": "หลวงพ่อทำท่าขึงขัง เปิดฝากล่องออก"
+   },
+   "grammarNote": {
+    "vi": "もったいぶる: làm ra vẻ quan trọng. ふた: nắp.",
+    "en": "もったいぶる: make a show. ふた: lid.",
+    "zh-Hans": "もったいぶる: 装腔作势。ふた: 盖子。",
+    "zh-Hant": "もったいぶる: 裝腔作勢。ふた: 蓋子。",
+    "ko": "もったいぶる: 거드름 피우다. ふた: 뚜껑.",
+    "tl": "もったいぶる: magpasikat. ふた: takip.",
+    "ne": "もったいぶる: रवाफ गर्नु। ふた: बिर्को।",
+    "id": "もったいぶる: berlagak penting. ふた: tutup.",
+    "pt": "もったいぶる: fazer cerimônia. ふた: tampa.",
+    "my": "もったいぶる: ဟန်လုပ်။ ふた: အဖုံး။",
+    "th": "もったいぶる: ทำท่าขึงขัง. ふた: ฝา."
+   },
+   "vocab": [],
+   "t": [
+    230.17,
+    234.17
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=230.17,234.17"
+  },
+  {
+   "ja": "これが、うちの寺に三百年伝わる、自慢の転失気でございます。",
+   "furigana": [
+    {
+     "surface": "これが、うちの",
+     "reading": ""
+    },
+    {
+     "surface": "寺",
+     "reading": "てら"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "三",
+     "reading": "さん"
+    },
+    {
+     "surface": "百",
+     "reading": "ひゃく"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "伝",
+     "reading": "つた"
+    },
+    {
+     "surface": "わる、",
+     "reading": ""
+    },
+    {
+     "surface": "自慢",
+     "reading": "じまん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "でございます。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kore ga, uchi no tera ni san hyakunen tsutawaru, jiman no Tenshiki de gozaimasu.",
+   "translations": {
+    "vi": "Đây là tenshiki quý báu, truyền lại ba trăm năm ở chùa chúng tôi.",
+    "en": "This is our temple's pride: a tenshiki handed down for three hundred years.",
+    "zh-Hans": "这就是本寺流传三百年、引以为傲的转失气。",
+    "zh-Hant": "這就是本寺流傳三百年、引以為傲的轉失氣。",
+    "ko": "이것이 저희 절에 삼백 년 전해 내려오는 자랑스러운 덴시키이옵니다.",
+    "tl": "Ito po ang ipinagmamalaking tenshiki ng aming templo, minana sa loob ng tatlong daang taon.",
+    "ne": "यो हाम्रो मन्दिरमा तीन सय वर्षदेखि चलिआएको गौरवको तेन्शिकी हो।",
+    "id": "Inilah tenshiki kebanggaan kuil kami, diwariskan selama tiga ratus tahun.",
+    "pt": "Este é o orgulho do nosso templo: um tenshiki passado de geração em geração há trezentos anos.",
+    "my": "ဒါက ကျွန်ုပ်တို့ကျောင်းမှာ နှစ်သုံးရာ အမွေဆက်ခံလာတဲ့ ဂုဏ်ယူစရာ တန်ရှိကိ ဖြစ်ပါတယ်။",
+    "th": "นี่คือเท็นชิกิอันเป็นความภูมิใจของวัดเรา สืบทอดกันมาสามร้อยปี"
+   },
+   "grammarNote": {
+    "vi": "伝わる: được truyền lại. 自慢: niềm tự hào. 〜でございます: là ~ (rất lịch sự).",
+    "en": "伝わる: be handed down. 自慢: pride. 〜でございます: is (very polite).",
+    "zh-Hans": "伝わる: 流传。自慢: 引以为傲。〜でございます: 是（非常礼貌）。",
+    "zh-Hant": "伝わる: 流傳。自慢: 引以為傲。〜でございます: 是（非常禮貌）。",
+    "ko": "伝わる: 전해지다. 自慢: 자랑. 〜でございます: ~이옵니다.",
+    "tl": "伝わる: maipasa. 自慢: ipinagmamalaki. 〜でございます: ito po ay (napakagalang).",
+    "ne": "伝わる: चलिआउनु। 自慢: गौरव। 〜でございます: हो (अति विनम्र)।",
+    "id": "伝わる: diwariskan. 自慢: kebanggaan. 〜でございます: inilah (sangat sopan).",
+    "pt": "伝わる: ser transmitido. 自慢: orgulho. 〜でございます: é (muito polido).",
+    "my": "伝わる: ဆက်ခံလာ။ 自慢: ဂုဏ်ယူစရာ။ 〜でございます: ဖြစ်ပါတယ် (အလွန်ယဉ်ကျေး)။",
+    "th": "伝わる: สืบทอด. 自慢: ความภูมิใจ. 〜でございます: คือ (สุภาพมาก)."
+   },
+   "vocab": [
+    {
+     "word": "伝わる",
+     "reading": "つたわる",
+     "level": "N3",
+     "meanings": {
+      "vi": "được truyền lại",
+      "en": "to be handed down",
+      "zh-Hans": "流传",
+      "zh-Hant": "流傳",
+      "ko": "전해지다",
+      "tl": "maipasa",
+      "ne": "हस्तान्तरण हुनु",
+      "id": "diwariskan",
+      "pt": "ser transmitido",
+      "my": "လက်ဆင့်ကမ်းခံရ",
+      "th": "ตกทอดมา"
+     }
+    },
+    {
+     "word": "自慢",
+     "reading": "じまん",
+     "level": "N3",
+     "meanings": {
+      "vi": "niềm tự hào, khoe",
+      "en": "pride, boasting",
+      "zh-Hans": "骄傲，自夸",
+      "zh-Hant": "驕傲，自誇",
+      "ko": "자랑",
+      "tl": "pagmamalaki",
+      "ne": "गर्व",
+      "id": "kebanggaan",
+      "pt": "orgulho",
+      "my": "ဂုဏ်ယူစရာ",
+      "th": "ความภูมิใจ, อวด"
+     }
+    }
+   ],
+   "t": [
+    235.07,
+    240.67
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=235.07,240.67"
+  },
+  {
+   "ja": "中に入っていたのは、古くて立派な盃でした。",
+   "furigana": [
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "入",
+     "reading": "はい"
+    },
+    {
+     "surface": "っていたのは、",
+     "reading": ""
+    },
+    {
+     "surface": "古",
+     "reading": "ふる"
+    },
+    {
+     "surface": "くて",
+     "reading": ""
+    },
+    {
+     "surface": "立派",
+     "reading": "りっぱ"
+    },
+    {
+     "surface": "な",
+     "reading": ""
+    },
+    {
+     "surface": "盃",
+     "reading": "さかずき"
+    },
+    {
+     "surface": "でした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Naka ni haitte ita no wa, furukute rippa na sakazuki deshita.",
+   "translations": {
+    "vi": "Bên trong là một chiếc chén rượu cũ mà đẹp đẽ.",
+    "en": "Inside was a splendid old sake cup.",
+    "zh-Hans": "里面装的是一个古老而精美的酒杯。",
+    "zh-Hant": "裡面裝的是一個古老而精美的酒杯。",
+    "ko": "안에 든 것은 오래되고 훌륭한 술잔이었습니다.",
+    "tl": "Ang nasa loob ay isang luma at magarang tasa ng sake.",
+    "ne": "भित्र पुरानो तर सुन्दर साके कचौरा थियो।",
+    "id": "Isinya adalah sebuah cawan sake tua yang indah.",
+    "pt": "Dentro havia um copinho de saquê antigo e magnífico.",
+    "my": "အထဲမှာ ပါတာက ရှေးကျပြီး လှပတဲ့ ဆာကေးခွက်လေးပဲ။",
+    "th": "ข้างในเป็นจอกสาเกเก่าแก่ที่งดงาม"
+   },
+   "grammarNote": {
+    "vi": "立派: đẹp đẽ, sang trọng.",
+    "en": "立派: fine, splendid.",
+    "zh-Hans": "立派: 精美，气派。",
+    "zh-Hant": "立派: 精美，氣派。",
+    "ko": "立派: 훌륭하다.",
+    "tl": "立派: magara.",
+    "ne": "立派: सुन्दर, भव्य।",
+    "id": "立派: indah, megah.",
+    "pt": "立派: magnífico.",
+    "my": "立派: လှပ ခမ်းနား။",
+    "th": "立派: งดงาม."
+   },
+   "vocab": [],
+   "t": [
+    241.57,
+    246.11
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=241.57,246.11"
+  },
+  {
+   "ja": "和尚さん、これは、盃ですよ。",
+   "furigana": [
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さん、これは、",
+     "reading": ""
+    },
+    {
+     "surface": "盃",
+     "reading": "さかずき"
+    },
+    {
+     "surface": "ですよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oshousan, kore wa, sakazuki desu yo.",
+   "translations": {
+    "vi": "Hòa thượng ơi, đây là chén rượu mà.",
+    "en": "Priest, this is a sake cup.",
+    "zh-Hans": "住持，这是酒杯呀。",
+    "zh-Hant": "住持，這是酒杯呀。",
+    "ko": "스님, 이건 술잔인데요.",
+    "tl": "Padre, tasa ng sake ito.",
+    "ne": "पुजारी ज्यू, यो त साके कचौरा हो।",
+    "id": "Biksu, ini cawan sake.",
+    "pt": "Monge, isto é um copinho de saquê.",
+    "my": "ဆရာတော်၊ ဒါ ဆာကေးခွက်ပဲလေ။",
+    "th": "หลวงพ่อ นี่มันจอกเหล้านะครับ"
+   },
+   "grammarNote": {
+    "vi": "(ngạc nhiên)",
+    "en": "(surprised)",
+    "zh-Hans": "（吃惊）",
+    "zh-Hant": "（吃驚）",
+    "ko": "(놀람)",
+    "tl": "(nagulat)",
+    "ne": "(अचम्म)",
+    "id": "(kaget)",
+    "pt": "(surpreso)",
+    "my": "(အံ့ဩ)",
+    "th": "(ตกใจ)"
+   },
+   "vocab": [],
+   "t": [
+    247.01,
+    249.98
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=247.01,249.98"
+  },
+  {
+   "ja": "ええ、てんしきでございます。",
+   "furigana": [
+    {
+     "surface": "ええ、てんしきでございます。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ee, ten shiki de gozaimasu.",
+   "translations": {
+    "vi": "Vâng, là tenshiki đó ạ.",
+    "en": "Yes, it is a tenshiki.",
+    "zh-Hans": "是的，正是转失气。",
+    "zh-Hant": "是的，正是轉失氣。",
+    "ko": "예, 덴시키이옵니다.",
+    "tl": "Opo, tenshiki po.",
+    "ne": "हजुर, तेन्शिकी हो।",
+    "id": "Ya, tenshiki namanya.",
+    "pt": "Sim, é um tenshiki.",
+    "my": "ဟုတ်ကဲ့၊ တန်ရှိကိ ဖြစ်ပါတယ်။",
+    "th": "ใช่ เท็นชิกินั่นเอง"
+   },
+   "grammarNote": {
+    "vi": "(tự tin)",
+    "en": "(proudly)",
+    "zh-Hans": "（得意）",
+    "zh-Hant": "（得意）",
+    "ko": "(자신만만)",
+    "tl": "(mayabang)",
+    "ne": "(गर्वले)",
+    "id": "(bangga)",
+    "pt": "(orgulhoso)",
+    "my": "(ဂုဏ်ယူ)",
+    "th": "(ภูมิใจ)"
+   },
+   "vocab": [],
+   "t": [
+    250.88,
+    253.37
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=250.88,253.37"
+  },
+  {
+   "ja": "いやいや、てんしきというのは、おならのことです。",
+   "furigana": [
+    {
+     "surface": "いやいや、てんしきというのは、おならのことです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Iyaiya, tenshi ki toiu no wa, onara no koto desu.",
+   "translations": {
+    "vi": "Không không, tenshiki nghĩa là đánh rắm đấy.",
+    "en": "No, no — tenshiki means a fart.",
+    "zh-Hans": "不不，转失气是放屁的意思。",
+    "zh-Hant": "不不，轉失氣是放屁的意思。",
+    "ko": "아니, 아니, 덴시키란 방귀를 말하는 겁니다.",
+    "tl": "Hindi, hindi — ang tenshiki ay utot.",
+    "ne": "होइन, होइन, तेन्शिकी भनेको पाद हो।",
+    "id": "Bukan, bukan, tenshiki itu artinya kentut.",
+    "pt": "Não, não, tenshiki quer dizer pum.",
+    "my": "မဟုတ်ဘူး၊ မဟုတ်ဘူး၊ တန်ရှိကိ ဆိုတာ လေလည်တာကို ပြောတာ။",
+    "th": "ไม่ ๆ เท็นชิกิแปลว่าตดครับ"
+   },
+   "grammarNote": {
+    "vi": "いやいや: không không.",
+    "en": "いやいや: no, no.",
+    "zh-Hans": "いやいや: 不不。",
+    "zh-Hant": "いやいや: 不不。",
+    "ko": "いやいや: 아니, 아니.",
+    "tl": "いやいや: hindi, hindi.",
+    "ne": "いやいや: होइन, होइन।",
+    "id": "いやいや: bukan, bukan.",
+    "pt": "いやいや: não, não.",
+    "my": "いやいや: မဟုတ်ဘူး။",
+    "th": "いやいや: ไม่ ๆ."
+   },
+   "vocab": [
+    {
+     "word": "いやいや",
+     "reading": "いやいや",
+     "level": "N1",
+     "meanings": {
+      "vi": "miễn cưỡng",
+      "en": "reluctantly",
+      "zh-Hans": "不情愿地",
+      "zh-Hant": "不情願地",
+      "ko": "마지못해",
+      "tl": "atubili",
+      "ne": "अनिच्छासाथ",
+      "id": "dengan enggan",
+      "pt": "a contragosto",
+      "my": "မလိုလားဘဲ",
+      "th": "อย่างไม่เต็มใจ"
+     }
+    }
+   ],
+   "t": [
+    254.27,
+    258.32
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=254.27,258.32"
+  },
+  {
+   "ja": "お、おなら。",
+   "furigana": [
+    {
+     "surface": "お、おなら。",
+     "reading": ""
+    }
+   ],
+   "romaji": "O, onara.",
+   "translations": {
+    "vi": "Đ-đánh rắm ư?",
+    "en": "A-a fart?",
+    "zh-Hans": "放、放屁？",
+    "zh-Hant": "放、放屁？",
+    "ko": "바, 방귀요?",
+    "tl": "U-utot?",
+    "ne": "पा… पाद?",
+    "id": "K-kentut?",
+    "pt": "P-pum?",
+    "my": "လေ… လေလည်တာလား။",
+    "th": "ต… ตดหรือ"
+   },
+   "grammarNote": {
+    "vi": "(sững sờ)",
+    "en": "(stunned)",
+    "zh-Hans": "（愣住）",
+    "zh-Hant": "（愣住）",
+    "ko": "(어리둥절)",
+    "tl": "(natigilan)",
+    "ne": "(छक्क)",
+    "id": "(tertegun)",
+    "pt": "(pasmo)",
+    "my": "(ကြောင်အ)",
+    "th": "(อึ้ง)"
+   },
+   "vocab": [],
+   "t": [
+    259.22,
+    260.39
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=259.22,260.39"
+  },
+  {
+   "ja": "和尚さんの顔は、みるみるうちに真っ赤になりました。",
+   "furigana": [
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さんの",
+     "reading": ""
+    },
+    {
+     "surface": "顔",
+     "reading": "かお"
+    },
+    {
+     "surface": "は、みるみるうちに",
+     "reading": ""
+    },
+    {
+     "surface": "真",
+     "reading": "ま"
+    },
+    {
+     "surface": "っ",
+     "reading": ""
+    },
+    {
+     "surface": "赤",
+     "reading": "か"
+    },
+    {
+     "surface": "になりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oshousan no kao wa, mirumiru uchi ni makka ni narimashita.",
+   "translations": {
+    "vi": "Mặt hòa thượng đỏ bừng lên trong chớp mắt.",
+    "en": "The priest's face turned bright red in an instant.",
+    "zh-Hans": "住持的脸一下子涨得通红。",
+    "zh-Hant": "住持的臉一下子漲得通紅。",
+    "ko": "스님의 얼굴이 순식간에 새빨개졌습니다.",
+    "tl": "Namula nang husto ang mukha ng pari sa isang iglap.",
+    "ne": "पुजारीको अनुहार एकैछिनमा रातोपिरो भयो।",
+    "id": "Wajah sang biksu seketika merah padam.",
+    "pt": "O rosto do monge ficou vermelho num instante.",
+    "my": "ဆရာတော့်မျက်နှာက ချက်ချင်း နီရဲသွားတယ်။",
+    "th": "หน้าหลวงพ่อแดงก่ำขึ้นมาในพริบตา"
+   },
+   "grammarNote": {
+    "vi": "みるみるうちに: trong chớp mắt. 真っ赤: đỏ bừng.",
+    "en": "みるみるうちに: before one's eyes. 真っ赤: bright red.",
+    "zh-Hans": "みるみるうちに: 眼看着。真っ赤: 通红。",
+    "zh-Hant": "みるみるうちに: 眼看著。真っ赤: 通紅。",
+    "ko": "みるみるうちに: 순식간에. 真っ赤: 새빨감.",
+    "tl": "みるみるうちに: sa isang iglap. 真っ赤: pulang-pula.",
+    "ne": "みるみるうちに: एकैछिनमा। 真っ赤: रातोपिरो।",
+    "id": "みるみるうちに: seketika. 真っ赤: merah padam.",
+    "pt": "みるみるうちに: num instante. 真っ赤: vermelho vivo.",
+    "my": "みるみるうちに: ချက်ချင်း။ 真っ赤: နီရဲ။",
+    "th": "みるみるうちに: ในพริบตา. 真っ赤: แดงก่ำ."
+   },
+   "vocab": [
+    {
+     "word": "真っ赤",
+     "reading": "まっか",
+     "level": "N3",
+     "meanings": {
+      "vi": "đỏ rực",
+      "en": "bright red",
+      "zh-Hans": "通红",
+      "zh-Hant": "通紅",
+      "ko": "새빨감",
+      "tl": "pulang-pula",
+      "ne": "रातोपिरो",
+      "id": "merah padam",
+      "pt": "vermelho vivo",
+      "my": "နီရဲ",
+      "th": "แดงก่ำ"
+     }
+    }
+   ],
+   "t": [
+    261.29,
+    265.48
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=261.29,265.48"
+  },
+  {
+   "ja": "珍念。お前、わしをだましたな。",
+   "furigana": [
+    {
+     "surface": "珍念",
+     "reading": "ちんねん"
+    },
+    {
+     "surface": "。お",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "、わしをだましたな。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Chinnen. Omae, washi o damashita na.",
+   "translations": {
+    "vi": "Chinnen. Con dám lừa ta à.",
+    "en": "Chinnen. You tricked me!",
+    "zh-Hans": "珍念。你竟敢骗我！",
+    "zh-Hant": "珍念。你竟敢騙我！",
+    "ko": "친넨. 네 이놈, 나를 속였구나.",
+    "tl": "Chinnen. Niloko mo ako!",
+    "ne": "चिन्नेन। तैँले मलाई झुक्याइस्!",
+    "id": "Chinnen. Kau menipuku!",
+    "pt": "Chinnen. Você me enganou!",
+    "my": "ချင်နန်။ မင်း ငါ့ကို လှည့်စားတယ်ပေါ့။",
+    "th": "จินเน็ง เจ้าหลอกข้า"
+   },
+   "grammarNote": {
+    "vi": "だます: lừa.",
+    "en": "だます: trick.",
+    "zh-Hans": "だます: 骗。",
+    "zh-Hant": "だます: 騙。",
+    "ko": "だます: 속이다.",
+    "tl": "だます: lokohin.",
+    "ne": "だます: झुक्याउनु।",
+    "id": "だます: menipu.",
+    "pt": "だます: enganar.",
+    "my": "だます: လှည့်စား။",
+    "th": "だます: หลอก."
+   },
+   "vocab": [
+    {
+     "word": "だます",
+     "reading": "だます",
+     "level": "N3",
+     "meanings": {
+      "vi": "lừa",
+      "en": "to trick, to deceive",
+      "zh-Hans": "骗",
+      "zh-Hant": "騙",
+      "ko": "속이다",
+      "tl": "lokohin",
+      "ne": "ठग्नु",
+      "id": "menipu",
+      "pt": "enganar",
+      "my": "လိမ်သည်",
+      "th": "หลอก"
+     }
+    }
+   ],
+   "t": [
+    266.38,
+    268.85
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=266.38,268.85"
+  },
+  {
+   "ja": "和尚さんが、知っているふりをするからですよ。",
+   "furigana": [
+    {
+     "surface": "和尚",
+     "reading": "おしょう"
+    },
+    {
+     "surface": "さんが、",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "っているふりをするからですよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Oshousan ga, shitte iru furi o suru kara desu yo.",
+   "translations": {
+    "vi": "Tại hòa thượng cứ giả vờ biết đấy chứ.",
+    "en": "It's because you pretended to know, Priest.",
+    "zh-Hans": "谁叫住持您装作知道呢。",
+    "zh-Hant": "誰叫住持您裝作知道呢。",
+    "ko": "스님께서 아는 척을 하시니까 그렇죠.",
+    "tl": "Kasi po nagkunwari kayong alam ninyo.",
+    "ne": "पुजारी ज्यूले थाहा भएको बहाना गर्नुभएकाले त हो नि।",
+    "id": "Itu karena Biksu pura-pura tahu.",
+    "pt": "É porque o senhor fingiu que sabia.",
+    "my": "ဆရာတော်က သိချင်ယောင် ဆောင်လို့ပေါ့ ဘုရား။",
+    "th": "ก็หลวงพ่อทำเป็นรู้เองนี่ครับ"
+   },
+   "grammarNote": {
+    "vi": "〜からですよ: là vì ~ đấy.",
+    "en": "〜からですよ: it's because ~.",
+    "zh-Hans": "〜からですよ: 是因为~嘛。",
+    "zh-Hant": "〜からですよ: 是因為~嘛。",
+    "ko": "〜からですよ: ~니까요.",
+    "tl": "〜からですよ: kasi ~.",
+    "ne": "〜からですよ: ~ भएकाले त हो।",
+    "id": "〜からですよ: itu karena ~.",
+    "pt": "〜からですよ: é porque ~.",
+    "my": "〜からですよ: ~ လို့ပေါ့။",
+    "th": "〜からですよ: ก็เพราะ~."
+   },
+   "vocab": [],
+   "t": [
+    269.75,
+    272.98
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=269.75,272.98"
+  },
+  {
+   "ja": "それにしても、三百年も伝わる転失気とは、ずいぶん古いですな。",
+   "furigana": [
+    {
+     "surface": "それにしても、",
+     "reading": ""
+    },
+    {
+     "surface": "三",
+     "reading": "さん"
+    },
+    {
+     "surface": "百",
+     "reading": "ひゃく"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "伝",
+     "reading": "つた"
+    },
+    {
+     "surface": "わる",
+     "reading": ""
+    },
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "とは、ずいぶん",
+     "reading": ""
+    },
+    {
+     "surface": "古",
+     "reading": "ふる"
+    },
+    {
+     "surface": "いですな。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sorenishitemo, san hyakunen mo tsutawaru Tenshiki to wa, zuibun furuidesu na.",
+   "translations": {
+    "vi": "Mà nói gì thì nói, tenshiki truyền lại ba trăm năm thì cũ quá nhỉ.",
+    "en": "Still, a tenshiki handed down for three hundred years — that's quite old.",
+    "zh-Hans": "话说回来，流传了三百年的转失气，可真够老的。",
+    "zh-Hant": "話說回來，流傳了三百年的轉失氣，可真夠老的。",
+    "ko": "그나저나 삼백 년이나 전해 내려온 덴시키라니, 꽤 오래됐군요.",
+    "tl": "Gayunpaman, tenshiki na minana sa loob ng tatlong daang taon — napakaluma niyan.",
+    "ne": "जे होस्, तीन सय वर्ष पुरानो तेन्शिकी त निकै पुरानो रहेछ।",
+    "id": "Ngomong-ngomong, tenshiki yang diwariskan tiga ratus tahun, tua sekali ya.",
+    "pt": "Ainda assim, um tenshiki de trezentos anos... é bem antigo.",
+    "my": "ဒါနဲ့ပဲ နှစ်သုံးရာ ဆက်ခံလာတဲ့ တန်ရှိကိ ဆိုတော့ တော်တော် ဟောင်းတာပဲ။",
+    "th": "ว่าแต่ เท็นชิกิที่สืบทอดมาสามร้อยปี เก่าแก่จริง ๆ นะครับ"
+   },
+   "grammarNote": {
+    "vi": "それにしても: dù vậy. 〜とは: (cảm thán) ~ thì.",
+    "en": "それにしても: even so. 〜とは: (exclamation) to think ~.",
+    "zh-Hans": "それにしても: 话说回来。〜とは: （感叹）竟然~。",
+    "zh-Hant": "それにしても: 話說回來。〜とは: （感嘆）竟然~。",
+    "ko": "それにしても: 그나저나. 〜とは: ~라니.",
+    "tl": "それにしても: gayunpaman. 〜とは: (pagkamangha) ~ pa!",
+    "ne": "それにしても: जे होस्। 〜とは: (अचम्म) ~ पो।",
+    "id": "それにしても: ngomong-ngomong. 〜とは: (heran) sampai ~.",
+    "pt": "それにしても: ainda assim. 〜とは: (espanto) quem diria ~.",
+    "my": "それにしても: ဒါနဲ့ပဲ။ 〜とは: (အံ့ဩ) ~ ဆိုတော့။",
+    "th": "それにしても: ว่าแต่. 〜とは: (อุทาน) ถึง~เชียว."
+   },
+   "vocab": [],
+   "t": [
+    273.88,
+    279.05
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=273.88,279.05"
+  },
+  {
+   "ja": "はい。あまり古いので、もう、音もにおいもいたしません。",
+   "furigana": [
+    {
+     "surface": "はい。あまり",
+     "reading": ""
+    },
+    {
+     "surface": "古",
+     "reading": "ふる"
+    },
+    {
+     "surface": "いので、もう、",
+     "reading": ""
+    },
+    {
+     "surface": "音",
+     "reading": "おと"
+    },
+    {
+     "surface": "もにおいもいたしません。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hai. Amari furui node, mou, oto mo nioi mo itashimasen.",
+   "translations": {
+    "vi": "Vâng. Cũ quá rồi nên chẳng còn kêu, cũng chẳng còn mùi nữa.",
+    "en": "Yes. It's so old that it no longer makes a sound or a smell.",
+    "zh-Hans": "是的。因为太老了，已经既没声音也没味道了。",
+    "zh-Hant": "是的。因為太老了，已經既沒聲音也沒味道了。",
+    "ko": "예. 너무 오래돼서 이제는 소리도 냄새도 나지 않습니다.",
+    "tl": "Opo. Sa sobrang luma, wala na itong tunog ni amoy.",
+    "ne": "हजुर। धेरै पुरानो भएकाले अब न आवाज आउँछ न गन्ध।",
+    "id": "Ya. Saking tuanya, sudah tidak bersuara dan tidak berbau lagi.",
+    "pt": "Sim. É tão antigo que já não faz barulho nem tem cheiro.",
+    "my": "ဟုတ်ကဲ့။ အရမ်း ဟောင်းလို့ အခုဆို အသံလည်း မထွက်၊ အနံ့လည်း မရှိတော့ပါဘူး။",
+    "th": "ใช่ เก่าจนไม่มีเสียงและไม่มีกลิ่นแล้ว"
+   },
+   "grammarNote": {
+    "vi": "あまり〜ので: vì quá ~. いたしません: không ~ (khiêm nhường).",
+    "en": "あまり〜ので: so ~ that. いたしません: does not (humble).",
+    "zh-Hans": "あまり〜ので: 因为太~。いたしません: 不~（谦让语）。",
+    "zh-Hant": "あまり〜ので: 因為太~。いたしません: 不~（謙讓語）。",
+    "ko": "あまり〜ので: 너무 ~해서. いたしません: ~하지 않습니다(겸양).",
+    "tl": "あまり〜ので: sa sobrang ~. いたしません: hindi na po (mapagpakumbaba).",
+    "ne": "あまり〜ので: धेरै ~ भएकाले। いたしません: ~ हुँदैन (विनम्र)।",
+    "id": "あまり〜ので: saking ~. いたしません: tidak ~ (rendah hati).",
+    "pt": "あまり〜ので: tão ~ que. いたしません: não ~ (humilde).",
+    "my": "あまり〜ので: အရမ်း ~ လို့။ いたしません: မ~ ပါ (နှိမ့်ချ)။",
+    "th": "あまり〜ので: ~จน. いたしません: ไม่~ (ถ่อมตน)."
+   },
+   "vocab": [],
+   "t": [
+    279.95,
+    285.28
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=279.95,285.28"
+  },
+  {
+   "ja": "知らないことは、知らないと言う。それが、いちばんはずかしくない方法なのです。",
+   "furigana": [
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "らないことは、",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "らないと",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "う。それが、いちばんはずかしくない",
+     "reading": ""
+    },
+    {
+     "surface": "方法",
+     "reading": "ほうほう"
+    },
+    {
+     "surface": "なのです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shiranai koto wa, shiranai to iu. Sore ga, ichiban hazukashikunai houhou na no desu.",
+   "translations": {
+    "vi": "Không biết thì nói là không biết. Đó là cách ít xấu hổ nhất.",
+    "en": "When you don't know something, say you don't know. That's the least embarrassing way.",
+    "zh-Hans": "不知道就说不知道。这才是最不丢脸的办法。",
+    "zh-Hant": "不知道就說不知道。這才是最不丟臉的辦法。",
+    "ko": "모르는 것은 모른다고 말한다. 그게 가장 창피하지 않은 방법입니다.",
+    "tl": "Kapag hindi mo alam, sabihin mong hindi mo alam. Iyon ang paraang pinakakaunting nakakahiya.",
+    "ne": "थाहा नभएको कुरा थाहा छैन भन्ने। त्यही नै सबैभन्दा कम लाजको उपाय हो।",
+    "id": "Kalau tidak tahu, bilang tidak tahu. Itulah cara yang paling tidak memalukan.",
+    "pt": "Quando não souber, diga que não sabe. É o jeito menos vergonhoso.",
+    "my": "မသိတာကို မသိဘူးလို့ ပြော။ အဲဒါက အရှက်အနည်းဆုံး နည်းလမ်းပဲ။",
+    "th": "ไม่รู้ก็บอกว่าไม่รู้ นั่นแหละคือวิธีที่น่าอายน้อยที่สุด"
+   },
+   "grammarNote": {
+    "vi": "方法: cách.",
+    "en": "方法: way, method.",
+    "zh-Hans": "方法: 办法。",
+    "zh-Hant": "方法: 辦法。",
+    "ko": "方法: 방법.",
+    "tl": "方法: paraan.",
+    "ne": "方法: उपाय।",
+    "id": "方法: cara.",
+    "pt": "方法: jeito, método.",
+    "my": "方法: နည်းလမ်း။",
+    "th": "方法: วิธี."
+   },
+   "vocab": [
+    {
+     "word": "方法",
+     "reading": "ほうほう",
+     "level": "N3",
+     "meanings": {
+      "vi": "cách, phương pháp",
+      "en": "method, way",
+      "zh-Hans": "方法",
+      "zh-Hant": "方法",
+      "ko": "방법",
+      "tl": "paraan",
+      "ne": "तरिका",
+      "id": "cara",
+      "pt": "método",
+      "my": "နည်းလမ်း",
+      "th": "วิธี"
+     }
+    }
+   ],
+   "t": [
+    286.18,
+    293.57
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=286.18,293.57"
+  },
+  {
+   "ja": "知ったかぶりは、その場はごまかせても、あとで、もっと大きなはじをかくことになります。",
+   "furigana": [
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "ったかぶりは、その",
+     "reading": ""
+    },
+    {
+     "surface": "場",
+     "reading": "ば"
+    },
+    {
+     "surface": "はごまかせても、あとで、もっと",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "きなはじをかくことになります。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shittakaburi wa, sono ba wa gomakasete mo, ato de, motto ookina haji o kaku koto ni narimasu.",
+   "translations": {
+    "vi": "Giả vờ biết thì lúc đó có thể lấp liếm, nhưng về sau sẽ bẽ mặt hơn nhiều.",
+    "en": "Pretending to know may get you by in the moment, but later you'll end up far more embarrassed.",
+    "zh-Hans": "不懂装懂，当时也许能糊弄过去，但以后会丢更大的脸。",
+    "zh-Hant": "不懂裝懂，當時也許能糊弄過去，但以後會丟更大的臉。",
+    "ko": "아는 척은 그 자리는 넘길 수 있어도, 나중에 더 큰 망신을 당하게 됩니다.",
+    "tl": "Ang pagkukunwaring alam ay maaaring makalusot sa ngayon, pero mas malaking kahihiyan ang darating mamaya.",
+    "ne": "जान्ने बहानाले त्यो बेला टार्न सकिए पनि पछि झन् ठूलो बेइज्जत हुन्छ।",
+    "id": "Sok tahu mungkin bisa menutupi saat itu, tapi nanti malah lebih malu lagi.",
+    "pt": "Fingir que sabe pode disfarçar na hora, mas depois você passa uma vergonha muito maior.",
+    "my": "သိချင်ယောင်ဆောင်တာက အဲဒီအချိန်မှာ လိမ်ညာ ကျော်လွှားနိုင်ပေမဲ့ နောက်မှ ပိုကြီးတဲ့ အရှက်ကွဲမှု ဖြစ်လာမယ်။",
+    "th": "การทำเป็นรู้อาจกลบเกลื่อนได้ชั่วครู่ แต่ภายหลังจะต้องอายหนักกว่าเดิม"
+   },
+   "grammarNote": {
+    "vi": "知ったかぶり: giả vờ biết. ごまかす: lấp liếm. はじをかく: bẽ mặt.",
+    "en": "知ったかぶり: pretending to know. ごまかす: gloss over. はじをかく: be embarrassed.",
+    "zh-Hans": "知ったかぶり: 不懂装懂。ごまかす: 糊弄。はじをかく: 丢脸。",
+    "zh-Hant": "知ったかぶり: 不懂裝懂。ごまかす: 糊弄。はじをかく: 丟臉。",
+    "ko": "知ったかぶり: 아는 척. ごまかす: 얼버무리다. はじをかく: 망신당하다.",
+    "tl": "知ったかぶり: pagkukunwaring alam. ごまかす: lumusot, magpalusot. はじをかく: mapahiya.",
+    "ne": "知ったかぶり: जान्ने बहाना। ごまかす: टार्नु। はじをかく: बेइज्जत हुनु।",
+    "id": "知ったかぶり: sok tahu. ごまかす: menutupi. はじをかく: menanggung malu.",
+    "pt": "知ったかぶり: fingir que sabe. ごまかす: disfarçar. はじをかく: passar vergonha.",
+    "my": "知ったかぶり: သိချင်ယောင်ဆောင်ခြင်း။ ごまかす: လိမ်ညာ ကျော်လွှား။ はじをかく: အရှက်ကွဲ။",
+    "th": "知ったかぶり: ทำเป็นรู้. ごまかす: กลบเกลื่อน. はじをかく: ขายหน้า."
+   },
+   "vocab": [
+    {
+     "word": "場",
+     "reading": "ば",
+     "level": "N3",
+     "meanings": {
+      "vi": "chỗ, nơi",
+      "en": "place, spot",
+      "zh-Hans": "场所",
+      "zh-Hant": "場所",
+      "ko": "자리",
+      "tl": "lugar",
+      "ne": "ठाउँ",
+      "id": "tempat",
+      "pt": "lugar",
+      "my": "နေရာ",
+      "th": "ที่, สถานที่"
+     }
+    }
+   ],
+   "t": [
+    294.17,
+    301.46
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=294.17,301.46"
+  },
+  {
+   "ja": "あなたも、知らない言葉を聞いたとき、知っているふりをしていませんか。",
+   "furigana": [
+    {
+     "surface": "あなたも、",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "らない",
+     "reading": ""
+    },
+    {
+     "surface": "言葉",
+     "reading": "ことば"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "いたとき、",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "っているふりをしていませんか。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Anata mo, shiranai kotoba o kiita toki, shitte iru furi o shite imasen ka.",
+   "translations": {
+    "vi": "Bạn có hay giả vờ biết khi nghe một từ lạ không?",
+    "en": "When you hear a word you don't know, do you pretend to know it?",
+    "zh-Hans": "你听到不认识的词时，有没有装作知道呢？",
+    "zh-Hant": "你聽到不認識的詞時，有沒有裝作知道呢？",
+    "ko": "여러분도 모르는 말을 들었을 때 아는 척하고 있지 않나요?",
+    "tl": "Kapag nakarinig ka ng salitang hindi mo alam, nagkukunwari ka bang alam mo?",
+    "ne": "नजानेको शब्द सुन्दा, तपाईं पनि थाहा भएको बहाना गर्नुहुन्न?",
+    "id": "Saat mendengar kata yang tidak kamu kenal, apakah kamu pura-pura tahu?",
+    "pt": "Quando você ouve uma palavra que não conhece, finge que sabe?",
+    "my": "မသိတဲ့ စကားလုံး ကြားတဲ့အခါ သင်လည်း သိချင်ယောင် ဆောင်နေသလား။",
+    "th": "เวลาได้ยินคำที่ไม่รู้จัก คุณทำเป็นรู้บ้างหรือเปล่า"
+   },
+   "grammarNote": {
+    "vi": "〜ていませんか: có ~ không?",
+    "en": "〜ていませんか: aren't you ~?",
+    "zh-Hans": "〜ていませんか: 有没有~呢。",
+    "zh-Hant": "〜ていませんか: 有沒有~呢。",
+    "ko": "〜ていませんか: ~하고 있지 않나요?",
+    "tl": "〜ていませんか: hindi ka ba ~?",
+    "ne": "〜ていませんか: ~ गर्नुहुन्न?",
+    "id": "〜ていませんか: apakah kamu ~?",
+    "pt": "〜ていませんか: você não ~?",
+    "my": "〜ていませんか: ~ နေသလား။",
+    "th": "〜ていませんか: ~บ้างหรือเปล่า."
+   },
+   "vocab": [],
+   "t": [
+    302.06,
+    307.91
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=302.06,307.91"
+  },
+  {
+   "ja": "転失気のお話、これでおしまい。",
+   "furigana": [
+    {
+     "surface": "転失気",
+     "reading": "てんしき"
+    },
+    {
+     "surface": "のお",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "、これでおしまい。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tenshiki no ohanashi, kore de oshimai.",
+   "translations": {
+    "vi": "Chuyện Tenshiki đến đây là hết.",
+    "en": "And that is the end of the story of Tenshiki.",
+    "zh-Hans": "转失气的故事，到此结束。",
+    "zh-Hant": "轉失氣的故事，到此結束。",
+    "ko": "덴시키 이야기는 이것으로 끝.",
+    "tl": "Dito nagtatapos ang kuwento ng Tenshiki.",
+    "ne": "तेन्शिकीको कथा यहीँ सकियो।",
+    "id": "Kisah Tenshiki berakhir di sini.",
+    "pt": "E assim termina a história do Tenshiki.",
+    "my": "တန်ရှိကိ ပုံပြင် ဒီမှာ ပြီးပါပြီ။",
+    "th": "เรื่องเท็นชิกิ จบเพียงเท่านี้"
+   },
+   "grammarNote": {
+    "vi": "おしまい: hết.",
+    "en": "おしまい: the end.",
+    "zh-Hans": "おしまい: 结束。",
+    "zh-Hant": "おしまい: 結束。",
+    "ko": "おしまい: 끝.",
+    "tl": "おしまい: wakas.",
+    "ne": "おしまい: समाप्त।",
+    "id": "おしまい: tamat.",
+    "pt": "おしまい: fim.",
+    "my": "おしまい: ပြီးပါပြီ။",
+    "th": "おしまい: จบ."
+   },
+   "vocab": [],
+   "t": [
+    308.51,
+    310.8
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/rakugo-tenshiki/chapter.mp3#t=308.51,310.8"
+  }
+ ]
+}

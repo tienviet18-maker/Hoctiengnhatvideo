@@ -402,3 +402,35 @@ Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Bảy gói chuẩn v2, N3
 | 30 | UX | Onboarding mới học từ Tadoku nhưng làm kỹ hơn, gồm 8 bước: chào và chọn ngôn ngữ, sở thích (chọn nhiều), tự đánh giá cấp N5–N1, nghe thử 3 câu thật (N5/N4/N3) để xếp cấp, mục tiêu phút mỗi ngày và lúc hay nghe, tên, màn "đang dựng kế hoạch", rồi kế hoạch riêng với truyện miễn phí đầu tiên. Ưu đãi VIP chỉ là nút phụ, không chặn. Hồ sơ lưu thêm level, interests, dailyMinutes, listenWhen. Sửa lỗi bấm "Nghe truyện đầu tiên" lại bị đưa về trang chủ (effect redirect đè điều hướng). | ux-onboarding |
 | 31 | UX | Dùng câu trả lời onboarding. Tab Truyện mặc định lọc theo cấp đã xếp (người dùng vẫn đổi tay được) và đưa các kệ khớp sở thích lên đầu. Thẻ "Bắt đầu từ đây" ở Trang chủ gợi ý cùng truyện như màn kế hoạch (hàm chung `recommendFirst` trong `src/lib/shelves.ts`). | ux-personal |
 | 32 | VIP | Phân quyền miễn phí/VIP phía máy khách theo bảng ở ux-plan mục 6, mọi quy tắc nằm ở `src/lib/access.ts`. Truyện miễn phí gồm gói gắn nhãn free, chương 1 của mọi bộ và mọi truyện ngắn N5 (từ 183 lên 223 gói); `gen-catalog` dùng cùng quy tắc. Video VIP giờ mở được, hiện rõ 2 câu phụ đề đầu, các câu sau là dòng giả làm mờ (không đưa chữ thật vào trang) kèm nút "Mở khoá VIP"; chép chính tả và shadowing cần VIP. Thẻ Bài học: từ vựng miễn phí, ngữ pháp và câu hỏi hiện tên mẫu câu kèm lời mời VIP. Thẻ ôn tối đa 100 thẻ. "Giải thích" câu 5 lượt mỗi ngày (mở lại câu đã xem không tốn lượt). Cờ VIP giả ở tab Tôi chỉ hiện ở bản dev hoặc khi build với `NEXT_PUBLIC_DEV_TOOLS=1`. Việc còn lại: chặn ở máy chủ khi có Firebase. | vip-gating |
+
+## Kệ B Rakugo + Kệ C Cổ tích Nhật — vòng 2 (26/11/2026, nhánh `claude/shelf-bc-round2`)
+
+17 gói chuẩn v2 mới, tất cả N3, mỗi gói đủ 11 ngôn ngữ, audio liền ≥ 5 phút, bài học 4 mẫu ngữ pháp + 4 câu hỏi, bìa bunko với font riêng từng truyện. Kệ B dùng `shelf: "rakugo"`, kệ C dùng `shelf: "folktale-jp"`. Tập 1 của bộ nhiều tập miễn phí; truyện một tập là VIP.
+
+| Gói | Commit | Câu | Audio | Bìa (font) | Bài học | Miễn phí |
+|---|---|---|---|---|---|---|
+| `rakugo-shinigami-1` 死神 (一) | 1459c5a | 58 | 5,6 phút | Kaisei Tokumin | だらけ, なくていい, そうだ (truyền đạt), ものではない | có |
+| `rakugo-shinigami-2` 死神 (二) | e706898 + 3fcf0d4 | 60 | 6,0 phút | Kaisei Tokumin | せめて〜だけでも, きれない, 今にも〜そう, ないと | VIP |
+| `rakugo-tenshiki` 転失気 | c968ad5 | 62 | 5,2 phút | Hachi Maru Pop | とは言わない, くせに, こそ, あまり〜ので | VIP |
+| `rakugo-hirabayashi` 平林 | c1f26b1 | 62 | 5,3 phút | Yomogi | っけ, もんか, ますます, ばよかった | VIP |
+| `rakugo-doguya` 道具屋 | 7863795 | 62 | 5,6 phút | Shippori Antique | ても構わない, っぱなし, に決まっている, おかげで | VIP |
+| `rakugo-inu-no-me` 犬の目 | c0fccfa | 62 | 5,8 phút | Stick | ついでに, わけにはいかない, ようがない, たとたん | VIP |
+| `rakugo-kinmeichiku` 金明竹 | 8e60d6b | 63 | 5,9 phút | Zen Old Mincho | てくれない(かしら), 方, と言えば, わけだ | VIP |
+| `mukashi-momotaro-1` 桃太郎 (一) | 52ee8d8 | 62 | 6,5 phút | Rampart One | につれて, からには, ところだ, なんか | có |
+| `mukashi-momotaro-2` 桃太郎 (二) | 66a7f80 | 62 | 5,8 phút | Rampart One | どころか, ことはない, ずにはいられない, うえに | VIP |
+| `mukashi-yuki-onna-1` 雪女 (一) | 2a1652a | 62 | 6,9 phút | Zen Kurenaido | かと思うと, にもかかわらず, ものの, ことなく | có |
+| `mukashi-yuki-onna-2` 雪女 (二) | 617bdbe | 62 | 6,6 phút | Zen Kurenaido | ばかりか, わけではない, ほかない, ものなら | VIP |
+| `mukashi-anju-zushio-1` 安寿と厨子王 (一) | 52f6bc5 | 62 | 6,7 phút | Kaisei HarunoUmi | ものだから, ばかりに, はもちろん, てしかたがない | có |
+| `mukashi-anju-zushio-2` 安寿と厨子王 (二) | 46d3316 | 62 | 5,7 phút | Kaisei HarunoUmi | くらいなら, ざるをえない, とともに, の末に | VIP |
+| `mukashi-shitakiri` 舌切り雀 | fb591ba | 62 | 6,4 phút | Zen Maru Gothic | くせに, に違いない, ついでに, よりしかたがない | VIP |
+| `mukashi-hanasaka` 花咲かじいさん | 49ca880 | 61 | 6,1 phút | Kaisei Opti | おかげで, のせいで, ないうちに, わけがない | VIP |
+| `mukashi-kintaro` 金太郎 | 6be405e | 58 | 5,3 phút | Train One | ば〜ほど, にとって, わけにはいかない, からこそ | VIP |
+| `mukashi-kasajizo` 笠地蔵 | a70c83a | 59 | 6,2 phút | Sawarabi Mincho | せっかく〜のに, なんて, しかない, かえって | VIP |
+
+- Giọng: Chirp3-HD-Aoede kể; mỗi nhân vật một giọng Neural2-C (nam) hoặc Neural2-B (nữ) cố định với tốc độ và cao độ riêng, ghi trong `meta.json` từng gói.
+- Pháp lý: rakugo cổ điển (thời Edo–Meiji, khuyết danh) và truyện dân gian không tác giả, đều thuộc phạm vi công cộng. Lời kể do Claude tự viết bằng tiếng Nhật phân cấp, không chép bản in, sách tranh hay lời bài hát. 金太郎 bỏ câu đồng dao 「まさかりかついで…」; 笠地蔵 thay bài hò của các tượng Jizō bằng lời tự viết; 安寿と厨子王 dựa trên truyện 説経節 cổ, không dùng câu chữ bản 山椒大夫 của Mori Ōgai.
+- Độ khó: mọi gói có tỉ lệ từ vượt cấp ("harder") ≤ 12%. 安寿 tập 2 phải thay hai từ (ほとり, ひきとり) để xuống dưới ngưỡng.
+- Đọc ép `{漢字|よみ}` cho các chỗ kuromoji đọc sai, ví dụ 米 (こめ), 宝物, 夜中, 二人/一人, 殿, 都, 頼光, 源頼光, 坂田金時, 大喜び, 無礼者. Từ bị tách sai thì đưa vào `skipVocab` (違い, しよう, うわる, さかり).
+- Glossary chung `content/sources/glossary-rakugo-mukashi.tsv` thêm khoảng 150 từ 11 ngôn ngữ.
+- **Trùng nội dung với gói cũ của Muse (chưa xoá vì là vùng của Muse):** các gói ngắn chuẩn cũ `momotaro`, `hanasaka-jiisan`, `shita-kiri-suzume`, `kintaro`, `kasa-jizo`, `kasako-jizo` kể cùng truyện với gói v2 mới. Đề xuất ẩn các gói cũ này khỏi kệ hoặc gỡ hẳn khi Việt đồng ý, để người dùng không thấy hai bản cùng một truyện.
+- QC toàn kho sau gói cuối (trước khi gộp main): 659 gói, 0 lỗi, 117 gói đạt chuẩn v2.

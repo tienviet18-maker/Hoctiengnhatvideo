@@ -1,0 +1,63 @@
+{
+ "id": "mukashi-shitakiri",
+ "level": "N3",
+ "topic": "folktale",
+ "source": "original",
+ "free": false,
+ "legal": "truyện cổ tích dân gian Nhật Bản 舌切り雀 (lưu truyền từ trước thời Edo, khuyết danh, phạm vi công cộng). Bản kể do Claude tự viết bằng tiếng Nhật phân cấp, không chép câu chữ của bản in hay sách tranh nào.",
+ "voices": {
+  "N": {
+   "role": "người kể",
+   "voice": "Chirp3-HD-Aoede rate=0.9"
+  },
+  "O": {
+   "role": "ông lão hiền",
+   "voice": "Neural2-C rate=0.85 pitch=-8"
+  },
+  "B": {
+   "role": "bà lão xấu bụng",
+   "voice": "Neural2-B rate=0.98 pitch=-6"
+  },
+  "S": {
+   "role": "chim sẻ Chun",
+   "voice": "Neural2-B rate=1.08 pitch=7"
+  },
+  "T": {
+   "role": "đàn chim sẻ",
+   "voice": "Neural2-B rate=1.0 pitch=3"
+  },
+  "U": {
+   "role": "người tắm bò",
+   "voice": "Neural2-C rate=1.0 pitch=-2"
+  }
+ },
+ "names": [
+  "チュン"
+ ],
+ "skipVocab": [
+  "違い",
+  "しよう"
+ ],
+ "cover": {
+  "ja": "舌切り雀",
+  "jsub": "日本の昔話",
+  "motif": "field",
+  "font": "Zen Maru Gothic",
+  "shelf": "日本の昔話",
+  "title": "The Tongue-Cut Sparrow"
+ },
+ "titles": {
+  "vi": "Chim sẻ bị cắt lưỡi — Hai chiếc rương",
+  "en": "The Tongue-Cut Sparrow — Two Baskets",
+  "zh-Hans": "剪舌麻雀——两只箱笼",
+  "zh-Hant": "剪舌麻雀——兩只箱籠",
+  "ko": "혀 잘린 참새 — 두 개의 고리짝",
+  "tl": "Ang Mayang Pinutulan ng Dila — Dalawang Baul",
+  "ne": "जिब्रो काटिएको भँगेरो — दुई टोकरी",
+  "id": "Burung Pipit Lidah Terpotong — Dua Keranjang",
+  "pt": "O Pardal de Língua Cortada — Dois Baús",
+  "my": "လျှာပြတ်စာကလေး — သေတ္တာနှစ်လုံး",
+  "th": "นกกระจอกลิ้นขาด — หีบสองใบ"
+ },
+ "shelf": "folktale-jp"
+}

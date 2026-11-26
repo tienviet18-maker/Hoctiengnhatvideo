@@ -1,0 +1,22 @@
+{
+ "id": "rakugo-tenshiki",
+ "level": "N3",
+ "topic": "rakugo",
+ "source": "original",
+ "free": false,
+ "legal": "tiết mục rakugo cổ điển thời Edo, không rõ tác giả, đã hết bản quyền. Kịch bản do Claude tự viết lại bằng tiếng Nhật phân cấp, không chép bản ghi âm, sách hay kịch bản của nghệ sĩ nào.",
+ "voices": {
+  "N": {"role": "người kể", "voice": "Chirp3-HD-Aoede rate=0.9"},
+  "O": {"role": "hòa thượng", "voice": "Neural2-C rate=0.88 pitch=-6"},
+  "C": {"role": "chú tiểu Chinnen", "voice": "Neural2-C rate=1.1 pitch=8"},
+  "D": {"role": "thầy thuốc", "voice": "Neural2-C rate=0.95 pitch=0"},
+  "H": {"role": "bà bán hoa", "voice": "Neural2-B rate=1.05 pitch=2"},
+  "K": {"role": "ông bán đồ cũ", "voice": "Neural2-C rate=1.0 pitch=-3"},
+  "T": {"role": "ông bán đậu phụ", "voice": "Neural2-C rate=1.12 pitch=3"}
+ },
+ "names": ["珍念", "転失気", "てんしき"],
+ "skipVocab": [],
+ "cover": {"ja": "転失気", "jsub": "古典落語", "motif": "scroll", "font": "Hachi Maru Pop", "shelf": "落語", "title": "Tenshiki"},
+ "titles": {"vi":"Tenshiki — Hòa thượng giả vờ biết tuốt","en":"Tenshiki — The Priest Who Pretended to Know","zh-Hans":"转失气——不懂装懂的和尚","zh-Hant":"轉失氣——不懂裝懂的和尚","ko":"덴시키 — 아는 척한 스님","tl":"Tenshiki — Ang Paring Nagkunwaring Alam","ne":"तेन्शिकी — जान्ने बहाना गर्ने पुजारी","id":"Tenshiki — Biksu yang Sok Tahu","pt":"Tenshiki — O monge que fingia saber","my":"တန်ရှိကိ — သိချင်ယောင်ဆောင်တဲ့ ဘုန်းကြီး","th":"เท็นชิกิ — หลวงพ่อจอมทำเป็นรู้"},
+ "shelf": "rakugo"
+}

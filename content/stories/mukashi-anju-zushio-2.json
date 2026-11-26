@@ -1,0 +1,6167 @@
+{
+ "kind": "story",
+ "id": "mukashi-anju-zushio-2",
+ "titles": {
+  "vi": "Anju và Zushiō (phần 2) — Lá bùa Jizō",
+  "en": "Anju and Zushiō II — The Jizō Amulet",
+  "zh-Hans": "安寿与厨子王（下）——地藏护身符",
+  "zh-Hant": "安壽與廚子王（下）——地藏護身符",
+  "ko": "안주와 즈시오 (하) — 지장보살 부적",
+  "tl": "Anju at Zushiō II — Ang Anting-anting ni Jizō",
+  "ne": "आन्जु र जुशिओ (भाग २) — जिजोको ताबिज",
+  "id": "Anju dan Zushiō II — Jimat Jizō",
+  "pt": "Anju e Zushiō II — O Amuleto de Jizō",
+  "my": "အန်ဂျူနဲ့ ဇူရှိအို (၂) — ဂျီဇိုအဆောင်",
+  "th": "อันจูกับซูชิโอ ตอนที่ 2 — เครื่องรางพระจิโซ"
+ },
+ "level": "N3",
+ "topic": "folktale",
+ "source": "original",
+ "cover": "/covers/mukashi-anju-zushio-2.webp",
+ "free": false,
+ "standard": 2,
+ "shelf": "folktale-jp",
+ "series": {
+  "id": "mukashi-anju-zushio",
+  "index": 2
+ },
+ "audioTrack": {
+  "src": "/audio/mukashi-anju-zushio-2/chapter.mp3",
+  "durationSec": 344.18
+ },
+ "lesson": {
+  "grammarPoints": [
+   {
+    "pattern": "〜くらいなら",
+    "meaning": {
+     "vi": "Thà ~ còn hơn (vế trước là việc rất không muốn; vế sau là lựa chọn tốt hơn, thường kèm ほうがいい / なさい). Thể từ điển + くらいなら (= ぐらいなら). Ví dụ: ここで一生つらい思いをするくらいなら、一人でも逃げなさい (thà một mình trốn đi còn hơn cả đời chịu khổ ở đây). 途中でやめるくらいなら、最初からやらないほうがいい (bỏ dở giữa chừng thì thà đừng làm từ đầu).",
+     "en": "Rather than ~ / if it comes to ~, better to ~ (the first clause is something very undesirable). Dictionary form + くらいなら (= ぐらいなら), often followed by ほうがいい or a command. E.g. ここで一生つらい思いをするくらいなら、一人でも逃げなさい (rather than suffer here your whole life, run, even alone). 途中でやめるくらいなら、最初からやらないほうがいい (if you're going to quit halfway, better not to start at all).",
+     "zh-Hans": "与其～还不如～（前项是极不愿意的事，后项是更好的选择，常接ほうがいい或命令）。动词原形＋くらいなら（＝ぐらいなら）。例：ここで一生つらい思いをするくらいなら、一人でも逃げなさい（与其在这里受一辈子苦，不如一个人逃走）。途中でやめるくらいなら、最初からやらないほうがいい（与其半途而废，不如一开始就别做）。",
+     "zh-Hant": "與其～還不如～（前項是極不願意的事，後項是更好的選擇，常接ほうがいい或命令）。動詞原形＋くらいなら（＝ぐらいなら）。例：ここで一生つらい思いをするくらいなら、一人でも逃げなさい（與其在這裡受一輩子苦，不如一個人逃走）。途中でやめるくらいなら、最初からやらないほうがいい（與其半途而廢，不如一開始就別做）。",
+     "ko": "~할 바에는 (차라리) ~ (앞은 몹시 싫은 일, 뒤는 더 나은 선택; ほうがいい·명령이 자주 옴). 사전형 + くらいなら (= ぐらいなら). 예: ここで一生つらい思いをするくらいなら、一人でも逃げなさい (여기서 평생 괴로울 바에는 혼자라도 도망쳐라). 途中でやめるくらいなら、最初からやらないほうがいい (도중에 그만둘 바에는 처음부터 안 하는 게 낫다).",
+     "tl": "Kaysa ~, mas mabuti pang ~ (ang una ay bagay na ayaw na ayaw; ang ikalawa ang mas mabuting pili, madalas may ほうがいい o utos). Dictionary form + くらいなら (= ぐらいなら). Hal. ここで一生つらい思いをするくらいなら、一人でも逃げなさい (kaysa magdusa ka rito habambuhay, tumakas ka kahit mag-isa). 途中でやめるくらいなら、最初からやらないほうがいい (kung titigil ka rin lang sa gitna, mas mabuti pang huwag nang simulan).",
+     "ne": "~ भन्दा त बरु ~ (पहिलो भाग अत्यन्त अनिच्छित कुरा; पछिल्लो राम्रो विकल्प, प्रायः ほうがいい वा आदेश)। शब्दकोश रूप + くらいなら (= ぐらいなら)। उदाहरण: ここで一生つらい思いをするくらいなら、一人でも逃げなさい (यहाँ जीवनभर दुःख भोग्नुभन्दा बरु एक्लै भाग)। 途中でやめるくらいなら、最初からやらないほうがいい (बीचमै छोड्नुभन्दा बरु सुरुदेखि नगर्नु राम्रो)।",
+     "id": "Daripada ~, lebih baik ~ (bagian pertama hal yang sangat tidak diinginkan; bagian kedua pilihan yang lebih baik, sering dengan ほうがいい atau perintah). Bentuk kamus + くらいなら (= ぐらいなら). Contoh: ここで一生つらい思いをするくらいなら、一人でも逃げなさい (daripada menderita seumur hidup di sini, kaburlah meski sendirian). 途中でやめるくらいなら、最初からやらないほうがいい (daripada berhenti di tengah jalan, lebih baik tak usah mulai).",
+     "pt": "Em vez de ~, é melhor ~ (a primeira parte é algo muito indesejado; a segunda, a escolha melhor, muitas vezes com ほうがいい ou ordem). Forma de dicionário + くらいなら (= ぐらいなら). Ex.: ここで一生つらい思いをするくらいなら、一人でも逃げなさい (em vez de sofrer aqui a vida toda, fuja, mesmo sozinho). 途中でやめるくらいなら、最初からやらないほうがいい (se for para desistir no meio, é melhor nem começar).",
+     "my": "~ မယ့်အစား ~ က ပိုကောင်း (ရှေ့က အလွန်မလိုလားတာ၊ နောက်က ပိုကောင်းတဲ့ရွေးချယ်မှု၊ ほうがいい သို့ အမိန့် မကြာခဏ လိုက်)။ အဘိဓာန်ပုံစံ + くらいなら (= ぐらいなら)။ ဥပမာ: ここで一生つらい思いをするくらいなら、一人でも逃げなさい (ဒီမှာ တစ်သက်လုံး ဒုက္ခခံမယ့်အစား တစ်ယောက်တည်းဖြစ်ဖြစ် ပြေး)။ 途中でやめるくらいなら、最初からやらないほうがいい (တစ်ဝက်တစ်ပျက် ရပ်မယ့်အစား အစကတည်းက မလုပ်တာ ကောင်းတယ်)။",
+     "th": "แทนที่จะ ~ สู้ ~ ดีกว่า (ส่วนแรกเป็นสิ่งที่ไม่อยากอย่างยิ่ง ส่วนหลังเป็นทางเลือกที่ดีกว่า มักตามด้วย ほうがいい หรือคำสั่ง) รูปพจนานุกรม + くらいなら (= ぐらいなら) ตัวอย่าง: ここで一生つらい思いをするくらいなら、一人でも逃げなさい (แทนที่จะทนทุกข์ที่นี่ทั้งชีวิต หนีไปแม้คนเดียวเถิด) 途中でやめるくらいなら、最初からやらないほうがいい (ถ้าจะเลิกกลางคัน สู้ไม่ทำตั้งแต่แรกดีกว่า)"
+    },
+    "example": 7
+   },
+   {
+    "pattern": "〜ざるをえない",
+    "meaning": {
+     "vi": "Đành phải ~, không thể không ~ (vì hoàn cảnh buộc phải làm dù không muốn). Thể ない bỏ ない + ざるをえない; する → せざるをえない. Ví dụ: 三郎たちは、あきらめて帰らざるをえませんでした (bọn Saburō đành phải bỏ cuộc mà về). 雨がひどいので、試合は中止せざるをえない (mưa to quá nên đành phải hoãn trận đấu).",
+     "en": "Have no choice but to ~ (circumstances force it, even unwillingly). ない-form minus ない + ざるをえない; する → せざるをえない. E.g. 三郎たちは、あきらめて帰らざるをえませんでした (Saburō and his men had no choice but to give up and leave). 雨がひどいので、試合は中止せざるをえない (the rain is so heavy we have no choice but to cancel the match).",
+     "zh-Hans": "不得不～（情势所迫，即使不情愿也只能这样做）。ない形去掉ない＋ざるをえない；する→せざるをえない。例：三郎たちは、あきらめて帰らざるをえませんでした（三郎他们不得不放弃回去了）。雨がひどいので、試合は中止せざるをえない（雨太大，比赛不得不取消）。",
+     "zh-Hant": "不得不～（情勢所迫，即使不情願也只能這樣做）。ない形去掉ない＋ざるをえない；する→せざるをえない。例：三郎たちは、あきらめて帰らざるをえませんでした（三郎他們不得不放棄回去了）。雨がひどいので、試合は中止せざるをえない（雨太大，比賽不得不取消）。",
+     "ko": "~하지 않을 수 없다, ~할 수밖에 없다 (상황 때문에 마지못해). ない형에서 ない를 빼고 + ざるをえない; する → せざるをえない. 예: 三郎たちは、あきらめて帰らざるをえませんでした (사부로 일행은 포기하고 돌아갈 수밖에 없었다). 雨がひどいので、試合は中止せざるをえない (비가 심해서 시합은 취소할 수밖에 없다).",
+     "tl": "Mapilitang ~, walang magawa kundi ~ (pinipilit ng sitwasyon kahit ayaw). ない-form na walang ない + ざるをえない; する → せざるをえない. Hal. 三郎たちは、あきらめて帰らざるをえませんでした (napilitang sumuko at umuwi sina Saburō). 雨がひどいので、試合は中止せざるをえない (napakalakas ng ulan kaya mapipilitang kanselahin ang laro).",
+     "ne": "~ नगरी सुखै छैन, ~ गर्नैपर्ने (परिस्थितिले बाध्य पारेर, मन नलागे पनि)। ない रूपबाट ない हटाएर + ざるをえない; する → せざるをえない। उदाहरण: 三郎たちは、あきらめて帰らざるをえませんでした (साबुरोहरूले हार मानेर फर्कनैपर्यो)। 雨がひどいので、試合は中止せざるをえない (पानी धेरै परेकाले खेल रद्द गर्नैपर्छ)।",
+     "id": "Terpaksa ~, mau tak mau ~ (keadaan memaksa, meski enggan). Bentuk ない tanpa ない + ざるをえない; する → せざるをえない. Contoh: 三郎たちは、あきらめて帰らざるをえませんでした (Saburō dan anak buahnya terpaksa menyerah dan pulang). 雨がひどいので、試合は中止せざるをえない (hujannya deras, jadi pertandingan terpaksa dibatalkan).",
+     "pt": "Não ter outra saída senão ~ (as circunstâncias obrigam, mesmo sem vontade). Forma ない sem ない + ざるをえない; する → せざるをえない. Ex.: 三郎たちは、あきらめて帰らざるをえませんでした (Saburō e seus homens não tiveram saída senão desistir e voltar). 雨がひどいので、試合は中止せざるをえない (a chuva está forte, não há outra saída senão cancelar o jogo).",
+     "my": "မလွဲမသွေ ~ ရ၊ ~ ရမလို ဖြစ် (အခြေအနေကြောင့် မလုပ်ချင်လည်း လုပ်ရ)။ ない ပုံစံမှ ない ဖြုတ် + ざるをえない; する → せざるをえない။ ဥပမာ: 三郎たちは、あきらめて帰らざるをえませんでした (ဆာဘူရိုတို့ လက်လျှော့ပြီး ပြန်ရမလို ဖြစ်သွားတယ်)။ 雨がひどいので、試合は中止せざるをえない (မိုးသည်းလို့ ပွဲကို ဖျက်ရမလို ဖြစ်တယ်)။",
+     "th": "จำต้อง ~, ไม่ ~ ไม่ได้ (สถานการณ์บังคับ แม้ไม่อยาก) รูป ない ตัด ない + ざるをえない; する → せざるをえない ตัวอย่าง: 三郎たちは、あきらめて帰らざるをえませんでした (ซาบุโร่กับพวกจำต้องยอมแพ้กลับไป) 雨がひどいので、試合は中止せざるをえない (ฝนตกหนัก จำต้องยกเลิกการแข่งขัน)"
+    },
+    "example": 25
+   },
+   {
+    "pattern": "〜とともに",
+    "meaning": {
+     "vi": "Cùng lúc với ~, đồng thời ~ (hai việc diễn ra song song; cũng có nghĩa \"cùng với ai\"). Động từ thể từ điển / danh từ + とともに. Trang trọng, hay dùng trong văn viết. Ví dụ: 国守になるとともに、人を売り買いすることを禁じました (vừa làm Quốc thủ, đồng thời cấm mua bán người). 年をとるとともに、体が弱くなる (càng có tuổi, cơ thể càng yếu đi).",
+     "en": "At the same time as ~ / along with ~ (two things happening together; also \"together with someone\"). Dictionary form / noun + とともに. Formal, common in writing. E.g. 国守になるとともに、人を売り買いすることを禁じました (as soon as he became governor, he banned the buying and selling of people). 年をとるとともに、体が弱くなる (as one grows older, the body weakens).",
+     "zh-Hans": "在～的同时、随着～（两件事同时发生；也表示“和某人一起”）。动词原形／名词＋とともに。较正式，多用于书面语。例：国守になるとともに、人を売り買いすることを禁じました（在当上国守的同时，禁止了买卖人口）。年をとるとともに、体が弱くなる（随着年龄增长，身体变弱）。",
+     "zh-Hant": "在～的同時、隨著～（兩件事同時發生；也表示「和某人一起」）。動詞原形／名詞＋とともに。較正式，多用於書面語。例：国守になるとともに、人を売り買いすることを禁じました（在當上國守的同時，禁止了買賣人口）。年をとるとともに、体が弱くなる（隨著年齡增長，身體變弱）。",
+     "ko": "~와 동시에, ~함에 따라 (두 일이 함께 일어남; '누구와 함께'의 뜻도). 사전형/명사 + とともに. 격식체, 문어에서 자주 씀. 예: 国守になるとともに、人を売り買いすることを禁じました (국수가 됨과 동시에 인신매매를 금지했다). 年をとるとともに、体が弱くなる (나이가 듦에 따라 몸이 약해진다).",
+     "tl": "Kasabay ng ~ / habang ~ (dalawang bagay na sabay; puwede ring \"kasama ng isang tao\"). Dictionary form / pangngalan + とともに. Pormal, madalas sa pagsulat. Hal. 国守になるとともに、人を売り買いすることを禁じました (kasabay ng pagiging gobernador, ipinagbawal niya ang pagbili at pagbenta ng tao). 年をとるとともに、体が弱くなる (habang tumatanda, humihina ang katawan).",
+     "ne": "~ सँगसँगै, ~ हुँदै जाँदा (दुई कुरा एकैसाथ; \"कसैसँगै\" भन्ने अर्थ पनि)। शब्दकोश रूप / नाम + とともに। औपचारिक, लेखाइमा धेरै। उदाहरण: 国守になるとともに、人を売り買いすることを禁じました (प्रशासक बन्नेसँगै मानिस किनबेचमा रोक लगायो)। 年をとるとともに、体が弱くなる (उमेर बढ्दै जाँदा शरीर कमजोर हुन्छ)।",
+     "id": "Bersamaan dengan ~ / seiring ~ (dua hal terjadi bersama; juga \"bersama seseorang\"). Bentuk kamus / kata benda + とともに. Formal, sering dalam tulisan. Contoh: 国守になるとともに、人を売り買いすることを禁じました (bersamaan dengan menjadi gubernur, ia melarang jual beli manusia). 年をとるとともに、体が弱くなる (seiring bertambahnya usia, tubuh melemah).",
+     "pt": "Ao mesmo tempo que ~ / à medida que ~ (duas coisas juntas; também \"junto com alguém\"). Forma de dicionário / substantivo + とともに. Formal, comum na escrita. Ex.: 国守になるとともに、人を売り買いすることを禁じました (ao mesmo tempo em que virou governador, proibiu a compra e venda de pessoas). 年をとるとともに、体が弱くなる (à medida que envelhecemos, o corpo enfraquece).",
+     "my": "~ နဲ့အတူ၊ ~ လာသည်နှင့်အမျှ (နှစ်ခု တစ်ပြိုင်နက်ဖြစ်; \"တစ်စုံတစ်ယောက်နဲ့အတူ\" အဓိပ္ပာယ်လည်း)။ အဘိဓာန်ပုံစံ / နာမ် + とともに။ တရားဝင်၊ စာရေးရာတွင် များ။ ဥပမာ: 国守になるとともに、人を売り買いすることを禁じました (နယ်စား ဖြစ်တာနဲ့အတူ လူအရောင်းအဝယ်ကို တားမြစ်တယ်)။ 年をとるとともに、体が弱くなる (အသက်ကြီးလာသည်နှင့်အမျှ ခန္ဓာကိုယ် အားနည်းလာတယ်)။",
+     "th": "พร้อมกับ ~, ยิ่ง ~ ยิ่ง (สองสิ่งเกิดขึ้นพร้อมกัน; ใช้ในความหมาย \"ร่วมกับใคร\" ได้ด้วย) รูปพจนานุกรม / คำนาม + とともに เป็นทางการ ใช้มากในภาษาเขียน ตัวอย่าง: 国守になるとともに、人を売り買いすることを禁じました (พร้อมกับการเป็นเจ้าเมือง ก็ห้ามซื้อขายคน) 年をとるとともに、体が弱くなる (ยิ่งอายุมาก ร่างกายก็ยิ่งอ่อนแอ)"
+    },
+    "example": 39
+   },
+   {
+    "pattern": "〜の末に",
+    "meaning": {
+     "vi": "Sau (một quá trình dài, vất vả) ~, cuối cùng ~. Danh từ + の末に / Động từ thể た + 末に. Vế sau là kết quả đạt được. Ví dụ: 長い旅の末に、畑にたどり着きました (sau chuyến đi dài, cuối cùng đã tới cánh ruộng). よく考えた末に、会社をやめることにした (sau khi suy nghĩ kỹ, tôi quyết định nghỉ việc).",
+     "en": "After (a long, hard process of) ~, finally ~. Noun + の末に / た-form + 末に. The second clause is the outcome. E.g. 長い旅の末に、畑にたどり着きました (at the end of a long journey, he finally reached a field). よく考えた末に、会社をやめることにした (after thinking it over carefully, I decided to quit my job).",
+     "zh-Hans": "经过～（漫长、艰辛的过程）之后，最终～。名词＋の末に／动词た形＋末に。后项是最终结果。例：長い旅の末に、畑にたどり着きました（经过漫长的旅途，终于来到田边）。よく考えた末に、会社をやめることにした（经过深思熟虑，决定辞职）。",
+     "zh-Hant": "經過～（漫長、艱辛的過程）之後，最終～。名詞＋の末に／動詞た形＋末に。後項是最終結果。例：長い旅の末に、畑にたどり着きました（經過漫長的旅途，終於來到田邊）。よく考えた末に、会社をやめることにした（經過深思熟慮，決定辭職）。",
+     "ko": "~한 끝에 (길고 힘든 과정 뒤에 결국). 명사 + の末に / 동사 た형 + 末に. 뒤는 최종 결과. 예: 長い旅の末に、畑にたどり着きました (긴 여행 끝에 밭에 다다랐다). よく考えた末に、会社をやめることにした (깊이 생각한 끝에 회사를 그만두기로 했다).",
+     "tl": "Sa dulo ng (mahaba at mahirap na) ~, sa wakas ~. Pangngalan + の末に / た-form + 末に. Ang ikalawa ang kinalabasan. Hal. 長い旅の末に、畑にたどり着きました (sa dulo ng mahabang paglalakbay, narating niya ang bukid). よく考えた末に、会社をやめることにした (matapos pag-isipang mabuti, nagpasya akong umalis sa trabaho).",
+     "ne": "(लामो, कठिन प्रक्रिया) ~ पछि अन्ततः ~। नाम + の末に / क्रियाको た रूप + 末に। पछिल्लो भाग अन्तिम परिणाम। उदाहरण: 長い旅の末に、畑にたどり着きました (लामो यात्रापछि अन्ततः खेतमा पुग्यो)। よく考えた末に、会社をやめることにした (राम्ररी सोचेपछि जागिर छोड्ने निर्णय गरेँ)।",
+     "id": "Setelah (proses panjang dan berat) ~, akhirnya ~. Kata benda + の末に / bentuk た + 末に. Klausa kedua adalah hasil akhirnya. Contoh: 長い旅の末に、畑にたどり着きました (setelah perjalanan panjang, akhirnya tiba di ladang). よく考えた末に、会社をやめることにした (setelah berpikir matang, saya memutuskan berhenti kerja).",
+     "pt": "Depois de (um longo e difícil) ~, finalmente ~. Substantivo + の末に / forma た + 末に. A segunda parte é o resultado. Ex.: 長い旅の末に、畑にたどり着きました (depois de uma longa viagem, finalmente chegou a um campo). よく考えた末に、会社をやめることにした (depois de pensar muito, decidi largar o emprego).",
+     "my": "(ရှည်လျား ခက်ခဲတဲ့) ~ အပြီးမှာ နောက်ဆုံး ~။ နာမ် + の末に / ကြိယာ た ပုံစံ + 末に။ နောက်ပိုင်းက ရလဒ်။ ဥပမာ: 長い旅の末に、畑にたどり着きました (ခရီးရှည်ကြီးအပြီးမှာ လယ်ကွင်းကို ရောက်တယ်)။ よく考えた末に、会社をやめることにした (သေချာစဉ်းစားပြီးမှ အလုပ်ထွက်ဖို့ ဆုံးဖြတ်တယ်)။",
+     "th": "หลังจาก ~ (กระบวนการยาวนานและยากลำบาก) ในที่สุดก็ ~ คำนาม + の末に / กริยารูป た + 末に ส่วนหลังคือผลลัพธ์ ตัวอย่าง: 長い旅の末に、畑にたどり着きました (หลังการเดินทางอันยาวนาน ในที่สุดก็มาถึงไร่) よく考えた末に、会社をやめることにした (หลังคิดอย่างถี่ถ้วน จึงตัดสินใจลาออก)"
+    },
+    "example": 50
+   }
+  ],
+  "quiz": [
+   {
+    "ja": "安寿は、なぜ弟を一人で逃がしましたか。",
+    "choices": [
+     "自分は山椒大夫の屋敷にいたかったから",
+     "二人で逃げると、すぐに見つかってしまうから",
+     "弟とけんかをしたから"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Vì hai người cùng trốn sẽ bị phát hiện ngay (câu 7).",
+     "en": "Because if both ran, they would be found right away (sentence 7).",
+     "zh-Hans": "因为两个人一起逃，马上就会被发现（第7句）。",
+     "zh-Hant": "因為兩個人一起逃，馬上就會被發現（第7句）。",
+     "ko": "둘이 함께 도망치면 금방 들키기 때문에 (7문).",
+     "tl": "Dahil kapag sabay silang tumakas, mahuhuli agad sila (pangungusap 7).",
+     "ne": "दुवै भागे तुरुन्तै समातिने भएकाले (वाक्य ७)।",
+     "id": "Karena kalau berdua kabur, mereka akan segera ketahuan (kalimat 7).",
+     "pt": "Porque, se fugissem os dois, logo seriam encontrados (frase 7).",
+     "my": "နှစ်ယောက်လုံး ပြေးရင် ချက်ချင်း မိသွားမှာမို့ (စာကြောင်း ၇)။",
+     "th": "เพราะถ้าหนีไปสองคน จะถูกจับได้ทันที (ประโยค 7)"
+    }
+   },
+   {
+    "ja": "お寺のお坊さんは、厨子王をどうしましたか。",
+    "choices": [
+     "三郎たちに渡した",
+     "何も聞かずに大きな箱の中に隠した",
+     "一人で都へ行かせた"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Không hỏi gì cả, giấu cậu vào trong chiếc hòm lớn (câu 22).",
+     "en": "Without asking anything, he hid him inside a big chest (sentence 22).",
+     "zh-Hans": "什么也没问，把他藏进大箱子里（第22句）。",
+     "zh-Hant": "什麼也沒問，把他藏進大箱子裡（第22句）。",
+     "ko": "아무것도 묻지 않고 커다란 궤짝 속에 숨겼다 (22문).",
+     "tl": "Walang itinanong at itinago siya sa loob ng malaking baul (pangungusap 22).",
+     "ne": "केही नसोधी ठूलो सन्दुकभित्र लुकाए (वाक्य २२)।",
+     "id": "Tanpa bertanya apa pun, menyembunyikannya di dalam peti besar (kalimat 22).",
+     "pt": "Sem perguntar nada, escondeu-o dentro de um grande baú (frase 22).",
+     "my": "ဘာမှမမေးဘဲ သေတ္တာကြီးထဲ ဝှက်ထားတယ် (စာကြောင်း ၂၂)။",
+     "th": "ไม่ถามอะไรเลย แล้วซ่อนไว้ในหีบใหญ่ (ประโยค 22)"
+    }
+   },
+   {
+    "ja": "都の大臣は、何を見て、厨子王がだれの子かわかりましたか。",
+    "choices": [
+     "厨子王の首にかかっている地蔵様のお守り",
+     "厨子王の着物",
+     "厨子王が書いた手紙"
+    ],
+    "answer": 0,
+    "explain": {
+     "vi": "Lá bùa Jizō đeo trên cổ Zushiō (câu 31–35).",
+     "en": "The Jizō amulet hanging around Zushiō's neck (sentences 31–35).",
+     "zh-Hans": "挂在厨子王脖子上的地藏护身符（第31–35句）。",
+     "zh-Hant": "掛在廚子王脖子上的地藏護身符（第31–35句）。",
+     "ko": "즈시오의 목에 걸린 지장보살 부적 (31–35문).",
+     "tl": "Ang anting-anting ni Jizō sa leeg ni Zushiō (pangungusap 31–35).",
+     "ne": "जुशिओको घाँटीमा झुन्डिएको जिजोको ताबिज (वाक्य ३१–३५)।",
+     "id": "Jimat Jizō yang tergantung di leher Zushiō (kalimat 31–35).",
+     "pt": "O amuleto de Jizō pendurado no pescoço de Zushiō (frases 31–35).",
+     "my": "ဇူရှိအို လည်ပင်းမှာ ဆွဲထားတဲ့ ဂျီဇိုအဆောင် (စာကြောင်း ၃၁–၃၅)။",
+     "th": "เครื่องรางพระจิโซที่คล้องอยู่ที่คอของซูชิโอ (ประโยค 31–35)"
+    }
+   },
+   {
+    "ja": "佐渡で、母の目はどうして見えるようになりましたか。",
+    "choices": [
+     "お医者さんが治したから",
+     "厨子王がお守りを母の目に当てたから",
+     "安寿が帰ってきたから"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Vì Zushiō áp lá bùa lên mắt mẹ (câu 57–58).",
+     "en": "Because Zushiō touched the amulet to her eyes (sentences 57–58).",
+     "zh-Hans": "因为厨子王把护身符贴在母亲的眼睛上（第57–58句）。",
+     "zh-Hant": "因為廚子王把護身符貼在母親的眼睛上（第57–58句）。",
+     "ko": "즈시오가 부적을 어머니의 눈에 대었기 때문에 (57–58문).",
+     "tl": "Dahil idinampi ni Zushiō ang anting-anting sa mga mata ng ina (pangungusap 57–58).",
+     "ne": "जुशिओले ताबिज आमाका आँखामा छुवाएकाले (वाक्य ५७–५८)।",
+     "id": "Karena Zushiō menempelkan jimat ke mata ibunya (kalimat 57–58).",
+     "pt": "Porque Zushiō encostou o amuleto nos olhos dela (frases 57–58).",
+     "my": "ဇူရှိအိုက အဆောင်ကို အမေ့မျက်လုံးမှာ ထိပေးလို့ (စာကြောင်း ၅၇–၅၈)။",
+     "th": "เพราะซูชิโอเอาเครื่องรางแตะที่ตาของแม่ (ประโยค 57–58)"
+    }
+   }
+  ]
+ },
+ "sentences": [
+  {
+   "ja": "次の朝、安寿は、山椒大夫にお願いをしました。",
+   "furigana": [
+    {
+     "surface": "次",
+     "reading": "つぎ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "朝",
+     "reading": "あさ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "安寿",
+     "reading": "あんじゅ"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "山椒大夫",
+     "reading": "さんしょうだゆう"
+    },
+    {
+     "surface": "にお",
+     "reading": ""
+    },
+    {
+     "surface": "願",
+     "reading": "ねが"
+    },
+    {
+     "surface": "いをしました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tsugi no asa, Anju wa, Sanshoudayuu ni onegai o shimashita.",
+   "translations": {
+    "vi": "Sáng hôm sau, Anju đến xin Sanshō Dayū một việc.",
+    "en": "The next morning, Anju made a request of Sanshō Dayū.",
+    "zh-Hans": "第二天早上，安寿向山椒大夫提了一个请求。",
+    "zh-Hant": "第二天早上，安壽向山椒大夫提了一個請求。",
+    "ko": "다음 날 아침, 안주는 산쇼 다유에게 부탁을 했습니다.",
+    "tl": "Kinaumagahan, may hiniling si Anju kay Sanshō Dayū.",
+    "ne": "भोलिपल्ट बिहान आन्जुले सान्सो दायुसँग एउटा बिन्ती गरिन्।",
+    "id": "Keesokan paginya, Anju mengajukan permohonan kepada Sanshō Dayū.",
+    "pt": "Na manhã seguinte, Anju fez um pedido a Sanshō Dayū.",
+    "my": "နောက်နေ့မနက် အန်ဂျူက ဆန်ရှော ဒါယူကို တောင်းဆိုချက်တစ်ခု တင်ပါတယ်။",
+    "th": "เช้าวันรุ่งขึ้น อันจูไปขอร้องซันโช ดายู"
+   },
+   "grammarNote": {
+    "vi": "お願い: lời thỉnh cầu.",
+    "en": "お願い: request.",
+    "zh-Hans": "お願い: 请求。",
+    "zh-Hant": "お願い: 請求。",
+    "ko": "お願い: 부탁.",
+    "tl": "お願い: kahilingan.",
+    "ne": "お願い: बिन्ती।",
+    "id": "お願い: permohonan.",
+    "pt": "お願い: pedido.",
+    "my": "お願い: တောင်းဆိုချက်။",
+    "th": "お願い: คำขอร้อง."
+   },
+   "vocab": [],
+   "t": [
+    0.3,
+    4.54
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=0.3,4.54"
+  },
+  {
+   "ja": "わたしも、弟と一緒に山へ柴を刈りに行かせてください。",
+   "furigana": [
+    {
+     "surface": "わたしも、",
+     "reading": ""
+    },
+    {
+     "surface": "弟",
+     "reading": "おとうと"
+    },
+    {
+     "surface": "と",
+     "reading": ""
+    },
+    {
+     "surface": "一緒",
+     "reading": "いっしょ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "山",
+     "reading": "やま"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "柴",
+     "reading": "しば"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "刈",
+     "reading": "か"
+    },
+    {
+     "surface": "りに",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "かせてください。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Watashi mo, otouto to issho ni yama e shiba o kari ni ikasete kudasai.",
+   "translations": {
+    "vi": "Xin cho con cùng em trai lên núi đốn củi.",
+    "en": "Please let me go to the mountain with my brother to cut brushwood too.",
+    "zh-Hans": "请让我也和弟弟一起上山砍柴吧。",
+    "zh-Hant": "請讓我也和弟弟一起上山砍柴吧。",
+    "ko": "저도 동생과 함께 산에 땔나무를 하러 가게 해 주세요.",
+    "tl": "Payagan po ninyo akong sumama sa kapatid ko sa bundok para mangahoy.",
+    "ne": "मलाई पनि भाइसँगै पहाडमा दाउरा काट्न जान दिनुहोस्।",
+    "id": "Izinkan saya ikut adik saya ke gunung untuk memotong kayu bakar.",
+    "pt": "Deixe-me ir também à montanha cortar lenha com meu irmão.",
+    "my": "ကျွန်မကိုလည်း မောင်လေးနဲ့အတူ တောင်ပေါ် ထင်းခုတ်သွားခွင့် ပေးပါ။",
+    "th": "ขอให้ข้าได้ไปตัดฟืนบนภูเขากับน้องชายด้วยเถิด"
+   },
+   "grammarNote": {
+    "vi": "〜させてください: xin cho phép tôi ~. 柴を刈る: đốn củi.",
+    "en": "〜させてください: please let me ~. 柴を刈る: cut brushwood.",
+    "zh-Hans": "〜させてください: 请让我～。柴を刈る: 砍柴。",
+    "zh-Hant": "〜させてください: 請讓我～。柴を刈る: 砍柴。",
+    "ko": "〜させてください: ~하게 해 주세요. 柴を刈る: 땔나무를 하다.",
+    "tl": "〜させてください: payagan po akong ~. 柴を刈る: mangahoy.",
+    "ne": "〜させてください: ~ गर्न दिनुहोस्। 柴を刈る: दाउरा काट्नु।",
+    "id": "〜させてください: izinkan saya ~. 柴を刈る: memotong kayu bakar.",
+    "pt": "〜させてください: deixe-me ~. 柴を刈る: cortar lenha.",
+    "my": "〜させてください: ~ ခွင့်ပေးပါ။ 柴を刈る: ထင်းခုတ်။",
+    "th": "〜させてください: ขอให้ได้ ~. 柴を刈る: ตัดฟืน."
+   },
+   "vocab": [
+    {
+     "word": "柴",
+     "reading": "しば",
+     "level": "N1",
+     "meanings": {
+      "vi": "củi cành nhỏ",
+      "en": "brushwood",
+      "zh-Hans": "柴",
+      "zh-Hant": "柴",
+      "ko": "섶나무, 땔나무",
+      "tl": "panggatong na sanga",
+      "ne": "दाउरा",
+      "id": "kayu bakar ranting",
+      "pt": "lenha miúda",
+      "my": "ထင်းကိုင်း",
+      "th": "กิ่งไม้ฟืน"
+     }
+    },
+    {
+     "word": "刈る",
+     "reading": "かる",
+     "level": "N3",
+     "meanings": {
+      "vi": "cắt, gặt",
+      "en": "to cut, to mow",
+      "zh-Hans": "割；砍",
+      "zh-Hant": "割；砍",
+      "ko": "베다",
+      "tl": "gapasin, putulin",
+      "ne": "काट्नु",
+      "id": "memotong",
+      "pt": "cortar, ceifar",
+      "my": "ရိတ်၊ ခုတ်",
+      "th": "ตัด เกี่ยว"
+     }
+    }
+   ],
+   "t": [
+    5.44,
+    10.47
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=5.44,10.47"
+  },
+  {
+   "ja": "大夫は笑って、「好きにしろ」と言いました。",
+   "furigana": [
+    {
+     "surface": "大夫",
+     "reading": "だゆう"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "笑",
+     "reading": "わら"
+    },
+    {
+     "surface": "って、「",
+     "reading": ""
+    },
+    {
+     "surface": "好",
+     "reading": "す"
+    },
+    {
+     "surface": "きにしろ」と",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "いました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Dayuu wa waratte, \"suki ni shiro\" to iimashita.",
+   "translations": {
+    "vi": "Dayū cười và nói: \"Tùy mày.\"",
+    "en": "Dayū laughed and said, \"Do as you like.\"",
+    "zh-Hans": "大夫笑着说：“随你的便。”",
+    "zh-Hant": "大夫笑著說：「隨你的便。」",
+    "ko": "다유는 웃으며 \"마음대로 해라\" 하고 말했습니다.",
+    "tl": "Tumawa si Dayū at sinabing, \"Bahala ka.\"",
+    "ne": "दायु हाँसे र भने, \"जे मन लाग्छ गर्।\"",
+    "id": "Dayū tertawa dan berkata, \"Terserah kau.\"",
+    "pt": "Dayū riu e disse: \"Faça como quiser.\"",
+    "my": "ဒါယူက ရယ်ပြီး \"ကြိုက်သလိုလုပ်\" လို့ ပြောပါတယ်။",
+    "th": "ดายูหัวเราะแล้วพูดว่า \"ตามใจเจ้า\""
+   },
+   "grammarNote": {
+    "vi": "好きにしろ: muốn làm gì thì làm.",
+    "en": "好きにしろ: do as you please.",
+    "zh-Hans": "好きにしろ: 随你便。",
+    "zh-Hant": "好きにしろ: 隨你便。",
+    "ko": "好きにしろ: 마음대로 해라.",
+    "tl": "好きにしろ: bahala ka.",
+    "ne": "好きにしろ: जे मन लाग्छ गर्।",
+    "id": "好きにしろ: terserah.",
+    "pt": "好きにしろ: faça como quiser.",
+    "my": "好きにしろ: ကြိုက်သလိုလုပ်။",
+    "th": "好きにしろ: ตามใจ."
+   },
+   "vocab": [],
+   "t": [
+    11.37,
+    14.36
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=11.37,14.36"
+  },
+  {
+   "ja": "山の上に着くと、安寿は弟の手を取って、静かに話しはじめました。",
+   "furigana": [
+    {
+     "surface": "山",
+     "reading": "やま"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "上",
+     "reading": "うえ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "着",
+     "reading": "つ"
+    },
+    {
+     "surface": "くと、",
+     "reading": ""
+    },
+    {
+     "surface": "安寿",
+     "reading": "あんじゅ"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "弟",
+     "reading": "おとうと"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "手",
+     "reading": "て"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "取",
+     "reading": "と"
+    },
+    {
+     "surface": "って、",
+     "reading": ""
+    },
+    {
+     "surface": "静",
+     "reading": "しず"
+    },
+    {
+     "surface": "かに",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はな"
+    },
+    {
+     "surface": "しはじめました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Yamanoue ni tsuku to, Anju wa otouto no te o totte, shizuka ni hanashi hajimemashita.",
+   "translations": {
+    "vi": "Lên tới đỉnh núi, Anju nắm tay em và lặng lẽ bắt đầu nói.",
+    "en": "When they reached the top of the mountain, Anju took her brother's hand and quietly began to speak.",
+    "zh-Hans": "到了山顶，安寿拉起弟弟的手，静静地说了起来。",
+    "zh-Hant": "到了山頂，安壽拉起弟弟的手，靜靜地說了起來。",
+    "ko": "산꼭대기에 닿자 안주는 동생의 손을 잡고 조용히 이야기를 시작했습니다.",
+    "tl": "Pagdating sa tuktok ng bundok, hinawakan ni Anju ang kamay ng kapatid at tahimik na nagsalita.",
+    "ne": "पहाडको टुप्पोमा पुगेपछि आन्जुले भाइको हात समातेर बिस्तारै बोल्न थालिन्।",
+    "id": "Sesampai di puncak gunung, Anju menggenggam tangan adiknya dan mulai berbicara pelan.",
+    "pt": "Ao chegarem ao alto da montanha, Anju pegou a mão do irmão e começou a falar baixinho.",
+    "my": "တောင်ထိပ်ရောက်တော့ အန်ဂျူက မောင်လေးလက်ကို ကိုင်ပြီး တိတ်တိတ်လေး စပြောပါတယ်။",
+    "th": "พอถึงยอดเขา อันจูจับมือน้องแล้วเริ่มพูดอย่างเงียบๆ"
+   },
+   "grammarNote": {
+    "vi": "手を取る: nắm tay. 〜はじめる: bắt đầu ~.",
+    "en": "手を取る: take someone's hand. 〜はじめる: begin to ~.",
+    "zh-Hans": "手を取る: 拉手。〜はじめる: 开始～。",
+    "zh-Hant": "手を取る: 拉手。〜はじめる: 開始～。",
+    "ko": "手を取る: 손을 잡다. 〜はじめる: ~하기 시작하다.",
+    "tl": "手を取る: hawakan ang kamay. 〜はじめる: magsimulang ~.",
+    "ne": "手を取る: हात समात्नु। 〜はじめる: ~ थाल्नु।",
+    "id": "手を取る: memegang tangan. 〜はじめる: mulai ~.",
+    "pt": "手を取る: pegar a mão. 〜はじめる: começar a ~.",
+    "my": "手を取る: လက်ကိုင်။ 〜はじめる: စ ~။",
+    "th": "手を取る: จับมือ. 〜はじめる: เริ่ม ~."
+   },
+   "vocab": [],
+   "t": [
+    14.96,
+    20.76
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=14.96,20.76"
+  },
+  {
+   "ja": "厨子王、よく聞いて。あなたは、今日、ここから逃げなさい。",
+   "furigana": [
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "、よく",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "いて。あなたは、",
+     "reading": ""
+    },
+    {
+     "surface": "今日",
+     "reading": "きょう"
+    },
+    {
+     "surface": "、ここから",
+     "reading": ""
+    },
+    {
+     "surface": "逃",
+     "reading": "に"
+    },
+    {
+     "surface": "げなさい。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Zushiou, yoku kiite. Anata wa, kyou, koko kara nige nasai.",
+   "translations": {
+    "vi": "Zushiō, nghe chị nói này. Hôm nay em hãy trốn khỏi đây.",
+    "en": "Zushiō, listen carefully. Today you must run away from here.",
+    "zh-Hans": "厨子王，好好听着。你今天就从这里逃走吧。",
+    "zh-Hant": "廚子王，好好聽著。你今天就從這裡逃走吧。",
+    "ko": "즈시오, 잘 들어. 너는 오늘 여기서 도망쳐.",
+    "tl": "Zushiō, makinig kang mabuti. Tumakas ka rito ngayong araw.",
+    "ne": "जुशिओ, राम्ररी सुन। आज तिमी यहाँबाट भाग।",
+    "id": "Zushiō, dengar baik-baik. Hari ini kau harus kabur dari sini.",
+    "pt": "Zushiō, escute bem. Hoje você vai fugir daqui.",
+    "my": "ဇူရှိအို၊ သေချာနားထောင်။ ဒီနေ့ မင်း ဒီကနေ ထွက်ပြေး။",
+    "th": "ซูชิโอ ฟังให้ดีนะ วันนี้เจ้าจงหนีไปจากที่นี่"
+   },
+   "grammarNote": {
+    "vi": "逃げる: chạy trốn. 〜なさい: hãy ~.",
+    "en": "逃げる: run away. 〜なさい: you must ~.",
+    "zh-Hans": "逃げる: 逃跑。〜なさい: 你要～。",
+    "zh-Hant": "逃げる: 逃跑。〜なさい: 你要～。",
+    "ko": "逃げる: 도망치다. 〜なさい: ~해라.",
+    "tl": "逃げる: tumakas. 〜なさい: ~ ka.",
+    "ne": "逃げる: भाग्नु। 〜なさい: ~ (आदेश)।",
+    "id": "逃げる: kabur. 〜なさい: harus ~.",
+    "pt": "逃げる: fugir. 〜なさい: você vai ~ (ordem).",
+    "my": "逃げる: ထွက်ပြေး။ 〜なさい: ~ (အမိန့်)။",
+    "th": "逃げる: หนี. 〜なさい: จง ~."
+   },
+   "vocab": [],
+   "t": [
+    21.66,
+    25.72
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=21.66,25.72"
+  },
+  {
+   "ja": "逃げる？ 姉さんも一緒でなければ、いやだよ。",
+   "furigana": [
+    {
+     "surface": "逃",
+     "reading": "に"
+    },
+    {
+     "surface": "げる？ ",
+     "reading": ""
+    },
+    {
+     "surface": "姉",
+     "reading": "ねえ"
+    },
+    {
+     "surface": "さんも",
+     "reading": ""
+    },
+    {
+     "surface": "一緒",
+     "reading": "いっしょ"
+    },
+    {
+     "surface": "でなければ、いやだよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nigeru? Neesan mo issho denakereba, iya da yo.",
+   "translations": {
+    "vi": "Trốn ư? Không có chị đi cùng thì em không chịu đâu.",
+    "en": "Run away? Not unless you come too, sister.",
+    "zh-Hans": "逃走？姐姐不一起走的话，我不要。",
+    "zh-Hant": "逃走？姐姐不一起走的話，我不要。",
+    "ko": "도망치라고? 누나가 같이 안 가면 싫어.",
+    "tl": "Tumakas? Ayoko kung hindi ka sasama, Ate.",
+    "ne": "भाग्ने? दिदी सँगै नआए म मान्दिनँ।",
+    "id": "Kabur? Aku tidak mau kalau Kakak tidak ikut.",
+    "pt": "Fugir? Sem você junto, mana, eu não quero.",
+    "my": "ထွက်ပြေးရမှာလား။ အစ်မ အတူမလိုက်ရင် ကျွန်တော် မလုပ်ဘူး။",
+    "th": "หนีหรือ ถ้าพี่ไม่ไปด้วย ข้าไม่ยอมหรอก"
+   },
+   "grammarNote": {
+    "vi": "〜でなければ: nếu không ~ thì. いや: không muốn.",
+    "en": "〜でなければ: unless ~. いや: I don't want to.",
+    "zh-Hans": "〜でなければ: 如果不是～。いや: 不愿意。",
+    "zh-Hant": "〜でなければ: 如果不是～。いや: 不願意。",
+    "ko": "〜でなければ: ~가 아니면. いや: 싫다.",
+    "tl": "〜でなければ: kung hindi ~. いや: ayaw.",
+    "ne": "〜でなければ: ~ नभए। いや: मन नलाग्नु।",
+    "id": "〜でなければ: kalau bukan ~. いや: tidak mau.",
+    "pt": "〜でなければ: se não for ~. いや: não quero.",
+    "my": "〜でなければ: ~ မဟုတ်ရင်။ いや: မလိုချင်။",
+    "th": "〜でなければ: ถ้าไม่ ~. いや: ไม่เอา."
+   },
+   "vocab": [],
+   "t": [
+    26.62,
+    29.87
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=26.62,29.87"
+  },
+  {
+   "ja": "二人で逃げたら、すぐに見つかってしまうわ。",
+   "furigana": [
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "逃",
+     "reading": "に"
+    },
+    {
+     "surface": "げたら、すぐに",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "つかってしまうわ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Futari de nigetara, sugu ni mitsukatte shimau wa.",
+   "translations": {
+    "vi": "Hai đứa cùng trốn thì sẽ bị phát hiện ngay.",
+    "en": "If we both run, they'll find us right away.",
+    "zh-Hans": "两个人一起逃，马上就会被发现的。",
+    "zh-Hant": "兩個人一起逃，馬上就會被發現的。",
+    "ko": "둘이서 도망치면 금방 들키고 말 거야.",
+    "tl": "Kapag sabay tayong tumakas, mahuhuli agad tayo.",
+    "ne": "दुवै जना भाग्यौँ भने तुरुन्तै समातिन्छौँ।",
+    "id": "Kalau kita berdua kabur, kita akan segera ketahuan.",
+    "pt": "Se fugirmos os dois, logo vão nos achar.",
+    "my": "နှစ်ယောက်လုံး ပြေးရင် ချက်ချင်း မိသွားမှာ။",
+    "th": "ถ้าหนีไปสองคน จะถูกจับได้ทันที"
+   },
+   "grammarNote": {
+    "vi": "見つかる: bị tìm thấy.",
+    "en": "見つかる: be found.",
+    "zh-Hans": "見つかる: 被发现。",
+    "zh-Hant": "見つかる: 被發現。",
+    "ko": "見つかる: 들키다.",
+    "tl": "見つかる: mahuli, matagpuan.",
+    "ne": "見つかる: भेटिनु, समातिनु।",
+    "id": "見つかる: ketahuan.",
+    "pt": "見つかる: ser encontrado.",
+    "my": "見つかる: မိ၊ တွေ့ခံရ။",
+    "th": "見つかる: ถูกพบ."
+   },
+   "vocab": [],
+   "t": [
+    30.77,
+    33.8
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=30.77,33.8"
+  },
+  {
+   "ja": "ここで一生つらい思いをするくらいなら、一人でも逃げて、お父さんとお母さんを探しなさい。",
+   "furigana": [
+    {
+     "surface": "ここで",
+     "reading": ""
+    },
+    {
+     "surface": "一生",
+     "reading": "いっしょう"
+    },
+    {
+     "surface": "つらい",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "いをするくらいなら、",
+     "reading": ""
+    },
+    {
+     "surface": "一人",
+     "reading": "ひとり"
+    },
+    {
+     "surface": "でも",
+     "reading": ""
+    },
+    {
+     "surface": "逃",
+     "reading": "に"
+    },
+    {
+     "surface": "げて、お",
+     "reading": ""
+    },
+    {
+     "surface": "父",
+     "reading": "とう"
+    },
+    {
+     "surface": "さんとお",
+     "reading": ""
+    },
+    {
+     "surface": "母",
+     "reading": "かあ"
+    },
+    {
+     "surface": "さんを",
+     "reading": ""
+    },
+    {
+     "surface": "探",
+     "reading": "さが"
+    },
+    {
+     "surface": "しなさい。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Koko de isshou tsurai omoi o suru kurai nara, hitori demo nigete, otousan to okaasan o sagashi nasai.",
+   "translations": {
+    "vi": "Thà trốn đi một mình rồi tìm cha mẹ, còn hơn cả đời chịu khổ ở đây.",
+    "en": "Rather than suffer here your whole life, run, even alone, and look for Father and Mother.",
+    "zh-Hans": "与其在这里受一辈子苦，还不如你一个人逃出去，去找爸爸和妈妈。",
+    "zh-Hant": "與其在這裡受一輩子苦，還不如你一個人逃出去，去找爸爸和媽媽。",
+    "ko": "여기서 평생 괴로운 일을 겪을 바에는 혼자라도 도망쳐서 아버지와 어머니를 찾아.",
+    "tl": "Kaysa magdusa ka rito habambuhay, tumakas ka kahit mag-isa at hanapin mo sina Tatay at Nanay.",
+    "ne": "यहाँ जीवनभर दुःख भोग्नुभन्दा बरु एक्लै भए पनि भागेर बुबाआमालाई खोज।",
+    "id": "Daripada menderita seumur hidup di sini, kaburlah meski sendirian, dan carilah Ayah dan Ibu.",
+    "pt": "Em vez de sofrer aqui a vida inteira, fuja, mesmo sozinho, e procure o papai e a mamãe.",
+    "my": "ဒီမှာ တစ်သက်လုံး ဒုက္ခခံနေရမယ့်အစား တစ်ယောက်တည်းဖြစ်ဖြစ် ပြေးပြီး အဖေနဲ့ အမေကို ရှာ။",
+    "th": "แทนที่จะทนทุกข์อยู่ที่นี่ทั้งชีวิต หนีไปแม้คนเดียวแล้วตามหาพ่อกับแม่เถิด"
+   },
+   "grammarNote": {
+    "vi": "一生: cả đời. 〜くらいなら: thà ~ còn hơn. 探す: tìm.",
+    "en": "一生: whole life. 〜くらいなら: rather than ~. 探す: look for.",
+    "zh-Hans": "一生: 一辈子。〜くらいなら: 与其～不如。探す: 寻找。",
+    "zh-Hant": "一生: 一輩子。〜くらいなら: 與其～不如。探す: 尋找。",
+    "ko": "一生: 평생. 〜くらいなら: ~할 바에는. 探す: 찾다.",
+    "tl": "一生: habambuhay. 〜くらいなら: kaysa ~. 探す: hanapin.",
+    "ne": "一生: जीवनभर। 〜くらいなら: ~ भन्दा बरु। 探す: खोज्नु।",
+    "id": "一生: seumur hidup. 〜くらいなら: daripada ~. 探す: mencari.",
+    "pt": "一生: a vida inteira. 〜くらいなら: em vez de ~. 探す: procurar.",
+    "my": "一生: တစ်သက်လုံး။ 〜くらいなら: ~ မယ့်အစား။ 探す: ရှာ။",
+    "th": "一生: ทั้งชีวิต. 〜くらいなら: แทนที่จะ ~ สู้ ~ ดีกว่า. 探す: ตามหา."
+   },
+   "vocab": [
+    {
+     "word": "一生",
+     "reading": "いっしょう",
+     "level": "N3",
+     "meanings": {
+      "vi": "suốt đời",
+      "en": "lifetime",
+      "zh-Hans": "一辈子",
+      "zh-Hant": "一輩子",
+      "ko": "평생",
+      "tl": "habambuhay",
+      "ne": "जीवनभर",
+      "id": "seumur hidup",
+      "pt": "a vida toda",
+      "my": "တစ်သက်လုံး",
+      "th": "ตลอดชีวิต"
+     }
+    },
+    {
+     "word": "つらい",
+     "reading": "つらい",
+     "level": "N3",
+     "meanings": {
+      "vi": "khổ sở, vất vả",
+      "en": "painful, hard",
+      "zh-Hans": "痛苦，难受",
+      "zh-Hant": "痛苦，難受",
+      "ko": "괴롭다",
+      "tl": "mahirap, masakit",
+      "ne": "पीडादायी",
+      "id": "berat, susah",
+      "pt": "penoso, difícil",
+      "my": "ဆင်းရဲ၊ ခက်ခဲ",
+      "th": "ลำบาก, ทุกข์"
+     }
+    }
+   ],
+   "t": [
+    34.4,
+    41.59
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=34.4,41.59"
+  },
+  {
+   "ja": "安寿は、首のお守りをはずして、弟の首にかけてあげました。",
+   "furigana": [
+    {
+     "surface": "安寿",
+     "reading": "あんじゅ"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "首",
+     "reading": "くび"
+    },
+    {
+     "surface": "のお",
+     "reading": ""
+    },
+    {
+     "surface": "守",
+     "reading": "まも"
+    },
+    {
+     "surface": "りをはずして、",
+     "reading": ""
+    },
+    {
+     "surface": "弟",
+     "reading": "おとうと"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "首",
+     "reading": "くび"
+    },
+    {
+     "surface": "にかけてあげました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Anju wa, kubi no omamori o hazushite, otouto no kubi ni kakete agemashita.",
+   "translations": {
+    "vi": "Anju tháo lá bùa ở cổ mình ra và đeo lên cổ em.",
+    "en": "Anju took the amulet from her neck and hung it around her brother's.",
+    "zh-Hans": "安寿取下脖子上的护身符，挂在了弟弟的脖子上。",
+    "zh-Hant": "安壽取下脖子上的護身符，掛在了弟弟的脖子上。",
+    "ko": "안주는 목에 건 부적을 풀어 동생의 목에 걸어 주었습니다.",
+    "tl": "Tinanggal ni Anju ang anting-anting sa kanyang leeg at isinabit ito sa leeg ng kapatid.",
+    "ne": "आन्जुले आफ्नो घाँटीको ताबिज फुकालेर भाइको घाँटीमा लगाइदिइन्।",
+    "id": "Anju melepas jimat dari lehernya dan mengalungkannya di leher adiknya.",
+    "pt": "Anju tirou o amuleto do pescoço e o pendurou no pescoço do irmão.",
+    "my": "အန်ဂျူက လည်ပင်းက အဆောင်ကို ချွတ်ပြီး မောင်လေးရဲ့ လည်ပင်းမှာ ဆွဲပေးပါတယ်။",
+    "th": "อันจูถอดเครื่องรางที่คอออก แล้วคล้องให้ที่คอของน้อง"
+   },
+   "grammarNote": {
+    "vi": "はずす: tháo ra. 首にかける: đeo lên cổ.",
+    "en": "はずす: take off. 首にかける: hang around the neck.",
+    "zh-Hans": "はずす: 取下。首にかける: 挂在脖子上。",
+    "zh-Hant": "はずす: 取下。首にかける: 掛在脖子上。",
+    "ko": "はずす: 풀다, 벗다. 首にかける: 목에 걸다.",
+    "tl": "はずす: tanggalin. 首にかける: isabit sa leeg.",
+    "ne": "はずす: फुकाल्नु। 首にかける: घाँटीमा लगाउनु।",
+    "id": "はずす: melepas. 首にかける: mengalungkan.",
+    "pt": "はずす: tirar. 首にかける: pendurar no pescoço.",
+    "my": "はずす: ချွတ်။ 首にかける: လည်ပင်းမှာဆွဲ။",
+    "th": "はずす: ถอด. 首にかける: คล้องคอ."
+   },
+   "vocab": [
+    {
+     "word": "はずす",
+     "reading": "はずす",
+     "level": "N3",
+     "meanings": {
+      "vi": "gỡ ra, tháo ra",
+      "en": "to remove, undo",
+      "zh-Hans": "解开，取下",
+      "zh-Hant": "解開，取下",
+      "ko": "떼다, 풀다",
+      "tl": "tanggalin",
+      "ne": "फुकाल्नु",
+      "id": "melepaskan",
+      "pt": "tirar, soltar",
+      "my": "ဖြုတ်သည်",
+      "th": "ปลด, ถอด"
+     }
+    }
+   ],
+   "t": [
+    42.49,
+    47.43
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=42.49,47.43"
+  },
+  {
+   "ja": "地蔵様が、きっとあなたを守ってくださるわ。",
+   "furigana": [
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "様",
+     "reading": "さま"
+    },
+    {
+     "surface": "が、きっとあなたを",
+     "reading": ""
+    },
+    {
+     "surface": "守",
+     "reading": "まも"
+    },
+    {
+     "surface": "ってくださるわ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Jizousama ga, kitto anata o mamotte kudasaru wa.",
+   "translations": {
+    "vi": "Bồ tát Jizō nhất định sẽ che chở cho em.",
+    "en": "Jizō will surely protect you.",
+    "zh-Hans": "地藏菩萨一定会保佑你的。",
+    "zh-Hant": "地藏菩薩一定會保佑你的。",
+    "ko": "지장보살님이 분명 너를 지켜 주실 거야.",
+    "tl": "Siguradong poprotektahan ka ni Jizō.",
+    "ne": "जिजोले पक्कै तिम्रो रक्षा गर्नुहुनेछ।",
+    "id": "Jizō pasti akan melindungimu.",
+    "pt": "Jizō com certeza vai proteger você.",
+    "my": "ဂျီဇိုဘုရားက မင်းကို သေချာပေါက် စောင့်ရှောက်ပေးလိမ့်မယ်။",
+    "th": "พระจิโซจะคุ้มครองเจ้าแน่นอน"
+   },
+   "grammarNote": {
+    "vi": "守ってくださる: (ngài) che chở.",
+    "en": "守ってくださる: (he) will protect.",
+    "zh-Hans": "守ってくださる: （菩萨）保佑。",
+    "zh-Hant": "守ってくださる: （菩薩）保佑。",
+    "ko": "守ってくださる: 지켜 주시다.",
+    "tl": "守ってくださる: poprotektahan (niya).",
+    "ne": "守ってくださる: रक्षा गर्नुहुन्छ।",
+    "id": "守ってくださる: (beliau) melindungi.",
+    "pt": "守ってくださる: (ele) vai proteger.",
+    "my": "守ってくださる: စောင့်ရှောက်ပေး။",
+    "th": "守ってくださる: (ท่าน) คุ้มครอง."
+   },
+   "vocab": [
+    {
+     "word": "守る",
+     "reading": "まもる",
+     "level": "N3",
+     "meanings": {
+      "vi": "giữ (lời hứa), bảo vệ",
+      "en": "to keep (a promise), protect",
+      "zh-Hans": "遵守，保护",
+      "zh-Hant": "遵守，保護",
+      "ko": "지키다",
+      "tl": "tuparin; ipagtanggol",
+      "ne": "पालन गर्नु; रक्षा गर्नु",
+      "id": "menepati; melindungi",
+      "pt": "cumprir; proteger",
+      "my": "တည်သည်၊ ကာကွယ်သည်",
+      "th": "รักษา, ปกป้อง"
+     }
+    }
+   ],
+   "t": [
+    48.33,
+    52.04
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=48.33,52.04"
+  },
+  {
+   "ja": "山を下りたら、川に沿って行きなさい。そうすれば、お寺があるはずよ。",
+   "furigana": [
+    {
+     "surface": "山",
+     "reading": "やま"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "下",
+     "reading": "お"
+    },
+    {
+     "surface": "りたら、",
+     "reading": ""
+    },
+    {
+     "surface": "川",
+     "reading": "かわ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "沿",
+     "reading": "そ"
+    },
+    {
+     "surface": "って",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "きなさい。そうすれば、お",
+     "reading": ""
+    },
+    {
+     "surface": "寺",
+     "reading": "てら"
+    },
+    {
+     "surface": "があるはずよ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Yama o oritara, kawa ni sotte iki nasai. Sou sureba, otera ga aru hazu yo.",
+   "translations": {
+    "vi": "Xuống núi rồi thì đi men theo con sông. Như thế sẽ có một ngôi chùa.",
+    "en": "When you come down the mountain, follow the river. There should be a temple.",
+    "zh-Hans": "下了山，就沿着河走。那样应该会有一座寺庙。",
+    "zh-Hant": "下了山，就沿著河走。那樣應該會有一座寺廟。",
+    "ko": "산을 내려가면 강을 따라가. 그러면 절이 있을 거야.",
+    "tl": "Pagbaba mo ng bundok, sundan mo ang ilog. May templo roon.",
+    "ne": "पहाड ओर्लेपछि खोलाको किनारै किनार जाऊ। त्यसो गरे एउटा मन्दिर हुनुपर्छ।",
+    "id": "Setelah turun gunung, susurilah sungai. Pasti ada sebuah kuil.",
+    "pt": "Quando descer a montanha, siga o rio. Deve haver um templo.",
+    "my": "တောင်ပေါ်က ဆင်းပြီးရင် မြစ်အတိုင်း သွား။ ဒါဆို ဘုန်းကြီးကျောင်း တစ်ကျောင်း ရှိရမယ်။",
+    "th": "ลงเขาแล้วให้เดินเลียบแม่น้ำไป แล้วจะเจอวัดแห่งหนึ่ง"
+   },
+   "grammarNote": {
+    "vi": "〜に沿って: men theo ~. 〜はず: chắc chắn là ~.",
+    "en": "〜に沿って: along ~. 〜はず: should be.",
+    "zh-Hans": "〜に沿って: 沿着～。〜はず: 应该～。",
+    "zh-Hant": "〜に沿って: 沿著～。〜はず: 應該～。",
+    "ko": "〜に沿って: ~을 따라. 〜はず: ~일 것이다.",
+    "tl": "〜に沿って: sa tabi ng ~. 〜はず: dapat ay ~.",
+    "ne": "〜に沿って: ~ को किनारै किनार। 〜はず: हुनुपर्छ।",
+    "id": "〜に沿って: menyusuri ~. 〜はず: semestinya.",
+    "pt": "〜に沿って: ao longo de ~. 〜はず: deve haver.",
+    "my": "〜に沿って: ~ အတိုင်း။ 〜はず: ရှိရမယ်။",
+    "th": "〜に沿って: เลียบ ~. 〜はず: น่าจะ ~."
+   },
+   "vocab": [
+    {
+     "word": "沿う",
+     "reading": "そう",
+     "level": "N3",
+     "meanings": {
+      "vi": "men theo, dọc theo",
+      "en": "to go along, to follow",
+      "zh-Hans": "沿着",
+      "zh-Hant": "沿著",
+      "ko": "따르다",
+      "tl": "sumunod sa tabi",
+      "ne": "किनारै जानु",
+      "id": "menyusuri",
+      "pt": "seguir ao longo",
+      "my": "အတိုင်းလိုက်",
+      "th": "เลียบ"
+     }
+    }
+   ],
+   "t": [
+    52.64,
+    58.43
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=52.64,58.43"
+  },
+  {
+   "ja": "姉さんは、どうするの？",
+   "furigana": [
+    {
+     "surface": "姉",
+     "reading": "ねえ"
+    },
+    {
+     "surface": "さんは、どうするの？",
+     "reading": ""
+    }
+   ],
+   "romaji": "Neesan wa, dou suru no?",
+   "translations": {
+    "vi": "Còn chị thì sao?",
+    "en": "What about you, sister?",
+    "zh-Hans": "姐姐你怎么办？",
+    "zh-Hant": "姐姐你怎麼辦？",
+    "ko": "누나는 어떻게 할 건데?",
+    "tl": "Ikaw, Ate, ano'ng gagawin mo?",
+    "ne": "अनि दिदी के गर्नुहुन्छ?",
+    "id": "Lalu Kakak bagaimana?",
+    "pt": "E você, mana, o que vai fazer?",
+    "my": "ဒါဆို အစ်မကရော ဘာလုပ်မှာလဲ။",
+    "th": "แล้วพี่ล่ะจะทำอย่างไร"
+   },
+   "grammarNote": {
+    "vi": "どうするの: sẽ làm sao.",
+    "en": "どうするの: what will you do.",
+    "zh-Hans": "どうするの: 怎么办。",
+    "zh-Hant": "どうするの: 怎麼辦。",
+    "ko": "どうするの: 어떻게 해.",
+    "tl": "どうするの: ano'ng gagawin.",
+    "ne": "どうするの: के गर्ने।",
+    "id": "どうするの: bagaimana.",
+    "pt": "どうするの: o que vai fazer.",
+    "my": "どうするの: ဘာလုပ်မလဲ။",
+    "th": "どうするの: จะทำอย่างไร."
+   },
+   "vocab": [],
+   "t": [
+    59.33,
+    61.32
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=59.33,61.32"
+  },
+  {
+   "ja": "わたしのことは心配しないで。あとから、きっと行くから。",
+   "furigana": [
+    {
+     "surface": "わたしのことは",
+     "reading": ""
+    },
+    {
+     "surface": "心配",
+     "reading": "しんぱい"
+    },
+    {
+     "surface": "しないで。あとから、きっと",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "くから。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Watashi no koto wa shinpai shinaide. Ato kara, kitto iku kara.",
+   "translations": {
+    "vi": "Đừng lo cho chị. Chị nhất định sẽ theo sau mà.",
+    "en": "Don't worry about me. I'll come after you, I promise.",
+    "zh-Hans": "别担心我。我随后一定会去的。",
+    "zh-Hant": "別擔心我。我隨後一定會去的。",
+    "ko": "내 걱정은 하지 마. 나중에 꼭 갈 테니까.",
+    "tl": "Huwag mo akong alalahanin. Susunod ako, pangako.",
+    "ne": "मेरो चिन्ता नगर। म पछि पक्कै आउँछु।",
+    "id": "Jangan khawatirkan aku. Aku pasti menyusul.",
+    "pt": "Não se preocupe comigo. Eu vou depois, prometo.",
+    "my": "အစ်မအတွက် မပူနဲ့။ နောက်ကနေ သေချာ လိုက်လာမယ်။",
+    "th": "ไม่ต้องห่วงพี่ เดี๋ยวพี่ตามไปแน่"
+   },
+   "grammarNote": {
+    "vi": "心配しないで: đừng lo. あとから: theo sau.",
+    "en": "心配しないで: don't worry. あとから: later, after.",
+    "zh-Hans": "心配しないで: 别担心。あとから: 随后。",
+    "zh-Hant": "心配しないで: 別擔心。あとから: 隨後。",
+    "ko": "心配しないで: 걱정하지 마. あとから: 나중에.",
+    "tl": "心配しないで: huwag mag-alala. あとから: pagkatapos, susunod.",
+    "ne": "心配しないで: चिन्ता नगर। あとから: पछि।",
+    "id": "心配しないで: jangan khawatir. あとから: menyusul.",
+    "pt": "心配しないで: não se preocupe. あとから: depois.",
+    "my": "心配しないで: မပူနဲ့။ あとから: နောက်ကနေ။",
+    "th": "心配しないで: ไม่ต้องห่วง. あとから: ตามไปทีหลัง."
+   },
+   "vocab": [],
+   "t": [
+    62.22,
+    66.78
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=62.22,66.78"
+  },
+  {
+   "ja": "厨子王は、何度も何度もふり返りながら、山を下りていきました。",
+   "furigana": [
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なん"
+    },
+    {
+     "surface": "度",
+     "reading": "ど"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なん"
+    },
+    {
+     "surface": "度",
+     "reading": "ど"
+    },
+    {
+     "surface": "もふり",
+     "reading": ""
+    },
+    {
+     "surface": "返",
+     "reading": "かえ"
+    },
+    {
+     "surface": "りながら、",
+     "reading": ""
+    },
+    {
+     "surface": "山",
+     "reading": "やま"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "下",
+     "reading": "お"
+    },
+    {
+     "surface": "りていきました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Zushiou wa, nando mo nando mo furi kaeri nagara, yama o orite ikimashita.",
+   "translations": {
+    "vi": "Zushiō vừa đi xuống núi vừa ngoái lại hết lần này đến lần khác.",
+    "en": "Zushiō went down the mountain, looking back again and again.",
+    "zh-Hans": "厨子王一次又一次地回头，走下了山。",
+    "zh-Hant": "廚子王一次又一次地回頭，走下了山。",
+    "ko": "즈시오는 몇 번이고 몇 번이고 뒤돌아보며 산을 내려갔습니다.",
+    "tl": "Bumaba ng bundok si Zushiō, paulit-ulit na lumilingon.",
+    "ne": "जुशिओ पटक-पटक फर्केर हेर्दै पहाड ओर्लियो।",
+    "id": "Zushiō menuruni gunung sambil menoleh berkali-kali.",
+    "pt": "Zushiō desceu a montanha olhando para trás várias e várias vezes.",
+    "my": "ဇူရှိအိုဟာ အကြိမ်ကြိမ် လှည့်ကြည့်ရင်း တောင်ပေါ်က ဆင်းသွားပါတယ်။",
+    "th": "ซูชิโอเดินลงเขา หันกลับมามองครั้งแล้วครั้งเล่า"
+   },
+   "grammarNote": {
+    "vi": "ふり返る: ngoái lại. 〜ながら: vừa ~ vừa.",
+    "en": "ふり返る: look back. 〜ながら: while ~.",
+    "zh-Hans": "ふり返る: 回头。〜ながら: 一边～一边。",
+    "zh-Hant": "ふり返る: 回頭。〜ながら: 一邊～一邊。",
+    "ko": "ふり返る: 뒤돌아보다. 〜ながら: ~하면서.",
+    "tl": "ふり返る: lumingon. 〜ながら: habang ~.",
+    "ne": "ふり返る: फर्केर हेर्नु। 〜ながら: ~ दै।",
+    "id": "ふり返る: menoleh. 〜ながら: sambil ~.",
+    "pt": "ふり返る: olhar para trás. 〜ながら: enquanto ~.",
+    "my": "ふり返る: လှည့်ကြည့်။ 〜ながら: ~ ရင်း။",
+    "th": "ふり返る: หันกลับมามอง. 〜ながら: พลาง ~."
+   },
+   "vocab": [],
+   "t": [
+    67.68,
+    73.03
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=67.68,73.03"
+  },
+  {
+   "ja": "安寿は、弟の姿が見えなくなるまで、ずっと見送っていました。",
+   "furigana": [
+    {
+     "surface": "安寿",
+     "reading": "あんじゅ"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "弟",
+     "reading": "おとうと"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "姿",
+     "reading": "すがた"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "えなくなるまで、ずっと",
+     "reading": ""
+    },
+    {
+     "surface": "見送",
+     "reading": "みおく"
+    },
+    {
+     "surface": "っていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Anju wa, otouto no sugata ga mienaku naru made, zutto miokutte imashita.",
+   "translations": {
+    "vi": "Anju đứng tiễn mãi cho đến khi bóng em khuất hẳn.",
+    "en": "Anju watched him go until he was out of sight.",
+    "zh-Hans": "安寿一直目送着，直到再也看不见弟弟的身影。",
+    "zh-Hant": "安壽一直目送著，直到再也看不見弟弟的身影。",
+    "ko": "안주는 동생의 모습이 보이지 않을 때까지 계속 배웅했습니다.",
+    "tl": "Tinanaw siya ni Anju hanggang sa mawala siya sa paningin.",
+    "ne": "भाइको आकृति नदेखिउन्जेल आन्जुले हेरिरहिन्।",
+    "id": "Anju terus memandanginya pergi sampai sosoknya tak terlihat lagi.",
+    "pt": "Anju ficou olhando até o irmão sumir de vista.",
+    "my": "အန်ဂျူဟာ မောင်လေးရဲ့ ပုံရိပ် မမြင်ရတော့တဲ့အထိ ကြည့်ပြီး လိုက်ပို့နေပါတယ်။",
+    "th": "อันจูยืนมองส่งน้องอยู่ตลอด จนกระทั่งมองไม่เห็นเงาของน้องอีก"
+   },
+   "grammarNote": {
+    "vi": "姿: bóng dáng. 見送る: tiễn. 〜まで: cho đến khi.",
+    "en": "姿: figure. 見送る: see off. 〜まで: until.",
+    "zh-Hans": "姿: 身影。見送る: 目送。〜まで: 直到。",
+    "zh-Hant": "姿: 身影。見送る: 目送。〜まで: 直到。",
+    "ko": "姿: 모습. 見送る: 배웅하다. 〜まで: ~까지.",
+    "tl": "姿: anyo. 見送る: tanawin paalis. 〜まで: hanggang.",
+    "ne": "姿: आकृति। 見送る: बिदाइ गर्दै हेर्नु। 〜まで: ~ उन्जेल।",
+    "id": "姿: sosok. 見送る: mengantar dengan pandangan. 〜まで: sampai.",
+    "pt": "姿: figura. 見送る: ver partir. 〜まで: até.",
+    "my": "姿: ပုံရိပ်။ 見送る: လိုက်ပို့ကြည့်။ 〜まで: ~ အထိ။",
+    "th": "姿: ร่าง เงา. 見送る: มองส่ง. 〜まで: จนกระทั่ง."
+   },
+   "vocab": [
+    {
+     "word": "姿",
+     "reading": "すがた",
+     "level": "N3",
+     "meanings": {
+      "vi": "dáng vẻ, hình dạng",
+      "en": "figure, appearance",
+      "zh-Hans": "样子，身影",
+      "zh-Hant": "樣子，身影",
+      "ko": "모습",
+      "tl": "anyo, hitsura",
+      "ne": "रूप",
+      "id": "rupa, sosok",
+      "pt": "aparência, figura",
+      "my": "ပုံသဏ္ဌာန်",
+      "th": "รูปร่าง"
+     }
+    },
+    {
+     "word": "ずっと",
+     "reading": "ずっと",
+     "level": "N3",
+     "meanings": {
+      "vi": "suốt, mãi",
+      "en": "all along, the whole time",
+      "zh-Hans": "一直",
+      "zh-Hant": "一直",
+      "ko": "계속",
+      "tl": "buong panahon",
+      "ne": "लगातार",
+      "id": "terus",
+      "pt": "o tempo todo",
+      "my": "တစ်လျှောက်လုံး",
+      "th": "ตลอด"
+     }
+    },
+    {
+     "word": "見送る",
+     "reading": "みおくる",
+     "level": "N2",
+     "meanings": {
+      "vi": "tiễn",
+      "en": "to see off",
+      "zh-Hans": "目送，送行",
+      "zh-Hant": "目送，送行",
+      "ko": "배웅하다",
+      "tl": "ihatid ng tingin",
+      "ne": "बिदा गर्नु",
+      "id": "mengantar kepergian",
+      "pt": "ver partir",
+      "my": "လိုက်ပို့သည်",
+      "th": "มองส่ง, ส่ง"
+     }
+    }
+   ],
+   "t": [
+    73.63,
+    78.72
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=73.63,78.72"
+  },
+  {
+   "ja": "それから、安寿は、一人で山の奥の沼へ歩いていきました。",
+   "furigana": [
+    {
+     "surface": "それから、",
+     "reading": ""
+    },
+    {
+     "surface": "安寿",
+     "reading": "あんじゅ"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "一人",
+     "reading": "ひとり"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "山",
+     "reading": "やま"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "奥",
+     "reading": "おく"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "沼",
+     "reading": "ぬま"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "歩",
+     "reading": "ある"
+    },
+    {
+     "surface": "いていきました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sorekara, Anju wa, hitori de yama no oku no numa e aruite ikimashita.",
+   "translations": {
+    "vi": "Rồi Anju một mình đi sâu vào cái đầm trong núi.",
+    "en": "Then Anju walked alone, deep into the mountain, to the marsh.",
+    "zh-Hans": "然后，安寿独自一人朝山里深处的沼泽走去。",
+    "zh-Hant": "然後，安壽獨自一人朝山裡深處的沼澤走去。",
+    "ko": "그러고 나서 안주는 혼자 산속 깊은 늪으로 걸어갔습니다.",
+    "tl": "Pagkatapos, naglakad si Anju nang mag-isa papunta sa latian sa kaloob-looban ng bundok.",
+    "ne": "त्यसपछि आन्जु एक्लै पहाडभित्रको दलदलतर्फ हिँडिन्।",
+    "id": "Kemudian Anju berjalan sendirian ke rawa di kedalaman gunung.",
+    "pt": "Depois, Anju caminhou sozinha até o pântano no fundo da montanha.",
+    "my": "ပြီးတော့ အန်ဂျူဟာ တစ်ယောက်တည်း တောင်ထဲက ရွှံ့နွံဆီ လျှောက်သွားပါတယ်။",
+    "th": "จากนั้น อันจูเดินคนเดียวเข้าไปยังบึงลึกในภูเขา"
+   },
+   "grammarNote": {
+    "vi": "奥: sâu bên trong. 沼: đầm lầy.",
+    "en": "奥: depths. 沼: marsh.",
+    "zh-Hans": "奥: 深处。沼: 沼泽。",
+    "zh-Hant": "奥: 深處。沼: 沼澤。",
+    "ko": "奥: 깊은 곳. 沼: 늪.",
+    "tl": "奥: kaloob-looban. 沼: latian.",
+    "ne": "奥: भित्री भाग। 沼: दलदल।",
+    "id": "奥: kedalaman. 沼: rawa.",
+    "pt": "奥: fundo. 沼: pântano.",
+    "my": "奥: အတွင်းပိုင်း။ 沼: ရွှံ့နွံ။",
+    "th": "奥: ส่วนลึก. 沼: บึง."
+   },
+   "vocab": [
+    {
+     "word": "奥",
+     "reading": "おく",
+     "level": "N3",
+     "meanings": {
+      "vi": "bên trong, phía trong",
+      "en": "inner part, back",
+      "zh-Hans": "里面",
+      "zh-Hant": "裡面",
+      "ko": "안쪽",
+      "tl": "loob",
+      "ne": "भित्र",
+      "id": "bagian dalam",
+      "pt": "fundo, interior",
+      "my": "အတွင်း",
+      "th": "ข้างใน"
+     }
+    },
+    {
+     "word": "沼",
+     "reading": "ぬま",
+     "level": "N1",
+     "meanings": {
+      "vi": "đầm lầy",
+      "en": "marsh, swamp",
+      "zh-Hans": "沼泽",
+      "zh-Hant": "沼澤",
+      "ko": "늪",
+      "tl": "latian",
+      "ne": "दलदल",
+      "id": "rawa",
+      "pt": "pântano",
+      "my": "ရွှံ့နွံ",
+      "th": "บึง"
+     }
+    }
+   ],
+   "t": [
+    79.32,
+    84.77
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=79.32,84.77"
+  },
+  {
+   "ja": "沼のそばには、安寿のわらぞうりだけが、きちんとそろえて残されていたそうです。",
+   "furigana": [
+    {
+     "surface": "沼",
+     "reading": "ぬま"
+    },
+    {
+     "surface": "のそばには、",
+     "reading": ""
+    },
+    {
+     "surface": "安寿",
+     "reading": "あんじゅ"
+    },
+    {
+     "surface": "のわらぞうりだけが、きちんとそろえて",
+     "reading": ""
+    },
+    {
+     "surface": "残",
+     "reading": "のこ"
+    },
+    {
+     "surface": "されていたそうです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Numa no soba ni wa, Anju no wara zouri dake ga, kichinto soroete nokosarete ita sou desu.",
+   "translations": {
+    "vi": "Người ta kể rằng bên bờ đầm chỉ còn lại đôi dép rơm của Anju, xếp ngay ngắn.",
+    "en": "It is said that on the edge of the marsh, only Anju's straw sandals were left, neatly placed side by side.",
+    "zh-Hans": "据说沼泽边上，只留下了安寿的一双草鞋，摆放得整整齐齐。",
+    "zh-Hant": "據說沼澤邊上，只留下了安壽的一雙草鞋，擺放得整整齊齊。",
+    "ko": "늪가에는 안주의 짚신만이 가지런히 놓여 남아 있었다고 합니다.",
+    "tl": "Sabi nila, sa gilid ng latian, ang naiwan lang ay ang sandalyas na dayami ni Anju, maayos na magkatabi.",
+    "ne": "भनिन्छ, दलदलको किनारमा आन्जुका परालका चप्पल मात्र मिलाएर राखिएका थिए।",
+    "id": "Konon, di tepi rawa itu hanya tertinggal sepasang sandal jerami Anju, tersusun rapi.",
+    "pt": "Dizem que, na margem do pântano, só ficaram as sandálias de palha de Anju, bem arrumadas lado a lado.",
+    "my": "ရွှံ့နွံကမ်းမှာ အန်ဂျူရဲ့ ကောက်ရိုးဖိနပ်တစ်ရံပဲ သပ်သပ်ရပ်ရပ် ကျန်ခဲ့တယ်လို့ ဆိုကြပါတယ်။",
+    "th": "เล่ากันว่า ริมบึงนั้นเหลือเพียงรองเท้าฟางของอันจูวางเรียงไว้อย่างเรียบร้อย"
+   },
+   "grammarNote": {
+    "vi": "そば: bên cạnh. わらぞうり: dép rơm. きちんと: ngay ngắn. 〜そうです: nghe nói.",
+    "en": "そば: beside. わらぞうり: straw sandals. きちんと: neatly. 〜そうです: it is said.",
+    "zh-Hans": "そば: 旁边。わらぞうり: 草鞋。きちんと: 整齐。〜そうです: 据说。",
+    "zh-Hant": "そば: 旁邊。わらぞうり: 草鞋。きちんと: 整齊。〜そうです: 據說。",
+    "ko": "そば: 옆. わらぞうり: 짚신. きちんと: 가지런히. 〜そうです: ~라고 한다.",
+    "tl": "そば: tabi. わらぞうり: sandalyas na dayami. きちんと: maayos. 〜そうです: sabi nila.",
+    "ne": "そば: छेउ। わらぞうり: परालको चप्पल। きちんと: मिलाएर। 〜そうです: भनिन्छ।",
+    "id": "そば: samping. わらぞうり: sandal jerami. きちんと: rapi. 〜そうです: konon.",
+    "pt": "そば: ao lado. わらぞうり: sandálias de palha. きちんと: arrumado. 〜そうです: dizem que.",
+    "my": "そば: ဘေး။ わらぞうり: ကောက်ရိုးဖိနပ်။ きちんと: သပ်သပ်ရပ်ရပ်။ 〜そうです: ဆိုကြတယ်။",
+    "th": "そば: ข้างๆ. わらぞうり: รองเท้าฟาง. きちんと: เรียบร้อย. 〜そうです: เล่ากันว่า."
+   },
+   "vocab": [
+    {
+     "word": "ぞうり",
+     "reading": "ぞうり",
+     "level": "N2",
+     "meanings": {
+      "vi": "dép rơm, dép zōri",
+      "en": "straw sandals (zōri)",
+      "zh-Hans": "草鞋",
+      "zh-Hant": "草鞋",
+      "ko": "짚신",
+      "tl": "sandalyas na dayami",
+      "ne": "परालको चप्पल",
+      "id": "sandal jerami",
+      "pt": "sandálias de palha",
+      "my": "ကောက်ရိုးဖိနပ်",
+      "th": "รองเท้าฟาง"
+     }
+    },
+    {
+     "word": "きちんと",
+     "reading": "きちんと",
+     "level": "N3",
+     "meanings": {
+      "vi": "ngay ngắn, đàng hoàng",
+      "en": "properly, neatly",
+      "zh-Hans": "端正地，规规矩矩",
+      "zh-Hant": "端正地，規規矩矩",
+      "ko": "반듯하게, 제대로",
+      "tl": "nang maayos",
+      "ne": "राम्ररी, ढङ्गले",
+      "id": "dengan rapi",
+      "pt": "direitinho",
+      "my": "သေသေသပ်သပ်",
+      "th": "อย่างเรียบร้อย"
+     }
+    },
+    {
+     "word": "そろえる",
+     "reading": "そろえる",
+     "level": "N3",
+     "meanings": {
+      "vi": "làm cho đều, tập hợp đủ",
+      "en": "to align, make uniform",
+      "zh-Hans": "使一致，凑齐",
+      "zh-Hant": "使一致，湊齊",
+      "ko": "가지런히 하다, 맞추다",
+      "tl": "pagsabayin, kumpletuhin",
+      "ne": "मिलाउनु",
+      "id": "menyelaraskan",
+      "pt": "alinhar, reunir",
+      "my": "ညီအောင်လုပ်သည်",
+      "th": "ทำให้พร้อมเพรียง"
+     }
+    }
+   ],
+   "t": [
+    85.37,
+    91.46
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=85.37,91.46"
+  },
+  {
+   "ja": "弟を逃がすために、安寿は自分の命をささげたのでした。",
+   "furigana": [
+    {
+     "surface": "弟",
+     "reading": "おとうと"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "逃",
+     "reading": "に"
+    },
+    {
+     "surface": "がすために、",
+     "reading": ""
+    },
+    {
+     "surface": "安寿",
+     "reading": "あんじゅ"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "命",
+     "reading": "いのち"
+    },
+    {
+     "surface": "をささげたのでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Otouto o nigasu tame ni, Anju wa jibun no inochi o sasageta no deshita.",
+   "translations": {
+    "vi": "Để em trai thoát được, Anju đã hiến dâng mạng sống của mình.",
+    "en": "To let her brother escape, Anju had given her own life.",
+    "zh-Hans": "为了让弟弟逃走，安寿献出了自己的生命。",
+    "zh-Hant": "為了讓弟弟逃走，安壽獻出了自己的生命。",
+    "ko": "동생을 도망치게 하려고 안주는 자기 목숨을 바친 것이었습니다.",
+    "tl": "Para makatakas ang kapatid, inialay ni Anju ang sarili niyang buhay.",
+    "ne": "भाइलाई भगाउन आन्जुले आफ्नै ज्यान अर्पण गरिन्।",
+    "id": "Demi meloloskan adiknya, Anju telah mempersembahkan nyawanya sendiri.",
+    "pt": "Para que o irmão escapasse, Anju havia dado a própria vida.",
+    "my": "မောင်လေး လွတ်မြောက်ဖို့အတွက် အန်ဂျူဟာ ကိုယ့်အသက်ကို စွန့်လှူခဲ့တာပါ။",
+    "th": "เพื่อให้น้องหนีรอด อันจูได้สละชีวิตของตนเอง"
+   },
+   "grammarNote": {
+    "vi": "逃がす: cho trốn thoát. 命をささげる: hiến dâng mạng sống.",
+    "en": "逃がす: let escape. 命をささげる: give one's life.",
+    "zh-Hans": "逃がす: 让～逃走。命をささげる: 献出生命。",
+    "zh-Hant": "逃がす: 讓～逃走。命をささげる: 獻出生命。",
+    "ko": "逃がす: 도망치게 하다. 命をささげる: 목숨을 바치다.",
+    "tl": "逃がす: patakasin. 命をささげる: ialay ang buhay.",
+    "ne": "逃がす: भगाउनु। 命をささげる: ज्यान अर्पण गर्नु।",
+    "id": "逃がす: meloloskan. 命をささげる: mempersembahkan nyawa.",
+    "pt": "逃がす: deixar escapar. 命をささげる: dar a vida.",
+    "my": "逃がす: လွတ်မြောက်စေ။ 命をささげる: အသက်စွန့်။",
+    "th": "逃がす: ปล่อยให้หนี. 命をささげる: สละชีวิต."
+   },
+   "vocab": [
+    {
+     "word": "逃がす",
+     "reading": "にがす",
+     "level": "N2",
+     "meanings": {
+      "vi": "thả cho thoát, để sổng",
+      "en": "to let escape",
+      "zh-Hans": "放走；让逃走",
+      "zh-Hant": "放走；讓逃走",
+      "ko": "놓아주다, 도망치게 하다",
+      "tl": "patakasin",
+      "ne": "भगाउनु",
+      "id": "meloloskan",
+      "pt": "deixar escapar",
+      "my": "လွတ်စေ",
+      "th": "ปล่อยให้หนี"
+     }
+    },
+    {
+     "word": "命",
+     "reading": "いのち",
+     "level": "N3",
+     "meanings": {
+      "vi": "sinh mệnh, mạng sống",
+      "en": "life",
+      "zh-Hans": "生命",
+      "zh-Hant": "生命",
+      "ko": "목숨, 생명",
+      "tl": "buhay",
+      "ne": "जीवन, प्राण",
+      "id": "nyawa",
+      "pt": "vida",
+      "my": "အသက်",
+      "th": "ชีวิต"
+     }
+    },
+    {
+     "word": "ささげる",
+     "reading": "ささげる",
+     "level": "N1",
+     "meanings": {
+      "vi": "dâng",
+      "en": "to offer, dedicate",
+      "zh-Hans": "献上",
+      "zh-Hant": "獻上",
+      "ko": "바치다",
+      "tl": "ialay",
+      "ne": "चढाउनु",
+      "id": "mempersembahkan",
+      "pt": "oferecer",
+      "my": "ပူဇော်သည်",
+      "th": "ถวาย"
+     }
+    }
+   ],
+   "t": [
+    92.06,
+    97.15
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=92.06,97.15"
+  },
+  {
+   "ja": "一方、厨子王は、川に沿って走り続け、小さなお寺にたどり着きました。",
+   "furigana": [
+    {
+     "surface": "一方",
+     "reading": "いっぽう"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "川",
+     "reading": "かわ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "沿",
+     "reading": "そ"
+    },
+    {
+     "surface": "って",
+     "reading": ""
+    },
+    {
+     "surface": "走",
+     "reading": "はし"
+    },
+    {
+     "surface": "り",
+     "reading": ""
+    },
+    {
+     "surface": "続",
+     "reading": "つづ"
+    },
+    {
+     "surface": "け、",
+     "reading": ""
+    },
+    {
+     "surface": "小",
+     "reading": "ちい"
+    },
+    {
+     "surface": "さなお",
+     "reading": ""
+    },
+    {
+     "surface": "寺",
+     "reading": "てら"
+    },
+    {
+     "surface": "にたどり",
+     "reading": ""
+    },
+    {
+     "surface": "着",
+     "reading": "つ"
+    },
+    {
+     "surface": "きました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ippou, Zushiou wa, kawa ni sotte hashiri tsuzuke, chiisana otera ni tadoritsukimashita.",
+   "translations": {
+    "vi": "Còn Zushiō thì chạy mãi dọc theo dòng sông và tìm tới một ngôi chùa nhỏ.",
+    "en": "Meanwhile, Zushiō kept running along the river and came to a small temple.",
+    "zh-Hans": "另一边，厨子王沿着河一路奔跑，终于来到一座小寺庙。",
+    "zh-Hant": "另一邊，廚子王沿著河一路奔跑，終於來到一座小寺廟。",
+    "ko": "한편 즈시오는 강을 따라 계속 달려 작은 절에 다다랐습니다.",
+    "tl": "Samantala, patuloy na tumakbo si Zushiō sa tabi ng ilog hanggang marating ang isang maliit na templo.",
+    "ne": "उता जुशिओ खोलाको किनार हुँदै दौडिरह्यो र एउटा सानो मन्दिर पुग्यो।",
+    "id": "Sementara itu, Zushiō terus berlari menyusuri sungai dan sampai di sebuah kuil kecil.",
+    "pt": "Enquanto isso, Zushiō correu ao longo do rio e chegou a um pequeno templo.",
+    "my": "တစ်ဖက်မှာတော့ ဇူရှိအိုဟာ မြစ်အတိုင်း ဆက်ပြေးပြီး ဘုန်းကြီးကျောင်းလေးတစ်ကျောင်းကို ရောက်လာပါတယ်။",
+    "th": "ฝ่ายซูชิโอวิ่งเลียบแม่น้ำไม่หยุด จนมาถึงวัดเล็กๆ แห่งหนึ่ง"
+   },
+   "grammarNote": {
+    "vi": "一方: còn phía bên kia. たどり着く: lần tới được.",
+    "en": "一方: meanwhile. たどり着く: finally reach.",
+    "zh-Hans": "一方: 另一方面。たどり着く: 好不容易到达。",
+    "zh-Hant": "一方: 另一方面。たどり着く: 好不容易到達。",
+    "ko": "一方: 한편. たどり着く: 겨우 다다르다.",
+    "tl": "一方: samantala. たどり着く: marating sa wakas.",
+    "ne": "一方: उता। たどり着く: बल्ल पुग्नु।",
+    "id": "一方: sementara itu. たどり着く: akhirnya sampai.",
+    "pt": "一方: enquanto isso. たどり着く: chegar finalmente.",
+    "my": "一方: တစ်ဖက်မှာ။ たどり着く: နောက်ဆုံးရောက်။",
+    "th": "一方: ฝ่าย ~. たどり着く: มาถึงในที่สุด."
+   },
+   "vocab": [
+    {
+     "word": "たどり着く",
+     "reading": "たどりつく",
+     "level": "N1",
+     "meanings": {
+      "vi": "lần tới được, đến nơi",
+      "en": "to finally reach",
+      "zh-Hans": "好不容易到达",
+      "zh-Hant": "好不容易到達",
+      "ko": "겨우 다다르다",
+      "tl": "marating sa wakas",
+      "ne": "आइपुग्नु",
+      "id": "akhirnya tiba",
+      "pt": "chegar enfim",
+      "my": "ရောက်ရှိသည်",
+      "th": "มาถึงในที่สุด"
+     }
+    }
+   ],
+   "t": [
+    97.75,
+    104.3
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=97.75,104.3"
+  },
+  {
+   "ja": "どうしたのだ、その姿は。",
+   "furigana": [
+    {
+     "surface": "どうしたのだ、その",
+     "reading": ""
+    },
+    {
+     "surface": "姿",
+     "reading": "すがた"
+    },
+    {
+     "surface": "は。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Dou shita no da, sono sugata wa.",
+   "translations": {
+    "vi": "Sao con lại ra nông nỗi này?",
+    "en": "What happened to you, child?",
+    "zh-Hans": "你这是怎么了？",
+    "zh-Hant": "你這是怎麼了？",
+    "ko": "아니, 그 꼴이 어찌 된 일이냐.",
+    "tl": "Ano'ng nangyari sa iyo, bata?",
+    "ne": "के भयो तिमीलाई, यस्तो हालत?",
+    "id": "Ada apa denganmu, Nak?",
+    "pt": "O que aconteceu com você, menino?",
+    "my": "ဘာဖြစ်လာတာလဲ၊ ဒီအခြေအနေနဲ့။",
+    "th": "เกิดอะไรขึ้นกับเจ้า สภาพเป็นอย่างนี้"
+   },
+   "grammarNote": {
+    "vi": "姿: bộ dạng.",
+    "en": "姿: appearance, state.",
+    "zh-Hans": "姿: 模样。",
+    "zh-Hant": "姿: 模樣。",
+    "ko": "姿: 꼴, 모습.",
+    "tl": "姿: anyo, kalagayan.",
+    "ne": "姿: हालत।",
+    "id": "姿: penampilan, keadaan.",
+    "pt": "姿: aparência, estado.",
+    "my": "姿: အခြေအနေ၊ ပုံစံ။",
+    "th": "姿: สภาพ."
+   },
+   "vocab": [],
+   "t": [
+    105.2,
+    107.95
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=105.2,107.95"
+  },
+  {
+   "ja": "助けてください。追っ手が来るのです。",
+   "furigana": [
+    {
+     "surface": "助",
+     "reading": "たす"
+    },
+    {
+     "surface": "けてください。",
+     "reading": ""
+    },
+    {
+     "surface": "追",
+     "reading": "お"
+    },
+    {
+     "surface": "っ",
+     "reading": ""
+    },
+    {
+     "surface": "手",
+     "reading": "て"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "く"
+    },
+    {
+     "surface": "るのです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tasukete kudasai. Otte ga kuru no desu.",
+   "translations": {
+    "vi": "Xin cứu con. Người truy đuổi đang tới.",
+    "en": "Please help me. My pursuers are coming.",
+    "zh-Hans": "请救救我。追兵就要来了。",
+    "zh-Hant": "請救救我。追兵就要來了。",
+    "ko": "살려 주세요. 쫓아오는 사람들이 있어요.",
+    "tl": "Tulungan po ninyo ako. May humahabol sa akin.",
+    "ne": "मलाई बचाउनुहोस्। खेद्नेहरू आउँदैछन्।",
+    "id": "Tolong saya. Para pengejar sedang datang.",
+    "pt": "Me ajude, por favor. Estão vindo atrás de mim.",
+    "my": "ကယ်ပါဦး။ နောက်ကလိုက်ဖမ်းတဲ့သူတွေ လာနေပြီ။",
+    "th": "ช่วยข้าด้วย มีคนไล่ตามมา"
+   },
+   "grammarNote": {
+    "vi": "追っ手: kẻ truy đuổi.",
+    "en": "追っ手: pursuers.",
+    "zh-Hans": "追っ手: 追兵。",
+    "zh-Hant": "追っ手: 追兵。",
+    "ko": "追っ手: 추격자.",
+    "tl": "追っ手: mga humahabol.",
+    "ne": "追っ手: खेद्ने मानिस।",
+    "id": "追っ手: pengejar.",
+    "pt": "追っ手: perseguidores.",
+    "my": "追っ手: လိုက်ဖမ်းသူ။",
+    "th": "追っ手: คนไล่ตาม."
+   },
+   "vocab": [
+    {
+     "word": "助ける",
+     "reading": "たすける",
+     "level": "N3",
+     "meanings": {
+      "vi": "cứu, giúp",
+      "en": "to save, help",
+      "zh-Hans": "救，帮助",
+      "zh-Hant": "救，幫助",
+      "ko": "구하다, 돕다",
+      "tl": "iligtas, tulungan",
+      "ne": "बचाउनु",
+      "id": "menolong",
+      "pt": "salvar, ajudar",
+      "my": "ကယ်",
+      "th": "ช่วย"
+     }
+    }
+   ],
+   "t": [
+    108.85,
+    111.4
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=108.85,111.4"
+  },
+  {
+   "ja": "お坊さんは、何も聞かずに、厨子王を大きな箱の中に隠しました。",
+   "furigana": [
+    {
+     "surface": "お",
+     "reading": ""
+    },
+    {
+     "surface": "坊",
+     "reading": "ぼう"
+    },
+    {
+     "surface": "さんは、",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "かずに、",
+     "reading": ""
+    },
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "きな",
+     "reading": ""
+    },
+    {
+     "surface": "箱",
+     "reading": "はこ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "隠",
+     "reading": "かく"
+    },
+    {
+     "surface": "しました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Obousan wa, nani mo kikazu ni, Zushiou o ookina hako no naka ni kakushimashita.",
+   "translations": {
+    "vi": "Nhà sư không hỏi gì cả, giấu Zushiō vào trong một chiếc hòm lớn.",
+    "en": "Without asking anything, the monk hid Zushiō inside a big chest.",
+    "zh-Hans": "和尚什么也没问，就把厨子王藏进了一个大箱子里。",
+    "zh-Hant": "和尚什麼也沒問，就把廚子王藏進了一個大箱子裡。",
+    "ko": "스님은 아무것도 묻지 않고 즈시오를 커다란 궤짝 속에 숨겼습니다.",
+    "tl": "Walang itinanong ang monghe, at itinago si Zushiō sa loob ng malaking baul.",
+    "ne": "भिक्षुले केही नसोधी जुशिओलाई ठूलो सन्दुकभित्र लुकाए।",
+    "id": "Tanpa bertanya apa pun, sang biksu menyembunyikan Zushiō di dalam peti besar.",
+    "pt": "Sem perguntar nada, o monge escondeu Zushiō dentro de um grande baú.",
+    "my": "ဘုန်းကြီးက ဘာမှမမေးဘဲ ဇူရှိအိုကို သေတ္တာကြီးထဲ ဝှက်ထားပါတယ်။",
+    "th": "พระไม่ถามอะไรเลย แล้วซ่อนซูชิโอไว้ในหีบใหญ่"
+   },
+   "grammarNote": {
+    "vi": "〜ずに: mà không ~. 隠す: giấu.",
+    "en": "〜ずに: without ~. 隠す: hide.",
+    "zh-Hans": "〜ずに: 不～就。隠す: 藏。",
+    "zh-Hant": "〜ずに: 不～就。隠す: 藏。",
+    "ko": "〜ずに: ~하지 않고. 隠す: 숨기다.",
+    "tl": "〜ずに: nang hindi ~. 隠す: itago.",
+    "ne": "〜ずに: ~ नगरी। 隠す: लुकाउनु।",
+    "id": "〜ずに: tanpa ~. 隠す: menyembunyikan.",
+    "pt": "〜ずに: sem ~. 隠す: esconder.",
+    "my": "〜ずに: ~ ဘဲ။ 隠す: ဝှက်။",
+    "th": "〜ずに: โดยไม่ ~. 隠す: ซ่อน."
+   },
+   "vocab": [
+    {
+     "word": "坊さん",
+     "reading": "ぼうさん",
+     "level": "N2",
+     "meanings": {
+      "vi": "nhà sư",
+      "en": "monk",
+      "zh-Hans": "和尚",
+      "zh-Hant": "和尚",
+      "ko": "스님",
+      "tl": "monghe",
+      "ne": "भिक्षु",
+      "id": "biksu",
+      "pt": "monge",
+      "my": "ဘုန်းကြီး",
+      "th": "พระ"
+     }
+    },
+    {
+     "word": "隠す",
+     "reading": "かくす",
+     "level": "N3",
+     "meanings": {
+      "vi": "giấu",
+      "en": "to hide",
+      "zh-Hans": "隐藏",
+      "zh-Hant": "隱藏",
+      "ko": "숨기다",
+      "tl": "itago",
+      "ne": "लुकाउनु",
+      "id": "menyembunyikan",
+      "pt": "esconder",
+      "my": "ဖုံးကွယ်သည်",
+      "th": "ซ่อน, ปิดบัง"
+     }
+    }
+   ],
+   "t": [
+    112.3,
+    117.8
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=112.3,117.8"
+  },
+  {
+   "ja": "まもなく、三郎たちが、たいまつを持ってお寺にやって来ました。",
+   "furigana": [
+    {
+     "surface": "まもなく、",
+     "reading": ""
+    },
+    {
+     "surface": "三郎",
+     "reading": "さぶろう"
+    },
+    {
+     "surface": "たちが、たいまつを",
+     "reading": ""
+    },
+    {
+     "surface": "持",
+     "reading": "も"
+    },
+    {
+     "surface": "ってお",
+     "reading": ""
+    },
+    {
+     "surface": "寺",
+     "reading": "てら"
+    },
+    {
+     "surface": "にやって",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "き"
+    },
+    {
+     "surface": "ました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mamonaku, Saburoutachi ga, taimatsu o motte otera ni yattekimashita.",
+   "translations": {
+    "vi": "Chẳng bao lâu, bọn Saburō cầm đuốc kéo đến chùa.",
+    "en": "Soon, Saburō and his men came to the temple carrying torches.",
+    "zh-Hans": "不一会儿，三郎他们举着火把来到了寺庙。",
+    "zh-Hant": "不一會兒，三郎他們舉著火把來到了寺廟。",
+    "ko": "얼마 안 있어 사부로 일행이 횃불을 들고 절에 찾아왔습니다.",
+    "tl": "Hindi nagtagal, dumating sa templo sina Saburō na may dalang sulo.",
+    "ne": "केही बेरमै साबुरो र उसका मान्छेहरू राँको बोकेर मन्दिर आइपुगे।",
+    "id": "Tak lama, Saburō dan anak buahnya datang ke kuil membawa obor.",
+    "pt": "Logo, Saburō e seus homens chegaram ao templo com tochas.",
+    "my": "မကြာခင် ဆာဘူရိုတို့ မီးတုတ်ကိုင်ပြီး ကျောင်းကို ရောက်လာကြပါတယ်။",
+    "th": "ไม่นาน ซาบุโร่กับพวกก็ถือคบเพลิงมาที่วัด"
+   },
+   "grammarNote": {
+    "vi": "まもなく: chẳng bao lâu. たいまつ: đuốc.",
+    "en": "まもなく: soon. たいまつ: torch.",
+    "zh-Hans": "まもなく: 不久。たいまつ: 火把。",
+    "zh-Hant": "まもなく: 不久。たいまつ: 火把。",
+    "ko": "まもなく: 머지않아. たいまつ: 횃불.",
+    "tl": "まもなく: hindi nagtagal. たいまつ: sulo.",
+    "ne": "まもなく: केही बेरमै। たいまつ: राँको।",
+    "id": "まもなく: tak lama. たいまつ: obor.",
+    "pt": "まもなく: logo. たいまつ: tocha.",
+    "my": "まもなく: မကြာခင်။ たいまつ: မီးတုတ်။",
+    "th": "まもなく: ไม่นาน. たいまつ: คบเพลิง."
+   },
+   "vocab": [
+    {
+     "word": "まもなく",
+     "reading": "まもなく",
+     "level": "N2",
+     "meanings": {
+      "vi": "chẳng bao lâu",
+      "en": "soon, shortly",
+      "zh-Hans": "不久",
+      "zh-Hant": "不久",
+      "ko": "머지않아",
+      "tl": "hindi nagtagal",
+      "ne": "छिट्टै",
+      "id": "tak lama lagi",
+      "pt": "logo, em breve",
+      "my": "မကြာခင်",
+      "th": "ไม่นาน"
+     }
+    }
+   ],
+   "t": [
+    118.4,
+    123.69
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=118.4,123.69"
+  },
+  {
+   "ja": "子どもが一人、ここへ逃げてこなかったか。",
+   "furigana": [
+    {
+     "surface": "子",
+     "reading": "こ"
+    },
+    {
+     "surface": "どもが",
+     "reading": ""
+    },
+    {
+     "surface": "一人",
+     "reading": "ひとり"
+    },
+    {
+     "surface": "、ここへ",
+     "reading": ""
+    },
+    {
+     "surface": "逃",
+     "reading": "に"
+    },
+    {
+     "surface": "げてこなかったか。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kodomo ga hitori, koko e nigete konakatta ka.",
+   "translations": {
+    "vi": "Có đứa trẻ nào chạy trốn tới đây không?",
+    "en": "Did a child run in here?",
+    "zh-Hans": "有没有一个小孩逃到这里来？",
+    "zh-Hant": "有沒有一個小孩逃到這裡來？",
+    "ko": "아이 하나가 여기로 도망쳐 오지 않았느냐.",
+    "tl": "May batang tumakas ba papunta rito?",
+    "ne": "यहाँ कुनै केटो भागेर आएको छ?",
+    "id": "Apa ada anak yang kabur ke sini?",
+    "pt": "Não veio um menino fugido para cá?",
+    "my": "ကလေးတစ်ယောက် ဒီကို ပြေးမလာဘူးလား။",
+    "th": "มีเด็กคนหนึ่งหนีมาที่นี่หรือเปล่า"
+   },
+   "grammarNote": {
+    "vi": "〜てこなかったか: có ~ tới không.",
+    "en": "〜てこなかったか: didn't ~ come?",
+    "zh-Hans": "〜てこなかったか: 有没有～来。",
+    "zh-Hant": "〜てこなかったか: 有沒有～來。",
+    "ko": "〜てこなかったか: ~해 오지 않았느냐.",
+    "tl": "〜てこなかったか: may ~ ba rito?",
+    "ne": "〜てこなかったか: ~ आएको छ?",
+    "id": "〜てこなかったか: apakah ~ ke sini?",
+    "pt": "〜てこなかったか: não veio ~?",
+    "my": "〜てこなかったか: ~ မလာဘူးလား။",
+    "th": "〜てこなかったか: ~ มาหรือเปล่า."
+   },
+   "vocab": [],
+   "t": [
+    124.59,
+    127.3
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=124.59,127.3"
+  },
+  {
+   "ja": "ここは仏様の寺です。乱暴をすると、罰が当たりますぞ。",
+   "furigana": [
+    {
+     "surface": "ここは",
+     "reading": ""
+    },
+    {
+     "surface": "仏",
+     "reading": "ほとけ"
+    },
+    {
+     "surface": "様",
+     "reading": "さま"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "寺",
+     "reading": "てら"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    },
+    {
+     "surface": "乱暴",
+     "reading": "らんぼう"
+    },
+    {
+     "surface": "をすると、",
+     "reading": ""
+    },
+    {
+     "surface": "罰",
+     "reading": "ばち"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "当",
+     "reading": "あ"
+    },
+    {
+     "surface": "たりますぞ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Koko wa hotokesama no tera desu. Ranbou o suru to, bachi ga atarimasu zo.",
+   "translations": {
+    "vi": "Đây là chùa của Phật. Làm càn sẽ bị quả báo đấy.",
+    "en": "This is the Buddha's temple. If you act violently, you will be punished.",
+    "zh-Hans": "这里是佛门寺院。若是胡作非为，会遭报应的。",
+    "zh-Hant": "這裡是佛門寺院。若是胡作非為，會遭報應的。",
+    "ko": "여기는 부처님의 절이오. 난동을 부리면 벌을 받을 것이오.",
+    "tl": "Templo ito ni Buddha. Kapag nanggulo kayo, parurusahan kayo.",
+    "ne": "यो बुद्धको मन्दिर हो। उपद्रो गरे पाप लाग्छ।",
+    "id": "Ini kuil Buddha. Kalau berbuat onar, kalian akan kena hukuman.",
+    "pt": "Este é o templo de Buda. Se fizerem violência, serão castigados.",
+    "my": "ဒါဟာ ဘုရားကျောင်းပါ။ ရမ်းကားရင် အပြစ်ဒဏ် သင့်လိမ့်မယ်။",
+    "th": "ที่นี่คือวัดของพระพุทธเจ้า หากก่อความรุนแรงจะต้องได้รับผลกรรม"
+   },
+   "grammarNote": {
+    "vi": "乱暴: làm càn. 罰が当たる: bị quả báo.",
+    "en": "乱暴: violence. 罰が当たる: be punished (by heaven).",
+    "zh-Hans": "乱暴: 胡来。罰が当たる: 遭报应。",
+    "zh-Hant": "乱暴: 胡來。罰が当たる: 遭報應。",
+    "ko": "乱暴: 난폭한 짓. 罰が当たる: 벌을 받다.",
+    "tl": "乱暴: panggugulo. 罰が当たる: maparusahan.",
+    "ne": "乱暴: उपद्रो। 罰が当たる: पाप लाग्नु, दण्ड पाउनु।",
+    "id": "乱暴: onar. 罰が当たる: kena hukuman (karma).",
+    "pt": "乱暴: violência. 罰が当たる: ser castigado (pelo céu).",
+    "my": "乱暴: ရမ်းကား။ 罰が当たる: အပြစ်ဒဏ်သင့်။",
+    "th": "乱暴: ความรุนแรง. 罰が当たる: ได้รับผลกรรม."
+   },
+   "vocab": [
+    {
+     "word": "仏",
+     "reading": "ほとけ",
+     "level": "N3",
+     "meanings": {
+      "vi": "Phật",
+      "en": "Buddha",
+      "zh-Hans": "佛",
+      "zh-Hant": "佛",
+      "ko": "부처",
+      "tl": "Buddha",
+      "ne": "बुद्ध",
+      "id": "Buddha",
+      "pt": "Buda",
+      "my": "ဘုရား",
+      "th": "พระพุทธเจ้า"
+     }
+    },
+    {
+     "word": "乱暴",
+     "reading": "らんぼう",
+     "level": "N2",
+     "meanings": {
+      "vi": "thô bạo, hung hãn",
+      "en": "violent, rough",
+      "zh-Hans": "粗暴，凶暴",
+      "zh-Hant": "粗暴，兇暴",
+      "ko": "난폭함",
+      "tl": "marahas",
+      "ne": "क्रूर, उग्र",
+      "id": "kasar, brutal",
+      "pt": "violento",
+      "my": "ကြမ်းကြုတ်သည်",
+      "th": "ดุร้าย, รุนแรง"
+     }
+    },
+    {
+     "word": "罰",
+     "reading": "ばち",
+     "level": "N1",
+     "meanings": {
+      "vi": "sự trừng phạt, quả báo",
+      "en": "punishment (divine)",
+      "zh-Hans": "惩罚；报应",
+      "zh-Hant": "懲罰；報應",
+      "ko": "벌",
+      "tl": "parusa",
+      "ne": "दण्ड, पाप",
+      "id": "hukuman",
+      "pt": "castigo",
+      "my": "အပြစ်ဒဏ်",
+      "th": "ผลกรรม การลงโทษ"
+     }
+    }
+   ],
+   "t": [
+    128.2,
+    134.15
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=128.2,134.15"
+  },
+  {
+   "ja": "お坊さんがあまりに落ち着いているので、三郎たちは、あきらめて帰らざるをえませんでした。",
+   "furigana": [
+    {
+     "surface": "お",
+     "reading": ""
+    },
+    {
+     "surface": "坊",
+     "reading": "ぼう"
+    },
+    {
+     "surface": "さんがあまりに",
+     "reading": ""
+    },
+    {
+     "surface": "落",
+     "reading": "お"
+    },
+    {
+     "surface": "ち",
+     "reading": ""
+    },
+    {
+     "surface": "着",
+     "reading": "つ"
+    },
+    {
+     "surface": "いているので、",
+     "reading": ""
+    },
+    {
+     "surface": "三郎",
+     "reading": "さぶろう"
+    },
+    {
+     "surface": "たちは、あきらめて",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "らざるをえませんでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Obousan ga amarini ochitsuite iru node, Saburoutachi wa, akiramete kaerazaru o emasendeshita.",
+   "translations": {
+    "vi": "Nhà sư điềm tĩnh quá, nên bọn Saburō đành phải bỏ cuộc mà quay về.",
+    "en": "The monk was so calm that Saburō and his men had no choice but to give up and go home.",
+    "zh-Hans": "和尚实在太镇定了，三郎他们不得不放弃，回去了。",
+    "zh-Hant": "和尚實在太鎮定了，三郎他們不得不放棄，回去了。",
+    "ko": "스님이 너무나 침착해서 사부로 일행은 포기하고 돌아갈 수밖에 없었습니다.",
+    "tl": "Napakahinahon ng monghe, kaya napilitang sumuko at umuwi sina Saburō.",
+    "ne": "भिक्षु एकदमै शान्त भएकाले साबुरोहरूले हार मानेर फर्कनुपर्यो।",
+    "id": "Sang biksu begitu tenang sehingga Saburō dan anak buahnya terpaksa menyerah dan pulang.",
+    "pt": "O monge estava tão calmo que Saburō e seus homens não tiveram outra saída senão desistir e voltar.",
+    "my": "ဘုန်းကြီးက အရမ်း တည်ငြိမ်နေလို့ ဆာဘူရိုတို့ လက်လျှော့ပြီး ပြန်ရမလို ဖြစ်သွားပါတယ်။",
+    "th": "พระสงบนิ่งเหลือเกิน ซาบุโร่กับพวกจึงจำต้องยอมแพ้และกลับไป"
+   },
+   "grammarNote": {
+    "vi": "落ち着く: điềm tĩnh. あきらめる: bỏ cuộc. 〜ざるをえない: đành phải ~.",
+    "en": "落ち着く: be calm. あきらめる: give up. 〜ざるをえない: have no choice but to ~.",
+    "zh-Hans": "落ち着く: 镇定。あきらめる: 放弃。〜ざるをえない: 不得不～。",
+    "zh-Hant": "落ち着く: 鎮定。あきらめる: 放棄。〜ざるをえない: 不得不～。",
+    "ko": "落ち着く: 침착하다. あきらめる: 포기하다. 〜ざるをえない: ~할 수밖에 없다.",
+    "tl": "落ち着く: maging mahinahon. あきらめる: sumuko. 〜ざるをえない: mapilitang ~.",
+    "ne": "落ち着く: शान्त हुनु। あきらめる: हार मान्नु। 〜ざるをえない: ~ नगरी सुखै नहुनु।",
+    "id": "落ち着く: tenang. あきらめる: menyerah. 〜ざるをえない: terpaksa ~.",
+    "pt": "落ち着く: ficar calmo. あきらめる: desistir. 〜ざるをえない: não ter outra saída senão ~.",
+    "my": "落ち着く: တည်ငြိမ်။ あきらめる: လက်လျှော့။ 〜ざるをえない: မလွဲမသွေ ~ ရ။",
+    "th": "落ち着く: สงบนิ่ง. あきらめる: ยอมแพ้. 〜ざるをえない: จำต้อง ~."
+   },
+   "vocab": [
+    {
+     "word": "落ち着く",
+     "reading": "おちつく",
+     "level": "N2",
+     "meanings": {
+      "vi": "bình tĩnh",
+      "en": "to calm down",
+      "zh-Hans": "冷静",
+      "zh-Hant": "冷靜",
+      "ko": "진정하다",
+      "tl": "kumalma",
+      "ne": "शान्त हुनु",
+      "id": "tenang",
+      "pt": "acalmar-se",
+      "my": "စိတ်အေး",
+      "th": "ใจเย็น"
+     }
+    },
+    {
+     "word": "あきらめる",
+     "reading": "あきらめる",
+     "level": "N3",
+     "meanings": {
+      "vi": "từ bỏ, bỏ cuộc",
+      "en": "give up",
+      "zh-Hans": "放弃，死心",
+      "zh-Hant": "放棄，死心",
+      "ko": "포기하다",
+      "tl": "sumuko",
+      "ne": "हार मान्नु",
+      "id": "menyerah",
+      "pt": "desistir",
+      "my": "လက်လျှော့",
+      "th": "ล้มเลิก, ถอดใจ"
+     }
+    }
+   ],
+   "t": [
+    135.05,
+    141.89
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=135.05,141.89"
+  },
+  {
+   "ja": "もう大丈夫だ。わしと一緒に都へ行こう。",
+   "furigana": [
+    {
+     "surface": "もう",
+     "reading": ""
+    },
+    {
+     "surface": "大丈夫",
+     "reading": "だいじょうぶ"
+    },
+    {
+     "surface": "だ。わしと",
+     "reading": ""
+    },
+    {
+     "surface": "一緒",
+     "reading": "いっしょ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "都",
+     "reading": "みやこ"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "こう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mou daijoubu da. Washi to issho ni miyako e ikou.",
+   "translations": {
+    "vi": "Không sao nữa rồi. Hãy cùng ta lên kinh đô.",
+    "en": "You're safe now. Come with me to the capital.",
+    "zh-Hans": "已经没事了。跟我一起去京城吧。",
+    "zh-Hant": "已經沒事了。跟我一起去京城吧。",
+    "ko": "이제 괜찮다. 나와 함께 도읍으로 가자.",
+    "tl": "Ligtas ka na. Sumama ka sa akin sa kabisera.",
+    "ne": "अब डर छैन। मसँगै राजधानी जाऔँ।",
+    "id": "Sekarang kau aman. Mari ikut aku ke ibu kota.",
+    "pt": "Agora está tudo bem. Venha comigo para a capital.",
+    "my": "အခု စိတ်ချပါပြီ။ ငါနဲ့အတူ မြို့တော်ကို သွားကြစို့။",
+    "th": "ไม่เป็นไรแล้ว ไปเมืองหลวงกับอาตมาเถิด"
+   },
+   "grammarNote": {
+    "vi": "大丈夫: ổn rồi. わし: ta (người già).",
+    "en": "大丈夫: all right. わし: I (old man).",
+    "zh-Hans": "大丈夫: 没事。わし: 老衲、我。",
+    "zh-Hant": "大丈夫: 沒事。わし: 老衲、我。",
+    "ko": "大丈夫: 괜찮다. わし: 나(노인 말투).",
+    "tl": "大丈夫: ayos na. わし: ako (matanda).",
+    "ne": "大丈夫: ठीक छ। わし: म (बूढाको बोली)।",
+    "id": "大丈夫: aman. わし: aku (orang tua).",
+    "pt": "大丈夫: tudo bem. わし: eu (velho).",
+    "my": "大丈夫: စိတ်ချ။ わし: ငါ (အဘိုးကြီး)။",
+    "th": "大丈夫: ไม่เป็นไร. わし: อาตมา ข้า (คนแก่)."
+   },
+   "vocab": [],
+   "t": [
+    142.79,
+    146.76
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=142.79,146.76"
+  },
+  {
+   "ja": "お坊さんに連れられて、厨子王は、遠い京の都へ向かいました。",
+   "furigana": [
+    {
+     "surface": "お",
+     "reading": ""
+    },
+    {
+     "surface": "坊",
+     "reading": "ぼう"
+    },
+    {
+     "surface": "さんに",
+     "reading": ""
+    },
+    {
+     "surface": "連",
+     "reading": "つ"
+    },
+    {
+     "surface": "れられて、",
+     "reading": ""
+    },
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "遠",
+     "reading": "とお"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "京",
+     "reading": "きょう"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "都",
+     "reading": "みやこ"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "向",
+     "reading": "む"
+    },
+    {
+     "surface": "かいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Obousan ni tsurerarete, Zushiou wa, tooi Kyou no miyako e mukaimashita.",
+   "translations": {
+    "vi": "Được nhà sư dẫn đi, Zushiō lên đường tới kinh đô Kyō xa xôi.",
+    "en": "Led by the monk, Zushiō set off for the faraway capital, Kyō.",
+    "zh-Hans": "在和尚的带领下，厨子王前往遥远的京城。",
+    "zh-Hant": "在和尚的帶領下，廚子王前往遙遠的京城。",
+    "ko": "스님을 따라 즈시오는 머나먼 교토의 도읍으로 향했습니다.",
+    "tl": "Sa pangunguna ng monghe, nagtungo si Zushiō sa malayong kabisera ng Kyō.",
+    "ne": "भिक्षुको साथ लागेर जुशिओ टाढाको राजधानी क्योतर्फ लाग्यो।",
+    "id": "Dibawa oleh sang biksu, Zushiō berangkat ke ibu kota Kyō yang jauh.",
+    "pt": "Levado pelo monge, Zushiō partiu para a distante capital, Kyō.",
+    "my": "ဘုန်းကြီး ခေါ်ဆောင်ရာနောက် ဇူရှိအိုဟာ အဝေးက ကျိုမြို့တော်ဆီ ထွက်ခွာပါတယ်။",
+    "th": "ซูชิโอเดินทางไปยังเมืองหลวงเกียวที่ห่างไกลโดยมีพระพาไป"
+   },
+   "grammarNote": {
+    "vi": "連れられる: được dẫn đi. 向かう: hướng tới.",
+    "en": "連れられる: be led. 向かう: head for.",
+    "zh-Hans": "連れられる: 被带领。向かう: 前往。",
+    "zh-Hant": "連れられる: 被帶領。向かう: 前往。",
+    "ko": "連れられる: 이끌리다. 向かう: 향하다.",
+    "tl": "連れられる: samahan, pangunahan. 向かう: magtungo.",
+    "ne": "連れられる: साथ लगिनु। 向かう: तर्फ लाग्नु।",
+    "id": "連れられる: dibawa. 向かう: menuju.",
+    "pt": "連れられる: ser levado. 向かう: dirigir-se.",
+    "my": "連れられる: ခေါ်ဆောင်ခံရ။ 向かう: ဦးတည်။",
+    "th": "連れられる: ถูกพาไป. 向かう: มุ่งไป."
+   },
+   "vocab": [],
+   "t": [
+    147.66,
+    152.56
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=147.66,152.56"
+  },
+  {
+   "ja": "都に着くと、厨子王は、清水寺というお寺で、ひと晩祈りました。",
+   "furigana": [
+    {
+     "surface": "都",
+     "reading": "みやこ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "着",
+     "reading": "つ"
+    },
+    {
+     "surface": "くと、",
+     "reading": ""
+    },
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "清水寺",
+     "reading": "きよみずでら"
+    },
+    {
+     "surface": "というお",
+     "reading": ""
+    },
+    {
+     "surface": "寺",
+     "reading": "てら"
+    },
+    {
+     "surface": "で、ひと",
+     "reading": ""
+    },
+    {
+     "surface": "晩",
+     "reading": "ばん"
+    },
+    {
+     "surface": "祈",
+     "reading": "いの"
+    },
+    {
+     "surface": "りました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Miyako ni tsuku to, Zushiou wa, Kiyomizudera toiu otera de, hitoban inorimashita.",
+   "translations": {
+    "vi": "Tới kinh đô, Zushiō cầu nguyện suốt một đêm ở ngôi chùa tên Kiyomizu.",
+    "en": "In the capital, Zushiō prayed through the night at a temple called Kiyomizu-dera.",
+    "zh-Hans": "到了京城，厨子王在一座叫清水寺的寺庙里祈祷了一整夜。",
+    "zh-Hant": "到了京城，廚子王在一座叫清水寺的寺廟裡祈禱了一整夜。",
+    "ko": "도읍에 닿자 즈시오는 기요미즈데라라는 절에서 하룻밤 기도했습니다.",
+    "tl": "Pagdating sa kabisera, nagdasal si Zushiō buong gabi sa templong tinatawag na Kiyomizu-dera.",
+    "ne": "राजधानी पुगेपछि जुशिओले कियोमिजुदेरा नामको मन्दिरमा रातभर प्रार्थना गर्यो।",
+    "id": "Di ibu kota, Zushiō berdoa semalaman di kuil bernama Kiyomizu-dera.",
+    "pt": "Na capital, Zushiō rezou a noite toda num templo chamado Kiyomizu-dera.",
+    "my": "မြို့တော်ရောက်တော့ ဇူရှိအိုဟာ ကိယိုမိဇုဒဲရ ဆိုတဲ့ ဘုရားကျောင်းမှာ တစ်ညလုံး ဆုတောင်းပါတယ်။",
+    "th": "ถึงเมืองหลวงแล้ว ซูชิโออธิษฐานตลอดคืนที่วัดชื่อคิโยมิซึเดระ"
+   },
+   "grammarNote": {
+    "vi": "ひと晩: một đêm. 祈る: cầu nguyện.",
+    "en": "ひと晩: one night. 祈る: pray.",
+    "zh-Hans": "ひと晩: 一夜。祈る: 祈祷。",
+    "zh-Hant": "ひと晩: 一夜。祈る: 祈禱。",
+    "ko": "ひと晩: 하룻밤. 祈る: 기도하다.",
+    "tl": "ひと晩: isang gabi. 祈る: magdasal.",
+    "ne": "ひと晩: एक रात। 祈る: प्रार्थना गर्नु।",
+    "id": "ひと晩: semalam. 祈る: berdoa.",
+    "pt": "ひと晩: uma noite. 祈る: rezar.",
+    "my": "ひと晩: တစ်ည။ 祈る: ဆုတောင်း။",
+    "th": "ひと晩: หนึ่งคืน. 祈る: อธิษฐาน."
+   },
+   "vocab": [],
+   "t": [
+    153.16,
+    158.6
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=153.16,158.6"
+  },
+  {
+   "ja": "次の朝、身分の高い大臣が、お寺にお参りに来ていました。",
+   "furigana": [
+    {
+     "surface": "次",
+     "reading": "つぎ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "朝",
+     "reading": "あさ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "身分",
+     "reading": "みぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "高",
+     "reading": "たか"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "大臣",
+     "reading": "だいじん"
+    },
+    {
+     "surface": "が、お",
+     "reading": ""
+    },
+    {
+     "surface": "寺",
+     "reading": "てら"
+    },
+    {
+     "surface": "にお",
+     "reading": ""
+    },
+    {
+     "surface": "参",
+     "reading": "まい"
+    },
+    {
+     "surface": "りに",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "き"
+    },
+    {
+     "surface": "ていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tsugi no asa, mibun no takai daijin ga, otera ni omairi ni kite imashita.",
+   "translations": {
+    "vi": "Sáng hôm sau, có một vị đại thần quyền quý đến chùa lễ bái.",
+    "en": "The next morning, a high-ranking minister had come to the temple to worship.",
+    "zh-Hans": "第二天早上，一位身份高贵的大臣来寺里参拜。",
+    "zh-Hant": "第二天早上，一位身份高貴的大臣來寺裡參拜。",
+    "ko": "다음 날 아침, 지위 높은 대신이 절에 참배하러 와 있었습니다.",
+    "tl": "Kinaumagahan, isang mataas na ministro ang dumalaw sa templo para sumamba.",
+    "ne": "भोलिपल्ट बिहान एक उच्च पदका मन्त्री मन्दिरमा दर्शन गर्न आएका थिए।",
+    "id": "Keesokan paginya, seorang menteri berkedudukan tinggi datang ke kuil untuk beribadah.",
+    "pt": "Na manhã seguinte, um ministro de alta posição tinha vindo rezar no templo.",
+    "my": "နောက်နေ့မနက် ရာထူးမြင့်တဲ့ ဝန်ကြီးတစ်ဦး ကျောင်းကို ဖူးမြော်ဖို့ ရောက်နေပါတယ်။",
+    "th": "เช้าวันรุ่งขึ้น มีเสนาบดีผู้สูงศักดิ์มาสักการะที่วัด"
+   },
+   "grammarNote": {
+    "vi": "身分の高い: địa vị cao. 大臣: đại thần. お参り: đi lễ.",
+    "en": "身分の高い: high-ranking. 大臣: minister. お参り: visit to worship.",
+    "zh-Hans": "身分の高い: 身份高贵。大臣: 大臣。お参り: 参拜。",
+    "zh-Hant": "身分の高い: 身份高貴。大臣: 大臣。お参り: 參拜。",
+    "ko": "身分の高い: 신분이 높은. 大臣: 대신. お参り: 참배.",
+    "tl": "身分の高い: mataas ang ranggo. 大臣: ministro. お参り: pagsamba.",
+    "ne": "身分の高い: उच्च पदको। 大臣: मन्त्री। お参り: दर्शन।",
+    "id": "身分の高い: berkedudukan tinggi. 大臣: menteri. お参り: beribadah.",
+    "pt": "身分の高い: de alta posição. 大臣: ministro. お参り: visita para rezar.",
+    "my": "身分の高い: ရာထူးမြင့်။ 大臣: ဝန်ကြီး။ お参り: ဖူးမြော်။",
+    "th": "身分の高い: สูงศักดิ์. 大臣: เสนาบดี. お参り: สักการะ."
+   },
+   "vocab": [
+    {
+     "word": "身分",
+     "reading": "みぶん",
+     "level": "N2",
+     "meanings": {
+      "vi": "thân phận, địa vị",
+      "en": "social status, rank",
+      "zh-Hans": "身份",
+      "zh-Hant": "身份",
+      "ko": "신분",
+      "tl": "katayuan",
+      "ne": "ओहदा, हैसियत",
+      "id": "kedudukan",
+      "pt": "posição social",
+      "my": "ရာထူးအဆင့်",
+      "th": "ฐานันดร"
+     }
+    },
+    {
+     "word": "大臣",
+     "reading": "だいじん",
+     "level": "N3",
+     "meanings": {
+      "vi": "quan đại thần",
+      "en": "minister",
+      "zh-Hans": "大臣",
+      "zh-Hant": "大臣",
+      "ko": "대신, 장관",
+      "tl": "ministro",
+      "ne": "मन्त्री",
+      "id": "menteri",
+      "pt": "ministro",
+      "my": "ဝန်ကြီး",
+      "th": "เสนาบดี, รัฐมนตรี"
+     }
+    },
+    {
+     "word": "お参り",
+     "reading": "おまいり",
+     "level": "N2",
+     "meanings": {
+      "vi": "đi lễ (đền, chùa)",
+      "en": "visit to pray",
+      "zh-Hans": "参拜",
+      "zh-Hant": "參拜",
+      "ko": "참배",
+      "tl": "pagdalaw para magdasal",
+      "ne": "पूजा गर्न जानु",
+      "id": "berdoa ke kuil",
+      "pt": "visita para rezar",
+      "my": "ဘုရားဖူး",
+      "th": "ไปไหว้"
+     }
+    }
+   ],
+   "t": [
+    159.2,
+    165.35
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=159.2,165.35"
+  },
+  {
+   "ja": "大臣は、厨子王の首にかかっているお守りを見て、はっとしました。",
+   "furigana": [
+    {
+     "surface": "大臣",
+     "reading": "だいじん"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "首",
+     "reading": "くび"
+    },
+    {
+     "surface": "にかかっているお",
+     "reading": ""
+    },
+    {
+     "surface": "守",
+     "reading": "まも"
+    },
+    {
+     "surface": "りを",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "て、はっとしました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Daijin wa, Zushiou no kubi ni kakatte iru omamori o mite, hatto shimashita.",
+   "translations": {
+    "vi": "Thấy lá bùa trên cổ Zushiō, vị đại thần giật mình.",
+    "en": "Seeing the amulet around Zushiō's neck, the minister gave a start.",
+    "zh-Hans": "大臣看到厨子王脖子上的护身符，猛地一惊。",
+    "zh-Hant": "大臣看到廚子王脖子上的護身符，猛地一驚。",
+    "ko": "대신은 즈시오의 목에 걸린 부적을 보고 깜짝 놀랐습니다.",
+    "tl": "Nang makita ng ministro ang anting-anting sa leeg ni Zushiō, nagulat siya.",
+    "ne": "जुशिओको घाँटीको ताबिज देखेर मन्त्री झस्किए।",
+    "id": "Melihat jimat di leher Zushiō, sang menteri terkejut.",
+    "pt": "Ao ver o amuleto no pescoço de Zushiō, o ministro levou um susto.",
+    "my": "ဝန်ကြီးက ဇူရှိအို လည်ပင်းက အဆောင်ကို မြင်တော့ လန့်သွားပါတယ်။",
+    "th": "เสนาบดีเห็นเครื่องรางที่คอของซูชิโอก็สะดุ้ง"
+   },
+   "grammarNote": {
+    "vi": "はっとする: giật mình.",
+    "en": "はっとする: be startled.",
+    "zh-Hans": "はっとする: 吃一惊。",
+    "zh-Hant": "はっとする: 吃一驚。",
+    "ko": "はっとする: 깜짝 놀라다.",
+    "tl": "はっとする: magulat.",
+    "ne": "はっとする: झस्कनु।",
+    "id": "はっとする: terkejut.",
+    "pt": "はっとする: levar um susto.",
+    "my": "はっとする: လန့်။",
+    "th": "はっとする: สะดุ้ง ตกใจ."
+   },
+   "vocab": [],
+   "t": [
+    165.95,
+    171.29
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=165.95,171.29"
+  },
+  {
+   "ja": "その地蔵様のお守りは、どこで手に入れたのだ。",
+   "furigana": [
+    {
+     "surface": "その",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "様",
+     "reading": "さま"
+    },
+    {
+     "surface": "のお",
+     "reading": ""
+    },
+    {
+     "surface": "守",
+     "reading": "まも"
+    },
+    {
+     "surface": "りは、どこで",
+     "reading": ""
+    },
+    {
+     "surface": "手",
+     "reading": "て"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "入",
+     "reading": "い"
+    },
+    {
+     "surface": "れたのだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono jizousama no omamori wa, doko de te ni ireta no da.",
+   "translations": {
+    "vi": "Lá bùa Jizō đó, con có được ở đâu?",
+    "en": "Where did you get that Jizō amulet?",
+    "zh-Hans": "那个地藏护身符，你是从哪里得来的？",
+    "zh-Hant": "那個地藏護身符，你是從哪裡得來的？",
+    "ko": "그 지장보살 부적은 어디서 얻은 것이냐.",
+    "tl": "Saan mo nakuha ang anting-anting na iyan ni Jizō?",
+    "ne": "त्यो जिजोको ताबिज कहाँ पायौ?",
+    "id": "Dari mana kau mendapat jimat Jizō itu?",
+    "pt": "Onde você conseguiu esse amuleto de Jizō?",
+    "my": "အဲဒီ ဂျီဇိုအဆောင်ကို ဘယ်ကရတာလဲ။",
+    "th": "เครื่องรางพระจิโซนั้น เจ้าได้มาจากที่ใด"
+   },
+   "grammarNote": {
+    "vi": "手に入れる: có được.",
+    "en": "手に入れる: obtain.",
+    "zh-Hans": "手に入れる: 得到。",
+    "zh-Hant": "手に入れる: 得到。",
+    "ko": "手に入れる: 손에 넣다.",
+    "tl": "手に入れる: makuha.",
+    "ne": "手に入れる: पाउनु।",
+    "id": "手に入れる: mendapatkan.",
+    "pt": "手に入れる: conseguir.",
+    "my": "手に入れる: ရ။",
+    "th": "手に入れる: ได้มา."
+   },
+   "vocab": [],
+   "t": [
+    172.19,
+    176.66
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=172.19,176.66"
+  },
+  {
+   "ja": "これは、わたしの家に昔から伝わるお守りです。",
+   "furigana": [
+    {
+     "surface": "これは、わたしの",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "昔",
+     "reading": "むかし"
+    },
+    {
+     "surface": "から",
+     "reading": ""
+    },
+    {
+     "surface": "伝",
+     "reading": "つた"
+    },
+    {
+     "surface": "わるお",
+     "reading": ""
+    },
+    {
+     "surface": "守",
+     "reading": "まも"
+    },
+    {
+     "surface": "りです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kore wa, watashi no ie ni mukashi kara tsutawaru omamori desu.",
+   "translations": {
+    "vi": "Đây là lá bùa truyền lại từ xưa trong gia đình con.",
+    "en": "This amulet has been handed down in my family for generations.",
+    "zh-Hans": "这是我家里祖传的护身符。",
+    "zh-Hant": "這是我家裡祖傳的護身符。",
+    "ko": "이것은 저희 집안에 예로부터 전해 오는 부적입니다.",
+    "tl": "Ito po ay anting-anting na minana pa ng aming pamilya.",
+    "ne": "यो हाम्रो घरमा पुस्तौँदेखि चलेको ताबिज हो।",
+    "id": "Ini jimat warisan keluarga saya sejak dulu.",
+    "pt": "Este amuleto passa de geração em geração na minha família.",
+    "my": "ဒါက ကျွန်တော့်မိသားစုမှာ ရှေးကတည်းက လက်ဆင့်ကမ်းလာတဲ့ အဆောင်ပါ။",
+    "th": "นี่คือเครื่องรางที่ตกทอดในบ้านของข้ามาแต่โบราณ"
+   },
+   "grammarNote": {
+    "vi": "伝わる: truyền lại.",
+    "en": "伝わる: be handed down.",
+    "zh-Hans": "伝わる: 流传。",
+    "zh-Hant": "伝わる: 流傳。",
+    "ko": "伝わる: 전해지다.",
+    "tl": "伝わる: mamana.",
+    "ne": "伝わる: पुस्तादेखि चल्नु।",
+    "id": "伝わる: diwariskan.",
+    "pt": "伝わる: ser transmitido.",
+    "my": "伝わる: လက်ဆင့်ကမ်း။",
+    "th": "伝わる: ตกทอด."
+   },
+   "vocab": [
+    {
+     "word": "伝わる",
+     "reading": "つたわる",
+     "level": "N3",
+     "meanings": {
+      "vi": "được truyền lại",
+      "en": "to be handed down",
+      "zh-Hans": "流传",
+      "zh-Hant": "流傳",
+      "ko": "전해지다",
+      "tl": "maipasa",
+      "ne": "हस्तान्तरण हुनु",
+      "id": "diwariskan",
+      "pt": "ser transmitido",
+      "my": "လက်ဆင့်ကမ်းခံရ",
+      "th": "ตกทอดมา"
+     }
+    }
+   ],
+   "t": [
+    177.56,
+    181.54
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=177.56,181.54"
+  },
+  {
+   "ja": "厨子王は、父のこと、母のこと、姉のことを、すべて話しました。",
+   "furigana": [
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "父",
+     "reading": "ちち"
+    },
+    {
+     "surface": "のこと、",
+     "reading": ""
+    },
+    {
+     "surface": "母",
+     "reading": "はは"
+    },
+    {
+     "surface": "のこと、",
+     "reading": ""
+    },
+    {
+     "surface": "姉",
+     "reading": "あね"
+    },
+    {
+     "surface": "のことを、すべて",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はな"
+    },
+    {
+     "surface": "しました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Zushiou wa, chichi no koto, haha no koto, ane no koto o, subete hanashimashita.",
+   "translations": {
+    "vi": "Zushiō kể hết về cha, về mẹ, về chị.",
+    "en": "Zushiō told him everything about his father, his mother and his sister.",
+    "zh-Hans": "厨子王把父亲、母亲和姐姐的事全都说了出来。",
+    "zh-Hant": "廚子王把父親、母親和姐姐的事全都說了出來。",
+    "ko": "즈시오는 아버지, 어머니, 누나의 일을 모두 이야기했습니다.",
+    "tl": "Ikinuwento ni Zushiō ang lahat tungkol sa kanyang ama, ina at ate.",
+    "ne": "जुशिओले बुबा, आमा र दिदीको सबै कुरा सुनायो।",
+    "id": "Zushiō menceritakan semuanya tentang ayah, ibu, dan kakaknya.",
+    "pt": "Zushiō contou tudo sobre o pai, a mãe e a irmã.",
+    "my": "ဇူရှိအိုက အဖေ၊ အမေ၊ အစ်မ အကြောင်း အားလုံးကို ပြောပြပါတယ်။",
+    "th": "ซูชิโอเล่าเรื่องพ่อ แม่ และพี่สาวให้ฟังทั้งหมด"
+   },
+   "grammarNote": {
+    "vi": "すべて: tất cả.",
+    "en": "すべて: everything.",
+    "zh-Hans": "すべて: 全部。",
+    "zh-Hant": "すべて: 全部。",
+    "ko": "すべて: 모두.",
+    "tl": "すべて: lahat.",
+    "ne": "すべて: सबै।",
+    "id": "すべて: semuanya.",
+    "pt": "すべて: tudo.",
+    "my": "すべて: အားလုံး။",
+    "th": "すべて: ทั้งหมด."
+   },
+   "vocab": [
+    {
+     "word": "すべて",
+     "reading": "すべて",
+     "level": "N3",
+     "meanings": {
+      "vi": "tất cả",
+      "en": "everything, all",
+      "zh-Hans": "全部",
+      "zh-Hant": "全部",
+      "ko": "모두",
+      "tl": "lahat",
+      "ne": "सबै",
+      "id": "semua",
+      "pt": "tudo",
+      "my": "အားလုံး",
+      "th": "ทั้งหมด"
+     }
+    }
+   ],
+   "t": [
+    182.44,
+    188.29
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=182.44,188.29"
+  },
+  {
+   "ja": "そうか。そなたは、正氏殿の息子なのか。",
+   "furigana": [
+    {
+     "surface": "そうか。そなたは、",
+     "reading": ""
+    },
+    {
+     "surface": "正氏",
+     "reading": "まさうじ"
+    },
+    {
+     "surface": "殿",
+     "reading": "どの"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "息子",
+     "reading": "むすこ"
+    },
+    {
+     "surface": "なのか。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sou ka. So nata wa, Masauji dono no musuko na no ka.",
+   "translations": {
+    "vi": "Ra vậy. Con là con trai của ngài Masauji sao?",
+    "en": "I see. So you are the son of Lord Masauji?",
+    "zh-Hans": "原来如此。你就是正氏大人的儿子吗？",
+    "zh-Hant": "原來如此。你就是正氏大人的兒子嗎？",
+    "ko": "그렇구나. 네가 마사우지 공의 아들이란 말이냐.",
+    "tl": "Ganoon pala. Ikaw ang anak ni Panginoong Masauji?",
+    "ne": "अच्छा। त्यसो भए तिमी मासाउजीज्यूका छोरा हौ?",
+    "id": "Begitu rupanya. Jadi kau putra Tuan Masauji?",
+    "pt": "Entendo. Então você é filho do senhor Masauji?",
+    "my": "ဒီလိုလား။ မင်းက မာဆာအုဂျိ အရှင်ရဲ့ သားလား။",
+    "th": "อย่างนี้นี่เอง เจ้าคือบุตรของท่านมาซาอุจิหรือ"
+   },
+   "grammarNote": {
+    "vi": "そなた: ngươi, con (cổ). 殿: ngài.",
+    "en": "そなた: you (archaic). 殿: Lord.",
+    "zh-Hans": "そなた: 你（古语）。殿: 大人。",
+    "zh-Hant": "そなた: 你（古語）。殿: 大人。",
+    "ko": "そなた: 그대(옛말). 殿: 공, 님.",
+    "tl": "そなた: ikaw (luma). 殿: Panginoon.",
+    "ne": "そなた: तिमी (पुरानो)। 殿: ज्यू, हजुर।",
+    "id": "そなた: engkau (kuno). 殿: Tuan.",
+    "pt": "そなた: tu (arcaico). 殿: senhor.",
+    "my": "そなた: သင် (ရှေးစကား)။ 殿: အရှင်။",
+    "th": "そなた: เจ้า (โบราณ). 殿: ท่าน."
+   },
+   "vocab": [],
+   "t": [
+    189.19,
+    192.6
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=189.19,192.6"
+  },
+  {
+   "ja": "正氏殿は、罪をかぶせられただけで、本当は正しい人だったと、今ではみんな知っている。",
+   "furigana": [
+    {
+     "surface": "正氏",
+     "reading": "まさうじ"
+    },
+    {
+     "surface": "殿",
+     "reading": "どの"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "罪",
+     "reading": "つみ"
+    },
+    {
+     "surface": "をかぶせられただけで、",
+     "reading": ""
+    },
+    {
+     "surface": "本当",
+     "reading": "ほんとう"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "正",
+     "reading": "ただ"
+    },
+    {
+     "surface": "しい",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "だったと、",
+     "reading": ""
+    },
+    {
+     "surface": "今",
+     "reading": "いま"
+    },
+    {
+     "surface": "ではみんな",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "っている。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Masauji dono wa, tsumi o kabuserareta dake de, hontouwa tadashii hito datta to, ima de wa minna shitte iru.",
+   "translations": {
+    "vi": "Giờ ai cũng biết ngài Masauji chỉ bị đổ oan, thật ra là người ngay thẳng.",
+    "en": "Everyone knows now that Lord Masauji was only blamed falsely, and was truly a just man.",
+    "zh-Hans": "如今大家都知道，正氏大人只是被人栽赃，其实是个正直的人。",
+    "zh-Hant": "如今大家都知道，正氏大人只是被人栽贓，其實是個正直的人。",
+    "ko": "마사우지 공은 누명을 썼을 뿐, 실은 올곧은 분이었다는 걸 이제는 모두가 안다.",
+    "tl": "Alam na ng lahat ngayon na pinagbintangan lang si Panginoong Masauji, at tunay siyang matuwid.",
+    "ne": "मासाउजीज्यूलाई झुटो दोष मात्र लगाइएको थियो, वास्तवमा उहाँ इमानदार हुनुहुन्थ्यो भन्ने अहिले सबैलाई थाहा छ।",
+    "id": "Kini semua orang tahu Tuan Masauji hanya difitnah, dan sebenarnya orang yang lurus.",
+    "pt": "Hoje todos sabem que o senhor Masauji só foi acusado injustamente e era, na verdade, um homem justo.",
+    "my": "မာဆာအုဂျိ အရှင်ဟာ အပြစ်ပုံချခံရရုံပဲ၊ တကယ်တော့ ဖြောင့်မတ်သူဆိုတာ အခု အားလုံး သိကြပြီ။",
+    "th": "บัดนี้ทุกคนรู้แล้วว่าท่านมาซาอุจิเพียงถูกใส่ร้าย แท้จริงเป็นคนซื่อตรง"
+   },
+   "grammarNote": {
+    "vi": "〜だけ: chỉ ~. 本当は: thật ra.",
+    "en": "〜だけ: only. 本当は: in truth.",
+    "zh-Hans": "〜だけ: 只是。本当は: 其实。",
+    "zh-Hant": "〜だけ: 只是。本当は: 其實。",
+    "ko": "〜だけ: ~뿐. 本当は: 실은.",
+    "tl": "〜だけ: lamang. 本当は: ang totoo.",
+    "ne": "〜だけ: मात्र। 本当は: वास्तवमा।",
+    "id": "〜だけ: hanya. 本当は: sebenarnya.",
+    "pt": "〜だけ: só. 本当は: na verdade.",
+    "my": "〜だけ: ရုံသာ။ 本当は: တကယ်တော့။",
+    "th": "〜だけ: เพียง. 本当は: แท้จริง."
+   },
+   "vocab": [
+    {
+     "word": "罪",
+     "reading": "つみ",
+     "level": "N3",
+     "meanings": {
+      "vi": "tội",
+      "en": "crime, sin",
+      "zh-Hans": "罪",
+      "zh-Hant": "罪",
+      "ko": "죄",
+      "tl": "krimen",
+      "ne": "अपराध",
+      "id": "kejahatan",
+      "pt": "crime",
+      "my": "ပြစ်မှု",
+      "th": "ความผิด"
+     }
+    },
+    {
+     "word": "かぶせる",
+     "reading": "かぶせる",
+     "level": "N2",
+     "meanings": {
+      "vi": "chụp lên, đổ (tội) cho",
+      "en": "to cover with; pin (blame) on",
+      "zh-Hans": "盖上；嫁祸",
+      "zh-Hant": "蓋上；嫁禍",
+      "ko": "씌우다",
+      "tl": "takpan; ibintang",
+      "ne": "ओढाउनु; दोष लगाउनु",
+      "id": "menutupi; melimpahkan (kesalahan)",
+      "pt": "cobrir; atribuir (culpa)",
+      "my": "အုပ်; အပြစ်ပုံချ",
+      "th": "ครอบ; ป้ายความผิด"
+     }
+    }
+   ],
+   "t": [
+    193.2,
+    200.93
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=193.2,200.93"
+  },
+  {
+   "ja": "大臣は、厨子王を自分の屋敷に連れて帰り、勉強をさせました。",
+   "furigana": [
+    {
+     "surface": "大臣",
+     "reading": "だいじん"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "屋敷",
+     "reading": "やしき"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "連",
+     "reading": "つ"
+    },
+    {
+     "surface": "れて",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "り、",
+     "reading": ""
+    },
+    {
+     "surface": "勉強",
+     "reading": "べんきょう"
+    },
+    {
+     "surface": "をさせました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Daijin wa, Zushiou o jibun no yashiki ni tsurete kaeri, benkyou o sasemashita.",
+   "translations": {
+    "vi": "Vị đại thần đón Zushiō về phủ mình và cho đi học.",
+    "en": "The minister took Zushiō into his own house and had him study.",
+    "zh-Hans": "大臣把厨子王接到自己的府上，让他读书。",
+    "zh-Hant": "大臣把廚子王接到自己的府上，讓他讀書。",
+    "ko": "대신은 즈시오를 자기 저택으로 데려와 공부를 시켰습니다.",
+    "tl": "Kinupkop ng ministro si Zushiō sa kanyang bahay at pinag-aral.",
+    "ne": "मन्त्रीले जुशिओलाई आफ्नै हवेलीमा राखेर पढाए।",
+    "id": "Sang menteri membawa Zushiō ke rumahnya dan menyuruhnya belajar.",
+    "pt": "O ministro acolheu Zushiō em sua casa e o fez estudar.",
+    "my": "ဝန်ကြီးက ဇူရှိအိုကို သူ့အိမ်ကြီးကို ခေါ်ထားပြီး ပညာသင်စေပါတယ်။",
+    "th": "เสนาบดีรับซูชิโอมาอยู่ที่คฤหาสน์ของตนและให้เล่าเรียน"
+   },
+   "grammarNote": {
+    "vi": "連れて帰る: đưa về. 勉強させる: cho học.",
+    "en": "連れて帰る: take home. 勉強させる: have someone study.",
+    "zh-Hans": "連れて帰る: 带回。勉強させる: 让～学习。",
+    "zh-Hant": "連れて帰る: 帶回。勉強させる: 讓～學習。",
+    "ko": "連れて帰る: 데리고 돌아가다. 勉強させる: 공부시키다.",
+    "tl": "連れて帰る: iuwi. 勉強させる: pag-aralin.",
+    "ne": "連れて帰る: घर लैजानु। 勉強させる: पढाउनु।",
+    "id": "連れて帰る: membawa pulang. 勉強させる: menyuruh belajar.",
+    "pt": "連れて帰る: levar para casa. 勉強させる: fazer estudar.",
+    "my": "連れて帰る: ခေါ်ပြန်။ 勉強させる: ပညာသင်စေ။",
+    "th": "連れて帰る: พากลับ. 勉強させる: ให้เรียน."
+   },
+   "vocab": [
+    {
+     "word": "屋敷",
+     "reading": "やしき",
+     "level": "N1",
+     "meanings": {
+      "vi": "dinh thự",
+      "en": "mansion, residence",
+      "zh-Hans": "宅邸",
+      "zh-Hant": "宅邸",
+      "ko": "저택",
+      "tl": "mansiyon",
+      "ne": "दरबार, ठूलो घर",
+      "id": "kediaman, rumah besar",
+      "pt": "mansão",
+      "my": "အိမ်ကြီး",
+      "th": "คฤหาสน์"
+     }
+    }
+   ],
+   "t": [
+    201.83,
+    207.48
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=201.83,207.48"
+  },
+  {
+   "ja": "厨子王は、夜も寝ないで学び、立派な若者になりました。",
+   "furigana": [
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "夜",
+     "reading": "よる"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "寝",
+     "reading": "ね"
+    },
+    {
+     "surface": "ないで",
+     "reading": ""
+    },
+    {
+     "surface": "学",
+     "reading": "まな"
+    },
+    {
+     "surface": "び、",
+     "reading": ""
+    },
+    {
+     "surface": "立派",
+     "reading": "りっぱ"
+    },
+    {
+     "surface": "な",
+     "reading": ""
+    },
+    {
+     "surface": "若者",
+     "reading": "わかもの"
+    },
+    {
+     "surface": "になりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Zushiou wa, yoru mo nenaide manabi, rippa na wakamono ni narimashita.",
+   "translations": {
+    "vi": "Zushiō học cả đêm không ngủ, trở thành một chàng trai giỏi giang.",
+    "en": "Zushiō studied without sleeping at night and grew into a fine young man.",
+    "zh-Hans": "厨子王夜以继日地学习，成了一个出色的青年。",
+    "zh-Hant": "廚子王夜以繼日地學習，成了一個出色的青年。",
+    "ko": "즈시오는 밤잠도 자지 않고 공부해 훌륭한 젊은이가 되었습니다.",
+    "tl": "Nag-aral si Zushiō nang walang tulog sa gabi, at naging isang mahusay na binata.",
+    "ne": "जुशिओ रातभर नसुती पढ्यो र एक योग्य युवक बन्यो।",
+    "id": "Zushiō belajar tanpa tidur di malam hari dan tumbuh menjadi pemuda yang hebat.",
+    "pt": "Zushiō estudou sem dormir à noite e se tornou um belo rapaz.",
+    "my": "ဇူရှိအိုဟာ ညဘက်မအိပ်ဘဲ သင်ယူပြီး ထူးချွန်တဲ့ လူငယ်တစ်ယောက် ဖြစ်လာပါတယ်။",
+    "th": "ซูชิโอเรียนอย่างไม่หลับไม่นอน จนเติบโตเป็นชายหนุ่มที่ยอดเยี่ยม"
+   },
+   "grammarNote": {
+    "vi": "〜ないで: mà không ~. 立派: giỏi giang, đàng hoàng.",
+    "en": "〜ないで: without ~. 立派: fine, admirable.",
+    "zh-Hans": "〜ないで: 不～而。立派: 出色。",
+    "zh-Hant": "〜ないで: 不～而。立派: 出色。",
+    "ko": "〜ないで: ~하지 않고. 立派: 훌륭하다.",
+    "tl": "〜ないで: nang hindi ~. 立派: mahusay, kagalang-galang.",
+    "ne": "〜ないで: ~ नगरी। 立派: योग्य।",
+    "id": "〜ないで: tanpa ~. 立派: hebat, terhormat.",
+    "pt": "〜ないで: sem ~. 立派: admirável.",
+    "my": "〜ないで: ~ ဘဲ။ 立派: ထူးချွန်။",
+    "th": "〜ないで: โดยไม่ ~. 立派: ยอดเยี่ยม."
+   },
+   "vocab": [
+    {
+     "word": "学ぶ",
+     "reading": "まなぶ",
+     "level": "N3",
+     "meanings": {
+      "vi": "học",
+      "en": "to learn",
+      "zh-Hans": "学习",
+      "zh-Hant": "學習",
+      "ko": "배우다",
+      "tl": "matuto",
+      "ne": "सिक्नु",
+      "id": "belajar",
+      "pt": "aprender",
+      "my": "သင်ယူသည်",
+      "th": "เรียนรู้"
+     }
+    }
+   ],
+   "t": [
+    208.08,
+    212.77
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=208.08,212.77"
+  },
+  {
+   "ja": "何年かたって、厨子王は、なんと丹後の国の国守に選ばれました。",
+   "furigana": [
+    {
+     "surface": "何",
+     "reading": "なん"
+    },
+    {
+     "surface": "年",
+     "reading": "ねん"
+    },
+    {
+     "surface": "かたって、",
+     "reading": ""
+    },
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "は、なんと",
+     "reading": ""
+    },
+    {
+     "surface": "丹後",
+     "reading": "たんご"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "国",
+     "reading": "くに"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "国守",
+     "reading": "こくしゅ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "選",
+     "reading": "えら"
+    },
+    {
+     "surface": "ばれました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nannen ka tatte, Zushiou wa, nanto Tango no kuni no kokushu ni erabaremashita.",
+   "translations": {
+    "vi": "Mấy năm sau, thật bất ngờ, Zushiō được chọn làm quan Quốc thủ của xứ Tango.",
+    "en": "Some years later, to everyone's surprise, Zushiō was chosen as governor of Tango.",
+    "zh-Hans": "几年之后，厨子王竟然被选为丹后国的国守。",
+    "zh-Hant": "幾年之後，廚子王竟然被選為丹後國的國守。",
+    "ko": "몇 해가 지나, 놀랍게도 즈시오는 단고 지방의 국수로 뽑혔습니다.",
+    "tl": "Pagkalipas ng ilang taon, nakakagulat, napiling gobernador ng Tango si Zushiō.",
+    "ne": "केही वर्षपछि, अचम्म, जुशिओ तानगो प्रदेशको प्रशासक चुनियो।",
+    "id": "Beberapa tahun kemudian, sungguh tak terduga, Zushiō terpilih menjadi gubernur negeri Tango.",
+    "pt": "Alguns anos depois, para surpresa de todos, Zushiō foi escolhido governador de Tango.",
+    "my": "နှစ်အနည်းငယ်ကြာတော့ အံ့ဩစရာ၊ ဇူရှိအိုဟာ တန်ဂိုနယ်ရဲ့ နယ်စား အဖြစ် ရွေးချယ်ခံရပါတယ်။",
+    "th": "หลายปีผ่านไป น่าประหลาดใจที่ซูชิโอได้รับเลือกเป็นเจ้าเมืองแคว้นทังโกะ"
+   },
+   "grammarNote": {
+    "vi": "なんと: thật không ngờ. 国守: quan cai trị một xứ. 選ばれる: được chọn.",
+    "en": "なんと: amazingly. 国守: provincial governor. 選ばれる: be chosen.",
+    "zh-Hans": "なんと: 竟然。国守: 一国的长官。選ばれる: 被选为。",
+    "zh-Hant": "なんと: 竟然。国守: 一國的長官。選ばれる: 被選為。",
+    "ko": "なんと: 놀랍게도. 国守: 지방 장관. 選ばれる: 뽑히다.",
+    "tl": "なんと: nakakagulat. 国守: gobernador ng lalawigan. 選ばれる: mapili.",
+    "ne": "なんと: अचम्म। 国守: प्रदेशको प्रशासक। 選ばれる: चुनिनु।",
+    "id": "なんと: sungguh tak terduga. 国守: gubernur provinsi. 選ばれる: terpilih.",
+    "pt": "なんと: surpreendentemente. 国守: governador da província. 選ばれる: ser escolhido.",
+    "my": "なんと: အံ့ဩစရာ။ 国守: နယ်စား၊ နယ်ဘုရင်ခံ။ 選ばれる: ရွေးချယ်ခံရ။",
+    "th": "なんと: น่าประหลาดใจ. 国守: เจ้าเมือง. 選ばれる: ได้รับเลือก."
+   },
+   "vocab": [],
+   "t": [
+    213.37,
+    218.57
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=213.37,218.57"
+  },
+  {
+   "ja": "国守になるとともに、厨子王は、国じゅうで人を売り買いすることを禁じました。",
+   "furigana": [
+    {
+     "surface": "国守",
+     "reading": "こくしゅ"
+    },
+    {
+     "surface": "になるとともに、",
+     "reading": ""
+    },
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "国",
+     "reading": "くに"
+    },
+    {
+     "surface": "じゅうで",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "売",
+     "reading": "う"
+    },
+    {
+     "surface": "り",
+     "reading": ""
+    },
+    {
+     "surface": "買",
+     "reading": "か"
+    },
+    {
+     "surface": "いすることを",
+     "reading": ""
+    },
+    {
+     "surface": "禁",
+     "reading": "きん"
+    },
+    {
+     "surface": "じました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kokushu ni naru totomoni, Zushiou wa, kunijuu de hito o urikai suru koto o kinjimashita.",
+   "translations": {
+    "vi": "Vừa nhậm chức Quốc thủ, Zushiō đồng thời cấm việc mua bán người trong khắp xứ.",
+    "en": "As soon as he became governor, Zushiō banned the buying and selling of people throughout the province.",
+    "zh-Hans": "在当上国守的同时，厨子王下令全国禁止买卖人口。",
+    "zh-Hant": "在當上國守的同時，廚子王下令全國禁止買賣人口。",
+    "ko": "국수가 됨과 동시에 즈시오는 온 지방에서 사람을 사고파는 것을 금지했습니다.",
+    "tl": "Kasabay ng pagiging gobernador, ipinagbawal ni Zushiō ang pagbili at pagbenta ng tao sa buong lalawigan.",
+    "ne": "प्रशासक बन्नेबित्तिकै जुशिओले प्रदेशभरि मानिस किनबेच गर्न रोक लगायो।",
+    "id": "Bersamaan dengan menjadi gubernur, Zushiō melarang jual beli manusia di seluruh negeri.",
+    "pt": "Ao mesmo tempo em que se tornou governador, Zushiō proibiu a compra e venda de pessoas em toda a província.",
+    "my": "နယ်စား ဖြစ်တာနဲ့အတူ ဇူရှိအိုဟာ နယ်တစ်ခုလုံးမှာ လူအရောင်းအဝယ်ကို တားမြစ်လိုက်ပါတယ်။",
+    "th": "พร้อมกับการเป็นเจ้าเมือง ซูชิโอก็ประกาศห้ามซื้อขายคนทั่วทั้งแคว้น"
+   },
+   "grammarNote": {
+    "vi": "〜とともに: cùng lúc với ~. 禁じる: cấm.",
+    "en": "〜とともに: at the same time as ~. 禁じる: forbid.",
+    "zh-Hans": "〜とともに: 在～的同时。禁じる: 禁止。",
+    "zh-Hant": "〜とともに: 在～的同時。禁じる: 禁止。",
+    "ko": "〜とともに: ~와 동시에. 禁じる: 금하다.",
+    "tl": "〜とともに: kasabay ng ~. 禁じる: ipagbawal.",
+    "ne": "〜とともに: ~ सँगसँगै। 禁じる: रोक लगाउनु।",
+    "id": "〜とともに: bersamaan dengan ~. 禁じる: melarang.",
+    "pt": "〜とともに: ao mesmo tempo que ~. 禁じる: proibir.",
+    "my": "〜とともに: ~ နဲ့အတူ။ 禁じる: တားမြစ်။",
+    "th": "〜とともに: พร้อมกับ ~. 禁じる: ห้าม."
+   },
+   "vocab": [
+    {
+     "word": "禁じる",
+     "reading": "きんじる",
+     "level": "N1",
+     "meanings": {
+      "vi": "cấm",
+      "en": "to forbid",
+      "zh-Hans": "禁止",
+      "zh-Hant": "禁止",
+      "ko": "금하다",
+      "tl": "ipagbawal",
+      "ne": "रोक लगाउनु",
+      "id": "melarang",
+      "pt": "proibir",
+      "my": "တားမြစ်",
+      "th": "ห้าม"
+     }
+    }
+   ],
+   "t": [
+    219.17,
+    224.26
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=219.17,224.26"
+  },
+  {
+   "ja": "山椒大夫の屋敷で働かされていた人たちも、みんな自由になりました。",
+   "furigana": [
+    {
+     "surface": "山椒大夫",
+     "reading": "さんしょうだゆう"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "屋敷",
+     "reading": "やしき"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "働",
+     "reading": "はたら"
+    },
+    {
+     "surface": "かされていた",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "たちも、みんな",
+     "reading": ""
+    },
+    {
+     "surface": "自由",
+     "reading": "じゆう"
+    },
+    {
+     "surface": "になりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sanshoudayuu no yashiki de hatarakasarete ita hitotachi mo, minna jiyuu ni narimashita.",
+   "translations": {
+    "vi": "Những người bị bắt làm lụng ở phủ Sanshō Dayū cũng đều được tự do.",
+    "en": "The people forced to work in Sanshō Dayū's house were all set free.",
+    "zh-Hans": "在山椒大夫宅院里被迫干活的人们，也全都获得了自由。",
+    "zh-Hant": "在山椒大夫宅院裡被迫幹活的人們，也全都獲得了自由。",
+    "ko": "산쇼 다유의 저택에서 억지로 일하던 사람들도 모두 자유의 몸이 되었습니다.",
+    "tl": "Ang mga taong pinilit magtrabaho sa bahay ni Sanshō Dayū ay pinalaya lahat.",
+    "ne": "सान्सो दायुको हवेलीमा जबर्जस्ती काम गराइएका मानिसहरू पनि सबै स्वतन्त्र भए।",
+    "id": "Orang-orang yang dipaksa bekerja di rumah Sanshō Dayū pun semuanya dibebaskan.",
+    "pt": "As pessoas forçadas a trabalhar na casa de Sanshō Dayū também ficaram todas livres.",
+    "my": "ဆန်ရှော ဒါယူရဲ့ အိမ်ကြီးမှာ အတင်းအလုပ်ခိုင်းခံရသူတွေလည်း အားလုံး လွတ်လပ်ခွင့် ရသွားပါတယ်။",
+    "th": "ผู้คนที่ถูกบังคับให้ทำงานในคฤหาสน์ซันโช ดายูก็ได้รับอิสรภาพทุกคน"
+   },
+   "grammarNote": {
+    "vi": "働かされる: bị bắt làm. 自由: tự do.",
+    "en": "働かされる: be made to work. 自由: free.",
+    "zh-Hans": "働かされる: 被迫劳动。自由: 自由。",
+    "zh-Hant": "働かされる: 被迫勞動。自由: 自由。",
+    "ko": "働かされる: 억지로 일하다. 自由: 자유.",
+    "tl": "働かされる: pilitin magtrabaho. 自由: malaya.",
+    "ne": "働かされる: जबर्जस्ती काम गराइनु। 自由: स्वतन्त्र।",
+    "id": "働かされる: dipaksa bekerja. 自由: bebas.",
+    "pt": "働かされる: ser forçado a trabalhar. 自由: livre.",
+    "my": "働かされる: အတင်းအလုပ်ခိုင်းခံရ။ 自由: လွတ်လပ်။",
+    "th": "働かされる: ถูกบังคับให้ทำงาน. 自由: อิสระ."
+   },
+   "vocab": [],
+   "t": [
+    224.86,
+    229.51
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=224.86,229.51"
+  },
+  {
+   "ja": "二郎は、喜んで、使用人たちに家に帰るお金を配りました。",
+   "furigana": [
+    {
+     "surface": "二郎",
+     "reading": "じろう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "喜",
+     "reading": "よろこ"
+    },
+    {
+     "surface": "んで、",
+     "reading": ""
+    },
+    {
+     "surface": "使用人",
+     "reading": "しようにん"
+    },
+    {
+     "surface": "たちに",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "帰",
+     "reading": "かえ"
+    },
+    {
+     "surface": "るお",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "かね"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "配",
+     "reading": "くば"
+    },
+    {
+     "surface": "りました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Jirou wa, yorokonde, shiyounintachi ni ie ni kaeru okane o kubarimashita.",
+   "translations": {
+    "vi": "Jirō vui mừng phát tiền cho các gia nhân để về nhà.",
+    "en": "Jirō happily gave the servants money to go home.",
+    "zh-Hans": "二郎很高兴，给佣人们发了回家的路费。",
+    "zh-Hant": "二郎很高興，給佣人們發了回家的路費。",
+    "ko": "지로는 기뻐하며 일꾼들에게 집에 돌아갈 돈을 나눠 주었습니다.",
+    "tl": "Masayang namigay si Jirō ng pera sa mga trabahador para makauwi.",
+    "ne": "जिरोले खुसी हुँदै कामदारहरूलाई घर फर्कने पैसा बाँडे।",
+    "id": "Jirō dengan gembira membagikan uang kepada para pekerja untuk pulang.",
+    "pt": "Jirō, contente, distribuiu dinheiro aos servos para voltarem para casa.",
+    "my": "ဂျီရိုက ဝမ်းသာစွာ အလုပ်သမားတွေကို အိမ်ပြန်စရိတ် ဝေပေးပါတယ်။",
+    "th": "จิโร่ดีใจ แจกเงินให้คนงานไว้กลับบ้าน"
+   },
+   "grammarNote": {
+    "vi": "配る: phát.",
+    "en": "配る: hand out.",
+    "zh-Hans": "配る: 分发。",
+    "zh-Hant": "配る: 分發。",
+    "ko": "配る: 나눠 주다.",
+    "tl": "配る: mamigay.",
+    "ne": "配る: बाँड्नु।",
+    "id": "配る: membagikan.",
+    "pt": "配る: distribuir.",
+    "my": "配る: ဝေ။",
+    "th": "配る: แจก."
+   },
+   "vocab": [
+    {
+     "word": "使用人",
+     "reading": "しようにん",
+     "level": "N1",
+     "meanings": {
+      "vi": "người làm, gia nhân",
+      "en": "servant, employee",
+      "zh-Hans": "佣人",
+      "zh-Hant": "傭人",
+      "ko": "고용인, 일꾼",
+      "tl": "trabahador, alila",
+      "ne": "कामदार, नोकर",
+      "id": "pelayan, pekerja",
+      "pt": "servo, empregado",
+      "my": "အလုပ်သမား၊ အစေခံ",
+      "th": "คนรับใช้ คนงาน"
+     }
+    },
+    {
+     "word": "配る",
+     "reading": "くばる",
+     "level": "N2",
+     "meanings": {
+      "vi": "phát, chia",
+      "en": "hand out, distribute",
+      "zh-Hans": "分发",
+      "zh-Hant": "分發",
+      "ko": "나누어 주다",
+      "tl": "ipamigay",
+      "ne": "बाँड्नु",
+      "id": "membagikan",
+      "pt": "distribuir",
+      "my": "ဝေငှသည်",
+      "th": "แจก"
+     }
+    }
+   ],
+   "t": [
+    230.11,
+    235.15
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=230.11,235.15"
+  },
+  {
+   "ja": "厨子王は、山の沼へ行って、姉のために小さなお堂を建てました。",
+   "furigana": [
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "山",
+     "reading": "やま"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "沼",
+     "reading": "ぬま"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "って、",
+     "reading": ""
+    },
+    {
+     "surface": "姉",
+     "reading": "あね"
+    },
+    {
+     "surface": "のために",
+     "reading": ""
+    },
+    {
+     "surface": "小",
+     "reading": "ちい"
+    },
+    {
+     "surface": "さなお",
+     "reading": ""
+    },
+    {
+     "surface": "堂",
+     "reading": "どう"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "建",
+     "reading": "た"
+    },
+    {
+     "surface": "てました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Zushiou wa, yama no numa e itte, ane no tame ni chiisana odou o tatemashita.",
+   "translations": {
+    "vi": "Zushiō đến cái đầm trên núi và dựng một ngôi miếu nhỏ cho chị.",
+    "en": "Zushiō went to the mountain marsh and built a small shrine hall for his sister.",
+    "zh-Hans": "厨子王来到山里的沼泽，为姐姐建了一座小小的佛堂。",
+    "zh-Hant": "廚子王來到山裡的沼澤，為姐姐建了一座小小的佛堂。",
+    "ko": "즈시오는 산의 늪으로 가서 누나를 위해 작은 불당을 지었습니다.",
+    "tl": "Pumunta si Zushiō sa latian sa bundok at nagtayo ng maliit na dambana para sa kanyang ate.",
+    "ne": "जुशिओ पहाडको दलदलमा गएर दिदीका लागि सानो देवालय बनायो।",
+    "id": "Zushiō pergi ke rawa di gunung dan membangun sebuah balai doa kecil untuk kakaknya.",
+    "pt": "Zushiō foi ao pântano da montanha e construiu uma pequena capela para a irmã.",
+    "my": "ဇူရှိအိုဟာ တောင်ပေါ်က ရွှံ့နွံဆီသွားပြီး အစ်မအတွက် ဘုရားဆောင်လေး တစ်ဆောင် ဆောက်ပါတယ်။",
+    "th": "ซูชิโอไปที่บึงบนภูเขา และสร้างศาลาบูชาเล็กๆ ให้พี่สาว"
+   },
+   "grammarNote": {
+    "vi": "お堂: miếu, điện thờ. 建てる: dựng.",
+    "en": "お堂: shrine hall. 建てる: build.",
+    "zh-Hans": "お堂: 佛堂。建てる: 建造。",
+    "zh-Hant": "お堂: 佛堂。建てる: 建造。",
+    "ko": "お堂: 불당. 建てる: 짓다.",
+    "tl": "お堂: dambana. 建てる: magtayo.",
+    "ne": "お堂: देवालय। 建てる: बनाउनु।",
+    "id": "お堂: balai doa. 建てる: membangun.",
+    "pt": "お堂: capela. 建てる: construir.",
+    "my": "お堂: ဘုရားဆောင်။ 建てる: ဆောက်။",
+    "th": "お堂: ศาลาบูชา. 建てる: สร้าง."
+   },
+   "vocab": [],
+   "t": [
+    235.75,
+    240.89
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=235.75,240.89"
+  },
+  {
+   "ja": "姉さん、あなたのおかげで、わたしは生きています。",
+   "furigana": [
+    {
+     "surface": "姉",
+     "reading": "ねえ"
+    },
+    {
+     "surface": "さん、あなたのおかげで、わたしは",
+     "reading": ""
+    },
+    {
+     "surface": "生",
+     "reading": "い"
+    },
+    {
+     "surface": "きています。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Neesan, anata no okage de, watashi wa ikite imasu.",
+   "translations": {
+    "vi": "Chị ơi, nhờ có chị mà em được sống.",
+    "en": "Sister, thanks to you, I am alive.",
+    "zh-Hans": "姐姐，多亏了你，我才活了下来。",
+    "zh-Hant": "姐姐，多虧了你，我才活了下來。",
+    "ko": "누나, 누나 덕분에 나는 살아 있어.",
+    "tl": "Ate, dahil sa iyo, buhay ako.",
+    "ne": "दिदी, तपाईंकै कृपाले म बाँचेको छु।",
+    "id": "Kak, berkat Kakak, aku masih hidup.",
+    "pt": "Mana, graças a você eu estou vivo.",
+    "my": "အစ်မ၊ အစ်မကြောင့် ကျွန်တော် အသက်ရှင်နေရတာပါ။",
+    "th": "พี่ ด้วยพี่แท้ๆ ข้าจึงยังมีชีวิตอยู่"
+   },
+   "grammarNote": {
+    "vi": "〜のおかげで: nhờ ~.",
+    "en": "〜のおかげで: thanks to ~.",
+    "zh-Hans": "〜のおかげで: 多亏～。",
+    "zh-Hant": "〜のおかげで: 多虧～。",
+    "ko": "〜のおかげで: ~덕분에.",
+    "tl": "〜のおかげで: dahil sa (tulong ng) ~.",
+    "ne": "〜のおかげで: ~ को कृपाले।",
+    "id": "〜のおかげで: berkat ~.",
+    "pt": "〜のおかげで: graças a ~.",
+    "my": "〜のおかげで: ~ ကြောင့် (ကျေးဇူး)။",
+    "th": "〜のおかげで: เพราะ (ความช่วยเหลือของ) ~."
+   },
+   "vocab": [],
+   "t": [
+    241.79,
+    245.49
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=241.79,245.49"
+  },
+  {
+   "ja": "厨子王が、どんなに姉さんにもう一度会いたかったことか。",
+   "furigana": [
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "が、どんなに",
+     "reading": ""
+    },
+    {
+     "surface": "姉",
+     "reading": "ねえ"
+    },
+    {
+     "surface": "さんにもう",
+     "reading": ""
+    },
+    {
+     "surface": "一度",
+     "reading": "いちど"
+    },
+    {
+     "surface": "会",
+     "reading": "あ"
+    },
+    {
+     "surface": "いたかったことか。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Zushiou ga, donnani neesan ni mouichido aitakatta koto ka.",
+   "translations": {
+    "vi": "Zushiō đã mong được gặp lại chị biết bao nhiêu.",
+    "en": "How Zushiō longed to see his sister just once more!",
+    "zh-Hans": "厨子王是多么想再见姐姐一面啊。",
+    "zh-Hant": "廚子王是多麼想再見姐姐一面啊。",
+    "ko": "즈시오는 누나를 한 번만 더 보고 싶은 마음이 얼마나 간절했을까요.",
+    "tl": "Gaano kalaki ang pananabik ni Zushiō na makita ang ate niya kahit minsan pa!",
+    "ne": "जुशिओलाई दिदीलाई फेरि एकपटक भेट्न कति मन थियो होला!",
+    "id": "Betapa Zushiō ingin bertemu kakaknya sekali lagi!",
+    "pt": "Como Zushiō queria ver a irmã só mais uma vez!",
+    "my": "ဇူရှိအိုဟာ အစ်မကို နောက်တစ်ခါ တွေ့ချင်လိုက်တာ ဘယ်လောက်များလဲ။",
+    "th": "ซูชิโออยากพบพี่สาวอีกสักครั้งมากเพียงใด"
+   },
+   "grammarNote": {
+    "vi": "どんなに〜ことか: biết bao nhiêu ~.",
+    "en": "どんなに〜ことか: how (very) ~!",
+    "zh-Hans": "どんなに〜ことか: 多么～啊。",
+    "zh-Hant": "どんなに〜ことか: 多麼～啊。",
+    "ko": "どんなに〜ことか: 얼마나 ~했던가.",
+    "tl": "どんなに〜ことか: gaano ka-~!",
+    "ne": "どんなに〜ことか: कति ~ होला!",
+    "id": "どんなに〜ことか: betapa ~!",
+    "pt": "どんなに〜ことか: como ~!",
+    "my": "どんなに〜ことか: ဘယ်လောက် ~ လိုက်သလဲ။",
+    "th": "どんなに〜ことか: ~ เพียงใด."
+   },
+   "vocab": [
+    {
+     "word": "どんなに",
+     "reading": "どんなに",
+     "level": "N3",
+     "meanings": {
+      "vi": "dù ~ đến mấy",
+      "en": "no matter how",
+      "zh-Hans": "无论多么",
+      "zh-Hant": "無論多麼",
+      "ko": "아무리",
+      "tl": "gaano man",
+      "ne": "जतिसुकै",
+      "id": "se- apa pun",
+      "pt": "por mais que",
+      "my": "ဘယ်လောက်ပဲ",
+      "th": "ไม่ว่าจะ...แค่ไหน"
+     }
+    }
+   ],
+   "t": [
+    246.39,
+    250.59
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=246.39,250.59"
+  },
+  {
+   "ja": "そのころ、筑紫から、悲しい知らせが届きました。",
+   "furigana": [
+    {
+     "surface": "そのころ、",
+     "reading": ""
+    },
+    {
+     "surface": "筑紫",
+     "reading": "つくし"
+    },
+    {
+     "surface": "から、",
+     "reading": ""
+    },
+    {
+     "surface": "悲",
+     "reading": "かな"
+    },
+    {
+     "surface": "しい",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "らせが",
+     "reading": ""
+    },
+    {
+     "surface": "届",
+     "reading": "とど"
+    },
+    {
+     "surface": "きました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono koro, Tsukushi kara, kanashii shirase ga todokimashita.",
+   "translations": {
+    "vi": "Khoảng thời gian ấy, từ Tsukushi có tin buồn gửi tới.",
+    "en": "Around that time, sad news arrived from Tsukushi.",
+    "zh-Hans": "那时，从筑紫传来了令人伤心的消息。",
+    "zh-Hant": "那時，從築紫傳來了令人傷心的消息。",
+    "ko": "그 무렵 쓰쿠시에서 슬픈 소식이 날아왔습니다.",
+    "tl": "Nang panahong iyon, dumating ang malungkot na balita mula sa Tsukushi.",
+    "ne": "त्यही बेला चुकुसीबाट दुःखद खबर आयो।",
+    "id": "Sekitar waktu itu, kabar sedih datang dari Tsukushi.",
+    "pt": "Nessa época, chegou uma notícia triste de Tsukushi.",
+    "my": "အဲဒီအချိန်မှာ ဆုကုရှီက ဝမ်းနည်းစရာ သတင်း ရောက်လာပါတယ်။",
+    "th": "ในช่วงนั้น ข่าวเศร้าก็มาถึงจากสึกุชิ"
+   },
+   "grammarNote": {
+    "vi": "知らせ: tin báo. 届く: đến nơi.",
+    "en": "知らせ: news. 届く: arrive.",
+    "zh-Hans": "知らせ: 消息。届く: 送到。",
+    "zh-Hant": "知らせ: 消息。届く: 送到。",
+    "ko": "知らせ: 소식. 届く: 도착하다.",
+    "tl": "知らせ: balita. 届く: dumating.",
+    "ne": "知らせ: खबर। 届く: आइपुग्नु।",
+    "id": "知らせ: kabar. 届く: sampai.",
+    "pt": "知らせ: notícia. 届く: chegar.",
+    "my": "知らせ: သတင်း။ 届く: ရောက်။",
+    "th": "知らせ: ข่าว. 届く: มาถึง."
+   },
+   "vocab": [
+    {
+     "word": "知らせ",
+     "reading": "しらせ",
+     "level": "N3",
+     "meanings": {
+      "vi": "tin báo",
+      "en": "news, notice",
+      "zh-Hans": "消息；通知",
+      "zh-Hant": "消息；通知",
+      "ko": "소식, 알림",
+      "tl": "balita",
+      "ne": "खबर",
+      "id": "kabar",
+      "pt": "notícia",
+      "my": "သတင်း",
+      "th": "ข่าว"
+     }
+    },
+    {
+     "word": "届く",
+     "reading": "とどく",
+     "level": "N3",
+     "meanings": {
+      "vi": "chạm tới, đến nơi",
+      "en": "to reach, arrive",
+      "zh-Hans": "够到，送到",
+      "zh-Hant": "夠到，送到",
+      "ko": "닿다",
+      "tl": "umabot",
+      "ne": "पुग्नु",
+      "id": "sampai",
+      "pt": "alcançar",
+      "my": "ရောက်သည်",
+      "th": "ถึง, เอื้อมถึง"
+     }
+    }
+   ],
+   "t": [
+    251.19,
+    256.13
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=251.19,256.13"
+  },
+  {
+   "ja": "父の正氏は、もうずっと前に亡くなっていたのです。",
+   "furigana": [
+    {
+     "surface": "父",
+     "reading": "ちち"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "正氏",
+     "reading": "まさうじ"
+    },
+    {
+     "surface": "は、もうずっと",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "亡",
+     "reading": "な"
+    },
+    {
+     "surface": "くなっていたのです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Chichi no Masauji wa, mou zutto mae ni nakunatte ita no desu.",
+   "translations": {
+    "vi": "Cha Masauji đã mất từ lâu rồi.",
+    "en": "His father Masauji had died long before.",
+    "zh-Hans": "父亲正氏早在很久以前就去世了。",
+    "zh-Hant": "父親正氏早在很久以前就去世了。",
+    "ko": "아버지 마사우지는 이미 오래전에 세상을 떠났던 것입니다.",
+    "tl": "Matagal nang pumanaw ang amang si Masauji.",
+    "ne": "बुबा मासाउजीको धेरै पहिले नै निधन भइसकेको रहेछ।",
+    "id": "Ayahnya, Masauji, sudah lama meninggal.",
+    "pt": "O pai, Masauji, já tinha morrido havia muito tempo.",
+    "my": "အဖေ မာဆာအုဂျိဟာ ဟိုးအရင်ကတည်းက ကွယ်လွန်သွားခဲ့ပြီ။",
+    "th": "มาซาอุจิผู้เป็นพ่อได้เสียชีวิตไปนานแล้ว"
+   },
+   "grammarNote": {
+    "vi": "亡くなる: qua đời.",
+    "en": "亡くなる: pass away.",
+    "zh-Hans": "亡くなる: 去世。",
+    "zh-Hant": "亡くなる: 去世。",
+    "ko": "亡くなる: 돌아가시다.",
+    "tl": "亡くなる: pumanaw.",
+    "ne": "亡くなる: निधन हुनु।",
+    "id": "亡くなる: meninggal.",
+    "pt": "亡くなる: falecer.",
+    "my": "亡くなる: ကွယ်လွန်။",
+    "th": "亡くなる: เสียชีวิต."
+   },
+   "vocab": [],
+   "t": [
+    256.73,
+    260.77
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=256.73,260.77"
+  },
+  {
+   "ja": "残るは、佐渡の母だけです。",
+   "furigana": [
+    {
+     "surface": "残",
+     "reading": "のこ"
+    },
+    {
+     "surface": "るは、",
+     "reading": ""
+    },
+    {
+     "surface": "佐渡",
+     "reading": "さど"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "母",
+     "reading": "はは"
+    },
+    {
+     "surface": "だけです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nokoru wa, Sado no haha dake desu.",
+   "translations": {
+    "vi": "Giờ chỉ còn người mẹ ở Sado.",
+    "en": "Only his mother in Sado remained.",
+    "zh-Hans": "剩下的，只有佐渡的母亲了。",
+    "zh-Hant": "剩下的，只有佐渡的母親了。",
+    "ko": "남은 것은 사도의 어머니뿐입니다.",
+    "tl": "Ang natitira na lang ay ang ina sa Sado.",
+    "ne": "अब बाँकी रहिन् सादोकी आमा मात्र।",
+    "id": "Yang tersisa hanyalah ibunya di Sado.",
+    "pt": "Só restava a mãe, em Sado.",
+    "my": "ကျန်တာက ဆာဒိုက အမေ တစ်ယောက်တည်းပါ။",
+    "th": "ที่เหลืออยู่มีเพียงแม่ที่ซาโดะ"
+   },
+   "grammarNote": {
+    "vi": "残る: còn lại.",
+    "en": "残る: remain.",
+    "zh-Hans": "残る: 剩下。",
+    "zh-Hant": "残る: 剩下。",
+    "ko": "残る: 남다.",
+    "tl": "残る: matira.",
+    "ne": "残る: बाँकी रहनु।",
+    "id": "残る: tersisa.",
+    "pt": "残る: restar.",
+    "my": "残る: ကျန်။",
+    "th": "残る: เหลือ."
+   },
+   "vocab": [],
+   "t": [
+    261.37,
+    264.37
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=261.37,264.37"
+  },
+  {
+   "ja": "厨子王は、母を探しに、海を渡って佐渡へ向かいました。",
+   "furigana": [
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "母",
+     "reading": "はは"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "探",
+     "reading": "さが"
+    },
+    {
+     "surface": "しに、",
+     "reading": ""
+    },
+    {
+     "surface": "海",
+     "reading": "うみ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "渡",
+     "reading": "わた"
+    },
+    {
+     "surface": "って",
+     "reading": ""
+    },
+    {
+     "surface": "佐渡",
+     "reading": "さど"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "向",
+     "reading": "む"
+    },
+    {
+     "surface": "かいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Zushiou wa, haha o sagashi ni, umi o watatte Sado e mukaimashita.",
+   "translations": {
+    "vi": "Zushiō vượt biển sang Sado để tìm mẹ.",
+    "en": "Zushiō crossed the sea to Sado to look for his mother.",
+    "zh-Hans": "厨子王渡海前往佐渡寻找母亲。",
+    "zh-Hant": "廚子王渡海前往佐渡尋找母親。",
+    "ko": "즈시오는 어머니를 찾으러 바다를 건너 사도로 향했습니다.",
+    "tl": "Tumawid ng dagat si Zushiō papuntang Sado para hanapin ang ina.",
+    "ne": "जुशिओ आमालाई खोज्न समुद्र पार गरेर सादोतर्फ लाग्यो।",
+    "id": "Zushiō menyeberangi laut menuju Sado untuk mencari ibunya.",
+    "pt": "Zushiō atravessou o mar até Sado para procurar a mãe.",
+    "my": "ဇူရှိအိုဟာ အမေ့ကိုရှာဖို့ ပင်လယ်ကိုဖြတ်ပြီး ဆာဒိုကို သွားပါတယ်။",
+    "th": "ซูชิโอข้ามทะเลไปซาโดะเพื่อตามหาแม่"
+   },
+   "grammarNote": {
+    "vi": "渡る: vượt qua.",
+    "en": "渡る: cross.",
+    "zh-Hans": "渡る: 渡过。",
+    "zh-Hant": "渡る: 渡過。",
+    "ko": "渡る: 건너다.",
+    "tl": "渡る: tumawid.",
+    "ne": "渡る: पार गर्नु।",
+    "id": "渡る: menyeberang.",
+    "pt": "渡る: atravessar.",
+    "my": "渡る: ဖြတ်ကူး။",
+    "th": "渡る: ข้าม."
+   },
+   "vocab": [],
+   "t": [
+    264.97,
+    270.71
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=264.97,270.71"
+  },
+  {
+   "ja": "けれども、佐渡でいくら聞いて回っても、母の行方はわかりません。",
+   "furigana": [
+    {
+     "surface": "けれども、",
+     "reading": ""
+    },
+    {
+     "surface": "佐渡",
+     "reading": "さど"
+    },
+    {
+     "surface": "でいくら",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "いて",
+     "reading": ""
+    },
+    {
+     "surface": "回",
+     "reading": "まわ"
+    },
+    {
+     "surface": "っても、",
+     "reading": ""
+    },
+    {
+     "surface": "母",
+     "reading": "はは"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "行方",
+     "reading": "ゆくえ"
+    },
+    {
+     "surface": "はわかりません。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Keredomo, Sado de ikura kiite mawatte mo, haha no yukue wa wakarimasen.",
+   "translations": {
+    "vi": "Nhưng ở Sado hỏi han khắp nơi thế nào cũng không biết tung tích của mẹ.",
+    "en": "But no matter how much he asked around in Sado, he could not find out where she was.",
+    "zh-Hans": "可是，在佐渡不管怎么打听，都不知道母亲的下落。",
+    "zh-Hant": "可是，在佐渡不管怎麼打聽，都不知道母親的下落。",
+    "ko": "하지만 사도에서 아무리 묻고 다녀도 어머니의 행방은 알 수 없었습니다.",
+    "tl": "Ngunit kahit anong pagtatanong sa Sado, hindi niya malaman kung nasaan ang ina.",
+    "ne": "तर सादोमा जति सोधे पनि आमाको अत्तोपत्तो लागेन।",
+    "id": "Tetapi seberapa pun ia bertanya di Sado, keberadaan ibunya tak diketahui.",
+    "pt": "Mas, por mais que perguntasse por Sado, não descobria o paradeiro dela.",
+    "my": "ဒါပေမဲ့ ဆာဒိုမှာ ဘယ်လောက်ပဲ မေးမြန်းမေးမြန်း အမေ့ရဲ့ သတင်းအစ မရပါဘူး။",
+    "th": "แต่ไม่ว่าจะถามไถ่ไปทั่วซาโดะเท่าใด ก็ไม่รู้ว่าแม่อยู่ที่ไหน"
+   },
+   "grammarNote": {
+    "vi": "いくら〜ても: dù ~ bao nhiêu. 行方: tung tích.",
+    "en": "いくら〜ても: no matter how much ~. 行方: whereabouts.",
+    "zh-Hans": "いくら〜ても: 不管怎么～。行方: 下落。",
+    "zh-Hant": "いくら〜ても: 不管怎麼～。行方: 下落。",
+    "ko": "いくら〜ても: 아무리 ~해도. 行方: 행방.",
+    "tl": "いくら〜ても: kahit gaano ~. 行方: kinaroroonan.",
+    "ne": "いくら〜ても: जति ~ पनि। 行方: अत्तोपत्तो।",
+    "id": "いくら〜ても: seberapa pun ~. 行方: keberadaan.",
+    "pt": "いくら〜ても: por mais que ~. 行方: paradeiro.",
+    "my": "いくら〜ても: ဘယ်လောက်ပဲ ~ ~။ 行方: သတင်းအစ၊ နေရာ။",
+    "th": "いくら〜ても: ไม่ว่าจะ ~ เท่าใด. 行方: ที่อยู่ ร่องรอย."
+   },
+   "vocab": [
+    {
+     "word": "行方",
+     "reading": "ゆくえ",
+     "level": "N2",
+     "meanings": {
+      "vi": "tung tích",
+      "en": "whereabouts",
+      "zh-Hans": "下落",
+      "zh-Hant": "下落",
+      "ko": "행방",
+      "tl": "kinaroroonan",
+      "ne": "अत्तोपत्तो",
+      "id": "keberadaan",
+      "pt": "paradeiro",
+      "my": "နေရာသတင်း",
+      "th": "ร่องรอย ที่อยู่"
+     }
+    }
+   ],
+   "t": [
+    271.31,
+    276.81
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=271.31,276.81"
+  },
+  {
+   "ja": "長い旅の末に、厨子王は、ある村はずれの畑にたどり着きました。",
+   "furigana": [
+    {
+     "surface": "長",
+     "reading": "なが"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "旅",
+     "reading": "たび"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "末",
+     "reading": "すえ"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "は、ある",
+     "reading": ""
+    },
+    {
+     "surface": "村",
+     "reading": "むら"
+    },
+    {
+     "surface": "はずれの",
+     "reading": ""
+    },
+    {
+     "surface": "畑",
+     "reading": "はたけ"
+    },
+    {
+     "surface": "にたどり",
+     "reading": ""
+    },
+    {
+     "surface": "着",
+     "reading": "つ"
+    },
+    {
+     "surface": "きました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nagai tabi no sue ni, Zushiou wa, aru mura hazure no hatake ni tadoritsukimashita.",
+   "translations": {
+    "vi": "Sau một chuyến đi dài, Zushiō đến một cánh ruộng ở rìa một ngôi làng.",
+    "en": "At the end of a long journey, Zushiō came to a field at the edge of a village.",
+    "zh-Hans": "经过漫长的旅途，厨子王终于来到了一个村子边上的田地。",
+    "zh-Hant": "經過漫長的旅途，廚子王終於來到了一個村子邊上的田地。",
+    "ko": "긴 여행 끝에 즈시오는 어느 마을 어귀의 밭에 다다랐습니다.",
+    "tl": "Sa dulo ng mahabang paglalakbay, narating ni Zushiō ang isang bukid sa gilid ng isang nayon.",
+    "ne": "लामो यात्रापछि जुशिओ एउटा गाउँको छेउको खेतमा पुग्यो।",
+    "id": "Setelah perjalanan panjang, Zushiō tiba di sebuah ladang di pinggir desa.",
+    "pt": "Depois de uma longa viagem, Zushiō chegou a um campo nos arredores de uma aldeia.",
+    "my": "ခရီးရှည်ကြီးအပြီးမှာ ဇူရှိအိုဟာ ရွာစွန်က လယ်ကွင်းတစ်ခုကို ရောက်လာပါတယ်။",
+    "th": "หลังการเดินทางอันยาวนาน ซูชิโอก็มาถึงไร่แห่งหนึ่งที่ชายหมู่บ้าน"
+   },
+   "grammarNote": {
+    "vi": "〜の末に: sau (một quá trình) ~. 村はずれ: rìa làng.",
+    "en": "〜の末に: at the end of ~. 村はずれ: edge of a village.",
+    "zh-Hans": "〜の末に: 经过～之后。村はずれ: 村边。",
+    "zh-Hant": "〜の末に: 經過～之後。村はずれ: 村邊。",
+    "ko": "〜の末に: ~끝에. 村はずれ: 마을 어귀.",
+    "tl": "〜の末に: sa dulo ng ~. 村はずれ: gilid ng nayon.",
+    "ne": "〜の末に: ~ पछि अन्ततः। 村はずれ: गाउँको छेउ।",
+    "id": "〜の末に: setelah ~ panjang. 村はずれ: pinggir desa.",
+    "pt": "〜の末に: depois de ~ (longo processo). 村はずれ: arredores da aldeia.",
+    "my": "〜の末に: ~ အပြီးမှာ။ 村はずれ: ရွာစွန်။",
+    "th": "〜の末に: หลังจาก ~ อันยาวนาน. 村はずれ: ชายหมู่บ้าน."
+   },
+   "vocab": [
+    {
+     "word": "旅",
+     "reading": "たび",
+     "level": "N3",
+     "meanings": {
+      "vi": "chuyến đi xa",
+      "en": "journey, travel",
+      "zh-Hans": "旅行",
+      "zh-Hant": "旅行",
+      "ko": "여행",
+      "tl": "paglalakbay",
+      "ne": "यात्रा",
+      "id": "perjalanan",
+      "pt": "viagem",
+      "my": "ခရီး",
+      "th": "การเดินทาง"
+     }
+    },
+    {
+     "word": "畑",
+     "reading": "はたけ",
+     "level": "N3",
+     "meanings": {
+      "vi": "ruộng, nương rẫy",
+      "en": "field, farm",
+      "zh-Hans": "旱田",
+      "zh-Hant": "旱田",
+      "ko": "밭",
+      "tl": "bukid",
+      "ne": "खेत",
+      "id": "ladang",
+      "pt": "campo, roça",
+      "my": "လယ်ယာ",
+      "th": "ไร่"
+     }
+    }
+   ],
+   "t": [
+    277.41,
+    282.5
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=277.41,282.5"
+  },
+  {
+   "ja": "畑では、目の見えないおばあさんが、鳥を追いながら歌を歌っていました。",
+   "furigana": [
+    {
+     "surface": "畑",
+     "reading": "はたけ"
+    },
+    {
+     "surface": "では、",
+     "reading": ""
+    },
+    {
+     "surface": "目",
+     "reading": "め"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "えないおばあさんが、",
+     "reading": ""
+    },
+    {
+     "surface": "鳥",
+     "reading": "とり"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "追",
+     "reading": "お"
+    },
+    {
+     "surface": "いながら",
+     "reading": ""
+    },
+    {
+     "surface": "歌",
+     "reading": "うた"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "歌",
+     "reading": "うた"
+    },
+    {
+     "surface": "っていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hatake de wa, me no mienai obaasan ga, tori o oi nagara uta o utatte imashita.",
+   "translations": {
+    "vi": "Trên ruộng, một bà lão mù vừa đuổi chim vừa hát.",
+    "en": "In the field, a blind old woman was singing as she chased away the birds.",
+    "zh-Hans": "田里，一位双目失明的老婆婆一边赶鸟一边唱着歌。",
+    "zh-Hant": "田裡，一位雙目失明的老婆婆一邊趕鳥一邊唱著歌。",
+    "ko": "밭에서는 눈먼 할머니가 새를 쫓으며 노래를 부르고 있었습니다.",
+    "tl": "Sa bukid, isang bulag na matandang babae ang kumakanta habang nagtataboy ng mga ibon.",
+    "ne": "खेतमा एक अन्धी बूढी चरा धपाउँदै गीत गाइरहेकी थिइन्।",
+    "id": "Di ladang itu, seorang nenek buta bernyanyi sambil mengusir burung.",
+    "pt": "No campo, uma velha cega cantava enquanto espantava os pássaros.",
+    "my": "လယ်ကွင်းထဲမှာ မျက်စိမမြင်တဲ့ အဘွားအိုတစ်ယောက်က ငှက်တွေကို မောင်းရင်း သီချင်းဆိုနေပါတယ်။",
+    "th": "ในไร่ หญิงชราตาบอดคนหนึ่งร้องเพลงพลางไล่นก"
+   },
+   "grammarNote": {
+    "vi": "目の見えない: mù. 鳥を追う: đuổi chim.",
+    "en": "目の見えない: blind. 鳥を追う: chase birds.",
+    "zh-Hans": "目の見えない: 失明的。鳥を追う: 赶鸟。",
+    "zh-Hant": "目の見えない: 失明的。鳥を追う: 趕鳥。",
+    "ko": "目の見えない: 눈먼. 鳥を追う: 새를 쫓다.",
+    "tl": "目の見えない: bulag. 鳥を追う: magtaboy ng ibon.",
+    "ne": "目の見えない: अन्धो। 鳥を追う: चरा धपाउनु।",
+    "id": "目の見えない: buta. 鳥を追う: mengusir burung.",
+    "pt": "目の見えない: cego. 鳥を追う: espantar pássaros.",
+    "my": "目の見えない: မျက်စိမမြင်။ 鳥を追う: ငှက်မောင်း။",
+    "th": "目の見えない: ตาบอด. 鳥を追う: ไล่นก."
+   },
+   "vocab": [
+    {
+     "word": "追う",
+     "reading": "おう",
+     "level": "N3",
+     "meanings": {
+      "vi": "đuổi theo",
+      "en": "to chase",
+      "zh-Hans": "追",
+      "zh-Hant": "追",
+      "ko": "쫓다",
+      "tl": "habulin",
+      "ne": "पछ्याउनु",
+      "id": "mengejar",
+      "pt": "perseguir",
+      "my": "လိုက်သည်",
+      "th": "ไล่ตาม"
+     }
+    }
+   ],
+   "t": [
+    283.1,
+    289.7
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=283.1,289.7"
+  },
+  {
+   "ja": "安寿恋しや、ほうやれほ。厨子王恋しや、ほうやれほ。",
+   "furigana": [
+    {
+     "surface": "安寿",
+     "reading": "あんじゅ"
+    },
+    {
+     "surface": "恋",
+     "reading": "こい"
+    },
+    {
+     "surface": "しや、ほうやれほ。",
+     "reading": ""
+    },
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "恋",
+     "reading": "こい"
+    },
+    {
+     "surface": "しや、ほうやれほ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Anju koishi ya, hou yare ho. Zushiou koishi ya, hou yare ho.",
+   "translations": {
+    "vi": "Nhớ Anju quá, hô-ya-rê-hô. Nhớ Zushiō quá, hô-ya-rê-hô.",
+    "en": "Oh, how I miss Anju, hōyare-ho. Oh, how I miss Zushiō, hōyare-ho.",
+    "zh-Hans": "安寿啊我想你，霍呀咧霍。厨子王啊我想你，霍呀咧霍。",
+    "zh-Hant": "安壽啊我想你，霍呀咧霍。廚子王啊我想你，霍呀咧霍。",
+    "ko": "안주가 그리워라, 호야레호. 즈시오가 그리워라, 호야레호.",
+    "tl": "Sabik ako kay Anju, hōyare-ho. Sabik ako kay Zushiō, hōyare-ho.",
+    "ne": "आन्जुको याद आयो, होयारेहो। जुशिओको याद आयो, होयारेहो।",
+    "id": "Rindu Anju, hōyare-ho. Rindu Zushiō, hōyare-ho.",
+    "pt": "Que saudade de Anju, hōyare-ho. Que saudade de Zushiō, hōyare-ho.",
+    "my": "အန်ဂျူကို လွမ်းလိုက်တာ၊ ဟိုယာရဲဟို။ ဇူရှိအိုကို လွမ်းလိုက်တာ၊ ဟိုယာရဲဟို။",
+    "th": "คิดถึงอันจูเหลือเกิน โฮยาเระโฮ คิดถึงซูชิโอเหลือเกิน โฮยาเระโฮ"
+   },
+   "grammarNote": {
+    "vi": "恋しや: nhớ thương (cổ). ほうやれほ: tiếng đuổi chim.",
+    "en": "恋しや: how I miss (archaic). ほうやれほ: call to scare birds.",
+    "zh-Hans": "恋しや: 好想念（古语）。ほうやれほ: 赶鸟的吆喝声。",
+    "zh-Hant": "恋しや: 好想念（古語）。ほうやれほ: 趕鳥的吆喝聲。",
+    "ko": "恋しや: 그리워라(옛말). ほうやれほ: 새 쫓는 소리.",
+    "tl": "恋しや: nananabik (luma). ほうやれほ: sigaw pantaboy ng ibon.",
+    "ne": "恋しや: याद आयो (पुरानो)। ほうやれほ: चरा धपाउने आवाज।",
+    "id": "恋しや: rindu (kuno). ほうやれほ: seruan pengusir burung.",
+    "pt": "恋しや: que saudade (arcaico). ほうやれほ: grito para espantar pássaros.",
+    "my": "恋しや: လွမ်းလိုက်တာ (ရှေးစကား)။ ほうやれほ: ငှက်မောင်းသံ။",
+    "th": "恋しや: คิดถึงเหลือเกิน (โบราณ). ほうやれほ: เสียงไล่นก."
+   },
+   "vocab": [
+    {
+     "word": "恋しい",
+     "reading": "こいしい",
+     "level": "N2",
+     "meanings": {
+      "vi": "nhớ thương",
+      "en": "missed, longed for",
+      "zh-Hans": "怀念；想念",
+      "zh-Hant": "懷念；想念",
+      "ko": "그립다",
+      "tl": "nananabik",
+      "ne": "याद आउने",
+      "id": "rindu",
+      "pt": "saudoso",
+      "my": "လွမ်း",
+      "th": "คิดถึง"
+     }
+    }
+   ],
+   "t": [
+    290.6,
+    294.84
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=290.6,294.84"
+  },
+  {
+   "ja": "その声を聞いたとたん、厨子王の胸は、どきんと鳴りました。",
+   "furigana": [
+    {
+     "surface": "その",
+     "reading": ""
+    },
+    {
+     "surface": "声",
+     "reading": "こえ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "いたとたん、",
+     "reading": ""
+    },
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "胸",
+     "reading": "むね"
+    },
+    {
+     "surface": "は、どきんと",
+     "reading": ""
+    },
+    {
+     "surface": "鳴",
+     "reading": "な"
+    },
+    {
+     "surface": "りました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono koe o kiita totan, Zushiou no mune wa, dokinto narimashita.",
+   "translations": {
+    "vi": "Vừa nghe tiếng hát ấy, tim Zushiō đập thình thịch.",
+    "en": "The moment he heard that voice, Zushiō's heart leapt.",
+    "zh-Hans": "一听到那歌声，厨子王的心猛地一跳。",
+    "zh-Hant": "一聽到那歌聲，廚子王的心猛地一跳。",
+    "ko": "그 목소리를 듣자마자 즈시오의 가슴이 쿵 하고 울렸습니다.",
+    "tl": "Pagkarinig na pagkarinig sa tinig na iyon, kumabog ang dibdib ni Zushiō.",
+    "ne": "त्यो आवाज सुन्नेबित्तिकै जुशिओको मुटु ढुकढुक गर्यो।",
+    "id": "Begitu mendengar suara itu, jantung Zushiō berdegup kencang.",
+    "pt": "No instante em que ouviu aquela voz, o coração de Zushiō disparou.",
+    "my": "အဲဒီအသံကို ကြားလိုက်တာနဲ့ ဇူရှိအိုရဲ့ နှလုံးဟာ ဒိတ်ခနဲ ခုန်သွားပါတယ်။",
+    "th": "พอได้ยินเสียงนั้น หัวใจของซูชิโอก็เต้นตึกตัก"
+   },
+   "grammarNote": {
+    "vi": "〜たとたん: vừa ~ thì. どきん: thình thịch.",
+    "en": "〜たとたん: the moment ~. どきん: thump.",
+    "zh-Hans": "〜たとたん: 刚一～就。どきん: 怦地一跳。",
+    "zh-Hant": "〜たとたん: 剛一～就。どきん: 怦地一跳。",
+    "ko": "〜たとたん: ~하자마자. どきん: 쿵.",
+    "tl": "〜たとたん: pagka-~ na pagka-~. どきん: kabog.",
+    "ne": "〜たとたん: ~ नेबित्तिकै। どきん: ढुकढुक।",
+    "id": "〜たとたん: begitu ~. どきん: degup.",
+    "pt": "〜たとたん: no instante em que ~. どきん: disparar (coração).",
+    "my": "〜たとたん: ~ လိုက်တာနဲ့။ どきん: ဒိတ်ခနဲ။",
+    "th": "〜たとたん: พอ ~ ทันใด. どきん: ตึกตัก."
+   },
+   "vocab": [
+    {
+     "word": "胸",
+     "reading": "むね",
+     "level": "N3",
+     "meanings": {
+      "vi": "ngực, lồng ngực, trái tim",
+      "en": "chest; heart",
+      "zh-Hans": "胸；心",
+      "zh-Hant": "胸；心",
+      "ko": "가슴",
+      "tl": "dibdib",
+      "ne": "छाती, मुटु",
+      "id": "dada, hati",
+      "pt": "peito",
+      "my": "ရင်",
+      "th": "อก หัวใจ"
+     }
+    }
+   ],
+   "t": [
+    295.74,
+    300.74
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=295.74,300.74"
+  },
+  {
+   "ja": "お母さん！ わたしです！ 厨子王です！",
+   "furigana": [
+    {
+     "surface": "お",
+     "reading": ""
+    },
+    {
+     "surface": "母",
+     "reading": "かあ"
+    },
+    {
+     "surface": "さん！ わたしです！ ",
+     "reading": ""
+    },
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "です！",
+     "reading": ""
+    }
+   ],
+   "romaji": "Okaasan! Watashi desu! Zushiou desu!",
+   "translations": {
+    "vi": "Mẹ ơi! Là con đây! Là Zushiō đây!",
+    "en": "Mother! It's me! It's Zushiō!",
+    "zh-Hans": "妈妈！是我！是厨子王啊！",
+    "zh-Hant": "媽媽！是我！是廚子王啊！",
+    "ko": "어머니! 저예요! 즈시오예요!",
+    "tl": "Nanay! Ako po ito! Si Zushiō po!",
+    "ne": "आमा! म हुँ! जुशिओ हुँ!",
+    "id": "Ibu! Ini aku! Ini Zushiō!",
+    "pt": "Mãe! Sou eu! Sou o Zushiō!",
+    "my": "အမေ! ကျွန်တော်ပါ! ဇူရှိအိုပါ!",
+    "th": "แม่! ข้าเอง! ข้าซูชิโอ!"
+   },
+   "grammarNote": {
+    "vi": "わたしです: là con đây.",
+    "en": "わたしです: it's me.",
+    "zh-Hans": "わたしです: 是我。",
+    "zh-Hant": "わたしです: 是我。",
+    "ko": "わたしです: 저예요.",
+    "tl": "わたしです: ako ito.",
+    "ne": "わたしです: म हुँ।",
+    "id": "わたしです: ini aku.",
+    "pt": "わたしです: sou eu.",
+    "my": "わたしです: ကျွန်တော်ပါ။",
+    "th": "わたしです: ข้าเอง."
+   },
+   "vocab": [],
+   "t": [
+    301.64,
+    303.82
+   ],
+   "voice": "ja-JP-Neural2-C",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=301.64,303.82"
+  },
+  {
+   "ja": "厨子王？ うそでしょう。わたしの子どもたちは、もういないのです。",
+   "furigana": [
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "？ うそでしょう。わたしの",
+     "reading": ""
+    },
+    {
+     "surface": "子",
+     "reading": "こ"
+    },
+    {
+     "surface": "どもたちは、もういないのです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Zushiou? Uso deshou. Watashi no kodomotachi wa, mou inai no desu.",
+   "translations": {
+    "vi": "Zushiō ư? Không thể nào. Các con tôi không còn nữa rồi.",
+    "en": "Zushiō? It can't be. My children are gone.",
+    "zh-Hans": "厨子王？不会吧。我的孩子们，早就不在了。",
+    "zh-Hant": "廚子王？不會吧。我的孩子們，早就不在了。",
+    "ko": "즈시오라고? 그럴 리가. 내 아이들은 이제 없는데.",
+    "tl": "Zushiō? Hindi maaari. Wala na ang mga anak ko.",
+    "ne": "जुशिओ? हुनै सक्दैन। मेरा छोराछोरी त अब छैनन्।",
+    "id": "Zushiō? Tidak mungkin. Anak-anakku sudah tiada.",
+    "pt": "Zushiō? Não pode ser. Meus filhos já não existem.",
+    "my": "ဇူရှိအို ဟုတ်လား။ မဖြစ်နိုင်ပါဘူး။ ကျွန်မရဲ့ ကလေးတွေ မရှိတော့ပါဘူး။",
+    "th": "ซูชิโอหรือ เป็นไปไม่ได้ ลูกๆ ของข้าไม่อยู่แล้ว"
+   },
+   "grammarNote": {
+    "vi": "うそでしょう: không thể nào.",
+    "en": "うそでしょう: it can't be.",
+    "zh-Hans": "うそでしょう: 不会吧。",
+    "zh-Hant": "うそでしょう: 不會吧。",
+    "ko": "うそでしょう: 그럴 리가.",
+    "tl": "うそでしょう: hindi maaari.",
+    "ne": "うそでしょう: हुनै सक्दैन।",
+    "id": "うそでしょう: tidak mungkin.",
+    "pt": "うそでしょう: não pode ser.",
+    "my": "うそでしょう: မဖြစ်နိုင်။",
+    "th": "うそでしょう: เป็นไปไม่ได้."
+   },
+   "vocab": [],
+   "t": [
+    304.72,
+    309.62
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=304.72,309.62"
+  },
+  {
+   "ja": "厨子王は、首のお守りを取り出して、母の目にそっと当てました。",
+   "furigana": [
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "首",
+     "reading": "くび"
+    },
+    {
+     "surface": "のお",
+     "reading": ""
+    },
+    {
+     "surface": "守",
+     "reading": "まも"
+    },
+    {
+     "surface": "りを",
+     "reading": ""
+    },
+    {
+     "surface": "取",
+     "reading": "と"
+    },
+    {
+     "surface": "り",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "だ"
+    },
+    {
+     "surface": "して、",
+     "reading": ""
+    },
+    {
+     "surface": "母",
+     "reading": "はは"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "目",
+     "reading": "め"
+    },
+    {
+     "surface": "にそっと",
+     "reading": ""
+    },
+    {
+     "surface": "当",
+     "reading": "あ"
+    },
+    {
+     "surface": "てました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Zushiou wa, kubi no omamori o toridashite, haha no me ni sotto atemashita.",
+   "translations": {
+    "vi": "Zushiō lấy lá bùa ra, nhẹ nhàng áp lên mắt mẹ.",
+    "en": "Zushiō took out the amulet and gently touched it to his mother's eyes.",
+    "zh-Hans": "厨子王取出护身符，轻轻地贴在母亲的眼睛上。",
+    "zh-Hant": "廚子王取出護身符，輕輕地貼在母親的眼睛上。",
+    "ko": "즈시오는 부적을 꺼내 어머니의 눈에 살며시 대었습니다.",
+    "tl": "Inilabas ni Zushiō ang anting-anting at marahang idinampi sa mga mata ng ina.",
+    "ne": "जुशिओले ताबिज निकालेर आमाका आँखामा बिस्तारै छुवायो।",
+    "id": "Zushiō mengeluarkan jimat dan menempelkannya pelan ke mata ibunya.",
+    "pt": "Zushiō tirou o amuleto e o encostou de leve nos olhos da mãe.",
+    "my": "ဇူရှိအိုက အဆောင်ကို ထုတ်ပြီး အမေ့မျက်လုံးကို ညင်ညင်သာသာ ထိပေးပါတယ်။",
+    "th": "ซูชิโอหยิบเครื่องรางออกมา แตะที่ตาของแม่อย่างเบามือ"
+   },
+   "grammarNote": {
+    "vi": "取り出す: lấy ra. 当てる: áp vào.",
+    "en": "取り出す: take out. 当てる: put against.",
+    "zh-Hans": "取り出す: 取出。当てる: 贴上。",
+    "zh-Hant": "取り出す: 取出。当てる: 貼上。",
+    "ko": "取り出す: 꺼내다. 当てる: 대다.",
+    "tl": "取り出す: ilabas. 当てる: idampi.",
+    "ne": "取り出す: निकाल्नु। 当てる: छुवाउनु।",
+    "id": "取り出す: mengeluarkan. 当てる: menempelkan.",
+    "pt": "取り出す: tirar. 当てる: encostar.",
+    "my": "取り出す: ထုတ်။ 当てる: ထိ။",
+    "th": "取り出す: หยิบออกมา. 当てる: แตะ."
+   },
+   "vocab": [
+    {
+     "word": "取り出す",
+     "reading": "とりだす",
+     "level": "N2",
+     "meanings": {
+      "vi": "lấy ra",
+      "en": "to take out",
+      "zh-Hans": "取出",
+      "zh-Hant": "取出",
+      "ko": "꺼내다",
+      "tl": "ilabas",
+      "ne": "निकाल्नु",
+      "id": "mengeluarkan",
+      "pt": "tirar",
+      "my": "ထုတ်ယူသည်",
+      "th": "หยิบออกมา"
+     }
+    },
+    {
+     "word": "そっと",
+     "reading": "そっと",
+     "level": "N3",
+     "meanings": {
+      "vi": "nhẹ nhàng, lặng lẽ",
+      "en": "quietly, gently",
+      "zh-Hans": "悄悄地",
+      "zh-Hant": "悄悄地",
+      "ko": "살며시",
+      "tl": "tahimik",
+      "ne": "चुपचाप",
+      "id": "diam-diam",
+      "pt": "em silêncio",
+      "my": "တိတ်တိတ်လေး",
+      "th": "เบาๆ เงียบๆ"
+     }
+    },
+    {
+     "word": "当てる",
+     "reading": "あてる",
+     "level": "N3",
+     "meanings": {
+      "vi": "áp vào, chạm vào; đoán trúng",
+      "en": "to put against; to hit, guess",
+      "zh-Hans": "贴上；猜中",
+      "zh-Hant": "貼上；猜中",
+      "ko": "대다; 맞히다",
+      "tl": "ilapat; hulaan nang tama",
+      "ne": "लगाउनु; अड्कल मिलाउनु",
+      "id": "menempelkan; menebak",
+      "pt": "encostar; acertar",
+      "my": "ထိသည်၊ မှန်းဆမိသည်",
+      "th": "แตะ, จ่อ; ทายถูก"
+     }
+    }
+   ],
+   "t": [
+    310.52,
+    315.57
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=310.52,315.57"
+  },
+  {
+   "ja": "すると、不思議なことに、母の目が、少しずつ開いていきました。",
+   "furigana": [
+    {
+     "surface": "すると、",
+     "reading": ""
+    },
+    {
+     "surface": "不思議",
+     "reading": "ふしぎ"
+    },
+    {
+     "surface": "なことに、",
+     "reading": ""
+    },
+    {
+     "surface": "母",
+     "reading": "はは"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "目",
+     "reading": "め"
+    },
+    {
+     "surface": "が、",
+     "reading": ""
+    },
+    {
+     "surface": "少",
+     "reading": "すこ"
+    },
+    {
+     "surface": "しずつ",
+     "reading": ""
+    },
+    {
+     "surface": "開",
+     "reading": "ひら"
+    },
+    {
+     "surface": "いていきました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Suruto, fushigi na koto ni, haha no me ga, sukoshi zutsu hiraite ikimashita.",
+   "translations": {
+    "vi": "Thế rồi, thật kỳ lạ, đôi mắt mẹ dần dần mở ra.",
+    "en": "Then, wondrously, his mother's eyes slowly opened.",
+    "zh-Hans": "于是，不可思议的是，母亲的眼睛一点点地睁开了。",
+    "zh-Hant": "於是，不可思議的是，母親的眼睛一點點地睜開了。",
+    "ko": "그러자 신기하게도 어머니의 눈이 조금씩 뜨이기 시작했습니다.",
+    "tl": "At kahanga-hanga, unti-unting dumilat ang mga mata ng ina.",
+    "ne": "अनि अचम्मसँग आमाका आँखा बिस्तारै खुल्न थाले।",
+    "id": "Lalu, ajaibnya, mata sang ibu sedikit demi sedikit terbuka.",
+    "pt": "Então, maravilhosamente, os olhos da mãe foram se abrindo pouco a pouco.",
+    "my": "ဒီတော့ အံ့ဩစရာကောင်းစွာ အမေ့မျက်လုံးတွေဟာ တဖြည်းဖြည်း ပွင့်လာပါတယ်။",
+    "th": "แล้วอย่างน่าอัศจรรย์ ดวงตาของแม่ก็ค่อยๆ ลืมขึ้น"
+   },
+   "grammarNote": {
+    "vi": "不思議: kỳ lạ. 少しずつ: dần dần.",
+    "en": "不思議: wondrous. 少しずつ: little by little.",
+    "zh-Hans": "不思議: 不可思议。少しずつ: 一点点。",
+    "zh-Hant": "不思議: 不可思議。少しずつ: 一點點。",
+    "ko": "不思議: 신기하다. 少しずつ: 조금씩.",
+    "tl": "不思議: kahanga-hanga, mahiwaga. 少しずつ: unti-unti.",
+    "ne": "不思議: अचम्मको। 少しずつ: बिस्तारै।",
+    "id": "不思議: ajaib. 少しずつ: sedikit demi sedikit.",
+    "pt": "不思議: maravilhoso, misterioso. 少しずつ: pouco a pouco.",
+    "my": "不思議: အံ့ဩစရာ။ 少しずつ: တဖြည်းဖြည်း။",
+    "th": "不思議: น่าอัศจรรย์. 少しずつ: ค่อยๆ."
+   },
+   "vocab": [
+    {
+     "word": "不思議",
+     "reading": "ふしぎ",
+     "level": "N3",
+     "meanings": {
+      "vi": "kỳ lạ, huyền bí",
+      "en": "strange, mysterious",
+      "zh-Hans": "不可思议",
+      "zh-Hant": "不可思議",
+      "ko": "신기함",
+      "tl": "kakaiba, misteryoso",
+      "ne": "अचम्म",
+      "id": "aneh, ajaib",
+      "pt": "estranho, misterioso",
+      "my": "ထူးဆန်းသော",
+      "th": "น่าแปลก"
+     }
+    }
+   ],
+   "t": [
+    316.17,
+    321.56
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=316.17,321.56"
+  },
+  {
+   "ja": "ああ、見える。厨子王、本当にあなたなのね。",
+   "furigana": [
+    {
+     "surface": "ああ、",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "える。",
+     "reading": ""
+    },
+    {
+     "surface": "厨子王",
+     "reading": "ずしおう"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "本当",
+     "reading": "ほんとう"
+    },
+    {
+     "surface": "にあなたなのね。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Aa, mieru. Zushiou, hontouni anata na no ne.",
+   "translations": {
+    "vi": "A, mẹ nhìn thấy rồi. Zushiō, đúng là con thật rồi.",
+    "en": "Oh, I can see. Zushiō, it really is you.",
+    "zh-Hans": "啊，看见了。厨子王，真的是你啊。",
+    "zh-Hant": "啊，看見了。廚子王，真的是你啊。",
+    "ko": "아아, 보인다. 즈시오, 정말 너로구나.",
+    "tl": "Ah, nakakakita na ako. Zushiō, ikaw nga talaga.",
+    "ne": "आहा, देखेँ। जुशिओ, साँच्चै तिमी नै हौ।",
+    "id": "Ah, aku bisa melihat. Zushiō, ternyata benar kau.",
+    "pt": "Ah, estou vendo. Zushiō, é você mesmo.",
+    "my": "အာ၊ မြင်ရပြီ။ ဇူရှိအို၊ တကယ်ပဲ သားပါလား။",
+    "th": "อา มองเห็นแล้ว ซูชิโอ เป็นเจ้าจริงๆ ด้วย"
+   },
+   "grammarNote": {
+    "vi": "見える: nhìn thấy được.",
+    "en": "見える: can see.",
+    "zh-Hans": "見える: 看得见。",
+    "zh-Hant": "見える: 看得見。",
+    "ko": "見える: 보이다.",
+    "tl": "見える: makakita.",
+    "ne": "見える: देख्नु।",
+    "id": "見える: bisa melihat.",
+    "pt": "見える: conseguir ver.",
+    "my": "見える: မြင်ရ။",
+    "th": "見える: มองเห็น."
+   },
+   "vocab": [],
+   "t": [
+    322.46,
+    326.04
+   ],
+   "voice": "ja-JP-Neural2-B",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=322.46,326.04"
+  },
+  {
+   "ja": "二人は、しっかりとだき合って、声をあげて泣きました。",
+   "furigana": [
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "は、しっかりとだき",
+     "reading": ""
+    },
+    {
+     "surface": "合",
+     "reading": "あ"
+    },
+    {
+     "surface": "って、",
+     "reading": ""
+    },
+    {
+     "surface": "声",
+     "reading": "こえ"
+    },
+    {
+     "surface": "をあげて",
+     "reading": ""
+    },
+    {
+     "surface": "泣",
+     "reading": "な"
+    },
+    {
+     "surface": "きました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Futari wa, shikkari to daki atte, koe o agete nakimashita.",
+   "translations": {
+    "vi": "Hai mẹ con ôm chặt lấy nhau, khóc thành tiếng.",
+    "en": "The two held each other tight and cried aloud.",
+    "zh-Hans": "母子俩紧紧相拥，放声大哭。",
+    "zh-Hant": "母子倆緊緊相擁，放聲大哭。",
+    "ko": "두 사람은 꼭 껴안고 소리 내어 울었습니다.",
+    "tl": "Mahigpit na nagyakap ang mag-ina at umiyak nang malakas.",
+    "ne": "आमाछोरा कसेर अँगालो हालेर ठूलो स्वरले रोए।",
+    "id": "Ibu dan anak itu berpelukan erat dan menangis keras.",
+    "pt": "Os dois se abraçaram com força e choraram alto.",
+    "my": "သားအမိနှစ်ယောက် တင်းတင်းဖက်ပြီး အသံထွက် ငိုကြပါတယ်။",
+    "th": "แม่ลูกกอดกันแน่นแล้วร้องไห้ออกมาดังๆ"
+   },
+   "grammarNote": {
+    "vi": "しっかり: chặt. 声をあげて: thành tiếng.",
+    "en": "しっかり: tightly. 声をあげて: aloud.",
+    "zh-Hans": "しっかり: 紧紧地。声をあげて: 放声。",
+    "zh-Hant": "しっかり: 緊緊地。声をあげて: 放聲。",
+    "ko": "しっかり: 꼭. 声をあげて: 소리 내어.",
+    "tl": "しっかり: mahigpit. 声をあげて: nang malakas.",
+    "ne": "しっかり: कसेर। 声をあげて: ठूलो स्वरले।",
+    "id": "しっかり: erat. 声をあげて: keras-keras.",
+    "pt": "しっかり: com força. 声をあげて: alto.",
+    "my": "しっかり: တင်းတင်း။ 声をあげて: အသံထွက်။",
+    "th": "しっかり: แน่น. 声をあげて: ดังๆ."
+   },
+   "vocab": [],
+   "t": [
+    326.94,
+    331.08
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=326.94,331.08"
+  },
+  {
+   "ja": "遠い海の向こうで、安寿も、きっとほほえんでいたことでしょう。",
+   "furigana": [
+    {
+     "surface": "遠",
+     "reading": "とお"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "海",
+     "reading": "うみ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "向",
+     "reading": "む"
+    },
+    {
+     "surface": "こうで、",
+     "reading": ""
+    },
+    {
+     "surface": "安寿",
+     "reading": "あんじゅ"
+    },
+    {
+     "surface": "も、きっとほほえんでいたことでしょう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tooi umi no mukou de, Anju mo, kitto hohoende ita koto deshou.",
+   "translations": {
+    "vi": "Ở bên kia biển xa, hẳn Anju cũng đang mỉm cười.",
+    "en": "Far across the sea, Anju too must have been smiling.",
+    "zh-Hans": "在遥远的海那边，安寿想必也在微笑吧。",
+    "zh-Hant": "在遙遠的海那邊，安壽想必也在微笑吧。",
+    "ko": "먼 바다 저편에서 안주도 분명 미소 짓고 있었겠지요.",
+    "tl": "Sa malayong kabila ng dagat, siguradong nakangiti rin si Anju.",
+    "ne": "टाढा समुद्रपारि आन्जु पनि पक्कै मुस्कुराइरहेकी थिइन् होला।",
+    "id": "Jauh di seberang laut, Anju pun pasti sedang tersenyum.",
+    "pt": "Do outro lado do mar distante, Anju também devia estar sorrindo.",
+    "my": "ဝေးလံတဲ့ ပင်လယ်တစ်ဖက်မှာ အန်ဂျူလည်း ပြုံးနေမှာ သေချာပါတယ်။",
+    "th": "ไกลออกไปอีกฟากทะเล อันจูก็คงยิ้มอยู่เช่นกัน"
+   },
+   "grammarNote": {
+    "vi": "〜ことでしょう: hẳn là ~. ほほえむ: mỉm cười.",
+    "en": "〜ことでしょう: must have ~. ほほえむ: smile.",
+    "zh-Hans": "〜ことでしょう: 想必～吧。ほほえむ: 微笑。",
+    "zh-Hant": "〜ことでしょう: 想必～吧。ほほえむ: 微笑。",
+    "ko": "〜ことでしょう: ~했겠지요. ほほえむ: 미소 짓다.",
+    "tl": "〜ことでしょう: siguradong ~. ほほえむ: ngumiti.",
+    "ne": "〜ことでしょう: पक्कै ~ होला। ほほえむ: मुस्कुराउनु।",
+    "id": "〜ことでしょう: pasti ~. ほほえむ: tersenyum.",
+    "pt": "〜ことでしょう: devia estar ~. ほほえむ: sorrir.",
+    "my": "〜ことでしょう: ~ မှာ သေချာ။ ほほえむ: ပြုံး။",
+    "th": "〜ことでしょう: คงจะ ~. ほほえむ: ยิ้ม."
+   },
+   "vocab": [
+    {
+     "word": "ほほえむ",
+     "reading": "ほほえむ",
+     "level": "N3",
+     "meanings": {
+      "vi": "mỉm cười",
+      "en": "to smile",
+      "zh-Hans": "微笑",
+      "zh-Hant": "微笑",
+      "ko": "미소 짓다",
+      "tl": "ngumiti",
+      "ne": "मुस्कुराउनु",
+      "id": "tersenyum",
+      "pt": "sorrir",
+      "my": "ပြုံးသည်",
+      "th": "ยิ้ม"
+     }
+    }
+   ],
+   "t": [
+    331.68,
+    336.53
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=331.68,336.53"
+  },
+  {
+   "ja": "小さな地蔵様のお守りは、こうして、最後まで家族を守ったのでした。",
+   "furigana": [
+    {
+     "surface": "小",
+     "reading": "ちい"
+    },
+    {
+     "surface": "さな",
+     "reading": ""
+    },
+    {
+     "surface": "地蔵",
+     "reading": "じぞう"
+    },
+    {
+     "surface": "様",
+     "reading": "さま"
+    },
+    {
+     "surface": "のお",
+     "reading": ""
+    },
+    {
+     "surface": "守",
+     "reading": "まも"
+    },
+    {
+     "surface": "りは、こうして、",
+     "reading": ""
+    },
+    {
+     "surface": "最後",
+     "reading": "さいご"
+    },
+    {
+     "surface": "まで",
+     "reading": ""
+    },
+    {
+     "surface": "家族",
+     "reading": "かぞく"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "守",
+     "reading": "まも"
+    },
+    {
+     "surface": "ったのでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Chiisana jizousama no omamori wa, koushite, saigo made kazoku o mamotta no deshita.",
+   "translations": {
+    "vi": "Lá bùa Jizō nhỏ bé cứ thế che chở gia đình cho đến tận cuối cùng.",
+    "en": "And so the little Jizō amulet protected the family to the very end.",
+    "zh-Hans": "小小的地藏护身符，就这样一直守护着这一家人，直到最后。",
+    "zh-Hant": "小小的地藏護身符，就這樣一直守護著這一家人，直到最後。",
+    "ko": "작은 지장보살 부적은 이렇게 끝까지 가족을 지켜 주었습니다.",
+    "tl": "At ganoon, ang maliit na anting-anting ni Jizō ay nagprotekta sa pamilya hanggang sa huli.",
+    "ne": "यसरी सानो जिजोको ताबिजले अन्त्यसम्मै परिवारको रक्षा गर्यो।",
+    "id": "Begitulah, jimat Jizō yang kecil itu melindungi keluarga itu sampai akhir.",
+    "pt": "E assim o pequeno amuleto de Jizō protegeu a família até o fim.",
+    "my": "ဒီလိုနဲ့ ဂျီဇိုအဆောင်လေးဟာ နောက်ဆုံးအထိ မိသားစုကို စောင့်ရှောက်ပေးခဲ့ပါတော့တယ်။",
+    "th": "เครื่องรางพระจิโซองค์น้อยจึงคุ้มครองครอบครัวไว้จนถึงที่สุดเช่นนี้"
+   },
+   "grammarNote": {
+    "vi": "こうして: cứ thế. 最後まで: đến cuối cùng.",
+    "en": "こうして: in this way. 最後まで: to the end.",
+    "zh-Hans": "こうして: 就这样。最後まで: 直到最后。",
+    "zh-Hant": "こうして: 就這樣。最後まで: 直到最後。",
+    "ko": "こうして: 이렇게. 最後まで: 끝까지.",
+    "tl": "こうして: sa ganitong paraan. 最後まで: hanggang sa huli.",
+    "ne": "こうして: यसरी। 最後まで: अन्त्यसम्मै।",
+    "id": "こうして: begitulah. 最後まで: sampai akhir.",
+    "pt": "こうして: assim. 最後まで: até o fim.",
+    "my": "こうして: ဒီလိုနဲ့။ 最後まで: နောက်ဆုံးအထိ။",
+    "th": "こうして: เช่นนี้. 最後まで: จนถึงที่สุด."
+   },
+   "vocab": [],
+   "t": [
+    337.13,
+    343.12
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "audio": "/audio/mukashi-anju-zushio-2/chapter.mp3#t=337.13,343.12"
+  }
+ ]
+}

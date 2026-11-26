@@ -1,0 +1,66 @@
+{
+ "id": "mukashi-hanasaka",
+ "level": "N3",
+ "topic": "folktale",
+ "source": "original",
+ "free": false,
+ "legal": "truyện cổ tích dân gian Nhật Bản 花咲かじいさん (lưu truyền từ trước thời Edo, khuyết danh, phạm vi công cộng). Bản kể do Claude tự viết bằng tiếng Nhật phân cấp, kể nhẹ nhàng đoạn chú chó chết, không chép câu chữ của bản in hay sách tranh nào.",
+ "voices": {
+  "N": {
+   "role": "người kể",
+   "voice": "Chirp3-HD-Aoede rate=0.9"
+  },
+  "O": {
+   "role": "ông lão thật thà",
+   "voice": "Neural2-C rate=0.85 pitch=-7"
+  },
+  "B": {
+   "role": "bà lão thật thà",
+   "voice": "Neural2-B rate=0.9 pitch=-4"
+  },
+  "I": {
+   "role": "ông hàng xóm tham lam",
+   "voice": "Neural2-C rate=1.05 pitch=-12"
+  },
+  "S": {
+   "role": "chú chó Shiro",
+   "voice": "Neural2-C rate=1.05 pitch=6"
+  },
+  "K": {
+   "role": "quan hầu",
+   "voice": "Neural2-C rate=1.0 pitch=-3"
+  },
+  "T": {
+   "role": "lãnh chúa",
+   "voice": "Neural2-C rate=0.82 pitch=-9"
+  }
+ },
+ "names": [
+  "シロ"
+ ],
+ "skipVocab": [
+  "うわる"
+ ],
+ "cover": {
+  "ja": "花咲かじいさん",
+  "jsub": "日本の昔話",
+  "motif": "sun",
+  "font": "Kaisei Opti",
+  "shelf": "日本の昔話",
+  "title": "The Old Man Who Made Flowers Bloom"
+ },
+ "titles": {
+  "vi": "Ông lão làm hoa nở — Chú chó Shiro",
+  "en": "The Old Man Who Made Flowers Bloom — Shiro the Dog",
+  "zh-Hans": "开花爷爷——小白狗",
+  "zh-Hant": "開花爺爺——小白狗",
+  "ko": "꽃 피우는 할아버지 — 흰둥이 시로",
+  "tl": "Ang Lolong Nagpapamukadkad ng Bulaklak — Si Shiro",
+  "ne": "फूल फुलाउने बाजे — कुकुर सिरो",
+  "id": "Kakek Pemekar Bunga — Anjing Shiro",
+  "pt": "O Velho que Fazia as Flores Desabrocharem — O Cão Shiro",
+  "my": "ပန်းပွင့်စေသော အဘိုး — ခွေးလေး ရှိရို",
+  "th": "คุณตาทำดอกไม้บาน — เจ้าหมาชิโระ"
+ },
+ "shelf": "folktale-jp"
+}

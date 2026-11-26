@@ -22,6 +22,23 @@ import bcMukashiShuten1 from "../../content/stories/mukashi-shuten-1.json";
 import bcMukashiShuten2 from "../../content/stories/mukashi-shuten-2.json";
 import bcMukashiUshiwaka1 from "../../content/stories/mukashi-ushiwaka-1.json";
 import bcMukashiUshiwaka2 from "../../content/stories/mukashi-ushiwaka-2.json";
+import bcRakugoShinigami1 from "../../content/stories/rakugo-shinigami-1.json";
+import bcRakugoShinigami2 from "../../content/stories/rakugo-shinigami-2.json";
+import bcRakugoTenshiki from "../../content/stories/rakugo-tenshiki.json";
+import bcRakugoHirabayashi from "../../content/stories/rakugo-hirabayashi.json";
+import bcRakugoDoguya from "../../content/stories/rakugo-doguya.json";
+import bcRakugoInuNoMe from "../../content/stories/rakugo-inu-no-me.json";
+import bcRakugoKinmeichiku from "../../content/stories/rakugo-kinmeichiku.json";
+import bcMukashiMomotaro1 from "../../content/stories/mukashi-momotaro-1.json";
+import bcMukashiMomotaro2 from "../../content/stories/mukashi-momotaro-2.json";
+import bcMukashiYukiOnna1 from "../../content/stories/mukashi-yuki-onna-1.json";
+import bcMukashiYukiOnna2 from "../../content/stories/mukashi-yuki-onna-2.json";
+import bcMukashiAnjuZushio1 from "../../content/stories/mukashi-anju-zushio-1.json";
+import bcMukashiAnjuZushio2 from "../../content/stories/mukashi-anju-zushio-2.json";
+import bcMukashiShitakiri from "../../content/stories/mukashi-shitakiri.json";
+import bcMukashiHanasaka from "../../content/stories/mukashi-hanasaka.json";
+import bcMukashiKintaro from "../../content/stories/mukashi-kintaro.json";
+import bcMukashiKasajizo from "../../content/stories/mukashi-kasajizo.json";
 // --- hết kệ B/C: import ---
 import video1 from "../../content/videos/teppei-genki-01.json";
 import video2 from "../../content/videos/teppei-study-how-long.json";
@@ -800,6 +817,23 @@ export const STORIES: StoryContent[] = [
   bcMukashiShuten2 as unknown as StoryContent,
   bcMukashiUshiwaka1 as unknown as StoryContent,
   bcMukashiUshiwaka2 as unknown as StoryContent,
+  bcRakugoShinigami1 as unknown as StoryContent,
+  bcRakugoShinigami2 as unknown as StoryContent,
+  bcRakugoTenshiki as unknown as StoryContent,
+  bcRakugoHirabayashi as unknown as StoryContent,
+  bcRakugoDoguya as unknown as StoryContent,
+  bcRakugoInuNoMe as unknown as StoryContent,
+  bcRakugoKinmeichiku as unknown as StoryContent,
+  bcMukashiMomotaro1 as unknown as StoryContent,
+  bcMukashiMomotaro2 as unknown as StoryContent,
+  bcMukashiYukiOnna1 as unknown as StoryContent,
+  bcMukashiYukiOnna2 as unknown as StoryContent,
+  bcMukashiAnjuZushio1 as unknown as StoryContent,
+  bcMukashiAnjuZushio2 as unknown as StoryContent,
+  bcMukashiShitakiri as unknown as StoryContent,
+  bcMukashiHanasaka as unknown as StoryContent,
+  bcMukashiKintaro as unknown as StoryContent,
+  bcMukashiKasajizo as unknown as StoryContent,
   // --- hết kệ B/C ---
   story1 as unknown as StoryContent,
   story2 as unknown as StoryContent,
