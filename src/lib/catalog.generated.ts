@@ -32,6 +32,9 @@ export interface StoryIndexItem {
   shelf?: StoryContent["shelf"];
   origin?: string;
   audioTrack?: AudioTrack;
+  /** Gói cũ đã có bản v2 thay thế: không hiện trong kệ/danh sách, trang đọc vẫn mở được */
+  hidden?: true;
+  replacedBy?: string;
 }
 
 export const VIDEO_INDEX: VideoIndexItem[] = [
@@ -2427,6 +2430,497 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "rakugo-shinigami-1",
+  "titles": {
+   "vi": "Thần chết (phần 1) — Câu thần chú của gã thầy thuốc dỏm",
+   "en": "Shinigami I — The Fake Doctor's Magic Spell",
+   "zh-Hans": "死神（上）——冒牌医生的咒语",
+   "zh-Hant": "死神（上）——冒牌醫生的咒語",
+   "ko": "사신 (상) — 가짜 의사의 주문",
+   "tl": "Shinigami I — Ang Orasyon ng Pekeng Doktor",
+   "ne": "शिनिगामी (भाग १) — नक्कली वैद्यको मन्त्र",
+   "id": "Shinigami I — Mantra Sang Tabib Gadungan",
+   "pt": "Shinigami I — A fórmula mágica do falso médico",
+   "my": "သေမင်း (၁) — ဆရာဝန်အတုရဲ့ မန္တန်",
+   "th": "ยมทูต ภาค 1 — คาถาของหมอเก๊"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 58,
+  "cover": "/covers/rakugo-shinigami-1.webp",
+  "series": {
+   "id": "rakugo-shinigami",
+   "index": 1
+  },
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-shinigami-1/chapter.mp3",
+   "durationSec": 337.85
+  }
+ },
+ {
+  "id": "rakugo-shinigami-2",
+  "titles": {
+   "vi": "Thần chết (phần 2) — Hang động của những ngọn nến",
+   "en": "Shinigami II — The Cave of Candles",
+   "zh-Hans": "死神（下）——蜡烛洞窟",
+   "zh-Hant": "死神（下）——蠟燭洞窟",
+   "ko": "사신 (하) — 촛불 동굴",
+   "tl": "Shinigami II — Ang Kuweba ng mga Kandila",
+   "ne": "शिनिगामी (भाग २) — मैनबत्तीहरूको गुफा",
+   "id": "Shinigami II — Gua Lilin-Lilin",
+   "pt": "Shinigami II — A caverna das velas",
+   "my": "သေမင်း (၂) — ဖယောင်းတိုင်တွေရဲ့ ဂူ",
+   "th": "ยมทูต ภาค 2 — ถ้ำแห่งเทียนชีวิต"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/rakugo-shinigami-2.webp",
+  "series": {
+   "id": "rakugo-shinigami",
+   "index": 2
+  },
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-shinigami-2/chapter.mp3",
+   "durationSec": 357.82
+  }
+ },
+ {
+  "id": "rakugo-tenshiki",
+  "titles": {
+   "vi": "Tenshiki — Hòa thượng giả vờ biết tuốt",
+   "en": "Tenshiki — The Priest Who Pretended to Know",
+   "zh-Hans": "转失气——不懂装懂的和尚",
+   "zh-Hant": "轉失氣——不懂裝懂的和尚",
+   "ko": "덴시키 — 아는 척한 스님",
+   "tl": "Tenshiki — Ang Paring Nagkunwaring Alam",
+   "ne": "तेन्शिकी — जान्ने बहाना गर्ने पुजारी",
+   "id": "Tenshiki — Biksu yang Sok Tahu",
+   "pt": "Tenshiki — O monge que fingia saber",
+   "my": "တန်ရှိကိ — သိချင်ယောင်ဆောင်တဲ့ ဘုန်းကြီး",
+   "th": "เท็นชิกิ — หลวงพ่อจอมทำเป็นรู้"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 62,
+  "cover": "/covers/rakugo-tenshiki.webp",
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-tenshiki/chapter.mp3",
+   "durationSec": 311.86
+  }
+ },
+ {
+  "id": "rakugo-hirabayashi",
+  "titles": {
+   "vi": "Hirabayashi — Một cái tên, bốn cách đọc",
+   "en": "Hirabayashi — One Name, Four Readings",
+   "zh-Hans": "平林——一个名字四种读法",
+   "zh-Hant": "平林——一個名字四種讀法",
+   "ko": "히라바야시 — 이름 하나, 읽는 법 넷",
+   "tl": "Hirabayashi — Isang Pangalan, Apat na Basa",
+   "ne": "हिराबायाशी — एउटा नाम, चार पढाइ",
+   "id": "Hirabayashi — Satu Nama, Empat Bacaan",
+   "pt": "Hirabayashi — Um nome, quatro leituras",
+   "my": "ဟိရာဘာယာရှိ — နာမည်တစ်ခု ဖတ်နည်းလေးမျိုး",
+   "th": "ฮิราบายาชิ — ชื่อเดียว อ่านได้สี่แบบ"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 62,
+  "cover": "/covers/rakugo-hirabayashi.webp",
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-hirabayashi/chapter.mp3",
+   "durationSec": 319.75
+  }
+ },
+ {
+  "id": "rakugo-doguya",
+  "titles": {
+   "vi": "Dōguya — Anh chàng bán đồ cũ thật thà quá mức",
+   "en": "Dōguya — The Too-Honest Junk Seller",
+   "zh-Hans": "道具屋——过分老实的旧货摊主",
+   "zh-Hant": "道具屋——過分老實的舊貨攤主",
+   "ko": "도구야 — 너무 정직한 고물 장수",
+   "tl": "Dōguya — Ang Sobrang Tapat na Tindero",
+   "ne": "दोगुया — धेरै इमानदार पुराना सामान बेच्ने",
+   "id": "Dōguya — Penjual Barang Bekas yang Terlalu Jujur",
+   "pt": "Dōguya — O vendedor de tralhas honesto demais",
+   "my": "ဒိုဂုယ — ရိုးလွန်းတဲ့ ပစ္စည်းဟောင်းရောင်းသူ",
+   "th": "โดกุยะ — พ่อค้าของเก่าผู้ซื่อเกินไป"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 62,
+  "cover": "/covers/rakugo-doguya.webp",
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-doguya/chapter.mp3",
+   "durationSec": 333.65
+  }
+ },
+ {
+  "id": "rakugo-inu-no-me",
+  "titles": {
+   "vi": "Inu no Me — Đôi mắt chó",
+   "en": "Inu no Me — The Dog's Eyes",
+   "zh-Hans": "狗眼——换了一双狗眼睛",
+   "zh-Hant": "狗眼——換了一雙狗眼睛",
+   "ko": "이누노메 — 개의 눈",
+   "tl": "Inu no Me — Ang Mata ng Aso",
+   "ne": "इनु नो मे — कुकुरको आँखा",
+   "id": "Inu no Me — Mata Anjing",
+   "pt": "Inu no Me — Os olhos do cachorro",
+   "my": "အိနုနိုမဲ — ခွေးမျက်လုံး",
+   "th": "อินุโนะเมะ — ดวงตาสุนัข"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 62,
+  "cover": "/covers/rakugo-inu-no-me.webp",
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-inu-no-me/chapter.mp3",
+   "durationSec": 348.05
+  }
+ },
+ {
+  "id": "rakugo-kinmeichiku",
+  "titles": {
+   "vi": "Kinmeichiku — Người đưa tin nói nhanh như gió",
+   "en": "Kinmeichiku — The Fast-Talking Messenger",
+   "zh-Hans": "金明竹——说话快如风的信使",
+   "zh-Hant": "金明竹——說話快如風的信使",
+   "ko": "긴메이치쿠 — 말이 바람처럼 빠른 심부름꾼",
+   "tl": "Kinmeichiku — Ang Mensaherong Mabilis Magsalita",
+   "ne": "किन्मेइचिकु — हावाजस्तै छिटो बोल्ने दूत",
+   "id": "Kinmeichiku — Utusan yang Bicara Secepat Angin",
+   "pt": "Kinmeichiku — O mensageiro que falava rápido demais",
+   "my": "ကင်မေချိခု — လေလို မြန်မြန်ပြောတဲ့ သတင်းပို့သူ",
+   "th": "คินเมจิกุ — คนส่งข่าวพูดเร็วปานลมพัด"
+  },
+  "level": "N3",
+  "topic": "rakugo",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 63,
+  "cover": "/covers/rakugo-kinmeichiku.webp",
+  "shelf": "rakugo",
+  "audioTrack": {
+   "src": "/audio/rakugo-kinmeichiku/chapter.mp3",
+   "durationSec": 354.05
+  }
+ },
+ {
+  "id": "mukashi-momotaro-1",
+  "titles": {
+   "vi": "Cậu bé quả đào (phần 1) — Ba người bạn và nắm bánh kibi",
+   "en": "Momotarō I — Three Friends and the Kibi Dumplings",
+   "zh-Hans": "桃太郎（上）——三个伙伴与黍米团子",
+   "zh-Hant": "桃太郎（上）——三個夥伴與黍米糰子",
+   "ko": "모모타로 (상) — 세 친구와 기비당고",
+   "tl": "Momotarō I — Tatlong Kaibigan at ang Kibi Dango",
+   "ne": "मोमोतारो (भाग १) — तीन साथी र किबी दाङ्गो",
+   "id": "Momotarō I — Tiga Sahabat dan Kue Kibi",
+   "pt": "Momotarō I — Três amigos e os bolinhos kibi",
+   "my": "မိုမိုတာရို (၁) — သူငယ်ချင်းသုံးယောက်နဲ့ ကီဘီဒန်ဂို",
+   "th": "โมโมทาโร่ ตอนที่ 1 — สามสหายกับขนมคิบิดังโงะ"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 62,
+  "cover": "/covers/mukashi-momotaro-1.webp",
+  "series": {
+   "id": "mukashi-momotaro",
+   "index": 1
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-momotaro-1/chapter.mp3",
+   "durationSec": 389.95
+  }
+ },
+ {
+  "id": "mukashi-momotaro-2",
+  "titles": {
+   "vi": "Cậu bé quả đào (phần 2) — Trận chiến ở đảo Quỷ",
+   "en": "Momotarō II — The Battle of Onigashima",
+   "zh-Hans": "桃太郎（下）——鬼岛之战",
+   "zh-Hant": "桃太郎（下）——鬼島之戰",
+   "ko": "모모타로 (하) — 오니가시마 전투",
+   "tl": "Momotarō II — Ang Labanan sa Onigashima",
+   "ne": "मोमोतारो (भाग २) — ओनिगाशिमाको लडाइँ",
+   "id": "Momotarō II — Pertempuran di Onigashima",
+   "pt": "Momotarō II — A batalha da Ilha dos Oni",
+   "my": "မိုမိုတာရို (၂) — အိုနီဂါရှီမာ တိုက်ပွဲ",
+   "th": "โมโมทาโร่ ตอนที่ 2 — ศึกเกาะโอนิงาชิมะ"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 62,
+  "cover": "/covers/mukashi-momotaro-2.webp",
+  "series": {
+   "id": "mukashi-momotaro",
+   "index": 2
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-momotaro-2/chapter.mp3",
+   "durationSec": 348.58
+  }
+ },
+ {
+  "id": "mukashi-yuki-onna-1",
+  "titles": {
+   "vi": "Người phụ nữ tuyết (phần 1) — Đêm bão tuyết",
+   "en": "Yuki-onna I — The Night of the Blizzard",
+   "zh-Hans": "雪女（上）——暴风雪之夜",
+   "zh-Hant": "雪女（上）——暴風雪之夜",
+   "ko": "유키온나 (상) — 눈보라 치던 밤",
+   "tl": "Yuki-onna I — Ang Gabi ng Bagyong Niyebe",
+   "ne": "युकी-ओन्ना (भाग १) — हिउँको आँधीको रात",
+   "id": "Yuki-onna I — Malam Badai Salju",
+   "pt": "Yuki-onna I — A noite da nevasca",
+   "my": "ယူကီအိုနာ (၁) — နှင်းမုန်တိုင်းည",
+   "th": "ยูกิอนนะ ตอนที่ 1 — คืนพายุหิมะ"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 62,
+  "cover": "/covers/mukashi-yuki-onna-1.webp",
+  "series": {
+   "id": "mukashi-yuki-onna",
+   "index": 1
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-yuki-onna-1/chapter.mp3",
+   "durationSec": 412.15
+  }
+ },
+ {
+  "id": "mukashi-yuki-onna-2",
+  "titles": {
+   "vi": "Người phụ nữ tuyết (phần 2) — Lời hứa bị phá vỡ",
+   "en": "Yuki-onna II — The Broken Promise",
+   "zh-Hans": "雪女（下）——被打破的约定",
+   "zh-Hant": "雪女（下）——被打破的約定",
+   "ko": "유키온나 (하) — 깨어진 약속",
+   "tl": "Yuki-onna II — Ang Pangakong Nasira",
+   "ne": "युकी-ओन्ना (भाग २) — टुटेको वाचा",
+   "id": "Yuki-onna II — Janji yang Dilanggar",
+   "pt": "Yuki-onna II — A promessa quebrada",
+   "my": "ယူကီအိုနာ (၂) — ချိုးဖောက်ခံရသော ကတိ",
+   "th": "ยูกิอนนะ ตอนที่ 2 — คำสัญญาที่ถูกทำลาย"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 62,
+  "cover": "/covers/mukashi-yuki-onna-2.webp",
+  "series": {
+   "id": "mukashi-yuki-onna",
+   "index": 2
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-yuki-onna-2/chapter.mp3",
+   "durationSec": 393.05
+  }
+ },
+ {
+  "id": "mukashi-anju-zushio-1",
+  "titles": {
+   "vi": "Anju và Zushiō (phần 1) — Hai chị em bị bán",
+   "en": "Anju and Zushiō I — Sold Away",
+   "zh-Hans": "安寿与厨子王（上）——被卖的姐弟",
+   "zh-Hant": "安壽與廚子王（上）——被賣的姊弟",
+   "ko": "안주와 즈시오 (상) — 팔려 간 남매",
+   "tl": "Anju at Zushiō I — Ipinagbili",
+   "ne": "आन्जु र जुशिओ (भाग १) — बेचिएका दिदीभाइ",
+   "id": "Anju dan Zushiō I — Dijual",
+   "pt": "Anju e Zushiō I — Vendidos",
+   "my": "အန်ဂျူနဲ့ ဇူရှိအို (၁) — ရောင်းစားခံရသော မောင်နှမ",
+   "th": "อันจูกับซูชิโอ ตอนที่ 1 — พี่น้องที่ถูกขาย"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 62,
+  "cover": "/covers/mukashi-anju-zushio-1.webp",
+  "series": {
+   "id": "mukashi-anju-zushio",
+   "index": 1
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-anju-zushio-1/chapter.mp3",
+   "durationSec": 402.55
+  }
+ },
+ {
+  "id": "mukashi-anju-zushio-2",
+  "titles": {
+   "vi": "Anju và Zushiō (phần 2) — Lá bùa Jizō",
+   "en": "Anju and Zushiō II — The Jizō Amulet",
+   "zh-Hans": "安寿与厨子王（下）——地藏护身符",
+   "zh-Hant": "安壽與廚子王（下）——地藏護身符",
+   "ko": "안주와 즈시오 (하) — 지장보살 부적",
+   "tl": "Anju at Zushiō II — Ang Anting-anting ni Jizō",
+   "ne": "आन्जु र जुशिओ (भाग २) — जिजोको ताबिज",
+   "id": "Anju dan Zushiō II — Jimat Jizō",
+   "pt": "Anju e Zushiō II — O Amuleto de Jizō",
+   "my": "အန်ဂျူနဲ့ ဇူရှိအို (၂) — ဂျီဇိုအဆောင်",
+   "th": "อันจูกับซูชิโอ ตอนที่ 2 — เครื่องรางพระจิโซ"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 62,
+  "cover": "/covers/mukashi-anju-zushio-2.webp",
+  "series": {
+   "id": "mukashi-anju-zushio",
+   "index": 2
+  },
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-anju-zushio-2/chapter.mp3",
+   "durationSec": 344.18
+  }
+ },
+ {
+  "id": "mukashi-shitakiri",
+  "titles": {
+   "vi": "Chim sẻ bị cắt lưỡi — Hai chiếc rương",
+   "en": "The Tongue-Cut Sparrow — Two Baskets",
+   "zh-Hans": "剪舌麻雀——两只箱笼",
+   "zh-Hant": "剪舌麻雀——兩只箱籠",
+   "ko": "혀 잘린 참새 — 두 개의 고리짝",
+   "tl": "Ang Mayang Pinutulan ng Dila — Dalawang Baul",
+   "ne": "जिब्रो काटिएको भँगेरो — दुई टोकरी",
+   "id": "Burung Pipit Lidah Terpotong — Dua Keranjang",
+   "pt": "O Pardal de Língua Cortada — Dois Baús",
+   "my": "လျှာပြတ်စာကလေး — သေတ္တာနှစ်လုံး",
+   "th": "นกกระจอกลิ้นขาด — หีบสองใบ"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 62,
+  "cover": "/covers/mukashi-shitakiri.webp",
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-shitakiri/chapter.mp3",
+   "durationSec": 383.88
+  }
+ },
+ {
+  "id": "mukashi-hanasaka",
+  "titles": {
+   "vi": "Ông lão làm hoa nở — Chú chó Shiro",
+   "en": "The Old Man Who Made Flowers Bloom — Shiro the Dog",
+   "zh-Hans": "开花爷爷——小白狗",
+   "zh-Hant": "開花爺爺——小白狗",
+   "ko": "꽃 피우는 할아버지 — 흰둥이 시로",
+   "tl": "Ang Lolong Nagpapamukadkad ng Bulaklak — Si Shiro",
+   "ne": "फूल फुलाउने बाजे — कुकुर सिरो",
+   "id": "Kakek Pemekar Bunga — Anjing Shiro",
+   "pt": "O Velho que Fazia as Flores Desabrocharem — O Cão Shiro",
+   "my": "ပန်းပွင့်စေသော အဘိုး — ခွေးလေး ရှိရို",
+   "th": "คุณตาทำดอกไม้บาน — เจ้าหมาชิโระ"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/mukashi-hanasaka.webp",
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-hanasaka/chapter.mp3",
+   "durationSec": 364.8
+  }
+ },
+ {
+  "id": "mukashi-kintaro",
+  "titles": {
+   "vi": "Kintarō — Cậu bé sức mạnh núi Ashigara",
+   "en": "Kintarō — The Strong Boy of Mount Ashigara",
+   "zh-Hans": "金太郎——足柄山的大力男孩",
+   "zh-Hant": "金太郎——足柄山的大力男孩",
+   "ko": "긴타로 — 아시가라산의 힘센 아이",
+   "tl": "Kintarō — Ang Malakas na Bata ng Bundok Ashigara",
+   "ne": "किन्तारो — आसिगारा पहाडको बलियो केटो",
+   "id": "Kintarō — Bocah Kuat dari Gunung Ashigara",
+   "pt": "Kintarō — O Menino Forte do Monte Ashigara",
+   "my": "ကင်တာရို — အာရှိဂါရတောင်က ခွန်အားကြီးသော ကောင်လေး",
+   "th": "คินทาโร่ — เด็กผู้มีพลังแห่งภูเขาอาชิงาระ"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/mukashi-kintaro.webp",
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-kintaro/chapter.mp3",
+   "durationSec": 315.02
+  }
+ },
+ {
+  "id": "mukashi-kasajizo",
+  "titles": {
+   "vi": "Sáu tượng Jizō đội nón — Món quà đêm giao thừa",
+   "en": "The Six Jizō and the Straw Hats",
+   "zh-Hans": "戴斗笠的地藏菩萨",
+   "zh-Hant": "戴斗笠的地藏菩薩",
+   "ko": "삿갓 쓴 지장보살",
+   "tl": "Ang Anim na Jizō at ang mga Sombrero",
+   "ne": "टोपी लगाएका छ जिजो",
+   "id": "Enam Jizō dan Topi Jerami",
+   "pt": "Os Seis Jizō e os Chapéus de Palha",
+   "my": "ခမောက်ဆောင်းထားတဲ့ ဂျိဇိုရုပ်ခြောက်ပါး",
+   "th": "พระจิโซหกองค์กับหมวกฟาง"
+  },
+  "level": "N3",
+  "topic": "folktale",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 59,
+  "cover": "/covers/mukashi-kasajizo.webp",
+  "shelf": "folktale-jp",
+  "audioTrack": {
+   "src": "/audio/mukashi-kasajizo/chapter.mp3",
+   "durationSec": 371.88
+  }
+ },
+ {
   "id": "baito-first-morning",
   "titles": {
    "en": "First Morning at the Part-Time Job",
@@ -2508,7 +3002,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 14
+  "sentenceCount": 14,
+  "hidden": true,
+  "replacedBy": "mukashi-momotaro-1"
  },
  {
   "id": "urashima-taro",
@@ -2556,7 +3052,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 14
+  "sentenceCount": 14,
+  "hidden": true,
+  "replacedBy": "mukashi-hanasaka"
  },
  {
   "id": "tsuru-no-ongaeshi",
@@ -2580,7 +3078,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 12
+  "sentenceCount": 12,
+  "hidden": true,
+  "replacedBy": "mukashi-kintaro"
  },
  {
   "id": "at-the-bank",
@@ -2616,7 +3116,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 14
+  "sentenceCount": 14,
+  "hidden": true,
+  "replacedBy": "mukashi-shitakiri"
  },
  {
   "id": "saru-kani-gassen",
@@ -3084,7 +3586,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 12
+  "sentenceCount": 12,
+  "hidden": true,
+  "replacedBy": "mukashi-kasajizo"
  },
  {
   "id": "moving-house",
@@ -5484,7 +5988,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "hidden": true,
+  "replacedBy": "mukashi-kasajizo"
  },
  {
   "id": "the-moving-registration",
@@ -9888,7 +10394,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 59,
   "cover": "/covers/furusato-vn-coc-1.webp",
   "series": {
@@ -9920,7 +10426,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-vn-oc-1.webp",
   "series": {
@@ -9952,7 +10458,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 63,
   "cover": "/covers/furusato-vn-neu-1.webp",
   "series": {
@@ -9984,7 +10490,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-vn-tichchu-1.webp",
   "series": {
@@ -10016,7 +10522,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-vn-vusua-1.webp",
   "series": {
@@ -10048,7 +10554,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-vn-babe-1.webp",
   "series": {
@@ -10080,7 +10586,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 66,
   "cover": "/covers/furusato-vn-mychau-1.webp",
   "series": {
@@ -10112,7 +10618,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-kr-hokburi-1.webp",
   "series": {
@@ -10144,7 +10650,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-id-toba-1.webp",
   "series": {
@@ -10176,7 +10682,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 59,
   "cover": "/covers/furusato-ph-magayon-1.webp",
   "series": {
@@ -10208,7 +10714,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 63,
   "cover": "/covers/furusato-mm-mahagiri-1.webp",
   "series": {
@@ -10240,7 +10746,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-mm-kyaiktiyo-1.webp",
   "series": {
@@ -10272,7 +10778,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-br-saci-1.webp",
   "series": {
@@ -10304,7 +10810,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-br-iara-1.webp",
   "series": {
@@ -10336,7 +10842,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-br-curupira-1.webp",
   "series": {
@@ -10444,6 +10950,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  }
 ];
+
+/** Truyện hiện trong kệ và danh sách (bỏ gói cũ đã có bản v2 thay thế). Tra theo id thì dùng STORY_INDEX. */
+export const LISTED_STORIES: StoryIndexItem[] = STORY_INDEX.filter((s) => !s.hidden);
 
 export function formatDuration(sec: number): string {
   const m = Math.floor(sec / 60);

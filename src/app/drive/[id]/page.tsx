@@ -3,6 +3,9 @@ import { notFound } from "next/navigation";
 import { detailMetadata } from "../../../lib/seo";
 import DriveClient from "./DriveClient";
 import { getStory, STORIES } from "../../../lib/content";
+import { STORY_INDEX } from "../../../lib/catalog.generated";
+
+const HIDDEN = new Set(STORY_INDEX.filter((s) => s.hidden).map((s) => s.id));
 import { storyFree } from "../../../lib/access";
 
 export function generateStaticParams() {
@@ -35,7 +38,7 @@ export default async function DrivePlayPage({
   if (!story) notFound();
 
   const idx = STORIES.findIndex((s) => s.id === id);
-  const nextStory = STORIES.slice(idx + 1).find((s) => s.level === story.level) ?? null;
+  const nextStory = STORIES.slice(idx + 1).find((s) => s.level === story.level && !HIDDEN.has(s.id)) ?? null;
 
   return (
     <DriveClient

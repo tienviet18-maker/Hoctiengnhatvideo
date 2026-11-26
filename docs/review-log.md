@@ -434,3 +434,11 @@ Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Bảy gói chuẩn v2, N3
 - Glossary chung `content/sources/glossary-rakugo-mukashi.tsv` thêm khoảng 150 từ 11 ngôn ngữ.
 - **Trùng nội dung với gói cũ của Muse (chưa xoá vì là vùng của Muse):** các gói ngắn chuẩn cũ `momotaro`, `hanasaka-jiisan`, `shita-kiri-suzume`, `kintaro`, `kasa-jizo`, `kasako-jizo` kể cùng truyện với gói v2 mới. Đề xuất ẩn các gói cũ này khỏi kệ hoặc gỡ hẳn khi Việt đồng ý, để người dùng không thấy hai bản cùng một truyện.
 - QC toàn kho sau gói cuối (trước khi gộp main): 659 gói, 0 lỗi, 117 gói đạt chuẩn v2.
+
+## Ẩn 6 gói cổ tích cũ trùng bản v2 (26/11/2026, nhánh `claude/hide-old-duplicates`)
+
+- Thêm `content/hidden-stories.json` (id cũ → id bản v2 thay thế): `momotaro` → `mukashi-momotaro-1`, `hanasaka-jiisan` → `mukashi-hanasaka`, `shita-kiri-suzume` → `mukashi-shitakiri`, `kintaro` → `mukashi-kintaro`, `kasa-jizo` và `kasako-jizo` → `mukashi-kasajizo`.
+- `scripts/gen-catalog.mjs` gắn `hidden` + `replacedBy` vào chỉ mục và xuất `LISTED_STORIES`. Kệ, tab Truyện, Trang chủ, danh sách lái xe và gợi ý truyện đầu tiên chỉ dùng `LISTED_STORIES`. Chế độ lái xe không tự chuyển sang gói ẩn.
+- Chỉ ẩn, không xoá: file nội dung và đăng ký trong `content.ts` giữ nguyên, `/read/<id>` cũ vẫn mở được (link và tiến độ cũ không hỏng), nhưng có `noindex` và canonical trỏ sang bản v2. Muốn hiện lại thì xoá dòng trong `hidden-stories.json`.
+- Lộ trình "Giải trí & văn hoá" (`src/lib/paths.ts`) đổi `momotaro` → `mukashi-momotaro-1`.
+- Đánh đổi: 4 trong 6 gói ẩn là N5 (ngắn 10–14 câu), bản v2 là N3, nên người mới bắt đầu có ít truyện cổ tích dễ hơn. Kho N5 vẫn còn hơn 200 gói khác.

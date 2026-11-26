@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useLang } from "../../components/LangProvider";
 import Paywall from "../../components/Paywall";
-import { STORY_INDEX } from "../../lib/catalog.generated";
+import { LISTED_STORIES } from "../../lib/catalog.generated";
 import { pickText } from "../../lib/i18n";
 import type { JlptLevel } from "../../lib/content-schema";
 
@@ -17,7 +17,7 @@ export default function DrivePage() {
   const [paywall, setPaywall] = useState(false);
 
   const filtered = useMemo(
-    () => STORY_INDEX.filter((s) => level === "all" || s.level === level),
+    () => LISTED_STORIES.filter((s) => level === "all" || s.level === level),
     [level],
   );
 
