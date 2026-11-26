@@ -716,3 +716,16 @@ Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse
 - Gói cũ ~10 câu `cinderella`, `snow-white` ẩn và trỏ sang bản mới qua `content/hidden-stories.json`.
 - Công cụ mới: `scripts/story-src/tr-txt.mjs` (viết bản dịch dạng khối văn bản thay JSON), `scripts/story-src/gloss-add.mjs` (thêm từ vào glossary kệ).
 - Muse/thread khác: chưa có Sinhala cho 4 truyện này; id `world-` do thread truyện cổ thế giới cấp, đừng dùng trùng.
+
+## Mai-chan v2 tập 5–10 (N5), thay 7 tập cũ 8 câu — 27/11/2026
+
+- 6 tập mới, mỗi tập 38–40 câu, 690–760 ký tự, audio liền 2,4–2,6 phút (Aoede kể, Neural2-B/C cho từng nhân vật), bài học 4 điểm ngữ pháp
+  + 4 câu hỏi, 11 ngôn ngữ, furigana mọi chữ Hán, bìa 文庫 riêng (motif `mai05`–`mai10` trong `scripts/covers/cover.html`):
+  05 ころころおにぎり (cơm nắm lăn xuống dốc trong buổi dã ngoại), 06 あいあいがさ (che chung ô, cầu vồng), 07 おかゆとさとう (mẹ ốm,
+  Mai nấu cháo, suýt cho đường), 08 トマトくん (Bin ghét cà chua đến khi tự trồng), 09 タマはどこ？ (đi tìm mèo, bố mắc kẹt trên cây),
+  10 お父さん二号 (tuyết đầu mùa, người tuyết giống bố). Tập 5–10 là VIP (đọc thử 3 câu), tập 1 bộ vẫn miễn phí.
+- Ẩn 7 gói cũ qua `content/hidden-stories.json`: mai-chan-ep03/04/08/11/13/15/17 → maichan-05…10. Lộ trình "Gia đình" đổi
+  mai-chan-ep08-sick-mom → maichan-07.
+- Sửa câu hỏi bài học: trước đây đáp án đúng luôn ở vị trí đầu (app không xáo trộn). Nay xoay vị trí đáp án cho cả tập 1–10.
+- Đăng ký trong khối đánh dấu riêng "làm lại Mai-chan + văn học Nhật" ở `src/lib/content.ts`.
+- `npm run verify` xanh.

@@ -100,12 +100,12 @@
       {
         "ja": "ビンくんは、何がほしいと言っていましたか。",
         "choices": [
-          "赤い電車のおもちゃ",
           "青い車",
           "大きなケーキ",
+          "赤い電車のおもちゃ",
           "新しいくつ"
         ],
-        "answer": 0,
+        "answer": 2,
         "explain": {
           "vi": "Bin muốn tàu điện đồ chơi màu đỏ.",
           "en": "Bin wanted a red toy train.",
@@ -144,24 +144,6 @@
         "choicesFurigana": [
           [
             {
-              "surface": "赤",
-              "reading": "あか"
-            },
-            {
-              "surface": "い",
-              "reading": ""
-            },
-            {
-              "surface": "電車",
-              "reading": "でんしゃ"
-            },
-            {
-              "surface": "のおもちゃ",
-              "reading": ""
-            }
-          ],
-          [
-            {
               "surface": "青",
               "reading": "あお"
             },
@@ -181,6 +163,24 @@
             },
             {
               "surface": "きなケーキ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "赤",
+              "reading": "あか"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "surface": "のおもちゃ",
               "reading": ""
             }
           ],
@@ -318,12 +318,12 @@
       {
         "ja": "マイちゃんが買った電車は、何色ですか。",
         "choices": [
-          "青",
           "赤",
           "黄色",
-          "白"
+          "白",
+          "青"
         ],
-        "answer": 0,
+        "answer": 3,
         "explain": {
           "vi": "Tàu điện nhỏ màu xanh, giá 500 yên.",
           "en": "A small blue train for 500 yen.",
@@ -370,12 +370,6 @@
         "choicesFurigana": [
           [
             {
-              "surface": "青",
-              "reading": "あお"
-            }
-          ],
-          [
-            {
               "surface": "赤",
               "reading": "あか"
             }
@@ -391,18 +385,24 @@
               "surface": "白",
               "reading": "しろ"
             }
+          ],
+          [
+            {
+              "surface": "青",
+              "reading": "あお"
+            }
           ]
         ]
       },
       {
         "ja": "お父さんは、なぜ「箱のほうが好きみたいだ」と言いましたか。",
         "choices": [
-          "ビンくんが箱をかぶって遊んだから",
           "ビンくんが電車をこわしたから",
+          "ビンくんが箱をかぶって遊んだから",
           "箱が大きかったから",
           "電車が動かなかったから"
         ],
-        "answer": 0,
+        "answer": 1,
         "explain": {
           "vi": "Bin đội hộp lên đầu, làm tàu điện chạy khắp phòng.",
           "en": "Bin wore the box and played train.",
@@ -461,6 +461,20 @@
               "reading": ""
             },
             {
+              "surface": "電車",
+              "reading": "でんしゃ"
+            },
+            {
+              "surface": "をこわしたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ビンくんが",
+              "reading": ""
+            },
+            {
               "surface": "箱",
               "reading": "はこ"
             },
@@ -474,20 +488,6 @@
             },
             {
               "surface": "んだから",
-              "reading": ""
-            }
-          ],
-          [
-            {
-              "surface": "ビンくんが",
-              "reading": ""
-            },
-            {
-              "surface": "電車",
-              "reading": "でんしゃ"
-            },
-            {
-              "surface": "をこわしたから",
               "reading": ""
             }
           ],

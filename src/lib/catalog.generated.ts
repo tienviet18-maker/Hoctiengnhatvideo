@@ -6665,7 +6665,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep03-shared-umbrella.webp"
+  "cover": "/covers/mai-chan-ep03-shared-umbrella.webp",
+  "hidden": true,
+  "replacedBy": "maichan-06"
  },
  {
   "id": "mai-chan-ep04-onigiri",
@@ -6678,7 +6680,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep04-onigiri.webp"
+  "cover": "/covers/mai-chan-ep04-onigiri.webp",
+  "hidden": true,
+  "replacedBy": "maichan-05"
  },
  {
   "id": "mai-chan-ep05-sports-day",
@@ -6746,7 +6750,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep08-sick-mom.webp"
+  "cover": "/covers/mai-chan-ep08-sick-mom.webp",
+  "hidden": true,
+  "replacedBy": "maichan-07"
  },
  {
   "id": "the-shinkansen-trip",
@@ -6839,7 +6845,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep11-tomatoes.webp"
+  "cover": "/covers/mai-chan-ep11-tomatoes.webp",
+  "hidden": true,
+  "replacedBy": "maichan-08"
  },
  {
   "id": "mai-chan-ep12-calling-grandma",
@@ -6892,7 +6900,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep13-rainy-day.webp"
+  "cover": "/covers/mai-chan-ep13-rainy-day.webp",
+  "hidden": true,
+  "replacedBy": "maichan-06"
  },
  {
   "id": "mai-chan-ep14-cooking-curry",
@@ -6945,7 +6955,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep15-lost-cat.webp"
+  "cover": "/covers/mai-chan-ep15-lost-cat.webp",
+  "hidden": true,
+  "replacedBy": "maichan-09"
  },
  {
   "id": "mai-chan-ep16-dad-cooks-pho",
@@ -6997,7 +7009,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep17-snow-day.webp"
+  "cover": "/covers/mai-chan-ep17-snow-day.webp",
+  "hidden": true,
+  "replacedBy": "maichan-10"
  },
  {
   "id": "mai-chan-ep18-new-year-card",
@@ -11670,6 +11684,192 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/maichan-04/chapter.mp3",
    "durationSec": 155.136
+  }
+ },
+ {
+  "id": "maichan-05",
+  "titles": {
+   "vi": "Mai-chan (5): Cơm nắm lăn lông lốc",
+   "en": "Mai-chan (5): The Rolling Rice Ball",
+   "zh-Hans": "小麦（5）：骨碌碌滚的饭团",
+   "zh-Hant": "小麥（5）：骨碌碌滾的飯糰",
+   "ko": "마이짱 (5): 데굴데굴 주먹밥",
+   "tl": "Mai-chan (5): Ang Gumugulong na Onigiri",
+   "ne": "माई-चान (५): गुडुल्किने ओनिगिरी",
+   "id": "Mai-chan (5): Onigiri yang Menggelinding",
+   "pt": "Mai-chan (5): O Bolinho de Arroz que Rolou",
+   "my": "မိုင်ချန် (၅): လှိမ့်သွားတဲ့ ထမင်းလုံး",
+   "th": "ไมจัง (5): ข้าวปั้นกลิ้งหลุน ๆ"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-05.webp",
+  "series": {
+   "id": "maichan",
+   "index": 5
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-05/chapter.mp3",
+   "durationSec": 157.056
+  }
+ },
+ {
+  "id": "maichan-06",
+  "titles": {
+   "vi": "Mai-chan (6): Chung một chiếc ô",
+   "en": "Mai-chan (6): Sharing an Umbrella",
+   "zh-Hans": "小麦（6）：共撑一把伞",
+   "zh-Hant": "小麥（6）：共撐一把傘",
+   "ko": "마이짱 (6): 우산 하나를 같이",
+   "tl": "Mai-chan (6): Iisang Payong",
+   "ne": "माई-चान (६): एउटै छाता",
+   "id": "Mai-chan (6): Satu Payung Berdua",
+   "pt": "Mai-chan (6): Um Guarda-chuva para Duas",
+   "my": "မိုင်ချန် (၆): ထီးတစ်လက်တည်း",
+   "th": "ไมจัง (6): ร่มคันเดียวกัน"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-06.webp",
+  "series": {
+   "id": "maichan",
+   "index": 6
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-06/chapter.mp3",
+   "durationSec": 146.352
+  }
+ },
+ {
+  "id": "maichan-07",
+  "titles": {
+   "vi": "Mai-chan (7): Hôm nay con làm mẹ",
+   "en": "Mai-chan (7): I'll Be Mom Today",
+   "zh-Hans": "小麦（7）：今天我来当妈妈",
+   "zh-Hant": "小麥（7）：今天我來當媽媽",
+   "ko": "마이짱 (7): 오늘은 내가 엄마",
+   "tl": "Mai-chan (7): Ako Muna ang Nanay Ngayon",
+   "ne": "माई-चान (७): आज म आमा",
+   "id": "Mai-chan (7): Hari Ini Aku Jadi Ibu",
+   "pt": "Mai-chan (7): Hoje Eu Sou a Mãe",
+   "my": "မိုင်ချန် (၇): ဒီနေ့ သမီးက အမေ",
+   "th": "ไมจัง (7): วันนี้หนูเป็นแม่เอง"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-07.webp",
+  "series": {
+   "id": "maichan",
+   "index": 7
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-07/chapter.mp3",
+   "durationSec": 156.216
+  }
+ },
+ {
+  "id": "maichan-08",
+  "titles": {
+   "vi": "Mai-chan (8): Quả cà chua đầu tiên",
+   "en": "Mai-chan (8): The First Tomato",
+   "zh-Hans": "小麦（8）：第一颗番茄",
+   "zh-Hant": "小麥（8）：第一顆番茄",
+   "ko": "마이짱 (8): 첫 번째 토마토",
+   "tl": "Mai-chan (8): Ang Unang Kamatis",
+   "ne": "माई-चान (८): पहिलो गोलभेडा",
+   "id": "Mai-chan (8): Tomat Pertama",
+   "pt": "Mai-chan (8): O Primeiro Tomate",
+   "my": "မိုင်ချန် (၈): ပထမဆုံး ခရမ်းချဉ်သီး",
+   "th": "ไมจัง (8): มะเขือเทศลูกแรก"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 38,
+  "cover": "/covers/maichan-08.webp",
+  "series": {
+   "id": "maichan",
+   "index": 8
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-08/chapter.mp3",
+   "durationSec": 148.728
+  }
+ },
+ {
+  "id": "maichan-09",
+  "titles": {
+   "vi": "Mai-chan (9): Mèo Tama đi đâu rồi?",
+   "en": "Mai-chan (9): Where Is Tama?",
+   "zh-Hans": "小麦（9）：小玉去哪儿了？",
+   "zh-Hant": "小麥（9）：小玉去哪兒了？",
+   "ko": "마이짱 (9): 타마는 어디에?",
+   "tl": "Mai-chan (9): Nasaan si Tama?",
+   "ne": "माई-चान (९): टामा कहाँ गई?",
+   "id": "Mai-chan (9): Di Mana Tama?",
+   "pt": "Mai-chan (9): Cadê a Tama?",
+   "my": "မိုင်ချန် (၉): တာမ ဘယ်ရောက်သွားလဲ",
+   "th": "ไมจัง (9): ทามะไปไหน"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-09.webp",
+  "series": {
+   "id": "maichan",
+   "index": 9
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-09/chapter.mp3",
+   "durationSec": 148.896
+  }
+ },
+ {
+  "id": "maichan-10",
+  "titles": {
+   "vi": "Mai-chan (10): Tuyết đầu tiên",
+   "en": "Mai-chan (10): The First Snow",
+   "zh-Hans": "小麦（10）：第一场雪",
+   "zh-Hant": "小麥（10）：第一場雪",
+   "ko": "마이짱 (10): 처음 보는 눈",
+   "tl": "Mai-chan (10): Ang Unang Niyebe",
+   "ne": "माई-चान (१०): पहिलो हिउँ",
+   "id": "Mai-chan (10): Salju Pertama",
+   "pt": "Mai-chan (10): A Primeira Neve",
+   "my": "မိုင်ချန် (၁၀): ပထမဆုံး နှင်း",
+   "th": "ไมจัง (10): หิมะแรก"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 39,
+  "cover": "/covers/maichan-10.webp",
+  "series": {
+   "id": "maichan",
+   "index": 10
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-10/chapter.mp3",
+   "durationSec": 151.968
   }
  },
  {

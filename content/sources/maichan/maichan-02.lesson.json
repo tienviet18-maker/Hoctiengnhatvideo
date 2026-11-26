@@ -1,22 +1,158 @@
 {
  "grammarPoints": [
-  {"pattern": "〜に来る", "example": 2, "meaning": {
-   "vi": "Đến để ~ (động từ bỏ ます + に来る).", "en": "Come (in order) to ~ (verb stem + に来る).", "zh-Hans": "来做……（动词ます形去ます＋に来る）。", "ko": "~하러 오다.", "tl": "Pumunta para ~.", "ne": "~ गर्न आउनु।", "id": "Datang untuk ~.", "pt": "Vir para ~.", "my": "~ ဖို့ လာ။", "th": "มาเพื่อ ~"}},
-  {"pattern": "〜ようとする", "example": 16, "meaning": {
-   "vi": "Cố gắng / định làm ~ (thể ý chí + とする).", "en": "Try to ~ / be about to ~ (volitional + とする).", "zh-Hans": "想要……／试图……。", "ko": "~하려고 하다.", "tl": "Subukang ~.", "ne": "~ गर्न खोज्नु।", "id": "Mencoba ~.", "pt": "Tentar ~.", "my": "~ ဖို့ ကြိုးစား။", "th": "พยายามจะ ~"}},
-  {"pattern": "〜そうになる", "example": 21, "meaning": {
-   "vi": "Suýt nữa thì ~ (gần xảy ra nhưng chưa).", "en": "Almost ~ / be on the verge of ~.", "zh-Hans": "差点……。", "ko": "~할 뻔하다.", "tl": "Muntik nang ~.", "ne": "~ लाग्नु (झन्डै)।", "id": "Hampir ~.", "pt": "Quase ~.", "my": "~ တော့မလို ဖြစ်။", "th": "เกือบจะ ~"}},
-  {"pattern": "〜てくれる", "example": 27, "meaning": {
-   "vi": "Người khác làm ~ cho mình (biết ơn).", "en": "Someone does ~ for me (with gratitude).", "zh-Hans": "别人为我做……（带感激）。", "ko": "(남이 나에게) ~해 주다.", "tl": "Ginawa ng iba para sa akin.", "ne": "अरूले मेरो लागि ~ गरिदिनु।", "id": "Orang lain melakukan ~ untukku.", "pt": "Alguém faz ~ por mim.", "my": "တခြားသူက ကိုယ့်အတွက် ~ ပေး။", "th": "คนอื่นทำ ~ ให้เรา"}}
+  {
+   "pattern": "〜に来る",
+   "example": 2,
+   "meaning": {
+    "vi": "Đến để ~ (động từ bỏ ます + に来る).",
+    "en": "Come (in order) to ~ (verb stem + に来る).",
+    "zh-Hans": "来做……（动词ます形去ます＋に来る）。",
+    "ko": "~하러 오다.",
+    "tl": "Pumunta para ~.",
+    "ne": "~ गर्न आउनु।",
+    "id": "Datang untuk ~.",
+    "pt": "Vir para ~.",
+    "my": "~ ဖို့ လာ။",
+    "th": "มาเพื่อ ~"
+   }
+  },
+  {
+   "pattern": "〜ようとする",
+   "example": 16,
+   "meaning": {
+    "vi": "Cố gắng / định làm ~ (thể ý chí + とする).",
+    "en": "Try to ~ / be about to ~ (volitional + とする).",
+    "zh-Hans": "想要……／试图……。",
+    "ko": "~하려고 하다.",
+    "tl": "Subukang ~.",
+    "ne": "~ गर्न खोज्नु।",
+    "id": "Mencoba ~.",
+    "pt": "Tentar ~.",
+    "my": "~ ဖို့ ကြိုးစား။",
+    "th": "พยายามจะ ~"
+   }
+  },
+  {
+   "pattern": "〜そうになる",
+   "example": 21,
+   "meaning": {
+    "vi": "Suýt nữa thì ~ (gần xảy ra nhưng chưa).",
+    "en": "Almost ~ / be on the verge of ~.",
+    "zh-Hans": "差点……。",
+    "ko": "~할 뻔하다.",
+    "tl": "Muntik nang ~.",
+    "ne": "~ लाग्नु (झन्डै)।",
+    "id": "Hampir ~.",
+    "pt": "Quase ~.",
+    "my": "~ တော့မလို ဖြစ်။",
+    "th": "เกือบจะ ~"
+   }
+  },
+  {
+   "pattern": "〜てくれる",
+   "example": 27,
+   "meaning": {
+    "vi": "Người khác làm ~ cho mình (biết ơn).",
+    "en": "Someone does ~ for me (with gratitude).",
+    "zh-Hans": "别人为我做……（带感激）。",
+    "ko": "(남이 나에게) ~해 주다.",
+    "tl": "Ginawa ng iba para sa akin.",
+    "ne": "अरूले मेरो लागि ~ गरिदिनु।",
+    "id": "Orang lain melakukan ~ untukku.",
+    "pt": "Alguém faz ~ por mim.",
+    "my": "တခြားသူက ကိုယ့်အတွက် ~ ပေး။",
+    "th": "คนอื่นทำ ~ ให้เรา"
+   }
+  }
  ],
  "quiz": [
-  {"ja": "マイちゃんは、走るのが速いですか。", "choices": ["あまり速くない", "とても速い", "いちばん速い", "走らない"], "answer": 0, "explain": {
-   "vi": "Bé chạy không nhanh lắm.", "en": "She isn't a very fast runner.", "zh-Hans": "她跑得不太快。", "ko": "그다지 빠르지 않습니다.", "tl": "Hindi gaanong mabilis.", "ne": "त्यति छिटो होइन।", "id": "Tidak terlalu cepat.", "pt": "Não muito rápida.", "my": "သိပ် မမြန်ဘူး။", "th": "ไม่ค่อยเร็ว"}},
-  {"ja": "ころんだマイちゃんに、だれが「立って！」と言いましたか。", "choices": ["ビンくん", "お父さん", "先生", "ゆきちゃん"], "answer": 0, "explain": {
-   "vi": "Bin hét to: 'Chị ơi! Đứng dậy đi!'", "en": "Bin shouted, 'Sis! Get up!'", "zh-Hans": "小宾大喊“姐姐！站起来！”", "ko": "빈이 외쳤습니다.", "tl": "Sumigaw si Bin.", "ne": "बिन कराए।", "id": "Bin yang berteriak.", "pt": "Bin gritou.", "my": "ဘင်က အော်တယ်။", "th": "บินตะโกน"}},
-  {"ja": "マイちゃんは、何番でゴールしましたか。", "choices": ["いちばん最後", "いちばん", "まん中", "ゴールしなかった"], "answer": 0, "explain": {
-   "vi": "Bé về đích cuối cùng nhưng vẫn được vỗ tay.", "en": "She came last but still got applause.", "zh-Hans": "最后一名，但大家都鼓掌了。", "ko": "꼴찌였지만 박수를 받았습니다.", "tl": "Huli, pero pinalakpakan.", "ne": "अन्तिम, तर ताली पाइन्।", "id": "Paling akhir, tapi disoraki.", "pt": "Em último, mas aplaudida.", "my": "နောက်ဆုံး ဒါပေမဲ့ လက်ခုပ်ရတယ်။", "th": "ที่สุดท้าย แต่ได้เสียงปรบมือ"}},
-  {"ja": "お父さんは、なぜ写真を消しませんでしたか。", "choices": ["家族の宝物だから", "カメラがこわれたから", "マイちゃんが好きと言ったから", "消し方がわからないから"], "answer": 0, "explain": {
-   "vi": "Bố nói đó là báu vật của cả nhà.", "en": "Dad said it's a family treasure.", "zh-Hans": "爸爸说那是全家的宝贝。", "ko": "가족의 보물이라서.", "tl": "Kayamanan daw ng pamilya.", "ne": "परिवारको खजाना भएकाले।", "id": "Katanya harta keluarga.", "pt": "Disse que é um tesouro da família.", "my": "မိသားစု ရတနာမို့လို့။", "th": "เพราะเป็นสมบัติของครอบครัว"}}
+  {
+   "ja": "マイちゃんは、走るのが速いですか。",
+   "choices": [
+    "とても速い",
+    "いちばん速い",
+    "あまり速くない",
+    "走らない"
+   ],
+   "answer": 2,
+   "explain": {
+    "vi": "Bé chạy không nhanh lắm.",
+    "en": "She isn't a very fast runner.",
+    "zh-Hans": "她跑得不太快。",
+    "ko": "그다지 빠르지 않습니다.",
+    "tl": "Hindi gaanong mabilis.",
+    "ne": "त्यति छिटो होइन।",
+    "id": "Tidak terlalu cepat.",
+    "pt": "Não muito rápida.",
+    "my": "သိပ် မမြန်ဘူး။",
+    "th": "ไม่ค่อยเร็ว"
+   }
+  },
+  {
+   "ja": "ころんだマイちゃんに、だれが「立って！」と言いましたか。",
+   "choices": [
+    "ビンくん",
+    "お父さん",
+    "先生",
+    "ゆきちゃん"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Bin hét to: 'Chị ơi! Đứng dậy đi!'",
+    "en": "Bin shouted, 'Sis! Get up!'",
+    "zh-Hans": "小宾大喊“姐姐！站起来！”",
+    "ko": "빈이 외쳤습니다.",
+    "tl": "Sumigaw si Bin.",
+    "ne": "बिन कराए।",
+    "id": "Bin yang berteriak.",
+    "pt": "Bin gritou.",
+    "my": "ဘင်က အော်တယ်။",
+    "th": "บินตะโกน"
+   }
+  },
+  {
+   "ja": "マイちゃんは、何番でゴールしましたか。",
+   "choices": [
+    "いちばん",
+    "まん中",
+    "ゴールしなかった",
+    "いちばん最後"
+   ],
+   "answer": 3,
+   "explain": {
+    "vi": "Bé về đích cuối cùng nhưng vẫn được vỗ tay.",
+    "en": "She came last but still got applause.",
+    "zh-Hans": "最后一名，但大家都鼓掌了。",
+    "ko": "꼴찌였지만 박수를 받았습니다.",
+    "tl": "Huli, pero pinalakpakan.",
+    "ne": "अन्तिम, तर ताली पाइन्।",
+    "id": "Paling akhir, tapi disoraki.",
+    "pt": "Em último, mas aplaudida.",
+    "my": "နောက်ဆုံး ဒါပေမဲ့ လက်ခုပ်ရတယ်။",
+    "th": "ที่สุดท้าย แต่ได้เสียงปรบมือ"
+   }
+  },
+  {
+   "ja": "お父さんは、なぜ写真を消しませんでしたか。",
+   "choices": [
+    "カメラがこわれたから",
+    "家族の宝物だから",
+    "マイちゃんが好きと言ったから",
+    "消し方がわからないから"
+   ],
+   "answer": 1,
+   "explain": {
+    "vi": "Bố nói đó là báu vật của cả nhà.",
+    "en": "Dad said it's a family treasure.",
+    "zh-Hans": "爸爸说那是全家的宝贝。",
+    "ko": "가족의 보물이라서.",
+    "tl": "Kayamanan daw ng pamilya.",
+    "ne": "परिवारको खजाना भएकाले।",
+    "id": "Katanya harta keluarga.",
+    "pt": "Disse que é um tesouro da família.",
+    "my": "မိသားစု ရတနာမို့လို့။",
+    "th": "เพราะเป็นสมบัติของครอบครัว"
+   }
+  }
  ]
 }
