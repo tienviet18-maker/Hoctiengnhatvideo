@@ -2,7 +2,11 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useSyncExternalStore } from "react";
 import { useLang } from "./LangProvider";
+import { UI } from "../lib/i18n";
+
+const noopSubscribe = () => () => {};
 
 const HIDDEN_PREFIXES = ["/watch", "/read", "/drive", "/onboarding"];
 
@@ -26,7 +30,11 @@ function Icon({ d, filled }: { d: string; filled?: boolean }) {
 
 export default function TabBar() {
   const pathname = usePathname();
-  const { ui } = useLang();
+  const { ui: current } = useLang();
+  // Thanh tab nằm trong <Suspense> nên hydrate sau LangProvider: lúc đó ngôn ngữ đã đổi sang ngôn ngữ của
+  // người dùng, còn HTML tĩnh là tiếng Việt. Lần hydrate đầu dùng tiếng Việt cho khớp, rồi mới đổi.
+  const hydrated = useSyncExternalStore(noopSubscribe, () => true, () => false);
+  const ui = hydrated ? current : UI.vi;
   if (HIDDEN_PREFIXES.some((p) => pathname.startsWith(p))) return null;
 
   const tabs = [
