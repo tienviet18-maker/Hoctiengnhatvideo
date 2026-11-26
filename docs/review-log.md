@@ -237,6 +237,9 @@ từ vựng có cấp, bài học 4 ngữ pháp + 4 câu đố, audio đo trên 
 | furusato-vn-vusua-1 「お母さんの木」 | N4 | 60 | 5.6 phút | 安寿と厨子王, 親孝行したいときに親はなし | 17c3af7 |
 | furusato-vn-babe-1 「湖にしずんだ村」 | N4 | 60 | 5.5 phút | 蘇民将来 | 2fc5932 |
 | furusato-vn-mychau-1 「白い羽の道」 | N3 | 66 | 6.5 phút | お市の方 và túi đậu đỏ | 034146a |
+| furusato-kr-hokburi-1 「トッケビとこぶ」 (Hàn) | N4 | 60 | 5.2 phút | こぶとりじいさん | 2054124 |
+| furusato-id-toba-1 「金の魚の湖」 (Indonesia) | N4 | 60 | 5.6 phút | 鶴の恩返し, 蛤女房 | 5bce13c |
+| furusato-ph-magayon-1 「雲になった王子」 (Philippines) | N3 | 59 | 5.4 phút | 竹取物語 (不死→富士) | xem commit kế |
 
 Ghi chú: Bánh chưng, Táo quân, Cóc kiện trời, Nàng tiên Ốc dự định N4 nhưng tỉ lệ từ khó vượt 15% nên
 chuyển N3 (kế hoạch cho phép N4–N3 với truyện VN). Nguồn Nepal đã kiểm chứng trước khi viết.

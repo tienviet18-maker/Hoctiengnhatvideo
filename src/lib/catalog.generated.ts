@@ -10157,6 +10157,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-id-toba-1/chapter.mp3",
    "durationSec": 337.8
   }
+ },
+ {
+  "id": "furusato-ph-magayon-1",
+  "titles": {
+   "vi": "Nàng Magayon và núi lửa Mayon",
+   "en": "Daragang Magayon and Mayon Volcano",
+   "zh-Hans": "美丽的玛加永与马荣火山",
+   "zh-Hant": "美麗的瑪加永與馬榮火山",
+   "ko": "아름다운 마가욘과 마욘 화산",
+   "tl": "Ang Alamat ng Daragang Magayon",
+   "ne": "मागायोन र मायोन ज्वालामुखी",
+   "id": "Legenda Daragang Magayon",
+   "pt": "A lenda de Daragang Magayon",
+   "my": "မာဂါယွန်နဲ့ မာယွန် မီးတောင်",
+   "th": "ตำนานดารากังมากายอนกับภูเขาไฟมายอน"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 59,
+  "cover": "/covers/furusato-ph-magayon-1.webp",
+  "series": {
+   "id": "furusato-ph-magayon",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "PH",
+  "audioTrack": {
+   "src": "/audio/furusato-ph-magayon-1/chapter.mp3",
+   "durationSec": 324.432
+  }
  }
 ];
 
