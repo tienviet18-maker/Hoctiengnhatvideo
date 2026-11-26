@@ -5000,7 +5000,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/cinderella.webp"
+  "cover": "/covers/cinderella.webp",
+  "hidden": true,
+  "replacedBy": "world-cinderella-1"
  },
  {
   "id": "kotatsu-winter",
@@ -5352,7 +5354,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/snow-white.webp"
+  "cover": "/covers/snow-white.webp",
+  "hidden": true,
+  "replacedBy": "world-shirayuki-1"
  },
  {
   "id": "first-allowance",
@@ -12082,6 +12086,134 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/furusato-vn-thachlam-3/chapter.mp3",
    "durationSec": 424.608
+  }
+ },
+ {
+  "id": "world-cinderella-1",
+  "titles": {
+   "vi": "Lọ Lem (1): Đôi giày thủy tinh",
+   "en": "Cinderella (1): The Glass Slipper",
+   "zh-Hans": "灰姑娘（1）：玻璃鞋",
+   "zh-Hant": "灰姑娘（1）：玻璃鞋",
+   "ko": "신데렐라 (1): 유리 구두",
+   "tl": "Cinderella (1): Ang Sapatos na Kristal",
+   "ne": "सिन्ड्रेला (१): सिसाको जुत्ता",
+   "id": "Cinderella (1): Sepatu Kaca",
+   "pt": "Cinderela (1): O Sapatinho de Cristal",
+   "my": "စင်ဒရဲလား (၁): ဖန်ဖိနပ်",
+   "th": "ซินเดอเรลล่า (1): รองเท้าแก้ว"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 52,
+  "cover": "/covers/world-cinderella-1.webp",
+  "series": {
+   "id": "world-cinderella",
+   "index": 1
+  },
+  "shelf": "world",
+  "origin": "FR",
+  "audioTrack": {
+   "src": "/audio/world-cinderella-1/chapter.mp3",
+   "durationSec": 241.704
+  }
+ },
+ {
+  "id": "world-cinderella-2",
+  "titles": {
+   "vi": "Lọ Lem (2 – hết): Chiếc giày vừa khít",
+   "en": "Cinderella (2, end): The Perfect Fit",
+   "zh-Hans": "灰姑娘（2·完）：刚刚合脚",
+   "zh-Hant": "灰姑娘（2·完）：剛剛合腳",
+   "ko": "신데렐라 (2·끝): 꼭 맞는 구두",
+   "tl": "Cinderella (2, wakas): Saktong-sakto",
+   "ne": "सिन्ड्रेला (२, अन्तिम): ठ्याक्कै मिलेको जुत्ता",
+   "id": "Cinderella (2, tamat): Pas Sekali",
+   "pt": "Cinderela (2, fim): O Sapatinho Perfeito",
+   "my": "စင်ဒရဲလား (၂၊ ဇာတ်သိမ်း): အံကိုက်ဖိနပ်",
+   "th": "ซินเดอเรลล่า (2 จบ): รองเท้าที่พอดีเป๊ะ"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/world-cinderella-2.webp",
+  "series": {
+   "id": "world-cinderella",
+   "index": 2
+  },
+  "shelf": "world",
+  "origin": "FR",
+  "audioTrack": {
+   "src": "/audio/world-cinderella-2/chapter.mp3",
+   "durationSec": 220.728
+  }
+ },
+ {
+  "id": "world-shirayuki-1",
+  "titles": {
+   "vi": "Bạch Tuyết (1): Chiếc gương thần",
+   "en": "Snow White (1): The Magic Mirror",
+   "zh-Hans": "白雪公主（1）：魔镜",
+   "zh-Hant": "白雪公主（1）：魔鏡",
+   "ko": "백설공주 (1): 마법 거울",
+   "tl": "Snow White (1): Ang Mahiwagang Salamin",
+   "ne": "स्नो ह्वाइट (१): जादुई ऐना",
+   "id": "Putri Salju (1): Cermin Ajaib",
+   "pt": "Branca de Neve (1): O Espelho Mágico",
+   "my": "နှင်းဖြူ (၁): မှော်မှန်",
+   "th": "สโนว์ไวท์ (1): กระจกวิเศษ"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 52,
+  "cover": "/covers/world-shirayuki-1.webp",
+  "series": {
+   "id": "world-shirayuki",
+   "index": 1
+  },
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-shirayuki-1/chapter.mp3",
+   "durationSec": 256.752
+  }
+ },
+ {
+  "id": "world-shirayuki-2",
+  "titles": {
+   "vi": "Bạch Tuyết (2 – hết): Quả táo độc",
+   "en": "Snow White (2, end): The Poisoned Apple",
+   "zh-Hans": "白雪公主（2·完）：毒苹果",
+   "zh-Hant": "白雪公主（2·完）：毒蘋果",
+   "ko": "백설공주 (2·끝): 독사과",
+   "tl": "Snow White (2, wakas): Ang Lasong Mansanas",
+   "ne": "स्नो ह्वाइट (२, अन्तिम): विषालु स्याउ",
+   "id": "Putri Salju (2, tamat): Apel Beracun",
+   "pt": "Branca de Neve (2, fim): A Maçã Envenenada",
+   "my": "နှင်းဖြူ (၂၊ ဇာတ်သိမ်း): အဆိပ်ပန်းသီး",
+   "th": "สโนว์ไวท์ (2 จบ): แอปเปิลอาบยาพิษ"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 56,
+  "cover": "/covers/world-shirayuki-2.webp",
+  "series": {
+   "id": "world-shirayuki",
+   "index": 2
+  },
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-shirayuki-2/chapter.mp3",
+   "durationSec": 295.608
   }
  }
 ];
