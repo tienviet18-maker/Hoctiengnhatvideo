@@ -80,7 +80,17 @@
      "my": "ချက်ချင်း ~ တော့မလို။ 今にも + ကြိယာ ပင်စည် + そう။ ဥပမာ: 今にも消えそうなろうそく (ချက်ချင်း ငြိမ်းတော့မလို ဖယောင်းတိုင်)။ 今にも雨が降りそうだ (ချက်ချင်း မိုးရွာတော့မလို)။",
      "th": "ทำท่าจะ ~ อยู่รอมร่อ 今にも + รากกริยา + そう ตัวอย่าง: 今にも消えそうなろうそく (เทียนที่ทำท่าจะดับ) 今にも雨が降りそうだ (ทำท่าฝนจะตก)"
     },
-    "example": 41
+    "example": 41,
+    "patternFurigana": [
+     {
+      "surface": "今",
+      "reading": "いま"
+     },
+     {
+      "surface": "にも〜そう",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "〜ないと",
@@ -121,7 +131,129 @@
      "pt": "Girou o futon enquanto o Shinigami cochilava (frases 22–27).",
      "my": "သေမင်း ငိုက်နေတုန်း မွေ့ရာကို လှည့်လိုက်တယ် (စာကြောင်း ၂၂–၂၇)။",
      "th": "หมุนฟูกตอนที่ยมทูตสัปหงก (ประโยค 22–27)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "八五郎",
+      "reading": "はちごろう"
+     },
+     {
+      "surface": "は、どうやって",
+      "reading": ""
+     },
+     {
+      "surface": "死神",
+      "reading": "しにがみ"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "足",
+      "reading": "あし"
+     },
+     {
+      "surface": "のほうに",
+      "reading": ""
+     },
+     {
+      "surface": "座",
+      "reading": "すわ"
+     },
+     {
+      "surface": "らせましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "死神",
+       "reading": "しにがみ"
+      },
+      {
+       "surface": "にお",
+       "reading": ""
+      },
+      {
+       "surface": "金",
+       "reading": "かね"
+      },
+      {
+       "surface": "をわたした",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "死神",
+       "reading": "しにがみ"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "居眠",
+       "reading": "いねむ"
+      },
+      {
+       "surface": "りしている",
+       "reading": ""
+      },
+      {
+       "surface": "間",
+       "reading": "ま"
+      },
+      {
+       "surface": "に、ふとんを",
+       "reading": ""
+      },
+      {
+       "surface": "回",
+       "reading": "まわ"
+      },
+      {
+       "surface": "した",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "死神",
+       "reading": "しにがみ"
+      },
+      {
+       "surface": "をだまして",
+       "reading": ""
+      },
+      {
+       "surface": "部屋",
+       "reading": "へや"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "外",
+       "reading": "そと"
+      },
+      {
+       "surface": "に",
+       "reading": ""
+      },
+      {
+       "surface": "出",
+       "reading": "だ"
+      },
+      {
+       "surface": "した",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "洞窟のろうそくは、何を表していましたか。",
@@ -143,7 +275,77 @@
      "pt": "A vida das pessoas (frase 39).",
      "my": "လူတွေရဲ့ အသက် (စာကြောင်း ၃၉)။",
      "th": "ชีวิตของคน (ประโยค 39)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "洞窟",
+      "reading": "どうくつ"
+     },
+     {
+      "surface": "のろうそくは、",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "表",
+      "reading": "あらわ"
+     },
+     {
+      "surface": "していましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "人",
+       "reading": "ひと"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "命",
+       "reading": "いのち"
+      }
+     ],
+     [
+      {
+       "surface": "死神",
+       "reading": "しにがみ"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "数",
+       "reading": "かず"
+      }
+     ],
+     [
+      {
+       "surface": "江戸",
+       "reading": "えど"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "店",
+       "reading": "みせ"
+      }
+     ]
+    ]
    },
    {
     "ja": "どうして八五郎のろうそくは短くなっていましたか。",
@@ -165,7 +367,109 @@
      "pt": "Porque trocou o tempo de vida com o patrão da Iseya (frase 45).",
      "my": "အီဆဲယာ သူဌေးနဲ့ သက်တမ်း လဲလှယ်လိုက်လို့ (စာကြောင်း ၄၅)။",
      "th": "เพราะเอาอายุขัยไปแลกกับนายท่านอิเสะยะ (ประโยค 45)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "どうして",
+      "reading": ""
+     },
+     {
+      "surface": "八五郎",
+      "reading": "はちごろう"
+     },
+     {
+      "surface": "のろうそくは",
+      "reading": ""
+     },
+     {
+      "surface": "短",
+      "reading": "みじか"
+     },
+     {
+      "surface": "くなっていましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "毎晩",
+       "reading": "まいばん"
+      },
+      {
+       "surface": "お",
+       "reading": ""
+      },
+      {
+       "surface": "酒",
+       "reading": "さけ"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "飲",
+       "reading": "の"
+      },
+      {
+       "surface": "んだから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "伊勢屋",
+       "reading": "いせや"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "旦那",
+       "reading": "だんな"
+      },
+      {
+       "surface": "と",
+       "reading": ""
+      },
+      {
+       "surface": "寿命",
+       "reading": "じゅみょう"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "取",
+       "reading": "と"
+      },
+      {
+       "surface": "りかえてしまったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "死神",
+       "reading": "しにがみ"
+      },
+      {
+       "surface": "がろうそくを",
+       "reading": ""
+      },
+      {
+       "surface": "切",
+       "reading": "き"
+      },
+      {
+       "surface": "ったから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "新しいろうそくに火を移すことは、できましたか。",
@@ -187,7 +491,77 @@
      "pt": "As mãos tremiam e a chama não pegava (frase 50).",
      "my": "လက်တုန်ပြီး မီး မကူးနိုင်ခဲ့ (စာကြောင်း ၅၀)။",
      "th": "มือสั่นจนต่อไฟไม่ติด (ประโยค 50)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "新",
+      "reading": "あたら"
+     },
+     {
+      "surface": "しいろうそくに",
+      "reading": ""
+     },
+     {
+      "surface": "火",
+      "reading": "ひ"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "移",
+      "reading": "うつ"
+     },
+     {
+      "surface": "すことは、できましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "はい、すぐにできた",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "死神",
+       "reading": "しにがみ"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "手伝",
+       "reading": "てつだ"
+      },
+      {
+       "surface": "ってくれた",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "手",
+       "reading": "て"
+      },
+      {
+       "surface": "がふるえて、なかなか",
+       "reading": ""
+      },
+      {
+       "surface": "移",
+       "reading": "うつ"
+      },
+      {
+       "surface": "らなかった",
+       "reading": ""
+      }
+     ]
+    ]
    }
   ]
  },

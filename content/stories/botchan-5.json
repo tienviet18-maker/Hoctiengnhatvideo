@@ -46,7 +46,21 @@
      "my": "…ဖြစ်ရမယ် (သေချာ ခန့်မှန်း)။ ဥပမာ: 「電気が消えている。もう寝たに違いない」, 「あんなに練習したんだから、合格するに違いない」။",
      "th": "ต้อง…แน่ ๆ (อนุมานอย่างมั่นใจ) ตัวอย่าง: 「電気が消えている。もう寝たに違いない」「あんなに練習したんだから、合格するに違いない」"
     },
-    "example": 12
+    "example": 12,
+    "patternFurigana": [
+     {
+      "surface": "〜に",
+      "reading": ""
+     },
+     {
+      "surface": "違",
+      "reading": "ちが"
+     },
+     {
+      "surface": "いない",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "思わず〜てしまう",
@@ -63,7 +77,17 @@
      "my": "မရည်ရွယ်ဘဲ …လိုက်မိ။ ဥပမာ: 「おいしくて、思わず全部食べてしまった」, 「面白くて、電車の中で思わず笑ってしまった」။",
      "th": "เผลอ…ไปโดยไม่รู้ตัว ตัวอย่าง: 「おいしくて、思わず全部食べてしまった」「面白くて、電車の中で思わず笑ってしまった」"
     },
-    "example": 36
+    "example": 36,
+    "patternFurigana": [
+     {
+      "surface": "思",
+      "reading": "おも"
+     },
+     {
+      "surface": "わず〜てしまう",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "〜かねない",
@@ -104,7 +128,77 @@
      "pt": "Frases 2–3: o dono mentiu; Yamaarashi pediu desculpas.",
      "my": "ဝါကျ ၂–၃: အိမ်ရှင် လိမ်တာ သိလို့ ယာမာအာရာရှီ တောင်းပန်တယ်။",
      "th": "ประโยค 2–3: เจ้าของบ้านโกหก ยามะอาราชิจึงขอโทษ"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "「おれ」と",
+      "reading": ""
+     },
+     {
+      "surface": "山嵐",
+      "reading": "やまあらし"
+     },
+     {
+      "surface": "が",
+      "reading": ""
+     },
+     {
+      "surface": "仲直",
+      "reading": "なかなお"
+     },
+     {
+      "surface": "りしたのは、なぜですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "校長",
+       "reading": "こうちょう"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "仲直",
+       "reading": "なかなお"
+      },
+      {
+       "surface": "りさせたから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "下宿",
+       "reading": "げしゅく"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "主人",
+       "reading": "しゅじん"
+      },
+      {
+       "surface": "のうそだったとわかったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "赤",
+       "reading": "あか"
+      },
+      {
+       "surface": "シャツにたのまれたから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "送別会で山嵐が「美しい顔をして人をだますような者」と言ったのは、誰のことですか。",
@@ -126,7 +220,101 @@
      "pt": "Frases 18–19: alfinetada em Camisa Vermelha.",
      "my": "ဝါကျ ၁၈–၁၉: ရှပ်နီကို ထိုးနှက်တာ။",
      "th": "ประโยค 18–19: ประชดเชิ้ตแดง"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "送別会",
+      "reading": "そうべつかい"
+     },
+     {
+      "surface": "で",
+      "reading": ""
+     },
+     {
+      "surface": "山嵐",
+      "reading": "やまあらし"
+     },
+     {
+      "surface": "が「",
+      "reading": ""
+     },
+     {
+      "surface": "美",
+      "reading": "うつく"
+     },
+     {
+      "surface": "しい",
+      "reading": ""
+     },
+     {
+      "surface": "顔",
+      "reading": "かお"
+     },
+     {
+      "surface": "をして",
+      "reading": ""
+     },
+     {
+      "surface": "人",
+      "reading": "ひと"
+     },
+     {
+      "surface": "をだますような",
+      "reading": ""
+     },
+     {
+      "surface": "者",
+      "reading": "もの"
+     },
+     {
+      "surface": "」と",
+      "reading": ""
+     },
+     {
+      "surface": "言",
+      "reading": "い"
+     },
+     {
+      "surface": "ったのは、",
+      "reading": ""
+     },
+     {
+      "surface": "誰",
+      "reading": "だれ"
+     },
+     {
+      "surface": "のことですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "うらなり",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "野",
+       "reading": "の"
+      },
+      {
+       "surface": "だいこ",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "赤",
+       "reading": "あか"
+      },
+      {
+       "surface": "シャツ",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "喧嘩のあと、巡査につかまったのは誰ですか。",
@@ -148,7 +336,81 @@
      "pt": "Frase 40: só os dois que apartavam foram presos.",
      "my": "ဝါကျ ၄၀: ဖျန်ဖြေသူ နှစ်ယောက်ပဲ မိတယ်။",
      "th": "ประโยค 40: มีแค่สองคนที่เข้าห้ามถูกจับ"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "喧嘩",
+      "reading": "けんか"
+     },
+     {
+      "surface": "のあと、",
+      "reading": ""
+     },
+     {
+      "surface": "巡査",
+      "reading": "じゅんさ"
+     },
+     {
+      "surface": "につかまったのは",
+      "reading": ""
+     },
+     {
+      "surface": "誰",
+      "reading": "だれ"
+     },
+     {
+      "surface": "ですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "中学",
+       "reading": "ちゅうがく"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "生徒",
+       "reading": "せいと"
+      },
+      {
+       "surface": "たち",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "「おれ」と",
+       "reading": ""
+      },
+      {
+       "surface": "山嵐",
+       "reading": "やまあらし"
+      }
+     ],
+     [
+      {
+       "surface": "師範学校",
+       "reading": "しはんがっこう"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "生徒",
+       "reading": "せいと"
+      },
+      {
+       "surface": "たち",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "新聞には、何と書いてありましたか。",
@@ -170,7 +432,121 @@
      "pt": "Frase 45: disseram que os dois instigaram — o oposto da verdade.",
      "my": "ဝါကျ ၄၅: ဆရာနှစ်ယောက် မြှောက်ပေးတယ်တဲ့ — အမှန်နဲ့ ဆန့်ကျင်။",
      "th": "ประโยค 45: บอกว่าครูสองคนยุยง — ตรงข้ามกับความจริง"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "新聞",
+      "reading": "しんぶん"
+     },
+     {
+      "surface": "には、",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なん"
+     },
+     {
+      "surface": "と",
+      "reading": ""
+     },
+     {
+      "surface": "書",
+      "reading": "か"
+     },
+     {
+      "surface": "いてありましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "二人",
+       "reading": "ふたり"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "先生",
+       "reading": "せんせい"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "喧嘩",
+       "reading": "けんか"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "止",
+       "reading": "と"
+      },
+      {
+       "surface": "めた",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "二人",
+       "reading": "ふたり"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "先生",
+       "reading": "せんせい"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "生徒",
+       "reading": "せいと"
+      },
+      {
+       "surface": "に",
+       "reading": ""
+      },
+      {
+       "surface": "喧嘩",
+       "reading": "けんか"
+      },
+      {
+       "surface": "をさせた",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "巡査",
+       "reading": "じゅんさ"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "生徒",
+       "reading": "せいと"
+      },
+      {
+       "surface": "をつかまえた",
+       "reading": ""
+      }
+     ]
+    ]
    }
   ]
  },

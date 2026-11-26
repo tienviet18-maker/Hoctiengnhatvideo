@@ -43,7 +43,21 @@
           "pt": "Ao contrário de ~ (aparência x realidade). N2.",
           "my": "~ နဲ့ ဆန့်ကျင်ဘက် (အပြင်နဲ့ အတွင်း မတူ)။ N2။",
           "th": "ตรงกันข้ามกับ ~ (ภายนอกกับความจริงต่างกัน) N2"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜とは",
+            "reading": ""
+          },
+          {
+            "surface": "裏腹",
+            "reading": "うらはら"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜はずもなく",
@@ -119,7 +133,75 @@
           "pt": "Na quadra de tênis dos franceses, como gandula.",
           "my": "ပြင်သစ် တင်းနစ်ကွင်းမှာ ဘောကောက်သမား။",
           "th": "สนามเทนนิสของชาวฝรั่งเศส เป็นเด็กเก็บลูก"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "スアンが",
+            "reading": ""
+          },
+          {
+            "surface": "最初",
+            "reading": "さいしょ"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "働",
+            "reading": "はたら"
+          },
+          {
+            "surface": "いていた",
+            "reading": ""
+          },
+          {
+            "surface": "場所",
+            "reading": "ばしょ"
+          },
+          {
+            "surface": "はどこですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "フランス",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "じん"
+            },
+            {
+              "surface": "のテニスコート",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "洋装店",
+              "reading": "ようそうてん"
+            }
+          ],
+          [
+            {
+              "surface": "薬屋",
+              "reading": "くすりや"
+            }
+          ],
+          [
+            {
+              "surface": "警察",
+              "reading": "けいさつ"
+            },
+            {
+              "surface": "署",
+              "reading": "しょ"
+            }
+          ]
+        ]
       },
       {
         "ja": "ヴァンミンは、スアンを何ということにしましたか。",
@@ -142,7 +224,59 @@
           "pt": "Estudante de medicina.",
           "my": "ဆေးကျောင်းသား။",
           "th": "นักศึกษาแพทย์"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ヴァンミンは、スアンを",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "ということにしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "医学",
+              "reading": "いがく"
+            },
+            {
+              "surface": "生",
+              "reading": "なま"
+            }
+          ],
+          [
+            {
+              "surface": "画家",
+              "reading": "がか"
+            }
+          ],
+          [
+            {
+              "surface": "警察",
+              "reading": "けいさつ"
+            },
+            {
+              "surface": "官",
+              "reading": "かん"
+            }
+          ],
+          [
+            {
+              "surface": "フランス",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "じん"
+            }
+          ]
+        ]
       },
       {
         "ja": "「口には出さない（　）、ひそかにその日を待っていました。」",
@@ -165,7 +299,45 @@
           "pt": "「〜ものの」 = embora ~.",
           "my": "「〜ものの」 = ~ ပေမဲ့။",
           "th": "「〜ものの」 = แม้ว่า ~"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "「",
+            "reading": ""
+          },
+          {
+            "surface": "口",
+            "reading": "くち"
+          },
+          {
+            "surface": "には",
+            "reading": ""
+          },
+          {
+            "surface": "出",
+            "reading": "だ"
+          },
+          {
+            "surface": "さない（　）、ひそかにその",
+            "reading": ""
+          },
+          {
+            "surface": "日",
+            "reading": "ひ"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "待",
+            "reading": "ま"
+          },
+          {
+            "surface": "っていました。」",
+            "reading": ""
+          }
+        ]
       },
       {
         "ja": "家族が大旦那の死をひそかに待っていたのは、なぜですか。",
@@ -188,7 +360,107 @@
           "pt": "Porque a fortuna seria dividida pelo testamento.",
           "my": "သေတမ်းစာအတိုင်း အမွေ ခွဲဝေမှာမို့။",
           "th": "เพราะทรัพย์สมบัติจะถูกแบ่งตามพินัยกรรม"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "家族",
+            "reading": "かぞく"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "大旦那",
+            "reading": "おおだんな"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "死",
+            "reading": "し"
+          },
+          {
+            "surface": "をひそかに",
+            "reading": ""
+          },
+          {
+            "surface": "待",
+            "reading": "ま"
+          },
+          {
+            "surface": "っていたのは、なぜですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "遺言",
+              "reading": "ゆいごん"
+            },
+            {
+              "surface": "どおりに",
+              "reading": ""
+            },
+            {
+              "surface": "財産",
+              "reading": "ざいさん"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "分",
+              "reading": "わ"
+            },
+            {
+              "surface": "けられるから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "病気",
+              "reading": "びょうき"
+            },
+            {
+              "surface": "がうつるから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "スアンに",
+              "reading": ""
+            },
+            {
+              "surface": "会",
+              "reading": "あ"
+            },
+            {
+              "surface": "いたいから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "フランスへ",
+              "reading": ""
+            },
+            {
+              "surface": "行",
+              "reading": "い"
+            },
+            {
+              "surface": "けるから",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

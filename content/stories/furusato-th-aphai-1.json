@@ -77,7 +77,21 @@
           "pt": "Perceber que ~.",
           "my": "~တာကို သတိထားမိ။",
           "th": "สังเกตว่า~"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜のに",
+            "reading": ""
+          },
+          {
+            "surface": "気",
+            "reading": "き"
+          },
+          {
+            "surface": "づく",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜なければならない",
@@ -119,7 +133,79 @@
           "pt": "Aphai Mani aprendeu flauta; o irmão, espada.",
           "my": "အဖိုင်မဏိက ပုလွေ၊ ညီက ဓား သင်တယ်။",
           "th": "พระอภัยมณีเรียนปี่ น้องเรียนกระบี่"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "アパイマニーが",
+            "reading": ""
+          },
+          {
+            "surface": "習",
+            "reading": "なら"
+          },
+          {
+            "surface": "ってきたのは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "笛",
+              "reading": "ふえ"
+            }
+          ],
+          [
+            {
+              "surface": "剣",
+              "reading": "けん"
+            }
+          ],
+          [
+            {
+              "surface": "馬",
+              "reading": "うま"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "乗",
+              "reading": "の"
+            },
+            {
+              "surface": "ること",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "海",
+              "reading": "うみ"
+            },
+            {
+              "surface": "で",
+              "reading": ""
+            },
+            {
+              "surface": "泳",
+              "reading": "およ"
+            },
+            {
+              "surface": "ぐこと",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "アパイマニーたちを、島まで連れていったのは、だれ？",
@@ -142,7 +228,71 @@
           "pt": "A família de sereias os levou.",
           "my": "ရေသူမ မိသားစုက ကျွန်းအထိ ပို့တယ်။",
           "th": "ครอบครัวนางเงือกพาไปส่ง"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "アパイマニーたちを、",
+            "reading": ""
+          },
+          {
+            "surface": "島",
+            "reading": "しま"
+          },
+          {
+            "surface": "まで",
+            "reading": ""
+          },
+          {
+            "surface": "連",
+            "reading": "つ"
+          },
+          {
+            "surface": "れていったのは、だれ？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "人魚",
+              "reading": "にんぎょ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "親子",
+              "reading": "おやこ"
+            }
+          ],
+          [
+            {
+              "surface": "修行者",
+              "reading": "しゅぎょうしゃ"
+            }
+          ],
+          [
+            {
+              "surface": "シースワン",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "鬼",
+              "reading": "おに"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "女",
+              "reading": "おんな"
+            }
+          ]
+        ]
       },
       {
         "ja": "鬼の女が、島に入れなかったのは、なぜ？",
@@ -165,7 +315,107 @@
           "pt": "Pelo poder do eremita.",
           "my": "ရသေ့ တန်ခိုးကြောင့်။",
           "th": "เพราะฤทธิ์ของฤๅษี"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "鬼",
+            "reading": "おに"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "女",
+            "reading": "おんな"
+          },
+          {
+            "surface": "が、",
+            "reading": ""
+          },
+          {
+            "surface": "島",
+            "reading": "しま"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "入",
+            "reading": "い"
+          },
+          {
+            "surface": "れなかったのは、なぜ？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "修行者",
+              "reading": "しゅぎょうしゃ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "力",
+              "reading": "ちから"
+            },
+            {
+              "surface": "で、",
+              "reading": ""
+            },
+            {
+              "surface": "鬼",
+              "reading": "おに"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "入",
+              "reading": "い"
+            },
+            {
+              "surface": "れないようになっていたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "海",
+              "reading": "うみ"
+            },
+            {
+              "surface": "が、あれていたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "人魚",
+              "reading": "にんぎょ"
+            },
+            {
+              "surface": "が、たたかったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "笛",
+              "reading": "ふえ"
+            },
+            {
+              "surface": "で、ねむっていたから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "「浦島太郎」とちがうところは？",
@@ -188,7 +438,103 @@
           "pt": "Aphai Mani teve de fugir; Urashima se despediu bem.",
           "my": "အဖိုင်မဏိ ထွက်ပြေးရတယ်၊ ဥရရှိမ ကောင်းကောင်း ခွဲခဲ့တယ်။",
           "th": "พระอภัยมณีต้องหนี อุราชิมะลาด้วยดี"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "「",
+            "reading": ""
+          },
+          {
+            "surface": "浦島太郎",
+            "reading": "うらしまたろう"
+          },
+          {
+            "surface": "」とちがうところは？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "アパイマニーは、",
+              "reading": ""
+            },
+            {
+              "surface": "鬼",
+              "reading": "おに"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "女",
+              "reading": "おんな"
+            },
+            {
+              "surface": "から、にげなければならなかった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "アパイマニーも、",
+              "reading": ""
+            },
+            {
+              "surface": "玉手箱",
+              "reading": "たまてばこ"
+            },
+            {
+              "surface": "をあけた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "浦島太郎",
+              "reading": "うらしまたろう"
+            },
+            {
+              "surface": "は、",
+              "reading": ""
+            },
+            {
+              "surface": "笛",
+              "reading": "ふえ"
+            },
+            {
+              "surface": "をふいた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "浦島太郎",
+              "reading": "うらしまたろう"
+            },
+            {
+              "surface": "は、",
+              "reading": ""
+            },
+            {
+              "surface": "人魚",
+              "reading": "にんぎょ"
+            },
+            {
+              "surface": "と",
+              "reading": ""
+            },
+            {
+              "surface": "結",
+              "reading": "むす"
+            },
+            {
+              "surface": "ばれた",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

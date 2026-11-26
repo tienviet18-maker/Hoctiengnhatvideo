@@ -43,7 +43,21 @@
           "pt": "Fazer/deixar (alguém) ~ (causativo). Dia a dia: 先生は学生に作文を書かせた (o professor fez os alunos escreverem redação); 子どもに野菜を食べさせる (fazer a criança comer verduras).",
           "my": "(တစ်ယောက်ကို) ~ခိုင်း (ခိုင်းစေပုံစံ)။ နေ့စဉ်: 先生は学生に作文を書かせた (ဆရာက ကျောင်းသားကို စာစီစာကုံး ရေးခိုင်းတယ်); 子どもに野菜を食べさせる (ကလေးကို ဟင်းသီးဟင်းရွက် ကျွေးတယ်)။",
           "th": "ให้ (ใคร) ทำ~ (รูปให้ทำ) ชีวิตประจำวัน: 先生は学生に作文を書かせた (ครูให้นักเรียนเขียนเรียงความ); 子どもに野菜を食べさせる (ให้ลูกกินผัก)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "（",
+            "reading": ""
+          },
+          {
+            "surface": "人",
+            "reading": "ひと"
+          },
+          {
+            "surface": "）に〜させる",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜までに",
@@ -119,7 +133,49 @@
           "pt": "Causativo: 飲ませる.",
           "my": "ခိုင်းစေ: 飲ませる။",
           "th": "รูปให้ทำ: 飲ませる"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "母",
+            "reading": "はは"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "毎朝",
+            "reading": "まいあさ"
+          },
+          {
+            "surface": "、",
+            "reading": ""
+          },
+          {
+            "surface": "弟",
+            "reading": "おとうと"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "牛乳",
+            "reading": "ぎゅうにゅう"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "飲",
+            "reading": "の"
+          },
+          {
+            "surface": "ま（　　）。",
+            "reading": ""
+          }
+        ]
       },
       {
         "ja": "この本は、来週の月曜日（　　）返してください。",
@@ -142,7 +198,45 @@
           "pt": "Prazo: までに, não まで.",
           "my": "သတ်မှတ်ချိန်: までに (まで မဟုတ်)။",
           "th": "กำหนดส่ง: までに ไม่ใช่ まで"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "この",
+            "reading": ""
+          },
+          {
+            "surface": "本",
+            "reading": "ほん"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "来週",
+            "reading": "らいしゅう"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "月曜日",
+            "reading": "げつようび"
+          },
+          {
+            "surface": "（　　）",
+            "reading": ""
+          },
+          {
+            "surface": "返",
+            "reading": "かえ"
+          },
+          {
+            "surface": "してください。",
+            "reading": ""
+          }
+        ]
       },
       {
         "ja": "いくら電話を（　　）、だれも出ません。",
@@ -165,7 +259,29 @@
           "pt": "いくら combina com 〜ても.",
           "my": "いくら နဲ့ 〜ても တွဲ။",
           "th": "いくら ใช้คู่กับ 〜ても"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "いくら",
+            "reading": ""
+          },
+          {
+            "surface": "電話",
+            "reading": "でんわ"
+          },
+          {
+            "surface": "を（　　）、だれも",
+            "reading": ""
+          },
+          {
+            "surface": "出",
+            "reading": "で"
+          },
+          {
+            "surface": "ません。",
+            "reading": ""
+          }
+        ]
       },
       {
         "ja": "この町は静かで、（　　）時間が止まったようです。",
@@ -188,7 +304,45 @@
           "pt": "まるで〜ようだ: como se o tempo tivesse parado.",
           "my": "まるで〜ようだ: အချိန် ရပ်သွားသလို။",
           "th": "まるで〜ようだ: ราวกับเวลาหยุดนิ่ง"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "この",
+            "reading": ""
+          },
+          {
+            "surface": "町",
+            "reading": "まち"
+          },
+          {
+            "surface": "は",
+            "reading": ""
+          },
+          {
+            "surface": "静",
+            "reading": "しず"
+          },
+          {
+            "surface": "かで、（　　）",
+            "reading": ""
+          },
+          {
+            "surface": "時間",
+            "reading": "じかん"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "止",
+            "reading": "と"
+          },
+          {
+            "surface": "まったようです。",
+            "reading": ""
+          }
+        ]
       }
     ]
   },

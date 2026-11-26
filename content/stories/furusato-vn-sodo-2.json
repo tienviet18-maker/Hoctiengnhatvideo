@@ -43,7 +43,21 @@
           "pt": "~ só no nome; a realidade é outra.",
           "my": "နာမည်သာ ~၊ တကယ်က မတူ။",
           "th": "เป็น ~ แค่ชื่อ ความจริงต่างกันมาก"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜とは",
+            "reading": ""
+          },
+          {
+            "surface": "名",
+            "reading": "な"
+          },
+          {
+            "surface": "ばかりで",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜どころではない",
@@ -77,7 +91,21 @@
           "pt": "A partir de ~, como marco.",
           "my": "~ ကို မှတ်တိုင်ထားပြီး။",
           "th": "นับตั้งแต่ ~ เป็นจุดเปลี่ยน"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜を",
+            "reading": ""
+          },
+          {
+            "surface": "境",
+            "reading": "さかい"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜てこそ",
@@ -119,7 +147,99 @@
           "pt": "Que estava gravemente doente.",
           "my": "ရောဂါ ပြင်းတယ် ဆိုတာ။",
           "th": "ว่าตนป่วยหนัก"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ホン",
+            "reading": ""
+          },
+          {
+            "surface": "老人",
+            "reading": "ろうじん"
+          },
+          {
+            "surface": "が「ドクター」に",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "ってほしかったことは",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "ですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "surface": "は",
+              "reading": ""
+            },
+            {
+              "surface": "重",
+              "reading": "おも"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "病気",
+              "reading": "びょうき"
+            },
+            {
+              "surface": "だ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "surface": "はとても",
+              "reading": ""
+            },
+            {
+              "surface": "元気",
+              "reading": "げんき"
+            },
+            {
+              "surface": "だ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "薬",
+              "reading": "くすり"
+            },
+            {
+              "surface": "はいらない",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "テニスをしなさい",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "町の人々がファン氏を「角の生えたファン氏」と呼ぶのは、なぜですか。",
@@ -142,7 +262,135 @@
           "pt": "A esposa o trai.",
           "my": "ဇနီး ဖောက်ပြန်လို့။",
           "th": "ภรรยานอกใจ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "町",
+            "reading": "まち"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "人々",
+            "reading": "ひとびと"
+          },
+          {
+            "surface": "がファン",
+            "reading": ""
+          },
+          {
+            "surface": "氏",
+            "reading": "し"
+          },
+          {
+            "surface": "を「",
+            "reading": ""
+          },
+          {
+            "surface": "角",
+            "reading": "つの"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "生",
+            "reading": "は"
+          },
+          {
+            "surface": "えたファン",
+            "reading": ""
+          },
+          {
+            "surface": "氏",
+            "reading": "し"
+          },
+          {
+            "surface": "」と",
+            "reading": ""
+          },
+          {
+            "surface": "呼",
+            "reading": "よ"
+          },
+          {
+            "surface": "ぶのは、なぜですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "妻",
+              "reading": "つま"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "浮気",
+              "reading": "うわき"
+            },
+            {
+              "surface": "をしているから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "頭",
+              "reading": "あたま"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "角",
+              "reading": "つの"
+            },
+            {
+              "surface": "があるから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "牛",
+              "reading": "うし"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "飼",
+              "reading": "か"
+            },
+            {
+              "surface": "っているから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "とても",
+              "reading": ""
+            },
+            {
+              "surface": "怒",
+              "reading": "いか"
+            },
+            {
+              "surface": "りっぽいから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "スアンがテニスに強かったのは、なぜですか。",
@@ -165,7 +413,87 @@
           "pt": "Treino secreto quando era gandula.",
           "my": "ဘောကောက်တုန်းက ခိုးလေ့ကျင့်လို့။",
           "th": "เพราะแอบซ้อมตอนเป็นเด็กเก็บลูก"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "スアンがテニスに",
+            "reading": ""
+          },
+          {
+            "surface": "強",
+            "reading": "つよ"
+          },
+          {
+            "surface": "かったのは、なぜですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "球",
+              "reading": "たま"
+            },
+            {
+              "surface": "拾",
+              "reading": "ひろ"
+            },
+            {
+              "surface": "いのころ、こっそり",
+              "reading": ""
+            },
+            {
+              "surface": "練習",
+              "reading": "れんしゅう"
+            },
+            {
+              "surface": "していたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "医学",
+              "reading": "いがく"
+            },
+            {
+              "surface": "生",
+              "reading": "なま"
+            },
+            {
+              "surface": "だから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "フランスで",
+              "reading": ""
+            },
+            {
+              "surface": "習",
+              "reading": "なら"
+            },
+            {
+              "surface": "ったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ヴァンミンに",
+              "reading": ""
+            },
+            {
+              "surface": "教",
+              "reading": "おそ"
+            },
+            {
+              "surface": "わったから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "「はやりに乗っ（　）、文明人というものさ。」",
@@ -188,7 +516,33 @@
           "pt": "「〜てこそ」 = só ao ~.",
           "my": "「〜てこそ」 = ~ မှသာ။",
           "th": "「〜てこそ」 = ต้อง ~ จึงจะ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "「はやりに",
+            "reading": ""
+          },
+          {
+            "surface": "乗",
+            "reading": "の"
+          },
+          {
+            "surface": "っ（　）、",
+            "reading": ""
+          },
+          {
+            "surface": "文明",
+            "reading": "ぶんめい"
+          },
+          {
+            "surface": "人",
+            "reading": "ひと"
+          },
+          {
+            "surface": "というものさ。」",
+            "reading": ""
+          }
+        ]
       }
     ]
   },

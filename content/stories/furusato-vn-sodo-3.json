@@ -60,7 +60,21 @@
           "pt": "Já que ~, naturalmente ~.",
           "my": "~ ပြီဆိုတော့ သဘာဝကျကျ ~။",
           "th": "ในเมื่อ ~ ก็ย่อม ~"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜",
+            "reading": ""
+          },
+          {
+            "surface": "以上",
+            "reading": "いじょう"
+          },
+          {
+            "surface": "（は）",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜てたまらない",
@@ -119,7 +133,123 @@
           "pt": "Ouviu o grito e morreu de raiva.",
           "my": "အော်သံကြားပြီး ဒေါသထွက်လို့။",
           "th": "ได้ยินเสียงตะโกนแล้วโกรธ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "大旦那",
+            "reading": "おおだんな"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "亡",
+            "reading": "な"
+          },
+          {
+            "surface": "くなったきっかけは",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "ですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "スアンの",
+              "reading": ""
+            },
+            {
+              "surface": "叫",
+              "reading": "さけ"
+            },
+            {
+              "surface": "び",
+              "reading": ""
+            },
+            {
+              "surface": "声",
+              "reading": "ごえ"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "聞",
+              "reading": "き"
+            },
+            {
+              "surface": "いて",
+              "reading": ""
+            },
+            {
+              "surface": "怒",
+              "reading": "おこ"
+            },
+            {
+              "surface": "ったこと",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "薬",
+              "reading": "くすり"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "飲",
+              "reading": "の"
+            },
+            {
+              "surface": "みすぎたこと",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "転",
+              "reading": "ころ"
+            },
+            {
+              "surface": "んでけがをしたこと",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "テニスの",
+              "reading": ""
+            },
+            {
+              "surface": "試合",
+              "reading": "しあい"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "見",
+              "reading": "み"
+            },
+            {
+              "surface": "たこと",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "家族がひそかに喜んでいたのは、なぜですか。",
@@ -142,7 +272,119 @@
           "pt": "O testamento seria executado.",
           "my": "သေတမ်းစာ အကောင်အထည်ဖော်မှာမို့။",
           "th": "พินัยกรรมจะได้ดำเนินการ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "家族",
+            "reading": "かぞく"
+          },
+          {
+            "surface": "がひそかに",
+            "reading": ""
+          },
+          {
+            "surface": "喜",
+            "reading": "よろこ"
+          },
+          {
+            "surface": "んでいたのは、なぜですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "遺言",
+              "reading": "ゆいごん"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "実行",
+              "reading": "じっこう"
+            },
+            {
+              "surface": "されて",
+              "reading": ""
+            },
+            {
+              "surface": "財産",
+              "reading": "ざいさん"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "分",
+              "reading": "わ"
+            },
+            {
+              "surface": "けられるから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "葬式",
+              "reading": "そうしき"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "早",
+              "reading": "はや"
+            },
+            {
+              "surface": "く",
+              "reading": ""
+            },
+            {
+              "surface": "終",
+              "reading": "お"
+            },
+            {
+              "surface": "わるから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "スアンが",
+              "reading": ""
+            },
+            {
+              "surface": "家",
+              "reading": "いえ"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "出",
+              "reading": "で"
+            },
+            {
+              "surface": "るから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "雨",
+              "reading": "あめ"
+            },
+            {
+              "surface": "がやんだから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "ファーン氏がスアンにお金を渡したのは、なぜですか。",
@@ -165,7 +407,151 @@
           "pt": "Sua parte aumentou.",
           "my": "ဝေစု တိုးလို့။",
           "th": "เพราะส่วนแบ่งเพิ่มขึ้น"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ファーン",
+            "reading": ""
+          },
+          {
+            "surface": "氏",
+            "reading": "し"
+          },
+          {
+            "surface": "がスアンにお",
+            "reading": ""
+          },
+          {
+            "surface": "金",
+            "reading": "かね"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "渡",
+            "reading": "わた"
+          },
+          {
+            "surface": "したのは、なぜですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "大旦那",
+              "reading": "おおだんな"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "早",
+              "reading": "はや"
+            },
+            {
+              "surface": "く",
+              "reading": ""
+            },
+            {
+              "surface": "亡",
+              "reading": "な"
+            },
+            {
+              "surface": "くなって、",
+              "reading": ""
+            },
+            {
+              "surface": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "取",
+              "reading": "と"
+            },
+            {
+              "surface": "り",
+              "reading": ""
+            },
+            {
+              "surface": "分",
+              "reading": "ぶん"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "増",
+              "reading": "ふ"
+            },
+            {
+              "surface": "えたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "スアンが",
+              "reading": ""
+            },
+            {
+              "surface": "病気",
+              "reading": "びょうき"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "治",
+              "reading": "なお"
+            },
+            {
+              "surface": "したから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "花輪",
+              "reading": "はなわ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "代金",
+              "reading": "だいきん"
+            },
+            {
+              "surface": "だから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "テニスで",
+              "reading": ""
+            },
+            {
+              "surface": "負",
+              "reading": "ま"
+            },
+            {
+              "surface": "けたから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "「怒りの（　）息が詰まり、そのまま二度と目を開けませんでした。」",
@@ -188,7 +574,61 @@
           "pt": "De tanto ~.",
           "my": "အရမ်း ~ လို့။",
           "th": "ด้วยความ ~ เกินไป"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "「",
+            "reading": ""
+          },
+          {
+            "surface": "怒",
+            "reading": "いか"
+          },
+          {
+            "surface": "りの（　）",
+            "reading": ""
+          },
+          {
+            "surface": "息",
+            "reading": "いき"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "詰",
+            "reading": "つ"
+          },
+          {
+            "surface": "まり、そのまま",
+            "reading": ""
+          },
+          {
+            "surface": "二度",
+            "reading": "にど"
+          },
+          {
+            "surface": "と",
+            "reading": ""
+          },
+          {
+            "surface": "目",
+            "reading": "め"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "開",
+            "reading": "あ"
+          },
+          {
+            "surface": "けませんでした。」",
+            "reading": ""
+          }
+        ]
       }
     ]
   },

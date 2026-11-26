@@ -60,7 +60,21 @@
           "pt": "por mais vezes que ~",
           "my": "ဘယ်နှခါ ~ လည်း",
           "th": "~ กี่ครั้งก็"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "何",
+            "reading": "なん"
+          },
+          {
+            "surface": "度",
+            "reading": "ど"
+          },
+          {
+            "surface": "〜ても",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜ことになる",
@@ -119,7 +133,103 @@
           "pt": "Da garra da tartaruga dourada.",
           "my": "ရွှေလိပ်ရဲ့ လက်သည်း။",
           "th": "เล็บเต่าทอง"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "王",
+            "reading": "おう"
+          },
+          {
+            "surface": "さまの",
+            "reading": ""
+          },
+          {
+            "surface": "弓",
+            "reading": "ゆみ"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なん"
+          },
+          {
+            "surface": "で",
+            "reading": ""
+          },
+          {
+            "surface": "作",
+            "reading": "つく"
+          },
+          {
+            "surface": "られましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "亀",
+              "reading": "かめ"
+            },
+            {
+              "surface": "のつめ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "鳥",
+              "reading": "とり"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "羽",
+              "reading": "はね"
+            }
+          ],
+          [
+            {
+              "surface": "竜",
+              "reading": "りゅう"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "歯",
+              "reading": "は"
+            }
+          ],
+          [
+            {
+              "surface": "大",
+              "reading": "おお"
+            },
+            {
+              "surface": "きな",
+              "reading": ""
+            },
+            {
+              "surface": "木",
+              "reading": "き"
+            }
+          ]
+        ]
       },
       {
         "ja": "チョントゥイは、弓に何をしましたか。",
@@ -142,7 +252,99 @@
           "pt": "Trocou a garra por uma falsa.",
           "my": "လက်သည်းကို အတုနဲ့ လဲတယ်။",
           "th": "สลับเล็บกับของปลอม"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "チョントゥイは、",
+            "reading": ""
+          },
+          {
+            "surface": "弓",
+            "reading": "ゆみ"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "つめを、にせものと",
+              "reading": ""
+            },
+            {
+              "surface": "取",
+              "reading": "と"
+            },
+            {
+              "surface": "りかえた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "弓",
+              "reading": "ゆみ"
+            },
+            {
+              "surface": "をこわした",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "弓",
+              "reading": "ゆみ"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "にすてた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "弓",
+              "reading": "ゆみ"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さまに",
+              "reading": ""
+            },
+            {
+              "surface": "返",
+              "reading": "かえ"
+            },
+            {
+              "surface": "した",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "ミーチャウは、にげるとき、道に何を落としましたか。",
@@ -165,7 +367,71 @@
           "pt": "Penas brancas.",
           "my": "အမွေးဖြူ။",
           "th": "ขนนกสีขาว"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ミーチャウは、にげるとき、",
+            "reading": ""
+          },
+          {
+            "surface": "道",
+            "reading": "みち"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "落",
+            "reading": "お"
+          },
+          {
+            "surface": "としましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "白",
+              "reading": "しろ"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "羽",
+              "reading": "はね"
+            }
+          ],
+          [
+            {
+              "surface": "真珠",
+              "reading": "しんじゅ"
+            }
+          ],
+          [
+            {
+              "surface": "小豆",
+              "reading": "あずき"
+            }
+          ],
+          [
+            {
+              "surface": "矢",
+              "reading": "や"
+            }
+          ]
+        ]
       },
       {
         "ja": "お市が兄に送った小豆のふくろは、何を知らせましたか。",
@@ -188,7 +454,115 @@
           "pt": "Que não havia saída.",
           "my": "ထွက်ပေါက် မရှိဘူးဆိုတာ။",
           "th": "ไม่มีทางหนี"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "お",
+            "reading": ""
+          },
+          {
+            "surface": "市",
+            "reading": "いち"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "兄",
+            "reading": "あに"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "送",
+            "reading": "おく"
+          },
+          {
+            "surface": "った",
+            "reading": ""
+          },
+          {
+            "surface": "小豆",
+            "reading": "あずき"
+          },
+          {
+            "surface": "のふくろは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "知",
+            "reading": "し"
+          },
+          {
+            "surface": "らせましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "にげ",
+              "reading": ""
+            },
+            {
+              "surface": "道",
+              "reading": "どう"
+            },
+            {
+              "surface": "がないこと",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "戦",
+              "reading": "たたか"
+            },
+            {
+              "surface": "いに",
+              "reading": ""
+            },
+            {
+              "surface": "勝",
+              "reading": "か"
+            },
+            {
+              "surface": "ったこと",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "結婚",
+              "reading": "けっこん"
+            },
+            {
+              "surface": "すること",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "病気",
+              "reading": "びょうき"
+            },
+            {
+              "surface": "になったこと",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },
