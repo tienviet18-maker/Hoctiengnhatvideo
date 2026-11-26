@@ -153,6 +153,8 @@ import video110 from "../../content/videos/anpanman-it-cant-be-helped.json";
 import video111 from "../../content/videos/anpanman-the-sandwich-gift.json";
 import video112 from "../../content/videos/peppa-the-birthday-party-magician.json";
 import video113 from "../../content/videos/peppa-the-coloured-ball-trick.json";
+import video114 from "../../content/videos/shinchan-a-lucky-looking-day.json";
+import video115 from "../../content/videos/shinchan-the-suspicious-beef-stew.json";
 import story1 from "../../content/stories/baito-first-morning.json";
 import story2 from "../../content/stories/supermarket-first.json";
 import story3 from "../../content/stories/at-the-clinic.json";
@@ -821,6 +823,8 @@ export const VIDEOS: VideoContent[] = [
   video111 as unknown as VideoContent,
   video112 as unknown as VideoContent,
   video113 as unknown as VideoContent,
+  video114 as unknown as VideoContent,
+  video115 as unknown as VideoContent,
 ];
 export const STORIES: StoryContent[] = [
   // --- kệ B/C Rakugo + cổ tích (chuẩn v2) ---

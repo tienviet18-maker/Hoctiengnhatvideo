@@ -1867,6 +1867,54 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "lineCount": 35,
   "clipStart": 186,
   "clipEnd": 274
+ },
+ {
+  "id": "shinchan-a-lucky-looking-day",
+  "youtubeId": "CTISRtOtZDk",
+  "titles": {
+   "vi": "Shin-chan: Một ngày may mắn",
+   "en": "Shin-chan: A lucky-looking day",
+   "zh-Hans": "蜡笔小新：好像会有好事的一天",
+   "zh-Hant": "蠟筆小新：好像會有好事的一天",
+   "ko": "짱구: 좋은 일이 있을 것 같은 날",
+   "tl": "Shin-chan: Mukhang suwerteng araw",
+   "ne": "शिन-चान: भाग्यशाली जस्तो दिन",
+   "id": "Shin-chan: Hari yang tampak beruntung",
+   "pt": "Shin-chan: Um dia de sorte",
+   "my": "ရှင်ချန်- ကံကောင်းမယ့်ပုံရတဲ့နေ့",
+   "th": "ชินจัง: วันที่ดูเหมือนจะมีเรื่องดี"
+  },
+  "level": "N4",
+  "category": "anime",
+  "durationSec": 424,
+  "free": false,
+  "lineCount": 16,
+  "clipStart": 0,
+  "clipEnd": 76
+ },
+ {
+  "id": "shinchan-the-suspicious-beef-stew",
+  "youtubeId": "CTISRtOtZDk",
+  "titles": {
+   "vi": "Shin-chan: Món bò hầm bất thường",
+   "en": "Shin-chan: The suspicious beef stew",
+   "zh-Hans": "蜡笔小新：可疑的炖牛肉",
+   "zh-Hant": "蠟筆小新：可疑的燉牛肉",
+   "ko": "짱구: 수상한 비프스튜",
+   "tl": "Shin-chan: Ang kahina-hinalang beef stew",
+   "ne": "शिन-चान: शंकास्पद बीफ स्टु",
+   "id": "Shin-chan: Semur daging yang mencurigakan",
+   "pt": "Shin-chan: O ensopado suspeito",
+   "my": "ရှင်ချန်- သံသယဖြစ်စရာ အမဲသားဟင်း",
+   "th": "ชินจัง: สตูเนื้อน่าสงสัย"
+  },
+  "level": "N4",
+  "category": "anime",
+  "durationSec": 424,
+  "free": false,
+  "lineCount": 16,
+  "clipStart": 141,
+  "clipEnd": 202
  }
 ];
 
