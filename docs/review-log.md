@@ -857,6 +857,12 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 5: Nhà hàng lắm yêu cầu, Botchan trọn bộ, Budori 2, truyện thế giới đợt 4 — 27/11/2026 (nhánh `claude/si-stories-6`)
+
+- Đã dịch 12 gói: chumon-1/2; botchan-2 → botchan-6 (Botchan giờ đủ si cả 6 tập); budori-2; world-nagagutsu, world-rapunzel, world-aladdin-1/2 (luồng truyện thế giới nhờ sau PR #77).
+- Botchan: lời kể dùng thể văn viết (giống tập 1), lời thoại dùng khẩu ngữ. Tên/biệt danh giữ thống nhất: බොච්චන්, කියෝ, තනුකි, රතු කමිසය, යමාඅරාෂි (හොත්තා), උරනරි (කොගා), නොදයිකෝ, මැඩෝනා. Ghi chú ngữ pháp giữ nguyên ví dụ tiếng Nhật, chỉ dịch phần giải thích.
+- Sau đợt này: 75 gói có si.
+
 ## Văn học Nhật v2: 注文の多い料理店 2 tập (N3), thay gói cũ — 27/11/2026
 
 - Nhánh `claude/bungaku-v2-batch4`. `chumon-1` (52 câu, 1.366 ký tự, harder 6,4%, audio 4,4 phút, miễn phí) và `chumon-2` (60 câu, 1.865 ký tự, harder 7,9%, audio 6,0 phút).
