@@ -110,3 +110,17 @@ ruby rt { font-size: 0.52em; color: var(--navy); font-weight: 400; letter-spacin
 @keyframes spin { to { transform: rotate(360deg); } }
 .spinner { animation: spin 0.9s linear infinite; }
 @media (prefers-reduced-motion: reduce) { .spinner { animation: none; } }
+
+/* Nút mở VIP (vàng) — dùng ở phần đọc thử truyện VIP và bài học khoá */
+.btn-vip {
+  height: 44px;
+  padding: 0 22px;
+  border-radius: 10px;
+  border: 0;
+  background: #f5c542;
+  color: #14213d;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: inherit;
+}

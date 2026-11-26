@@ -8,9 +8,10 @@ import Furigana from "../../../components/Furigana";
 import WordPopup from "../../../components/WordPopup";
 import Paywall from "../../../components/Paywall";
 import LessonPanel from "./LessonPanel";
-import type { StoryContent, Translations, VocabItem } from "../../../lib/content-schema";
+import type { Translations, VocabItem } from "../../../lib/content-schema";
 import { pickText } from "../../../lib/i18n";
 import { useDocTitle } from "../../../components/DocTitle";
+import type { GatedStory } from "../../../lib/gate";
 import { PROGRESS_KEY, saveProgress, useLocalJson, type Progress } from "../../../lib/store";
 import * as player from "../../../lib/player";
 import { explainsLeft, spendExplain, storyFree } from "../../../lib/access";
@@ -36,7 +37,7 @@ export default function ReaderClient({
   next,
 }: {
   /** Chương VIP: trang tĩnh không mang câu nào (`partial`, src/lib/gate.ts) */
-  story: StoryContent & { partial?: true };
+  story: GatedStory;
   next?: { id: string; titles: Translations };
 }) {
   const { ui, lang, profile } = useLang();
@@ -63,10 +64,12 @@ export default function ReaderClient({
   const wordTapRef = useRef(false);
   const rowRefs = useRef<(HTMLDivElement | null)[]>([]);
 
+  // Chương VIP, tài khoản thường: đọc và nghe thử vài câu đầu (src/lib/gate.ts), cuối trang mời mở VIP.
+  const preview = !storyFree(story) && full.status === "locked";
   const total = story.sentences.length;
   const track = story.audioTrack && story.sentences.every((s) => s.t) ? story.audioTrack : null;
-  const duration = track ? track.durationSec : 0;
-  const locked = !storyFree(story) && full.status !== "ready";
+  const duration = track ? (preview && story.previewEnd ? story.previewEnd : track.durationSec) : 0;
+  const locked = !storyFree(story) && (full.status === "loading" || full.status === "error");
   const title = pickText(story.titles, lang);
   useDocTitle(title);
 
@@ -96,8 +99,9 @@ export default function ReaderClient({
       segs: story.sentences.map((s) => ({ audio: s.audio, t: s.t })),
       total,
       cover: story.cover?.startsWith("/covers/") ? story.cover : undefined,
+      endAt: preview ? story.previewEnd : undefined,
     }),
-    [story.id, title, story.level, track, story.sentences, total, story.cover],
+    [story.id, title, story.level, track, story.sentences, total, story.cover, preview, story.previewEnd],
   );
   const ensureLoaded = () => {
     if (player.getState().item?.id !== story.id) player.load(item);
@@ -160,9 +164,7 @@ export default function ReaderClient({
               {ui.webvip.retry}
             </button>
           </div>
-        ) : (
-          <Paywall onClose={() => history.back()} />
-        )}
+        ) : null}
       </div>
     );
   }
@@ -232,7 +234,16 @@ export default function ReaderClient({
       </div>
 
       {tab === "lesson" ? (
-        <LessonPanel story={story} vocab={vocab} onWord={setPopup} vip={profile.vip} onUnlock={() => setPaywall(true)} />
+        preview ? (
+          <div className="card" style={{ margin: "16px 20px", textAlign: "center", padding: 20 }}>
+            <p style={{ fontSize: 15, fontWeight: 700 }}>{ui.vip.lessonLocked}</p>
+            <button type="button" className="btn-vip" style={{ marginTop: 12 }} onClick={() => setPaywall(true)}>
+              {ui.vip.unlock}
+            </button>
+          </div>
+        ) : (
+          <LessonPanel story={story} vocab={vocab} onWord={setPopup} vip={profile.vip} onUnlock={() => setPaywall(true)} />
+        )
       ) : (
         <>
           <div style={{ display: "flex", gap: 8, padding: "10px 20px 0", flexWrap: "wrap" }}>
@@ -355,11 +366,26 @@ export default function ReaderClient({
                 </div>
               );
             })}
+            {preview && (
+              <div style={{ position: "relative", marginTop: 8 }}>
+                <div aria-hidden style={{ filter: "blur(5px)", opacity: 0.55, display: "flex", flexDirection: "column", gap: 14, padding: "8px 0" }}>
+                  {[92, 70, 84, 60, 78].map((w, i) => (
+                    <div key={i} style={{ height: 18, width: `${w}%`, borderRadius: 8, background: "var(--muted)" }} />
+                  ))}
+                </div>
+                <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 10, textAlign: "center" }}>
+                  <p style={{ fontSize: 15, fontWeight: 700 }}>{ui.vip.storyMore.replace("{n}", String(story.lockedCount ?? 0))}</p>
+                  <button type="button" className="btn-vip" onClick={() => setPaywall(true)}>
+                    {ui.vip.unlock}
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         </>
       )}
 
-      {tab === "story" && next && (
+      {tab === "story" && next && !preview && (
         <div style={{ padding: "16px 20px 0" }}>
           <Link href={`/read/${next.id}`} className="btn-primary" style={{ textDecoration: "none" }}>
             {ui.reader.nextChapter} · {pickText(next.titles, lang)}
