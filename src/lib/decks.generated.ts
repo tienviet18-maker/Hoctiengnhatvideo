@@ -23,6 +23,18 @@ export const DECKS: DeckInfo[] = [
   "count": 138
  },
  {
+  "id": "office-N3",
+  "group": "office",
+  "level": "N3",
+  "count": 456
+ },
+ {
+  "id": "office-N2",
+  "group": "office",
+  "level": "N2",
+  "count": 235
+ },
+ {
   "id": "keigo",
   "group": "keigo",
   "level": null,

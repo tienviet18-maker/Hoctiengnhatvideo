@@ -509,3 +509,17 @@ Trước đợt này kho chưa có gói N5 nào đạt chuẩn v2, nên Mai-chan
 - 5 gói cũ được ẩn và trỏ sang gói mới trong `content/hidden-stories.json`; lộ trình "Gia đình" ở `src/lib/paths.ts` đổi sang `maichan-01`.
 - Sửa romaji: kuromoji ghép では/には/とは thành "deha/niha/toha"; `build.mjs` giờ đổi thành "de wa/ni wa/to wa". 24 gói v2 đã dựng trước đó vẫn còn "deha" và sẽ được sửa khi dựng lại.
 - Tập 3 có kiến thức phong tục: Nhật ném răng hàm dưới lên mái, răng hàm trên xuống gầm nhà; Việt Nam cũng ném răng và xin chuột đổi răng.
+
+## Bộ thẻ có sẵn từ ViBJT — lô 3 (Công sở N3)
+
+- Thêm bộ **Tiếng Nhật công sở N3** (456 thẻ). Mỗi thẻ có nghĩa và câu ví dụ đủ 11 ngôn ngữ, kèm audio ViBJT. Nguồn dịch nằm ở `content/sources/decks/src/office-n3-*.txt`.
+- Sửa nghĩa cho `v_trade_29d1ec` (便): bản tiếng Anh của ViBJT ghi "train", nhưng câu ví dụ nói về chuyến bay. 9 ngôn ngữ mới dịch theo nghĩa "chuyến bay".
+- Tổng hiện có 4 bộ với 779 thẻ. 279 từ trong truyện/video có thêm câu ví dụ và audio.
+- Còn lại: Công sở N2 (235 thẻ), N1 (414), Ngữ pháp N3–N1.
+
+## Bộ thẻ có sẵn từ ViBJT — lô 4 (Công sở N2)
+
+- Thêm `content/sources/decks/src/office-n2-1.txt` + `office-n2-2.txt` (235 thẻ): nghĩa + câu ví dụ đủ 9 ngôn ngữ còn thiếu (zh-Hans, zh-Hant, ko, tl, ne, id, pt, my, th), Claude tự dịch.
+- Bộ "Tiếng Nhật công sở N2" lên app. Tổng 5 bộ, 1014 thẻ.
+- Một số nghĩa tiếng Anh gốc của ViBJT lệch câu ví dụ (ずらす, 貨物, 往復): dịch theo câu tiếng Nhật, không theo bản Anh.
+- Câu có cụm tiếng Nhật giữ nguyên (「ご苦労様」) để nguyên chữ Nhật trong bản zh-Hant.
