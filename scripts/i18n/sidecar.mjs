@@ -5,13 +5,40 @@
 //   V<TAB><en><TAB>  nghĩa từ vựng, khoá bằng nghĩa tiếng Anh (dùng chung trong gói)
 //   P<n> / Q<n>      bài học: ý nghĩa mẫu ngữ pháp n / giải thích câu đố n
 // Dòng bắt đầu bằng # là chú thích. Builder gọi applySidecar sau khi dựng gói để không mất bản dịch.
+// Dòng "#@h KHOÁ:băm ..." lưu băm của bản tiếng Anh từng ô lúc dịch (V: băm cả danh sách nghĩa).
+// Gói đổi sau khi dịch: ô nào đổi tiếng Anh thì bỏ bản dịch cũ (app tự lùi về tiếng Anh) và chỉ cảnh báo,
+// không chặn cổng của luồng khác. Dịch lại ô đó rồi chạy apply.mjs <lang> <id> --rehash.
 import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { createHash } from "node:crypto";
 
-/** Dấu vân tay nội dung gốc (ja + en) để phát hiện gói bị dựng lại khác đi sau khi đã dịch. */
+const h6 = (t) => createHash("sha1").update(t).digest("hex").slice(0, 6);
+
+/** Dấu vân tay cũ (cả gói), chỉ dùng để chuyển sidecar dạng #@src sang #@h. */
 export function fingerprint(pack) {
   return createHash("sha1").update(slots(pack).map((s) => `${s.key}\u0001${s.en}`).join("\u0002")).digest("hex").slice(0, 12);
+}
+
+/** Băm tiếng Anh từng ô hiện tại của gói: Map khoá -> băm; "V" = băm danh sách nghĩa từ vựng. */
+export function slotHashes(pack) {
+  const h = new Map();
+  const vs = new Set();
+  for (const s of slots(pack)) {
+    if (s.key === "V") vs.add(s.en);
+    else h.set(s.key, h6(s.en));
+  }
+  h.set("V", h6([...vs].sort().join("\u0001")));
+  return h;
+}
+
+export function hashLine(pack) {
+  return "#@h " + [...slotHashes(pack)].map(([k, v]) => `${k}:${v}`).join(" ");
+}
+
+export function parseHashLine(text) {
+  const line = /^#@h (.*)$/m.exec(text)?.[1];
+  if (!line) return null;
+  return new Map(line.trim().split(/\s+/).map((kv) => kv.split(":")));
 }
 
 export function parseSidecar(text) {
@@ -68,25 +95,45 @@ export function sidecarPath(root, lang, id) {
   return join(root, "content/translations", lang, `${id}.tsv`);
 }
 
-/** Ghi bản dịch sidecar vào gói. Trả về số ô còn thiếu (0 = đủ). Ném lỗi nếu có khoá thừa. */
+/** Ghi bản dịch sidecar vào gói.
+ * Trả về { missing, stale, fresh }: missing = ô thiếu lúc dịch (lỗi), stale = ô gốc đã đổi
+ * hoặc ô mới thêm sau khi dịch (cảnh báo, bản dịch cũ bị bỏ). Ném lỗi nếu sidecar hỏng/khoá thừa. */
 export function applySidecar(pack, lang, root, { strict = false } = {}) {
   const p = sidecarPath(root, lang, pack.id);
   if (!existsSync(p)) return null;
   const text = readFileSync(p, "utf8");
-  const fp = /^#@src (\w+)/m.exec(text)?.[1];
-  if (fp && fp !== fingerprint(pack)) throw new Error(`${pack.id}: nội dung gốc đã đổi sau khi dịch ${lang} (#@src ${fp}) — dịch lại các ô đổi rồi xoá dòng #@src`);
   const { m, vocab } = parseSidecar(text);
   const g = globalVocab(root, lang);
+  let hashes = parseHashLine(text);
+  const legacy = /^#@src (\w+)/m.exec(text)?.[1];
+  if (!hashes && legacy && legacy === fingerprint(pack)) hashes = slotHashes(pack);
+  const now = slotHashes(pack);
+  const vFresh = !hashes || hashes.get("V") === now.get("V");
   const used = new Set();
-  let missing = 0;
+  let missing = 0, stale = 0;
   for (const s of slots(pack)) {
-    const val = s.key === "V" ? vocab.get(s.en) ?? g.get(s.en) : m.get(s.key);
-    if (val) {
+    if (s.key === "V") {
+      const val = vocab.get(s.en) ?? g.get(s.en);
+      if (val) s.obj[lang] = val;
+      else if (vFresh) missing++;
+      else stale++;
+      continue;
+    }
+    const known = !hashes || hashes.has(s.key);
+    const same = !hashes || hashes.get(s.key) === now.get(s.key);
+    const val = m.get(s.key);
+    if (val && same) {
       s.obj[lang] = val;
-      if (s.key !== "V") used.add(s.key);
-    } else missing++;
+      used.add(s.key);
+    } else {
+      delete s.obj[lang];
+      if (val) used.add(s.key);
+      if (known && same) missing++;
+      else stale++;
+    }
   }
   const extra = [...m.keys()].filter((k) => !used.has(k));
-  if (extra.length && strict) throw new Error(`${pack.id}: khoá thừa ${extra.slice(0, 5).join(", ")}`);
-  return missing;
+  if (extra.length && strict && !(hashes && extra.every((k) => !now.has(k) && hashes.has(k))))
+    throw new Error(`${pack.id}: khoá thừa ${extra.slice(0, 5).join(", ")}`);
+  return { missing, stale, fresh: !!hashes && [...now].every(([k, v]) => hashes.get(k) === v) };
 }
