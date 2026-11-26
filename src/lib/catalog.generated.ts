@@ -9036,7 +9036,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (2): Hari Pertama Kerja",
    "pt": "Trabalhando em Osaka (2): Primeiro dia de trabalho",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၂) - ပထမဆုံး အလုပ်ဆင်းရက်",
-   "th": "ทำงานที่โอซาก้า (2): วันแรกของการทำงาน"
+   "th": "ทำงานที่โอซาก้า (2): วันแรกของการทำงาน",
+   "si": "ඔසාකාහි වැඩ කිරීම (2): රැකියාවේ පළමු දිනය"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -10344,7 +10345,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Lilin Merah dan Putri Duyung",
    "pt": "As Velas Vermelhas e a Sereia",
    "my": "အနီရောင် ဖယောင်းတိုင်နှင့် ရေသူမ",
-   "th": "เทียนสีแดงกับนางเงือก"
+   "th": "เทียนสีแดงกับนางเงือก",
+   "si": "රතු ඉටිපන්දම් සහ මත්ස්‍යකන්‍යාව"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10403,7 +10405,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hanshichi: Arwah Ofumi (2)",
    "pt": "Hanshichi: O Fantasma de Ofumi (2)",
    "my": "ဟန်ရှိချိ: အိုဖူမိရဲ့ ဝိညာဉ် (၂)",
-   "th": "ฮันชิจิ: วิญญาณโอฟุมิ (2)"
+   "th": "ฮันชิจิ: วิญญาณโอฟุมิ (2)",
+   "si": "හන්ෂිචිගේ නඩු පොත: ඔෆුමිගේ හොල්මන (2 කොටස)"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -10466,7 +10469,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Layar Neraka (2)",
    "pt": "O Biombo do Inferno (2)",
    "my": "ငရဲပုံ ကာရံ (၂)",
-   "th": "ฉากกั้นนรก (2)"
+   "th": "ฉากกั้นนรก (2)",
+   "si": "නිරා තිරය (2)"
   },
   "level": "N2",
   "topic": "classic-literature",
@@ -10561,7 +10565,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Riwayat Gusuko Budori (3)",
    "pt": "A Vida de Gusuko Budori (3)",
    "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၃)",
-   "th": "ชีวประวัติของกุสุโค บุโดริ (3)"
+   "th": "ชีวประวัติของกุสุโค บุโดริ (3)",
+   "si": "ගුසුකෝ බුදෝරිගේ ජීවිතය (3)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10592,7 +10597,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Riwayat Gusuko Budori (4)",
    "pt": "A Vida de Gusuko Budori (4)",
    "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၄)",
-   "th": "ชีวประวัติของกุสุโค บุโดริ (4)"
+   "th": "ชีวประวัติของกุสุโค บุโดริ (4)",
+   "si": "ගුසුකෝ බුදෝරිගේ ජීවිතය (4)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10655,7 +10661,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hanshichi: Manusia Salju (2)",
    "pt": "Hanshichi: O Boneco de Neve (2)",
    "my": "ဟန်ရှိချိ: နှင်းလူရုပ် (၂)",
-   "th": "ฮันชิจิ: ตุ๊กตาหิมะ (2)"
+   "th": "ฮันชิจิ: ตุ๊กตาหิมะ (2)",
+   "si": "හන්ෂිචි: හිම මිනිසා (2)"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -10910,7 +10917,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Pita Berbintik (2, tamat): Siulan Tengah Malam",
    "pt": "A Faixa Malhada (2, final): O Assobio da Meia-Noite",
    "my": "အစက်ပြောက်ကြိုး (၂၊ ဇာတ်သိမ်း): သန်းခေါင်ယံ လေချွန်သံ",
-   "th": "แถบลายจุด (2 จบ): เสียงผิวปากยามเที่ยงคืน"
+   "th": "แถบลายจุด (2 จบ): เสียงผิวปากยามเที่ยงคืน",
+   "si": "තිත් සහිත පටිය (2, අවසානය): මධ්‍යම රාත්‍රියේ විසිල්ල"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -13033,6 +13041,130 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/world-bremen/chapter.mp3",
    "durationSec": 182.04
+  }
+ },
+ {
+  "id": "life-marcus-1",
+  "titles": {
+   "vi": "Cuốn sổ ban đêm của hoàng đế",
+   "en": "The Emperor's Night Notebook",
+   "zh-Hans": "皇帝的夜间笔记",
+   "zh-Hant": "皇帝的夜間筆記",
+   "ko": "황제의 밤 노트",
+   "tl": "Ang Kuwaderno ng Emperador sa Gabi",
+   "ne": "सम्राटको रातको कापी",
+   "id": "Buku Catatan Malam Sang Kaisar",
+   "pt": "O Caderno Noturno do Imperador",
+   "my": "ဧကရာဇ်၏ ညဘက် မှတ်စုစာအုပ်",
+   "th": "สมุดบันทึกยามค่ำคืนของจักรพรรดิ"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 45,
+  "cover": "/covers/life-marcus-1.webp",
+  "series": {
+   "id": "life-marcus",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-marcus-1/chapter.mp3",
+   "durationSec": 236.52
+  }
+ },
+ {
+  "id": "life-wattles-1",
+  "titles": {
+   "vi": "Khoa học làm giàu",
+   "en": "The Science of Getting Rich",
+   "zh-Hans": "致富的科学",
+   "zh-Hant": "致富的科學",
+   "ko": "부자가 되는 과학",
+   "tl": "Ang Agham ng Pagyaman",
+   "ne": "धनी हुने विज्ञान",
+   "id": "Ilmu Menjadi Kaya",
+   "pt": "A Ciência de Ficar Rico",
+   "my": "ချမ်းသာလာခြင်း၏ သိပ္ပံ",
+   "th": "ศาสตร์แห่งความมั่งคั่ง"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 45,
+  "cover": "/covers/life-wattles-1.webp",
+  "series": {
+   "id": "life-wattles",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-wattles-1/chapter.mp3",
+   "durationSec": 240.19
+  }
+ },
+ {
+  "id": "life-rongo-1",
+  "titles": {
+   "vi": "Thầy và trò",
+   "en": "The Teacher and His Students",
+   "zh-Hans": "老师与弟子",
+   "zh-Hant": "老師與弟子",
+   "ko": "스승과 제자",
+   "tl": "Ang Guro at ang mga Alagad",
+   "ne": "गुरु र चेला",
+   "id": "Guru dan Murid",
+   "pt": "O Mestre e os Discípulos",
+   "my": "ဆရာနှင့် တပည့်",
+   "th": "ครูกับศิษย์"
+  },
+  "level": "N4",
+  "topic": "philosophy",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 44,
+  "cover": "/covers/life-rongo-1.webp",
+  "series": {
+   "id": "life-rongo",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-rongo-1/chapter.mp3",
+   "durationSec": 215.95
+  }
+ },
+ {
+  "id": "life-yukkuri-1",
+  "titles": {
+   "vi": "Ngày Chủ nhật chậm rãi",
+   "en": "A Slow Sunday",
+   "zh-Hans": "慢慢的星期天",
+   "zh-Hant": "慢慢的星期天",
+   "ko": "느긋한 일요일",
+   "tl": "Isang Mabagal na Linggo",
+   "ne": "बिस्तारै बितेको आइतबार",
+   "id": "Minggu yang Pelan",
+   "pt": "Um Domingo Devagar",
+   "my": "အေးအေးဆေးဆေး တနင်္ဂနွေ",
+   "th": "วันอาทิตย์แสนช้า"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 44,
+  "cover": "/covers/life-yukkuri-1.webp",
+  "series": {
+   "id": "life-yukkuri",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-yukkuri-1/chapter.mp3",
+   "durationSec": 204.43
   }
  },
  {
