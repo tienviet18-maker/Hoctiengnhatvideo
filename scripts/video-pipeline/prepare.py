@@ -45,15 +45,18 @@ def asr_events(vid, tmp):
     return ev
 
 
-def whisper_segments(vid, tmp):
+def whisper_segments(vid, tmp, music=False):
     from faster_whisper import WhisperModel
-    r = ytdlp(["-q", "-f", "140", "-o", os.path.join(tmp, "%(id)s.%(ext)s"), "--", vid])
-    audio = os.path.join(tmp, f"{vid}.m4a")
+    r = ytdlp(["-q", "-f", "140/bestaudio[ext=m4a]/bestaudio", "-o", os.path.join(tmp, "%(id)s.%(ext)s"), "--", vid])
+    found = [f for f in os.listdir(tmp) if f.startswith(vid + ".") and not f.endswith(".json3")]
+    audio = os.path.join(tmp, found[0]) if found else os.path.join(tmp, f"{vid}.m4a")
     if not os.path.exists(audio):
         sys.exit(f"audio download failed: {r.stderr.strip()[-300:]}")
     try:
         m = WhisperModel(os.environ.get("WHISPER_MODEL", "small"), device="cpu", compute_type="int8")
-        segs, _ = m.transcribe(audio, language="ja", word_timestamps=True, condition_on_previous_text=False, vad_filter=True)
+        segs, _ = m.transcribe(audio, language="ja", word_timestamps=True, condition_on_previous_text=False, vad_filter=True,
+                                  # anime: background music fools the default VAD (it dropped almost all speech)
+                                  vad_parameters=dict(threshold=0.2, min_silence_duration_ms=1500) if music else None)
         out = []
         for s in segs:
             words = [(w.start, w.end, w.word) for w in (s.words or [])]
@@ -120,7 +123,7 @@ def main():
         sys.exit(f"REJECT {a.vid}: embeddable={meta['embeddable']} availability={meta['availability']}")
     with tempfile.TemporaryDirectory() as tmp:
         asr = asr_events(a.vid, tmp)
-        segs = whisper_segments(a.vid, tmp)
+        segs = whisper_segments(a.vid, tmp, music=a.category == "anime")
     lines = [x for s in segs for x in split_long(s)]
     for l in lines:
         l["agree"] = round(agreement(l, asr), 2) if asr else None

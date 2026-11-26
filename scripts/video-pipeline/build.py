@@ -50,7 +50,7 @@ def romaji(r):
 
 
 def slug(s):
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+    s = unicodedata.normalize("NFKD", s.replace("'", "")).encode("ascii", "ignore").decode().lower()
     s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
     return "-".join(s.split("-")[:4]) or "clip"
 

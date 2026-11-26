@@ -1771,6 +1771,54 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "lineCount": 11,
   "clipStart": 70,
   "clipEnd": 130
+ },
+ {
+  "id": "anpanman-it-cant-be-helped",
+  "youtubeId": "Jbk8JEAr8AE",
+  "titles": {
+   "vi": "Anpanman: Đành chịu thôi mà!",
+   "en": "Anpanman: It can't be helped!",
+   "zh-Hans": "面包超人：没办法嘛！",
+   "zh-Hant": "麵包超人：沒辦法嘛！",
+   "ko": "호빵맨: 어쩔 수 없잖아!",
+   "tl": "Anpanman: Wala nang magagawa!",
+   "ne": "आनपानम्यान: के गर्ने, उपाय छैन!",
+   "id": "Anpanman: Apa boleh buat!",
+   "pt": "Anpanman: Não tem jeito!",
+   "my": "အန်ပန်မန်း- မတတ်နိုင်ဘူးလေ!",
+   "th": "อันปังแมน: ช่วยไม่ได้นี่นา!"
+  },
+  "level": "N5",
+  "category": "anime",
+  "durationSec": 637,
+  "free": false,
+  "lineCount": 17,
+  "clipStart": 197,
+  "clipEnd": 287
+ },
+ {
+  "id": "anpanman-the-sandwich-gift",
+  "youtubeId": "Jbk8JEAr8AE",
+  "titles": {
+   "vi": "Anpanman: Món quà là bánh mì kẹp",
+   "en": "Anpanman: The sandwich gift",
+   "zh-Hans": "面包超人：三明治礼物",
+   "zh-Hant": "麵包超人：三明治禮物",
+   "ko": "호빵맨: 샌드위치 선물",
+   "tl": "Anpanman: Ang regalong sandwich",
+   "ne": "आनपानम्यान: स्यान्डविचको उपहार",
+   "id": "Anpanman: Hadiah roti lapis",
+   "pt": "Anpanman: O presente de sanduíche",
+   "my": "အန်ပန်မန်း- ပေါင်မုန့်ညှပ် လက်ဆောင်",
+   "th": "อันปังแมน: ของขวัญแซนด์วิช"
+  },
+  "level": "N5",
+  "category": "anime",
+  "durationSec": 637,
+  "free": false,
+  "lineCount": 18,
+  "clipStart": 328,
+  "clipEnd": 402
  }
 ];
 
