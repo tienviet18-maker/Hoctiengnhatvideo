@@ -11360,6 +11360,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-kieu-2/chapter.mp3",
    "durationSec": 354.096
   }
+ },
+ {
+  "id": "furusato-vn-kieu-3",
+  "titles": {
+   "vi": "Truyện Kiều (3): Hoạn Thư và Từ Hải",
+   "en": "The Tale of Kieu (3): Hoan Thu and Tu Hai",
+   "zh-Hans": "金云翘传（3）：宦姐与徐海",
+   "zh-Hant": "金雲翹傳（3）：宦姐與徐海",
+   "ko": "쭈옌 끼에우 (3): 호안 트와 뜨 하이",
+   "tl": "Ang Kuwento ni Kieu (3): Si Hoan Thu at si Tu Hai",
+   "ne": "किएउको कथा (३): होआन थु र तु हाइ",
+   "id": "Kisah Kieu (3): Hoan Thu dan Tu Hai",
+   "pt": "A História de Kieu (3): Hoan Thu e Tu Hai",
+   "my": "ကီအဲဝ်ဇာတ်လမ်း (၃): ဟွမ်းသူနဲ့ တူဟိုင်",
+   "th": "เรื่องของเกี่ยว (3): ฮหว่านทือกับตื่อไฮ่"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 57,
+  "cover": "/covers/furusato-vn-kieu-3.webp",
+  "series": {
+   "id": "furusato-vn-kieu",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-kieu-3/chapter.mp3",
+   "durationSec": 370.872
+  }
  }
 ];
 
