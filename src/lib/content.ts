@@ -727,6 +727,8 @@ import v2LifeIkari1 from "../../content/stories/life-ikari-1.json";
 import v2MysteryHoichi1 from "../../content/stories/mystery-hoichi-1.json";
 import v2MysteryHoichi2 from "../../content/stories/mystery-hoichi-2.json";
 import v2MysteryMujina1 from "../../content/stories/mystery-mujina-1.json";
+import v2MysteryAkagami1 from "../../content/stories/mystery-akagami-1.json";
+import v2MysteryAkagami2 from "../../content/stories/mystery-akagami-2.json";
 // --- hết kệ ma & trinh thám: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1458,6 +1460,8 @@ export const STORIES: StoryContent[] = [
   v2MysteryHoichi1 as unknown as StoryContent,
   v2MysteryHoichi2 as unknown as StoryContent,
   v2MysteryMujina1 as unknown as StoryContent,
+  v2MysteryAkagami1 as unknown as StoryContent,
+  v2MysteryAkagami2 as unknown as StoryContent,
   // --- hết kệ ma & trinh thám ---
 ];
 

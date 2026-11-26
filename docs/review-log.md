@@ -785,3 +785,10 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Bài học 4 điểm ngữ pháp + 5 câu hỏi mỗi tập, vị trí đáp án đúng xoay vòng.
 - Ẩn gói cũ `gongitsune` → `gongitsune-1` qua `content/hidden-stories.json`. Đăng ký trong khối "làm lại Mai-chan + văn học Nhật".
 - `npm run verify` xanh.
+
+## Kệ ma & trinh thám — lô 2 (Sherlock Holmes「赤毛組合」) — 26/11/2026
+
+- Lô 1 (PR #62: `mystery-hoichi-1/2`, `mystery-mujina-1`) đã gộp vào main.
+- Thêm `mystery-akagami-1` (N3, 55 câu, 6:07, miễn phí) và `mystery-akagami-2` (N3, 52 câu, 5:11, VIP): bản kể lại tiếng Nhật dễ của "The Red-Headed League" (Doyle 1891, public domain). Chi tiết ở `content/stories/mystery-akagami-*.qc.md`.
+- `register.mjs`: gộp với cơ chế `--block` của luồng Triết lý sống; thêm khóa `ma` → khối "kệ ma & trinh thám".
+- ID đã cấp cho kệ này (để luồng khác không trùng): `mystery-hoichi-*`, `mystery-mujina-*`, `mystery-akagami-*`; sắp tới `mystery-nisen-*` (二銭銅貨), `mystery-rokuro-*`, `mystery-chawan-*`, `mystery-garnet-*`, `mystery-dzaka-*`, `mystery-shinri-*`.
