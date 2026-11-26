@@ -679,3 +679,10 @@ Việt giao đấu nối Firebase, Cloudflare và SePay, học theo ViBJT. Bài 
   mở đăng nhập trước, xong thì sang bước chuyển khoản; tab Tôi hiện tên/email tài khoản thay cho chữ "MiraiGo".
 - Phần video (phụ đề YouTube che hình, tua ra ngoài đoạn cắt) chuyển cho luồng video.
 - `npm run verify` xanh.
+
+## Chưa ra mắt: tắt bán VIP web và chặn lập chỉ mục — 27/11/2026
+
+- Việt 27/11: "data còn đang quá mỏng, không thể tung ra thị trường". SePay qua vimai.jp đã nối thật, nên tắt bán:
+  cờ `PRELAUNCH` trong `src/lib/firebase-config.ts`. Màn VIP vẫn hiện giá nhưng nút mua thành "Sắp mở bán" (khoá).
+- Cùng cờ đó: `robots.txt` chặn mọi máy tìm kiếm và mọi trang có `noindex, nofollow`.
+- Mở bán: đổi `PRELAUNCH = false`, deploy lại.
