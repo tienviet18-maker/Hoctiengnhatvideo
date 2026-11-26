@@ -17,3 +17,9 @@ export const FIREBASE_ENABLED = FIREBASE_WEB_CONFIG.apiKey.length > 0;
 /** API VIP web chung của ViMai (vimai-ecosystem docs/WEB_VIP.md). */
 export const WEBVIP_API = "https://vimai.jp";
 export const WEBVIP_APP = "miraigo";
+
+/**
+ * Chưa ra mắt (Việt 27/11: "data còn quá mỏng, không thể tung ra thị trường"): tắt bán VIP trên web và
+ * không cho máy tìm kiếm lập chỉ mục. Mở bán: đổi PRELAUNCH = false rồi deploy lại.
+ */
+export const PRELAUNCH = true;

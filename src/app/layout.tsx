@@ -5,6 +5,7 @@ import "./globals.css";
 import { SITE_URL } from "../lib/seo";
 import { LangProvider } from "../components/LangProvider";
 import DocTitle from "../components/DocTitle";
+import { PRELAUNCH } from "../lib/firebase-config";
 import TabBar from "../components/TabBar";
 import MiniPlayer from "../components/MiniPlayer";
 import AccountRoot from "../components/AccountRoot";
@@ -17,6 +18,8 @@ const bvp = Be_Vietnam_Pro({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  // Chưa ra mắt: không cho máy tìm kiếm lập chỉ mục (src/lib/firebase-config.ts PRELAUNCH)
+  ...(PRELAUNCH ? { robots: { index: false, follow: false } } : {}),
   title: {
     default: "MiraiGo: Xem phim vui, nghe truyện hay",
     template: "%s · MiraiGo",

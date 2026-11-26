@@ -56,7 +56,7 @@ export default function StoryCover({
         )}
       </span>
       )}
-      {/* Không gắn nhãn VIP lên bìa: truyện nào cũng mở đọc thử được, lời mời VIP hiện sau vài câu (Việt, 26/11/2026) */}
+      {/* Việt 26/11: không gắn nhãn VIP trên bìa; khách vào đọc thử vài câu rồi mới mời VIP */}
       {pct > 0 && (
         <span style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 3, background: "rgba(0,0,0,.15)" }}>
           <span style={{ display: "block", width: `${pct}%`, height: 3, background: "var(--accent)" }} />

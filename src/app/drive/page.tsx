@@ -82,7 +82,7 @@ export default function DrivePage() {
               </span>
             </span>
             <span className="lvl">{s.level}</span>
-            {s.free ? <span className="free-badge">{ui.common.free}</span> : <span className="lock-badge">{ui.common.vip}</span>}
+            {s.free && <span className="free-badge">{ui.common.free}</span>}
           </button>
         ))}
       </div>
