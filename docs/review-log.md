@@ -621,3 +621,18 @@ Việt cho phép bỏ hoặc làm lại truyện của Muse không đạt chuẩ
 - Thêm cả 24 id vào `content/hidden-stories.json` với giá trị `null` (cho nghỉ). Chỉ ẩn, không xoá: link cũ vẫn mở, trang để noindex.
 - `src/lib/paths.ts`: gỡ các id này khỏi lộ trình Đi làm, Gia đình và Giải trí. Phần cấp cao của lộ trình Giải trí thay bằng tập 1 của Số đỏ, Truyện Kiều và Hoàng Lê (đều chuẩn v2).
 - Sau khi ẩn, kệ đang hiện: N2 có 10 gói v2 + 0 gói cũ, N1 có 3 gói v2. Cần thêm truyện N1 (ứng viên: truyện ngắn Thạch Lam, văn học Nhật public domain).
+
+## Truyện ngắn Thạch Lam — N1, 3 truyện (26/11/2026)
+
+Thêm truyện N1 để bù kệ N1 sau khi ẩn bài luận cũ. Thạch Lam mất 1942 nên tác phẩm đã thuộc public domain. Mỗi truyện được kể lại bằng tiếng Nhật N1 từ nguyên tác tiếng Việt, có giản lược và ghi rõ trong `sourceNote`. Kệ `hometown`, origin VN, series `furusato-vn-thachlam`.
+
+| # | ID | Truyện | Câu / ký tự | Audio | Commit |
+| --- | --- | --- | --- | --- | --- |
+| 1 (free) | `furusato-vn-thachlam-1` | Hai đứa trẻ (夜汽車を待つ子) | 61 / 2023 | 6,8 phút | bc47f6b |
+| 2 | `furusato-vn-thachlam-2` | Gió lạnh đầu mùa (初冬の冷たい風) | 60 / 2018 | 6,7 phút | de6b69c |
+| 3 | `furusato-vn-thachlam-3` | Dưới bóng hoàng lan (ホアンランの木陰で) | 61 / 2078 | 7,1 phút | c557f8a |
+
+- Đủ chuẩn v2: dịch và giải thích 10 ngôn ngữ, bài học 4 ngữ pháp + 4 câu hỏi, bìa 文庫 (motif `thachlam1`–`thachlam3`, mỗi truyện một font), chỉ giọng Aoede, Neural2-B và Neural2-C.
+- atLevel N1 của tập 3 ban đầu chỉ 3,4%, đã nâng lên 5,4% bằng từ N1 tự nhiên (郷愁, 素朴, 趣, 名残, 傍ら, 惜しむ).
+- Sửa romaji bằng `phrases`: ガーはね → "wa ne", じんわり, 取るに足りない, もう少し, タンさん.
+- Kệ N1 hiện có 6 gói v2 (Hoàng Lê ×3, Thạch Lam ×3).
