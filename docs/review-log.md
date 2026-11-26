@@ -686,3 +686,8 @@ Việt giao đấu nối Firebase, Cloudflare và SePay, học theo ViBJT. Bài 
   cờ `PRELAUNCH` trong `src/lib/firebase-config.ts`. Màn VIP vẫn hiện giá nhưng nút mua thành "Sắp mở bán" (khoá).
 - Cùng cờ đó: `robots.txt` chặn mọi máy tìm kiếm và mọi trang có `noindex, nofollow`.
 - Mở bán: đổi `PRELAUNCH = false`, deploy lại.
+
+## Bỏ nhãn VIP trên bìa và danh sách — 27/11/2026
+
+- Việt: không hiện VIP ngay từ ảnh bìa, cho khách đọc thử vài câu rồi mới mời mua. Bỏ nhãn VIP ở bìa truyện
+  (`StoryCover`), ảnh video, danh sách lái xe và lộ trình; chỉ còn nhãn "Miễn phí". Phần đọc thử 3 câu giữ nguyên.

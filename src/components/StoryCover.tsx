@@ -56,9 +56,7 @@ export default function StoryCover({
         )}
       </span>
       )}
-      {!story.free && (
-        <span style={{ position: "absolute", right: 6, top: 6, fontSize: 9, fontWeight: 800, background: "#14213D", color: "#F5C542", borderRadius: 5, padding: "2px 5px" }}>VIP</span>
-      )}
+      {/* Việt 26/11: không gắn nhãn VIP trên bìa; khách vào đọc thử vài câu rồi mới mời VIP */}
       {pct > 0 && (
         <span style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 3, background: "rgba(0,0,0,.15)" }}>
           <span style={{ display: "block", width: `${pct}%`, height: 3, background: "var(--accent)" }} />

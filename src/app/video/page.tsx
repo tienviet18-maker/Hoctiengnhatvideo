@@ -240,7 +240,7 @@ export default function VideoPage() {
           <span className="thumb" style={{ width: 112, height: 66 }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`} alt="" />
-            <span className="tag">{v.free ? <span className="free-badge">{ui.common.free}</span> : <span className="lock-badge">VIP</span>}</span>
+            {v.free && <span className="tag"><span className="free-badge">{ui.common.free}</span></span>}
             <span className="dur">{formatDuration(v.clipEnd - v.clipStart)}</span>
           </span>
           <span style={{ minWidth: 0 }}>
