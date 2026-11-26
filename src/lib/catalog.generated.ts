@@ -11096,7 +11096,39 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "origin": "VN",
   "audioTrack": {
    "src": "/audio/furusato-vn-sodo-2/chapter.mp3",
-   "durationSec": 393.384
+   "durationSec": 394.752
+  }
+ },
+ {
+  "id": "furusato-vn-sodo-3",
+  "titles": {
+   "vi": "Số đỏ (3): Hạnh phúc của một tang gia",
+   "en": "Dumb Luck (3): The Happiness of a Family in Mourning",
+   "zh-Hans": "红运（3）：一个丧家的幸福",
+   "zh-Hant": "紅運（3）：一個喪家的幸福",
+   "ko": "소도 (3): 어느 상갓집의 행복",
+   "tl": "Dumb Luck (3): Ang Kaligayahan ng Isang Naulilang Pamilya",
+   "ne": "सो दो (३): एक शोकाकुल परिवारको खुसी",
+   "id": "Số Đỏ (3): Kebahagiaan Keluarga yang Berduka",
+   "pt": "Số Đỏ (3): A felicidade de uma família enlutada",
+   "my": "ဆော်ဒေါ် (၃): ဝမ်းနည်းနေတဲ့ မိသားစုရဲ့ ပျော်ရွှင်မှု",
+   "th": "โซโด (3): ความสุขของบ้านที่ไว้ทุกข์"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-sodo-3.webp",
+  "series": {
+   "id": "furusato-vn-sodo",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-sodo-3/chapter.mp3",
+   "durationSec": 393.048
   }
  }
 ];
