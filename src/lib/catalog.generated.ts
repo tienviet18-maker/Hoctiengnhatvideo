@@ -12415,6 +12415,130 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/world-shirayuki-2/chapter.mp3",
    "durationSec": 295.608
   }
+ },
+ {
+  "id": "life-epictetus-1",
+  "titles": {
+   "vi": "Triết gia nô lệ – Epictetus (1)",
+   "en": "The Slave Philosopher – Epictetus (1)",
+   "zh-Hans": "奴隶哲学家——爱比克泰德（一）",
+   "zh-Hant": "奴隸哲學家——愛比克泰德（一）",
+   "ko": "노예 철학자 에픽테토스 (1)",
+   "tl": "Ang Pilosopong Alipin – Epictetus (1)",
+   "ne": "दास दार्शनिक – एपिक्टेटस (१)",
+   "id": "Filsuf Budak – Epiktetos (1)",
+   "pt": "O Filósofo Escravo – Epicteto (1)",
+   "my": "ကျွန်ဒဿနပညာရှင် – အက်ပစ်တီးတပ်စ် (၁)",
+   "th": "นักปรัชญาทาส – เอพิคทีตัส (1)"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 45,
+  "cover": "/covers/life-epictetus-1.webp",
+  "series": {
+   "id": "life-epictetus",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-epictetus-1/chapter.mp3",
+   "durationSec": 239.93
+  }
+ },
+ {
+  "id": "life-epictetus-2",
+  "titles": {
+   "vi": "Triết gia nô lệ – Epictetus (2)",
+   "en": "The Slave Philosopher – Epictetus (2)",
+   "zh-Hans": "奴隶哲学家——爱比克泰德（二）",
+   "zh-Hant": "奴隸哲學家——愛比克泰德（二）",
+   "ko": "노예 철학자 에픽테토스 (2)",
+   "tl": "Ang Pilosopong Alipin – Epictetus (2)",
+   "ne": "दास दार्शनिक – एपिक्टेटस (२)",
+   "id": "Filsuf Budak – Epiktetos (2)",
+   "pt": "O Filósofo Escravo – Epicteto (2)",
+   "my": "ကျွန်ဒဿနပညာရှင် – အက်ပစ်တီးတပ်စ် (၂)",
+   "th": "นักปรัชญาทาส – เอพิคทีตัส (2)"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 45,
+  "cover": "/covers/life-epictetus-2.webp",
+  "series": {
+   "id": "life-epictetus",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-epictetus-2/chapter.mp3",
+   "durationSec": 250.82
+  }
+ },
+ {
+  "id": "life-roshi-1",
+  "titles": {
+   "vi": "Như nước – Lão Tử",
+   "en": "Like Water – Laozi",
+   "zh-Hans": "如水——老子",
+   "zh-Hant": "如水——老子",
+   "ko": "물처럼 – 노자",
+   "tl": "Gaya ng Tubig – Laozi",
+   "ne": "पानीजस्तै – लाओत्से",
+   "id": "Seperti Air – Laozi",
+   "pt": "Como a Água – Lao-Tsé",
+   "my": "ရေကဲ့သို့ – လောက်ဇူ",
+   "th": "ดั่งสายน้ำ – เล่าจื๊อ"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 44,
+  "cover": "/covers/life-roshi-1.webp",
+  "series": {
+   "id": "life-roshi",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-roshi-1/chapter.mp3",
+   "durationSec": 250.3
+  }
+ },
+ {
+  "id": "life-ikari-1",
+  "titles": {
+   "vi": "Lá thư giận dữ",
+   "en": "The Angry Letter",
+   "zh-Hans": "愤怒的信",
+   "zh-Hant": "憤怒的信",
+   "ko": "화가 난 편지",
+   "tl": "Ang Liham ng Galit",
+   "ne": "रिसको चिठी",
+   "id": "Surat Kemarahan",
+   "pt": "A Carta da Raiva",
+   "my": "ဒေါသစာ",
+   "th": "จดหมายแห่งความโกรธ"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 49,
+  "cover": "/covers/life-ikari-1.webp",
+  "series": {
+   "id": "life-ikari",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-ikari-1/chapter.mp3",
+   "durationSec": 223.3
+  }
  }
 ];
 

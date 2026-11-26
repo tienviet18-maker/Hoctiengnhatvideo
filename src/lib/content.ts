@@ -715,6 +715,13 @@ import s_worldShirayuki1 from "../../content/stories/world-shirayuki-1.json";
 import s_worldShirayuki2 from "../../content/stories/world-shirayuki-2.json";
 // --- hết kệ A/E: import ---
 
+// --- kệ W triết lý sống (chuẩn v2): import ---
+import v2LifeEpictetus1 from "../../content/stories/life-epictetus-1.json";
+import v2LifeEpictetus2 from "../../content/stories/life-epictetus-2.json";
+import v2LifeRoshi1 from "../../content/stories/life-roshi-1.json";
+import v2LifeIkari1 from "../../content/stories/life-ikari-1.json";
+// --- hết kệ W: import ---
+
 export const VIDEOS: VideoContent[] = [
   video1 as unknown as VideoContent,
   video2 as unknown as VideoContent,
@@ -1432,6 +1439,12 @@ export const STORIES: StoryContent[] = [
   s_worldCinderella2 as unknown as StoryContent,
   s_worldShirayuki1 as unknown as StoryContent,
   s_worldShirayuki2 as unknown as StoryContent,
+  // --- kệ W triết lý sống (chuẩn v2) ---
+  v2LifeEpictetus1 as unknown as StoryContent,
+  v2LifeEpictetus2 as unknown as StoryContent,
+  v2LifeRoshi1 as unknown as StoryContent,
+  v2LifeIkari1 as unknown as StoryContent,
+  // --- hết kệ W ---
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
