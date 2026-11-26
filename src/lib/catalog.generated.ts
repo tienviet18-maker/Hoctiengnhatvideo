@@ -5293,7 +5293,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/puss-in-boots.webp"
+  "cover": "/covers/puss-in-boots.webp",
+  "hidden": true,
+  "replacedBy": "world-nagagutsu"
  },
  {
   "id": "balcony-garden",
@@ -6920,7 +6922,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/rapunzel.webp"
+  "cover": "/covers/rapunzel.webp",
+  "hidden": true,
+  "replacedBy": "world-rapunzel"
  },
  {
   "id": "the-bicycle-puncture",
@@ -11758,7 +11762,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (5): Onigiri yang Menggelinding",
    "pt": "Mai-chan (5): O Bolinho de Arroz que Rolou",
    "my": "မိုင်ချန် (၅): လှိမ့်သွားတဲ့ ထမင်းလုံး",
-   "th": "ไมจัง (5): ข้าวปั้นกลิ้งหลุน ๆ"
+   "th": "ไมจัง (5): ข้าวปั้นกลิ้งหลุน ๆ",
+   "si": "මායි-චන් (5): පෙරළෙන බත් ගුලිය"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11789,7 +11794,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (6): Satu Payung Berdua",
    "pt": "Mai-chan (6): Um Guarda-chuva para Duas",
    "my": "မိုင်ချန် (၆): ထီးတစ်လက်တည်း",
-   "th": "ไมจัง (6): ร่มคันเดียวกัน"
+   "th": "ไมจัง (6): ร่มคันเดียวกัน",
+   "si": "මායි-චන් (6): කුඩේ බෙදාගැනීම"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11820,7 +11826,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (7): Hari Ini Aku Jadi Ibu",
    "pt": "Mai-chan (7): Hoje Eu Sou a Mãe",
    "my": "မိုင်ချန် (၇): ဒီနေ့ သမီးက အမေ",
-   "th": "ไมจัง (7): วันนี้หนูเป็นแม่เอง"
+   "th": "ไมจัง (7): วันนี้หนูเป็นแม่เอง",
+   "si": "මායි-චන් (7): අද මම අම්මා"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11851,7 +11858,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (8): Tomat Pertama",
    "pt": "Mai-chan (8): O Primeiro Tomate",
    "my": "မိုင်ချန် (၈): ပထမဆုံး ခရမ်းချဉ်သီး",
-   "th": "ไมจัง (8): มะเขือเทศลูกแรก"
+   "th": "ไมจัง (8): มะเขือเทศลูกแรก",
+   "si": "මායි-චන් (8): පළවෙනි තක්කාලිය"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11882,7 +11890,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (9): Di Mana Tama?",
    "pt": "Mai-chan (9): Cadê a Tama?",
    "my": "မိုင်ချန် (၉): တာမ ဘယ်ရောက်သွားလဲ",
-   "th": "ไมจัง (9): ทามะไปไหน"
+   "th": "ไมจัง (9): ทามะไปไหน",
+   "si": "මායි-චන් (9): තමා කොහෙද?"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11913,7 +11922,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (10): Salju Pertama",
    "pt": "Mai-chan (10): A Primeira Neve",
    "my": "မိုင်ချန် (၁၀): ပထမဆုံး နှင်း",
-   "th": "ไมจัง (10): หิมะแรก"
+   "th": "ไมจัง (10): หิมะแรก",
+   "si": "මායි-චන් (10): පළවෙනි හිම"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11944,7 +11954,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Gon si Rubah (Bagian 1)",
    "pt": "Gon, a Raposa (Parte 1)",
    "my": "မြေခွေး ဂုံ (အပိုင်း ၁)",
-   "th": "จิ้งจอกกอน (ตอนที่ 1)"
+   "th": "จิ้งจอกกอน (ตอนที่ 1)",
+   "si": "ගොන් නරියා (1 කොටස)"
   },
   "level": "N4",
   "topic": "classic-literature",
@@ -11975,7 +11986,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Gon si Rubah (Bagian 2)",
    "pt": "Gon, a Raposa (Parte 2)",
    "my": "မြေခွေး ဂုံ (အပိုင်း ၂)",
-   "th": "จิ้งจอกกอน (ตอนที่ 2)"
+   "th": "จิ้งจอกกอน (ตอนที่ 2)",
+   "si": "ගොන් නරියා (2 කොටස)"
   },
   "level": "N4",
   "topic": "classic-literature",
@@ -12006,7 +12018,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Membeli Sarung Tangan (Bagian 1)",
    "pt": "Comprar Luvas (Parte 1)",
    "my": "လက်အိတ် ဝယ်ဖို့ (အပိုင်း ၁)",
-   "th": "ไปซื้อถุงมือ (ตอนที่ 1)"
+   "th": "ไปซื้อถุงมือ (ตอนที่ 1)",
+   "si": "අත් මේස් ගන්න යාම (1 කොටස)"
   },
   "level": "N4",
   "topic": "classic-literature",
@@ -12037,7 +12050,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Membeli Sarung Tangan (Bagian 2)",
    "pt": "Comprar Luvas (Parte 2)",
    "my": "လက်အိတ် ဝယ်ဖို့ (အပိုင်း ၂)",
-   "th": "ไปซื้อถุงมือ (ตอนที่ 2)"
+   "th": "ไปซื้อถุงมือ (ตอนที่ 2)",
+   "si": "අත් මේස් ගන්න යාම (2 කොටස)"
   },
   "level": "N4",
   "topic": "classic-literature",
@@ -12068,7 +12082,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Benang Laba-laba",
    "pt": "O Fio da Aranha",
    "my": "ပင့်ကူမျှင်",
-   "th": "ใยแมงมุม"
+   "th": "ใยแมงมุม",
+   "si": "මකුළු නූල"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -13050,7 +13065,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Putri Duyung (1): Badai di Laut",
    "pt": "A Pequena Sereia (1): A Tempestade no Mar",
    "my": "ရေသူမလေး (၁): ပင်လယ်ပေါ်က မုန်တိုင်း",
-   "th": "เงือกน้อย (1): พายุกลางทะเล"
+   "th": "เงือกน้อย (1): พายุกลางทะเล",
+   "si": "පුංචි මත්ස්‍ය කන්‍යාව (1): මුහුදේ කුණාටුව"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13082,7 +13098,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Putri Duyung (2, tamat): Suara Ditukar Kaki",
    "pt": "A Pequena Sereia (2, final): A Voz pelas Pernas",
    "my": "ရေသူမလေး (၂၊ ဇာတ်သိမ်း): အသံနဲ့ လဲတဲ့ ခြေထောက်",
-   "th": "เงือกน้อย (2 จบ): แลกเสียงกับขา"
+   "th": "เงือกน้อย (2 จบ): แลกเสียงกับขา",
+   "si": "පුංචි මත්ස්‍ය කන්‍යාව (2, අවසාන): කකුල් දෙකට කටහඬ"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13114,7 +13131,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Jack dan Pohon Kacang Ajaib",
    "pt": "João e o Pé de Feijão",
    "my": "ဂျက်နဲ့ ပဲပင်ကြီး",
-   "th": "แจ็คกับต้นถั่ววิเศษ"
+   "th": "แจ็คกับต้นถั่ววิเศษ",
+   "si": "ජැක් සහ බෝංචි ගස"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13189,6 +13207,124 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/mystery-akagami-2/chapter.mp3",
    "durationSec": 311.38
+  }
+ },
+ {
+  "id": "world-nagagutsu",
+  "titles": {
+   "vi": "Chú mèo đi hia",
+   "en": "Puss in Boots",
+   "zh-Hans": "穿靴子的猫",
+   "zh-Hant": "穿靴子的貓",
+   "ko": "장화 신은 고양이",
+   "tl": "Ang Pusang may Bota",
+   "ne": "जुत्ता लगाएको बिरालो",
+   "id": "Kucing Bersepatu Bot",
+   "pt": "O Gato de Botas",
+   "my": "ဘွတ်ဖိနပ်စီး ကြောင်",
+   "th": "แมวใส่รองเท้าบู๊ต"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 49,
+  "cover": "/covers/world-nagagutsu.webp",
+  "shelf": "world",
+  "origin": "FR",
+  "audioTrack": {
+   "src": "/audio/world-nagagutsu/chapter.mp3",
+   "durationSec": 249.768
+  }
+ },
+ {
+  "id": "world-rapunzel",
+  "titles": {
+   "vi": "Nàng Rapunzel tóc dài",
+   "en": "Rapunzel",
+   "zh-Hans": "长发公主",
+   "zh-Hant": "長髮公主",
+   "ko": "라푼젤",
+   "tl": "Si Rapunzel",
+   "ne": "र्‍यापुन्जेल",
+   "id": "Rapunzel",
+   "pt": "Rapunzel",
+   "my": "ရာပွန်ဇယ်",
+   "th": "ราพันเซล"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 50,
+  "cover": "/covers/world-rapunzel.webp",
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-rapunzel/chapter.mp3",
+   "durationSec": 277.296
+  }
+ },
+ {
+  "id": "world-aladdin-1",
+  "titles": {
+   "vi": "Aladdin và cây đèn thần (1): Hang động kho báu",
+   "en": "Aladdin and the Magic Lamp (1): The Treasure Cave",
+   "zh-Hans": "阿拉丁神灯（1）：宝藏洞窟",
+   "zh-Hant": "阿拉丁神燈（1）：寶藏洞窟",
+   "ko": "알라딘과 요술 램프 (1): 보물 동굴",
+   "tl": "Si Aladdin at ang Mahiwagang Lampara (1): Ang Kuweba ng Kayamanan",
+   "ne": "अलादिन र जादुई बत्ती (१): खजानाको गुफा",
+   "id": "Aladin dan Lampu Ajaib (1): Gua Harta",
+   "pt": "Aladim e a Lâmpada Maravilhosa (1): A Caverna do Tesouro",
+   "my": "အလာဒင်နဲ့ မှော်မီးအိမ် (၁): ရတနာဂူ",
+   "th": "อะลาดินกับตะเกียงวิเศษ (1): ถ้ำสมบัติ"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 48,
+  "cover": "/covers/world-aladdin-1.webp",
+  "series": {
+   "id": "world-aladdin",
+   "index": 1
+  },
+  "shelf": "world",
+  "audioTrack": {
+   "src": "/audio/world-aladdin-1/chapter.mp3",
+   "durationSec": 275.544
+  }
+ },
+ {
+  "id": "world-aladdin-2",
+  "titles": {
+   "vi": "Aladdin và cây đèn thần (2 – hết): Cung điện bay",
+   "en": "Aladdin and the Magic Lamp (2, final): The Flying Palace",
+   "zh-Hans": "阿拉丁神灯（2·完）：飞走的宫殿",
+   "zh-Hant": "阿拉丁神燈（2·完）：飛走的宮殿",
+   "ko": "알라딘과 요술 램프 (2·완): 날아간 궁전",
+   "tl": "Si Aladdin at ang Mahiwagang Lampara (2, wakas): Ang Lumilipad na Palasyo",
+   "ne": "अलादिन र जादुई बत्ती (२, अन्तिम): उड्ने दरबार",
+   "id": "Aladin dan Lampu Ajaib (2, tamat): Istana Terbang",
+   "pt": "Aladim e a Lâmpada Maravilhosa (2, final): O Palácio Voador",
+   "my": "အလာဒင်နဲ့ မှော်မီးအိမ် (၂၊ ဇာတ်သိမ်း): ပျံသန်းတဲ့ နန်းတော်",
+   "th": "อะลาดินกับตะเกียงวิเศษ (2 จบ): พระราชวังลอยฟ้า"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 49,
+  "cover": "/covers/world-aladdin-2.webp",
+  "series": {
+   "id": "world-aladdin",
+   "index": 2
+  },
+  "shelf": "world",
+  "audioTrack": {
+   "src": "/audio/world-aladdin-2/chapter.mp3",
+   "durationSec": 292.32
   }
  }
 ];
