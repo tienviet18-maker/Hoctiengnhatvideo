@@ -1792,9 +1792,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "anime",
   "durationSec": 424,
   "free": false,
-  "lineCount": 67,
+  "lineCount": 84,
   "clipStart": 0,
-  "clipEnd": 382
+  "clipEnd": 414
  },
  {
   "id": "anpanman-dokin-chan-and-mr",
@@ -1816,7 +1816,7 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "anime",
   "durationSec": 637,
   "free": false,
-  "lineCount": 91,
+  "lineCount": 105,
   "clipStart": 0,
   "clipEnd": 607
  },
@@ -1840,9 +1840,9 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "category": "anime",
   "durationSec": 307,
   "free": false,
-  "lineCount": 93,
+  "lineCount": 102,
   "clipStart": 1,
-  "clipEnd": 274
+  "clipEnd": 284
  }
 ];
 
