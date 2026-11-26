@@ -1,4 +1,4 @@
-# 「大阪で働く」 — series bible (kệ life-series, N3, 20 tập)
+# 「大阪で働く」 — series bible (kệ life-series, N3, 8 tập)
 
 Phim truyện nghe. Kịch tính như phim truyền hình trước, thông tin thực tế sau: mỗi tập lồng **một** thủ tục/tình huống
 đời sống thật, nói qua miệng nhân vật hoặc 1–2 câu kể, không giảng bài. Mỗi tập kết bằng một móc câu.
@@ -31,10 +31,12 @@ vì 大鷹 hứa cho ông chức vụ sau khi mua lại. Minh lần theo sổ c�
 | 4 | ゴミの日の事件 | Minh bị hàng xóm phàn nàn vì đổ rác sai ngày; trong túi rác bị trả lại có bản in báo cáo bị xé | Phân loại rác, lịch đổ rác theo phường |
 | 5 | 夜の工場 | Minh lẻn vào xưởng ban đêm đối chiếu số liệu; động đất nhỏ, mất điện; ai đó đứng trong bóng tối | Động đất: 緊急地震速報, 避難所, túi khẩn cấp |
 
-## Tập 6–20 (dự kiến)
-6 熱が出た (bệnh viện, 保険証) · 7 あかりの過去 · 8 初めての給料 (給与明細, thuế, 住民税) · 9 ハイからのメッセージ ·
-10 社長が倒れた (救急車 119) · 11 大鷹の男 · 12 お花見と秘密 · 13 在留カードの更新 (入管) · 14 岩田の涙 ·
-15 証拠 · 16 台風の夜 (警報, ハザードマップ) · 17 裏切り · 18 ハイを探して (ラジュ, cộng đồng) · 19 決算の日 · 20 ただいま、大阪
+## Tập 6–8: khép series (Việt 26/11/2026: series phụ làm ít, rút từ 20 còn 8 tập)
+| Tập | Tiêu đề | Kịch tính | Thông tin thật |
+|---|---|---|---|
+| 6 | あかりの秘密 | Người trong bóng tối là あかり; mở máy cũ bằng ngày sinh giám đốc (3/12), thấy số thật 3,8% và tên 岩田 sửa hồ sơ; chép USB; あかり kể quá khứ (ngân hàng ở Tokyo); Minh sốt; 社長 sắp ký bán cho 大鷹; 岩田 gõ cửa "đến thăm" | khám 内科, マイナ保険証, 問診票, trả 3 phần 10, ＃7119 |
+| 7 | 社長が倒れた | 岩田 chỉ thăm thật, rồi lỡ lời; tối hôm sau cho 社長 xem dữ liệu, 社長 ngã gục → gọi 119; ở bệnh viện 岩田 nhận lỗi (大鷹 hứa chức), cho biết Hải ở Nagoya | gọi 119: 救急です, địa chỉ, triệu chứng, có phiên dịch |
+| 8 | ただいま、大阪 | Cuộc họp với 大鷹: 岩田 nói thật, hợp đồng giữ, không bán; Hải trở về qua ラジュ; lương tháng đầu; あかり gọi "ミンさん"; キヨ "おかえり" | 給与明細: 健康保険, 厚生年金, 雇用保険, 所得税; 住民税 từ tháng 6 năm sau |
 
 ## Quy tắc viết
 - N3: 900–3000 ký tự, 25–80 câu, câu TB 20–36. Đích ~1.700 ký tự, ~60 câu, 6 phút.

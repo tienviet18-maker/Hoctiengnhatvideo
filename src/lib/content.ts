@@ -662,6 +662,24 @@ import v2Botchan5 from "../../content/stories/botchan-5.json";
 import v2Botchan6 from "../../content/stories/botchan-6.json";
 import v2Madara1 from "../../content/stories/madara-1.json";
 import v2Madara2 from "../../content/stories/madara-2.json";
+import s_furusatoVnCoc1 from "../../content/stories/furusato-vn-coc-1.json";
+import s_furusatoVnOc1 from "../../content/stories/furusato-vn-oc-1.json";
+import s_furusatoVnNeu1 from "../../content/stories/furusato-vn-neu-1.json";
+import s_furusatoVnTichchu1 from "../../content/stories/furusato-vn-tichchu-1.json";
+import s_furusatoVnVusua1 from "../../content/stories/furusato-vn-vusua-1.json";
+import s_furusatoVnBabe1 from "../../content/stories/furusato-vn-babe-1.json";
+import s_furusatoVnMychau1 from "../../content/stories/furusato-vn-mychau-1.json";
+import s_furusatoKrHokburi1 from "../../content/stories/furusato-kr-hokburi-1.json";
+import s_furusatoIdToba1 from "../../content/stories/furusato-id-toba-1.json";
+import s_furusatoPhMagayon1 from "../../content/stories/furusato-ph-magayon-1.json";
+import s_furusatoMmMahagiri1 from "../../content/stories/furusato-mm-mahagiri-1.json";
+import s_furusatoMmKyaiktiyo1 from "../../content/stories/furusato-mm-kyaiktiyo-1.json";
+import s_furusatoBrSaci1 from "../../content/stories/furusato-br-saci-1.json";
+import s_furusatoBrIara1 from "../../content/stories/furusato-br-iara-1.json";
+import s_furusatoBrCurupira1 from "../../content/stories/furusato-br-curupira-1.json";
+import s_osakaHataraku06 from "../../content/stories/osaka-hataraku-06.json";
+import s_osakaHataraku07 from "../../content/stories/osaka-hataraku-07.json";
+import s_osakaHataraku08 from "../../content/stories/osaka-hataraku-08.json";
 // --- hết kệ A/E: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1330,6 +1348,24 @@ export const STORIES: StoryContent[] = [
   v2Madara1 as unknown as StoryContent,
   v2Madara2 as unknown as StoryContent,
   // --- hết kệ A/E ---
+  s_furusatoVnCoc1 as unknown as StoryContent,
+  s_furusatoVnOc1 as unknown as StoryContent,
+  s_furusatoVnNeu1 as unknown as StoryContent,
+  s_furusatoVnTichchu1 as unknown as StoryContent,
+  s_furusatoVnVusua1 as unknown as StoryContent,
+  s_furusatoVnBabe1 as unknown as StoryContent,
+  s_furusatoVnMychau1 as unknown as StoryContent,
+  s_furusatoKrHokburi1 as unknown as StoryContent,
+  s_furusatoIdToba1 as unknown as StoryContent,
+  s_furusatoPhMagayon1 as unknown as StoryContent,
+  s_furusatoMmMahagiri1 as unknown as StoryContent,
+  s_furusatoMmKyaiktiyo1 as unknown as StoryContent,
+  s_furusatoBrSaci1 as unknown as StoryContent,
+  s_furusatoBrIara1 as unknown as StoryContent,
+  s_furusatoBrCurupira1 as unknown as StoryContent,
+  s_osakaHataraku06 as unknown as StoryContent,
+  s_osakaHataraku07 as unknown as StoryContent,
+  s_osakaHataraku08 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

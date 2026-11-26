@@ -215,6 +215,43 @@ Motif bìa mới: milkyway, whitesnake, moonrabbit, stonemonkey, pilgrims, flame
 - Bài Kancil có ghi chú "ワニ" trong truyện cổ Nhật thường được hiểu là cá mập.
 - Đã đủ 5 truyện Indonesia.
 
+## Kệ D "Truyện quê hương" — lô 6–8: Thái Lan, Nepal, Việt Nam mới (25–26/11/2026)
+
+Theo lệnh của Việt (26/11): Osaka làm ít, đẩy mạnh truyện Việt Nam. Truyện cổ tích VN xếp N4–N3 xen kẽ;
+N2–N1 dành cho tiểu thuyết Việt Nam (đang chờ Việt chốt danh sách). Mọi gói theo chuẩn v2 (10 ngôn ngữ,
+từ vựng có cấp, bài học 4 ngữ pháp + 4 câu đố, audio đo trên chapter.mp3 thật).
+
+| Gói | Cấp | Câu | Audio | So sánh với truyện Nhật | Commit |
+|---|---|---|---|---|---|
+| furusato-th-sangthong-1 「金のほら貝」 | N3 | 52 | 6.2 phút | 鉢かづき姫, かぐや姫 | 95c547c |
+| furusato-th-aphai-1 「海をこえる笛」 | N3 | 50 | 5.6 phút | 浦島太郎, 牛若丸と弁慶 | 3514e27 |
+| furusato-np-manjushri-1 「湖だった町」 | N4 | 60 | 5.4 phút | truyền thuyết hồ cổ 甲府盆地 | 856f6e6 |
+| furusato-np-indra-1 「しばられた神さま」 | N4 | 60 | 5.2 phút | 羽衣, お盆 | 3f6724e |
+| furusato-vn-banhchung-1 「四角いおもち」 | N3 | 63 | 5.3 phút | 鏡もち, 鏡開き | 1b8e67f |
+| furusato-vn-taoquan-1 「台所の神さま」 | N3 | 53 | 5.3 phút | 荒神さま, 登竜門, こいのぼり | 5b5f47b |
+| furusato-vn-cuoi-1 「月のクオイ」 | N4 | 60 | 5.2 phút | 月のうさぎ, お月見, 竹取物語 | 5ed325b |
+| furusato-vn-coc-1 「天へ行くカエル」 | N3 | 59 | 5.5 phút | 桃太郎, 雨ごい | 5eb4364 |
+| furusato-vn-oc-1 「タニシの仙女」 | N3 | 60 | 5.3 phút | 鶴の恩返し, 田螺長者 | b262512 |
+| furusato-vn-neu-1 「鬼とテトの竹」 | N3 | 63 | 5.5 phút | 門松/年神さま, 節分 | 9023413 |
+| furusato-vn-tichchu-1 「鳥になったおばあさん」 | N4 | 60 | 5.3 phút | うばすて山 | 90b0120 |
+| furusato-vn-vusua-1 「お母さんの木」 | N4 | 60 | 5.6 phút | 安寿と厨子王, 親孝行したいときに親はなし | 17c3af7 |
+| furusato-vn-babe-1 「湖にしずんだ村」 | N4 | 60 | 5.5 phút | 蘇民将来 | 2fc5932 |
+| furusato-vn-mychau-1 「白い羽の道」 | N3 | 66 | 6.5 phút | お市の方 và túi đậu đỏ | 034146a |
+| furusato-kr-hokburi-1 「トッケビとこぶ」 (Hàn) | N4 | 60 | 5.2 phút | こぶとりじいさん | 2054124 |
+| furusato-id-toba-1 「金の魚の湖」 (Indonesia) | N4 | 60 | 5.6 phút | 鶴の恩返し, 蛤女房 | 5bce13c |
+| furusato-ph-magayon-1 「雲になった王子」 (Philippines) | N3 | 59 | 5.4 phút | 竹取物語 (不死→富士) | daf97c6 |
+| furusato-mm-mahagiri-1 「火と兄と妹」 (Myanmar) | N3 | 63 | 5.5 phút | 菅原道真 và 天神 | b42f032 |
+| furusato-mm-kyaiktiyo-1 「落ちない石」 (Myanmar, Chùa Đá Vàng) | N4 | 60 | 5.6 phút | 要石 ở 鹿島神宮 | c0dc8b1 |
+| furusato-br-saci-1 「赤いぼうし」 (Brazil, Saci-Pererê) | N4 | 60 | 5.2 phút | かまいたち | 9736fa6 |
+| furusato-br-iara-1 「イアラの歌」 (Brazil, Iara) | N4 | 60 | 5.7 phút | 人魚 và 八百比丘尼 | e2636e5 |
+| furusato-br-curupira-1 「うしろ向きの足」 (Brazil, Curupira) | N4 | 60 | 5.4 phút | 天狗, 天狗かくし | 67fd9c9 |
+
+Ghi chú: Bánh chưng, Táo quân, Cóc kiện trời, Nàng tiên Ốc dự định N4 nhưng tỉ lệ từ khó vượt 15% nên
+chuyển N3 (kế hoạch cho phép N4–N3 với truyện VN). Nguồn Nepal đã kiểm chứng trước khi viết.
+Bảy gói VN cuối (Cóc, Ốc, Nêu, Tích Chu, Vú sữa, Ba Bể, Mỵ Châu) nằm ở nhánh `claude/furusato-vn-2` (PR #23) tạo từ main
+sau khi PR #19 đã gộp. Đủ 10 truyện VN mới theo lệnh 26/11; cân cấp hiện tại: N3 = 6 (Bánh chưng, Táo quân, Cóc, Ốc, Nêu,
+Mỵ Châu), N4 = 4 (Cuội, Tích Chu, Vú sữa, Ba Bể). Hồ Ba Bể theo bản SGK (gói tro + hai mảnh vỏ trấu), không phải hạt thóc.
+
 ## Kệ F 「大阪で働く」 — tập 1–5 (25/11/2026, nhánh `claude/furusato-osaka`)
 
 Phim truyện nghe N3, 20 tập, sáng tác gốc (bible: `content/sources/osaka/series-bible.md`). Kịch tính trước,
@@ -224,6 +261,8 @@ mốc `t`, dịch + giải thích 11 ngôn ngữ (tự dịch, tự rà), bài h
 `series {id: osaka-hataraku, index}`. Cách đọc chung của kệ ở `content/sources/osaka/phrases.json`.
 **Muse lưu ý: các ID `osaka-hataraku-*` do Claude cấp, đừng dùng lại.**
 
+**26/11/2026:** Việt muốn series phụ làm ít thôi, nên series rút còn 8 tập. Tập 6–8 khép toàn bộ mạch chính (sự thật tháng Tám, Iwata nhận lỗi, Hải trở về). Bible đã cập nhật.
+
 | Gói | Tiêu đề | Câu | Audio | Thông tin thật | Commit |
 |---|---|---|---|---|---|
 | osaka-hataraku-01 | ようこそ、大阪へ | 60 | 5,6 phút | 転入届 trong 14 ngày | e98e94b |
@@ -231,6 +270,9 @@ mốc `t`, dịch + giải thích 11 ngôn ngữ (tự dịch, tự rà), bài h
 | osaka-hataraku-03 | 消えた先輩 | 57 | 5,3 phút | thứ tự địa chỉ → SIM → ngân hàng, quy định 6 tháng, ゆうちょ | 927208e |
 | osaka-hataraku-04 | ゴミの日の事件 | 58 | 5,6 phút | phân loại rác, đổ buổi sáng, 粗大ごみ | 3bb4ecb |
 | osaka-hataraku-05 | 夜の工場 | 57 | 5,4 phút | 緊急地震速報, 避難所, túi khẩn cấp | a1fb25e |
+| osaka-hataraku-06 | あかりの秘密 | 58 | 5,8 phút | khám 内科: マイナ保険証, 問診票, trả 3 phần 10, ＃7119 | 260c93e |
+| osaka-hataraku-07 | 社長が倒れた | 61 | 5,4 phút | gọi 119: 火事か救急か → địa chỉ → ai bị gì, ý thức/hơi thở, phiên dịch | bda449a |
+| osaka-hataraku-08 | ただいま、大阪 (tập cuối) | 61 | 5,8 phút | 給与明細: các khoản trừ, 手取り, 住民税 từ tháng 6 năm sau, giữ phiếu lương | xem commit kế |
 
 Tập 1 miễn phí, tập 2–5 `free: false`. `npm run verify` xanh trên bản clone sạch: 553 gói, 0 lỗi; chuẩn v2 11 gói đạt.
 
@@ -359,3 +401,4 @@ Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Bảy gói chuẩn v2, N3
 | 29 | UX | Tab Truyện chia theo kệ (Rakugo, Trinh thám, Truyện ma, Văn học Nhật, Cổ tích Nhật Bản, Truyện quê hương, Văn học thế giới, Series đời sống, Cổ tích và ngụ ngôn, Đời sống ở Nhật). Gói v2 dùng `shelf`; gói cũ suy ra từ `topic`. Mỗi kệ cuộn ngang, có "Xem tất cả" dạng lưới. Bộ nhiều chương chỉ hiện một bìa (chương đang nghe dở hoặc chương 1). Dùng ảnh bìa v2 nếu có, nếu không thì dùng bìa chữ màu theo id, kèm nhãn cấp, cờ nước gốc, VIP và tiến độ. Trang chủ dùng cùng component bìa. | ux-shelves |
 | 30 | UX | Onboarding mới học từ Tadoku nhưng làm kỹ hơn, gồm 8 bước: chào và chọn ngôn ngữ, sở thích (chọn nhiều), tự đánh giá cấp N5–N1, nghe thử 3 câu thật (N5/N4/N3) để xếp cấp, mục tiêu phút mỗi ngày và lúc hay nghe, tên, màn "đang dựng kế hoạch", rồi kế hoạch riêng với truyện miễn phí đầu tiên. Ưu đãi VIP chỉ là nút phụ, không chặn. Hồ sơ lưu thêm level, interests, dailyMinutes, listenWhen. Sửa lỗi bấm "Nghe truyện đầu tiên" lại bị đưa về trang chủ (effect redirect đè điều hướng). | ux-onboarding |
 | 31 | UX | Dùng câu trả lời onboarding. Tab Truyện mặc định lọc theo cấp đã xếp (người dùng vẫn đổi tay được) và đưa các kệ khớp sở thích lên đầu. Thẻ "Bắt đầu từ đây" ở Trang chủ gợi ý cùng truyện như màn kế hoạch (hàm chung `recommendFirst` trong `src/lib/shelves.ts`). | ux-personal |
+| 32 | VIP | Phân quyền miễn phí/VIP phía máy khách theo bảng ở ux-plan mục 6, mọi quy tắc nằm ở `src/lib/access.ts`. Truyện miễn phí gồm gói gắn nhãn free, chương 1 của mọi bộ và mọi truyện ngắn N5 (từ 183 lên 223 gói); `gen-catalog` dùng cùng quy tắc. Video VIP giờ mở được, hiện rõ 2 câu phụ đề đầu, các câu sau là dòng giả làm mờ (không đưa chữ thật vào trang) kèm nút "Mở khoá VIP"; chép chính tả và shadowing cần VIP. Thẻ Bài học: từ vựng miễn phí, ngữ pháp và câu hỏi hiện tên mẫu câu kèm lời mời VIP. Thẻ ôn tối đa 100 thẻ. "Giải thích" câu 5 lượt mỗi ngày (mở lại câu đã xem không tốn lượt). Cờ VIP giả ở tab Tôi chỉ hiện ở bản dev hoặc khi build với `NEXT_PUBLIC_DEV_TOOLS=1`. Việc còn lại: chặn ở máy chủ khi có Firebase. | vip-gating |

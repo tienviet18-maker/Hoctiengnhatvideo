@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { detailMetadata } from "../../../lib/seo";
 import DriveClient from "./DriveClient";
 import { getStory, STORIES } from "../../../lib/content";
+import { storyFree } from "../../../lib/access";
 
 export function generateStaticParams() {
   return STORIES.map((s) => ({ id: s.id }));
@@ -42,10 +43,10 @@ export default async function DrivePlayPage({
         id: story.id,
         titles: story.titles,
         level: story.level,
-        free: story.free,
+        free: storyFree(story),
         sentences: story.sentences.map((s) => ({ ja: s.ja, audio: s.audio })),
       }}
-      next={nextStory ? { id: nextStory.id, titles: nextStory.titles, free: nextStory.free } : null}
+      next={nextStory ? { id: nextStory.id, titles: nextStory.titles, free: storyFree(nextStory) } : null}
     />
   );
 }

@@ -1898,7 +1898,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "rakugo",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 58,
   "cover": "/covers/rakugo-shibahama-1.webp",
   "series": {
@@ -2103,7 +2103,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "folktale",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 59,
   "cover": "/covers/mukashi-tsuru-1.webp",
   "series": {
@@ -2165,7 +2165,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "folktale",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 58,
   "cover": "/covers/mukashi-issun-1.webp",
   "series": {
@@ -2227,7 +2227,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "folktale",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 58,
   "cover": "/covers/mukashi-kaguya-1.webp",
   "series": {
@@ -7868,7 +7868,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 57,
   "cover": "/covers/furusato-vn-sodua-1.webp",
   "series": {
@@ -7900,7 +7900,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 55,
   "cover": "/covers/furusato-vn-giong-1.webp",
   "series": {
@@ -7932,7 +7932,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 51,
   "cover": "/covers/furusato-vn-sontinh-1.webp",
   "series": {
@@ -8119,7 +8119,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 63,
   "cover": "/covers/furusato-vn-caytre-1.webp",
   "series": {
@@ -8151,7 +8151,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 59,
   "cover": "/covers/furusato-vn-maiantiem-1.webp",
   "series": {
@@ -8183,7 +8183,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 58,
   "cover": "/covers/furusato-vn-thachsanh-1.webp",
   "series": {
@@ -8279,7 +8279,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 56,
   "cover": "/covers/furusato-vn-khe-1.webp",
   "series": {
@@ -8311,7 +8311,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 55,
   "cover": "/covers/furusato-vn-hoguom-1.webp",
   "series": {
@@ -8343,7 +8343,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 56,
   "cover": "/covers/furusato-vn-rongtien-1.webp",
   "series": {
@@ -8375,7 +8375,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 58,
   "cover": "/covers/furusato-vn-chudongtu-1.webp",
   "series": {
@@ -8407,7 +8407,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 56,
   "cover": "/covers/furusato-vn-tuthuc-1.webp",
   "series": {
@@ -8439,7 +8439,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 56,
   "cover": "/covers/furusato-vn-traucau-1.webp",
   "series": {
@@ -8471,7 +8471,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 54,
   "cover": "/covers/furusato-kr-heungbu-1.webp",
   "series": {
@@ -8503,7 +8503,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 55,
   "cover": "/covers/furusato-kr-simcheong-1.webp",
   "series": {
@@ -8535,7 +8535,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 58,
   "cover": "/covers/furusato-kr-onui-1.webp",
   "series": {
@@ -8567,7 +8567,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 48,
   "cover": "/covers/furusato-kr-kongjwi-1.webp",
   "series": {
@@ -8599,7 +8599,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 49,
   "cover": "/covers/furusato-cn-niulang-1.webp",
   "series": {
@@ -8631,7 +8631,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 52,
   "cover": "/covers/furusato-cn-baishe-1.webp",
   "series": {
@@ -8663,7 +8663,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 44,
   "cover": "/covers/furusato-cn-change-1.webp",
   "series": {
@@ -8695,7 +8695,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 48,
   "cover": "/covers/furusato-cn-saiyuki-1.webp",
   "series": {
@@ -8791,7 +8791,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 51,
   "cover": "/covers/furusato-ph-malakas-1.webp",
   "series": {
@@ -8823,7 +8823,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 50,
   "cover": "/covers/furusato-ph-pinya-1.webp",
   "series": {
@@ -8855,7 +8855,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 50,
   "cover": "/covers/furusato-ph-pagong-1.webp",
   "series": {
@@ -8887,7 +8887,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 53,
   "cover": "/covers/furusato-ph-juan-1.webp",
   "series": {
@@ -8919,7 +8919,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 51,
   "cover": "/covers/furusato-id-malin-1.webp",
   "series": {
@@ -8951,7 +8951,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 50,
   "cover": "/covers/furusato-id-timun-1.webp",
   "series": {
@@ -8983,7 +8983,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 48,
   "cover": "/covers/furusato-id-bawang-1.webp",
   "series": {
@@ -9015,7 +9015,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 49,
   "cover": "/covers/furusato-id-sangkuriang-1.webp",
   "series": {
@@ -9047,7 +9047,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 49,
   "cover": "/covers/furusato-id-kancil-1.webp",
   "series": {
@@ -9079,7 +9079,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 52,
   "cover": "/covers/furusato-th-sangthong-1.webp",
   "series": {
@@ -9111,7 +9111,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 50,
   "cover": "/covers/furusato-th-aphai-1.webp",
   "series": {
@@ -9143,7 +9143,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-np-manjushri-1.webp",
   "series": {
@@ -9175,7 +9175,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-np-indra-1.webp",
   "series": {
@@ -9207,7 +9207,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 63,
   "cover": "/covers/furusato-vn-banhchung-1.webp",
   "series": {
@@ -9239,7 +9239,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N3",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 53,
   "cover": "/covers/furusato-vn-taoquan-1.webp",
   "series": {
@@ -9271,7 +9271,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "level": "N4",
   "topic": "hometown-tales",
   "source": "original",
-  "free": false,
+  "free": true,
   "sentenceCount": 60,
   "cover": "/covers/furusato-vn-cuoi-1.webp",
   "series": {
@@ -9868,6 +9868,579 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/madara-2/chapter.mp3",
    "durationSec": 322.3
+  }
+ },
+ {
+  "id": "furusato-vn-coc-1",
+  "titles": {
+   "vi": "Cóc kiện trời",
+   "en": "The Toad Who Sued Heaven",
+   "zh-Hans": "蛤蟆告天状",
+   "zh-Hant": "蛤蟆告天狀",
+   "ko": "하늘을 고소한 두꺼비",
+   "tl": "Ang Palakang Nagreklamo sa Langit",
+   "ne": "आकाशसँग उजुरी गर्ने भ्यागुतो",
+   "id": "Katak Menggugat Langit",
+   "pt": "O sapo que processou o céu",
+   "my": "မိုးနတ်ကို တိုင်တဲ့ ဖား",
+   "th": "คางคกฟ้องฟ้า"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 59,
+  "cover": "/covers/furusato-vn-coc-1.webp",
+  "series": {
+   "id": "furusato-vn-coc",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-coc-1/chapter.mp3",
+   "durationSec": 327.288
+  }
+ },
+ {
+  "id": "furusato-vn-oc-1",
+  "titles": {
+   "vi": "Nàng tiên Ốc",
+   "en": "The Snail Fairy",
+   "zh-Hans": "田螺仙女",
+   "zh-Hant": "田螺仙女",
+   "ko": "우렁이 선녀",
+   "tl": "Ang Diwata ng Kuhol",
+   "ne": "शंखेकीरीकी परी",
+   "id": "Bidadari Keong Emas",
+   "pt": "A fada do caracol",
+   "my": "ခရုနတ်သမီး",
+   "th": "นางฟ้าหอยทาก"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-oc-1.webp",
+  "series": {
+   "id": "furusato-vn-oc",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-oc-1/chapter.mp3",
+   "durationSec": 319.56
+  }
+ },
+ {
+  "id": "furusato-vn-neu-1",
+  "titles": {
+   "vi": "Sự tích cây nêu ngày Tết",
+   "en": "Why Vietnamese Raise a Bamboo Pole at Tết",
+   "zh-Hans": "春节竹竿的传说",
+   "zh-Hant": "春節竹竿的傳說",
+   "ko": "설날 대나무 장대 이야기",
+   "tl": "Ang Alamat ng Kawayan sa Tết",
+   "ne": "तेतको बाँसको कथा",
+   "id": "Legenda Tiang Bambu Tết",
+   "pt": "A lenda do bambu do Tết",
+   "my": "တက်ပွဲ ဝါးတိုင် ဒဏ္ဍာရီ",
+   "th": "ตำนานเสาไม้ไผ่วันเต๊ด"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 63,
+  "cover": "/covers/furusato-vn-neu-1.webp",
+  "series": {
+   "id": "furusato-vn-neu",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-neu-1/chapter.mp3",
+   "durationSec": 332.232
+  }
+ },
+ {
+  "id": "furusato-vn-tichchu-1",
+  "titles": {
+   "vi": "Sự tích Tích Chu",
+   "en": "Tích Chu and the Grandmother Bird",
+   "zh-Hans": "积珠与奶奶鸟",
+   "zh-Hant": "積珠與奶奶鳥",
+   "ko": "띡쭈와 할머니 새",
+   "tl": "Si Tích Chu at ang Lolang Ibon",
+   "ne": "तिक चु र हजुरआमा चरी",
+   "id": "Tích Chu dan Nenek Burung",
+   "pt": "Tích Chu e a avó pássaro",
+   "my": "တစ်ချူး နဲ့ ငှက်ဖြစ်သွားတဲ့ အဘွား",
+   "th": "ติ๊กจูกับคุณยายนก"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-tichchu-1.webp",
+  "series": {
+   "id": "furusato-vn-tichchu",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-tichchu-1/chapter.mp3",
+   "durationSec": 315.24
+  }
+ },
+ {
+  "id": "furusato-vn-vusua-1",
+  "titles": {
+   "vi": "Sự tích cây vú sữa",
+   "en": "The Milk Fruit Tree",
+   "zh-Hans": "牛奶果树的传说",
+   "zh-Hant": "牛奶果樹的傳說",
+   "ko": "젖 열매 나무 이야기",
+   "tl": "Ang Alamat ng Punong Kaimito",
+   "ne": "दूधे फलको रूखको कथा",
+   "id": "Legenda Pohon Sawo Ijo",
+   "pt": "A lenda da árvore de fruta-do-leite",
+   "my": "နို့သီးပင် ဒဏ္ဍာရီ",
+   "th": "ตำนานต้นสตาร์แอปเปิล"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-vusua-1.webp",
+  "series": {
+   "id": "furusato-vn-vusua",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-vusua-1/chapter.mp3",
+   "durationSec": 336.672
+  }
+ },
+ {
+  "id": "furusato-vn-babe-1",
+  "titles": {
+   "vi": "Sự tích hồ Ba Bể",
+   "en": "The Legend of Ba Be Lake",
+   "zh-Hans": "巴贝湖的传说",
+   "zh-Hant": "巴貝湖的傳說",
+   "ko": "바베 호수 이야기",
+   "tl": "Ang Alamat ng Lawa ng Ba Be",
+   "ne": "बा बे तालको कथा",
+   "id": "Legenda Danau Ba Be",
+   "pt": "A lenda do lago Ba Be",
+   "my": "ဘာဘေး ကန် ဒဏ္ဍာရီ",
+   "th": "ตำนานทะเลสาบบาเบ"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-babe-1.webp",
+  "series": {
+   "id": "furusato-vn-babe",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-babe-1/chapter.mp3",
+   "durationSec": 332.88
+  }
+ },
+ {
+  "id": "furusato-vn-mychau-1",
+  "titles": {
+   "vi": "Mỵ Châu – Trọng Thủy",
+   "en": "Princess My Chau and Trong Thuy",
+   "zh-Hans": "媚珠与仲始",
+   "zh-Hant": "媚珠與仲始",
+   "ko": "미쩌우와 쫑투이",
+   "tl": "Si Prinsesa My Chau at si Trong Thuy",
+   "ne": "मी चाउ र चोङ थुइ",
+   "id": "Putri My Chau dan Trong Thuy",
+   "pt": "A princesa My Chau e Trong Thuy",
+   "my": "မီချောင်နဲ့ ချုံးသွေ့",
+   "th": "เจ้าหญิงหมีเจิวกับจ่องถวี"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 66,
+  "cover": "/covers/furusato-vn-mychau-1.webp",
+  "series": {
+   "id": "furusato-vn-mychau",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-mychau-1/chapter.mp3",
+   "durationSec": 392.232
+  }
+ },
+ {
+  "id": "furusato-kr-hokburi-1",
+  "titles": {
+   "vi": "Ông lão có cái bướu",
+   "en": "The Old Man with the Lump",
+   "zh-Hans": "长瘤的老爷爷",
+   "zh-Hant": "長瘤的老爺爺",
+   "ko": "혹부리 영감",
+   "tl": "Ang Matandang may Bukol",
+   "ne": "गाँठो भएका बूढा",
+   "id": "Kakek Berbenjol",
+   "pt": "O velho do caroço",
+   "my": "အကျိတ်ပါတဲ့ အဘိုးအို",
+   "th": "ตาเฒ่าคอพอก"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-kr-hokburi-1.webp",
+  "series": {
+   "id": "furusato-kr-hokburi",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "KR",
+  "audioTrack": {
+   "src": "/audio/furusato-kr-hokburi-1/chapter.mp3",
+   "durationSec": 312.84
+  }
+ },
+ {
+  "id": "furusato-id-toba-1",
+  "titles": {
+   "vi": "Sự tích hồ Toba",
+   "en": "The Legend of Lake Toba",
+   "zh-Hans": "多巴湖的传说",
+   "zh-Hant": "多巴湖的傳說",
+   "ko": "토바 호수 이야기",
+   "tl": "Ang Alamat ng Lawa ng Toba",
+   "ne": "तोबा तालको कथा",
+   "id": "Legenda Danau Toba",
+   "pt": "A lenda do lago Toba",
+   "my": "တိုဘာကန် ဒဏ္ဍာရီ",
+   "th": "ตำนานทะเลสาบโตบา"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-id-toba-1.webp",
+  "series": {
+   "id": "furusato-id-toba",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "ID",
+  "audioTrack": {
+   "src": "/audio/furusato-id-toba-1/chapter.mp3",
+   "durationSec": 337.8
+  }
+ },
+ {
+  "id": "furusato-ph-magayon-1",
+  "titles": {
+   "vi": "Nàng Magayon và núi lửa Mayon",
+   "en": "Daragang Magayon and Mayon Volcano",
+   "zh-Hans": "美丽的玛加永与马荣火山",
+   "zh-Hant": "美麗的瑪加永與馬榮火山",
+   "ko": "아름다운 마가욘과 마욘 화산",
+   "tl": "Ang Alamat ng Daragang Magayon",
+   "ne": "मागायोन र मायोन ज्वालामुखी",
+   "id": "Legenda Daragang Magayon",
+   "pt": "A lenda de Daragang Magayon",
+   "my": "မာဂါယွန်နဲ့ မာယွန် မီးတောင်",
+   "th": "ตำนานดารากังมากายอนกับภูเขาไฟมายอน"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 59,
+  "cover": "/covers/furusato-ph-magayon-1.webp",
+  "series": {
+   "id": "furusato-ph-magayon",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "PH",
+  "audioTrack": {
+   "src": "/audio/furusato-ph-magayon-1/chapter.mp3",
+   "durationSec": 324.432
+  }
+ },
+ {
+  "id": "furusato-mm-mahagiri-1",
+  "titles": {
+   "vi": "Thần núi Mahagiri",
+   "en": "Mahagiri, Lord of the Great Mountain",
+   "zh-Hans": "大山之神马哈基利",
+   "zh-Hant": "大山之神馬哈基利",
+   "ko": "큰 산의 신 마하기리",
+   "tl": "Mahagiri, Panginoon ng Malaking Bundok",
+   "ne": "महागिरि, ठूलो पहाडका देवता",
+   "id": "Mahagiri, Dewa Gunung Agung",
+   "pt": "Mahagiri, Senhor da Grande Montanha",
+   "my": "မဟာဂီရိ နတ်",
+   "th": "มหาคีรี เทพแห่งขุนเขา"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 63,
+  "cover": "/covers/furusato-mm-mahagiri-1.webp",
+  "series": {
+   "id": "furusato-mm-mahagiri",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "MM",
+  "audioTrack": {
+   "src": "/audio/furusato-mm-mahagiri-1/chapter.mp3",
+   "durationSec": 328.584
+  }
+ },
+ {
+  "id": "furusato-mm-kyaiktiyo-1",
+  "titles": {
+   "vi": "Sự tích Chùa Đá Vàng",
+   "en": "The Legend of the Golden Rock",
+   "zh-Hans": "金色巨石的传说",
+   "zh-Hant": "金色巨石的傳說",
+   "ko": "황금 바위 전설",
+   "tl": "Ang Alamat ng Gintong Bato",
+   "ne": "सुनौलो ढुङ्गाको कथा",
+   "id": "Legenda Batu Emas",
+   "pt": "A lenda da Rocha Dourada",
+   "my": "ကျိုက်ထီးရိုး ဆံတော်ရှင် ပုံပြင်",
+   "th": "ตำนานพระธาตุอินทร์แขวน"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-mm-kyaiktiyo-1.webp",
+  "series": {
+   "id": "furusato-mm-kyaiktiyo",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "MM",
+  "audioTrack": {
+   "src": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3",
+   "durationSec": 333.792
+  }
+ },
+ {
+  "id": "furusato-br-saci-1",
+  "titles": {
+   "vi": "Saci, cậu bé một chân",
+   "en": "Saci, the One-Legged Trickster",
+   "zh-Hans": "独脚小精灵萨西",
+   "zh-Hant": "獨腳小精靈薩西",
+   "ko": "외다리 장난꾸러기 사시",
+   "tl": "Si Saci, ang Batang Isa ang Paa",
+   "ne": "एक खुट्टे सासी",
+   "id": "Saci, Si Jahil Berkaki Satu",
+   "pt": "Saci-Pererê",
+   "my": "ခြေတစ်ဖက်ပါ ဆာစီ",
+   "th": "ซาซี เด็กขาเดียวจอมซน"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-br-saci-1.webp",
+  "series": {
+   "id": "furusato-br-saci",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "BR",
+  "audioTrack": {
+   "src": "/audio/furusato-br-saci-1/chapter.mp3",
+   "durationSec": 314.688
+  }
+ },
+ {
+  "id": "furusato-br-iara-1",
+  "titles": {
+   "vi": "Iara, nàng tiên cá sông Amazon",
+   "en": "Iara, Mermaid of the Amazon",
+   "zh-Hans": "亚马孙河的美人鱼伊阿拉",
+   "zh-Hant": "亞馬孫河的美人魚伊阿拉",
+   "ko": "아마존의 인어 이아라",
+   "tl": "Si Iara, ang Sirena ng Amazon",
+   "ne": "अमेजनकी जलपरी इयारा",
+   "id": "Iara, Putri Duyung Amazon",
+   "pt": "Iara, a mãe-d'água",
+   "my": "အမေဇုန်က ရေသူမ အီအာရာ",
+   "th": "อิอารา นางเงือกแห่งแอมะซอน"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-br-iara-1.webp",
+  "series": {
+   "id": "furusato-br-iara",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "BR",
+  "audioTrack": {
+   "src": "/audio/furusato-br-iara-1/chapter.mp3",
+   "durationSec": 339.744
+  }
+ },
+ {
+  "id": "furusato-br-curupira-1",
+  "titles": {
+   "vi": "Curupira, thần giữ rừng",
+   "en": "Curupira, Guardian of the Forest",
+   "zh-Hans": "森林守护者库鲁皮拉",
+   "zh-Hant": "森林守護者庫魯皮拉",
+   "ko": "숲의 수호자 쿠루피라",
+   "tl": "Si Curupira, Tagapagbantay ng Gubat",
+   "ne": "वनका रक्षक कुरुपिरा",
+   "id": "Curupira, Penjaga Hutan",
+   "pt": "Curupira, o guardião da mata",
+   "my": "တောစောင့် ကူရူပီရာ",
+   "th": "คูรูปีรา ผู้พิทักษ์ป่า"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-br-curupira-1.webp",
+  "series": {
+   "id": "furusato-br-curupira",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "BR",
+  "audioTrack": {
+   "src": "/audio/furusato-br-curupira-1/chapter.mp3",
+   "durationSec": 326.088
+  }
+ },
+ {
+  "id": "osaka-hataraku-06",
+  "titles": {
+   "vi": "Làm việc ở Osaka (6): Bí mật của Akari",
+   "en": "Working in Osaka (6): Akari's Secret",
+   "zh-Hans": "在大阪工作（六）：明里的秘密",
+   "zh-Hant": "在大阪工作（六）：明裡的秘密",
+   "ko": "오사카에서 일하다 (6): 아카리의 비밀",
+   "tl": "Nagtatrabaho sa Osaka (6): Ang Lihim ni Akari",
+   "ne": "ओसाकामा काम (६): अकारीको रहस्य",
+   "id": "Bekerja di Osaka (6): Rahasia Akari",
+   "pt": "Trabalhando em Osaka (6): O segredo de Akari",
+   "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၆) - အာကာရီရဲ့ လျှို့ဝှက်ချက်",
+   "th": "ทำงานที่โอซาก้า (6): ความลับของอาคาริ"
+  },
+  "level": "N3",
+  "topic": "life-in-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/osaka-hataraku-06.webp",
+  "series": {
+   "id": "osaka-hataraku",
+   "index": 6
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/osaka-hataraku-06/chapter.mp3",
+   "durationSec": 345.6
+  }
+ },
+ {
+  "id": "osaka-hataraku-07",
+  "titles": {
+   "vi": "Làm việc ở Osaka (7): Giám đốc ngã quỵ",
+   "en": "Working in Osaka (7): The President Collapses",
+   "zh-Hans": "在大阪工作（七）：社长倒下了",
+   "zh-Hant": "在大阪工作（七）：社長倒下了",
+   "ko": "오사카에서 일하다 (7): 사장님이 쓰러지다",
+   "tl": "Nagtatrabaho sa Osaka (7): Bumagsak ang Presidente",
+   "ne": "ओसाकामा काम (७): अध्यक्ष ढले",
+   "id": "Bekerja di Osaka (7): Direktur Tumbang",
+   "pt": "Trabalhando em Osaka (7): O presidente desmaia",
+   "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၇) - ဥက္ကဋ္ဌ လဲကျသွားပြီ",
+   "th": "ทำงานที่โอซาก้า (7): ท่านประธานล้มลง"
+  },
+  "level": "N3",
+  "topic": "life-in-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/osaka-hataraku-07.webp",
+  "series": {
+   "id": "osaka-hataraku",
+   "index": 7
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/osaka-hataraku-07/chapter.mp3",
+   "durationSec": 322.512
+  }
+ },
+ {
+  "id": "osaka-hataraku-08",
+  "titles": {
+   "vi": "Làm việc ở Osaka (8 – hết): Osaka, tôi về rồi",
+   "en": "Working in Osaka (8, finale): I'm Home, Osaka",
+   "zh-Hans": "在大阪工作（八・完）：大阪，我回来了",
+   "zh-Hant": "在大阪工作（八・完）：大阪，我回來了",
+   "ko": "오사카에서 일하다 (8・완): 다녀왔어, 오사카",
+   "tl": "Nagtatrabaho sa Osaka (8, wakas): Nandito na Ako, Osaka",
+   "ne": "ओसाकामा काम (८, अन्तिम): ओसाका, म आइपुगेँ",
+   "id": "Bekerja di Osaka (8, tamat): Aku Pulang, Osaka",
+   "pt": "Trabalhando em Osaka (8, final): Cheguei, Osaka",
+   "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၈၊ ဇာတ်သိမ်း) - အိုဆာကာ၊ ပြန်ရောက်ပြီ",
+   "th": "ทำงานที่โอซาก้า (8 ตอนจบ): กลับมาแล้วนะ โอซาก้า"
+  },
+  "level": "N3",
+  "topic": "life-in-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/osaka-hataraku-08.webp",
+  "series": {
+   "id": "osaka-hataraku",
+   "index": 8
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/osaka-hataraku-08/chapter.mp3",
+   "durationSec": 346.872
   }
  }
 ];

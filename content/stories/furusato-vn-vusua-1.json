@@ -1,0 +1,4702 @@
+{
+  "kind": "story",
+  "id": "furusato-vn-vusua-1",
+  "titles": {
+    "vi": "Sự tích cây vú sữa",
+    "en": "The Milk Fruit Tree",
+    "zh-Hans": "牛奶果树的传说",
+    "zh-Hant": "牛奶果樹的傳說",
+    "ko": "젖 열매 나무 이야기",
+    "tl": "Ang Alamat ng Punong Kaimito",
+    "ne": "दूधे फलको रूखको कथा",
+    "id": "Legenda Pohon Sawo Ijo",
+    "pt": "A lenda da árvore de fruta-do-leite",
+    "my": "နို့သီးပင် ဒဏ္ဍာရီ",
+    "th": "ตำนานต้นสตาร์แอปเปิล"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "cover": "/covers/furusato-vn-vusua-1.webp",
+  "free": false,
+  "standard": 2,
+  "series": {
+    "id": "furusato-vn-vusua",
+    "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "lesson": {
+    "grammarPoints": [
+      {
+        "pattern": "〜ても",
+        "example": 12,
+        "meaning": {
+          "vi": "dù ~ vẫn",
+          "en": "even if/when ~",
+          "zh-Hans": "即使……也",
+          "zh-Hant": "即使……也",
+          "ko": "~해도",
+          "tl": "kahit ~",
+          "ne": "~ भए पनि",
+          "id": "meskipun ~",
+          "pt": "mesmo que ~",
+          "my": "~ တာတောင်",
+          "th": "แม้ว่า ~"
+        }
+      },
+      {
+        "pattern": "〜ことにする",
+        "example": 25,
+        "meaning": {
+          "vi": "quyết định ~",
+          "en": "decide to ~",
+          "zh-Hans": "决定……",
+          "zh-Hant": "決定……",
+          "ko": "~하기로 하다",
+          "tl": "magpasyang ~",
+          "ne": "~ गर्ने निर्णय गर्नु",
+          "id": "memutuskan untuk ~",
+          "pt": "decidir ~",
+          "my": "~ ဖို့ ဆုံးဖြတ်",
+          "th": "ตัดสินใจว่าจะ ~"
+        }
+      },
+      {
+        "pattern": "〜てみると",
+        "example": 40,
+        "meaning": {
+          "vi": "thử ~ thì (phát hiện ra)",
+          "en": "when one tries ~ (and finds)",
+          "zh-Hans": "试着……一看",
+          "zh-Hant": "試著……一看",
+          "ko": "~해 보니",
+          "tl": "nang subukang ~",
+          "ne": "~ गरेर हेर्दा",
+          "id": "ketika mencoba ~",
+          "pt": "ao experimentar ~",
+          "my": "~ ကြည့်တော့",
+          "th": "พอลอง ~ ดู"
+        }
+      },
+      {
+        "pattern": "〜ようになる",
+        "example": 49,
+        "meaning": {
+          "vi": "dần dần trở nên ~",
+          "en": "come to ~",
+          "zh-Hans": "变得……，开始……",
+          "zh-Hant": "變得……，開始……",
+          "ko": "~하게 되다",
+          "tl": "nagsimulang ~",
+          "ne": "~ हुन थाल्नु",
+          "id": "mulai ~",
+          "pt": "passar a ~",
+          "my": "~ လာ",
+          "th": "เริ่ม ~ ขึ้นมา"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "ja": "男の子は、どうして家を出ましたか。",
+        "choices": [
+          "お母さんにしかられたから",
+          "お金がなかったから",
+          "病気になったから",
+          "木を見たかったから"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Vì bị mẹ mắng.",
+          "en": "Because his mother scolded him.",
+          "zh-Hans": "因为被妈妈骂了。",
+          "zh-Hant": "因為被媽媽罵了。",
+          "ko": "어머니께 꾸중을 들어서.",
+          "tl": "Dahil pinagalitan siya ng ina.",
+          "ne": "आमाले गाली गरेकाले।",
+          "id": "Karena dimarahi ibunya.",
+          "pt": "Porque a mãe brigou com ele.",
+          "my": "အမေ ဆူလို့။",
+          "th": "เพราะถูกแม่ดุ"
+        }
+      },
+      {
+        "ja": "男の子が帰ったとき、家はどうでしたか。",
+        "choices": [
+          "からっぽだった",
+          "人がたくさんいた",
+          "新しくなっていた",
+          "お母さんが待っていた"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Trống trơn.",
+          "en": "It was empty.",
+          "zh-Hans": "空荡荡的。",
+          "zh-Hant": "空蕩蕩的。",
+          "ko": "텅 비어 있었다.",
+          "tl": "Walang laman.",
+          "ne": "खाली थियो।",
+          "id": "Kosong.",
+          "pt": "Estava vazia.",
+          "my": "ဗလာ။",
+          "th": "ว่างเปล่า"
+        }
+      },
+      {
+        "ja": "木の葉っぱのうらは、何色でしたか。",
+        "choices": [
+          "赤",
+          "白",
+          "緑",
+          "むらさき"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Màu đỏ, như mắt mẹ khóc.",
+          "en": "Red, like the crying mother's eyes.",
+          "zh-Hans": "红色，像哭泣母亲的眼睛。",
+          "zh-Hant": "紅色，像哭泣母親的眼睛。",
+          "ko": "빨강, 운 어머니의 눈처럼.",
+          "tl": "Pula, gaya ng mata ng ina.",
+          "ne": "रातो, रोएकी आमाको आँखाजस्तै।",
+          "id": "Merah, seperti mata ibu.",
+          "pt": "Vermelho, como os olhos da mãe.",
+          "my": "အနီ၊ ငိုတဲ့ အမေ့မျက်လုံးလို။",
+          "th": "สีแดง เหมือนตาแม่"
+        }
+      },
+      {
+        "ja": "「親孝行、したいときには、親はなし」は、どういう意味ですか。",
+        "choices": [
+          "親を大切にしたいときには、もう親はいない",
+          "親はいつも家にいる",
+          "子どもは親を待つ",
+          "親はやさしくない"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Muốn báo hiếu thì cha mẹ đã không còn.",
+          "en": "By the time you want to honor them, they are gone.",
+          "zh-Hans": "想尽孝时父母已不在。",
+          "zh-Hant": "想盡孝時父母已不在。",
+          "ko": "효도하고 싶을 땐 부모가 없다.",
+          "tl": "Kapag gusto mo na, wala na sila.",
+          "ne": "सेवा गर्न मन लाग्दा उहाँहरू हुनुहुन्न।",
+          "id": "Saat ingin berbakti, orang tua sudah tiada.",
+          "pt": "Quando quiser honrá-los, já se foram.",
+          "my": "ကျေးဇူးဆပ်ချင်ချိန် မိဘ မရှိတော့။",
+          "th": "อยากกตัญญู พ่อแม่ก็ไม่อยู่แล้ว"
+        }
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "ja": "ベトナムの南には、「ブースア」という、ふしぎなくだものがあります。",
+      "furigana": [
+        {
+          "surface": "ベトナムの",
+          "reading": ""
+        },
+        {
+          "surface": "南",
+          "reading": "みなみ"
+        },
+        {
+          "surface": "には、「ブースア」という、ふしぎなくだものがあります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Betonamu no minami ni wa, “Buusua” to iu, fushigi nakuda mono ga arimasu.",
+      "translations": {
+        "vi": "Ở miền Nam Việt Nam có một loại quả lạ gọi là \"vú sữa\".",
+        "en": "In southern Vietnam there is a curious fruit called \"vú sữa\".",
+        "zh-Hans": "越南南部有一种神奇的水果，叫“vú sữa”（牛奶果）。",
+        "zh-Hant": "越南南部有一種神奇的水果，叫“vú sữa”（牛奶果）。",
+        "ko": "베트남 남부에는 '부스어'라는 신기한 과일이 있습니다.",
+        "tl": "Sa timog ng Vietnam, may kakaibang prutas na tinatawag na \"vú sữa\".",
+        "ne": "भियतनामको दक्षिणमा \"भु सुआ\" भन्ने अनौठो फल छ।",
+        "id": "Di Vietnam selatan ada buah unik bernama \"vú sữa\".",
+        "pt": "No sul do Vietnã há uma fruta curiosa chamada \"vú sữa\".",
+        "my": "ဗီယက်နမ်တောင်ပိုင်းမှာ \"ဗူးစွာ\" ဆိုတဲ့ ထူးဆန်းတဲ့ အသီး ရှိတယ်။",
+        "th": "ทางใต้ของเวียดนามมีผลไม้แปลกชื่อ \"หวูซือ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜という」: tên là ~. くだもの = trái cây.",
+        "en": "「〜という」 = called ~; くだもの = fruit.",
+        "zh-Hans": "「叫……的」；水果。",
+        "zh-Hant": "「叫……的」；水果。",
+        "ko": "~라는; 과일.",
+        "tl": "tinatawag na; prutas.",
+        "ne": "भन्ने; फल।",
+        "id": "bernama; buah.",
+        "pt": "chamada; fruta.",
+        "my": "ဆိုတဲ့; အသီး။",
+        "th": "ชื่อว่า; ผลไม้"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=0.3,5.631",
+      "t": [
+        0.3,
+        5.631
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "まるくて、むらさき色で、中には、白くて、あまい、ミルクのような水が、入っています。",
+      "furigana": [
+        {
+          "surface": "まるくて、むらさき",
+          "reading": ""
+        },
+        {
+          "surface": "色",
+          "reading": "いろ"
+        },
+        {
+          "surface": "で、",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "には、",
+          "reading": ""
+        },
+        {
+          "surface": "白",
+          "reading": "しろ"
+        },
+        {
+          "surface": "くて、あまい、ミルクのような",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "はい"
+        },
+        {
+          "surface": "っています。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Marukute, murasaki iro de, naka ni wa, shirokute, amai, miruku no you na mizu ga, haitte imasu.",
+      "translations": {
+        "vi": "Quả tròn, màu tím, bên trong có dòng nước trắng ngọt như sữa.",
+        "en": "It is round and purple, and inside is a sweet, white, milk-like juice.",
+        "zh-Hans": "圆圆的，紫色的，里面有像牛奶一样白白甜甜的汁。",
+        "zh-Hant": "圓圓的，紫色的，裡面有像牛奶一樣白白甜甜的汁。",
+        "ko": "둥글고 보라색이며, 안에는 하얗고 달콤한 우유 같은 물이 들어 있습니다.",
+        "tl": "Bilog at lila ito, at sa loob ay may matamis at puting katas na parang gatas.",
+        "ne": "गोलो र बैजनी हुन्छ, भित्र दूधजस्तो सेतो गुलियो रस हुन्छ।",
+        "id": "Bulat dan ungu, di dalamnya ada cairan putih manis seperti susu.",
+        "pt": "É redonda e roxa, e dentro tem um suco branco e doce como leite.",
+        "my": "ဝိုင်းပြီး ခရမ်းရောင်ရှိကာ အထဲမှာ နို့လို အဖြူရောင် ချိုတဲ့ရည် ရှိတယ်။",
+        "th": "ลูกกลม สีม่วง ข้างในมีน้ำสีขาวหวานเหมือนนม"
+      },
+      "vocab": [
+        {
+          "word": "ミルク",
+          "reading": "みるく",
+          "meanings": {
+            "vi": "sữa",
+            "en": "milk",
+            "zh-Hans": "牛奶",
+            "zh-Hant": "牛奶",
+            "ko": "우유",
+            "tl": "gatas",
+            "ne": "दूध",
+            "id": "susu",
+            "pt": "leite",
+            "my": "နို့",
+            "th": "นม"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜くて、〜で」: nối tính từ. 「〜のような」: giống như ~.",
+        "en": "「〜くて、〜で」 = links adjectives; 「〜のような」 = like ~.",
+        "zh-Hans": "形容词连接；「像……一样」。",
+        "zh-Hant": "形容詞連線；「像……一樣」。",
+        "ko": "형용사 연결; ~같은.",
+        "tl": "pag-uugnay; parang.",
+        "ne": "जोड्ने; जस्तो।",
+        "id": "penghubung; seperti.",
+        "pt": "ligação; como.",
+        "my": "ဆက်; လို။",
+        "th": "เชื่อม; เหมือน"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=6.231,14.787",
+      "t": [
+        6.231,
+        14.787
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ブースアは、ベトナム語で、「お母さんの、おっぱい」という意味です。",
+      "furigana": [
+        {
+          "surface": "ブースアは、ベトナム",
+          "reading": ""
+        },
+        {
+          "surface": "語",
+          "reading": "ご"
+        },
+        {
+          "surface": "で、「お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんの、おっぱい」という",
+          "reading": ""
+        },
+        {
+          "surface": "意味",
+          "reading": "いみ"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Buusua wa, Betonamu go de, “Okaasan no, oppai” to iu imi desu.",
+      "translations": {
+        "vi": "\"Vú sữa\" trong tiếng Việt nghĩa là \"bầu sữa mẹ\".",
+        "en": "In Vietnamese, \"vú sữa\" means \"a mother's breast milk\".",
+        "zh-Hans": "“vú sữa”在越南语里是“妈妈的乳房”的意思。",
+        "zh-Hant": "“vú sữa”在越南語裡是“媽媽的乳房”的意思。",
+        "ko": "부스어는 베트남어로 '어머니의 젖'이라는 뜻입니다.",
+        "tl": "Sa Vietnamese, ang \"vú sữa\" ay nangangahulugang \"gatas ng ina\".",
+        "ne": "भियतनामी भाषामा \"भु सुआ\" को अर्थ \"आमाको दूध\" हो।",
+        "id": "Dalam bahasa Vietnam, \"vú sữa\" berarti \"air susu ibu\".",
+        "pt": "Em vietnamita, \"vú sữa\" quer dizer \"o seio da mãe\".",
+        "my": "ဗီယက်နမ်စကားမှာ \"ဗူးစွာ\" ဆိုတာ \"အမေ့ နို့\" လို့ အဓိပ္ပာယ်ရတယ်။",
+        "th": "ในภาษาเวียดนาม \"หวูซือ\" แปลว่า \"นมแม่\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜という意味です」: nghĩa là ~.",
+        "en": "「〜という意味です」 = it means ~.",
+        "zh-Hans": "「是……的意思」。",
+        "zh-Hant": "「是……的意思」。",
+        "ko": "~라는 뜻입니다.",
+        "tl": "nangangahulugang.",
+        "ne": "अर्थ हो।",
+        "id": "berarti.",
+        "pt": "quer dizer.",
+        "my": "အဓိပ္ပာယ်ရ။",
+        "th": "แปลว่า"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=15.387,21.172",
+      "t": [
+        15.387,
+        21.172
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "どうして、そんな名前がついたのでしょう。",
+      "furigana": [
+        {
+          "surface": "どうして、そんな",
+          "reading": ""
+        },
+        {
+          "surface": "名前",
+          "reading": "なまえ"
+        },
+        {
+          "surface": "がついたのでしょう。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Doushite, sonna namae ga tsuita no deshou.",
+      "translations": {
+        "vi": "Vì sao lại có cái tên như thế nhỉ?",
+        "en": "Why did it get such a name?",
+        "zh-Hans": "为什么会有这样的名字呢？",
+        "zh-Hant": "為什麼會有這樣的名字呢？",
+        "ko": "왜 그런 이름이 붙었을까요?",
+        "tl": "Bakit kaya ganoon ang pangalan nito?",
+        "ne": "किन यस्तो नाम राखियो होला?",
+        "id": "Mengapa diberi nama seperti itu?",
+        "pt": "Por que ganhou esse nome?",
+        "my": "ဘာလို့ ဒီလိုနာမည် ရလာတာလဲ။",
+        "th": "ทำไมถึงได้ชื่อนี้นะ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "名前がつく = được đặt tên.",
+        "en": "名前がつく = to be named.",
+        "zh-Hans": "名前がつく＝取名。",
+        "zh-Hant": "名前がつく＝取名。",
+        "ko": "이름이 붙다.",
+        "tl": "pangalanan.",
+        "ne": "नाम राखिनु।",
+        "id": "diberi nama.",
+        "pt": "ganhar nome.",
+        "my": "နာမည်ရ။",
+        "th": "ได้ชื่อ"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=21.772,24.87",
+      "t": [
+        21.772,
+        24.87
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "むかし、ある村に、お母さんと、男の子が、二人でくらしていました。",
+      "furigana": [
+        {
+          "surface": "むかし、ある",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "に、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんと、",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "でくらしていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mukashi, aru mura ni, okaasan to, otokonoko ga, futari de kurashiteimashita.",
+      "translations": {
+        "vi": "Ngày xưa, ở một làng nọ, có hai mẹ con sống với nhau.",
+        "en": "Long ago, in a village, a mother and her son lived together.",
+        "zh-Hans": "从前，某个村子里住着母子二人。",
+        "zh-Hant": "從前，某個村子裡住著母子二人。",
+        "ko": "옛날 어느 마을에 어머니와 아들이 둘이서 살았습니다.",
+        "tl": "Noong unang panahon, sa isang nayon, magkasamang nakatira ang mag-ina.",
+        "ne": "धेरै पहिले एउटा गाउँमा आमा र छोरा दुई जना बस्थे।",
+        "id": "Dahulu, di sebuah desa, tinggallah seorang ibu dan anak laki-lakinya.",
+        "pt": "Há muito tempo, numa aldeia, viviam uma mãe e seu filho.",
+        "my": "ရှေးတုန်းက ရွာတစ်ရွာမှာ အမေနဲ့ သားလေး နှစ်ယောက် နေတယ်။",
+        "th": "กาลครั้งหนึ่ง ในหมู่บ้านแห่งหนึ่ง แม่กับลูกชายอยู่ด้วยกันสองคน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「二人で」: hai người. くらす = sống.",
+        "en": "「二人で」 = the two together; くらす = to live.",
+        "zh-Hans": "「两个人」；生活。",
+        "zh-Hant": "「兩個人」；生活。",
+        "ko": "둘이서; 살다.",
+        "tl": "silang dalawa; mamuhay.",
+        "ne": "दुई जना; बस्नु।",
+        "id": "berdua; hidup.",
+        "pt": "os dois; viver.",
+        "my": "နှစ်ယောက်; နေ။",
+        "th": "สองคน; อยู่"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=25.47,31.744",
+      "t": [
+        25.47,
+        31.744
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "男の子は、遊ぶのが大好きで、いつも、外にいました。",
+      "furigana": [
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "遊",
+          "reading": "あそ"
+        },
+        {
+          "surface": "ぶのが",
+          "reading": ""
+        },
+        {
+          "surface": "大好",
+          "reading": "だいす"
+        },
+        {
+          "surface": "きで、いつも、",
+          "reading": ""
+        },
+        {
+          "surface": "外",
+          "reading": "そと"
+        },
+        {
+          "surface": "にいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Otokonoko wa, asobu no ga daisuki de, itsumo, soto ni imashita.",
+      "translations": {
+        "vi": "Cậu bé rất ham chơi, lúc nào cũng ở ngoài.",
+        "en": "The boy loved to play and was always outside.",
+        "zh-Hans": "男孩最喜欢玩，总是在外面。",
+        "zh-Hant": "男孩最喜歡玩，總是在外面。",
+        "ko": "남자아이는 노는 것을 무척 좋아해서 늘 밖에 있었습니다.",
+        "tl": "Mahilig maglaro ang bata at laging nasa labas.",
+        "ne": "केटो खेल्न मन पराउँथ्यो र सधैं बाहिर हुन्थ्यो।",
+        "id": "Anak itu suka bermain dan selalu di luar.",
+        "pt": "O menino adorava brincar e vivia na rua.",
+        "my": "ကောင်လေးက ကစားရတာ အရမ်းကြိုက်ပြီး အမြဲ အပြင်မှာ ရှိတယ်။",
+        "th": "เด็กชายชอบเล่นมาก อยู่ข้างนอกตลอด"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜のが大好き」: rất thích ~.",
+        "en": "「〜のが大好き」 = love ~ing.",
+        "zh-Hans": "「最喜欢……」。",
+        "zh-Hant": "「最喜歡……」。",
+        "ko": "~하는 것을 아주 좋아하다.",
+        "tl": "mahilig.",
+        "ne": "मन पराउनु।",
+        "id": "suka.",
+        "pt": "adorar.",
+        "my": "ကြိုက်။",
+        "th": "ชอบ"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=32.344,37.784",
+      "t": [
+        32.344,
+        37.784
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ある日、男の子は、遊びすぎて、お母さんに、しかられました。",
+      "furigana": [
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "遊",
+          "reading": "あそ"
+        },
+        {
+          "surface": "びすぎて、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんに、しかられました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aru hi, otokonoko wa, asobi sugite, okaasan ni, shikararemashita.",
+      "translations": {
+        "vi": "Một hôm, cậu chơi quá trớn nên bị mẹ mắng.",
+        "en": "One day, he played too much and was scolded by his mother.",
+        "zh-Hans": "有一天，男孩玩过了头，被妈妈骂了。",
+        "zh-Hant": "有一天，男孩玩過了頭，被媽媽罵了。",
+        "ko": "어느 날 너무 놀다가 어머니께 꾸중을 들었습니다.",
+        "tl": "Isang araw, sobra siyang naglaro at pinagalitan ng ina.",
+        "ne": "एक दिन धेरै खेलेकाले आमाले गाली गरिन्।",
+        "id": "Suatu hari ia terlalu banyak bermain dan dimarahi ibunya.",
+        "pt": "Um dia, brincou demais e levou bronca da mãe.",
+        "my": "တစ်နေ့ အရမ်းကစားလို့ အမေက ဆူတယ်။",
+        "th": "วันหนึ่ง เขาเล่นมากเกินไปจนถูกแม่ดุ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜すぎる」: ~ quá mức. しかられる = bị mắng (bị động).",
+        "en": "「〜すぎる」 = too much ~; しかられる = be scolded.",
+        "zh-Hans": "「……过头」；被骂。",
+        "zh-Hant": "「……過頭」；被罵。",
+        "ko": "너무 ~하다; 꾸중 듣다.",
+        "tl": "sobra; pagalitan.",
+        "ne": "धेरै; गाली खानु।",
+        "id": "terlalu; dimarahi.",
+        "pt": "demais; levar bronca.",
+        "my": "လွန်; အဆူခံရ။",
+        "th": "เกินไป; ถูกดุ"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=38.384,44.267",
+      "t": [
+        38.384,
+        44.267
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「どうして、言うことを聞かないの。」",
+      "furigana": [
+        {
+          "surface": "「どうして、",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "うことを",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "かないの。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Doushite, iu koto o kikanai no.”",
+      "translations": {
+        "vi": "\"Sao con không chịu nghe lời mẹ?\"",
+        "en": "\"Why don't you listen to me?\"",
+        "zh-Hans": "“你为什么不听话？”",
+        "zh-Hant": "“你為什麼不聽話？”",
+        "ko": "\"왜 말을 안 듣니?\"",
+        "tl": "\"Bakit ayaw mong makinig?\"",
+        "ne": "\"किन भनेको मान्दैनौ?\"",
+        "id": "\"Kenapa kamu tidak mau menurut?\"",
+        "pt": "\"Por que você não me escuta?\"",
+        "my": "\"ဘာလို့ စကားနားမထောင်တာလဲ။\"",
+        "th": "\"ทำไมไม่เชื่อฟังแม่\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「言うことを聞く」: nghe lời. 「〜の」: câu hỏi nhẹ (nữ).",
+        "en": "「言うことを聞く」 = to obey; 「〜の」 = soft question.",
+        "zh-Hans": "听话。",
+        "zh-Hant": "聽話。",
+        "ko": "말을 듣다.",
+        "tl": "makinig.",
+        "ne": "भनेको मान्नु।",
+        "id": "menurut.",
+        "pt": "obedecer.",
+        "my": "စကားနားထောင်။",
+        "th": "เชื่อฟัง"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=45.167,47.697",
+      "t": [
+        45.167,
+        47.697
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「うるさいなあ。もう、こんな家には、いたくない！」",
+      "furigana": [
+        {
+          "surface": "「うるさいなあ。もう、こんな",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "には、いたくない！」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Urusai naa. Mou, konna ie ni wa, itakunai!”",
+      "translations": {
+        "vi": "\"Phiền quá. Con không muốn ở cái nhà này nữa!\"",
+        "en": "\"So annoying! I don't want to stay in this house anymore!\"",
+        "zh-Hans": "“烦死了。我再也不想待在这个家了！”",
+        "zh-Hant": "“煩死了。我再也不想待在這個家了！”",
+        "ko": "\"시끄러워. 이런 집엔 더 있기 싫어!\"",
+        "tl": "\"Nakakainis! Ayoko nang tumira sa bahay na ito!\"",
+        "ne": "\"झर्को लाग्यो! अब यो घरमा बस्दिनँ!\"",
+        "id": "\"Berisik! Aku tak mau tinggal di rumah ini lagi!\"",
+        "pt": "\"Que chato! Não quero mais ficar nesta casa!\"",
+        "my": "\"နားညည်းတယ်။ ဒီအိမ်မှာ မနေချင်တော့ဘူး!\"",
+        "th": "\"น่ารำคาญ! ไม่อยากอยู่บ้านนี้แล้ว!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "うるさい = phiền, ồn. 「〜たくない」: không muốn ~.",
+        "en": "うるさい = annoying; 「〜たくない」 = don't want to ~.",
+        "zh-Hans": "烦；不想……。",
+        "zh-Hant": "煩；不想……。",
+        "ko": "시끄럽다; ~하기 싫다.",
+        "tl": "nakakainis; ayaw.",
+        "ne": "झर्को; चाहन्नँ।",
+        "id": "berisik; tak mau.",
+        "pt": "chato; não quero.",
+        "my": "နားညည်း; မ...ချင်။",
+        "th": "น่ารำคาญ; ไม่อยาก"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=48.597,52.183",
+      "t": [
+        48.597,
+        52.183
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "男の子は、そう言って、家を出ていってしまいました。",
+      "furigana": [
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、そう",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "ていってしまいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Otokonoko wa, sou itte, ie o dete itteshimaimashita.",
+      "translations": {
+        "vi": "Nói xong, cậu bỏ nhà ra đi.",
+        "en": "Saying that, he left home.",
+        "zh-Hans": "说完，男孩就离家出走了。",
+        "zh-Hant": "說完，男孩就離家出走了。",
+        "ko": "남자아이는 그렇게 말하고 집을 나가 버렸습니다.",
+        "tl": "Pagkasabi niyon, umalis siya ng bahay.",
+        "ne": "यसो भनेर ऊ घर छोडेर गयो।",
+        "id": "Setelah berkata begitu, ia pergi dari rumah.",
+        "pt": "Dizendo isso, saiu de casa.",
+        "my": "ဒီလိုပြောပြီး အိမ်က ထွက်သွားတယ်။",
+        "th": "พูดจบ เขาก็ออกจากบ้านไป"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜てしまう」: ~ mất (đáng tiếc).",
+        "en": "「〜てしまう」 = ended up ~ (regret).",
+        "zh-Hans": "「……了」（遗憾）。",
+        "zh-Hant": "「……了」（遺憾）。",
+        "ko": "~해 버리다.",
+        "tl": "tuluyan.",
+        "ne": "गइहाल्नु।",
+        "id": "pergi begitu saja.",
+        "pt": "acabar.",
+        "my": "သွားတော့တယ်။",
+        "th": "ไปเสียแล้ว"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=53.083,57.407",
+      "t": [
+        53.083,
+        57.407
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "お母さんは、走って、追いかけました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、",
+          "reading": ""
+        },
+        {
+          "surface": "走",
+          "reading": "はし"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "追",
+          "reading": "お"
+        },
+        {
+          "surface": "いかけました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Okaasan wa, hashitte, oikakemashita.",
+      "translations": {
+        "vi": "Mẹ chạy theo đuổi.",
+        "en": "His mother ran after him.",
+        "zh-Hans": "妈妈跑着追了出去。",
+        "zh-Hant": "媽媽跑著追了出去。",
+        "ko": "어머니는 달려서 쫓아갔습니다.",
+        "tl": "Tumakbo ang ina para habulin siya.",
+        "ne": "आमा दौडेर पछि लागिन्।",
+        "id": "Ibunya berlari mengejar.",
+        "pt": "A mãe correu atrás dele.",
+        "my": "အမေက ပြေးပြီး နောက်က လိုက်တယ်။",
+        "th": "แม่วิ่งตามไป"
+      },
+      "vocab": [
+        {
+          "word": "追いかける",
+          "reading": "おいかける",
+          "meanings": {
+            "vi": "đuổi theo",
+            "en": "chase, follow",
+            "zh-Hans": "追赶",
+            "zh-Hant": "追趕",
+            "ko": "뒤쫓다",
+            "tl": "habulin",
+            "ne": "पछ्याउनु",
+            "id": "mengejar",
+            "pt": "perseguir",
+            "my": "လိုက်",
+            "th": "ไล่ตาม"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "追いかける = đuổi theo.",
+        "en": "追いかける = to chase.",
+        "zh-Hans": "追赶。",
+        "zh-Hant": "追趕。",
+        "ko": "쫓아가다.",
+        "tl": "habulin.",
+        "ne": "पछि लाग्नु।",
+        "id": "mengejar.",
+        "pt": "perseguir.",
+        "my": "နောက်လိုက်။",
+        "th": "ไล่ตาม"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=58.007,61.255",
+      "t": [
+        58.007,
+        61.255
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "でも、男の子の姿は、もう、見えませんでした。",
+      "furigana": [
+        {
+          "surface": "でも、",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "姿",
+          "reading": "すがた"
+        },
+        {
+          "surface": "は、もう、",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "えませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, otokonoko no sugata wa, mou, miemasendeshita.",
+      "translations": {
+        "vi": "Nhưng đã không còn thấy bóng dáng cậu bé đâu nữa.",
+        "en": "But the boy was already out of sight.",
+        "zh-Hans": "可是，已经看不到男孩的身影了。",
+        "zh-Hant": "可是，已經看不到男孩的身影了。",
+        "ko": "하지만 남자아이의 모습은 이미 보이지 않았습니다.",
+        "tl": "Pero hindi na niya makita ang bata.",
+        "ne": "तर केटो देखिन छाडिसकेको थियो।",
+        "id": "Tapi sosok anak itu sudah tak terlihat.",
+        "pt": "Mas o menino já tinha sumido de vista.",
+        "my": "ဒါပေမဲ့ ကောင်လေးကို မမြင်ရတော့ဘူး။",
+        "th": "แต่ไม่เห็นเงาเด็กชายแล้ว"
+      },
+      "vocab": [
+        {
+          "word": "姿",
+          "reading": "すがた",
+          "meanings": {
+            "vi": "dáng, hình bóng",
+            "en": "figure, appearance",
+            "zh-Hans": "身影",
+            "zh-Hant": "身影",
+            "ko": "모습",
+            "tl": "anyo, pigura",
+            "ne": "रूप, आकृति",
+            "id": "sosok",
+            "pt": "figura",
+            "my": "ပုံသဏ္ဌာန်",
+            "th": "รูปร่าง"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "見える",
+          "reading": "みえる",
+          "meanings": {
+            "vi": "nhìn thấy được",
+            "en": "to be visible",
+            "zh-Hans": "看得见",
+            "zh-Hant": "看得見",
+            "ko": "보이다",
+            "tl": "makita",
+            "ne": "देखिनु",
+            "id": "terlihat",
+            "pt": "ser visto",
+            "my": "မြင်ရ",
+            "th": "มองเห็น"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "姿 = bóng dáng. 「もう〜ない」: không còn ~.",
+        "en": "姿 = figure; 「もう〜ない」 = no longer ~.",
+        "zh-Hans": "身影；已经不……。",
+        "zh-Hant": "身影；已經不……。",
+        "ko": "모습; 이미 ~않다.",
+        "tl": "anyo; hindi na.",
+        "ne": "आकृति; अब होइन।",
+        "id": "sosok; tak lagi.",
+        "pt": "figura; já não.",
+        "my": "အရိပ်; မ...တော့။",
+        "th": "เงา; ไม่...แล้ว"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=61.855,66.918",
+      "t": [
+        61.855,
+        66.918
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "お母さんは、夜になっても、男の子を待ちました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、",
+          "reading": ""
+        },
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "になっても、",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "待",
+          "reading": "ま"
+        },
+        {
+          "surface": "ちました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Okaasan wa, yoru ni natte mo, otokonoko o machimashita.",
+      "translations": {
+        "vi": "Đến đêm, mẹ vẫn đợi con.",
+        "en": "Even after night fell, she waited for him.",
+        "zh-Hans": "到了晚上，妈妈还在等他。",
+        "zh-Hant": "到了晚上，媽媽還在等他。",
+        "ko": "어머니는 밤이 되어도 아들을 기다렸습니다.",
+        "tl": "Kahit gumabi na, hinintay pa rin niya ang anak.",
+        "ne": "राति भए पनि आमा छोरालाई पर्खिरहिन्।",
+        "id": "Sampai malam pun ia menunggu anaknya.",
+        "pt": "Mesmo à noite, ela esperou o filho.",
+        "my": "ညရောက်တာတောင် အမေက သားကို စောင့်တယ်။",
+        "th": "แม้ถึงกลางคืน แม่ก็ยังรอลูก"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ても」: dù ~. 待つ = chờ.",
+        "en": "「〜ても」 = even when ~; 待つ = to wait.",
+        "zh-Hans": "「即使……」；等。",
+        "zh-Hant": "「即使……」；等。",
+        "ko": "~해도; 기다리다.",
+        "tl": "kahit; maghintay.",
+        "ne": "भए पनि; पर्खनु।",
+        "id": "meski; menunggu.",
+        "pt": "mesmo; esperar.",
+        "my": "တာတောင်; စောင့်။",
+        "th": "แม้; รอ"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=67.518,72.269",
+      "t": [
+        67.518,
+        72.269
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「おなかが、すいていないかな。寒くないかな。」",
+      "furigana": [
+        {
+          "surface": "「おなかが、すいていないかな。",
+          "reading": ""
+        },
+        {
+          "surface": "寒",
+          "reading": "さむ"
+        },
+        {
+          "surface": "くないかな。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Onaka ga, suiteinai ka na. Samukunai ka na.”",
+      "translations": {
+        "vi": "\"Con có đói không. Có lạnh không nhỉ.\"",
+        "en": "\"Is he hungry? Is he cold?\"",
+        "zh-Hans": "“他肚子饿不饿？冷不冷呢？”",
+        "zh-Hant": "“他肚子餓不餓？冷不冷呢？”",
+        "ko": "\"배는 안 고플까. 춥지는 않을까.\"",
+        "tl": "\"Gutom kaya siya? Nilalamig kaya?\"",
+        "ne": "\"भोक लागेको होला कि? जाडो भएको होला कि?\"",
+        "id": "\"Apa dia lapar? Apa dia kedinginan?\"",
+        "pt": "\"Será que está com fome? Com frio?\"",
+        "my": "\"ဗိုက်ဆာနေမလား။ ချမ်းနေမလား။\"",
+        "th": "\"หิวไหมนะ หนาวไหมนะ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜かな」: ~ không nhỉ (tự hỏi).",
+        "en": "「〜かな」 = I wonder if ~.",
+        "zh-Hans": "「……吗？」（自问）。",
+        "zh-Hant": "「……嗎？」（自問）。",
+        "ko": "~할까.",
+        "tl": "kaya.",
+        "ne": "होला कि।",
+        "id": "apa ya.",
+        "pt": "será.",
+        "my": "မလား။",
+        "th": "ไหมนะ"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=73.169,76.965",
+      "t": [
+        73.169,
+        76.965
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "でも、男の子は、帰ってきませんでした。",
+      "furigana": [
+        {
+          "surface": "でも、",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ってきませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, otokonoko wa, kaette kimasendeshita.",
+      "translations": {
+        "vi": "Nhưng cậu bé không trở về.",
+        "en": "But the boy did not come back.",
+        "zh-Hans": "可是，男孩没有回来。",
+        "zh-Hant": "可是，男孩沒有回來。",
+        "ko": "하지만 남자아이는 돌아오지 않았습니다.",
+        "tl": "Pero hindi bumalik ang bata.",
+        "ne": "तर केटो फर्केन।",
+        "id": "Tapi anak itu tidak pulang.",
+        "pt": "Mas o menino não voltou.",
+        "my": "ဒါပေမဲ့ ကောင်လေး ပြန်မလာဘူး။",
+        "th": "แต่เด็กชายไม่กลับมา"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "帰ってくる = trở về.",
+        "en": "帰ってくる = to come back.",
+        "zh-Hans": "回来。",
+        "zh-Hant": "回來。",
+        "ko": "돌아오다.",
+        "tl": "bumalik.",
+        "ne": "फर्कनु।",
+        "id": "pulang.",
+        "pt": "voltar.",
+        "my": "ပြန်လာ။",
+        "th": "กลับมา"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=77.865,81.619",
+      "t": [
+        77.865,
+        81.619
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "次の日も、その次の日も、お母さんは、門の前に立って、待ちました。",
+      "furigana": [
+        {
+          "surface": "次",
+          "reading": "つぎ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "も、その",
+          "reading": ""
+        },
+        {
+          "surface": "次",
+          "reading": "つぎ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "も、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、",
+          "reading": ""
+        },
+        {
+          "surface": "門",
+          "reading": "もん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "立",
+          "reading": "た"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "待",
+          "reading": "ま"
+        },
+        {
+          "surface": "ちました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tsugi no hi mo, sono tsugi no hi mo, okaasan wa, mon no mae ni tatte, machimashita.",
+      "translations": {
+        "vi": "Hôm sau, rồi hôm sau nữa, mẹ đứng trước cổng chờ.",
+        "en": "The next day, and the next, she stood at the gate and waited.",
+        "zh-Hans": "第二天、第三天，妈妈都站在门前等待。",
+        "zh-Hant": "第二天、第三天，媽媽都站在門前等待。",
+        "ko": "다음 날도 그다음 날도 어머니는 문 앞에 서서 기다렸습니다.",
+        "tl": "Kinabukasan at sa sumunod pa, tumayo siya sa tarangkahan at naghintay.",
+        "ne": "भोलिपल्ट र त्यसपछि पनि आमा ढोकाअगाडि उभिएर पर्खिन्।",
+        "id": "Esok dan lusanya, ia berdiri di depan gerbang menunggu.",
+        "pt": "No dia seguinte e no outro, ela esperou de pé no portão.",
+        "my": "နောက်နေ့ရော သန်ဘက်ခါရော အမေက တံခါးရှေ့မှာ ရပ်ပြီး စောင့်တယ်။",
+        "th": "วันรุ่งขึ้นและวันต่อมา แม่ยืนรอที่หน้าประตู"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜に立つ」: đứng ở ~.",
+        "en": "「〜に立つ」 = stand at ~.",
+        "zh-Hans": "「站在……」。",
+        "zh-Hant": "「站在……」。",
+        "ko": "~에 서다.",
+        "tl": "tumayo sa.",
+        "ne": "मा उभिनु।",
+        "id": "berdiri di.",
+        "pt": "ficar em pé em.",
+        "my": "မှာ ရပ်။",
+        "th": "ยืนที่"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=82.219,88.719",
+      "t": [
+        82.219,
+        88.719
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "一か月がすぎ、一年がすぎました。",
+      "furigana": [
+        {
+          "surface": "一",
+          "reading": "いっ"
+        },
+        {
+          "surface": "か",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "げつ"
+        },
+        {
+          "surface": "がすぎ、",
+          "reading": ""
+        },
+        {
+          "surface": "一年",
+          "reading": "いちねん"
+        },
+        {
+          "surface": "がすぎました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ikkagetsu ga sugi, ichinen ga sugimashita.",
+      "translations": {
+        "vi": "Một tháng trôi qua, rồi một năm trôi qua.",
+        "en": "A month passed, then a year.",
+        "zh-Hans": "一个月过去了，一年过去了。",
+        "zh-Hant": "一個月過去了，一年過去了。",
+        "ko": "한 달이 지나고 일 년이 지났습니다.",
+        "tl": "Lumipas ang isang buwan, saka isang taon.",
+        "ne": "एक महिना बित्यो, एक वर्ष बित्यो।",
+        "id": "Sebulan berlalu, lalu setahun.",
+        "pt": "Passou um mês, depois um ano.",
+        "my": "တစ်လ ကုန်၊ တစ်နှစ် ကုန်သွားတယ်။",
+        "th": "หนึ่งเดือนผ่านไป หนึ่งปีผ่านไป"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "すぎる = trôi qua. Dạng 「すぎ、」 nối câu.",
+        "en": "すぎる = to pass (time); stem form links clauses.",
+        "zh-Hans": "すぎる＝过去。",
+        "zh-Hant": "すぎる＝過去。",
+        "ko": "지나다.",
+        "tl": "lumipas.",
+        "ne": "बित्नु।",
+        "id": "berlalu.",
+        "pt": "passar.",
+        "my": "ကုန်။",
+        "th": "ผ่านไป"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=89.319,92.557",
+      "t": [
+        89.319,
+        92.557
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "お母さんは、毎日、泣いていました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、",
+          "reading": ""
+        },
+        {
+          "surface": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "泣",
+          "reading": "な"
+        },
+        {
+          "surface": "いていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Okaasan wa, mainichi, naite imashita.",
+      "translations": {
+        "vi": "Ngày nào mẹ cũng khóc.",
+        "en": "She cried every day.",
+        "zh-Hans": "妈妈每天都在哭。",
+        "zh-Hant": "媽媽每天都在哭。",
+        "ko": "어머니는 매일 울었습니다.",
+        "tl": "Araw-araw siyang umiiyak.",
+        "ne": "आमा हरेक दिन रुन्थिन्।",
+        "id": "Setiap hari ia menangis.",
+        "pt": "Ela chorava todos os dias.",
+        "my": "အမေက နေ့တိုင်း ငိုတယ်။",
+        "th": "แม่ร้องไห้ทุกวัน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ていました」: thói quen kéo dài.",
+        "en": "「〜ていました」 = ongoing past.",
+        "zh-Hans": "「一直在……」。",
+        "zh-Hant": "「一直在……」。",
+        "ko": "~하고 있었다.",
+        "tl": "palagi.",
+        "ne": "गरिरहन्थिन्।",
+        "id": "terus.",
+        "pt": "vivia ~.",
+        "my": "...နေ။",
+        "th": "อยู่เสมอ"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=93.157,96.41",
+      "t": [
+        93.157,
+        96.41
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "やがて、お母さんは、病気になって、死んでしまいました。",
+      "furigana": [
+        {
+          "surface": "やがて、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、",
+          "reading": ""
+        },
+        {
+          "surface": "病気",
+          "reading": "びょうき"
+        },
+        {
+          "surface": "になって、",
+          "reading": ""
+        },
+        {
+          "surface": "死",
+          "reading": "し"
+        },
+        {
+          "surface": "んでしまいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Yagate, okaasan wa, byouki ni natte, shinde shimaimashita.",
+      "translations": {
+        "vi": "Rồi mẹ đổ bệnh, qua đời.",
+        "en": "In time, she fell ill and died.",
+        "zh-Hans": "后来，妈妈病倒，去世了。",
+        "zh-Hant": "後來，媽媽病倒，去世了。",
+        "ko": "이윽고 어머니는 병이 들어 돌아가셨습니다.",
+        "tl": "Kalaunan, nagkasakit siya at namatay.",
+        "ne": "पछि आमा बिरामी परिन् र बितिन्।",
+        "id": "Akhirnya ia jatuh sakit dan meninggal.",
+        "pt": "Com o tempo, adoeceu e morreu.",
+        "my": "နောက်တော့ အမေ ဖျားပြီး ဆုံးသွားတယ်။",
+        "th": "ต่อมาแม่ล้มป่วยและเสียชีวิต"
+      },
+      "vocab": [
+        {
+          "word": "やがて",
+          "reading": "やがて",
+          "meanings": {
+            "vi": "chẳng bao lâu sau, rồi thì",
+            "en": "before long, eventually",
+            "zh-Hans": "不久，终于",
+            "zh-Hant": "不久，終於",
+            "ko": "머지않아, 이윽고",
+            "tl": "hindi nagtagal",
+            "ne": "केही समयपछि",
+            "id": "tak lama kemudian",
+            "pt": "logo, com o tempo",
+            "my": "မကြာမီ",
+            "th": "ไม่นานนัก, ในที่สุด"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "やがて = rồi dần dần.",
+        "en": "やがて = eventually.",
+        "zh-Hans": "后来。",
+        "zh-Hant": "後來。",
+        "ko": "이윽고.",
+        "tl": "kalaunan.",
+        "ne": "पछि।",
+        "id": "akhirnya.",
+        "pt": "com o tempo.",
+        "my": "နောက်တော့။",
+        "th": "ต่อมา"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=97.01,102.321",
+      "t": [
+        97.01,
+        102.321
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それでも、お母さんは、最後まで、男の子の名前を、よんでいたそうです。",
+      "furigana": [
+        {
+          "surface": "それでも、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、",
+          "reading": ""
+        },
+        {
+          "surface": "最後",
+          "reading": "さいご"
+        },
+        {
+          "surface": "まで、",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "名前",
+          "reading": "なまえ"
+        },
+        {
+          "surface": "を、よんでいたそうです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soredemo, okaasan wa, saigo made, otokonoko no namae o, yondeita sou desu.",
+      "translations": {
+        "vi": "Nghe nói đến tận phút cuối, mẹ vẫn gọi tên con.",
+        "en": "It is said that even to the very end, she kept calling his name.",
+        "zh-Hans": "据说直到最后，妈妈都在叫着儿子的名字。",
+        "zh-Hant": "據說直到最後，媽媽都在叫著兒子的名字。",
+        "ko": "그래도 어머니는 마지막까지 아들 이름을 불렀다고 합니다.",
+        "tl": "Sinasabing hanggang sa huli, tinatawag pa rin niya ang pangalan ng anak.",
+        "ne": "अन्तिमसम्म पनि आमाले छोराको नाम बोलाइरहिन् रे।",
+        "id": "Konon sampai akhir, ia terus memanggil nama anaknya.",
+        "pt": "Dizem que até o fim ela chamava o nome do filho.",
+        "my": "နောက်ဆုံးအထိ သားရဲ့နာမည်ကို ခေါ်နေခဲ့တယ်လို့ ဆိုကြတယ်။",
+        "th": "ว่ากันว่าจนวาระสุดท้าย แม่ยังเรียกชื่อลูก"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜そうです」: nghe nói ~. 最後 = cuối cùng.",
+        "en": "「〜そうです」 = I hear ~; 最後 = the end.",
+        "zh-Hans": "「据说……」；最后。",
+        "zh-Hant": "「據說……」；最後。",
+        "ko": "~라고 한다; 마지막.",
+        "tl": "sinasabing; huli.",
+        "ne": "रे; अन्तिम।",
+        "id": "konon; akhir.",
+        "pt": "dizem; fim.",
+        "my": "ဆိုကြတယ်; နောက်ဆုံး။",
+        "th": "ว่ากันว่า; สุดท้าย"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=102.921,109.161",
+      "t": [
+        102.921,
+        109.161
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのころ、男の子は、遠い町で、こまっていました。",
+      "furigana": [
+        {
+          "surface": "そのころ、",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "遠",
+          "reading": "とお"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "町",
+          "reading": "まち"
+        },
+        {
+          "surface": "で、こまっていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono koro, otokonoko wa, tooi machi de, komatteimashita.",
+      "translations": {
+        "vi": "Lúc ấy, cậu bé đang khốn đốn ở một thị trấn xa.",
+        "en": "Meanwhile, the boy was struggling in a faraway town.",
+        "zh-Hans": "那时，男孩在遥远的城镇里吃尽了苦头。",
+        "zh-Hant": "那時，男孩在遙遠的城鎮裡吃盡了苦頭。",
+        "ko": "그 무렵 남자아이는 먼 마을에서 곤란을 겪고 있었습니다.",
+        "tl": "Samantala, naghihirap ang bata sa malayong bayan.",
+        "ne": "त्यस बेला केटो टाढाको सहरमा दुःख पाइरहेको थियो।",
+        "id": "Saat itu, anak itu kesusahan di kota yang jauh.",
+        "pt": "Nessa época, o menino passava apuros numa cidade distante.",
+        "my": "အဲဒီအချိန် ကောင်လေးက ဝေးတဲ့မြို့မှာ ဒုက္ခရောက်နေတယ်။",
+        "th": "ตอนนั้น เด็กชายลำบากอยู่ในเมืองที่ห่างไกล"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "そのころ = lúc ấy. こまる = khốn đốn.",
+        "en": "そのころ = around then; こまる = to struggle.",
+        "zh-Hans": "那时；为难。",
+        "zh-Hant": "那時；為難。",
+        "ko": "그 무렵; 곤란하다.",
+        "tl": "noon; maghirap.",
+        "ne": "त्यस बेला; दुःख।",
+        "id": "saat itu; kesusahan.",
+        "pt": "nessa época; apuros.",
+        "my": "အဲဒီအချိန်; ဒုက္ခ။",
+        "th": "ตอนนั้น; ลำบาก"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=109.761,114.569",
+      "t": [
+        109.761,
+        114.569
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "お金もなく、食べるものもなく、友だちも、いませんでした。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "金",
+          "reading": "かね"
+        },
+        {
+          "surface": "もなく、",
+          "reading": ""
+        },
+        {
+          "surface": "食",
+          "reading": "た"
+        },
+        {
+          "surface": "べるものもなく、",
+          "reading": ""
+        },
+        {
+          "surface": "友",
+          "reading": "とも"
+        },
+        {
+          "surface": "だちも、いませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Okane mo naku, taberu mono mo naku, tomodachi mo, imasendeshita.",
+      "translations": {
+        "vi": "Không tiền, không đồ ăn, cũng chẳng có bạn bè.",
+        "en": "He had no money, no food, and no friends.",
+        "zh-Hans": "没有钱，没有吃的，也没有朋友。",
+        "zh-Hant": "沒有錢，沒有吃的，也沒有朋友。",
+        "ko": "돈도 없고 먹을 것도 없고 친구도 없었습니다.",
+        "tl": "Walang pera, walang pagkain, at walang kaibigan.",
+        "ne": "पैसा थिएन, खाना थिएन, साथी पनि थिएनन्।",
+        "id": "Tak punya uang, makanan, ataupun teman.",
+        "pt": "Não tinha dinheiro, comida nem amigos.",
+        "my": "ပိုက်ဆံ မရှိ၊ စားစရာ မရှိ၊ သူငယ်ချင်းလည်း မရှိဘူး။",
+        "th": "ไม่มีเงิน ไม่มีอาหาร ไม่มีเพื่อน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜もなく、〜もなく」: không ~, cũng không ~.",
+        "en": "「〜もなく」 = without ~ either.",
+        "zh-Hans": "「没有……也没有……」。",
+        "zh-Hant": "「沒有……也沒有……」。",
+        "ko": "~도 없고.",
+        "tl": "walang ... at walang.",
+        "ne": "न ... न।",
+        "id": "tanpa ... dan.",
+        "pt": "nem ... nem.",
+        "my": "မရှိ...မရှိ။",
+        "th": "ไม่มี...ไม่มี"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=115.169,120.41",
+      "t": [
+        115.169,
+        120.41
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "寒い夜、男の子は、道で、ひとりで、ふるえていました。",
+      "furigana": [
+        {
+          "surface": "寒",
+          "reading": "さむ"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "道",
+          "reading": "みち"
+        },
+        {
+          "surface": "で、ひとりで、ふるえていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Samui yoru, otokonoko wa, michi de, hitori de, furueteimashita.",
+      "translations": {
+        "vi": "Đêm lạnh, cậu bé một mình run rẩy trên đường.",
+        "en": "On a cold night, the boy shivered alone on the street.",
+        "zh-Hans": "寒冷的夜里，男孩独自在路边发抖。",
+        "zh-Hant": "寒冷的夜裡，男孩獨自在路邊發抖。",
+        "ko": "추운 밤, 남자아이는 길에서 혼자 떨고 있었습니다.",
+        "tl": "Isang malamig na gabi, mag-isang nanginginig ang bata sa kalye.",
+        "ne": "जाडो रात केटो बाटोमा एक्लै काँपिरहेको थियो।",
+        "id": "Pada malam dingin, anak itu menggigil sendirian di jalan.",
+        "pt": "Numa noite fria, o menino tremia sozinho na rua.",
+        "my": "ညအေးအေးမှာ ကောင်လေးက လမ်းပေါ်မှာ တစ်ယောက်တည်း တုန်နေတယ်။",
+        "th": "คืนที่หนาวเหน็บ เด็กชายนั่งตัวสั่นอยู่คนเดียวบนถนน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ふるえる = run rẩy. ひとりで = một mình.",
+        "en": "ふるえる = to shiver; ひとりで = alone.",
+        "zh-Hans": "发抖；独自。",
+        "zh-Hant": "發抖；獨自。",
+        "ko": "떨다; 혼자서.",
+        "tl": "manginig; mag-isa.",
+        "ne": "काँप्नु; एक्लै।",
+        "id": "menggigil; sendirian.",
+        "pt": "tremer; sozinho.",
+        "my": "တုန်; တစ်ယောက်တည်း။",
+        "th": "สั่น; คนเดียว"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=121.01,126.735",
+      "t": [
+        121.01,
+        126.735
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのとき、男の子は、お母さんの顔を、思い出しました。",
+      "furigana": [
+        {
+          "surface": "そのとき、",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんの",
+          "reading": ""
+        },
+        {
+          "surface": "顔",
+          "reading": "かお"
+        },
+        {
+          "surface": "を、",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono toki, otokonoko wa, okaasan no kao o, omoidashimashita.",
+      "translations": {
+        "vi": "Lúc ấy, cậu nhớ đến khuôn mặt mẹ.",
+        "en": "Just then, he remembered his mother's face.",
+        "zh-Hans": "这时，男孩想起了妈妈的脸。",
+        "zh-Hant": "這時，男孩想起了媽媽的臉。",
+        "ko": "그때 남자아이는 어머니의 얼굴을 떠올렸습니다.",
+        "tl": "Saka niya naalala ang mukha ng ina.",
+        "ne": "त्यस बेला उसले आमाको अनुहार सम्झ्यो।",
+        "id": "Saat itu, ia teringat wajah ibunya.",
+        "pt": "Nisso, lembrou-se do rosto da mãe.",
+        "my": "အဲဒီအချိန် အမေ့မျက်နှာကို သတိရတယ်။",
+        "th": "ตอนนั้น เขานึกถึงหน้าแม่"
+      },
+      "vocab": [
+        {
+          "word": "思い出す",
+          "reading": "おもいだす",
+          "meanings": {
+            "vi": "nhớ lại",
+            "en": "to remember",
+            "zh-Hans": "想起",
+            "zh-Hant": "想起",
+            "ko": "떠올리다",
+            "tl": "maalala",
+            "ne": "सम्झनु",
+            "id": "teringat",
+            "pt": "lembrar",
+            "my": "သတိရ",
+            "th": "นึกถึง"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "思い出す = nhớ ra.",
+        "en": "思い出す = to remember.",
+        "zh-Hans": "想起。",
+        "zh-Hant": "想起。",
+        "ko": "떠올리다.",
+        "tl": "maalala.",
+        "ne": "सम्झनु।",
+        "id": "teringat.",
+        "pt": "lembrar.",
+        "my": "သတိရ။",
+        "th": "นึกถึง"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=127.335,132.707",
+      "t": [
+        127.335,
+        132.707
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「お母さんの、あたたかいごはんが、食べたいなあ。」",
+      "furigana": [
+        {
+          "surface": "「お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんの、あたたかいごはんが、",
+          "reading": ""
+        },
+        {
+          "surface": "食",
+          "reading": "た"
+        },
+        {
+          "surface": "べたいなあ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Okaasan no, atatakai gohan ga, tabetai naa.”",
+      "translations": {
+        "vi": "\"Muốn được ăn cơm nóng mẹ nấu quá.\"",
+        "en": "\"I wish I could eat Mom's warm cooking.\"",
+        "zh-Hans": "“好想吃妈妈做的热饭啊。”",
+        "zh-Hant": "“好想吃媽媽做的熱飯啊。”",
+        "ko": "\"어머니의 따뜻한 밥이 먹고 싶다.\"",
+        "tl": "\"Gusto kong kumain ng mainit na luto ni Inay.\"",
+        "ne": "\"आमाको तातो खाना खान मन लाग्यो।\"",
+        "id": "\"Ingin makan nasi hangat buatan ibu.\"",
+        "pt": "\"Queria comer a comida quentinha da mãe.\"",
+        "my": "\"အမေ့ရဲ့ ထမင်းပူပူ စားချင်လိုက်တာ။\"",
+        "th": "\"อยากกินข้าวร้อน ๆ ของแม่จัง\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜たいなあ」: muốn ~ quá (cảm thán).",
+        "en": "「〜たいなあ」 = I really want ~.",
+        "zh-Hans": "「好想……啊」。",
+        "zh-Hant": "「好想……啊」。",
+        "ko": "~하고 싶다.",
+        "tl": "gusto ko.",
+        "ne": "मन लाग्यो।",
+        "id": "ingin.",
+        "pt": "queria.",
+        "my": "...ချင်လိုက်တာ။",
+        "th": "อยาก...จัง"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=133.607,136.921",
+      "t": [
+        133.607,
+        136.921
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "男の子は、やっと、家に帰ることにしました。",
+      "furigana": [
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、やっと、",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ることにしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Otokonoko wa, yatto, ie ni kaeru kotoni shimashita.",
+      "translations": {
+        "vi": "Cuối cùng, cậu quyết định trở về nhà.",
+        "en": "At last, he decided to go home.",
+        "zh-Hans": "男孩终于决定回家了。",
+        "zh-Hant": "男孩終於決定回家了。",
+        "ko": "남자아이는 마침내 집에 돌아가기로 했습니다.",
+        "tl": "Sa wakas, nagpasya siyang umuwi.",
+        "ne": "अन्ततः ऊ घर फर्कने निर्णय गर्‍यो।",
+        "id": "Akhirnya ia memutuskan pulang.",
+        "pt": "Por fim, decidiu voltar para casa.",
+        "my": "နောက်ဆုံးတော့ အိမ်ပြန်ဖို့ ဆုံးဖြတ်တယ်။",
+        "th": "ในที่สุด เขาก็ตัดสินใจกลับบ้าน"
+      },
+      "vocab": [
+        {
+          "word": "やっと",
+          "reading": "やっと",
+          "meanings": {
+            "vi": "cuối cùng thì",
+            "en": "at last",
+            "zh-Hans": "终于",
+            "zh-Hant": "終於",
+            "ko": "드디어",
+            "tl": "sa wakas",
+            "ne": "आखिर",
+            "id": "akhirnya",
+            "pt": "finalmente",
+            "my": "နောက်ဆုံးတော့",
+            "th": "ในที่สุด"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜ことにする」: quyết định ~. やっと = cuối cùng.",
+        "en": "「〜ことにする」 = decide to ~; やっと = at last.",
+        "zh-Hans": "「决定……」；终于。",
+        "zh-Hant": "「決定……」；終於。",
+        "ko": "~하기로 하다; 마침내.",
+        "tl": "magpasya; sa wakas.",
+        "ne": "निर्णय; अन्ततः।",
+        "id": "memutuskan; akhirnya.",
+        "pt": "decidir; por fim.",
+        "my": "ဆုံးဖြတ်; နောက်ဆုံး။",
+        "th": "ตัดสินใจ; ในที่สุด"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=137.821,142.298",
+      "t": [
+        137.821,
+        142.298
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "長い道を歩いて、なつかしい村に、着きました。",
+      "furigana": [
+        {
+          "surface": "長",
+          "reading": "なが"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "道",
+          "reading": "みち"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "歩",
+          "reading": "ある"
+        },
+        {
+          "surface": "いて、なつかしい",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "着",
+          "reading": "つ"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Nagai michi o aruite, natsukashii mura ni, tsukimashita.",
+      "translations": {
+        "vi": "Đi bộ một quãng đường dài, cậu về đến làng xưa thân thuộc.",
+        "en": "After a long walk, he reached his dear old village.",
+        "zh-Hans": "走了很长的路，回到了熟悉的村子。",
+        "zh-Hant": "走了很長的路，回到了熟悉的村子。",
+        "ko": "긴 길을 걸어 그리운 마을에 도착했습니다.",
+        "tl": "Pagkatapos ng mahabang lakad, narating niya ang mahal na nayon.",
+        "ne": "लामो बाटो हिँडेर प्यारो गाउँ पुग्यो।",
+        "id": "Setelah berjalan jauh, ia tiba di desa yang dirindukannya.",
+        "pt": "Depois de longa caminhada, chegou à querida aldeia.",
+        "my": "လမ်းရှည်ကြီး လျှောက်ပြီး လွမ်းစရာ ရွာကို ရောက်တယ်။",
+        "th": "เดินทางไกลจนถึงหมู่บ้านที่คิดถึง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "なつかしい = thân thương, gợi nhớ.",
+        "en": "なつかしい = dear, nostalgic.",
+        "zh-Hans": "怀念的。",
+        "zh-Hant": "懷念的。",
+        "ko": "그리운.",
+        "tl": "mahal, kinasasabikan.",
+        "ne": "प्यारो।",
+        "id": "dirindukan.",
+        "pt": "querido.",
+        "my": "လွမ်းစရာ။",
+        "th": "ที่คิดถึง"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=142.898,147.645",
+      "t": [
+        142.898,
+        147.645
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「お母さん！ただいま！ぼく、帰ってきたよ！」",
+      "furigana": [
+        {
+          "surface": "「お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さん！ただいま！ぼく、",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ってきたよ！」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Okaasan! Tadaima! Boku, kaette kita yo!”",
+      "translations": {
+        "vi": "\"Mẹ ơi! Con về rồi đây!\"",
+        "en": "\"Mom! I'm home! I came back!\"",
+        "zh-Hans": "“妈妈！我回来了！”",
+        "zh-Hant": "“媽媽！我回來了！”",
+        "ko": "\"어머니! 다녀왔어요! 저 돌아왔어요!\"",
+        "tl": "\"Inay! Nandito na ako! Bumalik na ako!\"",
+        "ne": "\"आमा! म आएँ! फर्किएँ!\"",
+        "id": "\"Ibu! Aku pulang!\"",
+        "pt": "\"Mãe! Cheguei! Voltei!\"",
+        "my": "\"အမေ! ပြန်ရောက်ပြီ!\"",
+        "th": "\"แม่! ผมกลับมาแล้ว!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ただいま = con về rồi.",
+        "en": "ただいま = I'm home.",
+        "zh-Hans": "我回来了。",
+        "zh-Hant": "我回來了。",
+        "ko": "다녀왔습니다.",
+        "tl": "nandito na ako.",
+        "ne": "म आएँ।",
+        "id": "aku pulang.",
+        "pt": "cheguei.",
+        "my": "ပြန်ရောက်ပြီ။",
+        "th": "กลับมาแล้ว"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=148.545,151.891",
+      "t": [
+        148.545,
+        151.891
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "でも、家の中は、からっぽでした。",
+      "furigana": [
+        {
+          "surface": "でも、",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "は、からっぽでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, ie no naka wa, karappo deshita.",
+      "translations": {
+        "vi": "Nhưng trong nhà trống trơn.",
+        "en": "But the house was empty.",
+        "zh-Hans": "可是，家里空荡荡的。",
+        "zh-Hant": "可是，家裡空蕩蕩的。",
+        "ko": "하지만 집 안은 텅 비어 있었습니다.",
+        "tl": "Pero walang laman ang bahay.",
+        "ne": "तर घर खाली थियो।",
+        "id": "Tapi rumah itu kosong.",
+        "pt": "Mas a casa estava vazia.",
+        "my": "ဒါပေမဲ့ အိမ်ထဲ ဗလာ ဖြစ်နေတယ်။",
+        "th": "แต่ในบ้านว่างเปล่า"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "からっぽ = trống không.",
+        "en": "からっぽ = empty.",
+        "zh-Hans": "空荡荡。",
+        "zh-Hant": "空蕩蕩。",
+        "ko": "텅 빈.",
+        "tl": "walang laman.",
+        "ne": "खाली।",
+        "id": "kosong.",
+        "pt": "vazio.",
+        "my": "ဗလာ။",
+        "th": "ว่างเปล่า"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=152.791,155.861",
+      "t": [
+        152.791,
+        155.861
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "台所は、つめたくて、お母さんの声も、聞こえませんでした。",
+      "furigana": [
+        {
+          "surface": "台所",
+          "reading": "だいどころ"
+        },
+        {
+          "surface": "は、つめたくて、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんの",
+          "reading": ""
+        },
+        {
+          "surface": "声",
+          "reading": "こえ"
+        },
+        {
+          "surface": "も、",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "こえませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Daidokoro wa, tsumetakute, okaasan no koe mo, kikoemasen deshita.",
+      "translations": {
+        "vi": "Bếp lạnh tanh, cũng không nghe tiếng mẹ.",
+        "en": "The kitchen was cold, and he couldn't hear his mother's voice.",
+        "zh-Hans": "厨房冷冰冰的，也听不到妈妈的声音。",
+        "zh-Hant": "廚房冷冰冰的，也聽不到媽媽的聲音。",
+        "ko": "부엌은 차갑고 어머니 목소리도 들리지 않았습니다.",
+        "tl": "Malamig ang kusina at hindi niya marinig ang tinig ng ina.",
+        "ne": "भान्सा चिसो थियो, आमाको आवाज पनि सुनिएन।",
+        "id": "Dapur dingin dan suara ibu tak terdengar.",
+        "pt": "A cozinha estava fria e não se ouvia a voz da mãe.",
+        "my": "မီးဖိုချောင် အေးစက်ပြီး အမေ့အသံလည်း မကြားရဘူး။",
+        "th": "ครัวเย็นชืด ไม่ได้ยินเสียงแม่"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜くて、〜も」: ~ và cả ~ cũng.",
+        "en": "「〜くて、〜も」 = ~ and also ~.",
+        "zh-Hans": "「……而且……也」。",
+        "zh-Hant": "「……而且……也」。",
+        "ko": "~하고 ~도.",
+        "tl": "at pati.",
+        "ne": "र पनि।",
+        "id": "dan juga.",
+        "pt": "e também.",
+        "my": "ပြီး...လည်း။",
+        "th": "และ...ก็"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=156.461,161.867",
+      "t": [
+        156.461,
+        161.867
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "テーブルの上には、ほこりが、たくさん、ありました。",
+      "furigana": [
+        {
+          "surface": "テーブルの",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "には、ほこりが、たくさん、ありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Teeburu no ue ni wa, hokori ga, takusan, arimashita.",
+      "translations": {
+        "vi": "Trên bàn phủ đầy bụi.",
+        "en": "The table was covered in dust.",
+        "zh-Hans": "桌子上积满了灰尘。",
+        "zh-Hant": "桌子上積滿了灰塵。",
+        "ko": "탁자 위에는 먼지가 잔뜩 쌓여 있었습니다.",
+        "tl": "Puno ng alikabok ang mesa.",
+        "ne": "टेबलमाथि धेरै धुलो थियो।",
+        "id": "Di atas meja penuh debu.",
+        "pt": "A mesa estava coberta de poeira.",
+        "my": "စားပွဲပေါ်မှာ ဖုန်တွေ အများကြီး ရှိတယ်။",
+        "th": "บนโต๊ะมีฝุ่นเต็มไปหมด"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ほこり = bụi. 「〜の上には」: ở trên ~ thì.",
+        "en": "ほこり = dust; 「〜の上には」 = on top of ~.",
+        "zh-Hans": "灰尘；「在……上」。",
+        "zh-Hant": "灰塵；「在……上」。",
+        "ko": "먼지; ~위에는.",
+        "tl": "alikabok; sa ibabaw.",
+        "ne": "धुलो; माथि।",
+        "id": "debu; di atas.",
+        "pt": "poeira; em cima.",
+        "my": "ဖုန်; ပေါ်မှာ။",
+        "th": "ฝุ่น; บน"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=162.467,167.017",
+      "t": [
+        162.467,
+        167.017
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "男の子は、家の中を、あちこち、さがしました。",
+      "furigana": [
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "を、あちこち、さがしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Otokonoko wa, ie no naka o, achikochi, sagashimashita.",
+      "translations": {
+        "vi": "Cậu bé đi tìm khắp nơi trong nhà.",
+        "en": "The boy searched all over the house.",
+        "zh-Hans": "男孩在家里到处找。",
+        "zh-Hant": "男孩在家裡到處找。",
+        "ko": "남자아이는 집 안 여기저기를 찾았습니다.",
+        "tl": "Hinanap ng bata ang buong bahay.",
+        "ne": "केटोले घरभरि खोज्यो।",
+        "id": "Anak itu mencari ke seluruh rumah.",
+        "pt": "O menino procurou pela casa toda.",
+        "my": "ကောင်လေးက အိမ်ထဲ ဟိုဟိုဒီဒီ ရှာတယ်။",
+        "th": "เด็กชายค้นหาทั่วบ้าน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "あちこち = khắp nơi. さがす = tìm.",
+        "en": "あちこち = here and there; さがす = to search.",
+        "zh-Hans": "到处；找。",
+        "zh-Hant": "到處；找。",
+        "ko": "여기저기; 찾다.",
+        "tl": "kung saan-saan; hanapin.",
+        "ne": "यताउता; खोज्नु।",
+        "id": "ke mana-mana; mencari.",
+        "pt": "por toda parte; procurar.",
+        "my": "ဟိုဟိုဒီဒီ; ရှာ။",
+        "th": "ทั่ว; หา"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=167.617,172.444",
+      "t": [
+        167.617,
+        172.444
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「お母さん、どこ？お母さん！」",
+      "furigana": [
+        {
+          "surface": "「お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さん、どこ？お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さん！」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Okaasan, doko? Okaasan!”",
+      "translations": {
+        "vi": "\"Mẹ ơi, mẹ đâu rồi? Mẹ ơi!\"",
+        "en": "\"Mom, where are you? Mom!\"",
+        "zh-Hans": "“妈妈，你在哪儿？妈妈！”",
+        "zh-Hant": "“媽媽，你在哪兒？媽媽！”",
+        "ko": "\"어머니, 어디 계세요? 어머니!\"",
+        "tl": "\"Inay, nasaan ka? Inay!\"",
+        "ne": "\"आमा, कहाँ हुनुहुन्छ? आमा!\"",
+        "id": "\"Ibu, di mana? Ibu!\"",
+        "pt": "\"Mãe, onde você está? Mãe!\"",
+        "my": "\"အမေ ဘယ်မှာလဲ။ အမေ!\"",
+        "th": "\"แม่ อยู่ไหน แม่!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「どこ？」: ở đâu? (văn nói ngắn).",
+        "en": "「どこ？」 = where? (casual).",
+        "zh-Hans": "在哪儿？",
+        "zh-Hant": "在哪兒？",
+        "ko": "어디?",
+        "tl": "nasaan?",
+        "ne": "कहाँ?",
+        "id": "di mana?",
+        "pt": "onde?",
+        "my": "ဘယ်မှာလဲ။",
+        "th": "ที่ไหน"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=173.344,175.808",
+      "t": [
+        173.344,
+        175.808
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "男の子は、門の前の、大きな木の下で、すわりこみました。",
+      "furigana": [
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "門",
+          "reading": "もん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "の、",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きな",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "下",
+          "reading": "した"
+        },
+        {
+          "surface": "で、すわりこみました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Otokonoko wa, mon no mae no, ookina ki no shita de, suwarikomimashita.",
+      "translations": {
+        "vi": "Cậu bé ngồi sụp xuống dưới gốc cây to trước cổng.",
+        "en": "The boy sank down under the big tree in front of the gate.",
+        "zh-Hans": "男孩在门前的大树下一屁股坐了下来。",
+        "zh-Hant": "男孩在門前的大樹下一屁股坐了下來。",
+        "ko": "남자아이는 문 앞 큰 나무 아래에 주저앉았습니다.",
+        "tl": "Napaupo ang bata sa ilalim ng malaking puno sa harap ng tarangkahan.",
+        "ne": "केटो ढोकाअगाडिको ठूलो रूखमुनि थचक्क बस्यो।",
+        "id": "Anak itu terduduk di bawah pohon besar di depan gerbang.",
+        "pt": "O menino desabou sob a grande árvore diante do portão.",
+        "my": "ကောင်လေးက တံခါးရှေ့က သစ်ပင်ကြီးအောက်မှာ ထိုင်ချလိုက်တယ်။",
+        "th": "เด็กชายทรุดนั่งใต้ต้นไม้ใหญ่หน้าประตู"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "すわりこむ = ngồi sụp xuống.",
+        "en": "すわりこむ = to sink down and sit.",
+        "zh-Hans": "一屁股坐下。",
+        "zh-Hant": "一屁股坐下。",
+        "ko": "주저앉다.",
+        "tl": "mapaupo.",
+        "ne": "थचक्क बस्नु।",
+        "id": "terduduk.",
+        "pt": "desabar.",
+        "my": "ထိုင်ချ။",
+        "th": "ทรุดนั่ง"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=176.708,182.583",
+      "t": [
+        176.708,
+        182.583
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そして、声を上げて、泣きました。",
+      "furigana": [
+        {
+          "surface": "そして、",
+          "reading": ""
+        },
+        {
+          "surface": "声",
+          "reading": "こえ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "あ"
+        },
+        {
+          "surface": "げて、",
+          "reading": ""
+        },
+        {
+          "surface": "泣",
+          "reading": "な"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite, koe o agete, nakimashita.",
+      "translations": {
+        "vi": "Rồi cậu òa khóc thành tiếng.",
+        "en": "Then he cried out loud.",
+        "zh-Hans": "然后放声大哭。",
+        "zh-Hant": "然後放聲大哭。",
+        "ko": "그리고 소리 내어 울었습니다.",
+        "tl": "At humagulgol siya.",
+        "ne": "अनि ठूलो स्वरले रोयो।",
+        "id": "Lalu ia menangis keras.",
+        "pt": "E chorou alto.",
+        "my": "ပြီးတော့ အသံထွက်အောင် ငိုတယ်။",
+        "th": "แล้วก็ร้องไห้เสียงดัง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "声を上げる = cất tiếng. そして = rồi, và.",
+        "en": "声を上げる = raise one's voice; そして = and then.",
+        "zh-Hans": "放声；然后。",
+        "zh-Hant": "放聲；然後。",
+        "ko": "소리 내다; 그리고.",
+        "tl": "lakasan ang boses; at.",
+        "ne": "स्वर निकाल्नु; अनि।",
+        "id": "bersuara keras; lalu.",
+        "pt": "levantar a voz; e.",
+        "my": "အသံထွက်; ပြီးတော့။",
+        "th": "เปล่งเสียง; แล้ว"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=183.183,186.398",
+      "t": [
+        183.183,
+        186.398
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ごめんなさい。お母さん、会いたいよ。」",
+      "furigana": [
+        {
+          "surface": "「ごめんなさい。お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さん、",
+          "reading": ""
+        },
+        {
+          "surface": "会",
+          "reading": "あ"
+        },
+        {
+          "surface": "いたいよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Gomennasai. Okaasan, aitai yo.”",
+      "translations": {
+        "vi": "\"Con xin lỗi. Mẹ ơi, con nhớ mẹ lắm.\"",
+        "en": "\"I'm sorry. Mom, I want to see you.\"",
+        "zh-Hans": "“对不起。妈妈，我好想你。”",
+        "zh-Hant": "“對不起。媽媽，我好想你。”",
+        "ko": "\"잘못했어요. 어머니, 보고 싶어요.\"",
+        "tl": "\"Patawad. Inay, gusto kitang makita.\"",
+        "ne": "\"माफ गर्नुहोस्। आमा, भेट्न मन लाग्यो।\"",
+        "id": "\"Maafkan aku. Ibu, aku rindu.\"",
+        "pt": "\"Desculpa. Mãe, quero te ver.\"",
+        "my": "\"တောင်းပန်ပါတယ်။ အမေ၊ တွေ့ချင်တယ်။\"",
+        "th": "\"ขอโทษครับ แม่ อยากเจอแม่\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「会いたい」: muốn gặp. 「〜よ」: nhấn cảm xúc.",
+        "en": "「会いたい」 = want to see; 「〜よ」 = emphasis.",
+        "zh-Hans": "想见；语气词。",
+        "zh-Hant": "想見；語氣詞。",
+        "ko": "보고 싶다.",
+        "tl": "gusto kitang makita.",
+        "ne": "भेट्न मन।",
+        "id": "rindu.",
+        "pt": "quero ver.",
+        "my": "တွေ့ချင်။",
+        "th": "อยากเจอ"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=187.298,189.948",
+      "t": [
+        187.298,
+        189.948
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "すると、そのとき、ふしぎなことが、起きました。",
+      "furigana": [
+        {
+          "surface": "すると、そのとき、ふしぎなことが、",
+          "reading": ""
+        },
+        {
+          "surface": "起",
+          "reading": "お"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suruto, sono toki, fushigi na koto ga, okimashita.",
+      "translations": {
+        "vi": "Thế rồi, một điều kỳ lạ đã xảy ra.",
+        "en": "Then something strange happened.",
+        "zh-Hans": "这时，发生了一件奇怪的事。",
+        "zh-Hant": "這時，發生了一件奇怪的事。",
+        "ko": "그러자 신기한 일이 일어났습니다.",
+        "tl": "At may kakaibang nangyari.",
+        "ne": "त्यसपछि अनौठो कुरा भयो।",
+        "id": "Lalu terjadilah hal ajaib.",
+        "pt": "Então aconteceu algo estranho.",
+        "my": "ဒီတော့ ထူးဆန်းတာ ဖြစ်လာတယ်။",
+        "th": "แล้วเรื่องแปลกก็เกิดขึ้น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "すると = thế rồi (tiếp theo đó). 起きる = xảy ra.",
+        "en": "すると = thereupon; 起きる = to happen.",
+        "zh-Hans": "于是；发生。",
+        "zh-Hant": "於是；發生。",
+        "ko": "그러자; 일어나다.",
+        "tl": "at saka; mangyari.",
+        "ne": "त्यसपछि; हुनु।",
+        "id": "lalu; terjadi.",
+        "pt": "então; acontecer.",
+        "my": "ဒီတော့; ဖြစ်။",
+        "th": "แล้ว; เกิดขึ้น"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=190.848,195.208",
+      "t": [
+        190.848,
+        195.208
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "木の枝に、小さな白い花が、たくさん、さきました。",
+      "furigana": [
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "枝",
+          "reading": "えだ"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "小",
+          "reading": "ちい"
+        },
+        {
+          "surface": "さな",
+          "reading": ""
+        },
+        {
+          "surface": "白",
+          "reading": "しろ"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "花",
+          "reading": "はな"
+        },
+        {
+          "surface": "が、たくさん、さきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ki no eda ni, chiisana shiroi hana ga, takusan, sakimashita.",
+      "translations": {
+        "vi": "Trên cành cây nở ra rất nhiều hoa trắng nhỏ.",
+        "en": "Many small white flowers bloomed on the branches.",
+        "zh-Hans": "树枝上开出了许多白色的小花。",
+        "zh-Hant": "樹枝上開出了許多白色的小花。",
+        "ko": "나뭇가지에 작고 하얀 꽃이 잔뜩 피었습니다.",
+        "tl": "Namukadkad ang maraming maliliit na puting bulaklak sa mga sanga.",
+        "ne": "हाँगामा धेरै साना सेता फूल फुले।",
+        "id": "Di dahan bermekaran banyak bunga putih kecil.",
+        "pt": "Nos galhos brotaram muitas florzinhas brancas.",
+        "my": "သစ်ကိုင်းပေါ်မှာ ပန်းဖြူလေးတွေ အများကြီး ပွင့်လာတယ်။",
+        "th": "บนกิ่งไม้มีดอกไม้สีขาวเล็ก ๆ บานเต็มไปหมด"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "枝 = cành. さく = nở.",
+        "en": "枝 = branch; さく = to bloom.",
+        "zh-Hans": "树枝；开花。",
+        "zh-Hant": "樹枝；開花。",
+        "ko": "가지; 피다.",
+        "tl": "sanga; mamukadkad.",
+        "ne": "हाँगा; फुल्नु।",
+        "id": "dahan; mekar.",
+        "pt": "galho; florescer.",
+        "my": "ကိုင်း; ပွင့်။",
+        "th": "กิ่ง; บาน"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=195.808,200.968",
+      "t": [
+        195.808,
+        200.968
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "花は、すぐに、まるい実に、なりました。",
+      "furigana": [
+        {
+          "surface": "花",
+          "reading": "はな"
+        },
+        {
+          "surface": "は、すぐに、まるい",
+          "reading": ""
+        },
+        {
+          "surface": "実",
+          "reading": "み"
+        },
+        {
+          "surface": "に、なりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hana wa, sugu ni, marui mi ni, narimashita.",
+      "translations": {
+        "vi": "Hoa nhanh chóng kết thành những quả tròn.",
+        "en": "The flowers quickly turned into round fruits.",
+        "zh-Hans": "花很快就变成了圆圆的果实。",
+        "zh-Hant": "花很快就變成了圓圓的果實。",
+        "ko": "꽃은 금세 둥근 열매가 되었습니다.",
+        "tl": "Agad naging bilog na bunga ang mga bulaklak.",
+        "ne": "फूल छिट्टै गोलो फल बने।",
+        "id": "Bunga itu cepat menjadi buah bulat.",
+        "pt": "As flores logo viraram frutos redondos.",
+        "my": "ပန်းတွေက ခဏချင်း အသီးဝိုင်းတွေ ဖြစ်လာတယ်။",
+        "th": "ดอกไม้กลายเป็นผลกลม ๆ อย่างรวดเร็ว"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜になる」: trở thành ~. 実 = quả.",
+        "en": "「〜になる」 = become ~; 実 = fruit.",
+        "zh-Hans": "「变成……」；果实。",
+        "zh-Hant": "「變成……」；果實。",
+        "ko": "~이 되다; 열매.",
+        "tl": "maging; bunga.",
+        "ne": "बन्नु; फल।",
+        "id": "menjadi; buah.",
+        "pt": "virar; fruto.",
+        "my": "ဖြစ်လာ; အသီး။",
+        "th": "กลายเป็น; ผล"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=201.568,205.719",
+      "t": [
+        201.568,
+        205.719
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "実が一つ、男の子の手の中に、ぽとんと、落ちてきました。",
+      "furigana": [
+        {
+          "surface": "実",
+          "reading": "み"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "ひと"
+        },
+        {
+          "surface": "つ、",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "手",
+          "reading": "て"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "に、ぽとんと、",
+          "reading": ""
+        },
+        {
+          "surface": "落",
+          "reading": "お"
+        },
+        {
+          "surface": "ちてきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mi ga hitotsu, otokonoko no te no naka ni, po tonto, ochite kimashita.",
+      "translations": {
+        "vi": "Một quả rơi \"bộp\" xuống tay cậu bé.",
+        "en": "One fruit dropped—plop—into the boy's hands.",
+        "zh-Hans": "一个果子“啪嗒”一声落到了男孩手里。",
+        "zh-Hant": "一個果子“啪嗒”一聲落到了男孩手裡。",
+        "ko": "열매 하나가 남자아이 손 안으로 톡 떨어졌습니다.",
+        "tl": "Isang bunga ang bumagsak—plop—sa kamay ng bata.",
+        "ne": "एउटा फल केटोको हातमा टुप्प खस्यो।",
+        "id": "Sebuah buah jatuh—plok—ke tangan anak itu.",
+        "pt": "Um fruto caiu—plof—nas mãos do menino.",
+        "my": "အသီးတစ်လုံး ကောင်လေးလက်ထဲ ဖုတ်ခနဲ ကျလာတယ်။",
+        "th": "ผลหนึ่งตกลงในมือเด็กชายดังตุ้บ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ぽとんと = tiếng rơi \"bộp\". 「〜てくる」: hướng về phía mình.",
+        "en": "ぽとんと = plop; 「〜てくる」 = toward the speaker.",
+        "zh-Hans": "啪嗒；「……过来」。",
+        "zh-Hant": "啪嗒；「……過來」。",
+        "ko": "톡; ~해 오다.",
+        "tl": "plop; papunta.",
+        "ne": "टुप्प; आउनु।",
+        "id": "plok; ke arah.",
+        "pt": "plof; vir.",
+        "my": "ဖုတ်ခနဲ; လာ။",
+        "th": "ตุ้บ; มา"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=206.319,211.943",
+      "t": [
+        206.319,
+        211.943
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "男の子が、実を食べてみると、あまくて、やさしい味がしました。",
+      "furigana": [
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "実",
+          "reading": "み"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "食",
+          "reading": "た"
+        },
+        {
+          "surface": "べてみると、あまくて、やさしい",
+          "reading": ""
+        },
+        {
+          "surface": "味",
+          "reading": "あじ"
+        },
+        {
+          "surface": "がしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Otokonoko ga, mi o tabete miru to, amakute, yasashii aji ga shimashita.",
+      "translations": {
+        "vi": "Cậu ăn thử, thấy vị ngọt và dịu dàng.",
+        "en": "When he tasted it, it was sweet and gentle.",
+        "zh-Hans": "男孩尝了尝，味道甜甜的，很温柔。",
+        "zh-Hant": "男孩嚐了嚐，味道甜甜的，很溫柔。",
+        "ko": "먹어 보니 달콤하고 부드러운 맛이 났습니다.",
+        "tl": "Nang tikman niya, matamis at banayad ang lasa.",
+        "ne": "खाएर हेर्दा गुलियो र कोमल स्वाद आयो।",
+        "id": "Saat dicicipi, rasanya manis dan lembut.",
+        "pt": "Ao provar, tinha um sabor doce e suave.",
+        "my": "စားကြည့်တော့ ချိုပြီး နူးညံ့တဲ့ အရသာ ရှိတယ်။",
+        "th": "พอลองกิน รสชาติหวานและนุ่มนวล"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜てみると」: thử ~ thì. 「味がする」: có vị.",
+        "en": "「〜てみると」 = when one tries ~; 「味がする」 = tastes.",
+        "zh-Hans": "「试着……一看」；有……味道。",
+        "zh-Hant": "「試著……一看」；有……味道。",
+        "ko": "~해 보니; 맛이 나다.",
+        "tl": "nang subukan; lasa.",
+        "ne": "गरेर हेर्दा; स्वाद।",
+        "id": "saat dicoba; rasanya.",
+        "pt": "ao provar; sabor.",
+        "my": "ကြည့်တော့; အရသာ။",
+        "th": "พอลอง; รสชาติ"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=212.543,218.682",
+      "t": [
+        212.543,
+        218.682
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "中から、白くて、あたたかい水が、出てきました。",
+      "furigana": [
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "から、",
+          "reading": ""
+        },
+        {
+          "surface": "白",
+          "reading": "しろ"
+        },
+        {
+          "surface": "くて、あたたかい",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "てきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Naka kara, shirokute, atatakai mizu ga, dete kimashita.",
+      "translations": {
+        "vi": "Từ bên trong chảy ra dòng nước trắng, ấm áp.",
+        "en": "White, warm juice came out from inside.",
+        "zh-Hans": "里面流出了白白的、温热的汁。",
+        "zh-Hant": "裡面流出了白白的、溫熱的汁。",
+        "ko": "안에서 하얗고 따뜻한 물이 나왔습니다.",
+        "tl": "Lumabas mula sa loob ang puti at mainit na katas.",
+        "ne": "भित्रबाट सेतो, तातो रस निस्क्यो।",
+        "id": "Dari dalam keluar cairan putih yang hangat.",
+        "pt": "De dentro saiu um suco branco e morno.",
+        "my": "အထဲက အဖြူရောင် နွေးတဲ့ ရည် ထွက်လာတယ်။",
+        "th": "จากข้างในมีน้ำสีขาวอุ่น ๆ ไหลออกมา"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「中から」: từ bên trong. 出てくる = chảy ra.",
+        "en": "「中から」 = from inside; 出てくる = come out.",
+        "zh-Hans": "从里面；出来。",
+        "zh-Hant": "從裡面；出來。",
+        "ko": "안에서; 나오다.",
+        "tl": "mula sa loob; lumabas.",
+        "ne": "भित्रबाट; निस्कनु।",
+        "id": "dari dalam; keluar.",
+        "pt": "de dentro; sair.",
+        "my": "အထဲက; ထွက်လာ။",
+        "th": "จากข้างใน; ออกมา"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=219.282,223.886",
+      "t": [
+        219.282,
+        223.886
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「これは……お母さんの、おっぱいの味だ。」",
+      "furigana": [
+        {
+          "surface": "「これは……お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんの、おっぱいの",
+          "reading": ""
+        },
+        {
+          "surface": "味",
+          "reading": "あじ"
+        },
+        {
+          "surface": "だ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kore wa...... Okaasan no, oppai no aji da.”",
+      "translations": {
+        "vi": "\"Đây là... vị sữa của mẹ.\"",
+        "en": "\"This is... the taste of Mom's milk.\"",
+        "zh-Hans": "“这是……妈妈奶水的味道。”",
+        "zh-Hant": "“這是……媽媽奶水的味道。”",
+        "ko": "\"이건…… 어머니 젖 맛이야.\"",
+        "tl": "\"Ito ay... lasa ng gatas ni Inay.\"",
+        "ne": "\"यो त... आमाको दूधको स्वाद हो।\"",
+        "id": "\"Ini... rasa air susu ibu.\"",
+        "pt": "\"Isto é... o gosto do leite da mãe.\"",
+        "my": "\"ဒါ... အမေ့ နို့ရဲ့ အရသာပဲ။\"",
+        "th": "\"นี่มัน... รสนมของแม่\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜だ」: kết câu thường. おっぱい = sữa mẹ (trẻ con nói).",
+        "en": "「〜だ」 = plain copula; おっぱい = mother's milk (child's word).",
+        "zh-Hans": "普通体；奶（儿语）。",
+        "zh-Hant": "普通體；奶（兒語）。",
+        "ko": "~이다; 젖.",
+        "tl": "ito ay; gatas.",
+        "ne": "हो; दूध।",
+        "id": "ini; susu.",
+        "pt": "é; leite.",
+        "my": "ပဲ; နို့။",
+        "th": "คือ; นม"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=224.786,227.656",
+      "t": [
+        224.786,
+        227.656
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "木の葉っぱを見ると、表は緑で、うらは、赤くなっていました。",
+      "furigana": [
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "葉",
+          "reading": "は"
+        },
+        {
+          "surface": "っぱを",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "ると、",
+          "reading": ""
+        },
+        {
+          "surface": "表",
+          "reading": "おもて"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "緑",
+          "reading": "みどり"
+        },
+        {
+          "surface": "で、うらは、",
+          "reading": ""
+        },
+        {
+          "surface": "赤",
+          "reading": "あか"
+        },
+        {
+          "surface": "くなっていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ki no happa o miru to, omote wa midori de, ura wa, akaku natteimashita.",
+      "translations": {
+        "vi": "Nhìn lá cây, mặt trên xanh, mặt dưới đỏ.",
+        "en": "Looking at the leaves, they were green on top and red underneath.",
+        "zh-Hans": "看看树叶，正面是绿色的，背面变成了红色。",
+        "zh-Hant": "看看樹葉，正面是綠色的，背面變成了紅色。",
+        "ko": "나뭇잎을 보니 앞면은 초록이고 뒷면은 빨갛게 되어 있었습니다.",
+        "tl": "Nang tingnan ang mga dahon, berde sa ibabaw at pula sa ilalim.",
+        "ne": "पात हेर्दा माथि हरियो, तल रातो थियो।",
+        "id": "Daunnya hijau di atas dan merah di bawah.",
+        "pt": "As folhas eram verdes em cima e vermelhas embaixo.",
+        "my": "အရွက်ကို ကြည့်တော့ အပေါ်က အစိမ်း၊ အောက်က အနီ ဖြစ်နေတယ်။",
+        "th": "ดูใบไม้ ด้านบนสีเขียว ด้านล่างกลายเป็นสีแดง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "表 = mặt trên, うら = mặt dưới. 「〜を見ると」: nhìn ~ thì thấy.",
+        "en": "表/うら = front/back; 「〜を見ると」 = when one looks at ~.",
+        "zh-Hans": "正面/背面；「一看……」。",
+        "zh-Hant": "正面/背面；「一看……」。",
+        "ko": "앞/뒤; ~을 보니.",
+        "tl": "harap/likod; nang tingnan.",
+        "ne": "अगाडि/पछाडि; हेर्दा।",
+        "id": "depan/belakang; saat dilihat.",
+        "pt": "frente/verso; ao olhar.",
+        "my": "အပေါ်/အောက်; ကြည့်တော့။",
+        "th": "หน้า/หลัง; พอดู"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=228.556,234.402",
+      "t": [
+        228.556,
+        234.402
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "まるで、泣きつづけたお母さんの目のように、赤かったのです。",
+      "furigana": [
+        {
+          "surface": "まるで、",
+          "reading": ""
+        },
+        {
+          "surface": "泣",
+          "reading": "な"
+        },
+        {
+          "surface": "きつづけたお",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんの",
+          "reading": ""
+        },
+        {
+          "surface": "目",
+          "reading": "め"
+        },
+        {
+          "surface": "のように、",
+          "reading": ""
+        },
+        {
+          "surface": "赤",
+          "reading": "あか"
+        },
+        {
+          "surface": "かったのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Marude, naki tsuzuketa okaasan no me no you ni, akakatta no desu.",
+      "translations": {
+        "vi": "Đỏ hệt như đôi mắt của người mẹ đã khóc mãi không thôi.",
+        "en": "They were red, just like the eyes of a mother who had cried and cried.",
+        "zh-Hans": "红得就像一直哭泣的妈妈的眼睛。",
+        "zh-Hant": "紅得就像一直哭泣的媽媽的眼睛。",
+        "ko": "마치 울고 또 운 어머니의 눈처럼 빨갰던 것입니다.",
+        "tl": "Pula ito, gaya ng mga mata ng inang walang tigil sa pag-iyak.",
+        "ne": "लगातार रोएकी आमाको आँखाजस्तै रातो थियो।",
+        "id": "Merahnya persis seperti mata ibu yang terus menangis.",
+        "pt": "Vermelhas como os olhos de uma mãe que chorou sem parar.",
+        "my": "မရပ်မနား ငိုခဲ့တဲ့ အမေ့မျက်လုံးလို နီနေတာပါ။",
+        "th": "แดงเหมือนดวงตาของแม่ที่ร้องไห้ไม่หยุด"
+      },
+      "vocab": [
+        {
+          "word": "まるで",
+          "reading": "まるで",
+          "meanings": {
+            "vi": "cứ như là",
+            "en": "just like",
+            "zh-Hans": "简直像",
+            "zh-Hant": "簡直像",
+            "ko": "마치",
+            "tl": "parang",
+            "ne": "जस्तो",
+            "id": "seolah",
+            "pt": "como se",
+            "my": "သလိုပဲ",
+            "th": "ราวกับ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「まるで〜のように」: hệt như ~. 「〜つづける」: ~ mãi.",
+        "en": "「まるで〜のように」 = just like ~; 「〜つづける」 = keep ~ing.",
+        "zh-Hans": "「简直像……一样」；一直……。",
+        "zh-Hant": "「簡直像……一樣」；一直……。",
+        "ko": "마치 ~처럼; 계속 ~하다.",
+        "tl": "gaya ng; patuloy.",
+        "ne": "जस्तै; लगातार।",
+        "id": "seperti; terus.",
+        "pt": "como; continuar.",
+        "my": "လို; ဆက်တိုက်။",
+        "th": "เหมือน; ไม่หยุด"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=235.002,240.173",
+      "t": [
+        235.002,
+        240.173
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "男の子は、木を、ぎゅっと、だきしめました。",
+      "furigana": [
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "を、ぎゅっと、だきしめました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Otokonoko wa, ki o, gyutto, dakishimemashita.",
+      "translations": {
+        "vi": "Cậu bé ôm chặt lấy cái cây.",
+        "en": "The boy hugged the tree tightly.",
+        "zh-Hans": "男孩紧紧地抱住了树。",
+        "zh-Hant": "男孩緊緊地抱住了樹。",
+        "ko": "남자아이는 나무를 꼭 껴안았습니다.",
+        "tl": "Mahigpit na niyakap ng bata ang puno.",
+        "ne": "केटोले रूखलाई कसेर अँगाल्यो।",
+        "id": "Anak itu memeluk pohon erat-erat.",
+        "pt": "O menino abraçou a árvore com força.",
+        "my": "ကောင်လေးက သစ်ပင်ကို တင်းတင်း ဖက်ထားတယ်။",
+        "th": "เด็กชายกอดต้นไม้แน่น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ぎゅっと = chặt. だきしめる = ôm chặt.",
+        "en": "ぎゅっと = tightly; だきしめる = to hug.",
+        "zh-Hans": "紧紧地；抱住。",
+        "zh-Hant": "緊緊地；抱住。",
+        "ko": "꼭; 껴안다.",
+        "tl": "mahigpit; yakapin.",
+        "ne": "कसेर; अँगाल्नु।",
+        "id": "erat; memeluk.",
+        "pt": "com força; abraçar.",
+        "my": "တင်းတင်း; ဖက်။",
+        "th": "แน่น; กอด"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=240.773,245.01",
+      "t": [
+        240.773,
+        245.01
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「お母さん、ずっと、ここで、待っていてくれたんだね。」",
+      "furigana": [
+        {
+          "surface": "「お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さん、ずっと、ここで、",
+          "reading": ""
+        },
+        {
+          "surface": "待",
+          "reading": "ま"
+        },
+        {
+          "surface": "っていてくれたんだね。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Okaasan, zutto, koko de, matte itekureta n da ne.”",
+      "translations": {
+        "vi": "\"Mẹ ơi, mẹ đã luôn đợi con ở đây phải không.\"",
+        "en": "\"Mom, you were waiting for me here all along, weren't you?\"",
+        "zh-Hans": "“妈妈，你一直在这里等着我啊。”",
+        "zh-Hant": "“媽媽，你一直在這裡等著我啊。”",
+        "ko": "\"어머니, 계속 여기서 기다려 주셨군요.\"",
+        "tl": "\"Inay, hinintay mo pala ako rito palagi.\"",
+        "ne": "\"आमा, तपाईं यहीँ मलाई पर्खिरहनुभएको रहेछ।\"",
+        "id": "\"Ibu, ternyata selama ini menungguku di sini.\"",
+        "pt": "\"Mãe, você esteve me esperando aqui o tempo todo, não é?\"",
+        "my": "\"အမေ၊ ဒီမှာ ကျွန်တော့်ကို အမြဲ စောင့်နေခဲ့တာပဲနော်။\"",
+        "th": "\"แม่ แม่รอผมอยู่ที่นี่ตลอดเลยนะ\""
+      },
+      "vocab": [
+        {
+          "word": "ずっと",
+          "reading": "ずっと",
+          "meanings": {
+            "vi": "suốt, mãi",
+            "en": "all along, the whole time",
+            "zh-Hans": "一直",
+            "zh-Hant": "一直",
+            "ko": "계속",
+            "tl": "palagi, matagal",
+            "ne": "सधैँ",
+            "id": "terus-menerus",
+            "pt": "o tempo todo",
+            "my": "တောက်လျှောက်",
+            "th": "ตลอด"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜てくれた」: (ai đó) đã làm ~ cho mình. 「〜んだね」: thì ra là ~.",
+        "en": "「〜てくれた」 = did ~ for me; 「〜んだね」 = so it was ~.",
+        "zh-Hans": "「为我……」；「原来……啊」。",
+        "zh-Hant": "「為我……」；「原來……啊」。",
+        "ko": "~해 주었다; ~했구나.",
+        "tl": "para sa akin; pala.",
+        "ne": "मेरो लागि; रहेछ।",
+        "id": "untukku; ternyata.",
+        "pt": "por mim; então era.",
+        "my": "ပေးခဲ့; ပဲနော်။",
+        "th": "ให้; นี่เอง"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=245.91,249.703",
+      "t": [
+        245.91,
+        249.703
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "木の枝が、風にゆれて、男の子を、やさしく、つつみました。",
+      "furigana": [
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "枝",
+          "reading": "えだ"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "風",
+          "reading": "かぜ"
+        },
+        {
+          "surface": "にゆれて、",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "を、やさしく、つつみました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ki no eda ga, kaze ni yurete, otokonoko o, yasashiku, tsutsumimashita.",
+      "translations": {
+        "vi": "Cành cây đung đưa trong gió, dịu dàng ôm lấy cậu bé.",
+        "en": "The branches swayed in the wind and gently wrapped around the boy.",
+        "zh-Hans": "树枝随风摇动，温柔地包住了男孩。",
+        "zh-Hant": "樹枝隨風搖動，溫柔地包住了男孩。",
+        "ko": "나뭇가지가 바람에 흔들리며 남자아이를 부드럽게 감쌌습니다.",
+        "tl": "Umindayog ang mga sanga sa hangin at marahang binalot ang bata.",
+        "ne": "हाँगा हावामा हल्लिँदै केटोलाई कोमलताले बेरे।",
+        "id": "Dahan bergoyang ditiup angin dan memeluk anak itu dengan lembut.",
+        "pt": "Os galhos balançaram ao vento e envolveram o menino com carinho.",
+        "my": "သစ်ကိုင်းတွေ လေထဲ လှုပ်ရင်း ကောင်လေးကို ညင်ညင်သာသာ ဖုံးအုပ်ထားတယ်။",
+        "th": "กิ่งไม้ไหวตามลม โอบเด็กชายไว้อย่างอ่อนโยน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ゆれる = đung đưa. つつむ = bao bọc.",
+        "en": "ゆれる = to sway; つつむ = to wrap.",
+        "zh-Hans": "摇动；包住。",
+        "zh-Hant": "搖動；包住。",
+        "ko": "흔들리다; 감싸다.",
+        "tl": "umindayog; balutin.",
+        "ne": "हल्लिनु; बेर्नु।",
+        "id": "bergoyang; membungkus.",
+        "pt": "balançar; envolver.",
+        "my": "လှုပ်; ဖုံးအုပ်။",
+        "th": "ไหว; โอบ"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=250.603,256.625",
+      "t": [
+        250.603,
+        256.625
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それから、男の子は、この木を、大切に育てました。",
+      "furigana": [
+        {
+          "surface": "それから、",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、この",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "を、",
+          "reading": ""
+        },
+        {
+          "surface": "大切",
+          "reading": "たいせつ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "育",
+          "reading": "そだ"
+        },
+        {
+          "surface": "てました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sorekara, otokonoko wa, kono ki o, taisetsu ni sodatemashita.",
+      "translations": {
+        "vi": "Từ đó, cậu bé chăm sóc cái cây thật cẩn thận.",
+        "en": "After that, the boy carefully looked after the tree.",
+        "zh-Hans": "从那以后，男孩精心地照料这棵树。",
+        "zh-Hant": "從那以後，男孩精心地照料這棵樹。",
+        "ko": "그 후로 남자아이는 이 나무를 소중히 길렀습니다.",
+        "tl": "Mula noon, maingat na inalagaan ng bata ang puno.",
+        "ne": "त्यसपछि केटोले यो रूखलाई माया गरेर हुर्कायो।",
+        "id": "Sejak itu, anak itu merawat pohon itu dengan sepenuh hati.",
+        "pt": "Desde então, o menino cuidou da árvore com carinho.",
+        "my": "အဲဒီကစပြီး ကောင်လေးက ဒီသစ်ပင်ကို ဂရုတစိုက် ပြုစုတယ်။",
+        "th": "ตั้งแต่นั้น เด็กชายดูแลต้นไม้นี้อย่างดี"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "大切に = trân trọng. 育てる = nuôi, trồng.",
+        "en": "大切に = with care; 育てる = to raise.",
+        "zh-Hans": "珍惜地；培育。",
+        "zh-Hant": "珍惜地；培育。",
+        "ko": "소중히; 기르다.",
+        "tl": "maingat; alagaan.",
+        "ne": "माया गरेर; हुर्काउनु।",
+        "id": "dengan sayang; merawat.",
+        "pt": "com carinho; cuidar.",
+        "my": "ဂရုတစိုက်; ပြုစု။",
+        "th": "อย่างดี; ดูแล"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=257.225,262.418",
+      "t": [
+        257.225,
+        262.418
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "村の人たちは、この木を、「ブースアの木」と、よぶようになりました。",
+      "furigana": [
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "たちは、この",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "を、「ブースアの",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "き"
+        },
+        {
+          "surface": "」と、よぶようになりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mura no hitotachi wa, kono ki o, “Buusua no ki” to, yobu you ni narimashita.",
+      "translations": {
+        "vi": "Người trong làng bắt đầu gọi nó là \"cây vú sữa\".",
+        "en": "The villagers came to call it \"the vú sữa tree\".",
+        "zh-Hans": "村里的人开始把这棵树叫作“牛奶果树”。",
+        "zh-Hant": "村裡的人開始把這棵樹叫作“牛奶果樹”。",
+        "ko": "마을 사람들은 이 나무를 '부스어 나무'라고 부르게 되었습니다.",
+        "tl": "Tinawag ito ng mga taganayon na \"puno ng vú sữa\".",
+        "ne": "गाउँलेहरूले यसलाई \"भु सुआको रूख\" भन्न थाले।",
+        "id": "Orang desa mulai menyebutnya \"pohon vú sữa\".",
+        "pt": "Os aldeões passaram a chamá-la de \"árvore vú sữa\".",
+        "my": "ရွာသားတွေက ဒီသစ်ပင်ကို \"ဗူးစွာပင်\" လို့ ခေါ်လာကြတယ်။",
+        "th": "ชาวบ้านเริ่มเรียกต้นนี้ว่า \"ต้นหวูซือ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ようになる」: dần dần trở nên ~.",
+        "en": "「〜ようになる」 = come to ~.",
+        "zh-Hans": "「变得……」。",
+        "zh-Hant": "「變得……」。",
+        "ko": "~하게 되다.",
+        "tl": "nagsimulang.",
+        "ne": "थाल्नु।",
+        "id": "mulai.",
+        "pt": "passar a.",
+        "my": "လာကြ။",
+        "th": "เริ่ม"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=263.018,268.514",
+      "t": [
+        263.018,
+        268.514
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "さて、日本にも、子どもを待つお母さんの話が、あります。",
+      "furigana": [
+        {
+          "surface": "さて、",
+          "reading": ""
+        },
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "にも、",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どもを",
+          "reading": ""
+        },
+        {
+          "surface": "待",
+          "reading": "ま"
+        },
+        {
+          "surface": "つお",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんの",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "が、あります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sate, Nihon ni mo, kodomo o matsu okaasan no hanashi ga, arimasu.",
+      "translations": {
+        "vi": "Ở Nhật Bản cũng có câu chuyện về người mẹ chờ con.",
+        "en": "Japan, too, has a story about a mother waiting for her children.",
+        "zh-Hans": "日本也有母亲等待孩子的故事。",
+        "zh-Hant": "日本也有母親等待孩子的故事。",
+        "ko": "일본에도 아이를 기다리는 어머니 이야기가 있습니다.",
+        "tl": "May kuwento rin sa Japan tungkol sa inang naghihintay sa anak.",
+        "ne": "जापानमा पनि छोराछोरी पर्खने आमाको कथा छ।",
+        "id": "Di Jepang juga ada kisah ibu yang menunggu anaknya.",
+        "pt": "No Japão também há uma história de mãe que espera os filhos.",
+        "my": "ဂျပန်မှာလည်း ကလေးကို စောင့်တဲ့ အမေ့ ပုံပြင် ရှိတယ်။",
+        "th": "ญี่ปุ่นก็มีเรื่องแม่ที่รอลูก"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "さて = nào (chuyển đề tài). 「〜にも」: ở ~ cũng.",
+        "en": "さて = now (topic shift); 「〜にも」 = in ~ too.",
+        "zh-Hans": "那么；「……也」。",
+        "zh-Hant": "那麼；「……也」。",
+        "ko": "그런데; ~에도.",
+        "tl": "ngayon; rin.",
+        "ne": "अब; पनि।",
+        "id": "nah; juga.",
+        "pt": "bem; também.",
+        "my": "ကဲ; လည်း။",
+        "th": "เอาล่ะ; ก็"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=269.114,274.958",
+      "t": [
+        269.114,
+        274.958
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "『安寿と厨子王』という、古い話です。",
+      "furigana": [
+        {
+          "surface": "『",
+          "reading": ""
+        },
+        {
+          "surface": "安寿",
+          "reading": "あんじゅ"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "厨子王",
+          "reading": "ずしおう"
+        },
+        {
+          "surface": "』という、",
+          "reading": ""
+        },
+        {
+          "surface": "古",
+          "reading": "ふる"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Anjutozushiou” to iu, furui hanashi desu.",
+      "translations": {
+        "vi": "Đó là truyện cổ \"Anju và Zushiō\".",
+        "en": "It is an old tale called \"Anju and Zushiō\".",
+        "zh-Hans": "那是叫《安寿与厨子王》的古老故事。",
+        "zh-Hant": "那是叫《安壽與廚子王》的古老故事。",
+        "ko": "'안주와 즈시오'라는 옛이야기입니다.",
+        "tl": "Ito ang lumang kuwentong \"Anju at Zushiō\".",
+        "ne": "\"आन्जु र जुशिओ\" भन्ने पुरानो कथा हो।",
+        "id": "Kisah kuno berjudul \"Anju dan Zushiō\".",
+        "pt": "É um conto antigo chamado \"Anju e Zushiō\".",
+        "my": "\"အန်ဂျူနဲ့ ဇူရှိအို\" ဆိုတဲ့ ပုံပြင်ဟောင်းပါ။",
+        "th": "เป็นนิทานเก่าเรื่อง \"อันจุกับซุชิโอ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜という」: tên là ~.",
+        "en": "「〜という」 = called ~.",
+        "zh-Hans": "「叫……的」。",
+        "zh-Hant": "「叫……的」。",
+        "ko": "~라는.",
+        "tl": "na tinatawag.",
+        "ne": "भन्ने।",
+        "id": "berjudul.",
+        "pt": "chamado.",
+        "my": "ဆိုတဲ့။",
+        "th": "ชื่อว่า"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=275.558,278.941",
+      "t": [
+        275.558,
+        278.941
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "お母さんと、二人の子どもは、悪い人に、だまされて、はなればなれになりました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんと、",
+          "reading": ""
+        },
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どもは、",
+          "reading": ""
+        },
+        {
+          "surface": "悪",
+          "reading": "わる"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "に、だまされて、はなればなれになりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Okaasan to, futari no kodomo wa, warui hito ni, damasarete, wa nareba nare ni narimashita.",
+      "translations": {
+        "vi": "Người mẹ và hai đứa con bị kẻ xấu lừa, phải chia lìa nhau.",
+        "en": "A mother and her two children were tricked by bad men and torn apart.",
+        "zh-Hans": "母亲和两个孩子被坏人骗了，骨肉分离。",
+        "zh-Hant": "母親和兩個孩子被壞人騙了，骨肉分離。",
+        "ko": "어머니와 두 아이는 나쁜 사람에게 속아 뿔뿔이 헤어졌습니다.",
+        "tl": "Nilinlang ng masasamang tao ang ina at dalawang anak, kaya nagkahiwalay sila.",
+        "ne": "आमा र दुई बच्चा खराब मान्छेको झुक्यानमा परेर छुट्टिए।",
+        "id": "Ibu dan dua anaknya ditipu orang jahat hingga terpisah.",
+        "pt": "A mãe e os dois filhos foram enganados por homens maus e separados.",
+        "my": "အမေနဲ့ ကလေးနှစ်ယောက်ဟာ လူဆိုးတွေရဲ့ လှည့်စားမှုကြောင့် ကွဲကွာသွားတယ်။",
+        "th": "แม่กับลูกสองคนถูกคนเลวหลอก จนพลัดพรากจากกัน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "だまされる = bị lừa (bị động). はなればなれ = chia lìa.",
+        "en": "だまされる = be tricked; はなればなれ = separated.",
+        "zh-Hans": "被骗；分离。",
+        "zh-Hant": "被騙；分離。",
+        "ko": "속다; 뿔뿔이.",
+        "tl": "malinlang; magkahiwalay.",
+        "ne": "झुक्किनु; छुट्टिनु।",
+        "id": "ditipu; terpisah.",
+        "pt": "ser enganado; separados.",
+        "my": "လှည့်စားခံရ; ကွဲကွာ။",
+        "th": "ถูกหลอก; พลัดพราก"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=279.541,286.651",
+      "t": [
+        279.541,
+        286.651
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "お母さんは、遠い島で、毎日、子どもの名前を、歌のように、よびつづけました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、",
+          "reading": ""
+        },
+        {
+          "surface": "遠",
+          "reading": "とお"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "島",
+          "reading": "しま"
+        },
+        {
+          "surface": "で、",
+          "reading": ""
+        },
+        {
+          "surface": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どもの",
+          "reading": ""
+        },
+        {
+          "surface": "名前",
+          "reading": "なまえ"
+        },
+        {
+          "surface": "を、",
+          "reading": ""
+        },
+        {
+          "surface": "歌",
+          "reading": "うた"
+        },
+        {
+          "surface": "のように、よびつづけました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Okaasan wa, tooi shima de, mainichi, kodomo no namae o, uta no you ni, yobitsuzukemashita.",
+      "translations": {
+        "vi": "Ở một hòn đảo xa, ngày nào người mẹ cũng gọi tên con như hát.",
+        "en": "On a faraway island, the mother called her children's names every day, like a song.",
+        "zh-Hans": "在遥远的岛上，母亲每天像唱歌一样呼唤孩子的名字。",
+        "zh-Hant": "在遙遠的島上，母親每天像唱歌一樣呼喚孩子的名字。",
+        "ko": "어머니는 먼 섬에서 매일 노래처럼 아이들 이름을 불렀습니다.",
+        "tl": "Sa malayong isla, araw-araw tinatawag ng ina ang pangalan ng mga anak na parang awit.",
+        "ne": "टाढाको टापुमा आमाले हरेक दिन गीतजस्तै छोराछोरीको नाम बोलाइन्।",
+        "id": "Di pulau jauh, sang ibu tiap hari memanggil nama anaknya seperti lagu.",
+        "pt": "Numa ilha distante, a mãe chamava os nomes dos filhos todo dia, como uma canção.",
+        "my": "ဝေးတဲ့ကျွန်းမှာ အမေက နေ့တိုင်း ကလေးတွေရဲ့ နာမည်ကို သီချင်းလို ခေါ်တယ်။",
+        "th": "บนเกาะไกล แม่เรียกชื่อลูกทุกวันเหมือนร้องเพลง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜のように」: như ~. 「よびつづける」: gọi mãi.",
+        "en": "「〜のように」 = like ~; 「よびつづける」 = keep calling.",
+        "zh-Hans": "「像……一样」；不停呼唤。",
+        "zh-Hant": "「像……一樣」；不停呼喚。",
+        "ko": "~처럼; 계속 부르다.",
+        "tl": "parang; patuloy na tawagin.",
+        "ne": "जस्तै; बोलाइरहनु।",
+        "id": "seperti; terus memanggil.",
+        "pt": "como; continuar chamando.",
+        "my": "လို; ဆက်ခေါ်။",
+        "th": "เหมือน; เรียกไม่หยุด"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=287.251,295.339",
+      "t": [
+        287.251,
+        295.339
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "何年もたって、大人になった厨子王が、お母さんを、見つけたのです。",
+      "furigana": [
+        {
+          "surface": "何年",
+          "reading": "なんねん"
+        },
+        {
+          "surface": "もたって、",
+          "reading": ""
+        },
+        {
+          "surface": "大人",
+          "reading": "おとな"
+        },
+        {
+          "surface": "になった",
+          "reading": ""
+        },
+        {
+          "surface": "厨子王",
+          "reading": "ずしおう"
+        },
+        {
+          "surface": "が、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんを、",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "つけたのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Nannen mo tatte, otona ni natta Zushiou ga, okaasan o, mitsuketa no desu.",
+      "translations": {
+        "vi": "Nhiều năm sau, Zushiō đã trưởng thành và tìm thấy mẹ.",
+        "en": "Many years later, Zushiō, now grown up, found his mother.",
+        "zh-Hans": "多年以后，长大成人的厨子王找到了母亲。",
+        "zh-Hant": "多年以後，長大成人的廚子王找到了母親。",
+        "ko": "몇 년이 지나 어른이 된 즈시오가 어머니를 찾아냈습니다.",
+        "tl": "Pagkaraan ng maraming taon, natagpuan ng nasa hustong gulang na si Zushiō ang ina.",
+        "ne": "धेरै वर्षपछि ठूलो भएको जुशिओले आमालाई भेट्टायो।",
+        "id": "Bertahun-tahun kemudian, Zushiō yang sudah dewasa menemukan ibunya.",
+        "pt": "Muitos anos depois, Zushiō, já adulto, encontrou a mãe.",
+        "my": "နှစ်တွေ အကြာမှာ လူကြီးဖြစ်လာတဲ့ ဇူရှိအိုက အမေ့ကို ရှာတွေ့တယ်။",
+        "th": "หลายปีต่อมา ซุชิโอที่โตเป็นผู้ใหญ่ก็ได้พบแม่"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「何年もたって」: nhiều năm trôi qua. 「〜のです」: giải thích, nhấn.",
+        "en": "「何年もたって」 = many years later; 「〜のです」 = explanatory.",
+        "zh-Hans": "多年后；解释语气。",
+        "zh-Hant": "多年後；解釋語氣。",
+        "ko": "몇 년이 지나; ~것입니다.",
+        "tl": "pagkaraan ng mga taon.",
+        "ne": "धेरै वर्षपछि।",
+        "id": "bertahun kemudian.",
+        "pt": "anos depois.",
+        "my": "နှစ်တွေအကြာ။",
+        "th": "หลายปีต่อมา"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=295.939,302.268",
+      "t": [
+        295.939,
+        302.268
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "日本でも、ベトナムでも、お母さんは、いつまでも、子どもを待っているのですね。",
+      "furigana": [
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "でも、ベトナムでも、お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、いつまでも、",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どもを",
+          "reading": ""
+        },
+        {
+          "surface": "待",
+          "reading": "ま"
+        },
+        {
+          "surface": "っているのですね。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Nihon demo, Betonamu de mo, okaasan wa, itsu made mo, kodomo o matte iru no desu ne.",
+      "translations": {
+        "vi": "Dù ở Nhật hay Việt Nam, người mẹ luôn mãi chờ con, phải không.",
+        "en": "In Japan and in Vietnam alike, a mother waits for her child forever, doesn't she?",
+        "zh-Hans": "无论在日本还是越南，母亲都永远在等待孩子呢。",
+        "zh-Hant": "無論在日本還是越南，母親都永遠在等待孩子呢。",
+        "ko": "일본에서도 베트남에서도 어머니는 언제까지나 아이를 기다리는군요.",
+        "tl": "Sa Japan man o Vietnam, laging naghihintay ang ina sa anak, hindi ba?",
+        "ne": "जापानमा होस् वा भियतनाममा, आमा सधैं छोराछोरी पर्खिरहन्छिन्, होइन?",
+        "id": "Di Jepang maupun Vietnam, ibu selalu menunggu anaknya, ya.",
+        "pt": "No Japão ou no Vietnã, a mãe espera o filho para sempre, não é?",
+        "my": "ဂျပန်မှာရော ဗီယက်နမ်မှာရော အမေက ကလေးကို အမြဲ စောင့်နေတာပဲနော်။",
+        "th": "ทั้งญี่ปุ่นและเวียดนาม แม่ก็รอลูกเสมอนะ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜でも、〜でも」: dù ~ hay ~. 「〜のですね」: cảm thán đồng tình.",
+        "en": "「〜でも、〜でも」 = whether ~ or ~; 「〜のですね」 = isn't it so.",
+        "zh-Hans": "「无论……还是……」；感叹。",
+        "zh-Hant": "「無論……還是……」；感嘆。",
+        "ko": "~에서도 ~에서도; ~군요.",
+        "tl": "man o; hindi ba.",
+        "ne": "होस् वा; होइन।",
+        "id": "maupun; ya.",
+        "pt": "ou; não é.",
+        "my": "ရော...ရော; နော်။",
+        "th": "ทั้ง...และ; นะ"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=302.868,309.998",
+      "t": [
+        302.868,
+        309.998
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "日本には、「親孝行、したいときには、親はなし」という言葉も、あります。",
+      "furigana": [
+        {
+          "surface": "日本",
+          "reading": "にほん"
+        },
+        {
+          "surface": "には、「",
+          "reading": ""
+        },
+        {
+          "surface": "親孝行",
+          "reading": "おやこうこう"
+        },
+        {
+          "surface": "、したいときには、",
+          "reading": ""
+        },
+        {
+          "surface": "親",
+          "reading": "おや"
+        },
+        {
+          "surface": "はなし」という",
+          "reading": ""
+        },
+        {
+          "surface": "言葉",
+          "reading": "ことば"
+        },
+        {
+          "surface": "も、あります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Nihon ni wa, “Oyakoukou, shitai toki ni wa, oya hanashi” to iu kotoba mo, arimasu.",
+      "translations": {
+        "vi": "Ở Nhật còn có câu: \"Khi muốn báo hiếu thì cha mẹ đã không còn.\"",
+        "en": "Japan also has the saying, \"When you wish to be a good child, your parents are gone.\"",
+        "zh-Hans": "日本还有一句话：“想尽孝时亲不在。”",
+        "zh-Hant": "日本還有一句話：“想盡孝時親不在。”",
+        "ko": "일본에는 '효도하고 싶을 때 부모는 없다'라는 말도 있습니다.",
+        "tl": "May kasabihan din sa Japan: \"Kapag gusto mo nang magpakabuti sa magulang, wala na sila.\"",
+        "ne": "जापानमा \"आमाबुवाको सेवा गर्न मन लाग्दा उहाँहरू हुनुहुन्न\" भन्ने भनाइ पनि छ।",
+        "id": "Di Jepang juga ada pepatah, \"Saat ingin berbakti, orang tua sudah tiada.\"",
+        "pt": "No Japão também se diz: \"Quando se quer honrar os pais, eles já se foram.\"",
+        "my": "ဂျပန်မှာ \"မိဘကို ကျေးဇူးဆပ်ချင်တဲ့အခါ မိဘ မရှိတော့ဘူး\" ဆိုတဲ့ စကားလည်း ရှိတယ်။",
+        "th": "ญี่ปุ่นยังมีคำกล่าวว่า \"อยากกตัญญูเมื่อใด พ่อแม่ก็ไม่อยู่แล้ว\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "親孝行 = hiếu thảo. 「〜という言葉」: câu nói ~.",
+        "en": "親孝行 = filial piety; 「〜という言葉」 = the saying ~.",
+        "zh-Hans": "孝顺；「……这句话」。",
+        "zh-Hant": "孝順；「……這句話」。",
+        "ko": "효도; ~라는 말.",
+        "tl": "pagpapakabuti sa magulang; kasabihan.",
+        "ne": "सेवा; भनाइ।",
+        "id": "berbakti; pepatah.",
+        "pt": "honrar os pais; ditado.",
+        "my": "ကျေးဇူးဆပ်; စကား။",
+        "th": "กตัญญู; คำกล่าว"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=310.598,317.51",
+      "t": [
+        310.598,
+        317.51
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "親を大切にしたいと思ったときには、もう、親はいない、という意味です。",
+      "furigana": [
+        {
+          "surface": "親",
+          "reading": "おや"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "大切",
+          "reading": "たいせつ"
+        },
+        {
+          "surface": "にしたいと",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "ったときには、もう、",
+          "reading": ""
+        },
+        {
+          "surface": "親",
+          "reading": "おや"
+        },
+        {
+          "surface": "はいない、という",
+          "reading": ""
+        },
+        {
+          "surface": "意味",
+          "reading": "いみ"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Oya o taisetsu ni shitai to omotta tokiniha, mou, oya wa inai, to iu imi desu.",
+      "translations": {
+        "vi": "Nghĩa là: khi ta muốn trân trọng cha mẹ thì họ đã không còn nữa.",
+        "en": "It means that by the time you want to cherish your parents, they are already gone.",
+        "zh-Hans": "意思是：等你想珍惜父母的时候，他们已经不在了。",
+        "zh-Hant": "意思是：等你想珍惜父母的時候，他們已經不在了。",
+        "ko": "부모를 소중히 하고 싶다고 생각했을 때는 이미 부모가 없다는 뜻입니다.",
+        "tl": "Ibig sabihin, kapag gusto mo nang pahalagahan ang magulang, wala na sila.",
+        "ne": "आमाबुवालाई माया गर्न मन लाग्दा उहाँहरू हुनुहुन्न भन्ने अर्थ हो।",
+        "id": "Artinya, saat ingin menyayangi orang tua, mereka sudah tiada.",
+        "pt": "Quer dizer que, quando você quer cuidar dos pais, eles já não estão.",
+        "my": "မိဘကို တန်ဖိုးထားချင်တဲ့အခါ မိဘ မရှိတော့ဘူးလို့ အဓိပ္ပာယ်ရတယ်။",
+        "th": "หมายความว่า พอเราอยากดูแลพ่อแม่ ท่านก็ไม่อยู่แล้ว"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜たいと思ったときには」: lúc nghĩ muốn ~ thì.",
+        "en": "「〜たいと思ったときには」 = by the time you want to ~.",
+        "zh-Hans": "「想……的时候」。",
+        "zh-Hant": "「想……的時候」。",
+        "ko": "~하고 싶다고 생각했을 때는.",
+        "tl": "kapag gusto mo.",
+        "ne": "मन लाग्दा।",
+        "id": "saat ingin.",
+        "pt": "quando quiser.",
+        "my": "ချင်တဲ့အခါ။",
+        "th": "พออยาก"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=318.11,324.926",
+      "t": [
+        318.11,
+        324.926
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ベトナムのお店で、ブースアを見たら、ぜひ、食べてみてください。",
+      "furigana": [
+        {
+          "surface": "ベトナムのお",
+          "reading": ""
+        },
+        {
+          "surface": "店",
+          "reading": "みせ"
+        },
+        {
+          "surface": "で、ブースアを",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "たら、ぜひ、",
+          "reading": ""
+        },
+        {
+          "surface": "食",
+          "reading": "た"
+        },
+        {
+          "surface": "べてみてください。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Betonamu no omise de, Buusua o mitara, zehi, tabete mitekudasai.",
+      "translations": {
+        "vi": "Nếu thấy vú sữa ở cửa hàng Việt Nam, nhất định hãy ăn thử nhé.",
+        "en": "If you see vú sữa at a Vietnamese shop, be sure to try it.",
+        "zh-Hans": "如果在越南的店里看到牛奶果，一定要尝一尝。",
+        "zh-Hant": "如果在越南的店裡看到牛奶果，一定要嘗一嘗。",
+        "ko": "베트남 가게에서 부스어를 보면 꼭 먹어 보세요.",
+        "tl": "Kapag nakakita ka ng vú sữa sa tindahang Vietnamese, subukan mo talaga.",
+        "ne": "भियतनामी पसलमा भु सुआ देख्नुभयो भने अवश्य खाएर हेर्नुहोस्।",
+        "id": "Kalau melihat vú sữa di toko Vietnam, cobalah.",
+        "pt": "Se vir vú sữa numa loja vietnamita, prove sem falta.",
+        "my": "ဗီယက်နမ်ဆိုင်မှာ ဗူးစွာ တွေ့ရင် စားကြည့်ပါနော်။",
+        "th": "ถ้าเห็นหวูซือที่ร้านเวียดนาม ลองกินดูนะ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜たら」: nếu ~. 「ぜひ〜てみてください」: nhất định hãy thử ~.",
+        "en": "「〜たら」 = if ~; 「ぜひ〜てみてください」 = please do try ~.",
+        "zh-Hans": "「如果……」；「一定要试试」。",
+        "zh-Hant": "「如果……」；「一定要試試」。",
+        "ko": "~하면; 꼭 ~해 보세요.",
+        "tl": "kapag; subukan talaga.",
+        "ne": "भने; अवश्य हेर्नुहोस्।",
+        "id": "kalau; cobalah.",
+        "pt": "se; prove sem falta.",
+        "my": "ရင်; ကြည့်ပါ။",
+        "th": "ถ้า; ลองดูนะ"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=325.526,330.549",
+      "t": [
+        325.526,
+        330.549
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そして、あなたのお母さんのことも、思い出してください。",
+      "furigana": [
+        {
+          "surface": "そして、あなたのお",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんのことも、",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "してください。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite, anata no okaasan no koto mo, omoidashite kudasai.",
+      "translations": {
+        "vi": "Và hãy nhớ đến mẹ của bạn nữa nhé.",
+        "en": "And please think of your own mother, too.",
+        "zh-Hans": "也请想一想你自己的妈妈。",
+        "zh-Hant": "也請想一想你自己的媽媽。",
+        "ko": "그리고 여러분의 어머니도 떠올려 보세요.",
+        "tl": "At alalahanin mo rin ang iyong ina.",
+        "ne": "अनि आफ्नी आमालाई पनि सम्झनुहोस्।",
+        "id": "Dan ingatlah juga ibumu.",
+        "pt": "E lembre-se também da sua mãe.",
+        "my": "ပြီးတော့ သင့်အမေကိုလည်း သတိရပါ။",
+        "th": "และนึกถึงแม่ของคุณด้วยนะ"
+      },
+      "vocab": [
+        {
+          "word": "くださる",
+          "reading": "ください",
+          "meanings": {
+            "vi": "xin hãy (cho tôi)",
+            "en": "please (give / do for me)",
+            "zh-Hans": "请（给我）",
+            "zh-Hant": "請（給我）",
+            "ko": "주세요",
+            "tl": "pakiusap, pakibigay",
+            "ne": "दिनुहोस्",
+            "id": "tolong, berikan",
+            "pt": "por favor, dê-me",
+            "my": "ပေးပါ",
+            "th": "กรุณา, ให้"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜のことも」: cả chuyện về ~ cũng. 「〜てください」: hãy ~.",
+        "en": "「〜のことも」 = about ~ too; 「〜てください」 = please ~.",
+        "zh-Hans": "「……的事也」；请……。",
+        "zh-Hant": "「……的事也」；請……。",
+        "ko": "~도; ~해 주세요.",
+        "tl": "tungkol din; pakiusap.",
+        "ne": "पनि; गर्नुहोस्।",
+        "id": "juga; tolong.",
+        "pt": "também; por favor.",
+        "my": "လည်း; ပါ။",
+        "th": "ด้วย; นะ"
+      },
+      "audio": "/audio/furusato-vn-vusua-1/chapter.mp3#t=331.149,335.612",
+      "t": [
+        331.149,
+        335.612
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    }
+  ],
+  "audioTrack": {
+    "src": "/audio/furusato-vn-vusua-1/chapter.mp3",
+    "durationSec": 336.672
+  }
+}

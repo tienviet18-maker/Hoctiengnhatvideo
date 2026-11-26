@@ -4,6 +4,8 @@ import { useState } from "react";
 import type { VocabItem } from "../lib/content-schema";
 import { pickText } from "../lib/i18n";
 import { addToDeck, DECK_KEY, useLocalJson, type DeckCard } from "../lib/store";
+import { FREE_DECK_CARDS } from "../lib/access";
+import Paywall from "./Paywall";
 import { useLang } from "./LangProvider";
 
 const EMPTY_DECK: DeckCard[] = [];
@@ -19,11 +21,14 @@ export default function WordPopup({
   onClose: () => void;
   dark?: boolean;
 }) {
-  const { ui, lang } = useLang();
+  const { ui, lang, profile } = useLang();
+  const [paywall, setPaywall] = useState(false);
   const deck = useLocalJson<DeckCard[]>(DECK_KEY, EMPTY_DECK);
   const [justSaved, setJustSaved] = useState(false);
   // Hiện "Đã lưu" cả khi từ đã có sẵn trong bộ thẻ (trước đây luôn hiện nút Lưu)
   const saved = justSaved || deck.some((c) => c.word === vocab.word && c.reading === vocab.reading);
+  // Tài khoản thường giữ tối đa FREE_DECK_CARDS thẻ (ux-plan mục 6)
+  const full = !saved && !profile.vip && deck.length >= FREE_DECK_CARDS;
 
   return (
     <div
@@ -69,6 +74,10 @@ export default function WordPopup({
         type="button"
         disabled={saved}
         onClick={() => {
+          if (full) {
+            setPaywall(true);
+            return;
+          }
           addToDeck(vocab, sourceId);
           setJustSaved(true);
         }}
@@ -84,8 +93,9 @@ export default function WordPopup({
           cursor: saved ? "default" : "pointer",
         }}
       >
-        {saved ? ui.common.saved : ui.wordPopup.saveToDeck}
+        {saved ? ui.common.saved : full ? ui.vip.deckFull.replace("{n}", String(FREE_DECK_CARDS)) : ui.wordPopup.saveToDeck}
       </button>
+      {paywall && <Paywall onClose={() => setPaywall(false)} />}
     </div>
   );
 }

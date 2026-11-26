@@ -49,7 +49,7 @@ export default function PathClient({ pathId }: { pathId: string }) {
   }).length;
 
   const open = (it: (typeof items)[number]) => {
-    if (!it.free && !profile.vip) {
+    if (it.kind === "story" && !it.free && !profile.vip) {
       setPaywall(true);
       return;
     }

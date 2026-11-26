@@ -58,7 +58,8 @@ const stories = storyIds.map((id) => {
   const s = load("stories", id);
   return {
     id: s.id, titles: s.titles, level: s.level, topic: s.topic,
-    source: s.source, free: s.free, sentenceCount: s.sentences.length,
+    // Bản sao storyFree() trong src/lib/access.ts: chương 1 của mọi bộ và mọi truyện ngắn N5 đều miễn phí
+    source: s.source, free: Boolean(s.free || s.series?.index === 1 || (!s.series && s.level === "N5")), sentenceCount: s.sentences.length,
     ...(typeof s.cover === "string" && s.cover.startsWith("/covers/") ? { cover: s.cover } : {}),
     ...(s.series ? { series: s.series } : {}),
     ...(s.shelf ? { shelf: s.shelf } : {}),
