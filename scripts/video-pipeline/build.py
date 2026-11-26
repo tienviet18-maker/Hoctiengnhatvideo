@@ -37,7 +37,7 @@ def existing_sentences():
 
 
 def furigana(sents):
-    tmp = os.path.join(WORK, "_sents.json")
+    os.makedirs(WORK, exist_ok=True); tmp = os.path.join(WORK, "_sents.json")
     json.dump(sents, open(tmp, "w", encoding="utf-8"), ensure_ascii=False)
     r = subprocess.run(["node", os.path.join(HERE, "furi.mjs"), ROOT, tmp], capture_output=True, text=True)
     if r.returncode: sys.exit(r.stderr[-500:])
@@ -108,8 +108,10 @@ def register(ids):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("vid"); ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
-    d = json.load(open(os.path.join(WORK, f"{a.vid}.json"), encoding="utf-8"))
-    ann = json.load(open(os.path.join(WORK, f"{a.vid}.ann.json"), encoding="utf-8"))
+    jp = os.path.join(WORK, f"{a.vid}.json")
+    d = json.load(open(jp if os.path.exists(jp) else os.path.join(HERE, "raw", f"{a.vid}.json"), encoding="utf-8"))
+    src = WORK if os.path.exists(os.path.join(WORK, f"{a.vid}.ann.json")) else os.path.join(HERE, "raw")
+    ann = json.load(open(os.path.join(src, f"{a.vid}.ann.json"), encoding="utf-8"))
     series = d["series"]
     if f'key: "{series}"' not in open(os.path.join(ROOT, "src/lib/series.ts"), encoding="utf-8").read():
         sys.exit(f"series '{series}' missing in src/lib/series.ts (+ locales) — add it first")
@@ -181,7 +183,7 @@ def main():
                 f"furigana kuromoji; cấp từ vựng theo `data/jlpt/`. Claude duyệt mẫu tiếng Việt/Anh theo lô.\n"
                 f"- **Mốc thời gian**: theo Whisper.\n- **Cấp độ**: {level}.\n")
     if built and not a.dry_run:
-        register([b[0] for b in built])
+        subprocess.run([sys.executable, os.path.join(HERE, "register.py")], check=True)
     for b in built: print(f"  {b[0]}: {b[1]} lines, {b[2]:.0f}s, vocab {b[3]}")
     print(f"{a.vid}: built {len(built)} pack(s){' (dry run)' if a.dry_run else ''}")
 

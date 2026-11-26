@@ -14,6 +14,11 @@ export const SERIES: SeriesDef[] = [
   { key: "teded" },
   { key: "yuyu" },
   { key: "shun" },
+  { key: "shinchan" },
+  { key: "anpanman" },
+  { key: "shimajiro" },
+  { key: "takanotsume" },
+  { key: "toei" },
 ];
 
 export function seriesOf(videoId: string): string | null {
