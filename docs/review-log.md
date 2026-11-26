@@ -764,3 +764,15 @@ Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse
 
 - Dịch tiếng Sinhala 4 gói: world-cinderella-1, world-cinderella-2, world-shirayuki-1, world-shirayuki-2 (luồng kệ thế giới nhờ).
 - **Đổi cách kiểm sidecar:** dòng `#@src` (dấu vân tay cả gói) được thay bằng `#@h`, lưu băm tiếng Anh của **từng ô**. Trước đây, nếu một luồng khác sửa câu hay thêm câu vào gói đã dịch thì cổng `npm run verify` của luồng đó sẽ đỏ. Giờ ô nào đổi thì bản si cũ của ô đó bị bỏ, app tự hiện tiếng Anh, và QC chỉ **cảnh báo**, không chặn. `extract.mjs` in các ô đổi kèm bản cũ để dịch lại; dịch xong thì chạy `apply.mjs si <id> --rehash`. Đã thử: sửa 1 câu và thêm 1 câu thì ra cảnh báo 3 ô, cổng vẫn xanh.
+
+## Văn học Nhật v2: ごんぎつね 2 tập (N4), thay gói cũ 13 câu — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch1`. Nguồn mới ở `content/sources/bungaku/` (glossary riêng, chép từ Mai-chan + từ N4).
+- `gongitsune-1` (54 câu, 1.212 ký tự, harder 11,9%, audio 3,9 phút) và `gongitsune-2` (48 câu, 1.230 ký tự, harder 9,9%, audio 3,8 phút).
+  Phỏng theo 新美南吉 (mất 1943, xuất bản 1932; public domain ở Nhật, và ở Mỹ vì tác giả mất trước 1946 nên không bị URAA phục hồi). Giữ hai câu kết gốc.
+- Tên riêng viết katakana (ヒョウジュウ, カスケ) để chỉ số độ khó không đếm 兵/助 là N3; tập 1 miễn phí, tập 2 VIP.
+- Giọng: Aoede kể chuyện; ごん Neural2-C cao giọng, ヒョウジュウ/カスケ/いわし屋 Neural2-C các cao độ khác nhau.
+- Bìa: motif mới `gon1` (ban ngày) và `gon2` (đêm trăng, khói súng) trong `scripts/covers/cover.html`, font Shippori Mincho B1.
+- Bài học 4 điểm ngữ pháp + 5 câu hỏi mỗi tập, vị trí đáp án đúng xoay vòng.
+- Ẩn gói cũ `gongitsune` → `gongitsune-1` qua `content/hidden-stories.json`. Đăng ký trong khối "làm lại Mai-chan + văn học Nhật".
+- `npm run verify` xanh.

@@ -4107,7 +4107,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 13,
-  "cover": "/covers/gongitsune.webp"
+  "cover": "/covers/gongitsune.webp",
+  "hidden": true,
+  "replacedBy": "gongitsune-1"
  },
  {
   "id": "summer-festival",
@@ -11893,6 +11895,68 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "gongitsune-1",
+  "titles": {
+   "vi": "Cáo Gon (phần 1)",
+   "en": "Gon the Fox (Part 1)",
+   "zh-Hans": "小狐狸阿权（上）",
+   "zh-Hant": "小狐狸阿權（上）",
+   "ko": "여우 곤 (상)",
+   "tl": "Si Gon na Soro (Bahagi 1)",
+   "ne": "फ्याउरो गोन (भाग १)",
+   "id": "Gon si Rubah (Bagian 1)",
+   "pt": "Gon, a Raposa (Parte 1)",
+   "my": "မြေခွေး ဂုံ (အပိုင်း ၁)",
+   "th": "จิ้งจอกกอน (ตอนที่ 1)"
+  },
+  "level": "N4",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 54,
+  "cover": "/covers/gongitsune-1.webp",
+  "series": {
+   "id": "gongitsune",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/gongitsune-1/chapter.mp3",
+   "durationSec": 235.608
+  }
+ },
+ {
+  "id": "gongitsune-2",
+  "titles": {
+   "vi": "Cáo Gon (phần 2)",
+   "en": "Gon the Fox (Part 2)",
+   "zh-Hans": "小狐狸阿权（下）",
+   "zh-Hant": "小狐狸阿權（下）",
+   "ko": "여우 곤 (하)",
+   "tl": "Si Gon na Soro (Bahagi 2)",
+   "ne": "फ्याउरो गोन (भाग २)",
+   "id": "Gon si Rubah (Bagian 2)",
+   "pt": "Gon, a Raposa (Parte 2)",
+   "my": "မြေခွေး ဂုံ (အပိုင်း ၂)",
+   "th": "จิ้งจอกกอน (ตอนที่ 2)"
+  },
+  "level": "N4",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/gongitsune-2.webp",
+  "series": {
+   "id": "gongitsune",
+   "index": 2
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/gongitsune-2/chapter.mp3",
+   "durationSec": 225.192
+  }
+ },
+ {
   "id": "furusato-vn-kieu-1",
   "titles": {
    "vi": "Truyện Kiều (1): Tiết Thanh minh",
@@ -12325,7 +12389,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Cinderella (1): Sepatu Kaca",
    "pt": "Cinderela (1): O Sapatinho de Cristal",
    "my": "စင်ဒရဲလား (၁): ဖန်ဖိနပ်",
-   "th": "ซินเดอเรลล่า (1): รองเท้าแก้ว"
+   "th": "ซินเดอเรลล่า (1): รองเท้าแก้ว",
+   "si": "සින්ඩරෙල්ලා (1): වීදුරු සෙරෙප්පුව"
   },
   "level": "N4",
   "topic": "world-tales",
@@ -12357,7 +12422,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Cinderella (2, tamat): Pas Sekali",
    "pt": "Cinderela (2, fim): O Sapatinho Perfeito",
    "my": "စင်ဒရဲလား (၂၊ ဇာတ်သိမ်း): အံကိုက်ဖိနပ်",
-   "th": "ซินเดอเรลล่า (2 จบ): รองเท้าที่พอดีเป๊ะ"
+   "th": "ซินเดอเรลล่า (2 จบ): รองเท้าที่พอดีเป๊ะ",
+   "si": "සින්ඩරෙල්ලා (2, අවසානය): හරියටම ගැළපුණා"
   },
   "level": "N4",
   "topic": "world-tales",
@@ -12389,7 +12455,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Putri Salju (1): Cermin Ajaib",
    "pt": "Branca de Neve (1): O Espelho Mágico",
    "my": "နှင်းဖြူ (၁): မှော်မှန်",
-   "th": "สโนว์ไวท์ (1): กระจกวิเศษ"
+   "th": "สโนว์ไวท์ (1): กระจกวิเศษ",
+   "si": "හිම සුදු කුමාරිය (1): මායා කැඩපත"
   },
   "level": "N4",
   "topic": "world-tales",
@@ -12421,7 +12488,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Putri Salju (2, tamat): Apel Beracun",
    "pt": "Branca de Neve (2, fim): A Maçã Envenenada",
    "my": "နှင်းဖြူ (၂၊ ဇာတ်သိမ်း): အဆိပ်ပန်းသီး",
-   "th": "สโนว์ไวท์ (2 จบ): แอปเปิลอาบยาพิษ"
+   "th": "สโนว์ไวท์ (2 จบ): แอปเปิลอาบยาพิษ",
+   "si": "හිම සුදු කුමාරිය (2, අවසානය): විෂ ඇපල් ගෙඩිය"
   },
   "level": "N4",
   "topic": "world-tales",
