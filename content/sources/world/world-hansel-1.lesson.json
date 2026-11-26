@@ -1,0 +1,30 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜わけがない",
+   "example": 7,
+   "meaning": { "vi": "không đời nào ~, không thể nào ~", "en": "there's no way ~", "zh-Hans": "不可能……", "ko": "~할 리가 없다", "tl": "imposibleng ~", "ne": "~ हुनै सक्दैन", "id": "mana mungkin ~", "pt": "não tem como ~", "my": "~ စရာ အကြောင်းမရှိ", "th": "ไม่มีทางที่จะ ~" }
+  },
+  {
+   "pattern": "〜ちゃう（〜てしまう）",
+   "example": 10,
+   "meaning": { "vi": "dạng nói của 〜てしまう: lỡ ~, ~ mất", "en": "casual form of 〜てしまう: end up ~", "zh-Hans": "〜てしまう的口语：……掉了", "ko": "〜てしまう의 구어: ~해 버리다", "tl": "kaswal na 〜てしまう", "ne": "〜てしまう को बोलीचाली रूप", "id": "bentuk santai 〜てしまう", "pt": "forma coloquial de 〜てしまう", "my": "〜てしまう ရဲ့ အပြောပုံစံ", "th": "〜てしまう แบบภาษาพูด" }
+  },
+  {
+   "pattern": "〜うちに",
+   "example": 22,
+   "meaning": { "vi": "trong lúc ~ thì (việc khác xảy ra lúc nào không hay)", "en": "while ~ (something else happens)", "zh-Hans": "在……的过程中（不知不觉）", "ko": "~하는 사이에", "tl": "habang ~ (may nangyari)", "ne": "~ दै गर्दा (अर्को कुरा भयो)", "id": "selagi ~ (tanpa sadar terjadi hal lain)", "pt": "enquanto ~ (algo acontece)", "my": "~ နေရင်း", "th": "ระหว่างที่ ~ (อีกเรื่องเกิดขึ้น)" }
+  },
+  {
+   "pattern": "〜続ける",
+   "example": 39,
+   "meaning": { "vi": "cứ tiếp tục ~ mãi", "en": "keep on ~ing", "zh-Hans": "一直……下去", "ko": "계속 ~하다", "tl": "patuloy na ~", "ne": "~ इरहनु", "id": "terus ~", "pt": "continuar ~", "my": "ဆက် ~", "th": "~ ต่อไปเรื่อย ๆ" }
+  }
+ ],
+ "quiz": [
+  { "ja": "ヘンゼルは、一回目に何を道に落としましたか。", "choices": ["パンくず", "白い小石", "花", "お金"], "answer": 1, "explain": { "vi": "Lần đầu cậu thả sỏi trắng, trăng lên thì sỏi sáng chỉ đường.", "en": "The first time he dropped white pebbles, which shone in the moonlight.", "zh-Hans": "第一次他丢了白色小石子，月光下会发光。", "ko": "처음에는 하얀 조약돌을 떨어뜨렸고, 달빛에 빛났다.", "tl": "Sa unang beses, puting bato ang inihulog niya; kuminang ito sa buwan.", "ne": "पहिलोपटक सेता ढुङ्गा खसाले, जुनमा टल्किए।", "id": "Pertama kali ia menjatuhkan kerikil putih yang bersinar di bawah bulan.", "pt": "Da primeira vez, soltou pedrinhas brancas, que brilharam ao luar.", "my": "ပထမအကြိမ် ကျောက်စရစ်ဖြူတွေ ချခဲ့ပြီး လရောင်မှာ တောက်တယ်။", "th": "ครั้งแรกเขาโปรยก้อนกรวดสีขาว ซึ่งส่องแสงใต้แสงจันทร์" } },
+  { "ja": "二回目、パンくずはどうなりましたか。", "choices": ["雨でなくなった", "鳥が食べた", "ヘンゼルが食べた", "お母さんが拾った"], "answer": 1, "explain": { "vi": "Lũ chim trong rừng đã ăn hết vụn bánh.", "en": "The forest birds ate all the crumbs.", "zh-Hans": "森林里的鸟把面包屑全吃了。", "ko": "숲의 새들이 빵 부스러기를 다 먹었다.", "tl": "Kinain ng mga ibon ang lahat ng mumo.", "ne": "जङ्गलका चराले सबै टुक्रा खाए।", "id": "Burung hutan memakan semua remah roti.", "pt": "Os pássaros da floresta comeram todas as migalhas.", "my": "တောထဲက ငှက်တွေ အကုန်စားသွားတယ်။", "th": "นกในป่ากินเศษขนมปังหมด" } },
+  { "ja": "二人を小さな家まで連れて行ったのは、だれですか。", "choices": ["お父さん", "白い鳥", "白いねこ", "おばあさん"], "answer": 1, "explain": { "vi": "Một chú chim trắng như tuyết bay trước dẫn đường.", "en": "A snow-white bird flew ahead and led them.", "zh-Hans": "一只雪白的鸟在前面飞，给他们带路。", "ko": "눈처럼 하얀 새가 앞에서 날며 안내했다.", "tl": "Isang ibong kasimputi ng niyebe ang lumipad sa unahan.", "ne": "हिउँजस्तो सेतो चराले अगाडि उडेर बाटो देखायो।", "id": "Burung seputih salju terbang di depan menuntun mereka.", "pt": "Um pássaro branco como a neve voou à frente guiando-os.", "my": "နှင်းလိုဖြူတဲ့ ငှက်လေးက ရှေ့က ပျံပြီး လမ်းပြတယ်။", "th": "นกขาวราวหิมะบินนำทาง" } },
+  { "ja": "小さな家の屋根は、何でできていましたか。", "choices": ["パン", "さとう", "ケーキ", "チョコレート"], "answer": 2, "explain": { "vi": "Nhà làm bằng bánh mì, mái là bánh ngọt, cửa sổ là đường.", "en": "The house was bread, the roof was cake and the windows were sugar.", "zh-Hans": "房子是面包，屋顶是蛋糕，窗户是糖。", "ko": "집은 빵, 지붕은 케이크, 창문은 설탕이었다.", "tl": "Tinapay ang bahay, keyk ang bubong, asukal ang bintana.", "ne": "घर रोटीको, छाना केकको, झ्याल चिनीका।", "id": "Rumahnya roti, atapnya kue, jendelanya gula.", "pt": "A casa era de pão, o telhado de bolo e as janelas de açúcar.", "my": "အိမ်က ပေါင်မုန့်၊ အမိုးက ကိတ်မုန့်၊ ပြတင်းပေါက်က သကြား။", "th": "บ้านเป็นขนมปัง หลังคาเป็นเค้ก หน้าต่างเป็นน้ำตาล" } }
+ ]
+}
