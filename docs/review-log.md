@@ -499,3 +499,10 @@ Việt chọn: Số đỏ và Truyện Kiều (văn xuôi) ở N2, Hoàng Lê nh
 - Sửa nghĩa cho `v_trade_29d1ec` (便): bản tiếng Anh của ViBJT ghi "train", nhưng câu ví dụ nói về chuyến bay. 9 ngôn ngữ mới dịch theo nghĩa "chuyến bay".
 - Tổng hiện có 4 bộ với 779 thẻ. 279 từ trong truyện/video có thêm câu ví dụ và audio.
 - Còn lại: Công sở N2 (235 thẻ), N1 (414), Ngữ pháp N3–N1.
+
+## Bộ thẻ có sẵn từ ViBJT — lô 4 (Công sở N2)
+
+- Thêm `content/sources/decks/src/office-n2-1.txt` + `office-n2-2.txt` (235 thẻ): nghĩa + câu ví dụ đủ 9 ngôn ngữ còn thiếu (zh-Hans, zh-Hant, ko, tl, ne, id, pt, my, th), Claude tự dịch.
+- Bộ "Tiếng Nhật công sở N2" lên app. Tổng 5 bộ, 1014 thẻ.
+- Một số nghĩa tiếng Anh gốc của ViBJT lệch câu ví dụ (ずらす, 貨物, 往復): dịch theo câu tiếng Nhật, không theo bản Anh.
+- Câu có cụm tiếng Nhật giữ nguyên (「ご苦労様」) để nguyên chữ Nhật trong bản zh-Hant.
