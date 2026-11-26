@@ -864,6 +864,26 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 7: Làm việc ở Osaka trọn bộ — 27/11/2026 (nhánh `claude/si-stories-8`)
+
+- Đã dịch 6 gói: osaka-hataraku-03 → osaka-hataraku-08 (series Osaka giờ đủ si cả 8 tập).
+- Lời kể thể văn viết, lời thoại khẩu ngữ; câu tiếng Osaka (Kansai-ben) dịch sang khẩu ngữ thân mật, ghi chú phương ngữ giữ nguyên ví dụ tiếng Nhật. Tên giữ thống nhất: මින්, මොරිත අකාරි, ඉවතා, හයි (ෆාම් හයි), කියෝ, ජොෂුවා, රාජු, තනක.
+- Thông tin đời sống (119, #7119, bảo hiểm, thuế, rác, động đất) dịch sát, giữ nguyên số điện thoại.
+- Sau đợt này: 89 gói có si.
+
+## Tiếng Sinhala đợt 6: Budori trọn bộ, Địa ngục biến 2, Dải băng lốm đốm 2, Hanshichi 2 vụ, Nến đỏ và nàng tiên cá, Osaka 2 — 27/11/2026 (nhánh `claude/si-stories-7`)
+
+- Đã dịch 8 gói: budori-3, budori-4 (Budori giờ đủ si cả 4 tập); jigokuhen-2; madara-2; hanshichi-ofumi-2, hanshichi-yukidaruma-2; akai-rousoku-to-ningyo; osaka-hataraku-02.
+- Văn học cổ điển (Jigokuhen, Holmes, Hanshichi): lời kể thể văn viết, lời thoại khẩu ngữ, khớp tập 1. Tên giữ thống nhất với tập 1 (මහා ස්වාමියා, යොෂිහිදේ; හෝම්ස්, වොට්සන්, හෙලන් ස්ටෝනර්; හන්ෂිචි, K මාමා, ඔමිචි, ජින්එමොන්; මින්, මොරිත අකාරි).
+- Jigokuhen-2 G41 giữ nguyên số đường dây hỗ trợ よりそいホットライン (0120-279-338).
+- Sau đợt này: 83 gói có si.
+
+## Tiếng Sinhala đợt 5: Nhà hàng lắm yêu cầu, Botchan trọn bộ, Budori 2, truyện thế giới đợt 4 — 27/11/2026 (nhánh `claude/si-stories-6`)
+
+- Đã dịch 12 gói: chumon-1/2; botchan-2 → botchan-6 (Botchan giờ đủ si cả 6 tập); budori-2; world-nagagutsu, world-rapunzel, world-aladdin-1/2 (luồng truyện thế giới nhờ sau PR #77).
+- Botchan: lời kể dùng thể văn viết (giống tập 1), lời thoại dùng khẩu ngữ. Tên/biệt danh giữ thống nhất: බොච්චන්, කියෝ, තනුකි, රතු කමිසය, යමාඅරාෂි (හොත්තා), උරනරි (කොගා), නොදයිකෝ, මැඩෝනා. Ghi chú ngữ pháp giữ nguyên ví dụ tiếng Nhật, chỉ dịch phần giải thích.
+- Sau đợt này: 75 gói có si.
+
 ## Văn học Nhật v2: 注文の多い料理店 2 tập (N3), thay gói cũ — 27/11/2026
 
 - Nhánh `claude/bungaku-v2-batch4`. `chumon-1` (52 câu, 1.366 ký tự, harder 6,4%, audio 4,4 phút, miễn phí) và `chumon-2` (60 câu, 1.865 ký tự, harder 7,9%, audio 6,0 phút).
@@ -871,3 +891,35 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Giọng: Aoede kể; hai chàng trai Neural2-C hai cao độ; hai con mèo rừng Neural2-B/C; người dẫn đường Neural2-C trầm.
 - Bìa: motif `chumon1` (nhà hàng Tây giữa núi) và `chumon2` (cánh cửa với hai mắt xanh ở lỗ khóa).
 - Ẩn gói cũ `chumon-no-oi-ryoriten` → `chumon-1`. `npm run verify` xanh.
+
+## Văn học Nhật v2: 杜子春 2 tập (N3), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch5`. `toshishun-1` (56 câu, 1.644 ký tự, harder 10,4%, audio 5,5 phút, miễn phí) và `toshishun-2` (62 câu, 1.837 ký tự, harder 9,7%, audio 6,1 phút).
+- Phỏng theo 芥川龍之介 (mất 1927, xuất bản 1920; public domain ở Nhật và Mỹ). Giữ ba lần đào vàng theo bóng (đầu, ngực, bụng), thử thách im lặng trên núi 峨眉山, cảnh hai con ngựa ở địa ngục, lời mẹ và cái kết căn nhà hoa đào dưới chân 泰山.
+- Giọng: Aoede kể; 杜子春 Neural2-C; ông lão 鉄冠子 Neural2-C trầm chậm; khách, tiếng nói lạ, 神将, 閻魔 Neural2-C các cao độ khác nhau; mẹ Neural2-B.
+- Bìa: motif `toshi1` (cổng tây Lạc Dương lúc hoàng hôn, bóng người dài, vàng) và `toshi2` (vách đá dưới chòm Bắc Đẩu, gậy trúc bay, hoa đào). Font Yuji Boku.
+- Ẩn gói cũ `toshishun` → `toshishun-1`. `npm run verify` xanh.
+
+## Kệ "Triết lý sống" (wisdom), lô 2 — 27/11/2026
+
+Lô này thêm 4 chương chuẩn v2, cả 4 đều miễn phí vì là tập 1 của từng bộ:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-marcus-1` | N3 | Marcus Aurelius, *Suy tưởng* | 3:57 |
+| `life-wattles-1` | N3 | Wattles, *Khoa học làm giàu*, kể qua chuyện anh phục vụ quán cà phê | 4:00 |
+| `life-rongo-1` | N4 | Luận ngữ: Tử Lộ, Tử Cống | 3:36 |
+| `life-yukkuri-1` | N4 | Truyện gốc về sống chậm | 3:24 |
+
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 8 chương: 5 chương N3 (epictetus-1, epictetus-2, roshi-1, marcus-1, wattles-1) và 3 chương N4 (ikari-1, rongo-1, yukkuri-1).
+- Ghi chú: import `world-bremen` (của luồng truyện thế giới) đang nằm trong khối W ở `content.ts`. Không ảnh hưởng gì nên để nguyên.
+- `npm run verify` xanh.
+
+## Văn học Nhật v2: トロッコ và 蜜柑 (N3), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch6`. Hai truyện ngắn của 芥川龍之介 (mất 1927; xuất bản 1922 và 1919; public domain ở Nhật và Mỹ), mỗi truyện một gói, miễn phí.
+- `torokko-1`: 70 câu, 1.969 ký tự, harder 8,0%, audio 6,7 phút. Giữ hai lần đẩy goòng, lời thoại giọng địa phương của hai người thợ (われ, 帰んな, ずら), đoạn chạy về một mình và đoạn kết năm 26 tuổi ở tòa soạn. Giọng: Aoede kể; 良平 Neural2-B cao; người thợ quát Neural2-C trầm; thanh niên Neural2-C; mẹ Neural2-B.
+- `mikan-1`: 61 câu, 2.137 ký tự, harder 8,6%, audio 7,1 phút. Ngôi kể thứ nhất, chỉ một giọng Aoede. Giữ toa hạng hai và vé hạng ba, đường hầm, khói đen, ba cậu bé ở đường ngang và cảnh quýt rơi.
+- Bìa: motif `torokko` (goòng lao dốc giữa vườn quýt, biển phía xa) và `mikan` (cô bé ném quýt qua cửa sổ tàu về phía ba cậu bé). Font Zen Kaku Gothic Antique và Zen Old Mincho.
+- Ẩn gói cũ `torokko` → `torokko-1`, `mikan` → `mikan-1`. `npm run verify` xanh.

@@ -702,6 +702,10 @@ import s_tebukuro2 from "../../content/stories/tebukuro-2.json";
 import s_kumonoito1 from "../../content/stories/kumonoito-1.json";
 import s_chumon1 from "../../content/stories/chumon-1.json";
 import s_chumon2 from "../../content/stories/chumon-2.json";
+import s_toshishun1 from "../../content/stories/toshishun-1.json";
+import s_toshishun2 from "../../content/stories/toshishun-2.json";
+import s_torokko1 from "../../content/stories/torokko-1.json";
+import s_mikan1 from "../../content/stories/mikan-1.json";
 // --- hết làm lại: import ---
 import s_furusatoVnKieu1 from "../../content/stories/furusato-vn-kieu-1.json";
 import s_furusatoVnKieu2 from "../../content/stories/furusato-vn-kieu-2.json";
@@ -731,6 +735,10 @@ import v2LifeEpictetus2 from "../../content/stories/life-epictetus-2.json";
 import v2LifeRoshi1 from "../../content/stories/life-roshi-1.json";
 import v2LifeIkari1 from "../../content/stories/life-ikari-1.json";
 import s_worldBremen from "../../content/stories/world-bremen.json";
+import v2LifeMarcus1 from "../../content/stories/life-marcus-1.json";
+import v2LifeWattles1 from "../../content/stories/life-wattles-1.json";
+import v2LifeRongo1 from "../../content/stories/life-rongo-1.json";
+import v2LifeYukkuri1 from "../../content/stories/life-yukkuri-1.json";
 // --- hết kệ W: import ---
 // --- kệ ma & trinh thám (chuẩn v2): import ---
 import v2MysteryHoichi1 from "../../content/stories/mystery-hoichi-1.json";
@@ -1462,6 +1470,10 @@ export const STORIES: StoryContent[] = [
   s_kumonoito1 as unknown as StoryContent,
   s_chumon1 as unknown as StoryContent,
   s_chumon2 as unknown as StoryContent,
+  s_toshishun1 as unknown as StoryContent,
+  s_toshishun2 as unknown as StoryContent,
+  s_torokko1 as unknown as StoryContent,
+  s_mikan1 as unknown as StoryContent,
   // --- hết làm lại ---
   s_furusatoVnKieu1 as unknown as StoryContent,
   s_furusatoVnKieu2 as unknown as StoryContent,
@@ -1488,6 +1500,10 @@ export const STORIES: StoryContent[] = [
   v2LifeEpictetus2 as unknown as StoryContent,
   v2LifeRoshi1 as unknown as StoryContent,
   v2LifeIkari1 as unknown as StoryContent,
+  v2LifeMarcus1 as unknown as StoryContent,
+  v2LifeWattles1 as unknown as StoryContent,
+  v2LifeRongo1 as unknown as StoryContent,
+  v2LifeYukkuri1 as unknown as StoryContent,
   // --- hết kệ W ---
   s_worldBremen as unknown as StoryContent,
   // --- kệ ma & trinh thám (chuẩn v2) ---

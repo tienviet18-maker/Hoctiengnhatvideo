@@ -3841,7 +3841,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 12,
-  "cover": "/covers/toshishun.webp"
+  "cover": "/covers/toshishun.webp",
+  "hidden": true,
+  "replacedBy": "toshishun-1"
  },
  {
   "id": "hana-the-nose",
@@ -4024,7 +4026,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 12,
-  "cover": "/covers/torokko.webp"
+  "cover": "/covers/torokko.webp",
+  "hidden": true,
+  "replacedBy": "torokko-1"
  },
  {
   "id": "at-the-gym",
@@ -4076,7 +4080,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 11,
-  "cover": "/covers/mikan.webp"
+  "cover": "/covers/mikan.webp",
+  "hidden": true,
+  "replacedBy": "mikan-1"
  },
  {
   "id": "riding-the-shinkansen",
@@ -9034,7 +9040,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (2): Hari Pertama Kerja",
    "pt": "Trabalhando em Osaka (2): Primeiro dia de trabalho",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၂) - ပထမဆုံး အလုပ်ဆင်းရက်",
-   "th": "ทำงานที่โอซาก้า (2): วันแรกของการทำงาน"
+   "th": "ทำงานที่โอซาก้า (2): วันแรกของการทำงาน",
+   "si": "ඔසාකාහි වැඩ කිරීම (2): රැකියාවේ පළමු දිනය"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -9065,7 +9072,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (3): Senior yang Menghilang",
    "pt": "Trabalhando em Osaka (3): O veterano desaparecido",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၃) - ပျောက်သွားတဲ့ အစ်ကိုကြီး",
-   "th": "ทำงานที่โอซาก้า (3): รุ่นพี่ที่หายตัวไป"
+   "th": "ทำงานที่โอซาก้า (3): รุ่นพี่ที่หายตัวไป",
+   "si": "ඔසාකාහි වැඩ කිරීම (3): අතුරුදන් වූ සේවා ජ්‍යෙෂ්ඨයා"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -9096,7 +9104,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (4): Insiden Hari Sampah",
    "pt": "Trabalhando em Osaka (4): O incidente do dia do lixo",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၄) - အမှိုက်နေ့ ဖြစ်ရပ်",
-   "th": "ทำงานที่โอซาก้า (4): เหตุการณ์วันทิ้งขยะ"
+   "th": "ทำงานที่โอซาก้า (4): เหตุการณ์วันทิ้งขยะ",
+   "si": "ඔසාකාහි වැඩ කිරීම (4): කුණු දවසේ සිද්ධිය"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -9127,7 +9136,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (5): Pabrik di Malam Hari",
    "pt": "Trabalhando em Osaka (5): A fábrica à noite",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၅) - ညဘက် စက်ရုံ",
-   "th": "ทำงานที่โอซาก้า (5): โรงงานยามค่ำคืน"
+   "th": "ทำงานที่โอซาก้า (5): โรงงานยามค่ำคืน",
+   "si": "ඔසාකාහි වැඩ කිරීම (5): රාත්‍රියේ කර්මාන්තශාලාව"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -10342,7 +10352,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Lilin Merah dan Putri Duyung",
    "pt": "As Velas Vermelhas e a Sereia",
    "my": "အနီရောင် ဖယောင်းတိုင်နှင့် ရေသူမ",
-   "th": "เทียนสีแดงกับนางเงือก"
+   "th": "เทียนสีแดงกับนางเงือก",
+   "si": "රතු ඉටිපන්දම් සහ මත්ස්‍යකන්‍යාව"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10401,7 +10412,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hanshichi: Arwah Ofumi (2)",
    "pt": "Hanshichi: O Fantasma de Ofumi (2)",
    "my": "ဟန်ရှိချိ: အိုဖူမိရဲ့ ဝိညာဉ် (၂)",
-   "th": "ฮันชิจิ: วิญญาณโอฟุมิ (2)"
+   "th": "ฮันชิจิ: วิญญาณโอฟุมิ (2)",
+   "si": "හන්ෂිචිගේ නඩු පොත: ඔෆුමිගේ හොල්මන (2 කොටස)"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -10464,7 +10476,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Layar Neraka (2)",
    "pt": "O Biombo do Inferno (2)",
    "my": "ငရဲပုံ ကာရံ (၂)",
-   "th": "ฉากกั้นนรก (2)"
+   "th": "ฉากกั้นนรก (2)",
+   "si": "නිරා තිරය (2)"
   },
   "level": "N2",
   "topic": "classic-literature",
@@ -10527,7 +10540,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Riwayat Gusuko Budori (2)",
    "pt": "A Vida de Gusuko Budori (2)",
    "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၂)",
-   "th": "ชีวประวัติของกุสุโค บุโดริ (2)"
+   "th": "ชีวประวัติของกุสุโค บุโดริ (2)",
+   "si": "ගුසුකෝ බුදෝරිගේ ජීවිතය (2)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10558,7 +10572,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Riwayat Gusuko Budori (3)",
    "pt": "A Vida de Gusuko Budori (3)",
    "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၃)",
-   "th": "ชีวประวัติของกุสุโค บุโดริ (3)"
+   "th": "ชีวประวัติของกุสุโค บุโดริ (3)",
+   "si": "ගුසුකෝ බුදෝරිගේ ජීවිතය (3)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10589,7 +10604,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Riwayat Gusuko Budori (4)",
    "pt": "A Vida de Gusuko Budori (4)",
    "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၄)",
-   "th": "ชีวประวัติของกุสุโค บุโดริ (4)"
+   "th": "ชีวประวัติของกุสุโค บุโดริ (4)",
+   "si": "ගුසුකෝ බුදෝරිගේ ජීවිතය (4)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10652,7 +10668,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hanshichi: Manusia Salju (2)",
    "pt": "Hanshichi: O Boneco de Neve (2)",
    "my": "ဟန်ရှိချိ: နှင်းလူရုပ် (၂)",
-   "th": "ฮันชิจิ: ตุ๊กตาหิมะ (2)"
+   "th": "ฮันชิจิ: ตุ๊กตาหิมะ (2)",
+   "si": "හන්ෂිචි: හිම මිනිසා (2)"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -10715,7 +10732,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Botchan (2): Julukan dan Soba Tempura",
    "pt": "Botchan (2): Apelidos e Soba de Tempurá",
    "my": "ဘော့ချန် (၂): နာမည်ပြောင်နဲ့ တန်ပူရာဆိုဘာ",
-   "th": "บ็อตจัง (2): ฉายากับโซบะเทมปุระ"
+   "th": "บ็อตจัง (2): ฉายากับโซบะเทมปุระ",
+   "si": "බොච්චන් (2): විකට නම් සහ ටෙම්පුරා සෝබා"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10746,7 +10764,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Botchan (3): Jaga Malam dan Belalang",
    "pt": "Botchan (3): O Plantão Noturno e os Gafanhotos",
    "my": "ဘော့ချန် (၃): ညစောင့်ခြင်းနဲ့ နှံကောင်များ",
-   "th": "บ็อตจัง (3): เวรกลางคืนกับตั๊กแตน"
+   "th": "บ็อตจัง (3): เวรกลางคืนกับตั๊กแตน",
+   "si": "බොච්චන් (3): රාත්‍රී මුරය සහ පළඟැටියෝ"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10777,7 +10796,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Botchan (4): Satu Setengah Sen dan Madonna",
    "pt": "Botchan (4): Um Sen e Meio e Madonna",
    "my": "ဘော့ချန် (၄): တစ်ဆင်ခွဲနဲ့ မဒေါ်နာ",
-   "th": "บ็อตจัง (4): หนึ่งเซ็นครึ่งกับมาดอนน่า"
+   "th": "บ็อตจัง (4): หนึ่งเซ็นครึ่งกับมาดอนน่า",
+   "si": "බොච්චන් (4): සෙන් එකහමාරයි මැඩෝනායි"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10808,7 +10828,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Botchan (5): Pesta Perpisahan dan Perkelahian Besar",
    "pt": "Botchan (5): A Festa de Despedida e a Grande Briga",
    "my": "ဘော့ချန် (၅): နှုတ်ဆက်ပွဲနဲ့ ရန်ပွဲကြီး",
-   "th": "บ็อตจัง (5): งานเลี้ยงส่งกับการตะลุมบอนครั้งใหญ่"
+   "th": "บ็อตจัง (5): งานเลี้ยงส่งกับการตะลุมบอนครั้งใหญ่",
+   "si": "බොච්චන් (5): සමුගැනීමේ සාදය සහ ලොකු ගැටුම"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10839,7 +10860,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Botchan (6, tamat): Hukuman dan Kiyo yang Menanti di Tokyo",
    "pt": "Botchan (6, final): Justiça Feita e Kiyo à Espera em Tóquio",
    "my": "ဘော့ချန် (၆၊ ဇာတ်သိမ်း): ဒဏ်ပေးခြင်းနဲ့ တိုကျိုမှာ စောင့်နေတဲ့ ကီယို",
-   "th": "บ็อตจัง (6 จบ): ลงทัณฑ์คนชั่ว กับคิโยะที่รออยู่ในโตเกียว"
+   "th": "บ็อตจัง (6 จบ): ลงทัณฑ์คนชั่ว กับคิโยะที่รออยู่ในโตเกียว",
+   "si": "බොච්චන් (6, අවසානය): යුක්තිය ඉටු වීම සහ ටෝකියෝවේ බලා සිටින කියෝ"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10902,7 +10924,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Pita Berbintik (2, tamat): Siulan Tengah Malam",
    "pt": "A Faixa Malhada (2, final): O Assobio da Meia-Noite",
    "my": "အစက်ပြောက်ကြိုး (၂၊ ဇာတ်သိမ်း): သန်းခေါင်ယံ လေချွန်သံ",
-   "th": "แถบลายจุด (2 จบ): เสียงผิวปากยามเที่ยงคืน"
+   "th": "แถบลายจุด (2 จบ): เสียงผิวปากยามเที่ยงคืน",
+   "si": "තිත් සහිත පටිය (2, අවසානය): මධ්‍යම රාත්‍රියේ විසිල්ල"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -11413,7 +11436,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (6): Rahasia Akari",
    "pt": "Trabalhando em Osaka (6): O segredo de Akari",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၆) - အာကာရီရဲ့ လျှို့ဝှက်ချက်",
-   "th": "ทำงานที่โอซาก้า (6): ความลับของอาคาริ"
+   "th": "ทำงานที่โอซาก้า (6): ความลับของอาคาริ",
+   "si": "ඔසාකාහි වැඩ කිරීම (6): අකාරිගේ රහස"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -11444,7 +11468,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (7): Direktur Tumbang",
    "pt": "Trabalhando em Osaka (7): O presidente desmaia",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၇) - ဥက္ကဋ္ဌ လဲကျသွားပြီ",
-   "th": "ทำงานที่โอซาก้า (7): ท่านประธานล้มลง"
+   "th": "ทำงานที่โอซาก้า (7): ท่านประธานล้มลง",
+   "si": "ඔසාකාහි වැඩ කිරීම (7): සභාපති ඇද වැටෙයි"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -11475,7 +11500,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (8, tamat): Aku Pulang, Osaka",
    "pt": "Trabalhando em Osaka (8, final): Cheguei, Osaka",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၈၊ ဇာတ်သိမ်း) - အိုဆာကာ၊ ပြန်ရောက်ပြီ",
-   "th": "ทำงานที่โอซาก้า (8 ตอนจบ): กลับมาแล้วนะ โอซาก้า"
+   "th": "ทำงานที่โอซาก้า (8 ตอนจบ): กลับมาแล้วนะ โอซาก้า",
+   "si": "ඔසාකාහි වැඩ කිරීම (8, අවසානය): ඔසාකා, මම ආවා"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -12114,7 +12140,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Restoran Banyak Pesanan (Bagian 1)",
    "pt": "O Restaurante dos Muitos Pedidos (Parte 1)",
    "my": "မှာစရာများတဲ့ စားသောက်ဆိုင် (အပိုင်း ၁)",
-   "th": "ภัตตาคารคำสั่งมาก (ตอนที่ 1)"
+   "th": "ภัตตาคารคำสั่งมาก (ตอนที่ 1)",
+   "si": "ඕඩර් ගොඩක් තියෙන අවන්හල (1 කොටස)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -12145,7 +12172,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Restoran Banyak Pesanan (Bagian 2)",
    "pt": "O Restaurante dos Muitos Pedidos (Parte 2)",
    "my": "မှာစရာများတဲ့ စားသောက်ဆိုင် (အပိုင်း ၂)",
-   "th": "ภัตตาคารคำสั่งมาก (ตอนที่ 2)"
+   "th": "ภัตตาคารคำสั่งมาก (ตอนที่ 2)",
+   "si": "ඕඩර් ගොඩක් තියෙන අවන්හල (2 කොටස)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -12161,6 +12189,130 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/chumon-2/chapter.mp3",
    "durationSec": 358.776
+  }
+ },
+ {
+  "id": "toshishun-1",
+  "titles": {
+   "vi": "Đỗ Tử Xuân (phần 1)",
+   "en": "Toshishun (Part 1)",
+   "zh-Hans": "杜子春（上）",
+   "zh-Hant": "杜子春（上）",
+   "ko": "두자춘 (상)",
+   "tl": "Si Toshishun (Bahagi 1)",
+   "ne": "तोशिशुन (भाग १)",
+   "id": "Toshishun (Bagian 1)",
+   "pt": "Toshishun (Parte 1)",
+   "my": "တိုရှိရှွန်း (အပိုင်း ၁)",
+   "th": "โทชิชุน (ตอนที่ 1)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 56,
+  "cover": "/covers/toshishun-1.webp",
+  "series": {
+   "id": "toshishun",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/toshishun-1/chapter.mp3",
+   "durationSec": 327.168
+  }
+ },
+ {
+  "id": "toshishun-2",
+  "titles": {
+   "vi": "Đỗ Tử Xuân (phần 2)",
+   "en": "Toshishun (Part 2)",
+   "zh-Hans": "杜子春（下）",
+   "zh-Hant": "杜子春（下）",
+   "ko": "두자춘 (하)",
+   "tl": "Si Toshishun (Bahagi 2)",
+   "ne": "तोशिशुन (भाग २)",
+   "id": "Toshishun (Bagian 2)",
+   "pt": "Toshishun (Parte 2)",
+   "my": "တိုရှိရှွန်း (အပိုင်း ၂)",
+   "th": "โทชิชุน (ตอนที่ 2)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 62,
+  "cover": "/covers/toshishun-2.webp",
+  "series": {
+   "id": "toshishun",
+   "index": 2
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/toshishun-2/chapter.mp3",
+   "durationSec": 364.584
+  }
+ },
+ {
+  "id": "torokko-1",
+  "titles": {
+   "vi": "Chiếc xe goòng",
+   "en": "The Trolley",
+   "zh-Hans": "小矿车",
+   "zh-Hant": "小礦車",
+   "ko": "토롯코 (광차)",
+   "tl": "Ang Trolley",
+   "ne": "ट्रली",
+   "id": "Lori",
+   "pt": "O Vagonete",
+   "my": "ထော်လီ လှည်း",
+   "th": "รถลากราง"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 70,
+  "cover": "/covers/torokko-1.webp",
+  "series": {
+   "id": "torokko",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/torokko-1/chapter.mp3",
+   "durationSec": 402.984
+  }
+ },
+ {
+  "id": "mikan-1",
+  "titles": {
+   "vi": "Những quả quýt",
+   "en": "Tangerines",
+   "zh-Hans": "橘子",
+   "zh-Hant": "橘子",
+   "ko": "귤",
+   "tl": "Mga Dalandan",
+   "ne": "सुन्तला",
+   "id": "Jeruk Mandarin",
+   "pt": "Tangerinas",
+   "my": "လိမ္မော်သီးများ",
+   "th": "ส้ม"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 61,
+  "cover": "/covers/mikan-1.webp",
+  "series": {
+   "id": "mikan",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/mikan-1/chapter.mp3",
+   "durationSec": 427.776
   }
  },
  {
@@ -12964,6 +13116,130 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "life-marcus-1",
+  "titles": {
+   "vi": "Cuốn sổ ban đêm của hoàng đế",
+   "en": "The Emperor's Night Notebook",
+   "zh-Hans": "皇帝的夜间笔记",
+   "zh-Hant": "皇帝的夜間筆記",
+   "ko": "황제의 밤 노트",
+   "tl": "Ang Kuwaderno ng Emperador sa Gabi",
+   "ne": "सम्राटको रातको कापी",
+   "id": "Buku Catatan Malam Sang Kaisar",
+   "pt": "O Caderno Noturno do Imperador",
+   "my": "ဧကရာဇ်၏ ညဘက် မှတ်စုစာအုပ်",
+   "th": "สมุดบันทึกยามค่ำคืนของจักรพรรดิ"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 45,
+  "cover": "/covers/life-marcus-1.webp",
+  "series": {
+   "id": "life-marcus",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-marcus-1/chapter.mp3",
+   "durationSec": 236.52
+  }
+ },
+ {
+  "id": "life-wattles-1",
+  "titles": {
+   "vi": "Khoa học làm giàu",
+   "en": "The Science of Getting Rich",
+   "zh-Hans": "致富的科学",
+   "zh-Hant": "致富的科學",
+   "ko": "부자가 되는 과학",
+   "tl": "Ang Agham ng Pagyaman",
+   "ne": "धनी हुने विज्ञान",
+   "id": "Ilmu Menjadi Kaya",
+   "pt": "A Ciência de Ficar Rico",
+   "my": "ချမ်းသာလာခြင်း၏ သိပ္ပံ",
+   "th": "ศาสตร์แห่งความมั่งคั่ง"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 45,
+  "cover": "/covers/life-wattles-1.webp",
+  "series": {
+   "id": "life-wattles",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-wattles-1/chapter.mp3",
+   "durationSec": 240.19
+  }
+ },
+ {
+  "id": "life-rongo-1",
+  "titles": {
+   "vi": "Thầy và trò",
+   "en": "The Teacher and His Students",
+   "zh-Hans": "老师与弟子",
+   "zh-Hant": "老師與弟子",
+   "ko": "스승과 제자",
+   "tl": "Ang Guro at ang mga Alagad",
+   "ne": "गुरु र चेला",
+   "id": "Guru dan Murid",
+   "pt": "O Mestre e os Discípulos",
+   "my": "ဆရာနှင့် တပည့်",
+   "th": "ครูกับศิษย์"
+  },
+  "level": "N4",
+  "topic": "philosophy",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 44,
+  "cover": "/covers/life-rongo-1.webp",
+  "series": {
+   "id": "life-rongo",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-rongo-1/chapter.mp3",
+   "durationSec": 215.95
+  }
+ },
+ {
+  "id": "life-yukkuri-1",
+  "titles": {
+   "vi": "Ngày Chủ nhật chậm rãi",
+   "en": "A Slow Sunday",
+   "zh-Hans": "慢慢的星期天",
+   "zh-Hant": "慢慢的星期天",
+   "ko": "느긋한 일요일",
+   "tl": "Isang Mabagal na Linggo",
+   "ne": "बिस्तारै बितेको आइतबार",
+   "id": "Minggu yang Pelan",
+   "pt": "Um Domingo Devagar",
+   "my": "အေးအေးဆေးဆေး တနင်္ဂနွေ",
+   "th": "วันอาทิตย์แสนช้า"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 44,
+  "cover": "/covers/life-yukkuri-1.webp",
+  "series": {
+   "id": "life-yukkuri",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-yukkuri-1/chapter.mp3",
+   "durationSec": 204.43
+  }
+ },
+ {
   "id": "mystery-hoichi-1",
   "titles": {
    "vi": "Hōichi không tai (1): Vị khách lúc nửa đêm",
@@ -13222,7 +13498,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kucing Bersepatu Bot",
    "pt": "O Gato de Botas",
    "my": "ဘွတ်ဖိနပ်စီး ကြောင်",
-   "th": "แมวใส่รองเท้าบู๊ต"
+   "th": "แมวใส่รองเท้าบู๊ต",
+   "si": "බූට් දාපු පූසා"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13250,7 +13527,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Rapunzel",
    "pt": "Rapunzel",
    "my": "ရာပွန်ဇယ်",
-   "th": "ราพันเซล"
+   "th": "ราพันเซล",
+   "si": "රපුන්සෙල්"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13278,7 +13556,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Aladin dan Lampu Ajaib (1): Gua Harta",
    "pt": "Aladim e a Lâmpada Maravilhosa (1): A Caverna do Tesouro",
    "my": "အလာဒင်နဲ့ မှော်မီးအိမ် (၁): ရတနာဂူ",
-   "th": "อะลาดินกับตะเกียงวิเศษ (1): ถ้ำสมบัติ"
+   "th": "อะลาดินกับตะเกียงวิเศษ (1): ถ้ำสมบัติ",
+   "si": "අලාදින් සහ මායා පහන (1): නිධන් ගුහාව"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13309,7 +13588,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Aladin dan Lampu Ajaib (2, tamat): Istana Terbang",
    "pt": "Aladim e a Lâmpada Maravilhosa (2, final): O Palácio Voador",
    "my": "အလာဒင်နဲ့ မှော်မီးအိမ် (၂၊ ဇာတ်သိမ်း): ပျံသန်းတဲ့ နန်းတော်",
-   "th": "อะลาดินกับตะเกียงวิเศษ (2 จบ): พระราชวังลอยฟ้า"
+   "th": "อะลาดินกับตะเกียงวิเศษ (2 จบ): พระราชวังลอยฟ้า",
+   "si": "අලාදින් සහ මායා පහන (2, අවසානය): පියාඹන මාළිගාව"
   },
   "level": "N3",
   "topic": "world-tales",
