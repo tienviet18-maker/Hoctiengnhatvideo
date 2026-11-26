@@ -656,3 +656,12 @@ Việt giao đấu nối Firebase, Cloudflare và SePay, học theo ViBJT. Bài 
   `LANGUAGE_CODES` và `LANGUAGE_NAMES` ("සිංහල"), thêm câu Sinhala cho 3 câu xếp lớp ở `src/lib/placement.ts`.
 - Bản dịch nội dung truyện/video hiện chỉ có vi/en/id; Sinhala và các tiếng khác đang rơi về tiếng Anh (pickText).
 - `npm run verify` xanh.
+
+## Tiêu đề tab theo ngôn ngữ + lỗi hydrate ở tab Tôi — 26/11/2026
+
+- Tiêu đề tab trình duyệt luôn là tiếng Việt (trang tĩnh xuất sẵn cho SEO). Thêm `src/components/DocTitle.tsx`:
+  khi chọn ngôn ngữ khác tiếng Việt thì đổi tiêu đề trên máy (trang chung theo `app.tagline`, Lộ trình theo
+  `paths.title`, truyện/video theo tên bài qua `useDocTitle`), giữ tiêu đề khi Next ghi lại thẻ `<title>`.
+- Lỗi React #418 ở `/profile` (bản dịch khác vi): `useAccount` trả object mới mỗi lần gọi getServerSnapshot.
+  Sửa bằng hằng `SERVER_STATE` trong `src/lib/account.ts`. Gốc thứ hai: thanh tab nằm trong <Suspense> nên hydrate sau khi ngôn ngữ đã đổi; lần hydrate đầu dùng chữ tiếng Việt cho khớp HTML tĩnh. Đã kiểm bằng Playwright trên bản build (Indonesia): hết lỗi.
+- `npm run verify` xanh.

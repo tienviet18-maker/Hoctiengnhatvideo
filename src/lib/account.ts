@@ -79,6 +79,9 @@ export function startAccount(onChange: (u: AccountUser | null) => void): void {
   });
 }
 
+/** Ảnh chụp phía máy chủ phải giữ nguyên tham chiếu, không thì React báo lỗi lặp vô hạn khi hydrate. */
+const SERVER_STATE: AccountState = FIREBASE_ENABLED ? { status: "loading" } : { status: "off" };
+
 export function useAccount(): AccountState {
   return useSyncExternalStore(
     (cb) => {
@@ -86,7 +89,7 @@ export function useAccount(): AccountState {
       return () => listeners.delete(cb);
     },
     () => state,
-    () => (FIREBASE_ENABLED ? { status: "loading" } : { status: "off" }) as AccountState,
+    () => SERVER_STATE,
   );
 }
 
