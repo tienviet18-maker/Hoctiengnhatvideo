@@ -729,3 +729,12 @@ Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse
 - Sửa câu hỏi bài học: trước đây đáp án đúng luôn ở vị trí đầu (app không xáo trộn). Nay xoay vị trí đáp án cho cả tập 1–10.
 - Đăng ký trong khối đánh dấu riêng "làm lại Mai-chan + văn học Nhật" ở `src/lib/content.ts`.
 - `npm run verify` xanh.
+## Kệ ma & trinh thám — lô 1 (truyện ma 小泉八雲) — 26/11/2026
+
+Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma (`shelf: ghost`) và trinh thám (`shelf: mystery`), id `mystery-<tác phẩm>-<n>`.
+
+- **Bản quyền**: 小泉八雲 (mất 1904), Conan Doyle (mất 1930) hết bản quyền mọi nơi; 江戸川乱歩 (mất 1965) hết ở Nhật, ở Mỹ chỉ dùng tác phẩm in trước 1931 (二銭銅貨 1923, D坂 1925, 心理試験 1925…); không dùng 怪人二十面相 (1936). Truyện tiếng Anh do Claude tự kể lại bằng tiếng Nhật, không dùng bản dịch nào.
+- **3 gói v2**: `mystery-hoichi-1/2` (耳なし芳一, N3, tập 1 miễn phí), `mystery-mujina-1` (むじな, N4, miễn phí). Mỗi gói 45–56 câu, audio liền 4–6 phút, 11 ngôn ngữ, bài học, `.qc.md`.
+- **Gói cũ bị thay**: `miminashi-hoichi`, `mujina` (~10 câu) ẩn qua `content/hidden-stories.json`, trỏ sang bản mới.
+- **Công cụ**: `scripts/produce/register.mjs --block=ma` đăng ký vào khối riêng `kệ ma & trinh thám` trong `src/lib/content.ts`, không đụng khối A/E. Motif bìa mới trong `scripts/produce/cover.html`: `biwa`, `lens`, `coin`, `noface`.
+- Tiếp: シャーロック・ホームズ「赤毛組合」(N3), 乱歩「二銭銅貨」(N2), ろくろ首, 食人鬼, 茶碗の中, 青いガーネット, D坂の殺人事件, 心理試験.

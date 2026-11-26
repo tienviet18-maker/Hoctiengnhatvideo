@@ -718,6 +718,7 @@ import s_worldShirayuki2 from "../../content/stories/world-shirayuki-2.json";
 // --- kệ ma & trinh thám (chuẩn v2): import ---
 import v2MysteryHoichi1 from "../../content/stories/mystery-hoichi-1.json";
 import v2MysteryHoichi2 from "../../content/stories/mystery-hoichi-2.json";
+import v2MysteryMujina1 from "../../content/stories/mystery-mujina-1.json";
 // --- hết kệ ma & trinh thám: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1440,6 +1441,7 @@ export const STORIES: StoryContent[] = [
   // --- kệ ma & trinh thám (chuẩn v2) ---
   v2MysteryHoichi1 as unknown as StoryContent,
   v2MysteryHoichi2 as unknown as StoryContent,
+  v2MysteryMujina1 as unknown as StoryContent,
   // --- hết kệ ma & trinh thám ---
 ];
 
