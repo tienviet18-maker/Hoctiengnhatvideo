@@ -7526,7 +7526,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/the-snow-queen.webp"
+  "cover": "/covers/the-snow-queen.webp",
+  "hidden": true,
+  "replacedBy": "world-yukinojoo-1"
  },
  {
   "id": "mai-chan-ep35-white-day",
@@ -13698,6 +13700,196 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/mystery-nisen-3/chapter.mp3",
    "durationSec": 459.38
+  }
+ },
+ {
+  "id": "world-alibaba-1",
+  "titles": {
+   "vi": "Ali Baba và bốn mươi tên cướp (1): Vừng ơi, mở ra!",
+   "en": "Ali Baba and the Forty Thieves (1): Open Sesame!",
+   "zh-Hans": "阿里巴巴与四十大盗（1）：芝麻开门！",
+   "zh-Hant": "阿里巴巴與四十大盜（1）：芝麻開門！",
+   "ko": "알리바바와 40인의 도둑 (1): 열려라 참깨!",
+   "tl": "Si Ali Baba at ang Apatnapung Magnanakaw (1): Bumukas ka, Linga!",
+   "ne": "अलीबाबा र चालीस चोर (१): खुल जा सिमसिम!",
+   "id": "Ali Baba dan Empat Puluh Penyamun (1): Buka, Wijen!",
+   "pt": "Ali Babá e os Quarenta Ladrões (1): Abre-te, Sésamo!",
+   "my": "အလီဘာဘာနဲ့ သူခိုးလေးဆယ် (၁): နှမ်းရေ ပွင့်ပါ!",
+   "th": "อาลีบาบากับโจรสี่สิบคน (1): เปิดเถิดงา!"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 47,
+  "cover": "/covers/world-alibaba-1.webp",
+  "series": {
+   "id": "world-alibaba",
+   "index": 1
+  },
+  "shelf": "world",
+  "audioTrack": {
+   "src": "/audio/world-alibaba-1/chapter.mp3",
+   "durationSec": 251.496
+  }
+ },
+ {
+  "id": "world-alibaba-2",
+  "titles": {
+   "vi": "Ali Baba và bốn mươi tên cướp (2 – hết): Cô hầu gái thông minh",
+   "en": "Ali Baba and the Forty Thieves (2, final): The Clever Servant",
+   "zh-Hans": "阿里巴巴与四十大盗（2·完）：聪明的女仆",
+   "zh-Hant": "阿里巴巴與四十大盜（2·完）：聰明的女僕",
+   "ko": "알리바바와 40인의 도둑 (2·끝): 영리한 하녀",
+   "tl": "Si Ali Baba at ang Apatnapung Magnanakaw (2, wakas): Ang Matalinong Alila",
+   "ne": "अलीबाबा र चालीस चोर (२, अन्तिम): चलाख दासी",
+   "id": "Ali Baba dan Empat Puluh Penyamun (2, tamat): Pelayan yang Cerdik",
+   "pt": "Ali Babá e os Quarenta Ladrões (2, final): A Criada Esperta",
+   "my": "အလီဘာဘာနဲ့ သူခိုးလေးဆယ် (၂ – ဇာတ်သိမ်း): ဉာဏ်ကောင်းတဲ့ အစေခံမလေး",
+   "th": "อาลีบาบากับโจรสี่สิบคน (2 จบ): สาวใช้ผู้ฉลาด"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/world-alibaba-2.webp",
+  "series": {
+   "id": "world-alibaba",
+   "index": 2
+  },
+  "shelf": "world",
+  "audioTrack": {
+   "src": "/audio/world-alibaba-2/chapter.mp3",
+   "durationSec": 279.36
+  }
+ },
+ {
+  "id": "world-bijo-1",
+  "titles": {
+   "vi": "Người đẹp và quái vật (1): Đóa hồng trong lâu đài",
+   "en": "Beauty and the Beast (1): The Rose in the Castle",
+   "zh-Hans": "美女与野兽（1）：城堡里的玫瑰",
+   "zh-Hant": "美女與野獸（1）：城堡裡的玫瑰",
+   "ko": "미녀와 야수 (1): 성 안의 장미",
+   "tl": "Ang Kagandahan at ang Halimaw (1): Ang Rosas sa Kastilyo",
+   "ne": "सुन्दरी र राक्षस (१): दरबारको गुलाफ",
+   "id": "Si Cantik dan si Buruk Rupa (1): Mawar di Kastel",
+   "pt": "A Bela e a Fera (1): A Rosa do Castelo",
+   "my": "အလှဘုရင်မနဲ့ သားရဲ (၁): ရဲတိုက်ထဲက နှင်းဆီ",
+   "th": "โฉมงามกับเจ้าชายอสูร (1): กุหลาบในปราสาท"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 56,
+  "cover": "/covers/world-bijo-1.webp",
+  "series": {
+   "id": "world-bijo",
+   "index": 1
+  },
+  "shelf": "world",
+  "origin": "FR",
+  "audioTrack": {
+   "src": "/audio/world-bijo-1/chapter.mp3",
+   "durationSec": 300.624
+  }
+ },
+ {
+  "id": "world-bijo-2",
+  "titles": {
+   "vi": "Người đẹp và quái vật (2 – hết): Lời hứa",
+   "en": "Beauty and the Beast (2, final): The Promise",
+   "zh-Hans": "美女与野兽（2·完）：约定",
+   "zh-Hant": "美女與野獸（2·完）：約定",
+   "ko": "미녀와 야수 (2·끝): 약속",
+   "tl": "Ang Kagandahan at ang Halimaw (2, wakas): Ang Pangako",
+   "ne": "सुन्दरी र राक्षस (२, अन्तिम): वाचा",
+   "id": "Si Cantik dan si Buruk Rupa (2, tamat): Janji",
+   "pt": "A Bela e a Fera (2, final): A Promessa",
+   "my": "အလှဘုရင်မနဲ့ သားရဲ (၂ – ဇာတ်သိမ်း): ကတိ",
+   "th": "โฉมงามกับเจ้าชายอสูร (2 จบ): คำสัญญา"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 49,
+  "cover": "/covers/world-bijo-2.webp",
+  "series": {
+   "id": "world-bijo",
+   "index": 2
+  },
+  "shelf": "world",
+  "origin": "FR",
+  "audioTrack": {
+   "src": "/audio/world-bijo-2/chapter.mp3",
+   "durationSec": 256.656
+  }
+ },
+ {
+  "id": "world-yukinojoo-1",
+  "titles": {
+   "vi": "Bà chúa tuyết (1): Mảnh gương quỷ",
+   "en": "The Snow Queen (1): The Devil's Mirror",
+   "zh-Hans": "冰雪女王（1）：魔镜碎片",
+   "zh-Hant": "冰雪女王（1）：魔鏡碎片",
+   "ko": "눈의 여왕 (1): 악마의 거울",
+   "tl": "Ang Reyna ng Niyebe (1): Ang Salamin ng Demonyo",
+   "ne": "हिउँकी रानी (१): राक्षसको ऐना",
+   "id": "Ratu Salju (1): Cermin Iblis",
+   "pt": "A Rainha da Neve (1): O Espelho do Diabo",
+   "my": "နှင်းဘုရင်မ (၁): နတ်ဆိုးမှန်",
+   "th": "ราชินีหิมะ (1): กระจกปีศาจ"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 47,
+  "cover": "/covers/world-yukinojoo-1.webp",
+  "series": {
+   "id": "world-yukinojoo",
+   "index": 1
+  },
+  "shelf": "world",
+  "origin": "DK",
+  "audioTrack": {
+   "src": "/audio/world-yukinojoo-1/chapter.mp3",
+   "durationSec": 278.928
+  }
+ },
+ {
+  "id": "world-yukinojoo-2",
+  "titles": {
+   "vi": "Bà chúa tuyết (2 – hết): Giọt nước mắt ấm",
+   "en": "The Snow Queen (2, final): Warm Tears",
+   "zh-Hans": "冰雪女王（2·完）：温暖的眼泪",
+   "zh-Hant": "冰雪女王（2·完）：溫暖的眼淚",
+   "ko": "눈의 여왕 (2·끝): 따뜻한 눈물",
+   "tl": "Ang Reyna ng Niyebe (2, wakas): Mainit na Luha",
+   "ne": "हिउँकी रानी (२, अन्तिम): तातो आँसु",
+   "id": "Ratu Salju (2, tamat): Air Mata Hangat",
+   "pt": "A Rainha da Neve (2, final): Lágrimas Quentes",
+   "my": "နှင်းဘုရင်မ (၂ – ဇာတ်သိမ်း): နွေးထွေးတဲ့ မျက်ရည်",
+   "th": "ราชินีหิมะ (2 จบ): น้ำตาอุ่น"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/world-yukinojoo-2.webp",
+  "series": {
+   "id": "world-yukinojoo",
+   "index": 2
+  },
+  "shelf": "world",
+  "origin": "DK",
+  "audioTrack": {
+   "src": "/audio/world-yukinojoo-2/chapter.mp3",
+   "durationSec": 275.208
   }
  }
 ];
