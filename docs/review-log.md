@@ -822,3 +822,11 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Phỏng theo 芥川龍之介 (mất 1927, xuất bản 1918; public domain ở Nhật và Mỹ). Giữ cảnh kết gốc (hoa sen không bận tâm, gần trưa). Xếp N3 vì 地獄/天国 và văn phong; bản N4 vượt ngưỡng từ khó.
 - Giọng: Aoede kể, カンダタ Neural2-C trầm. Bìa motif `kumo` (vùng tranh hẹp hơn để chừa chỗ tên tác giả dài).
 - Ẩn gói cũ `kumo-no-ito` → `kumonoito-1`. `npm run verify` xanh.
+
+## Tiếng Sinhala đợt 3: hết kệ Mukashi + Bremen — 27/11/2026 (nhánh `claude/si-stories-4`)
+
+- Đã dịch 17 gói: world-bremen; mukashi-kasajizo, mukashi-kintaro, mukashi-shitakiri, mukashi-hanasaka, mukashi-issun-1/2, mukashi-kaguya-1/2/3, mukashi-tsuru-1/2, mukashi-anju-zushio-2, mukashi-shuten-2, mukashi-ushiwaka-2, mukashi-yuki-onna-2. Thêm dòng `V scissors` cho world-akazukin và băm lại sau khi glossary sửa はさみ.
+- Kệ Mukashi giờ đủ si cho mọi tập. Tên riêng giữ thống nhất với tập 1 (රයිකෝ, කින්තොකි, අන්ජු/සුෂියෝ, සන්ෂෝ දායූ, ඔයුකි/මිනොකිචි, උෂිවකා/බෙන්කේ).
+- **Lỗi nguồn (chưa sửa, vùng nội dung):** một số ô "giải thích" của câu hỏi chỉ lặp lại câu hỏi bằng tiếng Anh thay vì đưa đáp án: mukashi-kasajizo (4 ô), mukashi-kintaro (4 ô), hanshichi-yukidaruma-1 (1 ô), rakugo-sokotsu-nagaya (1 ô). Bản si dịch đúng như nguồn; luồng sở hữu nên viết lại thành đáp án.
+- **Lệch số câu nhỏ:** nhiều lời giải câu hỏi ghi "câu N" lệch 1 so với số thứ tự hiển thị (vd. mukashi-hanasaka Q0 ghi câu 10, đáp án nằm ở câu 9 tính từ 0). Không ảnh hưởng người dùng nhiều, ghi lại để luồng sở hữu rà.
+- `npm run verify` xanh: 726 gói, 0 lỗi; sidecar si 49 gói, 0 lỗi; build OK.
