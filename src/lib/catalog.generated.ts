@@ -8932,7 +8932,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Si Kepala Kelapa (So Dua)",
    "pt": "O Menino Coco (So Dua)",
    "my": "အုန်းခွံခေါင်း (ဆော့ဇူအာ)",
-   "th": "เด็กกะลามะพร้าว (โส่ซวา)"
+   "th": "เด็กกะลามะพร้าว (โส่ซวา)",
+   "si": "පොල් ඔළුවා (සෝ යුආ)"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -8997,7 +8998,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Dewa Gunung dan Dewa Air",
    "pt": "O deus da montanha e o deus das águas",
    "my": "တောင်နတ်နှင့် ရေနတ်",
-   "th": "เทพแห่งขุนเขากับเทพแห่งสายน้ำ"
+   "th": "เทพแห่งขุนเขากับเทพแห่งสายน้ำ",
+   "si": "කඳු දෙවියයි ජල දෙවියයි"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9255,7 +9257,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Thach Sanh (1): Siluman Ular di Kuil",
    "pt": "Thach Sanh (1): A serpente do templo",
    "my": "ထက်ဆိုင်း (၁) - ဘုရားကျောင်းက မြွေဘီလူး",
-   "th": "ทาจ ซาน (1): ปีศาจงูในศาลเจ้า"
+   "th": "ทาจ ซาน (1): ปีศาจงูในศาลเจ้า",
+   "si": "තාක් සාන් (1): දේවාලයේ නයා"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9287,7 +9290,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Thach Sanh (2): Elang dan Kecapi Ajaib",
    "pt": "Thach Sanh (2): A águia e o alaúde mágico",
    "my": "ထက်ဆိုင်း (၂) - လင်းယုန်နဲ့ စောင်းနတ်",
-   "th": "ทาจ ซาน (2): นกอินทรีกับพิณวิเศษ"
+   "th": "ทาจ ซาน (2): นกอินทรีกับพิณวิเศษ",
+   "si": "තාක් සාන් (2): රාජාලියායි අද්භූත වීණාවයි"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9319,7 +9323,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Thach Sanh (3): Lagu Kecapi dan Periuk Nasi Ajaib",
    "pt": "Thach Sanh (3): O canto do alaúde e a panela mágica",
    "my": "ထက်ဆိုင်း (၃) - စောင်းသံနဲ့ ထမင်းအိုးနတ်",
-   "th": "ทาจ ซาน (3): เสียงพิณกับหม้อข้าววิเศษ"
+   "th": "ทาจ ซาน (3): เสียงพิณกับหม้อข้าววิเศษ",
+   "si": "තාක් සාන් (3): වීණාවේ ගීතයයි අද්භූත බත් හැළියයි"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9483,7 +9488,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Từ Thức Bertemu Peri",
    "pt": "Từ Thức e o reino das fadas",
    "my": "တူထုတ် နတ်ပြည်ရောက်",
-   "th": "ตื่อ ถึก พบนางฟ้า"
+   "th": "ตื่อ ถึก พบนางฟ้า",
+   "si": "තූ තුක් සහ දේවඟනා ලෝකය"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9515,7 +9521,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Legenda Sirih dan Pinang",
    "pt": "A lenda do bétel e da areca",
    "my": "ကွမ်းနဲ့ ကွမ်းသီး ဒဏ္ဍာရီ",
-   "th": "ตำนานหมากพลู"
+   "th": "ตำนานหมากพลู",
+   "si": "බුලතුයි පුවකුයි ගැන පුරාවෘත්තය"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -10339,7 +10346,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Legenda Dewa Dapur Vietnam",
    "pt": "A lenda dos deuses da cozinha",
    "my": "မီးဖိုချောင်နတ် ဒဏ္ဍာရီ",
-   "th": "ตำนานเทพเจ้าเตาไฟ"
+   "th": "ตำนานเทพเจ้าเตาไฟ",
+   "si": "වියට්නාමයේ කුස්සියේ දෙවිවරු"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -11107,7 +11115,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Tích Chu dan Nenek Burung",
    "pt": "Tích Chu e a avó pássaro",
    "my": "တစ်ချူး နဲ့ ငှက်ဖြစ်သွားတဲ့ အဘွား",
-   "th": "ติ๊กจูกับคุณยายนก"
+   "th": "ติ๊กจูกับคุณยายนก",
+   "si": "ටික් චූ සහ කුරුලු ආච්චි"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -11139,7 +11148,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Legenda Pohon Sawo Ijo",
    "pt": "A lenda da árvore de fruta-do-leite",
    "my": "နို့သီးပင် ဒဏ္ဍာရီ",
-   "th": "ตำนานต้นสตาร์แอปเปิล"
+   "th": "ตำนานต้นสตาร์แอปเปิล",
+   "si": "කිරි ගෙඩි ගහ"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -11597,7 +11607,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Số Đỏ (1): Xuân si Rambut Merah",
    "pt": "Số Đỏ (1): Xuân, o Ruivo",
    "my": "ဆိုးဒေါ့ (၁) - ဆံပင်နီ ဆွမ်",
-   "th": "โส่ด๋อ (1): ซวนผมแดง"
+   "th": "โส่ด๋อ (1): ซวนผมแดง",
+   "si": "සෝ දෝ (1): රතු කෙස් ඇති සුආන්"
   },
   "level": "N2",
   "topic": "hometown-tales",
@@ -11629,7 +11640,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Số Đỏ (2): Dokter Xuân dan Nona Tuyết",
    "pt": "Số Đỏ (2): Doutor Xuân e a senhorita Tuyết",
    "my": "ဆော်ဒေါ် (၂): ဒေါက်တာ ဆွမ်နဲ့ တွယ်တ်",
-   "th": "โซโด (2): ด็อกเตอร์ซวนกับคุณหนูเตวี๊ยต"
+   "th": "โซโด (2): ด็อกเตอร์ซวนกับคุณหนูเตวี๊ยต",
+   "si": "සෝ දෝ (2): ඩොක්ටර් සුආනුයි තුයෙත් මෙනවියයි"
   },
   "level": "N2",
   "topic": "hometown-tales",
@@ -11661,7 +11673,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Số Đỏ (3): Kebahagiaan Keluarga yang Berduka",
    "pt": "Số Đỏ (3): A felicidade de uma família enlutada",
    "my": "ဆော်ဒေါ် (၃): ဝမ်းနည်းနေတဲ့ မိသားစုရဲ့ ပျော်ရွှင်မှု",
-   "th": "โซโด (3): ความสุขของบ้านที่ไว้ทุกข์"
+   "th": "โซโด (3): ความสุขของบ้านที่ไว้ทุกข์",
+   "si": "සෝ දෝ (3): මළ ගෙදරක සතුට"
   },
   "level": "N2",
   "topic": "hometown-tales",
@@ -11693,7 +11706,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Số Đỏ (4 – tamat): Xuân Rambut Merah Menyelamatkan Negeri",
    "pt": "Số Đỏ (4 – fim): Xuân, o ruivo, salva a nação",
    "my": "ဆော်ဒေါ် (၄ – ဇာတ်သိမ်း): ဆံပင်နီ ဆွမ် တိုင်းပြည်ကို ကယ်တင်",
-   "th": "โซโด (4 – จบ): ซวนผมแดงกู้ชาติ"
+   "th": "โซโด (4 – จบ): ซวนผมแดงกู้ชาติ",
+   "si": "සෝ දෝ (4 – අවසානය): රතු කෙස් සුආන් රට බේරගනී"
   },
   "level": "N2",
   "topic": "hometown-tales",
@@ -14644,7 +14658,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Pak Tua Hạc",
    "pt": "O Velho Hạc",
    "my": "အဘိုးအို ဟတ်",
-   "th": "ตาเฒ่าฮัก"
+   "th": "ตาเฒ่าฮัก",
+   "si": "හාක් සීයා"
   },
   "level": "N2",
   "topic": "hometown-tales",
@@ -14672,7 +14687,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Legenda Batu Penanti Suami",
    "pt": "A Lenda da Pedra da Esposa que Espera",
    "my": "ခင်ပွန်းကို စောင့်တဲ့ ကျောက်တုံး ဒဏ္ဍာရီ",
-   "th": "ตำนานหินรอสามี"
+   "th": "ตำนานหินรอสามี",
+   "si": "සැමියා එනතුරු බලා සිටින ගලේ ජනප්‍රවාදය"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -14700,7 +14716,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Trạng Lợn, Sarjana Babi",
    "pt": "Trạng Lợn, o Doutor Porco",
    "my": "ဝက်ပညာရှင် ချန်လွန်",
-   "th": "จ่างหลอน บัณฑิตหมู"
+   "th": "จ่างหลอน บัณฑิตหมู",
+   "si": "චාං ලොන්, ඌරු පණ්ඩිතයා"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -14728,7 +14745,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Sepasang Kekasih Kupu-Kupu",
    "pt": "Os Amantes Borboleta",
    "my": "လိပ်ပြာ ချစ်သူနှစ်ဦး",
-   "th": "คู่รักผีเสื้อ (เหลียงซานป๋อกับจู้อิงไถ)"
+   "th": "คู่รักผีเสื้อ (เหลียงซานป๋อกับจู้อิงไถ)",
+   "si": "සමනල පෙම්වතුන්"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -14756,7 +14774,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hati Kelinci",
    "pt": "O Fígado do Coelho",
    "my": "ယုန်ရဲ့ အသည်း",
-   "th": "ตับกระต่าย"
+   "th": "ตับกระต่าย",
+   "si": "හාවාගේ අක්මාව"
   },
   "level": "N3",
   "topic": "hometown-tales",
