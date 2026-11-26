@@ -13,6 +13,7 @@ import { logActivity, QUEUE_KEY, removeFromQueue, saveProgress, useLocalJson } f
 import { VIDEO_INDEX, formatDuration } from "../../../lib/catalog.generated";
 import { clipWindow } from "../../../lib/clip";
 import { FREE_VIDEO_LINES } from "../../../lib/access";
+import { useFullContent } from "../../../lib/full-content";
 
 interface YTPlayer {
   getCurrentTime(): number;
@@ -42,17 +43,20 @@ function normalize(s: string): string {
 export default function WatchClient({
   videoId,
   youtubeId,
-  video,
+  video: videoProp,
 }: {
   videoId: string;
   youtubeId: string;
-  video: VideoContent | null;
+  /** Video VIP: trang tĩnh chỉ mang 2 câu đầu (`partial`, src/lib/gate.ts) */
+  video: (VideoContent & { partial?: true }) | null;
 }) {
   const { ui, lang, profile } = useLang();
-  const lines: TimedLine[] = useMemo(() => video?.lines ?? [], [video]);
   // Video VIP vẫn phát được; tài khoản thường thấy rõ FREE_VIDEO_LINES câu đầu (ux-plan mục 6).
-  // TODO(Firebase): máy chủ không gửi các câu sau cho tài khoản thường.
-  const preview = !!video && !video.free && !profile.vip;
+  // Máy chủ không gửi các câu sau: tài khoản VIP tải đủ phụ đề qua Worker (/api/content).
+  const full = useFullContent("videos", videoProp, profile.vip);
+  const video = full.item;
+  const lines: TimedLine[] = useMemo(() => video?.lines ?? [], [video]);
+  const preview = !!video && !video.free && full.status !== "ready";
   // Mở đúng đoạn học thay vì từ giây 0 (video tự thêm: cả video)
   const clip = useMemo(() => clipWindow(lines, video?.durationSec ?? 0), [lines, video]);
   const clipRef = useRef(clip);
@@ -422,11 +426,17 @@ export default function WatchClient({
               </div>
               <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 10, textAlign: "center" }}>
                 <span style={{ fontSize: 14, fontWeight: 700, color: "#fff" }}>
-                  {ui.vip.previewMore.replace("{n}", String(lines.length - FREE_VIDEO_LINES))}
+                  {full.status === "loading"
+                    ? ui.webvip.loading
+                    : full.status === "error"
+                      ? ui.webvip.loadFailed
+                      : ui.vip.previewMore.replace("{n}", String(lines.length - FREE_VIDEO_LINES))}
                 </span>
-                <button type="button" onClick={() => setPaywall(true)} style={{ height: 44, padding: "0 22px", borderRadius: 10, border: 0, background: "#F5C542", color: "#14213D", fontWeight: 800, fontSize: 14, cursor: "pointer", fontFamily: "inherit" }}>
-                  {ui.vip.unlock}
+                {full.status !== "loading" && (
+                <button type="button" onClick={() => (full.status === "error" ? full.retry() : setPaywall(true))} style={{ height: 44, padding: "0 22px", borderRadius: 10, border: 0, background: "#F5C542", color: "#14213D", fontWeight: 800, fontSize: 14, cursor: "pointer", fontFamily: "inherit" }}>
+                  {full.status === "error" ? ui.webvip.retry : ui.vip.unlock}
                 </button>
+                )}
               </div>
             </div>
           )}

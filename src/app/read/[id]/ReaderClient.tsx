@@ -13,6 +13,7 @@ import { pickText } from "../../../lib/i18n";
 import { PROGRESS_KEY, saveProgress, useLocalJson, type Progress } from "../../../lib/store";
 import * as player from "../../../lib/player";
 import { explainsLeft, spendExplain, storyFree } from "../../../lib/access";
+import { useFullContent } from "../../../lib/full-content";
 
 const FONT_SIZES = [16, 18, 21];
 const SPEEDS = [0.75, 0.9, 1, 1.25];
@@ -30,13 +31,17 @@ function fmt(sec: number) {
  * chung (src/lib/player.ts) nên vẫn phát khi rời màn này, tắt màn hình, và tự sang chương sau.
  */
 export default function ReaderClient({
-  story,
+  story: storyProp,
   next,
 }: {
-  story: StoryContent;
+  /** Chương VIP: trang tĩnh không mang câu nào (`partial`, src/lib/gate.ts) */
+  story: StoryContent & { partial?: true };
   next?: { id: string; titles: Translations };
 }) {
   const { ui, lang, profile } = useLang();
+  // Chương VIP: tài khoản VIP tải nội dung qua Worker (/api/content), máy chủ kiểm VIP thật
+  const full = useFullContent("stories", storyProp, profile.vip);
+  const story = full.item;
   const router = useRouter();
   const [tab, setTab] = useState<"story" | "lesson">("story");
   const [showFuri, setShowFuri] = useState(true);
@@ -60,7 +65,7 @@ export default function ReaderClient({
   const total = story.sentences.length;
   const track = story.audioTrack && story.sentences.every((s) => s.t) ? story.audioTrack : null;
   const duration = track ? track.durationSec : 0;
-  const locked = !storyFree(story) && !profile.vip;
+  const locked = !storyFree(story) && full.status !== "ready";
   const title = pickText(story.titles, lang);
 
   // Trạng thái của trình phát chỉ áp vào màn này khi đang nạp đúng chương này
@@ -144,7 +149,18 @@ export default function ReaderClient({
       <div style={{ padding: 20 }}>
         <Link href="/books" aria-label={ui.common.back} style={{ color: "var(--navy)", textDecoration: "none", fontSize: 20 }}>←</Link>
         <h1 style={{ fontSize: 19, fontWeight: 700, marginTop: 16 }}>{title}</h1>
-        <Paywall onClose={() => history.back()} />
+        {full.status === "loading" ? (
+          <p style={{ marginTop: 16, color: "var(--muted)" }}>{ui.webvip.loading}</p>
+        ) : full.status === "error" ? (
+          <div style={{ marginTop: 16 }}>
+            <p style={{ color: "var(--muted)" }}>{ui.webvip.loadFailed}</p>
+            <button type="button" className="btn-primary" style={{ marginTop: 12 }} onClick={full.retry}>
+              {ui.webvip.retry}
+            </button>
+          </div>
+        ) : (
+          <Paywall onClose={() => history.back()} />
+        )}
       </div>
     );
   }

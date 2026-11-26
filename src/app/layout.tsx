@@ -6,6 +6,7 @@ import { SITE_URL } from "../lib/seo";
 import { LangProvider } from "../components/LangProvider";
 import TabBar from "../components/TabBar";
 import MiniPlayer from "../components/MiniPlayer";
+import AccountRoot from "../components/AccountRoot";
 
 const bvp = Be_Vietnam_Pro({
   variable: "--font-bvp",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="vi" className={`${bvp.variable} h-full`}>
       <body className="min-h-full">
         <LangProvider>
+          <AccountRoot />
           <div className="app-shell">
             {children}
             <Suspense fallback={null}>

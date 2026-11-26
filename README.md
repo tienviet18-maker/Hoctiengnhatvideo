@@ -10,7 +10,7 @@ giá VIP ¥900/1 tháng, ¥4.400/6 tháng, ¥7.800/1 năm.
 - Next.js 16 (App Router, Cache Components + Partial Prerendering) + React 19 + TypeScript
 - Tailwind CSS v4
 - Nội dung dạng file JSON có schema chặt (`src/lib/content-schema.ts`), kiểm chứng tự động 100%
-- Triển khai: Cloudflare Pages (miền `video.vimai.jp`)
+- Triển khai: Cloudflare Worker + Static Assets (miền `miraigo.vimai.jp`, docs/deploy.md)
 
 ## Chạy cục bộ
 

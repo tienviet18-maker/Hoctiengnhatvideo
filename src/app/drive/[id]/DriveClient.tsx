@@ -10,6 +10,7 @@ import { logActivity } from "../../../lib/store";
 import { stop as stopStoryPlayer } from "../../../lib/player";
 import type { FuriganaSegment, JlptLevel, Translations } from "../../../lib/content-schema";
 import Furigana from "../../../components/Furigana";
+import { useFullContent } from "../../../lib/full-content";
 
 interface DriveSentence {
   ja: string;
@@ -33,14 +34,17 @@ interface DriveStory {
 let sharedAudio: HTMLAudioElement | null = null;
 
 export default function DriveClient({
-  story,
+  story: storyProp,
   next: nextRaw,
 }: {
   story: DriveStory;
   next: { id: string; titles: Translations; free: boolean } | null;
 }) {
   const { ui, lang, profile } = useLang();
-  const locked = !story.free && !profile.vip;
+  // Chương VIP: trang tĩnh không mang câu nào; tài khoản VIP tải qua Worker (/api/content)
+  const full = useFullContent("stories", storyProp.free ? storyProp : { ...storyProp, partial: true as const }, profile.vip);
+  const story = full.item;
+  const locked = !story.free && full.status !== "ready";
   // Không tự chuyển sang truyện VIP khi chưa có VIP (sẽ chỉ gặp màn paywall giữa lúc lái xe)
   const next = nextRaw && (nextRaw.free || profile.vip) ? nextRaw : null;
   const router = useRouter();
@@ -109,13 +113,15 @@ export default function DriveClient({
 
   // Tự phát khi được mở từ danh sách / chuyển bài (cờ đặt trong sessionStorage,
   // vì trang tĩnh không đọc được searchParams lúc prerender)
+  // Chương VIP: chờ tải xong nội dung rồi mới phát
   useEffect(() => {
+    if (locked) return;
     if (sessionStorage.getItem("vimai-drive-autoplay") === "1") {
       sessionStorage.removeItem("vimai-drive-autoplay");
-      if (!locked) playFrom(0);
+      playFrom(0);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [locked]);
 
   // Hết một câu: lặp lại / sang câu tiếp / hết bài
   useEffect(() => {
@@ -183,7 +189,15 @@ export default function DriveClient({
           <span className="lvl">{story.level}</span>
         </div>
         <h1 className="drive-title">{title}</h1>
-        <Paywall onClose={() => history.back()} />
+        {full.status === "loading" ? (
+          <p style={{ marginTop: 16 }}>{ui.webvip.loading}</p>
+        ) : full.status === "error" ? (
+          <button type="button" className="btn-primary" style={{ marginTop: 16 }} onClick={full.retry}>
+            {ui.webvip.retry}
+          </button>
+        ) : (
+          <Paywall onClose={() => history.back()} />
+        )}
       </div>
     );
   }

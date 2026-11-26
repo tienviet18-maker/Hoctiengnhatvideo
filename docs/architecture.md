@@ -23,7 +23,7 @@ Web app tại `video.vimai.jp`: học tiếng Nhật qua video YouTube nhúng v�
 - `docs/` — tài liệu kiến trúc và kiểm chứng.
 
 ## Deploy
-- Cloudflare Pages nối thẳng repo GitHub (build phía Cloudflare, không tốn phút GitHub Actions) + domain `video.vimai.jp`; wrangler là đường dự phòng.
+- Cloudflare Worker + Workers Static Assets (`wrangler.toml`): Next xuất tĩnh (`output: "export"`), Worker chặn nội dung VIP và chuyển tiếp đăng nhập Firebase; domain `miraigo.vimai.jp` (docs/deploy.md).
 
 ## Quy ước làm việc (chốt 24/11/2026)
 - Muse xây dựng toàn bộ; Claude trên iMac kiểm duyệt độc lập tại các điểm kiểm nội bộ (kiến trúc, mockup, nội dung mẫu, bản xem trước cuối).

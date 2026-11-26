@@ -4,6 +4,7 @@ import { detailMetadata } from "../../../lib/seo";
 import ReaderClient from "./ReaderClient";
 import { getStory, STORIES } from "../../../lib/content";
 import { STORY_INDEX } from "../../../lib/catalog.generated";
+import { gateStory } from "../../../lib/gate";
 
 export function generateStaticParams() {
   return STORIES.map((s) => ({ id: s.id }));
@@ -39,5 +40,6 @@ export default async function ReadPage({
   const next = story.series
     ? STORIES.find((s) => s.series?.id === story.series!.id && s.series.index === story.series!.index + 1)
     : undefined;
-  return <ReaderClient story={story} next={next ? { id: next.id, titles: next.titles } : undefined} />;
+  // Chương VIP: trang tĩnh không mang câu nào, nội dung tải qua /api/content khi có VIP
+  return <ReaderClient story={gateStory(story)} next={next ? { id: next.id, titles: next.titles } : undefined} />;
 }

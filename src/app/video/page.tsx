@@ -102,7 +102,7 @@ export default function VideoPage() {
     if (!id) return;
     addCustomVideo({ youtubeId: id, title: id, addedAt: Date.now() });
     setLink("");
-    router.push(`/watch/custom-${id}`);
+    router.push(`/watch/custom?v=${id}`);
   };
 
   return (
@@ -271,7 +271,7 @@ export default function VideoPage() {
         </button>
       </div>
       {custom.map((c) => (
-        <Link key={c.youtubeId} href={`/watch/custom-${c.youtubeId}`} style={{ ...rowStyle, textDecoration: "none" }}>
+        <Link key={c.youtubeId} href={`/watch/custom?v=${c.youtubeId}`} style={{ ...rowStyle, textDecoration: "none" }}>
           <span className="thumb" style={{ width: 112, height: 66 }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`https://i.ytimg.com/vi/${c.youtubeId}/hqdefault.jpg`} alt="" />
