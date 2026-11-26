@@ -742,6 +742,7 @@ import v2MysteryAkagami2 from "../../content/stories/mystery-akagami-2.json";
 import s_worldNagagutsu from "../../content/stories/world-nagagutsu.json";
 import s_worldRapunzel from "../../content/stories/world-rapunzel.json";
 import s_worldAladdin1 from "../../content/stories/world-aladdin-1.json";
+import s_worldAladdin2 from "../../content/stories/world-aladdin-2.json";
 // --- hết kệ ma & trinh thám: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1489,6 +1490,7 @@ export const STORIES: StoryContent[] = [
   s_worldNagagutsu as unknown as StoryContent,
   s_worldRapunzel as unknown as StoryContent,
   s_worldAladdin1 as unknown as StoryContent,
+  s_worldAladdin2 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
