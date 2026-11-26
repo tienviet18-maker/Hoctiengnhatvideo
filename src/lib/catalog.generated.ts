@@ -11066,6 +11066,102 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-sodo-1/chapter.mp3",
    "durationSec": 432.024
   }
+ },
+ {
+  "id": "furusato-vn-sodo-2",
+  "titles": {
+   "vi": "Số đỏ (2): Đốc tờ Xuân và cô Tuyết",
+   "en": "Dumb Luck (2): Doctor Xuân and Miss Tuyết",
+   "zh-Hans": "红运（2）：阿春医生与雪小姐",
+   "zh-Hant": "紅運（2）：阿春醫生與雪小姐",
+   "ko": "소도 (2): 닥터 쑤언과 뚜옛 아가씨",
+   "tl": "Dumb Luck (2): Doktor Xuân at Binibining Tuyết",
+   "ne": "सो दो (२): डाक्टर सुआन र तुयेत",
+   "id": "Số Đỏ (2): Dokter Xuân dan Nona Tuyết",
+   "pt": "Số Đỏ (2): Doutor Xuân e a senhorita Tuyết",
+   "my": "ဆော်ဒေါ် (၂): ဒေါက်တာ ဆွမ်နဲ့ တွယ်တ်",
+   "th": "โซโด (2): ด็อกเตอร์ซวนกับคุณหนูเตวี๊ยต"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-sodo-2.webp",
+  "series": {
+   "id": "furusato-vn-sodo",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-sodo-2/chapter.mp3",
+   "durationSec": 394.752
+  }
+ },
+ {
+  "id": "furusato-vn-sodo-3",
+  "titles": {
+   "vi": "Số đỏ (3): Hạnh phúc của một tang gia",
+   "en": "Dumb Luck (3): The Happiness of a Family in Mourning",
+   "zh-Hans": "红运（3）：一个丧家的幸福",
+   "zh-Hant": "紅運（3）：一個喪家的幸福",
+   "ko": "소도 (3): 어느 상갓집의 행복",
+   "tl": "Dumb Luck (3): Ang Kaligayahan ng Isang Naulilang Pamilya",
+   "ne": "सो दो (३): एक शोकाकुल परिवारको खुसी",
+   "id": "Số Đỏ (3): Kebahagiaan Keluarga yang Berduka",
+   "pt": "Số Đỏ (3): A felicidade de uma família enlutada",
+   "my": "ဆော်ဒေါ် (၃): ဝမ်းနည်းနေတဲ့ မိသားစုရဲ့ ပျော်ရွှင်မှု",
+   "th": "โซโด (3): ความสุขของบ้านที่ไว้ทุกข์"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-sodo-3.webp",
+  "series": {
+   "id": "furusato-vn-sodo",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-sodo-3/chapter.mp3",
+   "durationSec": 393.048
+  }
+ },
+ {
+  "id": "furusato-vn-sodo-4",
+  "titles": {
+   "vi": "Số đỏ (4 – hết): Xuân Tóc Đỏ cứu quốc",
+   "en": "Dumb Luck (4 – end): Red-Haired Xuân Saves the Nation",
+   "zh-Hans": "红运（4·完）：红发阿春救国",
+   "zh-Hant": "紅運（4·完）：紅髮阿春救國",
+   "ko": "소도 (4·끝): 빨간 머리 쑤언, 나라를 구하다",
+   "tl": "Dumb Luck (4 – wakas): Iniligtas ni Xuân ang Bayan",
+   "ne": "सो दो (४ – अन्तिम): रातो कपाले सुआनले देश बचाए",
+   "id": "Số Đỏ (4 – tamat): Xuân Rambut Merah Menyelamatkan Negeri",
+   "pt": "Số Đỏ (4 – fim): Xuân, o ruivo, salva a nação",
+   "my": "ဆော်ဒေါ် (၄ – ဇာတ်သိမ်း): ဆံပင်နီ ဆွမ် တိုင်းပြည်ကို ကယ်တင်",
+   "th": "โซโด (4 – จบ): ซวนผมแดงกู้ชาติ"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-sodo-4.webp",
+  "series": {
+   "id": "furusato-vn-sodo",
+   "index": 4
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-sodo-4/chapter.mp3",
+   "durationSec": 352.272
+  }
  }
 ];
 
