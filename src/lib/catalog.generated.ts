@@ -11552,6 +11552,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-hoangle-1/chapter.mp3",
    "durationSec": 430.08
   }
+ },
+ {
+  "id": "furusato-vn-hoangle-2",
+  "titles": {
+   "vi": "Hoàng Lê nhất thống chí (2): Ăn Tết sớm, phá đồn Hà Hồi",
+   "en": "The Unification of the Le (2): An Early New Year and the Fort at Ha Hoi",
+   "zh-Hans": "皇黎一统志（2）：提前过年，攻破河回",
+   "zh-Hant": "皇黎一統志（2）：提前過年，攻破河回",
+   "ko": "황려일통지 (2): 앞당긴 설날과 하호이 요새",
+   "tl": "Hoang Le Nhat Thong Chi (2): Maagang Bagong Taon at ang Kuta ng Ha Hoi",
+   "ne": "होआङ ले न्यात थोङ ची (२): छिटो नयाँ वर्ष र हा होइको किल्ला",
+   "id": "Hoang Le Nhat Thong Chi (2): Tahun Baru Lebih Awal dan Benteng Ha Hoi",
+   "pt": "Hoang Le Nhat Thong Chi (2): Ano-Novo Antecipado e o Forte de Ha Hoi",
+   "my": "ဟွမ်လေ ညတ်ထုံချီ (၂): နှစ်သစ်ကို စောစော ကျင်းပခြင်းနဲ့ ဟာဟွိုင်ခံတပ်",
+   "th": "ฮหว่างเลเญิดท้งจี (2): ฉลองปีใหม่ล่วงหน้าและป้อมฮาโห่ย"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-hoangle-2.webp",
+  "series": {
+   "id": "furusato-vn-hoangle",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-hoangle-2/chapter.mp3",
+   "durationSec": 421.728
+  }
  }
 ];
 
