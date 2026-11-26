@@ -103,7 +103,8 @@ def cut(lines):
         if cur and (l["start"] - cur[-1]["end"] > MAX_GAP or l["end"] - cur[0]["start"] > CLIP_MAX):
             close(); cur.clear()
         cur.append(l)
-        if cur[-1]["end"] - cur[0]["start"] >= CLIP_TARGET and re.search(r"[。？！?!]$", l["text"]):
+        span = cur[-1]["end"] - cur[0]["start"]
+        if (span >= CLIP_TARGET and re.search(r"[。？！?!]$", l["text"])) or span >= CLIP_TARGET * 1.3:
             close(); cur.clear()
     close()
     return clips

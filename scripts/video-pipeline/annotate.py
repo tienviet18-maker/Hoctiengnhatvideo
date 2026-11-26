@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Bước 2 dây chuyền video: Gemini soạn lớp học cho từng clip (chuẩn v2, 11 ngôn ngữ).
 
-    python3 scripts/video-pipeline/annotate.py <youtubeId> [--model gemini-3.6-flash]
+    python3 scripts/video-pipeline/annotate.py <youtubeId> [--models gemini-3.8-flash,gemini-flash-latest]
 
 Key: biến môi trường GEMINI_API_KEY, hoặc file ~/ytsub-test/.gemini_key (chmod 600). Không bao giờ ghi key vào repo.
 Đầu vào: work/<id>.json (từ prepare.py). Đầu ra: work/<id>.ann.json.
@@ -9,7 +9,7 @@ Với mỗi dòng, mô hình nhận 2 bản nghe (Whisper + phụ đề tự đ�
   keep=false nếu không chắc người nói nói gì (không đoán); keep=true kèm câu tiếng Nhật đã sửa chính tả/dấu câu,
   bản dịch, giải thích (grammarNote) và từ vựng — đủ 11 ngôn ngữ.
 """
-import argparse, json, os, sys, time, urllib.request, urllib.error
+import argparse, json, os, socket, sys, time, urllib.request, urllib.error
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 WORK = os.path.join(HERE, "work")
@@ -51,25 +51,29 @@ def key():
     return k
 
 
-def call(model, apikey, system, user):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+def call(models, apikey, system, user):
     body = {"system_instruction": {"parts": [{"text": system}]},
             "contents": [{"role": "user", "parts": [{"text": user}]}],
             "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"}}
-    for attempt in range(5):
+    for attempt in range(12):
+        model = models[attempt % len(models)]
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
         req = urllib.request.Request(url, data=json.dumps(body).encode(), method="POST",
                                      headers={"Content-Type": "application/json; charset=utf-8", "x-goog-api-key": apikey})
         try:
-            with urllib.request.urlopen(req, timeout=180) as r:
+            with urllib.request.urlopen(req, timeout=420) as r:
                 res = json.load(r)
             text = res["candidates"][0]["content"]["parts"][0]["text"]
             usage = res.get("usageMetadata", {})
+            usage["model"] = model
             return json.loads(text), usage
         except urllib.error.HTTPError as e:
             msg = e.read().decode()[:300]
-            if e.code in (429, 500, 503):
-                wait = 20 * (attempt + 1); print(f"  HTTP {e.code}, retry in {wait}s"); time.sleep(wait); continue
+            if e.code in (404, 429, 500, 503):
+                wait = min(30 * (attempt // len(models) + 1), 180); print(f"  {model}: HTTP {e.code}, next try in {wait}s"); time.sleep(wait); continue
             sys.exit(f"HTTP {e.code}: {msg}")
+        except (socket.timeout, urllib.error.URLError, ConnectionError) as e:
+            print(f"  {model}: network/timeout ({e}), retry"); time.sleep(15); continue
         except (KeyError, json.JSONDecodeError) as e:
             print(f"  bad response ({e}), retry"); time.sleep(5)
     sys.exit("Gemini failed after retries")
@@ -95,7 +99,7 @@ def validate(ann, idxs):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("vid"); ap.add_argument("--model", default=os.environ.get("GEMINI_MODEL", "gemini-3.6-flash"))
+    ap.add_argument("vid"); ap.add_argument("--models", default=os.environ.get("GEMINI_MODELS", "gemini-3.8-flash,gemini-flash-latest,gemini-3.5-flash"))
     ap.add_argument("--sleep", type=float, default=6.0)
     a = ap.parse_args()
     d = json.load(open(os.path.join(WORK, f"{a.vid}.json"), encoding="utf-8"))
@@ -108,7 +112,7 @@ def main():
         payload = [{"i": i, "w": d["lines"][i]["text"], "a": d["lines"][i].get("asr", "")} for i in idxs]
         user = f"Series: {d['series']}. Video title: {d['meta']['title']}. Target level: {d['level']}.\nLines:\n" + json.dumps(payload, ensure_ascii=False)
         for attempt in range(3):
-            ann, usage = call(a.model, apikey, SYSTEM.replace("{LEVEL}", d["level"]), user)
+            ann, usage = call(a.models.split(","), apikey, SYSTEM.replace("{LEVEL}", d["level"]), user)
             probs = validate(ann, idxs)
             if not probs:
                 break
