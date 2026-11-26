@@ -820,6 +820,13 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Cả bốn viết nhắm N4 nhưng từ khoá (宝石, 魔法使い, 侯爵…) vượt ngưỡng từ khó, nên xếp N3 (harder 3–9%).
 - build.mjs: thêm ROMAJI_FIX cho じつは, あっという間, 本当は, ラプンツェル. Bìa: motif mới `pussboots`, `tower`, `lamp`, `palace`. Glossary world thêm 息子, 侯爵, 馬車, 粉屋, 働き, はめる, ワイン…
 
+## Kệ truyện cổ thế giới đợt 6: Vasilisa (Nga), Khỉ và cá sấu (Ấn Độ), Pinocchio (Ý) — 27/11/2026
+- `world-vasilisa-1` (miễn phí, 47 câu) và `world-vasilisa-2` (VIP, 47 câu), N3, series `world-vasilisa`, truyện dân gian Nga trong tuyển tập Afanasyev (cờ RU). Chưa có gói cũ.
+- `world-saru-wani` (VIP, 46 câu), N3, Panchatantra (cờ IN). Bản nháp N4 vượt ngưỡng từ khó (実, 心臓, 岸 là N3) nên xếp N3.
+- `world-pinocchio-1` (miễn phí, 48 câu) và `world-pinocchio-2` (VIP, 47 câu), N3, series `world-pinocchio`, theo nguyên tác Collodi 1883 (cờ IT; cá mập, không phải cá voi). Gói cũ `pinocchio` (N5) ẩn, trỏ sang tập 1.
+- Truyện châu Á (Trung, Hàn, Việt...) thuộc kệ `furusato-*` nên kệ thế giới không làm trùng.
+- build.mjs: thêm ROMAJI_FIX cho 土から, 土に, けしの実, 夜の森, 木の下, 元の. Bìa: motif mới `chickenhut`, `skulllamp`, `sarucroc`, `nosewood`, `sharkbelly`. Glossary world thêm たまらない, 変える, てっぺん, 決して, めちゃくちゃ, くしゃみ, マスク.
+
 ## Kệ truyện cổ thế giới đợt 5: Ali Baba, Người đẹp và quái vật, Bà chúa tuyết (mỗi truyện 2 tập) — 27/11/2026
 - `world-alibaba-1` (miễn phí, 47 câu) và `world-alibaba-2` (VIP, 48 câu), N3, series `world-alibaba`, theo Nghìn lẻ một đêm (không gắn cờ). Chưa có gói Ali Baba cũ.
 - `world-bijo-1` (miễn phí, 56 câu) và `world-bijo-2` (VIP, 49 câu), N3, series `world-bijo`, theo bản Beaumont 1756 (cờ FR). Bản nháp N4 vượt ngưỡng từ khó (野獣 tính là từ khó, harder 18–20%) nên xếp N3. Chưa có gói cũ.

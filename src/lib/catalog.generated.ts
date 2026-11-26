@@ -5657,7 +5657,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/pinocchio.webp"
+  "cover": "/covers/pinocchio.webp",
+  "hidden": true,
+  "replacedBy": "world-pinocchio-1"
  },
  {
   "id": "getting-a-credit-card",
@@ -14034,6 +14036,162 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/world-yukinojoo-2/chapter.mp3",
    "durationSec": 275.208
+  }
+ },
+ {
+  "id": "world-vasilisa-1",
+  "titles": {
+   "vi": "Vasilisa xinh đẹp (1): Con búp bê của mẹ",
+   "en": "Vasilisa the Beautiful (1): Mother's Little Doll",
+   "zh-Hans": "美丽的瓦西丽莎（1）：妈妈的小娃娃",
+   "zh-Hant": "美麗的瓦西麗莎（1）：媽媽的小娃娃",
+   "ko": "아름다운 바실리사 (1): 엄마의 작은 인형",
+   "tl": "Si Vasilisa na Marikit (1): Ang Manika ni Nanay",
+   "ne": "सुन्दरी भासिलिसा (१): आमाको सानो पुतली",
+   "id": "Vasilisa yang Cantik (1): Boneka Kecil dari Ibu",
+   "pt": "Vasilisa, a Bela (1): A Bonequinha da Mãe",
+   "my": "လှပသော ဗာစီလီဆာ (၁): အမေ့ အရုပ်လေး",
+   "th": "วาซิลิซาผู้งดงาม (1): ตุ๊กตาของแม่"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 47,
+  "cover": "/covers/world-vasilisa-1.webp",
+  "series": {
+   "id": "world-vasilisa",
+   "index": 1
+  },
+  "shelf": "world",
+  "origin": "RU",
+  "audioTrack": {
+   "src": "/audio/world-vasilisa-1/chapter.mp3",
+   "durationSec": 317.976
+  }
+ },
+ {
+  "id": "world-vasilisa-2",
+  "titles": {
+   "vi": "Vasilisa xinh đẹp (2 – hết): Ngọn đèn đầu lâu",
+   "en": "Vasilisa the Beautiful (2, end): The Skull Lantern",
+   "zh-Hans": "美丽的瓦西丽莎（2·完）：骷髅灯",
+   "zh-Hant": "美麗的瓦西麗莎（2·完）：骷髏燈",
+   "ko": "아름다운 바실리사 (2, 끝): 해골 등불",
+   "tl": "Si Vasilisa na Marikit (2, wakas): Ang Lamparang Bungo",
+   "ne": "सुन्दरी भासिलिसा (२, अन्तिम): खप्परको बत्ती",
+   "id": "Vasilisa yang Cantik (2, tamat): Lentera Tengkorak",
+   "pt": "Vasilisa, a Bela (2, fim): A Lanterna de Caveira",
+   "my": "လှပသော ဗာစီလီဆာ (၂၊ ဇာတ်သိမ်း): ဦးခေါင်းခွံ မီးအိမ်",
+   "th": "วาซิลิซาผู้งดงาม (2 จบ): ตะเกียงหัวกะโหลก"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 47,
+  "cover": "/covers/world-vasilisa-2.webp",
+  "series": {
+   "id": "world-vasilisa",
+   "index": 2
+  },
+  "shelf": "world",
+  "origin": "RU",
+  "audioTrack": {
+   "src": "/audio/world-vasilisa-2/chapter.mp3",
+   "durationSec": 293.04
+  }
+ },
+ {
+  "id": "world-saru-wani",
+  "titles": {
+   "vi": "Khỉ và cá sấu",
+   "en": "The Monkey and the Crocodile",
+   "zh-Hans": "猴子和鳄鱼",
+   "zh-Hant": "猴子和鱷魚",
+   "ko": "원숭이와 악어",
+   "tl": "Ang Unggoy at ang Buwaya",
+   "ne": "बाँदर र गोही",
+   "id": "Monyet dan Buaya",
+   "pt": "O Macaco e o Crocodilo",
+   "my": "မျောက်နဲ့ မိကျောင်း",
+   "th": "ลิงกับจระเข้"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 46,
+  "cover": "/covers/world-saru-wani.webp",
+  "shelf": "world",
+  "origin": "IN",
+  "audioTrack": {
+   "src": "/audio/world-saru-wani/chapter.mp3",
+   "durationSec": 244.488
+  }
+ },
+ {
+  "id": "world-pinocchio-1",
+  "titles": {
+   "vi": "Pinocchio (1): Chiếc mũi dài",
+   "en": "Pinocchio (1): The Growing Nose",
+   "zh-Hans": "木偶奇遇记（1）：变长的鼻子",
+   "zh-Hant": "木偶奇遇記（1）：變長的鼻子",
+   "ko": "피노키오 (1): 길어지는 코",
+   "tl": "Pinocchio (1): Ang Humahabang Ilong",
+   "ne": "पिनोकियो (१): लामो हुने नाक",
+   "id": "Pinokio (1): Hidung yang Memanjang",
+   "pt": "Pinóquio (1): O Nariz que Cresce",
+   "my": "ပီနိုကီယို (၁): ရှည်လာတဲ့ နှာခေါင်း",
+   "th": "พินอคคิโอ (1): จมูกที่ยืดยาว"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 48,
+  "cover": "/covers/world-pinocchio-1.webp",
+  "series": {
+   "id": "world-pinocchio",
+   "index": 1
+  },
+  "shelf": "world",
+  "origin": "IT",
+  "audioTrack": {
+   "src": "/audio/world-pinocchio-1/chapter.mp3",
+   "durationSec": 280.104
+  }
+ },
+ {
+  "id": "world-pinocchio-2",
+  "titles": {
+   "vi": "Pinocchio (2 – hết): Trong bụng cá mập",
+   "en": "Pinocchio (2, end): Inside the Shark",
+   "zh-Hans": "木偶奇遇记（2·完）：鲨鱼肚子里",
+   "zh-Hant": "木偶奇遇記（2·完）：鯊魚肚子裡",
+   "ko": "피노키오 (2, 끝): 상어 배 속에서",
+   "tl": "Pinocchio (2, wakas): Sa Loob ng Pating",
+   "ne": "पिनोकियो (२, अन्तिम): शार्कको पेटभित्र",
+   "id": "Pinokio (2, tamat): Di Perut Hiu",
+   "pt": "Pinóquio (2, fim): Na Barriga do Tubarão",
+   "my": "ပီနိုကီယို (၂၊ ဇာတ်သိမ်း): ငါးမန်းဗိုက်ထဲမှာ",
+   "th": "พินอคคิโอ (2 จบ): ในท้องฉลาม"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 47,
+  "cover": "/covers/world-pinocchio-2.webp",
+  "series": {
+   "id": "world-pinocchio",
+   "index": 2
+  },
+  "shelf": "world",
+  "origin": "IT",
+  "audioTrack": {
+   "src": "/audio/world-pinocchio-2/chapter.mp3",
+   "durationSec": 297.192
   }
  }
 ];
