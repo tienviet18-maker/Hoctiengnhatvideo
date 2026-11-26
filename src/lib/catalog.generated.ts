@@ -1788,7 +1788,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Toki Soba — Soba dan Jam",
    "pt": "Toki Soba — O soba e a hora",
    "my": "တိုကီ ဆိုဘာ — ဆိုဘာနဲ့ အချိန်",
-   "th": "โทคิโซบะ — โซบะกับยามเวลา"
+   "th": "โทคิโซบะ — โซบะกับยามเวลา",
+   "si": "තෝකි සෝබා — සෝබා සහ වේලාව"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -2039,7 +2040,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Urashima Tarō I — Nelayan dan Istana di Dasar Laut",
    "pt": "Urashima Tarō I — O Pescador e o Palácio no Fundo do Mar",
    "my": "ဥရာရှီးမ တာရို (၁) — တံငါနဲ့ ပင်လယ်အောက် နန်းတော်",
-   "th": "อุราชิมะ ทาโร่ ตอนที่ 1 — ชาวประมงกับวังใต้ทะเล"
+   "th": "อุราชิมะ ทาโร่ ตอนที่ 1 — ชาวประมงกับวังใต้ทะเล",
+   "si": "උරෂිමා තාරෝ I — ධීවරයා සහ මුහුද යට මාළිගාව"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2318,7 +2320,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Shuten-dōji I — Mendaki Gunung Ōe",
    "pt": "Shuten-dōji I — Rumo ao Monte Ōe",
    "my": "ရှုတဲန်ဒိုဂျီ (၁) — အိုအဲတောင်သို့",
-   "th": "ชูเท็นโดจิ ตอนที่ 1 — มุ่งสู่ภูเขาโอเอะ"
+   "th": "ชูเท็นโดจิ ตอนที่ 1 — มุ่งสู่ภูเขาโอเอะ",
+   "si": "ෂුතෙන්-දෝජි I — ඕඑ කන්ද නැගීම"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2380,7 +2383,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Ushiwaka dan Benkei I — Gunung Kurama dan Seribu Pedang",
    "pt": "Ushiwaka e Benkei I — O Monte Kurama e as Mil Espadas",
    "my": "ဥရှိဝါကာနဲ့ ဘဲန်ကေး (၁) — ကူရာမတောင်နဲ့ ဓားတစ်ထောင်",
-   "th": "อุชิวากะกับเบ็งเค ตอนที่ 1 — ภูเขาคุรามะกับดาบพันเล่ม"
+   "th": "อุชิวากะกับเบ็งเค ตอนที่ 1 — ภูเขาคุรามะกับดาบพันเล่ม",
+   "si": "උෂිවකා සහ බෙන්කේ I — කුරමා කන්ද සහ කඩු දහස"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2442,7 +2446,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Shinigami I — Mantra Sang Tabib Gadungan",
    "pt": "Shinigami I — A fórmula mágica do falso médico",
    "my": "သေမင်း (၁) — ဆရာဝန်အတုရဲ့ မန္တန်",
-   "th": "ยมทูต ภาค 1 — คาถาของหมอเก๊"
+   "th": "ยมทูต ภาค 1 — คาถาของหมอเก๊",
+   "si": "මරු දෙවියා I — ව්‍යාජ වෛද්‍යවරයාගේ මායා මන්ත්‍රය"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -2639,7 +2644,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Momotarō I — Tiga Sahabat dan Kue Kibi",
    "pt": "Momotarō I — Três amigos e os bolinhos kibi",
    "my": "မိုမိုတာရို (၁) — သူငယ်ချင်းသုံးယောက်နဲ့ ကီဘီဒန်ဂို",
-   "th": "โมโมทาโร่ ตอนที่ 1 — สามสหายกับขนมคิบิดังโงะ"
+   "th": "โมโมทาโร่ ตอนที่ 1 — สามสหายกับขนมคิบิดังโงะ",
+   "si": "මොමොතාරෝ I — මිතුරන් තිදෙනා සහ කිබි ඩම්ප්ලින්"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2701,7 +2707,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Yuki-onna I — Malam Badai Salju",
    "pt": "Yuki-onna I — A noite da nevasca",
    "my": "ယူကီအိုနာ (၁) — နှင်းမုန်တိုင်းည",
-   "th": "ยูกิอนนะ ตอนที่ 1 — คืนพายุหิมะ"
+   "th": "ยูกิอนนะ ตอนที่ 1 — คืนพายุหิมะ",
+   "si": "යුකි-ඔන්නා I — හිම කුණාටුවේ රාත්‍රිය"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2763,7 +2770,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Anju dan Zushiō I — Dijual",
    "pt": "Anju e Zushiō I — Vendidos",
    "my": "အန်ဂျူနဲ့ ဇူရှိအို (၁) — ရောင်းစားခံရသော မောင်နှမ",
-   "th": "อันจูกับซูชิโอ ตอนที่ 1 — พี่น้องที่ถูกขาย"
+   "th": "อันจูกับซูชิโอ ตอนที่ 1 — พี่น้องที่ถูกขาย",
+   "si": "අන්ජු සහ සුෂියෝ I — විකුණා දැමූ දරුවෝ"
   },
   "level": "N3",
   "topic": "folktale",
@@ -4099,7 +4107,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 13,
-  "cover": "/covers/gongitsune.webp"
+  "cover": "/covers/gongitsune.webp",
+  "hidden": true,
+  "replacedBy": "gongitsune-1"
  },
  {
   "id": "summer-festival",
@@ -8762,7 +8772,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Tam dan Cam (1): Ikan Gobi Kecil",
    "pt": "Tam e Cam (1): O peixinho gobião",
    "my": "တမ်နှင့် ကမ် (၁) - ဂိုဘီငါးလေး",
-   "th": "ตั๊มกับก๊าม (1): ปลาบู่ตัวน้อย"
+   "th": "ตั๊มกับก๊าม (1): ปลาบู่ตัวน้อย",
+   "si": "තාම් සහ කාම් (1): පුංචි ගෝබි මාළුවා"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -8954,7 +8965,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (1): Selamat datang di Osaka",
    "pt": "Trabalhando em Osaka (1): Bem-vindo a Osaka",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၁) - အိုဆာကာက ကြိုဆိုပါတယ်",
-   "th": "ทำงานที่โอซาก้า (1): ยินดีต้อนรับสู่โอซาก้า"
+   "th": "ทำงานที่โอซาก้า (1): ยินดีต้อนรับสู่โอซาก้า",
+   "si": "ඔසාකාහි වැඩ කිරීම (1): ඔසාකාවට සාදරයෙන් පිළිගනිමු"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -10320,7 +10332,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kasus Hanshichi: Arwah Ofumi (Bagian 1)",
    "pt": "Os Casos de Hanshichi: A Alma de Ofumi (Parte 1)",
    "my": "ဟန်ရှိချိ အမှုတွဲ: အိုဖူမိရဲ့ ဝိညာဉ် (အပိုင်း ၁)",
-   "th": "บันทึกคดีฮันชิจิ: วิญญาณของโอฟุมิ (ตอนที่ 1)"
+   "th": "บันทึกคดีฮันชิจิ: วิญญาณของโอฟุมิ (ตอนที่ 1)",
+   "si": "හන්ෂිචිගේ නඩු පොත: ඔෆුමිගේ හොල්මන (1 කොටස)"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -10382,7 +10395,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Layar Neraka (1)",
    "pt": "O Biombo do Inferno (1)",
    "my": "ငရဲပုံ ကာရံ (၁)",
-   "th": "ฉากกั้นนรก (1)"
+   "th": "ฉากกั้นนรก (1)",
+   "si": "නිරා තිරය (1)"
   },
   "level": "N2",
   "topic": "classic-literature",
@@ -10444,7 +10458,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Riwayat Gusuko Budori (1)",
    "pt": "A Vida de Gusuko Budori (1)",
    "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၁)",
-   "th": "ชีวประวัติของกุสุโค บุโดริ (1)"
+   "th": "ชีวประวัติของกุสุโค บุโดริ (1)",
+   "si": "ගුසුකෝ බුදෝරිගේ ජීවිතය (1)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10568,7 +10583,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hanshichi: Manusia Salju (1)",
    "pt": "Hanshichi: O Boneco de Neve (1)",
    "my": "ဟန်ရှိချိ: နှင်းလူရုပ် (၁)",
-   "th": "ฮันชิจิ: ตุ๊กตาหิมะ (1)"
+   "th": "ฮันชิจิ: ตุ๊กตาหิมะ (1)",
+   "si": "හන්ෂිචි: හිම මිනිසා (1)"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -10630,7 +10646,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Botchan (1): Meninggalkan Tokyo",
    "pt": "Botchan (1): Deixando Tóquio",
    "my": "ဘော့ချန် (၁): တိုကျိုမှ ထွက်ခွာ",
-   "th": "บ็อตจัง (1): จากโตเกียว"
+   "th": "บ็อตจัง (1): จากโตเกียว",
+   "si": "බොච්චන් (1): ටෝකියෝවෙන් සමුගැනීම"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10816,7 +10833,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Pita Berbintik (1): Klien yang Gemetar",
    "pt": "A Faixa Malhada (1): A Cliente Trêmula",
    "my": "အစက်ပြောက်ကြိုး (၁): တုန်နေတဲ့ အကူအညီတောင်းသူ",
-   "th": "แถบลายจุด (1): ผู้ว่าจ้างที่ตัวสั่น"
+   "th": "แถบลายจุด (1): ผู้ว่าจ้างที่ตัวสั่น",
+   "si": "තිත් සහිත පටිය (1): වෙව්ලන සේවාලාභිනිය"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -11579,7 +11597,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (1): Pagi yang Kalang Kabut",
    "pt": "Mai-chan (1): Uma Manhã Corrida",
    "my": "မိုင်ချန် (၁): ကမန်းကတန်း မနက်ခင်း",
-   "th": "ไมจัง (1): เช้าวันวุ่นวาย"
+   "th": "ไมจัง (1): เช้าวันวุ่นวาย",
+   "si": "මායි-චන් (1): කලබල උදෑසනක්"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11610,7 +11629,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (2): Hari Olahraga",
    "pt": "Mai-chan (2): Gincana Esportiva",
    "my": "မိုင်ချန် (၂): အားကစားပွဲ",
-   "th": "ไมจัง (2): วันกีฬาสี"
+   "th": "ไมจัง (2): วันกีฬาสี",
+   "si": "මායි-චන් (2): ක්‍රීඩා උළෙල"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11641,7 +11661,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (3): Gigi yang Goyang",
    "pt": "Mai-chan (3): O Dente Mole",
    "my": "မိုင်ချန် (၃): လှုပ်နေတဲ့ သွား",
-   "th": "ไมจัง (3): ฟันโยก"
+   "th": "ไมจัง (3): ฟันโยก",
+   "si": "මායි-චන් (3): සෙලවෙන දත"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11672,7 +11693,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (4): Hadiah untuk Bin",
    "pt": "Mai-chan (4): Um Presente para o Bin",
    "my": "မိုင်ချန် (၄): ဘင်အတွက် လက်ဆောင်",
-   "th": "ไมจัง (4): ของขวัญให้บิน"
+   "th": "ไมจัง (4): ของขวัญให้บิน",
+   "si": "මායි-චන් (4): බින්ට තෑග්ගක්"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11877,6 +11899,68 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "gongitsune-1",
+  "titles": {
+   "vi": "Cáo Gon (phần 1)",
+   "en": "Gon the Fox (Part 1)",
+   "zh-Hans": "小狐狸阿权（上）",
+   "zh-Hant": "小狐狸阿權（上）",
+   "ko": "여우 곤 (상)",
+   "tl": "Si Gon na Soro (Bahagi 1)",
+   "ne": "फ्याउरो गोन (भाग १)",
+   "id": "Gon si Rubah (Bagian 1)",
+   "pt": "Gon, a Raposa (Parte 1)",
+   "my": "မြေခွေး ဂုံ (အပိုင်း ၁)",
+   "th": "จิ้งจอกกอน (ตอนที่ 1)"
+  },
+  "level": "N4",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 54,
+  "cover": "/covers/gongitsune-1.webp",
+  "series": {
+   "id": "gongitsune",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/gongitsune-1/chapter.mp3",
+   "durationSec": 235.608
+  }
+ },
+ {
+  "id": "gongitsune-2",
+  "titles": {
+   "vi": "Cáo Gon (phần 2)",
+   "en": "Gon the Fox (Part 2)",
+   "zh-Hans": "小狐狸阿权（下）",
+   "zh-Hant": "小狐狸阿權（下）",
+   "ko": "여우 곤 (하)",
+   "tl": "Si Gon na Soro (Bahagi 2)",
+   "ne": "फ्याउरो गोन (भाग २)",
+   "id": "Gon si Rubah (Bagian 2)",
+   "pt": "Gon, a Raposa (Parte 2)",
+   "my": "မြေခွေး ဂုံ (အပိုင်း ၂)",
+   "th": "จิ้งจอกกอน (ตอนที่ 2)"
+  },
+  "level": "N4",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/gongitsune-2.webp",
+  "series": {
+   "id": "gongitsune",
+   "index": 2
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/gongitsune-2/chapter.mp3",
+   "durationSec": 225.192
+  }
+ },
+ {
   "id": "furusato-vn-kieu-1",
   "titles": {
    "vi": "Truyện Kiều (1): Tiết Thanh minh",
@@ -11889,7 +11973,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kisah Kieu (1): Hari Ceng Beng",
    "pt": "A História de Kieu (1): O Dia de Qingming",
    "my": "ကီအဲဝ်ဇာတ်လမ်း (၁): ချင်မင်နေ့",
-   "th": "เรื่องของเกี่ยว (1): วันเช็งเม้ง"
+   "th": "เรื่องของเกี่ยว (1): วันเช็งเม้ง",
+   "si": "කියෙව්ගේ කතාව (1): ච්චිංමිං දිනය"
   },
   "level": "N2",
   "topic": "hometown-tales",
@@ -12017,7 +12102,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Trang Quynh (1): Tunas Batu",
    "pt": "Trang Quynh (1): Brotos de Pedra",
    "my": "ချန်းကွင် (၁): ကျောက်ညှောက်ဟင်း",
-   "th": "จ่างกวิ่ญ (1): หน่อหิน"
+   "th": "จ่างกวิ่ญ (1): หน่อหิน",
+   "si": "ත්‍රාං ක්වින් (1): ගල් දළු"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -12113,7 +12199,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hoang Le Nhat Thong Chi (1): Quang Trung Naik Takhta",
    "pt": "Hoang Le Nhat Thong Chi (1): Quang Trung Sobe ao Trono",
    "my": "ဟွမ်လေ ညတ်ထုံချီ (၁): ကွမ်ချုန် နန်းတက်ခြင်း",
-   "th": "ฮหว่างเลเญิดท้งจี (1): กวางจุงขึ้นครองราชย์"
+   "th": "ฮหว่างเลเญิดท้งจี (1): กวางจุงขึ้นครองราชย์",
+   "si": "ලේ රාජවංශයේ එක්සත් කිරීම (1): ක්වාං චුං සිංහාසනාරූඪ වීම"
   },
   "level": "N1",
   "topic": "hometown-tales",
@@ -12209,7 +12296,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Thach Lam (1): Dua Anak",
    "pt": "Thach Lam (1): Duas Crianças",
    "my": "ထက်လမ် (၁) - ကလေးနှစ်ယောက်",
-   "th": "ทัคลาม (1): เด็กสองคน"
+   "th": "ทัคลาม (1): เด็กสองคน",
+   "si": "තාච් ලාම් (1): දරුවන් දෙදෙනා"
   },
   "level": "N1",
   "topic": "hometown-tales",

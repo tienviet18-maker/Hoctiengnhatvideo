@@ -758,3 +758,24 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - **Gói cũ bị thay**: `miminashi-hoichi`, `mujina` (~10 câu) ẩn qua `content/hidden-stories.json`, trỏ sang bản mới.
 - **Công cụ**: `scripts/produce/register.mjs --block=ma` đăng ký vào khối riêng `kệ ma & trinh thám` trong `src/lib/content.ts`, không đụng khối A/E. Motif bìa mới trong `scripts/produce/cover.html`: `biwa`, `lens`, `coin`, `noface`.
 - Tiếp: シャーロック・ホームズ「赤毛組合」(N3), 乱歩「二銭銅貨」(N2), ろくろ首, 食人鬼, 茶碗の中, 青いガーネット, D坂の殺人事件, 心理試験.
+
+## Tiếng Sinhala (si) cho truyện v2, đợt 1: 24 gói tập 1 / miễn phí — 27/11/2026 (nhánh `claude/si-stories-free`)
+
+- **Cách lưu bản dịch (sidecar):** mỗi gói có file `content/translations/si/<id>.tsv`, gồm tên truyện, câu dịch, ghi chú ngữ pháp, nghĩa từ vựng, điểm ngữ pháp và lời giải câu hỏi. Nghĩa từ vựng dùng chung cho cả kho, nên mỗi nghĩa tiếng Anh chỉ dịch một lần. `node scripts/i18n/apply.mjs si` gộp bản dịch vào JSON của gói. Dòng `#@src` lưu dấu vân tay của gói gốc: nếu gói bị dựng lại, câu bị xê dịch thì QC báo lỗi, không để lệch câu.
+- `scripts/story-src/build.mjs` và `scripts/produce/build-story.mjs` tự áp lại sidecar sau khi dựng gói, nên dựng lại không làm mất bản dịch. `npm run qc` thêm bước `apply.mjs si --check`.
+- **24 gói đã dịch:** maichan-01–04, botchan-1, budori-1, rakugo-toki-soba, rakugo-shinigami-1, osaka-hataraku-01, hanshichi-ofumi-1, hanshichi-yukidaruma-1, madara-1, jigokuhen-1, mukashi-momotaro-1, mukashi-urashima-1, mukashi-yuki-onna-1, mukashi-shuten-1, mukashi-ushiwaka-1, mukashi-anju-zushio-1, furusato-vn-tamcam-1, furusato-vn-quynh-1, furusato-vn-hoangle-1, furusato-vn-kieu-1, furusato-vn-thachlam-1.
+- **Văn phong:** truyện thiếu nhi (Mai-chan) dùng khẩu ngữ. Phần kể của văn học, lịch sử N1–N2 dùng văn viết, lời thoại giữ khẩu ngữ. Ghi chú ngữ pháp giữ nguyên đoạn tiếng Nhật, chỉ dịch phần giải thích. Tên riêng được phiên âm thống nhất (ví dụ ත්‍රින් = Trịnh, ක්වාං චුං = Quang Trung).
+- **Lỗi nguồn phát hiện (chưa sửa, vùng nội dung):** `furusato-vn-quynh-1` câu 37: ghi chú tiếng Anh ghi `〜はじめる = start to`, nhưng câu dùng 煮つづける. Bản si dịch đúng theo 〜つづける.
+- `npm run verify` xanh: 712 gói, 0 lỗi; sidecar si 24 gói, 0 lỗi; build OK.
+- **Còn lại:** khoảng 121 gói v2 khác, cộng 4 gói world- mới (world-cinderella-1/2, world-shirayuki-1/2), Mai-chan v2 tập 5–10 và kệ wisdom. Sau đó rà các ngôn ngữ khác còn thiếu trong các gói này.
+## Văn học Nhật v2: ごんぎつね 2 tập (N4), thay gói cũ 13 câu — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch1`. Nguồn mới ở `content/sources/bungaku/` (glossary riêng, chép từ Mai-chan + từ N4).
+- `gongitsune-1` (54 câu, 1.212 ký tự, harder 11,9%, audio 3,9 phút) và `gongitsune-2` (48 câu, 1.230 ký tự, harder 9,9%, audio 3,8 phút).
+  Phỏng theo 新美南吉 (mất 1943, xuất bản 1932; public domain ở Nhật, và ở Mỹ vì tác giả mất trước 1946 nên không bị URAA phục hồi). Giữ hai câu kết gốc.
+- Tên riêng viết katakana (ヒョウジュウ, カスケ) để chỉ số độ khó không đếm 兵/助 là N3; tập 1 miễn phí, tập 2 VIP.
+- Giọng: Aoede kể chuyện; ごん Neural2-C cao giọng, ヒョウジュウ/カスケ/いわし屋 Neural2-C các cao độ khác nhau.
+- Bìa: motif mới `gon1` (ban ngày) và `gon2` (đêm trăng, khói súng) trong `scripts/covers/cover.html`, font Shippori Mincho B1.
+- Bài học 4 điểm ngữ pháp + 5 câu hỏi mỗi tập, vị trí đáp án đúng xoay vòng.
+- Ẩn gói cũ `gongitsune` → `gongitsune-1` qua `content/hidden-stories.json`. Đăng ký trong khối "làm lại Mai-chan + văn học Nhật".
+- `npm run verify` xanh.
