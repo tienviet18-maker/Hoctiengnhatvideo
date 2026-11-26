@@ -471,6 +471,21 @@ Việt giao (26/11): truyện cũ không đạt chuẩn thì bỏ hoặc làm l�
 3. Ngụ ngôn và cổ tích phương Tây N5 (Aesop, Grimm, Andersen): gộp thành các tập v2 N5.
 4. Đời sống Nhật (khoảng 190 gói): lệch định vị giải trí mới, nên ẩn dần khi đã đủ gói v2 N5/N4 thay thế. Riêng 12 bài luận N1/N2 chỉ 8 câu sẽ được ẩn khi tiểu thuyết Việt Nam N2/N1 lên kệ.
 
+## Tiểu thuyết Việt Nam N2/N1 (26/11/2026, nhánh `claude/vn-novels`, `claude/vn-novels-2`)
+
+Việt chọn: Số đỏ và Truyện Kiều (văn xuôi) ở N2, Hoàng Lê nhất thống chí (các hồi về Quang Trung) ở N1. Claude kể lại bằng lời mới từ nguyên tác tiếng Việt, không dùng bản dịch hiện đại. Thuộc kệ quê hương, series `furusato-vn-sodo`.
+
+| id | Tên | Câu | Audio | Commit |
+|---|---|---|---|---|
+| furusato-vn-sodo-1 | 赤毛のスアン | 61 | 7,2 phút | 3a085a8 |
+| furusato-vn-sodo-2 | ドクター・スアン | 61 | 6,6 phút | 43b51bd (+ commit kế: đổi ファン→ファーン) |
+| furusato-vn-sodo-3 | 幸せな葬式 | 61 | 6,6 phút | 10a4284 |
+| furusato-vn-sodo-4 | 救国の英雄 (hết; so sánh 『吾輩は猫である』) | 61 | 5,9 phút | ec176a0 |
+
+- Bìa: thêm motif `tennis`, `sododoctor`, `sodofuneral`, `sodohero`. Font Chokokutai và Tsukimi Rounded thiếu nhiều chữ Hán (chữ bị chồng lên nhau), nên không dùng cho bìa có kanji.
+- Nguồn tóm tắt các chương không thống nhất về cái chết của cụ cố tổ (tiếng hô "ông Phán mọc sừng"; ông Phán đưa 5 hay 10 đồng). Claude theo bản phổ biến nhất: tờ 5 đồng gấp tư.
+- Tên ông Phán viết là ファーン, không viết ファン: kuromoji tách ファン thành từ "fan" (N1), làm chỉ số "từ vượt cấp" tăng sai.
+
 ## Bộ thẻ có sẵn từ ViBJT — lô 2 (Công sở N5–N4)
 
 - Thêm bộ **Tiếng Nhật công sở N5** (50 thẻ) và **N4** (138 thẻ). Mỗi thẻ có nghĩa và câu ví dụ đủ 11 ngôn ngữ, kèm audio từ và câu của ViBJT. Bản dịch 9 ngôn ngữ do Claude tự soạn và tự duyệt, nguồn nằm ở `content/sources/decks/src/office-n5.txt` và `office-n4-*.txt`.
