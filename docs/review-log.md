@@ -857,6 +857,13 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 8: Rakugo trọn bộ — 27/11/2026 (nhánh `claude/si-stories-9`)
+
+- Đã dịch 14 gói: rakugo-doguya, hatsu-tenjin, hirabayashi, inu-no-me, jugemu, kinmeichiku, kohome, manju-kowai, meguro-no-sanma, shibahama-1/2, shinigami-2, sokotsu-nagaya, tenshiki (kệ Rakugo giờ đủ si cả 16 gói).
+- Rakugo dịch khẩu ngữ suốt (kể cả lời dẫn), lời thoại không có ngoặc kép như bản gốc. Shinigami-2 khớp văn phong và tên với tập 1 (මරු දෙවියා, හචිගෝරෝ, câu thần chú giữ phiên âm). Lời của lãnh chúa (Meguro no Sanma) dùng thể trang trọng cổ.
+- Chơi chữ giữ nguyên âm Nhật rồi giải thích: かわず (không mua / con ếch), ただ (0 tuổi / miễn phí), tên dài Jugemu phiên âm sang chữ Sinhala, 転失気 (đánh rắm).
+- Sau đợt này: 103 gói có si.
+
 ## Tiếng Sinhala đợt 7: Làm việc ở Osaka trọn bộ — 27/11/2026 (nhánh `claude/si-stories-8`)
 
 - Đã dịch 6 gói: osaka-hataraku-03 → osaka-hataraku-08 (series Osaka giờ đủ si cả 8 tập).
