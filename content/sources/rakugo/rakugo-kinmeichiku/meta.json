@@ -1,0 +1,22 @@
+{
+ "id": "rakugo-kinmeichiku",
+ "level": "N3",
+ "topic": "rakugo",
+ "source": "original",
+ "free": false,
+ "legal": "tiết mục rakugo cổ điển thời Edo, không rõ tác giả, đã hết bản quyền; câu haiku 古池や của Matsuo Bashō (thế kỷ 17) thuộc phạm vi công cộng. Kịch bản do Claude tự viết lại bằng tiếng Nhật phân cấp, không chép bản ghi âm, sách hay kịch bản của nghệ sĩ nào.",
+ "voices": {
+  "N": {"role": "người kể", "voice": "Chirp3-HD-Aoede rate=0.9"},
+  "Y": {"role": "chàng Yotarō", "voice": "Neural2-C rate=0.94 pitch=4"},
+  "M": {"role": "ông chú chủ tiệm", "voice": "Neural2-C rate=0.9 pitch=-6"},
+  "O": {"role": "bà thím", "voice": "Neural2-B rate=0.95 pitch=-2"},
+  "A": {"role": "người khách mượn ô", "voice": "Neural2-C rate=1.05 pitch=0"},
+  "B": {"role": "bà hàng xóm", "voice": "Neural2-B rate=1.06 pitch=3"},
+  "K": {"role": "người đưa tin từ Osaka", "voice": "Neural2-C rate=1.3 pitch=2"}
+ },
+ "names": ["与太郎", "弥市", "金明竹"],
+ "skipVocab": ["何で","掛け"],
+ "cover": {"ja": "金明竹", "jsub": "古典落語", "motif": "bamboo", "font": "Zen Old Mincho", "shelf": "落語", "title": "Kinmeichiku"},
+ "titles": {"vi":"Kinmeichiku — Người đưa tin nói nhanh như gió","en":"Kinmeichiku — The Fast-Talking Messenger","zh-Hans":"金明竹——说话快如风的信使","zh-Hant":"金明竹——說話快如風的信使","ko":"긴메이치쿠 — 말이 바람처럼 빠른 심부름꾼","tl":"Kinmeichiku — Ang Mensaherong Mabilis Magsalita","ne":"किन्मेइचिकु — हावाजस्तै छिटो बोल्ने दूत","id":"Kinmeichiku — Utusan yang Bicara Secepat Angin","pt":"Kinmeichiku — O mensageiro que falava rápido demais","my":"ကင်မေချိခု — လေလို မြန်မြန်ပြောတဲ့ သတင်းပို့သူ","th":"คินเมจิกุ — คนส่งข่าวพูดเร็วปานลมพัด"},
+ "shelf": "rakugo"
+}
