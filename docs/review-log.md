@@ -808,6 +808,11 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 ## Kệ truyện cổ thế giới: Nhạc sĩ thành Bremen — 27/11/2026
 - `world-bremen` (N5, miễn phí, 42 câu) theo Grimm 1857; gói cũ `bremen-musicians` ẩn, trỏ sang bản mới. Bìa motif `bremen`.
 - Sửa glossary kệ world: はさみ = cái kéo (trước bị gán nghĩa はさみうち), thread Sinhala báo.
+
+## Kệ truyện cổ thế giới đợt 3: Nàng tiên cá, Jack và cây đậu thần — 27/11/2026
+- `world-ningyo-1` (N3, miễn phí, 51 câu) và `world-ningyo-2` (N3, VIP, 56 câu): Andersen 1837, giữ đúng kết thúc gốc (thành con gái của không trung), không theo phim hoạt hình. Gói cũ `ningyo-hime` và `the-little-mermaid` ẩn, trỏ sang tập 1.
+- `world-jack` (N3, VIP, 51 câu): bản Joseph Jacobs 1890 (túi vàng, gà đẻ trứng vàng, đàn hạc biết hát). Gói cũ `jack-and-the-beanstalk` ẩn, trỏ sang bản mới. Viết ban đầu cho N4 nhưng từ khoá 豆/牛/金 đẩy tỉ lệ từ khó lên 32%, nên xếp N3 (3,7%).
+- Bìa: motif mới `mermaid`, `seafoam`, `beanstalk` trong scripts/covers/cover.html. Glossary kệ world thêm 9 từ (交換, いびき, たてごと, おの…).
 ## Văn học Nhật v2: 手袋を買いに 2 tập (N4), thay gói cũ — 27/11/2026
 
 - Nhánh `claude/bungaku-v2-batch2`. `tebukuro-1` (55 câu, 1.360 ký tự, harder 7,0%, audio 4,4 phút) và `tebukuro-2` (54 câu, 1.390 ký tự, harder 12,0%, audio 4,5 phút).

@@ -734,6 +734,9 @@ import s_worldBremen from "../../content/stories/world-bremen.json";
 import v2MysteryHoichi1 from "../../content/stories/mystery-hoichi-1.json";
 import v2MysteryHoichi2 from "../../content/stories/mystery-hoichi-2.json";
 import v2MysteryMujina1 from "../../content/stories/mystery-mujina-1.json";
+import s_worldNingyo1 from "../../content/stories/world-ningyo-1.json";
+import s_worldNingyo2 from "../../content/stories/world-ningyo-2.json";
+import s_worldJack from "../../content/stories/world-jack.json";
 import v2MysteryAkagami1 from "../../content/stories/mystery-akagami-1.json";
 import v2MysteryAkagami2 from "../../content/stories/mystery-akagami-2.json";
 // --- hết kệ ma & trinh thám: import ---
@@ -1477,6 +1480,9 @@ export const STORIES: StoryContent[] = [
   v2MysteryAkagami1 as unknown as StoryContent,
   v2MysteryAkagami2 as unknown as StoryContent,
   // --- hết kệ ma & trinh thám ---
+  s_worldNingyo1 as unknown as StoryContent,
+  s_worldNingyo2 as unknown as StoryContent,
+  s_worldJack as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
