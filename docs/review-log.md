@@ -729,3 +729,9 @@ Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse
 - Sửa câu hỏi bài học: trước đây đáp án đúng luôn ở vị trí đầu (app không xáo trộn). Nay xoay vị trí đáp án cho cả tập 1–10.
 - Đăng ký trong khối đánh dấu riêng "làm lại Mai-chan + văn học Nhật" ở `src/lib/content.ts`.
 - `npm run verify` xanh.
+
+## 2026-11-27 — Xáo đáp án câu hỏi Bài học (branch claude/quiz-shuffle)
+
+- Phát hiện: ở 55/155 gói v2, đáp án đúng luôn nằm ở vị trí A (320/617 câu có answer=0), người học đoán được mà không cần đọc.
+- Sửa: `src/lib/shuffle.ts` (`seededOrder`) xáo thứ tự đáp án cố định theo `story.id` + số câu hỏi, nên lần nào mở lại cũng cùng thứ tự và không lệch khi hydrate. `LessonPanel.tsx` hiển thị theo thứ tự đã xáo; chữ A/B/C theo vị trí hiển thị, còn chấm điểm và furigana vẫn theo chỉ số gốc. Dữ liệu nội dung không đổi.
+- Test: `tests/shuffle.test.ts`.
