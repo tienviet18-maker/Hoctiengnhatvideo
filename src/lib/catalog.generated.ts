@@ -11066,6 +11066,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-sodo-1/chapter.mp3",
    "durationSec": 432.024
   }
+ },
+ {
+  "id": "furusato-vn-sodo-2",
+  "titles": {
+   "vi": "Số đỏ (2): Đốc tờ Xuân và cô Tuyết",
+   "en": "Dumb Luck (2): Doctor Xuân and Miss Tuyết",
+   "zh-Hans": "红运（2）：阿春医生与雪小姐",
+   "zh-Hant": "紅運（2）：阿春醫生與雪小姐",
+   "ko": "소도 (2): 닥터 쑤언과 뚜옛 아가씨",
+   "tl": "Dumb Luck (2): Doktor Xuân at Binibining Tuyết",
+   "ne": "सो दो (२): डाक्टर सुआन र तुयेत",
+   "id": "Số Đỏ (2): Dokter Xuân dan Nona Tuyết",
+   "pt": "Số Đỏ (2): Doutor Xuân e a senhorita Tuyết",
+   "my": "ဆော်ဒေါ် (၂): ဒေါက်တာ ဆွမ်နဲ့ တွယ်တ်",
+   "th": "โซโด (2): ด็อกเตอร์ซวนกับคุณหนูเตวี๊ยต"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-sodo-2.webp",
+  "series": {
+   "id": "furusato-vn-sodo",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-sodo-2/chapter.mp3",
+   "durationSec": 393.384
+  }
  }
 ];
 

@@ -467,3 +467,15 @@ Việt giao (26/11): truyện cũ không đạt chuẩn thì bỏ hoặc làm l�
 2. Văn học Nhật ngắn public domain (Akutagawa, Miyazawa Kenji, Niimi Nankichi, Mười đêm mộng…, khoảng 35 gói): làm lại v2 N4/N3.
 3. Ngụ ngôn và cổ tích phương Tây N5 (Aesop, Grimm, Andersen): gộp thành các tập v2 N5.
 4. Đời sống Nhật (khoảng 190 gói): lệch định vị giải trí mới, nên ẩn dần khi đã đủ gói v2 N5/N4 thay thế. Riêng 12 bài luận N1/N2 chỉ 8 câu sẽ được ẩn khi tiểu thuyết Việt Nam N2/N1 lên kệ.
+
+## Tiểu thuyết Việt Nam N2/N1 (26/11/2026, nhánh `claude/vn-novels`, `claude/vn-novels-2`)
+
+Việt chọn: Số đỏ và Truyện Kiều (văn xuôi) ở N2, Hoàng Lê nhất thống chí (các hồi về Quang Trung) ở N1. Claude kể lại bằng lời mới từ nguyên tác tiếng Việt, không dùng bản dịch hiện đại. Thuộc kệ quê hương, series `furusato-vn-sodo`.
+
+| id | Tên | Câu | Audio | Commit |
+|---|---|---|---|---|
+| furusato-vn-sodo-1 | 赤毛のスアン | 61 | 7,2 phút | 3a085a8 |
+| furusato-vn-sodo-2 | ドクター・スアン | 61 | 6,6 phút | xem commit kế |
+
+- Bìa: thêm motif `tennis`, `sododoctor`. Font Chokokutai và Tsukimi Rounded thiếu nhiều chữ Hán (chữ bị chồng lên nhau), nên không dùng cho bìa có kanji.
+- Nguồn tóm tắt các chương không thống nhất về cái chết của cụ cố tổ (tiếng hô "ông Phán mọc sừng"; ông Phán đưa 5 hay 10 đồng). Claude theo bản phổ biến nhất: tờ 5 đồng gấp tư.

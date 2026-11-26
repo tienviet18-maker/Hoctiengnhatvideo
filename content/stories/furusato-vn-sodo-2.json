@@ -1,0 +1,5415 @@
+{
+  "kind": "story",
+  "id": "furusato-vn-sodo-2",
+  "titles": {
+    "vi": "Số đỏ (2): Đốc tờ Xuân và cô Tuyết",
+    "en": "Dumb Luck (2): Doctor Xuân and Miss Tuyết",
+    "zh-Hans": "红运（2）：阿春医生与雪小姐",
+    "zh-Hant": "紅運（2）：阿春醫生與雪小姐",
+    "ko": "소도 (2): 닥터 쑤언과 뚜옛 아가씨",
+    "tl": "Dumb Luck (2): Doktor Xuân at Binibining Tuyết",
+    "ne": "सो दो (२): डाक्टर सुआन र तुयेत",
+    "id": "Số Đỏ (2): Dokter Xuân dan Nona Tuyết",
+    "pt": "Số Đỏ (2): Doutor Xuân e a senhorita Tuyết",
+    "my": "ဆော်ဒေါ် (၂): ဒေါက်တာ ဆွမ်နဲ့ တွယ်တ်",
+    "th": "โซโด (2): ด็อกเตอร์ซวนกับคุณหนูเตวี๊ยต"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "cover": "/covers/furusato-vn-sodo-2.webp",
+  "free": false,
+  "standard": 2,
+  "series": {
+    "id": "furusato-vn-sodo",
+    "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "lesson": {
+    "grammarPoints": [
+      {
+        "pattern": "〜とは名ばかりで",
+        "example": 12,
+        "meaning": {
+          "vi": "Chỉ có cái tên là ~, thực chất hoàn toàn khác.",
+          "en": "~ in name only; the reality is quite different.",
+          "zh-Hans": "徒有……之名，实际完全不同。",
+          "zh-Hant": "徒有……之名，實際完全不同。",
+          "ko": "이름만 ~일 뿐 실제는 전혀 다르다.",
+          "tl": "~ sa pangalan lamang; iba ang totoo.",
+          "ne": "नाम मात्रको ~, वास्तविकता फरक।",
+          "id": "Hanya nama ~, kenyataannya lain.",
+          "pt": "~ só no nome; a realidade é outra.",
+          "my": "နာမည်သာ ~၊ တကယ်က မတူ။",
+          "th": "เป็น ~ แค่ชื่อ ความจริงต่างกันมาก"
+        }
+      },
+      {
+        "pattern": "〜どころではない",
+        "example": 35,
+        "meaning": {
+          "vi": "Đâu chỉ ~ / còn vượt xa mức ~.",
+          "en": "Far more than ~; not merely ~.",
+          "zh-Hans": "哪里只是……，远不止……。",
+          "zh-Hant": "哪裡只是……，遠不止……。",
+          "ko": "~ 정도가 아니다 (훨씬 더하다).",
+          "tl": "Higit pa sa ~.",
+          "ne": "~ मात्र होइन, धेरै बढी।",
+          "id": "Bukan sekadar ~, jauh lebih.",
+          "pt": "Muito mais que ~.",
+          "my": "~ တင် မဟုတ်၊ အများကြီး ပိုတယ်။",
+          "th": "ไม่ใช่แค่ ~ แต่มากกว่านั้นมาก"
+        }
+      },
+      {
+        "pattern": "〜を境に",
+        "example": 39,
+        "meaning": {
+          "vi": "Lấy ~ làm mốc, từ ~ trở đi mọi thứ thay đổi.",
+          "en": "With ~ as the turning point; from ~ on.",
+          "zh-Hans": "以……为界，从……起发生变化。",
+          "zh-Hant": "以……為界，從……起發生變化。",
+          "ko": "~을 경계로, ~을 계기로.",
+          "tl": "Mula sa ~, nagbago ang lahat.",
+          "ne": "~ लाई सीमा मानेर, त्यसदेखि।",
+          "id": "Sejak ~ sebagai titik balik.",
+          "pt": "A partir de ~, como marco.",
+          "my": "~ ကို မှတ်တိုင်ထားပြီး။",
+          "th": "นับตั้งแต่ ~ เป็นจุดเปลี่ยน"
+        }
+      },
+      {
+        "pattern": "〜てこそ",
+        "example": 47,
+        "meaning": {
+          "vi": "Chỉ khi ~ thì mới (thật sự là…). Nhấn mạnh điều kiện.",
+          "en": "Only by ~ (can one truly be…). Emphatic condition.",
+          "zh-Hans": "只有……才（真正）……。",
+          "zh-Hant": "只有……才（真正）……。",
+          "ko": "~해야 비로소.",
+          "tl": "Sa ~ lamang (tunay na…).",
+          "ne": "~ गरेर मात्र (साँच्चै…)।",
+          "id": "Justru dengan ~ (barulah…).",
+          "pt": "Só ao ~ (é que se é…).",
+          "my": "~ မှသာ (တကယ်…)။",
+          "th": "ต้อง ~ จึงจะ (เป็น…จริง)"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "ja": "ホン老人が「ドクター」に言ってほしかったことは何ですか。",
+        "choices": [
+          "自分は重い病気だ",
+          "自分はとても元気だ",
+          "薬はいらない",
+          "テニスをしなさい"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Cụ muốn được nói là mình ốm nặng — cái 'bệnh' của người nhàn rỗi.",
+          "en": "That he was seriously ill — the 'disease' of the idle rich.",
+          "zh-Hans": "说他得了重病——闲人的“病”。",
+          "zh-Hant": "說他得了重病——閒人的“病”。",
+          "ko": "중병이라는 말.",
+          "tl": "Na malubha ang sakit niya.",
+          "ne": "आफू गम्भीर बिरामी छु भन्ने।",
+          "id": "Bahwa ia sakit parah.",
+          "pt": "Que estava gravemente doente.",
+          "my": "ရောဂါ ပြင်းတယ် ဆိုတာ။",
+          "th": "ว่าตนป่วยหนัก"
+        }
+      },
+      {
+        "ja": "町の人々がファン氏を「角の生えたファン氏」と呼ぶのは、なぜですか。",
+        "choices": [
+          "妻が浮気をしているから",
+          "頭に角があるから",
+          "牛を飼っているから",
+          "とても怒りっぽいから"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "'Mọc sừng' = bị vợ ngoại tình.",
+          "en": "'Growing horns' = a husband whose wife cheats.",
+          "zh-Hans": "“长角”＝被妻子背叛。",
+          "zh-Hant": "“長角”＝被妻子背叛。",
+          "ko": "'뿔이 나다'=아내의 외도.",
+          "tl": "Pinagtaksilan ng asawa.",
+          "ne": "श्रीमतीले धोका दिएको।",
+          "id": "Istrinya selingkuh.",
+          "pt": "A esposa o trai.",
+          "my": "ဇနီး ဖောက်ပြန်လို့။",
+          "th": "ภรรยานอกใจ"
+        }
+      },
+      {
+        "ja": "スアンがテニスに強かったのは、なぜですか。",
+        "choices": [
+          "球拾いのころ、こっそり練習していたから",
+          "医学生だから",
+          "フランスで習ったから",
+          "ヴァンミンに教わったから"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Nhờ những buổi chiều lén tập khi còn nhặt bóng, chẳng liên quan gì tới y học.",
+          "en": "From secret evening practice as a ball boy — nothing to do with medicine.",
+          "zh-Hans": "因为当捡球童时偷偷练习——与医学无关。",
+          "zh-Hant": "因為當撿球童時偷偷練習——與醫學無關。",
+          "ko": "공 줍던 시절 몰래 연습해서.",
+          "tl": "Palihim na pag-eensayo noong ball boy.",
+          "ne": "बल टिप्दा लुकेर अभ्यास गरेकाले।",
+          "id": "Latihan diam-diam saat pemungut bola.",
+          "pt": "Treino secreto quando era gandula.",
+          "my": "ဘောကောက်တုန်းက ခိုးလေ့ကျင့်လို့။",
+          "th": "เพราะแอบซ้อมตอนเป็นเด็กเก็บลูก"
+        }
+      },
+      {
+        "ja": "「はやりに乗っ（　）、文明人というものさ。」",
+        "choices": [
+          "てこそ",
+          "てから",
+          "ても",
+          "たら"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "「〜てこそ」: chỉ khi ~ mới. Văn Minh mỉa mai chính mình mà không biết.",
+          "en": "「〜てこそ」 = only by ~. Văn Minh unknowingly mocks himself.",
+          "zh-Hans": "「〜てこそ」＝只有……才。",
+          "zh-Hant": "「〜てこそ」＝只有……才。",
+          "ko": "「〜てこそ」=~해야 비로소.",
+          "tl": "「〜てこそ」 = sa ~ lamang.",
+          "ne": "「〜てこそ」 = ~ गरेर मात्र।",
+          "id": "「〜てこそ」 = justru dengan ~.",
+          "pt": "「〜てこそ」 = só ao ~.",
+          "my": "「〜てこそ」 = ~ မှသာ။",
+          "th": "「〜てこそ」 = ต้อง ~ จึงจะ"
+        }
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "ja": "ヴァンミンの家族は、新しい「ドクター」をすっかり信じてしまいました。",
+      "furigana": [
+        {
+          "surface": "ヴァンミンの",
+          "reading": ""
+        },
+        {
+          "surface": "家族",
+          "reading": "かぞく"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "新",
+          "reading": "あたら"
+        },
+        {
+          "surface": "しい「ドクター」をすっかり",
+          "reading": ""
+        },
+        {
+          "surface": "信",
+          "reading": "しん"
+        },
+        {
+          "surface": "じてしまいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Vanmin no kazoku wa, atarashii “Dokutaa” o sukkari shinjiteshimaimashita.",
+      "translations": {
+        "vi": "Cả gia đình Văn Minh tin sái cổ vào \"đốc tờ\" mới.",
+        "en": "Văn Minh's family completely believed in their new \"doctor\".",
+        "zh-Hans": "文明一家对这位新“医生”深信不疑。",
+        "zh-Hant": "文明一家對這位新“醫生”深信不疑。",
+        "ko": "반민의 가족은 새 '닥터'를 완전히 믿어 버렸습니다.",
+        "tl": "Lubos na naniwala ang pamilya ni Văn Minh sa bagong \"doktor\".",
+        "ne": "भान मिनको परिवारले नयाँ \"डाक्टर\"लाई पूरै पत्याइसक्यो।",
+        "id": "Keluarga Văn Minh benar-benar percaya pada \"dokter\" baru itu.",
+        "pt": "A família de Văn Minh acreditou piamente no novo \"doutor\".",
+        "my": "ဗန် မင်းရဲ့ မိသားစုက \"ဒေါက်တာ\" အသစ်ကို လုံးဝ ယုံသွားကြတယ်။",
+        "th": "ครอบครัววันมิญเชื่อ \"ด็อกเตอร์\" คนใหม่สนิทใจ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「すっかり〜てしまう」: ~ hoàn toàn (thường mang sắc thái lỡ rồi).",
+        "en": "「すっかり〜てしまう」 = completely ~ (often with a nuance of \"it's done\").",
+        "zh-Hans": "「すっかり〜てしまう」＝完全……了。",
+        "zh-Hant": "「すっかり〜てしまう」＝完全……了。",
+        "ko": "「すっかり〜てしまう」=완전히 ~해 버리다.",
+        "tl": "Lubusang ~.",
+        "ne": "पूरै ~ गरिसक्नु।",
+        "id": "Benar-benar ~.",
+        "pt": "Completamente ~.",
+        "my": "လုံးဝ ~ သွား။",
+        "th": "~ อย่างสิ้นเชิง"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=0.3,5.404",
+      "t": [
+        0.3,
+        5.404
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それからスアンは、ホン老人の屋敷に、毎日のように出入りするようになりました。",
+      "furigana": [
+        {
+          "surface": "それからスアンは、ホン",
+          "reading": ""
+        },
+        {
+          "surface": "老人",
+          "reading": "ろうじん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "屋敷",
+          "reading": "やしき"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "surface": "のように",
+          "reading": ""
+        },
+        {
+          "surface": "出入",
+          "reading": "でい"
+        },
+        {
+          "surface": "りするようになりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sorekara Suan wa, Hon roujin no yashiki ni, mainichi no you ni deirisuru you ni narimashita.",
+      "translations": {
+        "vi": "Từ đó, Xuân ra vào dinh cụ cố Hồng gần như hằng ngày.",
+        "en": "From then on, Xuân came and went at old Hồng's mansion almost daily.",
+        "zh-Hans": "从那以后，阿春几乎每天都出入洪老太爷的宅子。",
+        "zh-Hant": "從那以後，阿春幾乎每天都出入洪老太爺的宅子。",
+        "ko": "그 후로 쑤언은 홍 노인의 저택에 거의 매일 드나들게 되었습니다.",
+        "tl": "Mula noon, halos araw-araw nang naglalabas-pasok si Xuân sa mansyon ni Matandang Hồng.",
+        "ne": "त्यसपछि सुआन वृद्ध होङको महलमा झन्डै दिनहुँ आउजाउ गर्न थाले।",
+        "id": "Sejak itu Xuân keluar-masuk rumah besar Kakek Hồng hampir setiap hari.",
+        "pt": "Desde então, Xuân passou a frequentar a mansão do velho Hồng quase todo dia.",
+        "my": "အဲဒီကစပြီး ဆွမ်ဟာ အဘိုး ဟုန်ရဲ့ အိမ်ကြီးကို နေ့တိုင်းနီးပါး ဝင်ထွက်လာတယ်။",
+        "th": "ตั้งแต่นั้น ซวนก็เข้าออกคฤหาสน์คุณปู่ห่งแทบทุกวัน"
+      },
+      "vocab": [
+        {
+          "word": "屋敷",
+          "reading": "やしき",
+          "meanings": {
+            "vi": "dinh thự",
+            "en": "mansion",
+            "zh-Hans": "宅邸",
+            "zh-Hant": "宅邸",
+            "ko": "저택",
+            "tl": "mansyon",
+            "ne": "हवेली",
+            "id": "rumah besar",
+            "pt": "mansão",
+            "my": "အိမ်ကြီး",
+            "th": "คฤหาสน์"
+          },
+          "level": "N1"
+        },
+        {
+          "word": "出入り",
+          "reading": "でいり",
+          "meanings": {
+            "vi": "ra vào",
+            "en": "coming and going",
+            "zh-Hans": "出入",
+            "zh-Hant": "出入",
+            "ko": "출입",
+            "tl": "paglabas-pasok",
+            "ne": "आवतजावत",
+            "id": "keluar masuk",
+            "pt": "entrar e sair",
+            "my": "ဝင်ထွက်",
+            "th": "เข้าออก"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜のように」: gần như ~. 出入りする = ra vào. 「〜ようになる」: dần trở nên ~.",
+        "en": "「毎日のように」 = almost every day. 出入りする = come and go. 「〜ようになる」 = come to ~.",
+        "zh-Hans": "「毎日のように」＝几乎每天。出入りする＝出入。",
+        "zh-Hant": "「毎日のように」＝幾乎每天。出入りする＝出入。",
+        "ko": "毎日のように=거의 매일.",
+        "tl": "Halos araw-araw.",
+        "ne": "झन्डै दिनहुँ।",
+        "id": "Hampir setiap hari.",
+        "pt": "Quase todo dia.",
+        "my": "နေ့တိုင်းနီးပါး။",
+        "th": "แทบทุกวัน"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=6.004,12.875",
+      "t": [
+        6.004,
+        12.875
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ホン老人には、ひとつ変わった悩みがありました。",
+      "furigana": [
+        {
+          "surface": "ホン",
+          "reading": ""
+        },
+        {
+          "surface": "老人",
+          "reading": "ろうじん"
+        },
+        {
+          "surface": "には、ひとつ",
+          "reading": ""
+        },
+        {
+          "surface": "変",
+          "reading": "か"
+        },
+        {
+          "surface": "わった",
+          "reading": ""
+        },
+        {
+          "surface": "悩",
+          "reading": "なや"
+        },
+        {
+          "surface": "みがありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hon roujin ni wa, hitotsu kawatta nayami ga arimashita.",
+      "translations": {
+        "vi": "Cụ cố Hồng có một nỗi khổ tâm khá lạ đời.",
+        "en": "Old Hồng had one rather peculiar worry.",
+        "zh-Hans": "洪老太爷有一个奇怪的烦恼。",
+        "zh-Hant": "洪老太爺有一個奇怪的煩惱。",
+        "ko": "홍 노인에게는 좀 별난 고민이 하나 있었습니다.",
+        "tl": "May kakaibang alalahanin si Matandang Hồng.",
+        "ne": "वृद्ध होङको एउटा अनौठो चिन्ता थियो।",
+        "id": "Kakek Hồng punya satu kegelisahan yang aneh.",
+        "pt": "O velho Hồng tinha uma preocupação bem peculiar.",
+        "my": "အဘိုး ဟုန်မှာ ထူးဆန်းတဲ့ စိတ်ပူစရာ တစ်ခု ရှိတယ်။",
+        "th": "คุณปู่ห่งมีเรื่องกลุ้มใจแปลก ๆ อยู่อย่างหนึ่ง"
+      },
+      "vocab": [
+        {
+          "word": "悩み",
+          "reading": "なやみ",
+          "meanings": {
+            "vi": "nỗi phiền muộn",
+            "en": "worry, trouble",
+            "zh-Hans": "烦恼",
+            "zh-Hant": "煩惱",
+            "ko": "고민",
+            "tl": "alalahanin",
+            "ne": "चिन्ता",
+            "id": "kekhawatiran",
+            "pt": "preocupação",
+            "my": "စိတ်ပူစရာ",
+            "th": "ความกังวล"
+          },
+          "level": "N1"
+        }
+      ],
+      "grammarNote": {
+        "vi": "変わった = kỳ lạ, khác thường. 悩み = nỗi phiền muộn.",
+        "en": "変わった = unusual. 悩み = worry.",
+        "zh-Hans": "変わった＝奇怪的。悩み＝烦恼。",
+        "zh-Hant": "変わった＝奇怪的。悩み＝煩惱。",
+        "ko": "変わった=별난.",
+        "tl": "変わった = kakaiba.",
+        "ne": "変わった = अनौठो।",
+        "id": "変わった = aneh.",
+        "pt": "変わった = peculiar.",
+        "my": "変わった = ထူးဆန်း။",
+        "th": "変わった = แปลก"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=13.475,17.356",
+      "t": [
+        13.475,
+        17.356
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "自分は重い病気だと、家族のみんなに思ってほしかったのです。",
+      "furigana": [
+        {
+          "surface": "自分",
+          "reading": "じぶん"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "重",
+          "reading": "おも"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "病気",
+          "reading": "びょうき"
+        },
+        {
+          "surface": "だと、",
+          "reading": ""
+        },
+        {
+          "surface": "家族",
+          "reading": "かぞく"
+        },
+        {
+          "surface": "のみんなに",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "ってほしかったのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Jibun wa omoi byouki da to, kazoku no minna ni omottehoshikatta no desu.",
+      "translations": {
+        "vi": "Cụ muốn cả nhà nghĩ rằng mình đang mắc bệnh nặng.",
+        "en": "He wanted everyone in the family to think he was seriously ill.",
+        "zh-Hans": "他希望全家人都以为自己得了重病。",
+        "zh-Hant": "他希望全家人都以為自己得了重病。",
+        "ko": "자기가 중병이라고 가족 모두가 생각해 주기를 바랐던 것입니다.",
+        "tl": "Gusto niyang isipin ng buong pamilya na malubha ang sakit niya.",
+        "ne": "उनी आफू गम्भीर बिरामी छु भनेर परिवारका सबैले सोचून् भन्ने चाहन्थे।",
+        "id": "Ia ingin seluruh keluarga mengira dirinya sakit parah.",
+        "pt": "Ele queria que toda a família achasse que estava gravemente doente.",
+        "my": "မိသားစု အားလုံးက သူ ရောဂါ ပြင်းနေတယ်လို့ ထင်စေချင်တယ်။",
+        "th": "เขาอยากให้ทุกคนในบ้านคิดว่าตัวเองป่วยหนัก"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜てほしい」: muốn người khác ~ (cho mình). 「〜のです」: giải thích lý do.",
+        "en": "「〜てほしい」 = want someone to ~. 「〜のです」 explains.",
+        "zh-Hans": "「〜てほしい」＝希望别人……。",
+        "zh-Hant": "「〜てほしい」＝希望別人……。",
+        "ko": "「〜てほしい」=~해 주기를 바라다.",
+        "tl": "「〜てほしい」 = gustong ~ ng iba.",
+        "ne": "「〜てほしい」 = अरूले ~ गरून् भन्ने चाहना।",
+        "id": "「〜てほしい」 = ingin orang lain ~.",
+        "pt": "「〜てほしい」 = querer que alguém ~.",
+        "my": "「〜てほしい」 = တခြားသူ ~ စေချင်။",
+        "th": "「〜てほしい」 = อยากให้ผู้อื่น ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=17.956,23.36",
+      "t": [
+        17.956,
+        23.36
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ドクター、わしの体はどうだ。もう長くはないのだろう。」",
+      "furigana": [
+        {
+          "surface": "「ドクター、わしの",
+          "reading": ""
+        },
+        {
+          "surface": "体",
+          "reading": "からだ"
+        },
+        {
+          "surface": "はどうだ。もう",
+          "reading": ""
+        },
+        {
+          "surface": "長",
+          "reading": "なが"
+        },
+        {
+          "surface": "くはないのだろう。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Dokutaa, washi no karada wa dou da. Mou nagaku wa nai no darou.”",
+      "translations": {
+        "vi": "\"Đốc tờ, người ta thế nào? Chắc chẳng còn sống được bao lâu nữa nhỉ.\"",
+        "en": "\"Doctor, how is my body? I suppose I haven't long left.\"",
+        "zh-Hans": "“医生，我的身体怎么样？恐怕活不长了吧。”",
+        "zh-Hant": "“醫生，我的身體怎麼樣？恐怕活不長了吧。”",
+        "ko": "\"닥터, 내 몸은 어떤가. 이제 오래 못 가겠지.\"",
+        "tl": "\"Doktor, kumusta ang katawan ko? Hindi na ako magtatagal, ano?\"",
+        "ne": "\"डाक्टर, मेरो शरीर कस्तो छ? अब धेरै दिन बाँकी छैन होला।\"",
+        "id": "\"Dokter, bagaimana tubuhku? Pasti tak lama lagi, ya.\"",
+        "pt": "\"Doutor, como está meu corpo? Não me resta muito tempo, não é?\"",
+        "my": "\"ဒေါက်တာ၊ ငါ့ ခန္ဓာကိုယ် ဘယ်လိုလဲ။ သိပ်မကြာတော့ဘူး ထင်တယ်။\"",
+        "th": "\"ด็อกเตอร์ ร่างกายข้าเป็นยังไง คงอยู่ได้อีกไม่นานแล้วสินะ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "わし = \"tôi/ta\" (ông già nói). 長くはない = chẳng còn bao lâu. 「〜のだろう」: chắc là ~.",
+        "en": "わし = \"I\" (old man). 長くはない = not long left.",
+        "zh-Hans": "わし＝老人自称。",
+        "zh-Hant": "わし＝老人自稱。",
+        "ko": "わし=노인의 1인칭.",
+        "tl": "わし = ako (matanda).",
+        "ne": "わし = म (वृद्ध)।",
+        "id": "わし = aku (orang tua).",
+        "pt": "わし = eu (velho).",
+        "my": "わし = ငါ (အဘိုးအို)။",
+        "th": "わし = ข้า (คนแก่)"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=24.26,29.631",
+      "t": [
+        24.26,
+        29.631
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「はい、ご主人様。たいへんお悪い。脈が、こう、ひどく乱れております。」",
+      "furigana": [
+        {
+          "surface": "「はい、ご",
+          "reading": ""
+        },
+        {
+          "surface": "主人",
+          "reading": "しゅじん"
+        },
+        {
+          "surface": "様",
+          "reading": "さま"
+        },
+        {
+          "surface": "。たいへんお",
+          "reading": ""
+        },
+        {
+          "surface": "悪",
+          "reading": "わる"
+        },
+        {
+          "surface": "い。",
+          "reading": ""
+        },
+        {
+          "surface": "脈",
+          "reading": "みゃく"
+        },
+        {
+          "surface": "が、こう、ひどく",
+          "reading": ""
+        },
+        {
+          "surface": "乱",
+          "reading": "みだ"
+        },
+        {
+          "surface": "れております。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Hai, goshujinsama. Taihen owarui. Myaku ga, kou, hidoku midareteorimasu.”",
+      "translations": {
+        "vi": "\"Thưa cụ, vâng. Nguy lắm ạ. Mạch đập, thế này này, loạn hết cả lên.\"",
+        "en": "\"Yes, sir. You are very ill. Your pulse is, well, badly irregular.\"",
+        "zh-Hans": "“是的，老爷。很不好。脉搏，这个，乱得很。”",
+        "zh-Hant": "“是的，老爺。很不好。脈搏，這個，亂得很。”",
+        "ko": "\"네, 어르신. 매우 안 좋으십니다. 맥이, 이렇게, 몹시 흐트러져 있습니다.\"",
+        "tl": "\"Opo, Ginoo. Napakasama. Ang pulso ninyo, ganito, gulong-gulo.\"",
+        "ne": "\"हजुर, मालिक। धेरै नराम्रो छ। नाडी, यसरी, निकै अस्तव्यस्त छ।\"",
+        "id": "\"Ya, Tuan. Parah sekali. Denyut nadinya, begini, kacau sekali.\"",
+        "pt": "\"Sim, senhor. Está muito mal. O pulso está, assim, bem descompassado.\"",
+        "my": "\"ဟုတ်ကဲ့ သခင်။ အရမ်း ဆိုးပါတယ်။ သွေးခုန်နှုန်းက ဒီလို အရမ်း ရှုပ်ထွေးနေတယ်။\"",
+        "th": "\"ครับนายท่าน แย่มากครับ ชีพจร แบบนี้ ปั่นป่วนมาก\""
+      },
+      "vocab": [
+        {
+          "word": "乱れる",
+          "reading": "みだれる",
+          "meanings": {
+            "vi": "rối loạn",
+            "en": "be disordered",
+            "zh-Hans": "紊乱",
+            "zh-Hant": "紊亂",
+            "ko": "흐트러지다",
+            "tl": "magulo",
+            "ne": "अस्तव्यस्त हुनु",
+            "id": "kacau",
+            "pt": "desordenar-se",
+            "my": "ရှုပ်ထွေး",
+            "th": "ปั่นป่วน"
+          },
+          "level": "N1"
+        },
+        {
+          "word": "主人",
+          "reading": "しゅじん",
+          "meanings": {
+            "vi": "chồng; chủ (ご主人: chồng người khác)",
+            "en": "husband; master (ご主人: someone's husband)",
+            "zh-Hans": "丈夫、主人（ご主人：别人的丈夫）",
+            "zh-Hant": "丈夫、主人（ご主人：別人的丈夫）",
+            "ko": "남편, 주인(ご主人: 남의 남편)",
+            "tl": "asawa, amo (ご主人: asawa ng iba)",
+            "ne": "पति, मालिक (ご主人: अरूको पति)",
+            "id": "suami, tuan (ご主人: suami orang)",
+            "pt": "marido, dono (ご主人: marido de alguém)",
+            "my": "ခင်ပွန်း၊ သခင် (ご主人: သူတစ်ပါးခင်ပွန်း)",
+            "th": "สามี นาย (ご主人: สามีของผู้อื่น)"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "お悪い = kính ngữ của 悪い. 乱れる = rối loạn. 〜ております = khiêm nhường của 〜ている.",
+        "en": "お悪い = honorific \"bad\". 乱れる = be irregular. 〜ております = humble ている.",
+        "zh-Hans": "お悪い＝悪い的敬语。",
+        "zh-Hant": "お悪い＝悪い的敬語。",
+        "ko": "お悪い=높임.",
+        "tl": "お悪い = magalang na \"masama\".",
+        "ne": "お悪い = आदरार्थी।",
+        "id": "お悪い = bentuk hormat.",
+        "pt": "お悪い = forma honorífica.",
+        "my": "お悪い = ရိုသေ။",
+        "th": "お悪い = รูปยกย่อง"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=30.531,36.418",
+      "t": [
+        30.531,
+        36.418
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "脈の取り方など知るはずもないスアンでしたが、もっともらしい顔で老人の手首を握りました。",
+      "furigana": [
+        {
+          "surface": "脈",
+          "reading": "みゃく"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "取",
+          "reading": "と"
+        },
+        {
+          "surface": "り",
+          "reading": ""
+        },
+        {
+          "surface": "方",
+          "reading": "かた"
+        },
+        {
+          "surface": "など",
+          "reading": ""
+        },
+        {
+          "surface": "知",
+          "reading": "し"
+        },
+        {
+          "surface": "るはずもないスアンでしたが、もっともらしい",
+          "reading": ""
+        },
+        {
+          "surface": "顔",
+          "reading": "かお"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "老人",
+          "reading": "ろうじん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "手首",
+          "reading": "てくび"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "握",
+          "reading": "にぎ"
+        },
+        {
+          "surface": "りました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Myaku no torikata nado shiru hazu mo nai Suan deshita ga, mottomo rashii kao de roujin no tekubi o nigirimashita.",
+      "translations": {
+        "vi": "Xuân thì làm gì biết bắt mạch, nhưng vẫn làm mặt nghiêm trang mà nắm cổ tay ông già.",
+        "en": "Xuân couldn't possibly know how to take a pulse, but he held the old man's wrist with a convincing face.",
+        "zh-Hans": "阿春哪会把脉，却一本正经地握住了老人的手腕。",
+        "zh-Hant": "阿春哪會把脈，卻一本正經地握住了老人的手腕。",
+        "ko": "맥 짚는 법을 알 리가 없는 쑤언이었지만, 그럴듯한 얼굴로 노인의 손목을 잡았습니다.",
+        "tl": "Hindi marunong kumuha ng pulso si Xuân, pero seryoso niyang hinawakan ang pulso ng matanda.",
+        "ne": "सुआनलाई नाडी हेर्न आउने कुरै थिएन, तर गम्भीर अनुहार बनाएर बूढाको नाडी समाते।",
+        "id": "Xuân mana tahu cara meraba nadi, tapi ia memegang pergelangan tangan si kakek dengan wajah meyakinkan.",
+        "pt": "Xuân não fazia ideia de como tomar o pulso, mas segurou o pulso do velho com cara convincente.",
+        "my": "ဆွမ်က သွေးခုန်နှုန်း ဘယ်လို ကြည့်ရမလဲ မသိပေမဲ့ တည်ကြည်တဲ့ မျက်နှာနဲ့ လက်ကောက်ဝတ်ကို ကိုင်တယ်။",
+        "th": "ซวนไม่มีทางรู้วิธีจับชีพจร แต่ก็ทำหน้าจริงจังจับข้อมือคุณปู่"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜はずもない」: không đời nào ~. もっともらしい = trông có vẻ hợp lý.",
+        "en": "「〜はずもない」 = could not possibly ~. もっともらしい = plausible-looking.",
+        "zh-Hans": "「〜はずもない」＝不可能……。もっともらしい＝煞有介事的。",
+        "zh-Hant": "「〜はずもない」＝不可能……。もっともらしい＝煞有介事的。",
+        "ko": "「〜はずもない」=~할 리도 없다.",
+        "tl": "「〜はずもない」 = imposibleng ~.",
+        "ne": "「〜はずもない」 = ~ हुने कुरै छैन।",
+        "id": "「〜はずもない」 = mustahil ~.",
+        "pt": "「〜はずもない」 = impossível ~.",
+        "my": "「〜はずもない」 = ~ စရာ မရှိ။",
+        "th": "「〜はずもない」 = ไม่มีทาง ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=37.318,44.89",
+      "t": [
+        37.318,
+        44.89
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「そうだろう、そうだろう。わかった！ 苦しいのだ！」",
+      "furigana": [
+        {
+          "surface": "「そうだろう、そうだろう。わかった！ ",
+          "reading": ""
+        },
+        {
+          "surface": "苦",
+          "reading": "くる"
+        },
+        {
+          "surface": "しいのだ！」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Sou darou, sou darou. Wakatta! Kurushii no da!”",
+      "translations": {
+        "vi": "\"Phải, phải. Biết rồi! Khổ lắm!\"",
+        "en": "\"Yes, yes. I know! It's such a misery!\"",
+        "zh-Hans": "“是啊是啊。知道了！苦啊！”",
+        "zh-Hant": "“是啊是啊。知道了！苦啊！”",
+        "ko": "\"그렇지, 그렇지. 알았다! 괴롭다!\"",
+        "tl": "\"Oo, oo. Alam ko na! Nakakapagod!\"",
+        "ne": "\"हो, हो। थाहा छ! दुःख छ!\"",
+        "id": "\"Ya, ya. Tahu! Susah!\"",
+        "pt": "\"Pois é, pois é. Já sei! Que tormento!\"",
+        "my": "\"ဟုတ်တယ်၊ ဟုတ်တယ်။ သိပြီ! ဒုက္ခပဲ!\"",
+        "th": "\"ใช่ ใช่ รู้แล้ว! ลำบากจริง!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「そうだろう」: đúng thế chứ gì (đồng tình, vui). Câu cửa miệng của cụ Hồng.",
+        "en": "「そうだろう」 = \"I knew it\" (pleased agreement). Hồng's catchphrase.",
+        "zh-Hans": "「そうだろう」＝就是嘛。洪老太爷的口头禅。",
+        "zh-Hant": "「そうだろう」＝就是嘛。洪老太爺的口頭禪。",
+        "ko": "「そうだろう」=그렇지.",
+        "tl": "「そうだろう」 = sabi ko na.",
+        "ne": "「そうだろう」 = हो नि।",
+        "id": "「そうだろう」 = sudah kuduga.",
+        "pt": "「そうだろう」 = eu sabia.",
+        "my": "「そうだろう」 = ဟုတ်တယ်မလား။",
+        "th": "「そうだろう」 = นั่นสิ"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=45.79,50.022",
+      "t": [
+        45.79,
+        50.022
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "病気だと言われて、これほど喜ぶ人も珍しいものです。",
+      "furigana": [
+        {
+          "surface": "病気",
+          "reading": "びょうき"
+        },
+        {
+          "surface": "だと",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "われて、これほど",
+          "reading": ""
+        },
+        {
+          "surface": "喜",
+          "reading": "よろこ"
+        },
+        {
+          "surface": "ぶ",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "珍",
+          "reading": "めずら"
+        },
+        {
+          "surface": "しいものです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Byouki da to iwarete, kore hodo yorokobu hito mo mezurashii mono desu.",
+      "translations": {
+        "vi": "Bị bảo là ốm mà mừng rỡ đến thế, thật hiếm có ai như vậy.",
+        "en": "It is rare to find someone so delighted at being told he's ill.",
+        "zh-Hans": "被说有病还这么高兴的人，真是少见。",
+        "zh-Hant": "被說有病還這麼高興的人，真是少見。",
+        "ko": "병이라는 말을 듣고 이렇게까지 기뻐하는 사람도 드문 법입니다.",
+        "tl": "Bihira ang taong ganito kasaya na sabihang may sakit siya.",
+        "ne": "बिरामी भनिँदा यति खुसी हुने मानिस विरलै हुन्छ।",
+        "id": "Jarang ada orang segembira ini saat dibilang sakit.",
+        "pt": "É raro alguém ficar tão feliz por ouvir que está doente.",
+        "my": "ဖျားနေတယ်လို့ ပြောခံရပြီး ဒီလောက် ပျော်တဲ့သူ ရှားတယ်။",
+        "th": "หายากที่จะมีคนดีใจขนาดนี้เมื่อถูกบอกว่าป่วย"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「これほど〜も珍しい」: hiếm có ai ~ đến mức này. 「〜ものだ」: nhận xét chung.",
+        "en": "「これほど〜も珍しい」 = rare to see anyone this ~. 「〜ものだ」 = general remark.",
+        "zh-Hans": "「これほど〜も珍しい」＝这么……的人也少见。",
+        "zh-Hant": "「これほど〜も珍しい」＝這麼……的人也少見。",
+        "ko": "「これほど〜も珍しい」=이렇게까지 ~도 드물다.",
+        "tl": "Bihira ang ganito ka-~.",
+        "ne": "यति ~ विरलै।",
+        "id": "Jarang yang se-~ ini.",
+        "pt": "Raro alguém tão ~.",
+        "my": "ဒီလောက် ~ ရှားတယ်။",
+        "th": "หายากที่จะ ~ ขนาดนี้"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=50.922,55.366",
+      "t": [
+        50.922,
+        55.366
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "この屋敷には、もう一人、スアンに目をつけた人がいました。",
+      "furigana": [
+        {
+          "surface": "この",
+          "reading": ""
+        },
+        {
+          "surface": "屋敷",
+          "reading": "やしき"
+        },
+        {
+          "surface": "には、もう",
+          "reading": ""
+        },
+        {
+          "surface": "一人",
+          "reading": "ひとり"
+        },
+        {
+          "surface": "、スアンに",
+          "reading": ""
+        },
+        {
+          "surface": "目",
+          "reading": "め"
+        },
+        {
+          "surface": "をつけた",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "がいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kono yashiki ni wa, mou hitori, Suan ni me o tsuketa hito ga imashita.",
+      "translations": {
+        "vi": "Trong dinh còn một người nữa để mắt tới Xuân.",
+        "en": "There was one more person in the mansion who had her eye on Xuân.",
+        "zh-Hans": "宅子里还有一个人看上了阿春。",
+        "zh-Hant": "宅子裡還有一個人看上了阿春。",
+        "ko": "이 저택에는 쑤언을 눈여겨본 사람이 한 명 더 있었습니다.",
+        "tl": "May isa pang tao sa mansyon na may gusto kay Xuân.",
+        "ne": "यो महलमा सुआनमाथि आँखा लगाउने अर्को एक जना थियो।",
+        "id": "Di rumah itu ada satu orang lagi yang mengincar Xuân.",
+        "pt": "Havia mais alguém na mansão de olho em Xuân.",
+        "my": "ဒီအိမ်ကြီးမှာ ဆွမ်ကို မျက်စိကျနေတဲ့ နောက်တစ်ယောက် ရှိတယ်။",
+        "th": "ในคฤหาสน์ยังมีอีกคนหนึ่งที่หมายตาซวน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "目をつける = để mắt tới, nhắm tới. もう一人 = thêm một người.",
+        "en": "目をつける = have one's eye on. もう一人 = one more person.",
+        "zh-Hans": "目をつける＝看上。",
+        "zh-Hant": "目をつける＝看上。",
+        "ko": "目をつける=눈여겨보다.",
+        "tl": "目をつける = matipuhan.",
+        "ne": "目をつける = आँखा लगाउनु।",
+        "id": "目をつける = mengincar.",
+        "pt": "目をつける = estar de olho.",
+        "my": "目をつける = မျက်စိကျ။",
+        "th": "目をつける = หมายตา"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=55.966,60.923",
+      "t": [
+        55.966,
+        60.923
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ホン老人の末の娘、トゥエットです。",
+      "furigana": [
+        {
+          "surface": "ホン",
+          "reading": ""
+        },
+        {
+          "surface": "老人",
+          "reading": "ろうじん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "末",
+          "reading": "すえ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "娘",
+          "reading": "むすめ"
+        },
+        {
+          "surface": "、トゥエットです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hon roujin no suenomusume, Tuetto desu.",
+      "translations": {
+        "vi": "Đó là cô Tuyết, con gái út của cụ cố Hồng.",
+        "en": "It was Tuyết, old Hồng's youngest daughter.",
+        "zh-Hans": "那就是洪老太爷的小女儿——雪。",
+        "zh-Hant": "那就是洪老太爺的小女兒——雪。",
+        "ko": "홍 노인의 막내딸, 뚜옛입니다.",
+        "tl": "Si Tuyết, ang bunsong anak ni Matandang Hồng.",
+        "ne": "वृद्ध होङकी कान्छी छोरी, तुयेत।",
+        "id": "Tuyết, putri bungsu Kakek Hồng.",
+        "pt": "Era Tuyết, a filha caçula do velho Hồng.",
+        "my": "အဘိုး ဟုန်ရဲ့ သမီးအငယ်ဆုံး တွယ်တ် ပါ။",
+        "th": "นั่นคือเตวี๊ยต ลูกสาวคนเล็กของคุณปู่ห่ง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "末の娘 = con gái út. 「〜です」 sau tên: giới thiệu nhân vật.",
+        "en": "末の娘 = youngest daughter.",
+        "zh-Hans": "末の娘＝小女儿。",
+        "zh-Hant": "末の娘＝小女兒。",
+        "ko": "末の娘=막내딸.",
+        "tl": "末の娘 = bunsong anak na babae.",
+        "ne": "末の娘 = कान्छी छोरी।",
+        "id": "末の娘 = putri bungsu.",
+        "pt": "末の娘 = filha caçula.",
+        "my": "末の娘 = အငယ်ဆုံးသမီး။",
+        "th": "末の娘 = ลูกสาวคนเล็ก"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=61.523,65.154",
+      "t": [
+        61.523,
+        65.154
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "十九歳のトゥエットは、洋装店の新作「無邪気」を着て、町を歩くのが大好きでした。",
+      "furigana": [
+        {
+          "surface": "十九歳",
+          "reading": "じゅうきゅうさい"
+        },
+        {
+          "surface": "のトゥエットは、",
+          "reading": ""
+        },
+        {
+          "surface": "洋装",
+          "reading": "ようそう"
+        },
+        {
+          "surface": "店",
+          "reading": "てん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "新作",
+          "reading": "しんさく"
+        },
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "無邪気",
+          "reading": "むじゃき"
+        },
+        {
+          "surface": "」を",
+          "reading": ""
+        },
+        {
+          "surface": "着",
+          "reading": "き"
+        },
+        {
+          "surface": "て、",
+          "reading": ""
+        },
+        {
+          "surface": "町",
+          "reading": "まち"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "歩",
+          "reading": "ある"
+        },
+        {
+          "surface": "くのが",
+          "reading": ""
+        },
+        {
+          "surface": "大好",
+          "reading": "だいす"
+        },
+        {
+          "surface": "きでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Juukyuusai no Tuetto wa, yousouten no shinsaku “Mujaki” o kite, machi o aruku no ga daisuki deshita.",
+      "translations": {
+        "vi": "Tuyết mười chín tuổi, rất thích mặc mẫu mới \"Ngây thơ\" của tiệm may đi dạo phố.",
+        "en": "Nineteen-year-old Tuyết loved strolling through town in the shop's new design, \"Innocence\".",
+        "zh-Hans": "十九岁的雪最喜欢穿着洋装店的新款“纯真”上街。",
+        "zh-Hant": "十九歲的雪最喜歡穿著洋裝店的新款“純真”上街。",
+        "ko": "열아홉 살 뚜옛은 양장점 신작 '순진'을 입고 거리를 걷는 것을 무척 좋아했습니다.",
+        "tl": "Labinsiyam na taong gulang si Tuyết, at gustong-gusto niyang maglakad sa bayan suot ang bagong disenyong \"Inosente\".",
+        "ne": "उन्नाइस वर्षकी तुयेतलाई पसलको नयाँ डिजाइन \"निर्दोषता\" लगाएर सहर घुम्न खुब मन पर्थ्यो।",
+        "id": "Tuyết yang berusia sembilan belas tahun suka berjalan di kota memakai model baru \"Polos\".",
+        "pt": "Tuyết, de dezenove anos, adorava passear pela cidade com o novo modelo \"Inocência\".",
+        "my": "အသက် ၁၉ နှစ် တွယ်တ်ဟာ ဆိုင်ရဲ့ ဒီဇိုင်းသစ် \"ရိုးသားမှု\" ဝတ်ပြီး မြို့ထဲ လမ်းလျှောက်ရတာ ကြိုက်တယ်။",
+        "th": "เตวี๊ยตวัยสิบเก้าชอบใส่ชุดแบบใหม่ \"บริสุทธิ์\" ของร้านเดินเล่นในเมือง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "Nguyên tác: bộ váy \"Ngây thơ\". 新作 = mẫu mới. 「〜のが大好き」: rất thích việc ~.",
+        "en": "Original: the dress \"Ngây thơ\". 新作 = new design. 「〜のが大好き」 = love doing ~.",
+        "zh-Hans": "新作＝新款。",
+        "zh-Hant": "新作＝新款。",
+        "ko": "新作=신작.",
+        "tl": "新作 = bagong disenyo.",
+        "ne": "新作 = नयाँ डिजाइन।",
+        "id": "新作 = model baru.",
+        "pt": "新作 = novo modelo.",
+        "my": "新作 = ဒီဇိုင်းသစ်။",
+        "th": "新作 = แบบใหม่"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=65.754,73.029",
+      "t": [
+        65.754,
+        73.029
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ところが、「無邪気」とは名ばかりで、彼女の目はいつも若い男性を品定めしていました。",
+      "furigana": [
+        {
+          "surface": "ところが、「",
+          "reading": ""
+        },
+        {
+          "surface": "無邪気",
+          "reading": "むじゃき"
+        },
+        {
+          "surface": "」とは",
+          "reading": ""
+        },
+        {
+          "surface": "名",
+          "reading": "な"
+        },
+        {
+          "surface": "ばかりで、",
+          "reading": ""
+        },
+        {
+          "surface": "彼女",
+          "reading": "かのじょ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "目",
+          "reading": "め"
+        },
+        {
+          "surface": "はいつも",
+          "reading": ""
+        },
+        {
+          "surface": "若",
+          "reading": "わか"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "男性",
+          "reading": "だんせい"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "品定",
+          "reading": "しなさだ"
+        },
+        {
+          "surface": "めしていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tokoroga, “Mujaki” to wa nabakari de, kanojo no me wa itsumo wakai dansei o shinasadame shiteimashita.",
+      "translations": {
+        "vi": "Nhưng \"Ngây thơ\" chỉ là cái tên, mắt cô lúc nào cũng săm soi đánh giá đàn ông trẻ.",
+        "en": "But \"Innocence\" was a name only; her eyes were always sizing up young men.",
+        "zh-Hans": "可是“纯真”只是徒有其名，她的眼睛总在打量年轻男子。",
+        "zh-Hant": "可是“純真”只是徒有其名，她的眼睛總在打量年輕男子。",
+        "ko": "그런데 '순진'은 이름뿐이고, 그녀의 눈은 늘 젊은 남자를 평가하고 있었습니다.",
+        "tl": "Pero sa pangalan lang ang \"Inosente\"; laging sinusuri ng mata niya ang mga binata.",
+        "ne": "तर \"निर्दोषता\" नाम मात्रको थियो, उनका आँखा सधैँ युवाहरूलाई जाँचिरहन्थे।",
+        "id": "Tapi \"Polos\" hanya nama; matanya selalu menilai para pemuda.",
+        "pt": "Mas \"Inocência\" era só no nome: os olhos dela viviam avaliando rapazes.",
+        "my": "ဒါပေမဲ့ \"ရိုးသားမှု\" ဆိုတာ နာမည်သက်သက်ပဲ၊ သူ့မျက်လုံးက လူငယ်တွေကို အမြဲ အကဲခတ်နေတယ်။",
+        "th": "แต่ \"บริสุทธิ์\" เป็นแค่ชื่อ สายตาเธอคอยประเมินชายหนุ่มอยู่เสมอ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜とは名ばかりで」: chỉ có cái tên là ~, thực chất thì khác (N2). 品定め = đánh giá, săm soi.",
+        "en": "「〜とは名ばかりで」 = ~ in name only (N2). 品定め = sizing up.",
+        "zh-Hans": "「〜とは名ばかりで」＝徒有……之名（N2）。",
+        "zh-Hant": "「〜とは名ばかりで」＝徒有……之名（N2）。",
+        "ko": "「〜とは名ばかりで」=이름뿐인 ~.",
+        "tl": "Sa pangalan lang.",
+        "ne": "नाम मात्रको।",
+        "id": "Hanya nama.",
+        "pt": "Só no nome.",
+        "my": "နာမည်သက်သက်။",
+        "th": "แค่ชื่อ"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=73.629,80.68",
+      "t": [
+        73.629,
+        80.68
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ねえ、ドクター。お医者さまって、女の人の心の病気も治せるの？」",
+      "furigana": [
+        {
+          "surface": "「ねえ、ドクター。お",
+          "reading": ""
+        },
+        {
+          "surface": "医者",
+          "reading": "いしゃ"
+        },
+        {
+          "surface": "さまって、",
+          "reading": ""
+        },
+        {
+          "surface": "女",
+          "reading": "おんな"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "心",
+          "reading": "こころ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "病気",
+          "reading": "びょうき"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "治",
+          "reading": "なお"
+        },
+        {
+          "surface": "せるの？」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Nee, dokutaa. Oishasama tte, onna no hito no kokoro no byouki mo naoseru no?”",
+      "translations": {
+        "vi": "\"Này, đốc tờ. Bác sĩ có chữa được cả bệnh trong tim của phụ nữ không?\"",
+        "en": "\"Say, Doctor. Can doctors cure the heart troubles of women, too?\"",
+        "zh-Hans": "“喂，医生。医生也能治女人的心病吗？”",
+        "zh-Hant": "“喂，醫生。醫生也能治女人的心病嗎？”",
+        "ko": "\"있잖아요, 닥터. 의사 선생님은 여자의 마음의 병도 고칠 수 있어요?\"",
+        "tl": "\"Uy, Doktor. Kaya rin ba ng doktor gamutin ang sakit ng puso ng babae?\"",
+        "ne": "\"ए डाक्टर, डाक्टरले महिलाको मनको रोग पनि निको पार्न सक्छन्?\"",
+        "id": "\"Hei, Dokter. Bisakah dokter menyembuhkan penyakit hati wanita?\"",
+        "pt": "\"Diga, doutor. Médico também cura doença do coração de mulher?\"",
+        "my": "\"ဒေါက်တာ၊ ဆရာဝန်တွေက မိန်းမရဲ့ စိတ်ရောဂါကိုလည်း ကုနိုင်လား။\"",
+        "th": "\"นี่ ด็อกเตอร์ หมอรักษาโรคใจของผู้หญิงได้ด้วยไหม\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ねえ = này (gọi thân mật, nữ). 「〜って」 = văn nói của 〜は/〜というのは.",
+        "en": "ねえ = hey (casual). 「〜って」 = spoken topic marker.",
+        "zh-Hans": "「〜って」＝口语的话题标记。",
+        "zh-Hant": "「〜って」＝口語的話題標記。",
+        "ko": "「〜って」=구어 주제.",
+        "tl": "「〜って」 = pasalitang paksa.",
+        "ne": "「〜って」 = बोलचालको विषय।",
+        "id": "「〜って」 = penanda topik lisan.",
+        "pt": "「〜って」 = tópico coloquial.",
+        "my": "「〜って」 = ပြောစကား။",
+        "th": "「〜って」 = ภาษาพูด"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=81.58,86.771",
+      "t": [
+        81.58,
+        86.771
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「も、もちろんです。心の病気には、まず……新鮮な空気がよく効きます。」",
+      "furigana": [
+        {
+          "surface": "「も、もちろんです。",
+          "reading": ""
+        },
+        {
+          "surface": "心",
+          "reading": "こころ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "病気",
+          "reading": "びょうき"
+        },
+        {
+          "surface": "には、まず……",
+          "reading": ""
+        },
+        {
+          "surface": "新鮮",
+          "reading": "しんせん"
+        },
+        {
+          "surface": "な",
+          "reading": ""
+        },
+        {
+          "surface": "空気",
+          "reading": "くうき"
+        },
+        {
+          "surface": "がよく",
+          "reading": ""
+        },
+        {
+          "surface": "効",
+          "reading": "き"
+        },
+        {
+          "surface": "きます。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Mo, mochiron desu. Kokoro no byouki ni wa, mazu...... Shinsen na kuuki ga yoku kikimasu.”",
+      "translations": {
+        "vi": "\"D-dĩ nhiên rồi ạ. Bệnh trong tim thì trước hết... không khí trong lành là hiệu nghiệm lắm.\"",
+        "en": "\"O-of course. For heart troubles, first of all... fresh air works wonders.\"",
+        "zh-Hans": "“当、当然。心病嘛，首先……新鲜空气最管用。”",
+        "zh-Hant": "“當、當然。心病嘛，首先……新鮮空氣最管用。”",
+        "ko": "\"무, 물론이죠. 마음의 병에는 우선…… 신선한 공기가 잘 듣습니다.\"",
+        "tl": "\"S-siyempre. Sa sakit ng puso, una... mabisa ang sariwang hangin.\"",
+        "ne": "\"प-पक्कै पनि। मनको रोगलाई पहिले... ताजा हावाले राम्रो काम गर्छ।\"",
+        "id": "\"T-tentu saja. Untuk penyakit hati, pertama... udara segar sangat manjur.\"",
+        "pt": "\"C-claro. Para doença do coração, primeiro... ar fresco faz muito bem.\"",
+        "my": "\"သ-သေချာတာပေါ့။ စိတ်ရောဂါအတွက် ပထမ ... လေကောင်းလေသန့်က အရမ်း အစွမ်းထက်တယ်။\"",
+        "th": "\"แ-แน่นอนครับ โรคใจต้อง... อากาศบริสุทธิ์ช่วยได้มากครับ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "効く = có hiệu nghiệm (thuốc). 「〜には」: đối với ~ thì.",
+        "en": "効く = be effective. 「〜には」 = for ~.",
+        "zh-Hans": "効く＝有效。",
+        "zh-Hant": "効く＝有效。",
+        "ko": "効く=효과가 있다.",
+        "tl": "効く = mabisa.",
+        "ne": "効く = असर गर्नु।",
+        "id": "効く = manjur.",
+        "pt": "効く = fazer efeito.",
+        "my": "効く = အစွမ်းထက်။",
+        "th": "効く = ได้ผล"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=87.671,93.594",
+      "t": [
+        87.671,
+        93.594
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「ふふ。じゃあ今度、二人で新鮮な空気を吸いに行きましょうよ。」",
+      "furigana": [
+        {
+          "surface": "「ふふ。じゃあ",
+          "reading": ""
+        },
+        {
+          "surface": "今度",
+          "reading": "こんど"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "新鮮",
+          "reading": "しんせん"
+        },
+        {
+          "surface": "な",
+          "reading": ""
+        },
+        {
+          "surface": "空気",
+          "reading": "くうき"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "吸",
+          "reading": "す"
+        },
+        {
+          "surface": "いに",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "きましょうよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Fu fu. Jaa kondo, futari de shinsen na kuuki o sui ni ikimashou yo.”",
+      "translations": {
+        "vi": "\"Hì hì. Vậy hôm nào hai ta cùng đi hít thở không khí trong lành nhé.\"",
+        "en": "\"Hehe. Then let's go breathe some fresh air together sometime.\"",
+        "zh-Hans": "“呵呵。那改天我们俩一起去呼吸新鲜空气吧。”",
+        "zh-Hant": "“呵呵。那改天我們倆一起去呼吸新鮮空氣吧。”",
+        "ko": "\"후훗. 그럼 다음에 둘이서 신선한 공기 마시러 가요.\"",
+        "tl": "\"Hihi. Kung gayon, sabay tayong lumanghap ng sariwang hangin minsan.\"",
+        "ne": "\"हिहि। त्यसो भए कुनै दिन हामी दुई जना ताजा हावा खान जाऔँ।\"",
+        "id": "\"Hihi. Kalau begitu, kapan-kapan kita berdua pergi menghirup udara segar.\"",
+        "pt": "\"Hihi. Então qualquer dia vamos nós dois tomar um ar fresco.\"",
+        "my": "\"ဟီးဟီး။ ဒါဆို တစ်နေ့ နှစ်ယောက်တည်း လေကောင်းလေသန့် ရှူဖို့ သွားကြရအောင်။\"",
+        "th": "\"คิกคิก งั้นวันหลังไปสูดอากาศบริสุทธิ์ด้วยกันสองคนนะ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ましょうよ」: rủ rê thân mật. 今度 = lần tới, hôm nào đó.",
+        "en": "「〜ましょうよ」 = friendly \"let's\". 今度 = next time.",
+        "zh-Hans": "「〜ましょうよ」＝亲切的邀请。",
+        "zh-Hant": "「〜ましょうよ」＝親切的邀請。",
+        "ko": "「〜ましょうよ」=~해요 (권유).",
+        "tl": "Tayo nang ~.",
+        "ne": "~ जाऔँ न।",
+        "id": "Ayo ~.",
+        "pt": "Vamos ~.",
+        "my": "~ ကြရအောင်။",
+        "th": "~ กันเถอะ"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=94.494,99.166",
+      "t": [
+        94.494,
+        99.166
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "スアンは耳まで真っ赤になりました。赤いのは、髪だけではなかったのです。",
+      "furigana": [
+        {
+          "surface": "スアンは",
+          "reading": ""
+        },
+        {
+          "surface": "耳",
+          "reading": "みみ"
+        },
+        {
+          "surface": "まで",
+          "reading": ""
+        },
+        {
+          "surface": "真",
+          "reading": "ま"
+        },
+        {
+          "surface": "っ",
+          "reading": ""
+        },
+        {
+          "surface": "赤",
+          "reading": "か"
+        },
+        {
+          "surface": "になりました。",
+          "reading": ""
+        },
+        {
+          "surface": "赤",
+          "reading": "あか"
+        },
+        {
+          "surface": "いのは、",
+          "reading": ""
+        },
+        {
+          "surface": "髪",
+          "reading": "かみ"
+        },
+        {
+          "surface": "だけではなかったのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suan wa mimi made makka ni narimashita. Akai no wa, kami dake de wa nakatta no desu.",
+      "translations": {
+        "vi": "Xuân đỏ mặt tới tận mang tai. Cái đỏ không chỉ ở mái tóc.",
+        "en": "Xuân blushed to the tips of his ears. It wasn't only his hair that was red.",
+        "zh-Hans": "阿春连耳朵都红透了。红的不只是头发。",
+        "zh-Hant": "阿春連耳朵都紅透了。紅的不只是頭髮。",
+        "ko": "쑤언은 귀까지 새빨개졌습니다. 빨간 것은 머리카락만이 아니었던 것입니다.",
+        "tl": "Namula si Xuân hanggang tainga. Hindi lang buhok ang pula.",
+        "ne": "सुआन कानसम्म रातो भए। रातो कपाल मात्र थिएन।",
+        "id": "Xuân memerah sampai ke telinga. Yang merah bukan hanya rambutnya.",
+        "pt": "Xuân ficou vermelho até as orelhas. Não era só o cabelo que era ruivo.",
+        "my": "ဆွမ် နားရွက်အထိ နီရဲသွားတယ်။ နီတာ ဆံပင်တစ်ခုတည်း မဟုတ်ဘူး။",
+        "th": "ซวนหน้าแดงไปถึงใบหู สิ่งที่แดงไม่ใช่แค่ผม"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜まで」: đến tận ~. 「〜だけではない」: không chỉ ~.",
+        "en": "「〜まで」 = even up to ~. 「〜だけではない」 = not only ~.",
+        "zh-Hans": "「〜だけではない」＝不只是……。",
+        "zh-Hant": "「〜だけではない」＝不只是……。",
+        "ko": "「〜だけではない」=~만이 아니다.",
+        "tl": "Hindi lang ~.",
+        "ne": "~ मात्र होइन।",
+        "id": "Bukan hanya ~.",
+        "pt": "Não só ~.",
+        "my": "~ တစ်ခုတည်း မဟုတ်။",
+        "th": "ไม่ใช่แค่ ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=100.066,106.403",
+      "t": [
+        100.066,
+        106.403
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "一方、この屋敷には、誰もが知っているのに誰も口にしない、もう一つの秘密がありました。",
+      "furigana": [
+        {
+          "surface": "一方",
+          "reading": "いっぽう"
+        },
+        {
+          "surface": "、この",
+          "reading": ""
+        },
+        {
+          "surface": "屋敷",
+          "reading": "やしき"
+        },
+        {
+          "surface": "には、",
+          "reading": ""
+        },
+        {
+          "surface": "誰",
+          "reading": "だれ"
+        },
+        {
+          "surface": "もが",
+          "reading": ""
+        },
+        {
+          "surface": "知",
+          "reading": "し"
+        },
+        {
+          "surface": "っているのに",
+          "reading": ""
+        },
+        {
+          "surface": "誰",
+          "reading": "だれ"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "口",
+          "reading": "くち"
+        },
+        {
+          "surface": "にしない、もう",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "ひと"
+        },
+        {
+          "surface": "つの",
+          "reading": ""
+        },
+        {
+          "surface": "秘密",
+          "reading": "ひみつ"
+        },
+        {
+          "surface": "がありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ippou, kono yashiki ni wa, dare mo ga shitteiru noni dare mo kuchi ni shinai, mou hitotsu no himitsu ga arimashita.",
+      "translations": {
+        "vi": "Mặt khác, trong dinh còn một bí mật nữa mà ai cũng biết nhưng chẳng ai nói ra.",
+        "en": "Meanwhile, the mansion held another secret that everyone knew but no one mentioned.",
+        "zh-Hans": "另一方面，宅子里还有一个人人都知道、却没人说出口的秘密。",
+        "zh-Hant": "另一方面，宅子裡還有一個人人都知道、卻沒人說出口的秘密。",
+        "ko": "한편 이 저택에는 모두가 알면서도 아무도 입에 올리지 않는 또 하나의 비밀이 있었습니다.",
+        "tl": "Samantala, may isa pang lihim sa mansyon na alam ng lahat pero walang bumabanggit.",
+        "ne": "अर्कोतिर, महलमा सबैलाई थाहा भए पनि कसैले नबोल्ने अर्को रहस्य थियो।",
+        "id": "Sementara itu, ada satu rahasia lagi yang semua tahu tapi tak ada yang mengucapkannya.",
+        "pt": "Enquanto isso, a mansão guardava outro segredo que todos sabiam e ninguém dizia.",
+        "my": "တစ်ဖက်မှာ အားလုံး သိပေမဲ့ ဘယ်သူမှ မပြောတဲ့ နောက်ထပ် လျှို့ဝှက်ချက် ရှိတယ်။",
+        "th": "อีกด้านหนึ่ง ในคฤหาสน์ยังมีความลับที่ทุกคนรู้แต่ไม่มีใครพูด"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "一方 = mặt khác. 「〜のに」: dù ~ (trái ngược). 口にする = nói ra.",
+        "en": "一方 = meanwhile. 「〜のに」 = although. 口にする = mention.",
+        "zh-Hans": "一方＝另一方面。口にする＝说出口。",
+        "zh-Hant": "一方＝另一方面。口にする＝說出口。",
+        "ko": "口にする=입에 올리다.",
+        "tl": "口にする = banggitin.",
+        "ne": "口にする = मुखमा ल्याउनु।",
+        "id": "口にする = mengucapkan.",
+        "pt": "口にする = mencionar.",
+        "my": "口にする = ပြောထုတ်။",
+        "th": "口にする = พูดออกมา"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=107.003,115.193",
+      "t": [
+        107.003,
+        115.193
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ホン老人の上の娘、ホアンホン夫人のことです。",
+      "furigana": [
+        {
+          "surface": "ホン",
+          "reading": ""
+        },
+        {
+          "surface": "老人",
+          "reading": "ろうじん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "娘",
+          "reading": "むすめ"
+        },
+        {
+          "surface": "、ホアンホン",
+          "reading": ""
+        },
+        {
+          "surface": "夫人",
+          "reading": "ふじん"
+        },
+        {
+          "surface": "のことです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hon roujin no uenomusume, hoan Hon fujin no koto desu.",
+      "translations": {
+        "vi": "Đó là chuyện của bà Hoàng Hôn, con gái lớn của cụ cố Hồng.",
+        "en": "It concerned Madame Hoàng Hôn, old Hồng's elder daughter.",
+        "zh-Hans": "那就是洪老太爷的大女儿——黄昏夫人的事。",
+        "zh-Hant": "那就是洪老太爺的大女兒——黃昏夫人的事。",
+        "ko": "홍 노인의 큰딸 호앙혼 부인의 일입니다.",
+        "tl": "Tungkol ito kay Ginang Hoàng Hôn, ang nakatatandang anak ni Matandang Hồng.",
+        "ne": "वृद्ध होङकी जेठी छोरी, होआङ होन श्रीमतीको कुरा।",
+        "id": "Soal Nyonya Hoàng Hôn, putri sulung Kakek Hồng.",
+        "pt": "Era sobre a senhora Hoàng Hôn, a filha mais velha do velho Hồng.",
+        "my": "အဘိုး ဟုန်ရဲ့ သမီးကြီး ဟွမ်ဟုန် ကတော်ရဲ့ အကြောင်းပါ။",
+        "th": "นั่นคือเรื่องของคุณนายหว่างโห่น ลูกสาวคนโตของคุณปู่ห่ง"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "Tên \"Hoàng Hôn\" nghĩa là \"chạng vạng\". 上の娘 = con gái lớn.",
+        "en": "\"Hoàng Hôn\" means \"dusk\". 上の娘 = elder daughter.",
+        "zh-Hans": "“黄昏”即黄昏。上の娘＝大女儿。",
+        "zh-Hant": "“黃昏”即黃昏。上の娘＝大女兒。",
+        "ko": "上の娘=큰딸.",
+        "tl": "上の娘 = nakatatandang anak.",
+        "ne": "上の娘 = जेठी छोरी।",
+        "id": "上の娘 = putri sulung.",
+        "pt": "上の娘 = filha mais velha.",
+        "my": "上の娘 = သမီးကြီး။",
+        "th": "上の娘 = ลูกสาวคนโต"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=115.793,120.052",
+      "t": [
+        115.793,
+        120.052
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "彼女はファン氏という役人の妻でしたが、夫の目を盗んでは、ほかの男性と会っていました。",
+      "furigana": [
+        {
+          "surface": "彼女",
+          "reading": "かのじょ"
+        },
+        {
+          "surface": "はファン",
+          "reading": ""
+        },
+        {
+          "surface": "氏",
+          "reading": "し"
+        },
+        {
+          "surface": "という",
+          "reading": ""
+        },
+        {
+          "surface": "役人",
+          "reading": "やくにん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "妻",
+          "reading": "つま"
+        },
+        {
+          "surface": "でしたが、",
+          "reading": ""
+        },
+        {
+          "surface": "夫",
+          "reading": "おっと"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "目",
+          "reading": "め"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "盗",
+          "reading": "ぬす"
+        },
+        {
+          "surface": "んでは、ほかの",
+          "reading": ""
+        },
+        {
+          "surface": "男性",
+          "reading": "だんせい"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "会",
+          "reading": "あ"
+        },
+        {
+          "surface": "っていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kanojo wa Fanshi to iu yakunin no tsuma deshita ga, otto no me o nusunde wa, hoka no dansei to atteimashita.",
+      "translations": {
+        "vi": "Bà là vợ một viên chức tên là ông Phán, nhưng hễ chồng lơ là là lại lén gặp người đàn ông khác.",
+        "en": "She was the wife of an official named Mr. Phán, but whenever her husband wasn't looking, she met other men.",
+        "zh-Hans": "她是一位名叫潘先生的官员的妻子，却总是趁丈夫不注意去和别的男人见面。",
+        "zh-Hant": "她是一位名叫潘先生的官員的妻子，卻總是趁丈夫不注意去和別的男人見面。",
+        "ko": "그녀는 판 씨라는 관리의 아내였지만, 남편의 눈을 피해서는 다른 남자를 만나고 있었습니다.",
+        "tl": "Asawa siya ng opisyal na si G. Phán, pero palihim siyang nakikipagkita sa ibang lalaki.",
+        "ne": "उनी फान नामका कर्मचारीकी श्रीमती थिइन्, तर पतिको आँखा छलेर अरू पुरुषलाई भेट्थिन्।",
+        "id": "Ia istri pejabat bernama Tuan Phán, tapi diam-diam menemui pria lain.",
+        "pt": "Era esposa de um funcionário chamado senhor Phán, mas às escondidas do marido encontrava outros homens.",
+        "my": "သူမဟာ ဖန်လို့ခေါ်တဲ့ အရာရှိရဲ့ ဇနီးဖြစ်ပေမဲ့ ယောက်ျားကို ခိုးပြီး တခြားယောက်ျားတွေနဲ့ တွေ့တယ်။",
+        "th": "เธอเป็นภรรยาของข้าราชการชื่อคุณฟาน แต่มักแอบไปพบชายอื่นลับหลังสามี"
+      },
+      "vocab": [
+        {
+          "word": "役人",
+          "reading": "やくにん",
+          "meanings": {
+            "vi": "quan lại, viên chức",
+            "en": "official",
+            "zh-Hans": "官差，官员",
+            "zh-Hant": "官差，官員",
+            "ko": "관리",
+            "tl": "opisyal",
+            "ne": "अधिकारी",
+            "id": "pejabat",
+            "pt": "oficial",
+            "my": "အရာရှိ",
+            "th": "เจ้าหน้าที่"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「ông Phán」 là cách gọi viên thư ký toà sứ thời Pháp. 「目を盗んで」: lén lút. 「〜ては」: hễ ~ là lại.",
+        "en": "\"Phán\" = a colonial-era clerk title. 目を盗む = do behind someone's back. 「〜ては」 = repeatedly.",
+        "zh-Hans": "目を盗む＝背着……。「〜ては」＝反复。",
+        "zh-Hant": "目を盜む＝揹著……。「〜ては」＝反覆。",
+        "ko": "目を盗む=눈을 피하다.",
+        "tl": "目を盗む = palihim.",
+        "ne": "目を盗む = आँखा छल्नु।",
+        "id": "目を盗む = diam-diam.",
+        "pt": "目を盗む = às escondidas.",
+        "my": "目を盗む = ခိုးပြီး။",
+        "th": "目を盗む = แอบ"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=120.652,128.644",
+      "t": [
+        120.652,
+        128.644
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そしてファン氏のほうも、そのことに薄々気づいていたのです。",
+      "furigana": [
+        {
+          "surface": "そしてファン",
+          "reading": ""
+        },
+        {
+          "surface": "氏",
+          "reading": "し"
+        },
+        {
+          "surface": "のほうも、そのことに",
+          "reading": ""
+        },
+        {
+          "surface": "薄々",
+          "reading": "うすうす"
+        },
+        {
+          "surface": "気",
+          "reading": "き"
+        },
+        {
+          "surface": "づいていたのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite Fanshi no hou mo, sono koto ni usuusu kizuiteita no desu.",
+      "translations": {
+        "vi": "Và chính ông Phán cũng lờ mờ nhận ra chuyện ấy.",
+        "en": "And Mr. Phán, for his part, vaguely knew it.",
+        "zh-Hans": "而潘先生对此也隐约有所察觉。",
+        "zh-Hant": "而潘先生對此也隱約有所察覺。",
+        "ko": "그리고 판 씨 역시 그 사실을 어렴풋이 눈치채고 있었습니다.",
+        "tl": "At may hinala rin si G. Phán.",
+        "ne": "अनि फानलाई पनि यो कुरा हल्का थाहा थियो।",
+        "id": "Dan Tuan Phán pun samar-samar menyadarinya.",
+        "pt": "E o senhor Phán, por sua vez, já desconfiava.",
+        "my": "ဖန်ကလည်း အဲဒါကို ရေးရေးလေး သိနေတယ်။",
+        "th": "และคุณฟานเองก็รู้ลาง ๆ"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "薄々 = lờ mờ. 「〜のほうも」: về phía ~ thì cũng. 気づく = nhận ra.",
+        "en": "薄々 = vaguely. 気づく = notice.",
+        "zh-Hans": "薄々＝隐约。",
+        "zh-Hant": "薄々＝隱約。",
+        "ko": "薄々=어렴풋이.",
+        "tl": "薄々 = bahagya.",
+        "ne": "薄々 = हल्का।",
+        "id": "薄々 = samar-samar.",
+        "pt": "薄々 = vagamente.",
+        "my": "薄々 = ရေးရေး။",
+        "th": "薄々 = ลาง ๆ"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=129.244,134.097",
+      "t": [
+        129.244,
+        134.097
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "町の人々は、陰で彼を「角の生えたファン氏」と呼んでいました。",
+      "furigana": [
+        {
+          "surface": "町",
+          "reading": "まち"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人々",
+          "reading": "ひとびと"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "陰",
+          "reading": "かげ"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "彼",
+          "reading": "かれ"
+        },
+        {
+          "surface": "を「",
+          "reading": ""
+        },
+        {
+          "surface": "角",
+          "reading": "つの"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "生",
+          "reading": "は"
+        },
+        {
+          "surface": "えたファン",
+          "reading": ""
+        },
+        {
+          "surface": "氏",
+          "reading": "し"
+        },
+        {
+          "surface": "」と",
+          "reading": ""
+        },
+        {
+          "surface": "呼",
+          "reading": "よ"
+        },
+        {
+          "surface": "んでいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Machi no hitobito wa, kage de kare o “Tsuno no haeta Fanshi” to yondeimashita.",
+      "translations": {
+        "vi": "Người trong phố sau lưng gọi ông là \"ông Phán mọc sừng\".",
+        "en": "Behind his back, the townspeople called him \"Horned Mr. Phán\".",
+        "zh-Hans": "镇上的人在背后叫他“长角的潘先生”。",
+        "zh-Hant": "鎮上的人在背後叫他“長角的潘先生”。",
+        "ko": "동네 사람들은 뒤에서 그를 '뿔 난 판 씨'라고 불렀습니다.",
+        "tl": "Sa likod niya, tinatawag siya ng mga tao na \"G. Phán na may sungay\".",
+        "ne": "सहरका मानिस पछाडि उनलाई \"सिङ उम्रेका फान\" भन्थे।",
+        "id": "Orang-orang diam-diam menyebutnya \"Tuan Phán bertanduk\".",
+        "pt": "Pelas costas, o povo o chamava de \"senhor Phán chifrudo\".",
+        "my": "မြို့သူမြို့သားတွေက နောက်ကွယ်မှာ သူ့ကို \"ဦးချိုပေါက်တဲ့ ဖန်\" လို့ ခေါ်ကြတယ်။",
+        "th": "ชาวเมืองลับหลังเรียกเขาว่า \"คุณฟานหัวงอกเขา\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "Nguyên tác: \"ông Phán mọc sừng\". 陰で = sau lưng.",
+        "en": "Original: \"ông Phán mọc sừng\". 陰で = behind one's back.",
+        "zh-Hans": "陰で＝背地里。",
+        "zh-Hant": "陰で＝背地裡。",
+        "ko": "陰で=뒤에서.",
+        "tl": "陰で = sa likod.",
+        "ne": "陰で = पछाडि।",
+        "id": "陰で = diam-diam.",
+        "pt": "陰で = pelas costas.",
+        "my": "陰で = နောက်ကွယ်။",
+        "th": "陰で = ลับหลัง"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=134.697,140.14",
+      "t": [
+        134.697,
+        140.14
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ベトナム語で「角が生える」とは、妻に浮気をされた夫のことを言うのです。",
+      "furigana": [
+        {
+          "surface": "ベトナム",
+          "reading": ""
+        },
+        {
+          "surface": "語",
+          "reading": "ご"
+        },
+        {
+          "surface": "で「",
+          "reading": ""
+        },
+        {
+          "surface": "角",
+          "reading": "つの"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "生",
+          "reading": "は"
+        },
+        {
+          "surface": "える」とは、",
+          "reading": ""
+        },
+        {
+          "surface": "妻",
+          "reading": "つま"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "浮気",
+          "reading": "うわき"
+        },
+        {
+          "surface": "をされた",
+          "reading": ""
+        },
+        {
+          "surface": "夫",
+          "reading": "おっと"
+        },
+        {
+          "surface": "のことを",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "うのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Betonamugo de “Tsuno ga haeru” to wa, tsuma ni uwaki o sareta otto no koto o iu no desu.",
+      "translations": {
+        "vi": "Trong tiếng Việt, \"mọc sừng\" là chỉ người chồng bị vợ cắm sừng.",
+        "en": "In Vietnamese, \"growing horns\" means a husband whose wife cheats on him.",
+        "zh-Hans": "在越南语里，“长角”是指被妻子背叛的丈夫。",
+        "zh-Hant": "在越南語裡，“長角”是指被妻子背叛的丈夫。",
+        "ko": "베트남어로 '뿔이 나다'는 아내에게 바람맞은 남편을 가리킵니다.",
+        "tl": "Sa Vietnamese, ang \"tubuan ng sungay\" ay asawang lalaking pinagtaksilan.",
+        "ne": "भियतनामीमा \"सिङ उम्रनु\" भनेको श्रीमतीले धोका दिएको पति हो।",
+        "id": "Dalam bahasa Vietnam, \"tumbuh tanduk\" berarti suami yang diselingkuhi.",
+        "pt": "Em vietnamita, \"criar chifres\" é o marido traído pela esposa.",
+        "my": "ဗီယက်နမ်စကားမှာ \"ချိုပေါက်တယ်\" ဆိုတာ ဇနီးက ဖောက်ပြန်ခံရတဲ့ ယောက်ျားကို ဆိုလိုတယ်။",
+        "th": "ในภาษาเวียดนาม \"งอกเขา\" หมายถึงสามีที่ถูกภรรยานอกใจ"
+      },
+      "vocab": [
+        {
+          "word": "浮気",
+          "reading": "うわき",
+          "meanings": {
+            "vi": "ngoại tình",
+            "en": "(romantic) cheating",
+            "zh-Hans": "出轨",
+            "zh-Hant": "出軌",
+            "ko": "바람",
+            "tl": "pangangaliwa",
+            "ne": "परपुरुष/परस्त्री सम्बन्ध",
+            "id": "selingkuh",
+            "pt": "traição",
+            "my": "ဖောက်ပြန်မှု",
+            "th": "นอกใจ"
+          },
+          "level": "N1"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜とは〜のことを言う」: ~ nghĩa là ~ (định nghĩa). 浮気 = ngoại tình.",
+        "en": "「〜とは〜のことを言う」 = ~ refers to ~ (definition). 浮気 = cheating.",
+        "zh-Hans": "「〜とは〜のことを言う」＝所谓……是指……。",
+        "zh-Hant": "「〜とは〜のことを言う」＝所謂……是指……。",
+        "ko": "「〜とは〜를 말한다」.",
+        "tl": "Ang ~ ay tumutukoy sa ~.",
+        "ne": "~ भनेको ~ हो।",
+        "id": "~ berarti ~.",
+        "pt": "~ quer dizer ~.",
+        "my": "~ ဆိုတာ ~ ကို ဆိုလို။",
+        "th": "~ หมายถึง ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=140.74,146.921",
+      "t": [
+        140.74,
+        146.921
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ドクター・スアン、ちょっといいかね。」",
+      "furigana": [
+        {
+          "surface": "「ドクター・スアン、ちょっといいかね。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Dokutaa Suan, chotto iikane.”",
+      "translations": {
+        "vi": "\"Đốc tờ Xuân, cho tôi nói chuyện một chút được không?\"",
+        "en": "\"Doctor Xuân, may I have a moment?\"",
+        "zh-Hans": "“阿春医生，能借一步说话吗？”",
+        "zh-Hant": "“阿春醫生，能借一步說話嗎？”",
+        "ko": "\"닥터 쑤언, 잠깐 괜찮겠나?\"",
+        "tl": "\"Doktor Xuân, may sandali ka ba?\"",
+        "ne": "\"डाक्टर सुआन, एकछिन कुरा गर्न मिल्छ?\"",
+        "id": "\"Dokter Xuân, boleh bicara sebentar?\"",
+        "pt": "\"Doutor Xuân, tem um minutinho?\"",
+        "my": "\"ဒေါက်တာ ဆွမ်၊ ခဏ ရမလား။\"",
+        "th": "\"ด็อกเตอร์ซวน ขอคุยด้วยหน่อยได้ไหม\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「ちょっといいかね」: có rảnh một chút không (người lớn tuổi nói).",
+        "en": "「ちょっといいかね」 = got a moment? (older man).",
+        "zh-Hans": "「ちょっといいかね」＝有空吗？",
+        "zh-Hant": "「ちょっといいかね」＝有空嗎？",
+        "ko": "「ちょっといいかね」=잠깐 괜찮나.",
+        "tl": "May sandali ka?",
+        "ne": "एकछिन मिल्छ?",
+        "id": "Ada waktu?",
+        "pt": "Tem um minuto?",
+        "my": "ခဏ ရလား။",
+        "th": "ว่างไหม"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=147.821,150.363",
+      "t": [
+        147.821,
+        150.363
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "ある晩、ファン氏が、薄暗い廊下でスアンを呼び止めました。",
+      "furigana": [
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "晩",
+          "reading": "ばん"
+        },
+        {
+          "surface": "、ファン",
+          "reading": ""
+        },
+        {
+          "surface": "氏",
+          "reading": "し"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "薄暗",
+          "reading": "うすぐら"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "廊下",
+          "reading": "ろうか"
+        },
+        {
+          "surface": "でスアンを",
+          "reading": ""
+        },
+        {
+          "surface": "呼",
+          "reading": "よ"
+        },
+        {
+          "surface": "び",
+          "reading": ""
+        },
+        {
+          "surface": "止",
+          "reading": "と"
+        },
+        {
+          "surface": "めました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aru ban, Fanshi ga, usugurai rouka de Suan o yobitomemashita.",
+      "translations": {
+        "vi": "Một tối nọ, ông Phán gọi giật Xuân lại ở hành lang tối mờ.",
+        "en": "One evening, Mr. Phán stopped Xuân in a dim corridor.",
+        "zh-Hans": "一天晚上，潘先生在昏暗的走廊上叫住了阿春。",
+        "zh-Hant": "一天晚上，潘先生在昏暗的走廊上叫住了阿春。",
+        "ko": "어느 날 밤, 판 씨가 어두컴컴한 복도에서 쑤언을 불러 세웠습니다.",
+        "tl": "Isang gabi, pinahinto ni G. Phán si Xuân sa madilim na pasilyo.",
+        "ne": "एक साँझ फानले अँध्यारो बरन्डामा सुआनलाई बोलाएर रोके।",
+        "id": "Suatu malam, Tuan Phán memanggil Xuân di lorong remang-remang.",
+        "pt": "Certa noite, o senhor Phán parou Xuân num corredor escuro.",
+        "my": "တစ်ညမှာ ဖန်က မှောင်မှောင် စင်္ကြံမှာ ဆွမ်ကို ခေါ်တားတယ်။",
+        "th": "คืนหนึ่ง คุณฟานเรียกซวนไว้ที่ทางเดินสลัว ๆ"
+      },
+      "vocab": [
+        {
+          "word": "呼び止める",
+          "reading": "よびとめる",
+          "meanings": {
+            "vi": "gọi giật lại",
+            "en": "call to stop",
+            "zh-Hans": "叫住",
+            "zh-Hant": "叫住",
+            "ko": "불러 세우다",
+            "tl": "tawagin para huminto",
+            "ne": "बोलाएर रोक्नु",
+            "id": "memanggil berhenti",
+            "pt": "chamar para parar",
+            "my": "ခေါ်ပြီး တားသည်",
+            "th": "เรียกให้หยุด"
+          },
+          "level": "N1"
+        }
+      ],
+      "grammarNote": {
+        "vi": "呼び止める = gọi giật lại. 薄暗い = tối mờ mờ.",
+        "en": "呼び止める = call someone to stop. 薄暗い = dim.",
+        "zh-Hans": "呼び止める＝叫住。薄暗い＝昏暗。",
+        "zh-Hant": "呼び止める＝叫住。薄暗い＝昏暗。",
+        "ko": "呼び止める=불러 세우다.",
+        "tl": "呼び止める = pahintuin.",
+        "ne": "呼び止める = बोलाएर रोक्नु।",
+        "id": "呼び止める = memanggil berhenti.",
+        "pt": "呼び止める = chamar.",
+        "my": "呼び止める = ခေါ်တား။",
+        "th": "呼び止める = เรียกไว้"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=151.263,156.991",
+      "t": [
+        151.263,
+        156.991
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「大旦那さまのご容体は、どうなんだ。本当のところを教えてくれ。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "大旦那",
+          "reading": "おおだんな"
+        },
+        {
+          "surface": "さまのご",
+          "reading": ""
+        },
+        {
+          "surface": "容体",
+          "reading": "ようだい"
+        },
+        {
+          "surface": "は、どうなんだ。",
+          "reading": ""
+        },
+        {
+          "surface": "本当",
+          "reading": "ほんとう"
+        },
+        {
+          "surface": "のところを",
+          "reading": ""
+        },
+        {
+          "surface": "教",
+          "reading": "おし"
+        },
+        {
+          "surface": "えてくれ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Oodanna sama no goyoudai wa, dou na n da. Hontou no tokoro o oshietekure.”",
+      "translations": {
+        "vi": "\"Bệnh tình cụ cố tổ thế nào? Cứ nói thật cho tôi biết.\"",
+        "en": "\"How is the great patriarch's condition? Tell me the truth.\"",
+        "zh-Hans": "“老太爷的病情到底怎么样？跟我说实话。”",
+        "zh-Hant": "“老太爺的病情到底怎麼樣？跟我說實話。”",
+        "ko": "\"큰 어른의 병세는 어떤가. 사실대로 말해 주게.\"",
+        "tl": "\"Kumusta ang kalagayan ng pinuno? Sabihin mo ang totoo.\"",
+        "ne": "\"घरमूलीको अवस्था कस्तो छ? साँचो कुरा भन।\"",
+        "id": "\"Bagaimana keadaan kepala keluarga? Katakan yang sebenarnya.\"",
+        "pt": "\"Como está o patriarca? Diga a verdade.\"",
+        "my": "\"ဦးစီးရဲ့ ရောဂါ အခြေအနေ ဘယ်လိုလဲ။ အမှန်အတိုင်း ပြောပါ။\"",
+        "th": "\"อาการของท่านประมุขเป็นอย่างไร บอกความจริงมา\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "容体 = bệnh tình. 本当のところ = sự thật thì. 「〜てくれ」: hãy ~ cho tôi (nam, thân).",
+        "en": "容体 = condition. 「〜てくれ」 = do ~ for me (blunt).",
+        "zh-Hans": "容体＝病情。",
+        "zh-Hant": "容體＝病情。",
+        "ko": "容体=병세.",
+        "tl": "容体 = kalagayan.",
+        "ne": "容体 = अवस्था।",
+        "id": "容体 = keadaan.",
+        "pt": "容体 = estado.",
+        "my": "容体 = အခြေအနေ။",
+        "th": "容体 = อาการ"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=157.891,163.921",
+      "t": [
+        157.891,
+        163.921
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「さあ……。何か大きなショックでも受ければ、危ないかもしれません。」",
+      "furigana": [
+        {
+          "surface": "「さあ……。",
+          "reading": ""
+        },
+        {
+          "surface": "何",
+          "reading": "なに"
+        },
+        {
+          "surface": "か",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きなショックでも",
+          "reading": ""
+        },
+        {
+          "surface": "受",
+          "reading": "う"
+        },
+        {
+          "surface": "ければ、",
+          "reading": ""
+        },
+        {
+          "surface": "危",
+          "reading": "あぶ"
+        },
+        {
+          "surface": "ないかもしれません。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Saa....... Nani ka ookina shokku de mo ukereba, abunai kamo shiremasen.”",
+      "translations": {
+        "vi": "\"Dạ... Nếu bị một cú sốc lớn nào đó thì e là nguy.\"",
+        "en": "\"Well... If he suffered some big shock, it might be dangerous.\"",
+        "zh-Hans": "“这个嘛……要是受到什么大刺激，恐怕就危险了。”",
+        "zh-Hant": "“這個嘛……要是受到什麼大刺激，恐怕就危險了。”",
+        "ko": "\"글쎄요……. 뭔가 큰 충격이라도 받으면 위험할지도 모릅니다.\"",
+        "tl": "\"Ewan... Kung makaranas siya ng malaking pagkabigla, baka delikado.\"",
+        "ne": "\"खै... कुनै ठूलो धक्का लाग्यो भने खतरा हुन सक्छ।\"",
+        "id": "\"Entahlah... Kalau kena guncangan besar, mungkin berbahaya.\"",
+        "pt": "\"Bem... Se ele levar um grande choque, pode ser perigoso.\"",
+        "my": "\"အင်း ... ကြီးမားတဲ့ ထိတ်လန့်မှု တစ်ခုခု ခံရရင် အန္တရာယ် ရှိနိုင်တယ်။\"",
+        "th": "\"เอ่อ... ถ้าได้รับความตกใจครั้งใหญ่ อาจอันตรายครับ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜でも〜ば」: nếu chẳng hạn như ~ thì. 「〜かもしれない」: có lẽ ~.",
+        "en": "「〜でも〜ば」 = if, say, ~. 「〜かもしれない」 = might ~.",
+        "zh-Hans": "「〜かもしれない」＝也许……。",
+        "zh-Hant": "「〜かもしれない」＝也許……。",
+        "ko": "「〜かもしれない」=~할지도 모른다.",
+        "tl": "Baka ~.",
+        "ne": "~ हुन सक्छ।",
+        "id": "Mungkin ~.",
+        "pt": "Pode ser ~.",
+        "my": "~ နိုင်တယ်။",
+        "th": "อาจจะ ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=164.821,169.033",
+      "t": [
+        164.821,
+        169.033
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "それは、薬の広告で覚えた決まり文句にすぎませんでした。",
+      "furigana": [
+        {
+          "surface": "それは、",
+          "reading": ""
+        },
+        {
+          "surface": "薬",
+          "reading": "くすり"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "広告",
+          "reading": "こうこく"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "覚",
+          "reading": "おぼ"
+        },
+        {
+          "surface": "えた",
+          "reading": ""
+        },
+        {
+          "surface": "決",
+          "reading": "き"
+        },
+        {
+          "surface": "まり",
+          "reading": ""
+        },
+        {
+          "surface": "文句",
+          "reading": "もんく"
+        },
+        {
+          "surface": "にすぎませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sore wa, kusuri no koukoku de oboeta kimarimonku ni sugimasendeshita.",
+      "translations": {
+        "vi": "Đó chẳng qua chỉ là câu sáo cậu học được từ quảng cáo thuốc.",
+        "en": "It was nothing more than a stock phrase he had learned from medicine ads.",
+        "zh-Hans": "那不过是他从药品广告里学来的套话。",
+        "zh-Hant": "那不過是他從藥品廣告裡學來的套話。",
+        "ko": "그것은 약 광고에서 외운 상투적인 말에 지나지 않았습니다.",
+        "tl": "Isa lang iyong gasgas na linyang natutunan niya sa patalastas ng gamot.",
+        "ne": "त्यो औषधि विज्ञापनबाट सिकेको रटिएको वाक्य मात्र थियो।",
+        "id": "Itu hanya kalimat klise yang ia hafal dari iklan obat.",
+        "pt": "Não passava de um bordão aprendido nos anúncios de remédio.",
+        "my": "အဲဒါ ဆေးကြော်ငြာကနေ မှတ်ထားတဲ့ ပါးစပ်ဖျား စကား သက်သက်ပဲ။",
+        "th": "นั่นเป็นแค่วลีสำเร็จรูปที่จำมาจากโฆษณายา"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜にすぎない」: chẳng qua chỉ là ~ (N3/N2). 決まり文句 = câu sáo.",
+        "en": "「〜にすぎない」 = nothing more than ~. 決まり文句 = stock phrase.",
+        "zh-Hans": "「〜にすぎない」＝不过是……。",
+        "zh-Hant": "「〜にすぎない」＝不過是……。",
+        "ko": "「〜にすぎない」=~에 지나지 않다.",
+        "tl": "「〜にすぎない」 = ~ lamang.",
+        "ne": "「〜にすぎない」 = ~ मात्र।",
+        "id": "「〜にすぎない」 = hanya ~.",
+        "pt": "「〜にすぎない」 = não passa de ~.",
+        "my": "「〜にすぎない」 = ~ သက်သက်။",
+        "th": "「〜にすぎない」 = เป็นแค่ ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=169.933,175.046",
+      "t": [
+        169.933,
+        175.046
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ところが、それを聞いたファン氏の目が、きらりと光りました。",
+      "furigana": [
+        {
+          "surface": "ところが、それを",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "いたファン",
+          "reading": ""
+        },
+        {
+          "surface": "氏",
+          "reading": "し"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "目",
+          "reading": "め"
+        },
+        {
+          "surface": "が、きらりと",
+          "reading": ""
+        },
+        {
+          "surface": "光",
+          "reading": "ひか"
+        },
+        {
+          "surface": "りました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tokoroga, sore o kiita Fanshi no me ga, kirari to hikarimashita.",
+      "translations": {
+        "vi": "Thế nhưng, nghe xong câu ấy, mắt ông Phán bỗng loé sáng.",
+        "en": "Yet when he heard it, Mr. Phán's eyes glinted.",
+        "zh-Hans": "然而，听了这话，潘先生的眼睛一下子亮了。",
+        "zh-Hant": "然而，聽了這話，潘先生的眼睛一下子亮了。",
+        "ko": "그런데 그 말을 들은 판 씨의 눈이 번뜩였습니다.",
+        "tl": "Pero nang marinig iyon, kumislap ang mata ni G. Phán.",
+        "ne": "तर त्यो सुनेर फानका आँखा चम्किए।",
+        "id": "Namun mendengar itu, mata Tuan Phán berkilat.",
+        "pt": "Mas, ao ouvir isso, os olhos do senhor Phán brilharam.",
+        "my": "ဒါပေမဲ့ အဲဒါကို ကြားတော့ ဖန်ရဲ့ မျက်လုံးက တောက်ပသွားတယ်။",
+        "th": "แต่พอได้ยิน ดวงตาคุณฟานก็เป็นประกาย"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ところが = thế nhưng (bất ngờ). きらりと = loé sáng.",
+        "en": "ところが = however (unexpectedly). きらりと = with a glint.",
+        "zh-Hans": "ところが＝然而（出乎意料）。",
+        "zh-Hant": "ところが＝然而（出乎意料）。",
+        "ko": "ところが=그런데.",
+        "tl": "ところが = pero.",
+        "ne": "ところが = तर।",
+        "id": "ところが = namun.",
+        "pt": "ところが = porém.",
+        "my": "ところが = ဒါပေမဲ့။",
+        "th": "ところが = แต่ทว่า"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=175.646,180.489",
+      "t": [
+        175.646,
+        180.489
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ショック、か。なるほどね。」",
+      "furigana": [
+        {
+          "surface": "「ショック、か。なるほどね。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Shokku, ka. Naruhodo ne.”",
+      "translations": {
+        "vi": "\"Sốc à. Ra thế.\"",
+        "en": "\"A shock, eh. I see.\"",
+        "zh-Hans": "“刺激啊。原来如此。”",
+        "zh-Hant": "“刺激啊。原來如此。”",
+        "ko": "\"충격이라. 과연 그렇군.\"",
+        "tl": "\"Pagkabigla, ha. Ganoon pala.\"",
+        "ne": "\"धक्का, हो। बुझेँ।\"",
+        "id": "\"Guncangan, ya. Begitu.\"",
+        "pt": "\"Um choque, hein. Entendo.\"",
+        "my": "\"ထိတ်လန့်မှု ဆိုတော့။ ဟုတ်ပြီ။\"",
+        "th": "\"ความตกใจหรือ เข้าใจละ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜か」(cuối câu, giọng trầm): lẩm bẩm suy nghĩ. なるほど = ra là vậy.",
+        "en": "「〜か」 = musing to oneself. なるほど = I see.",
+        "zh-Hans": "「〜か」＝自言自语。なるほど＝原来如此。",
+        "zh-Hant": "「〜か」＝自言自語。なるほど＝原來如此。",
+        "ko": "なるほど=과연.",
+        "tl": "なるほど = ganoon pala.",
+        "ne": "なるほど = बुझेँ।",
+        "id": "なるほど = begitu.",
+        "pt": "なるほど = entendo.",
+        "my": "なるほど = ဟုတ်ပြီ။",
+        "th": "なるほど = เข้าใจละ"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=181.389,183.586",
+      "t": [
+        181.389,
+        183.586
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "ファン氏はそれ以上何も言わずに、廊下の奥へ消えていきました。",
+      "furigana": [
+        {
+          "surface": "ファン",
+          "reading": ""
+        },
+        {
+          "surface": "氏",
+          "reading": "し"
+        },
+        {
+          "surface": "はそれ",
+          "reading": ""
+        },
+        {
+          "surface": "以上",
+          "reading": "いじょう"
+        },
+        {
+          "surface": "何",
+          "reading": "なに"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "わずに、",
+          "reading": ""
+        },
+        {
+          "surface": "廊下",
+          "reading": "ろうか"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "奥",
+          "reading": "おく"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "消",
+          "reading": "き"
+        },
+        {
+          "surface": "えていきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Fanshi wa sore ijou nani mo iwazu ni, rouka no oku e kieteikimashita.",
+      "translations": {
+        "vi": "Ông Phán không nói thêm gì, rồi biến mất vào cuối hành lang.",
+        "en": "Mr. Phán said nothing more and vanished down the corridor.",
+        "zh-Hans": "潘先生没再说什么，消失在走廊深处。",
+        "zh-Hant": "潘先生沒再說什麼，消失在走廊深處。",
+        "ko": "판 씨는 더 이상 아무 말 없이 복도 안쪽으로 사라졌습니다.",
+        "tl": "Wala nang sinabi si G. Phán at nawala sa dulo ng pasilyo.",
+        "ne": "फान अरू केही नबोली बरन्डाको भित्र हराए।",
+        "id": "Tuan Phán tak berkata apa-apa lagi dan menghilang ke ujung lorong.",
+        "pt": "O senhor Phán não disse mais nada e sumiu no fim do corredor.",
+        "my": "ဖန်က ဘာမှ ထပ်မပြောဘဲ စင်္ကြံထဲ ပျောက်သွားတယ်။",
+        "th": "คุณฟานไม่พูดอะไรอีกแล้วหายไปทางปลายทางเดิน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「それ以上〜ない」: không ~ thêm nữa. 「〜ずに」: mà không ~. 「〜ていく」: (đi) xa dần.",
+        "en": "「それ以上〜ない」 = not ~ any more. 「〜ずに」 = without ~ing.",
+        "zh-Hans": "「〜ずに」＝不……就。",
+        "zh-Hant": "「〜ずに」＝不……就。",
+        "ko": "「〜ずに」=~하지 않고.",
+        "tl": "「〜ずに」 = nang hindi ~.",
+        "ne": "「〜ずに」 = ~ नगरी।",
+        "id": "「〜ずに」 = tanpa ~.",
+        "pt": "「〜ずに」 = sem ~.",
+        "my": "「〜ずに」 = မ ~ ဘဲ။",
+        "th": "「〜ずに」 = โดยไม่ ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=184.486,189.4",
+      "t": [
+        184.486,
+        189.4
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "その言葉の本当の意味を、スアンはまだ知りませんでした。",
+      "furigana": [
+        {
+          "surface": "その",
+          "reading": ""
+        },
+        {
+          "surface": "言葉",
+          "reading": "ことば"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "本当",
+          "reading": "ほんとう"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "意味",
+          "reading": "いみ"
+        },
+        {
+          "surface": "を、スアンはまだ",
+          "reading": ""
+        },
+        {
+          "surface": "知",
+          "reading": "し"
+        },
+        {
+          "surface": "りませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono kotoba no hontou no imi o, Suan wa mada shirimasendeshita.",
+      "translations": {
+        "vi": "Xuân lúc ấy vẫn chưa hiểu ý nghĩa thật của câu nói đó.",
+        "en": "Xuân did not yet understand what those words really meant.",
+        "zh-Hans": "阿春那时还不懂那句话的真正意思。",
+        "zh-Hant": "阿春那時還不懂那句話的真正意思。",
+        "ko": "쑤언은 그 말의 진짜 의미를 아직 몰랐습니다.",
+        "tl": "Hindi pa naiintindihan ni Xuân ang tunay na kahulugan noon.",
+        "ne": "सुआनलाई त्यो कुराको साँचो अर्थ अझै थाहा थिएन।",
+        "id": "Xuân belum tahu arti sebenarnya kata-kata itu.",
+        "pt": "Xuân ainda não sabia o verdadeiro sentido daquilo.",
+        "my": "အဲဒီစကားရဲ့ တကယ့်အဓိပ္ပာယ်ကို ဆွမ် မသိသေးဘူး။",
+        "th": "ซวนยังไม่รู้ความหมายที่แท้จริงของคำพูดนั้น"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "まだ〜なかった = vẫn chưa ~. Câu gieo tò mò cho các tập sau.",
+        "en": "まだ〜なかった = had not yet ~. Foreshadowing.",
+        "zh-Hans": "まだ〜なかった＝还没……。伏笔。",
+        "zh-Hant": "まだ〜なかった＝還沒……。伏筆。",
+        "ko": "아직 ~지 않았다. 복선.",
+        "tl": "Hindi pa ~.",
+        "ne": "अझै ~ थिएन।",
+        "id": "Belum ~.",
+        "pt": "Ainda não ~.",
+        "my": "မ ~ သေးဘူး။",
+        "th": "ยังไม่ ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=190,194.568",
+      "t": [
+        190,
+        194.568
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "数日後、ヴァンミンはスアンを、フランス人の集まるテニスクラブへ連れて行きました。",
+      "furigana": [
+        {
+          "surface": "数",
+          "reading": "すう"
+        },
+        {
+          "surface": "日",
+          "reading": "にち"
+        },
+        {
+          "surface": "後",
+          "reading": "ご"
+        },
+        {
+          "surface": "、ヴァンミンはスアンを、フランス",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "じん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "集",
+          "reading": "あつ"
+        },
+        {
+          "surface": "まるテニスクラブへ",
+          "reading": ""
+        },
+        {
+          "surface": "連",
+          "reading": "つ"
+        },
+        {
+          "surface": "れて",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suunichigo, Vanmin wa Suan o, Furansujin no atsumaru tenisu kurabu e tsureteikimashita.",
+      "translations": {
+        "vi": "Vài hôm sau, Văn Minh dẫn Xuân tới câu lạc bộ quần vợt của người Pháp.",
+        "en": "A few days later, Văn Minh took Xuân to a tennis club where the French gathered.",
+        "zh-Hans": "几天后，文明先生带阿春去了法国人聚集的网球俱乐部。",
+        "zh-Hant": "幾天後，文明先生帶阿春去了法國人聚集的網球俱樂部。",
+        "ko": "며칠 뒤, 반민은 쑤언을 프랑스인이 모이는 테니스 클럽에 데려갔습니다.",
+        "tl": "Pagkaraan ng ilang araw, dinala ni Văn Minh si Xuân sa tennis club ng mga Pranses.",
+        "ne": "केही दिनपछि भान मिनले सुआनलाई फ्रान्सेलीहरू जम्मा हुने टेनिस क्लब लगे।",
+        "id": "Beberapa hari kemudian, Văn Minh membawa Xuân ke klub tenis orang Prancis.",
+        "pt": "Dias depois, Văn Minh levou Xuân a um clube de tênis frequentado por franceses.",
+        "my": "ရက်အနည်းငယ်အကြာ ဗန် မင်းက ဆွမ်ကို ပြင်သစ်တွေ စုတဲ့ တင်းနစ်ကလပ်ကို ခေါ်သွားတယ်။",
+        "th": "ไม่กี่วันต่อมา วันมิญพาซวนไปสโมสรเทนนิสที่ชาวฝรั่งเศสมารวมตัว"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "数日後 = vài ngày sau. 「〜を〜へ連れて行く」: dẫn ai tới đâu.",
+        "en": "数日後 = a few days later. 「連れて行く」 = take someone.",
+        "zh-Hans": "数日後＝几天后。",
+        "zh-Hant": "數日後＝幾天後。",
+        "ko": "数日後=며칠 뒤.",
+        "tl": "数日後 = makalipas ang ilang araw.",
+        "ne": "数日後 = केही दिनपछि।",
+        "id": "数日後 = beberapa hari kemudian.",
+        "pt": "数日後 = dias depois.",
+        "my": "数日後 = ရက်အနည်းငယ်အကြာ။",
+        "th": "数日後 = ไม่กี่วันต่อมา"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=195.168,201.599",
+      "t": [
+        195.168,
+        201.599
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「上流の人間なら、テニスぐらいできなくてはね。きみ、やったことはあるかい。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "上流",
+          "reading": "じょうりゅう"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人間",
+          "reading": "にんげん"
+        },
+        {
+          "surface": "なら、テニスぐらいできなくてはね。きみ、やったことはあるかい。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Jouryuu no ningen nara, tenisu gurai dekinakute wa ne. Kimi, yatta koto wa aru kai.”",
+      "translations": {
+        "vi": "\"Đã là người thượng lưu thì ít ra cũng phải biết đánh quần vợt. Cậu chơi bao giờ chưa?\"",
+        "en": "\"A man of the upper class must at least play tennis. Have you ever played?\"",
+        "zh-Hans": "“上流人士嘛，至少得会打网球。你打过吗？”",
+        "zh-Hant": "“上流人士嘛，至少得會打網球。你打過嗎？”",
+        "ko": "\"상류층이라면 테니스 정도는 할 줄 알아야지. 자네 해 본 적 있나?\"",
+        "tl": "\"Ang taong mataas ang uri ay dapat marunong man lang mag-tennis. Nakapaglaro ka na ba?\"",
+        "ne": "\"उच्च वर्गको मान्छेले कम्तीमा टेनिस त खेल्न जान्नुपर्छ। तिमीले कहिल्यै खेलेका छौ?\"",
+        "id": "\"Orang kalangan atas setidaknya harus bisa tenis. Pernah main?\"",
+        "pt": "\"Um homem da elite tem que ao menos jogar tênis. Já jogou?\"",
+        "my": "\"အထက်တန်းလွှာဆိုရင် တင်းနစ်လောက်တော့ ကစားတတ်ရမယ်။ မင်း ကစားဖူးလား။\"",
+        "th": "\"คนชั้นสูงอย่างน้อยต้องเล่นเทนนิสเป็น เธอเคยเล่นไหม\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ぐらい」: ít nhất cũng ~. 「〜なくてはね」: phải ~ chứ. 「〜たことはある」: đã từng ~.",
+        "en": "「〜ぐらい」 = at least ~. 「〜なくては」 = must. 「〜たことがある」 = have done.",
+        "zh-Hans": "「〜ぐらい」＝至少……。「〜なくては」＝必须。",
+        "zh-Hant": "「〜ぐらい」＝至少……。「〜なくては」＝必須。",
+        "ko": "「〜ぐらい」=~정도는.",
+        "tl": "「〜ぐらい」 = man lang.",
+        "ne": "「〜ぐらい」 = कम्तीमा।",
+        "id": "「〜ぐらい」 = setidaknya.",
+        "pt": "「〜ぐらい」 = ao menos.",
+        "my": "「〜ぐらい」 = လောက်တော့။",
+        "th": "「〜ぐらい」 = อย่างน้อย"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=202.499,208.849",
+      "t": [
+        202.499,
+        208.849
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「ええ、まあ……少しは。」",
+      "furigana": [
+        {
+          "surface": "「ええ、まあ……",
+          "reading": ""
+        },
+        {
+          "surface": "少",
+          "reading": "すこ"
+        },
+        {
+          "surface": "しは。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Ee, maa...... Sukoshi wa.”",
+      "translations": {
+        "vi": "\"Dạ, cũng... chút chút ạ.\"",
+        "en": "\"Well, yes... a little.\"",
+        "zh-Hans": "“嗯，这个……会一点。”",
+        "zh-Hant": "“嗯，這個……會一點。”",
+        "ko": "\"네, 뭐…… 조금은요.\"",
+        "tl": "\"Opo, medyo... kaunti.\"",
+        "ne": "\"हो, अलिअलि...\"",
+        "id": "\"Ya, yah... sedikit.\"",
+        "pt": "\"Bem... um pouco.\"",
+        "my": "\"ဟုတ်ကဲ့၊ နည်းနည်းပါ ...\"",
+        "th": "\"ครับ ก็... นิดหน่อย\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "まあ = thì cũng (nói lấp lửng, khiêm tốn).",
+        "en": "まあ = well (modest hedge).",
+        "zh-Hans": "まあ＝嗯，算是。",
+        "zh-Hant": "まあ＝嗯，算是。",
+        "ko": "まあ=뭐.",
+        "tl": "まあ = medyo.",
+        "ne": "まあ = खै।",
+        "id": "まあ = yah.",
+        "pt": "まあ = bem.",
+        "my": "まあ = ကဲ။",
+        "th": "まあ = ก็"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=209.749,211.61",
+      "t": [
+        209.749,
+        211.61
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "少しどころではありません。球拾いだったころ、誰もいない夕方のコートで、毎日こっそり練習していたのです。",
+      "furigana": [
+        {
+          "surface": "少",
+          "reading": "すこ"
+        },
+        {
+          "surface": "しどころではありません。",
+          "reading": ""
+        },
+        {
+          "surface": "球",
+          "reading": "たま"
+        },
+        {
+          "surface": "拾",
+          "reading": "ひろ"
+        },
+        {
+          "surface": "いだったころ、",
+          "reading": ""
+        },
+        {
+          "surface": "誰",
+          "reading": "だれ"
+        },
+        {
+          "surface": "もいない",
+          "reading": ""
+        },
+        {
+          "surface": "夕方",
+          "reading": "ゆうがた"
+        },
+        {
+          "surface": "のコートで、",
+          "reading": ""
+        },
+        {
+          "surface": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "surface": "こっそり",
+          "reading": ""
+        },
+        {
+          "surface": "練習",
+          "reading": "れんしゅう"
+        },
+        {
+          "surface": "していたのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sukoshi dokoro de wa arimasen. Tama hiroidatta koro, dare mo inai yuugata no kooto de, mainichi kossori renshuushiteita no desu.",
+      "translations": {
+        "vi": "Đâu chỉ chút chút. Hồi nhặt bóng, ngày nào cậu cũng lén tập trên sân vắng lúc chiều tà.",
+        "en": "Far more than a little. As a ball boy, he had practiced secretly every evening on the empty court.",
+        "zh-Hans": "哪里只是一点。当捡球童时，他每天傍晚都在空无一人的球场上偷偷练习。",
+        "zh-Hant": "哪裡只是一點。當撿球童時，他每天傍晚都在空無一人的球場上偷偷練習。",
+        "ko": "조금 정도가 아닙니다. 공 줍던 시절, 아무도 없는 저녁 코트에서 매일 몰래 연습했던 것입니다.",
+        "tl": "Higit pa sa kaunti. Noong ball boy siya, palihim siyang nag-eensayo gabi-gabi sa bakanteng court.",
+        "ne": "अलिअलि मात्र होइन। बल टिप्दा उनी हरेक साँझ खाली कोर्टमा लुकेर अभ्यास गर्थे।",
+        "id": "Bukan sedikit. Saat jadi pemungut bola, tiap sore ia diam-diam berlatih di lapangan sepi.",
+        "pt": "Muito mais que um pouco. Como gandula, treinava escondido toda tarde na quadra vazia.",
+        "my": "နည်းနည်းတင် မဟုတ်ဘူး။ ဘောကောက်တုန်းက လူမရှိတဲ့ ညနေ ကွင်းမှာ နေ့တိုင်း ခိုးလေ့ကျင့်ခဲ့တယ်။",
+        "th": "ไม่ใช่แค่นิดหน่อย ตอนเป็นเด็กเก็บลูก เขาแอบซ้อมทุกเย็นในสนามที่ว่างเปล่า"
+      },
+      "vocab": [
+        {
+          "word": "こっそり",
+          "reading": "こっそり",
+          "meanings": {
+            "vi": "lén lút, len lén",
+            "en": "secretly, stealthily",
+            "zh-Hans": "悄悄地",
+            "zh-Hant": "悄悄地",
+            "ko": "몰래",
+            "tl": "palihim",
+            "ne": "लुकेर",
+            "id": "diam-diam",
+            "pt": "às escondidas",
+            "my": "တိတ်တဆိတ်",
+            "th": "แอบ ๆ"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「〜どころではない」: đâu chỉ ~ / còn hơn ~ nhiều (N2). こっそり = lén lút.",
+        "en": "「〜どころではない」 = far more than ~ (N2). こっそり = secretly.",
+        "zh-Hans": "「〜どころではない」＝哪里只是……（N2）。こっそり＝偷偷地。",
+        "zh-Hant": "「〜どころではない」＝哪裡只是……（N2）。こっそり＝偷偷地。",
+        "ko": "「〜どころではない」=~정도가 아니다.",
+        "tl": "Higit pa sa ~.",
+        "ne": "~ मात्र होइन।",
+        "id": "Bukan sekadar ~.",
+        "pt": "Muito mais que ~.",
+        "my": "~ တင် မဟုတ်။",
+        "th": "ไม่ใช่แค่ ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=212.51,221.851",
+      "t": [
+        212.51,
+        221.851
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ラケットを握ったスアンは、あっという間に、クラブの紳士たちを次々と負かしてしまいました。",
+      "furigana": [
+        {
+          "surface": "ラケットを",
+          "reading": ""
+        },
+        {
+          "surface": "握",
+          "reading": "にぎ"
+        },
+        {
+          "surface": "ったスアンは、あっという",
+          "reading": ""
+        },
+        {
+          "surface": "間",
+          "reading": "ま"
+        },
+        {
+          "surface": "に、クラブの",
+          "reading": ""
+        },
+        {
+          "surface": "紳士",
+          "reading": "しんし"
+        },
+        {
+          "surface": "たちを",
+          "reading": ""
+        },
+        {
+          "surface": "次々",
+          "reading": "つぎつぎ"
+        },
+        {
+          "surface": "と",
+          "reading": ""
+        },
+        {
+          "surface": "負",
+          "reading": "ま"
+        },
+        {
+          "surface": "かしてしまいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Raketto o nigitta Suan wa, attoiumani, kurabu no shinshitachi o tsugitsugi to makashiteshimaimashita.",
+      "translations": {
+        "vi": "Cầm vợt lên, Xuân loáng một cái đã hạ gục lần lượt các quý ông trong câu lạc bộ.",
+        "en": "Racket in hand, Xuân beat the club's gentlemen one after another in no time.",
+        "zh-Hans": "阿春一握球拍，转眼间就接连打败了俱乐部的绅士们。",
+        "zh-Hant": "阿春一握球拍，轉眼間就接連打敗了俱樂部的紳士們。",
+        "ko": "라켓을 쥔 쑤언은 순식간에 클럽 신사들을 차례로 이겨 버렸습니다.",
+        "tl": "Hawak ang raketa, sunud-sunod na tinalo ni Xuân ang mga ginoo ng club.",
+        "ne": "र्‍याकेट समातेका सुआनले छिनमै क्लबका सज्जनहरूलाई एकपछि अर्को हराए।",
+        "id": "Dengan raket di tangan, Xuân sekejap mengalahkan para pria klub satu per satu.",
+        "pt": "De raquete na mão, Xuân derrotou num instante os cavalheiros do clube um após o outro.",
+        "my": "ရက်ကက် ကိုင်လိုက်တဲ့ ဆွမ်က ခဏချင်းမှာ ကလပ်က လူကြီးလူကောင်းတွေကို တစ်ယောက်ပြီးတစ်ယောက် နိုင်သွားတယ်။",
+        "th": "พอจับไม้ ซวนก็เอาชนะสุภาพบุรุษในสโมสรทีละคนในพริบตา"
+      },
+      "vocab": [
+        {
+          "word": "紳士",
+          "reading": "しんし",
+          "meanings": {
+            "vi": "quý ông",
+            "en": "gentleman",
+            "zh-Hans": "绅士",
+            "zh-Hant": "紳士",
+            "ko": "신사",
+            "tl": "ginoo",
+            "ne": "सज्जन",
+            "id": "pria terhormat",
+            "pt": "cavalheiro",
+            "my": "လူကြီးလူကောင်း",
+            "th": "สุภาพบุรุษ"
+          },
+          "level": "N1"
+        },
+        {
+          "word": "負かす",
+          "reading": "まかす",
+          "meanings": {
+            "vi": "đánh bại",
+            "en": "defeat",
+            "zh-Hans": "打败",
+            "zh-Hant": "打敗",
+            "ko": "이기다",
+            "tl": "talunin",
+            "ne": "हराउनु",
+            "id": "mengalahkan",
+            "pt": "derrotar",
+            "my": "အနိုင်ယူသည်",
+            "th": "เอาชนะ"
+          },
+          "level": "N1"
+        }
+      ],
+      "grammarNote": {
+        "vi": "あっという間に = trong nháy mắt. 負かす = đánh bại. 「〜てしまう」: (làm) mất rồi.",
+        "en": "あっという間に = in an instant. 負かす = defeat.",
+        "zh-Hans": "あっという間に＝转眼间。",
+        "zh-Hant": "あっという間に＝轉眼間。",
+        "ko": "あっという間に=순식간에.",
+        "tl": "Sa isang iglap.",
+        "ne": "छिनमै।",
+        "id": "Sekejap.",
+        "pt": "Num instante.",
+        "my": "ခဏချင်း။",
+        "th": "ในพริบตา"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=222.451,229.789",
+      "t": [
+        222.451,
+        229.789
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「すばらしい！ さすがは医学生、体の仕組みを心得ていらっしゃる！」",
+      "furigana": [
+        {
+          "surface": "「すばらしい！ さすがは",
+          "reading": ""
+        },
+        {
+          "surface": "医学",
+          "reading": "いがく"
+        },
+        {
+          "surface": "生",
+          "reading": "せい"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "体",
+          "reading": "からだ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "仕組",
+          "reading": "しく"
+        },
+        {
+          "surface": "みを",
+          "reading": ""
+        },
+        {
+          "surface": "心得",
+          "reading": "こころえ"
+        },
+        {
+          "surface": "ていらっしゃる！」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Subarashii! Sasuga wa igakusei, karada no shikumi o kokoroete irassharu!”",
+      "translations": {
+        "vi": "\"Tuyệt vời! Quả là sinh viên y khoa, am hiểu cơ thể người có khác!\"",
+        "en": "\"Splendid! As expected of a medical student, he understands how the body works!\"",
+        "zh-Hans": "“太棒了！不愧是医学生，懂得身体的构造！”",
+        "zh-Hant": "“太棒了！不愧是醫學生，懂得身體的構造！”",
+        "ko": "\"훌륭해! 역시 의대생이라 몸의 구조를 잘 아시는군!\"",
+        "tl": "\"Kahanga-hanga! Estudyante nga ng medisina, alam ang katawan!\"",
+        "ne": "\"अद्भुत! मेडिकल विद्यार्थी न हो, शरीरको बनावट जान्दा रहेछन्!\"",
+        "id": "\"Hebat! Pantas mahasiswa kedokteran, paham cara kerja tubuh!\"",
+        "pt": "\"Esplêndido! Bem se vê que é estudante de medicina, entende do corpo!\"",
+        "my": "\"အံ့ဩစရာ! ဆေးကျောင်းသား ဆိုတော့ ခန္ဓာကိုယ်ကို နားလည်တာပဲ!\"",
+        "th": "\"ยอดเยี่ยม! สมกับเป็นนักศึกษาแพทย์ เข้าใจกลไกร่างกาย!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「さすがは〜」: quả không hổ là ~. 心得る = am hiểu. いらっしゃる = kính ngữ.",
+        "en": "「さすがは〜」 = as expected of ~. 心得る = understand well.",
+        "zh-Hans": "「さすがは〜」＝不愧是……。",
+        "zh-Hant": "「さすがは〜」＝不愧是……。",
+        "ko": "「さすがは〜」=역시 ~.",
+        "tl": "Gaya ng inaasahan sa ~.",
+        "ne": "~ न हो।",
+        "id": "Pantas ~.",
+        "pt": "Bem se vê que é ~.",
+        "my": "~ ပီသတယ်။",
+        "th": "สมกับเป็น ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=230.689,235.15",
+      "t": [
+        230.689,
+        235.15
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "医学とは何の関係もないのですが、そこを疑う者は一人もいませんでした。",
+      "furigana": [
+        {
+          "surface": "医学",
+          "reading": "いがく"
+        },
+        {
+          "surface": "とは",
+          "reading": ""
+        },
+        {
+          "surface": "何",
+          "reading": "なに"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "関係",
+          "reading": "かんけい"
+        },
+        {
+          "surface": "もないのですが、そこを",
+          "reading": ""
+        },
+        {
+          "surface": "疑",
+          "reading": "うたが"
+        },
+        {
+          "surface": "う",
+          "reading": ""
+        },
+        {
+          "surface": "者",
+          "reading": "もの"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "一人",
+          "reading": "ひとり"
+        },
+        {
+          "surface": "もいませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Igaku to wa nani no kankei mo nai no desu ga, soko o utagau mono wa hitori mo imasendeshita.",
+      "translations": {
+        "vi": "Chuyện đó chẳng dính dáng gì tới y học, nhưng không một ai nghi ngờ.",
+        "en": "It had nothing to do with medicine, but not a single person doubted it.",
+        "zh-Hans": "这和医学毫无关系，但没有一个人怀疑。",
+        "zh-Hant": "這和醫學毫無關係，但沒有一個人懷疑。",
+        "ko": "의학과는 아무 상관도 없는데, 그걸 의심하는 사람은 한 명도 없었습니다.",
+        "tl": "Walang kinalaman ito sa medisina, pero walang kahit isang nagduda.",
+        "ne": "यसको चिकित्सासँग कुनै सम्बन्ध थिएन, तर एक जनाले पनि शंका गरेनन्।",
+        "id": "Tak ada hubungannya dengan kedokteran, tapi tak seorang pun ragu.",
+        "pt": "Nada tinha a ver com medicina, mas ninguém duvidou.",
+        "my": "ဆေးပညာနဲ့ ဘာမှ မဆိုင်ပေမဲ့ သံသယ ဝင်တဲ့သူ တစ်ယောက်မှ မရှိဘူး။",
+        "th": "ไม่เกี่ยวกับแพทย์เลย แต่ไม่มีใครสงสัยสักคน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜とは何の関係もない」: chẳng liên quan gì tới ~. 「一人も〜ない」: không một ai.",
+        "en": "「〜とは何の関係もない」 = has nothing to do with ~. 「一人も〜ない」 = not a single person.",
+        "zh-Hans": "「一人も〜ない」＝一个人也没有。",
+        "zh-Hant": "「一人も〜ない」＝一個人也沒有。",
+        "ko": "「一人も〜ない」=한 명도 없다.",
+        "tl": "Walang kahit isa.",
+        "ne": "एक जना पनि छैन।",
+        "id": "Tak seorang pun.",
+        "pt": "Ninguém.",
+        "my": "တစ်ယောက်မှ မရှိ။",
+        "th": "ไม่มีสักคน"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=236.05,242.093",
+      "t": [
+        236.05,
+        242.093
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "その日を境に、スアンは「テニスの名手」としても、町に名を知られるようになりました。",
+      "furigana": [
+        {
+          "surface": "その",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "境",
+          "reading": "さかい"
+        },
+        {
+          "surface": "に、スアンは「テニスの",
+          "reading": ""
+        },
+        {
+          "surface": "名手",
+          "reading": "めいしゅ"
+        },
+        {
+          "surface": "」としても、",
+          "reading": ""
+        },
+        {
+          "surface": "町",
+          "reading": "まち"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "名",
+          "reading": "な"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "知",
+          "reading": "し"
+        },
+        {
+          "surface": "られるようになりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono hi o sakai ni, Suan wa “Tenisu no meishu” to shite mo, machi ni na o shirareru you ni narimashita.",
+      "translations": {
+        "vi": "Từ hôm đó, Xuân còn nổi tiếng khắp phố là \"tay vợt cừ khôi\".",
+        "en": "From that day, Xuân also became known about town as a \"tennis ace\".",
+        "zh-Hans": "从那天起，阿春又以“网球高手”闻名全城。",
+        "zh-Hant": "從那天起，阿春又以“網球高手”聞名全城。",
+        "ko": "그날을 계기로 쑤언은 '테니스 명수'로도 동네에 이름이 알려지게 되었습니다.",
+        "tl": "Mula noon, nakilala rin si Xuân sa bayan bilang \"magaling sa tennis\".",
+        "ne": "त्यो दिनदेखि सुआन सहरभर \"टेनिसका उस्ताद\" भनेर पनि चिनिन थाले।",
+        "id": "Sejak hari itu, Xuân juga dikenal sebagai \"jago tenis\".",
+        "pt": "A partir daquele dia, Xuân ficou conhecido também como \"ás do tênis\".",
+        "my": "အဲဒီနေ့ကစပြီး ဆွမ်ဟာ \"တင်းနစ် ကျွမ်းကျင်သူ\" အဖြစ်ပါ နာမည်ကြီးလာတယ်။",
+        "th": "ตั้งแต่วันนั้น ซวนก็มีชื่อเสียงว่าเป็น \"ยอดฝีมือเทนนิส\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜を境に」: lấy ~ làm mốc, từ ~ trở đi (N2). 名手 = tay cừ. 名を知られる = nổi danh.",
+        "en": "「〜を境に」 = from ~ on (N2). 名手 = master.",
+        "zh-Hans": "「〜を境に」＝以……为界（N2）。",
+        "zh-Hant": "「〜を境に」＝以……為界（N2）。",
+        "ko": "「〜を境に」=~을 계기로.",
+        "tl": "「〜を境に」 = mula noon.",
+        "ne": "「〜を境に」 = त्यसदेखि।",
+        "id": "「〜を境に」 = sejak ~.",
+        "pt": "「〜を境に」 = a partir de ~.",
+        "my": "「〜を境に」 = ကစပြီး။",
+        "th": "「〜を境に」 = นับแต่ ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=242.693,249.751",
+      "t": [
+        242.693,
+        249.751
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "噂を聞きつけたフォー・ドアン夫人も、さっそく見物にやって来ました。",
+      "furigana": [
+        {
+          "surface": "噂",
+          "reading": "うわさ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "きつけたフォー・ドアン",
+          "reading": ""
+        },
+        {
+          "surface": "夫人",
+          "reading": "ふじん"
+        },
+        {
+          "surface": "も、さっそく",
+          "reading": ""
+        },
+        {
+          "surface": "見物",
+          "reading": "けんぶつ"
+        },
+        {
+          "surface": "にやって",
+          "reading": ""
+        },
+        {
+          "surface": "来",
+          "reading": "き"
+        },
+        {
+          "surface": "ました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Uwasa o kikitsuketa Foo・doan fujin mo, sassoku kenbutsu ni yattekimashita.",
+      "translations": {
+        "vi": "Nghe phong thanh, bà Phó Đoan cũng lập tức tới xem.",
+        "en": "Hearing the rumors, Madame Phó Đoan promptly came to watch.",
+        "zh-Hans": "听到传闻，副端夫人也立刻赶来观看。",
+        "zh-Hant": "聽到傳聞，副端夫人也立刻趕來觀看。",
+        "ko": "소문을 들은 포도안 부인도 곧바로 구경하러 왔습니다.",
+        "tl": "Nang mabalitaan, agad ding dumating si Ginang Phó Đoan para manood.",
+        "ne": "हल्ला सुनेर फो दोआन श्रीमती पनि तुरुन्तै हेर्न आइन्।",
+        "id": "Mendengar kabar itu, Nyonya Phó Đoan segera datang menonton.",
+        "pt": "Ouvindo o boato, a senhora Phó Đoan logo veio assistir.",
+        "my": "သတင်းကြားတော့ ဖိုဒိုအန် ကတော်လည်း ချက်ချင်း ကြည့်ဖို့ ရောက်လာတယ်။",
+        "th": "คุณนายโฟโดอานได้ยินข่าวก็รีบมาดูทันที"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "聞きつける = nghe phong thanh. さっそく = lập tức. 見物 = xem, ngắm.",
+        "en": "聞きつける = catch wind of. さっそく = right away.",
+        "zh-Hans": "聞きつける＝听到风声。",
+        "zh-Hant": "聞きつける＝聽到風聲。",
+        "ko": "聞きつける=소문을 듣다.",
+        "tl": "Mabalitaan.",
+        "ne": "हल्ला सुन्नु।",
+        "id": "Mendengar kabar.",
+        "pt": "Ficar sabendo.",
+        "my": "သတင်းကြား။",
+        "th": "ได้ยินข่าว"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=250.351,255.488",
+      "t": [
+        250.351,
+        255.488
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「まあ、スアン。すっかり立派になって。わたしのおかげだってこと、忘れないでね。」",
+      "furigana": [
+        {
+          "surface": "「まあ、スアン。すっかり",
+          "reading": ""
+        },
+        {
+          "surface": "立派",
+          "reading": "りっぱ"
+        },
+        {
+          "surface": "になって。わたしのおかげだってこと、",
+          "reading": ""
+        },
+        {
+          "surface": "忘",
+          "reading": "わす"
+        },
+        {
+          "surface": "れないでね。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Maa, Suan. Sukkari rippa ni natte. Watashi no okage datte koto, wasurenaide ne.”",
+      "translations": {
+        "vi": "\"Ôi chao, Xuân. Đĩnh đạc hẳn ra rồi. Nhờ ai mà được thế này, đừng có quên đấy nhé.\"",
+        "en": "\"My, Xuân. Look how fine you've become. Don't forget it's all thanks to me.\"",
+        "zh-Hans": "“哎呀，阿春。你可真有出息了。别忘了这都是托我的福哦。”",
+        "zh-Hant": "“哎呀，阿春。你可真有出息了。別忘了這都是託我的福哦。”",
+        "ko": "\"어머, 쑤언. 아주 훌륭해졌네. 내 덕분이라는 거 잊지 마.\"",
+        "tl": "\"Aba, Xuân. Ang ganda na ng ayos mo. Huwag mong kalimutan na dahil sa akin iyan.\"",
+        "ne": "\"अहो सुआन, कति राम्रो भइसक्यौ। यो मेरै कारण हो भन्ने नबिर्स है।\"",
+        "id": "\"Wah, Xuân. Sudah gagah sekali. Jangan lupa itu berkat aku, ya.\"",
+        "pt": "\"Ora, Xuân. Que distinto você ficou. Não se esqueça de que foi graças a mim.\"",
+        "my": "\"အမယ်၊ ဆွမ်။ တော်တော် ခန့်ညားလာပြီ။ ငါ့ကြောင့်ဆိုတာ မမေ့နဲ့နော်။\"",
+        "th": "\"ตายแล้ว ซวน ดูดีขึ้นเยอะเลย อย่าลืมนะว่าเพราะฉัน\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜のおかげ」: nhờ ~. 「〜ってこと」: (văn nói) việc ~.",
+        "en": "「〜のおかげ」 = thanks to ~. 「〜ってこと」 = (spoken) the fact that ~.",
+        "zh-Hans": "「〜のおかげ」＝多亏……。",
+        "zh-Hant": "「〜のおかげ」＝多虧……。",
+        "ko": "「〜のおかげ」=~덕분.",
+        "tl": "Dahil sa ~.",
+        "ne": "~ को कारण।",
+        "id": "Berkat ~.",
+        "pt": "Graças a ~.",
+        "my": "~ ကြောင့်။",
+        "th": "เพราะ ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=256.388,262.937",
+      "t": [
+        256.388,
+        262.937
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「はい、奥様。罰金を払っていただいたご恩は、一生忘れません。」",
+      "furigana": [
+        {
+          "surface": "「はい、",
+          "reading": ""
+        },
+        {
+          "surface": "奥様",
+          "reading": "おくさま"
+        },
+        {
+          "surface": "。",
+          "reading": ""
+        },
+        {
+          "surface": "罰金",
+          "reading": "ばっきん"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "払",
+          "reading": "はら"
+        },
+        {
+          "surface": "っていただいたご",
+          "reading": ""
+        },
+        {
+          "surface": "恩",
+          "reading": "おん"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "一生",
+          "reading": "いっしょう"
+        },
+        {
+          "surface": "忘",
+          "reading": "わす"
+        },
+        {
+          "surface": "れません。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Hai, okusama. Bakkin o haratteitadaita goon wa, isshou wasuremasen.”",
+      "translations": {
+        "vi": "\"Vâng thưa bà. Ơn bà nộp tiền phạt cho, suốt đời cháu không quên.\"",
+        "en": "\"Yes, Madame. I'll never forget the kindness of you paying my fine.\"",
+        "zh-Hans": "“是的，夫人。您替我交罚款的恩情，我一辈子都不会忘。”",
+        "zh-Hant": "“是的，夫人。您替我交罰款的恩情，我一輩子都不會忘。”",
+        "ko": "\"네, 사모님. 벌금을 내주신 은혜는 평생 잊지 않겠습니다.\"",
+        "tl": "\"Opo, Ginang. Hindi ko kalilimutan habang buhay ang pagbayad ninyo ng multa ko.\"",
+        "ne": "\"हजुर, महोदया। जरिवाना तिरिदिनुभएको गुन जीवनभर बिर्सन्नँ।\"",
+        "id": "\"Ya, Nyonya. Budi Anda membayar denda saya takkan saya lupakan seumur hidup.\"",
+        "pt": "\"Sim, senhora. Jamais esquecerei a bondade de ter pago minha multa.\"",
+        "my": "\"ဟုတ်ကဲ့ ကတော်။ ဒဏ်ငွေ ပေးခဲ့တဲ့ ကျေးဇူးကို တစ်သက်လုံး မမေ့ပါဘူး။\"",
+        "th": "\"ครับคุณนาย บุญคุณที่จ่ายค่าปรับให้ ผมจะไม่ลืมไปตลอดชีวิต\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "恩 = ơn. 「〜ていただく」: được (ai) làm cho (khiêm nhường). 一生 = suốt đời.",
+        "en": "恩 = debt of gratitude. 「〜ていただく」 = humbly receive the favor of ~.",
+        "zh-Hans": "「〜ていただく」＝承蒙……。",
+        "zh-Hant": "「〜ていただく」＝承蒙……。",
+        "ko": "「〜ていただく」=~해 주시다(겸양).",
+        "tl": "恩 = utang na loob.",
+        "ne": "恩 = गुन।",
+        "id": "恩 = budi.",
+        "pt": "恩 = favor.",
+        "my": "恩 = ကျေးဇူး။",
+        "th": "恩 = บุญคุณ"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=263.837,268.686",
+      "t": [
+        263.837,
+        268.686
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "口ではそう言いながらも、スアンは夫人の熱いまなざしから、さりげなく逃げていました。",
+      "furigana": [
+        {
+          "surface": "口",
+          "reading": "くち"
+        },
+        {
+          "surface": "ではそう",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "いながらも、スアンは",
+          "reading": ""
+        },
+        {
+          "surface": "夫人",
+          "reading": "ふじん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "熱",
+          "reading": "あつ"
+        },
+        {
+          "surface": "いまなざしから、さりげなく",
+          "reading": ""
+        },
+        {
+          "surface": "逃",
+          "reading": "に"
+        },
+        {
+          "surface": "げていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kuchi de wa sou iinagara mo, Suan wa fujin no atsui manazashi kara, sarige naku nigeteimashita.",
+      "translations": {
+        "vi": "Miệng thì nói vậy, nhưng Xuân vẫn khéo léo né ánh mắt nồng nhiệt của bà.",
+        "en": "Though he said so, Xuân deftly dodged her ardent gaze.",
+        "zh-Hans": "嘴上这么说，阿春却不动声色地躲开了夫人火热的目光。",
+        "zh-Hant": "嘴上這麼說，阿春卻不動聲色地躲開了夫人火熱的目光。",
+        "ko": "입으로는 그렇게 말하면서도 쑤언은 부인의 뜨거운 시선을 슬쩍 피하고 있었습니다.",
+        "tl": "Kahit ganoon ang sinabi, mahusay na iniwasan ni Xuân ang maalab niyang titig.",
+        "ne": "मुखले त्यसो भने पनि सुआन उनको तातो नजरबाट चलाखीसाथ भागिरहेका थिए।",
+        "id": "Walau berkata begitu, Xuân diam-diam menghindari tatapan panasnya.",
+        "pt": "Embora dissesse isso, Xuân esquivava-se com jeito do olhar ardente dela.",
+        "my": "ပါးစပ်က အဲလို ပြောပေမဲ့ ဆွမ်က ကတော်ရဲ့ ပူပြင်းတဲ့ အကြည့်ကို သိမ်သိမ်မွေ့မွေ့ ရှောင်နေတယ်။",
+        "th": "ปากพูดอย่างนั้น แต่ซวนก็แอบหลบสายตาร้อนแรงของคุณนายอย่างแนบเนียน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ながらも」: tuy ~ nhưng (đối lập). さりげなく = một cách tự nhiên, khéo léo.",
+        "en": "「〜ながらも」 = while/although ~. さりげなく = casually.",
+        "zh-Hans": "「〜ながらも」＝虽然……却……。",
+        "zh-Hant": "「〜ながらも」＝雖然……卻……。",
+        "ko": "「〜ながらも」=~하면서도.",
+        "tl": "「〜ながらも」 = kahit ~.",
+        "ne": "「〜ながらも」 = ~ भए पनि।",
+        "id": "「〜ながらも」 = walau ~.",
+        "pt": "「〜ながらも」 = embora ~.",
+        "my": "「〜ながらも」 = ~ ပေမဲ့။",
+        "th": "「〜ながらも」 = แม้ ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=269.586,276.282",
+      "t": [
+        269.586,
+        276.282
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのころ、ヴァンミンは、また新しい計画を思いついていました。",
+      "furigana": [
+        {
+          "surface": "そのころ、ヴァンミンは、また",
+          "reading": ""
+        },
+        {
+          "surface": "新",
+          "reading": "あたら"
+        },
+        {
+          "surface": "しい",
+          "reading": ""
+        },
+        {
+          "surface": "計画",
+          "reading": "けいかく"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "いついていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono koro, Vanmin wa, mata atarashii keikaku o omoitsuiteimashita.",
+      "translations": {
+        "vi": "Khi ấy, Văn Minh lại nảy ra một kế hoạch mới.",
+        "en": "Around then, Văn Minh came up with yet another plan.",
+        "zh-Hans": "那时，文明先生又想出了一个新计划。",
+        "zh-Hant": "那時，文明先生又想出了一個新計劃。",
+        "ko": "그 무렵 반민은 또 새로운 계획을 떠올렸습니다.",
+        "tl": "Noong panahong iyon, may bago na namang plano si Văn Minh.",
+        "ne": "त्यस बेला भान मिनले फेरि नयाँ योजना सोचे।",
+        "id": "Saat itu, Văn Minh punya rencana baru lagi.",
+        "pt": "Nessa época, Văn Minh teve mais uma ideia.",
+        "my": "အဲဒီအချိန် ဗန် မင်းက အစီအစဉ်သစ် တစ်ခု ထပ်တွေးမိတယ်။",
+        "th": "ช่วงนั้น วันมิญคิดแผนใหม่ขึ้นมาอีก"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "思いつく = nảy ra (ý tưởng). そのころ = khi ấy.",
+        "en": "思いつく = come up with. そのころ = around then.",
+        "zh-Hans": "思いつく＝想到。",
+        "zh-Hant": "思いつく＝想到。",
+        "ko": "思いつく=떠올리다.",
+        "tl": "思いつく = maisip.",
+        "ne": "思いつく = सोच्नु।",
+        "id": "思いつく = terpikir.",
+        "pt": "思いつく = ter uma ideia.",
+        "my": "思いつく = စိတ်ကူးရ။",
+        "th": "思いつく = คิดขึ้นได้"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=276.882,281.988",
+      "t": [
+        276.882,
+        281.988
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「スアン、新聞を出そうと思うんだ。仏教を広める新聞だよ。名前は『木魚』。」",
+      "furigana": [
+        {
+          "surface": "「スアン、",
+          "reading": ""
+        },
+        {
+          "surface": "新聞",
+          "reading": "しんぶん"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "そうと",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "うんだ。",
+          "reading": ""
+        },
+        {
+          "surface": "仏教",
+          "reading": "ぶっきょう"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "広",
+          "reading": "ひろ"
+        },
+        {
+          "surface": "める",
+          "reading": ""
+        },
+        {
+          "surface": "新聞",
+          "reading": "しんぶん"
+        },
+        {
+          "surface": "だよ。",
+          "reading": ""
+        },
+        {
+          "surface": "名前",
+          "reading": "なまえ"
+        },
+        {
+          "surface": "は『",
+          "reading": ""
+        },
+        {
+          "surface": "木魚",
+          "reading": "もくぎょ"
+        },
+        {
+          "surface": "』。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Suan, shinbun o dasou to omou n da. Bukkyou o hiromeru shinbun da yo. Namae wa “Mokugyo”.”",
+      "translations": {
+        "vi": "\"Xuân này, tôi định ra một tờ báo. Báo truyền bá đạo Phật. Tên là 'Gõ Mõ'.\"",
+        "en": "\"Xuân, I'm thinking of starting a newspaper. One to spread Buddhism. It's called 'The Wooden Fish'.\"",
+        "zh-Hans": "“阿春，我打算办一份报纸，弘扬佛教的报纸，叫《木鱼》。”",
+        "zh-Hant": "“阿春，我打算辦一份報紙，弘揚佛教的報紙，叫《木魚》。”",
+        "ko": "\"쑤언, 신문을 내 볼까 해. 불교를 알리는 신문이지. 이름은 '목어'.\"",
+        "tl": "\"Xuân, balak kong maglabas ng diyaryo. Pang-Budismo. 'Ang Kahoy na Isda' ang pangalan.\"",
+        "ne": "\"सुआन, म पत्रिका निकाल्ने सोचमा छु। बुद्ध धर्म फैलाउने। नाम 'काठको माछा'।\"",
+        "id": "\"Xuân, aku mau menerbitkan koran. Koran penyebar Buddhisme. Namanya 'Ikan Kayu'.\"",
+        "pt": "\"Xuân, quero lançar um jornal. Para difundir o budismo. Vai se chamar 'O Peixe de Madeira'.\"",
+        "my": "\"ဆွမ်၊ သတင်းစာ ထုတ်မလို့။ ဗုဒ္ဓဘာသာ ဖြန့်တဲ့ သတင်းစာ။ နာမည်က 'သစ်သားငါး'။\"",
+        "th": "\"ซวน ฉันจะออกหนังสือพิมพ์ เผยแผ่พุทธศาสนา ชื่อว่า 'ปลาไม้'\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "Nguyên tác: báo \"Gõ Mõ\" (木魚 = mõ). 「〜と思う」: định ~. 広める = truyền bá.",
+        "en": "Original: the paper \"Gõ Mõ\" (木魚 = temple wood block). 広める = spread.",
+        "zh-Hans": "原作《敲木鱼》。広める＝推广。",
+        "zh-Hant": "原作《敲木魚》。広める＝推廣。",
+        "ko": "広める=널리 알리다.",
+        "tl": "広める = ipalaganap.",
+        "ne": "広める = फैलाउनु।",
+        "id": "広める = menyebarkan.",
+        "pt": "広める = difundir.",
+        "my": "広める = ဖြန့်။",
+        "th": "広める = เผยแผ่"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=282.888,289.858",
+      "t": [
+        282.888,
+        289.858
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「仏教、ですか。先生は、お寺にはよく行かれるんですか。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "仏教",
+          "reading": "ぶっきょう"
+        },
+        {
+          "surface": "、ですか。",
+          "reading": ""
+        },
+        {
+          "surface": "先生",
+          "reading": "せんせい"
+        },
+        {
+          "surface": "は、お",
+          "reading": ""
+        },
+        {
+          "surface": "寺",
+          "reading": "てら"
+        },
+        {
+          "surface": "にはよく",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "かれるんですか。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Bukkyou, desu ka. Sensei wa, otera ni wa yoku ikareru n desu ka.”",
+      "translations": {
+        "vi": "\"Đạo Phật ạ. Anh có hay lên chùa không ạ?\"",
+        "en": "\"Buddhism, sir? Do you often go to the temple?\"",
+        "zh-Hans": "“佛教吗？先生常去寺庙吗？”",
+        "zh-Hant": "“佛教嗎？先生常去寺廟嗎？”",
+        "ko": "\"불교요? 선생님은 절에 자주 가시나요?\"",
+        "tl": "\"Budismo po? Madalas ba kayong pumunta sa templo?\"",
+        "ne": "\"बुद्ध धर्म? हजुर प्रायः गुम्बा जानुहुन्छ?\"",
+        "id": "\"Buddhisme? Apakah Bapak sering ke kuil?\"",
+        "pt": "\"Budismo? O senhor vai muito ao templo?\"",
+        "my": "\"ဗုဒ္ဓဘာသာလား။ ဆရာ ဘုရားကျောင်း ခဏခဏ သွားလား။\"",
+        "th": "\"พุทธศาสนาหรือครับ คุณไปวัดบ่อยไหมครับ\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "行かれる = kính ngữ của 行く (dạng bị động tôn kính).",
+        "en": "行かれる = honorific of 行く (passive form).",
+        "zh-Hans": "行かれる＝行く的尊敬语。",
+        "zh-Hant": "行かれる＝行く的尊敬語。",
+        "ko": "行かれる=가시다.",
+        "tl": "行かれる = magalang na \"pumunta\".",
+        "ne": "行かれる = आदरार्थी जानु।",
+        "id": "行かれる = pergi (hormat).",
+        "pt": "行かれる = ir (honorífico).",
+        "my": "行かれる = သွား (ရိုသေ)။",
+        "th": "行かれる = ไป (ยกย่อง)"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=290.758,295.199",
+      "t": [
+        290.758,
+        295.199
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「行くもんか。でも今は、仏教がはやっている。はやりに乗ってこそ、文明人というものさ。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "くもんか。でも",
+          "reading": ""
+        },
+        {
+          "surface": "今",
+          "reading": "いま"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "仏教",
+          "reading": "ぶっきょう"
+        },
+        {
+          "surface": "がはやっている。はやりに",
+          "reading": ""
+        },
+        {
+          "surface": "乗",
+          "reading": "の"
+        },
+        {
+          "surface": "ってこそ、",
+          "reading": ""
+        },
+        {
+          "surface": "文明",
+          "reading": "ぶんめい"
+        },
+        {
+          "surface": "人",
+          "reading": "じん"
+        },
+        {
+          "surface": "というものさ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Iku mon ka. Demo ima wa, bukkyou ga hayatteiru. Hayari ni notte koso, bunmeijin to iu mono sa.”",
+      "translations": {
+        "vi": "\"Đi làm gì. Nhưng giờ đạo Phật đang là mốt. Có chạy theo mốt mới đúng là người văn minh.\"",
+        "en": "\"As if! But Buddhism is in fashion now. Riding the trend is what makes a civilized man.\"",
+        "zh-Hans": "“去什么呀。不过现在佛教正时兴。跟上潮流，才叫文明人嘛。”",
+        "zh-Hant": "“去什麼呀。不過現在佛教正時興。跟上潮流，才叫文明人嘛。”",
+        "ko": "\"갈 리가 있나. 하지만 지금 불교가 유행이야. 유행을 타야 문명인이라는 거지.\"",
+        "tl": "\"Hindi, ah. Pero uso ngayon ang Budismo. Ang sumabay sa uso ang tunay na sibilisado.\"",
+        "ne": "\"किन जानु! तर अहिले बुद्ध धर्म चलनमा छ। चलन पछ्याउनु नै सभ्य मान्छे हो।\"",
+        "id": "\"Mana mungkin. Tapi Buddhisme sedang tren. Ikut tren, itulah orang beradab.\"",
+        "pt": "\"Até parece! Mas o budismo está na moda. Seguir a moda é que faz um homem civilizado.\"",
+        "my": "\"သွားမလား။ ဒါပေမဲ့ အခု ဗုဒ္ဓဘာသာ ခေတ်စားနေတယ်။ ခေတ်နဲ့အညီ လိုက်မှ ယဉ်ကျေးတဲ့သူပဲ။\"",
+        "th": "\"ไปทำไม แต่ตอนนี้พุทธศาสนากำลังฮิต ตามกระแสนั่นแหละถึงจะเป็นคนมีอารยธรรม\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜もんか」: làm gì có chuyện ~ (phủ định mạnh). 「〜てこそ」: chỉ khi ~ mới (N2). はやる = thịnh hành.",
+        "en": "「〜もんか」 = no way ~. 「〜てこそ」 = only by ~ (N2). はやる = be in fashion.",
+        "zh-Hans": "「〜もんか」＝才不……。「〜てこそ」＝只有……才（N2）。",
+        "zh-Hant": "「〜もんか」＝才不……。「〜てこそ」＝只有……才（N2）。",
+        "ko": "「〜てこそ」=~해야 비로소.",
+        "tl": "「〜てこそ」 = sa ~ lamang.",
+        "ne": "「〜てこそ」 = ~ गरेर मात्र।",
+        "id": "「〜てこそ」 = justru dengan ~.",
+        "pt": "「〜てこそ」 = só ao ~.",
+        "my": "「〜てこそ」 = ~ မှသာ။",
+        "th": "「〜てこそ」 = ต้อง ~ จึงจะ"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=296.099,303.213",
+      "t": [
+        296.099,
+        303.213
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "こうして、お経など一行も読んだことのない人々によって、仏教新聞『木魚』が生まれました。",
+      "furigana": [
+        {
+          "surface": "こうして、お",
+          "reading": ""
+        },
+        {
+          "surface": "経",
+          "reading": "けい"
+        },
+        {
+          "surface": "など",
+          "reading": ""
+        },
+        {
+          "surface": "一行",
+          "reading": "いちぎょう"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "読",
+          "reading": "よ"
+        },
+        {
+          "surface": "んだことのない",
+          "reading": ""
+        },
+        {
+          "surface": "人々",
+          "reading": "ひとびと"
+        },
+        {
+          "surface": "によって、",
+          "reading": ""
+        },
+        {
+          "surface": "仏教",
+          "reading": "ぶっきょう"
+        },
+        {
+          "surface": "新聞",
+          "reading": "しんぶん"
+        },
+        {
+          "surface": "『",
+          "reading": ""
+        },
+        {
+          "surface": "木魚",
+          "reading": "もくぎょ"
+        },
+        {
+          "surface": "』が",
+          "reading": ""
+        },
+        {
+          "surface": "生",
+          "reading": "う"
+        },
+        {
+          "surface": "まれました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Koushite, okei nado ichigyou mo yonda koto no nai hitobito ni yotte, bukkyou shinbun “Mokugyo” ga umaremashita.",
+      "translations": {
+        "vi": "Thế là, bởi tay những người chưa từng đọc một dòng kinh, tờ báo Phật giáo \"Gõ Mõ\" ra đời.",
+        "en": "And so, by people who had never read a single line of sutra, the Buddhist paper \"The Wooden Fish\" was born.",
+        "zh-Hans": "就这样，在一群连一行经文都没读过的人手中，佛教报纸《木鱼》诞生了。",
+        "zh-Hant": "就這樣，在一群連一行經文都沒讀過的人手中，佛教報紙《木魚》誕生了。",
+        "ko": "이렇게 해서 불경 한 줄 읽어 본 적 없는 사람들에 의해 불교 신문 '목어'가 탄생했습니다.",
+        "tl": "At sa mga taong hindi pa nakabasa ni isang linya ng sutra, isinilang ang Budistang diyaryong \"Ang Kahoy na Isda\".",
+        "ne": "यसरी, सूत्रको एक लाइन पनि नपढेका मानिसहरूद्वारा बौद्ध पत्रिका 'काठको माछा' जन्मियो।",
+        "id": "Begitulah, oleh orang-orang yang tak pernah membaca satu baris sutra pun, koran Buddha \"Ikan Kayu\" lahir.",
+        "pt": "E assim, por gente que nunca leu uma linha de sutra, nasceu o jornal budista \"O Peixe de Madeira\".",
+        "my": "ဒီလိုနဲ့ ဘုရားစာ တစ်ကြောင်းမှ မဖတ်ဖူးတဲ့ လူတွေက ဗုဒ္ဓဘာသာ သတင်းစာ 'သစ်သားငါး' ကို မွေးဖွားခဲ့တယ်။",
+        "th": "และแล้ว หนังสือพิมพ์พุทธ \"ปลาไม้\" ก็ถือกำเนิดโดยคนที่ไม่เคยอ่านพระสูตรแม้แต่บรรทัดเดียว"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜によって」: bởi ~ (chủ thể của câu bị động). 「一行も〜ない」: không một dòng nào.",
+        "en": "「〜によって」 = by ~ (passive agent). 「一行も〜ない」 = not a single line.",
+        "zh-Hans": "「〜によって」＝由……。",
+        "zh-Hant": "「〜によって」＝由……。",
+        "ko": "「〜によって」=~에 의해.",
+        "tl": "「〜によって」 = ng ~.",
+        "ne": "「〜によって」 = ~ द्वारा।",
+        "id": "「〜によって」 = oleh ~.",
+        "pt": "「〜によって」 = por ~.",
+        "my": "「〜によって」 = ~ က။",
+        "th": "「〜によって」 = โดย ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=304.113,311.842",
+      "t": [
+        304.113,
+        311.842
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "スアンは、そこでも「前途有望な若き名士」として紹介されました。",
+      "furigana": [
+        {
+          "surface": "スアンは、そこでも「",
+          "reading": ""
+        },
+        {
+          "surface": "前途有望",
+          "reading": "ぜんとゆうぼう"
+        },
+        {
+          "surface": "な",
+          "reading": ""
+        },
+        {
+          "surface": "若",
+          "reading": "わか"
+        },
+        {
+          "surface": "き",
+          "reading": ""
+        },
+        {
+          "surface": "名士",
+          "reading": "めいし"
+        },
+        {
+          "surface": "」として",
+          "reading": ""
+        },
+        {
+          "surface": "紹介",
+          "reading": "しょうかい"
+        },
+        {
+          "surface": "されました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suan wa, soko demo “Zentoyuubou na wakaki meishi” to shite shoukaisaremashita.",
+      "translations": {
+        "vi": "Ở đó, Xuân cũng được giới thiệu là \"danh sĩ trẻ đầy triển vọng\".",
+        "en": "There too, Xuân was introduced as \"a promising young gentleman of note\".",
+        "zh-Hans": "在那里，阿春也被介绍为“前途无量的青年名士”。",
+        "zh-Hant": "在那裡，阿春也被介紹為“前途無量的青年名士”。",
+        "ko": "거기서도 쑤언은 '전도유망한 젊은 명사'로 소개되었습니다.",
+        "tl": "Doon din, ipinakilala si Xuân bilang \"kilalang binatang may magandang kinabukasan\".",
+        "ne": "त्यहाँ पनि सुआनलाई \"होनहार युवा प्रतिष्ठित व्यक्ति\" भनेर चिनाइयो।",
+        "id": "Di sana pun Xuân diperkenalkan sebagai \"tokoh muda yang menjanjikan\".",
+        "pt": "Lá também Xuân foi apresentado como \"jovem notável e promissor\".",
+        "my": "အဲဒီမှာလည်း ဆွမ်ကို \"အနာဂတ် တောက်ပတဲ့ လူငယ် ထင်ရှားသူ\" လို့ မိတ်ဆက်တယ်။",
+        "th": "ที่นั่นซวนก็ถูกแนะนำว่าเป็น \"บุคคลหนุ่มผู้มีอนาคตไกล\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "前途有望 = đầy triển vọng. 名士 = danh sĩ. 「〜として紹介される」: được giới thiệu là ~.",
+        "en": "前途有望 = promising. 名士 = notable.",
+        "zh-Hans": "前途有望＝前途无量。名士＝名士。",
+        "zh-Hant": "前途有望＝前途無量。名士＝名士。",
+        "ko": "前途有望=전도유망.",
+        "tl": "前途有望 = may magandang kinabukasan.",
+        "ne": "前途有望 = होनहार।",
+        "id": "前途有望 = menjanjikan.",
+        "pt": "前途有望 = promissor.",
+        "my": "前途有望 = အနာဂတ်တောက်ပ။",
+        "th": "前途有望 = อนาคตไกล"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=312.442,317.694",
+      "t": [
+        312.442,
+        317.694
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "球拾いから、わずか数か月。スアンの運は、どこまでも上り続けていくように見えました。",
+      "furigana": [
+        {
+          "surface": "球",
+          "reading": "たま"
+        },
+        {
+          "surface": "拾",
+          "reading": "ひろ"
+        },
+        {
+          "surface": "いから、わずか",
+          "reading": ""
+        },
+        {
+          "surface": "数",
+          "reading": "すう"
+        },
+        {
+          "surface": "か",
+          "reading": ""
+        },
+        {
+          "surface": "月",
+          "reading": "げつ"
+        },
+        {
+          "surface": "。スアンの",
+          "reading": ""
+        },
+        {
+          "surface": "運",
+          "reading": "うん"
+        },
+        {
+          "surface": "は、どこまでも",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "のぼ"
+        },
+        {
+          "surface": "り",
+          "reading": ""
+        },
+        {
+          "surface": "続",
+          "reading": "つづ"
+        },
+        {
+          "surface": "けていくように",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "えました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tama hiroi kara, wazuka suukagetsu. Suan no un wa, doko made mo noboritsuzuketeiku you ni miemashita.",
+      "translations": {
+        "vi": "Từ cậu nhặt bóng, chỉ mới vài tháng. Vận đỏ của Xuân dường như cứ lên mãi không ngừng.",
+        "en": "Only a few months since being a ball boy. Xuân's luck seemed to keep on rising without end.",
+        "zh-Hans": "从捡球童算起，才短短几个月。阿春的运气似乎一路扶摇直上。",
+        "zh-Hant": "從撿球童算起，才短短幾個月。阿春的運氣似乎一路扶搖直上。",
+        "ko": "공 줍던 때로부터 불과 몇 달. 쑤언의 운은 끝없이 오르기만 하는 것 같았습니다.",
+        "tl": "Ilang buwan pa lang mula nang ball boy siya. Tila walang katapusang pumapaitaas ang swerte ni Xuân.",
+        "ne": "बल टिप्ने केटा भएको केही महिना मात्र। सुआनको भाग्य अन्त्यहीन माथि चढिरहे जस्तो देखिन्थ्यो।",
+        "id": "Baru beberapa bulan sejak jadi pemungut bola. Keberuntungan Xuân seakan terus naik tanpa henti.",
+        "pt": "Só alguns meses desde gandula. A sorte de Xuân parecia subir sem parar.",
+        "my": "ဘောကောက်ကနေ လအနည်းငယ်ပဲ ရှိသေးတယ်။ ဆွမ်ရဲ့ ကံက အဆုံးမရှိ တက်နေသလိုပဲ။",
+        "th": "จากเด็กเก็บลูกได้ไม่กี่เดือน โชคของซวนดูเหมือนจะพุ่งขึ้นไม่หยุด"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "わずか = chỉ vỏn vẹn. 「〜ように見える」: trông có vẻ ~. 「〜続ける」: tiếp tục ~.",
+        "en": "わずか = only. 「〜ように見える」 = seem to ~. 「〜続ける」 = keep ~ing.",
+        "zh-Hans": "わずか＝仅仅。「〜続ける」＝持续……。",
+        "zh-Hant": "わずか＝僅僅。「〜続ける」＝持續……。",
+        "ko": "わずか=불과.",
+        "tl": "わずか = lamang.",
+        "ne": "わずか = मात्र।",
+        "id": "わずか = hanya.",
+        "pt": "わずか = apenas.",
+        "my": "わずか = သာ။",
+        "th": "わずか = เพียง"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=318.294,326.514",
+      "t": [
+        318.294,
+        326.514
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ところが、大旦那の容体は、日に日に悪くなっていきました。",
+      "furigana": [
+        {
+          "surface": "ところが、",
+          "reading": ""
+        },
+        {
+          "surface": "大旦那",
+          "reading": "おおだんな"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "容体",
+          "reading": "ようだい"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "悪",
+          "reading": "わる"
+        },
+        {
+          "surface": "くなっていきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tokoroga, oodanna no youdai wa, hinihini waruku natteikimashita.",
+      "translations": {
+        "vi": "Thế nhưng, bệnh cụ cố tổ ngày một nặng thêm.",
+        "en": "But the patriarch's condition grew worse day by day.",
+        "zh-Hans": "可是，老太爷的病情一天比一天重。",
+        "zh-Hant": "可是，老太爺的病情一天比一天重。",
+        "ko": "그런데 큰 어른의 병세는 나날이 나빠져 갔습니다.",
+        "tl": "Pero araw-araw na lumalala ang kalagayan ng pinuno.",
+        "ne": "तर घरमूलीको अवस्था दिनदिनै बिग्रँदै गयो।",
+        "id": "Namun keadaan kepala keluarga makin buruk dari hari ke hari.",
+        "pt": "Mas o estado do patriarca piorava dia após dia.",
+        "my": "ဒါပေမဲ့ ဦးစီးရဲ့ ရောဂါက နေ့စဉ် ဆိုးလာတယ်။",
+        "th": "แต่อาการของท่านประมุขแย่ลงทุกวัน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "日に日に = ngày một. 「〜ていく」: (thay đổi) dần dần.",
+        "en": "日に日に = day by day. 「〜ていく」 = gradually.",
+        "zh-Hans": "日に日に＝一天天地。",
+        "zh-Hant": "日に日に＝一天天地。",
+        "ko": "日に日に=나날이.",
+        "tl": "日に日に = araw-araw.",
+        "ne": "日に日に = दिनदिनै।",
+        "id": "日に日に = dari hari ke hari.",
+        "pt": "日に日に = dia após dia.",
+        "my": "日に日に = နေ့စဉ်။",
+        "th": "日に日に = ทุกวัน"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=327.114,332.065",
+      "t": [
+        327.114,
+        332.065
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "寝台のまわりには親類が集まり、いかにも心配そうな顔を並べました。",
+      "furigana": [
+        {
+          "surface": "寝台",
+          "reading": "しんだい"
+        },
+        {
+          "surface": "のまわりには",
+          "reading": ""
+        },
+        {
+          "surface": "親類",
+          "reading": "しんるい"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "集",
+          "reading": "あつ"
+        },
+        {
+          "surface": "まり、いかにも",
+          "reading": ""
+        },
+        {
+          "surface": "心配",
+          "reading": "しんぱい"
+        },
+        {
+          "surface": "そうな",
+          "reading": ""
+        },
+        {
+          "surface": "顔",
+          "reading": "かお"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "並",
+          "reading": "なら"
+        },
+        {
+          "surface": "べました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shindai no mawari ni wa shinrui ga atsumari, ikanimo shinpaisou na kao o narabemashita.",
+      "translations": {
+        "vi": "Họ hàng kéo đến quanh giường, ai nấy đều trưng ra bộ mặt lo lắng rất mực.",
+        "en": "Relatives gathered around the bed, all wearing very worried faces.",
+        "zh-Hans": "亲戚们聚在床边，个个摆出一副忧心忡忡的样子。",
+        "zh-Hant": "親戚們聚在床邊，個個擺出一副憂心忡忡的樣子。",
+        "ko": "침대 주위에 친척들이 모여 하나같이 걱정스러운 얼굴을 늘어놓았습니다.",
+        "tl": "Nagtipon ang mga kamag-anak sa paligid ng kama, lahat ay mukhang alalang-alala.",
+        "ne": "खाटवरिपरि आफन्त जम्मा भए, सबैले निकै चिन्तित अनुहार देखाए।",
+        "id": "Kerabat berkumpul di sekitar ranjang, semua memasang wajah sangat cemas.",
+        "pt": "Os parentes se reuniram em volta da cama, todos com cara de muita preocupação.",
+        "my": "ကုတင်ဘေးမှာ ဆွေမျိုးတွေ စုပြီး အားလုံး စိတ်ပူတဲ့ မျက်နှာတွေ ပြကြတယ်။",
+        "th": "ญาติ ๆ มารวมตัวรอบเตียง ต่างทำหน้ากังวลเป็นอย่างยิ่ง"
+      },
+      "vocab": [
+        {
+          "word": "いかにも",
+          "reading": "いかにも",
+          "meanings": {
+            "vi": "đúng là, ra vẻ như",
+            "en": "truly; just as if",
+            "zh-Hans": "的确；显得",
+            "zh-Hant": "的確；顯得",
+            "ko": "정말로, 그럴듯하게",
+            "tl": "tunay na; tila",
+            "ne": "साँच्चै; जस्तो देखिने",
+            "id": "benar-benar; seolah",
+            "pt": "realmente; como se",
+            "my": "တကယ့်ကို",
+            "th": "ช่างดู…จริง ๆ"
+          },
+          "level": "N1"
+        }
+      ],
+      "grammarNote": {
+        "vi": "「いかにも〜そう」: trông rất ra vẻ ~ (thường hàm ý giả tạo). 顔を並べる = cùng có mặt.",
+        "en": "「いかにも〜そう」 = looking very ~ (often fake). 顔を並べる = line up.",
+        "zh-Hans": "「いかにも〜そう」＝显得很……（常带做作）。",
+        "zh-Hant": "「いかにも〜そう」＝顯得很……（常帶做作）。",
+        "ko": "「いかにも〜そう」=정말 ~해 보이는.",
+        "tl": "Mukhang-mukhang ~.",
+        "ne": "साँच्चै ~ जस्तो।",
+        "id": "Tampak sangat ~.",
+        "pt": "Com cara de muito ~.",
+        "my": "တကယ့်ကို ~ ပုံ။",
+        "th": "ทำท่าเหมือน ~ มาก"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=332.665,339.429",
+      "t": [
+        332.665,
+        339.429
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "けれどもその顔の下で、誰もが遺言のことばかり考えていたのです。",
+      "furigana": [
+        {
+          "surface": "けれどもその",
+          "reading": ""
+        },
+        {
+          "surface": "顔",
+          "reading": "かお"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "下",
+          "reading": "もと"
+        },
+        {
+          "surface": "で、",
+          "reading": ""
+        },
+        {
+          "surface": "誰",
+          "reading": "だれ"
+        },
+        {
+          "surface": "もが",
+          "reading": ""
+        },
+        {
+          "surface": "遺言",
+          "reading": "ゆいごん"
+        },
+        {
+          "surface": "のことばかり",
+          "reading": ""
+        },
+        {
+          "surface": "考",
+          "reading": "かんが"
+        },
+        {
+          "surface": "えていたのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Keredomo sono kao no moto de, dare mo ga yuigon no koto bakari kangaeteita no desu.",
+      "translations": {
+        "vi": "Nhưng sau những gương mặt ấy, ai cũng chỉ nghĩ tới bản di chúc.",
+        "en": "But beneath those faces, everyone was thinking only of the will.",
+        "zh-Hans": "可在那些面孔底下，每个人想的都只是遗嘱。",
+        "zh-Hant": "可在那些面孔底下，每個人想的都只是遺囑。",
+        "ko": "하지만 그 얼굴 아래에서 모두가 유언 생각만 하고 있었던 것입니다.",
+        "tl": "Pero sa likod ng mga mukhang iyon, testamento lang ang iniisip ng lahat.",
+        "ne": "तर ती अनुहारमुनि सबैले इच्छापत्रबारे मात्र सोचिरहेका थिए।",
+        "id": "Tapi di balik wajah itu, semua hanya memikirkan wasiat.",
+        "pt": "Mas, por baixo daqueles rostos, todos só pensavam no testamento.",
+        "my": "ဒါပေမဲ့ အဲဒီ မျက်နှာတွေ နောက်မှာ အားလုံး သေတမ်းစာကိုပဲ တွေးနေကြတယ်။",
+        "th": "แต่ภายใต้ใบหน้านั้น ทุกคนคิดแต่เรื่องพินัยกรรม"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ばかり」: chỉ toàn ~. 「〜の下で」: bên dưới ~ (ẩn dụ).",
+        "en": "「〜ばかり」 = nothing but ~.",
+        "zh-Hans": "「〜ばかり」＝光是……。",
+        "zh-Hant": "「〜ばかり」＝光是……。",
+        "ko": "「〜ばかり」=~만.",
+        "tl": "「〜ばかり」 = puro ~.",
+        "ne": "「〜ばかり」 = ~ मात्र।",
+        "id": "「〜ばかり」 = hanya ~.",
+        "pt": "「〜ばかり」 = só ~.",
+        "my": "「〜ばかり」 = ~ ပဲ။",
+        "th": "「〜ばかり」 = แต่ ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=340.029,346.533",
+      "t": [
+        340.029,
+        346.533
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「わかった、わかった！ 何度も言うなと言っておるだろう！」",
+      "furigana": [
+        {
+          "surface": "「わかった、わかった！ ",
+          "reading": ""
+        },
+        {
+          "surface": "何",
+          "reading": "なん"
+        },
+        {
+          "surface": "度",
+          "reading": "ど"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "うなと",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "っておるだろう！」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Wakatta, wakatta! Nando mo iu na to itteorudarou!”",
+      "translations": {
+        "vi": "\"Biết rồi, biết rồi! Đã bảo đừng có nói mãi cơ mà!\"",
+        "en": "\"I know, I know! Haven't I told you not to keep saying it!\"",
+        "zh-Hans": "“知道了，知道了！不是说了别老说吗！”",
+        "zh-Hant": "“知道了，知道了！不是說了別老說嗎！”",
+        "ko": "\"알았다, 알았다! 몇 번이나 말하지 말라고 했잖느냐!\"",
+        "tl": "\"Alam ko na, alam ko na! Sinabi ko nang huwag nang ulit-ulitin!\"",
+        "ne": "\"थाहा छ, थाहा छ! कति भन्छौ भनेको होइन!\"",
+        "id": "\"Tahu, tahu! Sudah kubilang jangan bilang terus!\"",
+        "pt": "\"Já sei, já sei! Já disse para parar de repetir!\"",
+        "my": "\"သိပြီ၊ သိပြီ! ထပ်ခါထပ်ခါ မပြောနဲ့လို့ ပြောထားတယ်လေ!\"",
+        "th": "\"รู้แล้ว รู้แล้ว! บอกแล้วไงว่าอย่าพูดซ้ำ!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜と言っておる」= 言っている (ông già nói). 「〜だろう」(lên giọng): chẳng phải ~ sao.",
+        "en": "おる = old-man ている. 「〜だろう」 = haven't I ~?",
+        "zh-Hans": "おる＝老人用语。",
+        "zh-Hant": "おる＝老人用語。",
+        "ko": "おる=노인말.",
+        "tl": "おる = matandang pananalita.",
+        "ne": "おる = वृद्धको बोली।",
+        "id": "おる = bahasa orang tua.",
+        "pt": "おる = fala de velho.",
+        "my": "おる = အဘိုးအို စကား။",
+        "th": "おる = คำพูดคนแก่"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=347.433,352.094",
+      "t": [
+        347.433,
+        352.094
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "ホン老人だけは、相変わらず自分の病気のことで頭がいっぱいでした。",
+      "furigana": [
+        {
+          "surface": "ホン",
+          "reading": ""
+        },
+        {
+          "surface": "老人",
+          "reading": "ろうじん"
+        },
+        {
+          "surface": "だけは、",
+          "reading": ""
+        },
+        {
+          "surface": "相変",
+          "reading": "あいか"
+        },
+        {
+          "surface": "わらず",
+          "reading": ""
+        },
+        {
+          "surface": "自分",
+          "reading": "じぶん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "病気",
+          "reading": "びょうき"
+        },
+        {
+          "surface": "のことで",
+          "reading": ""
+        },
+        {
+          "surface": "頭",
+          "reading": "あたま"
+        },
+        {
+          "surface": "がいっぱいでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hon roujin dake wa, aikawarazu jibun no byouki no koto de atama ga ippai deshita.",
+      "translations": {
+        "vi": "Chỉ riêng cụ cố Hồng là vẫn như mọi khi, đầu óc toàn chuyện bệnh tật của bản thân.",
+        "en": "Old Hồng alone was, as ever, preoccupied with his own illness.",
+        "zh-Hans": "只有洪老太爷依旧满脑子都是自己的病。",
+        "zh-Hant": "只有洪老太爺依舊滿腦子都是自己的病。",
+        "ko": "홍 노인만은 여전히 자기 병 생각으로 머리가 가득했습니다.",
+        "tl": "Si Matandang Hồng lang ang gaya ng dati, puro sariling sakit ang iniisip.",
+        "ne": "वृद्ध होङ मात्र सधैँझैँ आफ्नै रोगको कुराले टाउको भरिएका थिए।",
+        "id": "Hanya Kakek Hồng yang seperti biasa, kepalanya penuh soal penyakitnya sendiri.",
+        "pt": "Só o velho Hồng, como sempre, só pensava na própria doença.",
+        "my": "အဘိုး ဟုန် တစ်ယောက်တည်းကတော့ ထုံးစံအတိုင်း ကိုယ့်ရောဂါ အကြောင်းနဲ့ ခေါင်းပြည့်နေတယ်။",
+        "th": "มีแต่คุณปู่ห่งที่ยังคงคิดแต่เรื่องโรคของตัวเองเหมือนเคย"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜だけは」: riêng ~ thì. 相変わらず = vẫn như cũ. 「〜で頭がいっぱい」: đầu óc toàn ~.",
+        "en": "「〜だけは」 = only ~. 相変わらず = as ever.",
+        "zh-Hans": "相変わらず＝依旧。",
+        "zh-Hant": "相変わらず＝依舊。",
+        "ko": "相変わらず=여전히.",
+        "tl": "相変わらず = gaya ng dati.",
+        "ne": "相変わらず = सधैँझैँ।",
+        "id": "相変わらず = seperti biasa.",
+        "pt": "相変わらず = como sempre.",
+        "my": "相変わらず = ထုံးစံအတိုင်း။",
+        "th": "相変わらず = เหมือนเคย"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=352.994,359.22",
+      "t": [
+        352.994,
+        359.22
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そしてある午後、スアンは、庭の奥の部屋からひそひそ声が聞こえてくるのに気づきました。",
+      "furigana": [
+        {
+          "surface": "そしてある",
+          "reading": ""
+        },
+        {
+          "surface": "午後",
+          "reading": "ごご"
+        },
+        {
+          "surface": "、スアンは、",
+          "reading": ""
+        },
+        {
+          "surface": "庭",
+          "reading": "にわ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "奥",
+          "reading": "おく"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "部屋",
+          "reading": "へや"
+        },
+        {
+          "surface": "からひそひそ",
+          "reading": ""
+        },
+        {
+          "surface": "声",
+          "reading": "こえ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "こえてくるのに",
+          "reading": ""
+        },
+        {
+          "surface": "気",
+          "reading": "き"
+        },
+        {
+          "surface": "づきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soshite aru gogo, Suan wa, niwa no oku no heya kara hisohiso koe ga kikoetekuru no ni kizukimashita.",
+      "translations": {
+        "vi": "Rồi một buổi chiều, Xuân nhận ra có tiếng thì thầm vọng ra từ căn phòng cuối vườn.",
+        "en": "Then one afternoon, Xuân noticed whispers coming from a room at the back of the garden.",
+        "zh-Hans": "后来一天下午，阿春发觉从院子深处的房间里传来窃窃私语。",
+        "zh-Hant": "後來一天下午，阿春發覺從院子深處的房間裡傳來竊竊私語。",
+        "ko": "그리고 어느 오후, 쑤언은 정원 안쪽 방에서 소곤거리는 소리가 들려오는 것을 알아차렸습니다.",
+        "tl": "At isang hapon, napansin ni Xuân ang mga bulungan mula sa silid sa dulo ng hardin.",
+        "ne": "अनि एक दिउँसो सुआनले बगैँचाको भित्री कोठाबाट खासखुस आवाज आएको थाहा पाए।",
+        "id": "Lalu suatu sore, Xuân menyadari ada bisik-bisik dari kamar di ujung taman.",
+        "pt": "Então, certa tarde, Xuân percebeu sussurros vindos de um quarto no fundo do jardim.",
+        "my": "ပြီးတော့ တစ်နေ့ညနေခင်း ဥယျာဉ်ထဲ အခန်းကနေ တီးတိုးသံ ကြားလာတာကို ဆွမ် သတိထားမိတယ်။",
+        "th": "แล้วบ่ายวันหนึ่ง ซวนสังเกตว่ามีเสียงกระซิบดังมาจากห้องท้ายสวน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ひそひそ声 = tiếng thì thầm. 「〜のに気づく」: nhận ra việc ~. 「〜てくる」: (âm thanh) vọng tới.",
+        "en": "ひそひそ声 = whispers. 「〜のに気づく」 = notice that ~.",
+        "zh-Hans": "ひそひそ声＝窃窃私语。",
+        "zh-Hant": "ひそひそ聲＝竊竊私語。",
+        "ko": "ひそひそ=소곤소곤.",
+        "tl": "ひそひそ = bulungan.",
+        "ne": "ひそひそ = खासखुस।",
+        "id": "ひそひそ = bisik-bisik.",
+        "pt": "ひそひそ = sussurro.",
+        "my": "ひそひそ = တီးတိုး။",
+        "th": "ひそひそ = กระซิบ"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=359.82,367.412",
+      "t": [
+        359.82,
+        367.412
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "一人は、間違いなくホアンホン夫人の声でした。",
+      "furigana": [
+        {
+          "surface": "一人",
+          "reading": "ひとり"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "間違",
+          "reading": "まちが"
+        },
+        {
+          "surface": "いなくホアンホン",
+          "reading": ""
+        },
+        {
+          "surface": "夫人",
+          "reading": "ふじん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "声",
+          "reading": "こえ"
+        },
+        {
+          "surface": "でした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hitori wa, machigai naku hoan Hon fujin no koe deshita.",
+      "translations": {
+        "vi": "Một giọng chắc chắn là của bà Hoàng Hôn.",
+        "en": "One was unmistakably Madame Hoàng Hôn's voice.",
+        "zh-Hans": "其中一个，毫无疑问是黄昏夫人的声音。",
+        "zh-Hant": "其中一個，毫無疑問是黃昏夫人的聲音。",
+        "ko": "한 명은 틀림없이 호앙혼 부인의 목소리였습니다.",
+        "tl": "Ang isa ay tiyak na boses ni Ginang Hoàng Hôn.",
+        "ne": "एउटा पक्कै होआङ होन श्रीमतीको आवाज थियो।",
+        "id": "Satu pasti suara Nyonya Hoàng Hôn.",
+        "pt": "Uma era, sem dúvida, a voz da senhora Hoàng Hôn.",
+        "my": "တစ်သံက ဟွမ်ဟုန် ကတော်ရဲ့ အသံ သေချာတယ်။",
+        "th": "เสียงหนึ่งเป็นเสียงคุณนายหว่างโห่นแน่นอน"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "間違いなく = chắc chắn, không sai vào đâu.",
+        "en": "間違いなく = unmistakably.",
+        "zh-Hans": "間違いなく＝毫无疑问。",
+        "zh-Hant": "間違いなく＝毫無疑問。",
+        "ko": "間違いなく=틀림없이.",
+        "tl": "Tiyak.",
+        "ne": "पक्कै।",
+        "id": "Pasti.",
+        "pt": "Sem dúvida.",
+        "my": "သေချာ။",
+        "th": "แน่นอน"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=368.012,372.277",
+      "t": [
+        368.012,
+        372.277
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "もう一人は、夫のファン氏の声ではありません。",
+      "furigana": [
+        {
+          "surface": "もう",
+          "reading": ""
+        },
+        {
+          "surface": "一人",
+          "reading": "ひとり"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "夫",
+          "reading": "おっと"
+        },
+        {
+          "surface": "のファン",
+          "reading": ""
+        },
+        {
+          "surface": "氏",
+          "reading": "し"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "声",
+          "reading": "こえ"
+        },
+        {
+          "surface": "ではありません。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mou hitori wa, otto no Fanshi no koe de wa arimasen.",
+      "translations": {
+        "vi": "Giọng còn lại thì không phải của ông Phán, chồng bà.",
+        "en": "The other was not the voice of her husband, Mr. Phán.",
+        "zh-Hans": "另一个却不是她丈夫潘先生的声音。",
+        "zh-Hant": "另一個卻不是她丈夫潘先生的聲音。",
+        "ko": "다른 한 명은 남편 판 씨의 목소리가 아니었습니다.",
+        "tl": "Ang isa pa ay hindi boses ng asawa niyang si G. Phán.",
+        "ne": "अर्को चाहिँ उनका पति फानको आवाज थिएन।",
+        "id": "Yang satu lagi bukan suara suaminya, Tuan Phán.",
+        "pt": "A outra não era a do marido, o senhor Phán.",
+        "my": "ကျန်တစ်သံကတော့ ခင်ပွန်း ဖန်ရဲ့ အသံ မဟုတ်ဘူး။",
+        "th": "อีกเสียงไม่ใช่เสียงของคุณฟานผู้เป็นสามี"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "「〜ではありません」: không phải là ~. もう一人 = người kia.",
+        "en": "「〜ではありません」 = is not ~.",
+        "zh-Hans": "「〜ではありません」＝不是……。",
+        "zh-Hant": "「〜ではありません」＝不是……。",
+        "ko": "~이/가 아니다.",
+        "tl": "Hindi ~.",
+        "ne": "~ होइन।",
+        "id": "Bukan ~.",
+        "pt": "Não é ~.",
+        "my": "~ မဟုတ်။",
+        "th": "ไม่ใช่ ~"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=372.877,376.57",
+      "t": [
+        372.877,
+        376.57
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "スアンは息をのんで、その部屋の扉の前に立ちました。",
+      "furigana": [
+        {
+          "surface": "スアンは",
+          "reading": ""
+        },
+        {
+          "surface": "息",
+          "reading": "いき"
+        },
+        {
+          "surface": "をのんで、その",
+          "reading": ""
+        },
+        {
+          "surface": "部屋",
+          "reading": "へや"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "扉",
+          "reading": "とびら"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "立",
+          "reading": "た"
+        },
+        {
+          "surface": "ちました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suan wa iki o nonde, sono heya no tobira no mae ni tachimashita.",
+      "translations": {
+        "vi": "Xuân nín thở, đứng trước cánh cửa căn phòng ấy.",
+        "en": "Xuân held his breath and stood before that room's door.",
+        "zh-Hans": "阿春屏住呼吸，站在了那个房间的门前。",
+        "zh-Hant": "阿春屏住呼吸，站在了那個房間的門前。",
+        "ko": "쑤언은 숨을 죽이고 그 방 문 앞에 섰습니다.",
+        "tl": "Pinigil ni Xuân ang hininga at tumayo sa harap ng pinto ng silid.",
+        "ne": "सुआन सास रोकेर त्यो कोठाको ढोकाअगाडि उभिए।",
+        "id": "Xuân menahan napas dan berdiri di depan pintu kamar itu.",
+        "pt": "Xuân prendeu a respiração e parou diante da porta.",
+        "my": "ဆွမ်က အသက်အောင့်ပြီး အဲဒီအခန်း တံခါးရှေ့မှာ ရပ်တယ်။",
+        "th": "ซวนกลั้นหายใจ ยืนอยู่หน้าประตูห้องนั้น"
+      },
+      "vocab": [
+        {
+          "word": "扉",
+          "reading": "とびら",
+          "meanings": {
+            "vi": "cánh cửa",
+            "en": "door",
+            "zh-Hans": "门扉",
+            "zh-Hant": "門扉",
+            "ko": "문",
+            "tl": "pinto",
+            "ne": "ढोका",
+            "id": "pintu",
+            "pt": "porta",
+            "my": "တံခါး",
+            "th": "ประตู"
+          },
+          "level": "N1"
+        }
+      ],
+      "grammarNote": {
+        "vi": "息をのむ = nín thở (vì hồi hộp/kinh ngạc). 扉 = cánh cửa.",
+        "en": "息をのむ = hold one's breath. 扉 = door.",
+        "zh-Hans": "息をのむ＝屏住呼吸。",
+        "zh-Hant": "息をのむ＝屏住呼吸。",
+        "ko": "息をのむ=숨을 죽이다.",
+        "tl": "Pigilan ang hininga.",
+        "ne": "सास रोक्नु।",
+        "id": "Menahan napas.",
+        "pt": "Prender a respiração.",
+        "my": "အသက်အောင့်။",
+        "th": "กลั้นหายใจ"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=377.17,381.803",
+      "t": [
+        377.17,
+        381.803
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "このときのスアンは、まだ知りませんでした。自分の次の一言が、この一家の運命を大きく変えてしまうことを。",
+      "furigana": [
+        {
+          "surface": "このときのスアンは、まだ",
+          "reading": ""
+        },
+        {
+          "surface": "知",
+          "reading": "し"
+        },
+        {
+          "surface": "りませんでした。",
+          "reading": ""
+        },
+        {
+          "surface": "自分",
+          "reading": "じぶん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "次",
+          "reading": "つぎ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "一言",
+          "reading": "ひとこと"
+        },
+        {
+          "surface": "が、この",
+          "reading": ""
+        },
+        {
+          "surface": "一家",
+          "reading": "いっか"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "運命",
+          "reading": "うんめい"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きく",
+          "reading": ""
+        },
+        {
+          "surface": "変",
+          "reading": "か"
+        },
+        {
+          "surface": "えてしまうことを。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kono toki no Suan wa, mada shirimasendeshita. Jibun no tsugi no hitokoto ga, kono ikka no unmei o ookiku kaeteshimau koto o.",
+      "translations": {
+        "vi": "Xuân lúc ấy vẫn chưa biết rằng, câu nói tiếp theo của mình sẽ làm thay đổi hẳn số phận của cả gia đình này.",
+        "en": "Xuân did not yet know that his next words would change this family's fate completely.",
+        "zh-Hans": "那时的阿春还不知道，自己的下一句话，将彻底改变这一家人的命运。",
+        "zh-Hant": "那時的阿春還不知道，自己的下一句話，將徹底改變這一家人的命運。",
+        "ko": "이때의 쑤언은 아직 몰랐습니다. 자신의 다음 한마디가 이 집안의 운명을 크게 바꿔 버리리라는 것을.",
+        "tl": "Hindi pa alam ni Xuân na ang susunod niyang salita ay lubos na babago sa kapalaran ng pamilyang ito.",
+        "ne": "सुआनलाई अझै थाहा थिएन, उनको अर्को एक वाक्यले यो परिवारको भाग्य नै बदलिदिनेछ।",
+        "id": "Xuân belum tahu, satu kalimatnya berikutnya akan mengubah nasib keluarga ini.",
+        "pt": "Xuân ainda não sabia que sua próxima frase mudaria por completo o destino daquela família.",
+        "my": "နောက်ထပ် သူ့ စကားတစ်ခွန်းက ဒီမိသားစုရဲ့ ကံကြမ္မာကို အကြီးအကျယ် ပြောင်းလဲစေမယ်ဆိုတာ ဆွမ် မသိသေးဘူး။",
+        "th": "ตอนนั้นซวนยังไม่รู้ว่า คำพูดถัดไปของเขาจะเปลี่ยนชะตาของครอบครัวนี้ไปอย่างสิ้นเชิง"
+      },
+      "vocab": [
+        {
+          "word": "運命",
+          "reading": "うんめい",
+          "meanings": {
+            "vi": "số phận",
+            "en": "fate, destiny",
+            "zh-Hans": "命运",
+            "zh-Hant": "命運",
+            "ko": "운명",
+            "tl": "kapalaran",
+            "ne": "भाग्य",
+            "id": "takdir",
+            "pt": "destino",
+            "my": "ကံကြမ္မာ",
+            "th": "โชคชะตา"
+          },
+          "level": "N1"
+        }
+      ],
+      "grammarNote": {
+        "vi": "Đảo ngữ: 「知りませんでした。〜ことを」 nhấn mạnh điều chưa biết. 運命 = số phận.",
+        "en": "Inversion: 「知りませんでした。〜ことを」 stresses the unknown. 運命 = fate.",
+        "zh-Hans": "倒装句强调。運命＝命运。",
+        "zh-Hant": "倒裝句強調。運命＝命運。",
+        "ko": "도치법. 運命=운명.",
+        "tl": "Pagbabaligtad para idiin.",
+        "ne": "जोड दिन उल्टो क्रम।",
+        "id": "Inversi untuk penekanan.",
+        "pt": "Inversão para ênfase.",
+        "my": "အလေးပေး ပြောင်းပြန်။",
+        "th": "การกลับลำดับเพื่อเน้น"
+      },
+      "audio": "/audio/furusato-vn-sodo-2/chapter.mp3#t=382.403,392.317",
+      "t": [
+        382.403,
+        392.317
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    }
+  ],
+  "audioTrack": {
+    "src": "/audio/furusato-vn-sodo-2/chapter.mp3",
+    "durationSec": 393.384
+  }
+}
