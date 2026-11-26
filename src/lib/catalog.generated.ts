@@ -2072,7 +2072,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Urashima Tarō II — Kotak yang Tak Boleh Dibuka",
    "pt": "Urashima Tarō II — A Caixa que Nunca Deve Ser Aberta",
    "my": "ဥရာရှီးမ တာရို (၂) — မဖွင့်ရတဲ့ သေတ္တာ",
-   "th": "อุราชิมะ ทาโร่ ตอนที่ 2 — กล่องที่ห้ามเปิด"
+   "th": "อุราชิมะ ทาโร่ ตอนที่ 2 — กล่องที่ห้ามเปิด",
+   "si": "උරෂිමා තාරෝ II — කවදාවත් අරින්න එපා කියූ පෙට්ටිය"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2676,7 +2677,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Momotarō II — Pertempuran di Onigashima",
    "pt": "Momotarō II — A batalha da Ilha dos Oni",
    "my": "မိုမိုတာရို (၂) — အိုနီဂါရှီမာ တိုက်ပွဲ",
-   "th": "โมโมทาโร่ ตอนที่ 2 — ศึกเกาะโอนิงาชิมะ"
+   "th": "โมโมทาโร่ ตอนที่ 2 — ศึกเกาะโอนิงาชิมะ",
+   "si": "මොමොතාරෝ II — ඔනිගාෂිමා සටන"
   },
   "level": "N3",
   "topic": "folktale",
@@ -4921,7 +4923,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/akazukin.webp"
+  "cover": "/covers/akazukin.webp",
+  "hidden": true,
+  "replacedBy": "world-akazukin"
  },
  {
   "id": "at-the-vet",
@@ -5105,7 +5109,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/bremen-musicians.webp"
+  "cover": "/covers/bremen-musicians.webp",
+  "hidden": true,
+  "replacedBy": "world-bremen"
  },
  {
   "id": "entrance-ceremony",
@@ -5210,7 +5216,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/hansel-and-gretel.webp"
+  "cover": "/covers/hansel-and-gretel.webp",
+  "hidden": true,
+  "replacedBy": "world-hansel-1"
  },
  {
   "id": "piano-lessons",
@@ -12513,6 +12521,101 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "world-hansel-1",
+  "titles": {
+   "vi": "Hansel và Gretel (1): Ngôi nhà bánh kẹo",
+   "en": "Hansel and Gretel (1): The House of Sweets",
+   "zh-Hans": "汉赛尔与格莱特（1）：糖果屋",
+   "zh-Hant": "漢賽爾與格萊特（1）：糖果屋",
+   "ko": "헨젤과 그레텔 (1): 과자의 집",
+   "tl": "Hansel at Gretel (1): Ang Bahay na Matamis",
+   "ne": "हान्सेल र ग्रेटेल (१): मिठाईको घर",
+   "id": "Hansel dan Gretel (1): Rumah Kue",
+   "pt": "João e Maria (1): A Casa de Doces",
+   "my": "ဟန်ဆယ်နဲ့ ဂရက်တယ် (၁): မုန့်အိမ်လေး",
+   "th": "ฮันเซลกับเกรเทล (1): บ้านขนมหวาน",
+   "si": "හැන්සල් සහ ග්‍රෙටල් (1): රසකැවිලි ගෙදර"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 54,
+  "cover": "/covers/world-hansel-1.webp",
+  "series": {
+   "id": "world-hansel",
+   "index": 1
+  },
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-hansel-1/chapter.mp3",
+   "durationSec": 290.424
+  }
+ },
+ {
+  "id": "world-hansel-2",
+  "titles": {
+   "vi": "Hansel và Gretel (2 – hết): Mụ phù thủy và lò nướng",
+   "en": "Hansel and Gretel (2, end): The Witch and the Oven",
+   "zh-Hans": "汉赛尔与格莱特（2·完）：巫婆与烤炉",
+   "zh-Hant": "漢賽爾與格萊特（2·完）：巫婆與烤爐",
+   "ko": "헨젤과 그레텔 (2·끝): 마녀와 화덕",
+   "tl": "Hansel at Gretel (2, wakas): Ang Bruha at ang Pugon",
+   "ne": "हान्सेल र ग्रेटेल (२, अन्तिम): बोक्सी र भट्टी",
+   "id": "Hansel dan Gretel (2, tamat): Penyihir dan Tungku",
+   "pt": "João e Maria (2, fim): A Bruxa e o Forno",
+   "my": "ဟန်ဆယ်နဲ့ ဂရက်တယ် (၂၊ ဇာတ်သိမ်း): စုန်းမနဲ့ မီးဖို",
+   "th": "ฮันเซลกับเกรเทล (2 จบ): แม่มดกับเตาอบ",
+   "si": "හැන්සල් සහ ග්‍රෙටල් (2, අවසානය): මායාකාරිය සහ උදුන"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 55,
+  "cover": "/covers/world-hansel-2.webp",
+  "series": {
+   "id": "world-hansel",
+   "index": 2
+  },
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-hansel-2/chapter.mp3",
+   "durationSec": 287.616
+  }
+ },
+ {
+  "id": "world-akazukin",
+  "titles": {
+   "vi": "Cô bé quàng khăn đỏ",
+   "en": "Little Red Riding Hood",
+   "zh-Hans": "小红帽",
+   "zh-Hant": "小紅帽",
+   "ko": "빨간 모자",
+   "tl": "Si Pulang Talukbong",
+   "ne": "रातो टोपी लगाउने केटी",
+   "id": "Si Tudung Merah",
+   "pt": "Chapeuzinho Vermelho",
+   "my": "ဦးထုပ်နီလေး",
+   "th": "หนูน้อยหมวกแดง",
+   "si": "පුංචි රතු තොප්පි"
+  },
+  "level": "N5",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 44,
+  "cover": "/covers/world-akazukin.webp",
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-akazukin/chapter.mp3",
+   "durationSec": 186.336
+  }
+ },
+ {
   "id": "life-epictetus-1",
   "titles": {
    "vi": "Triết gia nô lệ – Epictetus (1)",
@@ -12634,6 +12737,34 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/life-ikari-1/chapter.mp3",
    "durationSec": 223.3
+  }
+ },
+ {
+  "id": "world-bremen",
+  "titles": {
+   "vi": "Những nhạc sĩ thành Bremen",
+   "en": "The Town Musicians of Bremen",
+   "zh-Hans": "不来梅的城市乐手",
+   "zh-Hant": "不來梅的城市樂手",
+   "ko": "브레멘 음악대",
+   "tl": "Ang mga Musikero ng Bremen",
+   "ne": "ब्रेमेनका सङ्गीतकारहरू",
+   "id": "Para Musisi Kota Bremen",
+   "pt": "Os Músicos de Bremen",
+   "my": "ဘရီမန်မြို့က ဂီတသမားများ",
+   "th": "นักดนตรีแห่งเมืองเบรเมน"
+  },
+  "level": "N5",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 42,
+  "cover": "/covers/world-bremen.webp",
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-bremen/chapter.mp3",
+   "durationSec": 182.04
   }
  },
  {

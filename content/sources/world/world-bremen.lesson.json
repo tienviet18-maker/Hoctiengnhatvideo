@@ -1,0 +1,30 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜ませんか／〜ましょう",
+   "example": 6,
+   "meaning": { "vi": "~ không? / cùng ~ nhé (rủ rê)", "en": "won't you ~? / let's ~ (invitation)", "zh-Hans": "要不要……？／……吧（邀请）", "ko": "~하지 않을래요? / ~합시다", "tl": "gusto mo bang ~? / tara, ~", "ne": "~ ने होइन? / ~ औँ (निम्तो)", "id": "mau ~? / ayo ~", "pt": "não quer ~? / vamos ~", "my": "~ မလား / ~ ကြရအောင်", "th": "~ ไหม / ~ กันเถอะ" }
+  },
+  {
+   "pattern": "〜られる（受け身）",
+   "example": 12,
+   "meaning": { "vi": "bị ~ (thể bị động)", "en": "to be ~ed (passive)", "zh-Hans": "被……（被动）", "ko": "~되다, ~당하다 (수동)", "tl": "ma-~ (balintiyak)", "ne": "~ इनु (कर्मवाच्य)", "id": "di~ (pasif)", "pt": "ser ~ (voz passiva)", "my": "~ ခံရ (ခံရပုံစံ)", "th": "ถูก ~ (กรรมวาจก)" }
+  },
+  {
+   "pattern": "〜と、〜が見えました",
+   "example": 16,
+   "meaning": { "vi": "khi ~ thì nhìn thấy ~", "en": "when ~, (one) could see ~", "zh-Hans": "一……就看到了……", "ko": "~하니 ~이 보였다", "tl": "nang ~, nakita ang ~", "ne": "~ दा ~ देखियो", "id": "saat ~, terlihat ~", "pt": "ao ~, via-se ~", "my": "~ တော့ ~ ကို မြင်ရတယ်", "th": "พอ ~ ก็มองเห็น ~" }
+  },
+  {
+   "pattern": "〜ないで",
+   "example": 41,
+   "meaning": { "vi": "không ~ mà (làm việc khác)", "en": "without ~ing, instead of ~ing", "zh-Hans": "不……而……", "ko": "~하지 않고", "tl": "nang hindi ~", "ne": "न~ई", "id": "tanpa ~", "pt": "sem ~", "my": "မ~ ဘဲ", "th": "โดยไม่ ~" }
+  }
+ ],
+ "quiz": [
+  { "ja": "ロバは、どうしてブレーメンへ行きましたか。", "choices": ["友だちに会うため", "音楽隊になるため", "ごはんを買うため", "家を見るため"], "answer": 1, "explain": { "vi": "Lừa già không chở đồ được nữa nên muốn làm nhạc công.", "en": "The old donkey couldn't carry loads, so he wanted to be a musician.", "zh-Hans": "老驴驮不动东西了，想去当乐手。", "ko": "늙은 당나귀는 짐을 못 날라 음악대가 되고 싶었다.", "tl": "Hindi na makabuhat ang asno kaya gusto niyang maging musikero.", "ne": "बूढो गधा भारी बोक्न नसकेर सङ्गीतकार बन्न चाहन्थ्यो।", "id": "Keledai tua tak bisa membawa beban lagi, jadi ingin jadi musisi.", "pt": "O burro velho não aguentava mais carga e queria ser músico.", "my": "မြည်းအိုက ပစ္စည်းမသယ်နိုင်တော့လို့ ဂီတသမား လုပ်ချင်တယ်။", "th": "ลาแก่แบกของไม่ไหวแล้ว จึงอยากเป็นนักดนตรี" } },
+  { "ja": "四ひきの一番上に乗ったのは、だれですか。", "choices": ["ロバ", "犬", "ネコ", "オンドリ"], "answer": 3, "explain": { "vi": "Gà trống đứng trên đầu mèo, cao nhất.", "en": "The rooster stood on the cat's head, at the very top.", "zh-Hans": "公鸡站在猫的头上，在最上面。", "ko": "수탉이 고양이 머리 위, 맨 위에 올랐다.", "tl": "Ang tandang, nasa ulo ng pusa, pinakamataas.", "ne": "भाले बिरालोको टाउकोमाथि, सबैभन्दा माथि।", "id": "Ayam jantan di atas kepala kucing, paling atas.", "pt": "O galo, na cabeça da gata, bem no alto.", "my": "ကြက်ဖက ကြောင့်ခေါင်းပေါ်၊ အမြင့်ဆုံး။", "th": "ไก่ตัวผู้อยู่บนหัวแมว สูงสุด" } },
+  { "ja": "どろぼうは、ネコの目を何だと思いましたか。", "choices": ["星", "火", "おばけ", "宝石"], "answer": 1, "explain": { "vi": "Hắn tưởng mắt mèo là than lửa.", "en": "He thought the cat's eyes were embers.", "zh-Hans": "他以为猫眼是火。", "ko": "고양이 눈을 불이라고 생각했다.", "tl": "Akala niya baga ang mata ng pusa.", "ne": "उसले बिरालोका आँखा आगो ठान्यो।", "id": "Ia mengira mata kucing itu bara api.", "pt": "Achou que os olhos da gata eram brasas.", "my": "ကြောင့်မျက်လုံးကို မီးလို့ ထင်တယ်။", "th": "เขาคิดว่าตาแมวเป็นถ่านไฟ" } },
+  { "ja": "最後に、四ひきはどこでくらしましたか。", "choices": ["ブレーメンの町", "森の家", "ロバの家", "お城"], "answer": 1, "explain": { "vi": "Chúng không đi Bremen nữa mà ở lại ngôi nhà trong rừng.", "en": "They never went to Bremen and stayed in the forest house.", "zh-Hans": "它们没去不来梅，住在了森林里的房子。", "ko": "브레멘에 가지 않고 숲속 집에서 살았다.", "tl": "Hindi sila pumunta sa Bremen; tumira sila sa bahay sa gubat.", "ne": "ब्रेमेन नगई जङ्गलको घरमै बसे।", "id": "Mereka tak ke Bremen, tinggal di rumah di hutan.", "pt": "Não foram a Bremen e ficaram na casa da floresta.", "my": "ဘရီမန် မသွားဘဲ တောထဲက အိမ်မှာ နေကြတယ်။", "th": "ไม่ได้ไปเบรเมน แต่อยู่บ้านในป่า" } }
+ ]
+}

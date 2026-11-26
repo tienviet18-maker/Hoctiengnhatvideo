@@ -792,3 +792,19 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Thêm `mystery-akagami-1` (N3, 55 câu, 6:07, miễn phí) và `mystery-akagami-2` (N3, 52 câu, 5:11, VIP): bản kể lại tiếng Nhật dễ của "The Red-Headed League" (Doyle 1891, public domain). Chi tiết ở `content/stories/mystery-akagami-*.qc.md`.
 - `register.mjs`: gộp với cơ chế `--block` của luồng Triết lý sống; thêm khóa `ma` → khối "kệ ma & trinh thám".
 - ID đã cấp cho kệ này (để luồng khác không trùng): `mystery-hoichi-*`, `mystery-mujina-*`, `mystery-akagami-*`; sắp tới `mystery-nisen-*` (二銭銅貨), `mystery-rokuro-*`, `mystery-chawan-*`, `mystery-garnet-*`, `mystery-dzaka-*`, `mystery-shinri-*`.
+## Kệ truyện cổ thế giới đợt 2: Hansel & Gretel, Cô bé quàng khăn đỏ — 27/11/2026
+- `world-hansel-1` (miễn phí), `world-hansel-2` (VIP): Hansel & Gretel theo Grimm 1857, N4, 53–54 câu mỗi tập. Kết bỏ chi tiết mẹ kế chết, chỉ nói bà không còn ở nhà.
+- `world-akazukin` (N5, miễn phí): Cô bé quàng khăn đỏ theo Grimm (thợ săn cứu, nhét đá vào bụng sói), 44 câu, cho người mới bắt đầu (kệ N5 đang thiếu).
+- Gói cũ `hansel-and-gretel`, `akazukin` ẩn, trỏ sang bản mới.
+- Bìa mới: nhà bánh kẹo, lò nướng, cô bé mũ đỏ (motif `candyhouse`, `oven`, `redhood` trong `scripts/covers/cover.html`).
+- `scripts/story-src/build.mjs`: romaji こんにちは → konnichiwa, こんばんは → konbanwa (trước đây ra "konnichiha"). Chỉ ảnh hưởng truyện dựng lại sau này.
+- Glossary kệ `world` thêm ~50 từ cơ bản N5/N4 để truyện N5 có đủ nghĩa từ vựng.
+
+## Tiếng Sinhala đợt 2b: 5 gói — 27/11/2026 (nhánh `claude/si-stories-3`)
+
+- Đã dịch: mukashi-momotaro-2, mukashi-urashima-2, world-akazukin, world-hansel-1, world-hansel-2.
+- **Lỗi nguồn (chưa sửa, vùng glossary):** từ はさみ trong `world-akazukin` (câu 37, nghĩa là cái kéo) đang mang nghĩa glossary "pincer (はさみうち: attack from both sides)". Bản si ghi "කතුර (kéo), අඬුව (càng)". Nên sửa nghĩa en trong glossary thành "scissors".
+
+## Kệ truyện cổ thế giới: Nhạc sĩ thành Bremen — 27/11/2026
+- `world-bremen` (N5, miễn phí, 42 câu) theo Grimm 1857; gói cũ `bremen-musicians` ẩn, trỏ sang bản mới. Bìa motif `bremen`.
+- Sửa glossary kệ world: はさみ = cái kéo (trước bị gán nghĩa はさみうち), thread Sinhala báo.
