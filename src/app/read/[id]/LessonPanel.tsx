@@ -1,5 +1,6 @@
 "use client";
 
+import { seededOrder } from "../../../lib/shuffle";
 import { useState } from "react";
 import Furigana from "../../../components/Furigana";
 import { useLang } from "../../../components/LangProvider";
@@ -163,7 +164,9 @@ export default function LessonPanel({
               <>
                 <div lang="ja" className="jp" style={{ fontSize: 16, fontWeight: 700, lineHeight: 1.9 }}><Ja text={quiz[q].ja} segs={quiz[q].jaFurigana} /></div>
                 <div style={{ display: "flex", flexDirection: "column", gap: 8, marginTop: 12 }}>
-                  {quiz[q].choices.map((c, i) => {
+                  {/* Xáo đáp án cố định theo gói + câu hỏi: nhiều gói lưu đáp án đúng ở vị trí đầu */}
+                  {seededOrder(quiz[q].choices.length, `${story.id}:${q}`).map((i, pos) => {
+                    const c = quiz[q].choices[i];
                     const right = picked !== null && i === quiz[q].answer;
                     const wrong = picked === i && i !== quiz[q].answer;
                     return (
@@ -180,7 +183,7 @@ export default function LessonPanel({
                           background: right ? "#2E7D5B" : wrong ? "#B91C2B" : "transparent",
                         }}
                       >
-                        {String.fromCharCode(65 + i)}. <Ja text={c} segs={quiz[q].choicesFurigana?.[i]} />
+                        {String.fromCharCode(65 + pos)}. <Ja text={c} segs={quiz[q].choicesFurigana?.[i]} />
                         {right ? " ✓" : wrong ? " ✗" : ""}
                       </button>
                     );
