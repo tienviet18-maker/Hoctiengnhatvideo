@@ -244,7 +244,7 @@ từ vựng có cấp, bài học 4 ngữ pháp + 4 câu đố, audio đo trên 
 | furusato-mm-kyaiktiyo-1 「落ちない石」 (Myanmar, Chùa Đá Vàng) | N4 | 60 | 5.6 phút | 要石 ở 鹿島神宮 | c0dc8b1 |
 | furusato-br-saci-1 「赤いぼうし」 (Brazil, Saci-Pererê) | N4 | 60 | 5.2 phút | かまいたち | 9736fa6 |
 | furusato-br-iara-1 「イアラの歌」 (Brazil, Iara) | N4 | 60 | 5.7 phút | 人魚 và 八百比丘尼 | e2636e5 |
-| furusato-br-curupira-1 「うしろ向きの足」 (Brazil, Curupira) | N4 | 60 | 5.4 phút | 天狗, 天狗かくし | xem commit kế |
+| furusato-br-curupira-1 「うしろ向きの足」 (Brazil, Curupira) | N4 | 60 | 5.4 phút | 天狗, 天狗かくし | 67fd9c9 |
 
 Ghi chú: Bánh chưng, Táo quân, Cóc kiện trời, Nàng tiên Ốc dự định N4 nhưng tỉ lệ từ khó vượt 15% nên
 chuyển N3 (kế hoạch cho phép N4–N3 với truyện VN). Nguồn Nepal đã kiểm chứng trước khi viết.
@@ -261,6 +261,8 @@ mốc `t`, dịch + giải thích 11 ngôn ngữ (tự dịch, tự rà), bài h
 `series {id: osaka-hataraku, index}`. Cách đọc chung của kệ ở `content/sources/osaka/phrases.json`.
 **Muse lưu ý: các ID `osaka-hataraku-*` do Claude cấp, đừng dùng lại.**
 
+**26/11/2026:** Việt muốn series phụ làm ít thôi, nên series rút còn 8 tập. Tập 6–8 khép toàn bộ mạch chính (sự thật tháng Tám, Iwata nhận lỗi, Hải trở về). Bible đã cập nhật.
+
 | Gói | Tiêu đề | Câu | Audio | Thông tin thật | Commit |
 |---|---|---|---|---|---|
 | osaka-hataraku-01 | ようこそ、大阪へ | 60 | 5,6 phút | 転入届 trong 14 ngày | e98e94b |
@@ -268,6 +270,7 @@ mốc `t`, dịch + giải thích 11 ngôn ngữ (tự dịch, tự rà), bài h
 | osaka-hataraku-03 | 消えた先輩 | 57 | 5,3 phút | thứ tự địa chỉ → SIM → ngân hàng, quy định 6 tháng, ゆうちょ | 927208e |
 | osaka-hataraku-04 | ゴミの日の事件 | 58 | 5,6 phút | phân loại rác, đổ buổi sáng, 粗大ごみ | 3bb4ecb |
 | osaka-hataraku-05 | 夜の工場 | 57 | 5,4 phút | 緊急地震速報, 避難所, túi khẩn cấp | a1fb25e |
+| osaka-hataraku-06 | あかりの秘密 | 58 | 5,8 phút | khám 内科: マイナ保険証, 問診票, trả 3 phần 10, ＃7119 | xem commit kế |
 
 Tập 1 miễn phí, tập 2–5 `free: false`. `npm run verify` xanh trên bản clone sạch: 553 gói, 0 lỗi; chuẩn v2 11 gói đạt.
 

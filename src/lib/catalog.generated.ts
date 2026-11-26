@@ -10349,6 +10349,37 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-br-curupira-1/chapter.mp3",
    "durationSec": 326.088
   }
+ },
+ {
+  "id": "osaka-hataraku-06",
+  "titles": {
+   "vi": "Làm việc ở Osaka (6): Bí mật của Akari",
+   "en": "Working in Osaka (6): Akari's Secret",
+   "zh-Hans": "在大阪工作（六）：明里的秘密",
+   "zh-Hant": "在大阪工作（六）：明裡的秘密",
+   "ko": "오사카에서 일하다 (6): 아카리의 비밀",
+   "tl": "Nagtatrabaho sa Osaka (6): Ang Lihim ni Akari",
+   "ne": "ओसाकामा काम (६): अकारीको रहस्य",
+   "id": "Bekerja di Osaka (6): Rahasia Akari",
+   "pt": "Trabalhando em Osaka (6): O segredo de Akari",
+   "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၆) - အာကာရီရဲ့ လျှို့ဝှက်ချက်",
+   "th": "ทำงานที่โอซาก้า (6): ความลับของอาคาริ"
+  },
+  "level": "N3",
+  "topic": "life-in-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 58,
+  "cover": "/covers/osaka-hataraku-06.webp",
+  "series": {
+   "id": "osaka-hataraku",
+   "index": 6
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/osaka-hataraku-06/chapter.mp3",
+   "durationSec": 345.6
+  }
  }
 ];
 
