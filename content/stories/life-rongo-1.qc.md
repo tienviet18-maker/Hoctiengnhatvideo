@@ -1,0 +1,21 @@
+# QC — life-rongo-1 （先生と弟子 論語 一）· chuẩn v2
+
+- **Nguồn**: 『論語』, văn bản cổ thuộc phạm vi công cộng.
+  - Các câu dùng:
+    - 為政篇: 知之為知之
+    - 衛霊公篇: 己所不欲勿施於人 và 過而不改是謂過矣
+    - 述而篇: 三人行必有我師
+    - 学而篇: 学而時習之
+  - Chuyện Tử Lộ thành học trò (ví dụ mũi tên tre) là truyền thuyết cổ (孔子家語).
+  - Bài là sáng tác lại của ViMai bằng tiếng Nhật N4.
+- **Cấp độ**: 993 ký tự, 44 câu, TB 22,6 ký tự/câu, vượt cấp 13,0% (phần lớn là tên riêng 孔子 và 子貢), đạt cấp 30,2% → N4.
+- **Từ vựng**: 46 mục. Tự gắn `@N`: 孔子, 弟子, 竹, 羽 và 思いやり (N2); 剣, 子貢, 論語 và しょんぼり (N1).
+- **Furigana**: dùng `readings` cho 孔子 こうし, 子路 しろ, 子貢 しこう, 日本 にほん, 剣 けん…
+- **Dịch**: 44 câu × 11 ngôn ngữ, Claude tự kiểm. Ghi chú zh dẫn nguyên văn Hán.
+- **Audio**:
+  - Người kể: Aoede 0,9.
+  - Khổng Tử: Neural2-C 0,92/−3. Tử Lộ: C 1,1/0. Tử Cống: C 1,0/+5.
+  - Một file liền dài 3 phút 36 giây.
+- **Kệ**: wisdom, miễn phí.
+- **Bài học**: 〜なんて, 〜とは, 〜のに.
+- **Bìa**: motif mountain, font Zen Old Mincho.
