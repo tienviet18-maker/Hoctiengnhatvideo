@@ -68,7 +68,7 @@ function attaches(t, prev) {
   if (t.pos === "動詞" && prev.pos === "名詞" && prev.pos_detail_1 === "サ変接続" && t.basic_form === "する") return true;
   return false;
 }
-const ROMAJI_FIX = { という: "to iu", といった: "to itta", として: "to shite", について: "ni tsuite", にとって: "ni totte", によって: "ni yotte", のように: "no you ni" };
+const ROMAJI_FIX = { にかけて: "ni kakete", という: "to iu", といった: "to itta", として: "to shite", について: "ni tsuite", にとって: "ni totte", によって: "ni yotte", のように: "no you ni" };
 
 // Tách token có kanji thành [kanji+reading][okurigana] bằng khớp mẫu.
 function splitFurigana(surface, reading) {
@@ -132,6 +132,7 @@ function analyse(ja, ov, multiOv) {
     romaji += (romaji && !/[ “(]$/.test(romaji) ? " " : "") + rom;
   }
   romaji = romaji.replace(/\b(de|ni|to)ha\b/gi, "$1 wa");
+  for (let i = 0; i < 3; i++) romaji = romaji.replace(/([A-Za-z'])・([a-z])/g, (m, x, y) => x + " " + y.toUpperCase());
   romaji = romaji.replace(/\s+/g, " ").replace(/ ([,.!?”)])/g, "$1").trim();
   romaji = romaji.replace(/(^|[.!?]\s+|“)([a-z])/g, (m, a, b) => a + b.toUpperCase());
   return { furigana: merged, romaji, toks };

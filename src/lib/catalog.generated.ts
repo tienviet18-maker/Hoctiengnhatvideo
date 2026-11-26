@@ -11296,6 +11296,134 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/maichan-04/chapter.mp3",
    "durationSec": 155.136
   }
+ },
+ {
+  "id": "furusato-vn-kieu-1",
+  "titles": {
+   "vi": "Truyện Kiều (1): Tiết Thanh minh",
+   "en": "The Tale of Kieu (1): The Day of Qingming",
+   "zh-Hans": "金云翘传（1）：清明之日",
+   "zh-Hant": "金雲翹傳（1）：清明之日",
+   "ko": "쭈옌 끼에우 (1): 청명절",
+   "tl": "Ang Kuwento ni Kieu (1): Araw ng Thanh Minh",
+   "ne": "किएउको कथा (१): थान मिन्हको दिन",
+   "id": "Kisah Kieu (1): Hari Ceng Beng",
+   "pt": "A História de Kieu (1): O Dia de Qingming",
+   "my": "ကီအဲဝ်ဇာတ်လမ်း (၁): ချင်မင်နေ့",
+   "th": "เรื่องของเกี่ยว (1): วันเช็งเม้ง"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 57,
+  "cover": "/covers/furusato-vn-kieu-1.webp",
+  "series": {
+   "id": "furusato-vn-kieu",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-kieu-1/chapter.mp3",
+   "durationSec": 341.04
+  }
+ },
+ {
+  "id": "furusato-vn-kieu-2",
+  "titles": {
+   "vi": "Truyện Kiều (2): Bán mình chuộc cha",
+   "en": "The Tale of Kieu (2): Selling Herself to Save Her Father",
+   "zh-Hans": "金云翘传（2）：卖身救父",
+   "zh-Hant": "金雲翹傳（2）：賣身救父",
+   "ko": "쭈옌 끼에우 (2): 몸을 팔아 아버지를 구하다",
+   "tl": "Ang Kuwento ni Kieu (2): Ipinagbili ang Sarili para sa Ama",
+   "ne": "किएउको कथा (२): बुबालाई बचाउन आफैँलाई बेच्छिन्",
+   "id": "Kisah Kieu (2): Menjual Diri demi Ayah",
+   "pt": "A História de Kieu (2): Vendida para Salvar o Pai",
+   "my": "ကီအဲဝ်ဇာတ်လမ်း (၂): ဖခင်ကိုကယ်ရန် ကိုယ့်ကိုယ်ကိုရောင်း",
+   "th": "เรื่องของเกี่ยว (2): ขายตัวไถ่บิดา"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 57,
+  "cover": "/covers/furusato-vn-kieu-2.webp",
+  "series": {
+   "id": "furusato-vn-kieu",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-kieu-2/chapter.mp3",
+   "durationSec": 354.096
+  }
+ },
+ {
+  "id": "furusato-vn-kieu-3",
+  "titles": {
+   "vi": "Truyện Kiều (3): Hoạn Thư và Từ Hải",
+   "en": "The Tale of Kieu (3): Hoan Thu and Tu Hai",
+   "zh-Hans": "金云翘传（3）：宦姐与徐海",
+   "zh-Hant": "金雲翹傳（3）：宦姐與徐海",
+   "ko": "쭈옌 끼에우 (3): 호안 트와 뜨 하이",
+   "tl": "Ang Kuwento ni Kieu (3): Si Hoan Thu at si Tu Hai",
+   "ne": "किएउको कथा (३): होआन थु र तु हाइ",
+   "id": "Kisah Kieu (3): Hoan Thu dan Tu Hai",
+   "pt": "A História de Kieu (3): Hoan Thu e Tu Hai",
+   "my": "ကီအဲဝ်ဇာတ်လမ်း (၃): ဟွမ်းသူနဲ့ တူဟိုင်",
+   "th": "เรื่องของเกี่ยว (3): ฮหว่านทือกับตื่อไฮ่"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 57,
+  "cover": "/covers/furusato-vn-kieu-3.webp",
+  "series": {
+   "id": "furusato-vn-kieu",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-kieu-3/chapter.mp3",
+   "durationSec": 370.872
+  }
+ },
+ {
+  "id": "furusato-vn-kieu-4",
+  "titles": {
+   "vi": "Truyện Kiều (4): Đoàn viên",
+   "en": "The Tale of Kieu (4): Reunion",
+   "zh-Hans": "金云翘传（4）：团圆",
+   "zh-Hant": "金雲翹傳（4）：團圓",
+   "ko": "쭈옌 끼에우 (4): 재회",
+   "tl": "Ang Kuwento ni Kieu (4): Muling Pagkikita",
+   "ne": "किएउको कथा (४): पुनर्मिलन",
+   "id": "Kisah Kieu (4): Berkumpul Kembali",
+   "pt": "A História de Kieu (4): O Reencontro",
+   "my": "ကီအဲဝ်ဇာတ်လမ်း (၄): ပြန်လည်ဆုံဆည်းခြင်း",
+   "th": "เรื่องของเกี่ยว (4): พบกันอีกครั้ง"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-kieu-4.webp",
+  "series": {
+   "id": "furusato-vn-kieu",
+   "index": 4
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-kieu-4/chapter.mp3",
+   "durationSec": 386.52
+  }
  }
 ];
 
