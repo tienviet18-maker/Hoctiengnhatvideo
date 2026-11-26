@@ -680,6 +680,27 @@ import s_furusatoBrCurupira1 from "../../content/stories/furusato-br-curupira-1.
 import s_osakaHataraku06 from "../../content/stories/osaka-hataraku-06.json";
 import s_osakaHataraku07 from "../../content/stories/osaka-hataraku-07.json";
 import s_osakaHataraku08 from "../../content/stories/osaka-hataraku-08.json";
+import s_furusatoVnSodo1 from "../../content/stories/furusato-vn-sodo-1.json";
+import s_furusatoVnSodo2 from "../../content/stories/furusato-vn-sodo-2.json";
+import s_furusatoVnSodo3 from "../../content/stories/furusato-vn-sodo-3.json";
+import s_furusatoVnSodo4 from "../../content/stories/furusato-vn-sodo-4.json";
+import s_maichan01 from "../../content/stories/maichan-01.json";
+import s_maichan02 from "../../content/stories/maichan-02.json";
+import s_maichan03 from "../../content/stories/maichan-03.json";
+import s_maichan04 from "../../content/stories/maichan-04.json";
+import s_furusatoVnKieu1 from "../../content/stories/furusato-vn-kieu-1.json";
+import s_furusatoVnKieu2 from "../../content/stories/furusato-vn-kieu-2.json";
+import s_furusatoVnKieu3 from "../../content/stories/furusato-vn-kieu-3.json";
+import s_furusatoVnKieu4 from "../../content/stories/furusato-vn-kieu-4.json";
+import s_furusatoVnQuynh1 from "../../content/stories/furusato-vn-quynh-1.json";
+import s_furusatoVnQuynh2 from "../../content/stories/furusato-vn-quynh-2.json";
+import s_furusatoVnQuynh3 from "../../content/stories/furusato-vn-quynh-3.json";
+import s_furusatoVnHoangle1 from "../../content/stories/furusato-vn-hoangle-1.json";
+import s_furusatoVnHoangle2 from "../../content/stories/furusato-vn-hoangle-2.json";
+import s_furusatoVnHoangle3 from "../../content/stories/furusato-vn-hoangle-3.json";
+import s_furusatoVnThachlam1 from "../../content/stories/furusato-vn-thachlam-1.json";
+import s_furusatoVnThachlam2 from "../../content/stories/furusato-vn-thachlam-2.json";
+import s_furusatoVnThachlam3 from "../../content/stories/furusato-vn-thachlam-3.json";
 // --- hết kệ A/E: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1366,6 +1387,27 @@ export const STORIES: StoryContent[] = [
   s_osakaHataraku06 as unknown as StoryContent,
   s_osakaHataraku07 as unknown as StoryContent,
   s_osakaHataraku08 as unknown as StoryContent,
+  s_furusatoVnSodo1 as unknown as StoryContent,
+  s_furusatoVnSodo2 as unknown as StoryContent,
+  s_furusatoVnSodo3 as unknown as StoryContent,
+  s_furusatoVnSodo4 as unknown as StoryContent,
+  s_maichan01 as unknown as StoryContent,
+  s_maichan02 as unknown as StoryContent,
+  s_maichan03 as unknown as StoryContent,
+  s_maichan04 as unknown as StoryContent,
+  s_furusatoVnKieu1 as unknown as StoryContent,
+  s_furusatoVnKieu2 as unknown as StoryContent,
+  s_furusatoVnKieu3 as unknown as StoryContent,
+  s_furusatoVnKieu4 as unknown as StoryContent,
+  s_furusatoVnQuynh1 as unknown as StoryContent,
+  s_furusatoVnQuynh2 as unknown as StoryContent,
+  s_furusatoVnQuynh3 as unknown as StoryContent,
+  s_furusatoVnHoangle1 as unknown as StoryContent,
+  s_furusatoVnHoangle2 as unknown as StoryContent,
+  s_furusatoVnHoangle3 as unknown as StoryContent,
+  s_furusatoVnThachlam1 as unknown as StoryContent,
+  s_furusatoVnThachlam2 as unknown as StoryContent,
+  s_furusatoVnThachlam3 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

@@ -77,7 +77,21 @@
           "pt": "~ significa ~ (explicando uma palavra). Dia a dia: 「いただきます」とは、「ありがたくいただく」という意味です (\"itadakimasu\" significa \"recebo com gratidão\"); 「KY」とは、「空気が読めない」という意味です (\"KY\" significa \"não saber ler o ambiente\").",
           "my": "~ ဆိုတာ ~ လို့ အဓိပ္ပာယ်ရတယ် (စကားလုံး ရှင်းပြ)။ နေ့စဉ်: 「いただきます」とは、「ありがたくいただく」という意味です (\"အီတာဒါကီမတ်စု\" ဆိုတာ \"ကျေးဇူးတင်စွာ လက်ခံပါတယ်\"); 「KY」とは、「空気が読めない」という意味です (\"KY\" ဆိုတာ \"အခြေအနေ မဖတ်တတ်\")။",
           "th": "~ หมายถึง ~ (อธิบายความหมายคำ) ชีวิตประจำวัน: 「いただきます」とは、「ありがたくいただく」という意味です (\"อิตะดะคิมัส\" หมายถึง \"ขอรับด้วยความซาบซึ้ง\"); 「KY」とは、「空気が読めない」という意味です (\"KY\" หมายถึง \"อ่านบรรยากาศไม่ออก\")"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜とは〜という",
+            "reading": ""
+          },
+          {
+            "surface": "意味",
+            "reading": "いみ"
+          },
+          {
+            "surface": "です",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜らしい",
@@ -119,7 +133,59 @@
           "pt": "Desejo irreal → 〜ばいいのに.",
           "my": "ဆန္ဒ → 〜ばいいのに။",
           "th": "ความปรารถนา → 〜ばいいのに"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "あと",
+            "reading": ""
+          },
+          {
+            "surface": "一",
+            "reading": "いち"
+          },
+          {
+            "surface": "時間",
+            "reading": "じかん"
+          },
+          {
+            "surface": "ねられれ（　　）。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "ばいいのに",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ようとしている",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "らしい",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "という",
+              "reading": ""
+            },
+            {
+              "surface": "意味",
+              "reading": "いみ"
+            },
+            {
+              "surface": "だ",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "見て。ねこが木にのぼろ（　　）。",
@@ -142,7 +208,59 @@
           "pt": "Prestes a subir → 〜ようとしている.",
           "my": "တက်တော့မယ် → 〜ようとしている။",
           "th": "กำลังจะปีน → 〜ようとしている"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "見",
+            "reading": "み"
+          },
+          {
+            "surface": "て。ねこが",
+            "reading": ""
+          },
+          {
+            "surface": "木",
+            "reading": "き"
+          },
+          {
+            "surface": "にのぼろ（　　）。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "うとしている",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ばいいのに",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "らしい",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "という",
+              "reading": ""
+            },
+            {
+              "surface": "意味",
+              "reading": "いみ"
+            },
+            {
+              "surface": "だ",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "「おつかれさま」とは、「よくがんばりましたね」（　　）。",
@@ -165,7 +283,41 @@
           "pt": "Explicar → 〜という意味です.",
           "my": "အဓိပ္ပာယ် ရှင်း → 〜という意味です။",
           "th": "อธิบายความหมาย → 〜という意味です"
-        }
+        },
+        "choicesFurigana": [
+          [
+            {
+              "surface": "という",
+              "reading": ""
+            },
+            {
+              "surface": "意味",
+              "reading": "いみ"
+            },
+            {
+              "surface": "です",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ばいいのに",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "らしいです",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ようとしています",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "今日は、夏（　　）、とても暑い日でした。",
@@ -188,7 +340,71 @@
           "pt": "Típico de verão → 〜らしい.",
           "my": "နွေရာသီ ပီသ → 〜らしい။",
           "th": "สมเป็นหน้าร้อน → 〜らしい"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "今日",
+            "reading": "きょう"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "夏",
+            "reading": "なつ"
+          },
+          {
+            "surface": "（　　）、とても",
+            "reading": ""
+          },
+          {
+            "surface": "暑",
+            "reading": "あつ"
+          },
+          {
+            "surface": "い",
+            "reading": ""
+          },
+          {
+            "surface": "日",
+            "reading": "ひ"
+          },
+          {
+            "surface": "でした。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "らしい",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ばいいのに",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ようとして",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "という",
+              "reading": ""
+            },
+            {
+              "surface": "意味",
+              "reading": "いみ"
+            }
+          ]
+        ]
       }
     ]
   },

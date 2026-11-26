@@ -32,7 +32,7 @@ export interface StoryIndexItem {
   shelf?: StoryContent["shelf"];
   origin?: string;
   audioTrack?: AudioTrack;
-  /** Gói cũ đã có bản v2 thay thế: không hiện trong kệ/danh sách, trang đọc vẫn mở được */
+  /** Gói cũ bị ẩn (có bản thay thế, hoặc cho nghỉ): không hiện trong kệ/danh sách, trang đọc vẫn mở được */
   hidden?: true;
   replacedBy?: string;
 }
@@ -3016,7 +3016,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 14
+  "sentenceCount": 14,
+  "hidden": true,
+  "replacedBy": "mukashi-urashima-1"
  },
  {
   "id": "kaguya-hime",
@@ -3028,7 +3030,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 15
+  "sentenceCount": 15,
+  "hidden": true,
+  "replacedBy": "mukashi-kaguya-1"
  },
  {
   "id": "issun-boshi",
@@ -3040,7 +3044,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 14
+  "sentenceCount": 14,
+  "hidden": true,
+  "replacedBy": "mukashi-issun-1"
  },
  {
   "id": "hanasaka-jiisan",
@@ -3066,7 +3072,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 14
+  "sentenceCount": 14,
+  "hidden": true,
+  "replacedBy": "mukashi-tsuru-1"
  },
  {
   "id": "kintaro",
@@ -3406,7 +3414,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 14
+  "sentenceCount": 14,
+  "hidden": true,
+  "replacedBy": "mukashi-yuki-onna-1"
  },
  {
   "id": "shopping-for-clothes",
@@ -3900,7 +3910,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true,
+  "replacedBy": "mukashi-ushiwaka-1"
  },
  {
   "id": "torokko",
@@ -4080,7 +4092,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "hidden": true,
+  "replacedBy": "at-the-barber"
  },
  {
   "id": "wakagaeri-no-mizu",
@@ -4272,7 +4286,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true,
+  "replacedBy": "mukashi-shuten-1"
  },
  {
   "id": "company-drinking-party",
@@ -4500,7 +4516,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "hidden": true,
+  "replacedBy": "at-the-bank"
  },
  {
   "id": "kikimimi-zukin",
@@ -4536,7 +4554,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 12
+  "sentenceCount": 12,
+  "hidden": true,
+  "replacedBy": "botchan-1"
  },
  {
   "id": "neighborhood-cleanup",
@@ -4992,7 +5012,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 12
+  "sentenceCount": 12,
+  "hidden": true,
+  "replacedBy": "mukashi-anju-zushio-1"
  },
  {
   "id": "at-the-flower-shop",
@@ -5088,7 +5110,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "bicycle-practice",
@@ -5136,7 +5159,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "preparing-nengajo",
@@ -5184,7 +5208,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "buying-a-birthday-cake",
@@ -5232,7 +5257,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "lost-and-found",
@@ -5304,7 +5330,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "attending-a-funeral",
@@ -5352,7 +5379,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "school-field-trip",
@@ -5400,7 +5428,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "at-the-park",
@@ -5448,7 +5477,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "the-rainy-day",
@@ -5496,7 +5526,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "trip-to-the-beach",
@@ -5616,7 +5647,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "the-neighborhood-cat",
@@ -5664,7 +5696,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "the-thousand-cranes",
@@ -5712,7 +5745,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "the-typhoon-day",
@@ -5808,7 +5842,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "the-fisherman-and-the-magic-fish",
@@ -5856,7 +5891,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "the-star-money",
@@ -6014,7 +6050,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 9
+  "sentenceCount": 9,
+  "hidden": true,
+  "replacedBy": "japanese-language-class"
  },
  {
   "id": "yodaka-no-hoshi",
@@ -6038,7 +6076,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "hidden": true,
+  "replacedBy": "tanabata-story"
  },
  {
   "id": "the-two-goats",
@@ -6170,7 +6210,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "hidden": true,
+  "replacedBy": "golden-axe"
  },
  {
   "id": "the-point-card",
@@ -6230,7 +6272,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-fox-and-the-stork",
@@ -6278,7 +6321,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "hidden": true,
+  "replacedBy": "the-town-mouse-and-the-country-mouse"
  },
  {
   "id": "the-atm",
@@ -6302,7 +6347,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "at-the-dentist"
  },
  {
   "id": "the-shepherd-boy",
@@ -6314,7 +6361,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "the-boy-who-cried-wolf"
  },
  {
   "id": "the-glasses-shop",
@@ -6338,7 +6387,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "maichan-01"
  },
  {
   "id": "mai-chan-ep02-homework",
@@ -6350,7 +6401,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "maichan-01"
  },
  {
   "id": "mai-chan-ep03-shared-umbrella",
@@ -6386,7 +6439,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "maichan-02"
  },
  {
   "id": "mai-chan-ep06-loose-tooth",
@@ -6398,7 +6453,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "maichan-03"
  },
  {
   "id": "the-library-card",
@@ -6422,7 +6479,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "maichan-04"
  },
  {
   "id": "mai-chan-ep08-sick-mom",
@@ -6446,7 +6505,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "hidden": true,
+  "replacedBy": "riding-the-shinkansen"
  },
  {
   "id": "the-little-red-hen",
@@ -6506,7 +6567,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "three-little-pigs"
  },
  {
   "id": "mai-chan-ep11-tomatoes",
@@ -6554,7 +6617,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "hidden": true,
+  "replacedBy": "bicycle-repair"
  },
  {
   "id": "mai-chan-ep13-rainy-day",
@@ -6602,7 +6667,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "hidden": true,
+  "replacedBy": "at-the-post-office"
  },
  {
   "id": "mai-chan-ep15-lost-cat",
@@ -6686,7 +6753,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "hidden": true,
+  "replacedBy": "at-the-onsen"
  },
  {
   "id": "the-wizard-of-oz",
@@ -6698,7 +6767,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep19-christmas",
@@ -6746,7 +6816,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep21-zoo",
@@ -6794,7 +6865,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep23-tulip-bulbs",
@@ -6830,7 +6902,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "hidden": true,
+  "replacedBy": "lost-and-found"
  },
  {
   "id": "heidi",
@@ -6842,7 +6916,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep25-fire-drill",
@@ -6890,7 +6965,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep27-helping-neighbor",
@@ -6938,7 +7014,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep29-ice-skating",
@@ -6986,7 +7063,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "ningyo-hime"
  },
  {
   "id": "mai-chan-ep31-new-year-shrine",
@@ -7034,7 +7113,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep33-valentine",
@@ -7130,7 +7210,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep37-graduation-day",
@@ -7178,7 +7259,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep39-childrens-day",
@@ -7226,7 +7308,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep41-fathers-day",
@@ -7274,7 +7357,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep43-tanabata",
@@ -7322,7 +7406,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep45-pool-day",
@@ -7358,7 +7443,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep47-summer-homework",
@@ -7394,7 +7480,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep49-moon-viewing",
@@ -7442,7 +7529,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep51-sweet-potato",
@@ -7490,7 +7578,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep53-planetarium",
@@ -7538,7 +7627,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep55-school-lunch",
@@ -7586,7 +7676,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep57-piano-recital",
@@ -7634,7 +7725,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep59-endurance-run",
@@ -7682,7 +7774,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep61-kite-flying",
@@ -7730,7 +7823,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep63-baking-bread",
@@ -7778,7 +7872,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep65-cooking-dinner",
@@ -7826,7 +7921,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-overtime-night",
@@ -7886,7 +7982,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-earthquake-night",
@@ -7898,7 +7995,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-old-bookshop",
@@ -7910,7 +8008,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-parents-care",
@@ -7922,7 +8021,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-narrow-road",
@@ -7934,7 +8034,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-aging-society",
@@ -7946,7 +8047,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-meiji-restoration",
@@ -7958,7 +8060,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-interpreter",
@@ -7970,7 +8073,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-driving-license",
@@ -8030,7 +8134,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-wedding-speech",
@@ -8042,7 +8147,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-small-business",
@@ -8054,7 +8160,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-mountain-temple",
@@ -8066,7 +8173,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-last-craftsman",
@@ -8078,7 +8186,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-two-homelands",
@@ -8090,7 +8199,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-philosophy-of-time",
@@ -8102,7 +8212,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-lighthouse-keeper",
@@ -8114,7 +8225,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-bicycle-rules",
@@ -8174,7 +8286,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-mentor",
@@ -8186,7 +8299,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-marathon",
@@ -8198,7 +8312,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-night-train",
@@ -8210,7 +8325,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-old-photograph",
@@ -8222,7 +8338,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-language-of-silence",
@@ -8234,7 +8351,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "when-an-era-changes",
@@ -8246,7 +8364,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-japanese-garden",
@@ -8258,7 +8377,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "furusato-vn-tamcam-1",
@@ -10947,6 +11067,674 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/osaka-hataraku-08/chapter.mp3",
    "durationSec": 346.872
+  }
+ },
+ {
+  "id": "furusato-vn-sodo-1",
+  "titles": {
+   "vi": "Số đỏ (1): Xuân Tóc Đỏ",
+   "en": "Dumb Luck (1): Red-Haired Xuân",
+   "zh-Hans": "红运（一）：红发阿春",
+   "zh-Hant": "紅運（一）：紅髮阿春",
+   "ko": "소도 (1): 빨간 머리 쑤언",
+   "tl": "Số Đỏ (1): Si Xuân na Pula ang Buhok",
+   "ne": "सो दो (१): रातो कपाल भएको सुआन",
+   "id": "Số Đỏ (1): Xuân si Rambut Merah",
+   "pt": "Số Đỏ (1): Xuân, o Ruivo",
+   "my": "ဆိုးဒေါ့ (၁) - ဆံပင်နီ ဆွမ်",
+   "th": "โส่ด๋อ (1): ซวนผมแดง"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-sodo-1.webp",
+  "series": {
+   "id": "furusato-vn-sodo",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-sodo-1/chapter.mp3",
+   "durationSec": 432.024
+  }
+ },
+ {
+  "id": "furusato-vn-sodo-2",
+  "titles": {
+   "vi": "Số đỏ (2): Đốc tờ Xuân và cô Tuyết",
+   "en": "Dumb Luck (2): Doctor Xuân and Miss Tuyết",
+   "zh-Hans": "红运（2）：阿春医生与雪小姐",
+   "zh-Hant": "紅運（2）：阿春醫生與雪小姐",
+   "ko": "소도 (2): 닥터 쑤언과 뚜옛 아가씨",
+   "tl": "Dumb Luck (2): Doktor Xuân at Binibining Tuyết",
+   "ne": "सो दो (२): डाक्टर सुआन र तुयेत",
+   "id": "Số Đỏ (2): Dokter Xuân dan Nona Tuyết",
+   "pt": "Số Đỏ (2): Doutor Xuân e a senhorita Tuyết",
+   "my": "ဆော်ဒေါ် (၂): ဒေါက်တာ ဆွမ်နဲ့ တွယ်တ်",
+   "th": "โซโด (2): ด็อกเตอร์ซวนกับคุณหนูเตวี๊ยต"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-sodo-2.webp",
+  "series": {
+   "id": "furusato-vn-sodo",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-sodo-2/chapter.mp3",
+   "durationSec": 394.752
+  }
+ },
+ {
+  "id": "furusato-vn-sodo-3",
+  "titles": {
+   "vi": "Số đỏ (3): Hạnh phúc của một tang gia",
+   "en": "Dumb Luck (3): The Happiness of a Family in Mourning",
+   "zh-Hans": "红运（3）：一个丧家的幸福",
+   "zh-Hant": "紅運（3）：一個喪家的幸福",
+   "ko": "소도 (3): 어느 상갓집의 행복",
+   "tl": "Dumb Luck (3): Ang Kaligayahan ng Isang Naulilang Pamilya",
+   "ne": "सो दो (३): एक शोकाकुल परिवारको खुसी",
+   "id": "Số Đỏ (3): Kebahagiaan Keluarga yang Berduka",
+   "pt": "Số Đỏ (3): A felicidade de uma família enlutada",
+   "my": "ဆော်ဒေါ် (၃): ဝမ်းနည်းနေတဲ့ မိသားစုရဲ့ ပျော်ရွှင်မှု",
+   "th": "โซโด (3): ความสุขของบ้านที่ไว้ทุกข์"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-sodo-3.webp",
+  "series": {
+   "id": "furusato-vn-sodo",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-sodo-3/chapter.mp3",
+   "durationSec": 393.048
+  }
+ },
+ {
+  "id": "furusato-vn-sodo-4",
+  "titles": {
+   "vi": "Số đỏ (4 – hết): Xuân Tóc Đỏ cứu quốc",
+   "en": "Dumb Luck (4 – end): Red-Haired Xuân Saves the Nation",
+   "zh-Hans": "红运（4·完）：红发阿春救国",
+   "zh-Hant": "紅運（4·完）：紅髮阿春救國",
+   "ko": "소도 (4·끝): 빨간 머리 쑤언, 나라를 구하다",
+   "tl": "Dumb Luck (4 – wakas): Iniligtas ni Xuân ang Bayan",
+   "ne": "सो दो (४ – अन्तिम): रातो कपाले सुआनले देश बचाए",
+   "id": "Số Đỏ (4 – tamat): Xuân Rambut Merah Menyelamatkan Negeri",
+   "pt": "Số Đỏ (4 – fim): Xuân, o ruivo, salva a nação",
+   "my": "ဆော်ဒေါ် (၄ – ဇာတ်သိမ်း): ဆံပင်နီ ဆွမ် တိုင်းပြည်ကို ကယ်တင်",
+   "th": "โซโด (4 – จบ): ซวนผมแดงกู้ชาติ"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-sodo-4.webp",
+  "series": {
+   "id": "furusato-vn-sodo",
+   "index": 4
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-sodo-4/chapter.mp3",
+   "durationSec": 352.272
+  }
+ },
+ {
+  "id": "maichan-01",
+  "titles": {
+   "vi": "Mai-chan (1): Buổi sáng rối rít",
+   "en": "Mai-chan (1): A Hectic Morning",
+   "zh-Hans": "小麦（1）：手忙脚乱的早晨",
+   "zh-Hant": "小麥（1）：手忙腳亂的早晨",
+   "ko": "마이짱 (1): 정신없는 아침",
+   "tl": "Mai-chan (1): Isang Magulong Umaga",
+   "ne": "माई-चान (१): हतारको बिहान",
+   "id": "Mai-chan (1): Pagi yang Kalang Kabut",
+   "pt": "Mai-chan (1): Uma Manhã Corrida",
+   "my": "မိုင်ချန် (၁): ကမန်းကတန်း မနက်ခင်း",
+   "th": "ไมจัง (1): เช้าวันวุ่นวาย"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 42,
+  "cover": "/covers/maichan-01.webp",
+  "series": {
+   "id": "maichan",
+   "index": 1
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-01/chapter.mp3",
+   "durationSec": 160.296
+  }
+ },
+ {
+  "id": "maichan-02",
+  "titles": {
+   "vi": "Mai-chan (2): Hội thao",
+   "en": "Mai-chan (2): Sports Day",
+   "zh-Hans": "小麦（2）：运动会",
+   "zh-Hant": "小麥（2）：運動會",
+   "ko": "마이짱 (2): 운동회",
+   "tl": "Mai-chan (2): Araw ng Palaro",
+   "ne": "माई-चान (२): खेलकुद दिवस",
+   "id": "Mai-chan (2): Hari Olahraga",
+   "pt": "Mai-chan (2): Gincana Esportiva",
+   "my": "မိုင်ချန် (၂): အားကစားပွဲ",
+   "th": "ไมจัง (2): วันกีฬาสี"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-02.webp",
+  "series": {
+   "id": "maichan",
+   "index": 2
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-02/chapter.mp3",
+   "durationSec": 143.88
+  }
+ },
+ {
+  "id": "maichan-03",
+  "titles": {
+   "vi": "Mai-chan (3): Chiếc răng lung lay",
+   "en": "Mai-chan (3): The Wobbly Tooth",
+   "zh-Hans": "小麦（3）：摇摇晃晃的牙",
+   "zh-Hant": "小麥（3）：搖搖晃晃的牙",
+   "ko": "마이짱 (3): 흔들리는 이",
+   "tl": "Mai-chan (3): Ang Umuugang Ngipin",
+   "ne": "माई-चान (३): हल्लिएको दाँत",
+   "id": "Mai-chan (3): Gigi yang Goyang",
+   "pt": "Mai-chan (3): O Dente Mole",
+   "my": "မိုင်ချန် (၃): လှုပ်နေတဲ့ သွား",
+   "th": "ไมจัง (3): ฟันโยก"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 42,
+  "cover": "/covers/maichan-03.webp",
+  "series": {
+   "id": "maichan",
+   "index": 3
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-03/chapter.mp3",
+   "durationSec": 150.864
+  }
+ },
+ {
+  "id": "maichan-04",
+  "titles": {
+   "vi": "Mai-chan (4): Món quà cho Bin",
+   "en": "Mai-chan (4): A Present for Bin",
+   "zh-Hans": "小麦（4）：送给小宾的礼物",
+   "zh-Hant": "小麥（4）：送給小賓的禮物",
+   "ko": "마이짱 (4): 빈에게 주는 선물",
+   "tl": "Mai-chan (4): Regalo para kay Bin",
+   "ne": "माई-चान (४): बिनका लागि उपहार",
+   "id": "Mai-chan (4): Hadiah untuk Bin",
+   "pt": "Mai-chan (4): Um Presente para o Bin",
+   "my": "မိုင်ချန် (၄): ဘင်အတွက် လက်ဆောင်",
+   "th": "ไมจัง (4): ของขวัญให้บิน"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-04.webp",
+  "series": {
+   "id": "maichan",
+   "index": 4
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-04/chapter.mp3",
+   "durationSec": 155.136
+  }
+ },
+ {
+  "id": "furusato-vn-kieu-1",
+  "titles": {
+   "vi": "Truyện Kiều (1): Tiết Thanh minh",
+   "en": "The Tale of Kieu (1): The Day of Qingming",
+   "zh-Hans": "金云翘传（1）：清明之日",
+   "zh-Hant": "金雲翹傳（1）：清明之日",
+   "ko": "쭈옌 끼에우 (1): 청명절",
+   "tl": "Ang Kuwento ni Kieu (1): Araw ng Thanh Minh",
+   "ne": "किएउको कथा (१): थान मिन्हको दिन",
+   "id": "Kisah Kieu (1): Hari Ceng Beng",
+   "pt": "A História de Kieu (1): O Dia de Qingming",
+   "my": "ကီအဲဝ်ဇာတ်လမ်း (၁): ချင်မင်နေ့",
+   "th": "เรื่องของเกี่ยว (1): วันเช็งเม้ง"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 57,
+  "cover": "/covers/furusato-vn-kieu-1.webp",
+  "series": {
+   "id": "furusato-vn-kieu",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-kieu-1/chapter.mp3",
+   "durationSec": 341.04
+  }
+ },
+ {
+  "id": "furusato-vn-kieu-2",
+  "titles": {
+   "vi": "Truyện Kiều (2): Bán mình chuộc cha",
+   "en": "The Tale of Kieu (2): Selling Herself to Save Her Father",
+   "zh-Hans": "金云翘传（2）：卖身救父",
+   "zh-Hant": "金雲翹傳（2）：賣身救父",
+   "ko": "쭈옌 끼에우 (2): 몸을 팔아 아버지를 구하다",
+   "tl": "Ang Kuwento ni Kieu (2): Ipinagbili ang Sarili para sa Ama",
+   "ne": "किएउको कथा (२): बुबालाई बचाउन आफैँलाई बेच्छिन्",
+   "id": "Kisah Kieu (2): Menjual Diri demi Ayah",
+   "pt": "A História de Kieu (2): Vendida para Salvar o Pai",
+   "my": "ကီအဲဝ်ဇာတ်လမ်း (၂): ဖခင်ကိုကယ်ရန် ကိုယ့်ကိုယ်ကိုရောင်း",
+   "th": "เรื่องของเกี่ยว (2): ขายตัวไถ่บิดา"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 57,
+  "cover": "/covers/furusato-vn-kieu-2.webp",
+  "series": {
+   "id": "furusato-vn-kieu",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-kieu-2/chapter.mp3",
+   "durationSec": 354.096
+  }
+ },
+ {
+  "id": "furusato-vn-kieu-3",
+  "titles": {
+   "vi": "Truyện Kiều (3): Hoạn Thư và Từ Hải",
+   "en": "The Tale of Kieu (3): Hoan Thu and Tu Hai",
+   "zh-Hans": "金云翘传（3）：宦姐与徐海",
+   "zh-Hant": "金雲翹傳（3）：宦姐與徐海",
+   "ko": "쭈옌 끼에우 (3): 호안 트와 뜨 하이",
+   "tl": "Ang Kuwento ni Kieu (3): Si Hoan Thu at si Tu Hai",
+   "ne": "किएउको कथा (३): होआन थु र तु हाइ",
+   "id": "Kisah Kieu (3): Hoan Thu dan Tu Hai",
+   "pt": "A História de Kieu (3): Hoan Thu e Tu Hai",
+   "my": "ကီအဲဝ်ဇာတ်လမ်း (၃): ဟွမ်းသူနဲ့ တူဟိုင်",
+   "th": "เรื่องของเกี่ยว (3): ฮหว่านทือกับตื่อไฮ่"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 57,
+  "cover": "/covers/furusato-vn-kieu-3.webp",
+  "series": {
+   "id": "furusato-vn-kieu",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-kieu-3/chapter.mp3",
+   "durationSec": 370.872
+  }
+ },
+ {
+  "id": "furusato-vn-kieu-4",
+  "titles": {
+   "vi": "Truyện Kiều (4): Đoàn viên",
+   "en": "The Tale of Kieu (4): Reunion",
+   "zh-Hans": "金云翘传（4）：团圆",
+   "zh-Hant": "金雲翹傳（4）：團圓",
+   "ko": "쭈옌 끼에우 (4): 재회",
+   "tl": "Ang Kuwento ni Kieu (4): Muling Pagkikita",
+   "ne": "किएउको कथा (४): पुनर्मिलन",
+   "id": "Kisah Kieu (4): Berkumpul Kembali",
+   "pt": "A História de Kieu (4): O Reencontro",
+   "my": "ကီအဲဝ်ဇာတ်လမ်း (၄): ပြန်လည်ဆုံဆည်းခြင်း",
+   "th": "เรื่องของเกี่ยว (4): พบกันอีกครั้ง"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-kieu-4.webp",
+  "series": {
+   "id": "furusato-vn-kieu",
+   "index": 4
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-kieu-4/chapter.mp3",
+   "durationSec": 386.52
+  }
+ },
+ {
+  "id": "furusato-vn-quynh-1",
+  "titles": {
+   "vi": "Trạng Quỳnh (1): Món mầm đá",
+   "en": "Trang Quynh (1): Stone Sprouts",
+   "zh-Hans": "状元琼（1）：石头芽",
+   "zh-Hant": "狀元瓊（1）：石頭芽",
+   "ko": "짱 뀐 (1): 돌 새싹 요리",
+   "tl": "Trang Quynh (1): Usbong ng Bato",
+   "ne": "ट्राङ क्विन (१): ढुङ्गाको टुसा",
+   "id": "Trang Quynh (1): Tunas Batu",
+   "pt": "Trang Quynh (1): Brotos de Pedra",
+   "my": "ချန်းကွင် (၁): ကျောက်ညှောက်ဟင်း",
+   "th": "จ่างกวิ่ญ (1): หน่อหิน"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-quynh-1.webp",
+  "series": {
+   "id": "furusato-vn-quynh",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-quynh-1/chapter.mp3",
+   "durationSec": 305.616
+  }
+ },
+ {
+  "id": "furusato-vn-quynh-2",
+  "titles": {
+   "vi": "Trạng Quỳnh (2): Con mèo của chúa",
+   "en": "Trang Quynh (2): The Lord's Cat",
+   "zh-Hans": "状元琼（2）：主公的猫",
+   "zh-Hant": "狀元瓊（2）：主公的貓",
+   "ko": "짱 뀐 (2): 영주의 고양이",
+   "tl": "Trang Quynh (2): Ang Pusa ng Panginoon",
+   "ne": "ट्राङ क्विन (२): राजाको बिरालो",
+   "id": "Trang Quynh (2): Kucing Sang Tuan",
+   "pt": "Trang Quynh (2): O Gato do Senhor",
+   "my": "ချန်းကွင် (၂): မင်းရဲ့ကြောင်",
+   "th": "จ่างกวิ่ญ (2): แมวของเจ้านาย"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-quynh-2.webp",
+  "series": {
+   "id": "furusato-vn-quynh",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-quynh-2/chapter.mp3",
+   "durationSec": 305.664
+  }
+ },
+ {
+  "id": "furusato-vn-quynh-3",
+  "titles": {
+   "vi": "Trạng Quỳnh (3): Vẽ rồng thi với sứ Tàu",
+   "en": "Trang Quynh (3): The Dragon-Drawing Contest",
+   "zh-Hans": "状元琼（3）：与使者比画龙",
+   "zh-Hant": "狀元瓊（3）：與使者比畫龍",
+   "ko": "짱 뀐 (3): 사신과 용 그리기 대결",
+   "tl": "Trang Quynh (3): Paligsahan sa Pagguhit ng Dragon",
+   "ne": "ट्राङ क्विन (३): ड्र्यागन चित्र प्रतियोगिता",
+   "id": "Trang Quynh (3): Lomba Melukis Naga",
+   "pt": "Trang Quynh (3): O Duelo do Dragão",
+   "my": "ချန်းကွင် (၃): နဂါးပုံဆွဲပြိုင်ပွဲ",
+   "th": "จ่างกวิ่ญ (3): ประชันวาดมังกร"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-quynh-3.webp",
+  "series": {
+   "id": "furusato-vn-quynh",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-quynh-3/chapter.mp3",
+   "durationSec": 316.08
+  }
+ },
+ {
+  "id": "furusato-vn-hoangle-1",
+  "titles": {
+   "vi": "Hoàng Lê nhất thống chí (1): Quang Trung lên ngôi",
+   "en": "The Unification of the Le (1): Quang Trung Takes the Throne",
+   "zh-Hans": "皇黎一统志（1）：光中登基",
+   "zh-Hant": "皇黎一統志（1）：光中登基",
+   "ko": "황려일통지 (1): 광중 황제의 즉위",
+   "tl": "Hoang Le Nhat Thong Chi (1): Ang Pagluklok kay Quang Trung",
+   "ne": "होआङ ले न्यात थोङ ची (१): क्वाङ चुङको राज्याभिषेक",
+   "id": "Hoang Le Nhat Thong Chi (1): Quang Trung Naik Takhta",
+   "pt": "Hoang Le Nhat Thong Chi (1): Quang Trung Sobe ao Trono",
+   "my": "ဟွမ်လေ ညတ်ထုံချီ (၁): ကွမ်ချုန် နန်းတက်ခြင်း",
+   "th": "ฮหว่างเลเญิดท้งจี (1): กวางจุงขึ้นครองราชย์"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-hoangle-1.webp",
+  "series": {
+   "id": "furusato-vn-hoangle",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-hoangle-1/chapter.mp3",
+   "durationSec": 430.08
+  }
+ },
+ {
+  "id": "furusato-vn-hoangle-2",
+  "titles": {
+   "vi": "Hoàng Lê nhất thống chí (2): Ăn Tết sớm, phá đồn Hà Hồi",
+   "en": "The Unification of the Le (2): An Early New Year and the Fort at Ha Hoi",
+   "zh-Hans": "皇黎一统志（2）：提前过年，攻破河回",
+   "zh-Hant": "皇黎一統志（2）：提前過年，攻破河回",
+   "ko": "황려일통지 (2): 앞당긴 설날과 하호이 요새",
+   "tl": "Hoang Le Nhat Thong Chi (2): Maagang Bagong Taon at ang Kuta ng Ha Hoi",
+   "ne": "होआङ ले न्यात थोङ ची (२): छिटो नयाँ वर्ष र हा होइको किल्ला",
+   "id": "Hoang Le Nhat Thong Chi (2): Tahun Baru Lebih Awal dan Benteng Ha Hoi",
+   "pt": "Hoang Le Nhat Thong Chi (2): Ano-Novo Antecipado e o Forte de Ha Hoi",
+   "my": "ဟွမ်လေ ညတ်ထုံချီ (၂): နှစ်သစ်ကို စောစော ကျင်းပခြင်းနဲ့ ဟာဟွိုင်ခံတပ်",
+   "th": "ฮหว่างเลเญิดท้งจี (2): ฉลองปีใหม่ล่วงหน้าและป้อมฮาโห่ย"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-hoangle-2.webp",
+  "series": {
+   "id": "furusato-vn-hoangle",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-hoangle-2/chapter.mp3",
+   "durationSec": 421.728
+  }
+ },
+ {
+  "id": "furusato-vn-hoangle-3",
+  "titles": {
+   "vi": "Hoàng Lê nhất thống chí (3): Đại phá Ngọc Hồi – Đống Đa",
+   "en": "The Unification of the Le (3): Victory at Ngoc Hoi and Dong Da",
+   "zh-Hans": "皇黎一统志（3）：大破玉回、栋多",
+   "zh-Hant": "皇黎一統志（3）：大破玉回、棟多",
+   "ko": "황려일통지 (3): 응옥호이·동다의 대승",
+   "tl": "Hoang Le Nhat Thong Chi (3): Tagumpay sa Ngoc Hoi at Dong Da",
+   "ne": "होआङ ले न्यात थोङ ची (३): ङोक होइ–दोङ दाको विजय",
+   "id": "Hoang Le Nhat Thong Chi (3): Kemenangan di Ngoc Hoi dan Dong Da",
+   "pt": "A Unificação dos Le (3): Vitória em Ngoc Hoi e Dong Da",
+   "my": "ဟွမ်လေ ညတ်ထုံချီ (၃) - ငေါက်ဟွိုင်–ဒုံဒါ အောင်ပွဲ",
+   "th": "ฮหว่างเล้ญ้าททงจี๋ (3): ชัยชนะที่หง็อกโห่ย–ด่งด่า"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 64,
+  "cover": "/covers/furusato-vn-hoangle-3.webp",
+  "series": {
+   "id": "furusato-vn-hoangle",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-hoangle-3/chapter.mp3",
+   "durationSec": 439.248
+  }
+ },
+ {
+  "id": "furusato-vn-thachlam-1",
+  "titles": {
+   "vi": "Thạch Lam (1): Hai đứa trẻ",
+   "en": "Thach Lam (1): Two Children",
+   "zh-Hans": "石岚短篇（1）：两个孩子",
+   "zh-Hant": "石嵐短篇（1）：兩個孩子",
+   "ko": "타익 람 (1): 두 아이",
+   "tl": "Thach Lam (1): Dalawang Bata",
+   "ne": "थाच लाम (१): दुई बालबालिका",
+   "id": "Thach Lam (1): Dua Anak",
+   "pt": "Thach Lam (1): Duas Crianças",
+   "my": "ထက်လမ် (၁) - ကလေးနှစ်ယောက်",
+   "th": "ทัคลาม (1): เด็กสองคน"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-thachlam-1.webp",
+  "series": {
+   "id": "furusato-vn-thachlam",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-thachlam-1/chapter.mp3",
+   "durationSec": 405.888
+  }
+ },
+ {
+  "id": "furusato-vn-thachlam-2",
+  "titles": {
+   "vi": "Thạch Lam (2): Gió lạnh đầu mùa",
+   "en": "Thach Lam (2): The First Cold Wind",
+   "zh-Hans": "石岚短篇（2）：初冬的冷风",
+   "zh-Hant": "石嵐短篇（2）：初冬的冷風",
+   "ko": "타익 람 (2): 첫 찬바람",
+   "tl": "Thach Lam (2): Ang Unang Malamig na Hangin",
+   "ne": "थाच लाम (२): मौसमको पहिलो चिसो हावा",
+   "id": "Thach Lam (2): Angin Dingin Pertama",
+   "pt": "Thach Lam (2): O Primeiro Vento Frio",
+   "my": "ထက်လမ် (၂) - ဆောင်းဦး လေအေး",
+   "th": "ทัคลาม (2): ลมหนาวแรกของฤดู"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-thachlam-2.webp",
+  "series": {
+   "id": "furusato-vn-thachlam",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-thachlam-2/chapter.mp3",
+   "durationSec": 401.136
+  }
+ },
+ {
+  "id": "furusato-vn-thachlam-3",
+  "titles": {
+   "vi": "Thạch Lam (3): Dưới bóng hoàng lan",
+   "en": "Thach Lam (3): Under the Ylang-Ylang Tree",
+   "zh-Hans": "石岚短篇（3）：依兰树荫下",
+   "zh-Hant": "石嵐短篇（3）：依蘭樹蔭下",
+   "ko": "타익 람 (3): 일랑일랑 나무 그늘 아래",
+   "tl": "Thach Lam (3): Sa Lilim ng Ilang-Ilang",
+   "ne": "थाच लाम (३): इलाङ-इलाङको छायाँमुनि",
+   "id": "Thach Lam (3): Di Bawah Pohon Kenanga",
+   "pt": "Thach Lam (3): À Sombra do Ylang-Ylang",
+   "my": "ထက်လမ် (၃) - ကဒံပင်ရိပ်အောက်",
+   "th": "ทัคลาม (3): ใต้ร่มกระดังงา"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-thachlam-3.webp",
+  "series": {
+   "id": "furusato-vn-thachlam",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-thachlam-3/chapter.mp3",
+   "durationSec": 424.608
   }
  }
 ];

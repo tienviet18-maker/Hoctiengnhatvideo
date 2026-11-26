@@ -94,7 +94,17 @@
           "pt": "Ao fim de (um longo processo) ~. Dia a dia: 長い話し合いの末、引っこすことに決めた (depois de muita conversa, decidimos mudar); 努力の末、日本で仕事が見つかった (após muito esforço, achei emprego no Japão).",
           "my": "(ရှည်လျားတဲ့ လုပ်ငန်းစဉ်) ~ အဆုံးမှာ။ နေ့စဉ်: 長い話し合いの末、引っこすことに決めた (ကြာကြာ ဆွေးနွေးပြီးနောက် အိမ်ပြောင်းဖို့ ဆုံးဖြတ်တယ်); 努力の末、日本で仕事が見つかった (ကြိုးစားမှုရဲ့ အဆုံးမှာ ဂျပန်မှာ အလုပ်ရတယ်)။",
           "th": "หลังจาก (กระบวนการยาวนาน) ~ ในที่สุด ชีวิตประจำวัน: 長い話し合いの末、引っこすことに決めた (หลังคุยกันนาน ตัดสินใจย้ายบ้าน); 努力の末、日本で仕事が見つかった (หลังพยายามอย่างหนัก ได้งานที่ญี่ปุ่น)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜の",
+            "reading": ""
+          },
+          {
+            "surface": "末",
+            "reading": "すえ"
+          }
+        ]
       }
     ],
     "quiz": [
@@ -119,7 +129,71 @@
           "pt": "Fonte → 〜によると.",
           "my": "ရင်းမြစ် → 〜によると။",
           "th": "แหล่งข่าว → 〜によると"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "友",
+            "reading": "とも"
+          },
+          {
+            "surface": "だちの",
+            "reading": ""
+          },
+          {
+            "surface": "話",
+            "reading": "はなし"
+          },
+          {
+            "surface": "（　　）、あの",
+            "reading": ""
+          },
+          {
+            "surface": "店",
+            "reading": "みせ"
+          },
+          {
+            "surface": "は",
+            "reading": ""
+          },
+          {
+            "surface": "来月",
+            "reading": "らいげつ"
+          },
+          {
+            "surface": "しまるそうです。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "によると",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "どころか",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "末",
+              "reading": "すえ"
+            }
+          ],
+          [
+            {
+              "surface": "いくら",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "（　　）練習しても、なかなか上手になりません。",
@@ -142,7 +216,59 @@
           "pt": "Por mais que pratique → いくら〜ても.",
           "my": "ဘယ်လောက် လေ့ကျင့်လေ့ကျင့် → いくら〜ても။",
           "th": "ฝึกเท่าไรก็ → いくら〜ても"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "（　　）",
+            "reading": ""
+          },
+          {
+            "surface": "練習",
+            "reading": "れんしゅう"
+          },
+          {
+            "surface": "しても、なかなか",
+            "reading": ""
+          },
+          {
+            "surface": "上手",
+            "reading": "じょうず"
+          },
+          {
+            "surface": "になりません。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "いくら",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "どころか",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "によると",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "末",
+              "reading": "すえ"
+            }
+          ]
+        ]
       },
       {
         "ja": "雨はやむ（　　）、ますます強くなった。",
@@ -165,7 +291,55 @@
           "pt": "Longe de parar → 〜どころか.",
           "my": "တိတ်ဖို့ နေနေသာသာ → 〜どころか။",
           "th": "แทนที่จะหยุด → 〜どころか"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "雨",
+            "reading": "あめ"
+          },
+          {
+            "surface": "はやむ（　　）、ますます",
+            "reading": ""
+          },
+          {
+            "surface": "強",
+            "reading": "つよ"
+          },
+          {
+            "surface": "くなった。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "どころか",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "によると",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "末",
+              "reading": "すえ"
+            }
+          ],
+          [
+            {
+              "surface": "いくら",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "三時間の話し合い（　　）、やっと計画が決まった。",
@@ -188,7 +362,83 @@
           "pt": "Ao fim de um longo processo → 〜の末.",
           "my": "ရှည်လျားတဲ့ လုပ်ငန်းစဉ် အဆုံး → 〜の末။",
           "th": "หลังกระบวนการยาว → 〜の末"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "三",
+            "reading": "さん"
+          },
+          {
+            "surface": "時間",
+            "reading": "じかん"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "話",
+            "reading": "はな"
+          },
+          {
+            "surface": "し",
+            "reading": ""
+          },
+          {
+            "surface": "合",
+            "reading": "あ"
+          },
+          {
+            "surface": "い（　　）、やっと",
+            "reading": ""
+          },
+          {
+            "surface": "計画",
+            "reading": "けいかく"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "決",
+            "reading": "き"
+          },
+          {
+            "surface": "まった。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "末",
+              "reading": "すえ"
+            }
+          ],
+          [
+            {
+              "surface": "どころか",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "によると",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "いくら",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

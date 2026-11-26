@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predev": "node scripts/gen-catalog.mjs",
+    "predev": "node scripts/gen-catalog.mjs && node scripts/gen-placement-furigana.mjs",
     "dev": "next dev",
-    "prebuild": "node scripts/gen-catalog.mjs",
+    "prebuild": "node scripts/gen-catalog.mjs && node scripts/gen-placement-furigana.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "pretypecheck": "node scripts/gen-catalog.mjs",
     "typecheck": "next typegen && tsc --noEmit",
-    "qc": "node scripts/qc-content.mjs && node scripts/qc-standard.mjs",
+    "qc": "node scripts/qc-content.mjs && node scripts/qc-standard.mjs && node scripts/lesson-furigana.mjs --check",
     "verify": "npm run qc && npm run typecheck && npm run lint && npm run build",
     "qc:report": "node scripts/qc-standard.mjs --report"
   },

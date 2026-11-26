@@ -42,7 +42,21 @@
      "my": "~ လို့ မပြောဘူး (အမှန်ဖြစ်ရင်တောင်)။ ကိုးကား + とは言わない၊ 決して ထည့်ရင် ပိုပြင်း။ ဥပမာ: 「知らない」とは決して言わない (\"မသိဘူး\" လို့ ဘယ်တော့မှ မပြော)။ 彼は「ごめん」とは言わない (သူ \"ဆောရီး\" လို့ မပြောဘူး)။",
      "th": "ไม่ยอมพูดว่า ~ (แม้จะเป็นความจริง) คำพูดที่ยกมา + とは言わない ใส่ 決して จะหนักแน่นขึ้น ตัวอย่าง: 「知らない」とは決して言わない (ไม่เคยพูดว่า \"ไม่รู้\" เด็ดขาด) 彼は「ごめん」とは言わない (เขาไม่ยอมพูดว่า \"ขอโทษ\")"
     },
-    "example": 1
+    "example": 1,
+    "patternFurigana": [
+     {
+      "surface": "〜とは",
+      "reading": ""
+     },
+     {
+      "surface": "言",
+      "reading": "い"
+     },
+     {
+      "surface": "わない",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "〜くせに",
@@ -117,7 +131,73 @@
      "pt": "Porque teve vergonha de dizer que não sabia (frases 7–8).",
      "my": "မသိဘူးလို့ ပြောရမှာ ရှက်လို့ (စာကြောင်း ၇–၈)။",
      "th": "เพราะอายที่จะบอกว่าไม่รู้ (ประโยค 7–8)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "和尚",
+      "reading": "おしょう"
+     },
+     {
+      "surface": "さんは、どうして「",
+      "reading": ""
+     },
+     {
+      "surface": "転失気",
+      "reading": "てんしき"
+     },
+     {
+      "surface": "はない」と",
+      "reading": ""
+     },
+     {
+      "surface": "答",
+      "reading": "こた"
+     },
+     {
+      "surface": "えましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "本当",
+       "reading": "ほんとう"
+      },
+      {
+       "surface": "になかったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "知",
+       "reading": "し"
+      },
+      {
+       "surface": "らないと",
+       "reading": ""
+      },
+      {
+       "surface": "言",
+       "reading": "い"
+      },
+      {
+       "surface": "うのがはずかしかったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "医者",
+       "reading": "いしゃ"
+      },
+      {
+       "surface": "がきらいだったから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "本当の「転失気」の意味は何ですか。",
@@ -139,7 +219,65 @@
      "pt": "Pum (frase 29).",
      "my": "လေလည်ခြင်း (စာကြောင်း ၂၉)။",
      "th": "ตด (ประโยค 29)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "本当",
+      "reading": "ほんとう"
+     },
+     {
+      "surface": "の「",
+      "reading": ""
+     },
+     {
+      "surface": "転失気",
+      "reading": "てんしき"
+     },
+     {
+      "surface": "」の",
+      "reading": ""
+     },
+     {
+      "surface": "意味",
+      "reading": "いみ"
+     },
+     {
+      "surface": "は",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "ですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "盃",
+       "reading": "さかずき"
+      }
+     ],
+     [
+      {
+       "surface": "みそ",
+       "reading": ""
+      },
+      {
+       "surface": "汁",
+       "reading": "しる"
+      }
+     ],
+     [
+      {
+       "surface": "おなら",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "珍念は、和尚さんに「転失気」は何だと教えましたか。",
@@ -161,7 +299,105 @@
      "pt": "Um copinho para beber saquê (frase 39).",
      "my": "ဆာကေး သောက်တဲ့ ခွက် (စာကြောင်း ၃၉)။",
      "th": "จอกดื่มสาเก (ประโยค 39)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "珍念",
+      "reading": "ちんねん"
+     },
+     {
+      "surface": "は、",
+      "reading": ""
+     },
+     {
+      "surface": "和尚",
+      "reading": "おしょう"
+     },
+     {
+      "surface": "さんに「",
+      "reading": ""
+     },
+     {
+      "surface": "転失気",
+      "reading": "てんしき"
+     },
+     {
+      "surface": "」は",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "だと",
+      "reading": ""
+     },
+     {
+      "surface": "教",
+      "reading": "おし"
+     },
+     {
+      "surface": "えましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "お",
+       "reading": ""
+      },
+      {
+       "surface": "酒",
+       "reading": "さけ"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "飲",
+       "reading": "の"
+      },
+      {
+       "surface": "む",
+       "reading": ""
+      },
+      {
+       "surface": "盃",
+       "reading": "さかずき"
+      }
+     ],
+     [
+      {
+       "surface": "古",
+       "reading": "ふる"
+      },
+      {
+       "surface": "い",
+       "reading": ""
+      },
+      {
+       "surface": "本",
+       "reading": "ほん"
+      }
+     ],
+     [
+      {
+       "surface": "薬",
+       "reading": "くすり"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "名前",
+       "reading": "なまえ"
+      }
+     ]
+    ]
    },
    {
     "ja": "この話が教えてくれることは何ですか。",
@@ -183,7 +419,97 @@
      "pt": "É melhor dizer que não sabe quando não sabe (frases 59–60).",
      "my": "မသိတာကို မသိဘူးလို့ ပြောတာ ကောင်းတယ် (စာကြောင်း ၅၉–၆၀)။",
      "th": "ไม่รู้ก็ควรบอกว่าไม่รู้ (ประโยค 59–60)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "この",
+      "reading": ""
+     },
+     {
+      "surface": "話",
+      "reading": "はなし"
+     },
+     {
+      "surface": "が",
+      "reading": ""
+     },
+     {
+      "surface": "教",
+      "reading": "おし"
+     },
+     {
+      "surface": "えてくれることは",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "ですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "知",
+       "reading": "し"
+      },
+      {
+       "surface": "らないことは、",
+       "reading": ""
+      },
+      {
+       "surface": "知",
+       "reading": "し"
+      },
+      {
+       "surface": "らないと",
+       "reading": ""
+      },
+      {
+       "surface": "言",
+       "reading": "い"
+      },
+      {
+       "surface": "うほうがいい",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "おならは、がまんしたほうがいい",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "古",
+       "reading": "ふる"
+      },
+      {
+       "surface": "い",
+       "reading": ""
+      },
+      {
+       "surface": "物",
+       "reading": "もの"
+      },
+      {
+       "surface": "は、",
+       "reading": ""
+      },
+      {
+       "surface": "大切",
+       "reading": "たいせつ"
+      },
+      {
+       "surface": "にしたほうがいい",
+       "reading": ""
+      }
+     ]
+    ]
    }
   ]
  },

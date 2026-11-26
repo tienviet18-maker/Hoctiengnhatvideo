@@ -1,0 +1,158 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜ながら(も)",
+   "example": 9,
+   "meaning": {
+    "vi": "tuy là ~ nhưng (lại)",
+    "en": "although ~, despite being ~",
+    "zh-Hans": "虽然是……却",
+    "ko": "~이면서도",
+    "tl": "kahit ~",
+    "ne": "~ भए पनि",
+    "id": "meskipun ~",
+    "pt": "embora ~",
+    "my": "~ ဖြစ်ပေမဲ့",
+    "th": "ทั้งที่เป็น ~"
+   }
+  },
+  {
+   "pattern": "〜しか〜ない（ぬ）",
+   "example": 10,
+   "meaning": {
+    "vi": "chỉ ~ (ngoài ra không)",
+    "en": "nothing but ~, only ~",
+    "zh-Hans": "只……",
+    "ko": "~밖에 ~않다",
+    "tl": "~ lamang",
+    "ne": "~ मात्र",
+    "id": "hanya ~",
+    "pt": "só ~",
+    "my": "~ သာ",
+    "th": "แค่ ~ เท่านั้น"
+   }
+  },
+  {
+   "pattern": "〜どころか",
+   "example": 34,
+   "meaning": {
+    "vi": "chẳng những không ~ mà còn",
+    "en": "far from ~",
+    "zh-Hans": "别说……反而",
+    "ko": "~기는커녕",
+    "tl": "imbes na ~",
+    "ne": "~ त कता",
+    "id": "bukannya ~ malah",
+    "pt": "longe de ~",
+    "my": "~ အပြင်",
+    "th": "แทนที่จะ ~ กลับ"
+   }
+  },
+  {
+   "pattern": "まるで〜かのように",
+   "example": 47,
+   "meaning": {
+    "vi": "cứ như thể ~",
+    "en": "as if ~",
+    "zh-Hans": "仿佛……",
+    "ko": "마치 ~처럼",
+    "tl": "na parang ~",
+    "ne": "~ जस्तो",
+    "id": "seolah-olah ~",
+    "pt": "como se ~",
+    "my": "~ သလို",
+    "th": "ราวกับว่า ~"
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "ja": "ソとランは、なぜ背中に刀を背負って現れたのですか。",
+   "choices": [
+    "罪を認め、罰を受ける覚悟を示すため",
+    "敵と戦う準備ができていたから",
+    "皇帝に刀を贈るため",
+    "寒さから身を守るため"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Mang gươm trên lưng là cách người có tội tỏ ý sẵn sàng chịu chém.",
+    "en": "It showed they admitted guilt and were ready to be punished.",
+    "zh-Hans": "表示认罪、甘愿受罚。",
+    "ko": "죄를 인정하고 벌을 받을 각오를 보이기 위해서.",
+    "tl": "Upang ipakitang handa silang parusahan.",
+    "ne": "अपराध स्विकारी सजाय भोग्न तयार भएको देखाउन।",
+    "id": "Menunjukkan siap dihukum.",
+    "pt": "Para mostrar que aceitavam o castigo.",
+    "my": "အပြစ်ခံဖို့ အသင့်ဖြစ်ကြောင်း ပြဖို့။",
+    "th": "เพื่อแสดงว่าพร้อมรับโทษ"
+   }
+  },
+  {
+   "ja": "皇帝は、昇龍に入る日をいつと約束しましたか。",
+   "choices": [
+    "正月七日",
+    "大みそか",
+    "正月三日",
+    "十日後"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Quang Trung hẹn mùng 7 Tết sẽ vào thành Thăng Long mở tiệc lớn.",
+    "en": "He promised to enter Thang Long on the 7th of the New Year.",
+    "zh-Hans": "约定正月初七进升龙城。",
+    "ko": "정월 7일.",
+    "tl": "Ikapitong araw ng Bagong Taon.",
+    "ne": "नयाँ वर्षको सातौँ दिन।",
+    "id": "Tanggal tujuh Tahun Baru.",
+    "pt": "No dia sete do Ano-Novo.",
+    "my": "နှစ်သစ် ၇ ရက်။",
+    "th": "วันที่เจ็ดของปีใหม่"
+   }
+  },
+  {
+   "ja": "清軍が西山の大軍に気づかなかったのはなぜですか。",
+   "choices": [
+    "逃げた偵察兵が一人残らず捕らえられたから",
+    "西山の軍が海から来たから",
+    "孫士毅が病気だったから",
+    "大雪で道が見えなかったから"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Quân do thám chạy về đều bị bắt hết, nên tin không đến được Thăng Long.",
+    "en": "All fleeing scouts were captured, so no word got through.",
+    "zh-Hans": "逃跑的侦察兵全被抓住，消息没传出去。",
+    "ko": "정찰병이 모두 잡혀서.",
+    "tl": "Nahuli ang lahat ng espiya.",
+    "ne": "सबै जासुस समातिए।",
+    "id": "Semua pengintai tertangkap.",
+    "pt": "Todos os batedores foram capturados.",
+    "my": "ကင်းထောက်တွေ အကုန် အဖမ်းခံရလို့။",
+    "th": "หน่วยสอดแนมถูกจับหมด"
+   }
+  },
+  {
+   "ja": "ハーホイの砦は、どのようにして落ちましたか。",
+   "choices": [
+    "囲まれた清兵が戦わずに降伏した",
+    "激しい戦いで多くの兵が死んだ",
+    "清兵が砦に火をつけて逃げた",
+    "象の部隊が門を壊した"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Bị vây kín và nghe tiếng dạ ran, quân Thanh sợ hãi xin hàng, Tây Sơn không mất một người.",
+    "en": "Surrounded, the Qing surrendered without fighting.",
+    "zh-Hans": "清兵被围后不战而降。",
+    "ko": "포위된 청병이 싸우지 않고 항복했다.",
+    "tl": "Sumuko ang Qing nang hindi lumalaban.",
+    "ne": "घेरिएका छिङले नलडी आत्मसमर्पण गरे।",
+    "id": "Qing menyerah tanpa bertempur.",
+    "pt": "Os Qing renderam-se sem lutar.",
+    "my": "ချင်းတပ် မတိုက်ဘဲ လက်နက်ချတယ်။",
+    "th": "ทหารชิงยอมแพ้โดยไม่สู้"
+   }
+  }
+ ]
+}

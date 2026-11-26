@@ -94,7 +94,17 @@
           "pt": "Nunca mais ~. Ex.: あの店には、二度と行かない (nunca mais vou àquela loja).",
           "my": "ဘယ်တော့မှ ထပ်မ~။ ဥပမာ: あの店には、二度と行かない (အဲဒီဆိုင်ကို ဘယ်တော့မှ ထပ်မသွားဘူး)။",
           "th": "ไม่ ~ อีกเลย. ตัวอย่าง: あの店には、二度と行かない (จะไม่ไปร้านนั้นอีกเลย)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "二度",
+            "reading": "にど"
+          },
+          {
+            "surface": "と〜ない",
+            "reading": ""
+          }
+        ]
       }
     ],
     "quiz": [
@@ -119,7 +129,139 @@
           "pt": "Pagou com o casaco.",
           "my": "အင်္ကျီနဲ့ ပန်းဖိုး ပေးတယ်။",
           "th": "เขาจ่ายด้วยเสื้อคลุม"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "トゥ・トゥックは、",
+            "reading": ""
+          },
+          {
+            "surface": "花",
+            "reading": "はな"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "折",
+            "reading": "お"
+          },
+          {
+            "surface": "った",
+            "reading": ""
+          },
+          {
+            "surface": "少女",
+            "reading": "しょうじょ"
+          },
+          {
+            "surface": "のために、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "寺",
+              "reading": "てら"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            },
+            {
+              "surface": "とけんかした",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "上着",
+              "reading": "うわぎ"
+            },
+            {
+              "surface": "でお",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "かね"
+            },
+            {
+              "surface": "をはらった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "新",
+              "reading": "あたら"
+            },
+            {
+              "surface": "しい",
+              "reading": ""
+            },
+            {
+              "surface": "花",
+              "reading": "はな"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "買",
+              "reading": "か"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "少女",
+              "reading": "しょうじょ"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "家",
+              "reading": "いえ"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "送",
+              "reading": "おく"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "ザン・フオンは、本当はだれでしたか。",
@@ -142,7 +284,83 @@
           "pt": "Era uma fada.",
           "my": "နတ်သမီး ဖြစ်တယ်။",
           "th": "นางเป็นนางฟ้า"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ザン・フオンは、",
+            "reading": ""
+          },
+          {
+            "surface": "本当",
+            "reading": "ほんとう"
+          },
+          {
+            "surface": "はだれでしたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "寺",
+              "reading": "てら"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "娘",
+              "reading": "むすめ"
+            }
+          ],
+          [
+            {
+              "surface": "仙女",
+              "reading": "せんにょ"
+            }
+          ],
+          [
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さまの",
+              "reading": ""
+            },
+            {
+              "surface": "娘",
+              "reading": "むすめ"
+            }
+          ],
+          [
+            {
+              "surface": "村",
+              "reading": "むら"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "少女",
+              "reading": "しょうじょ"
+            }
+          ]
+        ]
       },
       {
         "ja": "仙女の国の一年は、人の世界では何年でしたか。",
@@ -165,7 +383,95 @@
           "pt": "300 anos.",
           "my": "နှစ် ၃၀၀။",
           "th": "300 ปี"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "仙女",
+            "reading": "せんにょ"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "国",
+            "reading": "くに"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "一年",
+            "reading": "いちねん"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "人",
+            "reading": "ひと"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "世界",
+            "reading": "せかい"
+          },
+          {
+            "surface": "では",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なん"
+          },
+          {
+            "surface": "年",
+            "reading": "ねん"
+          },
+          {
+            "surface": "でしたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "一年",
+              "reading": "いちねん"
+            }
+          ],
+          [
+            {
+              "surface": "十",
+              "reading": "じゅう"
+            },
+            {
+              "surface": "年",
+              "reading": "ねん"
+            }
+          ],
+          [
+            {
+              "surface": "百",
+              "reading": "ひゃく"
+            },
+            {
+              "surface": "年",
+              "reading": "ねん"
+            }
+          ],
+          [
+            {
+              "surface": "三百年",
+              "reading": "さんびゃくねん"
+            }
+          ]
+        ]
       },
       {
         "ja": "浦島太郎と、ちがうところは何ですか。",
@@ -188,7 +494,119 @@
           "pt": "Tartaruga vs. moça.",
           "my": "လိပ်နဲ့ မိန်းကလေး။",
           "th": "เต่ากับเด็กสาว"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "浦島太郎",
+            "reading": "うらしまたろう"
+          },
+          {
+            "surface": "と、ちがうところは",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "ですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "トゥ・トゥックは",
+              "reading": ""
+            },
+            {
+              "surface": "亀",
+              "reading": "かめ"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "助",
+              "reading": "たす"
+            },
+            {
+              "surface": "けた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "トゥ・トゥックは、",
+              "reading": ""
+            },
+            {
+              "surface": "花",
+              "reading": "はな"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "折",
+              "reading": "お"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            },
+            {
+              "surface": "少女",
+              "reading": "しょうじょ"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "助",
+              "reading": "たす"
+            },
+            {
+              "surface": "けた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "浦島太郎",
+              "reading": "うらしまたろう"
+            },
+            {
+              "surface": "は",
+              "reading": ""
+            },
+            {
+              "surface": "帰",
+              "reading": "かえ"
+            },
+            {
+              "surface": "らなかった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "どちらも",
+              "reading": ""
+            },
+            {
+              "surface": "同",
+              "reading": "おな"
+            },
+            {
+              "surface": "じ",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

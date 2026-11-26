@@ -1,5 +1,6 @@
 import { useMemo, useSyncExternalStore } from "react";
 import type {
+  FuriganaSegment,
   JlptLevel,
   LanguageCode,
   Translations,
@@ -98,6 +99,38 @@ export interface DeckCard {
   reps: number;
   /** Chỗ chừa cho điểm phát âm shadowing (giai đoạn 2) */
   pronunciationScore?: number;
+  /** Thẻ từ bộ soạn sẵn (public/decks): loại thẻ, bộ nguồn, câu ví dụ, giọng đọc */
+  kind?: "vocab" | "keigo" | "grammar";
+  deckId?: string;
+  /** f: mảnh furigana của câu ví dụ (sinh lúc dựng bộ thẻ) */
+  example?: { ja: string; t: Translations; f?: FuriganaSegment[] };
+  /** Mã file /audio/bjt/<id>.mp3 của từ và của câu ví dụ */
+  aw?: string;
+  ae?: string;
+  keigoMap?: { plain: string; teinei: string; sonkei: string; kenjou: string };
+  /** Furigana của chính từ (thẻ soạn sẵn); không có thì tách từ word + reading */
+  wordFuri?: FuriganaSegment[];
+  keigoFuri?: Partial<Record<"plain" | "teinei" | "sonkei" | "kenjou", FuriganaSegment[]>>;
+  form?: string;
+  formFuri?: FuriganaSegment[];
+}
+
+/** Một thẻ trong file public/decks/<deck>.json (do scripts/decks/build-decks.mjs sinh). */
+export interface PremadeCard {
+  id: string;
+  kind: "vocab" | "keigo" | "grammar";
+  w: string;
+  r: string;
+  lv: JlptLevel;
+  m: Translations;
+  ex: { ja: string; t: Translations; f?: FuriganaSegment[] };
+  aw?: string;
+  ae?: string;
+  km?: { plain: string; teinei: string; sonkei: string; kenjou: string };
+  wf?: FuriganaSegment[];
+  kmf?: DeckCard["keigoFuri"];
+  form?: string;
+  formf?: FuriganaSegment[];
 }
 
 export const DECK_KEY = "vimai-video:deck:v1";
@@ -115,6 +148,27 @@ export function saveDeck(deck: DeckCard[]): void {
   if (typeof window === "undefined") return;
   window.localStorage.setItem(DECK_KEY, JSON.stringify(deck));
   notifyStore();
+}
+
+/**
+ * Thẻ soạn sẵn đã lưu từ trước khi bộ thẻ có furigana: chép lại câu ví dụ + furigana
+ * từ bản mới của bộ, giữ nguyên tiến độ ôn. Trả về số thẻ đã cập nhật.
+ */
+export function refreshPremadeCards(cards: PremadeCard[]): number {
+  const byId = new Map(cards.map((c) => [`bjt:${c.id}`, c]));
+  const deck = loadDeck();
+  let n = 0;
+  for (const d of deck) {
+    const c = byId.get(d.id);
+    if (!c || d.example?.f) continue;
+    d.example = c.ex;
+    d.wordFuri = c.wf;
+    d.keigoFuri = c.kmf;
+    d.formFuri = c.formf;
+    n++;
+  }
+  if (n) saveDeck(deck);
+  return n;
 }
 
 /** Lưu 1 từ vào bộ thẻ. Trả về false nếu từ đã có. */
@@ -137,6 +191,32 @@ export function addToDeck(v: VocabItem, sourceId?: string): boolean {
   });
   saveDeck(deck);
   return true;
+}
+
+/**
+ * Thêm tối đa `max` thẻ chưa có của một bộ soạn sẵn vào bộ thẻ ôn, đến hạn ngay.
+ * Bỏ qua thẻ đã thêm và từ người dùng đã tự lưu. Trả về số thẻ đã thêm.
+ */
+export function addPremadeCards(cards: PremadeCard[], deckId: string, max: number): number {
+  if (max <= 0) return 0;
+  const deck = loadDeck();
+  const have = new Set(deck.map((c) => c.id));
+  const words = new Set(deck.map((c) => `${c.word}|${c.reading}`));
+  const now = Date.now();
+  let n = 0;
+  for (const c of cards) {
+    if (n >= max) break;
+    const id = `bjt:${c.id}`;
+    if (have.has(id) || (c.kind === "vocab" && words.has(`${c.w}|${c.r}`))) continue;
+    deck.push({
+      id, word: c.w, reading: c.r, meanings: c.m, level: c.lv, sourceId: deckId,
+      due: now, interval: 0, ease: 2.5, reps: 0,
+      kind: c.kind, deckId, example: c.ex, aw: c.aw, ae: c.ae, keigoMap: c.km, keigoFuri: c.kmf, wordFuri: c.wf, form: c.form, formFuri: c.formf,
+    });
+    n++;
+  }
+  if (n) saveDeck(deck);
+  return n;
 }
 
 export type ReviewGrade = "again" | "good";

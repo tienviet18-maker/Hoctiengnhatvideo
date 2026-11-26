@@ -1,0 +1,58 @@
+{
+ "grammarPoints": [
+  {"pattern": "〜かねない", "example": 14, "meaning": {
+   "vi": "Có thể ~ (chỉ dùng cho kết quả xấu, đáng lo).",
+   "en": "Could well ~ (only for bad, worrying outcomes).",
+   "zh-Hans": "很可能……（只用于不好的结果）。",
+   "ko": "~할 수도 있다 (나쁜 결과에만).",
+   "tl": "Baka ~ (para lang sa masamang resulta).",
+   "ne": "~ हुन सक्छ (नराम्रो परिणाममा मात्र)।",
+   "id": "Bisa-bisa ~ (hanya untuk hal buruk).",
+   "pt": "Pode acabar ~ (só para resultados ruins).",
+   "my": "~ နိုင်တယ် (ဆိုးကျိုးအတွက်သာ)။",
+   "th": "อาจจะ ~ ได้ (ใช้กับผลเสียเท่านั้น)"}},
+  {"pattern": "〜かと思えば", "example": 15, "meaning": {
+   "vi": "Vừa mới ~ thì ngay sau đó lại (điều trái ngược).",
+   "en": "No sooner ~ than (the opposite) happens.",
+   "zh-Hans": "刚……又（相反的事）……。",
+   "ko": "~했나 싶더니 (반대 상황이).",
+   "tl": "Kanina ~, ngayon naman (kabaligtaran).",
+   "ne": "~ भनेको के थियो, फेरि (उल्टो)।",
+   "id": "Baru saja ~, eh malah (sebaliknya).",
+   "pt": "Mal ~, já (o contrário).",
+   "my": "~ ပြီးတော့ ချက်ချင်း (ဆန့်ကျင်ဘက်)။",
+   "th": "เพิ่ง ~ ก็กลับ (ตรงข้าม)"}},
+  {"pattern": "〜わけにはいかない", "example": 16, "meaning": {
+   "vi": "Không thể ~ được (vì lý lẽ, bổn phận, hoàn cảnh xã hội).",
+   "en": "Cannot very well ~ (because of duty or circumstances).",
+   "zh-Hans": "（出于道理、情况）不能……。",
+   "ko": "(사정상) ~할 수는 없다.",
+   "tl": "Hindi puwedeng ~ (dahil sa tungkulin o sitwasyon).",
+   "ne": "(परिस्थितिले) ~ गर्न मिल्दैन।",
+   "id": "Tidak bisa begitu saja ~ (karena keadaan).",
+   "pt": "Não dá para ~ (por dever ou circunstância).",
+   "my": "(အခြေအနေကြောင့်) ~ လို့ မဖြစ်ဘူး။",
+   "th": "จะ ~ ไม่ได้ (ด้วยเหตุผลหรือสถานการณ์)"}},
+  {"pattern": "〜てでも", "example": 34, "meaning": {
+   "vi": "Dù phải ~ (hy sinh lớn) cũng nhất định làm.",
+   "en": "Even if it means ~ (a big sacrifice), I will do it.",
+   "zh-Hans": "即使要……（付出代价）也要做。",
+   "ko": "~해서라도 (꼭 하겠다).",
+   "tl": "Kahit ~ pa (malaking sakripisyo), gagawin.",
+   "ne": "~ गरेर भए पनि (गर्छु)।",
+   "id": "Walau harus ~ (berkorban), tetap dilakukan.",
+   "pt": "Nem que seja preciso ~, vou fazer.",
+   "my": "~ ရရင်တောင် (လုပ်မယ်)။",
+   "th": "แม้ต้อง ~ ก็จะทำ"}}
+ ],
+ "quiz": [
+  {"ja": "ハイヴァンとトゥーが捕まった原因は何ですか。", "choices": ["スアンのいい加減な告げ口", "シャムの国王の命令", "試合でのけんか", "ヴァンミンのうそ"], "answer": 0, "explain": {
+   "vi": "Xuân mách lẻo bậy để loại đối thủ.", "en": "Xuân's careless tattling, to remove his rivals.", "zh-Hans": "阿春乱告状，想除掉对手。", "ko": "쑤언의 엉터리 고자질.", "tl": "Ang pabayang sumbong ni Xuân.", "ne": "सुआनको लापरबाह चुक्ली।", "id": "Laporan asal-asalan Xuân.", "pt": "A delação leviana de Xuân.", "my": "ဆွမ်ရဲ့ တိုင်တောမှု။", "th": "การฟ้องส่งเดชของซวน"}},
+  {"ja": "役人はなぜスアンに「負けろ」と言いましたか。", "choices": ["国王の機嫌を損ねると両国の関係が悪くなるから", "スアンが下手だから", "賭けをしていたから", "試合を早く終わらせたいから"], "answer": 0, "explain": {
+   "vi": "Sợ làm phật ý vua Xiêm, quan hệ hai nước rạn nứt.", "en": "Offending the King could damage relations.", "zh-Hans": "怕得罪国王，伤及两国关系。", "ko": "국왕 심기를 건드리면 관계가 나빠지니까.", "tl": "Baka masira ang relasyon ng dalawang bansa.", "ne": "दुई देशको सम्बन्ध बिग्रन सक्ने भएर।", "id": "Takut hubungan dua negara retak.", "pt": "Ofender o rei abalaria as relações.", "my": "နှစ်နိုင်ငံ ဆက်ဆံရေး ပျက်မှာ စိုးလို့။", "th": "กลัวความสัมพันธ์สองประเทศร้าว"}},
+  {"ja": "観衆の態度が変わったのは、何がきっかけですか。", "choices": ["スアンの「負けてさしあげた」という演説", "国王の拍手", "トゥエットの涙", "雨が降り出したこと"], "answer": 0, "explain": {
+   "vi": "Bài diễn thuyết 'tôi nhường để giữ hòa bình' của Xuân.", "en": "Xuân's speech: 'I let him win to keep the peace.'", "zh-Hans": "阿春“是我让给他、守护和平”的演说。", "ko": "쑤언의 '져 드렸다' 연설.", "tl": "Ang talumpati ni Xuân.", "ne": "सुआनको भाषण।", "id": "Pidato Xuân.", "pt": "O discurso de Xuân.", "my": "ဆွမ်ရဲ့ မိန့်ခွန်း။", "th": "สุนทรพจน์ของซวน"}},
+  {"ja": "『吾輩は猫である』と『ソードー』に共通するのは何ですか。", "choices": ["急な西洋化の中の人間を笑ったこと", "主人公が猫であること", "同じ年に発表されたこと", "テニスの話であること"], "answer": 0, "explain": {
+   "vi": "Cả hai cười nhạo con người đánh mất mình giữa làn sóng Tây hóa.", "en": "Both laugh at people losing themselves amid Westernization.", "zh-Hans": "都嘲笑在西化浪潮中迷失自我的人。", "ko": "서양화 속에서 자신을 잃는 인간을 풍자.", "tl": "Pareho nilang tinawanan ang taong nawawala sa pagsasa-Kanluran.", "ne": "दुवैले पश्चिमीकरणमा हराउने मान्छेलाई व्यङ्ग्य गरे।", "id": "Keduanya menyindir manusia yang hilang arah oleh westernisasi.", "pt": "Ambos riem de quem se perde na ocidentalização.", "my": "နှစ်ခုလုံး အနောက်တိုင်းဆန်မှုထဲ လူကို သရော်တယ်။", "th": "ทั้งคู่เสียดสีคนที่หลงตัวในกระแสตะวันตก"}}
+ ]
+}

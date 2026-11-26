@@ -60,7 +60,29 @@
           "pt": "Continuar a V. Ex.: 日本語を勉強し続けたい (quero continuar estudando japonês).",
           "my": "ဆက်ပြီး V။ ဥပမာ: 日本語を勉強し続けたい (ဂျပန်စာ ဆက်လေ့လာချင်တယ်)။",
           "th": "V ต่อไปเรื่อยๆ. ตัวอย่าง: 日本語を勉強し続けたい (อยากเรียนภาษาญี่ปุ่นต่อไป)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "Vます",
+            "reading": ""
+          },
+          {
+            "surface": "形",
+            "reading": "がた"
+          },
+          {
+            "surface": "＋",
+            "reading": ""
+          },
+          {
+            "surface": "続",
+            "reading": "つづ"
+          },
+          {
+            "surface": "ける",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜のせいで ／ 〜ますように",
@@ -119,7 +141,127 @@
           "pt": "Um só par de palitos.",
           "my": "တူတစ်စုံပဲ ထားတယ်။",
           "th": "วางตะเกียบคู่เดียว"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "娘",
+            "reading": "むすめ"
+          },
+          {
+            "surface": "は、どうやって",
+            "reading": ""
+          },
+          {
+            "surface": "兄",
+            "reading": "あに"
+          },
+          {
+            "surface": "と",
+            "reading": ""
+          },
+          {
+            "surface": "弟",
+            "reading": "おとうと"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "見分",
+            "reading": "みわ"
+          },
+          {
+            "surface": "けましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "名前",
+              "reading": "なまえ"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "聞",
+              "reading": "き"
+            },
+            {
+              "surface": "いた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "はしを",
+              "reading": ""
+            },
+            {
+              "surface": "一",
+              "reading": "いち"
+            },
+            {
+              "surface": "ぜんだけ",
+              "reading": ""
+            },
+            {
+              "surface": "置",
+              "reading": "お"
+            },
+            {
+              "surface": "いた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "背",
+              "reading": "せ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "高",
+              "reading": "たか"
+            },
+            {
+              "surface": "さを",
+              "reading": ""
+            },
+            {
+              "surface": "比",
+              "reading": "くら"
+            },
+            {
+              "surface": "べた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "先生",
+              "reading": "せんせい"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "聞",
+              "reading": "き"
+            },
+            {
+              "surface": "いた",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "ランは、どうして家を出ましたか。",
@@ -142,7 +284,87 @@
           "pt": "Foi alvo da suspeita do irmão.",
           "my": "အစ်ကို သံသယဝင်လို့။",
           "th": "ถูกพี่สงสัย"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ランは、どうして",
+            "reading": ""
+          },
+          {
+            "surface": "家",
+            "reading": "いえ"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "出",
+            "reading": "で"
+          },
+          {
+            "surface": "ましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "結婚",
+              "reading": "けっこん"
+            },
+            {
+              "surface": "したかったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "兄",
+              "reading": "あに"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "疑",
+              "reading": "うたが"
+            },
+            {
+              "surface": "われて、つらかったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "旅",
+              "reading": "たび"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "好",
+              "reading": "す"
+            },
+            {
+              "surface": "きだったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "先生",
+              "reading": "せんせい"
+            },
+            {
+              "surface": "にしかられたから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "タンは、何になりましたか。",
@@ -165,7 +387,59 @@
           "pt": "A palmeira de areca.",
           "my": "ကွမ်းသီးပင်။",
           "th": "ต้นหมาก"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "タンは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "になりましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "白",
+              "reading": "しろ"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "石",
+              "reading": "いし"
+            }
+          ],
+          [
+            {
+              "surface": "ビンロウの",
+              "reading": ""
+            },
+            {
+              "surface": "木",
+              "reading": "き"
+            }
+          ],
+          [
+            {
+              "surface": "キンマのつる",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "川",
+              "reading": "かわ"
+            }
+          ]
+        ]
       },
       {
         "ja": "日本の「相生の松」と、ちがうところは何ですか。",
@@ -188,7 +462,187 @@
           "pt": "Felicidade vs. tristeza.",
           "my": "ပျော်ရွှင်မှု နဲ့ ဝမ်းနည်းမှု။",
           "th": "ความสุขกับความเศร้า"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "日本",
+            "reading": "にほん"
+          },
+          {
+            "surface": "の「",
+            "reading": ""
+          },
+          {
+            "surface": "相生",
+            "reading": "あいおい"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "松",
+            "reading": "まつ"
+          },
+          {
+            "surface": "」と、ちがうところは",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "ですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "日本",
+              "reading": "にほん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "松",
+              "reading": "まつ"
+            },
+            {
+              "surface": "は",
+              "reading": ""
+            },
+            {
+              "surface": "長生",
+              "reading": "ながい"
+            },
+            {
+              "surface": "きの",
+              "reading": ""
+            },
+            {
+              "surface": "夫婦",
+              "reading": "ふうふ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "幸",
+              "reading": "しあわ"
+            },
+            {
+              "surface": "せを",
+              "reading": ""
+            },
+            {
+              "surface": "表",
+              "reading": "あらわ"
+            },
+            {
+              "surface": "すが、ベトナムの",
+              "reading": ""
+            },
+            {
+              "surface": "話",
+              "reading": "はなし"
+            },
+            {
+              "surface": "は",
+              "reading": ""
+            },
+            {
+              "surface": "悲",
+              "reading": "かな"
+            },
+            {
+              "surface": "しみから",
+              "reading": ""
+            },
+            {
+              "surface": "生",
+              "reading": "う"
+            },
+            {
+              "surface": "まれた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "日本",
+              "reading": "にほん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "松",
+              "reading": "まつ"
+            },
+            {
+              "surface": "は",
+              "reading": ""
+            },
+            {
+              "surface": "三本",
+              "reading": "さんぼん"
+            },
+            {
+              "surface": "ある",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ベトナムの",
+              "reading": ""
+            },
+            {
+              "surface": "話",
+              "reading": "はなし"
+            },
+            {
+              "surface": "には",
+              "reading": ""
+            },
+            {
+              "surface": "木",
+              "reading": "き"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "出",
+              "reading": "で"
+            },
+            {
+              "surface": "てこない",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "どちらも",
+              "reading": ""
+            },
+            {
+              "surface": "同",
+              "reading": "おな"
+            },
+            {
+              "surface": "じ",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

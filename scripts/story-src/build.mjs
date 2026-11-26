@@ -68,7 +68,7 @@ function attaches(t, prev) {
   if (t.pos === "動詞" && prev.pos === "名詞" && prev.pos_detail_1 === "サ変接続" && t.basic_form === "する") return true;
   return false;
 }
-const ROMAJI_FIX = { という: "to iu", といった: "to itta", として: "to shite", について: "ni tsuite", にとって: "ni totte", によって: "ni yotte", のように: "no you ni" };
+const ROMAJI_FIX = { にかけて: "ni kakete", という: "to iu", といった: "to itta", として: "to shite", について: "ni tsuite", にとって: "ni totte", によって: "ni yotte", のように: "no you ni" };
 
 // Tách token có kanji thành [kanji+reading][okurigana] bằng khớp mẫu.
 function splitFurigana(surface, reading) {
@@ -131,6 +131,8 @@ function analyse(ja, ov, multiOv) {
     if (w.cap) rom = rom.replace(/(^|\s)([a-z])/g, (m, a, b) => a + b.toUpperCase());
     romaji += (romaji && !/[ “(]$/.test(romaji) ? " " : "") + rom;
   }
+  romaji = romaji.replace(/\b(de|ni|to)ha\b/gi, "$1 wa");
+  for (let i = 0; i < 3; i++) romaji = romaji.replace(/([A-Za-z'])・([a-z])/g, (m, x, y) => x + " " + y.toUpperCase());
   romaji = romaji.replace(/\s+/g, " ").replace(/ ([,.!?”)])/g, "$1").trim();
   romaji = romaji.replace(/(^|[.!?]\s+|“)([a-z])/g, (m, a, b) => a + b.toUpperCase());
   return { furigana: merged, romaji, toks };
@@ -261,6 +263,7 @@ for (const file of files) {
     sentences,
   };
   writeFileSync(join(root, "content/stories", `${src.id}.json`), JSON.stringify(out, null, 2) + "\n");
+  if (lesson) execFileSync("node", [join(root, "scripts/lesson-furigana.mjs"), src.id], { stdio: "inherit" });
   writeFileSync(join(shelfDir, `${src.id}.voices.json`), JSON.stringify({ cast: src.cast, voices: voiceMap, say: sayMap }, null, 1) + "\n");
   const castLines = Object.entries(src.cast).map(([k, c]) => `  - ${k === "N" ? "Người kể" : k}: \`${c.voice}\`, tốc độ ${c.rate ?? 0.9}${c.pitch ? `, cao độ ${c.pitch}` : ""} (${voiceMap.filter((x) => x === k).length} câu)`);
   const nVocab = sentences.reduce((a, x) => a + x.vocab.length, 0);

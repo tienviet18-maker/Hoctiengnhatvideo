@@ -59,7 +59,17 @@
      "my": "~ နည်း၊ ~ ပုံ။ ကြိယာ ます ပင်စည် + 方 (かた)၊ を ကို の ပြောင်း။ ဥပမာ: 別の断り方があるんだ (တခြား ငြင်းနည်း ရှိတယ်)။ 漢字の読み方 (ခန်းဂျီး ဖတ်နည်း)။ 箸の使い方 (တူ ကိုင်နည်း)။",
      "th": "วิธี ~ ต้นคำกริยารูป ます + 方 (かた) คำช่วย を เปลี่ยนเป็น の ตัวอย่าง: 別の断り方があるんだ (มีวิธีปฏิเสธอีกแบบ) 漢字の読み方 (วิธีอ่านคันจิ) 箸の使い方 (วิธีใช้ตะเกียบ)"
     },
-    "example": 19
+    "example": 19,
+    "patternFurigana": [
+     {
+      "surface": "〜",
+      "reading": ""
+     },
+     {
+      "surface": "方",
+      "reading": "かた"
+     }
+    ]
    },
    {
     "pattern": "〜と言えば",
@@ -76,7 +86,21 @@
      "my": "~ ဆိုရင်၊ ~ အကြောင်းပြောရရင် (အကြောင်းအရာတစ်ခုကနေ တခြားဟာကို သတိရ)။ နာမ် + と言えば။ ဥပမာ: 古池と言えば、わしが頼んでおいた掛け軸の話だな (ရေကန်ဟောင်း ဆိုရင် ငါမှာထားတဲ့ ပန်းချီလိပ် ကိစ္စပဲ)။ 日本と言えば、富士山だ (ဂျပန်ဆိုရင် ဖူဂျီတောင်ပဲ)။",
      "th": "พูดถึง ~ ละก็ (หัวข้อหนึ่งทำให้นึกถึงอีกเรื่อง) คำนาม + と言えば ตัวอย่าง: 古池と言えば、わしが頼んでおいた掛け軸の話だな (พูดถึงสระเก่า ก็คือเรื่องภาพม้วนที่ข้าสั่งไว้) 日本と言えば、富士山だ (พูดถึงญี่ปุ่นก็ต้องภูเขาไฟฟูจิ)"
     },
-    "example": 52
+    "example": 52,
+    "patternFurigana": [
+     {
+      "surface": "〜と",
+      "reading": ""
+     },
+     {
+      "surface": "言",
+      "reading": "い"
+     },
+     {
+      "surface": "えば",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "〜わけだ",
@@ -117,7 +141,137 @@
      "pt": "As varetas estão destroçadas e não dá para usar (frase 9).",
      "my": "ထီးရိုးတွေ ကျိုးပြန့်ပြီး သုံးမရ (စာကြောင်း ၉)။",
      "th": "ซี่ร่มหักกระจาย ใช้ไม่ได้ (ประโยค 9)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "叔父",
+      "reading": "おじ"
+     },
+     {
+      "surface": "さんは、",
+      "reading": ""
+     },
+     {
+      "surface": "傘",
+      "reading": "かさ"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "貸",
+      "reading": "か"
+     },
+     {
+      "surface": "したくない",
+      "reading": ""
+     },
+     {
+      "surface": "時",
+      "reading": "とき"
+     },
+     {
+      "surface": "、",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "と",
+      "reading": ""
+     },
+     {
+      "surface": "言",
+      "reading": "い"
+     },
+     {
+      "surface": "えばいいと",
+      "reading": ""
+     },
+     {
+      "surface": "教",
+      "reading": "おし"
+     },
+     {
+      "surface": "えましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "傘",
+       "reading": "かさ"
+      },
+      {
+       "surface": "は",
+       "reading": ""
+      },
+      {
+       "surface": "骨",
+       "reading": "ほね"
+      },
+      {
+       "surface": "がばらばらになって、",
+       "reading": ""
+      },
+      {
+       "surface": "使",
+       "reading": "つか"
+      },
+      {
+       "surface": "えない",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "傘",
+       "reading": "かさ"
+      },
+      {
+       "surface": "はさかりがついて、どこかへ",
+       "reading": ""
+      },
+      {
+       "surface": "行",
+       "reading": "い"
+      },
+      {
+       "surface": "った",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "傘",
+       "reading": "かさ"
+      },
+      {
+       "surface": "は",
+       "reading": ""
+      },
+      {
+       "surface": "大阪",
+       "reading": "おおさか"
+      },
+      {
+       "surface": "に",
+       "reading": ""
+      },
+      {
+       "surface": "送",
+       "reading": "おく"
+      },
+      {
+       "surface": "った",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "となりのおかみさんは、何を借りに来ましたか。",
@@ -139,7 +293,65 @@
      "pt": "O gato, por causa dos ratos (frases 13–14).",
      "my": "ကြောင်၊ ကြွက်ဖမ်းဖို့ (စာကြောင်း ၁၃–၁၄)။",
      "th": "แมว เพื่อจับหนู (ประโยค 13–14)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "となりのおかみさんは、",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "借",
+      "reading": "か"
+     },
+     {
+      "surface": "りに",
+      "reading": ""
+     },
+     {
+      "surface": "来",
+      "reading": "き"
+     },
+     {
+      "surface": "ましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "傘",
+       "reading": "かさ"
+      }
+     ],
+     [
+      {
+       "surface": "猫",
+       "reading": "ねこ"
+      }
+     ],
+     [
+      {
+       "surface": "掛",
+       "reading": "か"
+      },
+      {
+       "surface": "け",
+       "reading": ""
+      },
+      {
+       "surface": "軸",
+       "reading": "じく"
+      }
+     ]
+    ]
    },
    {
     "ja": "与太郎と叔母さんは、どうして使いの男の話が分からなかったのですか。",
@@ -161,7 +373,125 @@
      "pt": "Porque ele falava muito rápido, no dialeto de Osaka (frases 26, 32, 38).",
      "my": "အိုဆာကာစကားနဲ့ အရမ်းမြန်မြန် ပြောလို့ (စာကြောင်း ၂၆၊ ၃၂၊ ၃၈)။",
      "th": "เพราะเขาพูดภาษาโอซาก้าเร็วมาก (ประโยค 26, 32, 38)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "与太郎",
+      "reading": "よたろう"
+     },
+     {
+      "surface": "と",
+      "reading": ""
+     },
+     {
+      "surface": "叔母",
+      "reading": "おば"
+     },
+     {
+      "surface": "さんは、どうして",
+      "reading": ""
+     },
+     {
+      "surface": "使",
+      "reading": "つか"
+     },
+     {
+      "surface": "いの",
+      "reading": ""
+     },
+     {
+      "surface": "男",
+      "reading": "おとこ"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "話",
+      "reading": "はなし"
+     },
+     {
+      "surface": "が",
+      "reading": ""
+     },
+     {
+      "surface": "分",
+      "reading": "わ"
+     },
+     {
+      "surface": "からなかったのですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "声",
+       "reading": "こえ"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "小",
+       "reading": "ちい"
+      },
+      {
+       "surface": "さかったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "とても",
+       "reading": ""
+      },
+      {
+       "surface": "早口",
+       "reading": "はやくち"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "大阪",
+       "reading": "おおさか"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "言葉",
+       "reading": "ことば"
+      },
+      {
+       "surface": "だったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "英語",
+       "reading": "えいご"
+      },
+      {
+       "surface": "で",
+       "reading": ""
+      },
+      {
+       "surface": "話",
+       "reading": "はな"
+      },
+      {
+       "surface": "したから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "叔母さんの「買わず」は、どんな言葉と同じ音ですか。",
@@ -183,7 +513,113 @@
      "pt": "\"Kawazu\", palavra antiga para sapo (frases 57–58).",
      "my": "ဖားကို ဆိုလိုတဲ့ ရှေးစကား \"ကာဝါဇု\" (စာကြောင်း ၅၇–၅၈)။",
      "th": "\"คาวาซุ\" คำโบราณที่แปลว่ากบ (ประโยค 57–58)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "叔母",
+      "reading": "おば"
+     },
+     {
+      "surface": "さんの「",
+      "reading": ""
+     },
+     {
+      "surface": "買",
+      "reading": "か"
+     },
+     {
+      "surface": "わず」は、どんな",
+      "reading": ""
+     },
+     {
+      "surface": "言葉",
+      "reading": "ことば"
+     },
+     {
+      "surface": "と",
+      "reading": ""
+     },
+     {
+      "surface": "同",
+      "reading": "おな"
+     },
+     {
+      "surface": "じ",
+      "reading": ""
+     },
+     {
+      "surface": "音",
+      "reading": "おと"
+     },
+     {
+      "surface": "ですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "古",
+       "reading": "ふる"
+      },
+      {
+       "surface": "い",
+       "reading": ""
+      },
+      {
+       "surface": "言葉",
+       "reading": "ことば"
+      },
+      {
+       "surface": "で「",
+       "reading": ""
+      },
+      {
+       "surface": "蛙",
+       "reading": "かえる"
+      },
+      {
+       "surface": "」を",
+       "reading": ""
+      },
+      {
+       "surface": "表",
+       "reading": "あらわ"
+      },
+      {
+       "surface": "す「かわず」",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "「",
+       "reading": ""
+      },
+      {
+       "surface": "川",
+       "reading": "かわ"
+      },
+      {
+       "surface": "」",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "「",
+       "reading": ""
+      },
+      {
+       "surface": "傘",
+       "reading": "かさ"
+      },
+      {
+       "surface": "」",
+       "reading": ""
+      }
+     ]
+    ]
    }
   ]
  },

@@ -80,7 +80,21 @@
      "my": "…နဲ့ လဲပြီး (ဒါပေး ဟိုဟာယူ)။ ကောင်တာ၊ စာတိုက်မှာ: 「この番号札と引きかえにお荷物をお渡しします」။",
      "th": "แลกกับ (ให้สิ่งนี้รับสิ่งนั้น) พบที่เคาน์เตอร์ ไปรษณีย์: 「この番号札と引きかえにお荷物をお渡しします」"
     },
-    "example": 43
+    "example": 43,
+    "patternFurigana": [
+     {
+      "surface": "〜と",
+      "reading": ""
+     },
+     {
+      "surface": "引",
+      "reading": "ひ"
+     },
+     {
+      "surface": "きかえに",
+      "reading": ""
+     }
+    ]
    }
   ],
   "quiz": [
@@ -104,7 +118,93 @@
      "pt": "Frases 7–10: o Senhor disse que havia \"uma dama criminosa\", mas era a filha de Yoshihide.",
      "my": "ဝါကျ ၇–၁၀: မင်းကြီးက \"အပြစ်ရှိ နန်းတွင်းသူ\" လို့ ဆိုပေမဲ့ ကာလှန်တော့ ယိုရှိဟိဒဲရဲ့ သမီး။",
      "th": "ประโยค 7–10: เจ้าเมืองบอกว่าข้างในคือ \"นางกำนัลที่ทำผิด\" แต่พอเลิกม่านกลับเป็นลูกสาวของโยชิฮิเดะ"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "牛車",
+      "reading": "ぎっしゃ"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "中",
+      "reading": "なか"
+     },
+     {
+      "surface": "にいたのは、",
+      "reading": ""
+     },
+     {
+      "surface": "誰",
+      "reading": "だれ"
+     },
+     {
+      "surface": "でしたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "罪",
+       "reading": "つみ"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "犯",
+       "reading": "おか"
+      },
+      {
+       "surface": "した",
+       "reading": ""
+      },
+      {
+       "surface": "知",
+       "reading": "し"
+      },
+      {
+       "surface": "らない",
+       "reading": ""
+      },
+      {
+       "surface": "女房",
+       "reading": "にょうぼう"
+      }
+     ],
+     [
+      {
+       "surface": "良秀",
+       "reading": "よしひで"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "娘",
+       "reading": "むすめ"
+      }
+     ],
+     [
+      {
+       "surface": "大殿様",
+       "reading": "おおとのさま"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "娘",
+       "reading": "むすめ"
+      }
+     ]
+    ]
    },
    {
     "ja": "燃える車に飛び込んだのは、何でしたか。",
@@ -126,7 +226,77 @@
      "pt": "Frases 18–20: o macaquinho que a moça amava saltou ao fogo e agarrou-se a ela. A gratidão do animal contrasta com a crueldade humana.",
      "my": "ဝါကျ ၁၈–၂၀: သမီးချစ်တဲ့ မျောက်ကလေး မီးထဲ ခုန်ဝင်ပြီး ပခုံးကို ဖက်တယ်။ တိရစ္ဆာန်ရဲ့ ကျေးဇူးသိမှုနဲ့ လူ့ရက်စက်မှု ဆန့်ကျင်။",
      "th": "ประโยค 18–20: ลิงน้อยที่หญิงสาวรักกระโจนเข้ากองไฟและเกาะไหล่เธอ ความกตัญญูของสัตว์ตรงข้ามกับความโหดร้ายของคน"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "燃",
+      "reading": "も"
+     },
+     {
+      "surface": "える",
+      "reading": ""
+     },
+     {
+      "surface": "車",
+      "reading": "くるま"
+     },
+     {
+      "surface": "に",
+      "reading": ""
+     },
+     {
+      "surface": "飛",
+      "reading": "と"
+     },
+     {
+      "surface": "び",
+      "reading": ""
+     },
+     {
+      "surface": "込",
+      "reading": "こ"
+     },
+     {
+      "surface": "んだのは、",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "でしたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "あの",
+       "reading": ""
+      },
+      {
+       "surface": "小猿",
+       "reading": "こざる"
+      }
+     ],
+     [
+      {
+       "surface": "若",
+       "reading": "わか"
+      },
+      {
+       "surface": "殿様",
+       "reading": "とのさま"
+      }
+     ],
+     [
+      {
+       "surface": "良秀",
+       "reading": "よしひで"
+      }
+     ]
+    ]
    },
    {
     "ja": "炎の前で、良秀の顔はどう変わりましたか。",
@@ -148,7 +318,137 @@
      "pt": "Frases 22–24: o rosto angustiado do pai virou a alegria radiante do pintor. É o tema da história: arte versus humanidade.",
      "my": "ဝါကျ ၂၂–၂၄: အဖေရဲ့ ဒုက္ခမျက်နှာ ပန်းချီဆရာရဲ့ တောက်ပဝမ်းသာမှု ဖြစ်လာ။ ဇာတ်လမ်းရဲ့ အဓိက: အနုပညာနဲ့ လူသားဆန်မှု။",
      "th": "ประโยค 22–24: ใบหน้าทุกข์ของพ่อค่อยๆ กลายเป็นความยินดีเปล่งประกายของจิตรกร คือแก่นของเรื่อง: ศิลปะกับความเป็นมนุษย์"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "炎",
+      "reading": "ほのお"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "前",
+      "reading": "まえ"
+     },
+     {
+      "surface": "で、",
+      "reading": ""
+     },
+     {
+      "surface": "良秀",
+      "reading": "よしひで"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "顔",
+      "reading": "かお"
+     },
+     {
+      "surface": "はどう",
+      "reading": ""
+     },
+     {
+      "surface": "変",
+      "reading": "か"
+     },
+     {
+      "surface": "わりましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "最後",
+       "reading": "さいご"
+      },
+      {
+       "surface": "まで",
+       "reading": ""
+      },
+      {
+       "surface": "泣",
+       "reading": "な"
+      },
+      {
+       "surface": "き",
+       "reading": ""
+      },
+      {
+       "surface": "続",
+       "reading": "つづ"
+      },
+      {
+       "surface": "けた",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "怒",
+       "reading": "おこ"
+      },
+      {
+       "surface": "って",
+       "reading": ""
+      },
+      {
+       "surface": "大殿様",
+       "reading": "おおとのさま"
+      },
+      {
+       "surface": "をにらんだ",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "苦",
+       "reading": "くる"
+      },
+      {
+       "surface": "しみから、",
+       "reading": ""
+      },
+      {
+       "surface": "喜",
+       "reading": "よろこ"
+      },
+      {
+       "surface": "びに",
+       "reading": ""
+      },
+      {
+       "surface": "輝",
+       "reading": "かがや"
+      },
+      {
+       "surface": "くような",
+       "reading": ""
+      },
+      {
+       "surface": "顔",
+       "reading": "かお"
+      },
+      {
+       "surface": "に",
+       "reading": ""
+      },
+      {
+       "surface": "変",
+       "reading": "か"
+      },
+      {
+       "surface": "わった",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "屏風が出来上がった後、良秀はどうなりましたか。",
@@ -170,7 +470,157 @@
      "pt": "Frases 42–43: na noite seguinte, Yoshihide tirou a própria vida. Tendo perdido a filha, não podia seguir como se nada fosse.",
      "my": "ဝါကျ ၄၂–၄၃: ဆွဲပြီးတဲ့ နောက်တစ်ည ယိုရှိဟိဒဲ ကိုယ့်အသက် အဆုံးသတ်ခဲ့။ သမီးဆုံးရှုံးပြီး ဘာမှမဖြစ်သလို မနေနိုင်။",
      "th": "ประโยค 42–43: คืนถัดมาหลังวาดเสร็จ โยชิฮิเดะจบชีวิตตัวเอง เมื่อเสียลูกสาวไป เขาไม่อาจอยู่ต่ออย่างไม่มีอะไรเกิดขึ้นได้"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "屏風",
+      "reading": "びょうぶ"
+     },
+     {
+      "surface": "が",
+      "reading": ""
+     },
+     {
+      "surface": "出来上",
+      "reading": "できあ"
+     },
+     {
+      "surface": "がった",
+      "reading": ""
+     },
+     {
+      "surface": "後",
+      "reading": "のち"
+     },
+     {
+      "surface": "、",
+      "reading": ""
+     },
+     {
+      "surface": "良秀",
+      "reading": "よしひで"
+     },
+     {
+      "surface": "はどうなりましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "都",
+       "reading": "みやこ"
+      },
+      {
+       "surface": "で",
+       "reading": ""
+      },
+      {
+       "surface": "一番",
+       "reading": "いちばん"
+      },
+      {
+       "surface": "有名",
+       "reading": "ゆうめい"
+      },
+      {
+       "surface": "な",
+       "reading": ""
+      },
+      {
+       "surface": "絵師",
+       "reading": "えし"
+      },
+      {
+       "surface": "になって、",
+       "reading": ""
+      },
+      {
+       "surface": "長",
+       "reading": "なが"
+      },
+      {
+       "surface": "く",
+       "reading": ""
+      },
+      {
+       "surface": "生",
+       "reading": "い"
+      },
+      {
+       "surface": "きた",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "次",
+       "reading": "つぎ"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "夜",
+       "reading": "よる"
+      },
+      {
+       "surface": "、",
+       "reading": ""
+      },
+      {
+       "surface": "自",
+       "reading": "みずか"
+      },
+      {
+       "surface": "ら",
+       "reading": ""
+      },
+      {
+       "surface": "命",
+       "reading": "いのち"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "絶",
+       "reading": "た"
+      },
+      {
+       "surface": "った",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "大殿様",
+       "reading": "おおとのさま"
+      },
+      {
+       "surface": "にほうびをもらって、",
+       "reading": ""
+      },
+      {
+       "surface": "旅",
+       "reading": "たび"
+      },
+      {
+       "surface": "に",
+       "reading": ""
+      },
+      {
+       "surface": "出",
+       "reading": "で"
+      },
+      {
+       "surface": "た",
+       "reading": ""
+      }
+     ]
+    ]
    }
   ]
  },

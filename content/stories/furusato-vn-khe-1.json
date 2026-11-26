@@ -94,7 +94,21 @@
           "pt": "Escolher o mais ~ (de dois). Ex.: 安いほうを選びます (escolho o mais barato).",
           "my": "(နှစ်ခုထဲက) ~ တဲ့ဘက်ကို ရွေး။ ဥပမာ: 安いほうを選びます (ဈေးပေါတာကို ရွေးမယ်)။",
           "th": "เลือกอันที่ ~ กว่า (ในสองอย่าง). ตัวอย่าง: 安いほうを選びます (เลือกอันที่ถูกกว่า)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜ほうを",
+            "reading": ""
+          },
+          {
+            "surface": "選",
+            "reading": "えら"
+          },
+          {
+            "surface": "ぶ",
+            "reading": ""
+          }
+        ]
       }
     ],
     "quiz": [
@@ -119,7 +133,87 @@
           "pt": "O irmão levou tudo e deixou só a árvore velha.",
           "my": "အစ်ကိုက အားလုံးယူပြီး အပင်ဟောင်းပဲ ထားခဲ့တယ်။",
           "th": "พี่เอาไปหมด เหลือแค่ต้นมะเฟืองแก่"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "両親",
+            "reading": "りょうしん"
+          },
+          {
+            "surface": "がなくなったあと、",
+            "reading": ""
+          },
+          {
+            "surface": "弟",
+            "reading": "おとうと"
+          },
+          {
+            "surface": "は",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をもらいましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "家",
+              "reading": "いえ"
+            },
+            {
+              "surface": "と",
+              "reading": ""
+            },
+            {
+              "surface": "田",
+              "reading": "た"
+            },
+            {
+              "surface": "んぼ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "牛",
+              "reading": "うし"
+            }
+          ],
+          [
+            {
+              "surface": "古",
+              "reading": "ふる"
+            },
+            {
+              "surface": "いスターフルーツの",
+              "reading": ""
+            },
+            {
+              "surface": "木",
+              "reading": "き"
+            }
+          ],
+          [
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "袋",
+              "reading": "ふくろ"
+            }
+          ]
+        ]
       },
       {
         "ja": "鳥は、実を食べるかわりに、何をすると言いましたか。",
@@ -142,7 +236,131 @@
           "pt": "\"Como uma, pago em ouro.\"",
           "my": "\"တစ်လုံးစား ရွှေနဲ့ဆပ်\"။",
           "th": "\"กินหนึ่งผล ตอบแทนด้วยทอง\""
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "鳥",
+            "reading": "とり"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "実",
+            "reading": "み"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "食",
+            "reading": "た"
+          },
+          {
+            "surface": "べるかわりに、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をすると",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "いましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "歌",
+              "reading": "うた"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "歌",
+              "reading": "うた"
+            },
+            {
+              "surface": "う",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "で",
+              "reading": ""
+            },
+            {
+              "surface": "返",
+              "reading": "かえ"
+            },
+            {
+              "surface": "す",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "新",
+              "reading": "あたら"
+            },
+            {
+              "surface": "しい",
+              "reading": ""
+            },
+            {
+              "surface": "木",
+              "reading": "き"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "植",
+              "reading": "う"
+            },
+            {
+              "surface": "える",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "海",
+              "reading": "うみ"
+            },
+            {
+              "surface": "へ",
+              "reading": ""
+            },
+            {
+              "surface": "連",
+              "reading": "つ"
+            },
+            {
+              "surface": "れていかない",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "兄は、どんな袋を作らせましたか。",
@@ -165,7 +383,151 @@
           "pt": "Doze palmos, quatro vezes o pedido.",
           "my": "ဆယ့်နှစ်ထွာ၊ လေးဆ ကြီးတဲ့ အိတ်။",
           "th": "สิบสองคืบ ใหญ่กว่าที่บอกสี่เท่า"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "兄",
+            "reading": "あに"
+          },
+          {
+            "surface": "は、どんな",
+            "reading": ""
+          },
+          {
+            "surface": "袋",
+            "reading": "ふくろ"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "作",
+            "reading": "つく"
+          },
+          {
+            "surface": "らせましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "手",
+              "reading": "て"
+            },
+            {
+              "surface": "のはば",
+              "reading": ""
+            },
+            {
+              "surface": "三",
+              "reading": "みっ"
+            },
+            {
+              "surface": "つ",
+              "reading": ""
+            },
+            {
+              "surface": "分",
+              "reading": "ぶん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "小",
+              "reading": "ちい"
+            },
+            {
+              "surface": "さな",
+              "reading": ""
+            },
+            {
+              "surface": "袋",
+              "reading": "ふくろ"
+            }
+          ],
+          [
+            {
+              "surface": "十二",
+              "reading": "じゅうに"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "手",
+              "reading": "て"
+            },
+            {
+              "surface": "のはばの",
+              "reading": ""
+            },
+            {
+              "surface": "大",
+              "reading": "おお"
+            },
+            {
+              "surface": "きな",
+              "reading": ""
+            },
+            {
+              "surface": "袋",
+              "reading": "ふくろ"
+            }
+          ],
+          [
+            {
+              "surface": "袋",
+              "reading": "ふくろ"
+            },
+            {
+              "surface": "は",
+              "reading": ""
+            },
+            {
+              "surface": "作",
+              "reading": "つく"
+            },
+            {
+              "surface": "らなかった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "鳥",
+              "reading": "とり"
+            },
+            {
+              "surface": "と",
+              "reading": ""
+            },
+            {
+              "surface": "同",
+              "reading": "おな"
+            },
+            {
+              "surface": "じ",
+              "reading": ""
+            },
+            {
+              "surface": "大",
+              "reading": "おお"
+            },
+            {
+              "surface": "きさの",
+              "reading": ""
+            },
+            {
+              "surface": "袋",
+              "reading": "ふくろ"
+            }
+          ]
+        ]
       },
       {
         "ja": "「舌切り雀」で、やさしいおじいさんは、どちらのつづらを選びましたか。",
@@ -188,7 +550,79 @@
           "pt": "Escolheu o pequeno e ganhou tesouros.",
           "my": "ခြင်းသေး ရွေးပြီး ရတနာ ရတယ်။",
           "th": "เลือกกล่องเล็กแล้วได้สมบัติ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "「",
+            "reading": ""
+          },
+          {
+            "surface": "舌切",
+            "reading": "したき"
+          },
+          {
+            "surface": "り",
+            "reading": ""
+          },
+          {
+            "surface": "雀",
+            "reading": "すずめ"
+          },
+          {
+            "surface": "」で、やさしいおじいさんは、どちらのつづらを",
+            "reading": ""
+          },
+          {
+            "surface": "選",
+            "reading": "えら"
+          },
+          {
+            "surface": "びましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "大",
+              "reading": "おお"
+            },
+            {
+              "surface": "きいつづら",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "小",
+              "reading": "ちい"
+            },
+            {
+              "surface": "さいつづら",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "両方",
+              "reading": "りょうほう"
+            }
+          ],
+          [
+            {
+              "surface": "どちらも",
+              "reading": ""
+            },
+            {
+              "surface": "選",
+              "reading": "えら"
+            },
+            {
+              "surface": "ばなかった",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

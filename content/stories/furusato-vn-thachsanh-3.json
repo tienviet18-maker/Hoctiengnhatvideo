@@ -94,7 +94,21 @@
           "pt": "Dizem que ~ (ouvir dizer). Forma simples + そうです. Ex.: 明日は雪が降るそうです (dizem que vai nevar amanhã).",
           "my": "~ တဲ့ (ကြားသိ)။ ရိုးရိုးပုံစံ + そうです။ ဥပမာ: 明日は雪が降るそうです (မနက်ဖြန် နှင်းကျမယ်တဲ့)။",
           "th": "ได้ยินว่า ~ (ข่าวเล่าลือ). รูปธรรมดา + そうです. ต่างจาก 〜そう (ดูเหมือน). ตัวอย่าง: 明日は雪が降るそうです (ได้ยินว่าพรุ่งนี้หิมะจะตก)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜そうです（",
+            "reading": ""
+          },
+          {
+            "surface": "伝聞",
+            "reading": "でんぶん"
+          },
+          {
+            "surface": "）",
+            "reading": ""
+          }
+        ]
       }
     ],
     "quiz": [
@@ -119,7 +133,103 @@
           "pt": "Os espíritos esconderam os tesouros para incriminá-lo.",
           "my": "ဝိညာဉ်တွေက ရတနာကို ဝှက်ပြီး စွပ်စွဲတယ်။",
           "th": "วิญญาณซ่อนสมบัติใต้ต้นไม้เพื่อใส่ร้าย"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "タック・サインは、どうしてろうやに",
+            "reading": ""
+          },
+          {
+            "surface": "入",
+            "reading": "い"
+          },
+          {
+            "surface": "れられましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "リー・トンをなぐったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "木",
+              "reading": "き"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "下",
+              "reading": "した"
+            },
+            {
+              "surface": "で、お",
+              "reading": ""
+            },
+            {
+              "surface": "城",
+              "reading": "しろ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "宝物",
+              "reading": "たからもの"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "見",
+              "reading": "み"
+            },
+            {
+              "surface": "つかったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "姫",
+              "reading": "ひめ"
+            },
+            {
+              "surface": "さまを",
+              "reading": ""
+            },
+            {
+              "surface": "連",
+              "reading": "つ"
+            },
+            {
+              "surface": "れていったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "琴",
+              "reading": "こと"
+            },
+            {
+              "surface": "をぬすんだから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "お姫さまが、また話せるようになったのは、なぜですか。",
@@ -142,7 +252,95 @@
           "pt": "O canto revelou a verdade e ela falou.",
           "my": "စောင်းသီချင်းက အမှန်ကို ပြောလို့ မင်းသမီး စကားပြောလာတယ်။",
           "th": "เพลงพิณบอกความจริง นางจำผู้ช่วยได้จึงพูด"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "お",
+            "reading": ""
+          },
+          {
+            "surface": "姫",
+            "reading": "ひめ"
+          },
+          {
+            "surface": "さまが、また",
+            "reading": ""
+          },
+          {
+            "surface": "話",
+            "reading": "はな"
+          },
+          {
+            "surface": "せるようになったのは、なぜですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "薬",
+              "reading": "くすり"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "飲",
+              "reading": "の"
+            },
+            {
+              "surface": "んだから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さまにしかられたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "タック・サインの",
+              "reading": ""
+            },
+            {
+              "surface": "琴",
+              "reading": "こと"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "歌",
+              "reading": "うた"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "聞",
+              "reading": "き"
+            },
+            {
+              "surface": "いたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "リー・トンがあやまったから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "タック・サインは、リー・トンをどうしましたか。",
@@ -165,7 +363,89 @@
           "pt": "Ele perdoou; foi o céu que puniu.",
           "my": "ခွင့်လွှတ်တယ်၊ ကောင်းကင်က ဒဏ်ခတ်တာ။",
           "th": "เขาให้อภัย ฟ้าต่างหากที่ลงโทษ"
-        }
+        },
+        "choicesFurigana": [
+          [
+            {
+              "surface": "ろうやに",
+              "reading": ""
+            },
+            {
+              "surface": "入",
+              "reading": "い"
+            },
+            {
+              "surface": "れた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ゆるして、ふるさとへ",
+              "reading": ""
+            },
+            {
+              "surface": "帰",
+              "reading": "かえ"
+            },
+            {
+              "surface": "らせた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "虫",
+              "reading": "むし"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "変",
+              "reading": "か"
+            },
+            {
+              "surface": "えた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "国",
+              "reading": "くに"
+            },
+            {
+              "surface": "から",
+              "reading": ""
+            },
+            {
+              "surface": "追",
+              "reading": "お"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "出",
+              "reading": "だ"
+            },
+            {
+              "surface": "して",
+              "reading": ""
+            },
+            {
+              "surface": "殺",
+              "reading": "ころ"
+            },
+            {
+              "surface": "した",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "十八の国の兵たちは、どうして帰っていきましたか。",
@@ -188,7 +468,135 @@
           "pt": "A música trouxe saudade e a panela os saciou.",
           "my": "စောင်းသံက အိမ်လွမ်းစေပြီး ထမင်းက ဗိုက်ပြည့်စေတယ်။",
           "th": "เสียงพิณทำให้คิดถึงบ้าน หม้อข้าวทำให้อิ่ม"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "十八",
+            "reading": "じゅうはち"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "国",
+            "reading": "くに"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "兵",
+            "reading": "へい"
+          },
+          {
+            "surface": "たちは、どうして",
+            "reading": ""
+          },
+          {
+            "surface": "帰",
+            "reading": "かえ"
+          },
+          {
+            "surface": "っていきましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "タック・サインの",
+              "reading": ""
+            },
+            {
+              "surface": "弓",
+              "reading": "ゆみ"
+            },
+            {
+              "surface": "で",
+              "reading": ""
+            },
+            {
+              "surface": "負",
+              "reading": "ま"
+            },
+            {
+              "surface": "けたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "琴",
+              "reading": "こと"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "音",
+              "reading": "おと"
+            },
+            {
+              "surface": "でふるさとを",
+              "reading": ""
+            },
+            {
+              "surface": "思",
+              "reading": "おも"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "出",
+              "reading": "だ"
+            },
+            {
+              "surface": "し、ご",
+              "reading": ""
+            },
+            {
+              "surface": "飯",
+              "reading": "はん"
+            },
+            {
+              "surface": "でおなかがいっぱいになったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "雨",
+              "reading": "あめ"
+            },
+            {
+              "surface": "がふったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さまがお",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "かね"
+            },
+            {
+              "surface": "をはらったから",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

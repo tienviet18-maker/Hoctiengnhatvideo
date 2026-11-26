@@ -107,6 +107,8 @@ export interface GrammarPoint {
   meaning: Translations;
   /** Chỉ số câu ví dụ trong sentences (từ 0) */
   example: number;
+  /** Furigana của pattern khi có kanji (scripts/lesson-furigana.mjs sinh) */
+  patternFurigana?: FuriganaSegment[];
 }
 
 /** Câu hỏi hiểu bài sau chương. Câu hỏi và lựa chọn bằng tiếng Nhật đúng cấp. */
@@ -117,6 +119,9 @@ export interface QuizQuestion {
   answer: number;
   /** Giải thích đáp án, 11 ngôn ngữ */
   explain: Translations;
+  /** Furigana của câu hỏi và từng lựa chọn khi có kanji (scripts/lesson-furigana.mjs sinh) */
+  jaFurigana?: FuriganaSegment[];
+  choicesFurigana?: FuriganaSegment[][];
 }
 
 export interface Lesson {

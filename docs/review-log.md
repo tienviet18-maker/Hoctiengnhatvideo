@@ -272,7 +272,7 @@ mốc `t`, dịch + giải thích 11 ngôn ngữ (tự dịch, tự rà), bài h
 | osaka-hataraku-05 | 夜の工場 | 57 | 5,4 phút | 緊急地震速報, 避難所, túi khẩn cấp | a1fb25e |
 | osaka-hataraku-06 | あかりの秘密 | 58 | 5,8 phút | khám 内科: マイナ保険証, 問診票, trả 3 phần 10, ＃7119 | 260c93e |
 | osaka-hataraku-07 | 社長が倒れた | 61 | 5,4 phút | gọi 119: 火事か救急か → địa chỉ → ai bị gì, ý thức/hơi thở, phiên dịch | bda449a |
-| osaka-hataraku-08 | ただいま、大阪 (tập cuối) | 61 | 5,8 phút | 給与明細: các khoản trừ, 手取り, 住民税 từ tháng 6 năm sau, giữ phiếu lương | xem commit kế |
+| osaka-hataraku-08 | ただいま、大阪 (tập cuối) | 61 | 5,8 phút | 給与明細: các khoản trừ, 手取り, 住民税 từ tháng 6 năm sau, giữ phiếu lương | f13f208 |
 
 Tập 1 miễn phí, tập 2–5 `free: false`. `npm run verify` xanh trên bản clone sạch: 553 gói, 0 lỗi; chuẩn v2 11 gói đạt.
 
@@ -442,3 +442,197 @@ Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Bảy gói chuẩn v2, N3
 - Chỉ ẩn, không xoá: file nội dung và đăng ký trong `content.ts` giữ nguyên, `/read/<id>` cũ vẫn mở được (link và tiến độ cũ không hỏng), nhưng có `noindex` và canonical trỏ sang bản v2. Muốn hiện lại thì xoá dòng trong `hidden-stories.json`.
 - Lộ trình "Giải trí & văn hoá" (`src/lib/paths.ts`) đổi `momotaro` → `mukashi-momotaro-1`.
 - Đánh đổi: 4 trong 6 gói ẩn là N5 (ngắn 10–14 câu), bản v2 là N3, nên người mới bắt đầu có ít truyện cổ tích dễ hơn. Kho N5 vẫn còn hơn 200 gói khác.
+
+## Bộ thẻ có sẵn từ ViBJT — lô 1 (26/11/2026, nhánh `claude/bjt-decks`)
+
+Tab Ôn tập có mục "Bộ thẻ có sẵn", dựng từ kho thẻ ViBJT (repo BJT, cùng hệ sinh thái ViMai). Việt chọn phương án 1+2 ngày 26/11. Công cụ: `scripts/decks/build-decks.mjs` (BJT_DIR trỏ tới repo BJT) ghép thẻ gốc (ja, vi, en, câu ví dụ, mã audio) với bản dịch 9 ngôn ngữ ở `content/sources/decks/src/*.txt`, đổi sang JSONL bằng `scripts/decks/tr2jsonl.py`. Thẻ chỉ vào bộ khi đủ 11 ngôn ngữ. Đầu ra: `public/decks/*.json` (tải khi bấm thêm, không nằm trong bundle), `public/audio/bjt/*.mp3`, `src/lib/decks.generated.ts`. Lô đầu: Kính ngữ 135 thẻ có bảng thường/lịch sự/tôn kính/khiêm nhường, câu ví dụ và giọng đọc. Sửa nghĩa en sai của 帰る ("about" thành "go home, leave"). Mỗi lần thêm 10 thẻ; bản miễn phí vẫn giới hạn 100 thẻ. Lô sau: Tiếng Nhật công sở N5–N1 (1.293 từ có trong danh sách JLPT), ngữ pháp N3–N1, ví dụ cho 535 từ trùng với truyện/video.
+## Rà chất lượng 444 gói truyện cũ của Muse, ẩn 62 gói (26/11/2026, nhánh `claude/retire-old-stories`)
+
+Việt giao (26/11): truyện cũ không đạt chuẩn thì bỏ hoặc làm lại, Claude tự quyết.
+
+**Hiện trạng gói cũ (cả 444 gói):** chỉ có bản dịch VI + EN (app có 11 ngôn ngữ, 9 ngôn ngữ còn lại thấy trống), trung bình khoảng 9 câu và 28 giây, audio từng câu, không có tab Bài học, không có ảnh bìa. 345 gói có quá 20% từ vượt cấp được gắn.
+
+**Đã ẩn thêm 62 gói** (`content/hidden-stories.json`, chỉ ẩn, không xoá):
+
+- 9 gói đã có bản v2 dài hơn: `botchan`, `benkei-ushiwakamaru`, `issun-boshi`, `kaguya-hime`, `sansho-dayu`, `shuten-doji`, `tsuru-no-ongaeshi`, `urashima-taro`, `yuki-onna`, mỗi gói trỏ sang tập 1 của bản v2.
+- 15 gói trùng truyện với gói cũ khác. Giữ bản dài hơn: `the-golden-axe`, `the-little-mermaid`, `the-three-little-pigs`, `the-shinkansen-trip`, `the-dentist`, `opening-a-bank-account`, `tanabata`, `at-the-hairdresser`, `the-bicycle-puncture`, `the-onsen-trip`, `the-post-office`, `the-town-mouse`, `the-lost-umbrella`, `the-shepherd-boy`, `the-japanese-class`.
+- 38 gói cho nghỉ, không có bản thay (giá trị `null`):
+  - 23 bản tóm tắt tiểu thuyết phương Tây trong 8 câu cụt, không phải truyện (ví dụ Jane Eyre: 「ジェーンは、親戚の家で育ちました。家庭教師に、なりました。…」).
+  - 7 tiểu sử tác giả.
+  - 8 bài giới thiệu sách dạng 『…』は…の小説です.
+- `gen-catalog.mjs` nhận `null` (ẩn, không có `replacedBy`). `/read/<id>` của gói cho nghỉ chỉ có `noindex`, không có canonical.
+- Lộ trình (`paths.ts`): `opening-a-bank-account` → `at-the-bank`, `tsuru-no-ongaeshi` → `mukashi-tsuru-1`, `kaguya-hime` → `mukashi-kaguya-1`.
+- Sau đợt này, gói cũ còn hiện: N5 150, N4 190, N3 12, N2 12, N1 12.
+
+**Kế hoạch làm lại (theo thứ tự ưu tiên):**
+
+1. Mai-chan (66 tập × 8 câu): dựng lại thành series v2 N5/N4 dài hơn, 11 ngôn ngữ. N5/N4 hiện toàn gói cũ, mà người mới là đông nhất.
+2. Văn học Nhật ngắn public domain (Akutagawa, Miyazawa Kenji, Niimi Nankichi, Mười đêm mộng…, khoảng 35 gói): làm lại v2 N4/N3.
+3. Ngụ ngôn và cổ tích phương Tây N5 (Aesop, Grimm, Andersen): gộp thành các tập v2 N5.
+4. Đời sống Nhật (khoảng 190 gói): lệch định vị giải trí mới, nên ẩn dần khi đã đủ gói v2 N5/N4 thay thế. Riêng 12 bài luận N1/N2 chỉ 8 câu sẽ được ẩn khi tiểu thuyết Việt Nam N2/N1 lên kệ.
+
+## Tiểu thuyết Việt Nam N2/N1 (26/11/2026, nhánh `claude/vn-novels`, `claude/vn-novels-2`)
+
+Việt chọn: Số đỏ và Truyện Kiều (văn xuôi) ở N2, Hoàng Lê nhất thống chí (các hồi về Quang Trung) ở N1. Claude kể lại bằng lời mới từ nguyên tác tiếng Việt, không dùng bản dịch hiện đại. Thuộc kệ quê hương, series `furusato-vn-sodo`.
+
+| id | Tên | Câu | Audio | Commit |
+|---|---|---|---|---|
+| furusato-vn-sodo-1 | 赤毛のスアン | 61 | 7,2 phút | 3a085a8 |
+| furusato-vn-sodo-2 | ドクター・スアン | 61 | 6,6 phút | 43b51bd (+ commit kế: đổi ファン→ファーン) |
+| furusato-vn-sodo-3 | 幸せな葬式 | 61 | 6,6 phút | 10a4284 |
+| furusato-vn-sodo-4 | 救国の英雄 (hết; so sánh 『吾輩は猫である』) | 61 | 5,9 phút | ec176a0 |
+
+- Bìa: thêm motif `tennis`, `sododoctor`, `sodofuneral`, `sodohero`. Font Chokokutai và Tsukimi Rounded thiếu nhiều chữ Hán (chữ bị chồng lên nhau), nên không dùng cho bìa có kanji.
+- Nguồn tóm tắt các chương không thống nhất về cái chết của cụ cố tổ (tiếng hô "ông Phán mọc sừng"; ông Phán đưa 5 hay 10 đồng). Claude theo bản phổ biến nhất: tờ 5 đồng gấp tư.
+- Tên ông Phán viết là ファーン, không viết ファン: kuromoji tách ファン thành từ "fan" (N1), làm chỉ số "từ vượt cấp" tăng sai.
+
+## Bộ thẻ có sẵn từ ViBJT — lô 2 (Công sở N5–N4)
+
+- Thêm bộ **Tiếng Nhật công sở N5** (50 thẻ) và **N4** (138 thẻ). Mỗi thẻ có nghĩa và câu ví dụ đủ 11 ngôn ngữ, kèm audio từ và câu của ViBJT. Bản dịch 9 ngôn ngữ do Claude tự soạn và tự duyệt, nguồn nằm ở `content/sources/decks/src/office-n5.txt` và `office-n4-*.txt`.
+- `scripts/decks/tr2jsonl.py`: dòng `m` (nghĩa) giờ là tuỳ chọn. Thẻ nào mà nghĩa 11 ngôn ngữ đã có sẵn trong vocab truyện/video thì chỉ cần dịch câu ví dụ.
+- Tổng hiện có 3 bộ (Kính ngữ, Công sở N5, Công sở N4) với 323 thẻ. Có 105 từ trong truyện/video được thêm câu ví dụ và audio ViBJT (`extras.json`).
+- Còn lại: Công sở N3 (456 thẻ), N2 (235), N1 (414), Ngữ pháp N3–N1.
+
+## Mai-chan bản mới N5 — đợt 1 (26/11/2026, nhánh `claude/maichan-v2`)
+
+Trước đợt này kho chưa có gói N5 nào đạt chuẩn v2, nên Mai-chan được dựng lại thành series N5 chuẩn mới (`series: maichan`, nguồn ở `content/sources/maichan/`). Mỗi tập gộp và mở rộng một tập cũ 8 câu thành một chuyện có mở đầu, cao trào và kết vui: khoảng 40 câu, 690–760 ký tự, một file audio liền mạch 2,4–2,7 phút. N5 giới hạn 900 ký tự và 45 câu, nên tập N5 ngắn hơn mốc 5 phút của các kệ N4 trở lên; đây là chủ ý, vì người mới học nghe dài sẽ mệt.
+
+| id | Tên | Câu | Audio | Thay cho |
+|---|---|---|---|---|
+| maichan-01 | あわてんぼうの朝 | 42 | 2,7 phút | mai-chan-ep01-hello, ep02-homework |
+| maichan-02 | うんどうかい | 40 | 2,4 phút | mai-chan-ep05-sports-day |
+| maichan-03 | グラグラの歯 | 42 | 2,5 phút | mai-chan-ep06-loose-tooth |
+| maichan-04 | ビンへのプレゼント | 40 | 2,6 phút | mai-chan-ep07-birthday |
+
+- Giọng: Aoede đọc dẫn (0.85), Mai Neural2-B pitch +6, Bin Neural2-B pitch +10, mẹ B −1, bố C −2, Yuki B +3, cô giáo B −3.
+- Bìa: hàm vẽ nhân vật dùng chung `MAI()` và `BIN()` trong `scripts/covers/cover.html` (tóc bob đen, kẹp đỏ, hoodie vàng đúng bible), motif `mai01`–`mai04`, font M PLUS Rounded 1c cho cả series.
+- 5 gói cũ được ẩn và trỏ sang gói mới trong `content/hidden-stories.json`; lộ trình "Gia đình" ở `src/lib/paths.ts` đổi sang `maichan-01`.
+- Sửa romaji: kuromoji ghép では/には/とは thành "deha/niha/toha"; `build.mjs` giờ đổi thành "de wa/ni wa/to wa". 24 gói v2 đã dựng trước đó vẫn còn "deha" và sẽ được sửa khi dựng lại.
+- Tập 3 có kiến thức phong tục: Nhật ném răng hàm dưới lên mái, răng hàm trên xuống gầm nhà; Việt Nam cũng ném răng và xin chuột đổi răng.
+
+## Bộ thẻ có sẵn từ ViBJT — lô 3 (Công sở N3)
+
+- Thêm bộ **Tiếng Nhật công sở N3** (456 thẻ). Mỗi thẻ có nghĩa và câu ví dụ đủ 11 ngôn ngữ, kèm audio ViBJT. Nguồn dịch nằm ở `content/sources/decks/src/office-n3-*.txt`.
+- Sửa nghĩa cho `v_trade_29d1ec` (便): bản tiếng Anh của ViBJT ghi "train", nhưng câu ví dụ nói về chuyến bay. 9 ngôn ngữ mới dịch theo nghĩa "chuyến bay".
+- Tổng hiện có 4 bộ với 779 thẻ. 279 từ trong truyện/video có thêm câu ví dụ và audio.
+- Còn lại: Công sở N2 (235 thẻ), N1 (414), Ngữ pháp N3–N1.
+
+## Bộ thẻ có sẵn từ ViBJT — lô 4 (Công sở N2)
+
+- Thêm `content/sources/decks/src/office-n2-1.txt` + `office-n2-2.txt` (235 thẻ): nghĩa + câu ví dụ đủ 9 ngôn ngữ còn thiếu (zh-Hans, zh-Hant, ko, tl, ne, id, pt, my, th), Claude tự dịch.
+- Bộ "Tiếng Nhật công sở N2" lên app. Tổng 5 bộ, 1014 thẻ.
+- Một số nghĩa tiếng Anh gốc của ViBJT lệch câu ví dụ (ずらす, 貨物, 往復): dịch theo câu tiếng Nhật, không theo bản Anh.
+- Câu có cụm tiếng Nhật giữ nguyên (「ご苦労様」) để nguyên chữ Nhật trong bản zh-Hant.
+
+## 2026-11-26 — Furigana cho mọi kanji ở phần Bài học (quy tắc của Việt)
+
+Việt nhắc: mọi chữ kanji trong app phải có furigana, kể cả hội thoại video. Kiểm toàn kho:
+
+- Câu truyện + phụ đề video: 12.238 câu/dòng, **không câu nào thiếu** (mọi đoạn kanji đều có cách đọc, ghép lại khớp đúng câu gốc).
+- Chỗ còn thiếu là **thẻ Bài học** (133 gói v2): mẫu ngữ pháp, câu hỏi, các lựa chọn và câu ví dụ hiển thị chữ trơn; danh sách từ vựng hiện cách đọc ở dòng phụ thay vì furigana trên chữ.
+
+Đã sửa:
+- `scripts/lesson-furigana.mjs` (mới): sinh `patternFurigana`, `jaFurigana`, `choicesFurigana` cho mọi truyện có lesson. Cách đọc ưu tiên lấy từ chính furigana đã sửa tay trong truyện (tên riêng, 甚右衛門, 酒呑童子…), rồi `phrases` của src.json, rồi kuromoji; có bảng sửa các lỗi kuromoji hay gặp (一人, 一本, 七日, 夜中, 救急車, 何文, 都→みやこ…). Đã đọc lại toàn bộ ~2.000 câu hỏi/lựa chọn.
+- `--check` của script chạy trong `npm run qc` → gói nào có kanji trong bài học mà thiếu furigana thì cổng đỏ. Hai bộ dựng truyện (`scripts/story-src/build.mjs`, `scripts/produce/build-story.mjs`) tự gọi script sau khi ghi gói.
+- `LessonPanel.tsx`: mẫu ngữ pháp, câu ví dụ (dùng furigana của câu), câu hỏi, lựa chọn và từ vựng đều hiện ruby; nút "Furigana" ẩn/hiện vẫn áp dụng như phần truyện. Hộp tối thêm `on-dark` để chữ ruby đủ tương phản.
+
+## Bộ thẻ có sẵn từ ViBJT — lô 5 (Công sở N1)
+
+- Thêm `content/sources/decks/src/office-n1-1..6.txt` (414 thẻ): nghĩa + câu ví dụ đủ 9 ngôn ngữ còn thiếu, Claude tự dịch.
+- Bộ "Tiếng Nhật công sở N1" lên app. Tổng 6 bộ, 1428 thẻ (Kính ngữ + Công sở N5–N1 đã đủ).
+- Một số bản tiếng Anh gốc lệch câu Nhật, đã dịch theo câu Nhật: 撤退を決断 (rút lui, không phải từ chức), 取材 (được phỏng vấn), 品質管理 v.v.
+
+## 2026-11-26 — Truyện Kiều (N2, 4 tập, chuẩn v2)
+
+Nguyễn Du (1766–1820), thuộc phạm vi công cộng. Claude tự kể lại bằng văn xuôi tiếng Nhật từ nguyên tác tiếng Việt, không dựa vào bản dịch hiện đại nào. Kệ hometown (VN), series `furusato-vn-kieu`. Tập 1 miễn phí, tập 2–4 VIP.
+
+| Tập | id | Tựa | Câu | Audio | Nội dung |
+|---|---|---|---|---|---|
+| 1 | furusato-vn-kieu-1 | 清明の約束 | 57 | 5.7 phút | Thanh minh, mộ Đạm Tiên, Kim Trọng, thề nguyền, Bạc mệnh |
+| 2 | furusato-vn-kieu-2 | 身を売る決心 | 57 | 5.9 phút | Gia biến, bán mình chuộc cha, trao duyên, Tú Bà, Sở Khanh |
+| 3 | furusato-vn-kieu-3 | 刃なき嫉妬 | 57 | 6.2 phút | Thúc Sinh, Hoạn Thư đánh ghen, Giác Duyên, Từ Hải |
+| 4 | furusato-vn-kieu-4 | 十五年目の琴 | 60 | 6.4 phút | Báo ân báo oán, Từ Hải chết đứng, sông Tiền Đường, đoàn viên; kết nối với 『風俗金魚伝』 của Bakin |
+
+- Mỗi tập có: dịch và giải thích 10 ngôn ngữ (trích câu thơ gốc ở những đoạn nổi tiếng), bài học 4 ngữ pháp + 4 câu hỏi (đã có furigana), bìa 文庫 font Kaisei HarunoUmi, motif `kieu1`–`kieu4`.
+- Giọng đọc: Aoede cho người dẫn truyện; Neural2-B/C cho từng nhân vật, chỉnh pitch riêng.
+- Bìa: tựa tiếng Nhật 4 chữ làm dòng phụ dọc chồng lên tranh. Vì vậy tựa đặt từ 5 chữ trở lên.
+
+## Furigana cho mọi chữ kanji (Việt nhắc 26/11)
+
+Quy tắc: chữ kanji hiển thị ở bất kỳ đâu trong app đều phải có furigana.
+- Rà dữ liệu: phụ đề video (610 câu) và câu truyện (11.571 câu) đã đủ furigana, 0 kanji trần.
+- Thẻ ôn (bộ ViBJT): build-decks sinh furigana bằng kuromoji (`scripts/lib/furigana.mjs`) cho câu ví dụ (`ex.f`), từ chính (`wf`), bảng kính ngữ (`kmf`), dạng ngữ pháp (`formf`); báo số chuỗi còn kanji trần (hiện 0). Thẻ người dùng đã lưu trước đó tự được bổ sung khi mở tab Ôn tập (`refreshPremadeCards`, giữ tiến độ).
+- Từ tự lưu và popup tra từ: từ hiện dạng ruby (`src/lib/furigana.ts` alignWord).
+- Chế độ lái xe: câu hiện bằng furigana của truyện.
+- Tab Bài học: đã xử lý ở PR #39 (furigana nằm trong dữ liệu truyện). Câu nghe thử onboarding: `scripts/gen-placement-furigana.mjs` (prebuild/predev) lấy đúng furigana của câu truyện gốc.
+
+## Thẻ ôn từ ViBJT — lô 6 (Ngữ pháp N3) — 26/11/2026
+
+- Dịch 120 thẻ ngữ pháp N3 (nghĩa mẫu câu + câu ví dụ) sang 9 ngôn ngữ còn thiếu (zh-Hans, zh-Hant, ko, tl, ne, id, pt, my, th): `content/sources/decks/src/grammar-n3-1.txt`, `grammar-n3-2.txt` → `tr/*.jsonl`.
+- Dựng lại bộ thẻ: thêm `public/decks/grammar-N3.json` (7 bộ, 1.548 thẻ). Mọi câu ví dụ có furigana (0 kanji trần).
+- Còn lại: Ngữ pháp N2 (194) và N1 (143).
+
+## Trạng Quỳnh — series N4, 3 tập (Việt yêu cầu 26/11, "bé rất thích nghe")
+
+Series `furusato-vn-quynh`, kệ truyện quê hương (VN), N4, kể lại bằng tiếng Nhật dễ cho thiếu nhi từ giai thoại dân gian về Nguyễn Quỳnh (1677–1748), thuộc phạm vi công cộng.
+
+| Tập | id | Tựa | Audio | Nội dung |
+|---|---|---|---|---|
+| 1 (miễn phí) | furusato-vn-quynh-1 | 石の芽の料理 | 5.1 phút | Lừa thầy đồ ra khỏi phòng; chúa Trịnh ăn "mầm đá", hũ tương "Đại phong" (大風) |
+| 2 | furusato-vn-quynh-2 | 殿様のねこ | 5.1 phút | Dạy mèo quý của chúa chỉ ăn cơm, thắng phép thử hai bát |
+| 3 | furusato-vn-quynh-3 | 十ぴきの竜 | 5.3 phút | Mười ngón tay vẽ mười con giun = 地竜 (địa long); câu đố gốc/ngọn khúc gỗ |
+
+- Chỉnh cho thiếu nhi: tập 2 không đánh mèo (Quỳnh lấy tay che bát), kết bằng việc Quỳnh trả mèo và xin chúa chia cá gạo cho trẻ nghèo. Bản gốc Quỳnh giữ luôn mèo; sourceNote ghi rõ chỗ đổi.
+- Chơi chữ "Đại phong → lọ tương" không dịch được sang tiếng Nhật; phần giải thích tiếng Việt nói rõ. Ở tập 3, 地竜 là tên thật của giun đất trong sách thuốc, nên trò chơi chữ đứng được trong tiếng Nhật.
+- Mỗi tập: dịch và giải thích 10 ngôn ngữ, bài học 4 ngữ pháp + 4 câu hỏi (có furigana), bìa 文庫 font Mochiy Pop P One, motif mới `quynh1`–`quynh3`.
+- Giọng: Aoede dẫn truyện; Quỳnh Neural2-C (p+3); chúa C (p-3); thầy đồ C (p-6); sứ thần C (rate 0.92, p-9). QC chuẩn v2 chỉ nhận Aoede/Neural2-B/Neural2-C, nên không dùng Neural2-D.
+- Dừng ở 3 tập để tránh gán nhầm giai thoại không chắc là của Trạng Quỳnh. Tập 3 kết bằng "tạm kết, còn nhiều chuyện nữa", nên có thể làm thêm nếu cần.
+
+## Thẻ ôn từ ViBJT — lô 7 (Ngữ pháp N2) — 26/11/2026
+
+- Dịch 194 thẻ ngữ pháp N2 (nghĩa mẫu câu + câu ví dụ) sang 9 ngôn ngữ còn thiếu: `content/sources/decks/src/grammar-n2-1..3.txt` → `tr/*.jsonl`.
+- Thêm `public/decks/grammar-N2.json` (8 bộ, 1.742 thẻ). Furigana: 0 chuỗi còn kanji trần.
+- Còn lại: Ngữ pháp N1 (143).
+
+## Thẻ ôn từ ViBJT — lô 8 (Ngữ pháp N1, hoàn tất) — 26/11/2026
+
+- Dịch 143 thẻ ngữ pháp N1 sang 9 ngôn ngữ còn thiếu: `content/sources/decks/src/grammar-n1-1..2.txt` → `tr/*.jsonl`.
+- Thêm `public/decks/grammar-N1.json`. Tổng: **9 bộ, 1.885 thẻ**, đủ 11 ngôn ngữ (build báo thiếu 0 nghĩa, 0 câu ví dụ), furigana 0 kanji trần.
+- Bản tiếng Anh gốc lệch câu Nhật ở 2 thẻ, đã dịch theo câu Nhật: 移転に伴い (chuyển địa điểm, không chỉ trụ sở), 周囲の心配をよそに独立した (ra làm riêng, không phải dọn ra ở riêng).
+
+## Hoàng Lê nhất thống chí — tiểu thuyết Việt Nam N1, 3 tập (Việt chọn 26/11)
+
+Kể lại hồi 14 (đoạn Quang Trung đại phá quân Thanh) bằng tiếng Nhật N1, từ nguyên tác public domain (Ngô gia văn phái), không dựa trên bản dịch hiện đại. Kệ `hometown`, origin VN, series `furusato-vn-hoangle`.
+
+| Tập | ID | Nội dung | Câu / ký tự | Audio |
+| --- | --- | --- | --- | --- |
+| 1 (free) | `furusato-vn-hoangle-1` | Tôn Sĩ Nghị chiếm Thăng Long, Nguyễn Huệ lên ngôi Quang Trung, tuyển quân Nghệ An, gặp La Sơn phu tử | 60 | 7,2 phút |
+| 2 | `furusato-vn-hoangle-2` | Đến Tam Điệp 30 tháng Chạp, tha tội Sở và Lân, khen kế Ngô Thì Nhậm, ăn Tết sớm hẹn mùng 7, phá đồn Hà Hồi không mất một người | 60 / 2032 | 7,0 phút |
+| 3 | `furusato-vn-hoangle-3` | Mộc ván phủ rơm ướt đánh Ngọc Hồi, Sầm Nghi Đống thắt cổ, Tôn Sĩ Nghị bỏ chạy, cầu phao đứt, Lê Chiêu Thống sang Tàu, vào Thăng Long trưa mùng 5, cầu hòa | 64 / 2053 | 7,3 phút |
+
+- Đủ chuẩn v2: dịch và giải thích 10 ngôn ngữ, bài học 4 ngữ pháp + 4 câu hỏi, bìa 文庫 (motif `hoangle1`–`hoangle3`), chỉ giọng Aoede và Neural2-C (nhân vật phân biệt bằng pitch và tốc độ).
+- Chi tiết truyền thuyết (võng khiêng quân, áo bào sạm đen khói súng) được ghi rõ là lời truyền tụng trong ghi chú câu và `sourceNote`.
+- Lỗi đọc sửa bằng `phrases`: 清 しん, 民 たみ, 戦 いくさ/たたかい, 大将, 後を あと, 数知れず かず. Bỏ phrase thừa 「この戦」 từ tập 1.
+
+## Ẩn 24 bài luận N1/N2 cũ dạng 8 câu — 26/11/2026
+
+Việt cho phép bỏ hoặc làm lại truyện của Muse không đạt chuẩn. 24 gói N1/N2 (12 N1 + 12 N2: the-aging-society, the-interpreter, the-narrow-road, the-job-change, the-mentor…) chỉ có 8 câu, 104–188 ký tự. Chuẩn v2 đòi N2 ≥1500 và N1 ≥2000 ký tự, nên đây là đoạn tóm tắt gắn nhãn cấp cao chứ không phải bài đọc N1/N2.
+
+- Thêm cả 24 id vào `content/hidden-stories.json` với giá trị `null` (cho nghỉ). Chỉ ẩn, không xoá: link cũ vẫn mở, trang để noindex.
+- `src/lib/paths.ts`: gỡ các id này khỏi lộ trình Đi làm, Gia đình và Giải trí. Phần cấp cao của lộ trình Giải trí thay bằng tập 1 của Số đỏ, Truyện Kiều và Hoàng Lê (đều chuẩn v2).
+- Sau khi ẩn, kệ đang hiện: N2 có 10 gói v2 + 0 gói cũ, N1 có 3 gói v2. Cần thêm truyện N1 (ứng viên: truyện ngắn Thạch Lam, văn học Nhật public domain).
+
+## Truyện ngắn Thạch Lam — N1, 3 truyện (26/11/2026)
+
+Thêm truyện N1 để bù kệ N1 sau khi ẩn bài luận cũ. Thạch Lam mất 1942 nên tác phẩm đã thuộc public domain. Mỗi truyện được kể lại bằng tiếng Nhật N1 từ nguyên tác tiếng Việt, có giản lược và ghi rõ trong `sourceNote`. Kệ `hometown`, origin VN, series `furusato-vn-thachlam`.
+
+| # | ID | Truyện | Câu / ký tự | Audio | Commit |
+| --- | --- | --- | --- | --- | --- |
+| 1 (free) | `furusato-vn-thachlam-1` | Hai đứa trẻ (夜汽車を待つ子) | 61 / 2023 | 6,8 phút | bc47f6b |
+| 2 | `furusato-vn-thachlam-2` | Gió lạnh đầu mùa (初冬の冷たい風) | 60 / 2018 | 6,7 phút | de6b69c |
+| 3 | `furusato-vn-thachlam-3` | Dưới bóng hoàng lan (ホアンランの木陰で) | 61 / 2078 | 7,1 phút | c557f8a |
+
+- Đủ chuẩn v2: dịch và giải thích 10 ngôn ngữ, bài học 4 ngữ pháp + 4 câu hỏi, bìa 文庫 (motif `thachlam1`–`thachlam3`, mỗi truyện một font), chỉ giọng Aoede, Neural2-B và Neural2-C.
+- atLevel N1 của tập 3 ban đầu chỉ 3,4%, đã nâng lên 5,4% bằng từ N1 tự nhiên (郷愁, 素朴, 趣, 名残, 傍ら, 惜しむ).
+- Sửa romaji bằng `phrases`: ガーはね → "wa ne", じんわり, 取るに足りない, もう少し, タンさん.
+- Kệ N1 hiện có 6 gói v2 (Hoàng Lê ×3, Thạch Lam ×3).

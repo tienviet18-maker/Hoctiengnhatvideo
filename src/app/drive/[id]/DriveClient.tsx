@@ -8,10 +8,12 @@ import Paywall from "../../../components/Paywall";
 import { pickText } from "../../../lib/i18n";
 import { logActivity } from "../../../lib/store";
 import { stop as stopStoryPlayer } from "../../../lib/player";
-import type { JlptLevel, Translations } from "../../../lib/content-schema";
+import type { FuriganaSegment, JlptLevel, Translations } from "../../../lib/content-schema";
+import Furigana from "../../../components/Furigana";
 
 interface DriveSentence {
   ja: string;
+  furigana: FuriganaSegment[];
   audio: string;
 }
 
@@ -203,7 +205,7 @@ export default function DriveClient({
       </p>
 
       <p className="drive-sentence jp" lang="ja">
-        {done ? ui.drive.finished : story.sentences[idx].ja}
+        <span><span>{done ? ui.drive.finished : <Furigana segments={story.sentences[idx].furigana} />}</span></span>
       </p>
 
       <div className="progress-track drive-progress">
