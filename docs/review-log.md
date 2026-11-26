@@ -871,6 +871,13 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 11: truyện thế giới đợt 6 — 27/11/2026 (nhánh `claude/si-stories-12`)
+
+- Đã dịch 5 gói từ PR #88: world-vasilisa-1/2, world-saru-wani, world-pinocchio-1/2.
+- Lời kể khẩu ngữ như các gói world- trước. Tên: වසිලීසා, බාබා යාගා; වඳුරා සහ කිඹුලා (truyện Jataka quen thuộc với người Sri Lanka); පිනෝකියෝ, ජෙපෙටෝ, රොමියෝ, සුරංගනාවිය.
+- Tục ngữ Nga 「朝は夜よりかしこい」 dịch thống nhất "උදේ, රෑට වඩා බුද්ධිමත්" ở cả hai tập.
+- Sau đợt này: 129 gói có si.
+
 ## Tiếng Sinhala đợt 10: văn học Nhật + tập tiếp truyện Việt — 27/11/2026 (nhánh `claude/si-stories-11`)
 
 - Đã dịch 15 gói: mikan-1, torokko-1, toshishun-1/2; furusato-vn-tamcam-2/3, kieu-2/3/4, quynh-2/3, hoangle-2/3, thachlam-2/3.
