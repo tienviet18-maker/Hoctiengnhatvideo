@@ -7,6 +7,8 @@ import type { JlptLevel } from "./content-schema";
 
 /** Video VIP: tài khoản thường thấy rõ bấy nhiêu câu phụ đề đầu. */
 export const FREE_VIDEO_LINES = 2;
+/** Truyện VIP: tài khoản thường đọc và nghe thử bấy nhiêu câu đầu (Việt 26/11: cho trải nghiệm trước rồi mới mời mua). */
+export const FREE_STORY_SENTENCES = 3;
 /** Thẻ ôn tối đa của tài khoản thường. */
 export const FREE_DECK_CARDS = 100;
 /** Số lần mở "Giải thích" câu mỗi ngày của tài khoản thường. */

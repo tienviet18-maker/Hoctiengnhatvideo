@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { useLang } from "./LangProvider";
 import AccountSheet from "./AccountSheet";
+import { useAccount } from "../lib/account";
 import VipWelcome from "./VipWelcome";
 import WebVipCheckout from "./WebVipCheckout";
 import { formatVnd, refreshVip, WEB_VIP_LAUNCH_ENDS_AT, WEB_VIP_PRICES, type WebVipPrice } from "../lib/web-vip";
@@ -60,6 +61,9 @@ function PaywallWeb({ onClose, onUnlocked }: { onClose: () => void; onUnlocked?:
     };
   }, []);
   const needSignIn = useCallback(() => setSignIn(true), []);
+  // Học ViBJT: VIP gắn với tài khoản, nên nói rõ việc đăng nhập ngay trên màn chọn gói
+  const account = useAccount();
+  const signedIn = account.status === "signed-in";
   const paid = useCallback(() => setWelcome(true), []);
   const offerEnd = new Date(WEB_VIP_LAUNCH_ENDS_AT).toLocaleDateString("ja-JP", { timeZone: "Asia/Tokyo" });
   const priceOf = (k: PlanKey) => prices.find((p) => p.plan === WEB_PLAN[k]) ?? WEB_VIP_PRICES.find((p) => p.plan === WEB_PLAN[k])!;
@@ -124,8 +128,17 @@ function PaywallWeb({ onClose, onUnlocked }: { onClose: () => void; onUnlocked?:
               })}
             </div>
             <p style={{ fontSize: 12, color: "var(--muted)", marginTop: 10, lineHeight: 1.5 }}>{ui.webvip.terms.replace("{date}", offerEnd)}</p>
-            <button type="button" className="btn-primary" style={{ marginTop: 18 }} onClick={() => setStep("pay")}>
-              {ui.webvip.buy}
+            {signedIn ? (
+              <p style={{ fontSize: 12.5, color: "var(--muted)", marginTop: 12 }}>
+                {ui.account.signedInAs.replace("{email}", account.user.email ?? account.user.name ?? "")}
+              </p>
+            ) : (
+              <p style={{ fontSize: 13, color: "var(--navy)", marginTop: 12, lineHeight: 1.5, background: "#EAF0F8", borderRadius: 10, padding: "10px 12px" }}>
+                {ui.webvip.needSignIn}
+              </p>
+            )}
+            <button type="button" className="btn-primary" style={{ marginTop: 14 }} onClick={() => (signedIn ? setStep("pay") : setSignIn(true))}>
+              {signedIn ? ui.webvip.buy : `${ui.account.signIn} · ${ui.webvip.buy}`}
             </button>
             <button type="button" className="btn-ghost" style={{ marginTop: 10 }} onClick={onClose}>
               {ui.paywall.later}
@@ -135,7 +148,7 @@ function PaywallWeb({ onClose, onUnlocked }: { onClose: () => void; onUnlocked?:
       </div>
       {signIn && (
         <div onClick={(e) => e.stopPropagation()}>
-          <AccountSheet onClose={() => setSignIn(false)} />
+          <AccountSheet onClose={() => setSignIn(false)} onDone={() => setStep("pay")} />
         </div>
       )}
     </div>

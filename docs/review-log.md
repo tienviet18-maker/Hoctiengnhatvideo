@@ -665,3 +665,17 @@ Việt giao đấu nối Firebase, Cloudflare và SePay, học theo ViBJT. Bài 
 - Lỗi React #418 ở `/profile` (bản dịch khác vi): `useAccount` trả object mới mỗi lần gọi getServerSnapshot.
   Sửa bằng hằng `SERVER_STATE` trong `src/lib/account.ts`. Gốc thứ hai: thanh tab nằm trong <Suspense> nên hydrate sau khi ngôn ngữ đã đổi; lần hydrate đầu dùng chữ tiếng Việt cho khớp HTML tĩnh. Đã kiểm bằng Playwright trên bản build (Indonesia): hết lỗi.
 - `npm run verify` xanh.
+
+## Sửa theo góp ý của Việt sau khi xem bản web — 26/11/2026
+
+- Biểu tượng tab trình duyệt là chữ "N" mặc định của Next: thay bằng logo MiraiGo của Việt
+  (`src/app/favicon.ico`, `icon.png`, `apple-icon.png`; logo trang chủ `public/logo-192.png`).
+- Bỏ màn "Kế hoạch của bạn" (chỉ có 2 nút, khách không được chọn): xong onboarding vào thẳng trang chủ.
+- Truyện VIP trước đây bấm vào là bật màn mua ngay, 0 câu. Nay khách đọc và nghe thử 3 câu đầu
+  (`FREE_STORY_SENTENCES` trong `src/lib/access.ts`, `gateStory` trong `src/lib/gate.ts`), trình phát dừng ở cuối
+  câu 3 (`endAt`), phía dưới mờ dần và có nút "Mở khoá VIP". gen-locked kiểm thêm: câu thứ 4 trở đi không có trong trang tĩnh.
+- "Thêm video YouTube của bạn" tạm ẩn: chưa có máy dựng phụ đề tự động, video thêm vào chỉ phát trống.
+- Đăng nhập (học ViBJT): nút "Đăng nhập" ở đầu trang chủ; màn chọn gói VIP nói rõ phải đăng nhập và nút mua
+  mở đăng nhập trước, xong thì sang bước chuyển khoản; tab Tôi hiện tên/email tài khoản thay cho chữ "MiraiGo".
+- Phần video (phụ đề YouTube che hình, tua ra ngoài đoạn cắt) chuyển cho luồng video.
+- `npm run verify` xanh.

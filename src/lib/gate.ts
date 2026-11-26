@@ -4,7 +4,7 @@
  * Worker (worker/index.ts) trả về khi ID token Firebase có VIP còn hạn.
  * Chỉ dùng ở trang máy chủ (page.tsx), không import vào client.
  */
-import { FREE_VIDEO_LINES, storyFree } from "./access";
+import { FREE_STORY_SENTENCES, FREE_VIDEO_LINES, storyFree } from "./access";
 import type { StoryContent, TimedLine, VideoContent } from "./content-schema";
 
 /** Câu bị che: giữ mốc thời gian (để trình phát và đếm câu), bỏ hết chữ. */
@@ -13,7 +13,13 @@ function hiddenLine(l: TimedLine): TimedLine {
 }
 
 export type GatedVideo = VideoContent & { partial?: true };
-export type GatedStory = StoryContent & { partial?: true };
+export type GatedStory = StoryContent & {
+  partial?: true;
+  /** Số câu VIP còn lại sau phần đọc thử */
+  lockedCount?: number;
+  /** Giây kết thúc phần nghe thử trong audio cả chương (dừng phát ở đây) */
+  previewEnd?: number;
+};
 
 /** Video VIP: chỉ gửi rõ FREE_VIDEO_LINES câu đầu. */
 export function gateVideo(v: VideoContent): GatedVideo {
@@ -21,8 +27,22 @@ export function gateVideo(v: VideoContent): GatedVideo {
   return { ...v, partial: true, lines: v.lines.map((l, i) => (i < FREE_VIDEO_LINES ? l : hiddenLine(l))) };
 }
 
-/** Truyện VIP: không gửi câu nào và không gửi bài học; chỉ giữ thông tin bìa. */
+/**
+ * Truyện VIP: gửi rõ FREE_STORY_SENTENCES câu đầu để đọc và nghe thử, không gửi các câu sau và bài học.
+ * Audio cả chương vẫn là file tĩnh (đã biết, docs/deploy.md); trình phát dừng ở previewEnd.
+ */
 export function gateStory(s: StoryContent): GatedStory {
   if (storyFree(s)) return s;
-  return { ...s, partial: true, sentences: [], lesson: undefined, audioTrack: undefined };
+  const shown = s.sentences.slice(0, FREE_STORY_SENTENCES);
+  const end = shown[shown.length - 1]?.t?.[1];
+  const timed = !!s.audioTrack && shown.length > 0 && shown.every((x) => x.t) && typeof end === "number";
+  return {
+    ...s,
+    partial: true,
+    sentences: shown,
+    lockedCount: Math.max(0, s.sentences.length - shown.length),
+    lesson: undefined,
+    audioTrack: timed ? s.audioTrack : undefined,
+    previewEnd: timed ? end : undefined,
+  };
 }

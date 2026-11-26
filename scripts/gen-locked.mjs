@@ -45,5 +45,17 @@ for (const f of readdirSync(join(out, "_locked", "videos"))) {
     leaks++;
   }
 }
+// Truyện VIP: trang tĩnh chỉ mang FREE_STORY_SENTENCES (3) câu đầu (src/lib/access.ts).
+for (const f of readdirSync(join(out, "_locked", "stories"))) {
+  const st = JSON.parse(readFileSync(join(out, "_locked", "stories", f), "utf8"));
+  const probe = st.sentences.slice(3).find((x) => x.ja && x.ja.length >= 8 && !st.sentences.slice(0, 3).some((y) => y.ja.includes(x.ja)))?.ja;
+  if (!probe) continue;
+  for (const html of [join(out, "read", `${st.id}.html`), join(out, "read", `${st.id}.txt`)]) {
+    if (existsSync(html) && readFileSync(html, "utf8").includes(probe)) {
+      console.error(`gen-locked: LỘ nội dung VIP trong ${html}`);
+      leaks++;
+    }
+  }
+}
 if (leaks) process.exit(1);
 console.log(`gen-locked: ${videos} video VIP, ${stories} chương VIP -> out/_locked/`);

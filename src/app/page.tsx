@@ -9,6 +9,7 @@ import { LISTED_STORIES, STORY_INDEX, VIDEO_INDEX } from "../lib/catalog.generat
 import { pickText } from "../lib/i18n";
 import { SERIES, seriesOf } from "../lib/series";
 import { recommendFirst } from "../lib/shelves";
+import HeaderAccount from "../components/HeaderAccount";
 import {
   ACTIVITY_KEY,
   DECK_KEY,
@@ -115,12 +116,9 @@ export default function HomePage() {
   return (
     <div className="page">
       <header style={{ display: "flex", alignItems: "center", gap: 8 }}>
-        <span
-          aria-hidden
-          style={{ width: 28, height: 28, borderRadius: 8, background: "var(--navy)", display: "flex", alignItems: "center", justifyContent: "center" }}
-        >
-          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="var(--accent)" /></svg>
-        </span>
+        {/* Logo MiraiGo do Việt thiết kế (/mnt/project-files/miraigo/brand/logo-original-2048.jpeg) */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/logo-192.png" alt="" aria-hidden width={32} height={32} style={{ borderRadius: 8, display: "block" }} />
         <span style={{ fontSize: 18, fontWeight: 800, letterSpacing: "-.02em", color: "var(--navy)" }}>{ui.app.name}</span>
         {streak > 0 && (
           <span
@@ -135,6 +133,9 @@ export default function HomePage() {
             {fill(ui.home.streak, streak)}
           </span>
         )}
+        <span style={{ marginLeft: streak > 0 ? 0 : "auto" }}>
+          <HeaderAccount />
+        </span>
       </header>
 
       <h1 style={{ fontSize: 22, fontWeight: 800, letterSpacing: "-.02em", lineHeight: 1.25, marginTop: 14 }}>

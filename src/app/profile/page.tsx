@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import { useLang } from "../../components/LangProvider";
 import Paywall from "../../components/Paywall";
 import AccountCard from "../../components/AccountCard";
+import { useAccount } from "../../lib/account";
 import { LANGUAGE_CODES, LANGUAGE_NAMES, pickText } from "../../lib/i18n";
 import { VIMAI_APPS, writeReviewUrl } from "../../lib/vimai";
 
@@ -26,6 +27,10 @@ export default function ProfilePage() {
   const [paywall, setPaywall] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const reviewUrl = writeReviewUrl();
+  // Chưa nhập tên lúc onboarding: lấy tên/email của tài khoản đã đăng nhập thay cho chữ "MiraiGo"
+  const account = useAccount();
+  const accountName = account.status === "signed-in" ? account.user.name || account.user.email : null;
+  const displayName = profile.name || accountName || "";
 
   const row: React.CSSProperties = {
     display: "flex", alignItems: "center", gap: 12, width: "100%", padding: "0 16px", minHeight: 52,
@@ -47,10 +52,10 @@ export default function ProfilePage() {
 
       <div className="card" style={{ marginTop: 14, padding: 14, display: "flex", alignItems: "center", gap: 12 }}>
         <span style={{ width: 44, height: 44, borderRadius: "50%", background: "var(--navy)", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: 800, fontSize: 18, flexShrink: 0 }}>
-          {(profile.name || "M").slice(0, 1).toUpperCase()}
+          {(displayName || "M").slice(0, 1).toUpperCase()}
         </span>
         <div style={{ minWidth: 0 }}>
-          <div style={{ fontWeight: 700, fontSize: 16 }}>{profile.name || ui.app.name}</div>
+          <div style={{ fontWeight: 700, fontSize: 16 }}>{displayName || ui.app.name}</div>
           <div style={{ fontSize: 13, color: "var(--muted)" }}>{profile.vip ? ui.profile.planVip : ui.profile.planFree}</div>
         </div>
       </div>
