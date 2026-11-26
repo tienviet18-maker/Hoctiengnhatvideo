@@ -1063,3 +1063,16 @@ Lô này thêm 3 chương VIP chuẩn v2:
 - *As a Man Thinketh* (1903), thư của Seneca và thư của Jefferson (1825) thuộc phạm vi công cộng; 心の練習 và các cảnh đối thoại là sáng tác của ViMai.
 - QC từng chương ở `content/stories/life-*.qc.md`.
 - Kệ hiện có 22 chương: 3 chương N2, 10 chương N3 và 9 chương N4.
+
+## Kệ "Triết lý sống" (wisdom), lô 8 — 27/11/2026
+
+Lô này thêm 2 chương VIP chuẩn v2 và đưa kệ đạt mục tiêu 24 chương:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-smiles-3` | N3 | Smiles, *Self-Help*: "天は自ら助くる者を助く" và George Stephenson 18 tuổi mới vào lớp một ở trường đêm, sau thành "cha đẻ đường sắt"; không bao giờ là quá muộn | 3:28 |
+| `life-yukkuri-3` | N4 | Truyện gốc ViMai 小さな休み 3: Kenji so mình với ảnh khoe trên mạng của bạn cũ; hai cây trà trồng cùng năm, cây nhỏ lớn chậm nhưng vị sâu; so với mình năm ngoái | 3:15 |
+
+- *Self-Help* (1859) thuộc phạm vi công cộng; 小さな休み và các cảnh đối thoại là sáng tác của ViMai.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 24 chương: 3 chương N2, 11 chương N3 và 10 chương N4.
