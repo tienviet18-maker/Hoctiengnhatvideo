@@ -1043,3 +1043,17 @@ Lô này thêm 2 chương VIP chuẩn v2, đều là tập 2:
 - *Meditations* và sử của Cassius Dio thuộc phạm vi công cộng; 小さな休み là sáng tác của ViMai.
 - QC từng chương ở `content/stories/life-*.qc.md`.
 - Kệ hiện có 19 chương: 2 chương N2, 9 chương N3 và 8 chương N4.
+
+## Kệ "Triết lý sống" (wisdom), lô 7 — 27/11/2026
+
+Lô này thêm 3 chương VIP chuẩn v2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-ikari-3` | N4 | Truyện gốc ViMai 心の練習 3: đàn em 山田 quên email, Misaki suýt quát thì đếm đến mười (lời Jefferson, 1825) và nhận ra cậu ấy đang lo vì mẹ nhập viện; bên dưới cơn giận thường là một cảm xúc khác | 3:08 |
+| `life-allen-2` | N3 | James Allen, *As a Man Thinketh*: Nora trượt đội hợp xướng và nói bạn "may mắn"; Allen kể ngụ ngôn chàng trai nhà máy, "Dream lofty dreams…", suy nghĩ cần mục đích | 3:48 |
+| `life-seneca-3` | N2 | Seneca, thư 2 "Về việc đọc": Lucilius mua sách tràn lan mà chẳng nhớ gì; "người ở khắp nơi thì chẳng ở đâu", mỗi ngày tiêu hóa một ý, lời Epicurus về sự nghèo; nối sang chuyện lướt điện thoại ngày nay | 5:11 |
+
+- *As a Man Thinketh* (1903), thư của Seneca và thư của Jefferson (1825) thuộc phạm vi công cộng; 心の練習 và các cảnh đối thoại là sáng tác của ViMai.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 22 chương: 3 chương N2, 10 chương N3 và 9 chương N4.

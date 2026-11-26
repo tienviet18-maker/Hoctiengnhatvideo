@@ -8964,7 +8964,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Santo Giong",
    "pt": "São Giong",
    "my": "သန့်ဇုံ",
-   "th": "ถั่นห์โส่ง"
+   "th": "ถั่นห์โส่ง",
+   "si": "ශුද්ධ වීර යෝං"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9188,7 +9189,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bambu Seratus Ruas",
    "pt": "O bambu de cem nós",
    "my": "အဆစ်တစ်ရာ ဝါးပင်",
-   "th": "ไผ่ร้อยปล้อง"
+   "th": "ไผ่ร้อยปล้อง",
+   "si": "ගැට සීයක් තියෙන උණ ගහ"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9220,7 +9222,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai An Tiem dan Semangka",
    "pt": "Mai An Tiem e a melancia",
    "my": "မိုင်အန်တီယမ်နဲ့ ဖရဲသီး",
-   "th": "ไม อาน เตียม กับแตงโม"
+   "th": "ไม อาน เตียม กับแตงโม",
+   "si": "මායි අන් තියෙම්ගේ කොමඩු දූපත"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9348,7 +9351,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Makan Belimbing, Bayar dengan Emas",
    "pt": "Comer carambola, pagar em ouro",
    "my": "စောင်းလျားသီး စားပြီး ရွှေနဲ့ ဆပ်",
-   "th": "กินมะเฟือง ตอบแทนด้วยทอง"
+   "th": "กินมะเฟือง ตอบแทนด้วยทอง",
+   "si": "කාම්රංගා ගෙඩියක් කෑවොත් රත්තරන් දෙනවා"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9380,7 +9384,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Legenda Danau Pedang yang Dikembalikan",
    "pt": "A lenda do Lago da Espada Devolvida",
    "my": "ဓားပြန်အပ်ကန် ဒဏ္ဍာရီ",
-   "th": "ตำนานทะเลสาบคืนดาบ"
+   "th": "ตำนานทะเลสาบคืนดาบ",
+   "si": "කඩුව ආපහු දුන්න විලේ පුරාවෘත්තය"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9412,7 +9417,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Anak Naga, Cucu Peri",
    "pt": "Filhos do Dragão, Netos da Fada",
    "my": "နဂါးသားနှင့် နတ်သမီးမြေး",
-   "th": "ลูกมังกร หลานนางฟ้า"
+   "th": "ลูกมังกร หลานนางฟ้า",
+   "si": "මකරාගේ දරුවෝ, දේවඟනාවගේ මුනුපුරෝ"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9444,7 +9450,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Chử Đồng Tử dan Putri Tiên Dung",
    "pt": "Chử Đồng Tử e a princesa Tiên Dung",
    "my": "ချူးဒုံတူနှင့် တီယန်ဇုံမင်းသမီး",
-   "th": "จื่อ ด่ง ตื่อ กับเจ้าหญิงเตียน ซุง"
+   "th": "จื่อ ด่ง ตื่อ กับเจ้าหญิงเตียน ซุง",
+   "si": "චූ දොං තූ සහ තියෙන් යුං කුමරිය"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -10299,7 +10306,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Legenda Bánh Chưng dan Bánh Giầy",
    "pt": "A lenda do bánh chưng e do bánh giầy",
    "my": "ဘန်ချုန်နဲ့ ဘန်ဇိုင် ဒဏ္ဍာရီ",
-   "th": "ตำนานบั๋นจึงและบั๋นซาย"
+   "th": "ตำนานบั๋นจึงและบั๋นซาย",
+   "si": "බාන් චුං සහ බාන් යෙයි ජනප්‍රවාදය"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -10363,7 +10371,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Cuội, Lelaki di Bulan",
    "pt": "Cuội, o homem da lua",
    "my": "လထဲက ကွီဦးလေး",
-   "th": "กุ๋ยชายบนดวงจันทร์"
+   "th": "กุ๋ยชายบนดวงจันทร์",
+   "si": "සඳේ ඉන්න කුඔයි"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -10999,7 +11008,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Katak Menggugat Langit",
    "pt": "O sapo que processou o céu",
    "my": "မိုးနတ်ကို တိုင်တဲ့ ဖား",
-   "th": "คางคกฟ้องฟ้า"
+   "th": "คางคกฟ้องฟ้า",
+   "si": "දෙව්ලොවට නඩු කියපු ගෙම්බා"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -11031,7 +11041,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bidadari Keong Emas",
    "pt": "A fada do caracol",
    "my": "ခရုနတ်သမီး",
-   "th": "นางฟ้าหอยทาก"
+   "th": "นางฟ้าหอยทาก",
+   "si": "ගොළුබෙලි දේවඟනාව"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -11063,7 +11074,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Legenda Tiang Bambu Tết",
    "pt": "A lenda do bambu do Tết",
    "my": "တက်ပွဲ ဝါးတိုင် ဒဏ္ဍာရီ",
-   "th": "ตำนานเสาไม้ไผ่วันเต๊ด"
+   "th": "ตำนานเสาไม้ไผ่วันเต๊ด",
+   "si": "ටෙට් එකට වියට්නාම මිනිස්සු උණ කණුවක් හිටවන්නේ ඇයි"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -11159,7 +11171,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Legenda Danau Ba Be",
    "pt": "A lenda do lago Ba Be",
    "my": "ဘာဘေး ကန် ဒဏ္ဍာရီ",
-   "th": "ตำนานทะเลสาบบาเบ"
+   "th": "ตำนานทะเลสาบบาเบ",
+   "si": "බා බේ විලේ ජනප්‍රවාදය"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -11191,7 +11204,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Putri My Chau dan Trong Thuy",
    "pt": "A princesa My Chau e Trong Thuy",
    "my": "မီချောင်နဲ့ ချုံးသွေ့",
-   "th": "เจ้าหญิงหมีเจิวกับจ่องถวี"
+   "th": "เจ้าหญิงหมีเจิวกับจ่องถวี",
+   "si": "මී චාඋ කුමරියයි චොං තුයියි"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -13642,6 +13656,99 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/life-marcus-2/chapter.mp3",
    "durationSec": 217.7
+  }
+ },
+ {
+  "id": "life-ikari-3",
+  "titles": {
+   "vi": "Đếm đến mười",
+   "en": "Count to Ten",
+   "zh-Hans": "数到十",
+   "zh-Hant": "數到十",
+   "ko": "열까지 세기",
+   "tl": "Magbilang Hanggang Sampu",
+   "ne": "दससम्म गन",
+   "id": "Hitung Sampai Sepuluh",
+   "pt": "Conte até Dez",
+   "my": "ဆယ်အထိ ရေတွက်ပါ",
+   "th": "นับถึงสิบ"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 38,
+  "cover": "/covers/life-ikari-3.webp",
+  "series": {
+   "id": "life-ikari",
+   "index": 3
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-ikari-3/chapter.mp3",
+   "durationSec": 188.18
+  }
+ },
+ {
+  "id": "life-allen-2",
+  "titles": {
+   "vi": "Người biết mơ",
+   "en": "The Dreamer",
+   "zh-Hans": "做梦的人",
+   "zh-Hant": "做夢的人",
+   "ko": "꿈꾸는 사람",
+   "tl": "Ang Nangangarap",
+   "ne": "सपना देख्ने मान्छे",
+   "id": "Sang Pemimpi",
+   "pt": "Quem Sonha",
+   "my": "အိပ်မက်မက်သူ",
+   "th": "ผู้ที่ฝัน"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 42,
+  "cover": "/covers/life-allen-2.webp",
+  "series": {
+   "id": "life-allen",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-allen-2/chapter.mp3",
+   "durationSec": 227.98
+  }
+ },
+ {
+  "id": "life-seneca-3",
+  "titles": {
+   "vi": "Người ở khắp nơi",
+   "en": "Everywhere Is Nowhere",
+   "zh-Hans": "无处不在的人",
+   "zh-Hant": "無處不在的人",
+   "ko": "어디에나 있는 사람은",
+   "tl": "Ang Nasa Lahat ng Dako",
+   "ne": "जताततै हुने मान्छे",
+   "id": "Yang Ada di Mana-mana",
+   "pt": "Quem Está em Toda Parte",
+   "my": "နေရာတိုင်းမှာ ရှိသူ",
+   "th": "คนที่อยู่ทุกที่"
+  },
+  "level": "N2",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 53,
+  "cover": "/covers/life-seneca-3.webp",
+  "series": {
+   "id": "life-seneca",
+   "index": 3
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-seneca-3/chapter.mp3",
+   "durationSec": 311.18
   }
  },
  {
