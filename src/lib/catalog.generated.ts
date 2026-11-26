@@ -11424,6 +11424,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-kieu-4/chapter.mp3",
    "durationSec": 386.52
   }
+ },
+ {
+  "id": "furusato-vn-quynh-1",
+  "titles": {
+   "vi": "Trạng Quỳnh (1): Món mầm đá",
+   "en": "Trang Quynh (1): Stone Sprouts",
+   "zh-Hans": "状元琼（1）：石头芽",
+   "zh-Hant": "狀元瓊（1）：石頭芽",
+   "ko": "짱 뀐 (1): 돌 새싹 요리",
+   "tl": "Trang Quynh (1): Usbong ng Bato",
+   "ne": "ट्राङ क्विन (१): ढुङ्गाको टुसा",
+   "id": "Trang Quynh (1): Tunas Batu",
+   "pt": "Trang Quynh (1): Brotos de Pedra",
+   "my": "ချန်းကွင် (၁): ကျောက်ညှောက်ဟင်း",
+   "th": "จ่างกวิ่ญ (1): หน่อหิน"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-quynh-1.webp",
+  "series": {
+   "id": "furusato-vn-quynh",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-quynh-1/chapter.mp3",
+   "durationSec": 305.616
+  }
  }
 ];
 
