@@ -15,6 +15,7 @@ export const LANGUAGE_CODES = [
   "pt",
   "my",
   "th",
+  "si",
 ] as const;
 
 export type LanguageCode = (typeof LANGUAGE_CODES)[number];

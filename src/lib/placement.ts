@@ -30,6 +30,7 @@ export const PLACEMENT: PlacementItem[] = [
       pt: "Era uma vez uma menina de capuz vermelho.",
       my: "ရှေးရှေးတုန်းက ခေါင်းစွပ်အနီဆောင်းထားတဲ့ ကောင်မလေးတစ်ယောက် ရှိခဲ့တယ်။",
       th: "กาลครั้งหนึ่ง มีเด็กหญิงคนหนึ่งสวมผ้าคลุมศีรษะสีแดง",
+      si: "එක් කාලයක, රතු හිස්වැස්මක් පැළඳි කුඩා දැරියක් සිටියාය.",
     },
   },
   {
@@ -49,6 +50,7 @@ export const PLACEMENT: PlacementItem[] = [
       pt: "Fiz uma entrevista para um trabalho de meio período numa loja de conveniência.",
       my: "ကျွန်တော် စတိုးဆိုင်မှာ အချိန်ပိုင်းအလုပ်အတွက် အင်တာဗျူး ဖြေခဲ့တယ်။",
       th: "ฉันไปสัมภาษณ์งานพาร์ทไทม์ที่ร้านสะดวกซื้อ",
+      si: "මම පහසු වෙළඳසැලක අර්ධකාලීන රැකියාවක් සඳහා සම්මුඛ පරීක්ෂණයකට ගියා.",
     },
   },
   {
@@ -68,6 +70,7 @@ export const PLACEMENT: PlacementItem[] = [
       pt: "No país do sul, não neva.",
       my: "တောင်ဘက်နိုင်ငံမှာ နှင်းမကျဘူး။",
       th: "ในดินแดนทางใต้ หิมะไม่ตก",
+      si: "දකුණු දේශයේ හිම වැටෙන්නේ නැහැ.",
     },
   },
 ];
