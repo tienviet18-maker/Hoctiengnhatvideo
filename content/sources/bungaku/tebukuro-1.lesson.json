@@ -1,0 +1,180 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜ようとする",
+   "example": 1,
+   "meaning": {
+    "vi": "Định ~, sắp sửa ~ (động từ thể ý chí + とする).",
+    "en": "Try to ~, be about to ~ (volitional + とする).",
+    "zh-Hans": "想要……，正要……（意志形＋とする）。",
+    "ko": "~하려고 하다 (의지형 + とする).",
+    "tl": "Susubukang ~ (volitional + とする).",
+    "ne": "~ गर्न खोज्नु (इच्छार्थक + とする)।",
+    "id": "Hendak ~ (bentuk kehendak + とする).",
+    "pt": "Tentar ~ (volitivo + とする).",
+    "my": "~ ဖို့ လုပ် (volitional + とする)။",
+    "th": "กำลังจะ ~ (รูปเจตนา + とする)"
+   }
+  },
+  {
+   "pattern": "〜たことがない",
+   "example": 10,
+   "meaning": {
+    "vi": "Chưa từng ~ (động từ thể た + ことがない).",
+    "en": "Have never ~ (verb た-form + ことがない).",
+    "zh-Hans": "从来没……过（た形＋ことがない）。",
+    "ko": "~한 적이 없다 (た형 + ことがない).",
+    "tl": "Hindi pa kailanman ~ (た-form + ことがない).",
+    "ne": "कहिल्यै ~ गरेको छैन (た रूप + ことがない)।",
+    "id": "Belum pernah ~ (bentuk た + ことがない).",
+    "pt": "Nunca ter ~ (forma た + ことがない).",
+    "my": "~ ဖူးဘူး (た ပုံစံ + ことがない)။",
+    "th": "ไม่เคย ~ (รูป た + ことがない)"
+   }
+  },
+  {
+   "pattern": "〜ことにする",
+   "example": 39,
+   "meaning": {
+    "vi": "Quyết định ~ (thể từ điển + ことにする).",
+    "en": "Decide to ~ (dictionary form + ことにする).",
+    "zh-Hans": "决定……（辞书形＋ことにする）。",
+    "ko": "~하기로 하다 (사전형 + ことにする).",
+    "tl": "Magpasyang ~ (dictionary form + ことにする).",
+    "ne": "~ गर्ने निर्णय गर्नु (शब्दकोश रूप + ことにする)।",
+    "id": "Memutuskan ~ (bentuk kamus + ことにする).",
+    "pt": "Decidir ~ (forma de dicionário + ことにする).",
+    "my": "~ ဖို့ ဆုံးဖြတ် (dictionary + ことにする)။",
+    "th": "ตัดสินใจ ~ (รูปพจนานุกรม + ことにする)"
+   }
+  },
+  {
+   "pattern": "〜たり〜たりする",
+   "example": 43,
+   "meaning": {
+    "vi": "Lúc thì ~, lúc thì ~ (liệt kê hành động).",
+    "en": "Do things like ~ and ~ (listing actions).",
+    "zh-Hans": "又……又……（列举动作）。",
+    "ko": "~하기도 하고 ~하기도 하다.",
+    "tl": "Gaya ng ~ at ~ (listahan ng kilos).",
+    "ne": "~ गर्ने, ~ गर्ने (क्रिया सूची)।",
+    "id": "~ dan ~ (daftar kegiatan).",
+    "pt": "Fazer coisas como ~ e ~.",
+    "my": "~ လိုက် ~ လိုက် လုပ် (လုပ်ရပ်စာရင်း)။",
+    "th": "ทั้ง ~ บ้าง ~ บ้าง (ลำดับการกระทำ)"
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "ja": "子ぎつねは、なぜ目に何かささったと思いましたか。",
+   "choices": [
+    "木から落ちたから",
+    "けがをしたから",
+    "雪の強い光を見たから",
+    "夜で暗かったから"
+   ],
+   "answer": 2,
+   "explain": {
+    "vi": "Vì nó chưa từng thấy tuyết, ánh sáng mạnh làm nó tưởng vậy (câu 11–12).",
+    "en": "It had never seen snow; the strong light fooled it (lines 11–12).",
+    "zh-Hans": "它没见过雪，强光让它这样以为（第11–12句）。",
+    "ko": "눈을 본 적이 없어 강한 빛 때문에 (11–12번).",
+    "tl": "Hindi pa nakakita ng niyebe; liwanag ang dahilan (11–12).",
+    "ne": "हिउँ नदेखेकोले कडा उज्यालोले (११–१२)।",
+    "id": "Belum pernah lihat salju; karena cahaya terang (11–12).",
+    "pt": "Nunca viu neve; foi a luz forte (11–12).",
+    "my": "နှင်း မမြင်ဖူးလို့ အလင်းပြင်းကြောင့် (၁၁–၁၂)။",
+    "th": "ไม่เคยเห็นหิมะ แสงแรงทำให้คิดอย่างนั้น (11–12)"
+   }
+  },
+  {
+   "ja": "子ぎつねの手は、なぜ冷たくなりましたか。",
+   "choices": [
+    "雪の中で遊んだから",
+    "川に入ったから",
+    "手袋をなくしたから",
+    "魚をとったから"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Vì chơi trong tuyết (câu 13–20).",
+    "en": "Because it played in the snow (lines 13–20).",
+    "zh-Hans": "因为在雪里玩（第13–20句）。",
+    "ko": "눈 속에서 놀아서 (13–20번).",
+    "tl": "Naglaro sa niyebe (13–20).",
+    "ne": "हिउँमा खेलेकोले (१३–२०)।",
+    "id": "Karena bermain di salju (13–20).",
+    "pt": "Brincou na neve (13–20).",
+    "my": "နှင်းထဲ ကစားလို့ (၁၃–၂၀)။",
+    "th": "เพราะเล่นในหิมะ (13–20)"
+   }
+  },
+  {
+   "ja": "母さんぎつねの足は、なぜ町の前で止まりましたか。",
+   "choices": [
+    "足がいたかったから",
+    "道がわからなかったから",
+    "お金がなかったから",
+    "昔、町でこわい目にあったから"
+   ],
+   "answer": 3,
+   "explain": {
+    "vi": "Cáo mẹ nhớ lại chuyện đáng sợ hồi xưa ở thị trấn (câu 34–37).",
+    "en": "She remembered a scary time in town long ago (lines 34–37).",
+    "zh-Hans": "她想起以前在镇上遇到的可怕的事（第34–37句）。",
+    "ko": "옛날 마을에서 무서운 일을 당해서 (34–37번).",
+    "tl": "Naalala ang nakakatakot na nangyari noon (34–37).",
+    "ne": "पहिले सहरमा डरलाग्दो घटना भएकोले (३४–३७)।",
+    "id": "Teringat pengalaman menakutkan dulu (34–37).",
+    "pt": "Lembrou um susto antigo na cidade (34–37).",
+    "my": "အရင်က မြို့မှာ ကြောက်စရာ ကြုံခဲ့လို့ (၃၄–၃၇)။",
+    "th": "นึกถึงเรื่องน่ากลัวในเมืองเมื่อก่อน (34–37)"
+   }
+  },
+  {
+   "ja": "母さんぎつねは、子ぎつねの片方の手をどうしましたか。",
+   "choices": [
+    "毛糸でつつみました",
+    "人間の子どもの手にしました",
+    "雪であらいました",
+    "かくしました"
+   ],
+   "answer": 1,
+   "explain": {
+    "vi": "Cáo mẹ biến nó thành tay em bé loài người (câu 42–43).",
+    "en": "She turned it into a human child's hand (lines 42–43).",
+    "zh-Hans": "她把它变成了人类孩子的手（第42–43句）。",
+    "ko": "사람 아이의 손으로 만들었다 (42–43번).",
+    "tl": "Ginawa niyang kamay ng batang tao (42–43).",
+    "ne": "मान्छेको बच्चाको हात बनाइदिई (४२–४३)।",
+    "id": "Mengubahnya jadi tangan anak manusia (42–43).",
+    "pt": "Transformou em mão de criança humana (42–43).",
+    "my": "လူကလေးလက် ဖြစ်အောင် လုပ်ပေးတယ် (၄၂–၄၃)။",
+    "th": "เปลี่ยนเป็นมือเด็กมนุษย์ (42–43)"
+   }
+  },
+  {
+   "ja": "ぼうし屋では、どちらの手を出すように言われましたか。",
+   "choices": [
+    "きつねの手",
+    "両方の手",
+    "人間の手",
+    "手は出さない"
+   ],
+   "answer": 2,
+   "explain": {
+    "vi": "Phải đưa bàn tay người (câu 49–51).",
+    "en": "The human hand (lines 49–51).",
+    "zh-Hans": "要伸出人的手（第49–51句）。",
+    "ko": "사람 손 (49–51번).",
+    "tl": "Ang kamay ng tao (49–51).",
+    "ne": "मान्छेको हात (४९–५१)।",
+    "id": "Tangan manusia (49–51).",
+    "pt": "A mão humana (49–51).",
+    "my": "လူ့လက် (၄၉–၅၁)။",
+    "th": "มือมนุษย์ (49–51)"
+   }
+  }
+ ]
+}

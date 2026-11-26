@@ -808,3 +808,10 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 ## Kệ truyện cổ thế giới: Nhạc sĩ thành Bremen — 27/11/2026
 - `world-bremen` (N5, miễn phí, 42 câu) theo Grimm 1857; gói cũ `bremen-musicians` ẩn, trỏ sang bản mới. Bìa motif `bremen`.
 - Sửa glossary kệ world: はさみ = cái kéo (trước bị gán nghĩa はさみうち), thread Sinhala báo.
+## Văn học Nhật v2: 手袋を買いに 2 tập (N4), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch2`. `tebukuro-1` (55 câu, 1.360 ký tự, harder 7,0%, audio 4,4 phút) và `tebukuro-2` (54 câu, 1.390 ký tự, harder 12,0%, audio 4,5 phút).
+- Phỏng theo 新美南吉 (mất 1943, xuất bản 1943; public domain ở Nhật, và ở Mỹ vì tác giả mất trước 1946). Giữ câu kết gốc 「ほんとうに人間はいいものかしら」.
+- Giọng: Aoede kể; 子ぎつね Neural2-B cao, 母さんぎつね Neural2-B trầm, ぼうし屋 Neural2-C, mẹ con nhà người Neural2-B.
+- Bìa: motif `teb1`/`teb2` (đêm tuyết, đèn phố, găng đỏ). Tập 1 miễn phí.
+- Ẩn gói cũ `tebukuro-o-kai-ni` → `tebukuro-1`. `npm run verify` xanh.
