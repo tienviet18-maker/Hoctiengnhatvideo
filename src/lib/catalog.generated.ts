@@ -11130,6 +11130,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-sodo-3/chapter.mp3",
    "durationSec": 393.048
   }
+ },
+ {
+  "id": "furusato-vn-sodo-4",
+  "titles": {
+   "vi": "Số đỏ (4 – hết): Xuân Tóc Đỏ cứu quốc",
+   "en": "Dumb Luck (4 – end): Red-Haired Xuân Saves the Nation",
+   "zh-Hans": "红运（4·完）：红发阿春救国",
+   "zh-Hant": "紅運（4·完）：紅髮阿春救國",
+   "ko": "소도 (4·끝): 빨간 머리 쑤언, 나라를 구하다",
+   "tl": "Dumb Luck (4 – wakas): Iniligtas ni Xuân ang Bayan",
+   "ne": "सो दो (४ – अन्तिम): रातो कपाले सुआनले देश बचाए",
+   "id": "Số Đỏ (4 – tamat): Xuân Rambut Merah Menyelamatkan Negeri",
+   "pt": "Số Đỏ (4 – fim): Xuân, o ruivo, salva a nação",
+   "my": "ဆော်ဒေါ် (၄ – ဇာတ်သိမ်း): ဆံပင်နီ ဆွမ် တိုင်းပြည်ကို ကယ်တင်",
+   "th": "โซโด (4 – จบ): ซวนผมแดงกู้ชาติ"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-sodo-4.webp",
+  "series": {
+   "id": "furusato-vn-sodo",
+   "index": 4
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-sodo-4/chapter.mp3",
+   "durationSec": 352.272
+  }
  }
 ];
 

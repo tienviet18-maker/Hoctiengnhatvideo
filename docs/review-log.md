@@ -476,7 +476,8 @@ Việt chọn: Số đỏ và Truyện Kiều (văn xuôi) ở N2, Hoàng Lê nh
 |---|---|---|---|---|
 | furusato-vn-sodo-1 | 赤毛のスアン | 61 | 7,2 phút | 3a085a8 |
 | furusato-vn-sodo-2 | ドクター・スアン | 61 | 6,6 phút | 43b51bd (+ commit kế: đổi ファン→ファーン) |
-| furusato-vn-sodo-3 | 幸せな葬式 | 61 | 6,6 phút | xem commit kế |
+| furusato-vn-sodo-3 | 幸せな葬式 | 61 | 6,6 phút | 10a4284 |
+| furusato-vn-sodo-4 | 救国の英雄 (hết; so sánh 『吾輩は猫である』) | 61 | 5,9 phút | xem commit kế |
 
 - Bìa: thêm motif `tennis`, `sododoctor`. Font Chokokutai và Tsukimi Rounded thiếu nhiều chữ Hán (chữ bị chồng lên nhau), nên không dùng cho bìa có kanji.
 - Nguồn tóm tắt các chương không thống nhất về cái chết của cụ cố tổ (tiếng hô "ông Phán mọc sừng"; ông Phán đưa 5 hay 10 đồng). Claude theo bản phổ biến nhất: tờ 5 đồng gấp tư.
