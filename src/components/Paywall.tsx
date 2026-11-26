@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import { useLang } from "./LangProvider";
 import AccountSheet from "./AccountSheet";
 import { useAccount } from "../lib/account";
+import { PRELAUNCH } from "../lib/firebase-config";
 import VipWelcome from "./VipWelcome";
 import WebVipCheckout from "./WebVipCheckout";
 import { formatVnd, refreshVip, WEB_VIP_LAUNCH_ENDS_AT, WEB_VIP_PRICES, type WebVipPrice } from "../lib/web-vip";
@@ -137,9 +138,15 @@ function PaywallWeb({ onClose, onUnlocked }: { onClose: () => void; onUnlocked?:
                 {ui.webvip.needSignIn}
               </p>
             )}
-            <button type="button" className="btn-primary" style={{ marginTop: 14 }} onClick={() => (signedIn ? setStep("pay") : setSignIn(true))}>
-              {signedIn ? ui.webvip.buy : `${ui.account.signIn} · ${ui.webvip.buy}`}
-            </button>
+            {PRELAUNCH ? (
+              <button type="button" className="btn-primary" style={{ marginTop: 14, opacity: 0.55 }} disabled>
+                {ui.webvip.salesSoon}
+              </button>
+            ) : (
+              <button type="button" className="btn-primary" style={{ marginTop: 14 }} onClick={() => (signedIn ? setStep("pay") : setSignIn(true))}>
+                {signedIn ? ui.webvip.buy : `${ui.account.signIn} · ${ui.webvip.buy}`}
+              </button>
+            )}
             <button type="button" className="btn-ghost" style={{ marginTop: 10 }} onClick={onClose}>
               {ui.paywall.later}
             </button>
