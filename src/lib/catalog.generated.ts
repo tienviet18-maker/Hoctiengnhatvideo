@@ -10189,6 +10189,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-ph-magayon-1/chapter.mp3",
    "durationSec": 324.432
   }
+ },
+ {
+  "id": "furusato-mm-mahagiri-1",
+  "titles": {
+   "vi": "Thần núi Mahagiri",
+   "en": "Mahagiri, Lord of the Great Mountain",
+   "zh-Hans": "大山之神马哈基利",
+   "zh-Hant": "大山之神馬哈基利",
+   "ko": "큰 산의 신 마하기리",
+   "tl": "Mahagiri, Panginoon ng Malaking Bundok",
+   "ne": "महागिरि, ठूलो पहाडका देवता",
+   "id": "Mahagiri, Dewa Gunung Agung",
+   "pt": "Mahagiri, Senhor da Grande Montanha",
+   "my": "မဟာဂီရိ နတ်",
+   "th": "มหาคีรี เทพแห่งขุนเขา"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 63,
+  "cover": "/covers/furusato-mm-mahagiri-1.webp",
+  "series": {
+   "id": "furusato-mm-mahagiri",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "MM",
+  "audioTrack": {
+   "src": "/audio/furusato-mm-mahagiri-1/chapter.mp3",
+   "durationSec": 328.584
+  }
  }
 ];
 
