@@ -1,0 +1,3770 @@
+{
+ "kind": "story",
+ "id": "life-rongo-2",
+ "titles": {
+  "vi": "Bốn mươi tuổi không còn mê",
+  "en": "At Forty, No More Doubts",
+  "zh-Hans": "四十而不惑",
+  "zh-Hant": "四十而不惑",
+  "ko": "마흔에는 흔들리지 않는다",
+  "tl": "Sa Apatnapu, Wala Nang Pag-aalinlangan",
+  "ne": "चालीसमा दुविधा छैन",
+  "id": "Empat Puluh Tak Lagi Ragu",
+  "pt": "Aos Quarenta, Sem Dúvidas",
+  "my": "အသက်လေးဆယ်တွင် မဝေခွဲတော့",
+  "th": "สี่สิบไม่หวั่นไหว"
+ },
+ "level": "N4",
+ "topic": "philosophy",
+ "source": "original",
+ "cover": "/covers/life-rongo-2.webp",
+ "free": false,
+ "standard": 2,
+ "series": {
+  "id": "life-rongo",
+  "index": 2
+ },
+ "shelf": "wisdom",
+ "audioTrack": {
+  "src": "/audio/life-rongo-2/chapter.mp3",
+  "durationSec": 177.91
+ },
+ "lesson": {
+  "grammarPoints": [
+   {
+    "pattern": "〜ても",
+    "meaning": {
+     "vi": "Dù … thì vẫn … (điều kiện ngược, kết quả không đổi). V-て / Aい→くて / N で + も. 「お金がなくても、学ぶ楽しさを忘れない」. Đời sống: 「雨が降っても、行きます」, 「高くても、買いたい」.",
+     "en": "Even if … (concessive; the result stays the same). V-て / Aい→くて / Nで + も. 「お金がなくても、学ぶ楽しさを忘れない」. Everyday: 「雨が降っても、行きます」, 「高くても、買いたい」.",
+     "zh-Hans": "即使……也（让步）。V-て / Aい→くて / Nで + も。「お金がなくても、学ぶ楽しさを忘れない」。生活例：「雨が降っても、行きます」。",
+     "zh-Hant": "即使……也（讓步）。V-て / Aい→くて / Nで + も。「お金がなくても、学ぶ楽しさを忘れない」。生活例：「雨が降っても、行きます」。",
+     "ko": "…해도 (양보). V-て / Aい→くて / Nで + も. 「お金がなくても、学ぶ楽しさを忘れない」. 생활: 「雨が降っても、行きます」.",
+     "tl": "Kahit … (pagsalungat). V-て / Aい→くて / Nで + も. 「お金がなくても、学ぶ楽しさを忘れない」. Halimbawa: 「雨が降っても、行きます」.",
+     "ne": "… भए पनि। V-て / Aい→くて / Nで + も। 「お金がなくても、学ぶ楽しさを忘れない」। दैनिक: 「雨が降っても、行きます」।",
+     "id": "Meskipun … (konsesif). V-て / Aい→くて / Nで + も. 「お金がなくても、学ぶ楽しさを忘れない」. Sehari-hari: 「雨が降っても、行きます」.",
+     "pt": "Mesmo que … (concessiva). V-て / Aい→くて / Nで + も. 「お金がなくても、学ぶ楽しさを忘れない」. Dia a dia: 「雨が降っても、行きます」.",
+     "my": "… ပေမယ့် (ဆန့်ကျင်ဘက်)။ V-て / Aい→くて / Nで + も။ 「お金がなくても、学ぶ楽しさを忘れない」။ နေ့စဉ်: 「雨が降っても、行きます」။",
+     "th": "แม้ว่า … ก็ V-て / Aい→くて / Nで + も 「お金がなくても、学ぶ楽しさを忘れない」 ชีวิตประจำวัน: 「雨が降っても、行きます」"
+    },
+    "example": 7
+   },
+   {
+    "pattern": "〜すぎる",
+    "meaning": {
+     "vi": "Quá … (vượt mức cần thiết). V-ます bỏ ます / Aい bỏ い / Aな + すぎる. 「なんでもやりすぎます」. Đời sống: 「食べすぎて、おなかが痛い」, 「この靴は大きすぎる」.",
+     "en": "Too much … (beyond what is needed). V stem / Aい minus い / Aな + すぎる. 「なんでもやりすぎます」. Everyday: 「食べすぎて、おなかが痛い」, 「この靴は大きすぎる」.",
+     "zh-Hans": "太……，过于……。V-ます词干 / Aい去い / Aな + すぎる。「なんでもやりすぎます」。生活例：「食べすぎて、おなかが痛い」。",
+     "zh-Hant": "太……，過於……。V-ます詞幹 / Aい去い / Aな + すぎる。「なんでもやりすぎます」。生活例：「食べすぎて、おなかが痛い」。",
+     "ko": "너무 …하다. V-ます형 / Aい에서 い 빼고 / Aな + すぎる. 「なんでもやりすぎます」. 생활: 「食べすぎて、おなかが痛い」.",
+     "tl": "Sobra …. V stem / Aい alis い / Aな + すぎる. 「なんでもやりすぎます」. Halimbawa: 「食べすぎて、おなかが痛い」.",
+     "ne": "धेरै बढी …। V-ます मूल / Aい बाट い हटाएर / Aな + すぎる। 「なんでもやりすぎます」। दैनिक: 「食べすぎて、おなかが痛い」।",
+     "id": "Terlalu …. V-ます tanpa ます / Aい tanpa い / Aな + すぎる. 「なんでもやりすぎます」. Sehari-hari: 「食べすぎて、おなかが痛い」.",
+     "pt": "Demais …. Radical V / Aい sem い / Aな + すぎる. 「なんでもやりすぎます」. Dia a dia: 「食べすぎて、おなかが痛い」.",
+     "my": "အလွန် … လွန်းသည်။ V-ます ပင်စည် / Aい မှ い ဖြုတ် / Aな + すぎる။ 「なんでもやりすぎます」။ နေ့စဉ်: 「食べすぎて、おなかが痛い」။",
+     "th": "… เกินไป V-ます ตัด ます / Aい ตัด い / Aな + すぎる 「なんでもやりすぎます」 ชีวิตประจำวัน: 「食べすぎて、おなかが痛い」"
+    },
+    "example": 12
+   },
+   {
+    "pattern": "〜ようになる",
+    "meaning": {
+     "vi": "Trở nên có thể … / dần dần … (thay đổi theo thời gian). V thể khả năng / V-る + ようになる. 「自分の足で立てるようになった」. Phủ định: V-なく + なる 「迷わなくなった」. Đời sống: 「日本語が話せるようになった」, 「朝早く起きるようになった」.",
+     "en": "Come to (be able to) … (change over time). Potential / V-る + ようになる. 「自分の足で立てるようになった」. Negative: V-なく + なる 「迷わなくなった」. Everyday: 「日本語が話せるようになった」, 「朝早く起きるようになった」.",
+     "zh-Hans": "变得能……（随时间变化）。可能形 / V-る + ようになる。「自分の足で立てるようになった」。否定：「迷わなくなった」。生活例：「日本語が話せるようになった」。",
+     "zh-Hant": "變得能……。可能形 / V-る + ようになる。「自分の足で立てるようになった」。否定：「迷わなくなった」。生活例：「日本語が話せるようになった」。",
+     "ko": "…하게 되다 (시간에 따른 변화). 가능형 / V-る + ようになる. 「自分の足で立てるようになった」. 부정: 「迷わなくなった」. 생활: 「日本語が話せるようになった」.",
+     "tl": "Nagiging kaya nang …. Potential / V-る + ようになる. 「自分の足で立てるようになった」. Negatibo: 「迷わなくなった」. Halimbawa: 「日本語が話せるようになった」.",
+     "ne": "… गर्न सक्ने हुनु (समयसँगै परिवर्तन)। सम्भाव्य रूप / V-る + ようになる। 「自分の足で立てるようになった」। नकारात्मक: 「迷わなくなった」। दैनिक: 「日本語が話せるようになった」।",
+     "id": "Menjadi bisa … (perubahan seiring waktu). Bentuk potensial / V-る + ようになる. 「自分の足で立てるようになった」. Negatif: 「迷わなくなった」. Sehari-hari: 「日本語が話せるようになった」.",
+     "pt": "Passar a (conseguir) … (mudança com o tempo). Potencial / V-る + ようになる. 「自分の足で立てるようになった」. Negativo: 「迷わなくなった」. Dia a dia: 「日本語が話せるようになった」.",
+     "my": "… နိုင်လာသည် (အချိန်နှင့်အမျှ ပြောင်းလဲ)။ စွမ်းရည်ပုံစံ / V-る + ようになる။ 「自分の足で立てるようになった」။ အငြင်း: 「迷わなくなった」။ နေ့စဉ်: 「日本語が話せるようになった」။",
+     "th": "กลายเป็น … ได้ (เปลี่ยนตามเวลา) รูปสามารถ / V-る + ようになる 「自分の足で立てるようになった」 ปฏิเสธ: 「迷わなくなった」 ชีวิตประจำวัน: 「日本語が話せるようになった」"
+    },
+    "example": 25
+   }
+  ],
+  "quiz": [
+   {
+    "ja": "顔回は、どんな生活をしていましたか。",
+    "choices": [
+     "お金持ちで、毎日パーティーをしていた",
+     "まずしかったが、いつもにこにこして本を読んでいた",
+     "まずしくて、毎日もんくを言っていた"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Câu 2–6: nhà nghèo, chỉ một bát cơm, nhưng lúc nào cũng tươi cười đọc sách.",
+     "en": "Sentences 2–6: poor, one bowl of rice, but always smiling and reading.",
+     "zh-Hans": "第2–6句：家贫，只有一碗饭，却总是笑眯眯地读书。",
+     "zh-Hant": "第2–6句：家貧，卻總是笑瞇瞇地讀書。",
+     "ko": "2–6번 문장: 가난했지만 늘 싱글벙글 책을 읽었다.",
+     "tl": "Pangungusap 2–6: mahirap pero laging nakangiting nagbabasa.",
+     "ne": "वाक्य २–६: गरिब तर सधैँ मुस्कुराउँदै पढ्थे।",
+     "id": "Kalimat 2–6: miskin tapi selalu tersenyum membaca.",
+     "pt": "Frases 2–6: pobre, mas sempre sorrindo e lendo.",
+     "my": "စာကြောင်း ၂–၆: ဆင်းရဲသော်လည်း အမြဲပြုံးပြီး စာဖတ်သည်။",
+     "th": "ประโยคที่ 2–6: ยากจนแต่ยิ้มแย้มอ่านหนังสือเสมอ"
+    },
+    "jaFurigana": [
+     {
+      "surface": "顔回",
+      "reading": "がんかい"
+     },
+     {
+      "surface": "は、どんな",
+      "reading": ""
+     },
+     {
+      "surface": "生活",
+      "reading": "せいかつ"
+     },
+     {
+      "surface": "をしていましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "お",
+       "reading": ""
+      },
+      {
+       "surface": "金持",
+       "reading": "かねも"
+      },
+      {
+       "surface": "ちで、",
+       "reading": ""
+      },
+      {
+       "surface": "毎日",
+       "reading": "まいにち"
+      },
+      {
+       "surface": "パーティーをしていた",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "まずしかったが、いつもにこにこして",
+       "reading": ""
+      },
+      {
+       "surface": "本",
+       "reading": "ほん"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "読",
+       "reading": "よ"
+      },
+      {
+       "surface": "んでいた",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "まずしくて、",
+       "reading": ""
+      },
+      {
+       "surface": "毎日",
+       "reading": "まいにち"
+      },
+      {
+       "surface": "もんくを",
+       "reading": ""
+      },
+      {
+       "surface": "言",
+       "reading": "い"
+      },
+      {
+       "surface": "っていた",
+       "reading": ""
+      }
+     ]
+    ]
+   },
+   {
+    "ja": "孔子は「やりすぎる」ことについて、何と言いましたか。",
+    "choices": [
+     "やりすぎるのは、いちばんいい",
+     "やりすぎるのは、足りないのと同じだ",
+     "やりすぎても、足りなくても、どちらでもいい"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Câu 14: làm quá cũng giống như làm chưa tới.",
+     "en": "Sentence 14: going too far is the same as falling short.",
+     "zh-Hans": "第14句：过犹不及。",
+     "zh-Hant": "第14句：過猶不及。",
+     "ko": "14번 문장: 과유불급.",
+     "tl": "Pangungusap 14: ang sobra ay kapareho ng kulang.",
+     "ne": "वाक्य १४: बढी गर्नु कम गर्नुजस्तै।",
+     "id": "Kalimat 14: berlebihan sama dengan kurang.",
+     "pt": "Frase 14: exagerar é o mesmo que faltar.",
+     "my": "စာကြောင်း ၁၄: လွန်တာ မလုံလောက်တာနဲ့ အတူတူ။",
+     "th": "ประโยคที่ 14: มากไปก็เหมือนน้อยไป"
+    },
+    "jaFurigana": [
+     {
+      "surface": "孔子",
+      "reading": "こうし"
+     },
+     {
+      "surface": "は「やりすぎる」ことについて、",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "と",
+      "reading": ""
+     },
+     {
+      "surface": "言",
+      "reading": "い"
+     },
+     {
+      "surface": "いましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "やりすぎるのは、いちばんいい",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "やりすぎるのは、",
+       "reading": ""
+      },
+      {
+       "surface": "足",
+       "reading": "た"
+      },
+      {
+       "surface": "りないのと",
+       "reading": ""
+      },
+      {
+       "surface": "同",
+       "reading": "おな"
+      },
+      {
+       "surface": "じだ",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "やりすぎても、",
+       "reading": ""
+      },
+      {
+       "surface": "足",
+       "reading": "た"
+      },
+      {
+       "surface": "りなくても、どちらでもいい",
+       "reading": ""
+      }
+     ]
+    ]
+   },
+   {
+    "ja": "「温故知新」は、どういう意味ですか。",
+    "choices": [
+     "古いことをよく勉強すると、新しいことが見えてくる",
+     "古いものは、すてたほうがいい",
+     "新しいことだけを勉強する"
+    ],
+    "answer": 0,
+    "explain": {
+     "vi": "Câu 21–23: học kỹ cái cũ thì thấy được cái mới.",
+     "en": "Sentences 21–23: study the old well, and the new comes into view.",
+     "zh-Hans": "第21–23句：温习旧的，就能看见新的。",
+     "zh-Hant": "第21–23句：溫習舊的，就能看見新的。",
+     "ko": "21–23번 문장: 옛것을 잘 배우면 새것이 보인다.",
+     "tl": "Pangungusap 21–23: aralin ang luma, makikita ang bago.",
+     "ne": "वाक्य २१–२३: पुरानो पढे नयाँ देखिन्छ।",
+     "id": "Kalimat 21–23: pelajari yang lama, yang baru terlihat.",
+     "pt": "Frases 21–23: estude o antigo e o novo aparece.",
+     "my": "စာကြောင်း ၂၁–၂၃: အဟောင်းကို လေ့လာရင် အသစ်ကို မြင်ရမယ်။",
+     "th": "ประโยคที่ 21–23: เรียนของเก่าให้ดี จะเห็นของใหม่"
+    },
+    "jaFurigana": [
+     {
+      "surface": "「",
+      "reading": ""
+     },
+     {
+      "surface": "温故知新",
+      "reading": "おんこちしん"
+     },
+     {
+      "surface": "」は、どういう",
+      "reading": ""
+     },
+     {
+      "surface": "意味",
+      "reading": "いみ"
+     },
+     {
+      "surface": "ですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "古",
+       "reading": "ふる"
+      },
+      {
+       "surface": "いことをよく",
+       "reading": ""
+      },
+      {
+       "surface": "勉強",
+       "reading": "べんきょう"
+      },
+      {
+       "surface": "すると、",
+       "reading": ""
+      },
+      {
+       "surface": "新",
+       "reading": "あたら"
+      },
+      {
+       "surface": "しいことが",
+       "reading": ""
+      },
+      {
+       "surface": "見",
+       "reading": "み"
+      },
+      {
+       "surface": "えてくる",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "古",
+       "reading": "ふる"
+      },
+      {
+       "surface": "いものは、すてたほうがいい",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "新",
+       "reading": "あたら"
+      },
+      {
+       "surface": "しいことだけを",
+       "reading": ""
+      },
+      {
+       "surface": "勉強",
+       "reading": "べんきょう"
+      },
+      {
+       "surface": "する",
+       "reading": ""
+      }
+     ]
+    ]
+   },
+   {
+    "ja": "孔子は、何歳で「もう迷わなくなった」と言いましたか。",
+    "choices": [
+     "十五歳",
+     "四十歳",
+     "七十歳"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Câu 27 và 31: tuổi bốn mươi, người Nhật gọi là \"不惑\".",
+     "en": "Sentences 27 and 31: forty, which Japanese call \"fuwaku\".",
+     "zh-Hans": "第27、31句：四十岁，日本人称\"不惑\"。",
+     "zh-Hant": "第27、31句：四十歲，稱「不惑」。",
+     "ko": "27, 31번 문장: 마흔, 불혹.",
+     "tl": "Pangungusap 27 at 31: apatnapu, \"fuwaku\".",
+     "ne": "वाक्य २७ र ३१: चालीस, \"फुवाकु\"।",
+     "id": "Kalimat 27 dan 31: empat puluh, \"fuwaku\".",
+     "pt": "Frases 27 e 31: quarenta, \"fuwaku\".",
+     "my": "စာကြောင်း ၂၇ နှင့် ၃၁: အသက်လေးဆယ်၊ \"不惑\"။",
+     "th": "ประโยคที่ 27 และ 31: สี่สิบ \"ฟุวาคุ\""
+    },
+    "jaFurigana": [
+     {
+      "surface": "孔子",
+      "reading": "こうし"
+     },
+     {
+      "surface": "は、",
+      "reading": ""
+     },
+     {
+      "surface": "何歳",
+      "reading": "なんさい"
+     },
+     {
+      "surface": "で「もう",
+      "reading": ""
+     },
+     {
+      "surface": "迷",
+      "reading": "まよ"
+     },
+     {
+      "surface": "わなくなった」と",
+      "reading": ""
+     },
+     {
+      "surface": "言",
+      "reading": "い"
+     },
+     {
+      "surface": "いましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "十五歳",
+       "reading": "じゅうごさい"
+      }
+     ],
+     [
+      {
+       "surface": "四十歳",
+       "reading": "よんじゅっさい"
+      }
+     ],
+     [
+      {
+       "surface": "七十歳",
+       "reading": "ななじゅっさい"
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ "sentences": [
+  {
+   "ja": "孔子の弟子の中に、顔回という若者がいました。",
+   "furigana": [
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "弟子",
+     "reading": "でし"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "顔回",
+     "reading": "がんかい"
+    },
+    {
+     "surface": "という",
+     "reading": ""
+    },
+    {
+     "surface": "若者",
+     "reading": "わかもの"
+    },
+    {
+     "surface": "がいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Koushi no deshi no naka ni, gankai to iu wakamono ga imashita.",
+   "translations": {
+    "vi": "Trong số học trò của Khổng Tử có một chàng trai tên là Nhan Hồi.",
+    "en": "Among Confucius's disciples was a young man named Yan Hui.",
+    "zh-Hans": "孔子的弟子中，有一个名叫颜回的年轻人。",
+    "zh-Hant": "孔子的弟子中，有一個名叫顏回的年輕人。",
+    "ko": "공자의 제자 중에 안회라는 젊은이가 있었습니다.",
+    "tl": "Sa mga alagad ni Confucius ay may isang binatang nagngangalang Yan Hui.",
+    "ne": "कन्फ्युसियसका चेलाहरूमध्ये यान हुई नाम गरेका एक युवक थिए।",
+    "id": "Di antara murid Konfusius, ada seorang pemuda bernama Yan Hui.",
+    "pt": "Entre os discípulos de Confúcio havia um jovem chamado Yan Hui.",
+    "my": "ကွန်ဖြူးရှပ်၏ တပည့်များထဲတွင် ယန်ဟွေ့ ဟုခေါ်သော လူငယ်တစ်ဦး ရှိသည်။",
+    "th": "ในบรรดาศิษย์ของขงจื๊อ มีชายหนุ่มชื่อเหยียนหุย"
+   },
+   "grammarNote": {
+    "vi": "「弟子」= học trò. 「若者」= người trẻ, chàng trai.",
+    "en": "弟子 = \"disciple\". 若者 = \"young person\".",
+    "zh-Hans": "「弟子」＝弟子。「若者」＝年轻人。",
+    "zh-Hant": "「弟子」＝弟子。「若者」＝年輕人。",
+    "ko": "「弟子」= 제자. 「若者」= 젊은이.",
+    "tl": "弟子 = alagad. 若者 = kabataan.",
+    "ne": "「弟子」= चेला। 「若者」= युवक।",
+    "id": "弟子 = murid. 若者 = pemuda.",
+    "pt": "弟子 = discípulo. 若者 = jovem.",
+    "my": "「弟子」= တပည့်။ 「若者」= လူငယ်။",
+    "th": "「弟子」= ศิษย์ 「若者」= คนหนุ่ม"
+   },
+   "vocab": [
+    {
+     "word": "弟子",
+     "reading": "でし",
+     "meanings": {
+      "vi": "học trò",
+      "en": "disciple",
+      "zh-Hans": "弟子",
+      "zh-Hant": "弟子",
+      "ko": "제자",
+      "tl": "alagad",
+      "ne": "चेला",
+      "id": "murid",
+      "pt": "discípulo",
+      "my": "တပည့်",
+      "th": "ศิษย์"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "若者",
+     "reading": "わかもの",
+     "meanings": {
+      "vi": "người trẻ",
+      "en": "young person",
+      "zh-Hans": "年轻人",
+      "zh-Hant": "年輕人",
+      "ko": "젊은이",
+      "tl": "kabataan",
+      "ne": "युवक",
+      "id": "pemuda",
+      "pt": "jovem",
+      "my": "လူငယ်",
+      "th": "คนหนุ่ม"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=0.3,4.59",
+   "t": [
+    0.3,
+    4.59
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "顔回は、とてもまずしい家に住んでいました。",
+   "furigana": [
+    {
+     "surface": "顔回",
+     "reading": "がんかい"
+    },
+    {
+     "surface": "は、とてもまずしい",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "住",
+     "reading": "す"
+    },
+    {
+     "surface": "んでいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Gankai wa, totemo mazushii ie ni sunde imashita.",
+   "translations": {
+    "vi": "Nhan Hồi sống trong một căn nhà rất nghèo.",
+    "en": "Yan Hui lived in a very poor house.",
+    "zh-Hans": "颜回住在非常贫穷的家里。",
+    "zh-Hant": "顏回住在非常貧窮的家裡。",
+    "ko": "안회는 아주 가난한 집에 살고 있었습니다.",
+    "tl": "Nakatira si Yan Hui sa isang napakahirap na bahay.",
+    "ne": "यान हुई निकै गरिब घरमा बस्थे।",
+    "id": "Yan Hui tinggal di rumah yang sangat miskin.",
+    "pt": "Yan Hui morava numa casa muito pobre.",
+    "my": "ယန်ဟွေ့သည် အလွန်ဆင်းရဲသော အိမ်တွင် နေသည်။",
+    "th": "เหยียนหุยอาศัยอยู่ในบ้านที่ยากจนมาก"
+   },
+   "grammarNote": {
+    "vi": "「まずしい」= nghèo. 「〜に住む」= sống ở ….",
+    "en": "まずしい = \"poor\". 〜に住む = \"to live in …\".",
+    "zh-Hans": "「まずしい」＝贫穷。",
+    "zh-Hant": "「まずしい」＝貧窮。",
+    "ko": "「まずしい」= 가난하다.",
+    "tl": "まずしい = mahirap.",
+    "ne": "「まずしい」= गरिब।",
+    "id": "まずしい = miskin.",
+    "pt": "まずしい = pobre.",
+    "my": "「まずしい」= ဆင်းရဲသော။",
+    "th": "「まずしい」= ยากจน"
+   },
+   "vocab": [
+    {
+     "word": "まずしい",
+     "reading": "まずしい",
+     "meanings": {
+      "vi": "nghèo",
+      "en": "poor",
+      "zh-Hans": "贫穷",
+      "zh-Hant": "貧窮",
+      "ko": "가난하다",
+      "tl": "mahirap",
+      "ne": "गरिब",
+      "id": "miskin",
+      "pt": "pobre",
+      "my": "ဆင်းရဲသော",
+      "th": "ยากจน"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=5.19,8.84",
+   "t": [
+    5.19,
+    8.84
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ごはんは、毎日お茶わんに一杯だけ。",
+   "furigana": [
+    {
+     "surface": "ごはんは、",
+     "reading": ""
+    },
+    {
+     "surface": "毎日",
+     "reading": "まいにち"
+    },
+    {
+     "surface": "お",
+     "reading": ""
+    },
+    {
+     "surface": "茶",
+     "reading": "ちゃ"
+    },
+    {
+     "surface": "わんに",
+     "reading": ""
+    },
+    {
+     "surface": "一杯",
+     "reading": "いっぱい"
+    },
+    {
+     "surface": "だけ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Gohan wa, mainichi o chawan ni ippai dake.",
+   "translations": {
+    "vi": "Cơm thì mỗi ngày chỉ một bát.",
+    "en": "Each day he had only one bowl of rice.",
+    "zh-Hans": "饭每天只有一碗。",
+    "zh-Hant": "飯每天只有一碗。",
+    "ko": "밥은 매일 한 그릇뿐.",
+    "tl": "Ang kanin ay isang mangkok lang araw-araw.",
+    "ne": "भात दिनमा एक कचौरा मात्र।",
+    "id": "Nasi setiap hari hanya satu mangkuk.",
+    "pt": "Comida, só uma tigela por dia.",
+    "my": "ထမင်းက နေ့တိုင်း တစ်ပန်းကန်သာ။",
+    "th": "ข้าววันละชามเดียว"
+   },
+   "grammarNote": {
+    "vi": "「お茶わん」= bát ăn cơm. 「一杯」= một bát, một cốc. 「〜だけ」= chỉ ….",
+    "en": "お茶わん = \"rice bowl\". 一杯 = \"one bowlful\". 〜だけ = \"only\".",
+    "zh-Hans": "「お茶わん」＝饭碗。「一杯」＝一碗。",
+    "zh-Hant": "「お茶わん」＝飯碗。",
+    "ko": "「お茶わん」= 밥그릇.",
+    "tl": "お茶わん = mangkok.",
+    "ne": "「お茶わん」= कचौरा।",
+    "id": "お茶わん = mangkuk nasi.",
+    "pt": "お茶わん = tigela.",
+    "my": "「お茶わん」= ထမင်းပန်းကန်။",
+    "th": "「お茶わん」= ชามข้าว"
+   },
+   "vocab": [
+    {
+     "word": "茶わん",
+     "reading": "ちゃわん",
+     "meanings": {
+      "vi": "bát cơm",
+      "en": "rice bowl",
+      "zh-Hans": "饭碗",
+      "zh-Hant": "飯碗",
+      "ko": "밥그릇",
+      "tl": "mangkok",
+      "ne": "कचौरा",
+      "id": "mangkuk",
+      "pt": "tigela",
+      "my": "ထမင်းပန်းကန်",
+      "th": "ชามข้าว"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=9.44,12.43",
+   "t": [
+    9.44,
+    12.43
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "飲むのは、水だけでした。",
+   "furigana": [
+    {
+     "surface": "飲",
+     "reading": "の"
+    },
+    {
+     "surface": "むのは、",
+     "reading": ""
+    },
+    {
+     "surface": "水",
+     "reading": "みず"
+    },
+    {
+     "surface": "だけでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nomu no wa, mizu dake deshita.",
+   "translations": {
+    "vi": "Thứ để uống chỉ có nước lã.",
+    "en": "All he had to drink was water.",
+    "zh-Hans": "喝的只有水。",
+    "zh-Hant": "喝的只有水。",
+    "ko": "마시는 것은 물뿐이었습니다.",
+    "tl": "Tubig lang ang kanyang iniinom.",
+    "ne": "पिउने कुरा पानी मात्र थियो।",
+    "id": "Yang diminum hanya air.",
+    "pt": "Para beber, só água.",
+    "my": "သောက်စရာက ရေသာ ရှိသည်။",
+    "th": "ของดื่มมีแค่น้ำเปล่า"
+   },
+   "grammarNote": {
+    "vi": "「飲むのは〜だけ」= thứ uống chỉ có ….",
+    "en": "飲むのは〜だけ = \"what he drank was only …\".",
+    "zh-Hans": "「飲むのは〜だけ」＝喝的只有……",
+    "zh-Hant": "「飲むのは〜だけ」＝喝的只有……",
+    "ko": "「〜だけ」= …뿐.",
+    "tl": "〜だけ = lang.",
+    "ne": "「〜だけ」= मात्र।",
+    "id": "〜だけ = hanya.",
+    "pt": "〜だけ = só.",
+    "my": "「〜だけ」= သာ။",
+    "th": "「〜だけ」= แค่"
+   },
+   "vocab": [],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=13.03,15.68",
+   "t": [
+    13.03,
+    15.68
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ほかの人なら、毎日もんくを言うでしょう。",
+   "furigana": [
+    {
+     "surface": "ほかの",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "なら、",
+     "reading": ""
+    },
+    {
+     "surface": "毎日",
+     "reading": "まいにち"
+    },
+    {
+     "surface": "もんくを",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "うでしょう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hoka no hitonara, mainichi mon ku o iu deshou.",
+   "translations": {
+    "vi": "Nếu là người khác, chắc ngày nào cũng than phiền.",
+    "en": "Anyone else would probably complain every day.",
+    "zh-Hans": "换作别人，大概每天都会抱怨吧。",
+    "zh-Hant": "換作別人，大概每天都會抱怨吧。",
+    "ko": "다른 사람이라면 매일 불평을 하겠지요.",
+    "tl": "Kung ibang tao, malamang magrereklamo araw-araw.",
+    "ne": "अरू कोही भए दिनहुँ गुनासो गर्थे होला।",
+    "id": "Kalau orang lain, mungkin setiap hari mengeluh.",
+    "pt": "Outra pessoa provavelmente reclamaria todo dia.",
+    "my": "တခြားလူဆိုရင် နေ့တိုင်း ညည်းညူမှာပဲ။",
+    "th": "ถ้าเป็นคนอื่น คงบ่นทุกวัน"
+   },
+   "grammarNote": {
+    "vi": "「もんくを言う」= than phiền, cằn nhằn. 「〜なら」= nếu là ….",
+    "en": "もんくを言う = \"to complain\". 〜なら = \"if it were …\".",
+    "zh-Hans": "「もんくを言う」＝抱怨。",
+    "zh-Hant": "「もんくを言う」＝抱怨。",
+    "ko": "「もんくを言う」= 불평하다.",
+    "tl": "もんくを言う = magreklamo.",
+    "ne": "「もんくを言う」= गुनासो गर्नु।",
+    "id": "もんくを言う = mengeluh.",
+    "pt": "もんくを言う = reclamar.",
+    "my": "「もんくを言う」= ညည်းညူသည်။",
+    "th": "「もんくを言う」= บ่น"
+   },
+   "vocab": [
+    {
+     "word": "もんく",
+     "reading": "",
+     "meanings": {
+      "vi": "lời than phiền",
+      "en": "complaint",
+      "zh-Hans": "抱怨",
+      "zh-Hant": "抱怨",
+      "ko": "불평",
+      "tl": "reklamo",
+      "ne": "गुनासो",
+      "id": "keluhan",
+      "pt": "reclamação",
+      "my": "ညည်းညူချက်",
+      "th": "คำบ่น"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=16.28,20.12",
+   "t": [
+    16.28,
+    20.12
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "でも、顔回はいつもにこにこして、本を読んでいました。",
+   "furigana": [
+    {
+     "surface": "でも、",
+     "reading": ""
+    },
+    {
+     "surface": "顔回",
+     "reading": "がんかい"
+    },
+    {
+     "surface": "はいつもにこにこして、",
+     "reading": ""
+    },
+    {
+     "surface": "本",
+     "reading": "ほん"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "読",
+     "reading": "よ"
+    },
+    {
+     "surface": "んでいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Demo, gankai wa itsumo nikoniko shite, hon o yonde imashita.",
+   "translations": {
+    "vi": "Thế nhưng Nhan Hồi lúc nào cũng tươi cười, ngồi đọc sách.",
+    "en": "But Yan Hui was always smiling as he read his books.",
+    "zh-Hans": "可是颜回总是笑眯眯地读书。",
+    "zh-Hant": "可是顏回總是笑瞇瞇地讀書。",
+    "ko": "하지만 안회는 언제나 싱글벙글하며 책을 읽고 있었습니다.",
+    "tl": "Pero laging nakangiti si Yan Hui habang nagbabasa.",
+    "ne": "तर यान हुई सधैँ मुस्कुराउँदै किताब पढ्थे।",
+    "id": "Namun Yan Hui selalu tersenyum sambil membaca buku.",
+    "pt": "Mas Yan Hui estava sempre sorridente, lendo seus livros.",
+    "my": "သို့သော် ယန်ဟွေ့သည် အမြဲ ပြုံးပြုံးလေး စာဖတ်နေသည်။",
+    "th": "แต่เหยียนหุยกลับยิ้มแย้มและอ่านหนังสืออยู่เสมอ"
+   },
+   "grammarNote": {
+    "vi": "「にこにこ」= tươi cười, tủm tỉm.",
+    "en": "にこにこ = \"smiling happily\".",
+    "zh-Hans": "「にこにこ」＝笑眯眯。",
+    "zh-Hant": "「にこにこ」＝笑瞇瞇。",
+    "ko": "「にこにこ」= 싱글벙글.",
+    "tl": "にこにこ = nakangiti.",
+    "ne": "「にこにこ」= मुस्कुराउँदै।",
+    "id": "にこにこ = tersenyum.",
+    "pt": "にこにこ = sorridente.",
+    "my": "「にこにこ」= ပြုံးပြုံးလေး။",
+    "th": "「にこにこ」= ยิ้มแย้ม"
+   },
+   "vocab": [
+    {
+     "word": "にこにこ",
+     "reading": "にこにこ",
+     "meanings": {
+      "vi": "tươi cười",
+      "en": "smiling",
+      "zh-Hans": "笑眯眯",
+      "zh-Hant": "笑瞇瞇",
+      "ko": "싱글벙글",
+      "tl": "nakangiti",
+      "ne": "मुस्कुराउँदै",
+      "id": "tersenyum",
+      "pt": "sorridente",
+      "my": "ပြုံးပြုံးလေး",
+      "th": "ยิ้มแย้ม"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=20.72,26.07",
+   "t": [
+    20.72,
+    26.07
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「えらいね、顔回は。」",
+   "furigana": [
+    {
+     "surface": "「えらいね、",
+     "reading": ""
+    },
+    {
+     "surface": "顔回",
+     "reading": "がんかい"
+    },
+    {
+     "surface": "は。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Erai ne, gankai wa.”",
+   "translations": {
+    "vi": "\"Nhan Hồi giỏi thật đấy.\"",
+    "en": "\"Yan Hui is admirable.\"",
+    "zh-Hans": "\"颜回真了不起啊。\"",
+    "zh-Hant": "「顏回真了不起啊。」",
+    "ko": "\"훌륭하구나, 안회는.\"",
+    "tl": "\"Kahanga-hanga si Yan Hui.\"",
+    "ne": "\"यान हुई साँच्चै महान् छ।\"",
+    "id": "\"Hebat sekali Yan Hui.\"",
+    "pt": "\"Yan Hui é admirável.\"",
+    "my": "\"ယန်ဟွေ့က တော်တယ်နော်။\"",
+    "th": "\"เหยียนหุยนี่น่านับถือจริง ๆ\""
+   },
+   "grammarNote": {
+    "vi": "「えらい」= đáng khen, giỏi.",
+    "en": "えらい = \"admirable, praiseworthy\".",
+    "zh-Hans": "「えらい」＝了不起。",
+    "zh-Hant": "「えらい」＝了不起。",
+    "ko": "「えらい」= 훌륭하다.",
+    "tl": "えらい = kahanga-hanga.",
+    "ne": "「えらい」= महान्।",
+    "id": "えらい = hebat.",
+    "pt": "えらい = admirável.",
+    "my": "「えらい」= တော်သည်။",
+    "th": "「えらい」= น่านับถือ"
+   },
+   "vocab": [
+    {
+     "word": "えらい",
+     "reading": "えらい",
+     "meanings": {
+      "vi": "đáng khen, giỏi",
+      "en": "admirable",
+      "zh-Hans": "了不起",
+      "zh-Hant": "了不起",
+      "ko": "훌륭하다",
+      "tl": "kahanga-hanga",
+      "ne": "महान्",
+      "id": "hebat",
+      "pt": "admirável",
+      "my": "တော်သော",
+      "th": "น่านับถือ"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=26.97,29.04",
+   "t": [
+    26.97,
+    29.04
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「お金がなくても、学ぶ楽しさを、少しも忘れない。」",
+   "furigana": [
+    {
+     "surface": "「お",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "かね"
+    },
+    {
+     "surface": "がなくても、",
+     "reading": ""
+    },
+    {
+     "surface": "学",
+     "reading": "まな"
+    },
+    {
+     "surface": "ぶ",
+     "reading": ""
+    },
+    {
+     "surface": "楽",
+     "reading": "たの"
+    },
+    {
+     "surface": "しさを、",
+     "reading": ""
+    },
+    {
+     "surface": "少",
+     "reading": "すこ"
+    },
+    {
+     "surface": "しも",
+     "reading": ""
+    },
+    {
+     "surface": "忘",
+     "reading": "わす"
+    },
+    {
+     "surface": "れない。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Okane ga nakute mo, manabu tanoshisa o, sukoshi mo wasurenai.”",
+   "translations": {
+    "vi": "\"Dù không có tiền, cậu ấy chẳng bao giờ quên niềm vui của việc học.\"",
+    "en": "\"Even without money, he never forgets the joy of learning.\"",
+    "zh-Hans": "\"即使没有钱，他也一点都没忘记学习的快乐。\"",
+    "zh-Hant": "「即使沒有錢，他也一點都沒忘記學習的快樂。」",
+    "ko": "\"돈이 없어도, 배우는 즐거움을 조금도 잊지 않는다.\"",
+    "tl": "\"Kahit walang pera, hindi niya nalilimutan ang saya ng pag-aaral.\"",
+    "ne": "\"पैसा नभए पनि उसले सिक्नुको आनन्द अलिकति पनि बिर्सँदैन।\"",
+    "id": "\"Meski tak punya uang, ia tak sedikit pun lupa kegembiraan belajar.\"",
+    "pt": "\"Mesmo sem dinheiro, nunca esquece a alegria de aprender.\"",
+    "my": "\"ပိုက်ဆံ မရှိပေမယ့် သင်ယူခြင်းရဲ့ ပျော်ရွှင်မှုကို နည်းနည်းမှ မမေ့ဘူး။\"",
+    "th": "\"แม้ไม่มีเงิน ก็ไม่เคยลืมความสุขของการเรียนรู้เลย\""
+   },
+   "grammarNote": {
+    "vi": "「〜ても」= dù …. 「楽しさ」= niềm vui. 「少しも〜ない」= chẳng … chút nào.",
+    "en": "〜ても = \"even if\". 楽しさ = \"joy\". 少しも〜ない = \"not … at all\".",
+    "zh-Hans": "「〜ても」＝即使。「少しも〜ない」＝一点也不……",
+    "zh-Hant": "「少しも〜ない」＝一點也不……",
+    "ko": "「少しも〜ない」= 조금도 … 않다.",
+    "tl": "少しも〜ない = hindi kahit kaunti.",
+    "ne": "「少しも〜ない」= अलिकति पनि … होइन।",
+    "id": "少しも〜ない = sedikit pun tidak.",
+    "pt": "少しも〜ない = nem um pouco.",
+    "my": "「少しも〜ない」= နည်းနည်းမှ မ…။",
+    "th": "「少しも〜ない」= ไม่ … เลย"
+   },
+   "vocab": [
+    {
+     "word": "学ぶ",
+     "reading": "まなぶ",
+     "meanings": {
+      "vi": "học",
+      "en": "to learn",
+      "zh-Hans": "学习",
+      "zh-Hant": "學習",
+      "ko": "배우다",
+      "tl": "mag-aral",
+      "ne": "सिक्नु",
+      "id": "belajar",
+      "pt": "aprender",
+      "my": "သင်ယူသည်",
+      "th": "เรียนรู้"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "楽しさ",
+     "reading": "",
+     "meanings": {
+      "vi": "niềm vui",
+      "en": "joy, fun",
+      "zh-Hans": "快乐",
+      "zh-Hant": "快樂",
+      "ko": "즐거움",
+      "tl": "saya",
+      "ne": "आनन्द",
+      "id": "kegembiraan",
+      "pt": "alegria",
+      "my": "ပျော်ရွှင်မှု",
+      "th": "ความสนุก"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=29.64,34.2",
+   "t": [
+    29.64,
+    34.2
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "孔子は、弟子の中で、顔回をいちばん大切にしていました。",
+   "furigana": [
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "弟子",
+     "reading": "でし"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "顔回",
+     "reading": "がんかい"
+    },
+    {
+     "surface": "をいちばん",
+     "reading": ""
+    },
+    {
+     "surface": "大切",
+     "reading": "たいせつ"
+    },
+    {
+     "surface": "にしていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Koushi wa, deshi no naka de, gankai o ichiban taisetsu ni shite imashita.",
+   "translations": {
+    "vi": "Trong các học trò, Khổng Tử quý Nhan Hồi nhất.",
+    "en": "Of all his disciples, Confucius valued Yan Hui the most.",
+    "zh-Hans": "在弟子中，孔子最珍视颜回。",
+    "zh-Hant": "在弟子中，孔子最珍視顏回。",
+    "ko": "공자는 제자 중에서 안회를 가장 아꼈습니다.",
+    "tl": "Sa lahat ng alagad, si Yan Hui ang pinakamahalaga kay Confucius.",
+    "ne": "चेलाहरूमध्ये कन्फ्युसियसले यान हुईलाई सबैभन्दा माया गर्थे।",
+    "id": "Di antara muridnya, Konfusius paling menyayangi Yan Hui.",
+    "pt": "Entre os discípulos, Confúcio estimava Yan Hui mais que todos.",
+    "my": "တပည့်များထဲတွင် ကွန်ဖြူးရှပ်က ယန်ဟွေ့ကို အချစ်ဆုံး ဖြစ်သည်။",
+    "th": "ในบรรดาศิษย์ ขงจื๊อรักเหยียนหุยที่สุด"
+   },
+   "grammarNote": {
+    "vi": "「大切にする」= quý trọng.",
+    "en": "大切にする = \"to treasure, value\".",
+    "zh-Hans": "「大切にする」＝珍视。",
+    "zh-Hant": "「大切にする」＝珍視。",
+    "ko": "「大切にする」= 아끼다.",
+    "tl": "大切にする = pahalagahan.",
+    "ne": "「大切にする」= माया गर्नु।",
+    "id": "大切にする = menyayangi.",
+    "pt": "大切にする = estimar.",
+    "my": "「大切にする」= တန်ဖိုးထားသည်။",
+    "th": "「大切にする」= ทะนุถนอม"
+   },
+   "vocab": [
+    {
+     "word": "大切",
+     "reading": "たいせつ",
+     "meanings": {
+      "vi": "quý giá",
+      "en": "precious, important",
+      "zh-Hans": "珍贵",
+      "zh-Hant": "珍貴",
+      "ko": "소중하다",
+      "tl": "mahalaga",
+      "ne": "महत्त्वपूर्ण",
+      "id": "berharga",
+      "pt": "precioso",
+      "my": "အရေးကြီးသော",
+      "th": "สำคัญ"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=35.1,40.09",
+   "t": [
+    35.1,
+    40.09
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "子貢は、よく人と人をくらべる弟子でした。",
+   "furigana": [
+    {
+     "surface": "子貢",
+     "reading": "しこう"
+    },
+    {
+     "surface": "は、よく",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "と",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "をくらべる",
+     "reading": ""
+    },
+    {
+     "surface": "弟子",
+     "reading": "でし"
+    },
+    {
+     "surface": "でした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shikou wa, yoku hito to hito o kuraberu deshi deshita.",
+   "translations": {
+    "vi": "Tử Cống là người học trò hay so sánh người này với người kia.",
+    "en": "Zigong was a disciple who often compared one person with another.",
+    "zh-Hans": "子贡是个常常拿人和人作比较的弟子。",
+    "zh-Hant": "子貢是個常常拿人和人作比較的弟子。",
+    "ko": "자공은 자주 사람과 사람을 비교하는 제자였습니다.",
+    "tl": "Si Zigong ay alagad na madalas magkumpara ng mga tao.",
+    "ne": "जिगोङ मान्छे-मान्छेलाई तुलना गरिरहने चेला थिए।",
+    "id": "Zigong adalah murid yang sering membandingkan orang satu dengan yang lain.",
+    "pt": "Zigong era um discípulo que vivia comparando as pessoas.",
+    "my": "ဇီဂုံးသည် လူတစ်ယောက်နှင့်တစ်ယောက် မကြာခဏ နှိုင်းယှဉ်တတ်သော တပည့် ဖြစ်သည်။",
+    "th": "จื๊อก้งเป็นศิษย์ที่ชอบเปรียบเทียบคนกับคน"
+   },
+   "grammarNote": {
+    "vi": "「くらべる」= so sánh. 「よく」= thường hay. Theo Luận ngữ (Hiến Vấn): \"Tử Cống hay so bì người\".",
+    "en": "くらべる = \"to compare\". よく = \"often\". From the Analects: \"Zigong was given to comparing people.\"",
+    "zh-Hans": "「くらべる」＝比较。《论语·宪问》：\"子贡方人。\"",
+    "zh-Hant": "「くらべる」＝比較。《論語·憲問》：「子貢方人。」",
+    "ko": "「くらべる」= 비교하다.",
+    "tl": "くらべる = ikumpara.",
+    "ne": "「くらべる」= तुलना गर्नु।",
+    "id": "くらべる = membandingkan.",
+    "pt": "くらべる = comparar.",
+    "my": "「くらべる」= နှိုင်းယှဉ်သည်။",
+    "th": "「くらべる」= เปรียบเทียบ"
+   },
+   "vocab": [
+    {
+     "word": "くらべる",
+     "reading": "くらべる",
+     "meanings": {
+      "vi": "so sánh",
+      "en": "to compare",
+      "zh-Hans": "比较",
+      "zh-Hant": "比較",
+      "ko": "비교하다",
+      "tl": "ikumpara",
+      "ne": "तुलना गर्नु",
+      "id": "membandingkan",
+      "pt": "comparar",
+      "my": "နှိုင်းယှဉ်သည်",
+      "th": "เปรียบเทียบ"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=40.69,44.54",
+   "t": [
+    40.69,
+    44.54
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ある日、子貢が孔子に聞きました。",
+   "furigana": [
+    {
+     "surface": "ある",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "子貢",
+     "reading": "しこう"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "きました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Aru hi, shikou ga koushi ni kikimashita.",
+   "translations": {
+    "vi": "Một hôm, Tử Cống hỏi Khổng Tử.",
+    "en": "One day, Zigong asked Confucius a question.",
+    "zh-Hans": "有一天，子贡问孔子。",
+    "zh-Hant": "有一天，子貢問孔子。",
+    "ko": "어느 날, 자공이 공자에게 물었습니다.",
+    "tl": "Isang araw, nagtanong si Zigong kay Confucius.",
+    "ne": "एक दिन जिगोङले कन्फ्युसियसलाई सोधे।",
+    "id": "Suatu hari, Zigong bertanya kepada Konfusius.",
+    "pt": "Um dia, Zigong perguntou a Confúcio.",
+    "my": "တစ်နေ့ ဇီဂုံးက ကွန်ဖြူးရှပ်ကို မေးသည်။",
+    "th": "วันหนึ่ง จื๊อก้งถามขงจื๊อ"
+   },
+   "grammarNote": {
+    "vi": "「〜に聞く」= hỏi ai.",
+    "en": "〜に聞く = \"to ask (someone)\".",
+    "zh-Hans": "「〜に聞く」＝问……",
+    "zh-Hant": "「〜に聞く」＝問……",
+    "ko": "「〜に聞く」= …에게 묻다.",
+    "tl": "〜に聞く = magtanong kay.",
+    "ne": "「〜に聞く」= … लाई सोध्नु।",
+    "id": "〜に聞く = bertanya kepada.",
+    "pt": "〜に聞く = perguntar a.",
+    "my": "「〜に聞く」= … ကို မေးသည်။",
+    "th": "「〜に聞く」= ถาม …"
+   },
+   "vocab": [],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=45.14,48.48",
+   "t": [
+    45.14,
+    48.48
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「先生、わたしの友だちの二人は、どちらが上ですか。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "先生",
+     "reading": "せんせい"
+    },
+    {
+     "surface": "、わたしの",
+     "reading": ""
+    },
+    {
+     "surface": "友",
+     "reading": "とも"
+    },
+    {
+     "surface": "だちの",
+     "reading": ""
+    },
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "は、どちらが",
+     "reading": ""
+    },
+    {
+     "surface": "上",
+     "reading": "うえ"
+    },
+    {
+     "surface": "ですか。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Sensei, watashi no tomodachi no futari wa, dochira ga ue desu ka.”",
+   "translations": {
+    "vi": "\"Thưa thầy, hai người bạn của con, ai hơn ai ạ?\"",
+    "en": "\"Teacher, of my two friends, which one is better?\"",
+    "zh-Hans": "\"老师，我的两个朋友，哪一个更强？\"",
+    "zh-Hant": "「老師，我的兩個朋友，哪一個更強？」",
+    "ko": "\"선생님, 제 친구 두 사람은 누가 더 낫습니까?\"",
+    "tl": "\"Guro, sa dalawa kong kaibigan, sino ang mas magaling?\"",
+    "ne": "\"गुरु, मेरा दुई साथीमध्ये को राम्रो हो?\"",
+    "id": "\"Guru, dari dua teman saya, siapa yang lebih baik?\"",
+    "pt": "\"Mestre, dos meus dois amigos, qual é o melhor?\"",
+    "my": "\"ဆရာ၊ ကျွန်တော့် သူငယ်ချင်းနှစ်ယောက်မှာ ဘယ်သူက ပိုတော်ပါသလဲ။\"",
+    "th": "\"อาจารย์ เพื่อนสองคนของศิษย์ ใครเก่งกว่ากันครับ\""
+   },
+   "grammarNote": {
+    "vi": "「どちらが上」= ai hơn. Hai người này là Tử Trương và Tử Hạ.",
+    "en": "どちらが上 = \"which is better\". The two are Zizhang and Zixia.",
+    "zh-Hans": "「どちらが上」＝哪个更强。两人是子张和子夏。",
+    "zh-Hant": "兩人是子張和子夏。",
+    "ko": "두 사람은 자장과 자하.",
+    "tl": "Sina Zizhang at Zixia ang dalawa.",
+    "ne": "दुई जना जिझाङ र जिसिया हुन्।",
+    "id": "Keduanya adalah Zizhang dan Zixia.",
+    "pt": "Os dois são Zizhang e Zixia.",
+    "my": "နှစ်ဦးမှာ ဇီကျန်း နှင့် ဇီရှား ဖြစ်သည်။",
+    "th": "สองคนนั้นคือจื๊อจาง กับจื๊อเซี่ย"
+   },
+   "vocab": [
+    {
+     "word": "上",
+     "reading": "うえ",
+     "meanings": {
+      "vi": "hơn, bên trên",
+      "en": "better, above",
+      "zh-Hans": "上",
+      "zh-Hant": "上",
+      "ko": "위",
+      "tl": "mas mataas",
+      "ne": "माथि",
+      "id": "lebih tinggi",
+      "pt": "superior",
+      "my": "အထက်",
+      "th": "เหนือกว่า"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=49.38,54.09",
+   "t": [
+    49.38,
+    54.09
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「一人は、なんでもやりすぎます。もう一人は、いつも少し足りません。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "一人",
+     "reading": "ひとり"
+    },
+    {
+     "surface": "は、なんでもやりすぎます。もう",
+     "reading": ""
+    },
+    {
+     "surface": "一人",
+     "reading": "ひとり"
+    },
+    {
+     "surface": "は、いつも",
+     "reading": ""
+    },
+    {
+     "surface": "少",
+     "reading": "すこ"
+    },
+    {
+     "surface": "し",
+     "reading": ""
+    },
+    {
+     "surface": "足",
+     "reading": "た"
+    },
+    {
+     "surface": "りません。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Hitori wa, nan demo yari sugimasu. Mou hitori wa, itsumo sukoshi tarimasen.”",
+   "translations": {
+    "vi": "\"Một người thì việc gì cũng làm quá tay. Người kia thì lúc nào cũng thiếu một chút.\"",
+    "en": "\"One overdoes everything. The other always falls a little short.\"",
+    "zh-Hans": "\"一个人什么都做过头，另一个总是差一点。\"",
+    "zh-Hant": "「一個人什麼都做過頭，另一個總是差一點。」",
+    "ko": "\"한 사람은 뭐든지 지나치고, 다른 한 사람은 늘 조금 부족합니다.\"",
+    "tl": "\"Ang isa ay sobra sa lahat. Ang isa naman ay laging kulang nang kaunti.\"",
+    "ne": "\"एउटा सबै कुरा बढी गर्छ। अर्को सधैँ अलि कम हुन्छ।\"",
+    "id": "\"Yang satu berlebihan dalam segala hal. Yang lain selalu sedikit kurang.\"",
+    "pt": "\"Um exagera em tudo. O outro sempre fica um pouco aquém.\"",
+    "my": "\"တစ်ယောက်က ဘာမဆို လွန်ကဲတယ်။ နောက်တစ်ယောက်က အမြဲ နည်းနည်း လိုတယ်။\"",
+    "th": "\"คนหนึ่งทำอะไรก็เกินไป อีกคนก็ขาดไปนิดเสมอ\""
+   },
+   "grammarNote": {
+    "vi": "「やりすぎる」= làm quá. 「足りない」= không đủ, thiếu.",
+    "en": "やりすぎる = \"to overdo\". 足りない = \"not enough\".",
+    "zh-Hans": "「やりすぎる」＝做过头。「足りない」＝不够。",
+    "zh-Hant": "「やりすぎる」＝做過頭。",
+    "ko": "「やりすぎる」= 지나치게 하다.",
+    "tl": "やりすぎる = sumobra.",
+    "ne": "「やりすぎる」= बढी गर्नु।",
+    "id": "やりすぎる = berlebihan.",
+    "pt": "やりすぎる = exagerar.",
+    "my": "「やりすぎる」= လွန်ကဲသည်။",
+    "th": "「やりすぎる」= ทำเกินไป"
+   },
+   "vocab": [
+    {
+     "word": "やりすぎる",
+     "reading": "",
+     "meanings": {
+      "vi": "làm quá tay",
+      "en": "to overdo",
+      "zh-Hans": "做过头",
+      "zh-Hant": "做過頭",
+      "ko": "지나치게 하다",
+      "tl": "sumobra",
+      "ne": "बढी गर्नु",
+      "id": "berlebihan",
+      "pt": "exagerar",
+      "my": "လွန်ကဲသည်",
+      "th": "ทำเกินไป"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "足りる",
+     "reading": "",
+     "meanings": {
+      "vi": "đủ",
+      "en": "to be enough",
+      "zh-Hans": "足够",
+      "zh-Hant": "足夠",
+      "ko": "충분하다",
+      "tl": "sapat",
+      "ne": "पुग्नु",
+      "id": "cukup",
+      "pt": "bastar",
+      "my": "လုံလောက်သည်",
+      "th": "พอ"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=54.69,60.01",
+   "t": [
+    54.69,
+    60.01
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「やりすぎるのは、足りないのと同じだよ。」",
+   "furigana": [
+    {
+     "surface": "「やりすぎるのは、",
+     "reading": ""
+    },
+    {
+     "surface": "足",
+     "reading": "た"
+    },
+    {
+     "surface": "りないのと",
+     "reading": ""
+    },
+    {
+     "surface": "同",
+     "reading": "おな"
+    },
+    {
+     "surface": "じだよ。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Yari sugiru no wa, tarinai no to onaji da yo.”",
+   "translations": {
+    "vi": "\"Làm quá cũng giống như làm chưa tới vậy.\"",
+    "en": "\"Going too far is the same as not going far enough.\"",
+    "zh-Hans": "\"做过头，和做得不够是一样的。\"",
+    "zh-Hant": "「做過頭，和做得不夠是一樣的。」",
+    "ko": "\"지나친 것은 모자란 것과 같단다.\"",
+    "tl": "\"Ang sobra ay kapareho ng kulang.\"",
+    "ne": "\"बढी गर्नु, कम गर्नुजस्तै हो।\"",
+    "id": "\"Berlebihan itu sama saja dengan kurang.\"",
+    "pt": "\"Exagerar é o mesmo que não chegar lá.\"",
+    "my": "\"လွန်ကဲတာဟာ မလုံလောက်တာနဲ့ အတူတူပဲ။\"",
+    "th": "\"ทำเกินไป ก็เหมือนกับทำไม่ถึง\""
+   },
+   "grammarNote": {
+    "vi": "Đây là câu \"Quá do bất cập\" (過ぎたるは猶及ばざるがごとし). 「AはBと同じ」= A giống B.",
+    "en": "This is the famous \"To go too far is as bad as to fall short.\" AはBと同じ = \"A is the same as B\".",
+    "zh-Hans": "即\"过犹不及\"。",
+    "zh-Hant": "即「過猶不及」。",
+    "ko": "\"과유불급(過猶不及)\".",
+    "tl": "Ito ang tanyag na \"ang sobra ay kasing-sama ng kulang\".",
+    "ne": "\"अति सर्वत्र वर्जयेत्\" जस्तै भनाइ।",
+    "id": "Inilah pepatah \"berlebihan sama buruknya dengan kurang\".",
+    "pt": "É o famoso \"o excesso é tão ruim quanto a falta\".",
+    "my": "\"လွန်လျှင် မမီနှင့် တူ\" ဆိုသော စကား။",
+    "th": "คือคำว่า \"มากไปก็เหมือนน้อยไป\""
+   },
+   "vocab": [
+    {
+     "word": "同じ",
+     "reading": "おなじ",
+     "meanings": {
+      "vi": "giống nhau",
+      "en": "same",
+      "zh-Hans": "一样",
+      "zh-Hant": "一樣",
+      "ko": "같다",
+      "tl": "pareho",
+      "ne": "उस्तै",
+      "id": "sama",
+      "pt": "mesmo",
+      "my": "တူသော",
+      "th": "เหมือนกัน"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=60.91,64.59",
+   "t": [
+    60.91,
+    64.59
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「えっ、がんばりすぎても、だめなんですか。」",
+   "furigana": [
+    {
+     "surface": "「えっ、がんばりすぎても、だめなんですか。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“E, ganbari sugite mo, damena n desu ka.”",
+   "translations": {
+    "vi": "\"Ơ, cố gắng quá cũng không được sao ạ?\"",
+    "en": "\"What? Even trying too hard is no good?\"",
+    "zh-Hans": "\"啊？太努力也不行吗？\"",
+    "zh-Hant": "「啊？太努力也不行嗎？」",
+    "ko": "\"네? 너무 열심히 해도 안 되는 건가요?\"",
+    "tl": "\"Ha? Masama rin ba ang sobrang pagsisikap?\"",
+    "ne": "\"के? धेरै मिहिनेत गर्दा पनि हुँदैन?\"",
+    "id": "\"Lho, berusaha terlalu keras juga tidak boleh?\"",
+    "pt": "\"Hã? Esforçar-se demais também não serve?\"",
+    "my": "\"ဟင်၊ အရမ်းကြိုးစားလည်း မကောင်းဘူးလား။\"",
+    "th": "\"เอ๊ะ พยายามมากเกินไปก็ไม่ดีหรือครับ\""
+   },
+   "grammarNote": {
+    "vi": "「がんばりすぎる」= cố gắng quá sức. 「〜てもだめ」= … cũng không được.",
+    "en": "がんばりすぎる = \"to try too hard\". 〜てもだめ = \"even … is no good\".",
+    "zh-Hans": "「がんばりすぎる」＝太努力。",
+    "zh-Hant": "「がんばりすぎる」＝太努力。",
+    "ko": "「がんばりすぎる」= 너무 열심히 하다.",
+    "tl": "がんばりすぎる = sobrang pagsisikap.",
+    "ne": "「がんばりすぎる」= धेरै मिहिनेत गर्नु।",
+    "id": "がんばりすぎる = berusaha terlalu keras.",
+    "pt": "がんばりすぎる = esforçar-se demais.",
+    "my": "「がんばりすぎる」= အရမ်းကြိုးစားသည်။",
+    "th": "「がんばりすぎる」= พยายามเกินไป"
+   },
+   "vocab": [
+    {
+     "word": "だめ",
+     "reading": "だめ",
+     "meanings": {
+      "vi": "không được",
+      "en": "no good",
+      "zh-Hans": "不行",
+      "zh-Hant": "不行",
+      "ko": "안 되다",
+      "tl": "hindi puwede",
+      "ne": "हुँदैन",
+      "id": "tidak boleh",
+      "pt": "não serve",
+      "my": "မကောင်း",
+      "th": "ไม่ได้"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=65.49,68.73",
+   "t": [
+    65.49,
+    68.73
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「ちょうどいいところで止める。それがいちばんむずかしいんだ。」",
+   "furigana": [
+    {
+     "surface": "「ちょうどいいところで",
+     "reading": ""
+    },
+    {
+     "surface": "止",
+     "reading": "と"
+    },
+    {
+     "surface": "める。それがいちばんむずかしいんだ。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Choudo ii tokoro de tomeru. Sore ga ichiban muzukashii n da.”",
+   "translations": {
+    "vi": "\"Dừng lại đúng chỗ vừa phải. Đó mới là điều khó nhất.\"",
+    "en": "\"Stopping at just the right point. That is the hardest thing.\"",
+    "zh-Hans": "\"在刚刚好的地方停下来，那才是最难的。\"",
+    "zh-Hant": "「在剛剛好的地方停下來，那才是最難的。」",
+    "ko": "\"딱 알맞은 곳에서 멈추는 것. 그게 가장 어렵단다.\"",
+    "tl": "\"Huminto sa tamang punto. Iyon ang pinakamahirap.\"",
+    "ne": "\"ठीक ठाउँमा रोकिनु। त्यही सबैभन्दा गाह्रो हो।\"",
+    "id": "\"Berhenti tepat di titik yang pas. Itulah yang paling sulit.\"",
+    "pt": "\"Parar no ponto certo. Isso é o mais difícil.\"",
+    "my": "\"အနေတော်မှာ ရပ်လိုက်တာ။ အဲဒါ အခက်ဆုံးပဲ။\"",
+    "th": "\"หยุดให้พอดี นั่นแหละยากที่สุด\""
+   },
+   "grammarNote": {
+    "vi": "「ちょうどいい」= vừa vặn, vừa phải. 「止める」= dừng lại.",
+    "en": "ちょうどいい = \"just right\". 止める = \"to stop\".",
+    "zh-Hans": "「ちょうどいい」＝刚刚好。「止める」＝停下。",
+    "zh-Hant": "「ちょうどいい」＝剛剛好。",
+    "ko": "「ちょうどいい」= 딱 좋다.",
+    "tl": "ちょうどいい = tama lang.",
+    "ne": "「ちょうどいい」= ठिक्क।",
+    "id": "ちょうどいい = pas.",
+    "pt": "ちょうどいい = na medida.",
+    "my": "「ちょうどいい」= အနေတော်။",
+    "th": "「ちょうどいい」= พอดี"
+   },
+   "vocab": [
+    {
+     "word": "止める",
+     "reading": "とめる",
+     "meanings": {
+      "vi": "dừng lại",
+      "en": "to stop",
+      "zh-Hans": "停下",
+      "zh-Hant": "停下",
+      "ko": "멈추다",
+      "tl": "huminto",
+      "ne": "रोक्नु",
+      "id": "berhenti",
+      "pt": "parar",
+      "my": "ရပ်သည်",
+      "th": "หยุด"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=69.63,74.08",
+   "t": [
+    69.63,
+    74.08
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "子貢は、だまってうなずきました。",
+   "furigana": [
+    {
+     "surface": "子貢",
+     "reading": "しこう"
+    },
+    {
+     "surface": "は、だまってうなずきました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shikou wa, damatte unazukimashita.",
+   "translations": {
+    "vi": "Tử Cống im lặng gật đầu.",
+    "en": "Zigong nodded in silence.",
+    "zh-Hans": "子贡默默地点了点头。",
+    "zh-Hant": "子貢默默地點了點頭。",
+    "ko": "자공은 말없이 고개를 끄덕였습니다.",
+    "tl": "Tahimik na tumango si Zigong.",
+    "ne": "जिगोङले चुपचाप टाउको हल्लाए।",
+    "id": "Zigong mengangguk diam-diam.",
+    "pt": "Zigong assentiu em silêncio.",
+    "my": "ဇီဂုံးက တိတ်တဆိတ် ခေါင်းညိတ်သည်။",
+    "th": "จื๊อก้งพยักหน้าเงียบ ๆ"
+   },
+   "grammarNote": {
+    "vi": "「だまって」= im lặng. 「うなずく」= gật đầu.",
+    "en": "だまって = \"silently\". うなずく = \"to nod\".",
+    "zh-Hans": "「だまって」＝默默地。「うなずく」＝点头。",
+    "zh-Hant": "「うなずく」＝點頭。",
+    "ko": "「うなずく」= 끄덕이다.",
+    "tl": "うなずく = tumango.",
+    "ne": "「うなずく」= टाउको हल्लाउनु।",
+    "id": "うなずく = mengangguk.",
+    "pt": "うなずく = assentir.",
+    "my": "「うなずく」= ခေါင်းညိတ်သည်။",
+    "th": "「うなずく」= พยักหน้า"
+   },
+   "vocab": [
+    {
+     "word": "だまる",
+     "reading": "だまる",
+     "meanings": {
+      "vi": "im lặng",
+      "en": "to be silent",
+      "zh-Hans": "沉默",
+      "zh-Hant": "沉默",
+      "ko": "입을 다물다",
+      "tl": "manahimik",
+      "ne": "चुप लाग्नु",
+      "id": "diam",
+      "pt": "calar-se",
+      "my": "တိတ်ဆိတ်သည်",
+      "th": "เงียบ"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "うなずく",
+     "reading": "うなずく",
+     "meanings": {
+      "vi": "gật đầu",
+      "en": "to nod",
+      "zh-Hans": "点头",
+      "zh-Hant": "點頭",
+      "ko": "끄덕이다",
+      "tl": "tumango",
+      "ne": "टाउको हल्लाउनु",
+      "id": "mengangguk",
+      "pt": "assentir",
+      "my": "ခေါင်းညိတ်သည်",
+      "th": "พยักหน้า"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=74.98,77.88",
+   "t": [
+    74.98,
+    77.88
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "また、ある日のことです。",
+   "furigana": [
+    {
+     "surface": "また、ある",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "のことです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mata, aru hi no koto desu.",
+   "translations": {
+    "vi": "Lại có một ngày khác.",
+    "en": "Then there was another day.",
+    "zh-Hans": "又有一天。",
+    "zh-Hant": "又有一天。",
+    "ko": "또 어느 날의 일입니다.",
+    "tl": "Isa pang araw.",
+    "ne": "अर्को एक दिनको कुरा।",
+    "id": "Lalu, pada suatu hari yang lain.",
+    "pt": "Houve também outro dia.",
+    "my": "နောက်တစ်နေ့ ဖြစ်သည်။",
+    "th": "อีกวันหนึ่ง"
+   },
+   "grammarNote": {
+    "vi": "「また」= lại, thêm nữa.",
+    "en": "また = \"again, also\".",
+    "zh-Hans": "「また」＝又。",
+    "zh-Hant": "「また」＝又。",
+    "ko": "「また」= 또.",
+    "tl": "また = muli.",
+    "ne": "「また」= फेरि।",
+    "id": "また = lagi.",
+    "pt": "また = também.",
+    "my": "「また」= တစ်ဖန်။",
+    "th": "「また」= อีก"
+   },
+   "vocab": [],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=78.48,80.97",
+   "t": [
+    78.48,
+    80.97
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "子路が、古い本ばかり読む弟子を見て、笑いました。",
+   "furigana": [
+    {
+     "surface": "子路",
+     "reading": "しろ"
+    },
+    {
+     "surface": "が、",
+     "reading": ""
+    },
+    {
+     "surface": "古",
+     "reading": "ふる"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "本",
+     "reading": "ほん"
+    },
+    {
+     "surface": "ばかり",
+     "reading": ""
+    },
+    {
+     "surface": "読",
+     "reading": "よ"
+    },
+    {
+     "surface": "む",
+     "reading": ""
+    },
+    {
+     "surface": "弟子",
+     "reading": "でし"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "て、",
+     "reading": ""
+    },
+    {
+     "surface": "笑",
+     "reading": "わら"
+    },
+    {
+     "surface": "いました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shiro ga, furui hon bakari yomu deshi o mite, waraimashita.",
+   "translations": {
+    "vi": "Tử Lộ nhìn một người học trò chỉ toàn đọc sách cũ, rồi bật cười.",
+    "en": "Zilu saw a disciple who read nothing but old books, and laughed.",
+    "zh-Hans": "子路看到一个只读旧书的弟子，笑了起来。",
+    "zh-Hant": "子路看到一個只讀舊書的弟子，笑了起來。",
+    "ko": "자로가 옛날 책만 읽는 제자를 보고 웃었습니다.",
+    "tl": "Nakita ni Zilu ang isang alagad na puro lumang aklat ang binabasa, at natawa siya.",
+    "ne": "जिलुले पुराना किताब मात्र पढ्ने एक चेलालाई देखेर हाँसे।",
+    "id": "Zilu melihat seorang murid yang hanya membaca buku-buku lama, lalu tertawa.",
+    "pt": "Zilu viu um discípulo que só lia livros antigos e riu.",
+    "my": "ဇီလူက စာအုပ်ဟောင်းတွေချည်း ဖတ်နေတဲ့ တပည့်တစ်ယောက်ကို မြင်ပြီး ရယ်သည်။",
+    "th": "จื๊อลู่เห็นศิษย์คนหนึ่งที่อ่านแต่หนังสือเก่า แล้วก็หัวเราะ"
+   },
+   "grammarNote": {
+    "vi": "「〜ばかり」= chỉ toàn …. 「古い」= cũ.",
+    "en": "〜ばかり = \"nothing but …\". 古い = \"old\".",
+    "zh-Hans": "「〜ばかり」＝光是……",
+    "zh-Hant": "「〜ばかり」＝光是……",
+    "ko": "「〜ばかり」= …만.",
+    "tl": "〜ばかり = puro.",
+    "ne": "「〜ばかり」= मात्र।",
+    "id": "〜ばかり = hanya.",
+    "pt": "〜ばかり = só.",
+    "my": "「〜ばかり」= ချည်း။",
+    "th": "「〜ばかり」= แต่"
+   },
+   "vocab": [
+    {
+     "word": "古い",
+     "reading": "ふるい",
+     "meanings": {
+      "vi": "cũ",
+      "en": "old",
+      "zh-Hans": "旧",
+      "zh-Hant": "舊",
+      "ko": "오래되다",
+      "tl": "luma",
+      "ne": "पुरानो",
+      "id": "lama",
+      "pt": "antigo",
+      "my": "ဟောင်းသော",
+      "th": "เก่า"
+     },
+     "level": "N5"
+    },
+    {
+     "word": "笑う",
+     "reading": "わらう",
+     "meanings": {
+      "vi": "cười",
+      "en": "to laugh",
+      "zh-Hans": "笑",
+      "zh-Hant": "笑",
+      "ko": "웃다",
+      "tl": "tumawa",
+      "ne": "हाँस्नु",
+      "id": "tertawa",
+      "pt": "rir",
+      "my": "ရယ်သည်",
+      "th": "หัวเราะ"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=81.57,86.56",
+   "t": [
+    81.57,
+    86.56
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「先生、古いことを勉強して、何になるんですか。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "先生",
+     "reading": "せんせい"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "古",
+     "reading": "ふる"
+    },
+    {
+     "surface": "いことを",
+     "reading": ""
+    },
+    {
+     "surface": "勉強",
+     "reading": "べんきょう"
+    },
+    {
+     "surface": "して、",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "になるんですか。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Sensei, furui koto o benkyou shite, nani ni naru n desu ka.”",
+   "translations": {
+    "vi": "\"Thưa thầy, học những chuyện xưa cũ thì được gì ạ?\"",
+    "en": "\"Teacher, what good is studying old things?\"",
+    "zh-Hans": "\"老师，学那些旧东西有什么用？\"",
+    "zh-Hant": "「老師，學那些舊東西有什麼用？」",
+    "ko": "\"선생님, 옛날 일을 공부해서 뭐가 됩니까?\"",
+    "tl": "\"Guro, ano'ng silbi ng pag-aaral ng mga lumang bagay?\"",
+    "ne": "\"गुरु, पुराना कुरा पढेर के हुन्छ?\"",
+    "id": "\"Guru, apa gunanya mempelajari hal-hal lama?\"",
+    "pt": "\"Mestre, de que adianta estudar coisas antigas?\"",
+    "my": "\"ဆရာ၊ အဟောင်းတွေကို လေ့လာလို့ ဘာဖြစ်လာမှာလဲ။\"",
+    "th": "\"อาจารย์ เรียนเรื่องเก่า ๆ ไปจะได้อะไรครับ\""
+   },
+   "grammarNote": {
+    "vi": "「何になる」= được ích gì, để làm gì.",
+    "en": "何になる = \"what good does it do\".",
+    "zh-Hans": "「何になる」＝有什么用。",
+    "zh-Hant": "「何になる」＝有什麼用。",
+    "ko": "「何になる」= 뭐가 되나.",
+    "tl": "何になる = ano'ng silbi.",
+    "ne": "「何になる」= के हुन्छ।",
+    "id": "何になる = apa gunanya.",
+    "pt": "何になる = de que adianta.",
+    "my": "「何になる」= ဘာဖြစ်လာမလဲ။",
+    "th": "「何になる」= ได้อะไร"
+   },
+   "vocab": [
+    {
+     "word": "勉強",
+     "reading": "べんきょう",
+     "meanings": {
+      "vi": "việc học",
+      "en": "study",
+      "zh-Hans": "学习",
+      "zh-Hant": "學習",
+      "ko": "공부",
+      "tl": "pag-aaral",
+      "ne": "पढाइ",
+      "id": "belajar",
+      "pt": "estudo",
+      "my": "စာလေ့လာခြင်း",
+      "th": "การเรียน"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=87.46,91.43",
+   "t": [
+    87.46,
+    91.43
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「古いことをよく勉強すると、新しいことが見えてくる。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "古",
+     "reading": "ふる"
+    },
+    {
+     "surface": "いことをよく",
+     "reading": ""
+    },
+    {
+     "surface": "勉強",
+     "reading": "べんきょう"
+    },
+    {
+     "surface": "すると、",
+     "reading": ""
+    },
+    {
+     "surface": "新",
+     "reading": "あたら"
+    },
+    {
+     "surface": "しいことが",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "えてくる。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Furui koto o yoku benkyou suru to, atarashii koto ga miete kuru.”",
+   "translations": {
+    "vi": "\"Học kỹ những điều cũ thì sẽ thấy được những điều mới.\"",
+    "en": "\"If you study old things well, new things come into view.\"",
+    "zh-Hans": "\"好好学习旧的东西，就能看见新的东西。\"",
+    "zh-Hant": "「好好學習舊的東西，就能看見新的東西。」",
+    "ko": "\"옛것을 잘 공부하면, 새로운 것이 보이게 된단다.\"",
+    "tl": "\"Kapag pinag-aralan mong mabuti ang luma, makikita mo ang bago.\"",
+    "ne": "\"पुरानो कुरा राम्ररी पढ्यो भने नयाँ कुरा देखिन थाल्छ।\"",
+    "id": "\"Kalau mempelajari yang lama dengan baik, yang baru akan terlihat.\"",
+    "pt": "\"Estudando bem o antigo, o novo aparece.\"",
+    "my": "\"အဟောင်းကို သေချာလေ့လာရင် အသစ်ကို မြင်လာမယ်။\"",
+    "th": "\"ถ้าเรียนเรื่องเก่าให้ดี ก็จะมองเห็นเรื่องใหม่\""
+   },
+   "grammarNote": {
+    "vi": "「〜と」= hễ … thì. 「見えてくる」= dần dần thấy ra.",
+    "en": "〜と = \"when/if …\". 見えてくる = \"to come into view\".",
+    "zh-Hans": "「〜と」＝一……就。「見えてくる」＝逐渐看见。",
+    "zh-Hant": "「見えてくる」＝逐漸看見。",
+    "ko": "「見えてくる」= 보이게 되다.",
+    "tl": "見えてくる = makikita.",
+    "ne": "「見えてくる」= देखिन थाल्नु।",
+    "id": "見えてくる = mulai terlihat.",
+    "pt": "見えてくる = aparecer.",
+    "my": "「見えてくる」= မြင်လာသည်။",
+    "th": "「見えてくる」= มองเห็นขึ้นมา"
+   },
+   "vocab": [
+    {
+     "word": "新しい",
+     "reading": "あたらしい",
+     "meanings": {
+      "vi": "mới",
+      "en": "new",
+      "zh-Hans": "新",
+      "zh-Hant": "新",
+      "ko": "새롭다",
+      "tl": "bago",
+      "ne": "नयाँ",
+      "id": "baru",
+      "pt": "novo",
+      "my": "သစ်သော",
+      "th": "ใหม่"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=92.33,97.25",
+   "t": [
+    92.33,
+    97.25
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「そういう人こそ、先生になれるんだよ。」",
+   "furigana": [
+    {
+     "surface": "「そういう",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "こそ、",
+     "reading": ""
+    },
+    {
+     "surface": "先生",
+     "reading": "せんせい"
+    },
+    {
+     "surface": "になれるんだよ。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Souiu hito koso, sensei ni nareru n da yo.”",
+   "translations": {
+    "vi": "\"Người như thế mới có thể làm thầy được.\"",
+    "en": "\"Only such a person can become a teacher.\"",
+    "zh-Hans": "\"这样的人，才能当老师。\"",
+    "zh-Hant": "「這樣的人，才能當老師。」",
+    "ko": "\"그런 사람이야말로 스승이 될 수 있단다.\"",
+    "tl": "\"Ang ganoong tao ang puwedeng maging guro.\"",
+    "ne": "\"यस्तो मान्छे मात्र गुरु बन्न सक्छ।\"",
+    "id": "\"Orang seperti itulah yang bisa menjadi guru.\"",
+    "pt": "\"Só alguém assim pode ser mestre.\"",
+    "my": "\"ဒီလိုလူမှသာ ဆရာ ဖြစ်နိုင်တယ်။\"",
+    "th": "\"คนแบบนั้นแหละ ถึงจะเป็นครูได้\""
+   },
+   "grammarNote": {
+    "vi": "「〜こそ」= chính …, mới là …. 「なれる」= có thể trở thành.",
+    "en": "〜こそ = \"precisely, only\". なれる = \"can become\".",
+    "zh-Hans": "「〜こそ」＝正是，才。",
+    "zh-Hant": "「〜こそ」＝正是，才。",
+    "ko": "「〜こそ」= …야말로.",
+    "tl": "〜こそ = siya mismo.",
+    "ne": "「〜こそ」= नै।",
+    "id": "〜こそ = justru.",
+    "pt": "〜こそ = justamente.",
+    "my": "「〜こそ」= မှသာ။",
+    "th": "「〜こそ」= นั่นแหละ"
+   },
+   "vocab": [
+    {
+     "word": "先生",
+     "reading": "せんせい",
+     "meanings": {
+      "vi": "thầy giáo",
+      "en": "teacher",
+      "zh-Hans": "老师",
+      "zh-Hant": "老師",
+      "ko": "선생님",
+      "tl": "guro",
+      "ne": "गुरु",
+      "id": "guru",
+      "pt": "professor",
+      "my": "ဆရာ",
+      "th": "ครู"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=97.85,101.19",
+   "t": [
+    97.85,
+    101.19
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "これが、「温故知新」という言葉です。",
+   "furigana": [
+    {
+     "surface": "これが、「",
+     "reading": ""
+    },
+    {
+     "surface": "温故知新",
+     "reading": "おんこちしん"
+    },
+    {
+     "surface": "」という",
+     "reading": ""
+    },
+    {
+     "surface": "言葉",
+     "reading": "ことば"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kore ga, “Onkochishin” to iu kotoba desu.",
+   "translations": {
+    "vi": "Đó chính là câu \"Ôn cố tri tân\".",
+    "en": "This is the saying \"Learn the new by reviewing the old.\"",
+    "zh-Hans": "这就是\"温故知新\"这句话。",
+    "zh-Hant": "這就是「溫故知新」這句話。",
+    "ko": "이것이 '온고지신'이라는 말입니다.",
+    "tl": "Ito ang kasabihang \"matuto ng bago sa pagbalik-aral sa luma.\"",
+    "ne": "यही \"पुरानो दोहोर्याएर नयाँ जान्नु\" भन्ने भनाइ हो।",
+    "id": "Inilah ungkapan \"mempelajari yang lama untuk memahami yang baru\".",
+    "pt": "É a máxima \"rever o antigo para conhecer o novo\".",
+    "my": "ဤသည်မှာ \"အဟောင်းကို ပြန်လေ့လာ၍ အသစ်ကို သိ\" ဟူသော စကား ဖြစ်သည်။",
+    "th": "นี่คือคำว่า \"ทบทวนของเก่า รู้ของใหม่\""
+   },
+   "grammarNote": {
+    "vi": "「温故知新」= ôn cũ biết mới, thành ngữ 4 chữ vẫn dùng ở Nhật ngày nay.",
+    "en": "温故知新 = \"review the old, learn the new\", a four-character idiom still used in Japan.",
+    "zh-Hans": "「温故知新」＝温故知新，日本至今常用的四字成语。",
+    "zh-Hant": "「温故知新」＝溫故知新。",
+    "ko": "「温故知新」= 온고지신.",
+    "tl": "温故知新 = idyomang apat na kanji.",
+    "ne": "「温故知新」= चार अक्षरको उखान।",
+    "id": "温故知新 = idiom empat huruf.",
+    "pt": "温故知新 = expressão de quatro kanji.",
+    "my": "「温故知新」= စာလုံးလေးလုံး ဆိုရိုး။",
+    "th": "「温故知新」= สำนวนสี่คำ"
+   },
+   "vocab": [
+    {
+     "word": "温故知新",
+     "reading": "おんこちしん",
+     "meanings": {
+      "vi": "ôn cũ biết mới",
+      "en": "learn the new by reviewing the old",
+      "zh-Hans": "温故知新",
+      "zh-Hant": "溫故知新",
+      "ko": "온고지신",
+      "tl": "matuto sa luma",
+      "ne": "पुरानोबाट नयाँ",
+      "id": "belajar dari yang lama",
+      "pt": "rever o antigo",
+      "my": "အဟောင်းမှ အသစ်",
+      "th": "ทบทวนเก่ารู้ใหม่"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "言葉",
+     "reading": "ことば",
+     "meanings": {
+      "vi": "lời, câu nói",
+      "en": "words, saying",
+      "zh-Hans": "话",
+      "zh-Hant": "話",
+      "ko": "말",
+      "tl": "salita",
+      "ne": "भनाइ",
+      "id": "kata-kata",
+      "pt": "palavras",
+      "my": "စကား",
+      "th": "คำพูด"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=102.09,105.53",
+   "t": [
+    102.09,
+    105.53
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "年をとった孔子は、自分の人生をこう話しました。",
+   "furigana": [
+    {
+     "surface": "年",
+     "reading": "とし"
+    },
+    {
+     "surface": "をとった",
+     "reading": ""
+    },
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "人生",
+     "reading": "じんせい"
+    },
+    {
+     "surface": "をこう",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はな"
+    },
+    {
+     "surface": "しました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Toshi o totta koushi wa, jibun no jinsei o kou hanashimashita.",
+   "translations": {
+    "vi": "Khi đã về già, Khổng Tử kể về cuộc đời mình như thế này.",
+    "en": "In old age, Confucius described his own life like this.",
+    "zh-Hans": "上了年纪的孔子，这样讲述自己的人生。",
+    "zh-Hant": "上了年紀的孔子，這樣講述自己的人生。",
+    "ko": "나이가 든 공자는 자신의 인생을 이렇게 이야기했습니다.",
+    "tl": "Nang tumanda na, ganito ang paglalarawan ni Confucius sa kanyang buhay.",
+    "ne": "बूढा भएपछि कन्फ्युसियसले आफ्नो जीवनबारे यसो भने।",
+    "id": "Saat sudah tua, Konfusius menceritakan hidupnya begini.",
+    "pt": "Já velho, Confúcio descreveu sua vida assim.",
+    "my": "အသက်ကြီးလာသော ကွန်ဖြူးရှပ်က မိမိဘဝကို ဤသို့ ပြောပြသည်။",
+    "th": "เมื่อแก่ตัวลง ขงจื๊อเล่าถึงชีวิตตัวเองไว้แบบนี้"
+   },
+   "grammarNote": {
+    "vi": "「年をとる」= có tuổi, già đi. 「人生」= cuộc đời.",
+    "en": "年をとる = \"to grow old\". 人生 = \"life\".",
+    "zh-Hans": "「年をとる」＝上年纪。「人生」＝人生。",
+    "zh-Hant": "「年をとる」＝上年紀。",
+    "ko": "「年をとる」= 나이를 먹다.",
+    "tl": "年をとる = tumanda.",
+    "ne": "「年をとる」= बूढो हुनु।",
+    "id": "年をとる = menua.",
+    "pt": "年をとる = envelhecer.",
+    "my": "「年をとる」= အသက်ကြီးသည်။",
+    "th": "「年をとる」= แก่ตัว"
+   },
+   "vocab": [
+    {
+     "word": "人生",
+     "reading": "じんせい",
+     "meanings": {
+      "vi": "cuộc đời",
+      "en": "life",
+      "zh-Hans": "人生",
+      "zh-Hant": "人生",
+      "ko": "인생",
+      "tl": "buhay",
+      "ne": "जीवन",
+      "id": "hidup",
+      "pt": "vida",
+      "my": "ဘဝ",
+      "th": "ชีวิต"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=106.13,111.03",
+   "t": [
+    106.13,
+    111.03
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「わたしは十五歳で、学ぼうと決めた。」",
+   "furigana": [
+    {
+     "surface": "「わたしは",
+     "reading": ""
+    },
+    {
+     "surface": "十五歳",
+     "reading": "じゅうごさい"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "学",
+     "reading": "まな"
+    },
+    {
+     "surface": "ぼうと",
+     "reading": ""
+    },
+    {
+     "surface": "決",
+     "reading": "き"
+    },
+    {
+     "surface": "めた。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Watashi wa juugosai de, manabou to kimeta.”",
+   "translations": {
+    "vi": "\"Năm mười lăm tuổi, ta quyết chí học.\"",
+    "en": "\"At fifteen, I set my heart on learning.\"",
+    "zh-Hans": "\"我十五岁时，决心求学。\"",
+    "zh-Hant": "「我十五歲時，決心求學。」",
+    "ko": "\"나는 열다섯에 배우기로 마음먹었다.\"",
+    "tl": "\"Sa edad na labinlima, nagpasya akong mag-aral.\"",
+    "ne": "\"पन्ध्र वर्षमा मैले सिक्ने निधो गरेँ।\"",
+    "id": "\"Pada usia lima belas, aku bertekad untuk belajar.\"",
+    "pt": "\"Aos quinze anos, decidi dedicar-me ao estudo.\"",
+    "my": "\"အသက်ဆယ့်ငါးနှစ်မှာ ငါ သင်ယူဖို့ ဆုံးဖြတ်ခဲ့တယ်။\"",
+    "th": "\"อายุสิบห้า ข้าตั้งใจศึกษา\""
+   },
+   "grammarNote": {
+    "vi": "「〜ようと決める」= quyết định sẽ …. Nguyên văn: \"吾十有五にして学に志す\".",
+    "en": "〜ようと決める = \"to decide to …\". Original: \"At fifteen I set my heart on learning.\"",
+    "zh-Hans": "原文：\"吾十有五而志于学。\"",
+    "zh-Hant": "原文：「吾十有五而志於學。」",
+    "ko": "원문: 오십유오이지우학.",
+    "tl": "Orihinal: \"Sa labinlima, itinuon ko ang puso sa pag-aaral.\"",
+    "ne": "मूल: \"पन्ध्रमा सिक्नमा मन लगाएँ।\"",
+    "id": "Aslinya: \"Usia lima belas aku bertekad belajar.\"",
+    "pt": "Original: \"Aos quinze, voltei-me ao estudo.\"",
+    "my": "မူရင်း: \"ဆယ့်ငါးနှစ်တွင် သင်ယူရန် စိတ်ချသည်။\"",
+    "th": "ต้นฉบับ: \"สิบห้าตั้งใจศึกษา\""
+   },
+   "vocab": [
+    {
+     "word": "決める",
+     "reading": "きめる",
+     "meanings": {
+      "vi": "quyết định",
+      "en": "to decide",
+      "zh-Hans": "决定",
+      "zh-Hant": "決定",
+      "ko": "정하다",
+      "tl": "magpasya",
+      "ne": "निधो गर्नु",
+      "id": "memutuskan",
+      "pt": "decidir",
+      "my": "ဆုံးဖြတ်သည်",
+      "th": "ตัดสินใจ"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=111.93,115.21",
+   "t": [
+    111.93,
+    115.21
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「三十歳で、自分の足で立てるようになった。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "三十歳",
+     "reading": "さんじゅっさい"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "足",
+     "reading": "あし"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "立",
+     "reading": "た"
+    },
+    {
+     "surface": "てるようになった。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Sanjussai de, jibun no ashi de tateru you ni natta.”",
+   "translations": {
+    "vi": "\"Năm ba mươi tuổi, ta đã tự đứng vững trên đôi chân của mình.\"",
+    "en": "\"At thirty, I could stand on my own feet.\"",
+    "zh-Hans": "\"三十岁时，我能用自己的脚站立了。\"",
+    "zh-Hant": "「三十歲時，我能用自己的腳站立了。」",
+    "ko": "\"서른에 내 발로 설 수 있게 되었다.\"",
+    "tl": "\"Sa tatlumpu, nakatayo na ako sa sarili kong paa.\"",
+    "ne": "\"तीस वर्षमा म आफ्नै खुट्टामा उभिन सकेँ।\"",
+    "id": "\"Pada usia tiga puluh, aku bisa berdiri di atas kakiku sendiri.\"",
+    "pt": "\"Aos trinta, já me firmava nos próprios pés.\"",
+    "my": "\"အသက်သုံးဆယ်မှာ ကိုယ့်ခြေထောက်ပေါ် ကိုယ်ရပ်နိုင်လာတယ်။\"",
+    "th": "\"อายุสามสิบ ยืนได้ด้วยขาของตัวเอง\""
+   },
+   "grammarNote": {
+    "vi": "「〜ようになる」= trở nên có thể …. Nguyên văn: \"三十にして立つ\" (tam thập nhi lập).",
+    "en": "〜ようになる = \"come to be able to …\". Original: \"At thirty I stood firm.\"",
+    "zh-Hans": "原文：\"三十而立。\"",
+    "zh-Hant": "原文：「三十而立。」",
+    "ko": "원문: 삼십이립.",
+    "tl": "Orihinal: \"Sa tatlumpu, ako'y tumindig.\"",
+    "ne": "मूल: \"तीसमा उभिएँ।\"",
+    "id": "Aslinya: \"Tiga puluh aku berdiri teguh.\"",
+    "pt": "Original: \"Aos trinta, firmei-me.\"",
+    "my": "မူရင်း: \"သုံးဆယ်တွင် ရပ်တည်သည်။\"",
+    "th": "ต้นฉบับ: \"สามสิบตั้งตัวได้\""
+   },
+   "vocab": [
+    {
+     "word": "足",
+     "reading": "あし",
+     "meanings": {
+      "vi": "chân",
+      "en": "foot, leg",
+      "zh-Hans": "脚",
+      "zh-Hant": "腳",
+      "ko": "발",
+      "tl": "paa",
+      "ne": "खुट्टा",
+      "id": "kaki",
+      "pt": "pé",
+      "my": "ခြေထောက်",
+      "th": "ขา"
+     },
+     "level": "N5"
+    },
+    {
+     "word": "立つ",
+     "reading": "",
+     "meanings": {
+      "vi": "đứng",
+      "en": "to stand",
+      "zh-Hans": "站",
+      "zh-Hant": "站",
+      "ko": "서다",
+      "tl": "tumayo",
+      "ne": "उभिनु",
+      "id": "berdiri",
+      "pt": "ficar de pé",
+      "my": "ရပ်သည်",
+      "th": "ยืน"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=115.81,120.13",
+   "t": [
+    115.81,
+    120.13
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「四十歳で、もう迷わなくなった。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "四十歳",
+     "reading": "よんじゅっさい"
+    },
+    {
+     "surface": "で、もう",
+     "reading": ""
+    },
+    {
+     "surface": "迷",
+     "reading": "まよ"
+    },
+    {
+     "surface": "わなくなった。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Yonjussai de, mou mayowanaku natta.”",
+   "translations": {
+    "vi": "\"Năm bốn mươi tuổi, ta không còn do dự nữa.\"",
+    "en": "\"At forty, I no longer had doubts.\"",
+    "zh-Hans": "\"四十岁时，我不再迷惑了。\"",
+    "zh-Hant": "「四十歲時，我不再迷惑了。」",
+    "ko": "\"마흔에 더 이상 흔들리지 않게 되었다.\"",
+    "tl": "\"Sa apatnapu, wala na akong pag-aalinlangan.\"",
+    "ne": "\"चालीसमा मलाई दुविधा हुन छाड्यो।\"",
+    "id": "\"Pada usia empat puluh, aku tak lagi ragu.\"",
+    "pt": "\"Aos quarenta, já não tinha dúvidas.\"",
+    "my": "\"အသက်လေးဆယ်မှာ မဝေခွဲတော့ဘူး။\"",
+    "th": "\"อายุสี่สิบ ไม่หวั่นไหวอีก\""
+   },
+   "grammarNote": {
+    "vi": "「迷う」= phân vân, do dự, lạc lối. 「〜なくなる」= không còn … nữa.",
+    "en": "迷う = \"to be unsure, lose one's way\". 〜なくなる = \"to stop …-ing\".",
+    "zh-Hans": "「迷う」＝迷惑，犹豫。「〜なくなる」＝不再……",
+    "zh-Hant": "「迷う」＝迷惑。",
+    "ko": "「迷う」= 망설이다, 헤매다.",
+    "tl": "迷う = mag-alinlangan.",
+    "ne": "「迷う」= अलमलिनु।",
+    "id": "迷う = ragu.",
+    "pt": "迷う = hesitar.",
+    "my": "「迷う」= ဝေခွဲမရဖြစ်သည်။",
+    "th": "「迷う」= ลังเล"
+   },
+   "vocab": [
+    {
+     "word": "迷う",
+     "reading": "まよう",
+     "meanings": {
+      "vi": "do dự, lạc lối",
+      "en": "to be lost, hesitate",
+      "zh-Hans": "迷惑，犹豫",
+      "zh-Hant": "迷惑，猶豫",
+      "ko": "망설이다",
+      "tl": "mag-alinlangan",
+      "ne": "अलमलिनु",
+      "id": "ragu",
+      "pt": "hesitar",
+      "my": "ဝေခွဲမရဖြစ်သည်",
+      "th": "ลังเล"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=120.73,123.85",
+   "t": [
+    120.73,
+    123.85
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「五十歳で、天が自分に何をさせたいのか、わかった。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "五十歳",
+     "reading": "ごじゅっさい"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "天",
+     "reading": "てん"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "何",
+     "reading": "なに"
+    },
+    {
+     "surface": "をさせたいのか、わかった。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Gojussai de, ten ga jibun ni nani o sasetai no ka, wakatta.”",
+   "translations": {
+    "vi": "\"Năm năm mươi tuổi, ta hiểu được trời muốn mình làm gì.\"",
+    "en": "\"At fifty, I understood what Heaven wanted me to do.\"",
+    "zh-Hans": "\"五十岁时，我明白了上天要我做什么。\"",
+    "zh-Hant": "「五十歲時，我明白了上天要我做什麼。」",
+    "ko": "\"쉰에 하늘이 내게 무엇을 시키려 하는지 알았다.\"",
+    "tl": "\"Sa limampu, naunawaan ko kung ano ang nais ng Langit na gawin ko.\"",
+    "ne": "\"पचास वर्षमा स्वर्गले मलाई के गराउन चाहन्छ भन्ने बुझेँ।\"",
+    "id": "\"Pada usia lima puluh, aku mengerti apa yang Langit ingin kulakukan.\"",
+    "pt": "\"Aos cinquenta, compreendi o que o Céu queria de mim.\"",
+    "my": "\"အသက်ငါးဆယ်မှာ ကောင်းကင်က ငါ့ကို ဘာလုပ်စေချင်လဲ သိလာတယ်။\"",
+    "th": "\"อายุห้าสิบ เข้าใจว่าฟ้าต้องการให้ข้าทำอะไร\""
+   },
+   "grammarNote": {
+    "vi": "「天」= trời, ý trời. 「〜させたい」= muốn bắt (ai) làm. Nguyên văn: \"五十にして天命を知る\".",
+    "en": "天 = \"Heaven\". 〜させたい = \"want (someone) to do\". Original: \"At fifty I knew the mandate of Heaven.\"",
+    "zh-Hans": "原文：\"五十而知天命。\"",
+    "zh-Hant": "原文：「五十而知天命。」",
+    "ko": "원문: 오십이지천명.",
+    "tl": "Orihinal: \"Sa limampu, nalaman ko ang utos ng Langit.\"",
+    "ne": "मूल: \"पचासमा स्वर्गको आदेश जानेँ।\"",
+    "id": "Aslinya: \"Lima puluh aku tahu titah Langit.\"",
+    "pt": "Original: \"Aos cinquenta, conheci o mandato do Céu.\"",
+    "my": "မူရင်း: \"ငါးဆယ်တွင် ကောင်းကင်အမိန့်ကို သိသည်။\"",
+    "th": "ต้นฉบับ: \"ห้าสิบรู้ลิขิตฟ้า\""
+   },
+   "vocab": [
+    {
+     "word": "天",
+     "reading": "てん",
+     "meanings": {
+      "vi": "trời",
+      "en": "Heaven",
+      "zh-Hans": "天",
+      "zh-Hant": "天",
+      "ko": "하늘",
+      "tl": "Langit",
+      "ne": "स्वर्ग",
+      "id": "Langit",
+      "pt": "Céu",
+      "my": "ကောင်းကင်",
+      "th": "ฟ้า"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=124.45,129.7",
+   "t": [
+    124.45,
+    129.7
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「六十歳で、人の話をすなおに聞けるようになった。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "六十歳",
+     "reading": "ろくじゅっさい"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "をすなおに",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "けるようになった。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Rokujussai de, hito no hanashi o su nao ni kikeru you ni natta.”",
+   "translations": {
+    "vi": "\"Năm sáu mươi tuổi, ta đã có thể lắng nghe người khác một cách cởi mở.\"",
+    "en": "\"At sixty, I could listen to others with an open mind.\"",
+    "zh-Hans": "\"六十岁时，我能坦然地倾听别人的话了。\"",
+    "zh-Hant": "「六十歲時，我能坦然地傾聽別人的話了。」",
+    "ko": "\"예순에 남의 말을 순순히 들을 수 있게 되었다.\"",
+    "tl": "\"Sa animnapu, nakikinig na ako sa iba nang bukas ang isip.\"",
+    "ne": "\"साठी वर्षमा अरूको कुरा सरल मनले सुन्न सक्ने भएँ।\"",
+    "id": "\"Pada usia enam puluh, aku bisa mendengarkan orang lain dengan lapang hati.\"",
+    "pt": "\"Aos sessenta, já ouvia os outros de mente aberta.\"",
+    "my": "\"အသက်ခြောက်ဆယ်မှာ သူများစကားကို ရိုးရိုးသားသား နားထောင်နိုင်လာတယ်။\"",
+    "th": "\"อายุหกสิบ ฟังผู้อื่นได้ด้วยใจเปิดกว้าง\""
+   },
+   "grammarNote": {
+    "vi": "「すなおに」= ngoan ngoãn, cởi mở, không cố chấp. Nguyên văn: \"六十にして耳順う\".",
+    "en": "すなおに = \"openly, without resistance\". Original: \"At sixty my ear was attuned.\"",
+    "zh-Hans": "「すなおに」＝坦然，顺从。原文：\"六十而耳顺。\"",
+    "zh-Hant": "原文：「六十而耳順。」",
+    "ko": "원문: 육십이이순.",
+    "tl": "Orihinal: \"Sa animnapu, sumunod ang aking tainga.\"",
+    "ne": "मूल: \"साठीमा कान नम्र भयो।\"",
+    "id": "Aslinya: \"Enam puluh telingaku menurut.\"",
+    "pt": "Original: \"Aos sessenta, meu ouvido se harmonizou.\"",
+    "my": "မူရင်း: \"ခြောက်ဆယ်တွင် နားက လိုက်လျောသည်။\"",
+    "th": "ต้นฉบับ: \"หกสิบหูรับฟัง\""
+   },
+   "vocab": [
+    {
+     "word": "すなお",
+     "reading": "",
+     "meanings": {
+      "vi": "cởi mở, ngoan",
+      "en": "honest, open-minded",
+      "zh-Hans": "坦率",
+      "zh-Hant": "坦率",
+      "ko": "순순하다",
+      "tl": "bukas ang isip",
+      "ne": "सरल",
+      "id": "lapang hati",
+      "pt": "aberto",
+      "my": "ရိုးသားသော",
+      "th": "ว่าง่าย"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=130.3,135.27",
+   "t": [
+    130.3,
+    135.27
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「七十歳で、好きなようにしても、道をはずれなくなった。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "七十歳",
+     "reading": "ななじゅっさい"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "好",
+     "reading": "す"
+    },
+    {
+     "surface": "きなようにしても、",
+     "reading": ""
+    },
+    {
+     "surface": "道",
+     "reading": "みち"
+    },
+    {
+     "surface": "をはずれなくなった。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Nanajussai de, sukina you ni shite mo, michi o hazurenaku natta.”",
+   "translations": {
+    "vi": "\"Năm bảy mươi tuổi, dù làm theo ý muốn, ta cũng không còn đi chệch đường đúng.\"",
+    "en": "\"At seventy, I could follow my heart's desire without straying from the path.\"",
+    "zh-Hans": "\"七十岁时，就算随心所欲，也不会偏离正道了。\"",
+    "zh-Hant": "「七十歲時，就算隨心所欲，也不會偏離正道了。」",
+    "ko": "\"일흔에는 하고 싶은 대로 해도 길에서 벗어나지 않게 되었다.\"",
+    "tl": "\"Sa pitumpu, kahit sundin ko ang gusto ko, hindi na ako lumilihis sa tamang daan.\"",
+    "ne": "\"सत्तरी वर्षमा मनले चाहेजस्तो गरे पनि बाटो बिराउन छाडेँ।\"",
+    "id": "\"Pada usia tujuh puluh, meski mengikuti kehendak hati, aku tak lagi menyimpang dari jalan.\"",
+    "pt": "\"Aos setenta, seguia meu coração sem me desviar do caminho.\"",
+    "my": "\"အသက်ခုနစ်ဆယ်မှာ ကိုယ်ကြိုက်သလို လုပ်ပေမယ့် လမ်းမှန်က မသွေတော့ဘူး။\"",
+    "th": "\"อายุเจ็ดสิบ ทำตามใจก็ไม่ออกนอกลู่นอกทาง\""
+   },
+   "grammarNote": {
+    "vi": "「好きなように」= theo ý thích. 「はずれる」= lệch ra, trật. Nguyên văn: \"七十にして心の欲する所に従えども矩を踰えず\".",
+    "en": "好きなように = \"as one likes\". はずれる = \"to stray\". Original: \"At seventy I followed my heart without overstepping.\"",
+    "zh-Hans": "原文：\"七十而从心所欲，不逾矩。\"",
+    "zh-Hant": "原文：「七十而從心所欲，不踰矩。」",
+    "ko": "원문: 칠십이종심소욕불유구.",
+    "tl": "Orihinal: \"Sa pitumpu, sinunod ko ang puso nang hindi lumalampas.\"",
+    "ne": "मूल: \"सत्तरीमा मनले चाहेजस्तो गर्दा पनि सीमा नाघिनँ।\"",
+    "id": "Aslinya: \"Tujuh puluh aku menuruti hati tanpa melanggar batas.\"",
+    "pt": "Original: \"Aos setenta, seguia o coração sem transgredir.\"",
+    "my": "မူရင်း: \"ခုနစ်ဆယ်တွင် စိတ်လိုက်သော်လည်း နယ်မကျော်။\"",
+    "th": "ต้นฉบับ: \"เจ็ดสิบทำตามใจไม่ผิดกรอบ\""
+   },
+   "vocab": [
+    {
+     "word": "道",
+     "reading": "みち",
+     "meanings": {
+      "vi": "con đường, đạo",
+      "en": "path, way",
+      "zh-Hans": "道路",
+      "zh-Hant": "道路",
+      "ko": "길",
+      "tl": "daan",
+      "ne": "बाटो",
+      "id": "jalan",
+      "pt": "caminho",
+      "my": "လမ်း",
+      "th": "ทาง"
+     },
+     "level": "N5"
+    },
+    {
+     "word": "はずれる",
+     "reading": "はずれる",
+     "meanings": {
+      "vi": "lệch, trật",
+      "en": "to stray, come off",
+      "zh-Hans": "偏离",
+      "zh-Hant": "偏離",
+      "ko": "벗어나다",
+      "tl": "lumihis",
+      "ne": "बिराउनु",
+      "id": "menyimpang",
+      "pt": "desviar-se",
+      "my": "သွေဖည်သည်",
+      "th": "ออกนอก"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=135.87,141.1",
+   "t": [
+    135.87,
+    141.1
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "日本では、今でも四十歳を「不惑」と言います。",
+   "furigana": [
+    {
+     "surface": "日本",
+     "reading": "にほん"
+    },
+    {
+     "surface": "では、",
+     "reading": ""
+    },
+    {
+     "surface": "今",
+     "reading": "いま"
+    },
+    {
+     "surface": "でも",
+     "reading": ""
+    },
+    {
+     "surface": "四十歳",
+     "reading": "よんじゅっさい"
+    },
+    {
+     "surface": "を「",
+     "reading": ""
+    },
+    {
+     "surface": "不惑",
+     "reading": "ふわく"
+    },
+    {
+     "surface": "」と",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "います。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nihon deha, ima de mo yonjussai o “Fuwaku” to iimasu.",
+   "translations": {
+    "vi": "Ở Nhật, đến nay người ta vẫn gọi tuổi bốn mươi là \"bất hoặc\".",
+    "en": "In Japan, people still call the age of forty \"fuwaku.\"",
+    "zh-Hans": "在日本，至今仍把四十岁叫作\"不惑\"。",
+    "zh-Hant": "在日本，至今仍把四十歲叫作「不惑」。",
+    "ko": "일본에서는 지금도 마흔을 '불혹'이라고 합니다.",
+    "tl": "Sa Japan, tinatawag pa ring \"fuwaku\" ang edad na apatnapu.",
+    "ne": "जापानमा अहिले पनि चालीस वर्षलाई \"फुवाकु\" भनिन्छ।",
+    "id": "Di Jepang, usia empat puluh masih disebut \"fuwaku\".",
+    "pt": "No Japão, ainda hoje se chama os quarenta anos de \"fuwaku\".",
+    "my": "ဂျပန်တွင် ယနေ့ထိ အသက်လေးဆယ်ကို \"ဖူဝါကု\" ဟု ခေါ်သည်။",
+    "th": "ในญี่ปุ่น ทุกวันนี้ยังเรียกวัยสี่สิบว่า \"ฟุวาคุ\""
+   },
+   "grammarNote": {
+    "vi": "「不惑」= bất hoặc (không mê hoặc). Tiếng Việt cũng gọi tuổi 40 là \"tứ thập bất hoặc\".",
+    "en": "不惑 = \"free from doubt\", a name for age forty.",
+    "zh-Hans": "「不惑」＝不惑之年。",
+    "zh-Hant": "「不惑」＝不惑之年。",
+    "ko": "「不惑」= 불혹.",
+    "tl": "不惑 = walang alinlangan.",
+    "ne": "「不惑」= दुविधारहित।",
+    "id": "不惑 = tanpa keraguan.",
+    "pt": "不惑 = sem dúvidas.",
+    "my": "「不惑」= မဝေခွဲ။",
+    "th": "「不惑」= ไม่หวั่นไหว"
+   },
+   "vocab": [
+    {
+     "word": "不惑",
+     "reading": "ふわく",
+     "meanings": {
+      "vi": "tuổi bất hoặc (40)",
+      "en": "age forty, free from doubt",
+      "zh-Hans": "不惑",
+      "zh-Hant": "不惑",
+      "ko": "불혹",
+      "tl": "edad na apatnapu",
+      "ne": "चालीस वर्ष",
+      "id": "usia empat puluh",
+      "pt": "quarenta anos",
+      "my": "အသက်လေးဆယ်",
+      "th": "วัยสี่สิบ"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=142,146.3",
+   "t": [
+    142,
+    146.3
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「もう迷わない年」という意味です。",
+   "furigana": [
+    {
+     "surface": "「もう",
+     "reading": ""
+    },
+    {
+     "surface": "迷",
+     "reading": "まよ"
+    },
+    {
+     "surface": "わない",
+     "reading": ""
+    },
+    {
+     "surface": "年",
+     "reading": "とし"
+    },
+    {
+     "surface": "」という",
+     "reading": ""
+    },
+    {
+     "surface": "意味",
+     "reading": "いみ"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Mou mayowanai toshi” to iu imi desu.",
+   "translations": {
+    "vi": "Nghĩa là \"độ tuổi không còn do dự\".",
+    "en": "It means \"the age when you no longer waver.\"",
+    "zh-Hans": "意思是\"不再迷惑的年纪\"。",
+    "zh-Hant": "意思是「不再迷惑的年紀」。",
+    "ko": "'더 이상 망설이지 않는 나이'라는 뜻입니다.",
+    "tl": "Ibig sabihin, \"edad na hindi na nag-aalinlangan.\"",
+    "ne": "अर्थ हो, \"अब नअलमलिने उमेर\"।",
+    "id": "Artinya \"usia ketika tak lagi ragu\".",
+    "pt": "Significa \"a idade em que já não se hesita\".",
+    "my": "\"မဝေခွဲတော့သော အရွယ်\" ဟု အဓိပ္ပာယ်ရသည်။",
+    "th": "หมายถึง \"วัยที่ไม่ลังเลอีกแล้ว\""
+   },
+   "grammarNote": {
+    "vi": "「〜という意味」= có nghĩa là ….",
+    "en": "〜という意味 = \"meaning …\".",
+    "zh-Hans": "「〜という意味」＝意思是……",
+    "zh-Hant": "「〜という意味」＝意思是……",
+    "ko": "「〜という意味」= …라는 뜻.",
+    "tl": "〜という意味 = ibig sabihin.",
+    "ne": "「〜という意味」= भन्ने अर्थ।",
+    "id": "〜という意味 = artinya.",
+    "pt": "〜という意味 = significa.",
+    "my": "「〜という意味」= ဟု အဓိပ္ပာယ်။",
+    "th": "「〜という意味」= หมายถึง"
+   },
+   "vocab": [
+    {
+     "word": "意味",
+     "reading": "いみ",
+     "meanings": {
+      "vi": "ý nghĩa",
+      "en": "meaning",
+      "zh-Hans": "意思",
+      "zh-Hant": "意思",
+      "ko": "뜻",
+      "tl": "kahulugan",
+      "ne": "अर्थ",
+      "id": "arti",
+      "pt": "significado",
+      "my": "အဓိပ္ပာယ်",
+      "th": "ความหมาย"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=146.9,149.64",
+   "t": [
+    146.9,
+    149.64
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "でも、孔子は、はじめからりっぱな人ではありませんでした。",
+   "furigana": [
+    {
+     "surface": "でも、",
+     "reading": ""
+    },
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "は、はじめからりっぱな",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "ではありませんでした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Demo, koushi wa, hajime kara rippana hito de wa arimasen deshita.",
+   "translations": {
+    "vi": "Nhưng ngay từ đầu, Khổng Tử đâu phải là bậc vĩ nhân.",
+    "en": "But Confucius was not a great man from the start.",
+    "zh-Hans": "但孔子并不是一开始就很了不起。",
+    "zh-Hant": "但孔子並不是一開始就很了不起。",
+    "ko": "하지만 공자는 처음부터 훌륭한 사람이 아니었습니다.",
+    "tl": "Pero hindi dakila si Confucius mula sa simula.",
+    "ne": "तर कन्फ्युसियस सुरुदेखि नै महान् थिएनन्।",
+    "id": "Namun Konfusius bukan orang hebat sejak awal.",
+    "pt": "Mas Confúcio não foi um grande homem desde o início.",
+    "my": "သို့သော် ကွန်ဖြူးရှပ်သည် အစကတည်းက ထူးချွန်သူ မဟုတ်ခဲ့ပါ။",
+    "th": "แต่ขงจื๊อไม่ได้เป็นคนยิ่งใหญ่มาตั้งแต่แรก"
+   },
+   "grammarNote": {
+    "vi": "「はじめから」= ngay từ đầu. 「りっぱ」= đáng nể, xuất sắc.",
+    "en": "はじめから = \"from the start\". りっぱ = \"splendid, admirable\".",
+    "zh-Hans": "「はじめから」＝从一开始。「りっぱ」＝了不起。",
+    "zh-Hant": "「りっぱ」＝了不起。",
+    "ko": "「りっぱ」= 훌륭하다.",
+    "tl": "りっぱ = dakila.",
+    "ne": "「りっぱ」= महान्।",
+    "id": "りっぱ = hebat.",
+    "pt": "りっぱ = admirável.",
+    "my": "「りっぱ」= ထူးချွန်။",
+    "th": "「りっぱ」= ยิ่งใหญ่"
+   },
+   "vocab": [
+    {
+     "word": "りっぱ",
+     "reading": "りっぱ",
+     "meanings": {
+      "vi": "đáng nể, xuất sắc",
+      "en": "splendid",
+      "zh-Hans": "了不起",
+      "zh-Hant": "了不起",
+      "ko": "훌륭하다",
+      "tl": "dakila",
+      "ne": "महान्",
+      "id": "hebat",
+      "pt": "esplêndido",
+      "my": "ထူးချွန်သော",
+      "th": "ยอดเยี่ยม"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=150.24,155.39",
+   "t": [
+    150.24,
+    155.39
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "若いころは、まずしくて、いろいろな仕事をしたそうです。",
+   "furigana": [
+    {
+     "surface": "若",
+     "reading": "わか"
+    },
+    {
+     "surface": "いころは、まずしくて、いろいろな",
+     "reading": ""
+    },
+    {
+     "surface": "仕事",
+     "reading": "しごと"
+    },
+    {
+     "surface": "をしたそうです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Wakai koro wa, mazushikute, iroirona shigoto o shita sou desu.",
+   "translations": {
+    "vi": "Nghe nói thuở trẻ ông nghèo và đã làm đủ thứ việc.",
+    "en": "It is said that when he was young he was poor and did all kinds of jobs.",
+    "zh-Hans": "据说他年轻时很穷，做过各种各样的工作。",
+    "zh-Hant": "據說他年輕時很窮，做過各種各樣的工作。",
+    "ko": "젊었을 때는 가난해서 여러 가지 일을 했다고 합니다.",
+    "tl": "Sinasabing noong bata pa siya ay mahirap siya at gumawa ng sari-saring trabaho.",
+    "ne": "भनिन्छ, युवा हुँदा उनी गरिब थिए र धेरै थरी काम गरे।",
+    "id": "Konon saat muda ia miskin dan melakukan berbagai pekerjaan.",
+    "pt": "Dizem que, na juventude, era pobre e fez todo tipo de trabalho.",
+    "my": "ငယ်စဉ်က ဆင်းရဲ၍ အလုပ်အမျိုးမျိုး လုပ်ခဲ့ရသည်ဟု ဆိုသည်။",
+    "th": "ว่ากันว่าตอนหนุ่มเขายากจน และทำงานมาหลายอย่าง"
+   },
+   "grammarNote": {
+    "vi": "「〜そうです」= nghe nói …. Luận ngữ (Tử Hãn): \"Thuở nhỏ ta hèn mọn, nên biết làm nhiều việc tầm thường.\"",
+    "en": "〜そうです = \"it is said …\". Analects: \"When young, I was of humble station, so I learned many menial skills.\"",
+    "zh-Hans": "「〜そうです」＝据说。《论语·子罕》：\"吾少也贱，故多能鄙事。\"",
+    "zh-Hant": "《論語·子罕》：「吾少也賤，故多能鄙事。」",
+    "ko": "「〜そうです」= …라고 합니다.",
+    "tl": "〜そうです = sinasabing.",
+    "ne": "「〜そうです」= भनिन्छ।",
+    "id": "〜そうです = konon.",
+    "pt": "〜そうです = dizem que.",
+    "my": "「〜そうです」= ဟု ဆိုသည်။",
+    "th": "「〜そうです」= ว่ากันว่า"
+   },
+   "vocab": [
+    {
+     "word": "若い",
+     "reading": "わかい",
+     "meanings": {
+      "vi": "trẻ",
+      "en": "young",
+      "zh-Hans": "年轻",
+      "zh-Hant": "年輕",
+      "ko": "젊다",
+      "tl": "bata",
+      "ne": "युवा",
+      "id": "muda",
+      "pt": "jovem",
+      "my": "ငယ်သော",
+      "th": "หนุ่มสาว"
+     },
+     "level": "N5"
+    },
+    {
+     "word": "仕事",
+     "reading": "しごと",
+     "meanings": {
+      "vi": "công việc",
+      "en": "job, work",
+      "zh-Hans": "工作",
+      "zh-Hant": "工作",
+      "ko": "일",
+      "tl": "trabaho",
+      "ne": "काम",
+      "id": "pekerjaan",
+      "pt": "trabalho",
+      "my": "အလုပ်",
+      "th": "งาน"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=155.99,161.28",
+   "t": [
+    155.99,
+    161.28
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "七十年かけて、少しずつ自分を育てたのです。",
+   "furigana": [
+    {
+     "surface": "七十年",
+     "reading": "ななじゅうねん"
+    },
+    {
+     "surface": "かけて、",
+     "reading": ""
+    },
+    {
+     "surface": "少",
+     "reading": "すこ"
+    },
+    {
+     "surface": "しずつ",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "育",
+     "reading": "そだ"
+    },
+    {
+     "surface": "てたのです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nanajuunen kakete, sukoshi zutsu jibun o sodateta no desu.",
+   "translations": {
+    "vi": "Ông đã mất bảy mươi năm để dần dần vun đắp chính mình.",
+    "en": "He spent seventy years growing himself little by little.",
+    "zh-Hans": "他花了七十年，一点一点地培养自己。",
+    "zh-Hant": "他花了七十年，一點一點地培養自己。",
+    "ko": "칠십 년에 걸쳐 조금씩 자신을 키운 것입니다.",
+    "tl": "Pitumpung taon niyang unti-unting pinalago ang sarili.",
+    "ne": "उनले सत्तरी वर्ष लगाएर बिस्तारै आफूलाई हुर्काए।",
+    "id": "Ia menghabiskan tujuh puluh tahun untuk menumbuhkan dirinya sedikit demi sedikit.",
+    "pt": "Levou setenta anos para se cultivar pouco a pouco.",
+    "my": "ခုနစ်ဆယ်နှစ်ကြာအောင် တဖြည်းဖြည်း ကိုယ့်ကိုယ်ကို ပျိုးထောင်ခဲ့သည်။",
+    "th": "เขาใช้เวลาเจ็ดสิบปี ค่อย ๆ ขัดเกลาตัวเอง"
+   },
+   "grammarNote": {
+    "vi": "「〜かけて」= mất (thời gian) để …. 「育てる」= nuôi dưỡng, vun đắp.",
+    "en": "〜かけて = \"spending (time)\". 育てる = \"to raise, grow\".",
+    "zh-Hans": "「〜かけて」＝花了……「育てる」＝培养。",
+    "zh-Hant": "「育てる」＝培養。",
+    "ko": "「育てる」= 키우다.",
+    "tl": "育てる = palaguin.",
+    "ne": "「育てる」= हुर्काउनु।",
+    "id": "育てる = menumbuhkan.",
+    "pt": "育てる = cultivar.",
+    "my": "「育てる」= ပျိုးထောင်သည်။",
+    "th": "「育てる」= เลี้ยงดู"
+   },
+   "vocab": [
+    {
+     "word": "育てる",
+     "reading": "そだてる",
+     "meanings": {
+      "vi": "nuôi dưỡng",
+      "en": "to raise, grow",
+      "zh-Hans": "培养",
+      "zh-Hant": "培養",
+      "ko": "키우다",
+      "tl": "palaguin",
+      "ne": "हुर्काउनु",
+      "id": "menumbuhkan",
+      "pt": "cultivar",
+      "my": "ပျိုးထောင်သည်",
+      "th": "เลี้ยงดู"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=161.88,165.87",
+   "t": [
+    161.88,
+    165.87
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "あなたは今、何歳の階段にいますか。",
+   "furigana": [
+    {
+     "surface": "あなたは",
+     "reading": ""
+    },
+    {
+     "surface": "今",
+     "reading": "いま"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "何歳",
+     "reading": "なんさい"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "階段",
+     "reading": "かいだん"
+    },
+    {
+     "surface": "にいますか。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Anata wa ima, nansai no kaidan ni imasu ka.",
+   "translations": {
+    "vi": "Còn bạn, bạn đang đứng ở bậc thang của tuổi nào?",
+    "en": "And you, which step of age are you standing on now?",
+    "zh-Hans": "你现在站在几岁的台阶上呢？",
+    "zh-Hant": "你現在站在幾歲的台階上呢？",
+    "ko": "당신은 지금 몇 살의 계단에 있나요?",
+    "tl": "Ikaw, nasa anong baitang ng edad ka ngayon?",
+    "ne": "तपाईं अहिले कति वर्षको खुड्किलोमा हुनुहुन्छ?",
+    "id": "Kalau kamu, sekarang ada di anak tangga usia berapa?",
+    "pt": "E você, em que degrau da idade está agora?",
+    "my": "သင်ကော၊ အခု ဘယ်အရွယ်ရဲ့ လှေကားထစ်မှာ ရောက်နေလဲ။",
+    "th": "แล้วคุณล่ะ ตอนนี้อยู่บนขั้นบันไดของวัยไหน"
+   },
+   "grammarNote": {
+    "vi": "「階段」= cầu thang, bậc thang. 「何歳」= mấy tuổi.",
+    "en": "階段 = \"stairs, steps\". 何歳 = \"what age\".",
+    "zh-Hans": "「階段」＝台阶。「何歳」＝几岁。",
+    "zh-Hant": "「階段」＝台階。",
+    "ko": "「階段」= 계단.",
+    "tl": "階段 = hagdan.",
+    "ne": "「階段」= खुड्किलो।",
+    "id": "階段 = tangga.",
+    "pt": "階段 = escada.",
+    "my": "「階段」= လှေကား။",
+    "th": "「階段」= บันได"
+   },
+   "vocab": [
+    {
+     "word": "階段",
+     "reading": "かいだん",
+     "meanings": {
+      "vi": "cầu thang",
+      "en": "stairs",
+      "zh-Hans": "台阶",
+      "zh-Hant": "台階",
+      "ko": "계단",
+      "tl": "hagdan",
+      "ne": "खुड्किलो",
+      "id": "tangga",
+      "pt": "escada",
+      "my": "လှေကား",
+      "th": "บันได"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=166.47,170.17",
+   "t": [
+    166.47,
+    170.17
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "迷っていても、だいじょうぶ。孔子も、四十歳までは迷っていたのですから。",
+   "furigana": [
+    {
+     "surface": "迷",
+     "reading": "まよ"
+    },
+    {
+     "surface": "っていても、だいじょうぶ。",
+     "reading": ""
+    },
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "も、",
+     "reading": ""
+    },
+    {
+     "surface": "四十歳",
+     "reading": "よんじゅっさい"
+    },
+    {
+     "surface": "までは",
+     "reading": ""
+    },
+    {
+     "surface": "迷",
+     "reading": "まよ"
+    },
+    {
+     "surface": "っていたのですから。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mayotte ite mo, daijoubu. Koushi mo, yonjussai made wa mayotte ita no desu kara.",
+   "translations": {
+    "vi": "Có đang phân vân cũng không sao. Vì Khổng Tử cũng đã phân vân cho đến năm bốn mươi tuổi mà.",
+    "en": "It's okay to feel lost. After all, Confucius himself wavered until he was forty.",
+    "zh-Hans": "就算在迷茫也没关系。因为孔子到四十岁之前也一直在迷茫呀。",
+    "zh-Hant": "就算在迷茫也沒關係。因為孔子到四十歲之前也一直在迷茫呀。",
+    "ko": "헤매고 있어도 괜찮아요. 공자도 마흔까지는 헤맸으니까요.",
+    "tl": "Ayos lang kung nag-aalinlangan ka. Si Confucius man ay nag-alinlangan hanggang apatnapu.",
+    "ne": "अलमलिएको भए पनि ठीक छ। कन्फ्युसियस पनि चालीससम्म अलमलिएका थिए।",
+    "id": "Tidak apa-apa kalau masih ragu. Konfusius pun ragu sampai usia empat puluh.",
+    "pt": "Tudo bem se estiver em dúvida. Até Confúcio hesitou até os quarenta.",
+    "my": "ဝေခွဲမရဖြစ်နေလည်း ကိစ္စမရှိပါ။ ကွန်ဖြူးရှပ်တောင် လေးဆယ်အထိ ဝေခွဲမရ ဖြစ်ခဲ့တာပဲ။",
+    "th": "ลังเลอยู่ก็ไม่เป็นไร เพราะขงจื๊อเองก็ลังเลมาจนอายุสี่สิบ"
+   },
+   "grammarNote": {
+    "vi": "「〜ても、だいじょうぶ」= dù … cũng không sao. 「〜のですから」= vì … mà (nêu lý do để an ủi).",
+    "en": "〜ても、だいじょうぶ = \"it's okay even if …\". 〜のですから = \"since, after all\".",
+    "zh-Hans": "「〜ても、だいじょうぶ」＝即使……也没关系。",
+    "zh-Hant": "「〜ても、だいじょうぶ」＝即使……也沒關係。",
+    "ko": "「〜ても、だいじょうぶ」= …해도 괜찮다.",
+    "tl": "〜ても、だいじょうぶ = ayos lang kahit.",
+    "ne": "「〜ても、だいじょうぶ」= … भए पनि ठीक।",
+    "id": "〜ても、だいじょうぶ = tak apa meski.",
+    "pt": "〜ても、だいじょうぶ = tudo bem mesmo que.",
+    "my": "「〜ても、だいじょうぶ」= … လည်း ကိစ္စမရှိ။",
+    "th": "「〜ても、だいじょうぶ」= … ก็ไม่เป็นไร"
+   },
+   "vocab": [
+    {
+     "word": "だいじょうぶ",
+     "reading": "だいじょうぶ",
+     "meanings": {
+      "vi": "không sao",
+      "en": "all right",
+      "zh-Hans": "没关系",
+      "zh-Hant": "沒關係",
+      "ko": "괜찮다",
+      "tl": "ayos lang",
+      "ne": "ठीक छ",
+      "id": "tidak apa-apa",
+      "pt": "tudo bem",
+      "my": "ကိစ္စမရှိ",
+      "th": "ไม่เป็นไร"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-2/chapter.mp3#t=170.77,177.26",
+   "t": [
+    170.77,
+    177.26
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  }
+ ]
+}
