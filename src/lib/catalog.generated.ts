@@ -13326,6 +13326,99 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/world-aladdin-2/chapter.mp3",
    "durationSec": 292.32
   }
+ },
+ {
+  "id": "mystery-nisen-1",
+  "titles": {
+   "vi": "Đồng hai xu (1): Tên trộm quý ông",
+   "en": "The Two-Sen Copper Coin (1): The Gentleman Thief",
+   "zh-Hans": "二钱铜币（一）：绅士大盗",
+   "zh-Hant": "二錢銅幣（一）：紳士大盜",
+   "ko": "2전 동전 (1): 신사 도둑",
+   "tl": "Ang Baryang Dalawang Sen (1): Ang Ginoong Magnanakaw",
+   "ne": "दुई सेनको सिक्का (१): भद्र चोर",
+   "id": "Koin Tembaga Dua Sen (1): Pencuri Budiman",
+   "pt": "A Moeda de Dois Sen (1): O Ladrão Cavalheiro",
+   "my": "နှစ်ဆင် ကြေးဒင်္ဂါး (၁): လူကြီးလူကောင်း သူခိုး",
+   "th": "เหรียญทองแดงสองเซ็น (1): จอมโจรสุภาพบุรุษ"
+  },
+  "level": "N2",
+  "topic": "classic-mystery",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 52,
+  "cover": "/covers/mystery-nisen-1.webp",
+  "series": {
+   "id": "mystery-nisen",
+   "index": 1
+  },
+  "shelf": "mystery",
+  "audioTrack": {
+   "src": "/audio/mystery-nisen-1/chapter.mp3",
+   "durationSec": 370.25
+  }
+ },
+ {
+  "id": "mystery-nisen-2",
+  "titles": {
+   "vi": "Đồng hai xu (2): Matsumura kỳ lạ",
+   "en": "The Two-Sen Copper Coin (2): Matsumura Acts Strangely",
+   "zh-Hans": "二钱铜币（二）：奇怪的松村",
+   "zh-Hant": "二錢銅幣（二）：奇怪的松村",
+   "ko": "2전 동전 (2): 이상한 마쓰무라",
+   "tl": "Ang Baryang Dalawang Sen (2): Ang Kakaibang si Matsumura",
+   "ne": "दुई सेनको सिक्का (२): अनौठो मात्सुमुरा",
+   "id": "Koin Tembaga Dua Sen (2): Matsumura yang Aneh",
+   "pt": "A Moeda de Dois Sen (2): O Estranho Matsumura",
+   "my": "နှစ်ဆင် ကြေးဒင်္ဂါး (၂): ထူးဆန်းသော မတ်ဆုမူရ",
+   "th": "เหรียญทองแดงสองเซ็น (2): มัตสึมุระผู้แปลกประหลาด"
+  },
+  "level": "N2",
+  "topic": "classic-mystery",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 49,
+  "cover": "/covers/mystery-nisen-2.webp",
+  "series": {
+   "id": "mystery-nisen",
+   "index": 2
+  },
+  "shelf": "mystery",
+  "audioTrack": {
+   "src": "/audio/mystery-nisen-2/chapter.mp3",
+   "durationSec": 338.14
+  }
+ },
+ {
+  "id": "mystery-nisen-3",
+  "titles": {
+   "vi": "Đồng hai xu (3): Lời giải mật mã",
+   "en": "The Two-Sen Copper Coin (3): The Cipher Solved",
+   "zh-Hans": "二钱铜币（三）：密码的答案",
+   "zh-Hant": "二錢銅幣（三）：密碼的答案",
+   "ko": "2전 동전 (3): 암호의 답",
+   "tl": "Ang Baryang Dalawang Sen (3): Ang Sagot sa Code",
+   "ne": "दुई सेनको सिक्का (३): कूटको उत्तर",
+   "id": "Koin Tembaga Dua Sen (3): Jawaban Sandi",
+   "pt": "A Moeda de Dois Sen (3): A Resposta da Cifra",
+   "my": "နှစ်ဆင် ကြေးဒင်္ဂါး (၃): လျှို့ဝှက်ကုဒ်၏ အဖြေ",
+   "th": "เหรียญทองแดงสองเซ็น (3): คำตอบของรหัสลับ"
+  },
+  "level": "N2",
+  "topic": "classic-mystery",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/mystery-nisen-3.webp",
+  "series": {
+   "id": "mystery-nisen",
+   "index": 3
+  },
+  "shelf": "mystery",
+  "audioTrack": {
+   "src": "/audio/mystery-nisen-3/chapter.mp3",
+   "durationSec": 459.38
+  }
  }
 ];
 
