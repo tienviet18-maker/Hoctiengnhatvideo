@@ -988,3 +988,16 @@ Lô này thêm 3 chương chuẩn v2. Lần đầu kệ có tập 2 (VIP) cho c�
 - 『武士道』 và *Self-Help* thuộc phạm vi công cộng; 心の練習 là sáng tác của ViMai, giai thoại 坦山 là chuyện thiền dân gian.
 - QC từng chương ở `content/stories/life-*.qc.md`.
 - Kệ hiện có 15 chương: 1 chương N2, 8 chương N3 và 6 chương N4. Lô 5 dự kiến: Seneca 2 (N2), thêm N4.
+
+## Kệ "Triết lý sống" (wisdom), lô 5 — 27/11/2026
+
+Lô này thêm 2 chương VIP chuẩn v2, đều là tập 2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-seneca-2` | N2 | Seneca, *Thư gửi Lucilius* (thư 5, 13, 24): Lucilius mất ngủ vì tin đồn bị kiện; "ta khổ trong tưởng tượng nhiều hơn trong thực tế" | 6:13 |
+| `life-rongo-2` | N4 | 『論語』: Nhan Hồi nghèo mà vui, "過ぎたるは猶及ばざるがごとし", 温故知新, các tuổi 十五〜七十 (不惑) | 2:58 |
+
+- Cả hai tác phẩm thuộc phạm vi công cộng; lời thoại và khung truyện là ViMai kể lại. Kết cục vụ kiện của Lucilius không có trong thư, truyện nói rõ điều này.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 17 chương: 2 chương N2, 8 chương N3 và 7 chương N4.
