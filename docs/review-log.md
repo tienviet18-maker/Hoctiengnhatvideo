@@ -1024,3 +1024,15 @@ Lô này thêm 2 chương VIP chuẩn v2, đều là tập 2:
 - build.mjs ROMAJI_FIX thêm: 元の, 山の上, にまつわる, 金の印, 海の底, 陸の方, 山のふもと, 何が何だか, 実は (để romaji tách đúng từ).
 - Motif bìa mới trong scripts/covers/cover.html: laohac, vongphu, tranglon, liangzhu, tokki.
 - Muse/các luồng khác: các ID trên đã cấp, đừng dùng lại.
+## Kệ "Triết lý sống" (wisdom), lô 6 — 27/11/2026
+
+Lô này thêm 2 chương VIP chuẩn v2, đều là tập 2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-yukkuri-2` | N4 | Truyện gốc ViMai 小さな休み 2: Kenji có 20 việc phải làm, bà chủ quán trà dạy "từng việc một" qua cách pha trà | 3:08 |
+| `life-marcus-2` | N3 | Marcus Aurelius: cuộc nổi loạn của Cassius năm 175, muốn tha thứ, đốt thư không đọc; "hãy như tảng đá trước sóng" (Suy tưởng 4.49, 8.47, 10.30) | 3:38 |
+
+- *Meditations* và sử của Cassius Dio thuộc phạm vi công cộng; 小さな休み là sáng tác của ViMai.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 19 chương: 2 chương N2, 9 chương N3 và 8 chương N4.
