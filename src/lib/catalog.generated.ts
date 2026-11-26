@@ -1773,54 +1773,6 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "clipEnd": 130
  },
  {
-  "id": "anpanman-it-cant-be-helped",
-  "youtubeId": "Jbk8JEAr8AE",
-  "titles": {
-   "vi": "Anpanman: Đành chịu thôi mà!",
-   "en": "Anpanman: It can't be helped!",
-   "zh-Hans": "面包超人：没办法嘛！",
-   "zh-Hant": "麵包超人：沒辦法嘛！",
-   "ko": "호빵맨: 어쩔 수 없잖아!",
-   "tl": "Anpanman: Wala nang magagawa!",
-   "ne": "आनपानम्यान: के गर्ने, उपाय छैन!",
-   "id": "Anpanman: Apa boleh buat!",
-   "pt": "Anpanman: Não tem jeito!",
-   "my": "အန်ပန်မန်း- မတတ်နိုင်ဘူးလေ!",
-   "th": "อันปังแมน: ช่วยไม่ได้นี่นา!"
-  },
-  "level": "N5",
-  "category": "anime",
-  "durationSec": 637,
-  "free": false,
-  "lineCount": 17,
-  "clipStart": 197,
-  "clipEnd": 287
- },
- {
-  "id": "anpanman-the-sandwich-gift",
-  "youtubeId": "Jbk8JEAr8AE",
-  "titles": {
-   "vi": "Anpanman: Món quà là bánh mì kẹp",
-   "en": "Anpanman: The sandwich gift",
-   "zh-Hans": "面包超人：三明治礼物",
-   "zh-Hant": "麵包超人：三明治禮物",
-   "ko": "호빵맨: 샌드위치 선물",
-   "tl": "Anpanman: Ang regalong sandwich",
-   "ne": "आनपानम्यान: स्यान्डविचको उपहार",
-   "id": "Anpanman: Hadiah roti lapis",
-   "pt": "Anpanman: O presente de sanduíche",
-   "my": "အန်ပန်မန်း- ပေါင်မုန့်ညှပ် လက်ဆောင်",
-   "th": "อันปังแมน: ของขวัญแซนด์วิช"
-  },
-  "level": "N5",
-  "category": "anime",
-  "durationSec": 637,
-  "free": false,
-  "lineCount": 18,
-  "clipStart": 328,
-  "clipEnd": 402
- },
- {
   "id": "peppa-the-birthday-party-magician",
   "youtubeId": "To5fN_7OHxA",
   "titles": {
@@ -1891,6 +1843,30 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "lineCount": 67,
   "clipStart": 0,
   "clipEnd": 382
+ },
+ {
+  "id": "anpanman-dokin-chan-and-mr",
+  "youtubeId": "Jbk8JEAr8AE",
+  "titles": {
+   "vi": "Anpanman: Dokin-chan và bác Shouganai (trọn tập)",
+   "en": "Anpanman: Dokin-chan and Mr. Shouganai (full episode)",
+   "zh-Hans": "面包超人：细菌小姐和生姜先生（完整集）",
+   "zh-Hant": "麵包超人：細菌小姐和生薑先生（完整集）",
+   "ko": "호빵맨: 도킨짱과 쇼가나이 씨 (전편)",
+   "tl": "Anpanman: Dokin-chan at Ginoong Shouganai (buong episode)",
+   "ne": "आनपानम्यान: डोकिन-चान र शोगानाई जी (पूरा भाग)",
+   "id": "Anpanman: Dokin-chan dan Pak Shouganai (episode penuh)",
+   "pt": "Anpanman: Dokin-chan e o Sr. Shouganai (episódio completo)",
+   "my": "အန်ပန်မန်း- ဒိုကင်ချန်နဲ့ ရှိုဂါနိုင်း (အပိုင်းအပြည့်)",
+   "th": "อันปังแมน: โดคินจังกับคุณโชงะไน (เต็มตอน)"
+  },
+  "level": "N5",
+  "category": "anime",
+  "durationSec": 637,
+  "free": false,
+  "lineCount": 91,
+  "clipStart": 0,
+  "clipEnd": 607
  }
 ];
 
