@@ -749,6 +749,15 @@ Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse
 - Phát hiện: ở 55/155 gói v2, đáp án đúng luôn nằm ở vị trí A (320/617 câu có answer=0), người học đoán được mà không cần đọc.
 - Sửa: `src/lib/shuffle.ts` (`seededOrder`) xáo thứ tự đáp án cố định theo `story.id` + số câu hỏi, nên lần nào mở lại cũng cùng thứ tự và không lệch khi hydrate. `LessonPanel.tsx` hiển thị theo thứ tự đã xáo; chữ A/B/C theo vị trí hiển thị, còn chấm điểm và furigana vẫn theo chỉ số gốc. Dữ liệu nội dung không đổi.
 - Test: `tests/shuffle.test.ts`.
+## Kệ ma & trinh thám — lô 1 (truyện ma 小泉八雲) — 26/11/2026
+
+Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma (`shelf: ghost`) và trinh thám (`shelf: mystery`), id `mystery-<tác phẩm>-<n>`.
+
+- **Bản quyền**: 小泉八雲 (mất 1904), Conan Doyle (mất 1930) hết bản quyền mọi nơi; 江戸川乱歩 (mất 1965) hết ở Nhật, ở Mỹ chỉ dùng tác phẩm in trước 1931 (二銭銅貨 1923, D坂 1925, 心理試験 1925…); không dùng 怪人二十面相 (1936). Truyện tiếng Anh do Claude tự kể lại bằng tiếng Nhật, không dùng bản dịch nào.
+- **3 gói v2**: `mystery-hoichi-1/2` (耳なし芳一, N3, tập 1 miễn phí), `mystery-mujina-1` (むじな, N4, miễn phí). Mỗi gói 45–56 câu, audio liền 4–6 phút, 11 ngôn ngữ, bài học, `.qc.md`.
+- **Gói cũ bị thay**: `miminashi-hoichi`, `mujina` (~10 câu) ẩn qua `content/hidden-stories.json`, trỏ sang bản mới.
+- **Công cụ**: `scripts/produce/register.mjs --block=ma` đăng ký vào khối riêng `kệ ma & trinh thám` trong `src/lib/content.ts`, không đụng khối A/E. Motif bìa mới trong `scripts/produce/cover.html`: `biwa`, `lens`, `coin`, `noface`.
+- Tiếp: シャーロック・ホームズ「赤毛組合」(N3), 乱歩「二銭銅貨」(N2), ろくろ首, 食人鬼, 茶碗の中, 青いガーネット, D坂の殺人事件, 心理試験.
 
 ## Tiếng Sinhala (si) cho truyện v2, đợt 1: 24 gói tập 1 / miễn phí — 27/11/2026 (nhánh `claude/si-stories-free`)
 
@@ -759,6 +768,12 @@ Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse
 - **Lỗi nguồn phát hiện (chưa sửa, vùng nội dung):** `furusato-vn-quynh-1` câu 37: ghi chú tiếng Anh ghi `〜はじめる = start to`, nhưng câu dùng 煮つづける. Bản si dịch đúng theo 〜つづける.
 - `npm run verify` xanh: 712 gói, 0 lỗi; sidecar si 24 gói, 0 lỗi; build OK.
 - **Còn lại:** khoảng 121 gói v2 khác, cộng 4 gói world- mới (world-cinderella-1/2, world-shirayuki-1/2), Mai-chan v2 tập 5–10 và kệ wisdom. Sau đó rà các ngôn ngữ khác còn thiếu trong các gói này.
+
+## Tiếng Sinhala đợt 2a: 4 truyện cổ thế giới + sidecar không chặn luồng khác — 27/11/2026 (nhánh `claude/si-stories-2`)
+
+- Dịch tiếng Sinhala 4 gói: world-cinderella-1, world-cinderella-2, world-shirayuki-1, world-shirayuki-2 (luồng kệ thế giới nhờ).
+- **Đổi cách kiểm sidecar:** dòng `#@src` (dấu vân tay cả gói) được thay bằng `#@h`, lưu băm tiếng Anh của **từng ô**. Trước đây, nếu một luồng khác sửa câu hay thêm câu vào gói đã dịch thì cổng `npm run verify` của luồng đó sẽ đỏ. Giờ ô nào đổi thì bản si cũ của ô đó bị bỏ, app tự hiện tiếng Anh, và QC chỉ **cảnh báo**, không chặn. `extract.mjs` in các ô đổi kèm bản cũ để dịch lại; dịch xong thì chạy `apply.mjs si <id> --rehash`. Đã thử: sửa 1 câu và thêm 1 câu thì ra cảnh báo 3 ô, cổng vẫn xanh.
+
 ## Văn học Nhật v2: ごんぎつね 2 tập (N4), thay gói cũ 13 câu — 27/11/2026
 
 - Nhánh `claude/bungaku-v2-batch1`. Nguồn mới ở `content/sources/bungaku/` (glossary riêng, chép từ Mai-chan + từ N4).
@@ -778,3 +793,8 @@ Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse
 - Bìa mới: nhà bánh kẹo, lò nướng, cô bé mũ đỏ (motif `candyhouse`, `oven`, `redhood` trong `scripts/covers/cover.html`).
 - `scripts/story-src/build.mjs`: romaji こんにちは → konnichiwa, こんばんは → konbanwa (trước đây ra "konnichiha"). Chỉ ảnh hưởng truyện dựng lại sau này.
 - Glossary kệ `world` thêm ~50 từ cơ bản N5/N4 để truyện N5 có đủ nghĩa từ vựng.
+
+## Tiếng Sinhala đợt 2b: 5 gói — 27/11/2026 (nhánh `claude/si-stories-3`)
+
+- Đã dịch: mukashi-momotaro-2, mukashi-urashima-2, world-akazukin, world-hansel-1, world-hansel-2.
+- **Lỗi nguồn (chưa sửa, vùng glossary):** từ はさみ trong `world-akazukin` (câu 37, nghĩa là cái kéo) đang mang nghĩa glossary "pincer (はさみうち: attack from both sides)". Bản si ghi "කතුර (kéo), අඬුව (càng)". Nên sửa nghĩa en trong glossary thành "scissors".

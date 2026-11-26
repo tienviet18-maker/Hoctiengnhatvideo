@@ -4763,7 +4763,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 11,
-  "cover": "/covers/miminashi-hoichi.webp"
+  "cover": "/covers/miminashi-hoichi.webp",
+  "hidden": true,
+  "replacedBy": "mystery-hoichi-1"
  },
  {
   "id": "school-visit-day",
@@ -6020,7 +6022,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 11,
-  "cover": "/covers/mujina.webp"
+  "cover": "/covers/mujina.webp",
+  "hidden": true,
+  "replacedBy": "mystery-mujina-1"
  },
  {
   "id": "the-letter-from-far-away",
@@ -12393,7 +12397,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Cinderella (1): Sepatu Kaca",
    "pt": "Cinderela (1): O Sapatinho de Cristal",
    "my": "စင်ဒရဲလား (၁): ဖန်ဖိနပ်",
-   "th": "ซินเดอเรลล่า (1): รองเท้าแก้ว"
+   "th": "ซินเดอเรลล่า (1): รองเท้าแก้ว",
+   "si": "සින්ඩරෙල්ලා (1): වීදුරු සෙරෙප්පුව"
   },
   "level": "N4",
   "topic": "world-tales",
@@ -12425,7 +12430,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Cinderella (2, tamat): Pas Sekali",
    "pt": "Cinderela (2, fim): O Sapatinho Perfeito",
    "my": "စင်ဒရဲလား (၂၊ ဇာတ်သိမ်း): အံကိုက်ဖိနပ်",
-   "th": "ซินเดอเรลล่า (2 จบ): รองเท้าที่พอดีเป๊ะ"
+   "th": "ซินเดอเรลล่า (2 จบ): รองเท้าที่พอดีเป๊ะ",
+   "si": "සින්ඩරෙල්ලා (2, අවසානය): හරියටම ගැළපුණා"
   },
   "level": "N4",
   "topic": "world-tales",
@@ -12457,7 +12463,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Putri Salju (1): Cermin Ajaib",
    "pt": "Branca de Neve (1): O Espelho Mágico",
    "my": "နှင်းဖြူ (၁): မှော်မှန်",
-   "th": "สโนว์ไวท์ (1): กระจกวิเศษ"
+   "th": "สโนว์ไวท์ (1): กระจกวิเศษ",
+   "si": "හිම සුදු කුමාරිය (1): මායා කැඩපත"
   },
   "level": "N4",
   "topic": "world-tales",
@@ -12489,7 +12496,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Putri Salju (2, tamat): Apel Beracun",
    "pt": "Branca de Neve (2, fim): A Maçã Envenenada",
    "my": "နှင်းဖြူ (၂၊ ဇာတ်သိမ်း): အဆိပ်ပန်းသီး",
-   "th": "สโนว์ไวท์ (2 จบ): แอปเปิลอาบยาพิษ"
+   "th": "สโนว์ไวท์ (2 จบ): แอปเปิลอาบยาพิษ",
+   "si": "හිම සුදු කුමාරිය (2, අවසානය): විෂ ඇපල් ගෙඩිය"
   },
   "level": "N4",
   "topic": "world-tales",
@@ -12722,6 +12730,95 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/life-ikari-1/chapter.mp3",
    "durationSec": 223.3
+  }
+ },
+ {
+  "id": "mystery-hoichi-1",
+  "titles": {
+   "vi": "Hōichi không tai (1): Vị khách lúc nửa đêm",
+   "en": "Hoichi the Earless (1): The Midnight Visitor",
+   "zh-Hans": "无耳芳一（一）：午夜来客",
+   "zh-Hant": "無耳芳一（一）：午夜來客",
+   "ko": "귀 없는 호이치 (1): 한밤의 손님",
+   "tl": "Si Hoichi na Walang Tainga (1): Ang Bisita sa Hatinggabi",
+   "ne": "कान नभएको होइची (१): मध्यरातको पाहुना",
+   "id": "Hoichi Tanpa Telinga (1): Tamu Tengah Malam",
+   "pt": "Hoichi sem Orelhas (1): O Visitante da Meia-Noite",
+   "my": "နားမရှိတဲ့ ဟိုးအိချိ (၁): သန်းခေါင်ယံ ဧည့်သည်",
+   "th": "โฮอิจิไร้หู (1): แขกยามเที่ยงคืน"
+  },
+  "level": "N3",
+  "topic": "classic-ghost",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 55,
+  "cover": "/covers/mystery-hoichi-1.webp",
+  "series": {
+   "id": "mystery-hoichi",
+   "index": 1
+  },
+  "shelf": "ghost",
+  "audioTrack": {
+   "src": "/audio/mystery-hoichi-1/chapter.mp3",
+   "durationSec": 355.78
+  }
+ },
+ {
+  "id": "mystery-hoichi-2",
+  "titles": {
+   "vi": "Hōichi không tai (2): Kinh viết trên thân",
+   "en": "Hoichi the Earless (2): The Sutra on His Body",
+   "zh-Hans": "无耳芳一（二）：写在身上的经文",
+   "zh-Hant": "無耳芳一（二）：寫在身上的經文",
+   "ko": "귀 없는 호이치 (2): 몸에 쓴 경문",
+   "tl": "Si Hoichi na Walang Tainga (2): Ang Sutra sa Kanyang Katawan",
+   "ne": "कान नभएको होइची (२): शरीरमा लेखिएको सूत्र",
+   "id": "Hoichi Tanpa Telinga (2): Sutra di Tubuhnya",
+   "pt": "Hoichi sem Orelhas (2): O Sutra no Corpo",
+   "my": "နားမရှိတဲ့ ဟိုးအိချိ (၂): ကိုယ်ပေါ်က သုတ္တန်",
+   "th": "โฮอิจิไร้หู (2): บทสวดบนร่างกาย"
+  },
+  "level": "N3",
+  "topic": "classic-ghost",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 56,
+  "cover": "/covers/mystery-hoichi-2.webp",
+  "series": {
+   "id": "mystery-hoichi",
+   "index": 2
+  },
+  "shelf": "ghost",
+  "audioTrack": {
+   "src": "/audio/mystery-hoichi-2/chapter.mp3",
+   "durationSec": 371.71
+  }
+ },
+ {
+  "id": "mystery-mujina-1",
+  "titles": {
+   "vi": "Mujina: Gương mặt không có gì",
+   "en": "Mujina: The Faceless One",
+   "zh-Hans": "貉：没有脸的人",
+   "zh-Hant": "貉：沒有臉的人",
+   "ko": "무지나: 얼굴 없는 사람",
+   "tl": "Mujina: Ang Walang Mukha",
+   "ne": "मुजिना: अनुहार नभएको",
+   "id": "Mujina: Si Tanpa Wajah",
+   "pt": "Mujina: O Sem Rosto",
+   "my": "မူဂျီနာ: မျက်နှာမဲ့",
+   "th": "มุจินะ: ผีหน้าเปล่า"
+  },
+  "level": "N4",
+  "topic": "classic-ghost",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 45,
+  "cover": "/covers/mystery-mujina-1.webp",
+  "shelf": "ghost",
+  "audioTrack": {
+   "src": "/audio/mystery-mujina-1/chapter.mp3",
+   "durationSec": 240.55
   }
  }
 ];

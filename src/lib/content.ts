@@ -727,6 +727,11 @@ import v2LifeRoshi1 from "../../content/stories/life-roshi-1.json";
 import v2LifeIkari1 from "../../content/stories/life-ikari-1.json";
 import s_worldBremen from "../../content/stories/world-bremen.json";
 // --- hết kệ W: import ---
+// --- kệ ma & trinh thám (chuẩn v2): import ---
+import v2MysteryHoichi1 from "../../content/stories/mystery-hoichi-1.json";
+import v2MysteryHoichi2 from "../../content/stories/mystery-hoichi-2.json";
+import v2MysteryMujina1 from "../../content/stories/mystery-mujina-1.json";
+// --- hết kệ ma & trinh thám: import ---
 
 export const VIDEOS: VideoContent[] = [
   video1 as unknown as VideoContent,
@@ -1457,6 +1462,11 @@ export const STORIES: StoryContent[] = [
   v2LifeIkari1 as unknown as StoryContent,
   // --- hết kệ W ---
   s_worldBremen as unknown as StoryContent,
+  // --- kệ ma & trinh thám (chuẩn v2) ---
+  v2MysteryHoichi1 as unknown as StoryContent,
+  v2MysteryHoichi2 as unknown as StoryContent,
+  v2MysteryMujina1 as unknown as StoryContent,
+  // --- hết kệ ma & trinh thám ---
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
