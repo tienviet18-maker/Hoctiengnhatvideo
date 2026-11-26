@@ -272,7 +272,7 @@ mốc `t`, dịch + giải thích 11 ngôn ngữ (tự dịch, tự rà), bài h
 | osaka-hataraku-05 | 夜の工場 | 57 | 5,4 phút | 緊急地震速報, 避難所, túi khẩn cấp | a1fb25e |
 | osaka-hataraku-06 | あかりの秘密 | 58 | 5,8 phút | khám 内科: マイナ保険証, 問診票, trả 3 phần 10, ＃7119 | 260c93e |
 | osaka-hataraku-07 | 社長が倒れた | 61 | 5,4 phút | gọi 119: 火事か救急か → địa chỉ → ai bị gì, ý thức/hơi thở, phiên dịch | bda449a |
-| osaka-hataraku-08 | ただいま、大阪 (tập cuối) | 61 | 5,8 phút | 給与明細: các khoản trừ, 手取り, 住民税 từ tháng 6 năm sau, giữ phiếu lương | xem commit kế |
+| osaka-hataraku-08 | ただいま、大阪 (tập cuối) | 61 | 5,8 phút | 給与明細: các khoản trừ, 手取り, 住民税 từ tháng 6 năm sau, giữ phiếu lương | f13f208 |
 
 Tập 1 miễn phí, tập 2–5 `free: false`. `npm run verify` xanh trên bản clone sạch: 553 gói, 0 lỗi; chuẩn v2 11 gói đạt.
 
@@ -446,3 +446,27 @@ Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Bảy gói chuẩn v2, N3
 ## Bộ thẻ có sẵn từ ViBJT — lô 1 (26/11/2026, nhánh `claude/bjt-decks`)
 
 Tab Ôn tập có mục "Bộ thẻ có sẵn", dựng từ kho thẻ ViBJT (repo BJT, cùng hệ sinh thái ViMai). Việt chọn phương án 1+2 ngày 26/11. Công cụ: `scripts/decks/build-decks.mjs` (BJT_DIR trỏ tới repo BJT) ghép thẻ gốc (ja, vi, en, câu ví dụ, mã audio) với bản dịch 9 ngôn ngữ ở `content/sources/decks/src/*.txt`, đổi sang JSONL bằng `scripts/decks/tr2jsonl.py`. Thẻ chỉ vào bộ khi đủ 11 ngôn ngữ. Đầu ra: `public/decks/*.json` (tải khi bấm thêm, không nằm trong bundle), `public/audio/bjt/*.mp3`, `src/lib/decks.generated.ts`. Lô đầu: Kính ngữ 135 thẻ có bảng thường/lịch sự/tôn kính/khiêm nhường, câu ví dụ và giọng đọc. Sửa nghĩa en sai của 帰る ("about" thành "go home, leave"). Mỗi lần thêm 10 thẻ; bản miễn phí vẫn giới hạn 100 thẻ. Lô sau: Tiếng Nhật công sở N5–N1 (1.293 từ có trong danh sách JLPT), ngữ pháp N3–N1, ví dụ cho 535 từ trùng với truyện/video.
+## Rà chất lượng 444 gói truyện cũ của Muse, ẩn 62 gói (26/11/2026, nhánh `claude/retire-old-stories`)
+
+Việt giao (26/11): truyện cũ không đạt chuẩn thì bỏ hoặc làm lại, Claude tự quyết.
+
+**Hiện trạng gói cũ (cả 444 gói):** chỉ có bản dịch VI + EN (app có 11 ngôn ngữ, 9 ngôn ngữ còn lại thấy trống), trung bình khoảng 9 câu và 28 giây, audio từng câu, không có tab Bài học, không có ảnh bìa. 345 gói có quá 20% từ vượt cấp được gắn.
+
+**Đã ẩn thêm 62 gói** (`content/hidden-stories.json`, chỉ ẩn, không xoá):
+
+- 9 gói đã có bản v2 dài hơn: `botchan`, `benkei-ushiwakamaru`, `issun-boshi`, `kaguya-hime`, `sansho-dayu`, `shuten-doji`, `tsuru-no-ongaeshi`, `urashima-taro`, `yuki-onna`, mỗi gói trỏ sang tập 1 của bản v2.
+- 15 gói trùng truyện với gói cũ khác. Giữ bản dài hơn: `the-golden-axe`, `the-little-mermaid`, `the-three-little-pigs`, `the-shinkansen-trip`, `the-dentist`, `opening-a-bank-account`, `tanabata`, `at-the-hairdresser`, `the-bicycle-puncture`, `the-onsen-trip`, `the-post-office`, `the-town-mouse`, `the-lost-umbrella`, `the-shepherd-boy`, `the-japanese-class`.
+- 38 gói cho nghỉ, không có bản thay (giá trị `null`):
+  - 23 bản tóm tắt tiểu thuyết phương Tây trong 8 câu cụt, không phải truyện (ví dụ Jane Eyre: 「ジェーンは、親戚の家で育ちました。家庭教師に、なりました。…」).
+  - 7 tiểu sử tác giả.
+  - 8 bài giới thiệu sách dạng 『…』は…の小説です.
+- `gen-catalog.mjs` nhận `null` (ẩn, không có `replacedBy`). `/read/<id>` của gói cho nghỉ chỉ có `noindex`, không có canonical.
+- Lộ trình (`paths.ts`): `opening-a-bank-account` → `at-the-bank`, `tsuru-no-ongaeshi` → `mukashi-tsuru-1`, `kaguya-hime` → `mukashi-kaguya-1`.
+- Sau đợt này, gói cũ còn hiện: N5 150, N4 190, N3 12, N2 12, N1 12.
+
+**Kế hoạch làm lại (theo thứ tự ưu tiên):**
+
+1. Mai-chan (66 tập × 8 câu): dựng lại thành series v2 N5/N4 dài hơn, 11 ngôn ngữ. N5/N4 hiện toàn gói cũ, mà người mới là đông nhất.
+2. Văn học Nhật ngắn public domain (Akutagawa, Miyazawa Kenji, Niimi Nankichi, Mười đêm mộng…, khoảng 35 gói): làm lại v2 N4/N3.
+3. Ngụ ngôn và cổ tích phương Tây N5 (Aesop, Grimm, Andersen): gộp thành các tập v2 N5.
+4. Đời sống Nhật (khoảng 190 gói): lệch định vị giải trí mới, nên ẩn dần khi đã đủ gói v2 N5/N4 thay thế. Riêng 12 bài luận N1/N2 chỉ 8 câu sẽ được ẩn khi tiểu thuyết Việt Nam N2/N1 lên kệ.

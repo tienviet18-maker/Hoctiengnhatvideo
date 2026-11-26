@@ -32,7 +32,7 @@ export interface StoryIndexItem {
   shelf?: StoryContent["shelf"];
   origin?: string;
   audioTrack?: AudioTrack;
-  /** Gói cũ đã có bản v2 thay thế: không hiện trong kệ/danh sách, trang đọc vẫn mở được */
+  /** Gói cũ bị ẩn (có bản thay thế, hoặc cho nghỉ): không hiện trong kệ/danh sách, trang đọc vẫn mở được */
   hidden?: true;
   replacedBy?: string;
 }
@@ -3016,7 +3016,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 14
+  "sentenceCount": 14,
+  "hidden": true,
+  "replacedBy": "mukashi-urashima-1"
  },
  {
   "id": "kaguya-hime",
@@ -3028,7 +3030,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 15
+  "sentenceCount": 15,
+  "hidden": true,
+  "replacedBy": "mukashi-kaguya-1"
  },
  {
   "id": "issun-boshi",
@@ -3040,7 +3044,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 14
+  "sentenceCount": 14,
+  "hidden": true,
+  "replacedBy": "mukashi-issun-1"
  },
  {
   "id": "hanasaka-jiisan",
@@ -3066,7 +3072,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 14
+  "sentenceCount": 14,
+  "hidden": true,
+  "replacedBy": "mukashi-tsuru-1"
  },
  {
   "id": "kintaro",
@@ -3406,7 +3414,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 14
+  "sentenceCount": 14,
+  "hidden": true,
+  "replacedBy": "mukashi-yuki-onna-1"
  },
  {
   "id": "shopping-for-clothes",
@@ -3900,7 +3910,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true,
+  "replacedBy": "mukashi-ushiwaka-1"
  },
  {
   "id": "torokko",
@@ -4080,7 +4092,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "hidden": true,
+  "replacedBy": "at-the-barber"
  },
  {
   "id": "wakagaeri-no-mizu",
@@ -4272,7 +4286,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true,
+  "replacedBy": "mukashi-shuten-1"
  },
  {
   "id": "company-drinking-party",
@@ -4500,7 +4516,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "hidden": true,
+  "replacedBy": "at-the-bank"
  },
  {
   "id": "kikimimi-zukin",
@@ -4536,7 +4554,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 12
+  "sentenceCount": 12,
+  "hidden": true,
+  "replacedBy": "botchan-1"
  },
  {
   "id": "neighborhood-cleanup",
@@ -4992,7 +5012,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 12
+  "sentenceCount": 12,
+  "hidden": true,
+  "replacedBy": "mukashi-anju-zushio-1"
  },
  {
   "id": "at-the-flower-shop",
@@ -5088,7 +5110,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "bicycle-practice",
@@ -5136,7 +5159,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "preparing-nengajo",
@@ -5184,7 +5208,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "buying-a-birthday-cake",
@@ -5232,7 +5257,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "lost-and-found",
@@ -5304,7 +5330,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "attending-a-funeral",
@@ -5352,7 +5379,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "school-field-trip",
@@ -5400,7 +5428,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "at-the-park",
@@ -5448,7 +5477,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "the-rainy-day",
@@ -5496,7 +5526,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "trip-to-the-beach",
@@ -5616,7 +5647,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "the-neighborhood-cat",
@@ -5664,7 +5696,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "the-thousand-cranes",
@@ -5712,7 +5745,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "the-typhoon-day",
@@ -5808,7 +5842,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "the-fisherman-and-the-magic-fish",
@@ -5856,7 +5891,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 11
+  "sentenceCount": 11,
+  "hidden": true
  },
  {
   "id": "the-star-money",
@@ -6014,7 +6050,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 9
+  "sentenceCount": 9,
+  "hidden": true,
+  "replacedBy": "japanese-language-class"
  },
  {
   "id": "yodaka-no-hoshi",
@@ -6038,7 +6076,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "hidden": true,
+  "replacedBy": "tanabata-story"
  },
  {
   "id": "the-two-goats",
@@ -6170,7 +6210,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 10
+  "sentenceCount": 10,
+  "hidden": true,
+  "replacedBy": "golden-axe"
  },
  {
   "id": "the-point-card",
@@ -6230,7 +6272,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-fox-and-the-stork",
@@ -6278,7 +6321,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "hidden": true,
+  "replacedBy": "the-town-mouse-and-the-country-mouse"
  },
  {
   "id": "the-atm",
@@ -6302,7 +6347,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "at-the-dentist"
  },
  {
   "id": "the-shepherd-boy",
@@ -6314,7 +6361,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "the-boy-who-cried-wolf"
  },
  {
   "id": "the-glasses-shop",
@@ -6446,7 +6495,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "hidden": true,
+  "replacedBy": "riding-the-shinkansen"
  },
  {
   "id": "the-little-red-hen",
@@ -6506,7 +6557,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "three-little-pigs"
  },
  {
   "id": "mai-chan-ep11-tomatoes",
@@ -6554,7 +6607,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "hidden": true,
+  "replacedBy": "bicycle-repair"
  },
  {
   "id": "mai-chan-ep13-rainy-day",
@@ -6602,7 +6657,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "hidden": true,
+  "replacedBy": "at-the-post-office"
  },
  {
   "id": "mai-chan-ep15-lost-cat",
@@ -6686,7 +6743,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "hidden": true,
+  "replacedBy": "at-the-onsen"
  },
  {
   "id": "the-wizard-of-oz",
@@ -6698,7 +6757,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep19-christmas",
@@ -6746,7 +6806,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep21-zoo",
@@ -6794,7 +6855,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep23-tulip-bulbs",
@@ -6830,7 +6892,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 6
+  "sentenceCount": 6,
+  "hidden": true,
+  "replacedBy": "lost-and-found"
  },
  {
   "id": "heidi",
@@ -6842,7 +6906,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep25-fire-drill",
@@ -6890,7 +6955,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep27-helping-neighbor",
@@ -6938,7 +7004,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep29-ice-skating",
@@ -6986,7 +7053,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "ningyo-hime"
  },
  {
   "id": "mai-chan-ep31-new-year-shrine",
@@ -7034,7 +7103,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep33-valentine",
@@ -7130,7 +7200,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep37-graduation-day",
@@ -7178,7 +7249,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep39-childrens-day",
@@ -7226,7 +7298,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep41-fathers-day",
@@ -7274,7 +7347,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep43-tanabata",
@@ -7322,7 +7396,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep45-pool-day",
@@ -7358,7 +7433,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep47-summer-homework",
@@ -7394,7 +7470,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep49-moon-viewing",
@@ -7442,7 +7519,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep51-sweet-potato",
@@ -7490,7 +7568,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep53-planetarium",
@@ -7538,7 +7617,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep55-school-lunch",
@@ -7586,7 +7666,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep57-piano-recital",
@@ -7634,7 +7715,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep59-endurance-run",
@@ -7682,7 +7764,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep61-kite-flying",
@@ -7730,7 +7813,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep63-baking-bread",
@@ -7778,7 +7862,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "mai-chan-ep65-cooking-dinner",
@@ -7826,7 +7911,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "folktale",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-overtime-night",
