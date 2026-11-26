@@ -648,3 +648,11 @@ Việt giao đấu nối Firebase, Cloudflare và SePay, học theo ViBJT. Bài 
 - **Chặn VIP ở máy chủ** (ux-plan mục 6): `src/lib/gate.ts` cắt phần VIP khỏi trang tĩnh (video VIP chỉ còn 2 câu đầu, chương VIP không còn câu nào). `scripts/gen-locked.mjs` (postbuild) ghi phần VIP vào `out/_locked/` và tự kiểm không trang nào lộ câu VIP. Worker `worker/index.ts` chặn `/_locked/*`, chỉ trả nội dung qua `/api/content/<kind>/<id>` khi ID token hợp lệ và tài khoản có VIP còn hạn. Đã thử bằng `wrangler dev`: `/_locked` 404, không token 401. `tests/worker.test.ts`.
 - **Deploy**: Next `output: "export"` (bỏ `cacheComponents`/`partialPrefetching`, không chạy được ở chế độ export) + Workers Static Assets, `wrangler.toml`, tên miền `miraigo.vimai.jp`. Video tự thêm đổi từ `/watch/custom-<id>` sang `/watch/custom?v=<id>` (trang tĩnh không có id động). Cách deploy ở `docs/deploy.md`.
 - Còn lại: audio của chương VIP vẫn là file tĩnh công khai (chỉ chữ được chặn); ngữ pháp/câu hỏi của chương miễn phí vẫn chặn phía máy khách. Đưa audio VIP qua Worker khi chuyển audio sang R2.
+
+## Thêm tiếng Sinhala (Sri Lanka) cho giao diện — 26/11/2026
+
+- Việt hỏi đủ ngôn ngữ chưa (có nhắc Sri Lanka): giao diện có 11 thứ tiếng nhưng thiếu Sinhala.
+- Thêm `src/i18n/locales/si.json` (đủ khoá như `en.json`, Claude tự dịch và tự rà), đăng ký `si` trong
+  `LANGUAGE_CODES` và `LANGUAGE_NAMES` ("සිංහල"), thêm câu Sinhala cho 3 câu xếp lớp ở `src/lib/placement.ts`.
+- Bản dịch nội dung truyện/video hiện chỉ có vi/en/id; Sinhala và các tiếng khác đang rơi về tiếng Anh (pickText).
+- `npm run verify` xanh.
