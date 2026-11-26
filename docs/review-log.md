@@ -577,3 +577,9 @@ Quy tắc: chữ kanji hiển thị ở bất kỳ đâu trong app đều phải
 - Dịch 194 thẻ ngữ pháp N2 (nghĩa mẫu câu + câu ví dụ) sang 9 ngôn ngữ còn thiếu: `content/sources/decks/src/grammar-n2-1..3.txt` → `tr/*.jsonl`.
 - Thêm `public/decks/grammar-N2.json` (8 bộ, 1.742 thẻ). Furigana: 0 chuỗi còn kanji trần.
 - Còn lại: Ngữ pháp N1 (143).
+
+## Thẻ ôn từ ViBJT — lô 8 (Ngữ pháp N1, hoàn tất) — 26/11/2026
+
+- Dịch 143 thẻ ngữ pháp N1 sang 9 ngôn ngữ còn thiếu: `content/sources/decks/src/grammar-n1-1..2.txt` → `tr/*.jsonl`.
+- Thêm `public/decks/grammar-N1.json`. Tổng: **9 bộ, 1.885 thẻ**, đủ 11 ngôn ngữ (build báo thiếu 0 nghĩa, 0 câu ví dụ), furigana 0 kanji trần.
+- Bản tiếng Anh gốc lệch câu Nhật ở 2 thẻ, đã dịch theo câu Nhật: 移転に伴い (chuyển địa điểm, không chỉ trụ sở), 周囲の心配をよそに独立した (ra làm riêng, không phải dọn ra ở riêng).
