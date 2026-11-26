@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLang } from "../components/LangProvider";
 import StoryCover from "../components/StoryCover";
-import { STORY_INDEX, VIDEO_INDEX } from "../lib/catalog.generated";
+import { LISTED_STORIES, STORY_INDEX, VIDEO_INDEX } from "../lib/catalog.generated";
 import { pickText } from "../lib/i18n";
 import { SERIES, seriesOf } from "../lib/series";
 import { recommendFirst } from "../lib/shelves";
@@ -93,11 +93,11 @@ export default function HomePage() {
       : null;
   }, [progress, lang, profile.level, profile.interests]);
 
-  const newest = useMemo(() => STORY_INDEX.slice(-8).reverse(), []);
+  const newest = useMemo(() => LISTED_STORIES.slice(-8).reverse(), []);
   const newVideos = useMemo(() => VIDEO_INDEX.slice(-6).reverse(), []);
   // "Đang hot": truyện chuẩn v2 mới nhất (có audio liền) + video mới nhất của từng kênh
   const featured = useMemo((): Featured[] => {
-    const stories = STORY_INDEX.filter((s) => s.audioTrack).slice(-3).reverse()
+    const stories = LISTED_STORIES.filter((s) => s.audioTrack).slice(-3).reverse()
       .map((s): Featured => ({ kind: "story", id: s.id, title: pickText(s.titles, lang), level: s.level, img: null }));
     const videos = SERIES.map((k) => [...VIDEO_INDEX].reverse().find((v) => seriesOf(v.id) === k.key)).filter((v) => !!v)
       .map((v): Featured => ({ kind: "video", id: v.id, title: pickText(v.titles, lang), level: v.level, img: `https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg` }));

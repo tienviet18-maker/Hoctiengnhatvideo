@@ -77,7 +77,7 @@ export const PATHS: LearningPath[] = [
     items: [
       "akane-cafe-phrases",
       "akane-bakery",
-      "momotaro",
+      "mukashi-momotaro-1",
       "tsuru-no-ongaeshi",
       "kaguya-hime",
       "the-letter-never-sent",

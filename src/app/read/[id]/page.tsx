@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { detailMetadata } from "../../../lib/seo";
 import ReaderClient from "./ReaderClient";
 import { getStory, STORIES } from "../../../lib/content";
+import { STORY_INDEX } from "../../../lib/catalog.generated";
 
 export function generateStaticParams() {
   return STORIES.map((s) => ({ id: s.id }));
@@ -12,12 +13,16 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const { id } = await params;
   const story = getStory(id);
   if (!story) return {};
-  return detailMetadata({
+  const meta = detailMetadata({
     path: `/read/${id}`,
     titles: story.titles,
     level: story.level,
     description: `Truyện tiếng Nhật ${story.level}: ${story.sentences[0]?.ja ?? ""} — furigana, bản dịch, giải thích và audio từng câu.`,
   });
+  // Gói cũ đã có bản v2 thay thế: vẫn mở được nhưng không cho máy tìm kiếm lập chỉ mục, trỏ canonical sang bản mới
+  const replacedBy = STORY_INDEX.find((s) => s.id === id)?.replacedBy;
+  if (!replacedBy) return meta;
+  return { ...meta, robots: { index: false, follow: true }, alternates: { ...meta.alternates, canonical: `/read/${replacedBy}` } };
 }
 
 export default async function ReadPage({

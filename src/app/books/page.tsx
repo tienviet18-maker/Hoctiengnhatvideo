@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { useLang } from "../../components/LangProvider";
 import Paywall from "../../components/Paywall";
 import StoryCover from "../../components/StoryCover";
-import { STORY_INDEX, type StoryIndexItem } from "../../lib/catalog.generated";
+import { LISTED_STORIES, type StoryIndexItem } from "../../lib/catalog.generated";
 import { pickText } from "../../lib/i18n";
 import type { JlptLevel } from "../../lib/content-schema";
 import { PROGRESS_KEY, useLocalJson, type Progress } from "../../lib/store";
@@ -50,7 +50,7 @@ export default function BooksPage() {
   const progress = useLocalJson(PROGRESS_KEY, EMPTY_PROGRESS);
 
   const shelves = useMemo(() => {
-    const filtered = STORY_INDEX.filter((s) => level === "all" || s.level === level);
+    const filtered = LISTED_STORIES.filter((s) => level === "all" || s.level === level);
     const by = new Map<ShelfKey, StoryIndexItem[]>();
     for (const s of filtered) {
       const k = shelfOf(s);

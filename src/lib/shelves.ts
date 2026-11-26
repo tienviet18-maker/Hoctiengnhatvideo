@@ -1,4 +1,4 @@
-import { STORY_INDEX, type StoryIndexItem } from "./catalog.generated";
+import { LISTED_STORIES, type StoryIndexItem } from "./catalog.generated";
 import type { JlptLevel } from "./content-schema";
 
 /** Thứ tự kệ trong tab Truyện (docs/ux-plan.md mục 2.2). folktale = cổ tích/ngụ ngôn của gói cũ. */
@@ -27,7 +27,7 @@ export const INTEREST_SHELVES: Record<string, ShelfKey[]> = {
 /** Truyện miễn phí nên nghe đầu tiên: đúng cấp, ưu tiên kệ khớp sở thích, rồi gói có audio liền chương. */
 export function recommendFirst(level: JlptLevel | undefined, interests: string[] | undefined): StoryIndexItem | null {
   const shelves = new Set((interests ?? []).flatMap((k) => INTEREST_SHELVES[k] ?? []));
-  const free = STORY_INDEX.filter((s) => s.free && (!s.series || s.series.index === 1));
+  const free = LISTED_STORIES.filter((s) => s.free && (!s.series || s.series.index === 1));
   const atLevel = level ? free.filter((s) => s.level === level) : [];
   const score = (s: StoryIndexItem) => (shelves.has(shelfOf(s)) ? 2 : 0) + (s.audioTrack ? 1 : 0);
   const pool = atLevel.length ? atLevel : free;
