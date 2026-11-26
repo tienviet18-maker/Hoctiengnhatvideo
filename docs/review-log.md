@@ -243,7 +243,8 @@ từ vựng có cấp, bài học 4 ngữ pháp + 4 câu đố, audio đo trên 
 | furusato-mm-mahagiri-1 「火と兄と妹」 (Myanmar) | N3 | 63 | 5.5 phút | 菅原道真 và 天神 | b42f032 |
 | furusato-mm-kyaiktiyo-1 「落ちない石」 (Myanmar, Chùa Đá Vàng) | N4 | 60 | 5.6 phút | 要石 ở 鹿島神宮 | c0dc8b1 |
 | furusato-br-saci-1 「赤いぼうし」 (Brazil, Saci-Pererê) | N4 | 60 | 5.2 phút | かまいたち | 9736fa6 |
-| furusato-br-iara-1 「イアラの歌」 (Brazil, Iara) | N4 | 60 | 5.7 phút | 人魚 và 八百比丘尼 | xem commit kế |
+| furusato-br-iara-1 「イアラの歌」 (Brazil, Iara) | N4 | 60 | 5.7 phút | 人魚 và 八百比丘尼 | e2636e5 |
+| furusato-br-curupira-1 「うしろ向きの足」 (Brazil, Curupira) | N4 | 60 | 5.4 phút | 天狗, 天狗かくし | xem commit kế |
 
 Ghi chú: Bánh chưng, Táo quân, Cóc kiện trời, Nàng tiên Ốc dự định N4 nhưng tỉ lệ từ khó vượt 15% nên
 chuyển N3 (kế hoạch cho phép N4–N3 với truyện VN). Nguồn Nepal đã kiểm chứng trước khi viết.

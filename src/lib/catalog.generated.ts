@@ -10317,6 +10317,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-br-iara-1/chapter.mp3",
    "durationSec": 339.744
   }
+ },
+ {
+  "id": "furusato-br-curupira-1",
+  "titles": {
+   "vi": "Curupira, thần giữ rừng",
+   "en": "Curupira, Guardian of the Forest",
+   "zh-Hans": "森林守护者库鲁皮拉",
+   "zh-Hant": "森林守護者庫魯皮拉",
+   "ko": "숲의 수호자 쿠루피라",
+   "tl": "Si Curupira, Tagapagbantay ng Gubat",
+   "ne": "वनका रक्षक कुरुपिरा",
+   "id": "Curupira, Penjaga Hutan",
+   "pt": "Curupira, o guardião da mata",
+   "my": "တောစောင့် ကူရူပီရာ",
+   "th": "คูรูปีรา ผู้พิทักษ์ป่า"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-br-curupira-1.webp",
+  "series": {
+   "id": "furusato-br-curupira",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "BR",
+  "audioTrack": {
+   "src": "/audio/furusato-br-curupira-1/chapter.mp3",
+   "durationSec": 326.088
+  }
  }
 ];
 
