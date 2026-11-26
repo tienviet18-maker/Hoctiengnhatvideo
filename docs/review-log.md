@@ -857,6 +857,13 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 7: Làm việc ở Osaka trọn bộ — 27/11/2026 (nhánh `claude/si-stories-8`)
+
+- Đã dịch 6 gói: osaka-hataraku-03 → osaka-hataraku-08 (series Osaka giờ đủ si cả 8 tập).
+- Lời kể thể văn viết, lời thoại khẩu ngữ; câu tiếng Osaka (Kansai-ben) dịch sang khẩu ngữ thân mật, ghi chú phương ngữ giữ nguyên ví dụ tiếng Nhật. Tên giữ thống nhất: මින්, මොරිත අකාරි, ඉවතා, හයි (ෆාම් හයි), කියෝ, ජොෂුවා, රාජු, තනක.
+- Thông tin đời sống (119, #7119, bảo hiểm, thuế, rác, động đất) dịch sát, giữ nguyên số điện thoại.
+- Sau đợt này: 89 gói có si.
+
 ## Tiếng Sinhala đợt 6: Budori trọn bộ, Địa ngục biến 2, Dải băng lốm đốm 2, Hanshichi 2 vụ, Nến đỏ và nàng tiên cá, Osaka 2 — 27/11/2026 (nhánh `claude/si-stories-7`)
 
 - Đã dịch 8 gói: budori-3, budori-4 (Budori giờ đủ si cả 4 tập); jigokuhen-2; madara-2; hanshichi-ofumi-2, hanshichi-yukidaruma-2; akai-rousoku-to-ningyo; osaka-hataraku-02.
