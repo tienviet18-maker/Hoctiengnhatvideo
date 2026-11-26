@@ -11,6 +11,18 @@ export interface DeckInfo {
 
 export const DECKS: DeckInfo[] = [
  {
+  "id": "office-N5",
+  "group": "office",
+  "level": "N5",
+  "count": 50
+ },
+ {
+  "id": "office-N4",
+  "group": "office",
+  "level": "N4",
+  "count": 138
+ },
+ {
   "id": "keigo",
   "group": "keigo",
   "level": null,

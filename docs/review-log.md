@@ -470,3 +470,10 @@ Việt giao (26/11): truyện cũ không đạt chuẩn thì bỏ hoặc làm l�
 2. Văn học Nhật ngắn public domain (Akutagawa, Miyazawa Kenji, Niimi Nankichi, Mười đêm mộng…, khoảng 35 gói): làm lại v2 N4/N3.
 3. Ngụ ngôn và cổ tích phương Tây N5 (Aesop, Grimm, Andersen): gộp thành các tập v2 N5.
 4. Đời sống Nhật (khoảng 190 gói): lệch định vị giải trí mới, nên ẩn dần khi đã đủ gói v2 N5/N4 thay thế. Riêng 12 bài luận N1/N2 chỉ 8 câu sẽ được ẩn khi tiểu thuyết Việt Nam N2/N1 lên kệ.
+
+## Bộ thẻ có sẵn từ ViBJT — lô 2 (Công sở N5–N4)
+
+- Thêm bộ **Tiếng Nhật công sở N5** (50 thẻ) và **N4** (138 thẻ). Mỗi thẻ có nghĩa và câu ví dụ đủ 11 ngôn ngữ, kèm audio từ và câu của ViBJT. Bản dịch 9 ngôn ngữ do Claude tự soạn và tự duyệt, nguồn nằm ở `content/sources/decks/src/office-n5.txt` và `office-n4-*.txt`.
+- `scripts/decks/tr2jsonl.py`: dòng `m` (nghĩa) giờ là tuỳ chọn. Thẻ nào mà nghĩa 11 ngôn ngữ đã có sẵn trong vocab truyện/video thì chỉ cần dịch câu ví dụ.
+- Tổng hiện có 3 bộ (Kính ngữ, Công sở N5, Công sở N4) với 323 thẻ. Có 105 từ trong truyện/video được thêm câu ví dụ và audio ViBJT (`extras.json`).
+- Còn lại: Công sở N3 (456 thẻ), N2 (235), N1 (414), Ngữ pháp N3–N1.
