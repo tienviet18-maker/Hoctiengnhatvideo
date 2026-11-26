@@ -1082,3 +1082,18 @@ Lô này thêm 2 chương VIP chuẩn v2 và đưa kệ đạt mục tiêu 24 ch
 - *Self-Help* (1859) thuộc phạm vi công cộng; 小さな休み và các cảnh đối thoại là sáng tác của ViMai.
 - QC từng chương ở `content/stories/life-*.qc.md`.
 - Kệ hiện có 24 chương: 3 chương N2, 11 chương N3 và 10 chương N4.
+
+## Kệ "Triết lý sống" (wisdom), lô 9 — 27/11/2026
+
+Lô này thêm 3 chương VIP chuẩn v2 (tập 2 của ba bộ đang có tập 1):
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-wattles-2` | N3 | Wattles, *The Science of Getting Rich*: Takuya làm quản lý cửa hàng thứ hai, mải nhìn quán chuỗi đối diện; ông Mori dạy ba ý: hình dung rõ điều mình muốn, việc hôm nay làm hết hôm nay (mỗi việc trọn vẹn tự thân), làm người mình gặp thấy "đang tiến lên"; "quán mình cứ đi theo bản đồ của mình" | 3:46 |
+| `life-bushido-2` | N3 | Nitobe, *Bushido* chương 8, 11, 13: Kenta thua kiếm đạo, ném kiếm tre; ông nội đọc danh dự (lời Mạnh Tử), di huấn Ieyasu, 「ならぬ堪忍するが堪忍」, Katsu Kaishū buộc chặt kiếm, 「負くるが勝ち」; tuần sau thua tiếp nhưng cúi chào đối thủ | 3:46 |
+| `life-gakumon-2` | N2 | Fukuzawa, 『学問のすゝめ』 phần 13, 15, 17: Misaki đi làm năm đầu, ghen tị bài đăng của đồng nghiệp Reina, suýt chia sẻ tin giảm cân giả; đọc về oán vọng, 「信の世界に偽詐多く、疑の世界に真理多し」 và 人望論; bắt chuyện với Reina và biết cô đã nộp 30 bản đề xuất | 5:52 |
+
+- Ba tác phẩm gốc (1910, 1900, 1872–1876) thuộc phạm vi công cộng; nhân vật và đối thoại là sáng tác của ViMai.
+- Giọng mới: Kenta và ông nội (bushido), Reina (gakumon), thêm vào `voices.json` của từng bộ.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 27 chương: 4 chương N2, 13 chương N3 và 10 chương N4.
