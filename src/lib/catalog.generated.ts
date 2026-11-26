@@ -13828,6 +13828,99 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "life-wattles-2",
+  "titles": {
+   "vi": "Tấm bản đồ trong lòng",
+   "en": "The Map in Your Heart",
+   "zh-Hans": "心中的地图",
+   "zh-Hant": "心中的地圖",
+   "ko": "마음속의 지도",
+   "tl": "Ang Mapa sa Puso",
+   "ne": "मनभित्रको नक्सा",
+   "id": "Peta di Dalam Hati",
+   "pt": "O Mapa no Coração",
+   "my": "စိတ်ထဲက မြေပုံ",
+   "th": "แผนที่ในใจ"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 43,
+  "cover": "/covers/life-wattles-2.webp",
+  "series": {
+   "id": "life-wattles",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-wattles-2/chapter.mp3",
+   "durationSec": 225.5
+  }
+ },
+ {
+  "id": "life-bushido-2",
+  "titles": {
+   "vi": "Thua mà là thắng",
+   "en": "To Lose Is to Win",
+   "zh-Hans": "输就是赢",
+   "zh-Hant": "輸就是贏",
+   "ko": "지는 것이 이기는 것",
+   "tl": "Ang Pagkatalo ay Panalo",
+   "ne": "हार्नु नै जित्नु",
+   "id": "Kalah adalah Menang",
+   "pt": "Perder é Ganhar",
+   "my": "ရှုံးခြင်းသည် နိုင်ခြင်း",
+   "th": "แพ้คือชนะ"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 41,
+  "cover": "/covers/life-bushido-2.webp",
+  "series": {
+   "id": "life-bushido",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-bushido-2/chapter.mp3",
+   "durationSec": 226.44
+  }
+ },
+ {
+  "id": "life-gakumon-2",
+  "titles": {
+   "vi": "Điện thoại và Fukuzawa Yukichi",
+   "en": "The Smartphone and Fukuzawa Yukichi",
+   "zh-Hans": "手机与福泽谕吉",
+   "zh-Hant": "手機與福澤諭吉",
+   "ko": "스마트폰과 후쿠자와 유키치",
+   "tl": "Ang Smartphone at si Fukuzawa Yukichi",
+   "ne": "स्मार्टफोन र फुकुजावा युकिची",
+   "id": "Ponsel dan Fukuzawa Yukichi",
+   "pt": "O Celular e Fukuzawa Yukichi",
+   "my": "စမတ်ဖုန်းနှင့် ဖုကုဇာဝ ယုကိချိ",
+   "th": "สมาร์ตโฟนกับฟุกุซาวะ ยูกิจิ"
+  },
+  "level": "N2",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/life-gakumon-2.webp",
+  "series": {
+   "id": "life-gakumon",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-gakumon-2/chapter.mp3",
+   "durationSec": 351.5
+  }
+ },
+ {
   "id": "mystery-hoichi-1",
   "titles": {
    "vi": "Hōichi không tai (1): Vị khách lúc nửa đêm",
@@ -13840,7 +13933,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hoichi Tanpa Telinga (1): Tamu Tengah Malam",
    "pt": "Hoichi sem Orelhas (1): O Visitante da Meia-Noite",
    "my": "နားမရှိတဲ့ ဟိုးအိချိ (၁): သန်းခေါင်ယံ ဧည့်သည်",
-   "th": "โฮอิจิไร้หู (1): แขกยามเที่ยงคืน"
+   "th": "โฮอิจิไร้หู (1): แขกยามเที่ยงคืน",
+   "si": "කන් නැති හෝයිචි (1): මධ්‍යම රාත්‍රියේ අමුත්තා"
   },
   "level": "N3",
   "topic": "classic-ghost",
@@ -13871,7 +13965,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hoichi Tanpa Telinga (2): Sutra di Tubuhnya",
    "pt": "Hoichi sem Orelhas (2): O Sutra no Corpo",
    "my": "နားမရှိတဲ့ ဟိုးအိချိ (၂): ကိုယ်ပေါ်က သုတ္တန်",
-   "th": "โฮอิจิไร้หู (2): บทสวดบนร่างกาย"
+   "th": "โฮอิจิไร้หู (2): บทสวดบนร่างกาย",
+   "si": "කන් නැති හෝයිචි (2): ඇඟේ ලියූ සූත්‍රය"
   },
   "level": "N3",
   "topic": "classic-ghost",
@@ -13902,7 +13997,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mujina: Si Tanpa Wajah",
    "pt": "Mujina: O Sem Rosto",
    "my": "မူဂျီနာ: မျက်နှာမဲ့",
-   "th": "มุจินะ: ผีหน้าเปล่า"
+   "th": "มุจินะ: ผีหน้าเปล่า",
+   "si": "මුජිනා: මූණක් නැති එකා"
   },
   "level": "N4",
   "topic": "classic-ghost",
@@ -14024,7 +14120,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Liga Rambut Merah (1): Pekerjaan Aneh",
    "pt": "A Liga dos Cabeças-Vermelhas (1): Um Emprego Estranho",
    "my": "ဆံပင်နီ အသင်း (၁): ထူးဆန်းသော အလုပ်",
-   "th": "สมาคมผมแดง (1): งานประหลาด"
+   "th": "สมาคมผมแดง (1): งานประหลาด",
+   "si": "රතු හිසකෙස් සංගමය (1): අමුතු රැකියාවක්"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -14055,7 +14152,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Liga Rambut Merah (2): Suara di Ruang Bawah Tanah",
    "pt": "A Liga dos Cabeças-Vermelhas (2): Ruídos no Porão",
    "my": "ဆံပင်နီ အသင်း (၂): မြေအောက်ခန်းမှ အသံ",
-   "th": "สมาคมผมแดง (2): เสียงในห้องใต้ดิน"
+   "th": "สมาคมผมแดง (2): เสียงในห้องใต้ดิน",
+   "si": "රතු හිසකෙස් සංගමය (2): යට මාළයේ සද්ද"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -14208,7 +14306,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Koin Tembaga Dua Sen (1): Pencuri Budiman",
    "pt": "A Moeda de Dois Sen (1): O Ladrão Cavalheiro",
    "my": "နှစ်ဆင် ကြေးဒင်္ဂါး (၁): လူကြီးလူကောင်း သူခိုး",
-   "th": "เหรียญทองแดงสองเซ็น (1): จอมโจรสุภาพบุรุษ"
+   "th": "เหรียญทองแดงสองเซ็น (1): จอมโจรสุภาพบุรุษ",
+   "si": "සෙන් දෙකේ තඹ කාසිය (1): මහත්ම හොරා"
   },
   "level": "N2",
   "topic": "classic-mystery",
@@ -14239,7 +14338,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Koin Tembaga Dua Sen (2): Matsumura yang Aneh",
    "pt": "A Moeda de Dois Sen (2): O Estranho Matsumura",
    "my": "နှစ်ဆင် ကြေးဒင်္ဂါး (၂): ထူးဆန်းသော မတ်ဆုမူရ",
-   "th": "เหรียญทองแดงสองเซ็น (2): มัตสึมุระผู้แปลกประหลาด"
+   "th": "เหรียญทองแดงสองเซ็น (2): มัตสึมุระผู้แปลกประหลาด",
+   "si": "සෙන් දෙකේ තඹ කාසිය (2): මත්සුමුරාගේ අමුතු හැසිරීම"
   },
   "level": "N2",
   "topic": "classic-mystery",
@@ -14270,7 +14370,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Koin Tembaga Dua Sen (3): Jawaban Sandi",
    "pt": "A Moeda de Dois Sen (3): A Resposta da Cifra",
    "my": "နှစ်ဆင် ကြေးဒင်္ဂါး (၃): လျှို့ဝှက်ကုဒ်၏ အဖြေ",
-   "th": "เหรียญทองแดงสองเซ็น (3): คำตอบของรหัสลับ"
+   "th": "เหรียญทองแดงสองเซ็น (3): คำตอบของรหัสลับ",
+   "si": "සෙන් දෙකේ තඹ කාසිය (3): රහස් කේතය විසඳුණා"
   },
   "level": "N2",
   "topic": "classic-mystery",
