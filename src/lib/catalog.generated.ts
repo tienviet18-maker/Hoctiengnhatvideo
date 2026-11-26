@@ -13645,6 +13645,99 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "life-ikari-3",
+  "titles": {
+   "vi": "Đếm đến mười",
+   "en": "Count to Ten",
+   "zh-Hans": "数到十",
+   "zh-Hant": "數到十",
+   "ko": "열까지 세기",
+   "tl": "Magbilang Hanggang Sampu",
+   "ne": "दससम्म गन",
+   "id": "Hitung Sampai Sepuluh",
+   "pt": "Conte até Dez",
+   "my": "ဆယ်အထိ ရေတွက်ပါ",
+   "th": "นับถึงสิบ"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 38,
+  "cover": "/covers/life-ikari-3.webp",
+  "series": {
+   "id": "life-ikari",
+   "index": 3
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-ikari-3/chapter.mp3",
+   "durationSec": 188.18
+  }
+ },
+ {
+  "id": "life-allen-2",
+  "titles": {
+   "vi": "Người biết mơ",
+   "en": "The Dreamer",
+   "zh-Hans": "做梦的人",
+   "zh-Hant": "做夢的人",
+   "ko": "꿈꾸는 사람",
+   "tl": "Ang Nangangarap",
+   "ne": "सपना देख्ने मान्छे",
+   "id": "Sang Pemimpi",
+   "pt": "Quem Sonha",
+   "my": "အိပ်မက်မက်သူ",
+   "th": "ผู้ที่ฝัน"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 42,
+  "cover": "/covers/life-allen-2.webp",
+  "series": {
+   "id": "life-allen",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-allen-2/chapter.mp3",
+   "durationSec": 227.98
+  }
+ },
+ {
+  "id": "life-seneca-3",
+  "titles": {
+   "vi": "Người ở khắp nơi",
+   "en": "Everywhere Is Nowhere",
+   "zh-Hans": "无处不在的人",
+   "zh-Hant": "無處不在的人",
+   "ko": "어디에나 있는 사람은",
+   "tl": "Ang Nasa Lahat ng Dako",
+   "ne": "जताततै हुने मान्छे",
+   "id": "Yang Ada di Mana-mana",
+   "pt": "Quem Está em Toda Parte",
+   "my": "နေရာတိုင်းမှာ ရှိသူ",
+   "th": "คนที่อยู่ทุกที่"
+  },
+  "level": "N2",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 53,
+  "cover": "/covers/life-seneca-3.webp",
+  "series": {
+   "id": "life-seneca",
+   "index": 3
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-seneca-3/chapter.mp3",
+   "durationSec": 311.18
+  }
+ },
+ {
   "id": "mystery-hoichi-1",
   "titles": {
    "vi": "Hōichi không tai (1): Vị khách lúc nửa đêm",
