@@ -550,3 +550,9 @@ Quy tắc: chữ kanji hiển thị ở bất kỳ đâu trong app đều phải
 - Từ tự lưu và popup tra từ: từ hiện dạng ruby (`src/lib/furigana.ts` alignWord).
 - Chế độ lái xe: câu hiện bằng furigana của truyện.
 - Tab Bài học: đã xử lý ở PR #39 (furigana nằm trong dữ liệu truyện). Câu nghe thử onboarding: `scripts/gen-placement-furigana.mjs` (prebuild/predev) lấy đúng furigana của câu truyện gốc.
+
+## Thẻ ôn từ ViBJT — lô 6 (Ngữ pháp N3) — 26/11/2026
+
+- Dịch 120 thẻ ngữ pháp N3 (nghĩa mẫu câu + câu ví dụ) sang 9 ngôn ngữ còn thiếu (zh-Hans, zh-Hant, ko, tl, ne, id, pt, my, th): `content/sources/decks/src/grammar-n3-1.txt`, `grammar-n3-2.txt` → `tr/*.jsonl`.
+- Dựng lại bộ thẻ: thêm `public/decks/grammar-N3.json` (7 bộ, 1.548 thẻ). Mọi câu ví dụ có furigana (0 kanji trần).
+- Còn lại: Ngữ pháp N2 (194) và N1 (143).
