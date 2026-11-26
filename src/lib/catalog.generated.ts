@@ -11704,6 +11704,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-thachlam-2/chapter.mp3",
    "durationSec": 401.136
   }
+ },
+ {
+  "id": "furusato-vn-thachlam-3",
+  "titles": {
+   "vi": "Thạch Lam (3): Dưới bóng hoàng lan",
+   "en": "Thach Lam (3): Under the Ylang-Ylang Tree",
+   "zh-Hans": "石岚短篇（3）：依兰树荫下",
+   "zh-Hant": "石嵐短篇（3）：依蘭樹蔭下",
+   "ko": "타익 람 (3): 일랑일랑 나무 그늘 아래",
+   "tl": "Thach Lam (3): Sa Lilim ng Ilang-Ilang",
+   "ne": "थाच लाम (३): इलाङ-इलाङको छायाँमुनि",
+   "id": "Thach Lam (3): Di Bawah Pohon Kenanga",
+   "pt": "Thach Lam (3): À Sombra do Ylang-Ylang",
+   "my": "ထက်လမ် (၃) - ကဒံပင်ရိပ်အောက်",
+   "th": "ทัคลาม (3): ใต้ร่มกระดังงา"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-thachlam-3.webp",
+  "series": {
+   "id": "furusato-vn-thachlam",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-thachlam-3/chapter.mp3",
+   "durationSec": 424.608
+  }
  }
 ];
 
