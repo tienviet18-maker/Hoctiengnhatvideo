@@ -1,0 +1,158 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜たことがありません",
+   "example": 15,
+   "meaning": {
+    "vi": "Chưa từng ~ (kinh nghiệm: động từ thể た + ことがない).",
+    "en": "Have never ~ (experience: た-form + ことがない).",
+    "zh-Hans": "从没……过（经历：た形＋ことがない）。",
+    "ko": "~한 적이 없다 (경험).",
+    "tl": "Hindi pa nakapag-~ (karanasan).",
+    "ne": "कहिल्यै ~ गरेको छैन (अनुभव)।",
+    "id": "Belum pernah ~ (pengalaman).",
+    "pt": "Nunca ~ (experiência).",
+    "my": "မ ~ ဖူးဘူး (အတွေ့အကြုံ)။",
+    "th": "ไม่เคย ~ (ประสบการณ์)"
+   }
+  },
+  {
+   "pattern": "〜たまま",
+   "example": 16,
+   "meaning": {
+    "vi": "Vẫn giữ nguyên trạng thái ~ mà làm việc khác.",
+    "en": "While still in the state of ~.",
+    "zh-Hans": "保持……的状态（做别的事）。",
+    "ko": "~한 채로.",
+    "tl": "Habang nasa ~ pa.",
+    "ne": "~ कै अवस्थामा।",
+    "id": "Sambil tetap ~.",
+    "pt": "Ainda ~ (mantendo o estado).",
+    "my": "~ ရက်သား။",
+    "th": "ทั้งที่ ~ อยู่"
+   }
+  },
+  {
+   "pattern": "〜てくる",
+   "example": 21,
+   "meaning": {
+    "vi": "Dần dần ~ (biến đổi đang diễn ra, ở đây: なってきました).",
+    "en": "Gradually ~ (a change in progress; here なってきました).",
+    "zh-Hans": "渐渐……起来（变化在进行，这里是なってきました）。",
+    "ko": "~해지기 시작하다 (변화의 진행).",
+    "tl": "Unti-unting ~ (pagbabago).",
+    "ne": "बिस्तारै ~ हुँदै आउनु (परिवर्तन)।",
+    "id": "Mulai menjadi ~ (perubahan).",
+    "pt": "Ir ficando ~ (mudança).",
+    "my": "တဖြည်းဖြည်း ~ လာတယ် (ပြောင်းလဲမှု)။",
+    "th": "ค่อย ๆ ~ ขึ้น (การเปลี่ยนแปลง)"
+   }
+  },
+  {
+   "pattern": "AではなくB",
+   "example": 39,
+   "meaning": {
+    "vi": "Không phải A mà là B.",
+    "en": "Not A, but B.",
+    "zh-Hans": "不是A，而是B。",
+    "ko": "A가 아니라 B.",
+    "tl": "Hindi A kundi B.",
+    "ne": "A होइन, B।",
+    "id": "Bukan A, tapi B.",
+    "pt": "Não A, mas B.",
+    "my": "A မဟုတ်ဘဲ B။",
+    "th": "ไม่ใช่ A แต่เป็น B"
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "ja": "お母さんは、何が食べたいと言いましたか。",
+   "choices": [
+    "カレー",
+    "ケーキ",
+    "おかゆ",
+    "おにぎり"
+   ],
+   "answer": 2,
+   "explain": {
+    "vi": "Mẹ muốn ăn cháo.",
+    "en": "Rice porridge.",
+    "zh-Hans": "粥。",
+    "ko": "죽.",
+    "tl": "Lugaw.",
+    "ne": "जाउलो।",
+    "id": "Bubur.",
+    "pt": "Mingau de arroz.",
+    "my": "ဆန်ပြုတ်။",
+    "th": "โจ๊ก"
+   }
+  },
+  {
+   "ja": "ビンくんは、お母さんに何をしましたか。",
+   "choices": [
+    "絵をかいた",
+    "歌を歌った",
+    "おかゆを作った",
+    "くすりを持ってきた"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Bin vẽ tranh tặng mẹ.",
+    "en": "He drew a picture for her.",
+    "zh-Hans": "画了一幅画。",
+    "ko": "그림을 그렸다.",
+    "tl": "Gumuhit siya ng larawan.",
+    "ne": "चित्र बनायो।",
+    "id": "Menggambar.",
+    "pt": "Fez um desenho.",
+    "my": "ပုံဆွဲပေးတယ်။",
+    "th": "วาดรูปให้"
+   }
+  },
+  {
+   "ja": "マイちゃんは、さいしょ何を入れそうになりましたか。",
+   "choices": [
+    "しお",
+    "水",
+    "のり",
+    "さとう"
+   ],
+   "answer": 3,
+   "explain": {
+    "vi": "Suýt cho đường thay muối.",
+    "en": "Sugar instead of salt.",
+    "zh-Hans": "差点放了糖。",
+    "ko": "설탕.",
+    "tl": "Asukal.",
+    "ne": "चिनी।",
+    "id": "Gula.",
+    "pt": "Açúcar.",
+    "my": "သကြား။",
+    "th": "น้ำตาล"
+   }
+  },
+  {
+   "ja": "日曜日、だれがかぜをひきましたか。",
+   "choices": [
+    "お母さん",
+    "マイちゃん",
+    "ビンくん",
+    "お父さん"
+   ],
+   "answer": 1,
+   "explain": {
+    "vi": "Chủ nhật, đến lượt Mai bị cảm.",
+    "en": "Mai caught the cold.",
+    "zh-Hans": "小麦感冒了。",
+    "ko": "마이.",
+    "tl": "Si Mai.",
+    "ne": "माई।",
+    "id": "Mai.",
+    "pt": "A Mai.",
+    "my": "မိုင်။",
+    "th": "ไม"
+   }
+  }
+ ]
+}

@@ -688,6 +688,14 @@ import s_maichan01 from "../../content/stories/maichan-01.json";
 import s_maichan02 from "../../content/stories/maichan-02.json";
 import s_maichan03 from "../../content/stories/maichan-03.json";
 import s_maichan04 from "../../content/stories/maichan-04.json";
+// --- làm lại Mai-chan + văn học Nhật (chuẩn v2): import ---
+import s_maichan05 from "../../content/stories/maichan-05.json";
+import s_maichan06 from "../../content/stories/maichan-06.json";
+import s_maichan07 from "../../content/stories/maichan-07.json";
+import s_maichan08 from "../../content/stories/maichan-08.json";
+import s_maichan09 from "../../content/stories/maichan-09.json";
+import s_maichan10 from "../../content/stories/maichan-10.json";
+// --- hết làm lại: import ---
 import s_furusatoVnKieu1 from "../../content/stories/furusato-vn-kieu-1.json";
 import s_furusatoVnKieu2 from "../../content/stories/furusato-vn-kieu-2.json";
 import s_furusatoVnKieu3 from "../../content/stories/furusato-vn-kieu-3.json";
@@ -1399,6 +1407,14 @@ export const STORIES: StoryContent[] = [
   s_maichan02 as unknown as StoryContent,
   s_maichan03 as unknown as StoryContent,
   s_maichan04 as unknown as StoryContent,
+  // --- làm lại Mai-chan + văn học Nhật (chuẩn v2) ---
+  s_maichan05 as unknown as StoryContent,
+  s_maichan06 as unknown as StoryContent,
+  s_maichan07 as unknown as StoryContent,
+  s_maichan08 as unknown as StoryContent,
+  s_maichan09 as unknown as StoryContent,
+  s_maichan10 as unknown as StoryContent,
+  // --- hết làm lại ---
   s_furusatoVnKieu1 as unknown as StoryContent,
   s_furusatoVnKieu2 as unknown as StoryContent,
   s_furusatoVnKieu3 as unknown as StoryContent,
