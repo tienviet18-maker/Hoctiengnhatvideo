@@ -117,6 +117,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("vid"); ap.add_argument("--series", required=True); ap.add_argument("--level", required=True)
     ap.add_argument("--category", default="podcast"); ap.add_argument("--min-agree", type=float, default=0.6)
+    ap.add_argument("--clips", action="store_true", help="cắt clip 1–4 phút thay vì trọn tập")
     a = ap.parse_args()
     meta = probe(a.vid)
     if not meta["embeddable"] or meta["availability"] != "public":
@@ -130,10 +131,11 @@ def main():
         l["asr"] = asr_window(l, asr) if asr else ""
         l["uncertain"] = bool(asr) and l["agree"] < a.min_agree  # decided later by annotate (keep / fix / drop)
         l.pop("words", None)
-    clips = cut(lines)
+    # Mặc định: phụ đề TRỌN TẬP (chủ app yêu cầu 27/11) — một gói gồm mọi dòng; --clips để cắt đoạn như cũ
+    clips = cut(lines) if a.clips else [lines]
     os.makedirs(WORK, exist_ok=True)
     out = dict(youtubeId=a.vid, series=a.series, level=a.level, category=a.category, meta=meta, has_asr=bool(asr),
-               lines=lines, clips=[[lines.index(l) for l in c] for c in clips])
+               lines=lines, clips=[[lines.index(l) for l in c] for c in clips], episode=not a.clips)
     json.dump(out, open(os.path.join(WORK, f"{a.vid}.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     unc = sum(l["uncertain"] for l in lines)
     print(f"{a.vid} '{meta['title'][:40]}' {meta['duration']}s lines={len(lines)} uncertain={unc} clips={len(clips)} "

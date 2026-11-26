@@ -52,6 +52,8 @@ Truyện dài hơn thì chia thành bộ nhiều chương (`series: { id, index 
 dòng dài tối đa 12 giây (dài hơn thì tách câu). Mốc thời gian phải khớp tiếng nói, sai lệch tối đa
 0,5 giây (nghe kiểm, ghi trong `.qc.md`).
 
+**Video trọn tập (`episode: true`, mặc định từ 27/11/2026 theo yêu cầu chủ app):** một gói phủ cả video, phát từ giây 0 đến hết. Phụ đề phải phủ ít nhất 60% thời lượng; chỗ trống chỉ được là nhạc, bài hát chủ đề, tiếng hét hay lời không nghe rõ. Luật 45–240 giây và khoảng trống 8 giây chỉ áp dụng cho clip cắt; luật dòng ≤ 12 giây vẫn giữ.
+
 ## 4. Từ vựng
 
 - Cấp của từ = cấp trong danh sách JLPT. Từ không có trong danh sách thì người soạn tự gắn và ghi lý do

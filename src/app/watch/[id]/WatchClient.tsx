@@ -54,7 +54,7 @@ export default function WatchClient({
   // TODO(Firebase): máy chủ không gửi các câu sau cho tài khoản thường.
   const preview = !!video && !video.free && !profile.vip;
   // Mở đúng đoạn học thay vì từ giây 0 (video tự thêm: cả video)
-  const clip = useMemo(() => clipWindow(lines, video?.durationSec ?? 0), [lines, video]);
+  const clip = useMemo(() => clipWindow(lines, video?.durationSec ?? 0, !!video?.episode), [lines, video]);
   const clipRef = useRef(clip);
   useEffect(() => {
     clipRef.current = clip;

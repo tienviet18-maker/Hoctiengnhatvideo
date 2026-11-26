@@ -1869,52 +1869,28 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "clipEnd": 274
  },
  {
-  "id": "shinchan-a-lucky-looking-day",
+  "id": "shinchan-moms-lucky-day-full",
   "youtubeId": "CTISRtOtZDk",
   "titles": {
-   "vi": "Shin-chan: Một ngày may mắn",
-   "en": "Shin-chan: A lucky-looking day",
-   "zh-Hans": "蜡笔小新：好像会有好事的一天",
-   "zh-Hant": "蠟筆小新：好像會有好事的一天",
-   "ko": "짱구: 좋은 일이 있을 것 같은 날",
-   "tl": "Shin-chan: Mukhang suwerteng araw",
-   "ne": "शिन-चान: भाग्यशाली जस्तो दिन",
-   "id": "Shin-chan: Hari yang tampak beruntung",
-   "pt": "Shin-chan: Um dia de sorte",
-   "my": "ရှင်ချန်- ကံကောင်းမယ့်ပုံရတဲ့နေ့",
-   "th": "ชินจัง: วันที่ดูเหมือนจะมีเรื่องดี"
+   "vi": "Shin-chan: Một ngày may mắn của mẹ (trọn tập)",
+   "en": "Shin-chan: Mom's lucky day (full episode)",
+   "zh-Hans": "蜡笔小新：妈妈的幸运日（完整集）",
+   "zh-Hant": "蠟筆小新：媽媽的幸運日（完整集）",
+   "ko": "짱구: 엄마의 운수 좋은 날 (전편)",
+   "tl": "Shin-chan: Suwerteng araw ni Nanay (buong episode)",
+   "ne": "शिन-चान: आमाको भाग्यशाली दिन (पूरा भाग)",
+   "id": "Shin-chan: Hari beruntung Ibu (episode penuh)",
+   "pt": "Shin-chan: O dia de sorte da mãe (episódio completo)",
+   "my": "ရှင်ချန်- အမေ့ ကံကောင်းတဲ့နေ့ (အပိုင်းအပြည့်)",
+   "th": "ชินจัง: วันโชคดีของแม่ (เต็มตอน)"
   },
   "level": "N4",
   "category": "anime",
   "durationSec": 424,
   "free": false,
-  "lineCount": 16,
+  "lineCount": 67,
   "clipStart": 0,
-  "clipEnd": 76
- },
- {
-  "id": "shinchan-the-suspicious-beef-stew",
-  "youtubeId": "CTISRtOtZDk",
-  "titles": {
-   "vi": "Shin-chan: Món bò hầm bất thường",
-   "en": "Shin-chan: The suspicious beef stew",
-   "zh-Hans": "蜡笔小新：可疑的炖牛肉",
-   "zh-Hant": "蠟筆小新：可疑的燉牛肉",
-   "ko": "짱구: 수상한 비프스튜",
-   "tl": "Shin-chan: Ang kahina-hinalang beef stew",
-   "ne": "शिन-चान: शंकास्पद बीफ स्टु",
-   "id": "Shin-chan: Semur daging yang mencurigakan",
-   "pt": "Shin-chan: O ensopado suspeito",
-   "my": "ရှင်ချန်- သံသယဖြစ်စရာ အမဲသားဟင်း",
-   "th": "ชินจัง: สตูเนื้อน่าสงสัย"
-  },
-  "level": "N4",
-  "category": "anime",
-  "durationSec": 424,
-  "free": false,
-  "lineCount": 16,
-  "clipStart": 141,
-  "clipEnd": 202
+  "clipEnd": 382
  }
 ];
 

@@ -109,8 +109,9 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument("vid"); ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     jp = os.path.join(WORK, f"{a.vid}.json")
-    d = json.load(open(jp if os.path.exists(jp) else os.path.join(HERE, "raw", f"{a.vid}.json"), encoding="utf-8"))
-    src = WORK if os.path.exists(os.path.join(WORK, f"{a.vid}.ann.json")) else os.path.join(HERE, "raw")
+    rp = os.path.join(HERE, "raw", f"{a.vid}.json")  # raw/ (bản đã duyệt, có thể là trọn tập) được ưu tiên hơn work/
+    d = json.load(open(rp if os.path.exists(rp) else jp, encoding="utf-8"))
+    src = os.path.join(HERE, "raw") if os.path.exists(os.path.join(HERE, "raw", f"{a.vid}.ann.json")) else WORK
     ann = json.load(open(os.path.join(src, f"{a.vid}.ann.json"), encoding="utf-8"))
     series = d["series"]
     if f'key: "{series}"' not in open(os.path.join(ROOT, "src/lib/series.ts"), encoding="utf-8").read():
@@ -126,13 +127,16 @@ def main():
             if not al or not al.get("keep") or not al.get("ja", "").strip():
                 dropped.append((i, "keep=false")); continue
             ja = al["ja"].strip()
-            if len(ja) > 6 and ja in seen:
+            if not d.get("episode") and len(ja) > 6 and ja in seen:
                 dropped.append((i, f"dup {seen[ja]}")); continue
-            kept.append(dict(start=d["lines"][i]["start"], end=d["lines"][i]["end"], ja=ja,
+            st, en = d["lines"][i]["start"], d["lines"][i]["end"]
+            if en - st > 12:  # Whisper đôi khi kéo dòng qua cả đoạn im lặng: cắt về độ dài nói hợp lý
+                en = round(st + min(12, 1.5 + 0.2 * len(ja)), 2)
+            kept.append(dict(start=st, end=en, ja=ja,
                              translations={x: al["translations"][x].strip() for x in LANGS},
                              grammarNote={x: al["grammarNote"][x].strip() for x in LANGS}, _vocab=al.get("vocab", []),
                              _readings=al.get("readings", [])))
-        for run in split_rules(kept):
+        for run in ([kept] if d.get("episode") and kept else split_rules(kept)):
             F = furigana([l["ja"] for l in run])
             lines = []
             for l, f in zip(run, F):
@@ -166,6 +170,7 @@ def main():
             pack = dict(kind="video", id=pid, youtubeId=a.vid, titles={x: c["titles"][x].strip() for x in LANGS}, level=level,
                         category=d["category"], durationSec=d["meta"]["duration"], lines=lines,
                         teaser=dict(start=lines[ti]["start"], end=lines[tj]["end"], assPath=f"/teasers/{pid}.ass"), free=False, standard=2)
+            if d.get("episode"): pack["episode"] = True
             span = lines[-1]["end"] - lines[0]["start"]
             built.append((pid, len(lines), span, sum(len(l["vocab"]) for l in lines)))
             if a.dry_run: continue

@@ -90,10 +90,13 @@ function checkPack(d) {
   } else {
     const L = d.lines;
     const len = L.length ? L[L.length - 1].end - L[0].start : 0;
-    if (len < CLIP_RULES.length[0] || len > CLIP_RULES.length[1]) p.push(`clip dài ${len.toFixed(0)} giây (chuẩn ${CLIP_RULES.length.join("–")})`);
+    if (d.episode) {
+      // Trọn tập: phụ đề phải phủ gần hết video (chỗ trống chỉ được là nhạc/không lời)
+      if (len < d.durationSec * 0.6) p.push(`trọn tập nhưng phụ đề chỉ phủ ${len.toFixed(0)}/${d.durationSec} giây`);
+    } else if (len < CLIP_RULES.length[0] || len > CLIP_RULES.length[1]) p.push(`clip dài ${len.toFixed(0)} giây (chuẩn ${CLIP_RULES.length.join("–")})`);
     let gaps = 0, long = 0;
     L.forEach((s, i) => {
-      if (i && s.start - L[i - 1].end > CLIP_RULES.maxGap) gaps++;
+      if (i && !d.episode && s.start - L[i - 1].end > CLIP_RULES.maxGap) gaps++;
       if (s.end - s.start > CLIP_RULES.maxLine) long++;
     });
     if (gaps) p.push(`${gaps} khoảng trống phụ đề dài hơn ${CLIP_RULES.maxGap} giây`);
