@@ -2,19 +2,913 @@
  "clips": {
   "0": {
    "titles": {
-    "vi": "Peppa Pig: Tiệc sinh nhật và ảo thuật gia",
-    "en": "Peppa Pig: The birthday party magician",
-    "zh-Hans": "小猪佩奇：生日派对的魔术师",
-    "zh-Hant": "粉紅豬小妹：生日派對的魔術師",
-    "ko": "페파 피그: 생일 파티의 마술사",
-    "tl": "Peppa Pig: Ang salamangkero sa kaarawan",
-    "ne": "पेपा पिग: जन्मदिन पार्टीको जादूगर",
-    "id": "Peppa Pig: Pesulap di pesta ulang tahun",
-    "pt": "Peppa Pig: O mágico da festa de aniversário",
-    "my": "ပက်ပါပစ်ဂ်- မွေးနေ့ပွဲက မျက်လှည့်ဆရာ",
-    "th": "เป๊ปป้าพิก: นักมายากลในงานวันเกิด"
+    "vi": "Peppa Pig: Tiệc sinh nhật của tớ (trọn tập)",
+    "en": "Peppa Pig: My birthday party (full episode)",
+    "zh-Hans": "小猪佩奇：我的生日派对（完整集）",
+    "zh-Hant": "粉紅豬小妹：我的生日派對（完整集）",
+    "ko": "페파 피그: 나의 생일 파티 (전편)",
+    "tl": "Peppa Pig: Ang aking kaarawan (buong episode)",
+    "ne": "पेपा पिग: मेरो जन्मदिन पार्टी (पूरा भाग)",
+    "id": "Peppa Pig: Pesta ulang tahunku (episode penuh)",
+    "pt": "Peppa Pig: Minha festa de aniversário (episódio completo)",
+    "my": "ပက်ပါပစ်ဂ်- ငါ့မွေးနေ့ပွဲ (အပိုင်းအပြည့်)",
+    "th": "เป๊ปป้าพิก: งานวันเกิดของหนู (เต็มตอน)"
    },
    "lines": [
+    {
+     "i": 0,
+     "keep": true,
+     "ja": "私はペッパ・ピッグ。",
+     "translations": {
+      "vi": "Tớ là Peppa Pig.",
+      "en": "I'm Peppa Pig.",
+      "zh-Hans": "我是小猪佩奇。",
+      "zh-Hant": "我是佩佩豬。",
+      "ko": "나는 페파 피그.",
+      "tl": "Ako si Peppa Pig.",
+      "ne": "म पेपा पिग।",
+      "id": "Aku Peppa Pig.",
+      "pt": "Eu sou a Peppa Pig.",
+      "my": "ငါက ပက်ပါပစ်ဂ်။",
+      "th": "หนูคือเป๊ปป้าพิก"
+     },
+     "grammarNote": {
+      "vi": "「私はNです」 lược 「です」: tự giới thiệu.",
+      "en": "「私はN（です）」: self-introduction.",
+      "zh-Hans": "「私はN（です）」：自我介绍。",
+      "zh-Hant": "「私はN（です）」：自我介紹。",
+      "ko": "「私はN」: 자기소개.",
+      "tl": "「私はN」: pagpapakilala.",
+      "ne": "「私はN」: परिचय।",
+      "id": "「私はN」: perkenalan.",
+      "pt": "「私はN」: apresentação.",
+      "my": "「私はN」: မိတ်ဆက်။",
+      "th": "「私はN」: แนะนำตัว"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "私",
+       "reading": "わたし"
+      }
+     ]
+    },
+    {
+     "i": 1,
+     "keep": true,
+     "ja": "この子は弟のジョージ。",
+     "translations": {
+      "vi": "Đây là em trai tớ, George.",
+      "en": "This is my little brother George.",
+      "zh-Hans": "这是我弟弟乔治。",
+      "zh-Hant": "這是我弟弟喬治。",
+      "ko": "이 아이는 남동생 조지.",
+      "tl": "Ito ang kapatid kong si George.",
+      "ne": "यो मेरो भाइ जर्ज।",
+      "id": "Ini adikku George.",
+      "pt": "Este é meu irmãozinho George.",
+      "my": "ဒါက ညီလေး ဂျော့ချ်။",
+      "th": "นี่คือน้องชายจอร์จ"
+     },
+     "grammarNote": {
+      "vi": "「Nの + tên」 giới thiệu quan hệ: 「弟のジョージ」 = George, em trai tôi.",
+      "en": "「N の + name」 introduces a relation: 「弟のジョージ」 = my little brother George.",
+      "zh-Hans": "「Nの＋名字」介绍关系：「弟のジョージ」=我弟弟乔治。",
+      "zh-Hant": "「Nの＋名字」介紹關係：「弟のジョージ」＝我弟弟喬治。",
+      "ko": "「Nの+이름」 관계 소개: 「弟のジョージ」= 남동생 조지.",
+      "tl": "「Nの + pangalan」: 「弟のジョージ」 = kapatid kong si George.",
+      "ne": "「Nの + नाम」: 「弟のジョージ」 = भाइ जर्ज।",
+      "id": "「Nの + nama」: 「弟のジョージ」 = adikku George.",
+      "pt": "「Nの + nome」: 「弟のジョージ」 = meu irmão George.",
+      "my": "「Nの + နာမည်」: 「弟のジョージ」 = ညီလေး ဂျော့ချ်။",
+      "th": "「Nの + ชื่อ」: 「弟のジョージ」 = น้องชายจอร์จ"
+     },
+     "vocab": [
+      {
+       "word": "弟",
+       "reading": "おとうと",
+       "meanings": {
+        "vi": "em trai",
+        "en": "little brother",
+        "zh-Hans": "弟弟",
+        "zh-Hant": "弟弟",
+        "ko": "남동생",
+        "tl": "nakababatang kapatid",
+        "ne": "भाइ",
+        "id": "adik laki-laki",
+        "pt": "irmão mais novo",
+        "my": "ညီ",
+        "th": "น้องชาย"
+       }
+      }
+     ],
+     "readings": [
+      {
+       "surface": "子",
+       "reading": "こ"
+      },
+      {
+       "surface": "弟",
+       "reading": "おとうと"
+      }
+     ]
+    },
+    {
+     "i": 2,
+     "keep": true,
+     "ja": "お母さんのマミー・ピッグ。",
+     "translations": {
+      "vi": "Mẹ tớ, Mummy Pig.",
+      "en": "My mother, Mummy Pig.",
+      "zh-Hans": "我妈妈猪妈妈。",
+      "zh-Hant": "我媽媽豬媽媽。",
+      "ko": "엄마 마미 피그.",
+      "tl": "Ang nanay ko, si Mummy Pig.",
+      "ne": "मेरी आमा, मम्मी पिग।",
+      "id": "Ibuku, Mummy Pig.",
+      "pt": "Minha mãe, Mamãe Pig.",
+      "my": "အမေ မာမီပစ်ဂ်။",
+      "th": "แม่ มัมมี่พิก"
+     },
+     "grammarNote": {
+      "vi": "「Nの + tên」 giới thiệu quan hệ: 「弟のジョージ」 = George, em trai tôi.",
+      "en": "「N の + name」 introduces a relation: 「弟のジョージ」 = my little brother George.",
+      "zh-Hans": "「Nの＋名字」介绍关系：「弟のジョージ」=我弟弟乔治。",
+      "zh-Hant": "「Nの＋名字」介紹關係：「弟のジョージ」＝我弟弟喬治。",
+      "ko": "「Nの+이름」 관계 소개: 「弟のジョージ」= 남동생 조지.",
+      "tl": "「Nの + pangalan」: 「弟のジョージ」 = kapatid kong si George.",
+      "ne": "「Nの + नाम」: 「弟のジョージ」 = भाइ जर्ज।",
+      "id": "「Nの + nama」: 「弟のジョージ」 = adikku George.",
+      "pt": "「Nの + nome」: 「弟のジョージ」 = meu irmão George.",
+      "my": "「Nの + နာမည်」: 「弟のジョージ」 = ညီလေး ဂျော့ချ်။",
+      "th": "「Nの + ชื่อ」: 「弟のジョージ」 = น้องชายจอร์จ"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "母",
+       "reading": "かあ"
+      }
+     ]
+    },
+    {
+     "i": 3,
+     "keep": true,
+     "ja": "お父さんのダディ・ピッグ。",
+     "translations": {
+      "vi": "Bố tớ, Daddy Pig.",
+      "en": "My father, Daddy Pig.",
+      "zh-Hans": "我爸爸猪爸爸。",
+      "zh-Hant": "我爸爸豬爸爸。",
+      "ko": "아빠 대디 피그.",
+      "tl": "Ang tatay ko, si Daddy Pig.",
+      "ne": "मेरो बुबा, ड्याडी पिग।",
+      "id": "Ayahku, Daddy Pig.",
+      "pt": "Meu pai, Papai Pig.",
+      "my": "အဖေ ဒက်ဒီပစ်ဂ်။",
+      "th": "พ่อ แด๊ดดี้พิก"
+     },
+     "grammarNote": {
+      "vi": "「Nの + tên」 giới thiệu quan hệ: 「弟のジョージ」 = George, em trai tôi.",
+      "en": "「N の + name」 introduces a relation: 「弟のジョージ」 = my little brother George.",
+      "zh-Hans": "「Nの＋名字」介绍关系：「弟のジョージ」=我弟弟乔治。",
+      "zh-Hant": "「Nの＋名字」介紹關係：「弟のジョージ」＝我弟弟喬治。",
+      "ko": "「Nの+이름」 관계 소개: 「弟のジョージ」= 남동생 조지.",
+      "tl": "「Nの + pangalan」: 「弟のジョージ」 = kapatid kong si George.",
+      "ne": "「Nの + नाम」: 「弟のジョージ」 = भाइ जर्ज।",
+      "id": "「Nの + nama」: 「弟のジョージ」 = adikku George.",
+      "pt": "「Nの + nome」: 「弟のジョージ」 = meu irmão George.",
+      "my": "「Nの + နာမည်」: 「弟のジョージ」 = ညီလေး ဂျော့ချ်။",
+      "th": "「Nの + ชื่อ」: 「弟のジョージ」 = น้องชายจอร์จ"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "父",
+       "reading": "とう"
+      }
+     ]
+    },
+    {
+     "i": 4,
+     "keep": true,
+     "ja": "ペッパ・ピッグ！",
+     "translations": {
+      "vi": "Peppa Pig!",
+      "en": "Peppa Pig!",
+      "zh-Hans": "小猪佩奇！",
+      "zh-Hant": "佩佩豬！",
+      "ko": "페파 피그!",
+      "tl": "Peppa Pig!",
+      "ne": "पेपा पिग!",
+      "id": "Peppa Pig!",
+      "pt": "Peppa Pig!",
+      "my": "ပက်ပါပစ်ဂ်!",
+      "th": "เป๊ปป้าพิก!"
+     },
+     "grammarNote": {
+      "vi": "Tên chương trình hô ở đầu tập.",
+      "en": "The show's name, called out at the start.",
+      "zh-Hans": "开头喊出节目名。",
+      "zh-Hant": "開頭喊出節目名。",
+      "ko": "처음에 외치는 프로그램 이름.",
+      "tl": "Pangalan ng palabas.",
+      "ne": "कार्यक्रमको नाम।",
+      "id": "Nama acara.",
+      "pt": "Nome do programa.",
+      "my": "အစီအစဉ်နာမည်။",
+      "th": "ชื่อรายการ"
+     },
+     "vocab": [],
+     "readings": []
+    },
+    {
+     "i": 5,
+     "keep": true,
+     "ja": "今日はペッパの誕生日です。",
+     "translations": {
+      "vi": "Hôm nay là sinh nhật của Peppa.",
+      "en": "Today is Peppa's birthday.",
+      "zh-Hans": "今天是佩奇的生日。",
+      "zh-Hant": "今天是佩佩的生日。",
+      "ko": "오늘은 페파의 생일이에요.",
+      "tl": "Kaarawan ngayon ni Peppa.",
+      "ne": "आज पेपाको जन्मदिन हो।",
+      "id": "Hari ini ulang tahun Peppa.",
+      "pt": "Hoje é aniversário da Peppa.",
+      "my": "ဒီနေ့ ပက်ပါ့ မွေးနေ့ပါ။",
+      "th": "วันนี้เป็นวันเกิดของเป๊ปป้า"
+     },
+     "grammarNote": {
+      "vi": "「今日はNです」 = hôm nay là N.",
+      "en": "「今日はNです」 = today is N.",
+      "zh-Hans": "「今日はNです」=今天是N。",
+      "zh-Hant": "「今日はNです」＝今天是N。",
+      "ko": "「今日はNです」= 오늘은 N.",
+      "tl": "「今日はNです」 = ngayon ay N.",
+      "ne": "「今日はNです」 = आज N हो।",
+      "id": "「今日はNです」 = hari ini N.",
+      "pt": "「今日はNです」 = hoje é N.",
+      "my": "「今日はNです」 = ဒီနေ့ N ပါ။",
+      "th": "「今日はNです」 = วันนี้คือ N"
+     },
+     "vocab": [
+      {
+       "word": "誕生日",
+       "reading": "たんじょうび",
+       "meanings": {
+        "vi": "sinh nhật",
+        "en": "birthday",
+        "zh-Hans": "生日",
+        "zh-Hant": "生日",
+        "ko": "생일",
+        "tl": "kaarawan",
+        "ne": "जन्मदिन",
+        "id": "ulang tahun",
+        "pt": "aniversário",
+        "my": "မွေးနေ့",
+        "th": "วันเกิด"
+       }
+      }
+     ],
+     "readings": [
+      {
+       "surface": "今日",
+       "reading": "きょう"
+      },
+      {
+       "surface": "誕生日",
+       "reading": "たんじょうび"
+      }
+     ]
+    },
+    {
+     "i": 6,
+     "keep": true,
+     "ja": "まだとっても朝早いのですが、",
+     "translations": {
+      "vi": "Trời vẫn còn rất sớm, nhưng…",
+      "en": "It's still very early in the morning, but…",
+      "zh-Hans": "虽然还很早，",
+      "zh-Hant": "雖然還很早，",
+      "ko": "아직 아주 이른 아침이지만,",
+      "tl": "Napakaaga pa, pero…",
+      "ne": "अझै धेरै बिहान छ, तर…",
+      "id": "Masih pagi sekali, tapi…",
+      "pt": "Ainda é muito cedo, mas…",
+      "my": "မနက်စောစော ရှိသေးပေမဲ့…",
+      "th": "ยังเช้ามาก แต่…"
+     },
+     "grammarNote": {
+      "vi": "「〜のですが」 = ...nhưng (mềm, mở đầu cho câu sau). 「まだ」 = vẫn còn.",
+      "en": "「〜のですが」 = …but (soft lead-in). 「まだ」 = still.",
+      "zh-Hans": "「〜のですが」=虽然……（委婉引出）。「まだ」=还。",
+      "zh-Hant": "「〜のですが」＝雖然……（委婉引出）。「まだ」＝還。",
+      "ko": "「〜のですが」= ~지만. 「まだ」= 아직.",
+      "tl": "「〜のですが」 = pero. 「まだ」 = pa.",
+      "ne": "「〜のですが」 = तर। 「まだ」 = अझै।",
+      "id": "「〜のですが」 = tapi. 「まだ」 = masih.",
+      "pt": "「〜のですが」 = mas. 「まだ」 = ainda.",
+      "my": "「〜のですが」 = ဒါပေမဲ့။ 「まだ」 = သေး။",
+      "th": "「〜のですが」 = แต่ 「まだ」 = ยัง"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "朝",
+       "reading": "あさ"
+      },
+      {
+       "surface": "早",
+       "reading": "はや"
+      }
+     ]
+    },
+    {
+     "i": 7,
+     "keep": false
+    },
+    {
+     "i": 8,
+     "keep": true,
+     "ja": "マミーとダディを起こさなきゃ。",
+     "translations": {
+      "vi": "Phải đánh thức mẹ và bố thôi.",
+      "en": "I have to wake up Mummy and Daddy.",
+      "zh-Hans": "得叫醒妈妈和爸爸。",
+      "zh-Hant": "得叫醒媽媽和爸爸。",
+      "ko": "엄마 아빠를 깨워야 해.",
+      "tl": "Gigisingin ko sina Mummy at Daddy.",
+      "ne": "मम्मी र ड्याडीलाई उठाउनुपर्छ।",
+      "id": "Harus bangunkan Mummy dan Daddy.",
+      "pt": "Preciso acordar a mamãe e o papai.",
+      "my": "မာမီနဲ့ ဒက်ဒီကို နှိုးရမယ်။",
+      "th": "ต้องปลุกแม่กับพ่อ"
+     },
+     "grammarNote": {
+      "vi": "「Vなきゃ」 = 「Vなければ（いけない）」: phải V. 「起こす」 = đánh thức ↔ 「起きる」 = thức dậy.",
+      "en": "「Vなきゃ」 = must V. 「起こす」 = wake someone ↔ 「起きる」 = wake up.",
+      "zh-Hans": "「Vなきゃ」=得V。「起こす」=叫醒↔「起きる」=起床。",
+      "zh-Hant": "「Vなきゃ」＝得V。「起こす」＝叫醒↔「起きる」＝起床。",
+      "ko": "「Vなきゃ」= V해야 해. 「起こす」 깨우다 ↔ 「起きる」 일어나다.",
+      "tl": "「Vなきゃ」 = dapat. 「起こす」 = gisingin ↔ 「起きる」 = gumising.",
+      "ne": "「Vなきゃ」 = पर्छ। 「起こす」 = उठाउनु ↔ 「起きる」 = उठ्नु।",
+      "id": "「Vなきゃ」 = harus. 「起こす」 = membangunkan ↔ 「起きる」 = bangun.",
+      "pt": "「Vなきゃ」 = preciso. 「起こす」 = acordar alguém ↔ 「起きる」 = acordar.",
+      "my": "「Vなきゃ」 = ရမယ်။ 「起こす」 = နှိုး ↔ 「起きる」 = နိုး။",
+      "th": "「Vなきゃ」 = ต้อง 「起こす」 = ปลุก ↔ 「起きる」 = ตื่น"
+     },
+     "vocab": [
+      {
+       "word": "起こす",
+       "reading": "おこす",
+       "meanings": {
+        "vi": "đánh thức",
+        "en": "to wake (someone)",
+        "zh-Hans": "叫醒",
+        "zh-Hant": "叫醒",
+        "ko": "깨우다",
+        "tl": "gisingin",
+        "ne": "उठाउनु",
+        "id": "membangunkan",
+        "pt": "acordar alguém",
+        "my": "နှိုးသည်",
+        "th": "ปลุก"
+       }
+      }
+     ],
+     "readings": [
+      {
+       "surface": "起",
+       "reading": "お"
+      }
+     ]
+    },
+    {
+     "i": 9,
+     "keep": true,
+     "ja": "マミーとダディはまだぐっすり眠っています。",
+     "translations": {
+      "vi": "Mẹ và bố vẫn đang ngủ say.",
+      "en": "Mummy and Daddy are still fast asleep.",
+      "zh-Hans": "妈妈和爸爸还睡得很熟。",
+      "zh-Hant": "媽媽和爸爸還睡得很熟。",
+      "ko": "엄마 아빠는 아직 푹 자고 있어요.",
+      "tl": "Mahimbing pa ang tulog nina Mummy at Daddy.",
+      "ne": "मम्मी र ड्याडी अझै गहिरो निद्रामा।",
+      "id": "Mummy dan Daddy masih tidur nyenyak.",
+      "pt": "Mamãe e papai ainda dormem profundamente.",
+      "my": "မာမီနဲ့ ဒက်ဒီ အိပ်ပျော်နေတုန်း။",
+      "th": "แม่กับพ่อยังหลับสนิท"
+     },
+     "grammarNote": {
+      "vi": "「ぐっすり」 = (ngủ) say. 「眠っている」 = đang ngủ.",
+      "en": "「ぐっすり」 = soundly. 「眠っている」 = be sleeping.",
+      "zh-Hans": "「ぐっすり」=熟睡地。「眠っている」=正在睡。",
+      "zh-Hant": "「ぐっすり」＝熟睡地。「眠っている」＝正在睡。",
+      "ko": "「ぐっすり」= 푹. 「眠っている」= 자고 있다.",
+      "tl": "「ぐっすり」 = mahimbing.",
+      "ne": "「ぐっすり」 = गहिरो।",
+      "id": "「ぐっすり」 = nyenyak.",
+      "pt": "「ぐっすり」 = profundamente.",
+      "my": "「ぐっすり」 = နှစ်နှစ်ခြိုက်ခြိုက်။",
+      "th": "「ぐっすり」 = หลับสนิท"
+     },
+     "vocab": [
+      {
+       "word": "眠る",
+       "reading": "ねむる",
+       "meanings": {
+        "vi": "ngủ",
+        "en": "to sleep",
+        "zh-Hans": "睡",
+        "zh-Hant": "睡",
+        "ko": "자다",
+        "tl": "matulog",
+        "ne": "सुत्नु",
+        "id": "tidur",
+        "pt": "dormir",
+        "my": "အိပ်သည်",
+        "th": "นอนหลับ"
+       }
+      }
+     ],
+     "readings": [
+      {
+       "surface": "眠",
+       "reading": "ねむ"
+      }
+     ]
+    },
+    {
+     "i": 10,
+     "keep": true,
+     "ja": "私のお誕生日よ。",
+     "translations": {
+      "vi": "Sinh nhật con đấy!",
+      "en": "It's my birthday!",
+      "zh-Hans": "是我的生日哦！",
+      "zh-Hant": "是我的生日喔！",
+      "ko": "내 생일이야!",
+      "tl": "Kaarawan ko!",
+      "ne": "मेरो जन्मदिन!",
+      "id": "Ulang tahunku!",
+      "pt": "É meu aniversário!",
+      "my": "ငါ့မွေးနေ့လေ!",
+      "th": "วันเกิดหนูนะ!"
+     },
+     "grammarNote": {
+      "vi": "「お誕生日」 thêm 「お」 lịch sự/dễ thương.",
+      "en": "「お誕生日」 — 「お」 adds politeness/cuteness.",
+      "zh-Hans": "「お誕生日」加「お」显得礼貌可爱。",
+      "zh-Hant": "「お誕生日」加「お」顯得禮貌可愛。",
+      "ko": "「お誕生日」 「お」로 공손.",
+      "tl": "「お」 = paggalang.",
+      "ne": "「お」 = आदर।",
+      "id": "「お」 = sopan.",
+      "pt": "「お」 = polidez.",
+      "my": "「お」 = ယဉ်ကျေး။",
+      "th": "「お」 = สุภาพ"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "私",
+       "reading": "わたし"
+      },
+      {
+       "surface": "誕生日",
+       "reading": "たんじょうび"
+      }
+     ]
+    },
+    {
+     "i": 11,
+     "keep": true,
+     "ja": "起きて！",
+     "translations": {
+      "vi": "Dậy đi!",
+      "en": "Wake up!",
+      "zh-Hans": "起床！",
+      "zh-Hant": "起床！",
+      "ko": "일어나!",
+      "tl": "Gising!",
+      "ne": "उठ!",
+      "id": "Bangun!",
+      "pt": "Acorda!",
+      "my": "ထ!",
+      "th": "ตื่น!"
+     },
+     "grammarNote": {
+      "vi": "「起きて」 = dậy đi (thể て nhờ thân mật).",
+      "en": "「起きて」 = wake up (casual request).",
+      "zh-Hans": "「起きて」=起来（随意请求）。",
+      "zh-Hant": "「起きて」＝起來（隨意請求）。",
+      "ko": "「起きて」= 일어나.",
+      "tl": "「起きて」 = gising.",
+      "ne": "「起きて」 = उठ।",
+      "id": "「起きて」 = bangun.",
+      "pt": "「起きて」 = acorda.",
+      "my": "「起きて」 = ထ။",
+      "th": "「起きて」 = ตื่น"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "起",
+       "reading": "お"
+      }
+     ]
+    },
+    {
+     "i": 12,
+     "keep": false
+    },
+    {
+     "i": 13,
+     "keep": false
+    },
+    {
+     "i": 14,
+     "keep": true,
+     "ja": "今何時なの？",
+     "translations": {
+      "vi": "Mấy giờ rồi?",
+      "en": "What time is it?",
+      "zh-Hans": "现在几点了？",
+      "zh-Hant": "現在幾點了？",
+      "ko": "지금 몇 시야?",
+      "tl": "Anong oras na?",
+      "ne": "कति बज्यो?",
+      "id": "Jam berapa sekarang?",
+      "pt": "Que horas são?",
+      "my": "အခု ဘယ်နှစ်နာရီလဲ။",
+      "th": "ตอนนี้กี่โมง"
+     },
+     "grammarNote": {
+      "vi": "「今何時？」 = mấy giờ rồi? — câu hỏi giờ cơ bản.",
+      "en": "「今何時？」 = what time is it? — the basic question.",
+      "zh-Hans": "「今何時？」=现在几点？",
+      "zh-Hant": "「今何時？」＝現在幾點？",
+      "ko": "「今何時？」= 지금 몇 시?",
+      "tl": "「今何時？」 = anong oras?",
+      "ne": "「今何時？」 = कति बज्यो?",
+      "id": "「今何時？」 = jam berapa?",
+      "pt": "「今何時？」 = que horas?",
+      "my": "「今何時？」 = ဘယ်နှစ်နာရီလဲ။",
+      "th": "「今何時？」 = กี่โมง"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "今",
+       "reading": "いま"
+      },
+      {
+       "surface": "何時",
+       "reading": "なんじ"
+      }
+     ]
+    },
+    {
+     "i": 15,
+     "keep": true,
+     "ja": "とっくに朝よ。",
+     "translations": {
+      "vi": "Sáng lâu rồi mà.",
+      "en": "It's been morning for ages!",
+      "zh-Hans": "早就是早上了！",
+      "zh-Hant": "早就是早上了！",
+      "ko": "벌써 아침이야.",
+      "tl": "Kanina pa umaga!",
+      "ne": "बिहान भइसक्यो।",
+      "id": "Sudah pagi dari tadi!",
+      "pt": "Já é de manhã faz tempo!",
+      "my": "မနက် ရောက်နေတာ ကြာပြီ။",
+      "th": "เช้านานแล้ว"
+     },
+     "grammarNote": {
+      "vi": "「とっくに」 = từ lâu rồi.",
+      "en": "「とっくに」 = long since.",
+      "zh-Hans": "「とっくに」=早就。",
+      "zh-Hant": "「とっくに」＝早就。",
+      "ko": "「とっくに」= 벌써.",
+      "tl": "「とっくに」 = matagal na.",
+      "ne": "「とっくに」 = धेरै अघि नै।",
+      "id": "「とっくに」 = sudah lama.",
+      "pt": "「とっくに」 = há muito.",
+      "my": "「とっくに」 = ကြာပြီ။",
+      "th": "「とっくに」 = นานแล้ว"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "朝",
+       "reading": "あさ"
+      }
+     ]
+    },
+    {
+     "i": 16,
+     "keep": true,
+     "ja": "まだ朝の5時じゃないか。",
+     "translations": {
+      "vi": "Mới 5 giờ sáng thôi mà.",
+      "en": "It's only five in the morning!",
+      "zh-Hans": "才早上五点啊。",
+      "zh-Hant": "才早上五點啊。",
+      "ko": "아직 새벽 5시잖아.",
+      "tl": "Alas-singko pa lang ng umaga!",
+      "ne": "बिहान ५ मात्र बज्यो।",
+      "id": "Baru jam lima pagi!",
+      "pt": "São só cinco da manhã!",
+      "my": "မနက် ၅ နာရီပဲ ရှိသေးတယ်။",
+      "th": "เพิ่งตีห้าเองนะ"
+     },
+     "grammarNote": {
+      "vi": "「〜じゃないか」 = ...còn gì (phản bác).",
+      "en": "「〜じゃないか」 = …isn't it! (protest).",
+      "zh-Hans": "「〜じゃないか」=不是……吗（反驳）。",
+      "zh-Hant": "「〜じゃないか」＝不是……嗎（反駁）。",
+      "ko": "「〜じゃないか」= ~잖아.",
+      "tl": "「〜じゃないか」 = …di ba!",
+      "ne": "「〜じゃないか」 = हैन र!",
+      "id": "「〜じゃないか」 = kan!",
+      "pt": "「〜じゃないか」 = ora!",
+      "my": "「〜じゃないか」 = မဟုတ်လား။",
+      "th": "「〜じゃないか」 = ไม่ใช่เหรอ"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "朝",
+       "reading": "あさ"
+      },
+      {
+       "surface": "時",
+       "reading": "じ"
+      }
+     ]
+    },
+    {
+     "i": 17,
+     "keep": true,
+     "ja": "そう、もう今日が始まってるの。",
+     "translations": {
+      "vi": "Vâng, hôm nay đã bắt đầu rồi.",
+      "en": "Yes, today has already started.",
+      "zh-Hans": "对，今天已经开始了。",
+      "zh-Hant": "對，今天已經開始了。",
+      "ko": "응, 벌써 오늘이 시작됐어.",
+      "tl": "Oo, nagsimula na ang araw.",
+      "ne": "हो, आज सुरु भइसक्यो।",
+      "id": "Iya, hari ini sudah dimulai.",
+      "pt": "Sim, o dia já começou.",
+      "my": "ဟုတ်တယ်၊ ဒီနေ့ စနေပြီ။",
+      "th": "ใช่ วันนี้เริ่มแล้ว"
+     },
+     "grammarNote": {
+      "vi": "「もう」 = đã. 「始まってる」 = 「始まっている」: đã bắt đầu (trạng thái).",
+      "en": "「もう」 = already. 「始まってる」 = has begun (state).",
+      "zh-Hans": "「もう」=已经。「始まってる」=已开始（状态）。",
+      "zh-Hant": "「もう」＝已經。「始まってる」＝已開始。",
+      "ko": "「もう」= 벌써.",
+      "tl": "「もう」 = na.",
+      "ne": "「もう」 = भइसक्यो।",
+      "id": "「もう」 = sudah.",
+      "pt": "「もう」 = já.",
+      "my": "「もう」 = ပြီ။",
+      "th": "「もう」 = แล้ว"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "今日",
+       "reading": "きょう"
+      },
+      {
+       "surface": "始",
+       "reading": "はじ"
+      }
+     ]
+    },
+    {
+     "i": 18,
+     "keep": true,
+     "ja": "分かったわ。",
+     "translations": {
+      "vi": "Được rồi.",
+      "en": "All right.",
+      "zh-Hans": "好吧。",
+      "zh-Hant": "好吧。",
+      "ko": "알았어.",
+      "tl": "Sige na.",
+      "ne": "हुन्छ।",
+      "id": "Baiklah.",
+      "pt": "Tá bom.",
+      "my": "ကောင်းပြီ။",
+      "th": "ก็ได้"
+     },
+     "grammarNote": {
+      "vi": "「分かったわ」 = được rồi (giọng nữ).",
+      "en": "「分かったわ」 = all right (feminine).",
+      "zh-Hans": "「分かったわ」=好吧（女性）。",
+      "zh-Hant": "「分かったわ」＝好吧（女性）。",
+      "ko": "「分かったわ」= 알았어(여성).",
+      "tl": "「分かったわ」 = sige.",
+      "ne": "「分かったわ」 = हुन्छ।",
+      "id": "「分かったわ」 = baiklah.",
+      "pt": "「分かったわ」 = tá bom.",
+      "my": "「分かったわ」 = ကောင်းပြီ။",
+      "th": "「分かったわ」 = ก็ได้"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "分",
+       "reading": "わ"
+      }
+     ]
+    },
+    {
+     "i": 19,
+     "keep": true,
+     "ja": "お誕生日を始めましょう。",
+     "translations": {
+      "vi": "Bắt đầu sinh nhật thôi.",
+      "en": "Let's start the birthday.",
+      "zh-Hans": "开始过生日吧。",
+      "zh-Hant": "開始過生日吧。",
+      "ko": "생일을 시작하자.",
+      "tl": "Simulan na natin ang kaarawan.",
+      "ne": "जन्मदिन सुरु गरौं।",
+      "id": "Ayo mulai ulang tahunnya.",
+      "pt": "Vamos começar o aniversário.",
+      "my": "မွေးနေ့ စကြရအောင်။",
+      "th": "เริ่มวันเกิดกันเถอะ"
+     },
+     "grammarNote": {
+      "vi": "「Vましょう」 = cùng V nào.",
+      "en": "「Vましょう」 = let's V.",
+      "zh-Hans": "「Vましょう」=一起V吧。",
+      "zh-Hant": "「Vましょう」＝一起V吧。",
+      "ko": "「Vましょう」= V합시다.",
+      "tl": "「Vましょう」 = mag-V tayo.",
+      "ne": "「Vましょう」 = V गरौं।",
+      "id": "「Vましょう」 = ayo V.",
+      "pt": "「Vましょう」 = vamos V.",
+      "my": "「Vましょう」 = V ကြရအောင်။",
+      "th": "「Vましょう」 = มา V กัน"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "誕生日",
+       "reading": "たんじょうび"
+      },
+      {
+       "surface": "始",
+       "reading": "はじ"
+      }
+     ]
+    },
+    {
+     "i": 20,
+     "keep": true,
+     "ja": "やった！",
+     "translations": {
+      "vi": "Hoan hô!",
+      "en": "Yay!",
+      "zh-Hans": "太好了！",
+      "zh-Hant": "太好了！",
+      "ko": "신난다!",
+      "tl": "Yehey!",
+      "ne": "वाह!",
+      "id": "Hore!",
+      "pt": "Oba!",
+      "my": "ဟေး!",
+      "th": "เย้!"
+     },
+     "grammarNote": {
+      "vi": "「やった」 = hoan hô, được rồi!",
+      "en": "「やった」 = yay, I did it!",
+      "zh-Hans": "「やった」=太好了！",
+      "zh-Hant": "「やった」＝太好了！",
+      "ko": "「やった」= 신난다!",
+      "tl": "「やった」 = yehey!",
+      "ne": "「やった」 = वाह!",
+      "id": "「やった」 = hore!",
+      "pt": "「やった」 = oba!",
+      "my": "「やった」 = ဟေး!",
+      "th": "「やった」 = เย้!"
+     },
+     "vocab": [],
+     "readings": []
+    },
+    {
+     "i": 21,
+     "keep": true,
+     "ja": "マミーとダディとジョージから",
+     "translations": {
+      "vi": "Từ mẹ, bố và George,",
+      "en": "From Mummy, Daddy and George,",
+      "zh-Hans": "妈妈、爸爸和乔治",
+      "zh-Hant": "媽媽、爸爸和喬治",
+      "ko": "엄마, 아빠, 조지가",
+      "tl": "Mula kina Mummy, Daddy at George,",
+      "ne": "मम्मी, ड्याडी र जर्जबाट",
+      "id": "Dari Mummy, Daddy, dan George,",
+      "pt": "Da mamãe, do papai e do George,",
+      "my": "မာမီ၊ ဒက်ဒီ နဲ့ ဂျော့ချ်ဆီက",
+      "th": "จากแม่ พ่อ และจอร์จ"
+     },
+     "grammarNote": {
+      "vi": "「AからBに」 = từ A gửi B.",
+      "en": "「AからBに」 = from A to B.",
+      "zh-Hans": "「AからBに」=从A给B。",
+      "zh-Hant": "「AからBに」＝從A給B。",
+      "ko": "「AからBに」= A가 B에게.",
+      "tl": "「AからBに」 = mula A para kay B.",
+      "ne": "「AからBに」 = A बाट B लाई।",
+      "id": "「AからBに」 = dari A untuk B.",
+      "pt": "「AからBに」 = de A para B.",
+      "my": "「AからBに」 = A ဆီက B ဆီ။",
+      "th": "「AからBに」 = จาก A ถึง B"
+     },
+     "vocab": [],
+     "readings": []
+    },
+    {
+     "i": 22,
+     "keep": true,
+     "ja": "ペッパにお誕生日プレゼントです。",
+     "translations": {
+      "vi": "quà sinh nhật cho Peppa.",
+      "en": "a birthday present for Peppa.",
+      "zh-Hans": "送给佩奇的生日礼物。",
+      "zh-Hant": "送給佩佩的生日禮物。",
+      "ko": "페파에게 주는 생일 선물이에요.",
+      "tl": "regalo sa kaarawan ni Peppa.",
+      "ne": "पेपालाई जन्मदिनको उपहार।",
+      "id": "hadiah ulang tahun untuk Peppa.",
+      "pt": "um presente de aniversário para a Peppa.",
+      "my": "ပက်ပါ့အတွက် မွေးနေ့လက်ဆောင်ပါ။",
+      "th": "ของขวัญวันเกิดให้เป๊ปป้า"
+     },
+     "grammarNote": {
+      "vi": "「Nに」 = cho N (người nhận).",
+      "en": "「Nに」 = for N (recipient).",
+      "zh-Hans": "「Nに」=给N。",
+      "zh-Hant": "「Nに」＝給N。",
+      "ko": "「Nに」= N에게.",
+      "tl": "「Nに」 = para kay N.",
+      "ne": "「Nに」 = N लाई।",
+      "id": "「Nに」 = untuk N.",
+      "pt": "「Nに」 = para N.",
+      "my": "「Nに」 = N ဆီ။",
+      "th": "「Nに」 = ให้ N"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "誕生日",
+       "reading": "たんじょうび"
+      }
+     ]
+    },
+    {
+     "i": 23,
+     "keep": true,
+     "ja": "ハッピーバースデー、ペッパ。",
+     "translations": {
+      "vi": "Chúc mừng sinh nhật, Peppa.",
+      "en": "Happy birthday, Peppa.",
+      "zh-Hans": "生日快乐，佩奇。",
+      "zh-Hant": "生日快樂，佩佩。",
+      "ko": "생일 축하해, 페파.",
+      "tl": "Maligayang kaarawan, Peppa.",
+      "ne": "जन्मदिनको शुभकामना, पेपा।",
+      "id": "Selamat ulang tahun, Peppa.",
+      "pt": "Feliz aniversário, Peppa.",
+      "my": "မွေးနေ့ မင်္ဂလာပါ ပက်ပါ။",
+      "th": "สุขสันต์วันเกิด เป๊ปป้า"
+     },
+     "grammarNote": {
+      "vi": "Tiếng Nhật: 「お誕生日おめでとう」.",
+      "en": "In Japanese: 「お誕生日おめでとう」.",
+      "zh-Hans": "日语：「お誕生日おめでとう」。",
+      "zh-Hant": "日語：「お誕生日おめでとう」。",
+      "ko": "일본어: 「お誕生日おめでとう」.",
+      "tl": "Hapon: 「お誕生日おめでとう」.",
+      "ne": "जापानी: 「お誕生日おめでとう」।",
+      "id": "Bahasa Jepang: 「お誕生日おめでとう」.",
+      "pt": "Em japonês: 「お誕生日おめでとう」.",
+      "my": "ဂျပန်: 「お誕生日おめでとう」။",
+      "th": "ญี่ปุ่น: 「お誕生日おめでとう」"
+     },
+     "vocab": [],
+     "readings": []
+    },
     {
      "i": 24,
      "keep": true,
@@ -98,6 +992,10 @@
        "reading": "こ"
       }
      ]
+    },
+    {
+     "i": 26,
+     "keep": false
     },
     {
      "i": 27,
@@ -333,6 +1231,43 @@
      ]
     },
     {
+     "i": 32,
+     "keep": true,
+     "ja": "ダディはマジシャンのアメイジングミステリオだ。",
+     "translations": {
+      "vi": "Bố là ảo thuật gia Mysterio Kỳ Diệu.",
+      "en": "Daddy is the magician, the Amazing Mysterio.",
+      "zh-Hans": "爸爸就是魔术师神奇的米斯特里奥。",
+      "zh-Hant": "爸爸就是魔術師神奇的米斯特里奧。",
+      "ko": "아빠는 마술사 어메이징 미스테리오다.",
+      "tl": "Si Daddy ang salamangkerong si Mysterio.",
+      "ne": "ड्याडी जादूगर अमेजिङ मिस्टेरियो हुन्।",
+      "id": "Ayah adalah pesulap Mysterio yang Menakjubkan.",
+      "pt": "O papai é o mágico, o Incrível Mistério.",
+      "my": "ဒက်ဒီက မျက်လှည့်ဆရာ အံ့ဖွယ်မစ်စတီရီယို။",
+      "th": "พ่อคือนักมายากลอะเมซิ่งมิสเทริโอ"
+     },
+     "grammarNote": {
+      "vi": "「AのB」 = B là A (đồng vị): 'ảo thuật gia Mysterio'.",
+      "en": "「AのB」 = B, who is an A (apposition).",
+      "zh-Hans": "「AのB」=作为A的B（同位）。",
+      "zh-Hant": "「AのB」＝作為A的B（同位）。",
+      "ko": "「AのB」= A인 B(동격).",
+      "tl": "「AのB」 = B na isang A.",
+      "ne": "「AのB」 = A भएका B।",
+      "id": "「AのB」 = B yang merupakan A.",
+      "pt": "「AのB」 = B, que é A.",
+      "my": "「AのB」 = A ဖြစ်တဲ့ B။",
+      "th": "「AのB」 = B ผู้เป็น A"
+     },
+     "vocab": [],
+     "readings": []
+    },
+    {
+     "i": 33,
+     "keep": false
+    },
+    {
      "i": 34,
      "keep": true,
      "ja": "そうだ。",
@@ -503,6 +1438,39 @@
        "reading": "き"
       }
      ]
+    },
+    {
+     "i": 38,
+     "keep": true,
+     "ja": "わーい！",
+     "translations": {
+      "vi": "Yeah!",
+      "en": "Yay!",
+      "zh-Hans": "耶！",
+      "zh-Hant": "耶！",
+      "ko": "와!",
+      "tl": "Yehey!",
+      "ne": "वाह!",
+      "id": "Hore!",
+      "pt": "Eba!",
+      "my": "ဟေး!",
+      "th": "เย้!"
+     },
+     "grammarNote": {
+      "vi": "「わーい」 = tiếng reo vui của trẻ con.",
+      "en": "「わーい」 = a child's cheer.",
+      "zh-Hans": "「わーい」=孩子的欢呼。",
+      "zh-Hant": "「わーい」＝孩子的歡呼。",
+      "ko": "「わーい」= 아이의 환호.",
+      "tl": "「わーい」 = sigaw ng tuwa.",
+      "ne": "「わーい」 = खुसीको चिच्याहट।",
+      "id": "「わーい」 = sorak anak.",
+      "pt": "「わーい」 = grito de alegria.",
+      "my": "「わーい」 = ဝမ်းသာသံ။",
+      "th": "「わーい」 = เสียงดีใจ"
+     },
+     "vocab": [],
+     "readings": []
     },
     {
      "i": 39,
@@ -896,6 +1864,14 @@
      ]
     },
     {
+     "i": 49,
+     "keep": false
+    },
+    {
+     "i": 50,
+     "keep": false
+    },
+    {
      "i": 51,
      "keep": true,
      "ja": "ダディピッグがマジックショーを始めます。",
@@ -1131,6 +2107,39 @@
      ]
     },
     {
+     "i": 57,
+     "keep": true,
+     "ja": "え…マジック・ダディです。",
+     "translations": {
+      "vi": "Ờ… đây là Ảo thuật gia Bố.",
+      "en": "Um… it's Magic Daddy.",
+      "zh-Hans": "呃……这是魔术爸爸。",
+      "zh-Hant": "呃……這是魔術爸爸。",
+      "ko": "어… 매직 대디입니다.",
+      "tl": "Ah… si Magic Daddy.",
+      "ne": "अँ… जादुई ड्याडी।",
+      "id": "Eh… ini Magic Daddy.",
+      "pt": "Hã… é o Papai Mágico.",
+      "my": "အဲ… မက်ဂျစ် ဒက်ဒီပါ။",
+      "th": "เอ่อ… เมจิกแด๊ดดี้ค่ะ"
+     },
+     "grammarNote": {
+      "vi": "Peppa lỡ quên tên 'Mysterio' — 「え…」 = ờ… (ngập ngừng).",
+      "en": "Peppa forgets 'Mysterio' — 「え…」 = um… (hesitation).",
+      "zh-Hans": "佩奇忘了名字——「え…」=呃（犹豫）。",
+      "zh-Hant": "佩佩忘了名字——「え…」＝呃（猶豫）。",
+      "ko": "이름을 잊음 — 「え…」= 어…",
+      "tl": "Nakalimutan ni Peppa — 「え…」 = ah…",
+      "ne": "नाम बिर्सिन् — 「え…」 = अँ…",
+      "id": "Peppa lupa — 「え…」 = eh…",
+      "pt": "Peppa esquece — 「え…」 = hã…",
+      "my": "နာမည်မေ့ — 「え…」 = အဲ…",
+      "th": "ลืมชื่อ — 「え…」 = เอ่อ…"
+     },
+     "vocab": [],
+     "readings": []
+    },
+    {
      "i": 58,
      "keep": true,
      "ja": "まずはこのマジックから。",
@@ -1162,24 +2171,40 @@
      },
      "vocab": [],
      "readings": []
-    }
-   ]
-  },
-  "1": {
-   "titles": {
-    "vi": "Peppa Pig: Trò ảo thuật quả bóng màu",
-    "en": "Peppa Pig: The coloured ball trick",
-    "zh-Hans": "小猪佩奇：彩色球魔术",
-    "zh-Hant": "粉紅豬小妹：彩色球魔術",
-    "ko": "페파 피그: 색깔 공 마술",
-    "tl": "Peppa Pig: Ang trick ng makukulay na bola",
-    "ne": "पेपा पिग: रंगीन बलको जादू",
-    "id": "Peppa Pig: Sulap bola warna",
-    "pt": "Peppa Pig: O truque das bolas coloridas",
-    "my": "ပက်ပါပစ်ဂ်- အရောင်ဘောလုံး မျက်လှည့်",
-    "th": "เป๊ปป้าพิก: มายากลลูกบอลสี"
-   },
-   "lines": [
+    },
+    {
+     "i": 59,
+     "keep": true,
+     "ja": "アブラカダブラ！",
+     "translations": {
+      "vi": "Abracadabra!",
+      "en": "Abracadabra!",
+      "zh-Hans": "Abracadabra!",
+      "zh-Hant": "Abracadabra!",
+      "ko": "Abracadabra!",
+      "tl": "Abracadabra!",
+      "ne": "Abracadabra!",
+      "id": "Abracadabra!",
+      "pt": "Abracadabra!",
+      "my": "Abracadabra!",
+      "th": "Abracadabra!"
+     },
+     "grammarNote": {
+      "vi": "「アブラカダブラ」 = câu thần chú ảo thuật (từ mượn).",
+      "en": "「アブラカダブラ」 = the magic word (loanword).",
+      "zh-Hans": "「アブラカダブラ」=魔术咒语（外来语）。",
+      "zh-Hant": "「アブラカダブラ」＝魔術咒語（外來語）。",
+      "ko": "「アブラカダブラ」= 마술 주문.",
+      "tl": "「アブラカダブラ」 = salitang mahika.",
+      "ne": "「アブラカダブラ」 = जादुई मन्त्र।",
+      "id": "「アブラカダブラ」 = mantra sulap.",
+      "pt": "「アブラカダブラ」 = palavra mágica.",
+      "my": "「アブラカダブラ」 = မှော်စကား။",
+      "th": "「アブラカダブラ」 = คาถามายากล"
+     },
+     "vocab": [],
+     "readings": []
+    },
     {
      "i": 60,
      "keep": true,
@@ -1297,6 +2322,10 @@
        "reading": "わたし"
       }
      ]
+    },
+    {
+     "i": 63,
+     "keep": false
     },
     {
      "i": 64,
@@ -1455,6 +2484,10 @@
      ]
     },
     {
+     "i": 68,
+     "keep": false
+    },
+    {
      "i": 69,
      "keep": true,
      "ja": "スージーシープです。",
@@ -1486,6 +2519,10 @@
      },
      "vocab": [],
      "readings": []
+    },
+    {
+     "i": 70,
+     "keep": false
     },
     {
      "i": 71,
@@ -1906,6 +2943,39 @@
      ]
     },
     {
+     "i": 81,
+     "keep": true,
+     "ja": "アブラカダブラ！",
+     "translations": {
+      "vi": "Abracadabra!",
+      "en": "Abracadabra!",
+      "zh-Hans": "Abracadabra!",
+      "zh-Hant": "Abracadabra!",
+      "ko": "Abracadabra!",
+      "tl": "Abracadabra!",
+      "ne": "Abracadabra!",
+      "id": "Abracadabra!",
+      "pt": "Abracadabra!",
+      "my": "Abracadabra!",
+      "th": "Abracadabra!"
+     },
+     "grammarNote": {
+      "vi": "「アブラカダブラ」 = câu thần chú ảo thuật (từ mượn).",
+      "en": "「アブラカダブラ」 = the magic word (loanword).",
+      "zh-Hans": "「アブラカダブラ」=魔术咒语（外来语）。",
+      "zh-Hant": "「アブラカダブラ」＝魔術咒語（外來語）。",
+      "ko": "「アブラカダブラ」= 마술 주문.",
+      "tl": "「アブラカダブラ」 = salitang mahika.",
+      "ne": "「アブラカダブラ」 = जादुई मन्त्र।",
+      "id": "「アブラカダブラ」 = mantra sulap.",
+      "pt": "「アブラカダブラ」 = palavra mágica.",
+      "my": "「アブラカダブラ」 = မှော်စကား။",
+      "th": "「アブラカダブラ」 = คาถามายากล"
+     },
+     "vocab": [],
+     "readings": []
+    },
+    {
      "i": 82,
      "keep": true,
      "ja": "君が選んだのは黄色だ。",
@@ -1990,6 +3060,39 @@
      ]
     },
     {
+     "i": 84,
+     "keep": true,
+     "ja": "アブラカダブラ！",
+     "translations": {
+      "vi": "Abracadabra!",
+      "en": "Abracadabra!",
+      "zh-Hans": "Abracadabra!",
+      "zh-Hant": "Abracadabra!",
+      "ko": "Abracadabra!",
+      "tl": "Abracadabra!",
+      "ne": "Abracadabra!",
+      "id": "Abracadabra!",
+      "pt": "Abracadabra!",
+      "my": "Abracadabra!",
+      "th": "Abracadabra!"
+     },
+     "grammarNote": {
+      "vi": "「アブラカダブラ」 = câu thần chú ảo thuật (từ mượn).",
+      "en": "「アブラカダブラ」 = the magic word (loanword).",
+      "zh-Hans": "「アブラカダブラ」=魔术咒语（外来语）。",
+      "zh-Hant": "「アブラカダブラ」＝魔術咒語（外來語）。",
+      "ko": "「アブラカダブラ」= 마술 주문.",
+      "tl": "「アブラカダブラ」 = salitang mahika.",
+      "ne": "「アブラカダブラ」 = जादुई मन्त्र।",
+      "id": "「アブラカダブラ」 = mantra sulap.",
+      "pt": "「アブラカダブラ」 = palavra mágica.",
+      "my": "「アブラカダブラ」 = မှော်စကား။",
+      "th": "「アブラカダブラ」 = คาถามายากล"
+     },
+     "vocab": [],
+     "readings": []
+    },
+    {
      "i": 85,
      "keep": true,
      "ja": "青！",
@@ -2064,6 +3167,39 @@
        "reading": "ちが"
       }
      ]
+    },
+    {
+     "i": 87,
+     "keep": true,
+     "ja": "アブラカダブラ！",
+     "translations": {
+      "vi": "Abracadabra!",
+      "en": "Abracadabra!",
+      "zh-Hans": "Abracadabra!",
+      "zh-Hant": "Abracadabra!",
+      "ko": "Abracadabra!",
+      "tl": "Abracadabra!",
+      "ne": "Abracadabra!",
+      "id": "Abracadabra!",
+      "pt": "Abracadabra!",
+      "my": "Abracadabra!",
+      "th": "Abracadabra!"
+     },
+     "grammarNote": {
+      "vi": "「アブラカダブラ」 = câu thần chú ảo thuật (từ mượn).",
+      "en": "「アブラカダブラ」 = the magic word (loanword).",
+      "zh-Hans": "「アブラカダブラ」=魔术咒语（外来语）。",
+      "zh-Hant": "「アブラカダブラ」＝魔術咒語（外來語）。",
+      "ko": "「アブラカダブラ」= 마술 주문.",
+      "tl": "「アブラカダブラ」 = salitang mahika.",
+      "ne": "「アブラカダブラ」 = जादुई मन्त्र।",
+      "id": "「アブラカダブラ」 = mantra sulap.",
+      "pt": "「アブラカダブラ」 = palavra mágica.",
+      "my": "「アブラカダブラ」 = မှော်စကား။",
+      "th": "「アブラカダブラ」 = คาถามายากล"
+     },
+     "vocab": [],
+     "readings": []
     },
     {
      "i": 88,
@@ -2483,6 +3619,44 @@
      ]
     },
     {
+     "i": 98,
+     "keep": true,
+     "ja": "見ちゃダメだぞ。",
+     "translations": {
+      "vi": "Không được nhìn trộm đâu nhé.",
+      "en": "No peeking.",
+      "zh-Hans": "不许偷看哦。",
+      "zh-Hant": "不許偷看喔。",
+      "ko": "보면 안 돼.",
+      "tl": "Bawal sumilip.",
+      "ne": "हेर्न पाइँदैन है।",
+      "id": "Jangan mengintip.",
+      "pt": "Nada de espiar.",
+      "my": "မကြည့်ရဘူးနော်။",
+      "th": "ห้ามแอบดูนะ"
+     },
+     "grammarNote": {
+      "vi": "「Vちゃダメ」 = 「Vてはダメ」: không được V. 「〜ぞ」 nhấn mạnh (giọng nam).",
+      "en": "「Vちゃダメ」 = 「Vてはダメ」: you mustn't V. 「〜ぞ」 adds emphasis (masculine).",
+      "zh-Hans": "「Vちゃダメ」=「Vてはダメ」：不许V。「〜ぞ」强调（男性）。",
+      "zh-Hant": "「Vちゃダメ」＝「Vてはダメ」：不許V。「〜ぞ」強調（男性）。",
+      "ko": "「Vちゃダメ」= V하면 안 돼.",
+      "tl": "「Vちゃダメ」 = bawal mag-V.",
+      "ne": "「Vちゃダメ」 = V गर्न पाइँदैन।",
+      "id": "「Vちゃダメ」 = tidak boleh V.",
+      "pt": "「Vちゃダメ」 = não pode V.",
+      "my": "「Vちゃダメ」 = V မရဘူး။",
+      "th": "「Vちゃダメ」 = ห้าม V"
+     },
+     "vocab": [],
+     "readings": [
+      {
+       "surface": "見",
+       "reading": "み"
+      }
+     ]
+    },
+    {
      "i": 99,
      "keep": true,
      "ja": "魔法の呪文を唱えよう。",
@@ -2545,6 +3719,43 @@
        "reading": "とな"
       }
      ]
+    },
+    {
+     "i": 100,
+     "keep": true,
+     "ja": "アブラカダブラ！",
+     "translations": {
+      "vi": "Abracadabra!",
+      "en": "Abracadabra!",
+      "zh-Hans": "Abracadabra!",
+      "zh-Hant": "Abracadabra!",
+      "ko": "Abracadabra!",
+      "tl": "Abracadabra!",
+      "ne": "Abracadabra!",
+      "id": "Abracadabra!",
+      "pt": "Abracadabra!",
+      "my": "Abracadabra!",
+      "th": "Abracadabra!"
+     },
+     "grammarNote": {
+      "vi": "「アブラカダブラ」 = câu thần chú ảo thuật (từ mượn).",
+      "en": "「アブラカダブラ」 = the magic word (loanword).",
+      "zh-Hans": "「アブラカダブラ」=魔术咒语（外来语）。",
+      "zh-Hant": "「アブラカダブラ」＝魔術咒語（外來語）。",
+      "ko": "「アブラカダブラ」= 마술 주문.",
+      "tl": "「アブラカダブラ」 = salitang mahika.",
+      "ne": "「アブラカダブラ」 = जादुई मन्त्र।",
+      "id": "「アブラカダブラ」 = mantra sulap.",
+      "pt": "「アブラカダブラ」 = palavra mágica.",
+      "my": "「アブラカダブラ」 = မှော်စကား။",
+      "th": "「アブラカダブラ」 = คาถามายากล"
+     },
+     "vocab": [],
+     "readings": []
+    },
+    {
+     "i": 101,
+     "keep": false
     },
     {
      "i": 102,
@@ -2629,6 +3840,10 @@
        "reading": "け"
       }
      ]
+    },
+    {
+     "i": 104,
+     "keep": false
     }
    ]
   }
@@ -2637,5 +3852,6 @@
   {
    "model": "claude (in-session)"
   }
- ]
+ ],
+ "episode": true
 }
