@@ -892,3 +892,19 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Giọng: Aoede kể; 杜子春 Neural2-C; ông lão 鉄冠子 Neural2-C trầm chậm; khách, tiếng nói lạ, 神将, 閻魔 Neural2-C các cao độ khác nhau; mẹ Neural2-B.
 - Bìa: motif `toshi1` (cổng tây Lạc Dương lúc hoàng hôn, bóng người dài, vàng) và `toshi2` (vách đá dưới chòm Bắc Đẩu, gậy trúc bay, hoa đào). Font Yuji Boku.
 - Ẩn gói cũ `toshishun` → `toshishun-1`. `npm run verify` xanh.
+
+## Kệ "Triết lý sống" (wisdom), lô 2 — 27/11/2026
+
+Lô này thêm 4 chương chuẩn v2, cả 4 đều miễn phí vì là tập 1 của từng bộ:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-marcus-1` | N3 | Marcus Aurelius, *Suy tưởng* | 3:57 |
+| `life-wattles-1` | N3 | Wattles, *Khoa học làm giàu*, kể qua chuyện anh phục vụ quán cà phê | 4:00 |
+| `life-rongo-1` | N4 | Luận ngữ: Tử Lộ, Tử Cống | 3:36 |
+| `life-yukkuri-1` | N4 | Truyện gốc về sống chậm | 3:24 |
+
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 8 chương: 5 chương N3 (epictetus-1, epictetus-2, roshi-1, marcus-1, wattles-1) và 3 chương N4 (ikari-1, rongo-1, yukkuri-1).
+- Ghi chú: import `world-bremen` (của luồng truyện thế giới) đang nằm trong khối W ở `content.ts`. Không ảnh hưởng gì nên để nguyên.
+- `npm run verify` xanh.
