@@ -599,3 +599,17 @@ Series `furusato-vn-quynh`, kệ truyện quê hương (VN), N4, kể lại bằ
 - Dịch 143 thẻ ngữ pháp N1 sang 9 ngôn ngữ còn thiếu: `content/sources/decks/src/grammar-n1-1..2.txt` → `tr/*.jsonl`.
 - Thêm `public/decks/grammar-N1.json`. Tổng: **9 bộ, 1.885 thẻ**, đủ 11 ngôn ngữ (build báo thiếu 0 nghĩa, 0 câu ví dụ), furigana 0 kanji trần.
 - Bản tiếng Anh gốc lệch câu Nhật ở 2 thẻ, đã dịch theo câu Nhật: 移転に伴い (chuyển địa điểm, không chỉ trụ sở), 周囲の心配をよそに独立した (ra làm riêng, không phải dọn ra ở riêng).
+
+## Hoàng Lê nhất thống chí — tiểu thuyết Việt Nam N1, 3 tập (Việt chọn 26/11)
+
+Kể lại hồi 14 (đoạn Quang Trung đại phá quân Thanh) bằng tiếng Nhật N1, từ nguyên tác public domain (Ngô gia văn phái), không dựa trên bản dịch hiện đại. Kệ `hometown`, origin VN, series `furusato-vn-hoangle`.
+
+| Tập | ID | Nội dung | Câu / ký tự | Audio |
+| --- | --- | --- | --- | --- |
+| 1 (free) | `furusato-vn-hoangle-1` | Tôn Sĩ Nghị chiếm Thăng Long, Nguyễn Huệ lên ngôi Quang Trung, tuyển quân Nghệ An, gặp La Sơn phu tử | 60 | 7,2 phút |
+| 2 | `furusato-vn-hoangle-2` | Đến Tam Điệp 30 tháng Chạp, tha tội Sở và Lân, khen kế Ngô Thì Nhậm, ăn Tết sớm hẹn mùng 7, phá đồn Hà Hồi không mất một người | 60 / 2032 | 7,0 phút |
+| 3 | `furusato-vn-hoangle-3` | Mộc ván phủ rơm ướt đánh Ngọc Hồi, Sầm Nghi Đống thắt cổ, Tôn Sĩ Nghị bỏ chạy, cầu phao đứt, Lê Chiêu Thống sang Tàu, vào Thăng Long trưa mùng 5, cầu hòa | 64 / 2053 | 7,3 phút |
+
+- Đủ chuẩn v2: dịch và giải thích 10 ngôn ngữ, bài học 4 ngữ pháp + 4 câu hỏi, bìa 文庫 (motif `hoangle1`–`hoangle3`), chỉ giọng Aoede và Neural2-C (nhân vật phân biệt bằng pitch và tốc độ).
+- Chi tiết truyền thuyết (võng khiêng quân, áo bào sạm đen khói súng) được ghi rõ là lời truyền tụng trong ghi chú câu và `sourceNote`.
+- Lỗi đọc sửa bằng `phrases`: 清 しん, 民 たみ, 戦 いくさ/たたかい, 大将, 後を あと, 数知れず かず. Bỏ phrase thừa 「この戦」 từ tập 1.
