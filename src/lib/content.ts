@@ -739,6 +739,10 @@ import v2LifeMarcus1 from "../../content/stories/life-marcus-1.json";
 import v2LifeWattles1 from "../../content/stories/life-wattles-1.json";
 import v2LifeRongo1 from "../../content/stories/life-rongo-1.json";
 import v2LifeYukkuri1 from "../../content/stories/life-yukkuri-1.json";
+import v2LifeSeneca1 from "../../content/stories/life-seneca-1.json";
+import v2LifeAllen1 from "../../content/stories/life-allen-1.json";
+import v2LifeSmiles1 from "../../content/stories/life-smiles-1.json";
+import v2LifeGakumon1 from "../../content/stories/life-gakumon-1.json";
 // --- hết kệ W: import ---
 // --- kệ ma & trinh thám (chuẩn v2): import ---
 import v2MysteryHoichi1 from "../../content/stories/mystery-hoichi-1.json";
@@ -762,6 +766,11 @@ import s_worldBijo1 from "../../content/stories/world-bijo-1.json";
 import s_worldBijo2 from "../../content/stories/world-bijo-2.json";
 import s_worldYukinojoo1 from "../../content/stories/world-yukinojoo-1.json";
 import s_worldYukinojoo2 from "../../content/stories/world-yukinojoo-2.json";
+import s_worldVasilisa1 from "../../content/stories/world-vasilisa-1.json";
+import s_worldVasilisa2 from "../../content/stories/world-vasilisa-2.json";
+import s_worldSaruWani from "../../content/stories/world-saru-wani.json";
+import s_worldPinocchio1 from "../../content/stories/world-pinocchio-1.json";
+import s_worldPinocchio2 from "../../content/stories/world-pinocchio-2.json";
 // --- hết kệ ma & trinh thám: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1504,6 +1513,10 @@ export const STORIES: StoryContent[] = [
   v2LifeWattles1 as unknown as StoryContent,
   v2LifeRongo1 as unknown as StoryContent,
   v2LifeYukkuri1 as unknown as StoryContent,
+  v2LifeSeneca1 as unknown as StoryContent,
+  v2LifeAllen1 as unknown as StoryContent,
+  v2LifeSmiles1 as unknown as StoryContent,
+  v2LifeGakumon1 as unknown as StoryContent,
   // --- hết kệ W ---
   s_worldBremen as unknown as StoryContent,
   // --- kệ ma & trinh thám (chuẩn v2) ---
@@ -1529,6 +1542,11 @@ export const STORIES: StoryContent[] = [
   s_worldBijo2 as unknown as StoryContent,
   s_worldYukinojoo1 as unknown as StoryContent,
   s_worldYukinojoo2 as unknown as StoryContent,
+  s_worldVasilisa1 as unknown as StoryContent,
+  s_worldVasilisa2 as unknown as StoryContent,
+  s_worldSaruWani as unknown as StoryContent,
+  s_worldPinocchio1 as unknown as StoryContent,
+  s_worldPinocchio2 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

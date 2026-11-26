@@ -820,6 +820,13 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Cả bốn viết nhắm N4 nhưng từ khoá (宝石, 魔法使い, 侯爵…) vượt ngưỡng từ khó, nên xếp N3 (harder 3–9%).
 - build.mjs: thêm ROMAJI_FIX cho じつは, あっという間, 本当は, ラプンツェル. Bìa: motif mới `pussboots`, `tower`, `lamp`, `palace`. Glossary world thêm 息子, 侯爵, 馬車, 粉屋, 働き, はめる, ワイン…
 
+## Kệ truyện cổ thế giới đợt 6: Vasilisa (Nga), Khỉ và cá sấu (Ấn Độ), Pinocchio (Ý) — 27/11/2026
+- `world-vasilisa-1` (miễn phí, 47 câu) và `world-vasilisa-2` (VIP, 47 câu), N3, series `world-vasilisa`, truyện dân gian Nga trong tuyển tập Afanasyev (cờ RU). Chưa có gói cũ.
+- `world-saru-wani` (VIP, 46 câu), N3, Panchatantra (cờ IN). Bản nháp N4 vượt ngưỡng từ khó (実, 心臓, 岸 là N3) nên xếp N3.
+- `world-pinocchio-1` (miễn phí, 48 câu) và `world-pinocchio-2` (VIP, 47 câu), N3, series `world-pinocchio`, theo nguyên tác Collodi 1883 (cờ IT; cá mập, không phải cá voi). Gói cũ `pinocchio` (N5) ẩn, trỏ sang tập 1.
+- Truyện châu Á (Trung, Hàn, Việt...) thuộc kệ `furusato-*` nên kệ thế giới không làm trùng.
+- build.mjs: thêm ROMAJI_FIX cho 土から, 土に, けしの実, 夜の森, 木の下, 元の. Bìa: motif mới `chickenhut`, `skulllamp`, `sarucroc`, `nosewood`, `sharkbelly`. Glossary world thêm たまらない, 変える, てっぺん, 決して, めちゃくちゃ, くしゃみ, マスク.
+
 ## Kệ truyện cổ thế giới đợt 5: Ali Baba, Người đẹp và quái vật, Bà chúa tuyết (mỗi truyện 2 tập) — 27/11/2026
 - `world-alibaba-1` (miễn phí, 47 câu) và `world-alibaba-2` (VIP, 48 câu), N3, series `world-alibaba`, theo Nghìn lẻ một đêm (không gắn cờ). Chưa có gói Ali Baba cũ.
 - `world-bijo-1` (miễn phí, 56 câu) và `world-bijo-2` (VIP, 49 câu), N3, series `world-bijo`, theo bản Beaumont 1756 (cờ FR). Bản nháp N4 vượt ngưỡng từ khó (野獣 tính là từ khó, harder 18–20%) nên xếp N3. Chưa có gói cũ.
@@ -937,3 +944,18 @@ Lô này thêm 4 chương chuẩn v2, cả 4 đều miễn phí vì là tập 1 
 - `mikan-1`: 61 câu, 2.137 ký tự, harder 8,6%, audio 7,1 phút. Ngôi kể thứ nhất, chỉ một giọng Aoede. Giữ toa hạng hai và vé hạng ba, đường hầm, khói đen, ba cậu bé ở đường ngang và cảnh quýt rơi.
 - Bìa: motif `torokko` (goòng lao dốc giữa vườn quýt, biển phía xa) và `mikan` (cô bé ném quýt qua cửa sổ tàu về phía ba cậu bé). Font Zen Kaku Gothic Antique và Zen Old Mincho.
 - Ẩn gói cũ `torokko` → `torokko-1`, `mikan` → `mikan-1`. `npm run verify` xanh.
+## Kệ "Triết lý sống" (wisdom), lô 3 — 27/11/2026
+
+Lô này thêm 4 chương chuẩn v2, cả 4 đều miễn phí vì là tập 1 của từng bộ. Lần đầu kệ có một chương N2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-seneca-1` | N2 | Seneca, *Bàn về sự ngắn ngủi của đời người*, viết dưới dạng thư gửi bạn Paulinus | 5:17 |
+| `life-allen-1` | N3 | James Allen, *As a Man Thinketh* (『原因と結果の法則』): tâm hồn là khu vườn | 4:19 |
+| `life-smiles-1` | N4 | Samuel Smiles, *Self-Help*: thợ gốm Palissy đốt cả bàn ghế để nung chiếc đĩa trắng | 3:36 |
+| `life-gakumon-1` | N3 | 福沢諭吉『学問のすゝめ』, kể qua chuyện cô bé Misaki tìm thấy tờ 10.000 yên cũ của bà | 4:21 |
+
+- Cả 4 tác phẩm gốc đều thuộc phạm vi công cộng. Phần hội thoại và khung truyện là sáng tác của ViMai. Câu trích được dịch lại bằng tiếng Nhật dễ hiểu, riêng câu mở đầu của 福沢 giữ nguyên văn.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 12 chương: 1 chương N2 (seneca-1), 7 chương N3 và 4 chương N4.
+- `npm run verify` xanh.
