@@ -587,3 +587,15 @@ Series `furusato-vn-quynh`, kệ truyện quê hương (VN), N4, kể lại bằ
 - Mỗi tập: dịch và giải thích 10 ngôn ngữ, bài học 4 ngữ pháp + 4 câu hỏi (có furigana), bìa 文庫 font Mochiy Pop P One, motif mới `quynh1`–`quynh3`.
 - Giọng: Aoede dẫn truyện; Quỳnh Neural2-C (p+3); chúa C (p-3); thầy đồ C (p-6); sứ thần C (rate 0.92, p-9). QC chuẩn v2 chỉ nhận Aoede/Neural2-B/Neural2-C, nên không dùng Neural2-D.
 - Dừng ở 3 tập để tránh gán nhầm giai thoại không chắc là của Trạng Quỳnh. Tập 3 kết bằng "tạm kết, còn nhiều chuyện nữa", nên có thể làm thêm nếu cần.
+
+## Thẻ ôn từ ViBJT — lô 7 (Ngữ pháp N2) — 26/11/2026
+
+- Dịch 194 thẻ ngữ pháp N2 (nghĩa mẫu câu + câu ví dụ) sang 9 ngôn ngữ còn thiếu: `content/sources/decks/src/grammar-n2-1..3.txt` → `tr/*.jsonl`.
+- Thêm `public/decks/grammar-N2.json` (8 bộ, 1.742 thẻ). Furigana: 0 chuỗi còn kanji trần.
+- Còn lại: Ngữ pháp N1 (143).
+
+## Thẻ ôn từ ViBJT — lô 8 (Ngữ pháp N1, hoàn tất) — 26/11/2026
+
+- Dịch 143 thẻ ngữ pháp N1 sang 9 ngôn ngữ còn thiếu: `content/sources/decks/src/grammar-n1-1..2.txt` → `tr/*.jsonl`.
+- Thêm `public/decks/grammar-N1.json`. Tổng: **9 bộ, 1.885 thẻ**, đủ 11 ngôn ngữ (build báo thiếu 0 nghĩa, 0 câu ví dụ), furigana 0 kanji trần.
+- Bản tiếng Anh gốc lệch câu Nhật ở 2 thẻ, đã dịch theo câu Nhật: 移転に伴い (chuyển địa điểm, không chỉ trụ sở), 周囲の心配をよそに独立した (ra làm riêng, không phải dọn ra ở riêng).
