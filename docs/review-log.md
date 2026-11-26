@@ -871,6 +871,13 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 13: truyện quê hương Việt Nam (phần 1) — 27/11/2026 (nhánh `claude/si-stories-14`)
+
+- Thêm sidecar `content/translations/si/` cho 14 gói kệ quê hương Việt Nam: furusato-vn-babe-1, vn-banhchung-1, vn-caytre-1, vn-chudongtu-1, vn-coc-1, vn-cuoi-1, vn-giong-1, vn-hoguom-1, vn-khe-1, vn-maiantiem-1, vn-mychau-1, vn-neu-1, vn-oc-1, vn-rongtien-1. Tổng sidecar si: 174.
+- Claude tự dịch trong phiên (không dùng API trả phí), giọng kể dân gian tự nhiên; tên riêng Việt phiên âm theo cách đọc (හුං රජු, ලේ ලොයි, මී චාඋ, අව් කෝ...); thuật ngữ Phật giáo theo cách người Sri Lanka dùng (බුදුරජාණන් වහන්සේ, සිවුර).
+- Mỗi gói `apply.mjs` báo 0 lỗi; câu ngữ pháp điền chỗ trống giữ nguyên mẫu tiếng Nhật.
+- Còn lại kệ Việt Nam (sodo, sodua, sontinh, taoquan, thachsanh, tichchu, traucau, tuthuc, vusua) và 5 gói mới từ PR #94 làm ở đợt 14.
+
 ## Tiếng Sinhala đợt 12: truyện quê hương các nước — 27/11/2026 (nhánh `claude/si-stories-13`)
 
 - Đã dịch 31 gói furusato không phải Việt Nam: Brazil (curupira, iara, saci), Trung Quốc (baishe, change, niulang, saiyuki-1/2/3), Indonesia (bawang, kancil, malin, sangkuriang, timun, toba), Hàn (heungbu, hokburi, kongjwi, onui, simcheong), Myanmar (kyaiktiyo, mahagiri), Nepal (indra, manjushri), Philippines (juan, magayon, malakas, pagong, pinya), Thái (aphai, sangthong).
