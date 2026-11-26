@@ -13583,6 +13583,68 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "life-yukkuri-2",
+  "titles": {
+   "vi": "Từng việc một",
+   "en": "One Thing at a Time",
+   "zh-Hans": "一件一件来",
+   "zh-Hant": "一件一件來",
+   "ko": "하나씩",
+   "tl": "Isa-isa Lang",
+   "ne": "एकपछि अर्को",
+   "id": "Satu per Satu",
+   "pt": "Uma Coisa de Cada Vez",
+   "my": "တစ်ခုချင်းစီ",
+   "th": "ทีละอย่าง"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 37,
+  "cover": "/covers/life-yukkuri-2.webp",
+  "series": {
+   "id": "life-yukkuri",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-yukkuri-2/chapter.mp3",
+   "durationSec": 187.66
+  }
+ },
+ {
+  "id": "life-marcus-2",
+  "titles": {
+   "vi": "Sóng và đá",
+   "en": "The Wave and the Rock",
+   "zh-Hans": "浪与礁石",
+   "zh-Hant": "浪與礁石",
+   "ko": "파도와 바위",
+   "tl": "Ang Alon at ang Bato",
+   "ne": "छाल र चट्टान",
+   "id": "Ombak dan Batu Karang",
+   "pt": "A Onda e a Rocha",
+   "my": "လှိုင်းနှင့် ကျောက်ဆောင်",
+   "th": "คลื่นกับหิน"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/life-marcus-2.webp",
+  "series": {
+   "id": "life-marcus",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-marcus-2/chapter.mp3",
+   "durationSec": 217.7
+  }
+ },
+ {
   "id": "mystery-hoichi-1",
   "titles": {
    "vi": "Hōichi không tai (1): Vị khách lúc nửa đêm",
