@@ -699,6 +699,9 @@ import s_gongitsune1 from "../../content/stories/gongitsune-1.json";
 import s_gongitsune2 from "../../content/stories/gongitsune-2.json";
 import s_tebukuro1 from "../../content/stories/tebukuro-1.json";
 import s_tebukuro2 from "../../content/stories/tebukuro-2.json";
+import s_kumonoito1 from "../../content/stories/kumonoito-1.json";
+import s_chumon1 from "../../content/stories/chumon-1.json";
+import s_chumon2 from "../../content/stories/chumon-2.json";
 // --- hết làm lại: import ---
 import s_furusatoVnKieu1 from "../../content/stories/furusato-vn-kieu-1.json";
 import s_furusatoVnKieu2 from "../../content/stories/furusato-vn-kieu-2.json";
@@ -733,6 +736,9 @@ import s_worldBremen from "../../content/stories/world-bremen.json";
 import v2MysteryHoichi1 from "../../content/stories/mystery-hoichi-1.json";
 import v2MysteryHoichi2 from "../../content/stories/mystery-hoichi-2.json";
 import v2MysteryMujina1 from "../../content/stories/mystery-mujina-1.json";
+import s_worldNingyo1 from "../../content/stories/world-ningyo-1.json";
+import s_worldNingyo2 from "../../content/stories/world-ningyo-2.json";
+import s_worldJack from "../../content/stories/world-jack.json";
 import v2MysteryAkagami1 from "../../content/stories/mystery-akagami-1.json";
 import v2MysteryAkagami2 from "../../content/stories/mystery-akagami-2.json";
 import v2MysteryNisen1 from "../../content/stories/mystery-nisen-1.json";
@@ -1443,6 +1449,9 @@ export const STORIES: StoryContent[] = [
   s_gongitsune2 as unknown as StoryContent,
   s_tebukuro1 as unknown as StoryContent,
   s_tebukuro2 as unknown as StoryContent,
+  s_kumonoito1 as unknown as StoryContent,
+  s_chumon1 as unknown as StoryContent,
+  s_chumon2 as unknown as StoryContent,
   // --- hết làm lại ---
   s_furusatoVnKieu1 as unknown as StoryContent,
   s_furusatoVnKieu2 as unknown as StoryContent,
@@ -1481,6 +1490,9 @@ export const STORIES: StoryContent[] = [
   v2MysteryNisen2 as unknown as StoryContent,
   v2MysteryNisen3 as unknown as StoryContent,
   // --- hết kệ ma & trinh thám ---
+  s_worldNingyo1 as unknown as StoryContent,
+  s_worldNingyo2 as unknown as StoryContent,
+  s_worldJack as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

@@ -2104,7 +2104,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Balas Budi Bangau I — Gadis di Malam Bersalju",
    "pt": "A Gratidão do Grou I — A Moça da Noite de Neve",
    "my": "ကြိုးကြာရဲ့ ကျေးဇူးဆပ်ခြင်း (၁) — နှင်းကျတဲ့ညက မိန်းကလေး",
-   "th": "นกกระเรียนตอบแทนบุญคุณ ตอนที่ 1 — หญิงสาวในคืนหิมะตก"
+   "th": "นกกระเรียนตอบแทนบุญคุณ ตอนที่ 1 — หญิงสาวในคืนหิมะตก",
+   "si": "කොකාගේ තෑග්ග I — හිම වැටෙන රෑ ආපු දැරිය"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2135,7 +2136,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Balas Budi Bangau II — Kamar yang Tak Boleh Diintip",
    "pt": "A Gratidão do Grou II — O Quarto Proibido",
    "my": "ကြိုးကြာရဲ့ ကျေးဇူးဆပ်ခြင်း (၂) — မချောင်းရတဲ့ အခန်း",
-   "th": "นกกระเรียนตอบแทนบุญคุณ ตอนที่ 2 — ห้องที่ห้ามแอบมอง"
+   "th": "นกกระเรียนตอบแทนบุญคุณ ตอนที่ 2 — ห้องที่ห้ามแอบมอง",
+   "si": "කොකාගේ තෑග්ග II — කාටවත් බලන්න බැරි කාමරය"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2166,7 +2168,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Issun-bōshi I — Perahu Mangkuk ke Ibu Kota",
    "pt": "Issun-bōshi I — Num Barco de Tigela até a Capital",
    "my": "အစ်ဆွန်ဘိုရှိ (၁) — ပန်းကန်လုံးလှေနဲ့ မြို့တော်ဆီ",
-   "th": "อิซซุนโบชิ ตอนที่ 1 — ล่องเรือชามไปเมืองหลวง"
+   "th": "อิซซุนโบชิ ตอนที่ 1 — ล่องเรือชามไปเมืองหลวง",
+   "si": "ඉස්සුන්-බෝෂි I — කෝප්ප ඔරුවෙන් අගනුවරට"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2197,7 +2200,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Issun-bōshi II — Palu Ajaib Para Oni",
    "pt": "Issun-bōshi II — O Martelo Mágico dos Ogros",
    "my": "အစ်ဆွန်ဘိုရှိ (၂) — ဘီလူးတွေရဲ့ မှော်တူ",
-   "th": "อิซซุนโบชิ ตอนที่ 2 — ค้อนวิเศษของยักษ์"
+   "th": "อิซซุนโบชิ ตอนที่ 2 — ค้อนวิเศษของยักษ์",
+   "si": "ඉස්සුන්-බෝෂි II — යක්ෂයන්ගේ මායා මුගුර"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2228,7 +2232,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Putri Kaguya I — Gadis di Dalam Bambu",
    "pt": "Princesa Kaguya I — A Menina do Bambu",
    "my": "ကာဂုယာ မင်းသမီး (၁) — ဝါးထဲက ကလေးမလေး",
-   "th": "เจ้าหญิงคางุยะ ตอนที่ 1 — เด็กหญิงในกระบอกไผ่"
+   "th": "เจ้าหญิงคางุยะ ตอนที่ 1 — เด็กหญิงในกระบอกไผ่",
+   "si": "කගුයා කුමාරිය I — උණ බම්බුව ඇතුළේ හිටපු දැරිය"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2259,7 +2264,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Putri Kaguya II — Lima Harta yang Mustahil",
    "pt": "Princesa Kaguya II — Cinco Tesouros Impossíveis",
    "my": "ကာဂုယာ မင်းသမီး (၂) — မဖြစ်နိုင်တဲ့ ရတနာငါးပါး",
-   "th": "เจ้าหญิงคางุยะ ตอนที่ 2 — สมบัติห้าอย่างที่เป็นไปไม่ได้"
+   "th": "เจ้าหญิงคางุยะ ตอนที่ 2 — สมบัติห้าอย่างที่เป็นไปไม่ได้",
+   "si": "කගුයා කුමාරිය II — කවදාවත් හොයාගන්න බැරි නිධාන පහ"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2290,7 +2296,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Putri Kaguya III — Kembali ke Bulan",
    "pt": "Princesa Kaguya III — O Retorno à Lua",
    "my": "ကာဂုယာ မင်းသမီး (၃) — လပြည်သို့ ပြန်ခြင်း",
-   "th": "เจ้าหญิงคางุยะ ตอนที่ 3 — คืนสู่ดวงจันทร์"
+   "th": "เจ้าหญิงคางุยะ ตอนที่ 3 — คืนสู่ดวงจันทร์",
+   "si": "කගුයා කුමාරිය III — සඳට ආපසු"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2353,7 +2360,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Shuten-dōji II — Pesta di Kastel Oni",
    "pt": "Shuten-dōji II — O Banquete no Castelo do Oni",
    "my": "ရှုတဲန်ဒိုဂျီ (၂) — ဘီလူးရဲတိုက်ထဲက စားသောက်ပွဲ",
-   "th": "ชูเท็นโดจิ ตอนที่ 2 — งานเลี้ยงในปราสาทยักษ์"
+   "th": "ชูเท็นโดจิ ตอนที่ 2 — งานเลี้ยงในปราสาทยักษ์",
+   "si": "ෂුතෙන්-දෝජි II — යක්ෂ බලකොටුවේ මංගල්‍යය"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2416,7 +2424,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Ushiwaka dan Benkei II — Duel di Jembatan Gojō",
    "pt": "Ushiwaka e Benkei II — O Duelo na Ponte Gojō",
    "my": "ဥရှိဝါကာနဲ့ ဘန်ကေး (၂) — ဂိုဂျိုတံတားပေါ်က ဓားသမားပွဲ",
-   "th": "อุชิวากะกับเบงเค ภาค 2 — ดวลบนสะพานโกโจ"
+   "th": "อุชิวากะกับเบงเค ภาค 2 — ดวลบนสะพานโกโจ",
+   "si": "උෂිවකා සහ බෙන්කේ II — ගෝජෝ පාලම මත ද්වන්ද්ව සටන"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2741,7 +2750,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Yuki-onna II — Janji yang Dilanggar",
    "pt": "Yuki-onna II — A promessa quebrada",
    "my": "ယူကီအိုနာ (၂) — ချိုးဖောက်ခံရသော ကတိ",
-   "th": "ยูกิอนนะ ตอนที่ 2 — คำสัญญาที่ถูกทำลาย"
+   "th": "ยูกิอนนะ ตอนที่ 2 — คำสัญญาที่ถูกทำลาย",
+   "si": "යුකි-ඔන්නා II — කැඩුණු පොරොන්දුව"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2804,7 +2814,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Anju dan Zushiō II — Jimat Jizō",
    "pt": "Anju e Zushiō II — O Amuleto de Jizō",
    "my": "အန်ဂျူနဲ့ ဇူရှိအို (၂) — ဂျီဇိုအဆောင်",
-   "th": "อันจูกับซูชิโอ ตอนที่ 2 — เครื่องรางพระจิโซ"
+   "th": "อันจูกับซูชิโอ ตอนที่ 2 — เครื่องรางพระจิโซ",
+   "si": "අන්ජු සහ සුෂියෝ II — ජිසෝ ආරක්ෂක පදක්කම"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2835,7 +2846,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Burung Pipit Lidah Terpotong — Dua Keranjang",
    "pt": "O Pardal de Língua Cortada — Dois Baús",
    "my": "လျှာပြတ်စာကလေး — သေတ္တာနှစ်လုံး",
-   "th": "นกกระจอกลิ้นขาด — หีบสองใบ"
+   "th": "นกกระจอกลิ้นขาด — หีบสองใบ",
+   "si": "දිව කැපූ ගේ කුරුල්ලා — පෙට්ටි දෙක"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2862,7 +2874,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kakek Pemekar Bunga — Anjing Shiro",
    "pt": "O Velho que Fazia as Flores Desabrocharem — O Cão Shiro",
    "my": "ပန်းပွင့်စေသော အဘိုး — ခွေးလေး ရှိရို",
-   "th": "คุณตาทำดอกไม้บาน — เจ้าหมาชิโระ"
+   "th": "คุณตาทำดอกไม้บาน — เจ้าหมาชิโระ",
+   "si": "මල් පිපෙවූ සීයා — ශිරෝ බල්ලා"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2889,7 +2902,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kintarō — Bocah Kuat dari Gunung Ashigara",
    "pt": "Kintarō — O Menino Forte do Monte Ashigara",
    "my": "ကင်တာရို — အာရှိဂါရတောင်က ခွန်အားကြီးသော ကောင်လေး",
-   "th": "คินทาโร่ — เด็กผู้มีพลังแห่งภูเขาอาชิงาระ"
+   "th": "คินทาโร่ — เด็กผู้มีพลังแห่งภูเขาอาชิงาระ",
+   "si": "කින්තාරෝ — අෂිගරා කන්දේ ශක්තිමත් කොල්ලා"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2916,7 +2930,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Enam Jizō dan Topi Jerami",
    "pt": "Os Seis Jizō e os Chapéus de Palha",
    "my": "ခမောက်ဆောင်းထားတဲ့ ဂျိဇိုရုပ်ခြောက်ပါး",
-   "th": "พระจิโซหกองค์กับหมวกฟาง"
+   "th": "พระจิโซหกองค์กับหมวกฟาง",
+   "si": "ජිසෝ ප්‍රතිමා හය සහ පිදුරු තොප්පි"
   },
   "level": "N3",
   "topic": "folktale",
@@ -3509,7 +3524,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 13,
-  "cover": "/covers/kumo-no-ito.webp"
+  "cover": "/covers/kumo-no-ito.webp",
+  "hidden": true,
+  "replacedBy": "kumonoito-1"
  },
  {
   "id": "chumon-no-oi-ryoriten",
@@ -3522,7 +3539,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 14,
-  "cover": "/covers/chumon-no-oi-ryoriten.webp"
+  "cover": "/covers/chumon-no-oi-ryoriten.webp",
+  "hidden": true,
+  "replacedBy": "chumon-1"
  },
  {
   "id": "sending-a-parcel",
@@ -5072,7 +5091,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/ningyo-hime.webp"
+  "cover": "/covers/ningyo-hime.webp",
+  "hidden": true,
+  "replacedBy": "world-ningyo-1"
  },
  {
   "id": "farmers-market",
@@ -5324,7 +5345,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/jack-and-the-beanstalk.webp"
+  "cover": "/covers/jack-and-the-beanstalk.webp",
+  "hidden": true,
+  "replacedBy": "world-jack"
  },
  {
   "id": "radio-taiso",
@@ -7389,7 +7412,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "free": false,
   "sentenceCount": 8,
   "hidden": true,
-  "replacedBy": "ningyo-hime"
+  "replacedBy": "world-ningyo-1"
  },
  {
   "id": "mai-chan-ep31-new-year-shrine",
@@ -12033,6 +12056,99 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "kumonoito-1",
+  "titles": {
+   "vi": "Sợi tơ nhện",
+   "en": "The Spider's Thread",
+   "zh-Hans": "蜘蛛之丝",
+   "zh-Hant": "蜘蛛之絲",
+   "ko": "거미줄",
+   "tl": "Ang Sinulid ng Gagamba",
+   "ne": "माकुराको धागो",
+   "id": "Benang Laba-laba",
+   "pt": "O Fio da Aranha",
+   "my": "ပင့်ကူမျှင်",
+   "th": "ใยแมงมุม"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 59,
+  "cover": "/covers/kumonoito-1.webp",
+  "series": {
+   "id": "kumonoito",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/kumonoito-1/chapter.mp3",
+   "durationSec": 319.92
+  }
+ },
+ {
+  "id": "chumon-1",
+  "titles": {
+   "vi": "Nhà hàng lắm yêu cầu (phần 1)",
+   "en": "The Restaurant of Many Orders (Part 1)",
+   "zh-Hans": "要求很多的餐馆（上）",
+   "zh-Hant": "要求很多的餐館（上）",
+   "ko": "주문이 많은 요리점 (상)",
+   "tl": "Ang Kainang Maraming Hiling (Bahagi 1)",
+   "ne": "धेरै अर्डर भएको भोजनालय (भाग १)",
+   "id": "Restoran Banyak Pesanan (Bagian 1)",
+   "pt": "O Restaurante dos Muitos Pedidos (Parte 1)",
+   "my": "မှာစရာများတဲ့ စားသောက်ဆိုင် (အပိုင်း ၁)",
+   "th": "ภัตตาคารคำสั่งมาก (ตอนที่ 1)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 52,
+  "cover": "/covers/chumon-1.webp",
+  "series": {
+   "id": "chumon",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/chumon-1/chapter.mp3",
+   "durationSec": 264.24
+  }
+ },
+ {
+  "id": "chumon-2",
+  "titles": {
+   "vi": "Nhà hàng lắm yêu cầu (phần 2)",
+   "en": "The Restaurant of Many Orders (Part 2)",
+   "zh-Hans": "要求很多的餐馆（下）",
+   "zh-Hant": "要求很多的餐館（下）",
+   "ko": "주문이 많은 요리점 (하)",
+   "tl": "Ang Kainang Maraming Hiling (Bahagi 2)",
+   "ne": "धेरै अर्डर भएको भोजनालय (भाग २)",
+   "id": "Restoran Banyak Pesanan (Bagian 2)",
+   "pt": "O Restaurante dos Muitos Pedidos (Parte 2)",
+   "my": "မှာစရာများတဲ့ စားသောက်ဆိုင် (အပိုင်း ၂)",
+   "th": "ภัตตาคารคำสั่งมาก (ตอนที่ 2)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/chumon-2.webp",
+  "series": {
+   "id": "chumon",
+   "index": 2
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/chumon-2/chapter.mp3",
+   "durationSec": 358.776
+  }
+ },
+ {
   "id": "furusato-vn-kieu-1",
   "titles": {
    "vi": "Truyện Kiều (1): Tiết Thanh minh",
@@ -12816,7 +12932,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Para Musisi Kota Bremen",
    "pt": "Os Músicos de Bremen",
    "my": "ဘရီမန်မြို့က ဂီတသမားများ",
-   "th": "นักดนตรีแห่งเมืองเบรเมน"
+   "th": "นักดนตรีแห่งเมืองเบรเมน",
+   "si": "බ්‍රෙමන් නගරයේ සංගීතඥයෝ"
   },
   "level": "N5",
   "topic": "world-tales",
@@ -12918,6 +13035,98 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/mystery-mujina-1/chapter.mp3",
    "durationSec": 240.55
+  }
+ },
+ {
+  "id": "world-ningyo-1",
+  "titles": {
+   "vi": "Nàng tiên cá (1): Đêm bão trên biển",
+   "en": "The Little Mermaid (1): The Storm at Sea",
+   "zh-Hans": "海的女儿（1）：海上的暴风雨",
+   "zh-Hant": "海的女兒（1）：海上的暴風雨",
+   "ko": "인어공주 (1): 바다의 폭풍",
+   "tl": "Ang Munting Sirena (1): Bagyo sa Dagat",
+   "ne": "सानी जलपरी (१): समुद्रको आँधी",
+   "id": "Putri Duyung (1): Badai di Laut",
+   "pt": "A Pequena Sereia (1): A Tempestade no Mar",
+   "my": "ရေသူမလေး (၁): ပင်လယ်ပေါ်က မုန်တိုင်း",
+   "th": "เงือกน้อย (1): พายุกลางทะเล"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 51,
+  "cover": "/covers/world-ningyo-1.webp",
+  "series": {
+   "id": "world-ningyo",
+   "index": 1
+  },
+  "shelf": "world",
+  "origin": "DK",
+  "audioTrack": {
+   "src": "/audio/world-ningyo-1/chapter.mp3",
+   "durationSec": 274.296
+  }
+ },
+ {
+  "id": "world-ningyo-2",
+  "titles": {
+   "vi": "Nàng tiên cá (2 – hết): Giọng hát đổi lấy đôi chân",
+   "en": "The Little Mermaid (2, final): A Voice for Legs",
+   "zh-Hans": "海的女儿（2·完）：用歌声换来的双腿",
+   "zh-Hant": "海的女兒（2·完）：用歌聲換來的雙腿",
+   "ko": "인어공주 (2·완): 목소리와 바꾼 다리",
+   "tl": "Ang Munting Sirena (2, wakas): Tinig Kapalit ng Paa",
+   "ne": "सानी जलपरी (२, अन्तिम): स्वरको बदलामा खुट्टा",
+   "id": "Putri Duyung (2, tamat): Suara Ditukar Kaki",
+   "pt": "A Pequena Sereia (2, final): A Voz pelas Pernas",
+   "my": "ရေသူမလေး (၂၊ ဇာတ်သိမ်း): အသံနဲ့ လဲတဲ့ ခြေထောက်",
+   "th": "เงือกน้อย (2 จบ): แลกเสียงกับขา"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 56,
+  "cover": "/covers/world-ningyo-2.webp",
+  "series": {
+   "id": "world-ningyo",
+   "index": 2
+  },
+  "shelf": "world",
+  "origin": "DK",
+  "audioTrack": {
+   "src": "/audio/world-ningyo-2/chapter.mp3",
+   "durationSec": 276.144
+  }
+ },
+ {
+  "id": "world-jack",
+  "titles": {
+   "vi": "Jack và cây đậu thần",
+   "en": "Jack and the Beanstalk",
+   "zh-Hans": "杰克与魔豆",
+   "zh-Hant": "傑克與魔豆",
+   "ko": "잭과 콩나무",
+   "tl": "Si Jack at ang Puno ng Bitsuwelas",
+   "ne": "ज्याक र जादुई सिमीको बोट",
+   "id": "Jack dan Pohon Kacang Ajaib",
+   "pt": "João e o Pé de Feijão",
+   "my": "ဂျက်နဲ့ ပဲပင်ကြီး",
+   "th": "แจ็คกับต้นถั่ววิเศษ"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 51,
+  "cover": "/covers/world-jack.webp",
+  "shelf": "world",
+  "origin": "GB",
+  "audioTrack": {
+   "src": "/audio/world-jack/chapter.mp3",
+   "durationSec": 268.152
   }
  },
  {

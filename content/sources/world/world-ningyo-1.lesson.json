@@ -1,0 +1,30 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜てもいい",
+   "example": 7,
+   "meaning": { "vi": "được phép ~, ~ cũng được", "en": "may ~, it's OK to ~", "zh-Hans": "可以……", "ko": "~해도 좋다", "tl": "puwedeng ~", "ne": "~ पाउनु, ~ हुन्छ", "id": "boleh ~", "pt": "poder ~ (permissão)", "my": "~ လို့ ရတယ်", "th": "~ ได้" }
+  },
+  {
+   "pattern": "〜ところ（だ）",
+   "example": 15,
+   "meaning": { "vi": "đúng lúc sắp ~ / đang ~", "en": "just about to ~ / just at the moment of ~", "zh-Hans": "正要……的时候", "ko": "막 ~하려는 참", "tl": "saktong ~", "ne": "ठीक ~ लाग्दा", "id": "tepat saat akan ~", "pt": "bem no momento de ~", "my": "~ ခါနီး", "th": "กำลังจะ ~ พอดี" }
+  },
+  {
+   "pattern": "〜そうだ（伝聞）",
+   "example": 44,
+   "meaning": { "vi": "nghe nói ~, người ta bảo ~", "en": "I hear that ~, they say ~", "zh-Hans": "听说……", "ko": "~라고 한다", "tl": "sabi nila ~", "ne": "~ रे (सुनेको कुरा)", "id": "katanya ~", "pt": "dizem que ~", "my": "~ တဲ့", "th": "ได้ยินว่า ~" }
+  },
+  {
+   "pattern": "〜かもしれない",
+   "example": 48,
+   "meaning": { "vi": "có lẽ ~, biết đâu ~", "en": "might ~, maybe ~", "zh-Hans": "也许……", "ko": "~할지도 모른다", "tl": "baka ~", "ne": "~ होला कि", "id": "mungkin ~", "pt": "talvez ~", "my": "~ ကောင်း ~ မယ်", "th": "อาจจะ ~" }
+  }
+ ],
+ "quiz": [
+  { "ja": "人魚は何歳になったら、海の上へ行ってもいいですか。", "choices": ["十歳", "十五歳", "十六歳", "二十歳"], "answer": 1, "explain": { "vi": "Bà nói tròn mười lăm tuổi thì được lên mặt biển.", "en": "Grandmother said they may go up at fifteen.", "zh-Hans": "奶奶说满十五岁就可以上去。", "ko": "할머니는 열다섯 살이 되면 올라가도 된다고 했다.", "tl": "Sabi ng lola, sa labinlima puwede nang umahon.", "ne": "हजुरआमाले पन्ध्र वर्षमा जान पाइन्छ भन्नुभयो।", "id": "Nenek bilang boleh naik saat lima belas tahun.", "pt": "A avó disse que aos quinze podiam subir.", "my": "အဘွားက ဆယ့်ငါးနှစ်ပြည့်ရင် တက်လို့ရတယ် ပြောတယ်။", "th": "ยายบอกว่าอายุสิบห้าก็ขึ้นไปได้" } },
+  { "ja": "人魚姫が海の上で見た日は、何の日でしたか。", "choices": ["王子の誕生日", "王子の結婚式", "姉の誕生日", "お祭りの日"], "answer": 0, "explain": { "vi": "Hôm đó là sinh nhật mười sáu tuổi của hoàng tử.", "en": "It was the prince's sixteenth birthday.", "zh-Hans": "那天是王子十六岁的生日。", "ko": "그날은 왕자의 열여섯 번째 생일이었다.", "tl": "Ika-16 na kaarawan iyon ng prinsipe.", "ne": "त्यो दिन राजकुमारको सोह्रौँ जन्मदिन थियो।", "id": "Hari itu ulang tahun ke-16 pangeran.", "pt": "Era o aniversário de 16 anos do príncipe.", "my": "မင်းသားရဲ့ ဆယ့်ခြောက်နှစ်ပြည့် မွေးနေ့ပါ။", "th": "วันนั้นเป็นวันเกิดสิบหกปีของเจ้าชาย" } },
+  { "ja": "王子はだれに助けられたと思いましたか。", "choices": ["人魚姫", "白い建物から来た女の人", "船の人", "祖母"], "answer": 1, "explain": { "vi": "Chàng tỉnh dậy và mỉm cười với cô gái từ tòa nhà trắng, không biết nàng tiên cá đã cứu mình.", "en": "He woke and smiled at the woman from the white building, not knowing the mermaid saved him.", "zh-Hans": "他醒来对白色建筑来的姑娘微笑，不知道是人鱼救了他。", "ko": "왕자는 하얀 건물에서 온 여자에게 웃었고, 인어가 구한 줄 몰랐다.", "tl": "Ngumiti siya sa babae mula sa puting gusali; hindi niya alam na ang sirena ang nagligtas.", "ne": "उनले सेतो भवनकी युवतीतिर मुस्कुराए, जलपरीले बचाएको थाहा पाएनन्।", "id": "Ia tersenyum pada wanita dari bangunan putih, tak tahu duyunglah penolongnya.", "pt": "Ele sorriu para a moça do prédio branco, sem saber que a sereia o salvara.", "my": "အဆောက်အဦဖြူက မိန်းကလေးကို ပြုံးပြပြီး ရေသူမ ကယ်တာ မသိဘူး။", "th": "เขายิ้มให้หญิงจากอาคารสีขาว ไม่รู้ว่าเงือกช่วยตน" } },
+  { "ja": "人魚は、死んだらどうなりますか。", "choices": ["星になる", "海のあわになる", "人間になる", "鳥になる"], "answer": 1, "explain": { "vi": "Người cá sống ba trăm năm rồi hóa thành bọt biển, không có linh hồn.", "en": "Merfolk live 300 years and become sea foam; they have no soul.", "zh-Hans": "人鱼活三百年后变成海上泡沫，没有灵魂。", "ko": "인어는 삼백 년을 살고 바다 거품이 된다.", "tl": "Nabubuhay sila nang 300 taon at nagiging bula.", "ne": "जलपरी ३०० वर्ष बाँचेर समुद्री फिँज बन्छन्।", "id": "Duyung hidup 300 tahun lalu menjadi buih laut.", "pt": "Vivem 300 anos e viram espuma do mar.", "my": "ရေသူမတွေ နှစ်သုံးရာ နေပြီး အမြှုပ် ဖြစ်သွားတယ်။", "th": "เงือกอยู่สามร้อยปีแล้วกลายเป็นฟองทะเล" } }
+ ]
+}

@@ -808,6 +808,11 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 ## Kệ truyện cổ thế giới: Nhạc sĩ thành Bremen — 27/11/2026
 - `world-bremen` (N5, miễn phí, 42 câu) theo Grimm 1857; gói cũ `bremen-musicians` ẩn, trỏ sang bản mới. Bìa motif `bremen`.
 - Sửa glossary kệ world: はさみ = cái kéo (trước bị gán nghĩa はさみうち), thread Sinhala báo.
+
+## Kệ truyện cổ thế giới đợt 3: Nàng tiên cá, Jack và cây đậu thần — 27/11/2026
+- `world-ningyo-1` (N3, miễn phí, 51 câu) và `world-ningyo-2` (N3, VIP, 56 câu): Andersen 1837, giữ đúng kết thúc gốc (thành con gái của không trung), không theo phim hoạt hình. Gói cũ `ningyo-hime` và `the-little-mermaid` ẩn, trỏ sang tập 1.
+- `world-jack` (N3, VIP, 51 câu): bản Joseph Jacobs 1890 (túi vàng, gà đẻ trứng vàng, đàn hạc biết hát). Gói cũ `jack-and-the-beanstalk` ẩn, trỏ sang bản mới. Viết ban đầu cho N4 nhưng từ khoá 豆/牛/金 đẩy tỉ lệ từ khó lên 32%, nên xếp N3 (3,7%).
+- Bìa: motif mới `mermaid`, `seafoam`, `beanstalk` trong scripts/covers/cover.html. Glossary kệ world thêm 9 từ (交換, いびき, たてごと, おの…).
 ## Văn học Nhật v2: 手袋を買いに 2 tập (N4), thay gói cũ — 27/11/2026
 
 - Nhánh `claude/bungaku-v2-batch2`. `tebukuro-1` (55 câu, 1.360 ký tự, harder 7,0%, audio 4,4 phút) và `tebukuro-2` (54 câu, 1.390 ký tự, harder 12,0%, audio 4,5 phút).
@@ -823,3 +828,32 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Giữ nguyên mật mã gốc: 南無阿弥陀仏 → chữ nổi → thông điệp katakana chính tả cũ. Đọc mỗi chữ thứ 9 ra ゴジヤウダン, đúng như bản gốc. Chi tiết ở `content/stories/mystery-nisen-*.qc.md`.
 - Thêm motif bìa `coin` (đã có trong `scripts/produce/cover.html` từ lô 1).
 - ID kệ còn giữ chỗ: `mystery-rokuro-*`, `mystery-chawan-*`, `mystery-garnet-*`, `mystery-dzaka-*`, `mystery-shinri-*`.
+## Văn học Nhật v2: 蜘蛛の糸 (N3), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch3`. `kumonoito-1` (59 câu, 1.608 ký tự, harder 5,5% so với N3, audio 5,3 phút), một tập, miễn phí.
+- Phỏng theo 芥川龍之介 (mất 1927, xuất bản 1918; public domain ở Nhật và Mỹ). Giữ cảnh kết gốc (hoa sen không bận tâm, gần trưa). Xếp N3 vì 地獄/天国 và văn phong; bản N4 vượt ngưỡng từ khó.
+- Giọng: Aoede kể, カンダタ Neural2-C trầm. Bìa motif `kumo` (vùng tranh hẹp hơn để chừa chỗ tên tác giả dài).
+- Ẩn gói cũ `kumo-no-ito` → `kumonoito-1`. `npm run verify` xanh.
+
+## Tiếng Sinhala đợt 3: hết kệ Mukashi + Bremen — 27/11/2026 (nhánh `claude/si-stories-4`)
+
+- Đã dịch 17 gói: world-bremen; mukashi-kasajizo, mukashi-kintaro, mukashi-shitakiri, mukashi-hanasaka, mukashi-issun-1/2, mukashi-kaguya-1/2/3, mukashi-tsuru-1/2, mukashi-anju-zushio-2, mukashi-shuten-2, mukashi-ushiwaka-2, mukashi-yuki-onna-2. Thêm dòng `V scissors` cho world-akazukin và băm lại sau khi glossary sửa はさみ.
+- Kệ Mukashi giờ đủ si cho mọi tập. Tên riêng giữ thống nhất với tập 1 (රයිකෝ, කින්තොකි, අන්ජු/සුෂියෝ, සන්ෂෝ දායූ, ඔයුකි/මිනොකිචි, උෂිවකා/බෙන්කේ).
+- **Lỗi nguồn (chưa sửa, vùng nội dung):** một số ô "giải thích" của câu hỏi chỉ lặp lại câu hỏi bằng tiếng Anh thay vì đưa đáp án: mukashi-kasajizo (4 ô), mukashi-kintaro (4 ô), hanshichi-yukidaruma-1 (1 ô), rakugo-sokotsu-nagaya (1 ô). Bản si dịch đúng như nguồn; luồng sở hữu nên viết lại thành đáp án.
+- **Lệch số câu nhỏ:** nhiều lời giải câu hỏi ghi "câu N" lệch 1 so với số thứ tự hiển thị (vd. mukashi-hanasaka Q0 ghi câu 10, đáp án nằm ở câu 9 tính từ 0). Không ảnh hưởng người dùng nhiều, ghi lại để luồng sở hữu rà.
+- `npm run verify` xanh: 726 gói, 0 lỗi; sidecar si 49 gói, 0 lỗi; build OK.
+
+## Tiếng Sinhala đợt 4: Nàng tiên cá, Jack, Mai-chan 5–10, Gongitsune, Tebukuro, Kumonoito — 27/11/2026 (nhánh `claude/si-stories-5`)
+
+- Đã dịch 14 gói: world-ningyo-1/2, world-jack (luồng truyện thế giới nhờ sau PR #73); maichan-05 → maichan-10; gongitsune-1/2; tebukuro-1/2; kumonoito-1.
+- Tên riêng thống nhất: මායි-චන්, බින්-කුන්, යුකි-චන්; ගොන්, හියෝජූ, කසුකෙ; ජැක්; කන්දත. Truyện thiếu nhi dùng giọng nói thường ngày; dòng kết Tebukuro giữ lặp hai lần như bản gốc.
+- Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
+- Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
+
+## Văn học Nhật v2: 注文の多い料理店 2 tập (N3), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch4`. `chumon-1` (52 câu, 1.366 ký tự, harder 6,4%, audio 4,4 phút, miễn phí) và `chumon-2` (60 câu, 1.865 ký tự, harder 7,9%, audio 6,0 phút).
+- Phỏng theo 宮沢賢治 (mất 1933, xuất bản 1924; public domain ở Nhật và Mỹ). Giữ các lời dặn trên cửa, câu lặp gió thổi và cảnh kết gốc (mặt nhàu như giấy vụn). Câu lặp ở tập 2 thêm 「また、」 để tránh trùng câu giữa hai gói.
+- Giọng: Aoede kể; hai chàng trai Neural2-C hai cao độ; hai con mèo rừng Neural2-B/C; người dẫn đường Neural2-C trầm.
+- Bìa: motif `chumon1` (nhà hàng Tây giữa núi) và `chumon2` (cánh cửa với hai mắt xanh ở lỗ khóa).
+- Ẩn gói cũ `chumon-no-oi-ryoriten` → `chumon-1`. `npm run verify` xanh.
