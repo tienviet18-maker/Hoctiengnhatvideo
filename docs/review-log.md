@@ -443,6 +443,9 @@ Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Bảy gói chuẩn v2, N3
 - Lộ trình "Giải trí & văn hoá" (`src/lib/paths.ts`) đổi `momotaro` → `mukashi-momotaro-1`.
 - Đánh đổi: 4 trong 6 gói ẩn là N5 (ngắn 10–14 câu), bản v2 là N3, nên người mới bắt đầu có ít truyện cổ tích dễ hơn. Kho N5 vẫn còn hơn 200 gói khác.
 
+## Bộ thẻ có sẵn từ ViBJT — lô 1 (26/11/2026, nhánh `claude/bjt-decks`)
+
+Tab Ôn tập có mục "Bộ thẻ có sẵn", dựng từ kho thẻ ViBJT (repo BJT, cùng hệ sinh thái ViMai). Việt chọn phương án 1+2 ngày 26/11. Công cụ: `scripts/decks/build-decks.mjs` (BJT_DIR trỏ tới repo BJT) ghép thẻ gốc (ja, vi, en, câu ví dụ, mã audio) với bản dịch 9 ngôn ngữ ở `content/sources/decks/src/*.txt`, đổi sang JSONL bằng `scripts/decks/tr2jsonl.py`. Thẻ chỉ vào bộ khi đủ 11 ngôn ngữ. Đầu ra: `public/decks/*.json` (tải khi bấm thêm, không nằm trong bundle), `public/audio/bjt/*.mp3`, `src/lib/decks.generated.ts`. Lô đầu: Kính ngữ 135 thẻ có bảng thường/lịch sự/tôn kính/khiêm nhường, câu ví dụ và giọng đọc. Sửa nghĩa en sai của 帰る ("about" thành "go home, leave"). Mỗi lần thêm 10 thẻ; bản miễn phí vẫn giới hạn 100 thẻ. Lô sau: Tiếng Nhật công sở N5–N1 (1.293 từ có trong danh sách JLPT), ngữ pháp N3–N1, ví dụ cho 535 từ trùng với truyện/video.
 ## Rà chất lượng 444 gói truyện cũ của Muse, ẩn 62 gói (26/11/2026, nhánh `claude/retire-old-stories`)
 
 Việt giao (26/11): truyện cũ không đạt chuẩn thì bỏ hoặc làm lại, Claude tự quyết.
