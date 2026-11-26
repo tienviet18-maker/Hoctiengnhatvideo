@@ -11520,6 +11520,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-quynh-3/chapter.mp3",
    "durationSec": 316.08
   }
+ },
+ {
+  "id": "furusato-vn-hoangle-1",
+  "titles": {
+   "vi": "Hoàng Lê nhất thống chí (1): Quang Trung lên ngôi",
+   "en": "The Unification of the Le (1): Quang Trung Takes the Throne",
+   "zh-Hans": "皇黎一统志（1）：光中登基",
+   "zh-Hant": "皇黎一統志（1）：光中登基",
+   "ko": "황려일통지 (1): 광중 황제의 즉위",
+   "tl": "Hoang Le Nhat Thong Chi (1): Ang Pagluklok kay Quang Trung",
+   "ne": "होआङ ले न्यात थोङ ची (१): क्वाङ चुङको राज्याभिषेक",
+   "id": "Hoang Le Nhat Thong Chi (1): Quang Trung Naik Takhta",
+   "pt": "Hoang Le Nhat Thong Chi (1): Quang Trung Sobe ao Trono",
+   "my": "ဟွမ်လေ ညတ်ထုံချီ (၁): ကွမ်ချုန် နန်းတက်ခြင်း",
+   "th": "ฮหว่างเลเญิดท้งจี (1): กวางจุงขึ้นครองราชย์"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-hoangle-1.webp",
+  "series": {
+   "id": "furusato-vn-hoangle",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-hoangle-1/chapter.mp3",
+   "durationSec": 430.08
+  }
  }
 ];
 
