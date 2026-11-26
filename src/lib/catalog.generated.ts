@@ -10285,6 +10285,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-br-saci-1/chapter.mp3",
    "durationSec": 314.688
   }
+ },
+ {
+  "id": "furusato-br-iara-1",
+  "titles": {
+   "vi": "Iara, nàng tiên cá sông Amazon",
+   "en": "Iara, Mermaid of the Amazon",
+   "zh-Hans": "亚马孙河的美人鱼伊阿拉",
+   "zh-Hant": "亞馬孫河的美人魚伊阿拉",
+   "ko": "아마존의 인어 이아라",
+   "tl": "Si Iara, ang Sirena ng Amazon",
+   "ne": "अमेजनकी जलपरी इयारा",
+   "id": "Iara, Putri Duyung Amazon",
+   "pt": "Iara, a mãe-d'água",
+   "my": "အမေဇုန်က ရေသူမ အီအာရာ",
+   "th": "อิอารา นางเงือกแห่งแอมะซอน"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-br-iara-1.webp",
+  "series": {
+   "id": "furusato-br-iara",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "BR",
+  "audioTrack": {
+   "src": "/audio/furusato-br-iara-1/chapter.mp3",
+   "durationSec": 339.744
+  }
  }
 ];
 
