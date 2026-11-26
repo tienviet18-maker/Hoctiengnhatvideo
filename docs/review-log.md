@@ -571,3 +571,9 @@ Quy tắc: chữ kanji hiển thị ở bất kỳ đâu trong app đều phải
 - Dịch 120 thẻ ngữ pháp N3 (nghĩa mẫu câu + câu ví dụ) sang 9 ngôn ngữ còn thiếu (zh-Hans, zh-Hant, ko, tl, ne, id, pt, my, th): `content/sources/decks/src/grammar-n3-1.txt`, `grammar-n3-2.txt` → `tr/*.jsonl`.
 - Dựng lại bộ thẻ: thêm `public/decks/grammar-N3.json` (7 bộ, 1.548 thẻ). Mọi câu ví dụ có furigana (0 kanji trần).
 - Còn lại: Ngữ pháp N2 (194) và N1 (143).
+
+## Thẻ ôn từ ViBJT — lô 7 (Ngữ pháp N2) — 26/11/2026
+
+- Dịch 194 thẻ ngữ pháp N2 (nghĩa mẫu câu + câu ví dụ) sang 9 ngôn ngữ còn thiếu: `content/sources/decks/src/grammar-n2-1..3.txt` → `tr/*.jsonl`.
+- Thêm `public/decks/grammar-N2.json` (8 bộ, 1.742 thẻ). Furigana: 0 chuỗi còn kanji trần.
+- Còn lại: Ngữ pháp N1 (143).
