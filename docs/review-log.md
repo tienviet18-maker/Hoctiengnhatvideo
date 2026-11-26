@@ -541,3 +541,9 @@ Việt nhắc: mọi chữ kanji trong app phải có furigana, kể cả hội 
 - Thêm `content/sources/decks/src/office-n1-1..6.txt` (414 thẻ): nghĩa + câu ví dụ đủ 9 ngôn ngữ còn thiếu, Claude tự dịch.
 - Bộ "Tiếng Nhật công sở N1" lên app. Tổng 6 bộ, 1428 thẻ (Kính ngữ + Công sở N5–N1 đã đủ).
 - Một số bản tiếng Anh gốc lệch câu Nhật, đã dịch theo câu Nhật: 撤退を決断 (rút lui, không phải từ chức), 取材 (được phỏng vấn), 品質管理 v.v.
+
+## Thẻ ôn từ ViBJT — lô 6 (Ngữ pháp N3) — 26/11/2026
+
+- Dịch 120 thẻ ngữ pháp N3 (nghĩa mẫu câu + câu ví dụ) sang 9 ngôn ngữ còn thiếu (zh-Hans, zh-Hant, ko, tl, ne, id, pt, my, th): `content/sources/decks/src/grammar-n3-1.txt`, `grammar-n3-2.txt` → `tr/*.jsonl`.
+- Dựng lại bộ thẻ: thêm `public/decks/grammar-N3.json` (7 bộ, 1.548 thẻ). Mọi câu ví dụ có furigana (0 kanji trần).
+- Còn lại: Ngữ pháp N2 (194) và N1 (143).
