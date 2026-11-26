@@ -9,6 +9,7 @@ import WordPopup from "../../../components/WordPopup";
 import Paywall from "../../../components/Paywall";
 import type { TimedLine, VideoContent, VocabItem } from "../../../lib/content-schema";
 import { pickText } from "../../../lib/i18n";
+import { useDocTitle } from "../../../components/DocTitle";
 import { logActivity, QUEUE_KEY, removeFromQueue, saveProgress, useLocalJson } from "../../../lib/store";
 import { VIDEO_INDEX, formatDuration } from "../../../lib/catalog.generated";
 import { clipWindow } from "../../../lib/clip";
@@ -55,6 +56,7 @@ export default function WatchClient({
   // Máy chủ không gửi các câu sau: tài khoản VIP tải đủ phụ đề qua Worker (/api/content).
   const full = useFullContent("videos", videoProp, profile.vip);
   const video = full.item;
+  useDocTitle(video ? pickText(video.titles, lang) : null);
   const lines: TimedLine[] = useMemo(() => video?.lines ?? [], [video]);
   const preview = !!video && !video.free && full.status !== "ready";
   // Mở đúng đoạn học thay vì từ giây 0 (video tự thêm: cả video)

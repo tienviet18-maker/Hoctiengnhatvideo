@@ -10,6 +10,7 @@ import Paywall from "../../../components/Paywall";
 import LessonPanel from "./LessonPanel";
 import type { StoryContent, Translations, VocabItem } from "../../../lib/content-schema";
 import { pickText } from "../../../lib/i18n";
+import { useDocTitle } from "../../../components/DocTitle";
 import { PROGRESS_KEY, saveProgress, useLocalJson, type Progress } from "../../../lib/store";
 import * as player from "../../../lib/player";
 import { explainsLeft, spendExplain, storyFree } from "../../../lib/access";
@@ -67,6 +68,7 @@ export default function ReaderClient({
   const duration = track ? track.durationSec : 0;
   const locked = !storyFree(story) && full.status !== "ready";
   const title = pickText(story.titles, lang);
+  useDocTitle(title);
 
   // Trạng thái của trình phát chỉ áp vào màn này khi đang nạp đúng chương này
   const mine = ps.item?.id === story.id;

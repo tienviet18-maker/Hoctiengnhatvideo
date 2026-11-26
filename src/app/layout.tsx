@@ -4,6 +4,7 @@ import { Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 import { SITE_URL } from "../lib/seo";
 import { LangProvider } from "../components/LangProvider";
+import DocTitle from "../components/DocTitle";
 import TabBar from "../components/TabBar";
 import MiniPlayer from "../components/MiniPlayer";
 import AccountRoot from "../components/AccountRoot";
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Suspense fallback={null}>
               <MiniPlayer />
               <TabBar />
+              <DocTitle />
             </Suspense>
           </div>
         </LangProvider>
