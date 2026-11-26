@@ -1,0 +1,12 @@
+# QC — furusato-vn-neu-1
+
+- Nguồn: Truyện dân gian Việt Nam 「Sự tích cây nêu ngày Tết」 (Phật giúp người dân lừa quỷ ăn ngọn/ăn gốc khi trồng khoai, lúa, ngô; mua đất bằng bóng áo cà sa trên ngọn tre; quỷ ra biển, Tết được về thăm mộ tổ tiên; người dân trồng cây nêu, rắc vôi bột), truyền khẩu, public domain. Claude tự kể lại bằng tiếng Nhật. Phần so sánh: 門松 và 年神さま, 節分 (mamemaki).
+- Chuẩn v2, cấp N3: 1540 ký tự, 63 câu, câu TB 24.4 ký tự, harder 10.1%, atLevel 30.0%.
+- Furigana + romaji sinh bằng kuromoji qua `scripts/story-src/build.mjs`, cách đọc sửa tay: 一人=ひとり, 二人=ふたり, お米=おこめ, 大喜び=おおよろこび, 一匹=いっぴき, 仏様=ほとけさま, 継母=ままはは, 一日中=いちにちじゅう, つぼ=つぼ, お姉さん=おねえさん, 水の上=みず の うえ, でいっぱい=で いっぱい, 家中=いえじゅう, 国中=くにじゅう, 今日中=きょうじゅう, 一粒=ひとつぶ, 一足=いっそく, 片方=かたほう, 家来=けらい, 都=みやこ, お妃=おきさき, 小魚=こざかな, 一つかみ=ひとつかみ, 白いひげ=しろい ひげ, 日本=にほん, お正月=おしょうがつ, 前=まえ, 家=いえ, 長い=ながい, 竹=たけ, 立てる=たてる, 村=むら, 上=うえ, 赤い=あかい, 布=ぬの, 小さな=ちいさな, 鬼=おに, 話=はなし, 関係=かんけい, 国=くに, 土地=とち, 人=ひと, 米=こめ, 野菜=やさい, 作って=つくって, 一年中=いちねんじゅう, 少し=すこし, 食べられません=たべられません, 日=ひ, 見ました=みました, 助けて=たすけて, 言いました=いいました, 今年=ことし, 下=した, 聞きなさい=ききなさい, 聞く=きく, 植えさせました=うえさせました, 土=つち, 秋=あき, 葉っぱ=はっぱ, 次=つぎ, 年=とし, 根っこ=ねっこ, 花=はな, 売って=うって, 先=さき, 服=ふく, 大きさ=おおきさ, 思って=おもって, 起きました=おきました, 大きく=おおきく, 広がって=ひろがって, 山=やま, 国じゅう=くにじゅう, 遠い=とおい, 海=うみ, 向こう=むこう, 一年=いちねん, 一度=いちど, 先祖=せんぞ, 近づいて=ちかづいて, 今=いま, 音=おと, 色=いろ, 言われて=いわれて, 白い=しろい, 石灰=せっかい, 入らない=はいらない, 門松=かどまつ, 松=まつ, 入り口=いりぐち, 年神さま=としがみさま, 神さま=かみさま, 来る=くる, 来られる=こられる, 考えられて=かんがえられて, 目じるし=めじるし, 遠ざけます=とおざけます, 二月=にがつ, 節分=せつぶん, 外=そと, 福=ふく, 内=うち, 豆=まめ, 行事=ぎょうじ, 出す=だす, 同じ=おなじ, 今度=こんど, 見たら=みたら, 思い出して=おもいだして, 出てきました=でてきました, 行く=いく, 行かせて=いかせて, 来ます=きます, 仏さま=ほとけさま. Đã đọc lại toàn bộ.
+- Từ vựng: 1 từ, cấp lấy từ `data/jlpt` (chỉ từ đúng cấp hoặc khó hơn, không lặp trong tập). Nghĩa 11 ngôn ngữ ở `content/sources/furusato/glossary.json`.
+- Dịch + giải thích: 10 ngôn ngữ dịch thẳng từ tiếng Nhật; zh-Hant chuyển từ zh-Hans bằng OpenCC (s2twp). Claude tự kiểm theo quy tắc của Việt: dịch ngược kiểm nghĩa, thuật ngữ nhất quán trong bộ.
+- Audio: Google Cloud TTS, ghép thành một file liền public/audio/furusato-vn-neu-1/chapter.mp3 (mono 64 kbps, nghỉ 0,6 giây giữa câu, 0,9 giây khi đổi người nói), mốc từng câu đo theo mẫu PCM (`scripts/story-src/tts.mjs`). Giọng:
+  - Người kể: `ja-JP-Chirp3-HD-Aoede`, tốc độ 0.9 (49 câu)
+  - 鬼: `ja-JP-Neural2-C`, tốc độ 0.95, cao độ -8 (9 câu)
+  - 仏さま: `ja-JP-Neural2-C`, tốc độ 0.85, cao độ -2 (5 câu)
+- Bìa: hệ bìa MiraiGo 文庫, phông BIZ UDPMincho.
