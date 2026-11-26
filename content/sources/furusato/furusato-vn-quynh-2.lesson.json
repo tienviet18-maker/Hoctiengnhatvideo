@@ -1,0 +1,158 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜のように",
+   "example": 5,
+   "meaning": {
+    "vi": "giống như ~",
+    "en": "like ~, as if ~",
+    "zh-Hans": "像……一样",
+    "ko": "~처럼",
+    "tl": "parang ~",
+    "ne": "~ जस्तै",
+    "id": "seperti ~",
+    "pt": "como ~",
+    "my": "~ လို",
+    "th": "เหมือน ~"
+   }
+  },
+  {
+   "pattern": "〜しか〜ない",
+   "example": 27,
+   "meaning": {
+    "vi": "chỉ ~ (thôi)",
+    "en": "only ~ (with a negative verb)",
+    "zh-Hans": "只……",
+    "ko": "~밖에 ~않다",
+    "tl": "~ lamang",
+    "ne": "~ मात्र",
+    "id": "hanya ~",
+    "pt": "só ~",
+    "my": "~ ပဲ (အငြင်းနဲ့)",
+    "th": "~ เท่านั้น"
+   }
+  },
+  {
+   "pattern": "〜はずです",
+   "example": 38,
+   "meaning": {
+    "vi": "chắc hẳn là ~, lẽ ra ~",
+    "en": "should ~, is expected to ~",
+    "zh-Hans": "应该……",
+    "ko": "~할 것이다(당연)",
+    "tl": "dapat ~",
+    "ne": "~ हुनुपर्छ",
+    "id": "seharusnya ~",
+    "pt": "deve ~",
+    "my": "~ ရမယ်",
+    "th": "น่าจะ ~"
+   }
+  },
+  {
+   "pattern": "〜なら",
+   "example": 39,
+   "meaning": {
+    "vi": "nếu là ~ thì",
+    "en": "if it is ~",
+    "zh-Hans": "如果是……的话",
+    "ko": "~라면",
+    "tl": "kung ~",
+    "ne": "~ हो भने",
+    "id": "kalau ~",
+    "pt": "se for ~",
+    "my": "~ ဆိုရင်",
+    "th": "ถ้าเป็น ~"
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "ja": "殿様のねこは、毎日何を食べていましたか。",
+   "choices": [
+    "新しい魚とやわらかい肉",
+    "白いご飯だけ",
+    "石の芽",
+    "みそとご飯"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Cá tươi nhất và thịt mềm.",
+    "en": "The freshest fish and tender meat.",
+    "zh-Hans": "最新鲜的鱼和嫩肉。",
+    "ko": "싱싱한 생선과 부드러운 고기.",
+    "tl": "Sariwang isda at malambot na karne.",
+    "ne": "ताजा माछा र नरम मासु।",
+    "id": "Ikan segar dan daging empuk.",
+    "pt": "Peixe fresco e carne macia.",
+    "my": "လတ်ဆတ်တဲ့ငါးနဲ့ အသားနူးနူး။",
+    "th": "ปลาสดกับเนื้อนุ่ม"
+   }
+  },
+  {
+   "ja": "ねこが魚の茶わんへ行くと、クインはどうしましたか。",
+   "choices": [
+    "茶わんを手でかくした",
+    "ねこの頭をなでた",
+    "魚をもっと入れた",
+    "殿様を呼んだ"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Quỳnh lấy tay che bát cá.",
+    "en": "He covered the bowl with his hand.",
+    "zh-Hans": "他用手遮住了碗。",
+    "ko": "손으로 그릇을 가렸다.",
+    "tl": "Tinakpan niya ng kamay ang mangkok.",
+    "ne": "हातले कचौरा छोप्यो।",
+    "id": "Ia menutupi mangkuk dengan tangan.",
+    "pt": "Cobriu a tigela com a mão.",
+    "my": "လက်နဲ့ ပန်းကန်ကို ဖုံးတယ်။",
+    "th": "เอามือปิดชาม"
+   }
+  },
+  {
+   "ja": "お城で、ねこはどちらの茶わんに行きましたか。",
+   "choices": [
+    "ご飯の茶わん",
+    "魚と肉の茶わん",
+    "どちらにも行かなかった",
+    "殿様のところ"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Con mèo đi thẳng đến bát cơm.",
+    "en": "It went straight to the rice bowl.",
+    "zh-Hans": "猫走向了米饭碗。",
+    "ko": "밥그릇으로 갔다.",
+    "tl": "Pumunta ito sa mangkok ng kanin.",
+    "ne": "भातको कचौरातिर गयो।",
+    "id": "Ke mangkuk nasi.",
+    "pt": "Foi à tigela de arroz.",
+    "my": "ထမင်းပန်းကန်ဆီ သွားတယ်။",
+    "th": "ไปที่ชามข้าว"
+   }
+  },
+  {
+   "ja": "クインは、ねこを返すとき、何をお願いしましたか。",
+   "choices": [
+    "町の子どもたちにも魚を分けること",
+    "新しいねこをもらうこと",
+    "お城に住むこと",
+    "お金をもらうこと"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Xin chúa chia cá cho trẻ nghèo trong thành.",
+    "en": "To share fish with the town's poor children.",
+    "zh-Hans": "请主公把鱼分给城里的孩子。",
+    "ko": "마을 아이들에게 생선을 나눠 주는 것.",
+    "tl": "Ibahagi ang isda sa mga batang mahirap.",
+    "ne": "सहरका बच्चालाई माछा बाँड्न।",
+    "id": "Membagi ikan kepada anak-anak kota.",
+    "pt": "Dividir peixe com as crianças pobres.",
+    "my": "မြို့က ကလေးတွေကို ငါး ခွဲပေးဖို့။",
+    "th": "แบ่งปลาให้เด็ก ๆ ในเมือง"
+   }
+  }
+ ]
+}

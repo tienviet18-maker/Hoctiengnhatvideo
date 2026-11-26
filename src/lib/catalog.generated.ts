@@ -11456,6 +11456,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-quynh-1/chapter.mp3",
    "durationSec": 305.616
   }
+ },
+ {
+  "id": "furusato-vn-quynh-2",
+  "titles": {
+   "vi": "Trạng Quỳnh (2): Con mèo của chúa",
+   "en": "Trang Quynh (2): The Lord's Cat",
+   "zh-Hans": "状元琼（2）：主公的猫",
+   "zh-Hant": "狀元瓊（2）：主公的貓",
+   "ko": "짱 뀐 (2): 영주의 고양이",
+   "tl": "Trang Quynh (2): Ang Pusa ng Panginoon",
+   "ne": "ट्राङ क्विन (२): राजाको बिरालो",
+   "id": "Trang Quynh (2): Kucing Sang Tuan",
+   "pt": "Trang Quynh (2): O Gato do Senhor",
+   "my": "ချန်းကွင် (၂): မင်းရဲ့ကြောင်",
+   "th": "จ่างกวิ่ญ (2): แมวของเจ้านาย"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-quynh-2.webp",
+  "series": {
+   "id": "furusato-vn-quynh",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-quynh-2/chapter.mp3",
+   "durationSec": 305.664
+  }
  }
 ];
 
