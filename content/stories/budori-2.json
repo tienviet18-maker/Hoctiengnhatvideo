@@ -80,7 +80,21 @@
      "my": "မ…ရဘဲ ပြီး။ ဥပမာ 「早く予約したので、並ばないで済んだ」, 「近いから、電車に乗らないで済む」။",
      "th": "ไม่ต้อง…ก็ได้ ตัวอย่าง 「早く予約したので、並ばないで済んだ」, 「近いから、電車に乗らないで済む」"
     },
-    "example": 46
+    "example": 46,
+    "patternFurigana": [
+     {
+      "surface": "〜ないで",
+      "reading": ""
+     },
+     {
+      "surface": "済",
+      "reading": "す"
+     },
+     {
+      "surface": "む",
+      "reading": ""
+     }
+    ]
    }
   ],
   "quiz": [
@@ -104,7 +118,89 @@
      "pt": "Frase 7: achava que o ano seria quente e queria colher três anos.",
      "my": "ဝါကျ ၇: ဒီနှစ် ပူမယ်ထင်ပြီး သုံးနှစ်စာ ရိတ်ချင်။",
      "th": "ประโยค 7: เขาเชื่อว่าปีนี้ร้อนมาก จึงอยากเก็บเกี่ยวสามปีในปีเดียว"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "赤",
+      "reading": "あか"
+     },
+     {
+      "surface": "ひげは、どうして",
+      "reading": ""
+     },
+     {
+      "surface": "肥料",
+      "reading": "ひりょう"
+     },
+     {
+      "surface": "をたくさん",
+      "reading": ""
+     },
+     {
+      "surface": "入",
+      "reading": "い"
+     },
+     {
+      "surface": "れましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "ことしは",
+       "reading": ""
+      },
+      {
+       "surface": "暑",
+       "reading": "あつ"
+      },
+      {
+       "surface": "くなって、たくさんとれると",
+       "reading": ""
+      },
+      {
+       "surface": "思",
+       "reading": "おも"
+      },
+      {
+       "surface": "ったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "おじいさんに",
+       "reading": ""
+      },
+      {
+       "surface": "頼",
+       "reading": "たの"
+      },
+      {
+       "surface": "まれたから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "病気",
+       "reading": "びょうき"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "殺",
+       "reading": "ころ"
+      },
+      {
+       "surface": "すため",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "石油を入れたとき、となりの男が機嫌を直したのはどうしてですか。",
@@ -126,7 +222,113 @@
      "pt": "Frase 29: disse que o querosene poderia virar adubo, e o vizinho se acalmou.",
      "my": "ဝါကျ ၂၉: ရေနံဆီ မြေဩဇာဖြစ်မယ် ဆိုတော့ အိမ်နီးချင်း စိတ်ပြေ။",
      "th": "ประโยค 29: เขาบอกว่าน้ำมันก๊าดอาจเป็นปุ๋ย เพื่อนบ้านจึงหายโกรธ"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "石油",
+      "reading": "せきゆ"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "入",
+      "reading": "い"
+     },
+     {
+      "surface": "れたとき、となりの",
+      "reading": ""
+     },
+     {
+      "surface": "男",
+      "reading": "おとこ"
+     },
+     {
+      "surface": "が",
+      "reading": ""
+     },
+     {
+      "surface": "機嫌",
+      "reading": "きげん"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "直",
+      "reading": "なお"
+     },
+     {
+      "surface": "したのはどうしてですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "お",
+       "reading": ""
+      },
+      {
+       "surface": "金",
+       "reading": "かね"
+      },
+      {
+       "surface": "をもらったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "石油",
+       "reading": "せきゆ"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "肥料",
+       "reading": "ひりょう"
+      },
+      {
+       "surface": "になるかもしれないと",
+       "reading": ""
+      },
+      {
+       "surface": "聞",
+       "reading": "き"
+      },
+      {
+       "surface": "いたから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "オリザの",
+       "reading": ""
+      },
+      {
+       "surface": "病気",
+       "reading": "びょうき"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "治",
+       "reading": "なお"
+      },
+      {
+       "surface": "ったから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "ブドリは、どうやってオリザの病気を止めましたか。",
@@ -148,7 +350,105 @@
      "pt": "Frase 35: graças aos livros, usou cinza de madeira e sal.",
      "my": "ဝါကျ ၃၅: စာဖတ်ထားလို့ သစ်ပြာနဲ့ ဆားသုံးပြီး တား။",
      "th": "ประโยค 35: เพราะอ่านหนังสือ เขาใช้ขี้เถ้าไม้กับเกลือ"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "ブドリは、どうやってオリザの",
+      "reading": ""
+     },
+     {
+      "surface": "病気",
+      "reading": "びょうき"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "止",
+      "reading": "と"
+     },
+     {
+      "surface": "めましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "石油",
+       "reading": "せきゆ"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "流",
+       "reading": "なが"
+      },
+      {
+       "surface": "して",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "木",
+       "reading": "き"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "灰",
+       "reading": "はい"
+      },
+      {
+       "surface": "と",
+       "reading": ""
+      },
+      {
+       "surface": "塩",
+       "reading": "しお"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "使",
+       "reading": "つか"
+      },
+      {
+       "surface": "って",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "クーボーに",
+       "reading": ""
+      },
+      {
+       "surface": "手紙",
+       "reading": "てがみ"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "書",
+       "reading": "か"
+      },
+      {
+       "surface": "いて",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "ブドリが沼ばたけを出たのは、どうしてですか。",
@@ -170,7 +470,93 @@
      "pt": "Frases 39–45: seca, sem trabalho, o patrão o despediu. Budori quer estudar com Kubo.",
      "my": "ဝါကျ ၃၉–၄၅: မိုးခေါင်လို့ အလုပ်မရှိ၊ သခင်က လွှတ်။ ဘူဒိုရီ ကူဘိုဆီ သင်ချင်။",
      "th": "ประโยค 39–45: ภัยแล้ง งานหมด นายจึงให้เขาไป บุโดริอยากเรียนกับคูโบ"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "ブドリが",
+      "reading": ""
+     },
+     {
+      "surface": "沼",
+      "reading": "ぬま"
+     },
+     {
+      "surface": "ばたけを",
+      "reading": ""
+     },
+     {
+      "surface": "出",
+      "reading": "で"
+     },
+     {
+      "surface": "たのは、どうしてですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "赤",
+       "reading": "あか"
+      },
+      {
+       "surface": "ひげとけんかしたから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "ひでりが",
+       "reading": ""
+      },
+      {
+       "surface": "続",
+       "reading": "つづ"
+      },
+      {
+       "surface": "いて、",
+       "reading": ""
+      },
+      {
+       "surface": "仕事",
+       "reading": "しごと"
+      },
+      {
+       "surface": "も",
+       "reading": ""
+      },
+      {
+       "surface": "肥料",
+       "reading": "ひりょう"
+      },
+      {
+       "surface": "もなくなったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "ネリを",
+       "reading": ""
+      },
+      {
+       "surface": "探",
+       "reading": "さが"
+      },
+      {
+       "surface": "しに",
+       "reading": ""
+      },
+      {
+       "surface": "行",
+       "reading": "い"
+      },
+      {
+       "surface": "くため",
+       "reading": ""
+      }
+     ]
+    ]
    }
   ]
  },

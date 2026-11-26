@@ -59,7 +59,21 @@
      "my": "~ နေရမယ့် အချိန် မဟုတ် (ပိုအရေးကြီးတာ ရှိ)။ ている-ပုံစံ + 場合じゃない။ ဥပမာ: 寝ている場合じゃない (အိပ်နေရမယ့် အချိန် မဟုတ်ဘူး)။ ယဉ်ကျေးပုံစံ: 〜ている場合ではありません။",
      "th": "ไม่ใช่เวลามา ~ (มีเรื่องด่วนกว่า) รูป ている + 場合じゃない เช่น 寝ている場合じゃない (ไม่ใช่เวลามานอน) แบบสุภาพ: 〜ている場合ではありません"
     },
-    "example": 24
+    "example": 24,
+    "patternFurigana": [
+     {
+      "surface": "〜ている",
+      "reading": ""
+     },
+     {
+      "surface": "場合",
+      "reading": "ばあい"
+     },
+     {
+      "surface": "じゃない",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "〜ような気がする",
@@ -76,7 +90,21 @@
      "my": "~ သလို ခံစားရ (မသေချာတဲ့ ခံစားချက်)။ ရိုးရိုးပုံစံ + ような気がする။ ဥပမာ: どこかで会ったような気がする (တစ်နေရာမှာ တွေ့ဖူးသလိုပဲ)။ အငြင်း: 〜ような気がしない။",
      "th": "รู้สึกเหมือน ~ (ความรู้สึกที่ไม่แน่ใจ) รูปธรรมดา + ような気がする เช่น どこかで会ったような気がする (รู้สึกเหมือนเคยเจอที่ไหน) ปฏิเสธ: 〜ような気がしない"
     },
-    "example": 29
+    "example": 29,
+    "patternFurigana": [
+     {
+      "surface": "〜ような",
+      "reading": ""
+     },
+     {
+      "surface": "気",
+      "reading": "き"
+     },
+     {
+      "surface": "がする",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "〜わけがない",
@@ -117,7 +145,101 @@
      "pt": "Ele se convenceu de que o morto era seu amigo Kumagorō.",
      "my": "သေသူက သူငယ်ချင်း ကုမဂိုရို လို့ သူ စွဲစွဲမြဲမြဲ ယုံတယ်။",
      "th": "เขาปักใจเชื่อว่าคนตายคือคุมะโกโร่เพื่อนของเขา"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "八五郎",
+      "reading": "はちごろう"
+     },
+     {
+      "surface": "は、",
+      "reading": ""
+     },
+     {
+      "surface": "死",
+      "reading": "し"
+     },
+     {
+      "surface": "んでいた",
+      "reading": ""
+     },
+     {
+      "surface": "男",
+      "reading": "おとこ"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "誰",
+      "reading": "だれ"
+     },
+     {
+      "surface": "だと",
+      "reading": ""
+     },
+     {
+      "surface": "思",
+      "reading": "おも"
+     },
+     {
+      "surface": "いましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "長屋",
+       "reading": "ながや"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "大家",
+       "reading": "おおや"
+      },
+      {
+       "surface": "さん",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "友",
+       "reading": "とも"
+      },
+      {
+       "surface": "だちの",
+       "reading": ""
+      },
+      {
+       "surface": "熊五郎",
+       "reading": "くまごろう"
+      }
+     ],
+     [
+      {
+       "surface": "浅草",
+       "reading": "あさくさ"
+      },
+      {
+       "surface": "のお",
+       "reading": ""
+      },
+      {
+       "surface": "坊",
+       "reading": "ぼう"
+      },
+      {
+       "surface": "さん",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "役人が「けさ会えるはずがない」と言ったのは、なぜですか。",
@@ -139,7 +261,89 @@
      "pt": "O homem estava caído ali desde a noite anterior, então ninguém poderia tê-lo visto de manhã.",
      "my": "အဲဒီလူက မနေ့ညကတည်းက အဲဒီမှာ လဲနေတာမို့ ဒီမနက် တွေ့နိုင်စရာ မရှိဘူး။",
      "th": "ผู้ชายคนนั้นล้มอยู่ตรงนั้นตั้งแต่เมื่อคืน เมื่อเช้าจึงไม่มีทางเจอได้"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "役人",
+      "reading": "やくにん"
+     },
+     {
+      "surface": "が「けさ",
+      "reading": ""
+     },
+     {
+      "surface": "会",
+      "reading": "あ"
+     },
+     {
+      "surface": "えるはずがない」と",
+      "reading": ""
+     },
+     {
+      "surface": "言",
+      "reading": "い"
+     },
+     {
+      "surface": "ったのは、なぜですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "男",
+       "reading": "おとこ"
+      },
+      {
+       "surface": "はゆうべからそこに",
+       "reading": ""
+      },
+      {
+       "surface": "倒",
+       "reading": "たお"
+      },
+      {
+       "surface": "れていたから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "熊五郎",
+       "reading": "くまごろう"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "旅",
+       "reading": "たび"
+      },
+      {
+       "surface": "に",
+       "reading": ""
+      },
+      {
+       "surface": "出",
+       "reading": "で"
+      },
+      {
+       "surface": "ていたから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "八五郎",
+       "reading": "はちごろう"
+      },
+      {
+       "surface": "がうそをついたから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "熊五郎は、なぜ自分が死んだと信じてしまいましたか。",
@@ -161,7 +365,117 @@
      "pt": "Ele não lembrava da noite anterior, então acreditou em Hachigorō.",
      "my": "မနေ့ညက အကြောင်း မမှတ်မိလို့ ဟချိဂိုရို ပြောတာကို ယုံလိုက်တယ်။",
      "th": "เขาจำเรื่องเมื่อคืนไม่ได้ จึงเชื่อคำของฮาจิโกโร่ไปเลย"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "熊五郎",
+      "reading": "くまごろう"
+     },
+     {
+      "surface": "は、なぜ",
+      "reading": ""
+     },
+     {
+      "surface": "自分",
+      "reading": "じぶん"
+     },
+     {
+      "surface": "が",
+      "reading": ""
+     },
+     {
+      "surface": "死",
+      "reading": "し"
+     },
+     {
+      "surface": "んだと",
+      "reading": ""
+     },
+     {
+      "surface": "信",
+      "reading": "しん"
+     },
+     {
+      "surface": "じてしまいましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "役人",
+       "reading": "やくにん"
+      },
+      {
+       "surface": "に",
+       "reading": ""
+      },
+      {
+       "surface": "言",
+       "reading": "い"
+      },
+      {
+       "surface": "われたから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "体",
+       "reading": "からだ"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "冷",
+       "reading": "つめ"
+      },
+      {
+       "surface": "たかったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "ゆうべのことを",
+       "reading": ""
+      },
+      {
+       "surface": "覚",
+       "reading": "おぼ"
+      },
+      {
+       "surface": "えていなくて、",
+       "reading": ""
+      },
+      {
+       "surface": "八五郎",
+       "reading": "はちごろう"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "話",
+       "reading": "はなし"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "信",
+       "reading": "しん"
+      },
+      {
+       "surface": "じたから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "この話のおちで、熊五郎は何がわからなくなりましたか。",
@@ -183,7 +497,109 @@
      "pt": "Se quem está sendo abraçado é ele, quem é que está abraçando?",
      "my": "ပွေ့ခံရတာက ကိုယ်ဆိုရင် ပွေ့နေတဲ့သူက ဘယ်သူလဲ။",
      "th": "ถ้าคนที่ถูกกอดคือตัวเขา แล้วคนที่กอดอยู่คือใคร"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "この",
+      "reading": ""
+     },
+     {
+      "surface": "話",
+      "reading": "はなし"
+     },
+     {
+      "surface": "のおちで、",
+      "reading": ""
+     },
+     {
+      "surface": "熊五郎",
+      "reading": "くまごろう"
+     },
+     {
+      "surface": "は",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "がわからなくなりましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "長屋",
+       "reading": "ながや"
+      },
+      {
+       "surface": "への",
+       "reading": ""
+      },
+      {
+       "surface": "帰",
+       "reading": "かえ"
+      },
+      {
+       "surface": "り",
+       "reading": ""
+      },
+      {
+       "surface": "道",
+       "reading": "みち"
+      }
+     ],
+     [
+      {
+       "surface": "抱",
+       "reading": "だ"
+      },
+      {
+       "surface": "いている",
+       "reading": ""
+      },
+      {
+       "surface": "自分",
+       "reading": "じぶん"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "誰",
+       "reading": "だれ"
+      },
+      {
+       "surface": "なのか",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "死",
+       "reading": "し"
+      },
+      {
+       "surface": "んだ",
+       "reading": ""
+      },
+      {
+       "surface": "男",
+       "reading": "おとこ"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "名前",
+       "reading": "なまえ"
+      }
+     ]
+    ]
    }
   ]
  },

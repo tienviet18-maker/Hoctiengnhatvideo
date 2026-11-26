@@ -76,7 +76,21 @@
      "my": "~ သာ အကောင်းဆုံး (ကိုယ်ပိုင်အမြင်)။ ဥပမာ: 夏はビールに限る (နွေမှာ ဘီယာက အကောင်းဆုံး), 疲れたときは寝るに限る။",
      "th": "~ ดีที่สุด ต้อง ~ เท่านั้น (ความเห็นส่วนตัว) เช่น 夏はビールに限る (หน้าร้อนต้องเบียร์), 疲れたときは寝るに限る"
     },
-    "example": 42
+    "example": 42,
+    "patternFurigana": [
+     {
+      "surface": "〜に",
+      "reading": ""
+     },
+     {
+      "surface": "限",
+      "reading": "かぎ"
+     },
+     {
+      "surface": "る",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "〜たばかり",
@@ -117,7 +131,77 @@
      "pt": "Caçando em Meguro, ele comeu o peixe que uma velha lavradora grelhou no carvão.",
      "my": "မဂူရိုမှာ အမဲလိုက်ရင်း လယ်သမား အဘွားအို မီးသွေးနဲ့ကင်တဲ့ ငါးကို စားခဲ့တယ်။",
      "th": "ระหว่างล่าสัตว์ที่เมกุโระ ท่านได้กินปลาที่คุณยายชาวนาย่างบนเตาถ่าน"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "お",
+      "reading": ""
+     },
+     {
+      "surface": "殿様",
+      "reading": "とのさま"
+     },
+     {
+      "surface": "が",
+      "reading": ""
+     },
+     {
+      "surface": "初",
+      "reading": "はじ"
+     },
+     {
+      "surface": "めてさんまを",
+      "reading": ""
+     },
+     {
+      "surface": "食",
+      "reading": "た"
+     },
+     {
+      "surface": "べたのは、どこですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "お",
+       "reading": ""
+      },
+      {
+       "surface": "城",
+       "reading": "しろ"
+      }
+     ],
+     [
+      {
+       "surface": "目黒",
+       "reading": "めぐろ"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "農家",
+       "reading": "のうか"
+      }
+     ],
+     [
+      {
+       "surface": "日本橋",
+       "reading": "にほんばし"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "魚市場",
+       "reading": "うおいちば"
+      }
+     ]
+    ]
    },
    {
     "ja": "料理人たちは、なぜさんまを蒸したのですか。",
@@ -139,7 +223,97 @@
      "pt": "Temiam que a gordura fizesse mal à saúde dele, então tiraram-na no vapor — e o sabor foi junto.",
      "my": "အဆီက ကျန်းမာရေးကို ထိခိုက်မှာစိုးလို့ ပေါင်းပြီး အဆီအားလုံး ထုတ်ခဲ့တယ် — အရသာလည်း ပါသွားတယ်။",
      "th": "กลัวว่ามันจะไม่ดีต่อสุขภาพของท่าน จึงนึ่งเอามันออกหมด รสชาติก็หายไปด้วย"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "料理人",
+      "reading": "りょうりにん"
+     },
+     {
+      "surface": "たちは、なぜさんまを",
+      "reading": ""
+     },
+     {
+      "surface": "蒸",
+      "reading": "む"
+     },
+     {
+      "surface": "したのですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "早",
+       "reading": "はや"
+      },
+      {
+       "surface": "く",
+       "reading": ""
+      },
+      {
+       "surface": "作",
+       "reading": "つく"
+      },
+      {
+       "surface": "りたかったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "脂",
+       "reading": "あぶら"
+      },
+      {
+       "surface": "がお",
+       "reading": ""
+      },
+      {
+       "surface": "殿様",
+       "reading": "とのさま"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "体",
+       "reading": "からだ"
+      },
+      {
+       "surface": "に",
+       "reading": ""
+      },
+      {
+       "surface": "悪",
+       "reading": "わる"
+      },
+      {
+       "surface": "いと",
+       "reading": ""
+      },
+      {
+       "surface": "思",
+       "reading": "おも"
+      },
+      {
+       "surface": "ったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "蒸",
+       "reading": "む"
+      },
+      {
+       "surface": "したほうがおいしいから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "「さんまは、目黒に限る」がおかしいのは、なぜですか。",
@@ -161,7 +335,85 @@
      "pt": "O sanma é pescado no mar, e Meguro fica longe dele. O segredo não era \"peixe de Meguro\", e sim a simples grelha no carvão.",
      "my": "ဆန်မကို ပင်လယ်မှာ ဖမ်းတယ်၊ မဂူရိုက ပင်လယ်နဲ့ ဝေးတယ်။ အရသာရဲ့ လျှို့ဝှက်ချက်က \"မဂူရိုငါး\" မဟုတ်ဘဲ ရိုးရိုး မီးသွေးကင်ခြင်းပါ။",
      "th": "ซันมะจับได้ในทะเล แต่เมกุโระอยู่ไกลทะเล ความอร่อยไม่ได้มาจาก \"ปลาเมกุโระ\" แต่มาจากการย่างถ่านแบบเรียบง่าย"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "「さんまは、",
+      "reading": ""
+     },
+     {
+      "surface": "目黒",
+      "reading": "めぐろ"
+     },
+     {
+      "surface": "に",
+      "reading": ""
+     },
+     {
+      "surface": "限",
+      "reading": "かぎ"
+     },
+     {
+      "surface": "る」がおかしいのは、なぜですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "目黒",
+       "reading": "めぐろ"
+      },
+      {
+       "surface": "は",
+       "reading": ""
+      },
+      {
+       "surface": "海",
+       "reading": "うみ"
+      },
+      {
+       "surface": "から",
+       "reading": ""
+      },
+      {
+       "surface": "遠",
+       "reading": "とお"
+      },
+      {
+       "surface": "いから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "目黒",
+       "reading": "めぐろ"
+      },
+      {
+       "surface": "のさんまは",
+       "reading": ""
+      },
+      {
+       "surface": "高",
+       "reading": "たか"
+      },
+      {
+       "surface": "いから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "目黒",
+       "reading": "めぐろ"
+      },
+      {
+       "surface": "にはさんまがいないから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "「焼きたて」の意味に近いのはどれですか。",
@@ -183,7 +435,73 @@
      "pt": "〜たて quer dizer recém-feito, como 〜たばかり: 焼きたて = recém-grelhado.",
      "my": "〜たて က လုပ်ပြီးစ၊ 〜たばかり နဲ့ တူတယ်: 焼きたて = ကင်ပြီးစ။",
      "th": "〜たて แปลว่าเพิ่งทำเสร็จ คล้าย 〜たばかり: 焼きたて = เพิ่งย่างเสร็จ"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "「",
+      "reading": ""
+     },
+     {
+      "surface": "焼",
+      "reading": "や"
+     },
+     {
+      "surface": "きたて」の",
+      "reading": ""
+     },
+     {
+      "surface": "意味",
+      "reading": "いみ"
+     },
+     {
+      "surface": "に",
+      "reading": ""
+     },
+     {
+      "surface": "近",
+      "reading": "ちか"
+     },
+     {
+      "surface": "いのはどれですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "焼",
+       "reading": "や"
+      },
+      {
+       "surface": "いたばかり",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "焼",
+       "reading": "や"
+      },
+      {
+       "surface": "きすぎた",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "まだ",
+       "reading": ""
+      },
+      {
+       "surface": "焼",
+       "reading": "や"
+      },
+      {
+       "surface": "いていない",
+       "reading": ""
+      }
+     ]
+    ]
    }
   ]
  },

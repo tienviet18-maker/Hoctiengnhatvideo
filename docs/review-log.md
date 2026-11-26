@@ -523,3 +523,21 @@ Trước đợt này kho chưa có gói N5 nào đạt chuẩn v2, nên Mai-chan
 - Bộ "Tiếng Nhật công sở N2" lên app. Tổng 5 bộ, 1014 thẻ.
 - Một số nghĩa tiếng Anh gốc của ViBJT lệch câu ví dụ (ずらす, 貨物, 往復): dịch theo câu tiếng Nhật, không theo bản Anh.
 - Câu có cụm tiếng Nhật giữ nguyên (「ご苦労様」) để nguyên chữ Nhật trong bản zh-Hant.
+
+## 2026-11-26 — Furigana cho mọi kanji ở phần Bài học (quy tắc của Việt)
+
+Việt nhắc: mọi chữ kanji trong app phải có furigana, kể cả hội thoại video. Kiểm toàn kho:
+
+- Câu truyện + phụ đề video: 12.238 câu/dòng, **không câu nào thiếu** (mọi đoạn kanji đều có cách đọc, ghép lại khớp đúng câu gốc).
+- Chỗ còn thiếu là **thẻ Bài học** (133 gói v2): mẫu ngữ pháp, câu hỏi, các lựa chọn và câu ví dụ hiển thị chữ trơn; danh sách từ vựng hiện cách đọc ở dòng phụ thay vì furigana trên chữ.
+
+Đã sửa:
+- `scripts/lesson-furigana.mjs` (mới): sinh `patternFurigana`, `jaFurigana`, `choicesFurigana` cho mọi truyện có lesson. Cách đọc ưu tiên lấy từ chính furigana đã sửa tay trong truyện (tên riêng, 甚右衛門, 酒呑童子…), rồi `phrases` của src.json, rồi kuromoji; có bảng sửa các lỗi kuromoji hay gặp (一人, 一本, 七日, 夜中, 救急車, 何文, 都→みやこ…). Đã đọc lại toàn bộ ~2.000 câu hỏi/lựa chọn.
+- `--check` của script chạy trong `npm run qc` → gói nào có kanji trong bài học mà thiếu furigana thì cổng đỏ. Hai bộ dựng truyện (`scripts/story-src/build.mjs`, `scripts/produce/build-story.mjs`) tự gọi script sau khi ghi gói.
+- `LessonPanel.tsx`: mẫu ngữ pháp, câu ví dụ (dùng furigana của câu), câu hỏi, lựa chọn và từ vựng đều hiện ruby; nút "Furigana" ẩn/hiện vẫn áp dụng như phần truyện. Hộp tối thêm `on-dark` để chữ ruby đủ tương phản.
+
+## Bộ thẻ có sẵn từ ViBJT — lô 5 (Công sở N1)
+
+- Thêm `content/sources/decks/src/office-n1-1..6.txt` (414 thẻ): nghĩa + câu ví dụ đủ 9 ngôn ngữ còn thiếu, Claude tự dịch.
+- Bộ "Tiếng Nhật công sở N1" lên app. Tổng 6 bộ, 1428 thẻ (Kính ngữ + Công sở N5–N1 đã đủ).
+- Một số bản tiếng Anh gốc lệch câu Nhật, đã dịch theo câu Nhật: 撤退を決断 (rút lui, không phải từ chức), 取材 (được phỏng vấn), 品質管理 v.v.

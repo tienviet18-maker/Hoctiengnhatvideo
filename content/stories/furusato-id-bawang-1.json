@@ -77,7 +77,17 @@
           "pt": "~ já basta.",
           "my": "~ နဲ့ လုံလောက်တယ်။",
           "th": "แค่~ก็พอ"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜で",
+            "reading": ""
+          },
+          {
+            "surface": "十分",
+            "reading": "じゅうぶん"
+          }
+        ]
       },
       {
         "pattern": "AではなくB",
@@ -119,7 +129,29 @@
           "pt": "Bawang Putih é alho; Bawang Merah, cebola roxa.",
           "my": "ဘာဝမ် ပူတီက ကြက်သွန်ဖြူ။",
           "th": "บาวังปูติห์คือกระเทียม"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "「バワン・プティ」は、どんな",
+            "reading": ""
+          },
+          {
+            "surface": "野菜",
+            "reading": "やさい"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "名前",
+            "reading": "なまえ"
+          },
+          {
+            "surface": "？",
+            "reading": ""
+          }
+        ]
       },
       {
         "ja": "プティは、なぜ川にそって歩いていった？",
@@ -142,7 +174,79 @@
           "pt": "O pano da madrasta foi levado pela água.",
           "my": "မိထွေးရဲ့ အထည် မျောသွားလို့။",
           "th": "ผ้าของแม่เลี้ยงลอยไป"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "プティは、なぜ",
+            "reading": ""
+          },
+          {
+            "surface": "川",
+            "reading": "かわ"
+          },
+          {
+            "surface": "にそって",
+            "reading": ""
+          },
+          {
+            "surface": "歩",
+            "reading": "ある"
+          },
+          {
+            "surface": "いていった？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "流",
+              "reading": "なが"
+            },
+            {
+              "surface": "れていった",
+              "reading": ""
+            },
+            {
+              "surface": "布",
+              "reading": "ぬの"
+            },
+            {
+              "surface": "をさがすため",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "おばあさんに",
+              "reading": ""
+            },
+            {
+              "surface": "会",
+              "reading": "あ"
+            },
+            {
+              "surface": "うため",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "水",
+              "reading": "みず"
+            },
+            {
+              "surface": "をくむため",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "カボチャをもらうため",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "メラの大きいカボチャから、何が出てきた？",
@@ -165,7 +269,63 @@
           "pt": "Saíram cobras.",
           "my": "မြွေတွေ ထွက်လာတယ်။",
           "th": "งูออกมา"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "メラの",
+            "reading": ""
+          },
+          {
+            "surface": "大",
+            "reading": "おお"
+          },
+          {
+            "surface": "きいカボチャから、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "出",
+            "reading": "で"
+          },
+          {
+            "surface": "てきた？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "ヘビ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "金",
+              "reading": "きん"
+            }
+          ],
+          [
+            {
+              "surface": "宝石",
+              "reading": "ほうせき"
+            }
+          ],
+          [
+            {
+              "surface": "スープ",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "「舌切りすずめ」と、にているところは？",
@@ -188,7 +348,111 @@
           "pt": "Quem escolhe o pequeno é feliz.",
           "my": "သေးတာ ရွေးသူ ပျော်ရွှင်တယ်။",
           "th": "คนเลือกของเล็กได้ดี"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "「",
+            "reading": ""
+          },
+          {
+            "surface": "舌切",
+            "reading": "したき"
+          },
+          {
+            "surface": "りすずめ」と、にているところは？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "小",
+              "reading": "ちい"
+            },
+            {
+              "surface": "さい",
+              "reading": ""
+            },
+            {
+              "surface": "方",
+              "reading": "ほう"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "選",
+              "reading": "えら"
+            },
+            {
+              "surface": "んだ",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            },
+            {
+              "surface": "が、",
+              "reading": ""
+            },
+            {
+              "surface": "幸",
+              "reading": "しあわ"
+            },
+            {
+              "surface": "せになる",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "まま",
+              "reading": ""
+            },
+            {
+              "surface": "母",
+              "reading": "はは"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "出",
+              "reading": "で"
+            },
+            {
+              "surface": "てくる",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "で",
+              "reading": ""
+            },
+            {
+              "surface": "布",
+              "reading": "ぬの"
+            },
+            {
+              "surface": "をなくす",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "カボチャをもらう",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

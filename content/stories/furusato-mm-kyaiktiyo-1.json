@@ -43,7 +43,21 @@
           "pt": "Parece que vai ~.",
           "my": "~ မလိုပဲ။",
           "th": "ดูเหมือนจะ ~"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜そうです (",
+            "reading": ""
+          },
+          {
+            "surface": "様子",
+            "reading": "ようす"
+          },
+          {
+            "surface": ")",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜てほしい",
@@ -119,7 +133,75 @@
           "pt": "Um fio de cabelo.",
           "my": "ဆံတော် တစ်ချောင်း။",
           "th": "เส้นผมหนึ่งเส้น"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "おしゃかさまは、おじいさんに、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をくれましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "かみの",
+              "reading": ""
+            },
+            {
+              "surface": "毛",
+              "reading": "け"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "一本",
+              "reading": "いっぽん"
+            }
+          ],
+          [
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "石",
+              "reading": "いし"
+            }
+          ],
+          [
+            {
+              "surface": "小",
+              "reading": "ちい"
+            },
+            {
+              "surface": "さな",
+              "reading": ""
+            },
+            {
+              "surface": "船",
+              "reading": "ふね"
+            }
+          ],
+          [
+            {
+              "surface": "ろうそく",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "わかい王は、どこで、石を見つけましたか。",
@@ -142,7 +224,103 @@
           "pt": "No fundo do mar.",
           "my": "ပင်လယ်ထဲ။",
           "th": "ในทะเล"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "わかい",
+            "reading": ""
+          },
+          {
+            "surface": "王",
+            "reading": "おう"
+          },
+          {
+            "surface": "は、どこで、",
+            "reading": ""
+          },
+          {
+            "surface": "石",
+            "reading": "いし"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "見",
+            "reading": "み"
+          },
+          {
+            "surface": "つけましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "海",
+              "reading": "うみ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "中",
+              "reading": "なか"
+            }
+          ],
+          [
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "上",
+              "reading": "うえ"
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "寺",
+              "reading": "てら"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "中",
+              "reading": "なか"
+            }
+          ],
+          [
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "近",
+              "reading": "ちか"
+            },
+            {
+              "surface": "く",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "どうして、石は、金色なのですか。",
@@ -165,7 +343,115 @@
           "pt": "Os homens colam ouro.",
           "my": "ယောက်ျားတွေ ရွှေဆိုင်းကပ်လို့။",
           "th": "เพราะผู้ชายปิดทอง"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "どうして、",
+            "reading": ""
+          },
+          {
+            "surface": "石",
+            "reading": "いし"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "金色",
+            "reading": "きんいろ"
+          },
+          {
+            "surface": "なのですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "男",
+              "reading": "おとこ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            },
+            {
+              "surface": "が、",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "紙",
+              "reading": "かみ"
+            },
+            {
+              "surface": "をつけるから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "石",
+              "reading": "いし"
+            },
+            {
+              "surface": "が、",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "でできているから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "おしゃかさまが、",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "にしたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "夜",
+              "reading": "よる"
+            },
+            {
+              "surface": "、",
+              "reading": ""
+            },
+            {
+              "surface": "火",
+              "reading": "ひ"
+            },
+            {
+              "surface": "をつけるから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "日本の要石は、何をおさえていると言われていますか。",
@@ -188,7 +474,79 @@
           "pt": "A cabeça de um bagre gigante.",
           "my": "ငါးခူကြီးရဲ့ ခေါင်း။",
           "th": "หัวปลาดุกยักษ์"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "日本",
+            "reading": "にほん"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "要石",
+            "reading": "かなめいし"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をおさえていると",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "われていますか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "大",
+              "reading": "おお"
+            },
+            {
+              "surface": "きなナマズの",
+              "reading": ""
+            },
+            {
+              "surface": "頭",
+              "reading": "あたま"
+            }
+          ],
+          [
+            {
+              "surface": "竜",
+              "reading": "りゅう"
+            },
+            {
+              "surface": "のしっぽ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "船",
+              "reading": "ふね"
+            }
+          ],
+          [
+            {
+              "surface": "山",
+              "reading": "やま"
+            }
+          ]
+        ]
       }
     ]
   },

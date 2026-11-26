@@ -60,7 +60,21 @@
           "pt": "Mal ~, já (o contrário).",
           "my": "~ ပြီးတော့ ချက်ချင်း (ဆန့်ကျင်ဘက်)။",
           "th": "เพิ่ง ~ ก็กลับ (ตรงข้าม)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜かと",
+            "reading": ""
+          },
+          {
+            "surface": "思",
+            "reading": "おも"
+          },
+          {
+            "surface": "えば",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜わけにはいかない",
@@ -119,7 +133,99 @@
           "pt": "A delação leviana de Xuân.",
           "my": "ဆွမ်ရဲ့ တိုင်တောမှု။",
           "th": "การฟ้องส่งเดชของซวน"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ハイヴァンとトゥーが",
+            "reading": ""
+          },
+          {
+            "surface": "捕",
+            "reading": "つか"
+          },
+          {
+            "surface": "まった",
+            "reading": ""
+          },
+          {
+            "surface": "原因",
+            "reading": "げんいん"
+          },
+          {
+            "surface": "は",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "ですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "スアンのいい",
+              "reading": ""
+            },
+            {
+              "surface": "加減",
+              "reading": "かげん"
+            },
+            {
+              "surface": "な",
+              "reading": ""
+            },
+            {
+              "surface": "告",
+              "reading": "つ"
+            },
+            {
+              "surface": "げ",
+              "reading": ""
+            },
+            {
+              "surface": "口",
+              "reading": "ぐち"
+            }
+          ],
+          [
+            {
+              "surface": "シャムの",
+              "reading": ""
+            },
+            {
+              "surface": "国王",
+              "reading": "こくおう"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "命令",
+              "reading": "めいれい"
+            }
+          ],
+          [
+            {
+              "surface": "試合",
+              "reading": "しあい"
+            },
+            {
+              "surface": "でのけんか",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ヴァンミンのうそ",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "役人はなぜスアンに「負けろ」と言いましたか。",
@@ -142,7 +248,135 @@
           "pt": "Ofender o rei abalaria as relações.",
           "my": "နှစ်နိုင်ငံ ဆက်ဆံရေး ပျက်မှာ စိုးလို့။",
           "th": "กลัวความสัมพันธ์สองประเทศร้าว"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "役人",
+            "reading": "やくにん"
+          },
+          {
+            "surface": "はなぜスアンに「",
+            "reading": ""
+          },
+          {
+            "surface": "負",
+            "reading": "ま"
+          },
+          {
+            "surface": "けろ」と",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "いましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "国王",
+              "reading": "こくおう"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "機嫌",
+              "reading": "きげん"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "損",
+              "reading": "そこ"
+            },
+            {
+              "surface": "ねると",
+              "reading": ""
+            },
+            {
+              "surface": "両国",
+              "reading": "りょうこく"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "関係",
+              "reading": "かんけい"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "悪",
+              "reading": "わる"
+            },
+            {
+              "surface": "くなるから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "スアンが",
+              "reading": ""
+            },
+            {
+              "surface": "下手",
+              "reading": "へた"
+            },
+            {
+              "surface": "だから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "賭",
+              "reading": "か"
+            },
+            {
+              "surface": "けをしていたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "試合",
+              "reading": "しあい"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "早",
+              "reading": "はや"
+            },
+            {
+              "surface": "く",
+              "reading": ""
+            },
+            {
+              "surface": "終",
+              "reading": "お"
+            },
+            {
+              "surface": "わらせたいから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "観衆の態度が変わったのは、何がきっかけですか。",
@@ -165,7 +399,111 @@
           "pt": "O discurso de Xuân.",
           "my": "ဆွမ်ရဲ့ မိန့်ခွန်း။",
           "th": "สุนทรพจน์ของซวน"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "観衆",
+            "reading": "かんしゅう"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "態度",
+            "reading": "たいど"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "変",
+            "reading": "か"
+          },
+          {
+            "surface": "わったのは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "がきっかけですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "スアンの「",
+              "reading": ""
+            },
+            {
+              "surface": "負",
+              "reading": "ま"
+            },
+            {
+              "surface": "けてさしあげた」という",
+              "reading": ""
+            },
+            {
+              "surface": "演説",
+              "reading": "えんぜつ"
+            }
+          ],
+          [
+            {
+              "surface": "国王",
+              "reading": "こくおう"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "拍手",
+              "reading": "はくしゅ"
+            }
+          ],
+          [
+            {
+              "surface": "トゥエットの",
+              "reading": ""
+            },
+            {
+              "surface": "涙",
+              "reading": "なみだ"
+            }
+          ],
+          [
+            {
+              "surface": "雨",
+              "reading": "あめ"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "降",
+              "reading": "ふ"
+            },
+            {
+              "surface": "り",
+              "reading": ""
+            },
+            {
+              "surface": "出",
+              "reading": "だ"
+            },
+            {
+              "surface": "したこと",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "『吾輩は猫である』と『ソードー』に共通するのは何ですか。",
@@ -188,7 +526,151 @@
           "pt": "Ambos riem de quem se perde na ocidentalização.",
           "my": "နှစ်ခုလုံး အနောက်တိုင်းဆန်မှုထဲ လူကို သရော်တယ်။",
           "th": "ทั้งคู่เสียดสีคนที่หลงตัวในกระแสตะวันตก"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "『",
+            "reading": ""
+          },
+          {
+            "surface": "吾輩",
+            "reading": "わがはい"
+          },
+          {
+            "surface": "は",
+            "reading": ""
+          },
+          {
+            "surface": "猫",
+            "reading": "ねこ"
+          },
+          {
+            "surface": "である』と『ソードー』に",
+            "reading": ""
+          },
+          {
+            "surface": "共通",
+            "reading": "きょうつう"
+          },
+          {
+            "surface": "するのは",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "ですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "急",
+              "reading": "きゅう"
+            },
+            {
+              "surface": "な",
+              "reading": ""
+            },
+            {
+              "surface": "西洋",
+              "reading": "せいよう"
+            },
+            {
+              "surface": "化",
+              "reading": "か"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "中",
+              "reading": "なか"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "人間",
+              "reading": "にんげん"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "笑",
+              "reading": "わら"
+            },
+            {
+              "surface": "ったこと",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "主人公",
+              "reading": "しゅじんこう"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "猫",
+              "reading": "ねこ"
+            },
+            {
+              "surface": "であること",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "同",
+              "reading": "おな"
+            },
+            {
+              "surface": "じ",
+              "reading": ""
+            },
+            {
+              "surface": "年",
+              "reading": "とし"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "発表",
+              "reading": "はっぴょう"
+            },
+            {
+              "surface": "されたこと",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "テニスの",
+              "reading": ""
+            },
+            {
+              "surface": "話",
+              "reading": "はなし"
+            },
+            {
+              "surface": "であること",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

@@ -43,7 +43,21 @@
           "pt": "Passiva: A é ~ por B. Agente + に. Ex.: 先生にほめられました (fui elogiado pelo professor).",
           "my": "ခံရ: A က B ရဲ့ ~ ခံရ။ လုပ်သူ + に။ ဥပမာ: 先生にほめられました (ဆရာ ချီးကျူးခံရတယ်)။",
           "th": "กรรมวาจก: A ถูก B ~. ผู้กระทำ + に. ตัวอย่าง: 先生にほめられました (ได้รับคำชมจากครู)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜に〜される（",
+            "reading": ""
+          },
+          {
+            "surface": "受身",
+            "reading": "うけみ"
+          },
+          {
+            "surface": "）",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "このままでは",
@@ -94,7 +108,21 @@
           "pt": "Para ~ (finalidade). Ex.: 日本で働くために、日本語を勉強しています (estudo japonês para trabalhar no Japão).",
           "my": "~ ဖို့ (ရည်ရွယ်ချက်)။ ဥပမာ: 日本で働くために、日本語を勉強しています (ဂျပန်မှာ အလုပ်လုပ်ဖို့ ဂျပန်စာ လေ့လာနေတယ်)။",
           "th": "เพื่อ ~ (จุดประสงค์). ตัวอย่าง: 日本で働くために、日本語を勉強しています (เรียนภาษาญี่ปุ่นเพื่อทำงานที่ญี่ปุ่น)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜ために（",
+            "reading": ""
+          },
+          {
+            "surface": "目的",
+            "reading": "もくてき"
+          },
+          {
+            "surface": "）",
+            "reading": ""
+          }
+        ]
       }
     ],
     "quiz": [
@@ -119,7 +147,107 @@
           "pt": "Hoàn Kiếm = espada devolvida.",
           "my": "ဟွမ်ကီယမ် = ဓားပြန်အပ်။",
           "th": "ฮว่านเกี๋ยม = คืนดาบ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "「ホアンキエム",
+            "reading": ""
+          },
+          {
+            "surface": "湖",
+            "reading": "こ"
+          },
+          {
+            "surface": "」は、",
+            "reading": ""
+          },
+          {
+            "surface": "日本",
+            "reading": "にほん"
+          },
+          {
+            "surface": "語",
+            "reading": "かたり"
+          },
+          {
+            "surface": "でどんな",
+            "reading": ""
+          },
+          {
+            "surface": "意味",
+            "reading": "いみ"
+          },
+          {
+            "surface": "ですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "亀",
+              "reading": "かめ"
+            },
+            {
+              "surface": "がすむ",
+              "reading": ""
+            },
+            {
+              "surface": "湖",
+              "reading": "みずうみ"
+            }
+          ],
+          [
+            {
+              "surface": "剣",
+              "reading": "けん"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "返",
+              "reading": "かえ"
+            },
+            {
+              "surface": "した",
+              "reading": ""
+            },
+            {
+              "surface": "湖",
+              "reading": "みずうみ"
+            }
+          ],
+          [
+            {
+              "surface": "緑色",
+              "reading": "みどりいろ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "湖",
+              "reading": "みずうみ"
+            }
+          ],
+          [
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さまの",
+              "reading": ""
+            },
+            {
+              "surface": "湖",
+              "reading": "みずうみ"
+            }
+          ]
+        ]
       },
       {
         "ja": "レ・タンの網に、何が三回入りましたか。",
@@ -142,7 +270,99 @@
           "pt": "A lâmina veio três vezes.",
           "my": "ဓားသွားက သုံးကြိမ် ပိုက်ထဲ ပါလာတယ်။",
           "th": "ใบดาบติดแหสามครั้ง"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "レ・タンの",
+            "reading": ""
+          },
+          {
+            "surface": "網",
+            "reading": "あみ"
+          },
+          {
+            "surface": "に、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "三",
+            "reading": "さん"
+          },
+          {
+            "surface": "回",
+            "reading": "かい"
+          },
+          {
+            "surface": "入",
+            "reading": "はい"
+          },
+          {
+            "surface": "りましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "大",
+              "reading": "おお"
+            },
+            {
+              "surface": "きな",
+              "reading": ""
+            },
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            }
+          ],
+          [
+            {
+              "surface": "金色",
+              "reading": "きんいろ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "亀",
+              "reading": "かめ"
+            }
+          ],
+          [
+            {
+              "surface": "剣",
+              "reading": "けん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "刃",
+              "reading": "は"
+            }
+          ],
+          [
+            {
+              "surface": "剣",
+              "reading": "けん"
+            },
+            {
+              "surface": "のつか",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "亀は、どうして剣を返してほしいと言いましたか。",
@@ -165,7 +385,131 @@
           "pt": "Foi emprestada para a guerra.",
           "my": "စစ်အတွက် ငှားထားတာ။",
           "th": "ให้ยืมเพื่อสงคราม จบแล้วต้องคืน"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "亀",
+            "reading": "かめ"
+          },
+          {
+            "surface": "は、どうして",
+            "reading": ""
+          },
+          {
+            "surface": "剣",
+            "reading": "けん"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "返",
+            "reading": "かえ"
+          },
+          {
+            "surface": "してほしいと",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "いましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "亀",
+              "reading": "かめ"
+            },
+            {
+              "surface": "がほしかったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "戦",
+              "reading": "たたか"
+            },
+            {
+              "surface": "いが",
+              "reading": ""
+            },
+            {
+              "surface": "終",
+              "reading": "お"
+            },
+            {
+              "surface": "わって、",
+              "reading": ""
+            },
+            {
+              "surface": "湖",
+              "reading": "みずうみ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "神",
+              "reading": "かみ"
+            },
+            {
+              "surface": "さまが",
+              "reading": ""
+            },
+            {
+              "surface": "貸",
+              "reading": "か"
+            },
+            {
+              "surface": "したものだから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "剣",
+              "reading": "けん"
+            },
+            {
+              "surface": "がこわれたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さまが",
+              "reading": ""
+            },
+            {
+              "surface": "悪",
+              "reading": "わる"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            },
+            {
+              "surface": "だったから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "レ・ロイと俵藤太の話で、ちがうところは何ですか。",
@@ -188,7 +532,131 @@
           "pt": "Lê Lợi devolveu o poder.",
           "my": "လေလွိုင်က အားကို ပြန်အပ်တယ်။",
           "th": "เล เหล่ยคืนพลังที่ยืมมา"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "レ・ロイと",
+            "reading": ""
+          },
+          {
+            "surface": "俵藤太",
+            "reading": "たわらのとうた"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "話",
+            "reading": "はなし"
+          },
+          {
+            "surface": "で、ちがうところは",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "ですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "レ・ロイは",
+              "reading": ""
+            },
+            {
+              "surface": "借",
+              "reading": "か"
+            },
+            {
+              "surface": "りた",
+              "reading": ""
+            },
+            {
+              "surface": "力",
+              "reading": "ちから"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "返",
+              "reading": "かえ"
+            },
+            {
+              "surface": "した",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "俵藤太",
+              "reading": "たわらのとうた"
+            },
+            {
+              "surface": "は",
+              "reading": ""
+            },
+            {
+              "surface": "湖",
+              "reading": "みずうみ"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "行",
+              "reading": "い"
+            },
+            {
+              "surface": "かなかった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "レ・ロイは",
+              "reading": ""
+            },
+            {
+              "surface": "亀",
+              "reading": "かめ"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "会",
+              "reading": "あ"
+            },
+            {
+              "surface": "わなかった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "どちらも",
+              "reading": ""
+            },
+            {
+              "surface": "同",
+              "reading": "おな"
+            },
+            {
+              "surface": "じ",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

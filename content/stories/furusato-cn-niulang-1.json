@@ -94,7 +94,21 @@
           "pt": "Diz-se que ~ (crença geral, lenda). Dia a dia: 富士山は日本一美しい山だと言われている (diz-se que o Fuji é a montanha mais bela do Japão); 朝ごはんは大切だと言われている (diz-se que o café da manhã é importante).",
           "my": "~လို့ ဆိုကြတယ် (အများ ယုံကြည်ချက်၊ ဒဏ္ဍာရီ)။ နေ့စဉ်: 富士山は日本一美しい山だと言われている (ဖူဂျီက ဂျပန်မှာ အလှဆုံး တောင်လို့ ဆိုကြတယ်); 朝ごはんは大切だと言われている (မနက်စာ အရေးကြီးတယ်လို့ ဆိုကြတယ်)။",
           "th": "ว่ากันว่า~ (ความเชื่อทั่วไป ตำนาน) ชีวิตประจำวัน: 富士山は日本一美しい山だと言われている (ว่ากันว่าฟูจิเป็นภูเขาที่สวยที่สุดในญี่ปุ่น); 朝ごはんは大切だと言われている (ว่ากันว่าอาหารเช้าสำคัญ)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜と",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "われている",
+            "reading": ""
+          }
+        ]
       }
     ],
     "quiz": [
@@ -119,7 +133,75 @@
           "pt": "Seguindo o mapa: 〜のとおりに.",
           "my": "မြေပုံအတိုင်း: 〜のとおりに။",
           "th": "ตามแผนที่: 〜のとおりに"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "地図",
+            "reading": "ちず"
+          },
+          {
+            "surface": "の（　　）",
+            "reading": ""
+          },
+          {
+            "surface": "行",
+            "reading": "おこな"
+          },
+          {
+            "surface": "ったら、",
+            "reading": ""
+          },
+          {
+            "surface": "駅",
+            "reading": "えき"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "着",
+            "reading": "つ"
+          },
+          {
+            "surface": "きました。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "とおりに",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "はずに",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ないと",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ように",
+              "reading": ""
+            },
+            {
+              "surface": "言",
+              "reading": "い"
+            },
+            {
+              "surface": "われて",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "かぎが（　　）、部屋に入れません。",
@@ -142,7 +224,29 @@
           "pt": "Sem a chave, não entra: 〜ないと.",
           "my": "သော့ မရှိရင် မဝင်ရ: 〜ないと။",
           "th": "ถ้าไม่มีกุญแจเข้าห้องไม่ได้: 〜ないと"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "かぎが（　　）、",
+            "reading": ""
+          },
+          {
+            "surface": "部屋",
+            "reading": "へや"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "入",
+            "reading": "い"
+          },
+          {
+            "surface": "れません。",
+            "reading": ""
+          }
+        ]
       },
       {
         "ja": "田中さんは九時に出たから、もう会社に着いている（　　）。",
@@ -165,7 +269,87 @@
           "pt": "Suposição fundamentada: 〜はずだ.",
           "my": "အကြောင်းရှိတဲ့ ခန့်မှန်း: 〜はずだ။",
           "th": "คาดการณ์อย่างมีเหตุผล: 〜はずだ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "田中",
+            "reading": "たなか"
+          },
+          {
+            "surface": "さんは",
+            "reading": ""
+          },
+          {
+            "surface": "九",
+            "reading": "きゅう"
+          },
+          {
+            "surface": "時",
+            "reading": "じ"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "出",
+            "reading": "で"
+          },
+          {
+            "surface": "たから、もう",
+            "reading": ""
+          },
+          {
+            "surface": "会社",
+            "reading": "かいしゃ"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "着",
+            "reading": "つ"
+          },
+          {
+            "surface": "いている（　　）。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "はずだ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "とおりだ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "と",
+              "reading": ""
+            },
+            {
+              "surface": "言",
+              "reading": "い"
+            },
+            {
+              "surface": "われている",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ないと",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "この寺は、千年前に建てられた（　　）。",
@@ -188,7 +372,79 @@
           "pt": "Crença geral: 〜と言われています.",
           "my": "အများပြော: 〜と言われています။",
           "th": "ความเชื่อทั่วไป: 〜と言われています"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "この",
+            "reading": ""
+          },
+          {
+            "surface": "寺",
+            "reading": "てら"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "千",
+            "reading": "せん"
+          },
+          {
+            "surface": "年",
+            "reading": "ねん"
+          },
+          {
+            "surface": "前",
+            "reading": "まえ"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "建",
+            "reading": "た"
+          },
+          {
+            "surface": "てられた（　　）。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "と",
+              "reading": ""
+            },
+            {
+              "surface": "言",
+              "reading": "い"
+            },
+            {
+              "surface": "われています",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "とおりです",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ないと",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "はずがありません",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

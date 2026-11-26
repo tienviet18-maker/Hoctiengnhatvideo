@@ -263,6 +263,7 @@ for (const file of files) {
     sentences,
   };
   writeFileSync(join(root, "content/stories", `${src.id}.json`), JSON.stringify(out, null, 2) + "\n");
+  if (lesson) execFileSync("node", [join(root, "scripts/lesson-furigana.mjs"), src.id], { stdio: "inherit" });
   writeFileSync(join(shelfDir, `${src.id}.voices.json`), JSON.stringify({ cast: src.cast, voices: voiceMap, say: sayMap }, null, 1) + "\n");
   const castLines = Object.entries(src.cast).map(([k, c]) => `  - ${k === "N" ? "Người kể" : k}: \`${c.voice}\`, tốc độ ${c.rate ?? 0.9}${c.pitch ? `, cao độ ${c.pitch}` : ""} (${voiceMap.filter((x) => x === k).length} câu)`);
   const nVocab = sentences.reduce((a, x) => a + x.vocab.length, 0);
