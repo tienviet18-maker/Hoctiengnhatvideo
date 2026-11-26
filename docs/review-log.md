@@ -815,3 +815,10 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Giọng: Aoede kể; 子ぎつね Neural2-B cao, 母さんぎつね Neural2-B trầm, ぼうし屋 Neural2-C, mẹ con nhà người Neural2-B.
 - Bìa: motif `teb1`/`teb2` (đêm tuyết, đèn phố, găng đỏ). Tập 1 miễn phí.
 - Ẩn gói cũ `tebukuro-o-kai-ni` → `tebukuro-1`. `npm run verify` xanh.
+
+## Văn học Nhật v2: 蜘蛛の糸 (N3), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch3`. `kumonoito-1` (59 câu, 1.608 ký tự, harder 5,5% so với N3, audio 5,3 phút), một tập, miễn phí.
+- Phỏng theo 芥川龍之介 (mất 1927, xuất bản 1918; public domain ở Nhật và Mỹ). Giữ cảnh kết gốc (hoa sen không bận tâm, gần trưa). Xếp N3 vì 地獄/天国 và văn phong; bản N4 vượt ngưỡng từ khó.
+- Giọng: Aoede kể, カンダタ Neural2-C trầm. Bìa motif `kumo` (vùng tranh hẹp hơn để chừa chỗ tên tác giả dài).
+- Ẩn gói cũ `kumo-no-ito` → `kumonoito-1`. `npm run verify` xanh.
