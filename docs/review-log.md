@@ -271,7 +271,8 @@ mốc `t`, dịch + giải thích 11 ngôn ngữ (tự dịch, tự rà), bài h
 | osaka-hataraku-04 | ゴミの日の事件 | 58 | 5,6 phút | phân loại rác, đổ buổi sáng, 粗大ごみ | 3bb4ecb |
 | osaka-hataraku-05 | 夜の工場 | 57 | 5,4 phút | 緊急地震速報, 避難所, túi khẩn cấp | a1fb25e |
 | osaka-hataraku-06 | あかりの秘密 | 58 | 5,8 phút | khám 内科: マイナ保険証, 問診票, trả 3 phần 10, ＃7119 | 260c93e |
-| osaka-hataraku-07 | 社長が倒れた | 61 | 5,4 phút | gọi 119: 火事か救急か → địa chỉ → ai bị gì, ý thức/hơi thở, phiên dịch | xem commit kế |
+| osaka-hataraku-07 | 社長が倒れた | 61 | 5,4 phút | gọi 119: 火事か救急か → địa chỉ → ai bị gì, ý thức/hơi thở, phiên dịch | bda449a |
+| osaka-hataraku-08 | ただいま、大阪 (tập cuối) | 61 | 5,8 phút | 給与明細: các khoản trừ, 手取り, 住民税 từ tháng 6 năm sau, giữ phiếu lương | xem commit kế |
 
 Tập 1 miễn phí, tập 2–5 `free: false`. `npm run verify` xanh trên bản clone sạch: 553 gói, 0 lỗi; chuẩn v2 11 gói đạt.
 

@@ -10411,6 +10411,37 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/osaka-hataraku-07/chapter.mp3",
    "durationSec": 322.512
   }
+ },
+ {
+  "id": "osaka-hataraku-08",
+  "titles": {
+   "vi": "Làm việc ở Osaka (8 – hết): Osaka, tôi về rồi",
+   "en": "Working in Osaka (8, finale): I'm Home, Osaka",
+   "zh-Hans": "在大阪工作（八・完）：大阪，我回来了",
+   "zh-Hant": "在大阪工作（八・完）：大阪，我回來了",
+   "ko": "오사카에서 일하다 (8・완): 다녀왔어, 오사카",
+   "tl": "Nagtatrabaho sa Osaka (8, wakas): Nandito na Ako, Osaka",
+   "ne": "ओसाकामा काम (८, अन्तिम): ओसाका, म आइपुगेँ",
+   "id": "Bekerja di Osaka (8, tamat): Aku Pulang, Osaka",
+   "pt": "Trabalhando em Osaka (8, final): Cheguei, Osaka",
+   "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၈၊ ဇာတ်သိမ်း) - အိုဆာကာ၊ ပြန်ရောက်ပြီ",
+   "th": "ทำงานที่โอซาก้า (8 ตอนจบ): กลับมาแล้วนะ โอซาก้า"
+  },
+  "level": "N3",
+  "topic": "life-in-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/osaka-hataraku-08.webp",
+  "series": {
+   "id": "osaka-hataraku",
+   "index": 8
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/osaka-hataraku-08/chapter.mp3",
+   "durationSec": 346.872
+  }
  }
 ];
 
