@@ -697,6 +697,8 @@ import s_maichan09 from "../../content/stories/maichan-09.json";
 import s_maichan10 from "../../content/stories/maichan-10.json";
 import s_gongitsune1 from "../../content/stories/gongitsune-1.json";
 import s_gongitsune2 from "../../content/stories/gongitsune-2.json";
+import s_tebukuro1 from "../../content/stories/tebukuro-1.json";
+import s_tebukuro2 from "../../content/stories/tebukuro-2.json";
 // --- hết làm lại: import ---
 import s_furusatoVnKieu1 from "../../content/stories/furusato-vn-kieu-1.json";
 import s_furusatoVnKieu2 from "../../content/stories/furusato-vn-kieu-2.json";
@@ -1434,6 +1436,8 @@ export const STORIES: StoryContent[] = [
   s_maichan10 as unknown as StoryContent,
   s_gongitsune1 as unknown as StoryContent,
   s_gongitsune2 as unknown as StoryContent,
+  s_tebukuro1 as unknown as StoryContent,
+  s_tebukuro2 as unknown as StoryContent,
   // --- hết làm lại ---
   s_furusatoVnKieu1 as unknown as StoryContent,
   s_furusatoVnKieu2 as unknown as StoryContent,

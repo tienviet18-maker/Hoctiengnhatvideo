@@ -4163,7 +4163,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 12,
-  "cover": "/covers/tebukuro-o-kai-ni.webp"
+  "cover": "/covers/tebukuro-o-kai-ni.webp",
+  "hidden": true,
+  "replacedBy": "tebukuro-1"
  },
  {
   "id": "my-number-card",
@@ -11966,6 +11968,68 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/gongitsune-2/chapter.mp3",
    "durationSec": 225.192
+  }
+ },
+ {
+  "id": "tebukuro-1",
+  "titles": {
+   "vi": "Đi mua găng tay (phần 1)",
+   "en": "Buying Mittens (Part 1)",
+   "zh-Hans": "买手套（上）",
+   "zh-Hant": "買手套（上）",
+   "ko": "장갑을 사러 (상)",
+   "tl": "Pagbili ng Guwantes (Bahagi 1)",
+   "ne": "पन्जा किन्न (भाग १)",
+   "id": "Membeli Sarung Tangan (Bagian 1)",
+   "pt": "Comprar Luvas (Parte 1)",
+   "my": "လက်အိတ် ဝယ်ဖို့ (အပိုင်း ၁)",
+   "th": "ไปซื้อถุงมือ (ตอนที่ 1)"
+  },
+  "level": "N4",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 55,
+  "cover": "/covers/tebukuro-1.webp",
+  "series": {
+   "id": "tebukuro",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/tebukuro-1/chapter.mp3",
+   "durationSec": 265.824
+  }
+ },
+ {
+  "id": "tebukuro-2",
+  "titles": {
+   "vi": "Đi mua găng tay (phần 2)",
+   "en": "Buying Mittens (Part 2)",
+   "zh-Hans": "买手套（下）",
+   "zh-Hant": "買手套（下）",
+   "ko": "장갑을 사러 (하)",
+   "tl": "Pagbili ng Guwantes (Bahagi 2)",
+   "ne": "पन्जा किन्न (भाग २)",
+   "id": "Membeli Sarung Tangan (Bagian 2)",
+   "pt": "Comprar Luvas (Parte 2)",
+   "my": "လက်အိတ် ဝယ်ဖို့ (အပိုင်း ၂)",
+   "th": "ไปซื้อถุงมือ (ตอนที่ 2)"
+  },
+  "level": "N4",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 54,
+  "cover": "/covers/tebukuro-2.webp",
+  "series": {
+   "id": "tebukuro",
+   "index": 2
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/tebukuro-2/chapter.mp3",
+   "durationSec": 272.352
   }
  },
  {
