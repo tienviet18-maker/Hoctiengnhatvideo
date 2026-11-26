@@ -741,6 +741,9 @@ import s_worldNingyo2 from "../../content/stories/world-ningyo-2.json";
 import s_worldJack from "../../content/stories/world-jack.json";
 import v2MysteryAkagami1 from "../../content/stories/mystery-akagami-1.json";
 import v2MysteryAkagami2 from "../../content/stories/mystery-akagami-2.json";
+import v2MysteryNisen1 from "../../content/stories/mystery-nisen-1.json";
+import v2MysteryNisen2 from "../../content/stories/mystery-nisen-2.json";
+import v2MysteryNisen3 from "../../content/stories/mystery-nisen-3.json";
 // --- hết kệ ma & trinh thám: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1483,6 +1486,9 @@ export const STORIES: StoryContent[] = [
   v2MysteryMujina1 as unknown as StoryContent,
   v2MysteryAkagami1 as unknown as StoryContent,
   v2MysteryAkagami2 as unknown as StoryContent,
+  v2MysteryNisen1 as unknown as StoryContent,
+  v2MysteryNisen2 as unknown as StoryContent,
+  v2MysteryNisen3 as unknown as StoryContent,
   // --- hết kệ ma & trinh thám ---
   s_worldNingyo1 as unknown as StoryContent,
   s_worldNingyo2 as unknown as StoryContent,

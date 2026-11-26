@@ -821,6 +821,13 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Bìa: motif `teb1`/`teb2` (đêm tuyết, đèn phố, găng đỏ). Tập 1 miễn phí.
 - Ẩn gói cũ `tebukuro-o-kai-ni` → `tebukuro-1`. `npm run verify` xanh.
 
+## Kệ ma & trinh thám — lô 3 (江戸川乱歩「二銭銅貨」) — 27/11/2026
+
+- Nhánh `claude/shelf-mystery-ranpo`. Lô 2 (PR #68, `mystery-akagami-1/2`) đã gộp.
+- Thêm `mystery-nisen-1` (miễn phí), `mystery-nisen-2`, `mystery-nisen-3` (VIP): N2, 52/49/60 câu, audio 6:10 / 5:38 / 7:39. Viết lại tiếng Nhật N2 theo Aozora card56647. Ranpo mất 1965 nên tác phẩm đã PD ở Nhật; in năm 1923 nên cũng PD ở Mỹ.
+- Giữ nguyên mật mã gốc: 南無阿弥陀仏 → chữ nổi → thông điệp katakana chính tả cũ. Đọc mỗi chữ thứ 9 ra ゴジヤウダン, đúng như bản gốc. Chi tiết ở `content/stories/mystery-nisen-*.qc.md`.
+- Thêm motif bìa `coin` (đã có trong `scripts/produce/cover.html` từ lô 1).
+- ID kệ còn giữ chỗ: `mystery-rokuro-*`, `mystery-chawan-*`, `mystery-garnet-*`, `mystery-dzaka-*`, `mystery-shinri-*`.
 ## Văn học Nhật v2: 蜘蛛の糸 (N3), thay gói cũ — 27/11/2026
 
 - Nhánh `claude/bungaku-v2-batch3`. `kumonoito-1` (59 câu, 1.608 ký tự, harder 5,5% so với N3, audio 5,3 phút), một tập, miễn phí.
