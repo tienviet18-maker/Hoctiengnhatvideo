@@ -728,7 +728,27 @@ Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse
   mai-chan-ep08-sick-mom → maichan-07.
 - Sửa câu hỏi bài học: trước đây đáp án đúng luôn ở vị trí đầu (app không xáo trộn). Nay xoay vị trí đáp án cho cả tập 1–10.
 - Đăng ký trong khối đánh dấu riêng "làm lại Mai-chan + văn học Nhật" ở `src/lib/content.ts`.
+
+## Kệ mới "Triết lý sống" (wisdom), lô 1 — 27/11/2026
+
+- Việt muốn có sách triết lý đời sống, kiểu "nghĩ giàu làm giàu" hay "nóng giận là bản năng". Các sách đó còn bản quyền nên không dùng. Kệ này chỉ dùng tác phẩm public domain (Epictetus, Lão Tử, sau đó Marcus Aurelius, Seneca, Wattles, James Allen, Samuel Smiles, 学問のすゝめ…) và bài viết gốc của ViMai.
+- Code đã sửa:
+  - Thêm kệ `wisdom` vào `content-schema.ts`, `shelves.ts` (sau `world`; hiện cho người chọn sở thích văn học hoặc đời sống) và tên kệ ở 12 locale.
+  - `register.mjs --block=wisdom` có khối đăng ký riêng trong `content.ts` (khối W).
+  - Thêm motif bìa `chain`, `drop`, `letter`.
+- Lô 1 có 4 chương chuẩn v2:
+  - `life-epictetus-1` (N3, miễn phí) và `life-epictetus-2` (N3, VIP)
+  - `life-roshi-1` (N3, miễn phí)
+  - `life-ikari-1` (N4, miễn phí, truyện gốc)
+- QC từng chương nằm ở `content/stories/life-*.qc.md`.
+- Id có dạng `life-<tác phẩm>-<n>` và chỉ luồng kệ W được cấp.
 - `npm run verify` xanh.
+
+## 2026-11-27 — Xáo đáp án câu hỏi Bài học (branch claude/quiz-shuffle)
+
+- Phát hiện: ở 55/155 gói v2, đáp án đúng luôn nằm ở vị trí A (320/617 câu có answer=0), người học đoán được mà không cần đọc.
+- Sửa: `src/lib/shuffle.ts` (`seededOrder`) xáo thứ tự đáp án cố định theo `story.id` + số câu hỏi, nên lần nào mở lại cũng cùng thứ tự và không lệch khi hydrate. `LessonPanel.tsx` hiển thị theo thứ tự đã xáo; chữ A/B/C theo vị trí hiển thị, còn chấm điểm và furigana vẫn theo chỉ số gốc. Dữ liệu nội dung không đổi.
+- Test: `tests/shuffle.test.ts`.
 ## Kệ ma & trinh thám — lô 1 (truyện ma 小泉八雲) — 26/11/2026
 
 Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma (`shelf: ghost`) và trinh thám (`shelf: mystery`), id `mystery-<tác phẩm>-<n>`.

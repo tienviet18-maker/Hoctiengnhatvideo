@@ -7,17 +7,20 @@ import { join } from "node:path";
 const root = new URL("../..", import.meta.url).pathname;
 const p = join(root, "src/lib/content.ts");
 let s = readFileSync(p, "utf8");
-// --block=ma : dùng khối riêng của kệ ma & trinh thám (mystery-*), để không đụng khối A/E của luồng khác.
-const args = process.argv.slice(2);
-const blockArg = args.find((a) => a.startsWith("--block="))?.slice(8);
-const B = blockArg === "ma" ? { name: "ma & trinh thám", end: "ma & trinh thám" } : { name: "A/E văn học", end: "A/E" };
-const IMP = `// --- kệ ${B.name} (chuẩn v2): import ---`;
-const ARR = `  // --- kệ ${B.name} (chuẩn v2) ---`;
-const IMP_END = `// --- hết kệ ${B.end}: import ---`;
-const ARR_END = `  // --- hết kệ ${B.end} ---`;
+// --block=wisdom: kệ Triết lý sống có khối đánh dấu riêng (luồng kệ W), không đụng khối A/E.
+// --block=ma: kệ ma & trinh thám (mystery-*).
+const BLOCKS = { ae: "A/E văn học", wisdom: "W triết lý sống", ma: "ma & trinh thám" };
+const blockArg = process.argv.find((a) => a.startsWith("--block="))?.slice(8) ?? "ae";
+const label = BLOCKS[blockArg];
+if (!label) throw new Error(`không có khối ${blockArg}`);
+const short = blockArg === "ma" ? label : label.split(" ")[0];
+const IMP = `// --- kệ ${label} (chuẩn v2): import ---`;
+const ARR = `  // --- kệ ${label} (chuẩn v2) ---`;
+const IMP_END = `// --- hết kệ ${short}: import ---`;
+const ARR_END = `  // --- hết kệ ${short} ---`;
 if (!s.includes(IMP)) s = s.replace("\nexport const VIDEOS", `\n${IMP}\n${IMP_END}\n\nexport const VIDEOS`);
 if (!s.includes(ARR)) s = s.replace(/(export const STORIES: StoryContent\[\] = \[\n[\s\S]*?)(\n\];)/, `$1\n${ARR}\n${ARR_END}$2`);
-for (const id of args.filter((a) => !a.startsWith("--"))) {
+for (const id of process.argv.slice(2).filter((a) => !a.startsWith("--"))) {
   if (s.includes(`/content/stories/${id}.json"`)) { console.log(`= ${id} đã đăng ký`); continue; }
   const name = "v2" + id.replace(/(^|-)([a-z0-9])/g, (_, a, b) => b.toUpperCase());
   s = s.replace(IMP_END, `import ${name} from "../../content/stories/${id}.json";\n${IMP_END}`);
