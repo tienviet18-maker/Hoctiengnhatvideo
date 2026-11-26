@@ -10380,6 +10380,37 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/osaka-hataraku-06/chapter.mp3",
    "durationSec": 345.6
   }
+ },
+ {
+  "id": "osaka-hataraku-07",
+  "titles": {
+   "vi": "Làm việc ở Osaka (7): Giám đốc ngã quỵ",
+   "en": "Working in Osaka (7): The President Collapses",
+   "zh-Hans": "在大阪工作（七）：社长倒下了",
+   "zh-Hant": "在大阪工作（七）：社長倒下了",
+   "ko": "오사카에서 일하다 (7): 사장님이 쓰러지다",
+   "tl": "Nagtatrabaho sa Osaka (7): Bumagsak ang Presidente",
+   "ne": "ओसाकामा काम (७): अध्यक्ष ढले",
+   "id": "Bekerja di Osaka (7): Direktur Tumbang",
+   "pt": "Trabalhando em Osaka (7): O presidente desmaia",
+   "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၇) - ဥက္ကဋ္ဌ လဲကျသွားပြီ",
+   "th": "ทำงานที่โอซาก้า (7): ท่านประธานล้มลง"
+  },
+  "level": "N3",
+  "topic": "life-in-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 61,
+  "cover": "/covers/osaka-hataraku-07.webp",
+  "series": {
+   "id": "osaka-hataraku",
+   "index": 7
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/osaka-hataraku-07/chapter.mp3",
+   "durationSec": 322.512
+  }
  }
 ];
 
