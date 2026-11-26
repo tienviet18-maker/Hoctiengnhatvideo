@@ -26,7 +26,7 @@ function load(kind, id) {
   return JSON.parse(readFileSync(join(root, `content/${kind}/${id}.json`), "utf8"));
 }
 
-// Gói cũ ẩn khỏi danh sách vì đã có bản v2 thay thế (content/hidden-stories.json): id cũ -> id thay thế
+// Gói cũ ẩn khỏi danh sách (content/hidden-stories.json): id cũ -> id thay thế, hoặc null = cho nghỉ, không có bản thay
 const hidden = JSON.parse(readFileSync(join(root, "content/hidden-stories.json"), "utf8"));
 delete hidden._note;
 
@@ -70,11 +70,11 @@ const stories = storyIds.map((id) => {
     ...(s.origin ? { origin: s.origin } : {}),
     // Audio liền của chương (gói v2): trình phát tự chuyển chương khi tắt màn hình
     ...(s.audioTrack ? { audioTrack: s.audioTrack } : {}),
-    ...(hidden[s.id] ? { hidden: true, replacedBy: hidden[s.id] } : {}),
+    ...(s.id in hidden ? { hidden: true, ...(hidden[s.id] ? { replacedBy: hidden[s.id] } : {}) } : {}),
   };
 });
 for (const [oldId, newId] of Object.entries(hidden)) {
-  if (!storyIds.includes(oldId) || !storyIds.includes(newId)) {
+  if (!storyIds.includes(oldId) || (newId !== null && !storyIds.includes(newId))) {
     console.error(`gen-catalog: hidden-stories.json trỏ tới id không có: ${oldId} -> ${newId}`);
     process.exit(1);
   }
@@ -114,7 +114,7 @@ export interface StoryIndexItem {
   shelf?: StoryContent["shelf"];
   origin?: string;
   audioTrack?: AudioTrack;
-  /** Gói cũ đã có bản v2 thay thế: không hiện trong kệ/danh sách, trang đọc vẫn mở được */
+  /** Gói cũ bị ẩn (có bản thay thế, hoặc cho nghỉ): không hiện trong kệ/danh sách, trang đọc vẫn mở được */
   hidden?: true;
   replacedBy?: string;
 }
