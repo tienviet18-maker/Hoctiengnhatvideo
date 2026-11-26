@@ -442,3 +442,13 @@ Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Bảy gói chuẩn v2, N3
 - Chỉ ẩn, không xoá: file nội dung và đăng ký trong `content.ts` giữ nguyên, `/read/<id>` cũ vẫn mở được (link và tiến độ cũ không hỏng), nhưng có `noindex` và canonical trỏ sang bản v2. Muốn hiện lại thì xoá dòng trong `hidden-stories.json`.
 - Lộ trình "Giải trí & văn hoá" (`src/lib/paths.ts`) đổi `momotaro` → `mukashi-momotaro-1`.
 - Đánh đổi: 4 trong 6 gói ẩn là N5 (ngắn 10–14 câu), bản v2 là N3, nên người mới bắt đầu có ít truyện cổ tích dễ hơn. Kho N5 vẫn còn hơn 200 gói khác.
+
+## Đợt 7 — Peppa Pig 「おかいもの」: 3 clip chuẩn v2 (26/11/2026, nhánh `claude/video-peppa-shopping`)
+
+| # | Mức | Việc | PR |
+|---|---|---|---|
+| 34 | **Cao** | 3 gói `standard: 2` từ tập Peppa 「おかいもの」 (`Yif3a5eW_-E`): `peppa-shopping-list` (76s, 19 dòng), `peppa-shopping-spaghetti` (71s, 26 dòng), `peppa-shopping-cake` (97s, 28 dòng), N4, chủ đề đi siêu thị ở Nhật. Lời thoại đối chiếu Whisper + phụ đề tự động; câu không chắc thì bỏ (ghi trong `.qc.md`). | PR này |
+| 35 | Trung bình | Thử まんが日本昔ばなし 「あずき峠」 bằng Whisper: giọng địa phương làm cả Whisper lẫn ASR sai tên riêng (助け?, 大賀茂?), và tập có nhiều đoạn chỉ có nhạc > 8 giây → không cắt được clip 45 giây đạt luật khoảng trống. Hoãn. | — |
+| 36 | Trung bình | Kênh Peppa Pig 公式 có hàng chục tập 307 giây (おかたづけ, ランチ, キャンプ, はくぶつかん…) — nguồn hoạt hình N5–N4 ổn định cho các đợt sau. | — |
+
+**Cho Muse — tránh trùng**: đã dùng `Yif3a5eW_-E` (24–280s).
