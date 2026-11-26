@@ -535,3 +535,9 @@ Việt nhắc: mọi chữ kanji trong app phải có furigana, kể cả hội 
 - `scripts/lesson-furigana.mjs` (mới): sinh `patternFurigana`, `jaFurigana`, `choicesFurigana` cho mọi truyện có lesson. Cách đọc ưu tiên lấy từ chính furigana đã sửa tay trong truyện (tên riêng, 甚右衛門, 酒呑童子…), rồi `phrases` của src.json, rồi kuromoji; có bảng sửa các lỗi kuromoji hay gặp (一人, 一本, 七日, 夜中, 救急車, 何文, 都→みやこ…). Đã đọc lại toàn bộ ~2.000 câu hỏi/lựa chọn.
 - `--check` của script chạy trong `npm run qc` → gói nào có kanji trong bài học mà thiếu furigana thì cổng đỏ. Hai bộ dựng truyện (`scripts/story-src/build.mjs`, `scripts/produce/build-story.mjs`) tự gọi script sau khi ghi gói.
 - `LessonPanel.tsx`: mẫu ngữ pháp, câu ví dụ (dùng furigana của câu), câu hỏi, lựa chọn và từ vựng đều hiện ruby; nút "Furigana" ẩn/hiện vẫn áp dụng như phần truyện. Hộp tối thêm `on-dark` để chữ ruby đủ tương phản.
+
+## Bộ thẻ có sẵn từ ViBJT — lô 5 (Công sở N1)
+
+- Thêm `content/sources/decks/src/office-n1-1..6.txt` (414 thẻ): nghĩa + câu ví dụ đủ 9 ngôn ngữ còn thiếu, Claude tự dịch.
+- Bộ "Tiếng Nhật công sở N1" lên app. Tổng 6 bộ, 1428 thẻ (Kính ngữ + Công sở N5–N1 đã đủ).
+- Một số bản tiếng Anh gốc lệch câu Nhật, đã dịch theo câu Nhật: 撤退を決断 (rút lui, không phải từ chức), 取材 (được phỏng vấn), 品質管理 v.v.
