@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import DeckShelf from "./DeckShelf";
 import { useLang } from "../../components/LangProvider";
 import { pickText } from "../../lib/i18n";
 import {
@@ -40,6 +41,13 @@ function dayKey(d: Date): string {
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
+type Extra = { r: string; ex: { ja: string; t: Record<string, string> }; aw?: string; ae?: string };
+
+function play(id?: string) {
+  if (!id) return;
+  void new Audio(`/audio/bjt/${id}.mp3`).play().catch(() => {});
+}
+
 export default function LibraryPage() {
   const { ui, lang } = useLang();
   const deck = useLocalJson<DeckCard[]>(DECK_KEY, EMPTY_DECK);
@@ -47,6 +55,8 @@ export default function LibraryPage() {
   const [gradedIds, setGradedIds] = useState<string[]>([]);
   const [flipped, setFlipped] = useState(false);
   const [now, setNow] = useState(0);
+  // Câu ví dụ + giọng đọc cho từ tự lưu từ truyện/video (public/decks/extras.json), tải khi cần
+  const [extras, setExtras] = useState<Record<string, Extra> | null>(null);
 
   useEffect(() => {
     const t = window.setTimeout(() => setNow(Date.now()), 0);
@@ -90,6 +100,22 @@ export default function LibraryPage() {
   }, [deck, now]);
 
   const current = queue[0];
+  const needExtras = !!current && !current.example && extras === null;
+  useEffect(() => {
+    if (!needExtras) return;
+    let off = false;
+    fetch("/decks/extras.json")
+      .then((r) => r.json())
+      .then((x) => !off && setExtras(x))
+      .catch(() => !off && setExtras({}));
+    return () => {
+      off = true;
+    };
+  }, [needExtras]);
+  const extra = current && !current.example ? extras?.[current.word] : undefined;
+  const example = current?.example ?? (extra && extra.r === current?.reading ? extra.ex : undefined);
+  const aw = current?.aw ?? (example ? extra?.aw : undefined);
+  const ae = current?.ae ?? (example ? extra?.ae : undefined);
   const grade = (g: "again" | "good") => {
     if (!current) return;
     reviewCard(current.id, g);
@@ -138,11 +164,47 @@ export default function LibraryPage() {
           <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
             <span className="jp" style={{ fontSize: 26, fontWeight: 700 }}>{current.word}</span>
             <span className="jp" style={{ fontSize: 14, color: "var(--muted)" }}>{current.reading}</span>
-            <span className="lvl" style={{ marginLeft: "auto" }}>{current.level}</span>
+            {/* Thẻ kính ngữ: cấp chỉ là ước lượng theo BJT, không hiện để khỏi gây hiểu nhầm (行く không phải từ N3) */}
+            {current.kind !== "keigo" && <span className="lvl" style={{ marginLeft: "auto" }}>{current.level}</span>}
           </div>
           {flipped ? (
             <>
               <div style={{ fontSize: 16, marginTop: 12 }}>{pickText(current.meanings, lang)}</div>
+              {current.form && (
+                <div style={{ fontSize: 13, color: "var(--muted)", marginTop: 6 }}>
+                  {ui.library.form}: <span lang="ja" className="jp" style={{ color: "var(--text)" }}>{current.form}</span>
+                </div>
+              )}
+              {current.keigoMap && (
+                <table style={{ width: "100%", borderCollapse: "collapse", marginTop: 10, fontSize: 14 }}>
+                  <tbody>
+                    {([
+                      [ui.library.keigoPlain, current.keigoMap.plain],
+                      [ui.library.keigoTeinei, current.keigoMap.teinei],
+                      [ui.library.keigoSonkei, current.keigoMap.sonkei],
+                      [ui.library.keigoKenjou, current.keigoMap.kenjou],
+                    ] as [string, string][]).map(([k, v]) => (
+                      <tr key={k} style={{ borderTop: "1px solid var(--border)" }}>
+                        <td style={{ padding: "6px 8px 6px 0", color: "var(--muted)", fontSize: 12, whiteSpace: "nowrap" }}>{k}</td>
+                        <td lang="ja" className="jp" style={{ padding: "6px 0", fontWeight: 600 }}>{v}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
+              {example && (
+                <div style={{ marginTop: 12, background: "#F7F9FC", borderRadius: 10, padding: "10px 12px" }}>
+                  <div style={{ fontSize: 11, fontWeight: 700, color: "var(--muted)" }}>{ui.library.example}</div>
+                  <div lang="ja" className="jp" style={{ fontSize: 15, marginTop: 2, lineHeight: 1.6 }}>{example.ja}</div>
+                  <div style={{ fontSize: 13, color: "var(--muted)", marginTop: 2 }}>{pickText(example.t, lang)}</div>
+                </div>
+              )}
+              {(aw || ae) && (
+                <div style={{ display: "flex", gap: 16, marginTop: 10, fontSize: 13, fontWeight: 600 }}>
+                  {aw && <button type="button" className="link-btn" onClick={() => play(aw)}>▶ {ui.library.playWord}</button>}
+                  {ae && <button type="button" className="link-btn" onClick={() => play(ae)}>▶ {ui.library.playExample}</button>}
+                </div>
+              )}
               <div style={{ display: "flex", gap: 10, marginTop: 16 }}>
                 <button type="button" onClick={() => grade("again")} style={{ flex: 1, padding: "12px 0", borderRadius: 10, border: "1px solid var(--accent)", background: "#fff", color: "var(--accent)", fontWeight: 700, cursor: "pointer", fontFamily: "inherit" }}>
                   {ui.library.again}
@@ -166,6 +228,8 @@ export default function LibraryPage() {
           {ui.library.noDueCards}
         </div>
       )}
+
+      <DeckShelf deck={deck} />
 
       <h2 style={{ fontSize: 16, fontWeight: 700, margin: "22px 0 8px" }}>
         {ui.library.savedWords} ({deck.length})

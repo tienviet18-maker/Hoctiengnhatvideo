@@ -443,6 +443,9 @@ Cùng nhánh `claude/shelf-rakugo-mukashi` và PR #10. Bảy gói chuẩn v2, N3
 - Lộ trình "Giải trí & văn hoá" (`src/lib/paths.ts`) đổi `momotaro` → `mukashi-momotaro-1`.
 - Đánh đổi: 4 trong 6 gói ẩn là N5 (ngắn 10–14 câu), bản v2 là N3, nên người mới bắt đầu có ít truyện cổ tích dễ hơn. Kho N5 vẫn còn hơn 200 gói khác.
 
+## Bộ thẻ có sẵn từ ViBJT — lô 1 (26/11/2026, nhánh `claude/bjt-decks`)
+
+Tab Ôn tập có mục "Bộ thẻ có sẵn", dựng từ kho thẻ ViBJT (repo BJT, cùng hệ sinh thái ViMai). Việt chọn phương án 1+2 ngày 26/11. Công cụ: `scripts/decks/build-decks.mjs` (BJT_DIR trỏ tới repo BJT) ghép thẻ gốc (ja, vi, en, câu ví dụ, mã audio) với bản dịch 9 ngôn ngữ ở `content/sources/decks/src/*.txt`, đổi sang JSONL bằng `scripts/decks/tr2jsonl.py`. Thẻ chỉ vào bộ khi đủ 11 ngôn ngữ. Đầu ra: `public/decks/*.json` (tải khi bấm thêm, không nằm trong bundle), `public/audio/bjt/*.mp3`, `src/lib/decks.generated.ts`. Lô đầu: Kính ngữ 135 thẻ có bảng thường/lịch sự/tôn kính/khiêm nhường, câu ví dụ và giọng đọc. Sửa nghĩa en sai của 帰る ("about" thành "go home, leave"). Mỗi lần thêm 10 thẻ; bản miễn phí vẫn giới hạn 100 thẻ. Lô sau: Tiếng Nhật công sở N5–N1 (1.293 từ có trong danh sách JLPT), ngữ pháp N3–N1, ví dụ cho 535 từ trùng với truyện/video.
 ## Rà chất lượng 444 gói truyện cũ của Muse, ẩn 62 gói (26/11/2026, nhánh `claude/retire-old-stories`)
 
 Việt giao (26/11): truyện cũ không đạt chuẩn thì bỏ hoặc làm lại, Claude tự quyết.
@@ -482,3 +485,10 @@ Việt chọn: Số đỏ và Truyện Kiều (văn xuôi) ở N2, Hoàng Lê nh
 - Bìa: thêm motif `tennis`, `sododoctor`, `sodofuneral`, `sodohero`. Font Chokokutai và Tsukimi Rounded thiếu nhiều chữ Hán (chữ bị chồng lên nhau), nên không dùng cho bìa có kanji.
 - Nguồn tóm tắt các chương không thống nhất về cái chết của cụ cố tổ (tiếng hô "ông Phán mọc sừng"; ông Phán đưa 5 hay 10 đồng). Claude theo bản phổ biến nhất: tờ 5 đồng gấp tư.
 - Tên ông Phán viết là ファーン, không viết ファン: kuromoji tách ファン thành từ "fan" (N1), làm chỉ số "từ vượt cấp" tăng sai.
+
+## Bộ thẻ có sẵn từ ViBJT — lô 2 (Công sở N5–N4)
+
+- Thêm bộ **Tiếng Nhật công sở N5** (50 thẻ) và **N4** (138 thẻ). Mỗi thẻ có nghĩa và câu ví dụ đủ 11 ngôn ngữ, kèm audio từ và câu của ViBJT. Bản dịch 9 ngôn ngữ do Claude tự soạn và tự duyệt, nguồn nằm ở `content/sources/decks/src/office-n5.txt` và `office-n4-*.txt`.
+- `scripts/decks/tr2jsonl.py`: dòng `m` (nghĩa) giờ là tuỳ chọn. Thẻ nào mà nghĩa 11 ngôn ngữ đã có sẵn trong vocab truyện/video thì chỉ cần dịch câu ví dụ.
+- Tổng hiện có 3 bộ (Kính ngữ, Công sở N5, Công sở N4) với 323 thẻ. Có 105 từ trong truyện/video được thêm câu ví dụ và audio ViBJT (`extras.json`).
+- Còn lại: Công sở N3 (456 thẻ), N2 (235), N1 (414), Ngữ pháp N3–N1.

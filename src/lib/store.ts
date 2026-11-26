@@ -98,6 +98,30 @@ export interface DeckCard {
   reps: number;
   /** Chỗ chừa cho điểm phát âm shadowing (giai đoạn 2) */
   pronunciationScore?: number;
+  /** Thẻ từ bộ soạn sẵn (public/decks): loại thẻ, bộ nguồn, câu ví dụ, giọng đọc */
+  kind?: "vocab" | "keigo" | "grammar";
+  deckId?: string;
+  example?: { ja: string; t: Translations };
+  /** Mã file /audio/bjt/<id>.mp3 của từ và của câu ví dụ */
+  aw?: string;
+  ae?: string;
+  keigoMap?: { plain: string; teinei: string; sonkei: string; kenjou: string };
+  form?: string;
+}
+
+/** Một thẻ trong file public/decks/<deck>.json (do scripts/decks/build-decks.mjs sinh). */
+export interface PremadeCard {
+  id: string;
+  kind: "vocab" | "keigo" | "grammar";
+  w: string;
+  r: string;
+  lv: JlptLevel;
+  m: Translations;
+  ex: { ja: string; t: Translations };
+  aw?: string;
+  ae?: string;
+  km?: { plain: string; teinei: string; sonkei: string; kenjou: string };
+  form?: string;
 }
 
 export const DECK_KEY = "vimai-video:deck:v1";
@@ -137,6 +161,32 @@ export function addToDeck(v: VocabItem, sourceId?: string): boolean {
   });
   saveDeck(deck);
   return true;
+}
+
+/**
+ * Thêm tối đa `max` thẻ chưa có của một bộ soạn sẵn vào bộ thẻ ôn, đến hạn ngay.
+ * Bỏ qua thẻ đã thêm và từ người dùng đã tự lưu. Trả về số thẻ đã thêm.
+ */
+export function addPremadeCards(cards: PremadeCard[], deckId: string, max: number): number {
+  if (max <= 0) return 0;
+  const deck = loadDeck();
+  const have = new Set(deck.map((c) => c.id));
+  const words = new Set(deck.map((c) => `${c.word}|${c.reading}`));
+  const now = Date.now();
+  let n = 0;
+  for (const c of cards) {
+    if (n >= max) break;
+    const id = `bjt:${c.id}`;
+    if (have.has(id) || (c.kind === "vocab" && words.has(`${c.w}|${c.r}`))) continue;
+    deck.push({
+      id, word: c.w, reading: c.r, meanings: c.m, level: c.lv, sourceId: deckId,
+      due: now, interval: 0, ease: 2.5, reps: 0,
+      kind: c.kind, deckId, example: c.ex, aw: c.aw, ae: c.ae, keigoMap: c.km, form: c.form,
+    });
+    n++;
+  }
+  if (n) saveDeck(deck);
+  return n;
 }
 
 export type ReviewGrade = "again" | "good";
