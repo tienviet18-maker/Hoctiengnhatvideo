@@ -60,7 +60,21 @@
           "pt": "Sair para ~.",
           "my": "~ဖို့ ထွက်။",
           "th": "ออกไป~"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜に",
+            "reading": ""
+          },
+          {
+            "surface": "出",
+            "reading": "で"
+          },
+          {
+            "surface": "かける",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜を使って",
@@ -77,7 +91,21 @@
           "pt": "Usando ~.",
           "my": "~ကို သုံးပြီး။",
           "th": "ใช้~"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜を",
+            "reading": ""
+          },
+          {
+            "surface": "使",
+            "reading": "つか"
+          },
+          {
+            "surface": "って",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜ながら",
@@ -119,7 +147,135 @@
           "pt": "Quem trouxer a melhor comida.",
           "my": "အကောင်းဆုံး အစားအစာ ယူလာသူ။",
           "th": "ผู้นำอาหารที่ดีที่สุดมา"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "フン",
+            "reading": ""
+          },
+          {
+            "surface": "王",
+            "reading": "おう"
+          },
+          {
+            "surface": "は、どんな",
+            "reading": ""
+          },
+          {
+            "surface": "王子",
+            "reading": "おうじ"
+          },
+          {
+            "surface": "に、",
+            "reading": ""
+          },
+          {
+            "surface": "国",
+            "reading": "くに"
+          },
+          {
+            "surface": "をゆずると",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "った？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "いちばんすばらしい",
+              "reading": ""
+            },
+            {
+              "surface": "食",
+              "reading": "た"
+            },
+            {
+              "surface": "べ",
+              "reading": ""
+            },
+            {
+              "surface": "物",
+              "reading": "もの"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "持",
+              "reading": "も"
+            },
+            {
+              "surface": "ってきた",
+              "reading": ""
+            },
+            {
+              "surface": "王子",
+              "reading": "おうじ"
+            }
+          ],
+          [
+            {
+              "surface": "いちばん",
+              "reading": ""
+            },
+            {
+              "surface": "強",
+              "reading": "つよ"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "王子",
+              "reading": "おうじ"
+            }
+          ],
+          [
+            {
+              "surface": "いちばん",
+              "reading": ""
+            },
+            {
+              "surface": "年上",
+              "reading": "としうえ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "王子",
+              "reading": "おうじ"
+            }
+          ],
+          [
+            {
+              "surface": "いちばんお",
+              "reading": ""
+            },
+            {
+              "surface": "金持",
+              "reading": "かねも"
+            },
+            {
+              "surface": "ちの",
+              "reading": ""
+            },
+            {
+              "surface": "王子",
+              "reading": "おうじ"
+            }
+          ]
+        ]
       },
       {
         "ja": "ゆめの中で、神さまは、いちばん大切なものは何だと言った？",
@@ -142,7 +298,79 @@
           "pt": "O deus disse: arroz.",
           "my": "နတ်က ဆန်လို့ ပြောတယ်။",
           "th": "เทพว่าคือข้าว"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ゆめの",
+            "reading": ""
+          },
+          {
+            "surface": "中",
+            "reading": "なか"
+          },
+          {
+            "surface": "で、",
+            "reading": ""
+          },
+          {
+            "surface": "神",
+            "reading": "かみ"
+          },
+          {
+            "surface": "さまは、いちばん",
+            "reading": ""
+          },
+          {
+            "surface": "大切",
+            "reading": "たいせつ"
+          },
+          {
+            "surface": "なものは",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "だと",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "った？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "米",
+              "reading": "こめ"
+            }
+          ],
+          [
+            {
+              "surface": "金",
+              "reading": "かね"
+            }
+          ],
+          [
+            {
+              "surface": "肉",
+              "reading": "にく"
+            }
+          ],
+          [
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            }
+          ]
+        ]
       },
       {
         "ja": "四角いバインチュンは、何のしるし？",
@@ -165,7 +393,51 @@
           "pt": "O quadrado simboliza a terra.",
           "my": "လေးထောင့်က မြေ။",
           "th": "สี่เหลี่ยมคือแผ่นดิน"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "四角",
+            "reading": "しかく"
+          },
+          {
+            "surface": "いバインチュンは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "のしるし？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "大地",
+              "reading": "だいち"
+            }
+          ],
+          [
+            {
+              "surface": "空",
+              "reading": "そら"
+            }
+          ],
+          [
+            {
+              "surface": "月",
+              "reading": "つき"
+            }
+          ],
+          [
+            {
+              "surface": "海",
+              "reading": "うみ"
+            }
+          ]
+        ]
       },
       {
         "ja": "日本のお正月に、米で作って、神さまにささげるものは？",
@@ -188,7 +460,79 @@
           "pt": "No Japão, o kagami-mochi.",
           "my": "ဂျပန်မှာ ကာဂါမိမိုချီ။",
           "th": "ที่ญี่ปุ่นคือคางามิโมจิ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "日本",
+            "reading": "にほん"
+          },
+          {
+            "surface": "のお",
+            "reading": ""
+          },
+          {
+            "surface": "正月",
+            "reading": "しょうがつ"
+          },
+          {
+            "surface": "に、",
+            "reading": ""
+          },
+          {
+            "surface": "米",
+            "reading": "こめ"
+          },
+          {
+            "surface": "で",
+            "reading": ""
+          },
+          {
+            "surface": "作",
+            "reading": "つく"
+          },
+          {
+            "surface": "って、",
+            "reading": ""
+          },
+          {
+            "surface": "神",
+            "reading": "かみ"
+          },
+          {
+            "surface": "さまにささげるものは？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "鏡",
+              "reading": "かがみ"
+            },
+            {
+              "surface": "もち",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "すし",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "おにぎり",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "だんご",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

@@ -77,7 +77,21 @@
           "pt": "Causativo: fazer/deixar alguém ~. 切る→切らせる, 作る→作らせる, 食べる→食べさせる. No trabalho: 部長は新人にコピーをさせた (o gerente mandou o novato tirar cópias).",
           "my": "ခိုင်းစေပုံ: တစ်ယောက်ယောက်ကို ~ ခိုင်းသည်။ 切る→切らせる, 作る→作らせる, 食べる→食べさせる။ ရုံးတွင်: 部長は新人にコピーをさせた (မန်နေဂျာက ဝန်ထမ်းသစ်ကို မိတ္တူကူးခိုင်းသည်)။",
           "th": "รูปให้ทำ: ให้/สั่งใครทำ ~ 切る→切らせる, 作る→作らせる, 食べる→食べさせる ที่ทำงาน: 部長は新人にコピーをさせた (ผู้จัดการให้พนักงานใหม่ไปถ่ายเอกสาร)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜せる・〜させる（",
+            "reading": ""
+          },
+          {
+            "surface": "使役",
+            "reading": "しえき"
+          },
+          {
+            "surface": "）",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜ふりをする",
@@ -118,7 +132,113 @@
           "pt": "A madrasta mandou Tam subir na árvore de areca para colher nozes e então cortou a árvore por baixo.",
           "my": "မိထွေးက တမ်ကို ကွမ်းသီးပင်တက်ပြီး အသီးခူးခိုင်းကာ အောက်ကနေ သစ်ပင်ကို ခုတ်သည်။",
           "th": "แม่เลี้ยงให้ตั๊มปีนต้นหมากไปเก็บผล แล้วฟันต้นไม้จากข้างล่าง"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "継母",
+            "reading": "ままはは"
+          },
+          {
+            "surface": "は、タムに",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をするように",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "いましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "池",
+              "reading": "いけ"
+            },
+            {
+              "surface": "で",
+              "reading": ""
+            },
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            },
+            {
+              "surface": "をとる",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ビンロウの",
+              "reading": ""
+            },
+            {
+              "surface": "木",
+              "reading": "き"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "登",
+              "reading": "のぼ"
+            },
+            {
+              "surface": "って",
+              "reading": ""
+            },
+            {
+              "surface": "実",
+              "reading": "み"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "取",
+              "reading": "と"
+            },
+            {
+              "surface": "る",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "城",
+              "reading": "しろ"
+            },
+            {
+              "surface": "へ",
+              "reading": ""
+            },
+            {
+              "surface": "帰",
+              "reading": "かえ"
+            },
+            {
+              "surface": "る",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "タムは、どんな順番で生まれ変わりましたか。",
@@ -140,7 +260,113 @@
           "pt": "Pássaro → cinamomo → tear → fruto de thi. A cada maldade, Tam voltava numa nova forma.",
           "my": "ငှက် → တမာပင် → ယက်ကန်းစင် → သီသီး။ အနှောင့်အယှက်ခံရတိုင်း တမ်က ပုံသဏ္ဌာန်သစ်ဖြင့် ပြန်လာသည်။",
           "th": "นก → ต้นเลี่ยน → กี่ทอผ้า → ลูกทิ ทุกครั้งที่ถูกทำร้าย ตั๊มก็กลับมาในร่างใหม่"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "タムは、どんな",
+            "reading": ""
+          },
+          {
+            "surface": "順番",
+            "reading": "じゅんばん"
+          },
+          {
+            "surface": "で",
+            "reading": ""
+          },
+          {
+            "surface": "生",
+            "reading": "う"
+          },
+          {
+            "surface": "まれ",
+            "reading": ""
+          },
+          {
+            "surface": "変",
+            "reading": "か"
+          },
+          {
+            "surface": "わりましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "小鳥",
+              "reading": "ことり"
+            },
+            {
+              "surface": "、センダンの",
+              "reading": ""
+            },
+            {
+              "surface": "木",
+              "reading": "き"
+            },
+            {
+              "surface": "、",
+              "reading": ""
+            },
+            {
+              "surface": "機",
+              "reading": "はた"
+            },
+            {
+              "surface": "、ティーの",
+              "reading": ""
+            },
+            {
+              "surface": "実",
+              "reading": "み"
+            }
+          ],
+          [
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            },
+            {
+              "surface": "、",
+              "reading": ""
+            },
+            {
+              "surface": "小鳥",
+              "reading": "ことり"
+            },
+            {
+              "surface": "、ティーの",
+              "reading": ""
+            },
+            {
+              "surface": "実",
+              "reading": "み"
+            }
+          ],
+          [
+            {
+              "surface": "花",
+              "reading": "はな"
+            },
+            {
+              "surface": "、",
+              "reading": ""
+            },
+            {
+              "surface": "木",
+              "reading": "き"
+            },
+            {
+              "surface": "、",
+              "reading": ""
+            },
+            {
+              "surface": "小鳥",
+              "reading": "ことり"
+            }
+          ]
+        ]
       },
       {
         "ja": "おばあさんは、どうやって娘のことを知りましたか。",
@@ -162,7 +388,93 @@
           "pt": "A velhinha fingiu sair, escondeu-se atrás da porta e viu a moça sair do fruto (ふりをする).",
           "my": "အဘွားက အပြင်ထွက်ဟန်ဆောင်ပြီး တံခါးနောက်ပုန်းကာ မိန်းကလေး အသီးထဲက ထွက်လာတာ မြင်သည် (ふりをする)။",
           "th": "ยายแกล้งทำเป็นออกไปข้างนอก แอบหลังประตู แล้วเห็นหญิงสาวออกมาจากลูกทิ (ふりをする)"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "おばあさんは、どうやって",
+            "reading": ""
+          },
+          {
+            "surface": "娘",
+            "reading": "むすめ"
+          },
+          {
+            "surface": "のことを",
+            "reading": ""
+          },
+          {
+            "surface": "知",
+            "reading": "し"
+          },
+          {
+            "surface": "りましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "王様",
+              "reading": "おうさま"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "聞",
+              "reading": "き"
+            },
+            {
+              "surface": "いた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "出",
+              "reading": "で"
+            },
+            {
+              "surface": "かけるふりをして",
+              "reading": ""
+            },
+            {
+              "surface": "隠",
+              "reading": "かく"
+            },
+            {
+              "surface": "れて",
+              "reading": ""
+            },
+            {
+              "surface": "見",
+              "reading": "み"
+            },
+            {
+              "surface": "た",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "夢",
+              "reading": "ゆめ"
+            },
+            {
+              "surface": "で",
+              "reading": ""
+            },
+            {
+              "surface": "見",
+              "reading": "み"
+            },
+            {
+              "surface": "た",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "王様は、何を見てタムだと気づきましたか。",
@@ -184,7 +496,93 @@
           "pt": "A folha de bétel enrolada como asas era igualzinha à de Tam, e assim o rei a reconheceu.",
           "my": "ငှက်တောင်ပံပုံ လိပ်ထားတဲ့ ကွမ်းရွက်က တမ်လုပ်ပုံနဲ့ တစ်ထပ်တည်းမို့ ဘုရင်က သိလိုက်သည်။",
           "th": "ใบพลูที่ม้วนเป็นรูปปีกนกเหมือนที่ตั๊มเคยทำเป๊ะ พระราชาจึงจำได้"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "王様",
+            "reading": "おうさま"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "見",
+            "reading": "み"
+          },
+          {
+            "surface": "てタムだと",
+            "reading": ""
+          },
+          {
+            "surface": "気",
+            "reading": "き"
+          },
+          {
+            "surface": "づきましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "タムの",
+              "reading": ""
+            },
+            {
+              "surface": "靴",
+              "reading": "くつ"
+            }
+          ],
+          [
+            {
+              "surface": "鳥",
+              "reading": "とり"
+            },
+            {
+              "surface": "のつばさの",
+              "reading": ""
+            },
+            {
+              "surface": "形",
+              "reading": "かたち"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "巻",
+              "reading": "ま"
+            },
+            {
+              "surface": "いたキンマの",
+              "reading": ""
+            },
+            {
+              "surface": "葉",
+              "reading": "は"
+            }
+          ],
+          [
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "のかご",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

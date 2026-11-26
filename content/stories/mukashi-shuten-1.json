@@ -80,7 +80,25 @@
      "my": "အတင်း ~ ခိုင်းခံရ (စေခိုင်းကံပြု၊ မလုပ်ချင်တာ လုပ်ရ)။ အုပ်စု ၁: う→あ+される (洗う→洗わされる, 待つ→待たされる); အုပ်စု ၂: る→させられる (食べる→食べさせられる); する→させられる။ ဥပမာ: 鬼たちの着物を洗わされている (ဘီလူးတွေရဲ့ အဝတ်ကို အလျှော်ခိုင်းခံနေရတယ်)။ 一時間も待たされた (တစ်နာရီလုံး စောင့်ခိုင်းခံရတယ်)။",
      "th": "ถูกบังคับให้ ~ (การิตกรรม ถูกให้ทำสิ่งที่ไม่อยากทำ) กลุ่ม 1: う→あ+される (洗う→洗わされる, 待つ→待たされる) กลุ่ม 2: る→させられる (食べる→食べさせられる) する→させられる ตัวอย่าง: 鬼たちの着物を洗わされている (ถูกบังคับให้ซักเสื้อผ้าของยักษ์) 一時間も待たされた (ถูกให้รอตั้งชั่วโมง)"
     },
-    "example": 40
+    "example": 40,
+    "patternFurigana": [
+     {
+      "surface": "〜される（",
+      "reading": ""
+     },
+     {
+      "surface": "使役",
+      "reading": "しえき"
+     },
+     {
+      "surface": "受身",
+      "reading": "うけみ"
+     },
+     {
+      "surface": "）",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "〜てはならない",
@@ -121,7 +139,53 @@
      "pt": "O oni Shuten-dōji do Monte Ōe (frase 8).",
      "my": "အိုအဲတောင်က ဘီလူး ရှုတဲန်ဒိုဂျီ (ဝါကျ ၈)။",
      "th": "ยักษ์ชูเท็นโดจิแห่งภูเขาโอเอะ (ประโยคที่ 8)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "都",
+      "reading": "みやこ"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "娘",
+      "reading": "むすめ"
+     },
+     {
+      "surface": "たちをさらっていたのは、だれでしたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "安倍晴明",
+       "reading": "あべのせいめい"
+      }
+     ],
+     [
+      {
+       "surface": "大江山",
+       "reading": "おおえやま"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "酒呑童子",
+       "reading": "しゅてんどうじ"
+      }
+     ],
+     [
+      {
+       "surface": "坂田金時",
+       "reading": "さかたのきんとき"
+      }
+     ]
+    ]
    },
    {
     "ja": "頼光たちは、どうして山伏の姿に化けましたか。",
@@ -143,7 +207,113 @@
      "pt": "Porque lutar de frente contra centenas de oni seria a derrota (frases 17–20).",
      "my": "ဘီလူး ရာနဲ့ချီကို ရင်ဆိုင်တိုက်ရင် ရှုံးမှာမို့ (ဝါကျ ၁၇–၂၀)။",
      "th": "เพราะถ้าสู้ซึ่งหน้ากับยักษ์นับร้อยจะแพ้ (ประโยคที่ 17–20)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "頼光",
+      "reading": "らいこう"
+     },
+     {
+      "surface": "たちは、どうして",
+      "reading": ""
+     },
+     {
+      "surface": "山伏",
+      "reading": "やまぶし"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "姿",
+      "reading": "すがた"
+     },
+     {
+      "surface": "に",
+      "reading": ""
+     },
+     {
+      "surface": "化",
+      "reading": "ば"
+     },
+     {
+      "surface": "けましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "正面",
+       "reading": "しょうめん"
+      },
+      {
+       "surface": "から",
+       "reading": ""
+      },
+      {
+       "surface": "戦",
+       "reading": "たたか"
+      },
+      {
+       "surface": "えば",
+       "reading": ""
+      },
+      {
+       "surface": "負",
+       "reading": "ま"
+      },
+      {
+       "surface": "けてしまうから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "山伏",
+       "reading": "やまぶし"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "着物",
+       "reading": "きもの"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "好",
+       "reading": "す"
+      },
+      {
+       "surface": "きだったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "神様",
+       "reading": "かみさま"
+      },
+      {
+       "surface": "にそう",
+       "reading": ""
+      },
+      {
+       "surface": "言",
+       "reading": "い"
+      },
+      {
+       "surface": "われたから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "神便鬼毒酒を鬼が飲むと、どうなりますか。",
@@ -165,7 +335,73 @@
      "pt": "O corpo fica dormente e ele não se mexe; já o humano ganha força (frase 30).",
      "my": "ကိုယ်ထုံကျဉ်ပြီး မလှုပ်နိုင်တော့; လူသောက်ရင်တော့ အားတက်လာ (ဝါကျ ၃၀)။",
      "th": "ร่างกายชาจนขยับไม่ได้ ส่วนมนุษย์ดื่มแล้วจะมีเรี่ยวแรง (ประโยคที่ 30)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "神便鬼毒酒",
+      "reading": "じんべんきどくしゅ"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "鬼",
+      "reading": "おに"
+     },
+     {
+      "surface": "が",
+      "reading": ""
+     },
+     {
+      "surface": "飲",
+      "reading": "の"
+     },
+     {
+      "surface": "むと、どうなりますか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "力",
+       "reading": "ちから"
+      },
+      {
+       "surface": "がわく",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "体",
+       "reading": "からだ"
+      },
+      {
+       "surface": "がしびれて",
+       "reading": ""
+      },
+      {
+       "surface": "動",
+       "reading": "うご"
+      },
+      {
+       "surface": "けなくなる",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "人間",
+       "reading": "にんげん"
+      },
+      {
+       "surface": "になる",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "川のほとりで洗たくをしていた女の人は、だれでしたか。",
@@ -187,7 +423,93 @@
      "pt": "Uma moça raptada da capital pelos oni e obrigada a lavar suas roupas (frases 40–41).",
      "my": "မြို့တော်ကနေ ဘီလူး ပြန်ပေးဆွဲခံရပြီး အဝတ်လျှော်ခိုင်းခံရတဲ့ မိန်းမ (ဝါကျ ၄၀–၄၁)။",
      "th": "หญิงที่ถูกยักษ์ลักพาตัวมาจากนครและถูกบังคับให้ซักผ้า (ประโยคที่ 40–41)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "川",
+      "reading": "かわ"
+     },
+     {
+      "surface": "のほとりで",
+      "reading": ""
+     },
+     {
+      "surface": "洗",
+      "reading": "せん"
+     },
+     {
+      "surface": "たくをしていた",
+      "reading": ""
+     },
+     {
+      "surface": "女",
+      "reading": "おんな"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "人",
+      "reading": "ひと"
+     },
+     {
+      "surface": "は、だれでしたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "山",
+       "reading": "やま"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "神様",
+       "reading": "かみさま"
+      }
+     ],
+     [
+      {
+       "surface": "大納言",
+       "reading": "だいなごん"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "姫",
+       "reading": "ひめ"
+      }
+     ],
+     [
+      {
+       "surface": "都",
+       "reading": "みやこ"
+      },
+      {
+       "surface": "から",
+       "reading": ""
+      },
+      {
+       "surface": "鬼",
+       "reading": "おに"
+      },
+      {
+       "surface": "にさらわれてきた",
+       "reading": ""
+      },
+      {
+       "surface": "人",
+       "reading": "ひと"
+      }
+     ]
+    ]
    }
   ]
  },

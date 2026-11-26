@@ -46,7 +46,21 @@
      "my": "~ နေရမယ့်အချိန် မဟုတ် (ပိုအရေးကြီးတာ ရှိ)။ て ပုံစံ + いる場合ではない။ ဥပမာ: お坊さんになっている場合ではありません (ရဟန်းလုပ်နေရမယ့်အချိန် မဟုတ်ဘူး)။ 寝ている場合じゃない、試験は明日だ (အိပ်နေရမယ့်အချိန် မဟုတ်ဘူး၊ မနက်ဖြန် စာမေးပွဲ)။",
      "th": "ไม่ใช่เวลามา ~ (มีเรื่องเร่งด่วนกว่า) รูป て + いる場合ではない ตัวอย่าง: お坊さんになっている場合ではありません (ไม่ใช่เวลามาบวชเป็นพระ) 寝ている場合じゃない、試験は明日だ (ไม่ใช่เวลานอน พรุ่งนี้สอบแล้ว)"
     },
-    "example": 14
+    "example": 14,
+    "patternFurigana": [
+     {
+      "surface": "〜ている",
+      "reading": ""
+     },
+     {
+      "surface": "場合",
+      "reading": "ばあい"
+     },
+     {
+      "surface": "ではない",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "〜の代わりに",
@@ -63,7 +77,21 @@
      "my": "~ အစား။ နာမ် + の代わりに; ကြိယာ + 代わりに။ ဥပမာ: 木の枝を刀の代わりにして (သစ်ကိုင်းကို ဓားအစား သုံးပြီး)။ 父の代わりに私が行きます (အဖေ့အစား ကျွန်တော် သွားမယ်)။",
      "th": "แทน ~ คำนาม + の代わりに กริยา + 代わりに ตัวอย่าง: 木の枝を刀の代わりにして (ใช้กิ่งไม้แทนดาบ) 父の代わりに私が行きます (ฉันจะไปแทนพ่อ)"
     },
-    "example": 17
+    "example": 17,
+    "patternFurigana": [
+     {
+      "surface": "〜の",
+      "reading": ""
+     },
+     {
+      "surface": "代",
+      "reading": "か"
+     },
+     {
+      "surface": "わりに",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "〜さえ",
@@ -121,7 +149,113 @@
      "pt": "Porque Kiyomori poupou sua vida com a condição de ele virar monge (frase 6).",
      "my": "ကိယိုမိုရိက ရဟန်းဖြစ်ရမယ်ဆိုတဲ့ အခြေအနေနဲ့ အသက်ချမ်းသာပေးလို့ (ဝါကျ ၆)။",
      "th": "เพราะคิโยโมริไว้ชีวิตโดยมีข้อแม้ว่าต้องบวชเป็นพระ (ประโยคที่ 6)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "牛若",
+      "reading": "うしわか"
+     },
+     {
+      "surface": "は、どうして",
+      "reading": ""
+     },
+     {
+      "surface": "寺",
+      "reading": "てら"
+     },
+     {
+      "surface": "に",
+      "reading": ""
+     },
+     {
+      "surface": "入",
+      "reading": "い"
+     },
+     {
+      "surface": "れられましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "自分",
+       "reading": "じぶん"
+      },
+      {
+       "surface": "からお",
+       "reading": ""
+      },
+      {
+       "surface": "坊",
+       "reading": "ぼう"
+      },
+      {
+       "surface": "さんになりたかったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "清盛",
+       "reading": "きよもり"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "命",
+       "reading": "いのち"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "助",
+       "reading": "たす"
+      },
+      {
+       "surface": "ける",
+       "reading": ""
+      },
+      {
+       "surface": "代",
+       "reading": "か"
+      },
+      {
+       "surface": "わりに、そう",
+       "reading": ""
+      },
+      {
+       "surface": "決",
+       "reading": "き"
+      },
+      {
+       "surface": "めたから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "母",
+       "reading": "はは"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "病気",
+       "reading": "びょうき"
+      },
+      {
+       "surface": "だったから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "牛若に剣を教えたのは、だれですか。",
@@ -143,7 +277,89 @@
      "pt": "Sōjōbō, o chefe dos tengu do Monte Kurama (frases 23–25).",
      "my": "ကူရာမတောင်က တဲန်ဂူ ခေါင်းဆောင် ဆိုးဂျိုးဘို (ဝါကျ ၂၃–၂၅)။",
      "th": "โซโจโบ หัวหน้าเท็งงุแห่งภูเขาคุรามะ (ประโยคที่ 23–25)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "牛若",
+      "reading": "うしわか"
+     },
+     {
+      "surface": "に",
+      "reading": ""
+     },
+     {
+      "surface": "剣",
+      "reading": "けん"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "教",
+      "reading": "おし"
+     },
+     {
+      "surface": "えたのは、だれですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "鞍馬山",
+       "reading": "くらまやま"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "天狗",
+       "reading": "てんぐ"
+      },
+      {
+       "surface": "、",
+       "reading": ""
+      },
+      {
+       "surface": "僧正坊",
+       "reading": "そうじょうぼう"
+      }
+     ],
+     [
+      {
+       "surface": "寺",
+       "reading": "てら"
+      },
+      {
+       "surface": "のお",
+       "reading": ""
+      },
+      {
+       "surface": "坊",
+       "reading": "ぼう"
+      },
+      {
+       "surface": "さん",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "父",
+       "reading": "ちち"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "源義朝",
+       "reading": "みなもとのよしとも"
+      }
+     ]
+    ]
    },
    {
     "ja": "弁慶は、五条の橋で何をしていましたか。",
@@ -165,7 +381,125 @@
      "pt": "Parava guerreiros na ponte e tomava suas espadas para juntar mil (frases 39–40).",
      "my": "ဓားတစ်ထောင် စုဖို့ တံတားဖြတ်တဲ့ စစ်သူရဲတွေရဲ့ ဓားကို လုယူခဲ့ (ဝါကျ ၃၉–၄၀)။",
      "th": "ขวางนักรบบนสะพานแล้วชิงดาบ เพื่อสะสมให้ครบพันเล่ม (ประโยคที่ 39–40)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "弁慶",
+      "reading": "べんけい"
+     },
+     {
+      "surface": "は、",
+      "reading": ""
+     },
+     {
+      "surface": "五条",
+      "reading": "ごじょう"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "橋",
+      "reading": "はし"
+     },
+     {
+      "surface": "で",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "をしていましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "笛",
+       "reading": "ふえ"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "吹",
+       "reading": "ふ"
+      },
+      {
+       "surface": "いていた",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "千本",
+       "reading": "せんぼん"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "刀",
+       "reading": "かたな"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "集",
+       "reading": "あつ"
+      },
+      {
+       "surface": "めるために、",
+       "reading": ""
+      },
+      {
+       "surface": "武士",
+       "reading": "ぶし"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "刀",
+       "reading": "かたな"
+      },
+      {
+       "surface": "をうばっていた",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "お",
+       "reading": ""
+      },
+      {
+       "surface": "経",
+       "reading": "けい"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "読",
+       "reading": "よ"
+      },
+      {
+       "surface": "んでいた",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "橋に現れた若者が持っていたものは、何でしたか。",
@@ -187,7 +521,101 @@
      "pt": "Uma flauta e uma espada magnífica decorada com ouro (frases 47–48).",
      "my": "ပလွေ နဲ့ ရွှေနဲ့ အလှဆင်ထားတဲ့ ဓား (ဝါကျ ၄၇–၄၈)။",
      "th": "ขลุ่ยกับดาบงดงามประดับทอง (ประโยคที่ 47–48)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "橋",
+      "reading": "はし"
+     },
+     {
+      "surface": "に",
+      "reading": ""
+     },
+     {
+      "surface": "現",
+      "reading": "あらわ"
+     },
+     {
+      "surface": "れた",
+      "reading": ""
+     },
+     {
+      "surface": "若者",
+      "reading": "わかもの"
+     },
+     {
+      "surface": "が",
+      "reading": ""
+     },
+     {
+      "surface": "持",
+      "reading": "も"
+     },
+     {
+      "surface": "っていたものは、",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "でしたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "笛",
+       "reading": "ふえ"
+      },
+      {
+       "surface": "と、",
+       "reading": ""
+      },
+      {
+       "surface": "金",
+       "reading": "きん"
+      },
+      {
+       "surface": "でかざられた",
+       "reading": ""
+      },
+      {
+       "surface": "刀",
+       "reading": "かたな"
+      }
+     ],
+     [
+      {
+       "surface": "なぎなたと",
+       "reading": ""
+      },
+      {
+       "surface": "七",
+       "reading": "なな"
+      },
+      {
+       "surface": "つの",
+       "reading": ""
+      },
+      {
+       "surface": "道具",
+       "reading": "どうぐ"
+      }
+     ],
+     [
+      {
+       "surface": "羽",
+       "reading": "はね"
+      },
+      {
+       "surface": "のうちわ",
+       "reading": ""
+      }
+     ]
+    ]
    }
   ]
  },

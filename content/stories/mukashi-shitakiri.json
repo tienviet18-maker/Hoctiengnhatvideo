@@ -59,7 +59,21 @@
      "my": "~ မှာ သေချာတယ် (ခန့်မှန်းချက်အပေါ် ခိုင်မာစွာ ယုံကြည်)။ ရိုးရိုးပုံစံ (နာမ် / な နာမဝိသေသန だ ဖြုတ်) + に違いない။ だろう ထက် ခိုင်၊ はずだ နဲ့ဆင်ပေမဲ့ ပိုပုဂ္ဂလိက။ ဥပမာ: 大きいつづらには、もっと入っているに違いない (သေတ္တာကြီးထဲမှာ ပိုများမှာ သေချာတယ်)။ 電気が消えている。もう寝たに違いない (မီးပိတ်ထားတယ်၊ အိပ်သွားပြီ သေချာတယ်)။",
      "th": "ต้อง ~ แน่ๆ (ผู้พูดมั่นใจจากการคาดคะเน) รูปธรรมดา (คำนาม / คุณศัพท์ な ตัด だ) + に違いない แรงกว่า だろう ใกล้เคียง はずだ แต่เป็นความรู้สึกส่วนตัวมากกว่า ตัวอย่าง: 大きいつづらには、もっと入っているに違いない (หีบใหญ่ต้องมีมากกว่าแน่ๆ) 電気が消えている。もう寝たに違いない (ไฟดับแล้ว ต้องหลับไปแล้วแน่ๆ)"
     },
-    "example": 40
+    "example": 40,
+    "patternFurigana": [
+     {
+      "surface": "〜に",
+      "reading": ""
+     },
+     {
+      "surface": "違",
+      "reading": "ちが"
+     },
+     {
+      "surface": "いない",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "〜ついでに",
@@ -117,7 +131,109 @@
      "pt": "Porque o pardal comeu a goma da roupa dela (frases 10–14).",
      "my": "စာကလေးက အဝတ်လျှော်ကော်ပျစ်ကို စားလိုက်လို့ (စာကြောင်း ၁၀–၁၄)။",
      "th": "เพราะนกกระจอกกินแป้งเปียกสำหรับซักผ้าของนาง (ประโยค 10–14)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "おばあさんは、なぜ",
+      "reading": ""
+     },
+     {
+      "surface": "雀",
+      "reading": "すずめ"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "舌",
+      "reading": "した"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "切",
+      "reading": "き"
+     },
+     {
+      "surface": "りましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "雀",
+       "reading": "すずめ"
+      },
+      {
+       "surface": "がうるさく",
+       "reading": ""
+      },
+      {
+       "surface": "鳴",
+       "reading": "な"
+      },
+      {
+       "surface": "いたから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "雀",
+       "reading": "すずめ"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "洗濯",
+       "reading": "せんたく"
+      },
+      {
+       "surface": "ののりを",
+       "reading": ""
+      },
+      {
+       "surface": "食",
+       "reading": "た"
+      },
+      {
+       "surface": "べたから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "雀",
+       "reading": "すずめ"
+      },
+      {
+       "surface": "がおじいさんの",
+       "reading": ""
+      },
+      {
+       "surface": "米",
+       "reading": "こめ"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "食",
+       "reading": "た"
+      },
+      {
+       "surface": "べたから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "おじいさんは、なぜ小さいつづらを選びましたか。",
@@ -139,7 +255,101 @@
      "pt": "Porque era velho e não tinha força (frase 37).",
      "my": "အသက်ကြီးပြီး အားမရှိလို့ (စာကြောင်း ၃၇)။",
      "th": "เพราะแก่แล้วและไม่ค่อยมีแรง (ประโยค 37)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "おじいさんは、なぜ",
+      "reading": ""
+     },
+     {
+      "surface": "小",
+      "reading": "ちい"
+     },
+     {
+      "surface": "さいつづらを",
+      "reading": ""
+     },
+     {
+      "surface": "選",
+      "reading": "えら"
+     },
+     {
+      "surface": "びましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "年寄",
+       "reading": "としよ"
+      },
+      {
+       "surface": "りで、",
+       "reading": ""
+      },
+      {
+       "surface": "力",
+       "reading": "ちから"
+      },
+      {
+       "surface": "がないから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "小",
+       "reading": "ちい"
+      },
+      {
+       "surface": "さいほうが",
+       "reading": ""
+      },
+      {
+       "surface": "宝物",
+       "reading": "たからもの"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "多",
+       "reading": "おお"
+      },
+      {
+       "surface": "いと",
+       "reading": ""
+      },
+      {
+       "surface": "思",
+       "reading": "おも"
+      },
+      {
+       "surface": "ったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "雀",
+       "reading": "すずめ"
+      },
+      {
+       "surface": "にそう",
+       "reading": ""
+      },
+      {
+       "surface": "言",
+       "reading": "い"
+      },
+      {
+       "surface": "われたから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "牛を洗う男に頼まれたとき、おばあさんはどうしましたか。",
@@ -161,7 +371,109 @@
      "pt": "Disse que estava com pressa e não ajudou (frases 45–46).",
      "my": "အလျင်လိုတယ်ဆိုပြီး မကူခဲ့ဘူး (စာကြောင်း ၄၅–၄၆)။",
      "th": "บอกว่ารีบอยู่และไม่ช่วย (ประโยค 45–46)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "牛",
+      "reading": "うし"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "洗",
+      "reading": "あら"
+     },
+     {
+      "surface": "う",
+      "reading": ""
+     },
+     {
+      "surface": "男",
+      "reading": "おとこ"
+     },
+     {
+      "surface": "に",
+      "reading": ""
+     },
+     {
+      "surface": "頼",
+      "reading": "たの"
+     },
+     {
+      "surface": "まれたとき、おばあさんはどうしましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "ていねいに",
+       "reading": ""
+      },
+      {
+       "surface": "牛",
+       "reading": "うし"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "洗",
+       "reading": "あら"
+      },
+      {
+       "surface": "った",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "急",
+       "reading": "いそ"
+      },
+      {
+       "surface": "いでいると",
+       "reading": ""
+      },
+      {
+       "surface": "言",
+       "reading": "い"
+      },
+      {
+       "surface": "って、",
+       "reading": ""
+      },
+      {
+       "surface": "手伝",
+       "reading": "てつだ"
+      },
+      {
+       "surface": "わなかった",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "男",
+       "reading": "おとこ"
+      },
+      {
+       "surface": "にお",
+       "reading": ""
+      },
+      {
+       "surface": "金",
+       "reading": "かね"
+      },
+      {
+       "surface": "をあげた",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "大きいつづらの中には、何が入っていましたか。",
@@ -183,7 +495,105 @@
      "pt": "Fantasmas, cobras e centopeias (frase 55).",
      "my": "သရဲ၊ မြွေနဲ့ ကင်းခြေများ (စာကြောင်း ၅၅)။",
      "th": "ผี งู และตะขาบ (ประโยค 55)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "大",
+      "reading": "おお"
+     },
+     {
+      "surface": "きいつづらの",
+      "reading": ""
+     },
+     {
+      "surface": "中",
+      "reading": "なか"
+     },
+     {
+      "surface": "には、",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "が",
+      "reading": ""
+     },
+     {
+      "surface": "入",
+      "reading": "はい"
+     },
+     {
+      "surface": "っていましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "金",
+       "reading": "きん"
+      },
+      {
+       "surface": "や",
+       "reading": ""
+      },
+      {
+       "surface": "銀",
+       "reading": "ぎん"
+      },
+      {
+       "surface": "や",
+       "reading": ""
+      },
+      {
+       "surface": "着物",
+       "reading": "きもの"
+      }
+     ],
+     [
+      {
+       "surface": "お",
+       "reading": ""
+      },
+      {
+       "surface": "化",
+       "reading": "ば"
+      },
+      {
+       "surface": "けや",
+       "reading": ""
+      },
+      {
+       "surface": "蛇",
+       "reading": "へび"
+      },
+      {
+       "surface": "やむかで",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "何",
+       "reading": "なに"
+      },
+      {
+       "surface": "も",
+       "reading": ""
+      },
+      {
+       "surface": "入",
+       "reading": "はい"
+      },
+      {
+       "surface": "っていなかった",
+       "reading": ""
+      }
+     ]
+    ]
    }
   ]
  },

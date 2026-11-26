@@ -11,6 +11,7 @@
 // --measure  : chỉ in số đo cấp độ (không cần i18n), dùng khi đang soạn tiếng Nhật.
 // --readings : in cách đọc kuromoji của mọi cụm có kanji để soát furigana bằng mắt.
 // Không cờ   : ghi content/stories/<id>.json (audio/cover được tạo riêng bằng tts.mjs, cover.mjs).
+import { execFileSync } from "node:child_process";
 import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { dirname, join, basename } from "node:path";
 import { loadTokenizer, measure, wordLevel, vocabLevel } from "../lib/level.mjs";
@@ -338,6 +339,7 @@ export async function build(file, { mode } = {}) {
     sentences,
   };
   writeFileSync(join(root, "content/stories", `${meta.id}.json`), JSON.stringify(out, null, 1) + "\n");
+  if (out.lesson) execFileSync("node", [join(root, "scripts/lesson-furigana.mjs"), meta.id], { stdio: "inherit" });
   console.log(`✓ ${meta.id}: ${sentences.length} câu -> content/stories/${meta.id}.json`);
 }
 

@@ -77,7 +77,21 @@
           "pt": "Fazer / deixar alguém ~ (causativo).",
           "my": "~ခိုင်း (စေခိုင်းပုံ)။",
           "th": "ให้ / ทำให้ใคร~"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜（さ）せる（",
+            "reading": ""
+          },
+          {
+            "surface": "使役",
+            "reading": "しえき"
+          },
+          {
+            "surface": "）",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜（よ）うと",
@@ -119,7 +133,83 @@
           "pt": "A rainha deu à luz uma grande concha.",
           "my": "မိဖုရားက ခရုသင်းကြီး မွေးတယ်။",
           "th": "พระมเหสีประสูติหอยสังข์ใหญ่"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "王妃",
+            "reading": "おうひ"
+          },
+          {
+            "surface": "さまが",
+            "reading": ""
+          },
+          {
+            "surface": "産",
+            "reading": "う"
+          },
+          {
+            "surface": "んだのは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "だった？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "大",
+              "reading": "おお"
+            },
+            {
+              "surface": "きなほら",
+              "reading": ""
+            },
+            {
+              "surface": "貝",
+              "reading": "がい"
+            }
+          ],
+          [
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "のたまご",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "小",
+              "reading": "ちい"
+            },
+            {
+              "surface": "さな",
+              "reading": ""
+            },
+            {
+              "surface": "竹",
+              "reading": "たけ"
+            }
+          ],
+          [
+            {
+              "surface": "白",
+              "reading": "しろ"
+            },
+            {
+              "surface": "いヘビ",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "「ンゴ」とは、何？",
@@ -142,7 +232,95 @@
           "pt": "Ngo é o disfarce de um homem escuro e feio.",
           "my": "ငေါ့ဆိုတာ မည်းပြီး ရုပ်ဆိုးတဲ့ လူရဲ့ ဖုံးအုပ်။",
           "th": "เงาะคือรูปชายผิวดำอัปลักษณ์"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "「ンゴ」とは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "黒",
+              "reading": "くろ"
+            },
+            {
+              "surface": "くて、みにくい",
+              "reading": ""
+            },
+            {
+              "surface": "男",
+              "reading": "おとこ"
+            },
+            {
+              "surface": "のかぶりもの",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "金色",
+              "reading": "きんいろ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "馬",
+              "reading": "うま"
+            }
+          ],
+          [
+            {
+              "surface": "鬼",
+              "reading": "おに"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "女",
+              "reading": "おんな"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "名前",
+              "reading": "なまえ"
+            }
+          ],
+          [
+            {
+              "surface": "花",
+              "reading": "はな"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "首",
+              "reading": "くび"
+            },
+            {
+              "surface": "かざり",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "ロッチャナー姫が、ンゴを選んだのは、なぜ？",
@@ -165,7 +343,119 @@
           "pt": "Ela via o corpo dourado sob o disfarce.",
           "my": "ဖုံးအုပ်အောက်က ရွှေကိုယ်ကို မြင်လို့။",
           "th": "นางเห็นร่างทองใต้รูปเงาะ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ロッチャナー",
+            "reading": ""
+          },
+          {
+            "surface": "姫",
+            "reading": "ひめ"
+          },
+          {
+            "surface": "が、ンゴを",
+            "reading": ""
+          },
+          {
+            "surface": "選",
+            "reading": "えら"
+          },
+          {
+            "surface": "んだのは、なぜ？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "かぶりものの",
+              "reading": ""
+            },
+            {
+              "surface": "下",
+              "reading": "した"
+            },
+            {
+              "surface": "の、",
+              "reading": ""
+            },
+            {
+              "surface": "金色",
+              "reading": "きんいろ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "体",
+              "reading": "からだ"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "見",
+              "reading": "み"
+            },
+            {
+              "surface": "えたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さまに",
+              "reading": ""
+            },
+            {
+              "surface": "言",
+              "reading": "い"
+            },
+            {
+              "surface": "われたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ンゴがお",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "持",
+              "reading": "も"
+            },
+            {
+              "surface": "ちだったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ほかの",
+              "reading": ""
+            },
+            {
+              "surface": "王子",
+              "reading": "おうじ"
+            },
+            {
+              "surface": "がいなかったから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "サントーンと「はちかづき姫」で、同じところは？",
@@ -188,7 +478,143 @@
           "pt": "Nas duas, o caçula enxerga a verdade.",
           "my": "နှစ်ပုဒ်လုံး အငယ်ဆုံးက အစစ်ကို မြင်တယ်။",
           "th": "ทั้งสองเรื่อง ลูกคนเล็กมองเห็นตัวจริง"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "サントーンと「はちかづき",
+            "reading": ""
+          },
+          {
+            "surface": "姫",
+            "reading": "ひめ"
+          },
+          {
+            "surface": "」で、",
+            "reading": ""
+          },
+          {
+            "surface": "同",
+            "reading": "おな"
+          },
+          {
+            "surface": "じところは？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "いちばん",
+              "reading": ""
+            },
+            {
+              "surface": "下",
+              "reading": "した"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "子",
+              "reading": "こ"
+            },
+            {
+              "surface": "が、",
+              "reading": ""
+            },
+            {
+              "surface": "本当",
+              "reading": "ほんとう"
+            },
+            {
+              "surface": "のすがたを",
+              "reading": ""
+            },
+            {
+              "surface": "見",
+              "reading": "み"
+            },
+            {
+              "surface": "ぬく",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "主人公",
+              "reading": "しゅじんこう"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "貝",
+              "reading": "かい"
+            },
+            {
+              "surface": "から",
+              "reading": ""
+            },
+            {
+              "surface": "生",
+              "reading": "う"
+            },
+            {
+              "surface": "まれる",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "主人公",
+              "reading": "しゅじんこう"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "女",
+              "reading": "おんな"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "子",
+              "reading": "こ"
+            }
+          ],
+          [
+            {
+              "surface": "最後",
+              "reading": "さいご"
+            },
+            {
+              "surface": "に、",
+              "reading": ""
+            },
+            {
+              "surface": "鬼",
+              "reading": "おに"
+            },
+            {
+              "surface": "と",
+              "reading": ""
+            },
+            {
+              "surface": "戦",
+              "reading": "たたか"
+            },
+            {
+              "surface": "う",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

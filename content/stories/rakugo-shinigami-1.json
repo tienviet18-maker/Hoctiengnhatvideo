@@ -80,7 +80,21 @@
      "my": "~ တဲ့ (ကြားရတဲ့ သတင်း)။ ရိုးရိုးပုံစံ + そうだ (ကြိယာ ပင်စည်နဲ့တွဲတဲ့ \"ပုံရတယ်\" そう နဲ့ မတူ)။ ဥပမာ: どんな病気でも治るそうだ (ဘယ်ရောဂါမဆို ပျောက်တယ်တဲ့)။ 明日は雨が降るそうです (မနက်ဖြန် မိုးရွာမယ်တဲ့)။",
      "th": "ได้ยินว่า ~ (ข้อมูลที่ได้ฟังมา) รูปธรรมดา + そうだ (ต่างจาก そう \"ดูเหมือน\" ที่ต่อกับรากกริยา) ตัวอย่าง: どんな病気でも治るそうだ (ได้ยินว่าโรคอะไรก็หาย) 明日は雨が降るそうです (ได้ยินว่าพรุ่งนี้ฝนตก)"
     },
-    "example": 48
+    "example": 48,
+    "patternFurigana": [
+     {
+      "surface": "〜そうだ（",
+      "reading": ""
+     },
+     {
+      "surface": "伝聞",
+      "reading": "でんぶん"
+     },
+     {
+      "surface": "）",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "〜ものではない",
@@ -121,7 +135,109 @@
      "pt": "Bater palmas duas vezes e recitar a fórmula (frases 27–28).",
      "my": "လက်ခုပ် နှစ်ချက်တီးပြီး မန္တန်ရွတ် (စာကြောင်း ၂၇–၂၈)။",
      "th": "ตบมือสองครั้งแล้วท่องคาถา (ประโยค 27–28)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "死神",
+      "reading": "しにがみ"
+     },
+     {
+      "surface": "が",
+      "reading": ""
+     },
+     {
+      "surface": "足",
+      "reading": "あし"
+     },
+     {
+      "surface": "のほうに",
+      "reading": ""
+     },
+     {
+      "surface": "座",
+      "reading": "すわ"
+     },
+     {
+      "surface": "っていたら、どうすればいいですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "何",
+       "reading": "なに"
+      },
+      {
+       "surface": "もしないで",
+       "reading": ""
+      },
+      {
+       "surface": "帰",
+       "reading": "かえ"
+      },
+      {
+       "surface": "る",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "手",
+       "reading": "て"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "二",
+       "reading": "に"
+      },
+      {
+       "surface": "回",
+       "reading": "かい"
+      },
+      {
+       "surface": "たたいて",
+       "reading": ""
+      },
+      {
+       "surface": "呪文",
+       "reading": "じゅもん"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "唱",
+       "reading": "とな"
+      },
+      {
+       "surface": "える",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "薬",
+       "reading": "くすり"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "飲",
+       "reading": "の"
+      },
+      {
+       "surface": "ませる",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "死神が枕のほうに座っていたら、どうなりますか。",
@@ -143,7 +259,89 @@
      "pt": "O doente não tem mais salvação (frase 31).",
      "my": "လူနာ အသက်မရှင်နိုင်တော့ (စာကြောင်း ၃၁)။",
      "th": "คนป่วยไม่รอดแล้ว (ประโยค 31)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "死神",
+      "reading": "しにがみ"
+     },
+     {
+      "surface": "が",
+      "reading": ""
+     },
+     {
+      "surface": "枕",
+      "reading": "まくら"
+     },
+     {
+      "surface": "のほうに",
+      "reading": ""
+     },
+     {
+      "surface": "座",
+      "reading": "すわ"
+     },
+     {
+      "surface": "っていたら、どうなりますか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "もう",
+       "reading": ""
+      },
+      {
+       "surface": "助",
+       "reading": "たす"
+      },
+      {
+       "surface": "からない",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "すぐに",
+       "reading": ""
+      },
+      {
+       "surface": "治",
+       "reading": "なお"
+      },
+      {
+       "surface": "る",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "死神",
+       "reading": "しにがみ"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "足",
+       "reading": "あし"
+      },
+      {
+       "surface": "のほうへ",
+       "reading": ""
+      },
+      {
+       "surface": "動",
+       "reading": "うご"
+      },
+      {
+       "surface": "く",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "八五郎は、どうして医者として有名になりましたか。",
@@ -165,7 +363,81 @@
      "pt": "Porque ele nunca errava (frase 52).",
      "my": "ပြောတာ တစ်ခါမှ မလွဲလို့ (စာကြောင်း ၅၂)။",
      "th": "เพราะพูดอะไรไม่เคยพลาดสักครั้ง (ประโยค 52)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "八五郎",
+      "reading": "はちごろう"
+     },
+     {
+      "surface": "は、どうして",
+      "reading": ""
+     },
+     {
+      "surface": "医者",
+      "reading": "いしゃ"
+     },
+     {
+      "surface": "として",
+      "reading": ""
+     },
+     {
+      "surface": "有名",
+      "reading": "ゆうめい"
+     },
+     {
+      "surface": "になりましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "薬",
+       "reading": "くすり"
+      },
+      {
+       "surface": "にくわしかったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "言",
+       "reading": "い"
+      },
+      {
+       "surface": "ったことが",
+       "reading": ""
+      },
+      {
+       "surface": "一",
+       "reading": "いち"
+      },
+      {
+       "surface": "度",
+       "reading": "ど"
+      },
+      {
+       "surface": "もはずれなかったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "お",
+       "reading": ""
+      },
+      {
+       "surface": "金",
+       "reading": "かね"
+      },
+      {
+       "surface": "をとらなかったから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "お金持ちになった八五郎は、何を忘れてしまいましたか。",
@@ -187,7 +459,85 @@
      "pt": "Os tempos de pobreza (frase 56).",
      "my": "ဆင်းရဲခဲ့တဲ့ နေ့ရက်တွေ (စာကြောင်း ၅၆)။",
      "th": "วันเวลาที่เคยยากจน (ประโยค 56)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "お",
+      "reading": ""
+     },
+     {
+      "surface": "金持",
+      "reading": "かねも"
+     },
+     {
+      "surface": "ちになった",
+      "reading": ""
+     },
+     {
+      "surface": "八五郎",
+      "reading": "はちごろう"
+     },
+     {
+      "surface": "は、",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "忘",
+      "reading": "わす"
+     },
+     {
+      "surface": "れてしまいましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "呪文",
+       "reading": "じゅもん"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "言葉",
+       "reading": "ことば"
+      }
+     ],
+     [
+      {
+       "surface": "死神",
+       "reading": "しにがみ"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "顔",
+       "reading": "かお"
+      }
+     ],
+     [
+      {
+       "surface": "貧乏",
+       "reading": "びんぼう"
+      },
+      {
+       "surface": "だったころのこと",
+       "reading": ""
+      }
+     ]
+    ]
    }
   ]
  },

@@ -42,7 +42,21 @@
           "pt": "Dizem que ~ (repassando informação). Após a forma simples: 雨が降るそうです. Diferente de radical + そうです (降りそうです = parece que vai chover). Ex.: 明日、電車が止まるそうです (dizem que amanhã os trens param).",
           "my": "~ တဲ့ (ကြားသိရသည်)။ ရိုးရိုးပုံနောက်: 雨が降るそうです။ ကြိယာရင်း + そうです (降りそうです = မိုးရွာမယ့်ပုံ) နဲ့ မတူ။ ဥပမာ: 明日、電車が止まるそうです။",
           "th": "ได้ยินว่า ~ (ถ่ายทอดข้อมูล) ต่อท้ายรูปธรรมดา: 雨が降るそうです ต่างจากรากคำ + そうです (降りそうです = ดูเหมือนฝนจะตก) เช่น 明日、電車が止まるそうです (ได้ยินว่าพรุ่งนี้รถไฟหยุดวิ่ง)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜そうです（",
+            "reading": ""
+          },
+          {
+            "surface": "伝聞",
+            "reading": "でんぶん"
+          },
+          {
+            "surface": "）",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜ように見える",
@@ -59,7 +73,21 @@
           "pt": "Parecer ~ (pela aparência). Ex.: あの人は忙しいように見えますが、実はひまです (ele parece ocupado, mas está livre).",
           "my": "~ သလို ထင်ရ (အပြင်ပန်းအရ)။ ဥပမာ: あの人は忙しいように見えますが、実はひまです။",
           "th": "ดูเหมือน ~ (ตัดสินจากภายนอก) เช่น あの人は忙しいように見えますが、実はひまです (คนนั้นดูยุ่งแต่จริง ๆ ว่าง)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜ように",
+            "reading": ""
+          },
+          {
+            "surface": "見",
+            "reading": "み"
+          },
+          {
+            "surface": "える",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜ないように気をつける",
@@ -76,7 +104,21 @@
           "pt": "Cuidar para não ~. Comum no trabalho e em público: 忘れ物をしないように気をつけてください (cuidado para não esquecer nada).",
           "my": "မ ~ အောင် သတိထား။ ရုံး/လူထုနေရာ: 忘れ物をしないように気をつけてください (ပစ္စည်း မကျန်ခဲ့အောင် သတိထားပါ)။",
           "th": "ระวังไม่ให้ ~ ใช้บ่อยที่ทำงานและที่สาธารณะ: 忘れ物をしないように気をつけてください (ระวังอย่าลืมของ)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜ないように",
+            "reading": ""
+          },
+          {
+            "surface": "気",
+            "reading": "き"
+          },
+          {
+            "surface": "をつける",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "Aのせい",
@@ -117,7 +159,105 @@
           "pt": "Muitas engrenagens de agosto tinham defeito, e o maior cliente ameaçou parar.",
           "my": "ဩဂုတ် ဂီယာတွေမှာ ချို့ယွင်းပစ္စည်း များလို့ အကြီးဆုံးဖောက်သည်က ရပ်မယ်လို့ ခြိမ်းခြောက်။",
           "th": "เฟืองเดือนสิงหาคมมีของเสียมาก ลูกค้ารายใหญ่จึงขู่จะเลิกค้าขาย"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "大鷹",
+            "reading": "おおたか"
+          },
+          {
+            "surface": "工業",
+            "reading": "こうぎょう"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "取引",
+            "reading": "とりひき"
+          },
+          {
+            "surface": "をやめるかもしれないのは、どうしてですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "値段",
+              "reading": "ねだん"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "高",
+              "reading": "たか"
+            },
+            {
+              "surface": "いから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "八月",
+              "reading": "はちがつ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "歯車",
+              "reading": "はぐるま"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "不",
+              "reading": "ふ"
+            },
+            {
+              "surface": "良品",
+              "reading": "りょうひん"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "多",
+              "reading": "おお"
+            },
+            {
+              "surface": "かったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "社長",
+              "reading": "しゃちょう"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "病気",
+              "reading": "びょうき"
+            },
+            {
+              "surface": "だから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "岩田さんに聞かれたとき、ミンはどうしましたか。",
@@ -139,7 +279,69 @@
           "pt": "Minh mentiu que não havia nada, por causa do aviso e do olhar de Iwata.",
           "my": "မှတ်စုထဲက သတိပေးချက်နဲ့ အီဝါတရဲ့ မျက်လုံးကြောင့် မင်းက ဘာမှမရှိဘူးလို့ လိမ်ခဲ့။",
           "th": "มิญโกหกว่าไม่มีอะไร เพราะคำเตือนในสมุดและสายตาของอิวาตะ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "岩田",
+            "reading": "いわた"
+          },
+          {
+            "surface": "さんに",
+            "reading": ""
+          },
+          {
+            "surface": "聞",
+            "reading": "き"
+          },
+          {
+            "surface": "かれたとき、ミンはどうしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "ノートのことを",
+              "reading": ""
+            },
+            {
+              "surface": "話",
+              "reading": "はな"
+            },
+            {
+              "surface": "した",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ノートのことを",
+              "reading": ""
+            },
+            {
+              "surface": "話",
+              "reading": "はな"
+            },
+            {
+              "surface": "さなかった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ノートを",
+              "reading": ""
+            },
+            {
+              "surface": "岩田",
+              "reading": "いわた"
+            },
+            {
+              "surface": "さんにわたした",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "会社の健康保険に入ると、病院ではいくら払いますか。",
@@ -161,7 +363,77 @@
           "pt": "Com seguro de saúde, paga-se 30% dos custos médicos.",
           "my": "ကျန်းမာရေးအာမခံ ရှိရင် ကုသစရိတ်ရဲ့ ၃၀% ပဲ ပေးရ။",
           "th": "มีประกันสุขภาพ จ่ายค่ารักษาแค่ 30%"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "会社",
+            "reading": "かいしゃ"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "健康",
+            "reading": "けんこう"
+          },
+          {
+            "surface": "保険",
+            "reading": "ほけん"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "入",
+            "reading": "はい"
+          },
+          {
+            "surface": "ると、",
+            "reading": ""
+          },
+          {
+            "surface": "病院",
+            "reading": "びょういん"
+          },
+          {
+            "surface": "ではいくら",
+            "reading": ""
+          },
+          {
+            "surface": "払",
+            "reading": "はら"
+          },
+          {
+            "surface": "いますか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "全部",
+              "reading": "ぜんぶ"
+            }
+          ],
+          [
+            {
+              "surface": "半分",
+              "reading": "はんぶん"
+            }
+          ],
+          [
+            {
+              "surface": "三",
+              "reading": "さん"
+            },
+            {
+              "surface": "割",
+              "reading": "わり"
+            }
+          ]
+        ]
       },
       {
         "ja": "ハイさんのノートと報告書では、何がちがっていましたか。",
@@ -183,7 +455,77 @@
           "pt": "O caderno dizia 3,8%; o relatório, 0,2%. Alguém alterou o número.",
           "my": "ဟိုင့်မှတ်စုမှာ ၃.၈%၊ ရုံးအစီရင်ခံစာမှာ ၀.၂%: တစ်ယောက်ယောက် ပြောင်းထား။",
           "th": "สมุดของไห่เขียน 3.8% แต่รายงานเขียน 0.2% มีคนแก้ตัวเลข"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ハイさんのノートと",
+            "reading": ""
+          },
+          {
+            "surface": "報告",
+            "reading": "ほうこく"
+          },
+          {
+            "surface": "書",
+            "reading": "しょ"
+          },
+          {
+            "surface": "では、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "がちがっていましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "不",
+              "reading": "ふ"
+            },
+            {
+              "surface": "良品",
+              "reading": "りょうひん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "数字",
+              "reading": "すうじ"
+            }
+          ],
+          [
+            {
+              "surface": "工場",
+              "reading": "こうじょう"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "住所",
+              "reading": "じゅうしょ"
+            }
+          ],
+          [
+            {
+              "surface": "ハイさんの",
+              "reading": ""
+            },
+            {
+              "surface": "名前",
+              "reading": "なまえ"
+            }
+          ]
+        ]
       }
     ]
   },
