@@ -492,3 +492,10 @@ Việt chọn: Số đỏ và Truyện Kiều (văn xuôi) ở N2, Hoàng Lê nh
 - `scripts/decks/tr2jsonl.py`: dòng `m` (nghĩa) giờ là tuỳ chọn. Thẻ nào mà nghĩa 11 ngôn ngữ đã có sẵn trong vocab truyện/video thì chỉ cần dịch câu ví dụ.
 - Tổng hiện có 3 bộ (Kính ngữ, Công sở N5, Công sở N4) với 323 thẻ. Có 105 từ trong truyện/video được thêm câu ví dụ và audio ViBJT (`extras.json`).
 - Còn lại: Công sở N3 (456 thẻ), N2 (235), N1 (414), Ngữ pháp N3–N1.
+
+## Bộ thẻ có sẵn từ ViBJT — lô 3 (Công sở N3)
+
+- Thêm bộ **Tiếng Nhật công sở N3** (456 thẻ). Mỗi thẻ có nghĩa và câu ví dụ đủ 11 ngôn ngữ, kèm audio ViBJT. Nguồn dịch nằm ở `content/sources/decks/src/office-n3-*.txt`.
+- Sửa nghĩa cho `v_trade_29d1ec` (便): bản tiếng Anh của ViBJT ghi "train", nhưng câu ví dụ nói về chuyến bay. 9 ngôn ngữ mới dịch theo nghĩa "chuyến bay".
+- Tổng hiện có 4 bộ với 779 thẻ. 279 từ trong truyện/video có thêm câu ví dụ và audio.
+- Còn lại: Công sở N2 (235 thẻ), N1 (414), Ngữ pháp N3–N1.
