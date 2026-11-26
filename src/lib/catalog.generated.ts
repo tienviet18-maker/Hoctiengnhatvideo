@@ -1819,6 +1819,54 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "lineCount": 18,
   "clipStart": 328,
   "clipEnd": 402
+ },
+ {
+  "id": "peppa-the-birthday-party-magician",
+  "youtubeId": "To5fN_7OHxA",
+  "titles": {
+   "vi": "Peppa Pig: Tiệc sinh nhật và ảo thuật gia",
+   "en": "Peppa Pig: The birthday party magician",
+   "zh-Hans": "小猪佩奇：生日派对的魔术师",
+   "zh-Hant": "粉紅豬小妹：生日派對的魔術師",
+   "ko": "페파 피그: 생일 파티의 마술사",
+   "tl": "Peppa Pig: Ang salamangkero sa kaarawan",
+   "ne": "पेपा पिग: जन्मदिन पार्टीको जादूगर",
+   "id": "Peppa Pig: Pesulap di pesta ulang tahun",
+   "pt": "Peppa Pig: O mágico da festa de aniversário",
+   "my": "ပက်ပါပစ်ဂ်- မွေးနေ့ပွဲက မျက်လှည့်ဆရာ",
+   "th": "เป๊ปป้าพิก: นักมายากลในงานวันเกิด"
+  },
+  "level": "N4",
+  "category": "anime",
+  "durationSec": 307,
+  "free": false,
+  "lineCount": 28,
+  "clipStart": 88,
+  "clipEnd": 179
+ },
+ {
+  "id": "peppa-the-coloured-ball-trick",
+  "youtubeId": "To5fN_7OHxA",
+  "titles": {
+   "vi": "Peppa Pig: Trò ảo thuật quả bóng màu",
+   "en": "Peppa Pig: The coloured ball trick",
+   "zh-Hans": "小猪佩奇：彩色球魔术",
+   "zh-Hant": "粉紅豬小妹：彩色球魔術",
+   "ko": "페파 피그: 색깔 공 마술",
+   "tl": "Peppa Pig: Ang trick ng makukulay na bola",
+   "ne": "पेपा पिग: रंगीन बलको जादू",
+   "id": "Peppa Pig: Sulap bola warna",
+   "pt": "Peppa Pig: O truque das bolas coloridas",
+   "my": "ပက်ပါပစ်ဂ်- အရောင်ဘောလုံး မျက်လှည့်",
+   "th": "เป๊ปป้าพิก: มายากลลูกบอลสี"
+  },
+  "level": "N4",
+  "category": "anime",
+  "durationSec": 307,
+  "free": false,
+  "lineCount": 35,
+  "clipStart": 186,
+  "clipEnd": 274
  }
 ];
 
