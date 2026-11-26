@@ -3841,7 +3841,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 12,
-  "cover": "/covers/toshishun.webp"
+  "cover": "/covers/toshishun.webp",
+  "hidden": true,
+  "replacedBy": "toshishun-1"
  },
  {
   "id": "hana-the-nose",
@@ -10527,7 +10529,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Riwayat Gusuko Budori (2)",
    "pt": "A Vida de Gusuko Budori (2)",
    "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၂)",
-   "th": "ชีวประวัติของกุสุโค บุโดริ (2)"
+   "th": "ชีวประวัติของกุสุโค บุโดริ (2)",
+   "si": "ගුසුකෝ බුදෝරිගේ ජීවිතය (2)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10715,7 +10718,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Botchan (2): Julukan dan Soba Tempura",
    "pt": "Botchan (2): Apelidos e Soba de Tempurá",
    "my": "ဘော့ချန် (၂): နာမည်ပြောင်နဲ့ တန်ပူရာဆိုဘာ",
-   "th": "บ็อตจัง (2): ฉายากับโซบะเทมปุระ"
+   "th": "บ็อตจัง (2): ฉายากับโซบะเทมปุระ",
+   "si": "බොච්චන් (2): විකට නම් සහ ටෙම්පුරා සෝබා"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10746,7 +10750,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Botchan (3): Jaga Malam dan Belalang",
    "pt": "Botchan (3): O Plantão Noturno e os Gafanhotos",
    "my": "ဘော့ချန် (၃): ညစောင့်ခြင်းနဲ့ နှံကောင်များ",
-   "th": "บ็อตจัง (3): เวรกลางคืนกับตั๊กแตน"
+   "th": "บ็อตจัง (3): เวรกลางคืนกับตั๊กแตน",
+   "si": "බොච්චන් (3): රාත්‍රී මුරය සහ පළඟැටියෝ"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10777,7 +10782,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Botchan (4): Satu Setengah Sen dan Madonna",
    "pt": "Botchan (4): Um Sen e Meio e Madonna",
    "my": "ဘော့ချန် (၄): တစ်ဆင်ခွဲနဲ့ မဒေါ်နာ",
-   "th": "บ็อตจัง (4): หนึ่งเซ็นครึ่งกับมาดอนน่า"
+   "th": "บ็อตจัง (4): หนึ่งเซ็นครึ่งกับมาดอนน่า",
+   "si": "බොච්චන් (4): සෙන් එකහමාරයි මැඩෝනායි"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10808,7 +10814,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Botchan (5): Pesta Perpisahan dan Perkelahian Besar",
    "pt": "Botchan (5): A Festa de Despedida e a Grande Briga",
    "my": "ဘော့ချန် (၅): နှုတ်ဆက်ပွဲနဲ့ ရန်ပွဲကြီး",
-   "th": "บ็อตจัง (5): งานเลี้ยงส่งกับการตะลุมบอนครั้งใหญ่"
+   "th": "บ็อตจัง (5): งานเลี้ยงส่งกับการตะลุมบอนครั้งใหญ่",
+   "si": "බොච්චන් (5): සමුගැනීමේ සාදය සහ ලොකු ගැටුම"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10839,7 +10846,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Botchan (6, tamat): Hukuman dan Kiyo yang Menanti di Tokyo",
    "pt": "Botchan (6, final): Justiça Feita e Kiyo à Espera em Tóquio",
    "my": "ဘော့ချန် (၆၊ ဇာတ်သိမ်း): ဒဏ်ပေးခြင်းနဲ့ တိုကျိုမှာ စောင့်နေတဲ့ ကီယို",
-   "th": "บ็อตจัง (6 จบ): ลงทัณฑ์คนชั่ว กับคิโยะที่รออยู่ในโตเกียว"
+   "th": "บ็อตจัง (6 จบ): ลงทัณฑ์คนชั่ว กับคิโยะที่รออยู่ในโตเกียว",
+   "si": "බොච්චන් (6, අවසානය): යුක්තිය ඉටු වීම සහ ටෝකියෝවේ බලා සිටින කියෝ"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -12114,7 +12122,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Restoran Banyak Pesanan (Bagian 1)",
    "pt": "O Restaurante dos Muitos Pedidos (Parte 1)",
    "my": "မှာစရာများတဲ့ စားသောက်ဆိုင် (အပိုင်း ၁)",
-   "th": "ภัตตาคารคำสั่งมาก (ตอนที่ 1)"
+   "th": "ภัตตาคารคำสั่งมาก (ตอนที่ 1)",
+   "si": "ඕඩර් ගොඩක් තියෙන අවන්හල (1 කොටස)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -12145,7 +12154,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Restoran Banyak Pesanan (Bagian 2)",
    "pt": "O Restaurante dos Muitos Pedidos (Parte 2)",
    "my": "မှာစရာများတဲ့ စားသောက်ဆိုင် (အပိုင်း ၂)",
-   "th": "ภัตตาคารคำสั่งมาก (ตอนที่ 2)"
+   "th": "ภัตตาคารคำสั่งมาก (ตอนที่ 2)",
+   "si": "ඕඩර් ගොඩක් තියෙන අවන්හල (2 කොටස)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -12161,6 +12171,68 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/chumon-2/chapter.mp3",
    "durationSec": 358.776
+  }
+ },
+ {
+  "id": "toshishun-1",
+  "titles": {
+   "vi": "Đỗ Tử Xuân (phần 1)",
+   "en": "Toshishun (Part 1)",
+   "zh-Hans": "杜子春（上）",
+   "zh-Hant": "杜子春（上）",
+   "ko": "두자춘 (상)",
+   "tl": "Si Toshishun (Bahagi 1)",
+   "ne": "तोशिशुन (भाग १)",
+   "id": "Toshishun (Bagian 1)",
+   "pt": "Toshishun (Parte 1)",
+   "my": "တိုရှိရှွန်း (အပိုင်း ၁)",
+   "th": "โทชิชุน (ตอนที่ 1)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 56,
+  "cover": "/covers/toshishun-1.webp",
+  "series": {
+   "id": "toshishun",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/toshishun-1/chapter.mp3",
+   "durationSec": 327.168
+  }
+ },
+ {
+  "id": "toshishun-2",
+  "titles": {
+   "vi": "Đỗ Tử Xuân (phần 2)",
+   "en": "Toshishun (Part 2)",
+   "zh-Hans": "杜子春（下）",
+   "zh-Hant": "杜子春（下）",
+   "ko": "두자춘 (하)",
+   "tl": "Si Toshishun (Bahagi 2)",
+   "ne": "तोशिशुन (भाग २)",
+   "id": "Toshishun (Bagian 2)",
+   "pt": "Toshishun (Parte 2)",
+   "my": "တိုရှိရှွန်း (အပိုင်း ၂)",
+   "th": "โทชิชุน (ตอนที่ 2)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 62,
+  "cover": "/covers/toshishun-2.webp",
+  "series": {
+   "id": "toshishun",
+   "index": 2
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/toshishun-2/chapter.mp3",
+   "durationSec": 364.584
   }
  },
  {
@@ -13222,7 +13294,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kucing Bersepatu Bot",
    "pt": "O Gato de Botas",
    "my": "ဘွတ်ဖိနပ်စီး ကြောင်",
-   "th": "แมวใส่รองเท้าบู๊ต"
+   "th": "แมวใส่รองเท้าบู๊ต",
+   "si": "බූට් දාපු පූසා"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13250,7 +13323,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Rapunzel",
    "pt": "Rapunzel",
    "my": "ရာပွန်ဇယ်",
-   "th": "ราพันเซล"
+   "th": "ราพันเซล",
+   "si": "රපුන්සෙල්"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13278,7 +13352,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Aladin dan Lampu Ajaib (1): Gua Harta",
    "pt": "Aladim e a Lâmpada Maravilhosa (1): A Caverna do Tesouro",
    "my": "အလာဒင်နဲ့ မှော်မီးအိမ် (၁): ရတနာဂူ",
-   "th": "อะลาดินกับตะเกียงวิเศษ (1): ถ้ำสมบัติ"
+   "th": "อะลาดินกับตะเกียงวิเศษ (1): ถ้ำสมบัติ",
+   "si": "අලාදින් සහ මායා පහන (1): නිධන් ගුහාව"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13309,7 +13384,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Aladin dan Lampu Ajaib (2, tamat): Istana Terbang",
    "pt": "Aladim e a Lâmpada Maravilhosa (2, final): O Palácio Voador",
    "my": "အလာဒင်နဲ့ မှော်မီးအိမ် (၂၊ ဇာတ်သိမ်း): ပျံသန်းတဲ့ နန်းတော်",
-   "th": "อะลาดินกับตะเกียงวิเศษ (2 จบ): พระราชวังลอยฟ้า"
+   "th": "อะลาดินกับตะเกียงวิเศษ (2 จบ): พระราชวังลอยฟ้า",
+   "si": "අලාදින් සහ මායා පහන (2, අවසානය): පියාඹන මාළිගාව"
   },
   "level": "N3",
   "topic": "world-tales",
