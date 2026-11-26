@@ -8866,7 +8866,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Tam dan Cam (2): Sepatu Bersulam",
    "pt": "Tam e Cam (2): O sapato bordado",
    "my": "တမ်နှင့် ကမ် (၂) - ပန်းထိုးဖိနပ်",
-   "th": "ตั๊มกับก๊าม (2): รองเท้าปักลาย"
+   "th": "ตั๊มกับก๊าม (2): รองเท้าปักลาย",
+   "si": "තාම් සහ කාම් (2): එම්බ්‍රොයිඩර් කළ සපත්තුව"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -8898,7 +8899,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Tam dan Cam (3): Buah yang Harum",
    "pt": "Tam e Cam (3): O fruto perfumado",
    "my": "တမ်နှင့် ကမ် (၃) - မွှေးကြိုင်သော အသီး",
-   "th": "ตั๊มกับก๊าม (3): ผลไม้หอม"
+   "th": "ตั๊มกับก๊าม (3): ผลไม้หอม",
+   "si": "තාම් සහ කාම් (3): සුවඳවත් පලතුර"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -12222,7 +12224,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Toshishun (Bagian 1)",
    "pt": "Toshishun (Parte 1)",
    "my": "တိုရှိရှွန်း (အပိုင်း ၁)",
-   "th": "โทชิชุน (ตอนที่ 1)"
+   "th": "โทชิชุน (ตอนที่ 1)",
+   "si": "ටොෂිෂුන් (1 කොටස)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -12253,7 +12256,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Toshishun (Bagian 2)",
    "pt": "Toshishun (Parte 2)",
    "my": "တိုရှိရှွန်း (အပိုင်း ၂)",
-   "th": "โทชิชุน (ตอนที่ 2)"
+   "th": "โทชิชุน (ตอนที่ 2)",
+   "si": "ටොෂිෂුන් (2 කොටස)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -12284,7 +12288,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Lori",
    "pt": "O Vagonete",
    "my": "ထော်လီ လှည်း",
-   "th": "รถลากราง"
+   "th": "รถลากราง",
+   "si": "ට්‍රොලිය"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -12315,7 +12320,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Jeruk Mandarin",
    "pt": "Tangerinas",
    "my": "လိမ္မော်သီးများ",
-   "th": "ส้ม"
+   "th": "ส้ม",
+   "si": "නාරං"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -12379,7 +12385,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kisah Kieu (2): Menjual Diri demi Ayah",
    "pt": "A História de Kieu (2): Vendida para Salvar o Pai",
    "my": "ကီအဲဝ်ဇာတ်လမ်း (၂): ဖခင်ကိုကယ်ရန် ကိုယ့်ကိုယ်ကိုရောင်း",
-   "th": "เรื่องของเกี่ยว (2): ขายตัวไถ่บิดา"
+   "th": "เรื่องของเกี่ยว (2): ขายตัวไถ่บิดา",
+   "si": "කියෙව්ගේ කතාව (2): තාත්තාව බේරගන්න තමාව විකුණාගැනීම"
   },
   "level": "N2",
   "topic": "hometown-tales",
@@ -12411,7 +12418,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kisah Kieu (3): Hoan Thu dan Tu Hai",
    "pt": "A História de Kieu (3): Hoan Thu e Tu Hai",
    "my": "ကီအဲဝ်ဇာတ်လမ်း (၃): ဟွမ်းသူနဲ့ တူဟိုင်",
-   "th": "เรื่องของเกี่ยว (3): ฮหว่านทือกับตื่อไฮ่"
+   "th": "เรื่องของเกี่ยว (3): ฮหว่านทือกับตื่อไฮ่",
+   "si": "කියෙව්ගේ කතාව (3): හොවාන් තු සහ තු හායි"
   },
   "level": "N2",
   "topic": "hometown-tales",
@@ -12443,7 +12451,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kisah Kieu (4): Berkumpul Kembali",
    "pt": "A História de Kieu (4): O Reencontro",
    "my": "ကီအဲဝ်ဇာတ်လမ်း (၄): ပြန်လည်ဆုံဆည်းခြင်း",
-   "th": "เรื่องของเกี่ยว (4): พบกันอีกครั้ง"
+   "th": "เรื่องของเกี่ยว (4): พบกันอีกครั้ง",
+   "si": "කියෙව්ගේ කතාව (4): නැවත හමුවීම"
   },
   "level": "N2",
   "topic": "hometown-tales",
@@ -12508,7 +12517,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Trang Quynh (2): Kucing Sang Tuan",
    "pt": "Trang Quynh (2): O Gato do Senhor",
    "my": "ချန်းကွင် (၂): မင်းရဲ့ကြောင်",
-   "th": "จ่างกวิ่ญ (2): แมวของเจ้านาย"
+   "th": "จ่างกวิ่ญ (2): แมวของเจ้านาย",
+   "si": "ත්‍රාං ක්වින් (2): ස්වාමියාගේ පූසා"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -12540,7 +12550,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Trang Quynh (3): Lomba Melukis Naga",
    "pt": "Trang Quynh (3): O Duelo do Dragão",
    "my": "ချန်းကွင် (၃): နဂါးပုံဆွဲပြိုင်ပွဲ",
-   "th": "จ่างกวิ่ญ (3): ประชันวาดมังกร"
+   "th": "จ่างกวิ่ญ (3): ประชันวาดมังกร",
+   "si": "ත්‍රාං ක්වින් (3): මකර චිත්‍ර තරඟය"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -12605,7 +12616,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hoang Le Nhat Thong Chi (2): Tahun Baru Lebih Awal dan Benteng Ha Hoi",
    "pt": "Hoang Le Nhat Thong Chi (2): Ano-Novo Antecipado e o Forte de Ha Hoi",
    "my": "ဟွမ်လေ ညတ်ထုံချီ (၂): နှစ်သစ်ကို စောစော ကျင်းပခြင်းနဲ့ ဟာဟွိုင်ခံတပ်",
-   "th": "ฮหว่างเลเญิดท้งจี (2): ฉลองปีใหม่ล่วงหน้าและป้อมฮาโห่ย"
+   "th": "ฮหว่างเลเญิดท้งจี (2): ฉลองปีใหม่ล่วงหน้าและป้อมฮาโห่ย",
+   "si": "ලේ රාජවංශයේ එක්සත් කිරීම (2): කලින් පැමිණි අලුත් අවුරුද්ද සහ හා හොයි බලකොටුව"
   },
   "level": "N1",
   "topic": "hometown-tales",
@@ -12637,7 +12649,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hoang Le Nhat Thong Chi (3): Kemenangan di Ngoc Hoi dan Dong Da",
    "pt": "A Unificação dos Le (3): Vitória em Ngoc Hoi e Dong Da",
    "my": "ဟွမ်လေ ညတ်ထုံချီ (၃) - ငေါက်ဟွိုင်–ဒုံဒါ အောင်ပွဲ",
-   "th": "ฮหว่างเล้ญ้าททงจี๋ (3): ชัยชนะที่หง็อกโห่ย–ด่งด่า"
+   "th": "ฮหว่างเล้ญ้าททงจี๋ (3): ชัยชนะที่หง็อกโห่ย–ด่งด่า",
+   "si": "ලේ රාජවංශයේ එක්සත් කිරීම (3): ඉන්ගොක් හොයි සහ දොං දා ජයග්‍රහණය"
   },
   "level": "N1",
   "topic": "hometown-tales",
@@ -12702,7 +12715,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Thach Lam (2): Angin Dingin Pertama",
    "pt": "Thach Lam (2): O Primeiro Vento Frio",
    "my": "ထက်လမ် (၂) - ဆောင်းဦး လေအေး",
-   "th": "ทัคลาม (2): ลมหนาวแรกของฤดู"
+   "th": "ทัคลาม (2): ลมหนาวแรกของฤดู",
+   "si": "තාච් ලාම් (2): පළමු සීතල සුළඟ"
   },
   "level": "N1",
   "topic": "hometown-tales",
@@ -12734,7 +12748,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Thach Lam (3): Di Bawah Pohon Kenanga",
    "pt": "Thach Lam (3): À Sombra do Ylang-Ylang",
    "my": "ထက်လမ် (၃) - ကဒံပင်ရိပ်အောက်",
-   "th": "ทัคลาม (3): ใต้ร่มกระดังงา"
+   "th": "ทัคลาม (3): ใต้ร่มกระดังงา",
+   "si": "තාච් ලාම් (3): අත්තන (යිලං-යිලං) ගස යට"
   },
   "level": "N1",
   "topic": "hometown-tales",
@@ -14144,7 +14159,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Vasilisa yang Cantik (1): Boneka Kecil dari Ibu",
    "pt": "Vasilisa, a Bela (1): A Bonequinha da Mãe",
    "my": "လှပသော ဗာစီလီဆာ (၁): အမေ့ အရုပ်လေး",
-   "th": "วาซิลิซาผู้งดงาม (1): ตุ๊กตาของแม่"
+   "th": "วาซิลิซาผู้งดงาม (1): ตุ๊กตาของแม่",
+   "si": "ලස්සන වසිලීසා (1): අම්මාගේ පුංචි බෝනික්කා"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -14176,7 +14192,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Vasilisa yang Cantik (2, tamat): Lentera Tengkorak",
    "pt": "Vasilisa, a Bela (2, fim): A Lanterna de Caveira",
    "my": "လှပသော ဗာစီလီဆာ (၂၊ ဇာတ်သိမ်း): ဦးခေါင်းခွံ မီးအိမ်",
-   "th": "วาซิลิซาผู้งดงาม (2 จบ): ตะเกียงหัวกะโหลก"
+   "th": "วาซิลิซาผู้งดงาม (2 จบ): ตะเกียงหัวกะโหลก",
+   "si": "ලස්සන වසිලීසා (2, අවසානය): හිස් කබල් පහන"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -14208,7 +14225,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Monyet dan Buaya",
    "pt": "O Macaco e o Crocodilo",
    "my": "မျောက်နဲ့ မိကျောင်း",
-   "th": "ลิงกับจระเข้"
+   "th": "ลิงกับจระเข้",
+   "si": "වඳුරා සහ කිඹුලා"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -14236,7 +14254,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Pinokio (1): Hidung yang Memanjang",
    "pt": "Pinóquio (1): O Nariz que Cresce",
    "my": "ပီနိုကီယို (၁): ရှည်လာတဲ့ နှာခေါင်း",
-   "th": "พินอคคิโอ (1): จมูกที่ยืดยาว"
+   "th": "พินอคคิโอ (1): จมูกที่ยืดยาว",
+   "si": "පිනෝකියෝ (1): දිගු වන නාසය"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -14268,7 +14287,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Pinokio (2, tamat): Di Perut Hiu",
    "pt": "Pinóquio (2, fim): Na Barriga do Tubarão",
    "my": "ပီနိုကီယို (၂၊ ဇာတ်သိမ်း): ငါးမန်းဗိုက်ထဲမှာ",
-   "th": "พินอคคิโอ (2 จบ): ในท้องฉลาม"
+   "th": "พินอคคิโอ (2 จบ): ในท้องฉลาม",
+   "si": "පිනෝකියෝ (2, අවසානය): මෝරාගේ බඩ ඇතුළේ"
   },
   "level": "N3",
   "topic": "world-tales",
