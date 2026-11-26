@@ -871,6 +871,28 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 12: truyện quê hương các nước — 27/11/2026 (nhánh `claude/si-stories-13`)
+
+- Đã dịch 31 gói furusato không phải Việt Nam: Brazil (curupira, iara, saci), Trung Quốc (baishe, change, niulang, saiyuki-1/2/3), Indonesia (bawang, kancil, malin, sangkuriang, timun, toba), Hàn (heungbu, hokburi, kongjwi, onui, simcheong), Myanmar (kyaiktiyo, mahagiri), Nepal (indra, manjushri), Philippines (juan, magayon, malakas, pagong, pinya), Thái (aphai, sangthong).
+- Lời kể khẩu ngữ như các gói world-/furusato trước. Thuật ngữ Phật giáo theo cách người Sri Lanka quen dùng: බුදුරජාණන් වහන්සේ, බෝසතාණන් වහන්සේ (Manjushri), චෛත්‍යය, පාරිජාත, ඉන්ද්‍ර දෙවියා. Dokkaebi để phiên âm දොක්කේබි; oni dịch ඔනි යක්ෂයා; yamanba dịch "කඳු යක්ෂණිය".
+- Câu Q dạng điền chỗ trống (kongjwi, onui, simcheong, malakas, pinya) chỉ dịch phần giải thích, giữ nguyên mẫu ngữ pháp tiếng Nhật.
+- Sau đợt này: 160 gói có si. Còn lại các gói furusato-vn (~33) cho đợt sau.
+
+## Tiếng Sinhala đợt 11: truyện thế giới đợt 6 — 27/11/2026 (nhánh `claude/si-stories-12`)
+
+- Đã dịch 5 gói từ PR #88: world-vasilisa-1/2, world-saru-wani, world-pinocchio-1/2.
+- Lời kể khẩu ngữ như các gói world- trước. Tên: වසිලීසා, බාබා යාගා; වඳුරා සහ කිඹුලා (truyện Jataka quen thuộc với người Sri Lanka); පිනෝකියෝ, ජෙපෙටෝ, රොමියෝ, සුරංගනාවිය.
+- Tục ngữ Nga 「朝は夜よりかしこい」 dịch thống nhất "උදේ, රෑට වඩා බුද්ධිමත්" ở cả hai tập.
+- Sau đợt này: 129 gói có si.
+
+## Tiếng Sinhala đợt 10: văn học Nhật + tập tiếp truyện Việt — 27/11/2026 (nhánh `claude/si-stories-11`)
+
+- Đã dịch 15 gói: mikan-1, torokko-1, toshishun-1/2; furusato-vn-tamcam-2/3, kieu-2/3/4, quynh-2/3, hoangle-2/3, thachlam-2/3.
+- Văn học cổ điển (Akutagawa) và Hoàng Lê dùng lời kể văn viết (සිටියේය/විය), lời thoại khẩu ngữ; Kiều, Tấm Cám, Trạng Quỳnh kể khẩu ngữ như tập 1. Thạch Lam: lời kể văn viết, thoại khẩu ngữ (khớp tập 1).
+- Tên khớp tập 1 của từng series: Kiều (කියෙව්, කිම්, වාන්, තූ බා, හොවාන් තු, තු හායි, ශාක් යුයෙන්), Hoàng Lê (ක්වාං චුං, ඉන්ගෝ ති ඤාම්, සුන් ෂියී, තාං ලොං, ඉන්ගොක් හොයි, දොං දා), Quỳnh (ක්වින්, ත්‍රින් ස්වාමියා).
+- Chơi chữ 地竜 (con giun = "rồng đất") giữ chữ Hán rồi giải thích. "Trao duyên" để kèm phiên âm ත්‍රාඕ යුයෙන්.
+- Sau đợt này: 124 gói có si.
+
 ## Tiếng Sinhala đợt 9: truyện thế giới đợt 5 — 27/11/2026 (nhánh `claude/si-stories-10`)
 
 - Đã dịch 6 gói từ PR #84: world-alibaba-1/2, world-bijo-1/2, world-yukinojoo-1/2.
@@ -959,3 +981,30 @@ Lô này thêm 4 chương chuẩn v2, cả 4 đều miễn phí vì là tập 1 
 - QC từng chương ở `content/stories/life-*.qc.md`.
 - Kệ hiện có 12 chương: 1 chương N2 (seneca-1), 7 chương N3 và 4 chương N4.
 - `npm run verify` xanh.
+
+## Kệ "Triết lý sống" (wisdom), lô 4 — 27/11/2026
+
+Lô này thêm 3 chương chuẩn v2. Lần đầu kệ có tập 2 (VIP) cho các bộ đã có tập 1 miễn phí:
+
+| Id | Cấp | Miễn phí/VIP | Nội dung | Audio |
+| --- | --- | --- | --- | --- |
+| `life-bushido-1` | N3 | miễn phí | 新渡戸稲造『武士道』(1900): cuộc trò chuyện với de Laveleye, năm đức 義・勇・仁・礼・誠 | 4:08 |
+| `life-smiles-2` | N4 | VIP | Smiles, *Self-Help*: Audubon vẽ lại 200 bức chim bị chuột gặm; chó Diamond của Newton | 3:18 |
+| `life-ikari-2` | N4 | VIP | Truyện gốc ViMai 心の練習 2: Misaki bị mắng trên tàu, bà kể giai thoại sư 坦山 cõng cô gái qua sông | 3:20 |
+
+- 『武士道』 và *Self-Help* thuộc phạm vi công cộng; 心の練習 là sáng tác của ViMai, giai thoại 坦山 là chuyện thiền dân gian.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 15 chương: 1 chương N2, 8 chương N3 và 6 chương N4. Lô 5 dự kiến: Seneca 2 (N2), thêm N4.
+
+## Kệ "Triết lý sống" (wisdom), lô 5 — 27/11/2026
+
+Lô này thêm 2 chương VIP chuẩn v2, đều là tập 2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-seneca-2` | N2 | Seneca, *Thư gửi Lucilius* (thư 5, 13, 24): Lucilius mất ngủ vì tin đồn bị kiện; "ta khổ trong tưởng tượng nhiều hơn trong thực tế" | 6:13 |
+| `life-rongo-2` | N4 | 『論語』: Nhan Hồi nghèo mà vui, "過ぎたるは猶及ばざるがごとし", 温故知新, các tuổi 十五〜七十 (不惑) | 2:58 |
+
+- Cả hai tác phẩm thuộc phạm vi công cộng; lời thoại và khung truyện là ViMai kể lại. Kết cục vụ kiện của Lucilius không có trong thư, truyện nói rõ điều này.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 17 chương: 2 chương N2, 8 chương N3 và 7 chương N4.
