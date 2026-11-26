@@ -43,7 +43,29 @@
           "pt": "Modo de V. Tire ます e some 方. Ex.: 切符の買い方を教えてください (me ensine a comprar o bilhete).",
           "my": "V လုပ်နည်း။ ます ဖြုတ်ပြီး 方။ ဥပမာ: 切符の買い方を教えてください (လက်မှတ်ဝယ်နည်း သင်ပေးပါ)။",
           "th": "วิธี V. ตัด ます เติม 方. ตัวอย่าง: 切符の買い方を教えてください (ช่วยสอนวิธีซื้อตั๋วหน่อย)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "Vます",
+            "reading": ""
+          },
+          {
+            "surface": "形",
+            "reading": "がた"
+          },
+          {
+            "surface": "＋",
+            "reading": ""
+          },
+          {
+            "surface": "方",
+            "reading": "かた"
+          },
+          {
+            "surface": "（かた）",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜ながら",
@@ -77,7 +99,21 @@
           "pt": "〜ても: mesmo que ~. V＋合う: ~ um ao outro. Ex.: 雨が降っても、行きます (vou mesmo se chover).",
           "my": "〜ても: ~ ပေမဲ့။ V＋合う: အချင်းချင်း ~။ ဥပမာ: 雨が降っても、行きます (မိုးရွာရင်တောင် သွားမယ်)။",
           "th": "〜ても: แม้ว่า ~. V＋合う: ~ ซึ่งกันและกัน. ตัวอย่าง: 雨が降っても、行きます (ฝนตกก็จะไป)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜ても ／ V＋",
+            "reading": ""
+          },
+          {
+            "surface": "合",
+            "reading": "あ"
+          },
+          {
+            "surface": "う",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜と呼ばれる ／ AをBとする",
@@ -94,7 +130,21 @@
           "pt": "〜と呼ばれる: ser chamado ~. AをBとする: definir A como B. Ex.: 集合時間を九時とします (o encontro fica às 9).",
           "my": "〜と呼ばれる: ~ လို့ ခေါ်ခံရ။ AをBとする: A ကို B အဖြစ် သတ်မှတ်။ ဥပမာ: 集合時間を九時とします (စုရပ်ချိန် ၉ နာရီ)။",
           "th": "〜と呼ばれる: ถูกเรียกว่า ~. AをBとする: กำหนดให้ A เป็น B. ตัวอย่าง: 集合時間を九時とします (เวลานัดรวมคือ 9 โมง)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜と",
+            "reading": ""
+          },
+          {
+            "surface": "呼",
+            "reading": "よ"
+          },
+          {
+            "surface": "ばれる ／ AをBとする",
+            "reading": ""
+          }
+        ]
       }
     ],
     "quiz": [
@@ -119,7 +169,115 @@
           "pt": "Uma bolsa com cem ovos.",
           "my": "ဥ တစ်ရာပါတဲ့ အိတ်။",
           "th": "ถุงที่มีไข่ร้อยฟอง"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "アウ・コーが",
+            "reading": ""
+          },
+          {
+            "surface": "産",
+            "reading": "う"
+          },
+          {
+            "surface": "んだものは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "でしたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "一人",
+              "reading": "ひとり"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "赤",
+              "reading": "あか"
+            },
+            {
+              "surface": "ちゃん",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "竜",
+              "reading": "りゅう"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "卵",
+              "reading": "たまご"
+            },
+            {
+              "surface": "一",
+              "reading": "ひと"
+            },
+            {
+              "surface": "つ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "百個",
+              "reading": "ひゃっこ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "卵",
+              "reading": "たまご"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "入",
+              "reading": "はい"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            },
+            {
+              "surface": "袋",
+              "reading": "ふくろ"
+            }
+          ],
+          [
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "袋",
+              "reading": "ふくろ"
+            }
+          ]
+        ]
       },
       {
         "ja": "ラック・ロン・クアンは、どうして海に帰りましたか。",
@@ -142,7 +300,107 @@
           "pt": "O dragão enfraquece em terra.",
           "my": "နဂါးက ကုန်းပေါ်မှာ အားနည်းတယ်။",
           "th": "มังกรอยู่บนบกนานจะอ่อนแอ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ラック・ロン・クアンは、どうして",
+            "reading": ""
+          },
+          {
+            "surface": "海",
+            "reading": "うみ"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "帰",
+            "reading": "かえ"
+          },
+          {
+            "surface": "りましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "アウ・コーとけんかしたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "長",
+              "reading": "なが"
+            },
+            {
+              "surface": "く",
+              "reading": ""
+            },
+            {
+              "surface": "陸",
+              "reading": "りく"
+            },
+            {
+              "surface": "にいると、",
+              "reading": ""
+            },
+            {
+              "surface": "体",
+              "reading": "からだ"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "弱",
+              "reading": "よわ"
+            },
+            {
+              "surface": "るから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "化",
+              "reading": "ば"
+            },
+            {
+              "surface": "け",
+              "reading": ""
+            },
+            {
+              "surface": "物",
+              "reading": "もの"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "来",
+              "reading": "き"
+            },
+            {
+              "surface": "たから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "子",
+              "reading": "こ"
+            },
+            {
+              "surface": "どもがきらいだったから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "子どもたちは、どのように分かれましたか。",
@@ -165,7 +423,131 @@
           "pt": "Cinquenta ao mar, cinquenta às montanhas.",
           "my": "ငါးဆယ် ပင်လယ်၊ ငါးဆယ် တောင်။",
           "th": "ห้าสิบไปทะเล ห้าสิบไปภูเขา"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "子",
+            "reading": "こ"
+          },
+          {
+            "surface": "どもたちは、どのように",
+            "reading": ""
+          },
+          {
+            "surface": "分",
+            "reading": "わ"
+          },
+          {
+            "surface": "かれましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "全員",
+              "reading": "ぜんいん"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "海",
+              "reading": "うみ"
+            },
+            {
+              "surface": "へ",
+              "reading": ""
+            },
+            {
+              "surface": "行",
+              "reading": "い"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "五十人",
+              "reading": "ごじゅうにん"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "海",
+              "reading": "うみ"
+            },
+            {
+              "surface": "へ、",
+              "reading": ""
+            },
+            {
+              "surface": "五十人",
+              "reading": "ごじゅうにん"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "へ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "全員",
+              "reading": "ぜんいん"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "へ",
+              "reading": ""
+            },
+            {
+              "surface": "行",
+              "reading": "い"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "一人",
+              "reading": "ひとり"
+            },
+            {
+              "surface": "だけ",
+              "reading": ""
+            },
+            {
+              "surface": "残",
+              "reading": "のこ"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "「同胞」という言葉は、どんな意味ですか。",
@@ -188,7 +570,123 @@
           "pt": "Nascidos da mesma bolsa.",
           "my": "အိတ်တစ်လုံးတည်းက မွေး။",
           "th": "เกิดจากถุงเดียวกัน"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "「",
+            "reading": ""
+          },
+          {
+            "surface": "同胞",
+            "reading": "どうほう"
+          },
+          {
+            "surface": "」という",
+            "reading": ""
+          },
+          {
+            "surface": "言葉",
+            "reading": "ことば"
+          },
+          {
+            "surface": "は、どんな",
+            "reading": ""
+          },
+          {
+            "surface": "意味",
+            "reading": "いみ"
+          },
+          {
+            "surface": "ですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "海",
+              "reading": "うみ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "友",
+              "reading": "とも"
+            },
+            {
+              "surface": "だち",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さま",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "同",
+              "reading": "おな"
+            },
+            {
+              "surface": "じ",
+              "reading": ""
+            },
+            {
+              "surface": "袋",
+              "reading": "ふくろ"
+            },
+            {
+              "surface": "から",
+              "reading": ""
+            },
+            {
+              "surface": "生",
+              "reading": "う"
+            },
+            {
+              "surface": "まれた",
+              "reading": ""
+            },
+            {
+              "surface": "兄弟",
+              "reading": "きょうだい"
+            }
+          ],
+          [
+            {
+              "surface": "竜",
+              "reading": "りゅう"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "子",
+              "reading": "こ"
+            },
+            {
+              "surface": "ども",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

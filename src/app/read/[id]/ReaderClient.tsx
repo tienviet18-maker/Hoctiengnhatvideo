@@ -7,7 +7,7 @@ import { useLang } from "../../../components/LangProvider";
 import Furigana from "../../../components/Furigana";
 import WordPopup from "../../../components/WordPopup";
 import Paywall from "../../../components/Paywall";
-import LessonPanel, { type LessonFurigana } from "./LessonPanel";
+import LessonPanel from "./LessonPanel";
 import type { StoryContent, Translations, VocabItem } from "../../../lib/content-schema";
 import { pickText } from "../../../lib/i18n";
 import { PROGRESS_KEY, saveProgress, useLocalJson, type Progress } from "../../../lib/store";
@@ -31,11 +31,9 @@ function fmt(sec: number) {
  */
 export default function ReaderClient({
   story,
-  lessonFuri,
   next,
 }: {
   story: StoryContent;
-  lessonFuri?: LessonFurigana;
   next?: { id: string; titles: Translations };
 }) {
   const { ui, lang, profile } = useLang();
@@ -216,7 +214,7 @@ export default function ReaderClient({
       </div>
 
       {tab === "lesson" ? (
-        <LessonPanel story={story} furi={lessonFuri} vocab={vocab} onWord={setPopup} vip={profile.vip} onUnlock={() => setPaywall(true)} />
+        <LessonPanel story={story} vocab={vocab} onWord={setPopup} vip={profile.vip} onUnlock={() => setPaywall(true)} />
       ) : (
         <>
           <div style={{ display: "flex", gap: 8, padding: "10px 20px 0", flexWrap: "wrap" }}>

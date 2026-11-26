@@ -77,7 +77,21 @@
           "pt": "Diz-se que ~.",
           "my": "~ လို့ ဆိုကြတယ်။",
           "th": "ว่ากันว่า ~"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜と",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "われています",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜ても、しかたがない",
@@ -119,7 +133,75 @@
           "pt": "Casar com Magayon.",
           "my": "မာဂါယွန်နဲ့ လက်ထပ်ချင်တယ်။",
           "th": "อยากแต่งงานกับมากายอน"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "パグトゥガは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "がほしかったのですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "マガヨンと",
+              "reading": ""
+            },
+            {
+              "surface": "結婚",
+              "reading": "けっこん"
+            },
+            {
+              "surface": "すること",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            }
+          ],
+          [
+            {
+              "surface": "マヨン",
+              "reading": ""
+            },
+            {
+              "surface": "山",
+              "reading": "さん"
+            }
+          ],
+          [
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さまの",
+              "reading": ""
+            },
+            {
+              "surface": "薬",
+              "reading": "くすり"
+            }
+          ]
+        ]
       },
       {
         "ja": "二人が死んだあと、うめた場所は、どうなりましたか。",
@@ -142,7 +224,83 @@
           "pt": "A terra subiu e virou o Mayon.",
           "my": "မြေမြင့်ပြီး မာယွန်တောင် ဖြစ်တယ်။",
           "th": "ดินสูงขึ้นจนเป็นภูเขามายอน"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "二人",
+            "reading": "ふたり"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "死",
+            "reading": "し"
+          },
+          {
+            "surface": "んだあと、うめた",
+            "reading": ""
+          },
+          {
+            "surface": "場所",
+            "reading": "ばしょ"
+          },
+          {
+            "surface": "は、どうなりましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "高",
+              "reading": "たか"
+            },
+            {
+              "surface": "くなって、",
+              "reading": ""
+            },
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "になった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "湖",
+              "reading": "みずうみ"
+            },
+            {
+              "surface": "になった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "島",
+              "reading": "しま"
+            },
+            {
+              "surface": "になった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "森",
+              "reading": "もり"
+            },
+            {
+              "surface": "になった",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "山の上の白い雲は、だれだと言われていますか。",
@@ -165,7 +323,83 @@
           "pt": "A nuvem é Panganoron.",
           "my": "တိမ်က ပန်ဂါနိုရွန်ပါ။",
           "th": "เมฆคือปังกาโนรอน"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "山",
+            "reading": "やま"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "上",
+            "reading": "うえ"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "白",
+            "reading": "しろ"
+          },
+          {
+            "surface": "い",
+            "reading": ""
+          },
+          {
+            "surface": "雲",
+            "reading": "くも"
+          },
+          {
+            "surface": "は、だれだと",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "われていますか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "パンガノロン",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "パグトゥガ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "マガヨンのお",
+              "reading": ""
+            },
+            {
+              "surface": "父",
+              "reading": "とう"
+            },
+            {
+              "surface": "さん",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "帝",
+              "reading": "みかど"
+            }
+          ]
+        ]
       },
       {
         "ja": "『竹取物語』で、帝は、薬をどうしましたか。",
@@ -188,7 +422,115 @@
           "pt": "Mandou queimar no monte mais alto, o Fuji.",
           "my": "အမြင့်ဆုံးတောင် ဖူဂျီမှာ မီးရှို့ခိုင်းတယ်။",
           "th": "ให้เผาบนภูเขาที่สูงที่สุดคือฟูจิ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "『",
+            "reading": ""
+          },
+          {
+            "surface": "竹取物語",
+            "reading": "たけとりものがたり"
+          },
+          {
+            "surface": "』で、",
+            "reading": ""
+          },
+          {
+            "surface": "帝",
+            "reading": "みかど"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "薬",
+            "reading": "くすり"
+          },
+          {
+            "surface": "をどうしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "いちばん",
+              "reading": ""
+            },
+            {
+              "surface": "高",
+              "reading": "たか"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "上",
+              "reading": "うえ"
+            },
+            {
+              "surface": "で、もやさせた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "surface": "で",
+              "reading": ""
+            },
+            {
+              "surface": "飲",
+              "reading": "の"
+            },
+            {
+              "surface": "んだ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "姫",
+              "reading": "ひめ"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "返",
+              "reading": "かえ"
+            },
+            {
+              "surface": "した",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "海",
+              "reading": "うみ"
+            },
+            {
+              "surface": "にすてた",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

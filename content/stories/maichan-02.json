@@ -42,7 +42,21 @@
           "pt": "Vir para ~.",
           "my": "~ ဖို့ လာ။",
           "th": "มาเพื่อ ~"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜に",
+            "reading": ""
+          },
+          {
+            "surface": "来",
+            "reading": "く"
+          },
+          {
+            "surface": "る",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜ようとする",
@@ -118,7 +132,83 @@
           "pt": "Não muito rápida.",
           "my": "သိပ် မမြန်ဘူး။",
           "th": "ไม่ค่อยเร็ว"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "マイちゃんは、",
+            "reading": ""
+          },
+          {
+            "surface": "走",
+            "reading": "はし"
+          },
+          {
+            "surface": "るのが",
+            "reading": ""
+          },
+          {
+            "surface": "速",
+            "reading": "はや"
+          },
+          {
+            "surface": "いですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "あまり",
+              "reading": ""
+            },
+            {
+              "surface": "速",
+              "reading": "はや"
+            },
+            {
+              "surface": "くない",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "とても",
+              "reading": ""
+            },
+            {
+              "surface": "速",
+              "reading": "はや"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "いちばん",
+              "reading": ""
+            },
+            {
+              "surface": "速",
+              "reading": "はや"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "走",
+              "reading": "はし"
+            },
+            {
+              "surface": "らない",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "ころんだマイちゃんに、だれが「立って！」と言いましたか。",
@@ -141,7 +231,63 @@
           "pt": "Bin gritou.",
           "my": "ဘင်က အော်တယ်။",
           "th": "บินตะโกน"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ころんだマイちゃんに、だれが「",
+            "reading": ""
+          },
+          {
+            "surface": "立",
+            "reading": "た"
+          },
+          {
+            "surface": "って！」と",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "いましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "ビンくん",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "父",
+              "reading": "とう"
+            },
+            {
+              "surface": "さん",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "先生",
+              "reading": "せんせい"
+            }
+          ],
+          [
+            {
+              "surface": "ゆきちゃん",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "マイちゃんは、何番でゴールしましたか。",
@@ -164,7 +310,59 @@
           "pt": "Em último, mas aplaudida.",
           "my": "နောက်ဆုံး ဒါပေမဲ့ လက်ခုပ်ရတယ်။",
           "th": "ที่สุดท้าย แต่ได้เสียงปรบมือ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "マイちゃんは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なん"
+          },
+          {
+            "surface": "番",
+            "reading": "ばん"
+          },
+          {
+            "surface": "でゴールしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "いちばん",
+              "reading": ""
+            },
+            {
+              "surface": "最後",
+              "reading": "さいご"
+            }
+          ],
+          [
+            {
+              "surface": "いちばん",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "まん",
+              "reading": ""
+            },
+            {
+              "surface": "中",
+              "reading": "なか"
+            }
+          ],
+          [
+            {
+              "surface": "ゴールしなかった",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "お父さんは、なぜ写真を消しませんでしたか。",
@@ -187,7 +385,103 @@
           "pt": "Disse que é um tesouro da família.",
           "my": "မိသားစု ရတနာမို့လို့။",
           "th": "เพราะเป็นสมบัติของครอบครัว"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "お",
+            "reading": ""
+          },
+          {
+            "surface": "父",
+            "reading": "とう"
+          },
+          {
+            "surface": "さんは、なぜ",
+            "reading": ""
+          },
+          {
+            "surface": "写真",
+            "reading": "しゃしん"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "消",
+            "reading": "け"
+          },
+          {
+            "surface": "しませんでしたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "宝物",
+              "reading": "たからもの"
+            },
+            {
+              "surface": "だから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "カメラがこわれたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "マイちゃんが",
+              "reading": ""
+            },
+            {
+              "surface": "好",
+              "reading": "す"
+            },
+            {
+              "surface": "きと",
+              "reading": ""
+            },
+            {
+              "surface": "言",
+              "reading": "い"
+            },
+            {
+              "surface": "ったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "消",
+              "reading": "け"
+            },
+            {
+              "surface": "し",
+              "reading": ""
+            },
+            {
+              "surface": "方",
+              "reading": "かた"
+            },
+            {
+              "surface": "がわからないから",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

@@ -63,7 +63,29 @@
      "my": "…ပြီးတာနဲ့ ချက်ချင်း…။ ဥပမာ: 「泣いたかと思うと、もう笑っている」, 「晴れたかと思ったら、また雨だ」။",
      "th": "พอ…ปุ๊บ ก็… ตัวอย่าง: 「泣いたかと思うと、もう笑っている」「晴れたかと思ったら、また雨だ」"
     },
-    "example": 24
+    "example": 24,
+    "patternFurigana": [
+     {
+      "surface": "〜かと",
+      "reading": ""
+     },
+     {
+      "surface": "思",
+      "reading": "おも"
+     },
+     {
+      "surface": "うと／〜かと",
+      "reading": ""
+     },
+     {
+      "surface": "思",
+      "reading": "おも"
+     },
+     {
+      "surface": "ったら",
+      "reading": ""
+     }
+    ]
    },
    {
     "pattern": "〜わけにはいかない",
@@ -104,7 +126,117 @@
      "pt": "Frases 5–8: devolveu o dinheiro da raspadinha.",
      "my": "ဝါကျ ၅–၈: ရေခဲရေဖိုး ပြန်ပေးတယ်။",
      "th": "ประโยค 5–8: คืนค่าน้ำแข็งไส"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "「おれ」が",
+      "reading": ""
+     },
+     {
+      "surface": "山嵐",
+      "reading": "やまあらし"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "机",
+      "reading": "つくえ"
+     },
+     {
+      "surface": "に",
+      "reading": ""
+     },
+     {
+      "surface": "一銭五厘",
+      "reading": "いっせんごりん"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "置",
+      "reading": "お"
+     },
+     {
+      "surface": "いたのは、なぜですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "山嵐",
+       "reading": "やまあらし"
+      },
+      {
+       "surface": "にお",
+       "reading": ""
+      },
+      {
+       "surface": "金",
+       "reading": "かね"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "借",
+       "reading": "か"
+      },
+      {
+       "surface": "りていたから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "前",
+       "reading": "まえ"
+      },
+      {
+       "surface": "におごってもらった",
+       "reading": ""
+      },
+      {
+       "surface": "氷水",
+       "reading": "こおりみず"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "代",
+       "reading": "だい"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "返",
+       "reading": "かえ"
+      },
+      {
+       "surface": "すため",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "山嵐",
+       "reading": "やまあらし"
+      },
+      {
+       "surface": "にプレゼントしたかったから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "会議で、山嵐は生徒についてどう言いましたか。",
@@ -126,7 +258,97 @@
      "pt": "Frase 19: castigo rigoroso e desculpas.",
      "my": "ဝါကျ ၁၉: ပြင်းပြင်း ဒဏ်ပေးပြီး တောင်းပန်ခိုင်း။",
      "th": "ประโยค 19: ลงโทษหนักและให้ขอโทษ"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "会議",
+      "reading": "かいぎ"
+     },
+     {
+      "surface": "で、",
+      "reading": ""
+     },
+     {
+      "surface": "山嵐",
+      "reading": "やまあらし"
+     },
+     {
+      "surface": "は",
+      "reading": ""
+     },
+     {
+      "surface": "生徒",
+      "reading": "せいと"
+     },
+     {
+      "surface": "についてどう",
+      "reading": ""
+     },
+     {
+      "surface": "言",
+      "reading": "い"
+     },
+     {
+      "surface": "いましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "軽",
+       "reading": "かる"
+      },
+      {
+       "surface": "い",
+       "reading": ""
+      },
+      {
+       "surface": "罰",
+       "reading": "ばち"
+      },
+      {
+       "surface": "でいい",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "罰",
+       "reading": "ばち"
+      },
+      {
+       "surface": "はいらない",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "厳",
+       "reading": "きび"
+      },
+      {
+       "surface": "しく",
+       "reading": ""
+      },
+      {
+       "surface": "罰",
+       "reading": "ばっ"
+      },
+      {
+       "surface": "して、",
+       "reading": ""
+      },
+      {
+       "surface": "謝",
+       "reading": "あやま"
+      },
+      {
+       "surface": "らせるべきだ",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "マドンナは、もともと誰と結婚する約束でしたか。",
@@ -148,7 +370,73 @@
      "pt": "Frase 29: prometida a Koga (Uranari).",
      "my": "ဝါကျ ၂၉: ကိုဂ (ဥရာနာရီ) နဲ့ စေ့စပ်ထားတယ်။",
      "th": "ประโยค 29: หมั้นกับโคกะ (อุระนาริ)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "マドンナは、もともと",
+      "reading": ""
+     },
+     {
+      "surface": "誰",
+      "reading": "だれ"
+     },
+     {
+      "surface": "と",
+      "reading": ""
+     },
+     {
+      "surface": "結婚",
+      "reading": "けっこん"
+     },
+     {
+      "surface": "する",
+      "reading": ""
+     },
+     {
+      "surface": "約束",
+      "reading": "やくそく"
+     },
+     {
+      "surface": "でしたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "うらなり（",
+       "reading": ""
+      },
+      {
+       "surface": "古賀",
+       "reading": "こが"
+      },
+      {
+       "surface": "先生",
+       "reading": "せんせい"
+      },
+      {
+       "surface": "）",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "赤",
+       "reading": "あか"
+      },
+      {
+       "surface": "シャツ",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "山嵐",
+       "reading": "やまあらし"
+      }
+     ]
+    ]
    },
    {
     "ja": "「おれ」が月給を上げる話を断ったのは、なぜですか。",
@@ -170,7 +458,97 @@
      "pt": "Frases 40–48: não quis salário à custa da desgraça alheia.",
      "my": "ဝါကျ ၄၀–၄၈: သူများ ကံဆိုးမှုက လစာ မယူချင်။",
      "th": "ประโยค 40–48: ไม่อยากได้เงินเดือนจากความโชคร้ายของคนอื่น"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "「おれ」が",
+      "reading": ""
+     },
+     {
+      "surface": "月給",
+      "reading": "げっきゅう"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "上",
+      "reading": "あ"
+     },
+     {
+      "surface": "げる",
+      "reading": ""
+     },
+     {
+      "surface": "話",
+      "reading": "はなし"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "断",
+      "reading": "ことわ"
+     },
+     {
+      "surface": "ったのは、なぜですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "月給",
+       "reading": "げっきゅう"
+      },
+      {
+       "surface": "はもう",
+       "reading": ""
+      },
+      {
+       "surface": "十分",
+       "reading": "じゅうぶん"
+      },
+      {
+       "surface": "だったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "うらなりが",
+       "reading": ""
+      },
+      {
+       "surface": "行",
+       "reading": "い"
+      },
+      {
+       "surface": "きたくないのに、その",
+       "reading": ""
+      },
+      {
+       "surface": "月給",
+       "reading": "げっきゅう"
+      },
+      {
+       "surface": "をもらうのはいやだから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "赤",
+       "reading": "あか"
+      },
+      {
+       "surface": "シャツがきらいだったから",
+       "reading": ""
+      }
+     ]
+    ]
    }
   ]
  },

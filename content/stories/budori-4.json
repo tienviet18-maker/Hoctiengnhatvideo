@@ -80,7 +80,21 @@
      "my": "ကြာကြာ…ပြီးနောက် နောက်ဆုံး…။ ဥပမာ 「よく考えた末、会社を辞めることにした」, 「話し合った末に、引っ越すことに決めた」။",
      "th": "หลังจาก…อยู่นาน ในที่สุด… ตัวอย่าง 「よく考えた末、会社を辞めることにした」, 「話し合った末に、引っ越すことに決めた」"
     },
-    "example": 32
+    "example": 32,
+    "patternFurigana": [
+     {
+      "surface": "〜た",
+      "reading": ""
+     },
+     {
+      "surface": "末",
+      "reading": "すえ"
+     },
+     {
+      "surface": "(に)",
+      "reading": ""
+     }
+    ]
    }
   ],
   "quiz": [
@@ -104,7 +118,97 @@
      "pt": "Frases 14–15, 20: pensaram que foi a chuva de adubo; na verdade, um engenheiro agrícola ensinou errado.",
      "my": "ဝါကျ ၁၄–၁၅၊ ၂၀: မြေဩဇာမိုးကြောင့်ထင်၊ တကယ်က စိုက်ပျိုးရေးအင်ဂျင်နီယာ မှားသင်။",
      "th": "ประโยค 14–15, 20: ชาวบ้านคิดว่าเพราะฝนปุ๋ย ความจริงวิศวกรเกษตรสอนผิด"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "村",
+      "reading": "むら"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "男",
+      "reading": "おとこ"
+     },
+     {
+      "surface": "たちがブドリをなぐったのは、どうしてですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "ブドリがオリザを",
+       "reading": ""
+      },
+      {
+       "surface": "盗",
+       "reading": "ぬす"
+      },
+      {
+       "surface": "んだから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "肥料",
+       "reading": "ひりょう"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "雨",
+       "reading": "あめ"
+      },
+      {
+       "surface": "のせいでオリザが",
+       "reading": ""
+      },
+      {
+       "surface": "倒",
+       "reading": "たお"
+      },
+      {
+       "surface": "れたと",
+       "reading": ""
+      },
+      {
+       "surface": "思",
+       "reading": "おも"
+      },
+      {
+       "surface": "ったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "ブドリが",
+       "reading": ""
+      },
+      {
+       "surface": "火山",
+       "reading": "かざん"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "爆発",
+       "reading": "ばくはつ"
+      },
+      {
+       "surface": "させたから",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "病院に来た「ネリ」は、だれでしたか。",
@@ -126,7 +230,85 @@
      "pt": "Frases 22–25: era Neri, criada na fazenda e hoje casada.",
      "my": "ဝါကျ ၂၂–၂၅: နဲရီ၊ ခြံမှာ ကြီးပြင်း၊ အခု အိမ်ထောင်ကျ။",
      "th": "ประโยค 22–25: เธอคือเนริ ถูกเลี้ยงที่ฟาร์มและแต่งงานแล้ว"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "病院",
+      "reading": "びょういん"
+     },
+     {
+      "surface": "に",
+      "reading": ""
+     },
+     {
+      "surface": "来",
+      "reading": "き"
+     },
+     {
+      "surface": "た「ネリ」は、だれでしたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "病院",
+       "reading": "びょういん"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "看護",
+       "reading": "かんご"
+      },
+      {
+       "surface": "師",
+       "reading": "し"
+      }
+     ],
+     [
+      {
+       "surface": "赤",
+       "reading": "あか"
+      },
+      {
+       "surface": "ひげのおかみさん",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "森",
+       "reading": "もり"
+      },
+      {
+       "surface": "から",
+       "reading": ""
+      },
+      {
+       "surface": "連",
+       "reading": "つ"
+      },
+      {
+       "surface": "れて",
+       "reading": ""
+      },
+      {
+       "surface": "行",
+       "reading": "い"
+      },
+      {
+       "surface": "かれた、ブドリの",
+       "reading": ""
+      },
+      {
+       "surface": "妹",
+       "reading": "いもうと"
+      }
+     ]
+    ]
    },
    {
     "ja": "カルボナード島の火山を爆発させると、どうなりますか。",
@@ -148,7 +330,105 @@
      "pt": "Frase 35: o gás envolve a Terra e a aquece uns 5 graus. Mas o último não escapa (36).",
      "my": "ဝါကျ ၃၅: ဓာတ်ငွေ့က ကမ္ဘာကို ဖုံးပြီး ၅ ဒီဂရီ နွေးစေ။ နောက်ဆုံးလူ မလွတ် (၃၆)။",
      "th": "ประโยค 35: แก๊สห่อหุ้มโลก อุ่นขึ้นราว 5 องศา แต่คนสุดท้ายหนีไม่พ้น (36)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "カルボナード",
+      "reading": ""
+     },
+     {
+      "surface": "島",
+      "reading": "とう"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "火山",
+      "reading": "かざん"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "爆発",
+      "reading": "ばくはつ"
+     },
+     {
+      "surface": "させると、どうなりますか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "ガスが",
+       "reading": ""
+      },
+      {
+       "surface": "地球",
+       "reading": "ちきゅう"
+      },
+      {
+       "surface": "を",
+       "reading": ""
+      },
+      {
+       "surface": "包",
+       "reading": "つつ"
+      },
+      {
+       "surface": "んで、",
+       "reading": ""
+      },
+      {
+       "surface": "暖",
+       "reading": "あたた"
+      },
+      {
+       "surface": "かくなる",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "雨",
+       "reading": "あめ"
+      },
+      {
+       "surface": "がたくさん",
+       "reading": ""
+      },
+      {
+       "surface": "降",
+       "reading": "ふ"
+      },
+      {
+       "surface": "る",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "島",
+       "reading": "しま"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "大",
+       "reading": "おお"
+      },
+      {
+       "surface": "きくなる",
+       "reading": ""
+      }
+     ]
+    ]
    },
    {
     "ja": "ブドリがペンネン老技師に「行かないでください」と言った理由は何ですか。",
@@ -170,7 +450,129 @@
      "pt": "Frase 43: sem Pennen, ninguém pensaria no próximo passo. Budori escolheu ficar (45).",
      "my": "ဝါကျ ၄၃: ဆရာ မရှိရင် နောက်ဆက် စဉ်းစားသူ မရှိ။ ဘူဒိုရီ ကိုယ်တိုင် ကျန်ခဲ့ (၄၅)။",
      "th": "ประโยค 43: ถ้าอาจารย์ไม่อยู่ จะไม่มีใครคิดทางต่อ บุโดริเลือกอยู่เอง (45)"
-    }
+    },
+    "jaFurigana": [
+     {
+      "surface": "ブドリがペンネン",
+      "reading": ""
+     },
+     {
+      "surface": "老技師",
+      "reading": "ろうぎし"
+     },
+     {
+      "surface": "に「",
+      "reading": ""
+     },
+     {
+      "surface": "行",
+      "reading": "い"
+     },
+     {
+      "surface": "かないでください」と",
+      "reading": ""
+     },
+     {
+      "surface": "言",
+      "reading": "い"
+     },
+     {
+      "surface": "った",
+      "reading": ""
+     },
+     {
+      "surface": "理由",
+      "reading": "りゆう"
+     },
+     {
+      "surface": "は",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "ですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "老技師",
+       "reading": "ろうぎし"
+      },
+      {
+       "surface": "は",
+       "reading": ""
+      },
+      {
+       "surface": "年",
+       "reading": "とし"
+      },
+      {
+       "surface": "をとっているから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "うまくいかなかった",
+       "reading": ""
+      },
+      {
+       "surface": "時",
+       "reading": "とき"
+      },
+      {
+       "surface": "に、あとを",
+       "reading": ""
+      },
+      {
+       "surface": "考",
+       "reading": "かんが"
+      },
+      {
+       "surface": "える",
+       "reading": ""
+      },
+      {
+       "surface": "人",
+       "reading": "ひと"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "必要",
+       "reading": "ひつよう"
+      },
+      {
+       "surface": "だから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "島",
+       "reading": "しま"
+      },
+      {
+       "surface": "がとても",
+       "reading": ""
+      },
+      {
+       "surface": "遠",
+       "reading": "とお"
+      },
+      {
+       "surface": "いから",
+       "reading": ""
+      }
+     ]
+    ]
    }
   ]
  },

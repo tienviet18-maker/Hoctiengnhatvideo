@@ -60,7 +60,21 @@
           "pt": "B é mais ~ que A.",
           "my": "A ထက် B က ပို ~။",
           "th": "B ~กว่า A"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "AよりBの",
+            "reading": ""
+          },
+          {
+            "surface": "方",
+            "reading": "ほう"
+          },
+          {
+            "surface": "が〜",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜たまま",
@@ -119,7 +133,119 @@
           "pt": "Deitou de boca aberta esperando a fruta cair.",
           "my": "ပါးစပ်ဟပြီး အသီးကြွေတာကို စောင့်တယ်။",
           "th": "นอนอ้าปากรอลูกหล่น"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "フアンは、グアバの",
+            "reading": ""
+          },
+          {
+            "surface": "実",
+            "reading": "み"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "食",
+            "reading": "た"
+          },
+          {
+            "surface": "べるために、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をした？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "口",
+              "reading": "くち"
+            },
+            {
+              "surface": "をあけて、",
+              "reading": ""
+            },
+            {
+              "surface": "落",
+              "reading": "お"
+            },
+            {
+              "surface": "ちてくるのを",
+              "reading": ""
+            },
+            {
+              "surface": "待",
+              "reading": "ま"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "木",
+              "reading": "き"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "登",
+              "reading": "のぼ"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "石",
+              "reading": "いし"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "投",
+              "reading": "な"
+            },
+            {
+              "surface": "げた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "村",
+              "reading": "むら"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            },
+            {
+              "surface": "にたのんだ",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "市場で売るはずのカニは、どうなった？",
@@ -142,7 +268,95 @@
           "pt": "Mandados andar sozinhos, fugiram para o rio.",
           "my": "ကိုယ့်ဘာသာ သွားခိုင်းတော့ မြစ်ဘက် ပြေးသွားကြတယ်။",
           "th": "บอกให้เดินไปเอง ปูก็หนีลงแม่น้ำ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "市場",
+            "reading": "いちば"
+          },
+          {
+            "surface": "で",
+            "reading": ""
+          },
+          {
+            "surface": "売",
+            "reading": "う"
+          },
+          {
+            "surface": "るはずのカニは、どうなった？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "方",
+              "reading": "ほう"
+            },
+            {
+              "surface": "へにげた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "全部",
+              "reading": "ぜんぶ"
+            },
+            {
+              "surface": "売",
+              "reading": "う"
+            },
+            {
+              "surface": "れた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "フアンが",
+              "reading": ""
+            },
+            {
+              "surface": "食",
+              "reading": "た"
+            },
+            {
+              "surface": "べた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "母",
+              "reading": "かあ"
+            },
+            {
+              "surface": "さんに",
+              "reading": ""
+            },
+            {
+              "surface": "返",
+              "reading": "かえ"
+            },
+            {
+              "surface": "した",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "かごで水を運ぶと、どうなる？",
@@ -165,7 +379,87 @@
           "pt": "O cesto tem frestas, a água escorre.",
           "my": "အပေါက်တွေ များလို့ ရေ စီးထွက်တယ်။",
           "th": "ตะกร้ามีช่อง น้ำจึงไหลออกหมด"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "かごで",
+            "reading": ""
+          },
+          {
+            "surface": "水",
+            "reading": "みず"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "運",
+            "reading": "はこ"
+          },
+          {
+            "surface": "ぶと、どうなる？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "すきまから",
+              "reading": ""
+            },
+            {
+              "surface": "流",
+              "reading": "なが"
+            },
+            {
+              "surface": "れ",
+              "reading": ""
+            },
+            {
+              "surface": "出",
+              "reading": "で"
+            },
+            {
+              "surface": "てしまう",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "水",
+              "reading": "みず"
+            },
+            {
+              "surface": "がたくさんたまる",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "かごが",
+              "reading": ""
+            },
+            {
+              "surface": "重",
+              "reading": "おも"
+            },
+            {
+              "surface": "くなる",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "水",
+              "reading": "みず"
+            },
+            {
+              "surface": "がつめたくなる",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "ものぐさ太郎とフアンのちがいは？",
@@ -188,7 +482,119 @@
           "pt": "Taro trabalha e fica feliz; Juan segue preguiçoso.",
           "my": "တာရိုက ကြိုးစားပြီး ပျော်ရွှင်သွားတယ်၊ ဟွမ်က ပျင်းနေတုန်း။",
           "th": "ทาโร่ขยันทำงานจนมีความสุข ฮวนยังขี้เกียจ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ものぐさ",
+            "reading": ""
+          },
+          {
+            "surface": "太郎",
+            "reading": "たろう"
+          },
+          {
+            "surface": "とフアンのちがいは？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "太郎",
+              "reading": "たろう"
+            },
+            {
+              "surface": "は、",
+              "reading": ""
+            },
+            {
+              "surface": "最後",
+              "reading": "さいご"
+            },
+            {
+              "surface": "にまじめに",
+              "reading": ""
+            },
+            {
+              "surface": "働",
+              "reading": "はたら"
+            },
+            {
+              "surface": "く",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "太郎",
+              "reading": "たろう"
+            },
+            {
+              "surface": "は、",
+              "reading": ""
+            },
+            {
+              "surface": "木",
+              "reading": "き"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "登",
+              "reading": "のぼ"
+            },
+            {
+              "surface": "る",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "フアンは、",
+              "reading": ""
+            },
+            {
+              "surface": "都",
+              "reading": "みやこ"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "行",
+              "reading": "い"
+            },
+            {
+              "surface": "く",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "フアンは、お",
+              "reading": ""
+            },
+            {
+              "surface": "餅",
+              "reading": "もち"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "落",
+              "reading": "お"
+            },
+            {
+              "surface": "とす",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },

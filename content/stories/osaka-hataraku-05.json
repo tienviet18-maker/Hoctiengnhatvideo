@@ -93,7 +93,17 @@
           "pt": "Fica tranquilo se ~ antes. 〜ておく = fazer com antecedência. Ex.: 病院の場所を調べておくと安心です (é bom saber antes onde fica o hospital).",
           "my": "ကြို ~ ထားရင် စိတ်ချရတယ်။ 〜ておく = ကြိုလုပ်ထား။ ဥပမာ: 病院の場所を調べておくと安心です (ဆေးရုံနေရာ ကြိုရှာထားရင် စိတ်ချရ)။",
           "th": "ทำ ~ ไว้ก่อนจะอุ่นใจ 〜ておく = ทำไว้ล่วงหน้า ตัวอย่าง: 病院の場所を調べておくと安心です (ค้นหาที่ตั้งโรงพยาบาลไว้ก่อนจะอุ่นใจ)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜ておくと",
+            "reading": ""
+          },
+          {
+            "surface": "安心",
+            "reading": "あんしん"
+          }
+        ]
       }
     ],
     "quiz": [
@@ -117,7 +127,113 @@
           "pt": "Minh foi para debaixo da mesa e protegeu a cabeça.",
           "my": "မင်းက သင်ထားတဲ့အတိုင်း စားပွဲအောက် ဝင်ပြီး ခေါင်းကို ကာကွယ်တယ်။",
           "th": "มิญมุดใต้โต๊ะและปกป้องศีรษะตามที่เรียนมา"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "緊急",
+            "reading": "きんきゅう"
+          },
+          {
+            "surface": "地震",
+            "reading": "じしん"
+          },
+          {
+            "surface": "速報",
+            "reading": "そくほう"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "鳴",
+            "reading": "な"
+          },
+          {
+            "surface": "ったとき、ミンはどうしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "すぐに",
+              "reading": ""
+            },
+            {
+              "surface": "外",
+              "reading": "そと"
+            },
+            {
+              "surface": "へ",
+              "reading": ""
+            },
+            {
+              "surface": "走",
+              "reading": "はし"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "机",
+              "reading": "つくえ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "下",
+              "reading": "した"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "入",
+              "reading": "はい"
+            },
+            {
+              "surface": "って",
+              "reading": ""
+            },
+            {
+              "surface": "頭",
+              "reading": "あたま"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "守",
+              "reading": "まも"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "エレベーターで",
+              "reading": ""
+            },
+            {
+              "surface": "下",
+              "reading": "お"
+            },
+            {
+              "surface": "りた",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "キヨさんによると、非常持ち出し袋に入れないものはどれですか。",
@@ -139,7 +255,89 @@
           "pt": "Água, comida, lanterna, carregador, remédios e cópias; TV não.",
           "my": "ရေ၊ အစား၊ မီး၊ အားသွင်းကြိုး၊ ဆေး၊ မိတ္တူ၊ တီဗီ မပါဘူး။",
           "th": "น้ำ อาหาร ไฟฉาย ที่ชาร์จ ยา สำเนาเอกสาร ไม่มีทีวี"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "キヨさんによると、",
+            "reading": ""
+          },
+          {
+            "surface": "非常",
+            "reading": "ひじょう"
+          },
+          {
+            "surface": "持",
+            "reading": "も"
+          },
+          {
+            "surface": "ち",
+            "reading": ""
+          },
+          {
+            "surface": "出",
+            "reading": "だ"
+          },
+          {
+            "surface": "し",
+            "reading": ""
+          },
+          {
+            "surface": "袋",
+            "reading": "ぶくろ"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "入",
+            "reading": "い"
+          },
+          {
+            "surface": "れないものはどれですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "水",
+              "reading": "みず"
+            },
+            {
+              "surface": "と",
+              "reading": ""
+            },
+            {
+              "surface": "食",
+              "reading": "た"
+            },
+            {
+              "surface": "べ",
+              "reading": ""
+            },
+            {
+              "surface": "物",
+              "reading": "もの"
+            }
+          ],
+          [
+            {
+              "surface": "在留",
+              "reading": "ざいりゅう"
+            },
+            {
+              "surface": "カードのコピー",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "テレビ",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "最後の一枚には、パスワードは何だと書いてありましたか。",
@@ -161,7 +359,93 @@
           "pt": "Hai escreveu que a senha é o aniversário do presidente.",
           "my": "ဟိုင်က စကားဝှက်ဟာ ဥက္ကဋ္ဌ မွေးနေ့လို့ ရေးထားတယ်။",
           "th": "ไห่เขียนว่ารหัสผ่านคือวันเกิดของท่านประธาน"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "最後",
+            "reading": "さいご"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "一",
+            "reading": "いち"
+          },
+          {
+            "surface": "枚",
+            "reading": "まい"
+          },
+          {
+            "surface": "には、パスワードは",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "だと",
+            "reading": ""
+          },
+          {
+            "surface": "書",
+            "reading": "か"
+          },
+          {
+            "surface": "いてありましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "ハイさんの",
+              "reading": ""
+            },
+            {
+              "surface": "誕生",
+              "reading": "たんじょう"
+            },
+            {
+              "surface": "日",
+              "reading": "ひ"
+            }
+          ],
+          [
+            {
+              "surface": "社長",
+              "reading": "しゃちょう"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "誕生",
+              "reading": "たんじょう"
+            },
+            {
+              "surface": "日",
+              "reading": "ひ"
+            }
+          ],
+          [
+            {
+              "surface": "八月",
+              "reading": "はちがつ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "日付",
+              "reading": "ひづけ"
+            }
+          ]
+        ]
       }
     ]
   },

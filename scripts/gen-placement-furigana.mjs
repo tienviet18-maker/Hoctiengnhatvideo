@@ -1,13 +1,12 @@
 /**
- * Sinh furigana cho phần chữ Nhật chưa có sẵn mảnh furigana trong dữ liệu:
- * câu hỏi + lựa chọn + mẫu ngữ pháp của tab Bài học, và câu nghe thử ở onboarding.
+ * Furigana cho câu nghe thử ở onboarding (src/lib/placement.ts).
  * Quy tắc của app: MỌI chữ kanji hiển thị đều phải có furigana.
+ * (Tab Bài học đã có furigana trong dữ liệu truyện: scripts/lesson-furigana.mjs.)
  *
- * Ra: src/lib/lesson-furigana.generated.json (chỉ trang đọc phía server nạp, theo từng id)
- *     src/lib/placement-furigana.generated.json (nhỏ, onboarding nạp)
- * Chạy tự động qua prebuild/predev; chạy tay: node scripts/gen-lesson-furigana.mjs
+ * Ra: src/lib/placement-furigana.generated.json (nhỏ, onboarding nạp)
+ * Chạy tự động qua prebuild/predev; chạy tay: node scripts/gen-placement-furigana.mjs
  */
-import { readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadTokenizer } from "./lib/level.mjs";
@@ -22,18 +21,7 @@ const furi = (ja) => {
   return f;
 };
 
-const lessons = {};
 const dir = join(root, "content/stories");
-for (const file of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
-  const s = JSON.parse(readFileSync(join(dir, file), "utf8"));
-  const l = s.lesson;
-  if (!l) continue;
-  lessons[s.id] = {
-    g: (l.grammarPoints ?? []).map((g) => furi(g.pattern)),
-    q: (l.quiz ?? []).map((q) => ({ ja: furi(q.ja), c: q.choices.map(furi) })),
-  };
-}
-writeFileSync(join(root, "src/lib/lesson-furigana.generated.json"), JSON.stringify(lessons));
 
 // Câu nghe thử: lấy đúng mảnh furigana của câu trong truyện gốc (đã soát), không có thì tự tách
 const placementSrc = readFileSync(join(root, "src/lib/placement.ts"), "utf8");
@@ -47,4 +35,4 @@ const placement = items.map(({ id, ja }) => {
   return furi(ja);
 });
 writeFileSync(join(root, "src/lib/placement-furigana.generated.json"), JSON.stringify(placement));
-console.log(`gen-lesson-furigana: ${Object.keys(lessons).length} bài học, ${placement.length} câu nghe thử${bare ? `, ${bare} chuỗi còn kanji trần` : ""}`);
+console.log(`gen-placement-furigana: ${placement.length} câu nghe thử${bare ? `, ${bare} chuỗi còn kanji trần` : ""}`);

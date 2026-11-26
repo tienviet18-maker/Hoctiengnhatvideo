@@ -77,7 +77,21 @@
           "pt": "No lugar de A. Ex.: 店長の代わりに、私が説明します (explico no lugar do gerente).",
           "my": "A ကိုယ်စား။ ဥပမာ: 店長の代わりに、私が説明します (ဆိုင်မန်နေဂျာကိုယ်စား ကျွန်တော် ရှင်းပြပါမယ်)။",
           "th": "แทน A. ตัวอย่าง: 店長の代わりに、私が説明します (ฉันจะอธิบายแทนผู้จัดการร้าน)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "Aの",
+            "reading": ""
+          },
+          {
+            "surface": "代",
+            "reading": "か"
+          },
+          {
+            "surface": "わりに",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜とも知らずに",
@@ -94,7 +108,21 @@
           "pt": "Sem nem saber que ~. Forma simples + とも知らずに. Ex.: 雨が降るとも知らずに、傘を持たずに出かけた (saiu sem guarda-chuva, sem saber que ia chover).",
           "my": "~ မှန်း မသိဘဲ။ ရိုးရိုးပုံစံ + とも知らずに။ ဥပမာ: 雨が降るとも知らずに、傘を持たずに出かけた (မိုးရွာမှန်း မသိဘဲ ထီးမပါဘဲ ထွက်သွားတယ်)။",
           "th": "โดยไม่รู้เลยว่า ~. รูปธรรมดา + とも知らずに. ตัวอย่าง: 雨が降るとも知らずに、傘を持たずに出かけた (ออกไปโดยไม่พกร่ม ไม่รู้ว่าฝนจะตก)"
-        }
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜とも",
+            "reading": ""
+          },
+          {
+            "surface": "知",
+            "reading": "し"
+          },
+          {
+            "surface": "らずに",
+            "reading": ""
+          }
+        ]
       }
     ],
     "quiz": [
@@ -119,7 +147,87 @@
           "pt": "Um deus do céu o ensinou toda noite.",
           "my": "ကောင်းကင်နတ်က ညတိုင်း သင်ပေးတယ်။",
           "th": "เทพจากฟ้าสอนทุกคืน"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "タック・サインは、だれから",
+            "reading": ""
+          },
+          {
+            "surface": "戦",
+            "reading": "たたか"
+          },
+          {
+            "surface": "い",
+            "reading": ""
+          },
+          {
+            "surface": "方",
+            "reading": "かた"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "習",
+            "reading": "なら"
+          },
+          {
+            "surface": "いましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "リー・トン",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "空",
+              "reading": "そら"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "神",
+              "reading": "かみ"
+            },
+            {
+              "surface": "さま",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さま",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "村",
+              "reading": "むら"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            }
+          ]
+        ]
       },
       {
         "ja": "リー・トンは、どうしてタック・サインをお寺へ行かせましたか。",
@@ -142,7 +250,119 @@
           "pt": "Era a vez dele; o 'serviço urgente' era mentira.",
           "my": "သူ့အလှည့်ပါ၊ 'အရေးကြီးကိစ္စ' က လိမ်တာ။",
           "th": "ถึงคราวเขา 'งานด่วน' เป็นเรื่องโกหก"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "リー・トンは、どうしてタック・サインをお",
+            "reading": ""
+          },
+          {
+            "surface": "寺",
+            "reading": "てら"
+          },
+          {
+            "surface": "へ",
+            "reading": ""
+          },
+          {
+            "surface": "行",
+            "reading": "い"
+          },
+          {
+            "surface": "かせましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "急",
+              "reading": "きゅう"
+            },
+            {
+              "surface": "な",
+              "reading": ""
+            },
+            {
+              "surface": "仕事",
+              "reading": "しごと"
+            },
+            {
+              "surface": "があったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "タック・サインが",
+              "reading": ""
+            },
+            {
+              "surface": "強",
+              "reading": "つよ"
+            },
+            {
+              "surface": "いことを",
+              "reading": ""
+            },
+            {
+              "surface": "見",
+              "reading": "み"
+            },
+            {
+              "surface": "たかったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "化",
+              "reading": "ば"
+            },
+            {
+              "surface": "け",
+              "reading": ""
+            },
+            {
+              "surface": "物",
+              "reading": "もの"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "食",
+              "reading": "た"
+            },
+            {
+              "surface": "べられたくなかったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "寺",
+              "reading": "てら"
+            },
+            {
+              "surface": "がすきだったから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "化け物をたおしたあと、何が残っていましたか。",
@@ -165,7 +385,103 @@
           "pt": "Um arco dourado que mudará sua vida.",
           "my": "ဘဝကို ပြောင်းစေမယ့် ရွှေလေး။",
           "th": "ธนูทองที่จะเปลี่ยนชีวิตเขา"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "化",
+            "reading": "ば"
+          },
+          {
+            "surface": "け",
+            "reading": ""
+          },
+          {
+            "surface": "物",
+            "reading": "もの"
+          },
+          {
+            "surface": "をたおしたあと、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "残",
+            "reading": "のこ"
+          },
+          {
+            "surface": "っていましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "金色",
+              "reading": "きんいろ"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "光",
+              "reading": "ひか"
+            },
+            {
+              "surface": "る",
+              "reading": ""
+            },
+            {
+              "surface": "弓",
+              "reading": "ゆみ"
+            }
+          ],
+          [
+            {
+              "surface": "一本",
+              "reading": "いっぽん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "剣",
+              "reading": "けん"
+            }
+          ],
+          [
+            {
+              "surface": "たくさんのお",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "かね"
+            }
+          ],
+          [
+            {
+              "surface": "古",
+              "reading": "ふる"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "斧",
+              "reading": "おの"
+            }
+          ]
+        ]
       },
       {
         "ja": "ヤマタノオロチの話で、大蛇のしっぽから何が出てきましたか。",
@@ -188,7 +504,83 @@
           "pt": "Uma espada magnífica. Ambas terminam com um tesouro.",
           "my": "ဓားကောင်း။ ပုံပြင်နှစ်ခုလုံး ရတနာနဲ့ ဆုံးတယ်။",
           "th": "ดาบวิเศษ ทั้งสองเรื่องจบด้วยสมบัติวิเศษ"
-        }
+        },
+        "jaFurigana": [
+          {
+            "surface": "ヤマタノオロチの",
+            "reading": ""
+          },
+          {
+            "surface": "話",
+            "reading": "はなし"
+          },
+          {
+            "surface": "で、",
+            "reading": ""
+          },
+          {
+            "surface": "大蛇",
+            "reading": "だいじゃ"
+          },
+          {
+            "surface": "のしっぽから",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "出",
+            "reading": "で"
+          },
+          {
+            "surface": "てきましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "弓",
+              "reading": "ゆみ"
+            }
+          ],
+          [
+            {
+              "surface": "剣",
+              "reading": "けん"
+            }
+          ],
+          [
+            {
+              "surface": "宝",
+              "reading": "たから"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "玉",
+              "reading": "たま"
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "酒",
+              "reading": "さけ"
+            }
+          ]
+        ]
       }
     ]
   },
