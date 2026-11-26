@@ -864,6 +864,20 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 9: truyện thế giới đợt 5 — 27/11/2026 (nhánh `claude/si-stories-10`)
+
+- Đã dịch 6 gói từ PR #84: world-alibaba-1/2, world-bijo-1/2, world-yukinojoo-1/2.
+- Văn phong khớp các gói world- trước (lời kể khẩu ngữ, lời thoại giữ ngoặc kép). Tên: අලිබාබා, කාසිම්, මොර්ජියානා; බෙල්, මෘගයා; කායි, ගර්ඩා, හිම රැජින. "Vừng ơi mở ra" dịch là "අරින්න, තලපු!".
+- world-bijo-2 T4 dịch theo câu mới 「ベル、今夜も聞くよ。わたしの妻になってくれないか。」.
+- Sau đợt này: 109 gói có si.
+
+## Tiếng Sinhala đợt 8: Rakugo trọn bộ — 27/11/2026 (nhánh `claude/si-stories-9`)
+
+- Đã dịch 14 gói: rakugo-doguya, hatsu-tenjin, hirabayashi, inu-no-me, jugemu, kinmeichiku, kohome, manju-kowai, meguro-no-sanma, shibahama-1/2, shinigami-2, sokotsu-nagaya, tenshiki (kệ Rakugo giờ đủ si cả 16 gói).
+- Rakugo dịch khẩu ngữ suốt (kể cả lời dẫn), lời thoại không có ngoặc kép như bản gốc. Shinigami-2 khớp văn phong và tên với tập 1 (මරු දෙවියා, හචිගෝරෝ, câu thần chú giữ phiên âm). Lời của lãnh chúa (Meguro no Sanma) dùng thể trang trọng cổ.
+- Chơi chữ giữ nguyên âm Nhật rồi giải thích: かわず (không mua / con ếch), ただ (0 tuổi / miễn phí), tên dài Jugemu phiên âm sang chữ Sinhala, 転失気 (đánh rắm).
+- Sau đợt này: 103 gói có si.
+
 ## Tiếng Sinhala đợt 7: Làm việc ở Osaka trọn bộ — 27/11/2026 (nhánh `claude/si-stories-8`)
 
 - Đã dịch 6 gói: osaka-hataraku-03 → osaka-hataraku-08 (series Osaka giờ đủ si cả 8 tập).
@@ -923,3 +937,18 @@ Lô này thêm 4 chương chuẩn v2, cả 4 đều miễn phí vì là tập 1 
 - `mikan-1`: 61 câu, 2.137 ký tự, harder 8,6%, audio 7,1 phút. Ngôi kể thứ nhất, chỉ một giọng Aoede. Giữ toa hạng hai và vé hạng ba, đường hầm, khói đen, ba cậu bé ở đường ngang và cảnh quýt rơi.
 - Bìa: motif `torokko` (goòng lao dốc giữa vườn quýt, biển phía xa) và `mikan` (cô bé ném quýt qua cửa sổ tàu về phía ba cậu bé). Font Zen Kaku Gothic Antique và Zen Old Mincho.
 - Ẩn gói cũ `torokko` → `torokko-1`, `mikan` → `mikan-1`. `npm run verify` xanh.
+## Kệ "Triết lý sống" (wisdom), lô 3 — 27/11/2026
+
+Lô này thêm 4 chương chuẩn v2, cả 4 đều miễn phí vì là tập 1 của từng bộ. Lần đầu kệ có một chương N2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-seneca-1` | N2 | Seneca, *Bàn về sự ngắn ngủi của đời người*, viết dưới dạng thư gửi bạn Paulinus | 5:17 |
+| `life-allen-1` | N3 | James Allen, *As a Man Thinketh* (『原因と結果の法則』): tâm hồn là khu vườn | 4:19 |
+| `life-smiles-1` | N4 | Samuel Smiles, *Self-Help*: thợ gốm Palissy đốt cả bàn ghế để nung chiếc đĩa trắng | 3:36 |
+| `life-gakumon-1` | N3 | 福沢諭吉『学問のすゝめ』, kể qua chuyện cô bé Misaki tìm thấy tờ 10.000 yên cũ của bà | 4:21 |
+
+- Cả 4 tác phẩm gốc đều thuộc phạm vi công cộng. Phần hội thoại và khung truyện là sáng tác của ViMai. Câu trích được dịch lại bằng tiếng Nhật dễ hiểu, riêng câu mở đầu của 福沢 giữ nguyên văn.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 12 chương: 1 chương N2 (seneca-1), 7 chương N3 và 4 chương N4.
+- `npm run verify` xanh.
