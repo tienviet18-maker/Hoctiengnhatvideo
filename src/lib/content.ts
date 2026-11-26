@@ -732,6 +732,7 @@ import v2MysteryHoichi1 from "../../content/stories/mystery-hoichi-1.json";
 import v2MysteryHoichi2 from "../../content/stories/mystery-hoichi-2.json";
 import v2MysteryMujina1 from "../../content/stories/mystery-mujina-1.json";
 import s_worldNingyo1 from "../../content/stories/world-ningyo-1.json";
+import s_worldNingyo2 from "../../content/stories/world-ningyo-2.json";
 // --- hết kệ ma & trinh thám: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1469,6 +1470,7 @@ export const STORIES: StoryContent[] = [
   v2MysteryMujina1 as unknown as StoryContent,
   // --- hết kệ ma & trinh thám ---
   s_worldNingyo1 as unknown as StoryContent,
+  s_worldNingyo2 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
