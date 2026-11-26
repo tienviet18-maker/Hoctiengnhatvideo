@@ -11328,6 +11328,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-kieu-1/chapter.mp3",
    "durationSec": 341.04
   }
+ },
+ {
+  "id": "furusato-vn-kieu-2",
+  "titles": {
+   "vi": "Truyện Kiều (2): Bán mình chuộc cha",
+   "en": "The Tale of Kieu (2): Selling Herself to Save Her Father",
+   "zh-Hans": "金云翘传（2）：卖身救父",
+   "zh-Hant": "金雲翹傳（2）：賣身救父",
+   "ko": "쭈옌 끼에우 (2): 몸을 팔아 아버지를 구하다",
+   "tl": "Ang Kuwento ni Kieu (2): Ipinagbili ang Sarili para sa Ama",
+   "ne": "किएउको कथा (२): बुबालाई बचाउन आफैँलाई बेच्छिन्",
+   "id": "Kisah Kieu (2): Menjual Diri demi Ayah",
+   "pt": "A História de Kieu (2): Vendida para Salvar o Pai",
+   "my": "ကီအဲဝ်ဇာတ်လမ်း (၂): ဖခင်ကိုကယ်ရန် ကိုယ့်ကိုယ်ကိုရောင်း",
+   "th": "เรื่องของเกี่ยว (2): ขายตัวไถ่บิดา"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 57,
+  "cover": "/covers/furusato-vn-kieu-2.webp",
+  "series": {
+   "id": "furusato-vn-kieu",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-kieu-2/chapter.mp3",
+   "durationSec": 354.096
+  }
  }
 ];
 
