@@ -3509,7 +3509,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 13,
-  "cover": "/covers/kumo-no-ito.webp"
+  "cover": "/covers/kumo-no-ito.webp",
+  "hidden": true,
+  "replacedBy": "kumonoito-1"
  },
  {
   "id": "chumon-no-oi-ryoriten",
@@ -4163,7 +4165,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 12,
-  "cover": "/covers/tebukuro-o-kai-ni.webp"
+  "cover": "/covers/tebukuro-o-kai-ni.webp",
+  "hidden": true,
+  "replacedBy": "tebukuro-1"
  },
  {
   "id": "my-number-card",
@@ -11969,6 +11973,99 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "tebukuro-1",
+  "titles": {
+   "vi": "Đi mua găng tay (phần 1)",
+   "en": "Buying Mittens (Part 1)",
+   "zh-Hans": "买手套（上）",
+   "zh-Hant": "買手套（上）",
+   "ko": "장갑을 사러 (상)",
+   "tl": "Pagbili ng Guwantes (Bahagi 1)",
+   "ne": "पन्जा किन्न (भाग १)",
+   "id": "Membeli Sarung Tangan (Bagian 1)",
+   "pt": "Comprar Luvas (Parte 1)",
+   "my": "လက်အိတ် ဝယ်ဖို့ (အပိုင်း ၁)",
+   "th": "ไปซื้อถุงมือ (ตอนที่ 1)"
+  },
+  "level": "N4",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 55,
+  "cover": "/covers/tebukuro-1.webp",
+  "series": {
+   "id": "tebukuro",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/tebukuro-1/chapter.mp3",
+   "durationSec": 265.824
+  }
+ },
+ {
+  "id": "tebukuro-2",
+  "titles": {
+   "vi": "Đi mua găng tay (phần 2)",
+   "en": "Buying Mittens (Part 2)",
+   "zh-Hans": "买手套（下）",
+   "zh-Hant": "買手套（下）",
+   "ko": "장갑을 사러 (하)",
+   "tl": "Pagbili ng Guwantes (Bahagi 2)",
+   "ne": "पन्जा किन्न (भाग २)",
+   "id": "Membeli Sarung Tangan (Bagian 2)",
+   "pt": "Comprar Luvas (Parte 2)",
+   "my": "လက်အိတ် ဝယ်ဖို့ (အပိုင်း ၂)",
+   "th": "ไปซื้อถุงมือ (ตอนที่ 2)"
+  },
+  "level": "N4",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 54,
+  "cover": "/covers/tebukuro-2.webp",
+  "series": {
+   "id": "tebukuro",
+   "index": 2
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/tebukuro-2/chapter.mp3",
+   "durationSec": 272.352
+  }
+ },
+ {
+  "id": "kumonoito-1",
+  "titles": {
+   "vi": "Sợi tơ nhện",
+   "en": "The Spider's Thread",
+   "zh-Hans": "蜘蛛之丝",
+   "zh-Hant": "蜘蛛之絲",
+   "ko": "거미줄",
+   "tl": "Ang Sinulid ng Gagamba",
+   "ne": "माकुराको धागो",
+   "id": "Benang Laba-laba",
+   "pt": "O Fio da Aranha",
+   "my": "ပင့်ကူမျှင်",
+   "th": "ใยแมงมุม"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 59,
+  "cover": "/covers/kumonoito-1.webp",
+  "series": {
+   "id": "kumonoito",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/kumonoito-1/chapter.mp3",
+   "durationSec": 319.92
+  }
+ },
+ {
   "id": "furusato-vn-kieu-1",
   "titles": {
    "vi": "Truyện Kiều (1): Tiết Thanh minh",
@@ -12854,6 +12951,68 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/mystery-mujina-1/chapter.mp3",
    "durationSec": 240.55
+  }
+ },
+ {
+  "id": "mystery-akagami-1",
+  "titles": {
+   "vi": "Hội Tóc Đỏ (1): Công việc kỳ quặc",
+   "en": "The Red-Headed League (1): A Strange Job",
+   "zh-Hans": "红发会（一）：奇怪的工作",
+   "zh-Hant": "紅髮會（一）：奇怪的工作",
+   "ko": "빨간 머리 연맹 (1): 이상한 일자리",
+   "tl": "Ang Samahan ng mga Pulang Buhok (1): Kakaibang Trabaho",
+   "ne": "रातो कपाल संघ (१): अनौठो काम",
+   "id": "Liga Rambut Merah (1): Pekerjaan Aneh",
+   "pt": "A Liga dos Cabeças-Vermelhas (1): Um Emprego Estranho",
+   "my": "ဆံပင်နီ အသင်း (၁): ထူးဆန်းသော အလုပ်",
+   "th": "สมาคมผมแดง (1): งานประหลาด"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 55,
+  "cover": "/covers/mystery-akagami-1.webp",
+  "series": {
+   "id": "mystery-akagami",
+   "index": 1
+  },
+  "shelf": "mystery",
+  "audioTrack": {
+   "src": "/audio/mystery-akagami-1/chapter.mp3",
+   "durationSec": 366.91
+  }
+ },
+ {
+  "id": "mystery-akagami-2",
+  "titles": {
+   "vi": "Hội Tóc Đỏ (2): Tiếng động dưới tầng hầm",
+   "en": "The Red-Headed League (2): Sounds in the Cellar",
+   "zh-Hans": "红发会（二）：地下室的声音",
+   "zh-Hant": "紅髮會（二）：地下室的聲音",
+   "ko": "빨간 머리 연맹 (2): 지하실의 소리",
+   "tl": "Ang Samahan ng mga Pulang Buhok (2): Ingay sa Silong",
+   "ne": "रातो कपाल संघ (२): तहखानाको आवाज",
+   "id": "Liga Rambut Merah (2): Suara di Ruang Bawah Tanah",
+   "pt": "A Liga dos Cabeças-Vermelhas (2): Ruídos no Porão",
+   "my": "ဆံပင်နီ အသင်း (၂): မြေအောက်ခန်းမှ အသံ",
+   "th": "สมาคมผมแดง (2): เสียงในห้องใต้ดิน"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/mystery-akagami-2.webp",
+  "series": {
+   "id": "mystery-akagami",
+   "index": 2
+  },
+  "shelf": "mystery",
+  "audioTrack": {
+   "src": "/audio/mystery-akagami-2/chapter.mp3",
+   "durationSec": 311.38
   }
  }
 ];

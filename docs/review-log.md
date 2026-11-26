@@ -786,6 +786,12 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Ẩn gói cũ `gongitsune` → `gongitsune-1` qua `content/hidden-stories.json`. Đăng ký trong khối "làm lại Mai-chan + văn học Nhật".
 - `npm run verify` xanh.
 
+## Kệ ma & trinh thám — lô 2 (Sherlock Holmes「赤毛組合」) — 26/11/2026
+
+- Lô 1 (PR #62: `mystery-hoichi-1/2`, `mystery-mujina-1`) đã gộp vào main.
+- Thêm `mystery-akagami-1` (N3, 55 câu, 6:07, miễn phí) và `mystery-akagami-2` (N3, 52 câu, 5:11, VIP): bản kể lại tiếng Nhật dễ của "The Red-Headed League" (Doyle 1891, public domain). Chi tiết ở `content/stories/mystery-akagami-*.qc.md`.
+- `register.mjs`: gộp với cơ chế `--block` của luồng Triết lý sống; thêm khóa `ma` → khối "kệ ma & trinh thám".
+- ID đã cấp cho kệ này (để luồng khác không trùng): `mystery-hoichi-*`, `mystery-mujina-*`, `mystery-akagami-*`; sắp tới `mystery-nisen-*` (二銭銅貨), `mystery-rokuro-*`, `mystery-chawan-*`, `mystery-garnet-*`, `mystery-dzaka-*`, `mystery-shinri-*`.
 ## Kệ truyện cổ thế giới đợt 2: Hansel & Gretel, Cô bé quàng khăn đỏ — 27/11/2026
 - `world-hansel-1` (miễn phí), `world-hansel-2` (VIP): Hansel & Gretel theo Grimm 1857, N4, 53–54 câu mỗi tập. Kết bỏ chi tiết mẹ kế chết, chỉ nói bà không còn ở nhà.
 - `world-akazukin` (N5, miễn phí): Cô bé quàng khăn đỏ theo Grimm (thợ săn cứu, nhét đá vào bụng sói), 44 câu, cho người mới bắt đầu (kệ N5 đang thiếu).
@@ -802,3 +808,17 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 ## Kệ truyện cổ thế giới: Nhạc sĩ thành Bremen — 27/11/2026
 - `world-bremen` (N5, miễn phí, 42 câu) theo Grimm 1857; gói cũ `bremen-musicians` ẩn, trỏ sang bản mới. Bìa motif `bremen`.
 - Sửa glossary kệ world: はさみ = cái kéo (trước bị gán nghĩa はさみうち), thread Sinhala báo.
+## Văn học Nhật v2: 手袋を買いに 2 tập (N4), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch2`. `tebukuro-1` (55 câu, 1.360 ký tự, harder 7,0%, audio 4,4 phút) và `tebukuro-2` (54 câu, 1.390 ký tự, harder 12,0%, audio 4,5 phút).
+- Phỏng theo 新美南吉 (mất 1943, xuất bản 1943; public domain ở Nhật, và ở Mỹ vì tác giả mất trước 1946). Giữ câu kết gốc 「ほんとうに人間はいいものかしら」.
+- Giọng: Aoede kể; 子ぎつね Neural2-B cao, 母さんぎつね Neural2-B trầm, ぼうし屋 Neural2-C, mẹ con nhà người Neural2-B.
+- Bìa: motif `teb1`/`teb2` (đêm tuyết, đèn phố, găng đỏ). Tập 1 miễn phí.
+- Ẩn gói cũ `tebukuro-o-kai-ni` → `tebukuro-1`. `npm run verify` xanh.
+
+## Văn học Nhật v2: 蜘蛛の糸 (N3), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch3`. `kumonoito-1` (59 câu, 1.608 ký tự, harder 5,5% so với N3, audio 5,3 phút), một tập, miễn phí.
+- Phỏng theo 芥川龍之介 (mất 1927, xuất bản 1918; public domain ở Nhật và Mỹ). Giữ cảnh kết gốc (hoa sen không bận tâm, gần trưa). Xếp N3 vì 地獄/天国 và văn phong; bản N4 vượt ngưỡng từ khó.
+- Giọng: Aoede kể, カンダタ Neural2-C trầm. Bìa motif `kumo` (vùng tranh hẹp hơn để chừa chỗ tên tác giả dài).
+- Ẩn gói cũ `kumo-no-ito` → `kumonoito-1`. `npm run verify` xanh.
