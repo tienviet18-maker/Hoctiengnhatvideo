@@ -13490,6 +13490,68 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "life-seneca-2",
+  "titles": {
+   "vi": "Bộ mặt thật của nỗi lo",
+   "en": "The True Face of Worry",
+   "zh-Hans": "忧虑的真面目",
+   "zh-Hant": "憂慮的真面目",
+   "ko": "걱정의 정체",
+   "tl": "Ang Tunay na Mukha ng Pag-aalala",
+   "ne": "चिन्ताको असली रूप",
+   "id": "Wajah Asli Kekhawatiran",
+   "pt": "A Verdadeira Face da Preocupação",
+   "my": "စိုးရိမ်ပူပန်မှု၏ အစစ်အမှန် မျက်နှာ",
+   "th": "ตัวตนที่แท้จริงของความกังวล"
+  },
+  "level": "N2",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 62,
+  "cover": "/covers/life-seneca-2.webp",
+  "series": {
+   "id": "life-seneca",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-seneca-2/chapter.mp3",
+   "durationSec": 373.25
+  }
+ },
+ {
+  "id": "life-rongo-2",
+  "titles": {
+   "vi": "Bốn mươi tuổi không còn mê",
+   "en": "At Forty, No More Doubts",
+   "zh-Hans": "四十而不惑",
+   "zh-Hant": "四十而不惑",
+   "ko": "마흔에는 흔들리지 않는다",
+   "tl": "Sa Apatnapu, Wala Nang Pag-aalinlangan",
+   "ne": "चालीसमा दुविधा छैन",
+   "id": "Empat Puluh Tak Lagi Ragu",
+   "pt": "Aos Quarenta, Sem Dúvidas",
+   "my": "အသက်လေးဆယ်တွင် မဝေခွဲတော့",
+   "th": "สี่สิบไม่หวั่นไหว"
+  },
+  "level": "N4",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 37,
+  "cover": "/covers/life-rongo-2.webp",
+  "series": {
+   "id": "life-rongo",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-rongo-2/chapter.mp3",
+   "durationSec": 177.91
+  }
+ },
+ {
   "id": "mystery-hoichi-1",
   "titles": {
    "vi": "Hōichi không tai (1): Vị khách lúc nửa đêm",
