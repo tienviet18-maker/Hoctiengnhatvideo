@@ -20,7 +20,6 @@ import { vocabLevel } from "../lib/level.mjs";
 const root = new URL("../..", import.meta.url).pathname;
 const BJT = resolve(process.env.BJT_DIR ?? join(root, "../bjt"));
 const LANGS = ["vi", "en", "zh-Hans", "zh-Hant", "ko", "tl", "ne", "id", "pt", "my", "th"];
-const OTHER = LANGS.slice(2);
 // Cấp BJT → nhãn N gần đúng (chỉ dùng cho kính ngữ và ngữ pháp; từ vựng tra danh sách JLPT thật)
 const J2N = { J5: "N4", J4: "N3", J3: "N3", J2: "N2", J1: "N1", "J1+": "N1" };
 

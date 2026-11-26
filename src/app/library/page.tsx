@@ -164,7 +164,8 @@ export default function LibraryPage() {
           <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
             <span className="jp" style={{ fontSize: 26, fontWeight: 700 }}>{current.word}</span>
             <span className="jp" style={{ fontSize: 14, color: "var(--muted)" }}>{current.reading}</span>
-            <span className="lvl" style={{ marginLeft: "auto" }}>{current.level}</span>
+            {/* Thẻ kính ngữ: cấp chỉ là ước lượng theo BJT, không hiện để khỏi gây hiểu nhầm (行く không phải từ N3) */}
+            {current.kind !== "keigo" && <span className="lvl" style={{ marginLeft: "auto" }}>{current.level}</span>}
           </div>
           {flipped ? (
             <>
