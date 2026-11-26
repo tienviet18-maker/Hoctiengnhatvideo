@@ -1788,7 +1788,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Toki Soba — Soba dan Jam",
    "pt": "Toki Soba — O soba e a hora",
    "my": "တိုကီ ဆိုဘာ — ဆိုဘာနဲ့ အချိန်",
-   "th": "โทคิโซบะ — โซบะกับยามเวลา"
+   "th": "โทคิโซบะ — โซบะกับยามเวลา",
+   "si": "තෝකි සෝබා — සෝබා සහ වේලාව"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -2039,7 +2040,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Urashima Tarō I — Nelayan dan Istana di Dasar Laut",
    "pt": "Urashima Tarō I — O Pescador e o Palácio no Fundo do Mar",
    "my": "ဥရာရှီးမ တာရို (၁) — တံငါနဲ့ ပင်လယ်အောက် နန်းတော်",
-   "th": "อุราชิมะ ทาโร่ ตอนที่ 1 — ชาวประมงกับวังใต้ทะเล"
+   "th": "อุราชิมะ ทาโร่ ตอนที่ 1 — ชาวประมงกับวังใต้ทะเล",
+   "si": "උරෂිමා තාරෝ I — ධීවරයා සහ මුහුද යට මාළිගාව"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2318,7 +2320,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Shuten-dōji I — Mendaki Gunung Ōe",
    "pt": "Shuten-dōji I — Rumo ao Monte Ōe",
    "my": "ရှုတဲန်ဒိုဂျီ (၁) — အိုအဲတောင်သို့",
-   "th": "ชูเท็นโดจิ ตอนที่ 1 — มุ่งสู่ภูเขาโอเอะ"
+   "th": "ชูเท็นโดจิ ตอนที่ 1 — มุ่งสู่ภูเขาโอเอะ",
+   "si": "ෂුතෙන්-දෝජි I — ඕඑ කන්ද නැගීම"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2380,7 +2383,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Ushiwaka dan Benkei I — Gunung Kurama dan Seribu Pedang",
    "pt": "Ushiwaka e Benkei I — O Monte Kurama e as Mil Espadas",
    "my": "ဥရှိဝါကာနဲ့ ဘဲန်ကေး (၁) — ကူရာမတောင်နဲ့ ဓားတစ်ထောင်",
-   "th": "อุชิวากะกับเบ็งเค ตอนที่ 1 — ภูเขาคุรามะกับดาบพันเล่ม"
+   "th": "อุชิวากะกับเบ็งเค ตอนที่ 1 — ภูเขาคุรามะกับดาบพันเล่ม",
+   "si": "උෂිවකා සහ බෙන්කේ I — කුරමා කන්ද සහ කඩු දහස"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2442,7 +2446,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Shinigami I — Mantra Sang Tabib Gadungan",
    "pt": "Shinigami I — A fórmula mágica do falso médico",
    "my": "သေမင်း (၁) — ဆရာဝန်အတုရဲ့ မန္တန်",
-   "th": "ยมทูต ภาค 1 — คาถาของหมอเก๊"
+   "th": "ยมทูต ภาค 1 — คาถาของหมอเก๊",
+   "si": "මරු දෙවියා I — ව්‍යාජ වෛද්‍යවරයාගේ මායා මන්ත්‍රය"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -2639,7 +2644,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Momotarō I — Tiga Sahabat dan Kue Kibi",
    "pt": "Momotarō I — Três amigos e os bolinhos kibi",
    "my": "မိုမိုတာရို (၁) — သူငယ်ချင်းသုံးယောက်နဲ့ ကီဘီဒန်ဂို",
-   "th": "โมโมทาโร่ ตอนที่ 1 — สามสหายกับขนมคิบิดังโงะ"
+   "th": "โมโมทาโร่ ตอนที่ 1 — สามสหายกับขนมคิบิดังโงะ",
+   "si": "මොමොතාරෝ I — මිතුරන් තිදෙනා සහ කිබි ඩම්ප්ලින්"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2701,7 +2707,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Yuki-onna I — Malam Badai Salju",
    "pt": "Yuki-onna I — A noite da nevasca",
    "my": "ယူကီအိုနာ (၁) — နှင်းမုန်တိုင်းည",
-   "th": "ยูกิอนนะ ตอนที่ 1 — คืนพายุหิมะ"
+   "th": "ยูกิอนนะ ตอนที่ 1 — คืนพายุหิมะ",
+   "si": "යුකි-ඔන්නා I — හිම කුණාටුවේ රාත්‍රිය"
   },
   "level": "N3",
   "topic": "folktale",
@@ -2763,7 +2770,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Anju dan Zushiō I — Dijual",
    "pt": "Anju e Zushiō I — Vendidos",
    "my": "အန်ဂျူနဲ့ ဇူရှိအို (၁) — ရောင်းစားခံရသော မောင်နှမ",
-   "th": "อันจูกับซูชิโอ ตอนที่ 1 — พี่น้องที่ถูกขาย"
+   "th": "อันจูกับซูชิโอ ตอนที่ 1 — พี่น้องที่ถูกขาย",
+   "si": "අන්ජු සහ සුෂියෝ I — විකුණා දැමූ දරුවෝ"
   },
   "level": "N3",
   "topic": "folktale",
@@ -4099,7 +4107,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 13,
-  "cover": "/covers/gongitsune.webp"
+  "cover": "/covers/gongitsune.webp",
+  "hidden": true,
+  "replacedBy": "gongitsune-1"
  },
  {
   "id": "summer-festival",
@@ -6665,7 +6675,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep03-shared-umbrella.webp"
+  "cover": "/covers/mai-chan-ep03-shared-umbrella.webp",
+  "hidden": true,
+  "replacedBy": "maichan-06"
  },
  {
   "id": "mai-chan-ep04-onigiri",
@@ -6678,7 +6690,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep04-onigiri.webp"
+  "cover": "/covers/mai-chan-ep04-onigiri.webp",
+  "hidden": true,
+  "replacedBy": "maichan-05"
  },
  {
   "id": "mai-chan-ep05-sports-day",
@@ -6746,7 +6760,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep08-sick-mom.webp"
+  "cover": "/covers/mai-chan-ep08-sick-mom.webp",
+  "hidden": true,
+  "replacedBy": "maichan-07"
  },
  {
   "id": "the-shinkansen-trip",
@@ -6839,7 +6855,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep11-tomatoes.webp"
+  "cover": "/covers/mai-chan-ep11-tomatoes.webp",
+  "hidden": true,
+  "replacedBy": "maichan-08"
  },
  {
   "id": "mai-chan-ep12-calling-grandma",
@@ -6892,7 +6910,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep13-rainy-day.webp"
+  "cover": "/covers/mai-chan-ep13-rainy-day.webp",
+  "hidden": true,
+  "replacedBy": "maichan-06"
  },
  {
   "id": "mai-chan-ep14-cooking-curry",
@@ -6945,7 +6965,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep15-lost-cat.webp"
+  "cover": "/covers/mai-chan-ep15-lost-cat.webp",
+  "hidden": true,
+  "replacedBy": "maichan-09"
  },
  {
   "id": "mai-chan-ep16-dad-cooks-pho",
@@ -6997,7 +7019,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 8,
-  "cover": "/covers/mai-chan-ep17-snow-day.webp"
+  "cover": "/covers/mai-chan-ep17-snow-day.webp",
+  "hidden": true,
+  "replacedBy": "maichan-10"
  },
  {
   "id": "mai-chan-ep18-new-year-card",
@@ -8744,7 +8768,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Tam dan Cam (1): Ikan Gobi Kecil",
    "pt": "Tam e Cam (1): O peixinho gobião",
    "my": "တမ်နှင့် ကမ် (၁) - ဂိုဘီငါးလေး",
-   "th": "ตั๊มกับก๊าม (1): ปลาบู่ตัวน้อย"
+   "th": "ตั๊มกับก๊าม (1): ปลาบู่ตัวน้อย",
+   "si": "තාම් සහ කාම් (1): පුංචි ගෝබි මාළුවා"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -8936,7 +8961,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bekerja di Osaka (1): Selamat datang di Osaka",
    "pt": "Trabalhando em Osaka (1): Bem-vindo a Osaka",
    "my": "အိုဆာကာမှာ အလုပ်လုပ်ခြင်း (၁) - အိုဆာကာက ကြိုဆိုပါတယ်",
-   "th": "ทำงานที่โอซาก้า (1): ยินดีต้อนรับสู่โอซาก้า"
+   "th": "ทำงานที่โอซาก้า (1): ยินดีต้อนรับสู่โอซาก้า",
+   "si": "ඔසාකාහි වැඩ කිරීම (1): ඔසාකාවට සාදරයෙන් පිළිගනිමු"
   },
   "level": "N3",
   "topic": "life-in-japan",
@@ -10302,7 +10328,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kasus Hanshichi: Arwah Ofumi (Bagian 1)",
    "pt": "Os Casos de Hanshichi: A Alma de Ofumi (Parte 1)",
    "my": "ဟန်ရှိချိ အမှုတွဲ: အိုဖူမိရဲ့ ဝိညာဉ် (အပိုင်း ၁)",
-   "th": "บันทึกคดีฮันชิจิ: วิญญาณของโอฟุมิ (ตอนที่ 1)"
+   "th": "บันทึกคดีฮันชิจิ: วิญญาณของโอฟุมิ (ตอนที่ 1)",
+   "si": "හන්ෂිචිගේ නඩු පොත: ඔෆුමිගේ හොල්මන (1 කොටස)"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -10364,7 +10391,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Layar Neraka (1)",
    "pt": "O Biombo do Inferno (1)",
    "my": "ငရဲပုံ ကာရံ (၁)",
-   "th": "ฉากกั้นนรก (1)"
+   "th": "ฉากกั้นนรก (1)",
+   "si": "නිරා තිරය (1)"
   },
   "level": "N2",
   "topic": "classic-literature",
@@ -10426,7 +10454,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Riwayat Gusuko Budori (1)",
    "pt": "A Vida de Gusuko Budori (1)",
    "my": "ဂူစုကို ဘူဒိုရီ၏ အတ္ထုပ္ပတ္တိ (၁)",
-   "th": "ชีวประวัติของกุสุโค บุโดริ (1)"
+   "th": "ชีวประวัติของกุสุโค บุโดริ (1)",
+   "si": "ගුසුකෝ බුදෝරිගේ ජීවිතය (1)"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10550,7 +10579,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hanshichi: Manusia Salju (1)",
    "pt": "Hanshichi: O Boneco de Neve (1)",
    "my": "ဟန်ရှိချိ: နှင်းလူရုပ် (၁)",
-   "th": "ฮันชิจิ: ตุ๊กตาหิมะ (1)"
+   "th": "ฮันชิจิ: ตุ๊กตาหิมะ (1)",
+   "si": "හන්ෂිචි: හිම මිනිසා (1)"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -10612,7 +10642,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Botchan (1): Meninggalkan Tokyo",
    "pt": "Botchan (1): Deixando Tóquio",
    "my": "ဘော့ချန် (၁): တိုကျိုမှ ထွက်ခွာ",
-   "th": "บ็อตจัง (1): จากโตเกียว"
+   "th": "บ็อตจัง (1): จากโตเกียว",
+   "si": "බොච්චන් (1): ටෝකියෝවෙන් සමුගැනීම"
   },
   "level": "N3",
   "topic": "classic-literature",
@@ -10798,7 +10829,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Pita Berbintik (1): Klien yang Gemetar",
    "pt": "A Faixa Malhada (1): A Cliente Trêmula",
    "my": "အစက်ပြောက်ကြိုး (၁): တုန်နေတဲ့ အကူအညီတောင်းသူ",
-   "th": "แถบลายจุด (1): ผู้ว่าจ้างที่ตัวสั่น"
+   "th": "แถบลายจุด (1): ผู้ว่าจ้างที่ตัวสั่น",
+   "si": "තිත් සහිත පටිය (1): වෙව්ලන සේවාලාභිනිය"
   },
   "level": "N3",
   "topic": "classic-mystery",
@@ -11561,7 +11593,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (1): Pagi yang Kalang Kabut",
    "pt": "Mai-chan (1): Uma Manhã Corrida",
    "my": "မိုင်ချန် (၁): ကမန်းကတန်း မနက်ခင်း",
-   "th": "ไมจัง (1): เช้าวันวุ่นวาย"
+   "th": "ไมจัง (1): เช้าวันวุ่นวาย",
+   "si": "මායි-චන් (1): කලබල උදෑසනක්"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11592,7 +11625,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (2): Hari Olahraga",
    "pt": "Mai-chan (2): Gincana Esportiva",
    "my": "မိုင်ချန် (၂): အားကစားပွဲ",
-   "th": "ไมจัง (2): วันกีฬาสี"
+   "th": "ไมจัง (2): วันกีฬาสี",
+   "si": "මායි-චන් (2): ක්‍රීඩා උළෙල"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11623,7 +11657,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (3): Gigi yang Goyang",
    "pt": "Mai-chan (3): O Dente Mole",
    "my": "မိုင်ချန် (၃): လှုပ်နေတဲ့ သွား",
-   "th": "ไมจัง (3): ฟันโยก"
+   "th": "ไมจัง (3): ฟันโยก",
+   "si": "මායි-චන් (3): සෙලවෙන දත"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11654,7 +11689,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mai-chan (4): Hadiah untuk Bin",
    "pt": "Mai-chan (4): Um Presente para o Bin",
    "my": "မိုင်ချန် (၄): ဘင်အတွက် လက်ဆောင်",
-   "th": "ไมจัง (4): ของขวัญให้บิน"
+   "th": "ไมจัง (4): ของขวัญให้บิน",
+   "si": "මායි-චන් (4): බින්ට තෑග්ගක්"
   },
   "level": "N5",
   "topic": "daily-life-japan",
@@ -11673,6 +11709,254 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "maichan-05",
+  "titles": {
+   "vi": "Mai-chan (5): Cơm nắm lăn lông lốc",
+   "en": "Mai-chan (5): The Rolling Rice Ball",
+   "zh-Hans": "小麦（5）：骨碌碌滚的饭团",
+   "zh-Hant": "小麥（5）：骨碌碌滾的飯糰",
+   "ko": "마이짱 (5): 데굴데굴 주먹밥",
+   "tl": "Mai-chan (5): Ang Gumugulong na Onigiri",
+   "ne": "माई-चान (५): गुडुल्किने ओनिगिरी",
+   "id": "Mai-chan (5): Onigiri yang Menggelinding",
+   "pt": "Mai-chan (5): O Bolinho de Arroz que Rolou",
+   "my": "မိုင်ချန် (၅): လှိမ့်သွားတဲ့ ထမင်းလုံး",
+   "th": "ไมจัง (5): ข้าวปั้นกลิ้งหลุน ๆ"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-05.webp",
+  "series": {
+   "id": "maichan",
+   "index": 5
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-05/chapter.mp3",
+   "durationSec": 157.056
+  }
+ },
+ {
+  "id": "maichan-06",
+  "titles": {
+   "vi": "Mai-chan (6): Chung một chiếc ô",
+   "en": "Mai-chan (6): Sharing an Umbrella",
+   "zh-Hans": "小麦（6）：共撑一把伞",
+   "zh-Hant": "小麥（6）：共撐一把傘",
+   "ko": "마이짱 (6): 우산 하나를 같이",
+   "tl": "Mai-chan (6): Iisang Payong",
+   "ne": "माई-चान (६): एउटै छाता",
+   "id": "Mai-chan (6): Satu Payung Berdua",
+   "pt": "Mai-chan (6): Um Guarda-chuva para Duas",
+   "my": "မိုင်ချန် (၆): ထီးတစ်လက်တည်း",
+   "th": "ไมจัง (6): ร่มคันเดียวกัน"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-06.webp",
+  "series": {
+   "id": "maichan",
+   "index": 6
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-06/chapter.mp3",
+   "durationSec": 146.352
+  }
+ },
+ {
+  "id": "maichan-07",
+  "titles": {
+   "vi": "Mai-chan (7): Hôm nay con làm mẹ",
+   "en": "Mai-chan (7): I'll Be Mom Today",
+   "zh-Hans": "小麦（7）：今天我来当妈妈",
+   "zh-Hant": "小麥（7）：今天我來當媽媽",
+   "ko": "마이짱 (7): 오늘은 내가 엄마",
+   "tl": "Mai-chan (7): Ako Muna ang Nanay Ngayon",
+   "ne": "माई-चान (७): आज म आमा",
+   "id": "Mai-chan (7): Hari Ini Aku Jadi Ibu",
+   "pt": "Mai-chan (7): Hoje Eu Sou a Mãe",
+   "my": "မိုင်ချန် (၇): ဒီနေ့ သမီးက အမေ",
+   "th": "ไมจัง (7): วันนี้หนูเป็นแม่เอง"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-07.webp",
+  "series": {
+   "id": "maichan",
+   "index": 7
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-07/chapter.mp3",
+   "durationSec": 156.216
+  }
+ },
+ {
+  "id": "maichan-08",
+  "titles": {
+   "vi": "Mai-chan (8): Quả cà chua đầu tiên",
+   "en": "Mai-chan (8): The First Tomato",
+   "zh-Hans": "小麦（8）：第一颗番茄",
+   "zh-Hant": "小麥（8）：第一顆番茄",
+   "ko": "마이짱 (8): 첫 번째 토마토",
+   "tl": "Mai-chan (8): Ang Unang Kamatis",
+   "ne": "माई-चान (८): पहिलो गोलभेडा",
+   "id": "Mai-chan (8): Tomat Pertama",
+   "pt": "Mai-chan (8): O Primeiro Tomate",
+   "my": "မိုင်ချန် (၈): ပထမဆုံး ခရမ်းချဉ်သီး",
+   "th": "ไมจัง (8): มะเขือเทศลูกแรก"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 38,
+  "cover": "/covers/maichan-08.webp",
+  "series": {
+   "id": "maichan",
+   "index": 8
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-08/chapter.mp3",
+   "durationSec": 148.728
+  }
+ },
+ {
+  "id": "maichan-09",
+  "titles": {
+   "vi": "Mai-chan (9): Mèo Tama đi đâu rồi?",
+   "en": "Mai-chan (9): Where Is Tama?",
+   "zh-Hans": "小麦（9）：小玉去哪儿了？",
+   "zh-Hant": "小麥（9）：小玉去哪兒了？",
+   "ko": "마이짱 (9): 타마는 어디에?",
+   "tl": "Mai-chan (9): Nasaan si Tama?",
+   "ne": "माई-चान (९): टामा कहाँ गई?",
+   "id": "Mai-chan (9): Di Mana Tama?",
+   "pt": "Mai-chan (9): Cadê a Tama?",
+   "my": "မိုင်ချန် (၉): တာမ ဘယ်ရောက်သွားလဲ",
+   "th": "ไมจัง (9): ทามะไปไหน"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-09.webp",
+  "series": {
+   "id": "maichan",
+   "index": 9
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-09/chapter.mp3",
+   "durationSec": 148.896
+  }
+ },
+ {
+  "id": "maichan-10",
+  "titles": {
+   "vi": "Mai-chan (10): Tuyết đầu tiên",
+   "en": "Mai-chan (10): The First Snow",
+   "zh-Hans": "小麦（10）：第一场雪",
+   "zh-Hant": "小麥（10）：第一場雪",
+   "ko": "마이짱 (10): 처음 보는 눈",
+   "tl": "Mai-chan (10): Ang Unang Niyebe",
+   "ne": "माई-चान (१०): पहिलो हिउँ",
+   "id": "Mai-chan (10): Salju Pertama",
+   "pt": "Mai-chan (10): A Primeira Neve",
+   "my": "မိုင်ချန် (၁၀): ပထမဆုံး နှင်း",
+   "th": "ไมจัง (10): หิมะแรก"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 39,
+  "cover": "/covers/maichan-10.webp",
+  "series": {
+   "id": "maichan",
+   "index": 10
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-10/chapter.mp3",
+   "durationSec": 151.968
+  }
+ },
+ {
+  "id": "gongitsune-1",
+  "titles": {
+   "vi": "Cáo Gon (phần 1)",
+   "en": "Gon the Fox (Part 1)",
+   "zh-Hans": "小狐狸阿权（上）",
+   "zh-Hant": "小狐狸阿權（上）",
+   "ko": "여우 곤 (상)",
+   "tl": "Si Gon na Soro (Bahagi 1)",
+   "ne": "फ्याउरो गोन (भाग १)",
+   "id": "Gon si Rubah (Bagian 1)",
+   "pt": "Gon, a Raposa (Parte 1)",
+   "my": "မြေခွေး ဂုံ (အပိုင်း ၁)",
+   "th": "จิ้งจอกกอน (ตอนที่ 1)"
+  },
+  "level": "N4",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 54,
+  "cover": "/covers/gongitsune-1.webp",
+  "series": {
+   "id": "gongitsune",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/gongitsune-1/chapter.mp3",
+   "durationSec": 235.608
+  }
+ },
+ {
+  "id": "gongitsune-2",
+  "titles": {
+   "vi": "Cáo Gon (phần 2)",
+   "en": "Gon the Fox (Part 2)",
+   "zh-Hans": "小狐狸阿权（下）",
+   "zh-Hant": "小狐狸阿權（下）",
+   "ko": "여우 곤 (하)",
+   "tl": "Si Gon na Soro (Bahagi 2)",
+   "ne": "फ्याउरो गोन (भाग २)",
+   "id": "Gon si Rubah (Bagian 2)",
+   "pt": "Gon, a Raposa (Parte 2)",
+   "my": "မြေခွေး ဂုံ (အပိုင်း ၂)",
+   "th": "จิ้งจอกกอน (ตอนที่ 2)"
+  },
+  "level": "N4",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/gongitsune-2.webp",
+  "series": {
+   "id": "gongitsune",
+   "index": 2
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/gongitsune-2/chapter.mp3",
+   "durationSec": 225.192
+  }
+ },
+ {
   "id": "furusato-vn-kieu-1",
   "titles": {
    "vi": "Truyện Kiều (1): Tiết Thanh minh",
@@ -11685,7 +11969,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kisah Kieu (1): Hari Ceng Beng",
    "pt": "A História de Kieu (1): O Dia de Qingming",
    "my": "ကီအဲဝ်ဇာတ်လမ်း (၁): ချင်မင်နေ့",
-   "th": "เรื่องของเกี่ยว (1): วันเช็งเม้ง"
+   "th": "เรื่องของเกี่ยว (1): วันเช็งเม้ง",
+   "si": "කියෙව්ගේ කතාව (1): ච්චිංමිං දිනය"
   },
   "level": "N2",
   "topic": "hometown-tales",
@@ -11813,7 +12098,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Trang Quynh (1): Tunas Batu",
    "pt": "Trang Quynh (1): Brotos de Pedra",
    "my": "ချန်းကွင် (၁): ကျောက်ညှောက်ဟင်း",
-   "th": "จ่างกวิ่ญ (1): หน่อหิน"
+   "th": "จ่างกวิ่ญ (1): หน่อหิน",
+   "si": "ත්‍රාං ක්වින් (1): ගල් දළු"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -11909,7 +12195,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hoang Le Nhat Thong Chi (1): Quang Trung Naik Takhta",
    "pt": "Hoang Le Nhat Thong Chi (1): Quang Trung Sobe ao Trono",
    "my": "ဟွမ်လေ ညတ်ထုံချီ (၁): ကွမ်ချုန် နန်းတက်ခြင်း",
-   "th": "ฮหว่างเลเญิดท้งจี (1): กวางจุงขึ้นครองราชย์"
+   "th": "ฮหว่างเลเญิดท้งจี (1): กวางจุงขึ้นครองราชย์",
+   "si": "ලේ රාජවංශයේ එක්සත් කිරීම (1): ක්වාං චුං සිංහාසනාරූඪ වීම"
   },
   "level": "N1",
   "topic": "hometown-tales",
@@ -12005,7 +12292,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Thach Lam (1): Dua Anak",
    "pt": "Thach Lam (1): Duas Crianças",
    "my": "ထက်လမ် (၁) - ကလေးနှစ်ယောက်",
-   "th": "ทัคลาม (1): เด็กสองคน"
+   "th": "ทัคลาม (1): เด็กสองคน",
+   "si": "තාච් ලාම් (1): දරුවන් දෙදෙනා"
   },
   "level": "N1",
   "topic": "hometown-tales",
@@ -12214,6 +12502,130 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/world-shirayuki-2/chapter.mp3",
    "durationSec": 295.608
+  }
+ },
+ {
+  "id": "life-epictetus-1",
+  "titles": {
+   "vi": "Triết gia nô lệ – Epictetus (1)",
+   "en": "The Slave Philosopher – Epictetus (1)",
+   "zh-Hans": "奴隶哲学家——爱比克泰德（一）",
+   "zh-Hant": "奴隸哲學家——愛比克泰德（一）",
+   "ko": "노예 철학자 에픽테토스 (1)",
+   "tl": "Ang Pilosopong Alipin – Epictetus (1)",
+   "ne": "दास दार्शनिक – एपिक्टेटस (१)",
+   "id": "Filsuf Budak – Epiktetos (1)",
+   "pt": "O Filósofo Escravo – Epicteto (1)",
+   "my": "ကျွန်ဒဿနပညာရှင် – အက်ပစ်တီးတပ်စ် (၁)",
+   "th": "นักปรัชญาทาส – เอพิคทีตัส (1)"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 45,
+  "cover": "/covers/life-epictetus-1.webp",
+  "series": {
+   "id": "life-epictetus",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-epictetus-1/chapter.mp3",
+   "durationSec": 239.93
+  }
+ },
+ {
+  "id": "life-epictetus-2",
+  "titles": {
+   "vi": "Triết gia nô lệ – Epictetus (2)",
+   "en": "The Slave Philosopher – Epictetus (2)",
+   "zh-Hans": "奴隶哲学家——爱比克泰德（二）",
+   "zh-Hant": "奴隸哲學家——愛比克泰德（二）",
+   "ko": "노예 철학자 에픽테토스 (2)",
+   "tl": "Ang Pilosopong Alipin – Epictetus (2)",
+   "ne": "दास दार्शनिक – एपिक्टेटस (२)",
+   "id": "Filsuf Budak – Epiktetos (2)",
+   "pt": "O Filósofo Escravo – Epicteto (2)",
+   "my": "ကျွန်ဒဿနပညာရှင် – အက်ပစ်တီးတပ်စ် (၂)",
+   "th": "นักปรัชญาทาส – เอพิคทีตัส (2)"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 45,
+  "cover": "/covers/life-epictetus-2.webp",
+  "series": {
+   "id": "life-epictetus",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-epictetus-2/chapter.mp3",
+   "durationSec": 250.82
+  }
+ },
+ {
+  "id": "life-roshi-1",
+  "titles": {
+   "vi": "Như nước – Lão Tử",
+   "en": "Like Water – Laozi",
+   "zh-Hans": "如水——老子",
+   "zh-Hant": "如水——老子",
+   "ko": "물처럼 – 노자",
+   "tl": "Gaya ng Tubig – Laozi",
+   "ne": "पानीजस्तै – लाओत्से",
+   "id": "Seperti Air – Laozi",
+   "pt": "Como a Água – Lao-Tsé",
+   "my": "ရေကဲ့သို့ – လောက်ဇူ",
+   "th": "ดั่งสายน้ำ – เล่าจื๊อ"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 44,
+  "cover": "/covers/life-roshi-1.webp",
+  "series": {
+   "id": "life-roshi",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-roshi-1/chapter.mp3",
+   "durationSec": 250.3
+  }
+ },
+ {
+  "id": "life-ikari-1",
+  "titles": {
+   "vi": "Lá thư giận dữ",
+   "en": "The Angry Letter",
+   "zh-Hans": "愤怒的信",
+   "zh-Hant": "憤怒的信",
+   "ko": "화가 난 편지",
+   "tl": "Ang Liham ng Galit",
+   "ne": "रिसको चिठी",
+   "id": "Surat Kemarahan",
+   "pt": "A Carta da Raiva",
+   "my": "ဒေါသစာ",
+   "th": "จดหมายแห่งความโกรธ"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 49,
+  "cover": "/covers/life-ikari-1.webp",
+  "series": {
+   "id": "life-ikari",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-ikari-1/chapter.mp3",
+   "durationSec": 223.3
   }
  }
 ];

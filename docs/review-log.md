@@ -716,3 +716,65 @@ Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse
 - Gói cũ ~10 câu `cinderella`, `snow-white` ẩn và trỏ sang bản mới qua `content/hidden-stories.json`.
 - Công cụ mới: `scripts/story-src/tr-txt.mjs` (viết bản dịch dạng khối văn bản thay JSON), `scripts/story-src/gloss-add.mjs` (thêm từ vào glossary kệ).
 - Muse/thread khác: chưa có Sinhala cho 4 truyện này; id `world-` do thread truyện cổ thế giới cấp, đừng dùng trùng.
+
+## Mai-chan v2 tập 5–10 (N5), thay 7 tập cũ 8 câu — 27/11/2026
+
+- 6 tập mới, mỗi tập 38–40 câu, 690–760 ký tự, audio liền 2,4–2,6 phút (Aoede kể, Neural2-B/C cho từng nhân vật), bài học 4 điểm ngữ pháp
+  + 4 câu hỏi, 11 ngôn ngữ, furigana mọi chữ Hán, bìa 文庫 riêng (motif `mai05`–`mai10` trong `scripts/covers/cover.html`):
+  05 ころころおにぎり (cơm nắm lăn xuống dốc trong buổi dã ngoại), 06 あいあいがさ (che chung ô, cầu vồng), 07 おかゆとさとう (mẹ ốm,
+  Mai nấu cháo, suýt cho đường), 08 トマトくん (Bin ghét cà chua đến khi tự trồng), 09 タマはどこ？ (đi tìm mèo, bố mắc kẹt trên cây),
+  10 お父さん二号 (tuyết đầu mùa, người tuyết giống bố). Tập 5–10 là VIP (đọc thử 3 câu), tập 1 bộ vẫn miễn phí.
+- Ẩn 7 gói cũ qua `content/hidden-stories.json`: mai-chan-ep03/04/08/11/13/15/17 → maichan-05…10. Lộ trình "Gia đình" đổi
+  mai-chan-ep08-sick-mom → maichan-07.
+- Sửa câu hỏi bài học: trước đây đáp án đúng luôn ở vị trí đầu (app không xáo trộn). Nay xoay vị trí đáp án cho cả tập 1–10.
+- Đăng ký trong khối đánh dấu riêng "làm lại Mai-chan + văn học Nhật" ở `src/lib/content.ts`.
+
+## Kệ mới "Triết lý sống" (wisdom), lô 1 — 27/11/2026
+
+- Việt muốn có sách triết lý đời sống, kiểu "nghĩ giàu làm giàu" hay "nóng giận là bản năng". Các sách đó còn bản quyền nên không dùng. Kệ này chỉ dùng tác phẩm public domain (Epictetus, Lão Tử, sau đó Marcus Aurelius, Seneca, Wattles, James Allen, Samuel Smiles, 学問のすゝめ…) và bài viết gốc của ViMai.
+- Code đã sửa:
+  - Thêm kệ `wisdom` vào `content-schema.ts`, `shelves.ts` (sau `world`; hiện cho người chọn sở thích văn học hoặc đời sống) và tên kệ ở 12 locale.
+  - `register.mjs --block=wisdom` có khối đăng ký riêng trong `content.ts` (khối W).
+  - Thêm motif bìa `chain`, `drop`, `letter`.
+- Lô 1 có 4 chương chuẩn v2:
+  - `life-epictetus-1` (N3, miễn phí) và `life-epictetus-2` (N3, VIP)
+  - `life-roshi-1` (N3, miễn phí)
+  - `life-ikari-1` (N4, miễn phí, truyện gốc)
+- QC từng chương nằm ở `content/stories/life-*.qc.md`.
+- Id có dạng `life-<tác phẩm>-<n>` và chỉ luồng kệ W được cấp.
+- `npm run verify` xanh.
+
+## 2026-11-27 — Xáo đáp án câu hỏi Bài học (branch claude/quiz-shuffle)
+
+- Phát hiện: ở 55/155 gói v2, đáp án đúng luôn nằm ở vị trí A (320/617 câu có answer=0), người học đoán được mà không cần đọc.
+- Sửa: `src/lib/shuffle.ts` (`seededOrder`) xáo thứ tự đáp án cố định theo `story.id` + số câu hỏi, nên lần nào mở lại cũng cùng thứ tự và không lệch khi hydrate. `LessonPanel.tsx` hiển thị theo thứ tự đã xáo; chữ A/B/C theo vị trí hiển thị, còn chấm điểm và furigana vẫn theo chỉ số gốc. Dữ liệu nội dung không đổi.
+- Test: `tests/shuffle.test.ts`.
+
+## Tiếng Sinhala (si) cho truyện v2, đợt 1: 24 gói tập 1 / miễn phí — 27/11/2026 (nhánh `claude/si-stories-free`)
+
+- **Cách lưu bản dịch (sidecar):** mỗi gói có file `content/translations/si/<id>.tsv`, gồm tên truyện, câu dịch, ghi chú ngữ pháp, nghĩa từ vựng, điểm ngữ pháp và lời giải câu hỏi. Nghĩa từ vựng dùng chung cho cả kho, nên mỗi nghĩa tiếng Anh chỉ dịch một lần. `node scripts/i18n/apply.mjs si` gộp bản dịch vào JSON của gói. Dòng `#@src` lưu dấu vân tay của gói gốc: nếu gói bị dựng lại, câu bị xê dịch thì QC báo lỗi, không để lệch câu.
+- `scripts/story-src/build.mjs` và `scripts/produce/build-story.mjs` tự áp lại sidecar sau khi dựng gói, nên dựng lại không làm mất bản dịch. `npm run qc` thêm bước `apply.mjs si --check`.
+- **24 gói đã dịch:** maichan-01–04, botchan-1, budori-1, rakugo-toki-soba, rakugo-shinigami-1, osaka-hataraku-01, hanshichi-ofumi-1, hanshichi-yukidaruma-1, madara-1, jigokuhen-1, mukashi-momotaro-1, mukashi-urashima-1, mukashi-yuki-onna-1, mukashi-shuten-1, mukashi-ushiwaka-1, mukashi-anju-zushio-1, furusato-vn-tamcam-1, furusato-vn-quynh-1, furusato-vn-hoangle-1, furusato-vn-kieu-1, furusato-vn-thachlam-1.
+- **Văn phong:** truyện thiếu nhi (Mai-chan) dùng khẩu ngữ. Phần kể của văn học, lịch sử N1–N2 dùng văn viết, lời thoại giữ khẩu ngữ. Ghi chú ngữ pháp giữ nguyên đoạn tiếng Nhật, chỉ dịch phần giải thích. Tên riêng được phiên âm thống nhất (ví dụ ත්‍රින් = Trịnh, ක්වාං චුං = Quang Trung).
+- **Lỗi nguồn phát hiện (chưa sửa, vùng nội dung):** `furusato-vn-quynh-1` câu 37: ghi chú tiếng Anh ghi `〜はじめる = start to`, nhưng câu dùng 煮つづける. Bản si dịch đúng theo 〜つづける.
+- `npm run verify` xanh: 712 gói, 0 lỗi; sidecar si 24 gói, 0 lỗi; build OK.
+- **Còn lại:** khoảng 121 gói v2 khác, cộng 4 gói world- mới (world-cinderella-1/2, world-shirayuki-1/2), Mai-chan v2 tập 5–10 và kệ wisdom. Sau đó rà các ngôn ngữ khác còn thiếu trong các gói này.
+## Văn học Nhật v2: ごんぎつね 2 tập (N4), thay gói cũ 13 câu — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch1`. Nguồn mới ở `content/sources/bungaku/` (glossary riêng, chép từ Mai-chan + từ N4).
+- `gongitsune-1` (54 câu, 1.212 ký tự, harder 11,9%, audio 3,9 phút) và `gongitsune-2` (48 câu, 1.230 ký tự, harder 9,9%, audio 3,8 phút).
+  Phỏng theo 新美南吉 (mất 1943, xuất bản 1932; public domain ở Nhật, và ở Mỹ vì tác giả mất trước 1946 nên không bị URAA phục hồi). Giữ hai câu kết gốc.
+- Tên riêng viết katakana (ヒョウジュウ, カスケ) để chỉ số độ khó không đếm 兵/助 là N3; tập 1 miễn phí, tập 2 VIP.
+- Giọng: Aoede kể chuyện; ごん Neural2-C cao giọng, ヒョウジュウ/カスケ/いわし屋 Neural2-C các cao độ khác nhau.
+- Bìa: motif mới `gon1` (ban ngày) và `gon2` (đêm trăng, khói súng) trong `scripts/covers/cover.html`, font Shippori Mincho B1.
+- Bài học 4 điểm ngữ pháp + 5 câu hỏi mỗi tập, vị trí đáp án đúng xoay vòng.
+- Ẩn gói cũ `gongitsune` → `gongitsune-1` qua `content/hidden-stories.json`. Đăng ký trong khối "làm lại Mai-chan + văn học Nhật".
+- `npm run verify` xanh.
+
+## Kệ truyện cổ thế giới đợt 2: Hansel & Gretel, Cô bé quàng khăn đỏ — 27/11/2026
+- `world-hansel-1` (miễn phí), `world-hansel-2` (VIP): Hansel & Gretel theo Grimm 1857, N4, 53–54 câu mỗi tập. Kết bỏ chi tiết mẹ kế chết, chỉ nói bà không còn ở nhà.
+- `world-akazukin` (N5, miễn phí): Cô bé quàng khăn đỏ theo Grimm (thợ săn cứu, nhét đá vào bụng sói), 44 câu, cho người mới bắt đầu (kệ N5 đang thiếu).
+- Gói cũ `hansel-and-gretel`, `akazukin` ẩn, trỏ sang bản mới.
+- Bìa mới: nhà bánh kẹo, lò nướng, cô bé mũ đỏ (motif `candyhouse`, `oven`, `redhood` trong `scripts/covers/cover.html`).
+- `scripts/story-src/build.mjs`: romaji こんにちは → konnichiwa, こんばんは → konbanwa (trước đây ra "konnichiha"). Chỉ ảnh hưởng truyện dựng lại sau này.
+- Glossary kệ `world` thêm ~50 từ cơ bản N5/N4 để truyện N5 có đủ nghĩa từ vựng.

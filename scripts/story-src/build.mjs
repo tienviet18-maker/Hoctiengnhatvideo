@@ -7,7 +7,7 @@
 //
 // Chạy: node scripts/story-src/build.mjs content/sources/furusato/<id>.src.json [...]
 //       thêm --check để chỉ in số đo và các từ chưa có nghĩa trong glossary, không ghi file.
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { dirname, join, basename } from "node:path";
 import { execFileSync } from "node:child_process";
 import { loadTokenizer, measure, JLPT, LEVEL_NUM } from "../lib/level.mjs";
@@ -252,7 +252,7 @@ for (const file of files) {
     titles: src.titles,
     level: src.level,
     topic: src.topic,
-    source: "original",
+    source: src.source ?? "original",
     cover: `/covers/${src.id}.webp`,
     free: !!src.free,
     standard: 2,
@@ -264,6 +264,10 @@ for (const file of files) {
   };
   writeFileSync(join(root, "content/stories", `${src.id}.json`), JSON.stringify(out, null, 2) + "\n");
   if (lesson) execFileSync("node", [join(root, "scripts/lesson-furigana.mjs"), src.id], { stdio: "inherit" });
+  // Bản dịch kèm (content/translations/<lang>/<id>.tsv, ví dụ tiếng Sinhala) gộp lại sau mỗi lần dựng.
+  for (const lang of existsSync(join(root, "content/translations")) ? readdirSync(join(root, "content/translations")) : [])
+    if (existsSync(join(root, "content/translations", lang, `${src.id}.tsv`)))
+      execFileSync("node", [join(root, "scripts/i18n/apply.mjs"), lang, src.id], { stdio: "inherit" });
   writeFileSync(join(shelfDir, `${src.id}.voices.json`), JSON.stringify({ cast: src.cast, voices: voiceMap, say: sayMap }, null, 1) + "\n");
   const castLines = Object.entries(src.cast).map(([k, c]) => `  - ${k === "N" ? "Người kể" : k}: \`${c.voice}\`, tốc độ ${c.rate ?? 0.9}${c.pitch ? `, cao độ ${c.pitch}` : ""} (${voiceMap.filter((x) => x === k).length} câu)`);
   const nVocab = sentences.reduce((a, x) => a + x.vocab.length, 0);

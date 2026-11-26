@@ -688,6 +688,16 @@ import s_maichan01 from "../../content/stories/maichan-01.json";
 import s_maichan02 from "../../content/stories/maichan-02.json";
 import s_maichan03 from "../../content/stories/maichan-03.json";
 import s_maichan04 from "../../content/stories/maichan-04.json";
+// --- làm lại Mai-chan + văn học Nhật (chuẩn v2): import ---
+import s_maichan05 from "../../content/stories/maichan-05.json";
+import s_maichan06 from "../../content/stories/maichan-06.json";
+import s_maichan07 from "../../content/stories/maichan-07.json";
+import s_maichan08 from "../../content/stories/maichan-08.json";
+import s_maichan09 from "../../content/stories/maichan-09.json";
+import s_maichan10 from "../../content/stories/maichan-10.json";
+import s_gongitsune1 from "../../content/stories/gongitsune-1.json";
+import s_gongitsune2 from "../../content/stories/gongitsune-2.json";
+// --- hết làm lại: import ---
 import s_furusatoVnKieu1 from "../../content/stories/furusato-vn-kieu-1.json";
 import s_furusatoVnKieu2 from "../../content/stories/furusato-vn-kieu-2.json";
 import s_furusatoVnKieu3 from "../../content/stories/furusato-vn-kieu-3.json";
@@ -709,6 +719,13 @@ import s_worldHansel1 from "../../content/stories/world-hansel-1.json";
 import s_worldHansel2 from "../../content/stories/world-hansel-2.json";
 import s_worldAkazukin from "../../content/stories/world-akazukin.json";
 // --- hết kệ A/E: import ---
+
+// --- kệ W triết lý sống (chuẩn v2): import ---
+import v2LifeEpictetus1 from "../../content/stories/life-epictetus-1.json";
+import v2LifeEpictetus2 from "../../content/stories/life-epictetus-2.json";
+import v2LifeRoshi1 from "../../content/stories/life-roshi-1.json";
+import v2LifeIkari1 from "../../content/stories/life-ikari-1.json";
+// --- hết kệ W: import ---
 
 export const VIDEOS: VideoContent[] = [
   video1 as unknown as VideoContent,
@@ -1402,6 +1419,16 @@ export const STORIES: StoryContent[] = [
   s_maichan02 as unknown as StoryContent,
   s_maichan03 as unknown as StoryContent,
   s_maichan04 as unknown as StoryContent,
+  // --- làm lại Mai-chan + văn học Nhật (chuẩn v2) ---
+  s_maichan05 as unknown as StoryContent,
+  s_maichan06 as unknown as StoryContent,
+  s_maichan07 as unknown as StoryContent,
+  s_maichan08 as unknown as StoryContent,
+  s_maichan09 as unknown as StoryContent,
+  s_maichan10 as unknown as StoryContent,
+  s_gongitsune1 as unknown as StoryContent,
+  s_gongitsune2 as unknown as StoryContent,
+  // --- hết làm lại ---
   s_furusatoVnKieu1 as unknown as StoryContent,
   s_furusatoVnKieu2 as unknown as StoryContent,
   s_furusatoVnKieu3 as unknown as StoryContent,
@@ -1422,6 +1449,12 @@ export const STORIES: StoryContent[] = [
   s_worldHansel1 as unknown as StoryContent,
   s_worldHansel2 as unknown as StoryContent,
   s_worldAkazukin as unknown as StoryContent,
+  // --- kệ W triết lý sống (chuẩn v2) ---
+  v2LifeEpictetus1 as unknown as StoryContent,
+  v2LifeEpictetus2 as unknown as StoryContent,
+  v2LifeRoshi1 as unknown as StoryContent,
+  v2LifeIkari1 as unknown as StoryContent,
+  // --- hết kệ W ---
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

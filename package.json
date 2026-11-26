@@ -11,7 +11,7 @@
     "lint": "eslint",
     "pretypecheck": "node scripts/gen-catalog.mjs",
     "typecheck": "next typegen && tsc --noEmit && tsc -p worker",
-    "qc": "node scripts/qc-content.mjs && node scripts/qc-standard.mjs && node scripts/lesson-furigana.mjs --check",
+    "qc": "node scripts/qc-content.mjs && node scripts/qc-standard.mjs && node scripts/lesson-furigana.mjs --check && node scripts/i18n/apply.mjs si --check",
     "verify": "npm run qc && npm test && npm run typecheck && npm run lint && npm run build",
     "qc:report": "node scripts/qc-standard.mjs --report",
     "postbuild": "node scripts/gen-locked.mjs",
