@@ -240,7 +240,8 @@ từ vựng có cấp, bài học 4 ngữ pháp + 4 câu đố, audio đo trên 
 | furusato-kr-hokburi-1 「トッケビとこぶ」 (Hàn) | N4 | 60 | 5.2 phút | こぶとりじいさん | 2054124 |
 | furusato-id-toba-1 「金の魚の湖」 (Indonesia) | N4 | 60 | 5.6 phút | 鶴の恩返し, 蛤女房 | 5bce13c |
 | furusato-ph-magayon-1 「雲になった王子」 (Philippines) | N3 | 59 | 5.4 phút | 竹取物語 (不死→富士) | daf97c6 |
-| furusato-mm-mahagiri-1 「火と兄と妹」 (Myanmar) | N3 | 63 | 5.5 phút | 菅原道真 và 天神 | xem commit kế |
+| furusato-mm-mahagiri-1 「火と兄と妹」 (Myanmar) | N3 | 63 | 5.5 phút | 菅原道真 và 天神 | b42f032 |
+| furusato-mm-kyaiktiyo-1 「落ちない石」 (Myanmar, Chùa Đá Vàng) | N4 | 60 | 5.6 phút | 要石 ở 鹿島神宮 | xem commit kế |
 
 Ghi chú: Bánh chưng, Táo quân, Cóc kiện trời, Nàng tiên Ốc dự định N4 nhưng tỉ lệ từ khó vượt 15% nên
 chuyển N3 (kế hoạch cho phép N4–N3 với truyện VN). Nguồn Nepal đã kiểm chứng trước khi viết.

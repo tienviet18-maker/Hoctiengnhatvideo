@@ -10221,6 +10221,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-mm-mahagiri-1/chapter.mp3",
    "durationSec": 328.584
   }
+ },
+ {
+  "id": "furusato-mm-kyaiktiyo-1",
+  "titles": {
+   "vi": "Sự tích Chùa Đá Vàng",
+   "en": "The Legend of the Golden Rock",
+   "zh-Hans": "金色巨石的传说",
+   "zh-Hant": "金色巨石的傳說",
+   "ko": "황금 바위 전설",
+   "tl": "Ang Alamat ng Gintong Bato",
+   "ne": "सुनौलो ढुङ्गाको कथा",
+   "id": "Legenda Batu Emas",
+   "pt": "A lenda da Rocha Dourada",
+   "my": "ကျိုက်ထီးရိုး ဆံတော်ရှင် ပုံပြင်",
+   "th": "ตำนานพระธาตุอินทร์แขวน"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-mm-kyaiktiyo-1.webp",
+  "series": {
+   "id": "furusato-mm-kyaiktiyo",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "MM",
+  "audioTrack": {
+   "src": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3",
+   "durationSec": 333.792
+  }
  }
 ];
 
