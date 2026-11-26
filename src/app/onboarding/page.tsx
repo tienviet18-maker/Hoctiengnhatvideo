@@ -8,6 +8,9 @@ import StoryCover from "../../components/StoryCover";
 import { LANGUAGE_CODES, LANGUAGE_NAMES, pickText } from "../../lib/i18n";
 import type { JlptLevel } from "../../lib/content-schema";
 import { PLACEMENT } from "../../lib/placement";
+import PLACEMENT_FURI from "../../lib/placement-furigana.generated.json";
+import Furigana from "../../components/Furigana";
+import type { FuriganaSegment } from "../../lib/content-schema";
 import { recommendFirst } from "../../lib/shelves";
 
 /**
@@ -200,7 +203,7 @@ export default function OnboardingPage() {
                 </div>
                 {heard[i] !== undefined && (
                   <div style={{ marginTop: 10 }}>
-                    <div lang="ja" className="jp" style={{ fontSize: 15, fontWeight: 600 }}>{p.ja}</div>
+                    <div lang="ja" className="jp" style={{ fontSize: 15, fontWeight: 600, lineHeight: 1.9 }}>{(PLACEMENT_FURI as FuriganaSegment[][])[i] ? <Furigana segments={(PLACEMENT_FURI as FuriganaSegment[][])[i]} /> : p.ja}</div>
                     <div style={{ fontSize: 13, color: "var(--muted)", marginTop: 2 }}>{pickText(p.translations, lang)}</div>
                   </div>
                 )}

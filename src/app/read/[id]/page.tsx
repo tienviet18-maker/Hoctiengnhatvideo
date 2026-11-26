@@ -4,6 +4,8 @@ import { detailMetadata } from "../../../lib/seo";
 import ReaderClient from "./ReaderClient";
 import { getStory, STORIES } from "../../../lib/content";
 import { STORY_INDEX } from "../../../lib/catalog.generated";
+import LESSON_FURI from "../../../lib/lesson-furigana.generated.json";
+import type { LessonFurigana } from "./LessonPanel";
 
 export function generateStaticParams() {
   return STORIES.map((s) => ({ id: s.id }));
@@ -39,5 +41,6 @@ export default async function ReadPage({
   const next = story.series
     ? STORIES.find((s) => s.series?.id === story.series!.id && s.series.index === story.series!.index + 1)
     : undefined;
-  return <ReaderClient story={story} next={next ? { id: next.id, titles: next.titles } : undefined} />;
+  const lessonFuri = (LESSON_FURI as Record<string, LessonFurigana>)[id];
+  return <ReaderClient story={story} lessonFuri={lessonFuri} next={next ? { id: next.id, titles: next.titles } : undefined} />;
 }
