@@ -11640,6 +11640,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-hoangle-3/chapter.mp3",
    "durationSec": 439.248
   }
+ },
+ {
+  "id": "furusato-vn-thachlam-1",
+  "titles": {
+   "vi": "Thạch Lam (1): Hai đứa trẻ",
+   "en": "Thach Lam (1): Two Children",
+   "zh-Hans": "石岚短篇（1）：两个孩子",
+   "zh-Hant": "石嵐短篇（1）：兩個孩子",
+   "ko": "타익 람 (1): 두 아이",
+   "tl": "Thach Lam (1): Dalawang Bata",
+   "ne": "थाच लाम (१): दुई बालबालिका",
+   "id": "Thach Lam (1): Dua Anak",
+   "pt": "Thach Lam (1): Duas Crianças",
+   "my": "ထက်လမ် (၁) - ကလေးနှစ်ယောက်",
+   "th": "ทัคลาม (1): เด็กสองคน"
+  },
+  "level": "N1",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-thachlam-1.webp",
+  "series": {
+   "id": "furusato-vn-thachlam",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-thachlam-1/chapter.mp3",
+   "durationSec": 405.888
+  }
  }
 ];
 
