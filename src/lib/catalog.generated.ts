@@ -6387,7 +6387,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "maichan-01"
  },
  {
   "id": "mai-chan-ep02-homework",
@@ -6399,7 +6401,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "maichan-01"
  },
  {
   "id": "mai-chan-ep03-shared-umbrella",
@@ -6435,7 +6439,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "maichan-02"
  },
  {
   "id": "mai-chan-ep06-loose-tooth",
@@ -6447,7 +6453,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "maichan-03"
  },
  {
   "id": "the-library-card",
@@ -6471,7 +6479,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true,
+  "replacedBy": "maichan-04"
  },
  {
   "id": "mai-chan-ep08-sick-mom",
@@ -11161,6 +11171,130 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/furusato-vn-sodo-4/chapter.mp3",
    "durationSec": 352.272
+  }
+ },
+ {
+  "id": "maichan-01",
+  "titles": {
+   "vi": "Mai-chan (1): Buổi sáng rối rít",
+   "en": "Mai-chan (1): A Hectic Morning",
+   "zh-Hans": "小麦（1）：手忙脚乱的早晨",
+   "zh-Hant": "小麥（1）：手忙腳亂的早晨",
+   "ko": "마이짱 (1): 정신없는 아침",
+   "tl": "Mai-chan (1): Isang Magulong Umaga",
+   "ne": "माई-चान (१): हतारको बिहान",
+   "id": "Mai-chan (1): Pagi yang Kalang Kabut",
+   "pt": "Mai-chan (1): Uma Manhã Corrida",
+   "my": "မိုင်ချန် (၁): ကမန်းကတန်း မနက်ခင်း",
+   "th": "ไมจัง (1): เช้าวันวุ่นวาย"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 42,
+  "cover": "/covers/maichan-01.webp",
+  "series": {
+   "id": "maichan",
+   "index": 1
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-01/chapter.mp3",
+   "durationSec": 160.296
+  }
+ },
+ {
+  "id": "maichan-02",
+  "titles": {
+   "vi": "Mai-chan (2): Hội thao",
+   "en": "Mai-chan (2): Sports Day",
+   "zh-Hans": "小麦（2）：运动会",
+   "zh-Hant": "小麥（2）：運動會",
+   "ko": "마이짱 (2): 운동회",
+   "tl": "Mai-chan (2): Araw ng Palaro",
+   "ne": "माई-चान (२): खेलकुद दिवस",
+   "id": "Mai-chan (2): Hari Olahraga",
+   "pt": "Mai-chan (2): Gincana Esportiva",
+   "my": "မိုင်ချန် (၂): အားကစားပွဲ",
+   "th": "ไมจัง (2): วันกีฬาสี"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-02.webp",
+  "series": {
+   "id": "maichan",
+   "index": 2
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-02/chapter.mp3",
+   "durationSec": 143.88
+  }
+ },
+ {
+  "id": "maichan-03",
+  "titles": {
+   "vi": "Mai-chan (3): Chiếc răng lung lay",
+   "en": "Mai-chan (3): The Wobbly Tooth",
+   "zh-Hans": "小麦（3）：摇摇晃晃的牙",
+   "zh-Hant": "小麥（3）：搖搖晃晃的牙",
+   "ko": "마이짱 (3): 흔들리는 이",
+   "tl": "Mai-chan (3): Ang Umuugang Ngipin",
+   "ne": "माई-चान (३): हल्लिएको दाँत",
+   "id": "Mai-chan (3): Gigi yang Goyang",
+   "pt": "Mai-chan (3): O Dente Mole",
+   "my": "မိုင်ချန် (၃): လှုပ်နေတဲ့ သွား",
+   "th": "ไมจัง (3): ฟันโยก"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 42,
+  "cover": "/covers/maichan-03.webp",
+  "series": {
+   "id": "maichan",
+   "index": 3
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-03/chapter.mp3",
+   "durationSec": 150.864
+  }
+ },
+ {
+  "id": "maichan-04",
+  "titles": {
+   "vi": "Mai-chan (4): Món quà cho Bin",
+   "en": "Mai-chan (4): A Present for Bin",
+   "zh-Hans": "小麦（4）：送给小宾的礼物",
+   "zh-Hant": "小麥（4）：送給小賓的禮物",
+   "ko": "마이짱 (4): 빈에게 주는 선물",
+   "tl": "Mai-chan (4): Regalo para kay Bin",
+   "ne": "माई-चान (४): बिनका लागि उपहार",
+   "id": "Mai-chan (4): Hadiah untuk Bin",
+   "pt": "Mai-chan (4): Um Presente para o Bin",
+   "my": "မိုင်ချန် (၄): ဘင်အတွက် လက်ဆောင်",
+   "th": "ไมจัง (4): ของขวัญให้บิน"
+  },
+  "level": "N5",
+  "topic": "daily-life-japan",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 40,
+  "cover": "/covers/maichan-04.webp",
+  "series": {
+   "id": "maichan",
+   "index": 4
+  },
+  "shelf": "life-series",
+  "audioTrack": {
+   "src": "/audio/maichan-04/chapter.mp3",
+   "durationSec": 155.136
   }
  }
 ];
