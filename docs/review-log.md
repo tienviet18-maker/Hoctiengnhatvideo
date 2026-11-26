@@ -871,6 +871,14 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 10: văn học Nhật + tập tiếp truyện Việt — 27/11/2026 (nhánh `claude/si-stories-11`)
+
+- Đã dịch 15 gói: mikan-1, torokko-1, toshishun-1/2; furusato-vn-tamcam-2/3, kieu-2/3/4, quynh-2/3, hoangle-2/3, thachlam-2/3.
+- Văn học cổ điển (Akutagawa) và Hoàng Lê dùng lời kể văn viết (සිටියේය/විය), lời thoại khẩu ngữ; Kiều, Tấm Cám, Trạng Quỳnh kể khẩu ngữ như tập 1. Thạch Lam: lời kể văn viết, thoại khẩu ngữ (khớp tập 1).
+- Tên khớp tập 1 của từng series: Kiều (කියෙව්, කිම්, වාන්, තූ බා, හොවාන් තු, තු හායි, ශාක් යුයෙන්), Hoàng Lê (ක්වාං චුං, ඉන්ගෝ ති ඤාම්, සුන් ෂියී, තාං ලොං, ඉන්ගොක් හොයි, දොං දා), Quỳnh (ක්වින්, ත්‍රින් ස්වාමියා).
+- Chơi chữ 地竜 (con giun = "rồng đất") giữ chữ Hán rồi giải thích. "Trao duyên" để kèm phiên âm ත්‍රාඕ යුයෙන්.
+- Sau đợt này: 124 gói có si.
+
 ## Tiếng Sinhala đợt 9: truyện thế giới đợt 5 — 27/11/2026 (nhánh `claude/si-stories-10`)
 
 - Đã dịch 6 gói từ PR #84: world-alibaba-1/2, world-bijo-1/2, world-yukinojoo-1/2.
