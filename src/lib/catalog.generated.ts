@@ -11392,6 +11392,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-kieu-3/chapter.mp3",
    "durationSec": 370.872
   }
+ },
+ {
+  "id": "furusato-vn-kieu-4",
+  "titles": {
+   "vi": "Truyện Kiều (4): Đoàn viên",
+   "en": "The Tale of Kieu (4): Reunion",
+   "zh-Hans": "金云翘传（4）：团圆",
+   "zh-Hant": "金雲翹傳（4）：團圓",
+   "ko": "쭈옌 끼에우 (4): 재회",
+   "tl": "Ang Kuwento ni Kieu (4): Muling Pagkikita",
+   "ne": "किएउको कथा (४): पुनर्मिलन",
+   "id": "Kisah Kieu (4): Berkumpul Kembali",
+   "pt": "A História de Kieu (4): O Reencontro",
+   "my": "ကီအဲဝ်ဇာတ်လမ်း (၄): ပြန်လည်ဆုံဆည်းခြင်း",
+   "th": "เรื่องของเกี่ยว (4): พบกันอีกครั้ง"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-kieu-4.webp",
+  "series": {
+   "id": "furusato-vn-kieu",
+   "index": 4
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-kieu-4/chapter.mp3",
+   "durationSec": 386.52
+  }
  }
 ];
 
