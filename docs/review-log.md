@@ -820,6 +820,13 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Cả bốn viết nhắm N4 nhưng từ khoá (宝石, 魔法使い, 侯爵…) vượt ngưỡng từ khó, nên xếp N3 (harder 3–9%).
 - build.mjs: thêm ROMAJI_FIX cho じつは, あっという間, 本当は, ラプンツェル. Bìa: motif mới `pussboots`, `tower`, `lamp`, `palace`. Glossary world thêm 息子, 侯爵, 馬車, 粉屋, 働き, はめる, ワイン…
 
+## Kệ truyện cổ thế giới đợt 5: Ali Baba, Người đẹp và quái vật, Bà chúa tuyết (mỗi truyện 2 tập) — 27/11/2026
+- `world-alibaba-1` (miễn phí, 47 câu) và `world-alibaba-2` (VIP, 48 câu), N3, series `world-alibaba`, theo Nghìn lẻ một đêm (không gắn cờ). Chưa có gói Ali Baba cũ.
+- `world-bijo-1` (miễn phí, 56 câu) và `world-bijo-2` (VIP, 49 câu), N3, series `world-bijo`, theo bản Beaumont 1756 (cờ FR). Bản nháp N4 vượt ngưỡng từ khó (野獣 tính là từ khó, harder 18–20%) nên xếp N3. Chưa có gói cũ.
+- `world-yukinojoo-1` (miễn phí, 47 câu) và `world-yukinojoo-2` (VIP, 48 câu), N3, series `world-yukinojoo`, Andersen 1844 (cờ DK). Gói cũ `the-snow-queen` (8 câu) ẩn, trỏ sang tập 1.
+- Bìa: motif mới `sesame`, `jars`, `rose`, `rosebloom`, `snowsled`, `icepalace`. Glossary world thêm くっつく, チョーク, 積む, 泊める, 注ぐ, がっかり, みっともない, こぼす.
+- Romaji: sửa qua `phrases` (アリババ, かけら, なみだ, 塀…) và viết lại các câu bị đọc "hai".
+
 ## Văn học Nhật v2: 手袋を買いに 2 tập (N4), thay gói cũ — 27/11/2026
 
 - Nhánh `claude/bungaku-v2-batch2`. `tebukuro-1` (55 câu, 1.360 ký tự, harder 7,0%, audio 4,4 phút) và `tebukuro-2` (54 câu, 1.390 ký tự, harder 12,0%, audio 4,5 phút).
@@ -915,3 +922,11 @@ Lô này thêm 4 chương chuẩn v2, cả 4 đều miễn phí vì là tập 1 
 - Kệ hiện có 8 chương: 5 chương N3 (epictetus-1, epictetus-2, roshi-1, marcus-1, wattles-1) và 3 chương N4 (ikari-1, rongo-1, yukkuri-1).
 - Ghi chú: import `world-bremen` (của luồng truyện thế giới) đang nằm trong khối W ở `content.ts`. Không ảnh hưởng gì nên để nguyên.
 - `npm run verify` xanh.
+
+## Văn học Nhật v2: トロッコ và 蜜柑 (N3), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch6`. Hai truyện ngắn của 芥川龍之介 (mất 1927; xuất bản 1922 và 1919; public domain ở Nhật và Mỹ), mỗi truyện một gói, miễn phí.
+- `torokko-1`: 70 câu, 1.969 ký tự, harder 8,0%, audio 6,7 phút. Giữ hai lần đẩy goòng, lời thoại giọng địa phương của hai người thợ (われ, 帰んな, ずら), đoạn chạy về một mình và đoạn kết năm 26 tuổi ở tòa soạn. Giọng: Aoede kể; 良平 Neural2-B cao; người thợ quát Neural2-C trầm; thanh niên Neural2-C; mẹ Neural2-B.
+- `mikan-1`: 61 câu, 2.137 ký tự, harder 8,6%, audio 7,1 phút. Ngôi kể thứ nhất, chỉ một giọng Aoede. Giữ toa hạng hai và vé hạng ba, đường hầm, khói đen, ba cậu bé ở đường ngang và cảnh quýt rơi.
+- Bìa: motif `torokko` (goòng lao dốc giữa vườn quýt, biển phía xa) và `mikan` (cô bé ném quýt qua cửa sổ tàu về phía ba cậu bé). Font Zen Kaku Gothic Antique và Zen Old Mincho.
+- Ẩn gói cũ `torokko` → `torokko-1`, `mikan` → `mikan-1`. `npm run verify` xanh.

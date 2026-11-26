@@ -704,6 +704,8 @@ import s_chumon1 from "../../content/stories/chumon-1.json";
 import s_chumon2 from "../../content/stories/chumon-2.json";
 import s_toshishun1 from "../../content/stories/toshishun-1.json";
 import s_toshishun2 from "../../content/stories/toshishun-2.json";
+import s_torokko1 from "../../content/stories/torokko-1.json";
+import s_mikan1 from "../../content/stories/mikan-1.json";
 // --- hết làm lại: import ---
 import s_furusatoVnKieu1 from "../../content/stories/furusato-vn-kieu-1.json";
 import s_furusatoVnKieu2 from "../../content/stories/furusato-vn-kieu-2.json";
@@ -754,6 +756,12 @@ import s_worldAladdin2 from "../../content/stories/world-aladdin-2.json";
 import v2MysteryNisen1 from "../../content/stories/mystery-nisen-1.json";
 import v2MysteryNisen2 from "../../content/stories/mystery-nisen-2.json";
 import v2MysteryNisen3 from "../../content/stories/mystery-nisen-3.json";
+import s_worldAlibaba1 from "../../content/stories/world-alibaba-1.json";
+import s_worldAlibaba2 from "../../content/stories/world-alibaba-2.json";
+import s_worldBijo1 from "../../content/stories/world-bijo-1.json";
+import s_worldBijo2 from "../../content/stories/world-bijo-2.json";
+import s_worldYukinojoo1 from "../../content/stories/world-yukinojoo-1.json";
+import s_worldYukinojoo2 from "../../content/stories/world-yukinojoo-2.json";
 // --- hết kệ ma & trinh thám: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1464,6 +1472,8 @@ export const STORIES: StoryContent[] = [
   s_chumon2 as unknown as StoryContent,
   s_toshishun1 as unknown as StoryContent,
   s_toshishun2 as unknown as StoryContent,
+  s_torokko1 as unknown as StoryContent,
+  s_mikan1 as unknown as StoryContent,
   // --- hết làm lại ---
   s_furusatoVnKieu1 as unknown as StoryContent,
   s_furusatoVnKieu2 as unknown as StoryContent,
@@ -1513,6 +1523,12 @@ export const STORIES: StoryContent[] = [
   s_worldRapunzel as unknown as StoryContent,
   s_worldAladdin1 as unknown as StoryContent,
   s_worldAladdin2 as unknown as StoryContent,
+  s_worldAlibaba1 as unknown as StoryContent,
+  s_worldAlibaba2 as unknown as StoryContent,
+  s_worldBijo1 as unknown as StoryContent,
+  s_worldBijo2 as unknown as StoryContent,
+  s_worldYukinojoo1 as unknown as StoryContent,
+  s_worldYukinojoo2 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
