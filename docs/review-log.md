@@ -786,6 +786,12 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Ẩn gói cũ `gongitsune` → `gongitsune-1` qua `content/hidden-stories.json`. Đăng ký trong khối "làm lại Mai-chan + văn học Nhật".
 - `npm run verify` xanh.
 
+## Kệ ma & trinh thám — lô 2 (Sherlock Holmes「赤毛組合」) — 26/11/2026
+
+- Lô 1 (PR #62: `mystery-hoichi-1/2`, `mystery-mujina-1`) đã gộp vào main.
+- Thêm `mystery-akagami-1` (N3, 55 câu, 6:07, miễn phí) và `mystery-akagami-2` (N3, 52 câu, 5:11, VIP): bản kể lại tiếng Nhật dễ của "The Red-Headed League" (Doyle 1891, public domain). Chi tiết ở `content/stories/mystery-akagami-*.qc.md`.
+- `register.mjs`: gộp với cơ chế `--block` của luồng Triết lý sống; thêm khóa `ma` → khối "kệ ma & trinh thám".
+- ID đã cấp cho kệ này (để luồng khác không trùng): `mystery-hoichi-*`, `mystery-mujina-*`, `mystery-akagami-*`; sắp tới `mystery-nisen-*` (二銭銅貨), `mystery-rokuro-*`, `mystery-chawan-*`, `mystery-garnet-*`, `mystery-dzaka-*`, `mystery-shinri-*`.
 ## Kệ truyện cổ thế giới đợt 2: Hansel & Gretel, Cô bé quàng khăn đỏ — 27/11/2026
 - `world-hansel-1` (miễn phí), `world-hansel-2` (VIP): Hansel & Gretel theo Grimm 1857, N4, 53–54 câu mỗi tập. Kết bỏ chi tiết mẹ kế chết, chỉ nói bà không còn ở nhà.
 - `world-akazukin` (N5, miễn phí): Cô bé quàng khăn đỏ theo Grimm (thợ săn cứu, nhét đá vào bụng sói), 44 câu, cho người mới bắt đầu (kệ N5 đang thiếu).

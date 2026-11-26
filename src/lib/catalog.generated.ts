@@ -12855,6 +12855,68 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/mystery-mujina-1/chapter.mp3",
    "durationSec": 240.55
   }
+ },
+ {
+  "id": "mystery-akagami-1",
+  "titles": {
+   "vi": "Hội Tóc Đỏ (1): Công việc kỳ quặc",
+   "en": "The Red-Headed League (1): A Strange Job",
+   "zh-Hans": "红发会（一）：奇怪的工作",
+   "zh-Hant": "紅髮會（一）：奇怪的工作",
+   "ko": "빨간 머리 연맹 (1): 이상한 일자리",
+   "tl": "Ang Samahan ng mga Pulang Buhok (1): Kakaibang Trabaho",
+   "ne": "रातो कपाल संघ (१): अनौठो काम",
+   "id": "Liga Rambut Merah (1): Pekerjaan Aneh",
+   "pt": "A Liga dos Cabeças-Vermelhas (1): Um Emprego Estranho",
+   "my": "ဆံပင်နီ အသင်း (၁): ထူးဆန်းသော အလုပ်",
+   "th": "สมาคมผมแดง (1): งานประหลาด"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 55,
+  "cover": "/covers/mystery-akagami-1.webp",
+  "series": {
+   "id": "mystery-akagami",
+   "index": 1
+  },
+  "shelf": "mystery",
+  "audioTrack": {
+   "src": "/audio/mystery-akagami-1/chapter.mp3",
+   "durationSec": 366.91
+  }
+ },
+ {
+  "id": "mystery-akagami-2",
+  "titles": {
+   "vi": "Hội Tóc Đỏ (2): Tiếng động dưới tầng hầm",
+   "en": "The Red-Headed League (2): Sounds in the Cellar",
+   "zh-Hans": "红发会（二）：地下室的声音",
+   "zh-Hant": "紅髮會（二）：地下室的聲音",
+   "ko": "빨간 머리 연맹 (2): 지하실의 소리",
+   "tl": "Ang Samahan ng mga Pulang Buhok (2): Ingay sa Silong",
+   "ne": "रातो कपाल संघ (२): तहखानाको आवाज",
+   "id": "Liga Rambut Merah (2): Suara di Ruang Bawah Tanah",
+   "pt": "A Liga dos Cabeças-Vermelhas (2): Ruídos no Porão",
+   "my": "ဆံပင်နီ အသင်း (၂): မြေအောက်ခန်းမှ အသံ",
+   "th": "สมาคมผมแดง (2): เสียงในห้องใต้ดิน"
+  },
+  "level": "N3",
+  "topic": "classic-mystery",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/mystery-akagami-2.webp",
+  "series": {
+   "id": "mystery-akagami",
+   "index": 2
+  },
+  "shelf": "mystery",
+  "audioTrack": {
+   "src": "/audio/mystery-akagami-2/chapter.mp3",
+   "durationSec": 311.38
+  }
  }
 ];
 
