@@ -128,7 +128,8 @@ def main():
                 dropped.append((i, f"dup {seen[ja]}")); continue
             kept.append(dict(start=d["lines"][i]["start"], end=d["lines"][i]["end"], ja=ja,
                              translations={x: al["translations"][x].strip() for x in LANGS},
-                             grammarNote={x: al["grammarNote"][x].strip() for x in LANGS}, _vocab=al.get("vocab", [])))
+                             grammarNote={x: al["grammarNote"][x].strip() for x in LANGS}, _vocab=al.get("vocab", []),
+                             _readings=al.get("readings", [])))
         for run in split_rules(kept):
             F = furigana([l["ja"] for l in run])
             lines = []
@@ -140,8 +141,17 @@ def main():
                     hit = any(s and (KANJI.search(s) or len(s) >= 2) and s in l["ja"] for s in (w, w[:-1]))
                     if lv and lv <= LNUM[level] and hit and all(str(v["meanings"].get(x, "")).strip() for x in LANGS):
                         voc.append(dict(word=w, reading=r, meanings={x: v["meanings"][x].strip() for x in LANGS}, level=LV[lv]))
+                # Gemini's contextual readings override kuromoji when the kanji core matches exactly.
+                rd = {x.get("surface", ""): k2h(x.get("reading", "")) for x in l.pop("_readings")}
                 for g in f["furigana"]:
-                    if KANJI.search(g["surface"]) and not g["reading"]: g["reading"] = "?"
+                    if not KANJI.search(g["surface"]): continue
+                    for surf, r in rd.items():
+                        if surf == g["surface"] and r:
+                            g["reading"] = r
+                        elif surf.startswith(g["surface"]) and r and len(surf) > len(g["surface"]):
+                            tail = surf[len(g["surface"]):]  # okurigana: 引き -> 引(ひ)き
+                            if not KANJI.search(tail) and r.endswith(k2h(tail)): g["reading"] = r[: len(r) - len(tail)]
+                    if not g["reading"]: g["reading"] = "?"
                 lines.append(dict(start=l["start"], end=l["end"], ja=l["ja"], furigana=f["furigana"], romaji=romaji(f["romaji"]),
                                   translations=l["translations"], grammarNote=l["grammarNote"], vocab=voc))
             if any(g["reading"] == "?" for l in lines for g in l["furigana"]):

@@ -21,7 +21,8 @@ For one short clip you receive numbered lines. Each line has two independent tra
 "w" (Whisper) and "a" (YouTube auto-captions for the same time window, may include neighbouring words or be empty).
 Return STRICT JSON:
 {{"titles": {{11 langs}}, "lines": [{{"i": <index>, "keep": true|false, "ja": "...", "translations": {{11 langs}},
-  "grammarNote": {{11 langs}}, "vocab": [{{"word": "...", "reading": "...", "meanings": {{11 langs}}}}]}}]}}
+  "grammarNote": {{11 langs}}, "vocab": [{{"word": "...", "reading": "...", "meanings": {{11 langs}}}}],
+  "readings": [{{"surface": "<every kanji word in ja, as written>", "reading": "<hiragana as SPOKEN here>"}}]}}]}}
 Languages (keys exactly): {LANG_NAMES}.
 Rules:
 1. "ja" must be what was actually SAID. Use the two transcripts to fix mishearings, kanji and punctuation (add 、。？！).
@@ -33,7 +34,9 @@ Rules:
    pattern in 「」, and when useful how it is used in daily life in Japan. Same content in every language.
 5. vocab: 0–3 words a learner at level {{LEVEL}} would need to look up (at that level or harder), that appear in "ja"
    in dictionary or conjugated form. "word" = dictionary form as written in the line, "reading" = hiragana.
-6. titles: a short lesson title "<Series name>: <topic>" in each language.
+6. readings: EVERY word containing kanji in "ja" (each occurrence, in order) with its hiragana reading as actually
+   pronounced in this context (e.g. 今日 きょう vs こんにち, 日本 にほん, 何 なに/なん). Every kanji in the app must have furigana.
+7. titles: a short lesson title "<Series name>: <topic>" in each language.
 Return only JSON."""
 
 
