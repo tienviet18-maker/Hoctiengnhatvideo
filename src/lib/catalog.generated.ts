@@ -10253,6 +10253,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3",
    "durationSec": 333.792
   }
+ },
+ {
+  "id": "furusato-br-saci-1",
+  "titles": {
+   "vi": "Saci, cậu bé một chân",
+   "en": "Saci, the One-Legged Trickster",
+   "zh-Hans": "独脚小精灵萨西",
+   "zh-Hant": "獨腳小精靈薩西",
+   "ko": "외다리 장난꾸러기 사시",
+   "tl": "Si Saci, ang Batang Isa ang Paa",
+   "ne": "एक खुट्टे सासी",
+   "id": "Saci, Si Jahil Berkaki Satu",
+   "pt": "Saci-Pererê",
+   "my": "ခြေတစ်ဖက်ပါ ဆာစီ",
+   "th": "ซาซี เด็กขาเดียวจอมซน"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-br-saci-1.webp",
+  "series": {
+   "id": "furusato-br-saci",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "BR",
+  "audioTrack": {
+   "src": "/audio/furusato-br-saci-1/chapter.mp3",
+   "durationSec": 314.688
+  }
  }
 ];
 
