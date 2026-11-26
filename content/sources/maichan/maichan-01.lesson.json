@@ -1,0 +1,22 @@
+{
+ "grammarPoints": [
+  {"pattern": "〜ています", "example": 1, "meaning": {
+   "vi": "Đang ~ / ở trạng thái ~ (sống ở đâu, đang làm gì).", "en": "Be ~ing / ongoing state (where one lives, what one is doing).", "zh-Hans": "正在……／处于……状态（住在哪里等）。", "ko": "~하고 있다 (진행·상태).", "tl": "Kasalukuyang ~ / kalagayan.", "ne": "~ इरहेको (अवस्था)।", "id": "Sedang ~ / keadaan berlangsung.", "pt": "Estar ~ndo / estado contínuo.", "my": "~ နေတယ် (အခြေအနေ)။", "th": "กำลัง ~ / อยู่ในสภาพ ~"}},
+  {"pattern": "〜てください", "example": 26, "meaning": {
+   "vi": "Xin hãy ~ (nhờ, yêu cầu lịch sự).", "en": "Please ~ (polite request).", "zh-Hans": "请……（礼貌请求）。", "ko": "~해 주세요 (정중한 부탁).", "tl": "Pakiusap, ~ (magalang).", "ne": "कृपया ~ (विनम्र अनुरोध)।", "id": "Tolong ~ (permintaan sopan).", "pt": "Por favor, ~ (pedido educado).", "my": "~ ပါ (ယဉ်ကျေးစွာ တောင်းဆို)။", "th": "กรุณา ~ (ขออย่างสุภาพ)"}},
+  {"pattern": "〜てあげる", "example": 38, "meaning": {
+   "vi": "Làm ~ cho người khác (mình là người làm giúp).", "en": "Do ~ for someone (I do the favor).", "zh-Hans": "为别人做……（自己帮别人）。", "ko": "~해 주다 (내가 남에게).", "tl": "Gawin ang ~ para sa iba.", "ne": "अरूका लागि ~ गरिदिनु।", "id": "Melakukan ~ untuk orang lain.", "pt": "Fazer ~ por alguém.", "my": "တခြားသူအတွက် ~ ပေး။", "th": "ทำ ~ ให้คนอื่น"}},
+  {"pattern": "〜かな", "example": 41, "meaning": {
+   "vi": "Không biết ~ nhỉ (tự hỏi mình, thân mật).", "en": "I wonder ~ (asking oneself, casual).", "zh-Hans": "……呢？（自言自语的疑问）。", "ko": "~할까 (혼잣말).", "tl": "Kaya ~? (tanong sa sarili).", "ne": "~ होला? (आफैँलाई प्रश्न)।", "id": "Kira-kira ~ ya? (bertanya sendiri).", "pt": "Será que ~? (pergunta a si mesmo).", "my": "~ မလား မသိဘူး (ကိုယ့်ကိုယ်ကို မေး)။", "th": "~ ไหมนะ (ถามตัวเอง)"}}
+ ],
+ "quiz": [
+  {"ja": "マイちゃんは、どこに住んでいますか。", "choices": ["大阪", "東京", "ベトナム", "京都"], "answer": 0, "explain": {
+   "vi": "Bé từ Việt Nam sang, giờ sống ở Osaka.", "en": "She came from Vietnam and lives in Osaka.", "zh-Hans": "她从越南来，住在大阪。", "ko": "베트남에서 와서 오사카에 삽니다.", "tl": "Taga-Vietnam, nakatira sa Osaka.", "ne": "भियतनामबाट आएर ओसाकामा बस्छिन्।", "id": "Dari Vietnam, tinggal di Osaka.", "pt": "Veio do Vietnã, mora em Osaka.", "my": "ဗီယက်နမ်က လာပြီး အိုဆာကာမှာ နေတယ်။", "th": "มาจากเวียดนาม อยู่ที่โอซาก้า"}},
+  {"ja": "朝、ビンくんはなぜ笑いましたか。", "choices": ["マイちゃんのパーカーが反対だったから", "マイちゃんがころんだから", "ご飯がおいしかったから", "宿題をわすれたから"], "answer": 0, "explain": {
+   "vi": "Mai mặc áo hoodie ngược.", "en": "Mai's hoodie was on backwards.", "zh-Hans": "小麦的连帽衫穿反了。", "ko": "후드티를 거꾸로 입어서.", "tl": "Baligtad ang hoodie ni Mai.", "ne": "हुडी उल्टो लगाएकी थिइन्।", "id": "Hoodie Mai terbalik.", "pt": "O moletom estava ao contrário.", "my": "ဟူဒီ ပြောင်းပြန် ဝတ်ထားလို့။", "th": "ใส่ฮู้ดกลับด้าน"}},
+  {"ja": "宿題をわすれたマイちゃんに、先生は何と言いましたか。", "choices": ["ほんとうのことが言えて、えらい", "家に帰りなさい", "もうわすれないで", "ゆきちゃんに見せてもらって"], "answer": 0, "explain": {
+   "vi": "Cô khen Mai đã nói thật, và dặn mai mang đến.", "en": "She praised Mai for telling the truth.", "zh-Hans": "老师夸她说了实话。", "ko": "사실대로 말해서 장하다고.", "tl": "Pinuri siya dahil nagsabi ng totoo.", "ne": "साँचो भनेकोमा स्याबासी दिनुभयो।", "id": "Memuji Mai karena jujur.", "pt": "Elogiou Mai por dizer a verdade.", "my": "အမှန်ပြောလို့ ချီးကျူးတယ်။", "th": "ชมว่าพูดความจริง"}},
+  {"ja": "宿題の紙に、何がありましたか。", "choices": ["ビンくんがかいたマイちゃんの絵", "先生のサイン", "ゆきちゃんの手紙", "何もなかった"], "answer": 0, "explain": {
+   "vi": "Bin vẽ chị Mai bằng bút sáp lên tờ bài tập.", "en": "Bin drew Mai in crayon on the sheet.", "zh-Hans": "小宾用蜡笔画了姐姐。", "ko": "빈이 크레용으로 누나를 그렸습니다.", "tl": "Iginuhit ni Bin si Mai gamit ang krayola.", "ne": "बिनले क्रेयोनले दिदीको चित्र कोरे।", "id": "Bin menggambar Mai dengan krayon.", "pt": "Bin desenhou Mai com giz de cera.", "my": "ဘင်က မမကို ခရေယွန်းနဲ့ ဆွဲထားတယ်။", "th": "บินวาดรูปพี่ไมด้วยสีเทียน"}}
+ ]
+}

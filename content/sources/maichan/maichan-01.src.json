@@ -1,0 +1,99 @@
+{
+ "id": "maichan-01",
+ "level": "N5",
+ "topic": "daily-life-japan",
+ "free": true,
+ "series": {
+  "id": "maichan",
+  "index": 1
+ },
+ "vocabPerSentence": 2,
+ "cast": {
+  "N": {
+   "voice": "ja-JP-Chirp3-HD-Aoede",
+   "rate": 0.85
+  },
+  "マイ": {
+   "voice": "ja-JP-Neural2-B",
+   "rate": 1.0,
+   "pitch": 6
+  },
+  "ビン": {
+   "voice": "ja-JP-Neural2-B",
+   "rate": 1.05,
+   "pitch": 10
+  },
+  "お母さん": {
+   "voice": "ja-JP-Neural2-B",
+   "rate": 0.95,
+   "pitch": -1
+  },
+  "お父さん": {
+   "voice": "ja-JP-Neural2-C",
+   "rate": 0.95,
+   "pitch": -2
+  },
+  "ゆき": {
+   "voice": "ja-JP-Neural2-B",
+   "rate": 1.05,
+   "pitch": 3
+  },
+  "先生": {
+   "voice": "ja-JP-Neural2-B",
+   "rate": 0.9,
+   "pitch": -3
+  }
+ },
+ "readings": {},
+ "phrases": {
+  "九さい": "きゅうさい",
+  "五さい": "ごさい",
+  "四人": "よにん",
+  "七時半": "しちじはん",
+  "ヘアピン": "へあぴん"
+ },
+ "titles": {
+  "vi": "Mai-chan (1): Buổi sáng rối rít",
+  "en": "Mai-chan (1): A Hectic Morning",
+  "zh-Hans": "小麦（1）：手忙脚乱的早晨",
+  "ko": "마이짱 (1): 정신없는 아침",
+  "tl": "Mai-chan (1): Isang Magulong Umaga",
+  "ne": "माई-चान (१): हतारको बिहान",
+  "id": "Mai-chan (1): Pagi yang Kalang Kabut",
+  "pt": "Mai-chan (1): Uma Manhã Corrida",
+  "my": "မိုင်ချန် (၁): ကမန်းကတန်း မနက်ခင်း",
+  "th": "ไมจัง (1): เช้าวันวุ่นวาย"
+ },
+ "names": [
+  "マイ",
+  "ビン",
+  "ゆき",
+  "ベトナム",
+  "大阪"
+ ],
+ "cover": {
+  "ja": "マイちゃん",
+  "jsub": "第一話　あわてんぼうの朝",
+  "title": "Mai-chan (1): Buổi sáng rối rít",
+  "series": "Truyện gia đình",
+  "motif": "mai01",
+  "font": "M PLUS Rounded 1c",
+  "fontWeight": 800,
+  "fontWeights": "800"
+ },
+ "sourceNote": "Sáng tác gốc của Claude cho MiraiGo (series Mai-chan bản mới, nhân vật theo content/mai-chan-series-bible.md). Thay cho các tập cũ 8 câu mai-chan-ep01-hello và mai-chan-ep02-homework.",
+ "shelf": "life-series",
+ "skipVocab": [
+  "する",
+  "どう",
+  "もう",
+  "見る",
+  "言う",
+  "来る",
+  "入る",
+  "出す",
+  "持つ",
+  "ピン",
+  "ちょっと"
+ ]
+}
