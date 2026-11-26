@@ -11488,6 +11488,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/furusato-vn-quynh-2/chapter.mp3",
    "durationSec": 305.664
   }
+ },
+ {
+  "id": "furusato-vn-quynh-3",
+  "titles": {
+   "vi": "Trạng Quỳnh (3): Vẽ rồng thi với sứ Tàu",
+   "en": "Trang Quynh (3): The Dragon-Drawing Contest",
+   "zh-Hans": "状元琼（3）：与使者比画龙",
+   "zh-Hant": "狀元瓊（3）：與使者比畫龍",
+   "ko": "짱 뀐 (3): 사신과 용 그리기 대결",
+   "tl": "Trang Quynh (3): Paligsahan sa Pagguhit ng Dragon",
+   "ne": "ट्राङ क्विन (३): ड्र्यागन चित्र प्रतियोगिता",
+   "id": "Trang Quynh (3): Lomba Melukis Naga",
+   "pt": "Trang Quynh (3): O Duelo do Dragão",
+   "my": "ချန်းကွင် (၃): နဂါးပုံဆွဲပြိုင်ပွဲ",
+   "th": "จ่างกวิ่ญ (3): ประชันวาดมังกร"
+  },
+  "level": "N4",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-quynh-3.webp",
+  "series": {
+   "id": "furusato-vn-quynh",
+   "index": 3
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-quynh-3/chapter.mp3",
+   "durationSec": 311.592
+  }
  }
 ];
 
