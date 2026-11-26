@@ -871,6 +871,12 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 14: truyện quê hương (phần 2 + 5 gói PR #94) — 27/11/2026 (nhánh `claude/si-stories-15`)
+
+- Thêm 19 sidecar `content/translations/si/`: phần còn lại kệ Việt Nam (Số Đỏ 1–4, Sọ Dừa, Sơn Tinh Thủy Tinh, Táo Quân, Thạch Sanh 1–3, Tích Chu, Trầu Cau, Từ Thức, Vú Sữa) và 5 gói mới từ PR #94 (`furusato-vn-laohac`, `furusato-vn-vongphu-1`, `furusato-vn-tranglon-1`, `furusato-cn-liangzhu-1`, `furusato-kr-tokki-1`).
+- Dịch trong phiên, tự rà: giữ nguyên mẫu ngữ pháp tiếng Nhật trong G/Q, tên riêng Việt/Trung/Hàn phiên âm nhất quán với các đợt trước.
+- Sau đợt này, mọi gói `furusato-*` trên main đều có tiếng Sinhala. `apply.mjs` báo 0 lỗi cho từng gói.
+
 ## Tiếng Sinhala đợt 13: truyện quê hương Việt Nam (phần 1) — 27/11/2026 (nhánh `claude/si-stories-14`)
 
 - Thêm sidecar `content/translations/si/` cho 14 gói kệ quê hương Việt Nam: furusato-vn-babe-1, vn-banhchung-1, vn-caytre-1, vn-chudongtu-1, vn-coc-1, vn-cuoi-1, vn-giong-1, vn-hoguom-1, vn-khe-1, vn-maiantiem-1, vn-mychau-1, vn-neu-1, vn-oc-1, vn-rongtien-1. Tổng sidecar si: 174.
