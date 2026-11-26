@@ -870,3 +870,11 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Giọng: Aoede kể; hai chàng trai Neural2-C hai cao độ; hai con mèo rừng Neural2-B/C; người dẫn đường Neural2-C trầm.
 - Bìa: motif `chumon1` (nhà hàng Tây giữa núi) và `chumon2` (cánh cửa với hai mắt xanh ở lỗ khóa).
 - Ẩn gói cũ `chumon-no-oi-ryoriten` → `chumon-1`. `npm run verify` xanh.
+
+## Văn học Nhật v2: 杜子春 2 tập (N3), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch5`. `toshishun-1` (56 câu, 1.644 ký tự, harder 10,4%, audio 5,5 phút, miễn phí) và `toshishun-2` (62 câu, 1.837 ký tự, harder 9,7%, audio 6,1 phút).
+- Phỏng theo 芥川龍之介 (mất 1927, xuất bản 1920; public domain ở Nhật và Mỹ). Giữ ba lần đào vàng theo bóng (đầu, ngực, bụng), thử thách im lặng trên núi 峨眉山, cảnh hai con ngựa ở địa ngục, lời mẹ và cái kết căn nhà hoa đào dưới chân 泰山.
+- Giọng: Aoede kể; 杜子春 Neural2-C; ông lão 鉄冠子 Neural2-C trầm chậm; khách, tiếng nói lạ, 神将, 閻魔 Neural2-C các cao độ khác nhau; mẹ Neural2-B.
+- Bìa: motif `toshi1` (cổng tây Lạc Dương lúc hoàng hôn, bóng người dài, vàng) và `toshi2` (vách đá dưới chòm Bắc Đẩu, gậy trúc bay, hoa đào). Font Yuji Boku.
+- Ẩn gói cũ `toshishun` → `toshishun-1`. `npm run verify` xanh.
