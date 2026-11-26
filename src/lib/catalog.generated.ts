@@ -4921,7 +4921,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/akazukin.webp"
+  "cover": "/covers/akazukin.webp",
+  "hidden": true,
+  "replacedBy": "world-akazukin"
  },
  {
   "id": "at-the-vet",
@@ -5210,7 +5212,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/hansel-and-gretel.webp"
+  "cover": "/covers/hansel-and-gretel.webp",
+  "hidden": true,
+  "replacedBy": "world-hansel-1"
  },
  {
   "id": "piano-lessons",
@@ -12510,6 +12514,98 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/world-shirayuki-2/chapter.mp3",
    "durationSec": 295.608
+  }
+ },
+ {
+  "id": "world-hansel-1",
+  "titles": {
+   "vi": "Hansel và Gretel (1): Ngôi nhà bánh kẹo",
+   "en": "Hansel and Gretel (1): The House of Sweets",
+   "zh-Hans": "汉赛尔与格莱特（1）：糖果屋",
+   "zh-Hant": "漢賽爾與格萊特（1）：糖果屋",
+   "ko": "헨젤과 그레텔 (1): 과자의 집",
+   "tl": "Hansel at Gretel (1): Ang Bahay na Matamis",
+   "ne": "हान्सेल र ग्रेटेल (१): मिठाईको घर",
+   "id": "Hansel dan Gretel (1): Rumah Kue",
+   "pt": "João e Maria (1): A Casa de Doces",
+   "my": "ဟန်ဆယ်နဲ့ ဂရက်တယ် (၁): မုန့်အိမ်လေး",
+   "th": "ฮันเซลกับเกรเทล (1): บ้านขนมหวาน"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 54,
+  "cover": "/covers/world-hansel-1.webp",
+  "series": {
+   "id": "world-hansel",
+   "index": 1
+  },
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-hansel-1/chapter.mp3",
+   "durationSec": 290.424
+  }
+ },
+ {
+  "id": "world-hansel-2",
+  "titles": {
+   "vi": "Hansel và Gretel (2 – hết): Mụ phù thủy và lò nướng",
+   "en": "Hansel and Gretel (2, end): The Witch and the Oven",
+   "zh-Hans": "汉赛尔与格莱特（2·完）：巫婆与烤炉",
+   "zh-Hant": "漢賽爾與格萊特（2·完）：巫婆與烤爐",
+   "ko": "헨젤과 그레텔 (2·끝): 마녀와 화덕",
+   "tl": "Hansel at Gretel (2, wakas): Ang Bruha at ang Pugon",
+   "ne": "हान्सेल र ग्रेटेल (२, अन्तिम): बोक्सी र भट्टी",
+   "id": "Hansel dan Gretel (2, tamat): Penyihir dan Tungku",
+   "pt": "João e Maria (2, fim): A Bruxa e o Forno",
+   "my": "ဟန်ဆယ်နဲ့ ဂရက်တယ် (၂၊ ဇာတ်သိမ်း): စုန်းမနဲ့ မီးဖို",
+   "th": "ฮันเซลกับเกรเทล (2 จบ): แม่มดกับเตาอบ"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 55,
+  "cover": "/covers/world-hansel-2.webp",
+  "series": {
+   "id": "world-hansel",
+   "index": 2
+  },
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-hansel-2/chapter.mp3",
+   "durationSec": 287.616
+  }
+ },
+ {
+  "id": "world-akazukin",
+  "titles": {
+   "vi": "Cô bé quàng khăn đỏ",
+   "en": "Little Red Riding Hood",
+   "zh-Hans": "小红帽",
+   "zh-Hant": "小紅帽",
+   "ko": "빨간 모자",
+   "tl": "Si Pulang Talukbong",
+   "ne": "रातो टोपी लगाउने केटी",
+   "id": "Si Tudung Merah",
+   "pt": "Chapeuzinho Vermelho",
+   "my": "ဦးထုပ်နီလေး",
+   "th": "หนูน้อยหมวกแดง"
+  },
+  "level": "N5",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 44,
+  "cover": "/covers/world-akazukin.webp",
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-akazukin/chapter.mp3",
+   "durationSec": 186.336
   }
  },
  {

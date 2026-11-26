@@ -785,3 +785,11 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Bài học 4 điểm ngữ pháp + 5 câu hỏi mỗi tập, vị trí đáp án đúng xoay vòng.
 - Ẩn gói cũ `gongitsune` → `gongitsune-1` qua `content/hidden-stories.json`. Đăng ký trong khối "làm lại Mai-chan + văn học Nhật".
 - `npm run verify` xanh.
+
+## Kệ truyện cổ thế giới đợt 2: Hansel & Gretel, Cô bé quàng khăn đỏ — 27/11/2026
+- `world-hansel-1` (miễn phí), `world-hansel-2` (VIP): Hansel & Gretel theo Grimm 1857, N4, 53–54 câu mỗi tập. Kết bỏ chi tiết mẹ kế chết, chỉ nói bà không còn ở nhà.
+- `world-akazukin` (N5, miễn phí): Cô bé quàng khăn đỏ theo Grimm (thợ săn cứu, nhét đá vào bụng sói), 44 câu, cho người mới bắt đầu (kệ N5 đang thiếu).
+- Gói cũ `hansel-and-gretel`, `akazukin` ẩn, trỏ sang bản mới.
+- Bìa mới: nhà bánh kẹo, lò nướng, cô bé mũ đỏ (motif `candyhouse`, `oven`, `redhood` trong `scripts/covers/cover.html`).
+- `scripts/story-src/build.mjs`: romaji こんにちは → konnichiwa, こんばんは → konbanwa (trước đây ra "konnichiha"). Chỉ ảnh hưởng truyện dựng lại sau này.
+- Glossary kệ `world` thêm ~50 từ cơ bản N5/N4 để truyện N5 có đủ nghĩa từ vựng.
