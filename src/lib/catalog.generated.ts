@@ -1816,7 +1816,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Manjū Kowai — Aku Takut Manjū",
    "pt": "Manjū Kowai — Tenho medo de manjū",
    "my": "မန်ဂျူ ကိုဝိုင်း — မန်ဂျူကို ကြောက်တယ်",
-   "th": "มันจูโควาอิ — กลัวขนมมันจู"
+   "th": "มันจูโควาอิ — กลัวขนมมันจู",
+   "si": "මන්ජූ කොවයි — මට මන්ජූවලට බයයි"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -1843,7 +1844,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Meguro no Sanma — Sanma Paling Enak dari Meguro",
    "pt": "Meguro no Sanma — Sanma bom é o de Meguro",
    "my": "မဂူရိုရဲ့ ဆန်မ — ဆန်မဆို မဂူရိုမှ",
-   "th": "ซันมะแห่งเมกุโระ — ซันมะต้องเมกุโระ"
+   "th": "ซันมะแห่งเมกุโระ — ซันมะต้องเมกุโระ",
+   "si": "මෙගුරෝ නො සන්මා — සන්මා මාළු නම් මෙගුරෝවලමයි"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -1870,7 +1872,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Jugemu — Nama Terpanjang di Jepang",
    "pt": "Jugemu — O nome mais comprido do Japão",
    "my": "ဂျုဂဲမု — ဂျပန်ရဲ့ အရှည်ဆုံး နာမည်",
-   "th": "จุเงมุ — ชื่อที่ยาวที่สุดในญี่ปุ่น"
+   "th": "จุเงมุ — ชื่อที่ยาวที่สุดในญี่ปุ่น",
+   "si": "ජුගෙමු — ජපානයේ දිගම නම"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -1897,7 +1900,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Shibahama (Bagian 1) — Dompet di Pantai",
    "pt": "Shibahama (Parte 1) — A carteira na praia",
    "my": "ရှီဘာဟာမ (အပိုင်း ၁) — ကမ်းခြေက ပိုက်ဆံအိတ်",
-   "th": "ชิบะฮามะ (ตอนที่ 1) — กระเป๋าเงินบนชายหาด"
+   "th": "ชิบะฮามะ (ตอนที่ 1) — กระเป๋าเงินบนชายหาด",
+   "si": "ෂිබහමා (1 කොටස) — වෙරළේ තිබුණු පසුම්බිය"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -1928,7 +1932,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Shibahama (Bagian 2) — Malam Tahun Baru",
    "pt": "Shibahama (Parte 2) — Véspera de Ano-Novo",
    "my": "ရှီဘာဟာမ (အပိုင်း ၂) — နှစ်ကုန်ည",
-   "th": "ชิบะฮามะ (ตอนที่ 2) — คืนส่งท้ายปี"
+   "th": "ชิบะฮามะ (ตอนที่ 2) — คืนส่งท้ายปี",
+   "si": "ෂිබහමා (2 කොටස) — අලුත් අවුරුද්දට කලින් රෑ"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -1959,7 +1964,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hatsu Tenjin — Ayah dan Anak di Festival",
    "pt": "Hatsu Tenjin — Pai e filho na festa",
    "my": "ဟာဆု တန်ဂျင် — ပွဲတော်သွားတဲ့ သားအဖ",
-   "th": "ฮัตสึเท็นจิน — พ่อลูกเที่ยวงานวัด"
+   "th": "ฮัตสึเท็นจิน — พ่อลูกเที่ยวงานวัด",
+   "si": "හත්සු තෙන්ජින් — උත්සවයේ තාත්තයි පුතයි"
   },
   "level": "N4",
   "topic": "rakugo",
@@ -1986,7 +1992,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kohome — Memuji Bayi",
    "pt": "Kohome — Elogiando o bebê",
    "my": "ကိုဟိုမဲ — ကလေးကို ချီးမွမ်းခြင်း",
-   "th": "โคโฮเมะ — ชมเด็ก"
+   "th": "โคโฮเมะ — ชมเด็ก",
+   "si": "කොහොමෙ — බබාට ප්‍රශංසා කිරීම"
   },
   "level": "N4",
   "topic": "rakugo",
@@ -2013,7 +2020,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Sokotsu Nagaya — Pria yang Mengambil Jenazahnya Sendiri",
    "pt": "Sokotsu Nagaya — O homem que buscou o próprio corpo",
    "my": "ဆိုကိုဆု နာဂါယ — ကိုယ့်အလောင်း ကိုယ်သွားယူတဲ့ လူ",
-   "th": "โซโคทสึ นางายะ — ชายผู้ไปรับศพตัวเอง"
+   "th": "โซโคทสึ นางายะ — ชายผู้ไปรับศพตัวเอง",
+   "si": "සොකොත්සු නගයා — තමන්ගේම මළ සිරුර ඉල්ලපු මිනිහා"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -2488,7 +2496,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Shinigami II — Gua Lilin-Lilin",
    "pt": "Shinigami II — A caverna das velas",
    "my": "သေမင်း (၂) — ဖယောင်းတိုင်တွေရဲ့ ဂူ",
-   "th": "ยมทูต ภาค 2 — ถ้ำแห่งเทียนชีวิต"
+   "th": "ยมทูต ภาค 2 — ถ้ำแห่งเทียนชีวิต",
+   "si": "මරු දෙවියා II — ඉටිපන්දම් ගුහාව"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -2519,7 +2528,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Tenshiki — Biksu yang Sok Tahu",
    "pt": "Tenshiki — O monge que fingia saber",
    "my": "တန်ရှိကိ — သိချင်ယောင်ဆောင်တဲ့ ဘုန်းကြီး",
-   "th": "เท็นชิกิ — หลวงพ่อจอมทำเป็นรู้"
+   "th": "เท็นชิกิ — หลวงพ่อจอมทำเป็นรู้",
+   "si": "තෙන්ෂිකි — දන්නවා වගේ රඟපාපු හාමුදුරුවෝ"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -2546,7 +2556,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hirabayashi — Satu Nama, Empat Bacaan",
    "pt": "Hirabayashi — Um nome, quatro leituras",
    "my": "ဟိရာဘာယာရှိ — နာမည်တစ်ခု ဖတ်နည်းလေးမျိုး",
-   "th": "ฮิราบายาชิ — ชื่อเดียว อ่านได้สี่แบบ"
+   "th": "ฮิราบายาชิ — ชื่อเดียว อ่านได้สี่แบบ",
+   "si": "හිරබයාෂි — එක නමක්, කියවන විදි හතරක්"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -2573,7 +2584,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Dōguya — Penjual Barang Bekas yang Terlalu Jujur",
    "pt": "Dōguya — O vendedor de tralhas honesto demais",
    "my": "ဒိုဂုယ — ရိုးလွန်းတဲ့ ပစ္စည်းဟောင်းရောင်းသူ",
-   "th": "โดกุยะ — พ่อค้าของเก่าผู้ซื่อเกินไป"
+   "th": "โดกุยะ — พ่อค้าของเก่าผู้ซื่อเกินไป",
+   "si": "දෝගුයා — ඕනෑවට වඩා අවංක පරණ බඩු වෙළෙන්දා"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -2600,7 +2612,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Inu no Me — Mata Anjing",
    "pt": "Inu no Me — Os olhos do cachorro",
    "my": "အိနုနိုမဲ — ခွေးမျက်လုံး",
-   "th": "อินุโนะเมะ — ดวงตาสุนัข"
+   "th": "อินุโนะเมะ — ดวงตาสุนัข",
+   "si": "ඉනු නො මෙ — බල්ලාගේ ඇස්"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -2627,7 +2640,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kinmeichiku — Utusan yang Bicara Secepat Angin",
    "pt": "Kinmeichiku — O mensageiro que falava rápido demais",
    "my": "ကင်မေချိခု — လေလို မြန်မြန်ပြောတဲ့ သတင်းပို့သူ",
-   "th": "คินเมจิกุ — คนส่งข่าวพูดเร็วปานลมพัด"
+   "th": "คินเมจิกุ — คนส่งข่าวพูดเร็วปานลมพัด",
+   "si": "කින්මෙයිචිකු — වේගයෙන් කතා කරන පණිවිඩකරු"
   },
   "level": "N3",
   "topic": "rakugo",
@@ -13242,6 +13256,130 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "life-seneca-1",
+  "titles": {
+   "vi": "Đời người có ngắn không?",
+   "en": "Is Life Really Short?",
+   "zh-Hans": "人生真的短暂吗？",
+   "zh-Hant": "人生真的短暫嗎？",
+   "ko": "인생은 짧은가",
+   "tl": "Maikli Nga Ba ang Buhay?",
+   "ne": "के जीवन छोटो छ?",
+   "id": "Apakah Hidup Itu Singkat?",
+   "pt": "A Vida É Curta?",
+   "my": "ဘဝက တိုသလား",
+   "th": "ชีวิตสั้นจริงหรือ"
+  },
+  "level": "N2",
+  "topic": "philosophy",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 55,
+  "cover": "/covers/life-seneca-1.webp",
+  "series": {
+   "id": "life-seneca",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-seneca-1/chapter.mp3",
+   "durationSec": 316.82
+  }
+ },
+ {
+  "id": "life-allen-1",
+  "titles": {
+   "vi": "Tâm hồn là một khu vườn",
+   "en": "The Mind Is a Garden",
+   "zh-Hans": "心是一座花园",
+   "zh-Hant": "心是一座花園",
+   "ko": "마음은 정원이다",
+   "tl": "Ang Isip ay Isang Hardin",
+   "ne": "मन एउटा बगैंचा हो",
+   "id": "Hati Itu Sebuah Taman",
+   "pt": "A Mente É um Jardim",
+   "my": "စိတ်သည် ဥယျာဉ်တစ်ခု ဖြစ်သည်",
+   "th": "ใจคือสวน"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 44,
+  "cover": "/covers/life-allen-1.webp",
+  "series": {
+   "id": "life-allen",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-allen-1/chapter.mp3",
+   "durationSec": 259.44
+  }
+ },
+ {
+  "id": "life-smiles-1",
+  "titles": {
+   "vi": "Chiếc đĩa trắng",
+   "en": "The White Plate",
+   "zh-Hans": "白色的盘子",
+   "zh-Hant": "白色的盤子",
+   "ko": "하얀 접시",
+   "tl": "Ang Puting Plato",
+   "ne": "सेतो थाल",
+   "id": "Piring Putih",
+   "pt": "O Prato Branco",
+   "my": "ပန်းကန်ပြားဖြူ",
+   "th": "จานสีขาว"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 38,
+  "cover": "/covers/life-smiles-1.webp",
+  "series": {
+   "id": "life-smiles",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-smiles-1/chapter.mp3",
+   "durationSec": 216.36
+  }
+ },
+ {
+  "id": "life-gakumon-1",
+  "titles": {
+   "vi": "Học hay không học",
+   "en": "To Learn or Not to Learn",
+   "zh-Hans": "学，还是不学",
+   "zh-Hant": "學，還是不學",
+   "ko": "배우느냐, 배우지 않느냐",
+   "tl": "Mag-aral o Hindi",
+   "ne": "पढ्ने कि नपढ्ने",
+   "id": "Belajar atau Tidak",
+   "pt": "Aprender ou Não",
+   "my": "သင်ယူမလား၊ မသင်ယူဘူးလား",
+   "th": "เรียนหรือไม่เรียน"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 45,
+  "cover": "/covers/life-gakumon-1.webp",
+  "series": {
+   "id": "life-gakumon",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-gakumon-1/chapter.mp3",
+   "durationSec": 260.57
+  }
+ },
+ {
   "id": "mystery-hoichi-1",
   "titles": {
    "vi": "Hōichi không tai (1): Vị khách lúc nửa đêm",
@@ -13715,7 +13853,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Ali Baba dan Empat Puluh Penyamun (1): Buka, Wijen!",
    "pt": "Ali Babá e os Quarenta Ladrões (1): Abre-te, Sésamo!",
    "my": "အလီဘာဘာနဲ့ သူခိုးလေးဆယ် (၁): နှမ်းရေ ပွင့်ပါ!",
-   "th": "อาลีบาบากับโจรสี่สิบคน (1): เปิดเถิดงา!"
+   "th": "อาลีบาบากับโจรสี่สิบคน (1): เปิดเถิดงา!",
+   "si": "අලිබාබා සහ හොරු හතළිස් දෙනා (1): අරින්න, තලපු!"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13746,7 +13885,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Ali Baba dan Empat Puluh Penyamun (2, tamat): Pelayan yang Cerdik",
    "pt": "Ali Babá e os Quarenta Ladrões (2, final): A Criada Esperta",
    "my": "အလီဘာဘာနဲ့ သူခိုးလေးဆယ် (၂ – ဇာတ်သိမ်း): ဉာဏ်ကောင်းတဲ့ အစေခံမလေး",
-   "th": "อาลีบาบากับโจรสี่สิบคน (2 จบ): สาวใช้ผู้ฉลาด"
+   "th": "อาลีบาบากับโจรสี่สิบคน (2 จบ): สาวใช้ผู้ฉลาด",
+   "si": "අලිබාබා සහ හොරු හතළිස් දෙනා (2, අවසානය): බුද්ධිමත් සේවිකාව"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13777,7 +13917,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Si Cantik dan si Buruk Rupa (1): Mawar di Kastel",
    "pt": "A Bela e a Fera (1): A Rosa do Castelo",
    "my": "အလှဘုရင်မနဲ့ သားရဲ (၁): ရဲတိုက်ထဲက နှင်းဆီ",
-   "th": "โฉมงามกับเจ้าชายอสูร (1): กุหลาบในปราสาท"
+   "th": "โฉมงามกับเจ้าชายอสูร (1): กุหลาบในปราสาท",
+   "si": "රූමතිය සහ මෘගයා (1): මාලිගාවේ රෝස මල"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13809,7 +13950,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Si Cantik dan si Buruk Rupa (2, tamat): Janji",
    "pt": "A Bela e a Fera (2, final): A Promessa",
    "my": "အလှဘုရင်မနဲ့ သားရဲ (၂ – ဇာတ်သိမ်း): ကတိ",
-   "th": "โฉมงามกับเจ้าชายอสูร (2 จบ): คำสัญญา"
+   "th": "โฉมงามกับเจ้าชายอสูร (2 จบ): คำสัญญา",
+   "si": "රූමතිය සහ මෘගයා (2, අවසානය): පොරොන්දුව"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13841,7 +13983,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Ratu Salju (1): Cermin Iblis",
    "pt": "A Rainha da Neve (1): O Espelho do Diabo",
    "my": "နှင်းဘုရင်မ (၁): နတ်ဆိုးမှန်",
-   "th": "ราชินีหิมะ (1): กระจกปีศาจ"
+   "th": "ราชินีหิมะ (1): กระจกปีศาจ",
+   "si": "හිම රැජින (1): යක්ෂයාගේ කණ්ණාඩිය"
   },
   "level": "N3",
   "topic": "world-tales",
@@ -13873,7 +14016,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Ratu Salju (2, tamat): Air Mata Hangat",
    "pt": "A Rainha da Neve (2, final): Lágrimas Quentes",
    "my": "နှင်းဘုရင်မ (၂ – ဇာတ်သိမ်း): နွေးထွေးတဲ့ မျက်ရည်",
-   "th": "ราชินีหิมะ (2 จบ): น้ำตาอุ่น"
+   "th": "ราชินีหิมะ (2 จบ): น้ำตาอุ่น",
+   "si": "හිම රැජින (2, අවසානය): උණුසුම් කඳුළු"
   },
   "level": "N3",
   "topic": "world-tales",
