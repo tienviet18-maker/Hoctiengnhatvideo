@@ -4107,7 +4107,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 13,
-  "cover": "/covers/gongitsune.webp"
+  "cover": "/covers/gongitsune.webp",
+  "hidden": true,
+  "replacedBy": "gongitsune-1"
  },
  {
   "id": "summer-festival",
@@ -11890,6 +11892,68 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/maichan-10/chapter.mp3",
    "durationSec": 151.968
+  }
+ },
+ {
+  "id": "gongitsune-1",
+  "titles": {
+   "vi": "Cáo Gon (phần 1)",
+   "en": "Gon the Fox (Part 1)",
+   "zh-Hans": "小狐狸阿权（上）",
+   "zh-Hant": "小狐狸阿權（上）",
+   "ko": "여우 곤 (상)",
+   "tl": "Si Gon na Soro (Bahagi 1)",
+   "ne": "फ्याउरो गोन (भाग १)",
+   "id": "Gon si Rubah (Bagian 1)",
+   "pt": "Gon, a Raposa (Parte 1)",
+   "my": "မြေခွေး ဂုံ (အပိုင်း ၁)",
+   "th": "จิ้งจอกกอน (ตอนที่ 1)"
+  },
+  "level": "N4",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": true,
+  "sentenceCount": 54,
+  "cover": "/covers/gongitsune-1.webp",
+  "series": {
+   "id": "gongitsune",
+   "index": 1
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/gongitsune-1/chapter.mp3",
+   "durationSec": 235.608
+  }
+ },
+ {
+  "id": "gongitsune-2",
+  "titles": {
+   "vi": "Cáo Gon (phần 2)",
+   "en": "Gon the Fox (Part 2)",
+   "zh-Hans": "小狐狸阿权（下）",
+   "zh-Hant": "小狐狸阿權（下）",
+   "ko": "여우 곤 (하)",
+   "tl": "Si Gon na Soro (Bahagi 2)",
+   "ne": "फ्याउरो गोन (भाग २)",
+   "id": "Gon si Rubah (Bagian 2)",
+   "pt": "Gon, a Raposa (Parte 2)",
+   "my": "မြေခွေး ဂုံ (အပိုင်း ၂)",
+   "th": "จิ้งจอกกอน (ตอนที่ 2)"
+  },
+  "level": "N4",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/gongitsune-2.webp",
+  "series": {
+   "id": "gongitsune",
+   "index": 2
+  },
+  "shelf": "literature",
+  "audioTrack": {
+   "src": "/audio/gongitsune-2/chapter.mp3",
+   "durationSec": 225.192
   }
  },
  {

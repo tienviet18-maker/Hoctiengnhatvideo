@@ -759,3 +759,14 @@ Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse
 - **Lỗi nguồn phát hiện (chưa sửa, vùng nội dung):** `furusato-vn-quynh-1` câu 37: ghi chú tiếng Anh ghi `〜はじめる = start to`, nhưng câu dùng 煮つづける. Bản si dịch đúng theo 〜つづける.
 - `npm run verify` xanh: 712 gói, 0 lỗi; sidecar si 24 gói, 0 lỗi; build OK.
 - **Còn lại:** khoảng 121 gói v2 khác, cộng 4 gói world- mới (world-cinderella-1/2, world-shirayuki-1/2), Mai-chan v2 tập 5–10 và kệ wisdom. Sau đó rà các ngôn ngữ khác còn thiếu trong các gói này.
+## Văn học Nhật v2: ごんぎつね 2 tập (N4), thay gói cũ 13 câu — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch1`. Nguồn mới ở `content/sources/bungaku/` (glossary riêng, chép từ Mai-chan + từ N4).
+- `gongitsune-1` (54 câu, 1.212 ký tự, harder 11,9%, audio 3,9 phút) và `gongitsune-2` (48 câu, 1.230 ký tự, harder 9,9%, audio 3,8 phút).
+  Phỏng theo 新美南吉 (mất 1943, xuất bản 1932; public domain ở Nhật, và ở Mỹ vì tác giả mất trước 1946 nên không bị URAA phục hồi). Giữ hai câu kết gốc.
+- Tên riêng viết katakana (ヒョウジュウ, カスケ) để chỉ số độ khó không đếm 兵/助 là N3; tập 1 miễn phí, tập 2 VIP.
+- Giọng: Aoede kể chuyện; ごん Neural2-C cao giọng, ヒョウジュウ/カスケ/いわし屋 Neural2-C các cao độ khác nhau.
+- Bìa: motif mới `gon1` (ban ngày) và `gon2` (đêm trăng, khói súng) trong `scripts/covers/cover.html`, font Shippori Mincho B1.
+- Bài học 4 điểm ngữ pháp + 5 câu hỏi mỗi tập, vị trí đáp án đúng xoay vòng.
+- Ẩn gói cũ `gongitsune` → `gongitsune-1` qua `content/hidden-stories.json`. Đăng ký trong khối "làm lại Mai-chan + văn học Nhật".
+- `npm run verify` xanh.
