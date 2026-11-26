@@ -13382,6 +13382,99 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "life-bushido-1",
+  "titles": {
+   "vi": "Trái tim võ sĩ",
+   "en": "The Heart of the Samurai",
+   "zh-Hans": "武士之心",
+   "zh-Hant": "武士之心",
+   "ko": "무사의 마음",
+   "tl": "Ang Puso ng Samurai",
+   "ne": "समुराईको मन",
+   "id": "Hati Samurai",
+   "pt": "O Coração do Samurai",
+   "my": "ဆာမူရိုင်း၏ နှလုံးသား",
+   "th": "หัวใจซามูไร"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 42,
+  "cover": "/covers/life-bushido-1.webp",
+  "series": {
+   "id": "life-bushido",
+   "index": 1
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-bushido-1/chapter.mp3",
+   "durationSec": 247.78
+  }
+ },
+ {
+  "id": "life-smiles-2",
+  "titles": {
+   "vi": "Hai trăm bức tranh chim",
+   "en": "Two Hundred Bird Paintings",
+   "zh-Hans": "两百张鸟的画",
+   "zh-Hant": "兩百張鳥的畫",
+   "ko": "이백 장의 새 그림",
+   "tl": "Dalawandaang Larawan ng Ibon",
+   "ne": "दुई सय चराका चित्र",
+   "id": "Dua Ratus Lukisan Burung",
+   "pt": "Duzentos Desenhos de Pássaros",
+   "my": "ငှက်ပုံ နှစ်ရာ",
+   "th": "ภาพนกสองร้อยภาพ"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 37,
+  "cover": "/covers/life-smiles-2.webp",
+  "series": {
+   "id": "life-smiles",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-smiles-2/chapter.mp3",
+   "durationSec": 198.24
+  }
+ },
+ {
+  "id": "life-ikari-2",
+  "titles": {
+   "vi": "Đặt xuống bên sông",
+   "en": "Put It Down at the River",
+   "zh-Hans": "在河边放下",
+   "zh-Hant": "在河邊放下",
+   "ko": "강가에 내려놓기",
+   "tl": "Ibaba sa Ilog",
+   "ne": "नदीमै बिसाउनु",
+   "id": "Turunkan di Sungai",
+   "pt": "Deixe na Beira do Rio",
+   "my": "မြစ်နားမှာ ချထားခဲ့",
+   "th": "วางไว้ที่ริมแม่น้ำ"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 38,
+  "cover": "/covers/life-ikari-2.webp",
+  "series": {
+   "id": "life-ikari",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-ikari-2/chapter.mp3",
+   "durationSec": 199.87
+  }
+ },
+ {
   "id": "mystery-hoichi-1",
   "titles": {
    "vi": "Hōichi không tai (1): Vị khách lúc nửa đêm",
