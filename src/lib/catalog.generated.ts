@@ -7982,7 +7982,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-earthquake-night",
@@ -7994,7 +7995,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-old-bookshop",
@@ -8006,7 +8008,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-parents-care",
@@ -8018,7 +8021,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-narrow-road",
@@ -8030,7 +8034,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "aozora-adapted",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-aging-society",
@@ -8042,7 +8047,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-meiji-restoration",
@@ -8054,7 +8060,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-interpreter",
@@ -8066,7 +8073,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-driving-license",
@@ -8126,7 +8134,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-wedding-speech",
@@ -8138,7 +8147,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-small-business",
@@ -8150,7 +8160,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-mountain-temple",
@@ -8162,7 +8173,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-last-craftsman",
@@ -8174,7 +8186,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-two-homelands",
@@ -8186,7 +8199,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-philosophy-of-time",
@@ -8198,7 +8212,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-lighthouse-keeper",
@@ -8210,7 +8225,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-bicycle-rules",
@@ -8270,7 +8286,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-mentor",
@@ -8282,7 +8299,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-marathon",
@@ -8294,7 +8312,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-night-train",
@@ -8306,7 +8325,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-old-photograph",
@@ -8318,7 +8338,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-language-of-silence",
@@ -8330,7 +8351,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": true,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "when-an-era-changes",
@@ -8342,7 +8364,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "daily-life-japan",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "the-japanese-garden",
@@ -8354,7 +8377,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "topic": "classics",
   "source": "original",
   "free": false,
-  "sentenceCount": 8
+  "sentenceCount": 8,
+  "hidden": true
  },
  {
   "id": "furusato-vn-tamcam-1",
