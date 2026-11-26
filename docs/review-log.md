@@ -542,6 +542,21 @@ Việt nhắc: mọi chữ kanji trong app phải có furigana, kể cả hội 
 - Bộ "Tiếng Nhật công sở N1" lên app. Tổng 6 bộ, 1428 thẻ (Kính ngữ + Công sở N5–N1 đã đủ).
 - Một số bản tiếng Anh gốc lệch câu Nhật, đã dịch theo câu Nhật: 撤退を決断 (rút lui, không phải từ chức), 取材 (được phỏng vấn), 品質管理 v.v.
 
+## 2026-11-26 — Truyện Kiều (N2, 4 tập, chuẩn v2)
+
+Nguyễn Du (1766–1820), thuộc phạm vi công cộng. Claude tự kể lại bằng văn xuôi tiếng Nhật từ nguyên tác tiếng Việt, không dựa vào bản dịch hiện đại nào. Kệ hometown (VN), series `furusato-vn-kieu`. Tập 1 miễn phí, tập 2–4 VIP.
+
+| Tập | id | Tựa | Câu | Audio | Nội dung |
+|---|---|---|---|---|---|
+| 1 | furusato-vn-kieu-1 | 清明の約束 | 57 | 5.7 phút | Thanh minh, mộ Đạm Tiên, Kim Trọng, thề nguyền, Bạc mệnh |
+| 2 | furusato-vn-kieu-2 | 身を売る決心 | 57 | 5.9 phút | Gia biến, bán mình chuộc cha, trao duyên, Tú Bà, Sở Khanh |
+| 3 | furusato-vn-kieu-3 | 刃なき嫉妬 | 57 | 6.2 phút | Thúc Sinh, Hoạn Thư đánh ghen, Giác Duyên, Từ Hải |
+| 4 | furusato-vn-kieu-4 | 十五年目の琴 | 60 | 6.4 phút | Báo ân báo oán, Từ Hải chết đứng, sông Tiền Đường, đoàn viên; kết nối với 『風俗金魚伝』 của Bakin |
+
+- Mỗi tập có: dịch và giải thích 10 ngôn ngữ (trích câu thơ gốc ở những đoạn nổi tiếng), bài học 4 ngữ pháp + 4 câu hỏi (đã có furigana), bìa 文庫 font Kaisei HarunoUmi, motif `kieu1`–`kieu4`.
+- Giọng đọc: Aoede cho người dẫn truyện; Neural2-B/C cho từng nhân vật, chỉnh pitch riêng.
+- Bìa: tựa tiếng Nhật 4 chữ làm dòng phụ dọc chồng lên tranh. Vì vậy tựa đặt từ 5 chữ trở lên.
+
 ## Furigana cho mọi chữ kanji (Việt nhắc 26/11)
 
 Quy tắc: chữ kanji hiển thị ở bất kỳ đâu trong app đều phải có furigana.
