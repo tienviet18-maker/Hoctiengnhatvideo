@@ -835,3 +835,10 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - **Lỗi nguồn (chưa sửa, vùng nội dung):** một số ô "giải thích" của câu hỏi chỉ lặp lại câu hỏi bằng tiếng Anh thay vì đưa đáp án: mukashi-kasajizo (4 ô), mukashi-kintaro (4 ô), hanshichi-yukidaruma-1 (1 ô), rakugo-sokotsu-nagaya (1 ô). Bản si dịch đúng như nguồn; luồng sở hữu nên viết lại thành đáp án.
 - **Lệch số câu nhỏ:** nhiều lời giải câu hỏi ghi "câu N" lệch 1 so với số thứ tự hiển thị (vd. mukashi-hanasaka Q0 ghi câu 10, đáp án nằm ở câu 9 tính từ 0). Không ảnh hưởng người dùng nhiều, ghi lại để luồng sở hữu rà.
 - `npm run verify` xanh: 726 gói, 0 lỗi; sidecar si 49 gói, 0 lỗi; build OK.
+## Văn học Nhật v2: 注文の多い料理店 2 tập (N3), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch4`. `chumon-1` (52 câu, 1.366 ký tự, harder 6,4%, audio 4,4 phút, miễn phí) và `chumon-2` (60 câu, 1.865 ký tự, harder 7,9%, audio 6,0 phút).
+- Phỏng theo 宮沢賢治 (mất 1933, xuất bản 1924; public domain ở Nhật và Mỹ). Giữ các lời dặn trên cửa, câu lặp gió thổi và cảnh kết gốc (mặt nhàu như giấy vụn). Câu lặp ở tập 2 thêm 「また、」 để tránh trùng câu giữa hai gói.
+- Giọng: Aoede kể; hai chàng trai Neural2-C hai cao độ; hai con mèo rừng Neural2-B/C; người dẫn đường Neural2-C trầm.
+- Bìa: motif `chumon1` (nhà hàng Tây giữa núi) và `chumon2` (cánh cửa với hai mắt xanh ở lỗ khóa).
+- Ẩn gói cũ `chumon-no-oi-ryoriten` → `chumon-1`. `npm run verify` xanh.
