@@ -55,8 +55,7 @@ export const PATHS: LearningPath[] = [
   {
     id: "family",
     items: [
-      "mai-chan-ep01-hello",
-      "mai-chan-ep02-homework",
+      "maichan-01",
       "cooking-dinner",
       "zoo-with-kids",
       "school-sports-day",

@@ -131,6 +131,7 @@ function analyse(ja, ov, multiOv) {
     if (w.cap) rom = rom.replace(/(^|\s)([a-z])/g, (m, a, b) => a + b.toUpperCase());
     romaji += (romaji && !/[ “(]$/.test(romaji) ? " " : "") + rom;
   }
+  romaji = romaji.replace(/\b(de|ni|to)ha\b/gi, "$1 wa");
   romaji = romaji.replace(/\s+/g, " ").replace(/ ([,.!?”)])/g, "$1").trim();
   romaji = romaji.replace(/(^|[.!?]\s+|“)([a-z])/g, (m, a, b) => a + b.toUpperCase());
   return { furigana: merged, romaji, toks };

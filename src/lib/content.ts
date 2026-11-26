@@ -684,6 +684,10 @@ import s_furusatoVnSodo1 from "../../content/stories/furusato-vn-sodo-1.json";
 import s_furusatoVnSodo2 from "../../content/stories/furusato-vn-sodo-2.json";
 import s_furusatoVnSodo3 from "../../content/stories/furusato-vn-sodo-3.json";
 import s_furusatoVnSodo4 from "../../content/stories/furusato-vn-sodo-4.json";
+import s_maichan01 from "../../content/stories/maichan-01.json";
+import s_maichan02 from "../../content/stories/maichan-02.json";
+import s_maichan03 from "../../content/stories/maichan-03.json";
+import s_maichan04 from "../../content/stories/maichan-04.json";
 // --- hết kệ A/E: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1374,6 +1378,10 @@ export const STORIES: StoryContent[] = [
   s_furusatoVnSodo2 as unknown as StoryContent,
   s_furusatoVnSodo3 as unknown as StoryContent,
   s_furusatoVnSodo4 as unknown as StoryContent,
+  s_maichan01 as unknown as StoryContent,
+  s_maichan02 as unknown as StoryContent,
+  s_maichan03 as unknown as StoryContent,
+  s_maichan04 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

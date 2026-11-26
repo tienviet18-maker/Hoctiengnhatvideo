@@ -492,3 +492,20 @@ Việt chọn: Số đỏ và Truyện Kiều (văn xuôi) ở N2, Hoàng Lê nh
 - `scripts/decks/tr2jsonl.py`: dòng `m` (nghĩa) giờ là tuỳ chọn. Thẻ nào mà nghĩa 11 ngôn ngữ đã có sẵn trong vocab truyện/video thì chỉ cần dịch câu ví dụ.
 - Tổng hiện có 3 bộ (Kính ngữ, Công sở N5, Công sở N4) với 323 thẻ. Có 105 từ trong truyện/video được thêm câu ví dụ và audio ViBJT (`extras.json`).
 - Còn lại: Công sở N3 (456 thẻ), N2 (235), N1 (414), Ngữ pháp N3–N1.
+
+## Mai-chan bản mới N5 — đợt 1 (26/11/2026, nhánh `claude/maichan-v2`)
+
+Trước đợt này kho chưa có gói N5 nào đạt chuẩn v2, nên Mai-chan được dựng lại thành series N5 chuẩn mới (`series: maichan`, nguồn ở `content/sources/maichan/`). Mỗi tập gộp và mở rộng một tập cũ 8 câu thành một chuyện có mở đầu, cao trào và kết vui: khoảng 40 câu, 690–760 ký tự, một file audio liền mạch 2,4–2,7 phút. N5 giới hạn 900 ký tự và 45 câu, nên tập N5 ngắn hơn mốc 5 phút của các kệ N4 trở lên; đây là chủ ý, vì người mới học nghe dài sẽ mệt.
+
+| id | Tên | Câu | Audio | Thay cho |
+|---|---|---|---|---|
+| maichan-01 | あわてんぼうの朝 | 42 | 2,7 phút | mai-chan-ep01-hello, ep02-homework |
+| maichan-02 | うんどうかい | 40 | 2,4 phút | mai-chan-ep05-sports-day |
+| maichan-03 | グラグラの歯 | 42 | 2,5 phút | mai-chan-ep06-loose-tooth |
+| maichan-04 | ビンへのプレゼント | 40 | 2,6 phút | mai-chan-ep07-birthday |
+
+- Giọng: Aoede đọc dẫn (0.85), Mai Neural2-B pitch +6, Bin Neural2-B pitch +10, mẹ B −1, bố C −2, Yuki B +3, cô giáo B −3.
+- Bìa: hàm vẽ nhân vật dùng chung `MAI()` và `BIN()` trong `scripts/covers/cover.html` (tóc bob đen, kẹp đỏ, hoodie vàng đúng bible), motif `mai01`–`mai04`, font M PLUS Rounded 1c cho cả series.
+- 5 gói cũ được ẩn và trỏ sang gói mới trong `content/hidden-stories.json`; lộ trình "Gia đình" ở `src/lib/paths.ts` đổi sang `maichan-01`.
+- Sửa romaji: kuromoji ghép では/には/とは thành "deha/niha/toha"; `build.mjs` giờ đổi thành "de wa/ni wa/to wa". 24 gói v2 đã dựng trước đó vẫn còn "deha" và sẽ được sửa khi dựng lại.
+- Tập 3 có kiến thức phong tục: Nhật ném răng hàm dưới lên mái, răng hàm trên xuống gầm nhà; Việt Nam cũng ném răng và xin chuột đổi răng.
