@@ -857,6 +857,13 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 6: Budori trọn bộ, Địa ngục biến 2, Dải băng lốm đốm 2, Hanshichi 2 vụ, Nến đỏ và nàng tiên cá, Osaka 2 — 27/11/2026 (nhánh `claude/si-stories-7`)
+
+- Đã dịch 8 gói: budori-3, budori-4 (Budori giờ đủ si cả 4 tập); jigokuhen-2; madara-2; hanshichi-ofumi-2, hanshichi-yukidaruma-2; akai-rousoku-to-ningyo; osaka-hataraku-02.
+- Văn học cổ điển (Jigokuhen, Holmes, Hanshichi): lời kể thể văn viết, lời thoại khẩu ngữ, khớp tập 1. Tên giữ thống nhất với tập 1 (මහා ස්වාමියා, යොෂිහිදේ; හෝම්ස්, වොට්සන්, හෙලන් ස්ටෝනර්; හන්ෂිචි, K මාමා, ඔමිචි, ජින්එමොන්; මින්, මොරිත අකාරි).
+- Jigokuhen-2 G41 giữ nguyên số đường dây hỗ trợ よりそいホットライン (0120-279-338).
+- Sau đợt này: 83 gói có si.
+
 ## Tiếng Sinhala đợt 5: Nhà hàng lắm yêu cầu, Botchan trọn bộ, Budori 2, truyện thế giới đợt 4 — 27/11/2026 (nhánh `claude/si-stories-6`)
 
 - Đã dịch 12 gói: chumon-1/2; botchan-2 → botchan-6 (Botchan giờ đủ si cả 6 tập); budori-2; world-nagagutsu, world-rapunzel, world-aladdin-1/2 (luồng truyện thế giới nhờ sau PR #77).
