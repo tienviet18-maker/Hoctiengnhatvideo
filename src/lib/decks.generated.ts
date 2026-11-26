@@ -51,5 +51,11 @@ export const DECKS: DeckInfo[] = [
   "group": "grammar",
   "level": "N3",
   "count": 120
+ },
+ {
+  "id": "grammar-N2",
+  "group": "grammar",
+  "level": "N2",
+  "count": 194
  }
 ];
