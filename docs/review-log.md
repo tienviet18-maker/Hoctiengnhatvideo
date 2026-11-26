@@ -871,6 +871,12 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 16: kệ Triết lý sống — 27/11/2026 (nhánh `claude/si-stories-17`)
+
+- Thêm 27 sidecar `content/translations/si/`: `life-allen-1..2`, `life-bushido-1..2`, `life-epictetus-1..2`, `life-gakumon-1..2`, `life-ikari-1..3`, `life-marcus-1..2`, `life-rongo-1..2`, `life-roshi-1`, `life-seneca-1..3`, `life-smiles-1..3`, `life-wattles-1..2`, `life-yukkuri-1..3`. Việt duyệt làm tiếp phần kệ của luồng khác (27/11).
+- Dịch trong phiên, tự rà: giữ nguyên tiếng Nhật trong G/P, ví dụ đời sống trong P có nghĩa tiếng Sinhala, số câu trong Q giữ như bản tiếng Anh. Tên riêng phiên âm nhất quán (මාකස්, සෙනෙකා, ලුසිලියස්, කොන්ෆියුසියස්, ලාඕත්සු, ෆුකුසාවා යුකිචි...).
+- Rà lại sau khi gộp main: mọi gói v2 đang hiện trên main (228 gói) đã có tiếng Sinhala. `apply.mjs` báo 0 lỗi cho từng gói.
+
 ## Tiếng Sinhala đợt 15: kệ Ma – trinh thám — 27/11/2026 (nhánh `claude/si-stories-16`)
 
 - Thêm 8 sidecar `content/translations/si/`: `mystery-mujina-1`, `mystery-hoichi-1`, `mystery-hoichi-2`, `mystery-akagami-1`, `mystery-akagami-2`, `mystery-nisen-1`, `mystery-nisen-2`, `mystery-nisen-3`. Việt duyệt làm tiếp phần kệ của luồng khác (27/11).
