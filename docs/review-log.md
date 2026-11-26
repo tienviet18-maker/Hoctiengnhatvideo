@@ -1008,3 +1008,31 @@ Lô này thêm 2 chương VIP chuẩn v2, đều là tập 2:
 - Cả hai tác phẩm thuộc phạm vi công cộng; lời thoại và khung truyện là ViMai kể lại. Kết cục vụ kiện của Lucilius không có trong thư, truyện nói rõ điều này.
 - QC từng chương ở `content/stories/life-*.qc.md`.
 - Kệ hiện có 17 chương: 2 chương N2, 8 chương N3 và 7 chương N4.
+
+## Kệ quê hương: truyện Việt/Trung/Hàn mới (nhánh claude/furusato-vn-3)
+
+5 gói mới, đủ bản dịch 10 ngôn ngữ, tab Bài học, audio liền mạch (Aoede kể; thoại Neural2-B/C), bìa bunko:
+
+| ID | Cấp | Nội dung | Commit |
+|---|---|---|---|
+| furusato-vn-laohac | N2 | Lão Hạc (Nam Cao, PD), truyện ngắn Việt Nam | a3a3c50c |
+| furusato-vn-vongphu-1 | N3, miễn phí | Hòn Vọng Phu (bản Lạng Sơn) + so sánh Sayohime | 135c6485 |
+| furusato-vn-tranglon-1 | N3 | Trạng Lợn (truyện cười) | 301a3aae |
+| furusato-cn-liangzhu-1 | N3 | Lương Sơn Bá – Chúc Anh Đài | d36c89ec |
+| furusato-kr-tokki-1 | N3, miễn phí | Thỏ và Ba Ba (토끼전) + so sánh くらげ骨なし | 179a04fc |
+
+- build.mjs ROMAJI_FIX thêm: 元の, 山の上, にまつわる, 金の印, 海の底, 陸の方, 山のふもと, 何が何だか, 実は (để romaji tách đúng từ).
+- Motif bìa mới trong scripts/covers/cover.html: laohac, vongphu, tranglon, liangzhu, tokki.
+- Muse/các luồng khác: các ID trên đã cấp, đừng dùng lại.
+## Kệ "Triết lý sống" (wisdom), lô 6 — 27/11/2026
+
+Lô này thêm 2 chương VIP chuẩn v2, đều là tập 2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-yukkuri-2` | N4 | Truyện gốc ViMai 小さな休み 2: Kenji có 20 việc phải làm, bà chủ quán trà dạy "từng việc một" qua cách pha trà | 3:08 |
+| `life-marcus-2` | N3 | Marcus Aurelius: cuộc nổi loạn của Cassius năm 175, muốn tha thứ, đốt thư không đọc; "hãy như tảng đá trước sóng" (Suy tưởng 4.49, 8.47, 10.30) | 3:38 |
+
+- *Meditations* và sử của Cassius Dio thuộc phạm vi công cộng; 小さな休み là sáng tác của ViMai.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 19 chương: 2 chương N2, 9 chương N3 và 8 chương N4.

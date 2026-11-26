@@ -748,6 +748,8 @@ import v2LifeSmiles2 from "../../content/stories/life-smiles-2.json";
 import v2LifeIkari2 from "../../content/stories/life-ikari-2.json";
 import v2LifeSeneca2 from "../../content/stories/life-seneca-2.json";
 import v2LifeRongo2 from "../../content/stories/life-rongo-2.json";
+import v2LifeYukkuri2 from "../../content/stories/life-yukkuri-2.json";
+import v2LifeMarcus2 from "../../content/stories/life-marcus-2.json";
 // --- hết kệ W: import ---
 // --- kệ ma & trinh thám (chuẩn v2): import ---
 import v2MysteryHoichi1 from "../../content/stories/mystery-hoichi-1.json";
@@ -776,6 +778,11 @@ import s_worldVasilisa2 from "../../content/stories/world-vasilisa-2.json";
 import s_worldSaruWani from "../../content/stories/world-saru-wani.json";
 import s_worldPinocchio1 from "../../content/stories/world-pinocchio-1.json";
 import s_worldPinocchio2 from "../../content/stories/world-pinocchio-2.json";
+import s_furusatoVnLaohac from "../../content/stories/furusato-vn-laohac.json";
+import s_furusatoVnVongphu1 from "../../content/stories/furusato-vn-vongphu-1.json";
+import s_furusatoVnTranglon1 from "../../content/stories/furusato-vn-tranglon-1.json";
+import s_furusatoCnLiangzhu1 from "../../content/stories/furusato-cn-liangzhu-1.json";
+import s_furusatoKrTokki1 from "../../content/stories/furusato-kr-tokki-1.json";
 // --- hết kệ ma & trinh thám: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1527,6 +1534,8 @@ export const STORIES: StoryContent[] = [
   v2LifeIkari2 as unknown as StoryContent,
   v2LifeSeneca2 as unknown as StoryContent,
   v2LifeRongo2 as unknown as StoryContent,
+  v2LifeYukkuri2 as unknown as StoryContent,
+  v2LifeMarcus2 as unknown as StoryContent,
   // --- hết kệ W ---
   s_worldBremen as unknown as StoryContent,
   // --- kệ ma & trinh thám (chuẩn v2) ---
@@ -1557,6 +1566,11 @@ export const STORIES: StoryContent[] = [
   s_worldSaruWani as unknown as StoryContent,
   s_worldPinocchio1 as unknown as StoryContent,
   s_worldPinocchio2 as unknown as StoryContent,
+  s_furusatoVnLaohac as unknown as StoryContent,
+  s_furusatoVnVongphu1 as unknown as StoryContent,
+  s_furusatoVnTranglon1 as unknown as StoryContent,
+  s_furusatoCnLiangzhu1 as unknown as StoryContent,
+  s_furusatoKrTokki1 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

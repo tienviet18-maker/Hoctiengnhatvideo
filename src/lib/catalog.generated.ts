@@ -9540,7 +9540,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Heungbu dan Nolbu",
    "pt": "Heungbu e Nolbu",
    "my": "ဟန်ဘူးနဲ့ နော်ဘူး",
-   "th": "ฮึงบูกับนลบู"
+   "th": "ฮึงบูกับนลบู",
+   "si": "හියුංබු සහ නොල්බු"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9572,7 +9573,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kisah Shim Cheong",
    "pt": "A história de Shim Cheong",
    "my": "ရှင်ချောင်း ပုံပြင်",
-   "th": "เรื่องของชิมชอง"
+   "th": "เรื่องของชิมชอง",
+   "si": "ෂිම් චොංගේ කතාව"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9604,7 +9606,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kakak Beradik yang Menjadi Matahari dan Bulan",
    "pt": "Os irmãos que viraram o Sol e a Lua",
    "my": "နေနဲ့ လ ဖြစ်လာတဲ့ မောင်နှမ",
-   "th": "สองพี่น้องผู้กลายเป็นดวงอาทิตย์และดวงจันทร์"
+   "th": "สองพี่น้องผู้กลายเป็นดวงอาทิตย์และดวงจันทร์",
+   "si": "හිරු සහ සඳ බවට පත් වූ සහෝදරයෝ"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9636,7 +9639,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kongjwi dan Patjwi",
    "pt": "Kongjwi e Patjwi",
    "my": "ကုန်ဂျွီနဲ့ ပတ်ဂျွီ",
-   "th": "คงจวีกับพัตจวี"
+   "th": "คงจวีกับพัตจวี",
+   "si": "කොංජ්වි සහ පට්ජ්වි"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9668,7 +9672,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Si Gembala dan Gadis Penenun",
    "pt": "O vaqueiro e a tecelã",
    "my": "နွားကျောင်းသားနဲ့ ယက်ကန်းသူ",
-   "th": "หนุ่มเลี้ยงวัวกับสาวทอผ้า"
+   "th": "หนุ่มเลี้ยงวัวกับสาวทอผ้า",
+   "si": "ගව පාලකයා සහ රෙදි වියන කුමරිය"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9700,7 +9705,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Legenda Ular Putih",
    "pt": "A lenda da Serpente Branca",
    "my": "မြွေဖြူ ဒဏ္ဍာရီ",
-   "th": "ตำนานนางพญางูขาว"
+   "th": "ตำนานนางพญางูขาว",
+   "si": "සුදු නාගයාගේ ජනප්‍රවාදය"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9732,7 +9738,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Chang'e Terbang ke Bulan",
    "pt": "Chang'e voa para a Lua",
    "my": "ချန်အာ လကို ပျံတက်ခြင်း",
-   "th": "ฉางเอ๋อเหาะขึ้นดวงจันทร์"
+   "th": "ฉางเอ๋อเหาะขึ้นดวงจันทร์",
+   "si": "චාං-අ හඳට පියාඹයි"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9764,7 +9771,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Perjalanan ke Barat (1): Kera yang Lahir dari Batu",
    "pt": "Jornada ao Oeste (1): O macaco nascido da pedra",
    "my": "အနောက်ခရီး (၁): ကျောက်ကနေ မွေးလာတဲ့ မျောက်",
-   "th": "ไซอิ๋ว (1): ลิงที่เกิดจากหิน"
+   "th": "ไซอิ๋ว (1): ลิงที่เกิดจากหิน",
+   "si": "බටහිර ගමන (1): ගලෙන් ඉපදුණු වඳුරා"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9796,7 +9804,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Perjalanan ke Barat (2): Sang Biksu dan Murid-muridnya",
    "pt": "Jornada ao Oeste (2): O monge e seus companheiros",
    "my": "အနောက်ခရီး (၂): ဘုန်းကြီးနဲ့ အဖော်များ",
-   "th": "ไซอิ๋ว (2): พระถังกับลูกศิษย์"
+   "th": "ไซอิ๋ว (2): พระถังกับลูกศิษย์",
+   "si": "බටහිර ගමන (2): භික්ෂුව සහ ඔහුගේ සගයෝ"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9828,7 +9837,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Perjalanan ke Barat (3): Gunung Api dan Kipas Daun Pisang",
    "pt": "Jornada ao Oeste (3): A Montanha Flamejante e o Leque de Bananeira",
    "my": "အနောက်ခရီး (၃): မီးတောင်နဲ့ ငှက်ပျောရွက် ယပ်တောင်",
-   "th": "ไซอิ๋ว (3): ภูเขาเปลวเพลิงกับพัดใบตอง"
+   "th": "ไซอิ๋ว (3): ภูเขาเปลวเพลิงกับพัดใบตอง",
+   "si": "බටහිර ගමන (3): ගිනි කන්ද සහ කෙසෙල් කොළ වටාපත"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9860,7 +9870,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Malakas dan Maganda: Manusia Pertama dari Bambu",
    "pt": "Malakas e Maganda: os primeiros humanos do bambu",
    "my": "မလာကပ်စ်နဲ့ မဂန်ဒါ: ဝါးထဲက မွေးလာတဲ့ ပထမဆုံး လူသား",
-   "th": "มาลากัสกับมากันดา: มนุษย์คู่แรกจากกระบอกไม้ไผ่"
+   "th": "มาลากัสกับมากันดา: มนุษย์คู่แรกจากกระบอกไม้ไผ่",
+   "si": "මලකස් සහ මගන්ද: උණ ගසින් ආ මුල්ම මිනිස්සු"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9892,7 +9903,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Legenda Nanas",
    "pt": "A lenda do abacaxi",
    "my": "နာနတ်သီး ဒဏ္ဍာရီ",
-   "th": "ตำนานสับปะรด"
+   "th": "ตำนานสับปะรด",
+   "si": "අන්නාසිවල ජනප්‍රවාදය"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9924,7 +9936,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kura-kura dan Monyet",
    "pt": "A tartaruga e o macaco",
    "my": "လိပ်နဲ့ မျောက်",
-   "th": "เต่ากับลิง"
+   "th": "เต่ากับลิง",
+   "si": "ඉබ්බයි වඳුරයි"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9956,7 +9969,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Juan si Pemalas",
    "pt": "Juan, o Preguiçoso",
    "my": "ပျင်းတဲ့ ဟွမ်",
-   "th": "ฮวนขี้เกียจ"
+   "th": "ฮวนขี้เกียจ",
+   "si": "කම්මැලි හුවාන්"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -9988,7 +10002,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Malin Kundang",
    "pt": "Malin Kundang",
    "my": "မာလင် ကွန်ဒန်",
-   "th": "มาลิน กุนดัง"
+   "th": "มาลิน กุนดัง",
+   "si": "මලින් කුන්ඩං"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -10020,7 +10035,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Timun Mas",
    "pt": "Timun Mas, o pepino de ouro",
    "my": "ရွှေသခွားသီး တီမွန်မာ့စ်",
-   "th": "ทิมุน มัส แตงทอง"
+   "th": "ทิมุน มัส แตงทอง",
+   "si": "රන් පිපිඤ්ඤා - තිමුන් මාස්"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -10052,7 +10068,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Bawang Merah Bawang Putih",
    "pt": "Cebola Roxa e Alho",
    "my": "ကြက်သွန်နီနဲ့ ကြက်သွန်ဖြူ",
-   "th": "หอมแดงกับกระเทียม"
+   "th": "หอมแดงกับกระเทียม",
+   "si": "බවං මෙරා සහ බවං පුතිහ්"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -10084,7 +10101,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Sangkuriang dan Tangkuban Perahu",
    "pt": "Sangkuriang e o Barco Virado",
    "my": "ဆန်ကူရီယန်နဲ့ မှောက်နေတဲ့ လှေတောင်",
-   "th": "สังกูเรียงกับภูเขาเรือคว่ำ"
+   "th": "สังกูเรียงกับภูเขาเรือคว่ำ",
+   "si": "සංකුරියං සහ යටිකුරු වුණු නැව"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -10116,7 +10134,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kancil dan Buaya",
    "pt": "Kancil e os crocodilos",
    "my": "ခရီကန်ချီးလ်နဲ့ မိကျောင်းတွေ",
-   "th": "กระจงกับจระเข้"
+   "th": "กระจงกับจระเข้",
+   "si": "කන්චිල් මීමින්නා සහ කිඹුලෝ"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -10148,7 +10167,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Sang Thong, Pangeran Keong Emas",
    "pt": "Sang Thong, o príncipe da concha de ouro",
    "my": "ရွှေခရုခွံ မင်းသား ဆန်တောင်",
-   "th": "สังข์ทอง"
+   "th": "สังข์ทอง",
+   "si": "රන් හක්ගෙඩි කුමාරයා සං තොං"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -10180,7 +10200,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Phra Aphai Mani, Pangeran Seruling",
    "pt": "Phra Aphai Mani, o príncipe da flauta",
    "my": "ပုလွေမင်းသား ဖရာ အဖိုင်မဏိ",
-   "th": "พระอภัยมณี"
+   "th": "พระอภัยมณี",
+   "si": "බටනළා කුමාරයා ප්‍රා අපයිමනී"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -10212,7 +10233,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Manjushri dan Danau Kathmandu",
    "pt": "Manjushri e o lago de Katmandu",
    "my": "မဉ္ဇူသီရိနဲ့ ကတ္တမန္ဒူ ရေကန်",
-   "th": "พระมัญชุศรีกับทะเลสาบกาฐมาณฑุ"
+   "th": "พระมัญชุศรีกับทะเลสาบกาฐมาณฑุ",
+   "si": "මංජුශ්‍රී සහ කත්මණ්ඩු විල"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -10244,7 +10266,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Indra yang Diikat di Kathmandu",
    "pt": "Indra amarrado em Katmandu",
    "my": "ကတ္တမန္ဒူမှာ ချည်နှောင်ခံရတဲ့ သိကြားမင်း",
-   "th": "พระอินทร์ถูกมัดที่กาฐมาณฑุ"
+   "th": "พระอินทร์ถูกมัดที่กาฐมาณฑุ",
+   "si": "කත්මණ්ඩුවේදී බැඳුණු ඉන්ද්‍ර දෙවියා"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -11200,7 +11223,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kakek Berbenjol",
    "pt": "O velho do caroço",
    "my": "အကျိတ်ပါတဲ့ အဘိုးအို",
-   "th": "ตาเฒ่าคอพอก"
+   "th": "ตาเฒ่าคอพอก",
+   "si": "ගැටයක් තිබුණු සීයා"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -11232,7 +11256,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Legenda Danau Toba",
    "pt": "A lenda do lago Toba",
    "my": "တိုဘာကန် ဒဏ္ဍာရီ",
-   "th": "ตำนานทะเลสาบโตบา"
+   "th": "ตำนานทะเลสาบโตบา",
+   "si": "තෝබා විලේ ජනප්‍රවාදය"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -11264,7 +11289,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Legenda Daragang Magayon",
    "pt": "A lenda de Daragang Magayon",
    "my": "မာဂါယွန်နဲ့ မာယွန် မီးတောင်",
-   "th": "ตำนานดารากังมากายอนกับภูเขาไฟมายอน"
+   "th": "ตำนานดารากังมากายอนกับภูเขาไฟมายอน",
+   "si": "දරගං මගයොන් සහ මයොන් ගිනිකන්ද"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -11296,7 +11322,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Mahagiri, Dewa Gunung Agung",
    "pt": "Mahagiri, Senhor da Grande Montanha",
    "my": "မဟာဂီရိ နတ်",
-   "th": "มหาคีรี เทพแห่งขุนเขา"
+   "th": "มหาคีรี เทพแห่งขุนเขา",
+   "si": "මහා කන්දේ අධිපති මහගිරි"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -11328,7 +11355,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Legenda Batu Emas",
    "pt": "A lenda da Rocha Dourada",
    "my": "ကျိုက်ထီးရိုး ဆံတော်ရှင် ပုံပြင်",
-   "th": "ตำนานพระธาตุอินทร์แขวน"
+   "th": "ตำนานพระธาตุอินทร์แขวน",
+   "si": "රන් ගලේ ජනප්‍රවාදය"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -11360,7 +11388,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Saci, Si Jahil Berkaki Satu",
    "pt": "Saci-Pererê",
    "my": "ခြေတစ်ဖက်ပါ ဆာစီ",
-   "th": "ซาซี เด็กขาเดียวจอมซน"
+   "th": "ซาซี เด็กขาเดียวจอมซน",
+   "si": "එක කකුලේ දඟකාරයා සාසි"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -11392,7 +11421,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Iara, Putri Duyung Amazon",
    "pt": "Iara, a mãe-d'água",
    "my": "အမေဇုန်က ရေသူမ အီအာရာ",
-   "th": "อิอารา นางเงือกแห่งแอมะซอน"
+   "th": "อิอารา นางเงือกแห่งแอมะซอน",
+   "si": "ඇමසන් ගඟේ දිය කිඳුරිය ඉයාරා"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -11424,7 +11454,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Curupira, Penjaga Hutan",
    "pt": "Curupira, o guardião da mata",
    "my": "တောစောင့် ကူရူပီရာ",
-   "th": "คูรูปีรา ผู้พิทักษ์ป่า"
+   "th": "คูรูปีรา ผู้พิทักษ์ป่า",
+   "si": "කැලේ ආරක්ෂකයා කුරුපිරා"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -13552,6 +13583,68 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "life-yukkuri-2",
+  "titles": {
+   "vi": "Từng việc một",
+   "en": "One Thing at a Time",
+   "zh-Hans": "一件一件来",
+   "zh-Hant": "一件一件來",
+   "ko": "하나씩",
+   "tl": "Isa-isa Lang",
+   "ne": "एकपछि अर्को",
+   "id": "Satu per Satu",
+   "pt": "Uma Coisa de Cada Vez",
+   "my": "တစ်ခုချင်းစီ",
+   "th": "ทีละอย่าง"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 37,
+  "cover": "/covers/life-yukkuri-2.webp",
+  "series": {
+   "id": "life-yukkuri",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-yukkuri-2/chapter.mp3",
+   "durationSec": 187.66
+  }
+ },
+ {
+  "id": "life-marcus-2",
+  "titles": {
+   "vi": "Sóng và đá",
+   "en": "The Wave and the Rock",
+   "zh-Hans": "浪与礁石",
+   "zh-Hant": "浪與礁石",
+   "ko": "파도와 바위",
+   "tl": "Ang Alon at ang Bato",
+   "ne": "छाल र चट्टान",
+   "id": "Ombak dan Batu Karang",
+   "pt": "A Onda e a Rocha",
+   "my": "လှိုင်းနှင့် ကျောက်ဆောင်",
+   "th": "คลื่นกับหิน"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/life-marcus-2.webp",
+  "series": {
+   "id": "life-marcus",
+   "index": 2
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-marcus-2/chapter.mp3",
+   "durationSec": 217.7
+  }
+ },
+ {
   "id": "mystery-hoichi-1",
   "titles": {
    "vi": "Hōichi không tai (1): Vị khách lúc nửa đêm",
@@ -14367,6 +14460,146 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/world-pinocchio-2/chapter.mp3",
    "durationSec": 297.192
+  }
+ },
+ {
+  "id": "furusato-vn-laohac",
+  "titles": {
+   "vi": "Lão Hạc",
+   "en": "Old Hạc",
+   "zh-Hans": "老鹤",
+   "zh-Hant": "老鶴",
+   "ko": "라오 학 (학 노인)",
+   "tl": "Si Matandang Hạc",
+   "ne": "बूढा हाक",
+   "id": "Pak Tua Hạc",
+   "pt": "O Velho Hạc",
+   "my": "အဘိုးအို ဟတ်",
+   "th": "ตาเฒ่าฮัก"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 60,
+  "cover": "/covers/furusato-vn-laohac.webp",
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-laohac/chapter.mp3",
+   "durationSec": 464.232
+  }
+ },
+ {
+  "id": "furusato-vn-vongphu-1",
+  "titles": {
+   "vi": "Sự tích hòn Vọng Phu",
+   "en": "The Legend of the Waiting-Wife Rock",
+   "zh-Hans": "望夫石的传说",
+   "zh-Hant": "望夫石的傳說",
+   "ko": "망부석 이야기",
+   "tl": "Ang Alamat ng Batong Naghihintay sa Asawa",
+   "ne": "पतिको पर्खाइमा बसेको चट्टानको कथा",
+   "id": "Legenda Batu Penanti Suami",
+   "pt": "A Lenda da Pedra da Esposa que Espera",
+   "my": "ခင်ပွန်းကို စောင့်တဲ့ ကျောက်တုံး ဒဏ္ဍာရီ",
+   "th": "ตำนานหินรอสามี"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 43,
+  "cover": "/covers/furusato-vn-vongphu-1.webp",
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-vongphu-1/chapter.mp3",
+   "durationSec": 274.08
+  }
+ },
+ {
+  "id": "furusato-vn-tranglon-1",
+  "titles": {
+   "vi": "Trạng Lợn",
+   "en": "Trạng Lợn, the Pig Scholar",
+   "zh-Hans": "猪状元",
+   "zh-Hant": "豬狀元",
+   "ko": "돼지 장원",
+   "tl": "Si Trạng Lợn, ang Iskolar na Baboy",
+   "ne": "सुँगुर विद्वान् त्राङ लोन",
+   "id": "Trạng Lợn, Sarjana Babi",
+   "pt": "Trạng Lợn, o Doutor Porco",
+   "my": "ဝက်ပညာရှင် ချန်လွန်",
+   "th": "จ่างหลอน บัณฑิตหมู"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 51,
+  "cover": "/covers/furusato-vn-tranglon-1.webp",
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-tranglon-1/chapter.mp3",
+   "durationSec": 344.352
+  }
+ },
+ {
+  "id": "furusato-cn-liangzhu-1",
+  "titles": {
+   "vi": "Lương Sơn Bá – Chúc Anh Đài",
+   "en": "The Butterfly Lovers",
+   "zh-Hans": "梁山伯与祝英台",
+   "zh-Hant": "梁山伯與祝英臺",
+   "ko": "양산백과 축영대",
+   "tl": "Ang Magkasintahang Paru-paro",
+   "ne": "पुतली बनेका प्रेमी",
+   "id": "Sepasang Kekasih Kupu-Kupu",
+   "pt": "Os Amantes Borboleta",
+   "my": "လိပ်ပြာ ချစ်သူနှစ်ဦး",
+   "th": "คู่รักผีเสื้อ (เหลียงซานป๋อกับจู้อิงไถ)"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 45,
+  "cover": "/covers/furusato-cn-liangzhu-1.webp",
+  "shelf": "hometown",
+  "origin": "CN",
+  "audioTrack": {
+   "src": "/audio/furusato-cn-liangzhu-1/chapter.mp3",
+   "durationSec": 315.576
+  }
+ },
+ {
+  "id": "furusato-kr-tokki-1",
+  "titles": {
+   "vi": "Thỏ và Ba Ba (Thỏ phơi gan)",
+   "en": "The Rabbit's Liver",
+   "zh-Hans": "兔子传（兔肝）",
+   "zh-Hant": "兔子傳（兔肝）",
+   "ko": "토끼전",
+   "tl": "Ang Atay ng Kuneho",
+   "ne": "खरायोको कलेजो",
+   "id": "Hati Kelinci",
+   "pt": "O Fígado do Coelho",
+   "my": "ယုန်ရဲ့ အသည်း",
+   "th": "ตับกระต่าย"
+  },
+  "level": "N3",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 39,
+  "cover": "/covers/furusato-kr-tokki-1.webp",
+  "shelf": "hometown",
+  "origin": "KR",
+  "audioTrack": {
+   "src": "/audio/furusato-kr-tokki-1/chapter.mp3",
+   "durationSec": 264.36
   }
  }
 ];
