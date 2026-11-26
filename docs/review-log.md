@@ -613,3 +613,11 @@ Kể lại hồi 14 (đoạn Quang Trung đại phá quân Thanh) bằng tiếng
 - Đủ chuẩn v2: dịch và giải thích 10 ngôn ngữ, bài học 4 ngữ pháp + 4 câu hỏi, bìa 文庫 (motif `hoangle1`–`hoangle3`), chỉ giọng Aoede và Neural2-C (nhân vật phân biệt bằng pitch và tốc độ).
 - Chi tiết truyền thuyết (võng khiêng quân, áo bào sạm đen khói súng) được ghi rõ là lời truyền tụng trong ghi chú câu và `sourceNote`.
 - Lỗi đọc sửa bằng `phrases`: 清 しん, 民 たみ, 戦 いくさ/たたかい, 大将, 後を あと, 数知れず かず. Bỏ phrase thừa 「この戦」 từ tập 1.
+
+## Ẩn 24 bài luận N1/N2 cũ dạng 8 câu — 26/11/2026
+
+Việt cho phép bỏ hoặc làm lại truyện của Muse không đạt chuẩn. 24 gói N1/N2 (12 N1 + 12 N2: the-aging-society, the-interpreter, the-narrow-road, the-job-change, the-mentor…) chỉ có 8 câu, 104–188 ký tự. Chuẩn v2 đòi N2 ≥1500 và N1 ≥2000 ký tự, nên đây là đoạn tóm tắt gắn nhãn cấp cao chứ không phải bài đọc N1/N2.
+
+- Thêm cả 24 id vào `content/hidden-stories.json` với giá trị `null` (cho nghỉ). Chỉ ẩn, không xoá: link cũ vẫn mở, trang để noindex.
+- `src/lib/paths.ts`: gỡ các id này khỏi lộ trình Đi làm, Gia đình và Giải trí. Phần cấp cao của lộ trình Giải trí thay bằng tập 1 của Số đỏ, Truyện Kiều và Hoàng Lê (đều chuẩn v2).
+- Sau khi ẩn, kệ đang hiện: N2 có 10 gói v2 + 0 gói cũ, N1 có 3 gói v2. Cần thêm truyện N1 (ứng viên: truyện ngắn Thạch Lam, văn học Nhật public domain).
