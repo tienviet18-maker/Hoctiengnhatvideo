@@ -8,11 +8,12 @@ const root = new URL("../..", import.meta.url).pathname;
 const p = join(root, "src/lib/content.ts");
 let s = readFileSync(p, "utf8");
 // --block=wisdom: kệ Triết lý sống có khối đánh dấu riêng (luồng kệ W), không đụng khối A/E.
-const BLOCKS = { ae: "A/E văn học", wisdom: "W triết lý sống" };
+// --block=ma: kệ ma & trinh thám (mystery-*).
+const BLOCKS = { ae: "A/E văn học", wisdom: "W triết lý sống", ma: "ma & trinh thám" };
 const blockArg = process.argv.find((a) => a.startsWith("--block="))?.slice(8) ?? "ae";
 const label = BLOCKS[blockArg];
 if (!label) throw new Error(`không có khối ${blockArg}`);
-const short = label.split(" ")[0];
+const short = blockArg === "ma" ? label : label.split(" ")[0];
 const IMP = `// --- kệ ${label} (chuẩn v2): import ---`;
 const ARR = `  // --- kệ ${label} (chuẩn v2) ---`;
 const IMP_END = `// --- hết kệ ${short}: import ---`;

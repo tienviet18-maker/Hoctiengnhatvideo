@@ -715,6 +715,9 @@ import s_worldCinderella1 from "../../content/stories/world-cinderella-1.json";
 import s_worldCinderella2 from "../../content/stories/world-cinderella-2.json";
 import s_worldShirayuki1 from "../../content/stories/world-shirayuki-1.json";
 import s_worldShirayuki2 from "../../content/stories/world-shirayuki-2.json";
+import s_worldHansel1 from "../../content/stories/world-hansel-1.json";
+import s_worldHansel2 from "../../content/stories/world-hansel-2.json";
+import s_worldAkazukin from "../../content/stories/world-akazukin.json";
 // --- hết kệ A/E: import ---
 
 // --- kệ W triết lý sống (chuẩn v2): import ---
@@ -723,6 +726,11 @@ import v2LifeEpictetus2 from "../../content/stories/life-epictetus-2.json";
 import v2LifeRoshi1 from "../../content/stories/life-roshi-1.json";
 import v2LifeIkari1 from "../../content/stories/life-ikari-1.json";
 // --- hết kệ W: import ---
+// --- kệ ma & trinh thám (chuẩn v2): import ---
+import v2MysteryHoichi1 from "../../content/stories/mystery-hoichi-1.json";
+import v2MysteryHoichi2 from "../../content/stories/mystery-hoichi-2.json";
+import v2MysteryMujina1 from "../../content/stories/mystery-mujina-1.json";
+// --- hết kệ ma & trinh thám: import ---
 
 export const VIDEOS: VideoContent[] = [
   video1 as unknown as VideoContent,
@@ -1443,12 +1451,20 @@ export const STORIES: StoryContent[] = [
   s_worldCinderella2 as unknown as StoryContent,
   s_worldShirayuki1 as unknown as StoryContent,
   s_worldShirayuki2 as unknown as StoryContent,
+  s_worldHansel1 as unknown as StoryContent,
+  s_worldHansel2 as unknown as StoryContent,
+  s_worldAkazukin as unknown as StoryContent,
   // --- kệ W triết lý sống (chuẩn v2) ---
   v2LifeEpictetus1 as unknown as StoryContent,
   v2LifeEpictetus2 as unknown as StoryContent,
   v2LifeRoshi1 as unknown as StoryContent,
   v2LifeIkari1 as unknown as StoryContent,
   // --- hết kệ W ---
+  // --- kệ ma & trinh thám (chuẩn v2) ---
+  v2MysteryHoichi1 as unknown as StoryContent,
+  v2MysteryHoichi2 as unknown as StoryContent,
+  v2MysteryMujina1 as unknown as StoryContent,
+  // --- hết kệ ma & trinh thám ---
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

@@ -4763,7 +4763,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 11,
-  "cover": "/covers/miminashi-hoichi.webp"
+  "cover": "/covers/miminashi-hoichi.webp",
+  "hidden": true,
+  "replacedBy": "mystery-hoichi-1"
  },
  {
   "id": "school-visit-day",
@@ -4919,7 +4921,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/akazukin.webp"
+  "cover": "/covers/akazukin.webp",
+  "hidden": true,
+  "replacedBy": "world-akazukin"
  },
  {
   "id": "at-the-vet",
@@ -5208,7 +5212,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/hansel-and-gretel.webp"
+  "cover": "/covers/hansel-and-gretel.webp",
+  "hidden": true,
+  "replacedBy": "world-hansel-1"
  },
  {
   "id": "piano-lessons",
@@ -6016,7 +6022,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "aozora-adapted",
   "free": true,
   "sentenceCount": 11,
-  "cover": "/covers/mujina.webp"
+  "cover": "/covers/mujina.webp",
+  "hidden": true,
+  "replacedBy": "mystery-mujina-1"
  },
  {
   "id": "the-letter-from-far-away",
@@ -12509,6 +12517,98 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "world-hansel-1",
+  "titles": {
+   "vi": "Hansel và Gretel (1): Ngôi nhà bánh kẹo",
+   "en": "Hansel and Gretel (1): The House of Sweets",
+   "zh-Hans": "汉赛尔与格莱特（1）：糖果屋",
+   "zh-Hant": "漢賽爾與格萊特（1）：糖果屋",
+   "ko": "헨젤과 그레텔 (1): 과자의 집",
+   "tl": "Hansel at Gretel (1): Ang Bahay na Matamis",
+   "ne": "हान्सेल र ग्रेटेल (१): मिठाईको घर",
+   "id": "Hansel dan Gretel (1): Rumah Kue",
+   "pt": "João e Maria (1): A Casa de Doces",
+   "my": "ဟန်ဆယ်နဲ့ ဂရက်တယ် (၁): မုန့်အိမ်လေး",
+   "th": "ฮันเซลกับเกรเทล (1): บ้านขนมหวาน"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 54,
+  "cover": "/covers/world-hansel-1.webp",
+  "series": {
+   "id": "world-hansel",
+   "index": 1
+  },
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-hansel-1/chapter.mp3",
+   "durationSec": 290.424
+  }
+ },
+ {
+  "id": "world-hansel-2",
+  "titles": {
+   "vi": "Hansel và Gretel (2 – hết): Mụ phù thủy và lò nướng",
+   "en": "Hansel and Gretel (2, end): The Witch and the Oven",
+   "zh-Hans": "汉赛尔与格莱特（2·完）：巫婆与烤炉",
+   "zh-Hant": "漢賽爾與格萊特（2·完）：巫婆與烤爐",
+   "ko": "헨젤과 그레텔 (2·끝): 마녀와 화덕",
+   "tl": "Hansel at Gretel (2, wakas): Ang Bruha at ang Pugon",
+   "ne": "हान्सेल र ग्रेटेल (२, अन्तिम): बोक्सी र भट्टी",
+   "id": "Hansel dan Gretel (2, tamat): Penyihir dan Tungku",
+   "pt": "João e Maria (2, fim): A Bruxa e o Forno",
+   "my": "ဟန်ဆယ်နဲ့ ဂရက်တယ် (၂၊ ဇာတ်သိမ်း): စုန်းမနဲ့ မီးဖို",
+   "th": "ฮันเซลกับเกรเทล (2 จบ): แม่มดกับเตาอบ"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 55,
+  "cover": "/covers/world-hansel-2.webp",
+  "series": {
+   "id": "world-hansel",
+   "index": 2
+  },
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-hansel-2/chapter.mp3",
+   "durationSec": 287.616
+  }
+ },
+ {
+  "id": "world-akazukin",
+  "titles": {
+   "vi": "Cô bé quàng khăn đỏ",
+   "en": "Little Red Riding Hood",
+   "zh-Hans": "小红帽",
+   "zh-Hant": "小紅帽",
+   "ko": "빨간 모자",
+   "tl": "Si Pulang Talukbong",
+   "ne": "रातो टोपी लगाउने केटी",
+   "id": "Si Tudung Merah",
+   "pt": "Chapeuzinho Vermelho",
+   "my": "ဦးထုပ်နီလေး",
+   "th": "หนูน้อยหมวกแดง"
+  },
+  "level": "N5",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 44,
+  "cover": "/covers/world-akazukin.webp",
+  "shelf": "world",
+  "origin": "DE",
+  "audioTrack": {
+   "src": "/audio/world-akazukin/chapter.mp3",
+   "durationSec": 186.336
+  }
+ },
+ {
   "id": "life-epictetus-1",
   "titles": {
    "vi": "Triết gia nô lệ – Epictetus (1)",
@@ -12630,6 +12730,95 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/life-ikari-1/chapter.mp3",
    "durationSec": 223.3
+  }
+ },
+ {
+  "id": "mystery-hoichi-1",
+  "titles": {
+   "vi": "Hōichi không tai (1): Vị khách lúc nửa đêm",
+   "en": "Hoichi the Earless (1): The Midnight Visitor",
+   "zh-Hans": "无耳芳一（一）：午夜来客",
+   "zh-Hant": "無耳芳一（一）：午夜來客",
+   "ko": "귀 없는 호이치 (1): 한밤의 손님",
+   "tl": "Si Hoichi na Walang Tainga (1): Ang Bisita sa Hatinggabi",
+   "ne": "कान नभएको होइची (१): मध्यरातको पाहुना",
+   "id": "Hoichi Tanpa Telinga (1): Tamu Tengah Malam",
+   "pt": "Hoichi sem Orelhas (1): O Visitante da Meia-Noite",
+   "my": "နားမရှိတဲ့ ဟိုးအိချိ (၁): သန်းခေါင်ယံ ဧည့်သည်",
+   "th": "โฮอิจิไร้หู (1): แขกยามเที่ยงคืน"
+  },
+  "level": "N3",
+  "topic": "classic-ghost",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 55,
+  "cover": "/covers/mystery-hoichi-1.webp",
+  "series": {
+   "id": "mystery-hoichi",
+   "index": 1
+  },
+  "shelf": "ghost",
+  "audioTrack": {
+   "src": "/audio/mystery-hoichi-1/chapter.mp3",
+   "durationSec": 355.78
+  }
+ },
+ {
+  "id": "mystery-hoichi-2",
+  "titles": {
+   "vi": "Hōichi không tai (2): Kinh viết trên thân",
+   "en": "Hoichi the Earless (2): The Sutra on His Body",
+   "zh-Hans": "无耳芳一（二）：写在身上的经文",
+   "zh-Hant": "無耳芳一（二）：寫在身上的經文",
+   "ko": "귀 없는 호이치 (2): 몸에 쓴 경문",
+   "tl": "Si Hoichi na Walang Tainga (2): Ang Sutra sa Kanyang Katawan",
+   "ne": "कान नभएको होइची (२): शरीरमा लेखिएको सूत्र",
+   "id": "Hoichi Tanpa Telinga (2): Sutra di Tubuhnya",
+   "pt": "Hoichi sem Orelhas (2): O Sutra no Corpo",
+   "my": "နားမရှိတဲ့ ဟိုးအိချိ (၂): ကိုယ်ပေါ်က သုတ္တန်",
+   "th": "โฮอิจิไร้หู (2): บทสวดบนร่างกาย"
+  },
+  "level": "N3",
+  "topic": "classic-ghost",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 56,
+  "cover": "/covers/mystery-hoichi-2.webp",
+  "series": {
+   "id": "mystery-hoichi",
+   "index": 2
+  },
+  "shelf": "ghost",
+  "audioTrack": {
+   "src": "/audio/mystery-hoichi-2/chapter.mp3",
+   "durationSec": 371.71
+  }
+ },
+ {
+  "id": "mystery-mujina-1",
+  "titles": {
+   "vi": "Mujina: Gương mặt không có gì",
+   "en": "Mujina: The Faceless One",
+   "zh-Hans": "貉：没有脸的人",
+   "zh-Hant": "貉：沒有臉的人",
+   "ko": "무지나: 얼굴 없는 사람",
+   "tl": "Mujina: Ang Walang Mukha",
+   "ne": "मुजिना: अनुहार नभएको",
+   "id": "Mujina: Si Tanpa Wajah",
+   "pt": "Mujina: O Sem Rosto",
+   "my": "မူဂျီနာ: မျက်နှာမဲ့",
+   "th": "มุจินะ: ผีหน้าเปล่า"
+  },
+  "level": "N4",
+  "topic": "classic-ghost",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 45,
+  "cover": "/covers/mystery-mujina-1.webp",
+  "shelf": "ghost",
+  "audioTrack": {
+   "src": "/audio/mystery-mujina-1/chapter.mp3",
+   "durationSec": 240.55
   }
  }
 ];
