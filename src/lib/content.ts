@@ -771,6 +771,7 @@ import s_worldVasilisa2 from "../../content/stories/world-vasilisa-2.json";
 import s_worldSaruWani from "../../content/stories/world-saru-wani.json";
 import s_worldPinocchio1 from "../../content/stories/world-pinocchio-1.json";
 import s_worldPinocchio2 from "../../content/stories/world-pinocchio-2.json";
+import s_furusatoVnLaohac from "../../content/stories/furusato-vn-laohac.json";
 // --- hết kệ ma & trinh thám: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1547,6 +1548,7 @@ export const STORIES: StoryContent[] = [
   s_worldSaruWani as unknown as StoryContent,
   s_worldPinocchio1 as unknown as StoryContent,
   s_worldPinocchio2 as unknown as StoryContent,
+  s_furusatoVnLaohac as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
