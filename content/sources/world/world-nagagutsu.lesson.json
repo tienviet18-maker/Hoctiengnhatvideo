@@ -1,0 +1,30 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜ふりをする",
+   "example": 10,
+   "meaning": { "vi": "giả vờ ~", "en": "pretend to ~", "zh-Hans": "假装……", "ko": "~하는 척하다", "tl": "magkunwaring ~", "ne": "~ को नाटक गर्नु", "id": "pura-pura ~", "pt": "fingir ~", "my": "~ ယောင်ဆောင်", "th": "แกล้ง ~" }
+  },
+  {
+   "pattern": "〜させる（使役）",
+   "example": 23,
+   "meaning": { "vi": "bắt / cho / sai (ai) làm ~", "en": "make / have / let (someone) ~", "zh-Hans": "让／叫（某人）……", "ko": "~하게 하다", "tl": "ipagawa / pagawin ng ~", "ne": "~ लगाउनु", "id": "menyuruh ~", "pt": "mandar / fazer (alguém) ~", "my": "~ ခိုင်း", "th": "ให้ / สั่งให้ ~" }
+  },
+  {
+   "pattern": "まるで〜のようだ",
+   "example": 24,
+   "meaning": { "vi": "y như là ~", "en": "just like ~, as if ~", "zh-Hans": "简直像……", "ko": "마치 ~ 같다", "tl": "para talagang ~", "ne": "ठ्याक्कै ~ जस्तो", "id": "seolah-olah ~", "pt": "igualzinho a ~", "my": "~ လိုပဲ", "th": "ราวกับ ~" }
+  },
+  {
+   "pattern": "〜たとたん（に）",
+   "example": 41,
+   "meaning": { "vi": "vừa ~ thì lập tức", "en": "the moment ~, as soon as ~", "zh-Hans": "刚一……就", "ko": "~하자마자", "tl": "pagkaraang ~ ay agad", "ne": "~ नासाथ", "id": "begitu ~ langsung", "pt": "no instante em que ~", "my": "~ တာနဲ့", "th": "ทันทีที่ ~" }
+  }
+ ],
+ "quiz": [
+  { "ja": "一番下の息子は、何をもらいましたか。", "choices": ["粉をひく小屋", "ロバ", "ねこ", "お金"], "answer": 2, "explain": { "vi": "Cậu út chỉ được thừa kế một con mèo.", "en": "The youngest got only a cat.", "zh-Hans": "小儿子只得到了一只猫。", "ko": "막내는 고양이 한 마리만 받았다.", "tl": "Pusa lang ang nakuha ng bunso.", "ne": "कान्छोले बिरालो मात्र पायो।", "id": "Si bungsu hanya dapat kucing.", "pt": "O caçula só ganhou o gato.", "my": "အငယ်ဆုံးက ကြောင်ပဲ ရတယ်။", "th": "ลูกคนเล็กได้แค่แมว" } },
+  { "ja": "ねこは、息子のことを王様に何とよびましたか。", "choices": ["王子", "カラバ侯爵", "粉屋", "大男"], "answer": 1, "explain": { "vi": "Mèo gọi chủ là 'Hầu tước Carabas', một cái tên tự nghĩ ra.", "en": "He called him 'the Marquis of Carabas', an invented name.", "zh-Hans": "猫叫他'卡拉巴侯爵'，是编出来的名字。", "ko": "'카라바 후작'이라는 지어낸 이름으로 불렀다.", "tl": "Tinawag niya itong 'Markes ng Carabas'.", "ne": "उसले 'काराबासका मार्किस' भन्यो।", "id": "Ia menyebutnya 'Markis Carabas'.", "pt": "Chamou-o de 'Marquês de Carabás'.", "my": "'ကာရာဘတ် မာကွစ်' လို့ ခေါ်တယ်။", "th": "เรียกว่า 'มาร์ควิสแห่งคาราบาส'" } },
+  { "ja": "息子が川に入ったとき、ねこは服をどうしましたか。", "choices": ["川に流した", "石の下にかくした", "王様にあげた", "売った"], "answer": 1, "explain": { "vi": "Mèo giấu quần áo dưới hòn đá rồi kêu bị trộm lấy.", "en": "The cat hid the clothes under a rock and claimed thieves took them.", "zh-Hans": "猫把衣服藏在石头下，说被小偷偷了。", "ko": "고양이가 돌 밑에 옷을 숨기고 도둑맞았다고 했다.", "tl": "Itinago ng pusa ang damit sa ilalim ng bato.", "ne": "बिरालोले लुगा ढुङ्गामुनि लुकायो।", "id": "Kucing menyembunyikannya di bawah batu.", "pt": "O gato escondeu as roupas sob uma pedra.", "my": "ကျောက်အောက်မှာ ဝှက်ထားတယ်။", "th": "แมวซ่อนเสื้อผ้าไว้ใต้ก้อนหิน" } },
+  { "ja": "ねこは、どうやって大男をたおしましたか。", "choices": ["剣で戦った", "ネズミにさせて食べた", "川に落とした", "王様をよんだ"], "answer": 1, "explain": { "vi": "Mèo khích yêu tinh biến thành chuột rồi ăn luôn.", "en": "It tricked the ogre into becoming a mouse and ate him.", "zh-Hans": "猫骗巨人变成老鼠，然后吃掉了。", "ko": "거인을 쥐로 변하게 한 뒤 잡아먹었다.", "tl": "Nilinlang niya ang ogre na maging daga at kinain.", "ne": "राक्षसलाई मुसा बनाएर खायो।", "id": "Menipunya jadi tikus lalu memakannya.", "pt": "Fez o ogro virar rato e o comeu.", "my": "ကြွက်ဖြစ်အောင် လှည့်စားပြီး စားလိုက်တယ်။", "th": "หลอกให้ยักษ์แปลงเป็นหนูแล้วกิน" } }
+ ]
+}

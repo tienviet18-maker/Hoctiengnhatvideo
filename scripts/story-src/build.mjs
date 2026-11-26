@@ -68,7 +68,7 @@ function attaches(t, prev) {
   if (t.pos === "動詞" && prev.pos === "名詞" && prev.pos_detail_1 === "サ変接続" && t.basic_form === "する") return true;
   return false;
 }
-const ROMAJI_FIX = { こんにちは: "konnichiwa", こんばんは: "konbanwa", にかけて: "ni kakete", という: "to iu", といった: "to itta", として: "to shite", について: "ni tsuite", にとって: "ni totte", によって: "ni yotte", のように: "no you ni" };
+const ROMAJI_FIX = { こんにちは: "konnichiwa", じつは: "jitsu wa", あっという間: "atto iu ma", こんばんは: "konbanwa", にかけて: "ni kakete", という: "to iu", といった: "to itta", として: "to shite", について: "ni tsuite", にとって: "ni totte", によって: "ni yotte", のように: "no you ni" };
 
 // Tách token có kanji thành [kanji+reading][okurigana] bằng khớp mẫu.
 function splitFurigana(surface, reading) {
