@@ -680,6 +680,7 @@ import s_furusatoBrCurupira1 from "../../content/stories/furusato-br-curupira-1.
 import s_osakaHataraku06 from "../../content/stories/osaka-hataraku-06.json";
 import s_osakaHataraku07 from "../../content/stories/osaka-hataraku-07.json";
 import s_osakaHataraku08 from "../../content/stories/osaka-hataraku-08.json";
+import s_furusatoVnSodo1 from "../../content/stories/furusato-vn-sodo-1.json";
 // --- hết kệ A/E: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1366,6 +1367,7 @@ export const STORIES: StoryContent[] = [
   s_osakaHataraku06 as unknown as StoryContent,
   s_osakaHataraku07 as unknown as StoryContent,
   s_osakaHataraku08 as unknown as StoryContent,
+  s_furusatoVnSodo1 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

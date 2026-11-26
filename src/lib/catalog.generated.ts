@@ -11034,6 +11034,38 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/osaka-hataraku-08/chapter.mp3",
    "durationSec": 346.872
   }
+ },
+ {
+  "id": "furusato-vn-sodo-1",
+  "titles": {
+   "vi": "Số đỏ (1): Xuân Tóc Đỏ",
+   "en": "Dumb Luck (1): Red-Haired Xuân",
+   "zh-Hans": "红运（一）：红发阿春",
+   "zh-Hant": "紅運（一）：紅髮阿春",
+   "ko": "소도 (1): 빨간 머리 쑤언",
+   "tl": "Số Đỏ (1): Si Xuân na Pula ang Buhok",
+   "ne": "सो दो (१): रातो कपाल भएको सुआन",
+   "id": "Số Đỏ (1): Xuân si Rambut Merah",
+   "pt": "Số Đỏ (1): Xuân, o Ruivo",
+   "my": "ဆိုးဒေါ့ (၁) - ဆံပင်နီ ဆွမ်",
+   "th": "โส่ด๋อ (1): ซวนผมแดง"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 61,
+  "cover": "/covers/furusato-vn-sodo-1.webp",
+  "series": {
+   "id": "furusato-vn-sodo",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-sodo-1/chapter.mp3",
+   "durationSec": 432.024
+  }
  }
 ];
 
