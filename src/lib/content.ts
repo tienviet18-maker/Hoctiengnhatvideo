@@ -748,6 +748,8 @@ import s_worldAladdin2 from "../../content/stories/world-aladdin-2.json";
 import v2MysteryNisen1 from "../../content/stories/mystery-nisen-1.json";
 import v2MysteryNisen2 from "../../content/stories/mystery-nisen-2.json";
 import v2MysteryNisen3 from "../../content/stories/mystery-nisen-3.json";
+import s_worldAlibaba1 from "../../content/stories/world-alibaba-1.json";
+import s_worldAlibaba2 from "../../content/stories/world-alibaba-2.json";
 // --- hết kệ ma & trinh thám: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1501,6 +1503,8 @@ export const STORIES: StoryContent[] = [
   s_worldRapunzel as unknown as StoryContent,
   s_worldAladdin1 as unknown as StoryContent,
   s_worldAladdin2 as unknown as StoryContent,
+  s_worldAlibaba1 as unknown as StoryContent,
+  s_worldAlibaba2 as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
