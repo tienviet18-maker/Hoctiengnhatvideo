@@ -5074,7 +5074,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/ningyo-hime.webp"
+  "cover": "/covers/ningyo-hime.webp",
+  "hidden": true,
+  "replacedBy": "world-ningyo-1"
  },
  {
   "id": "farmers-market",
@@ -5326,7 +5328,9 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "source": "original",
   "free": true,
   "sentenceCount": 10,
-  "cover": "/covers/jack-and-the-beanstalk.webp"
+  "cover": "/covers/jack-and-the-beanstalk.webp",
+  "hidden": true,
+  "replacedBy": "world-jack"
  },
  {
   "id": "radio-taiso",
@@ -7391,7 +7395,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "free": false,
   "sentenceCount": 8,
   "hidden": true,
-  "replacedBy": "ningyo-hime"
+  "replacedBy": "world-ningyo-1"
  },
  {
   "id": "mai-chan-ep31-new-year-shrine",
@@ -12951,6 +12955,98 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/mystery-mujina-1/chapter.mp3",
    "durationSec": 240.55
+  }
+ },
+ {
+  "id": "world-ningyo-1",
+  "titles": {
+   "vi": "Nàng tiên cá (1): Đêm bão trên biển",
+   "en": "The Little Mermaid (1): The Storm at Sea",
+   "zh-Hans": "海的女儿（1）：海上的暴风雨",
+   "zh-Hant": "海的女兒（1）：海上的暴風雨",
+   "ko": "인어공주 (1): 바다의 폭풍",
+   "tl": "Ang Munting Sirena (1): Bagyo sa Dagat",
+   "ne": "सानी जलपरी (१): समुद्रको आँधी",
+   "id": "Putri Duyung (1): Badai di Laut",
+   "pt": "A Pequena Sereia (1): A Tempestade no Mar",
+   "my": "ရေသူမလေး (၁): ပင်လယ်ပေါ်က မုန်တိုင်း",
+   "th": "เงือกน้อย (1): พายุกลางทะเล"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 51,
+  "cover": "/covers/world-ningyo-1.webp",
+  "series": {
+   "id": "world-ningyo",
+   "index": 1
+  },
+  "shelf": "world",
+  "origin": "DK",
+  "audioTrack": {
+   "src": "/audio/world-ningyo-1/chapter.mp3",
+   "durationSec": 274.296
+  }
+ },
+ {
+  "id": "world-ningyo-2",
+  "titles": {
+   "vi": "Nàng tiên cá (2 – hết): Giọng hát đổi lấy đôi chân",
+   "en": "The Little Mermaid (2, final): A Voice for Legs",
+   "zh-Hans": "海的女儿（2·完）：用歌声换来的双腿",
+   "zh-Hant": "海的女兒（2·完）：用歌聲換來的雙腿",
+   "ko": "인어공주 (2·완): 목소리와 바꾼 다리",
+   "tl": "Ang Munting Sirena (2, wakas): Tinig Kapalit ng Paa",
+   "ne": "सानी जलपरी (२, अन्तिम): स्वरको बदलामा खुट्टा",
+   "id": "Putri Duyung (2, tamat): Suara Ditukar Kaki",
+   "pt": "A Pequena Sereia (2, final): A Voz pelas Pernas",
+   "my": "ရေသူမလေး (၂၊ ဇာတ်သိမ်း): အသံနဲ့ လဲတဲ့ ခြေထောက်",
+   "th": "เงือกน้อย (2 จบ): แลกเสียงกับขา"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 56,
+  "cover": "/covers/world-ningyo-2.webp",
+  "series": {
+   "id": "world-ningyo",
+   "index": 2
+  },
+  "shelf": "world",
+  "origin": "DK",
+  "audioTrack": {
+   "src": "/audio/world-ningyo-2/chapter.mp3",
+   "durationSec": 276.144
+  }
+ },
+ {
+  "id": "world-jack",
+  "titles": {
+   "vi": "Jack và cây đậu thần",
+   "en": "Jack and the Beanstalk",
+   "zh-Hans": "杰克与魔豆",
+   "zh-Hant": "傑克與魔豆",
+   "ko": "잭과 콩나무",
+   "tl": "Si Jack at ang Puno ng Bitsuwelas",
+   "ne": "ज्याक र जादुई सिमीको बोट",
+   "id": "Jack dan Pohon Kacang Ajaib",
+   "pt": "João e o Pé de Feijão",
+   "my": "ဂျက်နဲ့ ပဲပင်ကြီး",
+   "th": "แจ็คกับต้นถั่ววิเศษ"
+  },
+  "level": "N3",
+  "topic": "world-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 51,
+  "cover": "/covers/world-jack.webp",
+  "shelf": "world",
+  "origin": "GB",
+  "audioTrack": {
+   "src": "/audio/world-jack/chapter.mp3",
+   "durationSec": 268.152
   }
  },
  {
