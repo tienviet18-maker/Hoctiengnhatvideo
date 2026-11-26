@@ -12389,7 +12389,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Cinderella (1): Sepatu Kaca",
    "pt": "Cinderela (1): O Sapatinho de Cristal",
    "my": "စင်ဒရဲလား (၁): ဖန်ဖိနပ်",
-   "th": "ซินเดอเรลล่า (1): รองเท้าแก้ว"
+   "th": "ซินเดอเรลล่า (1): รองเท้าแก้ว",
+   "si": "සින්ඩරෙල්ලා (1): වීදුරු සෙරෙප්පුව"
   },
   "level": "N4",
   "topic": "world-tales",
@@ -12421,7 +12422,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Cinderella (2, tamat): Pas Sekali",
    "pt": "Cinderela (2, fim): O Sapatinho Perfeito",
    "my": "စင်ဒရဲလား (၂၊ ဇာတ်သိမ်း): အံကိုက်ဖိနပ်",
-   "th": "ซินเดอเรลล่า (2 จบ): รองเท้าที่พอดีเป๊ะ"
+   "th": "ซินเดอเรลล่า (2 จบ): รองเท้าที่พอดีเป๊ะ",
+   "si": "සින්ඩරෙල්ලා (2, අවසානය): හරියටම ගැළපුණා"
   },
   "level": "N4",
   "topic": "world-tales",
@@ -12453,7 +12455,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Putri Salju (1): Cermin Ajaib",
    "pt": "Branca de Neve (1): O Espelho Mágico",
    "my": "နှင်းဖြူ (၁): မှော်မှန်",
-   "th": "สโนว์ไวท์ (1): กระจกวิเศษ"
+   "th": "สโนว์ไวท์ (1): กระจกวิเศษ",
+   "si": "හිම සුදු කුමාරිය (1): මායා කැඩපත"
   },
   "level": "N4",
   "topic": "world-tales",
@@ -12485,7 +12488,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Putri Salju (2, tamat): Apel Beracun",
    "pt": "Branca de Neve (2, fim): A Maçã Envenenada",
    "my": "နှင်းဖြူ (၂၊ ဇာတ်သိမ်း): အဆိပ်ပန်းသီး",
-   "th": "สโนว์ไวท์ (2 จบ): แอปเปิลอาบยาพิษ"
+   "th": "สโนว์ไวท์ (2 จบ): แอปเปิลอาบยาพิษ",
+   "si": "හිම සුදු කුමාරිය (2, අවසානය): විෂ ඇපල් ගෙඩිය"
   },
   "level": "N4",
   "topic": "world-tales",

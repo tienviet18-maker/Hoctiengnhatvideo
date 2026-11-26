@@ -759,6 +759,12 @@ Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse
 - **Lỗi nguồn phát hiện (chưa sửa, vùng nội dung):** `furusato-vn-quynh-1` câu 37: ghi chú tiếng Anh ghi `〜はじめる = start to`, nhưng câu dùng 煮つづける. Bản si dịch đúng theo 〜つづける.
 - `npm run verify` xanh: 712 gói, 0 lỗi; sidecar si 24 gói, 0 lỗi; build OK.
 - **Còn lại:** khoảng 121 gói v2 khác, cộng 4 gói world- mới (world-cinderella-1/2, world-shirayuki-1/2), Mai-chan v2 tập 5–10 và kệ wisdom. Sau đó rà các ngôn ngữ khác còn thiếu trong các gói này.
+
+## Tiếng Sinhala đợt 2a: 4 truyện cổ thế giới + sidecar không chặn luồng khác — 27/11/2026 (nhánh `claude/si-stories-2`)
+
+- Dịch tiếng Sinhala 4 gói: world-cinderella-1, world-cinderella-2, world-shirayuki-1, world-shirayuki-2 (luồng kệ thế giới nhờ).
+- **Đổi cách kiểm sidecar:** dòng `#@src` (dấu vân tay cả gói) được thay bằng `#@h`, lưu băm tiếng Anh của **từng ô**. Trước đây, nếu một luồng khác sửa câu hay thêm câu vào gói đã dịch thì cổng `npm run verify` của luồng đó sẽ đỏ. Giờ ô nào đổi thì bản si cũ của ô đó bị bỏ, app tự hiện tiếng Anh, và QC chỉ **cảnh báo**, không chặn. `extract.mjs` in các ô đổi kèm bản cũ để dịch lại; dịch xong thì chạy `apply.mjs si <id> --rehash`. Đã thử: sửa 1 câu và thêm 1 câu thì ra cảnh báo 3 ô, cổng vẫn xanh.
+
 ## Văn học Nhật v2: ごんぎつね 2 tập (N4), thay gói cũ 13 câu — 27/11/2026
 
 - Nhánh `claude/bungaku-v2-batch1`. Nguồn mới ở `content/sources/bungaku/` (glossary riêng, chép từ Mai-chan + từ N4).
