@@ -1,0 +1,7056 @@
+{
+ "kind": "story",
+ "id": "mystery-nisen-1",
+ "titles": {
+  "vi": "Đồng hai xu (1): Tên trộm quý ông",
+  "en": "The Two-Sen Copper Coin (1): The Gentleman Thief",
+  "zh-Hans": "二钱铜币（一）：绅士大盗",
+  "zh-Hant": "二錢銅幣（一）：紳士大盜",
+  "ko": "2전 동전 (1): 신사 도둑",
+  "tl": "Ang Baryang Dalawang Sen (1): Ang Ginoong Magnanakaw",
+  "ne": "दुई सेनको सिक्का (१): भद्र चोर",
+  "id": "Koin Tembaga Dua Sen (1): Pencuri Budiman",
+  "pt": "A Moeda de Dois Sen (1): O Ladrão Cavalheiro",
+  "my": "နှစ်ဆင် ကြေးဒင်္ဂါး (၁): လူကြီးလူကောင်း သူခိုး",
+  "th": "เหรียญทองแดงสองเซ็น (1): จอมโจรสุภาพบุรุษ"
+ },
+ "level": "N2",
+ "topic": "classic-mystery",
+ "source": "aozora-adapted",
+ "cover": "/covers/mystery-nisen-1.webp",
+ "free": true,
+ "standard": 2,
+ "series": {
+  "id": "mystery-nisen",
+  "index": 1
+ },
+ "shelf": "mystery",
+ "audioTrack": {
+  "src": "/audio/mystery-nisen-1/chapter.mp3",
+  "durationSec": 370.25
+ },
+ "lesson": {
+  "grammarPoints": [
+   {
+    "pattern": "〜ほど",
+    "meaning": {
+     "vi": "Đến mức…, tới độ… (mô tả mức độ bằng một ví dụ cụ thể). Thể thường + ほど + mệnh đề. Gần nghĩa với 〜くらい nhưng trang trọng hơn. Đời sống: 「泣きたいほど忙しい」, 「歩けないほど疲れた」, 「こんな言葉が出るほど貧乏だった」.",
+     "en": "So … that…, to the point of… (shows degree through a concrete example). Plain form + ほど + clause. Close to 〜くらい but more formal. Daily life: 泣きたいほど忙しい, 歩けないほど疲れた.",
+     "zh-Hans": "到……的程度（用具体例子说明程度）。普通形＋ほど＋句子。与〜くらい相近但更正式。生活：「泣きたいほど忙しい」「歩けないほど疲れた」。",
+     "zh-Hant": "到……的程度（用具體例子說明程度）。普通形＋ほど＋句子。與〜くらい相近但更正式。生活：「泣きたいほど忙しい」「歩けないほど疲れた」。",
+     "ko": "…할 만큼, …할 정도로(구체적 예로 정도 표현). 보통형 + ほど. 〜くらい보다 격식적. 생활: 「泣きたいほど忙しい」「歩けないほど疲れた」.",
+     "tl": "Hanggang sa…, sa sobrang… (nagpapakita ng antas). Plain form + ほど. Halimbawa: 泣きたいほど忙しい, 歩けないほど疲れた.",
+     "ne": "… हुने गरी (मात्रा देखाउन)। साधारण रूप + ほど। उदाहरण: 泣きたいほど忙しい, 歩けないほど疲れた।",
+     "id": "Sampai…, saking… (menunjukkan tingkat). Bentuk biasa + ほど. Contoh: 泣きたいほど忙しい, 歩けないほど疲れた.",
+     "pt": "A ponto de…, tanto que… (mostra grau). Forma simples + ほど. Ex.: 泣きたいほど忙しい, 歩けないほど疲れた.",
+     "my": "… အထိ (အတိုင်းအတာ ပြ)။ ရိုးရိုးပုံ + ほど။ ဥပမာ: 泣きたいほど忙しい။",
+     "th": "ถึงขั้นที่… (บอกระดับด้วยตัวอย่าง) รูปธรรมดา + ほど ตัวอย่าง: 泣きたいほど忙しい, 歩けないほど疲れた"
+    },
+    "example": 1
+   },
+   {
+    "pattern": "〜ず（に）",
+    "meaning": {
+     "vi": "Không V mà… (= 〜ないで, văn viết/trang trọng). Động từ thể ない bỏ ない + ず. する → せず. Đời sống: 「朝ご飯を食べずに出かけた」, 「何も言わずに帰った」, 「犯人はつかまらず、一週間が過ぎた」.",
+     "en": "Without V-ing (= 〜ないで, written/formal). ない-stem + ず; する → せず. Daily life: 朝ご飯を食べずに出かけた, 何も言わずに帰った.",
+     "zh-Hans": "不V就……（＝〜ないで，书面语）。ない形去ない＋ず；する→せず。生活：「朝ご飯を食べずに出かけた」「何も言わずに帰った」。",
+     "zh-Hant": "不V就……（＝〜ないで，書面語）。ない形去ない＋ず；する→せず。生活：「朝ご飯を食べずに出かけた」「何も言わずに帰った」。",
+     "ko": "…하지 않고(= 〜ないで, 문어). ない형 + ず; する → せず. 생활: 「朝ご飯を食べずに出かけた」.",
+     "tl": "Nang hindi V (= 〜ないで, pormal). ない-stem + ず; する → せず. Halimbawa: 何も言わずに帰った.",
+     "ne": "V नगरी (= 〜ないで, लिखित)। ない मूल + ず; する → せず। उदाहरण: 何も言わずに帰った।",
+     "id": "Tanpa V (= 〜ないで, formal). ない-stem + ず; する → せず. Contoh: 何も言わずに帰った.",
+     "pt": "Sem V (= 〜ないで, formal). Radical ない + ず; する → せず. Ex.: 何も言わずに帰った.",
+     "my": "V မလုပ်ဘဲ (= 〜ないで)။ する → せず။ ဥပမာ: 何も言わずに帰った။",
+     "th": "โดยไม่ V (= 〜ないで ภาษาเขียน) する → せず ตัวอย่าง: 何も言わずに帰った"
+    },
+    "example": 29
+   },
+   {
+    "pattern": "いくら〜ても",
+    "meaning": {
+     "vi": "Dù… bao nhiêu/đến đâu cũng (kết quả không đổi). いくら + thể て + も. Đời sống: 「いくら食べても太らない」, 「いくら呼んでも返事がない」, 「いくら問いつめても、男は答えなかった」.",
+     "en": "No matter how much… (the result doesn't change). いくら + て-form + も. Daily life: いくら食べても太らない, いくら呼んでも返事がない.",
+     "zh-Hans": "无论怎么……也（结果不变）。いくら＋て形＋も。生活：「いくら食べても太らない」「いくら呼んでも返事がない」。",
+     "zh-Hant": "無論怎麼……也（結果不變）。いくら＋て形＋も。生活：「いくら食べても太らない」「いくら呼んでも返事がない」。",
+     "ko": "아무리 …해도(결과 불변). いくら + て형 + も. 생활: 「いくら食べても太らない」.",
+     "tl": "Gaano man…, hindi pa rin. いくら + て-form + も. Halimbawa: いくら食べても太らない.",
+     "ne": "जति … पनि (नतिजा उही)। いくら + て रूप + も। उदाहरण: いくら食べても太らない।",
+     "id": "Seberapa pun… tetap. いくら + bentuk て + も. Contoh: いくら食べても太らない.",
+     "pt": "Por mais que… (não muda). いくら + forma て + も. Ex.: いくら食べても太らない.",
+     "my": "မည်မျှ … စေကာမူ။ いくら + て ပုံ + も။ ဥပမာ: いくら食べても太らない။",
+     "th": "ไม่ว่าจะ…แค่ไหนก็ いくら + รูป て + も ตัวอย่าง: いくら食べても太らない"
+    },
+    "example": 46
+   }
+  ],
+  "quiz": [
+   {
+    "ja": "犯人は、何のふりをして工場に来ましたか。",
+    "choices": [
+     "銀行員",
+     "新聞記者",
+     "警察官"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Câu 10–11: gã tự xưng là phóng viên báo Asahi và đưa danh thiếp giả.",
+     "en": "Sentences 10–11: he claimed to be an Asahi reporter and showed a fake card.",
+     "zh-Hans": "第10–11句：他自称朝日新闻记者，拿出了假名片。",
+     "zh-Hant": "第10–11句：他自稱朝日新聞記者，拿出了假名片。",
+     "ko": "10–11번: 아사히 신문 기자라며 가짜 명함을 냈습니다.",
+     "tl": "Pangungusap 10–11: nagpanggap siyang reporter ng Asahi.",
+     "ne": "वाक्य १०–११: आसाहीको पत्रकार भनेर नक्कली कार्ड देखायो।",
+     "id": "Kalimat 10–11: ia mengaku wartawan Asahi.",
+     "pt": "Frases 10–11: fingiu ser repórter do Asahi.",
+     "my": "ဝါကျ ၁၀–၁၁: အာဆာဟီ သတင်းထောက်ဟု ဟန်ဆောင်သည်။",
+     "th": "ประโยค 10–11: เขาอ้างตัวเป็นนักข่าวอาซาฮี"
+    },
+    "jaFurigana": [
+     {
+      "surface": "犯人",
+      "reading": "はんにん"
+     },
+     {
+      "surface": "は、",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "のふりをして",
+      "reading": ""
+     },
+     {
+      "surface": "工場",
+      "reading": "こうじょう"
+     },
+     {
+      "surface": "に",
+      "reading": ""
+     },
+     {
+      "surface": "来",
+      "reading": "き"
+     },
+     {
+      "surface": "ましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "銀行",
+       "reading": "ぎんこう"
+      },
+      {
+       "surface": "員",
+       "reading": "いん"
+      }
+     ],
+     [
+      {
+       "surface": "新聞",
+       "reading": "しんぶん"
+      },
+      {
+       "surface": "記者",
+       "reading": "きしゃ"
+      }
+     ],
+     [
+      {
+       "surface": "警察",
+       "reading": "けいさつ"
+      },
+      {
+       "surface": "官",
+       "reading": "かん"
+      }
+     ]
+    ]
+   },
+   {
+    "ja": "お金が盗まれたのは、なぜですか。",
+    "choices": [
+     "金庫が古かったから",
+     "昼休みに部屋にだれもいなかったから",
+     "支配人が犯人の仲間だったから"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Câu 21–22: ai cũng tưởng người khác ở lại, nên căn phòng không khóa bị bỏ trống nửa tiếng.",
+     "en": "Sentences 21–22: each thought someone else would stay, so the unlocked room was empty for half an hour.",
+     "zh-Hans": "第21–22句：每个人都以为别人会留下，没上锁的房间空了半个小时。",
+     "zh-Hant": "第21–22句：每個人都以為別人會留下，沒上鎖的房間空了半個小時。",
+     "ko": "21–22번: 다들 누군가 남을 줄 알아 잠기지 않은 방이 30분 비었습니다.",
+     "tl": "Pangungusap 21–22: walang naiwan sa silid nang kalahating oras.",
+     "ne": "वाक्य २१–२२: ताल्चा नलागेको कोठा आधा घण्टा खाली रह्यो।",
+     "id": "Kalimat 21–22: ruangan tak terkunci kosong setengah jam.",
+     "pt": "Frases 21–22: a sala destrancada ficou vazia meia hora.",
+     "my": "ဝါကျ ၂၁–၂၂: သော့မခတ်ထားသော အခန်း နာရီဝက် လွတ်နေသည်။",
+     "th": "ประโยค 21–22: ห้องที่ไม่ล็อกว่างอยู่ครึ่งชั่วโมง"
+    },
+    "jaFurigana": [
+     {
+      "surface": "お",
+      "reading": ""
+     },
+     {
+      "surface": "金",
+      "reading": "かね"
+     },
+     {
+      "surface": "が",
+      "reading": ""
+     },
+     {
+      "surface": "盗",
+      "reading": "ぬす"
+     },
+     {
+      "surface": "まれたのは、なぜですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "金庫",
+       "reading": "きんこ"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "古",
+       "reading": "ふる"
+      },
+      {
+       "surface": "かったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "昼休",
+       "reading": "ひるやす"
+      },
+      {
+       "surface": "みに",
+       "reading": ""
+      },
+      {
+       "surface": "部屋",
+       "reading": "へや"
+      },
+      {
+       "surface": "にだれもいなかったから",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "支配人",
+       "reading": "しはいにん"
+      },
+      {
+       "surface": "が",
+       "reading": ""
+      },
+      {
+       "surface": "犯人",
+       "reading": "はんにん"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "仲間",
+       "reading": "なかま"
+      },
+      {
+       "surface": "だったから",
+       "reading": ""
+      }
+     ]
+    ]
+   },
+   {
+    "ja": "刑事は、何を手がかりにして犯人を見つけましたか。",
+    "choices": [
+     "めがね",
+     "煙草の吸い殻",
+     "名刺"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Câu 32–37: mẩu thuốc lá Ai Cập hiệu \"Figaro\" — hiếm người bán, hiếm người mua.",
+     "en": "Sentences 32–37: a rare Egyptian \"Figaro\" cigarette butt.",
+     "zh-Hans": "第32–37句：罕见的埃及\"费加罗\"烟头。",
+     "zh-Hant": "第32–37句：罕見的埃及\"費加羅\"菸頭。",
+     "ko": "32–37번: 보기 드문 이집트 담배 '피가로' 꽁초.",
+     "tl": "Pangungusap 32–37: upos ng bihirang sigarilyong \"Figaro\".",
+     "ne": "वाक्य ३२–३७: दुर्लभ \"फिगारो\" चुरोटको ठुटो।",
+     "id": "Kalimat 32–37: puntung rokok Mesir langka \"Figaro\".",
+     "pt": "Frases 32–37: a bituca do raro cigarro \"Figaro\".",
+     "my": "ဝါကျ ၃၂–၃၇: ရှားပါးသော \"ဖီဂါရို\" ဆေးလိပ်တို။",
+     "th": "ประโยค 32–37: ก้นบุหรี่อียิปต์หายาก \"ฟิกาโร\""
+    },
+    "jaFurigana": [
+     {
+      "surface": "刑事",
+      "reading": "けいじ"
+     },
+     {
+      "surface": "は、",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "手",
+      "reading": "て"
+     },
+     {
+      "surface": "がかりにして",
+      "reading": ""
+     },
+     {
+      "surface": "犯人",
+      "reading": "はんにん"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "見",
+      "reading": "み"
+     },
+     {
+      "surface": "つけましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "めがね",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "煙草",
+       "reading": "たばこ"
+      },
+      {
+       "surface": "の",
+       "reading": ""
+      },
+      {
+       "surface": "吸",
+       "reading": "す"
+      },
+      {
+       "surface": "い",
+       "reading": ""
+      },
+      {
+       "surface": "殻",
+       "reading": "がら"
+      }
+     ],
+     [
+      {
+       "surface": "名刺",
+       "reading": "めいし"
+      }
+     ]
+    ]
+   },
+   {
+    "ja": "工場の支配人は、お金を見つけた人に、いくら出すと言いましたか。",
+    "choices": [
+     "五百円",
+     "五千円",
+     "五万円"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Câu 50–51: một phần mười của năm vạn yên — năm nghìn yên.",
+     "en": "Sentences 50–51: one tenth of ¥50,000 — ¥5,000.",
+     "zh-Hans": "第50–51句：五万元的一成——五千元。",
+     "zh-Hant": "第50–51句：五萬元的一成——五千元。",
+     "ko": "50–51번: 5만 엔의 1할 — 5천 엔.",
+     "tl": "Pangungusap 50–51: ¥5,000.",
+     "ne": "वाक्य ५०–५१: पाँच हजार येन।",
+     "id": "Kalimat 50–51: ¥5.000.",
+     "pt": "Frases 50–51: ¥5.000.",
+     "my": "ဝါကျ ၅၀–၅၁: ယန်း ငါးထောင်။",
+     "th": "ประโยค 50–51: ห้าพันเยน"
+    },
+    "jaFurigana": [
+     {
+      "surface": "工場",
+      "reading": "こうじょう"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "支配人",
+      "reading": "しはいにん"
+     },
+     {
+      "surface": "は、お",
+      "reading": ""
+     },
+     {
+      "surface": "金",
+      "reading": "かね"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "見",
+      "reading": "み"
+     },
+     {
+      "surface": "つけた",
+      "reading": ""
+     },
+     {
+      "surface": "人",
+      "reading": "ひと"
+     },
+     {
+      "surface": "に、いくら",
+      "reading": ""
+     },
+     {
+      "surface": "出",
+      "reading": "だ"
+     },
+     {
+      "surface": "すと",
+      "reading": ""
+     },
+     {
+      "surface": "言",
+      "reading": "い"
+     },
+     {
+      "surface": "いましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "五",
+       "reading": "ご"
+      },
+      {
+       "surface": "百",
+       "reading": "ひゃく"
+      },
+      {
+       "surface": "円",
+       "reading": "えん"
+      }
+     ],
+     [
+      {
+       "surface": "五千円",
+       "reading": "ごせんえん"
+      }
+     ],
+     [
+      {
+       "surface": "五万円",
+       "reading": "ごまんえん"
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ "sentences": [
+  {
+   "ja": "「あの泥棒がうらやましいなあ。」",
+   "furigana": [
+    {
+     "surface": "「あの",
+     "reading": ""
+    },
+    {
+     "surface": "泥棒",
+     "reading": "どろぼう"
+    },
+    {
+     "surface": "がうらやましいなあ。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Ano dorobou ga urayamashii naa.”",
+   "translations": {
+    "vi": "\"Ghen tị với tên trộm ấy thật.\"",
+    "en": "\"I envy that thief.\"",
+    "zh-Hans": "\"真羡慕那个小偷啊。\"",
+    "zh-Hant": "\"真羨慕那個小偷啊。\"",
+    "ko": "\"그 도둑이 부럽군.\"",
+    "tl": "\"Naiinggit ako sa magnanakaw na iyon.\"",
+    "ne": "\"त्यो चोरलाई देखेर डाह लाग्छ।\"",
+    "id": "\"Iri sekali aku pada pencuri itu.\"",
+    "pt": "\"Que inveja daquele ladrão.\"",
+    "my": "\"အဲဒီ သူခိုးကို အားကျလိုက်တာ။\"",
+    "th": "\"อิจฉาโจรคนนั้นจัง\""
+   },
+   "grammarNote": {
+    "vi": "Câu mở đầu nổi tiếng của Ranpo. 「うらやましい」 = ghen tị, thèm muốn. 「〜なあ」 = cảm thán, tự nói một mình.",
+    "en": "Ranpo's famous opening line. うらやましい = \"envious\". 〜なあ = an exclamation, talking to oneself.",
+    "zh-Hans": "乱步著名的开头。「うらやましい」＝羡慕。「〜なあ」＝感叹，自言自语。",
+    "zh-Hant": "亂步著名的開頭。「うらやましい」＝羨慕。「〜なあ」＝感嘆，自言自語。",
+    "ko": "란포의 유명한 첫 문장. 「うらやましい」= 부럽다. 「〜なあ」= 감탄.",
+    "tl": "Kilalang unang linya ni Ranpo. うらやましい = \"nakakainggit\".",
+    "ne": "रान्पोको प्रसिद्ध सुरुवाती वाक्य। 「うらやましい」= डाह लाग्ने।",
+    "id": "Kalimat pembuka terkenal Ranpo. うらやましい = \"iri\".",
+    "pt": "Famosa frase inicial de Ranpo. うらやましい = \"invejável\".",
+    "my": "ရန်ပို၏ နာမည်ကြီး အဖွင့်စာ။ 「うらやましい」= အားကျ။",
+    "th": "ประโยคเปิดอันโด่งดังของรัมโป 「うらやましい」= อิจฉา"
+   },
+   "vocab": [
+    {
+     "word": "泥棒",
+     "reading": "どろぼう",
+     "meanings": {
+      "vi": "kẻ trộm",
+      "en": "thief",
+      "zh-Hans": "小偷",
+      "zh-Hant": "小偷",
+      "ko": "도둑",
+      "tl": "magnanakaw",
+      "ne": "चोर",
+      "id": "pencuri",
+      "pt": "ladrão",
+      "my": "သူခိုး",
+      "th": "โจร"
+     },
+     "level": "N4"
+    },
+    {
+     "word": "うらやましい",
+     "reading": "うらやましい",
+     "meanings": {
+      "vi": "ghen tị, thèm",
+      "en": "envious",
+      "zh-Hans": "羡慕",
+      "zh-Hant": "羨慕",
+      "ko": "부럽다",
+      "tl": "nakakainggit",
+      "ne": "डाह लाग्ने",
+      "id": "iri",
+      "pt": "invejoso",
+      "my": "အားကျ",
+      "th": "อิจฉา"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=0.3,2.69",
+   "t": [
+    0.3,
+    2.69
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "二人の間でこんな言葉が出るほど、そのころのわたしたちは貧乏で、生活に困っていた。",
+   "furigana": [
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "間",
+     "reading": "あいだ"
+    },
+    {
+     "surface": "でこんな",
+     "reading": ""
+    },
+    {
+     "surface": "言葉",
+     "reading": "ことば"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "で"
+    },
+    {
+     "surface": "るほど、そのころのわたしたちは",
+     "reading": ""
+    },
+    {
+     "surface": "貧乏",
+     "reading": "びんぼう"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "生活",
+     "reading": "せいかつ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "困",
+     "reading": "こま"
+    },
+    {
+     "surface": "っていた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Futari no aida de konna kotoba ga deru hodo, sono koro no watashitachi wa binboude, seikatsu ni komatte ita.",
+   "translations": {
+    "vi": "Chúng tôi nghèo đến mức hai đứa buột miệng nói những câu như thế, cuộc sống thật chật vật.",
+    "en": "We were so poor in those days that words like these passed between us; life was a struggle.",
+    "zh-Hans": "那时我们穷到两人之间会说出这种话，生活十分困苦。",
+    "zh-Hant": "那時我們窮到兩人之間會說出這種話，生活十分困苦。",
+    "ko": "두 사람 사이에서 이런 말이 나올 만큼 그 무렵의 우리는 가난했고 생활이 힘들었다.",
+    "tl": "Ganoon kami kahirap noon na nasasabi namin ang ganitong bagay; hirap kami sa buhay.",
+    "ne": "हामी दुईबीच यस्ता कुरा निस्किने गरी त्यतिबेला हामी गरिब थियौं, जीवन कठिन थियो।",
+    "id": "Kami begitu miskin sampai kata-kata seperti itu keluar di antara kami; hidup sangat sulit.",
+    "pt": "Éramos tão pobres que essas palavras saíam entre nós; a vida era dura.",
+    "my": "ကျွန်ုပ်တို့ နှစ်ယောက်ကြား ဤစကားမျိုး ထွက်လာသည်အထိ ထိုစဉ်က ဆင်းရဲပြီး ဘဝ ခက်ခဲသည်။",
+    "th": "สมัยนั้นเราจนถึงขั้นที่พูดกันแบบนี้ ชีวิตลำบากมาก"
+   },
+   "grammarNote": {
+    "vi": "「〜ほど」 = đến mức…. 「貧乏」 = nghèo (văn nói). 「生活に困る」 = khó khăn về sinh hoạt.",
+    "en": "〜ほど = \"to the extent that…\". 貧乏 = \"poor\" (everyday word). 生活に困る = \"struggle to get by\".",
+    "zh-Hans": "「〜ほど」＝到……的程度。「貧乏」＝穷。「生活に困る」＝生活困难。",
+    "zh-Hant": "「〜ほど」＝到……的程度。「貧乏」＝窮。「生活に困る」＝生活困難。",
+    "ko": "「〜ほど」= …할 만큼. 「貧乏」= 가난. 「生活に困る」= 생활이 어렵다.",
+    "tl": "〜ほど = \"hanggang sa…\". 貧乏 = \"mahirap\".",
+    "ne": "「〜ほど」= … हुने गरी। 「貧乏」= गरिब।",
+    "id": "〜ほど = \"sampai…\". 貧乏 = \"miskin\".",
+    "pt": "〜ほど = \"a ponto de…\". 貧乏 = \"pobre\".",
+    "my": "「〜ほど」= … အထိ။ 「貧乏」= ဆင်းရဲ။",
+    "th": "「〜ほど」= ถึงขั้น… 「貧乏」= ยากจน"
+   },
+   "vocab": [
+    {
+     "word": "貧乏",
+     "reading": "びんぼう",
+     "meanings": {
+      "vi": "nghèo",
+      "en": "poor",
+      "zh-Hans": "贫穷",
+      "zh-Hant": "貧窮",
+      "ko": "가난",
+      "tl": "mahirap",
+      "ne": "गरिब",
+      "id": "miskin",
+      "pt": "pobre",
+      "my": "ဆင်းရဲ",
+      "th": "ยากจน"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "生活",
+     "reading": "せいかつ",
+     "meanings": {
+      "vi": "cuộc sống, sinh hoạt",
+      "en": "life, living",
+      "zh-Hans": "生活",
+      "zh-Hant": "生活",
+      "ko": "생활",
+      "tl": "pamumuhay",
+      "ne": "जीवन",
+      "id": "kehidupan",
+      "pt": "vida",
+      "my": "ဘဝ",
+      "th": "ชีวิตความเป็นอยู่"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=3.59,10.78",
+   "t": [
+    3.59,
+    10.78
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "町はずれの古い下駄屋の二階、たった一間の六畳に、わたしと友人の松村武は住んでいた。",
+   "furigana": [
+    {
+     "surface": "町",
+     "reading": "まち"
+    },
+    {
+     "surface": "はずれの",
+     "reading": ""
+    },
+    {
+     "surface": "古",
+     "reading": "ふる"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "下駄屋",
+     "reading": "げたや"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "二階",
+     "reading": "にかい"
+    },
+    {
+     "surface": "、たった",
+     "reading": ""
+    },
+    {
+     "surface": "一間",
+     "reading": "ひとま"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "六畳",
+     "reading": "ろくじょう"
+    },
+    {
+     "surface": "に、わたしと",
+     "reading": ""
+    },
+    {
+     "surface": "友人",
+     "reading": "ゆうじん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "松村武",
+     "reading": "まつむらたけし"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "住",
+     "reading": "す"
+    },
+    {
+     "surface": "んでいた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Machihazure no furui getaya no nikai, tatta hitoma no rokujou ni, watashi to yuujin no matsumuratakeshi wa sunde ita.",
+   "translations": {
+    "vi": "Tôi và người bạn Matsumura Takeshi sống trong căn phòng sáu chiếu duy nhất trên tầng hai một tiệm guốc gỗ cũ ở ven thành phố.",
+    "en": "My friend Matsumura Takeshi and I lived in a single six-mat room above an old clog shop on the edge of town.",
+    "zh-Hans": "我和朋友松村武住在城郊一家旧木屐店二楼仅有的一间六叠房里。",
+    "zh-Hant": "我和朋友松村武住在城郊一家舊木屐店二樓僅有的一間六疊房裡。",
+    "ko": "나와 친구 마쓰무라 다케시는 변두리 낡은 게다 가게 2층, 단 한 칸뿐인 다다미 여섯 장 방에 살고 있었다.",
+    "tl": "Kami ng kaibigan kong si Matsumura Takeshi ay nakatira sa iisang kuwartong may anim na tatami sa ikalawang palapag ng lumang tindahan ng bakya sa labas ng bayan.",
+    "ne": "म र साथी मात्सुमुरा ताकेशी सहरको छेउको पुरानो काठे जुत्ता पसलको दोस्रो तलामा एउटै छ-तातामी कोठामा बस्थ्यौं।",
+    "id": "Aku dan temanku Matsumura Takeshi tinggal di satu-satunya kamar enam tatami di lantai dua toko bakiak tua di pinggir kota.",
+    "pt": "Eu e meu amigo Matsumura Takeshi morávamos num único quarto de seis tatames sobre uma velha loja de tamancos, no subúrbio.",
+    "my": "ကျွန်ုပ်နှင့် မိတ်ဆွေ မတ်ဆုမူရ တာကေရှီသည် မြို့စွန် ဖိနပ်ဟောင်းဆိုင် တစ်ဆိုင်၏ ဒုတိယထပ်ရှိ တာတာမီ ခြောက်ချပ် အခန်းတစ်ခန်းတည်းတွင် နေကြသည်။",
+    "th": "ผมกับเพื่อน มัตสึมุระ ทาเคชิ อาศัยอยู่ในห้องหกเสื่อห้องเดียวบนชั้นสองของร้านเกี๊ยะเก่าชานเมือง"
+   },
+   "grammarNote": {
+    "vi": "「町はずれ」 = ven thành phố. 「下駄屋」 = tiệm guốc gỗ (geta). 「六畳」 = phòng 6 chiếu tatami (~10 m²).",
+    "en": "町はずれ = \"edge of town\". 下駄屋 = \"geta (clog) shop\". 六畳 = a six-tatami room (~10 m²).",
+    "zh-Hans": "「町はずれ」＝城郊。「下駄屋」＝木屐店。「六畳」＝六张榻榻米的房间（约10平方米）。",
+    "zh-Hant": "「町はずれ」＝城郊。「下駄屋」＝木屐店。「六畳」＝六張榻榻米的房間（約10平方米）。",
+    "ko": "「町はずれ」= 변두리. 「下駄屋」= 게다 가게. 「六畳」= 다다미 6장 방.",
+    "tl": "町はずれ = \"labas ng bayan\". 下駄屋 = tindahan ng bakya. 六畳 = anim na tatami (~10 m²).",
+    "ne": "「町はずれ」= सहरको छेउ। 「下駄屋」= काठे जुत्ता पसल। 「六畳」= छ तातामी (~१० वर्ग मि.)।",
+    "id": "町はずれ = \"pinggir kota\". 下駄屋 = toko bakiak. 六畳 = enam tatami (~10 m²).",
+    "pt": "町はずれ = \"subúrbio\". 下駄屋 = loja de tamancos. 六畳 = seis tatames (~10 m²).",
+    "my": "「町はずれ」= မြို့စွန်။ 「六畳」= တာတာမီ ၆ ချပ် (~၁၀ စတုရန်းမီတာ)။",
+    "th": "「町はずれ」= ชานเมือง 「下駄屋」= ร้านเกี๊ยะ 「六畳」= ห้องหกเสื่อ (~10 ตร.ม.)"
+   },
+   "vocab": [
+    {
+     "word": "町はずれ",
+     "reading": "まちはずれ",
+     "meanings": {
+      "vi": "ven thành phố",
+      "en": "edge of town",
+      "zh-Hans": "城郊",
+      "zh-Hant": "城郊",
+      "ko": "변두리",
+      "tl": "labas ng bayan",
+      "ne": "सहरको छेउ",
+      "id": "pinggir kota",
+      "pt": "subúrbio",
+      "my": "မြို့စွန်",
+      "th": "ชานเมือง"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "友人",
+     "reading": "ゆうじん",
+     "meanings": {
+      "vi": "bạn",
+      "en": "friend",
+      "zh-Hans": "朋友",
+      "zh-Hant": "朋友",
+      "ko": "친구",
+      "tl": "kaibigan",
+      "ne": "साथी",
+      "id": "teman",
+      "pt": "amigo",
+      "my": "မိတ်ဆွေ",
+      "th": "เพื่อน"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=11.38,19.12",
+   "t": [
+    11.38,
+    19.12
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "仕事もお金もなく、将来の見通しも立たないまま、わたしたちは毎日、おかしな空想ばかりして、ごろごろしていたのである。",
+   "furigana": [
+    {
+     "surface": "仕事",
+     "reading": "しごと"
+    },
+    {
+     "surface": "もお",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "かね"
+    },
+    {
+     "surface": "もなく、",
+     "reading": ""
+    },
+    {
+     "surface": "将来",
+     "reading": "しょうらい"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "見通",
+     "reading": "みとお"
+    },
+    {
+     "surface": "しも",
+     "reading": ""
+    },
+    {
+     "surface": "立",
+     "reading": "た"
+    },
+    {
+     "surface": "たないまま、わたしたちは",
+     "reading": ""
+    },
+    {
+     "surface": "毎日",
+     "reading": "まいにち"
+    },
+    {
+     "surface": "、おかしな",
+     "reading": ""
+    },
+    {
+     "surface": "空想",
+     "reading": "くうそう"
+    },
+    {
+     "surface": "ばかりして、ごろごろしていたのである。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shigoto mo okane mo naku, shourai no mitooshi mo tatanai mama, watashitachi wa mainichi, okashina kuusou bakari shite, gorogoro shite ita nodearu.",
+   "translations": {
+    "vi": "Không việc làm, không tiền, chẳng thấy tương lai đâu, ngày nào chúng tôi cũng chỉ mơ mộng viển vông rồi nằm dài.",
+    "en": "With no work, no money and no prospects, we spent every day lazing about, lost in strange fantasies.",
+    "zh-Hans": "没有工作也没有钱，前途一片渺茫，我们每天只是空想，无所事事。",
+    "zh-Hant": "沒有工作也沒有錢，前途一片渺茫，我們每天只是空想，無所事事。",
+    "ko": "일도 돈도 없고 앞날도 보이지 않는 채, 우리는 매일 이상한 공상만 하며 빈둥거렸다.",
+    "tl": "Walang trabaho, walang pera, walang kinabukasan, araw-araw kaming nangangarap nang gising at nakahiga lang.",
+    "ne": "काम छैन, पैसा छैन, भविष्य देखिँदैन, हामी दिनहुँ अनौठा कल्पना गर्दै अल्छी गरेर बस्थ्यौं।",
+    "id": "Tanpa kerja, tanpa uang, tanpa harapan, setiap hari kami hanya berkhayal dan bermalas-malasan.",
+    "pt": "Sem trabalho, sem dinheiro e sem perspectiva, passávamos os dias deitados, perdidos em fantasias.",
+    "my": "အလုပ်မရှိ၊ ငွေမရှိ၊ အနာဂတ် မမြင်ရဘဲ ကျွန်ုပ်တို့ နေ့တိုင်း ထူးဆန်းသော စိတ်ကူးယဉ်ပြီး အချိန်ဖြုန်းနေကြသည်။",
+    "th": "ไม่มีงาน ไม่มีเงิน มองไม่เห็นอนาคต ทุกวันเราได้แต่ฝันเฟื่องและนอนเล่นไปวัน ๆ"
+   },
+   "grammarNote": {
+    "vi": "「見通しが立たない」 = không thấy triển vọng. 「空想」 = mơ mộng. 「ごろごろ」 = nằm dài, lười biếng (từ tượng hình).",
+    "en": "見通しが立たない = \"no prospects in sight\". 空想 = \"daydream\". ごろごろ = \"lazing around\" (mimetic).",
+    "zh-Hans": "「見通しが立たない」＝看不到前景。「空想」＝空想。「ごろごろ」＝无所事事地躺着。",
+    "zh-Hant": "「見通しが立たない」＝看不到前景。「空想」＝空想。「ごろごろ」＝無所事事地躺著。",
+    "ko": "「見通しが立たない」= 전망이 서지 않다. 「空想」= 공상. 「ごろごろ」= 빈둥빈둥.",
+    "tl": "見通しが立たない = \"walang inaasahan\". 空想 = \"pangarap\". ごろごろ = \"nakahiga lang\".",
+    "ne": "「見通しが立たない」= भविष्य नदेखिनु। 「空想」= कल्पना। 「ごろごろ」= अल्छी गर्नु।",
+    "id": "見通しが立たない = \"tak ada harapan\". 空想 = \"khayalan\". ごろごろ = \"bermalas-malasan\".",
+    "pt": "見通しが立たない = \"sem perspectiva\". 空想 = \"fantasia\". ごろごろ = \"à toa\".",
+    "my": "「空想」= စိတ်ကူးယဉ်။ 「ごろごろ」= အချိန်ဖြုန်း။",
+    "th": "「見通しが立たない」= มองไม่เห็นอนาคต 「空想」= ฝันเฟื่อง 「ごろごろ」= นอนเล่น"
+   },
+   "vocab": [
+    {
+     "word": "将来",
+     "reading": "しょうらい",
+     "meanings": {
+      "vi": "tương lai",
+      "en": "future",
+      "zh-Hans": "将来",
+      "zh-Hant": "將來",
+      "ko": "장래",
+      "tl": "kinabukasan",
+      "ne": "भविष्य",
+      "id": "masa depan",
+      "pt": "futuro",
+      "my": "အနာဂတ်",
+      "th": "อนาคต"
+     },
+     "level": "N4"
+    },
+    {
+     "word": "見通し",
+     "reading": "みとおし",
+     "meanings": {
+      "vi": "triển vọng",
+      "en": "outlook, prospect",
+      "zh-Hans": "前景",
+      "zh-Hant": "前景",
+      "ko": "전망",
+      "tl": "inaasahan",
+      "ne": "सम्भावना",
+      "id": "prospek",
+      "pt": "perspectiva",
+      "my": "အလားအလာ",
+      "th": "แนวโน้ม"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "空想",
+     "reading": "くうそう",
+     "meanings": {
+      "vi": "mơ mộng, tưởng tượng",
+      "en": "fantasy, daydream",
+      "zh-Hans": "空想",
+      "zh-Hant": "空想",
+      "ko": "공상",
+      "tl": "pangarap",
+      "ne": "कल्पना",
+      "id": "khayalan",
+      "pt": "fantasia",
+      "my": "စိတ်ကူးယဉ်",
+      "th": "จินตนาการ"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=19.72,29.37",
+   "t": [
+    19.72,
+    29.37
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "そんな二人がうらやんでいたのは、当時世間をさわがせていた、ある大泥棒のことだった。",
+   "furigana": [
+    {
+     "surface": "そんな",
+     "reading": ""
+    },
+    {
+     "surface": "二人",
+     "reading": "ふたり"
+    },
+    {
+     "surface": "がうらやんでいたのは、",
+     "reading": ""
+    },
+    {
+     "surface": "当時",
+     "reading": "とうじ"
+    },
+    {
+     "surface": "世間",
+     "reading": "せけん"
+    },
+    {
+     "surface": "をさわがせていた、ある",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "だい"
+    },
+    {
+     "surface": "泥棒",
+     "reading": "どろぼう"
+    },
+    {
+     "surface": "のことだった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sonna futari ga urayande ita no wa, touji seken o sawagasete ita, aru dai dorobou no koto datta.",
+   "translations": {
+    "vi": "Điều hai đứa ghen tị chính là một tên đại đạo tặc đang làm xôn xao dư luận thời ấy.",
+    "en": "What the two of us envied was a great thief who was causing a stir at the time.",
+    "zh-Hans": "我们两人羡慕的，是当时轰动社会的一个大盗。",
+    "zh-Hant": "我們兩人羨慕的，是當時轟動社會的一個大盜。",
+    "ko": "그런 두 사람이 부러워한 것은 당시 세상을 떠들썩하게 한 어느 큰 도둑이었다.",
+    "tl": "Ang kinaiinggitan naming dalawa ay isang malaking magnanakaw na pinag-uusapan noon.",
+    "ne": "हामी दुईले डाह गरेको चाहिँ त्यतिबेला समाजमा हल्ला मच्चाएको एक ठूलो चोर थियो।",
+    "id": "Yang kami berdua irikan adalah seorang pencuri besar yang menghebohkan masyarakat waktu itu.",
+    "pt": "O que invejávamos era um grande ladrão que agitava a cidade naquela época.",
+    "my": "ကျွန်ုပ်တို့ အားကျသူမှာ ထိုစဉ်က လူအများ ဆူညံစေခဲ့သော သူခိုးကြီး တစ်ဦး ဖြစ်သည်။",
+    "th": "สิ่งที่เราสองคนอิจฉาคือ จอมโจรที่ทำให้สังคมวุ่นวายในตอนนั้น"
+   },
+   "grammarNote": {
+    "vi": "「当時」 = thời ấy. 「世間」 = xã hội, thiên hạ. 「さわがせる」 = làm xôn xao (thể sai khiến của さわぐ).",
+    "en": "当時 = \"at that time\". 世間 = \"the public, society\". さわがせる = \"cause a stir\" (causative of さわぐ).",
+    "zh-Hans": "「当時」＝当时。「世間」＝社会。「さわがせる」＝使轰动（さわぐ的使役）。",
+    "zh-Hant": "「當時」＝當時。「世間」＝社會。「さわがせる」＝使轟動（さわぐ的使役）。",
+    "ko": "「当時」= 당시. 「世間」= 세상. 「さわがせる」= 떠들썩하게 하다.",
+    "tl": "当時 = \"noon\". 世間 = \"lipunan\". さわがせる = \"magpagulo\".",
+    "ne": "「当時」= त्यतिबेला। 「世間」= समाज। 「さわがせる」= हल्ला मच्चाउनु।",
+    "id": "当時 = \"waktu itu\". 世間 = \"masyarakat\". さわがせる = \"menghebohkan\".",
+    "pt": "当時 = \"na época\". 世間 = \"a sociedade\". さわがせる = \"agitar\".",
+    "my": "「当時」= ထိုစဉ်က။ 「世間」= လူအများ။",
+    "th": "「当時」= ตอนนั้น 「世間」= สังคม 「さわがせる」= ทำให้วุ่นวาย"
+   },
+   "vocab": [
+    {
+     "word": "当時",
+     "reading": "とうじ",
+     "meanings": {
+      "vi": "thời ấy",
+      "en": "at that time",
+      "zh-Hans": "当时",
+      "zh-Hant": "當時",
+      "ko": "당시",
+      "tl": "noon",
+      "ne": "त्यतिबेला",
+      "id": "waktu itu",
+      "pt": "na época",
+      "my": "ထိုစဉ်က",
+      "th": "ในตอนนั้น"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "世間",
+     "reading": "せけん",
+     "meanings": {
+      "vi": "xã hội, thiên hạ",
+      "en": "the world, society",
+      "zh-Hans": "社会",
+      "zh-Hant": "社會",
+      "ko": "세상",
+      "tl": "lipunan",
+      "ne": "समाज",
+      "id": "masyarakat",
+      "pt": "sociedade",
+      "my": "လူအများ",
+      "th": "สังคม"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=29.97,36.92",
+   "t": [
+    29.97,
+    36.92
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "その事件が、この話に大きく関係しているので、先に簡単に説明しておこう。",
+   "furigana": [
+    {
+     "surface": "その",
+     "reading": ""
+    },
+    {
+     "surface": "事件",
+     "reading": "じけん"
+    },
+    {
+     "surface": "が、この",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "きく",
+     "reading": ""
+    },
+    {
+     "surface": "関係",
+     "reading": "かんけい"
+    },
+    {
+     "surface": "しているので、",
+     "reading": ""
+    },
+    {
+     "surface": "先",
+     "reading": "さき"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "簡単",
+     "reading": "かんたん"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "説明",
+     "reading": "せつめい"
+    },
+    {
+     "surface": "しておこう。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono jiken ga, kono hanashi ni ookiku kankei shite iru node, saki ni kantan ni setsumei shite okou.",
+   "translations": {
+    "vi": "Vụ án ấy liên quan mật thiết đến câu chuyện này, nên xin kể vắn tắt trước.",
+    "en": "That case is closely tied to this story, so let me explain it briefly first.",
+    "zh-Hans": "那起案件与这个故事关系很大，所以先简单说明一下。",
+    "zh-Hant": "那起案件與這個故事關係很大，所以先簡單說明一下。",
+    "ko": "그 사건이 이 이야기와 크게 관계가 있으니, 먼저 간단히 설명해 두자.",
+    "tl": "Malaki ang kaugnayan ng kasong iyon sa kuwentong ito, kaya ipapaliwanag ko muna nang maikli.",
+    "ne": "त्यो घटना यो कथासँग धेरै जोडिएकाले पहिले छोटकरीमा बताउँछु।",
+    "id": "Kasus itu sangat berkaitan dengan cerita ini, jadi akan kujelaskan singkat dulu.",
+    "pt": "Esse caso tem muito a ver com esta história, então explico-o brevemente.",
+    "my": "ထိုအမှုသည် ဤဇာတ်လမ်းနှင့် အလွန် ဆက်စပ်သဖြင့် အရင် အတိုချုပ် ရှင်းပြမည်။",
+    "th": "คดีนั้นเกี่ยวข้องกับเรื่องนี้มาก จึงขอเล่าย่อ ๆ ก่อน"
+   },
+   "grammarNote": {
+    "vi": "「〜に関係する」 = liên quan đến…. 「Vておこう」 = hãy V sẵn trước (chuẩn bị).",
+    "en": "〜に関係する = \"relate to…\". Vておこう = \"let me V in advance\".",
+    "zh-Hans": "「〜に関係する」＝与……有关。「Vておこう」＝先V好吧。",
+    "zh-Hant": "「〜に関係する」＝與……有關。「Vておこう」＝先V好吧。",
+    "ko": "「〜に関係する」= …와 관계있다. 「Vておこう」= 미리 …해 두자.",
+    "tl": "〜に関係する = \"may kaugnayan sa…\".",
+    "ne": "「〜に関係する」= … सँग सम्बन्धित।",
+    "id": "〜に関係する = \"berkaitan dengan…\".",
+    "pt": "〜に関係する = \"ter relação com…\".",
+    "my": "「〜に関係する」= … နှင့် ဆက်စပ်။",
+    "th": "「〜に関係する」= เกี่ยวข้องกับ… 「Vておこう」= ขอ V ไว้ก่อน"
+   },
+   "vocab": [
+    {
+     "word": "関係",
+     "reading": "かんけい",
+     "meanings": {
+      "vi": "quan hệ, liên quan",
+      "en": "relation",
+      "zh-Hans": "关系",
+      "zh-Hant": "關係",
+      "ko": "관계",
+      "tl": "kaugnayan",
+      "ne": "सम्बन्ध",
+      "id": "hubungan",
+      "pt": "relação",
+      "my": "ဆက်စပ်မှု",
+      "th": "ความเกี่ยวข้อง"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=37.52,44.06",
+   "t": [
+    37.52,
+    44.06
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ある日、芝の大きな電気工場で、一万人近い職工の給料を用意していた。",
+   "furigana": [
+    {
+     "surface": "ある",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "芝",
+     "reading": "しば"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "きな",
+     "reading": ""
+    },
+    {
+     "surface": "電気工場",
+     "reading": "でんきこうじょう"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "一万人",
+     "reading": "いちまんにん"
+    },
+    {
+     "surface": "近",
+     "reading": "ちか"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "職工",
+     "reading": "しょっこう"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "給料",
+     "reading": "きゅうりょう"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "用意",
+     "reading": "ようい"
+    },
+    {
+     "surface": "していた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Aru hi, shiba no ookina denkikoujou de, ichimannin chikai shokkou no kyuuryou o youi shite ita.",
+   "translations": {
+    "vi": "Một hôm, tại một nhà máy điện lớn ở Shiba, người ta đang chuẩn bị lương cho gần một vạn công nhân.",
+    "en": "One day, at a large electrical factory in Shiba, they were preparing the wages of nearly ten thousand workers.",
+    "zh-Hans": "有一天，芝区一家大型电气工厂正在准备近一万名工人的工资。",
+    "zh-Hant": "有一天，芝區一家大型電氣工廠正在準備近一萬名工人的工資。",
+    "ko": "어느 날, 시바의 큰 전기 공장에서 1만 명 가까운 직공의 월급을 준비하고 있었다.",
+    "tl": "Isang araw, sa isang malaking pabrika ng kuryente sa Shiba, inihahanda ang sahod ng halos sampung libong manggagawa.",
+    "ne": "एक दिन शिबाको ठूलो बिजुली कारखानामा झन्डै दस हजार कामदारको तलब तयार पारिँदै थियो।",
+    "id": "Suatu hari, di pabrik listrik besar di Shiba, gaji hampir sepuluh ribu buruh sedang disiapkan.",
+    "pt": "Certo dia, numa grande fábrica elétrica em Shiba, preparavam o salário de quase dez mil operários.",
+    "my": "တစ်နေ့တွင် ရှီဘ ရှိ လျှပ်စစ်စက်ရုံကြီး တစ်ခု၌ အလုပ်သမား တစ်သောင်းနီးပါး၏ လစာကို ပြင်ဆင်နေသည်။",
+    "th": "วันหนึ่ง ที่โรงงานไฟฟ้าใหญ่ในชิบะ กำลังเตรียมเงินเดือนของคนงานเกือบหนึ่งหมื่นคน"
+   },
+   "grammarNote": {
+    "vi": "「職工」 = công nhân nhà máy (từ xưa). 「〜近い」 = gần…. 「芝」 = khu Shiba ở Tokyo.",
+    "en": "職工 = \"factory worker\" (old word). 〜近い = \"nearly…\". 芝 = Shiba district of Tokyo.",
+    "zh-Hans": "「職工」＝工人（旧词）。「〜近い」＝将近……。「芝」＝东京芝区。",
+    "zh-Hant": "「職工」＝工人（舊詞）。「〜近い」＝將近……。「芝」＝東京芝區。",
+    "ko": "「職工」= 직공. 「〜近い」= … 가까이.",
+    "tl": "職工 = \"manggagawa\" (lumang salita). 〜近い = \"halos…\".",
+    "ne": "「職工」= कामदार (पुरानो शब्द)। 「〜近い」= झन्डै …।",
+    "id": "職工 = \"buruh\" (kata lama). 〜近い = \"hampir…\".",
+    "pt": "職工 = \"operário\" (palavra antiga). 〜近い = \"quase…\".",
+    "my": "「職工」= အလုပ်သမား။",
+    "th": "「職工」= คนงาน (คำเก่า) 「〜近い」= เกือบ…"
+   },
+   "vocab": [
+    {
+     "word": "職工",
+     "reading": "しょっこう",
+     "meanings": {
+      "vi": "công nhân",
+      "en": "factory worker",
+      "zh-Hans": "工人",
+      "zh-Hant": "工人",
+      "ko": "직공",
+      "tl": "manggagawa",
+      "ne": "कामदार",
+      "id": "buruh",
+      "pt": "operário",
+      "my": "အလုပ်သမား",
+      "th": "คนงาน"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "用意",
+     "reading": "ようい",
+     "meanings": {
+      "vi": "chuẩn bị",
+      "en": "preparation",
+      "zh-Hans": "准备",
+      "zh-Hant": "準備",
+      "ko": "준비",
+      "tl": "paghahanda",
+      "ne": "तयारी",
+      "id": "persiapan",
+      "pt": "preparação",
+      "my": "ပြင်ဆင်မှု",
+      "th": "การเตรียม"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=44.66,51.91",
+   "t": [
+    44.66,
+    51.91
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "事務所では十数人の係が、銀行から下ろしてきた二十円札や十円札を、汗をかきながら給料袋に詰めていた。",
+   "furigana": [
+    {
+     "surface": "事務所",
+     "reading": "じむしょ"
+    },
+    {
+     "surface": "では",
+     "reading": ""
+    },
+    {
+     "surface": "十",
+     "reading": "じゅう"
+    },
+    {
+     "surface": "数",
+     "reading": "すう"
+    },
+    {
+     "surface": "人",
+     "reading": "にん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "係",
+     "reading": "かかり"
+    },
+    {
+     "surface": "が、",
+     "reading": ""
+    },
+    {
+     "surface": "銀行",
+     "reading": "ぎんこう"
+    },
+    {
+     "surface": "から",
+     "reading": ""
+    },
+    {
+     "surface": "下",
+     "reading": "お"
+    },
+    {
+     "surface": "ろしてきた",
+     "reading": ""
+    },
+    {
+     "surface": "二十円",
+     "reading": "にじゅうえん"
+    },
+    {
+     "surface": "札",
+     "reading": "さつ"
+    },
+    {
+     "surface": "や",
+     "reading": ""
+    },
+    {
+     "surface": "十円",
+     "reading": "じゅうえん"
+    },
+    {
+     "surface": "札",
+     "reading": "さつ"
+    },
+    {
+     "surface": "を、",
+     "reading": ""
+    },
+    {
+     "surface": "汗",
+     "reading": "あせ"
+    },
+    {
+     "surface": "をかきながら",
+     "reading": ""
+    },
+    {
+     "surface": "給料袋",
+     "reading": "きゅうりょうぶくろ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "詰",
+     "reading": "つ"
+    },
+    {
+     "surface": "めていた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Jimusho de wa juu suunin no kakari ga, ginkou kara oroshite kita nijuuen satsu ya juuen satsu o, ase o kaki nagara kyuuryoubukuro ni tsumete ita.",
+   "translations": {
+    "vi": "Trong văn phòng, hơn chục nhân viên đang toát mồ hôi nhét những tờ hai mươi yên, mười yên vừa rút từ ngân hàng vào phong bì lương.",
+    "en": "In the office, a dozen clerks were sweating as they stuffed twenty- and ten-yen notes fresh from the bank into pay envelopes.",
+    "zh-Hans": "事务所里，十几名职员正满头大汗地把从银行取来的二十元、十元钞票塞进工资袋。",
+    "zh-Hant": "事務所裡，十幾名職員正滿頭大汗地把從銀行取來的二十元、十元鈔票塞進工資袋。",
+    "ko": "사무소에서는 십여 명의 담당자가 은행에서 찾아온 20엔권, 10엔권을 땀을 흘리며 월급봉투에 채우고 있었다.",
+    "tl": "Sa opisina, mahigit sampung kawani ang pawisang nagsisilid ng mga perang dalawampu't sampung yen mula sa bangko sa mga sobre ng sahod.",
+    "ne": "कार्यालयमा दर्जनजति कर्मचारी पसिना काढ्दै बैंकबाट झिकेका बीस र दस येनका नोट तलबको खाममा हालिरहेका थिए।",
+    "id": "Di kantor, belasan petugas bercucuran keringat memasukkan uang dua puluh dan sepuluh yen dari bank ke amplop gaji.",
+    "pt": "No escritório, uma dúzia de funcionários suava enfiando notas de vinte e dez ienes, recém-sacadas do banco, nos envelopes.",
+    "my": "ရုံးထဲတွင် ဝန်ထမ်း ဆယ်ဂဏန်းသည် ဘဏ်မှ ထုတ်လာသော ယန်း နှစ်ဆယ်၊ ဆယ် တန် ငွေစက္ကူများကို ချွေးထွက်အောင် လစာစာအိတ်ထဲ ထည့်နေကြသည်။",
+    "th": "ในสำนักงาน เจ้าหน้าที่สิบกว่าคนเหงื่อท่วมกำลังยัดธนบัตรยี่สิบเยน สิบเยนที่เพิ่งถอนจากธนาคารใส่ซองเงินเดือน"
+   },
+   "grammarNote": {
+    "vi": "「十数人」 = hơn mười người. 「下ろす」 = rút (tiền). 「詰める」 = nhét đầy. Thời đó 20 yên là số tiền rất lớn.",
+    "en": "十数人 = \"a dozen or so\". 下ろす = \"withdraw (money)\". 詰める = \"stuff, pack\". Twenty yen was a big sum then.",
+    "zh-Hans": "「十数人」＝十几人。「下ろす」＝取（钱）。「詰める」＝塞满。当时20元是很大的数目。",
+    "zh-Hant": "「十數人」＝十幾人。「下ろす」＝取（錢）。「詰める」＝塞滿。當時20元是很大的數目。",
+    "ko": "「十数人」= 십여 명. 「下ろす」= (돈을) 찾다. 「詰める」= 채우다.",
+    "tl": "十数人 = \"mahigit sampu\". 下ろす = \"mag-withdraw\".",
+    "ne": "「十数人」= दर्जनजति। 「下ろす」= झिक्नु।",
+    "id": "十数人 = \"belasan\". 下ろす = \"menarik (uang)\".",
+    "pt": "十数人 = \"uns dez\". 下ろす = \"sacar (dinheiro)\".",
+    "my": "「下ろす」= ငွေထုတ်။",
+    "th": "「十数人」= สิบกว่าคน 「下ろす」= ถอน (เงิน) 「詰める」= ยัด"
+   },
+   "vocab": [
+    {
+     "word": "札",
+     "reading": "さつ",
+     "meanings": {
+      "vi": "tiền giấy",
+      "en": "banknote",
+      "zh-Hans": "钞票",
+      "zh-Hant": "鈔票",
+      "ko": "지폐",
+      "tl": "perang papel",
+      "ne": "नोट",
+      "id": "uang kertas",
+      "pt": "nota",
+      "my": "ငွေစက္ကူ",
+      "th": "ธนบัตร"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "汗",
+     "reading": "あせ",
+     "meanings": {
+      "vi": "mồ hôi",
+      "en": "sweat",
+      "zh-Hans": "汗",
+      "zh-Hant": "汗",
+      "ko": "땀",
+      "tl": "pawis",
+      "ne": "पसिना",
+      "id": "keringat",
+      "pt": "suor",
+      "my": "ချွေး",
+      "th": "เหงื่อ"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "詰める",
+     "reading": "つめる",
+     "meanings": {
+      "vi": "nhét đầy",
+      "en": "to pack, stuff",
+      "zh-Hans": "塞满",
+      "zh-Hant": "塞滿",
+      "ko": "채우다",
+      "tl": "isilid",
+      "ne": "हाल्नु",
+      "id": "memasukkan",
+      "pt": "encher",
+      "my": "ထည့်",
+      "th": "ยัด"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=52.51,62.82",
+   "t": [
+    52.51,
+    62.82
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ちょうどそのとき、玄関に一人の紳士がやって来た。",
+   "furigana": [
+    {
+     "surface": "ちょうどそのとき、",
+     "reading": ""
+    },
+    {
+     "surface": "玄関",
+     "reading": "げんかん"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "一人",
+     "reading": "ひとり"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "紳士",
+     "reading": "しんし"
+    },
+    {
+     "surface": "がやって",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "き"
+    },
+    {
+     "surface": "た。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Choudo sono toki, genkan ni hitori no shinshi ga yattekita.",
+   "translations": {
+    "vi": "Đúng lúc ấy, một quý ông bước tới cửa chính.",
+    "en": "Just then, a gentleman came to the entrance.",
+    "zh-Hans": "就在这时，一位绅士来到了门口。",
+    "zh-Hant": "就在這時，一位紳士來到了門口。",
+    "ko": "바로 그때, 현관에 한 신사가 찾아왔다.",
+    "tl": "Noon din, isang ginoo ang dumating sa pasukan.",
+    "ne": "ठीक त्यही बेला मूल ढोकामा एक भद्र पुरुष आइपुगे।",
+    "id": "Tepat saat itu, seorang pria terhormat datang ke pintu depan.",
+    "pt": "Nesse momento, um cavalheiro chegou à entrada.",
+    "my": "ထိုအချိန်တွင် အဝင်ပေါက်သို့ လူကြီးလူကောင်း တစ်ဦး ရောက်လာသည်။",
+    "th": "ทันใดนั้น สุภาพบุรุษคนหนึ่งก็มาที่ประตูหน้า"
+   },
+   "grammarNote": {
+    "vi": "「やって来る」 = tới, đến (nhấn mạnh sự xuất hiện). 「玄関」 = cửa chính, sảnh vào.",
+    "en": "やって来る = \"show up\". 玄関 = \"front entrance\".",
+    "zh-Hans": "「やって来る」＝来到。「玄関」＝门口。",
+    "zh-Hant": "「やって來る」＝來到。「玄関」＝門口。",
+    "ko": "「やって来る」= 찾아오다. 「玄関」= 현관.",
+    "tl": "やって来る = \"dumating\". 玄関 = \"pasukan\".",
+    "ne": "「やって来る」= आइपुग्नु। 「玄関」= मूल ढोका।",
+    "id": "やって来る = \"datang\". 玄関 = \"pintu depan\".",
+    "pt": "やって来る = \"chegar\". 玄関 = \"entrada\".",
+    "my": "「玄関」= အဝင်ပေါက်။",
+    "th": "「やって来る」= มาถึง 「玄関」= ประตูหน้า"
+   },
+   "vocab": [
+    {
+     "word": "紳士",
+     "reading": "しんし",
+     "meanings": {
+      "vi": "quý ông",
+      "en": "gentleman",
+      "zh-Hans": "绅士",
+      "zh-Hant": "紳士",
+      "ko": "신사",
+      "tl": "ginoo",
+      "ne": "भद्र पुरुष",
+      "id": "pria terhormat",
+      "pt": "cavalheiro",
+      "my": "လူကြီးလူကောင်း",
+      "th": "สุภาพบุรุษ"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "玄関",
+     "reading": "げんかん",
+     "meanings": {
+      "vi": "cửa chính",
+      "en": "entrance",
+      "zh-Hans": "门口",
+      "zh-Hant": "門口",
+      "ko": "현관",
+      "tl": "pasukan",
+      "ne": "मूल ढोका",
+      "id": "pintu depan",
+      "pt": "entrada",
+      "my": "အဝင်ပေါက်",
+      "th": "ประตูหน้า"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=63.42,67.56",
+   "t": [
+    63.42,
+    67.56
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「わたしは朝日新聞の記者です。支配人に少しお話をうかがいたいのですが。」",
+   "furigana": [
+    {
+     "surface": "「わたしは",
+     "reading": ""
+    },
+    {
+     "surface": "朝日新聞",
+     "reading": "あさひしんぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "記者",
+     "reading": "きしゃ"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    },
+    {
+     "surface": "支配人",
+     "reading": "しはいにん"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "少",
+     "reading": "すこ"
+    },
+    {
+     "surface": "しお",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "をうかがいたいのですが。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Watashi wa asahishinbun no kisha desu. Shihainin ni sukoshi ohanashi o ukagaitai no desu ga.”",
+   "translations": {
+    "vi": "\"Tôi là phóng viên báo Asahi. Tôi muốn được hỏi ông giám đốc đôi chút.\"",
+    "en": "\"I'm a reporter from the Asahi Shimbun. I'd like a word with the manager.\"",
+    "zh-Hans": "\"我是朝日新闻的记者。想向经理请教几句。\"",
+    "zh-Hant": "\"我是朝日新聞的記者。想向經理請教幾句。\"",
+    "ko": "\"저는 아사히 신문 기자입니다. 지배인께 잠깐 말씀을 여쭙고 싶은데요.\"",
+    "tl": "\"Reporter ako ng Asahi Shimbun. Nais ko sanang makausap sandali ang tagapamahala.\"",
+    "ne": "\"म आसाही पत्रिकाको पत्रकार हुँ। प्रबन्धकसँग अलिकति कुरा गर्न चाहन्छु।\"",
+    "id": "\"Saya wartawan Asahi Shimbun. Saya ingin bertanya sedikit kepada manajer.\"",
+    "pt": "\"Sou repórter do Asahi Shimbun. Gostaria de falar um pouco com o gerente.\"",
+    "my": "\"ကျွန်တော် အာဆာဟီ သတင်းစာ သတင်းထောက်ပါ။ မန်နေဂျာကို နည်းနည်း မေးချင်ပါတယ်။\"",
+    "th": "\"ผมเป็นนักข่าวหนังสือพิมพ์อาซาฮี อยากขอสัมภาษณ์ผู้จัดการสักหน่อย\""
+   },
+   "grammarNote": {
+    "vi": "「うかがう」 = khiêm nhường ngữ của 聞く (hỏi, nghe). 「〜たいのですが」 = tôi muốn… (đề nghị lịch sự, bỏ lửng).",
+    "en": "うかがう = humble form of 聞く (\"ask, hear\"). 〜たいのですが = \"I'd like to…\" (polite, trailing off).",
+    "zh-Hans": "「うかがう」＝聞く的谦让语。「〜たいのですが」＝想……（礼貌请求）。",
+    "zh-Hant": "「うかがう」＝聞く的謙讓語。「〜たいのですが」＝想……（禮貌請求）。",
+    "ko": "「うかがう」= 여쭙다(겸양). 「〜たいのですが」= …하고 싶은데요.",
+    "tl": "うかがう = mapagpakumbabang 聞く. 〜たいのですが = magalang na kahilingan.",
+    "ne": "「うかがう」= 聞く को विनम्र रूप।",
+    "id": "うかがう = bentuk rendah hati 聞く.",
+    "pt": "うかがう = forma humilde de 聞く.",
+    "my": "「うかがう」= 聞く ၏ နှိမ့်ချပုံ။",
+    "th": "「うかがう」= รูปถ่อมตนของ 聞く"
+   },
+   "vocab": [
+    {
+     "word": "記者",
+     "reading": "きしゃ",
+     "meanings": {
+      "vi": "phóng viên",
+      "en": "reporter",
+      "zh-Hans": "记者",
+      "zh-Hant": "記者",
+      "ko": "기자",
+      "tl": "reporter",
+      "ne": "पत्रकार",
+      "id": "wartawan",
+      "pt": "repórter",
+      "my": "သတင်းထောက်",
+      "th": "นักข่าว"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "支配人",
+     "reading": "しはいにん",
+     "meanings": {
+      "vi": "giám đốc, quản lý",
+      "en": "manager",
+      "zh-Hans": "经理",
+      "zh-Hant": "經理",
+      "ko": "지배인",
+      "tl": "tagapamahala",
+      "ne": "प्रबन्धक",
+      "id": "manajer",
+      "pt": "gerente",
+      "my": "မန်နေဂျာ",
+      "th": "ผู้จัดการ"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=68.46,75.09",
+   "t": [
+    68.46,
+    75.09
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "男は新聞社の名刺を出し、すぐに支配人の部屋へ案内された。",
+   "furigana": [
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "新聞",
+     "reading": "しんぶん"
+    },
+    {
+     "surface": "社",
+     "reading": "しゃ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "名刺",
+     "reading": "めいし"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "だ"
+    },
+    {
+     "surface": "し、すぐに",
+     "reading": ""
+    },
+    {
+     "surface": "支配人",
+     "reading": "しはいにん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "部屋",
+     "reading": "へや"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "案内",
+     "reading": "あんない"
+    },
+    {
+     "surface": "された。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Otoko wa shinbunsha no meishi o dashi, sugu ni shihainin no heya e annai sareta.",
+   "translations": {
+    "vi": "Gã đưa danh thiếp của tòa báo và lập tức được dẫn vào phòng giám đốc.",
+    "en": "He presented a newspaper business card and was shown straight into the manager's office.",
+    "zh-Hans": "那人递上报社的名片，马上就被领进了经理室。",
+    "zh-Hant": "那人遞上報社的名片，馬上就被領進了經理室。",
+    "ko": "남자는 신문사 명함을 내밀었고, 곧바로 지배인 방으로 안내되었다.",
+    "tl": "Iniabot niya ang tarheta ng pahayagan at agad na inihatid sa silid ng tagapamahala.",
+    "ne": "उसले पत्रिकाको भिजिटिङ कार्ड दियो र तुरुन्तै प्रबन्धकको कोठामा लगियो।",
+    "id": "Ia memberikan kartu nama surat kabar dan langsung diantar ke ruang manajer.",
+    "pt": "Ele apresentou um cartão do jornal e foi logo levado à sala do gerente.",
+    "my": "သူသည် သတင်းစာတိုက်၏ လိပ်စာကတ်ကို ပေးပြီး ချက်ချင်း မန်နေဂျာ၏ အခန်းသို့ ခေါ်သွားခံရသည်။",
+    "th": "เขายื่นนามบัตรของหนังสือพิมพ์ แล้วถูกพาเข้าห้องผู้จัดการทันที"
+   },
+   "grammarNote": {
+    "vi": "「名刺」 = danh thiếp. 「案内される」 = được dẫn đường (bị động của 案内する).",
+    "en": "名刺 = \"business card\". 案内される = \"be shown in\" (passive of 案内する).",
+    "zh-Hans": "「名刺」＝名片。「案内される」＝被领进（案内する的被动）。",
+    "zh-Hant": "「名刺」＝名片。「案內される」＝被領進（案內する的被動）。",
+    "ko": "「名刺」= 명함. 「案内される」= 안내되다.",
+    "tl": "名刺 = \"tarheta\". 案内される = \"ihatid\".",
+    "ne": "「名刺」= भिजिटिङ कार्ड। 「案内される」= लगिनु।",
+    "id": "名刺 = \"kartu nama\". 案内される = \"diantar\".",
+    "pt": "名刺 = \"cartão de visita\". 案内される = \"ser conduzido\".",
+    "my": "「名刺」= လိပ်စာကတ်။",
+    "th": "「名刺」= นามบัตร 「案内される」= ถูกพาไป"
+   },
+   "vocab": [
+    {
+     "word": "名刺",
+     "reading": "めいし",
+     "meanings": {
+      "vi": "danh thiếp",
+      "en": "business card",
+      "zh-Hans": "名片",
+      "zh-Hant": "名片",
+      "ko": "명함",
+      "tl": "tarheta",
+      "ne": "भिजिटिङ कार्ड",
+      "id": "kartu nama",
+      "pt": "cartão de visita",
+      "my": "လိပ်စာကတ်",
+      "th": "นามบัตร"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "案内",
+     "reading": "あんない",
+     "meanings": {
+      "vi": "hướng dẫn, dẫn đường",
+      "en": "guidance",
+      "zh-Hans": "带路",
+      "zh-Hant": "帶路",
+      "ko": "안내",
+      "tl": "paghahatid",
+      "ne": "मार्गदर्शन",
+      "id": "panduan",
+      "pt": "guia",
+      "my": "လမ်းပြ",
+      "th": "นำทาง"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=75.99,81.56",
+   "t": [
+    75.99,
+    81.56
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "べっこうの眼鏡をかけ、立派な口ひげを生やした、いかにも慣れた様子の男だった。",
+   "furigana": [
+    {
+     "surface": "べっこうの",
+     "reading": ""
+    },
+    {
+     "surface": "眼鏡",
+     "reading": "めがね"
+    },
+    {
+     "surface": "をかけ、",
+     "reading": ""
+    },
+    {
+     "surface": "立派",
+     "reading": "りっぱ"
+    },
+    {
+     "surface": "な",
+     "reading": ""
+    },
+    {
+     "surface": "口",
+     "reading": "くち"
+    },
+    {
+     "surface": "ひげを",
+     "reading": ""
+    },
+    {
+     "surface": "生",
+     "reading": "は"
+    },
+    {
+     "surface": "やした、いかにも",
+     "reading": ""
+    },
+    {
+     "surface": "慣",
+     "reading": "な"
+    },
+    {
+     "surface": "れた",
+     "reading": ""
+    },
+    {
+     "surface": "様子",
+     "reading": "ようす"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "だった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Be kkou no megane o kake, rippana kuchihige o hayashita, ikanimo nareta yousu no otoko datta.",
+   "translations": {
+    "vi": "Đó là một gã đeo kính gọng đồi mồi, để bộ ria mép đẹp, trông rất sành sỏi.",
+    "en": "He wore tortoiseshell glasses and a fine moustache, and looked thoroughly at ease.",
+    "zh-Hans": "他戴着玳瑁框眼镜，留着漂亮的小胡子，一副老练的样子。",
+    "zh-Hant": "他戴著玳瑁框眼鏡，留著漂亮的小鬍子，一副老練的樣子。",
+    "ko": "별갑 안경을 쓰고 멋진 콧수염을 기른, 아주 능숙해 보이는 남자였다.",
+    "tl": "Nakasuot siya ng salaming may balangkas na pagong at may magandang bigote; mukhang sanay na sanay.",
+    "ne": "कछुवाको खपटे फ्रेमको चस्मा र राम्रो जुँगा भएको, निकै अनुभवी देखिने मानिस थियो।",
+    "id": "Ia berkacamata bingkai cangkang penyu, berkumis rapi, dan tampak sangat berpengalaman.",
+    "pt": "Usava óculos de tartaruga e um belo bigode, e parecia muito à vontade.",
+    "my": "လိပ်ခွံဘောင် မျက်မှန်တပ်ပြီး နှုတ်ခမ်းမွေး လှလှ ထားသော အလွန် ကျွမ်းကျင်ပုံရသူ ဖြစ်သည်။",
+    "th": "เป็นชายสวมแว่นกรอบกระดองเต่า ไว้หนวดสวย ท่าทางคล่องแคล่วมาก"
+   },
+   "grammarNote": {
+    "vi": "「べっこう」 = đồi mồi (mai rùa). 「いかにも」 = quả thật trông rất…. 「慣れた様子」 = vẻ quen thuộc, thành thạo.",
+    "en": "べっこう = \"tortoiseshell\". いかにも = \"truly, every bit\". 慣れた様子 = \"an experienced air\".",
+    "zh-Hans": "「べっこう」＝玳瑁。「いかにも」＝的确像。「慣れた様子」＝老练的样子。",
+    "zh-Hant": "「べっこう」＝玳瑁。「いかにも」＝的確像。「慣れた様子」＝老練的樣子。",
+    "ko": "「べっこう」= 별갑. 「いかにも」= 정말로. 「慣れた様子」= 익숙한 모습.",
+    "tl": "べっこう = \"balat ng pagong\". いかにも = \"talagang\".",
+    "ne": "「べっこう」= कछुवाको खपटा। 「いかにも」= साँच्चै।",
+    "id": "べっこう = \"cangkang penyu\". いかにも = \"benar-benar\".",
+    "pt": "べっこう = \"tartaruga\". いかにも = \"realmente\".",
+    "my": "「べっこう」= လိပ်ခွံ။",
+    "th": "「べっこう」= กระดองเต่า 「いかにも」= ช่างดู…จริง ๆ"
+   },
+   "vocab": [
+    {
+     "word": "眼鏡",
+     "reading": "めがね",
+     "meanings": {
+      "vi": "kính mắt",
+      "en": "glasses",
+      "zh-Hans": "眼镜",
+      "zh-Hant": "眼鏡",
+      "ko": "안경",
+      "tl": "salamin",
+      "ne": "चस्मा",
+      "id": "kacamata",
+      "pt": "óculos",
+      "my": "မျက်မှန်",
+      "th": "แว่นตา"
+     },
+     "level": "N5"
+    },
+    {
+     "word": "口ひげ",
+     "reading": "くちひげ",
+     "meanings": {
+      "vi": "ria mép",
+      "en": "moustache",
+      "zh-Hans": "小胡子",
+      "zh-Hant": "小鬍子",
+      "ko": "콧수염",
+      "tl": "bigote",
+      "ne": "जुँगा",
+      "id": "kumis",
+      "pt": "bigode",
+      "my": "နှုတ်ခမ်းမွေး",
+      "th": "หนวด"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "いかにも",
+     "reading": "いかにも",
+     "meanings": {
+      "vi": "quả thật",
+      "en": "truly, indeed",
+      "zh-Hans": "的确",
+      "zh-Hant": "的確",
+      "ko": "정말로",
+      "tl": "talagang",
+      "ne": "साँच्चै",
+      "id": "benar-benar",
+      "pt": "realmente",
+      "my": "တကယ့်",
+      "th": "ช่าง…จริง ๆ"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=82.16,89.12",
+   "t": [
+    82.16,
+    89.12
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "男はエジプトの高い紙巻き煙草を取り出して、ゆったりと煙をはいた。",
+   "furigana": [
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "はエジプトの",
+     "reading": ""
+    },
+    {
+     "surface": "高",
+     "reading": "たか"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "紙巻",
+     "reading": "かみま"
+    },
+    {
+     "surface": "き",
+     "reading": ""
+    },
+    {
+     "surface": "煙草",
+     "reading": "たばこ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "取",
+     "reading": "と"
+    },
+    {
+     "surface": "り",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "だ"
+    },
+    {
+     "surface": "して、ゆったりと",
+     "reading": ""
+    },
+    {
+     "surface": "煙",
+     "reading": "けむり"
+    },
+    {
+     "surface": "をはいた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Otoko wa ejiputo no takai kamimaki tabako o toridashite, yuttari to kemuri o haita.",
+   "translations": {
+    "vi": "Gã rút ra điếu thuốc lá cuốn Ai Cập đắt tiền, thong thả nhả khói.",
+    "en": "He took out an expensive Egyptian cigarette and leisurely blew out smoke.",
+    "zh-Hans": "那人取出昂贵的埃及纸烟，悠然地吐着烟。",
+    "zh-Hant": "那人取出昂貴的埃及紙菸，悠然地吐著煙。",
+    "ko": "남자는 비싼 이집트 궐련을 꺼내 느긋하게 연기를 내뿜었다.",
+    "tl": "Naglabas siya ng mamahaling sigarilyong Ehipsiyo at mahinahong bumuga ng usok.",
+    "ne": "उसले महँगो इजिप्टको चुरोट निकाल्यो र आरामसँग धुवाँ फाल्यो।",
+    "id": "Ia mengeluarkan rokok Mesir yang mahal dan dengan santai menghembuskan asap.",
+    "pt": "Tirou um caro cigarro egípcio e soltou a fumaça com calma.",
+    "my": "သူသည် ဈေးကြီးသော အီဂျစ် စီးကရက်ကို ထုတ်ပြီး အေးဆေးစွာ မီးခိုး မှုတ်ထုတ်သည်။",
+    "th": "เขาหยิบบุหรี่อียิปต์ราคาแพงออกมา แล้วพ่นควันอย่างสบาย ๆ"
+   },
+   "grammarNote": {
+    "vi": "「紙巻き煙草」 = thuốc lá cuốn giấy. 「ゆったりと」 = thong thả. Hãy nhớ điếu thuốc này — nó là manh mối!",
+    "en": "紙巻き煙草 = \"cigarette\". ゆったりと = \"leisurely\". Remember this cigarette — it's a clue!",
+    "zh-Hans": "「紙巻き煙草」＝纸烟。「ゆったりと」＝悠然。记住这支烟——它是线索！",
+    "zh-Hant": "「紙巻き煙草」＝紙菸。「ゆったりと」＝悠然。記住這支菸——它是線索！",
+    "ko": "「紙巻き煙草」= 궐련. 「ゆったりと」= 느긋하게. 이 담배를 기억하세요!",
+    "tl": "紙巻き煙草 = \"sigarilyo\". Tandaan ang sigarilyong ito!",
+    "ne": "「紙巻き煙草」= चुरोट। यो चुरोट याद राख्नुहोस्!",
+    "id": "紙巻き煙草 = \"rokok\". Ingat rokok ini!",
+    "pt": "紙巻き煙草 = \"cigarro\". Lembre-se deste cigarro!",
+    "my": "「紙巻き煙草」= စီးကရက်။ ဤစီးကရက်ကို မှတ်ထား!",
+    "th": "「紙巻き煙草」= บุหรี่ จำบุหรี่มวนนี้ไว้!"
+   },
+   "vocab": [
+    {
+     "word": "煙草",
+     "reading": "たばこ",
+     "meanings": {
+      "vi": "thuốc lá",
+      "en": "tobacco, cigarette",
+      "zh-Hans": "烟草",
+      "zh-Hant": "菸草",
+      "ko": "담배",
+      "tl": "sigarilyo",
+      "ne": "चुरोट",
+      "id": "rokok",
+      "pt": "cigarro",
+      "my": "ဆေးလိပ်",
+      "th": "บุหรี่"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "煙",
+     "reading": "けむり",
+     "meanings": {
+      "vi": "khói",
+      "en": "smoke",
+      "zh-Hans": "烟",
+      "zh-Hant": "煙",
+      "ko": "연기",
+      "tl": "usok",
+      "ne": "धुवाँ",
+      "id": "asap",
+      "pt": "fumaça",
+      "my": "မီးခိုး",
+      "th": "ควัน"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=89.72,96.43",
+   "t": [
+    89.72,
+    96.43
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「職工の待遇について、ぜひ御意見をうかがいたいのです。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "職工",
+     "reading": "しょっこう"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "待遇",
+     "reading": "たいぐう"
+    },
+    {
+     "surface": "について、ぜひ",
+     "reading": ""
+    },
+    {
+     "surface": "御",
+     "reading": "ご"
+    },
+    {
+     "surface": "意見",
+     "reading": "いけん"
+    },
+    {
+     "surface": "をうかがいたいのです。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Shokkou no taiguu nitsuite, zehi go iken o ukagaitai no desu.”",
+   "translations": {
+    "vi": "\"Tôi rất muốn được nghe ý kiến của ông về chế độ đãi ngộ công nhân.\"",
+    "en": "\"I'd very much like your opinion on the treatment of workers.\"",
+    "zh-Hans": "\"想请教您对工人待遇问题的高见。\"",
+    "zh-Hant": "\"想請教您對工人待遇問題的高見。\"",
+    "ko": "\"직공의 대우에 대해 꼭 의견을 여쭙고 싶습니다.\"",
+    "tl": "\"Nais kong marinig ang inyong opinyon tungkol sa pagtrato sa mga manggagawa.\"",
+    "ne": "\"कामदारको सुविधाबारे तपाईंको विचार सुन्न चाहन्छु।\"",
+    "id": "\"Saya ingin sekali mendengar pendapat Anda tentang perlakuan terhadap buruh.\"",
+    "pt": "\"Gostaria muito de ouvir sua opinião sobre o tratamento dos operários.\"",
+    "my": "\"အလုပ်သမား သက်သာချောင်ချိရေး အကြောင်း ခင်ဗျား၏ အမြင်ကို သိချင်ပါတယ်။\"",
+    "th": "\"อยากฟังความเห็นของท่านเรื่องสวัสดิการคนงานครับ\""
+   },
+   "grammarNote": {
+    "vi": "「待遇」 = đãi ngộ. 「御意見」 = ý kiến (kính ngữ). 「ぜひ」 = nhất định, rất muốn.",
+    "en": "待遇 = \"treatment, conditions\". 御意見 = \"your opinion\" (honorific). ぜひ = \"by all means\".",
+    "zh-Hans": "「待遇」＝待遇。「御意見」＝高见。「ぜひ」＝务必。",
+    "zh-Hant": "「待遇」＝待遇。「御意見」＝高見。「ぜひ」＝務必。",
+    "ko": "「待遇」= 대우. 「御意見」= 의견(존경). 「ぜひ」= 꼭.",
+    "tl": "待遇 = \"pagtrato\". ぜひ = \"talagang\".",
+    "ne": "「待遇」= सुविधा। 「ぜひ」= पक्कै।",
+    "id": "待遇 = \"perlakuan\". ぜひ = \"sungguh\".",
+    "pt": "待遇 = \"tratamento\". ぜひ = \"sem falta\".",
+    "my": "「待遇」= သက်သာချောင်ချိရေး။",
+    "th": "「待遇」= สวัสดิการ 「ぜひ」= อย่างยิ่ง"
+   },
+   "vocab": [
+    {
+     "word": "待遇",
+     "reading": "たいぐう",
+     "meanings": {
+      "vi": "đãi ngộ",
+      "en": "treatment, conditions",
+      "zh-Hans": "待遇",
+      "zh-Hant": "待遇",
+      "ko": "대우",
+      "tl": "pagtrato",
+      "ne": "सुविधा",
+      "id": "perlakuan",
+      "pt": "tratamento",
+      "my": "သက်သာချောင်ချိရေး",
+      "th": "สวัสดิการ"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "意見",
+     "reading": "いけん",
+     "meanings": {
+      "vi": "ý kiến",
+      "en": "opinion",
+      "zh-Hans": "意见",
+      "zh-Hant": "意見",
+      "ko": "의견",
+      "tl": "opinyon",
+      "ne": "विचार",
+      "id": "pendapat",
+      "pt": "opinião",
+      "my": "အမြင်",
+      "th": "ความเห็น"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=97.33,102.45",
+   "t": [
+    97.33,
+    102.45
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "支配人は新聞記者の相手がうまいのが自慢だったので、喜んで三十分ほど話し続けた。",
+   "furigana": [
+    {
+     "surface": "支配人",
+     "reading": "しはいにん"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "新聞",
+     "reading": "しんぶん"
+    },
+    {
+     "surface": "記者",
+     "reading": "きしゃ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "相手",
+     "reading": "あいて"
+    },
+    {
+     "surface": "がうまいのが",
+     "reading": ""
+    },
+    {
+     "surface": "自慢",
+     "reading": "じまん"
+    },
+    {
+     "surface": "だったので、",
+     "reading": ""
+    },
+    {
+     "surface": "喜",
+     "reading": "よろこ"
+    },
+    {
+     "surface": "んで",
+     "reading": ""
+    },
+    {
+     "surface": "三十分",
+     "reading": "さんじゅっぷん"
+    },
+    {
+     "surface": "ほど",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はな"
+    },
+    {
+     "surface": "し",
+     "reading": ""
+    },
+    {
+     "surface": "続",
+     "reading": "つづ"
+    },
+    {
+     "surface": "けた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shihainin wa shinbun kisha no aite ga umai no ga jiman datta node, yorokonde sanjuppun hodo hanashi tsuzuketa.",
+   "translations": {
+    "vi": "Giám đốc vốn tự hào là khéo tiếp phóng viên, nên vui vẻ nói liền một mạch khoảng ba mươi phút.",
+    "en": "The manager prided himself on handling reporters, so he happily talked for about thirty minutes.",
+    "zh-Hans": "经理一向以善于应付记者自豪，于是高兴地讲了大约三十分钟。",
+    "zh-Hant": "經理一向以善於應付記者自豪，於是高興地講了大約三十分鐘。",
+    "ko": "지배인은 신문 기자를 잘 다루는 것이 자랑이었기에, 기꺼이 30분쯤 계속 이야기했다.",
+    "tl": "Ipinagmamalaki ng tagapamahala na magaling siyang makitungo sa reporter, kaya masaya siyang nagsalita nang mga tatlumpung minuto.",
+    "ne": "प्रबन्धकलाई पत्रकार सम्हाल्न सिपालु भएकोमा गर्व थियो, त्यसैले खुसीसाथ तीस मिनेटजति बोलिरहे।",
+    "id": "Manajer bangga pandai menghadapi wartawan, jadi ia senang berbicara sekitar tiga puluh menit.",
+    "pt": "O gerente se orgulhava de lidar com repórteres e falou contente uns trinta minutos.",
+    "my": "မန်နေဂျာသည် သတင်းထောက်နှင့် ဆက်ဆံရာတွင် တော်သည်ဟု ဂုဏ်ယူသဖြင့် မိနစ်သုံးဆယ်ခန့် ပျော်ပျော်ရွှင်ရွှင် ပြောနေသည်။",
+    "th": "ผู้จัดการภูมิใจว่าตนรับมือนักข่าวเก่ง จึงพูดอย่างยินดีราวสามสิบนาที"
+   },
+   "grammarNote": {
+    "vi": "「相手がうまい」 = giỏi đối đáp, tiếp chuyện. 「自慢」 = niềm tự hào, khoe. 「Vし続ける」 = V liên tục.",
+    "en": "相手がうまい = \"good at dealing with\". 自慢 = \"pride, boast\". Vし続ける = \"keep V-ing\".",
+    "zh-Hans": "「相手がうまい」＝善于应付。「自慢」＝自豪。「Vし続ける」＝不停地V。",
+    "zh-Hant": "「相手がうまい」＝善於應付。「自慢」＝自豪。「Vし続ける」＝不停地V。",
+    "ko": "「自慢」= 자랑. 「Vし続ける」= 계속 V하다.",
+    "tl": "自慢 = \"pagmamalaki\". Vし続ける = \"patuloy na V\".",
+    "ne": "「自慢」= गर्व। 「Vし続ける」= V गरिरहनु।",
+    "id": "自慢 = \"kebanggaan\". Vし続ける = \"terus V\".",
+    "pt": "自慢 = \"orgulho\". Vし続ける = \"continuar V\".",
+    "my": "「自慢」= ဂုဏ်ယူ။",
+    "th": "「自慢」= ภาคภูมิใจ 「Vし続ける」= V ต่อไปเรื่อย ๆ"
+   },
+   "vocab": [
+    {
+     "word": "自慢",
+     "reading": "じまん",
+     "meanings": {
+      "vi": "niềm tự hào, khoe",
+      "en": "pride, boast",
+      "zh-Hans": "自豪",
+      "zh-Hant": "自豪",
+      "ko": "자랑",
+      "tl": "pagmamalaki",
+      "ne": "गर्व",
+      "id": "kebanggaan",
+      "pt": "orgulho",
+      "my": "ဂုဏ်ယူ",
+      "th": "ภูมิใจ"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=103.35,111.5",
+   "t": [
+    103.35,
+    111.5
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "話が終わると、記者は「ちょっと失礼」と言って席を立ち、そのまま姿を消してしまった。",
+   "furigana": [
+    {
+     "surface": "話",
+     "reading": "はなし"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "終",
+     "reading": "お"
+    },
+    {
+     "surface": "わると、",
+     "reading": ""
+    },
+    {
+     "surface": "記者",
+     "reading": "きしゃ"
+    },
+    {
+     "surface": "は「ちょっと",
+     "reading": ""
+    },
+    {
+     "surface": "失礼",
+     "reading": "しつれい"
+    },
+    {
+     "surface": "」と",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "って",
+     "reading": ""
+    },
+    {
+     "surface": "席",
+     "reading": "せき"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "立",
+     "reading": "た"
+    },
+    {
+     "surface": "ち、そのまま",
+     "reading": ""
+    },
+    {
+     "surface": "姿",
+     "reading": "すがた"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "消",
+     "reading": "け"
+    },
+    {
+     "surface": "してしまった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hanashi ga owaru to, kisha wa “Chotto shitsurei” to itte seki o tachi, sonomama sugata o keshite shimatta.",
+   "translations": {
+    "vi": "Nói xong, gã phóng viên bảo \"Xin phép một chút\" rồi đứng dậy, và biến mất luôn.",
+    "en": "When the talk was over, the reporter said \"Excuse me a moment,\" left his seat, and vanished.",
+    "zh-Hans": "话一讲完，记者说了声\"失陪一下\"就离开座位，从此不见了踪影。",
+    "zh-Hant": "話一講完，記者說了聲\"失陪一下\"就離開座位，從此不見了蹤影。",
+    "ko": "이야기가 끝나자 기자는 \"잠깐 실례\"라며 자리를 떴고, 그대로 사라져 버렸다.",
+    "tl": "Nang matapos ang usapan, nagsabi ang reporter ng \"Saglit lang po\" at tumayo, saka tuluyang naglaho.",
+    "ne": "कुरा सकिएपछि पत्रकारले \"एकछिन माफ गर्नुहोस्\" भनेर आसन छाड्यो र त्यत्तिकै गायब भयो।",
+    "id": "Setelah selesai, wartawan itu berkata \"Permisi sebentar\", berdiri, lalu menghilang.",
+    "pt": "Terminada a conversa, o repórter disse \"Com licença um instante\", levantou-se e sumiu.",
+    "my": "စကား ပြီးသည်နှင့် သတင်းထောက်သည် \"ခဏ ခွင့်ပြုပါ\" ဟု ဆိုကာ ထိုင်ခုံမှ ထပြီး ပျောက်သွားတော့သည်။",
+    "th": "พูดจบ นักข่าวก็บอกว่า \"ขอตัวสักครู่\" แล้วลุกออกไป และหายตัวไปเลย"
+   },
+   "grammarNote": {
+    "vi": "「席を立つ」 = rời chỗ ngồi. 「姿を消す」 = biến mất. 「Vてしまった」 = (rốt cuộc) đã V mất.",
+    "en": "席を立つ = \"leave one's seat\". 姿を消す = \"vanish\". Vてしまった = \"ended up V-ing\".",
+    "zh-Hans": "「席を立つ」＝离座。「姿を消す」＝消失。",
+    "zh-Hant": "「席を立つ」＝離座。「姿を消す」＝消失。",
+    "ko": "「席を立つ」= 자리를 뜨다. 「姿を消す」= 모습을 감추다.",
+    "tl": "姿を消す = \"maglaho\".",
+    "ne": "「姿を消す」= गायब हुनु।",
+    "id": "姿を消す = \"menghilang\".",
+    "pt": "姿を消す = \"desaparecer\".",
+    "my": "「姿を消す」= ပျောက်ကွယ်။",
+    "th": "「席を立つ」= ลุกจากที่นั่ง 「姿を消す」= หายตัว"
+   },
+   "vocab": [
+    {
+     "word": "席",
+     "reading": "せき",
+     "meanings": {
+      "vi": "chỗ ngồi",
+      "en": "seat",
+      "zh-Hans": "座位",
+      "zh-Hant": "座位",
+      "ko": "자리",
+      "tl": "upuan",
+      "ne": "आसन",
+      "id": "kursi",
+      "pt": "lugar",
+      "my": "ထိုင်ခုံ",
+      "th": "ที่นั่ง"
+     },
+     "level": "N4"
+    },
+    {
+     "word": "姿",
+     "reading": "すがた",
+     "meanings": {
+      "vi": "dáng, hình bóng",
+      "en": "figure, appearance",
+      "zh-Hans": "身影",
+      "zh-Hant": "身影",
+      "ko": "모습",
+      "tl": "anyo",
+      "ne": "आकृति",
+      "id": "sosok",
+      "pt": "figura",
+      "my": "ပုံသဏ္ဌာန်",
+      "th": "ร่าง, รูปร่าง"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=112.1,118.75",
+   "t": [
+    112.1,
+    118.75
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "支配人は失礼なやつだと思ったが、昼食の時間だったので、気にせず食堂へ行った。",
+   "furigana": [
+    {
+     "surface": "支配人",
+     "reading": "しはいにん"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "失礼",
+     "reading": "しつれい"
+    },
+    {
+     "surface": "なやつだと",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "ったが、",
+     "reading": ""
+    },
+    {
+     "surface": "昼食",
+     "reading": "ちゅうしょく"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "時",
+     "reading": "とき"
+    },
+    {
+     "surface": "間",
+     "reading": "あいだ"
+    },
+    {
+     "surface": "だったので、",
+     "reading": ""
+    },
+    {
+     "surface": "気",
+     "reading": "き"
+    },
+    {
+     "surface": "にせず",
+     "reading": ""
+    },
+    {
+     "surface": "食堂",
+     "reading": "しょくどう"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "った。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shihainin wa shitsureina yatsu da to omotta ga, chuushoku no toki aida datta node, ki ni sezu shokudou e itta.",
+   "translations": {
+    "vi": "Giám đốc nghĩ thằng cha này vô lễ, nhưng vì đã đến giờ ăn trưa nên chẳng bận tâm mà đi xuống nhà ăn.",
+    "en": "The manager thought him rude, but as it was lunchtime he gave it no thought and went to the canteen.",
+    "zh-Hans": "经理心想这家伙真没礼貌，但正好是午饭时间，便没在意，去了食堂。",
+    "zh-Hant": "經理心想這傢伙真沒禮貌，但正好是午飯時間，便沒在意，去了食堂。",
+    "ko": "지배인은 무례한 녀석이라 생각했지만 점심시간이라 개의치 않고 식당으로 갔다.",
+    "tl": "Inisip ng tagapamahala na bastos ito, pero tanghalian na kaya hindi na niya pinansin at nagtungo sa kantina.",
+    "ne": "प्रबन्धकलाई असभ्य लाग्यो, तर दिउँसोको खाना समय भएकाले वास्ता नगरी भोजनालय गए।",
+    "id": "Manajer menganggapnya kurang ajar, tapi karena jam makan siang, ia tak peduli dan pergi ke kantin.",
+    "pt": "O gerente achou-o grosseiro, mas, sendo hora do almoço, não ligou e foi ao refeitório.",
+    "my": "မန်နေဂျာက ရိုင်းစိုင်းသော ကောင်ဟု ထင်သော်လည်း နေ့လယ်စာ အချိန်ဖြစ်၍ ဂရုမစိုက်ဘဲ စားသောက်ခန်းသို့ သွားသည်။",
+    "th": "ผู้จัดการคิดว่าหมอนี่เสียมารยาท แต่ถึงเวลาอาหารกลางวันพอดี จึงไม่สนใจและไปโรงอาหาร"
+   },
+   "grammarNote": {
+    "vi": "「やつ」 = thằng cha, gã (nói thô). 「気にせず」 = không bận tâm (= 気にしないで).",
+    "en": "やつ = \"guy, fellow\" (rough). 気にせず = \"without minding it\" (= 気にしないで).",
+    "zh-Hans": "「やつ」＝家伙（粗俗）。「気にせず」＝不在意。",
+    "zh-Hant": "「やつ」＝傢伙（粗俗）。「気にせず」＝不在意。",
+    "ko": "「やつ」= 녀석. 「気にせず」= 개의치 않고.",
+    "tl": "やつ = \"taong iyon\" (bastos). 気にせず = \"hindi pinansin\".",
+    "ne": "「やつ」= त्यो मान्छे (रुखो)। 「気にせず」= वास्ता नगरी।",
+    "id": "やつ = \"orang itu\" (kasar). 気にせず = \"tanpa peduli\".",
+    "pt": "やつ = \"sujeito\". 気にせず = \"sem ligar\".",
+    "my": "「気にせず」= ဂရုမစိုက်ဘဲ။",
+    "th": "「やつ」= หมอนี่ 「気にせず」= ไม่ใส่ใจ"
+   },
+   "vocab": [
+    {
+     "word": "昼食",
+     "reading": "ちゅうしょく",
+     "meanings": {
+      "vi": "bữa trưa",
+      "en": "lunch",
+      "zh-Hans": "午饭",
+      "zh-Hant": "午飯",
+      "ko": "점심",
+      "tl": "tanghalian",
+      "ne": "दिउँसोको खाना",
+      "id": "makan siang",
+      "pt": "almoço",
+      "my": "နေ့လယ်စာ",
+      "th": "อาหารกลางวัน"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "食堂",
+     "reading": "しょくどう",
+     "meanings": {
+      "vi": "nhà ăn",
+      "en": "canteen",
+      "zh-Hans": "食堂",
+      "zh-Hant": "食堂",
+      "ko": "식당",
+      "tl": "kantina",
+      "ne": "भोजनालय",
+      "id": "kantin",
+      "pt": "refeitório",
+      "my": "စားသောက်ခန်း",
+      "th": "โรงอาหาร"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=119.35,126.31",
+   "t": [
+    119.35,
+    126.31
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "しばらくすると、会計係の男が、真っ青な顔で飛んで来た。",
+   "furigana": [
+    {
+     "surface": "しばらくすると、",
+     "reading": ""
+    },
+    {
+     "surface": "会計",
+     "reading": "かいけい"
+    },
+    {
+     "surface": "係",
+     "reading": "がかり"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "が、",
+     "reading": ""
+    },
+    {
+     "surface": "真",
+     "reading": "ま"
+    },
+    {
+     "surface": "っ",
+     "reading": ""
+    },
+    {
+     "surface": "青",
+     "reading": "さお"
+    },
+    {
+     "surface": "な",
+     "reading": ""
+    },
+    {
+     "surface": "顔",
+     "reading": "かお"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "飛",
+     "reading": "と"
+    },
+    {
+     "surface": "んで",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "き"
+    },
+    {
+     "surface": "た。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shibaraku suru to, kaikeigakari no otoko ga, massaona kao de tonde kita.",
+   "translations": {
+    "vi": "Một lúc sau, một nhân viên kế toán mặt cắt không còn giọt máu chạy vội tới.",
+    "en": "Shortly afterwards, a clerk from accounts came running, white as a sheet.",
+    "zh-Hans": "过了一会儿，会计员脸色铁青地跑了过来。",
+    "zh-Hant": "過了一會兒，會計員臉色鐵青地跑了過來。",
+    "ko": "잠시 후 회계 담당 남자가 새파랗게 질린 얼굴로 뛰어왔다.",
+    "tl": "Maya-maya, dumating na tumatakbo ang isang kawani sa accounting na putlang-putla.",
+    "ne": "केही बेरपछि लेखा शाखाका एक जना मुख सेतो पारेर दौडिँदै आए।",
+    "id": "Tak lama kemudian, petugas akuntansi berlari datang dengan wajah pucat pasi.",
+    "pt": "Pouco depois, um funcionário da contabilidade veio correndo, branco como cera.",
+    "my": "ခဏကြာတော့ စာရင်းကိုင် ဝန်ထမ်း တစ်ယောက် မျက်နှာ ဖြူဖတ်ဖြူရော်ဖြင့် ပြေးလာသည်။",
+    "th": "ครู่หนึ่งต่อมา เจ้าหน้าที่บัญชีหน้าซีดเผือดวิ่งมา"
+   },
+   "grammarNote": {
+    "vi": "「真っ青」 = xanh mét (mặt tái vì sợ). 「飛んで来る」 = chạy vội tới (như bay).",
+    "en": "真っ青 = \"deathly pale\". 飛んで来る = \"come rushing\".",
+    "zh-Hans": "「真っ青」＝铁青。「飛んで来る」＝飞奔而来。",
+    "zh-Hant": "「真っ青」＝鐵青。「飛んで來る」＝飛奔而來。",
+    "ko": "「真っ青」= 새파랗다. 「飛んで来る」= 뛰어오다.",
+    "tl": "真っ青 = \"putlang-putla\". 飛んで来る = \"dumating na tumatakbo\".",
+    "ne": "「真っ青」= सेतो (डरले)। 「飛んで来る」= दौडिँदै आउनु।",
+    "id": "真っ青 = \"pucat pasi\". 飛んで来る = \"berlari datang\".",
+    "pt": "真っ青 = \"pálido\". 飛んで来る = \"vir correndo\".",
+    "my": "「真っ青」= ဖြူဖတ်ဖြူရော်။",
+    "th": "「真っ青」= ซีดเผือด 「飛んで来る」= วิ่งมา"
+   },
+   "vocab": [
+    {
+     "word": "会計",
+     "reading": "かいけい",
+     "meanings": {
+      "vi": "kế toán",
+      "en": "accounting",
+      "zh-Hans": "会计",
+      "zh-Hant": "會計",
+      "ko": "회계",
+      "tl": "accounting",
+      "ne": "लेखा",
+      "id": "akuntansi",
+      "pt": "contabilidade",
+      "my": "စာရင်းကိုင်",
+      "th": "บัญชี"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "真っ青",
+     "reading": "まっさお",
+     "meanings": {
+      "vi": "xanh mét",
+      "en": "deathly pale",
+      "zh-Hans": "铁青",
+      "zh-Hant": "鐵青",
+      "ko": "새파랗다",
+      "tl": "putlang-putla",
+      "ne": "सेतो (डरले)",
+      "id": "pucat pasi",
+      "pt": "pálido",
+      "my": "ဖြူဖတ်ဖြူရော်",
+      "th": "ซีดเผือด"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=126.91,132.36",
+   "t": [
+    126.91,
+    132.36
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「支配人、給料のお金がなくなりました！盗まれたんです！」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "支配人",
+     "reading": "しはいにん"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "給料",
+     "reading": "きゅうりょう"
+    },
+    {
+     "surface": "のお",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "かね"
+    },
+    {
+     "surface": "がなくなりました！",
+     "reading": ""
+    },
+    {
+     "surface": "盗",
+     "reading": "ぬす"
+    },
+    {
+     "surface": "まれたんです！」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Shihainin, kyuuryou no okane ga nakunarimashita! Nusumareta n desu!”",
+   "translations": {
+    "vi": "\"Thưa giám đốc, tiền lương mất rồi! Bị trộm mất rồi!\"",
+    "en": "\"Sir, the wage money is gone! It's been stolen!\"",
+    "zh-Hans": "\"经理，工资款不见了！被偷了！\"",
+    "zh-Hant": "\"經理，工資款不見了！被偷了！\"",
+    "ko": "\"지배인님, 월급 돈이 없어졌습니다! 도둑맞았어요!\"",
+    "tl": "\"Sir, nawala ang pera ng sahod! Ninakaw!\"",
+    "ne": "\"प्रबन्धकज्यू, तलबको पैसा हरायो! चोरियो!\"",
+    "id": "\"Pak manajer, uang gaji hilang! Dicuri!\"",
+    "pt": "\"Gerente, o dinheiro dos salários sumiu! Foi roubado!\"",
+    "my": "\"မန်နေဂျာ၊ လစာငွေ ပျောက်သွားပြီ! အခိုးခံရပြီ!\"",
+    "th": "\"ท่านผู้จัดการ เงินเดือนหายไปแล้วครับ! ถูกขโมยไปแล้ว!\""
+   },
+   "grammarNote": {
+    "vi": "「盗まれる」 = bị trộm (bị động của 盗む). 「〜んです」 = giải thích, nhấn mạnh tình huống.",
+    "en": "盗まれる = \"be stolen\" (passive of 盗む). 〜んです = explains, stresses the situation.",
+    "zh-Hans": "「盗まれる」＝被偷（被动）。「〜んです」＝说明、强调。",
+    "zh-Hant": "「盜まれる」＝被偷（被動）。「〜んです」＝說明、強調。",
+    "ko": "「盗まれる」= 도둑맞다.",
+    "tl": "盗まれる = \"nakawin\".",
+    "ne": "「盗まれる」= चोरिनु।",
+    "id": "盗まれる = \"dicuri\".",
+    "pt": "盗まれる = \"ser roubado\".",
+    "my": "「盗まれる」= အခိုးခံရ။",
+    "th": "「盗まれる」= ถูกขโมย"
+   },
+   "vocab": [
+    {
+     "word": "盗む",
+     "reading": "ぬすむ",
+     "meanings": {
+      "vi": "ăn trộm",
+      "en": "to steal",
+      "zh-Hans": "偷",
+      "zh-Hant": "偷",
+      "ko": "훔치다",
+      "tl": "magnakaw",
+      "ne": "चोर्नु",
+      "id": "mencuri",
+      "pt": "roubar",
+      "my": "ခိုး",
+      "th": "ขโมย"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=133.26,137.56",
+   "t": [
+    133.26,
+    137.56
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "そのころ事務所は工事中で、給料の計算は、支配人室の隣の応接間でしていた。",
+   "furigana": [
+    {
+     "surface": "そのころ",
+     "reading": ""
+    },
+    {
+     "surface": "事務所",
+     "reading": "じむしょ"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "工事",
+     "reading": "こうじ"
+    },
+    {
+     "surface": "中",
+     "reading": "ちゅう"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "給料",
+     "reading": "きゅうりょう"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "計算",
+     "reading": "けいさん"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "支配人",
+     "reading": "しはいにん"
+    },
+    {
+     "surface": "室",
+     "reading": "しつ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "隣",
+     "reading": "となり"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "応接間",
+     "reading": "おうせつま"
+    },
+    {
+     "surface": "でしていた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono koro jimusho wa koujichuude, kyuuryou no keisan wa, shihainin shitsu no tonari no ousetsuma deshite ita.",
+   "translations": {
+    "vi": "Hồi ấy văn phòng đang sửa chữa, nên việc tính lương được làm trong phòng khách ngay cạnh phòng giám đốc.",
+    "en": "The office was under repair then, so the wages were being counted in the reception room next to the manager's office.",
+    "zh-Hans": "那时事务所正在施工，所以工资的计算是在经理室隔壁的会客室里进行的。",
+    "zh-Hant": "那時事務所正在施工，所以工資的計算是在經理室隔壁的會客室裡進行的。",
+    "ko": "그 무렵 사무소는 공사 중이어서, 월급 계산은 지배인실 옆 응접실에서 하고 있었다.",
+    "tl": "Inaayos noon ang opisina, kaya sa silid-tanggapan sa tabi ng silid ng tagapamahala ginagawa ang pagkuwenta ng sahod.",
+    "ne": "त्यतिबेला कार्यालयमा निर्माण चलिरहेकाले तलबको हिसाब प्रबन्धकको कोठाछेउको बैठक कोठामा गरिँदै थियो।",
+    "id": "Saat itu kantor sedang direnovasi, jadi penghitungan gaji dilakukan di ruang tamu sebelah ruang manajer.",
+    "pt": "Na época o escritório estava em obras, e o cálculo dos salários era feito na sala de visitas ao lado da sala do gerente.",
+    "my": "ထိုစဉ်က ရုံးကို ပြင်ဆင်နေသဖြင့် လစာ တွက်ချက်ခြင်းကို မန်နေဂျာ အခန်းဘေးရှိ ဧည့်ခန်းတွင် ပြုလုပ်နေသည်။",
+    "th": "ตอนนั้นสำนักงานกำลังปรับปรุง การคำนวณเงินเดือนจึงทำในห้องรับแขกข้างห้องผู้จัดการ"
+   },
+   "grammarNote": {
+    "vi": "「工事中」 = đang thi công. 「応接間」 = phòng tiếp khách.",
+    "en": "工事中 = \"under construction\". 応接間 = \"reception room\".",
+    "zh-Hans": "「工事中」＝施工中。「応接間」＝会客室。",
+    "zh-Hant": "「工事中」＝施工中。「応接間」＝會客室。",
+    "ko": "「工事中」= 공사 중. 「応接間」= 응접실.",
+    "tl": "工事中 = \"inaayos\". 応接間 = \"silid-tanggapan\".",
+    "ne": "「工事中」= निर्माणाधीन। 「応接間」= बैठक कोठा।",
+    "id": "工事中 = \"sedang direnovasi\". 応接間 = \"ruang tamu\".",
+    "pt": "工事中 = \"em obras\". 応接間 = \"sala de visitas\".",
+    "my": "「工事中」= ပြင်ဆင်ဆဲ။ 「応接間」= ဧည့်ခန်း။",
+    "th": "「工事中」= กำลังก่อสร้าง 「応接間」= ห้องรับแขก"
+   },
+   "vocab": [
+    {
+     "word": "工事",
+     "reading": "こうじ",
+     "meanings": {
+      "vi": "thi công",
+      "en": "construction work",
+      "zh-Hans": "施工",
+      "zh-Hant": "施工",
+      "ko": "공사",
+      "tl": "konstruksiyon",
+      "ne": "निर्माण",
+      "id": "pembangunan",
+      "pt": "obras",
+      "my": "ဆောက်လုပ်ရေး",
+      "th": "ก่อสร้าง"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "応接間",
+     "reading": "おうせつま",
+     "meanings": {
+      "vi": "phòng khách",
+      "en": "reception room",
+      "zh-Hans": "会客室",
+      "zh-Hant": "會客室",
+      "ko": "응접실",
+      "tl": "silid-tanggapan",
+      "ne": "बैठक कोठा",
+      "id": "ruang tamu",
+      "pt": "sala de visitas",
+      "my": "ဧည့်ခန်း",
+      "th": "ห้องรับแขก"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "計算",
+     "reading": "けいさん",
+     "meanings": {
+      "vi": "tính toán",
+      "en": "calculation",
+      "zh-Hans": "计算",
+      "zh-Hant": "計算",
+      "ko": "계산",
+      "tl": "pagkuwenta",
+      "ne": "हिसाब",
+      "id": "penghitungan",
+      "pt": "cálculo",
+      "my": "တွက်ချက်",
+      "th": "คำนวณ"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=138.46,146.01",
+   "t": [
+    138.46,
+    146.01
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "昼休みに、係の者はみな、だれかが残るだろうと思って、全員食堂へ行ってしまった。",
+   "furigana": [
+    {
+     "surface": "昼休",
+     "reading": "ひるやす"
+    },
+    {
+     "surface": "みに、",
+     "reading": ""
+    },
+    {
+     "surface": "係",
+     "reading": "かかり"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "者",
+     "reading": "もの"
+    },
+    {
+     "surface": "はみな、だれかが",
+     "reading": ""
+    },
+    {
+     "surface": "残",
+     "reading": "のこ"
+    },
+    {
+     "surface": "るだろうと",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "って、",
+     "reading": ""
+    },
+    {
+     "surface": "全員",
+     "reading": "ぜんいん"
+    },
+    {
+     "surface": "食堂",
+     "reading": "しょくどう"
+    },
+    {
+     "surface": "へ",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "ってしまった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hiruyasumi ni, kakari no mono wa mina, dare ka ga nokoru darou to omotte, zen'in shokudou e itte shimatta.",
+   "translations": {
+    "vi": "Giờ nghỉ trưa, ai cũng nghĩ sẽ có người khác ở lại, nên tất cả đều kéo nhau xuống nhà ăn.",
+    "en": "At lunch break, each clerk assumed someone else would stay, so every one of them went to the canteen.",
+    "zh-Hans": "午休时，职员们都以为会有人留下，结果全都去了食堂。",
+    "zh-Hant": "午休時，職員們都以為會有人留下，結果全都去了食堂。",
+    "ko": "점심시간에 담당자들은 누군가 남겠지 하고 생각해서 모두 식당으로 가 버렸다.",
+    "tl": "Sa tanghalian, inakala ng lahat na may maiiwan, kaya lahat sila'y nagpunta sa kantina.",
+    "ne": "दिउँसोको विश्राममा सबैले कोही बस्ला भन्ने ठाने, त्यसैले सबैजना भोजनालय गए।",
+    "id": "Saat istirahat siang, semua mengira ada yang tinggal, jadi mereka semua pergi ke kantin.",
+    "pt": "No intervalo do almoço, cada um achou que outro ficaria, e todos foram ao refeitório.",
+    "my": "နေ့လယ်နားချိန်တွင် တစ်ယောက်ယောက် ကျန်နေမယ်ဟု ထင်ကြပြီး အားလုံး စားသောက်ခန်းသို့ သွားကြသည်။",
+    "th": "ช่วงพักกลางวัน ทุกคนคิดว่าคงมีใครอยู่ จึงไปโรงอาหารกันหมด"
+   },
+   "grammarNote": {
+    "vi": "「だれかが〜だろう」 = chắc ai đó sẽ…. 「全員」 = toàn bộ mọi người. Lỗ hổng nhỏ dẫn đến vụ trộm lớn!",
+    "en": "だれかが〜だろう = \"surely someone will…\". 全員 = \"everyone\". A small slip leads to a big theft!",
+    "zh-Hans": "「だれかが〜だろう」＝总会有人……吧。「全員」＝全体。小疏忽导致大盗案！",
+    "zh-Hant": "「だれかが〜だろう」＝總會有人……吧。「全員」＝全體。小疏忽導致大盜案！",
+    "ko": "「全員」= 전원.",
+    "tl": "全員 = \"lahat\".",
+    "ne": "「全員」= सबैजना।",
+    "id": "全員 = \"semua orang\".",
+    "pt": "全員 = \"todos\".",
+    "my": "「全員」= အားလုံး။",
+    "th": "「全員」= ทุกคน"
+   },
+   "vocab": [
+    {
+     "word": "昼休み",
+     "reading": "ひるやすみ",
+     "meanings": {
+      "vi": "nghỉ trưa",
+      "en": "lunch break",
+      "zh-Hans": "午休",
+      "zh-Hant": "午休",
+      "ko": "점심시간",
+      "tl": "tanghalian",
+      "ne": "दिउँसोको विश्राम",
+      "id": "istirahat siang",
+      "pt": "intervalo do almoço",
+      "my": "နေ့လယ်နားချိန်",
+      "th": "พักกลางวัน"
+     },
+     "level": "N4"
+    },
+    {
+     "word": "全員",
+     "reading": "ぜんいん",
+     "meanings": {
+      "vi": "toàn bộ mọi người",
+      "en": "everyone",
+      "zh-Hans": "全体人员",
+      "zh-Hant": "全體人員",
+      "ko": "전원",
+      "tl": "lahat",
+      "ne": "सबैजना",
+      "id": "semua orang",
+      "pt": "todos",
+      "my": "အားလုံး",
+      "th": "ทุกคน"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=146.61,154.59",
+   "t": [
+    146.61,
+    154.59
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "かぎもかからない部屋に、札束の入ったかばんが、半時間ほど置きっぱなしになっていたのだ。",
+   "furigana": [
+    {
+     "surface": "かぎもかからない",
+     "reading": ""
+    },
+    {
+     "surface": "部屋",
+     "reading": "へや"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "札",
+     "reading": "さつ"
+    },
+    {
+     "surface": "束",
+     "reading": "たば"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "入",
+     "reading": "はい"
+    },
+    {
+     "surface": "ったかばんが、",
+     "reading": ""
+    },
+    {
+     "surface": "半時間",
+     "reading": "はんじかん"
+    },
+    {
+     "surface": "ほど",
+     "reading": ""
+    },
+    {
+     "surface": "置",
+     "reading": "お"
+    },
+    {
+     "surface": "きっぱなしになっていたのだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kagi mo kakaranai heya ni, satsu taba no haitta kaban ga, hanjikan hodo okippanashi ni natte ita no da.",
+   "translations": {
+    "vi": "Chiếc cặp đựng những xấp tiền bị bỏ mặc gần nửa tiếng trong căn phòng không khóa cửa.",
+    "en": "A bag full of bundles of notes had been left for about half an hour in an unlocked room.",
+    "zh-Hans": "装满钞票的皮包在没上锁的房间里被扔了半个小时左右。",
+    "zh-Hant": "裝滿鈔票的皮包在沒上鎖的房間裡被扔了半個小時左右。",
+    "ko": "열쇠도 잠기지 않은 방에 지폐 다발이 든 가방이 30분쯤 방치되어 있었던 것이다.",
+    "tl": "Naiwan nang mga kalahating oras ang bag na puno ng salapi sa isang silid na hindi nakakandado.",
+    "ne": "ताल्चा नलागेको कोठामा नोटका मुठा भएको झोला आधा घण्टाजति छाडिएको थियो।",
+    "id": "Tas berisi tumpukan uang dibiarkan sekitar setengah jam di ruangan yang tak terkunci.",
+    "pt": "Uma maleta cheia de maços de notas ficou largada meia hora numa sala destrancada.",
+    "my": "သော့မခတ်ထားသော အခန်းထဲတွင် ငွေထုပ်များ ပါသော အိတ်ကို နာရီဝက်ခန့် ပစ်ထားခဲ့သည်။",
+    "th": "กระเป๋าใส่ปึกธนบัตรถูกทิ้งไว้ราวครึ่งชั่วโมงในห้องที่ไม่ได้ล็อก"
+   },
+   "grammarNote": {
+    "vi": "「札束」 = xấp tiền. 「Vっぱなし」 = để nguyên V (bỏ mặc không xử lý).",
+    "en": "札束 = \"bundle of notes\". Vっぱなし = \"left V-ed\" (left as is, neglected).",
+    "zh-Hans": "「札束」＝钞票捆。「Vっぱなし」＝一直V着不管。",
+    "zh-Hant": "「札束」＝鈔票捆。「Vっぱなし」＝一直V著不管。",
+    "ko": "「札束」= 지폐 다발. 「Vっぱなし」= …한 채 내버려 둠.",
+    "tl": "札束 = \"bungkos ng pera\". Vっぱなし = \"iniwan lang\".",
+    "ne": "「札束」= नोटको मुठा। 「Vっぱなし」= छाडिराख्नु।",
+    "id": "札束 = \"tumpukan uang\". Vっぱなし = \"dibiarkan\".",
+    "pt": "札束 = \"maço de notas\". Vっぱなし = \"deixado assim\".",
+    "my": "「札束」= ငွေထုပ်။",
+    "th": "「札束」= ปึกธนบัตร 「Vっぱなし」= ทิ้งไว้อย่างนั้น"
+   },
+   "vocab": [
+    {
+     "word": "束",
+     "reading": "たば",
+     "meanings": {
+      "vi": "xấp, bó",
+      "en": "bundle",
+      "zh-Hans": "捆",
+      "zh-Hant": "捆",
+      "ko": "다발",
+      "tl": "bungkos",
+      "ne": "मुठा",
+      "id": "ikat",
+      "pt": "maço",
+      "my": "ထုပ်",
+      "th": "ปึก"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "かばん",
+     "reading": "かばん",
+     "meanings": {
+      "vi": "cặp, túi",
+      "en": "bag",
+      "zh-Hans": "皮包",
+      "zh-Hant": "皮包",
+      "ko": "가방",
+      "tl": "bag",
+      "ne": "झोला",
+      "id": "tas",
+      "pt": "maleta",
+      "my": "အိတ်",
+      "th": "กระเป๋า"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=155.19,162.02",
+   "t": [
+    155.19,
+    162.02
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "犯人は、その間に忍びこみ、二十円札と十円札の束だけを持ち去った。",
+   "furigana": [
+    {
+     "surface": "犯人",
+     "reading": "はんにん"
+    },
+    {
+     "surface": "は、その",
+     "reading": ""
+    },
+    {
+     "surface": "間",
+     "reading": "あいだ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "忍",
+     "reading": "しの"
+    },
+    {
+     "surface": "びこみ、",
+     "reading": ""
+    },
+    {
+     "surface": "二十円",
+     "reading": "にじゅうえん"
+    },
+    {
+     "surface": "札",
+     "reading": "さつ"
+    },
+    {
+     "surface": "と",
+     "reading": ""
+    },
+    {
+     "surface": "十円",
+     "reading": "じゅうえん"
+    },
+    {
+     "surface": "札",
+     "reading": "さつ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "束",
+     "reading": "たば"
+    },
+    {
+     "surface": "だけを",
+     "reading": ""
+    },
+    {
+     "surface": "持",
+     "reading": "も"
+    },
+    {
+     "surface": "ち",
+     "reading": ""
+    },
+    {
+     "surface": "去",
+     "reading": "さ"
+    },
+    {
+     "surface": "った。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hannin wa, sonoaida ni shinobi komi, nijuuen satsu to juuen satsu no taba dake o mochisatta.",
+   "translations": {
+    "vi": "Thủ phạm đã lẻn vào trong lúc đó, chỉ mang đi những xấp tiền hai mươi yên và mười yên.",
+    "en": "In that time the culprit had slipped in and taken only the bundles of twenty- and ten-yen notes.",
+    "zh-Hans": "犯人趁机溜进去，只拿走了二十元和十元的钞票捆。",
+    "zh-Hant": "犯人趁機溜進去，只拿走了二十元和十元的鈔票捆。",
+    "ko": "범인은 그사이에 숨어 들어와 20엔권과 10엔권 다발만 가져갔다.",
+    "tl": "Sa pagkakataong iyon, pumuslit ang salarin at kinuha lamang ang mga bungkos ng dalawampu't sampung yen.",
+    "ne": "त्यस बीचमा अपराधी छिर्यो र बीस र दस येनका मुठा मात्र लगेर गयो।",
+    "id": "Pelaku menyusup saat itu dan hanya membawa ikatan uang dua puluh dan sepuluh yen.",
+    "pt": "Nesse meio-tempo o culpado entrou às escondidas e levou só os maços de vinte e dez ienes.",
+    "my": "ထိုအတောအတွင်း တရားခံ ခိုးဝင်ပြီး ယန်း နှစ်ဆယ်နှင့် ဆယ် ငွေထုပ်များကိုသာ ယူသွားသည်။",
+    "th": "ระหว่างนั้นคนร้ายย่องเข้ามา แล้วเอาไปเฉพาะปึกธนบัตรยี่สิบเยนกับสิบเยน"
+   },
+   "grammarNote": {
+    "vi": "「忍びこむ」 = lẻn vào. 「持ち去る」 = mang đi mất. 「〜だけ」 = chỉ….",
+    "en": "忍びこむ = \"sneak in\". 持ち去る = \"carry off\". 〜だけ = \"only\".",
+    "zh-Hans": "「忍びこむ」＝溜进。「持ち去る」＝拿走。",
+    "zh-Hant": "「忍びこむ」＝溜進。「持ち去る」＝拿走。",
+    "ko": "「忍びこむ」= 숨어들다. 「持ち去る」= 가져가다.",
+    "tl": "忍びこむ = \"pumuslit\". 持ち去る = \"tangayin\".",
+    "ne": "「忍びこむ」= छिर्नु। 「持ち去る」= लैजानु।",
+    "id": "忍びこむ = \"menyusup\". 持ち去る = \"membawa kabur\".",
+    "pt": "忍びこむ = \"infiltrar-se\". 持ち去る = \"levar\".",
+    "my": "「忍びこむ」= ခိုးဝင်။",
+    "th": "「忍びこむ」= ย่องเข้า 「持ち去る」= เอาไป"
+   },
+   "vocab": [
+    {
+     "word": "犯人",
+     "reading": "はんにん",
+     "meanings": {
+      "vi": "thủ phạm",
+      "en": "culprit",
+      "zh-Hans": "犯人",
+      "zh-Hant": "犯人",
+      "ko": "범인",
+      "tl": "salarin",
+      "ne": "अपराधी",
+      "id": "pelaku",
+      "pt": "culpado",
+      "my": "တရားခံ",
+      "th": "คนร้าย"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "持ち去る",
+     "reading": "もちさる",
+     "meanings": {
+      "vi": "mang đi mất",
+      "en": "to carry off",
+      "zh-Hans": "拿走",
+      "zh-Hant": "拿走",
+      "ko": "가져가다",
+      "tl": "tangayin",
+      "ne": "लैजानु",
+      "id": "membawa kabur",
+      "pt": "levar embora",
+      "my": "ယူသွား",
+      "th": "เอาไป"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=162.62,170.05",
+   "t": [
+    162.62,
+    170.05
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "損害は、およそ五万円という大金だった。",
+   "furigana": [
+    {
+     "surface": "損害",
+     "reading": "そんがい"
+    },
+    {
+     "surface": "は、およそ",
+     "reading": ""
+    },
+    {
+     "surface": "五万円",
+     "reading": "ごまんえん"
+    },
+    {
+     "surface": "という",
+     "reading": ""
+    },
+    {
+     "surface": "大金",
+     "reading": "たいきん"
+    },
+    {
+     "surface": "だった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Songai wa, oyoso goman'en to iu taikin datta.",
+   "translations": {
+    "vi": "Thiệt hại lên tới khoảng năm vạn yên — một món tiền khổng lồ.",
+    "en": "The loss came to some fifty thousand yen — a huge sum.",
+    "zh-Hans": "损失大约有五万元之巨。",
+    "zh-Hant": "損失大約有五萬元之巨。",
+    "ko": "피해액은 약 5만 엔이라는 거금이었다.",
+    "tl": "Umabot sa mga limampung libong yen ang nawala — napakalaking halaga.",
+    "ne": "क्षति झन्डै पचास हजार येनको ठूलो रकम थियो।",
+    "id": "Kerugiannya sekitar lima puluh ribu yen — jumlah yang sangat besar.",
+    "pt": "O prejuízo chegou a uns cinquenta mil ienes — uma fortuna.",
+    "my": "ဆုံးရှုံးမှုမှာ ယန်း ငါးသောင်းခန့် — ငွေ အမြောက်အမြား ဖြစ်သည်။",
+    "th": "ความเสียหายราวห้าหมื่นเยน — เงินก้อนมหาศาล"
+   },
+   "grammarNote": {
+    "vi": "「損害」 = thiệt hại. 「およそ」 = khoảng chừng. 「大金」 = món tiền lớn. 5 vạn yên hồi 1923 là cả gia tài.",
+    "en": "損害 = \"damage, loss\". およそ = \"about\". 大金 = \"a large sum\". ¥50,000 in 1923 was a fortune.",
+    "zh-Hans": "「損害」＝损失。「およそ」＝大约。「大金」＝巨款。1923年的五万元是一笔巨额财富。",
+    "zh-Hant": "「損害」＝損失。「およそ」＝大約。「大金」＝鉅款。1923年的五萬元是一筆鉅額財富。",
+    "ko": "「損害」= 손해. 「およそ」= 약. 「大金」= 거금.",
+    "tl": "損害 = \"pinsala\". およそ = \"mga\". 大金 = \"malaking halaga\".",
+    "ne": "「損害」= क्षति। 「およそ」= झन्डै। 「大金」= ठूलो रकम।",
+    "id": "損害 = \"kerugian\". およそ = \"sekitar\". 大金 = \"uang besar\".",
+    "pt": "損害 = \"prejuízo\". およそ = \"cerca de\". 大金 = \"fortuna\".",
+    "my": "「損害」= ဆုံးရှုံးမှု။ 「大金」= ငွေ အမြောက်အမြား။",
+    "th": "「損害」= ความเสียหาย 「およそ」= ราว ๆ 「大金」= เงินก้อนใหญ่"
+   },
+   "vocab": [
+    {
+     "word": "損害",
+     "reading": "そんがい",
+     "meanings": {
+      "vi": "thiệt hại",
+      "en": "damage, loss",
+      "zh-Hans": "损失",
+      "zh-Hant": "損失",
+      "ko": "손해",
+      "tl": "pinsala",
+      "ne": "क्षति",
+      "id": "kerugian",
+      "pt": "prejuízo",
+      "my": "ဆုံးရှုံးမှု",
+      "th": "ความเสียหาย"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "およそ",
+     "reading": "およそ",
+     "meanings": {
+      "vi": "khoảng chừng",
+      "en": "about",
+      "zh-Hans": "大约",
+      "zh-Hant": "大約",
+      "ko": "약",
+      "tl": "mga",
+      "ne": "झन्डै",
+      "id": "sekitar",
+      "pt": "cerca de",
+      "my": "ခန့်",
+      "th": "ประมาณ"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "大金",
+     "reading": "たいきん",
+     "meanings": {
+      "vi": "món tiền lớn",
+      "en": "large sum",
+      "zh-Hans": "巨款",
+      "zh-Hant": "鉅款",
+      "ko": "거금",
+      "tl": "malaking halaga",
+      "ne": "ठूलो रकम",
+      "id": "uang besar",
+      "pt": "fortuna",
+      "my": "ငွေအမြောက်အမြား",
+      "th": "เงินก้อนใหญ่"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=170.65,174.43",
+   "t": [
+    170.65,
+    174.43
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "新聞社に電話をかけると、そんな記者はいないという返事だった。",
+   "furigana": [
+    {
+     "surface": "新聞",
+     "reading": "しんぶん"
+    },
+    {
+     "surface": "社",
+     "reading": "しゃ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "電話",
+     "reading": "でんわ"
+    },
+    {
+     "surface": "をかけると、そんな",
+     "reading": ""
+    },
+    {
+     "surface": "記者",
+     "reading": "きしゃ"
+    },
+    {
+     "surface": "はいないという",
+     "reading": ""
+    },
+    {
+     "surface": "返事",
+     "reading": "へんじ"
+    },
+    {
+     "surface": "だった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shinbunsha ni denwa o kakeru to, sonna kisha wa inai to iu henji datta.",
+   "translations": {
+    "vi": "Gọi điện đến tòa báo thì được trả lời là không có phóng viên nào như thế.",
+    "en": "When they phoned the newspaper, they were told there was no such reporter.",
+    "zh-Hans": "打电话到报社一问，回答说根本没有这样的记者。",
+    "zh-Hant": "打電話到報社一問，回答說根本沒有這樣的記者。",
+    "ko": "신문사에 전화를 걸자 그런 기자는 없다는 대답이었다.",
+    "tl": "Nang tawagan ang pahayagan, sinabing walang ganoong reporter.",
+    "ne": "पत्रिकामा फोन गर्दा त्यस्तो पत्रकार छैन भन्ने जवाफ आयो।",
+    "id": "Ketika menelepon surat kabar, dijawab bahwa tak ada wartawan seperti itu.",
+    "pt": "Ao ligarem para o jornal, responderam que não existia tal repórter.",
+    "my": "သတင်းစာတိုက်ကို ဖုန်းဆက်တော့ ထိုသို့သော သတင်းထောက် မရှိဟု ဖြေသည်။",
+    "th": "โทรไปที่หนังสือพิมพ์ ได้คำตอบว่าไม่มีนักข่าวแบบนั้น"
+   },
+   "grammarNote": {
+    "vi": "「電話をかける」 = gọi điện. 「〜という返事」 = câu trả lời rằng….",
+    "en": "電話をかける = \"make a phone call\". 〜という返事 = \"a reply saying…\".",
+    "zh-Hans": "「電話をかける」＝打电话。「〜という返事」＝回答说……。",
+    "zh-Hant": "「電話をかける」＝打電話。「〜という返事」＝回答說……。",
+    "ko": "「電話をかける」= 전화를 걸다. 「〜という返事」= …라는 대답.",
+    "tl": "電話をかける = \"tumawag\".",
+    "ne": "「電話をかける」= फोन गर्नु।",
+    "id": "電話をかける = \"menelepon\".",
+    "pt": "電話をかける = \"telefonar\".",
+    "my": "「電話をかける」= ဖုန်းဆက်။",
+    "th": "「電話をかける」= โทรศัพท์ 「〜という返事」= คำตอบว่า…"
+   },
+   "vocab": [
+    {
+     "word": "返事",
+     "reading": "へんじ",
+     "meanings": {
+      "vi": "câu trả lời",
+      "en": "reply",
+      "zh-Hans": "回答",
+      "zh-Hant": "回答",
+      "ko": "대답",
+      "tl": "sagot",
+      "ne": "जवाफ",
+      "id": "jawaban",
+      "pt": "resposta",
+      "my": "အဖြေ",
+      "th": "คำตอบ"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=175.03,180.12",
+   "t": [
+    175.03,
+    180.12
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "新聞はこの犯人を「紳士泥棒」と呼んで、大きく書き立てた。",
+   "furigana": [
+    {
+     "surface": "新聞",
+     "reading": "しんぶん"
+    },
+    {
+     "surface": "はこの",
+     "reading": ""
+    },
+    {
+     "surface": "犯人",
+     "reading": "はんにん"
+    },
+    {
+     "surface": "を「",
+     "reading": ""
+    },
+    {
+     "surface": "紳士",
+     "reading": "しんし"
+    },
+    {
+     "surface": "泥棒",
+     "reading": "どろぼう"
+    },
+    {
+     "surface": "」と",
+     "reading": ""
+    },
+    {
+     "surface": "呼",
+     "reading": "よ"
+    },
+    {
+     "surface": "んで、",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "きく",
+     "reading": ""
+    },
+    {
+     "surface": "書",
+     "reading": "か"
+    },
+    {
+     "surface": "き",
+     "reading": ""
+    },
+    {
+     "surface": "立",
+     "reading": "た"
+    },
+    {
+     "surface": "てた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shinbun wa kono hannin o “Shinshi dorobou” to yonde, ookiku kakitateta.",
+   "translations": {
+    "vi": "Báo chí gọi kẻ phạm tội này là \"Tên trộm quý ông\" và đăng tin rầm rộ.",
+    "en": "The papers called the culprit \"the Gentleman Thief\" and wrote him up in a big way.",
+    "zh-Hans": "报纸称这个犯人为\"绅士大盗\"，大肆报道。",
+    "zh-Hant": "報紙稱這個犯人為\"紳士大盜\"，大肆報道。",
+    "ko": "신문은 이 범인을 '신사 도둑'이라 부르며 크게 써 댔다.",
+    "tl": "Tinawag ng mga pahayagan ang salarin na \"Ang Ginoong Magnanakaw\" at malakihang isinulat.",
+    "ne": "पत्रिकाहरूले यस अपराधीलाई \"भद्र चोर\" भनेर ठूलो समाचार बनाए।",
+    "id": "Surat kabar menyebut pelaku ini \"Pencuri Budiman\" dan memberitakannya besar-besaran.",
+    "pt": "Os jornais chamaram o culpado de \"o Ladrão Cavalheiro\" e deram grande destaque.",
+    "my": "သတင်းစာများက ထိုတရားခံကို \"လူကြီးလူကောင်း သူခိုး\" ဟု ခေါ်ပြီး ကျယ်ကျယ်လောင်လောင် ရေးကြသည်။",
+    "th": "หนังสือพิมพ์เรียกคนร้ายว่า \"จอมโจรสุภาพบุรุษ\" และเขียนข่าวใหญ่โต"
+   },
+   "grammarNote": {
+    "vi": "「AをBと呼ぶ」 = gọi A là B. 「書き立てる」 = viết rầm rộ, thổi phồng.",
+    "en": "AをBと呼ぶ = \"call A B\". 書き立てる = \"write up sensationally\".",
+    "zh-Hans": "「AをBと呼ぶ」＝把A叫做B。「書き立てる」＝大肆报道。",
+    "zh-Hant": "「AをBと呼ぶ」＝把A叫做B。「書き立てる」＝大肆報道。",
+    "ko": "「AをBと呼ぶ」= A를 B라고 부르다. 「書き立てる」= 떠들썩하게 써 대다.",
+    "tl": "AをBと呼ぶ = \"tawagin ang A na B\".",
+    "ne": "「AをBと呼ぶ」= A लाई B भन्नु।",
+    "id": "AをBと呼ぶ = \"menyebut A sebagai B\".",
+    "pt": "AをBと呼ぶ = \"chamar A de B\".",
+    "my": "「AをBと呼ぶ」= A ကို B ဟု ခေါ်။",
+    "th": "「AをBと呼ぶ」= เรียก A ว่า B 「書き立てる」= เขียนข่าวใหญ่โต"
+   },
+   "vocab": [
+    {
+     "word": "書き立てる",
+     "reading": "かきたてる",
+     "meanings": {
+      "vi": "viết rầm rộ",
+      "en": "to write up sensationally",
+      "zh-Hans": "大肆报道",
+      "zh-Hant": "大肆報道",
+      "ko": "떠들썩하게 쓰다",
+      "tl": "isulat nang malakihan",
+      "ne": "ठूलो समाचार बनाउनु",
+      "id": "memberitakan besar-besaran",
+      "pt": "dar destaque",
+      "my": "ကျယ်ကျယ်လောင်လောင် ရေး",
+      "th": "เขียนข่าวใหญ่โต"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=180.72,186.29",
+   "t": [
+    180.72,
+    186.29
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ところが、警察が現場を捜査しても、証拠や手がかりは一つも見つからなかった。",
+   "furigana": [
+    {
+     "surface": "ところが、",
+     "reading": ""
+    },
+    {
+     "surface": "警察",
+     "reading": "けいさつ"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "現場",
+     "reading": "げんば"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "捜査",
+     "reading": "そうさ"
+    },
+    {
+     "surface": "しても、",
+     "reading": ""
+    },
+    {
+     "surface": "証拠",
+     "reading": "しょうこ"
+    },
+    {
+     "surface": "や",
+     "reading": ""
+    },
+    {
+     "surface": "手",
+     "reading": "て"
+    },
+    {
+     "surface": "がかりは",
+     "reading": ""
+    },
+    {
+     "surface": "一",
+     "reading": "ひと"
+    },
+    {
+     "surface": "つも",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "つからなかった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tokoroga, keisatsu ga genba o sousa shite mo, shouko ya tegakari wa hitotsu mo mitsukaranakatta.",
+   "translations": {
+    "vi": "Thế nhưng cảnh sát khám xét hiện trường mà chẳng tìm thấy bằng chứng hay manh mối nào.",
+    "en": "Yet even when the police searched the scene, they found no evidence and not a single clue.",
+    "zh-Hans": "然而警察勘查了现场，却连一点证据和线索都没找到。",
+    "zh-Hant": "然而警察勘查了現場，卻連一點證據和線索都沒找到。",
+    "ko": "그런데 경찰이 현장을 수사해도 증거나 단서는 하나도 발견되지 않았다.",
+    "tl": "Ngunit kahit siniyasat ng pulisya ang lugar, walang ebidensiya o bakas na natagpuan.",
+    "ne": "तर प्रहरीले घटनास्थलको अनुसन्धान गर्दा पनि कुनै प्रमाण वा सुराक भेटिएन।",
+    "id": "Namun, meski polisi menyelidiki TKP, tak satu pun bukti atau petunjuk ditemukan.",
+    "pt": "Mas, mesmo vasculhando a cena, a polícia não achou nenhuma prova ou pista.",
+    "my": "သို့သော် ရဲက အခင်းဖြစ်ပွားရာ နေရာကို စုံစမ်းသော်လည်း သက်သေ သို့မဟုတ် သဲလွန်စ တစ်ခုမှ မတွေ့ပါ။",
+    "th": "แต่แม้ตำรวจจะสืบที่เกิดเหตุ ก็ไม่พบหลักฐานหรือเบาะแสใด ๆ เลย"
+   },
+   "grammarNote": {
+    "vi": "「現場」 = hiện trường. 「捜査」 = điều tra (của cảnh sát). 「証拠」 = bằng chứng. 「手がかり」 = manh mối. Từ vựng trinh thám cốt lõi!",
+    "en": "現場 = \"the scene\". 捜査 = \"(police) investigation\". 証拠 = \"evidence\". 手がかり = \"clue\". Core mystery vocabulary!",
+    "zh-Hans": "「現場」＝现场。「捜査」＝搜查。「証拠」＝证据。「手がかり」＝线索。侦探小说核心词汇！",
+    "zh-Hant": "「現場」＝現場。「捜査」＝搜查。「証拠」＝證據。「手がかり」＝線索。偵探小說核心詞彙！",
+    "ko": "「現場」= 현장. 「捜査」= 수사. 「証拠」= 증거. 「手がかり」= 단서.",
+    "tl": "現場 = \"lugar ng krimen\". 捜査 = \"imbestigasyon\". 証拠 = \"ebidensiya\". 手がかり = \"bakas\".",
+    "ne": "「現場」= घटनास्थल। 「捜査」= अनुसन्धान। 「証拠」= प्रमाण। 「手がかり」= सुराक।",
+    "id": "現場 = \"TKP\". 捜査 = \"penyelidikan\". 証拠 = \"bukti\". 手がかり = \"petunjuk\".",
+    "pt": "現場 = \"cena\". 捜査 = \"investigação\". 証拠 = \"prova\". 手がかり = \"pista\".",
+    "my": "「証拠」= သက်သေ။ 「手がかり」= သဲလွန်စ။",
+    "th": "「現場」= ที่เกิดเหตุ 「捜査」= สืบสวน 「証拠」= หลักฐาน 「手がかり」= เบาะแส"
+   },
+   "vocab": [
+    {
+     "word": "現場",
+     "reading": "げんば",
+     "meanings": {
+      "vi": "hiện trường",
+      "en": "the scene",
+      "zh-Hans": "现场",
+      "zh-Hant": "現場",
+      "ko": "현장",
+      "tl": "lugar ng pangyayari",
+      "ne": "घटनास्थल",
+      "id": "TKP",
+      "pt": "cena",
+      "my": "အခင်းဖြစ်ရာ",
+      "th": "ที่เกิดเหตุ"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "捜査",
+     "reading": "そうさ",
+     "meanings": {
+      "vi": "điều tra",
+      "en": "investigation",
+      "zh-Hans": "搜查",
+      "zh-Hant": "搜查",
+      "ko": "수사",
+      "tl": "imbestigasyon",
+      "ne": "अनुसन्धान",
+      "id": "penyelidikan",
+      "pt": "investigação",
+      "my": "စုံစမ်း",
+      "th": "สืบสวน"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "証拠",
+     "reading": "しょうこ",
+     "meanings": {
+      "vi": "bằng chứng",
+      "en": "evidence",
+      "zh-Hans": "证据",
+      "zh-Hant": "證據",
+      "ko": "증거",
+      "tl": "ebidensiya",
+      "ne": "प्रमाण",
+      "id": "bukti",
+      "pt": "prova",
+      "my": "သက်သေ",
+      "th": "หลักฐาน"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "手がかり",
+     "reading": "てがかり",
+     "meanings": {
+      "vi": "manh mối",
+      "en": "clue",
+      "zh-Hans": "线索",
+      "zh-Hant": "線索",
+      "ko": "단서",
+      "tl": "bakas",
+      "ne": "सुराक",
+      "id": "petunjuk",
+      "pt": "pista",
+      "my": "သဲလွန်စ",
+      "th": "เบาะแส"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=186.89,193.67",
+   "t": [
+    186.89,
+    193.67
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "眼鏡や口ひげは、変装にいちばんよく使われる道具なので、当てにならない。",
+   "furigana": [
+    {
+     "surface": "眼鏡",
+     "reading": "めがね"
+    },
+    {
+     "surface": "や",
+     "reading": ""
+    },
+    {
+     "surface": "口",
+     "reading": "くち"
+    },
+    {
+     "surface": "ひげは、",
+     "reading": ""
+    },
+    {
+     "surface": "変装",
+     "reading": "へんそう"
+    },
+    {
+     "surface": "にいちばんよく",
+     "reading": ""
+    },
+    {
+     "surface": "使",
+     "reading": "つか"
+    },
+    {
+     "surface": "われる",
+     "reading": ""
+    },
+    {
+     "surface": "道具",
+     "reading": "どうぐ"
+    },
+    {
+     "surface": "なので、",
+     "reading": ""
+    },
+    {
+     "surface": "当",
+     "reading": "あ"
+    },
+    {
+     "surface": "てにならない。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Megane ya kuchihige wa, hensou ni ichiban yoku tsukawareru douguna node, ate ni naranai.",
+   "translations": {
+    "vi": "Kính và ria mép là thứ hay dùng nhất để cải trang, nên chẳng thể dựa vào.",
+    "en": "Glasses and a moustache are the most common disguise, so they couldn't be relied on.",
+    "zh-Hans": "眼镜和胡子是最常用的乔装道具，所以靠不住。",
+    "zh-Hant": "眼鏡和鬍子是最常用的喬裝道具，所以靠不住。",
+    "ko": "안경이나 콧수염은 변장에 가장 흔히 쓰이는 도구라 믿을 수 없다.",
+    "tl": "Ang salamin at bigote ang pinakakaraniwang pambalatkayo, kaya hindi maaasahan.",
+    "ne": "चस्मा र जुँगा भेष बदल्न सबैभन्दा धेरै प्रयोग हुने चीज भएकाले भरोसा गर्न सकिँदैन।",
+    "id": "Kacamata dan kumis adalah alat penyamaran paling umum, jadi tak bisa diandalkan.",
+    "pt": "Óculos e bigode são o disfarce mais comum, então não serviam de base.",
+    "my": "မျက်မှန်နှင့် နှုတ်ခမ်းမွေးသည် ရုပ်ဖျက်ရာတွင် အသုံးအများဆုံး ဖြစ်၍ အားကိုး၍ မရ။",
+    "th": "แว่นกับหนวดเป็นของที่ใช้ปลอมตัวบ่อยที่สุด จึงเชื่อถือไม่ได้"
+   },
+   "grammarNote": {
+    "vi": "「変装」 = cải trang. 「当てにならない」 = không đáng tin, không thể trông cậy.",
+    "en": "変装 = \"disguise\". 当てにならない = \"can't be relied on\".",
+    "zh-Hans": "「変装」＝乔装。「当てにならない」＝靠不住。",
+    "zh-Hant": "「変裝」＝喬裝。「當てにならない」＝靠不住。",
+    "ko": "「変装」= 변장. 「当てにならない」= 믿을 수 없다.",
+    "tl": "変装 = \"pagbabalatkayo\". 当てにならない = \"hindi maaasahan\".",
+    "ne": "「変装」= भेष बदल्ने। 「当てにならない」= भरोसा गर्न नसकिने।",
+    "id": "変装 = \"penyamaran\". 当てにならない = \"tak bisa diandalkan\".",
+    "pt": "変装 = \"disfarce\". 当てにならない = \"não confiável\".",
+    "my": "「変装」= ရုပ်ဖျက်။",
+    "th": "「変装」= ปลอมตัว 「当てにならない」= เชื่อถือไม่ได้"
+   },
+   "vocab": [
+    {
+     "word": "変装",
+     "reading": "へんそう",
+     "meanings": {
+      "vi": "cải trang",
+      "en": "disguise",
+      "zh-Hans": "乔装",
+      "zh-Hant": "喬裝",
+      "ko": "변장",
+      "tl": "pagbabalatkayo",
+      "ne": "भेष बदल्नु",
+      "id": "penyamaran",
+      "pt": "disfarce",
+      "my": "ရုပ်ဖျက်",
+      "th": "ปลอมตัว"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "道具",
+     "reading": "どうぐ",
+     "meanings": {
+      "vi": "dụng cụ",
+      "en": "tool",
+      "zh-Hans": "工具",
+      "zh-Hant": "工具",
+      "ko": "도구",
+      "tl": "kasangkapan",
+      "ne": "औजार",
+      "id": "alat",
+      "pt": "ferramenta",
+      "my": "ကိရိယာ",
+      "th": "อุปกรณ์"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=194.27,200.68",
+   "t": [
+    194.27,
+    200.68
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "一日、二日、三日と過ぎ、あらゆる手段が使われた。駅には見張りが立ち、全国の警察に電報が送られた。",
+   "furigana": [
+    {
+     "surface": "一日",
+     "reading": "いちにち"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "二日",
+     "reading": "ふつか"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "三日",
+     "reading": "みっか"
+    },
+    {
+     "surface": "と",
+     "reading": ""
+    },
+    {
+     "surface": "過",
+     "reading": "す"
+    },
+    {
+     "surface": "ぎ、あらゆる",
+     "reading": ""
+    },
+    {
+     "surface": "手段",
+     "reading": "しゅだん"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "使",
+     "reading": "つか"
+    },
+    {
+     "surface": "われた。",
+     "reading": ""
+    },
+    {
+     "surface": "駅",
+     "reading": "えき"
+    },
+    {
+     "surface": "には",
+     "reading": ""
+    },
+    {
+     "surface": "見張",
+     "reading": "みは"
+    },
+    {
+     "surface": "りが",
+     "reading": ""
+    },
+    {
+     "surface": "立",
+     "reading": "た"
+    },
+    {
+     "surface": "ち、",
+     "reading": ""
+    },
+    {
+     "surface": "全国",
+     "reading": "ぜんこく"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "警察",
+     "reading": "けいさつ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "電報",
+     "reading": "でんぽう"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "送",
+     "reading": "おく"
+    },
+    {
+     "surface": "られた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ichinichi, futsuka, mikka to sugi, arayuru shudan ga tsukawareta. Eki ni wa mihari ga tachi, zenkoku no keisatsu ni denpou ga okurareta.",
+   "translations": {
+    "vi": "Một ngày, hai ngày, ba ngày trôi qua, mọi biện pháp đều được dùng tới. Các nhà ga có người canh, điện tín được gửi tới cảnh sát toàn quốc.",
+    "en": "One, two, three days passed, and every means was tried. Stations were watched and telegrams sent to police across the country.",
+    "zh-Hans": "一天、两天、三天过去了，用尽了一切手段。各车站都有人看守，还向全国警察发了电报。",
+    "zh-Hant": "一天、兩天、三天過去了，用盡了一切手段。各車站都有人看守，還向全國警察發了電報。",
+    "ko": "하루, 이틀, 사흘이 지나며 온갖 수단이 동원되었다. 역마다 감시가 붙고, 전국 경찰에 전보가 보내졌다.",
+    "tl": "Lumipas ang isa, dalawa, tatlong araw; ginamit ang lahat ng paraan. Binantayan ang mga istasyon at nagpadala ng telegrama sa pulisya sa buong bansa.",
+    "ne": "एक, दुई, तीन दिन बिते, सबै उपाय अपनाइए। स्टेसनमा पहरा राखियो, देशभरका प्रहरीलाई टेलिग्राम पठाइयो।",
+    "id": "Satu, dua, tiga hari berlalu, segala cara dipakai. Stasiun dijaga dan telegram dikirim ke polisi seluruh negeri.",
+    "pt": "Passaram-se um, dois, três dias, e todos os meios foram usados. Vigiaram as estações e telegrafaram à polícia do país inteiro.",
+    "my": "တစ်ရက်၊ နှစ်ရက်၊ သုံးရက် ကုန်လွန်ပြီး နည်းလမ်းမျိုးစုံ သုံးခဲ့သည်။ ဘူတာများတွင် စောင့်ကြည့်ပြီး တစ်နိုင်ငံလုံးရှိ ရဲများထံ ကြေးနန်း ပို့သည်။",
+    "th": "ผ่านไปหนึ่ง สอง สามวัน ใช้ทุกวิธีแล้ว สถานีรถไฟมีคนเฝ้า และส่งโทรเลขถึงตำรวจทั่วประเทศ"
+   },
+   "grammarNote": {
+    "vi": "「あらゆる」 = mọi, tất cả. 「手段」 = biện pháp, phương tiện. 「見張り」 = người canh gác.",
+    "en": "あらゆる = \"every\". 手段 = \"means, measure\". 見張り = \"lookout, watch\".",
+    "zh-Hans": "「あらゆる」＝一切。「手段」＝手段。「見張り」＝看守。",
+    "zh-Hant": "「あらゆる」＝一切。「手段」＝手段。「見張り」＝看守。",
+    "ko": "「あらゆる」= 온갖. 「手段」= 수단. 「見張り」= 감시.",
+    "tl": "あらゆる = \"lahat ng\". 手段 = \"paraan\". 見張り = \"bantay\".",
+    "ne": "「あらゆる」= सबै। 「手段」= उपाय। 「見張り」= पहरा।",
+    "id": "あらゆる = \"segala\". 手段 = \"cara\". 見張り = \"penjaga\".",
+    "pt": "あらゆる = \"todos os\". 手段 = \"meio\". 見張り = \"vigia\".",
+    "my": "「手段」= နည်းလမ်း။ 「見張り」= စောင့်ကြည့်သူ။",
+    "th": "「あらゆる」= ทุก 「手段」= วิธีการ 「見張り」= คนเฝ้า"
+   },
+   "vocab": [
+    {
+     "word": "あらゆる",
+     "reading": "あらゆる",
+     "meanings": {
+      "vi": "mọi",
+      "en": "every, all",
+      "zh-Hans": "一切",
+      "zh-Hant": "一切",
+      "ko": "온갖",
+      "tl": "lahat ng",
+      "ne": "सबै",
+      "id": "segala",
+      "pt": "todos os",
+      "my": "အားလုံး",
+      "th": "ทุก"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "手段",
+     "reading": "しゅだん",
+     "meanings": {
+      "vi": "biện pháp",
+      "en": "means",
+      "zh-Hans": "手段",
+      "zh-Hant": "手段",
+      "ko": "수단",
+      "tl": "paraan",
+      "ne": "उपाय",
+      "id": "cara",
+      "pt": "meio",
+      "my": "နည်းလမ်း",
+      "th": "วิธีการ"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "見張り",
+     "reading": "みはり",
+     "meanings": {
+      "vi": "canh gác",
+      "en": "lookout",
+      "zh-Hans": "看守",
+      "zh-Hant": "看守",
+      "ko": "감시",
+      "tl": "bantay",
+      "ne": "पहरा",
+      "id": "penjaga",
+      "pt": "vigia",
+      "my": "စောင့်ကြည့်",
+      "th": "คนเฝ้า"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "電報",
+     "reading": "でんぽう",
+     "meanings": {
+      "vi": "điện tín",
+      "en": "telegram",
+      "zh-Hans": "电报",
+      "zh-Hant": "電報",
+      "ko": "전보",
+      "tl": "telegrama",
+      "ne": "टेलिग्राम",
+      "id": "telegram",
+      "pt": "telegrama",
+      "my": "ကြေးနန်း",
+      "th": "โทรเลข"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=201.28,212.37",
+   "t": [
+    201.28,
+    212.37
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "それでも犯人はつかまらず、一週間が過ぎて、もうだめかと思われた。",
+   "furigana": [
+    {
+     "surface": "それでも",
+     "reading": ""
+    },
+    {
+     "surface": "犯人",
+     "reading": "はんにん"
+    },
+    {
+     "surface": "はつかまらず、",
+     "reading": ""
+    },
+    {
+     "surface": "一週間",
+     "reading": "いっしゅうかん"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "過",
+     "reading": "す"
+    },
+    {
+     "surface": "ぎて、もうだめかと",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "われた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Soredemo hannin wa tsukamarazu, isshuukan ga sugite, mou dame ka to omowareta.",
+   "translations": {
+    "vi": "Dù vậy thủ phạm vẫn không bị bắt; một tuần trôi qua, ai cũng nghĩ thế là hết hy vọng.",
+    "en": "Still the culprit wasn't caught; a week went by and it seemed hopeless.",
+    "zh-Hans": "即便如此犯人还是没抓到，过了一个星期，大家都觉得没希望了。",
+    "zh-Hant": "即便如此犯人還是沒抓到，過了一個星期，大家都覺得沒希望了。",
+    "ko": "그래도 범인은 잡히지 않았고, 일주일이 지나 이제 틀렸다고 여겨졌다.",
+    "tl": "Gayunman, hindi nahuli ang salarin; lumipas ang isang linggo at tila wala nang pag-asa.",
+    "ne": "तैपनि अपराधी समातिएन, एक हप्ता बित्यो र अब आशा छैन जस्तो लाग्यो।",
+    "id": "Tetap saja pelaku tak tertangkap; seminggu berlalu dan tampaknya sudah tak ada harapan.",
+    "pt": "Mesmo assim o culpado não foi pego; passou-se uma semana e parecia não haver esperança.",
+    "my": "သို့တိုင် တရားခံ မမိဘဲ တစ်ပတ် ကုန်သွားပြီး မျှော်လင့်ချက် မရှိတော့ဟု ထင်ရသည်။",
+    "th": "ถึงอย่างนั้นก็ยังจับคนร้ายไม่ได้ ผ่านไปหนึ่งสัปดาห์ ดูเหมือนจะหมดหวัง"
+   },
+   "grammarNote": {
+    "vi": "「Vず」 = không V (= Vないで, văn viết). 「だめかと思われた」 = người ta nghĩ có lẽ hỏng rồi (bị động tự phát).",
+    "en": "Vず = \"without V-ing\" (written form of Vないで). だめかと思われた = \"it seemed hopeless\".",
+    "zh-Hans": "「Vず」＝不V（书面）。「だめかと思われた」＝大家都觉得没希望了。",
+    "zh-Hant": "「Vず」＝不V（書面）。「だめかと思われた」＝大家都覺得沒希望了。",
+    "ko": "「Vず」= …하지 않고. 「だめかと思われた」= 틀렸다고 여겨졌다.",
+    "tl": "Vず = \"nang hindi V\".",
+    "ne": "「Vず」= V नगरी।",
+    "id": "Vず = \"tanpa V\".",
+    "pt": "Vず = \"sem V\".",
+    "my": "「Vず」= မ V ဘဲ။",
+    "th": "「Vず」= โดยไม่ V"
+   },
+   "vocab": [
+    {
+     "word": "つかまる",
+     "reading": "つかまる",
+     "meanings": {
+      "vi": "bị bắt",
+      "en": "to be caught",
+      "zh-Hans": "被抓",
+      "zh-Hant": "被抓",
+      "ko": "잡히다",
+      "tl": "mahuli",
+      "ne": "समातिनु",
+      "id": "tertangkap",
+      "pt": "ser pego",
+      "my": "အဖမ်းခံရ",
+      "th": "ถูกจับ"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=212.97,218.67",
+   "t": [
+    212.97,
+    218.67
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "そんな中、一人の刑事だけが、市内の煙草屋を一軒ずつ、こつこつと歩いて回っていた。",
+   "furigana": [
+    {
+     "surface": "そんな",
+     "reading": ""
+    },
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "一人",
+     "reading": "ひとり"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "刑事",
+     "reading": "けいじ"
+    },
+    {
+     "surface": "だけが、",
+     "reading": ""
+    },
+    {
+     "surface": "市内",
+     "reading": "しない"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "煙草",
+     "reading": "たばこ"
+    },
+    {
+     "surface": "屋",
+     "reading": "や"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "一軒",
+     "reading": "いっけん"
+    },
+    {
+     "surface": "ずつ、こつこつと",
+     "reading": ""
+    },
+    {
+     "surface": "歩",
+     "reading": "ある"
+    },
+    {
+     "surface": "いて",
+     "reading": ""
+    },
+    {
+     "surface": "回",
+     "reading": "まわ"
+    },
+    {
+     "surface": "っていた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sonna naka, hitori no keiji dake ga, shinai no tabako ya o ikken zutsu, kotsukotsu to aruite mawatte ita.",
+   "translations": {
+    "vi": "Giữa lúc ấy, chỉ có một viên thám tử vẫn kiên trì đi từng tiệm thuốc lá trong thành phố.",
+    "en": "Amid all this, one detective alone was patiently going round every tobacco shop in the city, one by one.",
+    "zh-Hans": "就在这时，只有一位刑警还在一家一家地走访市内的烟店。",
+    "zh-Hant": "就在這時，只有一位刑警還在一家一家地走訪市內的煙店。",
+    "ko": "그런 가운데 한 형사만이 시내의 담뱃가게를 한 곳씩 꾸준히 돌고 있었다.",
+    "tl": "Sa gitna nito, isang detektib lamang ang matiyagang nag-iikot sa bawat tindahan ng sigarilyo sa lungsod.",
+    "ne": "यस्तोमा एक जासुस मात्र सहरका चुरोट पसल एक-एक गरेर धैर्यपूर्वक घुमिरहेका थिए।",
+    "id": "Di tengah itu, hanya seorang detektif yang tekun mendatangi toko tembakau di kota satu per satu.",
+    "pt": "Enquanto isso, só um detetive percorria pacientemente, uma a uma, as tabacarias da cidade.",
+    "my": "ထိုအခြေအနေတွင် စုံထောက် တစ်ဦးတည်းသာ မြို့ထဲရှိ ဆေးလိပ်ဆိုင်များကို တစ်ဆိုင်ချင်း ဇွဲရှိရှိ လှည့်လည်နေသည်။",
+    "th": "ท่ามกลางนั้น มีนักสืบคนเดียวที่ยังเดินตระเวนร้านบุหรี่ในเมืองทีละร้านอย่างอดทน"
+   },
+   "grammarNote": {
+    "vi": "「刑事」 = thám tử cảnh sát hình sự. 「一軒ずつ」 = từng nhà một. 「こつこつ」 = cần mẫn, kiên trì (từ tượng thái).",
+    "en": "刑事 = \"police detective\". 一軒ずつ = \"one shop at a time\". こつこつ = \"steadily, diligently\" (mimetic).",
+    "zh-Hans": "「刑事」＝刑警。「一軒ずつ」＝一家一家地。「こつこつ」＝孜孜不倦。",
+    "zh-Hant": "「刑事」＝刑警。「一軒ずつ」＝一家一家地。「こつこつ」＝孜孜不倦。",
+    "ko": "「刑事」= 형사. 「一軒ずつ」= 한 곳씩. 「こつこつ」= 꾸준히.",
+    "tl": "刑事 = \"detektib\". こつこつ = \"matiyaga\".",
+    "ne": "「刑事」= जासुस। 「こつこつ」= धैर्यपूर्वक।",
+    "id": "刑事 = \"detektif\". こつこつ = \"tekun\".",
+    "pt": "刑事 = \"detetive\". こつこつ = \"com paciência\".",
+    "my": "「刑事」= စုံထောက်။",
+    "th": "「刑事」= นักสืบ 「一軒ずつ」= ทีละร้าน 「こつこつ」= อย่างอดทน"
+   },
+   "vocab": [
+    {
+     "word": "刑事",
+     "reading": "けいじ",
+     "meanings": {
+      "vi": "thám tử (cảnh sát)",
+      "en": "police detective",
+      "zh-Hans": "刑警",
+      "zh-Hant": "刑警",
+      "ko": "형사",
+      "tl": "detektib",
+      "ne": "जासुस",
+      "id": "detektif",
+      "pt": "detetive",
+      "my": "စုံထောက်",
+      "th": "นักสืบ"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "こつこつ",
+     "reading": "こつこつ",
+     "meanings": {
+      "vi": "cần mẫn",
+      "en": "steadily",
+      "zh-Hans": "孜孜不倦",
+      "zh-Hant": "孜孜不倦",
+      "ko": "꾸준히",
+      "tl": "matiyaga",
+      "ne": "धैर्यपूर्वक",
+      "id": "tekun",
+      "pt": "com paciência",
+      "my": "ဇွဲရှိရှိ",
+      "th": "อย่างอดทน"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=219.27,226.88",
+   "t": [
+    219.27,
+    226.88
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "支配人の部屋に、珍しいエジプト煙草の吸い殻が一本、残っていたからである。",
+   "furigana": [
+    {
+     "surface": "支配人",
+     "reading": "しはいにん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "部屋",
+     "reading": "へや"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "珍",
+     "reading": "めずら"
+    },
+    {
+     "surface": "しいエジプト",
+     "reading": ""
+    },
+    {
+     "surface": "煙草",
+     "reading": "たばこ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "吸",
+     "reading": "す"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "殻",
+     "reading": "がら"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "一本",
+     "reading": "いっぽん"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "残",
+     "reading": "のこ"
+    },
+    {
+     "surface": "っていたからである。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shihainin no heya ni, mezurashii ejiputo tabako no suigara ga ippon, nokotte ita karadearu.",
+   "translations": {
+    "vi": "Bởi trong phòng giám đốc còn sót lại một đầu mẩu thuốc lá Ai Cập hiếm có.",
+    "en": "For in the manager's office there had been left the butt of a rare Egyptian cigarette.",
+    "zh-Hans": "因为经理室里留下了一个罕见的埃及烟的烟头。",
+    "zh-Hant": "因為經理室裡留下了一個罕見的埃及煙的菸頭。",
+    "ko": "지배인 방에 보기 드문 이집트 담배꽁초 하나가 남아 있었기 때문이다.",
+    "tl": "Dahil may naiwang upos ng bihirang sigarilyong Ehipsiyo sa silid ng tagapamahala.",
+    "ne": "किनभने प्रबन्धकको कोठामा दुर्लभ इजिप्टको चुरोटको ठुटो बाँकी थियो।",
+    "id": "Karena di ruang manajer tertinggal sepuntung rokok Mesir yang langka.",
+    "pt": "Pois na sala do gerente ficara a ponta de um raro cigarro egípcio.",
+    "my": "မန်နေဂျာ အခန်းတွင် ရှားပါးသော အီဂျစ် ဆေးလိပ်တို တစ်ချောင်း ကျန်နေခဲ့သောကြောင့် ဖြစ်သည်။",
+    "th": "เพราะในห้องผู้จัดการมีก้นบุหรี่อียิปต์หายากเหลืออยู่หนึ่งก้น"
+   },
+   "grammarNote": {
+    "vi": "「〜からである」 = là vì… (giải thích lý do, văn viết). 「吸い殻」 = đầu mẩu thuốc lá.",
+    "en": "〜からである = \"it is because…\" (written). 吸い殻 = \"cigarette butt\".",
+    "zh-Hans": "「〜からである」＝是因为……（书面）。「吸い殻」＝烟头。",
+    "zh-Hant": "「〜からである」＝是因為……（書面）。「吸い殻」＝菸頭。",
+    "ko": "「〜からである」= …이기 때문이다. 「吸い殻」= 담배꽁초.",
+    "tl": "〜からである = \"dahil…\". 吸い殻 = \"upos\".",
+    "ne": "「〜からである」= किनभने …। 「吸い殻」= चुरोटको ठुटो।",
+    "id": "〜からである = \"karena…\". 吸い殻 = \"puntung rokok\".",
+    "pt": "〜からである = \"é porque…\". 吸い殻 = \"bituca\".",
+    "my": "「吸い殻」= ဆေးလိပ်တို။",
+    "th": "「〜からである」= เป็นเพราะ… 「吸い殻」= ก้นบุหรี่"
+   },
+   "vocab": [
+    {
+     "word": "吸い殻",
+     "reading": "すいがら",
+     "meanings": {
+      "vi": "đầu mẩu thuốc lá",
+      "en": "cigarette butt",
+      "zh-Hans": "烟头",
+      "zh-Hant": "菸頭",
+      "ko": "담배꽁초",
+      "tl": "upos",
+      "ne": "चुरोटको ठुटो",
+      "id": "puntung rokok",
+      "pt": "bituca",
+      "my": "ဆေးလိပ်တို",
+      "th": "ก้นบุหรี่"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "珍しい",
+     "reading": "めずらしい",
+     "meanings": {
+      "vi": "hiếm có",
+      "en": "rare",
+      "zh-Hans": "罕见",
+      "zh-Hant": "罕見",
+      "ko": "드물다",
+      "tl": "bihira",
+      "ne": "दुर्लभ",
+      "id": "langka",
+      "pt": "raro",
+      "my": "ရှားပါး",
+      "th": "หายาก"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=227.48,234.31",
+   "t": [
+    227.48,
+    234.31
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「フィガロ」という名前のその煙草は、売っている店も、買う客も、とても少なかった。",
+   "furigana": [
+    {
+     "surface": "「フィガロ」という",
+     "reading": ""
+    },
+    {
+     "surface": "名前",
+     "reading": "なまえ"
+    },
+    {
+     "surface": "のその",
+     "reading": ""
+    },
+    {
+     "surface": "煙草",
+     "reading": "たばこ"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "売",
+     "reading": "う"
+    },
+    {
+     "surface": "っている",
+     "reading": ""
+    },
+    {
+     "surface": "店",
+     "reading": "みせ"
+    },
+    {
+     "surface": "も、",
+     "reading": ""
+    },
+    {
+     "surface": "買",
+     "reading": "か"
+    },
+    {
+     "surface": "う",
+     "reading": ""
+    },
+    {
+     "surface": "客",
+     "reading": "きゃく"
+    },
+    {
+     "surface": "も、とても",
+     "reading": ""
+    },
+    {
+     "surface": "少",
+     "reading": "すく"
+    },
+    {
+     "surface": "なかった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Fuigaro” to iu namae no sono tabako wa, utte iru mise mo, kau kyaku mo, totemo sukunakatta.",
+   "translations": {
+    "vi": "Loại thuốc tên \"Figaro\" ấy rất hiếm, cả tiệm bán lẫn khách mua đều rất ít.",
+    "en": "That brand, called \"Figaro\", had very few shops selling it and very few customers buying it.",
+    "zh-Hans": "那种名叫\"费加罗\"的烟，卖的店和买的客人都非常少。",
+    "zh-Hant": "那種名叫\"費加羅\"的煙，賣的店和買的客人都非常少。",
+    "ko": "'피가로'라는 이름의 그 담배는 파는 가게도, 사는 손님도 아주 적었다.",
+    "tl": "Ang sigarilyong \"Figaro\" ay iilan lang ang nagbebenta at iilan lang ang bumibili.",
+    "ne": "\"फिगारो\" नामको त्यो चुरोट बेच्ने पसल र किन्ने ग्राहक दुवै निकै थोरै थिए।",
+    "id": "Rokok bernama \"Figaro\" itu, toko yang menjual dan pembelinya sangat sedikit.",
+    "pt": "Aquele cigarro, chamado \"Figaro\", tinha pouquíssimas lojas e clientes.",
+    "my": "\"ဖီဂါရို\" ဟု ခေါ်သော ထိုဆေးလိပ်ကို ရောင်းသော ဆိုင်ရော ဝယ်သော ဖောက်သည်ပါ အလွန် နည်းသည်။",
+    "th": "บุหรี่ชื่อ \"ฟิกาโร\" นั้น ทั้งร้านที่ขายและลูกค้าที่ซื้อมีน้อยมาก"
+   },
+   "grammarNote": {
+    "vi": "「〜という名前の」 = có tên là…. 「AもBも」 = cả A lẫn B.",
+    "en": "〜という名前の = \"named…\". AもBも = \"both A and B\".",
+    "zh-Hans": "「〜という名前の」＝名叫……的。「AもBも」＝A和B都。",
+    "zh-Hant": "「〜という名前の」＝名叫……的。「AもBも」＝A和B都。",
+    "ko": "「〜という名前の」= …라는 이름의. 「AもBも」= A도 B도.",
+    "tl": "〜という名前の = \"na nagngangalang…\".",
+    "ne": "「〜という名前の」= … नामको।",
+    "id": "〜という名前の = \"bernama…\".",
+    "pt": "〜という名前の = \"chamado…\".",
+    "my": "「〜という名前の」= … ဟု ခေါ်သော။",
+    "th": "「〜という名前の」= ที่ชื่อว่า…"
+   },
+   "vocab": [
+    {
+     "word": "客",
+     "reading": "きゃく",
+     "meanings": {
+      "vi": "khách",
+      "en": "customer",
+      "zh-Hans": "客人",
+      "zh-Hant": "客人",
+      "ko": "손님",
+      "tl": "kostumer",
+      "ne": "ग्राहक",
+      "id": "pembeli",
+      "pt": "cliente",
+      "my": "ဖောက်သည်",
+      "th": "ลูกค้า"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=234.91,241.87",
+   "t": [
+    234.91,
+    241.87
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "刑事は何十軒もの店を回り、残るは牛込と四谷だけになった。",
+   "furigana": [
+    {
+     "surface": "刑事",
+     "reading": "けいじ"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "何十軒",
+     "reading": "なんじっけん"
+    },
+    {
+     "surface": "もの",
+     "reading": ""
+    },
+    {
+     "surface": "店",
+     "reading": "みせ"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "回",
+     "reading": "まわ"
+    },
+    {
+     "surface": "り、",
+     "reading": ""
+    },
+    {
+     "surface": "残",
+     "reading": "のこ"
+    },
+    {
+     "surface": "るは",
+     "reading": ""
+    },
+    {
+     "surface": "牛込",
+     "reading": "うしごめ"
+    },
+    {
+     "surface": "と",
+     "reading": ""
+    },
+    {
+     "surface": "四谷",
+     "reading": "よつや"
+    },
+    {
+     "surface": "だけになった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Keiji wa nanjikken mono mise o mawari, nokoru wa ushigome to yotsuya dake ni natta.",
+   "translations": {
+    "vi": "Thám tử đã đi qua hàng chục tiệm, chỉ còn lại khu Ushigome và Yotsuya.",
+    "en": "The detective had visited dozens of shops; only Ushigome and Yotsuya remained.",
+    "zh-Hans": "刑警走访了几十家店，只剩下牛込和四谷了。",
+    "zh-Hant": "刑警走訪了幾十家店，只剩下牛込和四谷了。",
+    "ko": "형사는 수십 곳의 가게를 돌았고, 남은 것은 우시고메와 요쓰야뿐이었다.",
+    "tl": "Nalibot na ng detektib ang dose-dosenang tindahan; Ushigome at Yotsuya na lang ang natitira.",
+    "ne": "जासुसले दर्जनौं पसल घुमे, अब उसिगोमे र योत्सुया मात्र बाँकी थिए।",
+    "id": "Detektif telah mendatangi puluhan toko; tinggal Ushigome dan Yotsuya.",
+    "pt": "O detetive já percorrera dezenas de lojas; restavam só Ushigome e Yotsuya.",
+    "my": "စုံထောက်သည် ဆိုင် ဆယ်ချီ လှည့်ပြီးပြီ၊ ကျန်သည်မှာ ဥရှိဂိုမေ နှင့် ယိုဆုယ သာ။",
+    "th": "นักสืบตระเวนไปหลายสิบร้านแล้ว เหลือแค่อุชิโกเมะกับโยตสึยะ"
+   },
+   "grammarNote": {
+    "vi": "「何十軒も」 = đến hàng chục tiệm (nhấn mạnh nhiều). 「残るは〜だけ」 = chỉ còn lại….",
+    "en": "何十軒も = \"dozens of shops\" (stressing many). 残るは〜だけ = \"all that's left is…\".",
+    "zh-Hans": "「何十軒も」＝好几十家。「残るは〜だけ」＝只剩下……。",
+    "zh-Hant": "「何十軒も」＝好幾十家。「殘るは〜だけ」＝只剩下……。",
+    "ko": "「何十軒も」= 수십 곳이나. 「残るは〜だけ」= 남은 건 …뿐.",
+    "tl": "何十軒も = \"dose-dosena\".",
+    "ne": "「何十軒も」= दर्जनौं।",
+    "id": "何十軒も = \"puluhan\".",
+    "pt": "何十軒も = \"dezenas\".",
+    "my": "「何十軒も」= ဆယ်ချီ။",
+    "th": "「何十軒も」= หลายสิบร้าน 「残るは〜だけ」= เหลือแค่…"
+   },
+   "vocab": [],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=242.47,248.52",
+   "t": [
+    242.47,
+    248.52
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "最後の日、神楽坂に向かって歩いていた刑事は、ある旅館の前で、ふと足を止めた。",
+   "furigana": [
+    {
+     "surface": "最後",
+     "reading": "さいご"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "神楽坂",
+     "reading": "かぐらざか"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "向",
+     "reading": "む"
+    },
+    {
+     "surface": "かって",
+     "reading": ""
+    },
+    {
+     "surface": "歩",
+     "reading": "ある"
+    },
+    {
+     "surface": "いていた",
+     "reading": ""
+    },
+    {
+     "surface": "刑事",
+     "reading": "けいじ"
+    },
+    {
+     "surface": "は、ある",
+     "reading": ""
+    },
+    {
+     "surface": "旅館",
+     "reading": "りょかん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "で、ふと",
+     "reading": ""
+    },
+    {
+     "surface": "足",
+     "reading": "あし"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "止",
+     "reading": "と"
+    },
+    {
+     "surface": "めた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Saigo no hi, kagurazaka ni mukatte aruite ita keiji wa, aru ryokan no mae de, futo ashi o tometa.",
+   "translations": {
+    "vi": "Ngày cuối cùng, trên đường đến Kagurazaka, viên thám tử chợt dừng chân trước một lữ quán.",
+    "en": "On the last day, walking toward Kagurazaka, the detective suddenly stopped in front of an inn.",
+    "zh-Hans": "最后一天，刑警朝神乐坂走着，在一家旅馆门前忽然停下了脚步。",
+    "zh-Hant": "最後一天，刑警朝神樂坂走著，在一家旅館門前忽然停下了腳步。",
+    "ko": "마지막 날, 가구라자카로 걸어가던 형사는 한 여관 앞에서 문득 걸음을 멈췄다.",
+    "tl": "Sa huling araw, habang naglalakad patungong Kagurazaka, biglang huminto ang detektib sa harap ng isang bahay-panuluyan.",
+    "ne": "अन्तिम दिन कागुराजाकातिर हिँड्दै गर्दा जासुस एउटा होटलअगाडि अचानक रोकिए।",
+    "id": "Pada hari terakhir, saat berjalan ke Kagurazaka, detektif itu tiba-tiba berhenti di depan sebuah penginapan.",
+    "pt": "No último dia, a caminho de Kagurazaka, o detetive parou de repente diante de uma hospedaria.",
+    "my": "နောက်ဆုံးနေ့တွင် ကာဂုရာဇာကာသို့ လျှောက်လာရင်း စုံထောက်သည် တည်းခိုခန်း တစ်ခုရှေ့တွင် ရုတ်တရက် ရပ်လိုက်သည်။",
+    "th": "วันสุดท้าย ขณะเดินไปคากุระซากะ นักสืบก็หยุดเท้าหน้าโรงเตี๊ยมแห่งหนึ่งโดยไม่ทันคิด"
+   },
+   "grammarNote": {
+    "vi": "「ふと」 = chợt, bất chợt. 「足を止める」 = dừng bước. 「旅館」 = lữ quán kiểu Nhật.",
+    "en": "ふと = \"suddenly, by chance\". 足を止める = \"stop walking\". 旅館 = Japanese inn.",
+    "zh-Hans": "「ふと」＝忽然。「足を止める」＝停下脚步。「旅館」＝日式旅馆。",
+    "zh-Hant": "「ふと」＝忽然。「足を止める」＝停下腳步。「旅館」＝日式旅館。",
+    "ko": "「ふと」= 문득. 「足を止める」= 걸음을 멈추다.",
+    "tl": "ふと = \"bigla\". 足を止める = \"huminto\".",
+    "ne": "「ふと」= अचानक। 「足を止める」= रोकिनु।",
+    "id": "ふと = \"tiba-tiba\". 足を止める = \"berhenti\".",
+    "pt": "ふと = \"de repente\". 足を止める = \"parar\".",
+    "my": "「ふと」= ရုတ်တရက်။",
+    "th": "「ふと」= ทันใด 「足を止める」= หยุดเดิน"
+   },
+   "vocab": [
+    {
+     "word": "旅館",
+     "reading": "りょかん",
+     "meanings": {
+      "vi": "lữ quán",
+      "en": "Japanese inn",
+      "zh-Hans": "旅馆",
+      "zh-Hant": "旅館",
+      "ko": "여관",
+      "tl": "bahay-panuluyan",
+      "ne": "होटल",
+      "id": "penginapan",
+      "pt": "hospedaria",
+      "my": "တည်းခိုခန်း",
+      "th": "โรงเตี๊ยม"
+     },
+     "level": "N4"
+    },
+    {
+     "word": "ふと",
+     "reading": "ふと",
+     "meanings": {
+      "vi": "chợt",
+      "en": "suddenly",
+      "zh-Hans": "忽然",
+      "zh-Hant": "忽然",
+      "ko": "문득",
+      "tl": "bigla",
+      "ne": "अचानक",
+      "id": "tiba-tiba",
+      "pt": "de repente",
+      "my": "ရုတ်တရက်",
+      "th": "ทันใด"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=249.12,256.91",
+   "t": [
+    249.12,
+    256.91
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "道の敷石の上に、小さな吸い殻が一本、落ちていたのだ。",
+   "furigana": [
+    {
+     "surface": "道",
+     "reading": "みち"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "敷石",
+     "reading": "しきいし"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "上",
+     "reading": "うえ"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "小",
+     "reading": "ちい"
+    },
+    {
+     "surface": "さな",
+     "reading": ""
+    },
+    {
+     "surface": "吸",
+     "reading": "す"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "殻",
+     "reading": "がら"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "一本",
+     "reading": "いっぽん"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "落",
+     "reading": "お"
+    },
+    {
+     "surface": "ちていたのだ。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Michi no shikiishi no ue ni, chiisana suigara ga ippon, ochite ita no da.",
+   "translations": {
+    "vi": "Trên phiến đá lát đường có một mẩu thuốc nhỏ rơi.",
+    "en": "On the paving stone lay a small cigarette butt.",
+    "zh-Hans": "路面的石板上掉着一个小烟头。",
+    "zh-Hant": "路面的石板上掉著一個小菸頭。",
+    "ko": "길의 포석 위에 작은 꽁초 하나가 떨어져 있었던 것이다.",
+    "tl": "Sa batong-lansangan ay may maliit na upos na nakahandusay.",
+    "ne": "बाटोको ढुङ्गामा एउटा सानो चुरोटको ठुटो खसेको थियो।",
+    "id": "Di atas batu jalan tergeletak sepuntung rokok kecil.",
+    "pt": "Sobre a pedra da calçada havia uma pequena bituca.",
+    "my": "လမ်းခင်း ကျောက်ပြားပေါ်တွင် ဆေးလိပ်တို သေးသေး တစ်ချောင်း ကျနေသည်။",
+    "th": "บนแผ่นหินปูถนนมีก้นบุหรี่เล็ก ๆ ตกอยู่"
+   },
+   "grammarNote": {
+    "vi": "「敷石」 = đá lát. 「落ちている」 = đang rơi (nằm) ở đó.",
+    "en": "敷石 = \"paving stone\". 落ちている = \"is lying there (dropped)\".",
+    "zh-Hans": "「敷石」＝铺路石。「落ちている」＝掉在那里。",
+    "zh-Hant": "「敷石」＝鋪路石。「落ちている」＝掉在那裡。",
+    "ko": "「敷石」= 포석. 「落ちている」= 떨어져 있다.",
+    "tl": "敷石 = \"batong-lansangan\".",
+    "ne": "「敷石」= बाटोको ढुङ्गा।",
+    "id": "敷石 = \"batu jalan\".",
+    "pt": "敷石 = \"pedra da calçada\".",
+    "my": "「敷石」= ကျောက်ပြား။",
+    "th": "「敷石」= หินปูทาง"
+   },
+   "vocab": [
+    {
+     "word": "敷石",
+     "reading": "しきいし",
+     "meanings": {
+      "vi": "đá lát đường",
+      "en": "paving stone",
+      "zh-Hans": "铺路石",
+      "zh-Hant": "鋪路石",
+      "ko": "포석",
+      "tl": "batong-lansangan",
+      "ne": "बाटोको ढुङ्गा",
+      "id": "batu jalan",
+      "pt": "pedra da calçada",
+      "my": "ကျောက်ပြား",
+      "th": "หินปูทาง"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=257.51,263.33",
+   "t": [
+    257.51,
+    263.33
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "拾ってみると、それは、あのフィガロだった。",
+   "furigana": [
+    {
+     "surface": "拾",
+     "reading": "ひろ"
+    },
+    {
+     "surface": "ってみると、それは、あのフィガロだった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hirotte miru to, sore wa, ano fuigaro datta.",
+   "translations": {
+    "vi": "Nhặt lên xem thì đó chính là loại Figaro.",
+    "en": "He picked it up — it was a Figaro.",
+    "zh-Hans": "捡起来一看，正是那种费加罗。",
+    "zh-Hant": "撿起來一看，正是那種費加羅。",
+    "ko": "주워 보니 바로 그 피가로였다.",
+    "tl": "Pinulot niya — Figaro nga iyon.",
+    "ne": "टिपेर हेर्दा त्यो त्यही फिगारो रहेछ।",
+    "id": "Dipungut, ternyata itu Figaro.",
+    "pt": "Pegou-a: era um Figaro.",
+    "my": "ကောက်ကြည့်တော့ ထို ဖီဂါရို ပင် ဖြစ်နေသည်။",
+    "th": "หยิบขึ้นมาดู ก็คือฟิกาโรนั่นเอง"
+   },
+   "grammarNote": {
+    "vi": "「Vてみると」 = thử V thì (phát hiện). 「あの〜」 = cái … ấy (đã nhắc trước).",
+    "en": "Vてみると = \"on V-ing, (found that)\". あの〜 = \"that … (mentioned before)\".",
+    "zh-Hans": "「Vてみると」＝V一下发现。「あの〜」＝那个（前文提过的）。",
+    "zh-Hant": "「Vてみると」＝V一下發現。「あの〜」＝那個（前文提過的）。",
+    "ko": "「Vてみると」= V해 보니. 「あの〜」= 그.",
+    "tl": "Vてみると = \"nang subukang V\".",
+    "ne": "「Vてみると」= V गरेर हेर्दा।",
+    "id": "Vてみると = \"setelah di-V\".",
+    "pt": "Vてみると = \"ao V\".",
+    "my": "「Vてみると」= V ကြည့်တော့။",
+    "th": "「Vてみると」= พอลอง V ก็…"
+   },
+   "vocab": [
+    {
+     "word": "拾う",
+     "reading": "ひろう",
+     "meanings": {
+      "vi": "nhặt",
+      "en": "to pick up",
+      "zh-Hans": "捡",
+      "zh-Hant": "撿",
+      "ko": "줍다",
+      "tl": "pulutin",
+      "ne": "टिप्नु",
+      "id": "memungut",
+      "pt": "apanhar",
+      "my": "ကောက်",
+      "th": "เก็บ"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=263.93,267.4",
+   "t": [
+    263.93,
+    267.4
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "刑事はその旅館を調べ、苦労の末、ついに一人の怪しい男の部屋にたどり着いた。",
+   "furigana": [
+    {
+     "surface": "刑事",
+     "reading": "けいじ"
+    },
+    {
+     "surface": "はその",
+     "reading": ""
+    },
+    {
+     "surface": "旅館",
+     "reading": "りょかん"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "調",
+     "reading": "しら"
+    },
+    {
+     "surface": "べ、",
+     "reading": ""
+    },
+    {
+     "surface": "苦労",
+     "reading": "くろう"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "末",
+     "reading": "すえ"
+    },
+    {
+     "surface": "、ついに",
+     "reading": ""
+    },
+    {
+     "surface": "一人",
+     "reading": "ひとり"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "怪",
+     "reading": "あや"
+    },
+    {
+     "surface": "しい",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "部屋",
+     "reading": "へや"
+    },
+    {
+     "surface": "にたどり",
+     "reading": ""
+    },
+    {
+     "surface": "着",
+     "reading": "つ"
+    },
+    {
+     "surface": "いた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Keiji wa sono ryokan o shirabe, kurou no sue, tsuini hitori no ayashii otoko no heya ni tadoritsuita.",
+   "translations": {
+    "vi": "Thám tử điều tra lữ quán ấy, sau bao vất vả, cuối cùng lần ra phòng của một gã đáng ngờ.",
+    "en": "The detective investigated the inn and, after much effort, at last traced a suspicious man's room.",
+    "zh-Hans": "刑警调查了那家旅馆，费尽周折，终于找到了一个可疑男子的房间。",
+    "zh-Hant": "刑警調查了那家旅館，費盡周折，終於找到了一個可疑男子的房間。",
+    "ko": "형사는 그 여관을 조사했고, 고생 끝에 마침내 수상한 남자의 방에 다다랐다.",
+    "tl": "Siniyasat ng detektib ang bahay-panuluyan at, pagkatapos ng maraming hirap, natunton ang silid ng isang kahina-hinalang lalaki.",
+    "ne": "जासुसले त्यो होटल अनुसन्धान गरे र धेरै मेहनतपछि अन्ततः एक शङ्कास्पद मानिसको कोठा भेटे।",
+    "id": "Detektif menyelidiki penginapan itu dan setelah susah payah akhirnya menemukan kamar seorang pria mencurigakan.",
+    "pt": "O detetive investigou a hospedaria e, após muito esforço, chegou ao quarto de um homem suspeito.",
+    "my": "စုံထောက်သည် ထိုတည်းခိုခန်းကို စုံစမ်းပြီး ကြိုးစားအားထုတ်ပြီးနောက် နောက်ဆုံးတွင် သံသယဖြစ်ဖွယ် လူတစ်ဦး၏ အခန်းသို့ ရောက်သည်။",
+    "th": "นักสืบตรวจสอบโรงเตี๊ยมนั้น และหลังจากลำบากมาก ก็ตามไปถึงห้องของชายน่าสงสัยคนหนึ่งได้"
+   },
+   "grammarNote": {
+    "vi": "「苦労の末」 = sau bao vất vả. 「怪しい」 = đáng ngờ. 「たどり着く」 = lần tới được, đến được (sau đường dài).",
+    "en": "苦労の末 = \"after much hardship\". 怪しい = \"suspicious\". たどり着く = \"finally reach\".",
+    "zh-Hans": "「苦労の末」＝费尽周折之后。「怪しい」＝可疑。「たどり着く」＝终于找到。",
+    "zh-Hant": "「苦労の末」＝費盡周折之後。「怪しい」＝可疑。「たどり著く」＝終於找到。",
+    "ko": "「苦労の末」= 고생 끝에. 「怪しい」= 수상하다. 「たどり着く」= 다다르다.",
+    "tl": "苦労の末 = \"pagkatapos ng hirap\". 怪しい = \"kahina-hinala\".",
+    "ne": "「苦労の末」= धेरै मेहनतपछि। 「怪しい」= शङ्कास्पद।",
+    "id": "苦労の末 = \"setelah susah payah\". 怪しい = \"mencurigakan\".",
+    "pt": "苦労の末 = \"após muito esforço\". 怪しい = \"suspeito\".",
+    "my": "「怪しい」= သံသယဖြစ်ဖွယ်။",
+    "th": "「苦労の末」= หลังจากลำบากมาก 「怪しい」= น่าสงสัย 「たどり着く」= ตามไปถึง"
+   },
+   "vocab": [
+    {
+     "word": "苦労",
+     "reading": "くろう",
+     "meanings": {
+      "vi": "vất vả",
+      "en": "hardship",
+      "zh-Hans": "辛苦",
+      "zh-Hant": "辛苦",
+      "ko": "고생",
+      "tl": "hirap",
+      "ne": "मेहनत",
+      "id": "susah payah",
+      "pt": "esforço",
+      "my": "ကြိုးစားမှု",
+      "th": "ความลำบาก"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "怪しい",
+     "reading": "あやしい",
+     "meanings": {
+      "vi": "đáng ngờ",
+      "en": "suspicious",
+      "zh-Hans": "可疑",
+      "zh-Hant": "可疑",
+      "ko": "수상하다",
+      "tl": "kahina-hinala",
+      "ne": "शङ्कास्पद",
+      "id": "mencurigakan",
+      "pt": "suspeito",
+      "my": "သံသယဖြစ်ဖွယ်",
+      "th": "น่าสงสัย"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "たどり着く",
+     "reading": "たどりつく",
+     "meanings": {
+      "vi": "lần tới được",
+      "en": "to finally reach",
+      "zh-Hans": "终于到达",
+      "zh-Hant": "終於到達",
+      "ko": "다다르다",
+      "tl": "matunton",
+      "ne": "पुग्नु",
+      "id": "akhirnya sampai",
+      "pt": "chegar enfim",
+      "my": "ရောက်",
+      "th": "ตามไปถึง"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=268,275.19",
+   "t": [
+    268,
+    275.19
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "男の顔は、支配人から聞いた人相とはまるで違っていた。",
+   "furigana": [
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "顔",
+     "reading": "かお"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "支配人",
+     "reading": "しはいにん"
+    },
+    {
+     "surface": "から",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "いた",
+     "reading": ""
+    },
+    {
+     "surface": "人相",
+     "reading": "にんそう"
+    },
+    {
+     "surface": "とはまるで",
+     "reading": ""
+    },
+    {
+     "surface": "違",
+     "reading": "ちが"
+    },
+    {
+     "surface": "っていた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Otoko no kao wa, shihainin kara kiita ninsou to wa marude chigatte ita.",
+   "translations": {
+    "vi": "Gương mặt gã khác hẳn tướng mạo mà giám đốc mô tả.",
+    "en": "The man's face was completely different from the description the manager had given.",
+    "zh-Hans": "那人的长相和经理描述的完全不同。",
+    "zh-Hant": "那人的長相和經理描述的完全不同。",
+    "ko": "남자의 얼굴은 지배인에게 들은 인상착의와 전혀 달랐다.",
+    "tl": "Ibang-iba ang mukha ng lalaki sa paglalarawan ng tagapamahala.",
+    "ne": "मानिसको अनुहार प्रबन्धकले बताएको रूपभन्दा पूरै फरक थियो।",
+    "id": "Wajah pria itu sama sekali berbeda dari ciri yang disebut manajer.",
+    "pt": "O rosto do homem era bem diferente da descrição do gerente.",
+    "my": "ထိုလူ၏ မျက်နှာသည် မန်နေဂျာ ပြောသော ရုပ်ပုံလွှာနှင့် လုံးဝ မတူ။",
+    "th": "หน้าตาของชายคนนั้นต่างจากรูปพรรณที่ผู้จัดการบอกไว้โดยสิ้นเชิง"
+   },
+   "grammarNote": {
+    "vi": "「人相」 = tướng mạo, nhân dạng. 「まるで〜ない」 = hoàn toàn không….",
+    "en": "人相 = \"facial features, description\". まるで〜ない = \"not at all\".",
+    "zh-Hans": "「人相」＝长相。「まるで〜ない」＝完全不。",
+    "zh-Hant": "「人相」＝長相。「まるで〜ない」＝完全不。",
+    "ko": "「人相」= 인상. 「まるで〜ない」= 전혀 …않다.",
+    "tl": "人相 = \"itsura\". まるで〜ない = \"hindi talaga\".",
+    "ne": "「人相」= रूप। 「まるで」= पूरै।",
+    "id": "人相 = \"ciri wajah\". まるで〜ない = \"sama sekali tidak\".",
+    "pt": "人相 = \"fisionomia\". まるで〜ない = \"nada\".",
+    "my": "「人相」= ရုပ်ပုံလွှာ။",
+    "th": "「人相」= รูปพรรณ 「まるで〜ない」= ไม่…เลย"
+   },
+   "vocab": [
+    {
+     "word": "人相",
+     "reading": "にんそう",
+     "meanings": {
+      "vi": "nhân dạng",
+      "en": "facial features",
+      "zh-Hans": "长相",
+      "zh-Hant": "長相",
+      "ko": "인상",
+      "tl": "itsura",
+      "ne": "रूप",
+      "id": "ciri wajah",
+      "pt": "fisionomia",
+      "my": "ရုပ်ပုံလွှာ",
+      "th": "รูปพรรณ"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=275.79,281.19",
+   "t": [
+    275.79,
+    281.19
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "しかし、部屋の火鉢の底から、黒い上着、べっこうの眼鏡、つけひげが出てきた。",
+   "furigana": [
+    {
+     "surface": "しかし、",
+     "reading": ""
+    },
+    {
+     "surface": "部屋",
+     "reading": "へや"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "火鉢",
+     "reading": "ひばち"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "底",
+     "reading": "そこ"
+    },
+    {
+     "surface": "から、",
+     "reading": ""
+    },
+    {
+     "surface": "黒",
+     "reading": "くろ"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "上着",
+     "reading": "うわぎ"
+    },
+    {
+     "surface": "、べっこうの",
+     "reading": ""
+    },
+    {
+     "surface": "眼鏡",
+     "reading": "めがね"
+    },
+    {
+     "surface": "、つけひげが",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "で"
+    },
+    {
+     "surface": "てきた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shikashi, heya no hibachi no soko kara, kuroi uwagi, be kkou no megane, tsuke hige ga dete kita.",
+   "translations": {
+    "vi": "Nhưng từ đáy lò sưởi than trong phòng, người ta lôi ra áo khoác đen, kính gọng đồi mồi và bộ ria giả.",
+    "en": "But from the bottom of the room's brazier came a black coat, tortoiseshell glasses and a false moustache.",
+    "zh-Hans": "但是，从房间火盆底下翻出了黑上衣、玳瑁眼镜和假胡子。",
+    "zh-Hant": "但是，從房間火盆底下翻出了黑上衣、玳瑁眼鏡和假鬍子。",
+    "ko": "그러나 방의 화로 바닥에서 검은 윗옷, 별갑 안경, 가짜 수염이 나왔다.",
+    "tl": "Ngunit mula sa ilalim ng brasero sa silid, lumabas ang itim na amerikana, salaming pagong at pekeng bigote.",
+    "ne": "तर कोठाको आगो राख्ने भाँडोको पिँधबाट कालो कोट, खपटे चस्मा र नक्कली जुँगा निस्किए।",
+    "id": "Namun dari dasar anglo di kamar ditemukan jas hitam, kacamata cangkang penyu, dan kumis palsu.",
+    "pt": "Mas do fundo do braseiro do quarto saíram um casaco preto, óculos de tartaruga e um bigode postiço.",
+    "my": "သို့သော် အခန်းထဲရှိ မီးဖိုအောက်ခြေမှ အင်္ကျီအနက်၊ လိပ်ခွံ မျက်မှန်နှင့် နှုတ်ခမ်းမွေးတု ထွက်လာသည်။",
+    "th": "แต่จากก้นเตาถ่านในห้อง พบเสื้อคลุมสีดำ แว่นกรอบกระดองเต่า และหนวดปลอม"
+   },
+   "grammarNote": {
+    "vi": "「火鉢」 = lò sưởi than truyền thống Nhật. 「つけひげ」 = râu giả. Bằng chứng không thể chối cãi!",
+    "en": "火鉢 = a traditional charcoal brazier. つけひげ = \"false moustache\". Undeniable evidence!",
+    "zh-Hans": "「火鉢」＝火盆。「つけひげ」＝假胡子。铁证如山！",
+    "zh-Hant": "「火缽」＝火盆。「つけひげ」＝假鬍子。鐵證如山！",
+    "ko": "「火鉢」= 화로. 「つけひげ」= 가짜 수염.",
+    "tl": "火鉢 = \"brasero\". つけひげ = \"pekeng bigote\".",
+    "ne": "「火鉢」= आगो राख्ने भाँडो। 「つけひげ」= नक्कली जुँगा।",
+    "id": "火鉢 = \"anglo\". つけひげ = \"kumis palsu\".",
+    "pt": "火鉢 = \"braseiro\". つけひげ = \"bigode postiço\".",
+    "my": "「火鉢」= မီးဖို။ 「つけひげ」= နှုတ်ခမ်းမွေးတု။",
+    "th": "「火鉢」= เตาถ่าน 「つけひげ」= หนวดปลอม"
+   },
+   "vocab": [
+    {
+     "word": "火鉢",
+     "reading": "ひばち",
+     "meanings": {
+      "vi": "lò sưởi than",
+      "en": "charcoal brazier",
+      "zh-Hans": "火盆",
+      "zh-Hant": "火盆",
+      "ko": "화로",
+      "tl": "brasero",
+      "ne": "आगो राख्ने भाँडो",
+      "id": "anglo",
+      "pt": "braseiro",
+      "my": "မီးဖို",
+      "th": "เตาถ่าน"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "底",
+     "reading": "そこ",
+     "meanings": {
+      "vi": "đáy",
+      "en": "bottom",
+      "zh-Hans": "底",
+      "zh-Hant": "底",
+      "ko": "바닥",
+      "tl": "ilalim",
+      "ne": "पिँध",
+      "id": "dasar",
+      "pt": "fundo",
+      "my": "အောက်ခြေ",
+      "th": "ก้น"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "上着",
+     "reading": "うわぎ",
+     "meanings": {
+      "vi": "áo khoác",
+      "en": "jacket, coat",
+      "zh-Hans": "上衣",
+      "zh-Hant": "上衣",
+      "ko": "윗옷",
+      "tl": "amerikana",
+      "ne": "कोट",
+      "id": "jas",
+      "pt": "casaco",
+      "my": "အပေါ်အင်္ကျီ",
+      "th": "เสื้อคลุม"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=281.79,289.1",
+   "t": [
+    281.79,
+    289.1
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "こうして、さすがの紳士泥棒も、とうとう逮捕されたのである。",
+   "furigana": [
+    {
+     "surface": "こうして、さすがの",
+     "reading": ""
+    },
+    {
+     "surface": "紳士",
+     "reading": "しんし"
+    },
+    {
+     "surface": "泥棒",
+     "reading": "どろぼう"
+    },
+    {
+     "surface": "も、とうとう",
+     "reading": ""
+    },
+    {
+     "surface": "逮捕",
+     "reading": "たいほ"
+    },
+    {
+     "surface": "されたのである。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Koushite, sasuga no shinshi dorobou mo, toutou taiho sareta nodearu.",
+   "translations": {
+    "vi": "Thế là, ngay cả tên trộm quý ông lừng danh cuối cùng cũng bị bắt.",
+    "en": "And so even the famous Gentleman Thief was finally arrested.",
+    "zh-Hans": "就这样，连那位赫赫有名的绅士大盗也终于被捕了。",
+    "zh-Hant": "就這樣，連那位赫赫有名的紳士大盜也終於被捕了。",
+    "ko": "이렇게 그 신사 도둑도 결국 체포되었다.",
+    "tl": "Kaya maging ang tanyag na Ginoong Magnanakaw ay naaresto rin sa wakas.",
+    "ne": "यसरी ती नामी भद्र चोर पनि अन्ततः पक्राउ परे।",
+    "id": "Demikianlah, bahkan Pencuri Budiman yang terkenal itu akhirnya ditangkap.",
+    "pt": "E assim até o famoso Ladrão Cavalheiro foi enfim preso.",
+    "my": "ဤသို့ဖြင့် နာမည်ကျော် လူကြီးလူကောင်း သူခိုးပင် နောက်ဆုံး ဖမ်းဆီးခံရသည်။",
+    "th": "และแล้ว แม้แต่จอมโจรสุภาพบุรุษผู้เลื่องชื่อก็ถูกจับในที่สุด"
+   },
+   "grammarNote": {
+    "vi": "「さすがの〜も」 = ngay cả … (lừng danh, giỏi) cũng. 「逮捕される」 = bị bắt giữ.",
+    "en": "さすがの〜も = \"even the (great)…\". 逮捕される = \"be arrested\".",
+    "zh-Hans": "「さすがの〜も」＝就连……也。「逮捕される」＝被逮捕。",
+    "zh-Hant": "「さすがの〜も」＝就連……也。「逮捕される」＝被逮捕。",
+    "ko": "「さすがの〜も」= 그 …도. 「逮捕される」= 체포되다.",
+    "tl": "さすがの〜も = \"maging ang…\". 逮捕される = \"maaresto\".",
+    "ne": "「さすがの〜も」= ती … पनि। 「逮捕される」= पक्राउ पर्नु।",
+    "id": "さすがの〜も = \"bahkan…\". 逮捕される = \"ditangkap\".",
+    "pt": "さすがの〜も = \"até o…\". 逮捕される = \"ser preso\".",
+    "my": "「逮捕される」= ဖမ်းဆီးခံရ။",
+    "th": "「さすがの〜も」= แม้แต่…ก็ 「逮捕される」= ถูกจับ"
+   },
+   "vocab": [
+    {
+     "word": "さすが",
+     "reading": "さすが",
+     "meanings": {
+      "vi": "quả là, ngay cả",
+      "en": "as expected, even",
+      "zh-Hans": "不愧, 就连",
+      "zh-Hant": "不愧, 就連",
+      "ko": "역시",
+      "tl": "talaga nga",
+      "ne": "साँच्चै",
+      "id": "memang",
+      "pt": "como esperado",
+      "my": "တကယ်ပဲ",
+      "th": "สมกับเป็น"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "逮捕",
+     "reading": "たいほ",
+     "meanings": {
+      "vi": "bắt giữ",
+      "en": "arrest",
+      "zh-Hans": "逮捕",
+      "zh-Hant": "逮捕",
+      "ko": "체포",
+      "tl": "aresto",
+      "ne": "पक्राउ",
+      "id": "penangkapan",
+      "pt": "prisão",
+      "my": "ဖမ်းဆီး",
+      "th": "จับกุม"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=289.7,294.97",
+   "t": [
+    289.7,
+    294.97
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「わたしの服は、手品師の服のように、ポケットだらけでしてね。五万円ぐらい、わけなく隠せますよ。」",
+   "furigana": [
+    {
+     "surface": "「わたしの",
+     "reading": ""
+    },
+    {
+     "surface": "服",
+     "reading": "ふく"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "手品",
+     "reading": "てじな"
+    },
+    {
+     "surface": "師",
+     "reading": "し"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "服",
+     "reading": "ふく"
+    },
+    {
+     "surface": "のように、ポケットだらけでしてね。",
+     "reading": ""
+    },
+    {
+     "surface": "五万円",
+     "reading": "ごまんえん"
+    },
+    {
+     "surface": "ぐらい、わけなく",
+     "reading": ""
+    },
+    {
+     "surface": "隠",
+     "reading": "かく"
+    },
+    {
+     "surface": "せますよ。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Watashi no fuku wa, tejinashi no fuku no you ni, pokettodarake de shite ne. Goman'en gurai, wakenaku kakusemasu yo.”",
+   "translations": {
+    "vi": "\"Bộ đồ của tôi toàn túi là túi, như áo của nhà ảo thuật ấy mà. Giấu năm vạn yên thì có gì khó.\"",
+    "en": "\"My clothes are all pockets, like a conjurer's. Hiding fifty thousand yen is nothing.\"",
+    "zh-Hans": "\"我的衣服就像魔术师的衣服一样，全是口袋。藏五万元算不了什么。\"",
+    "zh-Hant": "\"我的衣服就像魔術師的衣服一樣，全是口袋。藏五萬元算不了什麼。\"",
+    "ko": "\"제 옷은 마술사 옷처럼 주머니투성이거든요. 5만 엔쯤은 거뜬히 숨길 수 있지요.\"",
+    "tl": "\"Puro bulsa ang damit ko, gaya ng sa salamangkero. Madali lang itago ang limampung libong yen.\"",
+    "ne": "\"मेरो लुगा जादूगरको जस्तै खल्तीले भरिएको छ। पचास हजार येन लुकाउन केही गाह्रो छैन।\"",
+    "id": "\"Pakaianku penuh kantong, seperti baju pesulap. Menyembunyikan lima puluh ribu yen itu gampang.\"",
+    "pt": "\"Minha roupa é cheia de bolsos, como a de um mágico. Esconder cinquenta mil ienes não é nada.\"",
+    "my": "\"ကျွန်တော့် အဝတ်က မျက်လှည့်ဆရာ အဝတ်လို အိတ်ကပ်တွေချည်းပဲ။ ယန်း ငါးသောင်းလောက် ဝှက်ဖို့ လွယ်ပါတယ်။\"",
+    "th": "\"เสื้อผ้าของผมมีแต่กระเป๋าเหมือนชุดนักมายากล ซ่อนเงินห้าหมื่นเยนน่ะง่ายนิดเดียว\""
+   },
+   "grammarNote": {
+    "vi": "「〜だらけ」 = toàn là…. 「わけなく」 = chẳng khó khăn gì. 「〜でしてね」 = giọng kể chuyện lịch sự, tự đắc.",
+    "en": "〜だらけ = \"full of…\". わけなく = \"without difficulty\". 〜でしてね = polite, smug tone.",
+    "zh-Hans": "「〜だらけ」＝满是……。「わけなく」＝轻而易举。",
+    "zh-Hant": "「〜だらけ」＝滿是……。「わけなく」＝輕而易舉。",
+    "ko": "「〜だらけ」= …투성이. 「わけなく」= 거뜬히.",
+    "tl": "〜だらけ = \"puno ng…\". わけなく = \"madali\".",
+    "ne": "「〜だらけ」= … ले भरिएको। 「わけなく」= सजिलै।",
+    "id": "〜だらけ = \"penuh…\". わけなく = \"dengan mudah\".",
+    "pt": "〜だらけ = \"cheio de…\". わけなく = \"facilmente\".",
+    "my": "「〜だらけ」= … ချည်း။",
+    "th": "「〜だらけ」= เต็มไปด้วย… 「わけなく」= ง่าย ๆ"
+   },
+   "vocab": [
+    {
+     "word": "手品",
+     "reading": "てじな",
+     "meanings": {
+      "vi": "ảo thuật",
+      "en": "conjuring trick",
+      "zh-Hans": "魔术",
+      "zh-Hant": "魔術",
+      "ko": "마술",
+      "tl": "salamangka",
+      "ne": "जादू",
+      "id": "sulap",
+      "pt": "mágica",
+      "my": "မျက်လှည့်",
+      "th": "มายากล"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "隠す",
+     "reading": "かくす",
+     "meanings": {
+      "vi": "giấu",
+      "en": "to hide",
+      "zh-Hans": "藏",
+      "zh-Hant": "藏",
+      "ko": "숨기다",
+      "tl": "itago",
+      "ne": "लुकाउनु",
+      "id": "menyembunyikan",
+      "pt": "esconder",
+      "my": "ဝှက်",
+      "th": "ซ่อน"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=295.87,304.31",
+   "t": [
+    295.87,
+    304.31
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "男はにやりと笑って、そう答えたという。",
+   "furigana": [
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "はにやりと",
+     "reading": ""
+    },
+    {
+     "surface": "笑",
+     "reading": "わら"
+    },
+    {
+     "surface": "って、そう",
+     "reading": ""
+    },
+    {
+     "surface": "答",
+     "reading": "こた"
+    },
+    {
+     "surface": "えたという。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Otoko wa niyarito waratte, sou kotaeta to iu.",
+   "translations": {
+    "vi": "Nghe nói gã nhếch mép cười và trả lời như thế.",
+    "en": "He is said to have grinned and answered so.",
+    "zh-Hans": "据说那人咧嘴一笑，这样回答。",
+    "zh-Hant": "據說那人咧嘴一笑，這樣回答。",
+    "ko": "남자는 히죽 웃으며 그렇게 대답했다고 한다.",
+    "tl": "Ngumisi raw ang lalaki at ganoon ang isinagot.",
+    "ne": "उसले मुसुक्क हाँस्दै यसो जवाफ दियो रे।",
+    "id": "Konon pria itu menyeringai dan menjawab begitu.",
+    "pt": "Dizem que ele sorriu maliciosamente e respondeu assim.",
+    "my": "ထိုလူသည် ပြုံးစိစိ ရယ်ကာ ထိုသို့ ဖြေသည်ဟု ဆိုသည်။",
+    "th": "ว่ากันว่าชายคนนั้นยิ้มเยาะแล้วตอบแบบนั้น"
+   },
+   "grammarNote": {
+    "vi": "「にやりと」 = nhếch mép cười (đắc ý). 「〜という」 = nghe nói, người ta kể.",
+    "en": "にやりと = \"with a smirk\". 〜という = \"it is said\".",
+    "zh-Hans": "「にやりと」＝咧嘴一笑（得意）。「〜という」＝据说。",
+    "zh-Hant": "「にやりと」＝咧嘴一笑（得意）。「〜という」＝據說。",
+    "ko": "「にやりと」= 히죽. 「〜という」= …라고 한다.",
+    "tl": "にやりと = \"ngumisi\". 〜という = \"daw\".",
+    "ne": "「にやりと」= मुसुक्क। 「〜という」= रे।",
+    "id": "にやりと = \"menyeringai\". 〜という = \"konon\".",
+    "pt": "にやりと = \"sorriso maroto\". 〜という = \"dizem\".",
+    "my": "「にやりと」= ပြုံးစိစိ။",
+    "th": "「にやりと」= ยิ้มเยาะ 「〜という」= ว่ากันว่า"
+   },
+   "vocab": [],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=305.21,308.92",
+   "t": [
+    305.21,
+    308.92
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ところが、この泥棒には、一つだけ普通の泥棒と違うところがあった。",
+   "furigana": [
+    {
+     "surface": "ところが、この",
+     "reading": ""
+    },
+    {
+     "surface": "泥棒",
+     "reading": "どろぼう"
+    },
+    {
+     "surface": "には、",
+     "reading": ""
+    },
+    {
+     "surface": "一",
+     "reading": "ひと"
+    },
+    {
+     "surface": "つだけ",
+     "reading": ""
+    },
+    {
+     "surface": "普通",
+     "reading": "ふつう"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "泥棒",
+     "reading": "どろぼう"
+    },
+    {
+     "surface": "と",
+     "reading": ""
+    },
+    {
+     "surface": "違",
+     "reading": "ちが"
+    },
+    {
+     "surface": "うところがあった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Tokoroga, kono dorobou ni wa, hitotsu dake futsuu no dorobou to chigau tokoro ga atta.",
+   "translations": {
+    "vi": "Tuy nhiên, tên trộm này có một điểm khác hẳn những tên trộm thường.",
+    "en": "However, this thief differed from ordinary thieves in one respect.",
+    "zh-Hans": "然而，这个小偷有一点和普通小偷不同。",
+    "zh-Hant": "然而，這個小偷有一點和普通小偷不同。",
+    "ko": "그런데 이 도둑에게는 보통 도둑과 다른 점이 하나 있었다.",
+    "tl": "Gayunman, may isang bagay na naiiba sa magnanakaw na ito kumpara sa karaniwan.",
+    "ne": "तर यो चोरमा साधारण चोरभन्दा एउटा फरक कुरा थियो।",
+    "id": "Namun, pencuri ini punya satu hal yang berbeda dari pencuri biasa.",
+    "pt": "Porém, esse ladrão tinha um ponto diferente dos ladrões comuns.",
+    "my": "သို့သော် ဤသူခိုးတွင် သာမန် သူခိုးများနှင့် မတူသည့် အချက် တစ်ခု ရှိသည်။",
+    "th": "แต่โจรคนนี้มีจุดหนึ่งที่ต่างจากโจรทั่วไป"
+   },
+   "grammarNote": {
+    "vi": "「普通」 = bình thường. 「〜と違う」 = khác với….",
+    "en": "普通 = \"ordinary\". 〜と違う = \"differ from…\".",
+    "zh-Hans": "「普通」＝普通。「〜と違う」＝和……不同。",
+    "zh-Hant": "「普通」＝普通。「〜と違う」＝和……不同。",
+    "ko": "「普通」= 보통. 「〜と違う」= …와 다르다.",
+    "tl": "普通 = \"karaniwan\".",
+    "ne": "「普通」= साधारण।",
+    "id": "普通 = \"biasa\".",
+    "pt": "普通 = \"comum\".",
+    "my": "「普通」= သာမန်။",
+    "th": "「普通」= ทั่วไป"
+   },
+   "vocab": [
+    {
+     "word": "普通",
+     "reading": "ふつう",
+     "meanings": {
+      "vi": "bình thường",
+      "en": "ordinary",
+      "zh-Hans": "普通",
+      "zh-Hant": "普通",
+      "ko": "보통",
+      "tl": "karaniwan",
+      "ne": "साधारण",
+      "id": "biasa",
+      "pt": "comum",
+      "my": "သာမန်",
+      "th": "ธรรมดา"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=309.52,315.58",
+   "t": [
+    309.52,
+    315.58
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "盗んだ五万円をどこに隠したのか、一言も話さなかったのである。",
+   "furigana": [
+    {
+     "surface": "盗",
+     "reading": "ぬす"
+    },
+    {
+     "surface": "んだ",
+     "reading": ""
+    },
+    {
+     "surface": "五万円",
+     "reading": "ごまんえん"
+    },
+    {
+     "surface": "をどこに",
+     "reading": ""
+    },
+    {
+     "surface": "隠",
+     "reading": "かく"
+    },
+    {
+     "surface": "したのか、",
+     "reading": ""
+    },
+    {
+     "surface": "一言",
+     "reading": "ひとこと"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はな"
+    },
+    {
+     "surface": "さなかったのである。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nusun da goman'en o doko ni kakushita no ka, hitokoto mo hanasanakatta nodearu.",
+   "translations": {
+    "vi": "Hắn không hé răng nửa lời về chỗ giấu năm vạn yên đã trộm.",
+    "en": "He never said a single word about where he had hidden the stolen fifty thousand yen.",
+    "zh-Hans": "关于偷来的五万元藏在哪里，他一个字也没说。",
+    "zh-Hant": "關於偷來的五萬元藏在哪裡，他一個字也沒說。",
+    "ko": "훔친 5만 엔을 어디에 숨겼는지 한마디도 말하지 않은 것이다.",
+    "tl": "Hindi siya nagsalita kahit isang salita tungkol sa kung saan niya itinago ang ninakaw na limampung libong yen.",
+    "ne": "चोरेको पचास हजार येन कहाँ लुकायो भन्नेबारे उसले एक शब्द पनि बोलेन।",
+    "id": "Ia tak berkata sepatah kata pun soal di mana menyembunyikan lima puluh ribu yen curian.",
+    "pt": "Não disse uma palavra sobre onde escondera os cinquenta mil ienes roubados.",
+    "my": "ခိုးထားသော ယန်း ငါးသောင်းကို ဘယ်မှာ ဝှက်ထားသည်ကို တစ်ခွန်းမှ မပြော။",
+    "th": "เขาไม่ยอมพูดสักคำว่าซ่อนเงินห้าหมื่นเยนที่ขโมยมาไว้ที่ไหน"
+   },
+   "grammarNote": {
+    "vi": "「一言も〜ない」 = không nói một lời nào. 「〜のか」 = câu hỏi lồng (ở đâu…).",
+    "en": "一言も〜ない = \"not a single word\". 〜のか = embedded question (\"where…\").",
+    "zh-Hans": "「一言も〜ない」＝一句话也不……。「〜のか」＝嵌入疑问。",
+    "zh-Hant": "「一言も〜ない」＝一句話也不……。「〜のか」＝嵌入疑問。",
+    "ko": "「一言も〜ない」= 한마디도 …않다.",
+    "tl": "一言も〜ない = \"kahit isang salita\".",
+    "ne": "「一言も〜ない」= एक शब्द पनि …न।",
+    "id": "一言も〜ない = \"sepatah kata pun tidak\".",
+    "pt": "一言も〜ない = \"nem uma palavra\".",
+    "my": "「一言も」= တစ်ခွန်းမှ။",
+    "th": "「一言も〜ない」= ไม่…แม้แต่คำเดียว"
+   },
+   "vocab": [
+    {
+     "word": "一言",
+     "reading": "ひとこと",
+     "meanings": {
+      "vi": "một lời",
+      "en": "a word",
+      "zh-Hans": "一句话",
+      "zh-Hant": "一句話",
+      "ko": "한마디",
+      "tl": "isang salita",
+      "ne": "एक शब्द",
+      "id": "sepatah kata",
+      "pt": "uma palavra",
+      "my": "တစ်ခွန်း",
+      "th": "คำเดียว"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=316.18,321.81",
+   "t": [
+    316.18,
+    321.81
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「知りませんね。もう全部使ってしまいましたよ。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "りませんね。もう",
+     "reading": ""
+    },
+    {
+     "surface": "全部",
+     "reading": "ぜんぶ"
+    },
+    {
+     "surface": "使",
+     "reading": "つか"
+    },
+    {
+     "surface": "ってしまいましたよ。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Shirimasen ne. Mou zenbu tsukatte shimaimashita yo.”",
+   "translations": {
+    "vi": "\"Chẳng biết đâu. Tiêu sạch hết rồi.\"",
+    "en": "\"I don't know. I've spent it all already.\"",
+    "zh-Hans": "\"不知道啊。早就全花光了。\"",
+    "zh-Hant": "\"不知道啊。早就全花光了。\"",
+    "ko": "\"모르겠는데요. 벌써 다 써 버렸어요.\"",
+    "tl": "\"Ewan ko. Naubos ko na lahat.\"",
+    "ne": "\"थाहा छैन। सबै खर्च गरिसकें।\"",
+    "id": "\"Tidak tahu. Sudah habis saya pakai.\"",
+    "pt": "\"Não sei. Já gastei tudo.\"",
+    "my": "\"မသိဘူး။ အကုန် သုံးပစ်ပြီ။\"",
+    "th": "\"ไม่รู้สิ ใช้หมดไปแล้ว\""
+   },
+   "grammarNote": {
+    "vi": "「Vてしまいました」 = đã V hết mất rồi (hoàn toàn).",
+    "en": "Vてしまいました = \"have completely V-ed\".",
+    "zh-Hans": "「Vてしまいました」＝已经V完了。",
+    "zh-Hant": "「Vてしまいました」＝已經V完了。",
+    "ko": "「Vてしまいました」= 다 …해 버렸다.",
+    "tl": "Vてしまいました = \"naubos na\".",
+    "ne": "「Vてしまいました」= सबै V गरिसकें।",
+    "id": "Vてしまいました = \"sudah habis V\".",
+    "pt": "Vてしまいました = \"já V tudo\".",
+    "my": "「Vてしまいました」= အကုန် V ပြီ။",
+    "th": "「Vてしまいました」= V หมดไปแล้ว"
+   },
+   "vocab": [],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=322.71,326.26",
+   "t": [
+    322.71,
+    326.26
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "警察も裁判所も、いくら問いつめても、男はそれしか言わなかった。",
+   "furigana": [
+    {
+     "surface": "警察",
+     "reading": "けいさつ"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "裁判所",
+     "reading": "さいばんしょ"
+    },
+    {
+     "surface": "も、いくら",
+     "reading": ""
+    },
+    {
+     "surface": "問",
+     "reading": "と"
+    },
+    {
+     "surface": "いつめても、",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "はそれしか",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "わなかった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Keisatsu mo saibansho mo, ikura toitsumete mo, otoko wa sore shika iwanakatta.",
+   "translations": {
+    "vi": "Cảnh sát hay tòa án có tra hỏi đến đâu, gã cũng chỉ nói đúng câu ấy.",
+    "en": "However hard the police and court pressed him, that was all he would say.",
+    "zh-Hans": "无论警察和法院怎么追问，他都只说这一句。",
+    "zh-Hant": "無論警察和法院怎麼追問，他都只說這一句。",
+    "ko": "경찰도 법원도 아무리 추궁해도 남자는 그 말밖에 하지 않았다.",
+    "tl": "Gaano man siya usisain ng pulisya at hukuman, iyon lang ang sinasabi niya.",
+    "ne": "प्रहरी र अदालतले जति सोधखोज गरे पनि उसले त्यही मात्र भन्यो।",
+    "id": "Seberapa pun polisi dan pengadilan menginterogasi, ia hanya bilang itu.",
+    "pt": "Por mais que a polícia e o tribunal o apertassem, só dizia isso.",
+    "my": "ရဲနှင့် တရားရုံးက မည်မျှ စစ်မေးစေကာမူ သူက ထိုစကားသာ ပြောသည်။",
+    "th": "ไม่ว่าตำรวจและศาลจะซักไซ้แค่ไหน เขาก็พูดแค่นั้น"
+   },
+   "grammarNote": {
+    "vi": "「いくら〜ても」 = dù… đến đâu cũng. 「問いつめる」 = tra hỏi dồn dập. 「〜しか〜ない」 = chỉ….",
+    "en": "いくら〜ても = \"no matter how much…\". 問いつめる = \"press with questions\". 〜しか〜ない = \"nothing but…\".",
+    "zh-Hans": "「いくら〜ても」＝无论怎么……也。「問いつめる」＝追问。「〜しか〜ない」＝只……。",
+    "zh-Hant": "「いくら〜ても」＝無論怎麼……也。「問いつめる」＝追問。「〜しか〜ない」＝只……。",
+    "ko": "「いくら〜ても」= 아무리 …해도. 「問いつめる」= 추궁하다.",
+    "tl": "いくら〜ても = \"gaano man…\". 問いつめる = \"usisain\".",
+    "ne": "「いくら〜ても」= जति … पनि। 「問いつめる」= सोधखोज गर्नु।",
+    "id": "いくら〜ても = \"seberapa pun…\". 問いつめる = \"menginterogasi\".",
+    "pt": "いくら〜ても = \"por mais que…\". 問いつめる = \"pressionar\".",
+    "my": "「いくら〜ても」= မည်မျှ … စေကာမူ။",
+    "th": "「いくら〜ても」= ไม่ว่าจะ…แค่ไหน 「問いつめる」= ซักไซ้"
+   },
+   "vocab": [
+    {
+     "word": "裁判所",
+     "reading": "さいばんしょ",
+     "meanings": {
+      "vi": "tòa án",
+      "en": "court",
+      "zh-Hans": "法院",
+      "zh-Hant": "法院",
+      "ko": "법원",
+      "tl": "hukuman",
+      "ne": "अदालत",
+      "id": "pengadilan",
+      "pt": "tribunal",
+      "my": "တရားရုံး",
+      "th": "ศาล"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "問いつめる",
+     "reading": "といつめる",
+     "meanings": {
+      "vi": "tra hỏi dồn",
+      "en": "to press with questions",
+      "zh-Hans": "追问",
+      "zh-Hant": "追問",
+      "ko": "추궁하다",
+      "tl": "usisain",
+      "ne": "सोधखोज गर्नु",
+      "id": "menginterogasi",
+      "pt": "pressionar",
+      "my": "စစ်မေး",
+      "th": "ซักไซ้"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=327.16,332.85",
+   "t": [
+    327.16,
+    332.85
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "結局お金は見つからないまま、男は重い罪で刑務所に入れられた。",
+   "furigana": [
+    {
+     "surface": "結局",
+     "reading": "けっきょく"
+    },
+    {
+     "surface": "お",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "かね"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "つからないまま、",
+     "reading": ""
+    },
+    {
+     "surface": "男",
+     "reading": "おとこ"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "重",
+     "reading": "おも"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "罪",
+     "reading": "つみ"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "刑務所",
+     "reading": "けいむしょ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "入",
+     "reading": "い"
+    },
+    {
+     "surface": "れられた。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Kekkyoku okane wa mitsukaranai mama, otoko wa omoi tsumi de keimusho ni irerareta.",
+   "translations": {
+    "vi": "Rốt cuộc tiền vẫn không tìm thấy, còn gã bị tống vào tù với tội nặng.",
+    "en": "In the end the money was never found, and he was sent to prison with a heavy sentence.",
+    "zh-Hans": "结果钱也没找到，那人被判重罪进了监狱。",
+    "zh-Hant": "結果錢也沒找到，那人被判重罪進了監獄。",
+    "ko": "결국 돈은 찾지 못한 채, 남자는 무거운 죄로 감옥에 들어갔다.",
+    "tl": "Sa huli, hindi natagpuan ang pera at nakulong siya sa mabigat na sentensiya.",
+    "ne": "अन्ततः पैसा भेटिएन र ऊ गम्भीर अपराधमा जेल परे।",
+    "id": "Akhirnya uang tak ditemukan, dan ia dipenjara dengan hukuman berat.",
+    "pt": "No fim o dinheiro não apareceu, e ele foi preso com pena pesada.",
+    "my": "နောက်ဆုံး ငွေကို မတွေ့ဘဲ သူ့ကို ပြင်းထန်သော ပြစ်မှုဖြင့် ထောင်ချသည်။",
+    "th": "สุดท้ายก็ไม่พบเงิน ส่วนเขาถูกส่งเข้าคุกด้วยโทษหนัก"
+   },
+   "grammarNote": {
+    "vi": "「結局」 = rốt cuộc. 「Vないまま」 = vẫn trong tình trạng chưa V. 「刑務所」 = nhà tù.",
+    "en": "結局 = \"in the end\". Vないまま = \"still without V-ing\". 刑務所 = \"prison\".",
+    "zh-Hans": "「結局」＝结果。「Vないまま」＝一直没V。「刑務所」＝监狱。",
+    "zh-Hant": "「結局」＝結果。「Vないまま」＝一直沒V。「刑務所」＝監獄。",
+    "ko": "「結局」= 결국. 「Vないまま」= …않은 채. 「刑務所」= 교도소.",
+    "tl": "結局 = \"sa huli\". 刑務所 = \"bilangguan\".",
+    "ne": "「結局」= अन्ततः। 「刑務所」= जेल।",
+    "id": "結局 = \"akhirnya\". 刑務所 = \"penjara\".",
+    "pt": "結局 = \"no fim\". 刑務所 = \"prisão\".",
+    "my": "「結局」= နောက်ဆုံး။ 「刑務所」= ထောင်။",
+    "th": "「結局」= สุดท้าย 「Vないまま」= ยังไม่ได้ V 「刑務所」= คุก"
+   },
+   "vocab": [
+    {
+     "word": "結局",
+     "reading": "けっきょく",
+     "meanings": {
+      "vi": "rốt cuộc",
+      "en": "in the end",
+      "zh-Hans": "结果",
+      "zh-Hant": "結果",
+      "ko": "결국",
+      "tl": "sa huli",
+      "ne": "अन्ततः",
+      "id": "akhirnya",
+      "pt": "no fim",
+      "my": "နောက်ဆုံး",
+      "th": "สุดท้าย"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "罪",
+     "reading": "つみ",
+     "meanings": {
+      "vi": "tội",
+      "en": "crime, sin",
+      "zh-Hans": "罪",
+      "zh-Hant": "罪",
+      "ko": "죄",
+      "tl": "kasalanan",
+      "ne": "अपराध",
+      "id": "kejahatan",
+      "pt": "crime",
+      "my": "ပြစ်မှု",
+      "th": "ความผิด"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "刑務所",
+     "reading": "けいむしょ",
+     "meanings": {
+      "vi": "nhà tù",
+      "en": "prison",
+      "zh-Hans": "监狱",
+      "zh-Hant": "監獄",
+      "ko": "교도소",
+      "tl": "bilangguan",
+      "ne": "जेल",
+      "id": "penjara",
+      "pt": "prisão",
+      "my": "ထောင်",
+      "th": "เรือนจำ"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=333.45,339.75",
+   "t": [
+    333.45,
+    339.75
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "困ったのは工場である。工場としては、犯人よりも、お金を発見してほしかった。",
+   "furigana": [
+    {
+     "surface": "困",
+     "reading": "こま"
+    },
+    {
+     "surface": "ったのは",
+     "reading": ""
+    },
+    {
+     "surface": "工場",
+     "reading": "こうじょう"
+    },
+    {
+     "surface": "である。",
+     "reading": ""
+    },
+    {
+     "surface": "工場",
+     "reading": "こうじょう"
+    },
+    {
+     "surface": "としては、",
+     "reading": ""
+    },
+    {
+     "surface": "犯人",
+     "reading": "はんにん"
+    },
+    {
+     "surface": "よりも、お",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "かね"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "発見",
+     "reading": "はっけん"
+    },
+    {
+     "surface": "してほしかった。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Komatta no wa koujoudearu. Koujou toshite wa, hannin yori mo, okane o hakken shite hoshikatta.",
+   "translations": {
+    "vi": "Khốn đốn nhất là nhà máy. Với họ, tìm ra tiền còn quan trọng hơn bắt được thủ phạm.",
+    "en": "It was the factory that was in trouble. They wanted the money found more than the culprit.",
+    "zh-Hans": "最头疼的是工厂。对工厂来说，比起犯人，更希望找到钱。",
+    "zh-Hant": "最頭疼的是工廠。對工廠來說，比起犯人，更希望找到錢。",
+    "ko": "곤란한 건 공장이었다. 공장으로서는 범인보다 돈을 찾아 주기를 바랐다.",
+    "tl": "Ang pabrika ang nagkaproblema. Mas gusto nilang matagpuan ang pera kaysa sa salarin.",
+    "ne": "समस्यामा परेको कारखाना थियो। उनीहरू अपराधीभन्दा पैसा भेटियोस् भन्ने चाहन्थे।",
+    "id": "Yang susah adalah pabrik. Bagi mereka, uangnya ditemukan lebih penting dari pelakunya.",
+    "pt": "Quem sofria era a fábrica. Ela queria mais o dinheiro achado do que o culpado.",
+    "my": "ဒုက္ခရောက်သည်မှာ စက်ရုံ ဖြစ်သည်။ စက်ရုံအနေဖြင့် တရားခံထက် ငွေကို ပြန်တွေ့စေချင်သည်။",
+    "th": "ที่ลำบากคือโรงงาน สำหรับโรงงาน อยากให้พบเงินมากกว่าจับคนร้าย"
+   },
+   "grammarNote": {
+    "vi": "「〜としては」 = về phía…, với tư cách…. 「Vてほしい」 = muốn (người khác) V.",
+    "en": "〜としては = \"as for…, from the standpoint of…\". Vてほしい = \"want someone to V\".",
+    "zh-Hans": "「〜としては」＝作为……来说。「Vてほしい」＝希望（别人）V。",
+    "zh-Hant": "「〜としては」＝作為……來說。「Vてほしい」＝希望（別人）V。",
+    "ko": "「〜としては」= …로서는. 「Vてほしい」= …해 주길 바라다.",
+    "tl": "〜としては = \"para sa…\". Vてほしい = \"gustong ipa-V\".",
+    "ne": "「〜としては」= … को हिसाबले। 「Vてほしい」= V गरिदेओस् भन्ने चाहनु।",
+    "id": "〜としては = \"bagi…\". Vてほしい = \"ingin agar di-V\".",
+    "pt": "〜としては = \"para…\". Vてほしい = \"querer que V\".",
+    "my": "「Vてほしい」= V စေချင်။",
+    "th": "「〜としては」= สำหรับ… 「Vてほしい」= อยากให้ V"
+   },
+   "vocab": [
+    {
+     "word": "発見",
+     "reading": "はっけん",
+     "meanings": {
+      "vi": "phát hiện",
+      "en": "discovery",
+      "zh-Hans": "发现",
+      "zh-Hant": "發現",
+      "ko": "발견",
+      "tl": "pagtuklas",
+      "ne": "खोज",
+      "id": "penemuan",
+      "pt": "descoberta",
+      "my": "ရှာဖွေတွေ့ရှိ",
+      "th": "ค้นพบ"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=340.35,347.78",
+   "t": [
+    340.35,
+    347.78
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "そこで支配人は、お金を見つけた者に、その一割を賞金として出すと発表した。",
+   "furigana": [
+    {
+     "surface": "そこで",
+     "reading": ""
+    },
+    {
+     "surface": "支配人",
+     "reading": "しはいにん"
+    },
+    {
+     "surface": "は、お",
+     "reading": ""
+    },
+    {
+     "surface": "金",
+     "reading": "かね"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "つけた",
+     "reading": ""
+    },
+    {
+     "surface": "者",
+     "reading": "もの"
+    },
+    {
+     "surface": "に、その",
+     "reading": ""
+    },
+    {
+     "surface": "一割",
+     "reading": "いちわり"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "賞金",
+     "reading": "しょうきん"
+    },
+    {
+     "surface": "として",
+     "reading": ""
+    },
+    {
+     "surface": "出",
+     "reading": "だ"
+    },
+    {
+     "surface": "すと",
+     "reading": ""
+    },
+    {
+     "surface": "発表",
+     "reading": "はっぴょう"
+    },
+    {
+     "surface": "した。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sokode shihainin wa, okane o mitsuketa mono ni, sono ichiwari o shoukin toshite dasu to happyou shita.",
+   "translations": {
+    "vi": "Vì thế giám đốc tuyên bố sẽ thưởng một phần mười số tiền cho ai tìm thấy.",
+    "en": "So the manager announced a reward of one tenth of the money to whoever found it.",
+    "zh-Hans": "于是经理宣布，谁找到钱，就把其中一成作为赏金。",
+    "zh-Hant": "於是經理宣佈，誰找到錢，就把其中一成作為賞金。",
+    "ko": "그래서 지배인은 돈을 찾은 사람에게 그 1할을 상금으로 주겠다고 발표했다.",
+    "tl": "Kaya inihayag ng tagapamahala na bibigyan ng ikasampung bahagi bilang gantimpala ang makakatagpo ng pera.",
+    "ne": "त्यसैले प्रबन्धकले पैसा भेट्नेलाई त्यसको दश प्रतिशत इनाम दिने घोषणा गरे।",
+    "id": "Maka manajer mengumumkan hadiah sepersepuluh bagi siapa saja yang menemukan uang itu.",
+    "pt": "Então o gerente anunciou uma recompensa de um décimo a quem achasse o dinheiro.",
+    "my": "ထို့ကြောင့် မန်နေဂျာသည် ငွေကို တွေ့သူအား ဆယ်ပုံတစ်ပုံ ဆုငွေ ပေးမည်ဟု ကြေညာသည်။",
+    "th": "ผู้จัดการจึงประกาศว่าใครพบเงินจะให้รางวัลหนึ่งในสิบ"
+   },
+   "grammarNote": {
+    "vi": "「一割」 = một phần mười (10%). 「賞金」 = tiền thưởng. 「発表」 = công bố.",
+    "en": "一割 = \"ten percent\". 賞金 = \"reward money\". 発表 = \"announcement\".",
+    "zh-Hans": "「一割」＝一成。「賞金」＝赏金。「発表」＝宣布。",
+    "zh-Hant": "「一割」＝一成。「賞金」＝賞金。「発表」＝宣佈。",
+    "ko": "「一割」= 1할(10%). 「賞金」= 상금. 「発表」= 발표.",
+    "tl": "一割 = \"sampung porsiyento\". 賞金 = \"gantimpala\".",
+    "ne": "「一割」= दश प्रतिशत। 「賞金」= इनाम।",
+    "id": "一割 = \"sepuluh persen\". 賞金 = \"hadiah\".",
+    "pt": "一割 = \"dez por cento\". 賞金 = \"recompensa\".",
+    "my": "「一割」= ဆယ်ပုံတစ်ပုံ။ 「賞金」= ဆုငွေ။",
+    "th": "「一割」= สิบเปอร์เซ็นต์ 「賞金」= เงินรางวัล 「発表」= ประกาศ"
+   },
+   "vocab": [
+    {
+     "word": "一割",
+     "reading": "いちわり",
+     "meanings": {
+      "vi": "một phần mười",
+      "en": "ten percent",
+      "zh-Hans": "一成",
+      "zh-Hant": "一成",
+      "ko": "1할",
+      "tl": "sampung porsiyento",
+      "ne": "दश प्रतिशत",
+      "id": "sepuluh persen",
+      "pt": "dez por cento",
+      "my": "ဆယ်ပုံတစ်ပုံ",
+      "th": "สิบเปอร์เซ็นต์"
+     },
+     "level": "N1"
+    },
+    {
+     "word": "賞金",
+     "reading": "しょうきん",
+     "meanings": {
+      "vi": "tiền thưởng",
+      "en": "reward money",
+      "zh-Hans": "赏金",
+      "zh-Hant": "賞金",
+      "ko": "상금",
+      "tl": "gantimpala",
+      "ne": "इनाम",
+      "id": "hadiah",
+      "pt": "recompensa",
+      "my": "ဆုငွေ",
+      "th": "เงินรางวัล"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "発表",
+     "reading": "はっぴょう",
+     "meanings": {
+      "vi": "công bố",
+      "en": "announcement",
+      "zh-Hans": "宣布",
+      "zh-Hant": "宣佈",
+      "ko": "발표",
+      "tl": "pahayag",
+      "ne": "घोषणा",
+      "id": "pengumuman",
+      "pt": "anúncio",
+      "my": "ကြေညာ",
+      "th": "ประกาศ"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=348.38,355.33",
+   "t": [
+    348.38,
+    355.33
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "五万円の一割、つまり五千円である。",
+   "furigana": [
+    {
+     "surface": "五万円",
+     "reading": "ごまんえん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "一割",
+     "reading": "いちわり"
+    },
+    {
+     "surface": "、つまり",
+     "reading": ""
+    },
+    {
+     "surface": "五千円",
+     "reading": "ごせんえん"
+    },
+    {
+     "surface": "である。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Goman'en no ichiwari, tsumari gosen'endearu.",
+   "translations": {
+    "vi": "Một phần mười của năm vạn yên, tức là năm nghìn yên.",
+    "en": "One tenth of fifty thousand yen — that is, five thousand yen.",
+    "zh-Hans": "五万元的一成，也就是五千元。",
+    "zh-Hant": "五萬元的一成，也就是五千元。",
+    "ko": "5만 엔의 1할, 즉 5천 엔이다.",
+    "tl": "Ikasampu ng limampung libong yen — ibig sabihin, limang libong yen.",
+    "ne": "पचास हजार येनको दश प्रतिशत, अर्थात् पाँच हजार येन।",
+    "id": "Sepersepuluh dari lima puluh ribu yen, yaitu lima ribu yen.",
+    "pt": "Um décimo de cinquenta mil ienes: ou seja, cinco mil ienes.",
+    "my": "ယန်း ငါးသောင်း၏ ဆယ်ပုံတစ်ပုံ၊ ဆိုလိုသည်မှာ ယန်း ငါးထောင်။",
+    "th": "หนึ่งในสิบของห้าหมื่นเยน ก็คือห้าพันเยน"
+   },
+   "grammarNote": {
+    "vi": "「つまり」 = tức là, nói cách khác.",
+    "en": "つまり = \"in other words, that is\".",
+    "zh-Hans": "「つまり」＝也就是说。",
+    "zh-Hant": "「つまり」＝也就是說。",
+    "ko": "「つまり」= 즉.",
+    "tl": "つまり = \"ibig sabihin\".",
+    "ne": "「つまり」= अर्थात्।",
+    "id": "つまり = \"yaitu\".",
+    "pt": "つまり = \"ou seja\".",
+    "my": "「つまり」= ဆိုလိုသည်မှာ။",
+    "th": "「つまり」= ก็คือ"
+   },
+   "vocab": [
+    {
+     "word": "つまり",
+     "reading": "つまり",
+     "meanings": {
+      "vi": "tức là",
+      "en": "in other words",
+      "zh-Hans": "也就是说",
+      "zh-Hant": "也就是說",
+      "ko": "즉",
+      "tl": "ibig sabihin",
+      "ne": "अर्थात्",
+      "id": "yaitu",
+      "pt": "ou seja",
+      "my": "ဆိုလိုသည်မှာ",
+      "th": "กล่าวคือ"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=355.93,359.89",
+   "t": [
+    355.93,
+    359.89
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "これからお話しするのは、この事件がちょうどそんなふうに進んでいたころの、松村武とわたしの、ちょっとおもしろい物語なのである。",
+   "furigana": [
+    {
+     "surface": "これからお",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はな"
+    },
+    {
+     "surface": "しするのは、この",
+     "reading": ""
+    },
+    {
+     "surface": "事件",
+     "reading": "じけん"
+    },
+    {
+     "surface": "がちょうどそんなふうに",
+     "reading": ""
+    },
+    {
+     "surface": "進",
+     "reading": "すす"
+    },
+    {
+     "surface": "んでいたころの、",
+     "reading": ""
+    },
+    {
+     "surface": "松村武",
+     "reading": "まつむらたけし"
+    },
+    {
+     "surface": "とわたしの、ちょっとおもしろい",
+     "reading": ""
+    },
+    {
+     "surface": "物語",
+     "reading": "ものがたり"
+    },
+    {
+     "surface": "なのである。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Korekara ohanashi suru no wa, kono jiken ga choudo sonna fuu ni susunde ita koro no, matsumuratakeshi to watashi no, chotto omoshiroi monogatarina nodearu.",
+   "translations": {
+    "vi": "Điều tôi sắp kể đây là một câu chuyện khá thú vị về Matsumura Takeshi và tôi, xảy ra đúng vào lúc vụ án đang tiến triển như thế.",
+    "en": "What I'm about to tell is a rather amusing story about Matsumura Takeshi and me, from just the time the case stood thus.",
+    "zh-Hans": "下面要讲的，就是这起案件正发展到这一步时，关于松村武和我的一个有点意思的故事。",
+    "zh-Hant": "下面要講的，就是這起案件正發展到這一步時，關於松村武和我的一個有點意思的故事。",
+    "ko": "이제부터 이야기할 것은, 이 사건이 바로 그렇게 진행되던 무렵의 마쓰무라 다케시와 나의 조금 재미있는 이야기다.",
+    "tl": "Ang ikukuwento ko ay isang medyo nakatutuwang kuwento tungkol kina Matsumura Takeshi at ako, noong ganoon ang takbo ng kaso.",
+    "ne": "अब म भन्न लागेको कथा यो घटना यसरी अघि बढ्दै गर्दा मात्सुमुरा ताकेशी र मेरो बारेमा रमाइलो कथा हो।",
+    "id": "Yang akan kuceritakan adalah kisah agak menarik tentang Matsumura Takeshi dan aku, tepat ketika kasus itu sedang berjalan demikian.",
+    "pt": "O que vou contar é uma história curiosa sobre Matsumura Takeshi e eu, justo quando o caso estava nesse ponto.",
+    "my": "ယခု ကျွန်ုပ် ပြောမည်မှာ ထိုအမှု ဤသို့ ဖြစ်ပေါ်နေချိန်တွင် မတ်ဆုမူရ တာကေရှီနှင့် ကျွန်ုပ်၏ စိတ်ဝင်စားစရာ ဇာတ်လမ်း ဖြစ်သည်။",
+    "th": "เรื่องที่ผมจะเล่าต่อไปนี้ คือเรื่องน่าสนใจของมัตสึมุระ ทาเคชิกับผม ในช่วงที่คดีนี้กำลังดำเนินไปอย่างนั้นพอดี"
+   },
+   "grammarNote": {
+    "vi": "「これからお話しする」 = sắp kể (khiêm nhường). 「物語」 = câu chuyện. Câu chuyển sang phần chính — hãy đón đọc tập 2!",
+    "en": "これからお話しする = \"about to tell\" (humble). 物語 = \"story\". The bridge to the main tale — on to part 2!",
+    "zh-Hans": "「これからお話しする」＝接下来要讲（谦让）。「物語」＝故事。正篇即将开始——请看第二集！",
+    "zh-Hant": "「これからお話しする」＝接下來要講（謙讓）。「物語」＝故事。正篇即將開始——請看第二集！",
+    "ko": "「これからお話しする」= 이제부터 이야기할. 「物語」= 이야기. 2화로!",
+    "tl": "物語 = \"kuwento\". Sa ikalawang bahagi!",
+    "ne": "「物語」= कथा। भाग २ मा!",
+    "id": "物語 = \"kisah\". Lanjut ke bagian 2!",
+    "pt": "物語 = \"história\". Rumo à parte 2!",
+    "my": "「物語」= ဇာတ်လမ်း။",
+    "th": "「物語」= เรื่องราว ติดตามตอนที่ 2!"
+   },
+   "vocab": [
+    {
+     "word": "物語",
+     "reading": "ものがたり",
+     "meanings": {
+      "vi": "câu chuyện",
+      "en": "story, tale",
+      "zh-Hans": "故事",
+      "zh-Hant": "故事",
+      "ko": "이야기",
+      "tl": "kuwento",
+      "ne": "कथा",
+      "id": "kisah",
+      "pt": "história",
+      "my": "ဇာတ်လမ်း",
+      "th": "เรื่องราว"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/mystery-nisen-1/chapter.mp3#t=360.49,369.6",
+   "t": [
+    360.49,
+    369.6
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  }
+ ]
+}
