@@ -7,6 +7,8 @@ import { addToDeck, DECK_KEY, useLocalJson, type DeckCard } from "../lib/store";
 import { FREE_DECK_CARDS } from "../lib/access";
 import Paywall from "./Paywall";
 import { useLang } from "./LangProvider";
+import { alignWord, hasKanji } from "../lib/furigana";
+import Furigana from "./Furigana";
 
 const EMPTY_DECK: DeckCard[] = [];
 
@@ -42,12 +44,14 @@ export default function WordPopup({
       }}
     >
       <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
-        <span className="jp" style={{ fontSize: 20, fontWeight: 700 }}>
-          {vocab.word}
+        <span lang="ja" className="jp" style={{ fontSize: 20, fontWeight: 700 }}>
+          <Furigana segments={alignWord(vocab.word, vocab.reading)} />
         </span>
-        <span className="jp" style={{ fontSize: 13, color: "var(--muted)" }}>
-          {vocab.reading}
-        </span>
+        {!hasKanji(vocab.word) && vocab.reading !== vocab.word && (
+          <span className="jp" style={{ fontSize: 13, color: "var(--muted)" }}>
+            {vocab.reading}
+          </span>
+        )}
         <span className="lvl" style={{ marginLeft: "auto" }}>
           {vocab.level}
         </span>

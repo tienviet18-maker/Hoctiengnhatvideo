@@ -2,16 +2,26 @@
 
 import { useEffect, useMemo, useState } from "react";
 import DeckShelf from "./DeckShelf";
+import Furigana from "../../components/Furigana";
+import { alignWord, hasKanji } from "../../lib/furigana";
+import type { FuriganaSegment } from "../../lib/content-schema";
 import { useLang } from "../../components/LangProvider";
 import { pickText } from "../../lib/i18n";
 import {
   ACTIVITY_KEY,
   DECK_KEY,
+  refreshPremadeCards,
   reviewCard,
   useLocalJson,
   type DayActivity,
   type DeckCard,
+  type PremadeCard,
 } from "../../lib/store";
+
+/** Câu tiếng Nhật luôn có furigana: dùng mảnh có sẵn, nếu chưa có thì hiện chữ trần. */
+function Jp({ text, f }: { text: string; f?: FuriganaSegment[] }) {
+  return f ? <Furigana segments={f} /> : <>{text}</>;
+}
 
 function Ring({ pct, size = 74, stroke = 7 }: { pct: number; size?: number; stroke?: number }) {
   const r = (size - stroke) / 2;
@@ -41,7 +51,7 @@ function dayKey(d: Date): string {
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
-type Extra = { r: string; ex: { ja: string; t: Record<string, string> }; aw?: string; ae?: string };
+type Extra = { r: string; ex: { ja: string; t: Record<string, string>; f?: FuriganaSegment[] }; aw?: string; ae?: string };
 
 function play(id?: string) {
   if (!id) return;
@@ -112,6 +122,19 @@ export default function LibraryPage() {
       off = true;
     };
   }, [needExtras]);
+  // Thẻ soạn sẵn lưu trước khi có furigana: tải lại bộ gốc một lần để bổ sung (giữ tiến độ ôn)
+  const staleDecks = useMemo(
+    () => [...new Set(deck.filter((c) => c.deckId && c.example && !c.example.f).map((c) => c.deckId as string))].join(","),
+    [deck],
+  );
+  useEffect(() => {
+    if (!staleDecks) return;
+    for (const id of staleDecks.split(","))
+      fetch(`/decks/${id}.json`)
+        .then((r) => r.json() as Promise<PremadeCard[]>)
+        .then((cards) => refreshPremadeCards(cards))
+        .catch(() => {});
+  }, [staleDecks]);
   const extra = current && !current.example ? extras?.[current.word] : undefined;
   const example = current?.example ?? (extra && extra.r === current?.reading ? extra.ex : undefined);
   const aw = current?.aw ?? (example ? extra?.aw : undefined);
@@ -162,8 +185,12 @@ export default function LibraryPage() {
       {current ? (
         <div className="card" style={{ padding: 18 }}>
           <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
-            <span className="jp" style={{ fontSize: 26, fontWeight: 700 }}>{current.word}</span>
-            <span className="jp" style={{ fontSize: 14, color: "var(--muted)" }}>{current.reading}</span>
+            <span lang="ja" className="jp" style={{ fontSize: 26, fontWeight: 700 }}>
+              <Furigana segments={current.wordFuri ?? alignWord(current.word, current.reading)} />
+            </span>
+            {!hasKanji(current.word) && current.reading && current.reading !== current.word && (
+              <span className="jp" style={{ fontSize: 14, color: "var(--muted)" }}>{current.reading}</span>
+            )}
             {/* Thẻ kính ngữ: cấp chỉ là ước lượng theo BJT, không hiện để khỏi gây hiểu nhầm (行く không phải từ N3) */}
             {current.kind !== "keigo" && <span className="lvl" style={{ marginLeft: "auto" }}>{current.level}</span>}
           </div>
@@ -172,21 +199,21 @@ export default function LibraryPage() {
               <div style={{ fontSize: 16, marginTop: 12 }}>{pickText(current.meanings, lang)}</div>
               {current.form && (
                 <div style={{ fontSize: 13, color: "var(--muted)", marginTop: 6 }}>
-                  {ui.library.form}: <span lang="ja" className="jp" style={{ color: "var(--text)" }}>{current.form}</span>
+                  {ui.library.form}: <span lang="ja" className="jp" style={{ color: "var(--text)" }}><Jp text={current.form} f={current.formFuri} /></span>
                 </div>
               )}
               {current.keigoMap && (
                 <table style={{ width: "100%", borderCollapse: "collapse", marginTop: 10, fontSize: 14 }}>
                   <tbody>
                     {([
-                      [ui.library.keigoPlain, current.keigoMap.plain],
-                      [ui.library.keigoTeinei, current.keigoMap.teinei],
-                      [ui.library.keigoSonkei, current.keigoMap.sonkei],
-                      [ui.library.keigoKenjou, current.keigoMap.kenjou],
-                    ] as [string, string][]).map(([k, v]) => (
+                      [ui.library.keigoPlain, current.keigoMap.plain, current.keigoFuri?.plain],
+                      [ui.library.keigoTeinei, current.keigoMap.teinei, current.keigoFuri?.teinei],
+                      [ui.library.keigoSonkei, current.keigoMap.sonkei, current.keigoFuri?.sonkei],
+                      [ui.library.keigoKenjou, current.keigoMap.kenjou, current.keigoFuri?.kenjou],
+                    ] as [string, string, FuriganaSegment[] | undefined][]).map(([k, v, f]) => (
                       <tr key={k} style={{ borderTop: "1px solid var(--border)" }}>
                         <td style={{ padding: "6px 8px 6px 0", color: "var(--muted)", fontSize: 12, whiteSpace: "nowrap" }}>{k}</td>
-                        <td lang="ja" className="jp" style={{ padding: "6px 0", fontWeight: 600 }}>{v}</td>
+                        <td lang="ja" className="jp" style={{ padding: "6px 0", fontWeight: 600 }}><Jp text={v} f={f} /></td>
                       </tr>
                     ))}
                   </tbody>
@@ -195,7 +222,7 @@ export default function LibraryPage() {
               {example && (
                 <div style={{ marginTop: 12, background: "#F7F9FC", borderRadius: 10, padding: "10px 12px" }}>
                   <div style={{ fontSize: 11, fontWeight: 700, color: "var(--muted)" }}>{ui.library.example}</div>
-                  <div lang="ja" className="jp" style={{ fontSize: 15, marginTop: 2, lineHeight: 1.6 }}>{example.ja}</div>
+                  <div lang="ja" className="jp" style={{ fontSize: 15, marginTop: 2, lineHeight: 1.9 }}><Jp text={example.ja} f={example.f} /></div>
                   <div style={{ fontSize: 13, color: "var(--muted)", marginTop: 2 }}>{pickText(example.t, lang)}</div>
                 </div>
               )}
@@ -236,8 +263,8 @@ export default function LibraryPage() {
       </h2>
       {deck.map((c) => (
         <div key={c.id} style={{ display: "flex", gap: 10, alignItems: "baseline", padding: "10px 0", borderBottom: "1px solid var(--border)" }}>
-          <span className="jp" style={{ fontWeight: 700, fontSize: 16 }}>{c.word}</span>
-          <span className="jp" style={{ fontSize: 12, color: "var(--muted)" }}>{c.reading}</span>
+          <span lang="ja" className="jp" style={{ fontWeight: 700, fontSize: 16 }}><Furigana segments={c.wordFuri ?? alignWord(c.word, c.reading)} /></span>
+          {!hasKanji(c.word) && c.reading !== c.word && <span className="jp" style={{ fontSize: 12, color: "var(--muted)" }}>{c.reading}</span>}
           <span style={{ fontSize: 14, color: "var(--muted)", marginLeft: "auto", textAlign: "right" }}>{pickText(c.meanings, lang)}</span>
         </div>
       ))}

@@ -15,7 +15,17 @@
 // - src/lib/decks.generated.ts   danh sách bộ và số thẻ
 import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
-import { vocabLevel } from "../lib/level.mjs";
+import { loadTokenizer, vocabLevel } from "../lib/level.mjs";
+import { alignToken, bareKanji, furigana, KANJI } from "../lib/furigana.mjs";
+
+const tok = await loadTokenizer();
+let bare = 0;
+/** Furigana cho câu; đếm câu còn kanji trần để báo. */
+const furi = (ja, fixed) => {
+  const f = furigana(tok, ja, fixed);
+  if (bareKanji(f)) bare++;
+  return f;
+};
 
 const root = new URL("../..", import.meta.url).pathname;
 const BJT = resolve(process.env.BJT_DIR ?? join(root, "../bjt"));
@@ -69,11 +79,21 @@ function card(c, kind, lv) {
   if (!full(m)) missing.meaning++;
   if (!full(ex)) missing.example++;
   if (!full(m) || !full(ex)) return null;
-  const out = { id: c.id, kind, w: c.ja, r: c.reading ?? "", lv, m: pick(m), ex: { ja: c.example.ja, t: pick(ex) } };
+  const r = c.reading ?? "";
+  const fixed = r && KANJI.test(c.ja) ? { [c.ja]: r } : {};
+  const out = { id: c.id, kind, w: c.ja, r, lv, m: pick(m), ex: { ja: c.example.ja, t: pick(ex), f: furi(c.example.ja, fixed) } };
+  // Từ chính: thẻ kính ngữ/ngữ pháp không có cách đọc riêng thì để kuromoji đọc
+  if (KANJI.test(c.ja)) out.wf = r ? alignToken(c.ja, r) : furi(c.ja);
   if (c.audio?.word) out.aw = c.audio.word;
   if (c.audio?.example) out.ae = c.audio.example;
-  if (c.keigoMap) out.km = c.keigoMap;
-  if (c.form) out.form = c.form;
+  if (c.keigoMap) {
+    out.km = c.keigoMap;
+    out.kmf = Object.fromEntries(Object.entries(c.keigoMap).map(([k, v]) => [k, furi(v)]));
+  }
+  if (c.form) {
+    out.form = c.form;
+    out.formf = furi(c.form);
+  }
   return out;
 }
 const pick = (t) => Object.fromEntries(LANGS.map((l) => [l, t[l].trim()]));
@@ -134,7 +154,7 @@ for (const c of vocab) {
   const t = tr.get(c.id) ?? {};
   const ex = { vi: c.example.vi, en: c.example.en, ...(t.ex ?? {}) };
   if (!full(ex)) continue;
-  extras[c.ja] = { r: c.reading, ex: { ja: c.example.ja, t: pick(ex) }, ...(c.audio?.word ? { aw: c.audio.word } : {}), ...(c.audio?.example ? { ae: c.audio.example } : {}) };
+  extras[c.ja] = { r: c.reading, ex: { ja: c.example.ja, t: pick(ex), f: furi(c.example.ja, c.reading && KANJI.test(c.ja) ? { [c.ja]: c.reading } : {}) }, ...(c.audio?.word ? { aw: c.audio.word } : {}), ...(c.audio?.example ? { ae: c.audio.example } : {}) };
   if (c.audio?.word) audio.add(c.audio.word);
   if (c.audio?.example) audio.add(c.audio.example);
 }
@@ -175,4 +195,5 @@ export const DECKS: DeckInfo[] = ${JSON.stringify(decks, null, 1)};
 
 const total = decks.reduce((n, d) => n + d.count, 0);
 console.log(`✓ ${decks.length} bộ, ${total} thẻ; ${Object.keys(extras).length} từ có thêm ví dụ; ${audio.size} file audio${lost ? `, THIẾU ${lost}` : ""}`);
+console.log(`  furigana: ${bare} chuỗi còn kanji chưa có cách đọc`);
 console.log(`  chưa đủ 11 ngôn ngữ: nghĩa ${missing.meaning}, câu ví dụ ${missing.example}`);
