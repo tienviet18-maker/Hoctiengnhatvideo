@@ -1,5 +1,5 @@
 # Đổi bản dịch dạng khối văn bản sang JSONL cho build-decks.
-# Khối: dòng "@id", dòng "m ‖ zh-Hans ‖ zh-Hant ‖ ko ‖ tl ‖ ne ‖ id ‖ pt ‖ my ‖ th", dòng "ex ‖ ...", tuỳ chọn "en ‖ ..." / "vi ‖ ..."
+# Khối: dòng "@id", dòng (tuỳ chọn) "m ‖ zh-Hans ‖ zh-Hant ‖ ko ‖ tl ‖ ne ‖ id ‖ pt ‖ my ‖ th", dòng "ex ‖ ...", tuỳ chọn "en ‖ ..." / "vi ‖ ..."
 import json,sys
 L=["zh-Hans","zh-Hant","ko","tl","ne","id","pt","my","th"]
 src,dst=sys.argv[1],sys.argv[2]
@@ -17,7 +17,8 @@ for n,line in enumerate(open(src,encoding="utf8"),1):
     elif k in("en","vi"):
         cur[k]=parts[0]
     else: raise SystemExit(f"{n}: khoá lạ {k}")
-for o in out: assert "m" in o and "ex" in o, o["id"]
+# "m" có thể bỏ trống khi từ đã có nghĩa đủ 11 ngôn ngữ trong truyện/video (build-decks dùng lại nghĩa đó)
+for o in out: assert "ex" in o, o["id"]
 with open(dst,"w",encoding="utf8") as f:
     for o in out: f.write(json.dumps(o,ensure_ascii=False)+"\n")
 print(len(out),"thẻ")
