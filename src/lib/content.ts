@@ -715,6 +715,10 @@ import s_worldShirayuki1 from "../../content/stories/world-shirayuki-1.json";
 import s_worldShirayuki2 from "../../content/stories/world-shirayuki-2.json";
 // --- hết kệ A/E: import ---
 
+// --- kệ ma & trinh thám (chuẩn v2): import ---
+import v2MysteryHoichi1 from "../../content/stories/mystery-hoichi-1.json";
+// --- hết kệ ma & trinh thám: import ---
+
 export const VIDEOS: VideoContent[] = [
   video1 as unknown as VideoContent,
   video2 as unknown as VideoContent,
@@ -1432,6 +1436,9 @@ export const STORIES: StoryContent[] = [
   s_worldCinderella2 as unknown as StoryContent,
   s_worldShirayuki1 as unknown as StoryContent,
   s_worldShirayuki2 as unknown as StoryContent,
+  // --- kệ ma & trinh thám (chuẩn v2) ---
+  v2MysteryHoichi1 as unknown as StoryContent,
+  // --- hết kệ ma & trinh thám ---
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
