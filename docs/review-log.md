@@ -835,6 +835,14 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - **Lỗi nguồn (chưa sửa, vùng nội dung):** một số ô "giải thích" của câu hỏi chỉ lặp lại câu hỏi bằng tiếng Anh thay vì đưa đáp án: mukashi-kasajizo (4 ô), mukashi-kintaro (4 ô), hanshichi-yukidaruma-1 (1 ô), rakugo-sokotsu-nagaya (1 ô). Bản si dịch đúng như nguồn; luồng sở hữu nên viết lại thành đáp án.
 - **Lệch số câu nhỏ:** nhiều lời giải câu hỏi ghi "câu N" lệch 1 so với số thứ tự hiển thị (vd. mukashi-hanasaka Q0 ghi câu 10, đáp án nằm ở câu 9 tính từ 0). Không ảnh hưởng người dùng nhiều, ghi lại để luồng sở hữu rà.
 - `npm run verify` xanh: 726 gói, 0 lỗi; sidecar si 49 gói, 0 lỗi; build OK.
+
+## Tiếng Sinhala đợt 4: Nàng tiên cá, Jack, Mai-chan 5–10, Gongitsune, Tebukuro, Kumonoito — 27/11/2026 (nhánh `claude/si-stories-5`)
+
+- Đã dịch 14 gói: world-ningyo-1/2, world-jack (luồng truyện thế giới nhờ sau PR #73); maichan-05 → maichan-10; gongitsune-1/2; tebukuro-1/2; kumonoito-1.
+- Tên riêng thống nhất: මායි-චන්, බින්-කුන්, යුකි-චන්; ගොන්, හියෝජූ, කසුකෙ; ජැක්; කන්දත. Truyện thiếu nhi dùng giọng nói thường ngày; dòng kết Tebukuro giữ lặp hai lần như bản gốc.
+- Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
+- Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
+
 ## Văn học Nhật v2: 注文の多い料理店 2 tập (N3), thay gói cũ — 27/11/2026
 
 - Nhánh `claude/bungaku-v2-batch4`. `chumon-1` (52 câu, 1.366 ký tự, harder 6,4%, audio 4,4 phút, miễn phí) và `chumon-2` (60 câu, 1.865 ký tự, harder 7,9%, audio 6,0 phút).
