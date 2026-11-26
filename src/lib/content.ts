@@ -725,6 +725,7 @@ import v2LifeEpictetus1 from "../../content/stories/life-epictetus-1.json";
 import v2LifeEpictetus2 from "../../content/stories/life-epictetus-2.json";
 import v2LifeRoshi1 from "../../content/stories/life-roshi-1.json";
 import v2LifeIkari1 from "../../content/stories/life-ikari-1.json";
+import s_worldBremen from "../../content/stories/world-bremen.json";
 // --- hết kệ W: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1455,6 +1456,7 @@ export const STORIES: StoryContent[] = [
   v2LifeRoshi1 as unknown as StoryContent,
   v2LifeIkari1 as unknown as StoryContent,
   // --- hết kệ W ---
+  s_worldBremen as unknown as StoryContent,
 ];
 
 export function getVideo(id: string): VideoContent | undefined {
