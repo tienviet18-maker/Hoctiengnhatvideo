@@ -1103,3 +1103,19 @@ Lô này thêm 3 chương VIP chuẩn v2 (tập 2 của ba bộ đang có tập 
 - Giọng mới: Kenta và ông nội (bushido), Reina (gakumon), thêm vào `voices.json` của từng bộ.
 - QC từng chương ở `content/stories/life-*.qc.md`.
 - Kệ hiện có 27 chương: 4 chương N2, 13 chương N3 và 10 chương N4.
+
+## Kệ "Triết lý sống" (wisdom), lô 10 — 27/11/2026
+
+Lô này thêm 4 chương VIP chuẩn v2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-epictetus-3` | N3 | Epictetus, *Enchiridion* 43, 46, 49: mọi việc có hai cái quai (người anh và mảnh ruộng); con cừu không nôn cỏ ra để khoe đã ăn bao nhiêu; đừng tự gọi mình là triết gia, hãy sống cho đúng; Chrysippus | 3:45 |
+| `life-allen-3` | N3 | James Allen, *As a Man Thinketh* chương sức khoẻ: Nohra và bác thợ bánh đang buồn; "khuôn mặt chua là do suy nghĩ chua", bà cụ 96 tuổi, "không thầy thuốc nào bằng ý nghĩ vui" | 3:48 |
+| `life-marcus-3` | N3 | Marcus Aurelius, *Meditations* 4.3, 4.17, 6.30, 7.59, cùng chuyện trong *Historia Augusta*: hoàng đế bán đấu giá báu vật trong cung hai tháng để cứu ngân khố, chỉ hoàn tiền cho ai muốn trả lại | 3:48 |
+| `life-ikari-4` | N4 | Truyện gốc 心の練習: Misaki bỏ hàng chờ sau một ông cụ, làm vỡ ba quả trứng và về muộn hơn; bà dạy 「短気は損気」, 「急がば回れ」 và câu của Franklin (1734) "What is begun in anger ends in shame"; tuần sau cô kiên nhẫn chờ và biết ông cụ chậm vì mắt kém | 3:12 |
+
+- Các tác phẩm gốc (thế kỷ 2, 1903, 1734) và tục ngữ dân gian thuộc phạm vi công cộng; nhân vật và đối thoại là sáng tác của ViMai.
+- Giọng mới: học trò (epictetus), thợ bánh (allen), ông cụ `ojii` (ikari), thêm vào `voices.json` của từng bộ.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 31 chương: 4 chương N2, 16 chương N3 và 11 chương N4.
