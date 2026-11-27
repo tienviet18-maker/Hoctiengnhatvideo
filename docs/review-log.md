@@ -1181,3 +1181,20 @@ Việt yêu cầu làm các sách nổi tiếng (Đắc nhân tâm, Nhà giả k
 **Bản quyền**: sách còn bản quyền (Carnegie, Coelho, Nguyên Phong, Thích Nhất Hạnh, Tony Buổi Sáng…) chỉ làm truyện gốc "Cảm hứng từ «…»". Chuyển thể đầy đủ chỉ dành cho tác phẩm công cộng: Sử ký, Kinh Dịch, và Spalding 1924 (bản gốc tiếng Anh của Hành trình về phương Đông).
 
 **Tự kiểm**: phát hiện tập 2–4 thiếu dòng `cover_book`, nên bìa không có tên sách. Đã thêm, dựng lại và xem ảnh bìa vi/th.
+
+## Mục "Sách nổi tiếng" — đợt 2: 史記の物語 (phỏng theo Sử ký Tư Mã Thiên) — 27/11/2026
+
+Nhánh `claude/famous-books-2`. 4 chương N2, kệ `book-east` (chủ đề lịch sử), đăng ký bằng `register.mjs --block=books`.
+Nguồn: 司馬遷『史記』(thế kỷ 1 TCN) và thơ Đỗ Mục (thế kỷ 9), đều phạm vi công cộng; ViMai kể lại, không dùng bản dịch hiện đại nào.
+Bìa nhãn "Phỏng theo «Sử ký Tư Mã Thiên»" theo 11 ngôn ngữ.
+
+| id | Tựa | Nội dung | Câu | Audio | Truy cập |
+|---|---|---|---|---|---|
+| life-shiki-1 | 易水の別れ | Kinh Kha (1) | 53 | 6:17 | miễn phí |
+| life-shiki-2 | 地図の中の短剣 | Kinh Kha (2), 図窮まりて匕首見る | 50 | 5:49 | VIP |
+| life-shiki-3 | 背水の陣 | Hàn Tín: chui háng, 国士無双, 背水の陣 | 50 | 6:18 | VIP |
+| life-shiki-4 | 四面楚歌の夜 | Hạng Vũ: 四面楚歌, Ô Giang, 捲土重来 | 48 | 6:08 | VIP |
+
+- Mỗi chương có từ vựng, dịch + giải thích 11 ngôn ngữ, bài học 3 mẫu ngữ pháp + 4 câu hỏi, qc.md riêng.
+- Tự kiểm: đối chiếu số liệu với nguyên văn (800/28 kỵ, 70 trận, tuổi 31…); sửa đọc 秦=しん, 行っ=いっ, 遷, 最後, 見る (chỉ trong thành ngữ). Viết lại câu tránh đọc sai (たった今, 間違い, 土けむり, 一そう).
+- Muse: id `life-shiki-*` thuộc khối books, đừng cấp trùng.

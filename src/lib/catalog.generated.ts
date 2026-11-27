@@ -13962,7 +13962,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Filsuf Budak 3: Dua Pegangan",
    "pt": "O Filósofo Escravo 3: Duas Alças",
    "my": "ကျွန်ဒဿနပညာရှင် ၃: လက်ကိုင် နှစ်ခု",
-   "th": "นักปรัชญาทาส 3: หูจับสองข้าง"
+   "th": "นักปรัชญาทาส 3: หูจับสองข้าง",
+   "si": "දාස දාර්ශනිකයා 3: අල්ලු දෙක"
   },
   "level": "N3",
   "topic": "philosophy",
@@ -13993,7 +13994,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Yang Membentuk Wajah",
    "pt": "O Que Faz um Rosto",
    "my": "မျက်နှာကို ဖန်တီးသောအရာ",
-   "th": "สิ่งที่สร้างใบหน้า"
+   "th": "สิ่งที่สร้างใบหน้า",
+   "si": "මූණ හැදෙන්නේ මොකෙන්ද"
   },
   "level": "N3",
   "topic": "self-help",
@@ -14024,7 +14026,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Harta Sang Kaisar",
    "pt": "Os Tesouros do Imperador",
    "my": "ဧကရာဇ်၏ ရတနာများ",
-   "th": "สมบัติของจักรพรรดิ"
+   "th": "สมบัติของจักรพรรดิ",
+   "si": "අධිරාජයාගේ වස්තු"
   },
   "level": "N3",
   "topic": "philosophy",
@@ -14055,7 +14058,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Biar Lambat Asal Selamat",
    "pt": "A Pressa É Inimiga da Perfeição",
    "my": "အလျင်လိုလျှင် နှေးတတ်သည်",
-   "th": "ช้าๆ ได้พร้าเล่มงาม"
+   "th": "ช้าๆ ได้พร้าเล่มงาม",
+   "si": "ඉක්මන් වුණාම, පරක්කු වෙනවා"
   },
   "level": "N4",
   "topic": "self-help",
@@ -14086,7 +14090,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Obat untuk Amarah",
    "pt": "O Remédio da Raiva",
    "my": "ဒေါသအတွက် ဆေး",
-   "th": "ยารักษาความโกรธ"
+   "th": "ยารักษาความโกรธ",
+   "si": "කේන්තියට බෙහෙත"
   },
   "level": "N2",
   "topic": "philosophy",
@@ -14117,7 +14122,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Inventaris Hati",
    "pt": "O Inventário do Coração",
    "my": "စိတ်ကို စာရင်းစစ်ခြင်း",
-   "th": "ตรวจนับสต็อกในใจ"
+   "th": "ตรวจนับสต็อกในใจ",
+   "si": "හිතේ තොග ගණන් කිරීම"
   },
   "level": "N2",
   "topic": "self-help",
@@ -14148,7 +14154,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Cangkir yang Penuh",
    "pt": "A Xícara Cheia",
    "my": "ပြည့်နေတဲ့ လက်ဖက်ရည်ခွက်",
-   "th": "ถ้วยชาที่เต็ม"
+   "th": "ถ้วยชาที่เต็ม",
+   "si": "පිරුණු තේ කෝප්පය"
   },
   "level": "N4",
   "topic": "self-help",
@@ -15245,7 +15252,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Sebelum Memarahi",
    "pt": "Antes de Repreender",
    "my": "မဆူခင်",
-   "th": "ก่อนจะดุ"
+   "th": "ก่อนจะดุ",
+   "si": "බනින්න කලින්"
   },
   "level": "N3",
   "topic": "self-help",
@@ -15289,7 +15297,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Memanggil Nama",
    "pt": "Chamar pelo Nome",
    "my": "နာမည်ခေါ်ခြင်း",
-   "th": "เรียกชื่อ"
+   "th": "เรียกชื่อ",
+   "si": "නමින් කතා කරන එක"
   },
   "level": "N3",
   "topic": "self-help",
@@ -15333,7 +15342,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Taman Sang Pendengar",
    "pt": "O Jardim de Quem Sabe Ouvir",
    "my": "နားထောင်တတ်သူရဲ့ ဥယျာဉ်",
-   "th": "สวนของคนที่รู้จักฟัง"
+   "th": "สวนของคนที่รู้จักฟัง",
+   "si": "හොඳට අහන කෙනාගේ වත්ත"
   },
   "level": "N3",
   "topic": "self-help",
@@ -15377,7 +15387,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hari Sang Bos Kembali",
    "pt": "O Dia em que o Patrão Voltou",
    "my": "ဆိုင်ရှင် ပြန်လာတဲ့နေ့",
-   "th": "วันที่เจ้าของร้านกลับมา"
+   "th": "วันที่เจ้าของร้านกลับมา",
+   "si": "ලොක්කා ආපහු ආපු දවස"
   },
   "level": "N3",
   "topic": "self-help",
@@ -15406,6 +15417,182 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/life-dacnhan-4/chapter.mp3",
    "durationSec": 257.66
+  }
+ },
+ {
+  "id": "life-shiki-1",
+  "titles": {
+   "vi": "Biệt ly bên sông Dịch Thủy",
+   "en": "Farewell at the Yi River",
+   "zh-Hans": "易水之别",
+   "zh-Hant": "易水之別",
+   "ko": "역수의 이별",
+   "tl": "Paalam sa Ilog Yi",
+   "ne": "यी नदीको बिदाइ",
+   "id": "Perpisahan di Sungai Yi",
+   "pt": "Despedida no Rio Yi",
+   "my": "ယီမြစ်ကမ်းက ခွဲခွာခြင်း",
+   "th": "อำลาที่แม่น้ำอี้"
+  },
+  "level": "N2",
+  "topic": "history",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 53,
+  "cover": "/covers/life-shiki-1.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-shiki",
+   "index": 1
+  },
+  "shelf": "book-east",
+  "audioTrack": {
+   "src": "/audio/life-shiki-1/chapter.mp3",
+   "durationSec": 376.97
+  }
+ },
+ {
+  "id": "life-shiki-2",
+  "titles": {
+   "vi": "Con dao găm trong tấm bản đồ",
+   "en": "The Dagger in the Map",
+   "zh-Hans": "地图里的匕首",
+   "zh-Hant": "地圖裡的匕首",
+   "ko": "지도 속의 비수",
+   "tl": "Ang Punyal sa Loob ng Mapa",
+   "ne": "नक्साभित्रको छुरा",
+   "id": "Belati di Dalam Peta",
+   "pt": "O Punhal Dentro do Mapa",
+   "my": "မြေပုံထဲက ဓားမြှောင်",
+   "th": "กริชในแผนที่"
+  },
+  "level": "N2",
+  "topic": "history",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 50,
+  "cover": "/covers/life-shiki-2.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-shiki",
+   "index": 2
+  },
+  "shelf": "book-east",
+  "audioTrack": {
+   "src": "/audio/life-shiki-2/chapter.mp3",
+   "durationSec": 348.84
+  }
+ },
+ {
+  "id": "life-shiki-3",
+  "titles": {
+   "vi": "Bày trận quay lưng ra sông",
+   "en": "Battle with the River at Their Backs",
+   "zh-Hans": "背水一战",
+   "zh-Hant": "背水一戰",
+   "ko": "배수의 진",
+   "tl": "Labanang Nakatalikod sa Ilog",
+   "ne": "नदीतिर पिठ्युँ फर्काएको मोर्चा",
+   "id": "Bertempur Membelakangi Sungai",
+   "pt": "A Batalha de Costas para o Rio",
+   "my": "မြစ်ကို ကျောပေးတဲ့ တပ်",
+   "th": "ทัพหันหลังให้แม่น้ำ"
+  },
+  "level": "N2",
+  "topic": "history",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 50,
+  "cover": "/covers/life-shiki-3.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-shiki",
+   "index": 3
+  },
+  "shelf": "book-east",
+  "audioTrack": {
+   "src": "/audio/life-shiki-3/chapter.mp3",
+   "durationSec": 377.64
+  }
+ },
+ {
+  "id": "life-shiki-4",
+  "titles": {
+   "vi": "Đêm tứ bề khúc hát Sở",
+   "en": "The Night of Chu Songs on All Sides",
+   "zh-Hans": "四面楚歌之夜",
+   "zh-Hant": "四面楚歌之夜",
+   "ko": "사면초가의 밤",
+   "tl": "Ang Gabi ng mga Awit ng Chu sa Paligid",
+   "ne": "चारैतिर छु गीतको रात",
+   "id": "Malam Lagu Chu dari Empat Penjuru",
+   "pt": "A Noite das Canções de Chu por Todos os Lados",
+   "my": "လေးဘက်လေးတန် ချူသီချင်းသံ ညဉ့်",
+   "th": "คืนเพลงฉู่ล้อมสี่ด้าน"
+  },
+  "level": "N2",
+  "topic": "history",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/life-shiki-4.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-shiki",
+   "index": 4
+  },
+  "shelf": "book-east",
+  "audioTrack": {
+   "src": "/audio/life-shiki-4/chapter.mp3",
+   "durationSec": 368.23
   }
  }
 ];

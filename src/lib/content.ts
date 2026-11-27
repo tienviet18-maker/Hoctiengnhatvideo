@@ -808,6 +808,10 @@ import v2LifeDacnhan1 from "../../content/stories/life-dacnhan-1.json";
 import v2LifeDacnhan2 from "../../content/stories/life-dacnhan-2.json";
 import v2LifeDacnhan3 from "../../content/stories/life-dacnhan-3.json";
 import v2LifeDacnhan4 from "../../content/stories/life-dacnhan-4.json";
+import v2LifeShiki1 from "../../content/stories/life-shiki-1.json";
+import v2LifeShiki2 from "../../content/stories/life-shiki-2.json";
+import v2LifeShiki3 from "../../content/stories/life-shiki-3.json";
+import v2LifeShiki4 from "../../content/stories/life-shiki-4.json";
 // --- hết kệ S sách nổi tiếng: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1619,6 +1623,10 @@ export const STORIES: StoryContent[] = [
   v2LifeDacnhan2 as unknown as StoryContent,
   v2LifeDacnhan3 as unknown as StoryContent,
   v2LifeDacnhan4 as unknown as StoryContent,
+  v2LifeShiki1 as unknown as StoryContent,
+  v2LifeShiki2 as unknown as StoryContent,
+  v2LifeShiki3 as unknown as StoryContent,
+  v2LifeShiki4 as unknown as StoryContent,
   // --- hết kệ S sách nổi tiếng ---
 ];
 
