@@ -871,6 +871,12 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 17: 3 gói quê hương Việt Nam mới — 27/11/2026 (nhánh `claude/si-stories-18`)
+
+- Thêm sidecar tiếng Sinhala cho 3 gói N2 vừa vào main qua PR #106: `furusato-vn-chipheo` (Chí Phèo), `furusato-vn-tatden-1`, `furusato-vn-tatden-2` (Tắt đèn).
+- Tên riêng phiên âm Sinhala nhất quán (නම් කාඕ, චී ෆේඕ, ගෝ තත් තෝ, චි සව්...); lời thoại giữ sắc thái (quan lại xưng උඹ/පන්, chị Dậu đổi từ khiêm nhường sang ngang hàng khi phản kháng).
+- `apply.mjs si`: 3 gói, 0 lỗi. Kiểm tra khoảng trống sau khi gộp main: còn 7 gói Triết lý sống mới (life-*-3/4) chưa có si, làm ở đợt 18.
+
 ## Tiếng Sinhala đợt 16: kệ Triết lý sống — 27/11/2026 (nhánh `claude/si-stories-17`)
 
 - Thêm 27 sidecar `content/translations/si/`: `life-allen-1..2`, `life-bushido-1..2`, `life-epictetus-1..2`, `life-gakumon-1..2`, `life-ikari-1..3`, `life-marcus-1..2`, `life-rongo-1..2`, `life-roshi-1`, `life-seneca-1..3`, `life-smiles-1..3`, `life-wattles-1..2`, `life-yukkuri-1..3`. Việt duyệt làm tiếp phần kệ của luồng khác (27/11).
@@ -1134,6 +1140,20 @@ Lô này thêm 3 chương VIP chuẩn v2, ưu tiên N2 vì kệ đang thiếu c�
 - Không thêm giọng mới.
 - QC từng chương ở `content/stories/life-*.qc.md`.
 - Kệ hiện có 34 chương: 6 chương N2, 16 chương N3 và 12 chương N4.
+
+## Kệ quê hương: Chí Phèo và Tắt đèn, N2 (nhánh claude/furusato-vn-4)
+
+Văn học hiện thực Việt Nam ở mức N2, đều là tác phẩm thuộc phạm vi công cộng (Nam Cao mất 1951, Ngô Tất Tố mất 1954). Có đủ bản dịch 10 ngôn ngữ, tab Bài học, audio liền mạch và bìa bunko:
+
+| ID | Nội dung | Commit |
+|---|---|---|
+| furusato-vn-chipheo | Chí Phèo (Nam Cao), 65 câu, 8.2 phút | b87ce905 |
+| furusato-vn-tatden-1 | Tắt đèn phần 1: bán cái Tý nộp sưu, 43 câu | 3c111711 |
+| furusato-vn-tatden-2 | Tắt đèn phần 2: Tức nước vỡ bờ, đêm chạy trốn, 42 câu | 3c111711 |
+
+- Thêm vào ROMAJI_FIX trong build.mjs: 芥川龍之介, タッ・デン, ゴー・タッ・トー, 小林多喜二.
+- Motif bìa mới: chipheo, tatden1, tatden2.
+- Luồng "Đắc nhân tâm" đã giữ các ID: furusato-vn-vantien-*, furusato-vn-namcao-* (truyện Nam Cao khác), furusato-vn-giongto-*, furusato-vn-honbuom-*. Đừng dùng trùng.
 
 ## Mục "Sách nổi tiếng" — đợt 1: Đắc nhân tâm (cảm hứng) — 27/11/2026
 

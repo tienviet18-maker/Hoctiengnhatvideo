@@ -15138,6 +15138,101 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "furusato-vn-chipheo",
+  "titles": {
+   "vi": "Chí Phèo",
+   "en": "Chí Phèo",
+   "zh-Hans": "志飘",
+   "zh-Hant": "志飄",
+   "ko": "찌페오",
+   "tl": "Si Chí Phèo",
+   "ne": "ची फेओ",
+   "id": "Chí Phèo",
+   "pt": "Chí Phèo",
+   "my": "ချီဖဲအို",
+   "th": "จี๊แผ่ว",
+   "si": "චී ෆේඕ"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 65,
+  "cover": "/covers/furusato-vn-chipheo.webp",
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-chipheo/chapter.mp3",
+   "durationSec": 490.776
+  }
+ },
+ {
+  "id": "furusato-vn-tatden-1",
+  "titles": {
+   "vi": "Tắt đèn (1): Bán con nộp sưu",
+   "en": "Lights Out (1): Selling a Daughter for Taxes",
+   "zh-Hans": "熄灯（一）：卖女交税",
+   "zh-Hant": "熄燈（一）：賣女交稅",
+   "ko": "불이 꺼지면 (1): 세금 때문에 딸을 팔다",
+   "tl": "Patay ang Ilaw (1): Ipinagbili ang Anak para sa Buwis",
+   "ne": "बत्ती निभ्यो (१): कर तिर्न छोरी बेचियो",
+   "id": "Lampu Padam (1): Menjual Anak demi Pajak",
+   "pt": "Luzes Apagadas (1): Vender a Filha pelo Imposto",
+   "my": "မီးငြိမ်းတော့ (၁): အခွန်အတွက် သမီးရောင်း",
+   "th": "ไฟดับ (1): ขายลูกจ่ายภาษี",
+   "si": "ලාම්පුව නිවෙයි (1): බදු ගෙවන්න දුව විකුණයි"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 43,
+  "cover": "/covers/furusato-vn-tatden-1.webp",
+  "series": {
+   "id": "furusato-vn-tatden",
+   "index": 1
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-tatden-1/chapter.mp3",
+   "durationSec": 319.584
+  }
+ },
+ {
+  "id": "furusato-vn-tatden-2",
+  "titles": {
+   "vi": "Tắt đèn (2): Tức nước vỡ bờ",
+   "en": "Lights Out (2): When Water Rises, the Dike Breaks",
+   "zh-Hans": "熄灯（二）：水满堤溃",
+   "zh-Hant": "熄燈（二）：水滿堤潰",
+   "ko": "불이 꺼지면 (2): 물이 차면 둑이 터진다",
+   "tl": "Patay ang Ilaw (2): Kapag Umapaw ang Tubig, Bibigay ang Pilapil",
+   "ne": "बत्ती निभ्यो (२): पानी भरिए बाँध फुट्छ",
+   "id": "Lampu Padam (2): Air Meluap, Tanggul Jebol",
+   "pt": "Luzes Apagadas (2): Quando a Água Sobe, o Dique Rompe",
+   "my": "မီးငြိမ်းတော့ (၂): ရေလျှံရင် တာကျိုး",
+   "th": "ไฟดับ (2): น้ำล้นเขื่อนพัง",
+   "si": "ලාම්පුව නිවෙයි (2): වතුර තද වුණාම, වේල්ල කැඩෙයි"
+  },
+  "level": "N2",
+  "topic": "hometown-tales",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 42,
+  "cover": "/covers/furusato-vn-tatden-2.webp",
+  "series": {
+   "id": "furusato-vn-tatden",
+   "index": 2
+  },
+  "shelf": "hometown",
+  "origin": "VN",
+  "audioTrack": {
+   "src": "/audio/furusato-vn-tatden-2/chapter.mp3",
+   "durationSec": 300.312
+  }
+ },
+ {
   "id": "life-dacnhan-1",
   "titles": {
    "vi": "Trước khi mắng",
