@@ -15892,7 +15892,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "shelf": "book-spirit",
   "audioTrack": {
    "src": "/audio/life-yume-1/chapter.mp3",
-   "durationSec": 308.18
+   "durationSec": 313.58
   }
  },
  {
@@ -15936,7 +15936,7 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "shelf": "book-spirit",
   "audioTrack": {
    "src": "/audio/life-yume-2/chapter.mp3",
-   "durationSec": 304.56
+   "durationSec": 306.19
   }
  },
  {
@@ -15980,7 +15980,139 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "shelf": "book-spirit",
   "audioTrack": {
    "src": "/audio/life-yume-3/chapter.mp3",
-   "durationSec": 323.81
+   "durationSec": 327.07
+  }
+ },
+ {
+  "id": "life-coffee-1",
+  "titles": {
+   "vi": "Quán cà phê lúc sáu giờ",
+   "en": "The Six O'Clock Café",
+   "zh-Hans": "六点的咖啡馆",
+   "zh-Hant": "六點的咖啡館",
+   "ko": "여섯 시의 찻집",
+   "tl": "Ang Kapihan nang Alas-sais",
+   "ne": "छ बजेको क्याफे",
+   "id": "Kedai Kopi Pukul Enam",
+   "pt": "O Café das Seis",
+   "my": "ခြောက်နာရီ ကော်ဖီဆိုင်",
+   "th": "ร้านกาแฟหกโมงเช้า"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 47,
+  "cover": "/covers/life-coffee-1.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-coffee",
+   "index": 1
+  },
+  "shelf": "book-people",
+  "audioTrack": {
+   "src": "/audio/life-coffee-1/chapter.mp3",
+   "durationSec": 309.41
+  }
+ },
+ {
+  "id": "life-coffee-2",
+  "titles": {
+   "vi": "Bài tập của ông chủ quán",
+   "en": "The Master's Homework",
+   "zh-Hans": "老板的作业",
+   "zh-Hant": "老闆的作業",
+   "ko": "마스터의 숙제",
+   "tl": "Ang Takdang-Aralin ng Master",
+   "ne": "मास्टरको गृहकार्य",
+   "id": "PR dari Sang Pemilik",
+   "pt": "A Lição do Mestre",
+   "my": "မာစတာရဲ့ အိမ်စာ",
+   "th": "การบ้านของมาสเตอร์"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 45,
+  "cover": "/covers/life-coffee-2.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-coffee",
+   "index": 2
+  },
+  "shelf": "book-people",
+  "audioTrack": {
+   "src": "/audio/life-coffee-2/chapter.mp3",
+   "durationSec": 303.53
+  }
+ },
+ {
+  "id": "life-coffee-3",
+  "titles": {
+   "vi": "Buổi sáng của Nam",
+   "en": "Nam's Morning",
+   "zh-Hans": "阿南的早晨",
+   "zh-Hant": "阿南的早晨",
+   "ko": "남의 아침",
+   "tl": "Ang Umaga ni Nam",
+   "ne": "नामको बिहान",
+   "id": "Pagi Milik Nam",
+   "pt": "A manhã de Nam",
+   "my": "နမ်ရဲ့ မနက်",
+   "th": "เช้าของนัม"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/life-coffee-3.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-coffee",
+   "index": 3
+  },
+  "shelf": "book-people",
+  "audioTrack": {
+   "src": "/audio/life-coffee-3/chapter.mp3",
+   "durationSec": 264.36
   }
  }
 ];
