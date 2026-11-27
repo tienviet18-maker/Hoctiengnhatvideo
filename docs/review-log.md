@@ -871,6 +871,12 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 19: 4 gói Đắc nhân tâm — 27/11/2026 (nhánh `claude/si-stories-20`)
+
+- Thêm sidecar tiếng Sinhala cho `life-dacnhan-1..4` (truyện quán ramen của Yōta, cảm hứng từ «Đắc nhân tâm»).
+- Tên riêng nhất quán: යෝතා, ලින්, යුයි, ගෙන්-සාන්, සාතෝ මහත්තයා, සකමොතෝ නෝනා; 店長 = මැනේජර්, 大将 = ලොක්කා.
+- `apply.mjs si`: 4 gói, 0 lỗi. Kiểm tra khoảng trống sau khi gộp main: 0 gói đang hiện thiếu si (242 sidecar).
+
 ## Tiếng Sinhala đợt 18: 7 gói Triết lý sống mới — 27/11/2026 (nhánh `claude/si-stories-19`)
 
 - Thêm sidecar tiếng Sinhala cho `life-allen-3`, `life-epictetus-3`, `life-gakumon-3`, `life-ikari-4`, `life-marcus-3`, `life-seneca-4`, `life-yukkuri-4`.
