@@ -828,6 +828,7 @@ import v2LifeCoffee1 from "../../content/stories/life-coffee-1.json";
 import v2LifeCoffee2 from "../../content/stories/life-coffee-2.json";
 import v2LifeCoffee3 from "../../content/stories/life-coffee-3.json";
 import v2LifeTane1 from "../../content/stories/life-tane-1.json";
+import v2LifeTane2 from "../../content/stories/life-tane-2.json";
 // --- hết kệ S sách nổi tiếng: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1659,6 +1660,7 @@ export const STORIES: StoryContent[] = [
   v2LifeCoffee2 as unknown as StoryContent,
   v2LifeCoffee3 as unknown as StoryContent,
   v2LifeTane1 as unknown as StoryContent,
+  v2LifeTane2 as unknown as StoryContent,
   // --- hết kệ S sách nổi tiếng ---
 ];
 
