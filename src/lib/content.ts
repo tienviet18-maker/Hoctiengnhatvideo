@@ -814,6 +814,7 @@ import v2LifeShiki3 from "../../content/stories/life-shiki-3.json";
 import v2LifeShiki4 from "../../content/stories/life-shiki-4.json";
 import v2LifeEkikyo1 from "../../content/stories/life-ekikyo-1.json";
 import v2LifeEkikyo2 from "../../content/stories/life-ekikyo-2.json";
+import v2LifeYume1 from "../../content/stories/life-yume-1.json";
 // --- hết kệ S sách nổi tiếng: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1631,6 +1632,7 @@ export const STORIES: StoryContent[] = [
   v2LifeShiki4 as unknown as StoryContent,
   v2LifeEkikyo1 as unknown as StoryContent,
   v2LifeEkikyo2 as unknown as StoryContent,
+  v2LifeYume1 as unknown as StoryContent,
   // --- hết kệ S sách nổi tiếng ---
 ];
 
