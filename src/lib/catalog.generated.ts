@@ -15407,6 +15407,94 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/life-dacnhan-4/chapter.mp3",
    "durationSec": 257.66
   }
+ },
+ {
+  "id": "life-shiki-1",
+  "titles": {
+   "vi": "Biệt ly bên sông Dịch Thủy",
+   "en": "Farewell at the Yi River",
+   "zh-Hans": "易水之别",
+   "zh-Hant": "易水之別",
+   "ko": "역수의 이별",
+   "tl": "Paalam sa Ilog Yi",
+   "ne": "यी नदीको बिदाइ",
+   "id": "Perpisahan di Sungai Yi",
+   "pt": "Despedida no Rio Yi",
+   "my": "ယီမြစ်ကမ်းက ခွဲခွာခြင်း",
+   "th": "อำลาที่แม่น้ำอี้"
+  },
+  "level": "N2",
+  "topic": "history",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 53,
+  "cover": "/covers/life-shiki-1.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-shiki",
+   "index": 1
+  },
+  "shelf": "book-east",
+  "audioTrack": {
+   "src": "/audio/life-shiki-1/chapter.mp3",
+   "durationSec": 376.97
+  }
+ },
+ {
+  "id": "life-shiki-2",
+  "titles": {
+   "vi": "Con dao găm trong tấm bản đồ",
+   "en": "The Dagger in the Map",
+   "zh-Hans": "地图里的匕首",
+   "zh-Hant": "地圖裡的匕首",
+   "ko": "지도 속의 비수",
+   "tl": "Ang Punyal sa Loob ng Mapa",
+   "ne": "नक्साभित्रको छुरा",
+   "id": "Belati di Dalam Peta",
+   "pt": "O Punhal Dentro do Mapa",
+   "my": "မြေပုံထဲက ဓားမြှောင်",
+   "th": "กริชในแผนที่"
+  },
+  "level": "N2",
+  "topic": "history",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 50,
+  "cover": "/covers/life-shiki-2.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-shiki",
+   "index": 2
+  },
+  "shelf": "book-east",
+  "audioTrack": {
+   "src": "/audio/life-shiki-2/chapter.mp3",
+   "durationSec": 348.84
+  }
  }
 ];
 
