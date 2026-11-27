@@ -1212,3 +1212,17 @@ Nhánh `claude/famous-books-3`. 2 chương N2, kệ `book-east`, chủ đề tri
 - Bìa "Phỏng theo «Kinh Dịch»" theo 11 ngôn ngữ. Không ghi tựa sách Nguyễn Hiến Lê "Kinh Dịch – Đạo của người quân tử" vì nội dung lấy từ kinh văn gốc, không từ sách đó.
 - Người dùng (27/11) muốn ưu tiên sách giới trẻ đang đọc, nên đợt này dừng ở 2 chương; tập 3 (Chu Công, 謙, 君子豹変) để sau.
 - Muse: id `life-ekikyo-*` thuộc khối books.
+
+## Mục "Sách nổi tiếng" — đợt 4: 夢の地図 (cảm hứng từ «Nhà giả kim») — 27/11/2026
+
+Nhánh `claude/famous-books-4`. Trọn bộ 3 tập N3, kệ `book-spirit`, chủ đề self-help, `register.mjs --block=books`. Đợt đầu theo yêu cầu "đẩy mạnh sách giới trẻ đang đọc".
+
+| id | Tựa | Nội dung | Câu | Audio | Truy cập |
+|---|---|---|---|---|---|
+| life-yume-1 | 灯台の夢 | Akari bỏ ca đêm Tokyo, theo giấc mơ lên Kanazawa | 47 | 5:08 | miễn phí |
+| life-yume-2 | 金継ぎの冬 | nhà trọ, nghệ nhân kintsugi, dấu hiệu và kiên nhẫn | 47 | 5:05 | VIP |
+| life-yume-3 | 椿の下の宝物 | kho báu ở quê nhà, mở lại quán của bà | 47 | 5:24 | VIP |
+
+- Bản quyền: "Nhà giả kim" còn bản quyền nên đây là truyện gốc hoàn toàn (nhân vật, bối cảnh Nhật hiện đại), chỉ mượn các ý nổi tiếng. Bìa ghi "Cảm hứng từ «Nhà giả kim»" và tựa phổ biến của sách ở từng ngôn ngữ (vd. 연금술사, O Alquimista, ขุมทรัพย์สุดปลายฝัน). Kết truyện nhắc truyện cổ Hida 「味噌買い橋」 (công cộng) cùng mô-típ.
+- Sửa thêm: đáp án câu hỏi trong lesson tính từ 1 (tập 1 đã ghi nhầm kiểu tính từ 0, sửa trước khi xuất bản).
+- Muse: id `life-yume-*` thuộc khối books.
