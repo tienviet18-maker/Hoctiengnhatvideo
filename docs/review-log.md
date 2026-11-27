@@ -1119,3 +1119,18 @@ Lô này thêm 4 chương VIP chuẩn v2:
 - Giọng mới: học trò (epictetus), thợ bánh (allen), ông cụ `ojii` (ikari), thêm vào `voices.json` của từng bộ.
 - QC từng chương ở `content/stories/life-*.qc.md`.
 - Kệ hiện có 31 chương: 4 chương N2, 16 chương N3 và 11 chương N4.
+
+## Kệ "Triết lý sống" (wisdom), lô 11 — 27/11/2026
+
+Lô này thêm 3 chương VIP chuẩn v2, ưu tiên N2 vì kệ đang thiếu cấp này:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-seneca-4` | N2 | Seneca, *De Ira* II.29, II.36, III.12, III.36, III.40: Lucilius quát đầu bếp vì cá cháy trước mặt khách; thư Seneca kể Augustus cho đập hết bình pha lê của Pollio, Platon giữ cánh tay đã vung, "liều thuốc lớn nhất cho cơn giận là chờ đợi", mỗi tối tự xét một ngày; phần cuối nối sang tin nhắn giận dữ lúc nửa đêm | 5:20 |
+| `life-gakumon-3` | N2 | Fukuzawa, 『学問のすゝめ』 thiên 14 「心事の棚卸」: Misaki năm hai ở nhà xuất bản, kiểm kê kho cuối năm thấy 3.000 cuốn in quá tay, mở sổ mục tiêu tháng Một chỉ gạch được chưa nửa; kẻ ba cột "được, mất, hàng ế" và giữ lại một mục tiêu nhỏ | 5:21 |
+| `life-yukkuri-4` | N4 | Truyện gốc 小さな休み: Kenji không biết từ chối; bà chủ quán rót trà tràn chén; thứ Hai anh từ chối khéo kèm lựa chọn khác | 3:08 |
+
+- Các tác phẩm gốc (thế kỷ 1, 1872–1876) thuộc phạm vi công cộng; nhân vật và đối thoại là sáng tác của ViMai.
+- Không thêm giọng mới.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 34 chương: 6 chương N2, 16 chương N3 và 12 chương N4.
