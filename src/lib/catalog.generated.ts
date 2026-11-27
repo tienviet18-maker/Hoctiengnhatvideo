@@ -13067,7 +13067,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Filsuf Budak – Epiktetos (1)",
    "pt": "O Filósofo Escravo – Epicteto (1)",
    "my": "ကျွန်ဒဿနပညာရှင် – အက်ပစ်တီးတပ်စ် (၁)",
-   "th": "นักปรัชญาทาส – เอพิคทีตัส (1)"
+   "th": "นักปรัชญาทาส – เอพิคทีตัส (1)",
+   "si": "දාස දාර්ශනිකයා – එපික්ටීටස් (1)"
   },
   "level": "N3",
   "topic": "philosophy",
@@ -13098,7 +13099,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Filsuf Budak – Epiktetos (2)",
    "pt": "O Filósofo Escravo – Epicteto (2)",
    "my": "ကျွန်ဒဿနပညာရှင် – အက်ပစ်တီးတပ်စ် (၂)",
-   "th": "นักปรัชญาทาส – เอพิคทีตัส (2)"
+   "th": "นักปรัชญาทาส – เอพิคทีตัส (2)",
+   "si": "දාස දාර්ශනිකයා – එපික්ටීටස් (2)"
   },
   "level": "N3",
   "topic": "philosophy",
@@ -13129,7 +13131,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Seperti Air – Laozi",
    "pt": "Como a Água – Lao-Tsé",
    "my": "ရေကဲ့သို့ – လောက်ဇူ",
-   "th": "ดั่งสายน้ำ – เล่าจื๊อ"
+   "th": "ดั่งสายน้ำ – เล่าจื๊อ",
+   "si": "වතුර වගේ – ලාඕත්සු"
   },
   "level": "N3",
   "topic": "philosophy",
@@ -13160,7 +13163,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Surat Kemarahan",
    "pt": "A Carta da Raiva",
    "my": "ဒေါသစာ",
-   "th": "จดหมายแห่งความโกรธ"
+   "th": "จดหมายแห่งความโกรธ",
+   "si": "කේන්තියෙන් ලියපු ලියුම"
   },
   "level": "N4",
   "topic": "self-help",
@@ -13220,7 +13224,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Buku Catatan Malam Sang Kaisar",
    "pt": "O Caderno Noturno do Imperador",
    "my": "ဧကရာဇ်၏ ညဘက် မှတ်စုစာအုပ်",
-   "th": "สมุดบันทึกยามค่ำคืนของจักรพรรดิ"
+   "th": "สมุดบันทึกยามค่ำคืนของจักรพรรดิ",
+   "si": "අධිරාජයාගේ රාත්‍රී සටහන් පොත"
   },
   "level": "N3",
   "topic": "philosophy",
@@ -13251,7 +13256,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Ilmu Menjadi Kaya",
    "pt": "A Ciência de Ficar Rico",
    "my": "ချမ်းသာလာခြင်း၏ သိပ္ပံ",
-   "th": "ศาสตร์แห่งความมั่งคั่ง"
+   "th": "ศาสตร์แห่งความมั่งคั่ง",
+   "si": "පොහොසත් වීමේ විද්‍යාව"
   },
   "level": "N3",
   "topic": "self-help",
@@ -13282,7 +13288,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Guru dan Murid",
    "pt": "O Mestre e os Discípulos",
    "my": "ဆရာနှင့် တပည့်",
-   "th": "ครูกับศิษย์"
+   "th": "ครูกับศิษย์",
+   "si": "ගුරුවරයා සහ එයාගේ ශිෂ්‍යයෝ"
   },
   "level": "N4",
   "topic": "philosophy",
@@ -13313,7 +13320,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Minggu yang Pelan",
    "pt": "Um Domingo Devagar",
    "my": "အေးအေးဆေးဆေး တနင်္ဂနွေ",
-   "th": "วันอาทิตย์แสนช้า"
+   "th": "วันอาทิตย์แสนช้า",
+   "si": "හෙමින් ගෙවුණු ඉරිදාවක්"
   },
   "level": "N4",
   "topic": "self-help",
@@ -13344,7 +13352,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Apakah Hidup Itu Singkat?",
    "pt": "A Vida É Curta?",
    "my": "ဘဝက တိုသလား",
-   "th": "ชีวิตสั้นจริงหรือ"
+   "th": "ชีวิตสั้นจริงหรือ",
+   "si": "ජීවිතය ඇත්තටම කෙටිද?"
   },
   "level": "N2",
   "topic": "philosophy",
@@ -13375,7 +13384,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hati Itu Sebuah Taman",
    "pt": "A Mente É um Jardim",
    "my": "စိတ်သည် ဥယျာဉ်တစ်ခု ဖြစ်သည်",
-   "th": "ใจคือสวน"
+   "th": "ใจคือสวน",
+   "si": "මනස උයනක්"
   },
   "level": "N3",
   "topic": "self-help",
@@ -13406,7 +13416,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Piring Putih",
    "pt": "O Prato Branco",
    "my": "ပန်းကန်ပြားဖြူ",
-   "th": "จานสีขาว"
+   "th": "จานสีขาว",
+   "si": "සුදු පිඟාන"
   },
   "level": "N4",
   "topic": "self-help",
@@ -13437,7 +13448,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Belajar atau Tidak",
    "pt": "Aprender ou Não",
    "my": "သင်ယူမလား၊ မသင်ယူဘူးလား",
-   "th": "เรียนหรือไม่เรียน"
+   "th": "เรียนหรือไม่เรียน",
+   "si": "ඉගෙන ගන්නවද, නැද්ද"
   },
   "level": "N3",
   "topic": "self-help",
@@ -13468,7 +13480,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hati Samurai",
    "pt": "O Coração do Samurai",
    "my": "ဆာမူရိုင်း၏ နှလုံးသား",
-   "th": "หัวใจซามูไร"
+   "th": "หัวใจซามูไร",
+   "si": "සාමුරායිගේ හදවත"
   },
   "level": "N3",
   "topic": "philosophy",
@@ -13499,7 +13512,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Dua Ratus Lukisan Burung",
    "pt": "Duzentos Desenhos de Pássaros",
    "my": "ငှက်ပုံ နှစ်ရာ",
-   "th": "ภาพนกสองร้อยภาพ"
+   "th": "ภาพนกสองร้อยภาพ",
+   "si": "කුරුලු චිත්‍ර දෙසීයක්"
   },
   "level": "N4",
   "topic": "self-help",
@@ -13530,7 +13544,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Turunkan di Sungai",
    "pt": "Deixe na Beira do Rio",
    "my": "မြစ်နားမှာ ချထားခဲ့",
-   "th": "วางไว้ที่ริมแม่น้ำ"
+   "th": "วางไว้ที่ริมแม่น้ำ",
+   "si": "ගඟ ළඟදී බිම තියන්න"
   },
   "level": "N4",
   "topic": "self-help",
@@ -13561,7 +13576,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Wajah Asli Kekhawatiran",
    "pt": "A Verdadeira Face da Preocupação",
    "my": "စိုးရိမ်ပူပန်မှု၏ အစစ်အမှန် မျက်နှာ",
-   "th": "ตัวตนที่แท้จริงของความกังวล"
+   "th": "ตัวตนที่แท้จริงของความกังวล",
+   "si": "කනස්සල්ලේ ඇත්ත මූණ"
   },
   "level": "N2",
   "topic": "philosophy",
@@ -13592,7 +13608,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Empat Puluh Tak Lagi Ragu",
    "pt": "Aos Quarenta, Sem Dúvidas",
    "my": "အသက်လေးဆယ်တွင် မဝေခွဲတော့",
-   "th": "สี่สิบไม่หวั่นไหว"
+   "th": "สี่สิบไม่หวั่นไหว",
+   "si": "හතළිහේදී, තවත් සැක නැහැ"
   },
   "level": "N4",
   "topic": "philosophy",
@@ -13623,7 +13640,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Satu per Satu",
    "pt": "Uma Coisa de Cada Vez",
    "my": "တစ်ခုချင်းစီ",
-   "th": "ทีละอย่าง"
+   "th": "ทีละอย่าง",
+   "si": "වරකට එක දෙයක්"
   },
   "level": "N4",
   "topic": "self-help",
@@ -13654,7 +13672,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Ombak dan Batu Karang",
    "pt": "A Onda e a Rocha",
    "my": "လှိုင်းနှင့် ကျောက်ဆောင်",
-   "th": "คลื่นกับหิน"
+   "th": "คลื่นกับหิน",
+   "si": "රළ සහ පර්වතය"
   },
   "level": "N3",
   "topic": "philosophy",
@@ -13685,7 +13704,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hitung Sampai Sepuluh",
    "pt": "Conte até Dez",
    "my": "ဆယ်အထိ ရေတွက်ပါ",
-   "th": "นับถึงสิบ"
+   "th": "นับถึงสิบ",
+   "si": "දහය වෙනකම් ගණන් කරන්න"
   },
   "level": "N4",
   "topic": "self-help",
@@ -13716,7 +13736,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Sang Pemimpi",
    "pt": "Quem Sonha",
    "my": "အိပ်မက်မက်သူ",
-   "th": "ผู้ที่ฝัน"
+   "th": "ผู้ที่ฝัน",
+   "si": "සිහින දකින්නා"
   },
   "level": "N3",
   "topic": "self-help",
@@ -13747,7 +13768,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Yang Ada di Mana-mana",
    "pt": "Quem Está em Toda Parte",
    "my": "နေရာတိုင်းမှာ ရှိသူ",
-   "th": "คนที่อยู่ทุกที่"
+   "th": "คนที่อยู่ทุกที่",
+   "si": "හැමතැනම ඉන්න කෙනා කොහෙවත් නැහැ"
   },
   "level": "N2",
   "topic": "philosophy",
@@ -13778,7 +13800,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Murid Kelas Satu Berusia 18 Tahun",
    "pt": "O Aluno de Primeiro Ano com 18 Anos",
    "my": "အသက် ၁၈ နှစ်ရှိ ပထမတန်းကျောင်းသား",
-   "th": "นักเรียน ป.1 วัย 18 ปี"
+   "th": "นักเรียน ป.1 วัย 18 ปี",
+   "si": "අවුරුදු දහඅටේ පළමු ශ්‍රේණියේ ශිෂ්‍යයා"
   },
   "level": "N3",
   "topic": "self-help",
@@ -13809,7 +13832,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Pohon di Sebelah",
    "pt": "A Árvore ao Lado",
    "my": "ဘေးက သစ်ပင်",
-   "th": "ต้นไม้ข้าง ๆ"
+   "th": "ต้นไม้ข้าง ๆ",
+   "si": "ළඟ ගස"
   },
   "level": "N4",
   "topic": "self-help",
@@ -13840,7 +13864,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Peta di Dalam Hati",
    "pt": "O Mapa no Coração",
    "my": "စိတ်ထဲက မြေပုံ",
-   "th": "แผนที่ในใจ"
+   "th": "แผนที่ในใจ",
+   "si": "හිතේ තියෙන සිතියම"
   },
   "level": "N3",
   "topic": "self-help",
@@ -13871,7 +13896,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Kalah adalah Menang",
    "pt": "Perder é Ganhar",
    "my": "ရှုံးခြင်းသည် နိုင်ခြင်း",
-   "th": "แพ้คือชนะ"
+   "th": "แพ้คือชนะ",
+   "si": "පරදින එක දිනන එකයි"
   },
   "level": "N3",
   "topic": "philosophy",
@@ -13902,7 +13928,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Ponsel dan Fukuzawa Yukichi",
    "pt": "O Celular e Fukuzawa Yukichi",
    "my": "စမတ်ဖုန်းနှင့် ဖုကုဇာဝ ယုကိချိ",
-   "th": "สมาร์ตโฟนกับฟุกุซาวะ ยูกิจิ"
+   "th": "สมาร์ตโฟนกับฟุกุซาวะ ยูกิจิ",
+   "si": "ස්මාර්ට් ෆෝන් සහ ෆුකුසාවා යුකිචි"
   },
   "level": "N2",
   "topic": "self-help",
@@ -13918,6 +13945,130 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/life-gakumon-2/chapter.mp3",
    "durationSec": 351.5
+  }
+ },
+ {
+  "id": "life-epictetus-3",
+  "titles": {
+   "vi": "Triết gia nô lệ 3: Hai cái quai",
+   "en": "The Slave Philosopher 3: Two Handles",
+   "zh-Hans": "奴隶哲学家3：两个把手",
+   "zh-Hant": "奴隸哲學家3：兩個把手",
+   "ko": "노예 철학자 3: 두 개의 손잡이",
+   "tl": "Ang Pilosopong Alipin 3: Dalawang Hawakan",
+   "ne": "दास दार्शनिक ३: दुई ह्यान्डल",
+   "id": "Filsuf Budak 3: Dua Pegangan",
+   "pt": "O Filósofo Escravo 3: Duas Alças",
+   "my": "ကျွန်ဒဿနပညာရှင် ၃: လက်ကိုင် နှစ်ခု",
+   "th": "นักปรัชญาทาส 3: หูจับสองข้าง"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 39,
+  "cover": "/covers/life-epictetus-3.webp",
+  "series": {
+   "id": "life-epictetus",
+   "index": 3
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-epictetus-3/chapter.mp3",
+   "durationSec": 224.83
+  }
+ },
+ {
+  "id": "life-allen-3",
+  "titles": {
+   "vi": "Điều làm nên gương mặt",
+   "en": "What Makes a Face",
+   "zh-Hans": "是什么塑造了脸",
+   "zh-Hant": "是什麼塑造了臉",
+   "ko": "얼굴을 만드는 것",
+   "tl": "Ang Humuhubog sa Mukha",
+   "ne": "अनुहार बनाउने कुरा",
+   "id": "Yang Membentuk Wajah",
+   "pt": "O Que Faz um Rosto",
+   "my": "မျက်နှာကို ဖန်တီးသောအရာ",
+   "th": "สิ่งที่สร้างใบหน้า"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 39,
+  "cover": "/covers/life-allen-3.webp",
+  "series": {
+   "id": "life-allen",
+   "index": 3
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-allen-3/chapter.mp3",
+   "durationSec": 228.24
+  }
+ },
+ {
+  "id": "life-marcus-3",
+  "titles": {
+   "vi": "Kho báu của hoàng đế",
+   "en": "The Emperor's Treasures",
+   "zh-Hans": "皇帝的宝物",
+   "zh-Hant": "皇帝的寶物",
+   "ko": "황제의 보물",
+   "tl": "Ang mga Kayamanan ng Emperador",
+   "ne": "सम्राटको खजाना",
+   "id": "Harta Sang Kaisar",
+   "pt": "Os Tesouros do Imperador",
+   "my": "ဧကရာဇ်၏ ရတနာများ",
+   "th": "สมบัติของจักรพรรดิ"
+  },
+  "level": "N3",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 41,
+  "cover": "/covers/life-marcus-3.webp",
+  "series": {
+   "id": "life-marcus",
+   "index": 3
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-marcus-3/chapter.mp3",
+   "durationSec": 227.74
+  }
+ },
+ {
+  "id": "life-ikari-4",
+  "titles": {
+   "vi": "Dục tốc bất đạt",
+   "en": "More Haste, Less Speed",
+   "zh-Hans": "欲速则不达",
+   "zh-Hant": "欲速則不達",
+   "ko": "급할수록 돌아가라",
+   "tl": "Ang Nagmamadali, Natatagalan",
+   "ne": "हतारमा काम बिग्रन्छ",
+   "id": "Biar Lambat Asal Selamat",
+   "pt": "A Pressa É Inimiga da Perfeição",
+   "my": "အလျင်လိုလျှင် နှေးတတ်သည်",
+   "th": "ช้าๆ ได้พร้าเล่มงาม"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 42,
+  "cover": "/covers/life-ikari-4.webp",
+  "series": {
+   "id": "life-ikari",
+   "index": 4
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-ikari-4/chapter.mp3",
+   "durationSec": 192.41
   }
  },
  {
