@@ -28,6 +28,8 @@ export interface StoryIndexItem {
   sentenceCount: number;
   /** Ảnh bìa chuẩn v2 (public/covers/<id>.webp); gói cũ chưa có */
   cover?: string;
+  /** Bìa theo ngôn ngữ người đọc: /covers/<id>.<lang>.webp */
+  coverLangs?: string[];
   series?: { id: string; index: number };
   shelf?: StoryContent["shelf"];
   origin?: string;
@@ -15148,7 +15150,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Chí Phèo",
    "pt": "Chí Phèo",
    "my": "ချီဖဲအို",
-   "th": "จี๊แผ่ว"
+   "th": "จี๊แผ่ว",
+   "si": "චී ෆේඕ"
   },
   "level": "N2",
   "topic": "hometown-tales",
@@ -15176,7 +15179,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Lampu Padam (1): Menjual Anak demi Pajak",
    "pt": "Luzes Apagadas (1): Vender a Filha pelo Imposto",
    "my": "မီးငြိမ်းတော့ (၁): အခွန်အတွက် သမီးရောင်း",
-   "th": "ไฟดับ (1): ขายลูกจ่ายภาษี"
+   "th": "ไฟดับ (1): ขายลูกจ่ายภาษี",
+   "si": "ලාම්පුව නිවෙයි (1): බදු ගෙවන්න දුව විකුණයි"
   },
   "level": "N2",
   "topic": "hometown-tales",
@@ -15208,7 +15212,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Lampu Padam (2): Air Meluap, Tanggul Jebol",
    "pt": "Luzes Apagadas (2): Quando a Água Sobe, o Dique Rompe",
    "my": "မီးငြိမ်းတော့ (၂): ရေလျှံရင် တာကျိုး",
-   "th": "ไฟดับ (2): น้ำล้นเขื่อนพัง"
+   "th": "ไฟดับ (2): น้ำล้นเขื่อนพัง",
+   "si": "ලාම්පුව නිවෙයි (2): වතුර තද වුණාම, වේල්ල කැඩෙයි"
   },
   "level": "N2",
   "topic": "hometown-tales",
@@ -15225,6 +15230,182 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/furusato-vn-tatden-2/chapter.mp3",
    "durationSec": 300.312
+  }
+ },
+ {
+  "id": "life-dacnhan-1",
+  "titles": {
+   "vi": "Trước khi mắng",
+   "en": "Before You Scold",
+   "zh-Hans": "批评之前",
+   "zh-Hant": "批評之前",
+   "ko": "꾸짖기 전에",
+   "tl": "Bago Ka Manermon",
+   "ne": "गाली गर्नुअघि",
+   "id": "Sebelum Memarahi",
+   "pt": "Antes de Repreender",
+   "my": "မဆူခင်",
+   "th": "ก่อนจะดุ"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 47,
+  "cover": "/covers/life-dacnhan-1.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-dacnhan",
+   "index": 1
+  },
+  "shelf": "book-people",
+  "audioTrack": {
+   "src": "/audio/life-dacnhan-1/chapter.mp3",
+   "durationSec": 253.39
+  }
+ },
+ {
+  "id": "life-dacnhan-2",
+  "titles": {
+   "vi": "Gọi tên",
+   "en": "Calling a Name",
+   "zh-Hans": "叫出名字",
+   "zh-Hant": "叫出名字",
+   "ko": "이름을 부르다",
+   "tl": "Tawagin sa Pangalan",
+   "ne": "नाम लिएर बोलाउनु",
+   "id": "Memanggil Nama",
+   "pt": "Chamar pelo Nome",
+   "my": "နာမည်ခေါ်ခြင်း",
+   "th": "เรียกชื่อ"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/life-dacnhan-2.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-dacnhan",
+   "index": 2
+  },
+  "shelf": "book-people",
+  "audioTrack": {
+   "src": "/audio/life-dacnhan-2/chapter.mp3",
+   "durationSec": 267.14
+  }
+ },
+ {
+  "id": "life-dacnhan-3",
+  "titles": {
+   "vi": "Khu vườn của người biết lắng nghe",
+   "en": "The Garden of a Good Listener",
+   "zh-Hans": "善于倾听的庭院",
+   "zh-Hant": "善於傾聽的庭院",
+   "ko": "잘 듣는 사람의 정원",
+   "tl": "Ang Hardin ng Mahusay Makinig",
+   "ne": "राम्रो श्रोताको बगैँचा",
+   "id": "Taman Sang Pendengar",
+   "pt": "O Jardim de Quem Sabe Ouvir",
+   "my": "နားထောင်တတ်သူရဲ့ ဥယျာဉ်",
+   "th": "สวนของคนที่รู้จักฟัง"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 46,
+  "cover": "/covers/life-dacnhan-3.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-dacnhan",
+   "index": 3
+  },
+  "shelf": "book-people",
+  "audioTrack": {
+   "src": "/audio/life-dacnhan-3/chapter.mp3",
+   "durationSec": 268.3
+  }
+ },
+ {
+  "id": "life-dacnhan-4",
+  "titles": {
+   "vi": "Ngày ông chủ trở về",
+   "en": "The Day the Boss Came Back",
+   "zh-Hans": "老板回来的那天",
+   "zh-Hant": "老闆回來的那天",
+   "ko": "사장님이 돌아오는 날",
+   "tl": "Ang Araw ng Pagbabalik ng Amo",
+   "ne": "साहुजी फर्केको दिन",
+   "id": "Hari Sang Bos Kembali",
+   "pt": "O Dia em que o Patrão Voltou",
+   "my": "ဆိုင်ရှင် ပြန်လာတဲ့နေ့",
+   "th": "วันที่เจ้าของร้านกลับมา"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 44,
+  "cover": "/covers/life-dacnhan-4.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-dacnhan",
+   "index": 4
+  },
+  "shelf": "book-people",
+  "audioTrack": {
+   "src": "/audio/life-dacnhan-4/chapter.mp3",
+   "durationSec": 257.66
   }
  }
 ];

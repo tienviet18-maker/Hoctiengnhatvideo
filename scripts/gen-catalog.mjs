@@ -65,6 +65,7 @@ const stories = storyIds.map((id) => {
     // Bản sao storyFree() trong src/lib/access.ts: chương 1 của mọi bộ và mọi truyện ngắn N5 đều miễn phí
     source: s.source, free: Boolean(s.free || s.series?.index === 1 || (!s.series && s.level === "N5")), sentenceCount: s.sentences.length,
     ...(typeof s.cover === "string" && s.cover.startsWith("/covers/") ? { cover: s.cover } : {}),
+    ...(Array.isArray(s.coverLangs) ? { coverLangs: s.coverLangs } : {}),
     ...(s.series ? { series: s.series } : {}),
     ...(s.shelf ? { shelf: s.shelf } : {}),
     ...(s.origin ? { origin: s.origin } : {}),
@@ -110,6 +111,8 @@ export interface StoryIndexItem {
   sentenceCount: number;
   /** Ảnh bìa chuẩn v2 (public/covers/<id>.webp); gói cũ chưa có */
   cover?: string;
+  /** Bìa theo ngôn ngữ người đọc: /covers/<id>.<lang>.webp */
+  coverLangs?: string[];
   series?: { id: string; index: number };
   shelf?: StoryContent["shelf"];
   origin?: string;
