@@ -871,6 +871,12 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 - Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
 - Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
 
+## Tiếng Sinhala đợt 17: 3 gói quê hương Việt Nam mới — 27/11/2026 (nhánh `claude/si-stories-18`)
+
+- Thêm sidecar tiếng Sinhala cho 3 gói N2 vừa vào main qua PR #106: `furusato-vn-chipheo` (Chí Phèo), `furusato-vn-tatden-1`, `furusato-vn-tatden-2` (Tắt đèn).
+- Tên riêng phiên âm Sinhala nhất quán (නම් කාඕ, චී ෆේඕ, ගෝ තත් තෝ, චි සව්...); lời thoại giữ sắc thái (quan lại xưng උඹ/පන්, chị Dậu đổi từ khiêm nhường sang ngang hàng khi phản kháng).
+- `apply.mjs si`: 3 gói, 0 lỗi. Kiểm tra khoảng trống sau khi gộp main: còn 7 gói Triết lý sống mới (life-*-3/4) chưa có si, làm ở đợt 18.
+
 ## Tiếng Sinhala đợt 16: kệ Triết lý sống — 27/11/2026 (nhánh `claude/si-stories-17`)
 
 - Thêm 27 sidecar `content/translations/si/`: `life-allen-1..2`, `life-bushido-1..2`, `life-epictetus-1..2`, `life-gakumon-1..2`, `life-ikari-1..3`, `life-marcus-1..2`, `life-rongo-1..2`, `life-roshi-1`, `life-seneca-1..3`, `life-smiles-1..3`, `life-wattles-1..2`, `life-yukkuri-1..3`. Việt duyệt làm tiếp phần kệ của luồng khác (27/11).
