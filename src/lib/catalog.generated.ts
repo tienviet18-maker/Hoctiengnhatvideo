@@ -15495,6 +15495,94 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/life-shiki-2/chapter.mp3",
    "durationSec": 348.84
   }
+ },
+ {
+  "id": "life-shiki-3",
+  "titles": {
+   "vi": "Bày trận quay lưng ra sông",
+   "en": "Battle with the River at Their Backs",
+   "zh-Hans": "背水一战",
+   "zh-Hant": "背水一戰",
+   "ko": "배수의 진",
+   "tl": "Labanang Nakatalikod sa Ilog",
+   "ne": "नदीतिर पिठ्युँ फर्काएको मोर्चा",
+   "id": "Bertempur Membelakangi Sungai",
+   "pt": "A Batalha de Costas para o Rio",
+   "my": "မြစ်ကို ကျောပေးတဲ့ တပ်",
+   "th": "ทัพหันหลังให้แม่น้ำ"
+  },
+  "level": "N2",
+  "topic": "history",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 50,
+  "cover": "/covers/life-shiki-3.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-shiki",
+   "index": 3
+  },
+  "shelf": "book-east",
+  "audioTrack": {
+   "src": "/audio/life-shiki-3/chapter.mp3",
+   "durationSec": 377.64
+  }
+ },
+ {
+  "id": "life-shiki-4",
+  "titles": {
+   "vi": "Đêm tứ bề khúc hát Sở",
+   "en": "The Night of Chu Songs on All Sides",
+   "zh-Hans": "四面楚歌之夜",
+   "zh-Hant": "四面楚歌之夜",
+   "ko": "사면초가의 밤",
+   "tl": "Ang Gabi ng mga Awit ng Chu sa Paligid",
+   "ne": "चारैतिर छु गीतको रात",
+   "id": "Malam Lagu Chu dari Empat Penjuru",
+   "pt": "A Noite das Canções de Chu por Todos os Lados",
+   "my": "လေးဘက်လေးတန် ချူသီချင်းသံ ညဉ့်",
+   "th": "คืนเพลงฉู่ล้อมสี่ด้าน"
+  },
+  "level": "N2",
+  "topic": "history",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 48,
+  "cover": "/covers/life-shiki-4.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-shiki",
+   "index": 4
+  },
+  "shelf": "book-east",
+  "audioTrack": {
+   "src": "/audio/life-shiki-4/chapter.mp3",
+   "durationSec": 368.23
+  }
  }
 ];
 
