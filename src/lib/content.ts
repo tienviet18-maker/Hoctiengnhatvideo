@@ -800,6 +800,10 @@ import s_furusatoCnLiangzhu1 from "../../content/stories/furusato-cn-liangzhu-1.
 import s_furusatoKrTokki1 from "../../content/stories/furusato-kr-tokki-1.json";
 // --- hết kệ ma & trinh thám: import ---
 
+// --- kệ S sách nổi tiếng (chuẩn v2): import ---
+import v2LifeDacnhan1 from "../../content/stories/life-dacnhan-1.json";
+// --- hết kệ S sách nổi tiếng: import ---
+
 export const VIDEOS: VideoContent[] = [
   video1 as unknown as VideoContent,
   video2 as unknown as VideoContent,
@@ -1601,6 +1605,9 @@ export const STORIES: StoryContent[] = [
   s_furusatoVnTranglon1 as unknown as StoryContent,
   s_furusatoCnLiangzhu1 as unknown as StoryContent,
   s_furusatoKrTokki1 as unknown as StoryContent,
+  // --- kệ S sách nổi tiếng (chuẩn v2) ---
+  v2LifeDacnhan1 as unknown as StoryContent,
+  // --- hết kệ S sách nổi tiếng ---
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

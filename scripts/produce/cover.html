@@ -9,10 +9,12 @@ body{width:900px;height:1200px;overflow:hidden}
 .jsub{position:absolute;right:calc(92px + var(--jsize) * 1.45);top:128px;writing-mode:vertical-rl;font-family:var(--jfont),serif;font-weight:400;font-size:30px;letter-spacing:.2em;color:var(--ink);opacity:.75}
 .brand{position:absolute;left:72px;top:72px;font-size:22px;font-weight:700;letter-spacing:.18em;color:var(--ink);opacity:.8}
 .brand b{color:#E03E2D}
-.bottom{position:absolute;left:72px;right:72px;bottom:72px}
+.bottom{position:absolute;left:72px;right:72px;bottom:72px;font-family:'Be Vietnam Pro',var(--bfont,sans-serif)}
 .lv{display:inline-block;border:2.5px solid var(--ink);border-radius:8px;padding:4px 14px;font-weight:700;font-size:24px;letter-spacing:.06em}
 .ser{display:inline-block;margin-left:14px;font-size:22px;font-weight:500;opacity:.8}
 .t{margin-top:22px;font-size:44px;font-weight:700;line-height:1.22;max-width:560px}
+.bk{margin-top:20px;font-size:24px;font-weight:500;letter-spacing:.04em;opacity:.8}
+.bk+.t{margin-top:4px}
 .rule{height:3px;width:64px;background:#E03E2D;margin-top:26px}
 </style></head><body><div class="c" id="c"></div>
 <script>
@@ -22,6 +24,9 @@ const FONTS={'Shippori Mincho B1':'600;800','Zen Old Mincho':'600;900','BIZ UDPM
 const font=d.font||'Shippori Mincho B1';const wts=FONTS[font]||'400';
 const lk=document.createElement('link');lk.rel='stylesheet';lk.href='https://fonts.googleapis.com/css2?family='+font.replace(/ /g,'+')+':wght@'+wts+'&display=block';document.head.appendChild(lk);
 const jweight=wts.split(';').pop();
+// Dòng tên sách theo ngôn ngữ người đọc: nạp font Noto cho chữ Thái, Miến, Devanagari, Hán, Hàn
+const SCRIPT={th:'Noto Sans Thai',my:'Noto Sans Myanmar',ne:'Noto Sans Devanagari','zh-Hans':'Noto Sans SC','zh-Hant':'Noto Sans TC',ko:'Noto Sans KR'}[d.lang];
+if(SCRIPT){const l2=document.createElement('link');l2.rel='stylesheet';l2.href='https://fonts.googleapis.com/css2?family='+SCRIPT.replace(/ /g,'+')+':wght@500;700&display=block';document.head.appendChild(l2);document.documentElement.style.setProperty('--bfont',`'${SCRIPT}'`);}
 const pal={N5:['#F3EEE4','#16324F','#B9D0E3'],N4:['#EEF2EC','#163A35','#A9C9B8'],N3:['#123A6F','#F4EFE6','#2C5A93'],N2:['#1D2A44','#F2E9DA','#3A4C70'],N1:['#141414','#EFE6D6','#33302C']}[d.level];
 const c=document.getElementById('c');c.style.setProperty('--jfont',`'${font}'`);c.style.setProperty('--jweight',jweight);c.style.setProperty('--paper',pal[0]);c.style.setProperty('--ink',pal[1]);
 const len=[...d.ja].length;c.style.setProperty('--jsize',(len<=4?132:len<=7?104:84)+'px');
@@ -45,5 +50,5 @@ const motifs={
  noface:`<ellipse cx="330" cy="560" rx="150" ry="200" fill="${pal[1]}" opacity=".92"/><path d="M180 600 C160 860 200 980 330 1000 C460 980 500 860 480 600 C440 760 220 760 180 600Z" fill="${A}"/><circle cx="560" cy="860" r="40" fill="${R}"/><line x1="560" y1="780" x2="560" y2="820" stroke="${A}" stroke-width="6"/>`,
  rain:`<g stroke="${A}" stroke-width="7" stroke-linecap="round">${Array.from({length:60},(_,i)=>{const x=60+(i*53)%560,y=300+((i*97)%560);return `<line x1="${x}" y1="${y}" x2="${x-18}" y2="${y+60}"/>`}).join('')}</g><rect x="250" y="560" width="150" height="16" rx="8" fill="${R}"/><path d="M325 470 C230 470 210 560 210 560 L440 560 C440 560 420 470 325 470Z" fill="${R}"/>`
 };
-c.innerHTML=`<svg class="art" viewBox="0 0 ${W} ${H}">${motifs[d.motif]}</svg><div class="brand">MIRAIGO <b>文庫</b></div>${d.jsub?`<div class="jsub">${d.jsub}</div>`:''}<div class="ja">${d.ja}</div><div class="bottom"><span class="lv">${d.level}</span>${d.series?`<span class="ser">${d.series}</span>`:''}${d.title?`<div class="t">${d.title}</div>`:''}<div class="rule"></div></div>`;
+c.innerHTML=`<svg class="art" viewBox="0 0 ${W} ${H}">${motifs[d.motif]}</svg><div class="brand">MIRAIGO <b>文庫</b></div>${d.jsub?`<div class="jsub">${d.jsub}</div>`:''}<div class="ja">${d.ja}</div><div class="bottom"><span class="lv">${d.level}</span>${d.series?`<span class="ser">${d.series}</span>`:''}${d.bookLabel?`<div class="bk">${d.bookLabel}</div>`:''}${(d.book||d.title)?`<div class="t"${d.book&&[...d.book].length>26?' style="font-size:34px"':''}>${d.book||d.title}</div>`:''}<div class="rule"></div></div>`;
 </script></body></html>

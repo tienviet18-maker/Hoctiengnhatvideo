@@ -28,6 +28,8 @@ export interface StoryIndexItem {
   sentenceCount: number;
   /** Ảnh bìa chuẩn v2 (public/covers/<id>.webp); gói cũ chưa có */
   cover?: string;
+  /** Bìa theo ngôn ngữ người đọc: /covers/<id>.<lang>.webp */
+  coverLangs?: string[];
   series?: { id: string; index: number };
   shelf?: StoryContent["shelf"];
   origin?: string;
@@ -15133,6 +15135,50 @@ export const STORY_INDEX: StoryIndexItem[] = [
   "audioTrack": {
    "src": "/audio/furusato-kr-tokki-1/chapter.mp3",
    "durationSec": 264.36
+  }
+ },
+ {
+  "id": "life-dacnhan-1",
+  "titles": {
+   "vi": "Trước khi mắng",
+   "en": "Before You Scold",
+   "zh-Hans": "批评之前",
+   "zh-Hant": "批評之前",
+   "ko": "꾸짖기 전에",
+   "tl": "Bago Ka Manermon",
+   "ne": "गाली गर्नुअघि",
+   "id": "Sebelum Memarahi",
+   "pt": "Antes de Repreender",
+   "my": "မဆူခင်",
+   "th": "ก่อนจะดุ"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 47,
+  "cover": "/covers/life-dacnhan-1.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-dacnhan",
+   "index": 1
+  },
+  "shelf": "book-people",
+  "audioTrack": {
+   "src": "/audio/life-dacnhan-1/chapter.mp3",
+   "durationSec": 253.39
   }
  }
 ];

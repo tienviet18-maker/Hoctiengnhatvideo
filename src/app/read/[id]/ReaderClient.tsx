@@ -7,6 +7,7 @@ import { useLang } from "../../../components/LangProvider";
 import Furigana from "../../../components/Furigana";
 import WordPopup from "../../../components/WordPopup";
 import Paywall from "../../../components/Paywall";
+import { coverFor } from "../../../components/StoryCover";
 import LessonPanel from "./LessonPanel";
 import type { Translations, VocabItem } from "../../../lib/content-schema";
 import { pickText } from "../../../lib/i18n";
@@ -98,10 +99,10 @@ export default function ReaderClient({
       track,
       segs: story.sentences.map((s) => ({ audio: s.audio, t: s.t })),
       total,
-      cover: story.cover?.startsWith("/covers/") ? story.cover : undefined,
+      cover: story.cover?.startsWith("/covers/") ? coverFor(story.cover, story.coverLangs, lang) : undefined,
       endAt: preview ? story.previewEnd : undefined,
     }),
-    [story.id, title, story.level, track, story.sentences, total, story.cover, preview, story.previewEnd],
+    [story.id, title, story.level, track, story.sentences, total, story.cover, story.coverLangs, lang, preview, story.previewEnd],
   );
   const ensureLoaded = () => {
     if (player.getState().item?.id !== story.id) player.load(item);
