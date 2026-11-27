@@ -1134,3 +1134,18 @@ Lô này thêm 3 chương VIP chuẩn v2, ưu tiên N2 vì kệ đang thiếu c�
 - Không thêm giọng mới.
 - QC từng chương ở `content/stories/life-*.qc.md`.
 - Kệ hiện có 34 chương: 6 chương N2, 16 chương N3 và 12 chương N4.
+
+## Mục "Sách nổi tiếng" — đợt 1: Đắc nhân tâm (cảm hứng) — 27/11/2026
+
+Việt yêu cầu làm các sách nổi tiếng (Đắc nhân tâm, Nhà giả kim, Sử ký…), sắp theo chủ đề dễ tìm. Bìa có dòng tên sách theo ngôn ngữ người đọc chọn, và người Việt phải thấy đúng tên sách tiếng Việt chuẩn.
+
+**Hạ tầng**
+- Bìa đa ngôn ngữ: front matter `cover_book` và `cover_book_label` (11 giá trị nối bằng `|`). `cover.mjs` dựng `<id>.webp` (bản en) và `<id>.<lang>.webp`. `build-story.mjs` ghi `coverLangs`, `gen-catalog.mjs` chuyển tiếp trường này. `StoryCover`/`coverFor()` và trình phát trong `ReaderClient` chọn bìa theo ngôn ngữ app.
+- Kệ theo chủ đề: thêm `vn-lit` (Văn học Việt Nam; Số đỏ, Kiều, Hoàng Lê, Thạch Lam, Lão Hạc được gom vào bằng regex, không sửa nội dung), `book-people`, `book-mind`, `book-spirit`, `book-east`, `book-health`. Nhãn đủ 12 locale. Trang Truyện có thêm hàng chip "Chủ đề" để nhảy tới từng kệ.
+- `register.mjs --block=books`.
+
+**Nội dung**: series 「ラーメン店長の一年」 gồm 4 tập N3 (`life-dacnhan-1..4`, kệ book-people, tập 1 miễn phí). Đây là truyện gốc dạy các ý tưởng nổi tiếng của Carnegie, không dịch sách. QC từng tập ở `content/stories/life-dacnhan-*.qc.md`.
+
+**Bản quyền**: sách còn bản quyền (Carnegie, Coelho, Nguyên Phong, Thích Nhất Hạnh, Tony Buổi Sáng…) chỉ làm truyện gốc "Cảm hứng từ «…»". Chuyển thể đầy đủ chỉ dành cho tác phẩm công cộng: Sử ký, Kinh Dịch, và Spalding 1924 (bản gốc tiếng Anh của Hành trình về phương Đông).
+
+**Tự kiểm**: phát hiện tập 2–4 thiếu dòng `cover_book`, nên bìa không có tên sách. Đã thêm, dựng lại và xem ảnh bìa vi/th.
