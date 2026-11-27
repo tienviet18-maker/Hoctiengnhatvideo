@@ -1242,3 +1242,17 @@ Nhánh `claude/famous-books-4`. Trọn bộ 3 tập N3, kệ `book-spirit`, ch�
 - So sánh độ dài audio Neural2 (đầu ra cố định): 「灯は二十五歳。」 dài gần bằng 「ひは…」, ngắn hơn hẳn 「あかりは…」, nên TTS đọc tên nhân vật sai.
 - `scripts/produce/tts.mjs` thêm khoá front matter `tts_say: 灯台=灯台, 灯=あかり`: chỉ đổi chữ gửi cho TTS, không đổi chữ hiển thị (khoá dài khớp trước để giữ từ ghép). Đã tạo lại audio và mốc thời gian life-yume-1..3 (dài thêm 1–6 giây/tập).
 - Kiểm thêm: 源さん, 美智子, 灯台 đọc đúng. Truyện mới dùng tên nhân vật một chữ Hán thì kiểm cách đọc TTS hoặc viết tên bằng katakana.
+
+## Mục "Sách nổi tiếng" — đợt 5: 朝のコーヒー (cảm hứng từ «Cà phê cùng Tony») — 27/11/2026
+
+Nhánh `claude/famous-books-5`. Trọn bộ 3 tập N3, kệ `book-people`, chủ đề self-help, `register.mjs --block=books`. Tiếp tục ưu tiên sách giới trẻ đang đọc.
+
+| id | Tựa | Nội dung | Câu | Audio | Truy cập |
+|---|---|---|---|---|---|
+| life-coffee-1 | 六時の喫茶店 | Nam (du học sinh Huế, làm đêm ở Osaka) gặp ông chủ quán từng sống ở Sài Gòn; ăn sáng, bớt than mà học | 47 | 5:09 | miễn phí |
+| life-coffee-2 | マスターの宿題 | ba bài tập: làm kỹ việc nhỏ, nhớ tên khách, để dành 10%; học tiếng Anh; được chọn làm trưởng nhóm | 45 | 5:04 | VIP |
+| life-coffee-3 | ナムの朝 | Nam mở quán thay ông, giúp người mới sang, trao lại lòng tốt cho Linh | 48 | 4:24 | VIP |
+
+- Bản quyền: "Cà phê cùng Tony" còn bản quyền nên đây là truyện gốc hoàn toàn, chỉ mượn các ý nổi tiếng. Bìa ghi "Cảm hứng từ «Cà phê cùng Tony»" theo 11 ngôn ngữ.
+- Tên nhân vật Việt viết katakana (ナム, リン) để TTS đọc đúng; các chữ dễ đọc sai dùng `tts_say` (十分=じゅっぷん, 角=かど, 開いて=あいて, ベトナムの方=ベトナムのかた).
+- Muse: id `life-coffee-*` thuộc khối books.
