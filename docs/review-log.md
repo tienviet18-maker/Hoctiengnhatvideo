@@ -1198,3 +1198,17 @@ Bìa nhãn "Phỏng theo «Sử ký Tư Mã Thiên»" theo 11 ngôn ngữ.
 - Mỗi chương có từ vựng, dịch + giải thích 11 ngôn ngữ, bài học 3 mẫu ngữ pháp + 4 câu hỏi, qc.md riêng.
 - Tự kiểm: đối chiếu số liệu với nguyên văn (800/28 kỵ, 70 trận, tuổi 31…); sửa đọc 秦=しん, 行っ=いっ, 遷, 最後, 見る (chỉ trong thành ngữ). Viết lại câu tránh đọc sai (たった今, 間違い, 土けむり, 一そう).
 - Muse: id `life-shiki-*` thuộc khối books, đừng cấp trùng.
+
+## Mục "Sách nổi tiếng" — đợt 3: 易経の物語 (phỏng theo Kinh Dịch) — 27/11/2026
+
+Nhánh `claude/famous-books-3`. 2 chương N2, kệ `book-east`, chủ đề triết học, `register.mjs --block=books`.
+
+| id | Tựa | Nội dung | Câu | Audio | Truy cập |
+|---|---|---|---|---|---|
+| life-ekikyo-1 | 龍の六つの季節 | Khổng Tử, 韋編三絶, sáu hào quẻ Càn | 46 | 6:16 | miễn phí |
+| life-ekikyo-2 | 牢屋の六十四卦 | Văn Vương ở Dữu Lý, 太公望, 窮すれば通ず, Tư Mã Thiên | 44 | 6:04 | VIP |
+
+- Nguồn: 『易経』, 『史記』 (周本紀, 斉太公世家, 孔子世家), 「報任少卿書」; đều phạm vi công cộng.
+- Bìa "Phỏng theo «Kinh Dịch»" theo 11 ngôn ngữ. Không ghi tựa sách Nguyễn Hiến Lê "Kinh Dịch – Đạo của người quân tử" vì nội dung lấy từ kinh văn gốc, không từ sách đó.
+- Người dùng (27/11) muốn ưu tiên sách giới trẻ đang đọc, nên đợt này dừng ở 2 chương; tập 3 (Chu Công, 謙, 君子豹変) để sau.
+- Muse: id `life-ekikyo-*` thuộc khối books.
