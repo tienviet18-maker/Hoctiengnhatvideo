@@ -1256,3 +1256,17 @@ Nhánh `claude/famous-books-5`. Trọn bộ 3 tập N3, kệ `book-people`, ch�
 - Bản quyền: "Cà phê cùng Tony" còn bản quyền nên đây là truyện gốc hoàn toàn, chỉ mượn các ý nổi tiếng. Bìa ghi "Cảm hứng từ «Cà phê cùng Tony»" theo 11 ngôn ngữ.
 - Tên nhân vật Việt viết katakana (ナム, リン) để TTS đọc đúng; các chữ dễ đọc sai dùng `tts_say` (十分=じゅっぷん, 角=かど, 開いて=あいて, ベトナムの方=ベトナムのかた).
 - Muse: id `life-coffee-*` thuộc khối books.
+
+## Mục "Sách nổi tiếng" — đợt 6: めぐる種 (cảm hứng từ «Muôn kiếp nhân sinh») — 27/11/2026
+
+Nhánh `claude/famous-books-6`. Trọn bộ 3 tập N3, kệ `book-spirit`, chủ đề self-help, `register.mjs --block=books`.
+
+| id | Tựa | Nội dung | Câu | Audio | Truy cập |
+|---|---|---|---|---|---|
+| life-tane-1 | 夢の中の商人 | giám đốc trẻ nóng tính mơ mình là thương nhân ép giá thợ gốm; bà giảng "gieo gì gặt nấy" | 45 | 4:44 | miễn phí |
+| life-tane-2 | くずれた店 | tiệm trong mơ phá sản; ngoài đời mất khách lớn, anh thôi đổ lỗi và xin lỗi nhân viên cũ | 46 | 4:31 | VIP |
+| life-tane-3 | 信楽の窯 | tìm lò gốm Shigaraki, giúp cô thợ trẻ bán online "đúng giá"; giấc mơ khép lại | 46 | 4:28 | VIP |
+
+- Bản quyền: "Muôn kiếp nhân sinh" còn bản quyền nên đây là truyện gốc hoàn toàn, chỉ mượn ý nhân quả và luân hồi. Kiếp trước được để ngỏ, không khẳng định như sự thật.
+- Bìa: dòng phụ tiếng Anh dùng tựa bản dịch "Many Lives, Many Times"; các ngôn ngữ chưa có bản dịch chính thức giữ tựa tiếng Việt "Muôn kiếp nhân sinh".
+- Muse: id `life-tane-*` thuộc khối books.

@@ -16114,6 +16114,138 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/life-coffee-3/chapter.mp3",
    "durationSec": 264.36
   }
+ },
+ {
+  "id": "life-tane-1",
+  "titles": {
+   "vi": "Người thương nhân trong giấc mơ",
+   "en": "The Merchant in the Dream",
+   "zh-Hans": "梦中的商人",
+   "zh-Hant": "夢中的商人",
+   "ko": "꿈속의 상인",
+   "tl": "Ang Mangangalakal sa Panaginip",
+   "ne": "सपनाको व्यापारी",
+   "id": "Saudagar dalam Mimpi",
+   "pt": "O Mercador do Sonho",
+   "my": "အိပ်မက်ထဲက ကုန်သည်",
+   "th": "พ่อค้าในความฝัน"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 45,
+  "cover": "/covers/life-tane-1.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-tane",
+   "index": 1
+  },
+  "shelf": "book-spirit",
+  "audioTrack": {
+   "src": "/audio/life-tane-1/chapter.mp3",
+   "durationSec": 284.11
+  }
+ },
+ {
+  "id": "life-tane-2",
+  "titles": {
+   "vi": "Cửa hàng sụp đổ",
+   "en": "The Fallen Shop",
+   "zh-Hans": "倒闭的店",
+   "zh-Hant": "倒閉的店",
+   "ko": "무너진 가게",
+   "tl": "Ang Gumuhong Tindahan",
+   "ne": "ढलेको पसल",
+   "id": "Toko yang Runtuh",
+   "pt": "A Loja Arruinada",
+   "my": "ပြိုလဲသွားတဲ့ ဆိုင်",
+   "th": "ร้านที่ล่มสลาย"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 46,
+  "cover": "/covers/life-tane-2.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-tane",
+   "index": 2
+  },
+  "shelf": "book-spirit",
+  "audioTrack": {
+   "src": "/audio/life-tane-2/chapter.mp3",
+   "durationSec": 271.44
+  }
+ },
+ {
+  "id": "life-tane-3",
+  "titles": {
+   "vi": "Lò gốm Shigaraki",
+   "en": "The Shigaraki Kiln",
+   "zh-Hans": "信乐的窑",
+   "zh-Hant": "信樂的窯",
+   "ko": "시가라키의 가마",
+   "tl": "Ang Hurno ng Shigaraki",
+   "ne": "सिगाराकीको भट्टी",
+   "id": "Tungku Shigaraki",
+   "pt": "O Forno de Shigaraki",
+   "my": "ရှီဂါရာကီ မီးဖို",
+   "th": "เตาเผาชิงะรากิ"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 46,
+  "cover": "/covers/life-tane-3.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-tane",
+   "index": 3
+  },
+  "shelf": "book-spirit",
+  "audioTrack": {
+   "src": "/audio/life-tane-3/chapter.mp3",
+   "durationSec": 267.58
+  }
  }
 ];
 
