@@ -62,7 +62,7 @@ export default function WatchClient({
   const lines: TimedLine[] = useMemo(() => video?.lines ?? [], [video]);
   const preview = !!video && !video.free && full.status !== "ready";
   // Mở đúng đoạn học thay vì từ giây 0 (video tự thêm: cả video)
-  const clip = useMemo(() => clipWindow(lines, video?.durationSec ?? 0), [lines, video]);
+  const clip = useMemo(() => clipWindow(lines, video?.durationSec ?? 0, !!video?.episode), [lines, video]);
   const clipRef = useRef(clip);
   useEffect(() => {
     clipRef.current = clip;

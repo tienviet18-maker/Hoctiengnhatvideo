@@ -1845,6 +1845,102 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "lineCount": 28,
   "clipStart": 180,
   "clipEnd": 282
+ },
+ {
+  "id": "anpanman-dokin-chan-and-mr",
+  "youtubeId": "Jbk8JEAr8AE",
+  "titles": {
+   "vi": "Anpanman: Dokin-chan và bác Shouganai (trọn tập)",
+   "en": "Anpanman: Dokin-chan and Mr. Shouganai (full episode)",
+   "zh-Hans": "面包超人：细菌小姐和生姜先生（完整集）",
+   "zh-Hant": "麵包超人：細菌小姐和生薑先生（完整集）",
+   "ko": "호빵맨: 도킨짱과 쇼가나이 씨 (전편)",
+   "tl": "Anpanman: Dokin-chan at Ginoong Shouganai (buong episode)",
+   "ne": "आनपानम्यान: डोकिन-चान र शोगानाई जी (पूरा भाग)",
+   "id": "Anpanman: Dokin-chan dan Pak Shouganai (episode penuh)",
+   "pt": "Anpanman: Dokin-chan e o Sr. Shouganai (episódio completo)",
+   "my": "အန်ပန်မန်း- ဒိုကင်ချန်နဲ့ ရှိုဂါနိုင်း (အပိုင်းအပြည့်)",
+   "th": "อันปังแมน: โดคินจังกับคุณโชงะไน (เต็มตอน)"
+  },
+  "level": "N5",
+  "category": "anime",
+  "durationSec": 637,
+  "free": false,
+  "lineCount": 105,
+  "clipStart": 0,
+  "clipEnd": 607
+ },
+ {
+  "id": "peppa-my-birthday-party-full",
+  "youtubeId": "To5fN_7OHxA",
+  "titles": {
+   "vi": "Peppa Pig: Tiệc sinh nhật của tớ (trọn tập)",
+   "en": "Peppa Pig: My birthday party (full episode)",
+   "zh-Hans": "小猪佩奇：我的生日派对（完整集）",
+   "zh-Hant": "粉紅豬小妹：我的生日派對（完整集）",
+   "ko": "페파 피그: 나의 생일 파티 (전편)",
+   "tl": "Peppa Pig: Ang aking kaarawan (buong episode)",
+   "ne": "पेपा पिग: मेरो जन्मदिन पार्टी (पूरा भाग)",
+   "id": "Peppa Pig: Pesta ulang tahunku (episode penuh)",
+   "pt": "Peppa Pig: Minha festa de aniversário (episódio completo)",
+   "my": "ပက်ပါပစ်ဂ်- ငါ့မွေးနေ့ပွဲ (အပိုင်းအပြည့်)",
+   "th": "เป๊ปป้าพิก: งานวันเกิดของหนู (เต็มตอน)"
+  },
+  "level": "N4",
+  "category": "anime",
+  "durationSec": 307,
+  "free": false,
+  "lineCount": 102,
+  "clipStart": 1,
+  "clipEnd": 284
+ },
+ {
+  "id": "shinchan-moms-lucky-day-full",
+  "youtubeId": "CTISRtOtZDk",
+  "titles": {
+   "vi": "Shin-chan: Một ngày may mắn của mẹ (trọn tập)",
+   "en": "Shin-chan: Mom's lucky day (full episode)",
+   "zh-Hans": "蜡笔小新：妈妈的幸运日（完整集）",
+   "zh-Hant": "蠟筆小新：媽媽的幸運日（完整集）",
+   "ko": "짱구: 엄마의 운수 좋은 날 (전편)",
+   "tl": "Shin-chan: Suwerteng araw ni Nanay (buong episode)",
+   "ne": "शिन-चान: आमाको भाग्यशाली दिन (पूरा भाग)",
+   "id": "Shin-chan: Hari beruntung Ibu (episode penuh)",
+   "pt": "Shin-chan: O dia de sorte da mãe (episódio completo)",
+   "my": "ရှင်ချန်- အမေ့ ကံကောင်းတဲ့နေ့ (အပိုင်းအပြည့်)",
+   "th": "ชินจัง: วันโชคดีของแม่ (เต็มตอน)"
+  },
+  "level": "N4",
+  "category": "anime",
+  "durationSec": 424,
+  "free": false,
+  "lineCount": 84,
+  "clipStart": 0,
+  "clipEnd": 414
+ },
+ {
+  "id": "shinchan-playing-with-a-flashlight",
+  "youtubeId": "POlgNMFomiA",
+  "titles": {
+   "vi": "Shin-chan: Chơi với đèn pin (trọn tập)",
+   "en": "Shin-chan: Playing with a flashlight (full episode)",
+   "zh-Hans": "蜡笔小新：玩手电筒（完整集）",
+   "zh-Hant": "蠟筆小新：玩手電筒（完整集）",
+   "ko": "짱구: 손전등 놀이 (전편)",
+   "tl": "Shin-chan: Laro sa flashlight (buong episode)",
+   "ne": "शिन-चान: टर्चसँग खेल (पूरा भाग)",
+   "id": "Shin-chan: Main senter (episode penuh)",
+   "pt": "Shin-chan: Brincando com a lanterna (episódio completo)",
+   "my": "ရှင်ချန်- ဓာတ်မီးနဲ့ကစား (အပိုင်းအပြည့်)",
+   "th": "ชินจัง: เล่นไฟฉาย (เต็มตอน)"
+  },
+  "level": "N4",
+  "category": "anime",
+  "durationSec": 465,
+  "free": false,
+  "lineCount": 121,
+  "clipStart": 0,
+  "clipEnd": 450
  }
 ];
 

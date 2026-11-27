@@ -78,6 +78,8 @@ export interface VideoContent {
   free: boolean;
   /** 2 = đã đạt chuẩn nội dung v2 (docs/content-standard.md); thiếu = gói cũ */
   standard?: 2;
+  /** Phụ đề trọn tập: phát cả video từ đầu đến cuối (không cắt clip); luật độ dài/khoảng trống clip không áp dụng */
+  episode?: true;
 }
 
 export interface StorySentence extends Sentence {
