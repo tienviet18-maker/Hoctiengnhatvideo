@@ -15594,6 +15594,94 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/life-shiki-4/chapter.mp3",
    "durationSec": 368.23
   }
+ },
+ {
+  "id": "life-ekikyo-1",
+  "titles": {
+   "vi": "Sáu mùa của rồng",
+   "en": "The Dragon's Six Seasons",
+   "zh-Hans": "龙的六个季节",
+   "zh-Hant": "龍的六個季節",
+   "ko": "용의 여섯 계절",
+   "tl": "Ang Anim na Panahon ng Dragon",
+   "ne": "ड्र्यागनका छ ऋतु",
+   "id": "Enam Musim Sang Naga",
+   "pt": "As Seis Estações do Dragão",
+   "my": "နဂါး၏ ရာသီ ခြောက်ပါး",
+   "th": "หกฤดูของมังกร"
+  },
+  "level": "N2",
+  "topic": "philosophy",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 46,
+  "cover": "/covers/life-ekikyo-1.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-ekikyo",
+   "index": 1
+  },
+  "shelf": "book-east",
+  "audioTrack": {
+   "src": "/audio/life-ekikyo-1/chapter.mp3",
+   "durationSec": 375.53
+  }
+ },
+ {
+  "id": "life-ekikyo-2",
+  "titles": {
+   "vi": "Sáu mươi tư quẻ trong ngục",
+   "en": "Sixty-Four Hexagrams in a Prison Cell",
+   "zh-Hans": "牢狱中的六十四卦",
+   "zh-Hant": "牢獄中的六十四卦",
+   "ko": "감옥 속의 64괘",
+   "tl": "Animnapu't Apat na Hexagram sa Bilangguan",
+   "ne": "जेलभित्रका ६४ षड्रेखा",
+   "id": "Enam Puluh Empat Heksagram di Penjara",
+   "pt": "Sessenta e Quatro Hexagramas na Prisão",
+   "my": "ထောင်ထဲက ဟက်ဆာဂရမ် ခြောက်ဆယ့်လေး",
+   "th": "หกสิบสี่ข่วยในคุก"
+  },
+  "level": "N2",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 44,
+  "cover": "/covers/life-ekikyo-2.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-ekikyo",
+   "index": 2
+  },
+  "shelf": "book-east",
+  "audioTrack": {
+   "src": "/audio/life-ekikyo-2/chapter.mp3",
+   "durationSec": 364.34
+  }
  }
 ];
 
