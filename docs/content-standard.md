@@ -100,7 +100,7 @@ không phải mỗi câu một file (iOS có thể dừng giữa hai file khi m�
 
 ## 6d. Kệ
 
-- `shelf`: literature | mystery | ghost | rakugo | folktale-jp | hometown | world | life-series | life.
+- `shelf`: literature | mystery | ghost | rakugo | folktale-jp | hometown | world | wisdom | life-series | life. `wisdom` = kệ Triết lý sống (sách triết lý hết bản quyền kể lại + bài ViMai tự viết; id `life-<tác phẩm>-<n>`; đăng ký bằng `register.mjs --block=wisdom`).
 - Truyện quê hương: `shelf: "hometown"` và `origin` là mã nước gồm 2 chữ in hoa (VN, KR, CN, PH, ID, TH, NP, MM, BR).
 
 ## 7. Bìa và hình ảnh

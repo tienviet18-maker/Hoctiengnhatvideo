@@ -1,0 +1,24 @@
+# miraigo.vimai.jp: bản web tĩnh (next build, output "export" -> out/) + Worker chặn nội dung VIP.
+# Deploy: npm run build && npx wrangler deploy  (docs/deploy.md)
+name = "miraigo"
+main = "worker/index.ts"
+compatibility_date = "2026-11-01"
+workers_dev = true
+routes = [{ pattern = "miraigo.vimai.jp", custom_domain = true }]
+
+[assets]
+directory = "./out"
+binding = "ASSETS"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
+# Các đường này luôn đi qua Worker trước (không trả file tĩnh thẳng).
+run_worker_first = ["/api/*", "/_locked/*", "/__/*"]
+
+[vars]
+FIREBASE_PROJECT_ID = "miraigo-vimai"
+
+# Chỉ đọc bảng web_vip_grants (VIP web bán trên vimai.jp, vimai-ecosystem docs/WEB_VIP.md).
+[[d1_databases]]
+binding = "DB"
+database_name = "vimai-cms"
+database_id = "73aff58e-9876-442c-9816-a2da61f87f1c"

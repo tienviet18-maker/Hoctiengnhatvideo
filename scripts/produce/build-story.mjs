@@ -328,6 +328,8 @@ export async function build(file, { mode } = {}) {
     topic: meta.topic,
     source: meta.source,
     cover: `/covers/${meta.id}.webp`,
+    // Bìa có dòng tên sách theo ngôn ngữ người đọc (cover_book): cover.mjs dựng thêm <id>.<lang>.webp
+    ...(meta.cover_book ? { coverLangs: LANGS } : {}),
     free: meta.free === "true",
     standard: 2,
     ...(meta.series ? { series: { id: meta.series, index: Number(meta.index) } } : {}),
@@ -340,6 +342,10 @@ export async function build(file, { mode } = {}) {
   };
   writeFileSync(join(root, "content/stories", `${meta.id}.json`), JSON.stringify(out, null, 1) + "\n");
   if (out.lesson) execFileSync("node", [join(root, "scripts/lesson-furigana.mjs"), meta.id], { stdio: "inherit" });
+  // Bản dịch kèm (content/translations/<lang>/<id>.tsv, ví dụ tiếng Sinhala) gộp lại sau mỗi lần dựng.
+  for (const lang of existsSync(join(root, "content/translations")) ? readdirSync(join(root, "content/translations")) : [])
+    if (existsSync(join(root, "content/translations", lang, `${meta.id}.tsv`)))
+      execFileSync("node", [join(root, "scripts/i18n/apply.mjs"), lang, meta.id], { stdio: "inherit" });
   console.log(`✓ ${meta.id}: ${sentences.length} câu -> content/stories/${meta.id}.json`);
 }
 

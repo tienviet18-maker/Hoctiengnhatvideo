@@ -4,20 +4,17 @@ import { useMemo } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLang } from "../../../components/LangProvider";
-import Paywall from "../../../components/Paywall";
 import { STORY_INDEX, VIDEO_INDEX } from "../../../lib/catalog.generated";
 import { pickText } from "../../../lib/i18n";
 import { getPath } from "../../../lib/paths";
 import { PROGRESS_KEY, useLocalJson, type Progress } from "../../../lib/store";
-import { useState } from "react";
 
 const STORY_MAP = new Map(STORY_INDEX.map((s) => [s.id, s]));
 const VIDEO_MAP = new Map(VIDEO_INDEX.map((v) => [v.id, v]));
 
 export default function PathClient({ pathId }: { pathId: string }) {
-  const { ui, lang, profile } = useLang();
+  const { ui, lang } = useLang();
   const router = useRouter();
-  const [paywall, setPaywall] = useState(false);
   const progress = useLocalJson<Record<string, Progress>>(PROGRESS_KEY, {});
 
   const path = getPath(pathId);
@@ -49,10 +46,7 @@ export default function PathClient({ pathId }: { pathId: string }) {
   }).length;
 
   const open = (it: (typeof items)[number]) => {
-    if (it.kind === "story" && !it.free && !profile.vip) {
-      setPaywall(true);
-      return;
-    }
+    // Truyện VIP vẫn mở trang đọc: khách đọc thử vài câu rồi mới gặp lời mời VIP (Việt, 26/11/2026)
     router.push(it.kind === "story" ? `/read/${it.id}` : `/watch/${it.id}`);
   };
 
@@ -110,13 +104,12 @@ export default function PathClient({ pathId }: { pathId: string }) {
                 </span>
               </span>
               <span className="lvl">{it.level}</span>
-              {it.free ? <span className="free-badge">{ui.common.free}</span> : <span className="lock-badge">{ui.common.vip}</span>}
+              {it.free && <span className="free-badge">{ui.common.free}</span>}
             </button>
           );
         })}
       </div>
 
-      {paywall && <Paywall onClose={() => setPaywall(false)} />}
     </div>
   );
 }

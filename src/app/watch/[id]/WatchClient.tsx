@@ -9,10 +9,12 @@ import WordPopup from "../../../components/WordPopup";
 import Paywall from "../../../components/Paywall";
 import type { TimedLine, VideoContent, VocabItem } from "../../../lib/content-schema";
 import { pickText } from "../../../lib/i18n";
+import { useDocTitle } from "../../../components/DocTitle";
 import { logActivity, QUEUE_KEY, removeFromQueue, saveProgress, useLocalJson } from "../../../lib/store";
 import { VIDEO_INDEX, formatDuration } from "../../../lib/catalog.generated";
 import { clipWindow } from "../../../lib/clip";
 import { FREE_VIDEO_LINES } from "../../../lib/access";
+import { useFullContent } from "../../../lib/full-content";
 
 interface YTPlayer {
   getCurrentTime(): number;
@@ -22,6 +24,8 @@ interface YTPlayer {
   pauseVideo(): void;
   setPlaybackRate(rate: number): void;
   destroy(): void;
+  unloadModule?(name: string): void;
+  setOption?(module: string, option: string, value: unknown): void;
 }
 interface YTNamespace {
   Player: new (el: HTMLElement, opts: Record<string, unknown>) => YTPlayer;
@@ -42,17 +46,21 @@ function normalize(s: string): string {
 export default function WatchClient({
   videoId,
   youtubeId,
-  video,
+  video: videoProp,
 }: {
   videoId: string;
   youtubeId: string;
-  video: VideoContent | null;
+  /** Video VIP: trang tĩnh chỉ mang 2 câu đầu (`partial`, src/lib/gate.ts) */
+  video: (VideoContent & { partial?: true }) | null;
 }) {
   const { ui, lang, profile } = useLang();
-  const lines: TimedLine[] = useMemo(() => video?.lines ?? [], [video]);
   // Video VIP vẫn phát được; tài khoản thường thấy rõ FREE_VIDEO_LINES câu đầu (ux-plan mục 6).
-  // TODO(Firebase): máy chủ không gửi các câu sau cho tài khoản thường.
-  const preview = !!video && !video.free && !profile.vip;
+  // Máy chủ không gửi các câu sau: tài khoản VIP tải đủ phụ đề qua Worker (/api/content).
+  const full = useFullContent("videos", videoProp, profile.vip);
+  const video = full.item;
+  useDocTitle(video ? pickText(video.titles, lang) : null);
+  const lines: TimedLine[] = useMemo(() => video?.lines ?? [], [video]);
+  const preview = !!video && !video.free && full.status !== "ready";
   // Mở đúng đoạn học thay vì từ giây 0 (video tự thêm: cả video)
   const clip = useMemo(() => clipWindow(lines, video?.durationSec ?? 0, !!video?.episode), [lines, video]);
   const clipRef = useRef(clip);
@@ -102,11 +110,27 @@ export default function WatchClient({
       if (cancelled || !mountRef.current || !window.YT) return;
       playerRef.current = new window.YT.Player(mountRef.current, {
         videoId: youtubeId,
-        playerVars:
-          clipRef.current.end > clipRef.current.start
-            ? { rel: 0, playsinline: 1, start: clipRef.current.start, end: clipRef.current.end }
-            : { rel: 0, playsinline: 1 },
-        events: { onReady: () => setPlayerReady(true) },
+        // cc_load_policy 0 + gỡ module phụ đề: không cho phụ đề của YouTube đè lên phụ đề furigana của app
+        playerVars: {
+          rel: 0,
+          playsinline: 1,
+          cc_load_policy: 0,
+          iv_load_policy: 3,
+          ...(clipRef.current.end > clipRef.current.start
+            ? { start: Math.floor(clipRef.current.start), end: Math.ceil(clipRef.current.end) }
+            : {}),
+        },
+        events: {
+          onReady: () => setPlayerReady(true),
+          onApiChange: (e: { target: YTPlayer }) => {
+            try {
+              e.target.unloadModule?.("captions");
+              e.target.unloadModule?.("cc");
+            } catch {
+              /* bỏ qua */
+            }
+          },
+        },
       });
     };
     if (window.YT?.Player) {
@@ -150,6 +174,18 @@ export default function WatchClient({
       if (!p) return;
       const t = p.getCurrentTime();
       const state = p.getPlayerState();
+      // Clip cắt từ video dài: không cho tua ra ngoài đoạn học, nếu không phụ đề sẽ lệch so với hình
+      if (clip.end > clip.start && (state === 1 || state === 2)) {
+        if (t < clip.start - 0.5) {
+          p.seekTo(clip.start, true);
+          return;
+        }
+        if (t > clip.end + 0.5) {
+          p.seekTo(clip.start, true);
+          p.pauseVideo();
+          return;
+        }
+      }
       if (state === 0 && video && !endedRef.current) {
         endedRef.current = true;
         const q = queueRef.current;
@@ -422,11 +458,17 @@ export default function WatchClient({
               </div>
               <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 10, textAlign: "center" }}>
                 <span style={{ fontSize: 14, fontWeight: 700, color: "#fff" }}>
-                  {ui.vip.previewMore.replace("{n}", String(lines.length - FREE_VIDEO_LINES))}
+                  {full.status === "loading"
+                    ? ui.webvip.loading
+                    : full.status === "error"
+                      ? ui.webvip.loadFailed
+                      : ui.vip.previewMore.replace("{n}", String(lines.length - FREE_VIDEO_LINES))}
                 </span>
-                <button type="button" onClick={() => setPaywall(true)} style={{ height: 44, padding: "0 22px", borderRadius: 10, border: 0, background: "#F5C542", color: "#14213D", fontWeight: 800, fontSize: 14, cursor: "pointer", fontFamily: "inherit" }}>
-                  {ui.vip.unlock}
+                {full.status !== "loading" && (
+                <button type="button" onClick={() => (full.status === "error" ? full.retry() : setPaywall(true))} style={{ height: 44, padding: "0 22px", borderRadius: 10, border: 0, background: "#F5C542", color: "#14213D", fontWeight: 800, fontSize: 14, cursor: "pointer", fontFamily: "inherit" }}>
+                  {full.status === "error" ? ui.webvip.retry : ui.vip.unlock}
                 </button>
+                )}
               </div>
             </div>
           )}

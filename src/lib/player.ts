@@ -25,6 +25,8 @@ export interface PlayerItem {
   total: number;
   /** Ảnh bìa (public/covers/...) cho màn hình khoá; thiếu thì dùng ảnh MiraiGo */
   cover?: string;
+  /** Truyện VIP đang nghe thử: giây dừng phát trong audio cả chương */
+  endAt?: number;
 }
 
 /** off = không hẹn; "end" = dừng khi hết chương; số = mốc thời gian (ms) sẽ dừng */
@@ -118,6 +120,12 @@ function getAudio(): HTMLAudioElement {
     if (typeof state.sleep === "number" && Date.now() >= state.sleep) {
       a.pause();
       set({ sleep: "off", playing: false, time: t });
+      return;
+    }
+    // Truyện VIP đang nghe thử: hết phần thử thì dừng như hết chương (không tự sang chương sau)
+    if (item.track && item.endAt !== undefined && t >= item.endAt) {
+      a.pause();
+      set({ playing: false, finished: true, time: t });
       return;
     }
     if (item.track && stopAt !== null && t >= stopAt) {

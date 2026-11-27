@@ -636,3 +636,588 @@ Thêm truyện N1 để bù kệ N1 sau khi ẩn bài luận cũ. Thạch Lam m�
 - atLevel N1 của tập 3 ban đầu chỉ 3,4%, đã nâng lên 5,4% bằng từ N1 tự nhiên (郷愁, 素朴, 趣, 名残, 傍ら, 惜しむ).
 - Sửa romaji bằng `phrases`: ガーはね → "wa ne", じんわり, 取るに足りない, もう少し, タンさん.
 - Kệ N1 hiện có 6 gói v2 (Hoàng Lê ×3, Thạch Lam ×3).
+
+## Đăng nhập, VIP theo tài khoản, chặn VIP ở máy chủ, deploy Cloudflare — 26/11/2026
+
+Việt giao đấu nối Firebase, Cloudflare và SePay, học theo ViBJT. Bài học từ ViBJT: VIP phải gắn với **tài khoản** chứ không với máy, để người mua VIP trên web cài bản iOS rồi đăng nhập vẫn giữ VIP.
+
+- **Firebase** project `miraigo-vimai` (gói Spark miễn phí, cùng tài khoản với ViBJT). Đăng nhập Google + email/mật khẩu, Apple để bản iOS. Firestore Tokyo, rules ở `firestore.rules` (chỉ chủ tài khoản đọc/ghi `users/{uid}/progress/main`). Cấu hình web công khai ở `src/lib/firebase-config.ts`.
+- **Đăng nhập tuỳ chọn** (`src/lib/account.ts`, `AccountSheet`, `AccountCard` ở tab Tôi): SDK Firebase nạp động nên trang danh sách không nặng thêm. Cảnh báo khi mở trong Facebook/Zalo (chặn đăng nhập Google). Có nút **Xoá tài khoản** (yêu cầu của Apple). `/__/auth/*` chạy trên chính tên miền app như ViBJT.
+- **Đồng bộ tiến độ** (`src/lib/cloud-sync.ts`, `src/lib/sync-merge.ts` + `tests/sync-merge.test.ts`): hồ sơ, thẻ ôn, hoạt động, tiến độ bài, video tự thêm. Gộp không mất dữ liệu; nén gzip để vừa 1 MiB của Firestore.
+- **VIP web** dùng hệ VIP chung trên vimai.jp (vimai-ecosystem `docs/WEB_VIP.md`): chuyển khoản VietQR, SePay báo vimai.jp, VIP ghi vào D1 `vimai-cms` theo uid. Giá Việt chốt 26/11: 159.000đ / 749.000đ / 1.299.000đ (1/6/12 tháng), gạch giá gấp đôi tới hết đợt ra mắt. Không tự gia hạn; mua thêm thì cộng nối hạn. Màn cảm ơn `VipWelcome` khi tiền về. Bản iOS giữ giá yên (IAP, chưa nối).
+- **Chặn VIP ở máy chủ** (ux-plan mục 6): `src/lib/gate.ts` cắt phần VIP khỏi trang tĩnh (video VIP chỉ còn 2 câu đầu, chương VIP không còn câu nào). `scripts/gen-locked.mjs` (postbuild) ghi phần VIP vào `out/_locked/` và tự kiểm không trang nào lộ câu VIP. Worker `worker/index.ts` chặn `/_locked/*`, chỉ trả nội dung qua `/api/content/<kind>/<id>` khi ID token hợp lệ và tài khoản có VIP còn hạn. Đã thử bằng `wrangler dev`: `/_locked` 404, không token 401. `tests/worker.test.ts`.
+- **Deploy**: Next `output: "export"` (bỏ `cacheComponents`/`partialPrefetching`, không chạy được ở chế độ export) + Workers Static Assets, `wrangler.toml`, tên miền `miraigo.vimai.jp`. Video tự thêm đổi từ `/watch/custom-<id>` sang `/watch/custom?v=<id>` (trang tĩnh không có id động). Cách deploy ở `docs/deploy.md`.
+- Còn lại: audio của chương VIP vẫn là file tĩnh công khai (chỉ chữ được chặn); ngữ pháp/câu hỏi của chương miễn phí vẫn chặn phía máy khách. Đưa audio VIP qua Worker khi chuyển audio sang R2.
+
+## Thêm tiếng Sinhala (Sri Lanka) cho giao diện — 26/11/2026
+
+- Việt hỏi đủ ngôn ngữ chưa (có nhắc Sri Lanka): giao diện có 11 thứ tiếng nhưng thiếu Sinhala.
+- Thêm `src/i18n/locales/si.json` (đủ khoá như `en.json`, Claude tự dịch và tự rà), đăng ký `si` trong
+  `LANGUAGE_CODES` và `LANGUAGE_NAMES` ("සිංහල"), thêm câu Sinhala cho 3 câu xếp lớp ở `src/lib/placement.ts`.
+- Bản dịch nội dung truyện/video hiện chỉ có vi/en/id; Sinhala và các tiếng khác đang rơi về tiếng Anh (pickText).
+- `npm run verify` xanh.
+
+## Tiêu đề tab theo ngôn ngữ + lỗi hydrate ở tab Tôi — 26/11/2026
+
+- Tiêu đề tab trình duyệt luôn là tiếng Việt (trang tĩnh xuất sẵn cho SEO). Thêm `src/components/DocTitle.tsx`:
+  khi chọn ngôn ngữ khác tiếng Việt thì đổi tiêu đề trên máy (trang chung theo `app.tagline`, Lộ trình theo
+  `paths.title`, truyện/video theo tên bài qua `useDocTitle`), giữ tiêu đề khi Next ghi lại thẻ `<title>`.
+- Lỗi React #418 ở `/profile` (bản dịch khác vi): `useAccount` trả object mới mỗi lần gọi getServerSnapshot.
+  Sửa bằng hằng `SERVER_STATE` trong `src/lib/account.ts`. Gốc thứ hai: thanh tab nằm trong <Suspense> nên hydrate sau khi ngôn ngữ đã đổi; lần hydrate đầu dùng chữ tiếng Việt cho khớp HTML tĩnh. Đã kiểm bằng Playwright trên bản build (Indonesia): hết lỗi.
+- `npm run verify` xanh.
+
+## Sửa theo góp ý của Việt sau khi xem bản web — 26/11/2026
+
+- Biểu tượng tab trình duyệt là chữ "N" mặc định của Next: thay bằng logo MiraiGo của Việt
+  (`src/app/favicon.ico`, `icon.png`, `apple-icon.png`; logo trang chủ `public/logo-192.png`).
+- Bỏ màn "Kế hoạch của bạn" (chỉ có 2 nút, khách không được chọn): xong onboarding vào thẳng trang chủ.
+- Truyện VIP trước đây bấm vào là bật màn mua ngay, 0 câu. Nay khách đọc và nghe thử 3 câu đầu
+  (`FREE_STORY_SENTENCES` trong `src/lib/access.ts`, `gateStory` trong `src/lib/gate.ts`), trình phát dừng ở cuối
+  câu 3 (`endAt`), phía dưới mờ dần và có nút "Mở khoá VIP". gen-locked kiểm thêm: câu thứ 4 trở đi không có trong trang tĩnh.
+- "Thêm video YouTube của bạn" tạm ẩn: chưa có máy dựng phụ đề tự động, video thêm vào chỉ phát trống.
+- Đăng nhập (học ViBJT): nút "Đăng nhập" ở đầu trang chủ; màn chọn gói VIP nói rõ phải đăng nhập và nút mua
+  mở đăng nhập trước, xong thì sang bước chuyển khoản; tab Tôi hiện tên/email tài khoản thay cho chữ "MiraiGo".
+- Phần video (phụ đề YouTube che hình, tua ra ngoài đoạn cắt) chuyển cho luồng video.
+- `npm run verify` xanh.
+
+## Chưa ra mắt: tắt bán VIP web và chặn lập chỉ mục — 27/11/2026
+
+- Việt 27/11: "data còn đang quá mỏng, không thể tung ra thị trường". SePay qua vimai.jp đã nối thật, nên tắt bán:
+  cờ `PRELAUNCH` trong `src/lib/firebase-config.ts`. Màn VIP vẫn hiện giá nhưng nút mua thành "Sắp mở bán" (khoá).
+- Cùng cờ đó: `robots.txt` chặn mọi máy tìm kiếm và mọi trang có `noindex, nofollow`.
+- Mở bán: đổi `PRELAUNCH = false`, deploy lại.
+
+## Bỏ nhãn VIP trên bìa và danh sách — 27/11/2026
+
+- Việt: không hiện VIP ngay từ ảnh bìa, cho khách đọc thử vài câu rồi mới mời mua. Bỏ nhãn VIP ở bìa truyện
+  (`StoryCover`), ảnh video, danh sách lái xe và lộ trình; chỉ còn nhãn "Miễn phí". Phần đọc thử 3 câu giữ nguyên.
+## Truyện: bìa cho mọi gói, bỏ nhãn VIP trên bìa, cân lại free/VIP — 26/11/2026
+
+Việt xem bản web và đánh giá "chưa đạt": nhiều sách chưa có bìa, truyện VIP bấm vào là bắt mua, nội dung mỏng.
+Kiểm kê lúc bắt đầu: 492 truyện đang hiện; 347 gói cũ của Muse chỉ ~10 câu, chỉ có vi/en, không bìa; N4 chỉ 3/264 truyện miễn phí.
+
+- **Bìa cho cả 347 gói cũ** (`scripts/covers/render-old.mjs`, dữ liệu `content/sources/old-covers/covers.tsv`): kiểu 文庫 đã duyệt,
+  tựa Nhật dọc, một ấn tròn đỏ mang chữ Hán gợi truyện (羅生門 → 門, ごんぎつね → 狐), hoa văn nền đổi theo id, phông đổi theo truyện
+  (26 phông; Mai-chan dùng 6 phông tròn kèm hình Mai). Motif mới `mon`/`monmai` trong `scripts/covers/cover.html`; tựa Nhật dài
+  (10–14 chữ) có cỡ chữ nhỏ hơn. Trường `cover` của gói đổi từ mô tả ảnh sang `/covers/<id>.webp`. Nay 492/492 truyện có bìa.
+- **Bỏ nhãn VIP trên bìa** (`StoryCover`) theo ý Việt: truyện nào cũng mở được, đọc và nghe thử 3 câu rồi mới hiện lời mời VIP.
+  Lộ trình (`PathClient`) cũng mở trang đọc thay vì bật màn mua ngay.
+- **Free/VIP**: gói cũ ngắn (~10 câu) chuyển hết sang miễn phí, vì không đáng thu tiền. VIP chỉ còn các gói chuẩn v2 (30–60 câu,
+  audio liền, bài học, 11 ngôn ngữ), tập 1 mỗi bộ vẫn miễn phí. N4: 204/208 miễn phí, N3 69/119, N2 3/10, N1 2/6.
+- Việc tiếp: sản xuất thật nhiều truyện v2 (truyện cổ thế giới, triết lý sống public domain, truyện Việt, văn học Nhật làm lại bản dài),
+  rồi thay dần gói cũ.
+- `npm run verify` xanh.
+
+## Kệ truyện cổ thế giới: Lọ Lem, Bạch Tuyết bản dài N4 — 27/11/2026
+- 4 truyện v2 mới trên kệ `world` (id tiền tố `world-`, thread truyện cổ thế giới cấp):
+  - `world-cinderella-1` (miễn phí), `world-cinderella-2` (VIP): Lọ Lem theo Perrault 1697.
+  - `world-shirayuki-1` (miễn phí), `world-shirayuki-2` (VIP): Bạch Tuyết theo Grimm 1857. Kết đôi giày sắt nung được làm nhẹ đi: hoàng hậu bỏ trốn.
+- Mỗi truyện 50–56 câu, audio liền 1 file (Aoede kể, thoại Neural2-B/C đổi cao độ theo vai), bài học 4 điểm ngữ pháp + 4 câu hỏi, 10 ngôn ngữ (+ zh-Hant tự sinh), furigana mọi chữ Hán, bìa 文庫 riêng (giày thủy tinh, gương, táo).
+- Gói cũ ~10 câu `cinderella`, `snow-white` ẩn và trỏ sang bản mới qua `content/hidden-stories.json`.
+- Công cụ mới: `scripts/story-src/tr-txt.mjs` (viết bản dịch dạng khối văn bản thay JSON), `scripts/story-src/gloss-add.mjs` (thêm từ vào glossary kệ).
+- Muse/thread khác: chưa có Sinhala cho 4 truyện này; id `world-` do thread truyện cổ thế giới cấp, đừng dùng trùng.
+
+## Mai-chan v2 tập 5–10 (N5), thay 7 tập cũ 8 câu — 27/11/2026
+
+- 6 tập mới, mỗi tập 38–40 câu, 690–760 ký tự, audio liền 2,4–2,6 phút (Aoede kể, Neural2-B/C cho từng nhân vật), bài học 4 điểm ngữ pháp
+  + 4 câu hỏi, 11 ngôn ngữ, furigana mọi chữ Hán, bìa 文庫 riêng (motif `mai05`–`mai10` trong `scripts/covers/cover.html`):
+  05 ころころおにぎり (cơm nắm lăn xuống dốc trong buổi dã ngoại), 06 あいあいがさ (che chung ô, cầu vồng), 07 おかゆとさとう (mẹ ốm,
+  Mai nấu cháo, suýt cho đường), 08 トマトくん (Bin ghét cà chua đến khi tự trồng), 09 タマはどこ？ (đi tìm mèo, bố mắc kẹt trên cây),
+  10 お父さん二号 (tuyết đầu mùa, người tuyết giống bố). Tập 5–10 là VIP (đọc thử 3 câu), tập 1 bộ vẫn miễn phí.
+- Ẩn 7 gói cũ qua `content/hidden-stories.json`: mai-chan-ep03/04/08/11/13/15/17 → maichan-05…10. Lộ trình "Gia đình" đổi
+  mai-chan-ep08-sick-mom → maichan-07.
+- Sửa câu hỏi bài học: trước đây đáp án đúng luôn ở vị trí đầu (app không xáo trộn). Nay xoay vị trí đáp án cho cả tập 1–10.
+- Đăng ký trong khối đánh dấu riêng "làm lại Mai-chan + văn học Nhật" ở `src/lib/content.ts`.
+
+## Kệ mới "Triết lý sống" (wisdom), lô 1 — 27/11/2026
+
+- Việt muốn có sách triết lý đời sống, kiểu "nghĩ giàu làm giàu" hay "nóng giận là bản năng". Các sách đó còn bản quyền nên không dùng. Kệ này chỉ dùng tác phẩm public domain (Epictetus, Lão Tử, sau đó Marcus Aurelius, Seneca, Wattles, James Allen, Samuel Smiles, 学問のすゝめ…) và bài viết gốc của ViMai.
+- Code đã sửa:
+  - Thêm kệ `wisdom` vào `content-schema.ts`, `shelves.ts` (sau `world`; hiện cho người chọn sở thích văn học hoặc đời sống) và tên kệ ở 12 locale.
+  - `register.mjs --block=wisdom` có khối đăng ký riêng trong `content.ts` (khối W).
+  - Thêm motif bìa `chain`, `drop`, `letter`.
+- Lô 1 có 4 chương chuẩn v2:
+  - `life-epictetus-1` (N3, miễn phí) và `life-epictetus-2` (N3, VIP)
+  - `life-roshi-1` (N3, miễn phí)
+  - `life-ikari-1` (N4, miễn phí, truyện gốc)
+- QC từng chương nằm ở `content/stories/life-*.qc.md`.
+- Id có dạng `life-<tác phẩm>-<n>` và chỉ luồng kệ W được cấp.
+- `npm run verify` xanh.
+
+## 2026-11-27 — Xáo đáp án câu hỏi Bài học (branch claude/quiz-shuffle)
+
+- Phát hiện: ở 55/155 gói v2, đáp án đúng luôn nằm ở vị trí A (320/617 câu có answer=0), người học đoán được mà không cần đọc.
+- Sửa: `src/lib/shuffle.ts` (`seededOrder`) xáo thứ tự đáp án cố định theo `story.id` + số câu hỏi, nên lần nào mở lại cũng cùng thứ tự và không lệch khi hydrate. `LessonPanel.tsx` hiển thị theo thứ tự đã xáo; chữ A/B/C theo vị trí hiển thị, còn chấm điểm và furigana vẫn theo chỉ số gốc. Dữ liệu nội dung không đổi.
+- Test: `tests/shuffle.test.ts`.
+## Kệ ma & trinh thám — lô 1 (truyện ma 小泉八雲) — 26/11/2026
+
+Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma (`shelf: ghost`) và trinh thám (`shelf: mystery`), id `mystery-<tác phẩm>-<n>`.
+
+- **Bản quyền**: 小泉八雲 (mất 1904), Conan Doyle (mất 1930) hết bản quyền mọi nơi; 江戸川乱歩 (mất 1965) hết ở Nhật, ở Mỹ chỉ dùng tác phẩm in trước 1931 (二銭銅貨 1923, D坂 1925, 心理試験 1925…); không dùng 怪人二十面相 (1936). Truyện tiếng Anh do Claude tự kể lại bằng tiếng Nhật, không dùng bản dịch nào.
+- **3 gói v2**: `mystery-hoichi-1/2` (耳なし芳一, N3, tập 1 miễn phí), `mystery-mujina-1` (むじな, N4, miễn phí). Mỗi gói 45–56 câu, audio liền 4–6 phút, 11 ngôn ngữ, bài học, `.qc.md`.
+- **Gói cũ bị thay**: `miminashi-hoichi`, `mujina` (~10 câu) ẩn qua `content/hidden-stories.json`, trỏ sang bản mới.
+- **Công cụ**: `scripts/produce/register.mjs --block=ma` đăng ký vào khối riêng `kệ ma & trinh thám` trong `src/lib/content.ts`, không đụng khối A/E. Motif bìa mới trong `scripts/produce/cover.html`: `biwa`, `lens`, `coin`, `noface`.
+- Tiếp: シャーロック・ホームズ「赤毛組合」(N3), 乱歩「二銭銅貨」(N2), ろくろ首, 食人鬼, 茶碗の中, 青いガーネット, D坂の殺人事件, 心理試験.
+
+## Tiếng Sinhala (si) cho truyện v2, đợt 1: 24 gói tập 1 / miễn phí — 27/11/2026 (nhánh `claude/si-stories-free`)
+
+- **Cách lưu bản dịch (sidecar):** mỗi gói có file `content/translations/si/<id>.tsv`, gồm tên truyện, câu dịch, ghi chú ngữ pháp, nghĩa từ vựng, điểm ngữ pháp và lời giải câu hỏi. Nghĩa từ vựng dùng chung cho cả kho, nên mỗi nghĩa tiếng Anh chỉ dịch một lần. `node scripts/i18n/apply.mjs si` gộp bản dịch vào JSON của gói. Dòng `#@src` lưu dấu vân tay của gói gốc: nếu gói bị dựng lại, câu bị xê dịch thì QC báo lỗi, không để lệch câu.
+- `scripts/story-src/build.mjs` và `scripts/produce/build-story.mjs` tự áp lại sidecar sau khi dựng gói, nên dựng lại không làm mất bản dịch. `npm run qc` thêm bước `apply.mjs si --check`.
+- **24 gói đã dịch:** maichan-01–04, botchan-1, budori-1, rakugo-toki-soba, rakugo-shinigami-1, osaka-hataraku-01, hanshichi-ofumi-1, hanshichi-yukidaruma-1, madara-1, jigokuhen-1, mukashi-momotaro-1, mukashi-urashima-1, mukashi-yuki-onna-1, mukashi-shuten-1, mukashi-ushiwaka-1, mukashi-anju-zushio-1, furusato-vn-tamcam-1, furusato-vn-quynh-1, furusato-vn-hoangle-1, furusato-vn-kieu-1, furusato-vn-thachlam-1.
+- **Văn phong:** truyện thiếu nhi (Mai-chan) dùng khẩu ngữ. Phần kể của văn học, lịch sử N1–N2 dùng văn viết, lời thoại giữ khẩu ngữ. Ghi chú ngữ pháp giữ nguyên đoạn tiếng Nhật, chỉ dịch phần giải thích. Tên riêng được phiên âm thống nhất (ví dụ ත්‍රින් = Trịnh, ක්වාං චුං = Quang Trung).
+- **Lỗi nguồn phát hiện (chưa sửa, vùng nội dung):** `furusato-vn-quynh-1` câu 37: ghi chú tiếng Anh ghi `〜はじめる = start to`, nhưng câu dùng 煮つづける. Bản si dịch đúng theo 〜つづける.
+- `npm run verify` xanh: 712 gói, 0 lỗi; sidecar si 24 gói, 0 lỗi; build OK.
+- **Còn lại:** khoảng 121 gói v2 khác, cộng 4 gói world- mới (world-cinderella-1/2, world-shirayuki-1/2), Mai-chan v2 tập 5–10 và kệ wisdom. Sau đó rà các ngôn ngữ khác còn thiếu trong các gói này.
+
+## Tiếng Sinhala đợt 2a: 4 truyện cổ thế giới + sidecar không chặn luồng khác — 27/11/2026 (nhánh `claude/si-stories-2`)
+
+- Dịch tiếng Sinhala 4 gói: world-cinderella-1, world-cinderella-2, world-shirayuki-1, world-shirayuki-2 (luồng kệ thế giới nhờ).
+- **Đổi cách kiểm sidecar:** dòng `#@src` (dấu vân tay cả gói) được thay bằng `#@h`, lưu băm tiếng Anh của **từng ô**. Trước đây, nếu một luồng khác sửa câu hay thêm câu vào gói đã dịch thì cổng `npm run verify` của luồng đó sẽ đỏ. Giờ ô nào đổi thì bản si cũ của ô đó bị bỏ, app tự hiện tiếng Anh, và QC chỉ **cảnh báo**, không chặn. `extract.mjs` in các ô đổi kèm bản cũ để dịch lại; dịch xong thì chạy `apply.mjs si <id> --rehash`. Đã thử: sửa 1 câu và thêm 1 câu thì ra cảnh báo 3 ô, cổng vẫn xanh.
+
+## Văn học Nhật v2: ごんぎつね 2 tập (N4), thay gói cũ 13 câu — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch1`. Nguồn mới ở `content/sources/bungaku/` (glossary riêng, chép từ Mai-chan + từ N4).
+- `gongitsune-1` (54 câu, 1.212 ký tự, harder 11,9%, audio 3,9 phút) và `gongitsune-2` (48 câu, 1.230 ký tự, harder 9,9%, audio 3,8 phút).
+  Phỏng theo 新美南吉 (mất 1943, xuất bản 1932; public domain ở Nhật, và ở Mỹ vì tác giả mất trước 1946 nên không bị URAA phục hồi). Giữ hai câu kết gốc.
+- Tên riêng viết katakana (ヒョウジュウ, カスケ) để chỉ số độ khó không đếm 兵/助 là N3; tập 1 miễn phí, tập 2 VIP.
+- Giọng: Aoede kể chuyện; ごん Neural2-C cao giọng, ヒョウジュウ/カスケ/いわし屋 Neural2-C các cao độ khác nhau.
+- Bìa: motif mới `gon1` (ban ngày) và `gon2` (đêm trăng, khói súng) trong `scripts/covers/cover.html`, font Shippori Mincho B1.
+- Bài học 4 điểm ngữ pháp + 5 câu hỏi mỗi tập, vị trí đáp án đúng xoay vòng.
+- Ẩn gói cũ `gongitsune` → `gongitsune-1` qua `content/hidden-stories.json`. Đăng ký trong khối "làm lại Mai-chan + văn học Nhật".
+- `npm run verify` xanh.
+
+## Kệ ma & trinh thám — lô 2 (Sherlock Holmes「赤毛組合」) — 26/11/2026
+
+- Lô 1 (PR #62: `mystery-hoichi-1/2`, `mystery-mujina-1`) đã gộp vào main.
+- Thêm `mystery-akagami-1` (N3, 55 câu, 6:07, miễn phí) và `mystery-akagami-2` (N3, 52 câu, 5:11, VIP): bản kể lại tiếng Nhật dễ của "The Red-Headed League" (Doyle 1891, public domain). Chi tiết ở `content/stories/mystery-akagami-*.qc.md`.
+- `register.mjs`: gộp với cơ chế `--block` của luồng Triết lý sống; thêm khóa `ma` → khối "kệ ma & trinh thám".
+- ID đã cấp cho kệ này (để luồng khác không trùng): `mystery-hoichi-*`, `mystery-mujina-*`, `mystery-akagami-*`; sắp tới `mystery-nisen-*` (二銭銅貨), `mystery-rokuro-*`, `mystery-chawan-*`, `mystery-garnet-*`, `mystery-dzaka-*`, `mystery-shinri-*`.
+## Kệ truyện cổ thế giới đợt 2: Hansel & Gretel, Cô bé quàng khăn đỏ — 27/11/2026
+- `world-hansel-1` (miễn phí), `world-hansel-2` (VIP): Hansel & Gretel theo Grimm 1857, N4, 53–54 câu mỗi tập. Kết bỏ chi tiết mẹ kế chết, chỉ nói bà không còn ở nhà.
+- `world-akazukin` (N5, miễn phí): Cô bé quàng khăn đỏ theo Grimm (thợ săn cứu, nhét đá vào bụng sói), 44 câu, cho người mới bắt đầu (kệ N5 đang thiếu).
+- Gói cũ `hansel-and-gretel`, `akazukin` ẩn, trỏ sang bản mới.
+- Bìa mới: nhà bánh kẹo, lò nướng, cô bé mũ đỏ (motif `candyhouse`, `oven`, `redhood` trong `scripts/covers/cover.html`).
+- `scripts/story-src/build.mjs`: romaji こんにちは → konnichiwa, こんばんは → konbanwa (trước đây ra "konnichiha"). Chỉ ảnh hưởng truyện dựng lại sau này.
+- Glossary kệ `world` thêm ~50 từ cơ bản N5/N4 để truyện N5 có đủ nghĩa từ vựng.
+
+## Tiếng Sinhala đợt 2b: 5 gói — 27/11/2026 (nhánh `claude/si-stories-3`)
+
+- Đã dịch: mukashi-momotaro-2, mukashi-urashima-2, world-akazukin, world-hansel-1, world-hansel-2.
+- **Lỗi nguồn (chưa sửa, vùng glossary):** từ はさみ trong `world-akazukin` (câu 37, nghĩa là cái kéo) đang mang nghĩa glossary "pincer (はさみうち: attack from both sides)". Bản si ghi "කතුර (kéo), අඬුව (càng)". Nên sửa nghĩa en trong glossary thành "scissors".
+
+## Kệ truyện cổ thế giới: Nhạc sĩ thành Bremen — 27/11/2026
+- `world-bremen` (N5, miễn phí, 42 câu) theo Grimm 1857; gói cũ `bremen-musicians` ẩn, trỏ sang bản mới. Bìa motif `bremen`.
+- Sửa glossary kệ world: はさみ = cái kéo (trước bị gán nghĩa はさみうち), thread Sinhala báo.
+
+## Kệ truyện cổ thế giới đợt 3: Nàng tiên cá, Jack và cây đậu thần — 27/11/2026
+- `world-ningyo-1` (N3, miễn phí, 51 câu) và `world-ningyo-2` (N3, VIP, 56 câu): Andersen 1837, giữ đúng kết thúc gốc (thành con gái của không trung), không theo phim hoạt hình. Gói cũ `ningyo-hime` và `the-little-mermaid` ẩn, trỏ sang tập 1.
+- `world-jack` (N3, VIP, 51 câu): bản Joseph Jacobs 1890 (túi vàng, gà đẻ trứng vàng, đàn hạc biết hát). Gói cũ `jack-and-the-beanstalk` ẩn, trỏ sang bản mới. Viết ban đầu cho N4 nhưng từ khoá 豆/牛/金 đẩy tỉ lệ từ khó lên 32%, nên xếp N3 (3,7%).
+- Bìa: motif mới `mermaid`, `seafoam`, `beanstalk` trong scripts/covers/cover.html. Glossary kệ world thêm 9 từ (交換, いびき, たてごと, おの…).
+## Kệ truyện cổ thế giới đợt 4: Mèo đi hia, Rapunzel, Aladdin 2 tập — 27/11/2026
+- `world-nagagutsu` (N3, VIP, 49 câu, Perrault 1697, cờ FR). Gói cũ `puss-in-boots` ẩn, trỏ sang bản mới.
+- `world-rapunzel` (N3, VIP, 50 câu, Grimm 1857, cờ DE). Gói cũ `rapunzel` ẩn, trỏ sang bản mới.
+- `world-aladdin-1` (N3, miễn phí, 48 câu) và `world-aladdin-2` (N3, VIP, 49 câu): series `world-aladdin`, theo bản Galland/Nghìn lẻ một đêm (không gắn cờ quốc gia). Chưa có gói Aladdin cũ.
+- Cả bốn viết nhắm N4 nhưng từ khoá (宝石, 魔法使い, 侯爵…) vượt ngưỡng từ khó, nên xếp N3 (harder 3–9%).
+- build.mjs: thêm ROMAJI_FIX cho じつは, あっという間, 本当は, ラプンツェル. Bìa: motif mới `pussboots`, `tower`, `lamp`, `palace`. Glossary world thêm 息子, 侯爵, 馬車, 粉屋, 働き, はめる, ワイン…
+
+## Kệ truyện cổ thế giới đợt 6: Vasilisa (Nga), Khỉ và cá sấu (Ấn Độ), Pinocchio (Ý) — 27/11/2026
+- `world-vasilisa-1` (miễn phí, 47 câu) và `world-vasilisa-2` (VIP, 47 câu), N3, series `world-vasilisa`, truyện dân gian Nga trong tuyển tập Afanasyev (cờ RU). Chưa có gói cũ.
+- `world-saru-wani` (VIP, 46 câu), N3, Panchatantra (cờ IN). Bản nháp N4 vượt ngưỡng từ khó (実, 心臓, 岸 là N3) nên xếp N3.
+- `world-pinocchio-1` (miễn phí, 48 câu) và `world-pinocchio-2` (VIP, 47 câu), N3, series `world-pinocchio`, theo nguyên tác Collodi 1883 (cờ IT; cá mập, không phải cá voi). Gói cũ `pinocchio` (N5) ẩn, trỏ sang tập 1.
+- Truyện châu Á (Trung, Hàn, Việt...) thuộc kệ `furusato-*` nên kệ thế giới không làm trùng.
+- build.mjs: thêm ROMAJI_FIX cho 土から, 土に, けしの実, 夜の森, 木の下, 元の. Bìa: motif mới `chickenhut`, `skulllamp`, `sarucroc`, `nosewood`, `sharkbelly`. Glossary world thêm たまらない, 変える, てっぺん, 決して, めちゃくちゃ, くしゃみ, マスク.
+
+## Kệ truyện cổ thế giới đợt 5: Ali Baba, Người đẹp và quái vật, Bà chúa tuyết (mỗi truyện 2 tập) — 27/11/2026
+- `world-alibaba-1` (miễn phí, 47 câu) và `world-alibaba-2` (VIP, 48 câu), N3, series `world-alibaba`, theo Nghìn lẻ một đêm (không gắn cờ). Chưa có gói Ali Baba cũ.
+- `world-bijo-1` (miễn phí, 56 câu) và `world-bijo-2` (VIP, 49 câu), N3, series `world-bijo`, theo bản Beaumont 1756 (cờ FR). Bản nháp N4 vượt ngưỡng từ khó (野獣 tính là từ khó, harder 18–20%) nên xếp N3. Chưa có gói cũ.
+- `world-yukinojoo-1` (miễn phí, 47 câu) và `world-yukinojoo-2` (VIP, 48 câu), N3, series `world-yukinojoo`, Andersen 1844 (cờ DK). Gói cũ `the-snow-queen` (8 câu) ẩn, trỏ sang tập 1.
+- Bìa: motif mới `sesame`, `jars`, `rose`, `rosebloom`, `snowsled`, `icepalace`. Glossary world thêm くっつく, チョーク, 積む, 泊める, 注ぐ, がっかり, みっともない, こぼす.
+- Romaji: sửa qua `phrases` (アリババ, かけら, なみだ, 塀…) và viết lại các câu bị đọc "hai".
+
+## Văn học Nhật v2: 手袋を買いに 2 tập (N4), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch2`. `tebukuro-1` (55 câu, 1.360 ký tự, harder 7,0%, audio 4,4 phút) và `tebukuro-2` (54 câu, 1.390 ký tự, harder 12,0%, audio 4,5 phút).
+- Phỏng theo 新美南吉 (mất 1943, xuất bản 1943; public domain ở Nhật, và ở Mỹ vì tác giả mất trước 1946). Giữ câu kết gốc 「ほんとうに人間はいいものかしら」.
+- Giọng: Aoede kể; 子ぎつね Neural2-B cao, 母さんぎつね Neural2-B trầm, ぼうし屋 Neural2-C, mẹ con nhà người Neural2-B.
+- Bìa: motif `teb1`/`teb2` (đêm tuyết, đèn phố, găng đỏ). Tập 1 miễn phí.
+- Ẩn gói cũ `tebukuro-o-kai-ni` → `tebukuro-1`. `npm run verify` xanh.
+
+## Kệ ma & trinh thám — lô 3 (江戸川乱歩「二銭銅貨」) — 27/11/2026
+
+- Nhánh `claude/shelf-mystery-ranpo`. Lô 2 (PR #68, `mystery-akagami-1/2`) đã gộp.
+- Thêm `mystery-nisen-1` (miễn phí), `mystery-nisen-2`, `mystery-nisen-3` (VIP): N2, 52/49/60 câu, audio 6:10 / 5:38 / 7:39. Viết lại tiếng Nhật N2 theo Aozora card56647. Ranpo mất 1965 nên tác phẩm đã PD ở Nhật; in năm 1923 nên cũng PD ở Mỹ.
+- Giữ nguyên mật mã gốc: 南無阿弥陀仏 → chữ nổi → thông điệp katakana chính tả cũ. Đọc mỗi chữ thứ 9 ra ゴジヤウダン, đúng như bản gốc. Chi tiết ở `content/stories/mystery-nisen-*.qc.md`.
+- Thêm motif bìa `coin` (đã có trong `scripts/produce/cover.html` từ lô 1).
+- ID kệ còn giữ chỗ: `mystery-rokuro-*`, `mystery-chawan-*`, `mystery-garnet-*`, `mystery-dzaka-*`, `mystery-shinri-*`.
+## Văn học Nhật v2: 蜘蛛の糸 (N3), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch3`. `kumonoito-1` (59 câu, 1.608 ký tự, harder 5,5% so với N3, audio 5,3 phút), một tập, miễn phí.
+- Phỏng theo 芥川龍之介 (mất 1927, xuất bản 1918; public domain ở Nhật và Mỹ). Giữ cảnh kết gốc (hoa sen không bận tâm, gần trưa). Xếp N3 vì 地獄/天国 và văn phong; bản N4 vượt ngưỡng từ khó.
+- Giọng: Aoede kể, カンダタ Neural2-C trầm. Bìa motif `kumo` (vùng tranh hẹp hơn để chừa chỗ tên tác giả dài).
+- Ẩn gói cũ `kumo-no-ito` → `kumonoito-1`. `npm run verify` xanh.
+
+## Tiếng Sinhala đợt 3: hết kệ Mukashi + Bremen — 27/11/2026 (nhánh `claude/si-stories-4`)
+
+- Đã dịch 17 gói: world-bremen; mukashi-kasajizo, mukashi-kintaro, mukashi-shitakiri, mukashi-hanasaka, mukashi-issun-1/2, mukashi-kaguya-1/2/3, mukashi-tsuru-1/2, mukashi-anju-zushio-2, mukashi-shuten-2, mukashi-ushiwaka-2, mukashi-yuki-onna-2. Thêm dòng `V scissors` cho world-akazukin và băm lại sau khi glossary sửa はさみ.
+- Kệ Mukashi giờ đủ si cho mọi tập. Tên riêng giữ thống nhất với tập 1 (රයිකෝ, කින්තොකි, අන්ජු/සුෂියෝ, සන්ෂෝ දායූ, ඔයුකි/මිනොකිචි, උෂිවකා/බෙන්කේ).
+- **Lỗi nguồn (chưa sửa, vùng nội dung):** một số ô "giải thích" của câu hỏi chỉ lặp lại câu hỏi bằng tiếng Anh thay vì đưa đáp án: mukashi-kasajizo (4 ô), mukashi-kintaro (4 ô), hanshichi-yukidaruma-1 (1 ô), rakugo-sokotsu-nagaya (1 ô). Bản si dịch đúng như nguồn; luồng sở hữu nên viết lại thành đáp án.
+- **Lệch số câu nhỏ:** nhiều lời giải câu hỏi ghi "câu N" lệch 1 so với số thứ tự hiển thị (vd. mukashi-hanasaka Q0 ghi câu 10, đáp án nằm ở câu 9 tính từ 0). Không ảnh hưởng người dùng nhiều, ghi lại để luồng sở hữu rà.
+- `npm run verify` xanh: 726 gói, 0 lỗi; sidecar si 49 gói, 0 lỗi; build OK.
+
+## Tiếng Sinhala đợt 4: Nàng tiên cá, Jack, Mai-chan 5–10, Gongitsune, Tebukuro, Kumonoito — 27/11/2026 (nhánh `claude/si-stories-5`)
+
+- Đã dịch 14 gói: world-ningyo-1/2, world-jack (luồng truyện thế giới nhờ sau PR #73); maichan-05 → maichan-10; gongitsune-1/2; tebukuro-1/2; kumonoito-1.
+- Tên riêng thống nhất: මායි-චන්, බින්-කුන්, යුකි-චන්; ගොන්, හියෝජූ, කසුකෙ; ජැක්; කන්දත. Truyện thiếu nhi dùng giọng nói thường ngày; dòng kết Tebukuro giữ lặp hai lần như bản gốc.
+- Dòng mẫu câu (P) chỉ ghi nghĩa, không chép lại tiếng Nhật.
+- Sau đợt này: 63 gói có si. Còn lại: Botchan 2–6, Budori 2–4, Furusato, Rakugo, Osaka 02–08, Kumonoito 2, các gói chumon-1/2 mới và những gói world- tiếp theo.
+
+## Tiếng Sinhala đợt 19: 4 gói Đắc nhân tâm — 27/11/2026 (nhánh `claude/si-stories-20`)
+
+- Thêm sidecar tiếng Sinhala cho `life-dacnhan-1..4` (truyện quán ramen của Yōta, cảm hứng từ «Đắc nhân tâm»).
+- Tên riêng nhất quán: යෝතා, ලින්, යුයි, ගෙන්-සාන්, සාතෝ මහත්තයා, සකමොතෝ නෝනා; 店長 = මැනේජර්, 大将 = ලොක්කා.
+- `apply.mjs si`: 4 gói, 0 lỗi. Kiểm tra khoảng trống sau khi gộp main: 0 gói đang hiện thiếu si (242 sidecar).
+
+## Tiếng Sinhala đợt 18: 7 gói Triết lý sống mới — 27/11/2026 (nhánh `claude/si-stories-19`)
+
+- Thêm sidecar tiếng Sinhala cho `life-allen-3`, `life-epictetus-3`, `life-gakumon-3`, `life-ikari-4`, `life-marcus-3`, `life-seneca-4`, `life-yukkuri-4`.
+- Giữ tên riêng và thuật ngữ nhất quán với các tập trước (නෝරා, එපික්ටීටස්, මිසාකි, මාකස්, ලුසිලියස්, කෙන්ජි; 陛下 = දේවයන් වහන්ස; tác phẩm của Fukuzawa = "ඉගෙනීමට දිරිගැන්වීමක්"). Q giữ nguyên số "වාක්‍යය N" theo bản tiếng Anh.
+- `apply.mjs si`: 7 gói, 0 lỗi. Kiểm tra khoảng trống sau khi gộp main: còn 4 gói `life-dacnhan-1..4` mới lên, làm ở đợt 19.
+
+## Tiếng Sinhala đợt 17: 3 gói quê hương Việt Nam mới — 27/11/2026 (nhánh `claude/si-stories-18`)
+
+- Thêm sidecar tiếng Sinhala cho 3 gói N2 vừa vào main qua PR #106: `furusato-vn-chipheo` (Chí Phèo), `furusato-vn-tatden-1`, `furusato-vn-tatden-2` (Tắt đèn).
+- Tên riêng phiên âm Sinhala nhất quán (නම් කාඕ, චී ෆේඕ, ගෝ තත් තෝ, චි සව්...); lời thoại giữ sắc thái (quan lại xưng උඹ/පන්, chị Dậu đổi từ khiêm nhường sang ngang hàng khi phản kháng).
+- `apply.mjs si`: 3 gói, 0 lỗi. Kiểm tra khoảng trống sau khi gộp main: còn 7 gói Triết lý sống mới (life-*-3/4) chưa có si, làm ở đợt 18.
+
+## Tiếng Sinhala đợt 16: kệ Triết lý sống — 27/11/2026 (nhánh `claude/si-stories-17`)
+
+- Thêm 27 sidecar `content/translations/si/`: `life-allen-1..2`, `life-bushido-1..2`, `life-epictetus-1..2`, `life-gakumon-1..2`, `life-ikari-1..3`, `life-marcus-1..2`, `life-rongo-1..2`, `life-roshi-1`, `life-seneca-1..3`, `life-smiles-1..3`, `life-wattles-1..2`, `life-yukkuri-1..3`. Việt duyệt làm tiếp phần kệ của luồng khác (27/11).
+- Dịch trong phiên, tự rà: giữ nguyên tiếng Nhật trong G/P, ví dụ đời sống trong P có nghĩa tiếng Sinhala, số câu trong Q giữ như bản tiếng Anh. Tên riêng phiên âm nhất quán (මාකස්, සෙනෙකා, ලුසිලියස්, කොන්ෆියුසියස්, ලාඕත්සු, ෆුකුසාවා යුකිචි...).
+- Rà lại sau khi gộp main: mọi gói v2 đang hiện trên main (228 gói) đã có tiếng Sinhala. `apply.mjs` báo 0 lỗi cho từng gói.
+
+## Tiếng Sinhala đợt 15: kệ Ma – trinh thám — 27/11/2026 (nhánh `claude/si-stories-16`)
+
+- Thêm 8 sidecar `content/translations/si/`: `mystery-mujina-1`, `mystery-hoichi-1`, `mystery-hoichi-2`, `mystery-akagami-1`, `mystery-akagami-2`, `mystery-nisen-1`, `mystery-nisen-2`, `mystery-nisen-3`. Việt duyệt làm tiếp phần kệ của luồng khác (27/11).
+- Chỉ thêm file sidecar, không sửa JSON gốc. Ví dụ đời sống trong P được dịch đầy đủ; số câu trong Q giữ nguyên như bản tiếng Anh.
+- `apply.mjs` báo 0 lỗi cho từng gói. Còn lại 22 gói kệ Triết lý sống (đợt 16).
+
+## Tiếng Sinhala đợt 14: truyện quê hương (phần 2 + 5 gói PR #94) — 27/11/2026 (nhánh `claude/si-stories-15`)
+
+- Thêm 19 sidecar `content/translations/si/`: phần còn lại kệ Việt Nam (Số Đỏ 1–4, Sọ Dừa, Sơn Tinh Thủy Tinh, Táo Quân, Thạch Sanh 1–3, Tích Chu, Trầu Cau, Từ Thức, Vú Sữa) và 5 gói mới từ PR #94 (`furusato-vn-laohac`, `furusato-vn-vongphu-1`, `furusato-vn-tranglon-1`, `furusato-cn-liangzhu-1`, `furusato-kr-tokki-1`).
+- Dịch trong phiên, tự rà: giữ nguyên mẫu ngữ pháp tiếng Nhật trong G/Q, tên riêng Việt/Trung/Hàn phiên âm nhất quán với các đợt trước.
+- Sau đợt này, mọi gói `furusato-*` trên main đều có tiếng Sinhala. `apply.mjs` báo 0 lỗi cho từng gói.
+
+## Tiếng Sinhala đợt 13: truyện quê hương Việt Nam (phần 1) — 27/11/2026 (nhánh `claude/si-stories-14`)
+
+- Thêm sidecar `content/translations/si/` cho 14 gói kệ quê hương Việt Nam: furusato-vn-babe-1, vn-banhchung-1, vn-caytre-1, vn-chudongtu-1, vn-coc-1, vn-cuoi-1, vn-giong-1, vn-hoguom-1, vn-khe-1, vn-maiantiem-1, vn-mychau-1, vn-neu-1, vn-oc-1, vn-rongtien-1. Tổng sidecar si: 174.
+- Claude tự dịch trong phiên (không dùng API trả phí), giọng kể dân gian tự nhiên; tên riêng Việt phiên âm theo cách đọc (හුං රජු, ලේ ලොයි, මී චාඋ, අව් කෝ...); thuật ngữ Phật giáo theo cách người Sri Lanka dùng (බුදුරජාණන් වහන්සේ, සිවුර).
+- Mỗi gói `apply.mjs` báo 0 lỗi; câu ngữ pháp điền chỗ trống giữ nguyên mẫu tiếng Nhật.
+- Còn lại kệ Việt Nam (sodo, sodua, sontinh, taoquan, thachsanh, tichchu, traucau, tuthuc, vusua) và 5 gói mới từ PR #94 làm ở đợt 14.
+
+## Tiếng Sinhala đợt 12: truyện quê hương các nước — 27/11/2026 (nhánh `claude/si-stories-13`)
+
+- Đã dịch 31 gói furusato không phải Việt Nam: Brazil (curupira, iara, saci), Trung Quốc (baishe, change, niulang, saiyuki-1/2/3), Indonesia (bawang, kancil, malin, sangkuriang, timun, toba), Hàn (heungbu, hokburi, kongjwi, onui, simcheong), Myanmar (kyaiktiyo, mahagiri), Nepal (indra, manjushri), Philippines (juan, magayon, malakas, pagong, pinya), Thái (aphai, sangthong).
+- Lời kể khẩu ngữ như các gói world-/furusato trước. Thuật ngữ Phật giáo theo cách người Sri Lanka quen dùng: බුදුරජාණන් වහන්සේ, බෝසතාණන් වහන්සේ (Manjushri), චෛත්‍යය, පාරිජාත, ඉන්ද්‍ර දෙවියා. Dokkaebi để phiên âm දොක්කේබි; oni dịch ඔනි යක්ෂයා; yamanba dịch "කඳු යක්ෂණිය".
+- Câu Q dạng điền chỗ trống (kongjwi, onui, simcheong, malakas, pinya) chỉ dịch phần giải thích, giữ nguyên mẫu ngữ pháp tiếng Nhật.
+- Sau đợt này: 160 gói có si. Còn lại các gói furusato-vn (~33) cho đợt sau.
+
+## Tiếng Sinhala đợt 11: truyện thế giới đợt 6 — 27/11/2026 (nhánh `claude/si-stories-12`)
+
+- Đã dịch 5 gói từ PR #88: world-vasilisa-1/2, world-saru-wani, world-pinocchio-1/2.
+- Lời kể khẩu ngữ như các gói world- trước. Tên: වසිලීසා, බාබා යාගා; වඳුරා සහ කිඹුලා (truyện Jataka quen thuộc với người Sri Lanka); පිනෝකියෝ, ජෙපෙටෝ, රොමියෝ, සුරංගනාවිය.
+- Tục ngữ Nga 「朝は夜よりかしこい」 dịch thống nhất "උදේ, රෑට වඩා බුද්ධිමත්" ở cả hai tập.
+- Sau đợt này: 129 gói có si.
+
+## Tiếng Sinhala đợt 10: văn học Nhật + tập tiếp truyện Việt — 27/11/2026 (nhánh `claude/si-stories-11`)
+
+- Đã dịch 15 gói: mikan-1, torokko-1, toshishun-1/2; furusato-vn-tamcam-2/3, kieu-2/3/4, quynh-2/3, hoangle-2/3, thachlam-2/3.
+- Văn học cổ điển (Akutagawa) và Hoàng Lê dùng lời kể văn viết (සිටියේය/විය), lời thoại khẩu ngữ; Kiều, Tấm Cám, Trạng Quỳnh kể khẩu ngữ như tập 1. Thạch Lam: lời kể văn viết, thoại khẩu ngữ (khớp tập 1).
+- Tên khớp tập 1 của từng series: Kiều (කියෙව්, කිම්, වාන්, තූ බා, හොවාන් තු, තු හායි, ශාක් යුයෙන්), Hoàng Lê (ක්වාං චුං, ඉන්ගෝ ති ඤාම්, සුන් ෂියී, තාං ලොං, ඉන්ගොක් හොයි, දොං දා), Quỳnh (ක්වින්, ත්‍රින් ස්වාමියා).
+- Chơi chữ 地竜 (con giun = "rồng đất") giữ chữ Hán rồi giải thích. "Trao duyên" để kèm phiên âm ත්‍රාඕ යුයෙන්.
+- Sau đợt này: 124 gói có si.
+
+## Tiếng Sinhala đợt 9: truyện thế giới đợt 5 — 27/11/2026 (nhánh `claude/si-stories-10`)
+
+- Đã dịch 6 gói từ PR #84: world-alibaba-1/2, world-bijo-1/2, world-yukinojoo-1/2.
+- Văn phong khớp các gói world- trước (lời kể khẩu ngữ, lời thoại giữ ngoặc kép). Tên: අලිබාබා, කාසිම්, මොර්ජියානා; බෙල්, මෘගයා; කායි, ගර්ඩා, හිම රැජින. "Vừng ơi mở ra" dịch là "අරින්න, තලපු!".
+- world-bijo-2 T4 dịch theo câu mới 「ベル、今夜も聞くよ。わたしの妻になってくれないか。」.
+- Sau đợt này: 109 gói có si.
+
+## Tiếng Sinhala đợt 8: Rakugo trọn bộ — 27/11/2026 (nhánh `claude/si-stories-9`)
+
+- Đã dịch 14 gói: rakugo-doguya, hatsu-tenjin, hirabayashi, inu-no-me, jugemu, kinmeichiku, kohome, manju-kowai, meguro-no-sanma, shibahama-1/2, shinigami-2, sokotsu-nagaya, tenshiki (kệ Rakugo giờ đủ si cả 16 gói).
+- Rakugo dịch khẩu ngữ suốt (kể cả lời dẫn), lời thoại không có ngoặc kép như bản gốc. Shinigami-2 khớp văn phong và tên với tập 1 (මරු දෙවියා, හචිගෝරෝ, câu thần chú giữ phiên âm). Lời của lãnh chúa (Meguro no Sanma) dùng thể trang trọng cổ.
+- Chơi chữ giữ nguyên âm Nhật rồi giải thích: かわず (không mua / con ếch), ただ (0 tuổi / miễn phí), tên dài Jugemu phiên âm sang chữ Sinhala, 転失気 (đánh rắm).
+- Sau đợt này: 103 gói có si.
+
+## Tiếng Sinhala đợt 7: Làm việc ở Osaka trọn bộ — 27/11/2026 (nhánh `claude/si-stories-8`)
+
+- Đã dịch 6 gói: osaka-hataraku-03 → osaka-hataraku-08 (series Osaka giờ đủ si cả 8 tập).
+- Lời kể thể văn viết, lời thoại khẩu ngữ; câu tiếng Osaka (Kansai-ben) dịch sang khẩu ngữ thân mật, ghi chú phương ngữ giữ nguyên ví dụ tiếng Nhật. Tên giữ thống nhất: මින්, මොරිත අකාරි, ඉවතා, හයි (ෆාම් හයි), කියෝ, ජොෂුවා, රාජු, තනක.
+- Thông tin đời sống (119, #7119, bảo hiểm, thuế, rác, động đất) dịch sát, giữ nguyên số điện thoại.
+- Sau đợt này: 89 gói có si.
+
+## Tiếng Sinhala đợt 6: Budori trọn bộ, Địa ngục biến 2, Dải băng lốm đốm 2, Hanshichi 2 vụ, Nến đỏ và nàng tiên cá, Osaka 2 — 27/11/2026 (nhánh `claude/si-stories-7`)
+
+- Đã dịch 8 gói: budori-3, budori-4 (Budori giờ đủ si cả 4 tập); jigokuhen-2; madara-2; hanshichi-ofumi-2, hanshichi-yukidaruma-2; akai-rousoku-to-ningyo; osaka-hataraku-02.
+- Văn học cổ điển (Jigokuhen, Holmes, Hanshichi): lời kể thể văn viết, lời thoại khẩu ngữ, khớp tập 1. Tên giữ thống nhất với tập 1 (මහා ස්වාමියා, යොෂිහිදේ; හෝම්ස්, වොට්සන්, හෙලන් ස්ටෝනර්; හන්ෂිචි, K මාමා, ඔමිචි, ජින්එමොන්; මින්, මොරිත අකාරි).
+- Jigokuhen-2 G41 giữ nguyên số đường dây hỗ trợ よりそいホットライン (0120-279-338).
+- Sau đợt này: 83 gói có si.
+
+## Tiếng Sinhala đợt 5: Nhà hàng lắm yêu cầu, Botchan trọn bộ, Budori 2, truyện thế giới đợt 4 — 27/11/2026 (nhánh `claude/si-stories-6`)
+
+- Đã dịch 12 gói: chumon-1/2; botchan-2 → botchan-6 (Botchan giờ đủ si cả 6 tập); budori-2; world-nagagutsu, world-rapunzel, world-aladdin-1/2 (luồng truyện thế giới nhờ sau PR #77).
+- Botchan: lời kể dùng thể văn viết (giống tập 1), lời thoại dùng khẩu ngữ. Tên/biệt danh giữ thống nhất: බොච්චන්, කියෝ, තනුකි, රතු කමිසය, යමාඅරාෂි (හොත්තා), උරනරි (කොගා), නොදයිකෝ, මැඩෝනා. Ghi chú ngữ pháp giữ nguyên ví dụ tiếng Nhật, chỉ dịch phần giải thích.
+- Sau đợt này: 75 gói có si.
+
+## Văn học Nhật v2: 注文の多い料理店 2 tập (N3), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch4`. `chumon-1` (52 câu, 1.366 ký tự, harder 6,4%, audio 4,4 phút, miễn phí) và `chumon-2` (60 câu, 1.865 ký tự, harder 7,9%, audio 6,0 phút).
+- Phỏng theo 宮沢賢治 (mất 1933, xuất bản 1924; public domain ở Nhật và Mỹ). Giữ các lời dặn trên cửa, câu lặp gió thổi và cảnh kết gốc (mặt nhàu như giấy vụn). Câu lặp ở tập 2 thêm 「また、」 để tránh trùng câu giữa hai gói.
+- Giọng: Aoede kể; hai chàng trai Neural2-C hai cao độ; hai con mèo rừng Neural2-B/C; người dẫn đường Neural2-C trầm.
+- Bìa: motif `chumon1` (nhà hàng Tây giữa núi) và `chumon2` (cánh cửa với hai mắt xanh ở lỗ khóa).
+- Ẩn gói cũ `chumon-no-oi-ryoriten` → `chumon-1`. `npm run verify` xanh.
+
+## Văn học Nhật v2: 杜子春 2 tập (N3), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch5`. `toshishun-1` (56 câu, 1.644 ký tự, harder 10,4%, audio 5,5 phút, miễn phí) và `toshishun-2` (62 câu, 1.837 ký tự, harder 9,7%, audio 6,1 phút).
+- Phỏng theo 芥川龍之介 (mất 1927, xuất bản 1920; public domain ở Nhật và Mỹ). Giữ ba lần đào vàng theo bóng (đầu, ngực, bụng), thử thách im lặng trên núi 峨眉山, cảnh hai con ngựa ở địa ngục, lời mẹ và cái kết căn nhà hoa đào dưới chân 泰山.
+- Giọng: Aoede kể; 杜子春 Neural2-C; ông lão 鉄冠子 Neural2-C trầm chậm; khách, tiếng nói lạ, 神将, 閻魔 Neural2-C các cao độ khác nhau; mẹ Neural2-B.
+- Bìa: motif `toshi1` (cổng tây Lạc Dương lúc hoàng hôn, bóng người dài, vàng) và `toshi2` (vách đá dưới chòm Bắc Đẩu, gậy trúc bay, hoa đào). Font Yuji Boku.
+- Ẩn gói cũ `toshishun` → `toshishun-1`. `npm run verify` xanh.
+
+## Kệ "Triết lý sống" (wisdom), lô 2 — 27/11/2026
+
+Lô này thêm 4 chương chuẩn v2, cả 4 đều miễn phí vì là tập 1 của từng bộ:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-marcus-1` | N3 | Marcus Aurelius, *Suy tưởng* | 3:57 |
+| `life-wattles-1` | N3 | Wattles, *Khoa học làm giàu*, kể qua chuyện anh phục vụ quán cà phê | 4:00 |
+| `life-rongo-1` | N4 | Luận ngữ: Tử Lộ, Tử Cống | 3:36 |
+| `life-yukkuri-1` | N4 | Truyện gốc về sống chậm | 3:24 |
+
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 8 chương: 5 chương N3 (epictetus-1, epictetus-2, roshi-1, marcus-1, wattles-1) và 3 chương N4 (ikari-1, rongo-1, yukkuri-1).
+- Ghi chú: import `world-bremen` (của luồng truyện thế giới) đang nằm trong khối W ở `content.ts`. Không ảnh hưởng gì nên để nguyên.
+- `npm run verify` xanh.
+
+## Văn học Nhật v2: トロッコ và 蜜柑 (N3), thay gói cũ — 27/11/2026
+
+- Nhánh `claude/bungaku-v2-batch6`. Hai truyện ngắn của 芥川龍之介 (mất 1927; xuất bản 1922 và 1919; public domain ở Nhật và Mỹ), mỗi truyện một gói, miễn phí.
+- `torokko-1`: 70 câu, 1.969 ký tự, harder 8,0%, audio 6,7 phút. Giữ hai lần đẩy goòng, lời thoại giọng địa phương của hai người thợ (われ, 帰んな, ずら), đoạn chạy về một mình và đoạn kết năm 26 tuổi ở tòa soạn. Giọng: Aoede kể; 良平 Neural2-B cao; người thợ quát Neural2-C trầm; thanh niên Neural2-C; mẹ Neural2-B.
+- `mikan-1`: 61 câu, 2.137 ký tự, harder 8,6%, audio 7,1 phút. Ngôi kể thứ nhất, chỉ một giọng Aoede. Giữ toa hạng hai và vé hạng ba, đường hầm, khói đen, ba cậu bé ở đường ngang và cảnh quýt rơi.
+- Bìa: motif `torokko` (goòng lao dốc giữa vườn quýt, biển phía xa) và `mikan` (cô bé ném quýt qua cửa sổ tàu về phía ba cậu bé). Font Zen Kaku Gothic Antique và Zen Old Mincho.
+- Ẩn gói cũ `torokko` → `torokko-1`, `mikan` → `mikan-1`. `npm run verify` xanh.
+## Kệ "Triết lý sống" (wisdom), lô 3 — 27/11/2026
+
+Lô này thêm 4 chương chuẩn v2, cả 4 đều miễn phí vì là tập 1 của từng bộ. Lần đầu kệ có một chương N2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-seneca-1` | N2 | Seneca, *Bàn về sự ngắn ngủi của đời người*, viết dưới dạng thư gửi bạn Paulinus | 5:17 |
+| `life-allen-1` | N3 | James Allen, *As a Man Thinketh* (『原因と結果の法則』): tâm hồn là khu vườn | 4:19 |
+| `life-smiles-1` | N4 | Samuel Smiles, *Self-Help*: thợ gốm Palissy đốt cả bàn ghế để nung chiếc đĩa trắng | 3:36 |
+| `life-gakumon-1` | N3 | 福沢諭吉『学問のすゝめ』, kể qua chuyện cô bé Misaki tìm thấy tờ 10.000 yên cũ của bà | 4:21 |
+
+- Cả 4 tác phẩm gốc đều thuộc phạm vi công cộng. Phần hội thoại và khung truyện là sáng tác của ViMai. Câu trích được dịch lại bằng tiếng Nhật dễ hiểu, riêng câu mở đầu của 福沢 giữ nguyên văn.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 12 chương: 1 chương N2 (seneca-1), 7 chương N3 và 4 chương N4.
+- `npm run verify` xanh.
+
+## Kệ "Triết lý sống" (wisdom), lô 4 — 27/11/2026
+
+Lô này thêm 3 chương chuẩn v2. Lần đầu kệ có tập 2 (VIP) cho các bộ đã có tập 1 miễn phí:
+
+| Id | Cấp | Miễn phí/VIP | Nội dung | Audio |
+| --- | --- | --- | --- | --- |
+| `life-bushido-1` | N3 | miễn phí | 新渡戸稲造『武士道』(1900): cuộc trò chuyện với de Laveleye, năm đức 義・勇・仁・礼・誠 | 4:08 |
+| `life-smiles-2` | N4 | VIP | Smiles, *Self-Help*: Audubon vẽ lại 200 bức chim bị chuột gặm; chó Diamond của Newton | 3:18 |
+| `life-ikari-2` | N4 | VIP | Truyện gốc ViMai 心の練習 2: Misaki bị mắng trên tàu, bà kể giai thoại sư 坦山 cõng cô gái qua sông | 3:20 |
+
+- 『武士道』 và *Self-Help* thuộc phạm vi công cộng; 心の練習 là sáng tác của ViMai, giai thoại 坦山 là chuyện thiền dân gian.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 15 chương: 1 chương N2, 8 chương N3 và 6 chương N4. Lô 5 dự kiến: Seneca 2 (N2), thêm N4.
+
+## Kệ "Triết lý sống" (wisdom), lô 5 — 27/11/2026
+
+Lô này thêm 2 chương VIP chuẩn v2, đều là tập 2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-seneca-2` | N2 | Seneca, *Thư gửi Lucilius* (thư 5, 13, 24): Lucilius mất ngủ vì tin đồn bị kiện; "ta khổ trong tưởng tượng nhiều hơn trong thực tế" | 6:13 |
+| `life-rongo-2` | N4 | 『論語』: Nhan Hồi nghèo mà vui, "過ぎたるは猶及ばざるがごとし", 温故知新, các tuổi 十五〜七十 (不惑) | 2:58 |
+
+- Cả hai tác phẩm thuộc phạm vi công cộng; lời thoại và khung truyện là ViMai kể lại. Kết cục vụ kiện của Lucilius không có trong thư, truyện nói rõ điều này.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 17 chương: 2 chương N2, 8 chương N3 và 7 chương N4.
+
+## Kệ quê hương: truyện Việt/Trung/Hàn mới (nhánh claude/furusato-vn-3)
+
+5 gói mới, đủ bản dịch 10 ngôn ngữ, tab Bài học, audio liền mạch (Aoede kể; thoại Neural2-B/C), bìa bunko:
+
+| ID | Cấp | Nội dung | Commit |
+|---|---|---|---|
+| furusato-vn-laohac | N2 | Lão Hạc (Nam Cao, PD), truyện ngắn Việt Nam | a3a3c50c |
+| furusato-vn-vongphu-1 | N3, miễn phí | Hòn Vọng Phu (bản Lạng Sơn) + so sánh Sayohime | 135c6485 |
+| furusato-vn-tranglon-1 | N3 | Trạng Lợn (truyện cười) | 301a3aae |
+| furusato-cn-liangzhu-1 | N3 | Lương Sơn Bá – Chúc Anh Đài | d36c89ec |
+| furusato-kr-tokki-1 | N3, miễn phí | Thỏ và Ba Ba (토끼전) + so sánh くらげ骨なし | 179a04fc |
+
+- build.mjs ROMAJI_FIX thêm: 元の, 山の上, にまつわる, 金の印, 海の底, 陸の方, 山のふもと, 何が何だか, 実は (để romaji tách đúng từ).
+- Motif bìa mới trong scripts/covers/cover.html: laohac, vongphu, tranglon, liangzhu, tokki.
+- Muse/các luồng khác: các ID trên đã cấp, đừng dùng lại.
+## Kệ "Triết lý sống" (wisdom), lô 6 — 27/11/2026
+
+Lô này thêm 2 chương VIP chuẩn v2, đều là tập 2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-yukkuri-2` | N4 | Truyện gốc ViMai 小さな休み 2: Kenji có 20 việc phải làm, bà chủ quán trà dạy "từng việc một" qua cách pha trà | 3:08 |
+| `life-marcus-2` | N3 | Marcus Aurelius: cuộc nổi loạn của Cassius năm 175, muốn tha thứ, đốt thư không đọc; "hãy như tảng đá trước sóng" (Suy tưởng 4.49, 8.47, 10.30) | 3:38 |
+
+- *Meditations* và sử của Cassius Dio thuộc phạm vi công cộng; 小さな休み là sáng tác của ViMai.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 19 chương: 2 chương N2, 9 chương N3 và 8 chương N4.
+
+## Kệ "Triết lý sống" (wisdom), lô 7 — 27/11/2026
+
+Lô này thêm 3 chương VIP chuẩn v2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-ikari-3` | N4 | Truyện gốc ViMai 心の練習 3: đàn em 山田 quên email, Misaki suýt quát thì đếm đến mười (lời Jefferson, 1825) và nhận ra cậu ấy đang lo vì mẹ nhập viện; bên dưới cơn giận thường là một cảm xúc khác | 3:08 |
+| `life-allen-2` | N3 | James Allen, *As a Man Thinketh*: Nora trượt đội hợp xướng và nói bạn "may mắn"; Allen kể ngụ ngôn chàng trai nhà máy, "Dream lofty dreams…", suy nghĩ cần mục đích | 3:48 |
+| `life-seneca-3` | N2 | Seneca, thư 2 "Về việc đọc": Lucilius mua sách tràn lan mà chẳng nhớ gì; "người ở khắp nơi thì chẳng ở đâu", mỗi ngày tiêu hóa một ý, lời Epicurus về sự nghèo; nối sang chuyện lướt điện thoại ngày nay | 5:11 |
+
+- *As a Man Thinketh* (1903), thư của Seneca và thư của Jefferson (1825) thuộc phạm vi công cộng; 心の練習 và các cảnh đối thoại là sáng tác của ViMai.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 22 chương: 3 chương N2, 10 chương N3 và 9 chương N4.
+
+## Kệ "Triết lý sống" (wisdom), lô 8 — 27/11/2026
+
+Lô này thêm 2 chương VIP chuẩn v2 và đưa kệ đạt mục tiêu 24 chương:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-smiles-3` | N3 | Smiles, *Self-Help*: "天は自ら助くる者を助く" và George Stephenson 18 tuổi mới vào lớp một ở trường đêm, sau thành "cha đẻ đường sắt"; không bao giờ là quá muộn | 3:28 |
+| `life-yukkuri-3` | N4 | Truyện gốc ViMai 小さな休み 3: Kenji so mình với ảnh khoe trên mạng của bạn cũ; hai cây trà trồng cùng năm, cây nhỏ lớn chậm nhưng vị sâu; so với mình năm ngoái | 3:15 |
+
+- *Self-Help* (1859) thuộc phạm vi công cộng; 小さな休み và các cảnh đối thoại là sáng tác của ViMai.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 24 chương: 3 chương N2, 11 chương N3 và 10 chương N4.
+
+## Kệ "Triết lý sống" (wisdom), lô 9 — 27/11/2026
+
+Lô này thêm 3 chương VIP chuẩn v2 (tập 2 của ba bộ đang có tập 1):
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-wattles-2` | N3 | Wattles, *The Science of Getting Rich*: Takuya làm quản lý cửa hàng thứ hai, mải nhìn quán chuỗi đối diện; ông Mori dạy ba ý: hình dung rõ điều mình muốn, việc hôm nay làm hết hôm nay (mỗi việc trọn vẹn tự thân), làm người mình gặp thấy "đang tiến lên"; "quán mình cứ đi theo bản đồ của mình" | 3:46 |
+| `life-bushido-2` | N3 | Nitobe, *Bushido* chương 8, 11, 13: Kenta thua kiếm đạo, ném kiếm tre; ông nội đọc danh dự (lời Mạnh Tử), di huấn Ieyasu, 「ならぬ堪忍するが堪忍」, Katsu Kaishū buộc chặt kiếm, 「負くるが勝ち」; tuần sau thua tiếp nhưng cúi chào đối thủ | 3:46 |
+| `life-gakumon-2` | N2 | Fukuzawa, 『学問のすゝめ』 phần 13, 15, 17: Misaki đi làm năm đầu, ghen tị bài đăng của đồng nghiệp Reina, suýt chia sẻ tin giảm cân giả; đọc về oán vọng, 「信の世界に偽詐多く、疑の世界に真理多し」 và 人望論; bắt chuyện với Reina và biết cô đã nộp 30 bản đề xuất | 5:52 |
+
+- Ba tác phẩm gốc (1910, 1900, 1872–1876) thuộc phạm vi công cộng; nhân vật và đối thoại là sáng tác của ViMai.
+- Giọng mới: Kenta và ông nội (bushido), Reina (gakumon), thêm vào `voices.json` của từng bộ.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 27 chương: 4 chương N2, 13 chương N3 và 10 chương N4.
+
+## Kệ "Triết lý sống" (wisdom), lô 10 — 27/11/2026
+
+Lô này thêm 4 chương VIP chuẩn v2:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-epictetus-3` | N3 | Epictetus, *Enchiridion* 43, 46, 49: mọi việc có hai cái quai (người anh và mảnh ruộng); con cừu không nôn cỏ ra để khoe đã ăn bao nhiêu; đừng tự gọi mình là triết gia, hãy sống cho đúng; Chrysippus | 3:45 |
+| `life-allen-3` | N3 | James Allen, *As a Man Thinketh* chương sức khoẻ: Nohra và bác thợ bánh đang buồn; "khuôn mặt chua là do suy nghĩ chua", bà cụ 96 tuổi, "không thầy thuốc nào bằng ý nghĩ vui" | 3:48 |
+| `life-marcus-3` | N3 | Marcus Aurelius, *Meditations* 4.3, 4.17, 6.30, 7.59, cùng chuyện trong *Historia Augusta*: hoàng đế bán đấu giá báu vật trong cung hai tháng để cứu ngân khố, chỉ hoàn tiền cho ai muốn trả lại | 3:48 |
+| `life-ikari-4` | N4 | Truyện gốc 心の練習: Misaki bỏ hàng chờ sau một ông cụ, làm vỡ ba quả trứng và về muộn hơn; bà dạy 「短気は損気」, 「急がば回れ」 và câu của Franklin (1734) "What is begun in anger ends in shame"; tuần sau cô kiên nhẫn chờ và biết ông cụ chậm vì mắt kém | 3:12 |
+
+- Các tác phẩm gốc (thế kỷ 2, 1903, 1734) và tục ngữ dân gian thuộc phạm vi công cộng; nhân vật và đối thoại là sáng tác của ViMai.
+- Giọng mới: học trò (epictetus), thợ bánh (allen), ông cụ `ojii` (ikari), thêm vào `voices.json` của từng bộ.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 31 chương: 4 chương N2, 16 chương N3 và 11 chương N4.
+
+## Kệ "Triết lý sống" (wisdom), lô 11 — 27/11/2026
+
+Lô này thêm 3 chương VIP chuẩn v2, ưu tiên N2 vì kệ đang thiếu cấp này:
+
+| Id | Cấp | Nội dung | Audio |
+| --- | --- | --- | --- |
+| `life-seneca-4` | N2 | Seneca, *De Ira* II.29, II.36, III.12, III.36, III.40: Lucilius quát đầu bếp vì cá cháy trước mặt khách; thư Seneca kể Augustus cho đập hết bình pha lê của Pollio, Platon giữ cánh tay đã vung, "liều thuốc lớn nhất cho cơn giận là chờ đợi", mỗi tối tự xét một ngày; phần cuối nối sang tin nhắn giận dữ lúc nửa đêm | 5:20 |
+| `life-gakumon-3` | N2 | Fukuzawa, 『学問のすゝめ』 thiên 14 「心事の棚卸」: Misaki năm hai ở nhà xuất bản, kiểm kê kho cuối năm thấy 3.000 cuốn in quá tay, mở sổ mục tiêu tháng Một chỉ gạch được chưa nửa; kẻ ba cột "được, mất, hàng ế" và giữ lại một mục tiêu nhỏ | 5:21 |
+| `life-yukkuri-4` | N4 | Truyện gốc 小さな休み: Kenji không biết từ chối; bà chủ quán rót trà tràn chén; thứ Hai anh từ chối khéo kèm lựa chọn khác | 3:08 |
+
+- Các tác phẩm gốc (thế kỷ 1, 1872–1876) thuộc phạm vi công cộng; nhân vật và đối thoại là sáng tác của ViMai.
+- Không thêm giọng mới.
+- QC từng chương ở `content/stories/life-*.qc.md`.
+- Kệ hiện có 34 chương: 6 chương N2, 16 chương N3 và 12 chương N4.
+
+## Kệ quê hương: Chí Phèo và Tắt đèn, N2 (nhánh claude/furusato-vn-4)
+
+Văn học hiện thực Việt Nam ở mức N2, đều là tác phẩm thuộc phạm vi công cộng (Nam Cao mất 1951, Ngô Tất Tố mất 1954). Có đủ bản dịch 10 ngôn ngữ, tab Bài học, audio liền mạch và bìa bunko:
+
+| ID | Nội dung | Commit |
+|---|---|---|
+| furusato-vn-chipheo | Chí Phèo (Nam Cao), 65 câu, 8.2 phút | b87ce905 |
+| furusato-vn-tatden-1 | Tắt đèn phần 1: bán cái Tý nộp sưu, 43 câu | 3c111711 |
+| furusato-vn-tatden-2 | Tắt đèn phần 2: Tức nước vỡ bờ, đêm chạy trốn, 42 câu | 3c111711 |
+
+- Thêm vào ROMAJI_FIX trong build.mjs: 芥川龍之介, タッ・デン, ゴー・タッ・トー, 小林多喜二.
+- Motif bìa mới: chipheo, tatden1, tatden2.
+- Luồng "Đắc nhân tâm" đã giữ các ID: furusato-vn-vantien-*, furusato-vn-namcao-* (truyện Nam Cao khác), furusato-vn-giongto-*, furusato-vn-honbuom-*. Đừng dùng trùng.
+
+## Mục "Sách nổi tiếng" — đợt 1: Đắc nhân tâm (cảm hứng) — 27/11/2026
+
+Việt yêu cầu làm các sách nổi tiếng (Đắc nhân tâm, Nhà giả kim, Sử ký…), sắp theo chủ đề dễ tìm. Bìa có dòng tên sách theo ngôn ngữ người đọc chọn, và người Việt phải thấy đúng tên sách tiếng Việt chuẩn.
+
+**Hạ tầng**
+- Bìa đa ngôn ngữ: front matter `cover_book` và `cover_book_label` (11 giá trị nối bằng `|`). `cover.mjs` dựng `<id>.webp` (bản en) và `<id>.<lang>.webp`. `build-story.mjs` ghi `coverLangs`, `gen-catalog.mjs` chuyển tiếp trường này. `StoryCover`/`coverFor()` và trình phát trong `ReaderClient` chọn bìa theo ngôn ngữ app.
+- Kệ theo chủ đề: thêm `vn-lit` (Văn học Việt Nam; Số đỏ, Kiều, Hoàng Lê, Thạch Lam, Lão Hạc được gom vào bằng regex, không sửa nội dung), `book-people`, `book-mind`, `book-spirit`, `book-east`, `book-health`. Nhãn đủ 12 locale. Trang Truyện có thêm hàng chip "Chủ đề" để nhảy tới từng kệ.
+- `register.mjs --block=books`.
+
+**Nội dung**: series 「ラーメン店長の一年」 gồm 4 tập N3 (`life-dacnhan-1..4`, kệ book-people, tập 1 miễn phí). Đây là truyện gốc dạy các ý tưởng nổi tiếng của Carnegie, không dịch sách. QC từng tập ở `content/stories/life-dacnhan-*.qc.md`.
+
+**Bản quyền**: sách còn bản quyền (Carnegie, Coelho, Nguyên Phong, Thích Nhất Hạnh, Tony Buổi Sáng…) chỉ làm truyện gốc "Cảm hứng từ «…»". Chuyển thể đầy đủ chỉ dành cho tác phẩm công cộng: Sử ký, Kinh Dịch, và Spalding 1924 (bản gốc tiếng Anh của Hành trình về phương Đông).
+
+**Tự kiểm**: phát hiện tập 2–4 thiếu dòng `cover_book`, nên bìa không có tên sách. Đã thêm, dựng lại và xem ảnh bìa vi/th.
+
+## Mục "Sách nổi tiếng" — đợt 2: 史記の物語 (phỏng theo Sử ký Tư Mã Thiên) — 27/11/2026
+
+Nhánh `claude/famous-books-2`. 4 chương N2, kệ `book-east` (chủ đề lịch sử), đăng ký bằng `register.mjs --block=books`.
+Nguồn: 司馬遷『史記』(thế kỷ 1 TCN) và thơ Đỗ Mục (thế kỷ 9), đều phạm vi công cộng; ViMai kể lại, không dùng bản dịch hiện đại nào.
+Bìa nhãn "Phỏng theo «Sử ký Tư Mã Thiên»" theo 11 ngôn ngữ.
+
+| id | Tựa | Nội dung | Câu | Audio | Truy cập |
+|---|---|---|---|---|---|
+| life-shiki-1 | 易水の別れ | Kinh Kha (1) | 53 | 6:17 | miễn phí |
+| life-shiki-2 | 地図の中の短剣 | Kinh Kha (2), 図窮まりて匕首見る | 50 | 5:49 | VIP |
+| life-shiki-3 | 背水の陣 | Hàn Tín: chui háng, 国士無双, 背水の陣 | 50 | 6:18 | VIP |
+| life-shiki-4 | 四面楚歌の夜 | Hạng Vũ: 四面楚歌, Ô Giang, 捲土重来 | 48 | 6:08 | VIP |
+
+- Mỗi chương có từ vựng, dịch + giải thích 11 ngôn ngữ, bài học 3 mẫu ngữ pháp + 4 câu hỏi, qc.md riêng.
+- Tự kiểm: đối chiếu số liệu với nguyên văn (800/28 kỵ, 70 trận, tuổi 31…); sửa đọc 秦=しん, 行っ=いっ, 遷, 最後, 見る (chỉ trong thành ngữ). Viết lại câu tránh đọc sai (たった今, 間違い, 土けむり, 一そう).
+- Muse: id `life-shiki-*` thuộc khối books, đừng cấp trùng.
+
+## Mục "Sách nổi tiếng" — đợt 3: 易経の物語 (phỏng theo Kinh Dịch) — 27/11/2026
+
+Nhánh `claude/famous-books-3`. 2 chương N2, kệ `book-east`, chủ đề triết học, `register.mjs --block=books`.
+
+| id | Tựa | Nội dung | Câu | Audio | Truy cập |
+|---|---|---|---|---|---|
+| life-ekikyo-1 | 龍の六つの季節 | Khổng Tử, 韋編三絶, sáu hào quẻ Càn | 46 | 6:16 | miễn phí |
+| life-ekikyo-2 | 牢屋の六十四卦 | Văn Vương ở Dữu Lý, 太公望, 窮すれば通ず, Tư Mã Thiên | 44 | 6:04 | VIP |
+
+- Nguồn: 『易経』, 『史記』 (周本紀, 斉太公世家, 孔子世家), 「報任少卿書」; đều phạm vi công cộng.
+- Bìa "Phỏng theo «Kinh Dịch»" theo 11 ngôn ngữ. Không ghi tựa sách Nguyễn Hiến Lê "Kinh Dịch – Đạo của người quân tử" vì nội dung lấy từ kinh văn gốc, không từ sách đó.
+- Người dùng (27/11) muốn ưu tiên sách giới trẻ đang đọc, nên đợt này dừng ở 2 chương; tập 3 (Chu Công, 謙, 君子豹変) để sau.
+- Muse: id `life-ekikyo-*` thuộc khối books.
+## Đợt 7 — Peppa Pig 「おかいもの」: 3 clip chuẩn v2 (26/11/2026, nhánh `claude/video-peppa-shopping`)
+
+| # | Mức | Việc | PR |
+|---|---|---|---|
+| 34 | **Cao** | 3 gói `standard: 2` từ tập Peppa 「おかいもの」 (`Yif3a5eW_-E`): `peppa-shopping-list` (76s, 19 dòng), `peppa-shopping-spaghetti` (71s, 26 dòng), `peppa-shopping-cake` (97s, 28 dòng), N4, chủ đề đi siêu thị ở Nhật. Lời thoại đối chiếu Whisper + phụ đề tự động; câu không chắc thì bỏ (ghi trong `.qc.md`). | PR này |
+| 35 | Trung bình | Thử まんが日本昔ばなし 「あずき峠」 bằng Whisper: giọng địa phương làm cả Whisper lẫn ASR sai tên riêng (助け?, 大賀茂?), và tập có nhiều đoạn chỉ có nhạc > 8 giây → không cắt được clip 45 giây đạt luật khoảng trống. Hoãn. | — |
+| 36 | Trung bình | Kênh Peppa Pig 公式 có hàng chục tập 307 giây (おかたづけ, ランチ, キャンプ, はくぶつかん…) — nguồn hoạt hình N5–N4 ổn định cho các đợt sau. | — |
+
+**Cho Muse — tránh trùng**: đã dùng `Yif3a5eW_-E` (24–280s).

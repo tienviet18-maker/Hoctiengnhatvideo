@@ -136,6 +136,20 @@ export default function BooksPage() {
         ))}
       </div>
 
+      {/* Chủ đề: nhảy thẳng vào một kệ (sách nổi tiếng, văn học Việt…) thay vì cuộn tìm */}
+      {shelves.length > 3 && (
+        <div style={{ marginTop: 16 }}>
+          <div style={{ fontSize: 13, fontWeight: 700, color: "var(--muted)" }}>{ui.common.topics}</div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 8, marginTop: 8 }}>
+            {shelves.map((sh) => (
+              <button key={sh.key} type="button" className="chip" onClick={() => setOpen(sh.key)}>
+                {ui.shelves[sh.key]} <span style={{ opacity: 0.6 }}>{sh.items.length}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
       {shelves.map((sh) => (
         <section key={sh.key} style={{ marginTop: 22 }}>
           <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>

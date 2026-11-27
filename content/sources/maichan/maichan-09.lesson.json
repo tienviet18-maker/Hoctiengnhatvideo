@@ -1,0 +1,158 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜そう（な）",
+   "example": 7,
+   "meaning": {
+    "vi": "Trông có vẻ ~ (đoán qua vẻ ngoài: 心配そうな顔).",
+    "en": "Looks ~ (judging by appearance: 心配そうな顔).",
+    "zh-Hans": "看起来……（根据外表判断）。",
+    "ko": "~해 보이다 (겉모습으로 추측).",
+    "tl": "Mukhang ~ (sa itsura).",
+    "ne": "~ देखिन्छ (रूप हेरेर)।",
+    "id": "Tampak ~ (dari penampilan).",
+    "pt": "Parecer ~ (pela aparência).",
+    "my": "~ ပုံရတယ် (အသွင်အပြင်)။",
+    "th": "ดู ~ (จากลักษณะ)"
+   }
+  },
+  {
+   "pattern": "〜くて（理由）",
+   "example": 25,
+   "meaning": {
+    "vi": "Vì ~ nên… (tính từ い đổi thành 〜くて để nêu lý do).",
+    "en": "Because ~ (い-adjective → 〜くて to give a reason).",
+    "zh-Hans": "因为……所以（い形容词变〜くて表原因）。",
+    "ko": "~해서 (い형용사 → くて 이유).",
+    "tl": "Dahil ~ (い-adj → くて).",
+    "ne": "~ भएर (कारण)।",
+    "id": "Karena ~ (い-adj → くて).",
+    "pt": "Por estar ~ (い-adj → くて).",
+    "my": "~ လို့ (အကြောင်းပြချက်)။",
+    "th": "เพราะ ~ (い-adj → くて)"
+   }
+  },
+  {
+   "pattern": "〜だけ",
+   "example": 36,
+   "meaning": {
+    "vi": "Chỉ ~ (mỗi ~ thôi).",
+    "en": "Only ~.",
+    "zh-Hans": "只有……。",
+    "ko": "~만.",
+    "tl": "~ lang.",
+    "ne": "~ मात्र।",
+    "id": "Hanya ~.",
+    "pt": "Só ~.",
+    "my": "~ တည်း။",
+    "th": "แค่ ~"
+   }
+  },
+  {
+   "pattern": "どうやって",
+   "example": 37,
+   "meaning": {
+    "vi": "Bằng cách nào (hỏi phương pháp).",
+    "en": "How, by what means.",
+    "zh-Hans": "怎么（询问方法）。",
+    "ko": "어떻게 (방법).",
+    "tl": "Paano (paraan).",
+    "ne": "कसरी (तरिका)।",
+    "id": "Bagaimana caranya.",
+    "pt": "Como (de que jeito).",
+    "my": "ဘယ်လို (နည်းလမ်း)။",
+    "th": "ยังไง (วิธี)"
+   }
+  }
+ ],
+ "quiz": [
+  {
+   "ja": "タマは、どんなネコですか。",
+   "choices": [
+    "黒くて、小さい",
+    "茶色くて、大きい",
+    "白くて、しっぽが茶色い",
+    "白くて、目が青い"
+   ],
+   "answer": 2,
+   "explain": {
+    "vi": "Mèo trắng, đuôi nâu.",
+    "en": "White with a brown tail.",
+    "zh-Hans": "白色，尾巴棕色。",
+    "ko": "하얗고 꼬리가 갈색.",
+    "tl": "Puti, kayumanggi ang buntot.",
+    "ne": "सेतो, खैरो पुच्छर।",
+    "id": "Putih, ekor cokelat.",
+    "pt": "Branca, rabo marrom.",
+    "my": "အဖြူ၊ အမြီး အညို။",
+    "th": "ขาว หางน้ำตาล"
+   }
+  },
+  {
+   "ja": "車の下にいたネコは、だれでしたか。",
+   "choices": [
+    "くろちゃん",
+    "タマ",
+    "ゆきちゃんのネコ",
+    "先生のネコ"
+   ],
+   "answer": 0,
+   "explain": {
+    "vi": "Đó là mèo đen Kuro.",
+    "en": "Kuro, the black cat.",
+    "zh-Hans": "小黑。",
+    "ko": "쿠로.",
+    "tl": "Si Kuro.",
+    "ne": "कुरो।",
+    "id": "Kuro.",
+    "pt": "O Kuro.",
+    "my": "ကူရို။",
+    "th": "คุโระ"
+   }
+  },
+  {
+   "ja": "タマは、どこにいましたか。",
+   "choices": [
+    "すべり台の下",
+    "川の近く",
+    "学校の前",
+    "高い木のえだの上"
+   ],
+   "answer": 3,
+   "explain": {
+    "vi": "Trên cành cây cao.",
+    "en": "On a high branch.",
+    "zh-Hans": "高高的树枝上。",
+    "ko": "높은 나뭇가지 위.",
+    "tl": "Sa mataas na sanga.",
+    "ne": "अग्लो हाँगामा।",
+    "id": "Di dahan tinggi.",
+    "pt": "Num galho alto.",
+    "my": "သစ်ကိုင်းမြင့်ပေါ်။",
+    "th": "บนกิ่งไม้สูง"
+   }
+  },
+  {
+   "ja": "さいごに、木の上にいたのはだれですか。",
+   "choices": [
+    "タマ",
+    "お父さん",
+    "マイちゃん",
+    "おばあさん"
+   ],
+   "answer": 1,
+   "explain": {
+    "vi": "Cuối cùng chỉ còn bố trên cây.",
+    "en": "Dad.",
+    "zh-Hans": "爸爸。",
+    "ko": "아빠.",
+    "tl": "Si Tatay.",
+    "ne": "बुबा।",
+    "id": "Ayah.",
+    "pt": "O pai.",
+    "my": "အဖေ။",
+    "th": "พ่อ"
+   }
+  }
+ ]
+}

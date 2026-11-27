@@ -1,0 +1,4416 @@
+{
+  "kind": "story",
+  "id": "gongitsune-1",
+  "titles": {
+    "vi": "Cáo Gon (phần 1)",
+    "en": "Gon the Fox (Part 1)",
+    "zh-Hans": "小狐狸阿权（上）",
+    "zh-Hant": "小狐狸阿權（上）",
+    "ko": "여우 곤 (상)",
+    "tl": "Si Gon na Soro (Bahagi 1)",
+    "ne": "फ्याउरो गोन (भाग १)",
+    "id": "Gon si Rubah (Bagian 1)",
+    "pt": "Gon, a Raposa (Parte 1)",
+    "my": "မြေခွေး ဂုံ (အပိုင်း ၁)",
+    "th": "จิ้งจอกกอน (ตอนที่ 1)",
+    "si": "ගොන් නරියා (1 කොටස)"
+  },
+  "level": "N4",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "cover": "/covers/gongitsune-1.webp",
+  "free": true,
+  "standard": 2,
+  "series": {
+    "id": "gongitsune",
+    "index": 1
+  },
+  "shelf": "literature",
+  "lesson": {
+    "grammarPoints": [
+      {
+        "pattern": "〜てばかり / 〜ばかり",
+        "example": 5,
+        "meaning": {
+          "vi": "Toàn là ~, chỉ toàn ~ (lặp đi lặp lại, thường mang ý chê).",
+          "en": "Nothing but ~, always ~ (often critical).",
+          "zh-Hans": "总是……，光……（常带批评）。",
+          "zh-Hant": "總是……，光……（常帶批評）。",
+          "ko": "~만 하다 (늘 그것만, 비판적).",
+          "tl": "Puro ~ lang (madalas pamumuna).",
+          "ne": "~ मात्र गरिरहनु (प्रायः आलोचना)।",
+          "id": "Selalu ~ saja (sering bernada kritik).",
+          "pt": "Só ~, vive ~ (geralmente crítica).",
+          "my": "~ ချည်းပဲ လုပ်နေ (အပြစ်တင်လေသံ)။",
+          "th": "เอาแต่ ~ (มักตำหนิ)",
+          "si": "~ විතරයි, හැමවිටම ~ (බොහෝවිට විවේචනාත්මකව)."
+        }
+      },
+      {
+        "pattern": "〜続ける",
+        "example": 9,
+        "meaning": {
+          "vi": "Cứ ~ mãi, tiếp tục ~ (động từ bỏ ます + 続ける).",
+          "en": "Keep on ~ing (verb stem + 続ける).",
+          "zh-Hans": "一直……（动词ます形＋続ける）。",
+          "zh-Hant": "一直……（動詞ます形＋続ける）。",
+          "ko": "계속 ~하다.",
+          "tl": "Patuloy na ~.",
+          "ne": "~ गरिरहनु।",
+          "id": "Terus ~.",
+          "pt": "Continuar a ~.",
+          "my": "ဆက်ပြီး ~ နေ။",
+          "th": "~ ต่อไปเรื่อย ๆ",
+          "si": "දිගටම ~ කරනවා (ක්‍රියාපද මූලය + 続ける)."
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜",
+            "reading": ""
+          },
+          {
+            "surface": "続",
+            "reading": "つづ"
+          },
+          {
+            "surface": "ける",
+            "reading": ""
+          }
+        ]
+      },
+      {
+        "pattern": "〜たまま",
+        "example": 34,
+        "meaning": {
+          "vi": "Cứ để nguyên trạng thái ~ mà làm việc khác.",
+          "en": "With ~ still the case; leaving ~ as it is.",
+          "zh-Hans": "保持……的状态。",
+          "zh-Hant": "保持……的狀態。",
+          "ko": "~한 채로.",
+          "tl": "Habang ~ pa.",
+          "ne": "~ अवस्थामै।",
+          "id": "Dalam keadaan masih ~.",
+          "pt": "Ainda com ~.",
+          "my": "~ လျက်သား။",
+          "th": "ทั้งที่ยัง ~ อยู่",
+          "si": "~ විදිහටම; ~ තත්ත්වයේම තියලා."
+        }
+      },
+      {
+        "pattern": "〜ばよかった",
+        "example": 52,
+        "meaning": {
+          "vi": "Giá mà ~ thì tốt (hối tiếc).",
+          "en": "I wish I had (not) ~ (regret).",
+          "zh-Hans": "要是……就好了（后悔）。",
+          "zh-Hant": "要是……就好了（後悔）。",
+          "ko": "~했으면 좋았을걸 (후회).",
+          "tl": "Sana ~ (pagsisisi).",
+          "ne": "~ भए हुन्थ्यो (पछुतो)।",
+          "id": "Seandainya ~ (menyesal).",
+          "pt": "Devia ter ~ (arrependimento).",
+          "my": "~ ခဲ့ရင် ကောင်းမှာ (နောင်တ)။",
+          "th": "น่าจะ ~ (เสียใจ)",
+          "si": "~ කළා නම් (නොකළා නම්) හොඳයි (පසුතැවීම)."
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "ja": "ごんは、どこに住んでいましたか。",
+        "choices": [
+          "村の家",
+          "川のそば",
+          "森の中の小さな穴",
+          "山の上の寺"
+        ],
+        "answer": 2,
+        "explain": {
+          "vi": "Câu 4: ごんは森の中の小さな穴に住んでいました.",
+          "en": "Line 4: in a small hole in the forest.",
+          "zh-Hans": "第4句：住在森林里的小洞里。",
+          "zh-Hant": "第4句：住在森林裡的小洞裡。",
+          "ko": "4번 문장: 숲속 작은 굴.",
+          "tl": "Linya 4: maliit na butas sa gubat.",
+          "ne": "वाक्य ४: जङ्गलको सानो प्वालमा।",
+          "id": "Kalimat 4: lubang kecil di hutan.",
+          "pt": "Frase 4: num buraco na floresta.",
+          "my": "စာကြောင်း ၄: တောထဲက တွင်းလေး။",
+          "th": "ประโยค 4: โพรงเล็ก ๆ ในป่า",
+          "si": "4 වන පේළිය: කැලේ ඇතුළේ පොඩි ගුහාවක."
+        },
+        "jaFurigana": [
+          {
+            "surface": "ごんは、どこに",
+            "reading": ""
+          },
+          {
+            "surface": "住",
+            "reading": "す"
+          },
+          {
+            "surface": "んでいましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "村",
+              "reading": "むら"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "家",
+              "reading": "いえ"
+            }
+          ],
+          [
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "のそば",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "森",
+              "reading": "もり"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "中",
+              "reading": "なか"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "小",
+              "reading": "ちい"
+            },
+            {
+              "surface": "さな",
+              "reading": ""
+            },
+            {
+              "surface": "穴",
+              "reading": "あな"
+            }
+          ],
+          [
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "上",
+              "reading": "うえ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "寺",
+              "reading": "てら"
+            }
+          ]
+        ]
+      },
+      {
+        "ja": "ヒョウジュウは、川で何をしていましたか。",
+        "choices": [
+          "魚をとっていました",
+          "およいでいました",
+          "着物をあらっていました",
+          "いもをほっていました"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Hyoju đang bắt cá (câu 20).",
+          "en": "He was catching fish (line 20).",
+          "zh-Hans": "他在抓鱼（第20句）。",
+          "zh-Hant": "他在抓魚（第20句）。",
+          "ko": "물고기를 잡고 있었다 (20번).",
+          "tl": "Nanghuhuli ng isda (linya 20).",
+          "ne": "माछा मार्दै थियो (वाक्य २०)।",
+          "id": "Menangkap ikan (kalimat 20).",
+          "pt": "Pegava peixes (frase 20).",
+          "my": "ငါးဖမ်းနေတယ် (၂၀)။",
+          "th": "จับปลา (ประโยค 20)",
+          "si": "එයා මාළු අල්ලමින් හිටියා (පේළිය 20)."
+        },
+        "jaFurigana": [
+          {
+            "surface": "ヒョウジュウは、",
+            "reading": ""
+          },
+          {
+            "surface": "川",
+            "reading": "かわ"
+          },
+          {
+            "surface": "で",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をしていましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            },
+            {
+              "surface": "をとっていました",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "およいでいました",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "着物",
+              "reading": "きもの"
+            },
+            {
+              "surface": "をあらっていました",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "いもをほっていました",
+              "reading": ""
+            }
+          ]
+        ]
+      },
+      {
+        "ja": "ごんは、びくの魚をどうしましたか。",
+        "choices": [
+          "食べました",
+          "家へ持って帰りました",
+          "ヒョウジュウにあげました",
+          "川へなげこみました"
+        ],
+        "answer": 3,
+        "explain": {
+          "vi": "Gon ném từng con cá xuống sông (câu 26).",
+          "en": "He threw them back into the river (line 26).",
+          "zh-Hans": "把鱼一条条扔回河里（第26句）。",
+          "zh-Hant": "把魚一條條扔回河裡（第26句）。",
+          "ko": "강에 던져 넣었다 (26번).",
+          "tl": "Inihagis sa ilog (linya 26).",
+          "ne": "नदीमा फ्याँक्यो (वाक्य २६)।",
+          "id": "Dilempar ke sungai (kalimat 26).",
+          "pt": "Jogou no rio (frase 26).",
+          "my": "မြစ်ထဲ ပစ်ထည့်တယ် (၂၆)။",
+          "th": "โยนลงแม่น้ำ (ประโยค 26)",
+          "si": "එයා ඒවා ආපහු ඇළට විසි කළා (පේළිය 26)."
+        },
+        "jaFurigana": [
+          {
+            "surface": "ごんは、びくの",
+            "reading": ""
+          },
+          {
+            "surface": "魚",
+            "reading": "さかな"
+          },
+          {
+            "surface": "をどうしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "食",
+              "reading": "た"
+            },
+            {
+              "surface": "べました",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "家",
+              "reading": "いえ"
+            },
+            {
+              "surface": "へ",
+              "reading": ""
+            },
+            {
+              "surface": "持",
+              "reading": "も"
+            },
+            {
+              "surface": "って",
+              "reading": ""
+            },
+            {
+              "surface": "帰",
+              "reading": "かえ"
+            },
+            {
+              "surface": "りました",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ヒョウジュウにあげました",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "へなげこみました",
+              "reading": ""
+            }
+          ]
+        ]
+      },
+      {
+        "ja": "十日ほどたって、ヒョウジュウの家の前で何がありましたか。",
+        "choices": [
+          "おまつり",
+          "おそうしき",
+          "けっこんしき",
+          "運動会"
+        ],
+        "answer": 1,
+        "explain": {
+          "vi": "Đó là đám tang mẹ Hyoju (câu 43–46).",
+          "en": "It was a funeral for Hyoju's mother (lines 43–46).",
+          "zh-Hans": "是兵十妈妈的葬礼（第43–46句）。",
+          "zh-Hant": "是兵十媽媽的葬禮（第43–46句）。",
+          "ko": "효주 어머니의 장례식 (43–46번).",
+          "tl": "Libing ng nanay ni Hyoju (43–46).",
+          "ne": "ह्योजुकी आमाको मलामी (४३–४६)।",
+          "id": "Pemakaman ibu Hyoju (43–46).",
+          "pt": "O funeral da mãe do Hyoju (43–46).",
+          "my": "ဟျိုးဂျူး အမေ ဈာပန (၄၃–၄၆)။",
+          "th": "งานศพแม่เฮียวจู (43–46)",
+          "si": "ඒ හියෝජූගේ අම්මගේ අවමංගල්‍යය (පේළි 43–46)."
+        },
+        "jaFurigana": [
+          {
+            "surface": "十日",
+            "reading": "とおか"
+          },
+          {
+            "surface": "ほどたって、ヒョウジュウの",
+            "reading": ""
+          },
+          {
+            "surface": "家",
+            "reading": "いえ"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "前",
+            "reading": "まえ"
+          },
+          {
+            "surface": "で",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "がありましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "おまつり",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "おそうしき",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "けっこんしき",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "運動会",
+              "reading": "うんどうかい"
+            }
+          ]
+        ]
+      },
+      {
+        "ja": "ごんは、なぜねむれませんでしたか。",
+        "choices": [
+          "おなかがすいたから",
+          "雨の音がうるさかったから",
+          "いたずらをしたことを後悔したから",
+          "ヒョウジュウがこわかったから"
+        ],
+        "answer": 2,
+        "explain": {
+          "vi": "Gon hối hận vì trò nghịch làm mẹ Hyoju không được ăn lươn (câu 51–54).",
+          "en": "He regretted the prank that cost Hyoju's mother her eel (lines 51–54).",
+          "zh-Hans": "他后悔自己的恶作剧（第51–54句）。",
+          "zh-Hant": "他後悔自己的惡作劇（第51–54句）。",
+          "ko": "장난을 후회했기 때문 (51–54번).",
+          "tl": "Pinagsisihan niya ang kalokohan (51–54).",
+          "ne": "बदमासीमा पछुतो भयो (५१–५४)।",
+          "id": "Ia menyesali kenakalannya (51–54).",
+          "pt": "Arrependeu-se da travessura (51–54).",
+          "my": "နှောင့်ယှက်ခဲ့တာ နောင်တရလို့ (၅၁–၅၄)။",
+          "th": "เสียใจที่แกล้ง (51–54)",
+          "si": "හියෝජූගේ අම්මට ආඳා නැති කරපු විහිළුව ගැන එයා පසුතැවුණා (පේළි 51–54)."
+        },
+        "choicesFurigana": [
+          [
+            {
+              "surface": "おなかがすいたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "雨",
+              "reading": "あめ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "音",
+              "reading": "おと"
+            },
+            {
+              "surface": "がうるさかったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "いたずらをしたことを",
+              "reading": ""
+            },
+            {
+              "surface": "後悔",
+              "reading": "こうかい"
+            },
+            {
+              "surface": "したから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ヒョウジュウがこわかったから",
+              "reading": ""
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "ja": "これは、わたしが子どものとき、村のおじいさんから聞いた話です。",
+      "furigana": [
+        {
+          "surface": "これは、わたしが",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "どものとき、",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "のおじいさんから",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "いた",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はなし"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kore wa, watashi ga kodomo no toki, mura no ojiisan kara kiita hanashi desu.",
+      "translations": {
+        "vi": "Đây là câu chuyện tôi được nghe từ một ông cụ trong làng hồi còn nhỏ.",
+        "en": "This is a story I heard from an old man in my village when I was a child.",
+        "zh-Hans": "这是我小时候从村里一位老爷爷那里听来的故事。",
+        "zh-Hant": "這是我小時候從村裡一位老爺爺那裡聽來的故事。",
+        "ko": "이것은 내가 어릴 때 마을 할아버지에게 들은 이야기입니다.",
+        "tl": "Ito ay kuwentong narinig ko sa isang matandang lalaki sa nayon noong bata pa ako.",
+        "ne": "यो मैले सानो छँदा गाउँका एक बूढा बाजेबाट सुनेको कथा हो।",
+        "id": "Ini cerita yang kudengar dari seorang kakek di desa waktu aku kecil.",
+        "pt": "Esta é uma história que ouvi de um velhinho da aldeia quando eu era criança.",
+        "my": "ဒါက ကျွန်တော် ငယ်ငယ်တုန်းက ရွာက အဘိုးတစ်ယောက်ဆီက ကြားခဲ့တဲ့ ပုံပြင်ပါ။",
+        "th": "นี่คือเรื่องที่ฉันได้ฟังจากคุณตาในหมู่บ้านตอนเป็นเด็ก",
+        "si": "මේක මම පොඩි කාලේ, ගමේ සීයා කෙනෙක්ගෙන් අහපු කතාවක්."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "Truyện mở đầu giống nguyên tác của Niimi Nankichi: người kể nghe lại từ ông cụ trong làng.",
+        "en": "Like Niimi Nankichi's original, the tale opens as something heard from an old villager.",
+        "zh-Hans": "和新美南吉原作一样，以“从村里老人那里听来”开头。",
+        "zh-Hant": "和新美南吉原作一樣，以“從村裡老人那裡聽來”開頭。",
+        "ko": "니이미 난키치 원작처럼 마을 노인에게 들은 이야기로 시작해요.",
+        "tl": "Gaya ng orihinal ni Niimi Nankichi, nagsisimula ito bilang kuwentong narinig.",
+        "ne": "मूल कथाजस्तै, गाउँका बूढाबाट सुनेको कथाबाट सुरु हुन्छ।",
+        "id": "Seperti aslinya, dibuka sebagai cerita dari kakek desa.",
+        "pt": "Como no original, começa como algo ouvido de um velho da aldeia.",
+        "my": "မူရင်းအတိုင်း ရွာက အဘိုးဆီက ကြားတဲ့ပုံ စတယ်။",
+        "th": "เหมือนต้นฉบับ เริ่มว่าได้ฟังจากคนเฒ่าในหมู่บ้าน",
+        "si": "නීමි නන්කිචිගේ මුල් කතාවේ වගේම, මේ කතාව පටන් ගන්නේ ගමේ වයසක කෙනෙක්ගෙන් ඇහුව දෙයක් විදිහට."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=0.3,5.637",
+      "t": [
+        0.3,
+        5.637
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "昔、ある村の近くの山に、「ごん」という小さなきつねがいました。",
+      "furigana": [
+        {
+          "surface": "昔",
+          "reading": "むかし"
+        },
+        {
+          "surface": "、ある",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "近",
+          "reading": "ちか"
+        },
+        {
+          "surface": "くの",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "に、「ごん」という",
+          "reading": ""
+        },
+        {
+          "surface": "小",
+          "reading": "ちい"
+        },
+        {
+          "surface": "さなきつねがいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mukashi, aru mura no chikaku no yama ni, “Gon” to iu chiisana kitsune ga imashita.",
+      "translations": {
+        "vi": "Ngày xưa, trên ngọn núi gần một ngôi làng, có một chú cáo nhỏ tên là \"Gon\".",
+        "en": "Long ago, on a mountain near a village, there lived a little fox named \"Gon\".",
+        "zh-Hans": "从前，在一个村子附近的山上，住着一只叫“阿权”的小狐狸。",
+        "zh-Hant": "從前，在一個村子附近的山上，住著一隻叫“阿權”的小狐狸。",
+        "ko": "옛날, 어느 마을 근처 산에 '곤'이라는 작은 여우가 있었습니다.",
+        "tl": "Noong unang panahon, sa bundok malapit sa isang nayon, may maliit na sorong si \"Gon\".",
+        "ne": "उहिले, एउटा गाउँनजिकको पहाडमा \"गोन\" नाम गरेको सानो फ्याउरो थियो।",
+        "id": "Dahulu, di gunung dekat sebuah desa, hiduplah rubah kecil bernama \"Gon\".",
+        "pt": "Há muito tempo, numa montanha perto de uma aldeia, vivia uma raposinha chamada \"Gon\".",
+        "my": "ရှေးတုန်းက ရွာတစ်ရွာနားက တောင်ပေါ်မှာ \"ဂုံ\" ဆိုတဲ့ မြေခွေးလေး ရှိတယ်။",
+        "th": "นานมาแล้ว บนภูเขาใกล้หมู่บ้านแห่งหนึ่ง มีจิ้งจอกตัวเล็กชื่อ \"กอน\"",
+        "si": "ඉස්සර, එක ගමකට ළඟ කන්දක, \"ගොන්\" කියලා පොඩි නරියෙක් හිටියා."
+      },
+      "vocab": [
+        {
+          "word": "昔",
+          "reading": "むかし",
+          "meanings": {
+            "vi": "ngày xưa",
+            "en": "long ago",
+            "zh-Hans": "从前",
+            "zh-Hant": "從前",
+            "ko": "옛날",
+            "tl": "noong unang panahon",
+            "ne": "धेरै पहिले",
+            "id": "zaman dahulu",
+            "pt": "antigamente",
+            "my": "ရှေးအခါ",
+            "th": "กาลครั้งหนึ่ง",
+            "si": "ඉස්සර, බොහෝ කලකට පෙර"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜という = tên là ~, gọi là ~. きつね = con cáo.",
+        "en": "〜という = named ~, called ~. きつね = fox.",
+        "zh-Hans": "〜という＝叫做……。きつね＝狐狸。",
+        "zh-Hant": "〜という＝叫做……。きつね＝狐狸。",
+        "ko": "~라는. きつね = 여우.",
+        "tl": "〜という = na tinatawag na ~. きつね = soro.",
+        "ne": "〜という = ~ भन्ने। きつね = फ्याउरो।",
+        "id": "〜という = bernama ~. きつね = rubah.",
+        "pt": "〜という = chamado ~. きつね = raposa.",
+        "my": "〜という = ~ ဆိုတဲ့။ きつね = မြေခွေး။",
+        "th": "〜という = ชื่อว่า ~ きつね = จิ้งจอก",
+        "si": "〜という = ~ කියලා නමින්. きつね = නරියා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=6.237,11.584",
+      "t": [
+        6.237,
+        11.584
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ごんは、家族のいない、ひとりぼっちのきつねでした。",
+      "furigana": [
+        {
+          "surface": "ごんは、",
+          "reading": ""
+        },
+        {
+          "surface": "家族",
+          "reading": "かぞく"
+        },
+        {
+          "surface": "のいない、ひとりぼっちのきつねでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Gon wa, kazoku no inai, hitoribotchi no kitsune deshita.",
+      "translations": {
+        "vi": "Gon là chú cáo mồ côi, không có gia đình, sống một mình lẻ loi.",
+        "en": "Gon was a lonely fox with no family at all.",
+        "zh-Hans": "阿权是一只没有家人、孤零零的狐狸。",
+        "zh-Hant": "阿權是一隻沒有家人、孤零零的狐狸。",
+        "ko": "곤은 가족이 없는 외톨이 여우였습니다.",
+        "tl": "Si Gon ay nag-iisang soro na walang pamilya.",
+        "ne": "गोन परिवार नभएको एक्लो फ्याउरो थियो।",
+        "id": "Gon adalah rubah yang sebatang kara, tanpa keluarga.",
+        "pt": "Gon era uma raposa sozinha, sem família.",
+        "my": "ဂုံက မိသားစု မရှိတဲ့ အထီးကျန် မြေခွေးပါ။",
+        "th": "กอนเป็นจิ้งจอกตัวเดียว ไม่มีครอบครัว",
+        "si": "ගොන් පවුලක් නැති, තනිවම හිටපු නරියෙක්."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ひとりぼっち = một mình lẻ loi. Mệnh đề 家族のいない bổ nghĩa cho きつね.",
+        "en": "ひとりぼっち = all alone. 家族のいない ('with no family') modifies きつね.",
+        "zh-Hans": "ひとりぼっち＝孤零零。家族のいない修饰きつね。",
+        "zh-Hant": "ひとりぼっち＝孤零零。家族のいない修飾きつね。",
+        "ko": "ひとりぼっち = 외톨이.",
+        "tl": "ひとりぼっち = nag-iisa.",
+        "ne": "ひとりぼっち = एक्लो।",
+        "id": "ひとりぼっち = sebatang kara.",
+        "pt": "ひとりぼっち = sozinho.",
+        "my": "ひとりぼっち = အထီးကျန်။",
+        "th": "ひとりぼっち = ตัวคนเดียว",
+        "si": "ひとりぼっち = තනිවම. 家族のいない (පවුලක් නැති) きつね ට අදාළයි."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=12.184,16.405",
+      "t": [
+        12.184,
+        16.405
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "森の中の小さな穴に、住んでいました。",
+      "furigana": [
+        {
+          "surface": "森",
+          "reading": "もり"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "小",
+          "reading": "ちい"
+        },
+        {
+          "surface": "さな",
+          "reading": ""
+        },
+        {
+          "surface": "穴",
+          "reading": "あな"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "住",
+          "reading": "す"
+        },
+        {
+          "surface": "んでいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mori no naka no chiisana ana ni, sundeimashita.",
+      "translations": {
+        "vi": "Chú sống trong một cái hang nhỏ giữa rừng.",
+        "en": "He lived in a small hole in the forest.",
+        "zh-Hans": "它住在森林里的一个小洞里。",
+        "zh-Hant": "它住在森林裡的一個小洞裡。",
+        "ko": "숲속의 작은 굴에 살고 있었습니다.",
+        "tl": "Nakatira siya sa isang maliit na lungga sa gubat.",
+        "ne": "ऊ जङ्गलको सानो दुलोमा बस्थ्यो।",
+        "id": "Ia tinggal di sebuah lubang kecil di hutan.",
+        "pt": "Ele morava numa toca pequena na floresta.",
+        "my": "သူက တောထဲက တွင်းငယ်လေးထဲမှာ နေတယ်။",
+        "th": "มันอาศัยอยู่ในโพรงเล็ก ๆ ในป่า",
+        "si": "එයා හිටියේ කැලේ ඇතුළේ පොඩි ගුහාවක."
+      },
+      "vocab": [
+        {
+          "word": "穴",
+          "reading": "あな",
+          "meanings": {
+            "vi": "cái hố, hang",
+            "en": "hole, pit",
+            "zh-Hans": "洞",
+            "zh-Hant": "洞",
+            "ko": "구멍",
+            "tl": "butas",
+            "ne": "प्वाल",
+            "id": "lubang",
+            "pt": "buraco",
+            "my": "တွင်း",
+            "th": "หลุม",
+            "si": "සිදුර, වළ"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "穴 = cái hang, cái lỗ. 〜に住む = sống ở ~.",
+        "en": "穴 = hole, den. 〜に住む = live in ~.",
+        "zh-Hans": "穴＝洞。〜に住む＝住在……。",
+        "zh-Hant": "穴＝洞。〜に住む＝住在……。",
+        "ko": "穴 = 굴. 〜に住む = ~에 살다.",
+        "tl": "穴 = lungga.",
+        "ne": "穴 = दुलो।",
+        "id": "穴 = lubang.",
+        "pt": "穴 = toca.",
+        "my": "穴 = တွင်း။",
+        "th": "穴 = โพรง",
+        "si": "穴 = ගුහාව, සිදුර. 〜に住む = ~ ඇතුළේ ජීවත් වෙනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=17.005,20.878",
+      "t": [
+        17.005,
+        20.878
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ごんは、いたずらが大好きでした。",
+      "furigana": [
+        {
+          "surface": "ごんは、いたずらが",
+          "reading": ""
+        },
+        {
+          "surface": "大好",
+          "reading": "だいす"
+        },
+        {
+          "surface": "きでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Gon wa, itazura ga daisuki deshita.",
+      "translations": {
+        "vi": "Gon rất thích nghịch ngợm.",
+        "en": "Gon loved playing pranks.",
+        "zh-Hans": "阿权最喜欢恶作剧。",
+        "zh-Hant": "阿權最喜歡惡作劇。",
+        "ko": "곤은 장난을 아주 좋아했습니다.",
+        "tl": "Mahilig si Gon sa kalokohan.",
+        "ne": "गोनलाई बदमासी गर्न औधी मन पर्थ्यो।",
+        "id": "Gon sangat suka berbuat iseng.",
+        "pt": "Gon adorava fazer travessuras.",
+        "my": "ဂုံက ဆော့ကစား နှောင့်ယှက်ရတာ အရမ်းကြိုက်တယ်။",
+        "th": "กอนชอบเล่นซนมาก",
+        "si": "ගොන්ට විහිළු කරන්න හරිම ආසයි."
+      },
+      "vocab": [
+        {
+          "word": "いたずら",
+          "reading": "いたずら",
+          "meanings": {
+            "vi": "trò nghịch ngợm",
+            "en": "mischief, prank",
+            "zh-Hans": "恶作剧",
+            "zh-Hant": "惡作劇",
+            "ko": "장난",
+            "tl": "kalokohan",
+            "ne": "बदमासी",
+            "id": "kenakalan",
+            "pt": "travessura",
+            "my": "အဆော့အကစား",
+            "th": "ความซุกซน",
+            "si": "විහිළුව, දඟකාරකම"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "いたずら = trò nghịch ngợm, chơi khăm.",
+        "en": "いたずら = mischief, prank.",
+        "zh-Hans": "いたずら＝恶作剧。",
+        "zh-Hant": "いたずら＝惡作劇。",
+        "ko": "いたずら = 장난.",
+        "tl": "いたずら = kalokohan.",
+        "ne": "いたずら = बदमासी।",
+        "id": "いたずら = keisengan.",
+        "pt": "いたずら = travessura.",
+        "my": "いたずら = နှောင့်ယှက်မှု။",
+        "th": "いたずら = การเล่นซน",
+        "si": "いたずら = විහිළුව, නරක වැඩ."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=21.478,24.192",
+      "t": [
+        21.478,
+        24.192
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "夜も昼も、村へ出てきては、いたずらばかりしました。",
+      "furigana": [
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "昼",
+          "reading": "ひる"
+        },
+        {
+          "surface": "も、",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "てきては、いたずらばかりしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Yoru mo hiru mo, mura e detekite wa, itazura bakari shimashita.",
+      "translations": {
+        "vi": "Đêm cũng như ngày, chú mò xuống làng chỉ để bày trò quậy phá.",
+        "en": "Day and night, he came down to the village just to make mischief.",
+        "zh-Hans": "不分白天黑夜，它常跑到村里，光是捣乱。",
+        "zh-Hant": "不分白天黑夜，它常跑到村裡，光是搗亂。",
+        "ko": "밤이나 낮이나 마을로 내려와서는 장난만 쳤습니다.",
+        "tl": "Gabi man o araw, bumababa siya sa nayon para lang magkalokohan.",
+        "ne": "रात होस् कि दिन, गाउँमा आएर बदमासी मात्र गर्थ्यो।",
+        "id": "Siang dan malam, ia turun ke desa hanya untuk berbuat iseng.",
+        "pt": "Noite e dia, ia à aldeia só para aprontar.",
+        "my": "နေ့ရော ညရော ရွာထဲ ဆင်းလာပြီး ဆော့တာချည်းပဲ။",
+        "th": "ทั้งกลางวันกลางคืน มันลงมาที่หมู่บ้านเพื่อเล่นซนอย่างเดียว",
+        "si": "රෑ දවල් නොබලා ගමට ඇවිත්, විහිළු කරනවා විතරයි."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜ては = hễ ~ là (lặp lại). 〜ばかり = toàn ~, chỉ ~.",
+        "en": "〜ては = whenever ~ (repeated). 〜ばかり = nothing but ~.",
+        "zh-Hans": "〜ては＝每次……就。〜ばかり＝光是……。",
+        "zh-Hant": "〜ては＝每次……就。〜ばかり＝光是……。",
+        "ko": "〜ては = ~하고는 (반복). 〜ばかり = ~만.",
+        "tl": "〜ては = tuwing ~. 〜ばかり = puro ~.",
+        "ne": "〜ては = ~ अनि (दोहोरिने)। 〜ばかり = मात्र।",
+        "id": "〜ては = setiap ~. 〜ばかり = melulu.",
+        "pt": "〜ては = toda vez que ~. 〜ばかり = só ~.",
+        "my": "〜ては = ~ တိုင်း။ 〜ばかり = ချည်းပဲ။",
+        "th": "〜ては = ทุกครั้งที่ ~ 〜ばかり = แต่ ~",
+        "si": "〜ては = ~ කරන හැම වෙලාවකම (පුනරාවර්තනය). 〜ばかり = ~ විතරයි."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=24.792,29.339",
+      "t": [
+        24.792,
+        29.339
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "畑のいもを取ったり、外にほしてある着物を落としたり。",
+      "furigana": [
+        {
+          "surface": "畑",
+          "reading": "はたけ"
+        },
+        {
+          "surface": "のいもを",
+          "reading": ""
+        },
+        {
+          "surface": "取",
+          "reading": "と"
+        },
+        {
+          "surface": "ったり、",
+          "reading": ""
+        },
+        {
+          "surface": "外",
+          "reading": "そと"
+        },
+        {
+          "surface": "にほしてある",
+          "reading": ""
+        },
+        {
+          "surface": "着物",
+          "reading": "きもの"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "落",
+          "reading": "お"
+        },
+        {
+          "surface": "としたり。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hatake no imo o tottari, soto ni hoshitearu kimono o otoshitari.",
+      "translations": {
+        "vi": "Nào là lấy trộm khoai ngoài ruộng, nào là làm rơi quần áo đang phơi.",
+        "en": "Stealing potatoes from the fields, knocking down kimonos hung out to dry...",
+        "zh-Hans": "一会儿偷地里的芋头，一会儿把晾着的衣服弄掉。",
+        "zh-Hant": "一會兒偷地裡的芋頭，一會兒把晾著的衣服弄掉。",
+        "ko": "밭의 감자를 가져가기도 하고, 밖에 널어 둔 옷을 떨어뜨리기도 하고.",
+        "tl": "Kumukuha ng gabi sa bukid, naghuhulog ng mga sinampay na kimono...",
+        "ne": "खेतको तरुल चोर्ने, बाहिर सुकाएको लुगा खसाल्ने...",
+        "id": "Mengambil ubi di ladang, menjatuhkan kimono yang dijemur...",
+        "pt": "Pegava batatas da roça, derrubava as roupas no varal...",
+        "my": "လယ်က ပိန်းဥ ယူတာ၊ အပြင်မှာ လှန်းထားတဲ့ အဝတ်တွေ ချပစ်တာ...",
+        "th": "ขโมยมันในไร่บ้าง ทำผ้าที่ตากไว้ตกบ้าง",
+        "si": "කුඹුරුවල අල හොරෙන් ගන්නවා, එළියේ වේළන්න දාපු කිමෝනෝ බිමට දානවා..."
+      },
+      "vocab": [
+        {
+          "word": "畑",
+          "reading": "はたけ",
+          "meanings": {
+            "vi": "ruộng, vườn rau",
+            "en": "field (farm)",
+            "zh-Hans": "田地",
+            "zh-Hant": "田地",
+            "ko": "밭",
+            "tl": "bukid",
+            "ne": "खेत",
+            "id": "ladang",
+            "pt": "campo, roça",
+            "my": "လယ်ကွင်း",
+            "th": "ไร่ นา",
+            "si": "කෙත, වත්ත"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "着物",
+          "reading": "きもの",
+          "meanings": {
+            "vi": "áo kimono",
+            "en": "kimono",
+            "zh-Hans": "和服",
+            "zh-Hant": "和服",
+            "ko": "기모노",
+            "tl": "kimono",
+            "ne": "किमोनो",
+            "id": "kimono",
+            "pt": "quimono",
+            "my": "ကီမိုနို",
+            "th": "กิโมโน",
+            "si": "කිමෝනෝ"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜たり〜たり = nào là ~ nào là ~ (liệt kê hành động).",
+        "en": "〜たり〜たり = things like ~ and ~ (listing actions).",
+        "zh-Hans": "〜たり〜たり＝又……又……（列举动作）。",
+        "zh-Hant": "〜たり〜たり＝又……又……（列舉動作）。",
+        "ko": "〜たり〜たり = ~하기도 하고 ~하기도 하고.",
+        "tl": "〜たり〜たり = tulad ng ~ at ~.",
+        "ne": "〜たり〜たり = ~ र ~ जस्ता।",
+        "id": "〜たり〜たり = ~ dan ~ (daftar tindakan).",
+        "pt": "〜たり〜たり = coisas como ~ e ~.",
+        "my": "〜たり〜たり = ~ တာ၊ ~ တာ။",
+        "th": "〜たり〜たり = ~ บ้าง ~ บ้าง",
+        "si": "〜たり〜たり = ~ කරමින්, ~ කරමින් (ක්‍රියා ලැයිස්තුවක්)."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=29.939,34.972",
+      "t": [
+        29.939,
+        34.972
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "村の人たちは、ごんにとてもこまっていました。",
+      "furigana": [
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "たちは、ごんにとてもこまっていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mura no hitotachi wa, Gon ni totemo komatteimashita.",
+      "translations": {
+        "vi": "Người trong làng rất khổ sở vì Gon.",
+        "en": "The villagers were really troubled by Gon.",
+        "zh-Hans": "村里的人都拿阿权没办法。",
+        "zh-Hant": "村裡的人都拿阿權沒辦法。",
+        "ko": "마을 사람들은 곤 때문에 아주 곤란했습니다.",
+        "tl": "Problemado ang mga taganayon dahil kay Gon.",
+        "ne": "गाउँलेहरू गोनका कारण निकै हैरान थिए।",
+        "id": "Penduduk desa sangat kesal pada Gon.",
+        "pt": "Os aldeões viviam aflitos com o Gon.",
+        "my": "ရွာသားတွေက ဂုံကြောင့် အရမ်း ဒုက္ခရောက်တယ်။",
+        "th": "ชาวบ้านเดือดร้อนเพราะกอนมาก",
+        "si": "ගමේ අයට ගොන් නිසා හරිම කරදරයි."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜にこまる = khổ sở, đau đầu vì ~.",
+        "en": "〜にこまる = be troubled by ~.",
+        "zh-Hans": "〜にこまる＝为……而烦恼。",
+        "zh-Hant": "〜にこまる＝為……而煩惱。",
+        "ko": "~에 곤란하다.",
+        "tl": "〜にこまる = maproblema sa ~.",
+        "ne": "〜にこまる = ~ ले हैरान।",
+        "id": "〜にこまる = kesulitan karena ~.",
+        "pt": "〜にこまる = sofrer com ~.",
+        "my": "〜にこまる = ~ ကြောင့် ဒုက္ခရောက်။",
+        "th": "〜にこまる = เดือดร้อนเพราะ ~",
+        "si": "〜にこまる = ~ නිසා කරදරයට පත් වෙනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=35.572,39.202",
+      "t": [
+        35.572,
+        39.202
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ある秋のことでした。",
+      "furigana": [
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "秋",
+          "reading": "あき"
+        },
+        {
+          "surface": "のことでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aru aki no koto deshita.",
+      "translations": {
+        "vi": "Đó là vào một mùa thu nọ.",
+        "en": "It happened one autumn.",
+        "zh-Hans": "那是某一年秋天的事。",
+        "zh-Hant": "那是某一年秋天的事。",
+        "ko": "어느 가을의 일이었습니다.",
+        "tl": "Nangyari ito isang taglagas.",
+        "ne": "यो एक शरद ऋतुको कुरा हो।",
+        "id": "Itu terjadi pada suatu musim gugur.",
+        "pt": "Foi num certo outono.",
+        "my": "ဒါက ဆောင်းဦးတစ်ခုမှာ ဖြစ်ခဲ့တာ။",
+        "th": "เป็นเรื่องในฤดูใบไม้ร่วงหนึ่ง",
+        "si": "ඒ වුණේ එක සරත් කාලයක."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ある〜 = một ~ nọ. 〜のことでした = đó là chuyện ~.",
+        "en": "ある〜 = a certain ~. 〜のことでした = it was (the time of) ~.",
+        "zh-Hans": "ある〜＝某个……。",
+        "zh-Hant": "ある〜＝某個……。",
+        "ko": "ある〜 = 어느 ~.",
+        "tl": "ある〜 = isang ~.",
+        "ne": "ある〜 = कुनै ~।",
+        "id": "ある〜 = suatu ~.",
+        "pt": "ある〜 = um certo ~.",
+        "my": "ある〜 = တစ်ခုသော ~။",
+        "th": "ある〜 = ~ หนึ่ง",
+        "si": "ある〜 = එක්තරා ~. 〜のことでした = ඒ ~ කාලයේ."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=39.802,41.298",
+      "t": [
+        39.802,
+        41.298
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "何日も、雨が降り続きました。",
+      "furigana": [
+        {
+          "surface": "何",
+          "reading": "なん"
+        },
+        {
+          "surface": "日",
+          "reading": "にち"
+        },
+        {
+          "surface": "も、",
+          "reading": ""
+        },
+        {
+          "surface": "雨",
+          "reading": "あめ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "降",
+          "reading": "ふ"
+        },
+        {
+          "surface": "り",
+          "reading": ""
+        },
+        {
+          "surface": "続",
+          "reading": "つづ"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Nannichi mo, ame ga furitsuzukimashita.",
+      "translations": {
+        "vi": "Mưa rơi suốt mấy ngày liền.",
+        "en": "It rained for several days in a row.",
+        "zh-Hans": "一连下了好几天雨。",
+        "zh-Hant": "一連下了好幾天雨。",
+        "ko": "며칠 동안 비가 계속 내렸습니다.",
+        "tl": "Ilang araw na umulan nang tuloy-tuloy.",
+        "ne": "धेरै दिनसम्म पानी परिरह्यो।",
+        "id": "Hujan turun berhari-hari.",
+        "pt": "Choveu vários dias seguidos.",
+        "my": "ရက်တော်တော်များများ မိုးဆက်တိုက် ရွာတယ်။",
+        "th": "ฝนตกติดต่อกันหลายวัน",
+        "si": "දවස් ගාණක් දිගටම වැස්සා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "降り続く = mưa mãi không dứt (động từ + 続く = cứ ~ mãi).",
+        "en": "降り続く = keep raining (verb stem + 続く = keep ~ing).",
+        "zh-Hans": "降り続く＝一直下（动词＋続く＝持续）。",
+        "zh-Hant": "降り続く＝一直下（動詞＋続く＝持續）。",
+        "ko": "降り続く = 계속 내리다.",
+        "tl": "降り続く = patuloy na umulan.",
+        "ne": "降り続く = लगातार पर्नु।",
+        "id": "降り続く = terus turun.",
+        "pt": "降り続く = continuar chovendo.",
+        "my": "降り続く = ဆက်တိုက်ရွာ။",
+        "th": "降り続く = ตกต่อเนื่อง",
+        "si": "降り続く = දිගටම වහිනවා (ක්‍රියාපද මූලය + 続く = දිගටම ~ කරනවා)."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=41.898,44.553",
+      "t": [
+        41.898,
+        44.553
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ごんは、そのあいだ、ずっと家の中にいました。",
+      "furigana": [
+        {
+          "surface": "ごんは、そのあいだ、ずっと",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "にいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Gon wa, sono aida, zutto ie no naka ni imashita.",
+      "translations": {
+        "vi": "Suốt thời gian đó, Gon cứ ở lì trong nhà.",
+        "en": "All that time, Gon stayed inside his home.",
+        "zh-Hans": "这期间，阿权一直待在家里。",
+        "zh-Hant": "這期間，阿權一直待在家裡。",
+        "ko": "그동안 곤은 계속 집 안에 있었습니다.",
+        "tl": "Sa buong panahong iyon, nasa loob lang ng lungga si Gon.",
+        "ne": "त्यतिन्जेल गोन घरभित्रै बस्यो।",
+        "id": "Selama itu, Gon terus berada di rumahnya.",
+        "pt": "Esse tempo todo, Gon ficou em casa.",
+        "my": "အဲဒီအတောအတွင်း ဂုံက အိမ်ထဲမှာပဲ နေတယ်။",
+        "th": "ตลอดช่วงนั้น กอนอยู่แต่ในบ้าน",
+        "si": "ඒ කාලය පුරාම, ගොන් ගුහාව ඇතුළේම හිටියා."
+      },
+      "vocab": [
+        {
+          "word": "ずっと",
+          "reading": "ずっと",
+          "meanings": {
+            "vi": "suốt, mãi",
+            "en": "all along, the whole time",
+            "zh-Hans": "一直",
+            "zh-Hant": "一直",
+            "ko": "계속",
+            "tl": "palagi, matagal",
+            "ne": "सधैँ",
+            "id": "terus-menerus",
+            "pt": "o tempo todo",
+            "my": "တောက်လျှောက်",
+            "th": "ตลอด",
+            "si": "දිගටම, මුළු කාලයම"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "そのあいだ = trong khoảng thời gian đó. ずっと = suốt.",
+        "en": "そのあいだ = during that time. ずっと = the whole time.",
+        "zh-Hans": "そのあいだ＝在那期间。ずっと＝一直。",
+        "zh-Hant": "そのあいだ＝在那期間。ずっと＝一直。",
+        "ko": "그동안. 계속.",
+        "tl": "sa panahong iyon. palagi.",
+        "ne": "त्यतिन्जेल। निरन्तर।",
+        "id": "selama itu. terus.",
+        "pt": "durante isso. o tempo todo.",
+        "my": "အဲဒီအတောအတွင်း။ တောက်လျှောက်။",
+        "th": "ช่วงนั้น ตลอด",
+        "si": "そのあいだ = ඒ කාලය පුරා. ずっと = දිගටම."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=45.153,49.251",
+      "t": [
+        45.153,
+        49.251
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "雨がやむと、ごんはほっとして、外へ出ました。",
+      "furigana": [
+        {
+          "surface": "雨",
+          "reading": "あめ"
+        },
+        {
+          "surface": "がやむと、ごんはほっとして、",
+          "reading": ""
+        },
+        {
+          "surface": "外",
+          "reading": "そと"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "ました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ame ga yamu to, Gon wa hotto shite, soto e demashita.",
+      "translations": {
+        "vi": "Mưa vừa tạnh, Gon nhẹ cả người, liền ra ngoài.",
+        "en": "When the rain stopped, Gon felt relieved and went outside.",
+        "zh-Hans": "雨一停，阿权松了口气，走了出来。",
+        "zh-Hant": "雨一停，阿權鬆了口氣，走了出來。",
+        "ko": "비가 그치자 곤은 안심하고 밖으로 나왔습니다.",
+        "tl": "Nang tumila ang ulan, nakahinga si Gon at lumabas.",
+        "ne": "पानी रोकिएपछि गोन ढुक्क भएर बाहिर निस्क्यो।",
+        "id": "Begitu hujan reda, Gon lega dan keluar.",
+        "pt": "Quando a chuva parou, Gon, aliviado, saiu.",
+        "my": "မိုးတိတ်တော့ ဂုံက စိတ်သက်သာပြီး အပြင်ထွက်တယ်။",
+        "th": "พอฝนหยุด กอนโล่งใจแล้วออกไปข้างนอก",
+        "si": "වැස්ස නැවතුණාම, ගොන් සැනසීමෙන් එළියට ආවා."
+      },
+      "vocab": [
+        {
+          "word": "ほっと",
+          "reading": "ほっと",
+          "meanings": {
+            "vi": "thở phào nhẹ nhõm",
+            "en": "relieved",
+            "zh-Hans": "松了口气",
+            "zh-Hant": "鬆了口氣",
+            "ko": "안심하다",
+            "tl": "nakahinga nang maluwag",
+            "ne": "ढुक्क",
+            "id": "lega",
+            "pt": "aliviado",
+            "my": "စိတ်သက်သာ",
+            "th": "โล่งใจ",
+            "si": "සහනයක් දැනුණු"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜と = hễ ~ thì. ほっとする = nhẹ nhõm.",
+        "en": "〜と = when ~. ほっとする = feel relieved.",
+        "zh-Hans": "〜と＝一……就。ほっとする＝松一口气。",
+        "zh-Hant": "〜と＝一……就。ほっとする＝鬆一口氣。",
+        "ko": "〜と = ~하자. ほっとする = 안심하다.",
+        "tl": "〜と = nang ~. ほっとする = makahinga.",
+        "ne": "〜と = ~ पछि। ほっとする = ढुक्क हुनु।",
+        "id": "〜と = begitu ~. ほっとする = lega.",
+        "pt": "〜と = quando ~. ほっとする = aliviar-se.",
+        "my": "〜と = ~ တော့။ ほっとする = စိတ်သက်သာ။",
+        "th": "〜と = พอ ~ ほっとする = โล่งใจ",
+        "si": "〜と = ~ වුණාම. ほっとする = සැනසෙනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=49.851,53.756",
+      "t": [
+        49.851,
+        53.756
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "空はよく晴れて、鳥の声が聞こえます。",
+      "furigana": [
+        {
+          "surface": "空",
+          "reading": "そら"
+        },
+        {
+          "surface": "はよく",
+          "reading": ""
+        },
+        {
+          "surface": "晴",
+          "reading": "は"
+        },
+        {
+          "surface": "れて、",
+          "reading": ""
+        },
+        {
+          "surface": "鳥",
+          "reading": "とり"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "声",
+          "reading": "こえ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "こえます。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sora wa yoku harete, tori no koe ga kikoemasu.",
+      "translations": {
+        "vi": "Trời quang đãng, tiếng chim hót vang.",
+        "en": "The sky was clear, and birds were singing.",
+        "zh-Hans": "天空晴朗，听得见鸟叫声。",
+        "zh-Hant": "天空晴朗，聽得見鳥叫聲。",
+        "ko": "하늘은 맑게 개고 새소리가 들립니다.",
+        "tl": "Maaliwalas ang langit, at may huni ng ibon.",
+        "ne": "आकाश खुलेको थियो, चराको आवाज सुनिन्थ्यो।",
+        "id": "Langit cerah, terdengar kicau burung.",
+        "pt": "O céu estava limpo e os pássaros cantavam.",
+        "my": "ကောင်းကင် ကြည်လင်ပြီး ငှက်သံတွေ ကြားရတယ်။",
+        "th": "ท้องฟ้าแจ่มใส ได้ยินเสียงนกร้อง",
+        "si": "අහස පැහැදිලියි, කුරුල්ලන්ගේ හඬ ඇහෙනවා."
+      },
+      "vocab": [
+        {
+          "word": "聞こえる",
+          "reading": "きこえる",
+          "meanings": {
+            "vi": "nghe thấy",
+            "en": "to be heard",
+            "zh-Hans": "听得见",
+            "zh-Hant": "聽得見",
+            "ko": "들리다",
+            "tl": "marinig",
+            "ne": "सुनिनु",
+            "id": "terdengar",
+            "pt": "ouvir-se",
+            "my": "ကြားရ",
+            "th": "ได้ยิน",
+            "si": "ඇසීම, ඇහෙනවා"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "晴れる = (trời) quang, tạnh ráo.",
+        "en": "晴れる = to clear up (weather).",
+        "zh-Hans": "晴れる＝放晴。",
+        "zh-Hant": "晴れる＝放晴。",
+        "ko": "개다.",
+        "tl": "lumiwanag.",
+        "ne": "खुल्नु (मौसम)।",
+        "id": "cerah.",
+        "pt": "abrir (o tempo).",
+        "my": "သာတယ်။",
+        "th": "แจ่มใส",
+        "si": "晴れる = (කාලගුණය) පැහැදිලි වෙනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=54.356,58.008",
+      "t": [
+        54.356,
+        58.008
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ごんは、村の小川のほうへ歩いていきました。",
+      "furigana": [
+        {
+          "surface": "ごんは、",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "小川",
+          "reading": "おがわ"
+        },
+        {
+          "surface": "のほうへ",
+          "reading": ""
+        },
+        {
+          "surface": "歩",
+          "reading": "ある"
+        },
+        {
+          "surface": "いていきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Gon wa, mura no ogawa no hou e aruiteikimashita.",
+      "translations": {
+        "vi": "Gon đi về phía con suối nhỏ của làng.",
+        "en": "Gon walked toward the little stream in the village.",
+        "zh-Hans": "阿权朝村里的小河走去。",
+        "zh-Hant": "阿權朝村裡的小河走去。",
+        "ko": "곤은 마을의 작은 개울 쪽으로 걸어갔습니다.",
+        "tl": "Naglakad si Gon papunta sa maliit na sapa ng nayon.",
+        "ne": "गोन गाउँको सानो खोलातिर हिँड्यो।",
+        "id": "Gon berjalan menuju sungai kecil di desa.",
+        "pt": "Gon foi andando até o riacho da aldeia.",
+        "my": "ဂုံက ရွာရဲ့ ချောင်းလေးဘက် လျှောက်သွားတယ်။",
+        "th": "กอนเดินไปทางลำธารเล็ก ๆ ของหมู่บ้าน",
+        "si": "ගොන් ගමේ පොඩි ඇළ පැත්තට ඇවිදගෙන ගියා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "小川 = suối nhỏ. 〜のほうへ = về phía ~.",
+        "en": "小川 = stream. 〜のほうへ = toward ~.",
+        "zh-Hans": "小川＝小河。〜のほうへ＝朝……。",
+        "zh-Hant": "小川＝小河。〜のほうへ＝朝……。",
+        "ko": "小川 = 개울.",
+        "tl": "小川 = sapa.",
+        "ne": "小川 = खोला।",
+        "id": "小川 = sungai kecil.",
+        "pt": "小川 = riacho.",
+        "my": "小川 = ချောင်းလေး။",
+        "th": "小川 = ลำธาร",
+        "si": "小川 = ඇළ. 〜のほうへ = ~ පැත්තට."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=58.608,62.361",
+      "t": [
+        58.608,
+        62.361
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "川の水はいつもより多くて、茶色くにごっていました。",
+      "furigana": [
+        {
+          "surface": "川",
+          "reading": "かわ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "はいつもより",
+          "reading": ""
+        },
+        {
+          "surface": "多",
+          "reading": "おお"
+        },
+        {
+          "surface": "くて、",
+          "reading": ""
+        },
+        {
+          "surface": "茶色",
+          "reading": "ちゃいろ"
+        },
+        {
+          "surface": "くにごっていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kawa no mizu wa itsumo yori ookute, chairoku nigotteimashita.",
+      "translations": {
+        "vi": "Nước suối nhiều hơn mọi khi, đục ngầu màu nâu.",
+        "en": "The water was higher than usual and muddy brown.",
+        "zh-Hans": "河水比平时多，浑浊发黄。",
+        "zh-Hant": "河水比平時多，渾濁發黃。",
+        "ko": "강물은 평소보다 많고 갈색으로 흐려져 있었습니다.",
+        "tl": "Mas mataas ang tubig kaysa dati at malabong kayumanggi.",
+        "ne": "पानी सधैंभन्दा धेरै र खैरो धमिलो थियो।",
+        "id": "Airnya lebih banyak dari biasa dan keruh kecokelatan.",
+        "pt": "A água estava mais alta e barrenta.",
+        "my": "ရေက ပုံမှန်ထက် များပြီး အညိုရောင် နောက်နေတယ်။",
+        "th": "น้ำมากกว่าปกติและขุ่นเป็นสีน้ำตาล",
+        "si": "ඇළේ වතුර සාමාන්‍යයට වඩා වැඩියි, බොර වෙලා දුඹුරු පාටයි."
+      },
+      "vocab": [
+        {
+          "word": "茶色い",
+          "reading": "ちゃいろい",
+          "meanings": {
+            "vi": "màu nâu",
+            "en": "brown",
+            "zh-Hans": "棕色的",
+            "zh-Hant": "棕色的",
+            "ko": "갈색이다",
+            "tl": "kayumanggi",
+            "ne": "खैरो",
+            "id": "cokelat",
+            "pt": "marrom",
+            "my": "အညိုရောင်",
+            "th": "สีน้ำตาล",
+            "si": "දුඹුරු"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "にごる = đục. いつもより = hơn mọi khi.",
+        "en": "にごる = become muddy. いつもより = than usual.",
+        "zh-Hans": "にごる＝浑浊。いつもより＝比平时。",
+        "zh-Hant": "にごる＝渾濁。いつもより＝比平時。",
+        "ko": "にごる = 흐려지다.",
+        "tl": "にごる = lumabo.",
+        "ne": "にごる = धमिलो हुनु।",
+        "id": "にごる = keruh.",
+        "pt": "にごる = turvar.",
+        "my": "にごる = နောက်တယ်။",
+        "th": "にごる = ขุ่น",
+        "si": "にごる = බොර වෙනවා. いつもより = සාමාන්‍යයට වඩා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=62.961,67.437",
+      "t": [
+        62.961,
+        67.437
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "見ると、川の中に、だれかがいます。",
+      "furigana": [
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "ると、",
+          "reading": ""
+        },
+        {
+          "surface": "川",
+          "reading": "かわ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "に、だれかがいます。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Miru to, kawa no naka ni, dare ka ga imasu.",
+      "translations": {
+        "vi": "Nhìn kỹ thì thấy có ai đó đang ở giữa dòng.",
+        "en": "Looking closer, he saw someone in the water.",
+        "zh-Hans": "一看，河里有个人。",
+        "zh-Hant": "一看，河裡有個人。",
+        "ko": "보니 강 속에 누군가 있습니다.",
+        "tl": "Napansin niyang may tao sa tubig.",
+        "ne": "हेर्दा खोलामा कोही थियो।",
+        "id": "Terlihat ada seseorang di sungai.",
+        "pt": "Olhando, viu alguém no rio.",
+        "my": "ကြည့်လိုက်တော့ ချောင်းထဲမှာ တစ်ယောက်ယောက် ရှိတယ်။",
+        "th": "มองไปก็เห็นมีใครอยู่ในน้ำ",
+        "si": "බලද්දී, වතුරේ කවුරුහරි ඉන්නවා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "だれか = ai đó.",
+        "en": "だれか = someone.",
+        "zh-Hans": "だれか＝某人。",
+        "zh-Hant": "だれか＝某人。",
+        "ko": "누군가.",
+        "tl": "isang tao.",
+        "ne": "कोही।",
+        "id": "seseorang.",
+        "pt": "alguém.",
+        "my": "တစ်ယောက်ယောက်။",
+        "th": "ใครบางคน",
+        "si": "だれか = කවුරුහරි."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=68.037,71.384",
+      "t": [
+        68.037,
+        71.384
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ごんは、草のかげから、そっとのぞきました。",
+      "furigana": [
+        {
+          "surface": "ごんは、",
+          "reading": ""
+        },
+        {
+          "surface": "草",
+          "reading": "くさ"
+        },
+        {
+          "surface": "のかげから、そっとのぞきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Gon wa, kusa no kage kara, sotto nozokimashita.",
+      "translations": {
+        "vi": "Gon khẽ nấp sau bụi cỏ nhìn trộm.",
+        "en": "Gon peeked out quietly from behind the grass.",
+        "zh-Hans": "阿权躲在草丛后面，悄悄地看。",
+        "zh-Hant": "阿權躲在草叢後面，悄悄地看。",
+        "ko": "곤은 풀숲 뒤에서 살짝 엿보았습니다.",
+        "tl": "Dahan-dahang sumilip si Gon mula sa likod ng damo.",
+        "ne": "गोनले घाँसको आडबाट चुपचाप चियायो।",
+        "id": "Gon diam-diam mengintip dari balik rumput.",
+        "pt": "Gon espiou de mansinho atrás do capim.",
+        "my": "ဂုံက မြက်ပင်နောက်ကနေ တိတ်တိတ်လေး ချောင်းကြည့်တယ်။",
+        "th": "กอนแอบมองจากหลังพงหญ้าเงียบ ๆ",
+        "si": "ගොන් තණකොළ පිටිපස්සේ ඉඳන් හෙමින් එබිලා බැලුවා."
+      },
+      "vocab": [
+        {
+          "word": "そっと",
+          "reading": "そっと",
+          "meanings": {
+            "vi": "nhẹ nhàng, khẽ",
+            "en": "softly, quietly",
+            "zh-Hans": "轻轻地",
+            "zh-Hant": "輕輕地",
+            "ko": "살짝",
+            "tl": "marahan",
+            "ne": "बिस्तारै",
+            "id": "diam-diam, pelan",
+            "pt": "de mansinho",
+            "my": "တိတ်တဆိတ်",
+            "th": "เบา ๆ",
+            "si": "මෘදුවට, හෙමින්"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "草",
+          "reading": "くさ",
+          "meanings": {
+            "vi": "cỏ",
+            "en": "grass",
+            "zh-Hans": "草",
+            "zh-Hant": "草",
+            "ko": "풀",
+            "tl": "damo",
+            "ne": "घाँस",
+            "id": "rumput",
+            "pt": "capim",
+            "my": "မြက်",
+            "th": "หญ้า",
+            "si": "තණකොළ"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "かげ = chỗ khuất. のぞく = nhìn trộm.",
+        "en": "かげ = shade, behind. のぞく = peek.",
+        "zh-Hans": "かげ＝背后。のぞく＝偷看。",
+        "zh-Hant": "かげ＝背後。のぞく＝偷看。",
+        "ko": "かげ = 뒤. のぞく = 엿보다.",
+        "tl": "かげ = likod. のぞく = sumilip.",
+        "ne": "かげ = आड। のぞく = चियाउनु।",
+        "id": "かげ = balik. のぞく = mengintip.",
+        "pt": "かげ = atrás. のぞく = espiar.",
+        "my": "かげ = နောက်ကွယ်။ のぞく = ချောင်း။",
+        "th": "かげ = หลัง のぞく = แอบมอง",
+        "si": "かげ = පිටිපස්ස, සෙවණ. のぞく = එබිලා බලනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=71.984,75.701",
+      "t": [
+        71.984,
+        75.701
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ヒョウジュウだな。」",
+      "furigana": [
+        {
+          "surface": "「ヒョウジュウだな。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Hyoujuu da na.”",
+      "translations": {
+        "vi": "\"À, là Hyoju.\"",
+        "en": "\"It's Hyoju.\"",
+        "zh-Hans": "“是兵十啊。”",
+        "zh-Hant": "“是兵十啊。”",
+        "ko": "\"효주로군.\"",
+        "tl": "\"Si Hyoju pala.\"",
+        "ne": "\"ह्योजु रहेछ।\"",
+        "id": "\"Itu Hyoju.\"",
+        "pt": "\"É o Hyoju.\"",
+        "my": "\"ဟျိုးဂျူးပဲ။\"",
+        "th": "\"เฮียวจูนี่เอง\"",
+        "si": "\"හියෝජූ නේද.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜だな = là ~ nhỉ (tự nói, giọng con trai).",
+        "en": "〜だな = 'so it's ~' (talking to oneself, male speech).",
+        "zh-Hans": "〜だな＝是……啊（自言自语，男性口吻）。",
+        "zh-Hant": "〜だな＝是……啊（自言自語，男性口吻）。",
+        "ko": "~로군 (혼잣말).",
+        "tl": "〜だな = ~ pala.",
+        "ne": "〜だな = ~ रहेछ।",
+        "id": "〜だな = ternyata ~.",
+        "pt": "〜だな = é o ~ (falando sozinho).",
+        "my": "〜だな = ~ ပဲ။",
+        "th": "〜だな = ~ นี่เอง",
+        "si": "〜だな = \"~ නේද\" (තමාටම කියාගන්නවා, පිරිමි කතාව)."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=76.601,77.471",
+      "t": [
+        76.601,
+        77.471
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "ヒョウジュウは、村に住む若い男です。",
+      "furigana": [
+        {
+          "surface": "ヒョウジュウは、",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "住",
+          "reading": "す"
+        },
+        {
+          "surface": "む",
+          "reading": ""
+        },
+        {
+          "surface": "若",
+          "reading": "わか"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hyoujuu wa, mura ni sumu wakai otoko desu.",
+      "translations": {
+        "vi": "Hyoju là một chàng trai trẻ sống trong làng.",
+        "en": "Hyoju was a young man who lived in the village.",
+        "zh-Hans": "兵十是住在村里的年轻人。",
+        "zh-Hant": "兵十是住在村裡的年輕人。",
+        "ko": "효주는 마을에 사는 젊은 남자입니다.",
+        "tl": "Si Hyoju ay binatang nakatira sa nayon.",
+        "ne": "ह्योजु गाउँमा बस्ने युवक हो।",
+        "id": "Hyoju adalah pemuda yang tinggal di desa.",
+        "pt": "Hyoju era um rapaz que morava na aldeia.",
+        "my": "ဟျိုးဂျူးက ရွာမှာ နေတဲ့ လူငယ်တစ်ယောက်ပါ။",
+        "th": "เฮียวจูเป็นชายหนุ่มที่อาศัยอยู่ในหมู่บ้าน",
+        "si": "හියෝජූ කියන්නේ ගමේ ජීවත් වෙන තරුණයෙක්."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "村に住む若い男 = chàng trai trẻ sống trong làng (mệnh đề bổ nghĩa).",
+        "en": "村に住む若い男 = a young man who lives in the village (relative clause).",
+        "zh-Hans": "村に住む若い男＝住在村里的年轻人（定语从句）。",
+        "zh-Hant": "村に住む若い男＝住在村裡的年輕人（定語從句）。",
+        "ko": "마을에 사는 젊은 남자.",
+        "tl": "binatang nakatira sa nayon.",
+        "ne": "गाउँमा बस्ने युवक।",
+        "id": "pemuda yang tinggal di desa.",
+        "pt": "rapaz que mora na aldeia.",
+        "my": "ရွာမှာနေတဲ့ လူငယ်။",
+        "th": "ชายหนุ่มที่อยู่ในหมู่บ้าน",
+        "si": "村に住む若い男 = ගමේ ජීවත් වෙන තරුණයා (සම්බන්ධක වාක්‍යාංශය)."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=78.371,81.786",
+      "t": [
+        78.371,
+        81.786
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ヒョウジュウは、こしまで水に入って、魚をとっていました。",
+      "furigana": [
+        {
+          "surface": "ヒョウジュウは、こしまで",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "はい"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "魚",
+          "reading": "さかな"
+        },
+        {
+          "surface": "をとっていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hyoujuu wa, koshi made mizu ni haitte, sakana o totteimashita.",
+      "translations": {
+        "vi": "Hyoju lội nước đến ngang hông, đang bắt cá.",
+        "en": "Hyoju was in the water up to his waist, catching fish.",
+        "zh-Hans": "兵十站在齐腰深的水里抓鱼。",
+        "zh-Hant": "兵十站在齊腰深的水裡抓魚。",
+        "ko": "효주는 허리까지 물에 들어가 물고기를 잡고 있었습니다.",
+        "tl": "Nasa tubig si Hyoju hanggang baywang, nanghuhuli ng isda.",
+        "ne": "ह्योजु कम्मरसम्म पानीमा पसेर माछा मार्दै थियो।",
+        "id": "Hyoju masuk ke air sampai pinggang, menangkap ikan.",
+        "pt": "Hyoju estava com água até a cintura, pescando.",
+        "my": "ဟျိုးဂျူးက ခါးလောက်အထိ ရေထဲဆင်းပြီး ငါးဖမ်းနေတယ်။",
+        "th": "เฮียวจูลงไปในน้ำถึงเอว กำลังจับปลา",
+        "si": "හියෝජූ ඉණ වෙනකම් වතුරට බැහැලා මාළු අල්ලමින් හිටියා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "こし = hông, eo. 〜まで = đến ~.",
+        "en": "こし = waist. 〜まで = up to ~.",
+        "zh-Hans": "こし＝腰。〜まで＝到……。",
+        "zh-Hant": "こし＝腰。〜まで＝到……。",
+        "ko": "こし = 허리.",
+        "tl": "こし = baywang.",
+        "ne": "こし = कम्मर।",
+        "id": "こし = pinggang.",
+        "pt": "こし = cintura.",
+        "my": "こし = ခါး။",
+        "th": "こし = เอว",
+        "si": "こし = ඉණ. 〜まで = ~ වෙනකම්."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=82.386,87.086",
+      "t": [
+        82.386,
+        87.086
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "大きなうなぎや、小さな魚が、たくさんとれました。",
+      "furigana": [
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きなうなぎや、",
+          "reading": ""
+        },
+        {
+          "surface": "小",
+          "reading": "ちい"
+        },
+        {
+          "surface": "さな",
+          "reading": ""
+        },
+        {
+          "surface": "魚",
+          "reading": "さかな"
+        },
+        {
+          "surface": "が、たくさんとれました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ookina unagi ya, chiisana sakana ga, takusan toremashita.",
+      "translations": {
+        "vi": "Chàng bắt được nhiều lươn to và cá nhỏ.",
+        "en": "He caught lots of big eels and small fish.",
+        "zh-Hans": "抓到了很多大鳗鱼和小鱼。",
+        "zh-Hant": "抓到了很多大鰻魚和小魚。",
+        "ko": "큰 장어와 작은 물고기가 많이 잡혔습니다.",
+        "tl": "Marami siyang nahuling malalaking igat at maliliit na isda.",
+        "ne": "ठूला बाम माछा र साना माछा धेरै परे।",
+        "id": "Banyak belut besar dan ikan kecil tertangkap.",
+        "pt": "Pegou muitas enguias grandes e peixinhos.",
+        "my": "ငါးရှဉ့်ကြီးတွေနဲ့ ငါးလေးတွေ အများကြီး မိတယ်။",
+        "th": "จับปลาไหลตัวใหญ่และปลาเล็ก ๆ ได้มากมาย",
+        "si": "ලොකු ආඳන් සහ පොඩි මාළු ගොඩක් අහු වුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "うなぎ = con lươn. とれる = bắt được.",
+        "en": "うなぎ = eel. とれる = be caught.",
+        "zh-Hans": "うなぎ＝鳗鱼。とれる＝捕到。",
+        "zh-Hant": "うなぎ＝鰻魚。とれる＝捕到。",
+        "ko": "うなぎ = 장어.",
+        "tl": "うなぎ = igat.",
+        "ne": "うなぎ = बाम माछा।",
+        "id": "うなぎ = belut.",
+        "pt": "うなぎ = enguia.",
+        "my": "うなぎ = ငါးရှဉ့်။",
+        "th": "うなぎ = ปลาไหล",
+        "si": "うなぎ = ආඳා. とれる = අහු වෙනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=87.686,92.17",
+      "t": [
+        87.686,
+        92.17
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ヒョウジュウは、それをびくの中に入れました。",
+      "furigana": [
+        {
+          "surface": "ヒョウジュウは、それをびくの",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "い"
+        },
+        {
+          "surface": "れました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hyoujuu wa, sore o biku no naka ni iremashita.",
+      "translations": {
+        "vi": "Hyoju bỏ chúng vào giỏ cá.",
+        "en": "Hyoju put them into his fish basket.",
+        "zh-Hans": "兵十把它们放进了鱼篓。",
+        "zh-Hant": "兵十把它們放進了魚簍。",
+        "ko": "효주는 그것을 다래끼에 넣었습니다.",
+        "tl": "Inilagay ni Hyoju ang mga ito sa basket.",
+        "ne": "ह्योजुले तिनलाई माछाको डालोमा हाल्यो।",
+        "id": "Hyoju memasukkannya ke keranjang ikan.",
+        "pt": "Hyoju colocou tudo no cesto.",
+        "my": "ဟျိုးဂျူးက သူတို့ကို ငါးခြင်းထဲ ထည့်တယ်။",
+        "th": "เฮียวจูใส่พวกมันลงในข้อง",
+        "si": "හියෝජූ ඒවා මාළු කූඩේට දැම්මා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "びく = giỏ đựng cá.",
+        "en": "びく = fish basket.",
+        "zh-Hans": "びく＝鱼篓。",
+        "zh-Hant": "びく＝魚簍。",
+        "ko": "びく = 다래끼.",
+        "tl": "びく = basket ng isda.",
+        "ne": "びく = माछाको डालो।",
+        "id": "びく = keranjang ikan.",
+        "pt": "びく = cesto de peixe.",
+        "my": "びく = ငါးခြင်း။",
+        "th": "びく = ข้องใส่ปลา",
+        "si": "びく = මාළු කූඩය."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=92.77,95.931",
+      "t": [
+        92.77,
+        95.931
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "それから、びくを川のそばに置いて、どこかへ行きました。",
+      "furigana": [
+        {
+          "surface": "それから、びくを",
+          "reading": ""
+        },
+        {
+          "surface": "川",
+          "reading": "かわ"
+        },
+        {
+          "surface": "のそばに",
+          "reading": ""
+        },
+        {
+          "surface": "置",
+          "reading": "お"
+        },
+        {
+          "surface": "いて、どこかへ",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sorekara, biku o kawa no soba ni oite, doko ka e ikimashita.",
+      "translations": {
+        "vi": "Rồi chàng đặt giỏ bên bờ suối và đi đâu đó.",
+        "en": "Then he left the basket by the stream and went off somewhere.",
+        "zh-Hans": "然后把鱼篓放在河边，去了别处。",
+        "zh-Hant": "然後把魚簍放在河邊，去了別處。",
+        "ko": "그러고는 다래끼를 강가에 두고 어딘가로 갔습니다.",
+        "tl": "Iniwan niya ang basket sa tabi ng sapa at umalis.",
+        "ne": "अनि डालो खोलाछेउ राखेर कतै गयो।",
+        "id": "Lalu ia menaruh keranjang di tepi sungai dan pergi.",
+        "pt": "Então deixou o cesto na beira e saiu.",
+        "my": "ပြီးတော့ ခြင်းကို ချောင်းနားမှာ ထားပြီး တစ်နေရာ သွားတယ်။",
+        "th": "แล้ววางข้องไว้ริมลำธารแล้วเดินไปที่ไหนสักแห่ง",
+        "si": "ඊට පස්සේ, කූඩේ ඇළ ළඟ තියලා කොහේදෝ ගියා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "どこかへ = đến đâu đó.",
+        "en": "どこかへ = somewhere.",
+        "zh-Hans": "どこかへ＝去某处。",
+        "zh-Hant": "どこかへ＝去某處。",
+        "ko": "어딘가로.",
+        "tl": "kung saan.",
+        "ne": "कतै।",
+        "id": "ke suatu tempat.",
+        "pt": "para algum lugar.",
+        "my": "တစ်နေရာ။",
+        "th": "ที่ไหนสักแห่ง",
+        "si": "どこかへ = කොහේදෝ."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=96.531,101.419",
+      "t": [
+        96.531,
+        101.419
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「そうだ、ちょっといたずらをしてやろう。」",
+      "furigana": [
+        {
+          "surface": "「そうだ、ちょっといたずらをしてやろう。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Sou da, chotto itazura o shiteyarou.”",
+      "translations": {
+        "vi": "\"Được đấy, bày một trò nghịch xem nào.\"",
+        "en": "\"I know—time for a little prank.\"",
+        "zh-Hans": "“对了，捣一下乱吧。”",
+        "zh-Hant": "“對了，搗一下亂吧。”",
+        "ko": "\"그래, 장난 좀 쳐 볼까.\"",
+        "tl": "\"Alam ko na, magkalokohan tayo.\"",
+        "ne": "\"हो त, अलिकति बदमासी गरौँ।\"",
+        "id": "\"Ah, iseng sedikit, ah.\"",
+        "pt": "\"Já sei, vou aprontar um pouco.\"",
+        "my": "\"ဟုတ်ပြီ၊ နည်းနည်း နှောင့်ယှက်ကြည့်မယ်။\"",
+        "th": "\"เอาล่ะ แกล้งเล่นสักหน่อย\"",
+        "si": "\"හරි, පොඩි විහිළුවක් කරලා දාන්නම්.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜てやろう = làm ~ cho biết tay (thể ý chí, hơi trêu chọc).",
+        "en": "〜てやろう = 'I'll ~ (to them)' (teasing volitional).",
+        "zh-Hans": "〜てやろう＝给他……一下（带戏弄）。",
+        "zh-Hant": "〜てやろう＝給他……一下（帶戲弄）。",
+        "ko": "~해 줘야지 (골려 주는 뉘앙스).",
+        "tl": "〜てやろう = gagawin ko sa kanya.",
+        "ne": "〜てやろう = गरिदिन्छु।",
+        "id": "〜てやろう = akan ku~.",
+        "pt": "〜てやろう = vou ~ (provocando).",
+        "my": "〜てやろう = ~ ပေးမယ်။",
+        "th": "〜てやろう = จะ ~ ให้",
+        "si": "〜てやろう = \"~ කරලා දාන්නම්\" (උසුළු විසුළු කැමැත්ත)."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=102.319,104.735",
+      "t": [
+        102.319,
+        104.735
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "ごんは、ぴょいと草の中からとび出しました。",
+      "furigana": [
+        {
+          "surface": "ごんは、ぴょいと",
+          "reading": ""
+        },
+        {
+          "surface": "草",
+          "reading": "くさ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "からとび",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Gon wa, pyoito kusa no naka kara tobidashi mashita.",
+      "translations": {
+        "vi": "Gon nhảy phốc ra khỏi bụi cỏ.",
+        "en": "Gon sprang out of the grass.",
+        "zh-Hans": "阿权嗖地从草丛里跳了出来。",
+        "zh-Hant": "阿權嗖地從草叢裡跳了出來。",
+        "ko": "곤은 풀숲에서 폴짝 뛰어나왔습니다.",
+        "tl": "Lumundag si Gon mula sa damuhan.",
+        "ne": "गोन घाँसबाट फुत्त निस्क्यो।",
+        "id": "Gon melompat keluar dari rumput.",
+        "pt": "Gon pulou do capim.",
+        "my": "ဂုံက မြက်ထဲကနေ ခုန်ထွက်လာတယ်။",
+        "th": "กอนกระโดดแผล็วออกจากพงหญ้า",
+        "si": "ගොන් තණකොළ අතරින් එළියට පැන්නා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "とび出す = nhảy ra, lao ra.",
+        "en": "とび出す = jump out.",
+        "zh-Hans": "とび出す＝跳出来。",
+        "zh-Hant": "とび出す＝跳出來。",
+        "ko": "뛰어나오다.",
+        "tl": "lumundag palabas.",
+        "ne": "फुत्त निस्कनु।",
+        "id": "melompat keluar.",
+        "pt": "saltar para fora.",
+        "my": "ခုန်ထွက်။",
+        "th": "กระโดดออก",
+        "si": "とび出す = එළියට පනිනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=105.635,109.273",
+      "t": [
+        105.635,
+        109.273
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "びくの中の魚を、一ぴきずつ川へなげこみます。",
+      "furigana": [
+        {
+          "surface": "びくの",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "魚",
+          "reading": "さかな"
+        },
+        {
+          "surface": "を、",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "いっ"
+        },
+        {
+          "surface": "ぴきずつ",
+          "reading": ""
+        },
+        {
+          "surface": "川",
+          "reading": "かわ"
+        },
+        {
+          "surface": "へなげこみます。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Biku no naka no sakana o, ippiki zutsu kawa e nagekomimasu.",
+      "translations": {
+        "vi": "Chú ném từng con cá trong giỏ xuống suối.",
+        "en": "One by one, he threw the fish back into the stream.",
+        "zh-Hans": "把篓里的鱼一条一条扔回河里。",
+        "zh-Hant": "把簍裡的魚一條一條扔回河裡。",
+        "ko": "다래끼 속 물고기를 한 마리씩 강으로 던졌습니다.",
+        "tl": "Isa-isang itinapon niya pabalik sa sapa ang mga isda.",
+        "ne": "डालोका माछा एक-एक गरी खोलामा फ्याँक्यो।",
+        "id": "Ikan di keranjang dilempar satu per satu ke sungai.",
+        "pt": "Jogou os peixes de volta, um por um.",
+        "my": "ခြင်းထဲက ငါးတွေကို တစ်ကောင်ချင်း ချောင်းထဲ ပစ်ချတယ်။",
+        "th": "มันโยนปลาในข้องลงน้ำทีละตัว",
+        "si": "කූඩේ තිබුණු මාළු එකින් එක ඇළට විසි කරනවා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜ずつ = từng ~ một.",
+        "en": "〜ずつ = ~ at a time.",
+        "zh-Hans": "〜ずつ＝每次……。",
+        "zh-Hant": "〜ずつ＝每次……。",
+        "ko": "~씩.",
+        "tl": "〜ずつ = isa-isa.",
+        "ne": "〜ずつ = एक-एक गरी।",
+        "id": "〜ずつ = satu per satu.",
+        "pt": "〜ずつ = um a um.",
+        "my": "〜ずつ = တစ်ခုချင်း။",
+        "th": "〜ずつ = ทีละ ~",
+        "si": "〜ずつ = එකින් එක."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=109.873,114.218",
+      "t": [
+        109.873,
+        114.218
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "魚は、みんな、うれしそうに水の中へにげていきました。",
+      "furigana": [
+        {
+          "surface": "魚",
+          "reading": "さかな"
+        },
+        {
+          "surface": "は、みんな、うれしそうに",
+          "reading": ""
+        },
+        {
+          "surface": "水",
+          "reading": "みず"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "へにげていきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sakana wa, minna, ureshisou ni mizu no naka e nigeteikimashita.",
+      "translations": {
+        "vi": "Lũ cá vui mừng bơi trốn xuống nước.",
+        "en": "All the fish happily swam away into the water.",
+        "zh-Hans": "鱼儿们都高高兴兴地逃回了水里。",
+        "zh-Hant": "魚兒們都高高興興地逃回了水裡。",
+        "ko": "물고기들은 모두 기쁜 듯이 물속으로 달아났습니다.",
+        "tl": "Masayang lumangoy palayo ang mga isda.",
+        "ne": "माछाहरू खुसी हुँदै पानीमा भागे।",
+        "id": "Ikan-ikan itu dengan gembira kabur ke air.",
+        "pt": "Os peixes fugiram alegres para a água.",
+        "my": "ငါးတွေက ပျော်ပျော်နဲ့ ရေထဲ ပြေးသွားကြတယ်။",
+        "th": "ปลาทั้งหลายว่ายหนีลงน้ำอย่างดีใจ",
+        "si": "මාළු ඔක්කොම සතුටින් වගේ වතුරට පීනලා ගියා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "うれしそうに = (một cách) có vẻ vui.",
+        "en": "うれしそうに = happily (looking happy).",
+        "zh-Hans": "うれしそうに＝高兴地。",
+        "zh-Hant": "うれしそうに＝高興地。",
+        "ko": "기쁜 듯이.",
+        "tl": "masaya.",
+        "ne": "खुसी हुँदै।",
+        "id": "dengan gembira.",
+        "pt": "alegremente.",
+        "my": "ပျော်ပျော်နဲ့။",
+        "th": "อย่างดีใจ",
+        "si": "うれしそうに = සතුටින් වගේ."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=114.818,120.001",
+      "t": [
+        114.818,
+        120.001
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "最後に、大きなうなぎをつかもうとしました。",
+      "furigana": [
+        {
+          "surface": "最後",
+          "reading": "さいご"
+        },
+        {
+          "surface": "に、",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きなうなぎをつかもうとしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Saigo ni, ookina unagi o tsukamou to shimashita.",
+      "translations": {
+        "vi": "Cuối cùng, chú định bắt con lươn to.",
+        "en": "Last of all, he tried to grab the big eel.",
+        "zh-Hans": "最后，它想抓那条大鳗鱼。",
+        "zh-Hant": "最後，它想抓那條大鰻魚。",
+        "ko": "마지막으로 큰 장어를 잡으려고 했습니다.",
+        "tl": "Sa huli, sinubukan niyang hulihin ang malaking igat.",
+        "ne": "अन्त्यमा ठूलो बाम समात्न खोज्यो।",
+        "id": "Terakhir, ia mencoba menangkap belut besar.",
+        "pt": "Por fim, tentou pegar a enguia grande.",
+        "my": "နောက်ဆုံး ငါးရှဉ့်ကြီးကို ဖမ်းဖို့ ကြိုးစားတယ်။",
+        "th": "สุดท้าย มันพยายามจับปลาไหลตัวใหญ่",
+        "si": "අන්තිමට, ලොකු ආඳාව අල්ලන්න හැදුවා."
+      },
+      "vocab": [
+        {
+          "word": "最後",
+          "reading": "さいご",
+          "meanings": {
+            "vi": "cuối cùng",
+            "en": "last",
+            "zh-Hans": "最后",
+            "zh-Hant": "最後",
+            "ko": "마지막",
+            "tl": "huli",
+            "ne": "अन्तिम",
+            "id": "terakhir",
+            "pt": "último",
+            "my": "နောက်ဆုံး",
+            "th": "สุดท้าย",
+            "si": "අන්තිම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜ようとする = định ~, cố ~.",
+        "en": "〜ようとする = try to ~.",
+        "zh-Hans": "〜ようとする＝想要……。",
+        "zh-Hant": "〜ようとする＝想要……。",
+        "ko": "~하려고 하다.",
+        "tl": "〜ようとする = subukang ~.",
+        "ne": "〜ようとする = ~ खोज्नु।",
+        "id": "〜ようとする = mencoba ~.",
+        "pt": "〜ようとする = tentar ~.",
+        "my": "〜ようとする = ~ ဖို့ ကြိုးစား။",
+        "th": "〜ようとする = พยายาม ~",
+        "si": "〜ようとする = ~ කරන්න හදනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=120.601,123.904",
+      "t": [
+        120.601,
+        123.904
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "でも、うなぎはぬるぬるして、うまくつかめません。",
+      "furigana": [
+        {
+          "surface": "でも、うなぎはぬるぬるして、うまくつかめません。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, unagi wa nurunuru shite, umaku tsukamemasen.",
+      "translations": {
+        "vi": "Nhưng con lươn trơn tuột, không sao bắt được.",
+        "en": "But the eel was slippery, and he couldn't get hold of it.",
+        "zh-Hans": "可是鳗鱼滑溜溜的，怎么也抓不住。",
+        "zh-Hant": "可是鰻魚滑溜溜的，怎麼也抓不住。",
+        "ko": "그런데 장어가 미끌미끌해서 잘 잡히지 않습니다.",
+        "tl": "Pero madulas ang igat at hindi niya mahawakan.",
+        "ne": "तर बाम चिप्लो भएर समात्नै सकेन।",
+        "id": "Tapi belutnya licin, tak bisa dipegang.",
+        "pt": "Mas a enguia era escorregadia e ele não conseguia.",
+        "my": "ဒါပေမဲ့ ငါးရှဉ့်က ချော်ပြီး ဖမ်းလို့ မရဘူး။",
+        "th": "แต่ปลาไหลลื่นจนจับไม่ได้",
+        "si": "ඒත් ආඳා ලිස්සනසුලුයි, හරියට අල්ලගන්න බැහැ."
+      },
+      "vocab": [
+        {
+          "word": "うまい",
+          "reading": "うまい",
+          "meanings": {
+            "vi": "giỏi, khéo; ngon",
+            "en": "skillful; tasty",
+            "zh-Hans": "好，巧妙；好吃",
+            "zh-Hant": "好，巧妙；好吃",
+            "ko": "잘하다; 맛있다",
+            "tl": "magaling; masarap",
+            "ne": "राम्रो; मीठो",
+            "id": "pandai; enak",
+            "pt": "bom, hábil; gostoso",
+            "my": "တော်; စားကောင်း",
+            "th": "เก่ง; อร่อย",
+            "si": "දක්ෂ; රසවත්"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "ぬるぬる = trơn nhớt. うまく〜ない = không ~ được suôn sẻ.",
+        "en": "ぬるぬる = slimy. うまく〜ない = can't ~ well.",
+        "zh-Hans": "ぬるぬる＝滑溜溜。うまく〜ない＝不好……。",
+        "zh-Hant": "ぬるぬる＝滑溜溜。うまく〜ない＝不好……。",
+        "ko": "미끌미끌.",
+        "tl": "madulas.",
+        "ne": "चिप्लो।",
+        "id": "licin.",
+        "pt": "escorregadio.",
+        "my": "ချော်။",
+        "th": "ลื่น",
+        "si": "ぬるぬる = ලිස්සනසුලු. うまく〜ない = හරියට ~ බැහැ."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=124.504,128.626",
+      "t": [
+        124.504,
+        128.626
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ごんは、しかたなく、うなぎの頭を口にくわえました。",
+      "furigana": [
+        {
+          "surface": "ごんは、しかたなく、うなぎの",
+          "reading": ""
+        },
+        {
+          "surface": "頭",
+          "reading": "あたま"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "口",
+          "reading": "くち"
+        },
+        {
+          "surface": "にくわえました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Gon wa, shikata naku, unagi no atama o kuchi ni kuwaemashita.",
+      "translations": {
+        "vi": "Không còn cách nào, Gon ngoạm lấy đầu con lươn.",
+        "en": "With no other choice, Gon took the eel's head in his mouth.",
+        "zh-Hans": "没办法，阿权只好用嘴叼住了鳗鱼的头。",
+        "zh-Hant": "沒辦法，阿權只好用嘴叼住了鰻魚的頭。",
+        "ko": "어쩔 수 없이 곤은 장어 머리를 입에 물었습니다.",
+        "tl": "Wala nang ibang paraan, kinagat ni Gon ang ulo ng igat.",
+        "ne": "अरू उपाय नभएर गोनले बामको टाउको मुखमा च्याप्यो।",
+        "id": "Terpaksa, Gon menggigit kepala belut.",
+        "pt": "Sem jeito, Gon abocanhou a cabeça da enguia.",
+        "my": "မတတ်နိုင်လို့ ဂုံက ငါးရှဉ့်ခေါင်းကို ကိုက်ထားလိုက်တယ်။",
+        "th": "ไม่มีทางเลือก กอนจึงคาบหัวปลาไหลไว้",
+        "si": "ගොන්ට වෙන විකල්පයක් නැතුව, ආඳාගේ ඔළුව කටින් අල්ලගත්තා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "しかたなく = đành phải, không còn cách nào.",
+        "en": "しかたなく = reluctantly, with no choice.",
+        "zh-Hans": "しかたなく＝没办法只好。",
+        "zh-Hant": "しかたなく＝沒辦法只好。",
+        "ko": "어쩔 수 없이.",
+        "tl": "walang magawa.",
+        "ne": "उपाय नभएर।",
+        "id": "terpaksa.",
+        "pt": "sem escolha.",
+        "my": "မတတ်နိုင်လို့။",
+        "th": "จำใจ",
+        "si": "しかたなく = වෙන විකල්පයක් නැතුව."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=129.226,134.02",
+      "t": [
+        129.226,
+        134.02
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "すると、うなぎは、ごんの首にくるりとまきつきました。",
+      "furigana": [
+        {
+          "surface": "すると、うなぎは、ごんの",
+          "reading": ""
+        },
+        {
+          "surface": "首",
+          "reading": "くび"
+        },
+        {
+          "surface": "にくるりとまきつきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suruto, unagi wa, Gon no kubi ni kururi to makitsukimashita.",
+      "translations": {
+        "vi": "Thế là con lươn quấn chặt quanh cổ Gon.",
+        "en": "Then the eel coiled itself around Gon's neck.",
+        "zh-Hans": "结果鳗鱼一下子缠在了阿权的脖子上。",
+        "zh-Hant": "結果鰻魚一下子纏在了阿權的脖子上。",
+        "ko": "그러자 장어가 곤의 목에 휘감겼습니다.",
+        "tl": "At pumulupot ang igat sa leeg ni Gon.",
+        "ne": "अनि बामले गोनको घाँटी बेर्यो।",
+        "id": "Lalu belut itu melilit leher Gon.",
+        "pt": "Então a enguia se enrolou no pescoço do Gon.",
+        "my": "အဲဒီမှာ ငါးရှဉ့်က ဂုံ လည်ပင်းကို ပတ်ရစ်သွားတယ်။",
+        "th": "แล้วปลาไหลก็พันรอบคอกอน",
+        "si": "එතකොට ආඳා ගොන්ගේ බෙල්ල වටේ එතුණා."
+      },
+      "vocab": [
+        {
+          "word": "首",
+          "reading": "くび",
+          "meanings": {
+            "vi": "cổ",
+            "en": "neck",
+            "zh-Hans": "脖子",
+            "zh-Hant": "脖子",
+            "ko": "목",
+            "tl": "leeg",
+            "ne": "घाँटी",
+            "id": "leher",
+            "pt": "pescoço",
+            "my": "လည်ပင်း",
+            "th": "คอ",
+            "si": "බෙල්ල"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "まきつく = quấn quanh.",
+        "en": "まきつく = wind around.",
+        "zh-Hans": "まきつく＝缠绕。",
+        "zh-Hant": "まきつく＝纏繞。",
+        "ko": "휘감기다.",
+        "tl": "pumulupot.",
+        "ne": "बेर्नु।",
+        "id": "melilit.",
+        "pt": "enrolar-se.",
+        "my": "ပတ်ရစ်။",
+        "th": "พัน",
+        "si": "まきつく = වටේ එතෙනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=134.62,139.684",
+      "t": [
+        134.62,
+        139.684
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「うわあ、ぬすっとぎつねめ！」",
+      "furigana": [
+        {
+          "surface": "「うわあ、ぬすっとぎつねめ！」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Uwaa, nusutto gitsuneme!”",
+      "translations": {
+        "vi": "\"Á à, đồ cáo ăn trộm!\"",
+        "en": "\"Hey, you thieving fox!\"",
+        "zh-Hans": "“哇，你这只贼狐狸！”",
+        "zh-Hant": "“哇，你這隻賊狐狸！”",
+        "ko": "\"이놈, 도둑 여우야!\"",
+        "tl": "\"Hoy, magnanakaw na soro!\"",
+        "ne": "\"ए, चोर फ्याउरो!\"",
+        "id": "\"Hei, rubah pencuri!\"",
+        "pt": "\"Ei, raposa ladra!\"",
+        "my": "\"ဟေ့၊ သူခိုး မြေခွေး!\"",
+        "th": "\"เฮ้ย เจ้าจิ้งจอกขโมย!\"",
+        "si": "\"ඒයි, හොර නරියා!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ぬすっと = kẻ trộm (cách nói xưa). 〜め = đồ ~ (mắng).",
+        "en": "ぬすっと = thief (old word). 〜め = you ~ (insult).",
+        "zh-Hans": "ぬすっと＝小偷（旧说法）。〜め＝骂人的后缀。",
+        "zh-Hant": "ぬすっと＝小偷（舊說法）。〜め＝罵人的字尾。",
+        "ko": "ぬすっと = 도둑. 〜め = 이놈의 ~.",
+        "tl": "ぬすっと = magnanakaw. 〜め = pang-insulto.",
+        "ne": "ぬすっと = चोर। 〜め = गाली।",
+        "id": "ぬすっと = pencuri. 〜め = makian.",
+        "pt": "ぬすっと = ladrão. 〜め = insulto.",
+        "my": "ぬすっと = သူခိုး။ 〜め = ဆဲစကား။",
+        "th": "ぬすっと = ขโมย 〜め = คำด่า",
+        "si": "ぬすっと = හොරා (පැරණි වචනය). 〜め = ~ එකා (බැණුම)."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=140.584,142.648",
+      "t": [
+        140.584,
+        142.648
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "後ろから、ヒョウジュウの大きな声がしました。",
+      "furigana": [
+        {
+          "surface": "後",
+          "reading": "うし"
+        },
+        {
+          "surface": "ろから、ヒョウジュウの",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きな",
+          "reading": ""
+        },
+        {
+          "surface": "声",
+          "reading": "こえ"
+        },
+        {
+          "surface": "がしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ushiro kara, Hyoujuu no ookina koe ga shimashita.",
+      "translations": {
+        "vi": "Từ phía sau vang lên tiếng quát lớn của Hyoju.",
+        "en": "Hyoju's loud voice came from behind.",
+        "zh-Hans": "身后传来兵十的大嗓门。",
+        "zh-Hant": "身後傳來兵十的大嗓門。",
+        "ko": "뒤에서 효주의 큰 목소리가 났습니다.",
+        "tl": "Mula sa likod, narinig ang malakas na boses ni Hyoju.",
+        "ne": "पछाडिबाट ह्योजुको ठूलो आवाज आयो।",
+        "id": "Dari belakang terdengar suara keras Hyoju.",
+        "pt": "Por trás, veio a voz alta do Hyoju.",
+        "my": "နောက်ကနေ ဟျိုးဂျူးရဲ့ ကျယ်လောင်တဲ့ အသံ ထွက်လာတယ်။",
+        "th": "มีเสียงตะโกนของเฮียวจูมาจากข้างหลัง",
+        "si": "පිටිපස්සෙන් හියෝජූගේ හයියෙන් කෑගැහුම ඇහුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "声がする = có tiếng (vang lên).",
+        "en": "声がする = a voice is heard.",
+        "zh-Hans": "声がする＝传来声音。",
+        "zh-Hant": "聲がする＝傳來聲音。",
+        "ko": "소리가 나다.",
+        "tl": "may boses.",
+        "ne": "आवाज आउनु।",
+        "id": "terdengar suara.",
+        "pt": "ouvir-se uma voz.",
+        "my": "အသံ ထွက်တယ်။",
+        "th": "มีเสียง",
+        "si": "声がする = හඬක් ඇහෙනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=143.548,147.022",
+      "t": [
+        143.548,
+        147.022
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ごんはびっくりして、とび上がりました。",
+      "furigana": [
+        {
+          "surface": "ごんはびっくりして、とび",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "あ"
+        },
+        {
+          "surface": "がりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Gon wa bikkurishite, tobiagari mashita.",
+      "translations": {
+        "vi": "Gon giật mình nhảy dựng lên.",
+        "en": "Gon jumped in fright.",
+        "zh-Hans": "阿权吓了一跳，跳了起来。",
+        "zh-Hant": "阿權嚇了一跳，跳了起來。",
+        "ko": "곤은 깜짝 놀라 펄쩍 뛰었습니다.",
+        "tl": "Nagulat si Gon at napatalon.",
+        "ne": "गोन झस्केर उफ्रियो।",
+        "id": "Gon kaget dan melompat.",
+        "pt": "Gon levou um susto e pulou.",
+        "my": "ဂုံက လန့်ပြီး ခုန်တက်သွားတယ်။",
+        "th": "กอนตกใจกระโดดขึ้น",
+        "si": "ගොන් තිගැස්සිලා උඩ පැන්නා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "びっくりする = giật mình.",
+        "en": "びっくりする = be startled.",
+        "zh-Hans": "びっくりする＝吓一跳。",
+        "zh-Hant": "びっくりする＝嚇一跳。",
+        "ko": "깜짝 놀라다.",
+        "tl": "magulat.",
+        "ne": "झस्कनु।",
+        "id": "kaget.",
+        "pt": "assustar-se.",
+        "my": "လန့်တယ်။",
+        "th": "ตกใจ",
+        "si": "びっくりする = තිගැස්සෙනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=147.622,150.241",
+      "t": [
+        147.622,
+        150.241
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "首にうなぎをつけたまま、いっしょうけんめいにげました。",
+      "furigana": [
+        {
+          "surface": "首",
+          "reading": "くび"
+        },
+        {
+          "surface": "にうなぎをつけたまま、いっしょうけんめいにげました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kubi ni unagi o tsuketa mama, isshoukenmei nigemashita.",
+      "translations": {
+        "vi": "Cứ thế với con lươn trên cổ, chú cắm đầu chạy.",
+        "en": "With the eel still around his neck, he ran as fast as he could.",
+        "zh-Hans": "脖子上缠着鳗鱼，拼命地逃。",
+        "zh-Hant": "脖子上纏著鰻魚，拼命地逃。",
+        "ko": "목에 장어를 단 채로 열심히 도망쳤습니다.",
+        "tl": "Kasama pa ang igat sa leeg, tumakbo siya nang buong lakas.",
+        "ne": "घाँटीमा बाम बेरिएकै अवस्थामा जोडले भाग्यो।",
+        "id": "Dengan belut masih di leher, ia lari sekuat tenaga.",
+        "pt": "Com a enguia ainda no pescoço, correu com todas as forças.",
+        "my": "လည်ပင်းမှာ ငါးရှဉ့် ပါလျက်နဲ့ အားကုန် ပြေးတယ်။",
+        "th": "ทั้งที่ปลาไหลยังพันคอ มันวิ่งหนีสุดชีวิต",
+        "si": "බෙල්ලේ ආඳා එතිලාම, මුළු ශක්තියෙන් පැනලා දිව්වා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜たまま = vẫn để nguyên ~. いっしょうけんめい = hết sức.",
+        "en": "〜たまま = with ~ still on. いっしょうけんめい = with all one's might.",
+        "zh-Hans": "〜たまま＝保持……。いっしょうけんめい＝拼命。",
+        "zh-Hant": "〜たまま＝保持……。いっしょうけんめい＝拼命。",
+        "ko": "~한 채로. 열심히.",
+        "tl": "habang ~ pa. buong lakas.",
+        "ne": "~ कै अवस्थामा। जोडले।",
+        "id": "masih ~. sekuat tenaga.",
+        "pt": "ainda ~. com toda força.",
+        "my": "~ လျက်။ အားကုန်။",
+        "th": "ทั้งที่ ~ สุดกำลัง",
+        "si": "〜たまま = ~ විදිහටම. いっしょうけんめい = මුළු ශක්තියෙන්."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=150.841,154.923",
+      "t": [
+        150.841,
+        154.923
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "森の近くまで来て、ふりかえりました。",
+      "furigana": [
+        {
+          "surface": "森",
+          "reading": "もり"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "近",
+          "reading": "ちか"
+        },
+        {
+          "surface": "くまで",
+          "reading": ""
+        },
+        {
+          "surface": "来",
+          "reading": "き"
+        },
+        {
+          "surface": "て、ふりかえりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mori no chikaku made kite, furikaerimashita.",
+      "translations": {
+        "vi": "Đến gần khu rừng, chú ngoảnh lại nhìn.",
+        "en": "When he got near the forest, he looked back.",
+        "zh-Hans": "跑到森林附近，它回头看了看。",
+        "zh-Hant": "跑到森林附近，它回頭看了看。",
+        "ko": "숲 근처까지 와서 뒤돌아보았습니다.",
+        "tl": "Malapit na sa gubat, lumingon siya.",
+        "ne": "जङ्गलनजिक आइपुगेर पछाडि फर्केर हेर्यो।",
+        "id": "Dekat hutan, ia menoleh ke belakang.",
+        "pt": "Perto da floresta, olhou para trás.",
+        "my": "တောနား ရောက်တော့ နောက်လှည့်ကြည့်တယ်။",
+        "th": "พอใกล้ถึงป่า มันหันกลับไปมอง",
+        "si": "කැලේ ළඟට ආවාම, ආපස්සට හැරිලා බැලුවා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ふりかえる = ngoảnh lại.",
+        "en": "ふりかえる = look back.",
+        "zh-Hans": "ふりかえる＝回头。",
+        "zh-Hant": "ふりかえる＝回頭。",
+        "ko": "뒤돌아보다.",
+        "tl": "lumingon.",
+        "ne": "पछाडि फर्केर हेर्नु।",
+        "id": "menoleh.",
+        "pt": "olhar para trás.",
+        "my": "နောက်လှည့်ကြည့်။",
+        "th": "หันกลับไปมอง",
+        "si": "ふりかえる = ආපස්සට හැරිලා බලනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=155.523,158.69",
+      "t": [
+        155.523,
+        158.69
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ヒョウジュウは、もうおいかけてきません。",
+      "furigana": [
+        {
+          "surface": "ヒョウジュウは、もうおいかけてきません。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hyoujuu wa, mou oikaketekimasen.",
+      "translations": {
+        "vi": "Hyoju không đuổi theo nữa.",
+        "en": "Hyoju was no longer chasing him.",
+        "zh-Hans": "兵十已经没有追来了。",
+        "zh-Hant": "兵十已經沒有追來了。",
+        "ko": "효주는 더 이상 쫓아오지 않습니다.",
+        "tl": "Hindi na siya hinahabol ni Hyoju.",
+        "ne": "ह्योजु अब पछ्याउँदैनथ्यो।",
+        "id": "Hyoju tidak mengejar lagi.",
+        "pt": "Hyoju já não o perseguia.",
+        "my": "ဟျိုးဂျူး နောက်က မလိုက်တော့ဘူး။",
+        "th": "เฮียวจูไม่ได้ตามมาแล้ว",
+        "si": "හියෝජූ තවදුරටත් ලුහුබැන්දේ නැහැ."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "おいかける = đuổi theo. もう〜ない = không ~ nữa.",
+        "en": "おいかける = chase. もう〜ない = no longer.",
+        "zh-Hans": "おいかける＝追赶。もう〜ない＝不再。",
+        "zh-Hant": "おいかける＝追趕。もう〜ない＝不再。",
+        "ko": "쫓아오다.",
+        "tl": "habulin.",
+        "ne": "पछ्याउनु।",
+        "id": "mengejar.",
+        "pt": "perseguir.",
+        "my": "နောက်လိုက်။",
+        "th": "ไล่ตาม",
+        "si": "おいかける = ලුහුබඳිනවා. もう〜ない = තවදුරටත් නැහැ."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=159.29,162.109",
+      "t": [
+        159.29,
+        162.109
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ごんは、やっと首からうなぎを外して、草の上に置きました。",
+      "furigana": [
+        {
+          "surface": "ごんは、やっと",
+          "reading": ""
+        },
+        {
+          "surface": "首",
+          "reading": "くび"
+        },
+        {
+          "surface": "からうなぎを",
+          "reading": ""
+        },
+        {
+          "surface": "外",
+          "reading": "はず"
+        },
+        {
+          "surface": "して、",
+          "reading": ""
+        },
+        {
+          "surface": "草",
+          "reading": "くさ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "置",
+          "reading": "お"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Gon wa, yatto kubi kara unagi o hazushite, kusa no ue ni okimashita.",
+      "translations": {
+        "vi": "Mãi Gon mới gỡ được con lươn khỏi cổ, đặt nó lên cỏ.",
+        "en": "At last Gon got the eel off his neck and put it down on the grass.",
+        "zh-Hans": "阿权好不容易把鳗鱼从脖子上取下来，放在草上。",
+        "zh-Hant": "阿權好不容易把鰻魚從脖子上取下來，放在草上。",
+        "ko": "곤은 겨우 목에서 장어를 떼어 풀 위에 놓았습니다.",
+        "tl": "Sa wakas, natanggal ni Gon ang igat at inilapag sa damo.",
+        "ne": "गोनले बल्लबल्ल बाम घाँटीबाट झिकेर घाँसमा राख्यो।",
+        "id": "Akhirnya Gon melepas belut dari leher dan menaruhnya di rumput.",
+        "pt": "Enfim Gon tirou a enguia do pescoço e a deixou no capim.",
+        "my": "နောက်ဆုံးမှ ဂုံက ငါးရှဉ့်ကို ဖြုတ်ပြီး မြက်ပေါ်ချထားတယ်။",
+        "th": "ในที่สุดกอนก็แกะปลาไหลออกจากคอแล้ววางบนหญ้า",
+        "si": "ගොන් අන්තිමේදී බෙල්ලෙන් ආඳාව ගලවලා තණකොළ උඩ තිබ්බා."
+      },
+      "vocab": [
+        {
+          "word": "外す",
+          "reading": "はずす",
+          "meanings": {
+            "vi": "tháo ra, gỡ ra",
+            "en": "take off, remove",
+            "zh-Hans": "摘下，解开",
+            "zh-Hant": "摘下，解開",
+            "ko": "떼다, 풀다",
+            "tl": "tanggalin",
+            "ne": "फुकाल्नु",
+            "id": "melepas",
+            "pt": "tirar",
+            "my": "ဖြုတ်",
+            "th": "ถอด, แกะออก",
+            "si": "ගැලවීම, ඉවත් කිරීම"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "やっと",
+          "reading": "やっと",
+          "meanings": {
+            "vi": "cuối cùng thì",
+            "en": "at last",
+            "zh-Hans": "终于",
+            "zh-Hant": "終於",
+            "ko": "드디어",
+            "tl": "sa wakas",
+            "ne": "आखिर",
+            "id": "akhirnya",
+            "pt": "finalmente",
+            "my": "နောက်ဆုံးတော့",
+            "th": "ในที่สุด",
+            "si": "අන්තිමේදී"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "やっと = mãi mới, cuối cùng cũng. 外す = gỡ ra.",
+        "en": "やっと = finally. 外す = remove.",
+        "zh-Hans": "やっと＝好不容易。外す＝取下。",
+        "zh-Hant": "やっと＝好不容易。外す＝取下。",
+        "ko": "겨우. 떼다.",
+        "tl": "sa wakas. tanggalin.",
+        "ne": "बल्लबल्ल। झिक्नु।",
+        "id": "akhirnya. melepas.",
+        "pt": "finalmente. tirar.",
+        "my": "နောက်ဆုံးမှ။ ဖြုတ်။",
+        "th": "ในที่สุด แกะออก",
+        "si": "やっと = අන්තිමේදී. 外す = ගලවනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=162.709,167.826",
+      "t": [
+        162.709,
+        167.826
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "十日ほどたって、ごんはまた村を歩いていました。",
+      "furigana": [
+        {
+          "surface": "十日",
+          "reading": "とおか"
+        },
+        {
+          "surface": "ほどたって、ごんはまた",
+          "reading": ""
+        },
+        {
+          "surface": "村",
+          "reading": "むら"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "歩",
+          "reading": "ある"
+        },
+        {
+          "surface": "いていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tooka hodo tatte, Gon wa mata mura o aruiteimashita.",
+      "translations": {
+        "vi": "Khoảng mười ngày sau, Gon lại đi dạo trong làng.",
+        "en": "About ten days later, Gon was walking through the village again.",
+        "zh-Hans": "大约过了十天，阿权又在村里走着。",
+        "zh-Hant": "大約過了十天，阿權又在村裡走著。",
+        "ko": "열흘쯤 지나서 곤은 다시 마을을 걷고 있었습니다.",
+        "tl": "Mga sampung araw ang lumipas, naglalakad ulit si Gon sa nayon.",
+        "ne": "झन्डै दस दिनपछि गोन फेरि गाउँमा हिँड्दै थियो।",
+        "id": "Sekitar sepuluh hari kemudian, Gon berjalan lagi di desa.",
+        "pt": "Uns dez dias depois, Gon andava de novo pela aldeia.",
+        "my": "ဆယ်ရက်လောက်ကြာတော့ ဂုံက ရွာထဲ ထပ်လျှောက်နေတယ်။",
+        "th": "ราวสิบวันต่อมา กอนเดินอยู่ในหมู่บ้านอีก",
+        "si": "දවස් දහයක් විතර ගියාම, ගොන් ආයෙත් ගම හරහා ඇවිදගෙන යමින් හිටියා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "十日 (とおか) = mười ngày. 〜ほど = khoảng ~.",
+        "en": "十日 (とおか) = ten days. 〜ほど = about ~.",
+        "zh-Hans": "十日（とおか）＝十天。〜ほど＝大约。",
+        "zh-Hant": "十日（とおか）＝十天。〜ほど＝大約。",
+        "ko": "열흘. ~쯤.",
+        "tl": "sampung araw. mga ~.",
+        "ne": "दस दिन। झन्डै।",
+        "id": "sepuluh hari. sekitar.",
+        "pt": "dez dias. cerca de.",
+        "my": "ဆယ်ရက်။ လောက်။",
+        "th": "สิบวัน ราว ๆ",
+        "si": "十日 (とおか) = දවස් දහය. 〜ほど = විතර."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=168.426,172.426",
+      "t": [
+        168.426,
+        172.426
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ヒョウジュウの家の前に、たくさんの人が集まっています。",
+      "furigana": [
+        {
+          "surface": "ヒョウジュウの",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "に、たくさんの",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "集",
+          "reading": "あつ"
+        },
+        {
+          "surface": "まっています。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hyoujuu no ie no mae ni, takusan no hito ga atsumatteimasu.",
+      "translations": {
+        "vi": "Trước nhà Hyoju có rất nhiều người tụ tập.",
+        "en": "Many people had gathered in front of Hyoju's house.",
+        "zh-Hans": "兵十家门前聚集了很多人。",
+        "zh-Hant": "兵十家門前聚集了很多人。",
+        "ko": "효주의 집 앞에 많은 사람이 모여 있습니다.",
+        "tl": "Maraming tao ang nagtipon sa harap ng bahay ni Hyoju.",
+        "ne": "ह्योजुको घरअगाडि धेरै मान्छे जम्मा भएका छन्।",
+        "id": "Banyak orang berkumpul di depan rumah Hyoju.",
+        "pt": "Muita gente estava reunida na frente da casa do Hyoju.",
+        "my": "ဟျိုးဂျူး အိမ်ရှေ့မှာ လူတွေ အများကြီး စုနေတယ်။",
+        "th": "หน้าบ้านเฮียวจูมีคนมารวมตัวกันมากมาย",
+        "si": "හියෝජූගේ ගෙදර ඉස්සරහ ගොඩක් අය එකතු වෙලා."
+      },
+      "vocab": [
+        {
+          "word": "集まる",
+          "reading": "あつまる",
+          "meanings": {
+            "vi": "tụ tập",
+            "en": "to gather",
+            "zh-Hans": "聚集",
+            "zh-Hant": "聚集",
+            "ko": "모이다",
+            "tl": "magtipon",
+            "ne": "जम्मा हुनु",
+            "id": "berkumpul",
+            "pt": "reunir-se",
+            "my": "စု",
+            "th": "รวมตัว",
+            "si": "එකතු වීම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "集まる = tụ tập.",
+        "en": "集まる = gather.",
+        "zh-Hans": "集まる＝聚集。",
+        "zh-Hant": "集まる＝聚集。",
+        "ko": "모이다.",
+        "tl": "magtipon.",
+        "ne": "जम्मा हुनु।",
+        "id": "berkumpul.",
+        "pt": "reunir-se.",
+        "my": "စုတယ်။",
+        "th": "รวมตัว",
+        "si": "集まる = එකතු වෙනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=173.026,177.215",
+      "t": [
+        173.026,
+        177.215
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "みんな黒い服を着て、しずかな顔をしています。",
+      "furigana": [
+        {
+          "surface": "みんな",
+          "reading": ""
+        },
+        {
+          "surface": "黒",
+          "reading": "くろ"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "服",
+          "reading": "ふく"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "着",
+          "reading": "き"
+        },
+        {
+          "surface": "て、しずかな",
+          "reading": ""
+        },
+        {
+          "surface": "顔",
+          "reading": "かお"
+        },
+        {
+          "surface": "をしています。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Minna kuroi fuku o kite, shizuka na kao o shiteimasu.",
+      "translations": {
+        "vi": "Ai nấy mặc đồ đen, vẻ mặt lặng lẽ.",
+        "en": "They were all dressed in black, with quiet faces.",
+        "zh-Hans": "大家都穿着黑衣服，神情肃静。",
+        "zh-Hant": "大家都穿著黑衣服，神情肅靜。",
+        "ko": "모두 검은 옷을 입고 조용한 얼굴입니다.",
+        "tl": "Nakaitim silang lahat at tahimik ang mukha.",
+        "ne": "सबैले कालो लुगा लगाएका, शान्त अनुहार।",
+        "id": "Semua berpakaian hitam, wajahnya hening.",
+        "pt": "Todos de preto, com rostos calados.",
+        "my": "အားလုံး အနက်ဝတ်ပြီး မျက်နှာ တည်ငြိမ်နေတယ်။",
+        "th": "ทุกคนใส่ชุดดำ หน้าตาเงียบขรึม",
+        "si": "හැමෝම කළු ඇඳුම් ඇඳගෙන, නිහඬ මූණුවලින් ඉන්නවා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "黒い服 = quần áo đen (đồ tang).",
+        "en": "黒い服 = black clothes (mourning).",
+        "zh-Hans": "黒い服＝黑衣服（丧服）。",
+        "zh-Hant": "黒い服＝黑衣服（喪服）。",
+        "ko": "검은 옷 (상복).",
+        "tl": "itim na damit (pagluluksa).",
+        "ne": "कालो लुगा (शोक)।",
+        "id": "baju hitam (berkabung).",
+        "pt": "roupa preta (luto).",
+        "my": "အနက်ရောင် အဝတ် (ဝမ်းနည်းမှု)။",
+        "th": "ชุดดำ (ไว้ทุกข์)",
+        "si": "黒い服 = කළු ඇඳුම් (ශෝකය)."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=177.815,181.845",
+      "t": [
+        177.815,
+        181.845
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「だれか、なくなったんだな。」",
+      "furigana": [
+        {
+          "surface": "「だれか、なくなったんだな。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Dare ka, nakunatta n da na.”",
+      "translations": {
+        "vi": "\"Có ai đó vừa mất rồi.\"",
+        "en": "\"Someone must have died.\"",
+        "zh-Hans": "“有人去世了啊。”",
+        "zh-Hant": "“有人去世了啊。”",
+        "ko": "\"누가 돌아가셨구나.\"",
+        "tl": "\"May namatay pala.\"",
+        "ne": "\"कोही बित्नुभएछ।\"",
+        "id": "\"Ada yang meninggal, ya.\"",
+        "pt": "\"Alguém morreu.\"",
+        "my": "\"တစ်ယောက်ယောက် ဆုံးသွားပြီပဲ။\"",
+        "th": "\"มีคนตายแน่ ๆ\"",
+        "si": "\"කවුරුහරි මිය ගිහින් වගේ.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "なくなる = qua đời (cách nói nhẹ của 死ぬ). 〜んだな = thì ra ~.",
+        "en": "なくなる = pass away (gentle for 死ぬ). 〜んだな = so ~.",
+        "zh-Hans": "なくなる＝去世（死ぬ的委婉说法）。",
+        "zh-Hant": "なくなる＝去世（死ぬ的委婉說法）。",
+        "ko": "돌아가시다.",
+        "tl": "pumanaw.",
+        "ne": "बित्नु।",
+        "id": "meninggal.",
+        "pt": "falecer.",
+        "my": "ဆုံးပါးတယ်။",
+        "th": "เสียชีวิต",
+        "si": "なくなる = මිය යනවා (死ぬ ට වඩා මෘදුයි). 〜んだな = ~ වගේ."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=182.745,184.554",
+      "t": [
+        182.745,
+        184.554
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "しばらくすると、おそうしきの人たちが出てきました。",
+      "furigana": [
+        {
+          "surface": "しばらくすると、おそうしきの",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "たちが",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "てきました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shibaraku suru to, osoushiki no hitotachi ga detekimashita.",
+      "translations": {
+        "vi": "Một lúc sau, những người đưa tang bước ra.",
+        "en": "After a while, the funeral procession came out.",
+        "zh-Hans": "过了一会儿，送葬的人们走了出来。",
+        "zh-Hant": "過了一會兒，送葬的人們走了出來。",
+        "ko": "잠시 후 장례 행렬이 나왔습니다.",
+        "tl": "Pagkaraan, lumabas ang mga nakikipaglibing.",
+        "ne": "केही बेरपछि मलामीहरू निस्के।",
+        "id": "Tak lama, rombongan pemakaman keluar.",
+        "pt": "Pouco depois, saiu o cortejo fúnebre.",
+        "my": "ခဏကြာတော့ အသုဘ လိုက်ပို့သူတွေ ထွက်လာတယ်။",
+        "th": "สักพักขบวนงานศพก็ออกมา",
+        "si": "ටික වෙලාවකින්, අවමංගල්‍ය පෙරහැර එළියට ආවා."
+      },
+      "vocab": [
+        {
+          "word": "しばらく",
+          "reading": "しばらく",
+          "meanings": {
+            "vi": "một thời gian, một lúc",
+            "en": "for a while",
+            "zh-Hans": "一会儿、一段时间",
+            "zh-Hant": "一會兒、一段時間",
+            "ko": "잠시, 한동안",
+            "tl": "sandali",
+            "ne": "केही समय",
+            "id": "sebentar, beberapa lama",
+            "pt": "por um tempo",
+            "my": "ခဏ",
+            "th": "สักพัก",
+            "si": "ටික වේලාවක්, ටික කලක්"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "おそうしき = đám tang.",
+        "en": "おそうしき = funeral.",
+        "zh-Hans": "おそうしき＝葬礼。",
+        "zh-Hant": "おそうしき＝葬禮。",
+        "ko": "장례식.",
+        "tl": "libing.",
+        "ne": "अन्त्येष्टि।",
+        "id": "pemakaman.",
+        "pt": "funeral.",
+        "my": "အသုဘ။",
+        "th": "งานศพ",
+        "si": "おそうしき = අවමංගල්‍යය."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=185.454,189.113",
+      "t": [
+        185.454,
+        189.113
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ヒョウジュウが、白い着物を着て、前を歩いています。",
+      "furigana": [
+        {
+          "surface": "ヒョウジュウが、",
+          "reading": ""
+        },
+        {
+          "surface": "白",
+          "reading": "しろ"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "着物",
+          "reading": "きもの"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "着",
+          "reading": "き"
+        },
+        {
+          "surface": "て、",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "歩",
+          "reading": "ある"
+        },
+        {
+          "surface": "いています。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Hyoujuu ga, shiroi kimono o kite, mae o aruiteimasu.",
+      "translations": {
+        "vi": "Hyoju mặc áo trắng, đi phía trước.",
+        "en": "Hyoju, in a white kimono, was walking at the front.",
+        "zh-Hans": "兵十穿着白色的衣服走在前面。",
+        "zh-Hant": "兵十穿著白色的衣服走在前面。",
+        "ko": "효주가 흰옷을 입고 앞에서 걷고 있습니다.",
+        "tl": "Nasa unahan si Hyoju, nakaputing kimono.",
+        "ne": "ह्योजु सेतो लुगा लगाएर अगाडि हिँड्दैछ।",
+        "id": "Hyoju berjalan di depan memakai kimono putih.",
+        "pt": "Hyoju ia na frente, de quimono branco.",
+        "my": "ဟျိုးဂျူးက အဖြူဝတ်ပြီး ရှေ့ကနေ လျှောက်နေတယ်။",
+        "th": "เฮียวจูใส่ชุดขาวเดินอยู่ข้างหน้า",
+        "si": "හියෝජූ සුදු කිමෝනෝවක් ඇඳගෙන ඉස්සරහින් ඇවිදිනවා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "白い着物 = áo kimono trắng, đồ tang ngày xưa của người thân.",
+        "en": "白い着物 = white kimono, worn by the chief mourner in old times.",
+        "zh-Hans": "白い着物＝白色和服，过去丧主穿的。",
+        "zh-Hant": "白い著物＝白色和服，過去喪主穿的。",
+        "ko": "흰 기모노 (옛 상주 옷).",
+        "tl": "puting kimono ng namatayan.",
+        "ne": "सेतो किमोनो (शोकमा)।",
+        "id": "kimono putih (berkabung).",
+        "pt": "quimono branco do enlutado.",
+        "my": "အဖြူရောင် ကီမိုနို။",
+        "th": "กิโมโนขาวของเจ้าภาพ",
+        "si": "白い着物 = සුදු කිමෝනෝ, ඉස්සර ප්‍රධාන ශෝක වන්නා අඳිනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=189.713,194.202",
+      "t": [
+        189.713,
+        194.202
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "いつもは元気な顔が、今日はとても悲しそうです。",
+      "furigana": [
+        {
+          "surface": "いつもは",
+          "reading": ""
+        },
+        {
+          "surface": "元気",
+          "reading": "げんき"
+        },
+        {
+          "surface": "な",
+          "reading": ""
+        },
+        {
+          "surface": "顔",
+          "reading": "かお"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "今日",
+          "reading": "きょう"
+        },
+        {
+          "surface": "はとても",
+          "reading": ""
+        },
+        {
+          "surface": "悲",
+          "reading": "かな"
+        },
+        {
+          "surface": "しそうです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Itsumo wa genki na kao ga, kyou wa totemo kanashisou desu.",
+      "translations": {
+        "vi": "Gương mặt mọi khi tươi tỉnh, hôm nay trông thật buồn.",
+        "en": "His usually cheerful face looked very sad today.",
+        "zh-Hans": "平时总是精神的脸，今天显得非常悲伤。",
+        "zh-Hant": "平時總是精神的臉，今天顯得非常悲傷。",
+        "ko": "평소에는 밝던 얼굴이 오늘은 아주 슬퍼 보입니다.",
+        "tl": "Ang mukha niyang laging masigla, malungkot ngayon.",
+        "ne": "सधैं फुर्तिलो अनुहार आज निकै दुःखी देखिन्छ।",
+        "id": "Wajahnya yang biasanya ceria tampak sangat sedih.",
+        "pt": "O rosto sempre alegre estava muito triste hoje.",
+        "my": "အမြဲ ရွှင်လန်းတဲ့ မျက်နှာက ဒီနေ့ အရမ်း ဝမ်းနည်းနေပုံပဲ။",
+        "th": "หน้าที่ปกติร่าเริง วันนี้ดูเศร้ามาก",
+        "si": "හැමදාම සතුටින් ඉන්න මූණ, අද හරිම දුකින් වගේ."
+      },
+      "vocab": [
+        {
+          "word": "悲しい",
+          "reading": "かなしい",
+          "meanings": {
+            "vi": "buồn",
+            "en": "sad",
+            "zh-Hans": "悲伤",
+            "zh-Hant": "悲傷",
+            "ko": "슬프다",
+            "tl": "malungkot",
+            "ne": "दुःखी",
+            "id": "sedih",
+            "pt": "triste",
+            "my": "ဝမ်းနည်း",
+            "th": "เศร้า",
+            "si": "දුක්බර"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "悲しそう = trông có vẻ buồn.",
+        "en": "悲しそう = looks sad.",
+        "zh-Hans": "悲しそう＝看起来很悲伤。",
+        "zh-Hant": "悲しそう＝看起來很悲傷。",
+        "ko": "슬퍼 보이다.",
+        "tl": "mukhang malungkot.",
+        "ne": "दुःखी देखिने।",
+        "id": "tampak sedih.",
+        "pt": "parece triste.",
+        "my": "ဝမ်းနည်းပုံရ။",
+        "th": "ดูเศร้า",
+        "si": "悲しそう = දුකින් වගේ."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=194.802,198.592",
+      "t": [
+        194.802,
+        198.592
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「なくなったのは、ヒョウジュウのお母さんだ。」",
+      "furigana": [
+        {
+          "surface": "「なくなったのは、ヒョウジュウのお",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんだ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Nakunatta no wa, Hyoujuu no okaasan da.”",
+      "translations": {
+        "vi": "\"Người mất là mẹ của Hyoju.\"",
+        "en": "\"It's Hyoju's mother who died.\"",
+        "zh-Hans": "“去世的是兵十的妈妈。”",
+        "zh-Hant": "“去世的是兵十的媽媽。”",
+        "ko": "\"돌아가신 건 효주 어머니구나.\"",
+        "tl": "\"Ang nanay ni Hyoju ang pumanaw.\"",
+        "ne": "\"बित्नुभएको त ह्योजुकी आमा हुनुहुँदोरहेछ।\"",
+        "id": "\"Yang meninggal ibu Hyoju.\"",
+        "pt": "\"Quem morreu foi a mãe do Hyoju.\"",
+        "my": "\"ဆုံးသွားတာ ဟျိုးဂျူးရဲ့ အမေပဲ။\"",
+        "th": "\"คนที่ตายคือแม่ของเฮียวจู\"",
+        "si": "\"මිය ගියේ හියෝජූගේ අම්මා.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜のは〜だ = cái/người ~ là ~ (nhấn mạnh).",
+        "en": "〜のは〜だ = the one who ~ is ~ (emphasis).",
+        "zh-Hans": "〜のは〜だ＝……的是……（强调）。",
+        "zh-Hant": "〜のは〜だ＝……的是……（強調）。",
+        "ko": "~한 것은 ~다.",
+        "tl": "ang ~ ay ~.",
+        "ne": "~ चाहिँ ~ हो।",
+        "id": "yang ~ adalah ~.",
+        "pt": "quem ~ é ~.",
+        "my": "~ တာက ~ ပဲ။",
+        "th": "ที่ ~ คือ ~",
+        "si": "〜のは〜だ = ~ කළේ ~ (අවධාරණය)."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=199.492,202.158",
+      "t": [
+        199.492,
+        202.158
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "その夜、ごんは家の中で考えました。",
+      "furigana": [
+        {
+          "surface": "その",
+          "reading": ""
+        },
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "、ごんは",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "考",
+          "reading": "かんが"
+        },
+        {
+          "surface": "えました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono yoru, Gon wa ie no naka de kangaemashita.",
+      "translations": {
+        "vi": "Đêm đó, Gon nằm trong hang suy nghĩ.",
+        "en": "That night, Gon lay in his den, thinking.",
+        "zh-Hans": "那天夜里，阿权在家里想啊想。",
+        "zh-Hant": "那天夜裡，阿權在家裡想啊想。",
+        "ko": "그날 밤 곤은 집 안에서 생각했습니다.",
+        "tl": "Noong gabing iyon, nag-isip si Gon sa lungga.",
+        "ne": "त्यो राति गोनले घरभित्र सोच्यो।",
+        "id": "Malam itu, Gon berpikir di rumahnya.",
+        "pt": "Naquela noite, Gon ficou pensando em casa.",
+        "my": "အဲဒီည ဂုံက အိမ်ထဲမှာ စဉ်းစားတယ်။",
+        "th": "คืนนั้น กอนนอนคิดอยู่ในบ้าน",
+        "si": "ඒ රෑ, ගොන් ගුහාව ඇතුළේ හිතුවා."
+      },
+      "vocab": [
+        {
+          "word": "考える",
+          "reading": "かんがえる",
+          "meanings": {
+            "vi": "suy nghĩ",
+            "en": "to think",
+            "zh-Hans": "想、考虑",
+            "zh-Hant": "想、考慮",
+            "ko": "생각하다",
+            "tl": "mag-isip",
+            "ne": "सोच्नु",
+            "id": "berpikir",
+            "pt": "pensar",
+            "my": "စဉ်းစား",
+            "th": "คิด",
+            "si": "සිතීම, කල්පනා කිරීම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "考える = suy nghĩ.",
+        "en": "考える = think.",
+        "zh-Hans": "考える＝想。",
+        "zh-Hant": "考える＝想。",
+        "ko": "생각하다.",
+        "tl": "mag-isip.",
+        "ne": "सोच्नु।",
+        "id": "berpikir.",
+        "pt": "pensar.",
+        "my": "စဉ်းစားတယ်။",
+        "th": "คิด",
+        "si": "考える = හිතනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=203.058,206.499",
+      "t": [
+        203.058,
+        206.499
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ヒョウジュウのお母さんは、病気で寝ていたんだ。」",
+      "furigana": [
+        {
+          "surface": "「ヒョウジュウのお",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、",
+          "reading": ""
+        },
+        {
+          "surface": "病気",
+          "reading": "びょうき"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "寝",
+          "reading": "ね"
+        },
+        {
+          "surface": "ていたんだ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Hyoujuu no okaasan wa, byouki de neteita n da.”",
+      "translations": {
+        "vi": "\"Mẹ của Hyoju bị ốm nằm liệt giường.\"",
+        "en": "\"Hyoju's mother was sick in bed.\"",
+        "zh-Hans": "“兵十的妈妈生病躺在床上。”",
+        "zh-Hant": "“兵十的媽媽生病躺在床上。”",
+        "ko": "\"효주 어머니는 병으로 누워 계셨던 거야.\"",
+        "tl": "\"May sakit at nakaratay ang nanay ni Hyoju.\"",
+        "ne": "\"ह्योजुकी आमा बिरामी भएर ओछ्यानमा हुनुहुन्थ्यो।\"",
+        "id": "\"Ibu Hyoju sakit dan terbaring.\"",
+        "pt": "\"A mãe do Hyoju estava doente, de cama.\"",
+        "my": "\"ဟျိုးဂျူးရဲ့ အမေက နေမကောင်းလို့ အိပ်ရာထဲ ရှိနေခဲ့တာ။\"",
+        "th": "\"แม่ของเฮียวจูป่วยนอนติดเตียง\"",
+        "si": "\"හියෝජූගේ අම්මා අසනීපෙන් ඇඳේ හිටියා නේද.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜んだ = thì ra là ~ (giải thích, nhận ra).",
+        "en": "〜んだ = so it was that ~ (explaining, realizing).",
+        "zh-Hans": "〜んだ＝原来是……（说明、领悟）。",
+        "zh-Hant": "〜んだ＝原來是……（說明、領悟）。",
+        "ko": "~했던 거야.",
+        "tl": "kaya pala ~.",
+        "ne": "~ रहेछ।",
+        "id": "ternyata ~.",
+        "pt": "então era que ~.",
+        "my": "~ တာကိုး။",
+        "th": "ที่แท้ ~",
+        "si": "〜んだ = ~ කියලා (පැහැදිලි කරමින්, තේරුම් ගනිමින්)."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=207.399,210.266",
+      "t": [
+        207.399,
+        210.266
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「きっと、うなぎが食べたいと言ったんだろう。」",
+      "furigana": [
+        {
+          "surface": "「きっと、うなぎが",
+          "reading": ""
+        },
+        {
+          "surface": "食",
+          "reading": "た"
+        },
+        {
+          "surface": "べたいと",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "ったんだろう。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kitto, unagi ga tabetai to itta n darou.”",
+      "translations": {
+        "vi": "\"Chắc bà đã nói muốn ăn lươn.\"",
+        "en": "\"She must have said she wanted to eat eel.\"",
+        "zh-Hans": "“她一定是说想吃鳗鱼吧。”",
+        "zh-Hant": "“她一定是說想吃鰻魚吧。”",
+        "ko": "\"분명 장어가 먹고 싶다고 하셨겠지.\"",
+        "tl": "\"Siguro sinabi niyang gusto niya ng igat.\"",
+        "ne": "\"पक्कै बाम खान मन छ भन्नुभएको होला।\"",
+        "id": "\"Pasti beliau bilang ingin makan belut.\"",
+        "pt": "\"Ela deve ter dito que queria comer enguia.\"",
+        "my": "\"ငါးရှဉ့် စားချင်တယ်လို့ ပြောခဲ့မှာပဲ။\"",
+        "th": "\"แม่คงบอกว่าอยากกินปลาไหล\"",
+        "si": "\"අනිවාර්යයෙන්ම එයා ආඳා කන්න ඕනේ කියලා ඇති.\""
+      },
+      "vocab": [
+        {
+          "word": "きっと",
+          "reading": "きっと",
+          "meanings": {
+            "vi": "chắc chắn",
+            "en": "surely",
+            "zh-Hans": "一定",
+            "zh-Hant": "一定",
+            "ko": "분명히",
+            "tl": "tiyak",
+            "ne": "पक्कै",
+            "id": "pasti",
+            "pt": "com certeza",
+            "my": "သေချာပေါက်",
+            "th": "แน่นอน",
+            "si": "අනිවාර්යයෙන්ම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "きっと〜だろう = chắc chắn là ~.",
+        "en": "きっと〜だろう = must have ~, surely.",
+        "zh-Hans": "きっと〜だろう＝一定……吧。",
+        "zh-Hant": "きっと〜だろう＝一定……吧。",
+        "ko": "분명 ~겠지.",
+        "tl": "siguro ~.",
+        "ne": "पक्कै ~ होला।",
+        "id": "pasti ~.",
+        "pt": "com certeza ~.",
+        "my": "သေချာပေါက် ~ မှာပဲ။",
+        "th": "คง ~ แน่",
+        "si": "きっと〜だろう = අනිවාර්යයෙන්ම ~ ඇති."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=210.866,213.507",
+      "t": [
+        210.866,
+        213.507
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「だからヒョウジュウは、雨のあとの川で、うなぎをとっていたんだ。」",
+      "furigana": [
+        {
+          "surface": "「だからヒョウジュウは、",
+          "reading": ""
+        },
+        {
+          "surface": "雨",
+          "reading": "あめ"
+        },
+        {
+          "surface": "のあとの",
+          "reading": ""
+        },
+        {
+          "surface": "川",
+          "reading": "かわ"
+        },
+        {
+          "surface": "で、うなぎをとっていたんだ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Dakara Hyoujuu wa, ame no ato no kawa de, unagi o totteita n da.”",
+      "translations": {
+        "vi": "\"Thế nên sau cơn mưa, Hyoju mới ra suối bắt lươn.\"",
+        "en": "\"That's why Hyoju was catching eels in the river after the rain.\"",
+        "zh-Hans": "“所以兵十才在雨后的河里抓鳗鱼。”",
+        "zh-Hant": "“所以兵十才在雨後的河裡抓鰻魚。”",
+        "ko": "\"그래서 효주는 비 온 뒤 강에서 장어를 잡고 있었던 거야.\"",
+        "tl": "\"Kaya pala nanghuhuli si Hyoju ng igat pagkatapos ng ulan.\"",
+        "ne": "\"त्यसैले ह्योजु पानीपछि खोलामा बाम मार्दै थियो।\"",
+        "id": "\"Makanya Hyoju menangkap belut di sungai setelah hujan.\"",
+        "pt": "\"Por isso o Hyoju pescava enguia depois da chuva.\"",
+        "my": "\"ဒါကြောင့် ဟျိုးဂျူးက မိုးရွာပြီးနောက် ချောင်းထဲ ငါးရှဉ့် ဖမ်းနေတာ။\"",
+        "th": "\"เฮียวจูจึงไปจับปลาไหลที่ลำธารหลังฝนตก\"",
+        "si": "\"ඒ නිසා තමයි හියෝජූ වැස්සෙන් පස්සේ ඇළේ ආඳා අල්ලමින් හිටියේ.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "だから = vì vậy.",
+        "en": "だから = that's why.",
+        "zh-Hans": "だから＝所以。",
+        "zh-Hant": "だから＝所以。",
+        "ko": "그래서.",
+        "tl": "kaya.",
+        "ne": "त्यसैले।",
+        "id": "makanya.",
+        "pt": "por isso.",
+        "my": "ဒါကြောင့်။",
+        "th": "ดังนั้น",
+        "si": "だから = ඒ නිසා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=214.107,218.158",
+      "t": [
+        214.107,
+        218.158
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「それなのに、おれがいたずらをして、にがしてしまった。」",
+      "furigana": [
+        {
+          "surface": "「それなのに、おれがいたずらをして、にがしてしまった。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Sorenanoni, ore ga itazura o shite, nigashiteshimatta.”",
+      "translations": {
+        "vi": "\"Vậy mà mình lại bày trò, làm con lươn chạy mất.\"",
+        "en": "\"And yet I played a prank and let it get away.\"",
+        "zh-Hans": "“可是，我却恶作剧，让鳗鱼跑掉了。”",
+        "zh-Hant": "“可是，我卻惡作劇，讓鰻魚跑掉了。”",
+        "ko": "\"그런데 내가 장난을 쳐서 놓쳐 버렸어.\"",
+        "tl": "\"Pero nagkalokohan ako at pinakawalan ko ito.\"",
+        "ne": "\"तर मैले बदमासी गरेर भगाइदिएँ।\"",
+        "id": "\"Tapi aku berbuat iseng dan melepaskannya.\"",
+        "pt": "\"E eu, de travessura, deixei escapar.\"",
+        "my": "\"ဒါပေမဲ့ ငါက နှောင့်ယှက်ပြီး လွှတ်ပစ်လိုက်တယ်။\"",
+        "th": "\"แต่ข้ากลับแกล้งจนมันหนีไป\"",
+        "si": "\"එහෙම තියෙද්දී, මම විහිළුවක් කරලා ඒක බේරෙන්න ඇරියා.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "それなのに = vậy mà. にがす = thả cho chạy mất.",
+        "en": "それなのに = and yet. にがす = let escape.",
+        "zh-Hans": "それなのに＝可是。にがす＝放跑。",
+        "zh-Hant": "それなのに＝可是。にがす＝放跑。",
+        "ko": "그런데도. 놓치다.",
+        "tl": "pero. pakawalan.",
+        "ne": "तैपनि। भगाउनु।",
+        "id": "padahal. melepaskan.",
+        "pt": "e mesmo assim. deixar fugir.",
+        "my": "ဒါပေမဲ့။ လွှတ်ပစ်။",
+        "th": "ทั้งที่ ปล่อยหนี",
+        "si": "それなのに = එහෙම තියෙද්දී. にがす = පැනලා යන්න අරිනවා."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=218.758,222.198",
+      "t": [
+        218.758,
+        222.198
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「お母さんは、うなぎを食べられないまま、なくなったんだ。」",
+      "furigana": [
+        {
+          "surface": "「お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、うなぎを",
+          "reading": ""
+        },
+        {
+          "surface": "食",
+          "reading": "た"
+        },
+        {
+          "surface": "べられないまま、なくなったんだ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Okaasan wa, unagi o taberarenai mama, nakunatta n da.”",
+      "translations": {
+        "vi": "\"Bà đã mất mà chưa được ăn lươn.\"",
+        "en": "\"She died without ever getting to eat that eel.\"",
+        "zh-Hans": "“妈妈没能吃上鳗鱼就去世了。”",
+        "zh-Hant": "“媽媽沒能吃上鰻魚就去世了。”",
+        "ko": "\"어머니는 장어를 못 드시고 돌아가셨어.\"",
+        "tl": "\"Pumanaw siya nang hindi nakakain ng igat.\"",
+        "ne": "\"आमा बाम खान नपाई बित्नुभयो।\"",
+        "id": "\"Beliau meninggal tanpa sempat makan belut.\"",
+        "pt": "\"Ela morreu sem comer a enguia.\"",
+        "my": "\"အမေက ငါးရှဉ့် မစားရဘဲ ဆုံးသွားတာ။\"",
+        "th": "\"แม่ตายไปโดยไม่ได้กินปลาไหล\"",
+        "si": "\"අම්මා ඒ ආඳා කන්න නොලැබීම මිය ගියා.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜られないまま = mà vẫn không ~ được.",
+        "en": "〜られないまま = without being able to ~.",
+        "zh-Hans": "〜られないまま＝没能……就。",
+        "zh-Hant": "〜られないまま＝沒能……就。",
+        "ko": "~하지 못한 채.",
+        "tl": "nang hindi nakaka-~.",
+        "ne": "~ नपाई।",
+        "id": "tanpa bisa ~.",
+        "pt": "sem poder ~.",
+        "my": "မ ~ ရဘဲ။",
+        "th": "โดยไม่ได้ ~",
+        "si": "〜られないまま = ~ කරන්න නොලැබීම."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=222.798,226.424",
+      "t": [
+        222.798,
+        226.424
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「ああ、あんないたずら、しなければよかった。」",
+      "furigana": [
+        {
+          "surface": "「ああ、あんないたずら、しなければよかった。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Aa, anna itazura, shinakerebayokatta.”",
+      "translations": {
+        "vi": "\"Ôi, giá mà mình đừng bày trò đó.\"",
+        "en": "\"Oh, I wish I'd never played that prank.\"",
+        "zh-Hans": "“唉，要是没那样恶作剧就好了。”",
+        "zh-Hant": "“唉，要是沒那樣惡作劇就好了。”",
+        "ko": "\"아, 그런 장난 치지 말 걸.\"",
+        "tl": "\"Ay, sana hindi ko na ginawa ang kalokohang iyon.\"",
+        "ne": "\"ओहो, त्यस्तो बदमासी नगरेको भए हुन्थ्यो।\"",
+        "id": "\"Ah, seharusnya aku tidak iseng seperti itu.\"",
+        "pt": "\"Ah, se eu não tivesse feito aquilo.\"",
+        "my": "\"အို၊ အဲဒီလို မနှောင့်ယှက်ခဲ့ရင် ကောင်းမှာ။\"",
+        "th": "\"โธ่ ไม่น่าแกล้งเลย\"",
+        "si": "\"අනේ, ඒ වගේ විහිළුවක් නොකළා නම් හොඳයි.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜なければよかった = giá mà đừng ~ (hối hận).",
+        "en": "〜なければよかった = I shouldn't have ~ (regret).",
+        "zh-Hans": "〜なければよかった＝要是没……就好了（后悔）。",
+        "zh-Hant": "〜なければよかった＝要是沒……就好了（後悔）。",
+        "ko": "~하지 말 걸.",
+        "tl": "sana hindi ko ~.",
+        "ne": "~ नगरेको भए हुन्थ्यो।",
+        "id": "seharusnya tidak ~.",
+        "pt": "não devia ter ~.",
+        "my": "မ ~ ခဲ့ရင် ကောင်းမှာ။",
+        "th": "ไม่น่า ~ เลย",
+        "si": "〜なければよかった = ~ නොකළා නම් හොඳයි (පසුතැවීම)."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=227.024,229.846",
+      "t": [
+        227.024,
+        229.846
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "ごんは、その夜、なかなかねむれませんでした。",
+      "furigana": [
+        {
+          "surface": "ごんは、その",
+          "reading": ""
+        },
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "、なかなかねむれませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Gon wa, sono yoru, nakanaka nemuremasendeshita.",
+      "translations": {
+        "vi": "Đêm ấy, Gon mãi không sao ngủ được.",
+        "en": "That night, Gon just couldn't fall asleep.",
+        "zh-Hans": "那天夜里，阿权怎么也睡不着。",
+        "zh-Hant": "那天夜裡，阿權怎麼也睡不著。",
+        "ko": "그날 밤 곤은 좀처럼 잠들지 못했습니다.",
+        "tl": "Noong gabing iyon, hindi makatulog si Gon.",
+        "ne": "त्यो राति गोनलाई निद्रै लागेन।",
+        "id": "Malam itu, Gon sulit tidur.",
+        "pt": "Naquela noite, Gon não conseguiu dormir.",
+        "my": "အဲဒီည ဂုံ အိပ်လို့ မပျော်ဘူး။",
+        "th": "คืนนั้น กอนนอนไม่หลับเลย",
+        "si": "ඒ රෑ ගොන්ට කොහොමටවත් නින්ද ගියේ නැහැ."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "なかなか〜ない = mãi mà không ~.",
+        "en": "なかなか〜ない = just can't ~.",
+        "zh-Hans": "なかなか〜ない＝怎么也不……。",
+        "zh-Hant": "なかなか〜ない＝怎麼也不……。",
+        "ko": "좀처럼 ~ 않다.",
+        "tl": "hindi agad ~.",
+        "ne": "सजिलै ~ नहुनु।",
+        "id": "sulit ~.",
+        "pt": "não conseguir ~.",
+        "my": "လွယ်လွယ် မ ~။",
+        "th": "ไม่ค่อย ~",
+        "si": "なかなか〜ない = කොහොමටවත් ~ බැහැ."
+      },
+      "audio": "/audio/gongitsune-1/chapter.mp3#t=230.746,234.55",
+      "t": [
+        230.746,
+        234.55
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    }
+  ],
+  "audioTrack": {
+    "src": "/audio/gongitsune-1/chapter.mp3",
+    "durationSec": 235.608
+  }
+}

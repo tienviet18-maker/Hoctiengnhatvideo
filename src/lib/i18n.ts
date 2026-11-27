@@ -11,6 +11,7 @@ import id from "../i18n/locales/id.json";
 import pt from "../i18n/locales/pt.json";
 import my from "../i18n/locales/my.json";
 import th from "../i18n/locales/th.json";
+import si from "../i18n/locales/si.json";
 
 export type UiStrings = typeof vi;
 
@@ -26,6 +27,7 @@ export const UI: Record<LanguageCode, UiStrings> = {
   pt: pt as UiStrings,
   my: my as UiStrings,
   th: th as UiStrings,
+  si: si as UiStrings,
 };
 
 export const LANGUAGE_NAMES: Record<LanguageCode, string> = {
@@ -40,6 +42,7 @@ export const LANGUAGE_NAMES: Record<LanguageCode, string> = {
   pt: "Português",
   my: "မြန်မာ",
   th: "ไทย",
+  si: "සිංහල",
 };
 
 export { LANGUAGE_CODES };

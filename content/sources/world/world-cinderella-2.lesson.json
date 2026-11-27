@@ -1,0 +1,50 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜すぎる",
+   "example": 6,
+   "meaning": { "vi": "quá ~", "en": "too ~", "zh-Hans": "太……", "ko": "너무 ~하다", "tl": "masyadong ~", "ne": "अति ~", "id": "terlalu ~", "pt": "~ demais", "my": "~ လွန်းသည်", "th": "~ เกินไป" }
+  },
+  {
+   "pattern": "〜しか〜ない",
+   "example": 13,
+   "meaning": { "vi": "chỉ ~ thôi (ít hơn mong đợi)", "en": "only ~ (less than hoped)", "zh-Hans": "只……（比预期少）", "ko": "~밖에 ~않다", "tl": "~ lamang (kulang sa inaasahan)", "ne": "~ मात्र (अपेक्षाभन्दा कम)", "id": "hanya ~ (kurang dari harapan)", "pt": "só ~ (menos do que se esperava)", "my": "~ ပဲ (မျှော်လင့်တာထက်နည်း)", "th": "แค่ ~ (น้อยกว่าที่หวัง)" }
+  },
+  {
+   "pattern": "まるで〜ようだ",
+   "example": 25,
+   "meaning": { "vi": "cứ như là ~", "en": "just as if ~", "zh-Hans": "简直像……一样", "ko": "마치 ~같다", "tl": "para bang ~", "ne": "मानौं ~", "id": "seolah-olah ~", "pt": "como se ~", "my": "~ သလိုပဲ", "th": "ราวกับ ~" }
+  },
+  {
+   "pattern": "〜てあげる",
+   "example": 43,
+   "meaning": { "vi": "làm ~ cho người khác", "en": "do ~ for someone", "zh-Hans": "为别人做……", "ko": "~해 주다", "tl": "gawin ang ~ para sa iba", "ne": "अरूका लागि ~ दिनु", "id": "melakukan ~ untuk orang lain", "pt": "fazer ~ por alguém", "my": "~ ပေးသည်", "th": "ทำ ~ ให้คนอื่น" }
+  }
+ ],
+ "quiz": [
+  {
+   "ja": "王子様は、だれと結婚すると言いましたか。",
+   "choices": ["一番きれいな人", "靴がぴったり合う人", "お金持ちの人", "歌が上手な人"],
+   "answer": 1,
+   "explain": { "vi": "Người đi vừa khít chiếc giày thủy tinh.", "en": "The one whom the glass slipper fits perfectly.", "zh-Hans": "玻璃鞋正合脚的人。", "ko": "유리 구두가 꼭 맞는 사람.", "tl": "Ang babaeng saktong-sakto ang sapatos.", "ne": "जुत्ता ठ्याक्कै मिल्ने व्यक्ति।", "id": "Orang yang pas memakai sepatu kaca.", "pt": "Aquela em quem o sapatinho servir.", "my": "ဖန်ဖိနပ်နဲ့ အံကိုက်တဲ့သူ။", "th": "คนที่ใส่รองเท้าแก้วได้พอดี" }
+  },
+  {
+   "ja": "お姉さんたちは、どうして靴がはけませんでしたか。",
+   "choices": ["靴がこわれていたから", "足が大きかったから", "靴が大きすぎたから", "はきたくなかったから"],
+   "answer": 1,
+   "explain": { "vi": "Chân hai chị quá to.", "en": "Their feet were too big.", "zh-Hans": "她们的脚太大了。", "ko": "발이 너무 컸다.", "tl": "Masyadong malaki ang paa nila.", "ne": "उनीहरूको खुट्टा ठूलो थियो।", "id": "Kaki mereka terlalu besar.", "pt": "Os pés delas eram grandes demais.", "my": "ခြေထောက်ကြီးလွန်းလို့။", "th": "เท้าของพวกเธอใหญ่เกินไป" }
+  },
+  {
+   "ja": "シンデレラは、お姉さんたちに何と言いましたか。",
+   "choices": ["「出ていきなさい」", "「許しません」", "「仲良くしましょう」", "「靴を返して」"],
+   "answer": 2,
+   "explain": { "vi": "Lọ Lem tha thứ và muốn sống hòa thuận.", "en": "She forgave them and wanted to get along.", "zh-Hans": "她原谅了她们，想和睦相处。", "ko": "용서하고 사이좋게 지내자고 했다.", "tl": "Pinatawad niya sila at gustong magkasundo.", "ne": "माफ गरिन् र मिलेर बस्न चाहिन्।", "id": "Ia memaafkan dan ingin hidup rukun.", "pt": "Perdoou-as e quis viver em paz.", "my": "ခွင့်လွှတ်ပြီး ချစ်ချစ်ခင်ခင်နေချင်တယ်။", "th": "เธอให้อภัยและอยากอยู่กันอย่างดี" }
+  },
+  {
+   "ja": "このお話は、どこで書かれましたか。",
+   "choices": ["ドイツ", "日本", "イギリス", "フランス"],
+   "answer": 3,
+   "explain": { "vi": "Perrault viết truyện này ở Pháp năm 1697.", "en": "Perrault wrote it in France in 1697.", "zh-Hans": "佩罗于1697年在法国写成。", "ko": "페로가 1697년 프랑스에서 썼다.", "tl": "Isinulat ito ni Perrault sa France noong 1697.", "ne": "पेरोले १६९७ मा फ्रान्समा लेखेका हुन्।", "id": "Perrault menulisnya di Prancis tahun 1697.", "pt": "Perrault a escreveu na França em 1697.", "my": "၁၆၉၇ မှာ ပြင်သစ်မှာ ပယ်ရိုး ရေးခဲ့တယ်။", "th": "แปโรเขียนที่ฝรั่งเศสในปี 1697" }
+  }
+ ]
+}

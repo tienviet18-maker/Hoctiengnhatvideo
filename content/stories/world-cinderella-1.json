@@ -1,0 +1,4824 @@
+{
+  "kind": "story",
+  "id": "world-cinderella-1",
+  "titles": {
+    "vi": "Lọ Lem (1): Đôi giày thủy tinh",
+    "en": "Cinderella (1): The Glass Slipper",
+    "zh-Hans": "灰姑娘（1）：玻璃鞋",
+    "zh-Hant": "灰姑娘（1）：玻璃鞋",
+    "ko": "신데렐라 (1): 유리 구두",
+    "tl": "Cinderella (1): Ang Sapatos na Kristal",
+    "ne": "सिन्ड्रेला (१): सिसाको जुत्ता",
+    "id": "Cinderella (1): Sepatu Kaca",
+    "pt": "Cinderela (1): O Sapatinho de Cristal",
+    "my": "စင်ဒရဲလား (၁): ဖန်ဖိနပ်",
+    "th": "ซินเดอเรลล่า (1): รองเท้าแก้ว",
+    "si": "සින්ඩරෙල්ලා (1): වීදුරු සෙරෙප්පුව"
+  },
+  "level": "N4",
+  "topic": "world-tales",
+  "source": "original",
+  "cover": "/covers/world-cinderella-1.webp",
+  "free": true,
+  "standard": 2,
+  "series": {
+    "id": "world-cinderella",
+    "index": 1
+  },
+  "shelf": "world",
+  "origin": "FR",
+  "lesson": {
+    "grammarPoints": [
+      {
+        "pattern": "〜てもいいですか",
+        "example": 18,
+        "meaning": {
+          "vi": "~ có được không? (xin phép)",
+          "en": "may I ~? (asking permission)",
+          "zh-Hans": "可以……吗？（请求许可）",
+          "zh-Hant": "可以……嗎？（請求許可）",
+          "ko": "~해도 됩니까? (허락 구하기)",
+          "tl": "puwede bang ~? (paghingi ng pahintulot)",
+          "ne": "~ गर्न पाउँछु? (अनुमति माग्दा)",
+          "id": "bolehkah ~? (minta izin)",
+          "pt": "posso ~? (pedir permissão)",
+          "my": "~ လို့ရမလား (ခွင့်တောင်းခြင်း)",
+          "th": "~ ได้ไหม (ขออนุญาต)",
+          "si": "මට ~ කරන්න පුළුවන්ද? (අවසර ඉල්ලීම)"
+        }
+      },
+      {
+        "pattern": "〜だらけ",
+        "example": 10,
+        "meaning": {
+          "vi": "đầy ~, toàn là ~ (thứ không hay)",
+          "en": "covered in ~, full of ~ (something unpleasant)",
+          "zh-Hans": "满是……（不好的东西）",
+          "zh-Hant": "滿是……（不好的東西）",
+          "ko": "~투성이",
+          "tl": "puno ng ~ (hindi kaaya-aya)",
+          "ne": "~ ले भरिएको (नराम्रो कुरा)",
+          "id": "penuh ~ (hal tak menyenangkan)",
+          "pt": "cheio de ~, coberto de ~ (algo ruim)",
+          "my": "~ တွေချည်း (မကောင်းတာ)",
+          "th": "เต็มไปด้วย ~ (สิ่งไม่ดี)",
+          "si": "~ න් වැසුණු, ~ න් පිරුණු (අප්‍රසන්න දෙයක්)"
+        }
+      },
+      {
+        "pattern": "〜てしまう",
+        "example": 43,
+        "meaning": {
+          "vi": "lỡ ~ mất, ~ mất rồi",
+          "en": "end up ~, ~ completely (often with regret)",
+          "zh-Hans": "……了（不小心、遗憾）",
+          "zh-Hant": "……了（不小心、遺憾）",
+          "ko": "~해 버리다",
+          "tl": "hindi sinasadyang ~, natapos ang ~",
+          "ne": "~ गरिहाल्नु (पछुतो)",
+          "id": "terlanjur ~, sudah ~",
+          "pt": "acabar ~ (sem querer)",
+          "my": "~ လိုက်မိသည်",
+          "th": "เผลอ ~ ไป, ~ เสียแล้ว",
+          "si": "~ වී යනවා, සම්පූර්ණයෙන්ම ~ (බොහෝවිට කනගාටුව සමඟ)"
+        }
+      },
+      {
+        "pattern": "〜なくちゃ",
+        "example": 46,
+        "meaning": {
+          "vi": "phải ~ (văn nói của 〜なければならない)",
+          "en": "must ~ (casual form of 〜なければならない)",
+          "zh-Hans": "必须……（〜なければならない的口语）",
+          "zh-Hant": "必須……（〜なければならない的口語）",
+          "ko": "~해야 해 (구어체)",
+          "tl": "kailangang ~ (pakaswal na anyo)",
+          "ne": "~ नै पर्छ (बोलचालको रूप)",
+          "id": "harus ~ (bentuk lisan)",
+          "pt": "tenho que ~ (forma coloquial)",
+          "my": "~ ရမယ် (အပြောစကား)",
+          "th": "ต้อง ~ (ภาษาพูด)",
+          "si": "~ කරන්නම ඕනේ (〜なければならない හි සාමාන්‍ය කතා රූපය)"
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "ja": "女の子は、どうして「シンデレラ」と呼ばれましたか。",
+        "choices": [
+          "いつも灰で汚れていたから",
+          "ガラスの靴をはいていたから",
+          "お城に住んでいたから",
+          "歌が上手だったから"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Cô ngủ trên tro nên lúc nào cũng lấm lem tro.",
+          "en": "She slept on the ashes, so she was always dirty with ash.",
+          "zh-Hans": "她睡在灰上，总是满身灰。",
+          "zh-Hant": "她睡在灰上，總是滿身灰。",
+          "ko": "재 위에서 자서 늘 재투성이였기 때문이다.",
+          "tl": "Natutulog siya sa abo kaya laging marumi.",
+          "ne": "खरानीमाथि सुत्ने भएकाले सधैं फोहोर हुन्थिन्।",
+          "id": "Ia tidur di atas abu sehingga selalu kotor.",
+          "pt": "Dormia nas cinzas e vivia suja.",
+          "my": "ပြာပေါ်မှာ အိပ်လို့ အမြဲ ပြာပေနေတယ်။",
+          "th": "เธอนอนบนขี้เถ้าจึงเปื้อนอยู่เสมอ",
+          "si": "ඇය අළු උඩ නිදාගත් නිසා, හැමවෙලේම අළුවලින් කිලිටි වෙලා හිටියා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "女",
+            "reading": "おんな"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "子",
+            "reading": "こ"
+          },
+          {
+            "surface": "は、どうして「シンデレラ」と",
+            "reading": ""
+          },
+          {
+            "surface": "呼",
+            "reading": "よ"
+          },
+          {
+            "surface": "ばれましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "いつも",
+              "reading": ""
+            },
+            {
+              "surface": "灰",
+              "reading": "はい"
+            },
+            {
+              "surface": "で",
+              "reading": ""
+            },
+            {
+              "surface": "汚",
+              "reading": "よご"
+            },
+            {
+              "surface": "れていたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ガラスの",
+              "reading": ""
+            },
+            {
+              "surface": "靴",
+              "reading": "くつ"
+            },
+            {
+              "surface": "をはいていたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "城",
+              "reading": "しろ"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "住",
+              "reading": "す"
+            },
+            {
+              "surface": "んでいたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "歌",
+              "reading": "うた"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "上手",
+              "reading": "じょうず"
+            },
+            {
+              "surface": "だったから",
+              "reading": ""
+            }
+          ]
+        ]
+      },
+      {
+        "ja": "かぼちゃは、何になりましたか。",
+        "choices": [
+          "白い馬",
+          "金の馬車",
+          "ドレス",
+          "ガラスの靴"
+        ],
+        "answer": 1,
+        "explain": {
+          "vi": "Bà tiên biến quả bí thành cỗ xe vàng.",
+          "en": "The fairy turned the pumpkin into a golden carriage.",
+          "zh-Hans": "仙女把南瓜变成了金马车。",
+          "zh-Hant": "仙女把南瓜變成了金馬車。",
+          "ko": "요정이 호박을 황금 마차로 바꿨다.",
+          "tl": "Ginawang gintong karwahe ang kalabasa.",
+          "ne": "फर्सीलाई सुनको बग्गी बनाइयो।",
+          "id": "Labu diubah menjadi kereta emas.",
+          "pt": "A abóbora virou uma carruagem de ouro.",
+          "my": "ဖရုံသီးကို ရွှေမြင်းရထား ပြောင်းပေးတယ်။",
+          "th": "ฟักทองกลายเป็นรถม้าทองคำ",
+          "si": "මායාකාරිය වට්ටක්කා ගෙඩිය රන් කරත්තයක් බවට පත් කළා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "かぼちゃは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "になりましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "白",
+              "reading": "しろ"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "馬",
+              "reading": "うま"
+            }
+          ],
+          [
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "馬車",
+              "reading": "ばしゃ"
+            }
+          ],
+          [
+            {
+              "surface": "ドレス",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ガラスの",
+              "reading": ""
+            },
+            {
+              "surface": "靴",
+              "reading": "くつ"
+            }
+          ]
+        ]
+      },
+      {
+        "ja": "魔法は、何時に消えますか。",
+        "choices": [
+          "夜の九時",
+          "夜の十時",
+          "夜の十二時",
+          "朝の六時"
+        ],
+        "answer": 2,
+        "explain": {
+          "vi": "Phép thuật tan lúc mười hai giờ đêm.",
+          "en": "The magic ends at midnight.",
+          "zh-Hans": "魔法在夜里十二点消失。",
+          "zh-Hant": "魔法在夜裡十二點消失。",
+          "ko": "마법은 밤 열두 시에 사라진다.",
+          "tl": "Nawawala ang mahika sa hatinggabi.",
+          "ne": "जादु राति बाह्र बजे हराउँछ।",
+          "id": "Sihir hilang tengah malam.",
+          "pt": "A mágica acaba à meia-noite.",
+          "my": "မှော်က ည ၁၂ နာရီမှာ ပျောက်တယ်။",
+          "th": "เวทมนตร์หายตอนเที่ยงคืน",
+          "si": "මායාව රෑ දොළහට නැති වෙනවා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "魔法",
+            "reading": "まほう"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "何時",
+            "reading": "なんじ"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "消",
+            "reading": "き"
+          },
+          {
+            "surface": "えますか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "夜",
+              "reading": "よる"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "九",
+              "reading": "きゅう"
+            },
+            {
+              "surface": "時",
+              "reading": "じ"
+            }
+          ],
+          [
+            {
+              "surface": "夜",
+              "reading": "よる"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "十",
+              "reading": "じゅう"
+            },
+            {
+              "surface": "時",
+              "reading": "じ"
+            }
+          ],
+          [
+            {
+              "surface": "夜",
+              "reading": "よる"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "十二時",
+              "reading": "じゅうにじ"
+            }
+          ],
+          [
+            {
+              "surface": "朝",
+              "reading": "あさ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "六",
+              "reading": "ろく"
+            },
+            {
+              "surface": "時",
+              "reading": "じ"
+            }
+          ]
+        ]
+      },
+      {
+        "ja": "シンデレラは、階段に何を落としましたか。",
+        "choices": [
+          "手紙",
+          "かぼちゃ",
+          "つえ",
+          "ガラスの靴の片方"
+        ],
+        "answer": 3,
+        "explain": {
+          "vi": "Cô đánh rơi một chiếc giày thủy tinh.",
+          "en": "She dropped one of her glass slippers.",
+          "zh-Hans": "她掉了一只玻璃鞋。",
+          "zh-Hant": "她掉了一隻玻璃鞋。",
+          "ko": "유리 구두 한 짝을 떨어뜨렸다.",
+          "tl": "Nahulog niya ang isang sapatos na kristal.",
+          "ne": "उनले सिसाको एउटा जुत्ता खसालिन्।",
+          "id": "Ia menjatuhkan sebelah sepatu kaca.",
+          "pt": "Deixou cair um sapatinho de cristal.",
+          "my": "ဖန်ဖိနပ် တစ်ဖက် ပြုတ်ကျခဲ့တယ်။",
+          "th": "เธอทำรองเท้าแก้วหล่นข้างหนึ่ง",
+          "si": "ඇය එක වීදුරු සෙරෙප්පුවක් වට්ටගත්තා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "シンデレラは、",
+            "reading": ""
+          },
+          {
+            "surface": "階段",
+            "reading": "かいだん"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "落",
+            "reading": "お"
+          },
+          {
+            "surface": "としましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "手紙",
+              "reading": "てがみ"
+            }
+          ],
+          [
+            {
+              "surface": "かぼちゃ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "つえ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ガラスの",
+              "reading": ""
+            },
+            {
+              "surface": "靴",
+              "reading": "くつ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "片方",
+              "reading": "かたほう"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "ja": "むかし、ある国に、やさしい女の子が住んでいました。",
+      "furigana": [
+        {
+          "surface": "むかし、ある",
+          "reading": ""
+        },
+        {
+          "surface": "国",
+          "reading": "くに"
+        },
+        {
+          "surface": "に、やさしい",
+          "reading": ""
+        },
+        {
+          "surface": "女",
+          "reading": "おんな"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "住",
+          "reading": "す"
+        },
+        {
+          "surface": "んでいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mukashi, aru kuni ni, yasashii onnanoko ga sundeimashita.",
+      "translations": {
+        "vi": "Ngày xưa, ở một vương quốc nọ, có một cô bé hiền lành.",
+        "en": "Long ago, in a certain kingdom, there lived a kind girl.",
+        "zh-Hans": "很久以前，在某个国家，住着一个善良的女孩。",
+        "zh-Hant": "很久以前，在某個國家，住著一個善良的女孩。",
+        "ko": "옛날 어느 나라에 마음씨 고운 여자아이가 살고 있었습니다.",
+        "tl": "Noong unang panahon, sa isang kaharian, may nakatirang mabait na batang babae.",
+        "ne": "धेरै पहिले, एउटा देशमा एउटी दयालु केटी बस्थिन्।",
+        "id": "Dahulu kala, di sebuah negeri, tinggal seorang gadis yang baik hati.",
+        "pt": "Há muito tempo, num certo reino, vivia uma menina bondosa.",
+        "my": "ရှေးတုန်းက နိုင်ငံတစ်ခုမှာ စိတ်သဘောကောင်းတဲ့ ကောင်မလေးတစ်ယောက် နေထိုင်ခဲ့တယ်။",
+        "th": "กาลครั้งหนึ่ง ในแคว้นแห่งหนึ่ง มีเด็กหญิงใจดีคนหนึ่งอาศัยอยู่",
+        "si": "ඉස්සර, එක රටක, කරුණාවන්ත කෙල්ලෙක් ජීවත් වුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜に住んでいました = đã sống ở ~ (kể chuyện).",
+        "en": "〜に住んでいました = lived in ~ (storytelling past).",
+        "zh-Hans": "〜に住んでいました＝住在……（讲故事的过去式）。",
+        "zh-Hant": "〜に住んでいました＝住在……（講故事的過去式）。",
+        "ko": "〜に住んでいました = ~에 살고 있었습니다.",
+        "tl": "〜に住んでいました = nakatira sa ~.",
+        "ne": "〜に住んでいました = ~ मा बस्थे।",
+        "id": "〜に住んでいました = tinggal di ~.",
+        "pt": "〜に住んでいました = morava em ~.",
+        "my": "〜に住んでいました = ~ မှာ နေခဲ့တယ်။",
+        "th": "〜に住んでいました = อาศัยอยู่ที่ ~",
+        "si": "〜に住んでいました = ~ හි ජීවත් වුණා (කතා කීමේ අතීත කාලය)."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=0.3,5.505",
+      "t": [
+        0.3,
+        5.505
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "お母さんは、女の子が小さいときに、病気で亡くなりました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんは、",
+          "reading": ""
+        },
+        {
+          "surface": "女",
+          "reading": "おんな"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "小",
+          "reading": "ちい"
+        },
+        {
+          "surface": "さいときに、",
+          "reading": ""
+        },
+        {
+          "surface": "病気",
+          "reading": "びょうき"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "亡",
+          "reading": "な"
+        },
+        {
+          "surface": "くなりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Okaasan wa, onnanoko ga chiisai toki ni, byouki de nakunarimashita.",
+      "translations": {
+        "vi": "Mẹ cô bé mất vì bệnh khi cô còn nhỏ.",
+        "en": "Her mother died of an illness when she was little.",
+        "zh-Hans": "女孩小时候，妈妈因病去世了。",
+        "zh-Hant": "女孩小時候，媽媽因病去世了。",
+        "ko": "엄마는 여자아이가 어릴 때 병으로 돌아가셨습니다.",
+        "tl": "Namatay sa sakit ang kanyang ina noong bata pa siya.",
+        "ne": "केटी सानी हुँदा आमा रोगले बित्नुभयो।",
+        "id": "Ibunya meninggal karena sakit ketika ia masih kecil.",
+        "pt": "A mãe dela morreu de doença quando ela era pequena.",
+        "my": "ကောင်မလေး ငယ်ငယ်တုန်းက အမေက ရောဂါနဲ့ ကွယ်လွန်သွားတယ်။",
+        "th": "แม่ของเธอเสียชีวิตด้วยโรคตอนที่เธอยังเล็ก",
+        "si": "එයා පොඩි කාලේදී, අම්මා ලෙඩ වෙලා මිය ගියා."
+      },
+      "vocab": [
+        {
+          "word": "亡くなる",
+          "reading": "なくなる",
+          "meanings": {
+            "vi": "qua đời, mất",
+            "en": "to pass away",
+            "zh-Hans": "去世",
+            "zh-Hant": "去世",
+            "ko": "돌아가시다",
+            "tl": "pumanaw",
+            "ne": "बित्नु",
+            "id": "meninggal",
+            "pt": "falecer",
+            "my": "ကွယ်လွန်သည်",
+            "th": "เสียชีวิต",
+            "si": "මිය යාම (ආචාරශීලී)"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "亡くなる = qua đời (nói lịch sự hơn 死ぬ).",
+        "en": "亡くなる = to pass away (politer than 死ぬ).",
+        "zh-Hans": "亡くなる＝去世（比死ぬ委婉）。",
+        "zh-Hant": "亡くなる＝去世（比死ぬ委婉）。",
+        "ko": "亡くなる = 돌아가시다 (死ぬ보다 정중).",
+        "tl": "亡くなる = pumanaw (mas magalang kaysa 死ぬ).",
+        "ne": "亡くなる = बित्नु (死ぬ भन्दा नम्र)।",
+        "id": "亡くなる = meninggal (lebih sopan dari 死ぬ).",
+        "pt": "亡くなる = falecer (mais educado que 死ぬ).",
+        "my": "亡くなる = ကွယ်လွန်သည် (死ぬ ထက် ယဉ်ကျေး)။",
+        "th": "亡くなる = เสียชีวิต (สุภาพกว่า 死ぬ)",
+        "si": "亡くなる = මිය යනවා (死ぬ ට වඩා ආචාරශීලී)."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=6.105,11.586",
+      "t": [
+        6.105,
+        11.586
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "しばらくして、お父さんは新しいお母さんと結婚しました。",
+      "furigana": [
+        {
+          "surface": "しばらくして、お",
+          "reading": ""
+        },
+        {
+          "surface": "父",
+          "reading": "とう"
+        },
+        {
+          "surface": "さんは",
+          "reading": ""
+        },
+        {
+          "surface": "新",
+          "reading": "あたら"
+        },
+        {
+          "surface": "しいお",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんと",
+          "reading": ""
+        },
+        {
+          "surface": "結婚",
+          "reading": "けっこん"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shibaraku shite, otousan wa atarashii okaasan to kekkonshimashita.",
+      "translations": {
+        "vi": "Một thời gian sau, cha cô lấy vợ mới.",
+        "en": "After a while, her father married a new wife.",
+        "zh-Hans": "过了一段时间，爸爸娶了新妻子。",
+        "zh-Hant": "過了一段時間，爸爸娶了新妻子。",
+        "ko": "얼마 후 아버지는 새어머니와 결혼했습니다.",
+        "tl": "Pagkalipas ng ilang panahon, nag-asawa ulit ang kanyang ama.",
+        "ne": "केही समयपछि बुबाले नयाँ आमासँग बिहे गर्नुभयो।",
+        "id": "Beberapa waktu kemudian, ayahnya menikah dengan ibu baru.",
+        "pt": "Pouco depois, o pai casou-se com uma nova esposa.",
+        "my": "ခဏကြာတော့ အဖေက မိထွေးအသစ်နဲ့ လက်ထပ်တယ်။",
+        "th": "ไม่นานนัก พ่อก็แต่งงานกับแม่คนใหม่",
+        "si": "ටික කාලෙකට පස්සේ, තාත්තා අලුත් අම්මා කෙනෙක්ව කසාද බැන්දා."
+      },
+      "vocab": [
+        {
+          "word": "しばらく",
+          "reading": "しばらく",
+          "meanings": {
+            "vi": "một thời gian, một lúc",
+            "en": "for a while",
+            "zh-Hans": "一会儿、一段时间",
+            "zh-Hant": "一會兒、一段時間",
+            "ko": "잠시, 한동안",
+            "tl": "sandali",
+            "ne": "केही समय",
+            "id": "sebentar, beberapa lama",
+            "pt": "por um tempo",
+            "my": "ခဏ",
+            "th": "สักพัก",
+            "si": "ටික වේලාවක්, ටික කලක්"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "しばらくして = một lúc sau, ít lâu sau.",
+        "en": "しばらくして = after a while.",
+        "zh-Hans": "しばらくして＝过了一阵子。",
+        "zh-Hant": "しばらくして＝過了一陣子。",
+        "ko": "しばらくして = 얼마 후.",
+        "tl": "しばらくして = pagkalipas ng ilang sandali.",
+        "ne": "しばらくして = केही समयपछि।",
+        "id": "しばらくして = beberapa waktu kemudian.",
+        "pt": "しばらくして = pouco depois.",
+        "my": "しばらくして = ခဏကြာတော့။",
+        "th": "しばらくして = ไม่นานต่อมา",
+        "si": "しばらくして = ටික කාලෙකට පස්සේ."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=12.186,17.475",
+      "t": [
+        12.186,
+        17.475
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "新しいお母さんには、娘が二人いました。",
+      "furigana": [
+        {
+          "surface": "新",
+          "reading": "あたら"
+        },
+        {
+          "surface": "しいお",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さんには、",
+          "reading": ""
+        },
+        {
+          "surface": "娘",
+          "reading": "むすめ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "いました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Atarashii okaasan ni wa, musume ga futari imashita.",
+      "translations": {
+        "vi": "Bà mẹ kế có hai cô con gái.",
+        "en": "The new mother had two daughters.",
+        "zh-Hans": "新妈妈有两个女儿。",
+        "zh-Hant": "新媽媽有兩個女兒。",
+        "ko": "새어머니에게는 딸이 둘 있었습니다.",
+        "tl": "May dalawang anak na babae ang bagong ina.",
+        "ne": "नयाँ आमाका दुई छोरी थिए।",
+        "id": "Ibu baru itu punya dua anak perempuan.",
+        "pt": "A nova mãe tinha duas filhas.",
+        "my": "မိထွေးမှာ သမီးနှစ်ယောက် ရှိတယ်။",
+        "th": "แม่ใหม่มีลูกสาวสองคน",
+        "si": "අලුත් අම්මාට දූලා දෙන්නෙක් හිටියා."
+      },
+      "vocab": [
+        {
+          "word": "娘",
+          "reading": "むすめ",
+          "meanings": {
+            "vi": "con gái",
+            "en": "daughter",
+            "zh-Hans": "女儿",
+            "zh-Hant": "女兒",
+            "ko": "딸",
+            "tl": "anak na babae",
+            "ne": "छोरी",
+            "id": "anak perempuan",
+            "pt": "filha",
+            "my": "သမီး",
+            "th": "ลูกสาว",
+            "si": "දියණිය"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜には〜がいました = ~ có (người).",
+        "en": "〜には〜がいました = ~ had (people).",
+        "zh-Hans": "〜には〜がいました＝……有（人）。",
+        "zh-Hant": "〜には〜がいました＝……有（人）。",
+        "ko": "〜には〜がいました = ~에게는 ~이 있었다.",
+        "tl": "〜には〜がいました = may (tao) si ~.",
+        "ne": "〜には〜がいました = ~ का ~ थिए।",
+        "id": "〜には〜がいました = ~ punya (orang).",
+        "pt": "〜には〜がいました = ~ tinha (pessoas).",
+        "my": "〜には〜がいました = ~ မှာ ~ ရှိခဲ့တယ်။",
+        "th": "〜には〜がいました = ~ มี (คน)",
+        "si": "〜には〜がいました = ~ ට (පුද්ගලයන්) හිටියා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=18.075,22.062",
+      "t": [
+        18.075,
+        22.062
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "この三人は、女の子にとても冷たくしました。",
+      "furigana": [
+        {
+          "surface": "この",
+          "reading": ""
+        },
+        {
+          "surface": "三人",
+          "reading": "さんにん"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "女",
+          "reading": "おんな"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "にとても",
+          "reading": ""
+        },
+        {
+          "surface": "冷",
+          "reading": "つめ"
+        },
+        {
+          "surface": "たくしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kono sannin wa, onnanoko ni totemo tsumetaku shimashita.",
+      "translations": {
+        "vi": "Ba mẹ con họ đối xử với cô bé rất lạnh nhạt.",
+        "en": "The three of them treated the girl very coldly.",
+        "zh-Hans": "这三个人对女孩非常冷淡。",
+        "zh-Hant": "這三個人對女孩非常冷淡。",
+        "ko": "이 세 사람은 여자아이를 아주 차갑게 대했습니다.",
+        "tl": "Napakalamig ng pakikitungo ng tatlo sa batang babae.",
+        "ne": "यी तीनले केटीलाई धेरै चिसो व्यवहार गरे।",
+        "id": "Ketiganya memperlakukan gadis itu dengan sangat dingin.",
+        "pt": "As três a tratavam com muita frieza.",
+        "my": "ဒီသုံးယောက်က ကောင်မလေးကို အရမ်းအေးစက်စက် ဆက်ဆံတယ်။",
+        "th": "ทั้งสามคนทำตัวเย็นชากับเด็กหญิงมาก",
+        "si": "මේ තුන්දෙනා කෙල්ලට හරිම නපුරුවට සැලකුවා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "冷たくする = đối xử lạnh lùng.",
+        "en": "冷たくする = to treat coldly.",
+        "zh-Hans": "冷たくする＝冷淡对待。",
+        "zh-Hant": "冷たくする＝冷淡對待。",
+        "ko": "冷たくする = 차갑게 대하다.",
+        "tl": "冷たくする = malamig na pakikitungo.",
+        "ne": "冷たくする = चिसो व्यवहार गर्नु।",
+        "id": "冷たくする = bersikap dingin.",
+        "pt": "冷たくする = tratar com frieza.",
+        "my": "冷たくする = အေးစက်စွာ ဆက်ဆံသည်။",
+        "th": "冷たくする = ทำเย็นชาใส่",
+        "si": "冷たくする = නපුරුවට / සීතලෙන් සලකනවා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=22.662,26.827",
+      "t": [
+        22.662,
+        26.827
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「あなたは今日から、台所で寝なさい。」",
+      "furigana": [
+        {
+          "surface": "「あなたは",
+          "reading": ""
+        },
+        {
+          "surface": "今日",
+          "reading": "きょう"
+        },
+        {
+          "surface": "から、",
+          "reading": ""
+        },
+        {
+          "surface": "台所",
+          "reading": "だいどころ"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "寝",
+          "reading": "ね"
+        },
+        {
+          "surface": "なさい。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Anata wa kyou kara, daidokoro de nenasai.”",
+      "translations": {
+        "vi": "\"Từ hôm nay, mày ngủ dưới bếp đi.\"",
+        "en": "\"From today, you sleep in the kitchen.\"",
+        "zh-Hans": "\"从今天起，你睡厨房去。\"",
+        "zh-Hant": "\"從今天起，你睡廚房去。\"",
+        "ko": "\"너는 오늘부터 부엌에서 자거라.\"",
+        "tl": "\"Mula ngayon, sa kusina ka matulog.\"",
+        "ne": "\"आजदेखि तँ भान्सामा सुत्।\"",
+        "id": "\"Mulai hari ini, kau tidur di dapur.\"",
+        "pt": "\"A partir de hoje, você dorme na cozinha.\"",
+        "my": "\"ဒီနေ့ကစပြီး နင် မီးဖိုချောင်မှာ အိပ်။\"",
+        "th": "\"ตั้งแต่วันนี้ เธอไปนอนในครัว\"",
+        "si": "\"ඔයා අද ඉඳන් කුස්සියේ නිදාගන්න.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜なさい = hãy ~ (mệnh lệnh của người trên).",
+        "en": "〜なさい = do ~ (command from a superior).",
+        "zh-Hans": "〜なさい＝给我……（长辈的命令）。",
+        "zh-Hant": "〜なさい＝給我……（長輩的命令）。",
+        "ko": "〜なさい = ~해라 (윗사람의 명령).",
+        "tl": "〜なさい = gawin mo ~ (utos ng nakatataas).",
+        "ne": "〜なさい = ~ गर (ठूलाको आदेश)।",
+        "id": "〜なさい = lakukan ~ (perintah atasan).",
+        "pt": "〜なさい = faça ~ (ordem de um superior).",
+        "my": "〜なさい = ~ လုပ် (အထက်လူရဲ့ အမိန့်)။",
+        "th": "〜なさい = จง ~ (คำสั่งจากผู้ใหญ่)",
+        "si": "〜なさい = ~ කරන්න (ඉහළ කෙනෙකුගේ අණ)."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=27.727,30.77",
+      "t": [
+        27.727,
+        30.77
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "女の子は、毎日朝から夜まで働きました。",
+      "furigana": [
+        {
+          "surface": "女",
+          "reading": "おんな"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "毎日",
+          "reading": "まいにち"
+        },
+        {
+          "surface": "朝",
+          "reading": "あさ"
+        },
+        {
+          "surface": "から",
+          "reading": ""
+        },
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "まで",
+          "reading": ""
+        },
+        {
+          "surface": "働",
+          "reading": "はたら"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Onnanoko wa, mainichi asa kara yoru made hatarakimashita.",
+      "translations": {
+        "vi": "Ngày nào cô bé cũng làm việc từ sáng đến tối.",
+        "en": "Every day the girl worked from morning till night.",
+        "zh-Hans": "女孩每天从早到晚地干活。",
+        "zh-Hant": "女孩每天從早到晚地幹活。",
+        "ko": "여자아이는 매일 아침부터 밤까지 일했습니다.",
+        "tl": "Araw-araw, nagtrabaho ang batang babae mula umaga hanggang gabi.",
+        "ne": "केटीले हरेक दिन बिहानदेखि रातिसम्म काम गरिन्।",
+        "id": "Setiap hari gadis itu bekerja dari pagi sampai malam.",
+        "pt": "Todos os dias ela trabalhava da manhã até a noite.",
+        "my": "ကောင်မလေးက နေ့တိုင်း မနက်ကနေ ညအထိ အလုပ်လုပ်တယ်။",
+        "th": "เด็กหญิงทำงานทุกวันตั้งแต่เช้าจนค่ำ",
+        "si": "කෙල්ල හැමදාම උදේ ඉඳන් රෑ වෙනකම් වැඩ කළා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜から〜まで = từ ~ đến ~.",
+        "en": "〜から〜まで = from ~ to ~.",
+        "zh-Hans": "〜から〜まで＝从……到……。",
+        "zh-Hant": "〜から〜まで＝從……到……。",
+        "ko": "〜から〜まで = ~부터 ~까지.",
+        "tl": "〜から〜まで = mula ~ hanggang ~.",
+        "ne": "〜から〜まで = ~ देखि ~ सम्म।",
+        "id": "〜から〜まで = dari ~ sampai ~.",
+        "pt": "〜から〜まで = de ~ até ~.",
+        "my": "〜から〜まで = ~ ကနေ ~ အထိ။",
+        "th": "〜から〜まで = ตั้งแต่ ~ ถึง ~",
+        "si": "〜から〜まで = ~ සිට ~ දක්වා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=31.67,36.378",
+      "t": [
+        31.67,
+        36.378
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "料理をして、洗濯をして、部屋をそうじしました。",
+      "furigana": [
+        {
+          "surface": "料理",
+          "reading": "りょうり"
+        },
+        {
+          "surface": "をして、",
+          "reading": ""
+        },
+        {
+          "surface": "洗濯",
+          "reading": "せんたく"
+        },
+        {
+          "surface": "をして、",
+          "reading": ""
+        },
+        {
+          "surface": "部屋",
+          "reading": "へや"
+        },
+        {
+          "surface": "をそうじしました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ryouri o shite, sentaku o shite, heya o sou jishimashita.",
+      "translations": {
+        "vi": "Cô nấu ăn, giặt giũ và dọn dẹp phòng.",
+        "en": "She cooked, did the laundry, and cleaned the rooms.",
+        "zh-Hans": "她做饭、洗衣服、打扫房间。",
+        "zh-Hant": "她做飯、洗衣服、打掃房間。",
+        "ko": "요리하고, 빨래하고, 방을 청소했습니다.",
+        "tl": "Nagluto siya, naglaba, at naglinis ng mga kuwarto.",
+        "ne": "उनले खाना पकाइन्, लुगा धोइन्, कोठा सफा गरिन्।",
+        "id": "Ia memasak, mencuci baju, dan membersihkan kamar.",
+        "pt": "Cozinhava, lavava a roupa e limpava os quartos.",
+        "my": "ချက်ပြုတ်တယ်၊ အဝတ်လျှော်တယ်၊ အခန်းသန့်ရှင်းရေးလုပ်တယ်။",
+        "th": "เธอทำอาหาร ซักผ้า และทำความสะอาดห้อง",
+        "si": "කෑම උයලා, රෙදි හෝදලා, කාමර අතුගෑවා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜て、〜て = nối các việc theo thứ tự.",
+        "en": "〜て、〜て = links actions in order.",
+        "zh-Hans": "〜て、〜て＝按顺序连接动作。",
+        "zh-Hant": "〜て、〜て＝按順序連線動作。",
+        "ko": "〜て、〜て = 동작을 순서대로 잇는다.",
+        "tl": "〜て、〜て = pinagdurugtong ang mga kilos.",
+        "ne": "〜て、〜て = कामहरू क्रमशः जोड्छ।",
+        "id": "〜て、〜て = menyambung kegiatan berurutan.",
+        "pt": "〜て、〜て = liga ações em sequência.",
+        "my": "〜て、〜て = လုပ်ရပ်တွေကို အစဉ်လိုက်ဆက်တယ်။",
+        "th": "〜て、〜て = เชื่อมการกระทำตามลำดับ",
+        "si": "〜て、〜て = ක්‍රියා අනුපිළිවෙළින් සම්බන්ධ කරයි."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=36.978,41.443",
+      "t": [
+        36.978,
+        41.443
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "夜は、かまどのそばの灰の上で寝ました。",
+      "furigana": [
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "は、かまどのそばの",
+          "reading": ""
+        },
+        {
+          "surface": "灰",
+          "reading": "はい"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "寝",
+          "reading": "ね"
+        },
+        {
+          "surface": "ました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Yoru wa, kamado no soba no hai no ue de nemashita.",
+      "translations": {
+        "vi": "Ban đêm, cô ngủ trên đống tro cạnh bếp lò.",
+        "en": "At night she slept on the ashes beside the hearth.",
+        "zh-Hans": "晚上，她睡在灶台旁的灰堆上。",
+        "zh-Hant": "晚上，她睡在灶臺旁的灰堆上。",
+        "ko": "밤에는 아궁이 옆 재 위에서 잤습니다.",
+        "tl": "Sa gabi, natutulog siya sa abo sa tabi ng kalan.",
+        "ne": "राति उनी चुलोछेउको खरानीमाथि सुत्थिन्।",
+        "id": "Malam hari ia tidur di atas abu di samping tungku.",
+        "pt": "À noite, dormia sobre as cinzas ao lado do fogão.",
+        "my": "ညဘက်မှာ မီးဖိုဘေးက ပြာပုံပေါ်မှာ အိပ်တယ်။",
+        "th": "กลางคืนเธอนอนบนกองขี้เถ้าข้างเตา",
+        "si": "රෑට, ලිප ළඟ අළු උඩ නිදාගත්තා."
+      },
+      "vocab": [
+        {
+          "word": "灰",
+          "reading": "はい",
+          "meanings": {
+            "vi": "tro",
+            "en": "ash",
+            "zh-Hans": "灰",
+            "zh-Hant": "灰",
+            "ko": "재",
+            "tl": "abo",
+            "ne": "खरानी",
+            "id": "abu",
+            "pt": "cinza",
+            "my": "ပြာ",
+            "th": "ขี้เถ้า",
+            "si": "අළු"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "かまど = bếp lò kiểu xưa; 灰 = tro.",
+        "en": "かまど = old cooking stove; 灰 = ash.",
+        "zh-Hans": "かまど＝灶台；灰＝灰烬。",
+        "zh-Hant": "かまど＝灶臺；灰＝灰燼。",
+        "ko": "かまど = 아궁이; 灰 = 재.",
+        "tl": "かまど = lumang kalan; 灰 = abo.",
+        "ne": "かまど = पुरानो चुलो; 灰 = खरानी।",
+        "id": "かまど = tungku; 灰 = abu.",
+        "pt": "かまど = fogão a lenha; 灰 = cinza.",
+        "my": "かまど = မီးဖို; 灰 = ပြာ။",
+        "th": "かまど = เตาฟืน; 灰 = ขี้เถ้า",
+        "si": "かまど = පරණ ලිප; 灰 = අළු."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=42.043,45.657",
+      "t": [
+        42.043,
+        45.657
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "だから、服も顔も、いつも灰で汚れていました。",
+      "furigana": [
+        {
+          "surface": "だから、",
+          "reading": ""
+        },
+        {
+          "surface": "服",
+          "reading": "ふく"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "顔",
+          "reading": "かお"
+        },
+        {
+          "surface": "も、いつも",
+          "reading": ""
+        },
+        {
+          "surface": "灰",
+          "reading": "はい"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "汚",
+          "reading": "よご"
+        },
+        {
+          "surface": "れていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Dakara, fuku mo kao mo, itsumo hai de yogoreteimashita.",
+      "translations": {
+        "vi": "Vì thế, quần áo và mặt cô lúc nào cũng lấm lem tro.",
+        "en": "So her clothes and face were always dirty with ash.",
+        "zh-Hans": "所以她的衣服和脸总是沾满了灰。",
+        "zh-Hant": "所以她的衣服和臉總是沾滿了灰。",
+        "ko": "그래서 옷도 얼굴도 늘 재로 더러워져 있었습니다.",
+        "tl": "Kaya laging marumi sa abo ang damit at mukha niya.",
+        "ne": "त्यसैले उनको लुगा र अनुहार सधैं खरानीले फोहोर हुन्थ्यो।",
+        "id": "Karena itu baju dan wajahnya selalu kotor oleh abu.",
+        "pt": "Por isso, roupa e rosto viviam sujos de cinza.",
+        "my": "ဒါကြောင့် အဝတ်ရော မျက်နှာရော အမြဲ ပြာတွေနဲ့ ညစ်ပေနေတယ်။",
+        "th": "เพราะฉะนั้นทั้งเสื้อผ้าและหน้าของเธอจึงเปื้อนขี้เถ้าเสมอ",
+        "si": "ඒ නිසා, ඇඳුමයි මුහුණයි හැමවෙලේම අළුවලින් අපිරිසිදු වෙලා තිබුණා."
+      },
+      "vocab": [
+        {
+          "word": "汚れる",
+          "reading": "よごれる",
+          "meanings": {
+            "vi": "bị bẩn",
+            "en": "to get dirty",
+            "zh-Hans": "变脏",
+            "zh-Hant": "變髒",
+            "ko": "더러워지다",
+            "tl": "madumihan",
+            "ne": "फोहोर हुनु",
+            "id": "menjadi kotor",
+            "pt": "sujar-se",
+            "my": "ညစ်ပေသည်",
+            "th": "สกปรก",
+            "si": "අපිරිසිදු වීම, කිලිටි වීම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜も〜も = cả ~ lẫn ~.",
+        "en": "〜も〜も = both ~ and ~.",
+        "zh-Hans": "〜も〜も＝……和……都。",
+        "zh-Hant": "〜も〜も＝……和……都。",
+        "ko": "〜も〜も = ~도 ~도.",
+        "tl": "〜も〜も = pati ~ at ~.",
+        "ne": "〜も〜も = ~ पनि ~ पनि।",
+        "id": "〜も〜も = baik ~ maupun ~.",
+        "pt": "〜も〜も = tanto ~ quanto ~.",
+        "my": "〜も〜も = ~ ရော ~ ရော။",
+        "th": "〜も〜も = ทั้ง ~ และ ~",
+        "si": "〜も〜も = ~ ත් ~ ත් දෙකම."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=46.257,50.677",
+      "t": [
+        46.257,
+        50.677
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「見て、灰だらけ。シンデレラね！」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "て、",
+          "reading": ""
+        },
+        {
+          "surface": "灰",
+          "reading": "はい"
+        },
+        {
+          "surface": "だらけ。シンデレラね！」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Mite, haidarake. Shinderera ne!”",
+      "translations": {
+        "vi": "\"Nhìn kìa, lấm lem tro. Đúng là Lọ Lem!\"",
+        "en": "\"Look, covered in ash. A real Cinderella!\"",
+        "zh-Hans": "\"看，满身是灰。真是灰姑娘！\"",
+        "zh-Hant": "\"看，滿身是灰。真是灰姑娘！\"",
+        "ko": "\"봐, 온통 재투성이야. 신데렐라네!\"",
+        "tl": "\"Tingnan mo, puro abo. Cinderella talaga!\"",
+        "ne": "\"हेर, खरानैखरानी। सिन्ड्रेला!\"",
+        "id": "\"Lihat, penuh abu. Cinderella!\"",
+        "pt": "\"Olha, toda coberta de cinza. Cinderela!\"",
+        "my": "\"ကြည့်စမ်း၊ ပြာတွေချည်းပဲ။ စင်ဒရဲလားပဲ!\"",
+        "th": "\"ดูสิ เปื้อนขี้เถ้าไปหมด ซินเดอเรลล่าชัดๆ!\"",
+        "si": "\"බලන්න, අළු ගාගෙන. ඇත්තම සින්ඩරෙල්ලා කෙනෙක් නේ!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜だらけ = đầy ~ (thường là thứ xấu).",
+        "en": "〜だらけ = full of ~ (usually bad).",
+        "zh-Hans": "〜だらけ＝满是……（多指不好的东西）。",
+        "zh-Hant": "〜だらけ＝滿是……（多指不好的東西）。",
+        "ko": "〜だらけ = ~투성이.",
+        "tl": "〜だらけ = puno ng ~ (karaniwang masama).",
+        "ne": "〜だらけ = ~ ले भरिएको (प्रायः नराम्रो)।",
+        "id": "〜だらけ = penuh ~ (biasanya hal buruk).",
+        "pt": "〜だらけ = cheio de ~ (geralmente ruim).",
+        "my": "〜だらけ = ~ တွေနဲ့ပြည့်နေ (မကောင်းတာ)။",
+        "th": "〜だらけ = เต็มไปด้วย ~ (มักไม่ดี)",
+        "si": "〜だらけ = ~ න් පිරුණු (සාමාන්‍යයෙන් නරක දෙයක්)."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=51.577,54.083",
+      "t": [
+        51.577,
+        54.083
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "お姉さんたちは笑って、女の子をそう呼びました。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "姉",
+          "reading": "ねえ"
+        },
+        {
+          "surface": "さんたちは",
+          "reading": ""
+        },
+        {
+          "surface": "笑",
+          "reading": "わら"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "女",
+          "reading": "おんな"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "をそう",
+          "reading": ""
+        },
+        {
+          "surface": "呼",
+          "reading": "よ"
+        },
+        {
+          "surface": "びました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Oneesantachi wa waratte, onnanoko o sou yobimashita.",
+      "translations": {
+        "vi": "Hai cô chị cười cợt và gọi cô bé như thế.",
+        "en": "The stepsisters laughed and called her that.",
+        "zh-Hans": "姐姐们笑着这样叫她。",
+        "zh-Hant": "姐姐們笑著這樣叫她。",
+        "ko": "언니들은 웃으며 여자아이를 그렇게 불렀습니다.",
+        "tl": "Pinagtawanan siya ng mga kapatid at tinawag siyang ganoon.",
+        "ne": "दिदीहरूले हाँस्दै उनलाई त्यसै भने।",
+        "id": "Kakak-kakaknya tertawa dan memanggilnya begitu.",
+        "pt": "As irmãs riam e a chamavam assim.",
+        "my": "အစ်မတွေက ရယ်ပြီး ကောင်မလေးကို အဲဒီလို ခေါ်ကြတယ်။",
+        "th": "พี่สาวทั้งสองหัวเราะและเรียกเธออย่างนั้น",
+        "si": "අක්කලා හිනා වෙලා, කෙල්ලට එහෙම කිව්වා."
+      },
+      "vocab": [
+        {
+          "word": "笑う",
+          "reading": "わらう",
+          "meanings": {
+            "vi": "cười",
+            "en": "to laugh",
+            "zh-Hans": "笑",
+            "zh-Hant": "笑",
+            "ko": "웃다",
+            "tl": "tumawa",
+            "ne": "हाँस्नु",
+            "id": "tertawa",
+            "pt": "rir",
+            "my": "ရယ်သည်",
+            "th": "หัวเราะ",
+            "si": "හිනා වීම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "そう呼ぶ = gọi như vậy.",
+        "en": "そう呼ぶ = to call (someone) that.",
+        "zh-Hans": "そう呼ぶ＝这样称呼。",
+        "zh-Hant": "そう呼ぶ＝這樣稱呼。",
+        "ko": "そう呼ぶ = 그렇게 부르다.",
+        "tl": "そう呼ぶ = tawagin nang ganoon.",
+        "ne": "そう呼ぶ = त्यसै भन्नु/बोलाउनु।",
+        "id": "そう呼ぶ = memanggil begitu.",
+        "pt": "そう呼ぶ = chamar assim.",
+        "my": "そう呼ぶ = အဲဒီလိုခေါ်သည်။",
+        "th": "そう呼ぶ = เรียกอย่างนั้น",
+        "si": "そう呼ぶ = (කෙනෙකුට) එහෙම කියනවා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=54.983,59.106",
+      "t": [
+        54.983,
+        59.106
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「シンデレラ」は、「灰をかぶった子」という意味です。",
+      "furigana": [
+        {
+          "surface": "「シンデレラ」は、「",
+          "reading": ""
+        },
+        {
+          "surface": "灰",
+          "reading": "はい"
+        },
+        {
+          "surface": "をかぶった",
+          "reading": ""
+        },
+        {
+          "surface": "子",
+          "reading": "こ"
+        },
+        {
+          "surface": "」という",
+          "reading": ""
+        },
+        {
+          "surface": "意味",
+          "reading": "いみ"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Shinderera” wa, “Hai o kabutta ko” to iu imi desu.",
+      "translations": {
+        "vi": "\"Cinderella\" nghĩa là \"cô bé lấm tro\".",
+        "en": "\"Cinderella\" means \"the girl covered in ashes.\"",
+        "zh-Hans": "\"灰姑娘\"的意思是\"满身是灰的孩子\"。",
+        "zh-Hant": "\"灰姑娘\"的意思是\"滿身是灰的孩子\"。",
+        "ko": "'신데렐라'는 '재를 뒤집어쓴 아이'라는 뜻입니다.",
+        "tl": "Ang \"Cinderella\" ay nangangahulugang \"batang nababalot ng abo.\"",
+        "ne": "\"सिन्ड्रेला\" को अर्थ \"खरानी ओढेकी केटी\" हो।",
+        "id": "\"Cinderella\" artinya \"anak yang berselimut abu.\"",
+        "pt": "\"Cinderela\" quer dizer \"a menina coberta de cinzas\".",
+        "my": "\"စင်ဒရဲလား\" ဆိုတာ \"ပြာဖုံးနေတဲ့ကလေး\" လို့ အဓိပ္ပာယ်ရတယ်။",
+        "th": "\"ซินเดอเรลล่า\" แปลว่า \"เด็กที่เปื้อนขี้เถ้า\"",
+        "si": "\"සින්ඩරෙල්ලා\" කියන්නේ \"අළු ගාගත් කෙල්ල\" කියන එකයි."
+      },
+      "vocab": [
+        {
+          "word": "子",
+          "reading": "こ",
+          "meanings": {
+            "vi": "đứa trẻ, con",
+            "en": "child",
+            "zh-Hans": "孩子",
+            "zh-Hant": "孩子",
+            "ko": "아이",
+            "tl": "bata",
+            "ne": "बच्चा",
+            "id": "anak",
+            "pt": "criança",
+            "my": "ကလေး",
+            "th": "เด็ก",
+            "si": "ළමයා, දරුවා"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜という意味です = có nghĩa là ~.",
+        "en": "〜という意味です = it means ~.",
+        "zh-Hans": "〜という意味です＝意思是……。",
+        "zh-Hant": "〜という意味です＝意思是……。",
+        "ko": "〜という意味です = ~라는 뜻입니다.",
+        "tl": "〜という意味です = ang ibig sabihin ay ~.",
+        "ne": "〜という意味です = ~ भन्ने अर्थ हो।",
+        "id": "〜という意味です = artinya ~.",
+        "pt": "〜という意味です = significa ~.",
+        "my": "〜という意味です = ~ ဆိုတဲ့ အဓိပ္ပာယ်ပါ။",
+        "th": "〜という意味です = หมายความว่า ~",
+        "si": "〜という意味です = ~ යන්නයි අදහස."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=59.706,63.763",
+      "t": [
+        59.706,
+        63.763
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ある日、お城から手紙が届きました。",
+      "furigana": [
+        {
+          "surface": "ある",
+          "reading": ""
+        },
+        {
+          "surface": "日",
+          "reading": "ひ"
+        },
+        {
+          "surface": "、お",
+          "reading": ""
+        },
+        {
+          "surface": "城",
+          "reading": "しろ"
+        },
+        {
+          "surface": "から",
+          "reading": ""
+        },
+        {
+          "surface": "手紙",
+          "reading": "てがみ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "届",
+          "reading": "とど"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Aru hi, oshiro kara tegami ga todokimashita.",
+      "translations": {
+        "vi": "Một hôm, có thư từ lâu đài gửi đến.",
+        "en": "One day, a letter arrived from the castle.",
+        "zh-Hans": "有一天，城堡寄来了一封信。",
+        "zh-Hant": "有一天，城堡寄來了一封信。",
+        "ko": "어느 날 성에서 편지가 왔습니다.",
+        "tl": "Isang araw, may dumating na sulat mula sa kastilyo.",
+        "ne": "एक दिन दरबारबाट चिठी आइपुग्यो।",
+        "id": "Suatu hari, datang surat dari istana.",
+        "pt": "Um dia, chegou uma carta do castelo.",
+        "my": "တစ်နေ့ နန်းတော်ကနေ စာတစ်စောင် ရောက်လာတယ်။",
+        "th": "วันหนึ่ง มีจดหมายส่งมาจากปราสาท",
+        "si": "දවසක්, මාළිගාවෙන් ලියුමක් ආවා."
+      },
+      "vocab": [
+        {
+          "word": "城",
+          "reading": "しろ",
+          "meanings": {
+            "vi": "lâu đài, cung điện",
+            "en": "castle",
+            "zh-Hans": "城堡",
+            "zh-Hant": "城堡",
+            "ko": "성",
+            "tl": "kastilyo",
+            "ne": "दरबार, किल्ला",
+            "id": "istana, kastil",
+            "pt": "castelo",
+            "my": "ရဲတိုက်၊ နန်းတော်",
+            "th": "ปราสาท",
+            "si": "මාළිගාව, බලකොටුව"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "届く",
+          "reading": "とどく",
+          "meanings": {
+            "vi": "đến nơi, tới (thư, tin)",
+            "en": "to arrive, to reach",
+            "zh-Hans": "送到，到达",
+            "zh-Hant": "送到，到達",
+            "ko": "닿다, 도착하다",
+            "tl": "dumating, umabot",
+            "ne": "आइपुग्नु",
+            "id": "sampai, tiba",
+            "pt": "chegar (carta, notícia)",
+            "my": "ရောက်ရှိသည်",
+            "th": "มาถึง, ส่งถึง",
+            "si": "ළඟා වීම, ලැබීම"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "届く = (thư, hàng) đến nơi.",
+        "en": "届く = to arrive, be delivered.",
+        "zh-Hans": "届く＝送到，寄到。",
+        "zh-Hant": "屆く＝送到，寄到。",
+        "ko": "届く = 도착하다, 닿다.",
+        "tl": "届く = dumating (sulat, padala).",
+        "ne": "届く = आइपुग्नु।",
+        "id": "届く = sampai, tiba (surat).",
+        "pt": "届く = chegar (carta, entrega).",
+        "my": "届く = ရောက်လာသည်။",
+        "th": "届く = (จดหมาย) มาถึง",
+        "si": "届く = ලැබෙනවා, ළඟා වෙනවා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=64.363,67.699",
+      "t": [
+        64.363,
+        67.699
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "王子様のために、大きなダンスパーティーを開くというのです。",
+      "furigana": [
+        {
+          "surface": "王子",
+          "reading": "おうじ"
+        },
+        {
+          "surface": "様",
+          "reading": "さま"
+        },
+        {
+          "surface": "のために、",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きなダンスパーティーを",
+          "reading": ""
+        },
+        {
+          "surface": "開",
+          "reading": "ひら"
+        },
+        {
+          "surface": "くというのです。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Oujisama no tame ni, ookina dansu paatii o hiraku to iu no desu.",
+      "translations": {
+        "vi": "Thư báo rằng lâu đài sẽ mở một buổi dạ vũ lớn dành cho hoàng tử.",
+        "en": "It said a great ball would be held for the prince.",
+        "zh-Hans": "信上说，要为王子举办一场盛大的舞会。",
+        "zh-Hant": "信上說，要為王子舉辦一場盛大的舞會。",
+        "ko": "왕자님을 위해 큰 무도회를 연다는 것이었습니다.",
+        "tl": "Magdaraos daw ng malaking sayawan para sa prinsipe.",
+        "ne": "राजकुमारका लागि ठूलो नाचघर कार्यक्रम गरिने रे।",
+        "id": "Katanya akan diadakan pesta dansa besar untuk sang pangeran.",
+        "pt": "Dizia que haveria um grande baile para o príncipe.",
+        "my": "မင်းသားအတွက် ကခုန်ပွဲကြီး ကျင်းပမယ်တဲ့။",
+        "th": "ในจดหมายบอกว่าจะจัดงานเต้นรำใหญ่เพื่อเจ้าชาย",
+        "si": "කුමාරයා වෙනුවෙන් ලොකු නැටුම් සාදයක් පවත්වනවා කියලා."
+      },
+      "vocab": [
+        {
+          "word": "王子",
+          "reading": "おうじ",
+          "meanings": {
+            "vi": "hoàng tử",
+            "en": "prince",
+            "zh-Hans": "王子",
+            "zh-Hant": "王子",
+            "ko": "왕자",
+            "tl": "prinsipe",
+            "ne": "राजकुमार",
+            "id": "pangeran",
+            "pt": "príncipe",
+            "my": "မင်းသား",
+            "th": "เจ้าชาย",
+            "si": "කුමාරයා"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "ダンス",
+          "reading": "だんす",
+          "meanings": {
+            "vi": "khiêu vũ, nhảy",
+            "en": "dance",
+            "zh-Hans": "舞蹈，跳舞",
+            "zh-Hant": "舞蹈，跳舞",
+            "ko": "댄스, 춤",
+            "tl": "sayaw",
+            "ne": "नाच",
+            "id": "dansa",
+            "pt": "dança",
+            "my": "ကခုန်ခြင်း",
+            "th": "การเต้นรำ",
+            "si": "නැටුම"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜というのです = nghe nói là ~, nội dung là ~.",
+        "en": "〜というのです = it said that ~.",
+        "zh-Hans": "〜というのです＝说是……。",
+        "zh-Hant": "〜というのです＝說是……。",
+        "ko": "〜というのです = ~라는 것이었다.",
+        "tl": "〜というのです = sinasabing ~.",
+        "ne": "〜というのです = ~ भन्ने कुरा थियो।",
+        "id": "〜というのです = katanya ~.",
+        "pt": "〜というのです = dizia que ~.",
+        "my": "〜というのです = ~ ဆိုပြီးတော့ပါ။",
+        "th": "〜というのです = บอกว่า ~",
+        "si": "〜というのです = ~ කියලා කියනවා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=68.298,73.298",
+      "t": [
+        68.298,
+        73.298
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "国中の若い娘が、みんな呼ばれていました。",
+      "furigana": [
+        {
+          "surface": "国中",
+          "reading": "くにじゅう"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "若",
+          "reading": "わか"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "娘",
+          "reading": "むすめ"
+        },
+        {
+          "surface": "が、みんな",
+          "reading": ""
+        },
+        {
+          "surface": "呼",
+          "reading": "よ"
+        },
+        {
+          "surface": "ばれていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kunijuu no wakai musume ga, minna yobareteimashita.",
+      "translations": {
+        "vi": "Tất cả các thiếu nữ trong nước đều được mời.",
+        "en": "Every young woman in the land was invited.",
+        "zh-Hans": "全国的年轻姑娘都被邀请了。",
+        "zh-Hant": "全國的年輕姑娘都被邀請了。",
+        "ko": "나라 안의 젊은 아가씨들이 모두 초대받았습니다.",
+        "tl": "Inanyayahan ang lahat ng dalaga sa buong bansa.",
+        "ne": "देशभरका सबै युवतीलाई बोलाइएको थियो।",
+        "id": "Semua gadis muda di negeri itu diundang.",
+        "pt": "Todas as moças do reino foram convidadas.",
+        "my": "တစ်နိုင်ငံလုံးက မိန်းကလေးငယ်တွေ အားလုံး ဖိတ်ခံရတယ်။",
+        "th": "หญิงสาวทั่วแคว้นได้รับเชิญทุกคน",
+        "si": "රට පුරා ඉන්න හැම තරුණියකටම ආරාධනා කරලා තිබුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "呼ばれる = được mời (bị động của 呼ぶ).",
+        "en": "呼ばれる = to be invited (passive of 呼ぶ).",
+        "zh-Hans": "呼ばれる＝被邀请（呼ぶ的被动）。",
+        "zh-Hant": "呼ばれる＝被邀請（呼ぶ的被動）。",
+        "ko": "呼ばれる = 초대받다 (呼ぶ의 수동).",
+        "tl": "呼ばれる = maimbitahan (passive ng 呼ぶ).",
+        "ne": "呼ばれる = बोलाइनु (呼ぶ को कर्मवाच्य)।",
+        "id": "呼ばれる = diundang (pasif 呼ぶ).",
+        "pt": "呼ばれる = ser convidado (passiva de 呼ぶ).",
+        "my": "呼ばれる = ဖိတ်ခံရသည် (呼ぶ ၏ ပြုခံ)။",
+        "th": "呼ばれる = ได้รับเชิญ (รูปถูกกระทำของ 呼ぶ)",
+        "si": "呼ばれる = ආරාධනා ලැබීම (呼ぶ හි කර්මකාරක)."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=73.898,77.923",
+      "t": [
+        73.898,
+        77.923
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「わたしは赤いドレスを着るわ。」",
+      "furigana": [
+        {
+          "surface": "「わたしは",
+          "reading": ""
+        },
+        {
+          "surface": "赤",
+          "reading": "あか"
+        },
+        {
+          "surface": "いドレスを",
+          "reading": ""
+        },
+        {
+          "surface": "着",
+          "reading": "き"
+        },
+        {
+          "surface": "るわ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Watashi wa akai doresu o kiru wa.”",
+      "translations": {
+        "vi": "\"Tôi sẽ mặc váy đỏ.\"",
+        "en": "\"I'll wear the red dress.\"",
+        "zh-Hans": "\"我要穿红色的礼服。\"",
+        "zh-Hant": "\"我要穿紅色的禮服。\"",
+        "ko": "\"나는 빨간 드레스를 입을 거야.\"",
+        "tl": "\"Isusuot ko ang pulang bestida.\"",
+        "ne": "\"म रातो गाउन लगाउँछु।\"",
+        "id": "\"Aku akan pakai gaun merah.\"",
+        "pt": "\"Eu vou de vestido vermelho.\"",
+        "my": "\"ငါကတော့ အနီရောင်ဝတ်စုံ ဝတ်မယ်။\"",
+        "th": "\"ฉันจะใส่ชุดสีแดง\"",
+        "si": "\"මම රතු ගවුම අඳිනවා.\""
+      },
+      "vocab": [
+        {
+          "word": "ドレス",
+          "reading": "どれす",
+          "meanings": {
+            "vi": "váy dạ hội",
+            "en": "dress, gown",
+            "zh-Hans": "礼服，连衣裙",
+            "zh-Hant": "禮服，連衣裙",
+            "ko": "드레스",
+            "tl": "bestida",
+            "ne": "गाउन, लुगा",
+            "id": "gaun",
+            "pt": "vestido",
+            "my": "ဝတ်စုံရှည်",
+            "th": "ชุดราตรี",
+            "si": "ගවුම"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜わ = đuôi câu nữ tính.",
+        "en": "〜わ = feminine sentence ending.",
+        "zh-Hans": "〜わ＝女性语气的句尾。",
+        "zh-Hant": "〜わ＝女性語氣的句尾。",
+        "ko": "〜わ = 여성스러운 어미.",
+        "tl": "〜わ = pambabaeng pagtatapos ng pangungusap.",
+        "ne": "〜わ = महिलाले प्रयोग गर्ने वाक्यान्त।",
+        "id": "〜わ = akhiran kalimat feminin.",
+        "pt": "〜わ = final de frase feminino.",
+        "my": "〜わ = မိန်းကလေးသုံး စကားအဆုံး။",
+        "th": "〜わ = คำลงท้ายแบบผู้หญิง",
+        "si": "〜わ = ස්ත්‍රීලිංගික වාක්‍ය අවසානය."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=78.823,80.864",
+      "t": [
+        78.823,
+        80.864
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「わたしはピンクのドレスよ。」",
+      "furigana": [
+        {
+          "surface": "「わたしはピンクのドレスよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Watashi wa pinku no doresu yo.”",
+      "translations": {
+        "vi": "\"Còn tôi mặc váy hồng.\"",
+        "en": "\"And I'll wear the pink one.\"",
+        "zh-Hans": "\"我穿粉红色的礼服。\"",
+        "zh-Hant": "\"我穿粉紅色的禮服。\"",
+        "ko": "\"나는 분홍 드레스야.\"",
+        "tl": "\"Ako naman, kulay rosas na bestida.\"",
+        "ne": "\"म चाहिँ गुलाबी गाउन।\"",
+        "id": "\"Aku gaun merah muda.\"",
+        "pt": "\"Eu vou de vestido cor-de-rosa.\"",
+        "my": "\"ငါကတော့ ပန်းရောင်ဝတ်စုံ။\"",
+        "th": "\"ส่วนฉันชุดสีชมพู\"",
+        "si": "\"මම රෝස පාට ගවුම.\""
+      },
+      "vocab": [
+        {
+          "word": "ピンク",
+          "reading": "ぴんく",
+          "meanings": {
+            "vi": "màu hồng",
+            "en": "pink",
+            "zh-Hans": "粉红色",
+            "zh-Hant": "粉紅色",
+            "ko": "분홍색",
+            "tl": "kulay rosas",
+            "ne": "गुलाबी",
+            "id": "merah muda",
+            "pt": "cor-de-rosa",
+            "my": "ပန်းရောင်",
+            "th": "สีชมพู",
+            "si": "රෝස පාට"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜よ = nhấn mạnh, báo cho người nghe.",
+        "en": "〜よ = emphasis, telling the listener.",
+        "zh-Hans": "〜よ＝强调、告诉对方。",
+        "zh-Hant": "〜よ＝強調、告訴對方。",
+        "ko": "〜よ = 강조, 알려 줌.",
+        "tl": "〜よ = diin, pagsasabi sa kausap.",
+        "ne": "〜よ = जोड दिन/सुनाउन।",
+        "id": "〜よ = penegasan, memberi tahu.",
+        "pt": "〜よ = ênfase, informa o ouvinte.",
+        "my": "〜よ = အလေးပေး၊ ပြောပြ။",
+        "th": "〜よ = เน้นย้ำ บอกให้รู้",
+        "si": "〜よ = අවධාරණය, අසන්නාට කීම."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=81.464,83.189",
+      "t": [
+        81.464,
+        83.189
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「お母さま、わたしも行ってもいいですか。」",
+      "furigana": [
+        {
+          "surface": "「お",
+          "reading": ""
+        },
+        {
+          "surface": "母",
+          "reading": "かあ"
+        },
+        {
+          "surface": "さま、わたしも",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "ってもいいですか。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Okaasama, watashi mo ittemo iidesu ka.”",
+      "translations": {
+        "vi": "\"Thưa mẹ, con cũng đi có được không ạ?\"",
+        "en": "\"Mother, may I go too?\"",
+        "zh-Hans": "\"妈妈，我也可以去吗？\"",
+        "zh-Hant": "\"媽媽，我也可以去嗎？\"",
+        "ko": "\"어머니, 저도 가도 될까요?\"",
+        "tl": "\"Inay, puwede rin po ba akong sumama?\"",
+        "ne": "\"आमा, म पनि जान पाउँछु?\"",
+        "id": "\"Ibu, bolehkah aku ikut juga?\"",
+        "pt": "\"Mãe, eu também posso ir?\"",
+        "my": "\"အမေ၊ သမီးလည်း သွားလို့ရမလား။\"",
+        "th": "\"แม่คะ หนูไปด้วยได้ไหมคะ\"",
+        "si": "\"අම්මේ, මටත් යන්න පුළුවන්ද?\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜てもいいですか = ~ có được không? (xin phép).",
+        "en": "〜てもいいですか = may I ~? (asking permission).",
+        "zh-Hans": "〜てもいいですか＝可以……吗？（请求许可）。",
+        "zh-Hant": "〜てもいいですか＝可以……嗎？（請求許可）。",
+        "ko": "〜てもいいですか = ~해도 됩니까? (허락).",
+        "tl": "〜てもいいですか = puwede bang ~? (paghingi ng pahintulot).",
+        "ne": "〜てもいいですか = ~ गर्न पाउँछु? (अनुमति)।",
+        "id": "〜てもいいですか = bolehkah ~? (minta izin).",
+        "pt": "〜てもいいですか = posso ~? (pedir permissão).",
+        "my": "〜てもいいですか = ~ လို့ရမလား (ခွင့်တောင်း)။",
+        "th": "〜てもいいですか = ~ ได้ไหม (ขออนุญาต)",
+        "si": "〜てもいいですか = මට ~ කරන්න පුළුවන්ද? (අවසර ඉල්ලීම)."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=84.089,86.868",
+      "t": [
+        84.089,
+        86.868
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「あなたが？そんな汚い服で？」",
+      "furigana": [
+        {
+          "surface": "「あなたが？そんな",
+          "reading": ""
+        },
+        {
+          "surface": "汚",
+          "reading": "きたな"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "服",
+          "reading": "ふく"
+        },
+        {
+          "surface": "で？」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Anata ga? Sonna kitanai fuku de?”",
+      "translations": {
+        "vi": "\"Mày á? Với bộ đồ bẩn thỉu đó á?\"",
+        "en": "\"You? In those filthy clothes?\"",
+        "zh-Hans": "\"你？穿着那么脏的衣服？\"",
+        "zh-Hant": "\"你？穿著那麼髒的衣服？\"",
+        "ko": "\"네가? 그런 더러운 옷으로?\"",
+        "tl": "\"Ikaw? Sa ganyang maruming damit?\"",
+        "ne": "\"तँ? त्यस्तो फोहोर लुगामा?\"",
+        "id": "\"Kau? Dengan baju kotor begitu?\"",
+        "pt": "\"Você? Com essa roupa imunda?\"",
+        "my": "\"နင်လား? အဲဒီလို ညစ်ပတ်တဲ့အဝတ်နဲ့လား?\"",
+        "th": "\"เธอเนี่ยนะ? ในชุดสกปรกแบบนั้น?\"",
+        "si": "\"ඔයාද? ඔය කිලිටි ඇඳුමෙන්?\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "そんな = như thế (chê bai).",
+        "en": "そんな = such, like that (scornful).",
+        "zh-Hans": "そんな＝那样的（带轻视）。",
+        "zh-Hant": "そんな＝那樣的（帶輕視）。",
+        "ko": "そんな = 그런 (깔보는 말투).",
+        "tl": "そんな = ganyan (pangmamaliit).",
+        "ne": "そんな = त्यस्तो (हेप्दै)।",
+        "id": "そんな = seperti itu (meremehkan).",
+        "pt": "そんな = assim, desse tipo (desdém).",
+        "my": "そんな = အဲဒီလို (အထင်သေး)။",
+        "th": "そんな = แบบนั้น (ดูถูก)",
+        "si": "そんな = එවැනි, ඔය වගේ (අවඥාවෙන්)."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=87.768,90.559",
+      "t": [
+        87.768,
+        90.559
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「笑わせないで。家で掃除をしていなさい。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "笑",
+          "reading": "わら"
+        },
+        {
+          "surface": "わせないで。",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "掃除",
+          "reading": "そうじ"
+        },
+        {
+          "surface": "をしていなさい。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Warawasenaide. Ie de souji o shiteinasai.”",
+      "translations": {
+        "vi": "\"Đừng làm ta buồn cười. Ở nhà mà dọn dẹp đi.\"",
+        "en": "\"Don't make me laugh. Stay home and clean.\"",
+        "zh-Hans": "\"别逗了。在家打扫吧。\"",
+        "zh-Hant": "\"別逗了。在家打掃吧。\"",
+        "ko": "\"웃기지 마. 집에서 청소나 하고 있어.\"",
+        "tl": "\"Huwag mo akong patawanin. Maglinis ka na lang dito sa bahay.\"",
+        "ne": "\"मलाई नहँसा। घरमै सफा गरेर बस्।\"",
+        "id": "\"Jangan membuatku tertawa. Di rumah saja dan bersih-bersih.\"",
+        "pt": "\"Não me faça rir. Fique em casa limpando.\"",
+        "my": "\"မရယ်စရာ မလုပ်နဲ့။ အိမ်မှာ သန့်ရှင်းရေးပဲ လုပ်နေ။\"",
+        "th": "\"อย่ามาทำให้ขำเลย อยู่บ้านทำความสะอาดไป\"",
+        "si": "\"මාව හිනා ගස්සන්න එපා. ගෙදර ඉඳන් අතුගාපන්.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "笑わせないで = đừng làm (ta) cười (thể sai khiến 笑わせる).",
+        "en": "笑わせないで = don't make me laugh (causative 笑わせる).",
+        "zh-Hans": "笑わせないで＝别让我笑（使役 笑わせる）。",
+        "zh-Hant": "笑わせないで＝別讓我笑（使役 笑わせる）。",
+        "ko": "笑わせないで = 웃기지 마 (사역 笑わせる).",
+        "tl": "笑わせないで = huwag mo akong patawanin (causative 笑わせる).",
+        "ne": "笑わせないで = नहँसाऊ (प्रेरणार्थक 笑わせる)।",
+        "id": "笑わせないで = jangan membuatku tertawa (kausatif 笑わせる).",
+        "pt": "笑わせないで = não me faça rir (causativo 笑わせる).",
+        "my": "笑わせないで = ရယ်အောင် မလုပ်နဲ့ (笑わせる)။",
+        "th": "笑わせないで = อย่าทำให้หัวเราะ (รูปให้กระทำ 笑わせる)",
+        "si": "笑わせないで = මාව හිනා ගස්සන්න එපා (ප්‍රයෝජ්‍ය 笑わせる)."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=91.159,94.55",
+      "t": [
+        91.159,
+        94.55
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "その夜、三人は馬車に乗って、お城へ行きました。",
+      "furigana": [
+        {
+          "surface": "その",
+          "reading": ""
+        },
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "三人",
+          "reading": "さんにん"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "馬車",
+          "reading": "ばしゃ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "乗",
+          "reading": "の"
+        },
+        {
+          "surface": "って、お",
+          "reading": ""
+        },
+        {
+          "surface": "城",
+          "reading": "しろ"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono yoru, sannin wa basha ni notte, oshiro e ikimashita.",
+      "translations": {
+        "vi": "Tối hôm đó, ba mẹ con lên xe ngựa đến lâu đài.",
+        "en": "That night, the three rode a carriage to the castle.",
+        "zh-Hans": "那天晚上，三个人坐着马车去了城堡。",
+        "zh-Hant": "那天晚上，三個人坐著馬車去了城堡。",
+        "ko": "그날 밤 세 사람은 마차를 타고 성으로 갔습니다.",
+        "tl": "Nang gabing iyon, sumakay ang tatlo sa karwahe papunta sa kastilyo.",
+        "ne": "त्यो रात तीनै जना बग्गीमा चढेर दरबार गए।",
+        "id": "Malam itu, mereka bertiga naik kereta kuda ke istana.",
+        "pt": "Naquela noite, as três foram de carruagem ao castelo.",
+        "my": "အဲဒီညမှာ သုံးယောက်သား မြင်းရထားစီးပြီး နန်းတော်ကို သွားကြတယ်။",
+        "th": "คืนนั้นทั้งสามขึ้นรถม้าไปปราสาท",
+        "si": "ඒ රෑ, තුන්දෙනා අශ්ව කරත්තයේ නැගලා මාළිගාවට ගියා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜に乗って = lên (xe) rồi.",
+        "en": "〜に乗って = ride ~ and.",
+        "zh-Hans": "〜に乗って＝坐上……。",
+        "zh-Hant": "〜に乗って＝坐上……。",
+        "ko": "〜に乗って = ~을 타고.",
+        "tl": "〜に乗って = sumakay sa ~ at.",
+        "ne": "〜に乗って = ~ मा चढेर।",
+        "id": "〜に乗って = naik ~ lalu.",
+        "pt": "〜に乗って = tomar ~ e.",
+        "my": "〜に乗って = ~ စီးပြီး။",
+        "th": "〜に乗って = ขึ้น ~ แล้ว",
+        "si": "〜に乗って = ~ හි නැගලා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=95.45,100.109",
+      "t": [
+        95.45,
+        100.109
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "シンデレラは一人で、庭のすみに座って泣きました。",
+      "furigana": [
+        {
+          "surface": "シンデレラは",
+          "reading": ""
+        },
+        {
+          "surface": "一人",
+          "reading": "ひとり"
+        },
+        {
+          "surface": "で、",
+          "reading": ""
+        },
+        {
+          "surface": "庭",
+          "reading": "にわ"
+        },
+        {
+          "surface": "のすみに",
+          "reading": ""
+        },
+        {
+          "surface": "座",
+          "reading": "すわ"
+        },
+        {
+          "surface": "って",
+          "reading": ""
+        },
+        {
+          "surface": "泣",
+          "reading": "な"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shinderera wa hitori de, niwa no sumi ni suwatte nakimashita.",
+      "translations": {
+        "vi": "Lọ Lem ngồi một mình ở góc vườn và khóc.",
+        "en": "Cinderella sat alone in a corner of the garden and cried.",
+        "zh-Hans": "灰姑娘一个人坐在院子角落里哭了。",
+        "zh-Hant": "灰姑娘一個人坐在院子角落裡哭了。",
+        "ko": "신데렐라는 혼자 정원 구석에 앉아 울었습니다.",
+        "tl": "Mag-isang umupo si Cinderella sa sulok ng hardin at umiyak.",
+        "ne": "सिन्ड्रेला एक्लै बगैंचाको कुनामा बसेर रोइन्।",
+        "id": "Cinderella duduk sendirian di sudut taman dan menangis.",
+        "pt": "Cinderela sentou-se sozinha num canto do jardim e chorou.",
+        "my": "စင်ဒရဲလားက တစ်ယောက်တည်း ဥယျာဉ်ထောင့်မှာ ထိုင်ပြီး ငိုတယ်။",
+        "th": "ซินเดอเรลล่านั่งร้องไห้อยู่คนเดียวที่มุมสวน",
+        "si": "සින්ඩරෙල්ලා තනියම, වත්තේ මුල්ලක ඉඳගෙන ඇඬුවා."
+      },
+      "vocab": [
+        {
+          "word": "泣く",
+          "reading": "なく",
+          "meanings": {
+            "vi": "khóc",
+            "en": "to cry",
+            "zh-Hans": "哭",
+            "zh-Hant": "哭",
+            "ko": "울다",
+            "tl": "umiyak",
+            "ne": "रुनु",
+            "id": "menangis",
+            "pt": "chorar",
+            "my": "ငို",
+            "th": "ร้องไห้",
+            "si": "ඇඬීම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "一人で = một mình.",
+        "en": "一人で = alone.",
+        "zh-Hans": "一人で＝一个人。",
+        "zh-Hant": "一人で＝一個人。",
+        "ko": "一人で = 혼자서.",
+        "tl": "一人で = mag-isa.",
+        "ne": "一人で = एक्लै।",
+        "id": "一人で = sendirian.",
+        "pt": "一人で = sozinha.",
+        "my": "一人で = တစ်ယောက်တည်း။",
+        "th": "一人で = คนเดียว",
+        "si": "一人で = තනියම."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=100.709,105.272",
+      "t": [
+        100.709,
+        105.272
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「わたしも、一度でいいから行きたかった……。」",
+      "furigana": [
+        {
+          "surface": "「わたしも、",
+          "reading": ""
+        },
+        {
+          "surface": "一度",
+          "reading": "いちど"
+        },
+        {
+          "surface": "でいいから",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "きたかった……。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Watashi mo, ichido deii kara ikitakatta.......”",
+      "translations": {
+        "vi": "\"Mình cũng muốn đi, dù chỉ một lần thôi...\"",
+        "en": "\"I wanted to go too, even just once...\"",
+        "zh-Hans": "\"我也好想去，哪怕一次也好……\"",
+        "zh-Hant": "\"我也好想去，哪怕一次也好……\"",
+        "ko": "\"나도 한 번만이라도 가 보고 싶었어……\"",
+        "tl": "\"Gusto ko ring pumunta, kahit minsan lang...\"",
+        "ne": "\"म पनि एक पटक मात्रै भए पनि जान चाहन्थें...\"",
+        "id": "\"Aku juga ingin pergi, sekali saja pun...\"",
+        "pt": "\"Eu também queria ir, nem que fosse uma vez...\"",
+        "my": "\"ငါလည်း တစ်ခါလောက်ဖြစ်ဖြစ် သွားချင်ခဲ့တာ...\"",
+        "th": "\"ฉันก็อยากไป แม้แค่ครั้งเดียวก็ยังดี...\"",
+        "si": "\"මටත් එක පාරක් හරි යන්න ඕනේ වුණා...\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "一度でいいから = chỉ một lần thôi cũng được.",
+        "en": "一度でいいから = even just once.",
+        "zh-Hans": "一度でいいから＝哪怕一次也好。",
+        "zh-Hant": "一度でいいから＝哪怕一次也好。",
+        "ko": "一度でいいから = 한 번이라도 좋으니.",
+        "tl": "一度でいいから = kahit minsan lang.",
+        "ne": "一度でいいから = एक पटक मात्र भए पनि।",
+        "id": "一度でいいから = sekali saja pun jadi.",
+        "pt": "一度でいいから = nem que seja uma vez.",
+        "my": "一度でいいから = တစ်ခါလောက်ဖြစ်ဖြစ်။",
+        "th": "一度でいいから = แค่ครั้งเดียวก็ได้",
+        "si": "一度でいいから = එක පාරක් හරි."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=106.172,108.975",
+      "t": [
+        106.172,
+        108.975
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "そのとき、目の前が急に明るくなりました。",
+      "furigana": [
+        {
+          "surface": "そのとき、",
+          "reading": ""
+        },
+        {
+          "surface": "目",
+          "reading": "め"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "前",
+          "reading": "まえ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "急",
+          "reading": "きゅう"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "明",
+          "reading": "あか"
+        },
+        {
+          "surface": "るくなりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono toki, me no mae ga kyuu ni akaruku narimashita.",
+      "translations": {
+        "vi": "Đúng lúc đó, trước mắt cô bỗng sáng bừng lên.",
+        "en": "Just then, everything before her suddenly grew bright.",
+        "zh-Hans": "就在这时，眼前忽然亮了起来。",
+        "zh-Hant": "就在這時，眼前忽然亮了起來。",
+        "ko": "그때 눈앞이 갑자기 환해졌습니다.",
+        "tl": "Biglang lumiwanag sa harap niya.",
+        "ne": "त्यत्तिकैमा आँखाअगाडि अचानक उज्यालो भयो।",
+        "id": "Saat itu, di depan matanya tiba-tiba menjadi terang.",
+        "pt": "Nesse momento, tudo à sua frente ficou de repente claro.",
+        "my": "အဲဒီအချိန်မှာ မျက်စိရှေ့က ရုတ်တရက် လင်းလာတယ်။",
+        "th": "ทันใดนั้น ข้างหน้าก็สว่างขึ้นมาทันที",
+        "si": "ඒ වෙලාවේ, ඉස්සරහ හදිසියේ එළිය වුණා."
+      },
+      "vocab": [
+        {
+          "word": "急",
+          "reading": "きゅう",
+          "meanings": {
+            "vi": "đột ngột, gấp",
+            "en": "sudden, urgent",
+            "zh-Hans": "突然，急",
+            "zh-Hant": "突然，急",
+            "ko": "갑작스러움, 급함",
+            "tl": "bigla",
+            "ne": "अचानक",
+            "id": "tiba-tiba",
+            "pt": "repentino",
+            "my": "ရုတ်တရက်",
+            "th": "กะทันหัน",
+            "si": "හදිසි"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "急に = bỗng nhiên.",
+        "en": "急に = suddenly.",
+        "zh-Hans": "急に＝忽然。",
+        "zh-Hant": "急に＝忽然。",
+        "ko": "急に = 갑자기.",
+        "tl": "急に = bigla.",
+        "ne": "急に = अचानक।",
+        "id": "急に = tiba-tiba.",
+        "pt": "急に = de repente.",
+        "my": "急に = ရုတ်တရက်။",
+        "th": "急に = ทันใด",
+        "si": "急に = හදිසියේ."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=109.875,113.962",
+      "t": [
+        109.875,
+        113.962
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "白い服を着たおばあさんが、ほほえんで立っていました。",
+      "furigana": [
+        {
+          "surface": "白",
+          "reading": "しろ"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "服",
+          "reading": "ふく"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "着",
+          "reading": "き"
+        },
+        {
+          "surface": "たおばあさんが、ほほえんで",
+          "reading": ""
+        },
+        {
+          "surface": "立",
+          "reading": "た"
+        },
+        {
+          "surface": "っていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shiroi fuku o kita obaasan ga, hohoende tatteimashita.",
+      "translations": {
+        "vi": "Một bà lão mặc áo trắng đứng đó mỉm cười.",
+        "en": "An old woman in white stood there, smiling.",
+        "zh-Hans": "一位穿着白衣服的老婆婆微笑着站在那里。",
+        "zh-Hant": "一位穿著白衣服的老婆婆微笑著站在那裡。",
+        "ko": "흰옷을 입은 할머니가 미소 지으며 서 있었습니다.",
+        "tl": "Nakatayo roon ang isang matandang babaeng nakaputi, nakangiti.",
+        "ne": "सेतो लुगा लगाएकी एउटी बूढी मुस्कुराउँदै उभिएकी थिइन्।",
+        "id": "Seorang nenek berbaju putih berdiri sambil tersenyum.",
+        "pt": "Uma senhora de branco estava ali, sorrindo.",
+        "my": "အဖြူရောင်ဝတ်ထားတဲ့ အဖွားကြီးတစ်ယောက် ပြုံးပြီး ရပ်နေတယ်။",
+        "th": "หญิงชราในชุดขาวยืนยิ้มอยู่ตรงนั้น",
+        "si": "සුදු ඇඳුමක් ඇඳගත්ත ආච්චි කෙනෙක් සිනාසෙමින් හිටගෙන හිටියා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ほほえむ = mỉm cười.",
+        "en": "ほほえむ = to smile gently.",
+        "zh-Hans": "ほほえむ＝微笑。",
+        "zh-Hant": "ほほえむ＝微笑。",
+        "ko": "ほほえむ = 미소 짓다.",
+        "tl": "ほほえむ = ngumiti.",
+        "ne": "ほほえむ = मुस्कुराउनु।",
+        "id": "ほほえむ = tersenyum.",
+        "pt": "ほほえむ = sorrir.",
+        "my": "ほほえむ = ပြုံးသည်။",
+        "th": "ほほえむ = ยิ้ม",
+        "si": "ほほえむ = මෘදුවට සිනාසෙනවා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=114.562,119",
+      "t": [
+        114.562,
+        119
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「泣かないで。わたしは、あなたの魔法使いよ。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "泣",
+          "reading": "な"
+        },
+        {
+          "surface": "かないで。わたしは、あなたの",
+          "reading": ""
+        },
+        {
+          "surface": "魔法使",
+          "reading": "まほうつか"
+        },
+        {
+          "surface": "いよ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Nakanaide. Watashi wa, anata no mahoutsukai yo.”",
+      "translations": {
+        "vi": "\"Đừng khóc nữa. Ta là bà tiên của con đây.\"",
+        "en": "\"Don't cry. I am your fairy godmother.\"",
+        "zh-Hans": "\"别哭了。我是你的魔法仙女。\"",
+        "zh-Hant": "\"別哭了。我是你的魔法仙女。\"",
+        "ko": "\"울지 마. 나는 너의 요정 할머니란다.\"",
+        "tl": "\"Huwag kang umiyak. Ako ang iyong diwatang ninang.\"",
+        "ne": "\"नरोऊ। म तिम्री जादुगर्नी हुँ।\"",
+        "id": "\"Jangan menangis. Aku ibu peri penolongmu.\"",
+        "pt": "\"Não chore. Eu sou sua fada madrinha.\"",
+        "my": "\"မငိုနဲ့။ ငါက နင့်ရဲ့ မှော်ဆရာမပါ။\"",
+        "th": "\"อย่าร้องไห้เลย ฉันคือนางฟ้าแม่ทูนหัวของเธอ\"",
+        "si": "\"අඬන්න එපා. මම ඔයාගේ සුරංගනා මායාකාරිය.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜ないで = đừng ~.",
+        "en": "〜ないで = don't ~.",
+        "zh-Hans": "〜ないで＝别……。",
+        "zh-Hant": "〜ないで＝別……。",
+        "ko": "〜ないで = ~하지 마.",
+        "tl": "〜ないで = huwag ~.",
+        "ne": "〜ないで = ~ नगर।",
+        "id": "〜ないで = jangan ~.",
+        "pt": "〜ないで = não ~.",
+        "my": "〜ないで = ~ မလုပ်နဲ့။",
+        "th": "〜ないで = อย่า ~",
+        "si": "〜ないで = ~ කරන්න එපා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=119.9,123.774",
+      "t": [
+        119.9,
+        123.774
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「畑から、かぼちゃを一つ持ってきなさい。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "畑",
+          "reading": "はたけ"
+        },
+        {
+          "surface": "から、かぼちゃを",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "ひと"
+        },
+        {
+          "surface": "つ",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "ってきなさい。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Hatake kara, kabocha o hitotsu mottekinasai.”",
+      "translations": {
+        "vi": "\"Ra ruộng mang về cho ta một quả bí ngô.\"",
+        "en": "\"Bring me a pumpkin from the field.\"",
+        "zh-Hans": "\"去田里拿一个南瓜来。\"",
+        "zh-Hant": "\"去田裡拿一個南瓜來。\"",
+        "ko": "\"밭에서 호박을 하나 가져오렴.\"",
+        "tl": "\"Kumuha ka ng isang kalabasa sa bukid.\"",
+        "ne": "\"खेतबाट एउटा फर्सी ल्याऊ।\"",
+        "id": "\"Ambilkan satu labu dari ladang.\"",
+        "pt": "\"Traga uma abóbora da horta.\"",
+        "my": "\"လယ်ထဲကနေ ဖရုံသီး တစ်လုံး ယူခဲ့။\"",
+        "th": "\"ไปเอาฟักทองมาจากไร่ลูกหนึ่ง\"",
+        "si": "\"කෙතෙන් වට්ටක්කා ගෙඩියක් අරන් එන්න.\""
+      },
+      "vocab": [
+        {
+          "word": "畑",
+          "reading": "はたけ",
+          "meanings": {
+            "vi": "ruộng, vườn rau",
+            "en": "field (farm)",
+            "zh-Hans": "田地",
+            "zh-Hant": "田地",
+            "ko": "밭",
+            "tl": "bukid",
+            "ne": "खेत",
+            "id": "ladang",
+            "pt": "campo, roça",
+            "my": "လယ်ကွင်း",
+            "th": "ไร่ นา",
+            "si": "කෙත, වත්ත"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "持ってくる = mang đến.",
+        "en": "持ってくる = to bring.",
+        "zh-Hans": "持ってくる＝拿来。",
+        "zh-Hant": "持ってくる＝拿來。",
+        "ko": "持ってくる = 가져오다.",
+        "tl": "持ってくる = dalhin dito.",
+        "ne": "持ってくる = लिएर आउनु।",
+        "id": "持ってくる = membawa ke sini.",
+        "pt": "持ってくる = trazer.",
+        "my": "持ってくる = ယူလာသည်။",
+        "th": "持ってくる = เอามา",
+        "si": "持ってくる = අරන් එනවා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=124.374,127.673",
+      "t": [
+        124.374,
+        127.673
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "魔法使いがつえで触ると、かぼちゃは金の馬車になりました。",
+      "furigana": [
+        {
+          "surface": "魔法使",
+          "reading": "まほうつか"
+        },
+        {
+          "surface": "いがつえで",
+          "reading": ""
+        },
+        {
+          "surface": "触",
+          "reading": "さわ"
+        },
+        {
+          "surface": "ると、かぼちゃは",
+          "reading": ""
+        },
+        {
+          "surface": "金",
+          "reading": "きん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "馬車",
+          "reading": "ばしゃ"
+        },
+        {
+          "surface": "になりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mahoutsukai ga tsue de sawaru to, kabocha wa kin no basha ni narimashita.",
+      "translations": {
+        "vi": "Bà tiên chạm đũa phép vào, quả bí liền biến thành cỗ xe vàng.",
+        "en": "When she touched it with her wand, the pumpkin became a golden carriage.",
+        "zh-Hans": "仙女用魔杖一碰，南瓜就变成了金马车。",
+        "zh-Hant": "仙女用魔杖一碰，南瓜就變成了金馬車。",
+        "ko": "마법사가 지팡이로 건드리자 호박은 황금 마차가 되었습니다.",
+        "tl": "Nang hawakan ito ng tungkod, naging gintong karwahe ang kalabasa.",
+        "ne": "जादुगर्नीले छडीले छुँदा फर्सी सुनको बग्गी बन्यो।",
+        "id": "Ketika disentuh tongkat sihir, labu itu menjadi kereta emas.",
+        "pt": "Quando ela tocou com a varinha, a abóbora virou uma carruagem de ouro.",
+        "my": "မှော်ဆရာမက တုတ်နဲ့ ထိလိုက်တော့ ဖရုံသီးက ရွှေမြင်းရထား ဖြစ်သွားတယ်။",
+        "th": "พอนางฟ้าแตะด้วยไม้กายสิทธิ์ ฟักทองก็กลายเป็นรถม้าทองคำ",
+        "si": "මායාකාරිය මායා දණ්ඩෙන් ස්පර්ශ කළාම, වට්ටක්කා ගෙඩිය රන් කරත්තයක් වුණා."
+      },
+      "vocab": [
+        {
+          "word": "金",
+          "reading": "きん",
+          "meanings": {
+            "vi": "vàng",
+            "en": "gold",
+            "zh-Hans": "金",
+            "zh-Hant": "金",
+            "ko": "금",
+            "tl": "ginto",
+            "ne": "सुन",
+            "id": "emas",
+            "pt": "ouro",
+            "my": "ရွှေ",
+            "th": "ทอง",
+            "si": "රත්තරන්"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "触る",
+          "reading": "さわる",
+          "meanings": {
+            "vi": "chạm vào",
+            "en": "to touch",
+            "zh-Hans": "触摸",
+            "zh-Hant": "觸控",
+            "ko": "만지다",
+            "tl": "hawakan",
+            "ne": "छुनु",
+            "id": "menyentuh",
+            "pt": "tocar",
+            "my": "ထိသည်",
+            "th": "แตะ, สัมผัส",
+            "si": "ස්පර්ශ වීම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜と = hễ ~ thì (kết quả xảy ra ngay).",
+        "en": "〜と = when ~, then (immediate result).",
+        "zh-Hans": "〜と＝一……就……。",
+        "zh-Hant": "〜と＝一……就……。",
+        "ko": "〜と = ~하자 (곧바로 결과).",
+        "tl": "〜と = nang ~ (agad na resulta).",
+        "ne": "〜と = ~ गर्दा तुरुन्तै।",
+        "id": "〜と = begitu ~ (hasil langsung).",
+        "pt": "〜と = quando ~ (resultado imediato).",
+        "my": "〜と = ~ တော့ (ချက်ချင်းရလဒ်)။",
+        "th": "〜と = พอ ~ ก็ (ผลทันที)",
+        "si": "〜と = ~ කළාම, (වහාම ප්‍රතිඵලය)."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=128.573,134.11",
+      "t": [
+        128.573,
+        134.11
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "六匹のねずみは、白い馬に変わりました。",
+      "furigana": [
+        {
+          "surface": "六匹",
+          "reading": "ろっぴき"
+        },
+        {
+          "surface": "のねずみは、",
+          "reading": ""
+        },
+        {
+          "surface": "白",
+          "reading": "しろ"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "馬",
+          "reading": "うま"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "変",
+          "reading": "か"
+        },
+        {
+          "surface": "わりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Roppiki no nezumi wa, shiroi uma ni kawarimashita.",
+      "translations": {
+        "vi": "Sáu con chuột biến thành ngựa trắng.",
+        "en": "Six mice turned into white horses.",
+        "zh-Hans": "六只老鼠变成了白马。",
+        "zh-Hant": "六隻老鼠變成了白馬。",
+        "ko": "생쥐 여섯 마리는 흰 말로 변했습니다.",
+        "tl": "Naging puting kabayo ang anim na daga.",
+        "ne": "छवटा मुसा सेता घोडामा बदलिए।",
+        "id": "Enam ekor tikus berubah menjadi kuda putih.",
+        "pt": "Seis ratos viraram cavalos brancos.",
+        "my": "ကြွက်ခြောက်ကောင်က မြင်းဖြူတွေ ဖြစ်သွားတယ်။",
+        "th": "หนูหกตัวกลายเป็นม้าขาว",
+        "si": "මීයෝ හයදෙනා සුදු අශ්වයෝ බවට පත් වුණා."
+      },
+      "vocab": [
+        {
+          "word": "馬",
+          "reading": "うま",
+          "meanings": {
+            "vi": "con ngựa",
+            "en": "horse",
+            "zh-Hans": "马",
+            "zh-Hant": "馬",
+            "ko": "말",
+            "tl": "kabayo",
+            "ne": "घोडा",
+            "id": "kuda",
+            "pt": "cavalo",
+            "my": "မြင်း",
+            "th": "ม้า",
+            "si": "අශ්වයා"
+          },
+          "level": "N3"
+        },
+        {
+          "word": "変わる",
+          "reading": "かわる",
+          "meanings": {
+            "vi": "thay đổi",
+            "en": "to change",
+            "zh-Hans": "改变",
+            "zh-Hant": "改變",
+            "ko": "바뀌다",
+            "tl": "magbago",
+            "ne": "बदलिनु",
+            "id": "berubah",
+            "pt": "mudar",
+            "my": "ပြောင်းလဲ",
+            "th": "เปลี่ยน",
+            "si": "වෙනස් වීම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜に変わる = biến thành ~.",
+        "en": "〜に変わる = to turn into ~.",
+        "zh-Hans": "〜に変わる＝变成……。",
+        "zh-Hant": "〜に変わる＝變成……。",
+        "ko": "〜に変わる = ~로 변하다.",
+        "tl": "〜に変わる = naging ~.",
+        "ne": "〜に変わる = ~ मा बदलिनु।",
+        "id": "〜に変わる = berubah menjadi ~.",
+        "pt": "〜に変わる = transformar-se em ~.",
+        "my": "〜に変わる = ~ အဖြစ် ပြောင်းသည်။",
+        "th": "〜に変わる = กลายเป็น ~",
+        "si": "〜に変わる = ~ බවට පත් වෙනවා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=134.71,138.434",
+      "t": [
+        134.71,
+        138.434
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "大きなとかげは、馬車の運転手になりました。",
+      "furigana": [
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きなとかげは、",
+          "reading": ""
+        },
+        {
+          "surface": "馬車",
+          "reading": "ばしゃ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "運転",
+          "reading": "うんてん"
+        },
+        {
+          "surface": "手",
+          "reading": "しゅ"
+        },
+        {
+          "surface": "になりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ookina tokage wa, basha no untenshu ni narimashita.",
+      "translations": {
+        "vi": "Con thằn lằn to trở thành người đánh xe.",
+        "en": "A big lizard became the coachman.",
+        "zh-Hans": "大蜥蜴变成了马车夫。",
+        "zh-Hant": "大蜥蜴變成了馬車伕。",
+        "ko": "커다란 도마뱀은 마부가 되었습니다.",
+        "tl": "Naging kutsero ang malaking butiki.",
+        "ne": "ठूलो छेपारो बग्गी चालक बन्यो।",
+        "id": "Kadal besar menjadi kusir kereta.",
+        "pt": "Um lagarto grande virou o cocheiro.",
+        "my": "အိမ်မြှောင်ကြီးက မြင်းရထားမောင်းသူ ဖြစ်သွားတယ်။",
+        "th": "กิ้งก่าตัวใหญ่กลายเป็นคนขับรถม้า",
+        "si": "ලොකු හූනෙක් කරත්තයේ රියැදුරා වුණා."
+      },
+      "vocab": [
+        {
+          "word": "運転",
+          "reading": "うんてん",
+          "meanings": {
+            "vi": "lái (xe)",
+            "en": "driving",
+            "zh-Hans": "驾驶",
+            "zh-Hant": "駕駛",
+            "ko": "운전",
+            "tl": "pagmamaneho",
+            "ne": "चलाउने काम",
+            "id": "mengemudi",
+            "pt": "condução",
+            "my": "မောင်းနှင်ခြင်း",
+            "th": "การขับ",
+            "si": "රිය පැදවීම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "運転手 = người lái (xe).",
+        "en": "運転手 = driver.",
+        "zh-Hans": "運転手＝司机。",
+        "zh-Hant": "運転手＝司機。",
+        "ko": "運転手 = 운전사.",
+        "tl": "運転手 = tsuper, drayber.",
+        "ne": "運転手 = चालक।",
+        "id": "運転手 = pengemudi.",
+        "pt": "運転手 = motorista, condutor.",
+        "my": "運転手 = ယာဉ်မောင်း။",
+        "th": "運転手 = คนขับ",
+        "si": "運転手 = රියැදුරා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=139.034,142.844",
+      "t": [
+        139.034,
+        142.844
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "最後に、つえがシンデレラの服に触りました。",
+      "furigana": [
+        {
+          "surface": "最後",
+          "reading": "さいご"
+        },
+        {
+          "surface": "に、つえがシンデレラの",
+          "reading": ""
+        },
+        {
+          "surface": "服",
+          "reading": "ふく"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "触",
+          "reading": "さわ"
+        },
+        {
+          "surface": "りました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Saigo ni, tsue ga Shinderera no fuku ni sawarimashita.",
+      "translations": {
+        "vi": "Cuối cùng, đũa phép chạm vào áo của Lọ Lem.",
+        "en": "Finally, the wand touched Cinderella's clothes.",
+        "zh-Hans": "最后，魔杖碰了碰灰姑娘的衣服。",
+        "zh-Hant": "最後，魔杖碰了碰灰姑娘的衣服。",
+        "ko": "마지막으로 지팡이가 신데렐라의 옷에 닿았습니다.",
+        "tl": "Sa huli, hinawakan ng tungkod ang damit ni Cinderella.",
+        "ne": "अन्त्यमा, छडीले सिन्ड्रेलाको लुगा छोयो।",
+        "id": "Terakhir, tongkat itu menyentuh baju Cinderella.",
+        "pt": "Por fim, a varinha tocou a roupa de Cinderela.",
+        "my": "နောက်ဆုံးမှာ တုတ်က စင်ဒရဲလားရဲ့ အဝတ်ကို ထိလိုက်တယ်။",
+        "th": "สุดท้าย ไม้กายสิทธิ์ก็แตะเสื้อผ้าของซินเดอเรลล่า",
+        "si": "අන්තිමට, මායා දණ්ඩ සින්ඩරෙල්ලාගේ ඇඳුම ස්පර්ශ කළා."
+      },
+      "vocab": [
+        {
+          "word": "最後",
+          "reading": "さいご",
+          "meanings": {
+            "vi": "cuối cùng",
+            "en": "last, final",
+            "zh-Hans": "最后",
+            "zh-Hant": "最後",
+            "ko": "마지막",
+            "tl": "huli",
+            "ne": "अन्तिम",
+            "id": "terakhir",
+            "pt": "último",
+            "my": "နောက်ဆုံး",
+            "th": "สุดท้าย",
+            "si": "අන්තිම, අවසාන"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "最後に = cuối cùng.",
+        "en": "最後に = finally, last of all.",
+        "zh-Hans": "最後に＝最后。",
+        "zh-Hant": "最後に＝最後。",
+        "ko": "最後に = 마지막으로.",
+        "tl": "最後に = sa huli.",
+        "ne": "最後に = अन्त्यमा।",
+        "id": "最後に = terakhir.",
+        "pt": "最後に = por fim.",
+        "my": "最後に = နောက်ဆုံးမှာ။",
+        "th": "最後に = สุดท้าย",
+        "si": "最後に = අන්තිමට."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=143.444,147.547",
+      "t": [
+        143.444,
+        147.547
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "灰だらけの服が、星のように光るドレスになりました。",
+      "furigana": [
+        {
+          "surface": "灰",
+          "reading": "はい"
+        },
+        {
+          "surface": "だらけの",
+          "reading": ""
+        },
+        {
+          "surface": "服",
+          "reading": "ふく"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "星",
+          "reading": "ほし"
+        },
+        {
+          "surface": "のように",
+          "reading": ""
+        },
+        {
+          "surface": "光",
+          "reading": "ひか"
+        },
+        {
+          "surface": "るドレスになりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Haidarake no fuku ga, hoshi no you ni hikaru doresu ni narimashita.",
+      "translations": {
+        "vi": "Bộ đồ lấm tro hóa thành chiếc váy lấp lánh như sao.",
+        "en": "The ash-covered clothes became a dress shining like stars.",
+        "zh-Hans": "满是灰的衣服变成了像星星一样闪亮的礼服。",
+        "zh-Hant": "滿是灰的衣服變成了像星星一樣閃亮的禮服。",
+        "ko": "재투성이 옷이 별처럼 빛나는 드레스가 되었습니다.",
+        "tl": "Naging bestidang kumikislap na parang bituin ang maruming damit.",
+        "ne": "खरानीले भरिएको लुगा तारा जस्तै चम्किने गाउन बन्यो।",
+        "id": "Baju penuh abu itu menjadi gaun yang berkilau seperti bintang.",
+        "pt": "A roupa cheia de cinza virou um vestido brilhante como as estrelas.",
+        "my": "ပြာပေနေတဲ့ အဝတ်က ကြယ်လို တောက်ပတဲ့ ဝတ်စုံ ဖြစ်သွားတယ်။",
+        "th": "ชุดเปื้อนขี้เถ้ากลายเป็นชุดราตรีที่ระยิบระยับเหมือนดวงดาว",
+        "si": "අළු ගාපු ඇඳුම, තරු වගේ දිලිසෙන ගවුමක් වුණා."
+      },
+      "vocab": [
+        {
+          "word": "星",
+          "reading": "ほし",
+          "meanings": {
+            "vi": "ngôi sao",
+            "en": "star",
+            "zh-Hans": "星星",
+            "zh-Hant": "星星",
+            "ko": "별",
+            "tl": "bituin",
+            "ne": "तारा",
+            "id": "bintang",
+            "pt": "estrela",
+            "my": "ကြယ်",
+            "th": "ดาว",
+            "si": "තරුව"
+          },
+          "level": "N4"
+        },
+        {
+          "word": "光る",
+          "reading": "ひかる",
+          "meanings": {
+            "vi": "tỏa sáng, lấp lánh",
+            "en": "to shine",
+            "zh-Hans": "发光，闪耀",
+            "zh-Hant": "發光，閃耀",
+            "ko": "빛나다",
+            "tl": "kumislap",
+            "ne": "चम्किनु",
+            "id": "bersinar",
+            "pt": "brilhar",
+            "my": "တောက်ပသည်",
+            "th": "ส่องแสง",
+            "si": "දිලිසීම, බැබළීම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜のように = giống như ~.",
+        "en": "〜のように = like ~.",
+        "zh-Hans": "〜のように＝像……一样。",
+        "zh-Hant": "〜のように＝像……一樣。",
+        "ko": "〜のように = ~처럼.",
+        "tl": "〜のように = parang ~.",
+        "ne": "〜のように = ~ जस्तै।",
+        "id": "〜のように = seperti ~.",
+        "pt": "〜のように = como ~.",
+        "my": "〜のように = ~ လို။",
+        "th": "〜のように = เหมือน ~",
+        "si": "〜のように = ~ වගේ."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=148.147,152.793",
+      "t": [
+        148.147,
+        152.793
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "足には、ガラスの靴がきらきら光っていました。",
+      "furigana": [
+        {
+          "surface": "足",
+          "reading": "あし"
+        },
+        {
+          "surface": "には、ガラスの",
+          "reading": ""
+        },
+        {
+          "surface": "靴",
+          "reading": "くつ"
+        },
+        {
+          "surface": "がきらきら",
+          "reading": ""
+        },
+        {
+          "surface": "光",
+          "reading": "ひか"
+        },
+        {
+          "surface": "っていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ashi ni wa, garasu no kutsu ga kirakira hikatteimashita.",
+      "translations": {
+        "vi": "Dưới chân cô, đôi giày thủy tinh lấp lánh.",
+        "en": "On her feet, glass slippers sparkled.",
+        "zh-Hans": "她脚上的玻璃鞋闪闪发光。",
+        "zh-Hant": "她腳上的玻璃鞋閃閃發光。",
+        "ko": "발에는 유리 구두가 반짝반짝 빛나고 있었습니다.",
+        "tl": "Sa kanyang paa, kumikinang ang sapatos na kristal.",
+        "ne": "खुट्टामा सिसाका जुत्ता टल्किरहेका थिए।",
+        "id": "Di kakinya, sepatu kaca berkilauan.",
+        "pt": "Nos pés, sapatinhos de cristal cintilavam.",
+        "my": "ခြေထောက်မှာ ဖန်ဖိနပ်တွေ တလက်လက် တောက်ပနေတယ်။",
+        "th": "ที่เท้ามีรองเท้าแก้วส่องประกายวิบวับ",
+        "si": "කකුල්වල වීදුරු සෙරෙප්පු දිලි දිලී බැබළුණා."
+      },
+      "vocab": [
+        {
+          "word": "ガラス",
+          "reading": "がらす",
+          "meanings": {
+            "vi": "thủy tinh",
+            "en": "glass",
+            "zh-Hans": "玻璃",
+            "zh-Hant": "玻璃",
+            "ko": "유리",
+            "tl": "salamin",
+            "ne": "सिसा",
+            "id": "kaca",
+            "pt": "vidro",
+            "my": "ဖန်",
+            "th": "แก้ว",
+            "si": "වීදුරු"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "きらきら = lấp lánh (từ tượng thanh).",
+        "en": "きらきら = sparkling (onomatopoeia).",
+        "zh-Hans": "きらきら＝闪闪发光（拟态词）。",
+        "zh-Hant": "きらきら＝閃閃發光（擬態詞）。",
+        "ko": "きらきら = 반짝반짝 (의태어).",
+        "tl": "きらきら = kumikinang (onomatopeya).",
+        "ne": "きらきら = टलक्क (अनुकरण शब्द)।",
+        "id": "きらきら = berkilauan (onomatope).",
+        "pt": "きらきら = cintilante (onomatopeia).",
+        "my": "きらきら = တလက်လက် (အသံစွဲစကား)။",
+        "th": "きらきら = วิบวับ (คำเลียนเสียง)",
+        "si": "きらきら = දිලි දිලී (අනුකරණ වචනය)."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=153.393,157.637",
+      "t": [
+        153.393,
+        157.637
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「でも、よく聞いて。魔法は夜の十二時に消えるの。」",
+      "furigana": [
+        {
+          "surface": "「でも、よく",
+          "reading": ""
+        },
+        {
+          "surface": "聞",
+          "reading": "き"
+        },
+        {
+          "surface": "いて。",
+          "reading": ""
+        },
+        {
+          "surface": "魔法",
+          "reading": "まほう"
+        },
+        {
+          "surface": "は",
+          "reading": ""
+        },
+        {
+          "surface": "夜",
+          "reading": "よる"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "十二時",
+          "reading": "じゅうにじ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "消",
+          "reading": "き"
+        },
+        {
+          "surface": "えるの。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Demo, yoku kiite. Mahou wa yoru no juuniji ni kieru no.”",
+      "translations": {
+        "vi": "\"Nhưng nghe kỹ này. Phép thuật sẽ tan lúc mười hai giờ đêm.\"",
+        "en": "\"But listen well. The magic ends at midnight.\"",
+        "zh-Hans": "\"但是听好了。魔法在夜里十二点就会消失。\"",
+        "zh-Hant": "\"但是聽好了。魔法在夜裡十二點就會消失。\"",
+        "ko": "\"하지만 잘 들어. 마법은 밤 열두 시에 사라진단다.\"",
+        "tl": "\"Pero makinig kang mabuti. Mawawala ang mahika sa hatinggabi.\"",
+        "ne": "\"तर राम्ररी सुन। जादु राति बाह्र बजे हराउँछ।\"",
+        "id": "\"Tapi dengar baik-baik. Sihir ini hilang tepat tengah malam.\"",
+        "pt": "\"Mas escute bem. A mágica acaba à meia-noite.\"",
+        "my": "\"ဒါပေမဲ့ သေချာနားထောင်။ မှော်က ည ၁၂ နာရီမှာ ပျောက်သွားမှာ။\"",
+        "th": "\"แต่ฟังให้ดีนะ เวทมนตร์จะหายไปตอนเที่ยงคืน\"",
+        "si": "\"ඒත් හොඳට අහගන්න. මායාව රෑ දොළහට නැති වෙනවා.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜の = đuôi câu thân mật (giải thích).",
+        "en": "〜の = soft explanatory ending.",
+        "zh-Hans": "〜の＝温和的说明语气。",
+        "zh-Hant": "〜の＝溫和的說明語氣。",
+        "ko": "〜の = 부드러운 설명 어미.",
+        "tl": "〜の = malambot na pagpapaliwanag.",
+        "ne": "〜の = नरम व्याख्यात्मक अन्त्य।",
+        "id": "〜の = akhiran lembut menjelaskan.",
+        "pt": "〜の = final suave explicativo.",
+        "my": "〜の = ရှင်းပြတဲ့ နူးညံ့သော အဆုံး။",
+        "th": "〜の = คำลงท้ายอธิบายแบบนุ่มนวล",
+        "si": "〜の = මෘදු පැහැදිලි කිරීමේ අවසානය."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=158.537,163.332",
+      "t": [
+        158.537,
+        163.332
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「それまでに、必ず帰ってきなさいね。」",
+      "furigana": [
+        {
+          "surface": "「それまでに、",
+          "reading": ""
+        },
+        {
+          "surface": "必",
+          "reading": "かなら"
+        },
+        {
+          "surface": "ず",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ってきなさいね。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Sore made ni, kanarazu kaettekinasai ne.”",
+      "translations": {
+        "vi": "\"Trước giờ đó, nhất định phải về nhé.\"",
+        "en": "\"Be sure to come back before then.\"",
+        "zh-Hans": "\"在那之前，一定要回来哦。\"",
+        "zh-Hant": "\"在那之前，一定要回來哦。\"",
+        "ko": "\"그때까지 꼭 돌아와야 한다.\"",
+        "tl": "\"Bago noon, siguraduhin mong babalik ka.\"",
+        "ne": "\"त्यसअघि अवश्य फर्किनू है।\"",
+        "id": "\"Sebelum itu, kau harus pulang ya.\"",
+        "pt": "\"Antes disso, volte sem falta.\"",
+        "my": "\"အဲဒီမတိုင်ခင် မုချ ပြန်လာရမယ်နော်။\"",
+        "th": "\"ก่อนเวลานั้น ต้องกลับมาให้ได้นะ\"",
+        "si": "\"ඊට කලින්, අනිවාර්යයෙන්ම ආපහු එන්න ඕනේ හොඳේ.\""
+      },
+      "vocab": [
+        {
+          "word": "必ず",
+          "reading": "かならず",
+          "meanings": {
+            "vi": "nhất định, chắc chắn",
+            "en": "surely, without fail",
+            "zh-Hans": "一定",
+            "zh-Hant": "一定",
+            "ko": "반드시",
+            "tl": "tiyak",
+            "ne": "अवश्य",
+            "id": "pasti",
+            "pt": "sem falta",
+            "my": "မုချ",
+            "th": "แน่นอน",
+            "si": "අනිවාර්යයෙන්ම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "必ず = nhất định.",
+        "en": "必ず = without fail.",
+        "zh-Hans": "必ず＝一定。",
+        "zh-Hant": "必ず＝一定。",
+        "ko": "必ず = 반드시.",
+        "tl": "必ず = tiyak, siguradong.",
+        "ne": "必ず = अवश्य।",
+        "id": "必ず = pasti, harus.",
+        "pt": "必ず = sem falta.",
+        "my": "必ず = မုချ။",
+        "th": "必ず = ต้อง...ให้ได้",
+        "si": "必ず = අනිවාර්යයෙන්ම."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=163.932,166.98",
+      "t": [
+        163.932,
+        166.98
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "「はい、約束します。ありがとう！」",
+      "furigana": [
+        {
+          "surface": "「はい、",
+          "reading": ""
+        },
+        {
+          "surface": "約束",
+          "reading": "やくそく"
+        },
+        {
+          "surface": "します。ありがとう！」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Hai, yakusokushimasu. Arigatou!”",
+      "translations": {
+        "vi": "\"Vâng, con xin hứa. Cảm ơn bà!\"",
+        "en": "\"Yes, I promise. Thank you!\"",
+        "zh-Hans": "\"好的，我保证。谢谢您！\"",
+        "zh-Hant": "\"好的，我保證。謝謝您！\"",
+        "ko": "\"네, 약속할게요. 고맙습니다!\"",
+        "tl": "\"Opo, nangangako ako. Salamat po!\"",
+        "ne": "\"हुन्छ, वाचा गर्छु। धन्यवाद!\"",
+        "id": "\"Baik, aku berjanji. Terima kasih!\"",
+        "pt": "\"Sim, eu prometo. Obrigada!\"",
+        "my": "\"ဟုတ်ကဲ့၊ ကတိပေးပါတယ်။ ကျေးဇူးပါ!\"",
+        "th": "\"ค่ะ สัญญาค่ะ ขอบคุณนะคะ!\"",
+        "si": "\"හරි, පොරොන්දු වෙනවා. බොහොම ස්තූතියි!\""
+      },
+      "vocab": [
+        {
+          "word": "約束",
+          "reading": "やくそく",
+          "meanings": {
+            "vi": "lời hứa",
+            "en": "promise",
+            "zh-Hans": "约定，诺言",
+            "zh-Hant": "約定，諾言",
+            "ko": "약속",
+            "tl": "pangako",
+            "ne": "वाचा",
+            "id": "janji",
+            "pt": "promessa",
+            "my": "ကတိ",
+            "th": "สัญญา",
+            "si": "පොරොන්දුව"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "約束します = tôi xin hứa.",
+        "en": "約束します = I promise.",
+        "zh-Hans": "約束します＝我保证。",
+        "zh-Hant": "約束します＝我保證。",
+        "ko": "約束します = 약속합니다.",
+        "tl": "約束します = nangangako ako.",
+        "ne": "約束します = वाचा गर्छु।",
+        "id": "約束します = aku berjanji.",
+        "pt": "約束します = eu prometo.",
+        "my": "約束します = ကတိပေးပါတယ်။",
+        "th": "約束します = สัญญา",
+        "si": "約束します = පොරොන්දු වෙනවා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=167.88,170.498",
+      "t": [
+        167.88,
+        170.498
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "シンデレラがお城に入ると、みんなが静かになりました。",
+      "furigana": [
+        {
+          "surface": "シンデレラがお",
+          "reading": ""
+        },
+        {
+          "surface": "城",
+          "reading": "しろ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "はい"
+        },
+        {
+          "surface": "ると、みんなが",
+          "reading": ""
+        },
+        {
+          "surface": "静",
+          "reading": "しず"
+        },
+        {
+          "surface": "かになりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shinderera ga oshiro ni hairu to, minna ga shizuka ni narimashita.",
+      "translations": {
+        "vi": "Lọ Lem vừa bước vào lâu đài, mọi người đều im lặng.",
+        "en": "When Cinderella entered the castle, everyone fell silent.",
+        "zh-Hans": "灰姑娘一走进城堡，大家都安静了下来。",
+        "zh-Hant": "灰姑娘一走進城堡，大家都安靜了下來。",
+        "ko": "신데렐라가 성에 들어가자 모두가 조용해졌습니다.",
+        "tl": "Pagpasok ni Cinderella sa kastilyo, tumahimik ang lahat.",
+        "ne": "सिन्ड्रेला दरबारमा पस्दा सबै चुप भए।",
+        "id": "Begitu Cinderella masuk istana, semua orang terdiam.",
+        "pt": "Quando Cinderela entrou no castelo, todos ficaram em silêncio.",
+        "my": "စင်ဒရဲလား နန်းတော်ထဲ ဝင်လိုက်တော့ လူတိုင်း တိတ်သွားတယ်။",
+        "th": "พอซินเดอเรลล่าเข้าไปในปราสาท ทุกคนก็เงียบกริบ",
+        "si": "සින්ඩරෙල්ලා මාළිගාවට ඇතුළු වුණාම, හැමෝම නිහඬ වුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜と = khi ~ thì.",
+        "en": "〜と = when ~.",
+        "zh-Hans": "〜と＝一……就……。",
+        "zh-Hant": "〜と＝一……就……。",
+        "ko": "〜と = ~하자.",
+        "tl": "〜と = nang ~.",
+        "ne": "〜と = ~ दा।",
+        "id": "〜と = begitu ~.",
+        "pt": "〜と = quando ~.",
+        "my": "〜と = ~ တော့။",
+        "th": "〜と = พอ ~",
+        "si": "〜と = ~ වුණාම."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=171.398,176.191",
+      "t": [
+        171.398,
+        176.191
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「あの美しい人はだれだろう。」と、だれもが思いました。",
+      "furigana": [
+        {
+          "surface": "「あの",
+          "reading": ""
+        },
+        {
+          "surface": "美",
+          "reading": "うつく"
+        },
+        {
+          "surface": "しい",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "はだれだろう。」と、だれもが",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "いました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Ano utsukushii hito wa dare darou.” to, dare mo ga omoimashita.",
+      "translations": {
+        "vi": "Ai cũng nghĩ: \"Người đẹp kia là ai nhỉ?\"",
+        "en": "Everyone thought, \"Who is that beautiful lady?\"",
+        "zh-Hans": "大家都在想：\"那位美丽的人是谁呢？\"",
+        "zh-Hant": "大家都在想：\"那位美麗的人是誰呢？\"",
+        "ko": "\"저 아름다운 사람은 누굴까?\" 하고 누구나 생각했습니다.",
+        "tl": "Inisip ng lahat, \"Sino kaya ang magandang babaeng iyon?\"",
+        "ne": "\"त्यो सुन्दरी को होला?\" भनेर सबैले सोचे।",
+        "id": "Semua orang berpikir, \"Siapa wanita cantik itu?\"",
+        "pt": "Todos pensaram: \"Quem será aquela bela moça?\"",
+        "my": "\"ဟိုလှတဲ့သူက ဘယ်သူလဲ\" လို့ လူတိုင်း တွေးကြတယ်။",
+        "th": "ทุกคนต่างคิดว่า \"สาวงามคนนั้นเป็นใครกันนะ\"",
+        "si": "\"අර ලස්සන කාන්තාව කවුද?\" කියලා හැමෝම හිතුවා."
+      },
+      "vocab": [
+        {
+          "word": "美しい",
+          "reading": "うつくしい",
+          "meanings": {
+            "vi": "đẹp",
+            "en": "beautiful",
+            "zh-Hans": "美丽",
+            "zh-Hant": "美麗",
+            "ko": "아름답다",
+            "tl": "maganda",
+            "ne": "सुन्दर",
+            "id": "indah",
+            "pt": "bonito",
+            "my": "လှပ",
+            "th": "สวยงาม",
+            "si": "ලස්සන, සුන්දර"
+          },
+          "level": "N4"
+        },
+        {
+          "word": "思う",
+          "reading": "おもう",
+          "meanings": {
+            "vi": "nghĩ",
+            "en": "to think",
+            "zh-Hans": "想、认为",
+            "zh-Hant": "想、認為",
+            "ko": "생각하다",
+            "tl": "isipin",
+            "ne": "सोच्नु",
+            "id": "berpikir",
+            "pt": "pensar",
+            "my": "ထင်သည်",
+            "th": "คิด",
+            "si": "සිතීම, කල්පනා කිරීම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "だれもが = ai ai cũng.",
+        "en": "だれもが = everyone.",
+        "zh-Hans": "だれもが＝每个人都。",
+        "zh-Hant": "だれもが＝每個人都。",
+        "ko": "だれもが = 누구나.",
+        "tl": "だれもが = lahat.",
+        "ne": "だれもが = सबैले।",
+        "id": "だれもが = semua orang.",
+        "pt": "だれもが = todos.",
+        "my": "だれもが = ဘယ်သူမဆို။",
+        "th": "だれもが = ทุกคน",
+        "si": "だれもが = හැමෝම."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=176.791,180.931",
+      "t": [
+        176.791,
+        180.931
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "お姉さんたちも、シンデレラだと気がつきませんでした。",
+      "furigana": [
+        {
+          "surface": "お",
+          "reading": ""
+        },
+        {
+          "surface": "姉",
+          "reading": "ねえ"
+        },
+        {
+          "surface": "さんたちも、シンデレラだと",
+          "reading": ""
+        },
+        {
+          "surface": "気",
+          "reading": "き"
+        },
+        {
+          "surface": "がつきませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Oneesantachi mo, Shinderera da to kigatsukimasendeshita.",
+      "translations": {
+        "vi": "Ngay cả hai cô chị cũng không nhận ra đó là Lọ Lem.",
+        "en": "Even the stepsisters didn't realize it was Cinderella.",
+        "zh-Hans": "连姐姐们也没认出那是灰姑娘。",
+        "zh-Hant": "連姐姐們也沒認出那是灰姑娘。",
+        "ko": "언니들도 신데렐라라는 걸 알아차리지 못했습니다.",
+        "tl": "Kahit ang mga kapatid ay hindi nakilala na si Cinderella iyon.",
+        "ne": "दिदीहरूले पनि सिन्ड्रेला हो भनेर थाहा पाएनन्।",
+        "id": "Kakak-kakaknya pun tidak sadar bahwa itu Cinderella.",
+        "pt": "Nem as irmãs perceberam que era Cinderela.",
+        "my": "အစ်မတွေတောင် စင်ဒရဲလားမှန်း မသိကြဘူး။",
+        "th": "แม้แต่พี่สาวทั้งสองก็ไม่รู้ว่าเป็นซินเดอเรลล่า",
+        "si": "අක්කලාටවත් ඒ සින්ඩරෙල්ලා කියලා තේරුණේ නැහැ."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "気がつく = nhận ra.",
+        "en": "気がつく = to notice, realize.",
+        "zh-Hans": "気がつく＝察觉，认出。",
+        "zh-Hant": "気がつく＝察覺，認出。",
+        "ko": "気がつく = 알아차리다.",
+        "tl": "気がつく = mapansin.",
+        "ne": "気がつく = थाहा पाउनु।",
+        "id": "気がつく = menyadari.",
+        "pt": "気がつく = perceber.",
+        "my": "気がつく = သတိထားမိသည်။",
+        "th": "気がつく = สังเกตเห็น รู้ตัว",
+        "si": "気がつく = තේරෙනවා, දැනෙනවා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=181.531,185.723",
+      "t": [
+        181.531,
+        185.723
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "王子様はすぐに来て、シンデレラに手を出しました。",
+      "furigana": [
+        {
+          "surface": "王子",
+          "reading": "おうじ"
+        },
+        {
+          "surface": "様",
+          "reading": "さま"
+        },
+        {
+          "surface": "はすぐに",
+          "reading": ""
+        },
+        {
+          "surface": "来",
+          "reading": "き"
+        },
+        {
+          "surface": "て、シンデレラに",
+          "reading": ""
+        },
+        {
+          "surface": "手",
+          "reading": "て"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "だ"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Oujisama wa sugu ni kite, Shinderera ni te o dashimashita.",
+      "translations": {
+        "vi": "Hoàng tử lập tức đến và chìa tay mời Lọ Lem.",
+        "en": "The prince came at once and held out his hand to Cinderella.",
+        "zh-Hans": "王子马上走过来，向灰姑娘伸出了手。",
+        "zh-Hant": "王子馬上走過來，向灰姑娘伸出了手。",
+        "ko": "왕자님은 곧바로 다가와 신데렐라에게 손을 내밀었습니다.",
+        "tl": "Agad lumapit ang prinsipe at iniabot ang kamay kay Cinderella.",
+        "ne": "राजकुमार तुरुन्तै आएर सिन्ड्रेलातिर हात बढाए।",
+        "id": "Pangeran segera datang dan mengulurkan tangan kepada Cinderella.",
+        "pt": "O príncipe veio logo e estendeu a mão para Cinderela.",
+        "my": "မင်းသားက ချက်ချင်းလာပြီး စင်ဒရဲလားဆီ လက်ကမ်းပေးတယ်။",
+        "th": "เจ้าชายรีบเดินมาและยื่นมือให้ซินเดอเรลล่า",
+        "si": "කුමාරයා වහාම ඇවිත්, සින්ඩරෙල්ලාට අත දිගු කළා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "手を出す = chìa tay ra.",
+        "en": "手を出す = to hold out one's hand.",
+        "zh-Hans": "手を出す＝伸出手。",
+        "zh-Hant": "手を出す＝伸出手。",
+        "ko": "手を出す = 손을 내밀다.",
+        "tl": "手を出す = iabot ang kamay.",
+        "ne": "手を出す = हात बढाउनु।",
+        "id": "手を出す = mengulurkan tangan.",
+        "pt": "手を出す = estender a mão.",
+        "my": "手を出す = လက်ကမ်းသည်။",
+        "th": "手を出す = ยื่นมือ",
+        "si": "手を出す = අත දිගු කරනවා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=186.323,190.793",
+      "t": [
+        186.323,
+        190.793
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「わたしと、踊っていただけませんか。」",
+      "furigana": [
+        {
+          "surface": "「わたしと、",
+          "reading": ""
+        },
+        {
+          "surface": "踊",
+          "reading": "おど"
+        },
+        {
+          "surface": "っていただけませんか。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Watashi to, odotte itadakemasen ka.”",
+      "translations": {
+        "vi": "\"Nàng có thể nhảy cùng ta một bản được chăng?\"",
+        "en": "\"Would you do me the honor of a dance?\"",
+        "zh-Hans": "\"能否请您和我跳支舞？\"",
+        "zh-Hant": "\"能否請您和我跳支舞？\"",
+        "ko": "\"저와 춤춰 주시겠습니까?\"",
+        "tl": "\"Maaari ba kitang maisayaw?\"",
+        "ne": "\"के तपाईं मसँग नाचिदिनुहुन्छ?\"",
+        "id": "\"Maukah Anda berdansa dengan saya?\"",
+        "pt": "\"A senhorita me concederia esta dança?\"",
+        "my": "\"ကျွန်တော်နဲ့ ကပေးပါလား။\"",
+        "th": "\"ช่วยเต้นรำกับผมสักเพลงได้ไหมครับ\"",
+        "si": "\"මා එක්ක නටන්න කැමතිද?\""
+      },
+      "vocab": [
+        {
+          "word": "踊る",
+          "reading": "おどる",
+          "meanings": {
+            "vi": "nhảy múa",
+            "en": "to dance",
+            "zh-Hans": "跳舞",
+            "zh-Hant": "跳舞",
+            "ko": "춤추다",
+            "tl": "sumayaw",
+            "ne": "नाच्नु",
+            "id": "menari",
+            "pt": "dançar",
+            "my": "ကသည်",
+            "th": "เต้นรำ",
+            "si": "නැටීම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜ていただけませんか = xin phép rất lịch sự.",
+        "en": "〜ていただけませんか = very polite request.",
+        "zh-Hans": "〜ていただけませんか＝非常礼貌的请求。",
+        "zh-Hant": "〜ていただけませんか＝非常禮貌的請求。",
+        "ko": "〜ていただけませんか = 매우 정중한 부탁.",
+        "tl": "〜ていただけませんか = napakagalang na pakiusap.",
+        "ne": "〜ていただけませんか = अति नम्र अनुरोध।",
+        "id": "〜ていただけませんか = permintaan sangat sopan.",
+        "pt": "〜ていただけませんか = pedido muito educado.",
+        "my": "〜ていただけませんか = အလွန်ယဉ်ကျေးသော တောင်းဆိုမှု။",
+        "th": "〜ていただけませんか = ขอร้องอย่างสุภาพมาก",
+        "si": "〜ていただけませんか = ඉතා ආචාරශීලී ඉල්ලීමක්."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=191.693,194.133",
+      "t": [
+        191.693,
+        194.133
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "二人は、音楽が終わるまで、何曲も踊りました。",
+      "furigana": [
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "音楽",
+          "reading": "おんがく"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "終",
+          "reading": "お"
+        },
+        {
+          "surface": "わるまで、",
+          "reading": ""
+        },
+        {
+          "surface": "何曲",
+          "reading": "なんきょく"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "踊",
+          "reading": "おど"
+        },
+        {
+          "surface": "りました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Futari wa, ongaku ga owaru made, nankyoku mo odorimashita.",
+      "translations": {
+        "vi": "Hai người nhảy hết bản này đến bản khác cho đến khi nhạc dứt.",
+        "en": "The two danced song after song until the music ended.",
+        "zh-Hans": "两人跳了一曲又一曲，直到音乐结束。",
+        "zh-Hant": "兩人跳了一曲又一曲，直到音樂結束。",
+        "ko": "두 사람은 음악이 끝날 때까지 몇 곡이나 춤을 췄습니다.",
+        "tl": "Sumayaw ang dalawa ng maraming kanta hanggang matapos ang musika.",
+        "ne": "संगीत नसकिउन्जेल दुवैले धेरै गीतमा नाचे।",
+        "id": "Keduanya berdansa berlagu-lagu sampai musik berhenti.",
+        "pt": "Os dois dançaram muitas músicas até a música acabar.",
+        "my": "တေးဂီတ မဆုံးမချင်း နှစ်ယောက်သား သီချင်းတွေ အများကြီး ကကြတယ်။",
+        "th": "ทั้งสองเต้นรำกันหลายเพลงจนดนตรีจบ",
+        "si": "දෙදෙනා සංගීතය ඉවර වෙනකම් ගීත ගණනාවකට නැටුවා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "何曲も = nhiều bản (nhạc).",
+        "en": "何曲も = many songs.",
+        "zh-Hans": "何曲も＝好几首曲子。",
+        "zh-Hant": "何曲も＝好幾首曲子。",
+        "ko": "何曲も = 몇 곡이나.",
+        "tl": "何曲も = maraming kanta.",
+        "ne": "何曲も = धेरै गीत।",
+        "id": "何曲も = banyak lagu.",
+        "pt": "何曲も = muitas músicas.",
+        "my": "何曲も = သီချင်းအများကြီး။",
+        "th": "何曲も = หลายเพลง",
+        "si": "何曲も = ගීත ගණනාවක්."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=195.033,199.822",
+      "t": [
+        195.033,
+        199.822
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "シンデレラは楽しくて、時間を忘れてしまいました。",
+      "furigana": [
+        {
+          "surface": "シンデレラは",
+          "reading": ""
+        },
+        {
+          "surface": "楽",
+          "reading": "たの"
+        },
+        {
+          "surface": "しくて、",
+          "reading": ""
+        },
+        {
+          "surface": "時間",
+          "reading": "じかん"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "忘",
+          "reading": "わす"
+        },
+        {
+          "surface": "れてしまいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shinderera wa tanoshikute, jikan o wasureteshimaimashita.",
+      "translations": {
+        "vi": "Lọ Lem vui quá nên quên cả thời gian.",
+        "en": "Cinderella was so happy that she forgot the time.",
+        "zh-Hans": "灰姑娘太开心，把时间都忘了。",
+        "zh-Hant": "灰姑娘太開心，把時間都忘了。",
+        "ko": "신데렐라는 너무 즐거워서 시간을 잊어버렸습니다.",
+        "tl": "Sa sobrang saya, nakalimutan ni Cinderella ang oras.",
+        "ne": "सिन्ड्रेला यति रमाइन् कि समय नै बिर्सिइन्।",
+        "id": "Cinderella begitu senang sampai lupa waktu.",
+        "pt": "Cinderela estava tão feliz que esqueceu da hora.",
+        "my": "စင်ဒရဲလားက ပျော်လွန်းလို့ အချိန်ကို မေ့သွားတယ်။",
+        "th": "ซินเดอเรลล่าสนุกจนลืมเวลาไปเลย",
+        "si": "සින්ඩරෙල්ලා සතුටින් ඉන්න ගමන් වෙලාව අමතක වුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜てしまう = lỡ ~ mất.",
+        "en": "〜てしまう = end up ~ (regret).",
+        "zh-Hans": "〜てしまう＝不小心……了。",
+        "zh-Hant": "〜てしまう＝不小心……了。",
+        "ko": "〜てしまう = ~해 버리다.",
+        "tl": "〜てしまう = hindi sinasadyang ~.",
+        "ne": "〜てしまう = ~ गरिहाल्नु।",
+        "id": "〜てしまう = terlanjur ~.",
+        "pt": "〜てしまう = acabar ~ (sem querer).",
+        "my": "〜てしまう = ~ သွားမိသည်။",
+        "th": "〜てしまう = เผลอ ~ ไปแล้ว",
+        "si": "〜てしまう = ~ වී යනවා (කනගාටුව)."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=200.422,204.813",
+      "t": [
+        200.422,
+        204.813
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのとき、大きな時計が鳴り始めました。",
+      "furigana": [
+        {
+          "surface": "そのとき、",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きな",
+          "reading": ""
+        },
+        {
+          "surface": "時計",
+          "reading": "とけい"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "鳴",
+          "reading": "な"
+        },
+        {
+          "surface": "り",
+          "reading": ""
+        },
+        {
+          "surface": "始",
+          "reading": "はじ"
+        },
+        {
+          "surface": "めました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono toki, ookina tokei ga narihajimemashita.",
+      "translations": {
+        "vi": "Đúng lúc ấy, chiếc đồng hồ lớn bắt đầu điểm chuông.",
+        "en": "Just then, the great clock began to strike.",
+        "zh-Hans": "就在这时，大钟开始敲响。",
+        "zh-Hant": "就在這時，大鐘開始敲響。",
+        "ko": "그때 커다란 시계가 울리기 시작했습니다.",
+        "tl": "Noon din, nagsimulang tumunog ang malaking orasan.",
+        "ne": "त्यही बेला ठूलो घडी बज्न थाल्यो।",
+        "id": "Saat itu, jam besar mulai berdentang.",
+        "pt": "Nesse instante, o grande relógio começou a bater.",
+        "my": "အဲဒီအချိန်မှာ နာရီကြီးက စတင် မြည်လာတယ်။",
+        "th": "ทันใดนั้น นาฬิกาใหญ่ก็เริ่มตีบอกเวลา",
+        "si": "ඒ වෙලාවේ, ලොකු ඔරලෝසුව නාද වෙන්න පටන් ගත්තා."
+      },
+      "vocab": [
+        {
+          "word": "鳴る",
+          "reading": "なる",
+          "meanings": {
+            "vi": "kêu, reo",
+            "en": "to ring, rumble",
+            "zh-Hans": "响",
+            "zh-Hant": "響",
+            "ko": "울리다",
+            "tl": "tumunog",
+            "ne": "बज्नु",
+            "id": "berbunyi",
+            "pt": "soar, roncar",
+            "my": "မြည်သည်",
+            "th": "ดัง",
+            "si": "නාද වීම, ගුගුරුම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜始める = bắt đầu ~.",
+        "en": "〜始める = to begin ~.",
+        "zh-Hans": "〜始める＝开始……。",
+        "zh-Hant": "〜始める＝開始……。",
+        "ko": "〜始める = ~하기 시작하다.",
+        "tl": "〜始める = magsimulang ~.",
+        "ne": "〜始める = ~ थाल्नु।",
+        "id": "〜始める = mulai ~.",
+        "pt": "〜始める = começar a ~.",
+        "my": "〜始める = ~ စသည်။",
+        "th": "〜始める = เริ่ม ~",
+        "si": "〜始める = ~ කරන්න පටන් ගන්නවා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=205.413,209.272",
+      "t": [
+        205.413,
+        209.272
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "ゴーン、ゴーン。十二時です！",
+      "furigana": [
+        {
+          "surface": "ゴーン、ゴーン。",
+          "reading": ""
+        },
+        {
+          "surface": "十二時",
+          "reading": "じゅうにじ"
+        },
+        {
+          "surface": "です！",
+          "reading": ""
+        }
+      ],
+      "romaji": "Goon, goon. Juuniji desu!",
+      "translations": {
+        "vi": "Boong, boong. Mười hai giờ rồi!",
+        "en": "Dong, dong. It's midnight!",
+        "zh-Hans": "当、当。十二点了！",
+        "zh-Hant": "當、當。十二點了！",
+        "ko": "뎅, 뎅. 열두 시예요!",
+        "tl": "Dong, dong. Hatinggabi na!",
+        "ne": "टङ्, टङ्। बाह्र बज्यो!",
+        "id": "Dong, dong. Sudah jam dua belas!",
+        "pt": "Dom, dom. Meia-noite!",
+        "my": "ဒေါင်၊ ဒေါင်။ ၁၂ နာရီ ထိုးပြီ!",
+        "th": "เหง่ง เหง่ง เที่ยงคืนแล้ว!",
+        "si": "ඩොං, ඩොං. දොළහයි!"
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ゴーン = tiếng chuông đồng hồ.",
+        "en": "ゴーン = sound of a big bell.",
+        "zh-Hans": "ゴーン＝大钟的声音。",
+        "zh-Hant": "ゴーン＝大鐘的聲音。",
+        "ko": "ゴーン = 큰 종소리.",
+        "tl": "ゴーン = tunog ng malaking kampana.",
+        "ne": "ゴーン = ठूलो घण्टीको आवाज।",
+        "id": "ゴーン = bunyi lonceng besar.",
+        "pt": "ゴーン = som de sino grande.",
+        "my": "ゴーン = ခေါင်းလောင်းကြီးသံ။",
+        "th": "ゴーン = เสียงระฆังใหญ่",
+        "si": "ゴーン = ලොකු සීනුවක හඬ."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=209.872,213.308",
+      "t": [
+        209.872,
+        213.308
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「たいへん、もう帰らなくちゃ！」",
+      "furigana": [
+        {
+          "surface": "「たいへん、もう",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "らなくちゃ！」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Taihen, mou kaeranakucha!”",
+      "translations": {
+        "vi": "\"Chết rồi, phải về ngay thôi!\"",
+        "en": "\"Oh no, I have to go home now!\"",
+        "zh-Hans": "\"糟了，得赶紧回去了！\"",
+        "zh-Hant": "\"糟了，得趕緊回去了！\"",
+        "ko": "\"큰일이다, 이제 돌아가야 해!\"",
+        "tl": "\"Naku, kailangan ko nang umuwi!\"",
+        "ne": "\"ओहो, अब फर्किनैपर्छ!\"",
+        "id": "\"Gawat, aku harus pulang sekarang!\"",
+        "pt": "\"Ai, preciso voltar já!\"",
+        "my": "\"ဒုက္ခပဲ၊ ပြန်မှဖြစ်မယ်!\"",
+        "th": "\"แย่แล้ว ต้องกลับแล้ว!\"",
+        "si": "\"අයියෝ, දැන්ම ගෙදර යන්න ඕනේ!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜なくちゃ = phải ~ (văn nói của なければ).",
+        "en": "〜なくちゃ = must ~ (casual なければ).",
+        "zh-Hans": "〜なくちゃ＝必须……（なければ的口语）。",
+        "zh-Hant": "〜なくちゃ＝必須……（なければ的口語）。",
+        "ko": "〜なくちゃ = ~해야 해 (구어).",
+        "tl": "〜なくちゃ = kailangang ~ (pakaswal).",
+        "ne": "〜なくちゃ = ~ नै पर्छ (बोलचाल)।",
+        "id": "〜なくちゃ = harus ~ (lisan).",
+        "pt": "〜なくちゃ = tenho que ~ (coloquial).",
+        "my": "〜なくちゃ = ~ ရမယ် (အပြောစကား)။",
+        "th": "〜なくちゃ = ต้อง ~ (ภาษาพูด)",
+        "si": "〜なくちゃ = ~ කරන්නම ඕනේ (සාමාන්‍ය なければ)."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=214.208,216.257",
+      "t": [
+        214.208,
+        216.257
+      ],
+      "voice": "ja-JP-Neural2-B"
+    },
+    {
+      "ja": "シンデレラは走って、階段を下りました。",
+      "furigana": [
+        {
+          "surface": "シンデレラは",
+          "reading": ""
+        },
+        {
+          "surface": "走",
+          "reading": "はし"
+        },
+        {
+          "surface": "って、",
+          "reading": ""
+        },
+        {
+          "surface": "階段",
+          "reading": "かいだん"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "下",
+          "reading": "お"
+        },
+        {
+          "surface": "りました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shinderera wa hashitte, kaidan o orimashita.",
+      "translations": {
+        "vi": "Lọ Lem chạy vội xuống cầu thang.",
+        "en": "Cinderella ran down the stairs.",
+        "zh-Hans": "灰姑娘跑下了楼梯。",
+        "zh-Hant": "灰姑娘跑下了樓梯。",
+        "ko": "신데렐라는 달려서 계단을 내려갔습니다.",
+        "tl": "Tumakbo pababa ng hagdan si Cinderella.",
+        "ne": "सिन्ड्रेला दौडेर भर्‍याङ झरिन्।",
+        "id": "Cinderella berlari menuruni tangga.",
+        "pt": "Cinderela desceu a escada correndo.",
+        "my": "စင်ဒရဲလားက လှေကားကနေ ပြေးဆင်းတယ်။",
+        "th": "ซินเดอเรลล่าวิ่งลงบันได",
+        "si": "සින්ඩරෙල්ලා දුවගෙන පඩිපෙළ බැස්සා."
+      },
+      "vocab": [
+        {
+          "word": "下りる",
+          "reading": "おりる",
+          "meanings": {
+            "vi": "đi xuống",
+            "en": "to come down",
+            "zh-Hans": "下来",
+            "zh-Hant": "下來",
+            "ko": "내려오다",
+            "tl": "bumaba",
+            "ne": "ओर्लनु",
+            "id": "turun",
+            "pt": "descer",
+            "my": "ဆင်း",
+            "th": "ลงมา",
+            "si": "බැසීම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜を下りる = đi xuống ~.",
+        "en": "〜を下りる = to go down ~.",
+        "zh-Hans": "〜を下りる＝走下……。",
+        "zh-Hant": "〜を下りる＝走下……。",
+        "ko": "〜を下りる = ~을 내려가다.",
+        "tl": "〜を下りる = bumaba sa ~.",
+        "ne": "〜を下りる = ~ झर्नु।",
+        "id": "〜を下りる = menuruni ~.",
+        "pt": "〜を下りる = descer ~.",
+        "my": "〜を下りる = ~ ဆင်းသည်။",
+        "th": "〜を下りる = ลง ~",
+        "si": "〜を下りる = ~ බහිනවා."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=217.157,220.647",
+      "t": [
+        217.157,
+        220.647
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのとき、ガラスの靴が片方、階段に落ちました。",
+      "furigana": [
+        {
+          "surface": "そのとき、ガラスの",
+          "reading": ""
+        },
+        {
+          "surface": "靴",
+          "reading": "くつ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "片方",
+          "reading": "かたほう"
+        },
+        {
+          "surface": "、",
+          "reading": ""
+        },
+        {
+          "surface": "階段",
+          "reading": "かいだん"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "落",
+          "reading": "お"
+        },
+        {
+          "surface": "ちました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono toki, garasu no kutsu ga katahou, kaidan ni ochimashita.",
+      "translations": {
+        "vi": "Lúc ấy, một chiếc giày thủy tinh rơi lại trên bậc thang.",
+        "en": "Then one glass slipper fell on the stairs.",
+        "zh-Hans": "这时，一只玻璃鞋掉在了楼梯上。",
+        "zh-Hant": "這時，一隻玻璃鞋掉在了樓梯上。",
+        "ko": "그때 유리 구두 한 짝이 계단에 떨어졌습니다.",
+        "tl": "Noon, nahulog sa hagdan ang isang sapatos na kristal.",
+        "ne": "त्यतिबेला सिसाको एउटा जुत्ता भर्‍याङमा खस्यो।",
+        "id": "Saat itu, sebelah sepatu kaca jatuh di tangga.",
+        "pt": "Nisso, um dos sapatinhos de cristal caiu na escada.",
+        "my": "အဲဒီအချိန်မှာ ဖန်ဖိနပ် တစ်ဖက်က လှေကားပေါ် ပြုတ်ကျခဲ့တယ်။",
+        "th": "ตอนนั้นรองเท้าแก้วข้างหนึ่งหล่นอยู่บนบันได",
+        "si": "ඒ වෙලාවේ, එක වීදුරු සෙරෙප්පුවක් පඩිපෙළ උඩ වැටුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "片方 = một chiếc (trong một đôi).",
+        "en": "片方 = one of a pair.",
+        "zh-Hans": "片方＝一对中的一只。",
+        "zh-Hant": "片方＝一對中的一隻。",
+        "ko": "片方 = 한 짝.",
+        "tl": "片方 = isa sa pares.",
+        "ne": "片方 = जोडीको एउटा।",
+        "id": "片方 = sebelah.",
+        "pt": "片方 = um do par.",
+        "my": "片方 = တစ်ဖက်။",
+        "th": "片方 = ข้างหนึ่ง",
+        "si": "片方 = යුගලයකින් එකක්."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=221.247,226.165",
+      "t": [
+        221.247,
+        226.165
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "でも、ひろっている時間はありませんでした。",
+      "furigana": [
+        {
+          "surface": "でも、ひろっている",
+          "reading": ""
+        },
+        {
+          "surface": "時間",
+          "reading": "じかん"
+        },
+        {
+          "surface": "はありませんでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Demo, hirotteiru jikan wa arimasendeshita.",
+      "translations": {
+        "vi": "Nhưng cô không còn thời gian để nhặt lại.",
+        "en": "But there was no time to pick it up.",
+        "zh-Hans": "但是她没有时间去捡。",
+        "zh-Hant": "但是她沒有時間去撿。",
+        "ko": "하지만 주울 시간이 없었습니다.",
+        "tl": "Pero wala nang oras para pulutin ito.",
+        "ne": "तर टिप्ने समय थिएन।",
+        "id": "Tapi tidak ada waktu untuk memungutnya.",
+        "pt": "Mas não havia tempo para pegá-lo.",
+        "my": "ဒါပေမဲ့ ပြန်ကောက်ဖို့ အချိန်မရှိဘူး။",
+        "th": "แต่ไม่มีเวลาเก็บแล้ว",
+        "si": "ඒත් ඒක අහුලගන්න වෙලාවක් තිබුණේ නැහැ."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜時間はない = không có thời gian để ~.",
+        "en": "〜時間はない = no time to ~.",
+        "zh-Hans": "〜時間はない＝没有……的时间。",
+        "zh-Hant": "〜時間はない＝沒有……的時間。",
+        "ko": "〜時間はない = ~할 시간이 없다.",
+        "tl": "〜時間はない = walang oras para ~.",
+        "ne": "〜時間はない = ~ गर्ने समय छैन।",
+        "id": "〜時間はない = tidak ada waktu untuk ~.",
+        "pt": "〜時間はない = não há tempo para ~.",
+        "my": "〜時間はない = ~ ဖို့ အချိန်မရှိ။",
+        "th": "〜時間はない = ไม่มีเวลา ~",
+        "si": "〜時間はない = ~ කරන්න වෙලාවක් නැහැ."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=226.765,230.192",
+      "t": [
+        226.765,
+        230.192
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "門を出たとき、ドレスはもとの汚い服にもどりました。",
+      "furigana": [
+        {
+          "surface": "門",
+          "reading": "もん"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "出",
+          "reading": "で"
+        },
+        {
+          "surface": "たとき、ドレスはもとの",
+          "reading": ""
+        },
+        {
+          "surface": "汚",
+          "reading": "きたな"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "服",
+          "reading": "ふく"
+        },
+        {
+          "surface": "にもどりました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mon o deta toki, doresu wa moto no kitanai fuku ni modorimashita.",
+      "translations": {
+        "vi": "Ra khỏi cổng, chiếc váy lại trở về bộ đồ bẩn thỉu như cũ.",
+        "en": "As she passed the gate, the dress turned back into her old dirty clothes.",
+        "zh-Hans": "一出大门，礼服就变回了原来的脏衣服。",
+        "zh-Hant": "一出大門，禮服就變回了原來的髒衣服。",
+        "ko": "문을 나섰을 때 드레스는 원래의 더러운 옷으로 돌아갔습니다.",
+        "tl": "Paglabas niya sa tarangkahan, bumalik sa dating maruming damit ang bestida.",
+        "ne": "गेटबाट निस्कँदा गाउन फेरि पुरानै फोहोर लुगा भयो।",
+        "id": "Saat keluar gerbang, gaunnya kembali menjadi baju kotor semula.",
+        "pt": "Ao passar o portão, o vestido voltou a ser a roupa suja de antes.",
+        "my": "ဂိတ်က ထွက်တော့ ဝတ်စုံက မူလ ညစ်ပတ်တဲ့အဝတ် ပြန်ဖြစ်သွားတယ်။",
+        "th": "พอออกจากประตู ชุดก็กลับเป็นเสื้อผ้าสกปรกตัวเดิม",
+        "si": "ගේට්ටුවෙන් එළියට ආවාම, ගවුම ආයෙත් පරණ කිලිටි ඇඳුම බවට පත් වුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "もとの = như cũ, ban đầu.",
+        "en": "もとの = original, former.",
+        "zh-Hans": "もとの＝原来的。",
+        "zh-Hant": "もとの＝原來的。",
+        "ko": "もとの = 원래의.",
+        "tl": "もとの = dati.",
+        "ne": "もとの = पहिलेकै।",
+        "id": "もとの = semula.",
+        "pt": "もとの = de antes.",
+        "my": "もとの = မူလ။",
+        "th": "もとの = เดิม",
+        "si": "もとの = මුල්, කලින් තිබුණු."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=230.792,235.722",
+      "t": [
+        230.792,
+        235.722
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "手に残ったのは、ガラスの靴の片方だけでした。",
+      "furigana": [
+        {
+          "surface": "手",
+          "reading": "て"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "残",
+          "reading": "のこ"
+        },
+        {
+          "surface": "ったのは、ガラスの",
+          "reading": ""
+        },
+        {
+          "surface": "靴",
+          "reading": "くつ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "片方",
+          "reading": "かたほう"
+        },
+        {
+          "surface": "だけでした。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Te ni nokotta no wa, garasu no kutsu no katahou dake deshita.",
+      "translations": {
+        "vi": "Thứ còn lại trong tay cô chỉ là một chiếc giày thủy tinh.",
+        "en": "All that remained in her hand was one glass slipper.",
+        "zh-Hans": "留在她手里的，只有一只玻璃鞋。",
+        "zh-Hant": "留在她手裡的，只有一隻玻璃鞋。",
+        "ko": "손에 남은 것은 유리 구두 한 짝뿐이었습니다.",
+        "tl": "Ang natira sa kamay niya ay isang sapatos na kristal lamang.",
+        "ne": "हातमा बाँकी रह्यो सिसाको एउटा जुत्ता मात्र।",
+        "id": "Yang tersisa di tangannya hanya sebelah sepatu kaca.",
+        "pt": "Em sua mão restou apenas um sapatinho de cristal.",
+        "my": "လက်ထဲမှာ ကျန်တာက ဖန်ဖိနပ် တစ်ဖက်ပဲ။",
+        "th": "สิ่งที่เหลืออยู่ในมือมีเพียงรองเท้าแก้วข้างเดียว",
+        "si": "අතේ ඉතුරු වුණේ, එක වීදුරු සෙරෙප්පුවක් විතරයි."
+      },
+      "vocab": [
+        {
+          "word": "残る",
+          "reading": "のこる",
+          "meanings": {
+            "vi": "còn lại",
+            "en": "to remain",
+            "zh-Hans": "留下",
+            "zh-Hant": "留下",
+            "ko": "남다",
+            "tl": "maiwan",
+            "ne": "बाँकी रहनु",
+            "id": "tersisa",
+            "pt": "restar",
+            "my": "ကျန်",
+            "th": "เหลือ",
+            "si": "ඉතිරි වීම"
+          },
+          "level": "N4"
+        }
+      ],
+      "grammarNote": {
+        "vi": "〜だけ = chỉ ~.",
+        "en": "〜だけ = only ~.",
+        "zh-Hans": "〜だけ＝只有……。",
+        "zh-Hant": "〜だけ＝只有……。",
+        "ko": "〜だけ = ~뿐.",
+        "tl": "〜だけ = lamang.",
+        "ne": "〜だけ = मात्र।",
+        "id": "〜だけ = hanya.",
+        "pt": "〜だけ = apenas.",
+        "my": "〜だけ = ~ ပဲ။",
+        "th": "〜だけ = เพียง ~",
+        "si": "〜だけ = ~ විතරයි."
+      },
+      "audio": "/audio/world-cinderella-1/chapter.mp3#t=236.322,240.646",
+      "t": [
+        236.322,
+        240.646
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    }
+  ],
+  "audioTrack": {
+    "src": "/audio/world-cinderella-1/chapter.mp3",
+    "durationSec": 241.704
+  }
+}
