@@ -875,7 +875,7 @@ Việt muốn kho truyện dày và hay hơn nhiều. Luồng này làm kệ ma 
 
 - Thêm sidecar tiếng Sinhala cho 3 gói N2 vừa vào main qua PR #106: `furusato-vn-chipheo` (Chí Phèo), `furusato-vn-tatden-1`, `furusato-vn-tatden-2` (Tắt đèn).
 - Tên riêng phiên âm Sinhala nhất quán (නම් කාඕ, චී ෆේඕ, ගෝ තත් තෝ, චි සව්...); lời thoại giữ sắc thái (quan lại xưng උඹ/පන්, chị Dậu đổi từ khiêm nhường sang ngang hàng khi phản kháng).
-- `apply.mjs si`: 3 gói, 0 lỗi. Kiểm tra khoảng trống: mọi gói đang hiện đều đã có si.
+- `apply.mjs si`: 3 gói, 0 lỗi. Kiểm tra khoảng trống sau khi gộp main: còn 7 gói Triết lý sống mới (life-*-3/4) chưa có si, làm ở đợt 18.
 
 ## Tiếng Sinhala đợt 16: kệ Triết lý sống — 27/11/2026 (nhánh `claude/si-stories-17`)
 
