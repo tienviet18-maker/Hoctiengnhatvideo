@@ -13962,7 +13962,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Filsuf Budak 3: Dua Pegangan",
    "pt": "O Filósofo Escravo 3: Duas Alças",
    "my": "ကျွန်ဒဿနပညာရှင် ၃: လက်ကိုင် နှစ်ခု",
-   "th": "นักปรัชญาทาส 3: หูจับสองข้าง"
+   "th": "นักปรัชญาทาส 3: หูจับสองข้าง",
+   "si": "දාස දාර්ශනිකයා 3: අල්ලු දෙක"
   },
   "level": "N3",
   "topic": "philosophy",
@@ -13993,7 +13994,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Yang Membentuk Wajah",
    "pt": "O Que Faz um Rosto",
    "my": "မျက်နှာကို ဖန်တီးသောအရာ",
-   "th": "สิ่งที่สร้างใบหน้า"
+   "th": "สิ่งที่สร้างใบหน้า",
+   "si": "මූණ හැදෙන්නේ මොකෙන්ද"
   },
   "level": "N3",
   "topic": "self-help",
@@ -14024,7 +14026,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Harta Sang Kaisar",
    "pt": "Os Tesouros do Imperador",
    "my": "ဧကရာဇ်၏ ရတနာများ",
-   "th": "สมบัติของจักรพรรดิ"
+   "th": "สมบัติของจักรพรรดิ",
+   "si": "අධිරාජයාගේ වස්තු"
   },
   "level": "N3",
   "topic": "philosophy",
@@ -14055,7 +14058,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Biar Lambat Asal Selamat",
    "pt": "A Pressa É Inimiga da Perfeição",
    "my": "အလျင်လိုလျှင် နှေးတတ်သည်",
-   "th": "ช้าๆ ได้พร้าเล่มงาม"
+   "th": "ช้าๆ ได้พร้าเล่มงาม",
+   "si": "ඉක්මන් වුණාම, පරක්කු වෙනවා"
   },
   "level": "N4",
   "topic": "self-help",
@@ -14086,7 +14090,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Obat untuk Amarah",
    "pt": "O Remédio da Raiva",
    "my": "ဒေါသအတွက် ဆေး",
-   "th": "ยารักษาความโกรธ"
+   "th": "ยารักษาความโกรธ",
+   "si": "කේන්තියට බෙහෙත"
   },
   "level": "N2",
   "topic": "philosophy",
@@ -14117,7 +14122,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Inventaris Hati",
    "pt": "O Inventário do Coração",
    "my": "စိတ်ကို စာရင်းစစ်ခြင်း",
-   "th": "ตรวจนับสต็อกในใจ"
+   "th": "ตรวจนับสต็อกในใจ",
+   "si": "හිතේ තොග ගණන් කිරීම"
   },
   "level": "N2",
   "topic": "self-help",
@@ -14148,7 +14154,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Cangkir yang Penuh",
    "pt": "A Xícara Cheia",
    "my": "ပြည့်နေတဲ့ လက်ဖက်ရည်ခွက်",
-   "th": "ถ้วยชาที่เต็ม"
+   "th": "ถ้วยชาที่เต็ม",
+   "si": "පිරුණු තේ කෝප්පය"
   },
   "level": "N4",
   "topic": "self-help",
@@ -15245,7 +15252,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Sebelum Memarahi",
    "pt": "Antes de Repreender",
    "my": "မဆူခင်",
-   "th": "ก่อนจะดุ"
+   "th": "ก่อนจะดุ",
+   "si": "බනින්න කලින්"
   },
   "level": "N3",
   "topic": "self-help",
@@ -15289,7 +15297,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Memanggil Nama",
    "pt": "Chamar pelo Nome",
    "my": "နာမည်ခေါ်ခြင်း",
-   "th": "เรียกชื่อ"
+   "th": "เรียกชื่อ",
+   "si": "නමින් කතා කරන එක"
   },
   "level": "N3",
   "topic": "self-help",
@@ -15333,7 +15342,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Taman Sang Pendengar",
    "pt": "O Jardim de Quem Sabe Ouvir",
    "my": "နားထောင်တတ်သူရဲ့ ဥယျာဉ်",
-   "th": "สวนของคนที่รู้จักฟัง"
+   "th": "สวนของคนที่รู้จักฟัง",
+   "si": "හොඳට අහන කෙනාගේ වත්ත"
   },
   "level": "N3",
   "topic": "self-help",
@@ -15377,7 +15387,8 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "id": "Hari Sang Bos Kembali",
    "pt": "O Dia em que o Patrão Voltou",
    "my": "ဆိုင်ရှင် ပြန်လာတဲ့နေ့",
-   "th": "วันที่เจ้าของร้านกลับมา"
+   "th": "วันที่เจ้าของร้านกลับมา",
+   "si": "ලොක්කා ආපහු ආපු දවස"
   },
   "level": "N3",
   "topic": "self-help",
