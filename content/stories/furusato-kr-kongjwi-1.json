@@ -12,7 +12,8 @@
     "id": "Kongjwi dan Patjwi",
     "pt": "Kongjwi e Patjwi",
     "my": "ကုန်ဂျွီနဲ့ ပတ်ဂျွီ",
-    "th": "คงจวีกับพัตจวี"
+    "th": "คงจวีกับพัตจวี",
+    "si": "කොංජ්වි සහ පට්ජ්වි"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -42,8 +43,23 @@
           "id": "Menyuruh/membiarkan (seseorang) ~ (kausatif). Sehari-hari: 先生は学生に作文を書かせた (guru menyuruh murid menulis karangan); 子どもに野菜を食べさせる (menyuruh anak makan sayur).",
           "pt": "Fazer/deixar (alguém) ~ (causativo). Dia a dia: 先生は学生に作文を書かせた (o professor fez os alunos escreverem redação); 子どもに野菜を食べさせる (fazer a criança comer verduras).",
           "my": "(တစ်ယောက်ကို) ~ခိုင်း (ခိုင်းစေပုံစံ)။ နေ့စဉ်: 先生は学生に作文を書かせた (ဆရာက ကျောင်းသားကို စာစီစာကုံး ရေးခိုင်းတယ်); 子どもに野菜を食べさせる (ကလေးကို ဟင်းသီးဟင်းရွက် ကျွေးတယ်)။",
-          "th": "ให้ (ใคร) ทำ~ (รูปให้ทำ) ชีวิตประจำวัน: 先生は学生に作文を書かせた (ครูให้นักเรียนเขียนเรียงความ); 子どもに野菜を食べさせる (ให้ลูกกินผัก)"
-        }
+          "th": "ให้ (ใคร) ทำ~ (รูปให้ทำ) ชีวิตประจำวัน: 先生は学生に作文を書かせた (ครูให้นักเรียนเขียนเรียงความ); 子どもに野菜を食べさせる (ให้ลูกกินผัก)",
+          "si": "(කෙනෙක් ලවා) ~ කරවනවා / ~ කරන්න ඉඩ දෙනවා (ප්‍රයෝජ්‍ය). එදිනෙදා ජීවිතයේ: 先生は学生に作文を書かせた (ගුරුවරයා ශිෂ්‍යයන් ලවා රචනා ලිව්වා); 子どもに野菜を食べさせる (ළමයින්ට එළවළු කවනවා)."
+        },
+        "patternFurigana": [
+          {
+            "surface": "（",
+            "reading": ""
+          },
+          {
+            "surface": "人",
+            "reading": "ひと"
+          },
+          {
+            "surface": "）に〜させる",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜までに",
@@ -59,7 +75,8 @@
           "id": "Paling lambat ~ (tenggat; beda dengan まで = terus sampai). Sehari-hari: 金曜日までにレポートを出してください (kumpulkan laporan paling lambat Jumat); 8時までに帰ります (pulang sebelum jam 8).",
           "pt": "Até (prazo) ~ (diferente de まで = continuamente até). Dia a dia: 金曜日までにレポートを出してください (entregue o relatório até sexta); 8時までに帰ります (volto até as 8).",
           "my": "~မတိုင်ခင် (သတ်မှတ်ချိန်; まで 'အထိ ဆက်တိုက်' နဲ့ မတူ)။ နေ့စဉ်: 金曜日までにレポートを出してください (သောကြာနေ့ မတိုင်ခင် အစီရင်ခံစာ တင်ပါ); 8時までに帰ります (၈ နာရီ မတိုင်ခင် ပြန်မယ်)။",
-          "th": "ภายใน~ (กำหนดเส้นตาย ต่างจาก まで = ต่อเนื่องจนถึง) ชีวิตประจำวัน: 金曜日までにレポートを出してください (ส่งรายงานภายในวันศุกร์); 8時までに帰ります (จะกลับภายใน 8 โมง)"
+          "th": "ภายใน~ (กำหนดเส้นตาย ต่างจาก まで = ต่อเนื่องจนถึง) ชีวิตประจำวัน: 金曜日までにレポートを出してください (ส่งรายงานภายในวันศุกร์); 8時までに帰ります (จะกลับภายใน 8 โมง)",
+          "si": "~ ට කලින් (ඒ වෙලාවට කලින් ඉවර කරනවා; まで = දිගටම ~ වෙනකම් කියන එකෙන් වෙනස්). එදිනෙදා ජීවිතයේ: 金曜日までにレポートを出してください (සිකුරාදට කලින් වාර්තාව දෙන්න); 8時までに帰ります (8ට කලින් ගෙදර එනවා)."
         }
       },
       {
@@ -76,7 +93,8 @@
           "id": "Seberapa pun ~, tetap ~. Sehari-hari: いくら勉強しても、漢字がおぼえられない (sekeras apa pun belajar, kanji tak teringat); いくら食べても、ふとらない (sebanyak apa pun makan, tak gemuk).",
           "pt": "Por mais que ~, ~. Dia a dia: いくら勉強しても、漢字がおぼえられない (por mais que estude, não decoro os kanji); いくら食べても、ふとらない (por mais que coma, não engordo).",
           "my": "ဘယ်လောက် ~ ~ ။ နေ့စဉ်: いくら勉強しても、漢字がおぼえられない (ဘယ်လောက် စာကျက်ကျက် ခန်းဂျိ မမှတ်မိဘူး); いくら食べても、ふとらない (ဘယ်လောက် စားစား မဝလာဘူး)။",
-          "th": "ต่อให้~เท่าไรก็~ ชีวิตประจำวัน: いくら勉強しても、漢字がおぼえられない (เรียนเท่าไรก็จำคันจิไม่ได้); いくら食べても、ふとらない (กินเท่าไรก็ไม่อ้วน)"
+          "th": "ต่อให้~เท่าไรก็~ ชีวิตประจำวัน: いくら勉強しても、漢字がおぼえられない (เรียนเท่าไรก็จำคันจิไม่ได้); いくら食べても、ふとらない (กินเท่าไรก็ไม่อ้วน)",
+          "si": "කොච්චර ~ කළත්, (තාමත්) ~. එදිනෙදා ජීවිතයේ: いくら勉強しても、漢字がおぼえられない (කොච්චර පාඩම් කළත්, කන්ජි මතක හිටින්නේ නැහැ); いくら食べても、ふとらない (කොච්චර කෑවත්, මහත් වෙන්නේ නැහැ)."
         }
       },
       {
@@ -93,7 +111,8 @@
           "id": "Seolah-olah ~ (perbandingan dengan hal tak nyata). Sehari-hari: まるで夢のようだ (seperti mimpi saja); 彼は日本人のように日本語を話す (dia bicara bahasa Jepang seperti orang Jepang).",
           "pt": "Como se ~ (comparação com algo não literal). Dia a dia: まるで夢のようだ (parece um sonho); 彼は日本人のように日本語を話す (ele fala japonês como um nativo).",
           "my": "~သလိုပဲ (မဟုတ်တာနဲ့ နှိုင်းယှဉ်)။ နေ့စဉ်: まるで夢のようだ (အိပ်မက်လိုပဲ); 彼は日本人のように日本語を話す (သူက ဂျပန်လူမျိုးလို ဂျပန်စကား ပြောတယ်)။",
-          "th": "ราวกับ~ (เปรียบกับสิ่งที่ไม่จริง) ชีวิตประจำวัน: まるで夢のようだ (ราวกับฝัน); 彼は日本人のように日本語を話す (เขาพูดญี่ปุ่นเหมือนคนญี่ปุ่น)"
+          "th": "ราวกับ~ (เปรียบกับสิ่งที่ไม่จริง) ชีวิตประจำวัน: まるで夢のようだ (ราวกับฝัน); 彼は日本人のように日本語を話す (เขาพูดญี่ปุ่นเหมือนคนญี่ปุ่น)",
+          "si": "හරියට ~ වගේ (ඇත්තටම නොවන දෙයක් එක්ක සංසන්දනය). එදිනෙදා ජීවිතයේ: まるで夢のようだ (හරියට හීනයක් වගේ); 彼は日本人のように日本語を話す (එයා ජපන් කෙනෙක් වගේ ජපන් කතා කරනවා)."
         }
       }
     ],
@@ -118,8 +137,51 @@
           "id": "Kausatif: 飲ませる.",
           "pt": "Causativo: 飲ませる.",
           "my": "ခိုင်းစေ: 飲ませる။",
-          "th": "รูปให้ทำ: 飲ませる"
-        }
+          "th": "รูปให้ทำ: 飲ませる",
+          "si": "ප්‍රයෝජ්‍ය: 飲ませる (බොන්න සලස්වනවා)."
+        },
+        "jaFurigana": [
+          {
+            "surface": "母",
+            "reading": "はは"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "毎朝",
+            "reading": "まいあさ"
+          },
+          {
+            "surface": "、",
+            "reading": ""
+          },
+          {
+            "surface": "弟",
+            "reading": "おとうと"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "牛乳",
+            "reading": "ぎゅうにゅう"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "飲",
+            "reading": "の"
+          },
+          {
+            "surface": "ま（　　）。",
+            "reading": ""
+          }
+        ]
       },
       {
         "ja": "この本は、来週の月曜日（　　）返してください。",
@@ -141,8 +203,47 @@
           "id": "Tenggat: までに, bukan まで.",
           "pt": "Prazo: までに, não まで.",
           "my": "သတ်မှတ်ချိန်: までに (まで မဟုတ်)။",
-          "th": "กำหนดส่ง: までに ไม่ใช่ まで"
-        }
+          "th": "กำหนดส่ง: までに ไม่ใช่ まで",
+          "si": "කාල සීමාවක්: まで නෙවෙයි, までに."
+        },
+        "jaFurigana": [
+          {
+            "surface": "この",
+            "reading": ""
+          },
+          {
+            "surface": "本",
+            "reading": "ほん"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "来週",
+            "reading": "らいしゅう"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "月曜日",
+            "reading": "げつようび"
+          },
+          {
+            "surface": "（　　）",
+            "reading": ""
+          },
+          {
+            "surface": "返",
+            "reading": "かえ"
+          },
+          {
+            "surface": "してください。",
+            "reading": ""
+          }
+        ]
       },
       {
         "ja": "いくら電話を（　　）、だれも出ません。",
@@ -164,8 +265,31 @@
           "id": "いくら berpasangan dengan 〜ても.",
           "pt": "いくら combina com 〜ても.",
           "my": "いくら နဲ့ 〜ても တွဲ။",
-          "th": "いくら ใช้คู่กับ 〜ても"
-        }
+          "th": "いくら ใช้คู่กับ 〜ても",
+          "si": "いくら එක්ක 〜ても: කොච්චර කෝල් කළත්, කවුරුවත් උත්තර දෙන්නේ නැහැ."
+        },
+        "jaFurigana": [
+          {
+            "surface": "いくら",
+            "reading": ""
+          },
+          {
+            "surface": "電話",
+            "reading": "でんわ"
+          },
+          {
+            "surface": "を（　　）、だれも",
+            "reading": ""
+          },
+          {
+            "surface": "出",
+            "reading": "で"
+          },
+          {
+            "surface": "ません。",
+            "reading": ""
+          }
+        ]
       },
       {
         "ja": "この町は静かで、（　　）時間が止まったようです。",
@@ -187,8 +311,47 @@
           "id": "まるで〜ようだ: seolah waktu berhenti.",
           "pt": "まるで〜ようだ: como se o tempo tivesse parado.",
           "my": "まるで〜ようだ: အချိန် ရပ်သွားသလို။",
-          "th": "まるで〜ようだ: ราวกับเวลาหยุดนิ่ง"
-        }
+          "th": "まるで〜ようだ: ราวกับเวลาหยุดนิ่ง",
+          "si": "まるで〜ようだ: හරියට කාලය නැවතිලා වගේ."
+        },
+        "jaFurigana": [
+          {
+            "surface": "この",
+            "reading": ""
+          },
+          {
+            "surface": "町",
+            "reading": "まち"
+          },
+          {
+            "surface": "は",
+            "reading": ""
+          },
+          {
+            "surface": "静",
+            "reading": "しず"
+          },
+          {
+            "surface": "かで、（　　）",
+            "reading": ""
+          },
+          {
+            "surface": "時間",
+            "reading": "じかん"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "止",
+            "reading": "と"
+          },
+          {
+            "surface": "まったようです。",
+            "reading": ""
+          }
+        ]
       }
     ]
   },
@@ -245,7 +408,8 @@
         "id": "Kisah seperti \"Cinderella\" ada di seluruh dunia. Di Korea, \"Kongjwi dan Patjwi\" terkenal.",
         "pt": "Histórias como \"Cinderela\" existem no mundo todo. Na Coreia, a famosa é \"Kongjwi e Patjwi\".",
         "my": "\"စင်ဒရဲလား\" လို ပုံပြင်တွေ ကမ္ဘာအနှံ့ ရှိတယ်။ ကိုရီးယားမှာ \"ကုန်ဂျွီနဲ့ ပတ်ဂျွီ\" နာမည်ကြီးတယ်။",
-        "th": "นิทานแบบ \"ซินเดอเรลลา\" มีอยู่ทั่วโลก ที่เกาหลี \"คงจวีกับพัตจวี\" มีชื่อเสียง"
+        "th": "นิทานแบบ \"ซินเดอเรลลา\" มีอยู่ทั่วโลก ที่เกาหลี \"คงจวีกับพัตจวี\" มีชื่อเสียง",
+        "si": "\"සින්ඩරෙල්ලා\" වගේ කතා, ලෝකය පුරාම තියෙනවා. කොරියාවේ, \"කොංජ්වි සහ පට්ජ්වි\" ප්‍රසිද්ධයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -259,7 +423,8 @@
         "id": "seluruh dunia.",
         "pt": "mundo todo.",
         "my": "ကမ္ဘာအနှံ့။",
-        "th": "ทั่วโลก"
+        "th": "ทั่วโลก",
+        "si": "「〜のような」 = ~ වගේ. 「世界中」 = ලෝකය පුරාම."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=0.3,7.824",
       "t": [
@@ -316,7 +481,8 @@
         "id": "Dahulu, di sebuah desa, ada gadis baik bernama Kongjwi.",
         "pt": "Antigamente, numa aldeia, havia uma menina bondosa chamada Kongjwi.",
         "my": "ရှေးတုန်းက ရွာတစ်ရွာမှာ ကုန်ဂျွီ ဆိုတဲ့ သဘောကောင်းတဲ့ မိန်းကလေး ရှိတယ်။",
-        "th": "กาลก่อน ในหมู่บ้านหนึ่ง มีเด็กหญิงใจดีชื่อคงจวี"
+        "th": "กาลก่อน ในหมู่บ้านหนึ่ง มีเด็กหญิงใจดีชื่อคงจวี",
+        "si": "ඉස්සර, එක ගමක, කොංජ්වි කියලා, කාරුණික ගෑනු ළමයෙක් හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -330,7 +496,8 @@
         "id": "bernama.",
         "pt": "chamada.",
         "my": "ဆိုတဲ့။",
-        "th": "ชื่อ"
+        "th": "ชื่อ",
+        "si": "「〜という」 = ~ කියලා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=8.424,14.156",
       "t": [
@@ -391,7 +558,8 @@
         "id": "Saat Kongjwi kecil, ibunya meninggal karena sakit.",
         "pt": "Quando Kongjwi era pequena, a mãe morreu doente.",
         "my": "ကုန်ဂျွီ ငယ်ငယ်က အမေ ရောဂါနဲ့ ဆုံးသွားတယ်။",
-        "th": "ตอนคงจวียังเล็ก แม่ก็เสียชีวิตด้วยโรค"
+        "th": "ตอนคงจวียังเล็ก แม่ก็เสียชีวิตด้วยโรค",
+        "si": "කොංජ්වි පොඩි කාලේ, අම්මා ලෙඩ වෙලා මැරුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -405,7 +573,8 @@
         "id": "saat.",
         "pt": "quando.",
         "my": "တုန်းက။",
-        "th": "ตอน"
+        "th": "ตอน",
+        "si": "「〜ころ」 = ~ කාලේ."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=14.756,20.042",
       "t": [
@@ -478,7 +647,8 @@
         "id": "Tak lama, ayahnya menikah lagi dengan wanita yang membawa putri bernama Patjwi.",
         "pt": "Tempos depois, o pai casou de novo com uma mulher que trazia a filha Patjwi.",
         "my": "မကြာခင် အဖေက ပတ်ဂျွီ ဆိုတဲ့ သမီးပါတဲ့ အမျိုးသမီးနဲ့ ထပ်လက်ထပ်တယ်။",
-        "th": "ไม่นานนัก พ่อก็แต่งงานใหม่กับหญิงที่พาลูกสาวชื่อพัตจวีมาด้วย"
+        "th": "ไม่นานนัก พ่อก็แต่งงานใหม่กับหญิงที่พาลูกสาวชื่อพัตจวีมาด้วย",
+        "si": "ටික කාලෙකට පස්සේ, තාත්තා, පට්ජ්වි කියලා දුවෙක්ව එක්කගෙන ආපු කාන්තාවක් එක්ක, ආයෙත් කසාද බැන්දා."
       },
       "vocab": [],
       "grammarNote": {
@@ -492,7 +662,8 @@
         "id": "membawa.",
         "pt": "trazer.",
         "my": "ခေါ်။",
-        "th": "พามา"
+        "th": "พามา",
+        "si": "「つれる」 = එක්කගෙන එනවා. 「もう一度」 = ආයෙත්."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=20.642,28.765",
       "t": [
@@ -549,7 +720,8 @@
         "id": "Ibu baru hanya menyayangi putrinya sendiri, Patjwi.",
         "pt": "A nova mãe só mimava a própria filha, Patjwi.",
         "my": "အမေသစ်က ကိုယ့်သမီး ပတ်ဂျွီကိုပဲ ချစ်တယ်။",
-        "th": "แม่ใหม่รักแต่ลูกสาวตัวเองคือพัตจวี"
+        "th": "แม่ใหม่รักแต่ลูกสาวตัวเองคือพัตจวี",
+        "si": "අලුත් අම්මා, තමන්ගේ දුව පට්ජ්විට විතරක් ආදරය කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -563,7 +735,8 @@
         "id": "menyayangi.",
         "pt": "mimar.",
         "my": "ချစ်။",
-        "th": "รักใคร่"
+        "th": "รักใคร่",
+        "si": "「〜ばかり」 = ~ ට විතරක්. 「かわいがる」 = ආදරයෙන් සලකනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=29.365,34.472",
       "t": [
@@ -608,7 +781,8 @@
         "id": "Dan setiap hari, Kongjwi hanya disuruh kerja berat.",
         "pt": "E todo dia fazia Kongjwi só fazer trabalho pesado.",
         "my": "ကုန်ဂျွီကိုတော့ နေ့တိုင်း ပင်ပန်းတဲ့ အလုပ်ချည်း ခိုင်းတယ်။",
-        "th": "และให้คงจวีทำแต่งานหนักทุกวัน"
+        "th": "และให้คงจวีทำแต่งานหนักทุกวัน",
+        "si": "ඒ වගේම, කොංජ්විට, හැමදාම, අමාරු වැඩ විතරක් කරන්න සැලැස්සුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -622,7 +796,8 @@
         "id": "menyuruh.",
         "pt": "fazer fazer.",
         "my": "ခိုင်း။",
-        "th": "ให้ทำ"
+        "th": "ให้ทำ",
+        "si": "「〜させる」 = (කෙනෙක් ලවා) ~ කරවනවා (ප්‍රයෝජ්‍ය)."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=35.072,40.701",
       "t": [
@@ -683,7 +858,8 @@
         "id": "Suatu pagi, ibu tiri memberi Patjwi cangkul besi dan Kongjwi cangkul kayu.",
         "pt": "Certa manhã, a madrasta deu a Patjwi uma enxada de ferro e a Kongjwi uma de madeira.",
         "my": "တစ်မနက် မိထွေးက ပတ်ဂျွီကို သံပေါက်တူး၊ ကုန်ဂျွီကို သစ်သားပေါက်တူး ပေးတယ်။",
-        "th": "เช้าวันหนึ่ง แม่เลี้ยงให้จอบเหล็กแก่พัตจวี และจอบไม้แก่คงจวี"
+        "th": "เช้าวันหนึ่ง แม่เลี้ยงให้จอบเหล็กแก่พัตจวี และจอบไม้แก่คงจวี",
+        "si": "එක උදේක, සුළු අම්මා, පට්ජ්විට යකඩ උදැල්ලකුයි, කොංජ්විට ලී උදැල්ලකුයි දුන්නා."
       },
       "vocab": [
         {
@@ -700,7 +876,8 @@
             "id": "besi",
             "pt": "ferro",
             "my": "သံ",
-            "th": "เหล็ก"
+            "th": "เหล็ก",
+            "si": "යකඩ"
           },
           "level": "N3"
         }
@@ -716,7 +893,8 @@
         "id": "ibu tiri.",
         "pt": "madrasta.",
         "my": "မိထွေး။",
-        "th": "แม่เลี้ยง"
+        "th": "แม่เลี้ยง",
+        "si": "まま母 = සුළු අම්මා. くわ = උදැල්ල."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=41.301,48.657",
       "t": [
@@ -793,7 +971,8 @@
         "id": "\"Patjwi di ladang lembut depan rumah. Kongjwi, garap ladang berbatu di kaki gunung.\"",
         "pt": "\"Patjwi, o campo macio em frente à casa. Kongjwi, are o campo pedregoso ao pé da montanha.\"",
         "my": "\"ပတ်ဂျွီက အိမ်ရှေ့ မြေပျော့လယ်။ ကုန်ဂျွီက တောင်ခြေက ကျောက်တုံးပြည့်တဲ့ လယ်ကို ထွန်။\"",
-        "th": "\"พัตจวีไปไถไร่ดินนุ่มหน้าบ้าน คงจวีไปไถไร่หินที่เชิงเขา\""
+        "th": "\"พัตจวีไปไถไร่ดินนุ่มหน้าบ้าน คงจวีไปไถไร่หินที่เชิงเขา\"",
+        "si": "\"පට්ජ්වි, ගේ ඉස්සරහ මෘදු කෙත. කොංජ්වි, කන්ද පාමුල ගල් පිරුණු කෙත හාන්න.\""
       },
       "vocab": [
         {
@@ -810,7 +989,8 @@
             "id": "ladang",
             "pt": "campo, roça",
             "my": "လယ်ကွင်း",
-            "th": "ไร่ นา"
+            "th": "ไร่ นา",
+            "si": "කෙත, වත්ත"
           },
           "level": "N3"
         }
@@ -826,7 +1006,8 @@
         "id": "perintah.",
         "pt": "ordem.",
         "my": "အမိန့်။",
-        "th": "คำสั่ง"
+        "th": "คำสั่ง",
+        "si": "「〜なさい」 = ~ කරන්න (අණ). 「ふもと」 = කන්ද පාමුල."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=49.557,57.563",
       "t": [
@@ -895,7 +1076,8 @@
         "id": "Begitu Kongjwi mulai menggali, cangkul kayu langsung patah.",
         "pt": "Mal Kongjwi começou a cavar, a enxada de madeira quebrou.",
         "my": "ကုန်ဂျွီ ကျောက်လယ်ကို စတူးတော့ သစ်သားပေါက်တူးက ဂျွတ်ခနဲ ကျိုးသွားတယ်။",
-        "th": "พอคงจวีเริ่มขุดไร่หิน จอบไม้ก็หักดังเป๊าะ"
+        "th": "พอคงจวีเริ่มขุดไร่หิน จอบไม้ก็หักดังเป๊าะ",
+        "si": "කොංජ්වි ගල් කෙත හාරන්න පටන් ගත්ත ගමන්, ලී උදැල්ල, ඉක්මනටම කඩ ගාලා කැඩුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -909,7 +1091,8 @@
         "id": "begitu mulai.",
         "pt": "ao começar.",
         "my": "စတော့။",
-        "th": "พอเริ่ม"
+        "th": "พอเริ่ม",
+        "si": "「〜始めると」 = ~ කරන්න පටන් ගත්තාම."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=58.463,64.854",
       "t": [
@@ -954,7 +1137,8 @@
         "id": "\"Bagaimana ini? Kalau tak selesai sebelum sore, aku dimarahi lagi.\"",
         "pt": "\"E agora? Se não terminar até a tarde, vou levar bronca de novo.\"",
         "my": "\"ဘာလုပ်ရမလဲ။ ညနေအထိ မပြီးရင် ထပ်ပြီး အဆူခံရမှာ။\"",
-        "th": "\"ทำยังไงดี ถ้าไม่เสร็จก่อนเย็น ต้องโดนดุอีกแน่\""
+        "th": "\"ทำยังไงดี ถ้าไม่เสร็จก่อนเย็น ต้องโดนดุอีกแน่\"",
+        "si": "\"මොකද කරන්නේ. හවස් වෙන්න කලින් ඉවර නොකළොත්, ආයෙත් බැනුම් අහන්න වෙනවා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -968,7 +1152,8 @@
         "id": "sebelum.",
         "pt": "até.",
         "my": "အထိ။",
-        "th": "ก่อน"
+        "th": "ก่อน",
+        "si": "「〜までに」 = ~ ට කලින් (කාල සීමාව). 「しかられる」 = බැනුම් අහනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=65.754,70.843",
       "t": [
@@ -1045,7 +1230,8 @@
         "id": "Saat Kongjwi menangis, seekor sapi hitam besar turun dari langit.",
         "pt": "Enquanto Kongjwi chorava, uma grande vaca preta desceu do céu.",
         "my": "ကုန်ဂျွီ ငိုနေတုန်း ကောင်းကင်က နွားမည်းကြီး ဆင်းလာတယ်။",
-        "th": "ขณะที่คงจวีร้องไห้ วัวดำตัวใหญ่ก็ลงมาจากฟ้า"
+        "th": "ขณะที่คงจวีร้องไห้ วัวดำตัวใหญ่ก็ลงมาจากฟ้า",
+        "si": "කොංජ්වි අඬද්දී, අහසින්, ලොකු කළු එළදෙනක් බැහැලා ආවා."
       },
       "vocab": [
         {
@@ -1062,7 +1248,8 @@
             "id": "sapi, kerbau",
             "pt": "vaca, boi",
             "my": "နွား",
-            "th": "วัว"
+            "th": "วัว",
+            "si": "එළදෙන, ගොනා"
           },
           "level": "N3"
         }
@@ -1078,7 +1265,8 @@
         "id": "saat.",
         "pt": "enquanto.",
         "my": "တုန်း။",
-        "th": "ขณะที่"
+        "th": "ขณะที่",
+        "si": "「〜ていると」 = ~ කරද්දී."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=71.743,77.613",
       "t": [
@@ -1123,7 +1311,8 @@
         "id": "\"Berhentilah menangis. Ladang ini biar kugarap untukmu.\"",
         "pt": "\"Pare de chorar. Eu aro este campo para você.\"",
         "my": "\"မငိုနဲ့တော့။ ဒီလယ်ကို ငါ ထွန်ပေးမယ်။\"",
-        "th": "\"อย่าร้องไห้เลย ไร่นี้ข้าจะไถให้\""
+        "th": "\"อย่าร้องไห้เลย ไร่นี้ข้าจะไถให้\"",
+        "si": "\"අඬන එක නවත්තන්න. මේ කෙත, මම හාලා දෙන්නම්.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1137,7 +1326,8 @@
         "id": "akan kulakukan untukmu.",
         "pt": "faço por você.",
         "my": "လုပ်ပေးမယ်။",
-        "th": "จะทำให้"
+        "th": "จะทำให้",
+        "si": "「〜てあげよう」 = ඔයාට ~ කරලා දෙන්නම්."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=78.513,83.573",
       "t": [
@@ -1202,7 +1392,8 @@
         "id": "Seketika, sapi mengubah ladang keras menjadi tanah gembur.",
         "pt": "Num instante, a vaca transformou o campo duro em terra macia.",
         "my": "နွားက ချက်ချင်း မာတဲ့ လယ်ကို မြေပျော့ ဖြစ်အောင် လုပ်လိုက်တယ်။",
-        "th": "ในพริบตา วัวเปลี่ยนไร่แข็งให้เป็นดินนุ่ม"
+        "th": "ในพริบตา วัวเปลี่ยนไร่แข็งให้เป็นดินนุ่ม",
+        "si": "එළදෙන, ඇසිපිය හෙළන සැණින්, තද කෙත මෘදු පසක් බවට හැරෙව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1216,7 +1407,8 @@
         "id": "mengubah.",
         "pt": "transformar.",
         "my": "ဖြစ်အောင်။",
-        "th": "เปลี่ยน"
+        "th": "เปลี่ยน",
+        "si": "「AをBに変える」 = A, B බවට හරවනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=84.473,90.283",
       "t": [
@@ -1269,7 +1461,8 @@
         "id": "Tak lama, akan ada pesta besar di desa sebelah.",
         "pt": "Tempos depois, haveria uma grande festa na aldeia vizinha.",
         "my": "မကြာခင် ဘေးရွာမှာ ပွဲတော်ကြီး ရှိလာမယ်။",
-        "th": "ต่อมาไม่นาน หมู่บ้านข้างๆ จะมีงานเทศกาลใหญ่"
+        "th": "ต่อมาไม่นาน หมู่บ้านข้างๆ จะมีงานเทศกาลใหญ่",
+        "si": "ඊට ටික කාලෙකට පස්සේ, ළඟ ගමේ, ලොකු උත්සවයක් තියෙන්න නියම වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1283,7 +1476,8 @@
         "id": "akan ada.",
         "pt": "ficou combinado.",
         "my": "ဖြစ်လာ။",
-        "th": "จะมี"
+        "th": "จะมี",
+        "si": "「〜ことになる」 = ~ කරන්න නියම වෙනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=90.883,96.559",
       "t": [
@@ -1360,7 +1554,8 @@
         "id": "\"Bu, ayo pakai baju bagus dan cepat ke pesta!\"",
         "pt": "\"Mãe, vamos pôr roupas bonitas e ir logo à festa!\"",
         "my": "\"အမေ၊ အဝတ်လှလှ ဝတ်ပြီး ပွဲကို မြန်မြန် သွားရအောင်!\"",
-        "th": "\"แม่ ใส่ชุดสวยๆ แล้วรีบไปงานกันเถอะ!\""
+        "th": "\"แม่ ใส่ชุดสวยๆ แล้วรีบไปงานกันเถอะ!\"",
+        "si": "\"අම්මේ, ලස්සන ඇඳුම් ඇඳලා, ඉක්මනට උත්සවයට යමු.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1374,7 +1569,8 @@
         "id": "ayo.",
         "pt": "vamos.",
         "my": "ရအောင်။",
-        "th": "กันเถอะ"
+        "th": "กันเถอะ",
+        "si": "「〜ましょうよ」 = ~ කරමු (පොලඹවමින්)."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=97.459,101.666",
       "t": [
@@ -1451,7 +1647,8 @@
         "id": "Sebelum pergi, ibu tiri kembali menyuruh Kongjwi tugas mustahil.",
         "pt": "Antes de sair, a madrasta mandou Kongjwi fazer tarefas impossíveis outra vez.",
         "my": "မထွက်ခင် မိထွေးက ကုန်ဂျွီကို မဖြစ်နိုင်တဲ့ အလုပ် ထပ်ခိုင်းတယ်။",
-        "th": "ก่อนออกไป แม่เลี้ยงสั่งงานที่เป็นไปไม่ได้ให้คงจวีอีก"
+        "th": "ก่อนออกไป แม่เลี้ยงสั่งงานที่เป็นไปไม่ได้ให้คงจวีอีก",
+        "si": "සුළු අම්මා, එළියට යන්න කලින්, කොංජ්විට, ආයෙත් කරන්න බැරි වැඩ නියම කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1465,7 +1662,8 @@
         "id": "sebelum.",
         "pt": "antes de.",
         "my": "မ~ခင်။",
-        "th": "ก่อน"
+        "th": "ก่อน",
+        "si": "「〜前に」 = ~ ට කලින්. 「言いつける」 = අණ කරනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=102.566,109.058",
       "t": [
@@ -1526,7 +1724,8 @@
         "id": "\"Isi tempayan ini dengan air. Lalu tumbuk semua padi sampai putih.\"",
         "pt": "\"Encha este pote de água. E soque todo o arroz até ficar branco.\"",
         "my": "\"ဒီအိုးကို ရေ ပြည့်အောင် ဖြည့်ထား။ ပြီးရင် ဆန်အားလုံး ထောင်းပြီး ဖြူအောင် လုပ်ထား။\"",
-        "th": "\"เติมน้ำให้เต็มโอ่งนี้ แล้วตำข้าวให้ขาวให้หมด\""
+        "th": "\"เติมน้ำให้เต็มโอ่งนี้ แล้วตำข้าวให้ขาวให้หมด\"",
+        "si": "\"මේ කළගෙඩිය, වතුරෙන් පුරවලා තියන්න. ඊට පස්සේ, වී ඔක්කොම කොටලා, සුදු කරලා තියන්න ඕනේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1540,7 +1739,8 @@
         "id": "siapkan.",
         "pt": "deixar feito.",
         "my": "ထား။",
-        "th": "ไว้"
+        "th": "ไว้",
+        "si": "「〜ておく」 = කලින්ම ~ කරලා තියනවා. かめ = කළගෙඩිය. 「つく」 = කොටනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=109.958,117.805",
       "t": [
@@ -1617,7 +1817,8 @@
         "id": "Tapi dasar tempayan berlubang besar. Berapa pun air dituang, langsung bocor.",
         "pt": "Mas o fundo do pote tinha um furo grande. Por mais água que pusesse, vazava.",
         "my": "ဒါပေမဲ့ အိုးအောက်ခြေမှာ အပေါက်ကြီး ရှိတယ်။ ရေ ဘယ်လောက်ထည့်ထည့် ချက်ချင်း ယိုထွက်သွားတယ်။",
-        "th": "แต่ก้นโอ่งมีรูใหญ่ เติมน้ำเท่าไรก็รั่วออกหมด"
+        "th": "แต่ก้นโอ่งมีรูใหญ่ เติมน้ำเท่าไรก็รั่วออกหมด",
+        "si": "ඒත්, කළගෙඩියේ පතුලේ, ලොකු සිදුරක් තිබුණා. කොච්චර වතුර දැම්මත්, ඉක්මනටම කාන්දු වෙලා යනවා."
       },
       "vocab": [
         {
@@ -1634,7 +1835,8 @@
             "id": "dasar",
             "pt": "fundo",
             "my": "အောက်ခြေ",
-            "th": "ก้น, ข้างล่างสุด"
+            "th": "ก้น, ข้างล่างสุด",
+            "si": "පතුල"
           },
           "level": "N3"
         },
@@ -1652,7 +1854,8 @@
             "id": "lubang",
             "pt": "buraco",
             "my": "တွင်း",
-            "th": "หลุม"
+            "th": "หลุม",
+            "si": "සිදුර, වළ"
           },
           "level": "N3"
         }
@@ -1668,7 +1871,8 @@
         "id": "berapa pun.",
         "pt": "por mais que.",
         "my": "ဘယ်လောက်~~။",
-        "th": "เท่าไรก็"
+        "th": "เท่าไรก็",
+        "si": "「いくら〜ても」 = කොච්චර ~ කළත්. 「もれる」 = කාන්දු වෙනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=118.705,127.619",
       "t": [
@@ -1721,7 +1925,8 @@
         "id": "Saat itu, seekor katak besar melompat muncul.",
         "pt": "Nessa hora, um sapo grande apareceu num pulo.",
         "my": "အဲဒီအချိန် ဖားကြီး တစ်ကောင် ခုန်ထွက်လာတယ်။",
-        "th": "ทันใดนั้น คางคกตัวใหญ่ก็กระโดดออกมา"
+        "th": "ทันใดนั้น คางคกตัวใหญ่ก็กระโดดออกมา",
+        "si": "ඒ වෙලාවේ, ලොකු ගෙම්බෙක්, පැනලා මතු වුණා."
       },
       "vocab": [
         {
@@ -1738,7 +1943,8 @@
             "id": "muncul",
             "pt": "aparecer",
             "my": "ပေါ်လာသည်",
-            "th": "ปรากฏตัว"
+            "th": "ปรากฏตัว",
+            "si": "පෙනී සිටීම, මතු වීම"
           },
           "level": "N3"
         }
@@ -1754,7 +1960,8 @@
         "id": "katak.",
         "pt": "sapo.",
         "my": "ဖား။",
-        "th": "คางคก"
+        "th": "คางคก",
+        "si": "ヒキガエル = ගෙම්බා. 「ぴょんと」 = පැනලා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=128.219,133.351",
       "t": [
@@ -1823,7 +2030,8 @@
         "id": "Katak masuk ke tempayan dan menutup lubang rapat dengan tubuhnya.",
         "pt": "O sapo entrou no pote e tapou o furo com o próprio corpo.",
         "my": "ဖားက အိုးထဲ ဝင်ပြီး ကိုယ့်ခန္ဓာကိုယ်နဲ့ အပေါက်ကို ပိတ်ပေးတယ်။",
-        "th": "คางคกเข้าไปในโอ่งแล้วใช้ตัวอุดรูไว้แน่น"
+        "th": "คางคกเข้าไปในโอ่งแล้วใช้ตัวอุดรูไว้แน่น",
+        "si": "ගෙම්බා, කළගෙඩිය ඇතුළට ගිහින්, තමන්ගේ ඇඟෙන්, සිදුර හරියටම වහලා දුන්නා."
       },
       "vocab": [
         {
@@ -1840,7 +2048,8 @@
             "id": "pas sekali",
             "pt": "perfeitamente, sob medida",
             "my": "ကွက်တိ",
-            "th": "พอดีเป๊ะ"
+            "th": "พอดีเป๊ะ",
+            "si": "හරියටම (ගැළපෙන)"
           },
           "level": "N3"
         }
@@ -1856,7 +2065,8 @@
         "id": "menutup.",
         "pt": "tapar.",
         "my": "ပိတ်။",
-        "th": "อุด"
+        "th": "อุด",
+        "si": "「ふさぐ」 = වහනවා. 「ぴったり」 = හරියටම."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=133.951,141.146",
       "t": [
@@ -1901,7 +2111,8 @@
         "id": "Lalu tempayan seketika penuh air.",
         "pt": "E num instante o pote ficou cheio.",
         "my": "ဒီတော့ အိုးက ချက်ချင်း ရေပြည့်သွားတယ်။",
-        "th": "แล้วโอ่งก็เต็มไปด้วยน้ำในพริบตา"
+        "th": "แล้วโอ่งก็เต็มไปด้วยน้ำในพริบตา",
+        "si": "එතකොට, කළගෙඩිය, ඇසිපිය හෙළන සැණින්, වතුරෙන් පිරුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1915,7 +2126,8 @@
         "id": "penuh.",
         "pt": "ficar cheio.",
         "my": "ပြည့်။",
-        "th": "เต็มไปด้วย"
+        "th": "เต็มไปด้วย",
+        "si": "「〜でいっぱいになる」 = ~ වලින් පිරෙනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=141.746,146.818",
       "t": [
@@ -1988,7 +2200,8 @@
         "id": "Berikutnya, padi. Di depan tumpukan setinggi gunung, Kongjwi menghela napas.",
         "pt": "Depois, o arroz. Diante de uma montanha dele, Kongjwi suspirou.",
         "my": "နောက်တစ်ခုက ဆန်။ တောင်လို ဆန်ပုံရှေ့မှာ ကုန်ဂျွီ သက်ပြင်းချတယ်။",
-        "th": "ต่อไปคือข้าว ต่อหน้ากองข้าวเท่าภูเขา คงจวีถอนหายใจ"
+        "th": "ต่อไปคือข้าว ต่อหน้ากองข้าวเท่าภูเขา คงจวีถอนหายใจ",
+        "si": "ඊළඟට, වී. කන්දක් වගේ වී ගොඩක් ඉස්සරහ, කොංජ්වි, සුසුමක් හෙළුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2002,7 +2215,8 @@
         "id": "menghela napas.",
         "pt": "suspirar.",
         "my": "သက်ပြင်းချ။",
-        "th": "ถอนหายใจ"
+        "th": "ถอนหายใจ",
+        "si": "「〜を前にして」 = ~ ඉස්සරහ. 「ため息をつく」 = සුසුම් හෙළනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=147.418,154.371",
       "t": [
@@ -2039,7 +2253,8 @@
         "id": "Lalu, entah dari mana, banyak burung pipit terbang datang.",
         "pt": "Então, de algum lugar, vieram muitos pardais.",
         "my": "ဒီတော့ ဘယ်ကမှန်းမသိ စာကလေးတွေ အများကြီး ပျံလာတယ်။",
-        "th": "แล้วนกกระจอกจำนวนมากก็บินมาจากไหนไม่รู้"
+        "th": "แล้วนกกระจอกจำนวนมากก็บินมาจากไหนไม่รู้",
+        "si": "එතකොට, කොහෙන් හරි, ගේ කුරුල්ලෝ ගොඩක් පියාඹලා ආවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2053,7 +2268,8 @@
         "id": "entah dari mana.",
         "pt": "de algum lugar.",
         "my": "ဘယ်ကမှန်းမသိ။",
-        "th": "จากไหนไม่รู้"
+        "th": "จากไหนไม่รู้",
+        "si": "「どこからか」 = කොහෙන් හරි."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=154.971,159.289",
       "t": [
@@ -2090,7 +2306,8 @@
         "id": "Para pipit dengan cepat mengupas kulit padi dengan paruhnya.",
         "pt": "Os pardais descascaram o arroz rapidinho com os bicos.",
         "my": "စာကလေးတွေက နှုတ်သီးနဲ့ စပါးခွံကို မြန်မြန် ခွာပေးတယ်။",
-        "th": "นกกระจอกใช้จะงอยปากแกะเปลือกข้าวให้อย่างรวดเร็ว"
+        "th": "นกกระจอกใช้จะงอยปากแกะเปลือกข้าวให้อย่างรวดเร็ว",
+        "si": "ගේ කුරුල්ලෝ, හොටවලින්, වී පොතු, ඉක්මනට ගලවලා දුන්නා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2104,7 +2321,8 @@
         "id": "cepat.",
         "pt": "rapidamente.",
         "my": "မြန်မြန်။",
-        "th": "อย่างรวดเร็ว"
+        "th": "อย่างรวดเร็ว",
+        "si": "「どんどん」 = ඉක්මනට. くちばし = හොට. 「むく」 = පොතු ගලවනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=159.889,165.148",
       "t": [
@@ -2157,7 +2375,8 @@
         "id": "\"Terima kasih, semuanya. Tapi aku tak punya baju untuk ke pesta.\"",
         "pt": "\"Obrigada, pessoal. Mas não tenho roupa para ir à festa.\"",
         "my": "\"ကျေးဇူးပဲ အားလုံးကို။ ဒါပေမဲ့ ပွဲကို ဝတ်သွားစရာ အဝတ် မရှိဘူး။\"",
-        "th": "\"ขอบใจนะทุกคน แต่ฉันไม่มีชุดจะใส่ไปงาน\""
+        "th": "\"ขอบใจนะทุกคน แต่ฉันไม่มีชุดจะใส่ไปงาน\"",
+        "si": "\"ස්තුතියි, හැමෝටම. ඒත්, මට, උත්සවයට ඇඳන් යන්න ඇඳුමක් නැහැ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2171,7 +2390,8 @@
         "id": "dipakai pergi.",
         "pt": "vestir para ir.",
         "my": "ဝတ်သွား။",
-        "th": "ใส่ไป"
+        "th": "ใส่ไป",
+        "si": "「着ていく」 = ඇඳන් යනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=166.048,171.766",
       "t": [
@@ -2248,7 +2468,8 @@
         "id": "Lalu sapi hitam muncul lagi, meninggalkan baju indah dan sepatu bersulam bunga.",
         "pt": "Então a vaca preta voltou e deixou roupas lindas e sapatos bordados com flores.",
         "my": "အဲဒီအချိန် နွားမည်း ထပ်ပေါ်လာပြီး အဝတ်လှနဲ့ ပန်းပန်းထိုးထားတဲ့ ဖိနပ် ထားခဲ့တယ်။",
-        "th": "แล้ววัวดำก็ปรากฏอีก ทิ้งชุดสวยกับรองเท้าปักลายดอกไม้ไว้"
+        "th": "แล้ววัวดำก็ปรากฏอีก ทิ้งชุดสวยกับรองเท้าปักลายดอกไม้ไว้",
+        "si": "එතකොට, ආයෙත්, අර කළු එළදෙන මතු වෙලා, ලස්සන ඇඳුමකුයි, මල් එම්බ්‍රොයිඩර් කරපු සපත්තු දෙකකුයි තියලා ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2262,7 +2483,8 @@
         "id": "sulaman.",
         "pt": "bordado.",
         "my": "ပန်းထိုး။",
-        "th": "ปัก"
+        "th": "ปัก",
+        "si": "ししゅう = එම්බ්‍රොයිඩරි. 「置いていく」 = තියලා යනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=172.666,180.275",
       "t": [
@@ -2315,7 +2537,8 @@
         "id": "\"Nah, pakai ini dan pergilah ke pesta.\"",
         "pt": "\"Vamos, vista isto e vá à festa.\"",
         "my": "\"ကဲ၊ ဒါဝတ်ပြီး ပွဲကို သွားလိုက်။\"",
-        "th": "\"เอ้า ใส่นี่แล้วไปงานเถอะ\""
+        "th": "\"เอ้า ใส่นี่แล้วไปงานเถอะ\"",
+        "si": "\"හරි, මේවා ඇඳලා, උත්සවයට ගිහින් එන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2329,7 +2552,8 @@
         "id": "pergilah.",
         "pt": "vá.",
         "my": "သွားလိုက်။",
-        "th": "ไปเถอะ"
+        "th": "ไปเถอะ",
+        "si": "「〜ておいで」 = ගිහින් ~ කරලා එන්න (මෘදුව)."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=181.175,184.879",
       "t": [
@@ -2406,7 +2630,8 @@
         "id": "Kongjwi memakai baju indah dan sepatu bunga, lalu bergegas ke pesta.",
         "pt": "Kongjwi vestiu a roupa, calçou os sapatos de flores e correu à festa.",
         "my": "ကုန်ဂျွီက အဝတ်လှ ဝတ်၊ ပန်းဖိနပ် စီးပြီး ပွဲကို အမြန် သွားတယ်။",
-        "th": "คงจวีสวมชุดสวย ใส่รองเท้าดอกไม้ แล้วรีบไปงาน"
+        "th": "คงจวีสวมชุดสวย ใส่รองเท้าดอกไม้ แล้วรีบไปงาน",
+        "si": "කොංජ්වි, ලස්සන ඇඳුම ඇඳලා, මල් සපත්තු දාගෙන, ඉක්මනට උත්සවයට ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2420,7 +2645,8 @@
         "id": "memakai (sepatu).",
         "pt": "calçar.",
         "my": "စီး။",
-        "th": "ใส่ (รองเท้า)"
+        "th": "ใส่ (รองเท้า)",
+        "si": "「はく」 = (සපත්තු) දාගන්නවා. 「急ぐ」 = ඉක්මන් කරනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=185.779,192.362",
       "t": [
@@ -2489,7 +2715,8 @@
         "id": "Tapi saat menyeberangi sungai kecil, iring-iringan pejabat tinggi datang dari depan.",
         "pt": "Mas, ao cruzar um riacho, a comitiva de um alto oficial vinha em sua direção.",
         "my": "ဒါပေမဲ့ ချောင်းလေး ဖြတ်တုန်း အရာရှိကြီးရဲ့ လူတန်းက ရှေ့ကနေ လာတယ်။",
-        "th": "แต่ขณะข้ามลำธารเล็กๆ ขบวนของขุนนางใหญ่ก็มาจากฝั่งตรงข้าม"
+        "th": "แต่ขณะข้ามลำธารเล็กๆ ขบวนของขุนนางใหญ่ก็มาจากฝั่งตรงข้าม",
+        "si": "ඒත්, පොඩි ඇළක් හරහා යද්දී, ලොකු නිලධාරියෙකුගේ පෙරහැරක්, ඉස්සරහින් ආවා."
       },
       "vocab": [
         {
@@ -2506,7 +2733,8 @@
             "id": "pejabat",
             "pt": "oficial",
             "my": "အရာရှိ",
-            "th": "เจ้าหน้าที่"
+            "th": "เจ้าหน้าที่",
+            "si": "නිලධාරියා"
           },
           "level": "N2"
         },
@@ -2524,7 +2752,8 @@
             "id": "iring-iringan",
             "pt": "comitiva",
             "my": "လူတန်း",
-            "th": "ขบวน"
+            "th": "ขบวน",
+            "si": "පෙරහැර"
           },
           "level": "N2"
         }
@@ -2540,7 +2769,8 @@
         "id": "pejabat.",
         "pt": "oficial.",
         "my": "အရာရှိ။",
-        "th": "ขุนนาง"
+        "th": "ขุนนาง",
+        "si": "「えらい」 = ලොකු, වැදගත්. 役人 = නිලධාරියා. 行列 = පෙරහැර."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=192.962,199.842",
       "t": [
@@ -2593,7 +2823,8 @@
         "id": "Panik, Kongjwi menghindar dan menjatuhkan sebelah sepatu ke sungai.",
         "pt": "Atrapalhada, Kongjwi tentou sair do caminho e deixou cair um sapato no riacho.",
         "my": "ကုန်ဂျွီက ကမန်းကတန်း ရှောင်ရင်း ဖိနပ်တစ်ဖက် ချောင်းထဲ ပြုတ်ကျသွားတယ်။",
-        "th": "คงจวีรีบหลบจนทำรองเท้าข้างหนึ่งตกลงลำธาร"
+        "th": "คงจวีรีบหลบจนทำรองเท้าข้างหนึ่งตกลงลำธาร",
+        "si": "කොංජ්වි, කලබලෙන් පැත්තකට වෙන්න හදද්දී, එක සපත්තුවක්, ඇළට වැටුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2607,7 +2838,8 @@
         "id": "sebelah.",
         "pt": "um do par.",
         "my": "တစ်ဖက်။",
-        "th": "ข้างหนึ่ง"
+        "th": "ข้างหนึ่ง",
+        "si": "「あわてて」 = කලබලෙන්. 「片方」 = දෙකෙන් එකක්."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=200.442,206.74",
       "t": [
@@ -2652,7 +2884,8 @@
         "id": "Tapi tak ada waktu memungut. Kongjwi terus berlari.",
         "pt": "Mas não havia tempo para pegar. Kongjwi seguiu correndo.",
         "my": "ဒါပေမဲ့ ကောက်ဖို့ အချိန် မရှိဘူး။ ကုန်ဂျွီက ဒီအတိုင်း ပြေးသွားတယ်။",
-        "th": "แต่ไม่มีเวลาเก็บ คงจวีจึงวิ่งต่อไปอย่างนั้น"
+        "th": "แต่ไม่มีเวลาเก็บ คงจวีจึงวิ่งต่อไปอย่างนั้น",
+        "si": "ඒත්, අහුලගන්න වෙලාවක් නැහැ. කොංජ්වි, එහෙමම දුවගෙන ගියා."
       },
       "vocab": [
         {
@@ -2669,7 +2902,8 @@
             "id": "begitu saja",
             "pt": "assim mesmo",
             "my": "ဒီအတိုင်း",
-            "th": "ทั้งอย่างนั้น"
+            "th": "ทั้งอย่างนั้น",
+            "si": "ඒ විදිහටම, එසැණින්"
           },
           "level": "N3"
         }
@@ -2685,7 +2919,8 @@
         "id": "begitu saja.",
         "pt": "assim mesmo.",
         "my": "ဒီအတိုင်း။",
-        "th": "อย่างนั้น"
+        "th": "อย่างนั้น",
+        "si": "「〜ひまはない」 = ~ කරන්න වෙලාවක් නැහැ. 「そのまま」 = එහෙමම."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=207.34,213.158",
       "t": [
@@ -2750,7 +2985,8 @@
         "id": "Pejabat itu melihat sepatu bunga kecil mengapung di sungai.",
         "pt": "O oficial viu o pequeno sapato florido boiando no riacho.",
         "my": "အရာရှိက ချောင်းထဲ ပေါ်နေတဲ့ ပန်းဖိနပ်လေးကို တွေ့တယ်။",
-        "th": "ขุนนางเห็นรองเท้าดอกไม้เล็กๆ ลอยอยู่ในลำธาร"
+        "th": "ขุนนางเห็นรองเท้าดอกไม้เล็กๆ ลอยอยู่ในลำธาร",
+        "si": "නිලධාරියා, ඇළේ පාවෙන, පොඩි මල් සපත්තුව දැක්කා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2764,7 +3000,8 @@
         "id": "menemukan.",
         "pt": "encontrar.",
         "my": "တွေ့။",
-        "th": "พบ"
+        "th": "พบ",
+        "si": "「見つける」 = දකිනවා, හොයාගන්නවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=213.758,218.693",
       "t": [
@@ -2817,7 +3054,8 @@
         "id": "\"Sepatu yang indah! Carilah pemiliknya.\"",
         "pt": "\"Que sapato lindo! Encontrem a dona dele.\"",
         "my": "\"ဘယ်လောက် လှတဲ့ ဖိနပ်လဲ။ ဒီဖိနပ်ပိုင်ရှင်ကို ရှာခဲ့။\"",
-        "th": "\"รองเท้าสวยเหลือเกิน ไปหาเจ้าของรองเท้านี้มา\""
+        "th": "\"รองเท้าสวยเหลือเกิน ไปหาเจ้าของรองเท้านี้มา\"",
+        "si": "\"කොච්චර ලස්සන සපත්තුවක්ද. මේ සපත්තුවේ අයිතිකාරියව, හොයාගෙන එන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2831,7 +3069,8 @@
         "id": "pemilik.",
         "pt": "dono.",
         "my": "ပိုင်ရှင်။",
-        "th": "เจ้าของ"
+        "th": "เจ้าของ",
+        "si": "「なんと〜だ」 = කොච්චර ~ ද! 持ち主 = අයිතිකාරයා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=219.593,224.56",
       "t": [
@@ -2888,7 +3127,8 @@
         "id": "Para pengawal pejabat menyuruh semua gadis di desa mencoba sepatu itu.",
         "pt": "Os homens do oficial fizeram todas as moças da aldeia provar o sapato.",
         "my": "အရာရှိရဲ့ လူတွေက ရွာက မိန်းကလေးတိုင်းကို ဖိနပ် စီးကြည့်ခိုင်းတယ်။",
-        "th": "ลูกน้องของขุนนางให้หญิงสาวทั้งหมู่บ้านลองสวมรองเท้า"
+        "th": "ลูกน้องของขุนนางให้หญิงสาวทั้งหมู่บ้านลองสวมรองเท้า",
+        "si": "නිලධාරියාගේ සේවකයෝ, ගම පුරාම ගෑනු ළමයින්ට, සපත්තුව දාලා බැලුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2902,7 +3142,8 @@
         "id": "mencoba.",
         "pt": "experimentar.",
         "my": "ကြည့်။",
-        "th": "ลอง"
+        "th": "ลอง",
+        "si": "「はかせる」 = (කෙනෙකුට) දාගන්න සලස්වනවා. 「〜てみる」 = ~ කරලා බලනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=225.46,230.638",
       "t": [
@@ -2955,7 +3196,8 @@
         "id": "Patjwi juga memaksa memasukkan kaki, tapi tetap tak muat.",
         "pt": "Patjwi também tentou enfiar o pé à força, mas não entrava de jeito nenhum.",
         "my": "ပတ်ဂျွီလည်း အတင်း ခြေထောက် ထည့်ဖို့ ကြိုးစားပေမဲ့ ဘယ်လိုမှ မဝင်ဘူး။",
-        "th": "พัตจวีก็พยายามยัดเท้าเข้าไป แต่ยังไงก็ใส่ไม่ได้"
+        "th": "พัตจวีก็พยายามยัดเท้าเข้าไป แต่ยังไงก็ใส่ไม่ได้",
+        "si": "පට්ජ්විත්, බලෙන් කකුල දාන්න හැදුවා, ඒත් කොහොමවත් ගියේ නැහැ."
       },
       "vocab": [
         {
@@ -2972,7 +3214,8 @@
             "id": "bagaimanapun juga",
             "pt": "de jeito nenhum, por mais que tente",
             "my": "ဘယ်လိုမှ",
-            "th": "ยังไงก็"
+            "th": "ยังไงก็",
+            "si": "කොහොමටවත්, කිසිසේත්"
           },
           "level": "N3"
         }
@@ -2988,7 +3231,8 @@
         "id": "tetap tak.",
         "pt": "de jeito nenhum.",
         "my": "ဘယ်လိုမှ မ~။",
-        "th": "ยังไงก็ไม่"
+        "th": "ยังไงก็ไม่",
+        "si": "「むりやり」 = බලෙන්. 「どうしても〜ない」 = කොහොමවත් ~ නැහැ."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=231.238,236.724",
       "t": [
@@ -3025,7 +3269,8 @@
         "id": "\"Aduh, aduh! Sepatu ini terlalu kecil.\"",
         "pt": "\"Ai, ai! Este sapato é pequeno demais.\"",
         "my": "\"နာတယ်၊ နာတယ်။ ဒီဖိနပ် သေးလွန်းတယ်။\"",
-        "th": "\"โอ๊ย โอ๊ย รองเท้านี้เล็กเกินไป\""
+        "th": "\"โอ๊ย โอ๊ย รองเท้านี้เล็กเกินไป\"",
+        "si": "\"රිදෙනවා, රිදෙනවා. මේ සපත්තුව, ගොඩක් පොඩියි.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3039,7 +3284,8 @@
         "id": "terlalu.",
         "pt": "demais.",
         "my": "လွန်း။",
-        "th": "เกินไป"
+        "th": "เกินไป",
+        "si": "「〜すぎる」 = ඕනෑවට වඩා ~."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=237.624,240.639",
       "t": [
@@ -3096,7 +3342,8 @@
         "id": "Akhirnya, mereka menemukan Kongjwi di sudut dapur.",
         "pt": "Por fim, encontraram Kongjwi num canto da cozinha.",
         "my": "နောက်ဆုံး လူတွေက မီးဖိုချောင် ထောင့်မှာ ရှိတဲ့ ကုန်ဂျွီကို တွေ့တယ်။",
-        "th": "ในที่สุด ลูกน้องก็พบคงจวีที่มุมครัว"
+        "th": "ในที่สุด ลูกน้องก็พบคงจวีที่มุมครัว",
+        "si": "අන්තිමට, සේවකයෝ, කුස්සියේ මුල්ලක හිටපු කොංජ්විව දැක්කා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3110,7 +3357,8 @@
         "id": "sudut.",
         "pt": "canto.",
         "my": "ထောင့်။",
-        "th": "มุม"
+        "th": "มุม",
+        "si": "すみ = මුල්ල."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=241.539,247.055",
       "t": [
@@ -3171,7 +3419,8 @@
         "id": "Saat Kongjwi memasukkan kakinya, sepatu itu pas, seolah dibuat untuknya sejak awal.",
         "pt": "Quando Kongjwi calçou, serviu perfeitamente, como se feito para ela desde o início.",
         "my": "ကုန်ဂျွီ ခြေထည့်တော့ ဖိနပ်က အစကတည်းက သူ့အတွက် လုပ်ထားသလို ကွက်တိ ဖြစ်တယ်။",
-        "th": "พอคงจวีสวม รองเท้าก็พอดีราวกับทำมาเพื่อเธอตั้งแต่แรก"
+        "th": "พอคงจวีสวม รองเท้าก็พอดีราวกับทำมาเพื่อเธอตั้งแต่แรก",
+        "si": "කොංජ්වි කකුල දැම්මාම, සපත්තුව, මුල ඉඳන්ම කොංජ්වි වෙනුවෙන් හැදුවා වගේ, හරියටම ගැළපුණා."
       },
       "vocab": [
         {
@@ -3188,7 +3437,8 @@
             "id": "seolah",
             "pt": "como se",
             "my": "သလိုပဲ",
-            "th": "ราวกับ"
+            "th": "ราวกับ",
+            "si": "හරියට ~ වගේ"
           },
           "level": "N3"
         }
@@ -3204,7 +3454,8 @@
         "id": "seolah.",
         "pt": "como se.",
         "my": "သလို။",
-        "th": "ราวกับ"
+        "th": "ราวกับ",
+        "si": "「まるで〜ように」 = හරියට ~ වගේ."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=247.655,255.592",
       "t": [
@@ -3257,7 +3508,8 @@
         "id": "Kongjwi mengeluarkan sepatu satunya dan menunjukkannya.",
         "pt": "Kongjwi tirou o outro sapato e mostrou.",
         "my": "ကုန်ဂျွီက ကျန်တဲ့ ဖိနပ်တစ်ဖက်ကို ထုတ်ပြတယ်။",
-        "th": "คงจวีหยิบรองเท้าอีกข้างออกมาให้ดู"
+        "th": "คงจวีหยิบรองเท้าอีกข้างออกมาให้ดู",
+        "si": "කොංජ්වි, අනිත් සපත්තුවත් එළියට අරන්, පෙන්නුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3271,7 +3523,8 @@
         "id": "satunya.",
         "pt": "o outro.",
         "my": "ကျန်တစ်ဖက်။",
-        "th": "อีกข้าง"
+        "th": "อีกข้าง",
+        "si": "「もう片方」 = අනිත් එක."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=256.192,260.282",
       "t": [
@@ -3324,7 +3577,8 @@
         "id": "\"Jadi kaulah pemilik sepatu ini. Kumohon, menikahlah denganku.\"",
         "pt": "\"Então a dona deste sapato era você. Por favor, case-se comigo.\"",
         "my": "\"ဒီဖိနပ်ပိုင်ရှင်က သင်ပဲ ဖြစ်နေတာကိုး။ ကျွန်ုပ်နဲ့ လက်ထပ်ပါ။\"",
-        "th": "\"ที่แท้เจ้าคือเจ้าของรองเท้านี้ โปรดแต่งงานกับข้าเถิด\""
+        "th": "\"ที่แท้เจ้าคือเจ้าของรองเท้านี้ โปรดแต่งงานกับข้าเถิด\"",
+        "si": "\"ඔයා තමයි, මේ සපත්තුවේ අයිතිකාරිය. කරුණාකරලා, මාව බඳින්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3338,7 +3592,8 @@
         "id": "jadi.",
         "pt": "então.",
         "my": "ကိုး။",
-        "th": "ที่แท้"
+        "th": "ที่แท้",
+        "si": "「〜のですね」 = එහෙනම් ~ තමයි."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=261.182,267.62",
       "t": [
@@ -3399,7 +3654,8 @@
         "id": "Maka Kongjwi menikah dengan pejabat itu dan hidup bahagia.",
         "pt": "E assim Kongjwi se casou com o oficial e viveu feliz.",
         "my": "ဒီလိုနဲ့ ကုန်ဂျွီက အရာရှိနဲ့ လက်ထပ်ပြီး ပျော်ပျော်ရွှင်ရွှင် နေရတယ်။",
-        "th": "และแล้ว คงจวีก็แต่งงานกับขุนนางและอยู่อย่างมีความสุข"
+        "th": "และแล้ว คงจวีก็แต่งงานกับขุนนางและอยู่อย่างมีความสุข",
+        "si": "මෙහෙම, කොංජ්වි, නිලධාරියාව බැඳලා, සතුටින් ජීවත් වුණා."
       },
       "vocab": [
         {
@@ -3416,7 +3672,8 @@
             "id": "bahagia",
             "pt": "felicidade",
             "my": "ပျော်ရွှင်မှု",
-            "th": "ความสุข"
+            "th": "ความสุข",
+            "si": "සතුට, සතුටු"
           },
           "level": "N3"
         },
@@ -3434,7 +3691,8 @@
             "id": "hidup, tinggal",
             "pt": "viver, morar",
             "my": "နေထိုင်သည်",
-            "th": "ใช้ชีวิต, อาศัยอยู่"
+            "th": "ใช้ชีวิต, อาศัยอยู่",
+            "si": "ජීවත් වීම, ජීවිකාව ගෙනයාම"
           },
           "level": "N3"
         }
@@ -3450,7 +3708,8 @@
         "id": "hidup.",
         "pt": "viver.",
         "my": "နေ။",
-        "th": "อยู่"
+        "th": "อยู่",
+        "si": "「〜ことになる」 = ~ වෙන්න සිද්ධ වුණා. 「暮らす」 = ජීවත් වෙනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=268.52,275.053",
       "t": [
@@ -3511,7 +3770,8 @@
         "id": "Konon ibu tiri dan Patjwi merah padam karena kesal.",
         "pt": "Dizem que a madrasta e Patjwi ficaram vermelhas de raiva.",
         "my": "မိထွေးနဲ့ ပတ်ဂျွီက ဒေါသနဲ့ မျက်နှာ နီရဲသွားတယ်လို့ ဆိုတယ်။",
-        "th": "ว่ากันว่า แม่เลี้ยงกับพัตจวีโกรธจนหน้าแดงก่ำ"
+        "th": "ว่ากันว่า แม่เลี้ยงกับพัตจวีโกรธจนหน้าแดงก่ำ",
+        "si": "සුළු අම්මයි පට්ජ්වියි, අමනාපයෙන්, මූණු රතු කරගත්තාලු."
       },
       "vocab": [
         {
@@ -3528,7 +3788,8 @@
             "id": "merah padam",
             "pt": "vermelho vivo",
             "my": "နီရဲ",
-            "th": "แดงก่ำ"
+            "th": "แดงก่ำ",
+            "si": "තද රතු"
           },
           "level": "N3"
         }
@@ -3544,7 +3805,8 @@
         "id": "kesal.",
         "pt": "com raiva.",
         "my": "ဒေါသ။",
-        "th": "แค้นใจ"
+        "th": "แค้นใจ",
+        "si": "「くやしい」 = අමනාපයි. 「〜そうです」 = එහෙම කියනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=275.653,280.53",
       "t": [
@@ -3609,7 +3871,8 @@
         "id": "Jepang juga punya kisah serupa: \"Komebuku dan Awabuku.\"",
         "pt": "O Japão tem uma história bem parecida: \"Komebuku e Awabuku\".",
         "my": "ဂျပန်မှာလည်း အလားတူ ပုံပြင် ရှိတယ်: \"ကိုမဲဘုကု နဲ့ အာဝါဘုကု\"။",
-        "th": "ญี่ปุ่นก็มีนิทานคล้ายกันมาก คือ \"โคเมะบุคุกับอาวะบุคุ\""
+        "th": "ญี่ปุ่นก็มีนิทานคล้ายกันมาก คือ \"โคเมะบุคุกับอาวะบุคุ\"",
+        "si": "ජපානයෙත්, හරිම සමාන කතාවක් තියෙනවා. \"කොමෙබුකු සහ අවාබුකු\" කියන ජන කතාව."
       },
       "vocab": [],
       "grammarNote": {
@@ -3623,7 +3886,8 @@
         "id": "bernama.",
         "pt": "chamado.",
         "my": "ဆိုတဲ့။",
-        "th": "ชื่อ"
+        "th": "ชื่อ",
+        "si": "「〜という」 = ~ කියන."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=281.13,288.569",
       "t": [
@@ -3716,7 +3980,8 @@
         "id": "Komebuku yang ditindas ibu tiri disuruh memungut kastanye dengan kantong berlubang.",
         "pt": "Komebuku, maltratada pela madrasta, é mandada catar castanhas com um saco furado.",
         "my": "မိထွေး နှိပ်စက်ခံရတဲ့ ကိုမဲဘုကုကို အပေါက်ပါတဲ့ အိတ်နဲ့ သစ်ကြားသီး ကောက်ခိုင်းတယ်။",
-        "th": "โคเมะบุคุที่ถูกแม่เลี้ยงรังแก ถูกสั่งให้เก็บเกาลัดด้วยถุงที่มีรู"
+        "th": "โคเมะบุคุที่ถูกแม่เลี้ยงรังแก ถูกสั่งให้เก็บเกาลัดด้วยถุงที่มีรู",
+        "si": "සුළු අම්මාගෙන් හිරිහැර විඳින කොමෙබුකුට, සිදුරු පිරුණු මල්ලකින්, චෙස්ට්නට් ඇට අහුලගෙන එන්න කියලා අණ කරනවා."
       },
       "vocab": [
         {
@@ -3733,7 +3998,8 @@
             "id": "kantong",
             "pt": "saco",
             "my": "အိတ်",
-            "th": "ถุง"
+            "th": "ถุง",
+            "si": "බෑගය"
           },
           "level": "N3"
         }
@@ -3749,7 +4015,8 @@
         "id": "ditindas.",
         "pt": "ser maltratada.",
         "my": "နှိပ်စက်ခံရ။",
-        "th": "ถูกรังแก"
+        "th": "ถูกรังแก",
+        "si": "「いじめられる」 = හිරිහැර විඳිනවා. 「〜ように言いつけられる」 = ~ කරන්න අණ ලැබෙනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=289.169,296.023",
       "t": [
@@ -3814,7 +4081,8 @@
         "id": "Saat kesulitan di gunung, Yamanba dan arwah ibunya menolongnya.",
         "pt": "Em apuros na montanha, Yamanba e o espírito da mãe falecida a ajudam.",
         "my": "တောင်ပေါ်မှာ ဒုက္ခရောက်နေတုန်း ယာမန်ဘာနဲ့ ဆုံးသွားတဲ့ အမေ့ဝိညာဉ်က ကူညီတယ်။",
-        "th": "ขณะลำบากอยู่บนภูเขา ยามัมบะและวิญญาณแม่ที่ตายไปก็มาช่วย"
+        "th": "ขณะลำบากอยู่บนภูเขา ยามัมบะและวิญญาณแม่ที่ตายไปก็มาช่วย",
+        "si": "කන්දේ අමාරුවේ වැටිලා ඉද්දී, යමම්බා කඳු යක්ෂණියයි, මැරුණු අම්මාගේ ආත්මයයි උදව් කරනවා."
       },
       "vocab": [
         {
@@ -3831,7 +4099,8 @@
             "id": "menolong",
             "pt": "ajudar, salvar",
             "my": "ကူညီသည်၊ ကယ်တင်သည်",
-            "th": "ช่วยเหลือ"
+            "th": "ช่วยเหลือ",
+            "si": "උදව් කිරීම, බේරා ගැනීම"
           },
           "level": "N3"
         }
@@ -3847,7 +4116,8 @@
         "id": "arwah.",
         "pt": "espírito.",
         "my": "ဝိညာဉ်။",
-        "th": "วิญญาณ"
+        "th": "วิญญาณ",
+        "si": "たましい = ආත්මය. 「こまる」 = අමාරුවේ වැටෙනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=296.623,302.521",
       "t": [
@@ -3956,7 +4226,8 @@
         "id": "Lalu di hari pesta, Komebuku berbaju indah menikah ke keluarga kaya.",
         "pt": "Então, no dia da festa, Komebuku, bem vestida, se casa com uma família rica.",
         "my": "ပြီးတော့ ပွဲနေ့မှာ အဝတ်လှ ဝတ်ထားတဲ့ ကိုမဲဘုကုက သူဌေးအိမ်ကို ခြွေမ ဖြစ်သွားတယ်။",
-        "th": "แล้วในวันงาน โคเมะบุคุในชุดสวยก็ได้แต่งเข้าบ้านคนรวย"
+        "th": "แล้วในวันงาน โคเมะบุคุในชุดสวยก็ได้แต่งเข้าบ้านคนรวย",
+        "si": "ඊට පස්සේ, උත්සව දවසේ, ලස්සන ඇඳුම් ඇඳපු කොමෙබුකු, පොහොසත් පවුලකට කසාද බැඳලා යනවා."
       },
       "vocab": [
         {
@@ -3973,7 +4244,8 @@
             "id": "pengantin, istri",
             "pt": "noiva, esposa",
             "my": "သတို့သမီး",
-            "th": "เจ้าสาว"
+            "th": "เจ้าสาว",
+            "si": "මනාලිය, බිරිඳ"
           },
           "level": "N3"
         }
@@ -3989,7 +4261,8 @@
         "id": "menikah.",
         "pt": "casar-se.",
         "my": "လက်ထပ်။",
-        "th": "แต่งงานออกเรือน"
+        "th": "แต่งงานออกเรือน",
+        "si": "「お嫁に行く」 = (ගැහැනු කෙනෙක්) කසාද බැඳලා යනවා."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=303.121,310.695",
       "t": [
@@ -4066,7 +4339,8 @@
         "id": "Di kedua kisah, penolong kerja berat bukan manusia, melainkan hewan dan kekuatan ajaib.",
         "pt": "Nas duas histórias, quem ajuda no trabalho duro não são pessoas, mas animais e forças mágicas.",
         "my": "ပုံပြင်နှစ်ခုလုံးမှာ ပင်ပန်းတဲ့အလုပ်ကို ကူတာ လူ မဟုတ်ဘဲ တိရစ္ဆာန်နဲ့ ထူးဆန်းတဲ့ စွမ်းအားပါ။",
-        "th": "ทั้งสองเรื่อง ผู้ช่วยงานหนักไม่ใช่มนุษย์ แต่เป็นสัตว์และพลังวิเศษ"
+        "th": "ทั้งสองเรื่อง ผู้ช่วยงานหนักไม่ใช่มนุษย์ แต่เป็นสัตว์และพลังวิเศษ",
+        "si": "කතා දෙකේම, අමාරු වැඩවලට උදව් කරන්නේ, මිනිස්සු නෙවෙයි, සත්තුයි පුදුම බලයි."
       },
       "vocab": [
         {
@@ -4083,7 +4357,8 @@
             "id": "manusia",
             "pt": "ser humano",
             "my": "လူသား",
-            "th": "มนุษย์"
+            "th": "มนุษย์",
+            "si": "මිනිසා"
           },
           "level": "N3"
         }
@@ -4099,7 +4374,8 @@
         "id": "bukan A melainkan B.",
         "pt": "não A, mas B.",
         "my": "A မဟုတ်ဘဲ B။",
-        "th": "ไม่ใช่ A แต่เป็น B"
+        "th": "ไม่ใช่ A แต่เป็น B",
+        "si": "「AではなくB」 = A නෙවෙයි B."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=311.295,318.624",
       "t": [
@@ -4168,7 +4444,8 @@
         "id": "Mungkin artinya alam selalu memperhatikan orang yang tekun dengan hati baik.",
         "pt": "Talvez signifique que a natureza observa quem se esforça todo dia com bondade.",
         "my": "သဘောကောင်းတဲ့ စိတ်နဲ့ နေ့တိုင်း ကြိုးစားသူကို သဘာဝကလည်း စောင့်ကြည့်နေတယ်လို့ ဆိုလိုတာ ဖြစ်နိုင်တယ်။",
-        "th": "บางทีอาจหมายความว่า ธรรมชาติก็เฝ้ามองคนที่ขยันทุกวันด้วยใจดีอยู่"
+        "th": "บางทีอาจหมายความว่า ธรรมชาติก็เฝ้ามองคนที่ขยันทุกวันด้วยใจดีอยู่",
+        "si": "කාරුණික හිතින් හැමදාම මහන්සි වෙන අයව, සොබාදහමත් හරියට බලාගෙන ඉන්නවා, කියන එක වෙන්න පුළුවන් නේද."
       },
       "vocab": [
         {
@@ -4185,7 +4462,8 @@
             "id": "alam",
             "pt": "natureza",
             "my": "သဘာဝ",
-            "th": "ธรรมชาติ"
+            "th": "ธรรมชาติ",
+            "si": "සොබාදහම"
           },
           "level": "N3"
         },
@@ -4203,7 +4481,8 @@
             "id": "dengan benar",
             "pt": "direito",
             "my": "သေချာ",
-            "th": "ให้ดี"
+            "th": "ให้ดี",
+            "si": "නිසි ලෙස, හරියට"
           },
           "level": "N3"
         }
@@ -4219,7 +4498,8 @@
         "id": "mungkin.",
         "pt": "talvez.",
         "my": "ဖြစ်နိုင်တယ်။",
-        "th": "อาจจะ"
+        "th": "อาจจะ",
+        "si": "「〜かもしれない」 = ~ වෙන්න පුළුවන්."
       },
       "audio": "/audio/furusato-kr-kongjwi-1/chapter.mp3#t=319.224,326.74",
       "t": [

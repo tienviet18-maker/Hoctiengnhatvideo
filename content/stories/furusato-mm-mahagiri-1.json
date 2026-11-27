@@ -12,7 +12,8 @@
     "id": "Mahagiri, Dewa Gunung Agung",
     "pt": "Mahagiri, Senhor da Grande Montanha",
     "my": "မဟာဂီရိ နတ်",
-    "th": "มหาคีรี เทพแห่งขุนเขา"
+    "th": "มหาคีรี เทพแห่งขุนเขา",
+    "si": "මහා කන්දේ අධිපති මහගිරි"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -42,7 +43,8 @@
           "id": "Menyuruh orang lain ~.",
           "pt": "Mandar alguém fazer ~.",
           "my": "တစ်ပါးသူကို ~ ခိုင်း။",
-          "th": "สั่งให้ผู้อื่นทำ ~"
+          "th": "สั่งให้ผู้อื่นทำ ~",
+          "si": "කෙනෙක් ලවා ~ කරවනවා."
         }
       },
       {
@@ -59,7 +61,8 @@
           "id": "Gara-gara ~ (akibat buruk).",
           "pt": "Por culpa de ~.",
           "my": "~ ကြောင့် (မကောင်းတဲ့ ရလဒ်)။",
-          "th": "เพราะ ~ (ผลร้าย)"
+          "th": "เพราะ ~ (ผลร้าย)",
+          "si": "~ නිසා (නරක ප්‍රතිඵලයක හේතුව)."
         }
       },
       {
@@ -76,7 +79,8 @@
           "id": "Seharusnya ~.",
           "pt": "Deveria ~.",
           "my": "~ ရမှာ။",
-          "th": "น่าจะ ~"
+          "th": "น่าจะ ~",
+          "si": "~ වෙන්න ඕනේ / නිසැකවම ~."
         }
       },
       {
@@ -93,7 +97,8 @@
           "id": "Sebagai ~.",
           "pt": "Como ~.",
           "my": "~ အဖြစ်။",
-          "th": "ในฐานะ ~"
+          "th": "ในฐานะ ~",
+          "si": "~ විදිහට."
         }
       }
     ],
@@ -118,8 +123,85 @@
           "id": "Takut kerajaannya direbut.",
           "pt": "Temia perder o reino.",
           "my": "တိုင်းပြည် ယူသွားမှာ ကြောက်လို့။",
-          "th": "กลัวถูกยึดแคว้น"
-        }
+          "th": "กลัวถูกยึดแคว้น",
+          "si": "තින්ඩේ රාජ්‍යය අල්ලගන්න තරම් ශක්තිමත් කියලා එයා බය වුණා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "王",
+            "reading": "おう"
+          },
+          {
+            "surface": "さまは、どうして、ティンデを、つかまえたかったのですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "強",
+              "reading": "つよ"
+            },
+            {
+              "surface": "すぎて、",
+              "reading": ""
+            },
+            {
+              "surface": "国",
+              "reading": "くに"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "取",
+              "reading": "と"
+            },
+            {
+              "surface": "られるかもしれないから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ティンデが、うそをついたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ティンデの",
+              "reading": ""
+            },
+            {
+              "surface": "刀",
+              "reading": "かたな"
+            },
+            {
+              "surface": "が、ほしかったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "妹",
+              "reading": "いもうと"
+            },
+            {
+              "surface": "と",
+              "reading": ""
+            },
+            {
+              "surface": "結婚",
+              "reading": "けっこん"
+            },
+            {
+              "surface": "したかったから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "ティンデは、どうして、森から帰ってきましたか。",
@@ -141,8 +223,93 @@
           "id": "Karena surat adiknya.",
           "pt": "Pela carta da irmã.",
           "my": "ညီမရဲ့ စာကြောင့်။",
-          "th": "เพราะจดหมายของน้องสาว"
-        }
+          "th": "เพราะจดหมายของน้องสาว",
+          "si": "තවත් පැනලා යන්න ඕනේ නැහැ කියලා නංගීගේ ලියුමේ තිබුණා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "ティンデは、どうして、",
+            "reading": ""
+          },
+          {
+            "surface": "森",
+            "reading": "もり"
+          },
+          {
+            "surface": "から",
+            "reading": ""
+          },
+          {
+            "surface": "帰",
+            "reading": "かえ"
+          },
+          {
+            "surface": "ってきましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "妹",
+              "reading": "いもうと"
+            },
+            {
+              "surface": "から、もう、にげなくていいと",
+              "reading": ""
+            },
+            {
+              "surface": "手紙",
+              "reading": "てがみ"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "来",
+              "reading": "き"
+            },
+            {
+              "surface": "たから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "おなかが、すいたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "兵",
+              "reading": "へい"
+            },
+            {
+              "surface": "に、つかまったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さまに、",
+              "reading": ""
+            },
+            {
+              "surface": "会",
+              "reading": "あ"
+            },
+            {
+              "surface": "いたかったから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "チャンパカの木は、最後に、どこへ運ばれましたか。",
@@ -164,8 +331,69 @@
           "id": "Gunung Popa.",
           "pt": "Monte Popa.",
           "my": "ပုပ္ပားတောင်။",
-          "th": "ภูเขาโปปา"
-        }
+          "th": "ภูเขาโปปา",
+          "si": "පොප්පා කන්දට."
+        },
+        "jaFurigana": [
+          {
+            "surface": "チャンパカの",
+            "reading": ""
+          },
+          {
+            "surface": "木",
+            "reading": "き"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "最後",
+            "reading": "さいご"
+          },
+          {
+            "surface": "に、どこへ",
+            "reading": ""
+          },
+          {
+            "surface": "運",
+            "reading": "はこ"
+          },
+          {
+            "surface": "ばれましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "ポッパ",
+              "reading": ""
+            },
+            {
+              "surface": "山",
+              "reading": "やま"
+            }
+          ],
+          [
+            {
+              "surface": "タガウン",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "九州",
+              "reading": "きゅうしゅう"
+            }
+          ],
+          [
+            {
+              "surface": "京都",
+              "reading": "きょうと"
+            }
+          ]
+        ]
       },
       {
         "ja": "日本の天神さまは、今、何の神さまとして有名ですか。",
@@ -187,8 +415,89 @@
           "id": "Dewa belajar.",
           "pt": "Deus dos estudos.",
           "my": "ပညာရေးနတ်။",
-          "th": "เทพแห่งการเรียน"
-        }
+          "th": "เทพแห่งการเรียน",
+          "si": "අධ්‍යාපනයේ දෙවියා විදිහට."
+        },
+        "jaFurigana": [
+          {
+            "surface": "日本",
+            "reading": "にほん"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "天神",
+            "reading": "てんじん"
+          },
+          {
+            "surface": "さまは、",
+            "reading": ""
+          },
+          {
+            "surface": "今",
+            "reading": "いま"
+          },
+          {
+            "surface": "、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "神",
+            "reading": "かみ"
+          },
+          {
+            "surface": "さまとして",
+            "reading": ""
+          },
+          {
+            "surface": "有名",
+            "reading": "ゆうめい"
+          },
+          {
+            "surface": "ですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "勉強",
+              "reading": "べんきょう"
+            }
+          ],
+          [
+            {
+              "surface": "海",
+              "reading": "うみ"
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "かね"
+            }
+          ],
+          [
+            {
+              "surface": "料理",
+              "reading": "りょうり"
+            }
+          ]
+        ]
       }
     ]
   },
@@ -229,7 +538,8 @@
         "id": "Rumah di Myanmar sering punya rak kecil.",
         "pt": "As casas em Mianmar costumam ter uma pequena prateleira.",
         "my": "မြန်မာအိမ်တွေမှာ စင်လေး တစ်ခု မကြာခဏ ရှိတယ်။",
-        "th": "บ้านในพม่ามักมีชั้นเล็ก ๆ อยู่"
+        "th": "บ้านในพม่ามักมีชั้นเล็ก ๆ อยู่",
+        "si": "මියන්මාරයේ ගෙවල්වල, නිතරම, පොඩි රාක්කයක්, තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -243,7 +553,8 @@
         "id": "sering; rak.",
         "pt": "costumar; prateleira.",
         "my": "မကြာခဏ; စင်။",
-        "th": "มัก; ชั้น"
+        "th": "มัก; ชั้น",
+        "si": "よく = නිතරම; たな = රාක්කය."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=0.3,4.508",
       "t": [
@@ -280,7 +591,8 @@
         "id": "Di sana dipajang sebuah kelapa.",
         "pt": "Nela fica um coco.",
         "my": "အဲဒီမှာ အုန်းသီး တစ်လုံး တင်ထားတယ်။",
-        "th": "บนนั้นมีมะพร้าววางไว้หนึ่งลูก"
+        "th": "บนนั้นมีมะพร้าววางไว้หนึ่งลูก",
+        "si": "ඒකේ, පොල් ගෙඩියක්, සරසලා තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -294,7 +606,8 @@
         "id": "dipajang.",
         "pt": "estar colocado.",
         "my": "တင်ထား။",
-        "th": "วางไว้"
+        "th": "วางไว้",
+        "si": "「〜てあります」 = (කවුරු හරි) ~ කරලා තියෙනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=5.108,9.441",
       "t": [
@@ -339,7 +652,8 @@
         "id": "Ini untuk dewa penjaga rumah, \"Mahagiri\".",
         "pt": "É para o deus que protege a casa, \"Mahagiri\".",
         "my": "ဒါက အိမ်စောင့်နတ် \"မဟာဂီရိ\" အတွက်ပါ။",
-        "th": "นี่สำหรับเทพผู้คุ้มครองบ้าน \"มหาคีรี\""
+        "th": "นี่สำหรับเทพผู้คุ้มครองบ้าน \"มหาคีรี\"",
+        "si": "මේක, ගේ ආරක්ෂා කරන දෙවියා, \"මහගිරි\" වෙනුවෙන් තියන එකක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -353,7 +667,8 @@
         "id": "menjaga; untuk.",
         "pt": "proteger; para.",
         "my": "စောင့်; အတွက်။",
-        "th": "คุ้มครอง; สำหรับ"
+        "th": "คุ้มครอง; สำหรับ",
+        "si": "まもる = ආරක්ෂා කරනවා; 「〜のためのもの」 = ~ වෙනුවෙන් තියන දෙයක්."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=10.041,14.611",
       "t": [
@@ -422,7 +737,8 @@
         "id": "Konon Mahagiri dulu adalah pria sungguhan.",
         "pt": "Dizem que Mahagiri foi um homem de verdade.",
         "my": "မဟာဂီရိက ရှေးက တကယ်ရှိခဲ့တဲ့ ယောက်ျားတစ်ယောက်လို့ ဆိုကြတယ်။",
-        "th": "ว่ากันว่ามหาคีรีเคยเป็นชายที่มีตัวตนจริง"
+        "th": "ว่ากันว่ามหาคีรีเคยเป็นชายที่มีตัวตนจริง",
+        "si": "මහගිරි, ඉස්සර, ඇත්තටම හිටපු, මිනිහෙක් කියලා කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -436,7 +752,8 @@
         "id": "konon.",
         "pt": "dizem.",
         "my": "ဆိုကြတယ်။",
-        "th": "ว่ากันว่า"
+        "th": "ว่ากันว่า",
+        "si": "「〜だったと言われています」 = ~ කියලා කියනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=15.211,20.865",
       "t": [
@@ -477,7 +794,8 @@
         "id": "Hari ini, mari kita ceritakan kisahnya.",
         "pt": "Hoje, vamos contar essa história.",
         "my": "ဒီနေ့ အဲဒီ ပုံပြင်ကို ပြောရအောင်။",
-        "th": "วันนี้มาเล่าเรื่องนั้นกัน"
+        "th": "วันนี้มาเล่าเรื่องนั้นกัน",
+        "si": "අද, ඒ කතාව කියමු."
       },
       "vocab": [],
       "grammarNote": {
@@ -491,7 +809,8 @@
         "id": "mari.",
         "pt": "vamos.",
         "my": "ရအောင်။",
-        "th": "กันเถอะ"
+        "th": "กันเถอะ",
+        "si": "「〜ましょう」 = ~ කරමු."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=21.465,23.897",
       "t": [
@@ -544,7 +863,8 @@
         "id": "Dahulu, di negeri Tagaung tinggal keluarga pandai besi.",
         "pt": "Antigamente, uma família de ferreiros vivia no reino de Tagaung.",
         "my": "ရှေးတုန်းက တကောင်းပြည်မှာ ပန်းပဲသမား မိသားစု နေတယ်။",
-        "th": "กาลครั้งหนึ่ง ที่แคว้นตะกอง มีครอบครัวช่างตีเหล็กอาศัยอยู่"
+        "th": "กาลครั้งหนึ่ง ที่แคว้นตะกอง มีครอบครัวช่างตีเหล็กอาศัยอยู่",
+        "si": "ඉස්සර, තගවුං කියන රටේ, කම්මල්කාර පවුලක්, ජීවත් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -558,7 +878,8 @@
         "id": "pandai besi; negeri.",
         "pt": "ferreiro; reino de.",
         "my": "ပန်းပဲသမား; ဆိုတဲ့ပြည်။",
-        "th": "ช่างตีเหล็ก; แคว้น"
+        "th": "ช่างตีเหล็ก; แคว้น",
+        "si": "かじや = කම්මල්කාරයා; 「〜という国」 = ~ කියන රට."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=24.497,29.526",
       "t": [
@@ -643,7 +964,8 @@
         "id": "Pandai besi memanaskan besi hingga merah untuk membuat pedang dan alat.",
         "pt": "O ferreiro aquece o ferro no fogo para fazer espadas e ferramentas.",
         "my": "ပန်းပဲသမားက သံကို မီးနဲ့ နီအောင်လုပ်ပြီး ဓားနဲ့ ကိရိယာ လုပ်တယ်။",
-        "th": "ช่างตีเหล็กเผาเหล็กให้แดงเพื่อทำดาบและเครื่องมือ"
+        "th": "ช่างตีเหล็กเผาเหล็กให้แดงเพื่อทำดาบและเครื่องมือ",
+        "si": "කම්මල්කාරයා කියන්නේ, ගින්නෙන් යකඩ රත් කරලා, කඩු සහ උපකරණ හදන රැකියාවක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -657,7 +979,8 @@
         "id": "besi; pedang; alat.",
         "pt": "ferro; espada; ferramenta.",
         "my": "သံ; ဓား; ကိရိယာ။",
-        "th": "เหล็ก; ดาบ; เครื่องมือ"
+        "th": "เหล็ก; ดาบ; เครื่องมือ",
+        "si": "鉄 = යකඩ; 刀 = කඩුව; 道具 = උපකරණය; 「赤くする」 = රතු කරනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=30.126,35.654",
       "t": [
@@ -726,7 +1049,8 @@
         "id": "Putra keluarga itu, Tinde, sangat kuat.",
         "pt": "O filho, Tinde, era muito forte.",
         "my": "အဲဒီအိမ်က သား တင့်တယ်က အင်အား အရမ်းကြီးတယ်။",
-        "th": "ลูกชายบ้านนั้นชื่อทินเด แข็งแรงมาก"
+        "th": "ลูกชายบ้านนั้นชื่อทินเด แข็งแรงมาก",
+        "si": "ඒ ගෙදර පුතා, තින්ඩේ, හරිම, ශක්තිමත් මිනිහෙක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -740,7 +1064,8 @@
         "id": "putra; kuat.",
         "pt": "filho; forte.",
         "my": "သား; အင်အားကြီး။",
-        "th": "ลูกชาย; แข็งแรง"
+        "th": "ลูกชาย; แข็งแรง",
+        "si": "息子 = පුතා; 「力が強い」 = ශක්තිමත්."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=36.254,41.655",
       "t": [
@@ -777,7 +1102,8 @@
         "id": "Tinde bisa mematahkan gading gajah dengan tangan.",
         "pt": "Tinde conseguia quebrar a presa de um elefante com as mãos.",
         "my": "တင့်တယ်က ဆင်စွယ်ကို လက်နဲ့ ချိုးနိုင်တယ်။",
-        "th": "ทินเดหักงาช้างได้ด้วยมือ"
+        "th": "ทินเดหักงาช้างได้ด้วยมือ",
+        "si": "තින්ඩේට, අලියෙකුගේ දළයක්, අතින්, කඩන්න පුළුවන්."
       },
       "vocab": [],
       "grammarNote": {
@@ -791,7 +1117,8 @@
         "id": "gajah; gading; bisa.",
         "pt": "elefante; presa; conseguir.",
         "my": "ဆင်; စွယ်; နိုင်။",
-        "th": "ช้าง; งา; ได้"
+        "th": "ช้าง; งา; ได้",
+        "si": "ゾウ = අලියා; きば = දළය; 「〜ことができる」 = ~ කරන්න පුළුවන්."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=42.255,46.626",
       "t": [
@@ -840,7 +1167,8 @@
         "id": "Semua warga desa sangat menyukai Tinde.",
         "pt": "Todos na aldeia adoravam Tinde.",
         "my": "ရွာသားတွေ အားလုံး တင့်တယ်ကို အရမ်းချစ်တယ်။",
-        "th": "ชาวบ้านทุกคนรักทินเดมาก"
+        "th": "ชาวบ้านทุกคนรักทินเดมาก",
+        "si": "ගමේ මිනිස්සු, හැමෝම, තින්ඩේට, හරිම ආදරෙයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -854,7 +1182,8 @@
         "id": "sangat suka.",
         "pt": "adorar.",
         "my": "အရမ်းချစ်။",
-        "th": "รักมาก"
+        "th": "รักมาก",
+        "si": "「〜が大好き」 = ~ ට හරිම ආදරෙයි."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=47.226,51.553",
       "t": [
@@ -891,7 +1220,8 @@
         "id": "Tinde punya adik perempuan yang baik.",
         "pt": "Tinde tinha uma irmã mais nova gentil.",
         "my": "တင့်တယ်မှာ သဘောကောင်းတဲ့ ညီမလေး ရှိတယ်။",
-        "th": "ทินเดมีน้องสาวใจดีคนหนึ่ง"
+        "th": "ทินเดมีน้องสาวใจดีคนหนึ่ง",
+        "si": "තින්ඩේට, කාරුණික නංගී කෙනෙක්, හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -905,7 +1235,8 @@
         "id": "adik; punya.",
         "pt": "irmã; tinha.",
         "my": "ညီမ; ရှိ။",
-        "th": "น้องสาว; มี"
+        "th": "น้องสาว; มี",
+        "si": "妹 = නංගී; 「〜には〜がいました」 = ~ ට ~ හිටියා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=52.153,55.58",
       "t": [
@@ -954,7 +1285,8 @@
         "id": "Namanya Myat Hla. Wajahnya sangat cantik.",
         "pt": "Seu nome era Myat Hla. Tinha um rosto muito bonito.",
         "my": "နာမည်က မြတ်လှ။ မျက်နှာ အရမ်းလှတယ်။",
-        "th": "ชื่อของเธอคือเมียตหล่า หน้าตางดงามมาก"
+        "th": "ชื่อของเธอคือเมียตหล่า หน้าตางดงามมาก",
+        "si": "නම, මියත් ලා. හරිම, ලස්සන මූණක් තිබුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -968,7 +1300,8 @@
         "id": "berwajah.",
         "pt": "ter rosto.",
         "my": "မျက်နှာ ရှိ။",
-        "th": "มีหน้าตา"
+        "th": "มีหน้าตา",
+        "si": "「〜顔をしている」 = ~ මූණක් තියෙනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=56.18,61.612",
       "t": [
@@ -1005,7 +1338,8 @@
         "id": "Tapi raja Tagaung takut pada Tinde.",
         "pt": "Mas o rei de Tagaung tinha medo de Tinde.",
         "my": "ဒါပေမဲ့ တကောင်းမင်းက တင့်တယ်ကို ကြောက်တယ်။",
-        "th": "แต่กษัตริย์ตะกองกลัวทินเด"
+        "th": "แต่กษัตริย์ตะกองกลัวทินเด",
+        "si": "ඒත්, තගවුං රජතුමාට, තින්ඩේ ගැන, බයයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -1019,7 +1353,8 @@
         "id": "takut.",
         "pt": "ter medo.",
         "my": "ကြောက်။",
-        "th": "กลัว"
+        "th": "กลัว",
+        "si": "「〜が、こわい」 = ~ ගැන බයයි; 「〜のです」 = පැහැදිලි කිරීම."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=62.212,66.937",
       "t": [
@@ -1080,7 +1415,8 @@
         "id": "\"Pria itu terlalu kuat. Suatu hari ia mungkin merebut negeriku.\"",
         "pt": "\"Aquele homem é forte demais. Um dia pode tomar meu reino.\"",
         "my": "\"အဲဒီကောင် သိပ်အားကြီးတယ်။ တစ်နေ့ ငါ့တိုင်းပြည်ကို ယူသွားနိုင်တယ်။\"",
-        "th": "\"ชายคนนั้นแข็งแรงเกินไป สักวันอาจยึดแคว้นของข้า\""
+        "th": "\"ชายคนนั้นแข็งแรงเกินไป สักวันอาจยึดแคว้นของข้า\"",
+        "si": "\"අර මිනිහා, ඕනෑවට වඩා ශක්තිමත්. කවදා හරි, මගේ රාජ්‍යය, අල්ලගන්න පුළුවන්.\""
       },
       "vocab": [
         {
@@ -1097,7 +1433,8 @@
             "id": "suatu hari",
             "pt": "algum dia",
             "my": "တစ်နေ့",
-            "th": "สักวัน"
+            "th": "สักวัน",
+            "si": "කවදා හරි"
           },
           "level": "N3"
         }
@@ -1113,7 +1450,8 @@
         "id": "terlalu; mungkin.",
         "pt": "demais; pode.",
         "my": "သိပ်; နိုင်။",
-        "th": "เกินไป; อาจ"
+        "th": "เกินไป; อาจ",
+        "si": "「〜すぎる」 = ඕනෑවට වඩා ~; 「〜かもしれない」 = ~ වෙන්න පුළුවන්; わし = මම (වයසක පිරිමි කතාව)."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=67.837,73.548",
       "t": [
@@ -1150,7 +1488,8 @@
         "id": "\"Prajurit, tangkap Tinde!\"",
         "pt": "\"Soldados, capturem Tinde!\"",
         "my": "\"စစ်သားတို့၊ တင့်တယ်ကို ဖမ်းခဲ့!\"",
-        "th": "\"ทหาร ไปจับทินเดมา!\""
+        "th": "\"ทหาร ไปจับทินเดมา!\"",
+        "si": "\"සෙබළුනේ, තින්ඩේව, අල්ලගෙන වරෙල්ලා!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1164,7 +1503,8 @@
         "id": "prajurit; perintah.",
         "pt": "soldado; ordem.",
         "my": "စစ်သား; အမိန့်။",
-        "th": "ทหาร; คำสั่ง"
+        "th": "ทหาร; คำสั่ง",
+        "si": "兵 = සෙබළා; 「〜てこい」 = ගිහින් ~ කරලා වරෙන් (අණ)."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=74.148,77.11",
       "t": [
@@ -1217,7 +1557,8 @@
         "id": "Mendengar itu, Tinde melarikan diri ke hutan.",
         "pt": "Ao ouvir isso, Tinde fugiu para a floresta.",
         "my": "အဲဒါကြားတော့ တင့်တယ်က တောထဲ ပြေးတယ်။",
-        "th": "ได้ยินดังนั้น ทินเดหนีเข้าป่า"
+        "th": "ได้ยินดังนั้น ทินเดหนีเข้าป่า",
+        "si": "ඒක ඇහුණු තින්ඩේ, කැලේ ඇතුළට, පැනලා ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1231,7 +1572,8 @@
         "id": "mendengar; lari.",
         "pt": "ouvir; fugir.",
         "my": "ကြားတော့; ပြေး။",
-        "th": "ได้ยิน; หนี"
+        "th": "ได้ยิน; หนี",
+        "si": "「それを聞いた〜」 = ඒක ඇහුණු ~; にげる = පැනලා යනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=78.01,82.039",
       "t": [
@@ -1280,7 +1622,8 @@
         "id": "Prajurit mencari di hutan tapi tak menemukannya.",
         "pt": "Os soldados vasculharam a floresta, mas não o acharam.",
         "my": "စစ်သားတွေ တောထဲ ရှာပေမဲ့ မတွေ့ဘူး။",
-        "th": "ทหารค้นป่าแต่หาไม่พบ"
+        "th": "ทหารค้นป่าแต่หาไม่พบ",
+        "si": "සෙබළු, කැලේ, හෙව්වා, ඒත් හම්බ වුණේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -1294,7 +1637,8 @@
         "id": "tapi; ditemukan.",
         "pt": "mas; ser achado.",
         "my": "ပေမဲ့; တွေ့။",
-        "th": "แต่; พบ"
+        "th": "แต่; พบ",
+        "si": "「〜ましたが」 = ~ කළා, ඒත්; 見つかる = හම්බ වෙනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=82.639,87.582",
       "t": [
@@ -1347,7 +1691,8 @@
         "id": "Maka raja memikirkan rencana jahat.",
         "pt": "Então o rei pensou em algo maldoso.",
         "my": "ဒါနဲ့ ဘုရင်က မကောင်းတာ စဉ်းစားတယ်။",
-        "th": "กษัตริย์จึงคิดแผนร้าย"
+        "th": "กษัตริย์จึงคิดแผนร้าย",
+        "si": "ඒ නිසා, රජතුමා, නපුරු උපායක්, කල්පනා කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1361,7 +1706,8 @@
         "id": "maka; rencana jahat.",
         "pt": "então; algo maldoso.",
         "my": "ဒါနဲ့; မကောင်းတာ။",
-        "th": "จึง; คิดร้าย"
+        "th": "จึง; คิดร้าย",
+        "si": "そこで = ඒ නිසා; 「悪いことを考える」 = නපුරු දෙයක් කල්පනා කරනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=88.182,92.555",
       "t": [
@@ -1390,7 +1736,8 @@
         "id": "\"Myat Hla, jadilah permaisuriku.\"",
         "pt": "\"Myat Hla, seja minha rainha.\"",
         "my": "\"မြတ်လှ၊ ငါ့မိဖုရား ဖြစ်ပါ။\"",
-        "th": "\"เมียตหล่า มาเป็นมเหสีของข้า\""
+        "th": "\"เมียตหล่า มาเป็นมเหสีของข้า\"",
+        "si": "\"මියත් ලා, මගේ, බිසව වෙයන්.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1404,7 +1751,8 @@
         "id": "permaisuri; jadilah.",
         "pt": "rainha; seja.",
         "my": "မိဖုရား; ဖြစ်ပါ။",
-        "th": "มเหสี; มาเป็น"
+        "th": "มเหสี; มาเป็น",
+        "si": "おきさき = බිසව; 「〜になりなさい」 = ~ වෙයන් (අණ)."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=93.455,96.724",
       "t": [
@@ -1449,7 +1797,8 @@
         "id": "Myat Hla menikah dengan raja.",
         "pt": "Myat Hla casou-se com o rei.",
         "my": "မြတ်လှက ဘုရင်နဲ့ လက်ထပ်တယ်။",
-        "th": "เมียตหล่าแต่งงานกับกษัตริย์"
+        "th": "เมียตหล่าแต่งงานกับกษัตริย์",
+        "si": "මියත් ලා, රජතුමාව, බැන්දා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1463,7 +1812,8 @@
         "id": "menikah dengan.",
         "pt": "casar com.",
         "my": "နဲ့ လက်ထပ်။",
-        "th": "แต่งงานกับ"
+        "th": "แต่งงานกับ",
+        "si": "「〜と結婚する」 = ~ ව බඳිනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=97.624,100.976",
       "t": [
@@ -1532,7 +1882,8 @@
         "id": "Tapi dalam hati, ia selalu mencemaskan kakaknya di hutan.",
         "pt": "Mas no coração, sempre se preocupava com o irmão na floresta.",
         "my": "ဒါပေမဲ့ စိတ်ထဲမှာ တောထဲက အစ်ကိုကို အမြဲ စိုးရိမ်နေတယ်။",
-        "th": "แต่ในใจ เธอห่วงพี่ชายในป่าอยู่เสมอ"
+        "th": "แต่ในใจ เธอห่วงพี่ชายในป่าอยู่เสมอ",
+        "si": "ඒත්, හිත ඇතුළෙන්, කැලේ ඉන්න අයියා ගැන, හැමදාම කනස්සල්ලෙන් හිටියා."
       },
       "vocab": [
         {
@@ -1549,7 +1900,8 @@
             "id": "terus-menerus",
             "pt": "o tempo todo",
             "my": "တောက်လျှောက်",
-            "th": "ตลอด"
+            "th": "ตลอด",
+            "si": "දිගටම, මුළු කාලයම"
           },
           "level": "N3"
         }
@@ -1565,7 +1917,8 @@
         "id": "cemas; kakak.",
         "pt": "preocupar; irmão.",
         "my": "စိုးရိမ်; အစ်ကို။",
-        "th": "ห่วง; พี่ชาย"
+        "th": "ห่วง; พี่ชาย",
+        "si": "「〜のことが心配」 = ~ ගැන කනස්සල්ලෙන්; 兄 = අයියා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=101.576,107.01",
       "t": [
@@ -1610,7 +1963,8 @@
         "id": "Beberapa waktu kemudian, raja berkata pada Myat Hla.",
         "pt": "Algum tempo depois, o rei disse a Myat Hla.",
         "my": "မကြာခင် ဘုရင်က မြတ်လှကို ပြောတယ်။",
-        "th": "ไม่นานนัก กษัตริย์ตรัสกับเมียตหล่า"
+        "th": "ไม่นานนัก กษัตริย์ตรัสกับเมียตหล่า",
+        "si": "ටික කාලෙකට පස්සේ, රජතුමා, මියත් ලාට, කිව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1624,7 +1978,8 @@
         "id": "kemudian.",
         "pt": "depois.",
         "my": "မကြာခင်။",
-        "th": "ไม่นาน"
+        "th": "ไม่นาน",
+        "si": "しばらくして = ටික කාලෙකට පස්සේ."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=107.61,112.005",
       "t": [
@@ -1685,7 +2040,8 @@
         "id": "\"Kakakmu akan kuampuni. Kuberi juga jabatan penting di kota.\"",
         "pt": "\"Vou perdoar seu irmão. E darei a ele um cargo importante.\"",
         "my": "\"မင်းအစ်ကိုကို ခွင့်လွှတ်မယ်။ မြို့ရဲ့ အရေးကြီးတဲ့ ရာထူးလည်း ပေးမယ်။\"",
-        "th": "\"ข้าจะยกโทษให้พี่ชายเจ้า และจะให้ตำแหน่งสำคัญในเมืองด้วย\""
+        "th": "\"ข้าจะยกโทษให้พี่ชายเจ้า และจะให้ตำแหน่งสำคัญในเมืองด้วย\"",
+        "si": "\"අයියට, සමාව දෙන්නම්. නගරයේ වැදගත් තනතුරකුත්, දෙන්නම්.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1699,7 +2055,8 @@
         "id": "mengampuni.",
         "pt": "perdoar.",
         "my": "ခွင့်လွှတ်။",
-        "th": "ยกโทษ"
+        "th": "ยกโทษ",
+        "si": "ゆるす = සමාව දෙනවා; 「〜てやろう」 = (උඩ ඉඳන්) ~ කරලා දෙන්නම්."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=112.905,118.287",
       "t": [
@@ -1760,7 +2117,8 @@
         "id": "\"Kirim surat ke hutan dan panggil kakakmu.\"",
         "pt": "\"Mande uma carta à floresta e chame seu irmão.\"",
         "my": "\"တောထဲ စာပို့ပြီး မင်းအစ်ကိုကို ခေါ်ပါ။\"",
-        "th": "\"ส่งจดหมายไปในป่า เรียกพี่ชายเจ้ากลับมา\""
+        "th": "\"ส่งจดหมายไปในป่า เรียกพี่ชายเจ้ากลับมา\"",
+        "si": "\"කැලේට, ලියුමක් යවලා, අයියාව, ගෙන්නගන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1774,7 +2132,8 @@
         "id": "panggil.",
         "pt": "chamar.",
         "my": "ခေါ်။",
-        "th": "เรียก"
+        "th": "เรียก",
+        "si": "よぶ = ගෙන්නගන්නවා; 「〜ておくれ」 = මට ~ කරලා දෙන්න (පරණ, සමීප කතාව)."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=118.887,123.328",
       "t": [
@@ -1811,7 +2170,8 @@
         "id": "\"Sungguh? Terima kasih!\"",
         "pt": "\"Verdade? Obrigada!\"",
         "my": "\"တကယ်လား။ ကျေးဇူးတင်ပါတယ်!\"",
-        "th": "\"จริงหรือเพคะ ขอบพระทัย!\""
+        "th": "\"จริงหรือเพคะ ขอบพระทัย!\"",
+        "si": "\"ඇත්තද? බොහොම ස්තුතියි!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1825,7 +2185,8 @@
         "id": "sungguh.",
         "pt": "verdade.",
         "my": "တကယ်။",
-        "th": "จริง"
+        "th": "จริง",
+        "si": "本当 = ඇත්ත."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=124.228,126.864",
       "t": [
@@ -1870,7 +2231,8 @@
         "id": "Dengan gembira, Myat Hla segera menulis surat.",
         "pt": "Feliz, Myat Hla escreveu logo uma carta.",
         "my": "မြတ်လှက ဝမ်းသာလို့ ချက်ချင်း စာရေးတယ်။",
-        "th": "เมียตหล่าดีใจ รีบเขียนจดหมายทันที"
+        "th": "เมียตหล่าดีใจ รีบเขียนจดหมายทันที",
+        "si": "මියත් ලා, සතුටින්, වහාම, ලියුමක් ලිව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1884,7 +2246,8 @@
         "id": "gembira; segera.",
         "pt": "feliz; logo.",
         "my": "ဝမ်းသာလို့; ချက်ချင်း။",
-        "th": "ดีใจ; ทันที"
+        "th": "ดีใจ; ทันที",
+        "si": "「うれしくて」 = සතුටින්; すぐに = වහාම."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=127.764,132.451",
       "t": [
@@ -1929,7 +2292,8 @@
         "id": "\"Kak, tak perlu lari lagi. Pulanglah.\"",
         "pt": "\"Irmão, não precisa mais fugir. Volte.\"",
         "my": "\"အစ်ကို၊ ထပ်မပြေးနဲ့တော့။ ပြန်လာခဲ့။\"",
-        "th": "\"พี่ ไม่ต้องหนีแล้ว กลับมาเถอะ\""
+        "th": "\"พี่ ไม่ต้องหนีแล้ว กลับมาเถอะ\"",
+        "si": "\"අයියේ, තවත්, පැනලා යන්න ඕනේ නැහැ. ආපහු එන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1943,7 +2307,8 @@
         "id": "tak perlu.",
         "pt": "não precisa.",
         "my": "မလိုတော့။",
-        "th": "ไม่ต้อง"
+        "th": "ไม่ต้อง",
+        "si": "「〜なくていい」 = ~ කරන්න ඕනේ නැහැ; 「〜のよ」 = ගැහැනු අවධාරණය."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=133.351,137.878",
       "t": [
@@ -1984,7 +2349,8 @@
         "id": "Setelah membaca surat, Tinde tersenyum.",
         "pt": "Ao ler a carta, Tinde sorriu.",
         "my": "စာဖတ်ပြီး တင့်တယ် ပြုံးတယ်။",
-        "th": "อ่านจดหมายแล้ว ทินเดยิ้ม"
+        "th": "อ่านจดหมายแล้ว ทินเดยิ้ม",
+        "si": "ලියුම කියවපු තින්ඩේ, සිනාසුණා."
       },
       "vocab": [
         {
@@ -2001,7 +2367,8 @@
             "id": "tersenyum",
             "pt": "sorrindo",
             "my": "ပြုံးပြုံးလေး",
-            "th": "ยิ้มแย้ม"
+            "th": "ยิ้มแย้ม",
+            "si": "හිනාවකින්"
           },
           "level": "N3"
         }
@@ -2017,7 +2384,8 @@
         "id": "tersenyum.",
         "pt": "sorrir.",
         "my": "ပြုံး။",
-        "th": "ยิ้ม"
+        "th": "ยิ้ม",
+        "si": "にっこり = සිනාසෙමින්; 「手紙を読んだ〜」 = ලියුම කියවපු ~."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=138.778,142.576",
       "t": [
@@ -2062,7 +2430,8 @@
         "id": "\"Kalau adikku bilang begitu, pasti aman.\"",
         "pt": "\"Se minha irmã diz isso, está tudo bem.\"",
         "my": "\"ညီမက ဒီလိုပြောရင် ရပါတယ်။\"",
-        "th": "\"ถ้าน้องสาวว่าอย่างนั้น ก็คงไม่เป็นไร\""
+        "th": "\"ถ้าน้องสาวว่าอย่างนั้น ก็คงไม่เป็นไร\"",
+        "si": "\"නංගී, එහෙම කියනවා නම්, කමක් නැහැ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2076,7 +2445,8 @@
         "id": "kalau.",
         "pt": "se.",
         "my": "ရင်။",
-        "th": "ถ้า"
+        "th": "ถ้า",
+        "si": "「〜なら」 = ~ නම්."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=143.476,146.384",
       "t": [
@@ -2137,7 +2507,8 @@
         "id": "Tinde keluar dari hutan dan kembali ke kota.",
         "pt": "Tinde saiu da floresta e voltou à cidade.",
         "my": "တင့်တယ်က တောထဲက ထွက်ပြီး မြို့ကို ပြန်လာတယ်။",
-        "th": "ทินเดออกจากป่ากลับเข้าเมือง"
+        "th": "ทินเดออกจากป่ากลับเข้าเมือง",
+        "si": "තින්ඩේ, කැලෙන් එළියට ඇවිත්, නගරයට, ආපහු ආවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2151,7 +2522,8 @@
         "id": "keluar hutan.",
         "pt": "sair da floresta.",
         "my": "တောက ထွက်။",
-        "th": "ออกจากป่า"
+        "th": "ออกจากป่า",
+        "si": "「森を出る」 = කැලෙන් එළියට එනවා (を = දාලා යන තැන)."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=147.284,151.331",
       "t": [
@@ -2204,7 +2576,8 @@
         "id": "Tapi di depan gerbang, banyak prajurit menunggu.",
         "pt": "Mas no portão, muitos soldados esperavam.",
         "my": "ဒါပေမဲ့ တံခါးရှေ့မှာ စစ်သားအများကြီး စောင့်နေတယ်။",
-        "th": "แต่หน้าประตูเมือง ทหารมากมายรออยู่"
+        "th": "แต่หน้าประตูเมือง ทหารมากมายรออยู่",
+        "si": "ඒත්, දොරටුව ඉස්සරහ, සෙබළු ගොඩක්, බලාගෙන හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2218,7 +2591,8 @@
         "id": "tapi; gerbang.",
         "pt": "mas; portão.",
         "my": "ဒါပေမဲ့; တံခါး။",
-        "th": "แต่; ประตู"
+        "th": "แต่; ประตู",
+        "si": "ところが = ඒත් (අනපේක්ෂිතව); 門 = දොරටුව."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=151.931,156.901",
       "t": [
@@ -2271,7 +2645,8 @@
         "id": "\"Apa ini! Raja bilang akan mengampuniku!\"",
         "pt": "\"O que estão fazendo! O rei disse que me perdoaria!\"",
         "my": "\"ဘာလုပ်တာလဲ! ဘုရင်က ခွင့်လွှတ်မယ်လို့ ပြောထားတာလေ!\"",
-        "th": "\"ทำอะไรน่ะ! กษัตริย์บอกว่าจะยกโทษให้นี่!\""
+        "th": "\"ทำอะไรน่ะ! กษัตริย์บอกว่าจะยกโทษให้นี่!\"",
+        "si": "\"මොකද කරන්නේ! රජතුමා, සමාව දෙනවා කිව්වා නේ!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2285,7 +2660,8 @@
         "id": "seharusnya.",
         "pt": "deveria.",
         "my": "ရမှာ။",
-        "th": "น่าจะ"
+        "th": "น่าจะ",
+        "si": "「〜はずだ」 = ~ කරන්න ඕනේ, ~ නිසැකයි."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=157.801,161.331",
       "t": [
@@ -2330,7 +2706,8 @@
         "id": "Tinde diikat dengan tali ke pohon besar.",
         "pt": "Tinde foi amarrado com corda a uma grande árvore.",
         "my": "တင့်တယ်ကို ကြိုးနဲ့ သစ်ပင်ကြီးမှာ ချည်ထားတယ်။",
-        "th": "ทินเดถูกมัดด้วยเชือกไว้กับต้นไม้ใหญ่"
+        "th": "ทินเดถูกมัดด้วยเชือกไว้กับต้นไม้ใหญ่",
+        "si": "තින්ඩේව, කඹවලින්, ලොකු ගහක, බැන්දා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2344,7 +2721,8 @@
         "id": "tali; diikat.",
         "pt": "corda; ser amarrado.",
         "my": "ကြိုး; ချည်ခံရ။",
-        "th": "เชือก; ถูกมัด"
+        "th": "เชือก; ถูกมัด",
+        "si": "なわ = කඹය; しばられる = බඳිනවා (කර්මකාරක)."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=162.231,166.414",
       "t": [
@@ -2393,7 +2771,8 @@
         "id": "Itu pohon cempaka yang berbunga putih.",
         "pt": "Era uma árvore champaca de flores brancas.",
         "my": "ပန်းဖြူ ပွင့်တဲ့ စံပကာပင် ဖြစ်တယ်။",
-        "th": "เป็นต้นจำปาที่ออกดอกสีขาว"
+        "th": "เป็นต้นจำปาที่ออกดอกสีขาว",
+        "si": "ඒ, සුදු මල් පිපෙන, සපු ගහක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -2407,7 +2786,8 @@
         "id": "berbunga putih.",
         "pt": "de flores brancas.",
         "my": "ပန်းဖြူပွင့်တဲ့။",
-        "th": "ที่ออกดอกขาว"
+        "th": "ที่ออกดอกขาว",
+        "si": "「白い花がさく〜」 = සුදු මල් පිපෙන ~ (සම්බන්ධක වාක්‍යය)."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=167.014,170.269",
       "t": [
@@ -2464,7 +2844,8 @@
         "id": "Raja menyuruh menyalakan api di bawah pohon.",
         "pt": "O rei mandou acender fogo debaixo da árvore.",
         "my": "ဘုရင်က သစ်ပင်အောက်မှာ မီးရှို့ခိုင်းတယ်။",
-        "th": "กษัตริย์สั่งให้จุดไฟใต้ต้นไม้"
+        "th": "กษัตริย์สั่งให้จุดไฟใต้ต้นไม้",
+        "si": "රජතුමා, ගහ යට, ගිනි තියන්න සැලැස්සුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2478,7 +2859,8 @@
         "id": "menyuruh; menyalakan.",
         "pt": "mandar; acender.",
         "my": "ခိုင်း; မီးရှို့။",
-        "th": "สั่งให้; จุดไฟ"
+        "th": "สั่งให้; จุดไฟ",
+        "si": "「〜させる」 = ~ කරවනවා; 「火をつける」 = ගිනි තියනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=170.869,174.716",
       "t": [
@@ -2523,7 +2905,8 @@
         "id": "Melihat itu, Myat Hla berlari datang.",
         "pt": "Ao ver isso, Myat Hla veio correndo.",
         "my": "အဲဒါမြင်တော့ မြတ်လှ ပြေးလာတယ်။",
-        "th": "เห็นดังนั้น เมียตหล่าวิ่งมา"
+        "th": "เห็นดังนั้น เมียตหล่าวิ่งมา",
+        "si": "ඒක දැකපු මියත් ලා, දුවගෙන ආවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2537,7 +2920,8 @@
         "id": "berlari datang.",
         "pt": "vir correndo.",
         "my": "ပြေးလာ။",
-        "th": "วิ่งมา"
+        "th": "วิ่งมา",
+        "si": "「走ってくる」 = දුවගෙන එනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=175.316,178.423",
       "t": [
@@ -2590,7 +2974,8 @@
         "id": "\"Kak! Karena aku menulis surat itu...\"",
         "pt": "\"Irmão! Por eu ter escrito a carta...\"",
         "my": "\"အစ်ကို! ကျွန်မ စာရေးခဲ့လို့...\"",
-        "th": "\"พี่! เพราะน้องเขียนจดหมาย...\""
+        "th": "\"พี่! เพราะน้องเขียนจดหมาย...\"",
+        "si": "\"අයියේ! මම, ලියුම ලියපු නිසා......\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2604,7 +2989,8 @@
         "id": "gara-gara.",
         "pt": "por culpa de.",
         "my": "ကြောင့်။",
-        "th": "เพราะ"
+        "th": "เพราะ",
+        "si": "「〜せいで」 = ~ නිසා (නරක ප්‍රතිඵලයක්)."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=179.323,182.721",
       "t": [
@@ -2657,7 +3043,8 @@
         "id": "\"Tak akan kubiarkan kakak pergi sendiri!\"",
         "pt": "\"Não vou deixar você ir sozinho!\"",
         "my": "\"အစ်ကိုကို တစ်ယောက်တည်း မသွားစေရဘူး!\"",
-        "th": "\"น้องจะไม่ให้พี่ไปคนเดียว!\""
+        "th": "\"น้องจะไม่ให้พี่ไปคนเดียว!\"",
+        "si": "\"අයියව තනියම, යවන්නේ නැහැ!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2671,7 +3058,8 @@
         "id": "tak akan membiarkan.",
         "pt": "não deixar.",
         "my": "မသွားစေ။",
-        "th": "ไม่ให้ไป"
+        "th": "ไม่ให้ไป",
+        "si": "「行かせません」 = යන්න දෙන්නේ නැහැ (නිෂේධ ප්‍රයෝජ්‍ය)."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=183.321,185.757",
       "t": [
@@ -2724,7 +3112,8 @@
         "id": "Myat Hla masuk ke dalam api.",
         "pt": "Myat Hla entrou no fogo.",
         "my": "မြတ်လှက မီးထဲ ဝင်သွားတယ်။",
-        "th": "เมียตหล่าเดินเข้าไปในกองไฟ"
+        "th": "เมียตหล่าเดินเข้าไปในกองไฟ",
+        "si": "මියත් ලා, ගින්න ඇතුළට, ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2738,7 +3127,8 @@
         "id": "masuk.",
         "pt": "entrar.",
         "my": "ဝင်သွား။",
-        "th": "เข้าไป"
+        "th": "เข้าไป",
+        "si": "「入っていく」 = ඇතුළට යනවා (ඈත් වෙමින්)."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=186.657,190.401",
       "t": [
@@ -2795,7 +3185,8 @@
         "id": "Kakak beradik itu tewas bersama dalam api.",
         "pt": "Os irmãos morreram juntos no fogo.",
         "my": "မောင်နှမ နှစ်ယောက် မီးထဲမှာ အတူ ဆုံးသွားတယ်။",
-        "th": "พี่น้องสิ้นใจด้วยกันในกองไฟ"
+        "th": "พี่น้องสิ้นใจด้วยกันในกองไฟ",
+        "si": "අයියයි නංගියි, එකට, ගින්නේ, මිය ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2809,7 +3200,8 @@
         "id": "wafat; bersama.",
         "pt": "falecer; juntos.",
         "my": "ဆုံး; အတူ။",
-        "th": "สิ้นใจ; ด้วยกัน"
+        "th": "สิ้นใจ; ด้วยกัน",
+        "si": "なくなる = මිය යනවා (ආචාරශීලී); いっしょに = එකට."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=191.001,195.476",
       "t": [
@@ -2846,7 +3238,8 @@
         "id": "Setelah itu, hal aneh terus terjadi.",
         "pt": "Depois, coisas estranhas continuaram acontecendo.",
         "my": "နောက်ပိုင်း ထူးဆန်းတာတွေ ဆက်တိုက် ဖြစ်တယ်။",
-        "th": "หลังจากนั้น เรื่องแปลก ๆ เกิดขึ้นต่อเนื่อง"
+        "th": "หลังจากนั้น เรื่องแปลก ๆ เกิดขึ้นต่อเนื่อง",
+        "si": "ඊට පස්සේ, පුදුම දේවල්, දිගටම වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2860,7 +3253,8 @@
         "id": "terus; aneh.",
         "pt": "continuar; estranho.",
         "my": "ဆက်တိုက်; ထူးဆန်း။",
-        "th": "ต่อเนื่อง; แปลก"
+        "th": "ต่อเนื่อง; แปลก",
+        "si": "続く = දිගටම වෙනවා; ふしぎ = පුදුම."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=196.076,199.052",
       "t": [
@@ -2921,7 +3315,8 @@
         "id": "Semua yang mendekati pohon itu jatuh sakit.",
         "pt": "Todos que se aproximavam da árvore adoeciam.",
         "my": "စံပကာပင်နား ကပ်တဲ့သူ အားလုံး နေမကောင်း ဖြစ်တယ်။",
-        "th": "ใครเข้าใกล้ต้นจำปาก็ล้มป่วยหมด"
+        "th": "ใครเข้าใกล้ต้นจำปาก็ล้มป่วยหมด",
+        "si": "සපු ගහ ළඟට යන හැමෝම, ලෙඩ වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2935,7 +3330,8 @@
         "id": "mendekati; sakit.",
         "pt": "aproximar-se; adoecer.",
         "my": "နားကပ်; နေမကောင်း။",
-        "th": "เข้าใกล้; ป่วย"
+        "th": "เข้าใกล้; ป่วย",
+        "si": "近づく = ළං වෙනවා; 「病気になる」 = ලෙඩ වෙනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=199.652,204.32",
       "t": [
@@ -2984,7 +3380,8 @@
         "id": "Orang berkata, \"Arwah mereka berdua sedang marah.\"",
         "pt": "O povo dizia: \"As almas dos dois estão zangadas.\"",
         "my": "လူတွေက \"နှစ်ယောက်ရဲ့ ဝိညာဉ် စိတ်ဆိုးနေတာ\" လို့ ပြောတယ်။",
-        "th": "ผู้คนพูดว่า \"วิญญาณของทั้งสองกำลังโกรธ\""
+        "th": "ผู้คนพูดว่า \"วิญญาณของทั้งสองกำลังโกรธ\"",
+        "si": "මිනිස්සු, \"දෙන්නාගේ ආත්ම, කේන්තියෙන් ඉන්නවා\" කියලා, කිව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2998,7 +3395,8 @@
         "id": "arwah; orang-orang.",
         "pt": "alma; povo.",
         "my": "ဝိညာဉ်; လူတွေ။",
-        "th": "วิญญาณ; ผู้คน"
+        "th": "วิญญาณ; ผู้คน",
+        "si": "たましい = ආත්මය; 人々 = මිනිස්සු."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=204.92,209.606",
       "t": [
@@ -3047,7 +3445,8 @@
         "id": "Raja ketakutan dan menyuruh menebang pohon itu.",
         "pt": "Com medo, o rei mandou cortar a árvore.",
         "my": "ဘုရင် ကြောက်လာပြီး သစ်ပင်ကို ခုတ်ခိုင်းတယ်။",
-        "th": "กษัตริย์กลัว จึงสั่งให้โค่นต้นไม้"
+        "th": "กษัตริย์กลัว จึงสั่งให้โค่นต้นไม้",
+        "si": "රජතුමා, බය වෙලා, ගහ, කපන්න සැලැස්සුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3061,7 +3460,8 @@
         "id": "takut; menyuruh menebang.",
         "pt": "ficar com medo; mandar cortar.",
         "my": "ကြောက်လာ; ခုတ်ခိုင်း။",
-        "th": "กลัว; สั่งโค่น"
+        "th": "กลัว; สั่งโค่น",
+        "si": "「こわくなる」 = බය වෙනවා; 「切らせる」 = කපවනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=210.206,214.419",
       "t": [
@@ -3114,7 +3514,8 @@
         "id": "Lalu menyuruh membuangnya ke sungai besar.",
         "pt": "E mandou jogá-la num grande rio.",
         "my": "ပြီးတော့ မြစ်ကြီးထဲ ပစ်ခိုင်းတယ်။",
-        "th": "แล้วสั่งให้โยนลงแม่น้ำใหญ่"
+        "th": "แล้วสั่งให้โยนลงแม่น้ำใหญ่",
+        "si": "ඊට පස්සේ, ගහ, ලොකු ගඟකට, විසි කරන්න සැලැස්සුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3128,7 +3529,8 @@
         "id": "membuang; sungai.",
         "pt": "jogar; rio.",
         "my": "ပစ်; မြစ်။",
-        "th": "โยน; แม่น้ำ"
+        "th": "โยน; แม่น้ำ",
+        "si": "なげる = විසි කරනවා; 川 = ගඟ."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=215.019,219.224",
       "t": [
@@ -3201,7 +3603,8 @@
         "id": "Pohon itu hanyut sampai ke kota Bagan yang jauh.",
         "pt": "A árvore desceu o rio até a distante Bagan.",
         "my": "သစ်ပင်က မြစ်အတိုင်း မျောပြီး ဝေးတဲ့ ပုဂံမြို့ ရောက်တယ်။",
-        "th": "ต้นไม้ลอยตามแม่น้ำไปถึงเมืองพุกามที่ห่างไกล"
+        "th": "ต้นไม้ลอยตามแม่น้ำไปถึงเมืองพุกามที่ห่างไกล",
+        "si": "ගහ, ගඟේ පාවෙලා, ඈත බගාන් නගරයට, ළඟා වුණා."
       },
       "vocab": [
         {
@@ -3218,7 +3621,8 @@
             "id": "hanyut",
             "pt": "flutuar",
             "my": "မျော",
-            "th": "ไหล"
+            "th": "ไหล",
+            "si": "ගලා යාම, පාවී යාම"
           },
           "level": "N3"
         }
@@ -3234,7 +3638,8 @@
         "id": "hanyut; tiba.",
         "pt": "descer; chegar.",
         "my": "မျော; ရောက်။",
-        "th": "ลอย; ถึง"
+        "th": "ลอย; ถึง",
+        "si": "流れる = පාවෙලා යනවා; 着く = ළඟා වෙනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=219.824,224.275",
       "t": [
@@ -3315,7 +3720,8 @@
         "id": "Pohon yang hanyut itu seolah kakak beradik sedang berkelana bersama.",
         "pt": "A árvore no rio parecia os irmãos viajando juntos.",
         "my": "မြစ်ထဲ မျောသွားတဲ့ သစ်ပင်က မောင်နှမ အတူ ခရီးသွားနေသလိုပဲ။",
-        "th": "ต้นไม้ที่ลอยไป ดูเหมือนพี่น้องกำลังเดินทางด้วยกัน"
+        "th": "ต้นไม้ที่ลอยไป ดูเหมือนพี่น้องกำลังเดินทางด้วยกัน",
+        "si": "ගඟේ පාවෙලා යන ගහ, හරියට, අයියයි නංගියි, දෙන්නා ගමනක් යනවා වගේ."
       },
       "vocab": [
         {
@@ -3332,7 +3738,8 @@
             "id": "seolah",
             "pt": "como se",
             "my": "သလိုပဲ",
-            "th": "ราวกับ"
+            "th": "ราวกับ",
+            "si": "හරියට ~ වගේ"
           },
           "level": "N3"
         }
@@ -3348,7 +3755,8 @@
         "id": "seolah.",
         "pt": "como se.",
         "my": "သလိုပဲ။",
-        "th": "ราวกับ"
+        "th": "ราวกับ",
+        "si": "「まるで〜ようでした」 = හරියට ~ වගේ."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=224.875,231.475",
       "t": [
@@ -3425,7 +3833,8 @@
         "id": "Suatu malam, mereka muncul dalam mimpi raja Bagan.",
         "pt": "Certa noite, os irmãos apareceram no sonho do rei de Bagan.",
         "my": "တစ်ညမှာ ပုဂံမင်းရဲ့ အိပ်မက်ထဲ မောင်နှမ ပေါ်လာတယ်။",
-        "th": "คืนหนึ่ง พี่น้องปรากฏในฝันของกษัตริย์พุกาม"
+        "th": "คืนหนึ่ง พี่น้องปรากฏในฝันของกษัตริย์พุกาม",
+        "si": "එක රැයක, බගාන් රජතුමාගේ හීනයට, අයියයි නංගියි, ආවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3439,7 +3848,8 @@
         "id": "mimpi; muncul.",
         "pt": "sonho; aparecer.",
         "my": "အိပ်မက်; ပေါ်လာ။",
-        "th": "ฝัน; ปรากฏ"
+        "th": "ฝัน; ปรากฏ",
+        "si": "夢 = හීනය; 「夢に出てくる」 = හීනයට එනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=232.075,237.506",
       "t": [
@@ -3476,7 +3886,8 @@
         "id": "\"Berilah kami tempat tinggal.\"",
         "pt": "\"Dê-nos um lugar para morar.\"",
         "my": "\"ကျွန်တော်တို့ကို နေစရာ နေရာ ပေးပါ။\"",
-        "th": "\"โปรดให้ที่อยู่แก่เราด้วย\""
+        "th": "\"โปรดให้ที่อยู่แก่เราด้วย\"",
+        "si": "\"අපිට, ඉන්න තැනක්, දෙන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3490,7 +3901,8 @@
         "id": "tempat tinggal.",
         "pt": "lugar para morar.",
         "my": "နေစရာ။",
-        "th": "ที่อยู่"
+        "th": "ที่อยู่",
+        "si": "「すむ場所」 = ඉන්න තැනක්."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=238.406,241.137",
       "t": [
@@ -3527,7 +3939,8 @@
         "id": "\"Maka kami akan menjaga kota ini selamanya.\"",
         "pt": "\"Assim, protegeremos esta cidade para sempre.\"",
         "my": "\"ဒါဆိုရင် ဒီမြို့ကို အမြဲ စောင့်ရှောက်ပါမယ်။\"",
-        "th": "\"แล้วเราจะคุ้มครองเมืองนี้ตลอดไป\""
+        "th": "\"แล้วเราจะคุ้มครองเมืองนี้ตลอดไป\"",
+        "si": "\"එහෙම කළොත්, මේ නගරය, හැමදාම, ආරක්ෂා කරනවා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3541,7 +3954,8 @@
         "id": "maka; selamanya.",
         "pt": "assim; para sempre.",
         "my": "ဒါဆိုရင်; အမြဲ။",
-        "th": "แล้ว; ตลอดไป"
+        "th": "แล้ว; ตลอดไป",
+        "si": "「そうすれば」 = එහෙම කළොත්; ずっと = හැමදාම."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=242.037,245.974",
       "t": [
@@ -3606,7 +4020,8 @@
         "id": "Raja menyuruh membawa pohon itu ke Gunung Popa.",
         "pt": "O rei mandou levar a árvore ao monte Popa.",
         "my": "ဘုရင်က သစ်ပင်ကို ပုပ္ပားတောင်ကို သယ်ခိုင်းတယ်။",
-        "th": "กษัตริย์ให้ขนต้นไม้ไปที่ภูเขาโปปา"
+        "th": "กษัตริย์ให้ขนต้นไม้ไปที่ภูเขาโปปา",
+        "si": "රජතුමා, ගහ, පොප්පා කියන කන්දට, ගෙනියන්න සැලැස්සුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3620,7 +4035,8 @@
         "id": "membawa; menyuruh membawa.",
         "pt": "levar; mandar levar.",
         "my": "သယ်; သယ်ခိုင်း။",
-        "th": "ขน; ให้ขน"
+        "th": "ขน; ให้ขน",
+        "si": "運ぶ = ගෙනියනවා; 「運ばせる」 = ගෙනියවනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=246.874,251.725",
       "t": [
@@ -3689,7 +4105,8 @@
         "id": "Dari kayu itu dibuat patung keduanya dan dipuja dengan hormat.",
         "pt": "Esculpiram estátuas dos dois na madeira e as veneraram.",
         "my": "သစ်သားနဲ့ နှစ်ယောက်ရဲ့ ရုပ်တု ထုပြီး ကိုးကွယ်တယ်။",
-        "th": "แกะรูปของทั้งสองจากไม้นั้น แล้วบูชาอย่างดี"
+        "th": "แกะรูปของทั้งสองจากไม้นั้น แล้วบูชาอย่างดี",
+        "si": "ඊට පස්සේ, ලීයෙන්, දෙන්නාගේ පිළිම හදලා, ගෞරවයෙන්, පූජා කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3703,7 +4120,8 @@
         "id": "patung; memuja.",
         "pt": "estátua; venerar.",
         "my": "ရုပ်တု; ကိုးကွယ်။",
-        "th": "รูปเคารพ; บูชา"
+        "th": "รูปเคารพ; บูชา",
+        "si": "像 = පිළිමය; まつる = දේවත්වයෙන් පුදනවා; 「〜で作る」 = ~ වලින් හදනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=252.325,257.731",
       "t": [
@@ -3740,7 +4158,8 @@
         "id": "Maka Tinde menjadi dewa bernama \"Mahagiri\".",
         "pt": "Assim Tinde virou o deus \"Mahagiri\".",
         "my": "ဒီလိုနဲ့ တင့်တယ်က \"မဟာဂီရိ\" နတ် ဖြစ်လာတယ်။",
-        "th": "ทินเดจึงกลายเป็นเทพนาม \"มหาคีรี\""
+        "th": "ทินเดจึงกลายเป็นเทพนาม \"มหาคีรี\"",
+        "si": "මෙහෙම, තින්ඩේ, \"මහගිරි\" කියන දෙවියා බවට පත් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3754,7 +4173,8 @@
         "id": "maka.",
         "pt": "assim.",
         "my": "ဒီလိုနဲ့။",
-        "th": "จึง"
+        "th": "จึง",
+        "si": "こうして = මෙහෙම."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=258.331,262.928",
       "t": [
@@ -3815,7 +4235,8 @@
         "id": "Artinya \"Raja Gunung Agung\".",
         "pt": "Quer dizer \"Rei da Grande Montanha\".",
         "my": "\"တောင်ကြီးရဲ့ မင်း\" လို့ အဓိပ္ပာယ်ရတယ်။",
-        "th": "แปลว่า \"ราชาแห่งขุนเขาใหญ่\""
+        "th": "แปลว่า \"ราชาแห่งขุนเขาใหญ่\"",
+        "si": "\"මහා කන්දේ රජු\" කියන තේරුම."
       },
       "vocab": [
         {
@@ -3832,7 +4253,8 @@
             "id": "raja",
             "pt": "rei",
             "my": "ဘုရင်",
-            "th": "กษัตริย์"
+            "th": "กษัตริย์",
+            "si": "රජතුමා"
           },
           "level": "N3"
         }
@@ -3848,7 +4270,8 @@
         "id": "artinya.",
         "pt": "quer dizer.",
         "my": "အဓိပ္ပာယ်။",
-        "th": "แปลว่า"
+        "th": "แปลว่า",
+        "si": "意味 = තේරුම; 「〜という意味です」 = ~ කියන තේරුම."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=263.528,266.312",
       "t": [
@@ -3905,7 +4328,8 @@
         "id": "Hingga kini, orang Myanmar memuja Mahagiri sebagai dewa rumah.",
         "pt": "Até hoje, o povo de Mianmar venera Mahagiri como deus do lar.",
         "my": "အခုထိ မြန်မာတွေက မဟာဂီရိကို အိမ်စောင့်နတ်အဖြစ် ကိုးကွယ်တယ်။",
-        "th": "ทุกวันนี้ ชาวพม่ายังบูชามหาคีรีเป็นเทพประจำบ้าน"
+        "th": "ทุกวันนี้ ชาวพม่ายังบูชามหาคีรีเป็นเทพประจำบ้าน",
+        "si": "අදටත්, මියන්මාරයේ මිනිස්සු, ගෙදර දෙවියා විදිහට, මහගිරිව, පුදනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3919,7 +4343,8 @@
         "id": "sebagai; hingga kini.",
         "pt": "como; até hoje.",
         "my": "အဖြစ်; အခုထိ။",
-        "th": "เป็น; ทุกวันนี้"
+        "th": "เป็น; ทุกวันนี้",
+        "si": "「〜として」 = ~ විදිහට; 「今でも」 = අදටත්."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=266.912,273.714",
       "t": [
@@ -3984,7 +4409,8 @@
         "id": "Jepang juga punya kisah orang teraniaya yang menjadi dewa.",
         "pt": "O Japão também tem a história de alguém injustiçado que virou deus.",
         "my": "ဂျပန်မှာလည်း မတရား ခံရတဲ့သူ နတ်ဖြစ်တဲ့ ပုံပြင် ရှိတယ်။",
-        "th": "ญี่ปุ่นก็มีเรื่องคนที่ถูกกระทำอย่างอยุติธรรมแล้วกลายเป็นเทพ"
+        "th": "ญี่ปุ่นก็มีเรื่องคนที่ถูกกระทำอย่างอยุติธรรมแล้วกลายเป็นเทพ",
+        "si": "ජපානයෙත්, අසාධාරණයට ලක් වුණු කෙනෙක්, දෙවියෙක් වුණු කතාවක්, තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3998,7 +4424,8 @@
         "id": "teraniaya.",
         "pt": "ser injustiçado.",
         "my": "မတရားခံရ။",
-        "th": "ถูกกระทำ"
+        "th": "ถูกกระทำ",
+        "si": "「悪いことをされる」 = අසාධාරණයට ලක් වෙනවා (කර්මකාරක)."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=274.314,279.619",
       "t": [
@@ -4071,7 +4498,8 @@
         "id": "Sarjana kuno Sugawara no Michizane dibuang ke Kyushu yang jauh karena fitnah, lalu wafat di sana.",
         "pt": "O antigo erudito Sugawara no Michizane foi exilado em Kyushu por mentiras e morreu lá.",
         "my": "ရှေးပညာရှင် ဆုဂါဝါရ နို မိချိဇနဲ့က လိမ်ညာမှုကြောင့် ဝေးတဲ့ ကျူးရှူးကို ပို့ခံရပြီး အဲဒီမှာ ဆုံးတယ်။",
-        "th": "นักปราชญ์โบราณ ซุงาวาระ โนะ มิจิซาเนะ ถูกเนรเทศไปคิวชูเพราะคำใส่ร้าย และสิ้นชีวิตที่นั่น"
+        "th": "นักปราชญ์โบราณ ซุงาวาระ โนะ มิจิซาเนะ ถูกเนรเทศไปคิวชูเพราะคำใส่ร้าย และสิ้นชีวิตที่นั่น",
+        "si": "ඉස්සර හිටපු විද්වතෙක්, සුගවාරා නො මිචිසනේ, බොරු නිසා, ඈත ක්‍යූෂූවලට, පිටුවහල් කරලා, එතනදී, මිය ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4085,7 +4513,8 @@
         "id": "sarjana; dibuang; karena.",
         "pt": "erudito; ser exilado; por.",
         "my": "ပညာရှင်; ပို့ခံရ; ကြောင့်။",
-        "th": "นักปราชญ์; ถูกส่ง; เพราะ"
+        "th": "นักปราชญ์; ถูกส่ง; เพราะ",
+        "si": "学者 = විද්වතා; 「送られる」 = යවනවා (කර්මකාරක); 「〜のせいで」 = ~ නිසා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=280.219,288.872",
       "t": [
@@ -4138,7 +4567,8 @@
         "id": "Setelah itu, petir dan wabah terus melanda Kyoto.",
         "pt": "Depois, raios e doenças atingiram Kyoto sem parar.",
         "my": "နောက်ပိုင်း ကျိုတိုမှာ မိုးကြိုးနဲ့ ရောဂါ ဆက်တိုက် ဖြစ်တယ်။",
-        "th": "หลังจากนั้น ที่เกียวโตเกิดฟ้าผ่าและโรคระบาดต่อเนื่อง"
+        "th": "หลังจากนั้น ที่เกียวโตเกิดฟ้าผ่าและโรคระบาดต่อเนื่อง",
+        "si": "ඊට පස්සේ, ක්‍යෝතෝවල, අකුණුයි ලෙඩයි, දිගටම වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4152,7 +4582,8 @@
         "id": "petir; dan.",
         "pt": "raio; e.",
         "my": "မိုးကြိုး; နဲ့။",
-        "th": "ฟ้าผ่า; และ"
+        "th": "ฟ้าผ่า; และ",
+        "si": "かみなり = අකුණු; 「〜や〜」 = ~ සහ ~ (වගේ දේවල්)."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=289.472,294.544",
       "t": [
@@ -4201,7 +4632,8 @@
         "id": "Orang memuja Michizane sebagai \"Tenjin-sama\".",
         "pt": "O povo passou a venerar Michizane como \"Tenjin-sama\".",
         "my": "လူတွေက မိချိဇနဲ့ကို \"တင်ဂျင်ဆမ\" အဖြစ် ကိုးကွယ်တယ်။",
-        "th": "ผู้คนบูชามิจิซาเนะเป็น \"เท็นจินซามะ\""
+        "th": "ผู้คนบูชามิจิซาเนะเป็น \"เท็นจินซามะ\"",
+        "si": "මිනිස්සු, මිචිසනේව, \"තෙන්ජින්-සමා\" විදිහට, පිදුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4215,7 +4647,8 @@
         "id": "memuja sebagai.",
         "pt": "venerar como.",
         "my": "အဖြစ် ကိုးကွယ်။",
-        "th": "บูชาเป็น"
+        "th": "บูชาเป็น",
+        "si": "「〜を〜としてまつる」 = ~ ව ~ විදිහට පුදනවා."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=295.144,299.676",
       "t": [
@@ -4284,7 +4717,8 @@
         "id": "Kini ada banyak kuil Tenmangu untuk Michizane di seluruh Jepang.",
         "pt": "Hoje há muitos santuários Tenmangu dedicados a Michizane por todo o Japão.",
         "my": "အခု ဂျပန်တစ်နိုင်ငံလုံးမှာ မိချိဇနဲ့ကို ကိုးကွယ်တဲ့ တင်မန်ဂူ နတ်ကွန်း အများကြီး ရှိတယ်။",
-        "th": "ปัจจุบันทั่วญี่ปุ่นมีศาลเจ้าเท็นมังงูที่บูชามิจิซาเนะมากมาย"
+        "th": "ปัจจุบันทั่วญี่ปุ่นมีศาลเจ้าเท็นมังงูที่บูชามิจิซาเนะมากมาย",
+        "si": "මිචිසනේව පුදන තෙන්මන්ගු කියන දේවාල, අද, ජපානය පුරාම, ගොඩක් තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4298,7 +4732,8 @@
         "id": "kuil; seluruh Jepang.",
         "pt": "santuário; todo o Japão.",
         "my": "နတ်ကွန်း; တစ်နိုင်ငံလုံး။",
-        "th": "ศาลเจ้า; ทั่วญี่ปุ่น"
+        "th": "ศาลเจ้า; ทั่วญี่ปุ่น",
+        "si": "神社 = ෂින්තෝ දේවාලය; 「日本中」 = ජපානය පුරාම."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=300.276,306.531",
       "t": [
@@ -4371,7 +4806,8 @@
         "id": "Tenjin-sama juga terkenal sebagai dewa belajar, jadi pelajar yang akan ujian datang berdoa.",
         "pt": "Tenjin-sama também é famoso como deus dos estudos, e vestibulandos vão rezar.",
         "my": "တင်ဂျင်ဆမက ပညာရေးနတ်အဖြစ်လည်း နာမည်ကြီးလို့ စာမေးပွဲဖြေမယ့်သူတွေ ဆုတောင်းသွားကြတယ်။",
-        "th": "เท็นจินซามะยังมีชื่อเป็นเทพแห่งการเรียน นักเรียนที่จะสอบจึงไปไหว้"
+        "th": "เท็นจินซามะยังมีชื่อเป็นเทพแห่งการเรียน นักเรียนที่จะสอบจึงไปไหว้",
+        "si": "තෙන්ජින්-සමා, අධ්‍යාපනයේ දෙවියා විදිහටත් ප්‍රසිද්ධයි, විභාග ලියන ළමයි, වඳින්න යනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4385,7 +4821,8 @@
         "id": "juga terkenal; pelajar; berdoa.",
         "pt": "também famoso; vestibulando; rezar.",
         "my": "လည်း နာမည်ကြီး; စာမေးပွဲဖြေသူ; ဆုတောင်း။",
-        "th": "มีชื่อเป็น; ผู้สอบ; ไหว้"
+        "th": "มีชื่อเป็น; ผู้สอบ; ไหว้",
+        "si": "「〜としても有名」 = ~ විදිහටත් ප්‍රසිද්ධයි; 受験生 = විභාග අපේක්ෂකයා; おまいり = වන්දනාව."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=307.131,314.136",
       "t": [
@@ -4446,7 +4883,8 @@
         "id": "Baik di Myanmar maupun Jepang, hati yang sedih dihormati sebagai dewa, ya.",
         "pt": "Em Mianmar e no Japão, honraram um coração triste como deus, não é?",
         "my": "မြန်မာမှာရော ဂျပန်မှာရော ဝမ်းနည်းတဲ့ စိတ်ကို နတ်အဖြစ် တန်ဖိုးထားကြတာပေါ့။",
-        "th": "ทั้งพม่าและญี่ปุ่น ต่างให้ความสำคัญกับใจที่โศกเศร้าด้วยการยกเป็นเทพนะ"
+        "th": "ทั้งพม่าและญี่ปุ่น ต่างให้ความสำคัญกับใจที่โศกเศร้าด้วยการยกเป็นเทพนะ",
+        "si": "මියන්මාරයේත්, ජපානයේත්, දුක්බර හිත, දෙවියෙක් විදිහට, ගෞරව කළා නේද."
       },
       "vocab": [],
       "grammarNote": {
@@ -4460,7 +4898,8 @@
         "id": "baik maupun; ya.",
         "pt": "e; não é.",
         "my": "ရော...ရော; ပေါ့။",
-        "th": "ทั้ง...และ; นะ"
+        "th": "ทั้ง...และ; นะ",
+        "si": "「〜でも、〜でも」 = ~ හිත්, ~ හිත්; 「〜のですね」 = එහෙමයි නේද."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=314.736,321.495",
       "t": [
@@ -4521,7 +4960,8 @@
         "id": "Kalau melihat rak kelapa, ingatlah Tinde dan adiknya.",
         "pt": "Ao ver uma prateleira com coco, lembre-se de Tinde e da irmã.",
         "my": "အုန်းသီးစင်ကို မြင်ရင် တင့်တယ်နဲ့ ညီမကို သတိရပါ။",
-        "th": "เมื่อเห็นชั้นวางมะพร้าว ลองนึกถึงทินเดกับน้องสาวนะ"
+        "th": "เมื่อเห็นชั้นวางมะพร้าว ลองนึกถึงทินเดกับน้องสาวนะ",
+        "si": "පොල් ගෙඩි රාක්කය දැක්කොත්, තින්ඩේවයි නංගිවයි, මතක් කරගන්න."
       },
       "vocab": [],
       "grammarNote": {
@@ -4535,7 +4975,8 @@
         "id": "kalau; ingatlah.",
         "pt": "ao; lembre-se.",
         "my": "ရင်; သတိရပါ။",
-        "th": "เมื่อ; นึกถึง"
+        "th": "เมื่อ; นึกถึง",
+        "si": "「〜たら」 = ~ දැක්කොත්; 「思い出してください」 = මතක් කරගන්න."
       },
       "audio": "/audio/furusato-mm-mahagiri-1/chapter.mp3#t=322.095,327.522",
       "t": [

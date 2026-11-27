@@ -7,12 +7,16 @@ import { useLang } from "../../../components/LangProvider";
 import Furigana from "../../../components/Furigana";
 import WordPopup from "../../../components/WordPopup";
 import Paywall from "../../../components/Paywall";
+import { coverFor } from "../../../components/StoryCover";
 import LessonPanel from "./LessonPanel";
-import type { StoryContent, Translations, VocabItem } from "../../../lib/content-schema";
+import type { Translations, VocabItem } from "../../../lib/content-schema";
 import { pickText } from "../../../lib/i18n";
+import { useDocTitle } from "../../../components/DocTitle";
+import type { GatedStory } from "../../../lib/gate";
 import { PROGRESS_KEY, saveProgress, useLocalJson, type Progress } from "../../../lib/store";
 import * as player from "../../../lib/player";
 import { explainsLeft, spendExplain, storyFree } from "../../../lib/access";
+import { useFullContent } from "../../../lib/full-content";
 
 const FONT_SIZES = [16, 18, 21];
 const SPEEDS = [0.75, 0.9, 1, 1.25];
@@ -30,13 +34,17 @@ function fmt(sec: number) {
  * chung (src/lib/player.ts) nên vẫn phát khi rời màn này, tắt màn hình, và tự sang chương sau.
  */
 export default function ReaderClient({
-  story,
+  story: storyProp,
   next,
 }: {
-  story: StoryContent;
+  /** Chương VIP: trang tĩnh không mang câu nào (`partial`, src/lib/gate.ts) */
+  story: GatedStory;
   next?: { id: string; titles: Translations };
 }) {
   const { ui, lang, profile } = useLang();
+  // Chương VIP: tài khoản VIP tải nội dung qua Worker (/api/content), máy chủ kiểm VIP thật
+  const full = useFullContent("stories", storyProp, profile.vip);
+  const story = full.item;
   const router = useRouter();
   const [tab, setTab] = useState<"story" | "lesson">("story");
   const [showFuri, setShowFuri] = useState(true);
@@ -57,11 +65,14 @@ export default function ReaderClient({
   const wordTapRef = useRef(false);
   const rowRefs = useRef<(HTMLDivElement | null)[]>([]);
 
+  // Chương VIP, tài khoản thường: đọc và nghe thử vài câu đầu (src/lib/gate.ts), cuối trang mời mở VIP.
+  const preview = !storyFree(story) && full.status === "locked";
   const total = story.sentences.length;
   const track = story.audioTrack && story.sentences.every((s) => s.t) ? story.audioTrack : null;
-  const duration = track ? track.durationSec : 0;
-  const locked = !storyFree(story) && !profile.vip;
+  const duration = track ? (preview && story.previewEnd ? story.previewEnd : track.durationSec) : 0;
+  const locked = !storyFree(story) && (full.status === "loading" || full.status === "error");
   const title = pickText(story.titles, lang);
+  useDocTitle(title);
 
   // Trạng thái của trình phát chỉ áp vào màn này khi đang nạp đúng chương này
   const mine = ps.item?.id === story.id;
@@ -88,9 +99,10 @@ export default function ReaderClient({
       track,
       segs: story.sentences.map((s) => ({ audio: s.audio, t: s.t })),
       total,
-      cover: story.cover?.startsWith("/covers/") ? story.cover : undefined,
+      cover: story.cover?.startsWith("/covers/") ? coverFor(story.cover, story.coverLangs, lang) : undefined,
+      endAt: preview ? story.previewEnd : undefined,
     }),
-    [story.id, title, story.level, track, story.sentences, total, story.cover],
+    [story.id, title, story.level, track, story.sentences, total, story.cover, story.coverLangs, lang, preview, story.previewEnd],
   );
   const ensureLoaded = () => {
     if (player.getState().item?.id !== story.id) player.load(item);
@@ -144,7 +156,16 @@ export default function ReaderClient({
       <div style={{ padding: 20 }}>
         <Link href="/books" aria-label={ui.common.back} style={{ color: "var(--navy)", textDecoration: "none", fontSize: 20 }}>←</Link>
         <h1 style={{ fontSize: 19, fontWeight: 700, marginTop: 16 }}>{title}</h1>
-        <Paywall onClose={() => history.back()} />
+        {full.status === "loading" ? (
+          <p style={{ marginTop: 16, color: "var(--muted)" }}>{ui.webvip.loading}</p>
+        ) : full.status === "error" ? (
+          <div style={{ marginTop: 16 }}>
+            <p style={{ color: "var(--muted)" }}>{ui.webvip.loadFailed}</p>
+            <button type="button" className="btn-primary" style={{ marginTop: 12 }} onClick={full.retry}>
+              {ui.webvip.retry}
+            </button>
+          </div>
+        ) : null}
       </div>
     );
   }
@@ -214,7 +235,16 @@ export default function ReaderClient({
       </div>
 
       {tab === "lesson" ? (
-        <LessonPanel story={story} vocab={vocab} onWord={setPopup} vip={profile.vip} onUnlock={() => setPaywall(true)} />
+        preview ? (
+          <div className="card" style={{ margin: "16px 20px", textAlign: "center", padding: 20 }}>
+            <p style={{ fontSize: 15, fontWeight: 700 }}>{ui.vip.lessonLocked}</p>
+            <button type="button" className="btn-vip" style={{ marginTop: 12 }} onClick={() => setPaywall(true)}>
+              {ui.vip.unlock}
+            </button>
+          </div>
+        ) : (
+          <LessonPanel story={story} vocab={vocab} onWord={setPopup} vip={profile.vip} onUnlock={() => setPaywall(true)} />
+        )
       ) : (
         <>
           <div style={{ display: "flex", gap: 8, padding: "10px 20px 0", flexWrap: "wrap" }}>
@@ -337,11 +367,26 @@ export default function ReaderClient({
                 </div>
               );
             })}
+            {preview && (
+              <div style={{ position: "relative", marginTop: 8 }}>
+                <div aria-hidden style={{ filter: "blur(5px)", opacity: 0.55, display: "flex", flexDirection: "column", gap: 14, padding: "8px 0" }}>
+                  {[92, 70, 84, 60, 78].map((w, i) => (
+                    <div key={i} style={{ height: 18, width: `${w}%`, borderRadius: 8, background: "var(--muted)" }} />
+                  ))}
+                </div>
+                <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 10, textAlign: "center" }}>
+                  <p style={{ fontSize: 15, fontWeight: 700 }}>{ui.vip.storyMore.replace("{n}", String(story.lockedCount ?? 0))}</p>
+                  <button type="button" className="btn-vip" onClick={() => setPaywall(true)}>
+                    {ui.vip.unlock}
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         </>
       )}
 
-      {tab === "story" && next && (
+      {tab === "story" && next && !preview && (
         <div style={{ padding: "16px 20px 0" }}>
           <Link href={`/read/${next.id}`} className="btn-primary" style={{ textDecoration: "none" }}>
             {ui.reader.nextChapter} · {pickText(next.titles, lang)}

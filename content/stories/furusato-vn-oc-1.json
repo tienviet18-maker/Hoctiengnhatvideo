@@ -12,7 +12,8 @@
     "id": "Bidadari Keong Emas",
     "pt": "A fada do caracol",
     "my": "ခရုနတ်သမီး",
-    "th": "นางฟ้าหอยทาก"
+    "th": "นางฟ้าหอยทาก",
+    "si": "ගොළුබෙලි දේවඟනාව"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -42,7 +43,8 @@
           "id": "sudah di~ (oleh seseorang)",
           "pt": "já foi ~ (por alguém)",
           "my": "~ ထားပြီး (တစ်ယောက်ယောက်လုပ်ထား)",
-          "th": "ถูก ~ ไว้แล้ว"
+          "th": "ถูก ~ ไว้แล้ว",
+          "si": "~ කරලා තියෙනවා (කවුරුහරි කළා; ප්‍රතිඵලය ඉතුරුයි)"
         }
       },
       {
@@ -59,7 +61,8 @@
           "id": "pura-pura ~",
           "pt": "fingir ~",
           "my": "~ ဟန်ဆောင်",
-          "th": "แกล้งทำเป็น ~"
+          "th": "แกล้งทำเป็น ~",
+          "si": "~ කරනවා වගේ පෙන්නනවා"
         }
       },
       {
@@ -76,7 +79,8 @@
           "id": "kalau tidak ada ~",
           "pt": "se não houvesse ~",
           "my": "~ မရှိရင်",
-          "th": "ถ้าไม่มี ~"
+          "th": "ถ้าไม่มี ~",
+          "si": "~ නැත්නම්"
         }
       },
       {
@@ -93,7 +97,8 @@
           "id": "tolong ~ untukku (gaya lama)",
           "pt": "por favor, ~ por mim (antigo)",
           "my": "~ ပေးပါ (လူကြီးစကား)",
-          "th": "ช่วย ~ ให้หน่อย (คนแก่พูด)"
+          "th": "ช่วย ~ ให้หน่อย (คนแก่พูด)",
+          "si": "මට ~ කරන්න (උණුසුම්, පැරණි විලාසය)"
         }
       }
     ],
@@ -118,8 +123,77 @@
           "id": "Di tempayan air.",
           "pt": "No jarro de água.",
           "my": "ရေအိုးထဲ။",
-          "th": "ในโอ่งน้ำ"
-        }
+          "th": "ในโอ่งน้ำ",
+          "si": "වතුර කළේ ඇතුළට."
+        },
+        "jaFurigana": [
+          {
+            "surface": "おばあさんは、",
+            "reading": ""
+          },
+          {
+            "surface": "金色",
+            "reading": "きんいろ"
+          },
+          {
+            "surface": "のタニシを、どこに",
+            "reading": ""
+          },
+          {
+            "surface": "入",
+            "reading": "い"
+          },
+          {
+            "surface": "れましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "水",
+              "reading": "みず"
+            },
+            {
+              "surface": "がめの",
+              "reading": ""
+            },
+            {
+              "surface": "中",
+              "reading": "なか"
+            }
+          ],
+          [
+            {
+              "surface": "田",
+              "reading": "た"
+            },
+            {
+              "surface": "んぼ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "台所",
+              "reading": "だいどころ"
+            },
+            {
+              "surface": "のなべ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "にわの",
+              "reading": ""
+            },
+            {
+              "surface": "池",
+              "reading": "いけ"
+            }
+          ]
+        ]
       },
       {
         "ja": "家をそうじして、ごはんを作っていたのは、だれですか。",
@@ -141,8 +215,81 @@
           "id": "Wanita yang keluar dari keong.",
           "pt": "A mulher que saiu do caramujo.",
           "my": "ခရုထဲက ထွက်လာတဲ့ မိန်းကလေး။",
-          "th": "หญิงสาวที่ออกมาจากหอย"
-        }
+          "th": "หญิงสาวที่ออกมาจากหอย",
+          "si": "ගොළුබෙල්ලාගෙන් එළියට ආපු කාන්තාව."
+        },
+        "jaFurigana": [
+          {
+            "surface": "家",
+            "reading": "いえ"
+          },
+          {
+            "surface": "をそうじして、ごはんを",
+            "reading": ""
+          },
+          {
+            "surface": "作",
+            "reading": "つく"
+          },
+          {
+            "surface": "っていたのは、だれですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "タニシから",
+              "reading": ""
+            },
+            {
+              "surface": "出",
+              "reading": "で"
+            },
+            {
+              "surface": "てきた",
+              "reading": ""
+            },
+            {
+              "surface": "女",
+              "reading": "おんな"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            }
+          ],
+          [
+            {
+              "surface": "となりの",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            }
+          ],
+          [
+            {
+              "surface": "おばあさんの",
+              "reading": ""
+            },
+            {
+              "surface": "娘",
+              "reading": "むすめ"
+            }
+          ],
+          [
+            {
+              "surface": "鶴",
+              "reading": "つる"
+            }
+          ]
+        ]
       },
       {
         "ja": "おばあさんは、どうして貝をわりましたか。",
@@ -164,8 +311,89 @@
           "id": "Karena ingin wanita itu tetap tinggal.",
           "pt": "Porque queria que ela ficasse.",
           "my": "မိန်းကလေး အမြဲနေစေချင်လို့။",
-          "th": "เพราะอยากให้หญิงสาวอยู่ตลอดไป"
-        }
+          "th": "เพราะอยากให้หญิงสาวอยู่ตลอดไป",
+          "si": "ඒ කාන්තාව මෙහෙම ඉන්නවා දකින්න ආසා නිසා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "おばあさんは、どうして",
+            "reading": ""
+          },
+          {
+            "surface": "貝",
+            "reading": "かい"
+          },
+          {
+            "surface": "をわりましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "女",
+              "reading": "おんな"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            },
+            {
+              "surface": "に、ずっといてほしかったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "貝",
+              "reading": "かい"
+            },
+            {
+              "surface": "が、きたなかったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "貝",
+              "reading": "かい"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "売",
+              "reading": "う"
+            },
+            {
+              "surface": "りたかったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "女",
+              "reading": "おんな"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            },
+            {
+              "surface": "が、こわかったから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "『鶴の恩返し』で、鶴が「見ないでください」と言ったのは、何をするところですか。",
@@ -187,8 +415,109 @@
           "id": "Saat menenun.",
           "pt": "Enquanto tece.",
           "my": "ရက်ကန်းယက်တဲ့အချိန်။",
-          "th": "ตอนทอผ้า"
-        }
+          "th": "ตอนทอผ้า",
+          "si": "රෙදි වියනකොට."
+        },
+        "jaFurigana": [
+          {
+            "surface": "『",
+            "reading": ""
+          },
+          {
+            "surface": "鶴",
+            "reading": "つる"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "恩返",
+            "reading": "おんがえ"
+          },
+          {
+            "surface": "し』で、",
+            "reading": ""
+          },
+          {
+            "surface": "鶴",
+            "reading": "つる"
+          },
+          {
+            "surface": "が「",
+            "reading": ""
+          },
+          {
+            "surface": "見",
+            "reading": "み"
+          },
+          {
+            "surface": "ないでください」と",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "ったのは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をするところですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "はたを",
+              "reading": ""
+            },
+            {
+              "surface": "織",
+              "reading": "お"
+            },
+            {
+              "surface": "るところ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ごはんを",
+              "reading": ""
+            },
+            {
+              "surface": "作",
+              "reading": "つく"
+            },
+            {
+              "surface": "るところ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "そうじするところ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "空",
+              "reading": "そら"
+            },
+            {
+              "surface": "をとぶところ",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },
@@ -237,7 +566,8 @@
         "id": "Dahulu, di sebuah desa kecil di Vietnam, tinggallah seorang nenek.",
         "pt": "Há muito tempo, numa pequena aldeia do Vietnã, vivia uma velhinha.",
         "my": "ရှေးတုန်းက ဗီယက်နမ်ရွာလေးတစ်ရွာမှာ အဘွားအိုတစ်ယောက် နေထိုင်တယ်။",
-        "th": "กาลครั้งหนึ่ง ในหมู่บ้านเล็ก ๆ ของเวียดนาม มีหญิงชราคนหนึ่งอาศัยอยู่"
+        "th": "กาลครั้งหนึ่ง ในหมู่บ้านเล็ก ๆ ของเวียดนาม มีหญิงชราคนหนึ่งอาศัยอยู่",
+        "si": "ඉස්සර, වියට්නාමයේ පොඩි ගමක, එක ආච්චි කෙනෙක්, ජීවත් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -251,7 +581,8 @@
         "id": "tinggal di.",
         "pt": "vivia em.",
         "my": "မှာ နေထိုင်။",
-        "th": "อาศัยอยู่ที่"
+        "th": "อาศัยอยู่ที่",
+        "si": "「〜に〜がすんでいました」 = ~ හි ~ ජීවත් වුණා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=0.3,6.011",
       "t": [
@@ -288,7 +619,8 @@
         "id": "Nenek itu tidak punya keluarga sama sekali.",
         "pt": "Ela não tinha família nenhuma.",
         "my": "အဘွားမှာ မိသားစု ဘယ်သူမှ မရှိဘူး။",
-        "th": "หญิงชราไม่มีครอบครัวเลยสักคน"
+        "th": "หญิงชราไม่มีครอบครัวเลยสักคน",
+        "si": "ආච්චිට, පවුලේ කවුරුවත්, හිටියේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -302,7 +634,8 @@
         "id": "tidak ada siapa pun.",
         "pt": "ninguém.",
         "my": "ဘယ်သူမှ မ...။",
-        "th": "ไม่มีใครเลย"
+        "th": "ไม่มีใครเลย",
+        "si": "「だれも〜ない」 = කවුරුවත් නැහැ."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=6.611,10.337",
       "t": [
@@ -375,7 +708,8 @@
         "id": "Setiap hari ia ke sawah menangkap kepiting dan ikan kecil, lalu menjualnya untuk hidup.",
         "pt": "Todos os dias ia ao arrozal pegar caranguejos e peixinhos, e vivia de vendê-los.",
         "my": "နေ့တိုင်း လယ်ကွင်းသွားပြီး ဂဏန်းနဲ့ ငါးလေးတွေ ဖမ်း၊ ရောင်းပြီး အသက်မွေးတယ်။",
-        "th": "ทุกวันนางไปนาจับปูและปลาเล็ก ๆ ขายเลี้ยงชีพ"
+        "th": "ทุกวันนางไปนาจับปูและปลาเล็ก ๆ ขายเลี้ยงชีพ",
+        "si": "හැමදාම, කුඹුරට ගිහින්, කකුළුවොයි, පොඩි මාළුයි අල්ලලා, ඒවා විකුණලා, ජීවත් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -389,7 +723,8 @@
         "id": "sawah.",
         "pt": "arrozal.",
         "my": "လယ်ကွင်း။",
-        "th": "นาข้าว"
+        "th": "นาข้าว",
+        "si": "田んぼ = කුඹුර; 「AやB」 = A, B වගේ දේවල්."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=10.937,19.022",
       "t": [
@@ -450,7 +785,8 @@
         "id": "Suatu hari, ia menemukan cangkang cantik di sawah.",
         "pt": "Um dia, no arrozal, ela achou uma concha linda.",
         "my": "တစ်နေ့ လယ်ထဲမှာ လှပတဲ့ ခရုခွံကို တွေ့တယ်။",
-        "th": "วันหนึ่ง นางพบเปลือกหอยสวยในนา"
+        "th": "วันหนึ่ง นางพบเปลือกหอยสวยในนา",
+        "si": "දවසක්, ආච්චිට, කුඹුරේදී, ලස්සන බෙල්ලෙක් හම්බ වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -464,7 +800,8 @@
         "id": "kerang.",
         "pt": "concha.",
         "my": "ခရု။",
-        "th": "หอย"
+        "th": "หอย",
+        "si": "貝 = බෙල්ලා, සිප්පිය; 見つける = හොයාගන්නවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=19.622,24.366",
       "t": [
@@ -509,7 +846,8 @@
         "id": "Itu keong sawah yang berkilau keemasan.",
         "pt": "Era um caramujo que brilhava dourado.",
         "my": "အဲဒါ ရွှေရောင် တောက်တဲ့ ခရု ဖြစ်တယ်။",
-        "th": "นั่นคือหอยขมที่ส่องประกายสีทอง"
+        "th": "นั่นคือหอยขมที่ส่องประกายสีทอง",
+        "si": "ඒ, රන් පාටින් දිලිසෙන, ගොළුබෙල්ලෙක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -523,7 +861,8 @@
         "id": "keong sawah.",
         "pt": "caramujo.",
         "my": "ခရု။",
-        "th": "หอยขม"
+        "th": "หอยขม",
+        "si": "タニシ = වතුර ගොළුබෙල්ලා; 「〜に光る」 = ~ පාටින් දිලිසෙනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=24.966,28.252",
       "t": [
@@ -560,7 +899,8 @@
         "id": "\"Wah, cantik. Kasihan kalau dimakan.\"",
         "pt": "\"Ah, que linda. Dá pena comer.\"",
         "my": "\"အမလေး လှလိုက်တာ။ စားရင် သနားစရာပဲ။\"",
-        "th": "\"ว้าย สวยจัง กินก็สงสารนะ\""
+        "th": "\"ว้าย สวยจัง กินก็สงสารนะ\"",
+        "si": "\"අනේ, ලස්සනයි. කන එක, පව්.\""
       },
       "vocab": [
         {
@@ -577,7 +917,8 @@
             "id": "wah",
             "pt": "nossa",
             "my": "အမယ်",
-            "th": "โอ้"
+            "th": "โอ้",
+            "si": "අම්මෝ, අනේ"
           },
           "level": "N3"
         }
@@ -593,7 +934,8 @@
         "id": "kasihan kalau.",
         "pt": "dá pena.",
         "my": "သနားစရာ။",
-        "th": "สงสาร"
+        "th": "สงสาร",
+        "si": "「〜のは、かわいそう」 = ~ කරන එක පව්."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=29.152,33.06",
       "t": [
@@ -670,7 +1012,8 @@
         "id": "Ia membawa keong pulang dan memasukkannya ke tempayan.",
         "pt": "Levou o caramujo para casa e pôs no jarro de água.",
         "my": "ခရုကို အိမ်ယူသွားပြီး ရေအိုးထဲ ထည့်တယ်။",
-        "th": "นางนำหอยกลับบ้านใส่ไว้ในโอ่งน้ำ"
+        "th": "นางนำหอยกลับบ้านใส่ไว้ในโอ่งน้ำ",
+        "si": "ආච්චි, ගොළුබෙල්ලාව ගෙදර අරන් ගිහින්, වතුර කළේ ඇතුළට දැම්මා."
       },
       "vocab": [],
       "grammarNote": {
@@ -684,7 +1027,8 @@
         "id": "membawa pulang.",
         "pt": "levar para casa.",
         "my": "အိမ်ယူသွား။",
-        "th": "นำกลับบ้าน"
+        "th": "นำกลับบ้าน",
+        "si": "「持って帰る」 = ගෙදර අරන් යනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=33.96,39.554",
       "t": [
@@ -713,7 +1057,8 @@
         "id": "\"Istirahatlah di sini dengan tenang.\"",
         "pt": "\"Descanse aqui à vontade.\"",
         "my": "\"ဒီမှာ အေးအေးဆေးဆေး နားနော်။\"",
-        "th": "\"พักผ่อนสบาย ๆ ที่นี่นะ\""
+        "th": "\"พักผ่อนสบาย ๆ ที่นี่นะ\"",
+        "si": "\"මෙතන, සැනසිල්ලේ, විවේක ගන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -727,7 +1072,8 @@
         "id": "istirahatlah.",
         "pt": "descanse.",
         "my": "နား။",
-        "th": "พักผ่อน"
+        "th": "พักผ่อน",
+        "si": "おやすみ = විවේක ගන්න (මෘදු, සාමාන්‍ය කතාව)."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=40.454,42.93",
       "t": [
@@ -784,7 +1130,8 @@
         "id": "Esok harinya, ia ke sawah seperti biasa.",
         "pt": "No dia seguinte, foi ao arrozal como sempre.",
         "my": "နောက်နေ့ အမြဲလိုပဲ လယ်ကို သွားတယ်။",
-        "th": "วันรุ่งขึ้น นางไปนาตามปกติ"
+        "th": "วันรุ่งขึ้น นางไปนาตามปกติ",
+        "si": "ඊළඟ දවසේ, ආච්චි, සුපුරුදු විදිහටම, කුඹුරට ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -798,7 +1145,8 @@
         "id": "seperti biasa.",
         "pt": "como sempre.",
         "my": "အမြဲလို။",
-        "th": "ตามปกติ"
+        "th": "ตามปกติ",
+        "si": "「いつものように」 = සුපුරුදු විදිහටම."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=43.83,48.999",
       "t": [
@@ -847,7 +1195,8 @@
         "id": "Sore hari pulang, ia terkejut.",
         "pt": "Ao voltar à tarde, levou um susto.",
         "my": "ညနေ အိမ်ပြန်ရောက်တော့ လန့်သွားတယ်။",
-        "th": "ตอนเย็นกลับถึงบ้าน นางก็ตกใจ"
+        "th": "ตอนเย็นกลับถึงบ้าน นางก็ตกใจ",
+        "si": "හවස, ගෙදර ආවාම, ආච්චි, පුදුම වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -861,7 +1210,8 @@
         "id": "saat; terkejut.",
         "pt": "ao; susto.",
         "my": "တော့; လန့်။",
-        "th": "พอ; ตกใจ"
+        "th": "พอ; ตกใจ",
+        "si": "「〜と」 = ~ කළාම (හොයාගැනීම); びっくりする = පුදුම වෙනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=49.599,54.809",
       "t": [
@@ -902,7 +1252,8 @@
         "id": "Rumahnya sudah dibersihkan hingga berkilau.",
         "pt": "A casa estava limpa e brilhando.",
         "my": "အိမ်ထဲ ပြောင်လက်နေအောင် သန့်ရှင်းထားတယ်။",
-        "th": "บ้านถูกทำความสะอาดจนเงาวับ"
+        "th": "บ้านถูกทำความสะอาดจนเงาวับ",
+        "si": "ගෙදර ඇතුළ, දිලිසෙන්න, අස්පස් කරලා තිබුණා."
       },
       "vocab": [
         {
@@ -919,7 +1270,8 @@
             "id": "berkilau",
             "pt": "brilhando",
             "my": "ပြောင်လက်",
-            "th": "เป็นเงาวับ"
+            "th": "เป็นเงาวับ",
+            "si": "දිලිසෙන, කැළලක් නැති"
           },
           "level": "N2"
         }
@@ -935,7 +1287,8 @@
         "id": "sudah di-.",
         "pt": "já feito.",
         "my": "ထားတယ်။",
-        "th": "ถูก...ไว้"
+        "th": "ถูก...ไว้",
+        "si": "「〜てある」 = (කවුරුහරි) ~ කරලා තියෙනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=55.409,59.25",
       "t": [
@@ -972,7 +1325,8 @@
         "id": "Di meja bahkan ada nasi hangat dan lauk.",
         "pt": "Na mesa havia até arroz quente e acompanhamentos.",
         "my": "စားပွဲပေါ်မှာ ထမင်းပူပူနဲ့ ဟင်းပါ ရှိတယ်။",
-        "th": "บนโต๊ะมีทั้งข้าวสวยร้อน ๆ และกับข้าว"
+        "th": "บนโต๊ะมีทั้งข้าวสวยร้อน ๆ และกับข้าว",
+        "si": "මේසය උඩ, උණු බතුයි, ව්‍යංජනත්, තිබුණා."
       },
       "vocab": [
         {
@@ -989,7 +1343,8 @@
             "id": "lauk",
             "pt": "acompanhamento",
             "my": "ဟင်း",
-            "th": "กับข้าว"
+            "th": "กับข้าว",
+            "si": "ව්‍යංජනය"
           },
           "level": "N2"
         }
@@ -1005,7 +1360,8 @@
         "id": "bahkan.",
         "pt": "até.",
         "my": "ပါ။",
-        "th": "แม้แต่"
+        "th": "แม้แต่",
+        "si": "「〜まで」 = ~ ත් පවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=59.85,65.287",
       "t": [
@@ -1034,7 +1390,8 @@
         "id": "\"Siapa ya yang melakukannya untukku?\"",
         "pt": "\"Quem terá feito isso por mim?\"",
         "my": "\"ဘယ်သူ လုပ်ပေးတာလဲ မသိဘူး။\"",
-        "th": "\"ใครทำให้นะ\""
+        "th": "\"ใครทำให้นะ\"",
+        "si": "\"කවුද, මට මේක කරලා දුන්නේ?\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1048,7 +1405,8 @@
         "id": "untukku; ya.",
         "pt": "por mim; será.",
         "my": "...ပေး; မသိဘူး။",
-        "th": "ให้; นะ"
+        "th": "ให้; นะ",
+        "si": "「〜てくれる」 = කවුරුහරි මට ~ කරනවා; 「〜だろう」 = ~ ද දන්නේ නැහැ."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=66.187,68.278",
       "t": [
@@ -1101,7 +1459,8 @@
         "id": "Ia bertanya ke tetangga, tapi tak ada yang tahu.",
         "pt": "Perguntou aos vizinhos, mas ninguém sabia.",
         "my": "အိမ်နီးချင်းကို မေးပေမဲ့ ဘယ်သူမှ မသိဘူး။",
-        "th": "นางถามเพื่อนบ้าน แต่ไม่มีใครรู้"
+        "th": "นางถามเพื่อนบ้าน แต่ไม่มีใครรู้",
+        "si": "ආච්චි, අල්ලපු ගෙවල්වල අයගෙන් ඇහුවා, ඒත් කවුරුවත් දන්නේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -1115,7 +1474,8 @@
         "id": "tapi; tetangga.",
         "pt": "mas; vizinho.",
         "my": "ပေမဲ့; အိမ်နီး။",
-        "th": "แต่; เพื่อนบ้าน"
+        "th": "แต่; เพื่อนบ้าน",
+        "si": "「〜が」 = ඒත්; となり = අල්ලපු ගෙදර."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=69.178,74.3",
       "t": [
@@ -1188,7 +1548,8 @@
         "id": "Esoknya dan lusanya, hal yang sama terjadi.",
         "pt": "No dia seguinte e no outro, aconteceu o mesmo.",
         "my": "နောက်နေ့ရော သန်ဘက်ခါရော အဲဒီလိုပဲ ဖြစ်တယ်။",
-        "th": "วันรุ่งขึ้นและวันถัดไป ก็เกิดเรื่องเดียวกัน"
+        "th": "วันรุ่งขึ้นและวันถัดไป ก็เกิดเรื่องเดียวกัน",
+        "si": "ඊළඟ දවසෙත්, ඊට පස්සේ දවසෙත්, එකම දේ වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1202,7 +1563,8 @@
         "id": "terjadi.",
         "pt": "acontecer.",
         "my": "ဖြစ်။",
-        "th": "เกิดขึ้น"
+        "th": "เกิดขึ้น",
+        "si": "起きる = සිද්ධ වෙනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=74.9,79.327",
       "t": [
@@ -1255,7 +1617,8 @@
         "id": "Suatu hari, bahkan kue manis kesukaannya sudah disiapkan.",
         "pt": "Num dia havia até os doces de que ela gostava.",
         "my": "တစ်ရက်မှာ အဘွား ကြိုက်တဲ့ မုန့်ချိုတောင် ပြင်ထားတယ်။",
-        "th": "บางวันถึงกับมีขนมหวานที่นางชอบเตรียมไว้"
+        "th": "บางวันถึงกับมีขนมหวานที่นางชอบเตรียมไว้",
+        "si": "එක දවසක, ආච්චි කැමති, පැණි රස කැවිලිත්, ලෑස්ති කරලා තිබුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1269,7 +1632,8 @@
         "id": "disiapkan.",
         "pt": "preparado.",
         "my": "ပြင်ထား။",
-        "th": "เตรียมไว้"
+        "th": "เตรียมไว้",
+        "si": "用意してある = ලෑස්ති කරලා තියෙනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=79.927,85.626",
       "t": [
@@ -1306,7 +1670,8 @@
         "id": "Rumput di halaman sudah dicabut bersih.",
         "pt": "O mato do quintal fora arrancado direitinho.",
         "my": "ခြံထဲက မြက်တွေကို သေသေချာချာ နုတ်ထားတယ်။",
-        "th": "หญ้าในสวนถูกถอนอย่างเรียบร้อย"
+        "th": "หญ้าในสวนถูกถอนอย่างเรียบร้อย",
+        "si": "මිදුලේ වල් පැළත්, ලස්සනට, උදුරලා තිබුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1320,7 +1685,8 @@
         "id": "hasil.",
         "pt": "resultado.",
         "my": "ရလဒ်။",
-        "th": "ผลลัพธ์"
+        "th": "ผลลัพธ์",
+        "si": "「〜てある」 = ප්‍රතිඵල තත්ත්වය."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=86.226,89.212",
       "t": [
@@ -1357,7 +1723,8 @@
         "id": "Baju robek juga sudah dijahit rapi.",
         "pt": "As roupas rasgadas também estavam bem remendadas.",
         "my": "စုတ်နေတဲ့ အဝတ်တွေလည်း သေသေသပ်သပ် ဖာထားတယ်။",
-        "th": "เสื้อผ้าขาดก็ถูกปะไว้อย่างเรียบร้อย"
+        "th": "เสื้อผ้าขาดก็ถูกปะไว้อย่างเรียบร้อย",
+        "si": "ඉරිච්ච ඇඳුම් පවා, හරියට, මහලා තිබුණා."
       },
       "vocab": [
         {
@@ -1374,7 +1741,8 @@
             "id": "dengan rapi, utuh",
             "pt": "direitinho, em ordem",
             "my": "သေသေသပ်သပ်",
-            "th": "อย่างเรียบร้อย"
+            "th": "อย่างเรียบร้อย",
+            "si": "පිළිවෙළට, නිසි ලෙස"
           },
           "level": "N3"
         }
@@ -1390,7 +1758,8 @@
         "id": "robek; rapi.",
         "pt": "rasgar; direito.",
         "my": "စုတ်; သေသပ်။",
-        "th": "ขาด; เรียบร้อย"
+        "th": "ขาด; เรียบร้อย",
+        "si": "やぶれる = ඉරෙනවා; きちんと = හරියට, පිළිවෙළට."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=89.812,93.394",
       "t": [
@@ -1435,7 +1804,8 @@
         "id": "\"Aneh. Baik, besok akan kuintip.\"",
         "pt": "\"Que estranho. Pois bem, amanhã vou ver.\"",
         "my": "\"ထူးဆန်းလိုက်တာ။ ကောင်းပြီ၊ မနက်ဖြန် ကြည့်မယ်။\"",
-        "th": "\"แปลกจัง เอาละ พรุ่งนี้จะแอบดู\""
+        "th": "\"แปลกจัง เอาละ พรุ่งนี้จะแอบดู\"",
+        "si": "\"පුදුමයි නේද. හරි, හෙට, හොරෙන් බලනවා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1449,7 +1819,8 @@
         "id": "coba.",
         "pt": "vou tentar.",
         "my": "...ကြည့်မယ်။",
-        "th": "ลองดู"
+        "th": "ลองดู",
+        "si": "「〜てみよう」 = ~ කරලා බලමු."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=94.294,98.182",
       "t": [
@@ -1522,7 +1893,8 @@
         "id": "Esok paginya, ia pura-pura ke sawah lalu keluar rumah.",
         "pt": "Na manhã seguinte, saiu fingindo ir ao arrozal.",
         "my": "နောက်နေ့မနက် လယ်ကိုသွားဟန်ဆောင်ပြီး အိမ်က ထွက်တယ်။",
-        "th": "เช้าวันรุ่งขึ้น นางทำทีเป็นไปนาแล้วออกจากบ้าน"
+        "th": "เช้าวันรุ่งขึ้น นางทำทีเป็นไปนาแล้วออกจากบ้าน",
+        "si": "ඊළඟ උදේ, ආච්චි, කුඹුරට යනවා වගේ පෙන්නලා, ගෙදරින් පිටත් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1536,7 +1908,8 @@
         "id": "pura-pura.",
         "pt": "fingir.",
         "my": "ဟန်ဆောင်။",
-        "th": "แกล้งทำ"
+        "th": "แกล้งทำ",
+        "si": "「〜ふりをする」 = ~ කරනවා වගේ පෙන්නනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=99.082,104.452",
       "t": [
@@ -1573,7 +1946,8 @@
         "id": "Lalu diam-diam ia bersembunyi di belakang rumah.",
         "pt": "Depois se escondeu de mansinho atrás da casa.",
         "my": "ပြီးတော့ တိတ်တိတ်လေး အိမ်နောက်မှာ ပုန်းတယ်။",
-        "th": "แล้วก็แอบซ่อนอยู่หลังบ้านเงียบ ๆ"
+        "th": "แล้วก็แอบซ่อนอยู่หลังบ้านเงียบ ๆ",
+        "si": "ඊට පස්සේ, හෙමීට, ගෙදර පිටිපස්සේ, හැංගුණා."
       },
       "vocab": [
         {
@@ -1590,7 +1964,8 @@
             "id": "diam-diam, pelan",
             "pt": "de mansinho",
             "my": "တိတ်တဆိတ်",
-            "th": "เบา ๆ"
+            "th": "เบา ๆ",
+            "si": "මෘදුවට, හෙමින්"
           },
           "level": "N3"
         }
@@ -1606,7 +1981,8 @@
         "id": "diam-diam; belakang.",
         "pt": "de mansinho; atrás.",
         "my": "တိတ်တိတ်; နောက်။",
-        "th": "เงียบ ๆ; หลัง"
+        "th": "เงียบ ๆ; หลัง",
+        "si": "そっと = හෙමීට; うら = පිටිපස්ස."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=105.052,108.68",
       "t": [
@@ -1667,7 +2043,8 @@
         "id": "Tak lama, sesuatu keluar dari tempayan.",
         "pt": "Pouco depois, algo saiu do jarro de água.",
         "my": "ခဏကြာတော့ ရေအိုးထဲက တစ်ခုခု ထွက်လာတယ်။",
-        "th": "สักพัก มีบางอย่างออกมาจากโอ่งน้ำ"
+        "th": "สักพัก มีบางอย่างออกมาจากโอ่งน้ำ",
+        "si": "ටික වෙලාවකින්, වතුර කළේ ඇතුළෙන්, මොකක්දෝ එකක්, එළියට ආවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1681,7 +2058,8 @@
         "id": "tak lama; sesuatu.",
         "pt": "pouco depois; algo.",
         "my": "ခဏကြာ; တစ်ခုခု။",
-        "th": "สักพัก; บางอย่าง"
+        "th": "สักพัก; บางอย่าง",
+        "si": "「しばらくすると」 = ටික වෙලාවකින්; 何か = මොකක්දෝ එකක්."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=109.28,114.163",
       "t": [
@@ -1718,7 +2096,8 @@
         "id": "Itu keong emas tadi.",
         "pt": "Era aquele caramujo dourado.",
         "my": "အဲဒါ အဲဒီ ရွှေရောင်ခရုပဲ။",
-        "th": "นั่นคือหอยสีทองตัวนั้น"
+        "th": "นั่นคือหอยสีทองตัวนั้น",
+        "si": "ඒ, අර රන් පාට ගොළුබෙල්ලා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1732,7 +2111,8 @@
         "id": "itu.",
         "pt": "aquele.",
         "my": "အဲဒီ။",
-        "th": "นั้น"
+        "th": "นั้น",
+        "si": "あの = අර (දන්න)."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=114.763,117.997",
       "t": [
@@ -1809,7 +2189,8 @@
         "id": "Cangkang terbuka perlahan, dan seorang gadis keluar dari dalamnya.",
         "pt": "A concha se abriu devagar e de dentro saiu uma moça.",
         "my": "ခရုခွံ ဖြည်းဖြည်း ပွင့်လာပြီး အထဲက မိန်းကလေးငယ် ထွက်လာတယ်။",
-        "th": "เปลือกหอยค่อย ๆ เปิด หญิงสาวก็ก้าวออกมาจากข้างใน"
+        "th": "เปลือกหอยค่อย ๆ เปิด หญิงสาวก็ก้าวออกมาจากข้างใน",
+        "si": "ගොළුබෙල්ලාගේ කටුව, හෙමින් ඇරිලා, ඇතුළෙන්, තරුණ කාන්තාවක් එළියට ආවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1823,7 +2204,8 @@
         "id": "perlahan.",
         "pt": "devagar.",
         "my": "ဖြည်းဖြည်း။",
-        "th": "ค่อย ๆ"
+        "th": "ค่อย ๆ",
+        "si": "すうっと = හෙමින්, සුමටව; 「〜のです」 = අවධාරණය."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=118.597,125.461",
       "t": [
@@ -1872,7 +2254,8 @@
         "id": "Gadis itu sangat cantik.",
         "pt": "Ela era muito bonita.",
         "my": "အဲဒီ မိန်းကလေးက အရမ်းလှတယ်။",
-        "th": "หญิงคนนั้นงดงามมาก"
+        "th": "หญิงคนนั้นงดงามมาก",
+        "si": "ඒ කාන්තාව, හරිම, ලස්සනයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -1886,7 +2269,8 @@
         "id": "cantik.",
         "pt": "bonita.",
         "my": "လှ။",
-        "th": "งดงาม"
+        "th": "งดงาม",
+        "si": "うつくしい = ලස්සන."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=126.061,129.959",
       "t": [
@@ -1951,7 +2335,8 @@
         "id": "Rambutnya hitam panjang, mengenakan baju putih khas Vietnam.",
         "pt": "Tinha cabelos pretos e longos e vestia roupas brancas vietnamitas.",
         "my": "ဆံပင်ရှည်ရှည် မည်းမည်းနဲ့ ဗီယက်နမ် အဖြူရောင် အဝတ်ဝတ်ထားတယ်။",
-        "th": "เธอมีผมยาวดำ สวมชุดขาวแบบเวียดนาม"
+        "th": "เธอมีผมยาวดำ สวมชุดขาวแบบเวียดนาม",
+        "si": "දිග කළු කොණ්ඩයක් එක්ක, වියට්නාම සුදු ඇඳුමක් ඇඳගෙන හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1965,7 +2350,8 @@
         "id": "mengenakan.",
         "pt": "vestir.",
         "my": "ဝတ်။",
-        "th": "สวม"
+        "th": "สวม",
+        "si": "着る = අඳිනවා; 「〜ていました」 = ඇඳගෙන හිටියා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=130.559,134.884",
       "t": [
@@ -2038,7 +2424,8 @@
         "id": "Sambil bernyanyi pelan, ia membuka jendela.",
         "pt": "Cantando baixinho, ela abriu a janela.",
         "my": "သီချင်းလေး တိုးတိုးဆိုရင်း ပြတင်းပေါက် ဖွင့်တယ်။",
-        "th": "เธอร้องเพลงเบา ๆ พลางเปิดหน้าต่าง"
+        "th": "เธอร้องเพลงเบา ๆ พลางเปิดหน้าต่าง",
+        "si": "කාන්තාව, හෙමින්, සින්දුවක් කියමින්, ජනේලය ඇරියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2052,7 +2439,8 @@
         "id": "sambil; jendela.",
         "pt": "enquanto; janela.",
         "my": "...ရင်း; ပြတင်းပေါက်။",
-        "th": "พลาง; หน้าต่าง"
+        "th": "พลาง; หน้าต่าง",
+        "si": "「〜ながら」 = ~ කරමින්; まど = ජනේලය."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=135.484,141.447",
       "t": [
@@ -2125,7 +2513,8 @@
         "id": "Ia mengambil sapu dan mulai menyapu rumah.",
         "pt": "Pegou uma vassoura e começou a varrer a casa.",
         "my": "တံမြက်စည်းကိုင်ပြီး အိမ်ထဲ လှည်းလာတယ်။",
-        "th": "เธอหยิบไม้กวาดเริ่มกวาดบ้าน"
+        "th": "เธอหยิบไม้กวาดเริ่มกวาดบ้าน",
+        "si": "කාන්තාව, කොස්ස අරගෙන, ගෙදර ඇතුළ, අතුගාන්න පටන් ගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2139,7 +2528,8 @@
         "id": "sapu.",
         "pt": "vassoura.",
         "my": "တံမြက်စည်း။",
-        "th": "ไม้กวาด"
+        "th": "ไม้กวาด",
+        "si": "ほうき = කොස්ස; 「〜始める」 = ~ කරන්න පටන් ගන්නවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=142.047,147.832",
       "t": [
@@ -2200,7 +2590,8 @@
         "id": "Lalu ia ke dapur dan mulai memasak.",
         "pt": "Depois foi à cozinha e começou a cozinhar.",
         "my": "ပြီးတော့ မီးဖိုချောင်သွားပြီး ထမင်းချက်တယ်။",
-        "th": "แล้วก็ไปครัวเริ่มหุงข้าว"
+        "th": "แล้วก็ไปครัวเริ่มหุงข้าว",
+        "si": "ඊට පස්සේ, කුස්සියට ගිහින්, කෑම උයන්න පටන් ගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2214,7 +2605,8 @@
         "id": "lalu.",
         "pt": "depois.",
         "my": "ပြီးတော့။",
-        "th": "แล้ว"
+        "th": "แล้ว",
+        "si": "それから = ඊට පස්සේ."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=148.432,152.977",
       "t": [
@@ -2259,7 +2651,8 @@
         "id": "\"Ternyata gadis itu yang menolongku.\"",
         "pt": "\"Então era ela quem me ajudava.\"",
         "my": "\"အဲဒီကလေးမက ငါ့ကို ကူညီနေတာကိုး။\"",
-        "th": "\"ที่แท้เด็กคนนั้นช่วยฉันอยู่นี่เอง\""
+        "th": "\"ที่แท้เด็กคนนั้นช่วยฉันอยู่นี่เอง\"",
+        "si": "\"එහෙනම් අර කෙල්ල තමයි, මට උදව් කරලා තියෙන්නේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2273,7 +2666,8 @@
         "id": "ternyata.",
         "pt": "então era.",
         "my": "...ကိုး။",
-        "th": "ที่แท้"
+        "th": "ที่แท้",
+        "si": "「〜てくれていた」 = මට ~ කරමින් හිටියා; 「〜んだね」 = එහෙනම් ~ නේද."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=153.877,157.352",
       "t": [
@@ -2326,7 +2720,8 @@
         "id": "Nenek diam-diam mendekati tempayan.",
         "pt": "A velhinha se aproximou do jarro em silêncio.",
         "my": "အဘွားက တိတ်တိတ်လေး ရေအိုးဆီ ချဉ်းကပ်တယ်။",
-        "th": "หญิงชราค่อย ๆ เดินเข้าไปใกล้โอ่งน้ำ"
+        "th": "หญิงชราค่อย ๆ เดินเข้าไปใกล้โอ่งน้ำ",
+        "si": "ආච්චි, නිශ්ශබ්දව, වතුර කළේ ළඟට, ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2340,7 +2735,8 @@
         "id": "diam-diam; mendekati.",
         "pt": "em silêncio; aproximar-se.",
         "my": "တိတ်တိတ်; ချဉ်းကပ်။",
-        "th": "เงียบ ๆ; เข้าใกล้"
+        "th": "เงียบ ๆ; เข้าใกล้",
+        "si": "静かに = නිශ්ශබ්දව; 近づく = ළං වෙනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=158.252,162.45",
       "t": [
@@ -2393,7 +2789,8 @@
         "id": "Lalu ia mengambil cangkang yang kosong.",
         "pt": "Depois pegou a concha vazia.",
         "my": "ပြီးတော့ ဗလာဖြစ်နေတဲ့ ခရုခွံကို လက်ထဲ ယူတယ်။",
-        "th": "แล้วหยิบเปลือกหอยที่ว่างเปล่าขึ้นมา"
+        "th": "แล้วหยิบเปลือกหอยที่ว่างเปล่าขึ้นมา",
+        "si": "ඊට පස්සේ, හිස් වෙච්ච කටුව, අතට ගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2407,7 +2804,8 @@
         "id": "kosong; mengambil.",
         "pt": "vazio; pegar.",
         "my": "ဗလာ; လက်ထဲယူ။",
-        "th": "ว่างเปล่า; หยิบ"
+        "th": "ว่างเปล่า; หยิบ",
+        "si": "からっぽ = හිස්; 手に取る = අතට ගන්නවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=163.05,167.039",
       "t": [
@@ -2452,7 +2850,8 @@
         "id": "\"Kalau cangkang ini tidak ada, mungkin ia akan tinggal di sini.\"",
         "pt": "\"Se esta concha não existisse, talvez ela ficasse aqui.\"",
         "my": "\"ဒီခရုခွံ မရှိရင် အဲဒီကလေးမ ဒီမှာ နေမလားမသိဘူး။\"",
-        "th": "\"ถ้าไม่มีเปลือกนี้ เด็กคนนั้นอาจจะอยู่ที่นี่\""
+        "th": "\"ถ้าไม่มีเปลือกนี้ เด็กคนนั้นอาจจะอยู่ที่นี่\"",
+        "si": "\"මේ කටුව, නැත්නම්, අර කෙල්ල, මෙහෙම ඉඳියි.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2466,7 +2865,8 @@
         "id": "kalau tidak ada.",
         "pt": "se não houvesse.",
         "my": "မရှိရင်။",
-        "th": "ถ้าไม่มี"
+        "th": "ถ้าไม่มี",
+        "si": "「〜なければ」 = ~ නැත්නම්; 「〜てくれる」 = මට ~ කරනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=167.939,173.556",
       "t": [
@@ -2503,7 +2903,8 @@
         "id": "Diam-diam ia memecahkan cangkang itu.",
         "pt": "Às escondidas, ela quebrou a concha.",
         "my": "အဲဒီ ခရုခွံကို တိတ်တဆိတ် ခွဲပစ်လိုက်တယ်။",
-        "th": "นางแอบทุบเปลือกหอยนั้นแตก"
+        "th": "นางแอบทุบเปลือกหอยนั้นแตก",
+        "si": "ආච්චි ඒ කටුව, හොරෙන්, බිඳලා දැම්මා."
       },
       "vocab": [
         {
@@ -2520,7 +2921,8 @@
             "id": "diam-diam",
             "pt": "às escondidas",
             "my": "တိတ်တဆိတ်",
-            "th": "แอบ ๆ"
+            "th": "แอบ ๆ",
+            "si": "රහසේම, නොදැනීම"
           },
           "level": "N2"
         }
@@ -2536,7 +2938,8 @@
         "id": "diam-diam; memecahkan.",
         "pt": "às escondidas; quebrar.",
         "my": "တိတ်တဆိတ်; ခွဲ။",
-        "th": "แอบ; ทุบ"
+        "th": "แอบ; ทุบ",
+        "si": "こっそり = හොරෙන්; わる = බිඳිනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=174.456,178.885",
       "t": [
@@ -2593,7 +2996,8 @@
         "id": "Mendengar suara itu, gadis itu menoleh.",
         "pt": "Ouvindo o barulho, a moça se virou.",
         "my": "အသံကြားတော့ မိန်းကလေးက လှည့်ကြည့်တယ်။",
-        "th": "หญิงสาวได้ยินเสียงจึงหันมา"
+        "th": "หญิงสาวได้ยินเสียงจึงหันมา",
+        "si": "කාන්තාව, සද්දේ අහලා, ආපහු හැරුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2607,7 +3011,8 @@
         "id": "menoleh.",
         "pt": "virar-se.",
         "my": "လှည့်ကြည့်။",
-        "th": "หันมา"
+        "th": "หันมา",
+        "si": "ふりむく = ආපහු හැරෙනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=179.485,183.212",
       "t": [
@@ -2644,7 +3049,8 @@
         "id": "\"Ah! Cangkangku...\"",
         "pt": "\"Ah! Minha concha...\"",
         "my": "\"အို... ကျွန်မ ခရုခွံ...\"",
-        "th": "\"อ๊ะ เปลือกหอยของฉัน...\""
+        "th": "\"อ๊ะ เปลือกหอยของฉัน...\"",
+        "si": "\"අනේ. මගේ කටුව……\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2658,7 +3064,8 @@
         "id": "kalimat terputus.",
         "pt": "frase interrompida.",
         "my": "စကားမဆုံး။",
-        "th": "ประโยคค้าง"
+        "th": "ประโยคค้าง",
+        "si": "「〜が……」 = කම්පනය පෙන්නන නිම නොකළ වාක්‍යය."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=184.112,185.806",
       "t": [
@@ -2699,7 +3106,8 @@
         "id": "Gadis itu terdiam sejenak.",
         "pt": "A moça ficou calada por um tempo.",
         "my": "မိန်းကလေးက ခဏ တိတ်ဆိတ်နေတယ်။",
-        "th": "หญิงสาวเงียบไปพักหนึ่ง"
+        "th": "หญิงสาวเงียบไปพักหนึ่ง",
+        "si": "කාන්තාව, ටික වෙලාවක්, මුකුත් කතා කළේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -2713,7 +3121,8 @@
         "id": "terdiam.",
         "pt": "calar-se.",
         "my": "တိတ်ဆိတ်။",
-        "th": "เงียบ"
+        "th": "เงียบ",
+        "si": "だまる = නිශ්ශබ්ද වෙනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=186.706,190.451",
       "t": [
@@ -2782,7 +3191,8 @@
         "id": "Nenek menggenggam tangannya dan berkata lembut.",
         "pt": "A velhinha segurou a mão dela e falou com carinho.",
         "my": "အဘွားက သူမလက်ကို ကိုင်ပြီး နူးနူးညံ့ညံ့ ပြောတယ်။",
-        "th": "หญิงชราจับมือเธอแล้วพูดอย่างอ่อนโยน"
+        "th": "หญิงชราจับมือเธอแล้วพูดอย่างอ่อนโยน",
+        "si": "ආච්චි, කාන්තාවගේ අතින් අල්ලලා, කරුණාවෙන් කිව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2796,7 +3206,8 @@
         "id": "menggenggam; lembut.",
         "pt": "segurar a mão; com carinho.",
         "my": "လက်ကိုင်; နူးညံ့စွာ။",
-        "th": "จับมือ; อ่อนโยน"
+        "th": "จับมือ; อ่อนโยน",
+        "si": "手を取る = කෙනෙකුගේ අතින් අල්ලනවා; やさしく = කරුණාවෙන්."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=191.051,195.972",
       "t": [
@@ -2833,7 +3244,8 @@
         "id": "\"Maaf ya. Tapi aku sudah lama sendirian.\"",
         "pt": "\"Desculpe. Mas eu estive sozinha por tanto tempo.\"",
         "my": "\"တောင်းပန်ပါတယ်။ ဒါပေမဲ့ အဘွား တစ်ယောက်တည်း အမြဲ နေခဲ့ရတယ်။\"",
-        "th": "\"ขอโทษนะ แต่ยายอยู่คนเดียวมาตลอด\""
+        "th": "\"ขอโทษนะ แต่ยายอยู่คนเดียวมาตลอด\"",
+        "si": "\"සමාවෙන්න දුවේ. ඒත්, මං, ගොඩක් කාලයක් තනියම හිටියේ.\""
       },
       "vocab": [
         {
@@ -2850,7 +3262,8 @@
             "id": "terus-menerus",
             "pt": "o tempo todo",
             "my": "တောက်လျှောက်",
-            "th": "ตลอด"
+            "th": "ตลอด",
+            "si": "දිගටම, මුළු කාලයම"
           },
           "level": "N3"
         }
@@ -2866,7 +3279,8 @@
         "id": "akhiran lembut.",
         "pt": "final suave.",
         "my": "နူးညံ့တဲ့ အဆုံး။",
-        "th": "คำลงท้ายนุ่มนวล"
+        "th": "คำลงท้ายนุ่มนวล",
+        "si": "「〜の」 = මෘදු වාක්‍ය අවසානය; ずっと = මුළු කාලෙම."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=196.872,201.105",
       "t": [
@@ -2903,7 +3317,8 @@
         "id": "\"Kumohon tinggallah di sini. Jadilah putriku.\"",
         "pt": "\"Por favor, fique aqui. Seja minha filha.\"",
         "my": "\"ကျေးဇူးပြုပြီး ဒီမှာ နေပေးပါ။ အဘွားရဲ့ သမီး ဖြစ်ပေးပါ။\"",
-        "th": "\"ได้โปรดอยู่ที่นี่เถอะ มาเป็นลูกสาวของยายนะ\""
+        "th": "\"ได้โปรดอยู่ที่นี่เถอะ มาเป็นลูกสาวของยายนะ\"",
+        "si": "\"අනේ, මෙහෙම ඉන්න. මගේ දුව වෙන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2917,7 +3332,8 @@
         "id": "kumohon.",
         "pt": "por favor.",
         "my": "...ပေးပါ။",
-        "th": "...ให้ยายนะ"
+        "th": "...ให้ยายนะ",
+        "si": "「〜ておくれ」 = මට ~ කරන්න (වයසක, ළෙන්ගතු කතාව); どうか = අනේ."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=201.705,206.638",
       "t": [
@@ -2974,7 +3390,8 @@
         "id": "Ia menatap mata nenek dan tersenyum.",
         "pt": "Ela olhou nos olhos da velhinha e sorriu.",
         "my": "အဘွားရဲ့ မျက်လုံးကို ကြည့်ပြီး ပြုံးတယ်။",
-        "th": "เธอมองตาหญิงชราแล้วยิ้ม"
+        "th": "เธอมองตาหญิงชราแล้วยิ้ม",
+        "si": "කාන්තාව, ආච්චිගේ ඇස් දිහා බලලා, ලස්සනට, හිනා වුණා."
       },
       "vocab": [
         {
@@ -2991,7 +3408,8 @@
             "id": "tersenyum",
             "pt": "sorrindo",
             "my": "ပြုံးပြုံးလေး",
-            "th": "ยิ้มแย้ม"
+            "th": "ยิ้มแย้ม",
+            "si": "හිනාවකින්"
           },
           "level": "N3"
         }
@@ -3007,7 +3425,8 @@
         "id": "tersenyum.",
         "pt": "sorrindo.",
         "my": "ပြုံး။",
-        "th": "ยิ้ม"
+        "th": "ยิ้ม",
+        "si": "にっこり = හිනාවකින්."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=207.538,212.344",
       "t": [
@@ -3036,7 +3455,8 @@
         "id": "\"Ya, Ibu. Mulai sekarang kita hidup bersama.\"",
         "pt": "\"Sim, mãe. De agora em diante, vamos viver juntas.\"",
         "my": "\"ဟုတ်ကဲ့ အမေ။ ဒီကစပြီး အတူ နေကြရအောင်။\"",
-        "th": "\"ค่ะ แม่ จากนี้ไปเราอยู่ด้วยกันนะ\""
+        "th": "\"ค่ะ แม่ จากนี้ไปเราอยู่ด้วยกันนะ\"",
+        "si": "\"හා. අම්මේ. මෙතැන් ඉඳන්, එකට, ජීවත් වෙමු.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3050,7 +3470,8 @@
         "id": "mari.",
         "pt": "vamos.",
         "my": "...ကြရအောင်။",
-        "th": "กันเถอะ"
+        "th": "กันเถอะ",
+        "si": "「〜ましょう」 = ~ කරමු."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=213.244,217.419",
       "t": [
@@ -3103,7 +3524,8 @@
         "id": "Sejak itu, keduanya hidup rukun seperti ibu dan anak sungguhan.",
         "pt": "Depois disso, as duas viveram unidas como mãe e filha de verdade.",
         "my": "အဲဒီကစပြီး နှစ်ယောက် တကယ့် သားအမိလို သင့်သင့်မြတ်မြတ် နေကြတယ်။",
-        "th": "หลังจากนั้น ทั้งสองอยู่กันอย่างรักใคร่เหมือนแม่ลูกแท้ ๆ"
+        "th": "หลังจากนั้น ทั้งสองอยู่กันอย่างรักใคร่เหมือนแม่ลูกแท้ ๆ",
+        "si": "එදා ඉඳන්, දෙන්නා, ඇත්තම අම්මයි දුවයි වගේ, සමගියෙන්, ජීවත් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3117,7 +3539,8 @@
         "id": "seperti.",
         "pt": "como.",
         "my": "...လို။",
-        "th": "เหมือน"
+        "th": "เหมือน",
+        "si": "「〜のように」 = ~ වගේ."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=218.319,224.183",
       "t": [
@@ -3146,7 +3569,8 @@
         "id": "Nenek tidak kesepian lagi.",
         "pt": "A velhinha já não se sentia sozinha.",
         "my": "အဘွား မအထီးကျန်တော့ဘူး။",
-        "th": "หญิงชราไม่เหงาอีกต่อไป"
+        "th": "หญิงชราไม่เหงาอีกต่อไป",
+        "si": "ආච්චිට, තවත්, තනිකමක් දැනුණේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -3160,7 +3584,8 @@
         "id": "tidak lagi.",
         "pt": "já não.",
         "my": "မ...တော့။",
-        "th": "ไม่...อีกแล้ว"
+        "th": "ไม่...อีกแล้ว",
+        "si": "「もう〜ない」 = තවත් ~ නැහැ."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=224.783,228.42",
       "t": [
@@ -3225,7 +3650,8 @@
         "id": "Sang putri rajin setiap hari dan baik kepada penduduk desa.",
         "pt": "A filha trabalhava duro todo dia e era gentil com os aldeões.",
         "my": "သမီးက နေ့တိုင်း လုံ့လရှိပြီး ရွာသားတွေကိုလည်း ကြင်နာတယ်။",
-        "th": "ลูกสาวขยันทุกวันและใจดีกับชาวบ้านด้วย"
+        "th": "ลูกสาวขยันทุกวันและใจดีกับชาวบ้านด้วย",
+        "si": "දුව, හැමදාම, මහන්සි වෙලා වැඩ කළා, ගමේ අයටත්, කාරුණික වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3239,7 +3665,8 @@
         "id": "rajin.",
         "pt": "trabalhador.",
         "my": "လုံ့လရှိသူ။",
-        "th": "คนขยัน"
+        "th": "คนขยัน",
+        "si": "はたらき者 = මහන්සි වෙලා වැඩ කරන කෙනා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=229.02,235.753",
       "t": [
@@ -3304,7 +3731,8 @@
         "id": "Penduduk desa menyebutnya \"Bidadari Keong\".",
         "pt": "Os aldeões a chamavam de \"Fada do Caracol\".",
         "my": "ရွာသားတွေက သူမကို \"ခရုနတ်သမီး\" လို့ ခေါ်ကြတယ်။",
-        "th": "ชาวบ้านเรียกเธอว่า \"นางฟ้าหอย\""
+        "th": "ชาวบ้านเรียกเธอว่า \"นางฟ้าหอย\"",
+        "si": "ගමේ මිනිස්සු, ඒ කාන්තාවට, \"ගොළුබෙලි දේවඟනාව\" කියලා, කිව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3318,7 +3746,8 @@
         "id": "bidadari.",
         "pt": "fada.",
         "my": "နတ်သမီး။",
-        "th": "นางฟ้า"
+        "th": "นางฟ้า",
+        "si": "仙女 = දේවඟනාව; 「AをBとよぶ」 = A ට B කියලා කියනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=236.353,242.003",
       "t": [
@@ -3379,7 +3808,8 @@
         "id": "Ini cerita yang dikenal baik anak-anak Vietnam.",
         "pt": "É uma história que as crianças vietnamitas conhecem bem.",
         "my": "ဒါ ဗီယက်နမ်ကလေးတွေ ကောင်းကောင်း သိတဲ့ ပုံပြင်ပါ။",
-        "th": "นี่คือนิทานที่เด็กเวียดนามรู้จักดี"
+        "th": "นี่คือนิทานที่เด็กเวียดนามรู้จักดี",
+        "si": "මේ කතාව, වියට්නාම ළමයි, හොඳට දන්න කතාවක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -3393,7 +3823,8 @@
         "id": "klausa relatif.",
         "pt": "oração relativa.",
         "my": "နာမဝိသေသန။",
-        "th": "อนุประโยคขยาย"
+        "th": "อนุประโยคขยาย",
+        "si": "නාම විශේෂණ වාක්‍යය: 「子どもたちが、よく知っている」 話 විස්තර කරනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=242.603,247.512",
       "t": [
@@ -3438,7 +3869,8 @@
         "id": "Ini cerita bahwa kebaikan akan kembali kepada kita.",
         "pt": "É uma história que diz que a bondade volta para nós.",
         "my": "ကြင်နာရင် ကြင်နာမှု ပြန်ရတယ်ဆိုတဲ့ ပုံပြင်ပါ။",
-        "th": "เป็นนิทานที่บอกว่าความใจดีจะย้อนกลับมาหาเรา"
+        "th": "เป็นนิทานที่บอกว่าความใจดีจะย้อนกลับมาหาเรา",
+        "si": "කරුණාව දැක්කොත්, කරුණාව ආපහු එනවා කියන කතාවක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -3452,7 +3884,8 @@
         "id": "jika; cerita bahwa.",
         "pt": "se; história de que.",
         "my": "ရင်; ဆိုတဲ့ပုံပြင်။",
-        "th": "ถ้า; นิทานที่ว่า"
+        "th": "ถ้า; นิทานที่ว่า",
+        "si": "「〜ば」 = ~ කළොත්; 「〜という話」 = ~ කියන කතාව."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=248.112,252.982",
       "t": [
@@ -3505,7 +3938,8 @@
         "id": "Jepang juga punya dongeng yang mirip.",
         "pt": "O Japão também tem um conto bem parecido.",
         "my": "ဂျပန်မှာလည်း အရမ်းဆင်တဲ့ ပုံပြင် ရှိတယ်။",
-        "th": "ญี่ปุ่นก็มีนิทานที่คล้ายกันมาก"
+        "th": "ญี่ปุ่นก็มีนิทานที่คล้ายกันมาก",
+        "si": "හරි, ජපානයෙත්, හරිම සමාන ජන කතාවක් තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3519,7 +3953,8 @@
         "id": "mirip.",
         "pt": "parecer.",
         "my": "ဆင်။",
-        "th": "คล้าย"
+        "th": "คล้าย",
+        "si": "似る = සමාන වෙනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=253.582,257.695",
       "t": [
@@ -3572,7 +4007,8 @@
         "id": "Tahukah kamu \"Balas Budi Burung Bangau\"?",
         "pt": "Conhece \"A Gratidão da Garça\"?",
         "my": "\"ကြိုးကြာ ကျေးဇူးဆပ်\" ကို သိလား။",
-        "th": "รู้จัก \"นกกระเรียนตอบแทนบุญคุณ\" ไหม"
+        "th": "รู้จัก \"นกกระเรียนตอบแทนบุญคุณ\" ไหม",
+        "si": "\"කොකාගේ කෘතගුණ සැලකීම\" දන්නවද?"
       },
       "vocab": [],
       "grammarNote": {
@@ -3586,7 +4022,8 @@
         "id": "balas budi.",
         "pt": "gratidão.",
         "my": "ကျေးဇူးဆပ်။",
-        "th": "ตอบแทนบุญคุณ"
+        "th": "ตอบแทนบุญคุณ",
+        "si": "恩返し = උදව්වට කෘතගුණ සැලකීම."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=258.295,261.243",
       "t": [
@@ -3659,7 +4096,8 @@
         "id": "Bangau yang ditolong menjadi wanita dan datang ke rumah kakek-nenek.",
         "pt": "Uma garça salva vira mulher e vai à casa de um casal de velhinhos.",
         "my": "ကယ်ခံရတဲ့ ကြိုးကြာက မိန်းကလေးဖြစ်ပြီး အဘိုးအဘွားအိမ်ကို လာတယ်။",
-        "th": "นกกระเรียนที่ถูกช่วยกลายเป็นหญิงสาว มาที่บ้านตายาย"
+        "th": "นกกระเรียนที่ถูกช่วยกลายเป็นหญิงสาว มาที่บ้านตายาย",
+        "si": "බේරගත්ත කොකෙක්, කාන්තාවක් වෙලා, සීයයි ආච්චියි ඉන්න ගෙදරට එනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3673,7 +4111,8 @@
         "id": "ditolong.",
         "pt": "salva.",
         "my": "ကယ်ခံရတဲ့။",
-        "th": "ที่ถูกช่วย"
+        "th": "ที่ถูกช่วย",
+        "si": "「助けてもらった」 = (කවුරුහරි) බේරගත්ත."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=261.843,267.949",
       "t": [
@@ -3726,7 +4165,8 @@
         "id": "Ia berkata, \"Jangan melihat saat aku menenun.\"",
         "pt": "E diz: \"Por favor, não me olhem tecendo.\"",
         "my": "\"ရက်ကန်းယက်တာ မကြည့်ပါနဲ့\" လို့ ပြောတယ်။",
-        "th": "แล้วบอกว่า \"อย่ามองตอนฉันทอผ้านะ\""
+        "th": "แล้วบอกว่า \"อย่ามองตอนฉันทอผ้านะ\"",
+        "si": "ඊට පස්සේ, \"මම රෙදි වියනකොට, බලන්න එපා\" කියලා කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3740,7 +4180,8 @@
         "id": "jangan; menenun.",
         "pt": "não; tecer.",
         "my": "မ...ပါနဲ့; ရက်ကန်း။",
-        "th": "อย่า; ทอผ้า"
+        "th": "อย่า; ทอผ้า",
+        "si": "「〜ないでください」 = ~ කරන්න එපා; はたを織る = රෙදි වියනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=268.549,273.279",
       "t": [
@@ -3769,7 +4210,8 @@
         "id": "Tapi kakek-nenek mengintip.",
         "pt": "Mas os velhinhos espiam.",
         "my": "ဒါပေမဲ့ အဘိုးအဘွားက ချောင်းကြည့်မိတယ်။",
-        "th": "แต่ตายายก็แอบมอง"
+        "th": "แต่ตายายก็แอบมอง",
+        "si": "ඒත්, සීයයි ආච්චියි, හොරෙන් එබිලා බලනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3783,7 +4225,8 @@
         "id": "mengintip.",
         "pt": "espiar.",
         "my": "ချောင်းကြည့်။",
-        "th": "แอบมอง"
+        "th": "แอบมอง",
+        "si": "のぞく = එබිලා බලනවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=273.879,278.048",
       "t": [
@@ -3836,7 +4279,8 @@
         "id": "Maka bangau terbang kembali ke langit.",
         "pt": "E então a garça voa de volta para o céu.",
         "my": "ဒီတော့ ကြိုးကြာက ကောင်းကင်ကို ပျံပြန်သွားတယ်။",
-        "th": "แล้วนกกระเรียนก็บินกลับฟ้าไป"
+        "th": "แล้วนกกระเรียนก็บินกลับฟ้าไป",
+        "si": "එතකොට, කොකා, අහසට, පියාඹලා යනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3850,7 +4294,8 @@
         "id": "pergi.",
         "pt": "acabar.",
         "my": "သွားတော့တယ်။",
-        "th": "ไปเสียแล้ว"
+        "th": "ไปเสียแล้ว",
+        "si": "「〜てしまう」 = ~ කරලා යනවා (කනගාටුවෙන්)."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=278.648,283.03",
       "t": [
@@ -3907,7 +4352,8 @@
         "id": "Dalam cerita Jepang, melihat membawa perpisahan.",
         "pt": "Na história japonesa, ver traz a separação.",
         "my": "ဂျပန်ပုံပြင်မှာ မြင်လိုက်ရင် ခွဲခွာရတယ်။",
-        "th": "ในนิทานญี่ปุ่น พอเห็นก็ต้องจากกัน"
+        "th": "ในนิทานญี่ปุ่น พอเห็นก็ต้องจากกัน",
+        "si": "ජපන් කතාවේ, බැලුවොත්, වෙන් වීමක් එනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3921,7 +4367,8 @@
         "id": "bila; perpisahan.",
         "pt": "quando; separação.",
         "my": "ရင်; ခွဲခွာ။",
-        "th": "พอ; จากกัน"
+        "th": "พอ; จากกัน",
+        "si": "「〜と」 = ~ කළොත් (ප්‍රතිඵලය); わかれ = වෙන් වීම."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=283.63,287.929",
       "t": [
@@ -3982,7 +4429,8 @@
         "id": "Dalam cerita Vietnam, setelah melihat, mereka jadi keluarga sejati.",
         "pt": "Na história vietnamita, depois de ver, viraram uma família de verdade.",
         "my": "ဗီယက်နမ်ပုံပြင်မှာ မြင်ပြီးနောက် တကယ့်မိသားစု ဖြစ်လာတယ်။",
-        "th": "ในนิทานเวียดนาม หลังจากเห็นแล้วกลับได้เป็นครอบครัวจริง ๆ"
+        "th": "ในนิทานเวียดนาม หลังจากเห็นแล้วกลับได้เป็นครอบครัวจริง ๆ",
+        "si": "වියට්නාම කතාවේ, බැලුවට පස්සේ, ඇත්තම පවුලක් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3996,7 +4444,8 @@
         "id": "setelah.",
         "pt": "depois de.",
         "my": "ပြီးနောက်။",
-        "th": "หลังจาก"
+        "th": "หลังจาก",
+        "si": "「〜たあとで」 = ~ කළාට පස්සේ."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=288.529,293.594",
       "t": [
@@ -4057,7 +4506,8 @@
         "id": "Jepang juga punya \"Tanishi Chōja\", keong yang menjadi pemuda.",
         "pt": "O Japão também tem \"Tanishi Chōja\", em que um caramujo vira rapaz.",
         "my": "ဂျပန်မှာ ခရုက လူငယ်ဖြစ်လာတဲ့ \"တာနိရှိ ချိုးဂျ\" ပုံပြင်လည်း ရှိတယ်။",
-        "th": "ญี่ปุ่นยังมีเรื่อง \"ทานิชิโชจะ\" ที่หอยกลายเป็นชายหนุ่ม"
+        "th": "ญี่ปุ่นยังมีเรื่อง \"ทานิชิโชจะ\" ที่หอยกลายเป็นชายหนุ่ม",
+        "si": "ඒ වගේම, ජපානයේ, ගොළුබෙල්ලෙක් තරුණයෙක් වෙන \"තනිෂි චෝජා\" කියන කතාවකුත් තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4071,7 +4521,8 @@
         "id": "pemuda; orang kaya.",
         "pt": "rapaz; ricaço.",
         "my": "လူငယ်; သူဌေး။",
-        "th": "ชายหนุ่ม; เศรษฐี"
+        "th": "ชายหนุ่ม; เศรษฐี",
+        "si": "若者 = තරුණයා; 長者 = පොහොසත් වැඩිහිටියා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=294.194,300.522",
       "t": [
@@ -4128,7 +4579,8 @@
         "id": "Keong kecil menjadi manusia, sama di Jepang maupun Vietnam.",
         "pt": "Um caramujinho que vira gente: igual no Japão e no Vietnã.",
         "my": "ခရုလေးက လူဖြစ်လာတာ ဂျပန်မှာရော ဗီယက်နမ်မှာရော တူတယ်နော်။",
-        "th": "หอยตัวเล็กกลายเป็นคน ที่ญี่ปุ่นและเวียดนามก็เหมือนกันนะ"
+        "th": "หอยตัวเล็กกลายเป็นคน ที่ญี่ปุ่นและเวียดนามก็เหมือนกันนะ",
+        "si": "පොඩි ගොළුබෙල්ලෙක් මිනිහෙක් වෙන එක, ජපානයෙත්, වියට්නාමයෙත්, එකමයි නේද."
       },
       "vocab": [],
       "grammarNote": {
@@ -4142,7 +4594,8 @@
         "id": "baik A maupun B.",
         "pt": "tanto A quanto B.",
         "my": "A ရော B ရော။",
-        "th": "ทั้ง A และ B"
+        "th": "ทั้ง A และ B",
+        "si": "「AでもBでも」 = A වුණත් B වුණත්."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=301.122,307.646",
       "t": [
@@ -4199,7 +4652,8 @@
         "id": "Kalau menemukan keong di tepi sawah, ingatlah cerita ini.",
         "pt": "Se achar um caramujo perto do arrozal, lembre-se disso.",
         "my": "လယ်ကွင်းဘေးမှာ ခရုတွေ့ရင် သတိရပါ။",
-        "th": "ถ้าเจอหอยข้างนา ลองนึกถึงเรื่องนี้นะ"
+        "th": "ถ้าเจอหอยข้างนา ลองนึกถึงเรื่องนี้นะ",
+        "si": "කුඹුරක් ළඟ, ගොළුබෙල්ලෙක් දැක්කොත්, මේ කතාව මතක් කරගන්න."
       },
       "vocab": [],
       "grammarNote": {
@@ -4213,7 +4667,8 @@
         "id": "kalau; ingat.",
         "pt": "se; lembrar.",
         "my": "ရင်; သတိရ။",
-        "th": "ถ้า; นึกถึง"
+        "th": "ถ้า; นึกถึง",
+        "si": "「〜たら」 = ~ කළොත්; 思い出す = මතක් කරගන්නවා."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=308.246,312.696",
       "t": [
@@ -4250,7 +4705,8 @@
         "id": "Siapa tahu, ada seseorang bersembunyi di dalamnya.",
         "pt": "Quem sabe alguém esteja escondido lá dentro.",
         "my": "ဘယ်သိမလဲ၊ အထဲမှာ တစ်ယောက်ယောက် ပုန်းနေနိုင်တယ်။",
-        "th": "ใครจะรู้ ข้างในอาจมีใครซ่อนอยู่ก็ได้"
+        "th": "ใครจะรู้ ข้างในอาจมีใครซ่อนอยู่ก็ได้",
+        "si": "සමහරවිට, ඒ ඇතුළේ, කවුරුහරි, හැංගිලා ඉන්නවා වෙන්න පුළුවන්."
       },
       "vocab": [],
       "grammarNote": {
@@ -4264,7 +4720,8 @@
         "id": "siapa tahu.",
         "pt": "quem sabe.",
         "my": "ဘယ်သိမလဲ။",
-        "th": "ใครจะรู้"
+        "th": "ใครจะรู้",
+        "si": "もしかしたら = සමහරවිට; 「〜かもしれません」 = ~ වෙන්න පුළුවන්."
       },
       "audio": "/audio/furusato-vn-oc-1/chapter.mp3#t=313.296,318.506",
       "t": [

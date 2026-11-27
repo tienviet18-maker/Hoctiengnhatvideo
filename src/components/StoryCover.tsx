@@ -1,4 +1,13 @@
+"use client";
+
 import type { StoryIndexItem } from "../lib/catalog.generated";
+import { useLang } from "./LangProvider";
+
+/** Bìa theo ngôn ngữ người đọc (sách nổi tiếng: dòng tên sách in theo ngôn ngữ đã chọn), thiếu thì dùng bìa chung. */
+export function coverFor(cover: string | undefined, coverLangs: readonly string[] | undefined, lang: string) {
+  if (!cover || !coverLangs?.includes(lang)) return cover;
+  return cover.replace(/\.webp$/, `.${lang}.webp`);
+}
 
 /** Màu bìa chữ (kiểu bunko) ổn định theo id, cho truyện chưa có ảnh bìa. */
 const TONES = [
@@ -33,13 +42,15 @@ export default function StoryCover({
   width?: number;
   pct?: number;
 }) {
+  const { lang } = useLang();
+  const src = coverFor(story.cover, story.coverLangs, lang);
   const height = Math.round((width * 4) / 3);
   const [bg, fg] = coverTone(story.id);
   return (
     <span style={{ position: "relative", display: "block", width, height, borderRadius: 6, overflow: "hidden", background: bg, color: fg, boxShadow: "0 2px 6px rgba(20,33,61,.15)" }}>
       {story.cover ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={story.cover} alt="" loading="lazy" width={width} height={height} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+        <img src={src} alt="" loading="lazy" width={width} height={height} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
       ) : (
         <span style={{ position: "absolute", inset: 0, padding: 9, fontSize: width > 110 ? 15 : 13, fontWeight: 800, lineHeight: 1.3, overflow: "hidden" }}>
           <span style={{ display: "-webkit-box", WebkitLineClamp: 5, WebkitBoxOrient: "vertical", overflow: "hidden" }}>{title}</span>
@@ -56,9 +67,7 @@ export default function StoryCover({
         )}
       </span>
       )}
-      {!story.free && (
-        <span style={{ position: "absolute", right: 6, top: 6, fontSize: 9, fontWeight: 800, background: "#14213D", color: "#F5C542", borderRadius: 5, padding: "2px 5px" }}>VIP</span>
-      )}
+      {/* Việt 26/11: không gắn nhãn VIP trên bìa; khách vào đọc thử vài câu rồi mới mời VIP */}
       {pct > 0 && (
         <span style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 3, background: "rgba(0,0,0,.15)" }}>
           <span style={{ display: "block", width: `${pct}%`, height: 3, background: "var(--accent)" }} />

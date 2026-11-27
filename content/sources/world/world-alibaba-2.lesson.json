@@ -1,0 +1,30 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜ことになる",
+   "example": 0,
+   "meaning": { "vi": "rồi thành ra ~, được quyết định ~", "en": "it turns out / is decided that ~", "zh-Hans": "（结果）决定……", "ko": "~하게 되다", "tl": "nauwi sa ~", "ne": "~ हुन पुग्नु", "id": "jadinya ~", "pt": "acabar por ~", "my": "~ ဖြစ်လာသည်", "th": "กลายเป็นว่า ~" }
+  },
+  {
+   "pattern": "〜気がする",
+   "example": 7,
+   "meaning": { "vi": "có cảm giác ~", "en": "have a feeling that ~", "zh-Hans": "觉得……", "ko": "~한 느낌이 들다", "tl": "pakiramdam ko ~", "ne": "~ जस्तो लाग्नु", "id": "merasa ~", "pt": "ter a sensação de ~", "my": "~ လို့ ခံစားရသည်", "th": "รู้สึกว่า ~" }
+  },
+  {
+   "pattern": "〜ふりをする",
+   "example": 32,
+   "meaning": { "vi": "giả vờ ~", "en": "pretend to ~", "zh-Hans": "假装……", "ko": "~인 척하다", "tl": "magkunwaring ~", "ne": "~ को भेष लिनु", "id": "berpura-pura ~", "pt": "fingir ~", "my": "~ ဟန်ဆောင်သည်", "th": "แกล้งทำเป็น ~" }
+  },
+  {
+   "pattern": "〜ではなく",
+   "example": 44,
+   "meaning": { "vi": "không phải ~ mà là", "en": "not ~ but (rather)", "zh-Hans": "不是……而是", "ko": "~이 아니라", "tl": "hindi ~ kundi", "ne": "~ होइन, बरु", "id": "bukan ~ melainkan", "pt": "não ~, mas", "my": "~ မဟုတ်ဘဲ", "th": "ไม่ใช่ ~ แต่" }
+  }
+ ],
+ "quiz": [
+  { "ja": "モルジアナは、戸の印を見て何をしましたか。", "choices": ["印を消した", "近所の戸にも同じ印をつけた", "役人に話した", "家を出た"], "answer": 1, "explain": { "vi": "Cô đánh y hệt dấu lên cửa mọi nhà hàng xóm.", "en": "She put the same mark on all the neighbors' doors.", "zh-Hans": "她在邻居家门上也画了同样的记号。", "ko": "이웃집 문에도 똑같은 표시를 했다.", "tl": "Nilagyan niya ng parehong marka ang mga pinto ng kapitbahay.", "ne": "छिमेकका ढोकामा पनि उस्तै चिन्ह लगाइन्।", "id": "Ia memberi tanda sama di pintu tetangga.", "pt": "Fez a mesma marca nas portas vizinhas.", "my": "အိမ်နီးချင်း တံခါးတွေမှာလည်း အမှတ်အတူတူ လုပ်တယ်။", "th": "เธอทำเครื่องหมายเดียวกันที่ประตูเพื่อนบ้าน" } },
+  { "ja": "かめの中には、何がかくれていましたか。", "choices": ["油だけ", "宝物", "盗賊の手下", "ロバ"], "answer": 2, "explain": { "vi": "Ba mươi bảy chum có tay sai của bọn cướp nấp.", "en": "Thirty-seven jars hid the thieves' men.", "zh-Hans": "三十七个缸里藏着强盗手下。", "ko": "37개 항아리에 도둑의 부하들이 숨어 있었다.", "tl": "Tatlumpu't pitong banga ang may nakatagong tauhan.", "ne": "सैँतीस घ्याम्पामा चोरका चेला लुकेका थिए।", "id": "Tiga puluh tujuh tempayan berisi anak buah penyamun.", "pt": "Em trinta e sete jarros havia capangas.", "my": "စဉ့်အိုး သုံးဆယ့်ခုနစ်လုံးမှာ သူခိုးတပည့်တွေ ပုန်းနေတယ်။", "th": "โอ่งสามสิบเจ็ดใบมีลูกน้องโจรซ่อนอยู่" } },
+  { "ja": "モルジアナは、なぜ客をあやしいと思いましたか。", "choices": ["顔がこわかったから", "塩を食べないと言ったから", "おそく来たから", "お金がなかったから"], "answer": 1, "explain": { "vi": "Người không ăn muối là người không coi chủ nhà là bạn.", "en": "Refusing salt meant he didn't see the host as a friend.", "zh-Hans": "不吃盐，说明不把主人当朋友。", "ko": "소금을 안 먹는 건 주인을 친구로 여기지 않는다는 뜻이다.", "tl": "Ang ayaw sa asin ay hindi kaibigan ng may-bahay.", "ne": "नुन नखानु भनेको घरधनीलाई साथी नमान्नु हो।", "id": "Menolak garam berarti tak menganggap tuan rumah teman.", "pt": "Recusar sal era não ver o anfitrião como amigo.", "my": "ဆားမစားတာက အိမ်ရှင်ကို မိတ်ဆွေလို့ မထင်တာပဲ။", "th": "ไม่กินเกลือ แปลว่าไม่นับเจ้าบ้านเป็นมิตร" } },
+  { "ja": "最後に、モルジアナはどうなりましたか。", "choices": ["町を出た", "アリババの息子のお嫁さんになった", "盗賊になった", "お姫様になった"], "answer": 1, "explain": { "vi": "Cô được tự do và trở thành vợ con trai Ali Baba.", "en": "She was freed and married Ali Baba's son.", "zh-Hans": "她获得自由，嫁给了阿里巴巴的儿子。", "ko": "자유를 얻고 알리바바 아들의 신부가 되었다.", "tl": "Pinalaya siya at naging asawa ng anak ni Ali Baba.", "ne": "उनी स्वतन्त्र भइन् र अलीबाबाकी बुहारी बनिन्।", "id": "Ia dibebaskan dan menikah dengan putra Ali Baba.", "pt": "Foi libertada e casou com o filho de Ali Babá.", "my": "လွတ်လပ်ခွင့်ရပြီး အလီဘာဘာ့သားရဲ့ ဇနီး ဖြစ်လာတယ်။", "th": "เธอได้อิสรภาพและเป็นภรรยาของลูกชายอาลีบาบา" } }
+ ]
+}

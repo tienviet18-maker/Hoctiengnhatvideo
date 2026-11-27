@@ -12,7 +12,8 @@
     "id": "Timun Mas",
     "pt": "Timun Mas, o pepino de ouro",
     "my": "ရွှေသခွားသီး တီမွန်မာ့စ်",
-    "th": "ทิมุน มัส แตงทอง"
+    "th": "ทิมุน มัส แตงทอง",
+    "si": "රන් පිපිඤ්ඤා - තිමුන් මාස්"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -42,8 +43,19 @@
           "id": "Berarti ~.",
           "pt": "Significa ~.",
           "my": "~ လို့ အဓိပ္ပာယ်ရ။",
-          "th": "หมายความว่า~"
-        }
+          "th": "หมายความว่า~",
+          "si": "~ කියන තේරුම."
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜という",
+            "reading": ""
+          },
+          {
+            "surface": "意味",
+            "reading": "いみ"
+          }
+        ]
       },
       {
         "pattern": "〜ほど",
@@ -59,7 +71,8 @@
           "id": "Makin ~, makin …",
           "pt": "Quanto mais ~, mais …",
           "my": "~ လေ … လေ။",
-          "th": "ยิ่ง~ ยิ่ง…"
+          "th": "ยิ่ง~ ยิ่ง…",
+          "si": "~ වෙන තරමට, ... වෙනවා."
         }
       },
       {
@@ -76,7 +89,8 @@
           "id": "Karena ~ (alasan kalimat sebelumnya).",
           "pt": "É porque ~ (explica a frase anterior).",
           "my": "~ လို့ပါ (ရှေ့ဝါကျ အကြောင်းပြ)။",
-          "th": "เป็นเพราะ~ (อธิบายประโยคก่อน)"
+          "th": "เป็นเพราะ~ (อธิบายประโยคก่อน)",
+          "si": "මොකද ~ නිසා (කලින් වාක්‍යය පැහැදිලි කරනවා)."
         }
       },
       {
@@ -93,7 +107,8 @@
           "id": "Harus ~.",
           "pt": "Ter de ~.",
           "my": "~ ရမယ်။",
-          "th": "ต้อง~"
+          "th": "ต้อง~",
+          "si": "~ කරන්න ඕනේ; ~ කරන්නම සිද්ධ වෙනවා."
         }
       }
     ],
@@ -118,8 +133,85 @@
           "id": "Ia keluar dari mentimun emas.",
           "pt": "Saiu de um pepino dourado.",
           "my": "ရွှေသခွားသီးထဲက ထွက်လာတယ်။",
-          "th": "ออกมาจากแตงสีทอง"
-        }
+          "th": "ออกมาจากแตงสีทอง",
+          "si": "යෝධයාගේ බීජයෙන් හැදුණු රන් පිපිඤ්ඤාවකින් එයා එළියට ආවා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "ティムン・マスは、どこから",
+            "reading": ""
+          },
+          {
+            "surface": "生",
+            "reading": "う"
+          },
+          {
+            "surface": "まれた？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "金色",
+              "reading": "きんいろ"
+            },
+            {
+              "surface": "のキュウリの",
+              "reading": ""
+            },
+            {
+              "surface": "中",
+              "reading": "なか"
+            }
+          ],
+          [
+            {
+              "surface": "大男",
+              "reading": "おおおとこ"
+            },
+            {
+              "surface": "のたね",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "星",
+              "reading": "ほし"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "中",
+              "reading": "なか"
+            }
+          ],
+          [
+            {
+              "surface": "森",
+              "reading": "もり"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "木",
+              "reading": "き"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "中",
+              "reading": "なか"
+            }
+          ]
+        ]
       },
       {
         "ja": "スリニは、大男に何と言って、時間をかせいだ？",
@@ -141,8 +233,93 @@
           "id": "Katanya masih kurus, belum enak.",
           "pt": "Disse que ela ainda era magra.",
           "my": "ပိန်နေသေးလို့ မစားကောင်းသေးဘူး ပြောတယ်။",
-          "th": "บอกว่ายังผอม ไม่อร่อย"
-        }
+          "th": "บอกว่ายังผอม ไม่อร่อย",
+          "si": "ළමයා තාම කෙට්ටුයි, රස නැහැ කියලා එයා කිව්වා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "スリニは、",
+            "reading": ""
+          },
+          {
+            "surface": "大男",
+            "reading": "おおおとこ"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "と",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "って、",
+            "reading": ""
+          },
+          {
+            "surface": "時間",
+            "reading": "じかん"
+          },
+          {
+            "surface": "をかせいだ？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "まだやせていて、おいしくない",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "もう、いない",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "かね"
+            },
+            {
+              "surface": "をあげる",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "明日",
+              "reading": "あした"
+            },
+            {
+              "surface": "、",
+              "reading": ""
+            },
+            {
+              "surface": "来",
+              "reading": "き"
+            },
+            {
+              "surface": "てください",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "針を投げると、何になった？",
@@ -164,8 +341,85 @@
           "id": "Jarum → hutan bambu; garam → laut.",
           "pt": "Agulhas → bambuzal; sal → mar.",
           "my": "အပ် → ဝါးတော၊ ဆား → ပင်လယ်။",
-          "th": "เข็ม → ป่าไผ่ เกลือ → ทะเล"
-        }
+          "th": "เข็ม → ป่าไผ่ เกลือ → ทะเล",
+          "si": "ඉඳිකටු → උණ පඳුර; ලුණු → මුහුද; බීජ → පිපිඤ්ඤා කෙත; ඉස්සෝ පේස්ට් → උතුරන මඩ."
+        },
+        "jaFurigana": [
+          {
+            "surface": "針",
+            "reading": "はり"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "投",
+            "reading": "な"
+          },
+          {
+            "surface": "げると、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "になった？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "するどい",
+              "reading": ""
+            },
+            {
+              "surface": "竹",
+              "reading": "たけ"
+            },
+            {
+              "surface": "のはやし",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "広",
+              "reading": "ひろ"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "海",
+              "reading": "うみ"
+            }
+          ],
+          [
+            {
+              "surface": "キュウリ",
+              "reading": ""
+            },
+            {
+              "surface": "畑",
+              "reading": "はたけ"
+            }
+          ],
+          [
+            {
+              "surface": "どろの",
+              "reading": ""
+            },
+            {
+              "surface": "池",
+              "reading": "いけ"
+            }
+          ]
+        ]
       },
       {
         "ja": "日本の「三枚のお札」で、お札を投げるのは、だれ？",
@@ -187,8 +441,101 @@
           "id": "Biksu cilik yang melempar jimat.",
           "pt": "O noviço joga os amuletos.",
           "my": "ကိုရင်လေးက လက်ဖွဲ့ ပစ်တယ်။",
-          "th": "เณรน้อยเป็นคนโยนยันต์"
-        }
+          "th": "เณรน้อยเป็นคนโยนยันต์",
+          "si": "පන්සලේ පොඩි හාමුදුරුවෝ, කඳු යක්ෂණියගෙන් බේරෙන්න ලොකු හාමුදුරුවන්ගේ ආරක්ෂක පත්‍ර විසි කරනවා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "日本",
+            "reading": "にほん"
+          },
+          {
+            "surface": "の「",
+            "reading": ""
+          },
+          {
+            "surface": "三枚",
+            "reading": "さんまい"
+          },
+          {
+            "surface": "のお",
+            "reading": ""
+          },
+          {
+            "surface": "札",
+            "reading": "ふだ"
+          },
+          {
+            "surface": "」で、お",
+            "reading": ""
+          },
+          {
+            "surface": "札",
+            "reading": "ふだ"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "投",
+            "reading": "な"
+          },
+          {
+            "surface": "げるのは、だれ？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "寺",
+              "reading": "てら"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "小僧",
+              "reading": "こぞう"
+            },
+            {
+              "surface": "さん",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "んば",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "和尚",
+              "reading": "おしょう"
+            },
+            {
+              "surface": "さん",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "イザナギ",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },
@@ -241,7 +588,8 @@
         "id": "Hari ini kisah \"Timun Mas\" dari Pulau Jawa, Indonesia.",
         "pt": "Hoje, a história \"Timun Mas\", contada na ilha de Java, Indonésia.",
         "my": "ဒီနေ့က အင်ဒိုနီးရှား ဂျားဗားကျွန်းမှာ ဆင့်ကမ်းလာတဲ့ \"တီမွန်မာ့စ်\" ပုံပြင်ပါ။",
-        "th": "วันนี้เป็นนิทาน \"ทิมุน มัส\" ที่เล่าสืบกันมาบนเกาะชวา อินโดนีเซีย"
+        "th": "วันนี้เป็นนิทาน \"ทิมุน มัส\" ที่เล่าสืบกันมาบนเกาะชวา อินโดนีเซีย",
+        "si": "අද, ඉන්දුනීසියාවේ ජාවා දූපතේ පරම්පරාවෙන් එන, \"තිමුන් මාස්\" කියන කතාව."
       },
       "vocab": [
         {
@@ -258,7 +606,8 @@
             "id": "diwariskan",
             "pt": "ser transmitido",
             "my": "လက်ဆင့်ကမ်း",
-            "th": "สืบทอด"
+            "th": "สืบทอด",
+            "si": "පරම්පරාවෙන් පැවත ඒම"
           },
           "level": "N3"
         }
@@ -274,7 +623,8 @@
         "id": "dari.",
         "pt": "contada em.",
         "my": "ဆင့်ကမ်းလာတဲ့။",
-        "th": "เล่าสืบกันมา"
+        "th": "เล่าสืบกันมา",
+        "si": "「〜に伝わる」 = ~ හි පරම්පරාවෙන් එන."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=0.3,5.999",
       "t": [
@@ -327,7 +677,8 @@
         "id": "\"Timun\" artinya mentimun, \"mas\" artinya emas. Jadi \"mentimun emas\".",
         "pt": "\"Timun\" é pepino e \"mas\" é ouro. Ou seja, \"pepino de ouro\".",
         "my": "\"တီမွန်\" က သခွားသီး၊ \"မာ့စ်\" က ရွှေ။ ဆိုလိုတာက \"ရွှေသခွားသီး\" ပါ။",
-        "th": "\"ทิมุน\" คือแตงกวา \"มัส\" คือทอง หมายถึง \"แตงทอง\""
+        "th": "\"ทิมุน\" คือแตงกวา \"มัส\" คือทอง หมายถึง \"แตงทอง\"",
+        "si": "තිමුන් කියන්නේ පිපිඤ්ඤා, මාස් කියන්නේ රත්තරන්. ඒ කියන්නේ, \"රන් පිපිඤ්ඤා\" කියන තේරුම."
       },
       "vocab": [
         {
@@ -344,7 +695,8 @@
             "id": "emas",
             "pt": "ouro",
             "my": "ရွှေ",
-            "th": "ทอง"
+            "th": "ทอง",
+            "si": "රත්තරන්"
           },
           "level": "N3"
         }
@@ -360,7 +712,8 @@
         "id": "jadi.",
         "pt": "ou seja.",
         "my": "ဆိုလိုတာက။",
-        "th": "หมายถึง"
+        "th": "หมายถึง",
+        "si": "「つまり」 = ඒ කියන්නේ."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=6.599,12.942",
       "t": [
@@ -409,7 +762,8 @@
         "id": "Dahulu, di sebuah desa, tinggallah seorang nenek bernama Srini seorang diri.",
         "pt": "Antigamente, numa aldeia, uma velha chamada Srini vivia sozinha.",
         "my": "ရှေးတုန်းက ရွာတစ်ရွာမှာ စရီနီ ဆိုတဲ့ အဘွားကြီး တစ်ယောက်တည်း နေတယ်။",
-        "th": "กาลก่อน ในหมู่บ้านแห่งหนึ่ง มียายชื่อศรีนีอาศัยอยู่คนเดียว"
+        "th": "กาลก่อน ในหมู่บ้านแห่งหนึ่ง มียายชื่อศรีนีอาศัยอยู่คนเดียว",
+        "si": "ඉස්සර, එක ගමක, ශ්‍රිනි කියලා ආච්චි කෙනෙක්, තනියම ජීවත් වුණා."
       },
       "vocab": [
         {
@@ -426,7 +780,8 @@
             "id": "hidup, tinggal",
             "pt": "viver, morar",
             "my": "နေထိုင်သည်",
-            "th": "ใช้ชีวิต, อาศัยอยู่"
+            "th": "ใช้ชีวิต, อาศัยอยู่",
+            "si": "ජීවත් වීම, ජීවිකාව ගෙනයාම"
           },
           "level": "N3"
         }
@@ -442,7 +797,8 @@
         "id": "seorang diri.",
         "pt": "sozinha.",
         "my": "တစ်ယောက်တည်း။",
-        "th": "คนเดียว"
+        "th": "คนเดียว",
+        "si": "「ひとりで」 = තනියම."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=13.542,19.525",
       "t": [
@@ -511,7 +867,8 @@
         "id": "Srini tidak punya anak. Setiap malam ia memandang bintang dan berdoa ingin punya anak.",
         "pt": "Srini não tinha filhos. Toda noite olhava as estrelas e rezava por um filho.",
         "my": "စရီနီမှာ ကလေး မရှိဘူး။ ည တိုင်း ကြယ်ကို ကြည့်ရင်း ကလေး လိုချင်လို့ ဆုတောင်းတယ်။",
-        "th": "ศรีนีไม่มีลูก ทุกคืนเธอมองดวงดาวและอธิษฐานขอลูก"
+        "th": "ศรีนีไม่มีลูก ทุกคืนเธอมองดวงดาวและอธิษฐานขอลูก",
+        "si": "ශ්‍රිනිට, දරුවෝ හිටියේ නැහැ. හැම රෑම, තරු දිහා බලාගෙන, දරුවෙක් ලැබෙන්න කියලා, යාච්ඤා කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -525,7 +882,8 @@
         "id": "berdoa.",
         "pt": "rezar.",
         "my": "ဆုတောင်း။",
-        "th": "อธิษฐาน"
+        "th": "อธิษฐาน",
+        "si": "「〜がほしい」 = ~ ඕනේ."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=20.125,28.635",
       "t": [
@@ -602,7 +960,8 @@
         "id": "Suatu malam, tanah berguncang dan muncullah raksasa hijau bernama Buto Ijo dari hutan.",
         "pt": "Uma noite, a terra tremeu e da floresta surgiu um gigante verde chamado Buto Ijo.",
         "my": "တစ်ည မြေကြီး လှုပ်ပြီး တောထဲက ဘူတို အီဂျို ဆိုတဲ့ အစိမ်းရောင် ဘီလူးကြီး ပေါ်လာတယ်။",
-        "th": "คืนหนึ่ง พื้นดินสั่นสะเทือน ยักษ์เขียวชื่อบูโตอีโจโผล่ออกมาจากป่า"
+        "th": "คืนหนึ่ง พื้นดินสั่นสะเทือน ยักษ์เขียวชื่อบูโตอีโจโผล่ออกมาจากป่า",
+        "si": "එක රැයක, පොළොව හෙල්ලිලා, කැලේ ඇතුළෙන්, බුතෝ ඉජෝ කියලා, කොළ පාට යෝධයෙක් මතු වුණා."
       },
       "vocab": [
         {
@@ -619,7 +978,8 @@
             "id": "tanah",
             "pt": "chão",
             "my": "မြေပြင်",
-            "th": "พื้นดิน"
+            "th": "พื้นดิน",
+            "si": "පොළොව"
           },
           "level": "N2"
         }
@@ -635,7 +995,8 @@
         "id": "muncul.",
         "pt": "surgir.",
         "my": "ပေါ်လာ။",
-        "th": "โผล่"
+        "th": "โผล่",
+        "si": "「あらわれる」 = මතු වෙනවා, පේන්න එනවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=29.235,37.559",
       "t": [
@@ -672,7 +1033,8 @@
         "id": "\"Hai, Nenek. Kalau mau anak, kuberi biji ini.\"",
         "pt": "\"Ei, velha. Se quer um filho, te dou esta semente.\"",
         "my": "\"ဟေး အဘွားကြီး။ ကလေး လိုချင်ရင် ဒီ မျိုးစေ့ ပေးမယ်။\"",
-        "th": "\"เฮ้ ยายแก่ ถ้าอยากได้ลูก ข้าจะให้เมล็ดนี้\""
+        "th": "\"เฮ้ ยายแก่ ถ้าอยากได้ลูก ข้าจะให้เมล็ดนี้\"",
+        "si": "\"ඕයි, ආච්චි. දරුවෙක් ඕනේ නම්, මේ බීජය දෙන්නම්.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -686,7 +1048,8 @@
         "id": "kuberi.",
         "pt": "te dou.",
         "my": "ပေးမယ်။",
-        "th": "จะให้"
+        "th": "จะให้",
+        "si": "「やろう」 = දෙන්නම් (රළු කතාව)."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=38.459,43.19",
       "t": [
@@ -747,7 +1110,8 @@
         "id": "\"Tapi kalau anak itu berumur tujuh belas, kembalikan padaku. Untuk kumakan.\"",
         "pt": "\"Mas quando a criança fizer dezessete anos, devolva para mim. Para eu comer.\"",
         "my": "\"ဒါပေမဲ့ ကလေး ဆယ့်ခုနစ်နှစ် ပြည့်ရင် ငါ့ကို ပြန်ပေးရမယ်။ ငါ စားဖို့။\"",
-        "th": "\"แต่พอเด็กอายุสิบเจ็ด ต้องคืนให้ข้า เพื่อให้ข้ากิน\""
+        "th": "\"แต่พอเด็กอายุสิบเจ็ด ต้องคืนให้ข้า เพื่อให้ข้ากิน\"",
+        "si": "\"හැබැයි, දරුවාට අවුරුදු දාහතක් වුණාම, මට ආපහු දෙන්න ඕනේ. මට කන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -761,7 +1125,8 @@
         "id": "tapi.",
         "pt": "mas.",
         "my": "ဒါပေမဲ့။",
-        "th": "แต่"
+        "th": "แต่",
+        "si": "「ただし」 = හැබැයි (කොන්දේසිය)."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=43.79,51.687",
       "t": [
@@ -814,7 +1179,8 @@
         "id": "Srini sangat takut, tapi karena sangat ingin anak, ia menerima biji itu.",
         "pt": "Srini teve muito medo, mas queria tanto um filho que aceitou a semente.",
         "my": "စရီနီ အရမ်း ကြောက်ပေမဲ့ ကလေး အရမ်း လိုချင်လို့ မျိုးစေ့ကို လက်ခံလိုက်တယ်။",
-        "th": "ศรีนีกลัวมาก แต่อยากได้ลูกเหลือเกิน จึงรับเมล็ดไว้"
+        "th": "ศรีนีกลัวมาก แต่อยากได้ลูกเหลือเกิน จึงรับเมล็ดไว้",
+        "si": "ශ්‍රිනිට, හරිම බය හිතුණා, ඒත් දරුවෙක් ලැබෙන්න ගොඩක් ආසාවෙන්, බීජය භාර ගත්තා."
       },
       "vocab": [
         {
@@ -831,7 +1197,8 @@
             "id": "bagaimanapun juga",
             "pt": "de jeito nenhum, por mais que tente",
             "my": "ဘယ်လိုမှ",
-            "th": "ยังไงก็"
+            "th": "ยังไงก็",
+            "si": "කොහොමටවත්, කිසිසේත්"
           },
           "level": "N3"
         },
@@ -849,7 +1216,8 @@
             "id": "menerima",
             "pt": "receber",
             "my": "လက်ခံ",
-            "th": "รับ"
+            "th": "รับ",
+            "si": "ලැබීම, භාර ගැනීම"
           },
           "level": "N3"
         }
@@ -865,7 +1233,8 @@
         "id": "menerima.",
         "pt": "aceitar.",
         "my": "လက်ခံ။",
-        "th": "รับ"
+        "th": "รับ",
+        "si": "「受け取る」 = භාර ගන්නවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=52.587,59.34",
       "t": [
@@ -934,7 +1303,8 @@
         "id": "Setelah ditanam, sulurnya tumbuh cepat dan berbuah satu mentimun emas besar.",
         "pt": "Plantada a semente, a rama cresceu rápido e deu um grande pepino dourado.",
         "my": "မျိုးစေ့ကို လယ်ထဲ ကြဲတော့ နွယ်ပင်က အမြန် ကြီးလာပြီး ရွှေရောင် သခွားသီးကြီး တစ်လုံး သီးတယ်။",
-        "th": "พอหว่านเมล็ดลงในไร่ เถาก็โตเร็ว ออกแตงสีทองลูกใหญ่หนึ่งลูก"
+        "th": "พอหว่านเมล็ดลงในไร่ เถาก็โตเร็ว ออกแตงสีทองลูกใหญ่หนึ่งลูก",
+        "si": "බීජය කෙතේ වැපුරුවාම, වැල ඉක්මනට වැවිලා, ලොකු රන් පාට පිපිඤ්ඤා ගෙඩියක් හැදුණා."
       },
       "vocab": [
         {
@@ -951,7 +1321,8 @@
             "id": "melilit",
             "pt": "enrolar",
             "my": "ပတ်",
-            "th": "พัน"
+            "th": "พัน",
+            "si": "එතීම"
           },
           "level": "N2"
         },
@@ -969,7 +1340,8 @@
             "id": "berbuah",
             "pt": "frutificar",
             "my": "အသီးသီး",
-            "th": "ออกผล"
+            "th": "ออกผล",
+            "si": "ගෙඩි හටගැනීම"
           },
           "level": "N2"
         }
@@ -985,7 +1357,8 @@
         "id": "sulur.",
         "pt": "rama.",
         "my": "နွယ်။",
-        "th": "เถา"
+        "th": "เถา",
+        "si": "「つる」 = වැල."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=59.94,67.446",
       "t": [
@@ -1054,7 +1427,8 @@
         "id": "Saat Srini memotongnya pelan, keluarlah bayi perempuan yang manis.",
         "pt": "Quando Srini o cortou com cuidado, saiu uma linda menininha.",
         "my": "စရီနီက ဖြည်းဖြည်း ခွဲကြည့်တော့ အထဲက ချစ်စရာ မိန်းကလေး ကလေးငယ် ထွက်လာတယ်။",
-        "th": "เมื่อศรีนีค่อยๆ ผ่า ก็มีเด็กหญิงน่ารักออกมา"
+        "th": "เมื่อศรีนีค่อยๆ ผ่า ก็มีเด็กหญิงน่ารักออกมา",
+        "si": "ශ්‍රිනි, ඒ පිපිඤ්ඤාව, හෙමින් කපලා බැලුවාම, ඇතුළෙන්, ලස්සන ගෑනු බබෙක් එළියට ආවා."
       },
       "vocab": [
         {
@@ -1071,7 +1445,8 @@
             "id": "diam-diam, pelan",
             "pt": "de mansinho",
             "my": "တိတ်တဆိတ်",
-            "th": "เบา ๆ"
+            "th": "เบา ๆ",
+            "si": "මෘදුවට, හෙමින්"
           },
           "level": "N3"
         }
@@ -1087,7 +1462,8 @@
         "id": "saat.",
         "pt": "quando.",
         "my": "ကြည့်တော့။",
-        "th": "ลอง...ก็"
+        "th": "ลอง...ก็",
+        "si": "「〜てみると」 = ~ කරලා බැලුවාම."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=68.046,76.597",
       "t": [
@@ -1132,7 +1508,8 @@
         "id": "\"Wah, anak yang manis sekali. Namamu Timun Mas.\"",
         "pt": "\"Ah, que criança linda! Seu nome é Timun Mas.\"",
         "my": "\"အိုး၊ ဘယ်လောက် ချစ်စရာ ကောင်းလိုက်တာ။ နင့်နာမည် တီမွန်မာ့စ်ပဲ။\"",
-        "th": "\"โอ้ น่ารักจริงๆ ชื่อของหนูคือทิมุน มัส\""
+        "th": "\"โอ้ น่ารักจริงๆ ชื่อของหนูคือทิมุน มัส\"",
+        "si": "\"අනේ, කොච්චර ලස්සන දරුවෙක්ද. උඹේ නම, තිමුන් මාස්.\""
       },
       "vocab": [
         {
@@ -1149,7 +1526,8 @@
             "id": "wah",
             "pt": "nossa",
             "my": "အမယ်",
-            "th": "โอ้"
+            "th": "โอ้",
+            "si": "අම්මෝ, අනේ"
           },
           "level": "N3"
         }
@@ -1165,7 +1543,8 @@
         "id": "... sekali.",
         "pt": "que ...!",
         "my": "ဘယ်လောက်။",
-        "th": "จริงๆ"
+        "th": "จริงๆ",
+        "si": "「なんて〜だろう」 = කොච්චර ~ ද!"
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=77.497,83.17",
       "t": [
@@ -1210,7 +1589,8 @@
         "id": "Timun Mas tumbuh menjadi gadis ceria dan baik hati.",
         "pt": "Timun Mas cresceu alegre e gentil.",
         "my": "တီမွန်မာ့စ်က ပျော်ရွှင်ပြီး သဘောကောင်းတဲ့ မိန်းကလေး ဖြစ်လာတယ်။",
-        "th": "ทิมุน มัสเติบโตเป็นสาวร่าเริงและใจดี"
+        "th": "ทิมุน มัสเติบโตเป็นสาวร่าเริงและใจดี",
+        "si": "තිමුන් මාස්, ප්‍රසන්න, කාරුණික ගෑනු ළමයෙක් විදිහට ලොකු වුණා."
       },
       "vocab": [
         {
@@ -1227,7 +1607,8 @@
             "id": "tumbuh",
             "pt": "crescer",
             "my": "ကြီးပြင်း",
-            "th": "เติบโต"
+            "th": "เติบโต",
+            "si": "හැදී වැඩීම"
           },
           "level": "N3"
         }
@@ -1243,7 +1624,8 @@
         "id": "tumbuh menjadi.",
         "pt": "crescer.",
         "my": "ဖြစ်လာ။",
-        "th": "เติบโตเป็น"
+        "th": "เติบโตเป็น",
+        "si": "「〜に育つ」 = ~ විදිහට ලොකු වෙනවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=84.07,88.328",
       "t": [
@@ -1280,7 +1662,8 @@
         "id": "Srini menyayangi Timun Mas sepenuh hati.",
         "pt": "Srini amava Timun Mas de todo o coração.",
         "my": "စရီနီက တီမွန်မာ့စ်ကို စိတ်ရင်းနဲ့ ချစ်တယ်။",
-        "th": "ศรีนีรักทิมุน มัสสุดหัวใจ"
+        "th": "ศรีนีรักทิมุน มัสสุดหัวใจ",
+        "si": "ශ්‍රිනි, තිමුන් මාස්ට, මුළු හිතින්ම ආදරය කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1294,7 +1677,8 @@
         "id": "menyayangi.",
         "pt": "amar.",
         "my": "ချစ်။",
-        "th": "รัก"
+        "th": "รัก",
+        "si": "「かわいがる」 = ආදරයෙන් බලාගන්නවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=88.928,93.252",
       "t": [
@@ -1347,7 +1731,8 @@
         "id": "Tapi makin besar Timun Mas, makin berat hati Srini.",
         "pt": "Mas quanto mais Timun Mas crescia, mais pesado ficava o coração de Srini.",
         "my": "ဒါပေမဲ့ တီမွန်မာ့စ် ကြီးလာလေ စရီနီ စိတ် လေးလာလေ ဖြစ်တယ်။",
-        "th": "แต่ยิ่งทิมุน มัสโต ใจของศรีนีก็ยิ่งหนักอึ้ง"
+        "th": "แต่ยิ่งทิมุน มัสโต ใจของศรีนีก็ยิ่งหนักอึ้ง",
+        "si": "ඒත්, තිමුන් මාස් ලොකු වෙන තරමට, ශ්‍රිනිගේ හිත, බර වෙන්න ගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1361,7 +1746,8 @@
         "id": "makin.",
         "pt": "quanto mais.",
         "my": "လေ ~လေ။",
-        "th": "ยิ่ง"
+        "th": "ยิ่ง",
+        "si": "「〜ほど」 = ~ තරමට."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=93.852,100.065",
       "t": [
@@ -1422,7 +1808,8 @@
         "id": "Karena hari yang dijanjikan pada raksasa semakin dekat.",
         "pt": "Porque o dia combinado com o gigante se aproximava.",
         "my": "ဘီလူးကြီးနဲ့ ကတိပေးထားတဲ့ နေ့ နီးလာလို့ပါ။",
-        "th": "เพราะวันที่สัญญาไว้กับยักษ์ใกล้เข้ามาแล้ว"
+        "th": "เพราะวันที่สัญญาไว้กับยักษ์ใกล้เข้ามาแล้ว",
+        "si": "මොකද, අර යෝධයා එක්ක පොරොන්දු වුණු දවස, ළං වෙමින් තිබුණු නිසා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1436,7 +1823,8 @@
         "id": "karena.",
         "pt": "porque.",
         "my": "လို့ပါ။",
-        "th": "เพราะ"
+        "th": "เพราะ",
+        "si": "「〜からです」 = මොකද ~ නිසා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=100.665,104.759",
       "t": [
@@ -1497,7 +1885,8 @@
         "id": "Lalu pada ulang tahun ke-17 Timun Mas, bumi kembali berguncang hebat.",
         "pt": "No aniversário de dezessete anos de Timun Mas, a terra tremeu forte de novo.",
         "my": "ပြီးတော့ တီမွန်မာ့စ်ရဲ့ ဆယ့်ခုနစ်နှစ် မွေးနေ့မှာ မြေကြီး ပြင်းပြင်း ပြန်လှုပ်တယ်။",
-        "th": "แล้วในวันเกิดอายุสิบเจ็ดของทิมุน มัส แผ่นดินก็สั่นแรงอีกครั้ง"
+        "th": "แล้วในวันเกิดอายุสิบเจ็ดของทิมุน มัส แผ่นดินก็สั่นแรงอีกครั้ง",
+        "si": "ඊට පස්සේ, තිමුන් මාස්ගේ දාහත්වෙනි උපන්දිනේ, ආයෙත් පොළොව හයියෙන් හෙල්ලුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1511,7 +1900,8 @@
         "id": "bumi.",
         "pt": "terra.",
         "my": "မြေကြီး။",
-        "th": "แผ่นดิน"
+        "th": "แผ่นดิน",
+        "si": "大地 = පොළොව."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=105.359,112.137",
       "t": [
@@ -1556,7 +1946,8 @@
         "id": "\"Nenek, hari janji sudah tiba. Serahkan anak itu.\"",
         "pt": "\"Velha, chegou o dia. Entregue a menina.\"",
         "my": "\"အဘွားကြီး၊ ကတိနေ့ ရောက်ပြီ။ သမီးကို ပေး။\"",
-        "th": "\"ยายแก่ ถึงวันสัญญาแล้ว ส่งลูกสาวมา\""
+        "th": "\"ยายแก่ ถึงวันสัญญาแล้ว ส่งลูกสาวมา\"",
+        "si": "\"ආච්චි, පොරොන්දු වුණු දවස ආවා. කෙල්ලව භාර දීපන්.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1570,7 +1961,8 @@
         "id": "serahkan.",
         "pt": "entregue.",
         "my": "ပေး။",
-        "th": "ส่งมา"
+        "th": "ส่งมา",
+        "si": "「わたせ」 = භාර දීපන්!"
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=113.037,116.959",
       "t": [
@@ -1623,7 +2015,8 @@
         "id": "\"Tolong tunggu sebentar lagi. Ia masih kurus, belum enak.\"",
         "pt": "\"Por favor, espere só mais um pouco. Ela ainda está magra, não fica gostosa.\"",
         "my": "\"တောင်းပန်ပါတယ်၊ နည်းနည်း ထပ်စောင့်ပေးပါ။ ဒီကလေး ပိန်နေသေးလို့ မစားကောင်းသေးဘူး။\"",
-        "th": "\"ได้โปรดรออีกนิดเถอะ เด็กยังผอม ไม่อร่อยหรอก\""
+        "th": "\"ได้โปรดรออีกนิดเถอะ เด็กยังผอม ไม่อร่อยหรอก\"",
+        "si": "\"කරුණාකරලා, තව ටිකක් විතරක් ඉන්න. මේ ළමයා, තාම කෙට්ටුයි, රසත් නැහැ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1637,7 +2030,8 @@
         "id": "kurus.",
         "pt": "magra.",
         "my": "ပိန်။",
-        "th": "ผอม"
+        "th": "ผอม",
+        "si": "「もう少しだけ」 = තව ටිකක් විතරක්."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=117.859,125.402",
       "t": [
@@ -1682,7 +2076,8 @@
         "id": "\"Hmph. Baiklah, kutunggu sebentar lagi.\"",
         "pt": "\"Hum. Então espero mais um pouco.\"",
         "my": "\"ဟွန်း။ ဒါဆို နည်းနည်း ထပ်စောင့်ပေးမယ်။\"",
-        "th": "\"หึ งั้นจะรออีกหน่อย\""
+        "th": "\"หึ งั้นจะรออีกหน่อย\"",
+        "si": "\"හ්ම්. එහෙනම්, තව ටිකක් විතරක් ඉන්නම්.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1696,7 +2091,8 @@
         "id": "kuberi.",
         "pt": "vou.",
         "my": "ပေးမယ်။",
-        "th": "จะ...ให้"
+        "th": "จะ...ให้",
+        "si": "「〜てやろう」 = (ඉඩ දීලා) ~ කරන්නම්."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=126.302,129.995",
       "t": [
@@ -1753,7 +2149,8 @@
         "id": "Setelah raksasa pergi, Srini mendatangi pertapa bijak di gunung.",
         "pt": "Depois que o gigante saiu, Srini foi ver um monge sábio que vivia nas montanhas.",
         "my": "ဘီလူး ပြန်သွားပြီးနောက် စရီနီက တောင်ပေါ်မှာ နေတဲ့ ပညာရှိ ရဟန်းဆီ သွားတယ်။",
-        "th": "หลังยักษ์กลับไป ศรีนีไปหาพระผู้มีปัญญาที่อยู่บนภูเขา"
+        "th": "หลังยักษ์กลับไป ศรีนีไปหาพระผู้มีปัญญาที่อยู่บนภูเขา",
+        "si": "යෝධයා ගියාට පස්සේ, ශ්‍රිනි, කන්දේ ජීවත් වෙන, ප්‍රඥාවන්ත භික්ෂුවක් හම්බ වෙන්න ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1767,7 +2164,8 @@
         "id": "mendatangi.",
         "pt": "visitar.",
         "my": "သွား။",
-        "th": "ไปหา"
+        "th": "ไปหา",
+        "si": "「たずねる」 = බලන්න යනවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=130.895,138.579",
       "t": [
@@ -1836,7 +2234,8 @@
         "id": "Mendengar ceritanya, pertapa memberinya empat kantong kecil.",
         "pt": "Ouvindo a história, o monge lhe deu quatro saquinhos.",
         "my": "ရဟန်းက ဇာတ်ကြောင်းကြားတော့ အိတ်သေးသေး လေးလုံး ပေးတယ်။",
-        "th": "พระฟังแล้วก็ให้ถุงเล็กสี่ใบ"
+        "th": "พระฟังแล้วก็ให้ถุงเล็กสี่ใบ",
+        "si": "භික්ෂුව, කතාව අහලා, පොඩි මලු හතරක්, දුන්නා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1850,7 +2249,8 @@
         "id": "memberi.",
         "pt": "dar.",
         "my": "ပေး။",
-        "th": "ให้"
+        "th": "ให้",
+        "si": "「〜てくれる」 = (මට) ~ කරලා දෙනවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=139.179,145",
       "t": [
@@ -1911,7 +2311,8 @@
         "id": "\"Di dalamnya ada biji mentimun, jarum, garam, dan terasi.\"",
         "pt": "\"Aqui dentro há sementes de pepino, agulhas, sal e pasta de camarão.\"",
         "my": "\"ဒီထဲမှာ သခွားစေ့၊ အပ်၊ ဆား၊ ပုစွန်ငါးပိ ပါတယ်။\"",
-        "th": "\"ในนี้มีเมล็ดแตงกวา เข็ม เกลือ และกะปิ\""
+        "th": "\"ในนี้มีเมล็ดแตงกวา เข็ม เกลือ และกะปิ\"",
+        "si": "\"මේ ඇතුළේ, පිපිඤ්ඤා බීජ, ඉඳිකටු, ලුණු, ඉස්සෝ පේස්ට් තියෙනවා.\""
       },
       "vocab": [
         {
@@ -1928,7 +2329,8 @@
             "id": "jarum",
             "pt": "agulha",
             "my": "အပ်",
-            "th": "เข็ม"
+            "th": "เข็ม",
+            "si": "ඉඳිකටුව"
           },
           "level": "N3"
         }
@@ -1944,7 +2346,8 @@
         "id": "ada.",
         "pt": "há.",
         "my": "ပါတယ်။",
-        "th": "มี"
+        "th": "มี",
+        "si": "「入っています」 = ඇතුළේ තියෙනවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=145.9,152.009",
       "t": [
@@ -2005,7 +2408,8 @@
         "id": "\"Kalau dikejar raksasa, lemparkan satu per satu ke belakang.\"",
         "pt": "\"Se o gigante perseguir, jogue um de cada vez para trás.\"",
         "my": "\"ဘီလူး လိုက်ရင် တစ်လုံးချင်း နောက်ကို ပစ်ပါ။\"",
-        "th": "\"ถ้ายักษ์ไล่ตาม ให้โยนไปข้างหลังทีละถุง\""
+        "th": "\"ถ้ายักษ์ไล่ตาม ให้โยนไปข้างหลังทีละถุง\"",
+        "si": "\"යෝධයා පන්නගෙන ආවොත්, එකින් එක, පිටිපස්සට විසි කරන්න.\""
       },
       "vocab": [
         {
@@ -2022,7 +2426,8 @@
             "id": "mengejar",
             "pt": "perseguir",
             "my": "လိုက်",
-            "th": "ไล่ตาม"
+            "th": "ไล่ตาม",
+            "si": "ලුහුබැඳීම, පන්නාගෙන යාම"
           },
           "level": "N3"
         }
@@ -2038,7 +2443,8 @@
         "id": "dikejar.",
         "pt": "ser perseguido.",
         "my": "လိုက်ခံရ။",
-        "th": "ถูกไล่"
+        "th": "ถูกไล่",
+        "si": "「追われる」 = පන්නනවා (කර්මකාරක)."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=152.609,156.97",
       "t": [
@@ -2083,7 +2489,8 @@
         "id": "Lalu raksasa datang lagi.",
         "pt": "E o gigante voltou.",
         "my": "ပြီးတော့ ဘီလူးကြီး ထပ်လာတယ်။",
-        "th": "แล้วยักษ์ก็มาอีก"
+        "th": "แล้วยักษ์ก็มาอีก",
+        "si": "ඊට පස්සේ, ආයෙත්, යෝධයා ආවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2097,7 +2504,8 @@
         "id": "lagi.",
         "pt": "de novo.",
         "my": "ထပ်။",
-        "th": "อีก"
+        "th": "อีก",
+        "si": "「ふたたび」 = ආයෙත්."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=157.87,161.735",
       "t": [
@@ -2134,7 +2542,8 @@
         "id": "\"Aku tak bisa menunggu lagi. Di mana anak itu?\"",
         "pt": "\"Não espero mais! Onde está a menina?\"",
         "my": "\"မစောင့်နိုင်တော့ဘူး။ ကောင်မလေး ဘယ်မှာလဲ။\"",
-        "th": "\"รอไม่ไหวแล้ว ลูกสาวอยู่ไหน\""
+        "th": "\"รอไม่ไหวแล้ว ลูกสาวอยู่ไหน\"",
+        "si": "\"තවත් ඉන්න බැහැ. කෙල්ල කොහෙද.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2148,7 +2557,8 @@
         "id": "tak lagi.",
         "pt": "não mais.",
         "my": "မ~တော့။",
-        "th": "ไม่...แล้ว"
+        "th": "ไม่...แล้ว",
+        "si": "「もう〜ない」 = තවත් ~ බැහැ."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=162.635,166.009",
       "t": [
@@ -2185,7 +2595,8 @@
         "id": "\"Timun Mas, larilah! Cepat!\"",
         "pt": "\"Timun Mas, fuja! Depressa!\"",
         "my": "\"တီမွန်မာ့စ်၊ ပြေး! မြန်မြန်!\"",
-        "th": "\"ทิมุน มัส หนีไป เร็วเข้า!\""
+        "th": "\"ทิมุน มัส หนีไป เร็วเข้า!\"",
+        "si": "\"තිමුන් මාස්, පලයන්. ඉක්මනට.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2199,7 +2610,8 @@
         "id": "cepat.",
         "pt": "depressa.",
         "my": "မြန်မြန်။",
-        "th": "เร็วเข้า"
+        "th": "เร็วเข้า",
+        "si": "「さあ」 = එන්න, ඉක්මන් කරන්න."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=166.909,170.778",
       "t": [
@@ -2268,7 +2680,8 @@
         "id": "Timun Mas membawa empat kantong dan lari lewat pintu belakang.",
         "pt": "Timun Mas pegou os quatro saquinhos e saiu correndo pela porta dos fundos.",
         "my": "တီမွန်မာ့စ်က အိတ်လေးလုံး ယူပြီး နောက်တံခါးက ပြေးထွက်တယ်။",
-        "th": "ทิมุน มัสถือถุงสี่ใบ วิ่งออกทางประตูหลัง"
+        "th": "ทิมุน มัสถือถุงสี่ใบ วิ่งออกทางประตูหลัง",
+        "si": "තිමුන් මාස්, මලු හතර අරන්, පිටිපස්ස දොරෙන් දුවගෙන ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2282,7 +2695,8 @@
         "id": "lari.",
         "pt": "sair correndo.",
         "my": "ပြေးထွက်။",
-        "th": "วิ่งออก"
+        "th": "วิ่งออก",
+        "si": "「走り出す」 = දුවගෙන යනවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=171.678,176.802",
       "t": [
@@ -2331,7 +2745,8 @@
         "id": "Raksasa segera sadar dan berlari mengejar dengan langkah berdebum.",
         "pt": "O gigante percebeu na hora e veio atrás, pisando forte.",
         "my": "ဘီလူးက ချက်ချင်း သိပြီး ဒုန်းဒုန်း နဲ့ နောက်က ပြေးလိုက်လာတယ်။",
-        "th": "ยักษ์รู้ตัวทันที แล้ววิ่งตามมาเสียงดังตึงตึง"
+        "th": "ยักษ์รู้ตัวทันที แล้ววิ่งตามมาเสียงดังตึงตึง",
+        "si": "යෝධයා, වහාම තේරුම් අරන්, දුඩුම් දුඩුම් ගාලා, පස්සෙන් දුවගෙන ආවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2345,7 +2760,8 @@
         "id": "sadar.",
         "pt": "perceber.",
         "my": "သိ။",
-        "th": "รู้ตัว"
+        "th": "รู้ตัว",
+        "si": "「気がつく」 = තේරුම් ගන්නවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=177.402,184.204",
       "t": [
@@ -2382,7 +2798,8 @@
         "id": "Pertama, Timun Mas melempar biji mentimun ke belakang.",
         "pt": "Primeiro, Timun Mas jogou as sementes de pepino para trás.",
         "my": "ပထမဆုံး တီမွန်မာ့စ်က သခွားစေ့ကို နောက်ကို ပစ်တယ်။",
-        "th": "ก่อนอื่น ทิมุน มัสโยนเมล็ดแตงกวาไปข้างหลัง"
+        "th": "ก่อนอื่น ทิมุน มัสโยนเมล็ดแตงกวาไปข้างหลัง",
+        "si": "තිමුන් මාස්, මුලින්ම, පිපිඤ්ඤා බීජ, පිටිපස්සට විසි කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2396,7 +2813,8 @@
         "id": "pertama.",
         "pt": "primeiro.",
         "my": "ပထမဆုံး။",
-        "th": "ก่อนอื่น"
+        "th": "ก่อนอื่น",
+        "si": "「まず」 = මුලින්ම."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=184.804,189.703",
       "t": [
@@ -2449,7 +2867,8 @@
         "id": "Dalam sekejap, muncul ladang mentimun luas penuh mentimun yang tampak lezat.",
         "pt": "Num piscar de olhos, surgiu um enorme campo de pepinos apetitosos.",
         "my": "မျက်စိတစ်မှိတ်အတွင်း ကျယ်ပြန့်တဲ့ သခွားခင်း ပေါ်လာပြီး စားကောင်းပုံ သခွားသီးတွေ အများကြီး သီးတယ်။",
-        "th": "ชั่วพริบตา ก็เกิดไร่แตงกวากว้างใหญ่ มีแตงน่ากินเต็มไปหมด"
+        "th": "ชั่วพริบตา ก็เกิดไร่แตงกวากว้างใหญ่ มีแตงน่ากินเต็มไปหมด",
+        "si": "එතකොට, ඇසිපිය හෙළන සැණින්, ලොකු පිපිඤ්ඤා කෙතක් හැදිලා, රසවත් පේන පිපිඤ්ඤා ගොඩක් හටගත්තා."
       },
       "vocab": [
         {
@@ -2466,7 +2885,8 @@
             "id": "ladang",
             "pt": "campo, roça",
             "my": "လယ်ကွင်း",
-            "th": "ไร่ นา"
+            "th": "ไร่ นา",
+            "si": "කෙත, වත්ත"
           },
           "level": "N3"
         }
@@ -2482,7 +2902,8 @@
         "id": "dalam sekejap.",
         "pt": "num piscar de olhos.",
         "my": "မျက်စိတစ်မှိတ်။",
-        "th": "ชั่วพริบตา"
+        "th": "ชั่วพริบตา",
+        "si": "「あっという間に」 = ඇසිපිය හෙළන සැණින්."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=190.303,198.038",
       "t": [
@@ -2547,7 +2968,8 @@
         "id": "Raksasa tanpa sadar berhenti dan mulai melahap mentimun.",
         "pt": "O gigante parou sem querer e começou a devorar os pepinos.",
         "my": "ဘီလူးက မသိမသာ ရပ်ပြီး သခွားသီးကို ဝါးစားတော့တယ်။",
-        "th": "ยักษ์หยุดโดยไม่รู้ตัว แล้วเริ่มกินแตงกวาอย่างตะกละ"
+        "th": "ยักษ์หยุดโดยไม่รู้ตัว แล้วเริ่มกินแตงกวาอย่างตะกละ",
+        "si": "යෝධයා, නොදැනීම නැවතිලා, කරකර ගාලා, පිපිඤ්ඤා කන්න පටන් ගත්තා."
       },
       "vocab": [
         {
@@ -2564,7 +2986,8 @@
             "id": "tanpa sadar",
             "pt": "sem querer",
             "my": "မရည်ရွယ်ဘဲ",
-            "th": "โดยไม่รู้ตัว"
+            "th": "โดยไม่รู้ตัว",
+            "si": "නොහිතාම, අනිච්ඡාවෙන්"
           },
           "level": "N3"
         }
@@ -2580,7 +3003,8 @@
         "id": "tanpa sadar.",
         "pt": "sem querer.",
         "my": "မသိမသာ။",
-        "th": "โดยไม่รู้ตัว"
+        "th": "โดยไม่รู้ตัว",
+        "si": "「思わず」 = නොදැනීම."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=198.638,205.064",
       "t": [
@@ -2633,7 +3057,8 @@
         "id": "Tapi setelah selesai makan, ia mengejar lagi.",
         "pt": "Mas, ao terminar, voltou a correr atrás.",
         "my": "ဒါပေမဲ့ စားပြီးတော့ ထပ်ပြေးလာတယ်။",
-        "th": "แต่พอกินเสร็จ ก็วิ่งตามมาอีก"
+        "th": "แต่พอกินเสร็จ ก็วิ่งตามมาอีก",
+        "si": "ඒත්, කාලා ඉවර වුණාම, ආයෙත් දුවගෙන එනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2647,7 +3072,8 @@
         "id": "selesai.",
         "pt": "terminar.",
         "my": "ပြီး။",
-        "th": "เสร็จ"
+        "th": "เสร็จ",
+        "si": "「〜終わる」 = ~ කරලා ඉවර වෙනවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=205.664,209.02",
       "t": [
@@ -2696,7 +3122,8 @@
         "id": "Lalu Timun Mas melempar jarum.",
         "pt": "Depois, Timun Mas jogou as agulhas.",
         "my": "နောက်တစ်ခါ တီမွန်မာ့စ်က အပ်ကို ပစ်တယ်။",
-        "th": "ต่อมา ทิมุน มัสโยนเข็ม"
+        "th": "ต่อมา ทิมุน มัสโยนเข็ม",
+        "si": "ඊළඟට, තිමුන් මාස්, ඉඳිකටු විසි කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2710,7 +3137,8 @@
         "id": "lalu.",
         "pt": "depois.",
         "my": "နောက်တစ်ခါ။",
-        "th": "ต่อมา"
+        "th": "ต่อมา",
+        "si": "「次に」 = ඊළඟට."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=209.62,213.227",
       "t": [
@@ -2775,7 +3203,8 @@
         "id": "Jarum berubah jadi hutan bambu tajam yang menusuk-nusuk tubuh raksasa.",
         "pt": "As agulhas viraram um bambuzal pontiagudo que espetou o gigante todo.",
         "my": "အပ်တွေက ချွန်တဲ့ ဝါးတော ဖြစ်သွားပြီး ဘီလူးကိုယ်ကို ထိုးတယ်။",
-        "th": "เข็มกลายเป็นป่าไผ่แหลมคม ทิ่มตัวยักษ์ไปหมด"
+        "th": "เข็มกลายเป็นป่าไผ่แหลมคม ทิ่มตัวยักษ์ไปหมด",
+        "si": "ඉඳිකටු, තියුණු උණ පඳුරක් බවට හැරිලා, යෝධයාගේ ඇඟ පුරා, ඇනුණා."
       },
       "vocab": [
         {
@@ -2792,7 +3221,8 @@
             "id": "bambu",
             "pt": "bambu",
             "my": "ဝါး",
-            "th": "ไม้ไผ่"
+            "th": "ไม้ไผ่",
+            "si": "උණ, බම්බු"
           },
           "level": "N2"
         }
@@ -2808,7 +3238,8 @@
         "id": "berubah jadi.",
         "pt": "virar.",
         "my": "ဖြစ်သွား။",
-        "th": "กลายเป็น"
+        "th": "กลายเป็น",
+        "si": "「〜に変わる」 = ~ බවට හැරෙනවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=213.827,220.289",
       "t": [
@@ -2837,7 +3268,8 @@
         "id": "\"Aduh, aduh! Tapi kau takkan lolos!\"",
         "pt": "\"Ai, ai! Mas não vou deixar você escapar!\"",
         "my": "\"နာတယ်၊ နာတယ်! ဒါပေမဲ့ မလွတ်စေရဘူး!\"",
-        "th": "\"โอ๊ย โอ๊ย! แต่ไม่ปล่อยให้หนีหรอก!\""
+        "th": "\"โอ๊ย โอ๊ย! แต่ไม่ปล่อยให้หนีหรอก!\"",
+        "si": "\"රිදෙනවා, රිදෙනවා. ඒත්, පැනලා යන්න දෙන්නේ නැහැ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2851,7 +3283,8 @@
         "id": "takkan lolos.",
         "pt": "não escapar.",
         "my": "မလွတ်စေရ။",
-        "th": "ไม่ปล่อย"
+        "th": "ไม่ปล่อย",
+        "si": "「にがさん」 = පැනලා යන්න දෙන්නේ නැහැ (රළු කතාව)."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=221.189,224.432",
       "t": [
@@ -2908,7 +3341,8 @@
         "id": "Ketiga, Timun Mas melempar garam.",
         "pt": "Em terceiro, Timun Mas jogou o sal.",
         "my": "တတိယ အနေနဲ့ တီမွန်မာ့စ်က ဆားကို ပစ်တယ်။",
-        "th": "ถุงที่สาม ทิมุน มัสโยนเกลือ"
+        "th": "ถุงที่สาม ทิมุน มัสโยนเกลือ",
+        "si": "තුන්වෙනියට, තිමුන් මාස්, ලුණු විසි කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2922,7 +3356,8 @@
         "id": "ketiga.",
         "pt": "em terceiro.",
         "my": "တတိယ။",
-        "th": "ที่สาม"
+        "th": "ที่สาม",
+        "si": "「三つ目に」 = තුන්වෙනියට."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=225.332,229.025",
       "t": [
@@ -3011,7 +3446,8 @@
         "id": "Garam menjadi laut luas, dan raksasa harus berenang mati-matian.",
         "pt": "O sal virou um mar imenso, e o gigante teve de nadar desesperado.",
         "my": "ဆားက ကျယ်ပြန့်တဲ့ ပင်လယ် ဖြစ်ပြီး ဘီလူးက လှိုင်းထဲ အသေအလဲ ကူးရတယ်။",
-        "th": "เกลือกลายเป็นทะเลกว้าง ยักษ์ต้องว่ายฝ่าคลื่นสุดชีวิต"
+        "th": "เกลือกลายเป็นทะเลกว้าง ยักษ์ต้องว่ายฝ่าคลื่นสุดชีวิต",
+        "si": "ලුණු, ලොකු මුහුදක් වෙලා, යෝධයාට, රළ මැද්දේ, මහන්සියෙන් පීනන්න සිද්ධ වුණා."
       },
       "vocab": [
         {
@@ -3028,7 +3464,8 @@
             "id": "ombak",
             "pt": "onda",
             "my": "လှိုင်း",
-            "th": "คลื่น"
+            "th": "คลื่น",
+            "si": "රළ"
           },
           "level": "N3"
         },
@@ -3046,7 +3483,8 @@
             "id": "mati-matian",
             "pt": "desesperado",
             "my": "အသေအလဲ",
-            "th": "สุดชีวิต"
+            "th": "สุดชีวิต",
+            "si": "අධිෂ්ඨාන සහගත, හිස් ලූ ලූ අත"
           },
           "level": "N3"
         }
@@ -3062,7 +3500,8 @@
         "id": "harus.",
         "pt": "ter de.",
         "my": "ရတယ်။",
-        "th": "ต้อง"
+        "th": "ต้อง",
+        "si": "「〜なければならない」 = ~ කරන්න ඕනේ, ~ කරන්න සිද්ධ වෙනවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=229.625,237.712",
       "t": [
@@ -3123,7 +3562,8 @@
         "id": "Meski begitu, raksasa berhasil menyeberang. Timun Mas melempar kantong terakhir.",
         "pt": "Mesmo assim, o gigante atravessou o mar. Timun Mas jogou o último saquinho.",
         "my": "ဒါတောင် ဘီလူးက ပင်လယ်ကို ဖြတ်ကူးလာတယ်။ တီမွန်မာ့စ်က နောက်ဆုံး အိတ်ကို ပစ်တယ်။",
-        "th": "ถึงอย่างนั้น ยักษ์ก็ข้ามทะเลมาได้ ทิมุน มัสโยนถุงสุดท้าย"
+        "th": "ถึงอย่างนั้น ยักษ์ก็ข้ามทะเลมาได้ ทิมุน มัสโยนถุงสุดท้าย",
+        "si": "ඒ වුණත්, යෝධයා, මුහුද තරණය කරලා ආවා. තිමුන් මාස්, අන්තිම මල්ල විසි කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3137,7 +3577,8 @@
         "id": "meski begitu.",
         "pt": "mesmo assim.",
         "my": "ဒါတောင်။",
-        "th": "ถึงอย่างนั้น"
+        "th": "ถึงอย่างนั้น",
+        "si": "「それでも」 = ඒ වුණත්."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=238.312,245.534",
       "t": [
@@ -3182,7 +3623,8 @@
         "id": "Terasi berubah menjadi kolam lumpur yang mendidih.",
         "pt": "A pasta de camarão virou um lago de lama fervente.",
         "my": "ပုစွန်ငါးပိက ဆူပွက်နေတဲ့ ရွှံ့ကန် ဖြစ်သွားတယ်။",
-        "th": "กะปิกลายเป็นบ่อโคลนที่เดือดพล่าน"
+        "th": "กะปิกลายเป็นบ่อโคลนที่เดือดพล่าน",
+        "si": "ඉස්සෝ පේස්ට්, බුබුළු දාලා උතුරන, මඩ පොකුණක් බවට හැරුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3196,7 +3638,8 @@
         "id": "mendidih.",
         "pt": "fervente.",
         "my": "ဆူပွက်။",
-        "th": "เดือดพล่าน"
+        "th": "เดือดพล่าน",
+        "si": "「ぐつぐつ」 = බුබුළු දාලා උතුරන."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=246.134,251.209",
       "t": [
@@ -3237,7 +3680,8 @@
         "id": "Kaki raksasa terjebak lumpur dan ia pun tenggelam.",
         "pt": "Os pés do gigante ficaram presos na lama, e ele afundou.",
         "my": "ဘီလူးရဲ့ ခြေထောက် ရွှံ့ထဲ နစ်ပြီး အဲဒီအတိုင်း မြုပ်သွားတယ်။",
-        "th": "เท้ายักษ์ติดโคลน แล้วก็จมหายไป"
+        "th": "เท้ายักษ์ติดโคลน แล้วก็จมหายไป",
+        "si": "යෝධයාගේ කකුල් මඩේ හිරවෙලා, එහෙමම, ගිලිලා ගියා."
       },
       "vocab": [
         {
@@ -3254,7 +3698,8 @@
             "id": "begitu saja",
             "pt": "assim mesmo",
             "my": "ဒီအတိုင်း",
-            "th": "ทั้งอย่างนั้น"
+            "th": "ทั้งอย่างนั้น",
+            "si": "ඒ විදිහටම, එසැණින්"
           },
           "level": "N3"
         }
@@ -3270,7 +3715,8 @@
         "id": "tenggelam.",
         "pt": "afundar.",
         "my": "မြုပ်။",
-        "th": "จม"
+        "th": "จม",
+        "si": "「足をとられる」 = කකුල් හිර වෙනවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=251.809,257.534",
       "t": [
@@ -3339,7 +3785,8 @@
         "id": "Timun Mas berlari pulang dan berpelukan dengan Srini sambil menangis.",
         "pt": "Timun Mas correu para casa e abraçou Srini, as duas chorando.",
         "my": "တီမွန်မာ့စ်က အိမ်ပြန်ပြေးပြီး စရီနီနဲ့ မျက်ရည်ကျရင်း ဖက်ကြတယ်။",
-        "th": "ทิมุน มัสวิ่งกลับบ้าน กอดศรีนีทั้งน้ำตา"
+        "th": "ทิมุน มัสวิ่งกลับบ้าน กอดศรีนีทั้งน้ำตา",
+        "si": "තිමුන් මාස්, දුවගෙන ගෙදර ගිහින්, ශ්‍රිනි එක්ක, කඳුළු හෙළමින් බදාගත්තා."
       },
       "vocab": [
         {
@@ -3356,7 +3803,8 @@
             "id": "menghanyutkan",
             "pt": "levar (pela correnteza)",
             "my": "မျောပါစေသည်",
-            "th": "พัดพาไป"
+            "th": "พัดพาไป",
+            "si": "සේදී යාම, ගලා යවීම"
           },
           "level": "N3"
         }
@@ -3372,7 +3820,8 @@
         "id": "berpelukan.",
         "pt": "abraçar-se.",
         "my": "ဖက်။",
-        "th": "กอดกัน"
+        "th": "กอดกัน",
+        "si": "「だき合う」 = එකිනෙකා බදාගන්නවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=258.134,264.864",
       "t": [
@@ -3425,7 +3874,8 @@
         "id": "Sejak itu, keduanya hidup rukun dan bahagia selamanya.",
         "pt": "Daí em diante, dizem, as duas viveram felizes e unidas para sempre.",
         "my": "အဲဒီကစပြီး နှစ်ယောက်လုံး အမြဲ သင့်သင့်မြတ်မြတ် ပျော်ပျော်ရွှင်ရွှင် နေကြတယ်တဲ့။",
-        "th": "ว่ากันว่าตั้งแต่นั้น ทั้งสองก็อยู่ด้วยกันอย่างมีความสุขตลอดไป"
+        "th": "ว่ากันว่าตั้งแต่นั้น ทั้งสองก็อยู่ด้วยกันอย่างมีความสุขตลอดไป",
+        "si": "ඊට පස්සේ දෙන්නා, හැමදාම, සමගියෙන්, සතුටින් ජීවත් වුණාලු."
       },
       "vocab": [
         {
@@ -3442,7 +3892,8 @@
             "id": "terus-menerus",
             "pt": "o tempo todo",
             "my": "တောက်လျှောက်",
-            "th": "ตลอด"
+            "th": "ตลอด",
+            "si": "දිගටම, මුළු කාලයම"
           },
           "level": "N3"
         },
@@ -3460,7 +3911,8 @@
             "id": "bahagia",
             "pt": "felicidade",
             "my": "ပျော်ရွှင်မှု",
-            "th": "ความสุข"
+            "th": "ความสุข",
+            "si": "සතුට, සතුටු"
           },
           "level": "N3"
         }
@@ -3476,7 +3928,8 @@
         "id": "konon.",
         "pt": "dizem.",
         "my": "တဲ့။",
-        "th": "ว่ากันว่า"
+        "th": "ว่ากันว่า",
+        "si": "「〜ということです」 = එහෙම කියනවා (කතාව කියන විදිහ)."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=265.465,271.727",
       "t": [
@@ -3569,7 +4022,8 @@
         "id": "Mungkin ada yang teringat \"Tiga Jimat\" dari Jepang.",
         "pt": "Talvez alguém tenha lembrado de \"Os Três Amuletos\", do Japão.",
         "my": "ဒါကို ကြားတော့ ဂျပန်ရဲ့ \"လက်ဖွဲ့ သုံးခု\" ကို သတိရသူ ရှိမှာပါ။",
-        "th": "ฟังเรื่องนี้แล้ว บางคนอาจนึกถึง \"ยันต์สามแผ่น\" ของญี่ปุ่น"
+        "th": "ฟังเรื่องนี้แล้ว บางคนอาจนึกถึง \"ยันต์สามแผ่น\" ของญี่ปุ่น",
+        "si": "මේ කතාව අහලා, ජපානයේ \"කොළ කැබලි තුනේ කතාව\" මතක් වුණු අයත් ඉන්නවා ඇති."
       },
       "vocab": [],
       "grammarNote": {
@@ -3583,7 +4037,8 @@
         "id": "mungkin ada.",
         "pt": "talvez alguém.",
         "my": "ရှိမှာပါ။",
-        "th": "บางคนอาจ"
+        "th": "บางคนอาจ",
+        "si": "「〜人もいるでしょう」 = ~ අයත් ඉන්නවා ඇති."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=272.327,277.631",
       "t": [
@@ -3684,7 +4139,8 @@
         "id": "Kisah biksu cilik yang dikejar nenek sihir gunung, lalu kabur sambil melempar jimat pemberian kepala biara satu per satu.",
         "pt": "É a história de um noviço perseguido por uma bruxa da montanha, que foge jogando um a um os amuletos do abade.",
         "my": "ဘုန်းကြီးကျောင်းက ကိုရင်လေးကို တောင်ပေါ်က စုန်းမကြီး လိုက်လို့ ဆရာတော် ပေးတဲ့ လက်ဖွဲ့ကို တစ်ခုချင်း ပစ်ပြီး ပြေးတဲ့ ပုံပြင်ပါ။",
-        "th": "เป็นเรื่องเณรน้อยที่ถูกยายแม่มดภูเขาไล่ล่า แล้วหนีด้วยการโยนยันต์ที่เจ้าอาวาสให้ทีละแผ่น"
+        "th": "เป็นเรื่องเณรน้อยที่ถูกยายแม่มดภูเขาไล่ล่า แล้วหนีด้วยการโยนยันต์ที่เจ้าอาวาสให้ทีละแผ่น",
+        "si": "පන්සලේ පොඩි හාමුදුරුවෝ කෙනෙක්ව, කඳු යක්ෂණියක් පන්නගෙන එද්දී, ලොකු හාමුදුරුවෝ දුන්න ආරක්ෂක පත්‍ර, එකින් එක විසි කරලා බේරෙන කතාවක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -3698,7 +4154,8 @@
         "id": "nenek sihir.",
         "pt": "bruxa.",
         "my": "စုန်းမ။",
-        "th": "แม่มด"
+        "th": "แม่มด",
+        "si": "山んば = කඳු යක්ෂණිය. お札 = ආරක්ෂක පත්‍රය."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=278.231,285.887",
       "t": [
@@ -3815,7 +4272,8 @@
         "id": "Jimat berubah jadi sungai besar, gunung pasir, dan lautan api yang menghentikan nenek sihir.",
         "pt": "Os amuletos viram um grande rio, uma montanha de areia e um mar de fogo, detendo a bruxa.",
         "my": "လက်ဖွဲ့တွေက မြစ်ကြီး၊ သဲတောင်၊ မီးပင်လယ် ဖြစ်ပြီး စုန်းမကို တားတယ်။",
-        "th": "ยันต์กลายเป็นแม่น้ำใหญ่ ภูเขาทราย และทะเลเพลิง ขวางยายแม่มดไว้"
+        "th": "ยันต์กลายเป็นแม่น้ำใหญ่ ภูเขาทราย และทะเลเพลิง ขวางยายแม่มดไว้",
+        "si": "ආරක්ෂක පත්‍ර, ලොකු ගංගාවක්, වැලි කන්දක්, ගිනි මුහුදක් බවට හැරිලා, යක්ෂණියව නවත්තනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3829,7 +4287,8 @@
         "id": "menghentikan.",
         "pt": "deter.",
         "my": "တား။",
-        "th": "ขวาง"
+        "th": "ขวาง",
+        "si": "「足を止める」 = (කෙනෙක්ව) නවත්තනවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=286.487,294.485",
       "t": [
@@ -3898,7 +4357,8 @@
         "id": "Mitos Jepang yang lebih tua, \"Kojiki\", juga punya adegan serupa.",
         "pt": "Os mitos japoneses mais antigos, o \"Kojiki\", têm uma cena parecida.",
         "my": "ပိုဟောင်းတဲ့ ဂျပန် ဒဏ္ဍာရီ \"ကိုဂျိကိ\" မှာလည်း ဆင်တူတဲ့ အခန်း ရှိတယ်။",
-        "th": "ตำนานญี่ปุ่นที่เก่ากว่านั้น \"โคจิกิ\" ก็มีฉากคล้ายกัน"
+        "th": "ตำนานญี่ปุ่นที่เก่ากว่านั้น \"โคจิกิ\" ก็มีฉากคล้ายกัน",
+        "si": "ඊටත් වඩා පරණ ජපන් පුරාණ කතාවක් වුණු \"කොජිකි\" එකෙත්, ඒ වගේ සිද්ධියක් තියෙනවා."
       },
       "vocab": [
         {
@@ -3915,7 +4375,8 @@
             "id": "mitos",
             "pt": "mito",
             "my": "ဒဏ္ဍာရီ",
-            "th": "ตำนานเทพ"
+            "th": "ตำนานเทพ",
+            "si": "පුරාණ කතාව, මිථ්‍යාව"
           },
           "level": "N2"
         },
@@ -3933,7 +4394,8 @@
             "id": "adegan",
             "pt": "cena",
             "my": "အခန်း",
-            "th": "ฉาก"
+            "th": "ฉาก",
+            "si": "දර්ශනය"
           },
           "level": "N3"
         }
@@ -3949,7 +4411,8 @@
         "id": "mitos.",
         "pt": "mito.",
         "my": "ဒဏ္ဍာရီ။",
-        "th": "ตำนาน"
+        "th": "ตำนาน",
+        "si": "神話 = පුරාණ කතාව. 場面 = සිද්ධිය, දර්ශනය."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=295.085,300.239",
       "t": [
@@ -4050,7 +4513,8 @@
         "id": "Saat dewa Izanagi melempar sisirnya ke para pengejar, tumbuh rebung dan mereka mulai memakannya.",
         "pt": "Quando o deus Izanagi joga o pente nos perseguidores, brotam brotos de bambu e eles começam a comê-los.",
         "my": "ဣဇာနာဂိ နတ်က လိုက်လာသူတွေဆီ ဘီးကို ပစ်တော့ ဝါးမျှစ် ပေါက်လာပြီး သူတို့ စားကြတယ်။",
-        "th": "เมื่อเทพอิซานางิโยนหวีใส่ผู้ไล่ตาม หน่อไม้ก็งอกขึ้นมา พวกนั้นก็เริ่มกิน"
+        "th": "เมื่อเทพอิซานางิโยนหวีใส่ผู้ไล่ตาม หน่อไม้ก็งอกขึ้นมา พวกนั้นก็เริ่มกิน",
+        "si": "ඉසනාගි කියන දෙවියා, පස්සෙන් පන්නගෙන එන අයට, පනාව විසි කළාම, උණ දළු හටගෙන, ඒ අය ඒවා කන්න පටන් ගන්නවා."
       },
       "vocab": [
         {
@@ -4067,7 +4531,8 @@
             "id": "dewa",
             "pt": "deus",
             "my": "နတ်",
-            "th": "เทพ"
+            "th": "เทพ",
+            "si": "දෙවියා"
           },
           "level": "N3"
         },
@@ -4085,7 +4550,8 @@
             "id": "orang",
             "pt": "pessoa",
             "my": "သူ",
-            "th": "ผู้"
+            "th": "ผู้",
+            "si": "පුද්ගලයා, කෙනා"
           },
           "level": "N3"
         }
@@ -4101,7 +4567,8 @@
         "id": "rebung.",
         "pt": "broto de bambu.",
         "my": "ဝါးမျှစ်။",
-        "th": "หน่อไม้"
+        "th": "หน่อไม้",
+        "si": "くし = පනාව. 竹の子 = උණ දළු."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=300.839,311.081",
       "t": [
@@ -4182,7 +4649,8 @@
         "id": "Bagian pengejar berhenti karena tergoda makanan persis seperti Timun Mas.",
         "pt": "O perseguidor parar distraído pela comida é igualzinho a Timun Mas.",
         "my": "အစားအသောက်ကြောင့် ရပ်သွားတာက တီမွန်မာ့စ်နဲ့ တူတူပဲနော်။",
-        "th": "ตอนที่ผู้ไล่ตามหยุดเพราะมัวกิน เหมือนทิมุน มัสเปี๊ยบ"
+        "th": "ตอนที่ผู้ไล่ตามหยุดเพราะมัวกิน เหมือนทิมุน มัสเปี๊ยบ",
+        "si": "පස්සෙන් එන කෙනා, කෑමට හිත ඇදිලා නවතින හැටි, තිමුන් මාස් වගේමයි නේද."
       },
       "vocab": [
         {
@@ -4199,7 +4667,8 @@
             "id": "pihak lain",
             "pt": "outra parte",
             "my": "တစ်ဖက်လူ",
-            "th": "อีกฝ่าย"
+            "th": "อีกฝ่าย",
+            "si": "අනිත් පාර්ශවය"
           },
           "level": "N3"
         },
@@ -4217,7 +4686,8 @@
             "id": "persis sama",
             "pt": "idêntico",
             "my": "တစ်ပုံစံတည်း",
-            "th": "เหมือนกันเป๊ะ"
+            "th": "เหมือนกันเป๊ะ",
+            "si": "ඒ විදිහටම, හරියටම සමාන"
           },
           "level": "N3"
         }
@@ -4233,7 +4703,8 @@
         "id": "tergoda.",
         "pt": "distrair-se.",
         "my": "အာရုံ လွဲ။",
-        "th": "มัว"
+        "th": "มัว",
+        "si": "「気を取られる」 = හිත වෙන දේකට ඇදෙනවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=311.681,318.049",
       "t": [
@@ -4302,7 +4773,8 @@
         "id": "Sebenarnya, kisah \"melempar benda untuk kabur demi nyawa\" ada di seluruh dunia.",
         "pt": "Na verdade, histórias de \"jogar objetos para fugir\" existem no mundo todo.",
         "my": "တကယ်တော့ \"ပစ္စည်း ပစ်ပြီး အသက်လု ပြေးတဲ့\" ပုံပြင်က ကမ္ဘာအနှံ့ ရှိတယ်။",
-        "th": "ความจริง เรื่อง \"โยนของหนีเอาชีวิตรอด\" มีอยู่ทั่วโลก"
+        "th": "ความจริง เรื่อง \"โยนของหนีเอาชีวิตรอด\" มีอยู่ทั่วโลก",
+        "si": "\"දේවල් විසි කරලා, ජීවිතය පරදුවට තියලා පැනලා යන\" කතා, ඇත්තටම, ලෝකය පුරාම තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4316,7 +4788,8 @@
         "id": "demi nyawa.",
         "pt": "pela vida.",
         "my": "အသက်လု။",
-        "th": "เอาชีวิตรอด"
+        "th": "เอาชีวิตรอด",
+        "si": "「命がけ」 = ජීවිතය පරදුවට තියලා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=318.649,324.927",
       "t": [
@@ -4401,7 +4874,8 @@
         "id": "Aneh ya, Jawa dan Jepang yang berjauhan sama-sama mewariskan kisah menegangkan yang mirip.",
         "pt": "É curioso que Java e Japão, tão distantes, tenham contos tão parecidos e emocionantes.",
         "my": "ဂျားဗားနဲ့ ဂျပန်၊ ဝေးတဲ့ နေရာတွေမှာ ဆင်တူ ရင်တထိတ်ထိတ် ပုံပြင်တွေ ဆင့်ကမ်းလာတာ ထူးဆန်းတယ်။",
-        "th": "ชวากับญี่ปุ่น ที่ห่างไกลกัน กลับเล่าสืบนิทานลุ้นระทึกคล้ายกัน น่าแปลกจริงๆ"
+        "th": "ชวากับญี่ปุ่น ที่ห่างไกลกัน กลับเล่าสืบนิทานลุ้นระทึกคล้ายกัน น่าแปลกจริงๆ",
+        "si": "ජාවා දූපතයි ජපානයයි, ඈත තැන් දෙකක, ඒ වගේම හිත ගැස්සෙන කතා පරම්පරාවෙන් කියාගෙන ආපු එක, පුදුමයි නේද."
       },
       "vocab": [
         {
@@ -4418,7 +4892,8 @@
             "id": "deg-degan",
             "pt": "de tirar o fôlego",
             "my": "ရင်တထိတ်ထိတ်",
-            "th": "ลุ้นระทึก"
+            "th": "ลุ้นระทึก",
+            "si": "හිත ගැස්සෙන, නොඉවසිලිමත්"
           },
           "level": "N1"
         }
@@ -4434,7 +4909,8 @@
         "id": "mewariskan.",
         "pt": "transmitir.",
         "my": "ဆင့်ကမ်း။",
-        "th": "เล่าสืบ"
+        "th": "เล่าสืบ",
+        "si": "「語りつぐ」 = පරම්පරාවෙන් කියාගෙන එනවා."
       },
       "audio": "/audio/furusato-id-timun-1/chapter.mp3#t=325.527,334.427",
       "t": [

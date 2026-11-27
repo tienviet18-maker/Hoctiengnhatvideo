@@ -12,7 +12,8 @@
     "id": "Legenda Dewa Dapur Vietnam",
     "pt": "A lenda dos deuses da cozinha",
     "my": "မီးဖိုချောင်နတ် ဒဏ္ဍာရီ",
-    "th": "ตำนานเทพเจ้าเตาไฟ"
+    "th": "ตำนานเทพเจ้าเตาไฟ",
+    "si": "වියට්නාමයේ කුස්සියේ දෙවිවරු"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -42,8 +43,23 @@
           "id": "dipercaya bahwa ~",
           "pt": "acredita-se que ~",
           "my": "~ လို့ ယုံကြည်ကြတယ်",
-          "th": "เชื่อกันว่า ~"
-        }
+          "th": "เชื่อกันว่า ~",
+          "si": "~ කියලා විශ්වාස කරනවා"
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜と",
+            "reading": ""
+          },
+          {
+            "surface": "信",
+            "reading": "しん"
+          },
+          {
+            "surface": "じられている",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜うちに",
@@ -59,7 +75,8 @@
           "id": "selama ~ (terjadi perubahan)",
           "pt": "enquanto ~ (algo muda)",
           "my": "~ ရင်း (အပြောင်းအလဲ ဖြစ်)",
-          "th": "ระหว่างที่ ~ (เกิดการเปลี่ยนแปลง)"
+          "th": "ระหว่างที่ ~ (เกิดการเปลี่ยนแปลง)",
+          "si": "~ කරද්දී (වෙනසක් වෙනවා)"
         }
       },
       {
@@ -76,7 +93,8 @@
           "id": "gara-gara ~",
           "pt": "culpa de ~",
           "my": "~ ကြောင့် (မကောင်းတဲ့)",
-          "th": "เพราะ ~ (ผลเสีย)"
+          "th": "เพราะ ~ (ผลเสีย)",
+          "si": "~ නිසා, ~ ගේ වැරැද්ද"
         }
       },
       {
@@ -93,7 +111,8 @@
           "id": "ingin orang lain ~ untuk kita",
           "pt": "querer que alguém ~ por você",
           "my": "တစ်ယောက်ယောက်က ~ ပေးစေချင်",
-          "th": "อยากให้ใคร ~ ให้"
+          "th": "อยากให้ใคร ~ ให้",
+          "si": "කෙනෙක් ලවා ~ කරවගන්න ඕනේ"
         }
       }
     ],
@@ -118,8 +137,117 @@
           "id": "Karena dewa naik ikan mas ke langit.",
           "pt": "Porque o deus monta na carpa até o céu.",
           "my": "နတ်က ငါးကြင်းစီးပြီး ကောင်းကင်သွားလို့။",
-          "th": "เพราะเทพขี่ปลาคาร์พขึ้นสวรรค์"
-        }
+          "th": "เพราะเทพขี่ปลาคาร์พขึ้นสวรรค์",
+          "si": "දෙවියෝ කාප් මාළුවා පිට නැගලා ස්වර්ගයට යන නිසා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "ベトナムの",
+            "reading": ""
+          },
+          {
+            "surface": "人",
+            "reading": "ひと"
+          },
+          {
+            "surface": "は、どうしてコイを",
+            "reading": ""
+          },
+          {
+            "surface": "川",
+            "reading": "かわ"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "放",
+            "reading": "はな"
+          },
+          {
+            "surface": "しますか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "神",
+              "reading": "かみ"
+            },
+            {
+              "surface": "さまがコイに",
+              "reading": ""
+            },
+            {
+              "surface": "乗",
+              "reading": "の"
+            },
+            {
+              "surface": "って、",
+              "reading": ""
+            },
+            {
+              "surface": "天",
+              "reading": "てん"
+            },
+            {
+              "surface": "へ",
+              "reading": ""
+            },
+            {
+              "surface": "行",
+              "reading": "い"
+            },
+            {
+              "surface": "くから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "コイを",
+              "reading": ""
+            },
+            {
+              "surface": "食",
+              "reading": "た"
+            },
+            {
+              "surface": "べないから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "をきれいにするから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "子",
+              "reading": "こ"
+            },
+            {
+              "surface": "どもの",
+              "reading": ""
+            },
+            {
+              "surface": "日",
+              "reading": "ひ"
+            },
+            {
+              "surface": "だから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "ティーニーは、どうして家を出ましたか。",
@@ -141,8 +269,97 @@
           "id": "Karena Trọng Cao memukulnya.",
           "pt": "Porque Trọng Cao bateu nela.",
           "my": "ချောင်ကောင်က လက်ပါလို့။",
-          "th": "เพราะจ่องกาวตีเธอ"
-        }
+          "th": "เพราะจ่องกาวตีเธอ",
+          "si": "චොං කාඕ එයාට ගැහුව නිසා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "ティーニーは、どうして",
+            "reading": ""
+          },
+          {
+            "surface": "家",
+            "reading": "いえ"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "出",
+            "reading": "で"
+          },
+          {
+            "surface": "ましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "チョンカオに",
+              "reading": ""
+            },
+            {
+              "surface": "手",
+              "reading": "て"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "上",
+              "reading": "あ"
+            },
+            {
+              "surface": "げられたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "かね"
+            },
+            {
+              "surface": "がなくなったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ファムランに",
+              "reading": ""
+            },
+            {
+              "surface": "会",
+              "reading": "あ"
+            },
+            {
+              "surface": "いたかったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "火",
+              "reading": "ひ"
+            },
+            {
+              "surface": "事",
+              "reading": "こと"
+            },
+            {
+              "surface": "があったから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "チョンカオは、どこにかくれましたか。",
@@ -164,8 +381,67 @@
           "id": "Di tumpukan jerami belakang rumah.",
           "pt": "No monte de palha atrás da casa.",
           "my": "အိမ်နောက်က ကောက်ရိုးပုံ။",
-          "th": "ในกองฟางหลังบ้าน"
-        }
+          "th": "ในกองฟางหลังบ้าน",
+          "si": "ගෙදර පිටිපස්සේ පිදුරු ගොඩේ."
+        },
+        "choicesFurigana": [
+          [
+            {
+              "surface": "家",
+              "reading": "いえ"
+            },
+            {
+              "surface": "のうらの、わらの",
+              "reading": ""
+            },
+            {
+              "surface": "山",
+              "reading": "やま"
+            }
+          ],
+          [
+            {
+              "surface": "台所",
+              "reading": "だいどころ"
+            },
+            {
+              "surface": "のかまど",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "のそば",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "天",
+              "reading": "てん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さまの",
+              "reading": ""
+            },
+            {
+              "surface": "家",
+              "reading": "いえ"
+            }
+          ]
+        ]
       },
       {
         "ja": "日本で、台所にまつられていた火の神さまは？",
@@ -187,8 +463,85 @@
           "id": "Kōjin-sama, dewa api tungku.",
           "pt": "Kōjin-sama, o deus do fogo do fogão.",
           "my": "ကိုးဂျင်ဆာမ၊ မီးဖိုရဲ့ မီးနတ်။",
-          "th": "โคจินซามะ เทพแห่งไฟของเตา"
-        }
+          "th": "โคจินซามะ เทพแห่งไฟของเตา",
+          "si": "කෝජින්-සමා, ලිපේ ගිනි දෙවියා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "日本",
+            "reading": "にほん"
+          },
+          {
+            "surface": "で、",
+            "reading": ""
+          },
+          {
+            "surface": "台所",
+            "reading": "だいどころ"
+          },
+          {
+            "surface": "にまつられていた",
+            "reading": ""
+          },
+          {
+            "surface": "火",
+            "reading": "ひ"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "神",
+            "reading": "かみ"
+          },
+          {
+            "surface": "さまは？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "荒神",
+              "reading": "こうじん"
+            },
+            {
+              "surface": "さま",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "天",
+              "reading": "てん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さま",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "竜",
+              "reading": "りゅう"
+            }
+          ],
+          [
+            {
+              "surface": "こいのぼり",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },
@@ -293,7 +646,8 @@
         "id": "Di Vietnam, sekitar seminggu sebelum Tahun Baru, ada hari untuk mengantar dewa dapur rumah ke langit.",
         "pt": "No Vietnã, cerca de uma semana antes do Ano-Novo, há um dia para mandar o deus da cozinha da casa para o céu.",
         "my": "ဗီယက်နမ်မှာ နှစ်သစ်မတိုင်မီ တစ်ပတ်လောက်မှာ အိမ်ရဲ့ မီးဖိုချောင်နတ်ကို ကောင်းကင်ကို ပို့တဲ့နေ့ ရှိတယ်။",
-        "th": "ที่เวียดนาม ราวหนึ่งสัปดาห์ก่อนปีใหม่ มีวันส่งเทพเจ้าครัวของบ้านขึ้นสวรรค์"
+        "th": "ที่เวียดนาม ราวหนึ่งสัปดาห์ก่อนปีใหม่ มีวันส่งเทพเจ้าครัวของบ้านขึ้นสวรรค์",
+        "si": "වියට්නාමයේ, අලුත් අවුරුද්දට සතියකට විතර කලින්, ගෙදර කුස්සියේ දෙවියන්ව, අහසට පිටත් කරලා යවන දවසක් තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -307,7 +661,8 @@
         "id": "ほど = sekitar.",
         "pt": "ほど = cerca de.",
         "my": "ほど = လောက်။",
-        "th": "ほど = ประมาณ"
+        "th": "ほど = ประมาณ",
+        "si": "「〜ほど」 = ~ විතර; 送り出す = පිටත් කරලා යවනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=0.3,8.807",
       "t": [
@@ -356,7 +711,8 @@
         "id": "Itu tanggal 23 bulan ke-12 kalender lunar, hari \"Ông Táo\".",
         "pt": "É o dia 23 do 12º mês lunar, o dia de \"Ông Táo\".",
         "my": "စန္ဒရားပြက္ခဒိန် ၁၂ လပိုင်း ၂၃ ရက်၊ \"အောင်တာအို\" နေ့ ဖြစ်တယ်။",
-        "th": "คือวันที่ 23 เดือน 12 ตามจันทรคติ วัน \"องเต๋า\""
+        "th": "คือวันที่ 23 เดือน 12 ตามจันทรคติ วัน \"องเต๋า\"",
+        "si": "චන්ද්‍ර දින දර්ශනයේ දොළොස්වෙනි මාසයේ විසිතුන්වෙනිදා, \"ඔං තාඕ\" දවස."
       },
       "vocab": [],
       "grammarNote": {
@@ -370,7 +726,8 @@
         "id": "旧暦 = kalender lunar.",
         "pt": "旧暦 = calendário lunar.",
         "my": "旧暦 = စန္ဒရားပြက္ခဒိန်။",
-        "th": "旧暦 = ปฏิทินจันทรคติ"
+        "th": "旧暦 = ปฏิทินจันทรคติ",
+        "si": "旧暦 = පැරණි (චන්ද්‍ර) දින දර්ශනය."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=9.407,13.641",
       "t": [
@@ -447,7 +804,8 @@
         "id": "Pada hari ini, orang melepaskan ikan mas hidup ke sungai dan kolam.",
         "pt": "Neste dia, as pessoas soltam carpas vivas em rios e lagoas.",
         "my": "ဒီနေ့မှာ လူတွေက အသက်ရှင်တဲ့ ငါးကြင်းကို မြစ်ထဲ၊ ကန်ထဲ လွှတ်တယ်။",
-        "th": "วันนี้ ผู้คนปล่อยปลาคาร์พที่ยังมีชีวิตลงแม่น้ำและบ่อ"
+        "th": "วันนี้ ผู้คนปล่อยปลาคาร์พที่ยังมีชีวิตลงแม่น้ำและบ่อ",
+        "si": "මේ දවසේ, මිනිස්සු, පණපිටින් ඉන්න කාප් මාළුවන්ව, ගංගාවලට, පොකුණුවලට නිදහස් කරනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -461,7 +819,8 @@
         "id": "AやB = A, B, dan lain-lain.",
         "pt": "AやB = A, B etc.",
         "my": "AやB = A၊ B စသည်။",
-        "th": "AやB = A, B เป็นต้น"
+        "th": "AやB = A, B เป็นต้น",
+        "si": "「AやB」 = A, B වගේ; 放す = නිදහස් කරනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=14.241,19.453",
       "t": [
@@ -542,7 +901,8 @@
         "id": "Karena dipercaya dewa dapur naik ikan mas menuju raja langit.",
         "pt": "Porque se acredita que o deus da cozinha monta numa carpa até o rei do céu.",
         "my": "မီးဖိုချောင်နတ်က ငါးကြင်းစီးပြီး ကောင်းကင်ဘုရင်ဆီ သွားတယ်လို့ ယုံကြတဲ့အတွက် ဖြစ်တယ်။",
-        "th": "เพราะเชื่อกันว่าเทพเจ้าครัวขี่ปลาคาร์พไปหาราชาแห่งสวรรค์"
+        "th": "เพราะเชื่อกันว่าเทพเจ้าครัวขี่ปลาคาร์พไปหาราชาแห่งสวรรค์",
+        "si": "කුස්සියේ දෙවියෝ, කාප් මාළුවා පිට නැගලා, ස්වර්ගයේ රජතුමා ළඟට යනවා කියලා, විශ්වාස කරන නිසා."
       },
       "vocab": [],
       "grammarNote": {
@@ -556,7 +916,8 @@
         "id": "dipercaya; karena.",
         "pt": "acredita-se; porque.",
         "my": "ယုံကြည်ကြ; ကြောင့်။",
-        "th": "เชื่อกันว่า; เพราะ"
+        "th": "เชื่อกันว่า; เพราะ",
+        "si": "「〜と信じられている」 = ~ කියලා විශ්වාස කරනවා; 「〜からです」 = ~ නිසා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=20.053,27.304",
       "t": [
@@ -609,7 +970,8 @@
         "id": "Lalu, bagaimana dewa dapur itu lahir?",
         "pt": "Então, como nasceram os deuses da cozinha?",
         "my": "ဒါဆို မီးဖိုချောင်နတ်က ဘယ်လို ဖြစ်လာတာလဲ။",
-        "th": "แล้วเทพเจ้าครัวเกิดขึ้นได้อย่างไร"
+        "th": "แล้วเทพเจ้าครัวเกิดขึ้นได้อย่างไร",
+        "si": "එහෙනම්, කුස්සියේ දෙවිවරු, කොහොමද බිහි වුණේ?"
       },
       "vocab": [],
       "grammarNote": {
@@ -623,7 +985,8 @@
         "id": "ya?",
         "pt": "será?",
         "my": "လဲ။",
-        "th": "กันนะ"
+        "th": "กันนะ",
+        "si": "「〜のでしょう」 = ~ ද දන්නේ නැහැ (කතාව පටන් ගන්නවා)."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=27.904,32.477",
       "t": [
@@ -692,7 +1055,8 @@
         "id": "Dahulu, di sebuah desa, tinggallah suami istri bernama Trọng Cao dan Thị Nhi.",
         "pt": "Há muito tempo, numa aldeia, viviam como marido e mulher Trọng Cao e Thị Nhi.",
         "my": "ရှေးတုန်းက ရွာတစ်ရွာမှာ ချောင်ကောင်နဲ့ သီညီ ဆိုတဲ့ လင်မယား နေထိုင်ကြတယ်။",
-        "th": "กาลครั้งหนึ่ง ในหมู่บ้านแห่งหนึ่ง มีสามีภรรยาชื่อจ่องกาวกับถิหญีอาศัยอยู่"
+        "th": "กาลครั้งหนึ่ง ในหมู่บ้านแห่งหนึ่ง มีสามีภรรยาชื่อจ่องกาวกับถิหญีอาศัยอยู่",
+        "si": "ඉස්සර, එක ගමක, චොං කාඕ කියලා පිරිමියෙකුයි, තී ඤී කියලා ගැහැනියකුයි, සැමි බිරිඳෝ විදිහට ජීවත් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -706,7 +1070,8 @@
         "id": "bernama; 夫婦 = suami istri.",
         "pt": "chamado; 夫婦 = casal.",
         "my": "ဆိုတဲ့; 夫婦 = လင်မယား။",
-        "th": "ชื่อว่า; 夫婦 = สามีภรรยา"
+        "th": "ชื่อว่า; 夫婦 = สามีภรรยา",
+        "si": "「〜という」 = ~ කියන නමින්; 夫婦 = සැමි බිරිඳෝ."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=33.077,41.6",
       "t": [
@@ -747,7 +1112,8 @@
         "id": "Mereka berdua lama tidak dikaruniai anak.",
         "pt": "Os dois demoravam a ter filhos.",
         "my": "နှစ်ယောက်လုံး ကလေး မရကြဘူး။",
-        "th": "ทั้งสองไม่มีลูกเสียที"
+        "th": "ทั้งสองไม่มีลูกเสียที",
+        "si": "දෙන්නට, ගොඩක් කාලයක් දරුවෙක් ලැබුණේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -761,7 +1127,8 @@
         "id": "tak kunjung.",
         "pt": "não ... facilmente.",
         "my": "အလွယ်တကူ မ...။",
-        "th": "ไม่...เสียที"
+        "th": "ไม่...เสียที",
+        "si": "「なかなか〜ない」 = ලේසියෙන් ~ වෙන්නේ නැහැ, ගොඩක් කාලයක් ~ නැහැ."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=42.2,45.795",
       "t": [
@@ -790,7 +1157,8 @@
         "id": "Mungkin karena itu, Trọng Cao selalu jengkel.",
         "pt": "Talvez por isso, Trọng Cao vivia irritado.",
         "my": "အဲဒါကြောင့်လားမသိ ချောင်ကောင်က အမြဲ စိတ်တိုနေတယ်။",
-        "th": "อาจเพราะเหตุนั้น จ่องกาวจึงหงุดหงิดอยู่เสมอ"
+        "th": "อาจเพราะเหตุนั้น จ่องกาวจึงหงุดหงิดอยู่เสมอ",
+        "si": "ඒ නිසාදෝ, චොං කාඕ, හැමවෙලේම, නොසන්සුන්ව හිටියා."
       },
       "vocab": [
         {
@@ -807,7 +1175,8 @@
             "id": "jengkel, gelisah",
             "pt": "irritado",
             "my": "စိတ်တိုခြင်း",
-            "th": "หงุดหงิด"
+            "th": "หงุดหงิด",
+            "si": "නොඉවසිලිමත්, කලබලකාරී"
           },
           "level": "N3"
         }
@@ -823,7 +1192,8 @@
         "id": "mungkin karena itu.",
         "pt": "talvez por isso.",
         "my": "အဲဒါကြောင့်လား။",
-        "th": "อาจเพราะเหตุนั้น"
+        "th": "อาจเพราะเหตุนั้น",
+        "si": "「そのせいか」 = ඒ නිසාදෝ (නරක හේතුවක්)."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=46.395,50.99",
       "t": [
@@ -876,7 +1246,8 @@
         "id": "Suatu hari, karena hal kecil, mereka bertengkar hebat.",
         "pt": "Um dia, por uma coisa pequena, os dois brigaram feio.",
         "my": "တစ်နေ့မှာ ကိစ္စလေးတစ်ခုကြောင့် နှစ်ယောက် အကြီးအကျယ် ရန်ဖြစ်ကြတယ်။",
-        "th": "วันหนึ่ง เพราะเรื่องเล็กน้อย ทั้งสองทะเลาะกันใหญ่โต"
+        "th": "วันหนึ่ง เพราะเรื่องเล็กน้อย ทั้งสองทะเลาะกันใหญ่โต",
+        "si": "දවසක්, පොඩි දෙයකට, දෙන්නා, ලොකු රණ්ඩුවක් කරගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -890,7 +1261,8 @@
         "id": "terlanjur.",
         "pt": "acabar por.",
         "my": "...လိုက်မိ။",
-        "th": "...ไปเสียแล้ว"
+        "th": "...ไปเสียแล้ว",
+        "si": "「〜てしまう」 = ~ කරලා දැම්මා (පසුතැවීම)."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=51.59,56.71",
       "t": [
@@ -935,7 +1307,8 @@
         "id": "Karena marah, Trọng Cao memukul Thị Nhi.",
         "pt": "Furioso, Trọng Cao levantou a mão contra Thị Nhi.",
         "my": "ဒေါသထွက်တဲ့ ချောင်ကောင်က သီညီကို လက်ပါမိတယ်။",
-        "th": "จ่องกาวโกรธจนลงมือตีถิหญี"
+        "th": "จ่องกาวโกรธจนลงมือตีถิหญี",
+        "si": "තරහ ගිය චොං කාඕ, තී ඤීට, ගැහුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -949,7 +1322,8 @@
         "id": "手を上げる = memukul.",
         "pt": "手を上げる = bater.",
         "my": "手を上げる = လက်ပါ။",
-        "th": "手を上げる = ลงไม้ลงมือ"
+        "th": "手を上げる = ลงไม้ลงมือ",
+        "si": "手を上げる = කෙනෙකුට ගහනවා; 「〜のです」 අවධාරණය එකතු කරනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=57.31,61.825",
       "t": [
@@ -994,7 +1368,8 @@
         "id": "\"Aku tidak tahan lagi. Aku akan pergi dari rumah ini.\"",
         "pt": "\"Não aguento mais. Vou embora desta casa.\"",
         "my": "\"မခံနိုင်တော့ဘူး။ ကျွန်မ ဒီအိမ်က ထွက်သွားမယ်။\"",
-        "th": "\"ฉันทนไม่ไหวแล้ว ฉันจะออกจากบ้านนี้\""
+        "th": "\"ฉันทนไม่ไหวแล้ว ฉันจะออกจากบ้านนี้\"",
+        "si": "\"තවත්, ඉවසන්න බැහැ. මං, මේ ගෙදරින් යනවා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1008,7 +1383,8 @@
         "id": "tidak ... lagi.",
         "pt": "não ... mais.",
         "my": "မ...တော့။",
-        "th": "ไม่...อีกแล้ว"
+        "th": "ไม่...อีกแล้ว",
+        "si": "「もう〜ない」 = තවත් ~ නැහැ; がまん = ඉවසීම."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=62.725,67.274",
       "t": [
@@ -1069,7 +1445,8 @@
         "id": "Sambil menangis, Thị Nhi pergi ke desa yang jauh.",
         "pt": "Chorando, Thị Nhi foi para uma aldeia distante.",
         "my": "သီညီက ငိုရင်း ဝေးတဲ့ရွာကို သွားတယ်။",
-        "th": "ถิหญีร้องไห้พลางเดินไปยังหมู่บ้านที่ห่างไกล"
+        "th": "ถิหญีร้องไห้พลางเดินไปยังหมู่บ้านที่ห่างไกล",
+        "si": "තී ඤී, අඬමින්, ඈත ගමකට ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1083,7 +1460,8 @@
         "id": "sambil.",
         "pt": "enquanto.",
         "my": "...ရင်း။",
-        "th": "...พลาง"
+        "th": "...พลาง",
+        "si": "「〜ながら」 = ~ කරමින්."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=68.174,72.346",
       "t": [
@@ -1136,7 +1514,8 @@
         "id": "Di sana ia bertemu lelaki baik bernama Phạm Lang.",
         "pt": "Lá ela conheceu um homem gentil chamado Phạm Lang.",
         "my": "အဲဒီမှာ ဖမ်လန် ဆိုတဲ့ သဘောကောင်းတဲ့ ယောက်ျားနဲ့ တွေ့တယ်။",
-        "th": "ที่นั่น เธอได้พบชายใจดีชื่อฝ่ามลาง"
+        "th": "ที่นั่น เธอได้พบชายใจดีชื่อฝ่ามลาง",
+        "si": "එතනදී, ෆාම් ලාං කියලා, කාරුණික පිරිමියෙක්ව හම්බ වුණා."
       },
       "vocab": [
         {
@@ -1153,7 +1532,8 @@
             "id": "bertemu",
             "pt": "encontrar-se",
             "my": "ဆုံတွေ့သည်",
-            "th": "พบกัน"
+            "th": "พบกัน",
+            "si": "හමු වීම (අහම්බෙන්)"
           },
           "level": "N3"
         }
@@ -1169,7 +1549,8 @@
         "id": "bertemu.",
         "pt": "encontrar.",
         "my": "တွေ့ဆုံ။",
-        "th": "ได้พบ"
+        "th": "ได้พบ",
+        "si": "「〜に出会う」 = ~ ව (අහම්බෙන්) හම්බ වෙනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=72.946,77.701",
       "t": [
@@ -1230,7 +1611,8 @@
         "id": "Lama-kelamaan, Thị Nhi menikah dengan Phạm Lang dan memulai hidup baru.",
         "pt": "Com o tempo, Thị Nhi casou com Phạm Lang e começou uma vida nova.",
         "my": "နောက်တော့ သီညီက ဖမ်လန်နဲ့ လက်ထပ်ပြီး ဘဝသစ် စတယ်။",
-        "th": "ต่อมา ถิหญีแต่งงานกับฝ่ามลางและเริ่มชีวิตใหม่"
+        "th": "ต่อมา ถิหญีแต่งงานกับฝ่ามลางและเริ่มชีวิตใหม่",
+        "si": "ටික කලකින්, තී ඤී, ෆාම් ලාංව කසාද බැඳලා, අලුත් ජීවිතයක් පටන් ගත්තා."
       },
       "vocab": [
         {
@@ -1247,7 +1629,8 @@
             "id": "tak lama kemudian",
             "pt": "logo, com o tempo",
             "my": "မကြာမီ",
-            "th": "ไม่นานนัก, ในที่สุด"
+            "th": "ไม่นานนัก, ในที่สุด",
+            "si": "ටික කලකින්, අවසානයේදී"
           },
           "level": "N3"
         }
@@ -1263,7 +1646,8 @@
         "id": "lama-kelamaan.",
         "pt": "com o tempo.",
         "my": "နောက်တော့။",
-        "th": "ต่อมา"
+        "th": "ต่อมา",
+        "si": "やがて = ටික කලකින්."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=78.301,84.557",
       "t": [
@@ -1328,7 +1712,8 @@
         "id": "Sementara itu, setelah sendirian, Trọng Cao sangat menyesali perbuatannya.",
         "pt": "Enquanto isso, sozinho, Trọng Cao se arrependeu muito do que fez.",
         "my": "တစ်ဖက်မှာ ချောင်ကောင်က တစ်ယောက်တည်း ဖြစ်သွားပြီးနောက် သူလုပ်ခဲ့တာကို အရမ်း နောင်တရတယ်။",
-        "th": "ส่วนจ่องกาว เมื่ออยู่คนเดียว ก็เสียใจอย่างยิ่งกับสิ่งที่ตนทำ"
+        "th": "ส่วนจ่องกาว เมื่ออยู่คนเดียว ก็เสียใจอย่างยิ่งกับสิ่งที่ตนทำ",
+        "si": "ඒ අතරේ, චොං කාඕ, තනි වුණාට පස්සේ, තමන් කරපු දේ ගැන, ගොඩක් පසුතැවුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1342,7 +1727,8 @@
         "id": "sementara itu; menyesal.",
         "pt": "enquanto isso; arrependimento.",
         "my": "တစ်ဖက်မှာ; နောင်တ။",
-        "th": "ส่วน; เสียใจ"
+        "th": "ส่วน; เสียใจ",
+        "si": "一方 = ඒ අතරේ; 後悔 = පසුතැවීම."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=85.157,92.049",
       "t": [
@@ -1387,7 +1773,8 @@
         "id": "\"Aku yang salah. Aku ingin bertemu Thị Nhi dan minta maaf.\"",
         "pt": "\"Eu errei. Quero ver Thị Nhi e pedir desculpas.\"",
         "my": "\"ငါ မှားခဲ့တယ်။ သီညီနဲ့ တွေ့ပြီး တောင်းပန်ချင်တယ်။\"",
-        "th": "\"ข้าผิดไปแล้ว ข้าอยากพบถิหญีเพื่อขอโทษ\""
+        "th": "\"ข้าผิดไปแล้ว ข้าอยากพบถิหญีเพื่อขอโทษ\"",
+        "si": "\"වැරැද්ද මගේ. තී ඤීව හම්බ වෙලා, සමාව ඉල්ලන්න ඕනේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1401,7 +1788,8 @@
         "id": "ingin.",
         "pt": "querer.",
         "my": "ချင်။",
-        "th": "อยาก"
+        "th": "อยาก",
+        "si": "「〜て、〜たい」 = ~ කරලා ~ කරන්න ඕනේ."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=92.949,96.674",
       "t": [
@@ -1470,7 +1858,8 @@
         "id": "Trọng Cao menjual rumah dan sawah, lalu berkelana mencari Thị Nhi.",
         "pt": "Trọng Cao vendeu a casa e os campos e partiu em busca de Thị Nhi.",
         "my": "ချောင်ကောင်က အိမ်ရော လယ်ရော ရောင်းပြီး သီညီကို ရှာတဲ့ ခရီး ထွက်တယ်။",
-        "th": "จ่องกาวขายทั้งบ้านและนา แล้วออกเดินทางตามหาถิหญี"
+        "th": "จ่องกาวขายทั้งบ้านและนา แล้วออกเดินทางตามหาถิหญี",
+        "si": "චොං කාඕ, ගෙයි කුඹුරුයි විකුණලා, තී ඤීව හොයන ගමනක් පිටත් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1484,7 +1873,8 @@
         "id": "baik A maupun B.",
         "pt": "tanto A quanto B.",
         "my": "ရော...ရော။",
-        "th": "ทั้ง...และ"
+        "th": "ทั้ง...และ",
+        "si": "「AもBも」 = A ත් B ත්; 旅に出る = ගමනක් පිටත් වෙනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=97.574,103.201",
       "t": [
@@ -1541,7 +1931,8 @@
         "id": "Bertahun-tahun berjalan, uangnya habis, dan akhirnya ia menjadi pengemis.",
         "pt": "Depois de anos andando, o dinheiro acabou e ele virou mendigo.",
         "my": "နှစ်ပေါင်းများစွာ လျှောက်ရင်း ပိုက်ဆံကုန်ပြီး နောက်ဆုံး သူတောင်းစား ဖြစ်သွားတယ်။",
-        "th": "เดินอยู่หลายปีจนเงินหมด สุดท้ายก็กลายเป็นขอทาน"
+        "th": "เดินอยู่หลายปีจนเงินหมด สุดท้ายก็กลายเป็นขอทาน",
+        "si": "අවුරුදු ගාණක් ඇවිද ඇවිද යද්දී, සල්ලි ඉවර වුණා, අන්තිමට, හිඟන්නෙක් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1555,7 +1946,8 @@
         "id": "selama; akhirnya.",
         "pt": "enquanto; finalmente.",
         "my": "...ရင်း; နောက်ဆုံး။",
-        "th": "ระหว่างที่; ในที่สุด"
+        "th": "ระหว่างที่; ในที่สุด",
+        "si": "「〜うちに」 = ~ කරද්දී (වෙනසක් වෙනවා); とうとう = අන්තිමට."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=103.801,110.999",
       "t": [
@@ -1632,7 +2024,8 @@
         "id": "Suatu hari, Trọng Cao berdiri di depan sebuah rumah untuk meminta makanan.",
         "pt": "Um dia, Trọng Cao parou diante de uma casa para pedir comida.",
         "my": "တစ်နေ့ ချောင်ကောင်က အိမ်တစ်အိမ်ရှေ့မှာ စားစရာ တောင်းဖို့ ကြိုးစားတယ်။",
-        "th": "วันหนึ่ง จ่องกาวยืนหน้าบ้านหลังหนึ่งเพื่อขออาหาร"
+        "th": "วันหนึ่ง จ่องกาวยืนหน้าบ้านหลังหนึ่งเพื่อขออาหาร",
+        "si": "දවසක්, චොං කාඕ, එක ගෙදරක් ඉස්සරහ, කෑම ඉල්ලන්න හැදුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1646,7 +2039,8 @@
         "id": "hendak.",
         "pt": "tentar.",
         "my": "ဖို့ ကြိုးစား။",
-        "th": "พยายามจะ"
+        "th": "พยายามจะ",
+        "si": "「〜ようとする」 = ~ කරන්න හදනවා; 一軒 ගෙවල් ගණන් කරනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=111.599,117.373",
       "t": [
@@ -1679,7 +2073,8 @@
         "id": "Yang keluar, ternyata, adalah Thị Nhi.",
         "pt": "Quem saiu, veja só, foi Thị Nhi.",
         "my": "ထွက်လာတာက အံ့ဩစရာ သီညီ ဖြစ်နေတယ်။",
-        "th": "คนที่ออกมา ที่แท้คือถิหญีนั่นเอง"
+        "th": "คนที่ออกมา ที่แท้คือถิหญีนั่นเอง",
+        "si": "එළියට ආවේ, පුදුමයි, තී ඤී."
       },
       "vocab": [],
       "grammarNote": {
@@ -1693,7 +2088,8 @@
         "id": "ternyata.",
         "pt": "veja só.",
         "my": "အံ့ဩစရာ။",
-        "th": "ที่แท้"
+        "th": "ที่แท้",
+        "si": "なんと = පුදුමයි."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=117.973,121.605",
       "t": [
@@ -1722,7 +2118,8 @@
         "id": "\"Kamu... Trọng Cao?\"",
         "pt": "\"Você... é o Trọng Cao?\"",
         "my": "\"ရှင်... ချောင်ကောင်လား။\"",
-        "th": "\"คุณ... จ่องกาวหรือ\""
+        "th": "\"คุณ... จ่องกาวหรือ\"",
+        "si": "\"ඔයා……චොං කාඕ ද?\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1736,7 +2133,8 @@
         "id": "kah?",
         "pt": "é?",
         "my": "လား။",
-        "th": "หรือ"
+        "th": "หรือ",
+        "si": "「〜なの？」 = ~ ද? (මෘදු, සාමාන්‍ය)."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=122.506,124.376",
       "t": [
@@ -1773,7 +2171,8 @@
         "id": "Melihat Trọng Cao yang kurus dan kotor, hati Thị Nhi pedih.",
         "pt": "Ao ver Trọng Cao magro e sujo, Thị Nhi sentiu o coração doer.",
         "my": "ပိန်ပြီး ညစ်ပတ်နေတဲ့ ချောင်ကောင်ကို မြင်တော့ သီညီ ရင်နာတယ်။",
-        "th": "เมื่อเห็นจ่องกาวผอมและสกปรก ถิหญีก็เจ็บปวดใจ"
+        "th": "เมื่อเห็นจ่องกาวผอมและสกปรก ถิหญีก็เจ็บปวดใจ",
+        "si": "කෙට්ටු වෙලා, කිලුටු වෙලා හිටපු චොං කාඕව දැකලා, තී ඤීගේ පපුව රිදුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1787,7 +2186,8 @@
         "id": "sakit hati.",
         "pt": "dor no peito.",
         "my": "ရင်နာ။",
-        "th": "เจ็บปวดใจ"
+        "th": "เจ็บปวดใจ",
+        "si": "むねがいたい = පපුව රිදෙනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=125.276,130.948",
       "t": [
@@ -1840,7 +2240,8 @@
         "id": "Thị Nhi membawa Trọng Cao masuk dan memberinya makan.",
         "pt": "Thị Nhi levou Trọng Cao para dentro e lhe deu de comer.",
         "my": "သီညီက ချောင်ကောင်ကို အိမ်ထဲခေါ်ပြီး ထမင်းကျွေးတယ်။",
-        "th": "ถิหญีพาจ่องกาวเข้าบ้านและให้กินข้าว"
+        "th": "ถิหญีพาจ่องกาวเข้าบ้านและให้กินข้าว",
+        "si": "තී ඤී, චොං කාඕව ගෙට එක්කගෙන ගිහින්, කෑම කවලා දුන්නා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1854,7 +2255,8 @@
         "id": "memberi makan.",
         "pt": "dar de comer.",
         "my": "ကျွေး။",
-        "th": "ให้กิน"
+        "th": "ให้กิน",
+        "si": "「〜させてあげる」 = (කරුණාවෙන්) කෙනෙකුට ~ කරන්න දෙනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=131.548,136.407",
       "t": [
@@ -1903,7 +2305,8 @@
         "id": "Mereka bercerita tentang masa lalu dan menangis bersama.",
         "pt": "Falaram do passado e choraram juntos.",
         "my": "နှစ်ယောက် အရင်က အကြောင်းပြောပြီး အတူ ငိုကြတယ်။",
-        "th": "ทั้งสองเล่าเรื่องเก่าและร้องไห้ด้วยกัน"
+        "th": "ทั้งสองเล่าเรื่องเก่าและร้องไห้ด้วยกัน",
+        "si": "දෙන්නා, පරණ කාලේ ගැන කතා කරලා, එකට ඇඬුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1917,7 +2320,8 @@
         "id": "bersama.",
         "pt": "juntos.",
         "my": "အတူ။",
-        "th": "ด้วยกัน"
+        "th": "ด้วยกัน",
+        "si": "いっしょに = එකට."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=137.007,141.331",
       "t": [
@@ -1970,7 +2374,8 @@
         "id": "Saat itu, terdengar langkah kaki Phạm Lang dari luar.",
         "pt": "Nisso, ouviram-se lá fora os passos de Phạm Lang.",
         "my": "အဲဒီအချိန် အပြင်က ဖမ်လန်ရဲ့ ခြေသံ ကြားလာတယ်။",
-        "th": "ตอนนั้นเอง ก็ได้ยินเสียงฝีเท้าของฝ่ามลางจากข้างนอก"
+        "th": "ตอนนั้นเอง ก็ได้ยินเสียงฝีเท้าของฝ่ามลางจากข้างนอก",
+        "si": "ඒ වෙලාවේම, එළියෙන්, ෆාම් ලාංගේ පා හඬ ඇහුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1984,7 +2389,8 @@
         "id": "saat itu.",
         "pt": "nisso.",
         "my": "အဲဒီအချိန်။",
-        "th": "ตอนนั้นเอง"
+        "th": "ตอนนั้นเอง",
+        "si": "そこへ = ඒ වෙලාවේම; 「〜てくる」 = ළඟට එනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=141.931,146.371",
       "t": [
@@ -2029,7 +2435,8 @@
         "id": "\"Gawat. Suamiku pulang.\"",
         "pt": "\"Ai, não! Meu marido voltou.\"",
         "my": "\"ဒုက္ခပဲ။ ယောက်ျား ပြန်လာပြီ။\"",
-        "th": "\"แย่แล้ว สามีกลับมาแล้ว\""
+        "th": "\"แย่แล้ว สามีกลับมาแล้ว\"",
+        "si": "\"අපරාදේ. සැමියා ආවා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2043,7 +2450,8 @@
         "id": "gawat; suami.",
         "pt": "ai; marido.",
         "my": "ဒုက္ခ; ယောက်ျား။",
-        "th": "แย่แล้ว; สามี"
+        "th": "แย่แล้ว; สามี",
+        "si": "たいへん = අපරාදේ!; 夫 = සැමියා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=147.271,149.63",
       "t": [
@@ -2088,7 +2496,8 @@
         "id": "Karena bingung, Thị Nhi menyembunyikan Trọng Cao di tumpukan jerami di belakang rumah.",
         "pt": "Aflita, Thị Nhi escondeu Trọng Cao no monte de palha atrás da casa.",
         "my": "အခက်တွေ့တဲ့ သီညီက ချောင်ကောင်ကို အိမ်နောက်က ကောက်ရိုးပုံထဲ ဝှက်ထားတယ်။",
-        "th": "ถิหญีลนลานจึงซ่อนจ่องกาวไว้ในกองฟางหลังบ้าน"
+        "th": "ถิหญีลนลานจึงซ่อนจ่องกาวไว้ในกองฟางหลังบ้าน",
+        "si": "තී ඤී, කලබල වෙලා, චොං කාඕව, ගෙදර පිටිපස්සේ, පිදුරු ගොඩක හැංගුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2102,7 +2511,8 @@
         "id": "jerami; menyembunyikan.",
         "pt": "palha; esconder.",
         "my": "ကောက်ရိုး; ဝှက်။",
-        "th": "ฟาง; ซ่อน"
+        "th": "ฟาง; ซ่อน",
+        "si": "わら = පිදුරු; かくす = හංගනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=150.53,157.584",
       "t": [
@@ -2179,7 +2589,8 @@
         "id": "Malam itu, Phạm Lang membakar tumpukan jerami untuk membuat abu pupuk sawah.",
         "pt": "Naquela noite, Phạm Lang pôs fogo na palha para fazer cinza para os campos.",
         "my": "အဲဒီညမှာ ဖမ်လန်က လယ်ထဲ ကြဲဖို့ ပြာလုပ်ရန် ကောက်ရိုးပုံကို မီးရှို့တယ်။",
-        "th": "คืนนั้น ฝ่ามลางจุดไฟเผากองฟางเพื่อทำขี้เถ้าไว้โรยนา"
+        "th": "คืนนั้น ฝ่ามลางจุดไฟเผากองฟางเพื่อทำขี้เถ้าไว้โรยนา",
+        "si": "ඒ රෑ, ෆාම් ලාං, කුඹුරට දාන අළු හදන්න, පිදුරු ගොඩට ගිනි තිබ්බා."
       },
       "vocab": [
         {
@@ -2196,7 +2607,8 @@
             "id": "melilit",
             "pt": "enrolar",
             "my": "ပတ်",
-            "th": "พัน"
+            "th": "พัน",
+            "si": "එතීම"
           },
           "level": "N2"
         }
@@ -2212,7 +2624,8 @@
         "id": "untuk; abu.",
         "pt": "para; cinza.",
         "my": "ရန်; ပြာ။",
-        "th": "เพื่อ; ขี้เถ้า"
+        "th": "เพื่อ; ขี้เถ้า",
+        "si": "「〜ため」 = ~ කරන්න; 灰 = අළු; 火をつける = ගිනි තියනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=158.184,165.022",
       "t": [
@@ -2249,7 +2662,8 @@
         "id": "Trọng Cao yang tertidur di jerami tidak bisa melarikan diri.",
         "pt": "Trọng Cao, dormindo na palha, não conseguiu fugir.",
         "my": "ကောက်ရိုးထဲ အိပ်နေတဲ့ ချောင်ကောင်က မလွတ်မြောက်နိုင်ခဲ့ဘူး။",
-        "th": "จ่องกาวที่หลับอยู่ในกองฟางหนีไม่ทัน"
+        "th": "จ่องกาวที่หลับอยู่ในกองฟางหนีไม่ทัน",
+        "si": "පිදුරු ඇතුළේ, නිදාගෙන හිටපු චොං කාඕට, පැනලා යන්න බැරි වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2263,7 +2677,8 @@
         "id": "tidak bisa.",
         "pt": "não conseguir.",
         "my": "မ...နိုင်။",
-        "th": "ไม่สามารถ"
+        "th": "ไม่สามารถ",
+        "si": "「〜ことができない」 = ~ කරන්න බැහැ."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=165.622,170.737",
       "t": [
@@ -2324,7 +2739,8 @@
         "id": "Melihat itu, Thị Nhi tanpa ragu melompat ke dalam api.",
         "pt": "Ao ver isso, Thị Nhi se jogou no fogo sem hesitar.",
         "my": "အဲဒါကို မြင်တော့ သီညီက မချီတုံချတုံ မီးထဲ ခုန်ဆင်းတယ်။",
-        "th": "เมื่อเห็นดังนั้น ถิหญีก็กระโจนเข้ากองไฟโดยไม่ลังเล"
+        "th": "เมื่อเห็นดังนั้น ถิหญีก็กระโจนเข้ากองไฟโดยไม่ลังเล",
+        "si": "ඒක දැක්ක තී ඤී, පැකිළෙන්නේ නැතුව, ගින්නට පැන්නා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2338,7 +2754,8 @@
         "id": "tanpa ragu.",
         "pt": "sem hesitar.",
         "my": "မချီတုံချတုံ။",
-        "th": "โดยไม่ลังเล"
+        "th": "โดยไม่ลังเล",
+        "si": "まよわず = පැකිළෙන්නේ නැතුව; 飛びこむ = ඇතුළට පනිනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=171.337,176.02",
       "t": [
@@ -2375,7 +2792,8 @@
         "id": "\"Ini salahku. Aku juga ikut bersamamu.\"",
         "pt": "\"A culpa é minha. Eu também vou junto.\"",
         "my": "\"ကျွန်မကြောင့်ပါ။ ကျွန်မလည်း အတူ လိုက်မယ်။\"",
-        "th": "\"เป็นเพราะฉัน ฉันจะไปด้วยกัน\""
+        "th": "\"เป็นเพราะฉัน ฉันจะไปด้วยกัน\"",
+        "si": "\"මගේ වැරැද්ද. මාත්, එකට යනවා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2389,7 +2807,8 @@
         "id": "salah.",
         "pt": "culpa de.",
         "my": "ကြောင့်။",
-        "th": "เพราะ"
+        "th": "เพราะ",
+        "si": "「〜のせい」 = ~ නිසා (කෙනෙකුගේ වැරැද්ද)."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=176.92,180.254",
       "t": [
@@ -2458,7 +2877,8 @@
         "id": "Terkejut, Phạm Lang juga melompat ke api untuk menyelamatkan istrinya.",
         "pt": "Assustado, Phạm Lang também se jogou no fogo para salvar a esposa.",
         "my": "အံ့ဩသွားတဲ့ ဖမ်လန်လည်း မိန်းမကို ကယ်ဖို့ မီးထဲ ခုန်ဆင်းတယ်။",
-        "th": "ฝ่ามลางตกใจ จึงกระโจนเข้ากองไฟเพื่อช่วยภรรยาเช่นกัน"
+        "th": "ฝ่ามลางตกใจ จึงกระโจนเข้ากองไฟเพื่อช่วยภรรยาเช่นกัน",
+        "si": "පුදුම වුණු ෆාම් ලාංත්, බිරිඳව බේරගන්න, ගින්නට පැන්නා."
       },
       "vocab": [
         {
@@ -2475,7 +2895,8 @@
             "id": "menolong",
             "pt": "ajudar, salvar",
             "my": "ကူညီသည်၊ ကယ်တင်သည်",
-            "th": "ช่วยเหลือ"
+            "th": "ช่วยเหลือ",
+            "si": "උදව් කිරීම, බේරා ගැනීම"
           },
           "level": "N3"
         }
@@ -2491,7 +2912,8 @@
         "id": "hendak; istri.",
         "pt": "para; esposa.",
         "my": "ဖို့; မိန်းမ။",
-        "th": "เพื่อ; ภรรยา"
+        "th": "เพื่อ; ภรรยา",
+        "si": "「〜ようと」 = ~ කරන්න හදලා; 妻 = බිරිඳ."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=181.154,186.774",
       "t": [
@@ -2560,7 +2982,8 @@
         "id": "Begitulah, ketiganya kehilangan nyawa di dalam api.",
         "pt": "Assim, os três perderam a vida no fogo.",
         "my": "ဒီလိုနဲ့ သုံးယောက်လုံး မီးထဲမှာ အသက်ဆုံးရှုံးခဲ့ကြတယ်။",
-        "th": "ดังนั้น ทั้งสามคนจึงสิ้นชีวิตในกองไฟ"
+        "th": "ดังนั้น ทั้งสามคนจึงสิ้นชีวิตในกองไฟ",
+        "si": "මෙහෙම, තුන්දෙනාම, ගින්නේ, ජීවිතය නැති කරගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2574,7 +2997,8 @@
         "id": "kehilangan nyawa; begitulah.",
         "pt": "perder a vida; assim.",
         "my": "အသက်ဆုံး; ဒီလိုနဲ့။",
-        "th": "สิ้นชีวิต; ดังนั้น"
+        "th": "สิ้นชีวิต; ดังนั้น",
+        "si": "命を落とす = ජීවිතය නැති කරගන්නවා; こうして = මෙහෙම."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=187.374,192.399",
       "t": [
@@ -2647,7 +3071,8 @@
         "id": "Raja langit mendengar kisah ini dan sangat terharu.",
         "pt": "O rei do céu ouviu a história e ficou muito comovido.",
         "my": "ကောင်းကင်ဘုရင်က ဒီအကြောင်း ကြားတော့ စိတ်ထိခိုက်သွားတယ်။",
-        "th": "ราชาแห่งสวรรค์ได้ยินเรื่องนี้ก็ซาบซึ้งใจ"
+        "th": "ราชาแห่งสวรรค์ได้ยินเรื่องนี้ก็ซาบซึ้งใจ",
+        "si": "ස්වර්ගයේ රජතුමා, මේ කතාව අහලා, හිත සසල වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2661,7 +3086,8 @@
         "id": "terharu.",
         "pt": "comover-se.",
         "my": "စိတ်ထိခိုက်။",
-        "th": "ซาบซึ้งใจ"
+        "th": "ซาบซึ้งใจ",
+        "si": "心を打たれる = හිත සසල වෙනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=192.999,197.973",
       "t": [
@@ -2722,7 +3148,8 @@
         "id": "\"Ketiganya punya hati lembut yang saling menyayangi.\"",
         "pt": "\"Os três têm um coração bondoso que se preocupa com o outro.\"",
         "my": "\"သုံးယောက်လုံး တစ်ယောက်ကိုတစ်ယောက် ချစ်တဲ့ နူးညံ့တဲ့ စိတ်ရှိကြတယ်။\"",
-        "th": "\"ทั้งสามคนมีจิตใจดีงามที่ห่วงใยกัน\""
+        "th": "\"ทั้งสามคนมีจิตใจดีงามที่ห่วงใยกัน\"",
+        "si": "\"තුන්දෙනාටම, එකිනෙකා ගැන හිතන, කාරුණික හිත් තියෙනවා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2736,7 +3163,8 @@
         "id": "saling.",
         "pt": "um ao outro.",
         "my": "အချင်းချင်း။",
-        "th": "กันและกัน"
+        "th": "กันและกัน",
+        "si": "たがい = එකිනෙකා; 「〜を思う」 = ~ ගැන හිතනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=198.873,203.529",
       "t": [
@@ -2805,7 +3233,8 @@
         "id": "\"Mulai sekarang, jadilah dewa dapur dan lindungi rumah orang-orang.\"",
         "pt": "\"De agora em diante, sejam deuses da cozinha e protejam as casas.\"",
         "my": "\"ဒီကစပြီး မီးဖိုချောင်နတ်အဖြစ် လူတွေရဲ့ အိမ်ကို စောင့်ရှောက်ကြ။\"",
-        "th": "\"นับแต่นี้ จงเป็นเทพเจ้าครัว ปกป้องบ้านของผู้คน\""
+        "th": "\"นับแต่นี้ จงเป็นเทพเจ้าครัว ปกป้องบ้านของผู้คน\"",
+        "si": "\"මෙතැන් ඉඳන්, කුස්සියේ දෙවිවරු විදිහට, මිනිස්සුන්ගේ ගෙවල් රකින්න.\""
       },
       "vocab": [
         {
@@ -2822,7 +3251,8 @@
             "id": "melindungi",
             "pt": "proteger",
             "my": "ကာကွယ်သည်",
-            "th": "ปกป้อง"
+            "th": "ปกป้อง",
+            "si": "ආරක්ෂා කිරීම"
           },
           "level": "N3"
         }
@@ -2838,7 +3268,8 @@
         "id": "sebagai; perintah.",
         "pt": "sebagai; ordem.",
         "my": "အဖြစ်; အမိန့်။",
-        "th": "ในฐานะ; คำสั่ง"
+        "th": "ในฐานะ; คำสั่ง",
+        "si": "「〜として」 = ~ විදිහට; 「〜なさい」 = අණ රූපය."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=204.129,209.737",
       "t": [
@@ -2931,7 +3362,8 @@
         "id": "Begitulah dua dewa laki-laki dan satu dewi menjadi dewa dapur.",
         "pt": "Assim, dois deuses e uma deusa se tornaram os deuses da cozinha.",
         "my": "ဒီလိုနဲ့ ယောက်ျားနတ် နှစ်ပါးနဲ့ မိန်းမနတ် တစ်ပါး မီးဖိုချောင်နတ် ဖြစ်လာတယ်။",
-        "th": "ดังนั้น เทพชายสององค์กับเทพหญิงหนึ่งองค์จึงกลายเป็นเทพเจ้าครัว"
+        "th": "ดังนั้น เทพชายสององค์กับเทพหญิงหนึ่งองค์จึงกลายเป็นเทพเจ้าครัว",
+        "si": "මෙහෙම, පිරිමි දෙවිවරු දෙන්නෙකුයි, ගැහැනු දෙවඟනාවකුයි, කුස්සියේ දෙවිවරු වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2945,7 +3377,8 @@
         "id": "menjadi.",
         "pt": "tornar-se.",
         "my": "ဖြစ်လာ။",
-        "th": "กลายเป็น"
+        "th": "กลายเป็น",
+        "si": "「〜になる」 = ~ වෙනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=210.637,218.141",
       "t": [
@@ -3018,7 +3451,8 @@
         "id": "Ketiganya berada di dekat api dapur, menjaga keluarga sepanjang tahun.",
         "pt": "Os três ficam junto ao fogo da cozinha, cuidando da família o ano todo.",
         "my": "သုံးပါးက မီးဖိုချောင် မီးနားမှာ တစ်နှစ်ပတ်လုံး မိသားစုကို စောင့်ကြည့်တယ်။",
-        "th": "ทั้งสามอยู่ข้างไฟในครัว คอยดูแลครอบครัวตลอดปี"
+        "th": "ทั้งสามอยู่ข้างไฟในครัว คอยดูแลครอบครัวตลอดปี",
+        "si": "තුන්දෙනා, කුස්සියේ ගින්න ළඟ ඉඳන්, අවුරුද්ද පුරාම, පවුල බලාගන්නවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3032,7 +3466,8 @@
         "id": "sepanjang tahun; menjaga.",
         "pt": "o ano todo; cuidar.",
         "my": "တစ်နှစ်ပတ်လုံး; စောင့်ကြည့်။",
-        "th": "ตลอดปี; ดูแล"
+        "th": "ตลอดปี; ดูแล",
+        "si": "「一年じゅう」 = අවුරුද්ද පුරාම; 見守る = බලාගන්නවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=218.741,224.929",
       "t": [
@@ -3113,7 +3548,8 @@
         "id": "Dan setahun sekali, mereka naik ke langit dan menceritakan keadaan rumah itu kepada raja.",
         "pt": "E uma vez por ano sobem ao céu e contam ao rei sobre aquela casa.",
         "my": "ပြီးတော့ တစ်နှစ်တစ်ကြိမ် ကောင်းကင်တက်ပြီး အဲဒီအိမ်အကြောင်း ဘုရင်ကို ပြောပြတယ်။",
-        "th": "และปีละครั้ง จะขึ้นสวรรค์ไปเล่าเรื่องของบ้านนั้นให้ราชาฟัง"
+        "th": "และปีละครั้ง จะขึ้นสวรรค์ไปเล่าเรื่องของบ้านนั้นให้ราชาฟัง",
+        "si": "ඒ වගේම, අවුරුද්දකට එක පාරක්, ස්වර්ගයට නැගලා, ඒ ගෙදර ගැන, රජතුමාට කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3127,7 +3563,8 @@
         "id": "sekali setiap.",
         "pt": "uma vez por.",
         "my": "တစ်ကြိမ်။",
-        "th": "ครั้งหนึ่งต่อ"
+        "th": "ครั้งหนึ่งต่อ",
+        "si": "「〜に一度」 = ~ කට එක පාරක්; のぼる = උඩට නගිනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=225.529,232.878",
       "t": [
@@ -3180,7 +3617,8 @@
         "id": "Karena itu, orang menyiapkan banyak hidangan pada hari ini.",
         "pt": "Por isso, as pessoas preparam muita comida neste dia.",
         "my": "ဒါကြောင့် လူတွေက ဒီနေ့မှာ ဟင်းလျာ အများကြီး ပြင်ဆင်ကြတယ်။",
-        "th": "เพราะฉะนั้น ผู้คนจึงเตรียมอาหารมากมายในวันนี้"
+        "th": "เพราะฉะนั้น ผู้คนจึงเตรียมอาหารมากมายในวันนี้",
+        "si": "ඒ නිසා, මිනිස්සු, මේ දවසට, රසවත් කෑම ගොඩක් ලෑස්ති කරනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3194,7 +3632,8 @@
         "id": "hidangan; menyiapkan.",
         "pt": "banquete; preparar.",
         "my": "ဟင်းလျာ; ပြင်ဆင်။",
-        "th": "อาหารอย่างดี; เตรียม"
+        "th": "อาหารอย่างดี; เตรียม",
+        "si": "ごちそう = රසවත් කෑම; 用意する = ලෑස්ති කරනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=233.478,238.705",
       "t": [
@@ -3235,7 +3674,8 @@
         "id": "Karena mereka ingin dewa menceritakan hal-hal baik.",
         "pt": "Porque querem que os deuses contem coisas boas.",
         "my": "နတ်က ကောင်းတဲ့အကြောင်းတွေ ပြောပေးစေချင်လို့ ဖြစ်တယ်။",
-        "th": "เพราะอยากให้เทพเล่าแต่เรื่องดี ๆ"
+        "th": "เพราะอยากให้เทพเล่าแต่เรื่องดี ๆ",
+        "si": "දෙවිවරුන් ලවා, හොඳ දේවල් කියවගන්න ඕනේ නිසා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3249,7 +3689,8 @@
         "id": "ingin dibantu.",
         "pt": "querer que alguém faça.",
         "my": "...ပေးစေချင်။",
-        "th": "อยากให้...ให้"
+        "th": "อยากให้...ให้",
+        "si": "「〜てもらいたい」 = කෙනෙක් ලවා ~ කරවගන්න ඕනේ."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=239.305,242.936",
       "t": [
@@ -3310,7 +3751,8 @@
         "id": "Lalu mereka melepas ikan mas yang akan ditunggangi dewa ke sungai.",
         "pt": "E soltam no rio a carpa em que o deus vai montar.",
         "my": "ပြီးတော့ နတ်စီးသွားမယ့် ငါးကြင်းကို မြစ်ထဲ လွှတ်ပေးကြတယ်။",
-        "th": "แล้วก็ปล่อยปลาคาร์พที่เทพจะขี่ลงแม่น้ำ"
+        "th": "แล้วก็ปล่อยปลาคาร์พที่เทพจะขี่ลงแม่น้ำ",
+        "si": "ඒ වගේම, දෙවියෝ නැගලා යන කාප් මාළුවා, ගඟට නිදහස් කරනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3324,7 +3766,8 @@
         "id": "melakukan untuk.",
         "pt": "fazer por.",
         "my": "...ပေး။",
-        "th": "...ให้"
+        "th": "...ให้",
+        "si": "「〜てあげる」 = කෙනෙකුට ~ කරලා දෙනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=243.536,248.867",
       "t": [
@@ -3385,7 +3828,8 @@
         "id": "Nah, tahukah kamu dapur Jepang juga punya dewa?",
         "pt": "Aliás, sabia que as cozinhas japonesas também têm um deus?",
         "my": "ဒါနဲ့ ဂျပန်မီးဖိုချောင်မှာလည်း နတ်ရှိတာ သိလား။",
-        "th": "ว่าแต่ รู้ไหมว่าครัวของญี่ปุ่นก็มีเทพเจ้าเหมือนกัน"
+        "th": "ว่าแต่ รู้ไหมว่าครัวของญี่ปุ่นก็มีเทพเจ้าเหมือนกัน",
+        "si": "හරි, ජපානයේ කුස්සියෙත්, දෙවි කෙනෙක් ඉන්නවා කියලා, දන්නවද?"
       },
       "vocab": [],
       "grammarNote": {
@@ -3399,7 +3843,8 @@
         "id": "nah.",
         "pt": "aliás.",
         "my": "ဒါနဲ့။",
-        "th": "ว่าแต่"
+        "th": "ว่าแต่",
+        "si": "さて = හරි (මාතෘකාව මාරු කරනවා); 「〜のを知っていますか」 = ~ කියලා දන්නවද?"
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=249.467,254.91",
       "t": [
@@ -3460,7 +3905,8 @@
         "id": "Rumah Jepang zaman dulu memuja dewa api bernama \"Kōjin-sama\" di samping tungku.",
         "pt": "As casas japonesas antigas veneravam, junto ao fogão, um deus do fogo chamado \"Kōjin-sama\".",
         "my": "ရှေးဂျပန်အိမ်တွေမှာ မီးဖိုနားမှာ \"ကိုးဂျင်ဆာမ\" ဆိုတဲ့ မီးနတ်ကို ကိုးကွယ်ကြတယ်။",
-        "th": "บ้านญี่ปุ่นสมัยก่อนบูชาเทพแห่งไฟชื่อ \"โคจินซามะ\" ไว้ข้างเตา"
+        "th": "บ้านญี่ปุ่นสมัยก่อนบูชาเทพแห่งไฟชื่อ \"โคจินซามะ\" ไว้ข้างเตา",
+        "si": "ඉස්සර ගෙවල්වල, ලිප ළඟ, \"කෝජින්-සමා\" කියන ගිනි දෙවියෙක්ව, පුදලා තිබුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3474,7 +3920,8 @@
         "id": "tungku; memuja.",
         "pt": "fogão; venerar.",
         "my": "မီးဖို; ကိုးကွယ်။",
-        "th": "เตา; บูชา"
+        "th": "เตา; บูชา",
+        "si": "かまど = උයන ලිප; まつる = පුදනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=255.51,262.559",
       "t": [
@@ -3531,7 +3978,8 @@
         "id": "Untuk menjaga api dan agar keluarga dilindungi.",
         "pt": "Para cuidar bem do fogo e ter a família protegida.",
         "my": "မီးကို တန်ဖိုးထားပြီး မိသားစုကို စောင့်ရှောက်ပေးဖို့ ဖြစ်တယ်။",
-        "th": "เพื่อรักษาไฟ และให้เทพปกป้องครอบครัว"
+        "th": "เพื่อรักษาไฟ และให้เทพปกป้องครอบครัว",
+        "si": "ගින්නට ගරු කරලා, පවුල රැකගන්න."
       },
       "vocab": [],
       "grammarNote": {
@@ -3545,7 +3993,8 @@
         "id": "menghargai.",
         "pt": "valorizar.",
         "my": "တန်ဖိုးထား။",
-        "th": "ให้ความสำคัญ"
+        "th": "ให้ความสำคัญ",
+        "si": "大切にする = ගරු කරනවා, වටිනාකම දෙනවා; 「〜てもらうため」 = ~ කරවගන්න."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=263.159,267.317",
       "t": [
@@ -3606,7 +4055,8 @@
         "id": "Di Jepang, ikan mas juga dianggap ikan yang kuat.",
         "pt": "No Japão, a carpa também é vista como um peixe forte.",
         "my": "ဂျပန်မှာလည်း ငါးကြင်းကို သန်မာတဲ့ ငါးလို့ ယူဆကြတယ်။",
-        "th": "ในญี่ปุ่น ปลาคาร์พก็ถือว่าเป็นปลาที่แข็งแรง"
+        "th": "ในญี่ปุ่น ปลาคาร์พก็ถือว่าเป็นปลาที่แข็งแรง",
+        "si": "ඒ වගේම, ජපානයේ, කාප් මාළුවා, ශක්තිමත් මාළුවෙක් කියලා හිතනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3620,7 +4070,8 @@
         "id": "dianggap.",
         "pt": "é considerado.",
         "my": "ယူဆကြ။",
-        "th": "ถือว่า"
+        "th": "ถือว่า",
+        "si": "「〜と考えられている」 = ~ කියලා හිතනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=267.917,273.231",
       "t": [
@@ -3681,7 +4132,8 @@
         "id": "Karena ada kisah Tiongkok bahwa ikan mas yang mendaki air terjun menjadi naga.",
         "pt": "Porque há uma história chinesa de que a carpa que sobe a cachoeira vira dragão.",
         "my": "ရေတံခွန်ကို တက်တဲ့ ငါးကြင်းက နဂါး ဖြစ်တယ်ဆိုတဲ့ တရုတ်ပုံပြင် ရှိလို့ ဖြစ်တယ်။",
-        "th": "เพราะมีเรื่องเล่าจีนว่าปลาคาร์พที่ว่ายขึ้นน้ำตกจะกลายเป็นมังกร"
+        "th": "เพราะมีเรื่องเล่าจีนว่าปลาคาร์พที่ว่ายขึ้นน้ำตกจะกลายเป็นมังกร",
+        "si": "කාප් මාළුවෙක් දියඇල්ලක් උඩට නැග්ගොත්, මකරෙක් වෙනවා කියලා, චීන කතාවක් තියෙන නිසා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3695,7 +4147,8 @@
         "id": "air terjun; naga.",
         "pt": "cachoeira; dragão.",
         "my": "ရေတံခွန်; နဂါး။",
-        "th": "น้ำตก; มังกร"
+        "th": "น้ำตก; มังกร",
+        "si": "「〜と、〜になる」 = ~ කළොත්, ~ වෙනවා; 滝 = දියඇල්ල; 竜 = මකරා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=273.831,279.441",
       "t": [
@@ -3736,7 +4189,8 @@
         "id": "Itulah juga alasan bendera ikan mas dikibarkan pada Hari Anak bulan Mei.",
         "pt": "Por isso também se penduram bandeiras de carpa no Dia das Crianças, em maio.",
         "my": "မေလ \"ကလေးနေ့\"မှာ ငါးကြင်းအလံ ချိတ်တာလည်း ဒါကြောင့် ဖြစ်တယ်။",
-        "th": "การแขวนธงปลาคาร์พในวันเด็กเดือนพฤษภาคมก็เพราะเหตุนี้"
+        "th": "การแขวนธงปลาคาร์พในวันเด็กเดือนพฤษภาคมก็เพราะเหตุนี้",
+        "si": "මැයි මාසේ \"ළමා දිනයට\", කොයිනොබොරි (කාප් කොඩි) එල්ලන්නෙත්, ඒ නිසා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3750,7 +4204,8 @@
         "id": "bendera ikan.",
         "pt": "bandeira de carpa.",
         "my": "ငါးကြင်းအလံ။",
-        "th": "ธงปลาคาร์พ"
+        "th": "ธงปลาคาร์พ",
+        "si": "こいのぼり = කාප් කොඩිය; 「〜のも、そのためです」 = ~ කරන්නෙත් ඒ නිසා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=280.041,285.027",
       "t": [
@@ -3803,7 +4258,8 @@
         "id": "Ikan mas Vietnam membawa dewa ke langit.",
         "pt": "A carpa do Vietnã leva o deus ao céu.",
         "my": "ဗီယက်နမ် ငါးကြင်းက နတ်ကို ကောင်းကင်ကို သယ်ဆောင်တယ်။",
-        "th": "ปลาคาร์พเวียดนามพาเทพขึ้นสวรรค์"
+        "th": "ปลาคาร์พเวียดนามพาเทพขึ้นสวรรค์",
+        "si": "වියට්නාමයේ කාප් මාළුවා, දෙවියන්ව, අහසට ගෙනියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3817,7 +4273,8 @@
         "id": "membawa.",
         "pt": "levar.",
         "my": "သယ်ဆောင်။",
-        "th": "พา, ขน"
+        "th": "พา, ขน",
+        "si": "運ぶ = ගෙනියනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=285.627,289.64",
       "t": [
@@ -3882,7 +4339,8 @@
         "id": "Ikan mas Jepang berenang di langit, mendoakan anak-anak tumbuh sehat.",
         "pt": "A carpa do Japão nada no céu, desejando que as crianças cresçam bem.",
         "my": "ဂျပန် ငါးကြင်းက ကောင်းကင်မှာ ကူးပြီး ကလေးတွေ ကြီးထွားဖို့ ဆုတောင်းတယ်။",
-        "th": "ปลาคาร์พญี่ปุ่นว่ายในท้องฟ้า อวยพรให้เด็ก ๆ เติบโต"
+        "th": "ปลาคาร์พญี่ปุ่นว่ายในท้องฟ้า อวยพรให้เด็ก ๆ เติบโต",
+        "si": "ජපානයේ කාප් මාළුවා, අහසේ පීනමින්, ළමයින්ගේ වර්ධනය ප්‍රාර්ථනා කරනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3896,7 +4354,8 @@
         "id": "pertumbuhan; mendoakan.",
         "pt": "crescimento; desejar.",
         "my": "ကြီးထွား; ဆုတောင်း။",
-        "th": "เติบโต; อวยพร"
+        "th": "เติบโต; อวยพร",
+        "si": "成長 = වර්ධනය; 願う = ප්‍රාර්ථනා කරනවා."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=290.24,295.225",
       "t": [
@@ -3957,7 +4416,8 @@
         "id": "Di kedua tempat, ikan mas adalah ikan istimewa penghubung langit dan manusia.",
         "pt": "Nos dois lugares, a carpa é um peixe especial que liga o céu e as pessoas.",
         "my": "နှစ်နေရာလုံးမှာ ငါးကြင်းက ကောင်းကင်နဲ့ လူကို ဆက်သွယ်ပေးတဲ့ ထူးခြားတဲ့ ငါးပဲနော်။",
-        "th": "ทั้งสองที่ ปลาคาร์พคือปลาพิเศษที่เชื่อมฟ้ากับคน"
+        "th": "ทั้งสองที่ ปลาคาร์พคือปลาพิเศษที่เชื่อมฟ้ากับคน",
+        "si": "දෙතැනම, කාප් මාළුවා, අහසයි මිනිස්සුයි එකතු කරන, විශේෂ මාළුවෙක් නේද."
       },
       "vocab": [],
       "grammarNote": {
@@ -3971,7 +4431,8 @@
         "id": "menghubungkan.",
         "pt": "ligar.",
         "my": "ဆက်သွယ်။",
-        "th": "เชื่อม"
+        "th": "เชื่อม",
+        "si": "「AとBとをつなぐ」 = A යි B යි එකතු කරනවා; 「〜のですね」 = නේද."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=295.825,302.14",
       "t": [
@@ -4048,7 +4509,8 @@
         "id": "Jika kamu ke Vietnam sebelum Tết, mungkin bisa melihat orang melepas ikan mas di sungai.",
         "pt": "Se for ao Vietnã antes do Tết, talvez veja pessoas soltando carpas nos rios.",
         "my": "တက်မတိုင်ခင် ဗီယက်နမ်ကို သွားရင် မြစ်ထဲ ငါးကြင်းလွှတ်တဲ့ လူတွေကို မြင်ရနိုင်တယ်။",
-        "th": "ถ้าไปเวียดนามก่อนเต๊ด อาจได้เห็นผู้คนปล่อยปลาคาร์พลงแม่น้ำ"
+        "th": "ถ้าไปเวียดนามก่อนเต๊ด อาจได้เห็นผู้คนปล่อยปลาคาร์พลงแม่น้ำ",
+        "si": "ටෙට් එකට කලින් වියට්නාමයට ගියොත්, ගඟට කාප් මාළුවන්ව නිදහස් කරන අයව, දකින්න පුළුවන් වෙයි."
       },
       "vocab": [
         {
@@ -4065,7 +4527,8 @@
             "id": "melepaskan",
             "pt": "soltar",
             "my": "လွှတ်သည်",
-            "th": "ปล่อย"
+            "th": "ปล่อย",
+            "si": "නිදහස් කරනවා"
           },
           "level": "N3"
         }
@@ -4081,7 +4544,8 @@
         "id": "mungkin.",
         "pt": "talvez.",
         "my": "...နိုင်တယ်။",
-        "th": "อาจจะ"
+        "th": "อาจจะ",
+        "si": "「〜かもしれません」 = ~ වෙන්න පුළුවන්; 見られる = දකින්න පුළුවන්."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=302.74,310.08",
       "t": [
@@ -4146,7 +4610,8 @@
         "id": "Mari minta tiga dewa dapur juga menceritakan hal baik tentang rumahmu.",
         "pt": "Vamos pedir aos três deuses da cozinha que falem bem da sua casa também.",
         "my": "မီးဖိုချောင်နတ် သုံးပါးကို သင့်အိမ်အကြောင်းလည်း ကောင်းကောင်း ပြောပေးဖို့ တောင်းဆိုကြရအောင်။",
-        "th": "ขอให้เทพเจ้าครัวทั้งสามช่วยเล่าเรื่องดี ๆ ของบ้านคุณด้วยนะ"
+        "th": "ขอให้เทพเจ้าครัวทั้งสามช่วยเล่าเรื่องดี ๆ ของบ้านคุณด้วยนะ",
+        "si": "කුස්සියේ දෙවිවරු තුන්දෙනාට, ඔයාගේ ගෙදර ගැනත්, හොඳට කියන්න කියමු."
       },
       "vocab": [],
       "grammarNote": {
@@ -4160,7 +4625,8 @@
         "id": "mari minta.",
         "pt": "vamos pedir.",
         "my": "...ပေးဖို့ တောင်းဆိုရအောင်။",
-        "th": "ขอให้...กัน"
+        "th": "ขอให้...กัน",
+        "si": "「〜てもらいましょう」 = කෙනෙක් ලවා අපිට ~ කරවගනිමු."
       },
       "audio": "/audio/furusato-vn-taoquan-1/chapter.mp3#t=310.68,316.934",
       "t": [

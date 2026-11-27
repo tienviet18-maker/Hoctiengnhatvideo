@@ -12,7 +12,8 @@
     "id": "Legenda Bánh Chưng dan Bánh Giầy",
     "pt": "A lenda do bánh chưng e do bánh giầy",
     "my": "ဘန်ချုန်နဲ့ ဘန်ဇိုင် ဒဏ္ဍာရီ",
-    "th": "ตำนานบั๋นจึงและบั๋นซาย"
+    "th": "ตำนานบั๋นจึงและบั๋นซาย",
+    "si": "බාන් චුං සහ බාන් යෙයි ජනප්‍රවාදය"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -42,7 +43,8 @@
           "id": "Memutuskan untuk ~.",
           "pt": "Decidir ~.",
           "my": "~ဖို့ ဆုံးဖြတ်။",
-          "th": "ตัดสินใจ~"
+          "th": "ตัดสินใจ~",
+          "si": "~ කරන්න තීරණය කරනවා (තමන්ගේම තේරීම)."
         }
       },
       {
@@ -59,8 +61,23 @@
           "id": "Pergi untuk ~.",
           "pt": "Sair para ~.",
           "my": "~ဖို့ ထွက်။",
-          "th": "ออกไป~"
-        }
+          "th": "ออกไป~",
+          "si": "~ කරන්න පිටත් වෙනවා (අරමුණ)."
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜に",
+            "reading": ""
+          },
+          {
+            "surface": "出",
+            "reading": "で"
+          },
+          {
+            "surface": "かける",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜を使って",
@@ -76,8 +93,23 @@
           "id": "Menggunakan ~.",
           "pt": "Usando ~.",
           "my": "~ကို သုံးပြီး။",
-          "th": "ใช้~"
-        }
+          "th": "ใช้~",
+          "si": "~ පාවිච්චි කරලා (උපකරණය හෝ ද්‍රව්‍යය)."
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜を",
+            "reading": ""
+          },
+          {
+            "surface": "使",
+            "reading": "つか"
+          },
+          {
+            "surface": "って",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜ながら",
@@ -93,7 +125,8 @@
           "id": "Sambil ~.",
           "pt": "Enquanto ~.",
           "my": "~ရင်း။",
-          "th": "~ไปพลาง"
+          "th": "~ไปพลาง",
+          "si": "~ කරමින්."
         }
       }
     ],
@@ -118,8 +151,137 @@
           "id": "Yang membawa makanan terbaik.",
           "pt": "Quem trouxer a melhor comida.",
           "my": "အကောင်းဆုံး အစားအစာ ယူလာသူ။",
-          "th": "ผู้นำอาหารที่ดีที่สุดมา"
-        }
+          "th": "ผู้นำอาหารที่ดีที่สุดมา",
+          "si": "හොඳම කෑම ගෙනාපු කෙනාට."
+        },
+        "jaFurigana": [
+          {
+            "surface": "フン",
+            "reading": ""
+          },
+          {
+            "surface": "王",
+            "reading": "おう"
+          },
+          {
+            "surface": "は、どんな",
+            "reading": ""
+          },
+          {
+            "surface": "王子",
+            "reading": "おうじ"
+          },
+          {
+            "surface": "に、",
+            "reading": ""
+          },
+          {
+            "surface": "国",
+            "reading": "くに"
+          },
+          {
+            "surface": "をゆずると",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "った？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "いちばんすばらしい",
+              "reading": ""
+            },
+            {
+              "surface": "食",
+              "reading": "た"
+            },
+            {
+              "surface": "べ",
+              "reading": ""
+            },
+            {
+              "surface": "物",
+              "reading": "もの"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "持",
+              "reading": "も"
+            },
+            {
+              "surface": "ってきた",
+              "reading": ""
+            },
+            {
+              "surface": "王子",
+              "reading": "おうじ"
+            }
+          ],
+          [
+            {
+              "surface": "いちばん",
+              "reading": ""
+            },
+            {
+              "surface": "強",
+              "reading": "つよ"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "王子",
+              "reading": "おうじ"
+            }
+          ],
+          [
+            {
+              "surface": "いちばん",
+              "reading": ""
+            },
+            {
+              "surface": "年上",
+              "reading": "としうえ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "王子",
+              "reading": "おうじ"
+            }
+          ],
+          [
+            {
+              "surface": "いちばんお",
+              "reading": ""
+            },
+            {
+              "surface": "金持",
+              "reading": "かねも"
+            },
+            {
+              "surface": "ちの",
+              "reading": ""
+            },
+            {
+              "surface": "王子",
+              "reading": "おうじ"
+            }
+          ]
+        ]
       },
       {
         "ja": "ゆめの中で、神さまは、いちばん大切なものは何だと言った？",
@@ -141,8 +303,81 @@
           "id": "Kata dewa: beras.",
           "pt": "O deus disse: arroz.",
           "my": "နတ်က ဆန်လို့ ပြောတယ်။",
-          "th": "เทพว่าคือข้าว"
-        }
+          "th": "เทพว่าคือข้าว",
+          "si": "දෙවියා කිව්වේ සහල් කියලා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "ゆめの",
+            "reading": ""
+          },
+          {
+            "surface": "中",
+            "reading": "なか"
+          },
+          {
+            "surface": "で、",
+            "reading": ""
+          },
+          {
+            "surface": "神",
+            "reading": "かみ"
+          },
+          {
+            "surface": "さまは、いちばん",
+            "reading": ""
+          },
+          {
+            "surface": "大切",
+            "reading": "たいせつ"
+          },
+          {
+            "surface": "なものは",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "だと",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "った？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "米",
+              "reading": "こめ"
+            }
+          ],
+          [
+            {
+              "surface": "金",
+              "reading": "かね"
+            }
+          ],
+          [
+            {
+              "surface": "肉",
+              "reading": "にく"
+            }
+          ],
+          [
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            }
+          ]
+        ]
       },
       {
         "ja": "四角いバインチュンは、何のしるし？",
@@ -164,8 +399,53 @@
           "id": "Persegi melambangkan bumi.",
           "pt": "O quadrado simboliza a terra.",
           "my": "လေးထောင့်က မြေ။",
-          "th": "สี่เหลี่ยมคือแผ่นดิน"
-        }
+          "th": "สี่เหลี่ยมคือแผ่นดิน",
+          "si": "හතරැස් බාන් චුං පොළොවේ සංකේතය."
+        },
+        "jaFurigana": [
+          {
+            "surface": "四角",
+            "reading": "しかく"
+          },
+          {
+            "surface": "いバインチュンは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "のしるし？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "大地",
+              "reading": "だいち"
+            }
+          ],
+          [
+            {
+              "surface": "空",
+              "reading": "そら"
+            }
+          ],
+          [
+            {
+              "surface": "月",
+              "reading": "つき"
+            }
+          ],
+          [
+            {
+              "surface": "海",
+              "reading": "うみ"
+            }
+          ]
+        ]
       },
       {
         "ja": "日本のお正月に、米で作って、神さまにささげるものは？",
@@ -187,8 +467,81 @@
           "id": "Di Jepang kagami-mochi.",
           "pt": "No Japão, o kagami-mochi.",
           "my": "ဂျပန်မှာ ကာဂါမိမိုချီ။",
-          "th": "ที่ญี่ปุ่นคือคางามิโมจิ"
-        }
+          "th": "ที่ญี่ปุ่นคือคางามิโมจิ",
+          "si": "ජපානයේ, කගමි-මොචි."
+        },
+        "jaFurigana": [
+          {
+            "surface": "日本",
+            "reading": "にほん"
+          },
+          {
+            "surface": "のお",
+            "reading": ""
+          },
+          {
+            "surface": "正月",
+            "reading": "しょうがつ"
+          },
+          {
+            "surface": "に、",
+            "reading": ""
+          },
+          {
+            "surface": "米",
+            "reading": "こめ"
+          },
+          {
+            "surface": "で",
+            "reading": ""
+          },
+          {
+            "surface": "作",
+            "reading": "つく"
+          },
+          {
+            "surface": "って、",
+            "reading": ""
+          },
+          {
+            "surface": "神",
+            "reading": "かみ"
+          },
+          {
+            "surface": "さまにささげるものは？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "鏡",
+              "reading": "かがみ"
+            },
+            {
+              "surface": "もち",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "すし",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "おにぎり",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "だんご",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },
@@ -221,7 +574,8 @@
         "id": "Tahun Baru Vietnam disebut Tết.",
         "pt": "O Ano-Novo vietnamita se chama Tết.",
         "my": "ဗီယက်နမ် နှစ်သစ်ကို တက် လို့ ခေါ်တယ်။",
-        "th": "ปีใหม่เวียดนามเรียกว่าเต๊ด"
+        "th": "ปีใหม่เวียดนามเรียกว่าเต๊ด",
+        "si": "වියට්නාමයේ අලුත් අවුරුද්දට, ටෙට් කියලා කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -235,7 +589,8 @@
         "id": "disebut.",
         "pt": "chamar-se.",
         "my": "လို့ ခေါ်။",
-        "th": "เรียกว่า"
+        "th": "เรียกว่า",
+        "si": "「〜とよばれる」 = ~ කියලා කියනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=0.3,3.622",
       "t": [
@@ -304,7 +659,8 @@
         "id": "Saat Tết, setiap rumah membuat makanan istimewa.",
         "pt": "No Tết, toda casa faz uma comida especial.",
         "my": "တက်ပွဲမှာ အိမ်တိုင်း အထူး အစားအစာ လုပ်ကြတယ်။",
-        "th": "ช่วงเต๊ด ทุกบ้านทำอาหารพิเศษ"
+        "th": "ช่วงเต๊ด ทุกบ้านทำอาหารพิเศษ",
+        "si": "ටෙට් කාලෙට, හැම ගෙදරකම, විශේෂ කෑමක් හදනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -318,7 +674,8 @@
         "id": "setiap.",
         "pt": "toda.",
         "my": "တိုင်း။",
-        "th": "ทุก"
+        "th": "ทุก",
+        "si": "「どの〜でも」 = හැම ~ කම."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=4.222,9.424",
       "t": [
@@ -355,7 +712,8 @@
         "id": "Itulah bánh chưng, kue dari beras ketan.",
         "pt": "É o bánh chưng, um bolo de arroz glutinoso.",
         "my": "ကောက်ညှင်းနဲ့ လုပ်တဲ့ ဘန်ချုန် မုန့်ပါ။",
-        "th": "คือบั๋นจึง ขนมข้าวเหนียว"
+        "th": "คือบั๋นจึง ขนมข้าวเหนียว",
+        "si": "බාන් චුං කියලා, ඇලෙන සහල්වලින් හදන කැවිල්ලක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -369,7 +727,8 @@
         "id": "beras ketan.",
         "pt": "arroz glutinoso.",
         "my": "ကောက်ညှင်း။",
-        "th": "ข้าวเหนียว"
+        "th": "ข้าวเหนียว",
+        "si": "もち米 = ඇලෙන සහල්."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=10.024,13.083",
       "t": [
@@ -418,7 +777,8 @@
         "id": "Hari ini kisah asal-usul bánh chưng.",
         "pt": "Hoje, como nasceu o bánh chưng.",
         "my": "ဒီနေ့ ဘန်ချုန် ဘယ်လို ပေါ်လာလဲ ဆိုတဲ့ ပုံပြင်။",
-        "th": "วันนี้เป็นเรื่องที่มาของบั๋นจึง"
+        "th": "วันนี้เป็นเรื่องที่มาของบั๋นจึง",
+        "si": "අද, මේ බාන් චුං, කොහොමද ඉපදුණේ කියන කතාව."
       },
       "vocab": [],
       "grammarNote": {
@@ -432,7 +792,8 @@
         "id": "bagaimana.",
         "pt": "como.",
         "my": "ဘယ်လို။",
-        "th": "อย่างไร"
+        "th": "อย่างไร",
+        "si": "「どうして」 = ඇයි, කොහොමද."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=13.683,18.246",
       "t": [
@@ -477,7 +838,8 @@
         "id": "Dahulu, Vietnam punya raja bernama Raja Hùng.",
         "pt": "Antigamente, o Vietnã tinha o rei Hùng.",
         "my": "ရှေးက ဗီယက်နမ်မှာ ဟုန်း ဘုရင် ရှိတယ်။",
-        "th": "กาลก่อน เวียดนามมีกษัตริย์ชื่อหุ่งเวือง"
+        "th": "กาลก่อน เวียดนามมีกษัตริย์ชื่อหุ่งเวือง",
+        "si": "ඉස්සර, වියට්නාමයේ, හුං රජු කියලා රජ කෙනෙක් හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -491,7 +853,8 @@
         "id": "bernama.",
         "pt": "chamado.",
         "my": "ဆိုတဲ့။",
-        "th": "ชื่อ"
+        "th": "ชื่อ",
+        "si": "「〜という」 = ~ කියලා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=18.846,23.492",
       "t": [
@@ -544,7 +907,8 @@
         "id": "Raja Hùng punya dua puluh putra.",
         "pt": "O rei Hùng tinha vinte filhos.",
         "my": "ဟုန်း ဘုရင်မှာ မင်းသား နှစ်ဆယ်တောင် ရှိတယ်။",
-        "th": "หุ่งเวืองมีโอรสถึงยี่สิบองค์"
+        "th": "หุ่งเวืองมีโอรสถึงยี่สิบองค์",
+        "si": "හුං රජුට, කුමාරවරු විසිදෙනෙක්ම හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -558,7 +922,8 @@
         "id": "sampai.",
         "pt": "até.",
         "my": "တောင်။",
-        "th": "ถึง"
+        "th": "ถึง",
+        "si": "「〜もの」 = ~ ක්ම (ගණනක් අවධාරණය)."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=24.092,27.682",
       "t": [
@@ -615,7 +980,8 @@
         "id": "Raja menua dan memutuskan memilih penerus.",
         "pt": "Já velho, o rei decidiu escolher o sucessor.",
         "my": "ဘုရင် အိုလာလို့ နောက် ဘုရင် ရွေးဖို့ ဆုံးဖြတ်တယ်။",
-        "th": "เมื่อชราลง กษัตริย์ตัดสินใจเลือกผู้สืบทอด"
+        "th": "เมื่อชราลง กษัตริย์ตัดสินใจเลือกผู้สืบทอด",
+        "si": "රජතුමා, වයසට ගිහින්, ඊළඟ රජු තෝරන්න තීරණය කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -629,7 +995,8 @@
         "id": "memutuskan.",
         "pt": "decidir.",
         "my": "ဆုံးဖြတ်။",
-        "th": "ตัดสินใจ"
+        "th": "ตัดสินใจ",
+        "si": "「〜ことにする」 = ~ කරන්න තීරණය කරනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=28.282,33.184",
       "t": [
@@ -674,7 +1041,8 @@
         "id": "\"Semuanya, dengarkan baik-baik.\"",
         "pt": "\"Todos, ouçam bem.\"",
         "my": "\"အားလုံး သေချာ နားထောင်။\"",
-        "th": "\"ทุกคน ฟังให้ดี\""
+        "th": "\"ทุกคน ฟังให้ดี\"",
+        "si": "\"හැමෝම, හොඳට අහගන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -688,7 +1056,8 @@
         "id": "semuanya.",
         "pt": "todos.",
         "my": "အားလုံး။",
-        "th": "ทุกคน"
+        "th": "ทุกคน",
+        "si": "「みなの者」 = හැමෝම (පරණ විලාසය)."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=34.084,36.46",
       "t": [
@@ -765,7 +1134,8 @@
         "id": "\"Saat Tahun Baru, siapa membawa makanan terbaik akan kuwarisi kerajaan.\"",
         "pt": "\"No Ano-Novo, darei o reino a quem trouxer a melhor comida.\"",
         "my": "\"နှစ်သစ်မှာ အကောင်းဆုံး အစားအစာ ယူလာသူကို တိုင်းပြည် လွှဲပေးမယ်။\"",
-        "th": "\"วันปีใหม่ ใครนำอาหารที่ดีที่สุดมา จะยกบ้านเมืองให้\""
+        "th": "\"วันปีใหม่ ใครนำอาหารที่ดีที่สุดมา จะยกบ้านเมืองให้\"",
+        "si": "\"අලුත් අවුරුද්දට, හොඳම කෑම ගෙනාපු කෙනාට, රාජ්‍යය භාර දෙනවා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -779,7 +1149,8 @@
         "id": "mewariskan.",
         "pt": "passar.",
         "my": "လွှဲ။",
-        "th": "ยกให้"
+        "th": "ยกให้",
+        "si": "「ゆずる」 = භාර දෙනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=37.06,42.738",
       "t": [
@@ -836,7 +1207,8 @@
         "id": "Para pangeran segera pergi mencari makanan.",
         "pt": "Os príncipes partiram logo em busca de comida.",
         "my": "မင်းသားတွေ ချက်ချင်း အစားအစာ ရှာထွက်တယ်။",
-        "th": "เหล่าโอรสออกไปหาอาหารทันที"
+        "th": "เหล่าโอรสออกไปหาอาหารทันที",
+        "si": "කුමාරවරු, වහාම, කෑම හොයන්න පිටත් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -850,7 +1222,8 @@
         "id": "pergi mencari.",
         "pt": "sair para.",
         "my": "ရှာထွက်။",
-        "th": "ออกไป"
+        "th": "ออกไป",
+        "si": "「〜に出かける」 = ~ කරන්න පිටත් වෙනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=43.638,47.917",
       "t": [
@@ -927,7 +1300,8 @@
         "id": "Ada yang ke gunung membawa burung langka dan daging buruan.",
         "pt": "Um foi à montanha e trouxe aves raras e carne de caça.",
         "my": "တချို့ မင်းသားက တောင်ပေါ်သွားပြီး ရှားပါး ငှက်နဲ့ တောကောင်သား ယူလာတယ်။",
-        "th": "บางองค์ขึ้นเขา นำนกหายากและเนื้อสัตว์ป่ามา"
+        "th": "บางองค์ขึ้นเขา นำนกหายากและเนื้อสัตว์ป่ามา",
+        "si": "එක කුමාරයෙක්, කන්දට ගිහින්, දුර්ලභ කුරුල්ලොයි, වන සතුන්ගේ මස් ගෙනාවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -941,7 +1315,8 @@
         "id": "ada yang.",
         "pt": "um.",
         "my": "တချို့။",
-        "th": "บาง"
+        "th": "บาง",
+        "si": "「ある〜は」 = එක ~."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=48.517,54.585",
       "t": [
@@ -1018,7 +1393,8 @@
         "id": "Ada yang ke laut membawa ikan besar dan udang.",
         "pt": "Outro foi ao mar e trouxe peixes e camarões.",
         "my": "တချို့က ပင်လယ်သွားပြီး ငါးကြီးနဲ့ ပုဇွန် ယူလာတယ်။",
-        "th": "บางองค์ไปทะเล นำปลาใหญ่และกุ้งมา"
+        "th": "บางองค์ไปทะเล นำปลาใหญ่และกุ้งมา",
+        "si": "තව කුමාරයෙක්, මුහුදට ගිහින්, ලොකු මාළුයි, ඉස්සොයි ගෙනාවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1032,7 +1408,8 @@
         "id": "udang.",
         "pt": "camarão.",
         "my": "ပုဇွန်။",
-        "th": "กุ้ง"
+        "th": "กุ้ง",
+        "si": "えび = ඉස්සා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=55.185,60.528",
       "t": [
@@ -1085,7 +1462,8 @@
         "id": "Semuanya makanan mahal dan langka.",
         "pt": "Tudo comida cara e rara.",
         "my": "အားလုံး ဈေးကြီးပြီး ရှားပါးတဲ့ အစားအစာချည်း။",
-        "th": "ล้วนแต่อาหารแพงและหายาก"
+        "th": "ล้วนแต่อาหารแพงและหายาก",
+        "si": "හැම එකක්ම, මිල අධික, දුර්ලභ කෑම."
       },
       "vocab": [],
       "grammarNote": {
@@ -1099,7 +1477,8 @@
         "id": "semuanya.",
         "pt": "tudo.",
         "my": "ချည်း။",
-        "th": "ล้วน"
+        "th": "ล้วน",
+        "si": "「〜ばかり」 = ~ විතරයි, හැම එකක්ම ~."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=61.128,65.332",
       "t": [
@@ -1136,7 +1515,8 @@
         "id": "\"Dengan ini Ayahanda pasti senang!\"",
         "pt": "\"Com isso, o pai vai adorar!\"",
         "my": "\"ဒါဆို ခမည်းတော် သေချာပေါက် ဝမ်းသာမှာ။\"",
-        "th": "\"อย่างนี้เสด็จพ่อต้องพอพระทัยแน่\""
+        "th": "\"อย่างนี้เสด็จพ่อต้องพอพระทัยแน่\"",
+        "si": "\"මේක නම්, තාත්තත්, අනිවාර්යයෙන්ම සතුටු වෙයි.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1150,7 +1530,8 @@
         "id": "!",
         "pt": "!",
         "my": "!",
-        "th": "แน่"
+        "th": "แน่",
+        "si": "「〜ぞ」 = (අවධාරණය, පිරිමි කතාව)."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=66.232,69.038",
       "t": [
@@ -1195,7 +1576,8 @@
         "id": "Tapi hanya pangeran ke-18, Lang Liêu, yang bingung.",
         "pt": "Mas só o 18º príncipe, Lang Liêu, estava aflito.",
         "my": "ဒါပေမဲ့ ၁၈ ယောက်မြောက် မင်းသား လန်လျူကတော့ ဒုက္ခရောက်နေတယ်။",
-        "th": "แต่โอรสองค์ที่สิบแปด หลางเลียว กลับลำบากใจ"
+        "th": "แต่โอรสองค์ที่สิบแปด หลางเลียว กลับลำบากใจ",
+        "si": "ඒත්, දහඅටවෙනි කුමාරයා, ලාං ලියෙව් විතරක්, කරකියාගන්න බැරුව හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1209,7 +1591,8 @@
         "id": "ke-.",
         "pt": "º.",
         "my": "မြောက်။",
-        "th": "ที่"
+        "th": "ที่",
+        "si": "「〜番目」 = ~ වෙනි."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=69.938,75.4",
       "t": [
@@ -1254,7 +1637,8 @@
         "id": "Ibu Lang Liêu telah lama meninggal.",
         "pt": "A mãe de Lang Liêu morrera cedo.",
         "my": "လန်လျူရဲ့ အမေက စောစောကတည်းက ဆုံးသွားတယ်။",
-        "th": "มารดาของหลางเลียวสิ้นไปตั้งแต่ยังเล็ก"
+        "th": "มารดาของหลางเลียวสิ้นไปตั้งแต่ยังเล็ก",
+        "si": "ලාං ලියෙව්ගේ අම්මා, කලින්ම මිය ගිහින්."
       },
       "vocab": [],
       "grammarNote": {
@@ -1268,7 +1652,8 @@
         "id": "lama.",
         "pt": "cedo.",
         "my": "စောစော။",
-        "th": "ตั้งแต่"
+        "th": "ตั้งแต่",
+        "si": "「早くに」 = කලින්ම."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=76,79.642",
       "t": [
@@ -1329,7 +1714,8 @@
         "id": "Lang Liêu miskin dan hidup dari menanam padi sendiri.",
         "pt": "Lang Liêu era pobre e vivia plantando arroz.",
         "my": "လန်လျူက ဆင်းရဲပြီး ကိုယ်တိုင် စပါး စိုက်ပြီး နေတယ်။",
-        "th": "หลางเลียวยากจน ปลูกข้าวเลี้ยงชีพเอง"
+        "th": "หลางเลียวยากจน ปลูกข้าวเลี้ยงชีพเอง",
+        "si": "ලාං ලියෙව්, දුප්පත් නිසා, තනියම වී වවලා, ජීවත් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1343,7 +1729,8 @@
         "id": "hidup.",
         "pt": "vida.",
         "my": "အသက်မွေး။",
-        "th": "ชีวิต"
+        "th": "ชีวิต",
+        "si": "生活 = ජීවත් වීම."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=80.242,86.241",
       "t": [
@@ -1404,7 +1791,8 @@
         "id": "\"Aku tak punya uang untuk membeli makanan langka.\"",
         "pt": "\"Não tenho dinheiro para comidas raras.\"",
         "my": "\"ငါ့မှာ ရှားပါး အစားအစာ ဝယ်ဖို့ ပိုက်ဆံ မရှိဘူး။\"",
-        "th": "\"ข้าไม่มีเงินซื้ออาหารหายาก\""
+        "th": "\"ข้าไม่มีเงินซื้ออาหารหายาก\"",
+        "si": "\"මට, දුර්ලභ කෑම ගන්න සල්ලි නැහැ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1418,7 +1806,8 @@
         "id": "tak punya.",
         "pt": "não tenho.",
         "my": "မရှိ။",
-        "th": "ไม่มี"
+        "th": "ไม่มี",
+        "si": "「〜には〜がない」 = ~ ට ~ නැහැ."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=87.141,90.637",
       "t": [
@@ -1463,7 +1852,8 @@
         "id": "\"Apa gerangan yang harus kubawa?\"",
         "pt": "\"O que diabos devo levar?\"",
         "my": "\"တကယ်တော့ ဘာ ယူသွားရမလဲ။\"",
-        "th": "\"จะเอาอะไรไปดีนะ\""
+        "th": "\"จะเอาอะไรไปดีนะ\"",
+        "si": "\"ඇත්තටම, මොනවද අරන් යන්න ඕනේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1477,7 +1867,8 @@
         "id": "harus.",
         "pt": "devo.",
         "my": "ရမလဲ။",
-        "th": "ดี"
+        "th": "ดี",
+        "si": "「〜ばいい」 = ~ කළාම හරි, ~ කරන්න ඕනේ."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=91.237,94.19",
       "t": [
@@ -1514,7 +1905,8 @@
         "id": "Setiap malam Lang Liêu tak bisa tidur.",
         "pt": "Toda noite Lang Liêu não dormia.",
         "my": "လန်လျူ ညတိုင်း အိပ်မပျော်ဘူး။",
-        "th": "หลางเลียวนอนไม่หลับทุกคืน"
+        "th": "หลางเลียวนอนไม่หลับทุกคืน",
+        "si": "ලාං ලියෙව්ට, හැම රෑම, නින්ද ගියේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -1528,7 +1920,8 @@
         "id": "tak bisa tidur.",
         "pt": "não dormir.",
         "my": "အိပ်မပျော်။",
-        "th": "นอนไม่หลับ"
+        "th": "นอนไม่หลับ",
+        "si": "「ねむれない」 = නින්ද යන්නේ නැහැ."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=95.09,98.666",
       "t": [
@@ -1581,7 +1974,8 @@
         "id": "Suatu malam, dewa muncul dalam mimpi Lang Liêu.",
         "pt": "Uma noite, um deus apareceu no sonho de Lang Liêu.",
         "my": "တစ်ည လန်လျူရဲ့ အိပ်မက်ထဲ နတ်ဘုရား ပေါ်လာတယ်။",
-        "th": "คืนหนึ่ง เทพปรากฏในฝันของหลางเลียว"
+        "th": "คืนหนึ่ง เทพปรากฏในฝันของหลางเลียว",
+        "si": "එක රැයක, ලාං ලියෙව්ගේ හීනයට, දෙවි කෙනෙක් ආවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1595,7 +1989,8 @@
         "id": "mimpi.",
         "pt": "sonho.",
         "my": "အိပ်မက်။",
-        "th": "ฝัน"
+        "th": "ฝัน",
+        "si": "ゆめ = හීනය."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=99.266,103.184",
       "t": [
@@ -1656,7 +2051,8 @@
         "id": "\"Lang Liêu, menurutmu apa yang paling berharga di dunia?\"",
         "pt": "\"Lang Liêu, o que é mais precioso no mundo?\"",
         "my": "\"လန်လျူ၊ ကမ္ဘာပေါ်မှာ အတန်ဖိုးအရှိဆုံးက ဘာလို့ ထင်လဲ။\"",
-        "th": "\"หลางเลียว เจ้าคิดว่าสิ่งใดสำคัญที่สุดในโลก\""
+        "th": "\"หลางเลียว เจ้าคิดว่าสิ่งใดสำคัญที่สุดในโลก\"",
+        "si": "\"ලාං ලියෙව්, මේ ලෝකයේ, වැදගත්ම දේ, මොකක්ද කියලා හිතනවද?\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1670,7 +2066,8 @@
         "id": "dunia.",
         "pt": "mundo.",
         "my": "ကမ္ဘာ။",
-        "th": "โลก"
+        "th": "โลก",
+        "si": "この世 = මේ ලෝකය."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=104.084,109.614",
       "t": [
@@ -1699,7 +2096,8 @@
         "id": "\"Hamba tidak tahu.\"",
         "pt": "\"Não sei.\"",
         "my": "\"မသိပါဘူး။\"",
-        "th": "\"ไม่ทราบครับ\""
+        "th": "\"ไม่ทราบครับ\"",
+        "si": "\"දන්නේ නැහැ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1713,7 +2111,8 @@
         "id": "tidak tahu.",
         "pt": "não sei.",
         "my": "မသိ။",
-        "th": "ไม่ทราบ"
+        "th": "ไม่ทราบ",
+        "si": "「わかりません」 = දන්නේ නැහැ."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=110.514,111.304",
       "t": [
@@ -1790,7 +2189,8 @@
         "id": "\"Itu beras. Beras harta terbaik yang menjaga nyawa manusia.\"",
         "pt": "\"É o arroz. O maior tesouro, que protege a vida.\"",
         "my": "\"အဲဒါ ဆန်ပဲ။ ဆန်က လူ့အသက်ကို ကာကွယ်တဲ့ အမြတ်ဆုံး ရတနာ။\"",
-        "th": "\"นั่นคือข้าว ข้าวคือสมบัติล้ำค่าที่สุดที่ปกป้องชีวิตคน\""
+        "th": "\"นั่นคือข้าว ข้าวคือสมบัติล้ำค่าที่สุดที่ปกป้องชีวิตคน\"",
+        "si": "\"ඒ, සහල්. සහල් කියන්නේ, මිනිස් ජීවිතය රකින, ලොකුම නිධානය.\""
       },
       "vocab": [
         {
@@ -1807,7 +2207,8 @@
             "id": "melindungi",
             "pt": "proteger",
             "my": "ကာကွယ်သည်",
-            "th": "ปกป้อง"
+            "th": "ปกป้อง",
+            "si": "ආරක්ෂා කිරීම"
           },
           "level": "N3"
         }
@@ -1823,7 +2224,8 @@
         "id": "nyawa.",
         "pt": "vida.",
         "my": "အသက်။",
-        "th": "ชีวิต"
+        "th": "ชีวิต",
+        "si": "命 = ජීවිතය."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=112.204,118.572",
       "t": [
@@ -1916,7 +2318,8 @@
         "id": "\"Buatlah makanan berbentuk langit dan bumi dari beras.\"",
         "pt": "\"Faça com arroz comidas em forma de céu e terra.\"",
         "my": "\"ဆန်ကို သုံးပြီး ကောင်းကင်နဲ့ မြေပုံသဏ္ဌာန် အစားအစာ လုပ်ပါ။\"",
-        "th": "\"จงใช้ข้าวทำอาหารรูปฟ้าและแผ่นดิน\""
+        "th": "\"จงใช้ข้าวทำอาหารรูปฟ้าและแผ่นดิน\"",
+        "si": "\"සහල් පාවිච්චි කරලා, අහසේයි පොළොවේයි හැඩය තියෙන කෑම හදන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1930,7 +2333,8 @@
         "id": "dengan.",
         "pt": "usando.",
         "my": "သုံးပြီး။",
-        "th": "ใช้"
+        "th": "ใช้",
+        "si": "「〜を使って」 = ~ පාවිච්චි කරලා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=119.172,124.353",
       "t": [
@@ -1983,7 +2387,8 @@
         "id": "Setelah berkata begitu, dewa itu lenyap.",
         "pt": "Dito isso, o deus sumiu.",
         "my": "ဒီလို ပြောပြီး နတ်ဘုရား ပျောက်သွားတယ်။",
-        "th": "ตรัสเช่นนั้น เทพก็หายไป"
+        "th": "ตรัสเช่นนั้น เทพก็หายไป",
+        "si": "එහෙම කියලා, දෙවියා, එකපාරටම අතුරුදහන් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1997,7 +2402,8 @@
         "id": "lenyap.",
         "pt": "sumir.",
         "my": "ပျောက်။",
-        "th": "หายไป"
+        "th": "หายไป",
+        "si": "「すっと」 = එකපාරටම, ඉක්මනට."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=125.253,129.747",
       "t": [
@@ -2038,7 +2444,8 @@
         "id": "Bangun tidur, Lang Liêu segera mulai membuat.",
         "pt": "Ao acordar, Lang Liêu começou logo.",
         "my": "နိုးလာတော့ လန်လျူ ချက်ချင်း လုပ်တယ်။",
-        "th": "ตื่นขึ้น หลางเลียวเริ่มทำทันที"
+        "th": "ตื่นขึ้น หลางเลียวเริ่มทำทันที",
+        "si": "ඇහැරුණාම, ලාං ලියෙව්, වහාම, හදන්න පටන් ගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2052,7 +2459,8 @@
         "id": "bangun.",
         "pt": "acordar.",
         "my": "နိုး။",
-        "th": "ตื่น"
+        "th": "ตื่น",
+        "si": "「目がさめる」 = ඇහැරෙනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=130.347,135.183",
       "t": [
@@ -2097,7 +2505,8 @@
         "id": "Pertama, beras ketan direndam dalam air.",
         "pt": "Primeiro, deixou o arroz de molho.",
         "my": "ပထမ ကောက်ညှင်းကို ရေစိမ်ထားတယ်။",
-        "th": "ก่อนอื่นแช่ข้าวเหนียวในน้ำ"
+        "th": "ก่อนอื่นแช่ข้าวเหนียวในน้ำ",
+        "si": "මුලින්ම, ඇලෙන සහල්, වතුරේ පොඟවලා තිබ්බා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2111,7 +2520,8 @@
         "id": "dulu.",
         "pt": "deixar.",
         "my": "ထား။",
-        "th": "ไว้"
+        "th": "ไว้",
+        "si": "「〜ておく」 = කලින්ම ~ කරලා තියනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=135.783,139.412",
       "t": [
@@ -2164,7 +2574,8 @@
         "id": "Lalu menyiapkan kacang hijau dan daging babi.",
         "pt": "Depois preparou feijão-mungo e porco.",
         "my": "ပြီးတော့ ပဲတီစိမ်းနဲ့ ဝက်သား ပြင်တယ်။",
-        "th": "แล้วเตรียมถั่วเขียวกับหมู"
+        "th": "แล้วเตรียมถั่วเขียวกับหมู",
+        "si": "ඊට පස්සේ, මුං ඇටයි, ඌරු මසුයි සූදානම් කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2178,7 +2589,8 @@
         "id": "kacang hijau.",
         "pt": "feijão-mungo.",
         "my": "ပဲတီစိမ်း။",
-        "th": "ถั่วเขียว"
+        "th": "ถั่วเขียว",
+        "si": "緑豆 = මුං ඇට."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=140.012,143.831",
       "t": [
@@ -2251,7 +2663,8 @@
         "id": "Ia menaruh beras, kacang dan daging di daun besar lalu membungkusnya persegi.",
         "pt": "Pôs arroz, feijão e carne em folhas grandes e embrulhou em quadrado.",
         "my": "အရွက်ကြီးပေါ် ဆန်၊ ပဲ၊ အသား တင်ပြီး လေးထောင့် ထုပ်တယ်။",
-        "th": "วางข้าว ถั่ว และหมูบนใบไม้ใหญ่ แล้วห่อเป็นสี่เหลี่ยม"
+        "th": "วางข้าว ถั่ว และหมูบนใบไม้ใหญ่ แล้วห่อเป็นสี่เหลี่ยม",
+        "si": "ලොකු කොළවල, ඇලෙන සහලුයි, ඇටයි, මසුයි තියලා, හතරැස් විදිහට ඔතුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2265,7 +2678,8 @@
         "id": "persegi.",
         "pt": "quadrado.",
         "my": "လေးထောင့်။",
-        "th": "สี่เหลี่ยม"
+        "th": "สี่เหลี่ยม",
+        "si": "「四角く」 = හතරැස් විදිහට."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=144.431,150.603",
       "t": [
@@ -2302,7 +2716,8 @@
         "id": "Lalu merebusnya perlahan semalaman.",
         "pt": "E cozinhou devagar a noite toda.",
         "my": "ပြီးတော့ တစ်ညလုံး ဖြည်းဖြည်း ပြုတ်တယ်။",
-        "th": "แล้วต้มช้าๆ ตลอดคืน"
+        "th": "แล้วต้มช้าๆ ตลอดคืน",
+        "si": "ඊට පස්සේ, ඒක, මුළු රෑම, හෙමින් තැම්බුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2316,7 +2731,8 @@
         "id": "semalaman.",
         "pt": "a noite toda.",
         "my": "တစ်ညလုံး။",
-        "th": "ตลอดคืน"
+        "th": "ตลอดคืน",
+        "si": "一晩中 = මුළු රෑම."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=151.203,155.39",
       "t": [
@@ -2373,7 +2789,8 @@
         "id": "Dapur dipenuhi aroma daun dan beras.",
         "pt": "A cozinha se encheu do cheiro de folhas e arroz.",
         "my": "မီးဖိုချောင်ထဲ အရွက်နဲ့ ဆန်ရဲ့ မွှေးရနံ့ ပျံ့သွားတယ်။",
-        "th": "ในครัวหอมกลิ่นใบไม้และข้าว"
+        "th": "ในครัวหอมกลิ่นใบไม้และข้าว",
+        "si": "කුස්සිය පුරා, කොළවලයි සහල්වලයි, සුවඳ පැතිරුණා."
       },
       "vocab": [
         {
@@ -2390,7 +2807,8 @@
             "id": "menyebar",
             "pt": "espalhar-se",
             "my": "ပျံ့နှံ့",
-            "th": "แผ่กระจาย"
+            "th": "แผ่กระจาย",
+            "si": "පැතිරීම, එලීම"
           },
           "level": "N3"
         }
@@ -2406,7 +2824,8 @@
         "id": "dapur.",
         "pt": "cozinha.",
         "my": "မီးဖိုချောင်။",
-        "th": "ครัว"
+        "th": "ครัว",
+        "si": "台所 = කුස්සිය."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=155.99,160.467",
       "t": [
@@ -2455,7 +2874,8 @@
         "id": "Bentuk persegi melambangkan bumi.",
         "pt": "O quadrado simboliza a terra.",
         "my": "လေးထောင့်ပုံက မြေရဲ့ သင်္ကေတ။",
-        "th": "รูปสี่เหลี่ยมคือสัญลักษณ์ของแผ่นดิน"
+        "th": "รูปสี่เหลี่ยมคือสัญลักษณ์ของแผ่นดิน",
+        "si": "හතරැස් හැඩය, පොළොවේ සංකේතය."
       },
       "vocab": [],
       "grammarNote": {
@@ -2469,7 +2889,8 @@
         "id": "lambang.",
         "pt": "símbolo.",
         "my": "သင်္ကေတ။",
-        "th": "สัญลักษณ์"
+        "th": "สัญลักษณ์",
+        "si": "しるし = සංකේතය, ලකුණ."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=161.067,163.967",
       "t": [
@@ -2538,7 +2959,8 @@
         "id": "Karena orang dulu mengira bumi itu persegi.",
         "pt": "Pois os antigos achavam que a terra era quadrada.",
         "my": "ရှေးလူတွေက မြေကို လေးထောင့်ပုံလို့ ထင်ခဲ့လို့ပါ။",
-        "th": "เพราะคนโบราณคิดว่าแผ่นดินเป็นสี่เหลี่ยม"
+        "th": "เพราะคนโบราณคิดว่าแผ่นดินเป็นสี่เหลี่ยม",
+        "si": "මොකද, ඉස්සර මිනිස්සු, පොළොව හතරැස් හැඩයක් කියලා, හිතපු නිසා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2552,7 +2974,8 @@
         "id": "karena.",
         "pt": "pois.",
         "my": "လို့ပါ။",
-        "th": "เพราะ"
+        "th": "เพราะ",
+        "si": "「〜からです」 = මොකද ~ නිසා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=164.567,169.682",
       "t": [
@@ -2613,7 +3036,8 @@
         "id": "Lalu ia menumbuk ketan dan membuat yang putih dan bulat.",
         "pt": "Depois socou o arroz e fez também algo branco e redondo.",
         "my": "နောက်တစ်ခု ကောက်ညှင်းကို ထုပြီး ဖြူပြီး ဝိုင်းတဲ့ဟာ လုပ်တယ်။",
-        "th": "ต่อมาตำข้าวเหนียว ทำของขาวกลมด้วย"
+        "th": "ต่อมาตำข้าวเหนียว ทำของขาวกลมด้วย",
+        "si": "ඊළඟට, ඇලෙන සහල් කොටලා, සුදු පාට, රවුම් දෙයකුත් හැදුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2627,7 +3051,8 @@
         "id": "menumbuk.",
         "pt": "socar.",
         "my": "ထု။",
-        "th": "ตำ"
+        "th": "ตำ",
+        "si": "「つく」 = කොටනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=170.282,175.957",
       "t": [
@@ -2676,7 +3101,8 @@
         "id": "Bentuk bulat melambangkan langit.",
         "pt": "O redondo simboliza o céu.",
         "my": "ဝိုင်းပုံက ကောင်းကင်ရဲ့ သင်္ကေတ။",
-        "th": "รูปกลมคือสัญลักษณ์ของฟ้า"
+        "th": "รูปกลมคือสัญลักษณ์ของฟ้า",
+        "si": "රවුම් හැඩය, අහසේ සංකේතය."
       },
       "vocab": [],
       "grammarNote": {
@@ -2690,7 +3116,8 @@
         "id": "bulat.",
         "pt": "redondo.",
         "my": "ဝိုင်း။",
-        "th": "กลม"
+        "th": "กลม",
+        "si": "丸い = රවුම්."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=176.557,179.394",
       "t": [
@@ -2719,7 +3146,8 @@
         "id": "Yang ini disebut bánh giầy.",
         "pt": "Este se chama bánh giầy.",
         "my": "ဒါကို ဘန်ဇိုင် လို့ ခေါ်တယ်။",
-        "th": "อันนี้เรียกว่าบั๋นซาย"
+        "th": "อันนี้เรียกว่าบั๋นซาย",
+        "si": "මේකට, බාන් යෙයි කියලා කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2733,7 +3161,8 @@
         "id": "ini.",
         "pt": "este.",
         "my": "ဒါ။",
-        "th": "อันนี้"
+        "th": "อันนี้",
+        "si": "「こちら」 = මේක."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=179.994,182.649",
       "t": [
@@ -2818,7 +3247,8 @@
         "id": "Pada Tahun Baru, para pangeran menata makanan di depan raja.",
         "pt": "No Ano-Novo, os príncipes dispuseram as comidas diante do rei.",
         "my": "နှစ်သစ်နေ့မှာ မင်းသားတွေ ဘုရင့်ရှေ့ အစားအစာ ခင်းကြတယ်။",
-        "th": "วันปีใหม่ เหล่าโอรสวางอาหารต่อหน้ากษัตริย์"
+        "th": "วันปีใหม่ เหล่าโอรสวางอาหารต่อหน้ากษัตริย์",
+        "si": "අලුත් අවුරුදු දවසේ, කුමාරවරු, රජතුමා ඉස්සරහ, කෑම පෙළට තිබ්බා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2832,7 +3262,8 @@
         "id": "menata.",
         "pt": "dispor.",
         "my": "ခင်း။",
-        "th": "วาง"
+        "th": "วาง",
+        "si": "「ならべる」 = පෙළට තියනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=183.249,189.282",
       "t": [
@@ -2873,7 +3304,8 @@
         "id": "Dari gunung dan laut, semuanya mewah.",
         "pt": "Da montanha e do mar, tudo luxuoso.",
         "my": "တောင်က၊ ပင်လယ်က၊ အားလုံး ခမ်းနားတယ်။",
-        "th": "ของจากภูเขา จากทะเล ล้วนหรูหรา"
+        "th": "ของจากภูเขา จากทะเล ล้วนหรูหรา",
+        "si": "කන්දේ දේවල්, මුහුදේ දේවල්, හැම එකක්ම, අතිසුඛෝපභෝගීයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -2887,7 +3319,8 @@
         "id": "mewah.",
         "pt": "luxuoso.",
         "my": "ခမ်းနား။",
-        "th": "หรูหรา"
+        "th": "หรูหรา",
+        "si": "ごうか = අතිසුඛෝපභෝගී."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=189.882,193.983",
       "t": [
@@ -2948,7 +3381,8 @@
         "id": "Di antaranya, makanan Lang Liêu tampak sangat sederhana.",
         "pt": "Entre elas, a de Lang Liêu parecia muito simples.",
         "my": "အဲဒီထဲမှာ လန်လျူရဲ့ အစားအစာက အရမ်း ရိုးရှင်းပုံ ပေါက်တယ်။",
-        "th": "ในบรรดานั้น อาหารของหลางเลียวดูเรียบง่ายมาก"
+        "th": "ในบรรดานั้น อาหารของหลางเลียวดูเรียบง่ายมาก",
+        "si": "ඒ අතරේ, ලාං ලියෙව්ගේ කෑම, හරිම සරලයි වගේ පෙනුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2962,7 +3396,8 @@
         "id": "tampak.",
         "pt": "parecer.",
         "my": "ပုံ ပေါက်။",
-        "th": "ดู"
+        "th": "ดู",
+        "si": "「〜に見える」 = ~ වගේ පේනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=194.583,199.851",
       "t": [
@@ -2999,7 +3434,8 @@
         "id": "\"Apa itu? Cuma beras, kan?\"",
         "pt": "\"O que é aquilo? Só arroz?\"",
         "my": "\"ဘာလဲ အဲဒါ၊ ဆန် သက်သက်ပဲ မဟုတ်လား။\"",
-        "th": "\"อะไรน่ะ ก็แค่ข้าวไม่ใช่หรือ\""
+        "th": "\"อะไรน่ะ ก็แค่ข้าวไม่ใช่หรือ\"",
+        "si": "\"මොකක්ද, අර, නිකම්ම සහල් නේද.\""
       },
       "vocab": [
         {
@@ -3016,7 +3452,8 @@
             "id": "hanya, biasa",
             "pt": "apenas, comum",
             "my": "ရိုးရိုး",
-            "th": "แค่ ธรรมดา"
+            "th": "แค่ ธรรมดา",
+            "si": "හුදු, සාමාන්‍ය"
           },
           "level": "N3"
         }
@@ -3032,7 +3469,8 @@
         "id": "cuma.",
         "pt": "só.",
         "my": "သက်သက်။",
-        "th": "แค่"
+        "th": "แค่",
+        "si": "「ただの」 = නිකම්ම, සාමාන්‍ය."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=200.751,203.535",
       "t": [
@@ -3077,7 +3515,8 @@
         "id": "Pangeran lain terkikik.",
         "pt": "Os outros riram baixinho.",
         "my": "တခြား မင်းသားတွေ ခိုးခိုး ရယ်ကြတယ်။",
-        "th": "โอรสองค์อื่นหัวเราะคิกคัก"
+        "th": "โอรสองค์อื่นหัวเราะคิกคัก",
+        "si": "අනිත් කුමාරවරු, හෙමින් හිනා වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3091,7 +3530,8 @@
         "id": "terkikik.",
         "pt": "baixinho.",
         "my": "ခိုးခိုး။",
-        "th": "คิกคัก"
+        "th": "คิกคัก",
+        "si": "くすくす = හෙමින් හිනා වෙනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=204.435,207.776",
       "t": [
@@ -3128,7 +3568,8 @@
         "id": "\"Lang Liêu, apa ini?\"",
         "pt": "\"Lang Liêu, o que é isto?\"",
         "my": "\"လန်လျူ၊ ဒါ ဘာလဲ။\"",
-        "th": "\"หลางเลียว นี่คืออะไร\""
+        "th": "\"หลางเลียว นี่คืออะไร\"",
+        "si": "\"ලාං ලියෙව්, මේ මොකක්ද.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3142,7 +3583,8 @@
         "id": "apa.",
         "pt": "o que.",
         "my": "ဘာလဲ။",
-        "th": "อะไร"
+        "th": "อะไร",
+        "si": "「何だ」 = මොකක්ද."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=208.676,210.659",
       "t": [
@@ -3203,7 +3645,8 @@
         "id": "\"Yang persegi bumi, yang bulat langit.\"",
         "pt": "\"O quadrado é a terra, o redondo é o céu.\"",
         "my": "\"လေးထောင့်က မြေ၊ ဝိုင်းတာက ကောင်းကင်ပါ။\"",
-        "th": "\"อันสี่เหลี่ยมคือแผ่นดิน อันกลมคือฟ้า\""
+        "th": "\"อันสี่เหลี่ยมคือแผ่นดิน อันกลมคือฟ้า\"",
+        "si": "\"හතරැස් එක පොළොව, රවුම් එක අහස.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3217,7 +3660,8 @@
         "id": "yang.",
         "pt": "o.",
         "my": "တာ။",
-        "th": "อัน"
+        "th": "อัน",
+        "si": "「〜の」 = ~ එක."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=211.559,214.443",
       "t": [
@@ -3266,7 +3710,8 @@
         "id": "\"Keduanya dari beras yang kami tanam setiap hari.\"",
         "pt": "\"Ambos são do arroz que plantamos todo dia.\"",
         "my": "\"နှစ်ခုလုံး ကျွန်တော်တို့ နေ့တိုင်း စိုက်တဲ့ ဆန်နဲ့ လုပ်ထားတာပါ။\"",
-        "th": "\"ทั้งสองทำจากข้าวที่พวกเราปลูกทุกวัน\""
+        "th": "\"ทั้งสองทำจากข้าวที่พวกเราปลูกทุกวัน\"",
+        "si": "\"දෙකම, අපි හැමදාම වවන, සහල්වලින් හදලා තියෙන්නේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3280,7 +3725,8 @@
         "id": "dari.",
         "pt": "feito de.",
         "my": "နဲ့ လုပ်ထား။",
-        "th": "ทำจาก"
+        "th": "ทำจาก",
+        "si": "「〜でできている」 = ~ වලින් හදලා තියෙනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=215.043,218.821",
       "t": [
@@ -3329,7 +3775,8 @@
         "id": "Raja mencicipinya satu per satu.",
         "pt": "O rei provou um por um.",
         "my": "ဘုရင်က တစ်ခုချင်း မြည်းကြည့်တယ်။",
-        "th": "กษัตริย์ลองเสวยทีละชิ้น"
+        "th": "กษัตริย์ลองเสวยทีละชิ้น",
+        "si": "රජතුමා, එකින් එක, රස බැලුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3343,7 +3790,8 @@
         "id": "satu per satu.",
         "pt": "um por um.",
         "my": "တစ်ခုချင်း။",
-        "th": "ทีละ"
+        "th": "ทีละ",
+        "si": "「〜ずつ」 = එකින් එක."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=219.721,222.775",
       "t": [
@@ -3380,7 +3828,8 @@
         "id": "\"Hmm, enak. Dan penuh ketulusan.\"",
         "pt": "\"Hum, delicioso. E feito com carinho.\"",
         "my": "\"အင်း၊ စားကောင်းတယ်။ စေတနာလည်း ပါတယ်။\"",
-        "th": "\"อืม อร่อย และทำด้วยใจ\""
+        "th": "\"อืม อร่อย และทำด้วยใจ\"",
+        "si": "\"හ්ම්, රසයි. ඒ වගේම, හිත දීලා හදලා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3394,7 +3843,8 @@
         "id": "penuh ketulusan.",
         "pt": "com carinho.",
         "my": "စေတနာ ပါ။",
-        "th": "ทำด้วยใจ"
+        "th": "ทำด้วยใจ",
+        "si": "「心がこもる」 = හිත දීලා හදලා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=223.675,227.512",
       "t": [
@@ -3487,7 +3937,8 @@
         "id": "\"Beras adalah nyawa negeri ini. Hati yang menghormati langit dan bumi pun ada di sini.\"",
         "pt": "\"O arroz é a vida deste reino. O respeito ao céu e à terra também está aqui.\"",
         "my": "\"ဆန်က ဒီတိုင်းပြည်ရဲ့ အသက်ပဲ။ ကောင်းကင်နဲ့ မြေကို တန်ဖိုးထားတဲ့ စိတ်လည်း ဒီမှာ ရှိတယ်။\"",
-        "th": "\"ข้าวคือชีวิตของบ้านเมืองนี้ ใจที่เคารพฟ้าดินก็อยู่ในนี้\""
+        "th": "\"ข้าวคือชีวิตของบ้านเมืองนี้ ใจที่เคารพฟ้าดินก็อยู่ในนี้\"",
+        "si": "\"සහල් කියන්නේ, මේ රටේ ජීවිතය. අහසටයි පොළොවටයි ගරු කරන හිතත්, මෙතන තියෙනවා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3501,7 +3952,8 @@
         "id": "menghormati.",
         "pt": "respeitar.",
         "my": "တန်ဖိုးထား။",
-        "th": "เคารพ"
+        "th": "เคารพ",
+        "si": "「大切に思う」 = ගරු කරනවා, අගය කරනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=228.112,234.702",
       "t": [
@@ -3550,7 +4002,8 @@
         "id": "Raja memilih Lang Liêu sebagai raja berikutnya.",
         "pt": "O rei escolheu Lang Liêu como sucessor.",
         "my": "ဘုရင်က လန်လျူကို နောက် ဘုရင်အဖြစ် ရွေးတယ်။",
-        "th": "กษัตริย์เลือกหลางเลียวเป็นกษัตริย์องค์ต่อไป"
+        "th": "กษัตริย์เลือกหลางเลียวเป็นกษัตริย์องค์ต่อไป",
+        "si": "රජතුමා, ලාං ලියෙව්ව, ඊළඟ රජු විදිහට තෝරගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3564,7 +4017,8 @@
         "id": "memilih.",
         "pt": "escolher.",
         "my": "ရွေး။",
-        "th": "เลือก"
+        "th": "เลือก",
+        "si": "「〜に決める」 = ~ විදිහට තීරණය කරනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=235.602,239.364",
       "t": [
@@ -3609,7 +4063,8 @@
         "id": "Sejak itu, orang Vietnam membuat bánh chưng saat Tết.",
         "pt": "Desde então, os vietnamitas fazem bánh chưng no Tết.",
         "my": "အဲဒီကစပြီး ဗီယက်နမ်လူတွေ တက်ပွဲမှာ ဘန်ချုန် လုပ်လာကြတယ်။",
-        "th": "นับแต่นั้น ชาวเวียดนามจึงทำบั๋นจึงในวันเต๊ด"
+        "th": "นับแต่นั้น ชาวเวียดนามจึงทำบั๋นจึงในวันเต๊ด",
+        "si": "ඊට පස්සේ, වියට්නාම මිනිස්සු, ටෙට් කාලෙට, බාන් චුං හදන්න පුරුදු වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3623,7 +4078,8 @@
         "id": "mulai.",
         "pt": "passar a.",
         "my": "လာ။",
-        "th": "เริ่ม"
+        "th": "เริ่ม",
+        "si": "「〜ようになる」 = ~ කරන්න පුරුදු වෙනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=239.964,245.829",
       "t": [
@@ -3688,7 +4144,8 @@
         "id": "Kini pun keluarga merebusnya sampai larut sambil menjaga api.",
         "pt": "Ainda hoje a família cozinha até tarde, vigiando o fogo.",
         "my": "အခုထိ မိသားစု တစ်ခုလုံး ညနက်အထိ မီးဖိုကို ကြည့်ရင်း ပြုတ်ကြတယ်တဲ့။",
-        "th": "ทุกวันนี้ ทั้งครอบครัวยังเฝ้าไฟต้มจนดึก"
+        "th": "ทุกวันนี้ ทั้งครอบครัวยังเฝ้าไฟต้มจนดึก",
+        "si": "අදටත්, පවුලේ හැමෝම එකතු වෙලා, රෑ පරක්කු වෙනකම්, හට්ටියේ ගින්න දිහා බලාගෙන, තම්බනවලු."
       },
       "vocab": [],
       "grammarNote": {
@@ -3702,7 +4159,8 @@
         "id": "panci.",
         "pt": "panela.",
         "my": "အိုး။",
-        "th": "หม้อ"
+        "th": "หม้อ",
+        "si": "なべ = හට්ටිය."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=246.429,253.675",
       "t": [
@@ -3759,7 +4217,8 @@
         "id": "Anak-anak juga membantu membungkus.",
         "pt": "As crianças também ajudam a embrulhar.",
         "my": "ကလေးတွေလည်း အရွက်နဲ့ ဆန် ထုပ်ဖို့ ကူကြတယ်။",
-        "th": "เด็กๆ ก็ช่วยห่อข้าวด้วยใบไม้"
+        "th": "เด็กๆ ก็ช่วยห่อข้าวด้วยใบไม้",
+        "si": "ළමයිනුත්, කොළවල සහල් ඔතන්න, උදව් කරනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3773,7 +4232,8 @@
         "id": "membantu.",
         "pt": "ajudar.",
         "my": "ကူ။",
-        "th": "ช่วย"
+        "th": "ช่วย",
+        "si": "「手伝う」 = උදව් කරනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=254.275,258.508",
       "t": [
@@ -3818,7 +4278,8 @@
         "id": "Tahun Baru Jepang juga ada mochi, ya.",
         "pt": "O Ano-Novo japonês também tem mochi, né?",
         "my": "ဂျပန်နှစ်သစ်မှာလည်း မိုချီ ရှိတယ်နော်။",
-        "th": "ปีใหม่ญี่ปุ่นก็มีโมจินะ"
+        "th": "ปีใหม่ญี่ปุ่นก็มีโมจินะ",
+        "si": "හරි, ජපානයේ අලුත් අවුරුද්දෙත්, මොචි තියෙනවා නේද."
       },
       "vocab": [],
       "grammarNote": {
@@ -3832,7 +4293,8 @@
         "id": "ya.",
         "pt": "né?",
         "my": "နော်။",
-        "th": "นะ"
+        "th": "นะ",
+        "si": "「〜ね」 = නේද?"
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=259.108,262.821",
       "t": [
@@ -3881,7 +4343,8 @@
         "id": "Itulah kagami-mochi, dua mochi bulat bertumpuk.",
         "pt": "É o kagami-mochi, dois bolinhos redondos empilhados.",
         "my": "မိုချီ ဝိုင်း နှစ်ခု ထပ်ထားတဲ့ ကာဂါမိမိုချီ။",
-        "th": "คือคางามิโมจิ โมจิกลมสองก้อนซ้อนกัน"
+        "th": "คือคางามิโมจิ โมจิกลมสองก้อนซ้อนกัน",
+        "si": "රවුම් මොචි දෙකක් එකක් උඩ එකක් තියපු, කගමි-මොචි."
       },
       "vocab": [],
       "grammarNote": {
@@ -3895,7 +4358,8 @@
         "id": "menumpuk.",
         "pt": "empilhar.",
         "my": "ထပ်။",
-        "th": "ซ้อน"
+        "th": "ซ้อน",
+        "si": "「かさねる」 = එකක් උඩ එකක් තියනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=263.421,266.768",
       "t": [
@@ -3952,7 +4416,8 @@
         "id": "Kagami-mochi untuk Toshigami, dewa Tahun Baru.",
         "pt": "É para Toshigami, o deus do Ano-Novo.",
         "my": "ကာဂါမိမိုချီက နှစ်သစ်မှာ ကြွလာတဲ့ တိုရှိဂါမိ နတ်အတွက်။",
-        "th": "คางามิโมจิมีไว้สำหรับเทพโทชิงามิที่มาเยือนในปีใหม่"
+        "th": "คางามิโมจิมีไว้สำหรับเทพโทชิงามิที่มาเยือนในปีใหม่",
+        "si": "කගමි-මොචි, අලුත් අවුරුද්දට එන, තොෂිගමි දෙවියන් වෙනුවෙන් තියන දෙයක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -3966,7 +4431,8 @@
         "id": "untuk.",
         "pt": "para.",
         "my": "အတွက်။",
-        "th": "สำหรับ"
+        "th": "สำหรับ",
+        "si": "「〜のため」 = ~ වෙනුවෙන්."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=267.368,272.232",
       "t": [
@@ -4011,7 +4477,8 @@
         "id": "Usai Tahun Baru, mochi itu dipecah dan dimakan.",
         "pt": "Depois, quebram e comem.",
         "my": "နှစ်သစ် ပြီးတော့ အဲဒါကို ခွဲပြီး စားတယ်။",
-        "th": "เมื่อหมดปีใหม่ ก็ทุบแล้วกิน"
+        "th": "เมื่อหมดปีใหม่ ก็ทุบแล้วกิน",
+        "si": "අලුත් අවුරුදු කාලය ඉවර වුණාම, ඒක, කඩලා කනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4025,7 +4492,8 @@
         "id": "memecah.",
         "pt": "quebrar.",
         "my": "ခွဲ။",
-        "th": "ทุบ"
+        "th": "ทุบ",
+        "si": "「わる」 = කඩනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=272.832,276.745",
       "t": [
@@ -4062,7 +4530,8 @@
         "id": "Ini disebut kagami-biraki.",
         "pt": "Isso se chama kagami-biraki.",
         "my": "ဒါကို ကာဂါမိ ဘိရာကိ လို့ ခေါ်တယ်။",
-        "th": "เรียกว่าคางามิบิรากิ"
+        "th": "เรียกว่าคางามิบิรากิ",
+        "si": "මේකට, කගමි-බිරාකි කියලා කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4076,7 +4545,8 @@
         "id": "disebut.",
         "pt": "chama-se.",
         "my": "ခေါ်။",
-        "th": "เรียกว่า"
+        "th": "เรียกว่า",
+        "si": "「〜という」 = ~ කියලා කියනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=277.345,279.947",
       "t": [
@@ -4145,7 +4615,8 @@
         "id": "Di Vietnam maupun Jepang, saat Tahun Baru dipersembahkan makanan dari beras.",
         "pt": "No Vietnã e no Japão, no Ano-Novo oferece-se aos deuses algo feito de arroz.",
         "my": "ဗီယက်နမ်မှာရော ဂျပန်မှာရော နှစ်သစ်မှာ ဆန်နဲ့လုပ်တာကို နတ်ကို ပူဇော်တယ်။",
-        "th": "ทั้งเวียดนามและญี่ปุ่น ปีใหม่จะถวายของที่ทำจากข้าวแด่เทพ"
+        "th": "ทั้งเวียดนามและญี่ปุ่น ปีใหม่จะถวายของที่ทำจากข้าวแด่เทพ",
+        "si": "වියට්නාමයේත්, ජපානයේත්, අලුත් අවුරුද්දට, සහල්වලින් හදපු දේවල්, දෙවියන්ට පූජා කරනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4159,7 +4630,8 @@
         "id": "mempersembahkan.",
         "pt": "oferecer.",
         "my": "ပူဇော်။",
-        "th": "ถวาย"
+        "th": "ถวาย",
+        "si": "「ささげる」 = පූජා කරනවා."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=280.547,287.718",
       "t": [
@@ -4204,7 +4676,8 @@
         "id": "Lalu keluarga makan bersama.",
         "pt": "Depois, a família come junta.",
         "my": "ပြီးတော့ မိသားစု အတူ စားတယ်။",
-        "th": "แล้วครอบครัวก็กินด้วยกัน"
+        "th": "แล้วครอบครัวก็กินด้วยกัน",
+        "si": "ඊට පස්සේ, පවුලේ අය, එකට කනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4218,7 +4691,8 @@
         "id": "bersama.",
         "pt": "junto.",
         "my": "အတူ။",
-        "th": "ด้วยกัน"
+        "th": "ด้วยกัน",
+        "si": "「いっしょに」 = එකට."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=288.318,292.359",
       "t": [
@@ -4291,7 +4765,8 @@
         "id": "Di banyak negeri Asia, beras berharga untuk kehidupan.",
         "pt": "Em muitos países da Ásia, o arroz sustentava a vida.",
         "my": "အာရှ နိုင်ငံ အများစုမှာ ဆန်က အသက်ကို ကာကွယ်တဲ့ အရေးကြီးတဲ့ အရာ ဖြစ်ခဲ့တယ်။",
-        "th": "ในหลายประเทศเอเชีย ข้าวเป็นของล้ำค่าที่ค้ำจุนชีวิต"
+        "th": "ในหลายประเทศเอเชีย ข้าวเป็นของล้ำค่าที่ค้ำจุนชีวิต",
+        "si": "ආසියාවේ ගොඩක් රටවල, සහල්, ජීවිතය රකින, වැදගත් දෙයක් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4305,7 +4780,8 @@
         "id": "banyak.",
         "pt": "muitos.",
         "my": "အများစု။",
-        "th": "หลาย"
+        "th": "หลาย",
+        "si": "「多くの」 = ගොඩක්."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=292.959,298.4",
       "t": [
@@ -4374,7 +4850,8 @@
         "id": "Karena itu, di hari penting Tahun Baru, beras paling dihargai.",
         "pt": "Por isso, num dia tão importante, o arroz é o mais valorizado.",
         "my": "ဒါကြောင့် နှစ်သစ်လို အရေးကြီးတဲ့ နေ့မှာ ဆန်ကို အတန်ဖိုးထားဆုံး ဖြစ်တာပေါ့။",
-        "th": "ดังนั้นในวันสำคัญอย่างปีใหม่ ข้าวจึงได้รับการเทิดทูนที่สุด"
+        "th": "ดังนั้นในวันสำคัญอย่างปีใหม่ ข้าวจึงได้รับการเทิดทูนที่สุด",
+        "si": "ඒ නිසා, අලුත් අවුරුද්ද වගේ වැදගත් දවසක, සහල්වලට, වැඩියෙන්ම ගරු කරනවා නේද."
       },
       "vocab": [],
       "grammarNote": {
@@ -4388,7 +4865,8 @@
         "id": "dihargai.",
         "pt": "valorizado.",
         "my": "တန်ဖိုးထားခံ။",
-        "th": "ได้รับการเทิดทูน"
+        "th": "ได้รับการเทิดทูน",
+        "si": "「大切にされる」 = ගරු කරනවා, අගය කරනවා (කර්මකාරක)."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=299,305.804",
       "t": [
@@ -4441,7 +4919,8 @@
         "id": "Kalau punya teman Vietnam, tanyakan soal bánh chưng saat Tết.",
         "pt": "Se tiver amigos vietnamitas, pergunte sobre o bánh chưng do Tết.",
         "my": "ဗီယက်နမ် သူငယ်ချင်း ရှိရင် တက်ပွဲက ဘန်ချုန်အကြောင်း မေးကြည့်ပါ။",
-        "th": "ถ้ามีเพื่อนชาวเวียดนาม ลองถามเรื่องบั๋นจึงในวันเต๊ดดูนะ"
+        "th": "ถ้ามีเพื่อนชาวเวียดนาม ลองถามเรื่องบั๋นจึงในวันเต๊ดดูนะ",
+        "si": "වියට්නාම යාළුවෙක් ඉන්නවා නම්, ටෙට් කාලේ බාන් චුං ගැන, අහලා බලන්න."
       },
       "vocab": [],
       "grammarNote": {
@@ -4455,7 +4934,8 @@
         "id": "kalau.",
         "pt": "se.",
         "my": "ရင်။",
-        "th": "ถ้า"
+        "th": "ถ้า",
+        "si": "「もし〜たら」 = ~ නම්."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=306.404,313.015",
       "t": [
@@ -4516,7 +4996,8 @@
         "id": "Mereka pasti akan bercerita kenangan keluarga yang hangat.",
         "pt": "Com certeza contarão lembranças calorosas de família.",
         "my": "သူတို့က မိသားစုရဲ့ နွေးထွေးတဲ့ အမှတ်တရတွေကို သေချာ ပြောပြပါလိမ့်မယ်။",
-        "th": "เขาคงเล่าความทรงจำอบอุ่นของครอบครัวให้ฟังแน่"
+        "th": "เขาคงเล่าความทรงจำอบอุ่นของครอบครัวให้ฟังแน่",
+        "si": "අනිවාර්යයෙන්ම, පවුලේ, උණුසුම් මතකයන්, කියලා දෙයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -4530,7 +5011,8 @@
         "id": "kenangan.",
         "pt": "lembranças.",
         "my": "အမှတ်တရ။",
-        "th": "ความทรงจำ"
+        "th": "ความทรงจำ",
+        "si": "思い出 = මතකයන්."
       },
       "audio": "/audio/furusato-vn-banhchung-1/chapter.mp3#t=313.615,318.365",
       "t": [

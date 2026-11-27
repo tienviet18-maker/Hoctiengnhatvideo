@@ -12,7 +12,8 @@
     "id": "Legenda Daragang Magayon",
     "pt": "A lenda de Daragang Magayon",
     "my": "မာဂါယွန်နဲ့ မာယွန် မီးတောင်",
-    "th": "ตำนานดารากังมากายอนกับภูเขาไฟมายอน"
+    "th": "ตำนานดารากังมากายอนกับภูเขาไฟมายอน",
+    "si": "දරගං මගයොන් සහ මයොන් ගිනිකන්ද"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -42,7 +43,8 @@
           "id": "Kalau ingin ~.",
           "pt": "Se quiser que ~.",
           "my": "~ စေချင်ရင်။",
-          "th": "ถ้าอยากให้ ~"
+          "th": "ถ้าอยากให้ ~",
+          "si": "~ ඕනේ නම් (කොන්දේසියක්, බොහෝ විට තර්ජනයක්)."
         }
       },
       {
@@ -59,7 +61,8 @@
           "id": "Izinkan saya ~.",
           "pt": "Deixe-me ~.",
           "my": "~ ခွင့်ပြုပါ။",
-          "th": "ขออนุญาตให้ ~"
+          "th": "ขออนุญาตให้ ~",
+          "si": "~ කරන්න අවසර දෙන්න."
         }
       },
       {
@@ -76,8 +79,23 @@
           "id": "Konon ~.",
           "pt": "Diz-se que ~.",
           "my": "~ လို့ ဆိုကြတယ်။",
-          "th": "ว่ากันว่า ~"
-        }
+          "th": "ว่ากันว่า ~",
+          "si": "~ කියලා කියනවා."
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜と",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "われています",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜ても、しかたがない",
@@ -93,7 +111,8 @@
           "id": "Tak ada gunanya walau ~.",
           "pt": "Não adianta mesmo que ~.",
           "my": "~ လည်း အကျိုးမရှိ။",
-          "th": "ต่อให้ ~ ก็ไร้ประโยชน์"
+          "th": "ต่อให้ ~ ก็ไร้ประโยชน์",
+          "si": "~ වුණත් වැඩක් නැහැ."
         }
       }
     ],
@@ -118,8 +137,77 @@
           "id": "Ingin menikahi Magayon.",
           "pt": "Casar com Magayon.",
           "my": "မာဂါယွန်နဲ့ လက်ထပ်ချင်တယ်။",
-          "th": "อยากแต่งงานกับมากายอน"
-        }
+          "th": "อยากแต่งงานกับมากายอน",
+          "si": "එයාට මගයොන්ව බඳින්න ඕනේ වුණා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "パグトゥガは、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "がほしかったのですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "マガヨンと",
+              "reading": ""
+            },
+            {
+              "surface": "結婚",
+              "reading": "けっこん"
+            },
+            {
+              "surface": "すること",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            }
+          ],
+          [
+            {
+              "surface": "マヨン",
+              "reading": ""
+            },
+            {
+              "surface": "山",
+              "reading": "さん"
+            }
+          ],
+          [
+            {
+              "surface": "王",
+              "reading": "おう"
+            },
+            {
+              "surface": "さまの",
+              "reading": ""
+            },
+            {
+              "surface": "薬",
+              "reading": "くすり"
+            }
+          ]
+        ]
       },
       {
         "ja": "二人が死んだあと、うめた場所は、どうなりましたか。",
@@ -141,8 +229,85 @@
           "id": "Tanah meninggi jadi Gunung Mayon.",
           "pt": "A terra subiu e virou o Mayon.",
           "my": "မြေမြင့်ပြီး မာယွန်တောင် ဖြစ်တယ်။",
-          "th": "ดินสูงขึ้นจนเป็นภูเขามายอน"
-        }
+          "th": "ดินสูงขึ้นจนเป็นภูเขามายอน",
+          "si": "පස උස් වෙලා මයොන් කන්ද වුණා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "二人",
+            "reading": "ふたり"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "死",
+            "reading": "し"
+          },
+          {
+            "surface": "んだあと、うめた",
+            "reading": ""
+          },
+          {
+            "surface": "場所",
+            "reading": "ばしょ"
+          },
+          {
+            "surface": "は、どうなりましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "高",
+              "reading": "たか"
+            },
+            {
+              "surface": "くなって、",
+              "reading": ""
+            },
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "になった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "湖",
+              "reading": "みずうみ"
+            },
+            {
+              "surface": "になった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "島",
+              "reading": "しま"
+            },
+            {
+              "surface": "になった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "森",
+              "reading": "もり"
+            },
+            {
+              "surface": "になった",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "山の上の白い雲は、だれだと言われていますか。",
@@ -164,8 +329,85 @@
           "id": "Awan itu Panganoron.",
           "pt": "A nuvem é Panganoron.",
           "my": "တိမ်က ပန်ဂါနိုရွန်ပါ။",
-          "th": "เมฆคือปังกาโนรอน"
-        }
+          "th": "เมฆคือปังกาโนรอน",
+          "si": "ඒ වලාකුළ මගයොන්ව සිපගන්න පංගනොරොන්."
+        },
+        "jaFurigana": [
+          {
+            "surface": "山",
+            "reading": "やま"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "上",
+            "reading": "うえ"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "白",
+            "reading": "しろ"
+          },
+          {
+            "surface": "い",
+            "reading": ""
+          },
+          {
+            "surface": "雲",
+            "reading": "くも"
+          },
+          {
+            "surface": "は、だれだと",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "われていますか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "パンガノロン",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "パグトゥガ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "マガヨンのお",
+              "reading": ""
+            },
+            {
+              "surface": "父",
+              "reading": "とう"
+            },
+            {
+              "surface": "さん",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "帝",
+              "reading": "みかど"
+            }
+          ]
+        ]
       },
       {
         "ja": "『竹取物語』で、帝は、薬をどうしましたか。",
@@ -187,8 +429,117 @@
           "id": "Dibakar di gunung tertinggi, Fuji.",
           "pt": "Mandou queimar no monte mais alto, o Fuji.",
           "my": "အမြင့်ဆုံးတောင် ဖူဂျီမှာ မီးရှို့ခိုင်းတယ်။",
-          "th": "ให้เผาบนภูเขาที่สูงที่สุดคือฟูจิ"
-        }
+          "th": "ให้เผาบนภูเขาที่สูงที่สุดคือฟูจิ",
+          "si": "උසම කන්ද වුණු ෆුජි උඩ ඒක පුච්චන්න සැලැස්සුවා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "『",
+            "reading": ""
+          },
+          {
+            "surface": "竹取物語",
+            "reading": "たけとりものがたり"
+          },
+          {
+            "surface": "』で、",
+            "reading": ""
+          },
+          {
+            "surface": "帝",
+            "reading": "みかど"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "薬",
+            "reading": "くすり"
+          },
+          {
+            "surface": "をどうしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "いちばん",
+              "reading": ""
+            },
+            {
+              "surface": "高",
+              "reading": "たか"
+            },
+            {
+              "surface": "い",
+              "reading": ""
+            },
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "上",
+              "reading": "うえ"
+            },
+            {
+              "surface": "で、もやさせた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "自分",
+              "reading": "じぶん"
+            },
+            {
+              "surface": "で",
+              "reading": ""
+            },
+            {
+              "surface": "飲",
+              "reading": "の"
+            },
+            {
+              "surface": "んだ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "姫",
+              "reading": "ひめ"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "返",
+              "reading": "かえ"
+            },
+            {
+              "surface": "した",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "海",
+              "reading": "うみ"
+            },
+            {
+              "surface": "にすてた",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },
@@ -237,7 +588,8 @@
         "id": "Di Pulau Luzon, Filipina, ada gunung berapi bernama \"Gunung Mayon\".",
         "pt": "Na ilha de Luzon, nas Filipinas, há um vulcão chamado \"monte Mayon\".",
         "my": "ဖိလစ်ပိုင်ရဲ့ လူဇုံကျွန်းမှာ \"မာယွန်တောင်\" ဆိုတဲ့ မီးတောင် ရှိတယ်။",
-        "th": "บนเกาะลูซอนของฟิลิปปินส์ มีภูเขาไฟชื่อ \"ภูเขามายอน\""
+        "th": "บนเกาะลูซอนของฟิลิปปินส์ มีภูเขาไฟชื่อ \"ภูเขามายอน\"",
+        "si": "පිලිපීනයේ ලූසොන් දූපතේ, \"මයොන් කන්ද\" කියලා, ගිනිකන්දක් තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -251,7 +603,8 @@
         "id": "gunung berapi; bernama.",
         "pt": "vulcão; chamado.",
         "my": "မီးတောင်; ဆိုတဲ့။",
-        "th": "ภูเขาไฟ; ชื่อ"
+        "th": "ภูเขาไฟ; ชื่อ",
+        "si": "火山 = ගිනිකන්ද; 「〜という」 = ~ කියලා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=0.3,4.8",
       "t": [
@@ -328,7 +681,8 @@
         "id": "Kakinya lebar dan bentuknya indah, jadi disebut juga \"gunung berapi terindah di dunia\".",
         "pt": "Com base larga e forma linda, é chamado também de \"o vulcão mais bonito do mundo\".",
         "my": "တောင်ခြေ ကျယ်ပြီး ပုံသဏ္ဌာန် လှလို့ \"ကမ္ဘာ့အလှဆုံး မီးတောင်\" လို့လည်း ခေါ်ကြတယ်။",
-        "th": "เชิงเขากว้าง รูปทรงงดงาม จึงถูกเรียกว่า \"ภูเขาไฟที่สวยที่สุดในโลก\""
+        "th": "เชิงเขากว้าง รูปทรงงดงาม จึงถูกเรียกว่า \"ภูเขาไฟที่สวยที่สุดในโลก\"",
+        "si": "පාමුල පළලයි, හැඩය හරිම ලස්සනයි, ඒ නිසා, \"ලෝකයේ ලස්සනම ගිනිකන්ද\" කියලත් කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -342,7 +696,8 @@
         "id": "kaki gunung; disebut juga.",
         "pt": "base; também chamado.",
         "my": "တောင်ခြေ; လို့လည်း ခေါ်။",
-        "th": "เชิงเขา; ยังถูกเรียกว่า"
+        "th": "เชิงเขา; ยังถูกเรียกว่า",
+        "si": "すそ = (කන්දේ) පාමුල; 「〜とも言われる」 = ~ කියලත් කියනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=5.4,13.222",
       "t": [
@@ -399,7 +754,8 @@
         "id": "Di puncaknya sering ada awan putih.",
         "pt": "No topo costuma haver nuvens brancas.",
         "my": "တောင်ထိပ်မှာ တိမ်ဖြူတွေ မကြာခဏ ဆိုင်းနေတယ်။",
-        "th": "บนยอดเขามักมีเมฆขาวปกคลุม"
+        "th": "บนยอดเขามักมีเมฆขาวปกคลุม",
+        "si": "කන්ද උඩ, නිතරම, සුදු වලාකුළු, තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -413,7 +769,8 @@
         "id": "awan; menyelimuti.",
         "pt": "nuvem; pairar.",
         "my": "တိမ်; ဆိုင်း။",
-        "th": "เมฆ; ปกคลุม"
+        "th": "เมฆ; ปกคลุม",
+        "si": "雲 = වලාකුළ; 「〜がかかる」 = (වලාකුළු) වැහිලා තියෙනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=13.822,18.159",
       "t": [
@@ -474,7 +831,8 @@
         "id": "Gunung ini punya kisah cinta yang sedih.",
         "pt": "Esta montanha guarda uma triste história de amor.",
         "my": "ဒီတောင်မှာ ဝမ်းနည်းစရာ အချစ်ဇာတ်လမ်း ဆင်းသက်လာတယ်။",
-        "th": "ภูเขานี้มีเรื่องรักเศร้าเล่าสืบมา"
+        "th": "ภูเขานี้มีเรื่องรักเศร้าเล่าสืบมา",
+        "si": "මේ කන්ද ගැන, දුක්බර ආදර කතාවක්, පරම්පරාවෙන් එනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -488,7 +846,8 @@
         "id": "cinta; diwariskan.",
         "pt": "amor; transmitir.",
         "my": "အချစ်; ဆင်းသက်။",
-        "th": "ความรัก; สืบทอด"
+        "th": "ความรัก; สืบทอด",
+        "si": "恋 = ආදරය; つたわる = පරම්පරාවෙන් එනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=18.759,22.969",
       "t": [
@@ -545,7 +904,8 @@
         "id": "Dahulu di tanah ini ada putri cantik bernama Magayon.",
         "pt": "Antigamente vivia nesta terra uma bela princesa chamada Magayon.",
         "my": "ရှေးတုန်းက ဒီမြေမှာ မာဂါယွန် ဆိုတဲ့ လှပတဲ့ မင်းသမီး ရှိတယ်။",
-        "th": "กาลก่อน ดินแดนนี้มีเจ้าหญิงงดงามชื่อมากายอน"
+        "th": "กาลก่อน ดินแดนนี้มีเจ้าหญิงงดงามชื่อมากายอน",
+        "si": "ඉස්සර, මේ ප්‍රදේශයේ, මගයොන් කියලා, ලස්සන කුමරියක්, හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -559,7 +919,8 @@
         "id": "putri; ada.",
         "pt": "princesa; havia.",
         "my": "မင်းသမီး; ရှိ။",
-        "th": "เจ้าหญิง; มี"
+        "th": "เจ้าหญิง; มี",
+        "si": "お姫さま = කුමරිය; 「いました」 = හිටියා (පුද්ගලයෙක්)."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=23.569,29.53",
       "t": [
@@ -620,7 +981,8 @@
         "id": "Dalam bahasa setempat, \"Magayon\" berarti \"cantik\".",
         "pt": "Na língua local, \"Magayon\" quer dizer \"bonita\".",
         "my": "ဒေသစကားမှာ \"မာဂါယွန်\" ဆိုတာ \"လှပ\" လို့ အဓိပ္ပာယ်ရတယ်။",
-        "th": "ในภาษาท้องถิ่น \"มากายอน\" แปลว่า \"งดงาม\""
+        "th": "ในภาษาท้องถิ่น \"มากายอน\" แปลว่า \"งดงาม\"",
+        "si": "\"මගයොන්\" කියන්නේ, මේ ප්‍රදේශයේ භාෂාවෙන්, \"ලස්සන\" කියන තේරුම."
       },
       "vocab": [],
       "grammarNote": {
@@ -634,7 +996,8 @@
         "id": "berarti; setempat.",
         "pt": "quer dizer; local.",
         "my": "ဆိုတာ...အဓိပ္ပာယ်; ဒေသ။",
-        "th": "แปลว่า; ท้องถิ่น"
+        "th": "แปลว่า; ท้องถิ่น",
+        "si": "「〜とは、〜という意味です」 = ~ කියන්නේ ~ කියන තේරුම; 地方 = ප්‍රදේශය."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=30.13,35.14",
       "t": [
@@ -687,7 +1050,8 @@
         "id": "Ayahnya adalah raja desa.",
         "pt": "O pai dela era o rei da aldeia.",
         "my": "သူ့အဖေက ရွာရဲ့ ဘုရင်ပါ။",
-        "th": "พ่อของนางเป็นกษัตริย์ของหมู่บ้าน"
+        "th": "พ่อของนางเป็นกษัตริย์ของหมู่บ้าน",
+        "si": "තාත්තා, ගමේ රජතුමා."
       },
       "vocab": [],
       "grammarNote": {
@@ -701,7 +1065,8 @@
         "id": "raja.",
         "pt": "rei.",
         "my": "ဘုရင်။",
-        "th": "กษัตริย์"
+        "th": "กษัตริย์",
+        "si": "王さま = රජතුමා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=35.74,38.549",
       "t": [
@@ -738,7 +1103,8 @@
         "id": "Banyak pria ingin memperistri Magayon.",
         "pt": "Muitos homens queriam se casar com Magayon.",
         "my": "မာဂါယွန်ကို လက်ထပ်ချင်တဲ့ ယောကျ်ား အများကြီး ရှိတယ်။",
-        "th": "มีชายมากมายอยากได้มากายอนเป็นภรรยา"
+        "th": "มีชายมากมายอยากได้มากายอนเป็นภรรยา",
+        "si": "මගයොන්ව, බිරිඳ කරගන්න ආසා කරපු පිරිමි, ගොඩක් හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -752,7 +1118,8 @@
         "id": "ingin memperistri.",
         "pt": "querer casar com.",
         "my": "လက်ထပ်ချင်။",
-        "th": "อยากได้เป็นภรรยา"
+        "th": "อยากได้เป็นภรรยา",
+        "si": "「〜をおよめさんにしたい」 = ~ ව බිරිඳ කරගන්න ආසයි."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=39.149,43.583",
       "t": [
@@ -805,7 +1172,8 @@
         "id": "Di antaranya ada Pagtuga, pria kuat yang menakutkan.",
         "pt": "Entre eles estava Pagtuga, um homem forte e assustador.",
         "my": "အဲဒီထဲမှာ ပက်တူဂါ ဆိုတဲ့ သန်မာပြီး ကြောက်စရာကောင်းတဲ့ ယောကျ်ား ပါတယ်။",
-        "th": "ในนั้นมีชายชื่อปักตูกา ผู้แข็งแรงและน่ากลัว"
+        "th": "ในนั้นมีชายชื่อปักตูกา ผู้แข็งแรงและน่ากลัว",
+        "si": "ඒ අතරේ, පග්තුගා කියලා, ශක්තිමත්, බය හිතෙන මිනිහෙක්, හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -819,7 +1187,8 @@
         "id": "di antaranya; dan.",
         "pt": "entre eles; e.",
         "my": "အဲဒီထဲမှာ; ပြီး။",
-        "th": "ในนั้น; และ"
+        "th": "ในนั้น; และ",
+        "si": "「その中に」 = ඒ අතරේ; 「〜くて、〜」 = විශේෂණ එකතු කරනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=44.183,49.533",
       "t": [
@@ -856,7 +1225,8 @@
         "id": "\"Magayon, jadilah istriku. Akan kuberi banyak harta.\"",
         "pt": "\"Magayon, seja minha noiva. Darei muitos tesouros.\"",
         "my": "\"မာဂါယွန်၊ ငါ့မိန်းမ ဖြစ်စမ်း။ ရတနာ အများကြီး ပေးမယ်။\"",
-        "th": "\"มากายอน มาเป็นเจ้าสาวข้า ข้าจะให้สมบัติมากมาย\""
+        "th": "\"มากายอน มาเป็นเจ้าสาวข้า ข้าจะให้สมบัติมากมาย\"",
+        "si": "\"මගයොන්, මගේ බිරිඳ වෙයන්. නිධාන ගොඩක්, දෙනවා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -870,7 +1240,8 @@
         "id": "jadilah; penekanan.",
         "pt": "seja; ênfase.",
         "my": "ဖြစ်စမ်း; မယ်။",
-        "th": "มาเป็น; เน้น"
+        "th": "มาเป็น; เน้น",
+        "si": "「なれ」 = වෙයන්! (අණ); 「〜ぞ」 = අවධාරණය (පිරිමි කතාව)."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=50.433,55.737",
       "t": [
@@ -907,7 +1278,8 @@
         "id": "\"Maaf. Aku tidak butuh harta.\"",
         "pt": "\"Desculpe. Não preciso de tesouros.\"",
         "my": "\"တောင်းပန်ပါတယ်။ ရတနာ မလိုပါဘူး။\"",
-        "th": "\"ขอโทษ ข้าไม่ต้องการสมบัติ\""
+        "th": "\"ขอโทษ ข้าไม่ต้องการสมบัติ\"",
+        "si": "\"සමාවෙන්න. මට, නිධාන නම්, ඕනේ නැහැ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -921,7 +1293,8 @@
         "id": "tidak butuh.",
         "pt": "não preciso.",
         "my": "မလို။",
-        "th": "ไม่ต้องการ"
+        "th": "ไม่ต้องการ",
+        "si": "「いりません」 = ඕනේ නැහැ; 「〜は」 = සංසන්දනාත්මක."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=56.637,60.589",
       "t": [
@@ -950,7 +1323,8 @@
         "id": "Tapi Pagtuga tidak menyerah.",
         "pt": "Mas Pagtuga não desistiu.",
         "my": "ဒါပေမဲ့ ပက်တူဂါ လက်မလျှော့ဘူး။",
-        "th": "แต่ปักตูกาไม่ยอมแพ้"
+        "th": "แต่ปักตูกาไม่ยอมแพ้",
+        "si": "ඒත්, පග්තුගා, අත්හැරියේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -964,7 +1338,8 @@
         "id": "menyerah.",
         "pt": "desistir.",
         "my": "လက်လျှော့။",
-        "th": "ยอมแพ้"
+        "th": "ยอมแพ้",
+        "si": "あきらめる = අත්හරිනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=61.489,65.029",
       "t": [
@@ -1017,7 +1392,8 @@
         "id": "Suatu hari Magayon sedang mandi di sungai.",
         "pt": "Um dia, Magayon tomava banho no rio.",
         "my": "တစ်နေ့ မာဂါယွန်က မြစ်ထဲမှာ ရေချိုးနေတယ်။",
-        "th": "วันหนึ่ง มากายอนกำลังอาบน้ำในแม่น้ำ"
+        "th": "วันหนึ่ง มากายอนกำลังอาบน้ำในแม่น้ำ",
+        "si": "දවසක්, මගයොන්, ගඟේ, නාමින් හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1031,7 +1407,8 @@
         "id": "mandi; sedang.",
         "pt": "banho; tomava.",
         "my": "ရေချိုး; နေ။",
-        "th": "อาบน้ำ; กำลัง"
+        "th": "อาบน้ำ; กำลัง",
+        "si": "水あび = නෑම; 「〜をしていました」 = ~ කරමින් හිටියා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=65.629,70.399",
       "t": [
@@ -1092,7 +1469,8 @@
         "id": "Saat itu kakinya tergelincir dan ia jatuh ke tempat dalam.",
         "pt": "Nisso, escorregou e caiu na parte funda.",
         "my": "အဲဒီအချိန် ခြေချော်ပြီး ရေနက်ထဲ ကျသွားတယ်။",
-        "th": "ตอนนั้นนางลื่นตกลงไปในที่ลึก"
+        "th": "ตอนนั้นนางลื่นตกลงไปในที่ลึก",
+        "si": "ඒ වෙලාවේ, කකුල ලිස්සලා, ගැඹුරු තැනකට, වැටුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1106,7 +1484,8 @@
         "id": "tergelincir; jatuh.",
         "pt": "escorregar; cair.",
         "my": "ချော်; ကျသွား။",
-        "th": "ลื่น; ตก"
+        "th": "ลื่น; ตก",
+        "si": "すべる = ලිස්සනවා; 「〜てしまう」 = නොදැනීම."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=70.999,76.391",
       "t": [
@@ -1135,7 +1514,8 @@
         "id": "\"Tolong! Siapa pun, tolong!\"",
         "pt": "\"Socorro! Alguém me ajude!\"",
         "my": "\"ကယ်ပါ! တစ်ယောက်ယောက် ကယ်ပါ!\"",
-        "th": "\"ช่วยด้วย! ใครก็ได้ช่วยด้วย!\""
+        "th": "\"ช่วยด้วย! ใครก็ได้ช่วยด้วย!\"",
+        "si": "\"බේරගන්න! කවුරු හරි, බේරගන්න!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1149,7 +1529,8 @@
         "id": "tolong; siapa pun.",
         "pt": "socorro; alguém.",
         "my": "ကယ်ပါ; တစ်ယောက်ယောက်။",
-        "th": "ช่วยด้วย; ใครก็ได้"
+        "th": "ช่วยด้วย; ใครก็ได้",
+        "si": "たすけて = බේරගන්න; だれか = කවුරු හරි."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=77.291,79.6",
       "t": [
@@ -1210,7 +1591,8 @@
         "id": "Lalu seorang pemuda melompat ke sungai dan menyelamatkan Magayon.",
         "pt": "Então um jovem pulou no rio e salvou Magayon.",
         "my": "ဒီတော့ လူငယ်တစ်ယောက်က မြစ်ထဲ ခုန်ဆင်းပြီး မာဂါယွန်ကို ကယ်တယ်။",
-        "th": "แล้วชายหนุ่มคนหนึ่งก็กระโดดลงแม่น้ำช่วยมากายอน"
+        "th": "แล้วชายหนุ่มคนหนึ่งก็กระโดดลงแม่น้ำช่วยมากายอน",
+        "si": "එතකොට, තරුණයෙක්, ගඟට පැනලා, මගයොන්ව, බේරගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1224,7 +1606,8 @@
         "id": "pemuda; melompat.",
         "pt": "jovem; pular.",
         "my": "လူငယ်; ခုန်ဆင်း။",
-        "th": "ชายหนุ่ม; กระโดดลง"
+        "th": "ชายหนุ่ม; กระโดดลง",
+        "si": "若者 = තරුණයා; 飛びこむ = පනිනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=80.5,86.504",
       "t": [
@@ -1289,7 +1672,8 @@
         "id": "Namanya Panganoron, pangeran dari negeri jauh.",
         "pt": "Chamava-se Panganoron, príncipe de uma terra distante.",
         "my": "လူငယ်ရဲ့နာမည်က ပန်ဂါနိုရွန်၊ ဝေးတဲ့ နိုင်ငံက မင်းသားပါ။",
-        "th": "ชายหนุ่มชื่อปังกาโนรอน เป็นเจ้าชายจากแดนไกล"
+        "th": "ชายหนุ่มชื่อปังกาโนรอน เป็นเจ้าชายจากแดนไกล",
+        "si": "තරුණයාගේ නම, පංගනොරොන්. ඈත රටක, කුමාරයෙක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -1303,7 +1687,8 @@
         "id": "pangeran; jauh.",
         "pt": "príncipe; distante.",
         "my": "မင်းသား; ဝေး။",
-        "th": "เจ้าชาย; ไกล"
+        "th": "เจ้าชาย; ไกล",
+        "si": "王子 = කුමාරයා; 遠い = ඈත."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=87.104,92.605",
       "t": [
@@ -1332,7 +1717,8 @@
         "id": "\"Kau tidak apa-apa? Ada yang luka?\"",
         "pt": "\"Você está bem? Está ferida?\"",
         "my": "\"အဆင်ပြေရဲ့လား။ ဒဏ်ရာ ရသေးလား။\"",
-        "th": "\"เป็นอะไรไหม บาดเจ็บหรือเปล่า\""
+        "th": "\"เป็นอะไรไหม บาดเจ็บหรือเปล่า\"",
+        "si": "\"හොඳින්ද? තුවාලයක්, නැද්ද?\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1346,7 +1732,8 @@
         "id": "tidak apa-apa; luka.",
         "pt": "bem; ferida.",
         "my": "အဆင်ပြေ; ဒဏ်ရာ။",
-        "th": "ไม่เป็นไร; บาดเจ็บ"
+        "th": "ไม่เป็นไร; บาดเจ็บ",
+        "si": "だいじょうぶ = හොඳින්; けが = තුවාලය."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=93.505,96.42",
       "t": [
@@ -1383,7 +1770,8 @@
         "id": "\"Terima kasih. Tanpamu aku sudah mati.\"",
         "pt": "\"Obrigada. Sem você, eu teria morrido.\"",
         "my": "\"ကျေးဇူးတင်ပါတယ်။ ရှင်သာ မရှိရင် ကျွန်မ သေသွားမှာ။\"",
-        "th": "\"ขอบคุณ ถ้าไม่มีท่าน ข้าคงตายไปแล้ว\""
+        "th": "\"ขอบคุณ ถ้าไม่มีท่าน ข้าคงตายไปแล้ว\"",
+        "si": "\"බොහොම ස්තුතියි. ඔයා නොහිටියා නම්, මම, මැරිලා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1397,7 +1785,8 @@
         "id": "tanpa; sudah.",
         "pt": "sem; teria.",
         "my": "မရှိရင်; မှာ။",
-        "th": "ถ้าไม่มี; คง"
+        "th": "ถ้าไม่มี; คง",
+        "si": "「〜がいなければ」 = ~ නොහිටියා නම්; 「〜ていました」 = ~ වෙලා (තිබුණා)."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=97.32,102.218",
       "t": [
@@ -1438,7 +1827,8 @@
         "id": "Keduanya segera saling jatuh cinta.",
         "pt": "Os dois logo se apaixonaram.",
         "my": "နှစ်ယောက် မကြာခင် ချစ်သွားကြတယ်။",
-        "th": "ทั้งสองตกหลุมรักกันในไม่ช้า"
+        "th": "ทั้งสองตกหลุมรักกันในไม่ช้า",
+        "si": "දෙන්නා, ඉක්මනටම, ආදරය කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1452,7 +1842,8 @@
         "id": "jatuh cinta; segera.",
         "pt": "apaixonar-se; logo.",
         "my": "ချစ်သွား; မကြာခင်။",
-        "th": "รัก; ไม่นาน"
+        "th": "รัก; ไม่นาน",
+        "si": "「好きになる」 = ආදරය කරන්න පටන් ගන්නවා; すぐに = ඉක්මනටම."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=103.118,106.194",
       "t": [
@@ -1505,7 +1896,8 @@
         "id": "Panganoron pergi menemui ayah Magayon.",
         "pt": "Panganoron foi ver o pai de Magayon.",
         "my": "ပန်ဂါနိုရွန်က မာဂါယွန့်အဖေကို တွေ့ဖို့ သွားတယ်။",
-        "th": "ปังกาโนรอนไปพบพ่อของมากายอน"
+        "th": "ปังกาโนรอนไปพบพ่อของมากายอน",
+        "si": "පංගනොරොන්, මගයොන්ගේ තාත්තාව, හම්බ වෙන්න ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1519,7 +1911,8 @@
         "id": "pergi menemui.",
         "pt": "ir ver.",
         "my": "တွေ့ဖို့ သွား။",
-        "th": "ไปพบ"
+        "th": "ไปพบ",
+        "si": "「〜に会いに行く」 = ~ ව හම්බ වෙන්න යනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=106.794,111.311",
       "t": [
@@ -1556,7 +1949,8 @@
         "id": "\"Izinkan saya menikahi Magayon.\"",
         "pt": "\"Permita que eu me case com Magayon.\"",
         "my": "\"မာဂါယွန်နဲ့ လက်ထပ်ခွင့် ပေးပါ။\"",
-        "th": "\"ขออนุญาตแต่งงานกับมากายอนด้วยเถิด\""
+        "th": "\"ขออนุญาตแต่งงานกับมากายอนด้วยเถิด\"",
+        "si": "\"මගයොන් එක්ක, බඳින්න අවසර දෙන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1570,7 +1964,8 @@
         "id": "izinkan saya.",
         "pt": "permita que eu.",
         "my": "ခွင့်ပေးပါ။",
-        "th": "ขออนุญาต"
+        "th": "ขออนุญาต",
+        "si": "「〜させてください」 = ~ කරන්න අවසර දෙන්න."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=112.211,114.849",
       "t": [
@@ -1623,7 +2018,8 @@
         "id": "Melihat pemuda yang baik, sang ayah dengan senang hati setuju.",
         "pt": "Vendo que era um jovem bondoso, o pai aceitou com alegria.",
         "my": "သဘောကောင်းတဲ့ လူငယ်ကို မြင်တော့ အဖေက ဝမ်းသာစွာ ခွင့်ပြုတယ်။",
-        "th": "เมื่อเห็นชายหนุ่มใจดี พ่อจึงยินดีอนุญาต"
+        "th": "เมื่อเห็นชายหนุ่มใจดี พ่อจึงยินดีอนุญาต",
+        "si": "තාත්තා, කාරුණික තරුණයාව දැකලා, සතුටින්, අවසර දුන්නා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1637,7 +2033,8 @@
         "id": "setuju; melihat.",
         "pt": "aceitar; vendo.",
         "my": "ခွင့်ပြု; မြင်တော့။",
-        "th": "อนุญาต; เห็น"
+        "th": "อนุญาต; เห็น",
+        "si": "ゆるす = අවසර දෙනවා; 「〜を見て」 = ~ දැකලා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=115.749,121.139",
       "t": [
@@ -1678,7 +2075,8 @@
         "id": "Desa mulai mempersiapkan pernikahan.",
         "pt": "A aldeia começou a preparar o casamento.",
         "my": "ရွာမှာ မင်္ဂလာပွဲ ပြင်ဆင်မှု စတင်တယ်။",
-        "th": "หมู่บ้านเริ่มเตรียมงานแต่ง"
+        "th": "หมู่บ้านเริ่มเตรียมงานแต่ง",
+        "si": "ගමේ, මංගල උත්සවයේ, සූදානම, පටන් ගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1692,7 +2090,8 @@
         "id": "pernikahan; persiapan.",
         "pt": "casamento; preparação.",
         "my": "မင်္ဂလာပွဲ; ပြင်ဆင်မှု။",
-        "th": "งานแต่ง; เตรียม"
+        "th": "งานแต่ง; เตรียม",
+        "si": "結婚式 = මංගල උත්සවය; じゅんび = සූදානම."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=121.739,126.02",
       "t": [
@@ -1729,7 +2128,8 @@
         "id": "Namun mendengar itu, Pagtuga marah besar.",
         "pt": "Mas ao ouvir isso, Pagtuga ficou furioso.",
         "my": "ဒါပေမဲ့ အဲဒါကို ကြားတော့ ပက်တူဂါ အရမ်း ဒေါသထွက်တယ်။",
-        "th": "แต่เมื่อปักตูกาได้ยิน ก็โกรธมาก"
+        "th": "แต่เมื่อปักตูกาได้ยิน ก็โกรธมาก",
+        "si": "ඒත්, ඒක ඇහුණු පග්තුගාට, හරියටම, කේන්ති ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1743,7 +2143,8 @@
         "id": "mendengar itu; namun.",
         "pt": "ao ouvir; mas.",
         "my": "ကြားတော့; ဒါပေမဲ့။",
-        "th": "ได้ยิน; แต่"
+        "th": "ได้ยิน; แต่",
+        "si": "「それを聞いた〜」 = ඒක ඇහුණු ~; ところが = ඒත්."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=126.62,131.285",
       "t": [
@@ -1772,7 +2173,8 @@
         "id": "\"Magayon milikku! Tak akan kuserahkan pada siapa pun!\"",
         "pt": "\"Magayon é minha! Não a entrego a ninguém!\"",
         "my": "\"မာဂါယွန်က ငါ့ဟာ! ဘယ်သူ့ကိုမှ မပေးဘူး!\"",
-        "th": "\"มากายอนเป็นของข้า! ไม่ยกให้ใครทั้งนั้น!\""
+        "th": "\"มากายอนเป็นของข้า! ไม่ยกให้ใครทั้งนั้น!\"",
+        "si": "\"මගයොන්, මගේ! කාටවත්, දෙන්නේ නැහැ!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1786,7 +2188,8 @@
         "id": "menyerahkan; milik.",
         "pt": "entregar; é de.",
         "my": "ပေး; ဟာ။",
-        "th": "ยกให้; ของ"
+        "th": "ยกให้; ของ",
+        "si": "わたす = භාර දෙනවා; 「〜のものだ」 = ~ ගේ."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=132.185,136.349",
       "t": [
@@ -1839,7 +2242,8 @@
         "id": "Pagtuga membawa banyak prajurit dan menyerang desa.",
         "pt": "Pagtuga trouxe muitos soldados e atacou a aldeia.",
         "my": "ပက်တူဂါက စစ်သား အများကြီး ခေါ်ပြီး ရွာကို တိုက်ခိုက်လာတယ်။",
-        "th": "ปักตูกานำทหารจำนวนมากบุกหมู่บ้าน"
+        "th": "ปักตูกานำทหารจำนวนมากบุกหมู่บ้าน",
+        "si": "පග්තුගා, සෙබළු ගොඩක් එක්කගෙන, ගමට, පහර දුන්නා."
       },
       "vocab": [
         {
@@ -1856,7 +2260,8 @@
             "id": "setidaknya",
             "pt": "pelo menos",
             "my": "အနည်းဆုံး",
-            "th": "อย่างน้อย"
+            "th": "อย่างน้อย",
+            "si": "අඩුම තරමින්"
           },
           "level": "N2"
         }
@@ -1872,7 +2277,8 @@
         "id": "prajurit; membawa; menyerang.",
         "pt": "soldado; trazendo; atacar.",
         "my": "စစ်သား; ခေါ်ပြီး; တိုက်ခိုက်။",
-        "th": "ทหาร; นำ; บุก"
+        "th": "ทหาร; นำ; บุก",
+        "si": "兵士 = සෙබළා; 「〜を連れて」 = ~ එක්කගෙන; せめる = පහර දෙනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=137.249,142.837",
       "t": [
@@ -1909,7 +2315,8 @@
         "id": "Lalu ia menangkap ayah Magayon.",
         "pt": "E capturou o pai de Magayon.",
         "my": "ပြီးတော့ မာဂါယွန့်အဖေကို ဖမ်းသွားတယ်။",
-        "th": "และจับพ่อของมากายอนไป"
+        "th": "และจับพ่อของมากายอนไป",
+        "si": "ඊට පස්සේ, මගයොන්ගේ තාත්තාව, අල්ලගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1923,7 +2330,8 @@
         "id": "menangkap.",
         "pt": "capturar.",
         "my": "ဖမ်း။",
-        "th": "จับ"
+        "th": "จับ",
+        "si": "つかまえる = අල්ලගන්නවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=143.437,147.915",
       "t": [
@@ -1968,7 +2376,8 @@
         "id": "\"Kalau mau ayahmu kembali, serahkan Magayon!\"",
         "pt": "\"Se quer o pai de volta, entregue Magayon!\"",
         "my": "\"အဖေ ပြန်လိုချင်ရင် မာဂါယွန်ကို ပေးစမ်း!\"",
-        "th": "\"ถ้าอยากได้พ่อคืน ก็ส่งมากายอนมา!\""
+        "th": "\"ถ้าอยากได้พ่อคืน ก็ส่งมากายอนมา!\"",
+        "si": "\"තාත්තාව ආපහු ඕනේ නම්, මගයොන්ව, දීපල්ලා!\""
       },
       "vocab": [
         {
@@ -1985,7 +2394,8 @@
             "id": "serahkan (kasar)",
             "pt": "entregar (rude)",
             "my": "ပေးစမ်း",
-            "th": "ส่งมา"
+            "th": "ส่งมา",
+            "si": "දීපන්, භාර දීම (රළු)"
           },
           "level": "N2"
         }
@@ -2001,7 +2411,8 @@
         "id": "kalau mau; serahkan.",
         "pt": "se quer; entregue.",
         "my": "လိုချင်ရင်; ပေးစမ်း။",
-        "th": "ถ้าอยาก; ส่งมา"
+        "th": "ถ้าอยาก; ส่งมา",
+        "si": "「〜てほしければ」 = ~ ඕනේ නම්; 「よこせ」 = දීපන්!"
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=148.815,152.587",
       "t": [
@@ -2046,7 +2457,8 @@
         "id": "Panganoron segera pergi bertempur bersama kawan-kawannya.",
         "pt": "Panganoron foi logo lutar com os companheiros.",
         "my": "ပန်ဂါနိုရွန်က ချက်ချင်း အပေါင်းအပါတွေနဲ့ တိုက်ဖို့ သွားတယ်။",
-        "th": "ปังกาโนรอนรีบไปสู้รบกับพวกพ้องทันที"
+        "th": "ปังกาโนรอนรีบไปสู้รบกับพวกพ้องทันที",
+        "si": "පංගනොරොන්, වහාම, යාළුවෝ එක්ක, සටනට ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2060,7 +2472,8 @@
         "id": "kawan; bertempur.",
         "pt": "companheiros; lutar.",
         "my": "အပေါင်းအပါ; တိုက်ဖို့သွား။",
-        "th": "พวกพ้อง; ไปสู้รบ"
+        "th": "พวกพ้อง; ไปสู้รบ",
+        "si": "仲間 = යාළුවෝ, සගයෝ; 「たたかいに行く」 = සටනට යනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=153.487,158.505",
       "t": [
@@ -2089,7 +2502,8 @@
         "id": "Pertempuran itu sangat sengit.",
         "pt": "Foi uma batalha feroz.",
         "my": "ပြင်းထန်တဲ့ တိုက်ပွဲပါ။",
-        "th": "เป็นการต่อสู้ที่ดุเดือด"
+        "th": "เป็นการต่อสู้ที่ดุเดือด",
+        "si": "දරුණු, සටනක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -2103,7 +2517,8 @@
         "id": "sengit.",
         "pt": "feroz.",
         "my": "ပြင်းထန်။",
-        "th": "ดุเดือด"
+        "th": "ดุเดือด",
+        "si": "はげしい = දරුණු."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=159.105,160.947",
       "t": [
@@ -2136,7 +2551,8 @@
         "id": "Akhirnya Panganoron mengalahkan Pagtuga.",
         "pt": "Por fim, Panganoron derrotou Pagtuga.",
         "my": "နောက်ဆုံး ပန်ဂါနိုရွန်က ပက်တူဂါကို အနိုင်ယူတယ်။",
-        "th": "ในที่สุด ปังกาโนรอนก็ล้มปักตูกาได้"
+        "th": "ในที่สุด ปังกาโนรอนก็ล้มปักตูกาได้",
+        "si": "අන්තිමට, පංගනොරොන්, පග්තුගාව, පැරැද්දුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2150,7 +2566,8 @@
         "id": "akhirnya; mengalahkan.",
         "pt": "por fim; derrotar.",
         "my": "နောက်ဆုံး; အနိုင်ယူ။",
-        "th": "ในที่สุด; ล้ม"
+        "th": "ในที่สุด; ล้ม",
+        "si": "最後に = අන්තිමට; たおす = පරදවනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=161.547,166.233",
       "t": [
@@ -2203,7 +2620,8 @@
         "id": "Ayahnya pun kembali ke desa dengan selamat.",
         "pt": "O pai também voltou são e salvo.",
         "my": "အဖေလည်း ဘေးကင်းစွာ ရွာကို ပြန်ရောက်တယ်။",
-        "th": "พ่อก็กลับหมู่บ้านอย่างปลอดภัย"
+        "th": "พ่อก็กลับหมู่บ้านอย่างปลอดภัย",
+        "si": "තාත්තත්, ආරක්ෂිතව, ගමට, ආපහු ආවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2217,7 +2635,8 @@
         "id": "selamat; kembali.",
         "pt": "são e salvo; voltar.",
         "my": "ဘေးကင်း; ပြန်ရောက်။",
-        "th": "ปลอดภัย; กลับมา"
+        "th": "ปลอดภัย; กลับมา",
+        "si": "ぶじに = ආරක්ෂිතව; 「帰ってくる」 = ආපහු එනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=166.833,170.74",
       "t": [
@@ -2254,7 +2673,8 @@
         "id": "\"Panganoron! Syukurlah, sungguh syukur!\"",
         "pt": "\"Panganoron! Que bom, que bom mesmo!\"",
         "my": "\"ပန်ဂါနိုရွန်! ကောင်းလိုက်တာ၊ တကယ် ကောင်းလိုက်တာ!\"",
-        "th": "\"ปังกาโนรอน! ดีจัง ดีจริง ๆ!\""
+        "th": "\"ปังกาโนรอน! ดีจัง ดีจริง ๆ!\"",
+        "si": "\"පංගනොරොන්! හොඳ වෙලාවට, ඇත්තටම හොඳ වෙලාවට!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2268,7 +2688,8 @@
         "id": "syukurlah.",
         "pt": "que bom.",
         "my": "ကောင်းလိုက်တာ။",
-        "th": "ดีจัง"
+        "th": "ดีจัง",
+        "si": "「よかった」 = හොඳ වෙලාවට (සහනය)."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=171.64,174.984",
       "t": [
@@ -2305,7 +2726,8 @@
         "id": "Dengan gembira, Magayon berlari ke Panganoron.",
         "pt": "Feliz, Magayon correu até Panganoron.",
         "my": "ဝမ်းသာလွန်းလို့ မာဂါယွန်က ပန်ဂါနိုရွန်ဆီ ပြေးသွားတယ်။",
-        "th": "มากายอนดีใจ วิ่งไปหาปังกาโนรอน"
+        "th": "มากายอนดีใจ วิ่งไปหาปังกาโนรอน",
+        "si": "මගයොන්, සතුටින්, පංගනොරොන් ළඟට, දුවගෙන ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2319,7 +2741,8 @@
         "id": "karena; ke.",
         "pt": "por; até.",
         "my": "လို့; ဆီ။",
-        "th": "เพราะ; ไปหา"
+        "th": "เพราะ; ไปหา",
+        "si": "「〜くて」 = ~ නිසා; 「〜のところへ」 = ~ ඉන්න තැනට."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=175.884,181.07",
       "t": [
@@ -2376,7 +2799,8 @@
         "id": "Tapi saat itu, sebatang anak panah melesat entah dari mana.",
         "pt": "Mas nesse instante veio uma flecha de algum lugar.",
         "my": "ဒါပေမဲ့ အဲဒီအချိန် ဘယ်ကမှန်းမသိ မြားတစ်စင်း ပျံလာတယ်။",
-        "th": "แต่ตอนนั้น มีลูกธนูดอกหนึ่งพุ่งมาจากที่ไหนไม่รู้"
+        "th": "แต่ตอนนั้น มีลูกธนูดอกหนึ่งพุ่งมาจากที่ไหนไม่รู้",
+        "si": "ඒත්, ඒ වෙලාවේ, කොහෙන් හරි, ඊතලයක්, පියාඹලා ආවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2390,7 +2814,8 @@
         "id": "entah dari mana; melesat.",
         "pt": "de algum lugar; vir voando.",
         "my": "ဘယ်ကမှန်းမသိ; ပျံလာ။",
-        "th": "ที่ไหนไม่รู้; พุ่งมา"
+        "th": "ที่ไหนไม่รู้; พุ่งมา",
+        "si": "「どこからか」 = කොහෙන් හරි; 「飛んでくる」 = පියාඹලා එනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=181.67,187.027",
       "t": [
@@ -2431,7 +2856,8 @@
         "id": "Anak panah itu mengenai punggung Magayon.",
         "pt": "A flecha atingiu as costas de Magayon.",
         "my": "မြားက မာဂါယွန့်ကျောကို ထိတယ်။",
-        "th": "ลูกธนูปักที่หลังมากายอน"
+        "th": "ลูกธนูปักที่หลังมากายอน",
+        "si": "ඊතලය, මගයොන්ගේ පිටේ, වැදුණා."
       },
       "vocab": [
         {
@@ -2448,7 +2874,8 @@
             "id": "mengenai",
             "pt": "acertar",
             "my": "ထိ",
-            "th": "ถูก โดน"
+            "th": "ถูก โดน",
+            "si": "වැදීම, පහර දීම"
           },
           "level": "N3"
         }
@@ -2464,7 +2891,8 @@
         "id": "mengenai; punggung.",
         "pt": "atingir; costas.",
         "my": "ထိ; ကျော။",
-        "th": "โดน; หลัง"
+        "th": "โดน; หลัง",
+        "si": "当たる = වදිනවා; せなか = පිට."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=187.627,191.201",
       "t": [
@@ -2493,7 +2921,8 @@
         "id": "Panganoron memeluk Magayon yang roboh.",
         "pt": "Panganoron abraçou Magayon caída.",
         "my": "ပန်ဂါနိုရွန်က လဲကျနေတဲ့ မာဂါယွန်ကို ဖက်ထားတယ်။",
-        "th": "ปังกาโนรอนกอดมากายอนที่ล้มลง"
+        "th": "ปังกาโนรอนกอดมากายอนที่ล้มลง",
+        "si": "පංගනොරොන්, ඇද වැටුණු මගයොන්ව, තදින් බදාගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2507,7 +2936,8 @@
         "id": "roboh; memeluk.",
         "pt": "caída; abraçar.",
         "my": "လဲကျနေတဲ့; ဖက်။",
-        "th": "ที่ล้ม; กอด"
+        "th": "ที่ล้ม; กอด",
+        "si": "「たおれた〜」 = ඇද වැටුණු ~; だきしめる = තදින් බදාගන්නවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=191.801,196.078",
       "t": [
@@ -2544,7 +2974,8 @@
         "id": "\"Magayon, buka matamu! Magayon!\"",
         "pt": "\"Magayon, abra os olhos! Magayon!\"",
         "my": "\"မာဂါယွန်၊ မျက်လုံးဖွင့်! မာဂါယွန်!\"",
-        "th": "\"มากายอน ลืมตาสิ! มากายอน!\""
+        "th": "\"มากายอน ลืมตาสิ! มากายอน!\"",
+        "si": "\"මගයොන්, ඇස් අරින්න! මගයොන්!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2558,7 +2989,8 @@
         "id": "buka mata.",
         "pt": "abrir os olhos.",
         "my": "မျက်လုံးဖွင့်။",
-        "th": "ลืมตา"
+        "th": "ลืมตา",
+        "si": "「目をあける」 = ඇස් අරිනවා; 「〜て」 විතරක් = හදිසි ඉල්ලීම."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=196.978,199.672",
       "t": [
@@ -2603,7 +3035,8 @@
         "id": "Saat itu, kawanan Pagtuga menyerang Panganoron dari belakang.",
         "pt": "Nesse momento, os homens de Pagtuga atacaram Panganoron por trás.",
         "my": "အဲဒီအချိန် ပက်တူဂါရဲ့ လူတွေက နောက်ကနေ ပန်ဂါနိုရွန်ကို တိုက်ခိုက်တယ်။",
-        "th": "ตอนนั้น พวกของปักตูกาลอบทำร้ายปังกาโนรอนจากด้านหลัง"
+        "th": "ตอนนั้น พวกของปักตูกาลอบทำร้ายปังกาโนรอนจากด้านหลัง",
+        "si": "ඒ වෙලාවේ, පග්තුගාගේ සගයෝ, පිටිපස්සෙන්, පංගනොරොන්ට, පහර දුන්නා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2617,7 +3050,8 @@
         "id": "menyerang; dari belakang.",
         "pt": "atacar; por trás.",
         "my": "တိုက်ခိုက်; နောက်ကနေ။",
-        "th": "ทำร้าย; จากด้านหลัง"
+        "th": "ทำร้าย; จากด้านหลัง",
+        "si": "おそう = පහර දෙනවා; 「うしろから」 = පිටිපස්සෙන්."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=200.572,206.466",
       "t": [
@@ -2646,7 +3080,8 @@
         "id": "Panganoron pun roboh di samping Magayon.",
         "pt": "Panganoron também caiu ao lado de Magayon.",
         "my": "ပန်ဂါနိုရွန်လည်း မာဂါယွန့်ဘေးမှာ လဲကျသွားတယ်။",
-        "th": "ปังกาโนรอนก็ล้มลงข้างมากายอน"
+        "th": "ปังกาโนรอนก็ล้มลงข้างมากายอน",
+        "si": "පංගනොරොනුත්, මගයොන් ළඟ, ඇද වැටුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2660,7 +3095,8 @@
         "id": "di samping.",
         "pt": "ao lado de.",
         "my": "ဘေးမှာ။",
-        "th": "ข้าง"
+        "th": "ข้าง",
+        "si": "「〜のそばに」 = ~ ළඟ."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=207.066,211.566",
       "t": [
@@ -2725,7 +3161,8 @@
         "id": "Warga desa menguburkan keduanya di tempat yang sama.",
         "pt": "Os aldeões enterraram os dois no mesmo lugar.",
         "my": "ရွာသားတွေက နှစ်ယောက်လုံးကို နေရာတစ်ခုတည်းမှာ မြှုပ်တယ်။",
-        "th": "ชาวบ้านฝังทั้งสองไว้ที่เดียวกัน"
+        "th": "ชาวบ้านฝังทั้งสองไว้ที่เดียวกัน",
+        "si": "ගමේ මිනිස්සු, දෙන්නාව, එකම තැන, වළලලා දැම්මා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2739,7 +3176,8 @@
         "id": "mengubur; tempat sama.",
         "pt": "enterrar; mesmo lugar.",
         "my": "မြှုပ်; နေရာတစ်ခုတည်း။",
-        "th": "ฝัง; ที่เดียวกัน"
+        "th": "ฝัง; ที่เดียวกัน",
+        "si": "うめる = වළලනවා; 同じ場所 = එකම තැන."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=212.166,216.395",
       "t": [
@@ -2808,7 +3246,8 @@
         "id": "Anehnya, tanah di sana makin tinggi sedikit demi sedikit setiap hari.",
         "pt": "Estranhamente, a terra ali subia um pouco a cada dia.",
         "my": "ထူးဆန်းတာက အဲဒီနေရာက မြေက နေ့တိုင်း နည်းနည်းချင်း မြင့်လာတယ်။",
-        "th": "แปลกที่ดินตรงนั้นสูงขึ้นทีละนิดทุกวัน"
+        "th": "แปลกที่ดินตรงนั้นสูงขึ้นทีละนิดทุกวัน",
+        "si": "එතකොට, පුදුමයට, ඒ තැන පස, හැමදාම, ටිකෙන් ටික, උස් වෙන්න ගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2822,7 +3261,8 @@
         "id": "sedikit demi sedikit; makin.",
         "pt": "pouco a pouco; ir.",
         "my": "နည်းနည်းချင်း; လာ။",
-        "th": "ทีละนิด; ขึ้นเรื่อย ๆ"
+        "th": "ทีละนิด; ขึ้นเรื่อย ๆ",
+        "si": "「少しずつ」 = ටිකෙන් ටික; 「〜ていく」 = ක්‍රමයෙන් ~ වෙනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=216.995,223.99",
       "t": [
@@ -2879,7 +3319,8 @@
         "id": "Tanah terus meninggi dan akhirnya menjadi gunung indah.",
         "pt": "Continuou subindo e virou uma linda montanha.",
         "my": "မြေက တဖြည်းဖြည်း မြင့်ပြီး နောက်ဆုံး လှပတဲ့ တောင် ဖြစ်လာတယ်။",
-        "th": "ดินสูงขึ้นเรื่อย ๆ จนกลายเป็นภูเขางดงาม"
+        "th": "ดินสูงขึ้นเรื่อย ๆ จนกลายเป็นภูเขางดงาม",
+        "si": "පස, තව තවත් උස් වෙලා, අන්තිමට, ලස්සන කන්දක් වුණා."
       },
       "vocab": [
         {
@@ -2896,7 +3337,8 @@
             "id": "tak lama kemudian",
             "pt": "logo, com o tempo",
             "my": "မကြာမီ",
-            "th": "ไม่นานนัก, ในที่สุด"
+            "th": "ไม่นานนัก, ในที่สุด",
+            "si": "ටික කලකින්, අවසානයේදී"
           },
           "level": "N3"
         }
@@ -2912,7 +3354,8 @@
         "id": "terus; akhirnya.",
         "pt": "cada vez mais; por fim.",
         "my": "တဖြည်းဖြည်း; နောက်ဆုံး။",
-        "th": "เรื่อย ๆ; ในที่สุด"
+        "th": "เรื่อย ๆ; ในที่สุด",
+        "si": "どんどん = තව තවත්; やがて = අන්තිමට."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=224.59,230.071",
       "t": [
@@ -2957,7 +3400,8 @@
         "id": "Inilah Gunung Mayon sekarang.",
         "pt": "Esse é o atual monte Mayon.",
         "my": "ဒါက အခု မာယွန်တောင်ပဲ။",
-        "th": "นี่คือภูเขามายอนในปัจจุบัน"
+        "th": "นี่คือภูเขามายอนในปัจจุบัน",
+        "si": "ඒ තමයි, අද තියෙන, මයොන් කන්ද."
       },
       "vocab": [],
       "grammarNote": {
@@ -2971,7 +3415,8 @@
         "id": "inilah.",
         "pt": "este é.",
         "my": "ဒါက...ပဲ။",
-        "th": "นี่คือ"
+        "th": "นี่คือ",
+        "si": "「これが〜です」 = ඒ තමයි ~."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=230.671,233.394",
       "t": [
@@ -3036,7 +3481,8 @@
         "id": "Konon awan putih di puncak adalah Panganoron yang mencium Magayon.",
         "pt": "Dizem que a nuvem branca no topo é Panganoron beijando Magayon.",
         "my": "တောင်ထိပ်က တိမ်ဖြူက မာဂါယွန်ကို နမ်းနေတဲ့ ပန်ဂါနိုရွန်လို့ ဆိုကြတယ်။",
-        "th": "ว่ากันว่าเมฆขาวบนยอดเขาคือปังกาโนรอนที่จุมพิตมากายอน"
+        "th": "ว่ากันว่าเมฆขาวบนยอดเขาคือปังกาโนรอนที่จุมพิตมากายอน",
+        "si": "කන්ද උඩ තියෙන සුදු වලාකුළ, මගයොන්ව සිපගන්න, පංගනොරොන් කියලා කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3050,7 +3496,8 @@
         "id": "konon.",
         "pt": "dizem.",
         "my": "ဆိုကြတယ်။",
-        "th": "ว่ากันว่า"
+        "th": "ว่ากันว่า",
+        "si": "「〜だと言われています」 = ~ කියලා කියනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=233.994,240.826",
       "t": [
@@ -3103,7 +3550,8 @@
         "id": "Nama \"Panganoron\" berarti \"awan\".",
         "pt": "O nome \"Panganoron\" quer dizer \"nuvem\".",
         "my": "\"ပန်ဂါနိုရွန်\" ဆိုတဲ့ နာမည်က \"တိမ်\" လို့ အဓိပ္ပာယ်ရတယ်။",
-        "th": "ชื่อ \"ปังกาโนรอน\" แปลว่า \"เมฆ\""
+        "th": "ชื่อ \"ปังกาโนรอน\" แปลว่า \"เมฆ\"",
+        "si": "\"පංගනොරොන්\" කියන නමේ තේරුම, \"වලාකුළ\"."
       },
       "vocab": [],
       "grammarNote": {
@@ -3117,7 +3565,8 @@
         "id": "berarti.",
         "pt": "quer dizer.",
         "my": "အဓိပ္ပာယ်ရ။",
-        "th": "แปลว่า"
+        "th": "แปลว่า",
+        "si": "「〜という意味なのです」 = ~ කියන තේරුම (පැහැදිලි කිරීම)."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=241.426,245.815",
       "t": [
@@ -3162,7 +3611,8 @@
         "id": "Konon gunung itu kadang meletus karena Pagtuga masih marah.",
         "pt": "Dizem que o vulcão às vezes entra em erupção porque Pagtuga ainda está zangado.",
         "my": "မီးတောင် တခါတလေ မီးပန်းတာက ပက်တူဂါ စိတ်ဆိုးနေသေးလို့ ဆိုကြတယ်။",
-        "th": "ว่ากันว่าภูเขาไฟพ่นไฟบางครั้ง เพราะปักตูกายังโกรธอยู่"
+        "th": "ว่ากันว่าภูเขาไฟพ่นไฟบางครั้ง เพราะปักตูกายังโกรธอยู่",
+        "si": "ඒ වගේම, සමහර වෙලාවට ගිනිකන්ද පුපුරන්නේ, පග්තුගා, තාමත් කේන්තියෙන් ඉන්න නිසාලු."
       },
       "vocab": [],
       "grammarNote": {
@@ -3176,7 +3626,8 @@
         "id": "konon karena; meletus.",
         "pt": "dizem que porque; entrar em erupção.",
         "my": "တာက...လို့ ဆိုကြ; မီးပန်း။",
-        "th": "ว่ากันว่า...เพราะ; พ่นไฟ"
+        "th": "ว่ากันว่า...เพราะ; พ่นไฟ",
+        "si": "「〜のは、〜からだそうです」 = ~ වෙන්නේ ~ නිසාලු; 火をふく = පුපුරනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=246.415,252.902",
       "t": [
@@ -3245,7 +3696,8 @@
         "id": "Nah, Jepang juga punya kisah sedih tentang gunung dan cinta.",
         "pt": "Pois bem, o Japão também tem uma triste história de montanha e amor.",
         "my": "ကဲ၊ ဂျပန်မှာလည်း တောင်နဲ့ အချစ်ရဲ့ ဝမ်းနည်းစရာ ပုံပြင် ရှိတယ်။",
-        "th": "เอาล่ะ ญี่ปุ่นก็มีเรื่องเศร้าเกี่ยวกับภูเขาและความรัก"
+        "th": "เอาล่ะ ญี่ปุ่นก็มีเรื่องเศร้าเกี่ยวกับภูเขาและความรัก",
+        "si": "හරි, ජපානයෙත්, කන්දකුයි ආදරයකුයි ගැන, දුක්බර කතාවක් තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3259,7 +3711,8 @@
         "id": "nah; tentang.",
         "pt": "pois bem; de.",
         "my": "ကဲ; ရဲ့။",
-        "th": "เอาล่ะ; ของ"
+        "th": "เอาล่ะ; ของ",
+        "si": "さて = හරි; 「〜と〜の」 = ~ සහ ~ ගැන."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=253.502,258.616",
       "t": [
@@ -3328,7 +3781,8 @@
         "id": "Itulah adegan akhir \"Kisah Penebang Bambu\", kisah Putri Kaguya.",
         "pt": "É a cena final do \"Conto do cortador de bambu\", a história da princesa Kaguya.",
         "my": "\"ဝါးခုတ်သမား ပုံပြင်\"၊ ကာဂုယာ မင်းသမီး ပုံပြင်ရဲ့ နောက်ဆုံးအခန်းပါ။",
-        "th": "คือฉากสุดท้ายของ \"ตำนานคนตัดไผ่\" เรื่องเจ้าหญิงคางุยะ"
+        "th": "คือฉากสุดท้ายของ \"ตำนานคนตัดไผ่\" เรื่องเจ้าหญิงคางุยะ",
+        "si": "ඒ, \"උණ කපන්නාගේ කතාව\", කගුයා කුමරියගේ කතාවේ, අන්තිම දර්ශනය."
       },
       "vocab": [],
       "grammarNote": {
@@ -3342,7 +3796,8 @@
         "id": "adegan; akhir.",
         "pt": "cena; final.",
         "my": "အခန်း; နောက်ဆုံး။",
-        "th": "ฉาก; สุดท้าย"
+        "th": "ฉาก; สุดท้าย",
+        "si": "場面 = දර්ශනය; 最後の = අන්තිම."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=259.216,265.159",
       "t": [
@@ -3419,7 +3874,8 @@
         "id": "Saat kembali ke bulan, Kaguya meninggalkan surat dan obat ajaib untuk kaisar.",
         "pt": "Ao voltar à lua, Kaguya deixou ao imperador uma carta e um remédio misterioso.",
         "my": "လကို ပြန်တဲ့အခါ ကာဂုယာက ဧကရာဇ်ကို စာနဲ့ ထူးဆန်းတဲ့ ဆေး ထားခဲ့တယ်။",
-        "th": "ตอนกลับดวงจันทร์ คางุยะทิ้งจดหมายและยาวิเศษไว้ให้จักรพรรดิ"
+        "th": "ตอนกลับดวงจันทร์ คางุยะทิ้งจดหมายและยาวิเศษไว้ให้จักรพรรดิ",
+        "si": "කගුයා කුමරිය, සඳට ආපහු යද්දී, අධිරාජයාට, ලියුමකුයි, පුදුම බෙහෙතකුයි, තියලා ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3433,7 +3889,8 @@
         "id": "kaisar; obat; meninggalkan.",
         "pt": "imperador; remédio; deixar.",
         "my": "ဧကရာဇ်; ဆေး; ထားခဲ့။",
-        "th": "จักรพรรดิ; ยา; ทิ้งไว้"
+        "th": "จักรพรรดิ; ยา; ทิ้งไว้",
+        "si": "帝 = අධිරාජයා; 薬 = බෙහෙත; のこす = තියලා යනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=265.759,272.752",
       "t": [
@@ -3486,7 +3943,8 @@
         "id": "Itulah \"obat keabadian\" yang membuat tak pernah mati.",
         "pt": "Era o \"elixir da imortalidade\".",
         "my": "အဲဒါက ဘယ်တော့မှ မသေစေတဲ့ \"အမြိုက်ဆေး\" ပါ။",
-        "th": "นั่นคือ \"ยาอมตะ\" ที่ทำให้ไม่มีวันตาย"
+        "th": "นั่นคือ \"ยาอมตะ\" ที่ทำให้ไม่มีวันตาย",
+        "si": "ඒ, කවදාවත් නොමැරෙන, \"අමරණීය බෙහෙත\"."
       },
       "vocab": [
         {
@@ -3503,7 +3961,8 @@
             "id": "terus-menerus",
             "pt": "o tempo todo",
             "my": "တောက်လျှောက်",
-            "th": "ตลอด"
+            "th": "ตลอด",
+            "si": "දිගටම, මුළු කාලයම"
           },
           "level": "N3"
         }
@@ -3519,7 +3978,8 @@
         "id": "abadi; tak pernah.",
         "pt": "imortal; nunca.",
         "my": "မသေ; ဘယ်တော့မှ။",
-        "th": "อมตะ; ไม่มีวัน"
+        "th": "อมตะ; ไม่มีวัน",
+        "si": "不死 = අමරණීය; 「ずっと〜ない」 = කවදාවත් ~ නැහැ."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=273.352,277.154",
       "t": [
@@ -3596,7 +4056,8 @@
         "id": "Tapi kaisar berkata, \"Tak ada gunanya hidup lama di dunia tanpa dia.\"",
         "pt": "Mas o imperador disse: \"Não adianta viver muito num mundo sem ela.\"",
         "my": "ဒါပေမဲ့ ဧကရာဇ်က \"မင်းသမီး မရှိတဲ့ ကမ္ဘာမှာ ကြာကြာ အသက်ရှင်လည်း အကျိုးမရှိဘူး\" လို့ ပြောတယ်။",
-        "th": "แต่จักรพรรดิตรัสว่า \"อยู่นานในโลกที่ไม่มีนาง ก็ไร้ความหมาย\""
+        "th": "แต่จักรพรรดิตรัสว่า \"อยู่นานในโลกที่ไม่มีนาง ก็ไร้ความหมาย\"",
+        "si": "ඒත්, අධිරාජයා, \"කුමරිය නැති ලෝකයක, කාලයක් ජීවත් වුණත්, වැඩක් නැහැ\" කිව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3610,7 +4071,8 @@
         "id": "tak ada gunanya.",
         "pt": "não adianta.",
         "my": "လည်း အကျိုးမရှိ။",
-        "th": "ก็ไร้ความหมาย"
+        "th": "ก็ไร้ความหมาย",
+        "si": "「〜ても、しかたがない」 = ~ වුණත් වැඩක් නැහැ."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=277.754,284.226",
       "t": [
@@ -3679,7 +4141,8 @@
         "id": "Lalu ia menyuruh membakar surat dan obat itu di puncak gunung tertinggi.",
         "pt": "E mandou queimar a carta e o remédio no topo da montanha mais alta.",
         "my": "ပြီးတော့ အမြင့်ဆုံးတောင်ထိပ်မှာ စာနဲ့ ဆေးကို မီးရှို့ခိုင်းတယ်။",
-        "th": "แล้วรับสั่งให้เผาจดหมายและยาบนยอดเขาที่สูงที่สุด"
+        "th": "แล้วรับสั่งให้เผาจดหมายและยาบนยอดเขาที่สูงที่สุด",
+        "si": "ඊට පස්සේ, උසම කන්ද උඩ, ලියුමයි බෙහෙතයි, පුච්චන්න සැලැස්සුවා."
       },
       "vocab": [
         {
@@ -3696,7 +4159,8 @@
             "id": "membakar",
             "pt": "queimar",
             "my": "မီးရှို့",
-            "th": "เผา"
+            "th": "เผา",
+            "si": "දැවීම"
           },
           "level": "N2"
         }
@@ -3712,7 +4176,8 @@
         "id": "menyuruh; membakar.",
         "pt": "mandar; queimar.",
         "my": "ခိုင်း; မီးရှို့။",
-        "th": "ให้; เผา"
+        "th": "ให้; เผา",
+        "si": "「〜させる」 = ~ කරවනවා; もやす = පුච්චනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=284.826,290.822",
       "t": [
@@ -3765,7 +4230,8 @@
         "id": "Tertulis bahwa asap itu masih naik ke langit sampai kini.",
         "pt": "Está escrito que a fumaça ainda sobe ao céu.",
         "my": "အဲဒီ မီးခိုးက အခုထိ ကောင်းကင်ကို တက်နေတယ်လို့ ရေးထားတယ်။",
-        "th": "มีบันทึกว่าควันนั้นยังลอยขึ้นฟ้าจนทุกวันนี้"
+        "th": "มีบันทึกว่าควันนั้นยังลอยขึ้นฟ้าจนทุกวันนี้",
+        "si": "ඒ දුම, අදටත්, අහසට, නගිනවා කියලා, ලියලා තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3779,7 +4245,8 @@
         "id": "asap; tertulis.",
         "pt": "fumaça; está escrito.",
         "my": "မီးခိုး; ရေးထား။",
-        "th": "ควัน; บันทึกว่า"
+        "th": "ควัน; บันทึกว่า",
+        "si": "けむり = දුම; 「〜と書かれています」 = ~ කියලා ලියලා තියෙනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=291.422,297.024",
       "t": [
@@ -3856,7 +4323,8 @@
         "id": "Gunung itu adalah Gunung Fuji. \"Fushi\" dan \"Fuji\" bunyinya sama, ya.",
         "pt": "Essa montanha é o monte Fuji. \"Fushi\" e \"Fuji\" soam igual, não?",
         "my": "အဲဒီတောင်က ဖူဂျီတောင်ပါ။ \"ဖူရှိ\" နဲ့ \"ဖူဂျီ\" အသံ တူတယ်နော်။",
-        "th": "ภูเขานั้นคือภูเขาไฟฟูจิ \"ฟุชิ\" กับ \"ฟูจิ\" ออกเสียงเหมือนกันนะ"
+        "th": "ภูเขานั้นคือภูเขาไฟฟูจิ \"ฟุชิ\" กับ \"ฟูจิ\" ออกเสียงเหมือนกันนะ",
+        "si": "මේ කන්ද, ෆුජි කන්ද. \"ෆුෂි\" (අමරණීය) සහ \"ෆුජි\", එකම වගේ ඇහෙනවා නේද."
       },
       "vocab": [],
       "grammarNote": {
@@ -3870,7 +4338,8 @@
         "id": "bunyi sama; ya.",
         "pt": "mesmo som; não.",
         "my": "အသံတူ; နော်။",
-        "th": "เสียงเหมือน; นะ"
+        "th": "เสียงเหมือน; นะ",
+        "si": "同じ音 = එකම ශබ්දය; 「〜ですね」 = නේද."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=297.624,303.348",
       "t": [
@@ -3939,7 +4408,8 @@
         "id": "Gunung Mayon di Filipina dan Gunung Fuji di Jepang sama-sama gunung berapi yang indah bentuknya.",
         "pt": "O monte Mayon e o monte Fuji são vulcões de forma bonita.",
         "my": "ဖိလစ်ပိုင်က မာယွန်တောင်ရော ဂျပန်က ဖူဂျီတောင်ရော ပုံလှတဲ့ မီးတောင်တွေပါ။",
-        "th": "ทั้งภูเขามายอนของฟิลิปปินส์และภูเขาฟูจิของญี่ปุ่น ล้วนเป็นภูเขาไฟรูปทรงงาม"
+        "th": "ทั้งภูเขามายอนของฟิลิปปินส์และภูเขาฟูจิของญี่ปุ่น ล้วนเป็นภูเขาไฟรูปทรงงาม",
+        "si": "පිලිපීනයේ මයොන් කන්දත්, ජපානයේ ෆුජි කන්දත්, ලස්සන හැඩයක් තියෙන, ගිනිකඳු."
       },
       "vocab": [],
       "grammarNote": {
@@ -3953,7 +4423,8 @@
         "id": "sama-sama; bentuk.",
         "pt": "ambos; forma.",
         "my": "ရော...ရော; ပုံ။",
-        "th": "ทั้ง...และ; รูปทรง"
+        "th": "ทั้ง...และ; รูปทรง",
+        "si": "「〜も、〜も」 = ~ ත් ~ ත්; 形 = හැඩය."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=303.948,309.925",
       "t": [
@@ -4022,7 +4493,8 @@
         "id": "Dan di kedua gunung tersimpan hati yang merindukan orang yang tak bisa ditemui lagi.",
         "pt": "E nas duas montanhas fica um coração que sente saudade de quem não se pode mais ver.",
         "my": "တောင်နှစ်ခုလုံးမှာ ပြန်မတွေ့ရတော့တဲ့သူကို လွမ်းတဲ့ စိတ် ကျန်နေတာပေါ့။",
-        "th": "และบนภูเขาทั้งสอง ยังมีใจที่คิดถึงคนที่ไม่อาจพบได้อีก"
+        "th": "และบนภูเขาทั้งสอง ยังมีใจที่คิดถึงคนที่ไม่อาจพบได้อีก",
+        "si": "ඒ වගේම, කඳු දෙකේම, ආයෙත් හම්බ වෙන්න බැරි කෙනෙක් ගැන හිතන, හිතක්, ඉතුරු වෙලා තියෙනවා නේද."
       },
       "vocab": [],
       "grammarNote": {
@@ -4036,7 +4508,8 @@
         "id": "tak bisa ditemui; merindukan.",
         "pt": "não se pode ver; saudade.",
         "my": "မတွေ့ရတော့တဲ့; လွမ်း။",
-        "th": "ไม่อาจพบ; คิดถึง"
+        "th": "ไม่อาจพบ; คิดถึง",
+        "si": "「会えなくなった〜」 = ආයෙත් හම්බ වෙන්න බැරි ~; 「〜を思う」 = ~ ගැන හිතනවා, සිහි කරනවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=310.525,318.042",
       "t": [
@@ -4113,7 +4586,8 @@
         "id": "Kalau melihat awan di Gunung Mayon, ingatlah mereka berdua.",
         "pt": "Ao ver as nuvens do Mayon, lembre-se dos dois.",
         "my": "မာယွန်တောင်ပေါ်က တိမ်ကို မြင်ရင် သူတို့နှစ်ယောက်ကို သတိရပါ။",
-        "th": "เมื่อเห็นเมฆบนภูเขามายอน ลองนึกถึงทั้งสองนะ"
+        "th": "เมื่อเห็นเมฆบนภูเขามายอน ลองนึกถึงทั้งสองนะ",
+        "si": "මයොන් කන්දේ වලාකුළු දැක්කොත්, දෙන්නාව, මතක් කරගන්න."
       },
       "vocab": [],
       "grammarNote": {
@@ -4127,7 +4601,8 @@
         "id": "kalau; ingatlah.",
         "pt": "ao; lembrar.",
         "my": "ရင်; သတိရ။",
-        "th": "เมื่อ; นึกถึง"
+        "th": "เมื่อ; นึกถึง",
+        "si": "「〜たら」 = ~ දැක්කොත්; 「〜のことを思い出す」 = ~ මතක් කරගන්නවා."
       },
       "audio": "/audio/furusato-ph-magayon-1/chapter.mp3#t=318.642,323.38",
       "t": [

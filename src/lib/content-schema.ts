@@ -15,6 +15,7 @@ export const LANGUAGE_CODES = [
   "pt",
   "my",
   "th",
+  "si",
 ] as const;
 
 export type LanguageCode = (typeof LANGUAGE_CODES)[number];
@@ -107,6 +108,8 @@ export interface GrammarPoint {
   meaning: Translations;
   /** Chỉ số câu ví dụ trong sentences (từ 0) */
   example: number;
+  /** Furigana của pattern khi có kanji (scripts/lesson-furigana.mjs sinh) */
+  patternFurigana?: FuriganaSegment[];
 }
 
 /** Câu hỏi hiểu bài sau chương. Câu hỏi và lựa chọn bằng tiếng Nhật đúng cấp. */
@@ -117,6 +120,9 @@ export interface QuizQuestion {
   answer: number;
   /** Giải thích đáp án, 11 ngôn ngữ */
   explain: Translations;
+  /** Furigana của câu hỏi và từng lựa chọn khi có kanji (scripts/lesson-furigana.mjs sinh) */
+  jaFurigana?: FuriganaSegment[];
+  choicesFurigana?: FuriganaSegment[][];
 }
 
 export interface Lesson {
@@ -135,6 +141,8 @@ export interface StoryContent {
   source: "original" | "aozora-adapted";
   /** Mô tả ảnh bìa hoặc đường dẫn ảnh bìa */
   cover: string;
+  /** Bìa có bản riêng cho từng ngôn ngữ (public/covers/<id>.<lang>.webp), in tên sách theo ngôn ngữ người đọc */
+  coverLangs?: LanguageCode[];
   sentences: StorySentence[];
   free: boolean;
   /** 2 = đã đạt chuẩn nội dung v2 (docs/content-standard.md); thiếu = gói cũ */
@@ -146,7 +154,8 @@ export interface StoryContent {
   /** Gói v2: thẻ Bài học (2–4 điểm ngữ pháp, 3–5 câu hỏi) */
   lesson?: Lesson;
   /** Kệ hiển thị trong tab Truyện */
-  shelf?: "literature" | "mystery" | "ghost" | "rakugo" | "folktale-jp" | "hometown" | "world" | "life-series" | "life";
+  shelf?: "literature" | "mystery" | "ghost" | "rakugo" | "folktale-jp" | "hometown" | "world" | "life-series" | "life" | "wisdom"
+    | "vn-lit" | "book-people" | "book-mind" | "book-spirit" | "book-east" | "book-health";
   /** Truyện quê hương: mã nước ISO 3166 (VN, KR, CN, PH, ID, TH, NP, MM, BR) */
   origin?: string;
 }

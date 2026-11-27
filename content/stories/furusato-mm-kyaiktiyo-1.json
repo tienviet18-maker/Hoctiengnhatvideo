@@ -12,7 +12,8 @@
     "id": "Legenda Batu Emas",
     "pt": "A lenda da Rocha Dourada",
     "my": "ကျိုက်ထီးရိုး ဆံတော်ရှင် ပုံပြင်",
-    "th": "ตำนานพระธาตุอินทร์แขวน"
+    "th": "ตำนานพระธาตุอินทร์แขวน",
+    "si": "රන් ගලේ ජනප්‍රවාදය"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -42,8 +43,23 @@
           "id": "Tampaknya akan ~.",
           "pt": "Parece que vai ~.",
           "my": "~ မလိုပဲ။",
-          "th": "ดูเหมือนจะ ~"
-        }
+          "th": "ดูเหมือนจะ ~",
+          "si": "~ වෙන්න වගේ (පෙනුම)."
+        },
+        "patternFurigana": [
+          {
+            "surface": "〜そうです (",
+            "reading": ""
+          },
+          {
+            "surface": "様子",
+            "reading": "ようす"
+          },
+          {
+            "surface": ")",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜てほしい",
@@ -59,7 +75,8 @@
           "id": "Ingin orang lain ~.",
           "pt": "Querer que alguém ~.",
           "my": "~ စေချင်တယ်။",
-          "th": "อยากให้ ~"
+          "th": "อยากให้ ~",
+          "si": "කෙනෙක් ~ කරනවා නම් හොඳයි කියලා හිතෙනවා."
         }
       },
       {
@@ -76,7 +93,8 @@
           "id": "Meski ~ maupun ~.",
           "pt": "Mesmo que ~ ou ~.",
           "my": "~ လည်း ~ လည်း။",
-          "th": "แม้ ~ หรือ ~"
+          "th": "แม้ ~ หรือ ~",
+          "si": "~ වුණත්, ~ වුණත් (වෙනසක් නැහැ)."
         }
       },
       {
@@ -93,7 +111,8 @@
           "id": "Hanya ~.",
           "pt": "Só ~.",
           "my": "~ ပဲ။",
-          "th": "เพียง ~"
+          "th": "เพียง ~",
+          "si": "~ විතරයි."
         }
       }
     ],
@@ -118,8 +137,77 @@
           "id": "Sehelai rambut.",
           "pt": "Um fio de cabelo.",
           "my": "ဆံတော် တစ်ချောင်း။",
-          "th": "เส้นผมหนึ่งเส้น"
-        }
+          "th": "เส้นผมหนึ่งเส้น",
+          "si": "කෙස් ගසක්."
+        },
+        "jaFurigana": [
+          {
+            "surface": "おしゃかさまは、おじいさんに、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をくれましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "かみの",
+              "reading": ""
+            },
+            {
+              "surface": "毛",
+              "reading": "け"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "一本",
+              "reading": "いっぽん"
+            }
+          ],
+          [
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "石",
+              "reading": "いし"
+            }
+          ],
+          [
+            {
+              "surface": "小",
+              "reading": "ちい"
+            },
+            {
+              "surface": "さな",
+              "reading": ""
+            },
+            {
+              "surface": "船",
+              "reading": "ふね"
+            }
+          ],
+          [
+            {
+              "surface": "ろうそく",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "わかい王は、どこで、石を見つけましたか。",
@@ -141,8 +229,105 @@
           "id": "Di dalam laut.",
           "pt": "No fundo do mar.",
           "my": "ပင်လယ်ထဲ။",
-          "th": "ในทะเล"
-        }
+          "th": "ในทะเล",
+          "si": "මුහුදේ ගැඹුරේ."
+        },
+        "jaFurigana": [
+          {
+            "surface": "わかい",
+            "reading": ""
+          },
+          {
+            "surface": "王",
+            "reading": "おう"
+          },
+          {
+            "surface": "は、どこで、",
+            "reading": ""
+          },
+          {
+            "surface": "石",
+            "reading": "いし"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "見",
+            "reading": "み"
+          },
+          {
+            "surface": "つけましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "海",
+              "reading": "うみ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "中",
+              "reading": "なか"
+            }
+          ],
+          [
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "上",
+              "reading": "うえ"
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "寺",
+              "reading": "てら"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "中",
+              "reading": "なか"
+            }
+          ],
+          [
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "近",
+              "reading": "ちか"
+            },
+            {
+              "surface": "く",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "どうして、石は、金色なのですか。",
@@ -164,8 +349,117 @@
           "id": "Pria menempelkan emas.",
           "pt": "Os homens colam ouro.",
           "my": "ယောက်ျားတွေ ရွှေဆိုင်းကပ်လို့။",
-          "th": "เพราะผู้ชายปิดทอง"
-        }
+          "th": "เพราะผู้ชายปิดทอง",
+          "si": "පිරිමි අය ඒකට රන් කොළ අලවනවා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "どうして、",
+            "reading": ""
+          },
+          {
+            "surface": "石",
+            "reading": "いし"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "金色",
+            "reading": "きんいろ"
+          },
+          {
+            "surface": "なのですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "男",
+              "reading": "おとこ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            },
+            {
+              "surface": "が、",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "紙",
+              "reading": "かみ"
+            },
+            {
+              "surface": "をつけるから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "石",
+              "reading": "いし"
+            },
+            {
+              "surface": "が、",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "でできているから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "おしゃかさまが、",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "きん"
+            },
+            {
+              "surface": "にしたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "夜",
+              "reading": "よる"
+            },
+            {
+              "surface": "、",
+              "reading": ""
+            },
+            {
+              "surface": "火",
+              "reading": "ひ"
+            },
+            {
+              "surface": "をつけるから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "日本の要石は、何をおさえていると言われていますか。",
@@ -187,8 +481,81 @@
           "id": "Kepala ikan lele raksasa.",
           "pt": "A cabeça de um bagre gigante.",
           "my": "ငါးခူကြီးရဲ့ ခေါင်း။",
-          "th": "หัวปลาดุกยักษ์"
-        }
+          "th": "หัวปลาดุกยักษ์",
+          "si": "ලොකු අඳ මාළුවෙකුගේ ඔළුව."
+        },
+        "jaFurigana": [
+          {
+            "surface": "日本",
+            "reading": "にほん"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "要石",
+            "reading": "かなめいし"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をおさえていると",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "われていますか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "大",
+              "reading": "おお"
+            },
+            {
+              "surface": "きなナマズの",
+              "reading": ""
+            },
+            {
+              "surface": "頭",
+              "reading": "あたま"
+            }
+          ],
+          [
+            {
+              "surface": "竜",
+              "reading": "りゅう"
+            },
+            {
+              "surface": "のしっぽ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "船",
+              "reading": "ふね"
+            }
+          ],
+          [
+            {
+              "surface": "山",
+              "reading": "やま"
+            }
+          ]
+        ]
       }
     ]
   },
@@ -245,7 +612,8 @@
         "id": "Di atas gunung di Myanmar ada batu yang sangat besar.",
         "pt": "No alto de uma montanha em Mianmar há uma pedra enorme.",
         "my": "မြန်မာပြည်က တောင်ပေါ်မှာ အရမ်းကြီးတဲ့ ကျောက်တုံး ရှိတယ်။",
-        "th": "บนภูเขาในพม่ามีก้อนหินใหญ่มาก"
+        "th": "บนภูเขาในพม่ามีก้อนหินใหญ่มาก",
+        "si": "මියන්මාරයේ කන්දක් උඩ, හරිම ලොකු ගලක්, තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -259,7 +627,8 @@
         "id": "di atas ~ ada.",
         "pt": "em cima de ~ há.",
         "my": "ပေါ်မှာ ရှိ။",
-        "th": "บน ~ มี"
+        "th": "บน ~ มี",
+        "si": "「〜の上に〜があります」 = ~ උඩ ~ තියෙනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=0.3,4.772",
       "t": [
@@ -308,7 +677,8 @@
         "id": "Batu bulat itu bertengger di tepi gunung.",
         "pt": "A pedra redonda fica na beira da montanha.",
         "my": "ကျောက်လုံးဝိုင်းက တောင်စွန်းမှာ တင်နေတယ်။",
-        "th": "หินกลมวางอยู่ริมขอบภูเขา"
+        "th": "หินกลมวางอยู่ริมขอบภูเขา",
+        "si": "රවුම් ගලක්, කන්දේ, කෙළවරේම, තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -322,7 +692,8 @@
         "id": "tepi; bertengger.",
         "pt": "beira; ficar sobre.",
         "my": "အစွန်း; တင်။",
-        "th": "ขอบ; วางบน"
+        "th": "ขอบ; วางบน",
+        "si": "はしっこ = කෙළවර; 「〜にのる」 = ~ උඩ තියෙනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=5.372,10.019",
       "t": [
@@ -367,7 +738,8 @@
         "id": "Tampak hampir jatuh. Tapi tak pernah jatuh.",
         "pt": "Parece que vai cair. Mas nunca cai.",
         "my": "ချက်ချင်း ပြုတ်ကျမလိုပဲ။ ဒါပေမဲ့ လုံးဝ မကျဘူး။",
-        "th": "ดูเหมือนจะตกลงมา แต่ไม่ตกเลย"
+        "th": "ดูเหมือนจะตกลงมา แต่ไม่ตกเลย",
+        "si": "දැන්ම, වැටෙන්න වගේ. ඒත්, කවදාවත්, වැටෙන්නේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -381,7 +753,8 @@
         "id": "tampak; tak pernah.",
         "pt": "parecer; nunca.",
         "my": "မလိုပဲ; လုံးဝ။",
-        "th": "ดูเหมือน; เลย"
+        "th": "ดูเหมือน; เลย",
+        "si": "「〜そうです」 = ~ වෙන්න වගේ; ぜったいに = කවදාවත්, කොහෙත්ම."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=10.619,16.043",
       "t": [
@@ -430,7 +803,8 @@
         "id": "Batu itu berkilau keemasan.",
         "pt": "A pedra brilha dourada.",
         "my": "ကျောက်က ရွှေရောင် တောက်နေတယ်။",
-        "th": "หินเปล่งประกายสีทอง"
+        "th": "หินเปล่งประกายสีทอง",
+        "si": "ගල, රන් පාටින්, දිලිසෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -444,7 +818,8 @@
         "id": "keemasan; berkilau.",
         "pt": "dourado; brilhar.",
         "my": "ရွှေရောင်; တောက်။",
-        "th": "สีทอง; เปล่งแสง"
+        "th": "สีทอง; เปล่งแสง",
+        "si": "金色 = රන් පාට; 光る = දිලිසෙනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=16.643,19.706",
       "t": [
@@ -489,7 +864,8 @@
         "id": "Batu ini disebut \"Golden Rock\", batu emas.",
         "pt": "É chamada \"Golden Rock\", a pedra de ouro.",
         "my": "\"ရွှေကျောက်\" လို့ ခေါ်ကြတယ်။",
-        "th": "เรียกกันว่า \"โกลเดนร็อก\" หินทองคำ"
+        "th": "เรียกกันว่า \"โกลเดนร็อก\" หินทองคำ",
+        "si": "\"ගෝල්ඩන් රොක්\", රන් ගල කියලා, කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -503,7 +879,8 @@
         "id": "disebut.",
         "pt": "é chamada.",
         "my": "လို့ ခေါ်ကြ။",
-        "th": "เรียกว่า"
+        "th": "เรียกว่า",
+        "si": "「〜と、よばれています」 = ~ කියලා කියනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=20.306,24.199",
       "t": [
@@ -548,7 +925,8 @@
         "id": "Mengapa batu ini tidak jatuh?",
         "pt": "Por que esta pedra não cai?",
         "my": "ဒီကျောက် ဘာလို့ မကျတာလဲ။",
-        "th": "ทำไมหินก้อนนี้ไม่ตกนะ"
+        "th": "ทำไมหินก้อนนี้ไม่ตกนะ",
+        "si": "ඇයි, මේ ගල, වැටෙන්නේ නැත්තේ?"
       },
       "vocab": [],
       "grammarNote": {
@@ -562,7 +940,8 @@
         "id": "ya?",
         "pt": "será?",
         "my": "လဲ။",
-        "th": "นะ"
+        "th": "นะ",
+        "si": "「〜のでしょうか」 = ඇයි ~ ද දන්නේ නැහැ."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=24.799,28.544",
       "t": [
@@ -611,7 +990,8 @@
         "id": "Dahulu, di gunung tinggal kakek bernama Taik Tha.",
         "pt": "Antigamente, um velho chamado Taik Tha vivia nas montanhas.",
         "my": "ရှေးတုန်းက တောင်ထဲမှာ တိဿ ဆိုတဲ့ အဘိုးအို နေတယ်။",
-        "th": "กาลครั้งหนึ่ง ในป่าเขามีชายชราชื่อไตก์ทาอาศัยอยู่"
+        "th": "กาลครั้งหนึ่ง ในป่าเขามีชายชราชื่อไตก์ทาอาศัยอยู่",
+        "si": "ඉස්සර, කන්දේ, තයික් තා කියලා, සීයා කෙනෙක්, ජීවත් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -625,7 +1005,8 @@
         "id": "bernama.",
         "pt": "chamado.",
         "my": "ဆိုတဲ့။",
-        "th": "ชื่อ"
+        "th": "ชื่อ",
+        "si": "「〜という〜」 = ~ කියලා ~."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=29.144,34.887",
       "t": [
@@ -678,7 +1059,8 @@
         "id": "Setiap hari ia berdoa sendirian dengan tenang.",
         "pt": "Todos os dias, rezava sozinho em silêncio.",
         "my": "နေ့တိုင်း တစ်ယောက်တည်း တိတ်တိတ်လေး ဆုတောင်းတယ်။",
-        "th": "ทุกวันเขาสวดภาวนาอย่างสงบตามลำพัง"
+        "th": "ทุกวันเขาสวดภาวนาอย่างสงบตามลำพัง",
+        "si": "සීයා, හැමදාම, තනියම, නිහඬව, භාවනා කරලා යාච්ඤා කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -692,7 +1074,8 @@
         "id": "doa; tenang.",
         "pt": "oração; em silêncio.",
         "my": "ဆုတောင်း; တိတ်တိတ်။",
-        "th": "สวดภาวนา; สงบ"
+        "th": "สวดภาวนา; สงบ",
+        "si": "お祈り = යාච්ඤාව, වැඳීම; しずかに = නිහඬව."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=35.487,41.623",
       "t": [
@@ -745,7 +1128,8 @@
         "id": "Suatu hari, Sang Buddha datang menemuinya.",
         "pt": "Um dia, o Buda veio vê-lo.",
         "my": "တစ်နေ့ ဘုရားရှင် ကြွလာတယ်။",
-        "th": "วันหนึ่ง พระพุทธเจ้าเสด็จมาพบเขา"
+        "th": "วันหนึ่ง พระพุทธเจ้าเสด็จมาพบเขา",
+        "si": "දවසක්, බුදුරජාණන් වහන්සේ, සීයාව බලන්න වැඩම කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -759,7 +1143,8 @@
         "id": "Buddha; datang menemui.",
         "pt": "Buda; vir ver.",
         "my": "ဘုရားရှင်; ကြွလာ။",
-        "th": "พระพุทธเจ้า; มาพบ"
+        "th": "พระพุทธเจ้า; มาพบ",
+        "si": "おしゃかさま = බුදුරජාණන් වහන්සේ; 「会いに来る」 = බලන්න එනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=42.223,47.14",
       "t": [
@@ -812,7 +1197,8 @@
         "id": "Beliau memberinya sehelai rambut-Nya.",
         "pt": "Deu-lhe um fio do próprio cabelo.",
         "my": "ကိုယ်တော်ရဲ့ ဆံတော် တစ်ချောင်း ပေးတယ်။",
-        "th": "ประทานเส้นพระเกศาหนึ่งเส้น"
+        "th": "ประทานเส้นพระเกศาหนึ่งเส้น",
+        "si": "බුදුරජාණන් වහන්සේ, තමන්ගේ කෙස් ගසක්, දුන්නා."
       },
       "vocab": [
         {
@@ -829,7 +1215,8 @@
             "id": "memberi (kepadaku)",
             "pt": "dar (a mim)",
             "my": "ပေး (ကျွန်ုပ်ကို)",
-            "th": "ให้ (ฉัน)"
+            "th": "ให้ (ฉัน)",
+            "si": "(මට) දීම, මට කර දීම"
           },
           "level": "N4"
         }
@@ -845,7 +1232,8 @@
         "id": "rambut; sehelai.",
         "pt": "cabelo; um fio.",
         "my": "ဆံပင်; တစ်ချောင်း။",
-        "th": "ผม; หนึ่งเส้น"
+        "th": "ผม; หนึ่งเส้น",
+        "si": "かみの毛 = කෙස්; 一本 = එකක් (දිග දෙයක්)."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=47.74,52.85",
       "t": [
@@ -882,7 +1270,8 @@
         "id": "\"Oh, betapa senangnya. Akan kujaga selamanya.\"",
         "pt": "\"Que alegria. Vou guardar para sempre.\"",
         "my": "\"အို ဝမ်းသာလိုက်တာ။ အမြဲ တန်ဖိုးထားပါမယ်။\"",
-        "th": "\"โอ้ ดีใจเหลือเกิน จะรักษาไว้ตลอดไป\""
+        "th": "\"โอ้ ดีใจเหลือเกิน จะรักษาไว้ตลอดไป\"",
+        "si": "\"අනේ, කොච්චර සතුටුද. හැමදාම, පරිස්සමෙන් තියාගන්නම්.\""
       },
       "vocab": [
         {
@@ -899,7 +1288,8 @@
             "id": "terus-menerus",
             "pt": "o tempo todo",
             "my": "တောက်လျှောက်",
-            "th": "ตลอด"
+            "th": "ตลอด",
+            "si": "දිගටම, මුළු කාලයම"
           },
           "level": "N3"
         }
@@ -915,7 +1305,8 @@
         "id": "betapa; menjaga.",
         "pt": "que; guardar.",
         "my": "အို; တန်ဖိုးထား။",
-        "th": "โอ้; รักษา"
+        "th": "โอ้; รักษา",
+        "si": "なんと = කොච්චර ~ ද! (විස්මය); 「大切にする」 = පරිස්සමෙන් තියාගන්නවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=53.75,57.761",
       "t": [
@@ -984,7 +1375,8 @@
         "id": "Ia menyimpan rambut itu di dalam sanggul di kepalanya.",
         "pt": "Guardou o fio dentro do coque na cabeça.",
         "my": "အဘိုးက ဆံတော်ကို သူ့ခေါင်းက ဆံထုံးထဲ ထည့်ထားတယ်။",
-        "th": "เขาเก็บเส้นผมไว้ในมวยผมบนศีรษะ"
+        "th": "เขาเก็บเส้นผมไว้ในมวยผมบนศีรษะ",
+        "si": "සීයා, කෙස් ගස, තමන්ගේ ඔළුවේ, කොණ්ඩය ඇතුළේ, තිබ්බා."
       },
       "vocab": [],
       "grammarNote": {
@@ -998,7 +1390,8 @@
         "id": "kepala; menyimpan di dalam.",
         "pt": "cabeça; guardar dentro.",
         "my": "ခေါင်း; ထဲထည့်။",
-        "th": "ศีรษะ; เก็บไว้ใน"
+        "th": "ศีรษะ; เก็บไว้ใน",
+        "si": "頭 = ඔළුව; 「〜の中に入れる」 = ~ ඇතුළේ තියනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=58.661,65.063",
       "t": [
@@ -1039,7 +1432,8 @@
         "id": "Bertahun-tahun pun berlalu.",
         "pt": "Passaram-se muitos anos.",
         "my": "နှစ်တွေ အများကြီး ကြာသွားတယ်။",
-        "th": "หลายปีผ่านไป"
+        "th": "หลายปีผ่านไป",
+        "si": "ඊට පස්සේ, අවුරුදු ගණනාවක්, ගත වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1053,7 +1447,8 @@
         "id": "berlalu; bertahun-tahun.",
         "pt": "passar; muitos anos.",
         "my": "ကြာ; နှစ်အများကြီး။",
-        "th": "ผ่านไป; หลายปี"
+        "th": "ผ่านไป; หลายปี",
+        "si": "たつ = (කාලය) ගත වෙනවා; 「何年も」 = අවුරුදු ගණනාවක්."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=65.663,68.943",
       "t": [
@@ -1114,7 +1509,8 @@
         "id": "Ia menua dan tubuhnya melemah.",
         "pt": "Envelheceu e o corpo enfraqueceu.",
         "my": "အသက်ကြီးလာပြီး ခန္ဓာကိုယ် အားနည်းလာတယ်။",
-        "th": "เขาแก่ลง ร่างกายอ่อนแอ"
+        "th": "เขาแก่ลง ร่างกายอ่อนแอ",
+        "si": "සීයා, වයසට ගිහින්, ඇඟ, දුර්වල වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1128,7 +1524,8 @@
         "id": "menua; melemah.",
         "pt": "envelhecer; enfraquecer.",
         "my": "အသက်ကြီး; အားနည်း။",
-        "th": "แก่ลง; อ่อนแอ"
+        "th": "แก่ลง; อ่อนแอ",
+        "si": "「年を取る」 = වයසට යනවා; 「弱くなる」 = දුර්වල වෙනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=69.543,74.455",
       "t": [
@@ -1173,7 +1570,8 @@
         "id": "\"Kalau aku mati, bagaimana nasib rambut ini?\"",
         "pt": "\"Quando eu morrer, o que será deste fio?\"",
         "my": "\"ငါသေရင် ဒီဆံတော် ဘာဖြစ်မလဲ။\"",
-        "th": "\"ถ้าข้าตาย เส้นผมนี้จะเป็นอย่างไร\""
+        "th": "\"ถ้าข้าตาย เส้นผมนี้จะเป็นอย่างไร\"",
+        "si": "\"මම මැරුණොත්, මේ කෙස් ගසට, මොකද වෙන්නේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1187,7 +1585,8 @@
         "id": "kalau; bagaimana.",
         "pt": "quando; o que será.",
         "my": "ရင်; ဘာဖြစ်မလဲ။",
-        "th": "ถ้า; จะเป็นอย่างไร"
+        "th": "ถ้า; จะเป็นอย่างไร",
+        "si": "「〜たら」 = ~ වුණොත්; 「どうなるだろう」 = මොකද වෙන්නේ."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=75.355,79.42",
       "t": [
@@ -1232,7 +1631,8 @@
         "id": "Maka ia meminta seorang raja muda datang.",
         "pt": "Então pediu a um jovem rei que viesse.",
         "my": "ဒါနဲ့ ဘုရင်ငယ် တစ်ပါးကို လာခိုင်းတယ်။",
-        "th": "เขาจึงเชิญกษัตริย์หนุ่มมา"
+        "th": "เขาจึงเชิญกษัตริย์หนุ่มมา",
+        "si": "ඒ නිසා, සීයා, තරුණ රජ කෙනෙක්ව, ගෙන්නගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1246,7 +1646,8 @@
         "id": "meminta datang.",
         "pt": "pedir que venha.",
         "my": "လာခိုင်း။",
-        "th": "เชิญมา"
+        "th": "เชิญมา",
+        "si": "「〜に来てもらう」 = ~ ව ගෙන්නගන්නවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=80.32,85.387",
       "t": [
@@ -1291,7 +1692,8 @@
         "id": "Ia bukan orang biasa.",
         "pt": "Não era uma pessoa comum.",
         "my": "သူက သာမန်လူ မဟုတ်ဘူး။",
-        "th": "คนผู้นี้ไม่ใช่คนธรรมดา"
+        "th": "คนผู้นี้ไม่ใช่คนธรรมดา",
+        "si": "මෙයා, සාමාන්‍ය කෙනෙක්, නෙවෙයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -1305,7 +1707,8 @@
         "id": "bukan; biasa.",
         "pt": "não era; comum.",
         "my": "မဟုတ်; သာမန်။",
-        "th": "ไม่ใช่; ธรรมดา"
+        "th": "ไม่ใช่; ธรรมดา",
+        "si": "「〜では、ありませんでした」 = ~ නෙවෙයි; ふつう = සාමාන්‍ය."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=85.987,89.735",
       "t": [
@@ -1366,7 +1769,8 @@
         "id": "Ayahnya penyihir yang sangat sakti.",
         "pt": "O pai era um mago de grande poder.",
         "my": "အဖေက တန်ခိုးကြီးတဲ့ ဇော်ဂျီ။",
-        "th": "พ่อเป็นผู้วิเศษที่มีพลังมาก"
+        "th": "พ่อเป็นผู้วิเศษที่มีพลังมาก",
+        "si": "තාත්තා, මහා බලයක් තියෙන, මායාකාරයෙක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -1380,7 +1784,8 @@
         "id": "penyihir; memiliki.",
         "pt": "mago; com.",
         "my": "ဇော်ဂျီ; ရှိတဲ့။",
-        "th": "ผู้วิเศษ; ที่มี"
+        "th": "ผู้วิเศษ; ที่มี",
+        "si": "まほうつかい = මායාකාරයා; 「〜を持つ〜」 = ~ තියෙන ~."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=90.334,94.448",
       "t": [
@@ -1433,7 +1838,8 @@
         "id": "Ibunya putri naga yang tinggal di laut.",
         "pt": "A mãe era uma princesa-dragão do mar.",
         "my": "အမေက ပင်လယ်ထဲ နေတဲ့ နဂါးမင်းသမီး။",
-        "th": "แม่เป็นเจ้าหญิงนาคที่อาศัยอยู่ในทะเล"
+        "th": "แม่เป็นเจ้าหญิงนาคที่อาศัยอยู่ในทะเล",
+        "si": "අම්මා, මුහුදේ ජීවත් වෙන, නාග කුමරියක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -1447,7 +1853,8 @@
         "id": "naga; putri.",
         "pt": "dragão; princesa.",
         "my": "နဂါး; မင်းသမီး။",
-        "th": "นาค; เจ้าหญิง"
+        "th": "นาค; เจ้าหญิง",
+        "si": "竜 = නාගයා, මකරා; おひめさま = කුමරිය."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=95.048,99.435",
       "t": [
@@ -1484,7 +1891,8 @@
         "id": "\"Rambut ini akan kuberikan padamu.\"",
         "pt": "\"Vou dar este fio a você.\"",
         "my": "\"ဒီဆံတော်ကို ကိုယ်တော့်ကို ပေးမယ်။\"",
-        "th": "\"ข้าจะมอบเส้นผมนี้ให้ท่าน\""
+        "th": "\"ข้าจะมอบเส้นผมนี้ให้ท่าน\"",
+        "si": "\"මේ කෙස් ගස, ඔයාට, දෙන්නම්.\""
       },
       "vocab": [
         {
@@ -1501,7 +1909,8 @@
             "id": "memberi",
             "pt": "dar",
             "my": "ပေး",
-            "th": "ให้"
+            "th": "ให้",
+            "si": "දීම"
           },
           "level": "N4"
         }
@@ -1517,7 +1926,8 @@
         "id": "akan kuberikan.",
         "pt": "vou dar.",
         "my": "ပေးမယ်။",
-        "th": "จะมอบ"
+        "th": "จะมอบ",
+        "si": "「〜ましょう」 = ~ කරන්නම් (යෝජනාවක්)."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=100.335,103.554",
       "t": [
@@ -1554,7 +1964,8 @@
         "id": "\"Tapi aku punya satu permintaan.\"",
         "pt": "\"Mas tenho um pedido.\"",
         "my": "\"ဒါပေမဲ့ တောင်းဆိုချက် တစ်ခု ရှိတယ်။\"",
-        "th": "\"แต่ข้ามีคำขอข้อหนึ่ง\""
+        "th": "\"แต่ข้ามีคำขอข้อหนึ่ง\"",
+        "si": "\"ඒත්, එක, ඉල්ලීමක්, තියෙනවා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1568,7 +1979,8 @@
         "id": "permintaan.",
         "pt": "pedido.",
         "my": "တောင်းဆိုချက်။",
-        "th": "คำขอ"
+        "th": "คำขอ",
+        "si": "おねがい = ඉල්ලීම."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=104.154,107.329",
       "t": [
@@ -1629,7 +2041,8 @@
         "id": "\"Carilah batu yang bentuknya sama dengan kepalaku.\"",
         "pt": "\"Procure uma pedra com a forma da minha cabeça.\"",
         "my": "\"ငါ့ခေါင်းနဲ့ ပုံတူတဲ့ ကျောက်ကို ရှာပေးပါ။\"",
-        "th": "\"ช่วยหาหินที่รูปร่างเหมือนศีรษะของข้า\""
+        "th": "\"ช่วยหาหินที่รูปร่างเหมือนศีรษะของข้า\"",
+        "si": "\"මගේ ඔළුවේ, හැඩයම තියෙන ගලක්, හොයන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1643,7 +2056,8 @@
         "id": "bentuk sama.",
         "pt": "mesma forma.",
         "my": "ပုံတူ။",
-        "th": "รูปร่างเหมือน"
+        "th": "รูปร่างเหมือน",
+        "si": "「〜と同じ形」 = ~ ගේ හැඩයම."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=107.929,112.377",
       "t": [
@@ -1728,7 +2142,8 @@
         "id": "\"Aku ingin kau membangun kuil kecil di atasnya dan menaruh rambut itu.\"",
         "pt": "\"Quero que construa um pequeno templo sobre ela e guarde o fio lá.\"",
         "my": "\"အဲဒီကျောက်ပေါ်မှာ စေတီလေး တည်ပြီး ဆံတော်ကို ထည့်ပေးစေချင်တယ်။\"",
-        "th": "\"อยากให้ท่านสร้างวัดเล็ก ๆ บนหินนั้น แล้วบรรจุเส้นผมไว้\""
+        "th": "\"อยากให้ท่านสร้างวัดเล็ก ๆ บนหินนั้น แล้วบรรจุเส้นผมไว้\"",
+        "si": "\"ඒ ගල උඩ, පොඩි චෛත්‍යයක් හදලා, කෙස් ගස, ඇතුළේ තැන්පත් කරන්න ඕනේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1742,7 +2157,8 @@
         "id": "ingin kau; membangun.",
         "pt": "quero que; construir.",
         "my": "စေချင်; တည်။",
-        "th": "อยากให้; สร้าง"
+        "th": "อยากให้; สร้าง",
+        "si": "「〜てほしいのです」 = ඔයා ~ කරනවා නම් හොඳයි; 建てる = හදනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=112.977,119.236",
       "t": [
@@ -1771,7 +2187,8 @@
         "id": "\"Baik. Pasti akan kucari.\"",
         "pt": "\"Entendi. Com certeza vou achar.\"",
         "my": "\"နားလည်ပါပြီ။ မုချ ရှာပါမယ်။\"",
-        "th": "\"เข้าใจแล้ว จะหาให้ได้แน่นอน\""
+        "th": "\"เข้าใจแล้ว จะหาให้ได้แน่นอน\"",
+        "si": "\"හරි. අනිවාර්යයෙන්ම, හොයනවා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1785,7 +2202,8 @@
         "id": "pasti.",
         "pt": "com certeza.",
         "my": "မုချ။",
-        "th": "แน่นอน"
+        "th": "แน่นอน",
+        "si": "かならず = අනිවාර්යයෙන්ම."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=120.136,122.719",
       "t": [
@@ -1854,7 +2272,8 @@
         "id": "Raja muda itu mencari ke gunung-gunung satu per satu.",
         "pt": "O jovem rei procurou nas montanhas, uma por uma.",
         "my": "ဘုရင်ငယ်က တိုင်းပြည်က တောင်တွေကို တစ်ခုချင်း လျှောက်ရှာတယ်။",
-        "th": "กษัตริย์หนุ่มเดินหาตามภูเขาทีละลูก"
+        "th": "กษัตริย์หนุ่มเดินหาตามภูเขาทีละลูก",
+        "si": "තරුණ රජතුමා, රටේ කඳු, එකින් එක, ඇවිදගෙන ගිහින්, හෙව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1868,7 +2287,8 @@
         "id": "satu per satu.",
         "pt": "uma por uma.",
         "my": "တစ်ခုချင်း။",
-        "th": "ทีละ"
+        "th": "ทีละ",
+        "si": "「一つずつ」 = එකින් එක."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=123.619,129.454",
       "t": [
@@ -1933,7 +2353,8 @@
         "id": "Ia melihat banyak batu, besar dan kecil.",
         "pt": "Viu muitas pedras, grandes e pequenas.",
         "my": "ကျောက်ကြီးရော ကျောက်ငယ်ရော အများကြီး ကြည့်တယ်။",
-        "th": "เห็นหินมากมายทั้งใหญ่และเล็ก"
+        "th": "เห็นหินมากมายทั้งใหญ่และเล็ก",
+        "si": "ලොකු ගලුත්, පොඩි ගලුත්, ගොඩක්, දැක්කා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1947,7 +2368,8 @@
         "id": "dan.",
         "pt": "e.",
         "my": "ရော...ရော။",
-        "th": "ทั้ง...และ"
+        "th": "ทั้ง...และ",
+        "si": "「〜も、〜も」 = ~ ත් ~ ත්."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=130.054,135.059",
       "t": [
@@ -2008,7 +2430,8 @@
         "id": "Tapi tak ada yang mirip kepala kakek.",
         "pt": "Mas nenhuma tinha a forma da cabeça do velho.",
         "my": "ဒါပေမဲ့ အဘိုးခေါင်းနဲ့ ပုံတူတဲ့ ကျောက် မရှိဘူး။",
-        "th": "แต่ไม่มีก้อนไหนเหมือนศีรษะของชายชรา"
+        "th": "แต่ไม่มีก้อนไหนเหมือนศีรษะของชายชรา",
+        "si": "ඒත්, සීයාගේ ඔළුවේ හැඩය තියෙන ගලක්, හම්බ වුණේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -2022,7 +2445,8 @@
         "id": "tak ada.",
         "pt": "não havia.",
         "my": "မရှိ။",
-        "th": "ไม่มี"
+        "th": "ไม่มี",
+        "si": "「〜は、ありませんでした」 = ~ තිබුණේ නැහැ."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=135.659,140.965",
       "t": [
@@ -2067,7 +2491,8 @@
         "id": "\"Kalau tak ada di gunung, mungkin di laut.\"",
         "pt": "\"Se não está nas montanhas, talvez esteja no mar.\"",
         "my": "\"တောင်မှာ မရှိရင် ပင်လယ်ထဲ ရှိနိုင်တယ်။\"",
-        "th": "\"ถ้าบนภูเขาไม่มี อาจอยู่ในทะเล\""
+        "th": "\"ถ้าบนภูเขาไม่มี อาจอยู่ในทะเล\"",
+        "si": "\"කඳුවල නැත්නම්, මුහුදේ, තියෙන්න පුළුවන්.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2081,7 +2506,8 @@
         "id": "kalau tak; mungkin.",
         "pt": "se não; talvez.",
         "my": "မရှိရင်; နိုင်။",
-        "th": "ถ้าไม่มี; อาจ"
+        "th": "ถ้าไม่มี; อาจ",
+        "si": "「〜ないなら」 = ~ නැත්නම්; 「〜かもしれない」 = ~ වෙන්න පුළුවන්."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=141.865,144.961",
       "t": [
@@ -2150,7 +2576,8 @@
         "id": "Dengan kekuatan ibunya, ia masuk ke laut.",
         "pt": "Com o poder da mãe, entrou no mar.",
         "my": "အမေ့တန်ခိုးနဲ့ ပင်လယ်ထဲ ဆင်းသွားတယ်။",
-        "th": "ด้วยพลังของแม่ เขาลงไปในทะเล"
+        "th": "ด้วยพลังของแม่ เขาลงไปในทะเล",
+        "si": "එයා, අම්මාගේ බලයෙන්, මුහුද ඇතුළට, ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2164,7 +2591,8 @@
         "id": "dengan kekuatan; ia.",
         "pt": "com o poder; ele.",
         "my": "တန်ခိုးနဲ့; သူ။",
-        "th": "ด้วยพลัง; เขา"
+        "th": "ด้วยพลัง; เขา",
+        "si": "「〜の力で」 = ~ ගේ බලයෙන්; かれ = එයා (පිරිමි)."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=145.861,151.036",
       "t": [
@@ -2213,7 +2641,8 @@
         "id": "Di dalam laut gelap dan dingin.",
         "pt": "No mar era escuro e frio.",
         "my": "ပင်လယ်ထဲမှာ မှောင်ပြီး အေးတယ်။",
-        "th": "ในทะเลมืดและเย็น"
+        "th": "ในทะเลมืดและเย็น",
+        "si": "මුහුද ඇතුළ, අඳුරුයි, සීතලයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -2227,7 +2656,8 @@
         "id": "dan.",
         "pt": "e.",
         "my": "ပြီး။",
-        "th": "และ"
+        "th": "และ",
+        "si": "「〜くて、〜」 = ~ යි, ~ යි."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=151.636,155.294",
       "t": [
@@ -2296,7 +2726,8 @@
         "id": "Jauh di bawah, ada sebuah batu bulat.",
         "pt": "Bem no fundo, havia uma pedra redonda.",
         "my": "အောက်ဆုံးထိ ရောက်တော့ ကျောက်လုံးဝိုင်း တစ်လုံး ရှိတယ်။",
-        "th": "ลงไปจนลึกสุด มีหินกลมก้อนหนึ่ง"
+        "th": "ลงไปจนลึกสุด มีหินกลมก้อนหนึ่ง",
+        "si": "හොඳටම පහළට, ගියාම, රවුම් ගලක්, තිබුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2310,7 +2741,8 @@
         "id": "ketika; sampai.",
         "pt": "ao; até.",
         "my": "တော့; ထိ။",
-        "th": "เมื่อ; จนถึง"
+        "th": "เมื่อ; จนถึง",
+        "si": "「〜と」 = ~ ගියාම (සොයාගැනීම); 「〜まで」 = ~ දක්වා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=155.894,161.407",
       "t": [
@@ -2355,7 +2787,8 @@
         "id": "\"Ketemu! Sama dengan kepala kakek!\"",
         "pt": "\"Achei! Igual à cabeça do velho!\"",
         "my": "\"တွေ့ပြီ! အဘိုးခေါင်းနဲ့ တူတယ်!\"",
-        "th": "\"เจอแล้ว! เหมือนศีรษะของท่านเลย!\""
+        "th": "\"เจอแล้ว! เหมือนศีรษะของท่านเลย!\"",
+        "si": "\"හම්බ වුණා! සීයාගේ ඔළුව වගේමයි!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2369,7 +2802,8 @@
         "id": "ketemu!; sama.",
         "pt": "achei!; igual.",
         "my": "တွေ့ပြီ!; တူ။",
-        "th": "เจอแล้ว!; เหมือน"
+        "th": "เจอแล้ว!; เหมือน",
+        "si": "「あった！」 = හම්බ වුණා!; 「〜と同じだ」 = ~ වගේමයි."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=162.307,165.252",
       "t": [
@@ -2438,7 +2872,8 @@
         "id": "Dengan kekuatan ayahnya, ia mengangkat batu berat itu.",
         "pt": "Com o poder do pai, ergueu a pedra pesada.",
         "my": "အဖေ့တန်ခိုးနဲ့ လေးတဲ့ ကျောက်ကို မလိုက်တယ်။",
-        "th": "ด้วยพลังของพ่อ เขายกหินหนักขึ้นมา"
+        "th": "ด้วยพลังของพ่อ เขายกหินหนักขึ้นมา",
+        "si": "එයා, තාත්තාගේ බලයෙන්, බර ගල, උස්සලා ගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2452,7 +2887,8 @@
         "id": "berat; mengangkat.",
         "pt": "pesado; erguer.",
         "my": "လေး; မ။",
-        "th": "หนัก; ยก"
+        "th": "หนัก; ยก",
+        "si": "重い = බර; 上げる = උස්සනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=166.152,171.249",
       "t": [
@@ -2505,7 +2941,8 @@
         "id": "Lalu ia menaruh batu di kapal besar.",
         "pt": "E colocou a pedra num grande barco.",
         "my": "ပြီးတော့ သင်္ဘောကြီးပေါ် ကျောက်ကို တင်တယ်။",
-        "th": "แล้ววางหินลงบนเรือลำใหญ่"
+        "th": "แล้ววางหินลงบนเรือลำใหญ่",
+        "si": "ඊට පස්සේ, ලොකු නැවකට, ගල පැටෙව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2519,7 +2956,8 @@
         "id": "kapal; menaruh.",
         "pt": "barco; colocar.",
         "my": "သင်္ဘော; တင်။",
-        "th": "เรือ; วางบน"
+        "th": "เรือ; วางบน",
+        "si": "船 = නැව; 「〜にのせる」 = ~ ට පටවනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=171.849,175.718",
       "t": [
@@ -2584,7 +3022,8 @@
         "id": "Kapal menyeberangi laut dan tiba di kaki gunung.",
         "pt": "O barco cruzou o mar e chegou ao pé da montanha.",
         "my": "သင်္ဘောက ပင်လယ်ကို ဖြတ်ပြီး တောင်ခြေ ရောက်တယ်။",
-        "th": "เรือข้ามทะเลมาถึงตีนเขา"
+        "th": "เรือข้ามทะเลมาถึงตีนเขา",
+        "si": "නැව, මුහුද තරණය කරලා, කන්ද පාමුලට, ළඟා වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2598,7 +3037,8 @@
         "id": "menyeberang; tiba.",
         "pt": "cruzar; chegar.",
         "my": "ဖြတ်; ရောက်။",
-        "th": "ข้าม; ถึง"
+        "th": "ข้าม; ถึง",
+        "si": "「海をわたる」 = මුහුද තරණය කරනවා; 着く = ළඟා වෙනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=176.318,180.691",
       "t": [
@@ -2643,7 +3083,8 @@
         "id": "Tapi di gunung mana sebaiknya ditaruh?",
         "pt": "Mas em qual montanha colocá-la?",
         "my": "ဒါပေမဲ့ ဘယ်တောင်ပေါ် ထားရမလဲ။",
-        "th": "แต่ควรวางบนภูเขาลูกไหนดี"
+        "th": "แต่ควรวางบนภูเขาลูกไหนดี",
+        "si": "ඒත්, මොන කන්ද උඩද, තියන්න ඕනේ?"
       },
       "vocab": [],
       "grammarNote": {
@@ -2657,7 +3098,8 @@
         "id": "sebaiknya.",
         "pt": "deveria.",
         "my": "ရမလဲ။",
-        "th": "ดี"
+        "th": "ดี",
+        "si": "「〜ばいい」 = ~ කළාම හරි, ~ කරන්න ඕනේ."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=181.291,185.38",
       "t": [
@@ -2734,7 +3176,8 @@
         "id": "Saat itu, seorang raja berbaju putih turun dari langit.",
         "pt": "Nesse instante, um rei de branco desceu do céu.",
         "my": "အဲဒီအချိန် ကောင်းကင်ကနေ အဝတ်ဖြူနဲ့ မင်းတစ်ပါး ဆင်းလာတယ်။",
-        "th": "ตอนนั้น กษัตริย์ชุดขาวเสด็จลงมาจากฟ้า"
+        "th": "ตอนนั้น กษัตริย์ชุดขาวเสด็จลงมาจากฟ้า",
+        "si": "ඒ වෙලාවේ, අහස උඩින්, සුදු ඇඳුම් ඇඳපු රජ කෙනෙක්, බැහැලා ආවා."
       },
       "vocab": [
         {
@@ -2751,7 +3194,8 @@
             "id": "turun",
             "pt": "descer",
             "my": "ဆင်း",
-            "th": "ลงมา"
+            "th": "ลงมา",
+            "si": "බැසීම"
           },
           "level": "N4"
         }
@@ -2767,7 +3211,8 @@
         "id": "turun.",
         "pt": "descer.",
         "my": "ဆင်းလာ။",
-        "th": "ลงมา"
+        "th": "ลงมา",
+        "si": "「下りてくる」 = බැහැලා එනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=185.98,191.377",
       "t": [
@@ -2820,7 +3265,8 @@
         "id": "\"Taruhlah di tempat tertinggi gunung itu.\"",
         "pt": "\"Coloque-a no ponto mais alto daquela montanha.\"",
         "my": "\"ဟိုတောင်ရဲ့ အမြင့်ဆုံးနေရာမှာ ထားပါ။\"",
-        "th": "\"จงวางไว้ที่สูงที่สุดของภูเขาลูกนั้น\""
+        "th": "\"จงวางไว้ที่สูงที่สุดของภูเขาลูกนั้น\"",
+        "si": "\"අර කන්දේ, උසම තැනේ, තියන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2834,7 +3280,8 @@
         "id": "perintah.",
         "pt": "ordem.",
         "my": "ပါ။",
-        "th": "จง"
+        "th": "จง",
+        "si": "「〜なさい」 = ~ කරන්න (මෘදු අණ)."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=192.277,196.351",
       "t": [
@@ -2895,7 +3342,8 @@
         "id": "Sesuai pesan, raja muda menaruh batu di tepi gunung.",
         "pt": "Como lhe disseram, o jovem rei pôs a pedra na beira da montanha.",
         "my": "ပြောတဲ့အတိုင်း ဘုရင်ငယ်က ကျောက်ကို တောင်စွန်းမှာ တင်တယ်။",
-        "th": "กษัตริย์หนุ่มทำตามที่ได้รับคำสั่ง วางหินบนขอบภูเขา"
+        "th": "กษัตริย์หนุ่มทำตามที่ได้รับคำสั่ง วางหินบนขอบภูเขา",
+        "si": "තරුණ රජතුමා, කිව්ව විදිහටම, ගල, කන්දේ, කෙළවරේ, තිබ්බා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2909,7 +3357,8 @@
         "id": "sesuai pesan.",
         "pt": "como disseram.",
         "my": "ပြောတဲ့အတိုင်း။",
-        "th": "ตามที่บอก"
+        "th": "ตามที่บอก",
+        "si": "「言われたとおりに」 = කිව්ව විදිහටම."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=197.251,203.699",
       "t": [
@@ -2994,7 +3443,8 @@
         "id": "Lalu ia membangun kuil kecil di atas batu dan menaruh rambut itu.",
         "pt": "Depois construiu um pequeno templo na pedra e guardou o fio.",
         "my": "ပြီးတော့ ကျောက်ပေါ်မှာ စေတီလေး တည်ပြီး ဆံတော်ကို ထည့်တယ်။",
-        "th": "แล้วสร้างวัดเล็ก ๆ บนหิน บรรจุเส้นผมไว้"
+        "th": "แล้วสร้างวัดเล็ก ๆ บนหิน บรรจุเส้นผมไว้",
+        "si": "ඊට පස්සේ, ගල උඩ, පොඩි චෛත්‍යයක් හදලා, කෙස් ගස, තැන්පත් කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3008,7 +3458,8 @@
         "id": "kuil; lalu.",
         "pt": "templo; e.",
         "my": "စေတီ; ပြီး။",
-        "th": "วัด; แล้ว"
+        "th": "วัด; แล้ว",
+        "si": "お寺 = පන්සල, චෛත්‍යය; 「〜て、〜」 = ~ කරලා, ඊට පස්සේ."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=204.299,210.967",
       "t": [
@@ -3061,7 +3512,8 @@
         "id": "Maka batu itu tak bergerak sedikit pun lagi.",
         "pt": "E a pedra não se moveu mais nem um pouco.",
         "my": "ဒီတော့ ကျောက်က နည်းနည်းမှ မလှုပ်တော့ဘူး။",
-        "th": "แล้วหินก็ไม่ขยับอีกเลยแม้แต่น้อย"
+        "th": "แล้วหินก็ไม่ขยับอีกเลยแม้แต่น้อย",
+        "si": "එතකොට, ගල, තවත්, පොඩ්ඩක්වත්, හෙල්ලුණේ නැහැ."
       },
       "vocab": [
         {
@@ -3078,7 +3530,8 @@
             "id": "bergerak",
             "pt": "mover-se",
             "my": "လှုပ်",
-            "th": "เคลื่อนไหว"
+            "th": "เคลื่อนไหว",
+            "si": "චලනය වීම, සෙලවීම"
           },
           "level": "N4"
         }
@@ -3094,7 +3547,8 @@
         "id": "sedikit pun; tak lagi.",
         "pt": "nem um pouco; não mais.",
         "my": "နည်းနည်းမှ; တော့။",
-        "th": "แม้แต่น้อย; ไม่อีก"
+        "th": "แม้แต่น้อย; ไม่อีก",
+        "si": "「少しも〜ない」 = පොඩ්ඩක්වත් ~ නැහැ; 「〜なくなる」 = තවත් ~ නැහැ."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=211.567,216.355",
       "t": [
@@ -3159,7 +3613,8 @@
         "id": "Meski angin kencang dan hujan deras, batu itu tak jatuh.",
         "pt": "Mesmo com vento forte ou muita chuva, a pedra não caiu.",
         "my": "လေပြင်းပြင်း၊ မိုးသည်းသည်း ကျောက်က မကျဘူး။",
-        "th": "แม้ลมแรง ฝนตกหนัก หินก็ไม่ตก"
+        "th": "แม้ลมแรง ฝนตกหนัก หินก็ไม่ตก",
+        "si": "හුළඟ හයියෙන් හැමුවත්, වැස්ස ගොඩක් වැස්සත්, ගල, වැටුණේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -3173,7 +3628,8 @@
         "id": "meski.",
         "pt": "mesmo com.",
         "my": "လည်း။",
-        "th": "แม้"
+        "th": "แม้",
+        "si": "「〜ても、〜ても」 = ~ වුණත්, ~ වුණත්."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=216.955,222.896",
       "t": [
@@ -3226,7 +3682,8 @@
         "id": "Konon rambut itulah yang menjaga batu.",
         "pt": "Dizem que o fio de cabelo protege a pedra.",
         "my": "ဆံတော်က ကျောက်ကို စောင့်ထားတယ်လို့ ဆိုကြတယ်။",
-        "th": "ว่ากันว่าเส้นผมนั้นคอยปกป้องหินไว้"
+        "th": "ว่ากันว่าเส้นผมนั้นคอยปกป้องหินไว้",
+        "si": "කෙස් ගස, ගල, ආරක්ෂා කරනවා කියලා, කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3240,7 +3697,8 @@
         "id": "konon.",
         "pt": "dizem.",
         "my": "ဆိုကြတယ်။",
-        "th": "ว่ากันว่า"
+        "th": "ว่ากันว่า",
+        "si": "「〜のだと言われています」 = ~ කියලා කියනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=223.496,228.766",
       "t": [
@@ -3297,7 +3755,8 @@
         "id": "Kapal pembawa batu kemudian berubah menjadi batu.",
         "pt": "O barco que levou a pedra virou pedra depois.",
         "my": "ကျောက်သယ်ခဲ့တဲ့ သင်္ဘောက နောက်ပိုင်း ကျောက် ဖြစ်သွားတယ်။",
-        "th": "เรือที่ขนหินมาภายหลังก็กลายเป็นหิน"
+        "th": "เรือที่ขนหินมาภายหลังก็กลายเป็นหิน",
+        "si": "ගල ගෙනාපු නැව, පස්සේ, ගලක් බවට, හැරුණා."
       },
       "vocab": [
         {
@@ -3314,7 +3773,8 @@
             "id": "membawa, mengangkut",
             "pt": "carregar",
             "my": "သယ်သည်",
-            "th": "ขนส่ง"
+            "th": "ขนส่ง",
+            "si": "ගෙන යාම, රැගෙන යාම"
           },
           "level": "N4"
         }
@@ -3330,7 +3790,8 @@
         "id": "berubah; kemudian.",
         "pt": "virar; depois.",
         "my": "ဖြစ်သွား; နောက်ပိုင်း။",
-        "th": "กลายเป็น; ภายหลัง"
+        "th": "กลายเป็น; ภายหลัง",
+        "si": "「〜にかわる」 = ~ බවට හැරෙනවා; あとで = පස්සේ."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=229.366,233.908",
       "t": [
@@ -3391,7 +3852,8 @@
         "id": "Batu kapal itu masih ada di dekat sana.",
         "pt": "Essa pedra-barco ainda está ali perto.",
         "my": "အဲဒီ သင်္ဘောကျောက်လည်း အနီးမှာ အခုထိ ရှိနေတယ်။",
-        "th": "หินรูปเรือนั้นยังอยู่ใกล้ ๆ จนทุกวันนี้"
+        "th": "หินรูปเรือนั้นยังอยู่ใกล้ ๆ จนทุกวันนี้",
+        "si": "ඒ නැව් ගලත්, ළඟපාත, අදටත්, ඉතුරු වෙලා තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3405,7 +3867,8 @@
         "id": "tersisa; dekat.",
         "pt": "permanecer; perto.",
         "my": "ကျန်; အနီး။",
-        "th": "ยังอยู่; ใกล้"
+        "th": "ยังอยู่; ใกล้",
+        "si": "のこる = ඉතුරු වෙනවා; 近く = ළඟපාත."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=234.508,239.545",
       "t": [
@@ -3462,7 +3925,8 @@
         "id": "Kini banyak orang datang berziarah ke gunung ini.",
         "pt": "Hoje muitas pessoas vêm rezar nesta montanha.",
         "my": "အခု ဒီတောင်ကို လူအများကြီး ဘုရားဖူး လာကြတယ်။",
-        "th": "ปัจจุบัน ผู้คนมากมายมาสักการะที่ภูเขานี้"
+        "th": "ปัจจุบัน ผู้คนมากมายมาสักการะที่ภูเขานี้",
+        "si": "අද, මේ කන්දට, ගොඩක් මිනිස්සු, වඳින්න එනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3476,7 +3940,8 @@
         "id": "berziarah.",
         "pt": "rezar.",
         "my": "ဘုရားဖူး။",
-        "th": "สักการะ"
+        "th": "สักการะ",
+        "si": "おまいり = වන්දනාව."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=240.145,244.962",
       "t": [
@@ -3541,7 +4006,8 @@
         "id": "Kaum pria menempelkan lembaran emas tipis pada batu.",
         "pt": "Os homens colam folhas finas de ouro na pedra.",
         "my": "ယောက်ျားတွေက ကျောက်ပေါ် ရွှေဆိုင်း ကပ်ကြတယ်။",
-        "th": "ผู้ชายปิดทองคำเปลวบาง ๆ บนหิน"
+        "th": "ผู้ชายปิดทองคำเปลวบาง ๆ บนหิน",
+        "si": "පිරිමි අය, ගලට, සිහින් රන් කොළ, අලවනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3555,7 +4021,8 @@
         "id": "tipis; lembaran emas; menempel.",
         "pt": "fino; folha de ouro; colar.",
         "my": "ပါး; ရွှေဆိုင်း; ကပ်။",
-        "th": "บาง; ทองคำเปลว; ปิด"
+        "th": "บาง; ทองคำเปลว; ปิด",
+        "si": "うすい = සිහින්; 「金の紙」 = රන් කොළ; つける = අලවනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=245.562,250.564",
       "t": [
@@ -3608,7 +4075,8 @@
         "id": "Itulah sebabnya batu itu berkilau keemasan.",
         "pt": "Por isso a pedra brilha dourada.",
         "my": "ဒါကြောင့် ကျောက်က ရွှေရောင် တောက်နေတာ။",
-        "th": "หินจึงเปล่งประกายสีทอง"
+        "th": "หินจึงเปล่งประกายสีทอง",
+        "si": "ඒ නිසා, ගල, රන් පාටින්, දිලිසෙන්නේ."
       },
       "vocab": [],
       "grammarNote": {
@@ -3622,7 +4090,8 @@
         "id": "itulah sebabnya.",
         "pt": "por isso.",
         "my": "ဒါကြောင့်။",
-        "th": "จึง"
+        "th": "จึง",
+        "si": "「だから〜のです」 = ඒ නිසා තමයි ~."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=251.164,255.628",
       "t": [
@@ -3671,7 +4140,8 @@
         "id": "Perempuan tidak boleh menyentuh batu.",
         "pt": "As mulheres não podem tocar a pedra.",
         "my": "အမျိုးသမီးတွေ ကျောက်ကို မထိရဘူး။",
-        "th": "ผู้หญิงแตะหินไม่ได้"
+        "th": "ผู้หญิงแตะหินไม่ได้",
+        "si": "ගැහැනු අයට, ගලට, අත ගාන්න, බැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -3685,7 +4155,8 @@
         "id": "tidak boleh; menyentuh.",
         "pt": "não poder; tocar.",
         "my": "မရ; ထိ။",
-        "th": "ไม่ได้; แตะ"
+        "th": "ไม่ได้; แตะ",
+        "si": "「〜ことは、できません」 = ~ කරන්න බැහැ; さわる = අත ගානවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=256.228,260.522",
       "t": [
@@ -3746,7 +4217,8 @@
         "id": "Tapi saat malam, semua menyalakan banyak api kecil dan berdoa.",
         "pt": "Mas à noite, todos acendem muitas pequenas chamas e rezam.",
         "my": "ဒါပေမဲ့ ညရောက်ရင် အားလုံး မီးလေးတွေ အများကြီး ထွန်းပြီး ဆုတောင်းကြတယ်။",
-        "th": "แต่พอค่ำ ทุกคนช่วยกันจุดไฟดวงเล็ก ๆ มากมาย แล้วสวดภาวนา"
+        "th": "แต่พอค่ำ ทุกคนช่วยกันจุดไฟดวงเล็ก ๆ มากมาย แล้วสวดภาวนา",
+        "si": "ඒත්, රෑ වුණාම, හැමෝම එකතු වෙලා, පොඩි පහන්, ගොඩක්, පත්තු කරලා, වඳිනවා."
       },
       "vocab": [
         {
@@ -3763,7 +4235,8 @@
             "id": "api",
             "pt": "fogo",
             "my": "မီး",
-            "th": "ไฟ"
+            "th": "ไฟ",
+            "si": "ගින්දර"
           },
           "level": "N4"
         }
@@ -3779,7 +4252,8 @@
         "id": "saat; menyalakan.",
         "pt": "quando; acender.",
         "my": "ရောက်ရင်; ထွန်း။",
-        "th": "พอ; จุดไฟ"
+        "th": "พอ; จุดไฟ",
+        "si": "「〜になると」 = ~ වුණාම; 「火をつける」 = ගිනි දල්වනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=261.122,268.775",
       "t": [
@@ -3836,7 +4310,8 @@
         "id": "Puncak gunung menjadi terang seperti bintang.",
         "pt": "O topo fica iluminado como estrelas.",
         "my": "တောင်ထိပ်က ကြယ်တွေလို လင်းလာတယ်။",
-        "th": "ยอดเขาสว่างไสวราวกับดวงดาว"
+        "th": "ยอดเขาสว่างไสวราวกับดวงดาว",
+        "si": "කන්ද උඩ, තරු වගේ, එළිය වෙනවා."
       },
       "vocab": [
         {
@@ -3853,7 +4328,8 @@
             "id": "bintang",
             "pt": "estrela",
             "my": "ကြယ်",
-            "th": "ดาว"
+            "th": "ดาว",
+            "si": "තරුව"
           },
           "level": "N4"
         }
@@ -3869,7 +4345,8 @@
         "id": "seperti; terang.",
         "pt": "como; claro.",
         "my": "လို; လင်း။",
-        "th": "ราวกับ; สว่าง"
+        "th": "ราวกับ; สว่าง",
+        "si": "「〜のように」 = ~ වගේ; 明るい = එළිය."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=269.375,273.439",
       "t": [
@@ -3930,7 +4407,8 @@
         "id": "Nah, Jepang juga punya kisah batu yang tak bergerak.",
         "pt": "Pois bem, o Japão também tem a história de uma pedra que não se move.",
         "my": "ကဲ၊ ဂျပန်မှာလည်း မလှုပ်တဲ့ ကျောက်ရဲ့ ပုံပြင် ရှိတယ်။",
-        "th": "เอาล่ะ ญี่ปุ่นก็มีเรื่องหินที่ไม่ขยับเช่นกัน"
+        "th": "เอาล่ะ ญี่ปุ่นก็มีเรื่องหินที่ไม่ขยับเช่นกัน",
+        "si": "හරි, ජපානයෙත්, නොසෙල්වෙන ගලක කතාවක්, තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3944,7 +4422,8 @@
         "id": "nah; tak bergerak.",
         "pt": "pois bem; que não se move.",
         "my": "ကဲ; မလှုပ်တဲ့။",
-        "th": "เอาล่ะ; ที่ไม่ขยับ"
+        "th": "เอาล่ะ; ที่ไม่ขยับ",
+        "si": "さて = හරි (මාතෘකාව මාරු කරනවා); 「動かない〜」 = නොසෙල්වෙන ~."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=274.039,278.724",
       "t": [
@@ -4001,7 +4480,8 @@
         "id": "Di Kuil Kashima, Ibaraki, ada batu bernama \"Kaname-ishi\".",
         "pt": "No santuário Kashima, em Ibaraki, há uma pedra chamada \"Kaname-ishi\".",
         "my": "အီဘာရာကီ ခရိုင်က ကာရှီမ နတ်ကွန်းမှာ \"ကာနမဲအိရှိ\" ဆိုတဲ့ ကျောက် ရှိတယ်။",
-        "th": "ที่ศาลเจ้าคาชิมะ จังหวัดอิบารากิ มีหินชื่อ \"คานาเมะอิชิ\""
+        "th": "ที่ศาลเจ้าคาชิมะ จังหวัดอิบารากิ มีหินชื่อ \"คานาเมะอิชิ\"",
+        "si": "ඉබරාකි ප්‍රාන්තයේ කාෂිමා ජින්ගු දේවාලයේ, \"කනමෙ-ඉෂි\" කියලා ගලක්, තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4015,7 +4495,8 @@
         "id": "prefektur; kuil.",
         "pt": "província; santuário.",
         "my": "ခရိုင်; နတ်ကွန်း။",
-        "th": "จังหวัด; ศาลเจ้า"
+        "th": "จังหวัด; ศาลเจ้า",
+        "si": "県 = ප්‍රාන්තය; 神宮 = මහා දේවාලය."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=279.324,284.412",
       "t": [
@@ -4072,7 +4553,8 @@
         "id": "Dari atas, hanya terlihat kepala kecil.",
         "pt": "De cima, só se vê uma pequena ponta.",
         "my": "အပေါ်ကနေ ခေါင်းလေးပဲ မြင်ရတယ်။",
-        "th": "จากด้านบนเห็นเพียงหัวเล็ก ๆ"
+        "th": "จากด้านบนเห็นเพียงหัวเล็ก ๆ",
+        "si": "උඩින්, පොඩි මුදුනක් විතරයි, පේන්නේ."
       },
       "vocab": [
         {
@@ -4089,7 +4571,8 @@
             "id": "terlihat",
             "pt": "ser visto",
             "my": "မြင်ရ",
-            "th": "มองเห็น"
+            "th": "มองเห็น",
+            "si": "පෙනීම"
           },
           "level": "N4"
         }
@@ -4105,7 +4588,8 @@
         "id": "hanya; terlihat.",
         "pt": "só; ver-se.",
         "my": "ပဲ; မြင်ရ။",
-        "th": "เพียง; เห็น"
+        "th": "เพียง; เห็น",
+        "si": "「〜しか〜ない」 = ~ විතරයි; 見える = පේනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=285.012,288.571",
       "t": [
@@ -4174,7 +4658,8 @@
         "id": "Tapi konon bagian di bawah tanah sangat dalam dan besar.",
         "pt": "Mas dizem que a parte sob a terra é muito funda e grande.",
         "my": "ဒါပေမဲ့ မြေအောက်မှာ အရမ်းနက်ပြီး ကြီးတယ်လို့ ဆိုကြတယ်။",
-        "th": "แต่ว่ากันว่าใต้ดินลึกและใหญ่มาก"
+        "th": "แต่ว่ากันว่าใต้ดินลึกและใหญ่มาก",
+        "si": "ඒත්, පොළොව යට, හරිම ගැඹුරුයි, ලොකුයි කියලා කියනවා."
       },
       "vocab": [
         {
@@ -4191,7 +4676,8 @@
             "id": "tanah",
             "pt": "terra",
             "my": "မြေ",
-            "th": "ดิน"
+            "th": "ดิน",
+            "si": "පස"
           },
           "level": "N3"
         }
@@ -4207,7 +4693,8 @@
         "id": "tanah; dalam.",
         "pt": "terra; fundo.",
         "my": "မြေ; နက်။",
-        "th": "ดิน; ลึก"
+        "th": "ดิน; ลึก",
+        "si": "土 = පොළොව, පස; 深い = ගැඹුරු."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=289.171,294.909",
       "t": [
@@ -4296,7 +4783,8 @@
         "id": "Orang dulu mengira ada ikan lele raksasa di bawah tanah yang menyebabkan gempa.",
         "pt": "Os antigos achavam que um bagre gigante sob a terra causava terremotos.",
         "my": "ရှေးလူတွေက မြေအောက်မှာ ငါးခူကြီး ရှိပြီး ငလျင် လုပ်တယ်လို့ ထင်ကြတယ်။",
-        "th": "คนโบราณคิดว่ามีปลาดุกยักษ์ใต้ดินทำให้เกิดแผ่นดินไหว"
+        "th": "คนโบราณคิดว่ามีปลาดุกยักษ์ใต้ดินทำให้เกิดแผ่นดินไหว",
+        "si": "ඉස්සර මිනිස්සු, පොළොව යට, ලොකු අඳ මාළුවෙක් ඉඳලා, භූමිකම්පා ඇති කරනවා කියලා, හිතුවා."
       },
       "vocab": [
         {
@@ -4313,7 +4801,8 @@
             "id": "membangunkan",
             "pt": "acordar (alguém)",
             "my": "နှိုး",
-            "th": "ปลุก"
+            "th": "ปลุก",
+            "si": "(කෙනෙකු) ඇහැරවීම"
           },
           "level": "N4"
         },
@@ -4331,7 +4820,8 @@
             "id": "berpikir",
             "pt": "pensar",
             "my": "စဉ်းစား",
-            "th": "คิด"
+            "th": "คิด",
+            "si": "සිතීම, කල්පනා කිරීම"
           },
           "level": "N4"
         }
@@ -4347,7 +4837,8 @@
         "id": "lele; gempa; menyebabkan.",
         "pt": "bagre; terremoto; causar.",
         "my": "ငါးခူ; ငလျင်; လုပ်။",
-        "th": "ปลาดุก; แผ่นดินไหว; ทำให้เกิด"
+        "th": "ปลาดุก; แผ่นดินไหว; ทำให้เกิด",
+        "si": "ナマズ = අඳ මාළුවා (කැට්ෆිෂ්); 地しん = භූමිකම්පාව; 「起こす」 = ඇති කරනවා."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=295.509,302.935",
       "t": [
@@ -4388,7 +4879,8 @@
         "id": "Konon Kaname-ishi menekan kepala ikan lele itu.",
         "pt": "Dizem que a Kaname-ishi segura a cabeça do bagre.",
         "my": "ကာနမဲအိရှိက အဲဒီငါးခူရဲ့ ခေါင်းကို ဖိထားတယ်လို့ ဆိုတယ်။",
-        "th": "ว่ากันว่าคานาเมะอิชิกดหัวปลาดุกตัวนั้นไว้"
+        "th": "ว่ากันว่าคานาเมะอิชิกดหัวปลาดุกตัวนั้นไว้",
+        "si": "කනමෙ-ඉෂි, ඒ මාළුවාගේ ඔළුව, තද කරගෙන ඉන්නවලු."
       },
       "vocab": [],
       "grammarNote": {
@@ -4402,7 +4894,8 @@
         "id": "menekan; konon.",
         "pt": "segurar; dizem.",
         "my": "ဖိ; ဆိုတယ်။",
-        "th": "กด; ว่ากันว่า"
+        "th": "กด; ว่ากันว่า",
+        "si": "おさえる = තද කරගන්නවා; 「〜のだそうです」 = එහෙම කියනවලු."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=303.535,308.626",
       "t": [
@@ -4483,7 +4976,8 @@
         "id": "Ada juga kisah penguasa Mito menyuruh menggali tujuh hari tapi tak sampai dasar.",
         "pt": "Há também a história de um senhor de Mito que mandou cavar por sete dias sem chegar ao fundo.",
         "my": "မိတိုမြို့စားက ကျောက်အောက်ကို ခုနစ်ရက် တူးခိုင်းပေမဲ့ အောက်ဆုံး မရောက်ဘူးဆိုတဲ့ ပုံပြင်လည်း ရှိတယ်။",
-        "th": "ยังมีเรื่องเล่าว่า เจ้าเมืองมิโตะสั่งขุดใต้หินเจ็ดวันก็ยังไม่ถึงก้น"
+        "th": "ยังมีเรื่องเล่าว่า เจ้าเมืองมิโตะสั่งขุดใต้หินเจ็ดวันก็ยังไม่ถึงก้น",
+        "si": "ඉස්සර, මිතෝවල ප්‍රාදේශීය පාලකයෙක්, ගල යට හාරන්න සැලැස්සුවත්, දවස් හතක් හෑරුවත්, පතුලට, ළඟා වුණේ නැහැ කියලා කතාවකුත්, තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4497,7 +4991,8 @@
         "id": "menyuruh menggali; meski tak; kisah.",
         "pt": "mandar cavar; mesmo sem; história.",
         "my": "တူးခိုင်း; ပေမဲ့ မ; ပုံပြင်။",
-        "th": "สั่งขุด; ก็ยังไม่; เรื่องเล่า"
+        "th": "สั่งขุด; ก็ยังไม่; เรื่องเล่า",
+        "si": "「ほらせる」 = හාරන්න සලස්වනවා; 「〜ても〜なかった」 = ~ කළත් ~ වුණේ නැහැ; 「〜という話」 = ~ කියලා කතාවක්."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=309.226,319.645",
       "t": [
@@ -4566,7 +5061,8 @@
         "id": "Batu Myanmar dan batu Jepang sama-sama diam demi orang banyak, ya.",
         "pt": "A pedra de Mianmar e a do Japão ficam paradas pelo povo, não é?",
         "my": "မြန်မာကျောက်ရော ဂျပန်ကျောက်ရော လူတွေအတွက် မလှုပ်ကြတာပေါ့။",
-        "th": "ทั้งหินของพม่าและญี่ปุ่น ต่างไม่ขยับเพื่อผู้คนนะ"
+        "th": "ทั้งหินของพม่าและญี่ปุ่น ต่างไม่ขยับเพื่อผู้คนนะ",
+        "si": "මියන්මාරයේ ගලත්, ජපානයේ ගලත්, මිනිස්සු වෙනුවෙන්, නොසෙල්වී ඉන්නවා නේද."
       },
       "vocab": [],
       "grammarNote": {
@@ -4580,7 +5076,8 @@
         "id": "demi; ya.",
         "pt": "pelo; não é.",
         "my": "အတွက်; ပေါ့။",
-        "th": "เพื่อ; นะ"
+        "th": "เพื่อ; นะ",
+        "si": "「〜のために」 = ~ වෙනුවෙන්; 「〜のですね」 = එහෙමයි නේද."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=320.245,326.643",
       "t": [
@@ -4649,7 +5146,8 @@
         "id": "Kalau ke Myanmar, cobalah melihat batu emas itu.",
         "pt": "Se for a Mianmar, vá ver a pedra dourada.",
         "my": "မြန်မာပြည် ရောက်ရင် ရွှေကျောက်ကို သွားကြည့်ပါ။",
-        "th": "ถ้าไปพม่า ลองไปชมหินทองคำดูนะ"
+        "th": "ถ้าไปพม่า ลองไปชมหินทองคำดูนะ",
+        "si": "කවදා හරි, මියන්මාරයට ගියොත්, රන් ගල, බලන්න ගිහින් බලන්න."
       },
       "vocab": [
         {
@@ -4666,7 +5164,8 @@
             "id": "jika",
             "pt": "se",
             "my": "အကယ်၍",
-            "th": "ถ้า"
+            "th": "ถ้า",
+            "si": "යම් හෙයකින්, ~ නම්"
           },
           "level": "N4"
         }
@@ -4682,7 +5181,8 @@
         "id": "kalau; cobalah.",
         "pt": "se; experimente.",
         "my": "ရင်; ကြည့်ပါ။",
-        "th": "ถ้า; ลองดู"
+        "th": "ถ้า; ลองดู",
+        "si": "「もし〜たら」 = ~ ගියොත්; 「〜てみてください」 = ~ කරලා බලන්න."
       },
       "audio": "/audio/furusato-mm-kyaiktiyo-1/chapter.mp3#t=327.243,332.731",
       "t": [

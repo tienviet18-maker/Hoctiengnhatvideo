@@ -12,7 +12,8 @@
     "id": "Iara, Putri Duyung Amazon",
     "pt": "Iara, a mãe-d'água",
     "my": "အမေဇုန်က ရေသူမ အီအာရာ",
-    "th": "อิอารา นางเงือกแห่งแอมะซอน"
+    "th": "อิอารา นางเงือกแห่งแอมะซอน",
+    "si": "ඇමසන් ගඟේ දිය කිඳුරිය ඉයාරා"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -42,7 +43,8 @@
           "id": "Selalu ~ saja.",
           "pt": "Só ~ (reclamação).",
           "my": "~ ချည်းပဲ။",
-          "th": "มีแต่ ~"
+          "th": "มีแต่ ~",
+          "si": "~ විතරක් / හැමතිස්සෙම ~ (පැමිණිල්ලක් සමඟ)."
         }
       },
       {
@@ -59,7 +61,8 @@
           "id": "Hendak ~.",
           "pt": "Tentar ~.",
           "my": "~ ဖို့ ကြိုးစား။",
-          "th": "พยายามจะ ~"
+          "th": "พยายามจะ ~",
+          "si": "~ කරන්න හදනවා / ~ කරන්න යනවා."
         }
       },
       {
@@ -76,7 +79,8 @@
           "id": "Menjadi ~.",
           "pt": "Passar a ~.",
           "my": "~ လာတယ်။",
-          "th": "กลายเป็น ~"
+          "th": "กลายเป็น ~",
+          "si": "~ කරන්න පටන් ගන්නවා (වෙනසක්)."
         }
       },
       {
@@ -93,7 +97,8 @@
           "id": "Tidak boleh ~.",
           "pt": "Não pode ~.",
           "my": "~ မရဘူး။",
-          "th": "ห้าม ~"
+          "th": "ห้าม ~",
+          "si": "~ කරන්න හොඳ නැහැ / ~ නොකළ යුතුයි."
         }
       }
     ],
@@ -118,8 +123,65 @@
           "id": "Karena hanya Iara yang dipuji.",
           "pt": "Porque só Iara era elogiada.",
           "my": "အီအာရာချည်း ချီးမွမ်းခံရလို့။",
-          "th": "เพราะมีแต่อิอาราที่ถูกชม"
-        }
+          "th": "เพราะมีแต่อิอาราที่ถูกชม",
+          "si": "හැමතිස්සෙම ප්‍රශංසා ලැබුණේ ඉයාරාට විතරක් නිසා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "どうして、",
+            "reading": ""
+          },
+          {
+            "surface": "兄",
+            "reading": "あに"
+          },
+          {
+            "surface": "たちは、イアラを、おそおうとしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "いつも、イアラばかり、ほめられたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "イアラが、うそをついたから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "イアラが、",
+              "reading": ""
+            },
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            },
+            {
+              "surface": "をとったから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "父",
+              "reading": "ちち"
+            },
+            {
+              "surface": "さんに、たのまれたから",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "川にしずんだイアラを、だれが、たすけましたか。",
@@ -141,8 +203,69 @@
           "id": "Ikan-ikan.",
           "pt": "Os peixes.",
           "my": "ငါးတွေ။",
-          "th": "ฝูงปลา"
-        }
+          "th": "ฝูงปลา",
+          "si": "මාළු."
+        },
+        "jaFurigana": [
+          {
+            "surface": "川",
+            "reading": "かわ"
+          },
+          {
+            "surface": "にしずんだイアラを、だれが、たすけましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            },
+            {
+              "surface": "たち",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "父",
+              "reading": "ちち"
+            },
+            {
+              "surface": "さん",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ペドロ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "村",
+              "reading": "むら"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            },
+            {
+              "surface": "たち",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "ペドロは、どうやって、たすかりましたか。",
@@ -164,8 +287,95 @@
           "id": "Menutup telinga dan mendayung pulang.",
           "pt": "Tapou os ouvidos e remou para casa.",
           "my": "နားပိတ်ပြီး ရွာဘက် လှော်လို့။",
-          "th": "ปิดหูแล้วพายกลับหมู่บ้าน"
-        }
+          "th": "ปิดหูแล้วพายกลับหมู่บ้าน",
+          "si": "එයා කන් වහගෙන ගෙදරට ඔරුව පැද්දා."
+        },
+        "choicesFurigana": [
+          [
+            {
+              "surface": "耳",
+              "reading": "みみ"
+            },
+            {
+              "surface": "をふさいで、",
+              "reading": ""
+            },
+            {
+              "surface": "村",
+              "reading": "むら"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "方",
+              "reading": "ほう"
+            },
+            {
+              "surface": "へ、",
+              "reading": ""
+            },
+            {
+              "surface": "船",
+              "reading": "ふね"
+            },
+            {
+              "surface": "をこいだ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "イアラと、",
+              "reading": ""
+            },
+            {
+              "surface": "話",
+              "reading": "はなし"
+            },
+            {
+              "surface": "をした",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "に、とびこんだ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "大",
+              "reading": "おお"
+            },
+            {
+              "surface": "きな",
+              "reading": ""
+            },
+            {
+              "surface": "声",
+              "reading": "こえ"
+            },
+            {
+              "surface": "で、",
+              "reading": ""
+            },
+            {
+              "surface": "歌",
+              "reading": "うた"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "『八百比丘尼』の女の子は、何を食べましたか。",
@@ -187,8 +397,113 @@
           "id": "Daging duyung.",
           "pt": "Carne de sereia.",
           "my": "ရေသူမ အသား။",
-          "th": "เนื้อเงือก"
-        }
+          "th": "เนื้อเงือก",
+          "si": "දිය කිඳුරියෙක්ගේ මස්."
+        },
+        "jaFurigana": [
+          {
+            "surface": "『",
+            "reading": ""
+          },
+          {
+            "surface": "八百比丘尼",
+            "reading": "やおびくに"
+          },
+          {
+            "surface": "』の",
+            "reading": ""
+          },
+          {
+            "surface": "女",
+            "reading": "おんな"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "子",
+            "reading": "こ"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "食",
+            "reading": "た"
+          },
+          {
+            "surface": "べましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "人魚",
+              "reading": "にんぎょ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "肉",
+              "reading": "にく"
+            }
+          ],
+          [
+            {
+              "surface": "白",
+              "reading": "しろ"
+            },
+            {
+              "surface": "いつばきの",
+              "reading": ""
+            },
+            {
+              "surface": "花",
+              "reading": "はな"
+            }
+          ],
+          [
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            }
+          ],
+          [
+            {
+              "surface": "月",
+              "reading": "つき"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "光",
+              "reading": "ひかり"
+            }
+          ]
+        ]
       }
     ]
   },
@@ -237,7 +552,8 @@
         "id": "Di Brasil ada sungai terbesar di dunia, Amazon.",
         "pt": "No Brasil fica o maior rio do mundo, o Amazonas.",
         "my": "ဘရာဇီးမှာ ကမ္ဘာ့ အကြီးဆုံး မြစ် အမေဇုန် ရှိတယ်။",
-        "th": "บราซิลมีแม่น้ำใหญ่ที่สุดในโลกชื่อแอมะซอน"
+        "th": "บราซิลมีแม่น้ำใหญ่ที่สุดในโลกชื่อแอมะซอน",
+        "si": "බ්‍රසීලයේ, ඇමසන් කියන, ලෝකයේ ලොකුම ගඟ තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -251,7 +567,8 @@
         "id": "ter- di dunia.",
         "pt": "o mais ~ do mundo.",
         "my": "ကမ္ဘာ့ အ~ဆုံး။",
-        "th": "ที่สุดในโลก"
+        "th": "ที่สุดในโลก",
+        "si": "「世界でいちばん〜」 = ලෝකයේ වැඩියෙන්ම ~."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=0.3,7.078",
       "t": [
@@ -328,7 +645,8 @@
         "id": "Konon di sungai itu ada wanita yang memanggil orang dengan suara merdu.",
         "pt": "Dizem que nesse rio há uma mulher que chama as pessoas com sua bela voz.",
         "my": "အဲဒီမြစ်မှာ သီချင်းသံချိုချိုနဲ့ လူကို ခေါ်တဲ့ အမျိုးသမီး ရှိတယ်လို့ ဆိုကြတယ်။",
-        "th": "ว่ากันว่าในแม่น้ำนั้นมีหญิงที่เรียกคนด้วยเสียงร้องเพลงไพเราะ"
+        "th": "ว่ากันว่าในแม่น้ำนั้นมีหญิงที่เรียกคนด้วยเสียงร้องเพลงไพเราะ",
+        "si": "ඒ ගඟේ, ලස්සන ගායනා හඬකින්, මිනිස්සුන්ට කතා කරන, ගෑනු කෙනෙක් ඉන්නවා කියලා කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -342,7 +660,8 @@
         "id": "suara; memanggil.",
         "pt": "voz; chamar.",
         "my": "သီချင်းသံ; ခေါ်။",
-        "th": "เสียงเพลง; เรียก"
+        "th": "เสียงเพลง; เรียก",
+        "si": "歌声 = ගායනා හඬ; よぶ = කතා කරනවා, අඬගහනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=7.678,14.599",
       "t": [
@@ -399,7 +718,8 @@
         "id": "Namanya Iara, artinya \"ratu air\".",
         "pt": "Seu nome é Iara, que quer dizer \"senhora das águas\".",
         "my": "နာမည်က အီအာရာ၊ \"ရေ့ဘုရင်မ\" လို့ အဓိပ္ပာယ်ရတယ်။",
-        "th": "ชื่อของนางคืออิอารา แปลว่า \"ราชินีแห่งน้ำ\""
+        "th": "ชื่อของนางคืออิอารา แปลว่า \"ราชินีแห่งน้ำ\"",
+        "si": "නම, ඉයාරා. \"වතුරේ රැජින\" කියන තේරුම."
       },
       "vocab": [],
       "grammarNote": {
@@ -413,7 +733,8 @@
         "id": "ratu; artinya.",
         "pt": "rainha; quer dizer.",
         "my": "ဘုရင်မ; အဓိပ္ပာယ်။",
-        "th": "ราชินี; แปลว่า"
+        "th": "ราชินี; แปลว่า",
+        "si": "女王 = රැජින; 「〜という意味」 = ~ කියන තේරුම."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=15.199,19.63",
       "t": [
@@ -486,7 +807,8 @@
         "id": "Bagian atas wanita, bagian bawah ekor ikan.",
         "pt": "Em cima é mulher, embaixo é rabo de peixe.",
         "my": "အပေါ်ပိုင်းက အမျိုးသမီး၊ အောက်ပိုင်းက ငါးအမြီး။",
-        "th": "ท่อนบนเป็นหญิง ท่อนล่างเป็นหางปลา"
+        "th": "ท่อนบนเป็นหญิง ท่อนล่างเป็นหางปลา",
+        "si": "උඩ කොටස මිනිස් ගෑනු කෙනෙක්, යට කොටස, මාළු වලිගයක්."
       },
       "vocab": [
         {
@@ -503,7 +825,8 @@
             "id": "ekor",
             "pt": "rabo",
             "my": "အမြီး",
-            "th": "หาง"
+            "th": "หาง",
+            "si": "වලිගය"
           },
           "level": "N2"
         }
@@ -519,7 +842,8 @@
         "id": "manusia; ekor.",
         "pt": "humano; rabo.",
         "my": "လူ; အမြီး။",
-        "th": "มนุษย์; หาง"
+        "th": "มนุษย์; หาง",
+        "si": "人間 = මිනිසා; しっぽ = වලිගය; 「上は〜、下は〜」 = උඩ ~, යට ~."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=20.23,25.532",
       "t": [
@@ -584,7 +908,8 @@
         "id": "Dahulu, di desa di hutan Amazon, ada gadis bernama Iara.",
         "pt": "Antigamente, numa aldeia da floresta amazônica, vivia uma moça chamada Iara.",
         "my": "ရှေးတုန်းက အမေဇုန်တောထဲက ရွာမှာ အီအာရာ ဆိုတဲ့ မိန်းကလေး ရှိတယ်။",
-        "th": "กาลครั้งหนึ่ง ในหมู่บ้านกลางป่าแอมะซอน มีเด็กหญิงชื่ออิอารา"
+        "th": "กาลครั้งหนึ่ง ในหมู่บ้านกลางป่าแอมะซอน มีเด็กหญิงชื่ออิอารา",
+        "si": "ඉස්සර, ඇමසන් කැලේ ගමක, ඉයාරා කියලා, කෙල්ලෙක් හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -598,7 +923,8 @@
         "id": "ada ~ bernama.",
         "pt": "havia ~ chamada.",
         "my": "ဆိုတဲ့ ရှိ။",
-        "th": "มี ~ ชื่อ"
+        "th": "มี ~ ชื่อ",
+        "si": "「〜という〜がいました」 = ~ කියලා ~ ක් හිටියා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=26.132,32.048",
       "t": [
@@ -643,7 +969,8 @@
         "id": "Iara putri orang terpenting di desa.",
         "pt": "Iara era filha do homem mais importante da aldeia.",
         "my": "အီအာရာက ရွာရဲ့ အကြီးဆုံးသူရဲ့ သမီးပါ။",
-        "th": "อิอาราเป็นลูกสาวของคนที่ใหญ่ที่สุดในหมู่บ้าน"
+        "th": "อิอาราเป็นลูกสาวของคนที่ใหญ่ที่สุดในหมู่บ้าน",
+        "si": "ඉයාරා, ගමේ වැදගත්ම කෙනාගේ, දුව."
       },
       "vocab": [],
       "grammarNote": {
@@ -657,7 +984,8 @@
         "id": "penting; putri.",
         "pt": "importante; filha.",
         "my": "အကြီး; သမီး။",
-        "th": "ใหญ่; ลูกสาว"
+        "th": "ใหญ่; ลูกสาว",
+        "si": "えらい = වැදගත්, උසස්; むすめ = දුව."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=32.648,37.224",
       "t": [
@@ -718,7 +1046,8 @@
         "id": "Rambutnya panjang hitam, matanya hijau.",
         "pt": "O cabelo era longo e negro, os olhos verdes.",
         "my": "ဆံပင် ရှည်ပြီး နက်တယ်၊ မျက်လုံး စိမ်းတယ်။",
-        "th": "ผมยาวสีดำ ดวงตาสีเขียว"
+        "th": "ผมยาวสีดำ ดวงตาสีเขียว",
+        "si": "කොණ්ඩය දිගයි කළුයි, ඇස්, කොළ පාටයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -732,7 +1061,8 @@
         "id": "dan; hijau.",
         "pt": "e; verde.",
         "my": "ပြီး; စိမ်း။",
-        "th": "และ; เขียว"
+        "th": "และ; เขียว",
+        "si": "「〜くて〜く」 = ~ යි ~ යි; 緑色 = කොළ පාට."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=37.824,41.985",
       "t": [
@@ -785,7 +1115,8 @@
         "id": "Iara lebih kuat dan pintar dari siapa pun.",
         "pt": "Iara era mais forte e esperta que todos.",
         "my": "အီအာရာက ဘယ်သူ့ထက်မဆို အားကြီးပြီး ထက်မြက်တယ်။",
-        "th": "อิอาราแข็งแรงและฉลาดกว่าใคร"
+        "th": "อิอาราแข็งแรงและฉลาดกว่าใคร",
+        "si": "ඉයාරා, හැමෝටම වඩා, ශක්තිමත්, බුද්ධිමත් ළමයෙක්."
       },
       "vocab": [
         {
@@ -802,7 +1133,8 @@
             "id": "kekuatan",
             "pt": "força",
             "my": "ခွန်အား",
-            "th": "พละกำลัง"
+            "th": "พละกำลัง",
+            "si": "ශක්තිය, බලය"
           },
           "level": "N4"
         },
@@ -820,7 +1152,8 @@
             "id": "anak",
             "pt": "criança",
             "my": "ကလေး",
-            "th": "เด็ก"
+            "th": "เด็ก",
+            "si": "ළමයා, දරුවා"
           },
           "level": "N4"
         }
@@ -836,7 +1169,8 @@
         "id": "dari siapa pun; pintar.",
         "pt": "que todos; esperta.",
         "my": "ဘယ်သူ့ထက်မဆို; ထက်မြက်။",
-        "th": "กว่าใคร; ฉลาด"
+        "th": "กว่าใคร; ฉลาด",
+        "si": "「だれよりも」 = හැමෝටම වඩා; かしこい = බුද්ධිමත්."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=42.585,47.509",
       "t": [
@@ -885,7 +1219,8 @@
         "id": "Menangkap ikan dan berlari di hutan, ia yang terbaik.",
         "pt": "Na pesca e na corrida pela mata, era a melhor.",
         "my": "ငါးဖမ်းတာရော တောထဲ ပြေးတာရော အတော်ဆုံးပဲ။",
-        "th": "ทั้งจับปลาและวิ่งในป่า นางเก่งที่สุด"
+        "th": "ทั้งจับปลาและวิ่งในป่า นางเก่งที่สุด",
+        "si": "මාළු අල්ලන එකෙත්, කැලේ දුවන එකෙත්, එයා තමයි හොඳම."
       },
       "vocab": [],
       "grammarNote": {
@@ -899,7 +1234,8 @@
         "id": "dan.",
         "pt": "e.",
         "my": "ရော...ရော။",
-        "th": "ทั้ง...และ"
+        "th": "ทั้ง...และ",
+        "si": "「〜のも、〜のも」 = ~ න එකත් ~ න එකත්."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=48.109,52.392",
       "t": [
@@ -948,7 +1284,8 @@
         "id": "Pria dewasa pun tak bisa mengalahkannya.",
         "pt": "Não perdia nem para homens adultos.",
         "my": "လူကြီး ယောက်ျားတွေကိုတောင် မရှုံးဘူး။",
-        "th": "ไม่แพ้แม้แต่ผู้ชายตัวโต"
+        "th": "ไม่แพ้แม้แต่ผู้ชายตัวโต",
+        "si": "වැඩිහිටි පිරිමි අයටවත්, එයා පැරදුණේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -962,7 +1299,8 @@
         "id": "dewasa; tak kalah.",
         "pt": "adulto; não perder.",
         "my": "လူကြီး; တောင်မရှုံး။",
-        "th": "ผู้ใหญ่; ไม่แพ้"
+        "th": "ผู้ใหญ่; ไม่แพ้",
+        "si": "大人 = වැඩිහිටියා; 「〜にも、まけない」 = ~ ටවත් පරදින්නේ නැහැ."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=52.992,56.518",
       "t": [
@@ -1003,7 +1341,8 @@
         "id": "Warga desa selalu memuji Iara.",
         "pt": "Os aldeões sempre elogiavam Iara.",
         "my": "ရွာသားတွေ အီအာရာကို အမြဲ ချီးမွမ်းတယ်။",
-        "th": "ชาวบ้านชมอิอาราเสมอ"
+        "th": "ชาวบ้านชมอิอาราเสมอ",
+        "si": "ගමේ මිනිස්සු, හැමතිස්සෙම, ඉයාරාට, ප්‍රශංසා කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1017,7 +1356,8 @@
         "id": "memuji.",
         "pt": "elogiar.",
         "my": "ချီးမွမ်း။",
-        "th": "ชม"
+        "th": "ชม",
+        "si": "ほめる = ප්‍රශංසා කරනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=57.118,61.322",
       "t": [
@@ -1046,7 +1386,8 @@
         "id": "\"Iara putri kebanggaanku.\"",
         "pt": "\"Iara é a filha de que me orgulho.\"",
         "my": "\"အီအာရာက ငါ ဂုဏ်ယူရတဲ့ သမီးပဲ။\"",
-        "th": "\"อิอาราคือลูกสาวที่ข้าภูมิใจ\""
+        "th": "\"อิอาราคือลูกสาวที่ข้าภูมิใจ\"",
+        "si": "\"ඉයාරා, මම ආඩම්බර වෙන, දුව.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1060,7 +1401,8 @@
         "id": "kebanggaan.",
         "pt": "orgulho.",
         "my": "ဂုဏ်ယူ။",
-        "th": "ภูมิใจ"
+        "th": "ภูมิใจ",
+        "si": "じまん = ආඩම්බරය; わし = මම (වයසක පිරිමි)."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=62.222,65.248",
       "t": [
@@ -1105,7 +1447,8 @@
         "id": "Tapi kedua kakak Iara tidak senang.",
         "pt": "Mas os dois irmãos de Iara não gostavam disso.",
         "my": "ဒါပေမဲ့ အီအာရာရဲ့ အစ်ကို နှစ်ယောက်က မကျေနပ်ဘူး။",
-        "th": "แต่พี่ชายสองคนของอิอาราไม่พอใจ"
+        "th": "แต่พี่ชายสองคนของอิอาราไม่พอใจ",
+        "si": "ඒත්, ඉයාරාගේ අයියලා දෙන්නාට, ඒක, කොහෙත්ම ඇල්ලුවේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -1119,7 +1462,8 @@
         "id": "tidak senang; kakak.",
         "pt": "não gostar; irmão.",
         "my": "မကျေနပ်; အစ်ကို။",
-        "th": "ไม่พอใจ; พี่ชาย"
+        "th": "ไม่พอใจ; พี่ชาย",
+        "si": "「おもしろくない」 = අකමැතියි; 兄 = අයියා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=66.148,71.582",
       "t": [
@@ -1148,7 +1492,8 @@
         "id": "\"Kenapa selalu Iara saja yang dipuji?\"",
         "pt": "\"Por que só a Iara é elogiada?\"",
         "my": "\"ဘာလို့ အမြဲ အီအာရာချည်းပဲ ချီးမွမ်းခံရတာလဲ။\"",
-        "th": "\"ทำไมมีแต่อิอาราที่ได้รับคำชม\""
+        "th": "\"ทำไมมีแต่อิอาราที่ได้รับคำชม\"",
+        "si": "\"ඇයි, හැමතිස්සෙම, ඉයාරාට විතරක්, ප්‍රශංසා කරන්නේ?\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1162,7 +1507,8 @@
         "id": "saja; dipuji.",
         "pt": "só; ser elogiado.",
         "my": "ချည်းပဲ; ချီးမွမ်းခံ။",
-        "th": "แต่; ได้รับคำชม"
+        "th": "แต่; ได้รับคำชม",
+        "si": "「〜ばかり」 = ~ විතරක්; ほめられる = ප්‍රශංසා ලබනවා (කර්මකාරක)."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=72.482,76.03",
       "t": [
@@ -1207,7 +1553,8 @@
         "id": "Suatu malam, kakak-kakaknya hendak menyerang Iara yang tidur.",
         "pt": "Certa noite, os irmãos tentaram atacar Iara enquanto dormia.",
         "my": "တစ်ညမှာ အစ်ကိုတွေက အိပ်နေတဲ့ အီအာရာကို တိုက်ခိုက်ဖို့ ကြိုးစားတယ်။",
-        "th": "คืนหนึ่ง พี่ชายพยายามทำร้ายอิอาราขณะหลับ"
+        "th": "คืนหนึ่ง พี่ชายพยายามทำร้ายอิอาราขณะหลับ",
+        "si": "එක රෑක, අයියලා, නිදාගෙන හිටපු ඉයාරාට, පහර දෙන්න හැදුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1221,7 +1568,8 @@
         "id": "hendak; menyerang.",
         "pt": "tentar; atacar.",
         "my": "ကြိုးစား; တိုက်ခိုက်။",
-        "th": "พยายาม; ทำร้าย"
+        "th": "พยายาม; ทำร้าย",
+        "si": "「〜おうとする」 = ~ කරන්න හදනවා; おそう = පහර දෙනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=76.93,81.866",
       "t": [
@@ -1266,7 +1614,8 @@
         "id": "Iara terbangun dan melawan untuk melindungi diri.",
         "pt": "Iara acordou e lutou para se defender.",
         "my": "အီအာရာ နိုးလာပြီး ကိုယ့်ကိုယ်ကို ကာကွယ်ဖို့ တိုက်တယ်။",
-        "th": "อิอาราตื่นขึ้นและสู้เพื่อปกป้องตัวเอง"
+        "th": "อิอาราตื่นขึ้นและสู้เพื่อปกป้องตัวเอง",
+        "si": "ඉයාරා, ඇහැරිලා, තමන්ව ආරක්ෂා කරගන්න, සටන් කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1280,7 +1629,8 @@
         "id": "terbangun; untuk.",
         "pt": "acordar; para.",
         "my": "နိုး; ဖို့။",
-        "th": "ตื่น; เพื่อ"
+        "th": "ตื่น; เพื่อ",
+        "si": "「目をさます」 = ඇහැරෙනවා; 「〜ために」 = ~ සඳහා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=82.466,87.773",
       "t": [
@@ -1325,7 +1675,8 @@
         "id": "Dan kakak-kakaknya roboh dan tewas.",
         "pt": "E os irmãos caíram e morreram.",
         "my": "ပြီးတော့ အစ်ကိုတွေ လဲကျပြီး သေသွားတယ်။",
-        "th": "และพี่ชายทั้งสองล้มลงสิ้นใจ"
+        "th": "และพี่ชายทั้งสองล้มลงสิ้นใจ",
+        "si": "ඊට පස්සේ, අයියලා, වැටිලා, මැරුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1339,7 +1690,8 @@
         "id": "akhirnya.",
         "pt": "acabar.",
         "my": "သွား။",
-        "th": "ไปเสียแล้ว"
+        "th": "ไปเสียแล้ว",
+        "si": "「〜てしまう」 = (අවාසනාවට) ~ වුණා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=88.373,93.029",
       "t": [
@@ -1376,7 +1728,8 @@
         "id": "Sang ayah sangat berduka.",
         "pt": "O pai ficou muito triste.",
         "my": "အဖေ အရမ်း ဝမ်းနည်းတယ်။",
-        "th": "พ่อเสียใจมาก"
+        "th": "พ่อเสียใจมาก",
+        "si": "තාත්තා, හොඳටම, දුක් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1390,7 +1743,8 @@
         "id": "berduka.",
         "pt": "entristecer.",
         "my": "ဝမ်းနည်း။",
-        "th": "เสียใจ"
+        "th": "เสียใจ",
+        "si": "かなしむ = දුක් වෙනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=93.629,96.829",
       "t": [
@@ -1427,7 +1781,8 @@
         "id": "\"Aku kehilangan dua putra...\"",
         "pt": "\"Perdi dois filhos...\"",
         "my": "\"သားနှစ်ယောက်တောင် ဆုံးရှုံးခဲ့ပြီ...\"",
-        "th": "\"ข้าเสียลูกชายไปถึงสองคน...\""
+        "th": "\"ข้าเสียลูกชายไปถึงสองคน...\"",
+        "si": "\"පුතාලා දෙන්නෙක්ම, නැති වුණා……\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1441,7 +1796,8 @@
         "id": "dua; kehilangan.",
         "pt": "dois; perder.",
         "my": "နှစ်ယောက်တောင်; ဆုံးရှုံး။",
-        "th": "ถึงสอง; เสีย"
+        "th": "ถึงสอง; เสีย",
+        "si": "「二人も」 = දෙන්නෙක්ම; なくす = නැති කරගන්නවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=97.729,100.431",
       "t": [
@@ -1478,7 +1834,8 @@
         "id": "\"Iara, kau tak bisa tinggal di desa.\"",
         "pt": "\"Iara, não posso deixá-la na aldeia.\"",
         "my": "\"အီအာရာ၊ နင့်ကို ရွာမှာ မထားနိုင်ဘူး။\"",
-        "th": "\"อิอารา ข้าให้เจ้าอยู่ในหมู่บ้านไม่ได้\""
+        "th": "\"อิอารา ข้าให้เจ้าอยู่ในหมู่บ้านไม่ได้\"",
+        "si": "\"ඉයාරා, උඹව, ගමේ, තියාගන්න, බැහැ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1492,7 +1849,8 @@
         "id": "tinggal; tak bisa.",
         "pt": "deixar; não posso.",
         "my": "ထား; မနိုင်။",
-        "th": "ให้อยู่; ไม่ได้"
+        "th": "ให้อยู่; ไม่ได้",
+        "si": "「〜ておく」 = තියාගන්නවා; 「〜ことはできない」 = ~ කරන්න බැහැ."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=101.031,105.711",
       "t": [
@@ -1529,7 +1887,8 @@
         "id": "\"Ayah, maafkan aku! Aku takut!\"",
         "pt": "\"Pai, me perdoe! Eu tive medo!\"",
         "my": "\"အဖေ၊ ခွင့်လွှတ်ပါ! ကြောက်လို့ပါ!\"",
-        "th": "\"พ่อ ยกโทษให้ข้า! ข้ากลัว!\""
+        "th": "\"พ่อ ยกโทษให้ข้า! ข้ากลัว!\"",
+        "si": "\"තාත්තේ, සමාවෙන්න! මට බය හිතුණා!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1543,7 +1902,8 @@
         "id": "maafkan.",
         "pt": "perdoar.",
         "my": "ခွင့်လွှတ်။",
-        "th": "ยกโทษ"
+        "th": "ยกโทษ",
+        "si": "「〜の」 = ගැහැනු පැහැදිලි කිරීම; ゆるす = සමාව දෙනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=106.611,110.443",
       "t": [
@@ -1588,7 +1948,8 @@
         "id": "Tapi sang ayah melemparkan Iara ke sungai.",
         "pt": "Mas o pai jogou Iara no rio.",
         "my": "ဒါပေမဲ့ အဖေက အီအာရာကို မြစ်ထဲ ပစ်ချလိုက်တယ်။",
-        "th": "แต่พ่อโยนอิอาราลงแม่น้ำ"
+        "th": "แต่พ่อโยนอิอาราลงแม่น้ำ",
+        "si": "ඒත්, තාත්තා, ඉයාරාව, ගඟට, විසි කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1602,7 +1963,8 @@
         "id": "melemparkan.",
         "pt": "jogar.",
         "my": "ပစ်ချ။",
-        "th": "โยนลง"
+        "th": "โยนลง",
+        "si": "なげこむ = ඇතුළට විසි කරනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=111.343,117.336",
       "t": [
@@ -1639,7 +2001,8 @@
         "id": "Iara tenggelam jauh ke dasar sungai yang dalam.",
         "pt": "Iara afundou até o fundo do rio profundo.",
         "my": "အီအာရာက နက်နက်ရှိုင်းရှိုင်း မြစ်အောက်ခြေကို နစ်သွားတယ်။",
-        "th": "อิอาราจมลงไปสู่ก้นแม่น้ำที่ลึกแสนลึก"
+        "th": "อิอาราจมลงไปสู่ก้นแม่น้ำที่ลึกแสนลึก",
+        "si": "ඉයාරා, ගැඹුරු, ගැඹුරු, ගං පතුලට, ගිලිලා ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1653,7 +2016,8 @@
         "id": "dasar; tenggelam.",
         "pt": "fundo; afundar.",
         "my": "အောက်ခြေ; နစ်။",
-        "th": "ก้น; จม"
+        "th": "ก้น; จม",
+        "si": "そこ = පතුල; しずむ = ගිලෙනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=117.936,124.157",
       "t": [
@@ -1698,7 +2062,8 @@
         "id": "Saat itu, banyak ikan berkumpul.",
         "pt": "Nesse momento, muitos peixes se reuniram.",
         "my": "အဲဒီအချိန် ငါးအများကြီး စုလာတယ်။",
-        "th": "ตอนนั้น ปลามากมายมารวมกัน"
+        "th": "ตอนนั้น ปลามากมายมารวมกัน",
+        "si": "ඒ වෙලාවේ, මාළු ගොඩක්, එකතු වෙලා ආවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1712,7 +2077,8 @@
         "id": "berkumpul.",
         "pt": "reunir-se.",
         "my": "စု။",
-        "th": "รวมกัน"
+        "th": "รวมกัน",
+        "si": "集まる = එකතු වෙනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=124.757,129.12",
       "t": [
@@ -1761,7 +2127,8 @@
         "id": "Ikan-ikan dengan lembut membawa Iara ke permukaan.",
         "pt": "Os peixes levaram Iara com cuidado até a superfície.",
         "my": "ငါးတွေက အီအာရာကို ဖြည်းဖြည်း ရေပေါ် သယ်တင်တယ်။",
-        "th": "ฝูงปลาค่อย ๆ พาอิอาราขึ้นสู่ผิวน้ำ"
+        "th": "ฝูงปลาค่อย ๆ พาอิอาราขึ้นสู่ผิวน้ำ",
+        "si": "මාළු, ඉයාරාව, හෙමින්, වතුරේ උඩටම, අරන් ගියා."
       },
       "vocab": [
         {
@@ -1778,7 +2145,8 @@
             "id": "diam-diam, pelan",
             "pt": "de mansinho",
             "my": "တိတ်တဆိတ်",
-            "th": "เบา ๆ"
+            "th": "เบา ๆ",
+            "si": "මෘදුවට, හෙමින්"
           },
           "level": "N3"
         }
@@ -1794,7 +2162,8 @@
         "id": "lembut; membawa.",
         "pt": "com cuidado; levar.",
         "my": "ဖြည်းဖြည်း; သယ်။",
-        "th": "ค่อย ๆ; พา"
+        "th": "ค่อย ๆ; พา",
+        "si": "そっと = හෙමින්; はこぶ = අරන් යනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=129.72,135.403",
       "t": [
@@ -1835,7 +2204,8 @@
         "id": "Cahaya bulan menyinari Iara.",
         "pt": "A luz da lua iluminou Iara.",
         "my": "လရောင်က အီအာရာကို ထွန်းလင်းတယ်။",
-        "th": "แสงจันทร์ส่องต้องอิอารา"
+        "th": "แสงจันทร์ส่องต้องอิอารา",
+        "si": "හඳ එළිය, ඉයාරාට, වැටුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1849,7 +2219,8 @@
         "id": "menyinari.",
         "pt": "iluminar.",
         "my": "ထွန်းလင်း။",
-        "th": "ส่อง"
+        "th": "ส่อง",
+        "si": "てらす = එළිය වැටෙනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=136.003,139.062",
       "t": [
@@ -1902,7 +2273,8 @@
         "id": "Lalu kaki Iara telah berubah menjadi ekor ikan yang berkilau.",
         "pt": "E as pernas de Iara viraram um rabo de peixe brilhante.",
         "my": "ဒီတော့ အီအာရာရဲ့ ခြေထောက်က တောက်ပတဲ့ ငါးအမြီး ဖြစ်နေတယ်။",
-        "th": "แล้วขาของอิอาราก็กลายเป็นหางปลาระยิบระยับ"
+        "th": "แล้วขาของอิอาราก็กลายเป็นหางปลาระยิบระยับ",
+        "si": "එතකොට, ඉයාරාගේ කකුල්, දිලිසෙන, මාළු වලිගයක් බවට, හැරිලා තිබුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1916,7 +2288,8 @@
         "id": "berkilau; berubah.",
         "pt": "brilhante; virar.",
         "my": "တောက်ပ; ဖြစ်။",
-        "th": "ระยิบระยับ; กลายเป็น"
+        "th": "ระยิบระยับ; กลายเป็น",
+        "si": "きらきら = දිලිසෙන; 「〜にかわる」 = ~ බවට හැරෙනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=139.662,146.159",
       "t": [
@@ -1969,7 +2342,8 @@
         "id": "\"Aku masih hidup... Tapi tak bisa pulang ke desa lagi.\"",
         "pt": "\"Estou viva... Mas não posso mais voltar à aldeia.\"",
         "my": "\"ငါ အသက်ရှင်နေတယ်... ဒါပေမဲ့ ရွာကို ပြန်မရတော့ဘူး။\"",
-        "th": "\"ข้ายังมีชีวิต... แต่กลับหมู่บ้านไม่ได้อีกแล้ว\""
+        "th": "\"ข้ายังมีชีวิต... แต่กลับหมู่บ้านไม่ได้อีกแล้ว\"",
+        "si": "\"මම, ජීවත් වෙනවා……. ඒත්, ආයෙ, ගමට, යන්න බැහැ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1983,7 +2357,8 @@
         "id": "tak bisa pulang.",
         "pt": "não posso voltar.",
         "my": "ပြန်မရ။",
-        "th": "กลับไม่ได้"
+        "th": "กลับไม่ได้",
+        "si": "「帰れない」 = ආපහු යන්න බැහැ."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=147.059,152.105",
       "t": [
@@ -2020,7 +2395,8 @@
         "id": "Sejak itu, Iara hidup di sungai.",
         "pt": "Desde então, Iara passou a viver no rio.",
         "my": "အဲဒီကစပြီး အီအာရာက မြစ်ထဲမှာ နေလာတယ်။",
-        "th": "ตั้งแต่นั้น อิอาราก็อาศัยอยู่ในแม่น้ำ"
+        "th": "ตั้งแต่นั้น อิอาราก็อาศัยอยู่ในแม่น้ำ",
+        "si": "ඊට පස්සේ, ඉයාරා, ගඟේ, ජීවත් වෙන්න පටන් ගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2034,7 +2410,8 @@
         "id": "mulai.",
         "pt": "passar a.",
         "my": "လာ။",
-        "th": "กลายเป็น"
+        "th": "กลายเป็น",
+        "si": "「〜ようになる」 = ~ කරන්න පටන් ගන්නවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=153.005,157.675",
       "t": [
@@ -2099,7 +2476,8 @@
         "id": "Setiap senja, ia bernyanyi sambil menyisir rambut di atas batu.",
         "pt": "Ao entardecer, penteia o cabelo numa pedra do rio e canta.",
         "my": "ညနေရောက်ရင် မြစ်ထဲက ကျောက်ပေါ်မှာ ဆံပင်ဖြီးရင်း သီချင်းဆိုတယ်။",
-        "th": "พอตกเย็น นางนั่งบนหินกลางแม่น้ำ หวีผมพลางร้องเพลง"
+        "th": "พอตกเย็น นางนั่งบนหินกลางแม่น้ำ หวีผมพลางร้องเพลง",
+        "si": "හවස් වුණාම, ගඟේ ගලක් උඩ, කොණ්ඩය, පීරමින්, සින්දු කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2113,7 +2491,8 @@
         "id": "setiap; menyisir; sambil.",
         "pt": "ao; pentear; e.",
         "my": "ရောက်ရင်; ဖြီး; ရင်း။",
-        "th": "พอ; หวี; พลาง"
+        "th": "พอ; หวี; พลาง",
+        "si": "「〜になると」 = ~ වුණාම; とかす = පීරනවා; 「〜ながら」 = ~ කරමින්."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=158.275,164.583",
       "t": [
@@ -2142,7 +2521,8 @@
         "id": "\"La la la... kemarilah...\"",
         "pt": "\"Lá lá lá... venha cá...\"",
         "my": "\"လာလာလာ... ဒီဘက်လာ...\"",
-        "th": "\"ลาลาลา... มานี่สิ...\""
+        "th": "\"ลาลาลา... มานี่สิ...\"",
+        "si": "\"ලලලා…… මෙහාට, එන්න……\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2156,7 +2536,8 @@
         "id": "kemarilah.",
         "pt": "venha.",
         "my": "လာ။",
-        "th": "มานี่"
+        "th": "มานี่",
+        "si": "おいで = මෙහාට එන්න (මෘදු)."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=165.483,167.688",
       "t": [
@@ -2233,7 +2614,8 @@
         "id": "Pria mana pun yang mendengar lagu itu masuk ke sungai.",
         "pt": "Qualquer homem que ouve a canção entra no rio.",
         "my": "အဲဒီသီချင်း ကြားတဲ့ ယောက်ျားမှန်သမျှ မြစ်ထဲ ဆင်းသွားတယ်။",
-        "th": "ชายใดที่ได้ยินเพลงนั้น ก็จะเดินลงแม่น้ำ"
+        "th": "ชายใดที่ได้ยินเพลงนั้น ก็จะเดินลงแม่น้ำ",
+        "si": "ඒ සින්දුව ඇහෙන ඕනෑම පිරිමියෙක්, ගඟට, බහිනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2247,7 +2629,8 @@
         "id": "siapa pun.",
         "pt": "qualquer.",
         "my": "မှန်သမျှ။",
-        "th": "ใดก็"
+        "th": "ใดก็",
+        "si": "「だれでも」 = ඕනෑම කෙනෙක්."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=168.588,174.477",
       "t": [
@@ -2292,7 +2675,8 @@
         "id": "Dan konon mereka tak pernah kembali.",
         "pt": "E dizem que nunca mais voltam.",
         "my": "ပြီးတော့ ဘယ်တော့မှ ပြန်မလာဘူးတဲ့။",
-        "th": "และว่ากันว่าไม่กลับมาอีกเลย"
+        "th": "และว่ากันว่าไม่กลับมาอีกเลย",
+        "si": "ඊට පස්සේ, ආයෙ කවදාවත්, ආපහු එන්නේ නැහැලු."
       },
       "vocab": [],
       "grammarNote": {
@@ -2306,7 +2690,8 @@
         "id": "tak pernah lagi.",
         "pt": "nunca mais.",
         "my": "ဘယ်တော့မှ။",
-        "th": "ไม่อีกเลย"
+        "th": "ไม่อีกเลย",
+        "si": "「二度と〜ない」 = ආයෙ කවදාවත් නැහැ."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=175.077,178.818",
       "t": [
@@ -2359,7 +2744,8 @@
         "id": "Di sebuah desa ada pemuda bernama Pedro.",
         "pt": "Numa aldeia vivia um rapaz chamado Pedro.",
         "my": "ရွာတစ်ရွာမှာ ပက်ဒရို ဆိုတဲ့ လူငယ် ရှိတယ်။",
-        "th": "ในหมู่บ้านแห่งหนึ่ง มีชายหนุ่มชื่อเปโดร"
+        "th": "ในหมู่บ้านแห่งหนึ่ง มีชายหนุ่มชื่อเปโดร",
+        "si": "එක ගමක, පේද්‍රෝ කියලා, තරුණයෙක්, හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2373,7 +2759,8 @@
         "id": "muda.",
         "pt": "jovem.",
         "my": "ငယ်။",
-        "th": "หนุ่ม"
+        "th": "หนุ่ม",
+        "si": "わかい = තරුණ."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=179.418,184.664",
       "t": [
@@ -2434,7 +2821,8 @@
         "id": "Setiap hari Pedro menangkap ikan dengan perahu.",
         "pt": "Todo dia Pedro pescava no rio com seu barco.",
         "my": "ပက်ဒရိုက နေ့တိုင်း လှေနဲ့ မြစ်ငါး ဖမ်းတယ်။",
-        "th": "เปโดรจับปลาในแม่น้ำด้วยเรือทุกวัน"
+        "th": "เปโดรจับปลาในแม่น้ำด้วยเรือทุกวัน",
+        "si": "පේද්‍රෝ, හැමදාම, ඔරුවෙන්, ගං මාළු, අල්ලුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2448,7 +2836,8 @@
         "id": "dengan perahu; menangkap.",
         "pt": "com barco; pescar.",
         "my": "လှေနဲ့; ငါးဖမ်း။",
-        "th": "ด้วยเรือ; จับปลา"
+        "th": "ด้วยเรือ; จับปลา",
+        "si": "「船で」 = ඔරුවෙන්; 「魚をとる」 = මාළු අල්ලනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=185.264,190.737",
       "t": [
@@ -2493,7 +2882,8 @@
         "id": "Ibu Pedro selalu berpesan.",
         "pt": "A mãe de Pedro sempre dizia.",
         "my": "ပက်ဒရိုရဲ့ အမေက အမြဲ ပြောတယ်။",
-        "th": "แม่ของเปโดรพูดเสมอ"
+        "th": "แม่ของเปโดรพูดเสมอ",
+        "si": "පේද්‍රෝගේ අම්මා, හැමතිස්සෙම, කිව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2507,7 +2897,8 @@
         "id": "selalu berpesan.",
         "pt": "dizia.",
         "my": "ပြောတယ်။",
-        "th": "พูดเสมอ"
+        "th": "พูดเสมอ",
+        "si": "「言っていました」 = කියලා තිබුණා / කියනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=191.337,195.092",
       "t": [
@@ -2576,7 +2967,8 @@
         "id": "\"Meski mendengar lagu di sungai saat senja, jangan sekali-kali pergi.\"",
         "pt": "\"Mesmo que ouça canto no rio ao entardecer, nunca vá.\"",
         "my": "\"ညနေ မြစ်ဘက်က သီချင်းသံ ကြားရင်တောင် လုံးဝ မသွားနဲ့နော်။\"",
-        "th": "\"แม้ได้ยินเสียงเพลงที่แม่น้ำตอนเย็น ก็ห้ามไปเด็ดขาดนะ\""
+        "th": "\"แม้ได้ยินเสียงเพลงที่แม่น้ำตอนเย็น ก็ห้ามไปเด็ดขาดนะ\"",
+        "si": "\"හවස ගඟේ, සින්දුවක් ඇහුණත්, කවදාවත්, යන්න එපා.\""
       },
       "vocab": [
         {
@@ -2593,7 +2985,8 @@
             "id": "terdengar",
             "pt": "ouvir-se",
             "my": "ကြားရ",
-            "th": "ได้ยิน"
+            "th": "ได้ยิน",
+            "si": "ඇසීම, ඇහෙනවා"
           },
           "level": "N4"
         }
@@ -2609,7 +3002,8 @@
         "id": "meski; jangan.",
         "pt": "mesmo que; nunca.",
         "my": "တောင်; မ...နဲ့။",
-        "th": "แม้; ห้าม"
+        "th": "แม้; ห้าม",
+        "si": "「〜ても」 = ~ වුණත්; 「〜てはいけない」 = ~ කරන්න එපා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=195.992,201.556",
       "t": [
@@ -2670,7 +3064,8 @@
         "id": "Suatu senja, saat Pedro di perahu, terdengar lagu yang indah.",
         "pt": "Certa tarde, quando Pedro estava no barco, ouviu uma linda canção.",
         "my": "တစ်ညနေ ပက်ဒရို လှေပေါ်မှာ ရှိနေတုန်း သီချင်းသံ လှလှ ကြားလာတယ်။",
-        "th": "เย็นวันหนึ่ง ขณะเปโดรอยู่บนเรือ ก็ได้ยินเสียงเพลงไพเราะ"
+        "th": "เย็นวันหนึ่ง ขณะเปโดรอยู่บนเรือ ก็ได้ยินเสียงเพลงไพเราะ",
+        "si": "එක හවසක, පේද්‍රෝ, ඔරුවේ ඉද්දී, ලස්සන සින්දුවක්, ඇහුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2684,7 +3079,8 @@
         "id": "saat; terdengar.",
         "pt": "quando; ouvir.",
         "my": "တုန်း; ကြားလာ။",
-        "th": "ขณะ; ได้ยิน"
+        "th": "ขณะ; ได้ยิน",
+        "si": "「〜ていると」 = ~ කරමින් ඉද්දී; 「聞こえてくる」 = ඇහෙන්න ගන්නවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=202.456,208.951",
       "t": [
@@ -2721,7 +3117,8 @@
         "id": "\"Betapa indah suaranya...\"",
         "pt": "\"Que voz linda...\"",
         "my": "\"ဘယ်လောက် လှတဲ့ အသံလဲ...\"",
-        "th": "\"ช่างเป็นเสียงที่ไพเราะ...\""
+        "th": "\"ช่างเป็นเสียงที่ไพเราะ...\"",
+        "si": "\"මොන තරම්, ලස්සන හඬක්ද……\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2735,7 +3132,8 @@
         "id": "betapa.",
         "pt": "que.",
         "my": "ဘယ်လောက်။",
-        "th": "ช่าง"
+        "th": "ช่าง",
+        "si": "「なんて〜だろう」 = මොන තරම් ~ ද!"
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=209.851,212.061",
       "t": [
@@ -2772,7 +3170,8 @@
         "id": "Pedro perlahan merasa aneh, seperti mengantuk.",
         "pt": "Pedro foi ficando estranho, como se tivesse sono.",
         "my": "ပက်ဒရိုက တဖြည်းဖြည်း အိပ်ငိုက်သလို ထူးဆန်းတဲ့ ခံစားချက် ဖြစ်လာတယ်။",
-        "th": "เปโดรค่อย ๆ รู้สึกแปลก ๆ เหมือนง่วงนอน"
+        "th": "เปโดรค่อย ๆ รู้สึกแปลก ๆ เหมือนง่วงนอน",
+        "si": "පේද්‍රෝට, ටිකෙන් ටික, නිදිමත වගේ, අමුතු හැඟීමක්, ආවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2786,7 +3185,8 @@
         "id": "perlahan; seperti; aneh.",
         "pt": "aos poucos; como; estranho.",
         "my": "တဖြည်းဖြည်း; သလို; ထူးဆန်း။",
-        "th": "ค่อย ๆ; เหมือน; แปลก"
+        "th": "ค่อย ๆ; เหมือน; แปลก",
+        "si": "だんだん = ටිකෙන් ටික; 「〜ような」 = ~ වගේ; へん = අමුතු."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=212.961,218.288",
       "t": [
@@ -2855,7 +3255,8 @@
         "id": "Tanpa sadar, tangan Pedro sudah mengarahkan perahu ke arah lagu.",
         "pt": "Sem perceber, as mãos de Pedro viraram o barco para a canção.",
         "my": "မသိလိုက်ဘဲ ပက်ဒရိုရဲ့ လက်က လှေကို သီချင်းဘက် လှည့်နေတယ်။",
-        "th": "โดยไม่รู้ตัว มือของเปโดรหันเรือไปทางเสียงเพลงแล้ว"
+        "th": "โดยไม่รู้ตัว มือของเปโดรหันเรือไปทางเสียงเพลงแล้ว",
+        "si": "පේද්‍රෝගේ අත්, නොදැනීම, ඔරුව, සින්දුව පැත්තට, හරවලා තිබුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2869,7 +3270,8 @@
         "id": "tanpa sadar; mengarahkan.",
         "pt": "sem perceber; virar.",
         "my": "မသိလိုက်ဘဲ; လှည့်။",
-        "th": "ไม่รู้ตัว; หัน"
+        "th": "ไม่รู้ตัว; หัน",
+        "si": "「知らないうちに」 = නොදැනීම; むける = ~ පැත්තට හරවනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=218.888,224.837",
       "t": [
@@ -2930,7 +3332,8 @@
         "id": "Saat itu, Pedro teringat pesan ibunya.",
         "pt": "Nesse momento, Pedro lembrou das palavras da mãe.",
         "my": "အဲဒီအချိန် ပက်ဒရိုက အမေ့စကားကို သတိရတယ်။",
-        "th": "ตอนนั้น เปโดรนึกถึงคำของแม่ได้"
+        "th": "ตอนนั้น เปโดรนึกถึงคำของแม่ได้",
+        "si": "ඒ වෙලාවේ, පේද්‍රෝට, අම්මාගේ වචන, මතක් වුණා."
       },
       "vocab": [
         {
@@ -2947,7 +3350,8 @@
             "id": "teringat",
             "pt": "lembrar",
             "my": "သတိရ",
-            "th": "นึกถึง"
+            "th": "นึกถึง",
+            "si": "මතක් වීම"
           },
           "level": "N4"
         }
@@ -2963,7 +3367,8 @@
         "id": "pesan; teringat.",
         "pt": "palavras; lembrar.",
         "my": "စကား; သတိရ။",
-        "th": "คำพูด; นึกได้"
+        "th": "คำพูด; นึกได้",
+        "si": "言葉 = වචන; 思い出す = මතක් වෙනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=225.437,230.657",
       "t": [
@@ -3000,7 +3405,8 @@
         "id": "\"Tidak! Jangan didengar!\"",
         "pt": "\"Não! Não posso ouvir!\"",
         "my": "\"မရဘူး! နားမထောင်ရဘူး!\"",
-        "th": "\"ไม่ได้! ห้ามฟัง!\""
+        "th": "\"ไม่ได้! ห้ามฟัง!\"",
+        "si": "\"බෑ! අහන්න, හොඳ නැහැ!\""
       },
       "vocab": [
         {
@@ -3017,7 +3423,8 @@
             "id": "tidak boleh",
             "pt": "não pode",
             "my": "မရဘူး",
-            "th": "ไม่ได้"
+            "th": "ไม่ได้",
+            "si": "හරි නැහැ, ඉඩ නැහැ"
           },
           "level": "N4"
         }
@@ -3033,7 +3440,8 @@
         "id": "jangan.",
         "pt": "não posso.",
         "my": "မ...ရဘူး။",
-        "th": "ห้าม"
+        "th": "ห้าม",
+        "si": "「〜ちゃ、いけない」 = ~ කරන්න හොඳ නැහැ (කථන රූපය 〜ては)."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=231.557,233.643",
       "t": [
@@ -3078,7 +3486,8 @@
         "id": "Pedro menutup telinga erat-erat dengan kedua tangan.",
         "pt": "Pedro tapou bem os ouvidos com as duas mãos.",
         "my": "ပက်ဒရိုက လက်နှစ်ဖက်နဲ့ နားကို တင်းတင်း ပိတ်တယ်။",
-        "th": "เปโดรใช้สองมือปิดหูแน่น"
+        "th": "เปโดรใช้สองมือปิดหูแน่น",
+        "si": "පේද්‍රෝ, අත් දෙකෙන්ම, කන්, තදින්, වහගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3092,7 +3501,8 @@
         "id": "kedua tangan; erat; menutup.",
         "pt": "duas mãos; bem; tapar.",
         "my": "လက်နှစ်ဖက်; တင်းတင်း; ပိတ်။",
-        "th": "สองมือ; แน่น; ปิด"
+        "th": "สองมือ; แน่น; ปิด",
+        "si": "両手 = අත් දෙක; ぎゅっと = තදින්; ふさぐ = වහනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=234.543,239.196",
       "t": [
@@ -3153,7 +3563,8 @@
         "id": "Lalu ia mendayung sekuat tenaga ke arah desa.",
         "pt": "E remou com toda a força para a aldeia.",
         "my": "ပြီးတော့ အားကုန်သုံးပြီး ရွာဘက် လှေလှော်တယ်။",
-        "th": "แล้วพายเรือสุดแรงกลับหมู่บ้าน"
+        "th": "แล้วพายเรือสุดแรงกลับหมู่บ้าน",
+        "si": "ඊට පස්සේ, මුළු ශක්තියෙන්ම, ගම පැත්තට, ඔරුව, පැද්දා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3167,7 +3578,8 @@
         "id": "sekuat tenaga; mendayung.",
         "pt": "com toda a força; remar.",
         "my": "အားကုန်; လှော်။",
-        "th": "สุดแรง; พาย"
+        "th": "สุดแรง; พาย",
+        "si": "力いっぱい = මුළු ශක්තියෙන්ම; こぐ = (ඔරුව) පදිනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=239.796,245.517",
       "t": [
@@ -3212,7 +3624,8 @@
         "id": "Di belakang, lagu itu makin pelan.",
         "pt": "Atrás dele, a canção foi sumindo.",
         "my": "နောက်မှာ သီချင်းသံ တဖြည်းဖြည်း သေးသွားတယ်။",
-        "th": "ข้างหลัง เสียงเพลงค่อย ๆ เบาลง"
+        "th": "ข้างหลัง เสียงเพลงค่อย ๆ เบาลง",
+        "si": "පිටිපස්සෙන්, සින්දුව, ටිකෙන් ටික, අඩු වෙලා ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3226,7 +3639,8 @@
         "id": "makin.",
         "pt": "ir ficando.",
         "my": "သွား။",
-        "th": "ค่อย ๆ"
+        "th": "ค่อย ๆ",
+        "si": "「〜くなっていく」 = ටිකෙන් ටික ~ වෙනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=246.117,250.717",
       "t": [
@@ -3283,7 +3697,8 @@
         "id": "Terakhir, terdengar sedikit suara sedih.",
         "pt": "No fim, ouviu-se um pouco de uma voz triste.",
         "my": "နောက်ဆုံး ဝမ်းနည်းတဲ့ အသံ နည်းနည်း ကြားရတယ်။",
-        "th": "สุดท้าย ได้ยินเสียงเศร้าเพียงเล็กน้อย"
+        "th": "สุดท้าย ได้ยินเสียงเศร้าเพียงเล็กน้อย",
+        "si": "අන්තිමට, දුක්බර හඬක්, ටිකක් විතරක්, ඇහුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3297,7 +3712,8 @@
         "id": "sedih; sedikit.",
         "pt": "triste; um pouco.",
         "my": "ဝမ်းနည်းတဲ့; နည်းနည်း။",
-        "th": "เศร้า; เล็กน้อย"
+        "th": "เศร้า; เล็กน้อย",
+        "si": "「かなしそうな」 = දුක්බර; 「少しだけ」 = ටිකක් විතරක්."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=251.317,255.921",
       "t": [
@@ -3346,7 +3762,8 @@
         "id": "Sampai di desa, ibunya memeluk Pedro erat.",
         "pt": "Ao chegar à aldeia, a mãe abraçou Pedro com força.",
         "my": "ရွာရောက်တော့ အမေက ပက်ဒရိုကို တင်းတင်း ဖက်တယ်။",
-        "th": "ถึงหมู่บ้าน แม่กอดเปโดรแน่น"
+        "th": "ถึงหมู่บ้าน แม่กอดเปโดรแน่น",
+        "si": "ගමට ළඟා වුණාම, අම්මා, පේද්‍රෝව, තදින් බදාගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3360,7 +3777,8 @@
         "id": "sampai; memeluk.",
         "pt": "ao; abraçar.",
         "my": "တော့; ဖက်။",
-        "th": "ถึง; กอด"
+        "th": "ถึง; กอด",
+        "si": "「〜と」 = ~ වුණාම; だきしめる = තදින් බදාගන්නවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=256.521,261.199",
       "t": [
@@ -3397,7 +3815,8 @@
         "id": "\"Syukurlah... Kau berhasil pulang.\"",
         "pt": "\"Que bom... Você voltou.\"",
         "my": "\"ကောင်းလိုက်တာ... ပြန်ရောက်လာတာ။\"",
-        "th": "\"ดีจัง... กลับมาได้แล้ว\""
+        "th": "\"ดีจัง... กลับมาได้แล้ว\"",
+        "si": "\"හොඳ වෙලාවට……. හොඳයි, ආපහු ආපු එක.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3411,7 +3830,8 @@
         "id": "syukur.",
         "pt": "que bom.",
         "my": "ကောင်းလိုက်တာ။",
-        "th": "ดีจัง"
+        "th": "ดีจัง",
+        "si": "「よく〜ね」 = ~ කරපු එක හොඳයි."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=262.099,264.9",
       "t": [
@@ -3488,7 +3908,8 @@
         "id": "Sejak itu, warga desa tak lagi pergi ke sungai sendirian saat senja.",
         "pt": "Desde então, ninguém ia sozinho ao rio ao entardecer.",
         "my": "အဲဒီကစပြီး ရွာသားတွေ ညနေ တစ်ယောက်တည်း မြစ်ကို မသွားကြတော့ဘူး။",
-        "th": "ตั้งแต่นั้น ชาวบ้านไม่ไปแม่น้ำคนเดียวตอนเย็นอีก"
+        "th": "ตั้งแต่นั้น ชาวบ้านไม่ไปแม่น้ำคนเดียวตอนเย็นอีก",
+        "si": "ඊට පස්සේ, ගමේ මිනිස්සු, හවසට, තනියම, ගඟට යන්නේ නැති වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3502,7 +3923,8 @@
         "id": "tak lagi.",
         "pt": "não mais.",
         "my": "မ...တော့။",
-        "th": "ไม่อีก"
+        "th": "ไม่อีก",
+        "si": "「〜なくなる」 = ~ කරන එක නවතිනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=265.8,272.757",
       "t": [
@@ -3571,7 +3993,8 @@
         "id": "Tapi kini pun, kadang terdengar lagu sepi dari sungai.",
         "pt": "Mas até hoje, às vezes se ouve uma canção solitária vinda do rio.",
         "my": "ဒါပေမဲ့ အခုထိ တခါတလေ မြစ်ဘက်ကနေ အထီးကျန်တဲ့ သီချင်းသံ ကြားရတယ်တဲ့။",
-        "th": "แต่ทุกวันนี้ บางครั้งยังได้ยินเพลงเหงา ๆ ลอยมาจากแม่น้ำ"
+        "th": "แต่ทุกวันนี้ บางครั้งยังได้ยินเพลงเหงา ๆ ลอยมาจากแม่น้ำ",
+        "si": "ඒත්, අදටත්, සමහර වෙලාවට, ගඟ පැත්තෙන්, පාළු සින්දුවක්, ඇහෙනවලු."
       },
       "vocab": [],
       "grammarNote": {
@@ -3585,7 +4008,8 @@
         "id": "sepi; konon.",
         "pt": "solitário; dizem.",
         "my": "အထီးကျန်; တဲ့။",
-        "th": "เหงา; ว่ากันว่า"
+        "th": "เหงา; ว่ากันว่า",
+        "si": "さびしい = පාළු, හුදෙකලා; 「〜そうです」 = ~ ලු."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=273.357,281.012",
       "t": [
@@ -3634,7 +4058,8 @@
         "id": "Jepang juga punya kisah putri duyung.",
         "pt": "O Japão também tem histórias de sereias.",
         "my": "ဂျပန်မှာလည်း ရေသူမ ပုံပြင် ရှိတယ်။",
-        "th": "ญี่ปุ่นก็มีเรื่องเงือก"
+        "th": "ญี่ปุ่นก็มีเรื่องเงือก",
+        "si": "ජපානයේත්, දිය කිඳුරියන්ගේ කතා, තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3648,7 +4073,8 @@
         "id": "putri duyung.",
         "pt": "sereia.",
         "my": "ရေသူမ။",
-        "th": "เงือก"
+        "th": "เงือก",
+        "si": "人魚 = දිය කිඳුරිය."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=281.612,285.106",
       "t": [
@@ -3693,7 +4119,8 @@
         "id": "Tapi putri duyung Jepang tidak terlalu cantik.",
         "pt": "Mas as sereias japonesas não são muito bonitas.",
         "my": "ဒါပေမဲ့ ဂျပန်ရေသူမက သိပ်မလှဘူး။",
-        "th": "แต่เงือกญี่ปุ่นไม่ค่อยสวย"
+        "th": "แต่เงือกญี่ปุ่นไม่ค่อยสวย",
+        "si": "ඒත්, ජපානයේ දිය කිඳුරියෝ, එච්චර, ලස්සන නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -3707,7 +4134,8 @@
         "id": "tidak terlalu.",
         "pt": "não muito.",
         "my": "သိပ်မ။",
-        "th": "ไม่ค่อย"
+        "th": "ไม่ค่อย",
+        "si": "「あまり〜ない」 = එච්චර ~ නැහැ."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=285.706,290.481",
       "t": [
@@ -3780,7 +4208,8 @@
         "id": "Konon berwajah manusia dan bertubuh seperti ikan, makhluk aneh.",
         "pt": "Dizem que tem rosto humano e corpo de peixe, uma criatura estranha.",
         "my": "မျက်နှာက လူ၊ ကိုယ်က ငါးလို ထူးဆန်းတဲ့ သတ္တဝါတဲ့။",
-        "th": "ว่ากันว่าหน้าเป็นคน ตัวเหมือนปลา เป็นสิ่งมีชีวิตแปลก ๆ"
+        "th": "ว่ากันว่าหน้าเป็นคน ตัวเหมือนปลา เป็นสิ่งมีชีวิตแปลก ๆ",
+        "si": "මූණ මිනිස් මූණක්, ඇඟ, මාළුවෙක් වගේ, අමුතු සතෙක්ලු."
       },
       "vocab": [],
       "grammarNote": {
@@ -3794,7 +4223,8 @@
         "id": "makhluk; seperti.",
         "pt": "criatura; como.",
         "my": "သတ္တဝါ; လို။",
-        "th": "สิ่งมีชีวิต; เหมือน"
+        "th": "สิ่งมีชีวิต; เหมือน",
+        "si": "生き物 = සත්වයා; 「〜のような」 = ~ වගේ."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=291.081,297.351",
       "t": [
@@ -3843,7 +4273,8 @@
         "id": "Di Fukui ada kisah \"Yao Bikuni\" (biksuni 800 tahun).",
         "pt": "Em Fukui há a lenda \"Yao Bikuni\" (a monja de 800 anos).",
         "my": "ဖူကူအီ ခရိုင်မှာ \"ယာအိုဘီကူနီ\" (နှစ် ၈၀၀ သီလရှင်) ပုံပြင် ရှိတယ်။",
-        "th": "ที่จังหวัดฟุกุอิมีเรื่อง \"ยาโอะบิคุนิ\" (แม่ชีแปดร้อยปี)"
+        "th": "ที่จังหวัดฟุกุอิมีเรื่อง \"ยาโอะบิคุนิ\" (แม่ชีแปดร้อยปี)",
+        "si": "ෆුකුයි ප්‍රාන්තයේ, \"යාඕ බිකුනි\" (අවුරුදු අටසියයක භික්ෂුණිය) කියලා, කතාවක් තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3857,7 +4288,8 @@
         "id": "prefektur; biksuni.",
         "pt": "província; monja.",
         "my": "ခရိုင်; သီလရှင်။",
-        "th": "จังหวัด; แม่ชี"
+        "th": "จังหวัด; แม่ชี",
+        "si": "県 = ප්‍රාන්තය; 比丘尼 = බෞද්ධ භික්ෂුණිය."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=297.951,302.511",
       "t": [
@@ -3954,7 +4386,8 @@
         "id": "Konon gadis yang makan daging duyung tak menua dan hidup 800 tahun.",
         "pt": "Uma moça que comeu carne de sereia parou de envelhecer e viveu 800 anos.",
         "my": "ရေသူမ အသားစားခဲ့တဲ့ မိန်းကလေး အိုမသွားဘဲ နှစ် ၈၀၀ အသက်ရှင်တယ်တဲ့။",
-        "th": "ว่ากันว่าเด็กหญิงที่กินเนื้อเงือกไม่แก่ และมีชีวิตถึงแปดร้อยปี"
+        "th": "ว่ากันว่าเด็กหญิงที่กินเนื้อเงือกไม่แก่ และมีชีวิตถึงแปดร้อยปี",
+        "si": "දිය කිඳුරියෙක්ගේ මස් කාපු කෙල්ලෙක්, වයසට යන්නේ නැති වෙලා, අවුරුදු අටසියයක්ම, ජීවත් වුණාලු."
       },
       "vocab": [
         {
@@ -3971,7 +4404,8 @@
             "id": "hidup",
             "pt": "viver",
             "my": "အသက်ရှင်",
-            "th": "มีชีวิต"
+            "th": "มีชีวิต",
+            "si": "ජීවත් වීම"
           },
           "level": "N4"
         }
@@ -3987,7 +4421,8 @@
         "id": "tak menua; 800 tahun.",
         "pt": "não envelhecer; 800 anos.",
         "my": "အိုမသွား; နှစ် ၈၀၀။",
-        "th": "ไม่แก่; ถึงแปดร้อยปี"
+        "th": "ไม่แก่; ถึงแปดร้อยปี",
+        "si": "「年を取らなくなる」 = වයසට යන එක නවතිනවා; 「八百年も」 = අවුරුදු අටසියයක්ම."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=303.111,310.616",
       "t": [
@@ -4056,7 +4491,8 @@
         "id": "Semua orang mati lebih dulu, dan konon ia kesepian.",
         "pt": "Todos morreram antes, e dizem que ela ficou sozinha e triste.",
         "my": "အားလုံး အရင် သေသွားပြီး သူမက တစ်ယောက်တည်း အထီးကျန်ခဲ့တယ်လို့ ဆိုကြတယ်။",
-        "th": "ทุกคนตายก่อน และว่ากันว่านางเหงาอยู่คนเดียว"
+        "th": "ทุกคนตายก่อน และว่ากันว่านางเหงาอยู่คนเดียว",
+        "si": "හැමෝම කලින් මැරිලා ගිහින්, එයා, තනියම, පාළුවෙන් හිටියා කියලා කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4070,7 +4506,8 @@
         "id": "lebih dulu; dan.",
         "pt": "antes; e.",
         "my": "အရင်; ပြီး။",
-        "th": "ก่อน; และ"
+        "th": "ก่อน; และ",
+        "si": "先に = (අනිත් අයට) කලින්; 「〜てしまい」 = ~ වෙලා (දුකෙන්, සම්බන්ධ කරමින්)."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=311.216,317.813",
       "t": [
@@ -4131,7 +4568,8 @@
         "id": "Lalu ia berkelana ke seluruh Jepang sambil menanam bunga kamelia putih.",
         "pt": "E viajou pelo Japão plantando camélias brancas.",
         "my": "ပြီးတော့ ကမေလီယာ ပန်းဖြူ စိုက်ရင်း ဂျပန်တစ်နိုင်ငံလုံး ခရီးသွားတယ်တဲ့။",
-        "th": "แล้วนางก็เดินทางทั่วญี่ปุ่น พลางปลูกดอกคาเมลเลียสีขาว"
+        "th": "แล้วนางก็เดินทางทั่วญี่ปุ่น พลางปลูกดอกคาเมลเลียสีขาว",
+        "si": "ඊට පස්සේ, සුදු කැමේලියා මල් පැළ, හිටවමින්, මුළු ජපානයම, ඇවිද්දාලු."
       },
       "vocab": [],
       "grammarNote": {
@@ -4145,7 +4583,8 @@
         "id": "kamelia; menanam; seluruh Jepang.",
         "pt": "camélia; plantar; todo o Japão.",
         "my": "ကမေလီယာ; စိုက်; တစ်နိုင်ငံလုံး။",
-        "th": "คาเมลเลีย; ปลูก; ทั่วญี่ปุ่น"
+        "th": "คาเมลเลีย; ปลูก; ทั่วญี่ปุ่น",
+        "si": "つばき = කැමේලියා; うえる = හිටවනවා; 「日本中」 = මුළු ජපානයම."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=318.413,324.89",
       "t": [
@@ -4206,7 +4645,8 @@
         "id": "Putri duyung Brasil dan Jepang sama-sama kisah yang agak sedih, ya.",
         "pt": "As sereias do Brasil e do Japão são histórias meio tristes, não?",
         "my": "ဘရာဇီးရေသူမရော ဂျပန်ရေသူမရော တစ်နေရာရာမှာ ဝမ်းနည်းစရာ ပုံပြင်တွေပဲနော်။",
-        "th": "ทั้งเงือกบราซิลและเงือกญี่ปุ่น ต่างเป็นเรื่องที่เศร้านิด ๆ นะ"
+        "th": "ทั้งเงือกบราซิลและเงือกญี่ปุ่น ต่างเป็นเรื่องที่เศร้านิด ๆ นะ",
+        "si": "බ්‍රසීලයේ දිය කිඳුරියත්, ජපානයේ දිය කිඳුරියත්, කොහේදෝ, දුක්බර කතා නේද."
       },
       "vocab": [],
       "grammarNote": {
@@ -4220,7 +4660,8 @@
         "id": "agak; ya.",
         "pt": "meio; não.",
         "my": "တစ်နေရာရာ; နော်။",
-        "th": "นิด ๆ; นะ"
+        "th": "นิด ๆ; นะ",
+        "si": "どこか = කොහේදෝ; 「〜ですね」 = නේද."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=325.49,332.061",
       "t": [
@@ -4301,7 +4742,8 @@
         "id": "Kalau mendengar lagu di sungai saat senja, pikirkan baik-baik sebelum mendekat.",
         "pt": "Se ouvir canto no rio ao entardecer, pense bem antes de se aproximar.",
         "my": "ညနေ မြစ်မှာ သီချင်းသံ ကြားရင် အနားမကပ်ခင် သေချာ စဉ်းစားပါ။",
-        "th": "ถ้าได้ยินเสียงเพลงที่แม่น้ำตอนเย็น คิดให้ดีก่อนเข้าใกล้นะ"
+        "th": "ถ้าได้ยินเสียงเพลงที่แม่น้ำตอนเย็น คิดให้ดีก่อนเข้าใกล้นะ",
+        "si": "හවස ගඟේ, සින්දුවක් ඇහුණොත්, ළං වෙන්න කලින්, හොඳට හිතන්න."
       },
       "vocab": [
         {
@@ -4318,7 +4760,8 @@
             "id": "berpikir",
             "pt": "pensar",
             "my": "စဉ်းစား",
-            "th": "คิด"
+            "th": "คิด",
+            "si": "සිතීම, කල්පනා කිරීම"
           },
           "level": "N4"
         }
@@ -4334,7 +4777,8 @@
         "id": "sebelum; mendekat.",
         "pt": "antes de; aproximar-se.",
         "my": "မ...ခင်; အနားကပ်။",
-        "th": "ก่อน; เข้าใกล้"
+        "th": "ก่อน; เข้าใกล้",
+        "si": "「〜前に」 = ~ කලින්; 近づく = ළං වෙනවා."
       },
       "audio": "/audio/furusato-br-iara-1/chapter.mp3#t=332.661,338.695",
       "t": [

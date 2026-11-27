@@ -50,6 +50,12 @@ const CATEGORY_CHIPS = (["all", "conversation", "podcast", "anime", "song"] as c
   (c) => c === "all" || VIDEO_INDEX.some((v) => v.category === c),
 );
 
+/**
+ * "Thêm video YouTube của bạn": tạm ẩn (Việt 26/11 hỏi mục này là gì). Hiện chưa có máy dựng phụ đề tự động,
+ * video thêm vào chỉ phát trống không có phụ đề, nên chưa đưa cho khách. Bật lại khi có phụ đề tự động thật.
+ */
+const CUSTOM_VIDEO_ENABLED = false;
+
 export default function VideoPage() {
   const { ui, lang, profile, ready } = useLang();
   const router = useRouter();
@@ -102,7 +108,7 @@ export default function VideoPage() {
     if (!id) return;
     addCustomVideo({ youtubeId: id, title: id, addedAt: Date.now() });
     setLink("");
-    router.push(`/watch/custom-${id}`);
+    router.push(`/watch/custom?v=${id}`);
   };
 
   return (
@@ -234,7 +240,7 @@ export default function VideoPage() {
           <span className="thumb" style={{ width: 112, height: 66 }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`} alt="" />
-            <span className="tag">{v.free ? <span className="free-badge">{ui.common.free}</span> : <span className="lock-badge">VIP</span>}</span>
+            {v.free && <span className="tag"><span className="free-badge">{ui.common.free}</span></span>}
             <span className="dur">{formatDuration(v.clipEnd - v.clipStart)}</span>
           </span>
           <span style={{ minWidth: 0 }}>
@@ -263,6 +269,8 @@ export default function VideoPage() {
         </div>
       ))}
 
+      {CUSTOM_VIDEO_ENABLED && (
+        <>
       <h2 style={{ fontSize: 16, fontWeight: 700, margin: "20px 0 10px" }}>{ui.player.addOwnVideo}</h2>
       <div style={{ display: "flex", gap: 8 }}>
         <input className="input" value={link} onChange={(e) => setLink(e.target.value)} placeholder="youtube.com/watch?v=..." />
@@ -271,7 +279,7 @@ export default function VideoPage() {
         </button>
       </div>
       {custom.map((c) => (
-        <Link key={c.youtubeId} href={`/watch/custom-${c.youtubeId}`} style={{ ...rowStyle, textDecoration: "none" }}>
+        <Link key={c.youtubeId} href={`/watch/custom?v=${c.youtubeId}`} style={{ ...rowStyle, textDecoration: "none" }}>
           <span className="thumb" style={{ width: 112, height: 66 }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`https://i.ytimg.com/vi/${c.youtubeId}/hqdefault.jpg`} alt="" />
@@ -280,6 +288,8 @@ export default function VideoPage() {
           <span style={{ fontSize: 14, fontWeight: 600 }}>{c.title}</span>
         </Link>
       ))}
+        </>
+      )}
 
     </div>
   );

@@ -7,7 +7,7 @@
 //
 // Chạy: node scripts/story-src/build.mjs content/sources/furusato/<id>.src.json [...]
 //       thêm --check để chỉ in số đo và các từ chưa có nghĩa trong glossary, không ghi file.
-import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { dirname, join, basename } from "node:path";
 import { execFileSync } from "node:child_process";
 import { loadTokenizer, measure, JLPT, LEVEL_NUM } from "../lib/level.mjs";
@@ -68,7 +68,7 @@ function attaches(t, prev) {
   if (t.pos === "動詞" && prev.pos === "名詞" && prev.pos_detail_1 === "サ変接続" && t.basic_form === "する") return true;
   return false;
 }
-const ROMAJI_FIX = { という: "to iu", といった: "to itta", として: "to shite", について: "ni tsuite", にとって: "ni totte", によって: "ni yotte", のように: "no you ni" };
+const ROMAJI_FIX = { こんにちは: "konnichiwa", じつは: "jitsu wa", 本当は: "hontou wa", ラプンツェル: "Rapuntseru", あっという間: "atto iu ma", こんばんは: "konbanwa", にかけて: "ni kakete", という: "to iu", といった: "to itta", として: "to shite", について: "ni tsuite", にとって: "ni totte", によって: "ni yotte", のように: "no you ni", 土から: "tsuchi kara", 土に: "tsuchi ni", けしの実: "keshi no mi", 夜の森: "yoru no mori", 木の下: "ki no shita", 元の: "moto no", 山の上: "yama no ue", にまつわる: "ni matsuwaru", 金の印: "kin no in", 海の底: "umi no soko", 陸の方: "riku no kata", 山のふもと: "yama no fumoto", 何が何だか: "nani ga nan da ka", 実は: "jitsu wa", 芥川龍之介: "Akutagawa Ryuunosuke", "タッ・デン": "Tat Den", "ゴー・タッ・トー": "Goo Tat Too", 小林多喜二: "Kobayashi Takiji" };
 
 // Tách token có kanji thành [kanji+reading][okurigana] bằng khớp mẫu.
 function splitFurigana(surface, reading) {
@@ -131,6 +131,8 @@ function analyse(ja, ov, multiOv) {
     if (w.cap) rom = rom.replace(/(^|\s)([a-z])/g, (m, a, b) => a + b.toUpperCase());
     romaji += (romaji && !/[ “(]$/.test(romaji) ? " " : "") + rom;
   }
+  romaji = romaji.replace(/\b(de|ni|to)ha\b/gi, "$1 wa");
+  for (let i = 0; i < 3; i++) romaji = romaji.replace(/([A-Za-z'])・([a-z])/g, (m, x, y) => x + " " + y.toUpperCase());
   romaji = romaji.replace(/\s+/g, " ").replace(/ ([,.!?”)])/g, "$1").trim();
   romaji = romaji.replace(/(^|[.!?]\s+|“)([a-z])/g, (m, a, b) => a + b.toUpperCase());
   return { furigana: merged, romaji, toks };
@@ -250,7 +252,7 @@ for (const file of files) {
     titles: src.titles,
     level: src.level,
     topic: src.topic,
-    source: "original",
+    source: src.source ?? "original",
     cover: `/covers/${src.id}.webp`,
     free: !!src.free,
     standard: 2,
@@ -261,6 +263,11 @@ for (const file of files) {
     sentences,
   };
   writeFileSync(join(root, "content/stories", `${src.id}.json`), JSON.stringify(out, null, 2) + "\n");
+  if (lesson) execFileSync("node", [join(root, "scripts/lesson-furigana.mjs"), src.id], { stdio: "inherit" });
+  // Bản dịch kèm (content/translations/<lang>/<id>.tsv, ví dụ tiếng Sinhala) gộp lại sau mỗi lần dựng.
+  for (const lang of existsSync(join(root, "content/translations")) ? readdirSync(join(root, "content/translations")) : [])
+    if (existsSync(join(root, "content/translations", lang, `${src.id}.tsv`)))
+      execFileSync("node", [join(root, "scripts/i18n/apply.mjs"), lang, src.id], { stdio: "inherit" });
   writeFileSync(join(shelfDir, `${src.id}.voices.json`), JSON.stringify({ cast: src.cast, voices: voiceMap, say: sayMap }, null, 1) + "\n");
   const castLines = Object.entries(src.cast).map(([k, c]) => `  - ${k === "N" ? "Người kể" : k}: \`${c.voice}\`, tốc độ ${c.rate ?? 0.9}${c.pitch ? `, cao độ ${c.pitch}` : ""} (${voiceMap.filter((x) => x === k).length} câu)`);
   const nVocab = sentences.reduce((a, x) => a + x.vocab.length, 0);

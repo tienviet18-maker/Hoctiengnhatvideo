@@ -12,7 +12,8 @@
     "id": "Legenda Danau Toba",
     "pt": "A lenda do lago Toba",
     "my": "တိုဘာကန် ဒဏ္ဍာရီ",
-    "th": "ตำนานทะเลสาบโตบา"
+    "th": "ตำนานทะเลสาบโตบา",
+    "si": "තෝබා විලේ ජනප්‍රවාදය"
   },
   "level": "N4",
   "topic": "hometown-tales",
@@ -42,7 +43,8 @@
           "id": "~ dan ~ (beberapa kegiatan)",
           "pt": "fazer coisas como ~ e ~",
           "my": "~ တာ ~ တာ လုပ်",
-          "th": "ทั้ง ~ และ ~"
+          "th": "ทั้ง ~ และ ~",
+          "si": "~ කරමින්, ~ කරමින් (වගේ දේවල් කරනවා)"
         }
       },
       {
@@ -59,7 +61,8 @@
           "id": "saat hendak ~",
           "pt": "quando ia ~",
           "my": "~ မယ်လုပ်တော့",
-          "th": "พอจะ ~"
+          "th": "พอจะ ~",
+          "si": "~ කරන්න හදද්දීම"
         }
       },
       {
@@ -76,7 +79,8 @@
           "id": "hanya ~",
           "pt": "só ~",
           "my": "~ ပဲ",
-          "th": "มีแค่ ~"
+          "th": "มีแค่ ~",
+          "si": "~ විතරයි"
         }
       },
       {
@@ -93,7 +97,8 @@
           "id": "tidak boleh ~",
           "pt": "não se deve ~",
           "my": "~ လို့ မရ",
-          "th": "ห้าม ~"
+          "th": "ห้าม ~",
+          "si": "~ කරන්න බැහැ, ~ නොකළ යුතුයි"
         }
       }
     ],
@@ -118,8 +123,105 @@
           "id": "Tak memberi tahu siapa pun ia dulu ikan.",
           "pt": "Nunca contar que ela era peixe.",
           "my": "ငါးဖြစ်ခဲ့တာ ဘယ်သူ့ကိုမှ မပြောဖို့။",
-          "th": "ห้ามบอกใครว่าเธอเคยเป็นปลา"
-        }
+          "th": "ห้ามบอกใครว่าเธอเคยเป็นปลา",
+          "si": "එයා මාළුවෙක් වුණා කියලා කාටවත් කවදාවත් නොකියන්න."
+        },
+        "jaFurigana": [
+          {
+            "surface": "魚",
+            "reading": "さかな"
+          },
+          {
+            "surface": "は、トバに、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "約束",
+            "reading": "やくそく"
+          },
+          {
+            "surface": "させましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            },
+            {
+              "surface": "だったことを、だれにも",
+              "reading": ""
+            },
+            {
+              "surface": "言",
+              "reading": "い"
+            },
+            {
+              "surface": "わない",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "毎日",
+              "reading": "まいにち"
+            },
+            {
+              "surface": "、",
+              "reading": ""
+            },
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            },
+            {
+              "surface": "をとらない",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "行",
+              "reading": "い"
+            },
+            {
+              "surface": "かない",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "おにぎりを",
+              "reading": ""
+            },
+            {
+              "surface": "食",
+              "reading": "た"
+            },
+            {
+              "surface": "べない",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "サモシールは、とちゅうで何をしましたか。",
@@ -141,8 +243,69 @@
           "id": "Makan hampir semua nasi kepal.",
           "pt": "Comeu quase todos os bolinhos.",
           "my": "ထမင်းဆုပ် အကုန်လောက် စားတယ်။",
-          "th": "กินข้าวปั้นเกือบหมด"
-        }
+          "th": "กินข้าวปั้นเกือบหมด",
+          "si": "එයා බත් ගුලි ගොඩක්ම කෑවා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "サモシールは、とちゅうで",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "おにぎりを、ほとんど",
+              "reading": ""
+            },
+            {
+              "surface": "食",
+              "reading": "た"
+            },
+            {
+              "surface": "べた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            },
+            {
+              "surface": "をつった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "にのぼった",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "寝",
+              "reading": "ね"
+            },
+            {
+              "surface": "てしまった",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "サモシールがいた山は、何になりましたか。",
@@ -164,8 +327,97 @@
           "id": "Pulau di danau.",
           "pt": "Uma ilha no lago.",
           "my": "ကန်ထဲက ကျွန်း။",
-          "th": "เกาะกลางทะเลสาบ"
-        }
+          "th": "เกาะกลางทะเลสาบ",
+          "si": "විල මැද්දේ දූපතක් වුණා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "サモシールがいた",
+            "reading": ""
+          },
+          {
+            "surface": "山",
+            "reading": "やま"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "になりましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "湖",
+              "reading": "みずうみ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "中",
+              "reading": "なか"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "島",
+              "reading": "しま"
+            }
+          ],
+          [
+            {
+              "surface": "大",
+              "reading": "おお"
+            },
+            {
+              "surface": "きな",
+              "reading": ""
+            },
+            {
+              "surface": "川",
+              "reading": "かわ"
+            }
+          ],
+          [
+            {
+              "surface": "金色",
+              "reading": "きんいろ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "魚",
+              "reading": "さかな"
+            }
+          ],
+          [
+            {
+              "surface": "新",
+              "reading": "あたら"
+            },
+            {
+              "surface": "しい",
+              "reading": ""
+            },
+            {
+              "surface": "村",
+              "reading": "むら"
+            }
+          ]
+        ]
       },
       {
         "ja": "『鶴の恩返し』で、男は何をしてしまいましたか。",
@@ -187,8 +439,121 @@
           "id": "Mengintip bangau menenun.",
           "pt": "Espiou a garça tecendo.",
           "my": "ကြိုးကြာ ရက်ကန်းရက်တာ ချောင်းကြည့်တယ်။",
-          "th": "แอบดูนกกระเรียนทอผ้า"
-        }
+          "th": "แอบดูนกกระเรียนทอผ้า",
+          "si": "කොකා රෙදි වියද්දී එයා හොරෙන් බැලුවා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "『",
+            "reading": ""
+          },
+          {
+            "surface": "鶴",
+            "reading": "つる"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "恩返",
+            "reading": "おんがえ"
+          },
+          {
+            "surface": "し』で、",
+            "reading": ""
+          },
+          {
+            "surface": "男",
+            "reading": "おとこ"
+          },
+          {
+            "surface": "は",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をしてしまいましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "鶴",
+              "reading": "つる"
+            },
+            {
+              "surface": "がはたをおるところを、のぞいた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "鶴",
+              "reading": "つる"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "食",
+              "reading": "た"
+            },
+            {
+              "surface": "べた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "鶴",
+              "reading": "つる"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "売",
+              "reading": "う"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "鶴",
+              "reading": "つる"
+            },
+            {
+              "surface": "と",
+              "reading": ""
+            },
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "へ",
+              "reading": ""
+            },
+            {
+              "surface": "行",
+              "reading": "い"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },
@@ -245,7 +610,8 @@
         "id": "Di Pulau Sumatra, Indonesia, ada danau sangat besar bernama \"Danau Toba\".",
         "pt": "Na ilha de Sumatra, na Indonésia, há um lago enorme chamado \"lago Toba\".",
         "my": "အင်ဒိုနီးရှားရဲ့ ဆူမတြာကျွန်းမှာ \"တိုဘာကန်\" ဆိုတဲ့ အရမ်းကြီးတဲ့ ကန် ရှိတယ်။",
-        "th": "บนเกาะสุมาตราของอินโดนีเซีย มีทะเลสาบใหญ่มากชื่อ \"ทะเลสาบโตบา\""
+        "th": "บนเกาะสุมาตราของอินโดนีเซีย มีทะเลสาบใหญ่มากชื่อ \"ทะเลสาบโตบา\"",
+        "si": "ඉන්දුනීසියාවේ සුමාත්‍රා දූපතේ, \"තෝබා විල\" කියලා, හරිම ලොකු විලක් තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -259,7 +625,8 @@
         "id": "danau; bernama.",
         "pt": "lago; chamado.",
         "my": "ကန်; ဆိုတဲ့။",
-        "th": "ทะเลสาบ; ชื่อ"
+        "th": "ทะเลสาบ; ชื่อ",
+        "si": "湖 = විල; 「〜という」 = ~ කියලා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=0.3,6.575",
       "t": [
@@ -308,7 +675,8 @@
         "id": "Di tengah danau ada pulau bernama \"Samosir\".",
         "pt": "No meio do lago há uma ilha chamada \"Samosir\".",
         "my": "ကန်အလယ်မှာ \"ဆာမိုဆီ\" ဆိုတဲ့ ကျွန်း ရှိတယ်။",
-        "th": "กลางทะเลสาบมีเกาะชื่อ \"ซาโมซีร์\""
+        "th": "กลางทะเลสาบมีเกาะชื่อ \"ซาโมซีร์\"",
+        "si": "විලේ මැද්දේ, \"සමොසීර්\" කියලා දූපතක් තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -322,7 +690,8 @@
         "id": "tengah; pulau.",
         "pt": "meio; ilha.",
         "my": "အလယ်; ကျွန်း။",
-        "th": "กลาง; เกาะ"
+        "th": "กลาง; เกาะ",
+        "si": "まん中 = හරි මැද; 島 = දූපත."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=7.175,11.448",
       "t": [
@@ -383,7 +752,8 @@
         "id": "Danau dan pulau ini punya kisah ajaib tentang ikan.",
         "pt": "Sobre o lago e a ilha corre uma história curiosa de um peixe.",
         "my": "ဒီကန်နဲ့ ကျွန်းမှာ ငါးအကြောင်း ထူးဆန်းတဲ့ ပုံပြင် ဆင်းသက်လာတယ်။",
-        "th": "ทะเลสาบและเกาะนี้มีตำนานแปลกเกี่ยวกับปลาเล่าสืบต่อกันมา"
+        "th": "ทะเลสาบและเกาะนี้มีตำนานแปลกเกี่ยวกับปลาเล่าสืบต่อกันมา",
+        "si": "මේ විලයි දූපතයි ගැන, පුදුම, මාළුවෙකුගේ කතාවක්, පරම්පරාවෙන් එනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -397,7 +767,8 @@
         "id": "diwariskan.",
         "pt": "ser transmitido.",
         "my": "ဆင်းသက်လာ။",
-        "th": "สืบทอด"
+        "th": "สืบทอด",
+        "si": "つたわる = පරම්පරාවෙන් එනවා; 「〜ています」 = දැන් පවතින තත්ත්වය."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=12.048,17.963",
       "t": [
@@ -462,7 +833,8 @@
         "id": "Dahulu, di tanah ini tinggal pemuda bernama Toba.",
         "pt": "Antigamente, nesta terra vivia um jovem chamado Toba.",
         "my": "ရှေးတုန်းက ဒီမြေမှာ တိုဘာ ဆိုတဲ့ လူငယ် နေတယ်။",
-        "th": "กาลก่อน ดินแดนนี้มีชายหนุ่มชื่อโตบาอาศัยอยู่"
+        "th": "กาลก่อน ดินแดนนี้มีชายหนุ่มชื่อโตบาอาศัยอยู่",
+        "si": "ඉස්සර, මේ ප්‍රදේශයේ, තෝබා කියලා, තරුණයෙක්, ජීවත් වුණා."
       },
       "vocab": [
         {
@@ -479,7 +851,8 @@
             "id": "zaman dahulu",
             "pt": "antigamente",
             "my": "ရှေးအခါ",
-            "th": "กาลครั้งหนึ่ง"
+            "th": "กาลครั้งหนึ่ง",
+            "si": "ඉස්සර, බොහෝ කලකට පෙර"
           },
           "level": "N4"
         }
@@ -495,7 +868,8 @@
         "id": "tanah; muda.",
         "pt": "terra; jovem.",
         "my": "မြေ; ငယ်။",
-        "th": "ดินแดน; หนุ่ม"
+        "th": "ดินแดน; หนุ่ม",
+        "si": "土地 = ප්‍රදේශය, බිම; 若い = තරුණ."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=18.563,24.612",
       "t": [
@@ -564,7 +938,8 @@
         "id": "Setiap hari Toba bekerja di ladang dan menangkap ikan di sungai.",
         "pt": "Todo dia Toba trabalhava no campo e pescava no rio.",
         "my": "တိုဘာက နေ့တိုင်း လယ်ထဲ အလုပ်လုပ်တာ၊ မြစ်ထဲ ငါးဖမ်းတာ လုပ်တယ်။",
-        "th": "ทุกวันโตบาทำไร่และจับปลาในแม่น้ำ"
+        "th": "ทุกวันโตบาทำไร่และจับปลาในแม่น้ำ",
+        "si": "තෝබා, හැමදාම, කෙතේ වැඩ කරමින්, ගඟේ මාළු අල්ලමින් හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -578,7 +953,8 @@
         "id": "dan; ladang.",
         "pt": "e; campo.",
         "my": "တာ...တာ; လယ်။",
-        "th": "และ; ไร่"
+        "th": "และ; ไร่",
+        "si": "「〜たり、〜たりする」 = ~ කරමින්, ~ කරමින්; 畑 = කෙත."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=25.212,31.287",
       "t": [
@@ -647,7 +1023,8 @@
         "id": "Suatu hari Toba memancing ikan emas yang besar.",
         "pt": "Um dia, Toba pescou um grande peixe dourado.",
         "my": "တစ်နေ့ တိုဘာက မြစ်ထဲမှာ ရွှေရောင် ငါးကြီး မျှားမိတယ်။",
-        "th": "วันหนึ่ง โตบาตกปลาสีทองตัวใหญ่ได้"
+        "th": "วันหนึ่ง โตบาตกปลาสีทองตัวใหญ่ได้",
+        "si": "දවසක්, තෝබා, ගඟේ, රන් පාට, ලොකු මාළුවෙක්ව බිලී බාලා අල්ලගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -661,7 +1038,8 @@
         "id": "memancing; emas.",
         "pt": "pescar; dourado.",
         "my": "မျှား; ရွှေရောင်။",
-        "th": "ตก; สีทอง"
+        "th": "ตก; สีทอง",
+        "si": "つる = බිලී බානවා; 金色 = රන් පාට."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=31.887,37.91",
       "t": [
@@ -706,7 +1084,8 @@
         "id": "\"Wah, ikan yang indah. Jadi makan malam nanti.\"",
         "pt": "\"Nossa, que peixe bonito. Vai ser meu jantar.\"",
         "my": "\"ဝိုး၊ ငါးလှလိုက်တာ။ ဒီည ထမင်းဟင်း လုပ်မယ်။\"",
-        "th": "\"ว้าว ปลาสวยจัง คืนนี้เอาไปทำกับข้าวดีกว่า\""
+        "th": "\"ว้าว ปลาสวยจัง คืนนี้เอาไปทำกับข้าวดีกว่า\"",
+        "si": "\"වාව්, ලස්සන මාළුවෙක් නේ. අද රෑ කෑමට ගමු.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -720,7 +1099,8 @@
         "id": "jadi.",
         "pt": "vai ser.",
         "my": "လုပ်မယ်။",
-        "th": "เอาไปทำ"
+        "th": "เอาไปทำ",
+        "si": "「〜にしよう」 = ~ විදිහට ගමු."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=38.81,43.1",
       "t": [
@@ -793,7 +1173,8 @@
         "id": "Di rumah, saat Toba hendak memotongnya, ikan itu berbicara.",
         "pt": "Em casa, quando Toba ia cortar o peixe, ele começou a falar.",
         "my": "အိမ်ရောက်လို့ ငါးကို ခုတ်မယ်လုပ်တော့ ငါးက စကားပြောလာတယ်။",
-        "th": "กลับถึงบ้าน พอโตบาจะหั่นปลา ปลาก็เริ่มพูด"
+        "th": "กลับถึงบ้าน พอโตบาจะหั่นปลา ปลาก็เริ่มพูด",
+        "si": "ගෙදර ආවාම, තෝබා, මාළුවා කපන්න හදද්දී, මාළුවා, කතා කරන්න පටන් ගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -807,7 +1188,8 @@
         "id": "saat hendak; mulai.",
         "pt": "quando ia; começar.",
         "my": "မယ်လုပ်တော့; လာ။",
-        "th": "พอจะ; เริ่ม"
+        "th": "พอจะ; เริ่ม",
+        "si": "「〜ようとすると」 = ~ කරන්න හදද්දී; 「〜はじめる」 = පටන් ගන්නවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=44,50.836",
       "t": [
@@ -844,7 +1226,8 @@
         "id": "\"Tolong, jangan makan aku.\"",
         "pt": "\"Por favor, não me coma.\"",
         "my": "\"ကျေးဇူးပြု၍ ကျွန်မကို မစားပါနဲ့။\"",
-        "th": "\"ได้โปรด อย่ากินฉันเลย\""
+        "th": "\"ได้โปรด อย่ากินฉันเลย\"",
+        "si": "\"කරුණාකරලා, මාව, කන්න එපා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -858,7 +1241,8 @@
         "id": "tolong jangan.",
         "pt": "por favor, não.",
         "my": "မ...ပါနဲ့။",
-        "th": "ได้โปรดอย่า"
+        "th": "ได้โปรดอย่า",
+        "si": "「どうか〜ないでください」 = කරුණාකරලා ~ කරන්න එපා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=51.736,54.924",
       "t": [
@@ -895,7 +1279,8 @@
         "id": "Toba kaget sampai pisaunya jatuh.",
         "pt": "Toba se assustou e deixou cair a faca.",
         "my": "တိုဘာ လန့်ပြီး ဓားကို လွှတ်ချမိတယ်။",
-        "th": "โตบาตกใจจนมีดหล่น"
+        "th": "โตบาตกใจจนมีดหล่น",
+        "si": "තෝබා, පුදුම වෙලා, පිහිය, බිම දාගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -909,7 +1294,8 @@
         "id": "menjatuhkan; tak sengaja.",
         "pt": "deixar cair; sem querer.",
         "my": "လွှတ်ချ; မိ။",
-        "th": "ทำหล่น; เผลอ"
+        "th": "ทำหล่น; เผลอ",
+        "si": "落とす = බිම දානවා; 「〜てしまう」 = නොදැනීම ~ වෙනවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=55.824,60.684",
       "t": [
@@ -970,7 +1356,8 @@
         "id": "Lalu ikan itu berubah menjadi wanita cantik.",
         "pt": "Então o peixe virou uma linda mulher.",
         "my": "ဒီတော့ ငါးက လှပတဲ့ အမျိုးသမီး ဖြစ်သွားတယ်။",
-        "th": "แล้วปลาก็กลายเป็นหญิงสาวงดงาม"
+        "th": "แล้วปลาก็กลายเป็นหญิงสาวงดงาม",
+        "si": "එතකොට, මාළුවා, ලස්සන කාන්තාවක් බවට, හැරුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -984,7 +1371,8 @@
         "id": "berubah menjadi; cantik.",
         "pt": "virar; lindo.",
         "my": "ဖြစ်သွား; လှပ။",
-        "th": "กลายเป็น; งดงาม"
+        "th": "กลายเป็น; งดงาม",
+        "si": "「〜にかわる」 = ~ බවට හැරෙනවා; 美しい = ලස්සන."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=61.284,66.23",
       "t": [
@@ -1029,7 +1417,8 @@
         "id": "\"Aku bukan ikan biasa. Aku juga bisa berwujud manusia.\"",
         "pt": "\"Não sou um peixe comum. Também posso ter forma humana.\"",
         "my": "\"ကျွန်မက သာမန်ငါး မဟုတ်ဘူး။ လူပုံစံလည်း ဖြစ်နိုင်တယ်။\"",
-        "th": "\"ฉันไม่ใช่ปลาธรรมดา ฉันกลายร่างเป็นคนได้ด้วย\""
+        "th": "\"ฉันไม่ใช่ปลาธรรมดา ฉันกลายร่างเป็นคนได้ด้วย\"",
+        "si": "\"මම, සාමාන්‍ය මාළුවෙක් නෙවෙයි. මිනිස් රූපයටත්, හැරෙන්න පුළුවන්.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1043,7 +1432,8 @@
         "id": "bukan; wujud; bisa.",
         "pt": "não é; forma; poder ser.",
         "my": "မဟုတ်; ပုံစံ; ဖြစ်နိုင်။",
-        "th": "ไม่ใช่; ร่าง; กลายเป็นได้"
+        "th": "ไม่ใช่; ร่าง; กลายเป็นได้",
+        "si": "「〜ではありません」 = ~ නෙවෙයි; すがた = රූපය; 「なれる」 = වෙන්න පුළුවන්."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=67.13,72.755",
       "t": [
@@ -1088,7 +1478,8 @@
         "id": "\"Sebagai balas budi, aku akan menjadi istrimu.\"",
         "pt": "\"Para agradecer por me salvar, serei sua esposa.\"",
         "my": "\"ကယ်ပေးတဲ့ ကျေးဇူးအတွက် ရှင့်ရဲ့ မိန်းမ ဖြစ်ပါမယ်။\"",
-        "th": "\"เพื่อตอบแทนที่ช่วยชีวิต ฉันจะเป็นภรรยาของคุณ\""
+        "th": "\"เพื่อตอบแทนที่ช่วยชีวิต ฉันจะเป็นภรรยาของคุณ\"",
+        "si": "\"මාව බේරුවාට ස්තුතියක් විදිහට, ඔයාගේ බිරිඳ, වෙන්නම්.\""
       },
       "vocab": [
         {
@@ -1105,7 +1496,8 @@
             "id": "menolong",
             "pt": "ajudar, salvar",
             "my": "ကူညီသည်၊ ကယ်တင်သည်",
-            "th": "ช่วยเหลือ"
+            "th": "ช่วยเหลือ",
+            "si": "උදව් කිරීම, බේරා ගැනීම"
           },
           "level": "N3"
         }
@@ -1121,7 +1513,8 @@
         "id": "sebagai balas budi; akan.",
         "pt": "para agradecer; serei.",
         "my": "ကျေးဇူးအတွက်; ပါမယ်။",
-        "th": "เพื่อตอบแทน; จะ"
+        "th": "เพื่อตอบแทน; จะ",
+        "si": "「〜てくれたお礼に」 = මට ~ කළාට ස්තුතියක් විදිහට; 「〜ましょう」 = ~ කරන්නම්."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=73.355,77.795",
       "t": [
@@ -1158,7 +1551,8 @@
         "id": "\"Sungguh? Senang sekali!\"",
         "pt": "\"Sério? Que alegria!\"",
         "my": "\"တကယ်လား။ ဝမ်းသာလိုက်တာ!\"",
-        "th": "\"จริงเหรอ ดีใจจัง!\""
+        "th": "\"จริงเหรอ ดีใจจัง!\"",
+        "si": "\"ඇත්තද? හරිම සතුටුයි.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1172,7 +1566,8 @@
         "id": "senang.",
         "pt": "que alegria.",
         "my": "ဝမ်းသာလိုက်တာ။",
-        "th": "ดีใจจัง"
+        "th": "ดีใจจัง",
+        "si": "「うれしいなあ」 = හරිම සතුටුයි."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=78.695,80.822",
       "t": [
@@ -1217,7 +1612,8 @@
         "id": "\"Tapi berjanjilah satu hal saja.\"",
         "pt": "\"Mas me prometa só uma coisa.\"",
         "my": "\"ဒါပေမဲ့ တစ်ခုတည်း ကတိပေးပါ။\"",
-        "th": "\"แต่ต้องสัญญาเรื่องเดียว\""
+        "th": "\"แต่ต้องสัญญาเรื่องเดียว\"",
+        "si": "\"ඒත්, එක දෙයක් විතරක්, පොරොන්දු වෙන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1231,7 +1627,8 @@
         "id": "satu saja; berjanji.",
         "pt": "só uma; prometer.",
         "my": "တစ်ခုတည်း; ကတိ။",
-        "th": "เรื่องเดียว; สัญญา"
+        "th": "เรื่องเดียว; สัญญา",
+        "si": "「一つだけ」 = එකක් විතරක්; 約束する = පොරොන්දු වෙනවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=81.722,84.83",
       "t": [
@@ -1276,7 +1673,8 @@
         "id": "\"Jangan pernah bilang pada siapa pun bahwa aku dulu ikan.\"",
         "pt": "\"Nunca conte a ninguém que eu era um peixe.\"",
         "my": "\"ကျွန်မ ငါးဖြစ်ခဲ့တာကို ဘယ်သူ့ကိုမှ လုံးဝ မပြောပါနဲ့။\"",
-        "th": "\"เรื่องที่ฉันเคยเป็นปลา ห้ามบอกใครเด็ดขาด\""
+        "th": "\"เรื่องที่ฉันเคยเป็นปลา ห้ามบอกใครเด็ดขาด\"",
+        "si": "\"මම මාළුවෙක් වුණා කියන එක, කාටවත්, කවදාවත්, කියන්න එපා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1290,7 +1688,8 @@
         "id": "jangan pernah; bahwa.",
         "pt": "nunca; que.",
         "my": "လုံးဝ မ; တာကို။",
-        "th": "ห้ามเด็ดขาด; เรื่องที่"
+        "th": "ห้ามเด็ดขาด; เรื่องที่",
+        "si": "「ぜったいに〜ないで」 = කවදාවත් ~ කරන්න එපා; 「〜ことは」 = ~ කියන එක."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=85.43,90.597",
       "t": [
@@ -1335,7 +1734,8 @@
         "id": "\"Baik. Aku berjanji. Tak akan kuberitahu siapa pun.\"",
         "pt": "\"Entendi. Prometo. Não conto a ninguém.\"",
         "my": "\"နားလည်ပါပြီ။ ကတိပေးပါတယ်။ ဘယ်သူ့ကိုမှ မပြောပါဘူး။\"",
-        "th": "\"เข้าใจแล้ว สัญญา จะไม่บอกใคร\""
+        "th": "\"เข้าใจแล้ว สัญญา จะไม่บอกใคร\"",
+        "si": "\"හරි. පොරොන්දු වෙනවා. කාටවත් කියන්නේ නැහැ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1349,7 +1749,8 @@
         "id": "siapa pun tidak.",
         "pt": "ninguém.",
         "my": "ဘယ်သူ့ကိုမှ မ။",
-        "th": "ไม่...ใคร"
+        "th": "ไม่...ใคร",
+        "si": "「だれにも〜ません」 = කාටවත් ~ නැහැ."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=91.497,94.959",
       "t": [
@@ -1398,7 +1799,8 @@
         "id": "Keduanya menikah dan hidup rukun.",
         "pt": "Os dois se casaram e viveram em harmonia.",
         "my": "နှစ်ယောက် လက်ထပ်ပြီး ချစ်ချစ်ခင်ခင် နေကြတယ်။",
-        "th": "ทั้งสองแต่งงานและอยู่กันอย่างรักใคร่"
+        "th": "ทั้งสองแต่งงานและอยู่กันอย่างรักใคร่",
+        "si": "දෙන්නා, කසාද බැඳලා, සමගියෙන්, ජීවත් වුණා."
       },
       "vocab": [
         {
@@ -1415,7 +1817,8 @@
             "id": "kehidupan",
             "pt": "vida",
             "my": "ဘဝ",
-            "th": "ชีวิตความเป็นอยู่"
+            "th": "ชีวิตความเป็นอยู่",
+            "si": "ජීවිතය, ජීවත් වීම"
           },
           "level": "N4"
         }
@@ -1431,7 +1834,8 @@
         "id": "menikah; rukun; hidup.",
         "pt": "casar; em harmonia; viver.",
         "my": "လက်ထပ်; ချစ်ခင်; နေ။",
-        "th": "แต่งงาน; รักใคร่; อยู่"
+        "th": "แต่งงาน; รักใคร่; อยู่",
+        "si": "結婚する = කසාද බඳිනවා; なかよく = සමගියෙන්; 生活する = ජීවත් වෙනවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=95.859,100.29",
       "t": [
@@ -1492,7 +1896,8 @@
         "id": "Lalu lahirlah anak laki-laki bernama Samosir.",
         "pt": "Com o tempo nasceu um menino, chamado Samosir.",
         "my": "နောက်တော့ သားလေး မွေးလာတယ်။ နာမည်က ဆာမိုဆီ။",
-        "th": "ต่อมามีลูกชายเกิดมา ชื่อซาโมซีร์"
+        "th": "ต่อมามีลูกชายเกิดมา ชื่อซาโมซีร์",
+        "si": "ටික කාලෙකින්, පුතෙක්, ඉපදුණා. නම, සමොසීර්."
       },
       "vocab": [
         {
@@ -1509,7 +1914,8 @@
             "id": "tak lama kemudian",
             "pt": "logo, com o tempo",
             "my": "မကြာမီ",
-            "th": "ไม่นานนัก, ในที่สุด"
+            "th": "ไม่นานนัก, ในที่สุด",
+            "si": "ටික කලකින්, අවසානයේදී"
           },
           "level": "N3"
         }
@@ -1525,7 +1931,8 @@
         "id": "lalu; lahir.",
         "pt": "com o tempo; nascer.",
         "my": "နောက်တော့; မွေး။",
-        "th": "ต่อมา; เกิด"
+        "th": "ต่อมา; เกิด",
+        "si": "やがて = ටික කාලෙකින්; 生まれる = උපදිනවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=100.89,106.899",
       "t": [
@@ -1594,7 +2001,8 @@
         "id": "Samosir anak yang sehat, tapi lebih dari apa pun suka makan.",
         "pt": "Samosir era saudável, mas amava comer acima de tudo.",
         "my": "ဆာမိုဆီက ကျန်းမာတဲ့ ကလေးပေမဲ့ ဘာထက်မဆို စားရတာ ကြိုက်တယ်။",
-        "th": "ซาโมซีร์เป็นเด็กแข็งแรง แต่ชอบกินมากกว่าอะไรทั้งหมด"
+        "th": "ซาโมซีร์เป็นเด็กแข็งแรง แต่ชอบกินมากกว่าอะไรทั้งหมด",
+        "si": "සමොසීර්, ප්‍රබෝධමත් ළමයෙක්, ඒත් කන එකට, හැමදේටම වඩා, ආසයි."
       },
       "vocab": [
         {
@@ -1611,7 +2019,8 @@
             "id": "anak",
             "pt": "criança",
             "my": "ကလေး",
-            "th": "เด็ก"
+            "th": "เด็ก",
+            "si": "ළමයා, දරුවා"
           },
           "level": "N4"
         }
@@ -1627,7 +2036,8 @@
         "id": "lebih dari apa pun; suka.",
         "pt": "acima de tudo; gostar.",
         "my": "ဘာထက်မဆို; ကြိုက်။",
-        "th": "มากกว่าอะไร; ชอบ"
+        "th": "มากกว่าอะไร; ชอบ",
+        "si": "「何より」 = හැමදේටම වඩා; 「〜ことが好き」 = ~ කරන්න ආසයි."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=107.499,114.003",
       "t": [
@@ -1672,7 +2082,8 @@
         "id": "Ia selalu ingin makan sesuatu.",
         "pt": "Sempre queria comer alguma coisa.",
         "my": "အမြဲ တစ်ခုခု စားချင်နေတယ်။",
-        "th": "อยากกินอะไรอยู่ตลอด"
+        "th": "อยากกินอะไรอยู่ตลอด",
+        "si": "හැමවෙලේම, මොනවා හරි, කන්න ඕනේ කියලා හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1686,7 +2097,8 @@
         "id": "ingin.",
         "pt": "querer.",
         "my": "ချင်နေ။",
-        "th": "อยาก"
+        "th": "อยาก",
+        "si": "「〜たがる」 = (කෙනෙක්ට) ~ කරන්න ඕනේ."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=114.603,118.03",
       "t": [
@@ -1731,7 +2143,8 @@
         "id": "\"Bu, aku lapar! Ada makanan?\"",
         "pt": "\"Mãe, estou com fome! Tem alguma coisa?\"",
         "my": "\"အမေ၊ ဗိုက်ဆာပြီ! ဘာရှိလဲ။\"",
-        "th": "\"แม่ หิวแล้ว! มีอะไรไหม\""
+        "th": "\"แม่ หิวแล้ว! มีอะไรไหม\"",
+        "si": "\"අම්මේ, බඩගිනියි! මොනවා හරි නැද්ද?\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1745,7 +2158,8 @@
         "id": "lapar; ada?",
         "pt": "fome; tem algo?",
         "my": "ဗိုက်ဆာ; ဘာရှိလဲ။",
-        "th": "หิว; มีอะไรไหม"
+        "th": "หิว; มีอะไรไหม",
+        "si": "「おなかへった」 = බඩගිනියි (සාමාන්‍ය කතාව); 「何かない？」 = මොනවා හරි නැද්ද?"
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=118.93,121.873",
       "t": [
@@ -1790,7 +2204,8 @@
         "id": "Suatu hari ibunya meminta tolong kepada Samosir.",
         "pt": "Um dia, a mãe pediu um favor a Samosir.",
         "my": "တစ်နေ့ အမေက ဆာမိုဆီကို အကူအညီ တောင်းတယ်။",
-        "th": "วันหนึ่ง แม่ขอให้ซาโมซีร์ช่วย"
+        "th": "วันหนึ่ง แม่ขอให้ซาโมซีร์ช่วย",
+        "si": "දවසක්, අම්මා, සමොසීර්ට, වැඩක් භාර දුන්නා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1804,7 +2219,8 @@
         "id": "meminta tolong.",
         "pt": "pedir.",
         "my": "တောင်း။",
-        "th": "ขอให้"
+        "th": "ขอให้",
+        "si": "たのむ = ඉල්ලනවා, වැඩක් භාර දෙනවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=122.773,127.427",
       "t": [
@@ -1857,7 +2273,8 @@
         "id": "\"Bawa nasi kepal ini ke ayah di ladang, ya.\"",
         "pt": "\"Leve estes bolinhos de arroz ao papai no campo, tá?\"",
         "my": "\"ဒီထမင်းဆုပ်ကို လယ်ထဲက အဖေ့ဆီ ယူသွားပေးနော်။\"",
-        "th": "\"เอาข้าวปั้นนี้ไปให้พ่อที่ไร่นะ\""
+        "th": "\"เอาข้าวปั้นนี้ไปให้พ่อที่ไร่นะ\"",
+        "si": "\"මේ බත් ගුලි, කෙතේ ඉන්න තාත්තට, අරන් යන්න, හරිද?\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1871,7 +2288,8 @@
         "id": "bawa; ya.",
         "pt": "levar; tá.",
         "my": "ယူသွား; နော်။",
-        "th": "เอาไป; นะ"
+        "th": "เอาไป; นะ",
+        "si": "「持っていく」 = අරන් යනවා; 「〜てね」 = හරිද?"
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=128.327,132.475",
       "t": [
@@ -1900,7 +2318,8 @@
         "id": "\"Baik~\"",
         "pt": "\"Tá bom~\"",
         "my": "\"ဟုတ်ကဲ့~\"",
-        "th": "\"คร้าบ~\""
+        "th": "\"คร้าบ~\"",
+        "si": "\"හරීඊ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1914,7 +2333,8 @@
         "id": "baik.",
         "pt": "tá bom.",
         "my": "ဟုတ်ကဲ့။",
-        "th": "ครับ"
+        "th": "ครับ",
+        "si": "「はーい」 = හරී (ළමයෙක් ඇදලා කියන විදිහ)."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=133.375,133.857",
       "t": [
@@ -1951,7 +2371,8 @@
         "id": "Namun di jalan, Samosir merasa lapar.",
         "pt": "Mas no caminho, Samosir ficou com fome.",
         "my": "ဒါပေမဲ့ လမ်းမှာ ဆာမိုဆီ ဗိုက်ဆာလာတယ်။",
-        "th": "แต่ระหว่างทาง ซาโมซีร์ก็หิว"
+        "th": "แต่ระหว่างทาง ซาโมซีร์ก็หิว",
+        "si": "ඒත්, පාරේදී, සමොසීර්ට, බඩගිනි වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1965,7 +2386,8 @@
         "id": "namun; lapar.",
         "pt": "mas; ter fome.",
         "my": "ဒါပေမဲ့; ဗိုက်ဆာ။",
-        "th": "แต่; หิว"
+        "th": "แต่; หิว",
+        "si": "ところが = ඒත්; おなかがへる = බඩගිනි වෙනවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=134.757,140.797",
       "t": [
@@ -2002,7 +2424,8 @@
         "id": "\"Sedikit saja tidak apa-apa, kan?\"",
         "pt": "\"Só um pouquinho não faz mal, né?\"",
         "my": "\"နည်းနည်းလောက်ဆို ရမှာပါနော်။\"",
-        "th": "\"นิดเดียวคงไม่เป็นไรหรอกนะ\""
+        "th": "\"นิดเดียวคงไม่เป็นไรหรอกนะ\"",
+        "si": "\"ටිකක් විතරක් නම්, කමක් නැහැ නේද.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2016,7 +2439,8 @@
         "id": "kalau ~, tak apa; kan.",
         "pt": "se ~, tudo bem; né.",
         "my": "ဆို ရ; နော်။",
-        "th": "ถ้า...ก็ได้; นะ"
+        "th": "ถ้า...ก็ได้; นะ",
+        "si": "「〜なら、いい」 = ~ නම් කමක් නැහැ; 「〜よね」 = නේද?"
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=141.697,143.44",
       "t": [
@@ -2065,7 +2489,8 @@
         "id": "Satu gigitan, lalu satu lagi. Tahu-tahu nasi kepal hampir habis.",
         "pt": "Uma mordida, e outra. Quando percebeu, quase não havia mais bolinhos.",
         "my": "တစ်ကိုက်၊ နောက်တစ်ကိုက်။ သတိထားမိတော့ ထမင်းဆုပ် ကုန်လုနီးပြီ။",
-        "th": "คำหนึ่ง อีกคำหนึ่ง รู้ตัวอีกที ข้าวปั้นก็แทบหมด"
+        "th": "คำหนึ่ง อีกคำหนึ่ง รู้ตัวอีกที ข้าวปั้นก็แทบหมด",
+        "si": "එක කටක්, තව කටක්. දැනුණාම, බත් ගුලි, ගොඩක්ම, ඉවරයි."
       },
       "vocab": [
         {
@@ -2082,7 +2507,8 @@
             "id": "perasaan (気がつく: menyadari)",
             "pt": "mente (気がつく: perceber)",
             "my": "စိတ် (気がつく: သတိထားမိ)",
-            "th": "ใจ (気がつく: สังเกตเห็น)"
+            "th": "ใจ (気がつく: สังเกตเห็น)",
+            "si": "හිත (気がつく: දැනෙනවා)"
           },
           "level": "N4"
         },
@@ -2100,7 +2526,8 @@
             "id": "hampir semua",
             "pt": "quase tudo",
             "my": "အများစု",
-            "th": "เกือบทั้งหมด"
+            "th": "เกือบทั้งหมด",
+            "si": "කිසිසේත්ම වගේ, බොහෝ දුරට"
           },
           "level": "N4"
         }
@@ -2116,7 +2543,8 @@
         "id": "tahu-tahu; hampir.",
         "pt": "quando percebeu; quase.",
         "my": "သတိထားမိတော့; လုနီး။",
-        "th": "รู้ตัวอีกที; แทบ"
+        "th": "รู้ตัวอีกที; แทบ",
+        "si": "「気がつくと」 = දැනුණාම; ほとんど = ගොඩක්ම."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=144.34,151.745",
       "t": [
@@ -2173,7 +2601,8 @@
         "id": "Di ladang, Toba bekerja sejak pagi tanpa istirahat.",
         "pt": "No campo, Toba trabalhava desde cedo sem descanso.",
         "my": "လယ်ထဲမှာ တိုဘာက မနက်ကတည်းက မနားဘဲ အလုပ်လုပ်နေတယ်။",
-        "th": "ที่ไร่ โตบาทำงานตั้งแต่เช้าไม่ได้พัก"
+        "th": "ที่ไร่ โตบาทำงานตั้งแต่เช้าไม่ได้พัก",
+        "si": "කෙතේ, තෝබා, උදේ ඉඳන්, විවේකයක් නැතුව, වැඩ කරමින් හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2187,7 +2616,8 @@
         "id": "tanpa; sejak.",
         "pt": "sem; desde.",
         "my": "မ...ဘဲ; ကတည်းက။",
-        "th": "ไม่; ตั้งแต่"
+        "th": "ไม่; ตั้งแต่",
+        "si": "「〜ずに」 = ~ නැතුව; 「〜から」 = ~ ඉඳන්."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=152.345,158.137",
       "t": [
@@ -2232,7 +2662,8 @@
         "id": "\"Lama sekali. Ingin cepat makan.\"",
         "pt": "\"Que demora. Quero comer logo.\"",
         "my": "\"နှေးလိုက်တာ။ မြန်မြန် စားချင်လိုက်တာ။\"",
-        "th": "\"ช้าจัง อยากกินเร็ว ๆ\""
+        "th": "\"ช้าจัง อยากกินเร็ว ๆ\"",
+        "si": "\"පරක්කුයි නේ. ඉක්මනට, කන්න ඕනේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2246,7 +2677,8 @@
         "id": "sekali; ingin.",
         "pt": "que; querer.",
         "my": "လိုက်တာ; ချင်။",
-        "th": "จัง; อยาก"
+        "th": "จัง; อยาก",
+        "si": "「〜なあ」 = විස්මය; 「〜たい」 = ~ කරන්න ඕනේ."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=159.037,161.882",
       "t": [
@@ -2291,7 +2723,8 @@
         "id": "Akhirnya Samosir datang, dan Toba membuka bungkus nasi kepal.",
         "pt": "Por fim Samosir chegou, e Toba abriu o embrulho.",
         "my": "နောက်ဆုံး ဆာမိုဆီ ရောက်လာပြီး တိုဘာက ထမင်းထုပ်ကို ဖွင့်တယ်။",
-        "th": "ในที่สุดซาโมซีร์ก็มา โตบาเปิดห่อข้าวปั้น"
+        "th": "ในที่สุดซาโมซีร์ก็มา โตบาเปิดห่อข้าวปั้น",
+        "si": "අන්තිමට, සමොසීර් ආවා, තෝබා, බත් ගුලි ඔතපු පාර්සලය ඇරියා."
       },
       "vocab": [
         {
@@ -2308,7 +2741,8 @@
             "id": "akhirnya",
             "pt": "finalmente",
             "my": "နောက်ဆုံးတော့",
-            "th": "ในที่สุด"
+            "th": "ในที่สุด",
+            "si": "අන්තිමේදී"
           },
           "level": "N4"
         }
@@ -2324,7 +2758,8 @@
         "id": "akhirnya; bungkus.",
         "pt": "por fim; embrulho.",
         "my": "နောက်ဆုံး; အထုပ်။",
-        "th": "ในที่สุด; ห่อ"
+        "th": "ในที่สุด; ห่อ",
+        "si": "やっと = අන්තිමට; つつみ = ඔතපු පාර්සලය."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=162.782,169.151",
       "t": [
@@ -2365,7 +2800,8 @@
         "id": "Di dalamnya hanya tersisa sedikit nasi.",
         "pt": "Dentro sobrara só um pouco de arroz.",
         "my": "အထဲမှာ ထမင်း နည်းနည်းပဲ ကျန်တယ်။",
-        "th": "ข้างในเหลือข้าวนิดเดียว"
+        "th": "ข้างในเหลือข้าวนิดเดียว",
+        "si": "ඇතුළේ, බත්, ටිකක් විතරයි, ඉතුරු වෙලා තිබුණේ."
       },
       "vocab": [],
       "grammarNote": {
@@ -2379,7 +2815,8 @@
         "id": "hanya; tersisa.",
         "pt": "só; sobrar.",
         "my": "ပဲ; ကျန်။",
-        "th": "แค่; เหลือ"
+        "th": "แค่; เหลือ",
+        "si": "「〜しか〜ない」 = ~ විතරයි; のこる = ඉතුරු වෙනවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=169.751,174.924",
       "t": [
@@ -2416,7 +2853,8 @@
         "id": "\"Samosir! Kamu yang makan, ya?!\"",
         "pt": "\"Samosir! Foi você que comeu?!\"",
         "my": "\"ဆာမိုဆီ! မင်း စားလိုက်တာလား!\"",
-        "th": "\"ซาโมซีร์! เจ้ากินใช่ไหม!\""
+        "th": "\"ซาโมซีร์! เจ้ากินใช่ไหม!\"",
+        "si": "\"සමොසීර්! උඹද, කෑවේ!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2430,7 +2868,8 @@
         "id": "ya; kamu.",
         "pt": "foi; você.",
         "my": "လား; မင်း။",
-        "th": "ใช่ไหม; เจ้า"
+        "th": "ใช่ไหม; เจ้า",
+        "si": "「〜のか」 = එහෙනම් ~ ද? (දොස් කියමින්); おまえ = උඹ (රළු)."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=175.824,178.479",
       "t": [
@@ -2475,7 +2914,8 @@
         "id": "Toba marah sekali. Lalu ia mengucapkan kata yang tak boleh diucapkan.",
         "pt": "Toba ficou furioso. E disse o que nunca deveria dizer.",
         "my": "တိုဘာ အရမ်း စိတ်ဆိုးတယ်။ ပြီးတော့ မပြောရမယ့် စကားကို ပြောမိသွားတယ်။",
-        "th": "โตบาโกรธมาก แล้วก็พูดสิ่งที่ห้ามพูดออกไป"
+        "th": "โตบาโกรธมาก แล้วก็พูดสิ่งที่ห้ามพูดออกไป",
+        "si": "තෝබාට, හරියටම කේන්ති ගියා. ඊට පස්සේ, කවදාවත් කියන්න බැරි දේ, කියලා දැම්මා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2489,7 +2929,8 @@
         "id": "tak boleh diucapkan; telanjur.",
         "pt": "não deveria; acabou.",
         "my": "မပြောရမယ့်; မိသွား။",
-        "th": "ห้ามพูด; เผลอ"
+        "th": "ห้ามพูด; เผลอ",
+        "si": "「言ってはいけないこと」 = කියන්න බැරි දේ; 「〜てしまったのです」 = ~ කරලා දැම්මා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=179.379,186.902",
       "t": [
@@ -2534,7 +2975,8 @@
         "id": "\"Dasar anak ikan!\"",
         "pt": "\"Você é mesmo filho de peixe!\"",
         "my": "\"မင်းက တကယ်ပဲ ငါးရဲ့ကလေးပဲ!\"",
-        "th": "\"เจ้ามันลูกปลาจริง ๆ!\""
+        "th": "\"เจ้ามันลูกปลาจริง ๆ!\"",
+        "si": "\"උඹ, ඇත්තටම, මාළුවෙකුගේ ළමයෙක් තමයි!\""
       },
       "vocab": [
         {
@@ -2551,7 +2993,8 @@
             "id": "ternyata, tetap saja",
             "pt": "como esperado",
             "my": "ထင်တဲ့အတိုင်း",
-            "th": "อย่างที่คิด"
+            "th": "อย่างที่คิด",
+            "si": "හිතුව විදිහටම, අන්තිමට"
           },
           "level": "N4"
         }
@@ -2567,7 +3010,8 @@
         "id": "dasar.",
         "pt": "mesmo.",
         "my": "တကယ်ပဲ။",
-        "th": "จริง ๆ"
+        "th": "จริง ๆ",
+        "si": "やっぱり = හිතුව විදිහටම; 「〜だな」 = (පිරිමි කතාව) ~ තමයි."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=187.802,190.947",
       "t": [
@@ -2628,7 +3072,8 @@
         "id": "Samosir berlari pulang sambil menangis.",
         "pt": "Samosir correu para casa chorando.",
         "my": "ဆာမိုဆီက ငိုရင်း အိမ်ကို ပြေးပြန်တယ်။",
-        "th": "ซาโมซีร์วิ่งร้องไห้กลับบ้าน"
+        "th": "ซาโมซีร์วิ่งร้องไห้กลับบ้าน",
+        "si": "සමොසීර්, අඬ අඬා, ගෙදරට දුවගෙන ගියා."
       },
       "vocab": [
         {
@@ -2645,7 +3090,8 @@
             "id": "menangis",
             "pt": "chorar",
             "my": "ငို",
-            "th": "ร้องไห้"
+            "th": "ร้องไห้",
+            "si": "ඇඬීම"
           },
           "level": "N4"
         }
@@ -2661,7 +3107,8 @@
         "id": "sambil.",
         "pt": "enquanto.",
         "my": "ရင်း။",
-        "th": "ขณะ"
+        "th": "ขณะ",
+        "si": "「〜ながら」 = ~ කරමින්."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=191.847,196.53",
       "t": [
@@ -2722,7 +3169,8 @@
         "id": "\"Bu, Ayah bilang aku anak ikan.\"",
         "pt": "\"Mãe, o papai disse que sou filho de peixe.\"",
         "my": "\"အမေ၊ အဖေက ကျွန်တော့်ကို ငါးရဲ့ကလေးတဲ့။\"",
-        "th": "\"แม่ พ่อบอกว่าผมเป็นลูกปลา\""
+        "th": "\"แม่ พ่อบอกว่าผมเป็นลูกปลา\"",
+        "si": "\"අම්මේ, තාත්තා, මට, මාළුවෙකුගේ ළමයා කිව්වා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2736,7 +3184,8 @@
         "id": "bilang; aku.",
         "pt": "disse; eu.",
         "my": "တဲ့; ကျွန်တော့်ကို။",
-        "th": "บอกว่า; ผม"
+        "th": "บอกว่า; ผม",
+        "si": "「〜だって」 = ~ කිව්වා (සාමාන්‍ය කතාව); 「ぼくのことを」 = මං ගැන."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=197.43,201.89",
       "t": [
@@ -2789,7 +3238,8 @@
         "id": "Wajah sang ibu menjadi pucat.",
         "pt": "O rosto da mãe ficou pálido.",
         "my": "အမေ့မျက်နှာ ဖြူဖတ်ဖြူရော် ဖြစ်သွားတယ်။",
-        "th": "หน้าแม่ซีดลง"
+        "th": "หน้าแม่ซีดลง",
+        "si": "අම්මාගේ මූණ, සුදුමැලි වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2803,7 +3253,8 @@
         "id": "pucat.",
         "pt": "ficar pálido.",
         "my": "ဖြူရော်။",
-        "th": "ซีด"
+        "th": "ซีด",
+        "si": "「青くなる」 = සුදුමැලි වෙනවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=202.79,205.977",
       "t": [
@@ -2848,7 +3299,8 @@
         "id": "\"Dia telah melanggar janji.\"",
         "pt": "\"Ele quebrou a promessa.\"",
         "my": "\"သူ ကတိ ဖျက်လိုက်ပြီပဲ။\"",
-        "th": "\"เขาผิดสัญญาเสียแล้ว\""
+        "th": "\"เขาผิดสัญญาเสียแล้ว\"",
+        "si": "\"එයා, පොරොන්දුව, කඩලා දාලා නේද.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2862,7 +3314,8 @@
         "id": "melanggar janji.",
         "pt": "quebrar a promessa.",
         "my": "ကတိဖျက်။",
-        "th": "ผิดสัญญา"
+        "th": "ผิดสัญญา",
+        "si": "「約束をやぶる」 = පොරොන්දුව කඩනවා; 「〜のね」 = (ගැහැනු කතාව) ~ නේද."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=206.877,210.578",
       "t": [
@@ -2939,7 +3392,8 @@
         "id": "\"Samosir, dengar. Pergilah sekarang ke puncak gunung tinggi itu.\"",
         "pt": "\"Samosir, escute. Vá agora mesmo ao alto daquela montanha.\"",
         "my": "\"ဆာမိုဆီ၊ သေချာ နားထောင်။ အခုချက်ချင်း ဟိုတောင်မြင့်ပေါ် သွား။\"",
-        "th": "\"ซาโมซีร์ ฟังให้ดี ไปบนภูเขาสูงลูกนั้นเดี๋ยวนี้\""
+        "th": "\"ซาโมซีร์ ฟังให้ดี ไปบนภูเขาสูงลูกนั้นเดี๋ยวนี้\"",
+        "si": "\"සමොසීර්, හොඳට අහගන්න. දැන්ම, අර උස කන්දේ මුදුනට, යන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2953,7 +3407,8 @@
         "id": "sekarang; perintah.",
         "pt": "agora mesmo; ordem.",
         "my": "အခုချက်ချင်း; သွား။",
-        "th": "เดี๋ยวนี้; จง"
+        "th": "เดี๋ยวนี้; จง",
+        "si": "「今すぐ」 = දැන්ම; 「〜なさい」 = ~ කරන්න (දෙමාපියෙක් ළමයෙකුට)."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=211.178,217.444",
       "t": [
@@ -3014,7 +3469,8 @@
         "id": "Sesuai perintah, Samosir berlari ke atas gunung.",
         "pt": "Como lhe disseram, Samosir correu montanha acima.",
         "my": "ပြောတဲ့အတိုင်း ဆာမိုဆီ တောင်ပေါ် ပြေးတက်တယ်။",
-        "th": "ซาโมซีร์วิ่งขึ้นเขาตามที่แม่บอก"
+        "th": "ซาโมซีร์วิ่งขึ้นเขาตามที่แม่บอก",
+        "si": "සමොසීර්, කිව්ව විදිහටම, කන්දේ මුදුනට, දුවගෙන ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3028,7 +3484,8 @@
         "id": "sesuai perintah.",
         "pt": "como disseram.",
         "my": "ပြောတဲ့အတိုင်း။",
-        "th": "ตามที่บอก"
+        "th": "ตามที่บอก",
+        "si": "「言われたとおり」 = කිව්ව විදිහටම."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=218.344,224.082",
       "t": [
@@ -3089,7 +3546,8 @@
         "id": "Lalu langit tiba-tiba gelap dan hujan lebat mulai turun.",
         "pt": "Então o céu escureceu de repente e caiu uma chuva forte.",
         "my": "ဒီတော့ ကောင်းကင် ရုတ်တရက် မှောင်ပြီး မိုးသည်းသည်း ရွာလာတယ်။",
-        "th": "แล้วท้องฟ้าก็มืดลงทันที ฝนตกหนัก"
+        "th": "แล้วท้องฟ้าก็มืดลงทันที ฝนตกหนัก",
+        "si": "එතකොට, අහස, එකපාරටම අඳුරු වෙලා, මහ වැස්සක්, වහින්න පටන් ගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3103,7 +3561,8 @@
         "id": "tiba-tiba; hujan lebat.",
         "pt": "de repente; chuva forte.",
         "my": "ရုတ်တရက်; မိုးသည်း။",
-        "th": "ทันที; ฝนหนัก"
+        "th": "ทันที; ฝนหนัก",
+        "si": "急に = එකපාරටම; 大雨 = මහ වැස්ස."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=224.682,230.202",
       "t": [
@@ -3152,7 +3611,8 @@
         "id": "Dari tanah pun air terus keluar.",
         "pt": "Do chão também brotava cada vez mais água.",
         "my": "မြေကြီးထဲကလည်း ရေတွေ တဖြည်းဖြည်း ထွက်လာတယ်။",
-        "th": "จากพื้นดินก็มีน้ำพุ่งออกมาเรื่อย ๆ"
+        "th": "จากพื้นดินก็มีน้ำพุ่งออกมาเรื่อย ๆ",
+        "si": "පොළොවෙනුත්, වතුර, ගලාගෙන, එන්න ගත්තා."
       },
       "vocab": [
         {
@@ -3169,7 +3629,8 @@
             "id": "makin lama makin",
             "pt": "cada vez mais",
             "my": "တဖြည်းဖြည်းမြန်မြန်",
-            "th": "เรื่อย ๆ อย่างรวดเร็ว"
+            "th": "เรื่อย ๆ อย่างรวดเร็ว",
+            "si": "නොනවත්වා, වේගයෙන්"
           },
           "level": "N4"
         }
@@ -3185,7 +3646,8 @@
         "id": "dari ~ pun; terus.",
         "pt": "de ~ também; cada vez mais.",
         "my": "ကလည်း; တဖြည်းဖြည်း။",
-        "th": "จาก...ก็; เรื่อย ๆ"
+        "th": "จาก...ก็; เรื่อย ๆ",
+        "si": "「〜からも」 = ~ නුත්; どんどん = තව තවත්."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=230.802,234.66",
       "t": [
@@ -3250,7 +3712,8 @@
         "id": "Air menelan desa dan ladang, lalu menjadi danau besar.",
         "pt": "A água engoliu a aldeia e os campos e virou um grande lago.",
         "my": "ရေက ရွာရော လယ်ရော မျိုပြီး ကန်ကြီး ဖြစ်သွားတယ်။",
-        "th": "น้ำกลืนทั้งหมู่บ้านและไร่ จนกลายเป็นทะเลสาบใหญ่"
+        "th": "น้ำกลืนทั้งหมู่บ้านและไร่ จนกลายเป็นทะเลสาบใหญ่",
+        "si": "වතුර, ගමත්, කෙත්වතුත්, ගිලගෙන, ලොකු විලක්, වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3264,7 +3727,8 @@
         "id": "dan; menelan.",
         "pt": "e; engolir.",
         "my": "ရော...ရော; မျို။",
-        "th": "ทั้ง...และ; กลืน"
+        "th": "ทั้ง...และ; กลืน",
+        "si": "「〜も〜も」 = ~ ත් ~ ත්; のみこむ = ගිලගන්නවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=235.26,241.826",
       "t": [
@@ -3309,7 +3773,8 @@
         "id": "Inilah Danau Toba sekarang.",
         "pt": "Esse é o atual lago Toba.",
         "my": "ဒါက အခု တိုဘာကန်ပဲ။",
-        "th": "นี่คือทะเลสาบโตบาในปัจจุบัน"
+        "th": "นี่คือทะเลสาบโตบาในปัจจุบัน",
+        "si": "ඒ තමයි, අද තියෙන, තෝබා විල."
       },
       "vocab": [],
       "grammarNote": {
@@ -3323,7 +3788,8 @@
         "id": "inilah.",
         "pt": "este é.",
         "my": "ဒါက...ပဲ။",
-        "th": "นี่คือ"
+        "th": "นี่คือ",
+        "si": "「これが〜です」 = ඒ තමයි ~."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=242.426,244.827",
       "t": [
@@ -3380,7 +3846,8 @@
         "id": "Danaunya sangat dalam dan luas seperti laut.",
         "pt": "O lago é muito fundo e largo como o mar.",
         "my": "ကန်က အရမ်းနက်ပြီး ပင်လယ်လို ကျယ်တယ်။",
-        "th": "ทะเลสาบลึกมาก กว้างเหมือนทะเล"
+        "th": "ทะเลสาบลึกมาก กว้างเหมือนทะเล",
+        "si": "විල, හරිම ගැඹුරුයි, මුහුද වගේ, පළලයි."
       },
       "vocab": [
         {
@@ -3397,7 +3864,8 @@
             "id": "dalam",
             "pt": "fundo",
             "my": "နက်",
-            "th": "ลึก"
+            "th": "ลึก",
+            "si": "ගැඹුරු"
           },
           "level": "N4"
         }
@@ -3413,7 +3881,8 @@
         "id": "seperti; dalam.",
         "pt": "como; fundo.",
         "my": "လို; နက်။",
-        "th": "เหมือน; ลึก"
+        "th": "เหมือน; ลึก",
+        "si": "「〜のように」 = ~ වගේ; 深い = ගැඹුරු."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=245.427,250.531",
       "t": [
@@ -3474,7 +3943,8 @@
         "id": "Gunung tempat Samosir berada menjadi pulau di danau.",
         "pt": "A montanha onde Samosir estava virou uma ilha no lago.",
         "my": "ဆာမိုဆီ ရှိနေတဲ့ တောင်က ကန်ထဲက ကျွန်း ဖြစ်သွားတယ်。",
-        "th": "ภูเขาที่ซาโมซีร์อยู่กลายเป็นเกาะกลางทะเลสาบ"
+        "th": "ภูเขาที่ซาโมซีร์อยู่กลายเป็นเกาะกลางทะเลสาบ",
+        "si": "සමොසීර් හිටපු කන්ද, විල මැද්දේ දූපතක් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3488,7 +3958,8 @@
         "id": "gunung tempat ~ berada.",
         "pt": "montanha onde ~ estava.",
         "my": "ရှိနေတဲ့တောင်။",
-        "th": "ภูเขาที่...อยู่"
+        "th": "ภูเขาที่...อยู่",
+        "si": "「〜がいた山」 = ~ හිටපු කන්ද."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=251.131,255.711",
       "t": [
@@ -3533,7 +4004,8 @@
         "id": "Konon itulah Pulau Samosir.",
         "pt": "Dizem que essa é a ilha Samosir.",
         "my": "ဒါ ဆာမိုဆီကျွန်းလို့ ဆိုကြတယ်။",
-        "th": "ว่ากันว่านี่คือเกาะซาโมซีร์"
+        "th": "ว่ากันว่านี่คือเกาะซาโมซีร์",
+        "si": "ඒ තමයි, සමොසීර් දූපත කියලා, කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3547,7 +4019,8 @@
         "id": "konon.",
         "pt": "dizem.",
         "my": "ဆိုကြတယ်။",
-        "th": "ว่ากันว่า"
+        "th": "ว่ากันว่า",
+        "si": "「〜だと言われています」 = ~ කියලා කියනවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=256.311,259.784",
       "t": [
@@ -3624,7 +4097,8 @@
         "id": "Sang ibu kembali menjadi ikan emas dan menghilang ke dalam air.",
         "pt": "A mãe voltou a ser um peixe dourado e sumiu na água.",
         "my": "အမေက ရွှေငါး ပြန်ဖြစ်ပြီး ရေထဲ ပျောက်သွားတယ်။",
-        "th": "แม่กลับกลายเป็นปลาสีทองและหายลงไปในน้ำ"
+        "th": "แม่กลับกลายเป็นปลาสีทองและหายลงไปในน้ำ",
+        "si": "අම්මා, ආයෙත්, රන් පාට මාළුවෙක් වෙලා, වතුරට, අතුරුදහන් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3638,7 +4112,8 @@
         "id": "kembali menjadi; pergi.",
         "pt": "voltar a ser; ir.",
         "my": "ပြန်ဖြစ်; သွား။",
-        "th": "กลับเป็น; ไป"
+        "th": "กลับเป็น; ไป",
+        "si": "「〜にもどる」 = ආපහු ~ වෙනවා; 「〜ていく」 = ඈතට යනවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=260.384,267.496",
       "t": [
@@ -3683,7 +4158,8 @@
         "id": "Konon Toba terus menangis di tepi danau.",
         "pt": "Dizem que Toba chorou para sempre à beira do lago.",
         "my": "တိုဘာက ကန်ဘေးမှာ မရပ်မနား ငိုနေခဲ့တယ်လို့ ဆိုကြတယ်။",
-        "th": "ว่ากันว่าโตบานั่งร้องไห้ริมทะเลสาบไม่หยุด"
+        "th": "ว่ากันว่าโตบานั่งร้องไห้ริมทะเลสาบไม่หยุด",
+        "si": "තෝබා, විල ළඟ, හැමදාම, ඇඬුවාලු."
       },
       "vocab": [],
       "grammarNote": {
@@ -3697,7 +4173,8 @@
         "id": "terus; konon.",
         "pt": "para sempre; dizem.",
         "my": "မရပ်မနား; ဆိုကြတယ်။",
-        "th": "ไม่หยุด; ว่ากันว่า"
+        "th": "ไม่หยุด; ว่ากันว่า",
+        "si": "「いつまでも」 = හැමදාම; 「〜そうです」 = එහෙම කියනවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=268.096,272.969",
       "t": [
@@ -3742,7 +4219,8 @@
         "id": "Nah, di Jepang juga ada kisah yang mirip.",
         "pt": "Pois bem, o Japão tem uma história parecida.",
         "my": "ကဲ၊ ဂျပန်မှာလည်း အလားတူ ပုံပြင် ရှိတယ်။",
-        "th": "เอาล่ะ ญี่ปุ่นก็มีเรื่องคล้ายกัน"
+        "th": "เอาล่ะ ญี่ปุ่นก็มีเรื่องคล้ายกัน",
+        "si": "හරි, ජපානයෙත්, හරිම සමාන කතාවක්, තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3756,7 +4234,8 @@
         "id": "nah; mirip.",
         "pt": "pois bem; parecido.",
         "my": "ကဲ; အလားတူ။",
-        "th": "เอาล่ะ; คล้าย"
+        "th": "เอาล่ะ; คล้าย",
+        "si": "さて = හරි; よくにた = හරිම සමාන."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=273.569,277.87",
       "t": [
@@ -3805,7 +4284,8 @@
         "id": "Yang terkenal adalah \"Balas Budi Burung Bangau\".",
         "pt": "O mais famoso é \"A gratidão da garça\".",
         "my": "အထင်ရှားဆုံးက \"ကြိုးကြာ ကျေးဇူးဆပ်\" ပါ။",
-        "th": "ที่มีชื่อเสียงคือ \"นกกระเรียนตอบแทนบุญคุณ\""
+        "th": "ที่มีชื่อเสียงคือ \"นกกระเรียนตอบแทนบุญคุณ\"",
+        "si": "ප්‍රසිද්ධම එක, \"කොකාගේ කෘතගුණය\"."
       },
       "vocab": [],
       "grammarNote": {
@@ -3819,7 +4299,8 @@
         "id": "terkenal; yang.",
         "pt": "famoso; o.",
         "my": "ထင်ရှား; က။",
-        "th": "มีชื่อเสียง; ที่"
+        "th": "มีชื่อเสียง; ที่",
+        "si": "有名 = ප්‍රසිද්ධ; 「〜なのは」 = ~ වෙන එක."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=278.47,281.479",
       "t": [
@@ -3884,7 +4365,8 @@
         "id": "Bangau yang ditolong menjadi wanita dan menjadi istri seorang pria.",
         "pt": "Uma garça salva vira mulher e se casa com um homem.",
         "my": "ကယ်ခံရတဲ့ ကြိုးကြာက အမျိုးသမီးဖြစ်ပြီး ယောကျ်ားတစ်ယောက်ရဲ့ မိန်းမ ဖြစ်တယ်။",
-        "th": "นกกระเรียนที่ถูกช่วยกลายเป็นหญิงสาว แล้วเป็นภรรยาของชายคนหนึ่ง"
+        "th": "นกกระเรียนที่ถูกช่วยกลายเป็นหญิงสาว แล้วเป็นภรรยาของชายคนหนึ่ง",
+        "si": "බේරගත්ත කොකෙක්, කාන්තාවක් වෙලා, මිනිහෙකුගේ බිරිඳ, වෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3898,7 +4380,8 @@
         "id": "yang ditolong.",
         "pt": "salva.",
         "my": "ကယ်ခံရတဲ့။",
-        "th": "ที่ถูกช่วย"
+        "th": "ที่ถูกช่วย",
+        "si": "「助けられた〜」 = බේරගත්ත ~."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=282.079,287.716",
       "t": [
@@ -3939,7 +4422,8 @@
         "id": "Bangau meminta, \"Jangan sekali-kali melihat saat aku menenun.\"",
         "pt": "A garça pede: \"Nunca olhe enquanto eu tecer.\"",
         "my": "ကြိုးကြာက \"ရက်ကန်းရက်နေတုန်း လုံးဝ မကြည့်ပါနဲ့\" လို့ မှာတယ်။",
-        "th": "นกกระเรียนขอว่า \"ห้ามมองตอนฉันทอผ้าเด็ดขาด\""
+        "th": "นกกระเรียนขอว่า \"ห้ามมองตอนฉันทอผ้าเด็ดขาด\"",
+        "si": "කොකා, \"රෙදි වියන වෙලාවේ, කවදාවත්, බලන්න එපා\" කියලා, ඉල්ලනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3953,7 +4437,8 @@
         "id": "menenun; saat.",
         "pt": "tecer; enquanto.",
         "my": "ရက်ကန်းရက်; နေတုန်း။",
-        "th": "ทอผ้า; ตอนที่"
+        "th": "ทอผ้า; ตอนที่",
+        "si": "はたをおる = රෙදි වියනවා; 「〜ているところ」 = ~ කරන වෙලාවේ."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=288.316,294.107",
       "t": [
@@ -4014,7 +4499,8 @@
         "id": "Tapi pria itu mengintip, dan bangau terbang kembali ke langit.",
         "pt": "Mas o homem espia, e a garça volta ao céu.",
         "my": "ဒါပေမဲ့ ယောကျ်ားက ချောင်းကြည့်မိလို့ ကြိုးကြာက ကောင်းကင်ကို ပြန်သွားတယ်။",
-        "th": "แต่ชายคนนั้นแอบมอง นกกระเรียนก็บินกลับฟ้าไป"
+        "th": "แต่ชายคนนั้นแอบมอง นกกระเรียนก็บินกลับฟ้าไป",
+        "si": "ඒත්, මිනිහා, හොරෙන් බලලා, කොකා, අහසට, ආපහු ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4028,7 +4514,8 @@
         "id": "mengintip; dan.",
         "pt": "espiar; e.",
         "my": "ချောင်းကြည့်; မိလို့။",
-        "th": "แอบมอง; แล้ว"
+        "th": "แอบมอง; แล้ว",
+        "si": "のぞく = හොරෙන් බලනවා; 「〜てしまい」 = ~ කරලා දාලා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=294.707,301.297",
       "t": [
@@ -4085,7 +4572,8 @@
         "id": "Jepang juga punya \"Istri Kerang\", kisah kerang yang menjadi istri.",
         "pt": "O Japão tem também \"A esposa-amêijoa\", de uma amêijoa que vira esposa.",
         "my": "ဂျပန်မှာ \"ခရုကြီး ဇနီး\" ဆိုတဲ့ ပုံပြင်လည်း ရှိတယ်။ ခရုက မိန်းမ ဖြစ်လာတဲ့ ပုံပြင်ပါ။",
-        "th": "ญี่ปุ่นยังมีเรื่อง \"ภรรยาหอยตลับ\" เป็นเรื่องหอยที่กลายเป็นภรรยา"
+        "th": "ญี่ปุ่นยังมีเรื่อง \"ภรรยาหอยตลับ\" เป็นเรื่องหอยที่กลายเป็นภรรยา",
+        "si": "ජපානයේ, \"බෙල්ලෙක් වුණු බිරිඳ\" කියලා කතාවකුත් තියෙනවා. බෙල්ලෙක්, බිරිඳක් වෙන කතාවක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -4099,7 +4587,8 @@
         "id": "juga ada kisah; kerang.",
         "pt": "há também; amêijoa.",
         "my": "ပုံပြင်လည်း ရှိ; ခရု။",
-        "th": "ยังมีเรื่อง; หอยตลับ"
+        "th": "ยังมีเรื่อง; หอยตลับ",
+        "si": "「〜という話もある」 = ~ කියලා කතාවකුත් තියෙනවා; はまぐり = බෙල්ලා (සිප්පි වර්ගයක්)."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=301.897,309.364",
       "t": [
@@ -4168,7 +4657,8 @@
         "id": "Dalam setiap kisah, melanggar janji penting berarti kehilangan orang tersayang.",
         "pt": "Em todas, quebrar uma promessa importante faz perder quem se ama.",
         "my": "ဘယ်ပုံပြင်မှာမဆို အရေးကြီးတဲ့ကတိ ဖျက်ရင် ချစ်ရတဲ့သူ ပျောက်သွားတယ်။",
-        "th": "ทุกเรื่อง ถ้าผิดสัญญาสำคัญ คนที่รักก็จะจากไป"
+        "th": "ทุกเรื่อง ถ้าผิดสัญญาสำคัญ คนที่รักก็จะจากไป",
+        "si": "හැම කතාවකම, වැදගත් පොරොන්දුවක් කැඩුවොත්, ආදරණීය කෙනා, නැති වෙලා යනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4182,7 +4672,8 @@
         "id": "jika; kehilangan.",
         "pt": "se; perder.",
         "my": "ရင်; သွား။",
-        "th": "ถ้า; จะ"
+        "th": "ถ้า; จะ",
+        "si": "「〜と、〜てしまいます」 = ~ කළොත්, (අවාසනාවට) ~ වෙනවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=309.964,317.597",
       "t": [
@@ -4223,7 +4714,8 @@
         "id": "Di Jepang, ini kadang disebut \"tabu jangan melihat\".",
         "pt": "No Japão, às vezes se chama isso de \"tabu do não olhe\".",
         "my": "ဂျပန်မှာ ဒါကို \"မကြည့်ရ တားမြစ်ချက်\" လို့ တခါတလေ ခေါ်တယ်။",
-        "th": "ในญี่ปุ่น บางครั้งเรียกสิ่งนี้ว่า \"ข้อห้ามอย่ามอง\""
+        "th": "ในญี่ปุ่น บางครั้งเรียกสิ่งนี้ว่า \"ข้อห้ามอย่ามอง\"",
+        "si": "ජපානයේ, මේකට, \"බලන්න එපා කියන තහනම\" කියලා, කියන වෙලාවල් තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4237,7 +4729,8 @@
         "id": "kadang disebut.",
         "pt": "às vezes chamado.",
         "my": "တခါတလေ ခေါ်။",
-        "th": "บางครั้งเรียกว่า"
+        "th": "บางครั้งเรียกว่า",
+        "si": "「〜とよぶことがある」 = සමහර විට ~ කියලා කියනවා."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=318.197,323.289",
       "t": [
@@ -4298,7 +4791,8 @@
         "id": "Di Indonesia maupun Jepang, menepati janji itu sangat penting, ya.",
         "pt": "Na Indonésia ou no Japão, cumprir promessas é muito importante, não é?",
         "my": "အင်ဒိုနီးရှားမှာရော ဂျပန်မှာရော ကတိတည်တာ အရမ်း အရေးကြီးတယ်နော်။",
-        "th": "ทั้งอินโดนีเซียและญี่ปุ่น การรักษาสัญญาสำคัญมากนะ"
+        "th": "ทั้งอินโดนีเซียและญี่ปุ่น การรักษาสัญญาสำคัญมากนะ",
+        "si": "ඉන්දුනීසියාවේත්, ජපානයේත්, පොරොන්දු රකින එක, හරිම වැදගත් නේද."
       },
       "vocab": [
         {
@@ -4315,7 +4809,8 @@
             "id": "melindungi",
             "pt": "proteger",
             "my": "ကာကွယ်သည်",
-            "th": "ปกป้อง"
+            "th": "ปกป้อง",
+            "si": "ආරක්ෂා කිරීම"
           },
           "level": "N3"
         }
@@ -4331,7 +4826,8 @@
         "id": "menepati; penting.",
         "pt": "cumprir; importante.",
         "my": "ကတိတည်; အရေးကြီး။",
-        "th": "รักษาสัญญา; สำคัญ"
+        "th": "รักษาสัญญา; สำคัญ",
+        "si": "「約束を守る」 = පොරොන්දුව රකිනවා; 「〜ことは大切」 = ~ කරන එක වැදගත්."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=323.889,330.362",
       "t": [
@@ -4416,7 +4912,8 @@
         "id": "Kalau ke Danau Toba, ingatlah kisah ini sambil memandang danau.",
         "pt": "Se for ao lago Toba, lembre-se desta história olhando o lago.",
         "my": "တိုဘာကန် ရောက်ရင် ကန်ကို ကြည့်ရင်း ဒီပုံပြင်ကို သတိရပါ။",
-        "th": "ถ้าไปทะเลสาบโตบา ลองมองทะเลสาบแล้วนึกถึงเรื่องนี้นะ"
+        "th": "ถ้าไปทะเลสาบโตบา ลองมองทะเลสาบแล้วนึกถึงเรื่องนี้นะ",
+        "si": "තෝබා විලට ගියොත්, විල දිහා බලාගෙන, මේ කතාව, මතක් කරගන්න."
       },
       "vocab": [
         {
@@ -4433,7 +4930,8 @@
             "id": "teringat",
             "pt": "lembrar",
             "my": "သတိရ",
-            "th": "นึกถึง"
+            "th": "นึกถึง",
+            "si": "මතක් වීම"
           },
           "level": "N4"
         }
@@ -4449,7 +4947,8 @@
         "id": "kalau; sambil.",
         "pt": "se; olhando.",
         "my": "ရင်; ရင်း။",
-        "th": "ถ้า; ขณะ"
+        "th": "ถ้า; ขณะ",
+        "si": "「〜たら」 = ~ ගියොත්; 「〜ながら」 = ~ කරමින්."
       },
       "audio": "/audio/furusato-id-toba-1/chapter.mp3#t=330.962,336.74",
       "t": [

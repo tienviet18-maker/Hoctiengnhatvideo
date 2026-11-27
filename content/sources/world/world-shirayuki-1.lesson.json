@@ -1,0 +1,50 @@
+{
+ "grammarPoints": [
+  {
+   "pattern": "〜のように",
+   "example": 3,
+   "meaning": { "vi": "giống như ~ (so sánh)", "en": "like ~, as ~ as (comparison)", "zh-Hans": "像……一样", "ko": "~처럼", "tl": "gaya ng ~, kasing-~", "ne": "~ जस्तै", "id": "seperti ~", "pt": "como ~", "my": "~ လို", "th": "เหมือน ~, ดั่ง ~" }
+  },
+  {
+   "pattern": "〜ながら",
+   "example": 24,
+   "meaning": { "vi": "vừa ~ vừa (hai việc cùng lúc)", "en": "while ~ing (two actions at once)", "zh-Hans": "一边……一边……", "ko": "~하면서", "tl": "habang ~", "ne": "~ दै (एकैसाथ दुई काम)", "id": "sambil ~", "pt": "enquanto ~ (duas ações ao mesmo tempo)", "my": "~ ရင်း", "th": "พลาง ~ (ทำสองอย่างพร้อมกัน)" }
+  },
+  {
+   "pattern": "なんて〜だろう",
+   "example": 37,
+   "meaning": { "vi": "~ biết bao! (cảm thán)", "en": "how ~! (exclamation)", "zh-Hans": "多么……啊！（感叹）", "ko": "얼마나 ~한가! (감탄)", "tl": "napaka-~! (paghanga)", "ne": "कति ~! (आश्चर्य)", "id": "betapa ~! (seruan)", "pt": "que ~! (exclamação)", "my": "ဘယ်လောက် ~ လိုက်သလဲ! (အံ့ဩ)", "th": "ช่าง ~ เสียจริง! (อุทาน)" }
+  },
+  {
+   "pattern": "〜てはいけない",
+   "example": 45,
+   "meaning": { "vi": "không được ~ (cấm)", "en": "must not ~ (prohibition)", "zh-Hans": "不可以……（禁止）", "ko": "~하면 안 된다 (금지)", "tl": "bawal ~", "ne": "~ हुँदैन (निषेध)", "id": "tidak boleh ~ (larangan)", "pt": "não se pode ~ (proibição)", "my": "~ မရ (တားမြစ်)", "th": "ห้าม ~" }
+  }
+ ],
+ "quiz": [
+  {
+   "ja": "お妃様は、毎日だれに質問しましたか。",
+   "choices": ["王様", "猟師", "ふしぎな鏡", "小人"],
+   "answer": 2,
+   "explain": { "vi": "Bà hỏi chiếc gương thần.", "en": "She asked the magic mirror.", "zh-Hans": "她问魔镜。", "ko": "신기한 거울에게 물었다.", "tl": "Nagtanong siya sa mahiwagang salamin.", "ne": "उनले जादुई ऐनालाई सोध्थिन्।", "id": "Ia bertanya pada cermin ajaib.", "pt": "Ela perguntava ao espelho mágico.", "my": "မှော်မှန်ကို မေးတယ်။", "th": "นางถามกระจกวิเศษ" }
+  },
+  {
+   "ja": "猟師は、白雪姫に何と言いましたか。",
+   "choices": ["「お城に帰りなさい」", "「逃げてください」", "「ここで待っていて」", "「鏡を見て」"],
+   "answer": 1,
+   "explain": { "vi": "Ông bảo cô chạy trốn thật xa.", "en": "He told her to run far away.", "zh-Hans": "他让她逃得远远的。", "ko": "멀리 도망치라고 했다.", "tl": "Sinabihan niya itong tumakas nang malayo.", "ne": "टाढा भाग्न भने।", "id": "Ia menyuruhnya lari jauh.", "pt": "Disse para ela fugir para longe.", "my": "ဝေးဝေး ထွက်ပြေးဖို့ ပြောတယ်။", "th": "เขาบอกให้เธอหนีไปไกลๆ" }
+  },
+  {
+   "ja": "小人の家には、ベッドがいくつありましたか。",
+   "choices": ["三つ", "五つ", "七つ", "十"],
+   "answer": 2,
+   "explain": { "vi": "Có bảy chiếc giường nhỏ.", "en": "There were seven little beds.", "zh-Hans": "有七张小床。", "ko": "작은 침대가 일곱 개 있었다.", "tl": "May pitong maliit na kama.", "ne": "सातवटा साना खाट थिए।", "id": "Ada tujuh tempat tidur kecil.", "pt": "Havia sete caminhas.", "my": "ကုတင်သေးသေး ခုနစ်လုံး ရှိတယ်။", "th": "มีเตียงเล็กเจ็ดเตียง" }
+  },
+  {
+   "ja": "小人たちは、白雪姫に何をしてはいけないと言いましたか。",
+   "choices": ["ドアを開けること", "パンを食べること", "歌を歌うこと", "森を歩くこと"],
+   "answer": 0,
+   "explain": { "vi": "Không được mở cửa cho bất kỳ ai.", "en": "She must not open the door to anyone.", "zh-Hans": "不管谁来都不能开门。", "ko": "누가 와도 문을 열면 안 된다.", "tl": "Bawal buksan ang pinto kaninuman.", "ne": "कसैलाई ढोका खोल्नु हुँदैन।", "id": "Tidak boleh membuka pintu untuk siapa pun.", "pt": "Não podia abrir a porta a ninguém.", "my": "ဘယ်သူ့ကိုမှ တံခါးမဖွင့်ရဘူး။", "th": "ห้ามเปิดประตูให้ใคร" }
+  }
+ ]
+}

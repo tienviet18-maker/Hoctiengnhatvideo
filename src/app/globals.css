@@ -94,7 +94,7 @@ ruby rt { font-size: 0.52em; color: var(--navy); font-weight: 400; letter-spacin
 .drive-back { color: #eef3fa; display: flex; padding: 6px; margin-left: -6px; }
 .drive-title { font-size: 21px; font-weight: 800; line-height: 1.35; text-align: center; margin-top: 26px; letter-spacing: -.01em; }
 .drive-count { font-size: 13px; color: #9db2cc; margin-top: 8px; font-weight: 600; }
-.drive-sentence { font-size: 24px; line-height: 1.6; text-align: center; margin-top: 30px; min-height: 120px; display: flex; align-items: center; }
+.drive-sentence { font-size: 24px; line-height: 2; text-align: center; margin-top: 30px; min-height: 120px; display: flex; align-items: center; }
 .drive-progress { width: 100%; margin-top: 10px; background: var(--stage-border); }
 .drive-controls { display: flex; align-items: center; gap: 26px; margin-top: 34px; }
 .drive-btn { border: none; cursor: pointer; color: #fff; display: flex; align-items: center; justify-content: center; border-radius: 50%; font-family: inherit; }
@@ -110,3 +110,17 @@ ruby rt { font-size: 0.52em; color: var(--navy); font-weight: 400; letter-spacin
 @keyframes spin { to { transform: rotate(360deg); } }
 .spinner { animation: spin 0.9s linear infinite; }
 @media (prefers-reduced-motion: reduce) { .spinner { animation: none; } }
+
+/* Nút mở VIP (vàng) — dùng ở phần đọc thử truyện VIP và bài học khoá */
+.btn-vip {
+  height: 44px;
+  padding: 0 22px;
+  border-radius: 10px;
+  border: 0;
+  background: #f5c542;
+  color: #14213d;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: inherit;
+}

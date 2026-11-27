@@ -12,7 +12,8 @@
     "id": "Legenda Tiang Bambu Tết",
     "pt": "A lenda do bambu do Tết",
     "my": "တက်ပွဲ ဝါးတိုင် ဒဏ္ဍာရီ",
-    "th": "ตำนานเสาไม้ไผ่วันเต๊ด"
+    "th": "ตำนานเสาไม้ไผ่วันเต๊ด",
+    "si": "ටෙට් එකට වියට්නාම මිනිස්සු උණ කණුවක් හිටවන්නේ ඇයි"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -42,7 +43,8 @@
           "id": "meskipun ~",
           "pt": "mesmo que ~",
           "my": "~ ပေမဲ့",
-          "th": "แม้ว่า ~"
+          "th": "แม้ว่า ~",
+          "si": "~ කළත්, ~ වුණත්"
         }
       },
       {
@@ -59,7 +61,8 @@
           "id": "maukah kamu ~ untukku?",
           "pt": "você poderia ~ para mim?",
           "my": "~ ပေးမလား",
-          "th": "ช่วย ~ ได้ไหม"
+          "th": "ช่วย ~ ได้ไหม",
+          "si": "මට ~ කරලා දෙන්න පුළුවන්ද? (ආචාරශීලී ඉල්ලීම)"
         }
       },
       {
@@ -76,7 +79,8 @@
           "id": "~ lalu ~",
           "pt": "~ e depois ~",
           "my": "~ ပြီး ~",
-          "th": "~ แล้ว ~"
+          "th": "~ แล้ว ~",
+          "si": "~ කරලා, ඊට පස්සේ ~ (පිළිවෙළ)"
         }
       },
       {
@@ -93,7 +97,8 @@
           "id": "berusaha agar tidak ~",
           "pt": "fazer com que não ~",
           "my": "~ မဖြစ်အောင် လုပ်",
-          "th": "ทำไม่ให้ ~"
+          "th": "ทำไม่ให้ ~",
+          "si": "~ නොවෙන්න බලාගන්නවා"
         }
       }
     ],
@@ -118,8 +123,81 @@
           "id": "Talas.",
           "pt": "Inhame.",
           "my": "ပိန်းဥ။",
-          "th": "เผือก"
-        }
+          "th": "เผือก",
+          "si": "කොස් අල (ටාරෝ)."
+        },
+        "jaFurigana": [
+          {
+            "surface": "一年",
+            "reading": "いちねん"
+          },
+          {
+            "surface": "目",
+            "reading": "め"
+          },
+          {
+            "surface": "に、",
+            "reading": ""
+          },
+          {
+            "surface": "仏",
+            "reading": "ほとけ"
+          },
+          {
+            "surface": "さまは、",
+            "reading": ""
+          },
+          {
+            "surface": "人",
+            "reading": "ひと"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "植",
+            "reading": "う"
+          },
+          {
+            "surface": "えさせましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "イモ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "米",
+              "reading": "こめ"
+            }
+          ],
+          [
+            {
+              "surface": "トウモロコシ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "竹",
+              "reading": "たけ"
+            }
+          ]
+        ]
       },
       {
         "ja": "仏さまは、どのくらいの土地を、売ってほしいと言いましたか。",
@@ -141,8 +219,121 @@
           "id": "Seluas bayangan jubah di ujung bambu.",
           "pt": "Do tamanho da sombra do manto.",
           "my": "ဝါးထိပ်က အဝတ်ရိပ်လောက်။",
-          "th": "เท่าเงาจีวรบนยอดไม้ไผ่"
-        }
+          "th": "เท่าเงาจีวรบนยอดไม้ไผ่",
+          "si": "උණ කණුවේ එල්ලපු සිවුරේ සෙවණැල්ලේ තරම."
+        },
+        "jaFurigana": [
+          {
+            "surface": "仏",
+            "reading": "ほとけ"
+          },
+          {
+            "surface": "さまは、どのくらいの",
+            "reading": ""
+          },
+          {
+            "surface": "土地",
+            "reading": "とち"
+          },
+          {
+            "surface": "を、",
+            "reading": ""
+          },
+          {
+            "surface": "売",
+            "reading": "う"
+          },
+          {
+            "surface": "ってほしいと",
+            "reading": ""
+          },
+          {
+            "surface": "言",
+            "reading": "い"
+          },
+          {
+            "surface": "いましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "竹",
+              "reading": "たけ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "先",
+              "reading": "さき"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "服",
+              "reading": "ふく"
+            },
+            {
+              "surface": "の、かげの",
+              "reading": ""
+            },
+            {
+              "surface": "大",
+              "reading": "おお"
+            },
+            {
+              "surface": "きさ",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "村",
+              "reading": "むら"
+            },
+            {
+              "surface": "ひとつ",
+              "reading": ""
+            },
+            {
+              "surface": "分",
+              "reading": "ぶん"
+            }
+          ],
+          [
+            {
+              "surface": "家",
+              "reading": "いえ"
+            },
+            {
+              "surface": "ひとつ",
+              "reading": ""
+            },
+            {
+              "surface": "分",
+              "reading": "ぶん"
+            }
+          ],
+          [
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "ひとつ",
+              "reading": ""
+            },
+            {
+              "surface": "分",
+              "reading": "ぶん"
+            }
+          ]
+        ]
       },
       {
         "ja": "鬼たちは、一年に一度、何をしたいと、おねがいしましたか。",
@@ -164,8 +355,109 @@
           "id": "Mengunjungi makam leluhur.",
           "pt": "Visitar o túmulo dos antepassados.",
           "my": "ဘိုးဘွား အုတ်ဂူ သွားဖို့။",
-          "th": "ไปเยี่ยมหลุมศพบรรพบุรุษ"
-        }
+          "th": "ไปเยี่ยมหลุมศพบรรพบุรุษ",
+          "si": "මුතුන්මිත්තන්ගේ සොහොන්වලට යන්න."
+        },
+        "jaFurigana": [
+          {
+            "surface": "鬼",
+            "reading": "おに"
+          },
+          {
+            "surface": "たちは、",
+            "reading": ""
+          },
+          {
+            "surface": "一年",
+            "reading": "いちねん"
+          },
+          {
+            "surface": "に",
+            "reading": ""
+          },
+          {
+            "surface": "一度",
+            "reading": "いちど"
+          },
+          {
+            "surface": "、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をしたいと、おねがいしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "先祖",
+              "reading": "せんぞ"
+            },
+            {
+              "surface": "のおはかに",
+              "reading": ""
+            },
+            {
+              "surface": "行",
+              "reading": "い"
+            },
+            {
+              "surface": "くこと",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "土地",
+              "reading": "とち"
+            },
+            {
+              "surface": "をかりること",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "米",
+              "reading": "こめ"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "食",
+              "reading": "た"
+            },
+            {
+              "surface": "べること",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "竹",
+              "reading": "たけ"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "立",
+              "reading": "た"
+            },
+            {
+              "surface": "てること",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "日本の門松は、何のための目じるしですか。",
@@ -187,8 +479,117 @@
           "id": "Agar dewa Tahun Baru datang ke rumah.",
           "pt": "Para o deus do Ano-Novo achar a casa.",
           "my": "နှစ်သစ်နတ် အိမ်ရောက်ဖို့။",
-          "th": "เพื่อให้เทพปีใหม่มาถึงบ้าน"
-        }
+          "th": "เพื่อให้เทพปีใหม่มาถึงบ้าน",
+          "si": "අලුත් අවුරුදු දෙවියන්ට ගෙදර හොයාගන්න."
+        },
+        "jaFurigana": [
+          {
+            "surface": "日本",
+            "reading": "にほん"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "門松",
+            "reading": "かどまつ"
+          },
+          {
+            "surface": "は、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "のための",
+            "reading": ""
+          },
+          {
+            "surface": "目",
+            "reading": "め"
+          },
+          {
+            "surface": "じるしですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "年神",
+              "reading": "としがみ"
+            },
+            {
+              "surface": "さまが、",
+              "reading": ""
+            },
+            {
+              "surface": "家",
+              "reading": "いえ"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "来",
+              "reading": "く"
+            },
+            {
+              "surface": "るため",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "鬼",
+              "reading": "おに"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "遠",
+              "reading": "とお"
+            },
+            {
+              "surface": "ざけるため",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "豆",
+              "reading": "まめ"
+            },
+            {
+              "surface": "をまくため",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "土地",
+              "reading": "とち"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "売",
+              "reading": "う"
+            },
+            {
+              "surface": "るため",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },
@@ -277,7 +678,8 @@
         "id": "Di Vietnam, sebelum Tết, ada desa yang mendirikan bambu panjang di depan rumah.",
         "pt": "No Vietnã, antes do Tết, há aldeias que erguem um bambu comprido diante das casas.",
         "my": "ဗီယက်နမ်မှာ တက်မတိုင်ခင် အိမ်ရှေ့မှာ ဝါးရှည်ကြီး စိုက်ထူတဲ့ ရွာတွေ ရှိတယ်။",
-        "th": "ที่เวียดนาม ก่อนเต๊ด มีหมู่บ้านที่ปักไม้ไผ่ยาวไว้หน้าบ้าน"
+        "th": "ที่เวียดนาม ก่อนเต๊ด มีหมู่บ้านที่ปักไม้ไผ่ยาวไว้หน้าบ้าน",
+        "si": "වියට්නාමයේ අලුත් අවුරුද්ද, ටෙට් එකට කලින්, ගෙවල් ඉස්සරහ, දිග උණ කණුවක් හිටවන ගම් තියෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -291,7 +693,8 @@
         "id": "bambu; mendirikan.",
         "pt": "bambu; erguer.",
         "my": "ဝါး; စိုက်ထူ။",
-        "th": "ไม้ไผ่; ปัก"
+        "th": "ไม้ไผ่; ปัก",
+        "si": "竹 = උණ; 立てる = හිටවනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=0.3,7.585",
       "t": [
@@ -356,7 +759,8 @@
         "id": "Di atasnya dipasang kain merah dan lonceng kecil.",
         "pt": "No alto, prendem pano vermelho e sininhos.",
         "my": "ဝါးထိပ်မှာ အနီရောင်အဝတ်နဲ့ ခေါင်းလောင်းလေးတွေ ချိတ်တယ်။",
-        "th": "บนยอดไม้ไผ่ ผูกผ้าแดงและกระดิ่งเล็ก ๆ"
+        "th": "บนยอดไม้ไผ่ ผูกผ้าแดงและกระดิ่งเล็ก ๆ",
+        "si": "උණ කණුවේ උඩට, රතු රෙදි කෑලි, පොඩි සීනු, බඳිනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -370,7 +774,8 @@
         "id": "kain; lonceng.",
         "pt": "pano; sino.",
         "my": "အဝတ်; ခေါင်းလောင်း။",
-        "th": "ผ้า; กระดิ่ง"
+        "th": "ผ้า; กระดิ่ง",
+        "si": "布 = රෙද්ද; すず = පොඩි සීනුව."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=8.185,12.82",
       "t": [
@@ -407,7 +812,8 @@
         "id": "Bambu ini disebut \"cây nêu\".",
         "pt": "Esse bambu se chama \"cây nêu\".",
         "my": "ဒီဝါးကို \"ကိုင်နေး\" လို့ ခေါ်တယ်။",
-        "th": "ไม้ไผ่นี้เรียกว่า \"ไก๋เนว\""
+        "th": "ไม้ไผ่นี้เรียกว่า \"ไก๋เนว\"",
+        "si": "මේ උණ කණුවට, \"කයි නේඋ\" කියලා කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -421,7 +827,8 @@
         "id": "disebut.",
         "pt": "chama-se.",
         "my": "လို့ ခေါ်တယ်။",
-        "th": "เรียกว่า"
+        "th": "เรียกว่า",
+        "si": "「〜といいます」 = ~ කියලා කියනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=13.42,16.014",
       "t": [
@@ -490,7 +897,8 @@
         "id": "Mengapa mendirikan bambu? Itu berkaitan dengan kisah iblis.",
         "pt": "Por que erguem o bambu? Tem a ver com uma história de demônios.",
         "my": "ဘာလို့ ဝါးစိုက်ထူတာလဲ။ အဲဒါ ဘီလူးပုံပြင်နဲ့ ဆက်စပ်တယ်။",
-        "th": "ทำไมถึงปักไม้ไผ่ เรื่องนี้เกี่ยวกับนิทานเรื่องผีปีศาจ"
+        "th": "ทำไมถึงปักไม้ไผ่ เรื่องนี้เกี่ยวกับนิทานเรื่องผีปีศาจ",
+        "si": "ඇයි, උණ කණුවක් හිටවන්නේ? ඒක, යක්ෂයන්ගේ කතාවක් එක්ක, සම්බන්ධයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -504,7 +912,8 @@
         "id": "iblis; berkaitan.",
         "pt": "demônio; ter a ver.",
         "my": "ဘီလူး; ဆက်စပ်။",
-        "th": "ปีศาจ; เกี่ยวกับ"
+        "th": "ปีศาจ; เกี่ยวกับ",
+        "si": "鬼 = යක්ෂයා (ඔනි); 「〜と関係がある」 = ~ එක්ක සම්බන්ධයි."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=16.614,23.39",
       "t": [
@@ -557,7 +966,8 @@
         "id": "Dahulu kala, seluruh tanah negeri ini milik para iblis.",
         "pt": "Há muito, muito tempo, toda a terra deste país pertencia aos demônios.",
         "my": "ရှေးရှေးတုန်းက ဒီနိုင်ငံရဲ့ မြေအားလုံးဟာ ဘီလူးတွေရဲ့ ပိုင်ဆိုင်မှုပါ။",
-        "th": "นานมาแล้ว ดินแดนทั้งหมดของประเทศนี้เป็นของปีศาจ"
+        "th": "นานมาแล้ว ดินแดนทั้งหมดของประเทศนี้เป็นของปีศาจ",
+        "si": "ගොඩක් ගොඩක් ඉස්සර, මේ රටේ භූමිය, ඔක්කොම, යක්ෂයන්ගේ."
       },
       "vocab": [],
       "grammarNote": {
@@ -571,7 +981,8 @@
         "id": "milik; tanah.",
         "pt": "pertencer; terra.",
         "my": "ပိုင်; မြေ။",
-        "th": "ของ; ดินแดน"
+        "th": "ของ; ดินแดน",
+        "si": "「〜のもの」 = ~ ගේ අයිතිය; 土地 = භූමිය."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=23.99,29.367",
       "t": [
@@ -644,7 +1055,8 @@
         "id": "Manusia menyewa tanah dari iblis untuk menanam padi dan sayur.",
         "pt": "As pessoas alugavam terra dos demônios para plantar arroz e verduras.",
         "my": "လူတွေက ဘီလူးဆီက မြေငှားပြီး ဆန်နဲ့ ဟင်းသီးဟင်းရွက် စိုက်ကြတယ်။",
-        "th": "ผู้คนเช่าที่ดินจากปีศาจเพื่อปลูกข้าวและผัก"
+        "th": "ผู้คนเช่าที่ดินจากปีศาจเพื่อปลูกข้าวและผัก",
+        "si": "මිනිස්සු, යක්ෂයන්ගෙන්, ඉඩම් කුලියට අරන්, වී සහ එළවළු වැව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -658,7 +1070,8 @@
         "id": "menyewa.",
         "pt": "alugar.",
         "my": "ငှား။",
-        "th": "เช่า"
+        "th": "เช่า",
+        "si": "かりる = කුලියට ගන්නවා, ණයට ගන්නවා; 「〜から」 = ~ ගෙන්."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=29.967,35.604",
       "t": [
@@ -695,7 +1108,8 @@
         "id": "Tapi iblis-iblis itu sangat serakah.",
         "pt": "Mas os demônios eram muito gananciosos.",
         "my": "ဒါပေမဲ့ ဘီလူးတွေက အရမ်း လောဘကြီးတယ်။",
-        "th": "แต่ปีศาจโลภมาก"
+        "th": "แต่ปีศาจโลภมาก",
+        "si": "ඒත්, යක්ෂයෝ, හරිම, ලෝභයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -709,7 +1123,8 @@
         "id": "serakah.",
         "pt": "ganancioso.",
         "my": "လောဘကြီး။",
-        "th": "โลภ"
+        "th": "โลภ",
+        "si": "よくばり = ලෝභ."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=36.204,39.813",
       "t": [
@@ -738,7 +1153,8 @@
         "id": "\"Hampir semua hasilnya untuk kami.\"",
         "pt": "\"Quase tudo o que der, nós levamos.\"",
         "my": "\"ထွက်သမျှ အကုန်နီးပါး ငါတို့ ယူမယ်။\"",
-        "th": "\"ผลผลิตเกือบทั้งหมด พวกข้าเอา\""
+        "th": "\"ผลผลิตเกือบทั้งหมด พวกข้าเอา\"",
+        "si": "\"හැදෙන දේවල්, වැඩි හරියක්ම, අපි ගන්නවා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -752,7 +1168,8 @@
         "id": "hampir; kami.",
         "pt": "quase; nós.",
         "my": "အကုန်နီးပါး; ငါတို့။",
-        "th": "เกือบ; พวกข้า"
+        "th": "เกือบ; พวกข้า",
+        "si": "ほとんど = වැඩි හරියක්ම; おれたち = අපි (රළු, පිරිමි)."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=40.713,43.95",
       "t": [
@@ -809,7 +1226,8 @@
         "id": "Meski bekerja sepanjang tahun, mereka hanya bisa makan sedikit.",
         "pt": "Mesmo trabalhando o ano todo, só podiam comer um pouco.",
         "my": "တစ်နှစ်ပတ်လုံး အလုပ်လုပ်ပေမဲ့ နည်းနည်းပဲ စားရတယ်။",
-        "th": "แม้ทำงานตลอดปี ก็ได้กินแค่นิดเดียว"
+        "th": "แม้ทำงานตลอดปี ก็ได้กินแค่นิดเดียว",
+        "si": "මිනිස්සු, අවුරුද්ද පුරාම, වැඩ කළත්, කන්න ලැබුණේ ටිකයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -823,7 +1241,8 @@
         "id": "meski; hanya.",
         "pt": "mesmo; só.",
         "my": "ပေမဲ့; ပဲ။",
-        "th": "แม้; แค่"
+        "th": "แม้; แค่",
+        "si": "「〜ても」 = ~ කළත්; 「〜しか〜ない」 = ~ විතරයි."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=44.85,50.309",
       "t": [
@@ -856,7 +1275,8 @@
         "id": "Anak-anak selalu kelaparan.",
         "pt": "As crianças viviam com fome.",
         "my": "ကလေးတွေ အမြဲ ဗိုက်ဆာနေတယ်။",
-        "th": "เด็ก ๆ หิวอยู่เสมอ"
+        "th": "เด็ก ๆ หิวอยู่เสมอ",
+        "si": "ළමයි, හැමවෙලේම, බඩගින්නේ හිටියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -870,7 +1290,8 @@
         "id": "lapar.",
         "pt": "ter fome.",
         "my": "ဗိုက်ဆာ။",
-        "th": "หิว"
+        "th": "หิว",
+        "si": "おなかをすかせる = බඩගින්නේ ඉන්නවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=50.909,54.845",
       "t": [
@@ -931,7 +1352,8 @@
         "id": "Suatu hari, Buddha melihat orang-orang yang kesusahan.",
         "pt": "Um dia, o Buda viu as pessoas sofrendo.",
         "my": "တစ်နေ့ ဘုရားက ဒုက္ခရောက်နေတဲ့ လူတွေကို မြင်တယ်။",
-        "th": "วันหนึ่ง พระพุทธเจ้าเห็นผู้คนที่ลำบาก"
+        "th": "วันหนึ่ง พระพุทธเจ้าเห็นผู้คนที่ลำบาก",
+        "si": "දවසක්, බුදුරජාණන් වහන්සේ, දුක් විඳින මිනිස්සු, දැක්කා."
       },
       "vocab": [],
       "grammarNote": {
@@ -945,7 +1367,8 @@
         "id": "Buddha; kesusahan.",
         "pt": "Buda; sofrer.",
         "my": "ဘုရား; ဒုက္ခ။",
-        "th": "พระพุทธเจ้า; ลำบาก"
+        "th": "พระพุทธเจ้า; ลำบาก",
+        "si": "仏さま = බුදුරජාණන් වහන්සේ; こまる = අමාරුවේ ඉන්නවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=55.445,60.441",
       "t": [
@@ -982,7 +1405,8 @@
         "id": "\"Kasihan. Aku akan menolong kalian.\"",
         "pt": "\"Coitados. Eu vou ajudar vocês.\"",
         "my": "\"သနားစရာ။ ငါ ကူညီမယ်။\"",
-        "th": "\"น่าสงสาร เราจะช่วยเอง\""
+        "th": "\"น่าสงสาร เราจะช่วยเอง\"",
+        "si": "\"අනේ අහිංසකයෝ. මං, උදව් කරන්නම්.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -996,7 +1420,8 @@
         "id": "akan membantu.",
         "pt": "vou ajudar.",
         "my": "...ပေးမယ်။",
-        "th": "จะ...ให้"
+        "th": "จะ...ให้",
+        "si": "「〜てあげよう」 = මං ඔයාලට ~ කරන්නම්."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=61.341,64.905",
       "t": [
@@ -1045,7 +1470,8 @@
         "id": "Buddha berkata kepada orang-orang.",
         "pt": "O Buda disse às pessoas.",
         "my": "ဘုရားက လူတွေကို ပြောတယ်။",
-        "th": "พระพุทธเจ้าบอกผู้คนว่า"
+        "th": "พระพุทธเจ้าบอกผู้คนว่า",
+        "si": "බුදුරජාණන් වහන්සේ, මිනිස්සුන්ට, මෙහෙම වදාළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1059,7 +1485,8 @@
         "id": "berkata kepada.",
         "pt": "dizer a.",
         "my": "ကို ပြော။",
-        "th": "บอก"
+        "th": "บอก",
+        "si": "「〜に言う」 = ~ ට කියනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=65.805,68.821",
       "t": [
@@ -1128,7 +1555,8 @@
         "id": "\"Tahun ini, tanyakan pada iblis mau bagian atas atau bawah.\"",
         "pt": "\"Este ano, perguntem aos demônios se querem a parte de cima ou a de baixo.\"",
         "my": "\"ဒီနှစ် ဘီလူးကို အပေါ်ပိုင်း လိုချင်လား အောက်ပိုင်း လိုချင်လား မေး။\"",
-        "th": "\"ปีนี้ ให้ถามปีศาจว่าจะเอาส่วนบนหรือส่วนล่าง\""
+        "th": "\"ปีนี้ ให้ถามปีศาจว่าจะเอาส่วนบนหรือส่วนล่าง\"",
+        "si": "\"මේ අවුරුද්දේ, යක්ෂයන්ගෙන්, උඩ කොටසද යට කොටසද, ඕනේ කියලා අහන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1142,7 +1570,8 @@
         "id": "mana; perintah.",
         "pt": "qual; ordem.",
         "my": "ဘယ်ဟာ; အမိန့်။",
-        "th": "อันไหน; คำสั่ง"
+        "th": "อันไหน; คำสั่ง",
+        "si": "「AとB、どちら〜か」 = A ද B ද කියලා; 「〜なさい」 = අණ."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=69.721,75.391",
       "t": [
@@ -1191,7 +1620,8 @@
         "id": "Ketika ditanya, iblis menjawab.",
         "pt": "Quando perguntaram, os demônios responderam.",
         "my": "လူတွေ မေးတော့ ဘီလူးက ဖြေတယ်။",
-        "th": "พอถาม ปีศาจก็ตอบ"
+        "th": "พอถาม ปีศาจก็ตอบ",
+        "si": "මිනිස්සු ඇහුවාම, යක්ෂයෝ, උත්තර දුන්නා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1205,7 +1635,8 @@
         "id": "ketika; menjawab.",
         "pt": "quando; responder.",
         "my": "တော့; ဖြေ။",
-        "th": "พอ; ตอบ"
+        "th": "พอ; ตอบ",
+        "si": "「〜と」 = ~ කළාම; こたえる = උත්තර දෙනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=76.291,79.254",
       "t": [
@@ -1242,7 +1673,8 @@
         "id": "\"Kami mau bagian atas.\"",
         "pt": "\"Queremos a parte de cima.\"",
         "my": "\"ငါတို့ အပေါ်ပိုင်း လိုချင်တယ်။\"",
-        "th": "\"พวกข้าเอาส่วนบน\""
+        "th": "\"พวกข้าเอาส่วนบน\"",
+        "si": "\"අපිට, උඩ කොටස ඕනේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1256,7 +1688,8 @@
         "id": "mau.",
         "pt": "querer.",
         "my": "လိုချင်။",
-        "th": "อยากได้"
+        "th": "อยากได้",
+        "si": "「〜がほしい」 = ~ ඕනේ."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=80.154,82.2",
       "t": [
@@ -1309,7 +1742,8 @@
         "id": "Maka Buddha menyuruh orang menanam talas.",
         "pt": "Então o Buda mandou plantar inhame.",
         "my": "ဒါကြောင့် ဘုရားက လူတွေကို ပိန်းဥ စိုက်ခိုင်းတယ်။",
-        "th": "พระพุทธเจ้าจึงให้ผู้คนปลูกเผือก"
+        "th": "พระพุทธเจ้าจึงให้ผู้คนปลูกเผือก",
+        "si": "ඉතින්, බුදුරජාණන් වහන්සේ, මිනිස්සුන්ට, කොස් අල (ටාරෝ) හිටෙව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1323,7 +1757,8 @@
         "id": "menyuruh; talas.",
         "pt": "mandar; inhame.",
         "my": "ခိုင်း; ပိန်းဥ။",
-        "th": "ให้; เผือก"
+        "th": "ให้; เผือก",
+        "si": "「〜させる」 = කෙනෙක් ලවා ~ කරවනවා; イモ = අල, කොස් අල."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=83.1,87.451",
       "t": [
@@ -1368,7 +1803,8 @@
         "id": "Talas tumbuh di bawah tanah.",
         "pt": "O inhame cresce debaixo da terra.",
         "my": "ပိန်းဥက မြေအောက်မှာ ထွက်တယ်။",
-        "th": "เผือกออกหัวใต้ดิน"
+        "th": "เผือกออกหัวใต้ดิน",
+        "si": "අල, පොළොව යට, හැදෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1382,7 +1818,8 @@
         "id": "tumbuh di.",
         "pt": "crescer em.",
         "my": "မှာ ထွက်။",
-        "th": "ออกที่"
+        "th": "ออกที่",
+        "si": "「〜にできる」 = ~ හි හැදෙනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=88.051,91.053",
       "t": [
@@ -1439,7 +1876,8 @@
         "id": "Di musim gugur, iblis hanya mendapat daun di atas.",
         "pt": "No outono, os demônios só ganharam as folhas de cima.",
         "my": "ဆောင်းဦးရောက်တော့ ဘီလူးရတာ အပေါ်က အရွက်တွေပဲ။",
-        "th": "พอถึงฤดูใบไม้ร่วง ปีศาจได้แค่ใบข้างบน"
+        "th": "พอถึงฤดูใบไม้ร่วง ปีศาจได้แค่ใบข้างบน",
+        "si": "සරත් කාලේ වුණාම, යක්ෂයන්ට ලැබුණේ, උඩ තිබුණු කොළ විතරයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -1453,7 +1891,8 @@
         "id": "hanya.",
         "pt": "só.",
         "my": "...ပဲ။",
-        "th": "แค่"
+        "th": "แค่",
+        "si": "「〜のは〜だけでした」 = ~ වුණේ ~ විතරයි."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=91.653,96.233",
       "t": [
@@ -1490,7 +1929,8 @@
         "id": "\"Apa ini? Tidak bisa dimakan!\"",
         "pt": "\"O que é isso? Não dá para comer!\"",
         "my": "\"ဒါ ဘာလဲ။ စားလို့ မရဘူး!\"",
-        "th": "\"อะไรเนี่ย กินไม่ได้นี่!\""
+        "th": "\"อะไรเนี่ย กินไม่ได้นี่!\"",
+        "si": "\"මොකක්ද මේ. කන්න බෑනේ!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1504,7 +1944,8 @@
         "id": "kan!",
         "pt": "ora!",
         "my": "...ဘူး!",
-        "th": "นี่!"
+        "th": "นี่!",
+        "si": "「〜じゃないか」 = ~ නේ! (කේන්තියෙන්)."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=97.133,100.218",
       "t": [
@@ -1561,7 +2002,8 @@
         "id": "Orang-orang menggali banyak talas dan bergembira.",
         "pt": "As pessoas desenterraram muito inhame e ficaram felizes.",
         "my": "လူတွေက မြေထဲက ပိန်းဥ အများကြီး တူးထုတ်ပြီး ဝမ်းသာကြတယ်။",
-        "th": "ผู้คนขุดเผือกได้มากมายและดีใจ"
+        "th": "ผู้คนขุดเผือกได้มากมายและดีใจ",
+        "si": "මිනිස්සු, පොළොව යටින්, අල ගොඩක් හාරලා අරන්, සතුටු වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1575,7 +2017,8 @@
         "id": "menggali; gembira.",
         "pt": "desenterrar; alegrar-se.",
         "my": "တူးထုတ်; ဝမ်းသာ။",
-        "th": "ขุด; ดีใจ"
+        "th": "ขุด; ดีใจ",
+        "si": "ほり出す = හාරලා ගන්නවා; よろこぶ = සතුටු වෙනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=101.118,106.956",
       "t": [
@@ -1632,7 +2075,8 @@
         "id": "Tahun berikutnya, iblis berkata.",
         "pt": "No ano seguinte, os demônios disseram.",
         "my": "နောက်နှစ်မှာ ဘီလူးက ပြောတယ်။",
-        "th": "ปีต่อมา ปีศาจพูดว่า"
+        "th": "ปีต่อมา ปีศาจพูดว่า",
+        "si": "ඊළඟ අවුරුද්දේ, යක්ෂයෝ, කිව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1646,7 +2090,8 @@
         "id": "tahun berikutnya.",
         "pt": "ano seguinte.",
         "my": "နောက်နှစ်။",
-        "th": "ปีต่อมา"
+        "th": "ปีต่อมา",
+        "si": "次の年 = ඊළඟ අවුරුද්ද."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=107.556,110.525",
       "t": [
@@ -1691,7 +2136,8 @@
         "id": "\"Tahun ini kami mau bagian bawah.\"",
         "pt": "\"Este ano queremos a de baixo.\"",
         "my": "\"ဒီနှစ် အောက်ပိုင်း လိုချင်တယ်။\"",
-        "th": "\"ปีนี้เอาส่วนล่าง\""
+        "th": "\"ปีนี้เอาส่วนล่าง\"",
+        "si": "\"මේ අවුරුද්දේ, යට කොටස ඕනේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1705,7 +2151,8 @@
         "id": "tahun ini.",
         "pt": "este ano.",
         "my": "ဒီနှစ်။",
-        "th": "ปีนี้"
+        "th": "ปีนี้",
+        "si": "今年 = මේ අවුරුද්ද."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=111.425,113.345",
       "t": [
@@ -1766,7 +2213,8 @@
         "id": "Maka Buddha menyuruh mereka menanam padi.",
         "pt": "Então o Buda mandou plantar arroz.",
         "my": "ဒါကြောင့် ဘုရားက စပါး စိုက်ခိုင်းတယ်။",
-        "th": "พระพุทธเจ้าจึงให้ปลูกข้าว"
+        "th": "พระพุทธเจ้าจึงให้ปลูกข้าว",
+        "si": "ඉතින්, බුදුරජාණන් වහන්සේ, මිනිස්සුන්ට, වී වැව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1780,7 +2228,8 @@
         "id": "maka.",
         "pt": "então.",
         "my": "ဒါကြောင့်။",
-        "th": "จึง"
+        "th": "จึง",
+        "si": "そこで = ඉතින්, එතකොට."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=114.245,118.774",
       "t": [
@@ -1821,7 +2270,8 @@
         "id": "Padi berbuah di atas.",
         "pt": "O arroz dá em cima.",
         "my": "စပါးက အပေါ်မှာ သီးတယ်။",
-        "th": "ข้าวออกรวงข้างบน"
+        "th": "ข้าวออกรวงข้างบน",
+        "si": "වී, උඩින්, හැදෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1835,7 +2285,8 @@
         "id": "atas dan bawah.",
         "pt": "cima e baixo.",
         "my": "အပေါ် နဲ့ အောက်။",
-        "th": "บนกับล่าง"
+        "th": "บนกับล่าง",
+        "si": "上 (උඩ) යි 下 (යට) යි සසඳන්න."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=119.374,121.692",
       "t": [
@@ -1884,7 +2335,8 @@
         "id": "Iblis hanya mendapat akar di bawah.",
         "pt": "Os demônios só ganharam as raízes.",
         "my": "ဘီလူးရတာ အောက်က အမြစ်တွေပဲ။",
-        "th": "ปีศาจได้แค่รากข้างล่าง"
+        "th": "ปีศาจได้แค่รากข้างล่าง",
+        "si": "යක්ෂයන්ට ලැබුණේ, යට තිබුණු මුල් විතරයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -1898,7 +2350,8 @@
         "id": "akar.",
         "pt": "raiz.",
         "my": "အမြစ်။",
-        "th": "ราก"
+        "th": "ราก",
+        "si": "根っこ = මුල."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=122.292,125.564",
       "t": [
@@ -1955,7 +2408,8 @@
         "id": "Rumah warga penuh beras putih.",
         "pt": "As casas do povo ficaram cheias de arroz branco.",
         "my": "လူတွေရဲ့ အိမ်မှာ ဆန်ဖြူ အများကြီး ရှိတယ်။",
-        "th": "บ้านของผู้คนมีข้าวสารขาวเต็มไปหมด"
+        "th": "บ้านของผู้คนมีข้าวสารขาวเต็มไปหมด",
+        "si": "මිනිස්සුන්ගේ ගෙවල්වල, සුදු සහල්, ගොඩක්, තිබුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1969,7 +2423,8 @@
         "id": "beras.",
         "pt": "arroz.",
         "my": "ဆန်။",
-        "th": "ข้าวสาร"
+        "th": "ข้าวสาร",
+        "si": "お米 = සහල් (ආචාරශීලී)."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=126.164,130.396",
       "t": [
@@ -2022,7 +2477,8 @@
         "id": "\"Tertipu lagi! Tahun ini atas dan bawah milik kami.\"",
         "pt": "\"Enganados de novo! Este ano, cima e baixo são nossos.\"",
         "my": "\"ထပ်လိမ်ခံရပြန်ပြီ! ဒီနှစ် အပေါ်ရော အောက်ရော ငါတို့ဟာ။\"",
-        "th": "\"โดนหลอกอีกแล้ว! ปีนี้ทั้งบนและล่างเป็นของพวกข้า\""
+        "th": "\"โดนหลอกอีกแล้ว! ปีนี้ทั้งบนและล่างเป็นของพวกข้า\"",
+        "si": "\"ආයෙත්, රැවටුණා! මේ අවුරුද්දේ, උඩත් යටත්, අපේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2036,7 +2492,8 @@
         "id": "tertipu; keduanya.",
         "pt": "ser enganado; ambos.",
         "my": "လိမ်ခံရ; ရော...ရော။",
-        "th": "ถูกหลอก; ทั้ง...และ"
+        "th": "ถูกหลอก; ทั้ง...และ",
+        "si": "だまされる = රැවටෙනවා (කර්මකාරක); 「AもBも」 = A ත් B ත්."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=131.296,136.239",
       "t": [
@@ -2089,7 +2546,8 @@
         "id": "Maka Buddha menyuruh menanam jagung.",
         "pt": "Então o Buda mandou plantar milho.",
         "my": "ဒါကြောင့် ဘုရားက ပြောင်းဖူး စိုက်ခိုင်းတယ်။",
-        "th": "พระพุทธเจ้าจึงให้ปลูกข้าวโพด"
+        "th": "พระพุทธเจ้าจึงให้ปลูกข้าวโพด",
+        "si": "ඉතින්, බුදුරජාණන් වහන්සේ, මිනිස්සුන්ට, බඩ ඉරිඟු වැව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2103,7 +2561,8 @@
         "id": "jagung.",
         "pt": "milho.",
         "my": "ပြောင်းဖူး။",
-        "th": "ข้าวโพด"
+        "th": "ข้าวโพด",
+        "si": "トウモロコシ = බඩ ඉරිඟු."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=137.139,142.196",
       "t": [
@@ -2140,7 +2599,8 @@
         "id": "Jagung tumbuh di tengah.",
         "pt": "O milho dá no meio.",
         "my": "ပြောင်းဖူးက အလယ်မှာ သီးတယ်။",
-        "th": "ข้าวโพดออกฝักตรงกลาง"
+        "th": "ข้าวโพดออกฝักตรงกลาง",
+        "si": "බඩ ඉරිඟු, මැද්දේ, හැදෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2154,7 +2614,8 @@
         "id": "tengah.",
         "pt": "meio.",
         "my": "အလယ်။",
-        "th": "ตรงกลาง"
+        "th": "ตรงกลาง",
+        "si": "まん中 = හරි මැද."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=142.796,145.989",
       "t": [
@@ -2219,7 +2680,8 @@
         "id": "Iblis hanya dapat bunga di atas dan akar di bawah.",
         "pt": "Os demônios ganharam só as flores de cima e as raízes.",
         "my": "ဘီလူးရတာ အပေါ်က ပန်းနဲ့ အောက်က အမြစ်ပဲ။",
-        "th": "ปีศาจได้แค่ดอกข้างบนกับรากข้างล่าง"
+        "th": "ปีศาจได้แค่ดอกข้างบนกับรากข้างล่าง",
+        "si": "යක්ෂයන්ට ලැබුණේ, උඩ මලුයි, යට මුලුයි විතරයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -2233,7 +2695,8 @@
         "id": "A dan B.",
         "pt": "A e B.",
         "my": "A နဲ့ B။",
-        "th": "A กับ B"
+        "th": "A กับ B",
+        "si": "「AとB」 = A සහ B."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=146.589,151.046",
       "t": [
@@ -2290,7 +2753,8 @@
         "id": "Jagung kuning di tengah semuanya jadi milik manusia.",
         "pt": "Todo o milho amarelo do meio ficou com o povo.",
         "my": "အလယ်က အဝါရောင် ပြောင်းဖူးတွေ အကုန် လူတွေရဲ့ ဖြစ်သွားတယ်။",
-        "th": "ข้าวโพดสีเหลืองตรงกลางเป็นของคนทั้งหมด"
+        "th": "ข้าวโพดสีเหลืองตรงกลางเป็นของคนทั้งหมด",
+        "si": "මැද තිබුණු, කහ පාට බඩ ඉරිඟු, ඔක්කොම, මිනිස්සුන්ට ලැබුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2304,7 +2768,8 @@
         "id": "jadi milik.",
         "pt": "ficar com.",
         "my": "...ရဲ့ ဖြစ်။",
-        "th": "เป็นของ"
+        "th": "เป็นของ",
+        "si": "「〜のものになる」 = ~ ගේ අයිතියට යනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=151.646,157.238",
       "t": [
@@ -2337,7 +2802,8 @@
         "id": "Para iblis sangat marah.",
         "pt": "Os demônios ficaram furiosos.",
         "my": "ဘီလူးတွေ အရမ်း ဒေါသထွက်ကြတယ်။",
-        "th": "ปีศาจโกรธมาก"
+        "th": "ปีศาจโกรธมาก",
+        "si": "යක්ෂයන්ට, හරියටම, කේන්ති ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2351,7 +2817,8 @@
         "id": "marah.",
         "pt": "zangar.",
         "my": "ဒေါသထွက်။",
-        "th": "โกรธ"
+        "th": "โกรธ",
+        "si": "おこる = කේන්ති යනවා; 「〜たち」 = බහුවචනය."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=157.838,160.896",
       "t": [
@@ -2388,7 +2855,8 @@
         "id": "\"Tanah tak akan kami sewakan lagi. Kembalikan!\"",
         "pt": "\"Chega de alugar terra. Devolvam!\"",
         "my": "\"မြေ မငှားတော့ဘူး။ ပြန်ပေး!\"",
-        "th": "\"ไม่ให้เช่าที่ดินอีกแล้ว คืนมา!\""
+        "th": "\"ไม่ให้เช่าที่ดินอีกแล้ว คืนมา!\"",
+        "si": "\"තවත්, ඉඩම් කුලියට දෙන්නේ නෑ. ආපහු දීපල්ලා!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2402,7 +2870,8 @@
         "id": "menyewakan; kembalikan!",
         "pt": "emprestar; devolvam!",
         "my": "ငှား; ပြန်ပေး!",
-        "th": "ให้เช่า; คืนมา!"
+        "th": "ให้เช่า; คืนมา!",
+        "si": "かす = ණයට දෙනවා; かえせ = ආපහු දීපන්! (රළු අණ)."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=161.796,164.765",
       "t": [
@@ -2463,7 +2932,8 @@
         "id": "Lalu Buddha muncul di depan para iblis.",
         "pt": "Então o Buda apareceu diante dos demônios.",
         "my": "ဒီတော့ ဘုရားက ဘီလူးရှေ့ ပေါ်လာတယ်။",
-        "th": "แล้วพระพุทธเจ้าก็ปรากฏตัวต่อหน้าปีศาจ"
+        "th": "แล้วพระพุทธเจ้าก็ปรากฏตัวต่อหน้าปีศาจ",
+        "si": "එතකොට, බුදුරජාණන් වහන්සේ, යක්ෂයන් ඉස්සරහට, වැඩම කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2477,7 +2947,8 @@
         "id": "muncul di depan.",
         "pt": "aparecer diante.",
         "my": "ရှေ့ ပေါ်လာ။",
-        "th": "ปรากฏต่อหน้า"
+        "th": "ปรากฏต่อหน้า",
+        "si": "「〜の前に出てくる」 = ~ ඉස්සරහට එනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=165.665,170.12",
       "t": [
@@ -2530,7 +3001,8 @@
         "id": "\"Kalau begitu, maukah menjual sedikit tanah padaku?\"",
         "pt": "\"Então, não me venderiam um pouco de terra?\"",
         "my": "\"ဒါဆို မြေ နည်းနည်းလောက် ရောင်းပေးမလား။\"",
-        "th": "\"งั้นขายที่ดินให้เราสักนิดได้ไหม\""
+        "th": "\"งั้นขายที่ดินให้เราสักนิดได้ไหม\"",
+        "si": "\"එහෙනම්, ඉඩම් ටිකක් විතරක්, විකුණන්න පුළුවන්ද?\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2544,7 +3016,8 @@
         "id": "maukah.",
         "pt": "não poderia.",
         "my": "ပေးမလား။",
-        "th": "ได้ไหม"
+        "th": "ได้ไหม",
+        "si": "「〜てくれませんか」 = මට ~ කරලා දෙන්න පුළුවන්ද? (ආචාරශීලී ඉල්ලීම)."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=171.02,174.676",
       "t": [
@@ -2573,7 +3046,8 @@
         "id": "\"Berapa banyak?\"",
         "pt": "\"Quanto?\"",
         "my": "\"ဘယ်လောက်လဲ။\"",
-        "th": "\"เท่าไร\""
+        "th": "\"เท่าไร\"",
+        "si": "\"කොච්චරද?\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2587,7 +3061,8 @@
         "id": "berapa.",
         "pt": "quanto.",
         "my": "ဘယ်လောက်။",
-        "th": "เท่าไร"
+        "th": "เท่าไร",
+        "si": "どのくらい = කොච්චර; 「〜だ」 = සරල රූපය."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=175.576,176.533",
       "t": [
@@ -2656,7 +3131,8 @@
         "id": "\"Akan kugantung jubahku di ujung bambu ini. Cukup tanah seluas bayangannya.\"",
         "pt": "\"Vou pendurar meu manto no alto deste bambu. Basta a terra do tamanho da sombra dele.\"",
         "my": "\"ဒီဝါးထိပ်မှာ ငါ့အဝတ်ကို ချိတ်မယ်။ အဲဒီ အရိပ်လောက်ပဲ မြေ ရရင် ရပြီ။\"",
-        "th": "\"เราจะแขวนจีวรไว้บนยอดไม้ไผ่นี้ ขอแค่ที่ดินเท่าเงาของจีวรก็พอ\""
+        "th": "\"เราจะแขวนจีวรไว้บนยอดไม้ไผ่นี้ ขอแค่ที่ดินเท่าเงาของจีวรก็พอ\"",
+        "si": "\"මේ උණ කණුවේ අගට, මගේ සිවුර එල්ලනවා. ඒ සිවුරේ සෙවණැල්ලේ තරමට, ඇති.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2670,7 +3146,8 @@
         "id": "bayangan; cukup.",
         "pt": "sombra; basta.",
         "my": "အရိပ်; ရပြီ။",
-        "th": "เงา; ก็พอ"
+        "th": "เงา; ก็พอ",
+        "si": "かげ = සෙවණැල්ල; 「〜だけでいい」 = ~ විතරක් ඇති."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=177.433,184.926",
       "t": [
@@ -2727,7 +3204,8 @@
         "id": "Mengira bayangannya kecil, iblis langsung setuju.",
         "pt": "Achando que era uma sombra pequena, os demônios aceitaram logo.",
         "my": "အရိပ်သေးမယ်ထင်ပြီး ဘီလူးက ချက်ချင်း သဘောတူတယ်။",
-        "th": "ปีศาจคิดว่าเงาเล็กนิดเดียว จึงตกลงทันที"
+        "th": "ปีศาจคิดว่าเงาเล็กนิดเดียว จึงตกลงทันที",
+        "si": "යක්ෂයෝ, පොඩි සෙවණැල්ලක් කියලා හිතලා, වහාම, කමක් නෑ කිව්වා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2741,7 +3219,8 @@
         "id": "mengira.",
         "pt": "achando.",
         "my": "ထင်ပြီး။",
-        "th": "คิดว่า"
+        "th": "คิดว่า",
+        "si": "「〜と思って」 = ~ කියලා හිතලා; 「いいと言う」 = කමක් නෑ කියනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=185.826,191.089",
       "t": [
@@ -2814,7 +3293,8 @@
         "id": "Buddha mendirikan bambu panjang dan menggantung jubah di ujungnya.",
         "pt": "O Buda ergueu um bambu longo e pendurou o manto no alto.",
         "my": "ဘုရားက ဝါးရှည်ကို စိုက်ထူပြီး ထိပ်မှာ အဝတ်ချိတ်တယ်။",
-        "th": "พระพุทธเจ้าปักไม้ไผ่ยาวแล้วแขวนจีวรไว้ที่ยอด"
+        "th": "พระพุทธเจ้าปักไม้ไผ่ยาวแล้วแขวนจีวรไว้ที่ยอด",
+        "si": "බුදුරජාණන් වහන්සේ, දිග උණ කණුවක් හිටවලා, අගට, සිවුර එල්ලුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2828,7 +3308,8 @@
         "id": "menggantung; ujung.",
         "pt": "pendurar; ponta.",
         "my": "ချိတ်; ထိပ်။",
-        "th": "แขวน; ยอด"
+        "th": "แขวน; ยอด",
+        "si": "かける = එල්ලනවා; 先 = අග."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=191.689,196.673",
       "t": [
@@ -2865,7 +3346,8 @@
         "id": "Lalu terjadi hal yang aneh.",
         "pt": "Então aconteceu algo estranho.",
         "my": "ဒီတော့ ထူးဆန်းတာ ဖြစ်လာတယ်။",
-        "th": "แล้วเรื่องประหลาดก็เกิดขึ้น"
+        "th": "แล้วเรื่องประหลาดก็เกิดขึ้น",
+        "si": "එතකොට, පුදුම දෙයක්, වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2879,7 +3361,8 @@
         "id": "hal aneh.",
         "pt": "algo estranho.",
         "my": "ထူးဆန်းတာ။",
-        "th": "เรื่องประหลาด"
+        "th": "เรื่องประหลาด",
+        "si": "ふしぎなこと = අද්භූත දෙයක්."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=197.273,200.136",
       "t": [
@@ -2928,7 +3411,8 @@
         "id": "Jubah itu makin membesar dan meluas.",
         "pt": "O manto foi crescendo e se espalhando.",
         "my": "အဝတ်က ကြီးသထက်ကြီးပြီး ပြန့်ကားသွားတယ်။",
-        "th": "จีวรขยายใหญ่ขึ้นเรื่อย ๆ"
+        "th": "จีวรขยายใหญ่ขึ้นเรื่อย ๆ",
+        "si": "සිවුර, ලොකු වෙවී, පැතිරෙන්න ගත්තා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2942,7 +3426,8 @@
         "id": "makin; meluas.",
         "pt": "ir ~; espalhar.",
         "my": "...လာ; ပြန့်။",
-        "th": "...ขึ้นเรื่อย ๆ; ขยาย"
+        "th": "...ขึ้นเรื่อย ๆ; ขยาย",
+        "si": "「〜ていく」 = ක්‍රමයෙන් ~; 広がる = පැතිරෙනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=200.736,204.332",
       "t": [
@@ -2999,7 +3484,8 @@
         "id": "Bayangannya menutupi desa, gunung, dan akhirnya seluruh negeri.",
         "pt": "A sombra cobriu a aldeia, as montanhas e, por fim, o país inteiro.",
         "my": "အဝတ်ရိပ်က ရွာ၊ တောင်၊ နောက်ဆုံး တစ်နိုင်ငံလုံးကို ဖုံးသွားတယ်။",
-        "th": "เงาจีวรปกคลุมหมู่บ้าน ภูเขา และในที่สุดก็ทั้งประเทศ"
+        "th": "เงาจีวรปกคลุมหมู่บ้าน ภูเขา และในที่สุดก็ทั้งประเทศ",
+        "si": "සිවුරේ සෙවණැල්ල, ගම වැහුවා, කඳු වැහුවා, අන්තිමට, මුළු රටම වැහුවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3013,7 +3499,8 @@
         "id": "menutupi; seluruh.",
         "pt": "cobrir; inteiro.",
         "my": "ဖုံး; တစ်...လုံး။",
-        "th": "ปกคลุม; ทั่ว"
+        "th": "ปกคลุม; ทั่ว",
+        "si": "おおう = වහනවා; 「〜じゅう」 = මුළු ~ ම; මූල රූපය වාක්‍ය එකතු කරනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=204.932,212.228",
       "t": [
@@ -3050,7 +3537,8 @@
         "id": "\"Waduh, tanah kami habis!\"",
         "pt": "\"Ai, vamos perder toda a terra!\"",
         "my": "\"အမလေး၊ မြေတွေ အကုန် ပျောက်ကုန်ပြီ!\"",
-        "th": "\"แย่แล้ว ที่ดินหายหมด!\""
+        "th": "\"แย่แล้ว ที่ดินหายหมด!\"",
+        "si": "\"අයියෝ, ඉඩම්, ඔක්කොම, නැති වෙනවා!\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3064,7 +3552,8 @@
         "id": "habis.",
         "pt": "acabar.",
         "my": "ကုန်ပြီ။",
-        "th": "ไปหมด"
+        "th": "ไปหมด",
+        "si": "「〜てしまう」 = සම්පූර්ණයෙන්ම ~ (කනගාටුවෙන්)."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=213.128,216.44",
       "t": [
@@ -3129,7 +3618,8 @@
         "id": "Tak punya tempat, iblis melarikan diri ke seberang laut jauh.",
         "pt": "Sem ter para onde ir, os demônios fugiram para além do mar.",
         "my": "သွားစရာ မရှိတော့လို့ ဘီလူးတွေက ဝေးတဲ့ ပင်လယ်တစ်ဖက်ကို ထွက်ပြေးတယ်။",
-        "th": "ไม่มีที่ไป ปีศาจจึงหนีไปไกลโพ้นทะเล"
+        "th": "ไม่มีที่ไป ปีศาจจึงหนีไปไกลโพ้นทะเล",
+        "si": "යක්ෂයන්ට යන්න තැනක් නැති වෙලා, ඈත මුහුදෙන් එගොඩට, පැනලා ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3143,7 +3633,8 @@
         "id": "seberang.",
         "pt": "além.",
         "my": "တစ်ဖက်။",
-        "th": "โพ้น"
+        "th": "โพ้น",
+        "si": "向こう = එගොඩ; 「〜ていく」 = ඈතට යනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=217.34,223.783",
       "t": [
@@ -3188,7 +3679,8 @@
         "id": "Tapi para iblis memohon kepada Buddha.",
         "pt": "Mas os demônios suplicaram ao Buda.",
         "my": "ဒါပေမဲ့ ဘီလူးတွေက ဘုရားကို တောင်းပန်ကြတယ်။",
-        "th": "แต่ปีศาจอ้อนวอนพระพุทธเจ้า"
+        "th": "แต่ปีศาจอ้อนวอนพระพุทธเจ้า",
+        "si": "ඒත්, යක්ෂයෝ, බුදුරජාණන් වහන්සේගෙන්, ඉල්ලීමක් කළා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3202,7 +3694,8 @@
         "id": "memohon.",
         "pt": "suplicar.",
         "my": "တောင်းပန်။",
-        "th": "อ้อนวอน"
+        "th": "อ้อนวอน",
+        "si": "おねがいする = ඉල්ලනවා, අයදිනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=224.383,228.895",
       "t": [
@@ -3263,7 +3756,8 @@
         "id": "\"Izinkan kami setahun sekali, saat Tết, mengunjungi makam leluhur.\"",
         "pt": "\"Deixe-nos visitar o túmulo dos antepassados uma vez por ano, no Tết.\"",
         "my": "\"တစ်နှစ်တစ်ကြိမ် တက်ပွဲမှာ ဘိုးဘွားတွေရဲ့ အုတ်ဂူကို သွားခွင့်ပေးပါ။\"",
-        "th": "\"ขอให้พวกเราได้ไปเยี่ยมหลุมศพบรรพบุรุษปีละครั้งในวันเต๊ด\""
+        "th": "\"ขอให้พวกเราได้ไปเยี่ยมหลุมศพบรรพบุรุษปีละครั้งในวันเต๊ด\"",
+        "si": "\"අවුරුද්දකට එක පාරක් විතරක්, ටෙට් කාලේදී, මුතුන්මිත්තන්ගේ සොහොන්වලට, යන්න ඉඩ දෙන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3277,7 +3771,8 @@
         "id": "izinkan; leluhur.",
         "pt": "deixe-nos; antepassados.",
         "my": "ခွင့်ပေးပါ; ဘိုးဘွား။",
-        "th": "ขอให้; บรรพบุรุษ"
+        "th": "ขอให้; บรรพบุรุษ",
+        "si": "「〜させてください」 = ~ කරන්න ඉඩ දෙන්න; 先祖 = මුතුන්මිත්තෝ."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=229.795,234.922",
       "t": [
@@ -3330,7 +3825,8 @@
         "id": "\"Baiklah. Tapi jangan mendekati rumah manusia.\"",
         "pt": "\"Está bem. Mas não se aproximem das casas das pessoas.\"",
         "my": "\"ကောင်းပြီ။ ဒါပေမဲ့ လူတွေရဲ့ အိမ်နား မကပ်ရဘူး။\"",
-        "th": "\"ได้ แต่ห้ามเข้าใกล้บ้านของคน\""
+        "th": "\"ได้ แต่ห้ามเข้าใกล้บ้านของคน\"",
+        "si": "\"හොඳයි. ඒත්, මිනිස්සුන්ගේ ගෙවල් ළඟට, එන්න බැහැ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3344,7 +3840,8 @@
         "id": "jangan.",
         "pt": "não podem.",
         "my": "မ...ရ။",
-        "th": "ห้าม"
+        "th": "ห้าม",
+        "si": "「〜てはいけません」 = ~ කරන්න බැහැ."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=235.822,240.614",
       "t": [
@@ -3405,7 +3902,8 @@
         "id": "Itulah sebabnya, sampai kini bambu didirikan sebelum Tết.",
         "pt": "Por isso, até hoje, erguem o bambu antes do Tết.",
         "my": "ဒါကြောင့် အခုထိ တက်မတိုင်ခင် ဝါးစိုက်ထူကြတယ်။",
-        "th": "ด้วยเหตุนี้ ทุกวันนี้ก่อนเต๊ดก็ยังปักไม้ไผ่"
+        "th": "ด้วยเหตุนี้ ทุกวันนี้ก่อนเต๊ดก็ยังปักไม้ไผ่",
+        "si": "ඒ නිසා තමයි, අදටත්, ටෙට් එකට කලින්, උණ කණු හිටවන්නේ."
       },
       "vocab": [],
       "grammarNote": {
@@ -3419,7 +3917,8 @@
         "id": "itulah sebabnya.",
         "pt": "por isso.",
         "my": "ဒါကြောင့်။",
-        "th": "ด้วยเหตุนี้"
+        "th": "ด้วยเหตุนี้",
+        "si": "「それで〜のです」 = ඒ නිසා තමයි ~."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=241.514,246.493",
       "t": [
@@ -3468,7 +3967,8 @@
         "id": "Bambu adalah tanda, \"Ini tanah manusia.\"",
         "pt": "O bambu é um sinal de que \"esta é terra das pessoas\".",
         "my": "ဝါးက \"ဒါ လူတွေရဲ့ မြေ\" ဆိုတဲ့ အမှတ်အသားပါ။",
-        "th": "ไม้ไผ่คือสัญลักษณ์ว่า \"ที่นี่เป็นดินแดนของคน\""
+        "th": "ไม้ไผ่คือสัญลักษณ์ว่า \"ที่นี่เป็นดินแดนของคน\"",
+        "si": "උණ කණුව, \"මේක මිනිස්සුන්ගේ ඉඩම\" කියන, සලකුණක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -3482,7 +3982,8 @@
         "id": "tanda.",
         "pt": "sinal.",
         "my": "အမှတ်အသား။",
-        "th": "สัญลักษณ์"
+        "th": "สัญลักษณ์",
+        "si": "しるし = සලකුණ; 「〜という」 = ~ කියන."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=247.093,251.28",
       "t": [
@@ -3551,7 +4052,8 @@
         "id": "Konon iblis membenci bunyi lonceng dan warna merah.",
         "pt": "Dizem que os demônios odeiam som de sino e a cor vermelha.",
         "my": "ခေါင်းလောင်းသံနဲ့ အနီရောင်ကို ဘီလူးက မုန်းတယ်လို့ ဆိုကြတယ်။",
-        "th": "ว่ากันว่าปีศาจเกลียดเสียงกระดิ่งและสีแดง"
+        "th": "ว่ากันว่าปีศาจเกลียดเสียงกระดิ่งและสีแดง",
+        "si": "සීනුවල හඬයි, රතු පාටයි, යක්ෂයන්ට අකමැති දේවල් කියලා කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3565,7 +4067,8 @@
         "id": "konon; benci.",
         "pt": "dizem; odiar.",
         "my": "ဆိုကြတယ်; မုန်း။",
-        "th": "ว่ากันว่า; เกลียด"
+        "th": "ว่ากันว่า; เกลียด",
+        "si": "「〜と言われています」 = ~ කියලා කියනවා; きらい = අකමැති."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=251.88,257.677",
       "t": [
@@ -3638,7 +4141,8 @@
         "id": "Ada desa yang menabur kapur putih di sekitar rumah agar iblis tak masuk.",
         "pt": "Algumas aldeias espalhavam cal branca em volta das casas para os demônios não entrarem.",
         "my": "အိမ်ပတ်လည် ထုံးဖြူ ကြဲပြီး ဘီလူး မဝင်အောင် လုပ်တဲ့ ရွာတွေလည်း ရှိတယ်။",
-        "th": "บางหมู่บ้านโรยปูนขาวรอบบ้านเพื่อไม่ให้ปีศาจเข้า"
+        "th": "บางหมู่บ้านโรยปูนขาวรอบบ้านเพื่อไม่ให้ปีศาจเข้า",
+        "si": "ගෙවල් වටේ, සුදු හුණු ඉහලා, යක්ෂයෝ ඇතුළට එන්නේ නැති වෙන්න බලාගත්ත ගම් තිබුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3652,7 +4156,8 @@
         "id": "agar tidak; kapur.",
         "pt": "para não; cal.",
         "my": "မ...အောင်; ထုံး။",
-        "th": "เพื่อไม่ให้; ปูนขาว"
+        "th": "เพื่อไม่ให้; ปูนขาว",
+        "si": "「〜ないようにする」 = ~ නොවෙන්න බලාගන්නවා; 石灰 = හුණු."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=258.277,264.47",
       "t": [
@@ -3721,7 +4226,8 @@
         "id": "Di Jepang, saat Tahun Baru, bambu juga menghiasi depan rumah.",
         "pt": "No Japão, no Ano-Novo, também se enfeita a frente da casa com bambu.",
         "my": "ဂျပန်နှစ်သစ်မှာလည်း အိမ်ရှေ့မှာ ဝါးနဲ့ အလှဆင်ကြတယ်။",
-        "th": "ที่ญี่ปุ่น ช่วงปีใหม่ก็ประดับไม้ไผ่หน้าบ้านเช่นกัน"
+        "th": "ที่ญี่ปุ่น ช่วงปีใหม่ก็ประดับไม้ไผ่หน้าบ้านเช่นกัน",
+        "si": "හරි, ජපානයේ අලුත් අවුරුද්දටත්, ගෙවල් ඉස්සරහ, උණ සරසනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3735,7 +4241,8 @@
         "id": "menghias.",
         "pt": "enfeitar.",
         "my": "အလှဆင်။",
-        "th": "ประดับ"
+        "th": "ประดับ",
+        "si": "かざる = සරසනවා; 「〜にも」 = ~ ටත්."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=265.07,270.72",
       "t": [
@@ -3772,7 +4279,8 @@
         "id": "Itulah \"kadomatsu\".",
         "pt": "É o \"kadomatsu\".",
         "my": "အဲဒါ \"ကာဒိုမာဆု\" ပါ။",
-        "th": "นั่นคือ \"คาโดมัตสึ\""
+        "th": "นั่นคือ \"คาโดมัตสึ\"",
+        "si": "ඒ තමයි, \"කදොමත්සු\"."
       },
       "vocab": [],
       "grammarNote": {
@@ -3786,7 +4294,8 @@
         "id": "kadomatsu.",
         "pt": "kadomatsu.",
         "my": "ကာဒိုမာဆု။",
-        "th": "คาโดมัตสึ"
+        "th": "คาโดมัตสึ",
+        "si": "門松 = අලුත් අවුරුදු දොරටු පයින් සැරසිල්ල."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=271.32,273.339",
       "t": [
@@ -3867,7 +4376,8 @@
         "id": "Dibuat dari bambu dan pinus, diletakkan di pintu masuk.",
         "pt": "É feito de bambu e pinheiro e fica na entrada da casa.",
         "my": "ဝါးနဲ့ ထင်းရှူးနဲ့ လုပ်ပြီး အိမ်ဝမှာ ထားတယ်။",
-        "th": "ทำจากไม้ไผ่และต้นสน วางไว้ที่ทางเข้าบ้าน"
+        "th": "ทำจากไม้ไผ่และต้นสน วางไว้ที่ทางเข้าบ้าน",
+        "si": "කදොමත්සු, උණයි පයින් ගහයි එකතු කරලා හදලා, ගෙදර දොරටුවේ, සරසනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3881,7 +4391,8 @@
         "id": "dibuat dari; pintu masuk.",
         "pt": "feito de; entrada.",
         "my": "နဲ့ လုပ်; အိမ်ဝ။",
-        "th": "ทำจาก; ทางเข้า"
+        "th": "ทำจาก; ทางเข้า",
+        "si": "「〜で作る」 = ~ න් හදනවා; 入り口 = දොරටුව."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=273.939,279.205",
       "t": [
@@ -3962,7 +4473,8 @@
         "id": "Di Jepang, dipercaya dewa \"Toshigami-sama\" datang ke rumah saat Tahun Baru.",
         "pt": "No Japão, acredita-se que o deus \"Toshigami-sama\" visita as casas no Ano-Novo.",
         "my": "ဂျပန်မှာ နှစ်သစ်မှာ \"တိုရှိဂါမိဆာမ\" နတ်က အိမ်ကို လာတယ်လို့ ယုံကြတယ်။",
-        "th": "ที่ญี่ปุ่นเชื่อกันว่าช่วงปีใหม่ เทพ \"โทชิงามิซามะ\" จะมาเยือนบ้าน"
+        "th": "ที่ญี่ปุ่นเชื่อกันว่าช่วงปีใหม่ เทพ \"โทชิงามิซามะ\" จะมาเยือนบ้าน",
+        "si": "ජපානයේ, අලුත් අවුරුද්දට, \"තොෂිගමි-සමා\" කියන දෙවි කෙනෙක්, ගෙදරට එනවා කියලා විශ්වාස කරනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3976,7 +4488,8 @@
         "id": "dipercaya.",
         "pt": "acredita-se.",
         "my": "ယုံကြ။",
-        "th": "เชื่อกันว่า"
+        "th": "เชื่อกันว่า",
+        "si": "「〜と考えられている」 = ~ කියලා හිතනවා/විශ්වාස කරනවා; 年神さま = අලුත් අවුරුදු දෙවියා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=279.805,287.04",
       "t": [
@@ -4041,7 +4554,8 @@
         "id": "Kadomatsu adalah penanda agar dewa itu datang tanpa tersesat.",
         "pt": "O kadomatsu é um sinal para o deus chegar sem se perder.",
         "my": "ကာဒိုမာဆုက အဲဒီနတ် လမ်းမပျောက်ဘဲ အိမ်ရောက်ဖို့ အမှတ်အသားပါ။",
-        "th": "คาโดมัตสึเป็นเครื่องหมายให้เทพมาถึงบ้านโดยไม่หลงทาง"
+        "th": "คาโดมัตสึเป็นเครื่องหมายให้เทพมาถึงบ้านโดยไม่หลงทาง",
+        "si": "කදොමත්සු කියන්නේ, ඒ දෙවියන්ට, පාර වරද්දගන්නේ නැතුව, ගෙදරට එන්න පුළුවන් වෙන්න තියන, සලකුණක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -4055,7 +4569,8 @@
         "id": "tanpa; agar; penanda.",
         "pt": "sem; para; marco.",
         "my": "မ...ဘဲ; ဖို့; အမှတ်အသား။",
-        "th": "โดยไม่; เพื่อ; เครื่องหมาย"
+        "th": "โดยไม่; เพื่อ; เครื่องหมาย",
+        "si": "「〜ずに」 = ~ නැතුව; 「〜ための」 = ~ සඳහා; 目じるし = සලකුණ."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=287.64,294.512",
       "t": [
@@ -4108,7 +4623,8 @@
         "id": "Bambu Vietnam menjauhkan iblis.",
         "pt": "O bambu do Vietnã afasta os demônios.",
         "my": "ဗီယက်နမ်ဝါးက ဘီလူးကို နှင်ထုတ်တယ်။",
-        "th": "ไม้ไผ่เวียดนามขับไล่ปีศาจ"
+        "th": "ไม้ไผ่เวียดนามขับไล่ปีศาจ",
+        "si": "වියට්නාමයේ උණ, යක්ෂයන්ව, ඈත් කරනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4122,7 +4638,8 @@
         "id": "menjauhkan.",
         "pt": "afastar.",
         "my": "နှင်ထုတ်။",
-        "th": "ขับไล่"
+        "th": "ขับไล่",
+        "si": "遠ざける = ඈත් කරනවා."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=295.112,298.562",
       "t": [
@@ -4171,7 +4688,8 @@
         "id": "Bambu Jepang menyambut dewa.",
         "pt": "O bambu do Japão recebe um deus.",
         "my": "ဂျပန်ဝါးက နတ်ကို ကြိုဆိုတယ်။",
-        "th": "ไม้ไผ่ญี่ปุ่นต้อนรับเทพ"
+        "th": "ไม้ไผ่ญี่ปุ่นต้อนรับเทพ",
+        "si": "ජපානයේ උණ, දෙවියන්ව, පිළිගන්නවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -4185,7 +4703,8 @@
         "id": "menyambut.",
         "pt": "receber.",
         "my": "ကြိုဆို။",
-        "th": "ต้อนรับ"
+        "th": "ต้อนรับ",
+        "si": "むかえる = පිළිගන්නවා; 遠ざける ගේ විරුද්ධ පදය."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=299.162,302.514",
       "t": [
@@ -4294,7 +4813,8 @@
         "id": "Jepang juga punya \"Setsubun\" di bulan Februari, melempar kacang sambil berseru \"Iblis keluar, rezeki masuk!\"",
         "pt": "O Japão também tem o \"Setsubun\" em fevereiro: jogam feijões dizendo \"Demônios fora, sorte dentro!\"",
         "my": "ဂျပန်မှာ ဖေဖော်ဝါရီ \"စဲဆုဘွန်း\" မှာ \"ဘီလူး အပြင်၊ ကံကောင်းခြင်း အထဲ\" လို့ ပြောပြီး ပဲကြဲတဲ့ ပွဲလည်း ရှိတယ်။",
-        "th": "ญี่ปุ่นยังมีพิธี \"เซ็ตสึบุง\" เดือนกุมภาพันธ์ โปรยถั่วพร้อมร้องว่า \"ผีออกไป โชคเข้ามา\""
+        "th": "ญี่ปุ่นยังมีพิธี \"เซ็ตสึบุง\" เดือนกุมภาพันธ์ โปรยถั่วพร้อมร้องว่า \"ผีออกไป โชคเข้ามา\"",
+        "si": "ඒ වගේම, ජපානයේ, පෙබරවාරි \"සෙත්සුබුන්\" එකේදී, \"යක්ෂයෝ එළියට, වාසනාව ඇතුළට\" කියලා, බෝංචි විසි කරන උත්සවයකුත් තියෙනවා."
       },
       "vocab": [
         {
@@ -4311,7 +4831,8 @@
             "id": "melilit",
             "pt": "enrolar",
             "my": "ပတ်",
-            "th": "พัน"
+            "th": "พัน",
+            "si": "එතීම"
           },
           "level": "N2"
         }
@@ -4327,7 +4848,8 @@
         "id": "Setsubun; melempar kacang.",
         "pt": "Setsubun; jogar feijões.",
         "my": "စဲဆုဘွန်း; ပဲကြဲ။",
-        "th": "เซ็ตสึบุง; โปรยถั่ว"
+        "th": "เซ็ตสึบุง; โปรยถั่ว",
+        "si": "節分 = සෘතු මාරුවේ උත්සවය; 豆をまく = බෝංචි විසි කරනවා; 行事 = උත්සවය."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=303.114,312.502",
       "t": [
@@ -4392,7 +4914,8 @@
         "id": "Mengusir iblis dari rumah sama saja di Jepang dan Vietnam.",
         "pt": "Expulsar demônios de casa é igual no Japão e no Vietnã.",
         "my": "ဘီလူးကို အိမ်က နှင်ထုတ်တာ ဂျပန်ရော ဗီယက်နမ်ရော တူတယ်နော်။",
-        "th": "การไล่ปีศาจออกจากบ้าน ญี่ปุ่นกับเวียดนามก็เหมือนกันนะ"
+        "th": "การไล่ปีศาจออกจากบ้าน ญี่ปุ่นกับเวียดนามก็เหมือนกันนะ",
+        "si": "යක්ෂයන්ව ගෙදරින් එළියට දාන එක, ජපානයෙත්, වියට්නාමයෙත්, එකමයි නේද."
       },
       "vocab": [],
       "grammarNote": {
@@ -4406,7 +4929,8 @@
         "id": "sama.",
         "pt": "igual.",
         "my": "တူတယ်။",
-        "th": "เหมือนกัน"
+        "th": "เหมือนกัน",
+        "si": "「〜のは、〜同じ」 = ~ එකමයි."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=313.102,318.813",
       "t": [
@@ -4479,7 +5003,8 @@
         "id": "Lain kali melihat hiasan bambu saat Tahun Baru, ingatlah ini.",
         "pt": "Da próxima vez que vir um enfeite de bambu no Ano-Novo, lembre-se.",
         "my": "နောက်တစ်ခါ နှစ်သစ်မှာ ဝါးအလှဆင်ထားတာ မြင်ရင် သတိရပါ။",
-        "th": "ครั้งหน้าเห็นไม้ไผ่ประดับปีใหม่ ลองนึกถึงเรื่องนี้นะ"
+        "th": "ครั้งหน้าเห็นไม้ไผ่ประดับปีใหม่ ลองนึกถึงเรื่องนี้นะ",
+        "si": "ඊළඟ පාර, අලුත් අවුරුද්දට, උණ සැරසිල්ලක් දැක්කොත්, මේක මතක් කරගන්න."
       },
       "vocab": [],
       "grammarNote": {
@@ -4493,7 +5018,8 @@
         "id": "bila; hiasan.",
         "pt": "quando; enfeite.",
         "my": "ရင်; အလှဆင်။",
-        "th": "เมื่อ; ของประดับ"
+        "th": "เมื่อ; ของประดับ",
+        "si": "「〜たら」 = ~ කළොත්; かざり = සැරසිල්ල."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=319.413,324.529",
       "t": [
@@ -4558,7 +5084,8 @@
         "id": "Mungkin di ujung bambu tergantung jubah besar Buddha.",
         "pt": "Talvez o grande manto do Buda esteja pendurado no alto.",
         "my": "ဝါးထိပ်မှာ ဘုရားရဲ့ အဝတ်ကြီး ချိတ်ထားတာ ဖြစ်နိုင်တယ်။",
-        "th": "บนยอดไม้ไผ่ อาจมีจีวรผืนใหญ่ของพระพุทธเจ้าแขวนอยู่ก็ได้"
+        "th": "บนยอดไม้ไผ่ อาจมีจีวรผืนใหญ่ของพระพุทธเจ้าแขวนอยู่ก็ได้",
+        "si": "උණ කණුවේ අගේ, බුදුරජාණන් වහන්සේගේ, ලොකු සිවුර, එල්ලිලා ඇති."
       },
       "vocab": [],
       "grammarNote": {
@@ -4572,7 +5099,8 @@
         "id": "tergantung; mungkin.",
         "pt": "estar pendurado; talvez.",
         "my": "ချိတ်ထား; ဖြစ်နိုင်။",
-        "th": "แขวน; อาจ"
+        "th": "แขวน; อาจ",
+        "si": "かかる = එල්ලිලා තියෙනවා (අකර්මක); 「〜かもしれません」 = ~ වෙන්න පුළුවන්."
       },
       "audio": "/audio/furusato-vn-neu-1/chapter.mp3#t=325.129,331.167",
       "t": [

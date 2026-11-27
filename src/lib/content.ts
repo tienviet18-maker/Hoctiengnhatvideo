@@ -683,7 +683,141 @@ import s_furusatoBrCurupira1 from "../../content/stories/furusato-br-curupira-1.
 import s_osakaHataraku06 from "../../content/stories/osaka-hataraku-06.json";
 import s_osakaHataraku07 from "../../content/stories/osaka-hataraku-07.json";
 import s_osakaHataraku08 from "../../content/stories/osaka-hataraku-08.json";
+import s_furusatoVnSodo1 from "../../content/stories/furusato-vn-sodo-1.json";
+import s_furusatoVnSodo2 from "../../content/stories/furusato-vn-sodo-2.json";
+import s_furusatoVnSodo3 from "../../content/stories/furusato-vn-sodo-3.json";
+import s_furusatoVnSodo4 from "../../content/stories/furusato-vn-sodo-4.json";
+import s_maichan01 from "../../content/stories/maichan-01.json";
+import s_maichan02 from "../../content/stories/maichan-02.json";
+import s_maichan03 from "../../content/stories/maichan-03.json";
+import s_maichan04 from "../../content/stories/maichan-04.json";
+// --- làm lại Mai-chan + văn học Nhật (chuẩn v2): import ---
+import s_maichan05 from "../../content/stories/maichan-05.json";
+import s_maichan06 from "../../content/stories/maichan-06.json";
+import s_maichan07 from "../../content/stories/maichan-07.json";
+import s_maichan08 from "../../content/stories/maichan-08.json";
+import s_maichan09 from "../../content/stories/maichan-09.json";
+import s_maichan10 from "../../content/stories/maichan-10.json";
+import s_gongitsune1 from "../../content/stories/gongitsune-1.json";
+import s_gongitsune2 from "../../content/stories/gongitsune-2.json";
+import s_tebukuro1 from "../../content/stories/tebukuro-1.json";
+import s_tebukuro2 from "../../content/stories/tebukuro-2.json";
+import s_kumonoito1 from "../../content/stories/kumonoito-1.json";
+import s_chumon1 from "../../content/stories/chumon-1.json";
+import s_chumon2 from "../../content/stories/chumon-2.json";
+import s_toshishun1 from "../../content/stories/toshishun-1.json";
+import s_toshishun2 from "../../content/stories/toshishun-2.json";
+import s_torokko1 from "../../content/stories/torokko-1.json";
+import s_mikan1 from "../../content/stories/mikan-1.json";
+// --- hết làm lại: import ---
+import s_furusatoVnKieu1 from "../../content/stories/furusato-vn-kieu-1.json";
+import s_furusatoVnKieu2 from "../../content/stories/furusato-vn-kieu-2.json";
+import s_furusatoVnKieu3 from "../../content/stories/furusato-vn-kieu-3.json";
+import s_furusatoVnKieu4 from "../../content/stories/furusato-vn-kieu-4.json";
+import s_furusatoVnQuynh1 from "../../content/stories/furusato-vn-quynh-1.json";
+import s_furusatoVnQuynh2 from "../../content/stories/furusato-vn-quynh-2.json";
+import s_furusatoVnQuynh3 from "../../content/stories/furusato-vn-quynh-3.json";
+import s_furusatoVnHoangle1 from "../../content/stories/furusato-vn-hoangle-1.json";
+import s_furusatoVnHoangle2 from "../../content/stories/furusato-vn-hoangle-2.json";
+import s_furusatoVnHoangle3 from "../../content/stories/furusato-vn-hoangle-3.json";
+import s_furusatoVnThachlam1 from "../../content/stories/furusato-vn-thachlam-1.json";
+import s_furusatoVnThachlam2 from "../../content/stories/furusato-vn-thachlam-2.json";
+import s_furusatoVnThachlam3 from "../../content/stories/furusato-vn-thachlam-3.json";
+import s_worldCinderella1 from "../../content/stories/world-cinderella-1.json";
+import s_worldCinderella2 from "../../content/stories/world-cinderella-2.json";
+import s_worldShirayuki1 from "../../content/stories/world-shirayuki-1.json";
+import s_worldShirayuki2 from "../../content/stories/world-shirayuki-2.json";
+import s_worldHansel1 from "../../content/stories/world-hansel-1.json";
+import s_worldHansel2 from "../../content/stories/world-hansel-2.json";
+import s_worldAkazukin from "../../content/stories/world-akazukin.json";
 // --- hết kệ A/E: import ---
+
+// --- kệ W triết lý sống (chuẩn v2): import ---
+import v2LifeEpictetus1 from "../../content/stories/life-epictetus-1.json";
+import v2LifeEpictetus2 from "../../content/stories/life-epictetus-2.json";
+import v2LifeRoshi1 from "../../content/stories/life-roshi-1.json";
+import v2LifeIkari1 from "../../content/stories/life-ikari-1.json";
+import s_worldBremen from "../../content/stories/world-bremen.json";
+import v2LifeMarcus1 from "../../content/stories/life-marcus-1.json";
+import v2LifeWattles1 from "../../content/stories/life-wattles-1.json";
+import v2LifeRongo1 from "../../content/stories/life-rongo-1.json";
+import v2LifeYukkuri1 from "../../content/stories/life-yukkuri-1.json";
+import v2LifeSeneca1 from "../../content/stories/life-seneca-1.json";
+import v2LifeAllen1 from "../../content/stories/life-allen-1.json";
+import v2LifeSmiles1 from "../../content/stories/life-smiles-1.json";
+import v2LifeGakumon1 from "../../content/stories/life-gakumon-1.json";
+import v2LifeBushido1 from "../../content/stories/life-bushido-1.json";
+import v2LifeSmiles2 from "../../content/stories/life-smiles-2.json";
+import v2LifeIkari2 from "../../content/stories/life-ikari-2.json";
+import v2LifeSeneca2 from "../../content/stories/life-seneca-2.json";
+import v2LifeRongo2 from "../../content/stories/life-rongo-2.json";
+import v2LifeYukkuri2 from "../../content/stories/life-yukkuri-2.json";
+import v2LifeMarcus2 from "../../content/stories/life-marcus-2.json";
+import v2LifeIkari3 from "../../content/stories/life-ikari-3.json";
+import v2LifeAllen2 from "../../content/stories/life-allen-2.json";
+import v2LifeSeneca3 from "../../content/stories/life-seneca-3.json";
+import v2LifeSmiles3 from "../../content/stories/life-smiles-3.json";
+import v2LifeYukkuri3 from "../../content/stories/life-yukkuri-3.json";
+import v2LifeWattles2 from "../../content/stories/life-wattles-2.json";
+import v2LifeBushido2 from "../../content/stories/life-bushido-2.json";
+import v2LifeGakumon2 from "../../content/stories/life-gakumon-2.json";
+import v2LifeEpictetus3 from "../../content/stories/life-epictetus-3.json";
+import v2LifeAllen3 from "../../content/stories/life-allen-3.json";
+import v2LifeMarcus3 from "../../content/stories/life-marcus-3.json";
+import v2LifeIkari4 from "../../content/stories/life-ikari-4.json";
+import v2LifeSeneca4 from "../../content/stories/life-seneca-4.json";
+import v2LifeGakumon3 from "../../content/stories/life-gakumon-3.json";
+import v2LifeYukkuri4 from "../../content/stories/life-yukkuri-4.json";
+// --- hết kệ W: import ---
+// --- kệ ma & trinh thám (chuẩn v2): import ---
+import v2MysteryHoichi1 from "../../content/stories/mystery-hoichi-1.json";
+import v2MysteryHoichi2 from "../../content/stories/mystery-hoichi-2.json";
+import v2MysteryMujina1 from "../../content/stories/mystery-mujina-1.json";
+import s_worldNingyo1 from "../../content/stories/world-ningyo-1.json";
+import s_worldNingyo2 from "../../content/stories/world-ningyo-2.json";
+import s_worldJack from "../../content/stories/world-jack.json";
+import v2MysteryAkagami1 from "../../content/stories/mystery-akagami-1.json";
+import v2MysteryAkagami2 from "../../content/stories/mystery-akagami-2.json";
+import s_worldNagagutsu from "../../content/stories/world-nagagutsu.json";
+import s_worldRapunzel from "../../content/stories/world-rapunzel.json";
+import s_worldAladdin1 from "../../content/stories/world-aladdin-1.json";
+import s_worldAladdin2 from "../../content/stories/world-aladdin-2.json";
+import v2MysteryNisen1 from "../../content/stories/mystery-nisen-1.json";
+import v2MysteryNisen2 from "../../content/stories/mystery-nisen-2.json";
+import v2MysteryNisen3 from "../../content/stories/mystery-nisen-3.json";
+import s_worldAlibaba1 from "../../content/stories/world-alibaba-1.json";
+import s_worldAlibaba2 from "../../content/stories/world-alibaba-2.json";
+import s_worldBijo1 from "../../content/stories/world-bijo-1.json";
+import s_worldBijo2 from "../../content/stories/world-bijo-2.json";
+import s_worldYukinojoo1 from "../../content/stories/world-yukinojoo-1.json";
+import s_worldYukinojoo2 from "../../content/stories/world-yukinojoo-2.json";
+import s_worldVasilisa1 from "../../content/stories/world-vasilisa-1.json";
+import s_worldVasilisa2 from "../../content/stories/world-vasilisa-2.json";
+import s_worldSaruWani from "../../content/stories/world-saru-wani.json";
+import s_worldPinocchio1 from "../../content/stories/world-pinocchio-1.json";
+import s_worldPinocchio2 from "../../content/stories/world-pinocchio-2.json";
+import s_furusatoVnLaohac from "../../content/stories/furusato-vn-laohac.json";
+import s_furusatoVnVongphu1 from "../../content/stories/furusato-vn-vongphu-1.json";
+import s_furusatoVnTranglon1 from "../../content/stories/furusato-vn-tranglon-1.json";
+import s_furusatoCnLiangzhu1 from "../../content/stories/furusato-cn-liangzhu-1.json";
+import s_furusatoKrTokki1 from "../../content/stories/furusato-kr-tokki-1.json";
+import s_furusatoVnChipheo from "../../content/stories/furusato-vn-chipheo.json";
+import s_furusatoVnTatden1 from "../../content/stories/furusato-vn-tatden-1.json";
+import s_furusatoVnTatden2 from "../../content/stories/furusato-vn-tatden-2.json";
+// --- hết kệ ma & trinh thám: import ---
+
+// --- kệ S sách nổi tiếng (chuẩn v2): import ---
+import v2LifeDacnhan1 from "../../content/stories/life-dacnhan-1.json";
+import v2LifeDacnhan2 from "../../content/stories/life-dacnhan-2.json";
+import v2LifeDacnhan3 from "../../content/stories/life-dacnhan-3.json";
+import v2LifeDacnhan4 from "../../content/stories/life-dacnhan-4.json";
+import v2LifeShiki1 from "../../content/stories/life-shiki-1.json";
+import v2LifeShiki2 from "../../content/stories/life-shiki-2.json";
+import v2LifeShiki3 from "../../content/stories/life-shiki-3.json";
+import v2LifeShiki4 from "../../content/stories/life-shiki-4.json";
+import v2LifeEkikyo1 from "../../content/stories/life-ekikyo-1.json";
+import v2LifeEkikyo2 from "../../content/stories/life-ekikyo-2.json";
+// --- hết kệ S sách nổi tiếng: import ---
 
 export const VIDEOS: VideoContent[] = [
   video1 as unknown as VideoContent,
@@ -1372,6 +1506,138 @@ export const STORIES: StoryContent[] = [
   s_osakaHataraku06 as unknown as StoryContent,
   s_osakaHataraku07 as unknown as StoryContent,
   s_osakaHataraku08 as unknown as StoryContent,
+  s_furusatoVnSodo1 as unknown as StoryContent,
+  s_furusatoVnSodo2 as unknown as StoryContent,
+  s_furusatoVnSodo3 as unknown as StoryContent,
+  s_furusatoVnSodo4 as unknown as StoryContent,
+  s_maichan01 as unknown as StoryContent,
+  s_maichan02 as unknown as StoryContent,
+  s_maichan03 as unknown as StoryContent,
+  s_maichan04 as unknown as StoryContent,
+  // --- làm lại Mai-chan + văn học Nhật (chuẩn v2) ---
+  s_maichan05 as unknown as StoryContent,
+  s_maichan06 as unknown as StoryContent,
+  s_maichan07 as unknown as StoryContent,
+  s_maichan08 as unknown as StoryContent,
+  s_maichan09 as unknown as StoryContent,
+  s_maichan10 as unknown as StoryContent,
+  s_gongitsune1 as unknown as StoryContent,
+  s_gongitsune2 as unknown as StoryContent,
+  s_tebukuro1 as unknown as StoryContent,
+  s_tebukuro2 as unknown as StoryContent,
+  s_kumonoito1 as unknown as StoryContent,
+  s_chumon1 as unknown as StoryContent,
+  s_chumon2 as unknown as StoryContent,
+  s_toshishun1 as unknown as StoryContent,
+  s_toshishun2 as unknown as StoryContent,
+  s_torokko1 as unknown as StoryContent,
+  s_mikan1 as unknown as StoryContent,
+  // --- hết làm lại ---
+  s_furusatoVnKieu1 as unknown as StoryContent,
+  s_furusatoVnKieu2 as unknown as StoryContent,
+  s_furusatoVnKieu3 as unknown as StoryContent,
+  s_furusatoVnKieu4 as unknown as StoryContent,
+  s_furusatoVnQuynh1 as unknown as StoryContent,
+  s_furusatoVnQuynh2 as unknown as StoryContent,
+  s_furusatoVnQuynh3 as unknown as StoryContent,
+  s_furusatoVnHoangle1 as unknown as StoryContent,
+  s_furusatoVnHoangle2 as unknown as StoryContent,
+  s_furusatoVnHoangle3 as unknown as StoryContent,
+  s_furusatoVnThachlam1 as unknown as StoryContent,
+  s_furusatoVnThachlam2 as unknown as StoryContent,
+  s_furusatoVnThachlam3 as unknown as StoryContent,
+  s_worldCinderella1 as unknown as StoryContent,
+  s_worldCinderella2 as unknown as StoryContent,
+  s_worldShirayuki1 as unknown as StoryContent,
+  s_worldShirayuki2 as unknown as StoryContent,
+  s_worldHansel1 as unknown as StoryContent,
+  s_worldHansel2 as unknown as StoryContent,
+  s_worldAkazukin as unknown as StoryContent,
+  // --- kệ W triết lý sống (chuẩn v2) ---
+  v2LifeEpictetus1 as unknown as StoryContent,
+  v2LifeEpictetus2 as unknown as StoryContent,
+  v2LifeRoshi1 as unknown as StoryContent,
+  v2LifeIkari1 as unknown as StoryContent,
+  v2LifeMarcus1 as unknown as StoryContent,
+  v2LifeWattles1 as unknown as StoryContent,
+  v2LifeRongo1 as unknown as StoryContent,
+  v2LifeYukkuri1 as unknown as StoryContent,
+  v2LifeSeneca1 as unknown as StoryContent,
+  v2LifeAllen1 as unknown as StoryContent,
+  v2LifeSmiles1 as unknown as StoryContent,
+  v2LifeGakumon1 as unknown as StoryContent,
+  v2LifeBushido1 as unknown as StoryContent,
+  v2LifeSmiles2 as unknown as StoryContent,
+  v2LifeIkari2 as unknown as StoryContent,
+  v2LifeSeneca2 as unknown as StoryContent,
+  v2LifeRongo2 as unknown as StoryContent,
+  v2LifeYukkuri2 as unknown as StoryContent,
+  v2LifeMarcus2 as unknown as StoryContent,
+  v2LifeIkari3 as unknown as StoryContent,
+  v2LifeAllen2 as unknown as StoryContent,
+  v2LifeSeneca3 as unknown as StoryContent,
+  v2LifeSmiles3 as unknown as StoryContent,
+  v2LifeYukkuri3 as unknown as StoryContent,
+  v2LifeWattles2 as unknown as StoryContent,
+  v2LifeBushido2 as unknown as StoryContent,
+  v2LifeGakumon2 as unknown as StoryContent,
+  v2LifeEpictetus3 as unknown as StoryContent,
+  v2LifeAllen3 as unknown as StoryContent,
+  v2LifeMarcus3 as unknown as StoryContent,
+  v2LifeIkari4 as unknown as StoryContent,
+  v2LifeSeneca4 as unknown as StoryContent,
+  v2LifeGakumon3 as unknown as StoryContent,
+  v2LifeYukkuri4 as unknown as StoryContent,
+  // --- hết kệ W ---
+  s_worldBremen as unknown as StoryContent,
+  // --- kệ ma & trinh thám (chuẩn v2) ---
+  v2MysteryHoichi1 as unknown as StoryContent,
+  v2MysteryHoichi2 as unknown as StoryContent,
+  v2MysteryMujina1 as unknown as StoryContent,
+  v2MysteryAkagami1 as unknown as StoryContent,
+  v2MysteryAkagami2 as unknown as StoryContent,
+  v2MysteryNisen1 as unknown as StoryContent,
+  v2MysteryNisen2 as unknown as StoryContent,
+  v2MysteryNisen3 as unknown as StoryContent,
+  // --- hết kệ ma & trinh thám ---
+  s_worldNingyo1 as unknown as StoryContent,
+  s_worldNingyo2 as unknown as StoryContent,
+  s_worldJack as unknown as StoryContent,
+  s_worldNagagutsu as unknown as StoryContent,
+  s_worldRapunzel as unknown as StoryContent,
+  s_worldAladdin1 as unknown as StoryContent,
+  s_worldAladdin2 as unknown as StoryContent,
+  s_worldAlibaba1 as unknown as StoryContent,
+  s_worldAlibaba2 as unknown as StoryContent,
+  s_worldBijo1 as unknown as StoryContent,
+  s_worldBijo2 as unknown as StoryContent,
+  s_worldYukinojoo1 as unknown as StoryContent,
+  s_worldYukinojoo2 as unknown as StoryContent,
+  s_worldVasilisa1 as unknown as StoryContent,
+  s_worldVasilisa2 as unknown as StoryContent,
+  s_worldSaruWani as unknown as StoryContent,
+  s_worldPinocchio1 as unknown as StoryContent,
+  s_worldPinocchio2 as unknown as StoryContent,
+  s_furusatoVnLaohac as unknown as StoryContent,
+  s_furusatoVnVongphu1 as unknown as StoryContent,
+  s_furusatoVnTranglon1 as unknown as StoryContent,
+  s_furusatoCnLiangzhu1 as unknown as StoryContent,
+  s_furusatoKrTokki1 as unknown as StoryContent,
+  s_furusatoVnChipheo as unknown as StoryContent,
+  s_furusatoVnTatden1 as unknown as StoryContent,
+  s_furusatoVnTatden2 as unknown as StoryContent,
+  // --- kệ S sách nổi tiếng (chuẩn v2) ---
+  v2LifeDacnhan1 as unknown as StoryContent,
+  v2LifeDacnhan2 as unknown as StoryContent,
+  v2LifeDacnhan3 as unknown as StoryContent,
+  v2LifeDacnhan4 as unknown as StoryContent,
+  v2LifeShiki1 as unknown as StoryContent,
+  v2LifeShiki2 as unknown as StoryContent,
+  v2LifeShiki3 as unknown as StoryContent,
+  v2LifeShiki4 as unknown as StoryContent,
+  v2LifeEkikyo1 as unknown as StoryContent,
+  v2LifeEkikyo2 as unknown as StoryContent,
+  // --- hết kệ S sách nổi tiếng ---
 ];
 
 export function getVideo(id: string): VideoContent | undefined {

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { detailMetadata } from "../../../lib/seo";
 import WatchClient from "./WatchClient";
 import { getVideo, VIDEOS } from "../../../lib/content";
+import { gateVideo } from "../../../lib/gate";
 
 export function generateStaticParams() {
   return VIDEOS.map((v) => ({ id: v.id }));
@@ -10,7 +11,6 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
-  if (id.startsWith("custom-")) return { robots: { index: false, follow: false } };
   const video = getVideo(id);
   if (!video) return {};
   return detailMetadata({
@@ -28,10 +28,8 @@ export default async function WatchPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  if (id.startsWith("custom-")) {
-    return <WatchClient videoId={id} youtubeId={id.slice("custom-".length)} video={null} />;
-  }
   const video = getVideo(id);
   if (!video) notFound();
-  return <WatchClient videoId={id} youtubeId={video.youtubeId} video={video} />;
+  // Video VIP: trang tĩnh chỉ mang 2 câu đầu, phần còn lại tải qua /api/content khi có VIP
+  return <WatchClient videoId={id} youtubeId={video.youtubeId} video={gateVideo(video)} />;
 }

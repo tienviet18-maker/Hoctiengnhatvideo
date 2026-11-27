@@ -1,0 +1,4325 @@
+{
+  "kind": "story",
+  "id": "chumon-1",
+  "titles": {
+    "vi": "Nhà hàng lắm yêu cầu (phần 1)",
+    "en": "The Restaurant of Many Orders (Part 1)",
+    "zh-Hans": "要求很多的餐馆（上）",
+    "zh-Hant": "要求很多的餐館（上）",
+    "ko": "주문이 많은 요리점 (상)",
+    "tl": "Ang Kainang Maraming Hiling (Bahagi 1)",
+    "ne": "धेरै अर्डर भएको भोजनालय (भाग १)",
+    "id": "Restoran Banyak Pesanan (Bagian 1)",
+    "pt": "O Restaurante dos Muitos Pedidos (Parte 1)",
+    "my": "မှာစရာများတဲ့ စားသောက်ဆိုင် (အပိုင်း ၁)",
+    "th": "ภัตตาคารคำสั่งมาก (ตอนที่ 1)",
+    "si": "ඕඩර් ගොඩක් තියෙන අවන්හල (1 කොටස)"
+  },
+  "level": "N3",
+  "topic": "classic-literature",
+  "source": "aozora-adapted",
+  "cover": "/covers/chumon-1.webp",
+  "free": true,
+  "standard": 2,
+  "series": {
+    "id": "chumon",
+    "index": 1
+  },
+  "shelf": "literature",
+  "lesson": {
+    "grammarPoints": [
+      {
+        "pattern": "〜てみたい",
+        "example": 5,
+        "meaning": {
+          "vi": "Muốn thử ~ (thể て + みたい).",
+          "en": "Want to try ~ (て-form + みたい).",
+          "zh-Hans": "想试试……（て形＋みたい）。",
+          "zh-Hant": "想試試……（て形＋みたい）。",
+          "ko": "~해 보고 싶다.",
+          "tl": "Gustong subukang ~.",
+          "ne": "~ गरेर हेर्न मन छ।",
+          "id": "Ingin mencoba ~.",
+          "pt": "Querer experimentar ~.",
+          "my": "~ ကြည့်ချင်တယ်။",
+          "th": "อยากลอง ~",
+          "si": "~ කරලා බලන්න ඕනේ (て රූපය + みたい)."
+        }
+      },
+      {
+        "pattern": "〜てしまう",
+        "example": 8,
+        "meaning": {
+          "vi": "~ mất rồi (kết thúc, thường kèm tiếc nuối).",
+          "en": "End up ~ (completion, often with regret).",
+          "zh-Hans": "……了（完成，常带遗憾）。",
+          "zh-Hant": "……了（完成，常帶遺憾）。",
+          "ko": "~해 버리다 (완료, 유감).",
+          "tl": "Natapos/nauwi sa ~ (madalas may panghihinayang).",
+          "ne": "~ भइहाल्नु (पछुतो सहित)।",
+          "id": "Terlanjur ~ (sering menyesal).",
+          "pt": "Acabar ~ (muitas vezes com pesar).",
+          "my": "~ သွားတယ် (နောင်တ)။",
+          "th": "~ ไปเสียแล้ว (เสียดาย)",
+          "si": "~ කරලා ඉවරයි (සම්පූර්ණ වීම, බොහෝවිට කනගාටුවෙන්)."
+        }
+      },
+      {
+        "pattern": "〜ようじゃないか",
+        "example": 19,
+        "meaning": {
+          "vi": "Hãy cùng ~ đi chứ (rủ rê mạnh, giọng nam).",
+          "en": "Let's ~, shall we? (strong invitation, masculine).",
+          "zh-Hans": "我们……吧（强烈邀请，男性）。",
+          "zh-Hant": "我們……吧（強烈邀請，男性）。",
+          "ko": "~하지 않겠나 (강한 권유).",
+          "tl": "Tayo nang ~ (malakas na anyaya).",
+          "ne": "~ गरौँ न (बलियो आग्रह)।",
+          "id": "Ayo kita ~ (ajakan kuat).",
+          "pt": "Vamos ~! (convite enfático).",
+          "my": "~ ကြရအောင် (အားကောင်းတဲ့ ဖိတ်ခေါ်)။",
+          "th": "มา ~ กันเถอะ (ชวนหนักแน่น)",
+          "si": "~ කරමු නේද? (දැඩි ආරාධනාව, පිරිමි කතාව)."
+        }
+      },
+      {
+        "pattern": "〜らしい",
+        "example": 23,
+        "meaning": {
+          "vi": "Nghe nói / có vẻ ~ (dựa trên thông tin thấy được).",
+          "en": "Seems ~, apparently ~ (based on evidence).",
+          "zh-Hans": "好像……（根据信息推测）。",
+          "zh-Hant": "好像……（根據資訊推測）。",
+          "ko": "~인 것 같다 (근거 있는 추측).",
+          "tl": "Mukhang ~ (batay sa nakita).",
+          "ne": "~ जस्तो छ (प्रमाणका आधारमा)।",
+          "id": "Sepertinya ~ (berdasar bukti).",
+          "pt": "Parece que ~ (com base em indícios).",
+          "my": "~ ပုံရတယ် (အထောက်အထား)။",
+          "th": "ดูเหมือนว่า ~ (จากข้อมูล)",
+          "si": "~ වගේ, ~ ලු (සාක්ෂි මත)."
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "ja": "二人は、どこから来た人ですか。",
+        "choices": [
+          "大阪",
+          "山の村",
+          "東京",
+          "外国"
+        ],
+        "answer": 2,
+        "explain": {
+          "vi": "Họ là người giàu từ Tokyo đến (câu 2).",
+          "en": "Rich men from Tokyo (line 2).",
+          "zh-Hans": "从东京来的有钱人（第2句）。",
+          "zh-Hant": "從東京來的有錢人（第2句）。",
+          "ko": "도쿄에서 온 부자 (2번).",
+          "tl": "Mayaman mula Tokyo (2).",
+          "ne": "टोकियोबाट आएका धनी (२)।",
+          "id": "Orang kaya dari Tokyo (2).",
+          "pt": "Ricos de Tóquio (2).",
+          "my": "တိုကျိုက ချမ်းသာသူ (၂)။",
+          "th": "คนรวยจากโตเกียว (2)",
+          "si": "ටෝකියෝවල ඉඳලා ආපු පොහොසත් පිරිමි (පේළිය 2)."
+        },
+        "jaFurigana": [
+          {
+            "surface": "二人",
+            "reading": "ふたり"
+          },
+          {
+            "surface": "は、どこから",
+            "reading": ""
+          },
+          {
+            "surface": "来",
+            "reading": "き"
+          },
+          {
+            "surface": "た",
+            "reading": ""
+          },
+          {
+            "surface": "人",
+            "reading": "ひと"
+          },
+          {
+            "surface": "ですか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "大阪",
+              "reading": "おおさか"
+            }
+          ],
+          [
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "村",
+              "reading": "むら"
+            }
+          ],
+          [
+            {
+              "surface": "東京",
+              "reading": "とうきょう"
+            }
+          ],
+          [
+            {
+              "surface": "外国",
+              "reading": "がいこく"
+            }
+          ]
+        ]
+      },
+      {
+        "ja": "犬が死んだとき、二人は何の話ばかりしましたか。",
+        "choices": [
+          "お金のこと",
+          "犬の名前",
+          "山の天気",
+          "家族のこと"
+        ],
+        "answer": 0,
+        "explain": {
+          "vi": "Họ chỉ nói chuyện tiền (câu 10–12).",
+          "en": "They only talked about money (lines 10–12).",
+          "zh-Hans": "他们光谈钱（第10–12句）。",
+          "zh-Hant": "他們光談錢（第10–12句）。",
+          "ko": "돈 이야기만 했다 (10–12번).",
+          "tl": "Pera lang ang pinag-usapan (10–12).",
+          "ne": "पैसाको कुरा मात्र (१०–१२)।",
+          "id": "Hanya soal uang (10–12).",
+          "pt": "Só de dinheiro (10–12).",
+          "my": "ပိုက်ဆံအကြောင်းပဲ (၁၀–၁၂)။",
+          "th": "พูดแต่เรื่องเงิน (10–12)",
+          "si": "සල්ලි ගැන විතරයි කතා කළේ (පේළි 10–12)."
+        },
+        "jaFurigana": [
+          {
+            "surface": "犬",
+            "reading": "いぬ"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "死",
+            "reading": "し"
+          },
+          {
+            "surface": "んだとき、",
+            "reading": ""
+          },
+          {
+            "surface": "二人",
+            "reading": "ふたり"
+          },
+          {
+            "surface": "は",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "話",
+            "reading": "はなし"
+          },
+          {
+            "surface": "ばかりしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "金",
+              "reading": "かね"
+            },
+            {
+              "surface": "のこと",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "犬",
+              "reading": "いぬ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "名前",
+              "reading": "なまえ"
+            }
+          ],
+          [
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "天気",
+              "reading": "てんき"
+            }
+          ],
+          [
+            {
+              "surface": "家族",
+              "reading": "かぞく"
+            },
+            {
+              "surface": "のこと",
+              "reading": ""
+            }
+          ]
+        ]
+      },
+      {
+        "ja": "店の名前は何でしたか。",
+        "choices": [
+          "山犬軒",
+          "森の家",
+          "西洋軒",
+          "山猫軒"
+        ],
+        "answer": 3,
+        "explain": {
+          "vi": "Quán Mèo Rừng, 山猫軒 (câu 19).",
+          "en": "Wildcat House, 山猫軒 (line 19).",
+          "zh-Hans": "山猫轩（第19句）。",
+          "zh-Hant": "山貓軒（第19句）。",
+          "ko": "야마네코켄 (19번).",
+          "tl": "山猫軒 (19).",
+          "ne": "山猫軒 (१९)।",
+          "id": "山猫軒 (19).",
+          "pt": "山猫軒 (19).",
+          "my": "山猫軒 (၁၉)။",
+          "th": "山猫軒 (19)",
+          "si": "වල් බළලාගේ ගෙදර, 山猫軒 (පේළිය 19)."
+        },
+        "jaFurigana": [
+          {
+            "surface": "店",
+            "reading": "みせ"
+          },
+          {
+            "surface": "の",
+            "reading": ""
+          },
+          {
+            "surface": "名前",
+            "reading": "なまえ"
+          },
+          {
+            "surface": "は",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "でしたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "山犬",
+              "reading": "やまいぬ"
+            },
+            {
+              "surface": "軒",
+              "reading": "のき"
+            }
+          ],
+          [
+            {
+              "surface": "森",
+              "reading": "もり"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "家",
+              "reading": "いえ"
+            }
+          ],
+          [
+            {
+              "surface": "西洋",
+              "reading": "せいよう"
+            },
+            {
+              "surface": "軒",
+              "reading": "のき"
+            }
+          ],
+          [
+            {
+              "surface": "山猫軒",
+              "reading": "やまねこけん"
+            }
+          ]
+        ]
+      },
+      {
+        "ja": "「注文が多い」を、二人ははじめどう考えましたか。",
+        "choices": [
+          "料理が多いから",
+          "人気がある店だから",
+          "店がせまいから",
+          "店の人が少ないから"
+        ],
+        "answer": 1,
+        "explain": {
+          "vi": "Họ tưởng vì quán đông khách (câu 33).",
+          "en": "They thought it was a popular place (line 33).",
+          "zh-Hans": "以为是生意好（第33句）。",
+          "zh-Hant": "以為是生意好（第33句）。",
+          "ko": "인기 있는 가게라서 (33번).",
+          "tl": "Inakala nilang sikat ang lugar (33).",
+          "ne": "चल्तीको पसल भनेर (३३)।",
+          "id": "Dikira restorannya laris (33).",
+          "pt": "Acharam que era famoso (33).",
+          "my": "လူကြိုက်များလို့ ထင်တယ် (၃၃)။",
+          "th": "คิดว่าเพราะร้านดัง (33)",
+          "si": "ජනප්‍රිය කඩයක් කියලා හිතුවා (පේළිය 33)."
+        },
+        "jaFurigana": [
+          {
+            "surface": "「",
+            "reading": ""
+          },
+          {
+            "surface": "注文",
+            "reading": "ちゅうもん"
+          },
+          {
+            "surface": "が",
+            "reading": ""
+          },
+          {
+            "surface": "多",
+            "reading": "おお"
+          },
+          {
+            "surface": "い」を、",
+            "reading": ""
+          },
+          {
+            "surface": "二人",
+            "reading": "ふたり"
+          },
+          {
+            "surface": "ははじめどう",
+            "reading": ""
+          },
+          {
+            "surface": "考",
+            "reading": "かんが"
+          },
+          {
+            "surface": "えましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "料理",
+              "reading": "りょうり"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "多",
+              "reading": "おお"
+            },
+            {
+              "surface": "いから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "人気",
+              "reading": "にんき"
+            },
+            {
+              "surface": "がある",
+              "reading": ""
+            },
+            {
+              "surface": "店",
+              "reading": "みせ"
+            },
+            {
+              "surface": "だから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "店",
+              "reading": "みせ"
+            },
+            {
+              "surface": "がせまいから",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "店",
+              "reading": "みせ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            },
+            {
+              "surface": "が",
+              "reading": ""
+            },
+            {
+              "surface": "少",
+              "reading": "すく"
+            },
+            {
+              "surface": "ないから",
+              "reading": ""
+            }
+          ]
+        ]
+      },
+      {
+        "ja": "二人は、さいふやめがねをどうしましたか。",
+        "choices": [
+          "山にすてた",
+          "犬にあげた",
+          "金庫に入れた",
+          "ポケットに入れた"
+        ],
+        "answer": 2,
+        "explain": {
+          "vi": "Bỏ vào két sắt (câu 52).",
+          "en": "Put them in a safe (line 52).",
+          "zh-Hans": "放进了保险柜（第52句）。",
+          "zh-Hant": "放進了保險櫃（第52句）。",
+          "ko": "금고에 넣었다 (52번).",
+          "tl": "Inilagay sa kaha (52).",
+          "ne": "तिजोरीमा राखे (५२)।",
+          "id": "Masuk brankas (52).",
+          "pt": "No cofre (52).",
+          "my": "မီးခံသေတ္တာထဲ ထည့်တယ် (၅၂)။",
+          "th": "ใส่ตู้เซฟ (52)",
+          "si": "සේප්පුවට දැම්මා (පේළිය 52)."
+        },
+        "jaFurigana": [
+          {
+            "surface": "二人",
+            "reading": "ふたり"
+          },
+          {
+            "surface": "は、さいふやめがねをどうしましたか。",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "山",
+              "reading": "やま"
+            },
+            {
+              "surface": "にすてた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "犬",
+              "reading": "いぬ"
+            },
+            {
+              "surface": "にあげた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "金庫",
+              "reading": "きんこ"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "入",
+              "reading": "い"
+            },
+            {
+              "surface": "れた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "ポケットに",
+              "reading": ""
+            },
+            {
+              "surface": "入",
+              "reading": "い"
+            },
+            {
+              "surface": "れた",
+              "reading": ""
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "ja": "二人のわかい男が、山の奥を歩いていました。",
+      "furigana": [
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "のわかい",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "奥",
+          "reading": "おく"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "歩",
+          "reading": "ある"
+        },
+        {
+          "surface": "いていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Futari no wakai otoko ga, yama no oku o aruiteimashita.",
+      "translations": {
+        "vi": "Hai chàng trai trẻ đang đi sâu trong núi.",
+        "en": "Two young men were walking deep in the mountains.",
+        "zh-Hans": "两个年轻男人在深山里走着。",
+        "zh-Hant": "兩個年輕男人在深山裡走著。",
+        "ko": "두 젊은 남자가 산속 깊이 걷고 있었습니다.",
+        "tl": "Dalawang binata ang naglalakad sa kailaliman ng bundok.",
+        "ne": "दुई जना युवा पहाडको भित्री भागमा हिँडिरहेका थिए।",
+        "id": "Dua pemuda berjalan jauh di dalam gunung.",
+        "pt": "Dois rapazes andavam no fundo das montanhas.",
+        "my": "လူငယ် နှစ်ယောက် တောင်ထဲ နက်နက် လျှောက်နေတယ်။",
+        "th": "ชายหนุ่มสองคนเดินอยู่ในป่าเขาลึก",
+        "si": "තරුණ පිරිමි දෙන්නෙක් කඳුකරයේ ඈත ඇතුළට ඇවිදගෙන ගියා."
+      },
+      "vocab": [
+        {
+          "word": "奥",
+          "reading": "おく",
+          "meanings": {
+            "vi": "phía trong, buồng trong",
+            "en": "the inner part, back room",
+            "zh-Hans": "里面",
+            "zh-Hant": "裡面",
+            "ko": "안쪽",
+            "tl": "loob, likod na silid",
+            "ne": "भित्रपट्टि",
+            "id": "bagian dalam",
+            "pt": "fundo, interior",
+            "my": "အတွင်းဘက်",
+            "th": "ด้านใน",
+            "si": "ඇතුළත, ගැඹුර, පිටුපස කාමරය"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "奥 = phía sâu bên trong.",
+        "en": "奥 = the depths, interior.",
+        "zh-Hans": "奥＝深处。",
+        "zh-Hant": "奧＝深處。",
+        "ko": "깊은 곳.",
+        "tl": "kailaliman.",
+        "ne": "भित्री भाग।",
+        "id": "bagian dalam.",
+        "pt": "interior.",
+        "my": "အတွင်းပိုင်း။",
+        "th": "ส่วนลึก",
+        "si": "奥 = ඈත ඇතුළ."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=0.3,4.529",
+      "t": [
+        0.3,
+        4.529
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "二人とも、東京から来た、お金持ちの男です。",
+      "furigana": [
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "とも、",
+          "reading": ""
+        },
+        {
+          "surface": "東京",
+          "reading": "とうきょう"
+        },
+        {
+          "surface": "から",
+          "reading": ""
+        },
+        {
+          "surface": "来",
+          "reading": "き"
+        },
+        {
+          "surface": "た、お",
+          "reading": ""
+        },
+        {
+          "surface": "金持",
+          "reading": "かねも"
+        },
+        {
+          "surface": "ちの",
+          "reading": ""
+        },
+        {
+          "surface": "男",
+          "reading": "おとこ"
+        },
+        {
+          "surface": "です。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Futari tomo, toukyou kara kita, okanemochi no otoko desu.",
+      "translations": {
+        "vi": "Cả hai đều là những anh nhà giàu từ Tokyo đến.",
+        "en": "Both were rich men from Tokyo.",
+        "zh-Hans": "两人都是从东京来的有钱人。",
+        "zh-Hant": "兩人都是從東京來的有錢人。",
+        "ko": "두 사람 모두 도쿄에서 온 부자였습니다.",
+        "tl": "Pareho silang mayamang lalaki mula Tokyo.",
+        "ne": "दुवै टोकियोबाट आएका धनी थिए।",
+        "id": "Keduanya orang kaya dari Tokyo.",
+        "pt": "Os dois eram ricos, vindos de Tóquio.",
+        "my": "နှစ်ယောက်လုံး တိုကျိုက လာတဲ့ ချမ်းသာသူတွေ။",
+        "th": "ทั้งสองเป็นคนรวยมาจากโตเกียว",
+        "si": "දෙන්නම ටෝකියෝවල ඉඳලා ආපු පොහොසත් අය."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "お金持ち = người giàu. 〜とも = cả ~.",
+        "en": "お金持ち = rich person. 〜とも = both.",
+        "zh-Hans": "お金持ち＝有钱人。〜とも＝都。",
+        "zh-Hant": "お金持ち＝有錢人。〜とも＝都。",
+        "ko": "부자. 모두.",
+        "tl": "mayaman. pareho.",
+        "ne": "धनी। दुवै।",
+        "id": "orang kaya. keduanya.",
+        "pt": "rico. ambos.",
+        "my": "ချမ်းသာသူ။ နှစ်ယောက်လုံး။",
+        "th": "คนรวย ทั้งคู่",
+        "si": "お金持ち = පොහොසතා. 〜とも = දෙන්නම."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=5.129,9.113",
+      "t": [
+        5.129,
+        9.113
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "かたには、ぴかぴかの鉄砲をかついでいます。",
+      "furigana": [
+        {
+          "surface": "かたには、ぴかぴかの",
+          "reading": ""
+        },
+        {
+          "surface": "鉄砲",
+          "reading": "てっぽう"
+        },
+        {
+          "surface": "をかついでいます。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kata ni wa, pikapika no teppou o katsuideimasu.",
+      "translations": {
+        "vi": "Trên vai họ vác những khẩu súng sáng bóng.",
+        "en": "On their shoulders they carried shiny guns.",
+        "zh-Hans": "肩上扛着锃亮的猎枪。",
+        "zh-Hant": "肩上扛著鋥亮的獵槍。",
+        "ko": "어깨에는 번쩍번쩍한 총을 메고 있습니다.",
+        "tl": "May pasan silang makikintab na baril.",
+        "ne": "काँधमा टल्कने बन्दुक बोकेका थिए।",
+        "id": "Di bahu mereka tersandang senapan mengilap.",
+        "pt": "Nos ombros levavam espingardas reluzentes.",
+        "my": "ပခုံးပေါ်မှာ တောက်ပြောင်တဲ့ သေနတ် ထမ်းထားတယ်။",
+        "th": "บนบ่าแบกปืนเงาวับ",
+        "si": "උරහිස්වල දිලිසෙන තුවක්කු එල්ලගෙන."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "鉄砲 = súng. かつぐ = vác.",
+        "en": "鉄砲 = gun. かつぐ = shoulder.",
+        "zh-Hans": "鉄砲＝枪。かつぐ＝扛。",
+        "zh-Hant": "鉄砲＝槍。かつぐ＝扛。",
+        "ko": "총. 메다.",
+        "tl": "baril. pasanin.",
+        "ne": "बन्दुक। बोक्नु।",
+        "id": "senapan. memikul.",
+        "pt": "espingarda. carregar.",
+        "my": "သေနတ်။ ထမ်း။",
+        "th": "ปืน แบก",
+        "si": "鉄砲 = තුවක්කුව. かつぐ = උරහිසේ තියාගන්නවා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=9.713,13.498",
+      "t": [
+        9.713,
+        13.498
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "後ろには、白くて大きな犬が二ひき、ついてきています。",
+      "furigana": [
+        {
+          "surface": "後",
+          "reading": "うし"
+        },
+        {
+          "surface": "ろには、",
+          "reading": ""
+        },
+        {
+          "surface": "白",
+          "reading": "しろ"
+        },
+        {
+          "surface": "くて",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "おお"
+        },
+        {
+          "surface": "きな",
+          "reading": ""
+        },
+        {
+          "surface": "犬",
+          "reading": "いぬ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "二",
+          "reading": "に"
+        },
+        {
+          "surface": "ひき、ついてきています。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Ushiro ni wa, shirokute ookina inu ga nihiki, tsuitekiteimasu.",
+      "translations": {
+        "vi": "Phía sau là hai con chó trắng to lớn theo cùng.",
+        "en": "Behind them followed two big white dogs.",
+        "zh-Hans": "后面跟着两条又白又大的狗。",
+        "zh-Hant": "後面跟著兩條又白又大的狗。",
+        "ko": "뒤에는 크고 하얀 개 두 마리가 따라오고 있습니다.",
+        "tl": "Sa likod nila ay may dalawang malaking puting aso.",
+        "ne": "पछाडि दुईवटा ठूला सेता कुकुर पछ्याउँदै थिए।",
+        "id": "Di belakang mengikuti dua anjing putih besar.",
+        "pt": "Atrás vinham dois cachorros grandes e brancos.",
+        "my": "နောက်မှာ အဖြူရောင် ခွေးကြီး နှစ်ကောင် လိုက်လာတယ်။",
+        "th": "ข้างหลังมีสุนัขขาวตัวใหญ่สองตัวตามมา",
+        "si": "පිටිපස්සෙන් ලොකු සුදු බල්ලෝ දෙන්නෙක් එනවා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ついてくる = đi theo.",
+        "en": "ついてくる = follow along.",
+        "zh-Hans": "ついてくる＝跟着来。",
+        "zh-Hant": "ついてくる＝跟著來。",
+        "ko": "따라오다.",
+        "tl": "sumunod.",
+        "ne": "पछ्याउनु।",
+        "id": "mengikuti.",
+        "pt": "seguir.",
+        "my": "လိုက်လာ။",
+        "th": "ตามมา",
+        "si": "ついてくる = පස්සෙන් එනවා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=14.098,18.969",
+      "t": [
+        14.098,
+        18.969
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「このへんの山は、まったくだめだね。鳥も動物も、一ぴきもいない。」",
+      "furigana": [
+        {
+          "surface": "「このへんの",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "は、まったくだめだね。",
+          "reading": ""
+        },
+        {
+          "surface": "鳥",
+          "reading": "とり"
+        },
+        {
+          "surface": "も",
+          "reading": ""
+        },
+        {
+          "surface": "動物",
+          "reading": "どうぶつ"
+        },
+        {
+          "surface": "も、",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "いっ"
+        },
+        {
+          "surface": "ぴきもいない。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kono hen no yama wa, mattaku dame da ne. Tori mo doubutsu mo, ippiki mo inai.”",
+      "translations": {
+        "vi": "\"Núi vùng này dở thật. Chẳng có lấy một con chim hay con thú nào.\"",
+        "en": "\"The mountains around here are hopeless. Not a single bird or beast.\"",
+        "zh-Hans": "“这一带的山真不行。一只鸟一只野兽都没有。”",
+        "zh-Hant": "“這一帶的山真不行。一隻鳥一隻野獸都沒有。”",
+        "ko": "\"이 근처 산은 정말 형편없군. 새도 짐승도 한 마리도 없어.\"",
+        "tl": "\"Walang kuwenta ang bundok dito. Walang kahit isang ibon o hayop.\"",
+        "ne": "\"यहाँको पहाड बेकार रहेछ। चरा, जनावर एउटा पनि छैन।\"",
+        "id": "\"Gunung di sini payah. Tak ada seekor burung atau binatang pun.\"",
+        "pt": "\"As montanhas daqui são péssimas. Nem um pássaro, nem um bicho.\"",
+        "my": "\"ဒီနားက တောင်တွေ လုံးဝ မကောင်းဘူး။ ငှက်ရော တိရစ္ဆာန်ရော တစ်ကောင်မှ မရှိဘူး။\"",
+        "th": "\"ภูเขาแถวนี้แย่จริง ๆ ไม่มีนกหรือสัตว์สักตัว\"",
+        "si": "\"මේ පළාතේ කඳු නම් කිසිම වැඩක් නැහැ. කුරුල්ලෙක්වත් සතෙක්වත් එකෙක්වත් නැහැ.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "まったく = hoàn toàn. 〜も〜ない = không ~ nào cả.",
+        "en": "まったく = utterly. 〜も〜ない = not even ~.",
+        "zh-Hans": "まったく＝完全。〜も〜ない＝连……都没有。",
+        "zh-Hant": "まったく＝完全。〜も〜ない＝連……都沒有。",
+        "ko": "완전히. ~도 없다.",
+        "tl": "talaga. kahit ~ wala.",
+        "ne": "पूरै। ~ पनि छैन।",
+        "id": "sama sekali. ~ pun tidak.",
+        "pt": "totalmente. nem ~.",
+        "my": "လုံးဝ။ ~ မှ မရှိ။",
+        "th": "เลย ไม่มีสัก ~",
+        "si": "まったく = කොහෙත්ම. 〜も〜ない = ~ වත් නැහැ."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=19.869,25.07",
+      "t": [
+        19.869,
+        25.07
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「なんでもいいから、早くズドンと、うってみたいなあ。」",
+      "furigana": [
+        {
+          "surface": "「なんでもいいから、",
+          "reading": ""
+        },
+        {
+          "surface": "早",
+          "reading": "はや"
+        },
+        {
+          "surface": "くズドンと、うってみたいなあ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Nan demo ii kara, hayaku zudon to, uttemitai naa.”",
+      "translations": {
+        "vi": "\"Gì cũng được, tôi muốn bắn một phát 'đoàng' cho sướng tay.\"",
+        "en": "\"Anything will do—I just want to fire off a big bang!\"",
+        "zh-Hans": "“什么都行，真想‘砰’地打一枪。”",
+        "zh-Hant": "“什麼都行，真想‘砰’地打一槍。”",
+        "ko": "\"아무거나 좋으니 빨리 탕 하고 쏴 보고 싶다.\"",
+        "tl": "\"Kahit ano, gusto ko nang magpaputok!\"",
+        "ne": "\"जे भए पनि, छिटो ढ्याङ्ङ हानेर हेर्न मन छ।\"",
+        "id": "\"Apa saja boleh, aku ingin cepat-cepat menembak, dor!\"",
+        "pt": "\"Qualquer coisa serve, quero logo dar um tiro, bum!\"",
+        "my": "\"ဘာဖြစ်ဖြစ်၊ ဒိုင်းခနဲ မြန်မြန် ပစ်ကြည့်ချင်တယ်။\"",
+        "th": "\"อะไรก็ได้ อยากยิงปังสักนัด\"",
+        "si": "\"මොකක් වුණත් කමක් නැහැ, ඉක්මනට 'ඩුම්' ගාලා වෙඩි තියලා බලන්න ඕනේ.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜てみたい = muốn thử ~. ズドン = đoàng (tiếng súng).",
+        "en": "〜てみたい = want to try ~. ズドン = bang.",
+        "zh-Hans": "〜てみたい＝想试试……。ズドン＝砰。",
+        "zh-Hant": "〜てみたい＝想試試……。ズドン＝砰。",
+        "ko": "~해 보고 싶다. 탕.",
+        "tl": "gustong subukan. bang.",
+        "ne": "~ गरेर हेर्न मन। ढ्याङ्ङ।",
+        "id": "ingin mencoba ~. dor.",
+        "pt": "querer experimentar ~. bum.",
+        "my": "~ ကြည့်ချင်။ ဒိုင်း။",
+        "th": "อยากลอง ~ ปัง",
+        "si": "〜てみたい = ~ කරලා බලන්න ඕනේ. ズドン = ඩුම් (වෙඩි සද්දය)."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=25.97,29.495",
+      "t": [
+        25.97,
+        29.495
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "山の奥は、とても深くて、道案内の人も、どこかへ行ってしまいました。",
+      "furigana": [
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "奥",
+          "reading": "おく"
+        },
+        {
+          "surface": "は、とても",
+          "reading": ""
+        },
+        {
+          "surface": "深",
+          "reading": "ふか"
+        },
+        {
+          "surface": "くて、",
+          "reading": ""
+        },
+        {
+          "surface": "道案内",
+          "reading": "みちあんない"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "も、どこかへ",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "ってしまいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Yama no oku wa, totemo fukakute, michiannai no hito mo, doko ka e itteshimaimashita.",
+      "translations": {
+        "vi": "Rừng núi rất sâu, người dẫn đường cũng đã đi đâu mất.",
+        "en": "The mountains were so deep that even their guide had wandered off.",
+        "zh-Hans": "山里很深，连向导也不知去哪儿了。",
+        "zh-Hant": "山裡很深，連嚮導也不知去哪兒了。",
+        "ko": "산속이 너무 깊어서 길 안내인도 어디론가 가 버렸습니다.",
+        "tl": "Napakalalim ng bundok; pati ang gabay nila ay nawala.",
+        "ne": "पहाड धेरै गहिरो थियो, बाटो देखाउने मान्छे पनि कतै गयो।",
+        "id": "Gunungnya sangat dalam, pemandu jalan pun entah ke mana.",
+        "pt": "A mata era tão fundo que até o guia sumiu.",
+        "my": "တောင်က အရမ်း နက်ပြီး လမ်းပြလည်း ဘယ်ရောက်သွားမှန်း မသိဘူး။",
+        "th": "ป่าเขาลึกมาก คนนำทางก็หายไปไหนไม่รู้",
+        "si": "කඳුකරය හරිම ගැඹුරු නිසා, මඟ පෙන්නපු කෙනත් කොහෙටද ගිහින්."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "道案内 = người dẫn đường.",
+        "en": "道案内 = guide.",
+        "zh-Hans": "道案内＝向导。",
+        "zh-Hant": "道案內＝嚮導。",
+        "ko": "길 안내.",
+        "tl": "gabay.",
+        "ne": "बाटो देखाउने।",
+        "id": "pemandu jalan.",
+        "pt": "guia.",
+        "my": "လမ်းပြ။",
+        "th": "คนนำทาง",
+        "si": "道案内 = මඟ පෙන්වන්නා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=30.395,36.863",
+      "t": [
+        30.395,
+        36.863
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのとき、二ひきの犬が、急にたおれてしまいました。",
+      "furigana": [
+        {
+          "surface": "そのとき、",
+          "reading": ""
+        },
+        {
+          "surface": "二",
+          "reading": "に"
+        },
+        {
+          "surface": "ひきの",
+          "reading": ""
+        },
+        {
+          "surface": "犬",
+          "reading": "いぬ"
+        },
+        {
+          "surface": "が、",
+          "reading": ""
+        },
+        {
+          "surface": "急",
+          "reading": "きゅう"
+        },
+        {
+          "surface": "にたおれてしまいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono toki, nihiki no inu ga, kyuu ni taoreteshimaimashita.",
+      "translations": {
+        "vi": "Đúng lúc đó, hai con chó bỗng ngã gục.",
+        "en": "Just then, the two dogs suddenly collapsed.",
+        "zh-Hans": "就在这时，两条狗突然倒下了。",
+        "zh-Hant": "就在這時，兩條狗突然倒下了。",
+        "ko": "그때 개 두 마리가 갑자기 쓰러지고 말았습니다.",
+        "tl": "Noon din, biglang bumagsak ang dalawang aso.",
+        "ne": "त्यही बेला दुवै कुकुर अचानक ढले।",
+        "id": "Saat itu, kedua anjing tiba-tiba roboh.",
+        "pt": "Nisso, os dois cachorros caíram de repente.",
+        "my": "အဲဒီအချိန်မှာ ခွေးနှစ်ကောင် ရုတ်တရက် လဲကျသွားတယ်။",
+        "th": "ทันใดนั้น สุนัขสองตัวก็ล้มลง",
+        "si": "එතකොට, බල්ලෝ දෙන්නා එකපාරටම බිම වැටුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "たおれる = ngã gục.",
+        "en": "たおれる = collapse.",
+        "zh-Hans": "たおれる＝倒下。",
+        "zh-Hant": "たおれる＝倒下。",
+        "ko": "쓰러지다.",
+        "tl": "bumagsak.",
+        "ne": "ढल्नु।",
+        "id": "roboh.",
+        "pt": "cair.",
+        "my": "လဲကျ။",
+        "th": "ล้ม",
+        "si": "たおれる = ඇදගෙන වැටෙනවා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=37.463,41.74",
+      "t": [
+        37.463,
+        41.74
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "しばらくうなって、それから、口からあわをはいて、死んでしまいました。",
+      "furigana": [
+        {
+          "surface": "しばらくうなって、それから、",
+          "reading": ""
+        },
+        {
+          "surface": "口",
+          "reading": "くち"
+        },
+        {
+          "surface": "からあわをはいて、",
+          "reading": ""
+        },
+        {
+          "surface": "死",
+          "reading": "し"
+        },
+        {
+          "surface": "んでしまいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Shibaraku unatte, sorekara, kuchi kara awa o haite, shindeshimaimashita.",
+      "translations": {
+        "vi": "Chúng rên một lúc, rồi sùi bọt mép mà chết.",
+        "en": "They groaned a while, foamed at the mouth, and died.",
+        "zh-Hans": "呻吟了一会儿，然后口吐白沫死了。",
+        "zh-Hant": "呻吟了一會兒，然後口吐白沫死了。",
+        "ko": "한동안 신음하더니 입에서 거품을 토하고 죽어 버렸습니다.",
+        "tl": "Umungol sila, bumula ang bibig, at namatay.",
+        "ne": "केही बेर गुर्राएर मुखबाट फिँज निकाल्दै मरे।",
+        "id": "Mereka mengerang sebentar, berbusa mulutnya, lalu mati.",
+        "pt": "Gemeram um pouco, espumaram pela boca e morreram.",
+        "my": "ခဏ ညည်းပြီး ပါးစပ်က အမြှုပ်ထွက်ပြီး သေသွားတယ်။",
+        "th": "ครางอยู่สักพัก น้ำลายฟูมปากแล้วก็ตาย",
+        "si": "ටික වෙලාවක් කෙඳිරිගාලා, ඊට පස්සේ කටින් පෙණ දාලා මැරිලා ගියා."
+      },
+      "vocab": [
+        {
+          "word": "うなる",
+          "reading": "うなる",
+          "meanings": {
+            "vi": "gầm gừ, rên",
+            "en": "growl, groan",
+            "zh-Hans": "低吼",
+            "zh-Hant": "低吼",
+            "ko": "으르렁거리다",
+            "tl": "umungol",
+            "ne": "गुर्राउनु",
+            "id": "menggeram",
+            "pt": "rosnar",
+            "my": "ညည်း",
+            "th": "คำราม",
+            "si": "ගොරවනවා, කෙඳිරිගානවා"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "あわ = bọt. 死ぬ = chết.",
+        "en": "あわ = foam. 死ぬ = die.",
+        "zh-Hans": "あわ＝泡沫。死ぬ＝死。",
+        "zh-Hant": "あわ＝泡沫。死ぬ＝死。",
+        "ko": "거품. 죽다.",
+        "tl": "bula. mamatay.",
+        "ne": "फिँज। मर्नु।",
+        "id": "busa. mati.",
+        "pt": "espuma. morrer.",
+        "my": "အမြှုပ်။ သေ။",
+        "th": "ฟอง ตาย",
+        "si": "あわ = පෙණ. 死ぬ = මැරෙනවා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=42.34,48.333",
+      "t": [
+        42.34,
+        48.333
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ああ、二千四百円の犬が、だめになってしまった。」",
+      "furigana": [
+        {
+          "surface": "「ああ、",
+          "reading": ""
+        },
+        {
+          "surface": "二千四百円",
+          "reading": "にせんよんひゃくえん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "犬",
+          "reading": "いぬ"
+        },
+        {
+          "surface": "が、だめになってしまった。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Aa, nisen'yonhyakuen no inu ga, dame ni natteshimatta.”",
+      "translations": {
+        "vi": "\"Ôi, con chó 2.400 yên của tôi tiêu rồi.\"",
+        "en": "\"Oh, my 2,400-yen dog is ruined.\"",
+        "zh-Hans": "“唉，我那条两千四百日元的狗完了。”",
+        "zh-Hant": "“唉，我那條兩千四百日元的狗完了。”",
+        "ko": "\"아아, 2,400엔짜리 개가 못쓰게 됐네.\"",
+        "tl": "\"Naku, nasayang ang 2,400-yen kong aso.\"",
+        "ne": "\"ओहो, मेरो २४०० येनको कुकुर गयो।\"",
+        "id": "\"Aduh, anjingku seharga 2.400 yen mati.\"",
+        "pt": "\"Ah, meu cachorro de 2.400 ienes se foi.\"",
+        "my": "\"အို၊ ယန်း ၂၄၀၀ တန် ခွေး ဆုံးသွားပြီ။\"",
+        "th": "\"โธ่ หมา 2,400 เยนของฉันตายเสียแล้ว\"",
+        "si": "\"අයියෝ, යෙන් දෙදහස් හාරසීයක බල්ලා නාස්ති වුණා.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "だめになる = hỏng mất.",
+        "en": "だめになる = be ruined.",
+        "zh-Hans": "だめになる＝完了。",
+        "zh-Hant": "だめになる＝完了。",
+        "ko": "못쓰게 되다.",
+        "tl": "masira.",
+        "ne": "बिग्रनु।",
+        "id": "rusak.",
+        "pt": "estragar.",
+        "my": "ပျက်သွား။",
+        "th": "เสียหาย",
+        "si": "だめになる = නාස්ති වෙනවා, විනාශ වෙනවා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=49.233,53.059",
+      "t": [
+        49.233,
+        53.059
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「ぼくの犬は、二千八百円だったんだぞ。」",
+      "furigana": [
+        {
+          "surface": "「ぼくの",
+          "reading": ""
+        },
+        {
+          "surface": "犬",
+          "reading": "いぬ"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "二千八百円",
+          "reading": "にせんはっぴゃくえん"
+        },
+        {
+          "surface": "だったんだぞ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Boku no inu wa, nisenhappyakuen datta n da zo.”",
+      "translations": {
+        "vi": "\"Chó của tôi những 2.800 yên đấy.\"",
+        "en": "\"Mine cost 2,800 yen, you know.\"",
+        "zh-Hans": "“我的狗可是两千八百日元的。”",
+        "zh-Hant": "“我的狗可是兩千八百日元的。”",
+        "ko": "\"내 개는 2,800엔이었다고.\"",
+        "tl": "\"Ang aso ko ay 2,800 yen.\"",
+        "ne": "\"मेरो कुकुर त २८०० येनको थियो।\"",
+        "id": "\"Anjingku 2.800 yen, tahu.\"",
+        "pt": "\"O meu custou 2.800 ienes!\"",
+        "my": "\"ငါ့ခွေးက ယန်း ၂၈၀၀ တန်ဗျ။\"",
+        "th": "\"หมาฉันตั้ง 2,800 เยนนะ\"",
+        "si": "\"මගේ බල්ලා යෙන් දෙදහස් අටසීයයි, දන්නවද.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜んだぞ = (nhấn mạnh) ~ đấy.",
+        "en": "〜んだぞ = (emphasis) ~, you know.",
+        "zh-Hans": "〜んだぞ＝……呢（强调）。",
+        "zh-Hant": "〜んだぞ＝……呢（強調）。",
+        "ko": "~란 말이야.",
+        "tl": "(diin).",
+        "ne": "(जोड)।",
+        "id": "(penegasan).",
+        "pt": "(ênfase).",
+        "my": "(အလေးပေး)။",
+        "th": "(เน้น)",
+        "si": "〜んだぞ = (අවධාරණය) ~ දන්නවද."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=53.959,57.029",
+      "t": [
+        53.959,
+        57.029
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "二人は、犬が死んだことより、お金のことばかり話しました。",
+      "furigana": [
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "犬",
+          "reading": "いぬ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "死",
+          "reading": "し"
+        },
+        {
+          "surface": "んだことより、お",
+          "reading": ""
+        },
+        {
+          "surface": "金",
+          "reading": "かね"
+        },
+        {
+          "surface": "のことばかり",
+          "reading": ""
+        },
+        {
+          "surface": "話",
+          "reading": "はな"
+        },
+        {
+          "surface": "しました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Futari wa, inu ga shinda koto yori, okane no koto bakari hanashimashita.",
+      "translations": {
+        "vi": "Hai người không nói chuyện chó chết, mà chỉ toàn nói chuyện tiền.",
+        "en": "Rather than the dogs' deaths, the two talked only about money.",
+        "zh-Hans": "比起狗死了，两人光谈钱的事。",
+        "zh-Hant": "比起狗死了，兩人光談錢的事。",
+        "ko": "두 사람은 개가 죽은 것보다 돈 이야기만 했습니다.",
+        "tl": "Mas pera pa ang pinag-usapan nila kaysa sa namatay na aso.",
+        "ne": "दुवैले कुकुर मरेको भन्दा पैसाको कुरा मात्र गरे।",
+        "id": "Keduanya lebih membicarakan uang daripada kematian anjing.",
+        "pt": "Mais que a morte dos cães, falavam só de dinheiro.",
+        "my": "နှစ်ယောက်လုံး ခွေးသေတာထက် ပိုက်ဆံအကြောင်းပဲ ပြောတယ်။",
+        "th": "สองคนพูดแต่เรื่องเงิน มากกว่าเรื่องหมาตาย",
+        "si": "දෙන්නා බල්ලෝ මැරුණ එකට වඩා, සල්ලි ගැන විතරයි කතා කළේ."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜より = hơn là ~. 〜ばかり = chỉ toàn ~.",
+        "en": "〜より = rather than ~. 〜ばかり = nothing but ~.",
+        "zh-Hans": "〜より＝比起……。〜ばかり＝光……。",
+        "zh-Hant": "〜より＝比起……。〜ばかり＝光……。",
+        "ko": "~보다. ~만.",
+        "tl": "kaysa ~. puro ~.",
+        "ne": "~ भन्दा। मात्र।",
+        "id": "daripada ~. hanya ~.",
+        "pt": "mais que ~. só ~.",
+        "my": "~ ထက်။ ~ ချည်း။",
+        "th": "มากกว่า ~ แต่ ~",
+        "si": "〜より = ~ ට වඩා. 〜ばかり = ~ ම විතරයි."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=57.929,63.015",
+      "t": [
+        57.929,
+        63.015
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "風がどうとふいて、草はざわざわ、木の葉はかさかさ鳴りました。",
+      "furigana": [
+        {
+          "surface": "風",
+          "reading": "かぜ"
+        },
+        {
+          "surface": "がどうとふいて、",
+          "reading": ""
+        },
+        {
+          "surface": "草",
+          "reading": "くさ"
+        },
+        {
+          "surface": "はざわざわ、",
+          "reading": ""
+        },
+        {
+          "surface": "木",
+          "reading": "こ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "葉",
+          "reading": "は"
+        },
+        {
+          "surface": "はかさかさ",
+          "reading": ""
+        },
+        {
+          "surface": "鳴",
+          "reading": "な"
+        },
+        {
+          "surface": "りました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Kaze ga dou to fuite, kusa wa zawazawa, konoha wa kasakasa narimashita.",
+      "translations": {
+        "vi": "Gió thổi ào ào, cỏ xào xạc, lá cây lao xao.",
+        "en": "The wind blew hard; the grass rustled, the leaves rattled.",
+        "zh-Hans": "风呼呼地吹，草沙沙作响，树叶哗哗地响。",
+        "zh-Hant": "風呼呼地吹，草沙沙作響，樹葉嘩嘩地響。",
+        "ko": "바람이 휭 불고, 풀은 사각사각, 나뭇잎은 바스락바스락 울렸습니다.",
+        "tl": "Humihip ang hangin; kumaluskos ang damo at dahon.",
+        "ne": "हावा सुसाउँदै चल्यो, घाँस सरसर, पात खसखस गरे।",
+        "id": "Angin bertiup kencang, rumput berdesir, daun bergemerisik.",
+        "pt": "O vento soprou forte; o capim farfalhou, as folhas chiaram.",
+        "my": "လေ ဝုန်းခနဲ တိုက်ပြီး မြက်တွေ တရှဲရှဲ၊ သစ်ရွက်တွေ တဖျပ်ဖျပ် မြည်တယ်။",
+        "th": "ลมพัดวู่ หญ้าไหวซู่ซ่า ใบไม้ดังกรอบแกรบ",
+        "si": "සුළඟ හූ ගාලා හැමුවා, තණකොළ සර සර ගාලා, ගස් කොළ කර කර ගාලා සද්ද කළා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "Câu lặp nổi tiếng của nguyên tác. ざわざわ/かさかさ = tiếng xào xạc.",
+        "en": "A famous refrain from the original. ざわざわ/かさかさ = rustling sounds.",
+        "zh-Hans": "原作中有名的反复句。ざわざわ/かさかさ＝沙沙声。",
+        "zh-Hant": "原作中有名的反覆句。ざわざわ/かさかさ＝沙沙聲。",
+        "ko": "원작의 유명한 반복구.",
+        "tl": "Sikat na ulit sa orihinal.",
+        "ne": "मूल कथाको प्रसिद्ध दोहोरिने वाक्य।",
+        "id": "Kalimat berulang yang terkenal.",
+        "pt": "Refrão famoso do original.",
+        "my": "မူရင်း နာမည်ကြီး ထပ်ကျော့စာ။",
+        "th": "ประโยคซ้ำอันโด่งดังของต้นฉบับ",
+        "si": "මුල් කතාවේ ප්‍රසිද්ධ පුනරාවර්තන පේළිය. ざわざわ/かさかさ = සරසර සද්ද."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=63.615,69.104",
+      "t": [
+        63.615,
+        69.104
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ぼくは、もう帰ろうと思う。おなかもすいたし、寒くなってきた。」",
+      "furigana": [
+        {
+          "surface": "「ぼくは、もう",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "ろうと",
+          "reading": ""
+        },
+        {
+          "surface": "思",
+          "reading": "おも"
+        },
+        {
+          "surface": "う。おなかもすいたし、",
+          "reading": ""
+        },
+        {
+          "surface": "寒",
+          "reading": "さむ"
+        },
+        {
+          "surface": "くなってきた。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Boku wa, mou kaerou to omou. Onaka mo suita shi, samuku nattekita.”",
+      "translations": {
+        "vi": "\"Tôi muốn về rồi. Vừa đói, trời lại lạnh dần.\"",
+        "en": "\"I think I'll head back. I'm hungry, and it's getting cold.\"",
+        "zh-Hans": "“我想回去了。肚子饿了，天也冷起来了。”",
+        "zh-Hant": "“我想回去了。肚子餓了，天也冷起來了。”",
+        "ko": "\"난 이제 돌아가려고. 배도 고프고 추워졌어.\"",
+        "tl": "\"Uuwi na ako. Gutom na ako at lumalamig pa.\"",
+        "ne": "\"म अब फर्कन्छु। भोक पनि लाग्यो, चिसो पनि भयो।\"",
+        "id": "\"Aku mau pulang. Lapar, dan mulai dingin.\"",
+        "pt": "\"Acho que vou voltar. Estou com fome e esfriou.\"",
+        "my": "\"ငါ ပြန်တော့မယ်။ ဗိုက်လည်း ဆာပြီ၊ အေးလာပြီ။\"",
+        "th": "\"ฉันจะกลับแล้ว หิวด้วย หนาวขึ้นด้วย\"",
+        "si": "\"මම නම් ආපහු යන්න හිතනවා. බඩත් ගිනියි, සීතලත් වැඩි වෙනවා.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜し = vừa ~ (nêu lý do). 〜てくる = dần ~.",
+        "en": "〜し = and also (listing reasons). 〜てくる = become gradually.",
+        "zh-Hans": "〜し＝又……（列举理由）。〜てくる＝……起来。",
+        "zh-Hant": "〜し＝又……（列舉理由）。〜てくる＝……起來。",
+        "ko": "~고 (이유). ~해지다.",
+        "tl": "at saka. unti-unting ~.",
+        "ne": "~ पनि। बिस्तारै ~।",
+        "id": "lagi pula. mulai ~.",
+        "pt": "e também. ir ~.",
+        "my": "~ လည်း။ ~ လာ။",
+        "th": "ทั้ง ~ ค่อย ๆ ~",
+        "si": "〜し = ~ ත් (හේතු ලැයිස්තුව). 〜てくる = ක්‍රමයෙන් ~ වෙනවා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=70.004,75.075",
+      "t": [
+        70.004,
+        75.075
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「そうだね。帰りに、町で鳥を買っていこう。」",
+      "furigana": [
+        {
+          "surface": "「そうだね。",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "りに、",
+          "reading": ""
+        },
+        {
+          "surface": "町",
+          "reading": "まち"
+        },
+        {
+          "surface": "で",
+          "reading": ""
+        },
+        {
+          "surface": "鳥",
+          "reading": "とり"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "買",
+          "reading": "か"
+        },
+        {
+          "surface": "っていこう。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Sou da ne. Kaeri ni, machi de tori o katteikou.”",
+      "translations": {
+        "vi": "\"Ừ. Lúc về, mua chim ở phố mang về vậy.\"",
+        "en": "\"Right. On the way, let's buy some birds in town.\"",
+        "zh-Hans": "“是啊。回去时在镇上买点鸟吧。”",
+        "zh-Hant": "“是啊。回去時在鎮上買點鳥吧。”",
+        "ko": "\"그래. 돌아가는 길에 마을에서 새를 사 가자.\"",
+        "tl": "\"Sige. Pauwi, bumili tayo ng ibon sa bayan.\"",
+        "ne": "\"हो। फर्कँदा सहरमा चरा किनेर जाऔँ।\"",
+        "id": "\"Iya. Pulangnya, beli burung di kota saja.\"",
+        "pt": "\"Certo. Na volta, compramos aves na cidade.\"",
+        "my": "\"ဟုတ်တယ်။ ပြန်ရင် မြို့မှာ ငှက် ဝယ်သွားမယ်။\"",
+        "th": "\"ใช่ ขากลับซื้อนกในเมืองไปละกัน\"",
+        "si": "\"ඔව්. යන ගමන් නගරෙන් කුරුල්ලෝ ටිකක් ගෙනියමු.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "帰りに = trên đường về.",
+        "en": "帰りに = on the way back.",
+        "zh-Hans": "帰りに＝回去的路上。",
+        "zh-Hant": "帰りに＝回去的路上。",
+        "ko": "돌아가는 길에.",
+        "tl": "pauwi.",
+        "ne": "फर्कँदा।",
+        "id": "saat pulang.",
+        "pt": "na volta.",
+        "my": "ပြန်ရင်း။",
+        "th": "ขากลับ",
+        "si": "帰りに = ආපහු යන ගමන්."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=75.975,79.388",
+      "t": [
+        75.975,
+        79.388
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "ところが、どっちへ行けば帰れるのか、もうわかりません。",
+      "furigana": [
+        {
+          "surface": "ところが、どっちへ",
+          "reading": ""
+        },
+        {
+          "surface": "行",
+          "reading": "い"
+        },
+        {
+          "surface": "けば",
+          "reading": ""
+        },
+        {
+          "surface": "帰",
+          "reading": "かえ"
+        },
+        {
+          "surface": "れるのか、もうわかりません。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tokoroga, dotchi e ikeba kaereru no ka, mou wakarimasen.",
+      "translations": {
+        "vi": "Thế nhưng, đi hướng nào mới về được, họ không còn biết nữa.",
+        "en": "But they no longer knew which way led home.",
+        "zh-Hans": "可是，已经不知道该往哪儿走才能回去了。",
+        "zh-Hant": "可是，已經不知道該往哪兒走才能回去了。",
+        "ko": "그런데 어느 쪽으로 가야 돌아갈 수 있는지 이제 알 수 없었습니다.",
+        "tl": "Pero hindi na nila alam kung saan ang daan pauwi.",
+        "ne": "तर कता गए फर्किन सकिन्छ, थाहा भएन।",
+        "id": "Namun mereka tak tahu lagi arah pulang.",
+        "pt": "Mas já não sabiam por onde voltar.",
+        "my": "ဒါပေမဲ့ ဘယ်ဘက် သွားရင် ပြန်ရောက်မလဲ မသိတော့ဘူး။",
+        "th": "แต่ไม่รู้แล้วว่าไปทางไหนจะกลับได้",
+        "si": "ඒත්, කොයි පැත්තට ගියොත්ද ගෙදර යන්න පුළුවන් කියලා දැන් තේරෙන්නේ නැහැ."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜ば = nếu ~. 〜のか = (câu hỏi lồng).",
+        "en": "〜ば = if ~. 〜のか = (embedded question).",
+        "zh-Hans": "〜ば＝如果……。〜のか＝（间接疑问）。",
+        "zh-Hant": "〜ば＝如果……。〜のか＝（間接疑問）。",
+        "ko": "~하면. (간접의문).",
+        "tl": "kung ~. (tanong).",
+        "ne": "~ भने। (प्रश्न)।",
+        "id": "kalau ~. (tanya).",
+        "pt": "se ~. (pergunta).",
+        "my": "~ ရင်။ (မေးခွန်း)။",
+        "th": "ถ้า ~ (คำถาม)",
+        "si": "〜ば = ~ නම්. 〜のか = (ඇතුළත් ප්‍රශ්නය)."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=80.288,84.789",
+      "t": [
+        80.288,
+        84.789
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そのとき、ふと後ろを見ると、りっぱな西洋の家が一けん、立っていました。",
+      "furigana": [
+        {
+          "surface": "そのとき、ふと",
+          "reading": ""
+        },
+        {
+          "surface": "後",
+          "reading": "うし"
+        },
+        {
+          "surface": "ろを",
+          "reading": ""
+        },
+        {
+          "surface": "見",
+          "reading": "み"
+        },
+        {
+          "surface": "ると、りっぱな",
+          "reading": ""
+        },
+        {
+          "surface": "西洋",
+          "reading": "せいよう"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "家",
+          "reading": "いえ"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "一",
+          "reading": "いっ"
+        },
+        {
+          "surface": "けん、",
+          "reading": ""
+        },
+        {
+          "surface": "立",
+          "reading": "た"
+        },
+        {
+          "surface": "っていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Sono toki, futo ushiro o miru to, rippa na seiyou no ie ga ikken, tatteimashita.",
+      "translations": {
+        "vi": "Lúc ấy, chợt ngoảnh lại, họ thấy một ngôi nhà kiểu Tây sang trọng.",
+        "en": "Then, glancing back, they saw a fine Western-style house.",
+        "zh-Hans": "这时，偶然回头一看，立着一栋气派的西式房子。",
+        "zh-Hant": "這時，偶然回頭一看，立著一棟氣派的西式房子。",
+        "ko": "그때 문득 뒤를 보니 훌륭한 서양식 집이 한 채 서 있었습니다.",
+        "tl": "Napalingon sila at may nakitang magarang bahay na pang-Kanluran.",
+        "ne": "त्यही बेला पछाडि हेर्दा एउटा भव्य पश्चिमी घर उभिएको थियो।",
+        "id": "Saat menoleh, berdiri sebuah rumah bergaya Barat yang megah.",
+        "pt": "Então, olhando para trás, viram uma bela casa ocidental.",
+        "my": "အဲဒီအချိန် နောက်ကို ကြည့်လိုက်တော့ ခန့်ညားတဲ့ အနောက်တိုင်း အိမ်တစ်လုံး ရှိတယ်။",
+        "th": "ตอนนั้นหันกลับไปมอง ก็เห็นบ้านแบบตะวันตกหรูหลังหนึ่ง",
+        "si": "එතකොට අහම්බෙන් පිටිපස්ස බැලුවාම, ලස්සන බටහිර විලාසිතාවේ ගෙයක් තිබුණා."
+      },
+      "vocab": [
+        {
+          "word": "ふと",
+          "reading": "ふと",
+          "meanings": {
+            "vi": "bỗng nhiên, chợt",
+            "en": "suddenly, casually",
+            "zh-Hans": "忽然",
+            "zh-Hant": "忽然",
+            "ko": "문득",
+            "tl": "bigla",
+            "ne": "अचानक",
+            "id": "tiba-tiba",
+            "pt": "de repente",
+            "my": "ရုတ်တရက်",
+            "th": "ทันใดนั้น",
+            "si": "හදිසියේම, නොහිතපු විදිහට"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "りっぱ = sang trọng. 西洋 = phương Tây.",
+        "en": "りっぱ = splendid. 西洋 = Western.",
+        "zh-Hans": "りっぱ＝气派。西洋＝西洋。",
+        "zh-Hant": "りっぱ＝氣派。西洋＝西洋。",
+        "ko": "훌륭하다. 서양.",
+        "tl": "magara. Kanluran.",
+        "ne": "भव्य। पश्चिमी।",
+        "id": "megah. Barat.",
+        "pt": "esplêndido. ocidental.",
+        "my": "ခန့်ညား။ အနောက်တိုင်း။",
+        "th": "หรูหรา ตะวันตก",
+        "si": "りっぱ = අලංකාර, ශ්‍රේෂ්ඨ. 西洋 = බටහිර."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=85.389,91.921",
+      "t": [
+        85.389,
+        91.921
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "入り口には、こんなかんばんが、かかっていました。",
+      "furigana": [
+        {
+          "surface": "入",
+          "reading": "い"
+        },
+        {
+          "surface": "り",
+          "reading": ""
+        },
+        {
+          "surface": "口",
+          "reading": "くち"
+        },
+        {
+          "surface": "には、こんなかんばんが、かかっていました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Irikuchi ni wa, konna kanban ga, kakatteimashita.",
+      "translations": {
+        "vi": "Ở lối vào có treo tấm biển như sau.",
+        "en": "At the entrance hung a sign like this.",
+        "zh-Hans": "门口挂着这样一块招牌。",
+        "zh-Hant": "門口掛著這樣一塊招牌。",
+        "ko": "입구에는 이런 간판이 걸려 있었습니다.",
+        "tl": "Sa pasukan ay may karatulang ganito.",
+        "ne": "ढोकामा यस्तो साइनबोर्ड झुन्डिएको थियो।",
+        "id": "Di pintu masuk tergantung papan seperti ini.",
+        "pt": "Na entrada havia uma placa assim.",
+        "my": "ဝင်ပေါက်မှာ ဒီလို ဆိုင်းဘုတ် ချိတ်ထားတယ်။",
+        "th": "ที่ทางเข้ามีป้ายแขวนอยู่อย่างนี้",
+        "si": "දොරටුවේ මෙහෙම පුවරුවක් එල්ලලා තිබුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "かかる = được treo.",
+        "en": "かかる = hang.",
+        "zh-Hans": "かかる＝挂着。",
+        "zh-Hant": "かかる＝掛著。",
+        "ko": "걸리다.",
+        "tl": "nakasabit.",
+        "ne": "झुन्डिनु।",
+        "id": "tergantung.",
+        "pt": "pendurado.",
+        "my": "ချိတ်ထား။",
+        "th": "แขวน",
+        "si": "かかる = එල්ලිලා තියෙනවා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=92.521,96.094",
+      "t": [
+        92.521,
+        96.094
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「西洋料理店　山猫軒」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "西洋料理店",
+          "reading": "せいようりょうりてん"
+        },
+        {
+          "surface": "　",
+          "reading": ""
+        },
+        {
+          "surface": "山猫軒",
+          "reading": "やまねこけん"
+        },
+        {
+          "surface": "」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Seiyouryouriten yamanekoken”",
+      "translations": {
+        "vi": "\"NHÀ HÀNG TÂY · QUÁN MÈO RỪNG\"",
+        "en": "\"WESTERN RESTAURANT · WILDCAT HOUSE\"",
+        "zh-Hans": "“西餐馆 山猫轩”",
+        "zh-Hant": "“西餐館 山貓軒”",
+        "ko": "\"서양요리점 야마네코켄(살쾡이집)\"",
+        "tl": "\"Kainang Kanluranin · Bahay ng Ligaw na Pusa\"",
+        "ne": "\"पश्चिमी भोजनालय · वनबिरालो घर\"",
+        "id": "\"Restoran Barat · Rumah Kucing Liar\"",
+        "pt": "\"Restaurante Ocidental · Casa do Gato-do-Mato\"",
+        "my": "\"အနောက်တိုင်း စားသောက်ဆိုင် · တောကြောင်အိမ်\"",
+        "th": "\"ภัตตาคารตะวันตก · บ้านแมวป่า\"",
+        "si": "\"බටහිර කෑම අවන්හල · වල් බළලාගේ ගෙදර\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "山猫 = mèo rừng. 軒 = (hậu tố tên quán).",
+        "en": "山猫 = wildcat. 軒 = (suffix in shop names).",
+        "zh-Hans": "山猫＝山猫。軒＝（店名后缀）。",
+        "zh-Hant": "山貓＝山貓。軒＝（店名字尾）。",
+        "ko": "살쾡이. (가게 이름).",
+        "tl": "ligaw na pusa. (pangalan ng tindahan).",
+        "ne": "वनबिरालो। (पसलको नाम)।",
+        "id": "kucing liar. (akhiran nama toko).",
+        "pt": "gato-do-mato. (sufixo de loja).",
+        "my": "တောကြောင်။ (ဆိုင်နာမည်)။",
+        "th": "แมวป่า (คำท้ายชื่อร้าน)",
+        "si": "山猫 = වල් බළලා. 軒 = (කඩ නම්වල අග යෙදෙන ප්‍රත්‍යය)."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=96.694,99.289",
+      "t": [
+        96.694,
+        99.289
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「おい、ちょうどいい。ここはレストランだ。入ろうじゃないか。」",
+      "furigana": [
+        {
+          "surface": "「おい、ちょうどいい。ここはレストランだ。",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "はい"
+        },
+        {
+          "surface": "ろうじゃないか。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Oi, choudo ii. Koko wa resutoran da. Hairou ja nai ka.”",
+      "translations": {
+        "vi": "\"Này, vừa khéo. Đây là nhà hàng. Vào thôi chứ?\"",
+        "en": "\"Hey, perfect. It's a restaurant. Let's go in!\"",
+        "zh-Hans": "“喂，正好。这是餐馆。进去吧？”",
+        "zh-Hant": "“喂，正好。這是餐館。進去吧？”",
+        "ko": "\"이봐, 마침 잘됐다. 여긴 레스토랑이야. 들어가자.\"",
+        "tl": "\"Uy, tamang-tama. Restawran ito. Pasok tayo!\"",
+        "ne": "\"ए, ठीक भयो। यो रेस्टुरेन्ट हो। पसौँ न।\"",
+        "id": "\"Hei, pas sekali. Ini restoran. Ayo masuk!\"",
+        "pt": "\"Ei, que ótimo. É um restaurante. Vamos entrar!\"",
+        "my": "\"ဟေ့၊ အတော်ပဲ။ ဒါ စားသောက်ဆိုင်။ ဝင်ကြရအောင်။\"",
+        "th": "\"เฮ้ พอดีเลย เป็นร้านอาหาร เข้าไปกันเถอะ\"",
+        "si": "\"ඒයි, හරියටම හොඳයි. මේක අවන්හලක්. යමු ඇතුළට!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜ようじゃないか = chẳng phải nên ~ sao (rủ rê).",
+        "en": "〜ようじゃないか = why don't we ~? (invitation).",
+        "zh-Hans": "〜ようじゃないか＝……吧（邀请）。",
+        "zh-Hant": "〜ようじゃないか＝……吧（邀請）。",
+        "ko": "~하지 않겠나.",
+        "tl": "bakit hindi tayo ~.",
+        "ne": "~ गरौँ न।",
+        "id": "ayo ~.",
+        "pt": "vamos ~?",
+        "my": "~ ကြရအောင်။",
+        "th": "~ กันไหม",
+        "si": "〜ようじゃないか = ~ කරමු නේද? (ආරාධනාව)."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=100.189,104.252",
+      "t": [
+        100.189,
+        104.252
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「こんな山の中に、おかしいな。でも、何か食べられるだろう。」",
+      "furigana": [
+        {
+          "surface": "「こんな",
+          "reading": ""
+        },
+        {
+          "surface": "山",
+          "reading": "やま"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "に、おかしいな。でも、",
+          "reading": ""
+        },
+        {
+          "surface": "何",
+          "reading": "なに"
+        },
+        {
+          "surface": "か",
+          "reading": ""
+        },
+        {
+          "surface": "食",
+          "reading": "た"
+        },
+        {
+          "surface": "べられるだろう。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Konna yama no naka ni, okashii na. Demo, nani ka taberarerudarou.”",
+      "translations": {
+        "vi": "\"Giữa núi thế này mà có, lạ nhỉ. Nhưng chắc là ăn được gì đó.\"",
+        "en": "\"Strange, out here in the mountains. But we can probably eat something.\"",
+        "zh-Hans": "“这种山里，真奇怪。不过总能吃点东西吧。”",
+        "zh-Hant": "“這種山裡，真奇怪。不過總能吃點東西吧。”",
+        "ko": "\"이런 산속에 이상하네. 그래도 뭔가 먹을 수 있겠지.\"",
+        "tl": "\"Kakaiba, sa gitna ng bundok. Pero baka may makain.\"",
+        "ne": "\"यस्तो पहाडमा, अनौठो। तर केही खान पाइएला।\"",
+        "id": "\"Aneh, di gunung begini. Tapi mungkin bisa makan sesuatu.\"",
+        "pt": "\"Estranho, aqui no mato. Mas deve dar para comer algo.\"",
+        "my": "\"ဒီလို တောင်ထဲမှာ ထူးဆန်းတယ်။ ဒါပေမဲ့ တစ်ခုခု စားလို့ ရမှာပါ။\"",
+        "th": "\"ในป่าแบบนี้แปลกจัง แต่คงได้กินอะไรสักอย่าง\"",
+        "si": "\"මෙහෙම කඳු මැද? පුදුමයි. ඒත් මොනවා හරි කන්න හම්බ වෙයි.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "おかしい = kỳ lạ. 〜だろう = chắc ~.",
+        "en": "おかしい = strange. 〜だろう = probably ~.",
+        "zh-Hans": "おかしい＝奇怪。〜だろう＝大概……。",
+        "zh-Hant": "おかしい＝奇怪。〜だろう＝大概……。",
+        "ko": "이상하다. ~겠지.",
+        "tl": "kakaiba. siguro.",
+        "ne": "अनौठो। होला।",
+        "id": "aneh. mungkin.",
+        "pt": "estranho. deve.",
+        "my": "ထူးဆန်း။ ~ မှာပါ။",
+        "th": "แปลก คง ~",
+        "si": "おかしい = අමුතුයි. 〜だろう = ~ වෙයි."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=105.152,109.691",
+      "t": [
+        105.152,
+        109.691
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "げんかんの白いガラスの戸には、金の字で、こう書いてありました。",
+      "furigana": [
+        {
+          "surface": "げんかんの",
+          "reading": ""
+        },
+        {
+          "surface": "白",
+          "reading": "しろ"
+        },
+        {
+          "surface": "いガラスの",
+          "reading": ""
+        },
+        {
+          "surface": "戸",
+          "reading": "と"
+        },
+        {
+          "surface": "には、",
+          "reading": ""
+        },
+        {
+          "surface": "金",
+          "reading": "きん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "字",
+          "reading": "じ"
+        },
+        {
+          "surface": "で、こう",
+          "reading": ""
+        },
+        {
+          "surface": "書",
+          "reading": "か"
+        },
+        {
+          "surface": "いてありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Genkan no shiroi garasu no to ni wa, kinnoji de, kou kaitearimashita.",
+      "translations": {
+        "vi": "Trên cánh cửa kính trắng ở tiền sảnh có viết chữ vàng như sau.",
+        "en": "On the white glass door of the entrance, this was written in gold letters.",
+        "zh-Hans": "门厅的白玻璃门上，用金字这样写着。",
+        "zh-Hant": "門廳的白玻璃門上，用金字這樣寫著。",
+        "ko": "현관의 하얀 유리문에는 금색 글자로 이렇게 쓰여 있었습니다.",
+        "tl": "Sa puting salaming pinto, nakasulat sa gintong letra ang ganito.",
+        "ne": "मूलढोकाको सेतो सिसाको ढोकामा सुनौला अक्षरले यसो लेखिएको थियो।",
+        "id": "Di pintu kaca putih depan tertulis dengan huruf emas begini.",
+        "pt": "Na porta de vidro branco havia escrito em letras douradas.",
+        "my": "ဝင်ပေါက် မှန်တံခါးဖြူပေါ်မှာ ရွှေရောင် စာလုံးနဲ့ ဒီလို ရေးထားတယ်။",
+        "th": "ที่ประตูกระจกสีขาวหน้าบ้าน มีตัวอักษรสีทองเขียนว่า",
+        "si": "දොරටුවේ සුදු වීදුරු දොරේ රන් අකුරෙන් මෙහෙම ලියලා තිබුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜てある = đã được ~ (trạng thái).",
+        "en": "〜てある = has been ~ (state).",
+        "zh-Hans": "〜てある＝……着（状态）。",
+        "zh-Hant": "〜てある＝……著（狀態）。",
+        "ko": "~되어 있다.",
+        "tl": "nakasulat.",
+        "ne": "लेखिएको छ।",
+        "id": "tertulis.",
+        "pt": "estar escrito.",
+        "my": "ရေးထား။",
+        "th": "เขียนไว้",
+        "si": "〜てある = ~ කරලා තියෙනවා (තත්ත්වය)."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=110.591,115.529",
+      "t": [
+        110.591,
+        115.529
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「どなたも、どうか、お入りください。決してごえんりょはいりません。」",
+      "furigana": [
+        {
+          "surface": "「どなたも、どうか、お",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "はい"
+        },
+        {
+          "surface": "りください。",
+          "reading": ""
+        },
+        {
+          "surface": "決",
+          "reading": "けっ"
+        },
+        {
+          "surface": "してごえんりょはいりません。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Donata mo, dou ka, ohairikudasai. Kesshite goenryo wa irimasen.”",
+      "translations": {
+        "vi": "\"Xin mời quý khách vào. Xin đừng ngại ngần gì cả.\"",
+        "en": "\"Everyone, please come in. Do not hold back at all.\"",
+        "zh-Hans": "“各位，请进。千万不要客气。”",
+        "zh-Hant": "“各位，請進。千萬不要客氣。”",
+        "ko": "\"누구든 부디 들어오십시오. 절대 사양하지 마십시오.\"",
+        "tl": "\"Pumasok po ang lahat. Huwag po kayong mahiya.\"",
+        "ne": "\"जो कोही पनि भित्र आउनुहोस्। पटक्कै सङ्कोच नमान्नुहोस्।\"",
+        "id": "\"Siapa pun, silakan masuk. Jangan sungkan sedikit pun.\"",
+        "pt": "\"Todos, por favor, entrem. Não façam cerimônia.\"",
+        "my": "\"ဘယ်သူမဆို ဝင်ပါ။ လုံးဝ အားမနာပါနဲ့။\"",
+        "th": "\"เชิญทุกท่านเข้ามา ไม่ต้องเกรงใจเลย\"",
+        "si": "\"ඕනෑම කෙනෙක්, කරුණාකර ඇතුළට එන්න. කිසිසේත් පැකිළෙන්න එපා.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "決して〜ない = tuyệt đối không ~. えんりょ = ngại ngùng.",
+        "en": "決して〜ない = never ~. えんりょ = hesitation.",
+        "zh-Hans": "決して〜ない＝绝不……。えんりょ＝客气。",
+        "zh-Hant": "決して〜ない＝絕不……。えんりょ＝客氣。",
+        "ko": "절대 ~ 않다. 사양.",
+        "tl": "hindi kailanman. hiya.",
+        "ne": "कहिल्यै ~ छैन। सङ्कोच।",
+        "id": "sama sekali tidak. sungkan.",
+        "pt": "nunca ~. cerimônia.",
+        "my": "လုံးဝ မ ~ ။ အားနာ။",
+        "th": "ไม่ ~ เลย เกรงใจ",
+        "si": "決して〜ない = කිසිසේත් ~ නැහැ. えんりょ = පැකිළීම."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=116.129,121.772",
+      "t": [
+        116.129,
+        121.772
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ありがたいね。ただで食べさせてくれるらしいぞ。」",
+      "furigana": [
+        {
+          "surface": "「ありがたいね。ただで",
+          "reading": ""
+        },
+        {
+          "surface": "食",
+          "reading": "た"
+        },
+        {
+          "surface": "べさせてくれるらしいぞ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Arigatai ne. Tada de tabesasetekurerurashii zo.”",
+      "translations": {
+        "vi": "\"Hay quá. Hình như cho ăn miễn phí đấy.\"",
+        "en": "\"How nice. Looks like they'll feed us for free!\"",
+        "zh-Hans": "“太好了。好像是免费请吃呢。”",
+        "zh-Hant": "“太好了。好像是免費請吃呢。”",
+        "ko": "\"고맙군. 공짜로 먹여 주는 모양이야.\"",
+        "tl": "\"Ang galing. Mukhang libre ang pagkain!\"",
+        "ne": "\"धन्य। सित्तैमा खुवाउने जस्तो छ।\"",
+        "id": "\"Asyik. Sepertinya makan gratis!\"",
+        "pt": "\"Que bom. Parece que é de graça!\"",
+        "my": "\"ကောင်းလိုက်တာ။ အလကား ကျွေးမယ့်ပုံပဲ။\"",
+        "th": "\"ดีจัง ดูเหมือนจะให้กินฟรีนะ\"",
+        "si": "\"මාර වාසනාව. නිකන්ම කන්න දෙනවා වගේ!\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ただで = miễn phí. 〜らしい = có vẻ ~.",
+        "en": "ただで = for free. 〜らしい = seems ~.",
+        "zh-Hans": "ただで＝免费。〜らしい＝好像……。",
+        "zh-Hant": "ただで＝免費。〜らしい＝好像……。",
+        "ko": "공짜로. ~인 모양이다.",
+        "tl": "libre. mukhang ~.",
+        "ne": "सित्तैमा। जस्तो छ।",
+        "id": "gratis. sepertinya ~.",
+        "pt": "de graça. parece ~.",
+        "my": "အလကား။ ~ ပုံပဲ။",
+        "th": "ฟรี ดูเหมือน ~",
+        "si": "ただで = නිකන්ම. 〜らしい = වගේ."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=122.672,125.815",
+      "t": [
+        122.672,
+        125.815
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "二人が中へ入ると、すぐにまた、戸がありました。",
+      "furigana": [
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "へ",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "はい"
+        },
+        {
+          "surface": "ると、すぐにまた、",
+          "reading": ""
+        },
+        {
+          "surface": "戸",
+          "reading": "と"
+        },
+        {
+          "surface": "がありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Futari ga naka e hairu to, sugu ni mata, to ga arimashita.",
+      "translations": {
+        "vi": "Vừa vào trong, lại thấy ngay một cánh cửa nữa.",
+        "en": "As soon as they went in, there was another door.",
+        "zh-Hans": "两人一进去，马上又有一扇门。",
+        "zh-Hant": "兩人一進去，馬上又有一扇門。",
+        "ko": "두 사람이 안으로 들어가자 곧 또 문이 있었습니다.",
+        "tl": "Pagpasok, may isa na namang pinto.",
+        "ne": "भित्र पस्नेबित्तिकै फेरि अर्को ढोका थियो।",
+        "id": "Begitu masuk, ada pintu lagi.",
+        "pt": "Logo ao entrar, havia outra porta.",
+        "my": "အထဲဝင်တာနဲ့ နောက်ထပ် တံခါး ရှိတယ်။",
+        "th": "พอเข้าไปข้างใน ก็มีประตูอีกบาน",
+        "si": "දෙන්නා ඇතුළට ගිය ගමන්ම, ආයෙත් දොරක් තිබුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "すぐに = ngay. また = lại.",
+        "en": "すぐに = right away. また = again.",
+        "zh-Hans": "すぐに＝马上。また＝又。",
+        "zh-Hant": "すぐに＝馬上。また＝又。",
+        "ko": "곧. 또.",
+        "tl": "agad. muli.",
+        "ne": "तुरुन्तै। फेरि।",
+        "id": "langsung. lagi.",
+        "pt": "logo. de novo.",
+        "my": "ချက်ချင်း။ ထပ်။",
+        "th": "ทันที อีก",
+        "si": "すぐに = වහාම. また = ආයෙත්."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=126.715,131.141",
+      "t": [
+        126.715,
+        131.141
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "戸のうらには、こう書いてありました。",
+      "furigana": [
+        {
+          "surface": "戸",
+          "reading": "と"
+        },
+        {
+          "surface": "のうらには、こう",
+          "reading": ""
+        },
+        {
+          "surface": "書",
+          "reading": "か"
+        },
+        {
+          "surface": "いてありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "To no ura ni wa, kou kaitearimashita.",
+      "translations": {
+        "vi": "Mặt sau cánh cửa có ghi thế này.",
+        "en": "On the back of the door, this was written.",
+        "zh-Hans": "门的背面写着这样的话。",
+        "zh-Hant": "門的背面寫著這樣的話。",
+        "ko": "문 뒤쪽에는 이렇게 쓰여 있었습니다.",
+        "tl": "Sa likod ng pinto ay nakasulat ito.",
+        "ne": "ढोकाको पछाडि यसो लेखिएको थियो।",
+        "id": "Di balik pintu tertulis begini.",
+        "pt": "No verso da porta estava escrito.",
+        "my": "တံခါးနောက်ကျောမှာ ဒီလို ရေးထားတယ်။",
+        "th": "ด้านหลังประตูเขียนไว้ว่า",
+        "si": "දොරේ පිටිපස්සේ මෙහෙම ලියලා තිබුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "うら = mặt sau.",
+        "en": "うら = back side.",
+        "zh-Hans": "うら＝背面。",
+        "zh-Hant": "うら＝背面。",
+        "ko": "뒤쪽.",
+        "tl": "likod.",
+        "ne": "पछाडि।",
+        "id": "balik.",
+        "pt": "verso.",
+        "my": "နောက်ကျော။",
+        "th": "ด้านหลัง",
+        "si": "うら = පිටිපස්ස."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=131.741,134.538",
+      "t": [
+        131.741,
+        134.538
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ことに、太った方や、わかい方は、大かんげいいたします。」",
+      "furigana": [
+        {
+          "surface": "「ことに、",
+          "reading": ""
+        },
+        {
+          "surface": "太",
+          "reading": "ふと"
+        },
+        {
+          "surface": "った",
+          "reading": ""
+        },
+        {
+          "surface": "方",
+          "reading": "ほう"
+        },
+        {
+          "surface": "や、わかい",
+          "reading": ""
+        },
+        {
+          "surface": "方",
+          "reading": "ほう"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "だい"
+        },
+        {
+          "surface": "かんげいいたします。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Kotoni, futotta hou ya, wakai hou wa, daikangei itashimasu.”",
+      "translations": {
+        "vi": "\"Đặc biệt, người mập và người trẻ chúng tôi vô cùng hoan nghênh.\"",
+        "en": "\"We especially welcome plump people and young people.\"",
+        "zh-Hans": "“特别欢迎胖的客人和年轻的客人。”",
+        "zh-Hant": "“特別歡迎胖的客人和年輕的客人。”",
+        "ko": "\"특히 살찐 분이나 젊은 분은 대환영입니다.\"",
+        "tl": "\"Lalo naming tinatanggap ang matataba at mga bata pa.\"",
+        "ne": "\"विशेषगरी मोटा र युवाहरूलाई हार्दिक स्वागत छ।\"",
+        "id": "\"Terutama yang gemuk dan yang muda, sangat disambut.\"",
+        "pt": "\"Gordinhos e jovens são especialmente bem-vindos.\"",
+        "my": "\"အထူးသဖြင့် ဝသူနဲ့ ငယ်သူကို အထူး ကြိုဆိုပါတယ်။\"",
+        "th": "\"โดยเฉพาะคนอ้วนและคนหนุ่มสาว ยินดีต้อนรับเป็นพิเศษ\"",
+        "si": "\"විශේෂයෙන්ම මහත අයටයි තරුණ අයටයි උණුසුම් පිළිගැනීමක්.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ことに = đặc biệt là. 大かんげい = rất hoan nghênh.",
+        "en": "ことに = especially. 大かんげい = big welcome.",
+        "zh-Hans": "ことに＝尤其。大かんげい＝非常欢迎。",
+        "zh-Hant": "ことに＝尤其。大かんげい＝非常歡迎。",
+        "ko": "특히. 대환영.",
+        "tl": "lalo na. malugod na tinatanggap.",
+        "ne": "विशेषगरी। हार्दिक स्वागत।",
+        "id": "terutama. sangat disambut.",
+        "pt": "especialmente. muito bem-vindo.",
+        "my": "အထူးသဖြင့်။ အထူး ကြိုဆို။",
+        "th": "โดยเฉพาะ ยินดีอย่างยิ่ง",
+        "si": "ことに = විශේෂයෙන්ම. 大かんげい = උණුසුම් පිළිගැනීම."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=135.138,139.795",
+      "t": [
+        135.138,
+        139.795
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ぼくらは、両方だ。大かんげいだってさ。」",
+      "furigana": [
+        {
+          "surface": "「ぼくらは、",
+          "reading": ""
+        },
+        {
+          "surface": "両方",
+          "reading": "りょうほう"
+        },
+        {
+          "surface": "だ。",
+          "reading": ""
+        },
+        {
+          "surface": "大",
+          "reading": "だい"
+        },
+        {
+          "surface": "かんげいだってさ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Bokura wa, ryouhou da. Daikangei datte sa.”",
+      "translations": {
+        "vi": "\"Bọn mình là cả hai. Được hoan nghênh đấy.\"",
+        "en": "\"We're both! A big welcome for us.\"",
+        "zh-Hans": "“我们俩两样都占。说是非常欢迎呢。”",
+        "zh-Hant": "“我們倆兩樣都佔。說是非常歡迎呢。”",
+        "ko": "\"우리는 둘 다야. 대환영이래.\"",
+        "tl": "\"Pareho tayo! Malugod daw tayong tinatanggap.\"",
+        "ne": "\"हामी त दुवै हौँ। हार्दिक स्वागत रे।\"",
+        "id": "\"Kita dua-duanya. Sangat disambut, katanya.\"",
+        "pt": "\"Somos os dois! Muito bem-vindos, diz aqui.\"",
+        "my": "\"ငါတို့က နှစ်မျိုးလုံးပဲ။ အထူးကြိုဆိုတယ်တဲ့။\"",
+        "th": "\"พวกเราเป็นทั้งสองอย่าง ยินดีต้อนรับสุด ๆ เลย\"",
+        "si": "\"අපි දෙකම! අපිට උණුසුම් පිළිගැනීමක් ලු.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "両方 = cả hai. 〜ってさ = nghe nói ~ đấy.",
+        "en": "両方 = both. 〜ってさ = they say ~.",
+        "zh-Hans": "両方＝两者都。〜ってさ＝据说……呢。",
+        "zh-Hant": "両方＝兩者都。〜ってさ＝據說……呢。",
+        "ko": "양쪽. ~래.",
+        "tl": "pareho. daw.",
+        "ne": "दुवै। रे।",
+        "id": "keduanya. katanya.",
+        "pt": "ambos. dizem.",
+        "my": "နှစ်ခုလုံး။ ~ တဲ့။",
+        "th": "ทั้งสอง เขาว่า ~",
+        "si": "両方 = දෙකම. 〜ってさ = ~ ලු."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=140.695,143.914",
+      "t": [
+        140.695,
+        143.914
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "二人はうれしくなって、ろうかを進みました。",
+      "furigana": [
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "はうれしくなって、ろうかを",
+          "reading": ""
+        },
+        {
+          "surface": "進",
+          "reading": "すす"
+        },
+        {
+          "surface": "みました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Futari wa ureshiku natte, rouka o susumimashita.",
+      "translations": {
+        "vi": "Hai người hớn hở đi tiếp dọc hành lang.",
+        "en": "Delighted, the two went down the corridor.",
+        "zh-Hans": "两人高兴地沿着走廊往前走。",
+        "zh-Hant": "兩人高興地沿著走廊往前走。",
+        "ko": "두 사람은 기뻐하며 복도를 나아갔습니다.",
+        "tl": "Masaya silang naglakad sa pasilyo.",
+        "ne": "दुवै खुसी हुँदै बरन्डामा अघि बढे।",
+        "id": "Keduanya senang dan menyusuri lorong.",
+        "pt": "Contentes, seguiram pelo corredor.",
+        "my": "နှစ်ယောက်လုံး ဝမ်းသာပြီး စင်္ကြံအတိုင်း ဆက်သွားတယ်။",
+        "th": "สองคนดีใจ เดินไปตามทางเดิน",
+        "si": "දෙන්නා සතුටු වෙලා, කොරිඩෝව දිගේ ඉස්සරහට ගියා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "ろうか = hành lang. 進む = tiến lên.",
+        "en": "ろうか = corridor. 進む = advance.",
+        "zh-Hans": "ろうか＝走廊。進む＝前进。",
+        "zh-Hant": "ろうか＝走廊。進む＝前進。",
+        "ko": "복도. 나아가다.",
+        "tl": "pasilyo. umusad.",
+        "ne": "बरन्डा। अघि बढ्नु।",
+        "id": "lorong. maju.",
+        "pt": "corredor. avançar.",
+        "my": "စင်္ကြံ။ ရှေ့ဆက်။",
+        "th": "ทางเดิน ก้าวไป",
+        "si": "ろうか = කොරිඩෝව. 進む = ඉදිරියට යනවා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=144.814,148.255",
+      "t": [
+        144.814,
+        148.255
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "すると、今度は、水色のペンキの戸がありました。",
+      "furigana": [
+        {
+          "surface": "すると、",
+          "reading": ""
+        },
+        {
+          "surface": "今度",
+          "reading": "こんど"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "水色",
+          "reading": "みずいろ"
+        },
+        {
+          "surface": "のペンキの",
+          "reading": ""
+        },
+        {
+          "surface": "戸",
+          "reading": "と"
+        },
+        {
+          "surface": "がありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suruto, kondo wa, mizuiro no penki no to ga arimashita.",
+      "translations": {
+        "vi": "Lần này là một cánh cửa sơn màu xanh nhạt.",
+        "en": "This time, there was a door painted light blue.",
+        "zh-Hans": "这次是一扇刷着浅蓝色油漆的门。",
+        "zh-Hant": "這次是一扇刷著淺藍色油漆的門。",
+        "ko": "이번에는 하늘색 페인트 문이 있었습니다.",
+        "tl": "Ngayon, may pintong pinintahan ng mapusyaw na asul.",
+        "ne": "यसपटक हल्का नीलो रङ लगाएको ढोका थियो।",
+        "id": "Kali ini ada pintu bercat biru muda.",
+        "pt": "Desta vez, uma porta pintada de azul-claro.",
+        "my": "ဒီတစ်ခါ အပြာနုရောင် ဆေးသုတ်တံခါး ရှိတယ်။",
+        "th": "คราวนี้เป็นประตูทาสีฟ้าอ่อน",
+        "si": "එතකොට, මේ පාර ලා නිල් පාට තීන්ත ගාපු දොරක් තිබුණා."
+      },
+      "vocab": [
+        {
+          "word": "ペンキ",
+          "reading": "ペンキ",
+          "meanings": {
+            "vi": "sơn",
+            "en": "paint",
+            "zh-Hans": "油漆",
+            "zh-Hant": "油漆",
+            "ko": "페인트",
+            "tl": "pintura",
+            "ne": "रङ",
+            "id": "cat",
+            "pt": "tinta",
+            "my": "ဆေးသုတ်",
+            "th": "สีทา",
+            "si": "තීන්ත"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "今度 = lần này. 水色 = xanh nhạt.",
+        "en": "今度 = this time. 水色 = light blue.",
+        "zh-Hans": "今度＝这次。水色＝浅蓝色。",
+        "zh-Hant": "今度＝這次。水色＝淺藍色。",
+        "ko": "이번. 하늘색.",
+        "tl": "ngayon. mapusyaw na asul.",
+        "ne": "यसपटक। हल्का नीलो।",
+        "id": "kali ini. biru muda.",
+        "pt": "desta vez. azul-claro.",
+        "my": "ဒီတစ်ခါ။ အပြာနု။",
+        "th": "คราวนี้ สีฟ้าอ่อน",
+        "si": "今度 = මේ පාර. 水色 = ලා නිල්."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=148.855,153.111",
+      "t": [
+        148.855,
+        153.111
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「当店は、注文の多い料理店ですから、どうか、そこはご承知ください。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "当店",
+          "reading": "とうてん"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "注文",
+          "reading": "ちゅうもん"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "多",
+          "reading": "おお"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "料理",
+          "reading": "りょうり"
+        },
+        {
+          "surface": "店",
+          "reading": "てん"
+        },
+        {
+          "surface": "ですから、どうか、そこはご",
+          "reading": ""
+        },
+        {
+          "surface": "承知",
+          "reading": "しょうち"
+        },
+        {
+          "surface": "ください。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Touten wa, chuumon no ooi ryouriten desu kara, dou ka, soko wa goshouchi kudasai.”",
+      "translations": {
+        "vi": "\"Quán chúng tôi là nhà hàng lắm yêu cầu, xin quý khách thông cảm cho.\"",
+        "en": "\"This is a restaurant with many orders, so please understand.\"",
+        "zh-Hans": "“本店是要求很多的餐馆，请您谅解。”",
+        "zh-Hant": "“本店是要求很多的餐館，請您諒解。”",
+        "ko": "\"저희 가게는 주문이 많은 요리점이니 부디 양해해 주십시오.\"",
+        "tl": "\"Maraming hinihiling ang kainang ito, kaya sana'y maunawaan ninyo.\"",
+        "ne": "\"हाम्रो पसल धेरै अर्डर हुने भोजनालय हो, कृपया बुझिदिनुहोस्।\"",
+        "id": "\"Toko kami restoran yang banyak pesanannya, mohon dimaklumi.\"",
+        "pt": "\"Este é um restaurante de muitos pedidos; por favor, compreendam.\"",
+        "my": "\"ကျွန်ုပ်တို့ဆိုင်က မှာစရာများတဲ့ စားသောက်ဆိုင်မို့ နားလည်ပေးပါ။\"",
+        "th": "\"ร้านของเราเป็นร้านที่มีคำสั่งมาก โปรดเข้าใจด้วย\"",
+        "si": "\"අපේ අවන්හල ඕඩර් ගොඩක් තියෙන අවන්හලක් නිසා, කරුණාකර ඒක තේරුම් ගන්න.\""
+      },
+      "vocab": [
+        {
+          "word": "注文",
+          "reading": "ちゅうもん",
+          "meanings": {
+            "vi": "yêu cầu, gọi món",
+            "en": "order, request",
+            "zh-Hans": "点菜，要求",
+            "zh-Hant": "點菜，要求",
+            "ko": "주문",
+            "tl": "order",
+            "ne": "अर्डर",
+            "id": "pesanan",
+            "pt": "pedido",
+            "my": "မှာယူမှု",
+            "th": "คำสั่ง",
+            "si": "ඇණවුම, ඉල්ලීම"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "注文 = yêu cầu / gọi món (chữ chơi hai nghĩa). ご承知ください = xin hiểu cho.",
+        "en": "注文 = order / request (wordplay). ご承知ください = please understand.",
+        "zh-Hans": "注文＝点菜／要求（双关）。ご承知ください＝请谅解。",
+        "zh-Hant": "註文＝點菜／要求（雙關）。ご承知ください＝請諒解。",
+        "ko": "주문 (두 가지 뜻). 양해해 주십시오.",
+        "tl": "order/hiling (laro sa salita). unawain.",
+        "ne": "अर्डर (दोहोरो अर्थ)। बुझिदिनुहोस्।",
+        "id": "pesanan/permintaan (permainan kata). mohon dimaklumi.",
+        "pt": "pedido (duplo sentido). compreendam.",
+        "my": "မှာစရာ (နှစ်မျိုးအဓိပ္ပာယ်)။ နားလည်ပေးပါ။",
+        "th": "คำสั่ง (เล่นคำสองความหมาย) โปรดเข้าใจ",
+        "si": "注文 = ඇණවුම / ඉල්ලීම (ද්විත්ව අර්ථය). ご承知ください = කරුණාකර තේරුම් ගන්න."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=153.711,160.166",
+      "t": [
+        153.711,
+        160.166
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「注文が多いって、どういうことだろう。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "注文",
+          "reading": "ちゅうもん"
+        },
+        {
+          "surface": "が",
+          "reading": ""
+        },
+        {
+          "surface": "多",
+          "reading": "おお"
+        },
+        {
+          "surface": "いって、どういうことだろう。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Chuumon ga ooi tte, douiu koto darou.”",
+      "translations": {
+        "vi": "\"Lắm yêu cầu là sao nhỉ?\"",
+        "en": "\"What do they mean, many orders?\"",
+        "zh-Hans": "“要求多，是什么意思呢？”",
+        "zh-Hant": "“要求多，是什麼意思呢？”",
+        "ko": "\"주문이 많다니, 무슨 뜻일까?\"",
+        "tl": "\"Ano kaya ang ibig sabihin ng maraming order?\"",
+        "ne": "\"धेरै अर्डर भनेको के होला?\"",
+        "id": "\"Banyak pesanan, maksudnya apa ya?\"",
+        "pt": "\"Muitos pedidos? O que será isso?\"",
+        "my": "\"မှာစရာများတယ်ဆိုတာ ဘာလဲ မသိဘူး။\"",
+        "th": "\"คำสั่งเยอะนี่หมายความว่าไงนะ\"",
+        "si": "\"ඕඩර් ගොඩක් කියන්නේ මොකක්ද?\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "どういうこと = nghĩa là sao.",
+        "en": "どういうこと = what does it mean.",
+        "zh-Hans": "どういうこと＝什么意思。",
+        "zh-Hant": "どういうこと＝什麼意思。",
+        "ko": "무슨 뜻.",
+        "tl": "ano ang ibig sabihin.",
+        "ne": "के अर्थ।",
+        "id": "apa maksudnya.",
+        "pt": "o que significa.",
+        "my": "ဘာအဓိပ္ပာယ်လဲ။",
+        "th": "หมายความว่าอะไร",
+        "si": "どういうこと = මොකක්ද අදහස."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=161.066,164.011",
+      "t": [
+        161.066,
+        164.011
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "「人気がある店だから、注文がたくさん来るってことさ。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "人気",
+          "reading": "にんき"
+        },
+        {
+          "surface": "がある",
+          "reading": ""
+        },
+        {
+          "surface": "店",
+          "reading": "みせ"
+        },
+        {
+          "surface": "だから、",
+          "reading": ""
+        },
+        {
+          "surface": "注文",
+          "reading": "ちゅうもん"
+        },
+        {
+          "surface": "がたくさん",
+          "reading": ""
+        },
+        {
+          "surface": "来",
+          "reading": "く"
+        },
+        {
+          "surface": "るってことさ。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Ninki ga aru mise da kara, chuumon ga takusan kuru tte koto sa.”",
+      "translations": {
+        "vi": "\"Quán đông khách nên có nhiều người gọi món chứ gì.\"",
+        "en": "\"It's a popular place, so lots of orders come in, that's all.\"",
+        "zh-Hans": "“是生意好的店，所以点菜的人多呗。”",
+        "zh-Hant": "“是生意好的店，所以點菜的人多唄。”",
+        "ko": "\"인기 있는 가게라서 주문이 많이 들어온다는 거지.\"",
+        "tl": "\"Sikat ang lugar kaya maraming order, iyon lang.\"",
+        "ne": "\"चल्तीको पसल भएकाले धेरै अर्डर आउँछ भन्ने हो।\"",
+        "id": "\"Restorannya laris, jadi banyak pesanan, begitu.\"",
+        "pt": "\"É um lugar famoso, por isso tem muitos pedidos.\"",
+        "my": "\"လူကြိုက်များတဲ့ ဆိုင်မို့ မှာတာ များတယ်ဆိုတာပေါ့။\"",
+        "th": "\"ร้านดัง คนสั่งเยอะไงล่ะ\"",
+        "si": "\"ජනප්‍රිය කඩයක් නිසා, ඕඩර් ගොඩක් එනවා කියන එක, එච්චරයි.\""
+      },
+      "vocab": [
+        {
+          "word": "人気",
+          "reading": "にんき",
+          "meanings": {
+            "vi": "được yêu thích",
+            "en": "popularity",
+            "zh-Hans": "人气",
+            "zh-Hant": "人氣",
+            "ko": "인기",
+            "tl": "kasikatan",
+            "ne": "लोकप्रियता",
+            "id": "populer",
+            "pt": "popularidade",
+            "my": "ရေပန်းစား",
+            "th": "ความนิยม",
+            "si": "ජනප්‍රියතාව"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "人気 = được ưa chuộng. 〜ってこと = nghĩa là ~.",
+        "en": "人気 = popularity. 〜ってこと = it means ~.",
+        "zh-Hans": "人気＝受欢迎。〜ってこと＝就是说……。",
+        "zh-Hant": "人気＝受歡迎。〜ってこと＝就是說……。",
+        "ko": "인기. ~라는 거지.",
+        "tl": "sikat. ibig sabihin.",
+        "ne": "लोकप्रिय। भन्ने हो।",
+        "id": "laris. artinya.",
+        "pt": "popular. quer dizer.",
+        "my": "လူကြိုက်များ။ ~ ဆိုတာ။",
+        "th": "นิยม หมายความว่า",
+        "si": "人気 = ජනප්‍රියතාව. 〜ってこと = ~ කියන එක."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=164.911,168.586",
+      "t": [
+        164.911,
+        168.586
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "次の戸には、こう書いてありました。",
+      "furigana": [
+        {
+          "surface": "次",
+          "reading": "つぎ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "戸",
+          "reading": "と"
+        },
+        {
+          "surface": "には、こう",
+          "reading": ""
+        },
+        {
+          "surface": "書",
+          "reading": "か"
+        },
+        {
+          "surface": "いてありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tsugi no to ni wa, kou kaitearimashita.",
+      "translations": {
+        "vi": "Cánh cửa tiếp theo ghi thế này.",
+        "en": "The next door said this.",
+        "zh-Hans": "下一扇门上这样写着。",
+        "zh-Hant": "下一扇門上這樣寫著。",
+        "ko": "다음 문에는 이렇게 쓰여 있었습니다.",
+        "tl": "Ganito ang nakasulat sa susunod na pinto.",
+        "ne": "अर्को ढोकामा यसो लेखिएको थियो।",
+        "id": "Di pintu berikutnya tertulis begini.",
+        "pt": "Na porta seguinte estava escrito.",
+        "my": "နောက်တံခါးမှာ ဒီလို ရေးထားတယ်။",
+        "th": "ประตูถัดไปเขียนว่า",
+        "si": "ඊළඟ දොරේ මෙහෙම ලියලා තිබුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "次の = tiếp theo.",
+        "en": "次の = next.",
+        "zh-Hans": "次の＝下一个。",
+        "zh-Hant": "次の＝下一個。",
+        "ko": "다음.",
+        "tl": "susunod.",
+        "ne": "अर्को।",
+        "id": "berikutnya.",
+        "pt": "seguinte.",
+        "my": "နောက်။",
+        "th": "ถัดไป",
+        "si": "次の = ඊළඟ."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=169.486,172.001",
+      "t": [
+        169.486,
+        172.001
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「注文はずいぶん多いでしょうが、どうか、いちいち、こらえてください。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "注文",
+          "reading": "ちゅうもん"
+        },
+        {
+          "surface": "はずいぶん",
+          "reading": ""
+        },
+        {
+          "surface": "多",
+          "reading": "おお"
+        },
+        {
+          "surface": "いでしょうが、どうか、いちいち、こらえてください。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Chuumon wa zuibun ooideshou ga, dou ka, ichiichi, koraetekudasai.”",
+      "translations": {
+        "vi": "\"Yêu cầu chắc là khá nhiều, nhưng xin quý khách kiên nhẫn từng điều một.\"",
+        "en": "\"There may be quite a few orders, but please bear with each one.\"",
+        "zh-Hans": "“要求恐怕很多，请您一一忍耐。”",
+        "zh-Hant": "“要求恐怕很多，請您一一忍耐。”",
+        "ko": "\"주문이 꽤 많겠지만 부디 하나하나 참아 주십시오.\"",
+        "tl": "\"Marami man ang hiling, pagtiisan po ninyo isa-isa.\"",
+        "ne": "\"अर्डर धेरै होला, तर कृपया एक-एक सहनुहोस्।\"",
+        "id": "\"Pesanannya mungkin banyak, tapi mohon bersabar satu per satu.\"",
+        "pt": "\"Os pedidos são muitos, mas tenham paciência com cada um.\"",
+        "my": "\"မှာစရာ တော်တော်များမယ်၊ တစ်ခုချင်း သည်းခံပေးပါ။\"",
+        "th": "\"คำสั่งคงเยอะ แต่โปรดอดทนทีละข้อ\"",
+        "si": "\"ඕඩර් ගොඩක් වෙන්න පුළුවන්, ඒත් කරුණාකර එකින් එක ඉවසගන්න.\""
+      },
+      "vocab": [
+        {
+          "word": "いちいち",
+          "reading": "いちいち",
+          "meanings": {
+            "vi": "từng cái một",
+            "en": "one by one",
+            "zh-Hans": "一一",
+            "zh-Hant": "一一",
+            "ko": "일일이",
+            "tl": "isa-isa",
+            "ne": "एक-एक",
+            "id": "satu per satu",
+            "pt": "um por um",
+            "my": "တစ်ခုချင်း",
+            "th": "ทีละอย่าง",
+            "si": "එකින් එක"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "こらえる = nhẫn nhịn. ずいぶん = khá là.",
+        "en": "こらえる = endure. ずいぶん = quite.",
+        "zh-Hans": "こらえる＝忍耐。ずいぶん＝相当。",
+        "zh-Hant": "こらえる＝忍耐。ずいぶん＝相當。",
+        "ko": "참다. 꽤.",
+        "tl": "tiisin. medyo.",
+        "ne": "सहनु। धेरै।",
+        "id": "bersabar. cukup.",
+        "pt": "aguentar. bastante.",
+        "my": "သည်းခံ။ တော်တော်။",
+        "th": "อดทน ค่อนข้าง",
+        "si": "こらえる = ඉවසනවා. ずいぶん = ගොඩක්."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=172.601,177.971",
+      "t": [
+        172.601,
+        177.971
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "そばには、鏡と、長いブラシがおいてありました。",
+      "furigana": [
+        {
+          "surface": "そばには、",
+          "reading": ""
+        },
+        {
+          "surface": "鏡",
+          "reading": "かがみ"
+        },
+        {
+          "surface": "と、",
+          "reading": ""
+        },
+        {
+          "surface": "長",
+          "reading": "なが"
+        },
+        {
+          "surface": "いブラシがおいてありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Soba ni wa, kagami to, nagai burashi ga oitearimashita.",
+      "translations": {
+        "vi": "Bên cạnh có đặt một chiếc gương và cây bàn chải dài.",
+        "en": "Beside it lay a mirror and a long brush.",
+        "zh-Hans": "旁边放着镜子和长刷子。",
+        "zh-Hant": "旁邊放著鏡子和長刷子。",
+        "ko": "옆에는 거울과 긴 솔이 놓여 있었습니다.",
+        "tl": "Sa tabi ay may salamin at mahabang brush.",
+        "ne": "छेउमा ऐना र लामो ब्रस राखिएको थियो।",
+        "id": "Di sampingnya ada cermin dan sikat panjang.",
+        "pt": "Ao lado havia um espelho e uma escova longa.",
+        "my": "ဘေးမှာ မှန်နဲ့ ဘရပ်ရှ် ရှည် ထားတယ်။",
+        "th": "ข้าง ๆ มีกระจกกับแปรงยาววางอยู่",
+        "si": "ළඟ කණ්ණාඩියකුයි දිග බුරුසුවකුයි තියලා තිබුණා."
+      },
+      "vocab": [
+        {
+          "word": "ブラシ",
+          "reading": "ブラシ",
+          "meanings": {
+            "vi": "bàn chải",
+            "en": "brush",
+            "zh-Hans": "刷子",
+            "zh-Hant": "刷子",
+            "ko": "솔",
+            "tl": "sipilyo, brush",
+            "ne": "ब्रस",
+            "id": "sikat",
+            "pt": "escova",
+            "my": "ဘရပ်ရှ်",
+            "th": "แปรง",
+            "si": "බුරුසුව"
+          },
+          "level": "N2"
+        }
+      ],
+      "grammarNote": {
+        "vi": "鏡 = gương.",
+        "en": "鏡 = mirror.",
+        "zh-Hans": "鏡＝镜子。",
+        "zh-Hant": "鏡＝鏡子。",
+        "ko": "거울.",
+        "tl": "salamin.",
+        "ne": "ऐना।",
+        "id": "cermin.",
+        "pt": "espelho.",
+        "my": "မှန်။",
+        "th": "กระจก",
+        "si": "鏡 = කණ්ණාඩිය."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=178.571,182.635",
+      "t": [
+        178.571,
+        182.635
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "戸には、赤い字で、こう書いてあります。",
+      "furigana": [
+        {
+          "surface": "戸",
+          "reading": "と"
+        },
+        {
+          "surface": "には、",
+          "reading": ""
+        },
+        {
+          "surface": "赤",
+          "reading": "あか"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "字",
+          "reading": "じ"
+        },
+        {
+          "surface": "で、こう",
+          "reading": ""
+        },
+        {
+          "surface": "書",
+          "reading": "か"
+        },
+        {
+          "surface": "いてあります。",
+          "reading": ""
+        }
+      ],
+      "romaji": "To ni wa, akai ji de, kou kaitearimasu.",
+      "translations": {
+        "vi": "Trên cửa ghi bằng chữ đỏ thế này.",
+        "en": "On the door, in red letters, it said this.",
+        "zh-Hans": "门上用红字写着。",
+        "zh-Hant": "門上用紅字寫著。",
+        "ko": "문에는 빨간 글씨로 이렇게 쓰여 있습니다.",
+        "tl": "Sa pinto, nakasulat sa pulang letra.",
+        "ne": "ढोकामा रातो अक्षरले यसो लेखिएको छ।",
+        "id": "Di pintu tertulis dengan huruf merah.",
+        "pt": "Na porta, em letras vermelhas, dizia.",
+        "my": "တံခါးမှာ အနီရောင် စာနဲ့ ရေးထားတယ်။",
+        "th": "ที่ประตูเขียนด้วยตัวอักษรสีแดงว่า",
+        "si": "දොරේ රතු අකුරෙන් මෙහෙම ලියලා තියෙනවා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "字 = chữ.",
+        "en": "字 = letters.",
+        "zh-Hans": "字＝字。",
+        "zh-Hant": "字＝字。",
+        "ko": "글씨.",
+        "tl": "letra.",
+        "ne": "अक्षर।",
+        "id": "huruf.",
+        "pt": "letra.",
+        "my": "စာလုံး။",
+        "th": "ตัวอักษร",
+        "si": "字 = අකුරු."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=183.235,186.429",
+      "t": [
+        183.235,
+        186.429
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「お客さま、ここで、かみをきちんとして、くつのどろを落としてください。」",
+      "furigana": [
+        {
+          "surface": "「お",
+          "reading": ""
+        },
+        {
+          "surface": "客",
+          "reading": "きゃく"
+        },
+        {
+          "surface": "さま、ここで、かみをきちんとして、くつのどろを",
+          "reading": ""
+        },
+        {
+          "surface": "落",
+          "reading": "お"
+        },
+        {
+          "surface": "としてください。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Okyakusama, koko de, kami o kichinto shite, kutsu no doro o otoshitekudasai.”",
+      "translations": {
+        "vi": "\"Thưa quý khách, xin hãy chải tóc gọn gàng và gạt bùn ở giày tại đây.\"",
+        "en": "\"Dear guests, please tidy your hair and knock the mud off your shoes here.\"",
+        "zh-Hans": "“客人，请在这里整理好头发，弄掉鞋上的泥。”",
+        "zh-Hant": "“客人，請在這裡整理好頭髮，弄掉鞋上的泥。”",
+        "ko": "\"손님, 여기서 머리를 단정히 하고 신발의 진흙을 털어 주십시오.\"",
+        "tl": "\"Mga panauhin, ayusin po ang buhok at alisin ang putik sa sapatos dito.\"",
+        "ne": "\"पाहुना, यहाँ कपाल मिलाउनुहोस् र जुत्ताको हिलो झार्नुहोस्।\"",
+        "id": "\"Tamu yang terhormat, rapikan rambut dan bersihkan lumpur sepatu di sini.\"",
+        "pt": "\"Prezados, arrumem o cabelo e tirem a lama dos sapatos aqui.\"",
+        "my": "\"ဧည့်သည်တော်၊ ဒီမှာ ဆံပင် သေသပ်အောင်လုပ်ပြီး ဖိနပ်က ရွှံ့ ဖယ်ပါ။\"",
+        "th": "\"เรียนแขก โปรดหวีผมให้เรียบร้อยและปัดโคลนที่รองเท้าที่นี่\"",
+        "si": "\"ගරු අමුත්තනි, මෙතනදී කොණ්ඩේ පිළිවෙළට හදාගෙන, සපත්තුවල මඩ අයින් කරන්න.\""
+      },
+      "vocab": [
+        {
+          "word": "きちんと",
+          "reading": "きちんと",
+          "meanings": {
+            "vi": "ngay ngắn, đầy đủ",
+            "en": "neatly, properly",
+            "zh-Hans": "整整齐齐，好好地",
+            "zh-Hant": "整整齊齊，好好地",
+            "ko": "제대로, 깔끔히",
+            "tl": "maayos",
+            "ne": "राम्ररी",
+            "id": "dengan rapi, utuh",
+            "pt": "direitinho, em ordem",
+            "my": "သေသေသပ်သပ်",
+            "th": "อย่างเรียบร้อย",
+            "si": "පිළිවෙළට, නිසි ලෙස"
+          },
+          "level": "N3"
+        }
+      ],
+      "grammarNote": {
+        "vi": "きちんと = gọn gàng. どろ = bùn.",
+        "en": "きちんと = neatly. どろ = mud.",
+        "zh-Hans": "きちんと＝整齐。どろ＝泥。",
+        "zh-Hant": "きちんと＝整齊。どろ＝泥。",
+        "ko": "단정히. 진흙.",
+        "tl": "maayos. putik.",
+        "ne": "मिलाएर। हिलो।",
+        "id": "rapi. lumpur.",
+        "pt": "direitinho. lama.",
+        "my": "သေသပ်။ ရွှံ့။",
+        "th": "เรียบร้อย โคลน",
+        "si": "きちんと = පිළිවෙළට. どろ = මඩ."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=187.029,192.537",
+      "t": [
+        187.029,
+        192.537
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「なるほど、きちんとした店だ。えらい人が、たくさん来るんだろう。」",
+      "furigana": [
+        {
+          "surface": "「なるほど、きちんとした",
+          "reading": ""
+        },
+        {
+          "surface": "店",
+          "reading": "みせ"
+        },
+        {
+          "surface": "だ。えらい",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "が、たくさん",
+          "reading": ""
+        },
+        {
+          "surface": "来",
+          "reading": "く"
+        },
+        {
+          "surface": "るんだろう。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Naruhodo, kichinto shita mise da. Erai hito ga, takusan kuru n darou.”",
+      "translations": {
+        "vi": "\"Ra thế, quán đâu ra đấy. Chắc nhiều nhân vật lớn hay đến lắm.\"",
+        "en": "\"I see—a proper place. Lots of important people must come here.\"",
+        "zh-Hans": "“原来如此，是家讲究的店。一定有很多大人物来吧。”",
+        "zh-Hant": "“原來如此，是家講究的店。一定有很多大人物來吧。”",
+        "ko": "\"과연 제대로 된 가게군. 높은 사람들이 많이 오나 봐.\"",
+        "tl": "\"Ah, maayos na lugar. Siguro maraming mahalagang tao ang pumupunta.\"",
+        "ne": "\"ठीक, राम्रो पसल रहेछ। ठूला मान्छे धेरै आउँछन् होला।\"",
+        "id": "\"Pantas, restoran yang rapi. Pasti banyak orang penting datang.\"",
+        "pt": "\"Ah, é um lugar fino. Deve vir muita gente importante.\"",
+        "my": "\"ဟုတ်သားပဲ၊ စနစ်ကျတဲ့ ဆိုင်ပဲ။ လူကြီးတွေ အများကြီး လာမှာ။\"",
+        "th": "\"อย่างนี้นี่เอง ร้านเรียบร้อยดี คงมีคนใหญ่คนโตมาเยอะ\"",
+        "si": "\"හරි, පිළිවෙළ කඩයක්. ලොකු ලොකු අය ගොඩක් එනවා ඇති.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "なるほど = ra thế. えらい人 = người có địa vị.",
+        "en": "なるほど = I see. えらい人 = important person.",
+        "zh-Hans": "なるほど＝原来如此。えらい人＝大人物。",
+        "zh-Hant": "なるほど＝原來如此。えらい人＝大人物。",
+        "ko": "과연. 높은 사람.",
+        "tl": "ah, ganoon. mahalagang tao.",
+        "ne": "ठीक। ठूलो मान्छे।",
+        "id": "pantas. orang penting.",
+        "pt": "entendo. pessoa importante.",
+        "my": "ဟုတ်သားပဲ။ လူကြီး။",
+        "th": "อย่างนี้นี่เอง คนใหญ่คนโต",
+        "si": "なるほど = හරි, තේරුණා. えらい人 = වැදගත් පුද්ගලයා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=193.437,198.176",
+      "t": [
+        193.437,
+        198.176
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "二人は、かみをきれいにとかして、くつのどろを落としました。",
+      "furigana": [
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "は、かみをきれいにとかして、くつのどろを",
+          "reading": ""
+        },
+        {
+          "surface": "落",
+          "reading": "お"
+        },
+        {
+          "surface": "としました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Futari wa, kami o kirei ni tokashite, kutsu no doro o otoshimashita.",
+      "translations": {
+        "vi": "Hai người chải tóc thật đẹp, gạt bùn ở giày.",
+        "en": "The two neatly combed their hair and cleaned the mud off their shoes.",
+        "zh-Hans": "两人把头发梳得整整齐齐，弄掉了鞋上的泥。",
+        "zh-Hant": "兩人把頭髮梳得整整齊齊，弄掉了鞋上的泥。",
+        "ko": "두 사람은 머리를 깔끔하게 빗고 신발의 진흙을 털었습니다.",
+        "tl": "Sinuklay nila nang maayos ang buhok at nilinis ang sapatos.",
+        "ne": "दुवैले कपाल राम्ररी कोरे र जुत्ताको हिलो झारे।",
+        "id": "Keduanya menyisir rambut rapi dan membersihkan lumpur sepatu.",
+        "pt": "Os dois pentearam o cabelo e limparam a lama dos sapatos.",
+        "my": "နှစ်ယောက်လုံး ဆံပင် ဖြီးပြီး ဖိနပ်က ရွှံ့ ဖယ်တယ်။",
+        "th": "สองคนหวีผมเรียบร้อย ปัดโคลนที่รองเท้า",
+        "si": "දෙන්නා කොණ්ඩේ ලස්සනට පීරලා, සපත්තුවල මඩ අයින් කළා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "とかす = chải (tóc).",
+        "en": "とかす = comb.",
+        "zh-Hans": "とかす＝梳。",
+        "zh-Hant": "とかす＝梳。",
+        "ko": "빗다.",
+        "tl": "suklayin.",
+        "ne": "कोर्नु।",
+        "id": "menyisir.",
+        "pt": "pentear.",
+        "my": "ဖြီး။",
+        "th": "หวี",
+        "si": "とかす = පීරනවා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=199.076,203.591",
+      "t": [
+        199.076,
+        203.591
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "すると、ブラシが、すうっと消えてしまいました。",
+      "furigana": [
+        {
+          "surface": "すると、ブラシが、すうっと",
+          "reading": ""
+        },
+        {
+          "surface": "消",
+          "reading": "き"
+        },
+        {
+          "surface": "えてしまいました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Suruto, burashi ga, suutto kieteshimaimashita.",
+      "translations": {
+        "vi": "Thế rồi, cây bàn chải lặng lẽ biến mất.",
+        "en": "Then, the brush quietly vanished.",
+        "zh-Hans": "这时，刷子悄悄地消失了。",
+        "zh-Hant": "這時，刷子悄悄地消失了。",
+        "ko": "그러자 솔이 스르르 사라져 버렸습니다.",
+        "tl": "At biglang naglaho ang brush.",
+        "ne": "अनि ब्रस सुटुक्क हरायो।",
+        "id": "Lalu sikat itu lenyap perlahan.",
+        "pt": "Então a escova sumiu devagarinho.",
+        "my": "ဒီတော့ ဘရပ်ရှ်က ငြိမ်ငြိမ်လေး ပျောက်သွားတယ်။",
+        "th": "แล้วแปรงก็หายวับไปเงียบ ๆ",
+        "si": "එතකොට, බුරුසුව නිශ්ශබ්දව නැතිවෙලා ගියා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "消える = biến mất.",
+        "en": "消える = vanish.",
+        "zh-Hans": "消える＝消失。",
+        "zh-Hant": "消える＝消失。",
+        "ko": "사라지다.",
+        "tl": "maglaho.",
+        "ne": "हराउनु।",
+        "id": "lenyap.",
+        "pt": "sumir.",
+        "my": "ပျောက်။",
+        "th": "หายไป",
+        "si": "消える = නැති වෙනවා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=204.191,208.077",
+      "t": [
+        204.191,
+        208.077
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "次の戸には、こう書いてありました。",
+      "furigana": [
+        {
+          "surface": "次",
+          "reading": "つぎ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "戸",
+          "reading": "と"
+        },
+        {
+          "surface": "には、こう",
+          "reading": ""
+        },
+        {
+          "surface": "書",
+          "reading": "か"
+        },
+        {
+          "surface": "いてありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Tsugi no to ni wa, kou kaitearimashita.",
+      "translations": {
+        "vi": "Cánh cửa tiếp theo ghi thế này.",
+        "en": "The next door read like this.",
+        "zh-Hans": "下一扇门上写着这样的话。",
+        "zh-Hant": "下一扇門上寫著這樣的話。",
+        "ko": "그다음 문에는 이렇게 쓰여 있었습니다.",
+        "tl": "Ganito naman ang nasa sumunod na pinto.",
+        "ne": "त्यसपछिको ढोकामा यसो लेखिएको थियो।",
+        "id": "Pintu berikutnya bertuliskan begini.",
+        "pt": "A porta seguinte dizia assim.",
+        "my": "နောက်တံခါးမှာ ဒီလို ရေးထားပြန်တယ်။",
+        "th": "ประตูถัดมาเขียนไว้ว่า",
+        "si": "ඊළඟ දොරේ මෙහෙම ලියලා තිබුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "こう = như thế này.",
+        "en": "こう = like this.",
+        "zh-Hans": "こう＝这样。",
+        "zh-Hant": "こう＝這樣。",
+        "ko": "이렇게.",
+        "tl": "ganito.",
+        "ne": "यसरी।",
+        "id": "begini.",
+        "pt": "assim.",
+        "my": "ဒီလို။",
+        "th": "อย่างนี้",
+        "si": "こう = මෙහෙම."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=208.677,211.192",
+      "t": [
+        208.677,
+        211.192
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「鉄砲と、たまを、ここに置いてください。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "鉄砲",
+          "reading": "てっぽう"
+        },
+        {
+          "surface": "と、たまを、ここに",
+          "reading": ""
+        },
+        {
+          "surface": "置",
+          "reading": "お"
+        },
+        {
+          "surface": "いてください。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Teppou to, tama o, koko ni oitekudasai.”",
+      "translations": {
+        "vi": "\"Xin để súng và đạn lại đây.\"",
+        "en": "\"Please leave your guns and bullets here.\"",
+        "zh-Hans": "“请把枪和子弹放在这里。”",
+        "zh-Hant": "“請把槍和子彈放在這裡。”",
+        "ko": "\"총과 탄환은 여기에 놓아 주십시오.\"",
+        "tl": "\"Pakilagay po rito ang baril at bala.\"",
+        "ne": "\"बन्दुक र गोली यहीँ राख्नुहोस्।\"",
+        "id": "\"Silakan taruh senapan dan peluru di sini.\"",
+        "pt": "\"Deixem as armas e as balas aqui.\"",
+        "my": "\"သေနတ်နဲ့ ကျည်ဆံ ဒီမှာ ထားခဲ့ပါ။\"",
+        "th": "\"โปรดวางปืนและกระสุนไว้ที่นี่\"",
+        "si": "\"තුවක්කුයි උණ්ඩයි මෙතන තියන්න.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "たま = đạn. 置く = đặt.",
+        "en": "たま = bullets. 置く = put.",
+        "zh-Hans": "たま＝子弹。置く＝放。",
+        "zh-Hant": "たま＝子彈。置く＝放。",
+        "ko": "탄환. 놓다.",
+        "tl": "bala. ilagay.",
+        "ne": "गोली। राख्नु।",
+        "id": "peluru. menaruh.",
+        "pt": "bala. deixar.",
+        "my": "ကျည်ဆံ။ ထား။",
+        "th": "กระสุน วาง",
+        "si": "たま = උණ්ඩ. 置く = තියනවා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=211.792,215.164",
+      "t": [
+        211.792,
+        215.164
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「なるほど、鉄砲を持って、ものを食べる人はいないね。」",
+      "furigana": [
+        {
+          "surface": "「なるほど、",
+          "reading": ""
+        },
+        {
+          "surface": "鉄砲",
+          "reading": "てっぽう"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "持",
+          "reading": "も"
+        },
+        {
+          "surface": "って、ものを",
+          "reading": ""
+        },
+        {
+          "surface": "食",
+          "reading": "た"
+        },
+        {
+          "surface": "べる",
+          "reading": ""
+        },
+        {
+          "surface": "人",
+          "reading": "ひと"
+        },
+        {
+          "surface": "はいないね。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Naruhodo, teppou o motte, mono o taberu hito wa inai ne.”",
+      "translations": {
+        "vi": "\"Phải rồi, chẳng ai vừa cầm súng vừa ăn cả.\"",
+        "en": "\"Of course, nobody eats while holding a gun.\"",
+        "zh-Hans": "“说得也是，没有人拿着枪吃饭的。”",
+        "zh-Hant": "“說得也是，沒有人拿著槍吃飯的。”",
+        "ko": "\"그렇지, 총을 들고 밥 먹는 사람은 없지.\"",
+        "tl": "\"Oo nga, walang kumakain na may hawak na baril.\"",
+        "ne": "\"हो त, बन्दुक बोकेर खाना खाने कोही हुँदैन।\"",
+        "id": "\"Benar juga, tak ada yang makan sambil pegang senapan.\"",
+        "pt": "\"Claro, ninguém come segurando uma arma.\"",
+        "my": "\"ဟုတ်သားပဲ၊ သေနတ်ကိုင်ပြီး စားတဲ့လူ မရှိဘူး။\"",
+        "th": "\"จริงสิ ไม่มีใครถือปืนกินข้าวหรอก\"",
+        "si": "\"ඔව් ඉතින්, තුවක්කුවක් අල්ලගෙන කන කෙනෙක් නැහැ නේ.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜て = vừa ~ (cách thức).",
+        "en": "〜て = while ~ (manner).",
+        "zh-Hans": "〜て＝……着（方式）。",
+        "zh-Hant": "〜て＝……著（方式）。",
+        "ko": "~하고서.",
+        "tl": "habang ~.",
+        "ne": "~ एर।",
+        "id": "sambil ~.",
+        "pt": "com ~.",
+        "my": "~ ပြီး။",
+        "th": "ขณะ ~",
+        "si": "〜て = ~ ගෙන (ආකාරය)."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=216.064,219.828",
+      "t": [
+        216.064,
+        219.828
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "二人は、鉄砲とたまを、テーブルの上に置きました。",
+      "furigana": [
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "鉄砲",
+          "reading": "てっぽう"
+        },
+        {
+          "surface": "とたまを、テーブルの",
+          "reading": ""
+        },
+        {
+          "surface": "上",
+          "reading": "うえ"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "置",
+          "reading": "お"
+        },
+        {
+          "surface": "きました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Futari wa, teppou to tama o, teeburu no ue ni okimashita.",
+      "translations": {
+        "vi": "Hai người đặt súng và đạn lên bàn.",
+        "en": "The two put their guns and bullets on the table.",
+        "zh-Hans": "两人把枪和子弹放在了桌子上。",
+        "zh-Hant": "兩人把槍和子彈放在了桌子上。",
+        "ko": "두 사람은 총과 탄환을 테이블 위에 놓았습니다.",
+        "tl": "Inilagay nila ang baril at bala sa mesa.",
+        "ne": "दुवैले बन्दुक र गोली टेबलमा राखे।",
+        "id": "Keduanya menaruh senapan dan peluru di meja.",
+        "pt": "Os dois puseram armas e balas na mesa.",
+        "my": "နှစ်ယောက်လုံး သေနတ်နဲ့ ကျည်ဆံကို စားပွဲပေါ် တင်တယ်။",
+        "th": "สองคนวางปืนกับกระสุนบนโต๊ะ",
+        "si": "දෙන්නා තුවක්කුයි උණ්ඩයි මේසය උඩ තිබ්බා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "テーブル = cái bàn.",
+        "en": "テーブル = table.",
+        "zh-Hans": "テーブル＝桌子。",
+        "zh-Hant": "テーブル＝桌子。",
+        "ko": "테이블.",
+        "tl": "mesa.",
+        "ne": "टेबल।",
+        "id": "meja.",
+        "pt": "mesa.",
+        "my": "စားပွဲ။",
+        "th": "โต๊ะ",
+        "si": "テーブル = මේසය."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=220.728,225.124",
+      "t": [
+        220.728,
+        225.124
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "また、黒い戸がありました。",
+      "furigana": [
+        {
+          "surface": "また、",
+          "reading": ""
+        },
+        {
+          "surface": "黒",
+          "reading": "くろ"
+        },
+        {
+          "surface": "い",
+          "reading": ""
+        },
+        {
+          "surface": "戸",
+          "reading": "と"
+        },
+        {
+          "surface": "がありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Mata, kuroi to ga arimashita.",
+      "translations": {
+        "vi": "Lại có một cánh cửa màu đen.",
+        "en": "Again, there was a black door.",
+        "zh-Hans": "又有一扇黑色的门。",
+        "zh-Hant": "又有一扇黑色的門。",
+        "ko": "또 검은 문이 있었습니다.",
+        "tl": "May itim na pinto na naman.",
+        "ne": "फेरि कालो ढोका थियो।",
+        "id": "Ada pintu hitam lagi.",
+        "pt": "Havia outra porta, preta.",
+        "my": "နောက်ထပ် တံခါးမည်း ရှိတယ်။",
+        "th": "มีประตูสีดำอีก",
+        "si": "ආයෙත් කළු දොරක් තිබුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "黒い = màu đen.",
+        "en": "黒い = black.",
+        "zh-Hans": "黒い＝黑色的。",
+        "zh-Hant": "黒い＝黑色的。",
+        "ko": "검다.",
+        "tl": "itim.",
+        "ne": "कालो।",
+        "id": "hitam.",
+        "pt": "preto.",
+        "my": "မည်း။",
+        "th": "ดำ",
+        "si": "黒い = කළු."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=225.724,227.879",
+      "t": [
+        225.724,
+        227.879
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「どうか、ぼうしと、コートと、くつを、おとりください。」",
+      "furigana": [
+        {
+          "surface": "「どうか、ぼうしと、コートと、くつを、おとりください。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Dou ka, boushi to, kooto to, kutsu o, otorikudasai.”",
+      "translations": {
+        "vi": "\"Xin quý khách bỏ mũ, áo khoác và giày ra.\"",
+        "en": "\"Please remove your hats, coats, and shoes.\"",
+        "zh-Hans": "“请脱下帽子、外套和鞋子。”",
+        "zh-Hant": "“請脫下帽子、外套和鞋子。”",
+        "ko": "\"부디 모자와 코트와 신발을 벗어 주십시오.\"",
+        "tl": "\"Pakihubad po ang sombrero, amerikana, at sapatos.\"",
+        "ne": "\"कृपया टोपी, कोट र जुत्ता खोल्नुहोस्।\"",
+        "id": "\"Silakan lepas topi, mantel, dan sepatu.\"",
+        "pt": "\"Por favor, tirem chapéu, casaco e sapatos.\"",
+        "my": "\"ဦးထုပ်၊ အင်္ကျီ၊ ဖိနပ် ချွတ်ပေးပါ။\"",
+        "th": "\"โปรดถอดหมวก เสื้อโค้ต และรองเท้า\"",
+        "si": "\"කරුණාකර තොප්පි, කබා, සපත්තු ගලවන්න.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "おとりください = xin hãy cởi/bỏ ra (kính ngữ).",
+        "en": "おとりください = please remove (polite).",
+        "zh-Hans": "おとりください＝请脱下（敬语）。",
+        "zh-Hant": "おとりください＝請脫下（敬語）。",
+        "ko": "벗어 주십시오.",
+        "tl": "pakihubad.",
+        "ne": "खोल्नुहोस्।",
+        "id": "silakan lepas.",
+        "pt": "por favor, tirem.",
+        "my": "ချွတ်ပေးပါ။",
+        "th": "โปรดถอด",
+        "si": "おとりください = කරුණාකර ගලවන්න (ගෞරවාර්ථ)."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=228.479,233.084",
+      "t": [
+        228.479,
+        233.084
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "二人は、言われたとおりに、ぼうしもコートもくつも、ぬぎました。",
+      "furigana": [
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "は、",
+          "reading": ""
+        },
+        {
+          "surface": "言",
+          "reading": "い"
+        },
+        {
+          "surface": "われたとおりに、ぼうしもコートもくつも、ぬぎました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Futari wa, iwareta toori ni, boushi mo kooto mo kutsu mo, nugimashita.",
+      "translations": {
+        "vi": "Hai người làm đúng như được dặn, cởi mũ, áo khoác và cả giày.",
+        "en": "Doing as told, they took off their hats, coats, and shoes.",
+        "zh-Hans": "两人照说的，脱下了帽子、外套和鞋。",
+        "zh-Hant": "兩人照說的，脫下了帽子、外套和鞋。",
+        "ko": "두 사람은 시키는 대로 모자도 코트도 신발도 벗었습니다.",
+        "tl": "Gaya ng sinabi, hinubad nila ang sombrero, amerikana, at sapatos.",
+        "ne": "भनेजस्तै दुवैले टोपी, कोट र जुत्ता खोले।",
+        "id": "Sesuai perintah, mereka melepas topi, mantel, dan sepatu.",
+        "pt": "Como mandado, tiraram chapéu, casaco e sapatos.",
+        "my": "ပြောတဲ့အတိုင်း ဦးထုပ်ရော အင်္ကျီရော ဖိနပ်ရော ချွတ်တယ်။",
+        "th": "สองคนถอดหมวก เสื้อโค้ต และรองเท้าตามที่บอก",
+        "si": "දෙන්නා කිව්ව විදිහටම, තොප්පිත් කබාත් සපත්තුත් ගැලෙව්වා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "言われたとおりに = đúng như được bảo. ぬぐ = cởi.",
+        "en": "言われたとおりに = as told. ぬぐ = take off.",
+        "zh-Hans": "言われたとおりに＝按照说的。ぬぐ＝脱。",
+        "zh-Hant": "言われたとおりに＝按照說的。ぬぐ＝脫。",
+        "ko": "시키는 대로. 벗다.",
+        "tl": "gaya ng sinabi. hubarin.",
+        "ne": "भनेजस्तै। खोल्नु।",
+        "id": "sesuai perintah. melepas.",
+        "pt": "como mandado. tirar.",
+        "my": "ပြောတဲ့အတိုင်း။ ချွတ်။",
+        "th": "ตามที่บอก ถอด",
+        "si": "言われたとおりに = කිව්ව විදිහටම. ぬぐ = ගලවනවා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=233.684,238.879",
+      "t": [
+        233.684,
+        238.879
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "戸のうらには、また何か書いてありました。",
+      "furigana": [
+        {
+          "surface": "戸",
+          "reading": "と"
+        },
+        {
+          "surface": "のうらには、また",
+          "reading": ""
+        },
+        {
+          "surface": "何",
+          "reading": "なに"
+        },
+        {
+          "surface": "か",
+          "reading": ""
+        },
+        {
+          "surface": "書",
+          "reading": "か"
+        },
+        {
+          "surface": "いてありました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "To no ura ni wa, mata nani ka kaitearimashita.",
+      "translations": {
+        "vi": "Mặt sau cửa lại có ghi gì đó.",
+        "en": "On the back of the door, something was written again.",
+        "zh-Hans": "门背面又写着什么。",
+        "zh-Hant": "門背面又寫著什麼。",
+        "ko": "문 뒤에는 또 무언가 쓰여 있었습니다.",
+        "tl": "May nakasulat na naman sa likod ng pinto.",
+        "ne": "ढोकाको पछाडि फेरि केही लेखिएको थियो।",
+        "id": "Di balik pintu tertulis sesuatu lagi.",
+        "pt": "No verso da porta havia algo escrito de novo.",
+        "my": "တံခါးနောက်မှာ တစ်ခုခု ထပ်ရေးထားတယ်။",
+        "th": "หลังประตูเขียนอะไรไว้อีก",
+        "si": "දොරේ පිටිපස්සේ ආයෙත් මොකක්හරි ලියලා තිබුණා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "何か = cái gì đó.",
+        "en": "何か = something.",
+        "zh-Hans": "何か＝什么。",
+        "zh-Hant": "何か＝什麼。",
+        "ko": "무언가.",
+        "tl": "isang bagay.",
+        "ne": "केही।",
+        "id": "sesuatu.",
+        "pt": "algo.",
+        "my": "တစ်ခုခု။",
+        "th": "อะไรบางอย่าง",
+        "si": "何か = මොකක්හරි."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=239.479,242.614",
+      "t": [
+        239.479,
+        242.614
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「ネクタイピン、カフスボタン、めがね、さいふ、そのほか金ものは、ここに置いてください。」",
+      "furigana": [
+        {
+          "surface": "「ネクタイピン、カフスボタン、めがね、さいふ、そのほか",
+          "reading": ""
+        },
+        {
+          "surface": "金",
+          "reading": "かな"
+        },
+        {
+          "surface": "ものは、ここに",
+          "reading": ""
+        },
+        {
+          "surface": "置",
+          "reading": "お"
+        },
+        {
+          "surface": "いてください。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Nekutaipin, kafusubotan, megane, saifu, sono hoka kanamono wa, koko ni oitekudasai.”",
+      "translations": {
+        "vi": "\"Kẹp cà vạt, khuy măng sét, kính, ví và mọi đồ kim loại khác, xin để lại đây.\"",
+        "en": "\"Tie pins, cufflinks, glasses, wallets, and any other metal items: please leave them here.\"",
+        "zh-Hans": "“领带夹、袖扣、眼镜、钱包，其他金属物品，请放在这里。”",
+        "zh-Hant": "“領帶夾、袖釦、眼鏡、錢包，其他金屬物品，請放在這裡。”",
+        "ko": "\"넥타이핀, 커프스단추, 안경, 지갑, 그 밖의 쇠붙이는 여기에 놓아 주십시오.\"",
+        "tl": "\"Ang tie pin, cufflinks, salamin, pitaka, at iba pang metal, ilagay po rito.\"",
+        "ne": "\"टाई पिन, कफलिङ्क, चस्मा, पर्स र अन्य धातुका सामान यहाँ राख्नुहोस्।\"",
+        "id": "\"Peniti dasi, kancing manset, kacamata, dompet, dan logam lain, taruh di sini.\"",
+        "pt": "\"Prendedores, abotoaduras, óculos, carteiras e outros metais, deixem aqui.\"",
+        "my": "\"နက်ကတိုင်ညှပ်၊ ကြယ်သီး၊ မျက်မှန်၊ ပိုက်ဆံအိတ်နဲ့ သတ္တုပစ္စည်းတွေ ဒီမှာ ထားခဲ့ပါ။\"",
+        "th": "\"เข็มกลัดเนกไท กระดุมข้อมือ แว่นตา กระเป๋าสตางค์ และของโลหะอื่น ๆ โปรดวางไว้ที่นี่\"",
+        "si": "\"ටයි පින්, කෆ්ලින්ක්ස්, කණ්ණාඩි, පසුම්බි, වෙනත් ලෝහ බඩු මෙතන තියන්න.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "金もの = đồ kim loại. そのほか = ngoài ra.",
+        "en": "金もの = metal items. そのほか = other.",
+        "zh-Hans": "金もの＝金属物品。そのほか＝其他。",
+        "zh-Hant": "金もの＝金屬物品。そのほか＝其他。",
+        "ko": "쇠붙이. 그 밖.",
+        "tl": "metal. iba pa.",
+        "ne": "धातुका सामान। अन्य।",
+        "id": "barang logam. lainnya.",
+        "pt": "objetos de metal. outros.",
+        "my": "သတ္တုပစ္စည်း။ အခြား။",
+        "th": "ของโลหะ อื่น ๆ",
+        "si": "金もの = ලෝහ බඩු. そのほか = වෙනත්."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=243.214,250.337",
+      "t": [
+        243.214,
+        250.337
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    },
+    {
+      "ja": "「料理に電気を使うんだな。金ものは、あぶないからだろう。」",
+      "furigana": [
+        {
+          "surface": "「",
+          "reading": ""
+        },
+        {
+          "surface": "料理",
+          "reading": "りょうり"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "電気",
+          "reading": "でんき"
+        },
+        {
+          "surface": "を",
+          "reading": ""
+        },
+        {
+          "surface": "使",
+          "reading": "つか"
+        },
+        {
+          "surface": "うんだな。",
+          "reading": ""
+        },
+        {
+          "surface": "金",
+          "reading": "かな"
+        },
+        {
+          "surface": "ものは、あぶないからだろう。」",
+          "reading": ""
+        }
+      ],
+      "romaji": "“Ryouri ni denki o tsukau n da na. Kanamono wa, abunai kara darou.”",
+      "translations": {
+        "vi": "\"Chắc nấu nướng dùng điện. Đồ kim loại thì nguy hiểm mà.\"",
+        "en": "\"They must cook with electricity. Metal would be dangerous.\"",
+        "zh-Hans": "“做菜要用电吧。金属很危险嘛。”",
+        "zh-Hant": "“做菜要用電吧。金屬很危險嘛。”",
+        "ko": "\"요리에 전기를 쓰는군. 쇠붙이는 위험하니까.\"",
+        "tl": "\"Kuryente siguro ang gamit sa pagluluto. Delikado ang metal.\"",
+        "ne": "\"खाना पकाउन बिजुली चलाउँछन् होला। धातु खतरनाक हुन्छ।\"",
+        "id": "\"Pasti masaknya pakai listrik. Logam berbahaya.\"",
+        "pt": "\"Devem cozinhar com eletricidade. Metal é perigoso.\"",
+        "my": "\"ဟင်းချက်ရင် လျှပ်စစ် သုံးမှာ။ သတ္တုက အန္တရာယ်ရှိလို့။\"",
+        "th": "\"คงใช้ไฟฟ้าทำอาหาร ของโลหะอันตรายนี่\"",
+        "si": "\"කෑම හදන්න විදුලිය පාවිච්චි කරනවා ඇති. ලෝහ බඩු භයානක නිසා වෙන්න ඇති.\""
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "〜んだな = thì ra là ~. 電気 = điện.",
+        "en": "〜んだな = so it's ~. 電気 = electricity.",
+        "zh-Hans": "〜んだな＝原来……啊。電気＝电。",
+        "zh-Hant": "〜んだな＝原來……啊。電気＝電。",
+        "ko": "~구나. 전기.",
+        "tl": "ah, ~ pala. kuryente.",
+        "ne": "~ रहेछ। बिजुली।",
+        "id": "ternyata ~. listrik.",
+        "pt": "então é ~. eletricidade.",
+        "my": "~ ပဲ။ လျှပ်စစ်။",
+        "th": "ที่แท้ ~ ไฟฟ้า",
+        "si": "〜んだな = ~ නේද එහෙනම්. 電気 = විදුලිය."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=251.237,255.877",
+      "t": [
+        251.237,
+        255.877
+      ],
+      "voice": "ja-JP-Neural2-C"
+    },
+    {
+      "ja": "二人は、めがねも、さいふも、みんな金庫の中に入れて、かぎをかけました。",
+      "furigana": [
+        {
+          "surface": "二人",
+          "reading": "ふたり"
+        },
+        {
+          "surface": "は、めがねも、さいふも、みんな",
+          "reading": ""
+        },
+        {
+          "surface": "金庫",
+          "reading": "きんこ"
+        },
+        {
+          "surface": "の",
+          "reading": ""
+        },
+        {
+          "surface": "中",
+          "reading": "なか"
+        },
+        {
+          "surface": "に",
+          "reading": ""
+        },
+        {
+          "surface": "入",
+          "reading": "い"
+        },
+        {
+          "surface": "れて、かぎをかけました。",
+          "reading": ""
+        }
+      ],
+      "romaji": "Futari wa, megane mo, saifu mo, minna kinko no naka ni irete, kagi o kakemashita.",
+      "translations": {
+        "vi": "Hai người bỏ cả kính lẫn ví vào két sắt, rồi khóa lại.",
+        "en": "They put their glasses and wallets into a safe and locked it.",
+        "zh-Hans": "两人把眼镜、钱包都放进保险柜，锁上了。",
+        "zh-Hant": "兩人把眼鏡、錢包都放進保險櫃，鎖上了。",
+        "ko": "두 사람은 안경도 지갑도 모두 금고 안에 넣고 자물쇠를 잠갔습니다.",
+        "tl": "Inilagay nila ang salamin at pitaka sa kaha de yero at ikinandado.",
+        "ne": "दुवैले चस्मा र पर्स सबै तिजोरीमा राखेर ताल्चा लगाए।",
+        "id": "Keduanya memasukkan kacamata dan dompet ke brankas lalu menguncinya.",
+        "pt": "Puseram óculos e carteiras no cofre e trancaram.",
+        "my": "မျက်မှန်ရော ပိုက်ဆံအိတ်ရော မီးခံသေတ္တာထဲ ထည့်ပြီး သော့ခတ်တယ်။",
+        "th": "สองคนใส่แว่นและกระเป๋าสตางค์ลงในตู้เซฟ แล้วล็อกไว้",
+        "si": "දෙන්නා කණ්ණාඩියි පසුම්බියි ඔක්කොම සේප්පුවට දාලා, යතුරු දැම්මා."
+      },
+      "vocab": [],
+      "grammarNote": {
+        "vi": "金庫 = két sắt. かぎをかける = khóa lại.",
+        "en": "金庫 = safe. かぎをかける = lock.",
+        "zh-Hans": "金庫＝保险柜。かぎをかける＝上锁。",
+        "zh-Hant": "金庫＝保險櫃。かぎをかける＝上鎖。",
+        "ko": "금고. 잠그다.",
+        "tl": "kaha de yero. ikandado.",
+        "ne": "तिजोरी। ताल्चा लगाउनु।",
+        "id": "brankas. mengunci.",
+        "pt": "cofre. trancar.",
+        "my": "မီးခံသေတ္တာ။ သော့ခတ်။",
+        "th": "ตู้เซฟ ล็อก",
+        "si": "金庫 = සේප්පුව. かぎをかける = යතුරු දානවා."
+      },
+      "audio": "/audio/chumon-1/chapter.mp3#t=256.777,263.179",
+      "t": [
+        256.777,
+        263.179
+      ],
+      "voice": "ja-JP-Chirp3-HD-Aoede"
+    }
+  ],
+  "audioTrack": {
+    "src": "/audio/chumon-1/chapter.mp3",
+    "durationSec": 264.24
+  }
+}

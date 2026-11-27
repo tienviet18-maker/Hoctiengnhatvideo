@@ -1,0 +1,4678 @@
+{
+ "kind": "story",
+ "id": "life-rongo-1",
+ "titles": {
+  "vi": "Thầy và trò",
+  "en": "The Teacher and His Students",
+  "zh-Hans": "老师与弟子",
+  "zh-Hant": "老師與弟子",
+  "ko": "스승과 제자",
+  "tl": "Ang Guro at ang mga Alagad",
+  "ne": "गुरु र चेला",
+  "id": "Guru dan Murid",
+  "pt": "O Mestre e os Discípulos",
+  "my": "ဆရာနှင့် တပည့်",
+  "th": "ครูกับศิษย์",
+  "si": "ගුරුවරයා සහ එයාගේ ශිෂ්‍යයෝ"
+ },
+ "level": "N4",
+ "topic": "philosophy",
+ "source": "original",
+ "cover": "/covers/life-rongo-1.webp",
+ "free": true,
+ "standard": 2,
+ "series": {
+  "id": "life-rongo",
+  "index": 1
+ },
+ "shelf": "wisdom",
+ "audioTrack": {
+  "src": "/audio/life-rongo-1/chapter.mp3",
+  "durationSec": 215.95
+ },
+ "lesson": {
+  "grammarPoints": [
+   {
+    "pattern": "〜なんて",
+    "meaning": {
+     "vi": "Cái thứ … (coi nhẹ, chê, hoặc ngạc nhiên). N + なんて. 「勉強なんて、役に立ちません」. Đời sống: 「宿題なんて、きらい」, 「あなたが来るなんて、びっくりした」 (ngạc nhiên).",
+     "en": "\"Something like …\" (dismissive, or surprised). N + なんて. 勉強なんて、役に立ちません. Daily life: 宿題なんて、きらい \"I hate stuff like homework\", あなたが来るなんて、びっくりした \"I'm surprised you came!\".",
+     "zh-Hans": "\"……什么的\"（轻视或惊讶）。名词＋なんて。生活中：「宿題なんて、きらい」「あなたが来るなんて、びっくりした」。",
+     "zh-Hant": "「……什麼的」（輕視或驚訝）。名詞＋なんて。生活中：「宿題なんて、きらい」。",
+     "ko": "\"… 따위/…라니\"(경시, 놀람). 명사 + なんて. 생활: 「宿題なんて、きらい」.",
+     "tl": "\"Ang … na iyan\" (pagmamaliit/gulat). N + なんて. Halimbawa: 宿題なんて、きらい.",
+     "ne": "\"… भन्ने कुरा\" (हेला/अचम्म)। नाम + なんて। उदाहरण: 「宿題なんて、きらい」।",
+     "id": "\"Yang namanya …\" (meremehkan/kaget). N + なんて. Contoh: 宿題なんて、きらい.",
+     "pt": "\"Esse tal de …\" (desdém/surpresa). N + なんて. Ex.: 宿題なんて、きらい.",
+     "my": "\"… ဆိုတာမျိုး\" (အထင်သေး/အံ့သြ)။ နာမ် + なんて။ ဥပမာ 「宿題なんて、きらい」။",
+     "th": "\"… อะไรนั่น\" (ดูถูก/ประหลาดใจ) คำนาม + なんて ตัวอย่าง「宿題なんて、きらい」",
+     "si": "\"~ වගේ දෙයක්\" (නොසලකා හරිමින්, හෝ පුදුමයෙන්). N + なんて. 勉強なんて、役に立ちません. එදිනෙදා ජීවිතයේ: 宿題なんて、きらい \"ගෙදර වැඩ වගේ දේවල් මට අප්පිරියයි\", あなたが来るなんて、びっくりした \"ඔයා එයි කියලා හිතුවේ නැහැ, පුදුම වුණා!\"."
+    },
+    "example": 6
+   },
+   {
+    "pattern": "〜とは",
+    "meaning": {
+     "vi": "… là gì (định nghĩa, giải thích ý nghĩa). N + とは + (どういうことか/〜ということだ). 「『知る』とはどういうことか」. Đời sống: 「『もったいない』とは、どういう意味ですか」.",
+     "en": "\"What … means\" (definition). N + とは. 『知る』とはどういうことか. Daily life: 『もったいない』とは、どういう意味ですか \"what does mottainai mean?\".",
+     "zh-Hans": "\"所谓……\"（下定义）。名词＋とは。生活中：「『もったいない』とは、どういう意味ですか」。",
+     "zh-Hant": "「所謂……」（下定義）。名詞＋とは。生活中：「『もったいない』とは、どういう意味ですか」。",
+     "ko": "\"…이란\"(정의). 명사 + とは. 생활: 「『もったいない』とは、どういう意味ですか」.",
+     "tl": "\"Ang ibig sabihin ng …\". N + とは. Halimbawa: 『もったいない』とは、どういう意味ですか.",
+     "ne": "\"… भनेको\"। नाम + とは। उदाहरण: 「『もったいない』とは、どういう意味ですか」।",
+     "id": "\"Arti dari …\". N + とは. Contoh: 『もったいない』とは、どういう意味ですか.",
+     "pt": "\"O que é …\". N + とは. Ex.: 『もったいない』とは、どういう意味ですか.",
+     "my": "\"… ဆိုတာ\"။ နာမ် + とは။ ဥပမာ 「『もったいない』とは、どういう意味ですか」။",
+     "th": "\"… คือ\" คำนาม + とは ตัวอย่าง「『もったいない』とは、どういう意味ですか」",
+     "si": "\"~ කියන්නේ මොකක්ද\" (අර්ථ දැක්වීම). N + とは. 『知る』とはどういうことか. එදිනෙදා ජීවිතයේ: 『もったいない』とは、どういう意味ですか \"mottainai කියන්නේ මොකක්ද?\"."
+    },
+    "example": 15
+   },
+   {
+    "pattern": "〜のに",
+    "meaning": {
+     "vi": "Vậy mà, dù … mà (kết quả trái với mong đợi, thường kèm bất mãn). Thể thường + のに (danh từ/tính từ な + なのに). 「まちがえたのに直さない」. Đời sống: 「約束したのに、来なかった」, 「日曜日なのに、仕事だ」.",
+     "en": "\"Even though …\" (unexpected result, often with frustration). Plain form + のに (N/な-adj + なのに). まちがえたのに直さない. Daily life: 約束したのに、来なかった \"they promised, yet didn't come\", 日曜日なのに、仕事だ.",
+     "zh-Hans": "\"明明……却……\"（与预期相反）。普通形＋のに。生活中：「約束したのに、来なかった」「日曜日なのに、仕事だ」。",
+     "zh-Hant": "「明明……卻……」。普通形＋のに。生活中：「約束したのに、来なかった」。",
+     "ko": "\"…인데도\"(기대와 반대). 보통형 + のに. 생활: 「約束したのに、来なかった」.",
+     "tl": "\"Kahit na …\". Plain + のに. Halimbawa: 約束したのに、来なかった.",
+     "ne": "\"… गरे पनि\"। साधारण रूप + のに। उदाहरण: 「約束したのに、来なかった」।",
+     "id": "\"Padahal …\". Bentuk biasa + のに. Contoh: 約束したのに、来なかった.",
+     "pt": "\"Mesmo que …\". Forma simples + のに. Ex.: 約束したのに、来なかった.",
+     "my": "\"… ပေမဲ့\"။ ရိုးရိုးပုံစံ + のに။ ဥပမာ 「約束したのに、来なかった」။",
+     "th": "\"ทั้งที่ …\" รูปธรรมดา + のに ตัวอย่าง「約束したのに、来なかった」",
+     "si": "\"~ වුණත්\" (අනපේක්ෂිත ප්‍රතිඵලය, බොහෝ විට කලකිරීමෙන්). plain රූපය + のに (N/な-විශේෂණ + なのに). まちがえたのに直さない. එදිනෙදා ජීවිතයේ: 約束したのに、来なかった \"පොරොන්දු වුණත්, ආවේ නැහැ\", 日曜日なのに、仕事だ \"ඉරිදා වුණත්, වැඩ\"."
+    },
+    "example": 36
+   }
+  ],
+  "quiz": [
+   {
+    "ja": "孔子は、竹の話で子路に何を伝えましたか。",
+    "choices": [
+     "竹は役に立たない",
+     "学ぶと、人はもっと遠くまで行ける",
+     "剣のほうが強い"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Câu 8–11: tre gắn lông thành mũi tên bay xa; người học rồi cũng đi được xa hơn.",
+     "en": "Sentences 8–11: bamboo made into an arrow flies far; people who learn go farther.",
+     "zh-Hans": "第8–11句：竹子做成箭能飞得更远，人学习后也能走得更远。",
+     "zh-Hant": "第8–11句：竹子做成箭能飛得更遠，人學習後也能走得更遠。",
+     "ko": "8–11번 문장: 배우면 더 멀리 갈 수 있다.",
+     "tl": "Pangungusap 8–11: kapag natuto, mas malayo.",
+     "ne": "वाक्य ८–११: सिके टाढा पुगिन्छ।",
+     "id": "Kalimat 8–11: belajar membuat kita pergi lebih jauh.",
+     "pt": "Frases 8–11: aprendendo, vai-se mais longe.",
+     "my": "ဝါကျ ၈–၁၁: သင်ယူရင် ပိုဝေးဝေး ရောက်။",
+     "th": "ประโยค 8–11: เรียนรู้แล้วไปได้ไกลขึ้น",
+     "si": "වාක්‍යය 8–11: ඊතලයක් කළ උණ බටය ඈතට පියාඹනවා; ඉගෙන ගන්න මිනිස්සු තව ඈතට යනවා."
+    },
+    "jaFurigana": [
+     {
+      "surface": "孔子",
+      "reading": "こうし"
+     },
+     {
+      "surface": "は、",
+      "reading": ""
+     },
+     {
+      "surface": "竹",
+      "reading": "たけ"
+     },
+     {
+      "surface": "の",
+      "reading": ""
+     },
+     {
+      "surface": "話",
+      "reading": "はなし"
+     },
+     {
+      "surface": "で",
+      "reading": ""
+     },
+     {
+      "surface": "子路",
+      "reading": "しろ"
+     },
+     {
+      "surface": "に",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "を",
+      "reading": ""
+     },
+     {
+      "surface": "伝",
+      "reading": "つた"
+     },
+     {
+      "surface": "えましたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "竹",
+       "reading": "たけ"
+      },
+      {
+       "surface": "は",
+       "reading": ""
+      },
+      {
+       "surface": "役",
+       "reading": "やく"
+      },
+      {
+       "surface": "に",
+       "reading": ""
+      },
+      {
+       "surface": "立",
+       "reading": "た"
+      },
+      {
+       "surface": "たない",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "学",
+       "reading": "まな"
+      },
+      {
+       "surface": "ぶと、",
+       "reading": ""
+      },
+      {
+       "surface": "人",
+       "reading": "ひと"
+      },
+      {
+       "surface": "はもっと",
+       "reading": ""
+      },
+      {
+       "surface": "遠",
+       "reading": "とお"
+      },
+      {
+       "surface": "くまで",
+       "reading": ""
+      },
+      {
+       "surface": "行",
+       "reading": "い"
+      },
+      {
+       "surface": "ける",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "剣",
+       "reading": "けん"
+      },
+      {
+       "surface": "のほうが",
+       "reading": ""
+      },
+      {
+       "surface": "強",
+       "reading": "つよ"
+      },
+      {
+       "surface": "い",
+       "reading": ""
+      }
+     ]
+    ]
+   },
+   {
+    "ja": "孔子によると、「本当に知る」とはどういうことですか。",
+    "choices": [
+     "何でも「わかりました」と言うこと",
+     "知っていることと知らないことを、正直に言うこと",
+     "本をたくさん読むこと"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Câu 17–19: biết thì nói biết, không biết thì nói không biết.",
+     "en": "Sentences 17–19: say you know what you know, and that you don't know what you don't.",
+     "zh-Hans": "第17–19句：知之为知之，不知为不知。",
+     "zh-Hant": "第17–19句：知之為知之，不知為不知。",
+     "ko": "17–19번 문장: 아는 것은 안다, 모르는 것은 모른다.",
+     "tl": "Pangungusap 17–19: tapat sa alam at hindi alam.",
+     "ne": "वाक्य १७–१९: जानेको जानेँ, नजानेको नजानेँ।",
+     "id": "Kalimat 17–19: jujur tentang tahu dan tidak tahu.",
+     "pt": "Frases 17–19: honestidade sobre o que se sabe.",
+     "my": "ဝါကျ ၁၇–၁၉: သိတာ သိ၊ မသိတာ မသိ။",
+     "th": "ประโยค 17–19: รู้ว่ารู้ ไม่รู้ว่าไม่รู้",
+     "si": "වාක්‍යය 17–19: දන්න දේ දන්නවා කියලත්, නොදන්න දේ නොදන්නවා කියලත් කියනවා."
+    },
+    "jaFurigana": [
+     {
+      "surface": "孔子",
+      "reading": "こうし"
+     },
+     {
+      "surface": "によると、「",
+      "reading": ""
+     },
+     {
+      "surface": "本当",
+      "reading": "ほんとう"
+     },
+     {
+      "surface": "に",
+      "reading": ""
+     },
+     {
+      "surface": "知",
+      "reading": "し"
+     },
+     {
+      "surface": "る」とはどういうことですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "何",
+       "reading": "なに"
+      },
+      {
+       "surface": "でも「わかりました」と",
+       "reading": ""
+      },
+      {
+       "surface": "言",
+       "reading": "い"
+      },
+      {
+       "surface": "うこと",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "知",
+       "reading": "し"
+      },
+      {
+       "surface": "っていることと",
+       "reading": ""
+      },
+      {
+       "surface": "知",
+       "reading": "し"
+      },
+      {
+       "surface": "らないことを、",
+       "reading": ""
+      },
+      {
+       "surface": "正直",
+       "reading": "しょうじき"
+      },
+      {
+       "surface": "に",
+       "reading": ""
+      },
+      {
+       "surface": "言",
+       "reading": "い"
+      },
+      {
+       "surface": "うこと",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "本",
+       "reading": "ほん"
+      },
+      {
+       "surface": "をたくさん",
+       "reading": ""
+      },
+      {
+       "surface": "読",
+       "reading": "よ"
+      },
+      {
+       "surface": "むこと",
+       "reading": ""
+      }
+     ]
+    ]
+   },
+   {
+    "ja": "子貢がもらった「一言」は何でしたか。",
+    "choices": [
+     "思いやり",
+     "お金",
+     "強さ"
+    ],
+    "answer": 0,
+    "explain": {
+     "vi": "Câu 25–26: \"lòng vị tha\": điều mình không muốn thì đừng làm cho người khác.",
+     "en": "Sentences 25–26: consideration: don't do to others what you wouldn't want done to you.",
+     "zh-Hans": "第25–26句：\"恕\"：己所不欲，勿施于人。",
+     "zh-Hant": "第25–26句：「恕」：己所不欲，勿施於人。",
+     "ko": "25–26번 문장: 배려(恕).",
+     "tl": "Pangungusap 25–26: malasakit.",
+     "ne": "वाक्य २५–२६: अरूप्रतिको ख्याल।",
+     "id": "Kalimat 25–26: tenggang rasa.",
+     "pt": "Frases 25–26: consideração.",
+     "my": "ဝါကျ ၂၅–၂၆: စာနာစိတ်။",
+     "th": "ประโยค 25–26: ความเห็นอกเห็นใจ",
+     "si": "වාක්‍යය 25–26: සැලකිල්ල: තමන්ට කරනවට අකමැති දේ අනුන්ට කරන්න එපා."
+    },
+    "jaFurigana": [
+     {
+      "surface": "子貢",
+      "reading": "しこう"
+     },
+     {
+      "surface": "がもらった「",
+      "reading": ""
+     },
+     {
+      "surface": "一言",
+      "reading": "ひとこと"
+     },
+     {
+      "surface": "」は",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "でしたか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "思",
+       "reading": "おも"
+      },
+      {
+       "surface": "いやり",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "お",
+       "reading": ""
+      },
+      {
+       "surface": "金",
+       "reading": "かね"
+      }
+     ],
+     [
+      {
+       "surface": "強",
+       "reading": "つよ"
+      },
+      {
+       "surface": "さ",
+       "reading": ""
+      }
+     ]
+    ]
+   },
+   {
+    "ja": "孔子によると、「本当のまちがい」は何ですか。",
+    "choices": [
+     "まちがえること",
+     "まちがえたのに直さないこと",
+     "人のまちがいを話すこと"
+    ],
+    "answer": 1,
+    "explain": {
+     "vi": "Câu 36–37: sai không xấu; sai mà không sửa mới là sai lầm thật.",
+     "en": "Sentences 36–37: mistakes are fine; not fixing them is the real mistake.",
+     "zh-Hans": "第36–37句：过而不改，是谓过矣。",
+     "zh-Hant": "第36–37句：過而不改，是謂過矣。",
+     "ko": "36–37번 문장: 고치지 않는 것이 진짜 실수.",
+     "tl": "Pangungusap 36–37: ang hindi pagtatama.",
+     "ne": "वाक्य ३६–३७: नसुधार्नु नै गल्ती।",
+     "id": "Kalimat 36–37: tidak memperbaiki.",
+     "pt": "Frases 36–37: não corrigir.",
+     "my": "ဝါကျ ၃၆–၃၇: မပြင်ခြင်း။",
+     "th": "ประโยค 36–37: ผิดแล้วไม่แก้",
+     "si": "වාක්‍යය 36–37: වැරදීම කමක් නැහැ; ඒවා නොහදන එක තමයි ඇත්ත වැරැද්ද."
+    },
+    "jaFurigana": [
+     {
+      "surface": "孔子",
+      "reading": "こうし"
+     },
+     {
+      "surface": "によると、「",
+      "reading": ""
+     },
+     {
+      "surface": "本当",
+      "reading": "ほんとう"
+     },
+     {
+      "surface": "のまちがい」は",
+      "reading": ""
+     },
+     {
+      "surface": "何",
+      "reading": "なに"
+     },
+     {
+      "surface": "ですか。",
+      "reading": ""
+     }
+    ],
+    "choicesFurigana": [
+     [
+      {
+       "surface": "まちがえること",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "まちがえたのに",
+       "reading": ""
+      },
+      {
+       "surface": "直",
+       "reading": "なお"
+      },
+      {
+       "surface": "さないこと",
+       "reading": ""
+      }
+     ],
+     [
+      {
+       "surface": "人",
+       "reading": "ひと"
+      },
+      {
+       "surface": "のまちがいを",
+       "reading": ""
+      },
+      {
+       "surface": "話",
+       "reading": "はな"
+      },
+      {
+       "surface": "すこと",
+       "reading": ""
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ "sentences": [
+  {
+   "ja": "今から二千五百年ほど前、中国に孔子という先生がいました。",
+   "furigana": [
+    {
+     "surface": "今",
+     "reading": "いま"
+    },
+    {
+     "surface": "から",
+     "reading": ""
+    },
+    {
+     "surface": "二千五百年",
+     "reading": "にせんごひゃくねん"
+    },
+    {
+     "surface": "ほど",
+     "reading": ""
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "中国",
+     "reading": "ちゅうごく"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "という",
+     "reading": ""
+    },
+    {
+     "surface": "先生",
+     "reading": "せんせい"
+    },
+    {
+     "surface": "がいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Ima kara nisengohyakunen hodo mae, chuugoku ni koushi to iu sensei ga imashita.",
+   "translations": {
+    "vi": "Khoảng 2.500 năm trước, ở Trung Quốc có một người thầy tên là Khổng Tử.",
+    "en": "About 2,500 years ago, there was a teacher in China called Confucius.",
+    "zh-Hans": "大约两千五百年前，中国有一位名叫孔子的老师。",
+    "zh-Hant": "大約兩千五百年前，中國有一位名叫孔子的老師。",
+    "ko": "약 2,500년 전, 중국에 공자라는 스승이 있었습니다.",
+    "tl": "Mga 2,500 taon na ang nakalipas, may gurong nagngangalang Confucius sa Tsina.",
+    "ne": "करिब २५०० वर्षअघि चीनमा कन्फ्युसियस नामका गुरु थिए।",
+    "id": "Sekitar 2.500 tahun lalu, di Tiongkok ada seorang guru bernama Konfusius.",
+    "pt": "Há cerca de 2.500 anos, havia na China um mestre chamado Confúcio.",
+    "my": "လွန်ခဲ့သော နှစ် ၂၅၀၀ ခန့်က တရုတ်ပြည်တွင် ကွန်ဖြူးရှပ်ဟုခေါ်သော ဆရာတစ်ဦး ရှိခဲ့သည်။",
+    "th": "ราว 2,500 ปีก่อน ในจีนมีครูคนหนึ่งชื่อขงจื๊อ",
+    "si": "දැනට අවුරුදු දෙදහස් පන්සීයකට විතර කලින්, චීනයේ කොන්ෆියුසියස් කියලා ගුරුවරයෙක් හිටියා."
+   },
+   "grammarNote": {
+    "vi": "「〜という」= tên là …, gọi là …. 「孔子」 đọc là こうし trong tiếng Nhật.",
+    "en": "〜という = \"called …\". 孔子 is read こうし in Japanese.",
+    "zh-Hans": "「〜という」＝叫做……。孔子日语读作こうし。",
+    "zh-Hant": "「〜という」＝叫做……。孔子日語讀作こうし。",
+    "ko": "「〜という」= …라는. 孔子 = こうし.",
+    "tl": "〜という = na tinatawag na; 孔子 = こうし.",
+    "ne": "「〜という」= … नामको। 孔子 = こうし।",
+    "id": "〜という = bernama; 孔子 = こうし.",
+    "pt": "〜という = chamado; 孔子 = こうし.",
+    "my": "「〜という」= … ဟုခေါ်သော။ 孔子 = こうし။",
+    "th": "「〜という」= ชื่อว่า 孔子 อ่านว่า こうし",
+    "si": "〜という = \"~ කියලා\". 孔子 ජපන් භාෂාවෙන් කියවන්නේ こうし."
+   },
+   "vocab": [
+    {
+     "word": "孔子",
+     "reading": "こうし",
+     "meanings": {
+      "vi": "Khổng Tử",
+      "en": "Confucius",
+      "zh-Hans": "孔子",
+      "zh-Hant": "孔子",
+      "ko": "공자",
+      "tl": "Confucius",
+      "ne": "कन्फ्युसियस",
+      "id": "Konfusius",
+      "pt": "Confúcio",
+      "my": "ကွန်ဖြူးရှပ်",
+      "th": "ขงจื๊อ",
+      "si": "කොන්ෆියුසියස්"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "先生",
+     "reading": "せんせい",
+     "meanings": {
+      "vi": "thầy giáo",
+      "en": "teacher",
+      "zh-Hans": "老师",
+      "zh-Hant": "老師",
+      "ko": "선생님",
+      "tl": "guro",
+      "ne": "गुरु",
+      "id": "guru",
+      "pt": "professor",
+      "my": "ဆရာ",
+      "th": "ครู",
+      "si": "ගුරුවරයා"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=0.3,5.74",
+   "t": [
+    0.3,
+    5.74
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "孔子のまわりには、たくさんの弟子が集まりました。",
+   "furigana": [
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "のまわりには、たくさんの",
+     "reading": ""
+    },
+    {
+     "surface": "弟子",
+     "reading": "でし"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "集",
+     "reading": "あつ"
+    },
+    {
+     "surface": "まりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Koushi no mawari ni wa, takusan no deshi ga atsumarimashita.",
+   "translations": {
+    "vi": "Rất nhiều học trò tụ họp quanh Khổng Tử.",
+    "en": "Many students gathered around Confucius.",
+    "zh-Hans": "孔子身边聚集了很多弟子。",
+    "zh-Hant": "孔子身邊聚集了很多弟子。",
+    "ko": "공자 주변에는 많은 제자가 모였습니다.",
+    "tl": "Maraming alagad ang nagtipon sa paligid ni Confucius.",
+    "ne": "कन्फ्युसियसको वरिपरि धेरै चेला जम्मा भए।",
+    "id": "Banyak murid berkumpul di sekitar Konfusius.",
+    "pt": "Muitos discípulos se reuniram em torno de Confúcio.",
+    "my": "ကွန်ဖြူးရှပ်ရဲ့ ဘေးမှာ တပည့်အများအပြား စုလာကြသည်။",
+    "th": "มีศิษย์มากมายมารวมตัวอยู่รอบขงจื๊อ",
+    "si": "කොන්ෆියුසියස් වටේ ගොඩක් ශිෂ්‍යයෝ එකතු වුණා."
+   },
+   "grammarNote": {
+    "vi": "「まわり」= xung quanh. 「集まる」= tụ họp (tự động từ); 「集める」= gom lại (tha động từ).",
+    "en": "まわり = \"surroundings, around\". 集まる = \"to gather\" (intransitive); 集める = \"to collect\" (transitive).",
+    "zh-Hans": "「まわり」＝周围。「集まる」＝聚集（自动词）；「集める」＝收集（他动词）。",
+    "zh-Hant": "「まわり」＝周圍。「集まる」＝聚集；「集める」＝收集。",
+    "ko": "「まわり」= 주변. 「集まる」= 모이다, 「集める」= 모으다.",
+    "tl": "まわり = paligid; 集まる = magtipon.",
+    "ne": "「まわり」= वरिपरि। 「集まる」= जम्मा हुनु।",
+    "id": "まわり = sekitar; 集まる = berkumpul.",
+    "pt": "まわり = em volta; 集まる = reunir-se.",
+    "my": "「まわり」= ဘေးပတ်လည်။ 「集まる」= စုသည်။",
+    "th": "「まわり」= รอบ ๆ 「集まる」= มารวมกัน",
+    "si": "まわり = \"වටපිටාව, වටේ\". 集まる = \"එකතු වෙනවා\" (අකර්මක); 集める = \"එකතු කරනවා\" (සකර්මක)."
+   },
+   "vocab": [
+    {
+     "word": "弟子",
+     "reading": "でし",
+     "meanings": {
+      "vi": "học trò, đệ tử",
+      "en": "disciple, student",
+      "zh-Hans": "弟子",
+      "zh-Hant": "弟子",
+      "ko": "제자",
+      "tl": "alagad",
+      "ne": "चेला",
+      "id": "murid",
+      "pt": "discípulo",
+      "my": "တပည့်",
+      "th": "ศิษย์",
+      "si": "ශිෂ්‍යයා, අනුගාමිකයා"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "集まる",
+     "reading": "あつまる",
+     "meanings": {
+      "vi": "tụ họp",
+      "en": "to gather",
+      "zh-Hans": "聚集",
+      "zh-Hant": "聚集",
+      "ko": "모이다",
+      "tl": "magtipon",
+      "ne": "जम्मा हुनु",
+      "id": "berkumpul",
+      "pt": "reunir-se",
+      "my": "စုဝေးသည်",
+      "th": "รวมตัว",
+      "si": "එකතු වීම"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=6.34,10.34",
+   "t": [
+    6.34,
+    10.34
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "その中に、子路という若者がいました。",
+   "furigana": [
+    {
+     "surface": "その",
+     "reading": ""
+    },
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "に、",
+     "reading": ""
+    },
+    {
+     "surface": "子路",
+     "reading": "しろ"
+    },
+    {
+     "surface": "という",
+     "reading": ""
+    },
+    {
+     "surface": "若者",
+     "reading": "わかもの"
+    },
+    {
+     "surface": "がいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono naka ni, shiro to iu wakamono ga imashita.",
+   "translations": {
+    "vi": "Trong số đó có một chàng trai trẻ tên là Tử Lộ.",
+    "en": "Among them was a young man called Zilu.",
+    "zh-Hans": "其中有一个叫子路的年轻人。",
+    "zh-Hant": "其中有一個叫子路的年輕人。",
+    "ko": "그중에 자로라는 젊은이가 있었습니다.",
+    "tl": "Kasama nila ang isang binatang nagngangalang Zilu.",
+    "ne": "तीमध्ये जिलु नामका एक युवक थिए।",
+    "id": "Di antara mereka ada seorang pemuda bernama Zilu.",
+    "pt": "Entre eles havia um jovem chamado Zilu.",
+    "my": "ထိုထဲမှာ ဇီလူ ဆိုတဲ့ လူငယ်တစ်ယောက် ရှိသည်။",
+    "th": "ในหมู่นั้นมีชายหนุ่มคนหนึ่งชื่อจื่อลู่",
+    "si": "ඒ අතරේ, ස්ලූ කියලා තරුණයෙක් හිටියා."
+   },
+   "grammarNote": {
+    "vi": "「その中に」= trong số đó. 「若者」= người trẻ, thanh niên.",
+    "en": "その中に = \"among them\". 若者 = \"young person\".",
+    "zh-Hans": "「その中に」＝其中。「若者」＝年轻人。",
+    "zh-Hant": "「その中に」＝其中。「若者」＝年輕人。",
+    "ko": "「その中に」= 그중에. 「若者」= 젊은이.",
+    "tl": "その中に = kasama nila; 若者 = kabataan.",
+    "ne": "「その中に」= तीमध्ये। 「若者」= युवा।",
+    "id": "その中に = di antara mereka; 若者 = pemuda.",
+    "pt": "その中に = entre eles; 若者 = jovem.",
+    "my": "「その中に」= ထိုထဲမှာ။ 「若者」= လူငယ်။",
+    "th": "「その中に」= ในนั้น 「若者」= คนหนุ่ม",
+    "si": "その中に = \"ඒ අතරේ\". 若者 = \"තරුණයා\"."
+   },
+   "vocab": [
+    {
+     "word": "若者",
+     "reading": "わかもの",
+     "meanings": {
+      "vi": "người trẻ",
+      "en": "young person",
+      "zh-Hans": "年轻人",
+      "zh-Hant": "年輕人",
+      "ko": "젊은이",
+      "tl": "kabataan",
+      "ne": "युवा",
+      "id": "pemuda",
+      "pt": "jovem",
+      "my": "လူငယ်",
+      "th": "คนหนุ่มสาว",
+      "si": "තරුණයා"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=10.94,14.78",
+   "t": [
+    10.94,
+    14.78
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "子路は、体が大きくて、声も大きい人でした。",
+   "furigana": [
+    {
+     "surface": "子路",
+     "reading": "しろ"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "体",
+     "reading": "からだ"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "きくて、",
+     "reading": ""
+    },
+    {
+     "surface": "声",
+     "reading": "こえ"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "きい",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "でした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shiro wa, karada ga ookikute, koe mo ookii hito deshita.",
+   "translations": {
+    "vi": "Tử Lộ là người to con, giọng cũng to.",
+    "en": "Zilu was a big man with a loud voice.",
+    "zh-Hans": "子路个子高大，嗓门也大。",
+    "zh-Hant": "子路個子高大，嗓門也大。",
+    "ko": "자로는 몸집이 크고 목소리도 큰 사람이었습니다.",
+    "tl": "Malaki ang katawan ni Zilu at malakas ang boses.",
+    "ne": "जिलु ठूलो जीउ र ठूलो स्वर भएका मान्छे थिए।",
+    "id": "Zilu bertubuh besar dan bersuara keras.",
+    "pt": "Zilu era grandalhão e tinha a voz alta.",
+    "my": "ဇီလူဟာ ကိုယ်ခန္ဓာကြီးပြီး အသံလည်း ကျယ်တဲ့သူ ဖြစ်သည်။",
+    "th": "จื่อลู่ตัวใหญ่ เสียงก็ดัง",
+    "si": "ස්ලූ ලොකු ඇඟක් තියෙන, සද්දෙට කතා කරන කෙනෙක්."
+   },
+   "grammarNote": {
+    "vi": "「〜くて」= và (nối tính từ い). 体が大きくて、声も大きい = to con, và giọng cũng to.",
+    "en": "〜くて joins い-adjectives: 体が大きくて、声も大きい = \"big-bodied and loud-voiced\".",
+    "zh-Hans": "「〜くて」连接形容词。",
+    "zh-Hant": "「〜くて」連接形容詞。",
+    "ko": "「〜くて」= 형용사 연결.",
+    "tl": "〜くて = pagdugtong ng pang-uri.",
+    "ne": "「〜くて」= विशेषण जोड्ने।",
+    "id": "〜くて = menyambung kata sifat.",
+    "pt": "〜くて = liga adjetivos.",
+    "my": "「〜くて」= နာမဝိသေသန ဆက်။",
+    "th": "「〜くて」= เชื่อมคำคุณศัพท์",
+    "si": "〜くて い-විශේෂණ යා කරනවා: 体が大きくて、声も大きい = \"ලොකු ඇඟක් සහ සද්ද කටහඬක්\"."
+   },
+   "vocab": [
+    {
+     "word": "体",
+     "reading": "からだ",
+     "meanings": {
+      "vi": "cơ thể",
+      "en": "body",
+      "zh-Hans": "身体",
+      "zh-Hant": "身體",
+      "ko": "몸",
+      "tl": "katawan",
+      "ne": "शरीर",
+      "id": "tubuh",
+      "pt": "corpo",
+      "my": "ကိုယ်ခန္ဓာ",
+      "th": "ร่างกาย",
+      "si": "ශරීරය, ඇඟ"
+     },
+     "level": "N5"
+    },
+    {
+     "word": "声",
+     "reading": "こえ",
+     "meanings": {
+      "vi": "giọng nói",
+      "en": "voice",
+      "zh-Hans": "声音",
+      "zh-Hant": "聲音",
+      "ko": "목소리",
+      "tl": "boses",
+      "ne": "स्वर",
+      "id": "suara",
+      "pt": "voz",
+      "my": "အသံ",
+      "th": "เสียง",
+      "si": "හඬ"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=15.38,20.28",
+   "t": [
+    15.38,
+    20.28
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "昔は、いつも剣を持って町を歩いていました。",
+   "furigana": [
+    {
+     "surface": "昔",
+     "reading": "むかし"
+    },
+    {
+     "surface": "は、いつも",
+     "reading": ""
+    },
+    {
+     "surface": "剣",
+     "reading": "けん"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "持",
+     "reading": "も"
+    },
+    {
+     "surface": "って",
+     "reading": ""
+    },
+    {
+     "surface": "町",
+     "reading": "まち"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "歩",
+     "reading": "ある"
+    },
+    {
+     "surface": "いていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Mukashi wa, itsumo ken o motte machi o aruite imashita.",
+   "translations": {
+    "vi": "Ngày trước, anh ta lúc nào cũng mang kiếm đi khắp phố.",
+    "en": "In the past, he always walked around town carrying a sword.",
+    "zh-Hans": "以前，他总是佩着剑在街上走。",
+    "zh-Hant": "以前，他總是佩著劍在街上走。",
+    "ko": "예전에는 늘 칼을 차고 거리를 걸어 다녔습니다.",
+    "tl": "Noon, lagi siyang may dalang espada sa paglalakad sa bayan.",
+    "ne": "पहिले उनी सधैं तरबार बोकेर सहर घुम्थे।",
+    "id": "Dulu ia selalu berjalan di kota sambil membawa pedang.",
+    "pt": "Antes, andava sempre pela cidade com uma espada.",
+    "my": "အရင်က သူဟာ ဓားကို အမြဲ ကိုင်ပြီး မြို့ထဲ လမ်းလျှောက်ခဲ့သည်။",
+    "th": "เมื่อก่อนเขาพกดาบเดินไปทั่วเมืองเสมอ",
+    "si": "ඉස්සර, එයා හැමදාම කඩුවක් අරන් නගරය වටේ ඇවිද්දා."
+   },
+   "grammarNote": {
+    "vi": "「〜ていました」= thói quen trong quá khứ (đã thường …). 「剣」= kiếm.",
+    "en": "〜ていました here = a past habit (\"used to …\"). 剣 = \"sword\".",
+    "zh-Hans": "「〜ていました」＝过去的习惯。「剣」＝剑。",
+    "zh-Hant": "「〜ていました」＝過去的習慣。「剣」＝劍。",
+    "ko": "「〜ていました」= 과거 습관. 「剣」= 칼.",
+    "tl": "〜ていました = dating gawi; 剣 = espada.",
+    "ne": "「〜ていました」= पहिलेको बानी। 「剣」= तरबार।",
+    "id": "〜ていました = kebiasaan dulu; 剣 = pedang.",
+    "pt": "〜ていました = hábito passado; 剣 = espada.",
+    "my": "「〜ていました」= အရင်က အလေ့။ 「剣」= ဓား။",
+    "th": "「〜ていました」= เคยทำเป็นประจำ 「剣」= ดาบ",
+    "si": "මෙතැන 〜ていました = අතීත පුරුද්දක් (\"~ කළා, ඉස්සර\"). 剣 = \"කඩුව\"."
+   },
+   "vocab": [
+    {
+     "word": "剣",
+     "reading": "けん",
+     "meanings": {
+      "vi": "kiếm",
+      "en": "sword",
+      "zh-Hans": "剑",
+      "zh-Hant": "劍",
+      "ko": "칼, 검",
+      "tl": "espada",
+      "ne": "तरबार",
+      "id": "pedang",
+      "pt": "espada",
+      "my": "ဓား",
+      "th": "ดาบ",
+      "si": "කඩුව"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=20.88,25.92",
+   "t": [
+    20.88,
+    25.92
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ある日、子路は孔子の家に来て、大声で言いました。",
+   "furigana": [
+    {
+     "surface": "ある",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "子路",
+     "reading": "しろ"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "家",
+     "reading": "いえ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "来",
+     "reading": "き"
+    },
+    {
+     "surface": "て、",
+     "reading": ""
+    },
+    {
+     "surface": "大声",
+     "reading": "おおごえ"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "いました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Aru hi, shiro wa koushi no ie ni kite, oogoe de iimashita.",
+   "translations": {
+    "vi": "Một hôm, Tử Lộ đến nhà Khổng Tử và nói lớn.",
+    "en": "One day, Zilu came to Confucius's house and spoke in a loud voice.",
+    "zh-Hans": "有一天，子路来到孔子家，大声说道。",
+    "zh-Hant": "有一天，子路來到孔子家，大聲說道。",
+    "ko": "어느 날 자로가 공자의 집에 와서 큰 소리로 말했습니다.",
+    "tl": "Isang araw, pumunta si Zilu sa bahay ni Confucius at malakas na nagsalita.",
+    "ne": "एक दिन जिलु कन्फ्युसियसको घर आएर ठूलो स्वरमा बोले।",
+    "id": "Suatu hari, Zilu datang ke rumah Konfusius dan berkata keras.",
+    "pt": "Um dia, Zilu foi à casa de Confúcio e falou alto.",
+    "my": "တစ်နေ့ ဇီလူက ကွန်ဖြူးရှပ်ရဲ့ အိမ်ကို လာပြီး အသံကျယ်ကျယ်နဲ့ ပြောသည်။",
+    "th": "วันหนึ่ง จื่อลู่มาที่บ้านขงจื๊อแล้วพูดเสียงดัง",
+    "si": "දවසක්, ස්ලූ කොන්ෆියුසියස්ගේ ගෙදරට ඇවිත් සද්දෙන් කිව්වා."
+   },
+   "grammarNote": {
+    "vi": "「大声で」= bằng giọng lớn. で ở đây chỉ cách thức.",
+    "en": "大声で = \"in a loud voice\" (で marks manner).",
+    "zh-Hans": "「大声で」＝大声地（で表示方式）。",
+    "zh-Hant": "「大声で」＝大聲地。",
+    "ko": "「大声で」= 큰 소리로.",
+    "tl": "大声で = malakas.",
+    "ne": "「大声で」= ठूलो स्वरमा।",
+    "id": "大声で = dengan keras.",
+    "pt": "大声で = em voz alta.",
+    "my": "「大声で」= အသံကျယ်ကျယ်နဲ့။",
+    "th": "「大声で」= เสียงดัง",
+    "si": "大声で = \"ලොකු සද්දෙන්\" (で විදිහ පෙන්වයි)."
+   },
+   "vocab": [
+    {
+     "word": "大声",
+     "reading": "おおごえ",
+     "meanings": {
+      "vi": "giọng lớn",
+      "en": "loud voice",
+      "zh-Hans": "大声",
+      "zh-Hant": "大聲",
+      "ko": "큰 소리",
+      "tl": "malakas na boses",
+      "ne": "ठूलो स्वर",
+      "id": "suara keras",
+      "pt": "voz alta",
+      "my": "အသံကျယ်",
+      "th": "เสียงดัง",
+      "si": "හයියෙන්, ලොකු හඬ"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=26.52,31.42",
+   "t": [
+    26.52,
+    31.42
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「勉強なんて、役に立ちません。強い人が一番です。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "勉強",
+     "reading": "べんきょう"
+    },
+    {
+     "surface": "なんて、",
+     "reading": ""
+    },
+    {
+     "surface": "役",
+     "reading": "やく"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "立",
+     "reading": "た"
+    },
+    {
+     "surface": "ちません。",
+     "reading": ""
+    },
+    {
+     "surface": "強",
+     "reading": "つよ"
+    },
+    {
+     "surface": "い",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "一番",
+     "reading": "いちばん"
+    },
+    {
+     "surface": "です。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Benkyou nante, yakunitachimasen. Tsuyoi hito ga ichiban desu.”",
+   "translations": {
+    "vi": "\"Học hành chẳng có ích gì. Mạnh mới là nhất.\"",
+    "en": "\"Studying is useless. Being strong is what matters most.\"",
+    "zh-Hans": "\"学习没什么用。强者才是第一。\"",
+    "zh-Hant": "「學習沒什麼用。強者才是第一。」",
+    "ko": "\"공부 같은 건 쓸모없습니다. 강한 사람이 최고입니다.\"",
+    "tl": "\"Walang silbi ang pag-aaral. Ang malakas ang pinakamagaling.\"",
+    "ne": "\"पढाइले केही काम लाग्दैन। बलियो मान्छे नै सबैभन्दा राम्रो।\"",
+    "id": "\"Belajar itu tak berguna. Yang kuat itulah yang terbaik.\"",
+    "pt": "\"Estudar não serve para nada. O forte é o melhor.\"",
+    "my": "\"စာသင်တာ ဘာမှ အသုံးမဝင်ဘူး။ သန်မာတဲ့သူက အကောင်းဆုံးပဲ။\"",
+    "th": "\"การเรียนไม่มีประโยชน์หรอก คนแข็งแกร่งดีที่สุด\"",
+    "si": "\"ඉගෙනීම වගේ දේවල් වැඩකට නැහැ. ශක්තිමත් වෙන එක තමයි වැදගත්ම.\""
+   },
+   "grammarNote": {
+    "vi": "「〜なんて」= cái thứ … (coi thường). 「役に立つ」= có ích.",
+    "en": "〜なんて = \"something like …\" (dismissive). 役に立つ = \"to be useful\".",
+    "zh-Hans": "「〜なんて」＝……什么的（轻视）。「役に立つ」＝有用。",
+    "zh-Hant": "「〜なんて」＝……什麼的。「役に立つ」＝有用。",
+    "ko": "「〜なんて」= … 따위. 「役に立つ」= 도움이 되다.",
+    "tl": "〜なんて = pagmamaliit; 役に立つ = may silbi.",
+    "ne": "「〜なんて」= हेलाको भाव। 「役に立つ」= काम लाग्नु।",
+    "id": "〜なんて = meremehkan; 役に立つ = berguna.",
+    "pt": "〜なんて = desprezo; 役に立つ = ser útil.",
+    "my": "「〜なんて」= အထင်သေး။ 「役に立つ」= အသုံးဝင်သည်။",
+    "th": "「〜なんて」= อะไรนั่น (ดูถูก) 「役に立つ」= มีประโยชน์",
+    "si": "〜なんて = \"~ වගේ දෙයක්\" (නොසලකා හරිමින්). 役に立つ = \"ප්‍රයෝජනවත් වෙනවා\"."
+   },
+   "vocab": [
+    {
+     "word": "役に立つ",
+     "reading": "やくにたつ",
+     "meanings": {
+      "vi": "có ích",
+      "en": "to be useful",
+      "zh-Hans": "有用",
+      "zh-Hant": "有用",
+      "ko": "도움이 되다",
+      "tl": "may silbi",
+      "ne": "काम लाग्नु",
+      "id": "berguna",
+      "pt": "ser útil",
+      "my": "အသုံးဝင်သည်",
+      "th": "มีประโยชน์",
+      "si": "ප්‍රයෝජනවත් වෙනවා"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=32.32,36.37",
+   "t": [
+    32.32,
+    36.37
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「竹は、そのままでも、まっすぐだね。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "竹",
+     "reading": "たけ"
+    },
+    {
+     "surface": "は、そのままでも、まっすぐだね。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Take wa, sonomamade mo, massugu da ne.”",
+   "translations": {
+    "vi": "\"Cây tre, để nguyên như thế cũng đã thẳng rồi nhỉ.\"",
+    "en": "\"A bamboo stalk is straight even as it is, isn't it?\"",
+    "zh-Hans": "\"竹子就算原样不动，也是直的吧。\"",
+    "zh-Hant": "「竹子就算原樣不動，也是直的吧。」",
+    "ko": "\"대나무는 그대로도 곧지.\"",
+    "tl": "\"Tuwid na ang kawayan kahit ganyan lang, hindi ba?\"",
+    "ne": "\"बाँस जस्तो छ त्यस्तै पनि सिधा हुन्छ, होइन?\"",
+    "id": "\"Bambu itu, apa adanya pun sudah lurus, ya.\"",
+    "pt": "\"O bambu já é reto do jeito que é, não?\"",
+    "my": "\"ဝါးဟာ ဒီအတိုင်းဆိုလည်း ဖြောင့်နေတာပဲနော်။\"",
+    "th": "\"ไม้ไผ่ แม้เป็นอย่างนั้นก็ตรงอยู่แล้วนะ\"",
+    "si": "\"උණ බටයක් තියෙන විදිහටමත් කෙළින් නේද.\""
+   },
+   "grammarNote": {
+    "vi": "「そのまま」= để nguyên như vậy. 「まっすぐ」= thẳng. Khổng Tử dùng ví dụ để dạy, không cãi lại.",
+    "en": "そのまま = \"as it is\". まっすぐ = \"straight\". Confucius teaches with an example instead of arguing.",
+    "zh-Hans": "「そのまま」＝原样。「まっすぐ」＝笔直。孔子用比喻来教，不争辩。",
+    "zh-Hant": "「そのまま」＝原樣。「まっすぐ」＝筆直。",
+    "ko": "「そのまま」= 그대로. 「まっすぐ」= 곧다.",
+    "tl": "そのまま = gaya ng dati; まっすぐ = tuwid.",
+    "ne": "「そのまま」= जस्ताको तस्तै। 「まっすぐ」= सिधा।",
+    "id": "そのまま = apa adanya; まっすぐ = lurus.",
+    "pt": "そのまま = como está; まっすぐ = reto.",
+    "my": "「そのまま」= ဒီအတိုင်း။ 「まっすぐ」= ဖြောင့်။",
+    "th": "「そのまま」= อย่างนั้น 「まっすぐ」= ตรง",
+    "si": "そのまま = \"තියෙන විදිහටම\". まっすぐ = \"කෙළින්\". කොන්ෆියුසියස් තර්ක කරනවා වෙනුවට උදාහරණයකින් උගන්වනවා."
+   },
+   "vocab": [
+    {
+     "word": "竹",
+     "reading": "たけ",
+     "meanings": {
+      "vi": "tre",
+      "en": "bamboo",
+      "zh-Hans": "竹子",
+      "zh-Hant": "竹子",
+      "ko": "대나무",
+      "tl": "kawayan",
+      "ne": "बाँस",
+      "id": "bambu",
+      "pt": "bambu",
+      "my": "ဝါး",
+      "th": "ไม้ไผ่",
+      "si": "උණ, බම්බු"
+     },
+     "level": "N2"
+    },
+    {
+     "word": "まっすぐ",
+     "reading": "まっすぐ",
+     "meanings": {
+      "vi": "thẳng",
+      "en": "straight",
+      "zh-Hans": "笔直",
+      "zh-Hant": "筆直",
+      "ko": "곧게",
+      "tl": "tuwid",
+      "ne": "सिधा",
+      "id": "lurus",
+      "pt": "reto",
+      "my": "ဖြောင့်",
+      "th": "ตรง",
+      "si": "කෙළින්"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=37.27,40.48",
+   "t": [
+    37.27,
+    40.48
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「でも、竹に羽をつけて、先を細くしたら、どうなるかな。」",
+   "furigana": [
+    {
+     "surface": "「でも、",
+     "reading": ""
+    },
+    {
+     "surface": "竹",
+     "reading": "たけ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "羽",
+     "reading": "はね"
+    },
+    {
+     "surface": "をつけて、",
+     "reading": ""
+    },
+    {
+     "surface": "先",
+     "reading": "さき"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "細",
+     "reading": "ほそ"
+    },
+    {
+     "surface": "くしたら、どうなるかな。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Demo, take ni hane o tsukete, saki o hosoku shitara, dou naru ka na.”",
+   "translations": {
+    "vi": "\"Nhưng nếu gắn lông vào tre và vót nhọn đầu, thì sẽ thế nào nhỉ?\"",
+    "en": "\"But if you put feathers on the bamboo and sharpen its tip, what happens?\"",
+    "zh-Hans": "\"可是，如果给竹子装上羽毛，把头削尖，会怎么样呢？\"",
+    "zh-Hant": "「可是，如果給竹子裝上羽毛，把頭削尖，會怎麼樣呢？」",
+    "ko": "\"하지만 대나무에 깃털을 달고 끝을 가늘게 하면 어떻게 될까?\"",
+    "tl": "\"Pero kung lalagyan mo ng balahibo ang kawayan at patutulisin ang dulo, ano'ng mangyayari?\"",
+    "ne": "\"तर बाँसमा प्वाँख लगाएर टुप्पो तिखो पारे के होला?\"",
+    "id": "\"Tapi kalau bambu diberi bulu dan ujungnya diruncingkan, jadi apa?\"",
+    "pt": "\"Mas se colocar penas no bambu e afinar a ponta, o que acontece?\"",
+    "my": "\"ဒါပေမဲ့ ဝါးမှာ အမွေးတပ်ပြီး ထိပ်ကို ချွန်အောင် လုပ်ရင် ဘာဖြစ်မလဲ။\"",
+    "th": "\"แต่ถ้าติดขนนกที่ไม้ไผ่ แล้วเหลาปลายให้แหลม จะเป็นอย่างไรนะ\"",
+    "si": "\"ඒත් උණ බටයට පිහාටු සවි කරලා, තුඩ උල් කළොත්, මොකද වෙන්නේ?\""
+   },
+   "grammarNote": {
+    "vi": "「〜たら」= nếu … thì. 「細くする」= làm cho mảnh/nhọn. 「〜かな」= nhỉ (hỏi gợi mở).",
+    "en": "〜たら = \"if\". 細くする = \"to make thin\". 〜かな = \"I wonder\" (an open question).",
+    "zh-Hans": "「〜たら」＝如果。「細くする」＝弄细。「〜かな」＝……呢。",
+    "zh-Hant": "「〜たら」＝如果。「細くする」＝弄細。",
+    "ko": "「〜たら」= …하면. 「細くする」= 가늘게 하다.",
+    "tl": "〜たら = kung; 細くする = patulisin.",
+    "ne": "「〜たら」= भने। 「細くする」= तिखो पार्नु।",
+    "id": "〜たら = kalau; 細くする = meruncingkan.",
+    "pt": "〜たら = se; 細くする = afinar.",
+    "my": "「〜たら」= ရင်။ 「細くする」= ချွန်အောင်လုပ်သည်။",
+    "th": "「〜たら」= ถ้า 「細くする」= ทำให้แหลม",
+    "si": "〜たら = \"~ කළොත්\". 細くする = \"සිහින් කරනවා\". 〜かな = \"~ ද මන්දා\" (විවෘත ප්‍රශ්නයක්)."
+   },
+   "vocab": [
+    {
+     "word": "羽",
+     "reading": "はね",
+     "meanings": {
+      "vi": "lông vũ",
+      "en": "feather",
+      "zh-Hans": "羽毛",
+      "zh-Hant": "羽毛",
+      "ko": "깃털",
+      "tl": "balahibo",
+      "ne": "प्वाँख",
+      "id": "bulu",
+      "pt": "pena",
+      "my": "အမွေး",
+      "th": "ขนนก",
+      "si": "පිහාටුව"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "細い",
+     "reading": "ほそい",
+     "meanings": {
+      "vi": "mảnh, nhỏ",
+      "en": "thin",
+      "zh-Hans": "细",
+      "zh-Hant": "細",
+      "ko": "가늘다",
+      "tl": "manipis",
+      "ne": "पातलो",
+      "id": "tipis",
+      "pt": "fino",
+      "my": "သေးသွယ်သော",
+      "th": "เรียว",
+      "si": "තුනී"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=41.08,46.71",
+   "t": [
+    41.08,
+    46.71
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「……もっと遠くまで、飛びます。」",
+   "furigana": [
+    {
+     "surface": "「……もっと",
+     "reading": ""
+    },
+    {
+     "surface": "遠",
+     "reading": "とお"
+    },
+    {
+     "surface": "くまで、",
+     "reading": ""
+    },
+    {
+     "surface": "飛",
+     "reading": "と"
+    },
+    {
+     "surface": "びます。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“...... Motto tooku made, tobimasu.”",
+   "translations": {
+    "vi": "\"... Nó sẽ bay xa hơn nữa ạ.\"",
+    "en": "\"...It would fly much farther.\"",
+    "zh-Hans": "\"……能飞得更远。\"",
+    "zh-Hant": "「……能飛得更遠。」",
+    "ko": "\"……더 멀리 날아갑니다.\"",
+    "tl": "\"...Lilipad ito nang mas malayo.\"",
+    "ne": "\"... अझ टाढा उड्छ।\"",
+    "id": "\"...Ia akan terbang lebih jauh.\"",
+    "pt": "\"...Voaria muito mais longe.\"",
+    "my": "\"... ပိုဝေးဝေး ပျံပါမယ်။\"",
+    "th": "\"...มันจะบินได้ไกลขึ้นครับ\"",
+    "si": "\"...ගොඩක් ඈතට පියාඹනවා.\""
+   },
+   "grammarNote": {
+    "vi": "Tre gắn lông và vót nhọn = mũi tên. 「遠くまで」= đến tận nơi xa.",
+    "en": "Bamboo with feathers and a sharp tip = an arrow. 遠くまで = \"as far as a distant place\".",
+    "zh-Hans": "装上羽毛、削尖的竹子＝箭。「遠くまで」＝到远处。",
+    "zh-Hant": "裝上羽毛、削尖的竹子＝箭。「遠くまで」＝到遠處。",
+    "ko": "깃털+뾰족한 끝 = 화살. 「遠くまで」= 멀리까지.",
+    "tl": "Kawayan na may balahibo = palaso.",
+    "ne": "प्वाँख र तिखो टुप्पो = बाण।",
+    "id": "Bambu berbulu = anak panah.",
+    "pt": "Bambu com penas = flecha.",
+    "my": "အမွေးတပ်ဝါး = မြား။",
+    "th": "ไม้ไผ่ติดขนนก = ลูกศร",
+    "si": "පිහාටු සහ උල් තුඩක් තියෙන උණ බටයක් = ඊතලයක්. 遠くまで = \"ඈත තැනක් වෙනකම්\"."
+   },
+   "vocab": [
+    {
+     "word": "飛ぶ",
+     "reading": "とぶ",
+     "meanings": {
+      "vi": "bay",
+      "en": "to fly",
+      "zh-Hans": "飞",
+      "zh-Hant": "飛",
+      "ko": "날다",
+      "tl": "lumipad",
+      "ne": "उड्नु",
+      "id": "terbang",
+      "pt": "voar",
+      "my": "ပျံသည်",
+      "th": "บิน",
+      "si": "පියාඹනවා"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=47.61,49.64",
+   "t": [
+    47.61,
+    49.64
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「人も同じだよ。学ぶと、もっと遠くまで行ける。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "同",
+     "reading": "おな"
+    },
+    {
+     "surface": "じだよ。",
+     "reading": ""
+    },
+    {
+     "surface": "学",
+     "reading": "まな"
+    },
+    {
+     "surface": "ぶと、もっと",
+     "reading": ""
+    },
+    {
+     "surface": "遠",
+     "reading": "とお"
+    },
+    {
+     "surface": "くまで",
+     "reading": ""
+    },
+    {
+     "surface": "行",
+     "reading": "い"
+    },
+    {
+     "surface": "ける。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Hito mo onaji da yo. Manabu to, motto tooku made ikeru.”",
+   "translations": {
+    "vi": "\"Con người cũng vậy. Học rồi thì sẽ đi được xa hơn.\"",
+    "en": "\"People are the same. When they learn, they can go much farther.\"",
+    "zh-Hans": "\"人也一样。学习了，就能走得更远。\"",
+    "zh-Hant": "「人也一樣。學習了，就能走得更遠。」",
+    "ko": "\"사람도 마찬가지란다. 배우면 더 멀리 갈 수 있어.\"",
+    "tl": "\"Ganoon din ang tao. Kapag natuto, mas malayo ang mararating.\"",
+    "ne": "\"मान्छे पनि त्यस्तै हो। पढे अझ टाढा पुग्न सकिन्छ।\"",
+    "id": "\"Manusia juga sama. Kalau belajar, bisa pergi lebih jauh.\"",
+    "pt": "\"Com as pessoas é igual. Aprendendo, vão mais longe.\"",
+    "my": "\"လူလည်း အတူတူပဲ။ သင်ယူရင် ပိုဝေးဝေး ရောက်နိုင်တယ်။\"",
+    "th": "\"คนก็เหมือนกัน ถ้าเรียนรู้ ก็จะไปได้ไกลขึ้น\"",
+    "si": "\"මිනිස්සුත් එහෙමයි. ඉගෙන ගත්තාම, තව ගොඩක් ඈතට යන්න පුළුවන්.\""
+   },
+   "grammarNote": {
+    "vi": "「学ぶ」= học hỏi (rộng hơn 勉強する). 「〜と」= hễ … thì. 「行ける」= có thể đi (khả năng của 行く).",
+    "en": "学ぶ = \"to learn\" (broader than 勉強する). 〜と = \"when …, then\". 行ける = \"can go\" (potential of 行く).",
+    "zh-Hans": "「学ぶ」＝学习（比勉強する更广）。「行ける」＝能去。",
+    "zh-Hant": "「学ぶ」＝學習。「行ける」＝能去。",
+    "ko": "「学ぶ」= 배우다. 「行ける」= 갈 수 있다.",
+    "tl": "学ぶ = matuto; 行ける = makakarating.",
+    "ne": "「学ぶ」= सिक्नु। 「行ける」= जान सक्नु।",
+    "id": "学ぶ = belajar; 行ける = bisa pergi.",
+    "pt": "学ぶ = aprender; 行ける = poder ir.",
+    "my": "「学ぶ」= သင်ယူသည်။ 「行ける」= သွားနိုင်သည်။",
+    "th": "「学ぶ」= เรียนรู้ 「行ける」= ไปได้",
+    "si": "学ぶ = \"ඉගෙන ගන්නවා\" (勉強する ට වඩා පුළුල්). 〜と = \"~ කළාම\". 行ける = \"යන්න පුළුවන්\" (行く හි හැකියා රූපය)."
+   },
+   "vocab": [
+    {
+     "word": "学ぶ",
+     "reading": "まなぶ",
+     "meanings": {
+      "vi": "học hỏi",
+      "en": "to learn",
+      "zh-Hans": "学习",
+      "zh-Hant": "學習",
+      "ko": "배우다",
+      "tl": "matuto",
+      "ne": "सिक्नु",
+      "id": "belajar",
+      "pt": "aprender",
+      "my": "သင်ယူသည်",
+      "th": "เรียนรู้",
+      "si": "ඉගෙන ගැනීම"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "同じ",
+     "reading": "おなじ",
+     "meanings": {
+      "vi": "giống nhau",
+      "en": "same",
+      "zh-Hans": "一样",
+      "zh-Hant": "一樣",
+      "ko": "같다",
+      "tl": "pareho",
+      "ne": "उस्तै",
+      "id": "sama",
+      "pt": "igual",
+      "my": "တူသော",
+      "th": "เหมือนกัน",
+      "si": "එකම, සමාන"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=50.54,55.16",
+   "t": [
+    50.54,
+    55.16
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "子路はしばらくだまって、それから頭を下げました。",
+   "furigana": [
+    {
+     "surface": "子路",
+     "reading": "しろ"
+    },
+    {
+     "surface": "はしばらくだまって、それから",
+     "reading": ""
+    },
+    {
+     "surface": "頭",
+     "reading": "あたま"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "下",
+     "reading": "さ"
+    },
+    {
+     "surface": "げました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shiro wa shibaraku damatte, sorekara atama o sagemashita.",
+   "translations": {
+    "vi": "Tử Lộ im lặng một lúc, rồi cúi đầu.",
+    "en": "Zilu was silent for a while, then bowed his head.",
+    "zh-Hans": "子路沉默了一会儿，然后低下了头。",
+    "zh-Hant": "子路沉默了一會兒，然後低下了頭。",
+    "ko": "자로는 잠시 말이 없다가 고개를 숙였습니다.",
+    "tl": "Natahimik sandali si Zilu, saka yumuko.",
+    "ne": "जिलु केही बेर चुप लागे, अनि शिर झुकाए।",
+    "id": "Zilu terdiam sejenak, lalu menundukkan kepala.",
+    "pt": "Zilu ficou calado um tempo e depois curvou a cabeça.",
+    "my": "ဇီလူ ခဏ ငြိမ်နေပြီး ခေါင်းငုံ့သည်။",
+    "th": "จื่อลู่เงียบไปครู่หนึ่ง แล้วก้มศีรษะ",
+    "si": "ස්ලූ පොඩි වෙලාවක් නිහඬව ඉඳලා, ඊට පස්සේ හිස නැමුවා."
+   },
+   "grammarNote": {
+    "vi": "「だまる」= im lặng. 「頭を下げる」= cúi đầu (chào, xin lỗi, xin làm học trò).",
+    "en": "だまる = \"to fall silent\". 頭を下げる = \"to bow one's head\" (greeting, apology, asking to be taught).",
+    "zh-Hans": "「だまる」＝沉默。「頭を下げる」＝低头（行礼、道歉、拜师）。",
+    "zh-Hant": "「だまる」＝沉默。「頭を下げる」＝低頭。",
+    "ko": "「だまる」= 입을 다물다. 「頭を下げる」= 고개를 숙이다.",
+    "tl": "だまる = tumahimik; 頭を下げる = yumuko.",
+    "ne": "「だまる」= चुप लाग्नु। 「頭を下げる」= शिर झुकाउनु।",
+    "id": "だまる = diam; 頭を下げる = menunduk.",
+    "pt": "だまる = calar-se; 頭を下げる = curvar a cabeça.",
+    "my": "「だまる」= ငြိမ်သည်။ 「頭を下げる」= ခေါင်းငုံ့သည်။",
+    "th": "「だまる」= เงียบ 「頭を下げる」= ก้มศีรษะ",
+    "si": "だまる = \"නිහඬ වෙනවා\". 頭を下げる = \"හිස නමනවා\" (ආචාරයට, සමාවට, උගන්වන්න කියලා ඉල්ලන්න)."
+   },
+   "vocab": [
+    {
+     "word": "だまる",
+     "reading": "だまる",
+     "meanings": {
+      "vi": "im lặng",
+      "en": "to be silent",
+      "zh-Hans": "沉默",
+      "zh-Hant": "沉默",
+      "ko": "입을 다물다",
+      "tl": "tumahimik",
+      "ne": "चुप लाग्नु",
+      "id": "diam",
+      "pt": "calar-se",
+      "my": "ငြိမ်သည်",
+      "th": "เงียบ",
+      "si": "නිහඬ වීම"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=56.06,60.61",
+   "t": [
+    56.06,
+    60.61
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "その日から、子路は孔子の弟子になりました。",
+   "furigana": [
+    {
+     "surface": "その",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "から、",
+     "reading": ""
+    },
+    {
+     "surface": "子路",
+     "reading": "しろ"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "弟子",
+     "reading": "でし"
+    },
+    {
+     "surface": "になりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sono hi kara, shiro wa koushi no deshi ni narimashita.",
+   "translations": {
+    "vi": "Từ ngày đó, Tử Lộ trở thành học trò của Khổng Tử.",
+    "en": "From that day on, Zilu became a student of Confucius.",
+    "zh-Hans": "从那天起，子路成了孔子的弟子。",
+    "zh-Hant": "從那天起，子路成了孔子的弟子。",
+    "ko": "그날부터 자로는 공자의 제자가 되었습니다.",
+    "tl": "Mula noon, naging alagad ni Confucius si Zilu.",
+    "ne": "त्यो दिनदेखि जिलु कन्फ्युसियसका चेला भए।",
+    "id": "Sejak hari itu, Zilu menjadi murid Konfusius.",
+    "pt": "A partir daquele dia, Zilu tornou-se discípulo de Confúcio.",
+    "my": "ထိုနေ့ကစပြီး ဇီလူဟာ ကွန်ဖြူးရှပ်ရဲ့ တပည့် ဖြစ်လာသည်။",
+    "th": "ตั้งแต่วันนั้น จื่อลู่ก็กลายเป็นศิษย์ของขงจื๊อ",
+    "si": "ඒ දවසේ ඉඳන්, ස්ලූ කොන්ෆියුසියස්ගේ ශිෂ්‍යයෙක් වුණා."
+   },
+   "grammarNote": {
+    "vi": "「〜から」= từ … (mốc bắt đầu). 「〜になる」= trở thành.",
+    "en": "〜から = \"from …\" (starting point). 〜になる = \"to become\".",
+    "zh-Hans": "「〜から」＝从……起。「〜になる」＝成为。",
+    "zh-Hant": "「〜から」＝從……起。「〜になる」＝成為。",
+    "ko": "「〜から」= …부터. 「〜になる」= …이 되다.",
+    "tl": "〜から = mula; 〜になる = maging.",
+    "ne": "「〜から」= देखि। 「〜になる」= बन्नु।",
+    "id": "〜から = sejak; 〜になる = menjadi.",
+    "pt": "〜から = a partir de; 〜になる = tornar-se.",
+    "my": "「〜から」= ကစပြီး။ 「〜になる」= ဖြစ်လာသည်။",
+    "th": "「〜から」= ตั้งแต่ 「〜になる」= กลายเป็น",
+    "si": "〜から = \"~ ඉඳන්\" (ආරම්භක ලක්ෂ්‍යය). 〜になる = \"~ වෙනවා\"."
+   },
+   "vocab": [],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=61.21,64.6",
+   "t": [
+    61.21,
+    64.6
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "でも、子路はすぐに「わかりました」と言うくせがありました。",
+   "furigana": [
+    {
+     "surface": "でも、",
+     "reading": ""
+    },
+    {
+     "surface": "子路",
+     "reading": "しろ"
+    },
+    {
+     "surface": "はすぐに「わかりました」と",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "うくせがありました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Demo, shiro wa sugu ni “Wakarimashita” to iu kuse ga arimashita.",
+   "translations": {
+    "vi": "Nhưng Tử Lộ có tật hay nói ngay \"con hiểu rồi\".",
+    "en": "But Zilu had a habit of quickly saying \"I understand.\"",
+    "zh-Hans": "但子路有个毛病，总是马上说\"我明白了\"。",
+    "zh-Hant": "但子路有個毛病，總是馬上說「我明白了」。",
+    "ko": "하지만 자로는 금방 \"알겠습니다\"라고 말하는 버릇이 있었습니다.",
+    "tl": "Pero may ugali si Zilu na agad sabihing \"Naiintindihan ko na.\"",
+    "ne": "तर जिलुलाई तुरुन्तै \"बुझें\" भन्ने बानी थियो।",
+    "id": "Tapi Zilu punya kebiasaan cepat berkata \"Saya mengerti.\"",
+    "pt": "Mas Zilu tinha o hábito de logo dizer \"Entendi\".",
+    "my": "ဒါပေမဲ့ ဇီလူမှာ \"နားလည်ပါပြီ\" လို့ ချက်ချင်း ပြောတတ်တဲ့ အကျင့် ရှိသည်။",
+    "th": "แต่จื่อลู่มีนิสัยชอบพูดทันทีว่า \"เข้าใจแล้วครับ\"",
+    "si": "ඒත්, ස්ලූට ඉක්මනටම \"තේරුණා\" කියන පුරුද්දක් තිබුණා."
+   },
+   "grammarNote": {
+    "vi": "「くせ」= tật, thói quen (thường là thói xấu nhỏ). 「〜というくせがある」= có tật ….",
+    "en": "くせ = \"a habit\" (often a small bad one). 〜くせがある = \"to have a habit of …\".",
+    "zh-Hans": "「くせ」＝毛病、习惯。",
+    "zh-Hant": "「くせ」＝毛病、習慣。",
+    "ko": "「くせ」= 버릇.",
+    "tl": "くせ = ugali.",
+    "ne": "「くせ」= बानी।",
+    "id": "くせ = kebiasaan.",
+    "pt": "くせ = hábito, mania.",
+    "my": "「くせ」= အကျင့်။",
+    "th": "「くせ」= นิสัย",
+    "si": "くせ = \"පුරුද්ද\" (බොහෝ විට පොඩි නරක පුරුද්දක්). 〜くせがある = \"~ කරන පුරුද්දක් තියෙනවා\"."
+   },
+   "vocab": [
+    {
+     "word": "くせ",
+     "reading": "くせ",
+     "meanings": {
+      "vi": "tật, thói quen",
+      "en": "habit",
+      "zh-Hans": "毛病",
+      "zh-Hant": "毛病",
+      "ko": "버릇",
+      "tl": "ugali",
+      "ne": "बानी",
+      "id": "kebiasaan",
+      "pt": "mania",
+      "my": "အကျင့်",
+      "th": "นิสัย",
+      "si": "පුරුද්ද"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=65.2,70.15",
+   "t": [
+    65.2,
+    70.15
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ある日、孔子が子路に聞きました。",
+   "furigana": [
+    {
+     "surface": "ある",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "子路",
+     "reading": "しろ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "きました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Aru hi, koushi ga shiro ni kikimashita.",
+   "translations": {
+    "vi": "Một hôm, Khổng Tử hỏi Tử Lộ.",
+    "en": "One day, Confucius asked Zilu.",
+    "zh-Hans": "有一天，孔子问子路。",
+    "zh-Hant": "有一天，孔子問子路。",
+    "ko": "어느 날 공자가 자로에게 물었습니다.",
+    "tl": "Isang araw, tinanong ni Confucius si Zilu.",
+    "ne": "एक दिन कन्फ्युसियसले जिलुलाई सोधे।",
+    "id": "Suatu hari, Konfusius bertanya kepada Zilu.",
+    "pt": "Um dia, Confúcio perguntou a Zilu.",
+    "my": "တစ်နေ့ ကွန်ဖြူးရှပ်က ဇီလူကို မေးသည်။",
+    "th": "วันหนึ่ง ขงจื๊อถามจื่อลู่",
+    "si": "දවසක්, කොන්ෆියුසියස් ස්ලූගෙන් ඇහුවා."
+   },
+   "grammarNote": {
+    "vi": "「〜に聞く」= hỏi (ai). に chỉ người được hỏi.",
+    "en": "〜に聞く = \"to ask (someone)\"; に marks the person asked.",
+    "zh-Hans": "「〜に聞く」＝问（某人）。",
+    "zh-Hant": "「〜に聞く」＝問（某人）。",
+    "ko": "「〜に聞く」= …에게 묻다.",
+    "tl": "〜に聞く = tanungin si.",
+    "ne": "「〜に聞く」= … लाई सोध्नु।",
+    "id": "〜に聞く = bertanya kepada.",
+    "pt": "〜に聞く = perguntar a.",
+    "my": "「〜に聞く」= … ကို မေးသည်။",
+    "th": "「〜に聞く」= ถาม …",
+    "si": "〜に聞く = \"(කෙනෙකුගෙන්) අහනවා\"; に අහන කෙනා පෙන්වයි."
+   },
+   "vocab": [],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=70.75,73.49",
+   "t": [
+    70.75,
+    73.49
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「子路、『知る』とはどういうことか、教えようか。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "子路",
+     "reading": "しろ"
+    },
+    {
+     "surface": "、『",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "る』とはどういうことか、",
+     "reading": ""
+    },
+    {
+     "surface": "教",
+     "reading": "おし"
+    },
+    {
+     "surface": "えようか。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Shiro, “Shiru” to wa douiu koto ka, oshieyou ka.”",
+   "translations": {
+    "vi": "\"Tử Lộ, ta dạy con thế nào là 'biết' nhé?\"",
+    "en": "\"Zilu, shall I teach you what 'knowing' really means?\"",
+    "zh-Hans": "\"子路，我来教你什么叫'知'吧？\"",
+    "zh-Hant": "「子路，我來教你什麼叫『知』吧？」",
+    "ko": "\"자로야, '안다'는 것이 무엇인지 가르쳐 줄까?\"",
+    "tl": "\"Zilu, ituturo ko ba sa iyo kung ano ang 'pagkaalam'?\"",
+    "ne": "\"जिलु, 'थाहा पाउनु' भनेको के हो सिकाऊँ?\"",
+    "id": "\"Zilu, mau kuajari apa itu 'mengetahui'?\"",
+    "pt": "\"Zilu, quer que eu lhe ensine o que é 'saber'?\"",
+    "my": "\"ဇီလူ၊ 'သိတယ်' ဆိုတာ ဘာလဲ သင်ပေးရမလား။\"",
+    "th": "\"จื่อลู่ จะสอนให้ไหมว่า 'รู้' คืออะไร\"",
+    "si": "\"ස්ලූ, 'දැනගැනීම' කියන්නේ ඇත්තටම මොකක්ද කියලා උඹට කියලා දෙන්නද?\""
+   },
+   "grammarNote": {
+    "vi": "「〜とは」= … là gì (định nghĩa). 「教えようか」= ta dạy cho nhé? (ý chí + か: đề nghị).",
+    "en": "〜とは = \"what … is\" (definition). 教えようか = \"shall I teach you?\" (volitional + か: an offer).",
+    "zh-Hans": "「〜とは」＝所谓……「教えようか」＝我教你吧？",
+    "zh-Hant": "「〜とは」＝所謂……「教えようか」＝我教你吧？",
+    "ko": "「〜とは」= …이란. 「教えようか」= 가르쳐 줄까?",
+    "tl": "〜とは = ang ibig sabihin ng; 教えようか = ituro ko ba?",
+    "ne": "「〜とは」= भनेको। 「教えようか」= सिकाऊँ?",
+    "id": "〜とは = arti dari; 教えようか = mau kuajari?",
+    "pt": "〜とは = o que é; 教えようか = quer que eu ensine?",
+    "my": "「〜とは」= ဆိုတာ။ 「教えようか」= သင်ပေးရမလား။",
+    "th": "「〜とは」= คือ 「教えようか」= สอนให้ไหม",
+    "si": "〜とは = \"~ කියන්නේ මොකක්ද\" (අර්ථ දැක්වීම). 教えようか = \"කියලා දෙන්නද?\" (අභිප්‍රාය + か: යෝජනාවක්)."
+   },
+   "vocab": [
+    {
+     "word": "知る",
+     "reading": "しる",
+     "meanings": {
+      "vi": "biết",
+      "en": "to know",
+      "zh-Hans": "知道",
+      "zh-Hant": "知道",
+      "ko": "알다",
+      "tl": "malaman",
+      "ne": "थाहा पाउनु",
+      "id": "mengetahui",
+      "pt": "saber",
+      "my": "သိသည်",
+      "th": "รู้",
+      "si": "දන්නවා, දැනගන්නවා"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=74.39,78.68",
+   "t": [
+    74.39,
+    78.68
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「知っていることは、知っていると言う。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "っていることは、",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "っていると",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "う。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Shitte iru koto wa, shitte iru to iu.”",
+   "translations": {
+    "vi": "\"Điều mình biết thì nói là biết.\"",
+    "en": "\"What you know, say that you know.\"",
+    "zh-Hans": "\"知道的，就说知道。\"",
+    "zh-Hant": "「知道的，就說知道。」",
+    "ko": "\"아는 것은 안다고 하고,\"",
+    "tl": "\"Ang alam mo, sabihin mong alam mo.\"",
+    "ne": "\"जानेको कुरालाई जानेको भन।\"",
+    "id": "\"Yang kamu tahu, katakan tahu.\"",
+    "pt": "\"O que você sabe, diga que sabe.\"",
+    "my": "\"သိတာကို သိတယ်လို့ ပြော။\"",
+    "th": "\"สิ่งที่รู้ ก็บอกว่ารู้\"",
+    "si": "\"දන්න දේ, දන්නවා කියලා කියනවා.\""
+   },
+   "grammarNote": {
+    "vi": "Câu 17–19 là lời trong 『論語』 為政篇: 「知之為知之、不知為不知、是知也」. 「〜と言う」= nói rằng ….",
+    "en": "Sentences 17–19 are from the Analects (Wei Zheng): \"To know what you know and know what you don't — that is knowledge.\"",
+    "zh-Hans": "第17–19句出自《论语·为政》：\"知之为知之，不知为不知，是知也。\"",
+    "zh-Hant": "第17–19句出自《論語·為政》：「知之為知之，不知為不知，是知也。」",
+    "ko": "17–19번은 『논어』 위정편 \"知之為知之, 不知為不知, 是知也\".",
+    "tl": "Mula sa Analects (Wei Zheng).",
+    "ne": "वाक्य १७–१९ \"एनालेक्ट्स\"बाट।",
+    "id": "Kalimat 17–19 dari Analek (Wei Zheng).",
+    "pt": "Frases 17–19 dos Analectos (Wei Zheng).",
+    "my": "ဝါကျ ၁၇–၁၉ \"Analects\" မှ။",
+    "th": "ประโยค 17–19 จาก \"หลุนอวี่\"",
+    "si": "වාක්‍ය 17–19 ඇනලෙක්ට්ස් (වෙයි චෙං) වලින්: \"දන්න දේ දන්නවා කියලත්, නොදන්න දේ නොදන්නවා කියලත් දැනගැනීම, ඒකයි දැනුම.\""
+   },
+   "vocab": [],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=79.28,82.24",
+   "t": [
+    79.28,
+    82.24
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「知らないことは、知らないと言う。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "らないことは、",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "らないと",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "う。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Shiranai koto wa, shiranai to iu.”",
+   "translations": {
+    "vi": "\"Điều mình không biết thì nói là không biết.\"",
+    "en": "\"What you don't know, say that you don't know.\"",
+    "zh-Hans": "\"不知道的，就说不知道。\"",
+    "zh-Hant": "「不知道的，就說不知道。」",
+    "ko": "\"모르는 것은 모른다고 하는 것.\"",
+    "tl": "\"Ang hindi mo alam, sabihin mong hindi mo alam.\"",
+    "ne": "\"नजानेको कुरालाई नजानेको भन।\"",
+    "id": "\"Yang tidak kamu tahu, katakan tidak tahu.\"",
+    "pt": "\"O que não sabe, diga que não sabe.\"",
+    "my": "\"မသိတာကို မသိဘူးလို့ ပြော။\"",
+    "th": "\"สิ่งที่ไม่รู้ ก็บอกว่าไม่รู้\"",
+    "si": "\"නොදන්න දේ, දන්නේ නැහැ කියලා කියනවා.\""
+   },
+   "grammarNote": {
+    "vi": "「知らない」= không biết (phủ định của 知る).",
+    "en": "知らない = \"don't know\" (negative of 知る).",
+    "zh-Hans": "「知らない」＝不知道（知る的否定）。",
+    "zh-Hant": "「知らない」＝不知道。",
+    "ko": "「知らない」= 모르다.",
+    "tl": "知らない = hindi alam.",
+    "ne": "「知らない」= थाहा छैन।",
+    "id": "知らない = tidak tahu.",
+    "pt": "知らない = não saber.",
+    "my": "「知らない」= မသိ။",
+    "th": "「知らない」= ไม่รู้",
+    "si": "知らない = \"දන්නේ නැහැ\" (知る හි නිෂේධය)."
+   },
+   "vocab": [],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=82.84,85.79",
+   "t": [
+    82.84,
+    85.79
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「それが、本当に知るということだよ。」",
+   "furigana": [
+    {
+     "surface": "「それが、",
+     "reading": ""
+    },
+    {
+     "surface": "本当",
+     "reading": "ほんとう"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "知",
+     "reading": "し"
+    },
+    {
+     "surface": "るということだよ。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Sore ga, hontouni shiru to iu koto da yo.”",
+   "translations": {
+    "vi": "\"Đó mới thật sự là biết.\"",
+    "en": "\"That is what truly knowing means.\"",
+    "zh-Hans": "\"这才是真正的知道。\"",
+    "zh-Hant": "「這才是真正的知道。」",
+    "ko": "\"그것이 진짜 아는 것이란다.\"",
+    "tl": "\"Iyan ang tunay na pagkaalam.\"",
+    "ne": "\"त्यो नै साँच्चै जान्नु हो।\"",
+    "id": "\"Itulah benar-benar mengetahui.\"",
+    "pt": "\"Isso é que é saber de verdade.\"",
+    "my": "\"အဲဒါဟာ တကယ် သိတာပဲ။\"",
+    "th": "\"นั่นแหละคือการรู้จริง\"",
+    "si": "\"ඒක තමයි ඇත්තටම දැනගැනීම කියන්නේ.\""
+   },
+   "grammarNote": {
+    "vi": "「〜ということ」= việc …, điều gọi là …. 「本当に」= thật sự.",
+    "en": "〜ということ = \"the matter of …\". 本当に = \"truly\".",
+    "zh-Hans": "「〜ということ」＝所谓……这件事。「本当に」＝真正地。",
+    "zh-Hant": "「〜ということ」＝所謂……這件事。",
+    "ko": "「〜ということ」= …라는 것.",
+    "tl": "〜ということ = ang bagay na; 本当に = tunay.",
+    "ne": "「〜ということ」= भन्ने कुरा।",
+    "id": "〜ということ = hal …; 本当に = benar-benar.",
+    "pt": "〜ということ = o fato de; 本当に = de verdade.",
+    "my": "「〜ということ」= ဆိုတာ။",
+    "th": "「〜ということ」= สิ่งที่เรียกว่า",
+    "si": "〜ということ = \"~ කියන කාරණය\". 本当に = \"ඇත්තටම\"."
+   },
+   "vocab": [
+    {
+     "word": "本当",
+     "reading": "",
+     "meanings": {
+      "vi": "thật",
+      "en": "true, real",
+      "zh-Hans": "真的",
+      "zh-Hant": "真的",
+      "ko": "진짜",
+      "tl": "totoo",
+      "ne": "साँचो",
+      "id": "benar",
+      "pt": "verdade",
+      "my": "တကယ်",
+      "th": "จริง",
+      "si": "ඇත්ත, සැබෑ"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=86.39,89.52",
+   "t": [
+    86.39,
+    89.52
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "子路の顔は、少し赤くなりました。",
+   "furigana": [
+    {
+     "surface": "子路",
+     "reading": "しろ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "顔",
+     "reading": "かお"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "少",
+     "reading": "すこ"
+    },
+    {
+     "surface": "し",
+     "reading": ""
+    },
+    {
+     "surface": "赤",
+     "reading": "あか"
+    },
+    {
+     "surface": "くなりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shiro no kao wa, sukoshi akaku narimashita.",
+   "translations": {
+    "vi": "Mặt Tử Lộ hơi đỏ lên.",
+    "en": "Zilu's face turned a little red.",
+    "zh-Hans": "子路的脸有点红了。",
+    "zh-Hant": "子路的臉有點紅了。",
+    "ko": "자로의 얼굴이 조금 빨개졌습니다.",
+    "tl": "Bahagyang namula ang mukha ni Zilu.",
+    "ne": "जिलुको अनुहार अलिकति रातो भयो।",
+    "id": "Wajah Zilu sedikit memerah.",
+    "pt": "O rosto de Zilu ficou um pouco vermelho.",
+    "my": "ဇီလူရဲ့ မျက်နှာ နည်းနည်း နီလာသည်။",
+    "th": "หน้าของจื่อลู่แดงขึ้นเล็กน้อย",
+    "si": "ස්ලූගේ මූණ පොඩ්ඩක් රතු වුණා."
+   },
+   "grammarNote": {
+    "vi": "「赤くなる」= đỏ lên (tính từ い → く + なる = trở nên …).",
+    "en": "赤くなる = \"to turn red\" (い-adj → く + なる = \"become …\").",
+    "zh-Hans": "「赤くなる」＝变红。",
+    "zh-Hant": "「赤くなる」＝變紅。",
+    "ko": "「赤くなる」= 빨개지다.",
+    "tl": "赤くなる = mamula.",
+    "ne": "「赤くなる」= रातो हुनु।",
+    "id": "赤くなる = memerah.",
+    "pt": "赤くなる = ficar vermelho.",
+    "my": "「赤くなる」= နီလာသည်။",
+    "th": "「赤くなる」= แดงขึ้น",
+    "si": "赤くなる = \"රතු වෙනවා\" (い-විශේෂණ → く + なる = \"~ වෙනවා\")."
+   },
+   "vocab": [
+    {
+     "word": "顔",
+     "reading": "かお",
+     "meanings": {
+      "vi": "khuôn mặt",
+      "en": "face",
+      "zh-Hans": "脸",
+      "zh-Hant": "臉",
+      "ko": "얼굴",
+      "tl": "mukha",
+      "ne": "अनुहार",
+      "id": "wajah",
+      "pt": "rosto",
+      "my": "မျက်နှာ",
+      "th": "หน้า",
+      "si": "මුහුණ"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=90.42,94.01",
+   "t": [
+    90.42,
+    94.01
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "弟子の中には、子貢という頭のいい若者もいました。",
+   "furigana": [
+    {
+     "surface": "弟子",
+     "reading": "でし"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "には、",
+     "reading": ""
+    },
+    {
+     "surface": "子貢",
+     "reading": "しこう"
+    },
+    {
+     "surface": "という",
+     "reading": ""
+    },
+    {
+     "surface": "頭",
+     "reading": "あたま"
+    },
+    {
+     "surface": "のいい",
+     "reading": ""
+    },
+    {
+     "surface": "若者",
+     "reading": "わかもの"
+    },
+    {
+     "surface": "もいました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Deshi no naka ni wa, shikou to iu atama no ii wakamono mo imashita.",
+   "translations": {
+    "vi": "Trong số học trò còn có một chàng trai thông minh tên là Tử Cống.",
+    "en": "Among the students there was also a clever young man called Zigong.",
+    "zh-Hans": "弟子中还有一个叫子贡的聪明年轻人。",
+    "zh-Hant": "弟子中還有一個叫子貢的聰明年輕人。",
+    "ko": "제자 중에는 자공이라는 똑똑한 젊은이도 있었습니다.",
+    "tl": "Kasama rin sa mga alagad ang matalinong binatang si Zigong.",
+    "ne": "चेलाहरूमध्ये जिगोङ नामका चलाख युवक पनि थिए।",
+    "id": "Di antara murid ada juga pemuda cerdas bernama Zigong.",
+    "pt": "Entre os discípulos havia também um jovem esperto chamado Zigong.",
+    "my": "တပည့်တွေထဲမှာ ဇီကုံး ဆိုတဲ့ ဉာဏ်ကောင်းတဲ့ လူငယ်လည်း ရှိသည်။",
+    "th": "ในหมู่ศิษย์ยังมีชายหนุ่มฉลาดชื่อจื่อก้ง",
+    "si": "ශිෂ්‍යයන් අතරේ, ස්ගොං කියලා මොළේ තියෙන තරුණයෙකුත් හිටියා."
+   },
+   "grammarNote": {
+    "vi": "「頭のいい」= thông minh (nghĩa đen: đầu tốt). Trong mệnh đề bổ nghĩa, が đổi thành の: 頭がいい → 頭のいい人.",
+    "en": "頭のいい = \"smart\" (lit. \"good head\"). Inside a noun-modifying clause が can become の: 頭のいい人.",
+    "zh-Hans": "「頭のいい」＝聪明。修饰名词时が可变成の。",
+    "zh-Hant": "「頭のいい」＝聰明。",
+    "ko": "「頭のいい」= 똑똑한.",
+    "tl": "頭のいい = matalino.",
+    "ne": "「頭のいい」= चलाख।",
+    "id": "頭のいい = cerdas.",
+    "pt": "頭のいい = inteligente.",
+    "my": "「頭のいい」= ဉာဏ်ကောင်းသော။",
+    "th": "「頭のいい」= ฉลาด",
+    "si": "頭のいい = \"බුද්ධිමත්\" (වචනාර්ථයෙන් \"හොඳ ඔළුවක්\"). නාම විශේෂණ වාක්‍යාංශයක් ඇතුළේ が, の වෙන්න පුළුවන්: 頭のいい人."
+   },
+   "vocab": [
+    {
+     "word": "子貢",
+     "reading": "しこう",
+     "meanings": {
+      "vi": "Tử Cống",
+      "en": "Zigong",
+      "zh-Hans": "子贡",
+      "zh-Hant": "子貢",
+      "ko": "자공",
+      "tl": "Zigong",
+      "ne": "जिगोङ",
+      "id": "Zigong",
+      "pt": "Zigong",
+      "my": "ဇီကုံး",
+      "th": "จื่อก้ง",
+      "si": "ස්ගොං"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=94.61,100.01",
+   "t": [
+    94.61,
+    100.01
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "子貢は、話すのが上手で、商売も得意でした。",
+   "furigana": [
+    {
+     "surface": "子貢",
+     "reading": "しこう"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はな"
+    },
+    {
+     "surface": "すのが",
+     "reading": ""
+    },
+    {
+     "surface": "上手",
+     "reading": "じょうず"
+    },
+    {
+     "surface": "で、",
+     "reading": ""
+    },
+    {
+     "surface": "商売",
+     "reading": "しょうばい"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "得意",
+     "reading": "とくい"
+    },
+    {
+     "surface": "でした。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shikou wa, hanasu no ga jouzude, shoubai mo tokui deshita.",
+   "translations": {
+    "vi": "Tử Cống ăn nói giỏi, lại giỏi cả buôn bán.",
+    "en": "Zigong was a good speaker and also skilled at business.",
+    "zh-Hans": "子贡能言善辩，也很会做生意。",
+    "zh-Hant": "子貢能言善辯，也很會做生意。",
+    "ko": "자공은 말을 잘하고 장사도 잘했습니다.",
+    "tl": "Mahusay magsalita si Zigong at magaling din sa negosyo.",
+    "ne": "जिगोङ बोल्न सिपालु र व्यापारमा पनि खप्पिस थिए।",
+    "id": "Zigong pandai bicara dan juga pandai berdagang.",
+    "pt": "Zigong falava bem e também era bom nos negócios.",
+    "my": "ဇီကုံးဟာ စကားပြော တော်ပြီး စီးပွားရေးမှာလည်း ကျွမ်းကျင်သည်။",
+    "th": "จื่อก้งพูดเก่ง และเก่งเรื่องค้าขายด้วย",
+    "si": "ස්ගොං කතා කරන්න දක්ෂයි, ව්‍යාපාරයටත් හපන්."
+   },
+   "grammarNote": {
+    "vi": "「〜のが上手」= giỏi …. 「得意」= sở trường, giỏi (về mình). 「商売」= buôn bán.",
+    "en": "〜のが上手 = \"good at …ing\". 得意 = \"one's strong point\". 商売 = \"business, trade\".",
+    "zh-Hans": "「〜のが上手」＝擅长……「得意」＝拿手。「商売」＝生意。",
+    "zh-Hant": "「〜のが上手」＝擅長……「得意」＝拿手。「商売」＝生意。",
+    "ko": "「〜のが上手」= …를 잘하다. 「得意」= 잘하다. 「商売」= 장사.",
+    "tl": "〜のが上手 = magaling; 得意 = kasanayan; 商売 = negosyo.",
+    "ne": "「〜のが上手」= सिपालु। 「得意」= खप्पिस। 「商売」= व्यापार।",
+    "id": "〜のが上手 = pandai; 得意 = keahlian; 商売 = dagang.",
+    "pt": "〜のが上手 = bom em; 得意 = ponto forte; 商売 = negócio.",
+    "my": "「〜のが上手」= တော်သည်။ 「得意」= ကျွမ်းကျင်။ 「商売」= စီးပွားရေး။",
+    "th": "「〜のが上手」= เก่ง 「得意」= ถนัด 「商売」= ค้าขาย",
+    "si": "〜のが上手 = \"~ කරන්න දක්ෂයි\". 得意 = \"කෙනෙක්ගේ ශක්තිය, හපන්කම\". 商売 = \"ව්‍යාපාරය, වෙළඳාම\"."
+   },
+   "vocab": [
+    {
+     "word": "商売",
+     "reading": "しょうばい",
+     "meanings": {
+      "vi": "buôn bán",
+      "en": "business, trade",
+      "zh-Hans": "生意",
+      "zh-Hant": "生意",
+      "ko": "장사",
+      "tl": "negosyo",
+      "ne": "व्यापार",
+      "id": "dagang",
+      "pt": "negócio",
+      "my": "စီးပွားရေး",
+      "th": "ค้าขาย",
+      "si": "ව්‍යාපාරය, වෙළඳාම"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "得意",
+     "reading": "とくい",
+     "meanings": {
+      "vi": "sở trường",
+      "en": "good at",
+      "zh-Hans": "拿手",
+      "zh-Hant": "拿手",
+      "ko": "잘하는 것",
+      "tl": "magaling",
+      "ne": "खप्पिस",
+      "id": "pandai",
+      "pt": "bom em",
+      "my": "ကျွမ်းကျင်သော",
+      "th": "ถนัด",
+      "si": "හපන්, දක්ෂ"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=100.61,105.4",
+   "t": [
+    100.61,
+    105.4
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「先生、一生大切にできる言葉を、一言だけ教えてください。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "先生",
+     "reading": "せんせい"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "一生",
+     "reading": "いっしょう"
+    },
+    {
+     "surface": "大切",
+     "reading": "たいせつ"
+    },
+    {
+     "surface": "にできる",
+     "reading": ""
+    },
+    {
+     "surface": "言葉",
+     "reading": "ことば"
+    },
+    {
+     "surface": "を、",
+     "reading": ""
+    },
+    {
+     "surface": "一言",
+     "reading": "ひとこと"
+    },
+    {
+     "surface": "だけ",
+     "reading": ""
+    },
+    {
+     "surface": "教",
+     "reading": "おし"
+    },
+    {
+     "surface": "えてください。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Sensei, isshou taisetsu ni dekiru kotoba o, hitokoto dake oshiete kudasai.”",
+   "translations": {
+    "vi": "\"Thưa thầy, xin thầy dạy con chỉ một lời thôi, để con trân trọng suốt đời.\"",
+    "en": "\"Master, please teach me just one word I can treasure all my life.\"",
+    "zh-Hans": "\"老师，请教我一句可以一辈子珍惜的话。\"",
+    "zh-Hant": "「老師，請教我一句可以一輩子珍惜的話。」",
+    "ko": "\"선생님, 평생 소중히 할 수 있는 말을 한마디만 가르쳐 주세요.\"",
+    "tl": "\"Guro, turuan po ninyo ako ng isang salitang maiingatan ko habambuhay.\"",
+    "ne": "\"गुरु, जीवनभर सम्हाल्न सकिने एउटै शब्द सिकाइदिनुहोस्।\"",
+    "id": "\"Guru, ajarkan saya satu kata saja yang bisa saya pegang seumur hidup.\"",
+    "pt": "\"Mestre, ensine-me só uma palavra que eu possa guardar a vida toda.\"",
+    "my": "\"ဆရာ၊ တစ်သက်လုံး တန်ဖိုးထားနိုင်မယ့် စကားတစ်ခွန်းပဲ သင်ပေးပါ။\"",
+    "th": "\"อาจารย์ โปรดสอนคำเดียวที่ผมจะยึดไว้ได้ตลอดชีวิต\"",
+    "si": "\"ගුරුතුමනි, මුළු ජීවිත කාලෙම වටිනවා කියලා තියාගන්න පුළුවන් එක වචනයක් විතරක් කියලා දෙන්න.\""
+   },
+   "grammarNote": {
+    "vi": "「一生」= cả đời. 「一言だけ」= chỉ một lời. 「〜てください」= xin hãy ….",
+    "en": "一生 = \"one's whole life\". 一言だけ = \"just one word\". 〜てください = \"please …\".",
+    "zh-Hans": "「一生」＝一辈子。「一言だけ」＝只一句。",
+    "zh-Hant": "「一生」＝一輩子。「一言だけ」＝只一句。",
+    "ko": "「一生」= 평생. 「一言だけ」= 한마디만.",
+    "tl": "一生 = habambuhay; 一言だけ = isang salita lang.",
+    "ne": "「一生」= जीवनभर। 「一言だけ」= एउटै शब्द।",
+    "id": "一生 = seumur hidup; 一言だけ = satu kata saja.",
+    "pt": "一生 = a vida toda; 一言だけ = só uma palavra.",
+    "my": "「一生」= တစ်သက်လုံး။ 「一言だけ」= တစ်ခွန်းတည်း။",
+    "th": "「一生」= ตลอดชีวิต 「一言だけ」= แค่คำเดียว",
+    "si": "一生 = \"මුළු ජීවිත කාලය\". 一言だけ = \"එක වචනයක් විතරක්\". 〜てください = \"කරුණාකර ~\"."
+   },
+   "vocab": [
+    {
+     "word": "一生",
+     "reading": "いっしょう",
+     "meanings": {
+      "vi": "cả đời",
+      "en": "whole life",
+      "zh-Hans": "一辈子",
+      "zh-Hant": "一輩子",
+      "ko": "평생",
+      "tl": "habambuhay",
+      "ne": "जीवनभर",
+      "id": "seumur hidup",
+      "pt": "a vida toda",
+      "my": "တစ်သက်လုံး",
+      "th": "ตลอดชีวิต",
+      "si": "මුළු ජීවිතය"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "一言",
+     "reading": "ひとこと",
+     "meanings": {
+      "vi": "một lời",
+      "en": "one word",
+      "zh-Hans": "一句话",
+      "zh-Hant": "一句話",
+      "ko": "한마디",
+      "tl": "isang salita",
+      "ne": "एक शब्द",
+      "id": "sepatah kata",
+      "pt": "uma palavra",
+      "my": "တစ်ခွန်း",
+      "th": "คำเดียว",
+      "si": "එක වචනයක්"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=106.3,111.52",
+   "t": [
+    106.3,
+    111.52
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "孔子は、少し考えてから答えました。",
+   "furigana": [
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "少",
+     "reading": "すこ"
+    },
+    {
+     "surface": "し",
+     "reading": ""
+    },
+    {
+     "surface": "考",
+     "reading": "かんが"
+    },
+    {
+     "surface": "えてから",
+     "reading": ""
+    },
+    {
+     "surface": "答",
+     "reading": "こた"
+    },
+    {
+     "surface": "えました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Koushi wa, sukoshi kangaete kara kotaemashita.",
+   "translations": {
+    "vi": "Khổng Tử nghĩ một chút rồi đáp.",
+    "en": "Confucius thought for a moment, then answered.",
+    "zh-Hans": "孔子想了一下才回答。",
+    "zh-Hant": "孔子想了一下才回答。",
+    "ko": "공자는 잠시 생각하고 대답했습니다.",
+    "tl": "Nag-isip sandali si Confucius bago sumagot.",
+    "ne": "कन्फ्युसियसले अलिकति सोचेर जवाफ दिए।",
+    "id": "Konfusius berpikir sejenak, lalu menjawab.",
+    "pt": "Confúcio pensou um pouco e respondeu.",
+    "my": "ကွန်ဖြူးရှပ် ခဏ စဉ်းစားပြီး ဖြေသည်။",
+    "th": "ขงจื๊อคิดอยู่ครู่หนึ่งแล้วตอบ",
+    "si": "කොන්ෆියුසියස් පොඩ්ඩක් හිතලා උත්තර දුන්නා."
+   },
+   "grammarNote": {
+    "vi": "「〜てから」= sau khi … rồi.",
+    "en": "〜てから = \"after …ing\".",
+    "zh-Hans": "「〜てから」＝……之后。",
+    "zh-Hant": "「〜てから」＝……之後。",
+    "ko": "「〜てから」= …하고 나서.",
+    "tl": "〜てから = pagkatapos.",
+    "ne": "「〜てから」= पछि।",
+    "id": "〜てから = setelah.",
+    "pt": "〜てから = depois de.",
+    "my": "「〜てから」= ပြီးမှ။",
+    "th": "「〜てから」= หลังจาก",
+    "si": "〜てから = \"~ කරලා ඊට පස්සේ\"."
+   },
+   "vocab": [
+    {
+     "word": "答える",
+     "reading": "こたえる",
+     "meanings": {
+      "vi": "trả lời",
+      "en": "to answer",
+      "zh-Hans": "回答",
+      "zh-Hant": "回答",
+      "ko": "대답하다",
+      "tl": "sumagot",
+      "ne": "जवाफ दिनु",
+      "id": "menjawab",
+      "pt": "responder",
+      "my": "ဖြေသည်",
+      "th": "ตอบ",
+      "si": "පිළිතුරු දීම"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=112.42,115.61",
+   "t": [
+    112.42,
+    115.61
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「それは、『思いやり』だね。」",
+   "furigana": [
+    {
+     "surface": "「それは、『",
+     "reading": ""
+    },
+    {
+     "surface": "思",
+     "reading": "おも"
+    },
+    {
+     "surface": "いやり』だね。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Sore wa, “Omoiyari” da ne.”",
+   "translations": {
+    "vi": "\"Đó là 'lòng vị tha (thứ)'.\"",
+    "en": "\"It is 'consideration for others'.\"",
+    "zh-Hans": "\"那就是'恕'。\"",
+    "zh-Hant": "「那就是『恕』。」",
+    "ko": "\"그것은 '배려(恕)'로구나.\"",
+    "tl": "\"Iyan ay ang 'malasakit sa kapwa'.\"",
+    "ne": "\"त्यो हो 'अरूप्रतिको ख्याल'।\"",
+    "id": "\"Itu adalah 'tenggang rasa'.\"",
+    "pt": "\"É a 'consideração pelos outros'.\"",
+    "my": "\"အဲဒါက 'စာနာစိတ်' ပဲ။\"",
+    "th": "\"นั่นคือ 'ความเห็นอกเห็นใจ (恕)'\"",
+    "si": "\"ඒක 'අනුන් ගැන සැලකිල්ල'.\""
+   },
+   "grammarNote": {
+    "vi": "「思いやり」= sự quan tâm, thông cảm với người khác. Trong 『論語』 là chữ 恕 (thứ).",
+    "en": "思いやり = \"consideration, empathy\". In the Analects the word is 恕 (shu).",
+    "zh-Hans": "「思いやり」＝体贴。《论语》原文为\"恕\"。",
+    "zh-Hant": "「思いやり」＝體貼。《論語》原文為「恕」。",
+    "ko": "「思いやり」= 배려. 『논어』의 恕.",
+    "tl": "思いやり = malasakit (恕 sa Analects).",
+    "ne": "「思いやり」= अरूको ख्याल (恕)।",
+    "id": "思いやり = tenggang rasa (恕).",
+    "pt": "思いやり = consideração (恕).",
+    "my": "「思いやり」= စာနာစိတ် (恕)။",
+    "th": "「思いやり」= ความเห็นใจ (恕)",
+    "si": "思いやり = \"සැලකිල්ල, සහකම්පනය\". ඇනලෙක්ට්ස් හි වචනය 恕 (shu)."
+   },
+   "vocab": [
+    {
+     "word": "思いやり",
+     "reading": "おもいやり",
+     "meanings": {
+      "vi": "sự quan tâm, vị tha",
+      "en": "consideration",
+      "zh-Hans": "体贴",
+      "zh-Hant": "體貼",
+      "ko": "배려",
+      "tl": "malasakit",
+      "ne": "ख्याल",
+      "id": "tenggang rasa",
+      "pt": "consideração",
+      "my": "စာနာစိတ်",
+      "th": "ความเห็นอกเห็นใจ",
+      "si": "සැලකිල්ල"
+     },
+     "level": "N2"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=116.51,118.57",
+   "t": [
+    116.51,
+    118.57
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「自分がされていやなことは、人にもしないことだ。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "がされていやなことは、",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "にもしないことだ。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Jibun ga sarete iyana koto wa, hito ni mo shinai koto da.”",
+   "translations": {
+    "vi": "\"Điều mình không muốn bị người khác làm, thì đừng làm cho người khác.\"",
+    "en": "\"What you would not want done to yourself, do not do to others.\"",
+    "zh-Hans": "\"己所不欲，勿施于人。\"",
+    "zh-Hant": "「己所不欲，勿施於人。」",
+    "ko": "\"자기가 당해서 싫은 일은 남에게도 하지 않는 것이다.\"",
+    "tl": "\"Ang ayaw mong gawin sa iyo, huwag mong gawin sa iba.\"",
+    "ne": "\"आफूलाई नमन पर्ने कुरा अरूलाई नगर।\"",
+    "id": "\"Apa yang tidak ingin dilakukan orang kepadamu, jangan lakukan kepada orang lain.\"",
+    "pt": "\"O que não quer que lhe façam, não faça aos outros.\"",
+    "my": "\"ကိုယ့်ကို လုပ်ရင် မကြိုက်တဲ့ အရာကို တခြားသူကိုလည်း မလုပ်နဲ့။\"",
+    "th": "\"สิ่งที่ตนไม่อยากให้ใครทำกับตน ก็อย่าทำกับผู้อื่น\"",
+    "si": "\"තමන්ට කරනවට අකමැති දේ, අනුන්ටත් කරන්න එපා.\""
+   },
+   "grammarNote": {
+    "vi": "Câu nổi tiếng: 己所不欲、勿施於人 (衛霊公篇). 「される」= bị (người khác) làm (bị động của する).",
+    "en": "The famous line 己所不欲、勿施於人. される = passive of する: \"to have done to one\".",
+    "zh-Hans": "名句\"己所不欲，勿施于人\"（卫灵公篇）。「される」＝被（别人）做。",
+    "zh-Hant": "名句「己所不欲，勿施於人」（衛靈公篇）。「される」＝被做。",
+    "ko": "명구 \"己所不欲 勿施於人\". 「される」= 당하다.",
+    "tl": "Tanyag na linya. される = gawin sa iyo.",
+    "ne": "प्रसिद्ध भनाइ। 「される」= आफूलाई गरिनु।",
+    "id": "Kutipan terkenal. される = dilakukan kepadamu.",
+    "pt": "Frase famosa. される = ser feito a você.",
+    "my": "နာမည်ကျော် စကား။ 「される」= ခံရသည်။",
+    "th": "ประโยคดัง 「される」= ถูกกระทำ",
+    "si": "ප්‍රසිද්ධ වාක්‍යය 己所不欲、勿施於人. される = する හි කර්මකාරකය: \"තමන්ට කරනු ලබනවා\"."
+   },
+   "vocab": [],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=119.17,123.5",
+   "t": [
+    119.17,
+    123.5
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "子貢は、その言葉を紙に書いて、ずっと持っていたそうです。",
+   "furigana": [
+    {
+     "surface": "子貢",
+     "reading": "しこう"
+    },
+    {
+     "surface": "は、その",
+     "reading": ""
+    },
+    {
+     "surface": "言葉",
+     "reading": "ことば"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "紙",
+     "reading": "かみ"
+    },
+    {
+     "surface": "に",
+     "reading": ""
+    },
+    {
+     "surface": "書",
+     "reading": "か"
+    },
+    {
+     "surface": "いて、ずっと",
+     "reading": ""
+    },
+    {
+     "surface": "持",
+     "reading": "も"
+    },
+    {
+     "surface": "っていたそうです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shikou wa, sono kotoba o kami ni kaite, zutto motte ita sou desu.",
+   "translations": {
+    "vi": "Nghe nói Tử Cống đã viết lời đó lên giấy và mang theo suốt.",
+    "en": "It is said Zigong wrote those words on paper and carried them with him always.",
+    "zh-Hans": "据说子贡把这句话写在纸上，一直带在身边。",
+    "zh-Hant": "據說子貢把這句話寫在紙上，一直帶在身邊。",
+    "ko": "자공은 그 말을 종이에 써서 늘 가지고 다녔다고 합니다.",
+    "tl": "Sinasabing isinulat ito ni Zigong sa papel at laging dala.",
+    "ne": "जिगोङले त्यो कुरा कागजमा लेखेर सधैं साथमा राखे रे।",
+    "id": "Konon Zigong menulis kata-kata itu di kertas dan selalu membawanya.",
+    "pt": "Dizem que Zigong escreveu essas palavras num papel e as levava sempre.",
+    "my": "ဇီကုံးဟာ အဲဒီစကားကို စာရွက်ပေါ် ရေးပြီး အမြဲ ဆောင်ထားခဲ့တယ်လို့ ဆိုသည်။",
+    "th": "ว่ากันว่าจื่อก้งเขียนคำนั้นลงกระดาษ แล้วพกติดตัวตลอด",
+    "si": "ස්ගොං ඒ වචන කඩදාසියක ලියලා, හැමදාම ළඟ තියාගත්තලු."
+   },
+   "grammarNote": {
+    "vi": "「ずっと」= suốt, mãi. 「〜そうです」= nghe nói là.",
+    "en": "ずっと = \"all along, always\". 〜そうです = \"it is said that …\".",
+    "zh-Hans": "「ずっと」＝一直。「〜そうです」＝据说。",
+    "zh-Hant": "「ずっと」＝一直。「〜そうです」＝據說。",
+    "ko": "「ずっと」= 계속. 「〜そうです」= …라고 한다.",
+    "tl": "ずっと = palagi; 〜そうです = daw.",
+    "ne": "「ずっと」= सधैं। 「〜そうです」= रे।",
+    "id": "ずっと = terus; 〜そうです = konon.",
+    "pt": "ずっと = sempre; 〜そうです = dizem.",
+    "my": "「ずっと」= အမြဲ။ 「〜そうです」= တဲ့။",
+    "th": "「ずっと」= ตลอด 「〜そうです」= ว่ากันว่า",
+    "si": "ずっと = \"හැමදාම, නොකඩවා\". 〜そうです = \"~ ලු\"."
+   },
+   "vocab": [
+    {
+     "word": "紙",
+     "reading": "かみ",
+     "meanings": {
+      "vi": "giấy",
+      "en": "paper",
+      "zh-Hans": "纸",
+      "zh-Hant": "紙",
+      "ko": "종이",
+      "tl": "papel",
+      "ne": "कागज",
+      "id": "kertas",
+      "pt": "papel",
+      "my": "စာရွက်",
+      "th": "กระดาษ",
+      "si": "කඩදාසිය"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=124.4,129.24",
+   "t": [
+    124.4,
+    129.24
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "ある日、三人で道を歩いているとき、孔子が言いました。",
+   "furigana": [
+    {
+     "surface": "ある",
+     "reading": ""
+    },
+    {
+     "surface": "日",
+     "reading": "ひ"
+    },
+    {
+     "surface": "、",
+     "reading": ""
+    },
+    {
+     "surface": "三人",
+     "reading": "さんにん"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "道",
+     "reading": "みち"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "歩",
+     "reading": "ある"
+    },
+    {
+     "surface": "いているとき、",
+     "reading": ""
+    },
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "言",
+     "reading": "い"
+    },
+    {
+     "surface": "いました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Aru hi, sannin de michi o aruite iru toki, koushi ga iimashita.",
+   "translations": {
+    "vi": "Một hôm, khi ba thầy trò đang đi trên đường, Khổng Tử nói.",
+    "en": "One day, as the three of them were walking along a road, Confucius spoke.",
+    "zh-Hans": "有一天，三人在路上走的时候，孔子说。",
+    "zh-Hant": "有一天，三人在路上走的時候，孔子說。",
+    "ko": "어느 날 셋이서 길을 걷고 있을 때 공자가 말했습니다.",
+    "tl": "Isang araw, habang naglalakad silang tatlo, nagsalita si Confucius.",
+    "ne": "एक दिन तीनै जना बाटोमा हिँड्दै गर्दा कन्फ्युसियसले भने।",
+    "id": "Suatu hari, saat mereka bertiga berjalan, Konfusius berkata.",
+    "pt": "Um dia, enquanto os três caminhavam, Confúcio disse.",
+    "my": "တစ်နေ့ သုံးယောက်သား လမ်းလျှောက်နေတုန်း ကွန်ဖြူးရှပ်က ပြောသည်။",
+    "th": "วันหนึ่ง ขณะทั้งสามเดินอยู่บนถนน ขงจื๊อกล่าว",
+    "si": "දවසක්, තුන්දෙනා පාරේ ඇවිදගෙන යද්දී, කොන්ෆියුසියස් කිව්වා."
+   },
+   "grammarNote": {
+    "vi": "「三人で」= ba người cùng nhau. 「〜ているとき」= trong lúc đang ….",
+    "en": "三人で = \"the three together\". 〜ているとき = \"while …ing\".",
+    "zh-Hans": "「三人で」＝三个人一起。「〜ているとき」＝正在……的时候。",
+    "zh-Hant": "「三人で」＝三個人一起。",
+    "ko": "「三人で」= 셋이서. 「〜ているとき」= …하고 있을 때.",
+    "tl": "三人で = silang tatlo; 〜ているとき = habang.",
+    "ne": "「三人で」= तीन जना मिलेर। 「〜ているとき」= गर्दै गर्दा।",
+    "id": "三人で = bertiga; 〜ているとき = saat sedang.",
+    "pt": "三人で = os três; 〜ているとき = enquanto.",
+    "my": "「三人で」= သုံးယောက်။ 「〜ているとき」= နေတုန်း။",
+    "th": "「三人で」= สามคน 「〜ているとき」= ขณะที่",
+    "si": "三人で = \"තුන්දෙනා එකට\". 〜ているとき = \"~ කරමින් ඉන්නකොට\"."
+   },
+   "vocab": [
+    {
+     "word": "道",
+     "reading": "みち",
+     "meanings": {
+      "vi": "con đường",
+      "en": "road, path",
+      "zh-Hans": "路",
+      "zh-Hant": "路",
+      "ko": "길",
+      "tl": "daan",
+      "ne": "बाटो",
+      "id": "jalan",
+      "pt": "caminho",
+      "my": "လမ်း",
+      "th": "ถนน",
+      "si": "පාර"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=129.84,135.19",
+   "t": [
+    129.84,
+    135.19
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「三人で歩けば、その中に、かならず私の先生がいる。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "三人",
+     "reading": "さんにん"
+    },
+    {
+     "surface": "で",
+     "reading": ""
+    },
+    {
+     "surface": "歩",
+     "reading": "ある"
+    },
+    {
+     "surface": "けば、その",
+     "reading": ""
+    },
+    {
+     "surface": "中",
+     "reading": "なか"
+    },
+    {
+     "surface": "に、かならず",
+     "reading": ""
+    },
+    {
+     "surface": "私",
+     "reading": "わたし"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "先生",
+     "reading": "せんせい"
+    },
+    {
+     "surface": "がいる。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Sannin de arukeba, sono naka ni, kanarazu watashi no sensei ga iru.”",
+   "translations": {
+    "vi": "\"Ba người cùng đi, ắt có người là thầy ta.\"",
+    "en": "\"When three walk together, there is surely a teacher for me among them.\"",
+    "zh-Hans": "\"三人行，必有我师焉。\"",
+    "zh-Hant": "「三人行，必有我師焉。」",
+    "ko": "\"세 사람이 걸으면 그중에 반드시 나의 스승이 있다.\"",
+    "tl": "\"Kapag tatlo ang naglalakad, tiyak may guro ako sa kanila.\"",
+    "ne": "\"तीन जना हिँड्दा तीमध्ये पक्कै मेरो गुरु हुन्छ।\"",
+    "id": "\"Jika tiga orang berjalan bersama, pasti ada guruku di antaranya.\"",
+    "pt": "\"Quando três caminham juntos, há certamente um mestre para mim entre eles.\"",
+    "my": "\"သုံးယောက် အတူ လမ်းလျှောက်ရင် အဲဒီထဲမှာ ငါ့ဆရာ သေချာပေါက် ရှိတယ်။\"",
+    "th": "\"สามคนเดินด้วยกัน ย่อมมีครูของเราอยู่ในนั้น\"",
+    "si": "\"තුන්දෙනෙක් එකට ඇවිදිනකොට, ඒ අතරේ අනිවාර්යයෙන්ම මගේ ගුරුවරයෙක් ඉන්නවා.\""
+   },
+   "grammarNote": {
+    "vi": "Câu Việt quen thuộc \"Tam nhân hành, tất hữu ngã sư\" (述而篇). 「〜ば」= nếu …. 「かならず」= chắc chắn.",
+    "en": "述而篇: \"三人行必有我師\". 〜ば = \"if …\". かならず = \"surely\".",
+    "zh-Hans": "出自《论语·述而》。「〜ば」＝如果。「かならず」＝一定。",
+    "zh-Hant": "出自《論語·述而》。「〜ば」＝如果。",
+    "ko": "『논어』 술이편 \"三人行 必有我師\". 「かならず」= 반드시.",
+    "tl": "Mula sa Analects. かならず = tiyak.",
+    "ne": "\"एनालेक्ट्स\"बाट। 「かならず」= पक्कै।",
+    "id": "Dari Analek. かならず = pasti.",
+    "pt": "Dos Analectos. かならず = certamente.",
+    "my": "\"Analects\" မှ။ 「かならず」= သေချာပေါက်။",
+    "th": "จาก \"หลุนอวี่\" 「かならず」= แน่นอน",
+    "si": "述而篇: \"三人行必有我師\". 〜ば = \"~ කළොත්\". かならず = \"අනිවාර්යයෙන්ම\"."
+   },
+   "vocab": [
+    {
+     "word": "かならず",
+     "reading": "かならず",
+     "meanings": {
+      "vi": "nhất định",
+      "en": "surely",
+      "zh-Hans": "一定",
+      "zh-Hant": "一定",
+      "ko": "반드시",
+      "tl": "tiyak",
+      "ne": "पक्कै",
+      "id": "pasti",
+      "pt": "certamente",
+      "my": "သေချာပေါက်",
+      "th": "แน่นอน",
+      "si": "අනිවාර්යයෙන්ම"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=136.09,141.46",
+   "t": [
+    136.09,
+    141.46
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「えっ、先生の先生ですか。ぼくたちが？」",
+   "furigana": [
+    {
+     "surface": "「えっ、",
+     "reading": ""
+    },
+    {
+     "surface": "先生",
+     "reading": "せんせい"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "先生",
+     "reading": "せんせい"
+    },
+    {
+     "surface": "ですか。ぼくたちが？」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“E, sensei no sensei desu ka. Bokutachi ga?”",
+   "translations": {
+    "vi": "\"Hả, thầy của thầy ạ? Là bọn con sao?\"",
+    "en": "\"What? Your teacher, Master? Us?\"",
+    "zh-Hans": "\"啊？老师的老师？是我们吗？\"",
+    "zh-Hant": "「啊？老師的老師？是我們嗎？」",
+    "ko": "\"네? 선생님의 선생님이요? 저희가요?\"",
+    "tl": "\"Ha? Guro ninyo? Kami?\"",
+    "ne": "\"ए? गुरुका गुरु? हामी?\"",
+    "id": "\"Eh? Guru dari Guru? Kami?\"",
+    "pt": "\"Hã? O mestre do Mestre? Nós?\"",
+    "my": "\"ဟင်၊ ဆရာ့ဆရာလား။ ကျွန်တော်တို့လား။\"",
+    "th": "\"เอ๊ะ ครูของอาจารย์หรือครับ? พวกเราน่ะหรือ?\"",
+    "si": "\"ආ, ගුරුතුමාගේ ගුරුවරයාද? අපිද?\""
+   },
+   "grammarNote": {
+    "vi": "「えっ」= hả (ngạc nhiên). 「ぼくたち」= chúng tôi (nam, thân mật).",
+    "en": "えっ = \"huh?\" (surprise). ぼくたち = \"we\" (male, casual).",
+    "zh-Hans": "「えっ」＝啊（惊讶）。「ぼくたち」＝我们（男性）。",
+    "zh-Hant": "「えっ」＝啊。「ぼくたち」＝我們。",
+    "ko": "「えっ」= 네?(놀람). 「ぼくたち」= 저희.",
+    "tl": "えっ = ha?; ぼくたち = kami.",
+    "ne": "「えっ」= ए? 「ぼくたち」= हामी।",
+    "id": "えっ = eh?; ぼくたち = kami.",
+    "pt": "えっ = hã?; ぼくたち = nós.",
+    "my": "「えっ」= ဟင်။ 「ぼくたち」= ကျွန်တော်တို့။",
+    "th": "「えっ」= เอ๊ะ 「ぼくたち」= พวกเรา",
+    "si": "えっ = \"ආ?\" (පුදුමය). ぼくたち = \"අපි\" (පිරිමි, අවිධිමත්)."
+   },
+   "vocab": [],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=142.36,145.51",
+   "t": [
+    142.36,
+    145.51
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「いい人を見たら、まねをする。」",
+   "furigana": [
+    {
+     "surface": "「いい",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "たら、まねをする。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Ii hito o mitara, mane o suru.”",
+   "translations": {
+    "vi": "\"Thấy người tốt thì bắt chước.\"",
+    "en": "\"When you see a good person, imitate them.\"",
+    "zh-Hans": "\"看到好的人，就向他学习。\"",
+    "zh-Hant": "「看到好的人，就向他學習。」",
+    "ko": "\"좋은 사람을 보면 따라 한다.\"",
+    "tl": "\"Kapag nakakita ng mabuting tao, gayahin mo.\"",
+    "ne": "\"राम्रो मान्छे देखे उसको सिको गर।\"",
+    "id": "\"Kalau melihat orang baik, tirulah.\"",
+    "pt": "\"Ao ver alguém bom, imite-o.\"",
+    "my": "\"ကောင်းတဲ့လူကို မြင်ရင် အတုယူ။\"",
+    "th": "\"เห็นคนดี ก็ทำตาม\"",
+    "si": "\"හොඳ කෙනෙක්ව දැක්කාම, එයාව අනුකරණය කරනවා.\""
+   },
+   "grammarNote": {
+    "vi": "「〜たら」= khi … thì. 「まねをする」= bắt chước.",
+    "en": "〜たら = \"when …\". まねをする = \"to imitate\".",
+    "zh-Hans": "「〜たら」＝……的话。「まねをする」＝模仿。",
+    "zh-Hant": "「〜たら」＝……的話。「まねをする」＝模仿。",
+    "ko": "「〜たら」= …하면. 「まねをする」= 흉내 내다.",
+    "tl": "〜たら = kapag; まねをする = gayahin.",
+    "ne": "「〜たら」= भने। 「まねをする」= सिको गर्नु।",
+    "id": "〜たら = kalau; まねをする = meniru.",
+    "pt": "〜たら = quando; まねをする = imitar.",
+    "my": "「〜たら」= ရင်။ 「まねをする」= အတုယူသည်။",
+    "th": "「〜たら」= ถ้า 「まねをする」= เลียนแบบ",
+    "si": "〜たら = \"~ කළාම\". まねをする = \"අනුකරණය කරනවා\"."
+   },
+   "vocab": [
+    {
+     "word": "まね",
+     "reading": "まね",
+     "meanings": {
+      "vi": "bắt chước",
+      "en": "imitation",
+      "zh-Hans": "模仿",
+      "zh-Hant": "模仿",
+      "ko": "흉내",
+      "tl": "gaya",
+      "ne": "सिको",
+      "id": "tiruan",
+      "pt": "imitação",
+      "my": "အတုယူခြင်း",
+      "th": "การเลียนแบบ",
+      "si": "අනුකරණය"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=146.41,148.93",
+   "t": [
+    146.41,
+    148.93
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「よくない人を見たら、自分にも同じところがないか考える。」",
+   "furigana": [
+    {
+     "surface": "「よくない",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "見",
+     "reading": "み"
+    },
+    {
+     "surface": "たら、",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "にも",
+     "reading": ""
+    },
+    {
+     "surface": "同",
+     "reading": "おな"
+    },
+    {
+     "surface": "じところがないか",
+     "reading": ""
+    },
+    {
+     "surface": "考",
+     "reading": "かんが"
+    },
+    {
+     "surface": "える。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Yokunai hito o mitara, jibun ni mo onaji tokoro ga nai ka kangaeru.”",
+   "translations": {
+    "vi": "\"Thấy người không tốt thì tự xem mình có điểm giống vậy không.\"",
+    "en": "\"When you see someone bad, ask yourself whether you have the same fault.\"",
+    "zh-Hans": "\"看到不好的人，就反省自己是否也有同样的地方。\"",
+    "zh-Hant": "「看到不好的人，就反省自己是否也有同樣的地方。」",
+    "ko": "\"좋지 않은 사람을 보면 나에게도 같은 점이 없는지 생각한다.\"",
+    "tl": "\"Kapag nakakita ng hindi mabuti, tingnan kung ganoon ka rin.\"",
+    "ne": "\"नराम्रो मान्छे देखे आफूमा पनि त्यस्तै कुरा छ कि सोच।\"",
+    "id": "\"Kalau melihat orang tidak baik, pikirkan apakah kamu juga punya sifat itu.\"",
+    "pt": "\"Ao ver alguém mau, pense se você não tem o mesmo defeito.\"",
+    "my": "\"မကောင်းတဲ့လူကို မြင်ရင် ကိုယ့်မှာလည်း အဲဒီလို ရှိသလား စဉ်းစား။\"",
+    "th": "\"เห็นคนไม่ดี ก็คิดดูว่าตัวเองมีจุดแบบนั้นไหม\"",
+    "si": "\"නරක කෙනෙක්ව දැක්කාම, තමන්ටත් ඒ දේම නැද්ද කියලා හිතනවා.\""
+   },
+   "grammarNote": {
+    "vi": "「〜ないか考える」= suy nghĩ xem có … không. 「同じところ」= điểm giống nhau.",
+    "en": "〜ないか考える = \"consider whether there might be …\". 同じところ = \"the same point\".",
+    "zh-Hans": "「〜ないか考える」＝想想有没有……「同じところ」＝相同之处。",
+    "zh-Hant": "「〜ないか考える」＝想想有沒有……",
+    "ko": "「〜ないか考える」= …없는지 생각하다.",
+    "tl": "〜ないか考える = isipin kung ….",
+    "ne": "「〜ないか考える」= छ कि सोच्नु।",
+    "id": "〜ないか考える = pikirkan apakah ….",
+    "pt": "〜ないか考える = pensar se ….",
+    "my": "「〜ないか考える」= ရှိသလား စဉ်းစားသည်။",
+    "th": "「〜ないか考える」= คิดว่ามี … ไหม",
+    "si": "〜ないか考える = \"~ නැද්ද කියලා හිතනවා\". 同じところ = \"ඒ දේම, ඒ ලක්ෂණයම\"."
+   },
+   "vocab": [
+    {
+     "word": "考える",
+     "reading": "かんがえる",
+     "meanings": {
+      "vi": "suy nghĩ",
+      "en": "to think",
+      "zh-Hans": "思考",
+      "zh-Hant": "思考",
+      "ko": "생각하다",
+      "tl": "isipin",
+      "ne": "सोच्नु",
+      "id": "berpikir",
+      "pt": "pensar",
+      "my": "စဉ်းစားသည်",
+      "th": "คิด",
+      "si": "සිතීම, කල්පනා කිරීම"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=149.53,154.7",
+   "t": [
+    149.53,
+    154.7
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「だから、だれでも先生になるんだよ。」",
+   "furigana": [
+    {
+     "surface": "「だから、だれでも",
+     "reading": ""
+    },
+    {
+     "surface": "先生",
+     "reading": "せんせい"
+    },
+    {
+     "surface": "になるんだよ。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Dakara, dare demo sensei ni naru n da yo.”",
+   "translations": {
+    "vi": "\"Cho nên, ai cũng có thể là thầy của mình.\"",
+    "en": "\"So anyone can become your teacher.\"",
+    "zh-Hans": "\"所以，谁都可以成为老师。\"",
+    "zh-Hant": "「所以，誰都可以成為老師。」",
+    "ko": "\"그러니 누구든 스승이 되는 거란다.\"",
+    "tl": "\"Kaya, kahit sino ay puwedeng maging guro mo.\"",
+    "ne": "\"त्यसैले जो पनि गुरु बन्छ।\"",
+    "id": "\"Jadi, siapa pun bisa menjadi guru.\"",
+    "pt": "\"Por isso, qualquer um pode ser seu mestre.\"",
+    "my": "\"ဒါကြောင့် ဘယ်သူမဆို ဆရာ ဖြစ်နိုင်တယ်။\"",
+    "th": "\"ดังนั้น ใครก็เป็นครูได้\"",
+    "si": "\"ඉතින්, ඕනෑම කෙනෙක් ඔයාගේ ගුරුවරයා වෙනවා.\""
+   },
+   "grammarNote": {
+    "vi": "「だれでも」= bất cứ ai. 「〜んだよ」= giải thích nhẹ nhàng.",
+    "en": "だれでも = \"anyone\". 〜んだよ = a gentle explanation.",
+    "zh-Hans": "「だれでも」＝无论谁。",
+    "zh-Hant": "「だれでも」＝無論誰。",
+    "ko": "「だれでも」= 누구든지.",
+    "tl": "だれでも = kahit sino.",
+    "ne": "「だれでも」= जो पनि।",
+    "id": "だれでも = siapa pun.",
+    "pt": "だれでも = qualquer um.",
+    "my": "「だれでも」= ဘယ်သူမဆို။",
+    "th": "「だれでも」= ใครก็ได้",
+    "si": "だれでも = \"ඕනෑම කෙනෙක්\". 〜んだよ = මෘදු පැහැදිලි කිරීමක්."
+   },
+   "vocab": [],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=155.3,158.92",
+   "t": [
+    155.3,
+    158.92
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "子路は、自分の失敗もよく話す人になりました。",
+   "furigana": [
+    {
+     "surface": "子路",
+     "reading": "しろ"
+    },
+    {
+     "surface": "は、",
+     "reading": ""
+    },
+    {
+     "surface": "自分",
+     "reading": "じぶん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "失敗",
+     "reading": "しっぱい"
+    },
+    {
+     "surface": "もよく",
+     "reading": ""
+    },
+    {
+     "surface": "話",
+     "reading": "はな"
+    },
+    {
+     "surface": "す",
+     "reading": ""
+    },
+    {
+     "surface": "人",
+     "reading": "ひと"
+    },
+    {
+     "surface": "になりました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shiro wa, jibun no shippai mo yoku hanasu hito ni narimashita.",
+   "translations": {
+    "vi": "Tử Lộ trở thành người hay kể cả những thất bại của chính mình.",
+    "en": "Zilu became someone who often talked about his own failures too.",
+    "zh-Hans": "子路变成了一个常常谈起自己失败的人。",
+    "zh-Hant": "子路變成了一個常常談起自己失敗的人。",
+    "ko": "자로는 자신의 실패도 자주 이야기하는 사람이 되었습니다.",
+    "tl": "Naging taong madalas magkuwento si Zilu ng sarili niyang kabiguan.",
+    "ne": "जिलु आफ्ना असफलता पनि खुलेर भन्ने मान्छे बने।",
+    "id": "Zilu menjadi orang yang sering menceritakan kegagalannya sendiri.",
+    "pt": "Zilu passou a falar muito também dos próprios fracassos.",
+    "my": "ဇီလူဟာ ကိုယ့်ရဲ့ ကျရှုံးမှုတွေကိုလည်း မကြာခဏ ပြောပြတတ်တဲ့သူ ဖြစ်လာသည်။",
+    "th": "จื่อลู่กลายเป็นคนที่เล่าความผิดพลาดของตัวเองบ่อย ๆ",
+    "si": "ස්ලූ තමන්ගේ වැරදි ගැනත් නිතර කතා කරන කෙනෙක් වුණා."
+   },
+   "grammarNote": {
+    "vi": "「失敗」= thất bại. 「〜も」= cả … (không chỉ thành công mà cả thất bại).",
+    "en": "失敗 = \"failure\". 〜も = \"also\" (not only successes, but failures too).",
+    "zh-Hans": "「失敗」＝失败。「〜も」＝也。",
+    "zh-Hant": "「失敗」＝失敗。「〜も」＝也。",
+    "ko": "「失敗」= 실패.",
+    "tl": "失敗 = kabiguan.",
+    "ne": "「失敗」= असफलता।",
+    "id": "失敗 = kegagalan.",
+    "pt": "失敗 = fracasso.",
+    "my": "「失敗」= ကျရှုံးမှု။",
+    "th": "「失敗」= ความล้มเหลว",
+    "si": "失敗 = \"වැරැද්ද, අසාර්ථකත්වය\". 〜も = \"~ ත්\" (සාර්ථකත්වය විතරක් නෙවෙයි, වැරදිත්)."
+   },
+   "vocab": [
+    {
+     "word": "失敗",
+     "reading": "しっぱい",
+     "meanings": {
+      "vi": "thất bại",
+      "en": "failure",
+      "zh-Hans": "失败",
+      "zh-Hant": "失敗",
+      "ko": "실패",
+      "tl": "kabiguan",
+      "ne": "असफलता",
+      "id": "kegagalan",
+      "pt": "fracasso",
+      "my": "ကျရှုံးမှု",
+      "th": "ความล้มเหลว",
+      "si": "අසාර්ථකත්වය"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=159.82,164.11",
+   "t": [
+    159.82,
+    164.11
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "あるとき、子路は大きなまちがいをして、しょんぼりしていました。",
+   "furigana": [
+    {
+     "surface": "あるとき、",
+     "reading": ""
+    },
+    {
+     "surface": "子路",
+     "reading": "しろ"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "大",
+     "reading": "おお"
+    },
+    {
+     "surface": "きなまちがいをして、しょんぼりしていました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Aru toki, shiro wa ookina machigai o shite, shonbori shite imashita.",
+   "translations": {
+    "vi": "Có lần, Tử Lộ mắc một sai lầm lớn và buồn xo.",
+    "en": "Once, Zilu made a big mistake and was very downcast.",
+    "zh-Hans": "有一次，子路犯了一个大错，垂头丧气。",
+    "zh-Hant": "有一次，子路犯了一個大錯，垂頭喪氣。",
+    "ko": "한번은 자로가 큰 실수를 하고 풀이 죽어 있었습니다.",
+    "tl": "Minsan, nakagawa si Zilu ng malaking pagkakamali at nanlumo.",
+    "ne": "एक पटक जिलुले ठूलो गल्ती गरे र खिन्न भए।",
+    "id": "Suatu kali Zilu membuat kesalahan besar dan murung.",
+    "pt": "Certa vez, Zilu cometeu um grande erro e ficou abatido.",
+    "my": "တစ်ခါ ဇီလူဟာ အမှားကြီး လုပ်မိပြီး စိတ်ဓာတ်ကျနေသည်။",
+    "th": "ครั้งหนึ่ง จื่อลู่ทำผิดครั้งใหญ่และซึมเศร้า",
+    "si": "එක වතාවක්, ස්ලූ ලොකු වැරැද්දක් කරලා, හොඳටම හිත වැටිලා හිටියා."
+   },
+   "grammarNote": {
+    "vi": "「しょんぼり」= buồn xo, ủ rũ (từ tượng thái).",
+    "en": "しょんぼり = \"dejected, downcast\" (a mimetic word).",
+    "zh-Hans": "「しょんぼり」＝垂头丧气（拟态词）。",
+    "zh-Hant": "「しょんぼり」＝垂頭喪氣。",
+    "ko": "「しょんぼり」= 풀이 죽다(의태어).",
+    "tl": "しょんぼり = nanlumo.",
+    "ne": "「しょんぼり」= खिन्न।",
+    "id": "しょんぼり = murung.",
+    "pt": "しょんぼり = abatido.",
+    "my": "「しょんぼり」= စိတ်ဓာတ်ကျ။",
+    "th": "「しょんぼり」= ซึม",
+    "si": "しょんぼり = \"හිත වැටිලා, අසහනයෙන්\" (අනුකරණ වචනයක්)."
+   },
+   "vocab": [
+    {
+     "word": "まちがい",
+     "reading": "まちがい",
+     "meanings": {
+      "vi": "sai lầm",
+      "en": "mistake",
+      "zh-Hans": "错误",
+      "zh-Hant": "錯誤",
+      "ko": "실수",
+      "tl": "pagkakamali",
+      "ne": "गल्ती",
+      "id": "kesalahan",
+      "pt": "erro",
+      "my": "အမှား",
+      "th": "ความผิดพลาด",
+      "si": "වැරැද්ද"
+     },
+     "level": "N3"
+    },
+    {
+     "word": "しょんぼり",
+     "reading": "しょんぼり",
+     "meanings": {
+      "vi": "buồn xo",
+      "en": "dejected",
+      "zh-Hans": "垂头丧气",
+      "zh-Hant": "垂頭喪氣",
+      "ko": "풀이 죽은",
+      "tl": "nanlumo",
+      "ne": "खिन्न",
+      "id": "murung",
+      "pt": "abatido",
+      "my": "စိတ်ဓာတ်ကျ",
+      "th": "ซึมเศร้า",
+      "si": "හිත වැටුණු, අසහනයෙන්"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=164.71,170.11",
+   "t": [
+    164.71,
+    170.11
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「まちがえることは、悪いことじゃない。」",
+   "furigana": [
+    {
+     "surface": "「まちがえることは、",
+     "reading": ""
+    },
+    {
+     "surface": "悪",
+     "reading": "わる"
+    },
+    {
+     "surface": "いことじゃない。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Machigaeru koto wa, warui koto janai.”",
+   "translations": {
+    "vi": "\"Sai thì không phải là điều xấu.\"",
+    "en": "\"Making mistakes is not a bad thing.\"",
+    "zh-Hans": "\"犯错并不是坏事。\"",
+    "zh-Hant": "「犯錯並不是壞事。」",
+    "ko": "\"틀리는 것은 나쁜 게 아니야.\"",
+    "tl": "\"Hindi masama ang magkamali.\"",
+    "ne": "\"गल्ती गर्नु नराम्रो होइन।\"",
+    "id": "\"Berbuat salah itu bukan hal buruk.\"",
+    "pt": "\"Errar não é ruim.\"",
+    "my": "\"မှားတာဟာ မကောင်းတာ မဟုတ်ဘူး။\"",
+    "th": "\"การทำผิดไม่ใช่เรื่องเลว\"",
+    "si": "\"වැරදීම නරක දෙයක් නෙවෙයි.\""
+   },
+   "grammarNote": {
+    "vi": "「まちがえる」= làm sai, nhầm (động từ). 「〜じゃない」= không phải là … (khẩu ngữ của ではない).",
+    "en": "まちがえる = \"to make a mistake\" (verb). 〜じゃない = casual ではない \"is not\".",
+    "zh-Hans": "「まちがえる」＝弄错。「〜じゃない」＝不是。",
+    "zh-Hant": "「まちがえる」＝弄錯。",
+    "ko": "「まちがえる」= 틀리다. 「〜じゃない」= 아니다.",
+    "tl": "まちがえる = magkamali.",
+    "ne": "「まちがえる」= गल्ती गर्नु।",
+    "id": "まちがえる = salah.",
+    "pt": "まちがえる = errar.",
+    "my": "「まちがえる」= မှားသည်။",
+    "th": "「まちがえる」= ทำผิด",
+    "si": "まちがえる = \"වැරදිනවා\" (ක්‍රියාව). 〜じゃない = ではない හි අවිධිමත් රූපය \"~ නෙවෙයි\"."
+   },
+   "vocab": [
+    {
+     "word": "まちがえる",
+     "reading": "まちがえる",
+     "meanings": {
+      "vi": "làm sai",
+      "en": "to make a mistake",
+      "zh-Hans": "弄错",
+      "zh-Hant": "弄錯",
+      "ko": "틀리다",
+      "tl": "magkamali",
+      "ne": "गल्ती गर्नु",
+      "id": "salah",
+      "pt": "errar",
+      "my": "မှားသည်",
+      "th": "ทำผิด",
+      "si": "වැරදීම"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=171.01,173.95",
+   "t": [
+    171.01,
+    173.95
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "「まちがえたのに直さない。それが本当のまちがいだよ。」",
+   "furigana": [
+    {
+     "surface": "「まちがえたのに",
+     "reading": ""
+    },
+    {
+     "surface": "直",
+     "reading": "なお"
+    },
+    {
+     "surface": "さない。それが",
+     "reading": ""
+    },
+    {
+     "surface": "本当",
+     "reading": "ほんとう"
+    },
+    {
+     "surface": "のまちがいだよ。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Machigaeta noni naosanai. Sore ga hontou no machigai da yo.”",
+   "translations": {
+    "vi": "\"Sai mà không sửa. Đó mới là sai lầm thật sự.\"",
+    "en": "\"To make a mistake and not correct it — that is the real mistake.\"",
+    "zh-Hans": "\"过而不改，是谓过矣。\"",
+    "zh-Hant": "「過而不改，是謂過矣。」",
+    "ko": "\"틀렸는데 고치지 않는 것. 그것이 진짜 실수란다.\"",
+    "tl": "\"Ang magkamali at hindi itama — iyan ang tunay na pagkakamali.\"",
+    "ne": "\"गल्ती गरेर पनि नसुधार्नु — त्यो नै साँचो गल्ती हो।\"",
+    "id": "\"Salah tapi tidak diperbaiki — itulah kesalahan sejati.\"",
+    "pt": "\"Errar e não corrigir — esse é o verdadeiro erro.\"",
+    "my": "\"မှားပြီး မပြင်တာ — အဲဒါက တကယ့် အမှားပဲ။\"",
+    "th": "\"ผิดแล้วไม่แก้ นั่นแหละคือความผิดที่แท้จริง\"",
+    "si": "\"වැරදිලත් හදාගන්නේ නැත්නම්, ඒක තමයි ඇත්ත වැරැද්ද.\""
+   },
+   "grammarNote": {
+    "vi": "Câu 過而不改、是謂過矣 (衛霊公篇). 「〜のに」= vậy mà, dù … mà (trái với mong đợi).",
+    "en": "From the Analects: 過而不改、是謂過矣. 〜のに = \"even though …\" (contrary to expectation).",
+    "zh-Hans": "出自《论语·卫灵公》。「〜のに」＝明明……却……",
+    "zh-Hant": "出自《論語·衛靈公》。「〜のに」＝明明……卻……",
+    "ko": "『논어』 위령공편. 「〜のに」= …인데도.",
+    "tl": "Mula sa Analects. 〜のに = kahit na.",
+    "ne": "\"एनालेक्ट्स\"बाट। 「〜のに」= तैपनि।",
+    "id": "Dari Analek. 〜のに = padahal.",
+    "pt": "Dos Analectos. 〜のに = mesmo que.",
+    "my": "\"Analects\" မှ။ 「〜のに」= ပေမဲ့။",
+    "th": "จาก \"หลุนอวี่\" 「〜のに」= ทั้งที่",
+    "si": "ඇනලෙක්ට්ස් වලින්: 過而不改、是謂過矣. 〜のに = \"~ වුණත්\" (බලාපොරොත්තුවට පටහැනිව)."
+   },
+   "vocab": [
+    {
+     "word": "直す",
+     "reading": "なおす",
+     "meanings": {
+      "vi": "sửa",
+      "en": "to fix",
+      "zh-Hans": "改正",
+      "zh-Hant": "改正",
+      "ko": "고치다",
+      "tl": "itama",
+      "ne": "सुधार्नु",
+      "id": "memperbaiki",
+      "pt": "corrigir",
+      "my": "ပြင်သည်",
+      "th": "แก้ไข",
+      "si": "හදනවා, නිවැරදි කරනවා"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=174.55,178.97",
+   "t": [
+    174.55,
+    178.97
+   ],
+   "voice": "ja-JP-Neural2-C"
+  },
+  {
+   "ja": "子路は顔を上げて、もう一度やり直しました。",
+   "furigana": [
+    {
+     "surface": "子路",
+     "reading": "しろ"
+    },
+    {
+     "surface": "は",
+     "reading": ""
+    },
+    {
+     "surface": "顔",
+     "reading": "かお"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "上",
+     "reading": "あ"
+    },
+    {
+     "surface": "げて、もう",
+     "reading": ""
+    },
+    {
+     "surface": "一度",
+     "reading": "いちど"
+    },
+    {
+     "surface": "やり",
+     "reading": ""
+    },
+    {
+     "surface": "直",
+     "reading": "なお"
+    },
+    {
+     "surface": "しました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Shiro wa kao o agete, mouichido yarinaoshimashita.",
+   "translations": {
+    "vi": "Tử Lộ ngẩng đầu lên và làm lại thêm một lần nữa.",
+    "en": "Zilu raised his head and tried once more.",
+    "zh-Hans": "子路抬起头，又重新来了一次。",
+    "zh-Hant": "子路抬起頭，又重新來了一次。",
+    "ko": "자로는 고개를 들고 다시 한번 해 보았습니다.",
+    "tl": "Itinaas ni Zilu ang ulo at sinubukang muli.",
+    "ne": "जिलुले शिर उठाए र फेरि एक पटक गरे।",
+    "id": "Zilu mengangkat kepala dan mencoba sekali lagi.",
+    "pt": "Zilu levantou a cabeça e tentou de novo.",
+    "my": "ဇီလူ ခေါင်းမော့ပြီး နောက်တစ်ခါ ပြန်လုပ်သည်။",
+    "th": "จื่อลู่เงยหน้าขึ้นแล้วลองทำใหม่อีกครั้ง",
+    "si": "ස්ලූ ඔළුව උස්සලා, ආයෙත් සැරයක් උත්සාහ කළා."
+   },
+   "grammarNote": {
+    "vi": "「顔を上げる」= ngẩng mặt lên. 「やり直す」= làm lại (động từ + 直す = làm lại cho đúng).",
+    "en": "顔を上げる = \"to look up\". やり直す = \"to redo\" (verb + 直す = \"do over\").",
+    "zh-Hans": "「顔を上げる」＝抬起头。「やり直す」＝重做。",
+    "zh-Hant": "「顔を上げる」＝抬起頭。「やり直す」＝重做。",
+    "ko": "「顔を上げる」= 고개를 들다. 「やり直す」= 다시 하다.",
+    "tl": "顔を上げる = tumingala; やり直す = ulitin.",
+    "ne": "「顔を上げる」= शिर उठाउनु। 「やり直す」= फेरि गर्नु।",
+    "id": "顔を上げる = mengangkat wajah; やり直す = mengulang.",
+    "pt": "顔を上げる = erguer o rosto; やり直す = refazer.",
+    "my": "「顔を上げる」= ခေါင်းမော့သည်။ 「やり直す」= ပြန်လုပ်သည်။",
+    "th": "「顔を上げる」= เงยหน้า 「やり直す」= ทำใหม่",
+    "si": "顔を上げる = \"ඔළුව උස්සනවා\". やり直す = \"ආයෙ කරනවා\" (ක්‍රියාව + 直す = \"ආයෙ ~\")."
+   },
+   "vocab": [
+    {
+     "word": "やり直す",
+     "reading": "やりなおす",
+     "meanings": {
+      "vi": "làm lại",
+      "en": "to redo",
+      "zh-Hans": "重做",
+      "zh-Hant": "重做",
+      "ko": "다시 하다",
+      "tl": "ulitin",
+      "ne": "फेरि गर्नु",
+      "id": "mengulang",
+      "pt": "refazer",
+      "my": "ပြန်လုပ်သည်",
+      "th": "ทำใหม่",
+      "si": "ආයෙ කරනවා"
+     },
+     "level": "N3"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=179.87,183.87",
+   "t": [
+    179.87,
+    183.87
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "孔子が亡くなったあと、弟子たちは先生の言葉を集めました。",
+   "furigana": [
+    {
+     "surface": "孔子",
+     "reading": "こうし"
+    },
+    {
+     "surface": "が",
+     "reading": ""
+    },
+    {
+     "surface": "亡",
+     "reading": "な"
+    },
+    {
+     "surface": "くなったあと、",
+     "reading": ""
+    },
+    {
+     "surface": "弟子",
+     "reading": "でし"
+    },
+    {
+     "surface": "たちは",
+     "reading": ""
+    },
+    {
+     "surface": "先生",
+     "reading": "せんせい"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "言葉",
+     "reading": "ことば"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "集",
+     "reading": "あつ"
+    },
+    {
+     "surface": "めました。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Koushi ga nakunatta ato, deshitachi wa sensei no kotoba o atsumemashita.",
+   "translations": {
+    "vi": "Sau khi Khổng Tử mất, các học trò đã gom góp những lời dạy của thầy.",
+    "en": "After Confucius died, his students gathered their teacher's words.",
+    "zh-Hans": "孔子去世后，弟子们收集了老师的话。",
+    "zh-Hant": "孔子去世後，弟子們收集了老師的話。",
+    "ko": "공자가 세상을 떠난 뒤 제자들은 스승의 말을 모았습니다.",
+    "tl": "Nang pumanaw si Confucius, tinipon ng mga alagad ang kanyang mga salita.",
+    "ne": "कन्फ्युसियसको मृत्युपछि चेलाहरूले गुरुका कुरा जम्मा गरे।",
+    "id": "Setelah Konfusius wafat, para murid mengumpulkan kata-kata gurunya.",
+    "pt": "Depois que Confúcio morreu, os discípulos reuniram as palavras do mestre.",
+    "my": "ကွန်ဖြူးရှပ် ကွယ်လွန်ပြီးနောက် တပည့်တွေက ဆရာ့စကားတွေကို စုစည်းခဲ့သည်။",
+    "th": "หลังขงจื๊อเสียชีวิต เหล่าศิษย์ได้รวบรวมคำสอนของอาจารย์",
+    "si": "කොන්ෆියුසියස් මැරුණට පස්සේ, ශිෂ්‍යයෝ ගුරුතුමාගේ වචන එකතු කළා."
+   },
+   "grammarNote": {
+    "vi": "「〜たあと」= sau khi …. 「集める」= thu thập (tha động từ).",
+    "en": "〜たあと = \"after …\". 集める = \"to collect\" (transitive).",
+    "zh-Hans": "「〜たあと」＝……之后。「集める」＝收集。",
+    "zh-Hant": "「〜たあと」＝……之後。「集める」＝收集。",
+    "ko": "「〜たあと」= …한 뒤. 「集める」= 모으다.",
+    "tl": "〜たあと = pagkatapos; 集める = tipunin.",
+    "ne": "「〜たあと」= पछि। 「集める」= जम्मा गर्नु।",
+    "id": "〜たあと = setelah; 集める = mengumpulkan.",
+    "pt": "〜たあと = depois de; 集める = reunir.",
+    "my": "「〜たあと」= ပြီးနောက်။ 「集める」= စုသည်။",
+    "th": "「〜たあと」= หลังจาก 「集める」= รวบรวม",
+    "si": "〜たあと = \"~ කළාට පස්සේ\". 集める = \"එකතු කරනවා\" (සකර්මක)."
+   },
+   "vocab": [
+    {
+     "word": "集める",
+     "reading": "あつめる",
+     "meanings": {
+      "vi": "thu thập",
+      "en": "to collect",
+      "zh-Hans": "收集",
+      "zh-Hant": "收集",
+      "ko": "모으다",
+      "tl": "tipunin",
+      "ne": "जम्मा गर्नु",
+      "id": "mengumpulkan",
+      "pt": "reunir",
+      "my": "စုဆောင်းသည်",
+      "th": "รวบรวม",
+      "si": "එකතු කරනවා"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=184.47,189.86",
+   "t": [
+    184.47,
+    189.86
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "それが、『論語』という本です。",
+   "furigana": [
+    {
+     "surface": "それが、『",
+     "reading": ""
+    },
+    {
+     "surface": "論語",
+     "reading": "ろんご"
+    },
+    {
+     "surface": "』という",
+     "reading": ""
+    },
+    {
+     "surface": "本",
+     "reading": "ほん"
+    },
+    {
+     "surface": "です。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Sore ga, “Rongo” to iu hon desu.",
+   "translations": {
+    "vi": "Đó chính là cuốn sách \"Luận ngữ\".",
+    "en": "That is the book called the \"Analects\".",
+    "zh-Hans": "那就是《论语》这本书。",
+    "zh-Hant": "那就是《論語》這本書。",
+    "ko": "그것이 『논어』라는 책입니다.",
+    "tl": "Iyan ang aklat na \"Analects\".",
+    "ne": "त्यही हो \"एनालेक्ट्स\" नामको किताब।",
+    "id": "Itulah buku \"Analek\" (Lunyu).",
+    "pt": "Esse é o livro dos \"Analectos\".",
+    "my": "အဲဒါဟာ \"Analects (လွန်ယွီ)\" စာအုပ်ပဲ ဖြစ်သည်။",
+    "th": "นั่นคือหนังสือ \"หลุนอวี่\"",
+    "si": "ඒක තමයි \"ඇනලෙක්ට්ස්\" (ලුන්යු) කියන පොත."
+   },
+   "grammarNote": {
+    "vi": "『論語』(ろんご) = Luận ngữ. 論 = bàn luận, 語 = lời nói.",
+    "en": "論語 (rongo) = the Analects; 論 \"discuss\", 語 \"words\".",
+    "zh-Hans": "《论语》日语读作ろんご。",
+    "zh-Hant": "《論語》日語讀作ろんご。",
+    "ko": "『논어』 = ろんご.",
+    "tl": "論語 = ろんご.",
+    "ne": "論語 = ろんご।",
+    "id": "論語 = ろんご.",
+    "pt": "論語 = ろんご.",
+    "my": "論語 = ろんご။",
+    "th": "論語 อ่านว่า ろんご",
+    "si": "論語 (rongo) = ඇනලෙක්ට්ස්; 論 \"සාකච්ඡා කරනවා\", 語 \"වචන\"."
+   },
+   "vocab": [
+    {
+     "word": "論語",
+     "reading": "ろんご",
+     "meanings": {
+      "vi": "Luận ngữ",
+      "en": "the Analects",
+      "zh-Hans": "论语",
+      "zh-Hant": "論語",
+      "ko": "논어",
+      "tl": "Analects",
+      "ne": "एनालेक्ट्स",
+      "id": "Analek",
+      "pt": "Analectos",
+      "my": "Analects",
+      "th": "หลุนอวี่",
+      "si": "ඇනලෙක්ට්ස් (කොන්ෆියුසියස්ගේ කියමන්)"
+     },
+     "level": "N1"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=190.46,193.51",
+   "t": [
+    190.46,
+    193.51
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "本の最初には、こんな言葉があります。",
+   "furigana": [
+    {
+     "surface": "本",
+     "reading": "ほん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "最初",
+     "reading": "さいしょ"
+    },
+    {
+     "surface": "には、こんな",
+     "reading": ""
+    },
+    {
+     "surface": "言葉",
+     "reading": "ことば"
+    },
+    {
+     "surface": "があります。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Hon no saisho ni wa, konna kotoba ga arimasu.",
+   "translations": {
+    "vi": "Ở đầu sách có câu như thế này.",
+    "en": "At the very beginning of the book there are these words.",
+    "zh-Hans": "书的开头有这样一句话。",
+    "zh-Hant": "書的開頭有這樣一句話。",
+    "ko": "책의 맨 처음에는 이런 말이 있습니다.",
+    "tl": "Sa simula ng aklat, may ganitong mga salita.",
+    "ne": "किताबको सुरुमा यस्तो कुरा छ।",
+    "id": "Di awal buku ada kata-kata seperti ini.",
+    "pt": "No começo do livro há estas palavras.",
+    "my": "စာအုပ်ရဲ့ အစမှာ ဒီလို စကား ရှိသည်။",
+    "th": "ตอนต้นของหนังสือมีถ้อยคำเช่นนี้",
+    "si": "පොතේ මුලින්ම, මෙහෙම වචන තියෙනවා."
+   },
+   "grammarNote": {
+    "vi": "「最初」= đầu tiên, lúc đầu. 「こんな」= như thế này.",
+    "en": "最初 = \"the beginning\". こんな = \"like this\".",
+    "zh-Hans": "「最初」＝最开始。「こんな」＝这样的。",
+    "zh-Hant": "「最初」＝最開始。「こんな」＝這樣的。",
+    "ko": "「最初」= 처음. 「こんな」= 이런.",
+    "tl": "最初 = simula; こんな = ganito.",
+    "ne": "「最初」= सुरु। 「こんな」= यस्तो।",
+    "id": "最初 = awal; こんな = seperti ini.",
+    "pt": "最初 = começo; こんな = assim.",
+    "my": "「最初」= အစ။ 「こんな」= ဒီလို။",
+    "th": "「最初」= ตอนแรก 「こんな」= แบบนี้",
+    "si": "最初 = \"ආරම්භය\". こんな = \"මෙහෙම\"."
+   },
+   "vocab": [
+    {
+     "word": "最初",
+     "reading": "さいしょ",
+     "meanings": {
+      "vi": "đầu tiên",
+      "en": "beginning, first",
+      "zh-Hans": "最初",
+      "zh-Hant": "最初",
+      "ko": "처음",
+      "tl": "simula",
+      "ne": "सुरु",
+      "id": "awal",
+      "pt": "começo",
+      "my": "အစ",
+      "th": "แรก",
+      "si": "ආරම්භය, පළමු"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=194.11,197.85",
+   "t": [
+    194.11,
+    197.85
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "「学んだことを、ときどき復習する。なんと楽しいことだろう。」",
+   "furigana": [
+    {
+     "surface": "「",
+     "reading": ""
+    },
+    {
+     "surface": "学",
+     "reading": "まな"
+    },
+    {
+     "surface": "んだことを、ときどき",
+     "reading": ""
+    },
+    {
+     "surface": "復習",
+     "reading": "ふくしゅう"
+    },
+    {
+     "surface": "する。なんと",
+     "reading": ""
+    },
+    {
+     "surface": "楽",
+     "reading": "たの"
+    },
+    {
+     "surface": "しいことだろう。」",
+     "reading": ""
+    }
+   ],
+   "romaji": "“Manan da koto o, tokidoki fukushuu suru. Nanto tanoshii koto darou.”",
+   "translations": {
+    "vi": "\"Học rồi thỉnh thoảng ôn lại. Vui biết bao!\"",
+    "en": "\"To learn and from time to time review it — what a joy!\"",
+    "zh-Hans": "\"学而时习之，不亦说乎？\"",
+    "zh-Hant": "「學而時習之，不亦說乎？」",
+    "ko": "\"배운 것을 때때로 익힌다. 얼마나 즐거운가.\"",
+    "tl": "\"Matuto at paminsan-minsang balikan ito — anong saya!\"",
+    "ne": "\"सिकेको कुरा बेलाबेला दोहोर्‍याउनु — कति रमाइलो!\"",
+    "id": "\"Belajar lalu sesekali mengulanginya — betapa menyenangkan!\"",
+    "pt": "\"Aprender e de vez em quando rever — que alegria!\"",
+    "my": "\"သင်ထားတာကို ရံဖန်ရံခါ ပြန်လေ့ကျင့်တာ — ဘယ်လောက် ပျော်စရာကောင်းလိုက်သလဲ။\"",
+    "th": "\"เรียนแล้วหมั่นทบทวน ช่างน่ายินดีเสียนี่กระไร\"",
+    "si": "\"ඉගෙනගත්ත දේ, ඉඳලා හිටලා පුනරීක්ෂණය කරනවා. කොච්චර සතුටක්ද!\""
+   },
+   "grammarNote": {
+    "vi": "Câu mở đầu 学而篇: 学而時習之、不亦説乎. 「ときどき」= thỉnh thoảng. 「なんと〜だろう」= … biết bao (cảm thán).",
+    "en": "The opening line of the Analects. ときどき = \"sometimes\". なんと〜だろう = \"how …!\" (exclamation).",
+    "zh-Hans": "《论语》开篇。「なんと〜だろう」＝多么……啊。",
+    "zh-Hant": "《論語》開篇。「なんと〜だろう」＝多麼……啊。",
+    "ko": "『논어』 첫 구절. 「なんと〜だろう」= 얼마나 …인가.",
+    "tl": "Unang linya ng Analects. なんと〜だろう = anong ….",
+    "ne": "\"एनालेक्ट्स\"को पहिलो वाक्य। 「なんと〜だろう」= कति …!",
+    "id": "Kalimat pembuka Analek. なんと〜だろう = betapa ….",
+    "pt": "Abertura dos Analectos. なんと〜だろう = que ….",
+    "my": "\"Analects\" ၏ ပထမဝါကျ။ 「なんと〜だろう」= ဘယ်လောက် …။",
+    "th": "ประโยคแรกของ \"หลุนอวี่\" 「なんと〜だろう」= ช่าง … เสียนี่กระไร",
+    "si": "ඇනලෙක්ට්ස් හි ආරම්භක වාක්‍යය. ときどき = \"ඉඳලා හිටලා\". なんと〜だろう = \"කොච්චර ~ ද!\" (විස්මය)."
+   },
+   "vocab": [
+    {
+     "word": "復習",
+     "reading": "ふくしゅう",
+     "meanings": {
+      "vi": "ôn tập",
+      "en": "review",
+      "zh-Hans": "复习",
+      "zh-Hant": "複習",
+      "ko": "복습",
+      "tl": "balik-aral",
+      "ne": "दोहोर्‍याइ",
+      "id": "mengulang pelajaran",
+      "pt": "revisão",
+      "my": "ပြန်လေ့ကျင့်ခြင်း",
+      "th": "ทบทวน",
+      "si": "පුනරීක්ෂණය, ආයෙ පාඩම් කිරීම"
+     },
+     "level": "N4"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=198.45,204.09",
+   "t": [
+    198.45,
+    204.09
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "日本の子どもたちも、学校でこの言葉を習います。",
+   "furigana": [
+    {
+     "surface": "日本",
+     "reading": "にほん"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "子",
+     "reading": "こ"
+    },
+    {
+     "surface": "どもたちも、",
+     "reading": ""
+    },
+    {
+     "surface": "学校",
+     "reading": "がっこう"
+    },
+    {
+     "surface": "でこの",
+     "reading": ""
+    },
+    {
+     "surface": "言葉",
+     "reading": "ことば"
+    },
+    {
+     "surface": "を",
+     "reading": ""
+    },
+    {
+     "surface": "習",
+     "reading": "なら"
+    },
+    {
+     "surface": "います。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nihon no kodomotachi mo, gakkou de kono kotoba o naraimasu.",
+   "translations": {
+    "vi": "Trẻ em Nhật Bản cũng học câu này ở trường.",
+    "en": "Japanese children also learn these words at school.",
+    "zh-Hans": "日本的孩子们也在学校学这句话。",
+    "zh-Hant": "日本的孩子們也在學校學這句話。",
+    "ko": "일본 아이들도 학교에서 이 말을 배웁니다.",
+    "tl": "Natututuhan din ito ng mga batang Hapon sa paaralan.",
+    "ne": "जापानी बालबालिकाले पनि विद्यालयमा यो कुरा सिक्छन्।",
+    "id": "Anak-anak Jepang juga mempelajari kalimat ini di sekolah.",
+    "pt": "As crianças japonesas também aprendem essas palavras na escola.",
+    "my": "ဂျပန်ကလေးတွေလည်း ကျောင်းမှာ ဒီစကားကို သင်ကြသည်။",
+    "th": "เด็กญี่ปุ่นก็เรียนถ้อยคำนี้ที่โรงเรียน",
+    "si": "ජපන් ළමයිත් පාසලේදී මේ වචන ඉගෙන ගන්නවා."
+   },
+   "grammarNote": {
+    "vi": "「習う」= học (từ thầy, ở trường). Khác 学ぶ: 習う nhấn mạnh có người dạy.",
+    "en": "習う = \"to learn (from a teacher)\". Unlike 学ぶ, 習う stresses being taught.",
+    "zh-Hans": "「習う」＝跟老师学。",
+    "zh-Hant": "「習う」＝跟老師學。",
+    "ko": "「習う」= 배우다(가르침을 받아).",
+    "tl": "習う = matuto mula sa guro.",
+    "ne": "「習う」= सिक्नु (गुरुबाट)।",
+    "id": "習う = belajar dari guru.",
+    "pt": "習う = aprender com alguém.",
+    "my": "「習う」= သင်ယူသည် (ဆရာထံ)။",
+    "th": "「習う」= เรียน (จากครู)",
+    "si": "習う = \"(ගුරුවරයෙක්ගෙන්) ඉගෙන ගන්නවා\". 学ぶ මෙන් නොව, 習う උගන්වනු ලැබීම අවධාරණය කරනවා."
+   },
+   "vocab": [
+    {
+     "word": "習う",
+     "reading": "ならう",
+     "meanings": {
+      "vi": "học",
+      "en": "to learn (from someone)",
+      "zh-Hans": "学习",
+      "zh-Hant": "學習",
+      "ko": "배우다",
+      "tl": "matuto",
+      "ne": "सिक्नु",
+      "id": "belajar",
+      "pt": "aprender",
+      "my": "သင်ယူသည်",
+      "th": "เรียน",
+      "si": "(කෙනෙකුගෙන්) ඉගෙන ගන්නවා"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=204.69,209.29",
+   "t": [
+    204.69,
+    209.29
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  },
+  {
+   "ja": "二千五百年前の教室の声が、今も聞こえてくるようです。",
+   "furigana": [
+    {
+     "surface": "二千五百年",
+     "reading": "にせんごひゃくねん"
+    },
+    {
+     "surface": "前",
+     "reading": "まえ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "教室",
+     "reading": "きょうしつ"
+    },
+    {
+     "surface": "の",
+     "reading": ""
+    },
+    {
+     "surface": "声",
+     "reading": "こえ"
+    },
+    {
+     "surface": "が、",
+     "reading": ""
+    },
+    {
+     "surface": "今",
+     "reading": "いま"
+    },
+    {
+     "surface": "も",
+     "reading": ""
+    },
+    {
+     "surface": "聞",
+     "reading": "き"
+    },
+    {
+     "surface": "こえてくるようです。",
+     "reading": ""
+    }
+   ],
+   "romaji": "Nisengohyakunen mae no kyoushitsu no koe ga, ima mo kikoete kuru you desu.",
+   "translations": {
+    "vi": "Như thể tiếng nói từ lớp học 2.500 năm trước vẫn còn vọng đến hôm nay.",
+    "en": "It is as if voices from a classroom 2,500 years ago can still be heard today.",
+    "zh-Hans": "两千五百年前教室里的声音，仿佛至今还能听见。",
+    "zh-Hant": "兩千五百年前教室裡的聲音，彷彿至今還能聽見。",
+    "ko": "2,500년 전 교실의 목소리가 지금도 들려오는 듯합니다.",
+    "tl": "Para bang naririnig pa ngayon ang mga tinig mula sa silid-aralan 2,500 taon na ang nakalipas.",
+    "ne": "२५०० वर्षअघिको कक्षाको आवाज आज पनि सुनिँदै आएजस्तो छ।",
+    "id": "Seolah suara dari ruang kelas 2.500 tahun lalu masih terdengar sampai sekarang.",
+    "pt": "É como se as vozes de uma sala de aula de 2.500 anos atrás ainda se ouvissem hoje.",
+    "my": "လွန်ခဲ့တဲ့ နှစ် ၂၅၀၀ က စာသင်ခန်းရဲ့ အသံဟာ အခုထိ ကြားနေရသလိုပဲ။",
+    "th": "ราวกับเสียงจากห้องเรียนเมื่อ 2,500 ปีก่อน ยังคงได้ยินมาจนถึงวันนี้",
+    "si": "අවුරුදු දෙදහස් පන්සීයකට කලින් පන්ති කාමරයක කටහඬවල් අදත් ඇහෙනවා වගේ."
+   },
+   "grammarNote": {
+    "vi": "「〜ようです」= hình như, như thể …. 「聞こえてくる」= vọng đến tai (〜てくる: hướng về phía mình).",
+    "en": "〜ようです = \"it seems as if …\". 聞こえてくる = \"comes to be heard\" (〜てくる: toward us).",
+    "zh-Hans": "「〜ようです」＝好像……「聞こえてくる」＝传来。",
+    "zh-Hant": "「〜ようです」＝好像……「聞こえてくる」＝傳來。",
+    "ko": "「〜ようです」= …인 듯하다. 「聞こえてくる」= 들려오다.",
+    "tl": "〜ようです = para bang; 聞こえてくる = maririnig.",
+    "ne": "「〜ようです」= जस्तो छ। 「聞こえてくる」= सुनिँदै आउनु।",
+    "id": "〜ようです = seolah; 聞こえてくる = terdengar.",
+    "pt": "〜ようです = parece; 聞こえてくる = ouvir-se.",
+    "my": "「〜ようです」= သလိုပဲ။ 「聞こえてくる」= ကြားလာသည်။",
+    "th": "「〜ようです」= ราวกับ 「聞こえてくる」= ได้ยินมา",
+    "si": "〜ようです = \"~ වගේ\". 聞こえてくる = \"ඇහෙන්න එනවා\" (〜てくる: අප දෙසට)."
+   },
+   "vocab": [
+    {
+     "word": "教室",
+     "reading": "きょうしつ",
+     "meanings": {
+      "vi": "lớp học",
+      "en": "classroom",
+      "zh-Hans": "教室",
+      "zh-Hant": "教室",
+      "ko": "교실",
+      "tl": "silid-aralan",
+      "ne": "कक्षा",
+      "id": "ruang kelas",
+      "pt": "sala de aula",
+      "my": "စာသင်ခန်း",
+      "th": "ห้องเรียน",
+      "si": "පන්ති කාමරය"
+     },
+     "level": "N5"
+    }
+   ],
+   "audio": "/audio/life-rongo-1/chapter.mp3#t=209.89,215.28",
+   "t": [
+    209.89,
+    215.28
+   ],
+   "voice": "ja-JP-Chirp3-HD-Aoede"
+  }
+ ]
+}

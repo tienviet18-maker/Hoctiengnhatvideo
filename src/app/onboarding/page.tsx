@@ -3,19 +3,19 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useLang } from "../../components/LangProvider";
-import Paywall from "../../components/Paywall";
-import StoryCover from "../../components/StoryCover";
 import { LANGUAGE_CODES, LANGUAGE_NAMES, pickText } from "../../lib/i18n";
 import type { JlptLevel } from "../../lib/content-schema";
 import { PLACEMENT } from "../../lib/placement";
-import { recommendFirst } from "../../lib/shelves";
+import PLACEMENT_FURI from "../../lib/placement-furigana.generated.json";
+import Furigana from "../../components/Furigana";
+import type { FuriganaSegment } from "../../lib/content-schema";
 
 /**
  * Onboarding (docs/ux-plan.md A1), học cách Tadoku hỏi nhiều để cá nhân hoá, nhưng
  * MiraiGo nghe thử thật để xếp cấp và kết thúc bằng một truyện miễn phí vừa sức.
- * Bước: 0 chào + ngôn ngữ · 1 sở thích · 2 tự đánh giá · 3 nghe thử · 4 mục tiêu · 5 tên · 6 dựng kế hoạch · 7 kế hoạch
+ * Bước: 0 chào + ngôn ngữ · 1 sở thích · 2 tự đánh giá · 3 nghe thử · 4 mục tiêu · 5 tên · 6 dựng kế hoạch rồi vào thẳng trang chủ
  */
-const STEPS = 8;
+const STEPS = 7;
 const INTERESTS = ["anime", "mystery", "folktale", "rakugo", "literature", "life", "podcast"] as const;
 const SELF_LEVELS: JlptLevel[] = ["N5", "N4", "N3", "N2", "N1"];
 const GOALS = [5, 10, 15, 20];
@@ -32,7 +32,6 @@ export default function OnboardingPage() {
   const [heard, setHeard] = useState<Record<number, boolean>>({});
   const [goal, setGoal] = useState(10);
   const [when, setWhen] = useState<string[]>([]);
-  const [paywall, setPaywall] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   // Đang hoàn tất: không để effect "đã onboard thì về trang chủ" đè lên điều hướng của finish()
   const finishingRef = useRef(false);
@@ -42,12 +41,6 @@ export default function OnboardingPage() {
     if (ready && profile.onboarded && !finishingRef.current) router.replace("/");
   }, [ready, profile.onboarded, router]);
 
-  // Bước dựng kế hoạch: chờ ngắn cho cảm giác "đang chọn riêng cho bạn"
-  useEffect(() => {
-    if (step !== 6) return;
-    const t = window.setTimeout(() => setStep(7), 1600);
-    return () => window.clearTimeout(t);
-  }, [step]);
 
   // Cấp gợi ý: câu khó nhất còn hiểu trong bài nghe; tự đánh giá cao hơn N3 thì giữ.
   const level: JlptLevel = useMemo(() => {
@@ -65,16 +58,25 @@ export default function OnboardingPage() {
     return lv;
   }, [heard, selfLevel]);
 
-  const firstStory = useMemo(() => recommendFirst(level, interests), [interests, level]);
-
   const save = () =>
     updateProfile({ name: name.trim(), onboarded: true, level, interests, dailyMinutes: goal, listenWhen: when });
 
   const finish = () => {
     finishingRef.current = true;
     save();
-    router.replace(firstStory ? `/read/${firstStory.id}` : "/");
+    router.replace("/");
   };
+  const finishLater = useRef(finish);
+  useEffect(() => {
+    finishLater.current = finish;
+  });
+
+  // Việt 26/11: bỏ màn "Kế hoạch của bạn". Bước 6 chờ ngắn rồi vào thẳng trang chủ để tự chọn truyện/video.
+  useEffect(() => {
+    if (step !== 6) return;
+    const t = window.setTimeout(() => finishLater.current(), 1200);
+    return () => window.clearTimeout(t);
+  }, [step]);
 
   const play = (src: string) => {
     if (!audioRef.current) audioRef.current = new Audio();
@@ -200,7 +202,7 @@ export default function OnboardingPage() {
                 </div>
                 {heard[i] !== undefined && (
                   <div style={{ marginTop: 10 }}>
-                    <div lang="ja" className="jp" style={{ fontSize: 15, fontWeight: 600 }}>{p.ja}</div>
+                    <div lang="ja" className="jp" style={{ fontSize: 15, fontWeight: 600, lineHeight: 1.9 }}>{(PLACEMENT_FURI as FuriganaSegment[][])[i] ? <Furigana segments={(PLACEMENT_FURI as FuriganaSegment[][])[i]} /> : p.ja}</div>
                     <div style={{ fontSize: 13, color: "var(--muted)", marginTop: 2 }}>{pickText(p.translations, lang)}</div>
                   </div>
                 )}
@@ -258,36 +260,6 @@ export default function OnboardingPage() {
         </div>
       )}
 
-      {step === 7 && (
-        <>
-          <h1 style={h1}>
-            {o.planTitle}
-            {name.trim() ? `, ${name.trim()}` : ""}
-          </h1>
-          <div className="card" style={{ marginTop: 16, display: "flex", flexDirection: "column", gap: 8, fontSize: 15, fontWeight: 600 }}>
-            <span>✓ {o.planLevel.replace("{level}", level)}</span>
-            <span>✓ {o.planGoal.replace("{n}", String(goal))}</span>
-            {interests.length > 0 && <span>✓ {interests.map((k) => o[`int_${k as "anime"}`]).join(" · ")}</span>}
-          </div>
-          {firstStory && (
-            <>
-              <h2 style={{ fontSize: 17, fontWeight: 700, marginTop: 22 }}>{o.planFirst}</h2>
-              <div className="card" style={{ marginTop: 10, display: "flex", gap: 14, alignItems: "center" }}>
-                <StoryCover story={firstStory} title={pickText(firstStory.titles, lang)} width={72} />
-                <span style={{ fontSize: 15, fontWeight: 700, lineHeight: 1.35 }}>{pickText(firstStory.titles, lang)}</span>
-              </div>
-            </>
-          )}
-          <button type="button" className="btn-primary" style={{ marginTop: 22 }} onClick={finish}>
-            {o.startFirst}
-          </button>
-          <button type="button" className="btn-ghost" style={{ marginTop: 10 }} onClick={() => setPaywall(true)}>
-            {o.seeOffer}
-          </button>
-        </>
-      )}
-
-      {paywall && <Paywall onClose={() => setPaywall(false)} />}
     </div>
   );
 }

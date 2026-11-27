@@ -48,8 +48,8 @@ tại commit `235d6f5` (25/11/2026).
   và romaji, nút câu trước/sau, **hàng chờ tự chuyển bài**), kệ kênh tròn theo series,
   đọc truyện (dịch/giải thích/nghe từng câu), chế độ lái xe (Media Session, tự chuyển
   truyện), lộ trình học có tiến độ, thư viện SRS + streak, onboarding, paywall
-  (**chưa nối thanh toán thật**), dữ liệu người dùng hiện **chỉ ở localStorage**
-  (chưa Firebase — thuộc đợt cuối, chờ Việt).
+  (**chưa nối thanh toán thật**), dữ liệu người dùng ở localStorage, đồng bộ
+  lên Firebase khi đăng nhập; VIP web bán qua vimai.jp, chặn ở máy chủ (26/11/2026, docs/deploy.md).
 - Cổng bắt buộc: `npm run verify` (QC nội dung + typecheck + lint + build) — **xanh tại
   commit hiện tại**. Không được commit lên `main` khi cổng đỏ.
 

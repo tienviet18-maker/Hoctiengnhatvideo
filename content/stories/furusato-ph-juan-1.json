@@ -12,7 +12,8 @@
     "id": "Juan si Pemalas",
     "pt": "Juan, o Preguiçoso",
     "my": "ပျင်းတဲ့ ဟွမ်",
-    "th": "ฮวนขี้เกียจ"
+    "th": "ฮวนขี้เกียจ",
+    "si": "කම්මැලි හුවාන්"
   },
   "level": "N3",
   "topic": "hometown-tales",
@@ -42,7 +43,8 @@
           "id": "Padahal ~ saja sudah cukup (saran, agak menegur).",
           "pt": "Era só ~ (conselho com leve censura).",
           "my": "~ လိုက်ရင် ရတာပဲ (အကြံပေး၊ အပြစ်တင်သံ)။",
-          "th": "แค่~ก็ได้แล้วนี่ (แนะนำ ติเล็กน้อย)"
+          "th": "แค่~ก็ได้แล้วนี่ (แนะนำ ติเล็กน้อย)",
+          "si": "~ කළා නම් හරි නේ (මෘදු දොස් සහිත උපදෙස්)."
         }
       },
       {
@@ -59,8 +61,23 @@
           "id": "B lebih ~ daripada A.",
           "pt": "B é mais ~ que A.",
           "my": "A ထက် B က ပို ~။",
-          "th": "B ~กว่า A"
-        }
+          "th": "B ~กว่า A",
+          "si": "A ට වඩා B ~."
+        },
+        "patternFurigana": [
+          {
+            "surface": "AよりBの",
+            "reading": ""
+          },
+          {
+            "surface": "方",
+            "reading": "ほう"
+          },
+          {
+            "surface": "が〜",
+            "reading": ""
+          }
+        ]
       },
       {
         "pattern": "〜たまま",
@@ -76,7 +93,8 @@
           "id": "Dalam keadaan masih ~.",
           "pt": "Ainda ~ (o estado continua).",
           "my": "~ လျက် (အခြေအနေ ဆက်ရှိ)။",
-          "th": "ทั้งที่ยัง~อยู่"
+          "th": "ทั้งที่ยัง~อยู่",
+          "si": "~ විදිහටම (තත්ත්වයක් දිගටම)."
         }
       },
       {
@@ -93,7 +111,8 @@
           "id": "Mana mungkin ~.",
           "pt": "Não tem como ~.",
           "my": "~ ဖို့ ဘယ်လိုမှ မဖြစ်နိုင်။",
-          "th": "ไม่มีทาง~"
+          "th": "ไม่มีทาง~",
+          "si": "~ වෙන්න විදිහක් නැහැ."
         }
       }
     ],
@@ -118,8 +137,121 @@
           "id": "Ia berbaring membuka mulut menunggu buah jatuh.",
           "pt": "Deitou de boca aberta esperando a fruta cair.",
           "my": "ပါးစပ်ဟပြီး အသီးကြွေတာကို စောင့်တယ်။",
-          "th": "นอนอ้าปากรอลูกหล่น"
-        }
+          "th": "นอนอ้าปากรอลูกหล่น",
+          "si": "ගෙඩි වැටෙනකම් කට ඇරගෙන උඩුබැලි අතට වැතිරිලා බලාගෙන හිටියා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "フアンは、グアバの",
+            "reading": ""
+          },
+          {
+            "surface": "実",
+            "reading": "み"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "食",
+            "reading": "た"
+          },
+          {
+            "surface": "べるために、",
+            "reading": ""
+          },
+          {
+            "surface": "何",
+            "reading": "なに"
+          },
+          {
+            "surface": "をした？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "口",
+              "reading": "くち"
+            },
+            {
+              "surface": "をあけて、",
+              "reading": ""
+            },
+            {
+              "surface": "落",
+              "reading": "お"
+            },
+            {
+              "surface": "ちてくるのを",
+              "reading": ""
+            },
+            {
+              "surface": "待",
+              "reading": "ま"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "木",
+              "reading": "き"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "登",
+              "reading": "のぼ"
+            },
+            {
+              "surface": "った",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "石",
+              "reading": "いし"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "投",
+              "reading": "な"
+            },
+            {
+              "surface": "げた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "村",
+              "reading": "むら"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "人",
+              "reading": "ひと"
+            },
+            {
+              "surface": "にたのんだ",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "市場で売るはずのカニは、どうなった？",
@@ -141,8 +273,97 @@
           "id": "Disuruh jalan sendiri, mereka kabur ke sungai.",
           "pt": "Mandados andar sozinhos, fugiram para o rio.",
           "my": "ကိုယ့်ဘာသာ သွားခိုင်းတော့ မြစ်ဘက် ပြေးသွားကြတယ်။",
-          "th": "บอกให้เดินไปเอง ปูก็หนีลงแม่น้ำ"
-        }
+          "th": "บอกให้เดินไปเอง ปูก็หนีลงแม่น้ำ",
+          "si": "හුවාන් ඒ අයට පොළට ඇවිදගෙන යන්න කිව්වා; ඒ අය ගඟට පැනලා ගියා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "市場",
+            "reading": "いちば"
+          },
+          {
+            "surface": "で",
+            "reading": ""
+          },
+          {
+            "surface": "売",
+            "reading": "う"
+          },
+          {
+            "surface": "るはずのカニは、どうなった？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "川",
+              "reading": "かわ"
+            },
+            {
+              "surface": "の",
+              "reading": ""
+            },
+            {
+              "surface": "方",
+              "reading": "ほう"
+            },
+            {
+              "surface": "へにげた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "全部",
+              "reading": "ぜんぶ"
+            },
+            {
+              "surface": "売",
+              "reading": "う"
+            },
+            {
+              "surface": "れた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "フアンが",
+              "reading": ""
+            },
+            {
+              "surface": "食",
+              "reading": "た"
+            },
+            {
+              "surface": "べた",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "お",
+              "reading": ""
+            },
+            {
+              "surface": "母",
+              "reading": "かあ"
+            },
+            {
+              "surface": "さんに",
+              "reading": ""
+            },
+            {
+              "surface": "返",
+              "reading": "かえ"
+            },
+            {
+              "surface": "した",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "かごで水を運ぶと、どうなる？",
@@ -164,8 +385,89 @@
           "id": "Keranjangnya penuh celah, air keluar.",
           "pt": "O cesto tem frestas, a água escorre.",
           "my": "အပေါက်တွေ များလို့ ရေ စီးထွက်တယ်။",
-          "th": "ตะกร้ามีช่อง น้ำจึงไหลออกหมด"
-        }
+          "th": "ตะกร้ามีช่อง น้ำจึงไหลออกหมด",
+          "si": "කූඩයේ හිඩැස් පිරිලා, ඒ නිසා වතුර ගලාගෙන යනවා."
+        },
+        "jaFurigana": [
+          {
+            "surface": "かごで",
+            "reading": ""
+          },
+          {
+            "surface": "水",
+            "reading": "みず"
+          },
+          {
+            "surface": "を",
+            "reading": ""
+          },
+          {
+            "surface": "運",
+            "reading": "はこ"
+          },
+          {
+            "surface": "ぶと、どうなる？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "すきまから",
+              "reading": ""
+            },
+            {
+              "surface": "流",
+              "reading": "なが"
+            },
+            {
+              "surface": "れ",
+              "reading": ""
+            },
+            {
+              "surface": "出",
+              "reading": "で"
+            },
+            {
+              "surface": "てしまう",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "水",
+              "reading": "みず"
+            },
+            {
+              "surface": "がたくさんたまる",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "かごが",
+              "reading": ""
+            },
+            {
+              "surface": "重",
+              "reading": "おも"
+            },
+            {
+              "surface": "くなる",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "水",
+              "reading": "みず"
+            },
+            {
+              "surface": "がつめたくなる",
+              "reading": ""
+            }
+          ]
+        ]
       },
       {
         "ja": "ものぐさ太郎とフアンのちがいは？",
@@ -187,8 +489,121 @@
           "id": "Taro bekerja keras dan bahagia; Juan tetap malas.",
           "pt": "Taro trabalha e fica feliz; Juan segue preguiçoso.",
           "my": "တာရိုက ကြိုးစားပြီး ပျော်ရွှင်သွားတယ်၊ ဟွမ်က ပျင်းနေတုန်း။",
-          "th": "ทาโร่ขยันทำงานจนมีความสุข ฮวนยังขี้เกียจ"
-        }
+          "th": "ทาโร่ขยันทำงานจนมีความสุข ฮวนยังขี้เกียจ",
+          "si": "තාරෝ අගනුවරට ගිහින් හිත දීලා වැඩ කරලා සතුටින් ඉන්නවා; හුවාන් කම්මැලියාමයි."
+        },
+        "jaFurigana": [
+          {
+            "surface": "ものぐさ",
+            "reading": ""
+          },
+          {
+            "surface": "太郎",
+            "reading": "たろう"
+          },
+          {
+            "surface": "とフアンのちがいは？",
+            "reading": ""
+          }
+        ],
+        "choicesFurigana": [
+          [
+            {
+              "surface": "太郎",
+              "reading": "たろう"
+            },
+            {
+              "surface": "は、",
+              "reading": ""
+            },
+            {
+              "surface": "最後",
+              "reading": "さいご"
+            },
+            {
+              "surface": "にまじめに",
+              "reading": ""
+            },
+            {
+              "surface": "働",
+              "reading": "はたら"
+            },
+            {
+              "surface": "く",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "太郎",
+              "reading": "たろう"
+            },
+            {
+              "surface": "は、",
+              "reading": ""
+            },
+            {
+              "surface": "木",
+              "reading": "き"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "登",
+              "reading": "のぼ"
+            },
+            {
+              "surface": "る",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "フアンは、",
+              "reading": ""
+            },
+            {
+              "surface": "都",
+              "reading": "みやこ"
+            },
+            {
+              "surface": "に",
+              "reading": ""
+            },
+            {
+              "surface": "行",
+              "reading": "い"
+            },
+            {
+              "surface": "く",
+              "reading": ""
+            }
+          ],
+          [
+            {
+              "surface": "フアンは、お",
+              "reading": ""
+            },
+            {
+              "surface": "餅",
+              "reading": "もち"
+            },
+            {
+              "surface": "を",
+              "reading": ""
+            },
+            {
+              "surface": "落",
+              "reading": "お"
+            },
+            {
+              "surface": "とす",
+              "reading": ""
+            }
+          ]
+        ]
       }
     ]
   },
@@ -245,7 +660,8 @@
         "id": "Di Filipina ada anak pemalas yang dikenal semua orang.",
         "pt": "Nas Filipinas há um menino preguiçoso que todo mundo conhece.",
         "my": "ဖိလစ်ပိုင်မှာ လူတိုင်း သိတဲ့ ပျင်းတဲ့ ကောင်လေး တစ်ယောက် ရှိတယ်။",
-        "th": "ที่ฟิลิปปินส์มีเด็กชายขี้เกียจที่ทุกคนรู้จัก"
+        "th": "ที่ฟิลิปปินส์มีเด็กชายขี้เกียจที่ทุกคนรู้จัก",
+        "si": "පිලිපීනයේ, හැමෝම දන්න, කම්මැලි කොල්ලෙක් ඉන්නවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -259,7 +675,8 @@
         "id": "pemalas.",
         "pt": "preguiçoso.",
         "my": "ပျင်းသူ။",
-        "th": "คนขี้เกียจ"
+        "th": "คนขี้เกียจ",
+        "si": "「なまけ者」 = කම්මැලියා."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=0.3,5.397",
       "t": [
@@ -320,7 +737,8 @@
         "id": "Namanya Juan Tamad. \"Tamad\" dalam bahasa Tagalog berarti \"pemalas\".",
         "pt": "Seu nome é Juan Tamad. \"Tamad\" quer dizer \"preguiçoso\" em tagalo.",
         "my": "နာမည်က ဟွမ် တာမတ်။ \"တာမတ်\" ဆိုတာ တဂါလော့ဂ်လို \"ပျင်းသူ\" လို့ အဓိပ္ပာယ်ရတယ်။",
-        "th": "เขาชื่อฮวน ตามัด \"ตามัด\" ในภาษาตากาล็อกแปลว่า \"ขี้เกียจ\""
+        "th": "เขาชื่อฮวน ตามัด \"ตามัด\" ในภาษาตากาล็อกแปลว่า \"ขี้เกียจ\"",
+        "si": "එයාගේ නම, හුවාන් තමද්. තමද් කියන්නේ, ටගලොග් භාෂාවෙන් \"කම්මැලියා\" කියන තේරුම."
       },
       "vocab": [],
       "grammarNote": {
@@ -334,7 +752,8 @@
         "id": "berarti.",
         "pt": "quer dizer.",
         "my": "အဓိပ္ပာယ်။",
-        "th": "แปลว่า"
+        "th": "แปลว่า",
+        "si": "「〜という意味」 = ~ කියන තේරුම."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=5.997,13.414",
       "t": [
@@ -391,7 +810,8 @@
         "id": "Hari ini, dengarkan tiga kisah lucu tentang Juan.",
         "pt": "Hoje, ouça três histórias meio engraçadas do Juan.",
         "my": "ဒီနေ့ ဟွမ်ရဲ့ နည်းနည်း ရယ်စရာ ပုံပြင် သုံးပုဒ်ကို နားထောင်ပါ။",
-        "th": "วันนี้ลองฟังเรื่องตลกๆ ของฮวนสามเรื่องนะ"
+        "th": "วันนี้ลองฟังเรื่องตลกๆ ของฮวนสามเรื่องนะ",
+        "si": "අද, මේ හුවාන්ගේ, ටිකක් හිනායන කතා, තුනක් අහන්න."
       },
       "vocab": [],
       "grammarNote": {
@@ -405,7 +825,8 @@
         "id": "lucu.",
         "pt": "engraçado.",
         "my": "ရယ်စရာ။",
-        "th": "ตลก"
+        "th": "ตลก",
+        "si": "「おかしな」 = හිනායන, අමුතු."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=14.014,19.332",
       "t": [
@@ -462,7 +883,8 @@
         "id": "Yang pertama, kisah pohon jambu biji.",
         "pt": "A primeira é a da goiabeira.",
         "my": "ပထမတစ်ပုဒ်က မာလကာပင် ပုံပြင်ပါ။",
-        "th": "เรื่องแรกคือเรื่องต้นฝรั่ง"
+        "th": "เรื่องแรกคือเรื่องต้นฝรั่ง",
+        "si": "පළවෙනි එක, පේර ගහේ කතාව."
       },
       "vocab": [],
       "grammarNote": {
@@ -476,7 +898,8 @@
         "id": "yang ke-.",
         "pt": "primeira.",
         "my": "ပထမ။",
-        "th": "แรก"
+        "th": "แรก",
+        "si": "「〜つ目」 = ~ වෙනි."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=19.932,22.782",
       "t": [
@@ -569,7 +992,8 @@
         "id": "Suatu hari yang panas, Juan berjalan di hutan dan menemukan pohon jambu biji besar.",
         "pt": "Num dia quente, Juan andava pela floresta e achou uma goiabeira grande.",
         "my": "ပူတဲ့ နေ့တစ်နေ့ ဟွမ်က တောထဲ လမ်းလျှောက်ရင်း မာလကာပင်ကြီး တွေ့တယ်။",
-        "th": "วันที่อากาศร้อน ฮวนเดินในป่าแล้วเจอต้นฝรั่งใหญ่"
+        "th": "วันที่อากาศร้อน ฮวนเดินในป่าแล้วเจอต้นฝรั่งใหญ่",
+        "si": "එක රස්නේ දවසක, හුවාන්, කැලේ ඇවිදිද්දී, ලොකු පේර ගහක් දැක්කා."
       },
       "vocab": [],
       "grammarNote": {
@@ -583,7 +1007,8 @@
         "id": "sedang.",
         "pt": "enquanto.",
         "my": "ရင်း။",
-        "th": "ขณะ"
+        "th": "ขณะ",
+        "si": "「〜ていて」 = ~ කරද්දී."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=23.382,30.325",
       "t": [
@@ -624,7 +1049,8 @@
         "id": "Di dahannya banyak buah yang matang.",
         "pt": "Os galhos estavam cheios de frutas maduras.",
         "my": "အကိုင်းမှာ မှည့်နေတဲ့ အသီးတွေ အများကြီး သီးနေတယ်။",
-        "th": "บนกิ่งมีลูกสุกเต็มไปหมด"
+        "th": "บนกิ่งมีลูกสุกเต็มไปหมด",
+        "si": "අතුවල, හොඳට ඉදුණු ගෙඩි, ගොඩක් තිබුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -638,7 +1064,8 @@
         "id": "matang.",
         "pt": "maduro.",
         "my": "မှည့်။",
-        "th": "สุก"
+        "th": "สุก",
+        "si": "「じゅくす」 = ඉදෙනවා."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=30.925,34.779",
       "t": [
@@ -683,7 +1110,8 @@
         "id": "\"Kelihatannya enak. Tapi memanjat itu repot.\"",
         "pt": "\"Parece gostoso. Mas subir na árvore dá trabalho.\"",
         "my": "\"စားကောင်းပုံပဲ။ ဒါပေမဲ့ အပင်တက်ရတာ ပင်ပန်းတယ်။\"",
-        "th": "\"ดูน่าอร่อย แต่ปีนต้นไม้มันเหนื่อย\""
+        "th": "\"ดูน่าอร่อย แต่ปีนต้นไม้มันเหนื่อย\"",
+        "si": "\"රසයි වගේ. ඒත්, ගහට නගින එක, මහ කරදරයක්.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -697,7 +1125,8 @@
         "id": "kelihatannya.",
         "pt": "parece.",
         "my": "ပုံပဲ။",
-        "th": "ดูน่า"
+        "th": "ดูน่า",
+        "si": "「〜そう」 = ~ වගේ."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=35.679,39.894",
       "t": [
@@ -758,7 +1187,8 @@
         "id": "Maka Juan berbaring telentang di bawah pohon dan membuka mulut lebar-lebar.",
         "pt": "Então Juan deitou de costas sob a árvore e abriu bem a boca.",
         "my": "ဒါနဲ့ ဟွမ်က အပင်အောက်မှာ ပက်လက်လှန် လှဲပြီး ပါးစပ်ကို ကျယ်ကျယ် ဟထားတယ်။",
-        "th": "ฮวนจึงนอนหงายใต้ต้นไม้ แล้วอ้าปากกว้าง"
+        "th": "ฮวนจึงนอนหงายใต้ต้นไม้ แล้วอ้าปากกว้าง",
+        "si": "ඉතින් හුවාන්, ගහ යට උඩුබැලි අතට වැතිරිලා, කට ලොකුවට ඇරියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -772,7 +1202,8 @@
         "id": "telentang.",
         "pt": "de costas.",
         "my": "ပက်လက်။",
-        "th": "นอนหงาย"
+        "th": "นอนหงาย",
+        "si": "「あおむけ」 = උඩුබැලි අතට."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=40.794,46.507",
       "t": [
@@ -841,7 +1272,8 @@
         "id": "\"Kalau buahnya jatuh, pasti langsung masuk mulut. Aku tunggu saja.\"",
         "pt": "\"Quando a fruta cair, vai direto na boca. Vou esperar.\"",
         "my": "\"အသီး ကြွေကျရင် ပါးစပ်ထဲ တန်းဝင်မှာပဲ။ အဲဒီအထိ စောင့်မယ်။\"",
-        "th": "\"พอลูกหล่นมา ก็จะเข้าปากเลย รอไปก่อนแล้วกัน\""
+        "th": "\"พอลูกหล่นมา ก็จะเข้าปากเลย รอไปก่อนแล้วกัน\"",
+        "si": "\"ගෙඩියක් වැටුණාම, එහෙමම කටට වැටෙයි. ඒ වෙනකම්, බලාගෙන ඉමු.\""
       },
       "vocab": [
         {
@@ -858,7 +1290,8 @@
             "id": "begitu saja",
             "pt": "assim mesmo",
             "my": "ဒီအတိုင်း",
-            "th": "ทั้งอย่างนั้น"
+            "th": "ทั้งอย่างนั้น",
+            "si": "ඒ විදිහටම, එසැණින්"
           },
           "level": "N3"
         }
@@ -874,7 +1307,8 @@
         "id": "kalau.",
         "pt": "quando.",
         "my": "ရင်။",
-        "th": "พอ"
+        "th": "พอ",
+        "si": "「〜たら」 = ~ වුණාම."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=47.407,53.16",
       "t": [
@@ -939,7 +1373,8 @@
         "id": "Satu jam, dua jam berlalu, tak satu pun buah jatuh.",
         "pt": "Passou uma hora, duas horas, e nenhuma fruta caiu.",
         "my": "တစ်နာရီ၊ နှစ်နာရီ ကြာလည်း အသီး တစ်လုံးမှ မကြွေဘူး။",
-        "th": "ผ่านไปหนึ่งชั่วโมง สองชั่วโมง ก็ไม่มีลูกไหนหล่นเลย"
+        "th": "ผ่านไปหนึ่งชั่วโมง สองชั่วโมง ก็ไม่มีลูกไหนหล่นเลย",
+        "si": "පැයක් ගියත්, පැය දෙකක් ගියත්, එක ගෙඩියක්වත් වැටෙන්නේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -953,7 +1388,8 @@
         "id": "tak satu pun.",
         "pt": "nenhum.",
         "my": "တစ်လုံးမှ။",
-        "th": "ไม่มีสักลูก"
+        "th": "ไม่มีสักลูก",
+        "si": "「〜ても〜ても」 = ~ වුණත් ~ වුණත්."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=54.06,59.327",
       "t": [
@@ -1026,7 +1462,8 @@
         "id": "Warga desa yang lewat berkata, \"Panjat saja,\" tapi Juan tidak bergerak.",
         "pt": "Um aldeão que passava disse \"É só subir\", mas Juan nem se mexeu.",
         "my": "ဖြတ်သွားတဲ့ ရွာသားက \"တက်လိုက်ပါလား\" ပြောပေမဲ့ ဟွမ် မလှုပ်ဘူး။",
-        "th": "ชาวบ้านที่ผ่านมาบอกว่า \"ปีนขึ้นไปสิ\" ฮวนก็ไม่ขยับ"
+        "th": "ชาวบ้านที่ผ่านมาบอกว่า \"ปีนขึ้นไปสิ\" ฮวนก็ไม่ขยับ",
+        "si": "එතනින් ගිය ගමේ කෙනෙක්, \"නැග්ගා නම් හරි නේ\" කිව්වත්, හුවාන් හෙල්ලෙන්නේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -1040,7 +1477,8 @@
         "id": "saja.",
         "pt": "é só.",
         "my": "လိုက်ပါလား။",
-        "th": "สิ"
+        "th": "สิ",
+        "si": "「〜ばいいのに」 = ~ කළා නම් හරි නේ."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=59.927,65.68",
       "t": [
@@ -1101,7 +1539,8 @@
         "id": "\"Menunggu lebih santai daripada memanjat.\"",
         "pt": "\"Esperar é mais fácil que subir.\"",
         "my": "\"တက်တာထက် စောင့်တာက သက်သာတယ်လေ။\"",
-        "th": "\"รอสบายกว่าปีนนะ\""
+        "th": "\"รอสบายกว่าปีนนะ\"",
+        "si": "\"නගිනවාට වඩා, බලාගෙන ඉන්න එක ලේසියි නේ.\""
       },
       "vocab": [
         {
@@ -1118,7 +1557,8 @@
             "id": "mudah, santai",
             "pt": "fácil, confortável",
             "my": "သက်သာ",
-            "th": "สบาย"
+            "th": "สบาย",
+            "si": "පහසු, සුවපහසු"
           },
           "level": "N3"
         }
@@ -1134,7 +1574,8 @@
         "id": "lebih ... daripada.",
         "pt": "mais ... que.",
         "my": "ထက်။",
-        "th": "กว่า"
+        "th": "กว่า",
+        "si": "「AよりBの方が」 = A ට වඩා B."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=66.58,69.226",
       "t": [
@@ -1219,7 +1660,8 @@
         "id": "Lama-lama, yang masuk ke mulutnya hanya daun dan serangga kecil.",
         "pt": "Com o tempo, só caíram na boca folhas e bichinhos.",
         "my": "မကြာခင် ပါးစပ်ထဲ ဝင်လာတာက အရွက်နဲ့ ပိုးကောင်လေးတွေပဲ။",
-        "th": "ไม่นาน ที่เข้าปากมีแค่ใบไม้กับแมลงตัวเล็ก"
+        "th": "ไม่นาน ที่เข้าปากมีแค่ใบไม้กับแมลงตัวเล็ก",
+        "si": "ටික වෙලාවකින්, කටට වැටුණේ, ගස් කොළයි, පොඩි කෘමීනුයි විතරයි."
       },
       "vocab": [
         {
@@ -1236,7 +1678,8 @@
             "id": "lama-lama",
             "pt": "com o tempo",
             "my": "မကြာခင်",
-            "th": "ไม่นาน"
+            "th": "ไม่นาน",
+            "si": "ටික වේලාවකින්"
           },
           "level": "N3"
         }
@@ -1252,7 +1695,8 @@
         "id": "lama-lama.",
         "pt": "com o tempo.",
         "my": "မကြာခင်။",
-        "th": "ไม่นาน"
+        "th": "ไม่นาน",
+        "si": "「そのうち」 = ටික වෙලාවකින්."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=70.126,75.897",
       "t": [
@@ -1297,7 +1741,8 @@
         "id": "\"Cuih, cuih. Pohon apa ini. Sama sekali tak tahu diri.\"",
         "pt": "\"Ptu, ptu! Que árvore. Não tem consideração nenhuma!\"",
         "my": "\"ထွီ ထွီ။ ဘာအပင်လဲ။ နည်းနည်းမှ အမြင်မရှိဘူး။\"",
-        "th": "\"ถุย ถุย ต้นไม้อะไร ไม่รู้ความเลย\""
+        "th": "\"ถุย ถุย ต้นไม้อะไร ไม่รู้ความเลย\"",
+        "si": "\"තු, තු. මොකක්ද මේ ගහ. කිසිම සැලකිල්ලක් නැහැ නේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1311,7 +1756,8 @@
         "id": "tak tahu diri.",
         "pt": "sem consideração.",
         "my": "အမြင်မရှိ။",
-        "th": "ไม่รู้ความ"
+        "th": "ไม่รู้ความ",
+        "si": "「気がきかない」 = සැලකිල්ලක් නැති."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=76.797,81.527",
       "t": [
@@ -1360,7 +1806,8 @@
         "id": "Sore hari, Juan pulang dengan perut lapar.",
         "pt": "À tarde, Juan voltou para casa com fome.",
         "my": "ညနေရောက်တော့ ဟွမ်က ဗိုက်ဆာလျက် အိမ်ပြန်တယ်။",
-        "th": "พอตกเย็น ฮวนกลับบ้านทั้งที่ท้องหิว"
+        "th": "พอตกเย็น ฮวนกลับบ้านทั้งที่ท้องหิว",
+        "si": "හවස් වුණාම, හුවාන්, බඩගින්නේම, ගෙදර ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1374,7 +1821,8 @@
         "id": "dengan.",
         "pt": "com.",
         "my": "လျက်။",
-        "th": "ทั้งที่"
+        "th": "ทั้งที่",
+        "si": "「〜たまま」 = ~ විදිහටම."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=82.427,88.174",
       "t": [
@@ -1423,7 +1871,8 @@
         "id": "Yang kedua, kisah kepiting.",
         "pt": "A segunda é a dos caranguejos.",
         "my": "ဒုတိယက ဂဏန်း ပုံပြင်ပါ။",
-        "th": "เรื่องที่สองคือเรื่องปู"
+        "th": "เรื่องที่สองคือเรื่องปู",
+        "si": "දෙවෙනි එක, කකුළුවන්ගේ කතාව."
       },
       "vocab": [],
       "grammarNote": {
@@ -1437,7 +1886,8 @@
         "id": "kedua.",
         "pt": "segunda.",
         "my": "ဒုတိယ။",
-        "th": "ที่สอง"
+        "th": "ที่สอง",
+        "si": "「二つ目」 = දෙවෙනි."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=88.774,91.154",
       "t": [
@@ -1482,7 +1932,8 @@
         "id": "Suatu pagi, ibu memberi Juan sekeranjang penuh kepiting.",
         "pt": "Uma manhã, a mãe entregou a Juan um cesto cheio de caranguejos.",
         "my": "တစ်မနက် အမေက ဟွမ်ကို ဂဏန်း အပြည့်ပါတဲ့ တောင်း ပေးတယ်။",
-        "th": "เช้าวันหนึ่ง แม่ยื่นตะกร้าที่เต็มไปด้วยปูให้ฮวน"
+        "th": "เช้าวันหนึ่ง แม่ยื่นตะกร้าที่เต็มไปด้วยปูให้ฮวน",
+        "si": "එක උදේක, අම්මා, හුවාන්ට, කකුළුවෝ පිරුණු කූඩයක් දුන්නා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1496,7 +1947,8 @@
         "id": "memberi.",
         "pt": "entregar.",
         "my": "ပေး။",
-        "th": "ยื่นให้"
+        "th": "ยื่นให้",
+        "si": "「〜いっぱい」 = ~ පිරුණු."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=91.754,97.449",
       "t": [
@@ -1549,7 +2001,8 @@
         "id": "\"Juan, juallah kepiting ini di pasar kota.\"",
         "pt": "\"Juan, vá vender estes caranguejos no mercado da cidade.\"",
         "my": "\"ဟွမ်၊ ဒီ ဂဏန်းတွေကို မြို့ဈေးမှာ သွားရောင်းပေးပါ။\"",
-        "th": "\"ฮวน เอาปูพวกนี้ไปขายที่ตลาดในเมืองนะ\""
+        "th": "\"ฮวน เอาปูพวกนี้ไปขายที่ตลาดในเมืองนะ\"",
+        "si": "\"හුවාන්, මේ කකුළුවෝ, නගරයේ පොළේ විකුණලා එන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1563,7 +2016,8 @@
         "id": "tolong.",
         "pt": "vá e ~.",
         "my": "ပေးပါ။",
-        "th": "ไป...มานะ"
+        "th": "ไป...มานะ",
+        "si": "「〜てきておくれ」 = මට ගිහින් ~ කරලා එන්න."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=98.349,102.311",
       "t": [
@@ -1616,7 +2070,8 @@
         "id": "\"Hah, jalan sampai kota? Jauh sekali.\"",
         "pt": "\"Quê, andar até a cidade? É longe.\"",
         "my": "\"ဟင်၊ မြို့အထိ လမ်းလျှောက်ရမှာလား။ ဝေးတယ်။\"",
-        "th": "\"ห๊ะ เดินไปถึงในเมืองเหรอ ไกลจัง\""
+        "th": "\"ห๊ะ เดินไปถึงในเมืองเหรอ ไกลจัง\"",
+        "si": "\"මොකක්, නගරයට ඇවිදගෙනද යන්නේ. ඈතයි නේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1630,7 +2085,8 @@
         "id": "sekali.",
         "pt": "é.",
         "my": "တယ်။",
-        "th": "จัง"
+        "th": "จัง",
+        "si": "「〜なあ」 = විස්මය."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=103.211,106.093",
       "t": [
@@ -1667,7 +2123,8 @@
         "id": "Dengan enggan, Juan memanggul keranjang dan berangkat.",
         "pt": "A contragosto, Juan pôs o cesto no ombro e saiu.",
         "my": "ဟွမ်က မလုပ်ချင် လုပ်ချင်နဲ့ တောင်းကို ထမ်းပြီး ထွက်သွားတယ်။",
-        "th": "ฮวนแบกตะกร้าออกไปอย่างไม่เต็มใจ"
+        "th": "ฮวนแบกตะกร้าออกไปอย่างไม่เต็มใจ",
+        "si": "හුවාන්, අකමැත්තෙන්, කූඩය කරේ තියාගෙන පිටත් වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1681,7 +2138,8 @@
         "id": "enggan.",
         "pt": "a contragosto.",
         "my": "မလုပ်ချင်လုပ်ချင်။",
-        "th": "ไม่เต็มใจ"
+        "th": "ไม่เต็มใจ",
+        "si": "「しぶしぶ」 = අකමැත්තෙන්."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=106.993,110.959",
       "t": [
@@ -1726,7 +2184,8 @@
         "id": "Tapi baru jalan sedikit, sudah capek.",
         "pt": "Mas andou um pouco e já se cansou.",
         "my": "ဒါပေမဲ့ နည်းနည်း လျှောက်ရုံနဲ့ မောသွားပြီ။",
-        "th": "แต่เดินไปนิดเดียวก็เหนื่อยแล้ว"
+        "th": "แต่เดินไปนิดเดียวก็เหนื่อยแล้ว",
+        "si": "ඒත්, ටිකක් ඇවිද්දාම, දැනටමත් මහන්සි වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1740,7 +2199,8 @@
         "id": "sudah.",
         "pt": "já.",
         "my": "ပြီ။",
-        "th": "แล้ว"
+        "th": "แล้ว",
+        "si": "「〜と」 = ~ කළ ගමන්."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=111.559,115.405",
       "t": [
@@ -1801,7 +2261,8 @@
         "id": "Juan menurunkan keranjang dan mengeluarkan semua kepiting ke jalan.",
         "pt": "Juan baixou o cesto e soltou todos os caranguejos na estrada.",
         "my": "ဟွမ်က တောင်းကို ချပြီး ဂဏန်းအားလုံးကို လမ်းပေါ် ထုတ်လိုက်တယ်။",
-        "th": "ฮวนวางตะกร้าลง แล้วปล่อยปูทั้งหมดลงบนถนน"
+        "th": "ฮวนวางตะกร้าลง แล้วปล่อยปูทั้งหมดลงบนถนน",
+        "si": "හුවාන්, කූඩය බිම තියලා, කකුළුවෝ ඔක්කොම, පාරට දැම්මා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1815,7 +2276,8 @@
         "id": "menurunkan.",
         "pt": "baixar.",
         "my": "ချ။",
-        "th": "วางลง"
+        "th": "วางลง",
+        "si": "「下ろす」 = බිම තියනවා."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=116.005,121.436",
       "t": [
@@ -1876,7 +2338,8 @@
         "id": "\"Kalian kan punya banyak kaki. Jalan sendiri ke pasar.\"",
         "pt": "\"Vocês têm muitas pernas, né? Andem sozinhos até o mercado.\"",
         "my": "\"မင်းတို့ ခြေထောက် အများကြီး ရှိတယ်မလား။ ဈေးကို ကိုယ့်ဘာသာ လမ်းလျှောက်သွားကြ။\"",
-        "th": "\"พวกแกมีขาเยอะใช่ไหม เดินไปตลาดเองสิ\""
+        "th": "\"พวกแกมีขาเยอะใช่ไหม เดินไปตลาดเองสิ\"",
+        "si": "\"උඹලට, කකුල් ගොඩක් තියෙනවා නේ. තනියම පොළට ඇවිදගෙන පලයල්ලා.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -1890,7 +2353,8 @@
         "id": "sendiri.",
         "pt": "sozinhos.",
         "my": "ကိုယ့်ဘာသာ။",
-        "th": "เอง"
+        "th": "เอง",
+        "si": "「〜な」 = සාමාන්‍ය අණ."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=122.336,128.048",
       "t": [
@@ -1951,7 +2415,8 @@
         "id": "Kepiting-kepiting senang dan berjalan menyamping kabur ke sungai dekat situ.",
         "pt": "Os caranguejos, felizes, fugiram de lado para um rio ali perto.",
         "my": "ဂဏန်းတွေက ဝမ်းသာပြီး ဘေးတိုက် လျှောက်ကာ အနီးက မြစ်ဘက် ပြေးသွားတယ်။",
-        "th": "ปูดีใจ เดินตะแคงหนีไปทางแม่น้ำใกล้ๆ"
+        "th": "ปูดีใจ เดินตะแคงหนีไปทางแม่น้ำใกล้ๆ",
+        "si": "කකුළුවෝ, සතුටින්, පැත්තට ඇවිදිමින්, ළඟ ගඟ පැත්තට, පැනලා ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -1965,7 +2430,8 @@
         "id": "menyamping.",
         "pt": "de lado.",
         "my": "ဘေးတိုက်။",
-        "th": "เดินตะแคง"
+        "th": "เดินตะแคง",
+        "si": "「横歩き」 = පැත්තට ඇවිදීම."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=128.948,136.191",
       "t": [
@@ -2038,7 +2504,8 @@
         "id": "Melihat Juan pulang, ibu terbelalak.",
         "pt": "Ao ver Juan voltar, a mãe arregalou os olhos.",
         "my": "အိမ်ပြန်လာတဲ့ ဟွမ်ကို မြင်တော့ အမေက မျက်လုံး ပြူးသွားတယ်။",
-        "th": "เห็นฮวนกลับมา แม่ก็ตาโต"
+        "th": "เห็นฮวนกลับมา แม่ก็ตาโต",
+        "si": "ගෙදර ආපු හුවාන්ව දැකලා, අම්මාගේ ඇස් ලොකු වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2052,7 +2519,8 @@
         "id": "terbelalak.",
         "pt": "arregalar.",
         "my": "မျက်လုံးပြူး။",
-        "th": "ตาโต"
+        "th": "ตาโต",
+        "si": "「目を丸くする」 = (පුදුමයෙන්) ඇස් ලොකු වෙනවා."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=136.791,141.77",
       "t": [
@@ -2089,7 +2557,8 @@
         "id": "\"Kepitingnya mana? Uangnya?\"",
         "pt": "\"E os caranguejos? E o dinheiro?\"",
         "my": "\"ဂဏန်းတွေ ဘယ်မလဲ။ ပိုက်ဆံရော။\"",
-        "th": "\"ปูล่ะ เงินล่ะ\""
+        "th": "\"ปูล่ะ เงินล่ะ\"",
+        "si": "\"කකුළුවෝ, මොකද වුණේ. සල්ලි කෝ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2103,7 +2572,8 @@
         "id": "mana.",
         "pt": "e.",
         "my": "ဘယ်မလဲ။",
-        "th": "ล่ะ"
+        "th": "ล่ะ",
+        "si": "「どうしたの」 = මොකද වුණේ."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=142.67,145.278",
       "t": [
@@ -2164,7 +2634,8 @@
         "id": "\"Kepitingnya pergi sendiri ke pasar. Belum sampai, ya?\"",
         "pt": "\"Os caranguejos foram sozinhos ao mercado. Ainda não chegaram?\"",
         "my": "\"ဂဏန်းတွေ ကိုယ့်ဘာသာ ဈေးသွားပြီလေ။ မရောက်သေးဘူးလား။\"",
-        "th": "\"ปูไปตลาดเองแล้วนะ ยังไม่ถึงอีกเหรอ\""
+        "th": "\"ปูไปตลาดเองแล้วนะ ยังไม่ถึงอีกเหรอ\"",
+        "si": "\"කකුළුවෝ, තනියම පොළට ගියා. තාම ළඟා වුණේ නැද්ද?\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2178,7 +2649,8 @@
         "id": "belum.",
         "pt": "ainda não.",
         "my": "မ~သေး။",
-        "th": "ยังไม่"
+        "th": "ยังไม่",
+        "si": "「まだ〜ない」 = තාම ~ නැහැ."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=146.178,150.343",
       "t": [
@@ -2223,7 +2695,8 @@
         "id": "Ibu tercengang sampai tak bisa berkata-kata.",
         "pt": "A mãe ficou tão pasma que nem conseguiu falar.",
         "my": "အမေက အံ့အားသင့်ပြီး စကားတောင် မထွက်ဘူး။",
-        "th": "แม่อึ้งจนพูดไม่ออก"
+        "th": "แม่อึ้งจนพูดไม่ออก",
+        "si": "අම්මට, පුදුමෙන්, වචනයක්වත් කියාගන්න බැරි වුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2237,7 +2710,8 @@
         "id": "tercengang.",
         "pt": "pasma.",
         "my": "အံ့အားသင့်။",
-        "th": "อึ้ง"
+        "th": "อึ้ง",
+        "si": "「あきれる」 = පුදුම වෙලා කට උත්තර නැති වෙනවා."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=151.243,154.929",
       "t": [
@@ -2274,7 +2748,8 @@
         "id": "\"Astaga, anak ini.\"",
         "pt": "\"Francamente, que menino.\"",
         "my": "\"တကယ်ပဲ၊ ဒီကလေးနဲ့တော့။\"",
-        "th": "\"จริงๆ เลย ลูกคนนี้\""
+        "th": "\"จริงๆ เลย ลูกคนนี้\"",
+        "si": "\"අනේ මන්දා, උඹ නම් මොන ළමයෙක්ද.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2288,7 +2763,8 @@
         "id": "astaga.",
         "pt": "francamente.",
         "my": "တကယ်ပဲ။",
-        "th": "จริงๆ เลย"
+        "th": "จริงๆ เลย",
+        "si": "「まったく」 = අනේ මන්දා (කලකිරීමෙන්)."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=155.829,157.973",
       "t": [
@@ -2357,7 +2833,8 @@
         "id": "Kisah Juan diceritakan dengan berbagai versi, tergantung pulau dan desanya.",
         "pt": "As histórias de Juan são contadas de várias formas, conforme a ilha ou a aldeia.",
         "my": "ဟွမ့် ပုံပြင်တွေကို ကျွန်းနဲ့ ရွာ အလိုက် ပုံစံ အမျိုးမျိုးနဲ့ ပြောကြတယ်။",
-        "th": "เรื่องของฮวนเล่าต่างกันไปตามเกาะและหมู่บ้าน"
+        "th": "เรื่องของฮวนเล่าต่างกันไปตามเกาะและหมู่บ้าน",
+        "si": "හුවාන්ගේ කතා, දූපත අනුවයි ගම අනුවයි, විවිධ විදිහට කියනවා."
       },
       "vocab": [
         {
@@ -2374,7 +2851,8 @@
             "id": "menceritakan",
             "pt": "contar, narrar",
             "my": "ပြောပြ",
-            "th": "เล่า"
+            "th": "เล่า",
+            "si": "කියා දීම, විස්තර කිරීම"
           },
           "level": "N3"
         }
@@ -2390,7 +2868,8 @@
         "id": "tergantung.",
         "pt": "conforme.",
         "my": "အလိုက်။",
-        "th": "ตาม"
+        "th": "ตาม",
+        "si": "「〜によって」 = ~ අනුව."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=158.873,164.443",
       "t": [
@@ -2447,7 +2926,8 @@
         "id": "Yang ketiga, kisah air.",
         "pt": "A terceira é a da água.",
         "my": "တတိယက ရေ ပုံပြင်ပါ။",
-        "th": "เรื่องที่สามคือเรื่องน้ำ"
+        "th": "เรื่องที่สามคือเรื่องน้ำ",
+        "si": "තුන්වෙනි එක, වතුරේ කතාව."
       },
       "vocab": [],
       "grammarNote": {
@@ -2461,7 +2941,8 @@
         "id": "ketiga.",
         "pt": "terceira.",
         "my": "တတိယ။",
-        "th": "ที่สาม"
+        "th": "ที่สาม",
+        "si": "「三つ目」 = තුන්වෙනි."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=165.043,167.525",
       "t": [
@@ -2514,7 +2995,8 @@
         "id": "\"Kali ini ibu minta tolong. Ambilkan air dari sungai.\"",
         "pt": "\"Desta vez, conto com você. Vá buscar água no rio.\"",
         "my": "\"ဒီတစ်ခါတော့ အားကိုးတယ်နော်။ မြစ်က ရေခပ်ပေးပါ။\"",
-        "th": "\"คราวนี้ฝากด้วยนะ ไปตักน้ำที่แม่น้ำมาให้หน่อย\""
+        "th": "\"คราวนี้ฝากด้วยนะ ไปตักน้ำที่แม่น้ำมาให้หน่อย\"",
+        "si": "\"මේ පාර නම්, විශ්වාසෙන්. ගඟෙන්, වතුර ගෙනත් දෙන්න.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2528,7 +3010,8 @@
         "id": "kali ini.",
         "pt": "desta vez.",
         "my": "ဒီတစ်ခါတော့။",
-        "th": "คราวนี้"
+        "th": "คราวนี้",
+        "si": "「今度こそ」 = මේ පාර නම් අනිවාර්යයෙන්."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=168.425,173.082",
       "t": [
@@ -2589,7 +3072,8 @@
         "id": "Juan membawa keranjang penuh celah dari rumah ke sungai.",
         "pt": "Juan pegou um cesto cheio de frestas e foi ao rio.",
         "my": "ဟွမ်က အိမ်က အပေါက်တွေ ပြည့်နေတဲ့ တောင်းကို ယူပြီး မြစ်ကို သွားတယ်။",
-        "th": "ฮวนถือตะกร้าที่มีช่องเต็มไปหมดไปที่แม่น้ำ"
+        "th": "ฮวนถือตะกร้าที่มีช่องเต็มไปหมดไปที่แม่น้ำ",
+        "si": "හුවාන්, ගෙදර තිබුණු, හිඩැස් පිරුණු කූඩයක් අරන්, ගඟට ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2603,7 +3087,8 @@
         "id": "penuh.",
         "pt": "cheio de.",
         "my": "ပြည့်။",
-        "th": "เต็มไปด้วย"
+        "th": "เต็มไปด้วย",
+        "si": "「〜だらけ」 = ~ පිරුණු (අකමැති දෙයක්)."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=173.982,179.528",
       "t": [
@@ -2672,7 +3157,8 @@
         "id": "Saat air dimasukkan, air mengalir keluar lewat celah.",
         "pt": "Ao pôr água no cesto, ela escorria pelas frestas.",
         "my": "တောင်းထဲ ရေထည့်တော့ အပေါက်ကနေ ရေတွေ စီးထွက်သွားတယ်။",
-        "th": "พอใส่น้ำลงตะกร้า น้ำก็ไหลออกตามช่อง"
+        "th": "พอใส่น้ำลงตะกร้า น้ำก็ไหลออกตามช่อง",
+        "si": "කූඩයට වතුර දැම්මාම, වතුර, හිඩැස්වලින්, හෙමින් ගලාගෙන යනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2686,7 +3172,8 @@
         "id": "mengalir.",
         "pt": "escorrer.",
         "my": "စီး။",
-        "th": "ไหล"
+        "th": "ไหล",
+        "si": "「さらさら」 = හෙමින් ගලනවා."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=180.128,186.319",
       "t": [
@@ -2747,7 +3234,8 @@
         "id": "Juan menimba air dengan keranjang berkali-kali.",
         "pt": "Juan pegou água com o cesto várias vezes.",
         "my": "ဟွမ်က တောင်းနဲ့ ရေကို အကြိမ်ကြိမ် ခပ်တယ်။",
-        "th": "ฮวนตักน้ำด้วยตะกร้าครั้งแล้วครั้งเล่า"
+        "th": "ฮวนตักน้ำด้วยตะกร้าครั้งแล้วครั้งเล่า",
+        "si": "හුවාන්, ආයෙ ආයෙත්, කූඩයෙන් වතුර ඇද්දා."
       },
       "vocab": [],
       "grammarNote": {
@@ -2761,7 +3249,8 @@
         "id": "berkali-kali.",
         "pt": "várias vezes.",
         "my": "အကြိမ်ကြိမ်။",
-        "th": "ครั้งแล้วครั้งเล่า"
+        "th": "ครั้งแล้วครั้งเล่า",
+        "si": "「何度も」 = ආයෙ ආයෙත්."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=186.919,191.333",
       "t": [
@@ -2814,7 +3303,8 @@
         "id": "\"Aneh. Berapa kali pun ditimba, airnya tak tersisa.\"",
         "pt": "\"Estranho. Por mais que eu pegue, não fica água.\"",
         "my": "\"ထူးဆန်းတယ်။ ဘယ်လောက် ခပ်ခပ် ရေ နည်းနည်းမှ မကျန်ဘူး။\"",
-        "th": "\"แปลกจัง ตักเท่าไหร่ น้ำก็ไม่เหลือเลย\""
+        "th": "\"แปลกจัง ตักเท่าไหร่ น้ำก็ไม่เหลือเลย\"",
+        "si": "\"අමුතුයි නේ. කොච්චර ඇද්දත්, වතුර ටිකක්වත් ඉතුරු වෙන්නේ නැහැ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2828,7 +3318,8 @@
         "id": "berapa pun.",
         "pt": "por mais que.",
         "my": "ဘယ်လောက် ~~။",
-        "th": "เท่าไหร่ก็"
+        "th": "เท่าไหร่ก็",
+        "si": "「いくら〜ても」 = කොච්චර ~ කළත්."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=192.233,196.169",
       "t": [
@@ -2901,7 +3392,8 @@
         "id": "Sampai di rumah, tak setetes air pun tersisa.",
         "pt": "Ao chegar em casa, não restava uma gota no cesto.",
         "my": "အိမ်ရောက်တော့ တောင်းထဲမှာ ရေ တစ်စက်မှ မကျန်တော့ဘူး။",
-        "th": "พอถึงบ้าน ในตะกร้าไม่เหลือน้ำสักหยด"
+        "th": "พอถึงบ้าน ในตะกร้าไม่เหลือน้ำสักหยด",
+        "si": "ගෙදරට ආවාම, කූඩය ඇතුළේ, එක වතුර බින්දුවක්වත් ඉතුරු වෙලා තිබුණේ නැහැ."
       },
       "vocab": [],
       "grammarNote": {
@@ -2915,7 +3407,8 @@
         "id": "setetes pun.",
         "pt": "uma gota.",
         "my": "တစ်စက်မှ။",
-        "th": "สักหยด"
+        "th": "สักหยด",
+        "si": "「一てきも〜ない」 = එක බින්දුවක්වත් ~ නැහැ."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=197.069,202.34",
       "t": [
@@ -2960,7 +3453,8 @@
         "id": "\"Juan, mana mungkin membawa air pakai keranjang.\"",
         "pt": "\"Juan, não dá para carregar água num cesto.\"",
         "my": "\"ဟွမ်၊ တောင်းနဲ့ ရေ သယ်လို့ ဘယ်ရမလဲ။\"",
-        "th": "\"ฮวน ใช้ตะกร้าขนน้ำได้ที่ไหนกัน\""
+        "th": "\"ฮวน ใช้ตะกร้าขนน้ำได้ที่ไหนกัน\"",
+        "si": "\"හුවාන්, කූඩයකින් වතුර ගෙනියන්න බැහැ නේ.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -2974,7 +3468,8 @@
         "id": "mana mungkin.",
         "pt": "não dá.",
         "my": "ဘယ်ရမလဲ။",
-        "th": "ได้ที่ไหน"
+        "th": "ได้ที่ไหน",
+        "si": "「〜わけがない」 = ~ වෙන්න විදිහක් නැහැ."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=203.24,206.642",
       "t": [
@@ -3027,7 +3522,8 @@
         "id": "\"Tapi Bu, keranjangnya ringan, gampang dibawa!\"",
         "pt": "\"Mas mãe, o cesto era leve e fácil de levar!\"",
         "my": "\"ဒါပေမဲ့ အမေ၊ တောင်းက ပေါ့ပြီး သယ်ရ လွယ်တယ်။\"",
-        "th": "\"แต่แม่ ตะกร้าเบา ถือง่ายดีนะ\""
+        "th": "\"แต่แม่ ตะกร้าเบา ถือง่ายดีนะ\"",
+        "si": "\"ඒත්, අම්මේ, කූඩය සැහැල්ලුයි, ගෙනියන්න ලේසියි.\""
       },
       "vocab": [],
       "grammarNote": {
@@ -3041,7 +3537,8 @@
         "id": "gampang.",
         "pt": "fácil de.",
         "my": "လွယ်။",
-        "th": "ง่าย"
+        "th": "ง่าย",
+        "si": "「〜やすい」 = ~ කරන්න ලේසියි."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=207.542,211.688",
       "t": [
@@ -3110,7 +3607,8 @@
         "id": "Ibu menghela napas dan pergi menimba air sendiri.",
         "pt": "A mãe suspirou e foi buscar a água ela mesma.",
         "my": "အမေက သက်ပြင်းချပြီး ကိုယ်တိုင် ရေခပ်သွားတယ်။",
-        "th": "แม่ถอนหายใจ แล้วไปตักน้ำเอง"
+        "th": "แม่ถอนหายใจ แล้วไปตักน้ำเอง",
+        "si": "අම්මා, සුසුමක් හෙළලා, තනියම වතුර ගේන්න ගියා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3124,7 +3622,8 @@
         "id": "menghela napas.",
         "pt": "suspirar.",
         "my": "သက်ပြင်းချ။",
-        "th": "ถอนหายใจ"
+        "th": "ถอนหายใจ",
+        "si": "「ため息をつく」 = සුසුම් හෙළනවා."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=212.588,217.773",
       "t": [
@@ -3201,7 +3700,8 @@
         "id": "Orang Filipina menceritakan kisah Juan ini kepada anak-anak sambil tertawa.",
         "pt": "Os filipinos contam essas histórias às crianças, rindo.",
         "my": "ဖိလစ်ပိုင်လူတွေက ရယ်ရင်း ဒီလို ဟွမ့် ပုံပြင်တွေကို ကလေးတွေကို ပြောပြကြတယ်။",
-        "th": "คนฟิลิปปินส์เล่าเรื่องฮวนแบบนี้ให้เด็กฟังพลางหัวเราะ"
+        "th": "คนฟิลิปปินส์เล่าเรื่องฮวนแบบนี้ให้เด็กฟังพลางหัวเราะ",
+        "si": "පිලිපීන මිනිස්සු, මේ වගේ හුවාන්ගේ කතා, හිනා වෙවී, ළමයින්ට කියලා දෙනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3215,7 +3715,8 @@
         "id": "menceritakan.",
         "pt": "contar.",
         "my": "ပြောပြ။",
-        "th": "เล่าให้ฟัง"
+        "th": "เล่าให้ฟัง",
+        "si": "「話して聞かせる」 = (කෙනෙකුට) කියලා දෙනවා."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=218.373,225.262",
       "t": [
@@ -3252,7 +3753,8 @@
         "id": "Lalu berkata, \"Jangan seperti Juan Tamad, ya.\"",
         "pt": "E dizem: \"Não vá ficar como o Juan Tamad!\"",
         "my": "ပြီးတော့ \"ဟွမ် တာမတ်လို မဖြစ်စေနဲ့နော်\" လို့ ပြောကြတယ်။",
-        "th": "แล้วก็บอกว่า \"อย่าเป็นแบบฮวน ตามัดนะ\""
+        "th": "แล้วก็บอกว่า \"อย่าเป็นแบบฮวน ตามัดนะ\"",
+        "si": "ඊට පස්සේ, \"හුවාන් තමද් වගේ වෙන්න එපා\" කියනවා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3266,7 +3768,8 @@
         "id": "jangan.",
         "pt": "não vá.",
         "my": "မ~နဲ့။",
-        "th": "อย่า"
+        "th": "อย่า",
+        "si": "「〜ちゃだめ」 = ~ වෙන්න එපා."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=225.862,230.518",
       "t": [
@@ -3331,7 +3834,8 @@
         "id": "Jepang juga punya dongeng tentang pemalas: \"Monogusa Taro\".",
         "pt": "O Japão também tem um conto sobre um preguiçoso: \"Monogusa Taro\".",
         "my": "ဂျပန်မှာလည်း ပျင်းသူ ပါတဲ့ ပုံပြင် ရှိတယ်။ အဲဒါက \"မိုနိုဂုဆ တာရို\" ပါ။",
-        "th": "ญี่ปุ่นก็มีนิทานเรื่องคนขี้เกียจ นั่นคือ \"โมโนกุสะ ทาโร่\""
+        "th": "ญี่ปุ่นก็มีนิทานเรื่องคนขี้เกียจ นั่นคือ \"โมโนกุสะ ทาโร่\"",
+        "si": "ජපානයෙත්, කම්මැලියෙක් එන ජන කතාවක් තියෙනවා. ඒ, \"මොනොගුසා තාරෝ\"."
       },
       "vocab": [],
       "grammarNote": {
@@ -3345,7 +3849,8 @@
         "id": "malas.",
         "pt": "preguiça.",
         "my": "ပျင်း။",
-        "th": "ขี้เกียจ"
+        "th": "ขี้เกียจ",
+        "si": "「ものぐさ」 = කම්මැලි, අලස."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=231.118,238.116",
       "t": [
@@ -3406,7 +3911,8 @@
         "id": "Monogusa Taro adalah pria yang berbaring di jalan tanpa berbuat apa-apa.",
         "pt": "Monogusa Taro era um homem que ficava deitado na estrada sem fazer nada.",
         "my": "မိုနိုဂုဆ တာရိုက လမ်းပေါ်မှာ လှဲနေပြီး ဘာမှ မလုပ်တဲ့ လူပါ။",
-        "th": "โมโนกุสะ ทาโร่เป็นคนที่นอนอยู่ริมถนน ไม่ทำอะไรเลย"
+        "th": "โมโนกุสะ ทาโร่เป็นคนที่นอนอยู่ริมถนน ไม่ทำอะไรเลย",
+        "si": "මොනොගුසා තාරෝ, පාරේ වැතිරිලාම, මොකුත් නොකරන මිනිහෙක්."
       },
       "vocab": [],
       "grammarNote": {
@@ -3420,7 +3926,8 @@
         "id": "sambil.",
         "pt": "ficar.",
         "my": "နေပြီး။",
-        "th": "อยู่"
+        "th": "อยู่",
+        "si": "「〜たまま」 = ~ විදිහටම."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=238.716,244.221",
       "t": [
@@ -3489,7 +3996,8 @@
         "id": "Suatu hari, mochi yang sedang dimakannya jatuh ke jalan.",
         "pt": "Um dia, ele deixou cair na estrada o bolinho de arroz que comia.",
         "my": "တစ်နေ့ စားနေတဲ့ မိုချိ မုန့်ကို လမ်းပေါ် ပြုတ်ကျသွားတယ်။",
-        "th": "วันหนึ่ง เขาทำโมจิที่กินอยู่ตกลงบนถนน"
+        "th": "วันหนึ่ง เขาทำโมจิที่กินอยู่ตกลงบนถนน",
+        "si": "දවසක්, කමින් හිටපු රයිස් කේක් එක, පාරට වැටුණා."
       },
       "vocab": [],
       "grammarNote": {
@@ -3503,7 +4011,8 @@
         "id": "jatuh.",
         "pt": "deixar cair.",
         "my": "ပြုတ်ကျ။",
-        "th": "ทำตก"
+        "th": "ทำตก",
+        "si": "「落としてしまう」 = නොදැනීම බිම දානවා."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=244.821,249.05",
       "t": [
@@ -3564,7 +4073,8 @@
         "id": "Tapi malas memungut, konon ia menunggu tiga hari sampai ada orang lewat.",
         "pt": "Mas, com preguiça de pegar, dizem que esperou três dias alguém passar.",
         "my": "ဒါပေမဲ့ ကောက်ရမှာ ပျင်းလို့ တစ်ယောက်ယောက် ဖြတ်သွားတာကို သုံးရက်တောင် စောင့်နေခဲ့တယ်တဲ့။",
-        "th": "แต่ขี้เกียจเก็บ เลยรอคนเดินผ่านถึงสามวันเลยทีเดียว"
+        "th": "แต่ขี้เกียจเก็บ เลยรอคนเดินผ่านถึงสามวันเลยทีเดียว",
+        "si": "ඒත්, අහුලගන්න කම්මැලි නිසා, කවුරු හරි එතනින් යනකම්, දවස් තුනක්ම බලාගෙන හිටියාලු."
       },
       "vocab": [],
       "grammarNote": {
@@ -3578,7 +4088,8 @@
         "id": "sampai.",
         "pt": "três dias.",
         "my": "တောင်။",
-        "th": "ถึง"
+        "th": "ถึง",
+        "si": "「三日も」 = දවස් තුනක්ම."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=249.65,255.585",
       "t": [
@@ -3643,7 +4154,8 @@
         "id": "Mirip sekali dengan Juan yang menunggu buah jatuh dengan mulut terbuka.",
         "pt": "Igualzinho ao Juan esperando a fruta cair de boca aberta.",
         "my": "ပါးစပ်ဟပြီး အသီး ကြွေတာကို စောင့်တဲ့ ဟွမ်နဲ့ တကယ် တူတယ်နော်။",
-        "th": "เหมือนฮวนที่อ้าปากรอลูกไม้หล่นจริงๆ"
+        "th": "เหมือนฮวนที่อ้าปากรอลูกไม้หล่นจริงๆ",
+        "si": "කට ඇරගෙන ගෙඩි වැටෙනකම් බලාගෙන ඉන්න හුවාන්ට, ඇත්තටම හරිම සමානයි නේද."
       },
       "vocab": [],
       "grammarNote": {
@@ -3657,7 +4169,8 @@
         "id": "mirip.",
         "pt": "igual.",
         "my": "တူ။",
-        "th": "เหมือน"
+        "th": "เหมือน",
+        "si": "「〜とにている」 = ~ ට සමානයි."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=256.185,261.313",
       "t": [
@@ -3742,7 +4255,8 @@
         "id": "Tapi kemudian Monogusa Taro pergi ke ibu kota, bekerja keras, dan akhirnya bahagia.",
         "pt": "Mas depois Monogusa Taro foi à capital, trabalhou com afinco e acabou feliz.",
         "my": "ဒါပေမဲ့ နောက်ပိုင်း မိုနိုဂုဆ တာရိုက မြို့တော်ကို သွားပြီး ကြိုးစား အလုပ်လုပ်လို့ နောက်ဆုံး ပျော်ရွှင်သွားတယ်။",
-        "th": "แต่หลังจากนั้น โมโนกุสะ ทาโร่ไปเมืองหลวง ทำงานอย่างขยัน สุดท้ายก็มีความสุข"
+        "th": "แต่หลังจากนั้น โมโนกุสะ ทาโร่ไปเมืองหลวง ทำงานอย่างขยัน สุดท้ายก็มีความสุข",
+        "si": "ඒත්, මොනොගුසා තාරෝ, ඊට පස්සේ, අගනුවරට ගිහින් හිත දීලා වැඩ කරලා, අන්තිමට, සතුටින් ඉන්නවා."
       },
       "vocab": [
         {
@@ -3759,7 +4273,8 @@
             "id": "bahagia",
             "pt": "felicidade",
             "my": "ပျော်ရွှင်မှု",
-            "th": "ความสุข"
+            "th": "ความสุข",
+            "si": "සතුට, සතුටු"
           },
           "level": "N3"
         }
@@ -3775,7 +4290,8 @@
         "id": "tapi.",
         "pt": "mas.",
         "my": "ဒါပေမဲ့။",
-        "th": "แต่"
+        "th": "แต่",
+        "si": "「ところが」 = ඒත් (අනපේක්ෂිතව)."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=261.913,270.26",
       "t": [
@@ -3820,7 +4336,8 @@
         "id": "Sedangkan Juan tetap pemalas selamanya.",
         "pt": "Já o Juan continua preguiçoso para sempre.",
         "my": "ဟွမ်ကတော့ အမြဲတမ်း ပျင်းသူ ဖြစ်နေတုန်းပဲ။",
-        "th": "ส่วนฮวน ก็ขี้เกียจอยู่อย่างนั้นตลอดไป"
+        "th": "ส่วนฮวน ก็ขี้เกียจอยู่อย่างนั้นตลอดไป",
+        "si": "හුවාන් නම්, කොච්චර කාලයක් ගියත්, කම්මැලියාමයි."
       },
       "vocab": [],
       "grammarNote": {
@@ -3834,7 +4351,8 @@
         "id": "tetap.",
         "pt": "continua.",
         "my": "တုန်းပဲ။",
-        "th": "อยู่อย่างนั้น"
+        "th": "อยู่อย่างนั้น",
+        "si": "「〜のまま」 = ~ විදිහටම."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=270.86,275.6",
       "t": [
@@ -3907,7 +4425,8 @@
         "id": "Kisah Jepang: \"Pemalas pun bisa berubah\"; kisah Filipina: \"Malas itu merugikan.\"",
         "pt": "O conto japonês diz \"até o preguiçoso pode mudar\"; o filipino, \"preguiça dá prejuízo\".",
         "my": "ဂျပန်ပုံပြင်က \"ပျင်းသူလည်း ပြောင်းလဲနိုင်တယ်\"၊ ဖိလစ်ပိုင်ပုံပြင်က \"ပျင်းရင် နစ်နာမယ်\"။",
-        "th": "นิทานญี่ปุ่นบอกว่า \"คนขี้เกียจก็เปลี่ยนได้\" ส่วนนิทานฟิลิปปินส์บอกว่า \"ขี้เกียจแล้วจะเสียเปรียบ\""
+        "th": "นิทานญี่ปุ่นบอกว่า \"คนขี้เกียจก็เปลี่ยนได้\" ส่วนนิทานฟิลิปปินส์บอกว่า \"ขี้เกียจแล้วจะเสียเปรียบ\"",
+        "si": "ජපන් කතාව \"කම්මැලියාටත් වෙනස් වෙන්න පුළුවන්\", පිලිපීන කතාව \"කම්මැලි වුණොත්, පාඩුයි\"."
       },
       "vocab": [],
       "grammarNote": {
@@ -3921,7 +4440,8 @@
         "id": "rugi.",
         "pt": "prejuízo.",
         "my": "နစ်နာ။",
-        "th": "เสียเปรียบ"
+        "th": "เสียเปรียบ",
+        "si": "「損をする」 = පාඩු වෙනවා."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=276.2,283.919",
       "t": [
@@ -3986,7 +4506,8 @@
         "id": "Sama-sama kisah pemalas, tapi pelajarannya sedikit beda. Menarik, ya.",
         "pt": "Ambas falam de preguiçosos, mas a lição é um pouco diferente. Interessante, não?",
         "my": "ပျင်းသူ ပုံပြင် ချင်း တူပေမဲ့ သင်ခန်းစာ နည်းနည်း ကွာတာ စိတ်ဝင်စားစရာပဲ။",
-        "th": "เป็นนิทานคนขี้เกียจเหมือนกัน แต่บทเรียนต่างกันนิดหน่อย น่าสนใจนะ"
+        "th": "เป็นนิทานคนขี้เกียจเหมือนกัน แต่บทเรียนต่างกันนิดหน่อย น่าสนใจนะ",
+        "si": "එකම කම්මැලියෙකුගේ කතා වුණත්, උගන්වන දේ ටිකක් වෙනස් වෙන එක, රසවත් නේද."
       },
       "vocab": [],
       "grammarNote": {
@@ -4000,7 +4521,8 @@
         "id": "sama-sama.",
         "pt": "mesmo.",
         "my": "ချင်း တူပေမဲ့။",
-        "th": "เหมือนกันแต่"
+        "th": "เหมือนกันแต่",
+        "si": "「同じ〜でも」 = එකම ~ වුණත්."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=284.519,291.499",
       "t": [
@@ -4045,7 +4567,8 @@
         "id": "Kamu ingin berteman dengan Juan atau Taro?",
         "pt": "Com quem você queria ser amigo, Juan ou Taro?",
         "my": "ဟွမ်နဲ့ တာရို ဘယ်သူနဲ့ သူငယ်ချင်း ဖြစ်ချင်လဲ။",
-        "th": "คุณอยากเป็นเพื่อนกับฮวนหรือทาโร่"
+        "th": "คุณอยากเป็นเพื่อนกับฮวนหรือทาโร่",
+        "si": "ඔයාලා, හුවාන්ද තාරෝද, කාත් එක්ක යාළු වෙන්නද කැමති?"
       },
       "vocab": [],
       "grammarNote": {
@@ -4059,7 +4582,8 @@
         "id": "yang mana.",
         "pt": "qual.",
         "my": "ဘယ်သူ။",
-        "th": "ไหน"
+        "th": "ไหน",
+        "si": "「どちら」 = (දෙකෙන්) මොකක්ද."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=292.099,297.081",
       "t": [
@@ -4112,7 +4636,8 @@
         "id": "Tapi sebenarnya, mungkin di hati setiap orang ada sedikit Juan.",
         "pt": "Mas, na verdade, talvez haja um pouco de Juan em todos nós.",
         "my": "ဒါပေမဲ့ တကယ်တော့ လူတိုင်းရဲ့ စိတ်ထဲမှာ ဟွမ် နည်းနည်း ရှိနေမလား မသိဘူးနော်။",
-        "th": "แต่ความจริง ในใจทุกคนอาจมีฮวนอยู่นิดหน่อยก็ได้"
+        "th": "แต่ความจริง ในใจทุกคนอาจมีฮวนอยู่นิดหน่อยก็ได้",
+        "si": "ඒත්, ඇත්තටම, හැමෝගෙම හිතේ, පොඩ්ඩක් විතර, හුවාන් කෙනෙක් ඉන්නවා වෙන්න පුළුවන් නේද."
       },
       "vocab": [],
       "grammarNote": {
@@ -4126,7 +4651,8 @@
         "id": "mungkin.",
         "pt": "talvez.",
         "my": "မလား မသိ။",
-        "th": "อาจ"
+        "th": "อาจ",
+        "si": "「〜かもしれない」 = ~ වෙන්න පුළුවන්."
       },
       "audio": "/audio/furusato-ph-juan-1/chapter.mp3#t=297.681,304.599",
       "t": [
