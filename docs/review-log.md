@@ -1134,3 +1134,17 @@ Lô này thêm 3 chương VIP chuẩn v2, ưu tiên N2 vì kệ đang thiếu c�
 - Không thêm giọng mới.
 - QC từng chương ở `content/stories/life-*.qc.md`.
 - Kệ hiện có 34 chương: 6 chương N2, 16 chương N3 và 12 chương N4.
+
+## Kệ quê hương: Chí Phèo và Tắt đèn, N2 (nhánh claude/furusato-vn-4)
+
+Văn học hiện thực Việt Nam ở mức N2, đều là tác phẩm thuộc phạm vi công cộng (Nam Cao mất 1951, Ngô Tất Tố mất 1954). Có đủ bản dịch 10 ngôn ngữ, tab Bài học, audio liền mạch và bìa bunko:
+
+| ID | Nội dung | Commit |
+|---|---|---|
+| furusato-vn-chipheo | Chí Phèo (Nam Cao), 65 câu, 8.2 phút | b87ce905 |
+| furusato-vn-tatden-1 | Tắt đèn phần 1: bán cái Tý nộp sưu, 43 câu | 3c111711 |
+| furusato-vn-tatden-2 | Tắt đèn phần 2: Tức nước vỡ bờ, đêm chạy trốn, 42 câu | 3c111711 |
+
+- Thêm vào ROMAJI_FIX trong build.mjs: 芥川龍之介, タッ・デン, ゴー・タッ・トー, 小林多喜二.
+- Motif bìa mới: chipheo, tatden1, tatden2.
+- Luồng "Đắc nhân tâm" đã giữ các ID: furusato-vn-vantien-*, furusato-vn-namcao-* (truyện Nam Cao khác), furusato-vn-giongto-*, furusato-vn-honbuom-*. Đừng dùng trùng.
