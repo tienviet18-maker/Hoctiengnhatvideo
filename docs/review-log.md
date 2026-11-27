@@ -1236,3 +1236,9 @@ Nhánh `claude/famous-books-4`. Trọn bộ 3 tập N3, kệ `book-spirit`, ch�
 - Bản quyền: "Nhà giả kim" còn bản quyền nên đây là truyện gốc hoàn toàn (nhân vật, bối cảnh Nhật hiện đại), chỉ mượn các ý nổi tiếng. Bìa ghi "Cảm hứng từ «Nhà giả kim»" và tựa phổ biến của sách ở từng ngôn ngữ (vd. 연금술사, O Alquimista, ขุมทรัพย์สุดปลายฝัน). Kết truyện nhắc truyện cổ Hida 「味噌買い橋」 (công cộng) cùng mô-típ.
 - Sửa thêm: đáp án câu hỏi trong lesson tính từ 1 (tập 1 đã ghi nhầm kiểu tính từ 0, sửa trước khi xuất bản).
 - Muse: id `life-yume-*` thuộc khối books.
+
+## Sửa audio 夢の地図: tên 灯 bị TTS đọc thành "ひ" — 27/11/2026
+
+- So sánh độ dài audio Neural2 (đầu ra cố định): 「灯は二十五歳。」 dài gần bằng 「ひは…」, ngắn hơn hẳn 「あかりは…」, nên TTS đọc tên nhân vật sai.
+- `scripts/produce/tts.mjs` thêm khoá front matter `tts_say: 灯台=灯台, 灯=あかり`: chỉ đổi chữ gửi cho TTS, không đổi chữ hiển thị (khoá dài khớp trước để giữ từ ghép). Đã tạo lại audio và mốc thời gian life-yume-1..3 (dài thêm 1–6 giây/tập).
+- Kiểm thêm: 源さん, 美智子, 灯台 đọc đúng. Truyện mới dùng tên nhân vật một chữ Hán thì kiểm cách đọc TTS hoặc viết tên bằng katakana.
