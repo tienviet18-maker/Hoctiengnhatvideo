@@ -16246,6 +16246,138 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/life-tane-3/chapter.mp3",
    "durationSec": 267.58
   }
+ },
+ {
+  "id": "life-hana-1",
+  "titles": {
+   "vi": "Chiếc chuông của bà Hoa",
+   "en": "Mrs. Hoa's Bell",
+   "zh-Hans": "阿花奶奶的钟",
+   "zh-Hant": "阿花奶奶的鐘",
+   "ko": "호아 할머니의 종",
+   "tl": "Ang Kampana ni Lola Hoa",
+   "ne": "होआ हजुरआमाको घण्टी",
+   "id": "Lonceng Nenek Hoa",
+   "pt": "O Sino da Dona Hoa",
+   "my": "ဟွာ အဖွားရဲ့ ခေါင်းလောင်း",
+   "th": "ระฆังของคุณยายฮวา"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 46,
+  "cover": "/covers/life-hana-1.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-hana",
+   "index": 1
+  },
+  "shelf": "book-mind",
+  "audioTrack": {
+   "src": "/audio/life-hana-1/chapter.mp3",
+   "durationSec": 293.45
+  }
+ },
+ {
+  "id": "life-hana-2",
+  "titles": {
+   "vi": "Rửa bát để rửa bát",
+   "en": "Washing Dishes to Wash Dishes",
+   "zh-Hans": "为了洗碗而洗碗",
+   "zh-Hant": "為了洗碗而洗碗",
+   "ko": "설거지를 위한 설거지",
+   "tl": "Maghugas Para Maghugas",
+   "ne": "भाँडा माझ्नकै लागि माझ्ने",
+   "id": "Mencuci Piring untuk Mencuci Piring",
+   "pt": "Lavar Pratos para Lavar Pratos",
+   "my": "ပန်းကန်ဆေးဖို့ ပန်းကန်ဆေးခြင်း",
+   "th": "ล้างจานเพื่อล้างจาน"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 46,
+  "cover": "/covers/life-hana-2.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-hana",
+   "index": 2
+  },
+  "shelf": "book-mind",
+  "audioTrack": {
+   "src": "/audio/life-hana-2/chapter.mp3",
+   "durationSec": 282.07
+  }
+ },
+ {
+  "id": "life-hana-3",
+  "titles": {
+   "vi": "Mây không chết",
+   "en": "The Cloud Does Not Die",
+   "zh-Hans": "云不会死",
+   "zh-Hant": "雲不會死",
+   "ko": "구름은 죽지 않는다",
+   "tl": "Hindi Namamatay ang Ulap",
+   "ne": "बादल मर्दैन",
+   "id": "Awan Tidak Mati",
+   "pt": "A Nuvem Não Morre",
+   "my": "တိမ်တွေ မသေဘူး",
+   "th": "เมฆไม่ตาย"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 46,
+  "cover": "/covers/life-hana-3.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-hana",
+   "index": 3
+  },
+  "shelf": "book-mind",
+  "audioTrack": {
+   "src": "/audio/life-hana-3/chapter.mp3",
+   "durationSec": 272.86
+  }
  }
 ];
 

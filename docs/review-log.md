@@ -1270,3 +1270,21 @@ Nhánh `claude/famous-books-6`. Trọn bộ 3 tập N3, kệ `book-spirit`, ch�
 - Bản quyền: "Muôn kiếp nhân sinh" còn bản quyền nên đây là truyện gốc hoàn toàn, chỉ mượn ý nhân quả và luân hồi. Kiếp trước được để ngỏ, không khẳng định như sự thật.
 - Bìa: dòng phụ tiếng Anh dùng tựa bản dịch "Many Lives, Many Times"; các ngôn ngữ chưa có bản dịch chính thức giữ tựa tiếng Việt "Muôn kiếp nhân sinh".
 - Muse: id `life-tane-*` thuộc khối books.
+
+## Mục "Sách nổi tiếng" — đợt 7: ひと息の花 (cảm hứng từ 3 sách của Thích Nhất Hạnh) — 27/11/2026
+
+Nhánh `claude/famous-books-7`. Trọn bộ 3 tập N3, kệ `book-mind` (bìa ghi こころの本), chủ đề self-help, `register.mjs --block=books`. Mỗi tập cảm hứng từ một cuốn, nên dòng phụ trên bìa của mỗi tập ghi đúng tựa cuốn đó.
+
+| id | Tựa | Cảm hứng từ | Nội dung | Câu | Audio | Truy cập |
+|---|---|---|---|---|---|---|
+| life-hana-1 | ホアさんの鐘 | Từng bước nở hoa sen | Chinatsu, 26 tuổi, dân văn phòng Osaka dán mắt vào điện thoại, gặp bà Hoa (quán phở Việt). Bà dạy "chuông chánh niệm": chuông reo thì thở ba lần, tự chọn chuông của mình (điện thoại, đèn đỏ, mở cửa). Bị sếp mắng thì thở trước; cơn giận như em bé đang khóc, ôm nhẹ là được. | 46 | 4:53 | miễn phí |
+| life-hana-2 | お皿を洗うために | Thiền tập cho người bận rộn | Mùa chạy hạn chót. Rửa bát ở quán bà Hoa: "rửa bát để rửa bát". Chữ 忙 = 忄 + 亡 (bận là mất tâm). Ăn trưa không màn hình, mỗi lúc một việc; giúp đàn em Daiki đang hoảng loạn liệt kê việc ra giấy, làm từng việc một. | 46 | 4:42 | VIP |
+| life-hana-3 | 雲は死なない | Không diệt không sinh đừng sợ hãi | Bà của Chinatsu ở Nagano mất. Bà Hoa: mây không chết mà thành mưa, mưa nuôi lá trà trong tay cháu; mẹ bà Hoa vẫn sống trong vị phở. Tháng sáu, Chinatsu cùng mẹ làm mơ muối theo sổ của bà và thấy bàn tay mình giống tay bà. | 46 | 4:33 | VIP |
+
+- Bản quyền: cả 3 sách còn bản quyền. Đây là truyện gốc, chỉ mượn những ý nổi tiếng (chuông chánh niệm, thở, đi từng bước, rửa bát để rửa bát, ôm cơn giận, mây thành mưa). Không dùng câu chữ hay bài kệ của sách.
+- Bìa: dòng phụ tiếng Anh của tập 3 dùng tựa bản dịch "No Death, No Fear". Tập 1 và 2 giữ tựa tiếng Việt ở mọi ngôn ngữ vì không có tựa dịch tương ứng chắc chắn.
+- Giọng: Aoede kể; Chinatsu Neural2-B 1.02/+1; bà Hoa Neural2-B 0.88/−4; Daiki Neural2-C 1.05/+2; bà nội (hồi ức, 1 câu) Neural2-B 0.82/−7.
+- `tts_say`: 千夏=ちなつ, 大樹=だいき, 二分=にふん, 十分=じゅっぷん, 三十歳=さんじゅっさい, 「忙」=ぼう (giữ nguyên 忙しい).
+- Đọc: 時間=じかん (vì có 間=あいだ); 忙しい/忙しく viết riêng để không bị override 忙=ぼう tách; 手伝い=てつだい; 時=とき.
+- Bài học: 〜のに / 〜ばいい / 〜ても〜ても; 〜ために / 〜なくてもいい / 〜ようになる; 〜ているうちに / 〜たびに / 〜ような気がする. Mỗi tập 4 câu hỏi, đáp án không trùng một số.
+- Muse: id `life-hana-*` thuộc khối books.
