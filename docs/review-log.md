@@ -1221,3 +1221,18 @@ Nhánh `claude/famous-books-3`. 2 chương N2, kệ `book-east`, chủ đề tri
 | 36 | Trung bình | Kênh Peppa Pig 公式 có hàng chục tập 307 giây (おかたづけ, ランチ, キャンプ, はくぶつかん…) — nguồn hoạt hình N5–N4 ổn định cho các đợt sau. | — |
 
 **Cho Muse — tránh trùng**: đã dùng `Yif3a5eW_-E` (24–280s).
+
+
+## Mục "Sách nổi tiếng" — đợt 4: 夢の地図 (cảm hứng từ «Nhà giả kim») — 27/11/2026
+
+Nhánh `claude/famous-books-4`. Trọn bộ 3 tập N3, kệ `book-spirit`, chủ đề self-help, `register.mjs --block=books`. Đợt đầu theo yêu cầu "đẩy mạnh sách giới trẻ đang đọc".
+
+| id | Tựa | Nội dung | Câu | Audio | Truy cập |
+|---|---|---|---|---|---|
+| life-yume-1 | 灯台の夢 | Akari bỏ ca đêm Tokyo, theo giấc mơ lên Kanazawa | 47 | 5:08 | miễn phí |
+| life-yume-2 | 金継ぎの冬 | nhà trọ, nghệ nhân kintsugi, dấu hiệu và kiên nhẫn | 47 | 5:05 | VIP |
+| life-yume-3 | 椿の下の宝物 | kho báu ở quê nhà, mở lại quán của bà | 47 | 5:24 | VIP |
+
+- Bản quyền: "Nhà giả kim" còn bản quyền nên đây là truyện gốc hoàn toàn (nhân vật, bối cảnh Nhật hiện đại), chỉ mượn các ý nổi tiếng. Bìa ghi "Cảm hứng từ «Nhà giả kim»" và tựa phổ biến của sách ở từng ngôn ngữ (vd. 연금술사, O Alquimista, ขุมทรัพย์สุดปลายฝัน). Kết truyện nhắc truyện cổ Hida 「味噌買い橋」 (công cộng) cùng mô-típ.
+- Sửa thêm: đáp án câu hỏi trong lesson tính từ 1 (tập 1 đã ghi nhầm kiểu tính từ 0, sửa trước khi xuất bản).
+- Muse: id `life-yume-*` thuộc khối books.

@@ -15850,6 +15850,138 @@ export const STORY_INDEX: StoryIndexItem[] = [
    "src": "/audio/life-ekikyo-2/chapter.mp3",
    "durationSec": 364.34
   }
+ },
+ {
+  "id": "life-yume-1",
+  "titles": {
+   "vi": "Giấc mơ ngọn hải đăng",
+   "en": "The Lighthouse Dream",
+   "zh-Hans": "灯塔之梦",
+   "zh-Hant": "燈塔之夢",
+   "ko": "등대의 꿈",
+   "tl": "Ang Panaginip ng Parola",
+   "ne": "प्रकाशस्तम्भको सपना",
+   "id": "Mimpi Mercusuar",
+   "pt": "O Sonho do Farol",
+   "my": "မီးပြတိုက်အိပ်မက်",
+   "th": "ความฝันถึงประภาคาร"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": true,
+  "sentenceCount": 47,
+  "cover": "/covers/life-yume-1.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-yume",
+   "index": 1
+  },
+  "shelf": "book-spirit",
+  "audioTrack": {
+   "src": "/audio/life-yume-1/chapter.mp3",
+   "durationSec": 308.18
+  }
+ },
+ {
+  "id": "life-yume-2",
+  "titles": {
+   "vi": "Mùa đông Kintsugi",
+   "en": "The Kintsugi Winter",
+   "zh-Hans": "金缮之冬",
+   "zh-Hant": "金繕之冬",
+   "ko": "킨쓰기의 겨울",
+   "tl": "Ang Taglamig ng Kintsugi",
+   "ne": "किन्चुगीको जाडो",
+   "id": "Musim Dingin Kintsugi",
+   "pt": "O Inverno do Kintsugi",
+   "my": "ကင်းဆူဂီ ဆောင်းရာသီ",
+   "th": "ฤดูหนาวแห่งคินสึงิ"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 47,
+  "cover": "/covers/life-yume-2.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-yume",
+   "index": 2
+  },
+  "shelf": "book-spirit",
+  "audioTrack": {
+   "src": "/audio/life-yume-2/chapter.mp3",
+   "durationSec": 304.56
+  }
+ },
+ {
+  "id": "life-yume-3",
+  "titles": {
+   "vi": "Kho báu dưới gốc hoa trà",
+   "en": "The Treasure Under the Camellia",
+   "zh-Hans": "山茶树下的宝物",
+   "zh-Hant": "山茶樹下的寶物",
+   "ko": "동백나무 아래의 보물",
+   "tl": "Ang Kayamanan sa Ilalim ng Kamelya",
+   "ne": "कमेलियामुनिको खजाना",
+   "id": "Harta di Bawah Pohon Kamelia",
+   "pt": "O Tesouro sob a Camélia",
+   "my": "ကမေလီယာပင်အောက်က ရတနာ",
+   "th": "สมบัติใต้ต้นคามิเลีย"
+  },
+  "level": "N3",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 47,
+  "cover": "/covers/life-yume-3.webp",
+  "coverLangs": [
+   "vi",
+   "en",
+   "zh-Hans",
+   "zh-Hant",
+   "ko",
+   "tl",
+   "ne",
+   "id",
+   "pt",
+   "my",
+   "th"
+  ],
+  "series": {
+   "id": "life-yume",
+   "index": 3
+  },
+  "shelf": "book-spirit",
+  "audioTrack": {
+   "src": "/audio/life-yume-3/chapter.mp3",
+   "durationSec": 323.81
+  }
  }
 ];
 
