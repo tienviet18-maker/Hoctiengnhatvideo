@@ -328,6 +328,8 @@ export async function build(file, { mode } = {}) {
     topic: meta.topic,
     source: meta.source,
     cover: `/covers/${meta.id}.webp`,
+    // Bìa có dòng tên sách theo ngôn ngữ người đọc (cover_book): cover.mjs dựng thêm <id>.<lang>.webp
+    ...(meta.cover_book ? { coverLangs: LANGS } : {}),
     free: meta.free === "true",
     standard: 2,
     ...(meta.series ? { series: { id: meta.series, index: Number(meta.index) } } : {}),
