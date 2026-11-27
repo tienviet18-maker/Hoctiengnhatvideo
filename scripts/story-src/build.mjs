@@ -68,7 +68,7 @@ function attaches(t, prev) {
   if (t.pos === "動詞" && prev.pos === "名詞" && prev.pos_detail_1 === "サ変接続" && t.basic_form === "する") return true;
   return false;
 }
-const ROMAJI_FIX = { こんにちは: "konnichiwa", じつは: "jitsu wa", 本当は: "hontou wa", ラプンツェル: "Rapuntseru", あっという間: "atto iu ma", こんばんは: "konbanwa", にかけて: "ni kakete", という: "to iu", といった: "to itta", として: "to shite", について: "ni tsuite", にとって: "ni totte", によって: "ni yotte", のように: "no you ni", 土から: "tsuchi kara", 土に: "tsuchi ni", けしの実: "keshi no mi", 夜の森: "yoru no mori", 木の下: "ki no shita", 元の: "moto no", 山の上: "yama no ue", にまつわる: "ni matsuwaru", 金の印: "kin no in", 海の底: "umi no soko", 陸の方: "riku no kata", 山のふもと: "yama no fumoto", 何が何だか: "nani ga nan da ka", 実は: "jitsu wa" };
+const ROMAJI_FIX = { こんにちは: "konnichiwa", じつは: "jitsu wa", 本当は: "hontou wa", ラプンツェル: "Rapuntseru", あっという間: "atto iu ma", こんばんは: "konbanwa", にかけて: "ni kakete", という: "to iu", といった: "to itta", として: "to shite", について: "ni tsuite", にとって: "ni totte", によって: "ni yotte", のように: "no you ni", 土から: "tsuchi kara", 土に: "tsuchi ni", けしの実: "keshi no mi", 夜の森: "yoru no mori", 木の下: "ki no shita", 元の: "moto no", 山の上: "yama no ue", にまつわる: "ni matsuwaru", 金の印: "kin no in", 海の底: "umi no soko", 陸の方: "riku no kata", 山のふもと: "yama no fumoto", 何が何だか: "nani ga nan da ka", 実は: "jitsu wa", 芥川龍之介: "Akutagawa Ryuunosuke" };
 
 // Tách token có kanji thành [kanji+reading][okurigana] bằng khớp mẫu.
 function splitFurigana(surface, reading) {
