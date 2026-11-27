@@ -802,6 +802,7 @@ import s_furusatoKrTokki1 from "../../content/stories/furusato-kr-tokki-1.json";
 
 // --- kệ S sách nổi tiếng (chuẩn v2): import ---
 import v2LifeDacnhan1 from "../../content/stories/life-dacnhan-1.json";
+import v2LifeDacnhan2 from "../../content/stories/life-dacnhan-2.json";
 // --- hết kệ S sách nổi tiếng: import ---
 
 export const VIDEOS: VideoContent[] = [
@@ -1607,6 +1608,7 @@ export const STORIES: StoryContent[] = [
   s_furusatoKrTokki1 as unknown as StoryContent,
   // --- kệ S sách nổi tiếng (chuẩn v2) ---
   v2LifeDacnhan1 as unknown as StoryContent,
+  v2LifeDacnhan2 as unknown as StoryContent,
   // --- hết kệ S sách nổi tiếng ---
 ];
 
