@@ -1843,6 +1843,30 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "lineCount": 102,
   "clipStart": 1,
   "clipEnd": 284
+ },
+ {
+  "id": "shinchan-playing-with-a-flashlight",
+  "youtubeId": "POlgNMFomiA",
+  "titles": {
+   "vi": "Shin-chan: Chơi với đèn pin (trọn tập)",
+   "en": "Shin-chan: Playing with a flashlight (full episode)",
+   "zh-Hans": "蜡笔小新：玩手电筒（完整集）",
+   "zh-Hant": "蠟筆小新：玩手電筒（完整集）",
+   "ko": "짱구: 손전등 놀이 (전편)",
+   "tl": "Shin-chan: Laro sa flashlight (buong episode)",
+   "ne": "शिन-चान: टर्चसँग खेल (पूरा भाग)",
+   "id": "Shin-chan: Main senter (episode penuh)",
+   "pt": "Shin-chan: Brincando com a lanterna (episódio completo)",
+   "my": "ရှင်ချန်- ဓာတ်မီးနဲ့ကစား (အပိုင်းအပြည့်)",
+   "th": "ชินจัง: เล่นไฟฉาย (เต็มตอน)"
+  },
+  "level": "N4",
+  "category": "anime",
+  "durationSec": 465,
+  "free": false,
+  "lineCount": 121,
+  "clipStart": 0,
+  "clipEnd": 450
  }
 ];
 

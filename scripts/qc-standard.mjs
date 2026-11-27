@@ -27,7 +27,8 @@ for (const kind of ["stories", "videos"]) {
     packs.push(JSON.parse(readFileSync(join(root, "content", kind, f), "utf8")));
   }
 }
-for (const d of packs) for (const s of d.sentences ?? d.lines) if (s.ja.length > 6 && !seen.has(s.ja)) seen.set(s.ja, d.id);
+// Video trọn tập giữ đúng lời thoại (câu cửa miệng, lời giới thiệu cuối tập lặp giữa các tập là bình thường) nên không tính trùng
+for (const d of packs) if (!d.episode) for (const s of d.sentences ?? d.lines) if (s.ja.length > 6 && !seen.has(s.ja)) seen.set(s.ja, d.id);
 
 let errors = 0;
 const legacy = { packs: 0, problems: {} };
@@ -48,7 +49,7 @@ function checkPack(d) {
       if (l && LEVEL_NUM[v.level] !== l) { badTag++; if (badTags.length < 3) badTags.push(`${v.word} ${v.level}→N${l}`); }
       if (!LANGS.every((x) => v.meanings?.[x]?.trim())) missTr++;
     }
-    if (s.ja.length > 6 && seen.get(s.ja) !== d.id) dup++;
+    if (!d.episode && s.ja.length > 6 && seen.get(s.ja) !== d.id) dup++;
   }
   if (missTr) p.push(`${missTr} câu/từ thiếu bản dịch 11 ngôn ngữ`);
   if (missNote) p.push(`${missNote} câu thiếu giải thích (grammarNote) 11 ngôn ngữ`);
