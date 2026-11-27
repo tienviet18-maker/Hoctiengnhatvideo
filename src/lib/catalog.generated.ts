@@ -14072,6 +14072,99 @@ export const STORY_INDEX: StoryIndexItem[] = [
   }
  },
  {
+  "id": "life-seneca-4",
+  "titles": {
+   "vi": "Liều thuốc cho cơn giận",
+   "en": "The Cure for Anger",
+   "zh-Hans": "治愤怒的药",
+   "zh-Hant": "治憤怒的藥",
+   "ko": "분노의 약",
+   "tl": "Ang Gamot sa Galit",
+   "ne": "रिसको औषधि",
+   "id": "Obat untuk Amarah",
+   "pt": "O Remédio da Raiva",
+   "my": "ဒေါသအတွက် ဆေး",
+   "th": "ยารักษาความโกรธ"
+  },
+  "level": "N2",
+  "topic": "philosophy",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 52,
+  "cover": "/covers/life-seneca-4.webp",
+  "series": {
+   "id": "life-seneca",
+   "index": 4
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-seneca-4/chapter.mp3",
+   "durationSec": 319.85
+  }
+ },
+ {
+  "id": "life-gakumon-3",
+  "titles": {
+   "vi": "Kiểm kê lòng mình",
+   "en": "Taking Stock of the Heart",
+   "zh-Hans": "心灵的盘点",
+   "zh-Hant": "心靈的盤點",
+   "ko": "마음의 재고 조사",
+   "tl": "Pag-imbentaryo ng Puso",
+   "ne": "मनको हिसाबकिताब",
+   "id": "Inventaris Hati",
+   "pt": "O Inventário do Coração",
+   "my": "စိတ်ကို စာရင်းစစ်ခြင်း",
+   "th": "ตรวจนับสต็อกในใจ"
+  },
+  "level": "N2",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 54,
+  "cover": "/covers/life-gakumon-3.webp",
+  "series": {
+   "id": "life-gakumon",
+   "index": 3
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-gakumon-3/chapter.mp3",
+   "durationSec": 320.74
+  }
+ },
+ {
+  "id": "life-yukkuri-4",
+  "titles": {
+   "vi": "Chén trà đầy",
+   "en": "The Full Teacup",
+   "zh-Hans": "满满的茶碗",
+   "zh-Hant": "滿滿的茶碗",
+   "ko": "가득 찬 찻잔",
+   "tl": "Ang Punong Tasa",
+   "ne": "भरिएको चियाको कप",
+   "id": "Cangkir yang Penuh",
+   "pt": "A Xícara Cheia",
+   "my": "ပြည့်နေတဲ့ လက်ဖက်ရည်ခွက်",
+   "th": "ถ้วยชาที่เต็ม"
+  },
+  "level": "N4",
+  "topic": "self-help",
+  "source": "original",
+  "free": false,
+  "sentenceCount": 40,
+  "cover": "/covers/life-yukkuri-4.webp",
+  "series": {
+   "id": "life-yukkuri",
+   "index": 4
+  },
+  "shelf": "wisdom",
+  "audioTrack": {
+   "src": "/audio/life-yukkuri-4/chapter.mp3",
+   "durationSec": 187.75
+  }
+ },
+ {
   "id": "mystery-hoichi-1",
   "titles": {
    "vi": "Hōichi không tai (1): Vị khách lúc nửa đêm",
