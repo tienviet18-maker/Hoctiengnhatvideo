@@ -6,8 +6,9 @@
 export function clipWindow(
   lines: readonly { start: number; end: number }[],
   durationSec: number,
+  episode = false,
 ): { start: number; end: number } {
-  if (!lines.length) return { start: 0, end: durationSec };
+  if (!lines.length || episode) return { start: 0, end: durationSec };
   return {
     start: Math.max(0, Math.floor(lines[0].start - 2)),
     end: Math.min(durationSec, Math.ceil(lines[lines.length - 1].end + 1.5)),

@@ -27,7 +27,8 @@ for (const kind of ["stories", "videos"]) {
     packs.push(JSON.parse(readFileSync(join(root, "content", kind, f), "utf8")));
   }
 }
-for (const d of packs) for (const s of d.sentences ?? d.lines) if (s.ja.length > 6 && !seen.has(s.ja)) seen.set(s.ja, d.id);
+// Video trọn tập giữ đúng lời thoại (câu cửa miệng, lời giới thiệu cuối tập lặp giữa các tập là bình thường) nên không tính trùng
+for (const d of packs) if (!d.episode) for (const s of d.sentences ?? d.lines) if (s.ja.length > 6 && !seen.has(s.ja)) seen.set(s.ja, d.id);
 
 let errors = 0;
 const legacy = { packs: 0, problems: {} };
@@ -48,7 +49,7 @@ function checkPack(d) {
       if (l && LEVEL_NUM[v.level] !== l) { badTag++; if (badTags.length < 3) badTags.push(`${v.word} ${v.level}→N${l}`); }
       if (!LANGS.every((x) => v.meanings?.[x]?.trim())) missTr++;
     }
-    if (s.ja.length > 6 && seen.get(s.ja) !== d.id) dup++;
+    if (!d.episode && s.ja.length > 6 && seen.get(s.ja) !== d.id) dup++;
   }
   if (missTr) p.push(`${missTr} câu/từ thiếu bản dịch 11 ngôn ngữ`);
   if (missNote) p.push(`${missNote} câu thiếu giải thích (grammarNote) 11 ngôn ngữ`);
@@ -90,10 +91,13 @@ function checkPack(d) {
   } else {
     const L = d.lines;
     const len = L.length ? L[L.length - 1].end - L[0].start : 0;
-    if (len < CLIP_RULES.length[0] || len > CLIP_RULES.length[1]) p.push(`clip dài ${len.toFixed(0)} giây (chuẩn ${CLIP_RULES.length.join("–")})`);
+    if (d.episode) {
+      // Trọn tập: phụ đề phải phủ gần hết video (chỗ trống chỉ được là nhạc/không lời)
+      if (len < d.durationSec * 0.6) p.push(`trọn tập nhưng phụ đề chỉ phủ ${len.toFixed(0)}/${d.durationSec} giây`);
+    } else if (len < CLIP_RULES.length[0] || len > CLIP_RULES.length[1]) p.push(`clip dài ${len.toFixed(0)} giây (chuẩn ${CLIP_RULES.length.join("–")})`);
     let gaps = 0, long = 0;
     L.forEach((s, i) => {
-      if (i && s.start - L[i - 1].end > CLIP_RULES.maxGap) gaps++;
+      if (i && !d.episode && s.start - L[i - 1].end > CLIP_RULES.maxGap) gaps++;
       if (s.end - s.start > CLIP_RULES.maxLine) long++;
     });
     if (gaps) p.push(`${gaps} khoảng trống phụ đề dài hơn ${CLIP_RULES.maxGap} giây`);
