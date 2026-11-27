@@ -24,6 +24,8 @@ interface YTPlayer {
   pauseVideo(): void;
   setPlaybackRate(rate: number): void;
   destroy(): void;
+  unloadModule?(name: string): void;
+  setOption?(module: string, option: string, value: unknown): void;
 }
 interface YTNamespace {
   Player: new (el: HTMLElement, opts: Record<string, unknown>) => YTPlayer;
@@ -108,11 +110,27 @@ export default function WatchClient({
       if (cancelled || !mountRef.current || !window.YT) return;
       playerRef.current = new window.YT.Player(mountRef.current, {
         videoId: youtubeId,
-        playerVars:
-          clipRef.current.end > clipRef.current.start
-            ? { rel: 0, playsinline: 1, start: clipRef.current.start, end: clipRef.current.end }
-            : { rel: 0, playsinline: 1 },
-        events: { onReady: () => setPlayerReady(true) },
+        // cc_load_policy 0 + gỡ module phụ đề: không cho phụ đề của YouTube đè lên phụ đề furigana của app
+        playerVars: {
+          rel: 0,
+          playsinline: 1,
+          cc_load_policy: 0,
+          iv_load_policy: 3,
+          ...(clipRef.current.end > clipRef.current.start
+            ? { start: Math.floor(clipRef.current.start), end: Math.ceil(clipRef.current.end) }
+            : {}),
+        },
+        events: {
+          onReady: () => setPlayerReady(true),
+          onApiChange: (e: { target: YTPlayer }) => {
+            try {
+              e.target.unloadModule?.("captions");
+              e.target.unloadModule?.("cc");
+            } catch {
+              /* bỏ qua */
+            }
+          },
+        },
       });
     };
     if (window.YT?.Player) {
@@ -156,6 +174,18 @@ export default function WatchClient({
       if (!p) return;
       const t = p.getCurrentTime();
       const state = p.getPlayerState();
+      // Clip cắt từ video dài: không cho tua ra ngoài đoạn học, nếu không phụ đề sẽ lệch so với hình
+      if (clip.end > clip.start && (state === 1 || state === 2)) {
+        if (t < clip.start - 0.5) {
+          p.seekTo(clip.start, true);
+          return;
+        }
+        if (t > clip.end + 0.5) {
+          p.seekTo(clip.start, true);
+          p.pauseVideo();
+          return;
+        }
+      }
       if (state === 0 && video && !endedRef.current) {
         endedRef.current = true;
         const q = queueRef.current;
