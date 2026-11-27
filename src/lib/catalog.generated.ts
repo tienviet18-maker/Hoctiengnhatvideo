@@ -1773,6 +1773,78 @@ export const VIDEO_INDEX: VideoIndexItem[] = [
   "lineCount": 11,
   "clipStart": 70,
   "clipEnd": 130
+ },
+ {
+  "id": "peppa-shopping-list",
+  "youtubeId": "Yif3a5eW_-E",
+  "titles": {
+   "vi": "Peppa Pig: Danh sách đi chợ",
+   "en": "Peppa Pig: The shopping list",
+   "zh-Hans": "小猪佩奇：购物清单",
+   "zh-Hant": "粉紅豬小妹：購物清單",
+   "ko": "페파 피그: 장보기 목록",
+   "tl": "Peppa Pig: Ang listahan ng bibilhin",
+   "ne": "पेपा पिग: किनमेलको सूची",
+   "id": "Peppa Pig: Daftar belanja",
+   "pt": "Peppa Pig: A lista de compras",
+   "my": "ပက်ပါပစ်ဂ်- ဈေးဝယ်စာရင်း",
+   "th": "เป๊ปป้าพิก: รายการซื้อของ"
+  },
+  "level": "N4",
+  "category": "anime",
+  "durationSec": 307,
+  "free": false,
+  "lineCount": 19,
+  "clipStart": 21,
+  "clipEnd": 102
+ },
+ {
+  "id": "peppa-shopping-spaghetti",
+  "youtubeId": "Yif3a5eW_-E",
+  "titles": {
+   "vi": "Peppa Pig: Tìm mì spaghetti và hành tây",
+   "en": "Peppa Pig: Finding spaghetti and onions",
+   "zh-Hans": "小猪佩奇：找意大利面和洋葱",
+   "zh-Hant": "粉紅豬小妹：找義大利麵和洋蔥",
+   "ko": "페파 피그: 스파게티와 양파 찾기",
+   "tl": "Peppa Pig: Paghahanap ng spaghetti at sibuyas",
+   "ne": "पेपा पिग: स्पागेटी र प्याज खोज्दै",
+   "id": "Peppa Pig: Mencari spageti dan bawang bombai",
+   "pt": "Peppa Pig: Procurando espaguete e cebola",
+   "my": "ပက်ပါပစ်ဂ်- စပါဂတ်တီနဲ့ ကြက်သွန်နီ ရှာခြင်း",
+   "th": "เป๊ปป้าพิก: หาสปาเกตตีกับหัวหอม"
+  },
+  "level": "N4",
+  "category": "anime",
+  "durationSec": 307,
+  "free": false,
+  "lineCount": 26,
+  "clipStart": 101,
+  "clipEnd": 176
+ },
+ {
+  "id": "peppa-shopping-cake",
+  "youtubeId": "Yif3a5eW_-E",
+  "titles": {
+   "vi": "Peppa Pig: Quầy thu ngân và chiếc bánh sô-cô-la",
+   "en": "Peppa Pig: The checkout and the chocolate cake",
+   "zh-Hans": "小猪佩奇：收银台和巧克力蛋糕",
+   "zh-Hant": "粉紅豬小妹：收銀台和巧克力蛋糕",
+   "ko": "페파 피그: 계산대와 초콜릿 케이크",
+   "tl": "Peppa Pig: Sa kahera at ang chocolate cake",
+   "ne": "पेपा पिग: काउन्टर र चकलेट केक",
+   "id": "Peppa Pig: Kasir dan kue cokelat",
+   "pt": "Peppa Pig: O caixa e o bolo de chocolate",
+   "my": "ပက်ပါပစ်ဂ်- ငွေရှင်းကောင်တာနဲ့ ချောကလက်ကိတ်",
+   "th": "เป๊ปป้าพิก: แคชเชียร์กับเค้กช็อกโกแลต"
+  },
+  "level": "N4",
+  "category": "anime",
+  "durationSec": 307,
+  "free": false,
+  "lineCount": 28,
+  "clipStart": 180,
+  "clipEnd": 282
  }
 ];
 

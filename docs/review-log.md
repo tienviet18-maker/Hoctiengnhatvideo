@@ -1212,3 +1212,12 @@ Nhánh `claude/famous-books-3`. 2 chương N2, kệ `book-east`, chủ đề tri
 - Bìa "Phỏng theo «Kinh Dịch»" theo 11 ngôn ngữ. Không ghi tựa sách Nguyễn Hiến Lê "Kinh Dịch – Đạo của người quân tử" vì nội dung lấy từ kinh văn gốc, không từ sách đó.
 - Người dùng (27/11) muốn ưu tiên sách giới trẻ đang đọc, nên đợt này dừng ở 2 chương; tập 3 (Chu Công, 謙, 君子豹変) để sau.
 - Muse: id `life-ekikyo-*` thuộc khối books.
+## Đợt 7 — Peppa Pig 「おかいもの」: 3 clip chuẩn v2 (26/11/2026, nhánh `claude/video-peppa-shopping`)
+
+| # | Mức | Việc | PR |
+|---|---|---|---|
+| 34 | **Cao** | 3 gói `standard: 2` từ tập Peppa 「おかいもの」 (`Yif3a5eW_-E`): `peppa-shopping-list` (76s, 19 dòng), `peppa-shopping-spaghetti` (71s, 26 dòng), `peppa-shopping-cake` (97s, 28 dòng), N4, chủ đề đi siêu thị ở Nhật. Lời thoại đối chiếu Whisper + phụ đề tự động; câu không chắc thì bỏ (ghi trong `.qc.md`). | PR này |
+| 35 | Trung bình | Thử まんが日本昔ばなし 「あずき峠」 bằng Whisper: giọng địa phương làm cả Whisper lẫn ASR sai tên riêng (助け?, 大賀茂?), và tập có nhiều đoạn chỉ có nhạc > 8 giây → không cắt được clip 45 giây đạt luật khoảng trống. Hoãn. | — |
+| 36 | Trung bình | Kênh Peppa Pig 公式 có hàng chục tập 307 giây (おかたづけ, ランチ, キャンプ, はくぶつかん…) — nguồn hoạt hình N5–N4 ổn định cho các đợt sau. | — |
+
+**Cho Muse — tránh trùng**: đã dùng `Yif3a5eW_-E` (24–280s).
