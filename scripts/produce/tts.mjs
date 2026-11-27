@@ -19,6 +19,12 @@ const file = process.argv[2];
 const { meta, sentences } = parseSource(file);
 const voices = JSON.parse(readFileSync(join(dirname(file), "voices.json"), "utf8"));
 const cache = join(tmpdir(), "miraigo-tts-cache");
+// tts_say: 灯台=灯台, 灯=あかり — chỉ đổi chữ gửi cho TTS (tên riêng TTS đọc sai), không đổi chữ hiển thị.
+// Khoá dài khớp trước, nên ghi "灯台=灯台" để giữ nguyên từ ghép.
+const say = (meta.tts_say ?? "").split(/[,、]/).map((x) => x.trim()).filter(Boolean).map((x) => x.split("="));
+const sayRe = say.length ? new RegExp(say.map(([k]) => k).sort((a, b) => b.length - a.length).join("|"), "g") : null;
+const sayMap = Object.fromEntries(say);
+const forTts = (t) => (sayRe ? t.replace(sayRe, (m) => sayMap[m]) : t);
 mkdirSync(cache, { recursive: true });
 async function synth(text, v) {
   const audioConfig = { audioEncoding: "LINEAR16", sampleRateHertz: 24000, speakingRate: v.rate ?? 1 };
@@ -61,7 +67,7 @@ for (let i = 0; i < sentences.length; i++) {
   for (const seg of sentences[i].segs) {
     const v = voices[seg.role];
     if (!v) throw new Error(`câu ${i + 1}: vai "${seg.role}" chưa có trong voices.json`);
-    const text = seg.text.replace(/[「」『』]/g, "").trim();
+    const text = forTts(seg.text.replace(/[「」『』]/g, "").trim());
     if (text) parts.push(await synth(text, v));
   }
   const out = join(tmp, `${String(i + 1).padStart(3, "0")}.wav`);
